@@ -57,7 +57,7 @@ Batch that can compile all the translated repository files into the games .DATs 
 
 - `GL6_CHAR.DAT` contains character models
 - `GL6_FACE.DAT` contains image files
-- `GL6_FILE.DAT` contains image and files
+- `GL6_FILE.DAT` contains image and various game files
 - `GL6_MAP.DAT` contains the map data
 - `GL6_MOV.DAT` contains the game cutscenes
 - `GL6_SCEN.DAT` contains the script files for Growlanser 6.
