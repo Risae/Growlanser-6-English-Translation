@@ -1,0 +1,1 @@
+# Growlanser-6-English-Translation
