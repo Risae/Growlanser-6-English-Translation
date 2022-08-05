@@ -1,24 +1,5 @@
 Visit https://growlanser6english.blogspot.com/ and https://discord.gg/59Nw2U2 for more information.
 
-<details> <summary>Source folder</summary>
-
-- `GL6_CHAR.DAT` contains character models
-- `GL6_FACE.DAT` contains image files
-- `GL6_FILE.DAT` contains image and files
-- `GL6_MAP.DAT` contains the map data
-- `GL6_MOV.DAT` contains the game cutscenes
-- `GL6_SCEN.DAT` contains the script files for Growlanser 6.
-- `SLPM_667.16` contains information on changes to the ELF of the game.
-
-Naming convention for `GL6_SCEN.DAT` script files:
-
-- `[ONGOING]` This file still needs to be fully translated
-- `[TRANSLATED]` This file has been translated and needs to be edited
-- `[EDITED]` This file has been translated and edited and needs to be proofread
-- `[PROOFREAD]` This file has been translated, edited and proofread
-
-</details>
-
 <details> <summary>Build folder</summary>
 
 Batch that can compile all the translated repository files into the games .DATs and ELF. The following is a list of files that need to be imported into the .DATs:
@@ -69,6 +50,25 @@ Batch that can compile all the translated repository files into the games .DATs 
 
 - `SLPM_667.16_translation.asm` Translation and other fixes for the ELF
 - `SLPM_667.16_VWF.asm` VWF for the game
+
+</details>
+
+<details> <summary>Source folder</summary>
+
+- `GL6_CHAR.DAT` contains character models
+- `GL6_FACE.DAT` contains image files
+- `GL6_FILE.DAT` contains image and files
+- `GL6_MAP.DAT` contains the map data
+- `GL6_MOV.DAT` contains the game cutscenes
+- `GL6_SCEN.DAT` contains the script files for Growlanser 6.
+- `SLPM_667.16` contains information on changes to the ELF of the game.
+
+Naming convention for `GL6_SCEN.DAT` script files:
+
+- `[ONGOING]` This file still needs to be fully translated
+- `[TRANSLATED]` This file has been translated and needs to be edited
+- `[EDITED]` This file has been translated and edited and needs to be proofread
+- `[PROOFREAD]` This file has been translated, edited and proofread
 
 </details>
 
