@@ -46,18 +46,7 @@ SPACEFWSPACE
 
 ##### Find unnecessary Standard color code at the end of a string #####
 
-
 [COL00][END-FE]
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -209,13 +198,6 @@ SPACEFWSPACE
 [a-zA-Z0-9\!\?\.\,\(\)]》
 
 
-
-
 This one excludes everything that has english characters
 (?![a-zA-Z0-9\!\?\.\,\(\)])[？]
 (?![a-zA-Z0-9!?])[？！。、]
-
-
-
-
-
