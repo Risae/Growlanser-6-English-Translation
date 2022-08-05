@@ -1,6 +1,6 @@
 Visit https://growlanser6english.blogspot.com/ and https://discord.gg/59Nw2U2 for more information.
 
-<details> <summary>`Source` folder</summary>
+<details> <summary>Source folder</summary>
 
 - `GL6_CHAR.DAT` contains character models
 - `GL6_FACE.DAT` contains image files
@@ -19,7 +19,7 @@ Naming convention for `GL6_SCEN.DAT` script files:
 
 </details>
 
-<details> <summary>`Build` folder</summary>
+<details> <summary>Build folder</summary>
 
 Batch that can compile all the translated repository files into the games .DATs and ELF. The following is a list of files that need to be imported into the .DATs:
 
@@ -72,13 +72,13 @@ Batch that can compile all the translated repository files into the games .DATs 
 
 </details>
 
-<details> <summary>`Tools` folder</summary>
+<details> <summary>Tools folder</summary>
 
 Contains various tools and scripts used in the Growlanser 6 translation.
 
 </details>
 
-<details> <summary>`Translation Guide` folder</summary>
+<details> <summary>Translation Guide folder</summary>
 
 Contains Translation Guides and Manuals/Game Guides used in the Growlanser 6 translation.
 
