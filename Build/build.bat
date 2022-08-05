@@ -1,13 +1,4 @@
-:::::Logfile command that is currently disabled:::::
-::set LOGFILE=batch.log
-::call :LOG > %LOGFILE%
-::exit /B
-
-:::LOG
-
-
 ::Path to the repository (1 folder above)
-::SET GITHUBPATH=<PATH TO REPOSITORY>
 for %%i in ("%~dp0..") do set "GITHUBPATH=%%~fi"
 
 ::Set Strawberry Portable Path
@@ -26,9 +17,7 @@ rmdir /s /q "%GITHUBPATH%\Build\05-build"
 mkdir "%GITHUBPATH%\Build\05-build"
 
 
-
-
-:::::SLPM_667.16 SCRIPT:::::
+::SLPM_667.16
 
 ::Delete old armips files and copy repository files plus ELF to armips folder
 del "%GITHUBPATH%\Build\01-armips-v0.11.0-windows-x86\SLPM_667.16_translation.asm"
@@ -49,9 +38,7 @@ armips.exe SLPM_667.16_VWF.asm
 copy /y "%GITHUBPATH%\Build\01-armips-v0.11.0-windows-x86\SLPM_667.16" "%GITHUBPATH%\Build\SLPM_667.16"
 
 
-
-
-:::::GL6_FACE.DAT SCRIPT:::::
+::GL6_FACE.DAT
 
 ::delete old FACE.DAT and Copy FACE.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\Build\05-build\GL6_FACE.DAT"
@@ -84,9 +71,7 @@ quickbms -w -r -r growlanser.bms "%GITHUBPATH%\Build\05-build\GL6_FACE.DAT" "%GI
 copy /y "%GITHUBPATH%\Build\05-build\GL6_FACE.DAT" "%GITHUBPATH%\Build\GL6_FACE.DAT"
 
 
-
-
-:::::GL6_FILE DAT SCRIPT:::::
+::GL6_FILE.DAT
 
 ::delete old FILE.DAT and Copy FILE.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\Build\05-build\GL6_FILE.DAT"
@@ -144,7 +129,6 @@ copy /y "%GITHUBPATH%\Build\04-Original files\GL6_FILE DAT\00000806.dat" "%GITHU
 "%GITHUBPATH%\Build\01-armips-v0.11.0-windows-x86\armips.exe" 00000806.asm
 del "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000806.asm
 
-
 ::Switch folder to quickbms and copy the growlanser.bms file to the folder
 cd /d "%GITHUBPATH%\Build\02-quickbms 0.11\"
 del "%GITHUBPATH%\Build\02-quickbms 0.11\growlanser.bms"
@@ -157,9 +141,7 @@ quickbms -w -r -r growlanser.bms "%GITHUBPATH%\Build\05-build\GL6_FILE.DAT" "%GI
 copy /y "%GITHUBPATH%\Build\05-build\GL6_FILE.DAT" "%GITHUBPATH%\Build\GL6_FILE.DAT"
 
 
-
-
-:::::SCEN.DAT SCRIPT:::::
+::SCEN.DAT
 
 ::delete old SCEN.DAT and Copy SCEN.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\Build\05-build\GL6_SCEN.DAT"
@@ -371,9 +353,7 @@ quickbms -w -r -r growlanser.bms "%GITHUBPATH%\Build\05-build\GL6_SCEN.DAT" "%GI
 copy /y "%GITHUBPATH%\Build\05-build\GL6_SCEN.DAT" "%GITHUBPATH%\Build\GL6_SCEN.DAT"
 
 
-
-
-::Cleanup after all the files have been build
+::Cleanup after all the files have been compiled
 del "%GITHUBPATH%\Build\05-build\GL6_FACE.DAT"
 rmdir /s /q "%GITHUBPATH%\Build\05-build\GL6_FACE DAT"
 del "%GITHUBPATH%\Build\05-build\GL6_FILE.DAT"
