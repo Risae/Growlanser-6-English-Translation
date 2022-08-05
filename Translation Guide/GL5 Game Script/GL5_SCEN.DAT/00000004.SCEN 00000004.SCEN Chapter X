@@ -1,0 +1,911 @@
+
+
+//POINTER #0 @ $4520 - STRING #0 @ $4660
+#W32($4520)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $4524 - STRING #1 @ $4663
+#W32($4524)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $4528 - STRING #2 @ $4670
+#W32($4528)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $452C - STRING #3 @ $4695
+#W32($452C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $4530 - STRING #4 @ $46BA
+#W32($4530)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $4534 - STRING #5 @ $46CF
+#W32($4534)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $4538 - STRING #6 @ $4704
+#W32($4538)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $453C - STRING #7 @ $4739
+#W32($453C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $4540 - STRING #8 @ $475E
+#W32($4540)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $4544 - STRING #9 @ $4783
+#W32($4544)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $4548 - STRING #10 @ $47A8
+#W32($4548)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $454C - STRING #11 @ $47BD
+#W32($454C)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #12 @ $4550 - STRING #12 @ $47E4
+#W32($4550)
+//現在、この先で演習を行っている。[NLINE]
+//そのため、一般人は立ち入れない。[NLINE]
+//戻りたまえ。[END-FE]
+We're holding training exercises[NLINE]
+up ahead. No civilians are[NLINE]
+allowed. Please turn back now.[END-FE]
+
+
+
+
+
+//POINTER #13 @ $4554 - STRING #13 @ $4837
+#W32($4554)
+//グランゲイルの監視哨だ。[NLINE]
+//下手に刺激するのはまずい。[END-FE]
+A Grangale outpost... We[NLINE]
+shouldn't provoke them.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $4558 - STRING #14 @ $486E
+#W32($4558)
+//引き潮の時にだけ出来る海の道…。[NLINE]
+//たしかこの辺りだ。[END-FE]
+The road that appears at[NLINE]
+ebb tide... It's around here.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $455C - STRING #15 @ $48A5
+#W32($455C)
+//海岸へ出てみよう。[END-FE]
+Let's go to the shore.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $4560 - STRING #16 @ $48BA
+#W32($4560)
+//大丈夫だったか、アイザック？[END-FE]
+Are you all right, Isaac?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $4564 - STRING #17 @ $48D9
+#W32($4564)
+//ああ、この小手が…[NLINE]
+//…妻が守ってくれた…。[END-FE]
+Yeah, the gauntlet...[NLINE]
+My wife saved me.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $4568 - STRING #18 @ $4906
+#W32($4568)
+//宝石が取れてしまったな。[END-FE]
+The gem came off...[END-FE]
+
+
+
+
+
+//POINTER #19 @ $456C - STRING #19 @ $4921
+#W32($456C)
+//仕方ないさ。[NLINE]
+//無事だっただけ[NLINE]
+//よかったと思わないとな。[NWIN]
+//
+//それより、あの子は？[END-FE]
+Well, I can't complain.[NLINE]
+I'm just glad we're[NLINE]
+still in one piece.[NWIN]
+
+Where'd that girl get to?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $4570 - STRING #20 @ $4970
+#W32($4570)
+//どこかに行ってしまったようだな。[NLINE]
+//無事だといいが……。[END-FE]
+I didn't see...[NLINE]
+I hope she's safe.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $4574 - STRING #21 @ $49A9
+#W32($4574)
+//そうだな。[NWIN]
+//
+//さて、目的の物も手に入ったし、[NLINE]
+//博士のところに戻ろうぜ。[END-FE]
+Yeah.[NWIN]
+
+We got what we came for.[NLINE]
+Let's bring this to Pernagi.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $4578 - STRING #22 @ $49F0
+#W32($4578)
+//無事、つる草を手に入れたセルディス達は、[NLINE]
+//急ぎペルナギ博士の元へと帰還した。　　　[END-FE]
+Seldous and Isaac hurried to present[NLINE]
+the vines they found to Pernagi.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $457C - STRING #23 @ $4A45
+#W32($457C)
+//スクリーパーがいるかもしれない。[NLINE]
+//つる草も手に入れたし、[NLINE]
+//引き返すのは止めておこう。[END-FE]
+We've got the vines. Let's[NLINE]
+not risk more Screaper[NLINE]
+attacks by going back in.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4580 - STRING #24 @ $4A9C
+#W32($4580)
+//カイザリス島へ続く道……。[NLINE]
+//これのようだな。[END-FE]
+The road to Kaiseris[NLINE]
+Island... This must be it.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4584 - STRING #25 @ $4ACB
+#W32($4584)
+//潮が満ちる前に戻らねばならないな。[NLINE]
+//時間との勝負だ。[END-FE]
+We have to get back before the[NLINE]
+tide comes in. It'll be tight.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4588 - STRING #26 @ $4B02
+#W32($4588)
+//海の中の道だ。[NLINE]
+//スクリーパーとの遭遇は十分に考えられる。[NWIN]
+//
+//気をつけて行こうぜ。[END-FE]
+The road goes through the ocean.[NLINE]
+Be ready for a Screaper attack.[NWIN]
+
+Don't let your guard down.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $458C - STRING #27 @ $4B53
+#W32($458C)
+//ここから東へ行くとガイラナックへ着けるが…。[NWIN]
+//
+//グランゲイル軍とはちあわせするかもしれない。[NLINE]
+//今はやめておこう。[END-FE]
+Geilenach is east of here...[NWIN]
+
+But we should avoid it. We don't[NLINE]
+want to run into Grangale's army.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4590 - STRING #28 @ $4BC4
+#W32($4590)
+//[CHAR0800][V1300]
+//この光の壁は、いったい何なんだろうな。[NLINE]
+//魔力が噴出しているのか？[NLINE]
+//いや、逆に降り注いでいるようにも見える……。[END-FE]
+[CHAR0800][V1300]
+What's this wall of light? The[NLINE]
+remnants of some spell? It looks[NLINE]
+like light's raining from the sky...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4594 - STRING #29 @ $4C3D
+#W32($4594)
+//[CHAR0800][V1400]
+//はるか昔、[NLINE]
+//この辺りでは人間とスクリーパーとの[NLINE]
+//壮絶な戦いがあったそうだ。[NWIN]
+//
+//[CHAR0800][V1500]
+//そのスクリーパーは山ほどもある大きさで、[NLINE]
+//人間側は絶滅の危機に瀕していた。[NWIN]
+//
+//[CHAR0800][V1600]
+//そのとき、人間が神に願うと[NLINE]
+//天から光の柱が降り注ぎ、[NLINE]
+//巨大なスクリーパーを押しつぶし、[NLINE]
+//地の底に沈めた……。[NWIN]
+//
+//[CHAR0800][V1700]
+//ちょうどこの辺りに伝わるおとぎ話だ。[END-FE]
+[CHAR0800][V1400]
+Long ago, there was a fierce battle[NLINE]
+between mankind and a Screaper here.[NWIN]
+
+[CHAR0800][V1500]
+The Screaper was the size of a mountain,[NLINE]
+and threatened all of humanity.[NWIN]
+
+[CHAR0800][V1600]
+When humans prayed for the gods'[NLINE]
+blessing, a pillar of light fell from the sky[NLINE]
+and drove the Screaper underground.[NWIN]
+
+[CHAR0800][V1700]
+That's the legend, anyway.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4598 - STRING #30 @ $4D8A
+#W32($4598)
+//[CHAR0800][V1800]
+//天から降り注いだ光の柱か……。[NLINE]
+//案外、我々が修復している兵器が[NLINE]
+//それかも知れんな。[END-FE]
+[CHAR0800][V1800]
+A pillar of light from the sky...[NLINE]
+Perhaps that's the weapon[NLINE]
+we're trying to restore.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $459C - STRING #31 @ $4DE7
+#W32($459C)
+//[CHAR0800][V1900]
+//…ふっ、それも面白い。[END-FE]
+[CHAR0800][V1900]
+Heh... That'd be something.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $45A0 - STRING #32 @ $4E08
+#W32($45A0)
+//どこに行くんだ？[NLINE]
+//まだ送魔ケーブルに使う[NLINE]
+//つる草を採取していないぜ？[END-FE]
+Where are you going?[NLINE]
+We don't have the vines[NLINE]
+we came for.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $45A4 - STRING #33 @ $4E4F
+#W32($45A4)
+//水晶に巻き付くように生えているつる草だ。[NLINE]
+//水晶の中に根をはり、　　　　　　　　　　[NLINE]
+//内部のエネルギーを吸っているようだ。　　[END-FE]
+Vines are twining around the crystals, [NLINE]
+draining energy through their roots.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $45A8 - STRING #34 @ $4ECE
+#W32($45A8)
+//[CHAR0800][V1A00]
+//博士の言っていたつる草は[NLINE]
+//これのことだな？[END-FE]
+[CHAR0800][V1A00]
+This must be the vine[NLINE]
+Prof. Pernagi mentioned.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $45AC - STRING #35 @ $4F03
+#W32($45AC)
+//[CHAR0800][V1B00]
+//どうやらそのようだな。[NLINE]
+//こんな種類のつる草は見たことがない。[END-FE]
+[CHAR0800][V1B00]
+I'd say so. I've never[NLINE]
+seen vines like these.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $45B0 - STRING #36 @ $4F4A
+#W32($45B0)
+//[CHAR0800][V1C00]
+//よし、手分けして採取しよう。[END-FE]
+[CHAR0800][V1C00]
+Let's split up to gather them.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $45B4 - STRING #37 @ $4F71
+#W32($45B4)
+//これであの兵器の修復も進むな。[END-FE]
+We're so close to[NLINE]
+repairing that weapon...[END-FE]
+
+
+
+
+
+//POINTER #38 @ $45B8 - STRING #38 @ $4F92
+#W32($45B8)
+//[CHAR0800][V1D00]
+//ん？[END-FE]
+[CHAR0800][V1D00]
+Hm?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $45BC - STRING #39 @ $4FA1
+#W32($45BC)
+//………。[END-FE]
+......[END-FE]
+
+
+
+
+
+//POINTER #40 @ $45C0 - STRING #40 @ $4FAC
+#W32($45C0)
+//[CHAR0800][V1E00]
+//女の子？[NLINE]
+//どうして、こんなところに？[END-FE]
+[CHAR0800][V1E00]
+A girl? What's[NLINE]
+she doing here?[END-FE]
+
+
+
+
+
+//POINTER #41 @ $45C4 - STRING #41 @ $4FDB
+#W32($45C4)
+//[CHAR0800][V1F00]
+//おい、アイザック！[END-FE]
+[CHAR0800][V1F00]
+Hey, Isaac![END-FE]
+
+
+
+
+
+//POINTER #42 @ $45C8 - STRING #42 @ $4FF8
+#W32($45C8)
+//[CHAR0800][V2000]
+//どうした、セルディス？[END-FE]
+[CHAR0800][V2000]
+What's up?[END-FE]
+
+
+
+
+
+//POINTER #43 @ $45CC - STRING #43 @ $5019
+#W32($45CC)
+//[CHAR0800][V2100]
+//子供？[END-FE]
+[CHAR0800][V2100]
+A kid?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $45D0 - STRING #44 @ $502A
+#W32($45D0)
+//[CHAR0800][V2200]
+//どうやって入ったんだ？[END-FE]
+[CHAR0800][V2200]
+How did she get in there?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $45D4 - STRING #45 @ $504B
+#W32($45D4)
+//[CHAR0800][V2300]
+//おっと！[END-FE]
+[CHAR0800][V2300]
+Whoa![END-FE]
+
+
+
+
+
+//POINTER #46 @ $45D8 - STRING #46 @ $505E
+#W32($45D8)
+//………。[END-FE]
+......[END-FE]
+
+
+
+
+
+//POINTER #47 @ $45DC - STRING #47 @ $5069
+#W32($45DC)
+//[CHAR0800][V2400]
+//簡単に開いたな？[END-FE]
+[CHAR0800][V2400]
+It opened so easily.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $45E0 - STRING #48 @ $5084
+#W32($45E0)
+//[CHAR0800][V2500]
+//ひょっとして、[NLINE]
+//こちら側からしか開かないのかもな。[END-FE]
+[CHAR0800][V2500]
+Maybe it can only be[NLINE]
+opened from this side.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $45E4 - STRING #49 @ $50C1
+#W32($45E4)
+//[CHAR0800][V2600]
+//なるほど、[NLINE]
+//それで閉じ込められたのか。[END-FE]
+[CHAR0800][V2600]
+I see... So she[NLINE]
+was shut in?[END-FE]
+
+
+
+
+
+//POINTER #50 @ $45E8 - STRING #50 @ $50F2
+#W32($45E8)
+//[CHAR0800][V2700]
+//何にしても俺たちが[NLINE]
+//偶然来たからいいようなものの……。[END-FE]
+[CHAR0800][V2700]
+Good thing for her[NLINE]
+we dropped by.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $45EC - STRING #51 @ $5133
+#W32($45EC)
+//[CHAR0800][V2800]
+//スクリーパー!?[END-FE]
+[CHAR0800][V2800]
+Screapers!?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $45F0 - STRING #52 @ $514C
+#W32($45F0)
+//[CHAR0800][V2900]
+//セルディス、この子を頼む！[END-FE]
+[CHAR0800][V2900]
+Seldous! Take the kid![END-FE]
+
+
+
+
+
+//POINTER #53 @ $45F4 - STRING #53 @ $5171
+#W32($45F4)
+//[CHAR0800][V2A00]
+//お嬢ちゃん、先に行きなさい！[NLINE]
+//ここは私たちが食い止める！[END-FE]
+[CHAR0800][V2A00]
+Go on, little one.[NLINE]
+We'll buy you time![END-FE]
+
+
+
+
+
+//POINTER #54 @ $45F8 - STRING #54 @ $51B4
+#W32($45F8)
+//……。[END-FE]
+......[END-FE]
+
+
+
+
+
+//POINTER #55 @ $45FC - STRING #55 @ $51BD
+#W32($45FC)
+//[CHAR0800][V2C00]
+//さ、行って！[END-FE]
+[CHAR0800][V2C00]
+Go, now![END-FE]
+
+
+
+
+
+//POINTER #56 @ $4600 - STRING #56 @ $51D4
+#W32($4600)
+//[CHAR0800][V2D00]
+//アイザック、大丈夫か!?[END-FE]
+[CHAR0800][V2D00]
+Are you all right, Isaac?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $4604 - STRING #57 @ $51F5
+#W32($4604)
+//[CHAR0800][V2E00]
+//さすがに、この数を相手にはできないな。[NLINE]
+//俺たちも逃げよう。[END-FE]
+[CHAR0800][V2E00]
+We can't deal with this many[NLINE]
+of them. We should go.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $4608 - STRING #58 @ $523A
+#W32($4608)
+//デバッグ部屋へ行く？[END-FE]
+デバッグ部屋へ行く？[END-FE]
+
+
+
+
+
+//POINTER #59 @ $460C - STRING #59 @ $5251
+#W32($460C)
+//自動Ｄ　Ｒ１マザ子救出戦前[END-FE]
+自動Ｄ　Ｒ１マザ子救出戦前[END-FE]
+
+
+
+
+
+//POINTER #60 @ $4610 - STRING #60 @ $526E
+#W32($4610)
+//気をつけろ、セルディス！[NLINE]
+//スクリーパーが追ってくるぞ！[END-FE]
+Watch it, Seldous! The[NLINE]
+Screapers are after us![END-FE]
+
+
+
+
+
+//POINTER #61 @ $4614 - STRING #61 @ $52A7
+#W32($4614)
+//ああ、一気に駆け抜けよう！[END-FE]
+Let's make a run for it![END-FE]
+
+
+
+
+
+//POINTER #62 @ $4618 - STRING #62 @ $52C4
+#W32($4618)
+//・少女脱出後、セルディスが脱出[END-FE]
+・The girl and Seldous escape[END-FE]
+
+
+
+
+
+//POINTER #63 @ $461C - STRING #63 @ $52E5
+#W32($461C)
+//・少女の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The girl dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #64 @ $4620 - STRING #64 @ $5308
+#W32($4620)
+//！[END-FE]
+！[END-FE]
+
+
+
+
+
+//POINTER #65 @ $4624 - STRING #65 @ $530D
+#W32($4624)
+//おい、あの子が危ないぞ！[NWIN]
+//
+//俺が援護する！[NLINE]
+//お前とあの子は陸まで走るんだ！[END-FE]
+The girl's in danger![NWIN]
+
+Take her and run for the[NLINE]
+mainland! I'll cover you![END-FE]
+
+
+
+
+
+//POINTER #66 @ $4628 - STRING #66 @ $5358
+#W32($4628)
+//しまった……。[END-FE]
+Damn......[END-FE]
+
+
+
+
+
+//POINTER #67 @ $462C - STRING #67 @ $5369
+#W32($462C)
+//や、やれたのか！！[END-FE]
+W-We did it![END-FE]
+
+
+
+
+
+//POINTER #68 @ $4630 - STRING #68 @ $537E
+#W32($4630)
+//倒せたのか！[NLINE]
+//くぅ、自分でも信じられないぜ！！[END-FE]
+I nailed it! Man, even[NLINE]
+I can't believe I did that![END-FE]
+
+
+
+
+
+//POINTER #69 @ $4634 - STRING #69 @ $53AF
+#W32($4634)
+//よしっ！！[END-FE]
+Good![END-FE]
+
+
+
+
+
+//POINTER #70 @ $4638 - STRING #70 @ $53BC
+#W32($4638)
+//見たかっ！！[END-FE]
+You see that?[END-FE]
+
+
+
+
+
+//POINTER #71 @ $463C - STRING #71 @ $53CB
+#W32($463C)
+//よし、あの子は無事に逃げられたようだな。[NLINE]
+//後は我々の番だ。[END-FE]
+The girl is clear. We should[NLINE]
+get out of here too.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $4640 - STRING #72 @ $5408
+#W32($4640)
+//よし、あの子は無事に逃げたな。[NLINE]
+//俺たちも逃げるとしようぜ。[END-FE]
+Good, the girl got away.[NLINE]
+We should be off, too.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $4644 - STRING #73 @ $5445
+#W32($4644)
+//まだあの子が逃げられていない。[NLINE]
+//置いていくわけにはいかないな。[END-FE]
+The girl hasn't escaped yet.[NLINE]
+We can't leave her behind.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $4648 - STRING #74 @ $5486
+#W32($4648)
+//よし、我々も脱出だ！[END-FE]
+Time for us to escape![END-FE]
+
+
+
+
+
+//POINTER #75 @ $464C - STRING #75 @ $549D
+#W32($464C)
+//配置パターンを選んで[END-FE]
+配置パターンを選んで[END-FE]
+
+
+
+
+
+//POINTER #76 @ $4650 - STRING #76 @ $54B4
+#W32($4650)
+//・Ａパターン[END-FE]
+・Ａパターン[END-FE]
+
+
+
+
+
+//POINTER #77 @ $4654 - STRING #77 @ $54C3
+#W32($4654)
+//・Ｂパターン[END-FE]
+・Ｂパターン[END-FE]
+
+
+
+
+
+//POINTER #78 @ $4658 - STRING #78 @ $54D2
+#W32($4658)
+//デバッグ部屋行く？[END-FE]
+デバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #79 @ $465C - STRING #79 @ $54E7
+#W32($465C)
+//Ｄ　Ｒ１＿Ｆ５[END-FE]
+Ｄ　Ｒ１＿Ｆ５[END-FE]

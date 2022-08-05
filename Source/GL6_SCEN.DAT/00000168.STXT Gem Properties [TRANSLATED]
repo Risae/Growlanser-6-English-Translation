@@ -1,0 +1,1132 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $290, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($290)
+#HDR($290)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $290
+#W32($A0)
+//炎のルーン[END-FF]
+Fire Rune[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $29D
+#W32($A4)
+//風のルーン[END-FF]
+Wind Rune[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $2AA
+#W32($A8)
+//雷のルーン[END-FF]
+Lightning Rune[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $2B7
+#W32($AC)
+//氷のルーン[END-FF]
+Ice Rune[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $2C4
+#W32($B0)
+//地のルーン[END-FF]
+Earth Rune[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $2D1
+#W32($B4)
+//聖のルーン[END-FF]
+Holy Rune[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $2DE
+#W32($B8)
+//心のルーン[END-FF]
+Spirit Rune[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $2EB
+#W32($BC)
+//炎属性無効化[END-FF]
+Null Fire[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $2FA
+#W32($C0)
+//風属性無効化[END-FF]
+Null Wind[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $309
+#W32($C4)
+//雷属性無効化[END-FF]
+Null Lightning[END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $318
+#W32($C8)
+//氷属性無効化[END-FF]
+Null Ice[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $327
+#W32($CC)
+//地属性無効化[END-FF]
+Null Earth[END-FF]
+
+
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $336
+#W32($D0)
+//聖属性無効化[END-FF]
+Null Holy[END-FF]
+
+
+
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $345
+#W32($D4)
+//心属性無効化[END-FF]
+Null Spirit[END-FF]
+
+
+
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $354
+#W32($D8)
+//吹雪のルーン[END-FF]
+Blizzard Rune[END-FF]
+
+
+
+
+
+//POINTER #15 @ $DC - STRING #15 @ $363
+#W32($DC)
+//溶岩のルーン[END-FF]
+Magma Rune[END-FF]
+
+
+
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $372
+#W32($E0)
+//春雷のルーン[END-FF]
+Electric Rune[END-FF]
+
+
+
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $381
+#W32($E4)
+//精霊のルーン[END-FF]
+Soul Rune[END-FF]
+
+
+
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $390
+#W32($E8)
+//妖精のルーン[END-FF]
+Fairy Rune[END-FF]
+
+
+
+
+
+//POINTER #19 @ $EC - STRING #19 @ $39F
+#W32($EC)
+//魔力霧散[END-FF]
+Magic Shield[END-FF]
+
+
+
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $3AA
+#W32($F0)
+//魔力霧散・改[END-FF]
+Magic Shield EX[END-FF]
+
+
+
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $3B9
+#W32($F4)
+//暗殺技術[END-FF]
+Assassin Strike[END-FF]
+
+
+
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $3C4
+#W32($F8)
+//テリアカ[END-FF]
+Theriaca[END-FF]
+
+
+
+
+
+//POINTER #23 @ $FC - STRING #23 @ $3CF
+#W32($FC)
+//毒攻撃[END-FF]
+Poison Attack[END-FF]
+
+
+
+
+
+//POINTER #24 @ $100 - STRING #24 @ $3D8
+#W32($100)
+//猛毒攻撃[END-FF]
+Venom Attack[END-FF]
+
+
+
+
+
+//POINTER #25 @ $104 - STRING #25 @ $3E3
+#W32($104)
+//マヒ攻撃[END-FF]
+Paralysis Attack[END-FF]
+
+
+
+
+
+//POINTER #26 @ $108 - STRING #26 @ $3EE
+#W32($108)
+//石化攻撃[END-FF]
+Petrify Attack[END-FF]
+
+
+
+
+
+//POINTER #27 @ $10C - STRING #27 @ $3F9
+#W32($10C)
+//魔王の呪い[END-FF]
+Overlord's Curse[END-FF]
+
+
+
+
+
+//POINTER #28 @ $110 - STRING #28 @ $406
+#W32($110)
+//ナイトメア[END-FF]
+Nightmare[END-FF]
+
+
+
+
+
+//POINTER #29 @ $114 - STRING #29 @ $413
+#W32($114)
+//再生能力[END-FF]
+Regeneration[END-FF]
+
+
+
+
+
+//POINTER #30 @ $118 - STRING #30 @ $41E
+#W32($118)
+//再生能力・改[END-FF]
+Regeneration EX[END-FF]
+
+
+
+
+
+//POINTER #31 @ $11C - STRING #31 @ $42D
+#W32($11C)
+//瞑想[END-FF]
+Meditation[END-FF]
+
+
+
+
+
+//POINTER #32 @ $120 - STRING #32 @ $434
+#W32($120)
+//再生能力・弱[END-FF]
+Regeneration Low[END-FF]
+
+
+
+
+
+//POINTER #33 @ $124 - STRING #33 @ $443
+#W32($124)
+//薬師の知恵[END-FF]
+Chemist's Art[END-FF]
+
+
+
+
+
+//POINTER #34 @ $128 - STRING #34 @ $450
+#W32($128)
+//治癒師の知恵[END-FF]
+Healer's Art[END-FF]
+
+
+
+
+
+//POINTER #35 @ $12C - STRING #35 @ $45F
+#W32($12C)
+//間接射程アップ[END-FF]
+Attack Range Up[END-FF]
+
+
+
+
+
+//POINTER #36 @ $130 - STRING #36 @ $470
+#W32($130)
+//魔法射程アップ[END-FF]
+Magic Range Up[END-FF]
+
+
+
+
+
+//POINTER #37 @ $134 - STRING #37 @ $481
+#W32($134)
+//ソニックブレード[END-FF]
+Sonic Blade[END-FF]
+
+
+
+
+
+//POINTER #38 @ $138 - STRING #38 @ $494
+#W32($138)
+//空蝉の術[END-FF]
+Shadow Spell[END-FF]
+
+
+
+
+
+//POINTER #39 @ $13C - STRING #39 @ $49F
+#W32($13C)
+//インターセプター[END-FF]
+Interceptor[END-FF]
+
+
+
+
+
+//POINTER #40 @ $140 - STRING #40 @ $4B2
+#W32($140)
+//武器威力アップ[END-FF]
+Weapon Damage Up[END-FF]
+
+
+
+
+
+//POINTER #41 @ $144 - STRING #41 @ $4C3
+#W32($144)
+//武器威力アップ・改[END-FF]
+Weapon Dmg Up EX[END-FF]
+
+
+
+
+
+//POINTER #42 @ $148 - STRING #42 @ $4D8
+#W32($148)
+//メイジスローター[END-FF]
+Mage Slaughter[END-FF]
+
+
+
+
+
+//POINTER #43 @ $14C - STRING #43 @ $4EB
+#W32($14C)
+//メタルキラー[END-FF]
+Armor Killer[END-FF]
+
+
+
+
+
+//POINTER #44 @ $150 - STRING #44 @ $4FA
+#W32($150)
+//必殺の一撃[END-FF]
+Deadly Rune[END-FF]
+
+
+
+
+
+//POINTER #45 @ $154 - STRING #45 @ $507
+#W32($154)
+//滅殺の一撃[END-FF]
+Fatal Rune[END-FF]
+
+
+
+
+
+//POINTER #46 @ $158 - STRING #46 @ $514
+#W32($158)
+//バランス崩し[END-FF]
+Balance Breaker[END-FF]
+
+
+
+
+
+//POINTER #47 @ $15C - STRING #47 @ $523
+#W32($15C)
+//バランス崩し・改[END-FF]
+Balance Breaker EX[END-FF]
+
+
+
+
+
+//POINTER #48 @ $160 - STRING #48 @ $536
+#W32($160)
+//硬直追加[END-FF]
+Balance Breaker ＋[END-FF]
+
+
+
+
+
+//POINTER #49 @ $164 - STRING #49 @ $541
+#W32($164)
+//ノックアウト[END-FF]
+Knockout[END-FF]
+
+
+
+
+
+//POINTER #50 @ $168 - STRING #50 @ $550
+#W32($168)
+//ノックアウト・改[END-FF]
+Knockout EX[END-FF]
+
+
+
+
+
+//POINTER #51 @ $16C - STRING #51 @ $563
+#W32($16C)
+//魂粉砕[END-FF]
+Soul Crusher[END-FF]
+
+
+
+
+
+//POINTER #52 @ $170 - STRING #52 @ $56C
+#W32($170)
+//昏倒[END-FF]
+Debilitator[END-FF]
+
+
+
+
+
+//POINTER #53 @ $174 - STRING #53 @ $573
+#W32($174)
+//苦行者の悟り[END-FF]
+Steadfast[END-FF]
+
+
+
+
+
+//POINTER #54 @ $178 - STRING #54 @ $582
+#W32($178)
+//返し刃[END-FF]
+Vengeful Blade[END-FF]
+
+
+
+
+
+//POINTER #55 @ $17C - STRING #55 @ $58B
+#W32($17C)
+//理力の刃[END-FF]
+Wisdom Blade[END-FF]
+
+
+
+
+
+//POINTER #56 @ $180 - STRING #56 @ $596
+#W32($180)
+//理力の鎧[END-FF]
+Wisdom Armor[END-FF]
+
+
+
+
+
+//POINTER #57 @ $184 - STRING #57 @ $5A1
+#W32($184)
+//血染めの刃[END-FF]
+Bloody Blade[END-FF]
+
+
+
+
+
+//POINTER #58 @ $188 - STRING #58 @ $5AE
+#W32($188)
+//吸血魔法[END-FF]
+Magic Drain[END-FF]
+
+
+
+
+
+//POINTER #59 @ $18C - STRING #59 @ $5B9
+#W32($18C)
+//ヴァンパイア[END-FF]
+Vampire[END-FF]
+
+
+
+
+
+//POINTER #60 @ $190 - STRING #60 @ $5C8
+#W32($190)
+//消費ＭＰ減少[END-FF]
+MP Cost Down[END-FF]
+
+
+
+
+
+//POINTER #61 @ $194 - STRING #61 @ $5D7
+#W32($194)
+//攻撃魔法ＭＰ減少[END-FF]
+Attack MP Down[END-FF]
+
+
+
+
+
+//POINTER #62 @ $198 - STRING #62 @ $5EA
+#W32($198)
+//回復魔法ＭＰ減少[END-FF]
+Heal MP Down[END-FF]
+
+
+
+
+
+//POINTER #63 @ $19C - STRING #63 @ $5FD
+#W32($19C)
+//受け流し[END-FF]
+Parry[END-FF]
+
+
+
+
+
+//POINTER #64 @ $1A0 - STRING #64 @ $608
+#W32($1A0)
+//魔力障壁[END-FF]
+Magic Barrier[END-FF]
+
+
+
+
+
+//POINTER #65 @ $1A4 - STRING #65 @ $613
+#W32($1A4)
+//マジックバリア[END-FF]
+Spell Barrier[END-FF]
+
+
+
+
+
+//POINTER #66 @ $1A8 - STRING #66 @ $624
+#W32($1A8)
+//魔力障壁・改[END-FF]
+Magic Barrier EX[END-FF]
+
+
+
+
+
+//POINTER #67 @ $1AC - STRING #67 @ $633
+#W32($1AC)
+//スキル効果増強[END-FF]
+Skill Effect Up[END-FF]
+
+
+
+
+
+//POINTER #68 @ $1B0 - STRING #68 @ $644
+#W32($1B0)
+//スキルＬｖアップ[END-FF]
+Skill Lv Up[END-FF]
+
+
+
+
+
+//POINTER #69 @ $1B4 - STRING #69 @ $657
+#W32($1B4)
+//魔法Ｌｖアップ[END-FF]
+Magic Lv Up[END-FF]
+
+
+
+
+
+//POINTER #70 @ $1B8 - STRING #70 @ $668
+#W32($1B8)
+//特技Ｌｖアップ[END-FF]
+Knack Lv Up[END-FF]
+
+
+
+
+
+//POINTER #71 @ $1BC - STRING #71 @ $679
+#W32($1BC)
+//魔力アップ[END-FF]
+Intelligence Up[END-FF]
+
+
+
+
+
+//POINTER #72 @ $1C0 - STRING #72 @ $686
+#W32($1C0)
+//魔力アップ・改[END-FF]
+Intelligence Up EX[END-FF]
+
+
+
+
+
+//POINTER #73 @ $1C4 - STRING #73 @ $697
+#W32($1C4)
+//陽炎[END-FF]
+Mirage[END-FF]
+
+
+
+
+
+//POINTER #74 @ $1C8 - STRING #74 @ $69E
+#W32($1C8)
+//ディスペル[END-FF]
+Dispel[END-FF]
+
+
+
+
+
+//POINTER #75 @ $1CC - STRING #75 @ $6AB
+#W32($1CC)
+//ミルアップ[END-FF]
+Mil Up[END-FF]
+
+
+
+
+
+//POINTER #76 @ $1D0 - STRING #76 @ $6B8
+#W32($1D0)
+//ラックアップ[END-FF]
+Luck Up[END-FF]
+
+
+
+
+
+//POINTER #77 @ $1D4 - STRING #77 @ $6C7
+#W32($1D4)
+//忍びの極意[END-FF]
+Thief's Art[END-FF]
+
+
+
+
+
+//POINTER #78 @ $1D8 - STRING #78 @ $6D4
+#W32($1D8)
+//ダブルドロップ[END-FF]
+Drop Up[END-FF]
+
+
+
+
+
+//POINTER #79 @ $1DC - STRING #79 @ $6E5
+#W32($1DC)
+//学習加速[END-FF]
+Knack Points Up[END-FF]
+
+
+
+
+
+//POINTER #80 @ $1E0 - STRING #80 @ $6F0
+#W32($1E0)
+//癒しの秘技[END-FF]
+Healing Skills[END-FF]
+
+
+
+
+
+//POINTER #81 @ $1E4 - STRING #81 @ $6FD
+#W32($1E4)
+//魔道の秘技[END-FF]
+Magic Skills[END-FF]
+
+
+
+
+
+//POINTER #82 @ $1E8 - STRING #82 @ $70A
+#W32($1E8)
+//魔導奥義[END-FF]
+Sorcery Skills[END-FF]
+
+
+
+
+
+//POINTER #83 @ $1EC - STRING #83 @ $715
+#W32($1EC)
+//アルヴィースの書[END-FF]
+Alviss' Memory[END-FF]
+
+
+
+
+
+//POINTER #84 @ $1F0 - STRING #84 @ $728
+#W32($1F0)
+//ＭＯＶ向上[END-FF]
+MOV Up[END-FF]
+
+
+
+
+
+//POINTER #85 @ $1F4 - STRING #85 @ $735
+#W32($1F4)
+//ＡＴＷ向上[END-FF]
+ATW Up[END-FF]
+
+
+
+
+
+//POINTER #86 @ $1F8 - STRING #86 @ $742
+#W32($1F8)
+//ＭＰ向上[END-FF]
+MP Up[END-FF]
+
+
+
+
+
+//POINTER #87 @ $1FC - STRING #87 @ $74D
+#W32($1FC)
+//ＨＰ向上[END-FF]
+HP Up[END-FF]
+
+
+
+
+
+//POINTER #88 @ $200 - STRING #88 @ $758
+#W32($200)
+//ＳＴＲ向上[END-FF]
+STR Up[END-FF]
+
+
+
+
+
+//POINTER #89 @ $204 - STRING #89 @ $765
+#W32($204)
+//ＡＴＫ向上[END-FF]
+ATK Up[END-FF]
+
+
+
+
+
+//POINTER #90 @ $208 - STRING #90 @ $772
+#W32($208)
+//ＩＮＴ向上[END-FF]
+INT Up[END-FF]
+
+
+
+
+
+//POINTER #91 @ $20C - STRING #91 @ $77F
+#W32($20C)
+//ＤＥＦ向上[END-FF]
+DEF Up[END-FF]
+
+
+
+
+
+//POINTER #92 @ $210 - STRING #92 @ $78C
+#W32($210)
+//ＤＥＸ向上[END-FF]
+DEX Up[END-FF]
+
+
+
+
+
+//POINTER #93 @ $214 - STRING #93 @ $799
+#W32($214)
+//隠密[END-FF]
+Muted[END-FF]
+
+
+
+
+
+//POINTER #94 @ $218 - STRING #94 @ $7A0
+#W32($218)
+//経験値アップ[END-FF]
+EXP Up[END-FF]
+
+
+
+
+
+//POINTER #95 @ $21C - STRING #95 @ $7AF
+#W32($21C)
+//Ｍ２[END-FF]
+M2 Amulet[END-FF]
+
+
+
+
+
+//POINTER #96 @ $220 - STRING #96 @ $7B6
+#W32($220)
+//真Ｍ２[END-FF]
+M2 Amulet[END-FF]
+
+
+
+
+
+//POINTER #97 @ $224 - STRING #97 @ $7BF
+#W32($224)
+//偽Ｍ２[END-FF]
+M2 Amulet[END-FF]
+
+
+
+
+
+//POINTER #98 @ $228 - STRING #98 @ $7C8
+#W32($228)
+//究極スキル奥義[END-FF]
+Skill Mastery[END-FF]
+
+
+
+
+
+//POINTER #99 @ $22C - STRING #99 @ $7D9
+#W32($22C)
+//究極魔法奥義[END-FF]
+Spell Mastery[END-FF]
+
+
+
+
+
+//POINTER #100 @ $230 - STRING #100 @ $7E8
+#W32($230)
+//究極特技奥義[END-FF]
+Knack Mastery[END-FF]
+
+
+
+
+
+//POINTER #101 @ $234 - STRING #101 @ $7F7
+#W32($234)
+//寡兵の技[END-FF]
+Defender[END-FF]
+
+
+
+
+
+//POINTER #102 @ $238 - STRING #102 @ $802
+#W32($238)
+//気絶耐久性向上[END-FF]
+Knockout Guard[END-FF]
+
+
+
+
+
+//POINTER #103 @ $23C - STRING #103 @ $813
+#W32($23C)
+//目覚めの歌[END-FF]
+Song of Awakening[END-FF]
+
+
+
+
+
+//POINTER #104 @ $240 - STRING #104 @ $820
+#W32($240)
+//活力の歌[END-FF]
+Song of Vitality[END-FF]
+
+
+
+
+
+//POINTER #105 @ $244 - STRING #105 @ $82B
+#W32($244)
+//喜びの歌[END-FF]
+Song of Joy[END-FF]
+
+
+
+
+
+//POINTER #106 @ $248 - STRING #106 @ $836
+#W32($248)
+//鈍痛の護符[END-FF]
+Dull Pain Amulet[END-FF]
+
+
+
+
+
+//POINTER #107 @ $24C - STRING #107 @ $843
+#W32($24C)
+//挑発[END-FF]
+Taunt[END-FF]
+
+
+
+
+
+//POINTER #108 @ $250 - STRING #108 @ $84A
+#W32($250)
+//沈静[END-FF]
+Defuse[END-FF]
+
+
+
+
+
+//POINTER #109 @ $254 - STRING #109 @ $851
+#W32($254)
+//回復性向上[END-FF]
+Increase Heal[END-FF]
+
+
+
+
+
+//POINTER #110 @ $258 - STRING #110 @ $85E
+#W32($258)
+//付与魔術破壊[END-FF]
+Dispel Attack[END-FF]
+
+
+
+
+
+//POINTER #111 @ $25C - STRING #111 @ $86D
+#W32($25C)
+//イージスの盾[END-FF]
+Aegis Shield[END-FF]
+
+
+
+
+
+//POINTER #112 @ $260 - STRING #112 @ $87C
+#W32($260)
+//精神燃焼[END-FF]
+Mental Shield[END-FF]
+
+
+
+
+
+//POINTER #113 @ $264 - STRING #113 @ $887
+#W32($264)
+//被害硬直短縮[END-FF]
+Stagger Guard[END-FF]
+
+
+
+
+
+//POINTER #114 @ $268 - STRING #114 @ $896
+#W32($268)
+//全硬直短縮[END-FF]
+Lightweight[END-FF]
+
+
+
+
+
+//POINTER #115 @ $26C - STRING #115 @ $8A3
+#W32($26C)
+//イーヴァルディ[END-FF]
+Ivaldi[END-FF]
+
+
+
+
+
+//POINTER #116 @ $270 - STRING #116 @ $8B4
+#W32($270)
+//オードレリル[END-FF]
+Audrelir[END-FF]
+
+
+
+
+
+//POINTER #117 @ $274 - STRING #117 @ $8C3
+#W32($274)
+//銀のエンブレム[END-FF]
+Silver Emblem[END-FF]
+
+
+
+
+
+//POINTER #118 @ $278 - STRING #118 @ $8D4
+#W32($278)
+//浸透剄[END-FF]
+Penetrator[END-FF]
+
+
+
+
+
+//POINTER #119 @ $27C - STRING #119 @ $8DD
+#W32($27C)
+//浸透剄・改[END-FF]
+Penetrator EX[END-FF]
+
+
+
+
+
+//POINTER #120 @ $280 - STRING #120 @ $8EA
+#W32($280)
+//夢の護宝[END-FF]
+Dream Ring[END-FF]
+
+
+
+
+
+//POINTER #121 @ $284 - STRING #121 @ $8F5
+#W32($284)
+//瞑想・改[END-FF]
+Meditation EX[END-FF]
+
+
+
+
+
+//POINTER #122 @ $288 - STRING #122 @ $900
+#W32($288)
+//魔力下げ[END-FF]
+Magic Down[END-FF]
+
+
+
+
+
+//POINTER #123 @ $28C - STRING #123 @ $90B
+#W32($28C)
+//強化ポイント加算[END-FF]
+Enhance Point Addition[END-FF]
+
+
+
+

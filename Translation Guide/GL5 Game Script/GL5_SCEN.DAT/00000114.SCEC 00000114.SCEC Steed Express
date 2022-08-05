@@ -1,0 +1,1182 @@
+
+
+//POINTER #0 @ $EA0 - STRING #0 @ $1010
+#W32($EA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $EA4 - STRING #1 @ $1013
+#W32($EA4)
+//キャリィ屋へようこそ！[NWIN]
+//
+//……えっ？[NLINE]
+//キャリィ屋を知らない？[NWIN]
+//
+//実は最近はじめたばかりの[NLINE]
+//商売なんですがね…、[NWIN]
+//
+//キャリィの背に乗って[NLINE]
+//目的地まで楽チン移動！[NLINE]
+//……という事なんですよ。[NWIN]
+//
+//今のところ試験的に[NLINE]
+//賃料は全国均一２５０Ыです！[END-FE]
+Welcome to the Steed Express![NWIN]
+
+...Huh? You don't know what[NLINE]
+a Steed Express is?[NWIN]
+
+Well, I did only just start[NLINE]
+this business...[NWIN]
+
+You can sit back and let a[NLINE]
+Steed carry you to your[NLINE]
+destination in comfort![NWIN]
+
+The introductory offer is 250Ы[NLINE]
+to anywhere in the continent![END-FE]
+
+
+
+
+
+//POINTER #2 @ $EA8 - STRING #2 @ $10FA
+#W32($EA8)
+//キャリィ屋へようこそ！[NLINE]
+//賃料は全国均一２５０Ыです！[END-FE]
+Welcome to the Steed Express![NLINE]
+250Ы to anywhere you want![END-FE]
+
+
+
+
+
+//POINTER #3 @ $EAC - STRING #3 @ $1131
+#W32($EAC)
+//そう言えば、ショップは[NLINE]
+//ご覧になりましたか？[NWIN]
+//
+//新しい商品が[NLINE]
+//入荷されたみたいですよ。[NWIN]
+//
+//せっかくなので、商品をのぞいてから、[NLINE]
+//遠出されては、いかがでしょう？[END-FE]
+By the way, have you seen[NLINE]
+the shops lately?[NWIN]
+
+Looks like they got new[NLINE]
+stuff in stock.[NWIN]
+
+You should visit 'em before[NLINE]
+you go for your ride.[END-FE]
+
+
+
+
+
+//POINTER #4 @ $EB0 - STRING #4 @ $11CE
+#W32($EB0)
+//そう言えば、みなさんに[NLINE]
+//耳寄りな情報がありますよ！[NWIN]
+//
+//ザーランバに新しい商品が[NLINE]
+//入荷されたってウワサです。[NWIN]
+//
+//立ち寄ってみては、[NLINE]
+//いかがですか？[END-FE]
+Oh, I have some great[NLINE]
+news for you all![NWIN]
+
+Rumor has it new items[NLINE]
+have arrived in Zaramba.[NWIN]
+
+You should see if anything[NLINE]
+there strikes your fancy.[END-FE]
+
+
+
+
+
+//POINTER #5 @ $EB4 - STRING #5 @ $125D
+#W32($EB4)
+//そう言えば、ショップは[NLINE]
+//ご覧になりましたか？[NWIN]
+//
+//大陸最高の品々が[NLINE]
+//入荷されていますよ。[NWIN]
+//
+//どうせなら、ショップに寄ってから、[NLINE]
+//遠出されては、いかがでしょう？[END-FE]
+You been to the[NLINE]
+shops lately?[NWIN]
+
+Some great stuff just[NLINE]
+came in there.[NWIN]
+
+You really should[NLINE]
+give it a look.[END-FE]
+
+
+
+
+
+//POINTER #6 @ $EB8 - STRING #6 @ $12F8
+#W32($EB8)
+//そう言えば、みなさんに[NLINE]
+//うれしい情報がありますよ！[NWIN]
+//
+//ワースリー村にすごい商品が[NLINE]
+//入荷されたってウワサです。[NWIN]
+//
+//大陸最高の品揃えらしいので、[NLINE]
+//立ち寄ってみては、いかがですか？[END-FE]
+Guess what! Some--[NLINE]
+Oh, you guessed.[NWIN]
+
+Yeah, this time it's the[NLINE]
+Warslee shops with new stuff.[NWIN]
+
+Couldn't hurt to go see[NLINE]
+what they've got in stock.[END-FE]
+
+
+
+
+
+//POINTER #7 @ $EBC - STRING #7 @ $13A5
+#W32($EBC)
+//現在運航している路線は次の通りです。[NLINE]
+//全国均一２５０Ы、[COL01]フリーパスがあれば[COL03]タダ[COL00]！[END-FE]
+Here are your options. 250Ы will get you[NLINE]
+anywhere, or it's [COL03]free[COL01] with a Steed Pass[COL00]![END-FE]
+
+
+
+
+
+//POINTER #8 @ $EC0 - STRING #8 @ $1401
+#W32($EC0)
+//・平和維持軍本部前[END-FE]
+・To the PMB[END-FE]
+
+
+
+
+
+//POINTER #9 @ $EC4 - STRING #9 @ $1416
+#W32($EC4)
+//・ワースリー前[END-FE]
+・To Warslee[END-FE]
+
+
+
+
+
+//POINTER #10 @ $EC8 - STRING #10 @ $1427
+#W32($EC8)
+//・リオレー前[END-FE]
+・To Rio Rey[END-FE]
+
+
+
+
+
+//POINTER #11 @ $ECC - STRING #11 @ $1436
+#W32($ECC)
+//・ゼルドック前[END-FE]
+・To Zerdok[END-FE]
+
+
+
+
+
+//POINTER #12 @ $ED0 - STRING #12 @ $1447
+#W32($ED0)
+//・ガイラナック前[END-FE]
+・To Geilenach[END-FE]
+
+
+
+
+
+//POINTER #13 @ $ED4 - STRING #13 @ $145A
+#W32($ED4)
+//・ザーランバ前[END-FE]
+・To Zaramba[END-FE]
+
+
+
+
+
+//POINTER #14 @ $ED8 - STRING #14 @ $146B
+#W32($ED8)
+//・ヤージェン前[END-FE]
+・To Jaergen[END-FE]
+
+
+
+
+
+//POINTER #15 @ $EDC - STRING #15 @ $147C
+#W32($EDC)
+//・フェルメンティア前[END-FE]
+・To Felmentia[END-FE]
+
+
+
+
+
+//POINTER #16 @ $EE0 - STRING #16 @ $1493
+#W32($EE0)
+//・ジュワイナ前[END-FE]
+・To Juwaina[END-FE]
+
+
+
+
+
+//POINTER #17 @ $EE4 - STRING #17 @ $14A4
+#W32($EE4)
+//・トトゥア前[END-FE]
+・To Totuwa[END-FE]
+
+
+
+
+
+//POINTER #18 @ $EE8 - STRING #18 @ $14B3
+#W32($EE8)
+//・乗らない[END-FE]
+・Don't ride[END-FE]
+
+
+
+
+
+//POINTER #19 @ $EEC - STRING #19 @ $14C0
+#W32($EEC)
+//『平和維持軍本部前』ですね。[END-FE]
+PMB Headquarters it is![END-FE]
+
+
+
+
+
+//POINTER #20 @ $EF0 - STRING #20 @ $14DF
+#W32($EF0)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $EF4 - STRING #21 @ $1510
+#W32($EF4)
+//『平和維持軍本部前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+PMB Headquarters it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #22 @ $EF8 - STRING #22 @ $1573
+#W32($EF8)
+//『平和維持軍本部前』ですね。[NWIN]
+//
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+PMB Headquarters it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $EFC - STRING #23 @ $15CA
+#W32($EFC)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $F00 - STRING #24 @ $15E7
+#W32($F00)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #25 @ $F04 - STRING #25 @ $15FE
+#W32($F04)
+//『ワースリー前』ですね。[END-FE]
+Warslee it is![END-FE]
+
+
+
+
+
+//POINTER #26 @ $F08 - STRING #26 @ $1619
+#W32($F08)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $F0C - STRING #27 @ $164A
+#W32($F0C)
+//『ワースリー前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Warslee it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #28 @ $F10 - STRING #28 @ $16A9
+#W32($F10)
+//『ワースリー前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Warslee it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $F14 - STRING #29 @ $16FC
+#W32($F14)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $F18 - STRING #30 @ $1719
+#W32($F18)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #31 @ $F1C - STRING #31 @ $1730
+#W32($F1C)
+//『リオレー前』ですね。[END-FE]
+Rio Rey it is![END-FE]
+
+
+
+
+
+//POINTER #32 @ $F20 - STRING #32 @ $1749
+#W32($F20)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $F24 - STRING #33 @ $177A
+#W32($F24)
+//『リオレー前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Rio Rey it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #34 @ $F28 - STRING #34 @ $17D7
+#W32($F28)
+//『リオレー前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Rio Rey it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $F2C - STRING #35 @ $1828
+#W32($F2C)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $F30 - STRING #36 @ $1845
+#W32($F30)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #37 @ $F34 - STRING #37 @ $185C
+#W32($F34)
+//『ゼルドック前』ですね。[END-FE]
+Zerdok it is![END-FE]
+
+
+
+
+
+//POINTER #38 @ $F38 - STRING #38 @ $1877
+#W32($F38)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $F3C - STRING #39 @ $18A8
+#W32($F3C)
+//『ゼルドック前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Zerdok it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #40 @ $F40 - STRING #40 @ $1907
+#W32($F40)
+//『ゼルドック前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Zerdok it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $F44 - STRING #41 @ $195A
+#W32($F44)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $F48 - STRING #42 @ $1977
+#W32($F48)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #43 @ $F4C - STRING #43 @ $198E
+#W32($F4C)
+//『ガイラナック前』ですね。[END-FE]
+Geilenach it is![END-FE]
+
+
+
+
+
+//POINTER #44 @ $F50 - STRING #44 @ $19AB
+#W32($F50)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $F54 - STRING #45 @ $19DC
+#W32($F54)
+//『ガイラナック前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Geilenach it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #46 @ $F58 - STRING #46 @ $1A3D
+#W32($F58)
+//『ガイラナック前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Geilenach it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $F5C - STRING #47 @ $1A92
+#W32($F5C)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $F60 - STRING #48 @ $1AAF
+#W32($F60)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #49 @ $F64 - STRING #49 @ $1AC6
+#W32($F64)
+//『ザーランバ前』ですね。[END-FE]
+Zaramba it is![END-FE]
+
+
+
+
+
+//POINTER #50 @ $F68 - STRING #50 @ $1AE1
+#W32($F68)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $F6C - STRING #51 @ $1B12
+#W32($F6C)
+//『ザーランバ前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Zaramba it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #52 @ $F70 - STRING #52 @ $1B71
+#W32($F70)
+//『ザーランバ前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Zaramba it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $F74 - STRING #53 @ $1BC4
+#W32($F74)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $F78 - STRING #54 @ $1BE1
+#W32($F78)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #55 @ $F7C - STRING #55 @ $1BF8
+#W32($F7C)
+//『ヤージェン前』ですね。[END-FE]
+Jaergen it is![END-FE]
+
+
+
+
+
+//POINTER #56 @ $F80 - STRING #56 @ $1C13
+#W32($F80)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $F84 - STRING #57 @ $1C44
+#W32($F84)
+//『ヤージェン前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Jaergen it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $F88 - STRING #58 @ $1CA3
+#W32($F88)
+//『ヤージェン前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Jaergen it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $F8C - STRING #59 @ $1CF6
+#W32($F8C)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $F90 - STRING #60 @ $1D13
+#W32($F90)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #61 @ $F94 - STRING #61 @ $1D2A
+#W32($F94)
+//『フェルメンティア前』ですね。[END-FE]
+Felmentia it is![END-FE]
+
+
+
+
+
+//POINTER #62 @ $F98 - STRING #62 @ $1D4B
+#W32($F98)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #63 @ $F9C - STRING #63 @ $1D7C
+#W32($F9C)
+//『フェルメンティア前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Felmentia it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #64 @ $FA0 - STRING #64 @ $1DE1
+#W32($FA0)
+//『フェルメンティア前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Felmentia it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $FA4 - STRING #65 @ $1E3A
+#W32($FA4)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #66 @ $FA8 - STRING #66 @ $1E57
+#W32($FA8)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #67 @ $FAC - STRING #67 @ $1E6E
+#W32($FAC)
+//『ジュワイナ前』ですね。[END-FE]
+Juwaina it is![END-FE]
+
+
+
+
+
+//POINTER #68 @ $FB0 - STRING #68 @ $1E89
+#W32($FB0)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $FB4 - STRING #69 @ $1EBA
+#W32($FB4)
+//『ジュワイナ前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Juwaina it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #70 @ $FB8 - STRING #70 @ $1F19
+#W32($FB8)
+//『ジュワイナ前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Juwaina it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $FBC - STRING #71 @ $1F6C
+#W32($FBC)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $FC0 - STRING #72 @ $1F89
+#W32($FC0)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #73 @ $FC4 - STRING #73 @ $1FA0
+#W32($FC4)
+//『トトゥア前』ですね。[END-FE]
+Totuwa it is![END-FE]
+
+
+
+
+
+//POINTER #74 @ $FC8 - STRING #74 @ $1FB9
+#W32($FC8)
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $FCC - STRING #75 @ $1FEA
+#W32($FCC)
+//『トトゥア前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+Totuwa it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $FD0 - STRING #76 @ $2047
+#W32($FD0)
+//『トトゥア前』ですね。[NLINE]
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[END-FE]
+Totuwa it is![NWIN]
+
+And the ride's free, too,[NLINE]
+with that Steed Pass.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $FD4 - STRING #77 @ $2098
+#W32($FD4)
+//さっそく出発なさいますか？[END-FE]
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #78 @ $FD8 - STRING #78 @ $20B5
+#W32($FD8)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #79 @ $FDC - STRING #79 @ $20CC
+#W32($FDC)
+//またのご利用を[NLINE]
+//お待ちしています！[END-FE]
+We'll always be here[NLINE]
+if you need us![END-FE]
+
+
+
+
+
+//POINTER #80 @ $FE0 - STRING #80 @ $20F1
+#W32($FE0)
+//これからは、各街の宿に[NLINE]
+//チェーン店を展開する予定です。[NLINE]
+//今後ともよろしく！[END-FE]
+I plan on franchising out to all the inns.[NLINE]
+Keep an eye out for us![END-FE]
+
+
+
+
+
+//POINTER #81 @ $FE4 - STRING #81 @ $213E
+#W32($FE4)
+//キャリィ屋へようこそ！[NWIN]
+//
+//……えっ？[NLINE]
+//キャリィ屋を知らない？[NWIN]
+//
+//実は最近はじめたばかりの[NLINE]
+//商売なんですがね…、[NWIN]
+//
+//キャリィの背に乗って[NLINE]
+//目的地まで楽チン移動！[NLINE]
+//…という事なんですが…、[NWIN]
+//
+//ただいまお貸し出来るキャリィが[NLINE]
+//全て出払っておりまして…。[NWIN]
+//
+//本当に申し訳ありません。[NWIN]
+//
+//これからは、各街の宿に[NLINE]
+//チェーン店を展開する予定です。[NLINE]
+//今後ともよろしく！[END-FE]
+Welcome to the Steed Express![NWIN]
+
+...Huh? You don't know what[NLINE]
+a Steed Express is?[NWIN]
+
+Well, I did only just start[NLINE]
+this business...[NWIN]
+
+You can sit back and let a[NLINE]
+Steed carry you in comfort![NLINE]
+...That's the idea, anyway...[NWIN]
+
+But all my Steeds are[NLINE]
+rented out right now...[NWIN]
+
+Sorry about that.[NWIN]
+
+I plan on franchising out to all the inns.[NLINE]
+Keep an eye out for us![END-FE]
+
+
+
+
+
+//POINTER #82 @ $FE8 - STRING #82 @ $2295
+#W32($FE8)
+//いらっしゃいませ、[NLINE]
+//キャリィ屋です！[NWIN]
+//
+//誠に申し訳ありませんが、[NLINE]
+//ただいまお貸し出来るキャリィが[NLINE]
+//全て出払っておりまして…。[NWIN]
+//
+//本当に申し訳ありません。[END-FE]
+Welcome to the Steed Express![NWIN]
+
+Sorry, but all my Steeds[NLINE]
+are rented out at the[NLINE]
+moment...[NWIN]
+
+Try again later, okay?[END-FE]
+
+
+
+
+
+//POINTER #83 @ $FEC - STRING #83 @ $232C
+#W32($FEC)
+//現在運航している路線は次の通りです。[NLINE]
+//全国均一２５０Ы、[COL01]フリーパスがあれば[COL03]タダ[COL00]！[END-FE]
+Here are your options. 250Ы will get you[NLINE]
+anywhere, or it's [COL03]free[COL01] with a Steed Pass[COL00]![END-FE]
+
+
+
+
+
+//POINTER #84 @ $FF0 - STRING #84 @ $2388
+#W32($FF0)
+//・平和維持軍本部前[END-FE]
+・To the PMB[END-FE]
+
+
+
+
+
+//POINTER #85 @ $FF4 - STRING #85 @ $239D
+#W32($FF4)
+//・乗らない[END-FE]
+・Don't ride[END-FE]
+
+
+
+
+
+//POINTER #86 @ $FF8 - STRING #86 @ $23AA
+#W32($FF8)
+//『平和維持軍本部前』ですね。[NWIN]
+//
+//賃料は２５０Ыになりますが、[NLINE]
+//よろしいですか？[END-FE]
+PMB Headquarters it is![NWIN]
+
+The fare'll be 250Ы.[NLINE]
+That all right with you?[END-FE]
+
+
+
+
+
+//POINTER #87 @ $FFC - STRING #87 @ $23F9
+#W32($FFC)
+//『平和維持軍本部前』ですね。[NLINE]
+//賃料は２５０Ыになりますが…。[NWIN]
+//
+//え？[NLINE]
+//持ち合わせがない？[NWIN]
+//
+//………。[END-FE]
+PMB Headquarters it is![NLINE]
+The fare'll be 250Ы...[NWIN]
+
+Huh? Don't you[NLINE]
+have enough?[NWIN]
+
+Hmm...[END-FE]
+
+
+
+
+
+//POINTER #88 @ $1000 - STRING #88 @ $245C
+#W32($1000)
+//『平和維持軍本部前』ですね。[NWIN]
+//
+//お客様はフリーパスをお持ちですので、[NLINE]
+//タダになります。[NWIN]
+//
+//さっそく出発なさいますか？[END-FE]
+PMB Headquarters it is![NWIN]
+
+The ride's free with that[NLINE]
+Steed Pass of yours.[NWIN]
+
+You leaving right now?[END-FE]
+
+
+
+
+
+//POINTER #89 @ $1004 - STRING #89 @ $24CF
+#W32($1004)
+//では、お気をつけて！[END-FE]
+Well, have a nice trip![END-FE]
+
+
+
+
+
+//POINTER #90 @ $1008 - STRING #90 @ $24E6
+#W32($1008)
+//所持金 [CC.EF19]Ы[END-FE]
+[CC.EF19]Ы[END-FE]
+
+
+
+

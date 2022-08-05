@@ -1,0 +1,4386 @@
+
+
+//POINTER #0 @ $98A0 - STRING #0 @ $9E30
+#W32($98A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $9B24 - STRING #1 @ $A0C3
+#W32($9B24)
+
+Wounded Man[END-FF]
+
+
+
+
+
+//POINTER #1 @ $98A4 - STRING #1 @ $9E33
+#W32($98A4)
+//男[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #2 @ $98A8 - STRING #2 @ $9E38
+#W32($98A8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $98AC - STRING #3 @ $9E45
+#W32($98AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $98B0 - STRING #4 @ $9E6A
+#W32($98B0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $98B4 - STRING #5 @ $9E8F
+#W32($98B4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $98B8 - STRING #6 @ $9EA4
+#W32($98B8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $98BC - STRING #7 @ $9ED9
+#W32($98BC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $98C0 - STRING #8 @ $9F0E
+#W32($98C0)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $98C4 - STRING #9 @ $9F33
+#W32($98C4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $98C8 - STRING #10 @ $9F58
+#W32($98C8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $98CC - STRING #11 @ $9F7D
+#W32($98CC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $98D0 - STRING #12 @ $9F92
+#W32($98D0)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #14 @ $9B58 - STRING #14 @ $A28C
+#W32($9B58)
+
+Skip Seldous' Role?[END-FE]
+
+
+
+
+
+//POINTER #13 @ $98D4 - STRING #13 @ $9FB9
+#W32($98D4)
+//[CHAR0000][V3A00]
+//スクリーパーと呼ばれる水棲生物の脅威から[NLINE]
+//人類は水辺をさけ、内陸の安全な土地を[NLINE]
+//奪い合うように生きている世界[－][－][NLINE]
+//　[NLINE]
+//その限りある土地さえも、活力が衰えつつあり[NLINE]
+//隣国の土地を奪い合うという事態が続いていた。[END-FE]
+[CHAR0000][V3A00]
+With fierce amphibious creatures known[NLINE]
+as Screapers swarming the shores, humans[NLINE]
+were driven inland. However, the land[NLINE]
+is slowly decaying, forcing countries to[NLINE]
+fight over the remaining space.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $98D8 - STRING #14 @ $A092
+#W32($98D8)
+//ネイラーン王国[END-FE]
+Neylern Kingdom[END-FE]
+
+
+
+
+
+//POINTER #15 @ $98DC - STRING #15 @ $A0A3
+#W32($98DC)
+//グランゲイル王国[END-FE]
+Grangale Kingdom[END-FE]
+
+
+
+
+
+//POINTER #16 @ $98E0 - STRING #16 @ $A0B6
+#W32($98E0)
+//シリルティア王国[END-FE]
+Cyriltia Kingdom[END-FE]
+
+
+
+
+
+//POINTER #17 @ $98E4 - STRING #17 @ $A0C9
+#W32($98E4)
+//[CHAR0000][V3B00]
+//大陸南東部に位置する[COL03]グランゲイル王国[COL00]もまた[NLINE]
+//国土の大半に砂漠化が進み、国民の生活のため[NLINE]
+//まだ豊かな北の隣国、[COL01]ネイラーン王国[COL00]へと[NLINE]
+//侵略を開始した。[END-FE]
+[CHAR0000][V3B00]
+[COL03]Grangale Kingdom[COL00] is also suffering from[NLINE]
+the decay, and has decided to invade[NLINE]
+Neylern to the north to seize control[NLINE]
+of their fertile soil.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $98E8 - STRING #18 @ $A170
+#W32($98E8)
+//[CHAR0000][V3C00]
+//数で劣るネイラーン王国は、[NLINE]
+//必死の抵抗も虚しく、徐々にその版図を奪われ[NLINE]
+//今や滅亡の危機に瀕していた……。[NLINE]
+//　[END-FE]
+[CHAR0000][V3C00]
+The Neylern's inferior defenses were[NLINE]
+overcome, little by little, and the[NLINE]
+Neylern Kingdom would soon be no more...[NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #19 @ $98EC - STRING #19 @ $A1E7
+#W32($98EC)
+//[CHAR0000][V3D00]
+//サウネイルの森北東部[－][－][NLINE]
+//ここでネイラーン軍とグランゲイル軍の[NLINE]
+//歴史上、最後の合戦が繰り広げられていた…[END-FE]
+[CHAR0000][V3D00]
+Northeast of Saunail Forest, the final[NLINE]
+battle between Neylern and Grangale's[NLINE]
+forces has taken place...[END-FE]
+
+
+
+
+
+//POINTER #20 @ $98F0 - STRING #20 @ $A25A
+#W32($98F0)
+//[CHAR0000][V0000]
+//…くっ！[NLINE]
+//遅かったか！[NWIN]
+//
+//[CHAR0000][V0100]
+//どうすれば、戦争を止められる？[NWIN]
+//
+//[CHAR0000][V0200]
+//南のグランゲイル王国が引かぬ以上、[NLINE]
+//北のネイラーン王国も[NLINE]
+//徹底抗戦の姿勢を崩さない…。[NWIN]
+//
+//[CHAR0000][V0300]
+//大地の活力が失われているのは、[NLINE]
+//どこも同じ…。[NLINE]
+//多少まともな土地を奪い合っても、[NLINE]
+//問題の解決にはならない。[NWIN]
+//
+//[CH.FACE:Close-Eyes][CHAR0000][V0400]
+//…それなのに…なぜ人は争うのだ…[NLINE]
+//…なぜだ……。[END-FE]
+[CHAR0000][V0000]
+...Damn! Am I too late!?[NWIN]
+
+[CHAR0000][V0100]
+How can I stop this fighting!?[NWIN]
+
+[CHAR0000][V0200]
+The Grangale Kingdom of the south[NLINE]
+won't back down, and the people of[NLINE]
+Neylern of the north will die resisting[NLINE]
+them...[NWIN]
+
+[CHAR0000][V0300]
+The earth is weakening, and they[NLINE]
+battle over scraps rather than solve[NLINE]
+the problem![NWIN]
+
+[CH.FACE:Close-Eyes][CHAR0000][V0400]
+But why... Why do people[NLINE]
+continue to fight!? Why!?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $98F4 - STRING #21 @ $A3B4
+#W32($98F4)
+//この青年の名は[COL01]セルディス[COL00][NLINE]
+//幼い頃に育った孤児院を[NLINE]
+//十数年前に戦争で焼かれ、[NLINE]
+//それ以来戦争のない世界を求めて[NLINE]
+//旅をしている。[END-FE]
+Over a decade ago, [NLINE]
+[COL01]Seldous's[COL00] orphanage was[NLINE]
+burnt down by soldiers.[NLINE]
+Ever since, he's been searching[NLINE]
+for a means to stop all war.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $98F8 - STRING #22 @ $A437
+#W32($98F8)
+//彼の求めるものは[NLINE]
+//歴史に残る[COL04]楽園伝説[COL00][-][-][NLINE]
+//一度の戦争も起こさず、[NLINE]
+//大陸の国々を統一したという。[END-FE]
+His goal is to find[NLINE]
+the [COL01]Paradise[COL00] spoken of[NLINE]
+in legend: the peace forged[NLINE]
+by a nation that unified[NLINE]
+the continent with[NLINE]
+no bloodshed.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $98FC - STRING #23 @ $A49E
+#W32($98FC)
+//だが伝説を追い求める間も[NLINE]
+//戦争は激化の一途をたどり、[NLINE]
+//セルディスは苛立ちを[NLINE]
+//隠せなかった…。[END-FE]
+But as his search dragged[NLINE]
+on, and the war intensified,[NLINE]
+Seldous became more and[NLINE]
+more agitated...[END-FE]
+
+
+
+
+
+//POINTER #24 @ $9900 - STRING #24 @ $A4FD
+#W32($9900)
+//[CHAR0000][V0500]
+//う…うぅ…[END-FE]
+[CHAR0000][V0500]
+U... Ugh...[END-FE]
+
+
+
+
+
+//POINTER #25 @ $9904 - STRING #25 @ $A512
+#W32($9904)
+//[CHAR0000][V0600]
+//はっ、[NLINE]
+//まだ生存者がいるのか？[END-FE]
+[CHAR0000][V0600]
+Hm? A[NLINE]
+survivor...?[END-FE]
+
+
+
+
+
+//POINTER #26 @ $9908 - STRING #26 @ $A53B
+#W32($9908)
+//緑のマーカーが表示されている時、[NLINE]
+//[CIRCLE]を押すと、会話などが行えます。[END-FE]
+When the green marker appears,[NLINE]
+investigate by pressing [CROSS].[END-FE]
+
+
+
+
+
+//POINTER #27 @ $990C - STRING #27 @ $A580
+#W32($990C)
+//[CHAR0000][V0700]
+//北のネイラーンの兵だ…。[END-FE]
+[CHAR0000][V0700]
+Looks like a Neylern soldier...[END-FE]
+
+
+
+
+
+//POINTER #28 @ $9910 - STRING #28 @ $A5A3
+#W32($9910)
+//[CHAR0000][V0800]
+//おい、しっかりしろ！[END-FE]
+[CHAR0000][V0800]
+Hang in there...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $9914 - STRING #29 @ $A5C2
+#W32($9914)
+//[CHAR0000][V0900]
+//頼みがある……[NLINE]
+//これを…故郷の…[NLINE]
+//ヌナーンの…彼女に…[END-FE]
+[CHAR0000][V0900]
+Please... Give this...[NLINE]
+to my girl in Nu Nahn...[NLINE]
+My hometown...[END-FE]
+
+
+
+
+
+//POINTER #30 @ $9918 - STRING #30 @ $A603
+#W32($9918)
+//[CHAR0000][V0A00]
+//何を言うんだ！[NLINE]
+//帰って、自分の手でだな…。[END-FE]
+[CHAR0000][V0A00]
+Don't give up! You can[NLINE]
+give it to her yourself![END-FE]
+
+
+
+
+
+//POINTER #31 @ $991C - STRING #31 @ $A638
+#W32($991C)
+//[CHAR0000][V0B00]
+//た…たの…む…[END-FE]
+[CHAR0000][V0B00]
+I beg you... Please...[END-FE]
+
+
+
+
+
+//POINTER #32 @ $9920 - STRING #32 @ $A651
+#W32($9920)
+//[CHAR0000][V0C00]
+//…わかった…。[END-FE]
+[CHAR0000][V0C00]
+...All right...[END-FE]
+
+
+
+
+
+//POINTER #33 @ $9924 - STRING #33 @ $A66A
+#W32($9924)
+//[CHAR0000][V0D00]
+//アンタ…いい人だな…[NLINE]
+//…アンタになら…これを…[END-FE]
+[CHAR0000][V0D00]
+You're a good man...[NLINE]
+Here... Take this...[END-FE]
+
+
+
+
+
+//POINTER #34 @ $9928 - STRING #34 @ $A6A3
+#W32($9928)
+//[CHAR0000][V0E00]
+//これは…友情と…信頼の…証…[END-FE]
+[CHAR0000][V0E00]
+It's an emblem of friendship...[NLINE]
+...and trust...[END-FE]
+
+
+
+
+
+//POINTER #35 @ $992C - STRING #35 @ $A6CA
+#W32($992C)
+//[CHAR0000][V0F00]
+//…くっ…！[NWIN]
+//
+//[CHAR0000][V1000]
+//戦争さえなければ…[NLINE]
+//こんな悲劇など…。[END-FE]
+[CHAR0000][V0F00]
+...Damn it![NWIN]
+
+[CHAR0000][V1000]
+If not for the war,[NLINE]
+this wouldn't have[NLINE]
+happened...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $9930 - STRING #36 @ $A70F
+#W32($9930)
+//[CHAR0000][V1100]
+//なんとしても伝説の謎を解いて、[NLINE]
+//血を流さぬ停戦を…。[END-FE]
+[CHAR0000][V1100]
+I must get to the bottom[NLINE]
+of that legend...![END-FE]
+
+
+
+
+
+//POINTER #37 @ $9934 - STRING #37 @ $A74E
+#W32($9934)
+//[CHAR0000][V1200]
+//そういえば、[NLINE]
+//彼女は無事だろうか？[NWIN]
+//
+//[CHAR0000][V1300]
+//この辺りで[NLINE]
+//待ち合わせていたのだが…。[END-FE]
+[CHAR0000][V1200]
+That reminds me...[NLINE]
+If she's all right...[NWIN]
+
+[CHAR0000][V1300]
+We're supposed to[NLINE]
+rendezvous here...[END-FE]
+
+
+
+
+
+//POINTER #38 @ $9938 - STRING #38 @ $A7AB
+#W32($9938)
+//　[NLINE]
+//すでに息はない。[END-FE]
+　[NLINE]
+It's a mere corpse now.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $993C - STRING #39 @ $A7C2
+#W32($993C)
+//グランゲイル軍の兵士だ。[NLINE]
+//すでに息はない。[END-FE]
+　[NLINE]
+It's the body of a Grangalian soldier.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $9940 - STRING #40 @ $A7EF
+#W32($9940)
+//ネイラーン軍の兵士だ。[NLINE]
+//すでに息はない。[END-FE]
+　[NLINE]
+It's the body of a Neylern soldier.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $9944 - STRING #41 @ $A81A
+#W32($9944)
+//古びて傷だらけのメダルだが、[NLINE]
+//かすかに文字が読み取れる。[NWIN]
+//
+//Entrust your will to this medal[NLINE]
+//and take it to a person you[NLINE]
+//know can be trusted.[NLINE]
+//（あなたの想いをこのメダルに注ぎなさい。[NLINE]
+//　そして信頼できる者に託しなさい。）[END-FE]
+It's an old medal full of scratches.[NLINE]
+I can see something written on it.[NWIN]
+
+(Give this to someone you trust[NLINE]
+as a symbol of your goodwill.)[END-FE]
+
+
+
+
+
+//POINTER #42 @ $9948 - STRING #42 @ $A8F9
+#W32($9948)
+//想いをメダルに、[NLINE]
+//そして信頼できる者に…。[END-FE]
+Give this medal...[NLINE]
+To someone I trust...[END-FE]
+
+
+
+
+
+//POINTER #43 @ $994C - STRING #43 @ $A926
+#W32($994C)
+//バリケードには刃物傷や、　　　[NLINE]
+//突き刺さった矢が残されている。[END-FE]
+The barricades are pocked　[NLINE]
+with arrows and blade scars.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $9950 - STRING #44 @ $A967
+#W32($9950)
+//　[NLINE]
+//樽にも矢が刺さっている。[END-FE]
+　[NLINE]
+Arrows are stuck in the barrels.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $9954 - STRING #45 @ $A986
+#W32($9954)
+//　[NLINE]
+//傷だらけの樽だ。[END-FE]
+　[NLINE]
+The barrel bears many scars.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $9958 - STRING #46 @ $A99D
+#W32($9958)
+//　[NLINE]
+//傷だらけの樽だ。[END-FE]
+　[NLINE]
+The barrel bears many scars.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $995C - STRING #47 @ $A9B4
+#W32($995C)
+//バリケード代わりに使われたのだろうか[NLINE]
+//樽には多くの矢が刺さっている。　　　[END-FE]
+The arrow-pierced barrel must[NLINE]
+have been used as a barricade.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $9960 - STRING #48 @ $AA01
+#W32($9960)
+//　[NLINE]
+//剣が突き刺さっている。[END-FE]
+　[NLINE]
+A sword has pierced it.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $9964 - STRING #49 @ $AA1E
+#W32($9964)
+//　[NLINE]
+//捨てられた武器が散乱している。[END-FE]
+　[NLINE]
+Abandoned weapons are scattered.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $9968 - STRING #50 @ $AA43
+#W32($9968)
+//生存者を見捨ててはおけない。[END-FE]
+I must help the survivor.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $996C - STRING #51 @ $AA62
+#W32($996C)
+//どこに行くの？[NLINE]
+//早くその人を医者に診せないと！[END-FE]
+Where're you[NLINE]
+going, Seldous?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $9970 - STRING #52 @ $AA93
+#W32($9970)
+//[CHAR0300][V0000]
+//…グランゲイル軍が[NLINE]
+//道を封鎖しているな…。[NLINE]
+//戦争は勢いを増すばかりだな。[END-FE]
+[CHAR0300][V0000]
+Grangale's troops have[NLINE]
+set up a roadblock.[NLINE]
+The war is escalating...[END-FE]
+
+
+
+
+
+//POINTER #53 @ $9974 - STRING #53 @ $AAE6
+#W32($9974)
+//[CHAR0300][V0100]
+//グランゲイルは、[NLINE]
+//多くの民を抱えているからな。[NLINE]
+//だが、土地はどんどんと痩せていく。[END-FE]
+[CHAR0300][V0100]
+Well, Grangale's a big[NLINE]
+country, and its soil[NLINE]
+is deteriorating daily.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $9978 - STRING #54 @ $AB43
+#W32($9978)
+//[CHAR0300][V0200]
+//それで、まだ収穫の見込める[NLINE]
+//ネイラーンの土地を狙って仕掛けたのね。[NWIN]
+//
+//[CHAR0300][V0300]
+//ネイラーンも食料援助の要請を[NLINE]
+//断ったらしいけど…。[END-FE]
+[CHAR0300][V0200]
+So that's why they've invaded Neylern...[NLINE]
+the land is still fertile there.[NWIN]
+
+[CHAR0300][V0300]
+I heard that Neylern refused[NLINE]
+their request for aid.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $997C - STRING #55 @ $ABCC
+#W32($997C)
+//[CHAR0300][V0400]
+//ネイラーンとの戦いはもうすぐ終わるだろう。[NLINE]
+//ネイラーン側の敗北という形でな。[NWIN]
+//
+//<$FF><$BF><$0D><$02>[CHAR0300][V0500]
+//だが、戦争はそれで終わることはない。[NLINE]
+//ネイラーンの土地を得ても、[NLINE]
+//グランゲイルの国民全員は食えない。[NWIN]
+//
+//[CHAR0300][V0600]
+//今は小競り合いしか起こっていないが[NLINE]
+//西のシリルティアに攻め込むのは[NLINE]
+//時間の問題だ。[END-FE]
+[CHAR0300][V0400]
+Soon, the war will end, and Neylern[NLINE]
+will find itself on the losing side.[NWIN]
+
+<$FF><$BF><$0D><$02>[CHAR0300][V0500]
+But that won't be the end of it.[NLINE]
+Neylern isn't large enough to serve[NLINE]
+the entire population of Grangale.[NWIN]
+
+[CHAR0300][V0600]
+Things haven't even begun to get[NLINE]
+bad. Just you watch; Grangale will[NLINE]
+try to invade Cyriltia next.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $9980 - STRING #56 @ $ACF1
+#W32($9980)
+//[CHAR0300][V0700]
+//シリルティアとも全面戦争になったら、[NLINE]
+//もうこの戦争を収めるのは難しいわ。[END-FE]
+[CHAR0300][V0700]
+If hostilities with Cyriltia break out,[NLINE]
+we'll never be able to stop the war...[END-FE]
+
+
+
+
+
+//POINTER #57 @ $9984 - STRING #57 @ $AD44
+#W32($9984)
+//[CHAR0300][V0800]
+//普通の方法では無理だろうな。[END-FE]
+[CHAR0300][V0800]
+Not through ordinary means, no.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $9988 - STRING #58 @ $AD6B
+#W32($9988)
+//[CHAR0300][V0900]
+//だから普通じゃない方法を捜すんだろう？[NLINE]
+//さあ行こうぜ。[NLINE]
+//ここから西の橋を渡るんだ。[END-FE]
+[CHAR0300][V0900]
+Then we'd better find extraordinary[NLINE]
+means. Let's go, we've got to get[NLINE]
+past the west bridge.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $998C - STRING #59 @ $ADC8
+#W32($998C)
+//ここより先は戦場だ。[NLINE]
+//軍関係者以外を通すことは出来ない。[END-FE]
+There's fighting up ahead.[NLINE]
+No civilians are allowed.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $9990 - STRING #60 @ $AE03
+#W32($9990)
+//戦闘に巻き込まれる前に[NLINE]
+//戻りなさい。[END-FE]
+Go back before you get[NLINE]
+mixed up in combat.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $9994 - STRING #61 @ $AE2A
+#W32($9994)
+//ケガをしたくなければ[NLINE]
+//大人しく戻ることだ。[END-FE]
+If you value your[NLINE]
+life, go back now.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $9998 - STRING #62 @ $AE57
+#W32($9998)
+//ネイラーン王国[NLINE]
+//ヤージェン村方面[END-FE]
+Neylern Kingdom[NLINE]
+To Jaergen[END-FE]
+
+
+
+
+
+//POINTER #63 @ $999C - STRING #63 @ $AE7A
+#W32($999C)
+//都市ヌナーン[NLINE]
+//ノーストール山方面[END-FE]
+Nu Nahn[NLINE]
+To Mt. Nostal[END-FE]
+
+
+
+
+
+//POINTER #64 @ $99A0 - STRING #64 @ $AE9D
+#W32($99A0)
+//王都ガイラナック方面[END-FE]
+To Geilenach[END-FE]
+
+
+
+
+
+//POINTER #65 @ $99A4 - STRING #65 @ $AEB4
+#W32($99A4)
+//[CHAR0000][V2B00]
+//あ！[NLINE]
+//ここからはカーテンが良く見えるわね。[END-FE]
+[CHAR0000][V2B00]
+Oh! I can see the Veil[NLINE]
+clearly from here.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $99A8 - STRING #66 @ $AEE9
+#W32($99A8)
+//[CHAR0000][V2C00]
+//大陸を取り巻く、[NLINE]
+//謎の光のカーテンか…。[END-FE]
+[CHAR0000][V2C00]
+That veil surrounding[NLINE]
+the continent...[END-FE]
+
+
+
+
+
+//POINTER #67 @ $99AC - STRING #67 @ $AF1C
+#W32($99AC)
+//[CHAR0000][V2D00]
+//いつみても、綺麗な光景ね…。[END-FE]
+[CHAR0000][V2D00]
+I'm always surprised by its beauty.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $99B0 - STRING #68 @ $AF43
+#W32($99B0)
+//[CHAR0000][V2E00]
+//そうか？[NLINE]
+//私には、何かの呪いのように思えるよ。[END-FE]
+[CHAR0000][V2E00]
+Beauty? I think[NLINE]
+it looks cursed.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $99B4 - STRING #69 @ $AF7C
+#W32($99B4)
+//[CHAR0000][V2F00]
+//呪い？[END-FE]
+[CHAR0000][V2F00]
+Cursed?[END-FE]
+
+
+
+
+
+//POINTER #70 @ $99B8 - STRING #70 @ $AF8D
+#W32($99B8)
+//[CHAR0000][V3000]
+//スクリーパーどもに[NLINE]
+//海を奪われているせいかもしれないが、[NLINE]
+//まるで閉じこめられているみたいだ。[NWIN]
+//
+//[CHAR0000][V3100]
+//あの光のカーテンの向こうが[NLINE]
+//どうなっているのか？[NWIN]
+//
+//[CHAR0000][V3200]
+//知りたくても、[NLINE]
+//スクリーパーどもをどうにかしなければ、[NLINE]
+//海には出られんが。[END-FE]
+[CHAR0000][V3000]
+The Screapers control[NLINE]
+the seas... this continent[NLINE]
+is just a huge prison.[NWIN]
+
+[CHAR0000][V3100]
+I wonder what's on the[NLINE]
+other side of that veil...[NWIN]
+
+[CHAR0000][V3200]
+Still, we can't set sail[NLINE]
+unless we eliminate[NLINE]
+the Screapers.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $99BC - STRING #71 @ $B082
+#W32($99BC)
+//[CHAR0000][V3300]
+//スクリーパーって、一体何なのかしらね？[NWIN]
+//
+//[CHAR0000][V3400]
+//どうしてあいつらは人間ばかりを襲うのかしら？[NLINE]
+//他にも獲物はいるでしょうに…。[END-FE]
+[CHAR0000][V3300]
+I wonder... just what are the Screapers?[NWIN]
+
+[CHAR0000][V3400]
+There's plenty of prey, but they[NLINE]
+only seem to attack humans.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $99C0 - STRING #72 @ $B109
+#W32($99C0)
+//[CHAR0000][V3500]
+//さあな…。[NLINE]
+//現存する生物の頂点に立つ存在。[NLINE]
+//そうとしか言いようがないな。[NWIN]
+//
+//[CHAR0000][V3600]
+//人間ばかり襲うのは…、[NLINE]
+//人間にしかない栄養源を[NLINE]
+//ヤツらが欲しているからかもな。[END-FE]
+[CHAR0000][V3500]
+I couldn't say. They're[NLINE]
+certainly at the top of[NLINE]
+the food chain.[NWIN]
+
+[CHAR0000][V3600]
+Perhaps humans have[NLINE]
+some nutrient they[NLINE]
+need to survive...[END-FE]
+
+
+
+
+
+//POINTER #73 @ $99C4 - STRING #73 @ $B1B4
+#W32($99C4)
+//[CHAR0000][V3700]
+//それがわかれば、[NLINE]
+//スクリーパーの被害に[NLINE]
+//対抗できるかもしれないのに…。[END-FE]
+[CHAR0000][V3700]
+If we found out, maybe[NLINE]
+we could save people[NLINE]
+from them.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $99C8 - STRING #74 @ $B205
+#W32($99C8)
+//[CHAR0000][V3800]
+//そうだな。[NLINE]
+//だがその前に、[NLINE]
+//人間同士の戦争を終わらせる。[END-FE]
+[CHAR0000][V3800]
+Yes... But humans killing[NLINE]
+each other is the bigger[NLINE]
+threat for now.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $99CC - STRING #75 @ $B248
+#W32($99CC)
+//[CHAR0000][V3900]
+//はい。[END-FE]
+[CHAR0000][V3900]
+Indeed.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $99D0 - STRING #76 @ $B259
+#W32($99D0)
+//この気配は、またモンスターか？[NLINE]
+//今度はゲルよりは手強そうだ。[END-FE]
+I feel a monster's presence...[NLINE]
+It's stronger than the Slimes.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $99D4 - STRING #77 @ $B298
+#W32($99D4)
+//私は自由に援護するけれど、[NLINE]
+//必要と思った指示は貴方から出してね。[END-FE]
+If there's anything you need[NLINE]
+me to do, just tell me.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $99D8 - STRING #78 @ $B2DB
+#W32($99D8)
+//仲間への戦闘指示について、説明を受けますか？[END-FE]
+View the party command tutorial?[END-FE]
+
+
+
+
+
+//POINTER #79 @ $99DC - STRING #79 @ $B30A
+#W32($99DC)
+//・説明をうける[END-FE]
+・View the tutorial[END-FE]
+
+
+
+
+
+//POINTER #80 @ $99E0 - STRING #80 @ $B31B
+#W32($99E0)
+//・説明をうけない[END-FE]
+・No need[END-FE]
+
+
+
+
+
+//POINTER #81 @ $99E4 - STRING #81 @ $B32E
+#W32($99E4)
+//・[COL01]『攻撃』[COL00]について[END-FE]
+・About [COL01]Attack[COL00][END-FE]
+
+
+
+
+
+//POINTER #82 @ $99E8 - STRING #82 @ $B349
+#W32($99E8)
+//・[COL01]『移動』[COL00]について[END-FE]
+・About [COL01]Move[COL00][END-FE]
+
+
+
+
+
+//POINTER #83 @ $99EC - STRING #83 @ $B364
+#W32($99EC)
+//・[COL01]『防御』[COL00]について[END-FE]
+・About [COL01]Defend[COL00][END-FE]
+
+
+
+
+
+//POINTER #84 @ $99F0 - STRING #84 @ $B37F
+#W32($99F0)
+//・[COL01]『自動』[COL00]について[END-FE]
+・About [COL01]Auto[COL00][END-FE]
+
+
+
+
+
+//POINTER #85 @ $99F4 - STRING #85 @ $B39A
+#W32($99F4)
+//・説明を終わる[END-FE]
+・Finished viewing[END-FE]
+
+
+
+
+
+//POINTER #86 @ $99F8 - STRING #86 @ $B3AB
+#W32($99F8)
+//仲間に攻撃対象を指示したい場合は、[NLINE]
+//[COL01]『攻撃』[COL00]を選び、続いて攻撃対象を[NLINE]
+//選んでください。[NWIN]
+//
+//ただし、仲間が敵の存在を感じとっていない[NLINE]
+//ときは『攻撃』は選べません。[END-FE]
+To tell party members who to[NLINE]
+attack, select [COL01]Attack[COL00], then[NLINE]
+choose a target.[NWIN]
+
+However, if the comrade is unaware of[NLINE]
+the enemy, he or she cannot attack.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $99FC - STRING #87 @ $B452
+#W32($99FC)
+//[COL01]『移動』[COL00]では仲間の移動先を指示できます。[NLINE]
+//途中の経由点は２点まで指定できますが、同じ[NLINE]
+//地点で２回決定することでも指示できます。[END-FE]
+[COL01]Move[COL00] lets you set up to two waypoints for[NLINE]
+your party members to travel to.[NLINE]
+However, they can't[NLINE]
+move while they are stunned.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $9A00 - STRING #88 @ $B4D9
+#W32($9A00)
+//[COL01]『防御』[COL00]は、仲間にその場での防御を指示します。[NLINE]
+//戦闘が終わるか別の指示を与えるまで、[NLINE]
+//同じ場所で防御を続けます。[END-FE]
+Selecting [COL01]Defend[COL00] will have party members[NLINE]
+hold their position until the battle ends[NLINE]
+or they receive new orders.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $9A04 - STRING #89 @ $B552
+#W32($9A04)
+//[COL01]『自動』[COL00]は、仲間に自由行動するよう指示します。[NLINE]
+//それ以前に与えていた指示はキャンセルされます。[NWIN]
+//
+//[START]を押すと表示される設定メニューで、[NLINE]
+//仲間の思考設定が出来ます。[END-FE]
+[COL01]Auto[COL00] lets party members act on their own.[NLINE]
+Previously issued orders will be cancelled.[NWIN]
+
+You can change the AI settings in the[NLINE]
+setup menu by pressing [START].[END-FE]
+
+
+
+
+
+//POINTER #90 @ $9A08 - STRING #90 @ $B5FF
+#W32($9A08)
+//よし、なんとかなる。[END-FE]
+All right. I can do this.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $9A0C - STRING #91 @ $B616
+#W32($9A0C)
+//危ないようだったら[NLINE]
+//逃げるのも手よ？[END-FE]
+Don't be too proud[NLINE]
+to escape, okay?[END-FE]
+
+
+
+
+
+//POINTER #92 @ $9A10 - STRING #92 @ $B63D
+#W32($9A10)
+//リーダーが隣のマップへ移動すれば、[NLINE]
+//戦闘から逃げることができます。[NLINE]
+//仲間はどんな状態でも、[NLINE]
+//必ずリーダーと一緒に脱出できます。[END-FE]
+Once the lead unit reaches the[NLINE]
+next map, you can escape from[NLINE]
+the battle. Your entire party[NLINE]
+will retreat.[END-FE]
+
+
+
+
+
+//POINTER #93 @ $9A14 - STRING #93 @ $B6BE
+#W32($9A14)
+//ただし、重要な戦闘では逃げることができません。[NLINE]
+//気をつけてください。[END-FE]
+However, some battles cannot[NLINE]
+be escaped. Keep that in mind.[END-FE]
+
+
+
+
+
+//POINTER #94 @ $9A18 - STRING #94 @ $B705
+#W32($9A18)
+//もうモンスターは[NLINE]
+//いないみたいね。[END-FE]
+That's all the[NLINE]
+monsters...[END-FE]
+
+
+
+
+
+//POINTER #95 @ $9A1C - STRING #95 @ $B72A
+#W32($9A1C)
+//それにしても、結構鍛えているのね。[NLINE]
+//[CH.FACE:Close-Eyes]
+//昔は男の子たちの中じゃ一番弱かったのに。[END-FE]
+You're so strong now. [CH.FACE:Close-Eyes]
+Back at the[NLINE]
+orphanage, you were the weakest boy.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $9A20 - STRING #96 @ $B77C
+#W32($9A20)
+//[CH.FACE:Close-Eyes]
+//そうだな。[NLINE]
+//兵隊ゴッコじゃいつも私が[NLINE]
+//最初にやられる役だった。[NLINE]
+//そしてヴァネットは…[END-FE]
+[CH.FACE:Close-Eyes]
+I remember. I was always[NLINE]
+the first one to die in the[NLINE]
+army game.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $9A24 - STRING #97 @ $B7D6
+#W32($9A24)
+//[CH.FACE:Close-Eyes]
+//いつも看護師役だったわね。[NLINE]
+//楽しかったわね、あの頃は…。[END-FE]
+[CH.FACE:Close-Eyes]
+And I always played a nurse.[NLINE]
+I miss those days...[END-FE]
+
+
+
+
+
+//POINTER #98 @ $9A28 - STRING #98 @ $B814
+#W32($9A28)
+//[CH.FACE:Close-Eyes]
+//そうだな…[END-FE]
+[CH.FACE:Close-Eyes]
+Yeah...[END-FE]
+
+
+
+
+
+//POINTER #99 @ $9A2C - STRING #99 @ $B824
+#W32($9A2C)
+//[CH.FACE:Close-Eyes]
+//そうね…。[END-FE]
+[CH.FACE:Close-Eyes]
+Yes...[END-FE]
+
+
+
+
+
+//POINTER #100 @ $9A30 - STRING #100 @ $B834
+#W32($9A30)
+//[CH.FACE:Close-Eyes]
+//……。[END-FE]
+[CH.FACE:Close-Eyes]
+......[END-FE]
+
+
+
+
+
+//POINTER #101 @ $9A34 - STRING #101 @ $B840
+#W32($9A34)
+//[CH.FACE:Open-Eyes]
+//…そうだ、怪我は大丈夫？[NLINE]
+//傷を負ったなら、魔法で回復するわ。[END-FE]
+[CH.FACE:Open-Eyes]
+Oh... Are you hurt? I can[NLINE]
+heal you with magic.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $9A38 - STRING #102 @ $B882
+#W32($9A38)
+//ＨＰは、グッズの他にも回復魔法で[NLINE]
+//治療することができます。[END-FE]
+If your HP is low, both magic[NLINE]
+and items can replenish it.[END-FE]
+
+
+
+
+
+//POINTER #103 @ $9A3C - STRING #103 @ $B8BF
+#W32($9A3C)
+//魔法を唱えさせたい仲間の[COL01]『魔法』[COL00]メニュー[NLINE]
+//から唱えたい魔法を選択し、詠唱を終えたら[NLINE]
+//対象を選ぶことにより使用できます。[END-FE]
+Choose a spell from the [COL01]Magic[COL00] menu and[NLINE]
+select the Spell Level. Once you've begun[NLINE]
+casting it, select a target to use it on.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $9CC8 - STRING #106 @ $BB7B
+#W32($9CC8)
+
+
+Before casting the spell, you can check the[NLINE]
+hit area of magic.[END-FE]
+
+
+
+
+
+//POINTER #104 @ $9A40 - STRING #104 @ $B93E
+#W32($9A40)
+//グッズと違い、魔法は詠唱時間がかかり[NLINE]
+//使用する際にはＭＰを消費します。[END-FE]
+Unlike items, magic requires[NLINE]
+casting time and consumes MP.[NLINE]
+But there will be no casting time[NLINE]
+in non-combat situations.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $9A44 - STRING #105 @ $B987
+#W32($9A44)
+//グッズは使用すると即効果を発揮しますが、[NLINE]
+//１種につき９個までしか持てません。[NLINE]
+//状況によって使い分けてください。[END-FE]
+Items can be used anywhere, but you can[NLINE]
+only carry up to nine of each. Use them[NLINE]
+wisely depending on the situation.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $9CD4 - STRING #109 @ $BCB0
+#W32($9CD4)
+
+
+
+
+We don't know how many battles[NLINE]
+we'll have to fight before we[NLINE]
+reach the ruins. If you don't[NLINE]
+want me to attack, then tell me so.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $9CD8 - STRING #110 @ $BD34
+#W32($9CD8)
+
+
+
+
+
+About [COL01]ESCAPE[COL00][NLINE]
+To end a fight early, hold down[NLINE]
+[R2] to escape. Release [R2] to[NLINE]
+restore the original AI settings.[NLINE]
+It's useful when running from enemies.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $9A48 - STRING #106 @ $B9F8
+#W32($9A48)
+//この先の砂漠は海岸沿いにある。[NLINE]
+//またスクリーパーが出るかもしれない。[NLINE]
+//砂漠には行かないでおこう。[END-FE]
+There's a desert ahead near the[NLINE]
+water. We should avoid it so as[NLINE]
+not to encounter Screapers.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $9A4C - STRING #107 @ $BA5B
+#W32($9A4C)
+//西の砂漠からはスクリーパーが出たばかりだ。[NLINE]
+//やめておこう。[END-FE]
+Screapers have appeared in the west[NLINE]
+desert. We should avoid that place.[END-FE]
+
+
+
+
+
+//POINTER #108 @ $9A50 - STRING #108 @ $BA98
+#W32($9A50)
+//城門の横に扉がある。[END-FE]
+There's a door next to the main gate.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $9A54 - STRING #109 @ $BAAF
+#W32($9A54)
+//・扉を開ける[END-FE]
+・Open the door[END-FE]
+
+
+
+
+
+//POINTER #110 @ $9A58 - STRING #110 @ $BABE
+#W32($9A58)
+//・何もしない[END-FE]
+・Don't do anything[END-FE]
+
+
+
+
+
+//POINTER #111 @ $9A5C - STRING #111 @ $BACD
+#W32($9A5C)
+//　[NLINE]
+//今はそれどころではない！[END-FE]
+　[NLINE]
+Now is not the time![END-FE]
+
+
+
+
+
+//POINTER #112 @ $9A60 - STRING #112 @ $BAEC
+#W32($9A60)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+Geilenach, Capital[NLINE]
+of Grangale[END-FE]
+
+
+
+
+
+//POINTER #113 @ $9A64 - STRING #113 @ $BB11
+#W32($9A64)
+//ネイラーン方面[END-FE]
+To Neylern[END-FE]
+
+
+
+
+
+//POINTER #114 @ $9A68 - STRING #114 @ $BB22
+#W32($9A68)
+//カイザリス島方面[NLINE]
+//（現在道路工事中）[END-FE]
+To Kaiseris Island[NLINE]
+(Route under construction)[END-FE]
+
+
+
+
+
+//POINTER #115 @ $9A6C - STRING #115 @ $BB49
+#W32($9A6C)
+//やい、お前たち！[NLINE]
+//いつぞやは世話になったな。[END-FE]
+Hey, you bastards![NLINE]
+We were expecting you![END-FE]
+
+
+
+
+
+//POINTER #116 @ $9A70 - STRING #116 @ $BB78
+#W32($9A70)
+//アランを襲っていた盗賊か…。[NLINE]
+//今度は何の用だ？[END-FE]
+The bandits who attacked[NLINE]
+Alan... What do you want now?[END-FE]
+
+
+
+
+
+//POINTER #117 @ $9A74 - STRING #117 @ $BBA9
+#W32($9A74)
+//決まってるだろう！[NLINE]
+//あの時の礼をしに来たのよ！[END-FE]
+The hell do you think we[NLINE]
+want!? Revenge, of course![END-FE]
+
+
+
+
+
+//POINTER #118 @ $9A78 - STRING #118 @ $BBDA
+#W32($9A78)
+//…やれやれ…。[END-FE]
+Give me a break...[END-FE]
+
+
+
+
+
+//POINTER #119 @ $9A7C - STRING #119 @ $BBEB
+#W32($9A7C)
+//この数を相手に、[NLINE]
+//いつまでそんな調子でいられるかな？[NWIN]
+//
+//やっちまえ！[END-FE]
+Let's see you act all lofty[NLINE]
+after we put up a real fight![NWIN]
+
+Kill 'em all![END-FE]
+
+
+
+
+
+//POINTER #120 @ $9A80 - STRING #120 @ $BC30
+#W32($9A80)
+//・盗賊頭の撃破[END-FE]
+・Bandit Leader defeated[END-FE]
+
+
+
+
+
+//POINTER #121 @ $9A84 - STRING #121 @ $BC41
+#W32($9A84)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #122 @ $9A88 - STRING #122 @ $BC56
+#W32($9A88)
+//戦闘スキップする？[END-FE]
+・Skip the battle?[END-FE]
+
+
+
+
+
+//POINTER #123 @ $9A8C - STRING #123 @ $BC6B
+#W32($9A8C)
+//ぐあっ！[END-FE]
+Gaah![END-FE]
+
+
+
+
+
+//POINTER #124 @ $9A90 - STRING #124 @ $BC76
+#W32($9A90)
+//お、お頭がやられた!?[END-FE]
+B-Boss is down!?[END-FE]
+
+
+
+
+
+//POINTER #125 @ $9A94 - STRING #125 @ $BC8D
+#W32($9A94)
+//く、くそ…。[END-FE]
+Dammit...[END-FE]
+
+
+
+
+
+//POINTER #126 @ $9A98 - STRING #126 @ $BC9C
+#W32($9A98)
+//く、くそ…。[NLINE]
+//オレ様まで…。[END-FE]
+D-Damn...[NLINE]
+I can't...[END-FE]
+
+
+
+
+
+//POINTER #127 @ $9A9C - STRING #127 @ $BCBB
+#W32($9A9C)
+//もうこんなこと、やめたらどうだ？[END-FE]
+Why don't you stop doing this?[END-FE]
+
+
+
+
+
+//POINTER #128 @ $9AA0 - STRING #128 @ $BCDE
+#W32($9AA0)
+//オレだって、ちゃんと働けるなら[NLINE]
+//こんなことはしねぇ！[NWIN]
+//
+//だがこんな時代に、[NLINE]
+//まともな職なんてあるかよ！[END-FE]
+Don't you think I would, if I[NLINE]
+could find a normal job?[NWIN]
+
+How do you expect me to[NLINE]
+find a decent job nowadays!?[END-FE]
+
+
+
+
+
+//POINTER #129 @ $9AA4 - STRING #129 @ $BD45
+#W32($9AA4)
+//そんなに力が余ってるなら、[NLINE]
+//私たちに力を貸さないか？[END-FE]
+You're a skilled fighter.[NLINE]
+Maybe you could help us.[END-FE]
+
+
+
+
+
+//POINTER #130 @ $9AA8 - STRING #130 @ $BD7C
+#W32($9AA8)
+//そうね。[NLINE]
+//食事は保証するわ。[END-FE]
+We can guarantee you[NLINE]
+three meals a day.[END-FE]
+
+
+
+
+
+//POINTER #131 @ $9AAC - STRING #131 @ $BD9B
+#W32($9AAC)
+//………。[NWIN]
+//
+//少し考える時間をくれ。[END-FE]
+......[NWIN]
+
+Let me think it over...[END-FE]
+
+
+
+
+
+//POINTER #132 @ $9AB0 - STRING #132 @ $BDBE
+#W32($9AB0)
+//[CHAR0100][V0000]
+//た、助けてくれ！[NLINE]
+//スクリーパーだぁ！[END-FE]
+[CHAR0100][V0000]
+Help! It's[NLINE]
+a Screaper![END-FE]
+
+
+
+
+
+//POINTER #133 @ $9AB4 - STRING #133 @ $BDED
+#W32($9AB4)
+//[CHAR0100][V0100]
+//早く城門の中へ入るんだ！[NLINE]
+//急げ！[END-FE]
+[CHAR0100][V0100]
+Get inside the city[NLINE]
+gates, people! Now![END-FE]
+
+
+
+
+
+//POINTER #134 @ $9AB8 - STRING #134 @ $BE18
+#W32($9AB8)
+//[CHARDF03][V5900]
+//はあっ！[END-FE]
+[CHARDF03][V5900]
+Hiya![END-FE]
+
+
+
+
+
+//POINTER #135 @ $9ABC - STRING #135 @ $BE2B
+#W32($9ABC)
+//[CHAR0100][V0200]
+//うわあっ！[END-FE]
+[CHAR0100][V0200]
+Aaaagh![END-FE]
+
+
+
+
+
+//POINTER #136 @ $9AC0 - STRING #136 @ $BE40
+#W32($9AC0)
+//[CHAR0100][V0300]
+//ムチャをするな！[NLINE]
+//人間がスクリーパーに[NLINE]
+//かなうはずがない！[END-FE]
+[CHAR0100][V0300]
+Get out of there![NLINE]
+No man can kill a[NLINE]
+Screaper! Run![END-FE]
+
+
+
+
+
+//POINTER #137 @ $9AC4 - STRING #137 @ $BE85
+#W32($9AC4)
+//[CHAR0100][V0400]
+//何だ、この騒ぎは…？[END-FE]
+[CHAR0100][V0400]
+What's going on...!?[END-FE]
+
+
+
+
+
+//POINTER #138 @ $9AC8 - STRING #138 @ $BEA4
+#W32($9AC8)
+//[CHAR0100][V0500]
+//見て！[NLINE]
+//…スクリーパーが…！[END-FE]
+[CHAR0100][V0500]
+Look! It's a[NLINE]
+Screaper![END-FE]
+
+
+
+
+
+//POINTER #139 @ $9ACC - STRING #139 @ $BECB
+#W32($9ACC)
+//[CHAR0100][V0600]
+//君たち、早く門の中へ入るんだ！[END-FE]
+[CHAR0100][V0600]
+You two! Get inside, quickly![END-FE]
+
+
+
+
+
+//POINTER #140 @ $9AD0 - STRING #140 @ $BEF4
+#W32($9AD0)
+//戦闘スキップする？[END-FE]
+戦闘スキップする？[END-FE]
+
+
+
+
+
+//POINTER #141 @ $9AD4 - STRING #141 @ $BF09
+#W32($9AD4)
+//・敵の全滅[END-FE]
+・Defeat all enemies[END-FE]
+
+
+
+
+
+//POINTER #142 @ $9AD8 - STRING #142 @ $BF16
+#W32($9AD8)
+//・パーティーメンバーの死亡[NLINE]
+//・同行人の死亡[END-FE]
+・Any party member dies[NLINE]
+・Follower dies[END-FE]
+
+
+
+
+
+//POINTER #143 @ $9ADC - STRING #143 @ $BF43
+#W32($9ADC)
+//～[COL01]右スティック操作でマップ確認モード[COL00]～[END-FE]
+-[COL01]Check the map with the right analog stick[COL00]-[END-FE]
+
+
+
+
+
+//POINTER #144 @ $9AE0 - STRING #144 @ $BF72
+#W32($9AE0)
+//敵や味方が入り乱れた戦闘では、[NLINE]
+//マップ確認モードで戦況を把握すると便利です。[NLINE]
+//マップ確認モードは、[CIRCLE]や[CROSS]で終了します。[END-FE]
+When it's hard to tell friend from foe,[NLINE]
+check the map to read the situation.[NWIN]
+
+You can view the [COL01]map[COL00] by moving[NLINE]
+the right analog stick.[NLINE]
+You can finish viewing the map by pressing[NLINE]
+[CIRCLE] or [CROSS].[END-FE]
+
+
+
+
+
+//POINTER #145 @ $9AE4 - STRING #145 @ $BFEB
+#W32($9AE4)
+//ぼうや!?[NLINE]
+//私のぼうやは!?[END-FE]
+My boy! Where's[NLINE]
+my boy!?[END-FE]
+
+
+
+
+
+//POINTER #146 @ $9AE8 - STRING #146 @ $C006
+#W32($9AE8)
+//ん？[NLINE]
+//彼らは…動けないのか？[END-FE]
+Huh? They...[NLINE]
+can't move?[END-FE]
+
+
+
+
+
+//POINTER #147 @ $9AEC - STRING #147 @ $C025
+#W32($9AEC)
+//スクリーパーに驚いて[NLINE]
+//気絶したのか…！[NWIN]
+//
+//残念だが、彼らは運がなかった。[NLINE]
+//さあ、君たちだけでも城門の中へ！[END-FE]
+The Screaper has scared them stiff![NWIN]
+
+It's unfortunate, but you can[NLINE]
+still save yourselves! Get inside![END-FE]
+
+
+
+
+
+//POINTER #148 @ $9AF0 - STRING #148 @ $C090
+#W32($9AF0)
+//どうするの、セルディス？[END-FE]
+What should we do, Seldous?[END-FE]
+
+
+
+
+
+//POINTER #149 @ $9AF4 - STRING #149 @ $C0AB
+#W32($9AF4)
+//ぼうや！[NLINE]
+//早く逃げなさい！[END-FE]
+Little one! Run[NLINE]
+for your life![END-FE]
+
+
+
+
+
+//POINTER #150 @ $9AF8 - STRING #150 @ $C0C8
+#W32($9AF8)
+//ああ！よかった…[END-FE]
+Thank you...[END-FE]
+
+
+
+
+
+//POINTER #151 @ $9AFC - STRING #151 @ $C0DB
+#W32($9AFC)
+//おかあさん！[END-FE]
+Mommy![END-FE]
+
+
+
+
+
+//POINTER #152 @ $9B00 - STRING #152 @ $C0EA
+#W32($9B00)
+//さ、逃げるわよ！[END-FE]
+Let's go, darling![END-FE]
+
+
+
+
+
+//POINTER #153 @ $9B04 - STRING #153 @ $C0FD
+#W32($9B04)
+//…あ…あわ…わわ…。[END-FE]
+A-A-Aaaahh![END-FE]
+
+
+
+
+
+//POINTER #154 @ $9B08 - STRING #154 @ $C114
+#W32($9B08)
+//しっかりしろ！[NLINE]
+//早く逃げないと、助からないぞ！[END-FE]
+Pull yourself together! If you[NLINE]
+don't run, you're done for![END-FE]
+
+
+
+
+
+//POINTER #155 @ $9B0C - STRING #155 @ $C145
+#W32($9B0C)
+//ぼうや！[NLINE]
+//早く逃げなさい！[END-FE]
+Little one! Run[NLINE]
+for your life![END-FE]
+
+
+
+
+
+//POINTER #156 @ $9B10 - STRING #156 @ $C162
+#W32($9B10)
+//…え？[NLINE]
+//…う、うん！[END-FE]
+Huh...?[NLINE]
+Y-Yeah![END-FE]
+
+
+
+
+
+//POINTER #157 @ $9B14 - STRING #157 @ $C179
+#W32($9B14)
+//怖いよ～！[END-FE]
+I'm scared![END-FE]
+
+
+
+
+
+//POINTER #158 @ $9B18 - STRING #158 @ $C186
+#W32($9B18)
+//ぼうや…。[END-FE]
+My son...[END-FE]
+
+
+
+
+
+//POINTER #159 @ $9B1C - STRING #159 @ $C193
+#W32($9B1C)
+//走れ！[NLINE]
+//早く逃げるんだ！[END-FE]
+Run! Get out[NLINE]
+of here![END-FE]
+
+
+
+
+
+//POINTER #160 @ $9B20 - STRING #160 @ $C1AE
+#W32($9B20)
+//何をしているの、[NLINE]
+//早く逃げなさい！[END-FE]
+What are you doing!?[NLINE]
+Run, quickly![END-FE]
+
+
+
+
+
+//POINTER #161 @ $9B24 - STRING #161 @ $C1D3
+#W32($9B24)
+//え…えぇ…。[END-FE]
+Y-Yes...[END-FE]
+
+
+
+
+
+//POINTER #162 @ $9B28 - STRING #162 @ $C1E2
+#W32($9B28)
+//がんばれ、早く逃げるんだ！[END-FE]
+Come on! Leave here, now![END-FE]
+
+
+
+
+
+//POINTER #163 @ $9B2C - STRING #163 @ $C1FF
+#W32($9B2C)
+//がんばって！[NLINE]
+//早く逃げるのよ！[END-FE]
+You must get[NLINE]
+out of here, fast![END-FE]
+
+
+
+
+
+//POINTER #164 @ $9B30 - STRING #164 @ $C220
+#W32($9B30)
+//は、はい！[END-FE]
+Y-Yes![END-FE]
+
+
+
+
+
+//POINTER #165 @ $9B34 - STRING #165 @ $C22D
+#W32($9B34)
+//ぼうやが！[NLINE]
+//私のぼうやが……。[END-FE]
+M-My boy![NLINE]
+My child is...[END-FE]
+
+
+
+
+
+//POINTER #166 @ $9B38 - STRING #166 @ $C24E
+#W32($9B38)
+//ねぇ、しっかりして！[END-FE]
+Pull yourself together![END-FE]
+
+
+
+
+
+//POINTER #167 @ $9B3C - STRING #167 @ $C265
+#W32($9B3C)
+//ねぇ、しっかりして！[END-FE]
+Pull yourself together![END-FE]
+
+
+
+
+
+//POINTER #168 @ $9B40 - STRING #168 @ $C27C
+#W32($9B40)
+//街に急いで！[END-FE]
+Head for the town![END-FE]
+
+
+
+
+
+//POINTER #169 @ $9B44 - STRING #169 @ $C28B
+#W32($9B44)
+//早く、走って！[END-FE]
+Run! Quick![END-FE]
+
+
+
+
+
+//POINTER #170 @ $9B48 - STRING #170 @ $C29C
+#W32($9B48)
+//おい、しっかりしろ！[END-FE]
+Hang in there![END-FE]
+
+
+
+
+
+//POINTER #171 @ $9B4C - STRING #171 @ $C2B3
+#W32($9B4C)
+//早く街へ逃げ込まないと[NLINE]
+//門を閉められてしまうぞ！[END-FE]
+If you don't hurry,[NLINE]
+they'll close the gate![END-FE]
+
+
+
+
+
+//POINTER #172 @ $9B50 - STRING #172 @ $C2E6
+#W32($9B50)
+//おい、しっかりしろ！[END-FE]
+Hang in there![END-FE]
+
+
+
+
+
+//POINTER #173 @ $9B54 - STRING #173 @ $C2FD
+#W32($9B54)
+//に、逃げるんじゃ…[END-FE]
+I-I must run...[END-FE]
+
+
+
+
+
+//POINTER #174 @ $9B58 - STRING #174 @ $C312
+#W32($9B58)
+//街に逃げ込め！[END-FE]
+Run for the town![END-FE]
+
+
+
+
+
+//POINTER #175 @ $9B5C - STRING #175 @ $C323
+#W32($9B5C)
+//あ、ああ！[END-FE]
+Y-Yeah![END-FE]
+
+
+
+
+
+//POINTER #176 @ $9B60 - STRING #176 @ $C330
+#W32($9B60)
+//急ぐんだ！[END-FE]
+Hurry![END-FE]
+
+
+
+
+
+//POINTER #177 @ $9B64 - STRING #177 @ $C33D
+#W32($9B64)
+//ひ、ひぃ！[END-FE]
+O-Okay![END-FE]
+
+
+
+
+
+//POINTER #178 @ $9B68 - STRING #178 @ $C34A
+#W32($9B68)
+//扉の留め金を壊す気なら、[NLINE]
+//弓などの間接攻撃じゃないと届かないぞ。[END-FE]
+You'll need a long-range weapon[NLINE]
+to destroy the gate mechanism.[END-FE]
+
+
+
+
+
+//POINTER #179 @ $9B6C - STRING #179 @ $C38D
+#W32($9B6C)
+//城門を落とすタイミングは任せる。[NLINE]
+//街にヤツを入れないでくれ！[END-FE]
+I'll drop the gate when you give[NLINE]
+the word! Just don't let that[NLINE]
+thing inside![END-FE]
+
+
+
+
+
+//POINTER #180 @ $9B70 - STRING #180 @ $C3CC
+#W32($9B70)
+//はやく街へ避難してください！[END-FE]
+Hurry back to town now![END-FE]
+
+
+
+
+
+//POINTER #181 @ $9B74 - STRING #181 @ $C3EB
+#W32($9B74)
+//く、やはり[NLINE]
+//ほとんど攻撃が通じないか……！[END-FE]
+Damn... I knew we couldn't[NLINE]
+hurt it by ourselves![END-FE]
+
+
+
+
+
+//POINTER #182 @ $9B78 - STRING #182 @ $C418
+#W32($9B78)
+//くやしいけど、[NLINE]
+//私たちの攻撃では難しいわね…。[END-FE]
+It looks like our attacks[NLINE]
+won't hurt it...[END-FE]
+
+
+
+
+
+//POINTER #183 @ $9B7C - STRING #183 @ $C449
+#W32($9B7C)
+//…う…うぅ…。[NWIN]
+//
+//…はっ、スクリーパーは!?[END-FE]
+Unh... Ugh...[NWIN]
+
+Huh...!? Where's the Screaper!?[END-FE]
+
+
+
+
+
+//POINTER #184 @ $9B80 - STRING #184 @ $C474
+#W32($9B80)
+//わ、わかった！[END-FE]
+G-Got it![END-FE]
+
+
+
+
+
+//POINTER #185 @ $9B84 - STRING #185 @ $C485
+#W32($9B84)
+//…おぉ…ワシはいったい…。[NWIN]
+//
+//…はっ、スクリーパーは!?[END-FE]
+Ugh... What happened?[NWIN]
+
+S-Screaper...!? Where!?[END-FE]
+
+
+
+
+
+//POINTER #186 @ $9B88 - STRING #186 @ $C4BC
+#W32($9B88)
+//う、うむ！[END-FE]
+O-Of course![END-FE]
+
+
+
+
+
+//POINTER #187 @ $9B8C - STRING #187 @ $C4C9
+#W32($9B8C)
+//まだ戦いは終わっていない。[NLINE]
+//早く城門の中へ急ぐんだ！[END-FE]
+The fight's not over yet.[NLINE]
+Hurry! Get inside the gate![END-FE]
+
+
+
+
+
+//POINTER #188 @ $9B90 - STRING #188 @ $C500
+#W32($9B90)
+//まだ戦いは終わっていないわ！[NLINE]
+//早く城門の中へ！[END-FE]
+It's not over yet. Get[NLINE]
+inside the gate, quickly![END-FE]
+
+
+
+
+
+//POINTER #189 @ $9B94 - STRING #189 @ $C531
+#W32($9B94)
+//[CHAR0100][V0700]
+//城門を降ろす準備を始めろ！[NLINE]
+//ダメだと判断した時点で、[NLINE]
+//門を降ろす！[END-FE]
+[CHAR0100][V0700]
+We're closing the[NLINE]
+gate! Everyone get[NLINE]
+inside, now![END-FE]
+
+
+
+
+
+//POINTER #190 @ $9B98 - STRING #190 @ $C57E
+#W32($9B98)
+//[CHAR0100][V0800]
+//みんなを見捨てるのか!?[END-FE]
+[CHAR0100][V0800]
+You're abandoning them!?[END-FE]
+
+
+
+
+
+//POINTER #191 @ $9B9C - STRING #191 @ $C59F
+#W32($9B9C)
+//[CHAR0100][V0900]
+//我々はスクリーパーを[NLINE]
+//街に入れるわけにはいかんのだ！[END-FE]
+[CHAR0100][V0900]
+We can't afford to let[NLINE]
+the Screaper inside![END-FE]
+
+
+
+
+
+//POINTER #192 @ $9BA0 - STRING #192 @ $C5DE
+#W32($9BA0)
+//[CHAR0100][V0A00]
+//くっ！[NLINE]
+//何か…何か方法はないのか…？[END-FE]
+[CHAR0100][V0A00]
+No... There's got[NLINE]
+to be a way...![END-FE]
+
+
+
+
+
+//POINTER #193 @ $9BA4 - STRING #193 @ $C60D
+#W32($9BA4)
+//[CHAR0100][V0B00]
+//スクリーパーは我々の手に負えぬ以上、[NLINE]
+//多少の犠牲は受け入れねばならん！[END-FE]
+[CHAR0100][V0B00]
+There's no defeating that thing. All[NLINE]
+we can do is limit the casualties![END-FE]
+
+
+
+
+
+//POINTER #194 @ $9BA8 - STRING #194 @ $C65E
+#W32($9BA8)
+//[CHAR0100][V0C00]
+//出来るだけ私たちで[NLINE]
+//人々が逃げる時間を稼ぐしかないわね…。[END-FE]
+[CHAR0100][V0C00]
+Those poor people... We have[NLINE]
+to buy them some time![END-FE]
+
+
+
+
+
+//POINTER #195 @ $9BAC - STRING #195 @ $C6A3
+#W32($9BAC)
+//[CHAR0100][V0D00]
+//確かにあの重い城門が閉じれば、[NLINE]
+//スクリーパーの侵入は防げるだろう。[NWIN]
+//
+//[CHAR0100][V0E00]
+//だがそれでは根本的解決にはならない！[NWIN]
+//
+//[CHAR0100][V0F00]
+//何とか倒す方法を考えないと…。[END-FE]
+[CHAR0100][V0D00]
+That heavy gate should stop[NLINE]
+the Screaper...[NWIN]
+
+[CHAR0100][V0E00]
+But that doesn't help the people outside.[NWIN]
+
+[CHAR0100][V0F00]
+...Must be some way to defeat it...[END-FE]
+
+
+
+
+
+//POINTER #196 @ $9BB0 - STRING #196 @ $C746
+#W32($9BB0)
+//[CHAR0100][V1000]
+//これ以上は我々も危険だ。[NLINE]
+//中に戻り、城門を閉じるぞ！[END-FE]
+[CHAR0100][V1000]
+We can't wait any longer![NLINE]
+Fall back and prepare to[NLINE]
+close the gate![END-FE]
+
+
+
+
+
+//POINTER #197 @ $9BB4 - STRING #197 @ $C785
+#W32($9BB4)
+//[CHAR0100][V1100]
+//了解！[END-FE]
+[CHAR0100][V1100]
+Roger![END-FE]
+
+
+
+
+
+//POINTER #198 @ $9BB8 - STRING #198 @ $C796
+#W32($9BB8)
+//[CHAR0100][V1200]
+//待ってくれ！[NLINE]
+//ここであのスクリーパーを倒さねば、[NLINE]
+//また別のところに被害が出るぞ！[END-FE]
+[CHAR0100][V1200]
+Wait! If we don't defeat[NLINE]
+that Screaper here, it'll[NLINE]
+keep killing![END-FE]
+
+
+
+
+
+//POINTER #199 @ $9BBC - STRING #199 @ $C7F1
+#W32($9BBC)
+//[CHAR0100][V1300]
+//だが、我々では[NLINE]
+//倒すことなど無理だ！[END-FE]
+[CHAR0100][V1300]
+But it can't[NLINE]
+be killed![END-FE]
+
+
+
+
+
+//POINTER #200 @ $9BC0 - STRING #200 @ $C820
+#W32($9BC0)
+//[CHAR0100][V1400]
+//いいや！[NLINE]
+//城門を利用するんだ！[NWIN]
+//
+//[CHAR0100][V1500]
+//あの扉の重さがあれば、[NLINE]
+//スクリーパーといえど[NLINE]
+//ひとたまりもないはずだ。[END-FE]
+[CHAR0100][V1400]
+I've got it! Let's use[NLINE]
+the gate offensively![NWIN]
+
+[CHAR0100][V1500]
+Even a Screaper[NLINE]
+won't survive[NLINE]
+that weight![END-FE]
+
+
+
+
+
+//POINTER #201 @ $9BC4 - STRING #201 @ $C899
+#W32($9BC4)
+//[CHAR0100][V1600]
+//隊長、大変です！[NLINE]
+//城門の留め金が引っかかって[NLINE]
+//下りません！[END-FE]
+[CHAR0100][V1600]
+Sir! We've got a problem![NLINE]
+The gate switch is stuck![NLINE]
+It won't close![END-FE]
+
+
+
+
+
+//POINTER #202 @ $9BC8 - STRING #202 @ $C8DE
+#W32($9BC8)
+//[CHAR0100][V1700]
+//何だと!?[END-FE]
+[CHAR0100][V1700]
+What!?[END-FE]
+
+
+
+
+
+//POINTER #203 @ $9BCC - STRING #203 @ $C8F1
+#W32($9BCC)
+//[CHAR0100][V1800]
+//隊長。[NLINE]
+//城門は我々が閉じます。[NLINE]
+//その代わり、タイミングは[NLINE]
+//こっちで取らせてもらいますよ。[END-FE]
+[CHAR0100][V1800]
+We'll close the gate[NLINE]
+for you! We need to time[NLINE]
+it just right since we only[NLINE]
+get one shot at this![END-FE]
+
+
+
+
+
+//POINTER #204 @ $9BD0 - STRING #204 @ $C954
+#W32($9BD0)
+//[CHAR0100][V1900]
+//くっ！[NLINE]
+//やむをえまい…。[END-FE]
+[CHAR0100][V1900]
+Ugh... We have[NLINE]
+no choice...[END-FE]
+
+
+
+
+
+//POINTER #205 @ $9BD4 - STRING #205 @ $C977
+#W32($9BD4)
+//[CHAR0100][V1A00]
+//ヴァネット！[NLINE]
+//門の裏側から、[NLINE]
+//扉を攻撃だ。[END-FE]
+[CHAR0100][V1A00]
+Vanette! Attack[NLINE]
+the gate switch[NLINE]
+from inside![END-FE]
+
+
+
+
+
+//POINTER #206 @ $9BD8 - STRING #206 @ $C9AC
+#W32($9BD8)
+//[CHAR0100][V1B00]
+//扉の留め金を壊すのね？[NLINE]
+//わかったわ！[END-FE]
+[CHAR0100][V1B00]
+Got it! I'll destroy[NLINE]
+the mechanism![END-FE]
+
+
+
+
+
+//POINTER #207 @ $9BDC - STRING #207 @ $C9DB
+#W32($9BDC)
+//・スクリーパーを門の下に誘い込み[NLINE]
+//　留め金を攻撃して門を落とす[NLINE]
+//・スクリーパーの撃破[END-FE]
+・Lure the Screaper under the gate[NLINE]
+　and destroy the mechanism[NLINE]
+・Defeat the Screaper[END-FE]
+
+
+
+
+
+//POINTER #208 @ $9BE0 - STRING #208 @ $CA32
+#W32($9BE0)
+//・スクリーパーに街中に入られる[NLINE]
+//・落下した門の空振り[NLINE]
+//・パーティーメンバーの死亡[NLINE]
+//・同行人の死亡[END-FE]
+・Screaper enters the town[NLINE]
+・Fail to drop the gate on the Screaper[NLINE]
+・Any party members die[NLINE]
+・Follower dies[END-FE]
+
+
+
+
+
+//POINTER #209 @ $9BE4 - STRING #209 @ $CA95
+#W32($9BE4)
+//戦闘のクリアー条件、ゲームオーバー条件は[NLINE]
+//状況によって変化することがあります。[NLINE]
+//現在の勝敗条件は、設定メニューで[NLINE]
+//確認することが出来ます。[END-FE]
+Winning and losing conditions will[NLINE]
+vary depending on the situation.[NLINE]
+They can be viewed on the[NLINE]
+objectives screen.[END-FE]
+
+
+
+
+
+//POINTER #210 @ $9BE8 - STRING #210 @ $CB22
+#W32($9BE8)
+//（……いま攻撃しても、[NLINE]
+//スクリーパーは倒せないわね。[NLINE]
+//セルディスの合図を待ちましょう。）[END-FE]
+...I can't defeat the Screaper[NLINE]
+by attacking it. I should wait[NLINE]
+for Seldous' signal.[END-FE]
+
+
+
+
+
+//POINTER #211 @ $9BEC - STRING #211 @ $CB7D
+#W32($9BEC)
+//ぐはっ…！[NLINE]
+//…しくじったか…。[END-FE]
+Damn...![NLINE]
+I messed it up...[END-FE]
+
+
+
+
+
+//POINTER #212 @ $9BF0 - STRING #212 @ $CB9E
+#W32($9BF0)
+//きゃああっ！[END-FE]
+Aaaaghhh![END-FE]
+
+
+
+
+
+//POINTER #213 @ $9BF4 - STRING #213 @ $CBAD
+#W32($9BF4)
+//しまった！[END-FE]
+Damn![END-FE]
+
+
+
+
+
+//POINTER #214 @ $9BF8 - STRING #214 @ $CBBA
+#W32($9BF8)
+//ピィイイ！[END-FE]
+Screeeee![END-FE]
+
+
+
+
+
+//POINTER #215 @ $9BFC - STRING #215 @ $CBC7
+#W32($9BFC)
+//し、しまった！[END-FE]
+Damn it![END-FE]
+
+
+
+
+
+//POINTER #216 @ $9C00 - STRING #216 @ $CBD8
+#W32($9C00)
+//うおおっ！[END-FE]
+Nooooo![END-FE]
+
+
+
+
+
+//POINTER #217 @ $9C04 - STRING #217 @ $CBE5
+#W32($9C04)
+//ぐぬぅっ！[END-FE]
+Ughhhhh![END-FE]
+
+
+
+
+
+//POINTER #218 @ $9C08 - STRING #218 @ $CBF2
+#W32($9C08)
+//こ、ここが[NLINE]
+//俺の旅の終着だったか…。[END-FE]
+S-So... This is[NLINE]
+how it ends...[END-FE]
+
+
+
+
+
+//POINTER #219 @ $9C0C - STRING #219 @ $CC19
+#W32($9C0C)
+//い、痛い……。[END-FE]
+I-It hurts...[END-FE]
+
+
+
+
+
+//POINTER #220 @ $9C10 - STRING #220 @ $CC2A
+#W32($9C10)
+//お…おかあさ…[END-FE]
+M... Mommy...[END-FE]
+
+
+
+
+
+//POINTER #221 @ $9C14 - STRING #221 @ $CC3B
+#W32($9C14)
+//いやああっ！[NLINE]
+//ぼうや！[END-FE]
+Nooooo![NLINE]
+My boy![END-FE]
+
+
+
+
+
+//POINTER #222 @ $9C18 - STRING #222 @ $CC54
+#W32($9C18)
+//ああ…ぼうや…[NLINE]
+//…生きて…[END-FE]
+Oh... My son...[NLINE]
+Please live for me...[END-FE]
+
+
+
+
+
+//POINTER #223 @ $9C1C - STRING #223 @ $CC71
+#W32($9C1C)
+//おかあさん…[END-FE]
+Mommy...![END-FE]
+
+
+
+
+
+//POINTER #224 @ $9C20 - STRING #224 @ $CC80
+#W32($9C20)
+//ああ…もう何も…[END-FE]
+My son... I'm coming...[END-FE]
+
+
+
+
+
+//POINTER #225 @ $9C24 - STRING #225 @ $CC93
+#W32($9C24)
+//や、やったのか……[END-FE]
+I-I did it......[END-FE]
+
+
+
+
+
+//POINTER #226 @ $9C28 - STRING #226 @ $CCA8
+#W32($9C28)
+//スクリーパーめ！[NLINE]
+//ここは通さないぞ！[END-FE]
+Damn Screaper![NLINE]
+I won't let you pass![END-FE]
+
+
+
+
+
+//POINTER #227 @ $9C2C - STRING #227 @ $CCCF
+#W32($9C2C)
+//どうだ？[NLINE]
+//そこからなら狙えるか？[END-FE]
+Vanette? Can you hit[NLINE]
+it from there?[END-FE]
+
+
+
+
+
+//POINTER #228 @ $9C30 - STRING #228 @ $CCF2
+#W32($9C30)
+//扉の裏の留め金…。[NLINE]
+//あった、あれね？[NWIN]
+//
+//ええ、狙えるわ。[END-FE]
+The door mechanism...[NLINE]
+I see, this must be it.[NWIN]
+
+Yes! I can do it![END-FE]
+
+
+
+
+
+//POINTER #229 @ $9C34 - STRING #229 @ $CD2B
+#W32($9C34)
+//まだ攻撃しないでくれよ……。[NWIN]
+//
+//門の真下へスクリーパーを誘導したら、[NLINE]
+//俺たちがその位置で道をふさぐ！[NWIN]
+//
+//その隙にヴァネットは留め金を破壊して[NLINE]
+//門を落としてくれ！[END-FE]
+Hold off for now...[NWIN]
+
+I'm going to stall the Screaper[NLINE]
+just below the gate.[NWIN]
+
+When that happens, destroy the[NLINE]
+mechanism and drop the gate![END-FE]
+
+
+
+
+
+//POINTER #230 @ $9C38 - STRING #230 @ $CDCA
+#W32($9C38)
+//間接攻撃のユニットは離れた場所や段差の上の[NLINE]
+//相手にも攻撃することができます。[NLINE]
+//そのかわり攻撃の命中率はやや低めです。[NWIN]
+//
+//また、仲間をその場に止まらせたい場合や、[NLINE]
+//他の行動を取らせず待機させたい場合は[NLINE]
+//[COL01]『防御』[COL00]を使用してください。[END-FE]
+Long-range units can hit distant enemies,[NLINE]
+or enemies on high ground. However,[NLINE]
+their accuracy will be lower than usual.[NWIN]
+
+If you wish to hold a unit in[NLINE]
+a specific position, use the[NLINE]
+[COL01]Defend[COL00] command.[END-FE]
+
+
+
+
+
+//POINTER #231 @ $9C3C - STRING #231 @ $CEB5
+#W32($9C3C)
+//[COL01]扉の留め金[COL00][END-FE]
+[COL01]Door Mechanism[COL00][END-FE]
+
+
+
+
+
+//POINTER #232 @ $9C40 - STRING #232 @ $CEC8
+#W32($9C40)
+//[CHAR0100][V1C00]
+//今だ！[NLINE]
+//門を落とすんだ！[END-FE]
+[CHAR0100][V1C00]
+Now![NLINE]
+Drop the gate![END-FE]
+
+
+
+
+
+//POINTER #233 @ $9C44 - STRING #233 @ $CEEB
+#W32($9C44)
+//ヴァネット、早く位置に着け！[END-FE]
+Vanette, get in position![END-FE]
+
+
+
+
+
+//POINTER #234 @ $9C48 - STRING #234 @ $CF0A
+#W32($9C48)
+//え、ええ！[END-FE]
+O-Okay![END-FE]
+
+
+
+
+
+//POINTER #235 @ $9C4C - STRING #235 @ $CF17
+#W32($9C4C)
+//く、彼女が門の内側に移動するまで[NLINE]
+//時間を稼がねば！[END-FE]
+I have to buy her some time[NLINE]
+to get inside the gate...![END-FE]
+
+
+
+
+
+//POINTER #236 @ $9C50 - STRING #236 @ $CF4C
+#W32($9C50)
+//彼女が行動可能になるまで[NLINE]
+//時間を稼がねば！[END-FE]
+I have to buy her some time[NLINE]
+until she can act again![END-FE]
+
+
+
+
+
+//POINTER #237 @ $9C54 - STRING #237 @ $CF79
+#W32($9C54)
+//ダメだ…。[NLINE]
+//門の内側に侵入を許した…。[END-FE]
+My gods... We[NLINE]
+let it inside...[END-FE]
+
+
+
+
+
+//POINTER #238 @ $9C58 - STRING #238 @ $CFA2
+#W32($9C58)
+//ああ…。[NLINE]
+//門より内側にスクリーパーが…。[END-FE]
+No...! The Screaper[NLINE]
+got inside the gate![END-FE]
+
+
+
+
+
+//POINTER #239 @ $9C5C - STRING #239 @ $CFCD
+#W32($9C5C)
+//くっ！[NLINE]
+//俺がちゃんと指示していれば…！[END-FE]
+Damn! If only my directions[NLINE]
+had been more precise...![END-FE]
+
+
+
+
+
+//POINTER #240 @ $9C60 - STRING #240 @ $CFF6
+#W32($9C60)
+//いま城門を落としても[NLINE]
+//当たらないか…。[END-FE]
+If we drop the gate[NLINE]
+now, it won't hit it.[END-FE]
+
+
+
+
+
+//POINTER #241 @ $9C64 - STRING #241 @ $D01F
+#W32($9C64)
+//は、はずした…!?[NLINE]
+//スクリーパーを倒せなかったぞ？[END-FE]
+Y-You missed!? You[NLINE]
+didn't crush the Screaper!?[END-FE]
+
+
+
+
+
+//POINTER #242 @ $9C68 - STRING #242 @ $D052
+#W32($9C68)
+//は、はずれた…!?[END-FE]
+I-I missed...!?[END-FE]
+
+
+
+
+
+//POINTER #243 @ $9C6C - STRING #243 @ $D065
+#W32($9C6C)
+//くっ！[NLINE]
+//俺がちゃんと指示していれば…！[END-FE]
+Damn! If only my directions[NLINE]
+had been more precise...![END-FE]
+
+
+
+
+
+//POINTER #244 @ $9C70 - STRING #244 @ $D08E
+#W32($9C70)
+//[CHAR0100][V1D00]
+//や、やった…!?[NLINE]
+//スクリーパーを倒せたぞ！[END-FE]
+[CHAR0100][V1D00]
+We did it...[NLINE]
+We killed a Screaper![END-FE]
+
+
+
+
+
+//POINTER #245 @ $9C74 - STRING #245 @ $D0C1
+#W32($9C74)
+//や、やった…!?[NLINE]
+//スクリーパーを倒せたぞ！[END-FE]
+We did it...[NLINE]
+We killed a Screaper![END-FE]
+
+
+
+
+
+//POINTER #246 @ $9C78 - STRING #246 @ $D0EC
+#W32($9C78)
+//それはいいが、[NLINE]
+//閉め出されてしまったな。[END-FE]
+Hmm, Vanette's[NLINE]
+still outside.[END-FE]
+
+
+
+
+
+//POINTER #247 @ $9C7C - STRING #247 @ $D117
+#W32($9C7C)
+//いま縄ばしごを用意する。[NLINE]
+//よくやってくれた。[END-FE]
+I'll lower a ladder.[NLINE]
+You two did well.[END-FE]
+
+
+
+
+
+//POINTER #248 @ $9C80 - STRING #248 @ $D146
+#W32($9C80)
+//それはいいが、[NLINE]
+//彼女が閉め出されてしまった。[END-FE]
+Hmm, Vanette's[NLINE]
+still outside.[END-FE]
+
+
+
+
+
+//POINTER #249 @ $9C84 - STRING #249 @ $D175
+#W32($9C84)
+//いま縄ばしごを用意する。[NLINE]
+//よくやってくれた。[END-FE]
+Excuse us, but we're[NLINE]
+stranded out here.[END-FE]
+
+
+
+
+
+//POINTER #250 @ $9C88 - STRING #250 @ $D1A4
+#W32($9C88)
+//[CHAR0100][V1E00]
+//倒せたみたいね…。[END-FE]
+[CHAR0100][V1E00]
+Your plan worked...[END-FE]
+
+
+
+
+
+//POINTER #251 @ $9C8C - STRING #251 @ $D1C1
+#W32($9C8C)
+//[CHAR0100][V1F00]
+//そうだな。[NWIN]
+//
+//[CHAR0100][V2000]
+//だが、後始末が済むまで門は使えないだろう。[NLINE]
+//まずは宿を探そう。[END-FE]
+[CHAR0100][V1F00]
+...So it did.[NWIN]
+
+[CHAR0100][V2000]
+But we can't leave until they clean up the[NLINE]
+mess at the gate. Let's find an inn.[END-FE]
+
+
+
+
+
+//POINTER #252 @ $9C90 - STRING #252 @ $D21E
+#W32($9C90)
+//[CHAR0100][V1F00]
+//そうだな。[END-FE]
+[CHAR0100][V1F00]
+...So it did.[NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #253 @ $9C94 - STRING #253 @ $D233
+#W32($9C94)
+//ここの後始末は兵隊たちに任せて、[NLINE]
+//まずは宿を探そう。[END-FE]
+Let the soldiers clean up.[NLINE]
+We should get to the inn.[END-FE]
+
+
+
+
+
+//POINTER #254 @ $9C98 - STRING #254 @ $D26A
+#W32($9C98)
+//[CHAR0000][V1400]
+//…ふぅ…ふぅ…[END-FE]
+[CHAR0000][V1400]
+*pant* *pant*[END-FE]
+
+
+
+
+
+//POINTER #255 @ $9C9C - STRING #255 @ $D283
+#W32($9C9C)
+//[CHAR0000][V1500]
+//さすがのアイザックも[NLINE]
+//もうお終いだな！[END-FE]
+[CHAR0000][V1500]
+Say your[NLINE]
+prayers, Isaac![END-FE]
+
+
+
+
+
+//POINTER #256 @ $9CA0 - STRING #256 @ $D2B4
+#W32($9CA0)
+//[CHAR0000][V1600]
+//…邪魔をするな！[END-FE]
+[CHAR0000][V1600]
+...Don't get in my way![END-FE]
+
+
+
+
+
+//POINTER #257 @ $9CA4 - STRING #257 @ $D2CF
+#W32($9CA4)
+//[CHAR0000][V1700]
+//ぐはっ！[END-FE]
+[CHAR0000][V1700]
+Gaah![END-FE]
+
+
+
+
+
+//POINTER #258 @ $9CA8 - STRING #258 @ $D2E2
+#W32($9CA8)
+//[CHAR0000][V1800]
+//…俺は…やられるわけには…[NLINE]
+//この世から戦争を…消…うぅ…[END-FE]
+[CHAR0000][V1800]
+...Must survive... and find a[NLINE]
+way to... stop the war...[END-FE]
+
+
+
+
+
+//POINTER #259 @ $9CAC - STRING #259 @ $D325
+#W32($9CAC)
+//[CHAR0000][V1900]
+//こんなところで…[NLINE]
+//俺は…[END-FE]
+[CHAR0000][V1900]
+...I can't afford[NLINE]
+to... die here...[END-FE]
+
+
+
+
+
+//POINTER #260 @ $9CB0 - STRING #260 @ $D348
+#W32($9CB0)
+//戦闘中も、左スティックで[NLINE]
+//主人公を移動させることができます。[END-FE]
+While in battle, move your character[NLINE]
+with the left analog stick.[NWIN]
+
+You can move the main character to the[NLINE]
+destination automatically by selecting[NLINE]
+the [COL01]Move[COL00] command from the menu that[NLINE]
+appears by pressing [TRIANGLE].[NWIN]
+
+You can designate up to 2 via routing points[NLINE]
+but in case you don't need 2 points, you can[NLINE]
+cancel the second point by selecting the[NLINE]
+first point twice.[END-FE]
+
+
+
+
+
+//POINTER #261 @ $9CB4 - STRING #261 @ $D387
+#W32($9CB4)
+//ダメだ。[NLINE]
+//彼を見殺しにはできない！[END-FE]
+I can't leave[NLINE]
+that man to die![END-FE]
+
+
+
+
+
+//POINTER #262 @ $9CB8 - STRING #262 @ $D3AC
+#W32($9CB8)
+//どこに行くの？[NLINE]
+//セルディス？[END-FE]
+Where're you[NLINE]
+going, Seldous?[END-FE]
+
+
+
+
+
+//POINTER #263 @ $9CBC - STRING #263 @ $D3CB
+#W32($9CBC)
+//どこに行くの？[NLINE]
+//早くこの人を医者に診せないと！[END-FE]
+Where are you going? We[NLINE]
+must find a doctor for him![END-FE]
+
+
+
+
+
+//POINTER #264 @ $9CC0 - STRING #264 @ $D3FC
+#W32($9CC0)
+//[CHAR0000][V1A00]
+//…ゲルか!?…[NLINE]
+//この屍肉喰いが！[END-FE]
+[CHAR0000][V1A00]
+Slimes!? Filthy[NLINE]
+scavengers![END-FE]
+
+
+
+
+
+//POINTER #265 @ $9CC4 - STRING #265 @ $D425
+#W32($9CC4)
+//[CHAR0000][V1B00]
+//…う…ぅ…[END-FE]
+[CHAR0000][V1B00]
+Ugh... Unh...[END-FE]
+
+
+
+
+
+//POINTER #266 @ $9CC8 - STRING #266 @ $D43A
+#W32($9CC8)
+//[CHAR0000][V1C00]
+//あの男、まだ息がある？[NLINE]
+//このままではゲルの餌食だ！[END-FE]
+[CHAR0000][V1C00]
+He's still alive... I can't let[NLINE]
+those Slimes finish him off![END-FE]
+
+
+
+
+
+//POINTER #267 @ $9CCC - STRING #267 @ $D477
+#W32($9CCC)
+//・モンスターの全滅[END-FE]
+・All monsters defeated[END-FE]
+
+
+
+
+
+//POINTER #268 @ $9CD0 - STRING #268 @ $D48C
+#W32($9CD0)
+//・倒れている男の死亡[NLINE]
+//・セルディスの死亡[END-FE]
+・Wounded man dies[NLINE]
+・Seldous dies[END-FE]
+
+
+
+
+
+//POINTER #269 @ $9CD4 - STRING #269 @ $D4B7
+#W32($9CD4)
+//操作についての説明を受けますか？[END-FE]
+View the movement tutorial?[END-FE]
+
+
+
+
+
+//POINTER #270 @ $9CD8 - STRING #270 @ $D4DA
+#W32($9CD8)
+//・説明を受ける[END-FE]
+・View the tutorial[END-FE]
+
+
+
+
+
+//POINTER #271 @ $9CDC - STRING #271 @ $D4EB
+#W32($9CDC)
+//・説明を受けない[END-FE]
+・No need[END-FE]
+
+
+
+
+
+//POINTER #272 @ $9CE0 - STRING #272 @ $D4FE
+#W32($9CE0)
+//モンスターや敵に近づくと[NLINE]
+//赤いマーカーが表示されます。[NWIN]
+//
+//赤いマーカーの表示中に[CIRCLE]を押すと、[NLINE]
+//主人公はその相手へ攻撃を始め、[NLINE]
+//以後自動で攻撃を続けます。[NWIN]
+//
+//なお、攻撃対象を決めた際には、[NLINE]
+//主人公の頭部に黄色い輪が表示されます。[NLINE]
+//また誰を攻撃したかが報告されます。[NWIN]
+//
+//近づくだけでなく、[L1]、[R1]を使って[NLINE]
+//周囲の敵にマーカーを動かすこともできます。[NLINE]
+//その場合も[COL01][CIRCLE][COL00]で攻撃を始めます。[END-FE]
+When approaching an enemy,[NLINE]
+a red marker will appear.[NWIN]
+
+Press [CROSS] to attack the enemy the red[NLINE]
+marker points to. The character will[NLINE]
+continue attacking automatically.[NWIN]
+
+After you select a target, a target[NLINE]
+lock will be shown on its HP gauge,[NLINE]
+and a yellow ring above the main[NLINE]
+character's head. Their target will[NLINE]
+be displayed as well.[NWIN]
+
+Remember that if you take actions[NLINE]
+such as moving, the attack will be[NLINE]
+cancelled.[NWIN]
+
+You can go into attack mode by pressing [TRIANGLE][NLINE]
+to open the command menu. Then you can[NLINE]
+choose [COL01]Attack[COL00] command to lock on to[NLINE]
+the desired enemy.[NWIN]
+
+Move the attack marker to other[NLINE]
+enemies with [L1] and [R1]. Commence[NLINE]
+attacking with [COL01][CROSS][COL00].[END-FE]
+
+
+
+
+
+//POINTER #273 @ $9CE4 - STRING #273 @ $D67B
+#W32($9CE4)
+//死者とはいえ、[NLINE]
+//バケモノに食い荒らされるのは忍びない…。[END-FE]
+Even if he's dead, I can't let[NLINE]
+the monsters have him...[END-FE]
+
+
+
+
+
+//POINTER #274 @ $9CE8 - STRING #274 @ $D6B6
+#W32($9CE8)
+//くっ！[NLINE]
+//このままではゲルに食われてしまう！[END-FE]
+Damn! I must stop[NLINE]
+the slimes...[END-FE]
+
+
+
+
+
+//POINTER #275 @ $9CEC - STRING #275 @ $D6E3
+#W32($9CEC)
+//ＨＰが半分を切ったユニットは[NLINE]
+//レーダー上のマーカーが明滅します。[NLINE]
+//なおＨＰが少ないほど、明滅間隔が短くなります。[END-FE]
+Units with less than half their HP[NLINE]
+will have a flashing marker. The lower[NLINE]
+their HP, the faster it will flash.[END-FE]
+
+
+
+
+
+//POINTER #276 @ $9CF0 - STRING #276 @ $D756
+#W32($9CF0)
+//レーダー上の点・ユニットのＨＰバーが[NLINE]
+//緑で表示されているキャラクターは、[NLINE]
+//あなたの守るべき味方です。[NWIN]
+//
+//彼らは[NLINE]
+//[COL01]ＮＰＣ[COL00]（ノンプレイヤーキャラクター）と[NLINE]
+//呼ばれます。[NWIN]
+//
+//フィールド上のＮＰＣがモンスターに殺されると、[NLINE]
+//多くの場合ゲームオーバーになります。[NLINE]
+//気をつけましょう。[NWIN]
+//
+//特に商人のような戦うすべのないＮＰＣは、[NLINE]
+//モンスターや敵に襲われたときには積極的に[NLINE]
+//プレイヤーが守ってやる必要があります。[END-FE]
+Characters with green HP bars[NLINE]
+(green dots on the radar) are[NLINE]
+allies who must be protected.[NWIN]
+
+They're called [COL01]NPCs[COL00], or Non-[NLINE]
+Player Characters.[NWIN]
+
+In most missions, if the NPCs[NLINE]
+are killed, the game will be over.[NLINE]
+Watch them carefully.[NWIN]
+
+If NPCs with no combat abilities[NLINE]
+are attacked by monsters, you[NLINE]
+must protect them at all costs.[NLINE]
+Units low on HP will be shown as[NLINE]
+a blinking dot. Keep a careful[NLINE]
+eye on the radar.[END-FE]
+
+
+
+
+
+//POINTER #277 @ $9CF4 - STRING #277 @ $D8E7
+#W32($9CF4)
+//しまった！[NLINE]
+//守りきれなかった…。[END-FE]
+Damn! I must stop[NLINE]
+the slimes...[END-FE]
+
+
+
+
+
+//POINTER #278 @ $9CF8 - STRING #278 @ $D90A
+#W32($9CF8)
+//[CHAR0000][V1D00]
+//はっ、これは!?[NLINE]
+//セルディス！[END-FE]
+[CHAR0000][V1D00]
+What's happening!?[NLINE]
+Seldous![END-FE]
+
+
+
+
+
+//POINTER #279 @ $9CFC - STRING #279 @ $D931
+#W32($9CFC)
+//[CHAR0000][V1E00]
+//ヴァネットか！[NLINE]
+//気をつけろ！[END-FE]
+[CHAR0000][V1E00]
+Vanette!?[NLINE]
+Watch out![END-FE]
+
+
+
+
+
+//POINTER #280 @ $9D00 - STRING #280 @ $D958
+#W32($9D00)
+//[CHAR0000][V1F00]
+//わかってる！[NLINE]
+//私も手伝うわ！[END-FE]
+[CHAR0000][V1F00]
+I'll fight[NLINE]
+with you![END-FE]
+
+
+
+
+
+//POINTER #281 @ $9D04 - STRING #281 @ $D97F
+#W32($9D04)
+//・倒れている男の死亡[NLINE]
+//・ヴァネットの死亡[NLINE]
+//・キャリィの死亡[NLINE]
+//・セルディスの死亡[END-FE]
+・Wounded man dies[NLINE]
+・Vanette dies[NLINE]
+・Steed dies[NLINE]
+・Seldous dies[END-FE]
+
+
+
+
+
+//POINTER #282 @ $9D08 - STRING #282 @ $D9D0
+#W32($9D08)
+//くっ！[NLINE]
+//匂いを嗅ぎつけて[NLINE]
+//やってきたみたいね…。[END-FE]
+Ugh! They must[NLINE]
+have been drawn to[NLINE]
+the smell of blood...[END-FE]
+
+
+
+
+
+//POINTER #283 @ $9D0C - STRING #283 @ $DA03
+#W32($9D0C)
+//ぐはっ…！[NLINE]
+//…こんなところで…。[END-FE]
+Agh...! I can't[NLINE]
+die here...[END-FE]
+
+
+
+
+
+//POINTER #284 @ $9D10 - STRING #284 @ $DA26
+#W32($9D10)
+//きゃああっ！[END-FE]
+Aieee![END-FE]
+
+
+
+
+
+//POINTER #285 @ $9D14 - STRING #285 @ $DA35
+#W32($9D14)
+//ヴァネット！[END-FE]
+Vanette![END-FE]
+
+
+
+
+
+//POINTER #286 @ $9D18 - STRING #286 @ $DA44
+#W32($9D18)
+//そんな…。[NLINE]
+//せっかく借りてきたキャリィが……。[END-FE]
+No...[NLINE]
+The Steed...[END-FE]
+
+
+
+
+
+//POINTER #287 @ $9D1C - STRING #287 @ $DA75
+#W32($9D1C)
+//敵を撃破すると、経験値Expとお金を[NLINE]
+//入手することができます。[NLINE]
+//どれだけの値を得たかは画面上部に[NLINE]
+//報告されます。[NWIN]
+//
+//撃破した際のExpは相手とのLV差で[NLINE]
+//変化します。[NLINE]
+//他に重要な戦闘をクリアーした際にも[NLINE]
+//Expは入手できます。[END-FE]
+You acquire experience points (EXP)[NLINE]
+and money by defeating enemies.[NLINE]
+The amount of each that you gain[NLINE]
+is shown at the top of the screen.[NWIN]
+
+The amount of EXP you gain is[NLINE]
+determined by the enemy's level.[NLINE]
+You'll also acquire EXP by[NLINE]
+completing important missions.[END-FE]
+
+
+
+
+
+//POINTER #288 @ $9D20 - STRING #288 @ $DB4D
+#W32($9D20)
+//[CHAR0000][V2000]
+//もうモンスターは[NLINE]
+//いないようだな。[END-FE]
+[CHAR0000][V2000]
+That seems to be[NLINE]
+the last of them.[END-FE]
+
+
+
+
+
+//POINTER #289 @ $9D24 - STRING #289 @ $DB7A
+#W32($9D24)
+//攻撃を受けると、硬直を受けます。[NLINE]
+//集団に囲まれると、身動きが取れなくなるので[NLINE]
+//注意しましょう。[END-FE]
+If you're attacked, you'll be stunned[NLINE]
+for a few moments. Try to avoid[NLINE]
+being surrounded by enemies.[END-FE]
+
+
+
+
+
+//POINTER #290 @ $9D28 - STRING #290 @ $DBDB
+#W32($9D28)
+//主人公の場合、[CROSS]を押しておくことで[NLINE]
+//その場で防御態勢をとることもできます。[NWIN]
+//
+//防御中は相手から受けるダメージを減らせますが、[NLINE]
+//硬直していると防御の効果は得られません。[END-FE]
+Use [COL01]Defend[COL00] command to[NLINE]
+take a defense position.[END-FE]
+
+
+
+
+
+//POINTER #296 @ $9FC0 - STRING #296 @ $E288
+#W32($9FC0)
+
+
+
+You can reduce the damage you'll sustain[NLINE]
+by defending. But if you've been stunned,[NLINE]
+you won't be able to defend yourself.[END-FE]
+
+
+
+
+
+//POINTER #291 @ $9D2C - STRING #291 @ $DC82
+#W32($9D2C)
+//攻撃によりＨＰが０になるとその相手を[NLINE]
+//撃破できます。[NLINE]
+//それぞれのＨＰは、頭上にバーの形で[NLINE]
+//表示されています。[END-FE]
+An enemy's HP is shown in a bar[NLINE]
+above its head. When the enemy's[NLINE]
+HP reaches 0, the foe has been[NLINE]
+defeated.[END-FE]
+
+
+
+
+
+//POINTER #292 @ $9D30 - STRING #292 @ $DCF1
+#W32($9D30)
+//自分と仲間はＨＰが０になると瀕死状態になり、[NLINE]
+//行動不能になります。[NLINE]
+//全員が瀕死になるとゲームオーバーです。[NLINE]
+//注意してください。[END-FE]
+A party member will become immobilized[NLINE]
+if his or her HP reaches 0. If the entire[NLINE]
+party becomes immobilized, the game[NLINE]
+will end. Be careful.[END-FE]
+
+
+
+
+
+//POINTER #293 @ $9D34 - STRING #293 @ $DD72
+#W32($9D34)
+//重要な戦闘では、特殊なゲームオーバー条件が[NLINE]
+//課せられることがあります。[NLINE]
+//この戦闘の条件を見てみましょう。[END-FE]
+Some battles also have special[NLINE]
+defeat conditions. Let's see what[NLINE]
+the conditions are for this battle.[END-FE]
+
+
+
+
+
+//POINTER #294 @ $9D38 - STRING #294 @ $DDDD
+#W32($9D38)
+//[START]を押すと表示される設定メニューで、[NLINE]
+//勝敗条件を確認することが出来ます。[END-FE]
+Open the setup menu with the START[NLINE]
+button to check the conditions.[END-FE]
+
+
+
+
+
+//POINTER #295 @ $9D3C - STRING #295 @ $DE2C
+#W32($9D3C)
+//回復薬や気付け薬などは、[COL04][TRIANGLE][COL00]でメニューを出し、[NLINE]
+//[COL01]『道具』[COL00]コマンドからグッズを選び、[NLINE]
+//さらに使う対象を選んで使用します。[NWIN]
+//
+//ただし使用者が硬直中の場合、[NLINE]
+//実際に使用できるタイミングは[NLINE]
+//硬直が終わった後になります。[END-FE]
+To use consumable items, press [COL04][TRIANGLE][COL00] to open[NLINE]
+the menu. Select the [COL01]Item[COL00] command[NLINE]
+and choose who to use it on.[NWIN]
+
+If the user is stunned, the item can't be[NLINE]
+used until they recover.[END-FE]
+
+
+
+
+
+//POINTER #296 @ $9D40 - STRING #296 @ $DF09
+#W32($9D40)
+//ひとたび攻撃を行うと、硬直時間が無くなるまで[NLINE]
+//次の行動が行えません。[END-FE]
+Once you attack, you'll be unable[NLINE]
+to move for a short while.[END-FE]
+
+
+
+
+
+//POINTER #297 @ $9D44 - STRING #297 @ $DF50
+#W32($9D44)
+//画面下にある簡易ステイタスの[NLINE]
+//[COL01]ＡＴＷゲージ[COL00]に黄色く表示されている部分が[NLINE]
+//残り硬直時間です。[END-FE]
+The [COL01]ATW Gauge[COL00] in the status window[NLINE]
+at the bottom of the screen shows[NLINE]
+the time left until you can act again.[END-FE]
+
+
+
+
+
+//POINTER #298 @ $9D48 - STRING #298 @ $DFB3
+#W32($9D48)
+//[COL01]ＡＴＷゲージ[COL00][END-FE]
+[COL01]ATW Gauge[COL00][END-FE]
+
+
+
+
+
+//POINTER #299 @ $9D4C - STRING #299 @ $DFC8
+#W32($9D4C)
+//[COL01]ＡＴＷゲージ[COL00][END-FE]
+[COL01]ATW Gauge[COL00][END-FE]
+
+
+
+
+
+//POINTER #300 @ $9D50 - STRING #300 @ $DFDD
+#W32($9D50)
+//[COL01]ＡＴＷゲージ[COL00][END-FE]
+[COL01]ATW Gauge[COL00][END-FE]
+
+
+
+
+
+//POINTER #307 @ $9FEC - STRING #307 @ $E65D
+#W32($9FEC)
+
+
+
+
+Only the main character will be[NLINE]
+able to move when stunned.[NLINE]
+However, his recovery from the[NLINE]
+stun will be slower than usual.[END-FE]
+
+
+
+
+
+//POINTER #301 @ $9D54 - STRING #301 @ $DFF2
+#W32($9D54)
+//無理をするなよ！[END-FE]
+Don't strain yourself![END-FE]
+
+
+
+
+
+//POINTER #302 @ $9D58 - STRING #302 @ $E005
+#W32($9D58)
+//あなたこそ！[END-FE]
+You either![END-FE]
+
+
+
+
+
+//POINTER #303 @ $9D5C - STRING #303 @ $E014
+#W32($9D5C)
+//この人、まだ息があるわ。[END-FE]
+He's still alive.[END-FE]
+
+
+
+
+
+//POINTER #304 @ $9D60 - STRING #304 @ $E02F
+#W32($9D60)
+//あの人、大丈夫かしら？[END-FE]
+Do you think he's all right?[END-FE]
+
+
+
+
+
+//POINTER #305 @ $9D64 - STRING #305 @ $E048
+#W32($9D64)
+//この動物は[COL01]キャリィ[COL00]といいます。[NLINE]
+//人なつこく、荷物の運搬などに使われますが、[NLINE]
+//臆病なため戦闘は出来ません。[NLINE]
+//モンスターに襲われないように守って下さい。[END-FE]
+This animal is called a [COL01]Steed[COL00].[NLINE]
+It is docile and easygoing, making[NLINE]
+it ideal as a pack animal. They must[NLINE]
+be protected in combat.[END-FE]
+
+
+
+
+
+//POINTER #306 @ $9D68 - STRING #306 @ $E0E5
+#W32($9D68)
+//[CHAR0000][V2100]
+//…うぅ…。[END-FE]
+[CHAR0000][V2100]
+...Ugh...[END-FE]
+
+
+
+
+
+//POINTER #307 @ $9D6C - STRING #307 @ $E0FA
+#W32($9D6C)
+//[CHAR0000][V2100]
+//…うぅ…。[END-FE]
+[CHAR0000][V2100]
+...Ugh...[END-FE]
+
+
+
+
+
+//POINTER #308 @ $9D70 - STRING #308 @ $E10F
+#W32($9D70)
+//[CHAR0000][V2200]
+//この傷、モンスターに[NLINE]
+//やられたわけじゃないわね。[END-FE]
+[CHAR0000][V2200]
+Monsters didn't cause[NLINE]
+these wounds...[END-FE]
+
+
+
+
+
+//POINTER #309 @ $9D74 - STRING #309 @ $E14A
+#W32($9D74)
+//[CHAR0000][V2300]
+//…俺は…戦を…止め…。[END-FE]
+[CHAR0000][V2300]
+I must stop... the war...[END-FE]
+
+
+
+
+
+//POINTER #310 @ $9D78 - STRING #310 @ $E16B
+#W32($9D78)
+//[CHAR0000][V2400]
+//戦争を止める？[NWIN]
+//
+//[CHAR0000][V2500]
+//この男も、我々と同じ想いで…。[END-FE]
+[CHAR0000][V2400]
+Stop the war?[NWIN]
+
+[CHAR0000][V2500]
+So he shares our dream...[END-FE]
+
+
+
+
+
+//POINTER #311 @ $9D7C - STRING #311 @ $E1AC
+#W32($9D7C)
+//[CHAR0000][V2600]
+//どうするの？[NLINE]
+//ここを南に下ればグランゲイルの王都よ。[END-FE]
+[CHAR0000][V2600]
+What now? If we head south, we can[NLINE]
+reach the capital of Grangale.[END-FE]
+
+
+
+
+
+//POINTER #312 @ $9D80 - STRING #312 @ $E1EB
+#W32($9D80)
+//[CHAR0000][V2700]
+//もちろん連れていく。[NLINE]
+//見捨ててはおけない。[END-FE]
+[CHAR0000][V2700]
+He can't stay here.[NLINE]
+We'll have to bring him.[END-FE]
+
+
+
+
+
+//POINTER #313 @ $9D84 - STRING #313 @ $E220
+#W32($9D84)
+//[CHAR0000][V2800]
+//そうよね。[END-FE]
+[CHAR0000][V2800]
+You're right.[END-FE]
+
+
+
+
+
+//POINTER #314 @ $9D88 - STRING #314 @ $E235
+#W32($9D88)
+//[CHAR0000][V2900]
+//よし、出発しよう。[NLINE]
+//ここは海に近い。[NLINE]
+//いつスクリーパーが出てもおかしくないからな。[END-FE]
+[CHAR0000][V2900]
+Let's get moving now. We're[NLINE]
+too close to the ocean, which[NLINE]
+means we're in Screaper country.[END-FE]
+
+
+
+
+
+//POINTER #315 @ $9D8C - STRING #315 @ $E292
+#W32($9D8C)
+//[CHAR0000][V2A00]
+//そうね。[NLINE]
+//陽が落ちる前に街に入りましょう。[END-FE]
+[CHAR0000][V2A00]
+Right. We should reach the[NLINE]
+capital before sunset.[END-FE]
+
+
+
+
+
+//POINTER #316 @ $9D90 - STRING #316 @ $E2C7
+#W32($9D90)
+//　[NLINE]
+//ヴァネットが仲間になった！[NLINE]
+//　[END-FE]
+　[NLINE]
+Vanette has joined your party![NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #317 @ $9D94 - STRING #317 @ $E2EC
+#W32($9D94)
+//仲間は自動でも行動しますが、それぞれに[NLINE]
+//目標や行動を指示することもできます。[END-FE]
+Your allies can move automatically,[NLINE]
+or you can give them commands.[END-FE]
+
+
+
+
+
+//POINTER #318 @ $9D98 - STRING #318 @ $E33B
+#W32($9D98)
+//仲間に指示を与えるには、[NLINE]
+//[TRIANGLE]を押して出るコマンドメニューを[NLINE]
+//[L1]、[R1]で各人に切り替えて行います。[END-FE]
+To command your allies, go to the[NLINE]
+command menu by pressing [TRIANGLE]. To cycle[NLINE]
+through the characters, press [L1] and [R1].[END-FE]
+
+
+
+
+
+//POINTER #319 @ $9D9C - STRING #319 @ $E3A0
+#W32($9D9C)
+//　[NLINE]
+//ヴァネットからグッズを受け取った！[END-FE]
+　[NLINE]
+Received Vulnerary from Vanette![END-FE]
+
+
+
+
+
+//POINTER #320 @ $9DA0 - STRING #320 @ $E3C9
+#W32($9DA0)
+//　[NLINE]
+//キャリィが同行人になった！[END-FE]
+　[NLINE]
+Steed will follow your party![END-FE]
+
+
+
+
+
+//POINTER #321 @ $9DA4 - STRING #321 @ $E3EA
+#W32($9DA4)
+//同行人には指示を出すことができません。[NLINE]
+//同行人が死亡するとゲームオーバーになります。[NLINE]
+//敵やモンスターから守るようにしてください。[NWIN]
+//
+//攻撃している相手からＮＰＣを守るためには、[NLINE]
+//相手に近づいて攻撃することで注意を引きつける、[NLINE]
+//魔法やグッズを使ってＮＰＣを回復する、[NLINE]
+//といった方法があります。[END-FE]
+You can't give orders to Followers.[NLINE]
+If a Follower dies, the game is over.[NLINE]
+Protect them during battle.[NWIN]
+
+To protect NPCs in battle, you can[NLINE]
+approach the enemies to draw their[NLINE]
+attention, or use magic and items to[NLINE]
+heal the NPC.[END-FE]
+
+
+
+
+//POINTER #322 @ $9DA8 - STRING #322 @ $E50B
+#W32($9DA8)
+//…うぅ…。[END-FE]
+...Ugh...[END-FE]
+
+
+
+
+
+//POINTER #323 @ $9DAC - STRING #323 @ $E518
+#W32($9DAC)
+//あんなところに一般人が。[NLINE]
+//助けが必要だろう。[END-FE]
+A civilian, here?[NLINE]
+He needs help...[END-FE]
+
+
+
+
+
+//POINTER #324 @ $9DB0 - STRING #324 @ $E547
+#W32($9DB0)
+//あんなところに一般人が。[NLINE]
+//助けが必要だろう。[END-FE]
+A civilian, here?[NLINE]
+He needs help...[END-FE]
+
+
+
+
+
+//POINTER #325 @ $9DB4 - STRING #325 @ $E576
+#W32($9DB4)
+//装備品は身につけることで、[NLINE]
+//能力を上昇させたり、[NLINE]
+//特殊な能力を得ることができます。[NWIN]
+//
+//装備するには[COL04][TRIANGLE][COL00]からメニューを呼びだし、[NLINE]
+//[COL01]装備[COL00]コマンドを選んでください。[END-FE]
+You can become stronger or[NLINE]
+gain special abilities with[NLINE]
+different equipment.[NWIN]
+
+To equip them, press [COL04][TRIANGLE][COL00] to open the menu[NLINE]
+and select the [COL01]Equip[COL00] command.[END-FE]
+
+
+
+
+
+//POINTER #326 @ $9DB8 - STRING #326 @ $E61F
+#W32($9DB8)
+//[COL01]戦闘システムの特徴[END-FE]
+[COL01]Flow of Combat[END-FE]
+
+
+
+
+
+//POINTER #327 @ $9DBC - STRING #327 @ $E637
+#W32($9DBC)
+//[COL01]戦闘システムの特徴[END-FE]
+[COL01]Flow of Combat[END-FE]
+
+
+
+
+
+//POINTER #328 @ $9DC0 - STRING #328 @ $E64F
+#W32($9DC0)
+//[COL01]戦闘システムの特徴[END-FE]
+[COL01]Flow of Combat[END-FE]
+
+
+
+
+
+//POINTER #329 @ $9DC4 - STRING #329 @ $E667
+#W32($9DC4)
+//屋外やダンジョンにはモンスターが[NLINE]
+//うろついており、画面や操作が切り替わる事なく[NLINE]
+//そのままの状態で戦闘になります。[END-FE]
+After encountering monsters roaming in[NLINE]
+dungeons or on the field, battle will[NLINE]
+begin automatically.[END-FE]
+
+
+
+
+
+//POINTER #330 @ $9DC8 - STRING #330 @ $E6DA
+#W32($9DC8)
+//近づくとモンスターは攻撃を[NLINE]
+//しかけてきますが、プレイヤー側から[NLINE]
+//先に攻撃をしかけることもできます。[END-FE]
+If you approach monsters, they[NLINE]
+will attack, but you can also[NLINE]
+launch a preemptive attack.[END-FE]
+
+
+
+
+
+//POINTER #331 @ $9DCC - STRING #331 @ $E73F
+#W32($9DCC)
+//　[NLINE]
+//まずはモンスターに近づいてみましょう。[END-FE]
+　[NLINE]
+First, approach the monsters.[END-FE]
+
+
+
+
+
+//POINTER #332 @ $9DD0 - STRING #332 @ $E76C
+#W32($9DD0)
+//う、うわ、助けて…[END-FE]
+O-Oh gods... Help![END-FE]
+
+
+
+
+
+//POINTER #333 @ $9DD4 - STRING #333 @ $E781
+#W32($9DD4)
+//ま、まだモンスターが…。[END-FE]
+Th-There's still a monster...[END-FE]
+
+
+
+
+
+//POINTER #334 @ $9DD8 - STRING #334 @ $E79C
+#W32($9DD8)
+//怪我はなかったか？[END-FE]
+Are you all right?[END-FE]
+
+
+
+
+
+//POINTER #335 @ $9DDC - STRING #335 @ $E7B1
+#W32($9DDC)
+//あ、ありがとう…。[NLINE]
+//仕入れに行く途中で[NLINE]
+//モンスターと鉢合わせるとは…。[END-FE]
+Th-Thank you... I didn't[NLINE]
+expect to see monsters[NLINE]
+on my way to resupply...[END-FE]
+
+
+
+
+
+//POINTER #336 @ $9DE0 - STRING #336 @ $E7FA
+#W32($9DE0)
+//よかったら[NLINE]
+//何か買っていってくれ。[END-FE]
+Would you like to[NLINE]
+buy my merchandise?[END-FE]
+
+
+
+
+
+//POINTER #337 @ $9DE4 - STRING #337 @ $E81F
+#W32($9DE4)
+//記録もとれますよ？[END-FE]
+I can also save[NLINE]
+your progress.[END-FE]
+
+
+
+
+
+//POINTER #338 @ $9DE8 - STRING #338 @ $E834
+#W32($9DE8)
+//・グッズ購入[END-FE]
+・Buy items[END-FE]
+
+
+
+
+
+//POINTER #339 @ $9DEC - STRING #339 @ $E843
+#W32($9DEC)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #340 @ $9DF0 - STRING #340 @ $E852
+#W32($9DF0)
+//体験版は記録がとれないんだよ。[NLINE]
+//ごめんよ。[END-FE]
+体験版は記録がとれないんだよ。[NLINE]
+ごめんよ。[END-FE]
+
+
+
+
+
+//POINTER #341 @ $9DF4 - STRING #341 @ $E87F
+#W32($9DF4)
+//ガイラナック北の行商人[END-FE]
+North Geilenach Merchant[END-FE]
+
+
+
+
+
+//POINTER #342 @ $9DF8 - STRING #342 @ $E898
+#W32($9DF8)
+//さっきまですぐそこが戦場だったんだ。[NLINE]
+//出歩くのは気をつけたほうがいい。[END-FE]
+This place was recently a battlefield.[NLINE]
+You should be careful around here.[END-FE]
+
+
+
+
+
+//POINTER #343 @ $9DFC - STRING #343 @ $E8E1
+#W32($9DFC)
+//ああ、だけど少しでも仕入れを[NLINE]
+//しておかないと、家族が……。[NWIN]
+//
+//忠告はありがたく受け取っておくよ。[END-FE]
+Yeah, but I have to resupply,[NLINE]
+or my family will suffer...[NWIN]
+
+Thanks for the tip though.[END-FE]
+
+
+
+
+
+//POINTER #344 @ $9E00 - STRING #344 @ $E942
+#W32($9E00)
+//そういえば、[NLINE]
+//あなたに頼まれていた物を見つけたわ。[END-FE]
+By the way, I have the map[NLINE]
+you needed.[END-FE]
+
+
+
+
+
+//POINTER #345 @ $9E04 - STRING #345 @ $E977
+#W32($9E04)
+//これがボロボロになる前に[NLINE]
+//旅が終わると良いわね。[END-FE]
+I hope we can finish our[NLINE]
+trip before it gets worn out.[END-FE]
+
+
+
+
+
+//POINTER #346 @ $9E08 - STRING #346 @ $E9AA
+#W32($9E08)
+//ゲーム中で、ゲームの進行に関わる[NLINE]
+//重要アイテム[COL01]『貴重品』[COL00]が手に入る[NLINE]
+//ことがあります。[END-FE]
+While playing the game, you may obtain[NLINE]
+[COL01]special items[COL00] that are necessary to[NLINE]
+progress in the story.[END-FE]
+
+
+
+
+
+//POINTER #347 @ $9E0C - STRING #347 @ $EA07
+#W32($9E0C)
+//貴重品は売却することができません。[NLINE]
+//[COL01]『道具』[COL00]から[COL01]『貴重品』[COL00]を選ぶことで、[NLINE]
+//使用したり調べたりすることができます。[END-FE]
+Special items cannot be sold. In the[NLINE]
+[COL01]Item[COL00] menu, select [COL01]Special[COL00] to use[NLINE]
+or examine them.[END-FE]
+
+
+
+
+
+//POINTER #348 @ $9E10 - STRING #348 @ $EA86
+#W32($9E10)
+//デバッグ部屋行く？[END-FE]
+デバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #349 @ $9E14 - STRING #349 @ $EA9B
+#W32($9E14)
+//Ｄ　Ｒ１＿Ｆ３[END-FE]
+Ｄ　Ｒ１＿Ｆ３[END-FE]
+
+
+
+
+
+//POINTER #350 @ $9E18 - STRING #350 @ $EAAC
+#W32($9E18)
+//配置パターンを選んで[END-FE]
+配置パターンを選んで[END-FE]
+
+
+
+
+
+//POINTER #351 @ $9E1C - STRING #351 @ $EAC3
+#W32($9E1C)
+//・Ａパターン[END-FE]
+・Ａパターン[END-FE]
+
+
+
+
+
+//POINTER #352 @ $9E20 - STRING #352 @ $EAD2
+#W32($9E20)
+//・Ｂパターン[END-FE]
+・Ｂパターン[END-FE]

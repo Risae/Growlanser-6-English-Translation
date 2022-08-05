@@ -1,0 +1,360 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $3CB0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3C20, 4, PTR)
+
+#JMP($3CB0)
+#HDR($3CB0)
+
+
+
+
+
+//POINTER #0 @ $3C20 - STRING #0 @ $3CB0
+#W32($3C20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3C24 - STRING #1 @ $3CB3
+#W32($3C24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3C28 - STRING #2 @ $3CC0
+#W32($3C28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $3C2C - STRING #3 @ $3CE5
+#W32($3C2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3C30 - STRING #4 @ $3D0A
+#W32($3C30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3C34 - STRING #5 @ $3D1F
+#W32($3C34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3C38 - STRING #6 @ $3D44
+#W32($3C38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $3C3C - STRING #7 @ $3D69
+#W32($3C3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3C40 - STRING #8 @ $3D9E
+#W32($3C40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3C44 - STRING #9 @ $3DD3
+#W32($3C44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3C48 - STRING #10 @ $3DF8
+#W32($3C48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $3C4C - STRING #11 @ $3E1D
+#W32($3C4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3C50 - STRING #12 @ $3E42
+#W32($3C50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3C54 - STRING #13 @ $3E57
+#W32($3C54)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3C58 - STRING #14 @ $3E6E
+#W32($3C58)
+//自動Ｄ　ＥＢ０４＿３前[END-FE]
+自動D　EB04_3前[END-FE]
+
+
+
+
+
+//POINTER #15 @ $3C5C - STRING #15 @ $3E87
+#W32($3C5C)
+//　[NLINE]
+//扉はしっかりと閉じられている。[END-FE]
+[NLINE]
+The door is firmly closed.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3C60 - STRING #16 @ $3EAC
+#W32($3C60)
+//ヌナーンは北です！[NLINE]
+//急いで下さい！[END-FE]
+Nu Nahn is to the north![NLINE]
+Let's hurry![END-FE]
+
+
+
+
+
+//POINTER #17 @ $3C64 - STRING #17 @ $3ED1
+#W32($3C64)
+//サウネイルの森[NLINE]
+//ヤージェン村方面[END-FE]
+To Saunail Forest and[NLINE]
+Jaergen Village[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3C68 - STRING #18 @ $3EF4
+#W32($3C68)
+//グランゲイル国内[NLINE]
+//ザーランバ方面[END-FE]
+Grangale Territory[NLINE]
+To Zaramba[END-FE]
+
+
+
+
+
+//POINTER #19 @ $3C6C - STRING #19 @ $3F17
+#W32($3C6C)
+//ゼルドック入り口[END-FE]
+Entrance to Zerdok[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3C70 - STRING #20 @ $3F2A
+#W32($3C70)
+//平和維持軍方面[END-FE]
+To PMB Headquarters[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3C74 - STRING #21 @ $3F3B
+#W32($3C74)
+//ノーストール山方面[END-FE]
+To Nostal Mountain[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3C78 - STRING #22 @ $3F50
+#W32($3C78)
+//ゼルドック[END-FE]
+Zerdok[END-FE]
+
+
+
+
+
+//POINTER #23 @ $3C7C - STRING #23 @ $3F5D
+#W32($3C7C)
+//サウネイルの森[END-FE]
+Saunail Forest[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3C80 - STRING #24 @ $3F6E
+#W32($3C80)
+//平和維持軍方面[END-FE]
+To PMB Headquarters[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3C84 - STRING #25 @ $3F7F
+#W32($3C84)
+//[CHAR3C00][V1900]
+//シュヴァイツァー様の邪魔はさせん！[NLINE]
+//ここで死ね！[END-FE]
+[CHAR3C00][V1900]
+We won't let you get in Captain[NLINE]
+Shuweizer's way! You will die here![END-FE]
+
+
+
+
+
+//POINTER #26 @ $3C88 - STRING #26 @ $3FBA
+#W32($3C88)
+//[CHAR3C00][V1A00]
+//お疲れさまでした。[NLINE]
+//しかし、ゆっくりはしていられません。[NLINE]
+//急いで追跡を！[END-FE]
+[CHAR3C00][V1A00]
+Well done. However, we can't falter.[NLINE]
+Let's hurry to the ruins![END-FE]
+
+
+
+
+
+//POINTER #27 @ $3C8C - STRING #27 @ $400D
+#W32($3C8C)
+//お疲れさまでした。[NLINE]
+//みなさん、大丈夫ですか？[NWIN]
+//
+//すぐそこにゼルドックの街があります。[NLINE]
+//急がねばならない時ですが、[NLINE]
+//そこで準備を整えてから追いましょう。[END-FE]
+Well done.[NLINE]
+Is everyone alright?[NWIN]
+
+The city of Zerdok is right nearby.[NLINE]
+We really should hurry, but we can[NLINE]
+continue our pursuit after making[NLINE]
+preparations there.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3C90 - STRING #28 @ $40A4
+#W32($3C90)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3C94 - STRING #29 @ $40B9
+#W32($3C94)
+//Ｄ　Ｆ６[END-FE]
+D F6[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3C98 - STRING #30 @ $40C4
+#W32($3C98)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #31 @ $3C9C - STRING #31 @ $40DB
+#W32($3C9C)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #32 @ $3CA0 - STRING #32 @ $40EA
+#W32($3CA0)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+

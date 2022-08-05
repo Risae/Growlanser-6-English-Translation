@@ -1,0 +1,803 @@
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $1C0
+#W32($A0)
+[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $1C3
+#W32($A4)
+メモリーカード（ＰＳ２）のチェック中。[NLINE]
+しばらくお待ち下さい。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Checking for memory card (PS2)[NLINE]
+Please wait...[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $1F4
+#W32($A8)
+スロット１のメモリーカード（ＰＳ２）の[NLINE]
+空き容量が不足しています。[NLINE]
+スロット１に空き容量が１１２ＫＢ以上ある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+The memory card (PS2) in MEMORY CARD[NLINE]
+slot 1 does not have enough space.[NLINE]
+Make sure there is 112KB free.[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $25F
+#W32($AC)
+メモリーカード（ＰＳ２）のチェックに[NLINE]
+失敗しました。[END-FF]
+Failed to read the memory card (PS2).[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $287
+#W32($B0)
+スロット１にメモリーカード（ＰＳ２）が[NLINE]
+接続されていません。[NLINE]
+スロット１に空き容量が１１２ＫＢ以上ある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+There is no memory card (PS2) in[NLINE]
+MEMORY CARD slot 1. Please insert a[NLINE]
+memory card (PS2) with 112KB free.[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $2F3
+#W32($B4)
+スロット１のメモリーカード（ＰＳ２）が[NLINE]
+フォーマットされていません。[NLINE]
+スロット１にフォーマット済みで、空き容量が[NLINE]
+１１２ＫＢ以上あるメモリーカード（ＰＳ２）を[NLINE]
+接続して下さい。[END-FF]
+The memory card (PS2) in MEMORY CARD[NLINE]
+slot 1 is unformatted. Please insert[NLINE]
+a memory card (PS2) with 112KB free.[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $366
+#W32($B8)
+メモリーカード（ＰＳ２）ではありません。[NLINE]
+このままプレイするとセーブが行えません。[NLINE]
+スロット１に空き容量が１１２ＫＢ以上ある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+No memory card (PS2) is inserted.[NLINE]
+You cannot save. Please insert a[NLINE]
+memory card (PS2) with 112KB free.[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $3D0
+#W32($BC)
+このデータをロードします。[NLINE]
+よろしいですか？[END-FF]
+Would you like to load this data?[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $3F4
+#W32($C0)
+ロードに失敗しました。[END-FF]
+Load failed.[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $403
+#W32($C4)
+データが破損しています。[NLINE]
+ロードに失敗しました。[END-FF]
+This data has been corrupted.[NLINE]
+Load failed.[END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $431
+#W32($C8)
+ロードしています。[NLINE]
+しばらくお待ち下さい。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Loading... Please wait. Do not[NLINE]
+turn off the PlayStation<$87><$89>2.[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $470
+#W32($CC)
+メモリーカード（ＰＳ２）のチェックに[NLINE]
+失敗しました。[END-FF]
+Failed to read the memory card (PS2).[END-FF]
+
+
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $498
+#W32($D0)
+スロット１にメモリーカード（ＰＳ２）が[NLINE]
+接続されていません。[NLINE]
+スロット１にグローランサー<$87>Xのセーブデータが[NLINE]
+あるメモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+There is no memory card (PS2) in[NLINE]
+MEMORY CARD slot 1. Insert a memory[NLINE]
+card (PS2) with Growlanser save data.[END-FF]
+
+
+
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $507
+#W32($D4)
+グローランサー<$87>Xのセーブデータがありません。[NLINE]
+スロット１にグローランサー<$87>Xのセーブデータがある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+No save data found. Insert a memory[NLINE]
+card (PS2) with Growlanser: HOW[NLINE]
+save data into MEMORY CARD slot 1.[END-FF]
+
+
+
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $572
+#W32($D8)
+スロット１のメモリーカード（ＰＳ２）が[NLINE]
+フォーマットされていません。[NLINE]
+スロット１にグローランサー<$87>Xのセーブデータがある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+The memory card (PS2) in MEMORY CARD[NLINE]
+slot 1 is unformatted. Insert a memory[NLINE]
+card (PS2) with Growlanser save data.[END-FF]
+
+
+
+
+
+//POINTER #15 @ $DC - STRING #15 @ $5E8
+#W32($DC)
+メモリーカード（ＰＳ２）ではありません。[NLINE]
+スロット１にグローランサー<$87>Xのセーブデータがある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+There is no memory card (PS2) in[NLINE]
+MEMORY CARD slot 1. Insert a memory[NLINE]
+card (PS2) with Growlanser save data.[END-FF]
+
+
+
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $657
+#W32($E0)
+ロードを中断しますか？[END-FF]
+Cancel loading?[END-FF]
+
+
+
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $669
+#W32($E4)
+このデータに現在のデータを上書きセーブします。[NLINE]
+よろしいですか？[END-FF]
+Will you overwrite the data already[NLINE]
+present here?[END-FF]
+
+
+
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $69E
+#W32($E8)
+セーブしています。[NLINE]
+しばらくお待ち下さい。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Saving... Please wait. Do not turn[NLINE]
+off the PlayStation<$87><$89>2.[NLINE]
+Do not turn off the PlayStation<$87><$89>2 or[NLINE]
+remove the memory card (PS2) to avoid[NLINE]
+corrupting the save data.[END-FF]
+
+
+
+
+
+//POINTER #19 @ $EC - STRING #19 @ $745
+#W32($EC)
+スロット１のメモリーカード（ＰＳ２）が[NLINE]
+フォーマットされていません。[NLINE]
+フォーマットしますか？[END-FF]
+The memory card (PS2) in MEMORY CARD[NLINE]
+slot 1 is unformatted. Would you like[NLINE]
+to format it?[END-FF]
+
+
+
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $7A2
+#W32($F0)
+セーブに失敗しました。[END-FF]
+Save failed.[END-FF]
+
+
+
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $7B1
+#W32($F4)
+フォーマットに失敗しました。[END-FF]
+Formatting failed.[END-FF]
+
+
+
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $7C6
+#W32($F8)
+セーブしています。[NLINE]
+しばらくお待ち下さい。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]触れないで下さい。[END-FF]
+Saving... Please wait. Do not turn[NLINE]
+off the PlayStation<$87><$89>2.[NLINE]
+Do not turn off the PlayStation<$87><$89>2 or[NLINE]
+remove the memory card (PS2) to avoid[NLINE]
+corrupting the save data.[END-FF]
+
+
+
+
+
+//POINTER #23 @ $FC - STRING #23 @ $86D
+#W32($FC)
+メモリーカード（ＰＳ２）をフォーマット[NLINE]
+しています。しばらくお待ち下さい。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Formatting memory card (PS2)...[NLINE]
+Please wait. Do not turn off the[NLINE]
+PlayStation<$87><$89>2.[END-FF]
+
+
+
+
+
+//POINTER #24 @ $100 - STRING #24 @ $8C2
+#W32($100)
+セーブ終了！[NLINE]
+　　　[C02]<$84><$A6>[C00]で抜けます。[END-FF]
+Save complete! Press [C03]<$84><$A5>[C00][NLINE]
+ to exit the save screen.[END-FF]
+
+
+
+
+
+//POINTER #25 @ $104 - STRING #25 @ $8FD
+#W32($104)
+フォーマット終了！[END-FF]
+Formatting complete![END-FF]
+
+
+
+
+
+//POINTER #26 @ $108 - STRING #26 @ $914
+#W32($108)
+メモリーカード（ＰＳ２）のチェックに[NLINE]失敗しました。[END-FF]
+Check for memory card (PS2) failed.[END-FF]
+
+
+
+
+
+//POINTER #27 @ $10C - STRING #27 @ $93A
+#W32($10C)
+メモリーカード（ＰＳ２）ではありません。[NLINE]
+スロット１に、空き容量が１１２ＫＢ以上ある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+There is no memory card (PS2) in[NLINE]
+MEMORY CARD slot 1. Please insert a[NLINE]
+memory card (PS2) with 112KB free.[END-FF]
+
+
+
+
+
+//POINTER #28 @ $110 - STRING #28 @ $9A6
+#W32($110)
+セーブを中断しますか？[END-FF]
+Cancel the save?[END-FF]
+
+
+
+
+
+//POINTER #29 @ $114 - STRING #29 @ $9B9
+#W32($114)
+セーブをせずに抜けても よろしいですか？[END-FF]
+Continue without saving?[END-FF]
+
+
+
+
+
+//POINTER #30 @ $118 - STRING #30 @ $9D4
+#W32($118)
+ロール開始用のセーブデータの作成を[NLINE]
+行いますか？[END-FF]
+Create save data for the new Role?[END-FF]
+
+
+
+
+
+//POINTER #31 @ $11C - STRING #31 @ $9F9
+#W32($11C)
+ロール開始用セーブデータの作成に失敗しました。[END-FF]
+Failed to create saved data for[NLINE]
+the new Role.[END-FF]
+
+
+
+
+
+//POINTER #32 @ $120 - STRING #32 @ $A2A
+#W32($120)
+ロール開始用のセーブデータを作成中です。[NLINE]
+この作業には時間がかかります。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Creating save for the new Role.[NLINE]
+Please wait... Do not turn off the[NLINE]
+PlayStation<$87><$89>2.[END-FF]
+
+
+
+
+
+//POINTER #33 @ $124 - STRING #33 @ $A81
+#W32($124)
+ロール開始用セーブデータの作成が終了しました。[END-FF]
+New Role save complete.[END-FF]
+
+
+
+
+
+//POINTER #34 @ $128 - STRING #34 @ $A9B
+#W32($128)
+ロール開始用セーブデータの作成をキャンセル[NLINE]
+します。よろしいですか？[END-FF]
+Are you sure you want to cancel[NLINE]
+saving the data for the new Role?[END-FF]
+
+
+
+
+
+//POINTER #35 @ $12C - STRING #35 @ $AE0
+#W32($12C)
+ゲームクリア情報（告白成功者等の追加）を、[NLINE]
+全てのセーブデータに反映させますか？[END-FF]
+Update all Growlanser data on memory[NLINE]
+card (PS2) in MEMORY CARD slot 1 to[NLINE]
+reflect clear status and confessions?[END-FF]
+
+
+
+
+
+//POINTER #36 @ $130 - STRING #36 @ $B53
+#W32($130)
+ゲームクリア情報の反映に失敗しました。[END-FF]
+Update failed.[END-FF]
+
+
+
+
+
+//POINTER #37 @ $134 - STRING #37 @ $B64
+#W32($134)
+ゲームクリア情報を反映しています。[NLINE]
+この作業には時間がかかります。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Updating memory card (PS2) in[NLINE]
+MEMORY CARD slot 1... Do not[NLINE]
+turn off the PlayStation<$87><$89>2.[END-FF]
+
+
+
+
+
+//POINTER #38 @ $138 - STRING #38 @ $BC0
+#W32($138)
+ゲームクリア情報の反映が終了しました。[END-FF]
+Updating complete.[END-FF]
+
+
+
+
+
+//POINTER #39 @ $13C - STRING #39 @ $BD5
+#W32($13C)
+ゲームクリア情報の反映をスキップします。[NLINE]
+よろしいですか？[END-FF]
+Cancel update?[END-FF]
+
+
+
+
+
+//POINTER #40 @ $140 - STRING #40 @ $BE6
+#W32($140)
+道具や装備品を持ち越して、[NLINE]
+ゲームを最初から開始するデータが作れます。[NLINE]
+セーブしますか？[END-FF]
+You may start a new game with your[NLINE]
+existing items and equipment.[NLINE]
+Would you like to save?[END-FF]
+
+
+
+
+
+//POINTER #41 @ $144 - STRING #41 @ $C43
+#W32($144)
+道具や装備品の持ち越しデータ作成を終了します。[NLINE]
+よろしいですか？[END-FF]
+Are you sure you want to create[NLINE]
+a save file with your existing[NLINE]
+items and equipment?[END-FF]
+
+
+
+
+
+//POINTER #42 @ $148 - STRING #42 @ $C9B
+#W32($148)
+道具や装備品の持ち越しデータ作成を[NLINE]
+キャンセルします。よろしいですか？[END-FF]
+Are you certain you want to cancel[NLINE]
+the creation of a saved file with[NLINE]
+existing items and equipment?[END-FF]
+
+
+
+
+
+//POINTER #43 @ $14C - STRING #43 @ $D02
+#W32($14C)
+[C03]破損データ[END-FF]
+[C03]Data is corrupt.[END-FF]
+
+
+
+
+
+//POINTER #44 @ $150 - STRING #44 @ $D18
+#W32($150)
+メモリーカード（ＰＳ２）がスロット１に正しく[NLINE]
+差し込まれていません。[NLINE]
+このゲームのデータをセーブするには１１２ＫＢ[NLINE]
+以上必要です。このままで開始しますか？[END-FF]
+Memory card (PS2) is not inserted into[NLINE]
+MEMORY CARD slot 1. You will not be[NLINE]
+able to save. Start the game anyway?[END-FF]
+
+
+
+
+
+//POINTER #45 @ $154 - STRING #45 @ $D8C
+#W32($154)
+スロット１のメモリーカード（ＰＳ２）が[NLINE]
+フォーマットされていないためこのままプレイ[NLINE]
+するとセーブが行えません。[NLINE]
+ゲームを開始しますか？[END-FF]
+The memory card (PS2) in MEMORY CARD[NLINE]
+slot 1 is unformatted. You will not[NLINE]
+be able to save. Start anyway?[END-FF]
+
+
+
+
+
+//POINTER #46 @ $158 - STRING #46 @ $DF8
+#W32($158)
+メモリーカード（ＰＳ２）の空き容量が不足して[NLINE]
+います。このゲームのデータをセーブするには[NLINE]
+１１２ＫＢ以上必要です。[NLINE]
+このままで開始しますか？[END-FF]
+You need at least 112KB on the[NLINE]
+memory card (PS2) to save your game.[NLINE]
+Would you like to start anyway?[END-FF]
+
+
+
+
+
+//POINTER #47 @ $15C - STRING #47 @ $E60
+#W32($15C)
+新規に現在のデータをセーブします。[NLINE]
+よろしいですか？[END-FF]
+Are you sure you want to save your[NLINE]
+game in this slot?[END-FF]
+
+
+
+
+
+//POINTER #48 @ $160 - STRING #48 @ $E99
+#W32($160)
+スロット１のメモリーカード（ＰＳ２）が[NLINE]
+フォーマットされていません。[NLINE]
+フォーマットしますか？[END-FF]
+The memory card (PS2) in MEMORY CARD[NLINE]
+slot 1 is unformatted. Would you[NLINE]
+like to format it?[END-FF]
+
+
+
+
+
+//POINTER #49 @ $164 - STRING #49 @ $EF6
+#W32($164)
+ロードに成功しました。[END-FF]
+Load successful.[END-FF]
+
+
+
+
+
+//POINTER #50 @ $168 - STRING #50 @ $F09
+#W32($168)
+能力の引き継ぎをキャンセルしますか。[END-FF]
+Would you like to cancel importing[NLINE]
+over your abilities?[END-FF]
+
+
+
+
+
+//POINTER #51 @ $16C - STRING #51 @ $F44
+#W32($16C)
+引き継ぐロールのデータをチェックしています。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Checking for data to import into the[NLINE]
+current Role. Please do not turn off[NLINE]
+the PlayStation<$87><$89>2.[END-FF]
+
+
+
+
+
+//POINTER #52 @ $170 - STRING #52 @ $FA6
+#W32($170)
+能力の引き継ぎが成功しました。[END-FF]
+Successfully imported the abilities.[END-FF]
+
+
+
+
+
+//POINTER #53 @ $174 - STRING #53 @ $FCD
+#W32($174)
+能力の引き継ぎが失敗しました。[END-FF]
+Importing abilities failed.[END-FF]
+
+
+
+
+
+//POINTER #54 @ $178 - STRING #54 @ $FEB
+#W32($178)
+このセーブデータからシェリスの能力を[NLINE]
+引き継ぎます。よろしいですか？[END-FF]
+Are you sure you want to import[NLINE]
+Sherris' abilities?[END-FF]
+
+
+
+
+
+//POINTER #55 @ $17C - STRING #55 @ $1022
+#W32($17C)
+このセーブデータはシェリスロールのものでは[NLINE]
+ありません。[END-FF]
+This is not Sherris' Role save data.[END-FF]
+
+
+
+
+
+//POINTER #56 @ $180 - STRING #56 @ $1049
+#W32($180)
+シェリスロールのグローランサー<$87>X[NLINE]
+セーブデータがありません。スロット１に[NLINE]
+シェリスロールのデータがある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+There is no save data for Sherris'[NLINE]
+Role. Please insert a memory card[NLINE]
+(PS2) containing Sherris' Role data.[END-FF]
+
+
+
+
+
+//POINTER #57 @ $184 - STRING #57 @ $10B7
+#W32($184)
+このセーブデータからルーファスの能力[NLINE]
+を引き継ぎます。よろしいですか？[END-FF]
+Are you sure you want to import[NLINE]
+Rufus' abilities?[END-FF]
+
+
+
+
+
+//POINTER #58 @ $188 - STRING #58 @ $10EC
+#W32($188)
+このセーブデータはルーファスロールのものでは[NLINE]ありません。[END-FF]
+This is not Rufus' Role save data.[END-FF]
+
+
+
+
+
+//POINTER #59 @ $18C - STRING #59 @ $1111
+#W32($18C)
+ルーファスロールのグローランサー<$87>X[NLINE]
+セーブデータがありません。スロット１に[NLINE]
+ルーファスロールのデータがある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+There is no save data for Rufus'[NLINE]
+Role. Please insert a memory card[NLINE]
+(PS2) containing Rufus' Role data.[END-FF]
+
+
+
+
+
+//POINTER #60 @ $190 - STRING #60 @ $117B
+#W32($190)
+このロールのクリアデータを反映させる事で、[NLINE]
+メインロールで新たな仲間を得る事ができます。[NLINE]
+全てのセーブデータに反映させますか？[END-FF]
+By updating the clear data for[NLINE
+]this Role, you can gain a new party[NLINE]
+member. Update save data?[END-FF]
+
+
+
+
+
+//POINTER #61 @ $194 - STRING #61 @ $11DC
+#W32($194)
+このロールのクリアデータの反映に[NLINE]
+失敗しました。[END-FF]
+Update of this Role's clear[NLINE]
+data failed.[END-FF]
+
+
+
+
+
+//POINTER #62 @ $198 - STRING #62 @ $1208
+#W32($198)
+このロールのクリアデータからの反映を行って[NLINE]
+います。この作業には時間がかかります。[NLINE]
+“ＰｌａｙＳｔａｔｉｏｎ ２”本体に[NLINE]
+触れないで下さい。[END-FF]
+Updating this Role's clear data.[NLINE]
+Please wait... Do not turn off the[NLINE]
+PlayStation<$87><$89>2.[END-FF]
+
+
+
+
+
+//POINTER #63 @ $19C - STRING #63 @ $1260
+#W32($19C)
+このロールのクリアデータを反映しました。[END-FF]
+Update for this Role complete.[END-FF]
+
+
+
+
+
+//POINTER #64 @ $1A0 - STRING #64 @ $1281
+#W32($1A0)
+このロールのクリアデータの反映をキャンセル[NLINE]
+します。よろしいですか？[END-FF]
+Are you sure you want to cancel[NLINE]
+updating this Role's clear data?[END-FF]
+
+
+
+
+
+//POINTER #65 @ $1A4 - STRING #65 @ $12C5
+#W32($1A4)
+このデータにロール開始用セーブデータを[NLINE]
+上書きセーブします。[NLINE]
+よろしいですか？[END-FF]
+Will you overwrite this saved[NLINE]
+file to begin a new Role?[END-FF]
+
+
+
+
+
+//POINTER #66 @ $1A8 - STRING #66 @ $1300
+#W32($1A8)
+サブキャラクターを主人公としたシナリオを[NLINE]
+開始するためのセーブデータの作成を行います。[NLINE]
+本編のセーブデータに上書きすると[NLINE]
+そのデータは失われます。[END-FF]
+Creating save data for the sub-[NLINE]
+character's Role. If you overwrite[NLINE]
+the main game data, it will be lost.[END-FF]
+
+
+
+
+
+//POINTER #67 @ $1AC - STRING #67 @ $136C
+#W32($1AC)
+既存のグローランサー<$87>Xのセーブデータに[NLINE]
+ゲームクリア情報の反映（告白成功者等の追加）[NLINE]
+を行うため、メモリーカード（ＰＳ２）の[NLINE]
+チェックを行います。[END-FF]
+Checking memory card (PS2) to[NLINE]
+update clear data onto existing[NLINE]
+Growlanser saves.[END-FF]
+
+
+
+
+
+//POINTER #68 @ $1B0 - STRING #68 @ $13C0
+#W32($1B0)
+グローランサー<$87>Xのセーブデータがありません。[NLINE]
+スロット１にグローランサー<$87>Xのデータがある[NLINE]
+メモリーカード（ＰＳ２）を接続して下さい。[END-FF]
+No Growlanser save data present.[NLINE]
+Insert a memory card (PS2) with[NLINE]
+Growlanser save data.[END-FF]
+
+
+
+

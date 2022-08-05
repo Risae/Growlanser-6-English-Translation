@@ -1,0 +1,1439 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $3160, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2FA0, 4, PTR)
+
+#JMP($3160)
+#HDR($3160)
+
+
+
+
+
+
+//POINTER #0 @ $2FA0 - STRING #0 @ $3160
+#W32($2FA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2FA4 - STRING #1 @ $3163
+#W32($2FA4)
+//守護者諜報員[END-FF]
+Guardian Spy[END-FF]
+
+
+
+
+
+//POINTER #2 @ $2FA8 - STRING #2 @ $3172
+#W32($2FA8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2FAC - STRING #3 @ $317F
+#W32($2FAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2FB0 - STRING #4 @ $31A4
+#W32($2FB0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2FB4 - STRING #5 @ $31C9
+#W32($2FB4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2FB8 - STRING #6 @ $31DE
+#W32($2FB8)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2FBC - STRING #7 @ $3203
+#W32($2FBC)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2FC0 - STRING #8 @ $3228
+#W32($2FC0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2FC4 - STRING #9 @ $325D
+#W32($2FC4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2FC8 - STRING #10 @ $3292
+#W32($2FC8)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2FCC - STRING #11 @ $32B7
+#W32($2FCC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2FD0 - STRING #12 @ $32DC
+#W32($2FD0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2FD4 - STRING #13 @ $3301
+#W32($2FD4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2FD8 - STRING #14 @ $3316
+#W32($2FD8)
+//[CHAR3200][V0000]
+//ここは？[END-FE]
+[CHAR3200][V0000]
+What place is this?[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2FDC - STRING #15 @ $3329
+#W32($2FDC)
+//[CHAR3200][V0100]
+//[COL01]龍玉守護者の里[COL00]です。[NLINE]
+//以前、私はこの里の地下で[NLINE]
+//２０００年前の戦艦を見ました。[NWIN]
+//
+//[CHAR3200][V0200]
+//ただし、船は浸水が激しく、[NLINE]
+//ほとんど水没状態でしたな。[NWIN]
+//
+//[CHAR3200][V0300]
+//さて、私に案内できるのはここまでです。[NLINE]
+//あとは、この里の人と話してください。[NLINE]
+//では。[END-FE]
+[CHAR3200][V0100]
+The [COL01]Village of the Dragon Orb[NLINE]
+Guardians[COL00]. When I was here before,[NLINE]
+I came across a 2,000-year-old battleship[NLINE]
+in the caves underneath this village.[NWIN]
+
+[CHAR3200][V0200]
+However, the ship has become almost[NLINE]
+completely submersed in water.[NWIN]
+
+[CHAR3200][V0300]
+Well then, my guidance ends here.[NLINE]
+Please talk to the people of this[NLINE]
+village to obtain more information.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2FE0 - STRING #16 @ $3426
+#W32($2FE0)
+//[CHAR3200][V0400]
+//ランディさん、[NLINE]
+//ありがとうございました。[END-FE]
+[CHAR3200][V0400]
+Thank you very much, Dr. Randall.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2FE4 - STRING #17 @ $3459
+#W32($2FE4)
+//[CHAR3200][V0500]
+//それじゃ、[NLINE]
+//ここの長と話してみようぜ。[END-FE]
+[CHAR3200][V0500]
+Alright, let's try talking with[NLINE]
+the head of this village.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2FE8 - STRING #18 @ $348A
+#W32($2FE8)
+//お前は自分の性格をどう思う？[NLINE]
+//変えてみたいと思うことはないか？[NWIN]
+//
+//自分で変えようと思わなければ変わらないが[NLINE]
+//気分を変えることで[NLINE]
+//性格も変えることが可能だ。[NWIN]
+//
+//様々な花の香り…。[NLINE]
+//これに呪術を併用することで[NLINE]
+//性格を変える方法があるらしい。[END-FE]
+What do you think of your own[NLINE]
+personality? Haven't you ever[NLINE]
+thought of trying to change it?[NWIN]
+
+It won't change if you don't want[NLINE]
+to change it yourself. Howver,[NLINE]
+you can change your personality[NLINE]
+by changing your mood.[NWIN]
+
+Sorcery used in combination with[NLINE]
+the scent of various flowers[NLINE]
+seems to be a way to change[NLINE]
+your personality.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2FEC - STRING #19 @ $3575
+#W32($2FEC)
+//よそ者が修験の洞窟に降りたって[NLINE]
+//命を落とすだけだぞ？[END-FE]
+You know that if you strangers[NLINE]
+descend into trial cave, you'll[NLINE]
+just throw your lives away, right?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2FF0 - STRING #20 @ $35AC
+#W32($2FF0)
+//むむ、[NLINE]
+//これは大地の巫女殿。[NWIN]
+//
+//私はこの里の中でも[NLINE]
+//弓作りの名手なのです。[NWIN]
+//
+//もし良い材料があれば[NLINE]
+//最高の弓を作って差し上げましょう。[END-FE]
+Hmmm, so this is the Earth[NLINE]
+Priestess.[NWIN]
+
+Even among my peers in this village,[NLINE]
+I'm considered to be a master bow maker.[NWIN]
+
+If you could bring me good material,[NLINE]
+I'll make the ultimate bow for you.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2FF4 - STRING #21 @ $3631
+#W32($2FF4)
+//では、これはどうでしょう？[END-FE]
+How about this?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2FF8 - STRING #22 @ $364E
+#W32($2FF8)
+//[COL01]世界樹の枝[COL00]を渡した！[END-FE]
+You handed over [COL01]World Tree Branch[COL00]![END-FE]
+
+
+
+
+
+//POINTER #23 @ $2FFC - STRING #23 @ $366B
+#W32($2FFC)
+//おおっ、これはすばらしい！[NLINE]
+//では少し時間を下さい。[END-FE]
+Oh, splendid![NLINE]
+Please wait for a while.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3000 - STRING #24 @ $36A0
+#W32($3000)
+//お待たせしました。[NLINE]
+//これぞ最強の弓でございます。[NLINE]
+//お納め下さい。[END-FE]
+Thank you for your patience.[NLINE]
+This is the ultimate bow.[NLINE]
+Please take it.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3004 - STRING #25 @ $36E3
+#W32($3004)
+//ありがとうございます。[NLINE]
+//大切に使わせて頂きます。[END-FE]
+Thank you very much.[NLINE]
+I will handle it with care.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3008 - STRING #26 @ $3716
+#W32($3008)
+//では、私はこれで。[END-FE]
+Please excuse me.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $300C - STRING #27 @ $372B
+#W32($300C)
+//必ずや満足頂ける弓を[NLINE]
+//作り上げて見せましょう。[NLINE]
+//今しばらくお待ちを！[END-FE]
+I will make you a bow that[NLINE]
+will surely satisfy you.[NLINE]
+Please wait a while longer![END-FE]
+
+
+
+
+
+//POINTER #28 @ $3010 - STRING #28 @ $3772
+#W32($3010)
+//これは大地の巫女殿。[NLINE]
+//我が最高傑作の弓はどうですかな？[NWIN]
+//
+//あれ以上の弓は、[NLINE]
+//もはやこの世界にはないでしょう。[NWIN]
+//
+//大切にお使い下さい。[END-FE]
+If it isn't the Earth Priestess.[NLINE]
+What do you think of my masterpiece?[NWIN]
+
+There's no better bow in the world[NLINE]
+than that one.[NWIN]
+
+Please handle it with care.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3014 - STRING #29 @ $37F5
+#W32($3014)
+//今忙しいんだ。[NLINE]
+//話は後にしてくれ。[END-FE]
+I'm busy now.[NLINE]
+Let's talk later.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3018 - STRING #30 @ $381A
+#W32($3018)
+//修験の洞窟は危険だぞ。[NLINE]
+//龍玉を守るために[NLINE]
+//我らは強くならねばならなかったが、[NLINE]
+//あの洞窟で命を落とす者も少なくないのだ…。[END-FE]
+The trial cave is dangerous.[NLINE]
+We have to become strong to protect[NLINE]
+the Dragon Orb, but quite a few of[NLINE]
+us lost their lives in that cave...[END-FE]
+
+
+
+
+
+//POINTER #31 @ $301C - STRING #31 @ $3895
+#W32($301C)
+//　[NLINE]
+//カギがかかっている。[END-FE]
+[NLINE]
+It's locked.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $3020 - STRING #32 @ $38B0
+#W32($3020)
+//　[NLINE]
+//中に人の気配はない。[END-FE]
+[NLINE]
+There is no sign of people inside.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $3024 - STRING #33 @ $38CB
+#W32($3024)
+//ここで見聞きしたことは[NLINE]
+//絶対に他言無用だぞ。[END-FE]
+Don't say a word to anyone[NLINE]
+about what you have seen[NLINE]
+and heard here.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $3028 - STRING #34 @ $38FA
+#W32($3028)
+//我々は人数が少ない。[NLINE]
+//だから、実行の前には念入りに情報を集める。[NWIN]
+//
+//だが、さすがに結界の外の世界までは[NLINE]
+//情報を得ることが出来なかったよ。[END-FE]
+We are few in number.[NLINE]
+That's why we have to carefully gather[NLINE]
+information before we act.[NWIN]
+
+However, we of course haven't been[NLINE]
+able to gather information from the[NLINE]
+world beyond the barrier.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $302C - STRING #35 @ $3983
+#W32($302C)
+//　[NLINE]
+//人の気配はあるが返事がない。[END-FE]
+[NLINE]
+There seem to be people inside but no[NLINE]
+reply came.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $3030 - STRING #36 @ $39A6
+#W32($3030)
+//族長の許可をもらったようだな。[NLINE]
+//施設を自由に使っても良いぞ。[END-FE]
+It seems you received permission from[NLINE]
+the village elder.[NLINE]
+You may freely use the facilities.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $3034 - STRING #37 @ $39E5
+#W32($3034)
+//ここには宿泊施設があるが、[NLINE]
+//族長の許可のない者を[NLINE]
+//泊めるわけにはいかん。[END-FE]
+These are the lodging facilities.[NLINE]
+However, people without permission[NLINE]
+from the village elder are not allowed[NLINE]
+to make use of them.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $3038 - STRING #38 @ $3A30
+#W32($3038)
+//我々の目的は龍玉を守ることだが、[NLINE]
+//そのためにも各国の情勢を[NLINE]
+//常に把握する必要がある。[END-FE]
+Our purpose is to protect the Dragon Orb.[NLINE]
+For that reason, we need to keep track of[NLINE]
+the situation in each country.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $303C - STRING #39 @ $3A87
+#W32($303C)
+//各国の動きを把握するために、[NLINE]
+//私たちは大陸中を旅しているのよ。[END-FE]
+In order to stay informed about[NLINE]
+each country's activities, we travel[NLINE]
+all across the continent.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $3040 - STRING #40 @ $3AC8
+#W32($3040)
+//…なんだ？[NLINE]
+//聞きたいことがありそうな顔だな。[END-FE]
+...What? You look like you want[NLINE]
+to ask something.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $3044 - STRING #41 @ $3AF7
+#W32($3044)
+//そりゃあね。[NWIN]
+//
+//この里がなんなのかとか、[NLINE]
+//ルキアス君との関係とか…。[END-FE]
+Yeah.[NWIN]
+
+Like what is this village? And[NLINE]
+what is your relation to it?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $3048 - STRING #42 @ $3B3C
+#W32($3048)
+//以前レイスタンで、[NLINE]
+//里の生き残りのじいさんと[NLINE]
+//話したことがあっただろ？[NWIN]
+//
+//大地の巫女は２００年おきに、[NLINE]
+//龍玉の封印を強めるため、[NLINE]
+//こちらの大陸に渡るって。[NWIN]
+//
+//この里の者は、[NLINE]
+//こちらの大陸の中で[NLINE]
+//龍玉を守る使命を持った一族だ。[END-FE]
+You remember what the old man[NLINE]
+told us in Leystan, right?[NWIN]
+
+The Earth Priestess must come[NLINE]
+to this continent every 200 years[NLINE]
+to strengthen the seal on the[NLINE]
+Dragon Orb.[NWIN]
+
+The people of this village belong[NLINE]
+to a clan whos duty it is to protect[NLINE]
+the Dragon Orb on this continent.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $304C - STRING #43 @ $3C1B
+#W32($304C)
+//だから勇者様の頬の印を見ただけで[NLINE]
+//全てを納得してもらえたのですね。[END-FE]
+So that's why they were convinced by[NLINE]
+just looking at the marks on the Brave[NLINE]
+One's face.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $3050 - STRING #44 @ $3C60
+#W32($3050)
+//ああ、そうだ。[NLINE]
+//大地の巫女は[COL01]両眼の色[COL00]が違う。[NLINE]
+//そして守護勇士は[COL01]頬に印[COL00]がある。[NWIN]
+//
+//顔立ちを正確に伝えられなくても[NLINE]
+//この２つの特徴ならば分かり易いからな。[END-FE]
+Yeah, that's right. The [COL01]color[COL00][NLINE]
+of the Earth Priestess' eyes are[NLINE]
+each a different color. And the Brave[NLINE]
+Guard has [COL01]symbols[COL00] on his face.[NWIN]
+
+These two characteristics make both[NLINE]
+of them easy to recognize.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $3054 - STRING #45 @ $3D03
+#W32($3054)
+//だけど、龍玉を守る一族なのに[NLINE]
+//今は龍玉を持っていないのね。[NLINE]
+//なんでだろう？[END-FE]
+But why don't they have[NLINE]
+the Dragon Orb right now?[NLINE]
+They're supposed to be clan that[NLINE]
+protects it right? So why not?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $3058 - STRING #46 @ $3D50
+#W32($3058)
+//さあな。[NLINE]
+//オレだってここに来るのは初めてだ。[NWIN]
+//
+//龍玉を使って動かしていた[NLINE]
+//アドモニッシャーと[NLINE]
+//何か関係あるんじゃないか？[END-FE]
+No idea. This is the first[NLINE]
+time I've come here.[NWIN]
+
+The Dragon Orb is used to operate[NLINE]
+the Admonisher, right? So maybe it[NLINE]
+has something to do with that?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $305C - STRING #47 @ $3DC9
+#W32($305C)
+//私が知りおよんでいる限りでは、[NLINE]
+//数百年前に龍玉が人々の手を[NLINE]
+//渡り歩いていた時期があるそうです。[NWIN]
+//
+//たぶん、その期間に一度龍玉は持ち去られて、[NLINE]
+//何とか取り戻したものの、[NLINE]
+//２０年前にアドモニッシャーに使われた。[NWIN]
+//
+//おそらく、この里の人々の過去とは[NLINE]
+//龍玉を奪われ、奪い返しといった、[NLINE]
+//戦いの歴史だったのでしょうね…。[END-FE]
+From what I've heard, there was[NLINE]
+a period several hundred[NLINE]
+years ago during which the[NLINE]
+Dragon Orb passed through[NLINE]
+the hands of several owners.[NWIN]
+
+It's possible that during this[NLINE]
+period, the Dragon Orb was stolen[NLINE]
+but was somehow retrieved. However,[NLINE]
+in spite of that, it was stolen again[NLINE]
+twenty years ago and used for the Admonisher.[NWIN]
+
+Perhaps the people of this village[NLINE]
+had to fight repeatedly to get back[NLINE]
+the Dragon Orb throughout history...[END-FE]
+
+
+
+
+
+//POINTER #48 @ $3060 - STRING #48 @ $3EFE
+#W32($3060)
+//だろうな…。[NLINE]
+//俺たちが巫女を守ってきたように、[NLINE]
+//ここの者は龍玉を守ってきた。[NWIN]
+//
+//[CH.FACE:Close-Eyes]
+//この星の未来を守るために、[NLINE]
+//人知れず、多くの命を[NLINE]
+//散らせてきたに違いないんだ…。[END-FE]
+Yeah... This village protects[NLINE]
+the Dragon Orb like we protect[NLINE]
+the Earth Priestess.[NWIN]
+
+[CH.FACE:Close-Eyes]
+A lot of them must have died[NLINE]
+to protect this planet without[NLINE]
+the rest of the world knowing...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $3064 - STRING #49 @ $3FA2
+#W32($3064)
+//…我々は長が認めた者でなければ[NLINE]
+//交流を持たない。[END-FE]
+...We don't interact with outsiders[NLINE]
+unless the village elder acknowledgess[NLINE]
+them.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $3068 - STRING #50 @ $3FD5
+#W32($3068)
+//族長が認めたのなら[NLINE]
+//俺たちも認めざるを得まい。[END-FE]
+If you have been acknowledged by[NLINE]
+the village elder, we must do so[NLINE]
+as well.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $306C - STRING #51 @ $4006
+#W32($306C)
+//…用があるのなら、[NLINE]
+//まずは長に挨拶をしろ。[NWIN]
+//
+//長はこの中だ。[END-FE]
+...If you need anything,[NLINE]
+pay your respects to[NLINE]
+the village elder first.[NWIN]
+
+He's inside.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $3070 - STRING #52 @ $4043
+#W32($3070)
+//おかしなマネだけはするなよ。[END-FE]
+Just don't do anything funny.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $3074 - STRING #53 @ $4062
+#W32($3074)
+//[CHAR3200][V0600]
+//お前たちは何者だ？[END-FE]
+[CHAR3200][V0600]
+Who are you people?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $3078 - STRING #54 @ $407F
+#W32($3078)
+//[CHAR3200][V0700]
+//ええと、[NLINE]
+//エスグレンツ大陸というところから[NLINE]
+//来ました。[END-FE]
+[CHAR3200][V0700]
+Um, we came from a continent[NLINE]
+called Esgrentz.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $307C - STRING #55 @ $40C0
+#W32($307C)
+//[CHAR3200][V0800]
+//外の大陸から？[END-FE]
+[CHAR3200][V0800]
+From an outside continent?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3080 - STRING #56 @ $40D9
+#W32($3080)
+//[CHAR3200][V0900]
+//はい、ここの地下に[NLINE]
+//２０００年前の戦艦があるって…。[NLINE]
+//私たち、どうしてもそこに行きたいんです！[END-FE]
+[CHAR3200][V0900]
+Yes, we heard there's[NLINE]
+a 2,000 year old battleship[NLINE]
+in the caves below...[NLINE]
+We really want to go there![END-FE]
+
+
+
+
+
+//POINTER #57 @ $3084 - STRING #57 @ $4142
+#W32($3084)
+//[CHAR3200][V0A00]
+//行ってどうする？[NLINE]
+//古代の知識は悪用させるわけにはいかない。[NLINE]
+//その可能性があるなら…。[END-FE]
+[CHAR3200][V0A00]
+And then what will you do?[NLINE]
+We can't afford to let ancient information[NLINE]
+be misused. As long as that[NLINE]
+possibility exists, we won't give[NLINE]
+you access to the ship.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3088 - STRING #58 @ $41A1
+#W32($3088)
+//[CHAR3200][V0B00]
+//その心配はないぜ、長殿。[NLINE]
+//俺たちは絶対に悪用しない。[END-FE]
+[CHAR3200][V0B00]
+You don't have to to worry[NLINE]
+about that, elder. We would[NLINE]
+never do such a thing.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $308C - STRING #59 @ $41E0
+#W32($308C)
+//[CHAR3200][V0C00]
+//その理由は？[END-FE]
+[CHAR3200][V0C00]
+The reason for that being?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3090 - STRING #60 @ $41F7
+#W32($3090)
+//[CHAR3200][V0D00]
+//俺は大地の里の者だ。[NLINE]
+//奪われた龍玉を取り戻すために来た。[END-FE]
+[CHAR3200][V0D00]
+I'm from Earth Village.[NLINE]
+I came to regain the stolen Dragon Orb.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3094 - STRING #61 @ $423A
+#W32($3094)
+//[CHAR3200][V0E00]
+//大地の里の者だと？[NLINE]
+//その証拠は？[END-FE]
+[CHAR3200][V0E00]
+From Earth Village?[NLINE]
+Do you have proof?[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3098 - STRING #62 @ $4265
+#W32($3098)
+//・証拠はない[END-FE]
+・We don't have proof[END-FE]
+
+
+
+
+
+//POINTER #63 @ $309C - STRING #63 @ $4274
+#W32($309C)
+//・自分が証拠[END-FE]
+・I'm the proof[END-FE]
+
+
+
+
+
+//POINTER #64 @ $30A0 - STRING #64 @ $4283
+#W32($30A0)
+//・黙っている[END-FE]
+・Remain Silent[END-FE]
+
+
+
+
+
+//POINTER #65 @ $30A4 - STRING #65 @ $4292
+#W32($30A4)
+//[CHAR3200][V0F00]
+//いや、あるぜ。[NLINE]
+//アンタの頬の印を見せるんだ。[END-FE]
+[CHAR3200][V0F00]
+Actually, we have.[NLINE]
+Show them the marks on your face.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $30A8 - STRING #66 @ $42C9
+#W32($30A8)
+//[CHAR3200][V1000]
+//彼の頬の印を見てくれ。[NLINE]
+//それで分かるだろう？[END-FE]
+[CHAR3200][V1000]
+Show them the marks on your face.[NLINE]
+I'm sure that'll convince them.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $30AC - STRING #67 @ $4300
+#W32($30AC)
+//[CHAR3200][V1100]
+//おお、その頬にあるのは、[NLINE]
+//確かに守護勇士の印。[NWIN]
+//
+//[CHAR3200][V1200]
+//なるほど、それ以上の証拠はあるまい。[NLINE]
+//…して、巫女殿は？[END-FE]
+[CHAR3200][V1100]
+Oh! There's no doubt that[NLINE]
+those are the marks of the[NLINE]
+Brave Guard on your face.[NWIN]
+
+[CHAR3200][V1200]
+I see. There's no better proof[NLINE]
+than that. ...And what about the[NLINE]
+Earth Priestess?[END-FE]
+
+
+
+
+
+//POINTER #68 @ $30B0 - STRING #68 @ $437B
+#W32($30B0)
+//[CHAR3200][V1300]
+//訳あって来られない。[NLINE]
+//だから俺たちが龍玉を[NLINE]
+//取り返さねばならない。[NWIN]
+//
+//[CHAR3200][V1400]
+//そのためにも、[NLINE]
+//地下の戦艦に行く必要がある。[NWIN]
+//
+//[CHAR3200][V1500]
+//長殿、俺たちを通してくれ。[END-FE]
+[CHAR3200][V1300]
+She can't come due to certain[NLINE]
+circumstances. That's why we[NLINE]
+have to return the Dragon Orb.[NWIN]
+
+[CHAR3200][V1400]
+That's why we need to[NLINE]
+go to the underground[NLINE]
+battleship.[NWIN]
+
+[CHAR3200][V1500]
+Please, you've got to let us pass.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $30B4 - STRING #69 @ $4422
+#W32($30B4)
+//[CHAR3200][V1600]
+//大地の里の者ならば、拒む理由はない。[NLINE]
+//協力しよう。[NWIN]
+//
+//[CHAR3200][V1700]
+//だが、地下に行くのならば、[NLINE]
+//備えを用意してからにしなさい。[NWIN]
+//
+//[CHAR3200][V1800]
+//この里の施設は自由に使っても良い。[NLINE]
+//その間に地下への扉を開けておこう。[END-FE]
+[CHAR3200][V1600]
+There's no reason for me[NLINE]
+to refuse someone from[NLINE]
+Earth Village.[NLINE]
+I shall comply.[NWIN]
+
+[CHAR3200][V1700]
+However, if you're going[NLINE]
+underground, you must[NLINE]
+prepare yourselves.[NWIN]
+
+[CHAR3200][V1800]
+You may freely use the facilities[NLINE]
+in this village. I will open[NLINE]
+the gate to the underground caves.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $30B8 - STRING #70 @ $44F3
+#W32($30B8)
+//おお、これは大地の巫女殿！[END-FE]
+Oh, you must be the Earth Priestess![END-FE]
+
+
+
+
+
+//POINTER #71 @ $30BC - STRING #71 @ $4510
+#W32($30BC)
+//族長殿、[NLINE]
+//挨拶が遅れて申し訳ありません。[END-FE]
+My apologies for being late with[NLINE]
+paying my respects.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $30C0 - STRING #72 @ $453B
+#W32($30C0)
+//いえいえ、我々も龍玉を守りきれず、[NLINE]
+//恥ずかしく思います。[END-FE]
+Nonsense, we're the ones who must[NLINE]
+apologize. We failed to protect the[NLINE]
+Dragon Orb.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $30C4 - STRING #73 @ $4576
+#W32($30C4)
+//気になさらずに。[NWIN]
+//
+//先代、先々代の巫女が[NLINE]
+//封印に失敗していることを考えても[NLINE]
+//いかに龍玉を守ることが難しいかは[NLINE]
+//理解しているつもりです。[END-FE]
+Do not be troubled.[NWIN]
+
+I understand how difficult it must[NLINE]
+be to protect the Dragon Orb considering[NLINE]
+the previous two Earth Priestesses[NLINE]
+failed to strengthen the seal.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $30C8 - STRING #74 @ $45FD
+#W32($30C8)
+//…ははっ、[NLINE]
+//ありがとうございます。[END-FE]
+...Haha.[NLINE]
+Thank you.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $30CC - STRING #75 @ $4622
+#W32($30CC)
+//そろそろ、互いの使命が[NLINE]
+//終わろうとしているのかも知れませんね…。[END-FE]
+Both of our missions may come to[NLINE]
+an end soon...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $30D0 - STRING #76 @ $4665
+#W32($30D0)
+//もし、終わるのでしたら、[NLINE]
+//ぜひ侵略者を滅ぼして終わりたいものですな。[END-FE]
+If that's the case, I trust that[NLINE]
+you will destroy the Invader.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $30D4 - STRING #77 @ $46AC
+#W32($30D4)
+//もちろん、そうなるように努めます。[NLINE]
+//その後の世界のことは、頼みますよ。[NLINE]
+//どうか、人々が不安に怯えぬ世界を…。[END-FE]
+We will do our very best.[NLINE]
+Please continue to protect this world[NLINE]
+after I am gone. So that no one[NLINE]
+will have to live in fear...[END-FE]
+
+
+
+
+
+//POINTER #78 @ $30D8 - STRING #78 @ $471B
+#W32($30D8)
+//はい！[END-FE]
+We will![END-FE]
+
+
+
+
+
+//POINTER #79 @ $30DC - STRING #79 @ $4724
+#W32($30DC)
+//はっ！[END-FE]
+We will![END-FE]
+
+
+
+
+
+//POINTER #80 @ $30E0 - STRING #80 @ $472D
+#W32($30E0)
+//はい。[END-FE]
+We will.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $30E4 - STRING #81 @ $4736
+#W32($30E4)
+//大陸を覆う結界の消失…、[NLINE]
+//そして大地の里の者の来訪…。[NWIN]
+//
+//我々の使命も、[NLINE]
+//そろそろ終わろうとしているのかも知れぬな。[END-FE]
+The seal surrounding the continent[NLINE]
+has disappeared... Someone from[NLINE]
+Earth Village has visited...[NWIN]
+
+Perhaps our mission is about[NLINE]
+to come to an end...[END-FE]
+
+
+
+
+
+//POINTER #82 @ $30E8 - STRING #82 @ $47AB
+#W32($30E8)
+//世界の人々のため、[NLINE]
+//我々も精一杯のことをしよう。[END-FE]
+We'll do our very best, for the[NLINE]
+sake of everyone in the world.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $30EC - STRING #83 @ $47DE
+#W32($30EC)
+//族長に失礼のないようにな。[END-FE]
+Don't be rude to the village elder.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $30F0 - STRING #84 @ $47FB
+#W32($30F0)
+//もし我々の使命が終わっても、[NLINE]
+//この世界を守ろうと誓った志までが[NLINE]
+//終わるわけではありません。[END-FE]
+Our mission being over doesn't[NLINE]
+mean that we will give up on[NLINE]
+our vow to protect this world.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $30F4 - STRING #85 @ $4858
+#W32($30F4)
+//最近、よそ者が多いな。[NLINE]
+//何の用だ？[END-FE]
+We've been getting a lot of[NLINE]
+you outsiders here lately.[NLINE]
+What do you want?[END-FE]
+
+
+
+
+
+//POINTER #86 @ $30F8 - STRING #86 @ $487D
+#W32($30F8)
+//お前たちはお前たちの務めを果たせ。[NLINE]
+//俺たちは俺たちの務めを果たす。[END-FE]
+You guys do your duty and we'll[NLINE]
+do ours.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $30FC - STRING #87 @ $48C2
+#W32($30FC)
+//地下に降りたいのか？[END-FE]
+Will you go underground?[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3100 - STRING #88 @ $48D9
+#W32($3100)
+//こらっ！[NLINE]
+//勝手に奥へ行くんじゃないよ！[END-FE]
+Hey! Don't go in the back[NLINE]
+without permission![END-FE]
+
+
+
+
+
+//POINTER #89 @ $3104 - STRING #89 @ $4902
+#W32($3104)
+//族長の許可がない者を[NLINE]
+//泊めることは出来ないよ。[NLINE]
+//出直しといで。[END-FE]
+You can't stay here without[NLINE]
+the permission of the village[NLINE]
+elder. Come back after you've[NLINE]
+spoken with im.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3108 - STRING #90 @ $4943
+#W32($3108)
+//いらっしゃい。[NLINE]
+//族長から許可をもらったようだね。[NWIN]
+//
+//ここでは外から仕入れた、質の高い[NLINE]
+//武器や防具なんかも売ってるんだ。[NLINE]
+//好きなように利用していいよ。[END-FE]
+Welcome.[NLINE]
+It seems like you received[NLINE]
+permission from the elder.[NWIN]
+
+We also sell high quality[NLINE]
+weapons and armor procured[NLINE]
+from the outside world. Feel free[NLINE]
+to take a look.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $310C - STRING #91 @ $49D8
+#W32($310C)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3110 - STRING #92 @ $49E5
+#W32($3110)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #93 @ $3114 - STRING #93 @ $49F4
+#W32($3114)
+//・買い物をする[END-FE]
+・Shop[END-FE]
+
+
+
+
+
+//POINTER #94 @ $3118 - STRING #94 @ $4A05
+#W32($3118)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #95 @ $311C - STRING #95 @ $4A16
+#W32($311C)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #96 @ $3120 - STRING #96 @ $4A2B
+#W32($3120)
+//[CC.EF0E]Ыになるけど、[NLINE]
+//泊まっていくかい？[END-FE]
+That will be [CC.EF0E]Ы.[NLINE]
+Would like you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #97 @ $3124 - STRING #97 @ $4A53
+#W32($3124)
+//ついでに記録をとるかい？[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #98 @ $3128 - STRING #98 @ $4A6E
+#W32($3128)
+//気を付けて。[END-FE]
+Take care.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $312C - STRING #99 @ $4A7D
+#W32($312C)
+//お金が足りないようだね。[NLINE]
+//出直しといで。[END-FE]
+You don't seem to have enough[NLINE]
+money. Please come back later.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $3130 - STRING #100 @ $4AA8
+#W32($3130)
+//龍玉守護者の里[END-FE]
+Village of the Dragon Orb Guardians[END-FE]
+
+
+
+
+
+//POINTER #101 @ $3134 - STRING #101 @ $4AB9
+#W32($3134)
+//用件は何だい？[END-FE]
+What can I do for you?[END-FE]
+
+
+
+
+
+//POINTER #102 @ $3138 - STRING #102 @ $4ACA
+#W32($3138)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #103 @ $313C - STRING #103 @ $4AD7
+#W32($313C)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #104 @ $3140 - STRING #104 @ $4AE4
+#W32($3140)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #105 @ $3144 - STRING #105 @ $4AF3
+#W32($3144)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #106 @ $3148 - STRING #106 @ $4B02
+#W32($3148)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #107 @ $314C - STRING #107 @ $4B0B
+#W32($314C)
+//Ｄ　守護者の里[END-FE]
+D Guardian Village[END-FE]
+
+
+
+
+
+//POINTER #108 @ $3150 - STRING #108 @ $4B1C
+#W32($3150)
+//用があれば、いつでも来なよ。[END-FE]
+If you need anything, come back anytime.[END-FE]
+
+
+
+

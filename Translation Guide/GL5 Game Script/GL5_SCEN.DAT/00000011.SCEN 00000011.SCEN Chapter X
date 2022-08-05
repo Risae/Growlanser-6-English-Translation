@@ -1,0 +1,1792 @@
+
+
+//POINTER #0 @ $2FA0 - STRING #0 @ $31B0
+#W32($2FA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2FA4 - STRING #1 @ $31B3
+#W32($2FA4)
+//技能ポイントについて[END-FF]
+About Knack Points[END-FF]
+
+
+
+
+
+//POINTER #2 @ $2FA8 - STRING #2 @ $31CA
+#W32($2FA8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2FAC - STRING #3 @ $31D7
+#W32($2FAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2FB0 - STRING #4 @ $31FC
+#W32($2FB0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2FB4 - STRING #5 @ $3221
+#W32($2FB4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2FB8 - STRING #6 @ $3236
+#W32($2FB8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2FBC - STRING #7 @ $326B
+#W32($2FBC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2FC0 - STRING #8 @ $32A0
+#W32($2FC0)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2FC4 - STRING #9 @ $32C5
+#W32($2FC4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2FC8 - STRING #10 @ $32EA
+#W32($2FC8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2FCC - STRING #11 @ $330F
+#W32($2FCC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2FD0 - STRING #12 @ $3324
+#W32($2FD0)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2FD4 - STRING #13 @ $334B
+#W32($2FD4)
+//シリルティア王都[NLINE]
+//フェルメンティア[END-FE]
+  Felmentia, Capital[NLINE]
+of Cyriltia Kingdom[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2FD8 - STRING #14 @ $3370
+#W32($2FD8)
+//まだ街を出るべきではないな。[END-FE]
+I still have business here.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2FDC - STRING #15 @ $338F
+#W32($2FDC)
+//買い物は後にして、[NLINE]
+//今は待ち合わせの宿へ急がねば。[END-FE]
+Souvenirs can come later. For[NLINE]
+now, I should head to the inn.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2FE0 - STRING #16 @ $33C4
+#W32($2FE0)
+//ランディ先生、こんにちは。[NLINE]
+//実は悩んでいることがあるのです。[NWIN]
+//
+//夫の隠し事を見抜けるかもと、[NLINE]
+//[COL01]能力解析[COL00]をレベルＭＡＸまで覚えたのです。[NWIN]
+//
+//その後も、かなり技能ポイントをためたので[NLINE]
+//今度は別のプレートを使って[NLINE]
+//次に何を覚えるべきか悩んでいます。[END-FE]
+Ah, Dr. Randall. Maybe you can help me[NLINE]
+with something... I think my husband's[NLINE]
+hiding something, so I learned [COL01]Analyze[COL00][NLINE]
+to the MAX level.[NWIN]
+
+But I keep earning Knack Points, so[NLINE]
+I'm thinking I should master something[NLINE]
+else now.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2FE4 - STRING #17 @ $34BB
+#W32($2FE4)
+//技能プレートのレベルがＭＡＸになっても、　[NLINE]
+//使われなかった技能ポイントはストックされて[NLINE]
+//いますので、ムダになることはありません。　[NLINE]
+//新しいプレートを追加すれば、ストック分が　[NLINE]
+//使われることになります。　　　　　　　　　[END-FE]
+When your Plates' level reaches MAX,[NLINE]
+excess Knack Points are stored so[NLINE]
+they're not wasted. New Plates placed[NLINE]
+into the flow will automatically[NLINE]
+receive the leftover KP.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2FE8 - STRING #18 @ $3598
+#W32($2FE8)
+//それで思ったんですけど、[NLINE]
+//[COL01]死の呪詛[COL00]なんてどうでしょう？[END-FE]
+I'm leaning towards [COL01]Death Curse[COL00]...[NLINE]
+What do you think?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2FEC - STRING #19 @ $35D7
+#W32($2FEC)
+//う～ん、死の呪詛より[NLINE]
+//[COL01]即死攻撃[COL00]かしら…。[END-FE]
+No? Hmm... Maybe I should[NLINE]
+go with [COL01]Fatal Strike[COL00]...[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2FF0 - STRING #20 @ $3608
+#W32($2FF0)
+//いやぁ、困りました……。[NLINE]
+//水源が枯れてしまいそうなんです。[NWIN]
+//
+//水が無くなれば、この都市に住むことは[NLINE]
+//出来なくなるでしょう……。[END-FE]
+This isn't good... Our wells are[NLINE]
+all nearly dried up.[NWIN]
+
+If we don't get water soon, this city[NLINE]
+will become uninhabitable...[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2FF4 - STRING #21 @ $3687
+#W32($2FF4)
+//スクリーパーの等級について[NLINE]
+//説明致しましょうか？[END-FE]
+I've learned a lot... Would[NLINE]
+you like to hear it all?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2FF8 - STRING #22 @ $36BA
+#W32($2FF8)
+//スクリーパーには、その大きさにより[NLINE]
+//いくつかのクラスが存在します。[NWIN]
+//
+//一番小さなものが[COL01]ポーン級[COL00]、[NLINE]
+//次が[COL01]ルーク級[COL00]。[NLINE]
+//この２つは地面にはいつくばる型です。[NWIN]
+//
+//この上に、成長し上体を起こした[COL01]ナイト級[COL00]、[NLINE]
+//さらに成長した[COL01]ビショップ級[COL00]がいます。[NWIN]
+//
+//現在確認されているのは、この４種ですが、[NLINE]
+//ひょっとしたらそれ以上のスクリーパーも[NLINE]
+//いるかも知れませんな。[NWIN]
+//
+//そのうち一番弱い[COL01]ポーン級[COL00]スクリーパーなら、[NLINE]
+//多くの兵が一斉にかかれば[NLINE]
+//何とか倒せるかも知れません。[NWIN]
+//
+//ですが[COL01]ルーク級[COL00]以上を見たら、[NLINE]
+//何も考えずに逃げることをおすすめしますよ。[END-FE]
+Screapers are divided into classes[NLINE]
+based on their size.[NWIN]
+
+The smallest are known as [COL01]Pawns[COL00], and[NLINE]
+the next group up are [COL01]Rooks[COL00]. These two[NLINE]
+classes crawl along the ground.[NWIN]
+
+Above them are the [COL01]Knights[COL00], large[NLINE]
+Screapers with raised upper bodies. The[NLINE]
+biggest of all are the [COL01]Bishops[COL00].[NWIN]
+
+We only know of those four at the[NLINE]
+moment, but some speculate that there[NLINE]
+may be an even larger type.[NWIN]
+
+With enough soldiers, we may have a[NLINE]
+chance at killing a [COL01]Pawn[COL00], the weakest[NLINE]
+form of Screaper.[NWIN]
+
+Should you meet a [COL01]Rook[COL00], though?[NLINE]
+I suggest you run, and quickly.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2FFC - STRING #23 @ $38DD
+#W32($2FFC)
+//おお、これはランディ先生！[NLINE]
+//またお仕事ですかな？[END-FE]
+Oh, Dr. Randall! Are you[NLINE]
+here for another job?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3000 - STRING #24 @ $3910
+#W32($3000)
+//ええ。[END-FE]
+I am.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3004 - STRING #25 @ $3919
+#W32($3004)
+//この辺りは[NLINE]
+//スクリーパーが出やすいですからな。[NLINE]
+//お気をつけ下さい。[NWIN]
+//
+//そう言えば、ランディ先生は[NLINE]
+//スクリーパーの等級について[NLINE]
+//ご存じですか？[END-FE]
+Screapers appear frequently[NLINE]
+around here, so mind your[NLINE]
+step, Sir.[NWIN]
+
+Speaking of which, did you[NLINE]
+know Screapers have[NLINE]
+different ranks, Dr. Randall?[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3008 - STRING #26 @ $39A6
+#W32($3008)
+//最近、すこし勉強しましてね。[NLINE]
+//良かったら説明して差し上げましょう。[END-FE]
+I've been studying them recently,[NLINE]
+and it's fascinating.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $300C - STRING #27 @ $39EB
+#W32($300C)
+//・ぜひ聞かせてもらう[END-FE]
+・Tell me of your studies.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3010 - STRING #28 @ $3A02
+#W32($3010)
+//・申し訳ないが、時間が…[END-FE]
+・I must be going.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3014 - STRING #29 @ $3A1D
+#W32($3014)
+//ぜひ、お聞かせ願いたいものです。[END-FE]
+I'd be delighted! Let's hear it.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3018 - STRING #30 @ $3A40
+#W32($3018)
+//スクリーパーには、その大きさにより[NLINE]
+//いくつかのクラスが存在します。[NWIN]
+//
+//一番小さなものが[COL01]ポーン級[COL00]。[NLINE]
+//次が[COL01]ルーク級[COL00]。[NLINE]
+//この２つは地面にはいつくばる型です。[NWIN]
+//
+//この上に、成長し上体を起こした[COL01]ナイト級[COL00]。[NLINE]
+//そしてさらに成長した最強のスクリーパー、[NLINE]
+//[COL01]ビショップ級[COL00]がいます。[NWIN]
+//
+//一応現在確認されているのはこの４種ですが、[NLINE]
+//ひょっとしたらそれ以上いるかも知れませんね。[END-FE]
+Screapers are divided into classes[NLINE]
+based on their size.[NWIN]
+
+The smallest are known as [COL01]Pawns[COL00], and[NLINE]
+the next group up are [COL01]Rooks[COL00]. These two[NLINE]
+classes crawl along the ground.[NWIN]
+
+Above them are the [COL01]Knights[COL00], large[NLINE]
+Screapers with raised upper bodies.[NLINE]
+The strongest class are the [COL01]Bishops[COL00].[NWIN]
+
+Those are all the Screaper classes we know[NLINE]
+of, but there could be others even larger.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $301C - STRING #31 @ $3BB5
+#W32($301C)
+//申し訳ない。[NLINE]
+//実は今、急いでおりまして…。[END-FE]
+Ah, I'm afraid I'm in a bit of[NLINE]
+a hurry now...[END-FE]
+
+
+
+
+
+//POINTER #32 @ $3020 - STRING #32 @ $3BE2
+#W32($3020)
+//いえいえ、こちらこそ。[NLINE]
+//お手間を取らせてしまいましたな。[END-FE]
+That's all right. I didn't mean[NLINE]
+to pester you.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $3024 - STRING #33 @ $3C1D
+#W32($3024)
+//　[NLINE]
+//空き家だろうか、板が打ち付けられている。[END-FE]
+　[NLINE]
+The boarded house seems empty...[END-FE]
+
+
+
+
+
+//POINTER #34 @ $3028 - STRING #34 @ $3C4C
+#W32($3028)
+//あら、ランディ先生。[NLINE]
+//最近は南西の小国連合には行かれましたか？[NLINE]
+//あっちはまだ収穫が良いという噂ですが、[NLINE]
+//本当でしょうか？[END-FE]
+Oh, Dr. Randall. Have you been to the[NLINE]
+Commonwealth to the southwest? I hear[NLINE]
+they still harvest good crops there, but[NLINE]
+I haven't been there to see for myself.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $302C - STRING #35 @ $3CC7
+#W32($302C)
+//我が家にご用ですか？[END-FE]
+Do you need something?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $3030 - STRING #36 @ $3CDE
+#W32($3030)
+//これはランディ殿。[NLINE]
+//遺跡の研究に、熱が入りますなぁ……。[NWIN]
+//
+//遺跡と言えば魔法しか効果のない[NLINE]
+//モンスターが、時々おるようですな。[NWIN]
+//
+//そういう場合は、アビリティツリーの[NLINE]
+//フローを変えたりして、[NLINE]
+//モンスターに対応したりするんですかの？[NWIN]
+//
+//敵の能力を解析し、弱点に合わせて[NLINE]
+//アビリティツリーのフローを変える……。[NLINE]
+//これぞ頭脳戦という感じですな。[NWIN]
+//
+//戦闘中でもフロー変更は可能ですから、[NLINE]
+//落ち着いて対処すれば[NLINE]
+//遺跡調査も楽になるはずですな。[END-FE]
+Still inspecting ruins, Dr. Randall?[NLINE]
+Don't you ever rest?[NWIN]
+
+They say those ruins have[NLINE]
+monsters you can only beat[NLINE]
+with magic.[NWIN]
+
+Do you have to change your[NLINE]
+Ability Tree's flow when you meet[NLINE]
+creatures like that?[NWIN]
+
+I bet a doctor like you is always[NLINE]
+using the smartest Ability Tree[NLINE]
+flow to fight his enemies...[NWIN]
+
+Even in the middle of battle,[NLINE]
+you can change the flow. It helps[NLINE]
+you exploit any weaknesses.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $3034 - STRING #37 @ $3E87
+#W32($3034)
+//ワシもランディ殿くらい[NLINE]
+//技能を覚えておれば、[NLINE]
+//色々と工夫して戦えたんでしょうな。[END-FE]
+Of course, that only applies to[NLINE]
+people like you, who've mastered[NLINE]
+many different abilities.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $3038 - STRING #38 @ $3EDA
+#W32($3038)
+//我が家にご用ですかな？[END-FE]
+Can I help you?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $303C - STRING #39 @ $3EF3
+#W32($303C)
+//私の父は、私が生まれた年に[NLINE]
+//戦場で死にました。[NLINE]
+//そう、あの砲撃の直前にグランゲイル兵に…。[NWIN]
+//
+//もっと早く戦争が終わっていれば、[NLINE]
+//父が死ぬこともなかったでしょう…。[NLINE]
+//もっと早く維持軍が戦争を止めてくれれば…。[END-FE]
+My father was killed by Grangale[NLINE]
+soldiers the year I was born. It was[NLINE]
+right before the cannon attack.[NWIN]
+
+If the PMB had stopped the war just a[NLINE]
+little earlier, my father might still be[NLINE]
+alive today...[END-FE]
+
+
+
+
+
+//POINTER #40 @ $3040 - STRING #40 @ $3FC2
+#W32($3040)
+//いらっしゃいませ。[NLINE]
+//強力な武器防具がそろってるわよ！[END-FE]
+Welcome! I've got some good[NLINE]
+equipment for you![END-FE]
+
+
+
+
+
+//POINTER #41 @ $3044 - STRING #41 @ $3FF9
+#W32($3044)
+//ぜひ、見てちょうだい！[END-FE]
+Have a look![END-FE]
+
+
+
+
+
+//POINTER #42 @ $3048 - STRING #42 @ $4012
+#W32($3048)
+//・武器購入[END-FE]
+・Buy weapons[END-FE]
+
+
+
+
+
+//POINTER #43 @ $304C - STRING #43 @ $401F
+#W32($304C)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #44 @ $3050 - STRING #44 @ $402C
+#W32($3050)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #45 @ $3054 - STRING #45 @ $4035
+#W32($3054)
+//またね！[END-FE]
+See you![END-FE]
+
+
+
+
+
+//POINTER #46 @ $3058 - STRING #46 @ $4040
+#W32($3058)
+//ようこそ、道具屋へ！[END-FE]
+Come to see my items?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $305C - STRING #47 @ $4057
+#W32($305C)
+//購入かい？ 売却かい？[END-FE]
+Are you buying or selling?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $3060 - STRING #48 @ $406F
+#W32($3060)
+//・アクセサリ購入[END-FE]
+・Buy accessories[END-FE]
+
+
+
+
+
+//POINTER #49 @ $3064 - STRING #49 @ $4082
+#W32($3064)
+//・グッズ購入[END-FE]
+・Buy items[END-FE]
+
+
+
+
+
+//POINTER #50 @ $3068 - STRING #50 @ $4091
+#W32($3068)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #51 @ $306C - STRING #51 @ $409A
+#W32($306C)
+//ありがとう。[NLINE]
+//また来て下さいよ。[END-FE]
+Thank you. Please[NLINE]
+come again![END-FE]
+
+
+
+
+
+//POINTER #52 @ $3070 - STRING #52 @ $40BD
+#W32($3070)
+//これは、ランディ先生。[END-FE]
+Hello, Dr. Randall.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $3074 - STRING #53 @ $40D6
+#W32($3074)
+//現在、王城前にてシリルティア軍の[NLINE]
+//定期演習を行っております。[NWIN]
+//
+//申し訳ございませんが、[NLINE]
+//軍関係者以外はお通しいたしかねます。[END-FE]
+There's a routine exercise underway[NLINE]
+at the castle, Sir.[NWIN]
+
+I'm afraid we can't allow any civilians[NLINE]
+to pass, no matter how respected.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $3078 - STRING #54 @ $4153
+#W32($3078)
+//警備ご苦労。[END-FE]
+Good work, soldier.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $307C - STRING #55 @ $4162
+#W32($307C)
+//はっ！[NLINE]
+//異常ありません！[END-FE]
+Everything's fine[NLINE]
+here, Ma'am![END-FE]
+
+
+
+
+
+//POINTER #56 @ $3080 - STRING #56 @ $417D
+#W32($3080)
+//おじーちゃん、[NLINE]
+//今日はあったかいね！[END-FE]
+It's warm out today,[NLINE]
+isn't it, Grandpa?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3084 - STRING #57 @ $41A4
+#W32($3084)
+//そうじゃのぅ。[NLINE]
+//いい、天気じゃ…。[END-FE]
+It's a fine day[NLINE]
+indeed, yes it is...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3088 - STRING #58 @ $41C9
+#W32($3088)
+//ボク、お天気だいすき！[END-FE]
+I love the sunshine![END-FE]
+
+
+
+
+
+//POINTER #59 @ $308C - STRING #59 @ $41E2
+#W32($308C)
+//そうか、そうか…。[NLINE]
+//だが、そろそろ雨も欲しいところじゃ。[END-FE]
+Of course... who doesn't? But[NLINE]
+I hope it rains soon too.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3090 - STRING #60 @ $421D
+#W32($3090)
+//え～！[NLINE]
+//ボク、雨きらい！[END-FE]
+Whaaat!? I[NLINE]
+HATE the rain![END-FE]
+
+
+
+
+
+//POINTER #61 @ $3094 - STRING #61 @ $4238
+#W32($3094)
+//やあ、良い天気だね。[NLINE]
+//というか、これはもう日照りだよ…。[END-FE]
+It's another beautiful day... we[NLINE]
+get a lot of those in this drought.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3098 - STRING #62 @ $4273
+#W32($3098)
+//これはランディ先生。[NLINE]
+//先生の所じゃ、まだ水は無料ですか？[END-FE]
+Hi there, Doctor. Say, is water[NLINE]
+still free at your place, Sir?[END-FE]
+
+
+
+
+
+//POINTER #63 @ $309C - STRING #63 @ $42AE
+#W32($309C)
+//ここフェルメンティアじゃ、[NLINE]
+//近々、水に税金がかけられるかもしれない。[NLINE]
+//そんな噂が流れてますよ。[NWIN]
+//
+//嫌な時代になったものですねぇ…。[END-FE]
+There's a rumor going around here[NLINE]
+in Felmentia that our water may be[NLINE]
+taxed soon.[NWIN]
+
+What is this world coming to?[END-FE]
+
+
+
+
+
+//POINTER #64 @ $30A0 - STRING #64 @ $4331
+#W32($30A0)
+//作物の値段が上がっちゃって、[NLINE]
+//家計のやりくりが難しいわ…。[END-FE]
+Produce prices are up... We[NLINE]
+can barely afford to eat.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $30A4 - STRING #65 @ $436E
+#W32($30A4)
+//扉Ｄの住人[END-FE]
+扉Ｄの住人[END-FE]
+
+
+
+
+
+//POINTER #66 @ $30A8 - STRING #66 @ $437B
+#W32($30A8)
+//準備を整えられるなら、[NLINE]
+//北の商店街が便利です。[NWIN]
+//
+//さすがシリ……我が国の王都だけあって[NLINE]
+//品揃えが豊富です。[END-FE]
+I suggest stocking up at the shops[NLINE]
+in town.[NWIN]
+
+This place... I mean, our country's[NLINE]
+capital has everything you need.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $30AC - STRING #67 @ $43E6
+#W32($30AC)
+//あ、ランディ先生。[NLINE]
+//御用でしたら、[NLINE]
+//受付へお願いいたします。[END-FE]
+Oh, Dr. Randall! If you[NLINE]
+need something, come[NLINE]
+to the front desk.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $30B0 - STRING #68 @ $4425
+#W32($30B0)
+//どうぞ、奥へお入りください。[END-FE]
+Please, go right in.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $30B4 - STRING #69 @ $4444
+#W32($30B4)
+//どうぞ、奥へお入りください。[END-FE]
+Please, go right in.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $30B8 - STRING #70 @ $4463
+#W32($30B8)
+//いらっしゃいませ。[END-FE]
+Welcome![END-FE]
+
+
+
+
+
+//POINTER #71 @ $30BC - STRING #71 @ $4478
+#W32($30BC)
+//・宿泊する[END-FE]
+・Check in[END-FE]
+
+
+
+
+
+//POINTER #72 @ $30C0 - STRING #72 @ $4485
+#W32($30C0)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #73 @ $30C4 - STRING #73 @ $4494
+#W32($30C4)
+//・Ｄ部屋(隠し)[END-FE]
+・Ｄ部屋(隠し)[END-FE]
+
+
+
+
+
+//POINTER #74 @ $30C8 - STRING #74 @ $44A5
+#W32($30C8)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になりますか？[END-FE]
+One night is [CC.EF0E]Ы.[NLINE]
+Will you be checking in?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $30CC - STRING #75 @ $44D1
+#W32($30CC)
+//ぐっすり休まれましたか？[NLINE]
+//[COL01]特技[COL00]は宿に泊まると、[NLINE]
+//使用回数が回復しますよ。[END-FE]
+Did you sleep well, Sir? Your[NLINE]
+[COL01]Knacks[COL00] will be recharged[NLINE]
+when you stay at an Inn.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $30D0 - STRING #76 @ $4522
+#W32($30D0)
+//[COL01]特技[COL00]の使用回数はLVと同じ値ですが、[NLINE]
+//最大で５回までです。[NLINE]
+//（一部の特技で特殊な回数制限あり。）[END-FE]
+Your [COL01]Knack[COL00] level determines how[NLINE]
+many times you can use it before[NLINE]
+recharging; the maximum is 5.[NLINE]
+Certain Knacks have special limits.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $30D4 - STRING #77 @ $4589
+#W32($30D4)
+//LVが6以上の特技は回数が増えるかわりに[NLINE]
+//特殊なボーナスがついていることがあります。[END-FE]
+If a Knack reaches level 6 or higher,[NLINE]
+it may attain special properties.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $30D8 - STRING #78 @ $45DD
+#W32($30D8)
+//ついでに記録をとられますか？[END-FE]
+Will you save your progress?[END-FE]
+
+
+
+
+
+//POINTER #79 @ $30DC - STRING #79 @ $45FC
+#W32($30DC)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+Have a safe[NLINE]
+trip, Sir.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $30E0 - STRING #80 @ $4621
+#W32($30E0)
+//お客さん……[COL02][TEAR-DROP][COL00][NLINE]
+//お金が足りないみたいですよ？[END-FE]
+Sir... You can't afford[NLINE]
+that. I'm sorry.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $30E4 - STRING #81 @ $4656
+#W32($30E4)
+//王都フェルメンティア[END-FE]
+Felmentia[END-FE]
+
+
+
+
+
+//POINTER #82 @ $30E8 - STRING #82 @ $466D
+#W32($30E8)
+//Ｄ　フェルメンティア[END-FE]
+Ｄ　フェルメンティア[END-FE]
+
+
+
+
+
+//POINTER #83 @ $30EC - STRING #83 @ $4684
+#W32($30EC)
+//またのご利用を[NLINE]
+//お待ちしております。[END-FE]
+Please come back[NLINE]
+again, Sir.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $30F0 - STRING #84 @ $46AB
+#W32($30F0)
+//これはランディ先生、[NLINE]
+//先ほどより、シリルティア軍の方が[NLINE]
+//上の部屋でお待ちですよ。[NWIN]
+//
+//どうぞ、奥へお入りください。[END-FE]
+Good day, Dr. Randall.[NLINE]
+A man from Cyriltia's army[NLINE]
+is waiting for you upstairs.[NWIN]
+
+Please, go right in.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $30F4 - STRING #85 @ $471C
+#W32($30F4)
+//これはランディ先生、[NLINE]
+//シリルティア軍の使いの方が参りましたので、[NLINE]
+//部屋は用意させていただいております。[NWIN]
+//
+//どうぞ、奥へお入りください。[END-FE]
+Good day, Dr. Randall.[NLINE]
+A man from Cyriltia's army[NLINE]
+is waiting for you upstairs.[NWIN]
+
+Please, go right in.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $30F8 - STRING #86 @ $47A3
+#W32($30F8)
+//[CHAR1900][V0000]
+//ランディ先生、[NLINE]
+//資料を持って参りました。[END-FE]
+[CHAR1900][V0000]
+Dr. Randall? I brought[NLINE]
+the documents.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $30FC - STRING #87 @ $47D6
+#W32($30FC)
+//[CHAR1500][V0000]
+//お待ちしておりました、[NLINE]
+//ランディ先生でいらっしゃいますね？[END-FE]
+[CHAR1500][V0000]
+You're Mr. Randall? I've[NLINE]
+been expecting you, Sir.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3100 - STRING #88 @ $481B
+#W32($3100)
+//[CHAR1500][V0100]
+//いかにも、[NLINE]
+//私が考古学者ランディです。[NWIN]
+//
+//[CHAR1500][V0200]
+//それでは、あなたが私に[NLINE]
+//遺跡調査の依頼を？[END-FE]
+[CHAR1500][V0100]
+Ah, that's Dr. Randall,[NLINE]
+if you please.[NWIN]
+
+[CHAR1500][V0200]
+You requested my[NLINE]
+assistance with this matter?[END-FE]
+
+
+
+
+
+//POINTER #89 @ $3104 - STRING #89 @ $4880
+#W32($3104)
+//[CHAR1500][V0300]
+//私は使いで参った者です。[END-FE]
+[CHAR1500][V0300]
+I'm just a messenger.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3108 - STRING #90 @ $48A3
+#W32($3108)
+//[CHAR1500][V0400]
+//まずはこれをご覧下さい。[END-FE]
+[CHAR1500][V0400]
+This is for you, Sir.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $310C - STRING #91 @ $48C6
+#W32($310C)
+//[CHAR1500][V0500]
+//拝見しましょう。[NLINE]
+//ふむ……。[END-FE]
+[CHAR1500][V0500]
+Let's have[NLINE]
+a look. Hmm...[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3110 - STRING #92 @ $48ED
+#W32($3110)
+//[CHAR1500][V0600]
+//なるほど、この文献に書かれているのは、[NLINE]
+//どうやら古代の研究所のようですな。[NWIN]
+//
+//[CHAR1500][V0700]
+//この構造から推察するに、[NLINE]
+//建造時期は帝国末期。[NLINE]
+//特徴である、高密度の魔力水晶を[NLINE]
+//使った実験設備が……。[END-FE]
+[CHAR1500][V0600]
+Interesting... this describes some[NLINE]
+sort of ancient laboratory.[NWIN]
+
+[CHAR1500][V0700]
+It apparently dates back to the[NLINE]
+final days of the Imperial era.[NLINE]
+They were working with high-[NLINE]
+density magic crystals...[END-FE]
+
+
+
+
+
+//POINTER #93 @ $3114 - STRING #93 @ $49B2
+#W32($3114)
+//[CHAR1500][V0800]
+//は、はぁ……。[END-FE]
+[CHAR1500][V0800]
+I-Is that so...?[END-FE]
+
+
+
+
+
+//POINTER #94 @ $3118 - STRING #94 @ $49CB
+#W32($3118)
+//[CHAR1500][V0900]
+//おっと失礼……。[NLINE]
+//つい夢中になってしまった。[NWIN]
+//
+//[CHAR1500][V0A00]
+//残念ながら、何が研究されていたか、[NLINE]
+//ということまでは分かりませんでしたが、[NLINE]
+//実際に現地を調査する際、[NLINE]
+//役立つことになるでしょう。[END-FE]
+[CHAR1500][V0900]
+Ah, there I go again,[NLINE]
+nattering on about trifles.[NWIN]
+
+[CHAR1500][V0A00]
+I can't tell what precisely they[NLINE]
+were researching, but this may[NLINE]
+help us narrow down what we're[NLINE]
+looking for.[END-FE]
+
+
+
+
+
+//POINTER #95 @ $311C - STRING #95 @ $4A8C
+#W32($311C)
+//[CHAR1500][V0B00]
+//そうですか、ありがとうございます。[NWIN]
+//
+//[CHAR1500][V0C00]
+//もしよろしければ、[NLINE]
+//ランディ先生にも調査隊に[NLINE]
+//参加していただきたいのですが、[NLINE]
+//よろしいでしょうか？[END-FE]
+[CHAR1500][V0B00]
+Well, that's good news, at least.[NWIN]
+
+[CHAR1500][V0C00]
+If it's all right with you, we'd[NLINE]
+like you to join the excavation[NLINE]
+team. Won't you lend a hand,[NLINE]
+Doctor?[END-FE]
+
+
+
+
+
+//POINTER #96 @ $3120 - STRING #96 @ $4B25
+#W32($3120)
+//[CH.FACE:Close-Eyes][CC.AC00][CHAR1500][V0D00]
+//……うーむ。[NWIN]
+//
+//[CH.FACE:Open-Eyes][CHAR1500][V0E00]
+//非常に興味はあるのですが、[NLINE]
+//どうやら私が探しているものとは[NLINE]
+//少し違う様なのです……。[NWIN]
+//
+//[CHAR1500][V0F00]
+//が、もしかすると私が探しているものが[NLINE]
+//見つかるかも知れない。[NWIN]
+//
+//[CHAR1500][V1000]
+//ご一緒いたしましょう。[END-FE]
+[CH.FACE:Close-Eyes][CC.AC00][CHAR1500][V0D00]
+Hmmm...[NWIN]
+
+[CH.FACE:Open-Eyes][CHAR1500][V0E00]
+It's intriguing, to be sure, but[NLINE]
+it's a bit different than what[NLINE]
+I'm after.[NWIN]
+
+[CHAR1500][V0F00]
+Who knows, though... Perhaps I'll[NLINE]
+find something useful.[NWIN]
+
+[CHAR1500][V1000]
+I'd be glad to help.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $3124 - STRING #97 @ $4C09
+#W32($3124)
+//[CHAR1500][V1100]
+//ここ、フェルメンティアより[NLINE]
+//少し北に行ったところです。[NLINE]
+//それでは向かいましょう。[END-FE]
+[CHAR1500][V1100]
+It's a little ways to the[NLINE]
+north of Felmentia. Shall[NLINE]
+we be off?[END-FE]
+
+
+
+
+
+//POINTER #98 @ $3128 - STRING #98 @ $4C64
+#W32($3128)
+//[CHAR1500][V1200]
+//ふむ……。[NLINE]
+//案内していただきましょう。[END-FE]
+[CHAR1500][V1200]
+Lead the way,[NLINE]
+my good man.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $312C - STRING #99 @ $4C95
+#W32($312C)
+//　[NLINE]
+//ビリィが仲間になった！[NLINE]
+//　[END-FE]
+　[NLINE]
+Alasdir has joined your party![NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #100 @ $3130 - STRING #100 @ $4CB6
+#W32($3130)
+//目指す遺跡は、フェルメンティアより[NLINE]
+//少し北に行ったところです。[END-FE]
+Our destination is the ruin north[NLINE]
+of Felmentia, Doctor.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $3134 - STRING #101 @ $4CF7
+#W32($3134)
+//[CHAR1900][V0100]
+//早速、拝見しよう。[END-FE]
+[CHAR1900][V0100]
+Let's have a look.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $3138 - STRING #102 @ $4D14
+#W32($3138)
+//[CHAR1900][V0200]
+//ランディ殿、失礼する。[END-FE]
+[CHAR1900][V0200]
+Excuse me, Dr. Randall.[END-FE]
+
+
+
+
+
+//POINTER #103 @ $313C - STRING #103 @ $4D35
+#W32($313C)
+//[CHAR1900][V0300]
+//おお、これはシェリス殿。[NLINE]
+//ちょうどすべて読み終えたところです。[NWIN]
+//
+//[CHAR1900][V0400]
+//ところで、工事の方はいかがですかな？[END-FE]
+[CHAR1900][V0300]
+Ah, Lady Sherris. I've just finished[NLINE]
+my homework here.[NWIN]
+
+[CHAR1900][V0400]
+How goes the construction, milady?[END-FE]
+
+
+
+
+
+//POINTER #104 @ $3140 - STRING #104 @ $4DAC
+#W32($3140)
+//[CHAR1900][V0500]
+//正直、芳しくない。[NWIN]
+//
+//[CHAR1900][V0600]
+//スクリーパーの出現により、[NLINE]
+//工事は大分遅れてしまっている…。[END-FE]
+[CHAR1900][V0500]
+Not very well, frankly.[NWIN]
+
+[CHAR1900][V0600]
+That Screaper's presence threw[NLINE]
+off the schedule entirely.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $3144 - STRING #105 @ $4E0F
+#W32($3144)
+//[CHAR1900][V0700]
+//シェリス殿、もしかすると[NLINE]
+//力になれるかも知れませんぞ。[END-FE]
+[CHAR1900][V0700]
+Then allow me to be the[NLINE]
+bearer of good news, milady.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $3148 - STRING #106 @ $4E50
+#W32($3148)
+//[CHAR1900][V0800]
+//なんと……！[NLINE]
+//遺跡から運び出した資料の中に何か？[END-FE]
+[CHAR1900][V0800]
+You mean... You found something[NLINE]
+in those documents!?[END-FE]
+
+
+
+
+
+//POINTER #107 @ $314C - STRING #107 @ $4E8B
+#W32($314C)
+//[CHAR1900][V0900]
+//ええ、そうです。[NLINE]
+//この資料は古代帝国末期の歴史について[NLINE]
+//書かれております。[END-FE]
+[CHAR1900][V0900]
+Quite so. This book is a historical[NLINE]
+record of the twilight of the ancient[NLINE]
+empire.[END-FE]
+
+
+
+
+
+//POINTER #108 @ $3150 - STRING #108 @ $4EE0
+#W32($3150)
+//[CHAR1900][V0A00]
+//古代帝国……。[NLINE]
+//かつてこの大陸を支配していたと言う国か。[END-FE]
+[CHAR1900][V0A00]
+Ancient empire... The one that once[NLINE]
+dominated the continent?[END-FE]
+
+
+
+
+
+//POINTER #109 @ $3154 - STRING #109 @ $4F23
+#W32($3154)
+//[CHAR1900][V0B00]
+//かつてこの地に栄えた古代帝国は、[NLINE]
+//辺境の小国に過ぎなかったと言います。[NWIN]
+//
+//[CHAR1900][V0C00]
+//それがごく短期間で、[NLINE]
+//しかも戦争を起こすことなく[NLINE]
+//大陸全土を統一しているのです。[NWIN]
+//
+//[CHAR1900][V0D00]
+//その方法を知る事が出来れば、[NLINE]
+//再び戦争が起こったときに、[NLINE]
+//治めることができるのではないか……。[NWIN]
+//
+//[CHAR1900][V0E00]
+//私はそう考えて調査を続けておりました。[END-FE]
+[CHAR1900][V0B00]
+It supposedly began as a small country[NLINE]
+in a remote area...[NWIN]
+
+[CHAR1900][V0C00]
+And from there, it seems to have[NLINE]
+managed to unite the country[NLINE]
+without war.[NWIN]
+
+[CHAR1900][V0D00]
+If we can discover how they did so,[NLINE]
+then perhaps we can duplicate their[NLINE]
+methods.[NWIN]
+
+[CHAR1900][V0E00]
+That's what I've been searching for.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $3158 - STRING #110 @ $5066
+#W32($3158)
+//[CHAR1900][V0F00]
+//……では、その方法が!?[END-FE]
+[CHAR1900][V0F00]
+And... you've found it!?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $315C - STRING #111 @ $5087
+#W32($315C)
+//[CHAR1900][V1000]
+//この資料にありました。[NWIN]
+//
+//[CHAR1900][V1100]
+//帝国の繁栄の陰には、[NLINE]
+//龍玉と呼ばれる[NLINE]
+//強力な魔法の宝珠があった、と。[END-FE]
+[CHAR1900][V1000]
+It's detailed in here.[NWIN]
+
+[CHAR1900][V1100]
+A mystical sphere called the[NLINE]
+Dragon Orb was the source[NLINE]
+of their power.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $3160 - STRING #112 @ $50F6
+#W32($3160)
+//[CHAR1900][V1200]
+//龍玉……？[END-FE]
+[CHAR1900][V1200]
+Dragon Orb...?[END-FE]
+
+
+
+
+
+//POINTER #113 @ $3164 - STRING #113 @ $510B
+#W32($3164)
+//[CHAR1900][V1300]
+//そして、帝国末期。[NLINE]
+//この宝珠が盗まれ、そこから帝国は[NLINE]
+//衰退の一途をたどります。[END-FE]
+[CHAR1900][V1300]
+This tells of the theft of the[NLINE]
+orb, which was the beginning of[NLINE]
+the end for them.[END-FE]
+
+
+
+
+
+//POINTER #114 @ $3168 - STRING #114 @ $5164
+#W32($3168)
+//[CHAR1900][V1400]
+//そして、最後は滅びてしまった……？[END-FE]
+[CHAR1900][V1400]
+Is that how the empire perished...?[END-FE]
+
+
+
+
+
+//POINTER #115 @ $316C - STRING #115 @ $5191
+#W32($316C)
+//[CHAR1900][V1500]
+//帝国の盛衰は長いこと[NLINE]
+//謎とされていました。[NLINE]
+//まさか、それがたった１つの[NLINE]
+//宝珠にあったとは……。[END-FE]
+[CHAR1900][V1500]
+The empire's fall mystified[NLINE]
+us for a long time. I'm[NLINE]
+surprised to find it was due[NLINE]
+to such a simple thing.[END-FE]
+
+
+
+
+
+//POINTER #116 @ $3170 - STRING #116 @ $51FA
+#W32($3170)
+//[CHAR1900][V1600]
+//いまの我々と似ている……。[NWIN]
+//
+//[CHAR1900][V1700]
+//維持軍のアドモニッシャーひとつで、[NLINE]
+//この大陸のかりそめの平和は[NLINE]
+//保たれているのだから。[END-FE]
+[CHAR1900][V1600]
+It's not so surprising...[NWIN]
+
+[CHAR1900][V1700]
+Our own peace is only[NLINE]
+maintained by the PMB's[NLINE]
+Admonisher, after all.[END-FE]
+
+
+
+
+
+//POINTER #117 @ $3174 - STRING #117 @ $527F
+#W32($3174)
+//[CHAR1900][V1800]
+//もし、アドモニッシャーが沈黙すれば、[NLINE]
+//平和維持軍もたちまちのうちに[NLINE]
+//崩壊するでしょうな。[NWIN]
+//
+//[CHAR1900][V1900]
+//宝珠の力がなんであれ、[NLINE]
+//盗まれてしまったのでは[NLINE]
+//どうしようもない。[NWIN]
+//
+//[CHAR1900][V1A00]
+//私は別な方法を[NLINE]
+//探さねばならぬようです。[END-FE]
+[CHAR1900][V1800]
+True... Without the Admonisher,[NLINE]
+I suppose the PMB would perish[NLINE]
+just as quickly.[NWIN]
+
+[CHAR1900][V1900]
+If the Dragon Orb was stolen[NLINE]
+then it's useless to us now.[NWIN]
+
+[CHAR1900][V1A00]
+It's a pity, but we may have[NLINE]
+to find another way.[END-FE]
+
+
+
+
+
+//POINTER #118 @ $3178 - STRING #118 @ $5360
+#W32($3178)
+//[CHAR1900][V1B00]
+//しかし不思議だ。[NWIN]
+//
+//[CHAR1900][V1C00]
+//それほどの力を秘めた宝珠だったら、[NLINE]
+//盗んだ者が新しい帝国を打ち立てようと[NLINE]
+//しなかったのだろうか？[END-FE]
+[CHAR1900][V1B00]
+I wonder, though...[NWIN]
+
+[CHAR1900][V1C00]
+If the orb was that powerful, why[NLINE]
+didn't the thief use it to create his[NLINE]
+own empire?[END-FE]
+
+
+
+
+
+//POINTER #119 @ $317C - STRING #119 @ $53E5
+#W32($317C)
+//[CHAR1900][V1D00]
+//ふむ……確かに。[NLINE]
+//新しい謎ができましたな。[NWIN]
+//
+//[CHAR1900][V1E00]
+//それと、もう１つ[NLINE]
+//気になるものがありました。[END-FE]
+[CHAR1900][V1D00]
+Excellent point, milady...[NLINE]
+Yet another mystery.[NWIN]
+
+[CHAR1900][V1E00]
+But I digress... There's[NLINE]
+something of more[NLINE]
+immediate interest.[END-FE]
+
+
+
+
+
+//POINTER #120 @ $3180 - STRING #120 @ $5450
+#W32($3180)
+//[CHAR1900][V1F00]
+//どのような？[END-FE]
+[CHAR1900][V1F00]
+What is it?[NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #121 @ $3184 - STRING #121 @ $5467
+#W32($3184)
+//[CHAR1900][V2000]
+//文献に挟まっていた書類なのですが、[NLINE]
+//どうやらこの辺りで地下の水源を[NLINE]
+//掘ろうとしていたようなのです。[NWIN]
+//
+//[CHAR1900][V2100]
+//あとわずかというところで[NLINE]
+//硬い岩盤に当たって工事が中断したまま、[NLINE]
+//帝国は滅びてしまったようですが……。[END-FE]
+[CHAR1900][V2000]
+Papers tucked away inside the book[NLINE]
+reveal plans to dig a new spring[NLINE]
+near here.[NWIN]
+
+[CHAR1900][V2100]
+They had nearly completed it when[NLINE]
+they hit bedrock. Before they resumed[NLINE]
+construction, the empire had fallen.[END-FE]
+
+
+
+
+
+//POINTER #122 @ $3188 - STRING #122 @ $5544
+#W32($3188)
+//[CHAR1900][V2200]
+//……それは！[NLINE]
+//ランディ殿、その場所は特定できないか？[NWIN]
+//
+//[CHAR1900][V2300]
+//もし、その水源が使えるようなら[NLINE]
+//我が国は……。[END-FE]
+[CHAR1900][V2200]
+...Is that true!? Dr. Randall, can you[NLINE]
+identify the location?[NWIN]
+
+[CHAR1900][V2300]
+With a new water source, my[NLINE]
+country can...[END-FE]
+
+
+
+
+
+//POINTER #123 @ $318C - STRING #123 @ $55BB
+#W32($318C)
+//[CHAR1900][V2400]
+//どうやら近くにカエルのような[NLINE]
+//形の岩があるということですが……。[END-FE]
+[CHAR1900][V2400]
+It tells of a rock that resembles[NLINE]
+a frog...[END-FE]
+
+
+
+
+
+//POINTER #124 @ $3190 - STRING #124 @ $5606
+#W32($3190)
+//[CHAR1900][V2500]
+//その場所、探してみよう。[END-FE]
+[CHAR1900][V2500]
+Let's start looking.[END-FE]
+
+
+
+
+
+//POINTER #125 @ $3194 - STRING #125 @ $5629
+#W32($3194)
+//　[NLINE]
+//シェリス近衛兵長が仲間になった！[NLINE]
+//　[END-FE]
+　[NLINE]
+Sherris has joined your party![NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #126 @ $3198 - STRING #126 @ $5654
+#W32($3198)
+//私は、遺跡の発掘へ戻ります。[NLINE]
+//お気をつけて。[END-FE]
+I'll head back to the ruin.[NLINE]
+Take care.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $319C - STRING #127 @ $5683
+#W32($319C)
+//ラ、ランディ先生！[NLINE]
+//どちらへ行かれるのですか？[END-FE]
+D-Doctor! Where are you[NLINE]
+going, Sir?[END-FE]
+
+
+
+
+
+//POINTER #128 @ $31A0 - STRING #128 @ $56B4
+#W32($31A0)
+//ランディ先生、いったいどちらへ……？[END-FE]
+Dr. Randall, where are you going...?[END-FE]
+
+
+
+
+
+//POINTER #129 @ $31A4 - STRING #129 @ $56DB
+#W32($31A4)
+//ベッドで休みますか？[END-FE]
+Would you like to rest?[END-FE]
+
+
+
+
+
+//POINTER #130 @ $31A8 - STRING #130 @ $56F2
+#W32($31A8)
+//（まずは彼の話をきかねば…。）[END-FE]
+(First, I must get his story...)[END-FE]
+
+
+
+

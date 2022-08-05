@@ -1,0 +1,1228 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $5BC0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $5A20, 4, PTR)
+
+#JMP($5BC0)
+#HDR($5BC0)
+
+
+
+
+
+//POINTER #0 @ $5A20 - STRING #0 @ $5BC0
+#W32($5A20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $5A24 - STRING #1 @ $5BC3
+#W32($5A24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $5A28 - STRING #2 @ $5BD0
+#W32($5A28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $5A2C - STRING #3 @ $5BF5
+#W32($5A2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $5A30 - STRING #4 @ $5C1A
+#W32($5A30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $5A34 - STRING #5 @ $5C2F
+#W32($5A34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $5A38 - STRING #6 @ $5C54
+#W32($5A38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $5A3C - STRING #7 @ $5C79
+#W32($5A3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $5A40 - STRING #8 @ $5CAE
+#W32($5A40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $5A44 - STRING #9 @ $5CE3
+#W32($5A44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $5A48 - STRING #10 @ $5D08
+#W32($5A48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $5A4C - STRING #11 @ $5D2D
+#W32($5A4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $5A50 - STRING #12 @ $5D52
+#W32($5A50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $5A54 - STRING #13 @ $5D67
+#W32($5A54)
+//早くヌナーンに向かわねば[NLINE]
+//龍玉を奪われてしまいます！[END-FE]
+If we don't quickly head to Nu Nahn,[NLINE]
+then the Dragon Orb will be stolen![END-FE]
+
+
+
+
+
+//POINTER #14 @ $5A58 - STRING #14 @ $5D9E
+#W32($5A58)
+//どちらへ行かれるのですか？[NLINE]
+//ヤージェン村はすぐ北です。[END-FE]
+Where are you going?[NLINE]
+Jaergen Village lies north of here.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $5A5C - STRING #15 @ $5DD7
+#W32($5A5C)
+//ヤージェン村方面[END-FE]
+To Jaergen Village[END-FE]
+
+
+
+
+
+//POINTER #16 @ $5A60 - STRING #16 @ $5DEA
+#W32($5A60)
+//サウネイルの森[NLINE]
+//ゼルドック方面[END-FE]
+To Zerdok Woods[NLINE]
+To Zerdok[END-FE]
+
+
+
+
+
+//POINTER #17 @ $5A64 - STRING #17 @ $5E0B
+#W32($5A64)
+//王都ガイラナック方面[END-FE]
+To Royal Capital Geilenach[END-FE]
+
+
+
+
+
+//POINTER #18 @ $5A68 - STRING #18 @ $5E22
+#W32($5A68)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $5A6C - STRING #19 @ $5E39
+#W32($5A6C)
+//自動Ｄ　ＥＢ０２＿６前[END-FE]
+自動Ｄ　ＥＢ０２＿６前[END-FE]
+
+
+
+
+
+//POINTER #20 @ $5A70 - STRING #20 @ $5E52
+#W32($5A70)
+//　[NLINE]
+//石柱の上部はくぼんでおり、　　　　　　[NLINE]
+//その中央には小さく深い穴が開いている。[NLINE]
+//　[END-FE]
+[NLINE]
+There is a dent on top of the[NLINE]
+stone pillar. There is a small,[NLINE]
+deep hole in the center.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #21 @ $5A74 - STRING #21 @ $5EAB
+#W32($5A74)
+//　[NLINE]
+//まるで大きな穴に　　　　　　　　[NLINE]
+//ピタリとはまっているような岩だ。[NLINE]
+//　[END-FE]
+[NLINE]
+It looks like the rock fits[NLINE]
+perfectly in the large hole.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #22 @ $5A78 - STRING #22 @ $5EF8
+#W32($5A78)
+//　[NLINE]
+//すでに隠し扉は開いている。[END-FE]
+[NLINE]
+The hidden door is already open.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $5A7C - STRING #23 @ $5F19
+#W32($5A7C)
+//ヤージェン村方面[END-FE]
+To Jaergen Village[END-FE]
+
+
+
+
+
+//POINTER #24 @ $5A80 - STRING #24 @ $5F2C
+#W32($5A80)
+//ゼルドック方面[NLINE]
+//～ 通行止め ～[END-FE]
+To Zerdok[NLINE]
+ -Road Closed-[END-FE]
+
+
+
+
+
+//POINTER #25 @ $5A84 - STRING #25 @ $5F4D
+#W32($5A84)
+//王都ガイラナック方面[END-FE]
+To Royal Capital Geilenach[END-FE]
+
+
+
+
+
+//POINTER #26 @ $5A88 - STRING #26 @ $5F64
+#W32($5A88)
+//[CHAR1500][V0000]
+//本当に空にいた奴が[NLINE]
+//いなくなっちゃったわね…。[NWIN]
+//
+//[CH.FACE:Normal][CHAR1500][V0100]
+//…さて、行き先は[NLINE]
+//ヤージェン村だったっけ？[END-FE]
+[CHAR1500][V0000]
+Those things flying in the[NLINE]
+sky really are gone...[NWIN]
+
+[CH.FACE:Normal][CHAR1500][V0100]
+...Anyway, our destination was[NLINE]
+Jaergen village, right?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $5A8C - STRING #27 @ $5FD5
+#W32($5A8C)
+//[CHAR1500][V0200]
+//ヤージェン村は[NLINE]
+//ここから北にまっすぐです。[NLINE]
+//かなり長い行程になりますし、[NLINE]
+//途中に寄れる街がありませんので、[NLINE]
+//ここで準備をしていった方が良いと思います。[END-FE]
+[CHAR1500][V0200]
+Jaergen Village lies straight north[NLINE]
+of here. It's a fairly long distance[NLINE]
+and there are no towns on the way, so[NLINE]
+I think it would be wise to make some[NLINE]
+preparations here.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $5A90 - STRING #28 @ $6076
+#W32($5A90)
+//[CHAR1500][V0300]
+//そうね、[NLINE]
+//何があるか分からないものね。[NLINE]
+//準備を怠ると大変だわ。[END-FE]
+[CHAR1500][V0300]
+I agree, we don't know[NLINE]
+what will happen. It'll[NLINE]
+be tough if we don't prepare.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $5A94 - STRING #29 @ $60BF
+#W32($5A94)
+//ガイラナックに行くのでは[NLINE]
+//ないのですか？[END-FE]
+Aren't we going to Geilenach?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $5A98 - STRING #30 @ $60EA
+#W32($5A98)
+//城門の横に扉がある。[END-FE]
+There's a door next to the castle gate.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $5A9C - STRING #31 @ $6101
+#W32($5A9C)
+//・扉を開ける[END-FE]
+・Open the door[END-FE]
+
+
+
+
+
+//POINTER #32 @ $5AA0 - STRING #32 @ $6110
+#W32($5AA0)
+//・何もしない[END-FE]
+・Don't do anything[END-FE]
+
+
+
+
+
+//POINTER #33 @ $5AA4 - STRING #33 @ $611F
+#W32($5AA4)
+//　[NLINE]
+//[COL01]ラナの実[COL00]がある！[END-FE]
+[NLINE]
+You found [COL01]Rana Fruit[COL00]![END-FE]
+
+
+
+
+
+//POINTER #34 @ $5AA8 - STRING #34 @ $613C
+#W32($5AA8)
+//[COL01]ラナの実[COL00]を手に入れた！[END-FE]
+You obtained [COL01]Rana Fruit[COL00]![END-FE]
+
+
+
+
+
+//POINTER #35 @ $5AAC - STRING #35 @ $615B
+#W32($5AAC)
+//　[NLINE]
+//だがすでに９個持っている…。[END-FE]
+[NLINE]
+However, you already have nine of them...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $5AB0 - STRING #36 @ $617E
+#W32($5AB0)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+Kingdom of Grangale[NLINE]
+Royal Capital Geilenach[END-FE]
+
+
+
+
+
+//POINTER #37 @ $5AB4 - STRING #37 @ $61A3
+#W32($5AB4)
+//旧ネイラーン[NLINE]
+//ヤージェン方面[END-FE]
+The former country of Neylern[NLINE]
+To Jaergen Village[END-FE]
+
+
+
+
+
+//POINTER #38 @ $5AB8 - STRING #38 @ $61C2
+#W32($5AB8)
+//砂漠のオアシス[NLINE]
+//ザーランバ方面[END-FE]
+To Zaramba[END-FE]
+
+
+
+
+
+//POINTER #39 @ $5ABC - STRING #39 @ $61E3
+#W32($5ABC)
+//きゃあぁっ！[END-FE]
+Aaah![END-FE]
+
+
+
+
+
+//POINTER #40 @ $5AC0 - STRING #40 @ $61F2
+#W32($5AC0)
+//どうしました、[NLINE]
+//ウェンディさん！？[END-FE]
+What's the matter, Wendy!?[END-FE]
+
+
+
+
+
+//POINTER #41 @ $5AC4 - STRING #41 @ $6217
+#W32($5AC4)
+//あはは…、[NLINE]
+//な、何でもない、[NLINE]
+//何でもない…。[END-FE]
+Ahaha...[NLINE]
+Nothing... It's nothing...[END-FE]
+
+
+
+
+
+//POINTER #42 @ $5AC8 - STRING #42 @ $6246
+#W32($5AC8)
+//…そうは言っても、[NLINE]
+//今の悲鳴は普通じゃないだろ？[END-FE]
+...You say so, but I'm pretty sure[NLINE]
+you don't normally scream like that.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $5ACC - STRING #43 @ $6279
+#W32($5ACC)
+//本当に、[NLINE]
+//どうなされたのですか？[END-FE]
+What really happened?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $5AD0 - STRING #44 @ $629C
+#W32($5AD0)
+//…その…[CC.D80F]虫が…、[CC.D80F][NLINE]
+//袖のところに…、[CC.D80F]ぺとって……。[END-FE]
+...Um, well...[CC.D80F]an insect...[CC.D80F][NLINE]
+got stuck... on my [CC.D80F]sleeve...[END-FE]
+
+
+
+
+
+//POINTER #45 @ $5AD4 - STRING #45 @ $62D8
+#W32($5AD4)
+//・呆れる[END-FE]
+・Shrug and sigh deeply[END-FE]
+
+
+
+
+
+//POINTER #46 @ $5AD8 - STRING #46 @ $62E3
+#W32($5AD8)
+//・虫が苦手なのか問う[END-FE]
+・Ask her if she dislikes insects[END-FE]
+
+
+
+
+
+//POINTER #47 @ $5ADC - STRING #47 @ $62FA
+#W32($5ADC)
+//・笑う[END-FE]
+・Laugh[END-FE]
+
+
+
+
+
+//POINTER #48 @ $5AE0 - STRING #48 @ $6303
+#W32($5AE0)
+//・弱点ゲット！[END-FE]
+・Got your weak point![END-FE]
+
+
+
+
+
+//POINTER #49 @ $5AE4 - STRING #49 @ $6314
+#W32($5AE4)
+//うん！[NLINE]
+//もう、苦手とかじゃなくて、[NLINE]
+//生理的にダメ！[END-FE]
+Yeah![NLINE]
+It's not like I'm allergic,[NLINE]
+I just can't stand them![END-FE]
+
+
+
+
+
+//POINTER #50 @ $5AE8 - STRING #50 @ $6349
+#W32($5AE8)
+//な、何よ！[NLINE]
+//その反応は～！[NWIN]
+//
+//嫌いなんだから[NLINE]
+//仕方ないでしょ！[NLINE]
+//生理的にダメなんだから！[END-FE]
+H-hey! Wipe that grin of your face![NWIN]
+
+I can't help it that I hate insects![NLINE]
+I just can't stand them![END-FE]
+
+
+
+
+
+//POINTER #51 @ $5AEC - STRING #51 @ $63A2
+#W32($5AEC)
+//ちょ、ちょっと何よ～！[NLINE]
+//本当に、本当にダメなんだから、[NLINE]
+//変なこと考えないでよね～！[END-FE]
+H-hey! I hate, hate, hate[NLINE]
+insects, so don't get any[NLINE]
+funny ideas![END-FE]
+
+
+
+
+
+//POINTER #52 @ $5AF0 - STRING #52 @ $63F7
+#W32($5AF0)
+//虫がダメって言うなら、[NLINE]
+//実はこの妖精もダメってことか？[END-FE]
+Since you say that you hate insects,[NLINE]
+does that mean you hate fairies, too?[END-FE]
+
+
+
+
+
+//POINTER #53 @ $5AF4 - STRING #53 @ $6430
+#W32($5AF4)
+//…えっ…!?[NLINE]
+//私も…ですか…？[END-FE]
+...What...!?[NLINE]
+Me too...?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $5AF8 - STRING #54 @ $644F
+#W32($5AF8)
+//あ、大丈夫！[NLINE]
+//ユリィとか、全然平気！[NWIN]
+//
+//[CH.FACE:Sad]
+//私がダメなのは、[NLINE]
+//あの『おなか』なのっ！[NWIN]
+//
+//[CC.BE0105]
+//足がいっぱいくっついてるとことか、[CC.D80F][NLINE]
+//それに呼吸する時、動くじゃない？[CC.FFFB][NLINE]
+//…こう、[CC.D80F]ふか、[CC.D80A]ふか…って！[NWIN]
+//
+//[CH.FACE:Angry][CH.FACE:Close-Eyes]
+//いや～～っ！[NLINE]
+//想像しただけで、もうダメ～！[END-FE]
+Ah, no! She's fine! I'm completely fine[NLINE]
+with Yurii![NWIN]
+
+[CH.FACE:Sad]
+What I can't stand are beetles![NWIN]
+
+[CC.BE0105]
+Their legs are all sticky[CC.D80F][NLINE]
+and when they breathe, it looks[NLINE]
+they're squeezing their bellies. [CC.FFFB][NLINE]
+...Like this:[CC.D80F]squeeze[CC.D80A]squeeze...![NWIN]
+
+[CH.FACE:Angry][CH.FACE:Close-Eyes]
+Ewwwwww![NLINE]
+Just imagining it makes my skin crawl![END-FE]
+
+
+
+
+
+//POINTER #55 @ $5AFC - STRING #55 @ $6548
+#W32($5AFC)
+//…たしかに誰しもが[NLINE]
+//苦手なものはありますよね…？[END-FE]
+...But everyone has a weakness,[NLINE]
+right...?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $5B00 - STRING #56 @ $657B
+#W32($5B00)
+//…キミもあるでしょ？[NLINE]
+//苦手なものの１つや２つ！[NWIN]
+//
+//私だけ教えるなんて不公平よ！[NLINE]
+//さあ、キミも教えなさい！[END-FE]
+...You have some too, right? One[NLINE]
+or two weak points?[NWIN]
+
+It's not fair that I'm the only[NLINE]
+one who told my weakness![NLINE]
+Come on, tell me yours![END-FE]
+
+
+
+
+
+//POINTER #57 @ $5B04 - STRING #57 @ $65E4
+#W32($5B04)
+//・絶対教えない[END-FE]
+・I'll never tell you[END-FE]
+
+
+
+
+
+//POINTER #58 @ $5B08 - STRING #58 @ $65F5
+#W32($5B08)
+//・教える[END-FE]
+・Tell her[END-FE]
+
+
+
+
+
+//POINTER #59 @ $5B0C - STRING #59 @ $6600
+#W32($5B0C)
+//・無視する[END-FE]
+・Ignore her[END-FE]
+
+
+
+
+
+//POINTER #60 @ $5B10 - STRING #60 @ $660D
+#W32($5B10)
+//この、ケチ！[CC.D80F][NLINE]
+//ケチ、[CC.D80F]ケチ！[CC.D80F][NWIN]
+//
+//もう、いいわよ！[CC.FFFB][NLINE]
+//[CH.FACE:Close-Eyes][CC.AA0001]
+//イ～～～～っだ！[END-FE]
+Just tell me![CC.D80F][NLINE]
+Tell me,[CC.D80F] tell me![CC.D80F][NWIN]
+
+Hmmpf, never mind already![NLINE]
+I don't care anymore![CC.FFFB][NLINE]
+[CH.FACE:Close-Eyes][CC.AA0001]
+Not OOOOONE bit![END-FE]
+
+
+
+
+
+//POINTER #61 @ $5B14 - STRING #61 @ $6660
+#W32($5B14)
+//…なに、なに…？[END-FE]
+Tell me! Tell me![END-FE]
+
+
+
+
+
+//POINTER #62 @ $5B18 - STRING #62 @ $6673
+#W32($5B18)
+//・甘い物[END-FE]
+・Sweets[END-FE]
+
+
+
+
+
+//POINTER #63 @ $5B1C - STRING #63 @ $667E
+#W32($5B1C)
+//・女性[END-FE]
+・Women[END-FE]
+
+
+
+
+
+//POINTER #64 @ $5B20 - STRING #64 @ $6687
+#W32($5B20)
+//・仕事[END-FE]
+・Work[END-FE]
+
+
+
+
+
+//POINTER #65 @ $5B24 - STRING #65 @ $6690
+#W32($5B24)
+//ああ、そうよね。[NLINE]
+//甘い物苦手な男の人って、[NLINE]
+//結構、多い…。[NWIN]
+//
+//[CH.FACE:Angry]
+//…って、[NLINE]
+//そういう話じゃな～い！[END-FE]
+That makes sense.[NLINE]
+There's lots of guys who don't[NLINE]
+like sweets...[NWIN]
+
+[CH.FACE:Angry]
+...But let's keep the focus on you![END-FE]
+
+
+
+
+
+//POINTER #66 @ $5B28 - STRING #66 @ $66F3
+#W32($5B28)
+//…あ～、そうなんだ。[NLINE]
+//キミは、私が苦手って、[NLINE]
+//そう言いたいんだ…。[NWIN]
+//
+//それなら、[NLINE]
+//ピッタリくっついてやる～！[END-FE]
+Oh, reaaally?? So you're[NLINE]
+saying I'm your weakness?[NWIN]
+
+In that case, let me hold you[NLINE]
+real tight![END-FE]
+
+
+
+
+
+//POINTER #67 @ $5B2C - STRING #67 @ $6760
+#W32($5B2C)
+//ああ、それ私も…[CC.FFFB][NLINE]
+//[CH.FACE:Angry]
+//…って、それを口実に[NLINE]
+//サボるつもりだな～！[END-FE]
+Oh, mine too...[CC.FFFB][NLINE]
+[CH.FACE:Angry]
+...Hold it, that's just your excuse[NLINE]
+to skip out on work, isn't it?[END-FE]
+
+
+
+
+
+//POINTER #68 @ $5B30 - STRING #68 @ $67A5
+#W32($5B30)
+//この、ケチ！[CC.D80F][NLINE]
+//ケチ、[CC.D80F]ケチ！[CC.D80F][NWIN]
+//
+//もう、いいわよ！[CC.FFFB][NLINE]
+//[CH.FACE:Close-Eyes][CC.AA0001]
+//イ～～～～っだ！[END-FE]
+Just tell me![CC.D80F][NLINE]
+Tell me,[CC.D80F] tell me![CC.D80F][NWIN]
+
+Hmmpf, never mind already![NLINE]
+I don't care anymore![CC.FFFB][NLINE]
+[CH.FACE:Close-Eyes][CC.AA0001]
+Not OOOOONE bit![END-FE]
+
+
+
+
+
+//POINTER #69 @ $5B34 - STRING #69 @ $67F8
+#W32($5B34)
+//…お二人とも、[NLINE]
+//仲がよろしいようで…。[END-FE]
+...You two seem to be[NLINE]
+close...[END-FE]
+
+
+
+
+
+//POINTER #70 @ $5B38 - STRING #70 @ $6821
+#W32($5B38)
+//[CHAR1500][V0400]
+//あら？[NLINE]
+//周囲に人が…。[END-FE]
+[CHAR1500][V0400]
+Hmm? It looks like we're surrounded...[END-FE]
+
+
+
+
+
+//POINTER #71 @ $5B3C - STRING #71 @ $6842
+#W32($5B3C)
+//[CHAR1500][V0500]
+//何だ、野盗か？[END-FE]
+[CHAR1500][V0500]
+What? Bandits?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $5B40 - STRING #72 @ $685B
+#W32($5B40)
+//[CHAR1500][V0600]
+//モノポリス社の[NLINE]
+//者だな。[END-FE]
+[CHAR1500][V0600]
+Well, well, you're from Monopolis, aren't you?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $5B44 - STRING #73 @ $687E
+#W32($5B44)
+//・肯定する[END-FE]
+・Confirm[END-FE]
+
+
+
+
+
+//POINTER #74 @ $5B48 - STRING #74 @ $688B
+#W32($5B48)
+//・否定する[END-FE]
+・Deny[END-FE]
+
+
+
+
+
+//POINTER #75 @ $5B4C - STRING #75 @ $6898
+#W32($5B4C)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #76 @ $5B50 - STRING #76 @ $68A7
+#W32($5B50)
+//[CHAR1500][V0700]
+//ならば、[NLINE]
+//ここで死ぬがいい！[END-FE]
+[CHAR1500][V0700]
+Then you'll die here![END-FE]
+
+
+
+
+
+//POINTER #77 @ $5B54 - STRING #77 @ $68CE
+#W32($5B54)
+//[CHAR1500][V0800]
+//ウソをつくな。[NLINE]
+//調べはついている！[NLINE]
+//ここで死ぬがいい！[END-FE]
+[CHAR1500][V0800]
+Don't lie! We're sure of your identity![NLINE]
+Die![END-FE]
+
+
+
+
+
+//POINTER #78 @ $5B58 - STRING #78 @ $690F
+#W32($5B58)
+//[CHAR1500][V0900]
+//どのみち調べはついている！[NLINE]
+//ここで死ぬがいい！[END-FE]
+[CHAR1500][V0900]
+We're already sure of your identity anyway![NLINE]
+Die![END-FE]
+
+
+
+
+
+//POINTER #79 @ $5B5C - STRING #79 @ $6948
+#W32($5B5C)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #80 @ $5B60 - STRING #80 @ $6955
+#W32($5B60)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #81 @ $5B64 - STRING #81 @ $696A
+#W32($5B64)
+//こいつら、思ったよりやる！[NLINE]
+//全員でかかれ！[END-FE]
+They're stronger than I thought![NLINE]
+Everyone attack![END-FE]
+
+
+
+
+
+//POINTER #82 @ $5B68 - STRING #82 @ $6997
+#W32($5B68)
+//[CHAR1500][V0A00]
+//貴様らのばらまく武器のせいで[NLINE]
+//世界中から戦争が無くならないのだ！[END-FE]
+[CHAR1500][V0A00]
+War keeps happening because the weapons[NLINE]
+of your blasted company are scattered[NLINE]
+all over the world![END-FE]
+
+
+
+
+
+//POINTER #83 @ $5B6C - STRING #83 @ $69E2
+#W32($5B6C)
+//[CHAR1500][V0B00]
+//もう、敵はいないようですが…。[NWIN]
+//
+//[CHAR1500][V0C00]
+//先ほどの話は本当なのですか？[END-FE]
+[CHAR1500][V0B00]
+It looks like there are no more enemies...[NWIN]
+
+[CHAR1500][V0C00]
+Is what that terrorist said true?[END-FE]
+
+
+
+
+
+//POINTER #84 @ $5B70 - STRING #84 @ $6A31
+#W32($5B70)
+//[CHAR1500][V0D00]
+//どの話のこと？[END-FE]
+[CHAR1500][V0D00]
+What do you mean?[END-FE]
+
+
+
+
+
+//POINTER #85 @ $5B74 - STRING #85 @ $6A4A
+#W32($5B74)
+//[CHAR1500][V0E00]
+//皆さんの会社が武器を売るせいで[NLINE]
+//戦争が無くならないのだと…。[END-FE]
+[CHAR1500][V0E00]
+That war won't end because the[NLINE]
+weapons of Monopolis are scattered[NLINE]
+all over the world...[END-FE]
+
+
+
+
+
+//POINTER #86 @ $5B78 - STRING #86 @ $6A91
+#W32($5B78)
+//・肯定する[END-FE]
+・Confirm[END-FE]
+
+
+
+
+
+//POINTER #87 @ $5B7C - STRING #87 @ $6A9E
+#W32($5B7C)
+//・否定する[END-FE]
+・Deny[END-FE]
+
+
+
+
+
+//POINTER #88 @ $5B80 - STRING #88 @ $6AAB
+#W32($5B80)
+//・何とも言えない[END-FE]
+・I can't say[END-FE]
+
+
+
+
+
+//POINTER #89 @ $5B84 - STRING #89 @ $6ABE
+#W32($5B84)
+//[CHAR1500][V0F00]
+//そうね…。[NLINE]
+//確かにモノポリス社は武器も売っているもの。[NWIN]
+//
+//[CH.FACE:Serious][CHAR1500][V1000]
+//でもね、結局はその武器を何に使うか、[NLINE]
+//使う人の問題だと思うの！[END-FE]
+[CHAR1500][V0F00]
+Hmm...[NLINE]
+Well, it's definitely true that[NLINE]
+Monopolis sells weapons.[NWIN]
+
+[CH.FACE:Serious][CHAR1500][V1000]
+But in the end, it's the people who own those[NLINE]
+weapons who decide what they're used for![END-FE]
+
+
+
+
+
+//POINTER #90 @ $5B88 - STRING #90 @ $6B4B
+#W32($5B88)
+//[CHAR1500][V1100]
+//そうだよね！[NLINE]
+//結局は、その武器を何に使うか、[NLINE]
+//使う人の問題だもんね！[END-FE]
+[CHAR1500][V1100]
+I agree! In the end, it's the people who own those[NLINE]
+weapons who decide what they're used for![END-FE]
+
+
+
+
+
+//POINTER #91 @ $5B8C - STRING #91 @ $6B9A
+#W32($5B8C)
+//[CHAR1500][V1200]
+//どういうことですか？[END-FE]
+[CHAR1500][V1200]
+What do you mean?[END-FE]
+
+
+
+
+
+//POINTER #92 @ $5B90 - STRING #92 @ $6BB9
+#W32($5B90)
+//[CHAR1500][V1300]
+//確かにモノポリス社では武器を売っている。[NLINE]
+//それは事実よ。[NWIN]
+//
+//[CHAR1500][V1400]
+//でも、それだけじゃ戦争にはならない。[NLINE]
+//武器を使う人の方にも問題はあるってこと。[END-FE]
+[CHAR1500][V1300]
+It's definitely true that Monopolis sells weapons.[NLINE]
+That's a fact.[NWIN]
+
+[CHAR1500][V1400]
+But that alone doesn't cause wars.[NLINE]
+There's also the factor of[NLINE]
+those who use those weapons.[END-FE]
+
+
+
+
+
+//POINTER #93 @ $5B94 - STRING #93 @ $6C54
+#W32($5B94)
+//[CHAR1500][V1500]
+//まぁ、そういう需要があって、[NLINE]
+//そこに商品を供給する。[NLINE]
+//経済学としては間違っちゃいないわけだが…。[END-FE]
+[CHAR1500][V1500]
+If there's demand, there's supply.[NLINE]
+then you supply there. It's not[NLINE]
+wrong from an economic standpoint,[NLINE]
+but...[END-FE]
+
+
+
+
+
+//POINTER #94 @ $5B98 - STRING #94 @ $6CBF
+#W32($5B98)
+//[CHAR1500][V1600]
+//…なによ…？[END-FE]
+[CHAR1500][V1600]
+...But what...?[END-FE]
+
+
+
+
+
+//POINTER #95 @ $5B9C - STRING #95 @ $6CD6
+#W32($5B9C)
+//[CHAR1500][V1700]
+//…別に。[NWIN]
+//
+//[CHAR1500][V1800]
+//さ、先を急ごうぜ。[END-FE]
+[CHAR1500][V1700]
+...Never mind.[NWIN]
+
+[CHAR1500][V1800]
+Anyway, let's push on.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $5BA0 - STRING #96 @ $6D05
+#W32($5BA0)
+//[CHAR1500][V1900]
+//そうですね。[NLINE]
+//ヤージェン村はもうすぐです。[END-FE]
+[CHAR1500][V1900]
+I agree. Jaergen lies not far from[NLINE]
+here.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $5BA4 - STRING #97 @ $6D3A
+#W32($5BA4)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #98 @ $5BA8 - STRING #98 @ $6D51
+#W32($5BA8)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #99 @ $5BAC - STRING #99 @ $6D60
+#W32($5BAC)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #100 @ $5BB0 - STRING #100 @ $6D6F
+#W32($5BB0)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #101 @ $5BB4 - STRING #101 @ $6D84
+#W32($5BB4)
+//Ｄ　Ｆ３[END-FE]
+D F3[END-FE]
+
+
+
+

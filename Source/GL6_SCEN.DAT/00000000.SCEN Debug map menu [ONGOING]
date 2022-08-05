@@ -1,0 +1,205 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $2370, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2320, 4, PTR)
+
+#JMP($2370)
+#HDR($2370)
+
+
+
+
+
+//POINTER #0 @ $2320 - STRING #0 @ $2370
+#W32($2320)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2324 - STRING #1 @ $2373
+#W32($2324)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2328 - STRING #2 @ $2380
+#W32($2328)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $232C - STRING #3 @ $23A5
+#W32($232C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2330 - STRING #4 @ $23CA
+#W32($2330)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2334 - STRING #5 @ $23DF
+#W32($2334)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2338 - STRING #6 @ $2404
+#W32($2338)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $233C - STRING #7 @ $2429
+#W32($233C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2340 - STRING #8 @ $245E
+#W32($2340)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2344 - STRING #9 @ $2493
+#W32($2344)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2348 - STRING #10 @ $24B8
+#W32($2348)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $234C - STRING #11 @ $24DD
+#W32($234C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2350 - STRING #12 @ $2502
+#W32($2350)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2354 - STRING #13 @ $2517
+#W32($2354)
+//デバック用マップチェンジ。キャンセルで終了。[END-FE]
+Map change for debugging. Cancel to end.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2358 - STRING #14 @ $2546
+#W32($2358)
+//・０　ダミーファイル（９９９９）へ[END-FE]
+・0 to dummy file (9999)[END-FE]
+
+
+
+
+
+//POINTER #15 @ $235C - STRING #15 @ $256B
+#W32($235C)
+//・１　ダミーファイル（０００５）へ[END-FE]
+・1 to dummy file (0005)[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2360 - STRING #16 @ $2590
+#W32($2360)
+//・２　村人戦闘チェック（男子編）へ[END-FE]
+・2 To Villager Battle Check (Men's Edition)[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2364 - STRING #17 @ $25B5
+#W32($2364)
+//・３　村人戦闘チェック（女子編）へ[END-FE]
+・3 To Villager Battle Check (Women's Edition)[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2368 - STRING #18 @ $25DA
+#W32($2368)
+//・４　セーブ([R1]押しでLOAD)[END-FE]
+・4 Save (LOAD by pressing [R1])[END-FE]
+
+
+
+

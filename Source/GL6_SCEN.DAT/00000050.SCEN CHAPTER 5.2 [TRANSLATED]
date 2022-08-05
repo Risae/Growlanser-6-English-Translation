@@ -1,0 +1,3607 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $78E0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $74A0, 4, PTR)
+
+#JMP($78E0)
+#HDR($78E0)
+
+
+
+
+
+
+//POINTER #0 @ $74A0 - STRING #0 @ $78E0
+#W32($74A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $74A4 - STRING #1 @ $78E3
+#W32($74A4)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $74A8 - STRING #2 @ $78F0
+#W32($74A8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $74AC - STRING #3 @ $7915
+#W32($74AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $74B0 - STRING #4 @ $793A
+#W32($74B0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $74B4 - STRING #5 @ $794F
+#W32($74B4)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $74B8 - STRING #6 @ $7974
+#W32($74B8)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $74BC - STRING #7 @ $7999
+#W32($74BC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $74C0 - STRING #8 @ $79CE
+#W32($74C0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $74C4 - STRING #9 @ $7A03
+#W32($74C4)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $74C8 - STRING #10 @ $7A28
+#W32($74C8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $74CC - STRING #11 @ $7A4D
+#W32($74CC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $74D0 - STRING #12 @ $7A72
+#W32($74D0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $74D4 - STRING #13 @ $7A87
+#W32($74D4)
+//　[NLINE]
+//強力な魔法でロックされている。[END-FE]
+[NLINE]
+It's locked by powerful magic.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $74D8 - STRING #14 @ $7AAC
+#W32($74D8)
+//[CHAR1700][V0000]
+//ところで、質問があるんだけど。[NWIN]
+//
+//[CHAR1700][V0100]
+//あの村に来る時には[NLINE]
+//護衛はいなかったの？[END-FE]
+[CHAR1700][V0000]
+By the way, I have a question.[NWIN]
+
+[CHAR1700][V0100]
+When you came to Jaergen Village, you[NLINE]
+didn't have any bodyguards with you?[END-FE]
+
+
+
+
+
+//POINTER #15 @ $74DC - STRING #15 @ $7B07
+#W32($74DC)
+//[CHAR1700][V0200]
+//我々はすぐこの北、[NLINE]
+//廃村の海岸に船を着けましたから。[END-FE]
+[CHAR1700][V0200]
+We made land at a ruined village's shore[NLINE]
+that lies straight north of here.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $74E0 - STRING #16 @ $7B46
+#W32($74E0)
+//[CHAR1700][V0300]
+//それはヌナーンの事でしょうね。[NWIN]
+//
+//[CHAR1700][V0400]
+//２０年ほど前に戦争で滅ぼされ、[NLINE]
+//今は廃墟となっています。[END-FE]
+[CHAR1700][V0300]
+That must be Nu Nahn.[NWIN]
+
+[CHAR1700][V0400]
+It was destroyed in the war from twenty[NLINE]
+years ago and became ruins.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $74E4 - STRING #17 @ $7BB1
+#W32($74E4)
+//[CHAR1700][V0500]
+//たぶん、その通りでしょう。[NLINE]
+//さっきのヤージェンの人たちも[NLINE]
+//ヌナーンと言っていました。[END-FE]
+[CHAR1700][V0500]
+You're probably right. The people[NLINE]
+of Jaergen also called it Nu Nahn.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $74E8 - STRING #18 @ $7C10
+#W32($74E8)
+//[CHAR1700][V0600]
+//それじゃ、帰りも[NLINE]
+//そのヌナーンってところから？[END-FE]
+[CHAR1700][V0600]
+So you will also leave by way of Nu Nahn?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $74EC - STRING #19 @ $7C49
+#W32($74EC)
+//[CHAR1700][V0700]
+//はい、[NLINE]
+//たぶん、そこから帰ることになるでしょう。[NWIN]
+//
+//[CHAR1700][V0800]
+//もっとも、迎えが来るのは[NLINE]
+//まだ先のことですが。[NWIN]
+//
+//[CHAR1700][V0900]
+//それまでに[NLINE]
+//１件でも多くの契約を取ることが[NLINE]
+//我々の任務です。[END-FE]
+[CHAR1700][V0700]
+Yes, probably.[NWIN]
+
+[CHAR1700][V0800]
+However, we won't get picked up[NLINE]
+until quite a while.[NWIN]
+
+[CHAR1700][V0900]
+Until then, uur task is to land[NLINE]
+as many contracts as possible.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $74F0 - STRING #20 @ $7D02
+#W32($74F0)
+//トンネル内にはモンスターが入り込んでいます。[NLINE]
+//通行の際には、お気をつけて。[END-FE]
+Monsters have penetrated into the tunnel.[NLINE]
+Be careful when passing through.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $74F4 - STRING #21 @ $7D4F
+#W32($74F4)
+//北の坂を下ったところに[NLINE]
+//ヌナーンの廃墟があるが[NLINE]
+//近づかない方が良いぞ。[NWIN]
+//
+//なんでも巨大なスクリーパーが[NLINE]
+//目撃されたそうだ。[END-FE]
+Down the north slope lie the[NLINE]
+ruins of Nu Nahn. However,[NLINE]
+you should stay away.[NWIN]
+
+It seems huge Screapers have[NLINE]
+been witnessed there.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $74F8 - STRING #22 @ $7DCA
+#W32($74F8)
+//このトンネルはしばらく通行止めだ。[NLINE]
+//トンネル内の安全点検が終わるまで[NLINE]
+//ここは通れないぞ。[END-FE]
+This tunnel will be closed for a while.[NLINE]
+Until the safety inspection has been[NLINE]
+completed, you can't pass through.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $74FC - STRING #23 @ $7E25
+#W32($74FC)
+//ノスシュヴァル・トンネル[END-FE]
+Noschwartz Tunnel[END-FE]
+
+
+
+
+
+//POINTER #24 @ $7500 - STRING #24 @ $7E40
+#W32($7500)
+//ヤージェン村方面[END-FE]
+To Jaergen Village[END-FE]
+
+
+
+
+
+//POINTER #25 @ $7504 - STRING #25 @ $7E53
+#W32($7504)
+//旧ヌナーン[END-FE]
+Former Village of Nu Nahn[END-FE]
+
+
+
+
+
+//POINTER #26 @ $7508 - STRING #26 @ $7E60
+#W32($7508)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $750C - STRING #27 @ $7E77
+#W32($750C)
+//自動Ｄ　ＥＢ０２＿３前[END-FE]
+自動D EB02_3前[END-FE]
+
+
+
+
+
+//POINTER #28 @ $7510 - STRING #28 @ $7E90
+#W32($7510)
+//[CHAR1600][V2B00]
+//おい、どこにいく？[NLINE]
+//西へ向かうんだ！[END-FE]
+[CHAR1600][V2B00]
+Hey, where are you going?[NLINE]
+We're heading west![END-FE]
+
+
+
+
+
+//POINTER #29 @ $7514 - STRING #29 @ $7EBF
+#W32($7514)
+//現在地[NLINE]
+//　サウネイルの森・北部[END-FE]
+Current Location:[NLINE]
+ Saunail Forest (North)[END-FE]
+
+
+
+
+
+//POINTER #30 @ $7518 - STRING #30 @ $7EE0
+#W32($7518)
+//ヤージェン村方面[END-FE]
+To Jaergen Village[END-FE]
+
+
+
+
+
+//POINTER #31 @ $751C - STRING #31 @ $7EF3
+#W32($751C)
+//ノスシュヴァル・トンネル[END-FE]
+Noschwartz Tunnel[END-FE]
+
+
+
+
+
+//POINTER #32 @ $7520 - STRING #32 @ $7F0E
+#W32($7520)
+//ゼルドック方面[END-FE]
+To Zerdok[END-FE]
+
+
+
+
+
+//POINTER #33 @ $7524 - STRING #33 @ $7F1F
+#W32($7524)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $7528 - STRING #34 @ $7F36
+#W32($7528)
+//自動Ｄ　ＥＢ０４＿２前[END-FE]
+自動D EB04_2前[END-FE]
+
+
+
+
+
+//POINTER #35 @ $752C - STRING #35 @ $7F4F
+#W32($752C)
+//ヤージェン村を通り過ぎています。[NLINE]
+//戻られた方がよろしいかと。[END-FE]
+We're passing by Jaergen Village.[NLINE]
+We should probably go back.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $7530 - STRING #36 @ $7F8E
+#W32($7530)
+//営業スタッフを残して、[NLINE]
+//ヤージェン村を離れるのですか？[END-FE]
+Are we leaving Jaergen Village[NLINE]
+without taking the sales representatives[NLINE]
+with us?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $7534 - STRING #37 @ $7FC7
+#W32($7534)
+//ヤージェン村はすぐそこです。[NLINE]
+//戻らずに進みましょう！[END-FE]
+Jaergen Village is right over there.[NLINE]
+Let's push on![END-FE]
+
+
+
+
+
+//POINTER #38 @ $7538 - STRING #38 @ $7FFE
+#W32($7538)
+//営業スタッフを置いてどこに行く気？[NLINE]
+//はやくヤージェンに戻りましょう！[END-FE]
+Where do you intend to go without the sales[NLINE]
+representatives? Let's quickly return to[NLINE]
+Jaergen Village![END-FE]
+
+
+
+
+
+//POINTER #39 @ $753C - STRING #39 @ $8045
+#W32($753C)
+//[CHAR1600][V2B00]
+//おい、どこに行く？[NLINE]
+//西へ向かうんだ！[END-FE]
+[CHAR1600][V2B00]
+Hey, where are you going?[NLINE]
+We're heading west![END-FE]
+
+
+
+
+
+//POINTER #40 @ $7540 - STRING #40 @ $8074
+#W32($7540)
+//ヤージェン村入口[END-FE]
+Jaergen Village Entrance[END-FE]
+
+
+
+
+
+//POINTER #41 @ $7544 - STRING #41 @ $8087
+#W32($7544)
+//グランゲイル王国[NLINE]
+//王都ガイラナック方面[END-FE]
+Kingdom of Grangale[NLINE]
+To Royal Capital Geilenach[END-FE]
+
+
+
+
+
+//POINTER #42 @ $7548 - STRING #42 @ $80B0
+#W32($7548)
+//サウネイルの森方面[END-FE]
+To Saunail Forest[END-FE]
+
+
+
+
+
+//POINTER #43 @ $754C - STRING #43 @ $80C5
+#W32($754C)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $7550 - STRING #44 @ $80DC
+#W32($7550)
+//自動Ｄ　ＥＢ０４＿２前[END-FE]
+自動D EB04_2前[END-FE]
+
+
+
+
+
+//POINTER #45 @ $7554 - STRING #45 @ $80F5
+#W32($7554)
+//ここはサウネイル遺跡だ。[NLINE]
+//まぁ、中に大した物はないはずだが、[NLINE]
+//一般人の立ち入りは禁じられている。[END-FE]
+These are the Elphan ruins.[NLINE]
+There's nothing of significance[NLINE]
+to be found inside, but it's still[NLINE]
+off-limits to the general public.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $7558 - STRING #46 @ $8158
+#W32($7558)
+//異常なしであります！[END-FE]
+Nothing unusual![END-FE]
+
+
+
+
+
+//POINTER #47 @ $755C - STRING #47 @ $816F
+#W32($755C)
+//ヤージェン村・南方面[END-FE]
+To Jaergen Village/South Saunail Forest[END-FE]
+
+
+
+
+
+//POINTER #48 @ $7560 - STRING #48 @ $8186
+#W32($7560)
+//サウネイルの森・入り口[END-FE]
+Saunail Forest Entrance[END-FE]
+
+
+
+
+
+//POINTER #49 @ $7564 - STRING #49 @ $819F
+#W32($7564)
+//ゼルドック方面[END-FE]
+To Zerdok[END-FE]
+
+
+
+
+
+//POINTER #50 @ $7568 - STRING #50 @ $81B0
+#W32($7568)
+//ここから先は[NLINE]
+//軍の作戦が展開されている。[NLINE]
+//誰も通すわけにはいかん。[END-FE]
+A millitary operation is being[NLINE]
+carried out up ahead. None may[NLINE]
+pass.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $756C - STRING #51 @ $81F5
+#W32($756C)
+//一般人は通行できない。[NLINE]
+//おとなしく戻れ。[END-FE]
+The area up ahead is off-limits to[NLINE]
+the general public. Return quietly.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $7570 - STRING #52 @ $8220
+#W32($7570)
+//[CHAR1700][V0000]
+//ところで、質問があるんだけど。[NWIN]
+//
+//[CHAR1700][V0100]
+//あの村に来る時には[NLINE]
+//護衛はいなかったの？[END-FE]
+[CHAR1700][V0000]
+By the way, I have a question.[NWIN]
+
+[CHAR1700][V0100]
+When you came to Jaergen Village, you[NLINE]
+didn't have any bodyguards with you?[END-FE]
+
+
+
+
+
+//POINTER #53 @ $7574 - STRING #53 @ $827B
+#W32($7574)
+//[CHAR1700][V0200]
+//我々はすぐこの北、[NLINE]
+//廃村の海岸に船を着けましたから。[END-FE]
+[CHAR1700][V0200]
+We made land at a ruined village's shore[NLINE]
+that lies straight north of here.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $7578 - STRING #54 @ $82BA
+#W32($7578)
+//[CHAR1700][V0300]
+//それはヌナーンの事でしょうね。[NWIN]
+//
+//[CHAR1700][V0400]
+//２０年ほど前に戦争で滅ぼされ、[NLINE]
+//今は廃墟となっています。[END-FE]
+[CHAR1700][V0300]
+That must be Nu Nahn.[NWIN]
+
+[CHAR1700][V0400]
+It was destroyed in the war from twenty[NLINE]
+years ago and became ruins.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $757C - STRING #55 @ $8325
+#W32($757C)
+//[CHAR1700][V0500]
+//たぶん、その通りでしょう。[NLINE]
+//さっきのヤージェンの人たちも[NLINE]
+//ヌナーンと言っていました。[END-FE]
+[CHAR1700][V0500]
+You're probably right. The people[NLINE]
+of Jaergen also called it Nu Nahn.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $7580 - STRING #56 @ $8384
+#W32($7580)
+//[CHAR1700][V0600]
+//それじゃ、帰りも[NLINE]
+//そのヌナーンってところから？[END-FE]
+[CHAR1700][V0600]
+So you will also leave by way of Nu Nahn?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $7584 - STRING #57 @ $83BD
+#W32($7584)
+//[CHAR1700][V0700]
+//はい。[NLINE]
+//たぶん、そこから帰ることに[NLINE]
+//なるでしょう。[NWIN]
+//
+//[CHAR1700][V0800]
+//もっとも、迎えが来るのは[NLINE]
+//まだ先のことですが。[NWIN]
+//
+//[CHAR1700][V0900]
+//それまでに[NLINE]
+//１件でも多くの契約を取ることが[NLINE]
+//我々の任務です。[END-FE]
+[CHAR1700][V0700]
+Yes, probably.[NWIN]
+
+[CHAR1700][V0800]
+However, we won't get picked up[NLINE]
+until quite a while.[NWIN]
+
+[CHAR1700][V0900]
+Until then, uur task is to land[NLINE]
+as many contracts as possible.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $7588 - STRING #58 @ $8478
+#W32($7588)
+//[CHAR1700][V0A00]
+//…ん？[NWIN]
+//
+//[CHAR1700][V0B00]
+//…おい、囲まれてるぜ。[END-FE]
+[CHAR1700][V0A00]
+...Hmm?[NWIN]
+
+[CHAR1700][V0B00]
+...Hey, we're surrounded.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $758C - STRING #59 @ $84A9
+#W32($758C)
+//[CHAR1700][V0C00]
+//カンのいい奴らだな。[END-FE]
+[CHAR1700][V0C00]
+They've got good senses.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $7590 - STRING #60 @ $84C8
+#W32($7590)
+//[CHAR1700][V0D00]
+//で、でた…。[END-FE]
+[CHAR1700][V0D00]
+O-oh no...[END-FE]
+
+
+
+
+
+//POINTER #61 @ $7594 - STRING #61 @ $84DF
+#W32($7594)
+//[CHAR1700][V0E00]
+//別の大陸まで来て、[NLINE]
+//今以上に勢力を[NLINE]
+//拡大しようって言うのか！[NWIN]
+//
+//[CHAR1700][V0F00]
+//これ以上デカくなられちゃ、[NLINE]
+//困るんだよ！[END-FE]
+[CHAR1700][V0E00]
+So you're trying to expand[NLINE]
+your influence by coming[NLINE]
+to another continent, huh?[NWIN]
+
+[CHAR1700][V0F00]
+We can't allow your company[NLINE]
+to get any larger![END-FE]
+
+
+
+
+
+//POINTER #62 @ $7598 - STRING #62 @ $8558
+#W32($7598)
+//・それが自由経済だと答える[END-FE]
+・It's a free market[END-FE]
+
+
+
+
+
+//POINTER #63 @ $759C - STRING #63 @ $8575
+#W32($759C)
+//・世界のためだと答える[END-FE]
+・It's for the sake of the world[END-FE]
+
+
+
+
+
+//POINTER #64 @ $75A0 - STRING #64 @ $858E
+#W32($75A0)
+//・どの企業が勝っても同じ[END-FE]
+・It's the same no matter which enterprise wins[END-FE]
+
+
+
+
+
+//POINTER #65 @ $75A4 - STRING #65 @ $85A9
+#W32($75A4)
+//・確かに市場独占は良くない[END-FE]
+・I agree that monopolizing the market is not a good thing[END-FE]
+
+
+
+
+
+//POINTER #66 @ $75A8 - STRING #66 @ $85C6
+#W32($75A8)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #67 @ $75AC - STRING #67 @ $85D5
+#W32($75AC)
+//[CHAR1700][V1200]
+//そうよ！[NLINE]
+//それにポリュミネを植えれば、[NLINE]
+//大地のエネルギーで豊かな生活が…！[END-FE]
+[CHAR1700][V1200]
+That's right! And by planting[NLINE]
+Pollumine, we make way for people[NLINE]
+to lead prosperous lives with the land's[NLINE]
+energy![END-FE]
+
+
+
+
+
+//POINTER #68 @ $75B0 - STRING #68 @ $862A
+#W32($75B0)
+//[CHAR1700][V1300]
+//そうよ！[NLINE]
+//ポリュミネを植えれば、[NLINE]
+//大地のエネルギーで豊かな生活が…！[END-FE]
+[CHAR1700][V1300]
+That's right! And by planting[NLINE]
+Pollumine, we make way for people[NLINE]
+to lead prosperous lives with the land's[NLINE]
+energy![END-FE]
+
+
+
+
+
+//POINTER #69 @ $75B4 - STRING #69 @ $8679
+#W32($75B4)
+//[CHAR1700][V1400]
+//うるさい、黙れ！[NWIN]
+//
+//[CHAR1700][V1500]
+//ポリュミネを世界中に広めて、[NLINE]
+//大地の力を独り占めする気だろう！[NWIN]
+//
+//[CHAR1700][V1600]
+//死ね！[END-FE]
+[CHAR1700][V1400]
+Shut it![NWIN]
+
+[CHAR1700][V1500]
+By spreading Pollumine all over the world,[NLINE]
+you intend to monopolize the land's power![NWIN]
+
+[CHAR1700][V1600]
+Die![END-FE]
+
+
+
+
+
+//POINTER #70 @ $75B8 - STRING #70 @ $86EC
+#W32($75B8)
+//[CHAR1700][V1700]
+//そ、そうかもしれないけど、[NLINE]
+//モノポリス社のポリュミネは[NLINE]
+//人々の生活のために…。[END-FE]
+[CHAR1700][V1700]
+T-that's maybe true, but[NLINE]
+Monopolis produces Pollumine[NLINE]
+to help improve people's lives...[END-FE]
+
+
+
+
+
+//POINTER #71 @ $75BC - STRING #71 @ $8745
+#W32($75BC)
+//[CHAR1700][V1000]
+//そうやって大地の力を[NLINE]
+//独り占めする気だろう！[NWIN]
+//
+//[CHAR1700][V1100]
+//死ね！[END-FE]
+[CHAR1700][V1000]
+By spreading Pollumine all over the world,[NLINE]
+you intend to monopolize the land's power![NWIN]
+
+[CHAR1700][V1100]
+Die![END-FE]
+
+
+
+
+
+//POINTER #72 @ $75C0 - STRING #72 @ $878C
+#W32($75C0)
+//[CHAR1700][V1800]
+//うるさい、黙れ！[NWIN]
+//
+//[CHAR1700][V1900]
+//そうやって大地の力を[NLINE]
+//独り占めする気だろう！[NWIN]
+//
+//[CHAR1700][V1A00]
+//死ね！[END-FE]
+[CHAR1700][V1800]
+Shut it![NWIN]
+
+[CHAR1700][V1500]
+By spreading Pollumine all over the world,[NLINE]
+you intend to monopolize the land's power![NWIN]
+
+[CHAR1700][V1600]
+Die![END-FE]
+
+
+
+
+
+//POINTER #73 @ $75C4 - STRING #73 @ $87ED
+#W32($75C4)
+//[CHAR1700][V1B00]
+//…チッ！[NLINE]
+//どうやら話し合いで[NLINE]
+//済む相手じゃなさそうだな…。[END-FE]
+[CHAR1700][V1B00]
+...Tch! It doesn't seem[NLINE]
+like they're willing to[NLINE]
+talk things out...[END-FE]
+
+
+
+
+
+//POINTER #74 @ $75C8 - STRING #74 @ $8832
+#W32($75C8)
+//[CHAR1700][V1C00]
+//どうするのですか？[END-FE]
+[CHAR1700][V1C00]
+What will we do?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $75CC - STRING #75 @ $884F
+#W32($75CC)
+//[CHAR1700][V1D00]
+//営業スタッフを守らないと！[END-FE]
+[CHAR1700][V1D00]
+We have to protect the sales representatives![END-FE]
+
+
+
+
+
+//POINTER #76 @ $75D0 - STRING #76 @ $8874
+#W32($75D0)
+//[CHAR1700][V1E00]
+//我々はどうすればいい？[END-FE]
+[CHAR1700][V1E00]
+What should we do?[END-FE]
+
+
+
+
+
+//POINTER #77 @ $75D4 - STRING #77 @ $8895
+#W32($75D4)
+//・[Merklich]の近くに[END-FE]
+・Stay close to me[END-FE]
+
+
+
+
+
+//POINTER #78 @ $75D8 - STRING #78 @ $88A6
+#W32($75D8)
+//・ウェンディの近くに[END-FE]
+・Stay close to Wendy[END-FE]
+
+
+
+
+
+//POINTER #79 @ $75DC - STRING #79 @ $88BD
+#W32($75DC)
+//・ルキアスの近くに[END-FE]
+・Stay close to Rukias[END-FE]
+
+
+
+
+
+//POINTER #80 @ $75E0 - STRING #80 @ $88D2
+#W32($75E0)
+//・その場に止まらせる[END-FE]
+・Stay where you are[END-FE]
+
+
+
+
+
+//POINTER #81 @ $75E4 - STRING #81 @ $88E9
+#W32($75E4)
+//・先にトンネルに向かわせる[END-FE]
+・Go ahead to the tunnel[END-FE]
+
+
+
+
+
+//POINTER #82 @ $75E8 - STRING #82 @ $8906
+#W32($75E8)
+//[CHAR1700][V1F00]
+//わかった！[END-FE]
+[CHAR1700][V1F00]
+Understood![END-FE]
+
+
+
+
+
+//POINTER #83 @ $75EC - STRING #83 @ $891B
+#W32($75EC)
+//・テロリストの全滅[END-FE]
+・All terrorists are defeated[END-FE]
+
+
+
+
+
+//POINTER #84 @ $75F0 - STRING #84 @ $8930
+#W32($75F0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party member die[END-FE]
+
+
+
+
+
+//POINTER #85 @ $75F4 - STRING #85 @ $8955
+#W32($75F4)
+//戦闘スキップする？[END-FE]
+Would you like to skip the battle?[END-FE]
+
+
+
+
+
+//POINTER #86 @ $75F8 - STRING #86 @ $896A
+#W32($75F8)
+//[CHAR1700][V1E00]
+//我々はどうすればいい？[END-FE]
+[CHAR1700][V1E00]
+What should we do?[END-FE]
+
+
+
+
+
+//POINTER #87 @ $75FC - STRING #87 @ $898B
+#W32($75FC)
+//・[Merklich]のそばにいる[END-FE]
+・Stay close to me[END-FE]
+
+
+
+
+
+//POINTER #88 @ $7600 - STRING #88 @ $89A0
+#W32($7600)
+//・ウェンディのそばにいる[END-FE]
+・Stay close to Wendy[END-FE]
+
+
+
+
+
+//POINTER #89 @ $7604 - STRING #89 @ $89BB
+#W32($7604)
+//・ルキアスのそばにいる[END-FE]
+・Stay close to Rukias[END-FE]
+
+
+
+
+
+//POINTER #90 @ $7608 - STRING #90 @ $89D4
+#W32($7608)
+//・その場に止まっている[END-FE]
+・Stay where you are[END-FE]
+
+
+
+
+
+//POINTER #91 @ $760C - STRING #91 @ $89ED
+#W32($760C)
+//・先にトンネルに向かう[END-FE]
+・Go ahead to the tunnel[END-FE]
+
+
+
+
+
+//POINTER #92 @ $7610 - STRING #92 @ $8A06
+#W32($7610)
+//[CHAR1700][V1F00]
+//わかった！[END-FE]
+[CHAR1700][V1F00]
+Understood![END-FE]
+
+
+
+
+
+//POINTER #93 @ $7614 - STRING #93 @ $8A1B
+#W32($7614)
+//営業スタッフをこの場に残すより、[NLINE]
+//いっそトンネル内に避難させたほうが[NLINE]
+//安全かもしれないな。[END-FE]
+It may be safer to evacuate the sales[NLINE]
+representatives to the tunnel instead[NLINE]
+of letting them remain here.[END-FE]
+
+
+
+
+
+//POINTER #94 @ $7618 - STRING #94 @ $8A78
+#W32($7618)
+//連れ歩くなら、いっそ営業スタッフは[NLINE]
+//トンネル内に避難させたほうが[NLINE]
+//安全かもしれないな。[END-FE]
+It might be safer to evacuate the sales[NLINE]
+representatives to the tunnel instead[NLINE]
+of dragging them along with us.[END-FE]
+
+
+
+
+
+//POINTER #95 @ $761C - STRING #95 @ $8AD1
+#W32($761C)
+//そ、そうだな！[NLINE]
+//近くに連れて行ってもらえれば、[NLINE]
+//中の入り口近くで戦闘が終わるのを[NLINE]
+//待つようにする！[END-FE]
+T-that's right![NLINE]
+If you take us close to the tunnel,[NLINE]
+we will wait inside for the battle[NLINE]
+to the end![END-FE]
+
+
+
+
+
+//POINTER #96 @ $7620 - STRING #96 @ $8B36
+#W32($7620)
+//[CHAR1700][V2000]
+//へっ！[NLINE]
+//逃がさないぜ！[END-FE]
+[CHAR1700][V2000]
+Hah! We won't let you run![END-FE]
+
+
+
+
+
+//POINTER #97 @ $7624 - STRING #97 @ $8B57
+#W32($7624)
+//[CHAR1700][V2100]
+//た、助けてくれ…！[END-FE]
+[CHAR1700][V2100]
+H-help me...![END-FE]
+
+
+
+
+
+//POINTER #98 @ $7628 - STRING #98 @ $8B74
+#W32($7628)
+//[CHAR1700][V2200]
+//君たちも早く来てくれよ！[END-FE]
+[CHAR1700][V2200]
+You guys should come quickly too![END-FE]
+
+
+
+
+
+//POINTER #99 @ $762C - STRING #99 @ $8B97
+#W32($762C)
+//[CHAR1700][V2200]
+//君たちも早く来てくれよ！[END-FE]
+[CHAR1700][V2200]
+You guys should come quickly too![END-FE]
+
+
+
+
+
+//POINTER #100 @ $7630 - STRING #100 @ $8BBA
+#W32($7630)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #101 @ $7634 - STRING #101 @ $8BCF
+#W32($7634)
+//そんな…。[END-FE]
+Oh no...[END-FE]
+
+
+
+
+
+//POINTER #102 @ $7638 - STRING #102 @ $8BDC
+#W32($7638)
+//死にたく…な…。[END-FE]
+I... don't want... to die...[END-FE]
+
+
+
+
+
+//POINTER #103 @ $763C - STRING #103 @ $8BEF
+#W32($763C)
+//[CHAR1700][V2300]
+//もう敵はいないようですね。[NWIN]
+//
+//[CH.FACE:Sad][CHAR1700][V2400]
+//彼らは何者なのですか？[END-FE]
+[CHAR1700][V2300]
+It looks like there are no more[NLINE]
+enemies.[NWIN]
+
+[CH.FACE:Sad][CHAR1700][V2400]
+Who were those people?[END-FE]
+
+
+
+
+
+//POINTER #104 @ $7640 - STRING #104 @ $8C38
+#W32($7640)
+//・テロリスト[END-FE]
+・Terrorists[END-FE]
+
+
+
+
+
+//POINTER #105 @ $7644 - STRING #105 @ $8C47
+#W32($7644)
+//・ライバル企業が雇った連中[END-FE]
+・Mercenaries hired by rival companies[END-FE]
+
+
+
+
+
+//POINTER #106 @ $7648 - STRING #106 @ $8C64
+#W32($7648)
+//・答えない[END-FE]
+・Don't answer[END-FE]
+
+
+
+
+
+//POINTER #107 @ $764C - STRING #107 @ $8C71
+#W32($764C)
+//[CHAR1700][V2500]
+//ライバル企業の妨害ですか…。[END-FE]
+[CHAR1700][V2500]
+Interference from rival companies...?[END-FE]
+
+
+
+
+
+//POINTER #108 @ $7650 - STRING #108 @ $8C98
+#W32($7650)
+//[CHAR1700][V2600]
+//確かにライバル企業が[NLINE]
+//テロ組織に資金提供して[NLINE]
+//モノポリス社の妨害をしているという[NLINE]
+//噂はあるわ。[NWIN]
+//
+//[CHAR1700][V2700]
+//でも私はそうは思わないわ。[NLINE]
+//だって、これだけモノポリス社が狙われても[NLINE]
+//台頭する企業の気配がないもの。[NWIN]
+//
+//[CHAR1700][V2800]
+//やっぱり連中はテロリストだと思うわ。[END-FE]
+[CHAR1700][V2600]
+It's true that they're are rumors[NLINE]
+about rival companies funding[NLINE]
+terrorist organizations to thwart[NLINE]
+Monopolis.[NWIN]
+
+[CHAR1700][V2700]
+But I don't think that's true. Because[NLINE]
+even though Monopolis keeps getting[NLINE]
+targeted, there are no signs of other[NLINE]
+rising companies.[NWIN]
+
+[CHAR1700][V2800]
+I think those people were terrorists.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $7654 - STRING #109 @ $8D9D
+#W32($7654)
+//[CHAR1700][V2900]
+//奴らは…テロリストよ…。[END-FE]
+[CHAR1700][V2900]
+Those were... terrorists.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $7658 - STRING #110 @ $8DC0
+#W32($7658)
+//[CHAR1700][V2A00]
+//テロリストというと…。[END-FE]
+[CHAR1700][V2A00]
+Terrorists...?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $765C - STRING #111 @ $8DE1
+#W32($765C)
+//[CHAR1700][V2B00]
+//私たちがいた大陸では[NLINE]
+//隣国の内乱をきっかけに[NLINE]
+//他国が介入しての戦争になっているわ。[NWIN]
+//
+//[CHAR1700][V2C00]
+//最初は革命を行うために戦っていた人々は[NLINE]
+//ちりぢりになり、多数のテロ組織に変わった。[END-FE]
+[CHAR1700][V2B00]
+On our continent, an internal conflict[NLINE]
+in my home country caused a neighbouring[NLINE]
+country to intervene, resulting in war.[NWIN]
+
+[CHAR1700][V2C00]
+The people who initially fought for the[NLINE]
+revolution broke up into various little[NLINE]
+groups and changed into terrorist organizations.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $7660 - STRING #112 @ $8E9A
+#W32($7660)
+//[CHAR1700][V2D00]
+//では、なぜ隣国のテロ組織が[NLINE]
+//モノポリス社を襲うのですか？[END-FE]
+[CHAR1700][V2D00]
+But why do these terrorist organizations[NLINE]
+attack Monopolis?[END-FE]
+
+
+
+
+
+//POINTER #113 @ $7664 - STRING #113 @ $8EDD
+#W32($7664)
+//[CHAR1700][V2E00]
+//モノポリス社はヒンギスタン王国にも[NLINE]
+//フォメロス国にも物資を輸出している。[NWIN]
+//
+//[CHAR1700][V2F00]
+//だからその供給が止まると、[NLINE]
+//両国とも戦争を続けることが難しくなるわ。[NWIN]
+//
+//[CHAR1700][V3000]
+//モノポリス社に大きな被害が出て、[NLINE]
+//戦争をしている両国から手を引けば、[NLINE]
+//それを見て他の企業も手を引く。[END-FE]
+[CHAR1700][V2E00]
+Monopolis exports goods to both[NLINE]
+Hingistan and Fomeros.[NWIN]
+
+[CHAR1700][V2F00]
+If that supply were to be cut off,[NLINE]
+then it would be difficult for the[NLINE]
+two countries to continue the war.[NWIN]
+
+[CHAR1700][V3000]
+If Monopolis were to withdraw from the[NLINE]
+two warring countries after suffering[NLINE]
+major damage, other countries would[NLINE]
+see this and make the same decesion.[END-FE]
+
+
+
+
+
+//POINTER #114 @ $7668 - STRING #114 @ $8FEC
+#W32($7668)
+//[CHAR1700][V3100]
+//どうしてですか？[NLINE]
+//モノポリス社が手を引いたということは、[NLINE]
+//他の企業が手を伸ばす[NLINE]
+//チャンスではないでしょうか？[END-FE]
+[CHAR1700][V3100]
+But why? If Monopolis were to withdraw,[NLINE]
+wouldn't that give another enterprise[NLINE]
+the chance to expand their business?[END-FE]
+
+
+
+
+
+//POINTER #115 @ $766C - STRING #115 @ $9063
+#W32($766C)
+//[CHAR1700][V3200]
+//市場だけを見ればそうなるんだけど、[NLINE]
+//ここでキーになるのはモノポリス社の持つ、[NLINE]
+//[COL04]強力な私設軍[COL00]の存在よ。[NWIN]
+//
+//[CHAR1700][V3300]
+//モノポリス社ほどの私設軍を持つ企業は[NLINE]
+//他に無いわ。[NWIN]
+//
+//[CHAR1700][V3400]
+//その私設軍を駆使するモノポリス社が[NLINE]
+//手を引いたということは…。[END-FE]
+[CHAR1700][V3200]
+That would be the case if you only take[NLINE]
+the market into account. The key here is[NLINE]
+that Monopolis has its own[COL04]powerful private army[COL00].[NWIN]
+
+[CHAR1700][V3300]
+There is no other company that has an[NLINE]
+army as strong as that of Monopolis.[NWIN]
+
+[CHAR1700][V3400]
+For a corporation like Monopolis[NLINE]
+to withdraw...[END-FE]
+
+
+
+
+
+//POINTER #116 @ $7670 - STRING #116 @ $915C
+#W32($7670)
+//[CHAR1700][V3500]
+//軍の投入に利益が見合わない、[NLINE]
+//ということですね。[NLINE]
+//当然、他の企業では太刀打ち出来ない…。[END-FE]
+[CHAR1700][V3500]
+...Means that the price to invest[NLINE]
+in an army wouldn't be worth it.[NLINE]
+They wouldn't be a match for the[NLINE]
+terrorists...[END-FE]
+
+
+
+
+
+//POINTER #117 @ $7674 - STRING #117 @ $91BF
+#W32($7674)
+//[CHAR1700][V3600]
+//モノポリス私設軍がテロに屈したということは、[NLINE]
+//そう取られるって事なの。[END-FE]
+[CHAR1700][V3600]
+They would interpret it that way if[NLINE]
+Monopolis' private army were to cave[NLINE]
+to the terrorists.[END-FE]
+
+
+
+
+
+//POINTER #118 @ $7678 - STRING #118 @ $9210
+#W32($7678)
+//[CHAR1700][V3700]
+//それより、そのテロのせいで、[NLINE]
+//暮らしにおびえる一般人がいることを[NLINE]
+//連中はどう思ってるんだ？[NWIN]
+//
+//[CHAR1700][V3800]
+//一般人に被害を出して、[NLINE]
+//革命が成功すると本気で思ってるのか？[END-FE]
+[CHAR1700][V3700]
+So how do the terrorists feel about[NLINE]
+the fact that ordinary civilians[NLINE]
+are scared of their lives because[NLINE]
+because of their actions?[NWIN]
+
+[CHAR1700][V3800]
+Do they really think their[NLINE]
+revolution will succeed if[NLINE]
+they inflict harm on them?[END-FE]
+
+
+
+
+
+//POINTER #119 @ $767C - STRING #119 @ $92BB
+#W32($767C)
+//・そう思っているからテロをする[END-FE]
+・They commit terrorist attacks[NLINE]
+   because that's what they believe[END-FE]
+
+
+
+
+
+//POINTER #120 @ $7680 - STRING #120 @ $92DC
+#W32($7680)
+//・ルキアスに同意する[END-FE]
+・Agree with Rukias that there's another reason.[END-FE]
+
+
+
+
+
+//POINTER #121 @ $7684 - STRING #121 @ $92F3
+#W32($7684)
+//・一般人に被害はない[END-FE]
+・Civilians aren't harmed[END-FE]
+
+
+
+
+
+//POINTER #122 @ $7688 - STRING #122 @ $930A
+#W32($7688)
+//[CHAR1700][V3900]
+//でも、最近は一般人への被害はないみたいよ。[NLINE]
+//テロの件数自体もかなり減っているし。[END-FE]
+[CHAR1700][V3900]
+Actually, it seems like they haven't[NLINE]
+caused harm to any civilians lately.[NLINE]
+The number of terrorist attacks have[NLINE]
+been decreasing considerably.[END-FE]
+
+
+
+
+
+//POINTER #123 @ $768C - STRING #123 @ $9365
+#W32($768C)
+//[CHAR1700][V3A00]
+//だったらなぜ、[NLINE]
+//奴らは…!?[END-FE]
+[CHAR1700][V3A00]
+Then why do they do it...!?[END-FE]
+
+
+
+
+
+//POINTER #124 @ $7690 - STRING #124 @ $938A
+#W32($7690)
+//[CHAR1700][V3B00]
+//ルキアスの言うことも分かるけど、[NLINE]
+//でも、最近は一般人への被害はないみたいよ。[NLINE]
+//テロの件数自体もかなり減っているし。[END-FE]
+[CHAR1700][V3B00]
+I get what Rukias is saying. However,[NLINE]
+it seems like they haven't caused harm to[NLINE]
+any civilians lately. The number of[NLINE]
+terrorist attacks have decreased[NLINE]
+considerably.[END-FE]
+
+
+
+
+
+//POINTER #125 @ $7694 - STRING #125 @ $9407
+#W32($7694)
+//[CHAR1700][V3C00]
+//そうね。[NLINE]
+//最近は一般人への被害はないみたいよ。[NLINE]
+//テロの件数自体もかなり減っているし。[END-FE]
+[CHAR1700][V3C00]
+That's right. It seems like they haven't[NLINE]
+caused harm to any civilians lately.[NLINE]
+The number of terrorist attacks have[NLINE]
+decreased considerably.[END-FE]
+
+
+
+
+
+//POINTER #126 @ $7698 - STRING #126 @ $9466
+#W32($7698)
+//[CHAR1700][V3D00]
+//どうして減ってるんだ？[END-FE]
+[CHAR1700][V3D00]
+Why is it decreasing?[END-FE]
+
+
+
+
+
+//POINTER #127 @ $769C - STRING #127 @ $9487
+#W32($769C)
+//[CHAR1700][V3E00]
+//ある時を境に、[NLINE]
+//連中の動きは組織化しているわ。[NWIN]
+//
+//[CHAR1700][V3F00]
+//例えば、街に駐留する軍の施設を[NLINE]
+//破壊するだけじゃなく、[NLINE]
+//ジェワールにあるモノポリス社の施設を[NLINE]
+//襲撃する…みたいにね。[END-FE]
+[CHAR1700][V3E00]
+At some point, their activities[NLINE]
+became more organized.[NWIN]
+
+[CHAR1700][V3F00]
+For example, now they not only destroy[NLINE]
+army facilities stationed in[NLINE]
+cities, but also raid Monopolis[NLINE]
+facilities in Jewarl... Or so it seems.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $76A0 - STRING #128 @ $953E
+#W32($76A0)
+//[CHAR1700][V4000]
+//…ってことは…。[END-FE]
+[CHAR1700][V4000]
+Then that means...[END-FE]
+
+
+
+
+
+//POINTER #129 @ $76A4 - STRING #129 @ $9559
+#W32($76A4)
+//・テロリストの人数が減っている[END-FE]
+・The number of terrorist members are decreasing[END-FE]
+
+
+
+
+
+//POINTER #130 @ $76A8 - STRING #130 @ $957A
+#W32($76A8)
+//・誰かがテロリストをまとめ上げている[END-FE]
+・Someone is unifying the terrorists[END-FE]
+
+
+
+
+
+//POINTER #131 @ $76AC - STRING #131 @ $95A1
+#W32($76AC)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #132 @ $76B0 - STRING #132 @ $95B0
+#W32($76B0)
+//[CHAR1700][V4100]
+//残念、不正解！[END-FE]
+[CHAR1700][V4100]
+Bzz! Wrong answer![END-FE]
+
+
+
+
+
+//POINTER #133 @ $76B4 - STRING #133 @ $95C9
+#W32($76B4)
+//[CHAR1700][V4200]
+//何者かがテログループを、[NLINE]
+//レジスタンスにまとめ上げている[NLINE]
+//って言うのか？[END-FE]
+[CHAR1700][V4200]
+So you're saying someone has[NLINE]
+been unifying the terrorists group[NLINE]
+into a resistance?[END-FE]
+
+
+
+
+
+//POINTER #134 @ $76B8 - STRING #134 @ $961C
+#W32($76B8)
+//[CHAR1700][V4300]
+//その通りよ。[NWIN]
+//
+//[CHAR1700][V4400]
+//散らばっていた連中が[NLINE]
+//今では１つの組織として[NLINE]
+//機能し始めている…。[NWIN]
+//
+//[CHAR1700][V4500]
+//これからは[NLINE]
+//今までのようには、いかないかもね。[END-FE]
+[CHAR1700][V4300]
+That's right.[NWIN]
+
+[CHAR1700][V4400]
+The scattered members are now[NLINE]
+beginning to act as one organization...[NWIN]
+
+[CHAR1700][V4500]
+From now on, things might not be[NLINE]
+like they used to be.[END-FE]
+
+
+
+
+
+//POINTER #135 @ $76BC - STRING #135 @ $96B7
+#W32($76BC)
+//[CHAR3D00][V0000]
+//しつこい奴め！[END-FE]
+[CHAR3D00][V0000]
+Stubborn pests![END-FE]
+
+
+
+
+
+//POINTER #136 @ $76C0 - STRING #136 @ $96D0
+#W32($76C0)
+//[CHAR3D00][V0100]
+//龍玉を渡しなさい。[NLINE]
+//それは安易に扱ってはならない物です。[END-FE]
+[CHAR3D00][V0100]
+Hand over the Dragon Orb. It is[NLINE]
+not to be handled lightly.[END-FE]
+
+
+
+
+
+//POINTER #137 @ $76C4 - STRING #137 @ $9713
+#W32($76C4)
+//[CHAR3D00][V0200]
+//イリステレサ様、[NLINE]
+//ここは我々にお任せを！[END-FE]
+[CHAR3D00][V0200]
+Lady Iristelessa, please[NLINE]
+leave this to us![END-FE]
+
+
+
+
+
+//POINTER #138 @ $76C8 - STRING #138 @ $9746
+#W32($76C8)
+//[CHAR3D00][V0300]
+//な、何だ、コイツは!?[END-FE]
+[CHAR3D00][V0300]
+W-what is that thing!?[END-FE]
+
+
+
+
+
+//POINTER #139 @ $76CC - STRING #139 @ $9765
+#W32($76CC)
+//[CHAR3D00][V0400]
+//ぐはぁっ！[END-FE]
+[CHAR3D00][V0400]
+Ugghhh![END-FE]
+
+
+
+
+
+//POINTER #140 @ $76D0 - STRING #140 @ $977A
+#W32($76D0)
+//[CHAR3D00][V0500]
+//…大地ノ…巫女…[NLINE]
+//…連レテイク。[END-FE]
+[CHAR3D00][V0500]
+...Capture... Earth Priestess...[END-FE]
+
+
+
+
+
+//POINTER #141 @ $76D4 - STRING #141 @ $97A5
+#W32($76D4)
+//[CHAR3D00][V0600]
+//えっ？[END-FE]
+[CHAR3D00][V0600]
+What?[END-FE]
+
+
+
+
+
+//POINTER #142 @ $76D8 - STRING #142 @ $97B6
+#W32($76D8)
+//[CHAR3D00][V0700]
+//この女が大地の巫女？[NLINE]
+//ただのレジスタンスかと思ったが、[NLINE]
+//こんな所で巫女と出会うとはな…。[END-FE]
+[CHAR3D00][V0700]
+That woman is the Earth Priestess?[NLINE]
+I thought she was just with the resistance.[NLINE]
+To meet the Earth Priestess in a place[NLINE]
+like this...[END-FE]
+
+
+
+
+
+//POINTER #143 @ $76DC - STRING #143 @ $9819
+#W32($76DC)
+//[CHAR3D00][V0800]
+//…大地ノ巫女、[NLINE]
+//連レテイク。[END-FE]
+[CHAR3D00][V0800]
+...Capture... Earth Priestess...[END-FE]
+
+
+
+
+
+//POINTER #144 @ $76E0 - STRING #144 @ $9840
+#W32($76E0)
+//[CHAR3D00][V0900]
+//大地の巫女！？[END-FE]
+[CHAR3D00][V0900]
+The Earth Priestess!?[END-FE]
+
+
+
+
+
+//POINTER #145 @ $76E4 - STRING #145 @ $9859
+#W32($76E4)
+//[CHAR3D00][V0A00]
+//あの女性があぶないわ！[END-FE]
+[CHAR3D00][V0A00]
+That woman is in danger![END-FE]
+
+
+
+
+
+//POINTER #146 @ $76E8 - STRING #146 @ $987A
+#W32($76E8)
+//[CHAR3D00][V0B00]
+//頼みがある、[NLINE]
+//彼女を連中にさらわれないように[NLINE]
+//力を貸してくれ！[NWIN]
+//
+//[CHAR3D00][V0C00]
+//彼女がさらわれたら、[NLINE]
+//世界は終わりだ！[END-FE]
+[CHAR3D00][V0B00]
+I've got a favor to ask.[NLINE]
+Please help me prevent them[NLINE]
+from capturing her![NWIN]
+
+[CHAR3D00][V0C00]
+If she's captured, the world will[NLINE]
+end![END-FE]
+
+
+
+
+
+//POINTER #147 @ $76EC - STRING #147 @ $98F3
+#W32($76EC)
+//[CHAR3D00][V0D00]
+//世界の終わり!?[END-FE]
+[CHAR3D00][V0D00]
+The end of the world!?[END-FE]
+
+
+
+
+
+//POINTER #148 @ $76F0 - STRING #148 @ $990C
+#W32($76F0)
+//[CHAR3D00][V0E00]
+//龍玉と巫女が敵の手に落ちるということは、[NLINE]
+//この星の全てを奪われるのと同じだ！[END-FE]
+[CHAR3D00][V0E00]
+Letting the Dragon Orb and the Earth Priestess[NLINE]
+fall into enemy's hands, would be the[NLINE]
+same as letting this planet's energy get[NLINE]
+stolen![END-FE]
+
+
+
+
+
+//POINTER #149 @ $76F4 - STRING #149 @ $9963
+#W32($76F4)
+//・敵の全滅と龍玉の入手[END-FE]
+・All enemies are defeated and[NLINE]
+ the Dragon Orb is obtained[END-FE]
+
+
+
+
+
+//POINTER #150 @ $76F8 - STRING #150 @ $997C
+#W32($76F8)
+//・大地の巫女の撃破[NLINE]
+//・パーティーの全滅[END-FE]
+・The Earth Priestess is defeated[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #151 @ $76FC - STRING #151 @ $99A5
+#W32($76FC)
+//戦闘スキップする？[END-FE]
+Would you like to skip the battle?[END-FE]
+
+
+
+
+
+//POINTER #152 @ $7700 - STRING #152 @ $99BA
+#W32($7700)
+//[CHAR3D00][V0F00]
+//おい、そこの！[NLINE]
+//お前は、俺の味方なのか？[END-FE]
+[CHAR3D00][V0F00]
+Hey, you there![NLINE]
+Are you my ally?[END-FE]
+
+
+
+
+
+//POINTER #153 @ $7704 - STRING #153 @ $99ED
+#W32($7704)
+//[CHAR3D00][V1000]
+//いったい何者なのでしょう？[NLINE]
+//クイーンを封じるときにも現れましたが…。[END-FE]
+[CHAR3D00][V1000]
+Who on earth could she be?[NLINE]
+She also appeared when we sealed[NLINE]
+the Queem...[END-FE]
+
+
+
+
+
+//POINTER #154 @ $7708 - STRING #154 @ $9A3C
+#W32($7708)
+//[CHAR3D00][V1100]
+//我が名はネーリス…。[NLINE]
+//大地の巫女の回収と、[NLINE]
+//シュヴァイツァーのサポートを命じられた。[NWIN]
+//
+//[CHAR3D00][V1200]
+//そしてモノポリス社に刃向かう者は[NLINE]
+//我が手で抹殺する…。[END-FE]
+[CHAR3D00][V1100]
+My name is Neilis...[NLINE]
+I have been ordered to capture the[NLINE]
+Earth Priestess and to support Shuweizer.[NWIN]
+
+[CHAR3D00][V1200]
+I will obliterate all who stand[NLINE]
+against Monopolis...[END-FE]
+
+
+
+
+
+//POINTER #155 @ $770C - STRING #155 @ $9ADB
+#W32($770C)
+//[CHAR3D00][V1300]
+//またお前か…。[NWIN]
+//
+//[CHAR3D00][V1400]
+//…何度我が前に現れれば気が済む？[NLINE]
+//何度殺されれば気が済む？[END-FE]
+[CHAR3D00][V1300]
+You again...[NWIN]
+
+[CHAR3D00][V1400]
+...How many times will you appear[NLINE]
+before me until you are satisfied?[NLINE]
+How many times will you be killed[NLINE]
+until you are satisfied?[END-FE]
+
+
+
+
+
+//POINTER #156 @ $7710 - STRING #156 @ $9B38
+#W32($7710)
+//・殺されたことなどない[END-FE]
+・I have never been killed by you[END-FE]
+
+
+
+
+
+//POINTER #157 @ $7714 - STRING #157 @ $9B51
+#W32($7714)
+//・何の事か問いただす[END-FE]
+・What are you talking about?[END-FE]
+
+
+
+
+
+//POINTER #158 @ $7718 - STRING #158 @ $9B68
+#W32($7718)
+//・黙って戦闘に専念[END-FE]
+・Say nothing and focus on battle[END-FE]
+
+
+
+
+
+//POINTER #159 @ $771C - STRING #159 @ $9B7D
+#W32($771C)
+//[CHAR3D00][V1500]
+//お前自身はまだだろうが、[NLINE]
+//私はもう何度もお前を殺している。[END-FE]
+[CHAR3D00][V1500]
+Even though you still exist, I have killed you many times.[END-FE]
+
+
+
+
+
+//POINTER #160 @ $7720 - STRING #160 @ $9BC2
+#W32($7720)
+//[CHAR3D00][V1600]
+//言葉通りだ、量産品め。[NLINE]
+//その顔は殺し飽きたということだ。[END-FE]
+[CHAR3D00][V1600]
+As I said, you're a mass production.[NLINE]
+One of who I'm tired of killing.[END-FE]
+
+
+
+
+
+//POINTER #161 @ $7724 - STRING #161 @ $9C05
+#W32($7724)
+//[CHAR3D00][V1700]
+//自分には関係ないと言いたそうだな。[NLINE]
+//毎度毎度、その態度が気に障る…。[END-FE]
+[CHAR3D00][V1700]
+So you're saying you don't care about me.[NLINE]
+That attitude gets on my nerves every time...[END-FE]
+
+
+
+
+
+//POINTER #162 @ $7728 - STRING #162 @ $9C54
+#W32($7728)
+//[CH.FACE:Close-Eyes][CHAR3D00][V1800]
+//…前回は３年前。[NLINE]
+//その前は２０１年前。[NLINE]
+//更に前は３９８年前。[NWIN]
+//
+//[CH.FACE:Open-Eyes][CHAR3D00][V1900]
+//これで理解したか？[NLINE]
+//この私が量産品などに負けるものか。[NLINE]
+//さあ、いつも通り死ぬがいい！[END-FE]
+[CH.FACE:Close-Eyes][CHAR3D00][V1800]
+...The last time was 3 years ago.[NLINE]
+Before that, 201 years ago.[NLINE]
+And before that, it was 398 years ago.[NWIN]
+
+[CH.FACE:Open-Eyes][CHAR3D00][V1900]
+Do you understand now? I will not lose[NLINE]
+to a mass production like you.[NLINE]
+As always, prepare to die![END-FE]
+
+
+
+
+
+//POINTER #163 @ $772C - STRING #163 @ $9CFF
+#W32($772C)
+//イリステレサ様…っ！[END-FE]
+Lady Iristelessa...![END-FE]
+
+
+
+
+
+//POINTER #164 @ $7730 - STRING #164 @ $9D16
+#W32($7730)
+//お逃げくだ、さ…[END-FE]
+P-please run...[END-FE]
+
+
+
+
+
+//POINTER #165 @ $7734 - STRING #165 @ $9D29
+#W32($7734)
+//護衛を排除。[NLINE]
+//巫女の抵抗を封じた後、拘束スル。[END-FE]
+Bodyguards dispatched.[NLINE]
+Will commence capture after supressing[NLINE]
+opposition from Earth Priestess.[END-FE]
+
+
+
+
+
+//POINTER #166 @ $7738 - STRING #166 @ $9D5A
+#W32($7738)
+//く……捕まるわけには…[END-FE]
+Ugh... I cannot afford to get captured...[END-FE]
+
+
+
+
+
+//POINTER #167 @ $773C - STRING #167 @ $9D73
+#W32($773C)
+//巫女！[NLINE]
+//俺達が守るから、指示に従ってくれ！[END-FE]
+Earth Priestess! We're here to defend[NLINE]
+you! Follow our instructions![END-FE]
+
+
+
+
+
+//POINTER #168 @ $7740 - STRING #168 @ $9DA0
+#W32($7740)
+//そこの貴方！[NLINE]
+//私たちが守りますから、[NLINE]
+//指示に従ってください！[END-FE]
+Earth Priestess, we will protect[NLINE]
+you! Please follow our instructions![END-FE]
+
+
+
+
+
+//POINTER #169 @ $7744 - STRING #169 @ $9DDF
+#W32($7744)
+//…選択の余地はないようですね…。[NLINE]
+//わかりました。どうすればよいですか？[END-FE]
+...It seems I have no choice...[NLINE]
+Understood, what would you like me to do?[END-FE]
+
+
+
+
+
+//POINTER #170 @ $7748 - STRING #170 @ $9E28
+#W32($7748)
+//・魔法に専念させる[END-FE]
+・Let her focus on magic[END-FE]
+
+
+
+
+
+//POINTER #171 @ $774C - STRING #171 @ $9E3D
+#W32($774C)
+//・東側へ逃げるよう指示[END-FE]
+・Instruct her to run east[END-FE]
+
+
+
+
+
+//POINTER #172 @ $7750 - STRING #172 @ $9E56
+#W32($7750)
+//・南側へ逃げるよう指示[END-FE]
+・Instruct her to run south[END-FE]
+
+
+
+
+
+//POINTER #173 @ $7754 - STRING #173 @ $9E6F
+#W32($7754)
+//・自由に行動させる[END-FE]
+・Let her do what she wants[END-FE]
+
+
+
+
+
+//POINTER #174 @ $7758 - STRING #174 @ $9E84
+#W32($7758)
+//わかりました。[END-FE]
+Understood.[END-FE]
+
+
+
+
+
+//POINTER #175 @ $775C - STRING #175 @ $9E95
+#W32($775C)
+//[CHAR3D00][V1C00]
+//きゃあっ！[END-FE]
+[CHAR3D00][V1C00]
+Aaah![END-FE]
+
+
+
+
+
+//POINTER #176 @ $7760 - STRING #176 @ $9EAA
+#W32($7760)
+//巫女を拘束シタ。[NLINE]
+//回収装置作動……。[END-FE]
+Restrained Earth Priestess.[NLINE]
+Operating capture device...[END-FE]
+
+
+
+
+
+//POINTER #177 @ $7764 - STRING #177 @ $9ED1
+#W32($7764)
+//よし、[NLINE]
+//龍玉とこいつさえそろえてしまえば、[NLINE]
+//計画が次の段階に移れる！[NWIN]
+//
+//俺のために役立ってもらおうか！[END-FE]
+Alright, now that we have the Dragon[NLINE]
+Orb and the Earth Priestess, we can[NLINE]
+move on to the second stage of the plan![NWIN]
+
+Now about you make yourself useful![END-FE]
+
+
+
+
+
+//POINTER #178 @ $7768 - STRING #178 @ $9F38
+#W32($7768)
+//よし、巫女を倒したぞ！[NLINE]
+//こいつさえ捕まえてしまえば…！[END-FE]
+Alright, the Earth Priestess has been defeated![NLINE]
+If we capture her, it will be all over...![END-FE]
+
+
+
+
+
+//POINTER #179 @ $776C - STRING #179 @ $9F71
+#W32($776C)
+//しまった！[END-FE]
+Oh no![END-FE]
+
+
+
+
+
+//POINTER #180 @ $7770 - STRING #180 @ $9F7E
+#W32($7770)
+//[CHAR3D00][V1D00]
+//うおっ！[END-FE]
+[CHAR3D00][V1D00]
+Ughh![END-FE]
+
+
+
+
+
+//POINTER #181 @ $7774 - STRING #181 @ $9F91
+#W32($7774)
+//[CHAR3D00][V1E00]
+//くそっ！[NLINE]
+//ここまで力をつけていたとは…。[END-FE]
+[CHAR3D00][V1E00]
+Damn it! All the the strength I've[NLINE]
+gained up until now wasn't enough...[END-FE]
+
+
+
+
+
+//POINTER #182 @ $7778 - STRING #182 @ $9FC4
+#W32($7778)
+//排除…[END-FE]
+Eliminated...[END-FE]
+
+
+
+
+
+//POINTER #183 @ $777C - STRING #183 @ $9FCD
+#W32($777C)
+//ぐおっ！[END-FE]
+Guwaa![END-FE]
+
+
+
+
+
+//POINTER #184 @ $7780 - STRING #184 @ $9FD8
+#W32($7780)
+//排除…[END-FE]
+Eliminated...[END-FE]
+
+
+
+
+
+//POINTER #185 @ $7784 - STRING #185 @ $9FE1
+#W32($7784)
+//うあっ！[END-FE]
+Uaaa![END-FE]
+
+
+
+
+
+//POINTER #186 @ $7788 - STRING #186 @ $9FEC
+#W32($7788)
+//[CHAR3D00][V1B00]
+//損傷率上昇…。[NLINE]
+//作戦続行を断念。[NLINE]
+//これより離脱する…。[END-FE]
+[CHAR3D00][V1B00]
+Damage rate increasing...[NLINE]
+Abandoning operation...[NLINE]
+Commencing retreat...[END-FE]
+
+
+
+
+
+//POINTER #187 @ $778C - STRING #187 @ $A02D
+#W32($778C)
+//[CHAR3D00][V1A00]
+//…くっ、[NLINE]
+//…この頭の痛み…[NLINE]
+//…何なのだ…！[END-FE]
+[CHAR3D00][V1A00]
+...Ugh....[NLINE]
+This pain in my head..[NLINE]
+...What is it...!?[END-FE]
+
+
+
+
+
+//POINTER #188 @ $7790 - STRING #188 @ $A062
+#W32($7790)
+//[CHAR3D00][V1F00]
+//礼を言います。[END-FE]
+[CHAR3D00][V1F00]
+You have my gratitude.[END-FE]
+
+
+
+
+
+//POINTER #189 @ $7794 - STRING #189 @ $A07B
+#W32($7794)
+//[CHAR3D00][V2000]
+//１つ確認したいが、[NLINE]
+//アンタ、大地の巫女だろ？[END-FE]
+[CHAR3D00][V2000]
+There's something I want to confirm.[NLINE]
+Are you the Earth Priestess?[END-FE]
+
+
+
+
+
+//POINTER #190 @ $7798 - STRING #190 @ $A0B2
+#W32($7798)
+//[CHAR3D00][V2100]
+//この期に及んで[NLINE]
+//隠しても仕方ありませんね。[NWIN]
+//
+//[CHAR3D00][V2200]
+//私はイリステレサ。[NLINE]
+//大地の巫女です。[NWIN]
+//
+//[CHAR3D00][V2300]
+//あなたは？[END-FE]
+[CHAR3D00][V2100]
+There is no use hiding[NLINE]
+it at this point.[NWIN]
+
+[CHAR3D00][V2200]
+I am Iristelessa, the Earth Priestess.[NWIN]
+
+[CHAR3D00][V2300]
+And you are?[END-FE]
+
+
+
+
+
+//POINTER #191 @ $779C - STRING #191 @ $A129
+#W32($779C)
+//[CHAR3D00][V2400]
+//大地の里の生き残りで[NLINE]
+//名はルキアス。[END-FE]
+[CHAR3D00][V2400]
+I'm a survivor of Earth Village.[NLINE]
+My name's Rukias.[END-FE]
+
+
+
+
+
+//POINTER #192 @ $77A0 - STRING #192 @ $A158
+#W32($77A0)
+//[CHAR3D00][V2500]
+//里の？[NLINE]
+//…そうですか。[END-FE]
+[CHAR3D00][V2500]
+From the village?[NLINE]
+...I see.[END-FE]
+
+
+
+
+
+//POINTER #193 @ $77A4 - STRING #193 @ $A179
+#W32($77A4)
+//[CHAR3D00][V2600]
+//聞きたいことがある。[NLINE]
+//なぜ里から姿を消したんだ？[END-FE]
+[CHAR3D00][V2600]
+There's something I want to ask.[NLINE]
+Why did you disappear from the[NLINE]
+village?[END-FE]
+
+
+
+
+
+//POINTER #194 @ $77A8 - STRING #194 @ $A1B4
+#W32($77A8)
+//[CHAR3D00][V2700]
+//私の意志ではありません。[NLINE]
+//私はある者に連れ出されたのです。[END-FE]
+[CHAR3D00][V2700]
+It was not my own intention.[NLINE]
+I was taken by someone.[END-FE]
+
+
+
+
+
+//POINTER #195 @ $77AC - STRING #195 @ $A1F9
+#W32($77AC)
+//[CHAR3D00][V2800]
+//ある者？[END-FE]
+[CHAR3D00][V2800]
+Someone?[END-FE]
+
+
+
+
+
+//POINTER #196 @ $77B0 - STRING #196 @ $A20C
+#W32($77B0)
+//[CHAR3D00][V2900]
+//レジスタンス組織『大地の祈り』のリーダー、[NLINE]
+//[COL01]マクスウェル[COL00]です。[END-FE]
+[CHAR3D00][V2900]
+The leader of the resistance[NLINE]
+organization Earth's Grace:[NLINE]
+[COL01]Maxwell[COL00].[END-FE]
+
+
+
+
+
+//POINTER #197 @ $77B4 - STRING #197 @ $A25B
+#W32($77B4)
+//[CHAR3D00][V2A00]
+//…マクスウェル…？[NLINE]
+//レジスタンスのリーダーが、[NLINE]
+//マクスウェル？[NWIN]
+//
+//[CH.FACE:Angry][CHAR3D00][V2B00]
+//それは本当なのですか、[NLINE]
+//大地の巫女様？[END-FE]
+[CHAR3D00][V2A00]
+...Maxwell...? The leader of[NLINE]
+the resistance is Maxwell?[NWIN]
+
+[CH.FACE:Angry][CHAR3D00][V2B00]
+Is that really true, Lady Iristelessa?[END-FE]
+
+
+
+
+
+//POINTER #198 @ $77B8 - STRING #198 @ $A2D8
+#W32($77B8)
+//[CHAR3D00][V2C00]
+//私のことはイリスと呼び捨ててください。[NLINE]
+//あまり身分を知られるわけにはいかないので。[END-FE]
+[CHAR3D00][V2C00]
+Please call me Iris. It would be best[NLINE]
+not to let my position be known.[END-FE]
+
+
+
+
+
+//POINTER #199 @ $77BC - STRING #199 @ $A335
+#W32($77BC)
+//[CHAR3D00][V2D00]
+//では、イリスさん、[NLINE]
+//本当にレジスタンスのリーダーは[NLINE]
+//マクスウェルというのですか？[END-FE]
+[CHAR3D00][V2D00]
+Alright. Is it really true that the[NLINE]
+resistance leader is called Maxwell,[NLINE]
+Iris?[END-FE]
+
+
+
+
+
+//POINTER #200 @ $77C0 - STRING #200 @ $A390
+#W32($77C0)
+//[CHAR3D00][V2E00]
+//本当です。[NWIN]
+//
+//[CHAR3D00][V2F00]
+//『大地の祈り』リーダー、マクスウェル。[NLINE]
+//彼が私を里から連れ出しました。[END-FE]
+[CHAR3D00][V2E00]
+It is true.[NWIN]
+
+[CHAR3D00][V2F00]
+Maxwell is the one who took me from[NLINE]
+the village.[END-FE]
+
+
+
+
+
+//POINTER #201 @ $77C4 - STRING #201 @ $A3F5
+#W32($77C4)
+//[CHAR3D00][V3000]
+//それじゃアンタは[NLINE]
+//レジスタンスの手下に成り下がったのか？[END-FE]
+[CHAR3D00][V3000]
+And then you became a lackey of the[NLINE]
+resistance?[END-FE]
+
+
+
+
+
+//POINTER #202 @ $77C8 - STRING #202 @ $A438
+#W32($77C8)
+//[CHAR3D00][V3100]
+//そうではありません。[NLINE]
+//彼らに力を借りているだけです。[NWIN]
+//
+//[CHAR3D00][V3200]
+//私は今でも大地の巫女の使命を果たすために[NLINE]
+//こうしています。[END-FE]
+[CHAR3D00][V3100]
+No, I merely requested their help.[NWIN]
+
+[CHAR3D00][V3200]
+I did so in order to fulfill my mission as[NLINE]
+Earth Priestess.[END-FE]
+
+
+
+
+
+//POINTER #203 @ $77CC - STRING #203 @ $A4BB
+#W32($77CC)
+//[CHAR3D00][V3300]
+//ならば、どうして里に戻らなかった？[END-FE]
+[CHAR3D00][V3300]
+If that's the case, why didn't you[NLINE]
+return to the village?[END-FE]
+
+
+
+
+
+//POINTER #204 @ $77D0 - STRING #204 @ $A4E8
+#W32($77D0)
+//[CHAR3D00][V3400]
+//何度も行きました。[NLINE]
+//しかし、里はすでに壊滅状態…。[NWIN]
+//
+//[CHAR3D00][V3500]
+//財閥の捜索隊の目を逃れるためには、[NLINE]
+//表だった捜索は出来なかったのです。[NWIN]
+//
+//[CHAR3D00][V3600]
+//それよりも、今は大切なことがあります。[NWIN]
+//
+//[CHAR3D00][V3700]
+//そこの守護勇士。[NLINE]
+//その龍玉を私に見せなさい。[END-FE]
+[CHAR3D00][V3400]
+I went there several times.[NLINE]
+However, the village was already[NLINE]
+destroyed...[NWIN]
+
+[CHAR3D00][V3500]
+In order to escape from the preying eyes[NLINE]
+of Monopolis' search parties, I had to give[NLINE]
+up on openly searching for survivors.[NWIN]
+
+[CHAR3D00][V3600]
+But now there are more important matters[NLINE]
+at hand.[NWIN]
+
+[CHAR3D00][V3700]
+You there, Brave Guard.[NLINE]
+Please show the Dragon Orb to me.[END-FE]
+
+
+
+
+
+//POINTER #205 @ $77D4 - STRING #205 @ $A5DB
+#W32($77D4)
+//龍玉を見せて下さい。[END-FE]
+Please show the Dragon Orb to me.[END-FE]
+
+
+
+
+
+//POINTER #206 @ $77D8 - STRING #206 @ $A5F2
+#W32($77D8)
+//総帥の封印のために[NLINE]
+//モノポリス社に向かいましょう。[END-FE]
+Let us head to Monopolis to seal[NLINE]
+Infinitor.[END-FE]
+
+
+
+
+
+//POINTER #207 @ $77DC - STRING #207 @ $A627
+#W32($77DC)
+//どうすればよいですか？[END-FE]
+What would you like me to do?[END-FE]
+
+
+
+
+
+//POINTER #208 @ $77E0 - STRING #208 @ $A640
+#W32($77E0)
+//巫女はアンタから受け取りたいそうだぜ、[NLINE]
+//守護勇士よ。[END-FE]
+The Earth Priestess would like to receive the[NLINE]
+Dragon Orb from you, Brave Guard.[END-FE]
+
+
+
+
+
+//POINTER #209 @ $77E4 - STRING #209 @ $A677
+#W32($77E4)
+//守護勇士って、あなたの事よね？[NLINE]
+//アナタから渡すべきだと思うわ。[END-FE]
+You're the Brave Guard, right?[NLINE]
+You're the one who should give[NLINE]
+it to her.[END-FE]
+
+
+
+
+
+//POINTER #210 @ $77E8 - STRING #210 @ $A6B8
+#W32($77E8)
+//[CHAR3D00][V3800]
+//…やはり、[NLINE]
+//もうこの中にはいない。[END-FE]
+[CHAR3D00][V3800]
+...It is as I feared.[NLINE]
+It no longer dwells inside.[END-FE]
+
+
+
+
+
+//POINTER #211 @ $77EC - STRING #211 @ $A6E5
+#W32($77EC)
+//[CHAR3D00][V3900]
+//まさか、封印が？[END-FE]
+[CHAR3D00][V3900]
+No way! The seal got broken?[END-FE]
+
+
+
+
+
+//POINTER #212 @ $77F0 - STRING #212 @ $A700
+#W32($77F0)
+//[CHAR3D00][V3A00]
+//ええ。[NLINE]
+//２０００年前、[NLINE]
+//この世界に現れた外世界からの侵略者。[NWIN]
+//
+//[CHAR3D00][V3B00]
+//その魂をこの龍玉の中に封じていたのですが、[NLINE]
+//すでに抜け殻となっています。[END-FE]
+[CHAR3D00][V3A00]
+Yes. Two thousand years ago, an invader[NLINE]
+from another world appeared on this planet.[NWIN]
+
+[CHAR3D00][V3B00]
+Its soul was sealed inside the Dragon Orb.[NLINE]
+However, it has already broken free.[END-FE]
+
+
+
+
+
+//POINTER #213 @ $77F4 - STRING #213 @ $A799
+#W32($77F4)
+//[CHAR3D00][V3C00]
+//おい、封印が解けているのに、[NLINE]
+//どうしてそんなに落ち着いているんだ？[NWIN]
+//
+//[CHAR3D00][V3D00]
+//これは重大な事じゃないか！[END-FE]
+[CHAR3D00][V3C00]
+Hey! How can you be so calm when[NLINE]
+the seal has been broken?[NWIN]
+
+[CHAR3D00][V3D00]
+Don't you think this a big deal!?[END-FE]
+
+
+
+
+
+//POINTER #214 @ $77F8 - STRING #214 @ $A80A
+#W32($77F8)
+//[CHAR3D00][V3E00]
+//既に封印が解けていることは、[NLINE]
+//予測出来ていましたので。[NWIN]
+//
+//[CHAR3D00][V3F00]
+//私はこの大陸に来てから、[NLINE]
+//先代の封印の巫女の足取りを追いました。[NWIN]
+//
+//[CHAR3D00][V4000]
+//しかし、先代が封印を強化したと思われる[NLINE]
+//２００年前の記録はありませんでした。[END-FE]
+[CHAR3D00][V3E00]
+I already expected that it had[NLINE]
+been broken.[NWIN]
+
+[CHAR3D00][V3F00]
+After I came to this continent,[NLINE]
+I traced the footsteps of the[NLINE]
+previous Earth Priestess.[NWIN]
+
+[CHAR3D00][V4000]
+However, I was unable to find a record[NLINE]
+stating that my predecessor managed[NLINE]
+to strengthen the seal 200 years ago.[END-FE]
+
+
+
+
+
+//POINTER #215 @ $77FC - STRING #215 @ $A8EB
+#W32($77FC)
+//[CHAR3D00][V4100]
+//たしか２００年毎に、当代の巫女が[NLINE]
+//封印の強化に向かう話だったはずだ。[END-FE]
+[CHAR3D00][V4100]
+Every 200 years, an Earth Priestess[NLINE]
+comes to strengthen the seal.[END-FE]
+
+
+
+
+
+//POINTER #216 @ $7800 - STRING #216 @ $A93A
+#W32($7800)
+//[CHAR3D00][V4200]
+//しかし、ここのところ封印が強化されたという[NLINE]
+//記録はありません。[END-FE]
+[CHAR3D00][V4200]
+However, this time, no record[NLINE]
+stating as such could be found.[END-FE]
+
+
+
+
+
+//POINTER #217 @ $7804 - STRING #217 @ $A983
+#W32($7804)
+//[CHAR3D00][V4300]
+//龍玉が人々の手を[NLINE]
+//渡り歩いていた時期がありますので、[NLINE]
+//当時の巫女が龍玉に近づけなかったのでしょう。[END-FE]
+[CHAR3D00][V4300]
+There have been instances when the[NLINE]
+Dragon Orb passed from one hand to[NLINE]
+another. Because of that, the Earth[NLINE]
+Priestess might have been unable to[NLINE]
+get close to it.[END-FE]
+
+
+
+
+
+//POINTER #218 @ $7808 - STRING #218 @ $A9F0
+#W32($7808)
+//[CHAR3D00][V4400]
+//おそらくはその通りです。[NWIN]
+//
+//[CHAR3D00][V4500]
+//この龍玉の状態からして[NLINE]
+//ここ４００年ほど、[NLINE]
+//巫女は使命を果たせていません。[END-FE]
+[CHAR3D00][V4400]
+That is a possibility.[NWIN]
+
+[CHAR3D00][V4500]
+Judging by the condition of the[NLINE]
+Dragon Orb, the Earth Priestesses[NLINE]
+must have not fulfilled their mission[NLINE]
+for 400 years.[END-FE]
+
+
+
+
+
+//POINTER #219 @ $780C - STRING #219 @ $AA67
+#W32($780C)
+//[CHAR3D00][V4600]
+//そんな！[NLINE]
+//それじゃ、その中に封じられていたっていう[NLINE]
+//侵略者は復活しちゃったの？[END-FE]
+[CHAR3D00][V4600]
+No way! Then the invader that was[NLINE]
+sealed in there is now free?[END-FE]
+
+
+
+
+
+//POINTER #220 @ $7810 - STRING #220 @ $AAC0
+#W32($7810)
+//[CHAR3D00][V4700]
+//はい。[NLINE]
+//精神体である侵略者インフィニトーは[NLINE]
+//人間に乗り移って活動します。[END-FE]
+[CHAR3D00][V4700]
+Yes. This invader, who also goes by the[NLINE]
+name Infinitor, is a disembodied spirit.[NLINE]
+Once he is free, his next action will be[NLINE]
+to possess a human.[END-FE]
+
+
+
+
+
+//POINTER #221 @ $7814 - STRING #221 @ $AB13
+#W32($7814)
+//[CHAR3D00][V4800]
+//…ってことは、[NLINE]
+//すでに誰かの中に…。[NWIN]
+//
+//[CHAR3D00][V4900]
+//ど、どうするの？[NLINE]
+//その人物を見つけて倒せば良いの？[END-FE]
+[CHAR3D00][V4800]
+...Then that means, it's[NLINE]
+already inside someone...[NWIN]
+
+[CHAR3D00][V4900]
+W-what do we do? Can we find and[NLINE]
+defeat the person it possessed?[END-FE]
+
+
+
+
+
+//POINTER #222 @ $7818 - STRING #222 @ $AB7E
+#W32($7818)
+//[CHAR3D00][V4A00]
+//精神体であるインフィニトーは[NLINE]
+//殺すことが出来ません。[NLINE]
+//また別の肉体に逃げ込まれるだけです。[NWIN]
+//
+//[CHAR3D00][V4B00]
+//だから、この龍玉の中に封じるしか[NLINE]
+//方法はありません。[NWIN]
+//
+//[CHAR3D00][V4C00]
+//…守護勇士よ。[NLINE]
+//あなたが目覚めた経緯は知りませんが、[NLINE]
+//その使命に従い、私を守りなさい。[NWIN]
+//
+//[CHAR3D00][V4D00]
+//そして、あなた方にも手伝いを頼みます。[NLINE]
+//私が侵略者を再度封じるために、[NLINE]
+//その龍玉を持って、いっしょに来て下さい。[END-FE]
+[CHAR3D00][V4A00]
+Infinitor's spirit cannot be killed. It will[NLINE]
+only seek refuge into another body.[NWIN]
+
+[CHAR3D00][V4B00]
+Therefore, there is no other way except[NLINE]
+to seal it inside the Dragon Orb.[NWIN]
+
+[CHAR3D00][V4C00]
+...Brave Guard. I do not know[NLINE]
+circumstances surrounding your[NLINE]
+awakening, but I ask you to abide[NLINE]
+by your mission and defend me.[NWIN]
+
+[CHAR3D00][V4D00]
+I will call upon the aid of your companions[NLINE]
+as well. Please accompany me with the Dragon[NLINE]
+Orb so that we may seal the invader once again.[END-FE]
+
+
+
+
+
+//POINTER #223 @ $781C - STRING #223 @ $ACFB
+#W32($781C)
+//[CHAR3D00][V4E00]
+//侵略者の居所を知っているのか！[NLINE]
+//いったいどこに？[END-FE]
+[CHAR3D00][V4E00]
+So you know where the invader is! Where?[END-FE]
+
+
+
+
+
+//POINTER #224 @ $7820 - STRING #224 @ $AD36
+#W32($7820)
+//[CHAR3D00][V4F00]
+//モノポリス本社最上階。[END-FE]
+[CHAR3D00][V4F00]
+On the highest floor of Monopolis headquarters.[END-FE]
+
+
+
+
+
+//POINTER #225 @ $7824 - STRING #225 @ $AD57
+#W32($7824)
+//[CHAR3D00][V5000]
+//それじゃ、総帥が？[END-FE]
+[CHAR3D00][V5000]
+The chairman?[END-FE]
+
+
+
+
+
+//POINTER #226 @ $7828 - STRING #226 @ $AD74
+#W32($7828)
+//[CHAR3D00][V5100]
+//モノポリス財閥総帥[COL01]ブランドル[COL00]。[NWIN]
+//
+//[CHAR3D00][V5200]
+//彼に２０００年前の侵略者の魂が[NLINE]
+//宿っています。[END-FE]
+[CHAR3D00][V5100]
+The chairman of Monopolis: [COL01]Brandole[COL00].[NWIN]
+
+[CHAR3D00][V5200]
+The soul of the invader from 2,000[NLINE]
+years ago dwells inside him.[END-FE]
+
+
+
+
+
+//POINTER #227 @ $782C - STRING #227 @ $ADDB
+#W32($782C)
+//・信じられない[END-FE]
+・I can't believe it[END-FE]
+
+
+
+
+
+//POINTER #228 @ $7830 - STRING #228 @ $ADEC
+#W32($7830)
+//・信じる[END-FE]
+・I believe it[END-FE]
+
+
+
+
+
+//POINTER #229 @ $7834 - STRING #229 @ $ADF7
+#W32($7834)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #230 @ $7838 - STRING #230 @ $AE06
+#W32($7838)
+//[CHAR3D00][V5300]
+//信じがたい話かも知れませんが、[NLINE]
+//これは事実です。[NWIN]
+//
+//[CHAR3D00][V5400]
+//なぜなら、私は一度ブランドルらに[NLINE]
+//捕らえられたことがあるのですから。[END-FE]
+[CHAR3D00][V5300]
+You may not want to believe it,[NLINE]
+but it is the truth.[NWIN]
+
+[CHAR3D00][V5400]
+That is why I got captured before[NLINE]
+by Brandole's subordinates.[END-FE]
+
+
+
+
+
+//POINTER #231 @ $783C - STRING #231 @ $AE8F
+#W32($783C)
+//[CHAR3D00][V5500]
+//捕らえられただと？[NLINE]
+//よく逃げ出せたな？[END-FE]
+[CHAR3D00][V5500]
+Captured? And you managed[NLINE]
+to escape?[END-FE]
+
+
+
+
+
+//POINTER #232 @ $7840 - STRING #232 @ $AEC0
+#W32($7840)
+//[CHAR3D00][V5600]
+//そのための代償は大きい物でした。[NLINE]
+//私を守っていた守護勇士は私たちを逃がすために[NLINE]
+//命を落としたのですから…。[END-FE]
+[CHAR3D00][V5600]
+A great price had to be paid.[NLINE]
+My Brave Guard who protected me gave[NLINE]
+his life so that I could escape...[END-FE]
+
+
+
+
+
+//POINTER #233 @ $7844 - STRING #233 @ $AF35
+#W32($7844)
+//[CHAR3D00][V5700]
+//そんなことが…。[NWIN]
+//
+//[CHAR3D00][V5800]
+//それに、言われてみると、[NLINE]
+//私たちに龍玉を探させたのは[NLINE]
+//総帥の指示かしら？[NWIN]
+//
+//[CHAR3D00][V5900]
+//再度封印されることを懸念して、[NLINE]
+//とかね…。[END-FE]
+[CHAR3D00][V5700]
+How aful...[NWIN]
+
+[CHAR3D00][V5800]
+That reminds me, wasn't it the[NLINE]
+the chairman who ordered us to[NLINE]
+find the Dragon Orb?[NWIN]
+
+[CHAR3D00][V5900]
+Maybe he's worried about getting[NLINE]
+sealed again or something.[END-FE]
+
+
+
+
+
+//POINTER #234 @ $7848 - STRING #234 @ $AFD6
+#W32($7848)
+//[CHAR3D00][V5A00]
+//そう言われてみると、[NLINE]
+//私たちに龍玉を探させたのは[NLINE]
+//総帥の指示かもね。[NWIN]
+//
+//[CHAR3D00][V5B00]
+//再度封印されることを懸念して、[NLINE]
+//かも知れないわ…。[END-FE]
+[CHAR3D00][V5A00]
+That reminds me, wasn't it the[NLINE]
+the chairman who ordered us to[NLINE]
+find the Dragon Orb?[NWIN]
+
+[CHAR3D00][V5B00]
+Maybe he's worried about getting[NLINE]
+sealed again or something.[END-FE]
+
+
+
+
+
+//POINTER #235 @ $784C - STRING #235 @ $B061
+#W32($784C)
+//[CHAR3D00][V5C00]
+//たぶん、それもあるでしょう。[NLINE]
+//私を捕らえたときにも[NLINE]
+//そのことを気にしていましたから。[END-FE]
+[CHAR3D00][V5C00]
+Perhaps for that reason as well. I also[NLINE]
+wondered about his motivations when I was[NLINE]
+captured.[END-FE]
+
+
+
+
+
+//POINTER #236 @ $7850 - STRING #236 @ $B0C0
+#W32($7850)
+//[CHAR3D00][V5D00]
+//捕らえられただと？[NLINE]
+//よく逃げ出せたな？[END-FE]
+[CHAR3D00][V5D00]
+Captured? And you managed[NLINE]
+to escape?[END-FE]
+
+
+
+
+
+//POINTER #237 @ $7854 - STRING #237 @ $B0F1
+#W32($7854)
+//[CHAR3D00][V5E00]
+//そのための代償は大きい物でした。[NLINE]
+//私を守っていた守護勇士は私たちを逃がすために[NLINE]
+//命を落としたのですから…。[END-FE]
+[CHAR3D00][V5E00]
+A great price had to be paid.[NLINE]
+My Brave Guard who protected me gave[NLINE]
+his life so that I could escape...[END-FE]
+
+
+
+
+//POINTER #238 @ $7858 - STRING #238 @ $B166
+#W32($7858)
+//[CHAR3D00][V5F00]
+//そんなことが…。[END-FE]
+[CHAR3D00][V5F00]
+How awful...[END-FE]
+
+
+
+
+
+//POINTER #239 @ $785C - STRING #239 @ $B181
+#W32($785C)
+//[CHAR3D00][V6000]
+//ここ数代のモノポリス社の総帥には[NLINE]
+//すべてインフィニトーが乗り移ったと[NLINE]
+//考えられます。[NWIN]
+//
+//[CHAR3D00][V6100]
+//おそらく、もっとも権力があり、[NLINE]
+//適合する肉体が、総帥の家系なのでしょう。[END-FE]
+[CHAR3D00][V6000]
+It is likely that Infinitor has[NLINE]
+possessed all Monopolis chairmans[NLINE]
+these past generations.[NWIN]
+
+[CHAR3D00][V6100]
+Perhaps because the most powerful and[NLINE]
+most compatible bodies are to be[NLINE]
+found within the chairman's family.[END-FE]
+
+
+
+
+
+//POINTER #240 @ $7860 - STRING #240 @ $B232
+#W32($7860)
+//[CHAR3D00][V6200]
+//それじゃ、モノポリス社に向かうんだな。[END-FE]
+[CHAR3D00][V6200]
+So we're off to Monopolis then.[END-FE]
+
+
+
+
+
+//POINTER #241 @ $7864 - STRING #241 @ $B263
+#W32($7864)
+//　[NLINE]
+//イリステレサが仲間になった！[END-FE]
+[NLINE]
+Iristelessa has joined your party![END-FE]
+
+
+
+
+
+//POINTER #242 @ $7868 - STRING #242 @ $B286
+#W32($7868)
+//それよりも[NLINE]
+//今は龍玉を見せて下さい！[END-FE]
+Do not waste time![NLINE]
+Please show the Dragon Orb to me![END-FE]
+
+
+
+
+
+//POINTER #243 @ $786C - STRING #243 @ $B2AD
+#W32($786C)
+//それは…[COL01]結界破りの指輪[COL00]…ですね。[NLINE]
+//この大陸を取り囲み、封じていた結界を[NLINE]
+//抜けるための指輪です。[NWIN]
+//
+//本来は我々、大地の里の関係者しか[NLINE]
+//持っていなかったはずなのですが…。[END-FE]
+That is... a [COL01]Barrier Breaking Ring[COL00].[NLINE]
+It used to break through the barrier[NLINE]
+surrounding this continent.[NWIN]
+
+Originally, only people from Earth[NLINE]
+Village were in possession of one...[END-FE]
+
+
+
+
+
+//POINTER #244 @ $7870 - STRING #244 @ $B35A
+#W32($7870)
+//それをあのネーリスという敵が[NLINE]
+//持っていたということは…。[END-FE]
+That enemy from earlier, Neilis;[NLINE]
+she had it. Which means that...[END-FE]
+
+
+
+
+
+//POINTER #245 @ $7874 - STRING #245 @ $B395
+#W32($7874)
+//・４００年前に奪った[END-FE]
+・She stole it 400 years ago[END-FE]
+
+
+
+
+
+//POINTER #246 @ $7878 - STRING #246 @ $B3AC
+#W32($7878)
+//・ネーリスも大地の里関係者[END-FE]
+・Neilis also has some connenction to Earth Village[END-FE]
+
+
+
+
+
+//POINTER #247 @ $787C - STRING #247 @ $B3C9
+#W32($787C)
+//・想像もつかない[END-FE]
+・I'm not sure[END-FE]
+
+
+
+
+
+//POINTER #248 @ $7880 - STRING #248 @ $B3DC
+#W32($7880)
+//はい、私もそう思います。[END-FE]
+Yes, I believe so as well.[END-FE]
+
+
+
+
+
+//POINTER #249 @ $7884 - STRING #249 @ $B3F7
+#W32($7884)
+//いいえ、それはないと思います。[END-FE]
+No, I do not believe so.[END-FE]
+
+
+
+
+
+//POINTER #250 @ $7888 - STRING #250 @ $B418
+#W32($7888)
+//これは、私の推測ですが、[NLINE]
+//先代、先々代の巫女が封印強化に失敗したのは[NLINE]
+//彼女に襲われたからではないでしょうか。[NWIN]
+//
+//その時に奪った[COL01]結界破りの指輪[COL00]で、[NLINE]
+//この大陸に自由に出入り出来るようになった。[END-FE]
+I suspect the reason why the previous Earth[NLINE]
+Priestess, and the one before her, failed to[NLINE]
+strengthen the seal, is because she attacked[NLINE]
+them.[NWIN]
+
+With the [COL01]Barrier Breaking Ring[COL00] she stole,[NLINE]
+she became able to freely enter and exit this continent.[END-FE]
+
+
+
+
+
+//POINTER #251 @ $788C - STRING #251 @ $B4DB
+#W32($788C)
+//あの敵の行動と、封印のことを考えると[NLINE]
+//それが一番つじつまが合っていますね。[END-FE]
+That seems to make the most sense.[END-FE]
+
+
+
+
+
+//POINTER #252 @ $7890 - STRING #252 @ $B528
+#W32($7890)
+//これがわかったところで、[NLINE]
+//封印が解けてしまっているという事実は[NLINE]
+//かわりません。[NWIN]
+//
+//それより、[NLINE]
+//はやくモノポリス社に向かいましょう。[NWIN]
+//
+//モノポリス社総帥の家系以外に、[NLINE]
+//適合する肉体を見つけられでもしたら[NLINE]
+//インフィニトーを追いつめるのは[NLINE]
+//困難になりますから。[END-FE]
+However, knowing that does not change[NLINE]
+the fact that the seal has been broken.[NWIN]
+
+Let us quickly head to Monopolis.[NWIN]
+
+If Infinitor is able to find a suitable[NLINE]
+host body outside of chairman's family,[NLINE]
+pursuing it will become difficult.[END-FE]
+
+
+
+
+
+//POINTER #253 @ $7894 - STRING #253 @ $B625
+#W32($7894)
+//しかし、正しい情報を得ることも[NLINE]
+//必要ではないでしょうか？[NWIN]
+//
+//そういえば、ヤージェン村の宿に[NLINE]
+//妖精のノーラがいます。[NWIN]
+//
+//彼女は物に込められた記憶を[NLINE]
+//読むことに長けています。[NWIN]
+//
+//彼女に指輪を見て貰ったら[NLINE]
+//いかがでしょうか？[END-FE]
+However isn't it also necessary[NLINE]
+to obtain accurate information?[NWIN]
+
+That reminds me, there's a fairy[NLINE]
+named Nora at the inn in Jaergen.[NWIN]
+
+She is good at reading the[NLINE]
+memories within objects.[NWIN]
+
+How about we have her take a[NLINE]
+look at the ring?[END-FE]
+
+
+
+
+
+//POINTER #254 @ $7898 - STRING #254 @ $B6FC
+#W32($7898)
+//それは[COL01]結界破りの指輪[COL00]です。[NLINE]
+//この大陸の結界が消えた今では、[NLINE]
+//何の意味もありません。[END-FE]
+That is a [COL01]Barrier Breaking Ring[COL00].[NLINE]
+Now that the barrier around the continent[NLINE]
+has disappeared, it no longer serves any purpose.[END-FE]
+
+
+
+
+
+//POINTER #255 @ $789C - STRING #255 @ $B757
+#W32($789C)
+//俺じゃなくて、[NLINE]
+//巫女に渡してくれ。[END-FE]
+Don't show it to me.[NLINE]
+Show it to the Earth Priestess.[END-FE]
+
+
+
+
+
+//POINTER #256 @ $78A0 - STRING #256 @ $B77C
+#W32($78A0)
+//私に渡すんじゃないでしょ？[NLINE]
+//早く彼女に渡してあげて。[END-FE]
+You don't have to show it to me.[NLINE]
+Hurry up and show it to her.[END-FE]
+
+
+
+
+
+//POINTER #257 @ $78A4 - STRING #257 @ $B7B3
+#W32($78A4)
+//そういえば、勇者様。[NLINE]
+//先ほど敵が何かを落としていきましたね？[END-FE]
+I just remembered something, Brave One.[NLINE]
+Didn't that enemy from earlier drop[NLINE]
+something?[END-FE]
+
+
+
+
+
+//POINTER #258 @ $78A8 - STRING #258 @ $B7F2
+#W32($78A8)
+//いいえ、[NLINE]
+//それではありませんでした。[END-FE]
+No, that wasn't it.[END-FE]
+
+
+
+
+
+//POINTER #259 @ $78AC - STRING #259 @ $B819
+#W32($78AC)
+//見つかりませんか？[NLINE]
+//もっと良く探してみて下さい。[END-FE]
+Can't you find it? Please search[NLINE]
+for it more thoroughly.[END-FE]
+
+
+
+
+
+//POINTER #260 @ $78B0 - STRING #260 @ $B84C
+#W32($78B0)
+//ヌナーンの廃墟[END-FE]
+Ruins of Nu Nahn[END-FE]
+
+
+
+
+
+//POINTER #261 @ $78B4 - STRING #261 @ $B85D
+#W32($78B4)
+//ヌナーンの廃墟[END-FE]
+Ruins of Nu Nahn[END-FE]
+
+
+
+
+
+//POINTER #262 @ $78B8 - STRING #262 @ $B86E
+#W32($78B8)
+//扉のようだが、まったく動かない。　[NLINE]
+//カギがかかっているらしいが、　　　[NLINE]
+//カギ穴は見当たらない。　　　　　　[END-FE]
+It appears to be a door. However,[NLINE]
+it won't move at all. It's locked[NLINE]
+but there doesn't appear to be a[NLINE]
+keyhole.[END-FE]
+
+
+
+
+
+//POINTER #263 @ $78BC - STRING #263 @ $B8DB
+#W32($78BC)
+//何か落ちているようだ…。[END-FE]
+Something seems to have dropped...[END-FE]
+
+
+
+
+
+//POINTER #264 @ $78C0 - STRING #264 @ $B8F6
+#W32($78C0)
+//・拾ってみる[END-FE]
+・Try picking it up[END-FE]
+
+
+
+
+
+//POINTER #265 @ $78C4 - STRING #265 @ $B905
+#W32($78C4)
+//・興味なし[END-FE]
+・Ignore it[END-FE]
+
+
+
+
+
+//POINTER #266 @ $78C8 - STRING #266 @ $B912
+#W32($78C8)
+//妖精コスチューム[COL01]プロテクトスーツ[COL00]を手に入れた！[END-FE]
+You obtained [COL01]Protective Suit[COL00]![END-FE]
+
+
+
+
+
+//POINTER #267 @ $78CC - STRING #267 @ $B949
+#W32($78CC)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #268 @ $78D0 - STRING #268 @ $B95E
+#W32($78D0)
+//Ｄ　Ｆ２[END-FE]
+D F2[END-FE]
+
+
+
+
+
+//POINTER #269 @ $78D4 - STRING #269 @ $B969
+#W32($78D4)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #270 @ $78D8 - STRING #270 @ $B980
+#W32($78D8)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #271 @ $78DC - STRING #271 @ $B98F
+#W32($78DC)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+

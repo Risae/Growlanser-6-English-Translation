@@ -1,0 +1,1171 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $3110, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2FA0, 4, PTR)
+
+#JMP($3110)
+#HDR($3110)
+
+
+
+
+
+//POINTER #0 @ $2FA0 - STRING #0 @ $3110
+#W32($2FA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2FA4 - STRING #1 @ $3113
+#W32($2FA4)
+//バゥマン船長[END-FF]
+Captain Bowman[END-FF]
+
+
+
+
+
+//POINTER #2 @ $2FA8 - STRING #2 @ $3122
+#W32($2FA8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2FAC - STRING #3 @ $312F
+#W32($2FAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2FB0 - STRING #4 @ $3154
+#W32($2FB0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2FB4 - STRING #5 @ $3179
+#W32($2FB4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2FB8 - STRING #6 @ $318E
+#W32($2FB8)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2FBC - STRING #7 @ $31B3
+#W32($2FBC)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2FC0 - STRING #8 @ $31D8
+#W32($2FC0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2FC4 - STRING #9 @ $320D
+#W32($2FC4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2FC8 - STRING #10 @ $3242
+#W32($2FC8)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2FCC - STRING #11 @ $3267
+#W32($2FCC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2FD0 - STRING #12 @ $328C
+#W32($2FD0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2FD4 - STRING #13 @ $32B1
+#W32($2FD4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2FD8 - STRING #14 @ $32C6
+#W32($2FD8)
+//井戸がある。[NLINE]
+//村の人々が生活に利用しているようだ。[END-FE]
+It's a well.[NLINE]
+It seems that the villagers use it[NLINE]
+for their daily lives.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2FDC - STRING #15 @ $32FB
+#W32($2FDC)
+//ワースリーが全滅し、[NLINE]
+//平和維持軍はほとんど解散状態。[NLINE]
+//このリオレーは孤立してしまっておる。[NWIN]
+//
+//海辺の村ですから、スクリーパーに[NLINE]
+//脅かされる毎日。[NWIN]
+//
+//いっそこの村を捨てて、ザーランバ辺りに[NLINE]
+//逃げた方が良いのかもしれませんなぁ。[END-FE]
+Warslee has been completely destroyed and[NLINE]
+the PMB has almost completely disbanded.[NLINE]
+We're on our own now.[NWIN]
+
+Because we're a seaside village, we're[NLINE]
+being threatened by Screapers every day.[NWIN]
+
+It may be best to abandon the village[NLINE]
+and escape to the vicinity of Zaramba.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2FE0 - STRING #16 @ $33DA
+#W32($2FE0)
+//アドモニッシャーが無くなっても、[NLINE]
+//平和維持軍は存続しておる。[NLINE]
+//おかげでワシらは安心して暮らせますわい。[END-FE]
+Even without the Admonisher, the PMB[NLINE]
+continues to exist. Because of that,[NLINE]
+we can live with peace of mind.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2FE4 - STRING #17 @ $3443
+#W32($2FE4)
+//東に刑務所があるのじゃが、[NLINE]
+//ほとんど使われておらん。[NWIN]
+//
+//平和維持軍が解散状態みたいなものじゃから、[NLINE]
+//仕方ないのかもしれんな。[END-FE]
+There's a prison in the east,[NLINE]
+but it's not really used much.[NWIN]
+
+It seems the PMB is disbanding, so[NLINE]
+I suppose it can't be helped.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2FE8 - STRING #18 @ $34C0
+#W32($2FE8)
+//大地の活力が次第に蘇っているそうじゃ。[NLINE]
+//これで作物が育つようになれば、[NLINE]
+//戦争の原因が１つ無くなるじゃろうて。[END-FE]
+It seems that the vitality of the earth[NLINE]
+is gradually returning. If the crops[NLINE]
+continue to grow well, one cause[NLINE]
+for war will disappear.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2FEC - STRING #19 @ $352F
+#W32($2FEC)
+//ボクのお父さん、[NLINE]
+//刑務所で罪をつぐなってるんだ。[NWIN]
+//
+//ボクはお父さんが帰ってくるまで[NLINE]
+//ずっと待ってるよ！[END-FE]
+My dad is in prison to make up for[NLINE]
+the bad things he did.[NWIN]
+
+Until he comes back come, I'll[NLINE]
+be here waiting![END-FE]
+
+
+
+
+
+//POINTER #20 @ $2FF0 - STRING #20 @ $3596
+#W32($2FF0)
+//この辺りをうろついている[NLINE]
+//ダイアストライプっていう獣は[NLINE]
+//素早くてな。[NWIN]
+//
+//剣でも弓でもひょいひょい[NLINE]
+//かわされてしまうんだ。[NLINE]
+//あんたらも気をつけろよ！[END-FE]
+There are creatures prowling around[NLINE]
+here called Diastripes. They're[NLINE]
+very quick.[NWIN]
+
+It nimbly dodges any weapon, be it sword[NLINE]
+or bow. You should be careful as well![END-FE]
+
+
+
+
+
+//POINTER #21 @ $2FF4 - STRING #21 @ $3629
+#W32($2FF4)
+//ワースリーがスクリーパーに襲われて[NLINE]
+//全滅したって聞きました。[NLINE]
+//このリオレー村も、[NLINE]
+//いつそうなる事か……。[NWIN]
+//
+//でも、この大陸には、[NLINE]
+//安全に豊かな暮らしが出来る場所など[NLINE]
+//ないのかもしれませんね。[END-FE]
+I heard that Warslee got attacked[NLINE]
+by a Screaper and was completely[NLINE]
+destroyed. I wonder when this[NLINE]
+village will be next...[NWIN]
+
+However, there might be no other[NLINE]
+places left on this continent where[NLINE]
+we can live safe and prosperous lives.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2FF8 - STRING #22 @ $36E8
+#W32($2FF8)
+//平和維持軍の方が、[NLINE]
+//スクリーパーの親玉を倒してくれたそうです。[NWIN]
+//
+//いつかこの大陸からスクリーパーが[NLINE]
+//いなくなる日が来るかもと、[NLINE]
+//そんな希望が持てるようになりました。[END-FE]
+I heard the PMB destroyed the Screaper[NLINE]
+queen.[NWIN]
+
+That makes me hope that someday, Screapers will[NLINE]
+completely disappear from this continent.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2FFC - STRING #23 @ $378D
+#W32($2FFC)
+//少し前に、この浜辺に男が流れ着いたんだ。[NWIN]
+//
+//病院に運んだんだけど、[NLINE]
+//今もまだ意識が戻らないらしい。[END-FE]
+A man washed ashore on this beach[NLINE]
+not so long ago.[NWIN]
+
+I took him to the hospital but[NLINE]
+he doesn't seem to have regained[NLINE]
+consciousness yet.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3000 - STRING #24 @ $37F0
+#W32($3000)
+//[CHAR2503][V2700]
+//ずいぶん前になるが、[NLINE]
+//この浜辺に男が打ち上げられていたよ。[NWIN]
+//
+//[CHAR2503][V2800]
+//病院に運んだんだが、[NLINE]
+//自分が誰なのか思い出せないらしい。[END-FE]
+//Man\\
+[CHAR2503][V2700]
+This already happened a while ago,[NLINE]
+but a man washed up ashore on this[NLINE]
+beach.[NWIN]
+
+[CHAR2503][V2800]
+We took him to the infirmary,[NLINE]
+but he doesn't seem to remember[NLINE]
+himself or anyone else.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3004 - STRING #25 @ $3877
+#W32($3004)
+//あの人はアンタ達の知り合いだったのか。[END-FE]
+Is that man an acquaintance of yours?[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3008 - STRING #26 @ $38A0
+#W32($3008)
+//　[NLINE]
+//棚には薬品が並んでいる。[END-FE]
+[NLINE]
+Chemicals are lined up on the shelf.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $300C - STRING #27 @ $38BF
+#W32($300C)
+//　[NLINE]
+//机の上には花が生けてある。[END-FE]
+[NLINE]
+There are flowers on the desk.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3010 - STRING #28 @ $38E0
+#W32($3010)
+//[CHAR2503][V3F00]
+//何ですかな？[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V3F00]
+What is it?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3014 - STRING #29 @ $38F7
+#W32($3014)
+//[CHAR2503][V4000]
+//これに見覚えがありませんか？[END-FE]
+//Hofman\\
+[CHAR2503][V4000]
+Do you remember this?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3018 - STRING #30 @ $391E
+#W32($3018)
+//[CHAR2503][V4100]
+//このペンダントは…、[NLINE]
+//どこかで…、[NLINE]
+//…懐かしい感じがする…。[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4100]
+This pendant... Somehow...[NLINE]
+It makes me feel nostalgic...[END-FE]
+
+
+
+
+
+//POINTER #31 @ $301C - STRING #31 @ $3965
+#W32($301C)
+//[CHAR2503][V4200]
+//…あれは…どこだっただろう？[NLINE]
+//これを手にすると、[NLINE]
+//幸福感に包まれる…。[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4200]
+...Where was it? When I got[NLINE]
+this, I was filled with joy...[END-FE]
+
+
+
+
+
+//POINTER #32 @ $3020 - STRING #32 @ $39B6
+#W32($3020)
+//[CHAR2503][V4300]
+//あなたは、それを[NLINE]
+//誰にもらったのですか？[END-FE]
+//Hofman\\
+[CHAR2503][V4300]
+From whom did you get it?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $3024 - STRING #33 @ $39E9
+#W32($3024)
+//[CHAR2503][V4400]
+//誰に…？[NWIN]
+//
+//[CHAR2503][V4500]
+//…そうだ…これはもらったのだ。[NLINE]
+//私の誕生日に…。[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4400]
+From whom...?[NWIN]
+
+[CHAR2503][V4500]
+...That's right... I got[NLINE]
+it from someone.[NLINE]
+It was on a birthday...[END-FE]
+
+
+
+
+
+//POINTER #34 @ $3028 - STRING #34 @ $3A36
+#W32($3028)
+//[CHAR2503][V4600]
+//…誕生日…？[NLINE]
+//誰の…いや、私の誕生日だ。　　　[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4600]
+...Birthday...? Whose-no,[NLINE]
+it was my own birthday.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $302C - STRING #35 @ $3A6F
+#W32($302C)
+//[CHAR2503][V4700]
+//…目の前には妻の作ったごちそうと[NLINE]
+//イタズラ好きの息子の顔が…。[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4700]
+...Before my eyes were the[NLINE]
+feast made by my wife and[NLINE]
+the face of my mischievous son...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $3030 - STRING #36 @ $3AB8
+#W32($3030)
+//[CHAR2503][V4800]
+//…おおっ！[NLINE]
+//そうだ、私には家族が！[NWIN]
+//
+//[CHAR2503][V4900]
+//これは私の航海の無事を祈って、[NLINE]
+//妻と息子がプレゼントしてくれたのだ！[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4800]
+...Oh, that's right![NLINE]
+I've got a family![NWIN]
+
+[CHAR2503][V4900]
+My wife and child prayed for a[NLINE]
+safe voyage and gave this pendant[NLINE]
+to me as a present![END-FE]
+
+
+
+
+
+//POINTER #37 @ $3034 - STRING #37 @ $3B33
+#W32($3034)
+//[CHAR2503][V4A00]
+//あなたの、お名前を[NLINE]
+//教えて頂けませんか？[END-FE]
+//Hofman\\
+[CHAR2503][V4A00]
+Could you tell me your name?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $3038 - STRING #38 @ $3B66
+#W32($3038)
+//[CHAR2503][V4B00]
+//私は、モノポリス社海運部の[NLINE]
+//バゥマン船長だ！[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4B00]
+I'm Captain Bowman of the Monopolis[NLINE]
+Maritime Transport Department![END-FE]
+
+
+
+
+
+//POINTER #39 @ $303C - STRING #39 @ $3B9D
+#W32($303C)
+//[CHAR2503][V4C00]
+//よく思い出してくれましたね。[NLINE]
+//レイスタンでご家族が心配していますよ。[END-FE]
+//Hofman\\
+[CHAR2503][V4C00]
+You remember now.[NLINE]
+Your family in Leystan is[NLINE]
+worried about you.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $3040 - STRING #40 @ $3BEC
+#W32($3040)
+//[CHAR2503][V4D00]
+//そうか…、[NLINE]
+//家族には心配をかけたな…。[NWIN]
+//
+//[CHAR2503][V4E00]
+//ここを出られるようになったら、[NLINE]
+//すぐにレイスタンに戻るよ。[NLINE]
+//本当にありがとう！[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V4D00]
+I see... I made my family[NLINE]
+worry...[NWIN]
+
+[CHAR2503][V4E00]
+As soon as I'm able to leave, I'll[NLINE]
+return to Leystan immediately.[NLINE]
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #41 @ $3044 - STRING #41 @ $3C75
+#W32($3044)
+//[CHAR2503][V4F00]
+//どういたしまして。[END-FE]
+//Hofman\\
+[CHAR2503][V4F00]
+You're welcome.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $3048 - STRING #42 @ $3C92
+#W32($3048)
+//本当にありがとう！[END-FE]
+//Captain Bowman\\
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #43 @ $304C - STRING #43 @ $3CA7
+#W32($304C)
+//[CHAR2503][V2A00]
+//お前さんは…[NLINE]
+//どこかで見たような…。[NLINE]
+//確か船の上で…うぅ…。[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V2A00]
+I've seen you somewhere before...[NLINE]
+It was on a ship...[NLINE]
+Ugh...[END-FE]
+
+
+
+
+
+//POINTER #44 @ $3050 - STRING #44 @ $3CEE
+#W32($3050)
+//[CHAR2503][V2B00]
+//やっぱり、この人、[NLINE]
+//あの時の船長さんよ！[NWIN]
+//
+//[CHAR2503][V2C00]
+//無事だったんですね、[NLINE]
+//バゥマン船長！[END-FE]
+//Wendy\\
+[CHAR2503][V2B00]
+Just as I thought! This man is[NLINE]
+the captain of that ship we[NLINE]
+were on earlier![NWIN]
+
+[CHAR2503][V2C00]
+I'm glad you're safe, Captain Bowman![END-FE]
+
+
+
+
+
+//POINTER #45 @ $3054 - STRING #45 @ $3D4F
+#W32($3054)
+//[CHAR2503][V2D00]
+//あなたが、バゥマン船長ですか…？[END-FE]
+//Hofman\\
+[CHAR2503][V2D00]
+Are you Captain Bowman...?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $3058 - STRING #46 @ $3D7A
+#W32($3058)
+//[CHAR2503][V2E00]
+//バゥマン…おお…[NLINE]
+//…聞き覚えが…。[END-FE]
+//Patient (Captain Bowman)\\
+[CHAR2503][V2E00]
+Bowman... Ugh...[NLINE]
+I can't remember...[END-FE]
+
+
+
+
+
+//POINTER #47 @ $305C - STRING #47 @ $3DA7
+#W32($305C)
+//[CHAR2503][V2F00]
+//困ったな…。[NLINE]
+//何とか記憶を戻せないものだろうか…。[END-FE]
+//Hofman\\
+[CHAR2503][V2F00]
+This isn't good... I wonder if we could[NLINE]
+somehow restore his memory...?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $3060 - STRING #48 @ $3DE4
+#W32($3060)
+//…思い出せん…、[NLINE]
+//…思い出せんのだ…。[END-FE]
+...Can't remember...[NLINE]
+...I can't remember...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $3064 - STRING #49 @ $3E0D
+#W32($3064)
+//勝手に病室に行っては困ります！[NLINE]
+//戻ってきて下さい！[END-FE]
+Visitors may not enter the infirmary[NLINE]
+without permission! Please return[NLINE]
+to the lobby![END-FE]
+
+
+
+
+
+//POINTER #50 @ $3068 - STRING #50 @ $3E42
+#W32($3068)
+//　[NLINE]
+//カギがかかっている。[END-FE]
+[NLINE]
+It's locked.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $306C - STRING #51 @ $3E5D
+#W32($306C)
+//『病気や怪我に苦しむ人々を救うため、[NLINE]
+//　平和維持軍で活動してみませんか？[NLINE]
+//　医師、看護スタッフを募集中！』[NLINE]
+//　と、書かれている。[END-FE]
+It reads:[NLINE]
+ "Always wanted to save people from[NLINE]
+ illness or injury? Join the PMB[NLINE]
+ today! We're currently looking for[NLINE]
+ doctors and nurses!"[END-FE]
+
+
+
+
+
+//POINTER #52 @ $3070 - STRING #52 @ $3EE0
+#W32($3070)
+//　[NLINE]
+//風景画が飾られている。[END-FE]
+[NLINE]
+A landscape painting is displayed on the wall.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $3074 - STRING #53 @ $3EFD
+#W32($3074)
+//[CHAR2503][V2900]
+//どなたかのお見舞いですか？[END-FE]
+//Doctor\\
+[CHAR2503][V2900]
+Are you visiting somebody?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $3078 - STRING #54 @ $3F22
+#W32($3078)
+//・記憶を無くした男[END-FE]
+・We would like to see the man who[NLINE]
+ lost his memory[END-FE]
+
+
+
+
+
+//POINTER #55 @ $307C - STRING #55 @ $3F37
+#W32($307C)
+//・特に用事はない[END-FE]
+・I've got no particular business[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3080 - STRING #56 @ $3F4A
+#W32($3080)
+//病室にご案内します。[END-FE]
+//Doctor\\
+I shall guide you to his room.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3084 - STRING #57 @ $3F61
+#W32($3084)
+//患者は先ほど眠ったばかりですので、[NLINE]
+//また別の機会にお願いします。[END-FE]
+The patient has just gone to sleep.[NLINE]
+Please come back another time.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3088 - STRING #58 @ $3FA4
+#W32($3088)
+//院内ではお静かにお願いします。[END-FE]
+Please be quiet in the infirmary.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $308C - STRING #59 @ $3FC5
+#W32($308C)
+//患者の記憶を取り戻してくれたんですね。[NLINE]
+//ありがとうございました。[END-FE]
+So you restored the patient's memory.[NLINE]
+Thank you very much.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3090 - STRING #60 @ $4008
+#W32($3090)
+//僕はお見舞いに来てるんだ！[NWIN]
+//
+//お父さんはイジグンの兵士で、[NLINE]
+//モンスターから旅人を守って[NLINE]
+//ケガをしたんだよ。[NWIN]
+//
+//僕も大きくなったら、お父さんみたいに[NLINE]
+//イジグン兵になるつもりなんだけど、[NLINE]
+//イジグンにはもうほとんど人はいないって[NLINE]
+//お父さんが悲しそうに言ってた…。[NWIN]
+//
+//どうしてだろう？[END-FE]
+I'm here to vist someone![NWIN]
+
+My dad's a PMB soldier. He got[NLINE]
+injured while protecting travelers[NLINE]
+from monsters.[NWIN]
+
+When I grow up, I want to be a[NLINE]
+PMB soldier like my dad. But he[NLINE]
+told me there's almost no one with[NLINE]
+the PMB anymore...[NWIN]
+
+Why's that?[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3094 - STRING #61 @ $4119
+#W32($3094)
+//僕はお見舞いに来てるんだ！[NWIN]
+//
+//お父さんはイジグンの兵士で、[NLINE]
+//モンスターから旅人を守って[NLINE]
+//ケガをしたんだよ。[NWIN]
+//
+//僕も大きくなったら、[NLINE]
+//お父さんみたいに立派な[NLINE]
+//イジグン兵になるんだ！[END-FE]
+I'm here to vist someone![NWIN]
+
+My dad's a PMB soldier. He got[NLINE]
+injured while protecting travelers[NLINE]
+from monsters.[NWIN]
+
+When I grow up, I want to be a[NLINE]
+good PMB soldier like my dad![END-FE]
+
+
+
+
+
+//POINTER #62 @ $3098 - STRING #62 @ $41CA
+#W32($3098)
+//お客さん！[NLINE]
+//勝手にお部屋に行かれては困ります。[NWIN]
+//
+//お泊まりでしたら、[NLINE]
+//こちらで承りますので。[END-FE]
+Excuse me, sir![NLINE]
+Please don't go to a room without[NLINE]
+permission![NWIN]
+
+If you would like to stay,[NLINE]
+please head on over to the[NLINE]
+reception desk.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $309C - STRING #63 @ $4227
+#W32($309C)
+//いらっしゃいませ！[NLINE]
+//どのようなご用でしょうか？[END-FE]
+Welcome![NLINE]
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #64 @ $30A0 - STRING #64 @ $4258
+#W32($30A0)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #65 @ $30A4 - STRING #65 @ $4265
+#W32($30A4)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #66 @ $30A8 - STRING #66 @ $4274
+#W32($30A8)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #67 @ $30AC - STRING #67 @ $4285
+#W32($30AC)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #68 @ $30B0 - STRING #68 @ $429A
+#W32($30B0)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になりますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $30B4 - STRING #69 @ $42C6
+#W32($30B4)
+//ついでに記録をとられますか？[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #70 @ $30B8 - STRING #70 @ $42E5
+#W32($30B8)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $30BC - STRING #71 @ $430A
+#W32($30BC)
+//お客さん……[COL09][TEAR-DROP][COL00][NLINE]
+//お金が足りないみたいですよ？[END-FE]
+//Inn Clerk\\
+Sir...[COL09][TEAR-DROP][COL00][NLINE]
+It appears you're short on cash.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $30C0 - STRING #72 @ $433F
+#W32($30C0)
+//リオレー村[END-FE]
+Rio Rey[END-FE]
+
+
+
+
+
+//POINTER #73 @ $30C4 - STRING #73 @ $434C
+#W32($30C4)
+//Ｄ　リオレー村[END-FE]
+D Rio Rey[END-FE]
+
+
+
+
+
+//POINTER #74 @ $30C8 - STRING #74 @ $435D
+#W32($30C8)
+//またのご利用を[NLINE]
+//お待ちしております。[END-FE]
+We look forward to[NLINE]
+seeing you again.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $30CC - STRING #75 @ $4384
+#W32($30CC)
+//いらっしゃいませ。[NLINE]
+//よろず屋へようこそ。[END-FE]
+Welcome to the item store.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $30D0 - STRING #76 @ $43AF
+#W32($30D0)
+//どのような[NLINE]
+//ご用件でしょうか？[END-FE]
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #77 @ $30D4 - STRING #77 @ $43D0
+#W32($30D4)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #78 @ $30D8 - STRING #78 @ $43DD
+#W32($30D8)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #79 @ $30DC - STRING #79 @ $43EA
+#W32($30DC)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #80 @ $30E0 - STRING #80 @ $43F9
+#W32($30E0)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #81 @ $30E4 - STRING #81 @ $4402
+#W32($30E4)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #82 @ $30E8 - STRING #82 @ $4429
+#W32($30E8)
+//　[NLINE]
+//大陸の地図が貼ってある。[END-FE]
+[NLINE]
+A map of the continent is hanging[NLINE]
+on the wall.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $30EC - STRING #83 @ $4448
+#W32($30EC)
+//風景画が貼ってある。[NLINE]
+//この村の海岸を描いたもののようだ。[END-FE]
+It's a landscape painting.[NLINE]
+It seems to depict the coast[NLINE]
+at this village.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $30F0 - STRING #84 @ $4483
+#W32($30F0)
+//何を描いたのかよくわからない[NLINE]
+//抽象的な絵が貼ってある。[END-FE]
+It's an abstract painting. You're[NLINE]
+not sure what it depicts.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $30F4 - STRING #85 @ $44BC
+#W32($30F4)
+//ベッドで休みますか？[END-FE]
+Would you like to rest on the bed?[END-FE]
+
+
+
+
+
+//POINTER #86 @ $30F8 - STRING #86 @ $44D3
+#W32($30F8)
+//　[NLINE]
+//花が生けてある。[END-FE]
+[NLINE]
+Flowers have been arranged in a vase.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $30FC - STRING #87 @ $44EA
+#W32($30FC)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+[NLINE]
+There's a lamp placed on the table.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3100 - STRING #88 @ $4517
+#W32($3100)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+[NLINE]
+It's a dresser.[END-FE]
+
+
+
+

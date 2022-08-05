@@ -1,0 +1,2447 @@
+
+
+//POINTER #0 @ $7AA0 - STRING #0 @ $7F70
+#W32($7AA0)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $7AA4 - STRING #1 @ $7F73
+#W32($7AA4)
+//・敵の全滅[END-FE]
+
+
+
+
+
+//POINTER #2 @ $7AA8 - STRING #2 @ $7F80
+#W32($7AA8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #3 @ $7AAC - STRING #3 @ $7FA5
+#W32($7AAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #4 @ $7AB0 - STRING #4 @ $7FCA
+#W32($7AB0)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #5 @ $7AB4 - STRING #5 @ $7FDF
+#W32($7AB4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #6 @ $7AB8 - STRING #6 @ $8014
+#W32($7AB8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #7 @ $7ABC - STRING #7 @ $8049
+#W32($7ABC)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #8 @ $7AC0 - STRING #8 @ $806E
+#W32($7AC0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #9 @ $7AC4 - STRING #9 @ $8093
+#W32($7AC4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #10 @ $7AC8 - STRING #10 @ $80B8
+#W32($7AC8)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #11 @ $7ACC - STRING #11 @ $80CD
+#W32($7ACC)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+
+
+
+
+
+//POINTER #12 @ $7AD0 - STRING #12 @ $80F4
+#W32($7AD0)
+//現在地：F00_0　移動先：F00_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #13 @ $7AD4 - STRING #13 @ $811F
+#W32($7AD4)
+//現在地：F00_1　移動先：D07_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #14 @ $7AD8 - STRING #14 @ $814A
+#W32($7AD8)
+//現在地：F00_1　移動先：D13_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #15 @ $7ADC - STRING #15 @ $8175
+#W32($7ADC)
+//現在地：F00_1　移動先：F00_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #16 @ $7AE0 - STRING #16 @ $81A0
+#W32($7AE0)
+//現在地：F00_1　移動先：F00_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #17 @ $7AE4 - STRING #17 @ $81CB
+#W32($7AE4)
+//現在地：F00_2　移動先：F00_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #18 @ $7AE8 - STRING #18 @ $81F6
+#W32($7AE8)
+//現在地：F00_2　移動先：F00_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #19 @ $7AEC - STRING #19 @ $8221
+#W32($7AEC)
+//現在地：F00_2　移動先：F00_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #20 @ $7AF0 - STRING #20 @ $824C
+#W32($7AF0)
+//現在地：F00_3　移動先：F00_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #21 @ $7AF4 - STRING #21 @ $8277
+#W32($7AF4)
+//現在地：F00_3　移動先：F00_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #22 @ $7AF8 - STRING #22 @ $82A2
+#W32($7AF8)
+//現在地：F00_4　移動先：F00_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #23 @ $7AFC - STRING #23 @ $82CD
+#W32($7AFC)
+//現在地：F00_4　移動先：F00_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #24 @ $7B00 - STRING #24 @ $82F8
+#W32($7B00)
+//現在地：F00_4　移動先：F00_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #25 @ $7B04 - STRING #25 @ $8323
+#W32($7B04)
+//現在地：F00_5　移動先：F00_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #26 @ $7B08 - STRING #26 @ $834E
+#W32($7B08)
+//現在地：F00_5　移動先：F00_6　移動する？[END-FE]
+
+
+
+
+
+//POINTER #27 @ $7B0C - STRING #27 @ $8379
+#W32($7B0C)
+//現在地：F00_5　移動先：F08_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #28 @ $7B10 - STRING #28 @ $83A4
+#W32($7B10)
+//現在地：F00_5　移動先：F13_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #29 @ $7B14 - STRING #29 @ $83CF
+#W32($7B14)
+//現在地：F00_5　移動先：M02_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #30 @ $7B18 - STRING #30 @ $83FA
+#W32($7B18)
+//現在地：F00_6　移動先：F00_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #31 @ $7B1C - STRING #31 @ $8425
+#W32($7B1C)
+//現在地：F01_0　移動先：D13_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #32 @ $7B20 - STRING #32 @ $8450
+#W32($7B20)
+//現在地：F01_0　移動先：F01_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #33 @ $7B24 - STRING #33 @ $847B
+#W32($7B24)
+//現在地：F01_0　移動先：M06_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #34 @ $7B28 - STRING #34 @ $84A6
+#W32($7B28)
+//現在地：F01_1　移動先：F01_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #35 @ $7B2C - STRING #35 @ $84D1
+#W32($7B2C)
+//現在地：F01_1　移動先：F01_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #36 @ $7B30 - STRING #36 @ $84FC
+#W32($7B30)
+//選択してください。[END-FE]
+
+
+
+
+
+//POINTER #37 @ $7B34 - STRING #37 @ $8511
+#W32($7B34)
+//・このマップから移動[END-FE]
+
+
+
+
+
+//POINTER #38 @ $7B38 - STRING #38 @ $8528
+#W32($7B38)
+//・エリアジャンプ[END-FE]
+
+
+
+
+
+//POINTER #39 @ $7B3C - STRING #39 @ $853B
+#W32($7B3C)
+//・パーティー解散[END-FE]
+
+
+
+
+
+//POINTER #40 @ $7B40 - STRING #40 @ $854E
+#W32($7B40)
+//・パーティー復活[END-FE]
+
+
+
+
+
+//POINTER #41 @ $7B44 - STRING #41 @ $8561
+#W32($7B44)
+//・移動全ＯＮ[END-FE]
+
+
+
+
+
+//POINTER #42 @ $7B48 - STRING #42 @ $8570
+#W32($7B48)
+//・移動全ＯＦＦ[END-FE]
+
+
+
+
+
+//POINTER #43 @ $7B4C - STRING #43 @ $8581
+#W32($7B4C)
+//・抜ける[END-FE]
+
+
+
+
+
+//POINTER #44 @ $7B50 - STRING #44 @ $858C
+#W32($7B50)
+//現在地：F01_2　移動先：N04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #45 @ $7B54 - STRING #45 @ $85B7
+#W32($7B54)
+//現在地：F01_2　移動先：F01_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #46 @ $7B58 - STRING #46 @ $85E2
+#W32($7B58)
+//選択してください。[END-FE]
+
+
+
+
+
+//POINTER #47 @ $7B5C - STRING #47 @ $85F7
+#W32($7B5C)
+//・このマップから移動[END-FE]
+
+
+
+
+
+//POINTER #48 @ $7B60 - STRING #48 @ $860E
+#W32($7B60)
+//・エリアジャンプ[END-FE]
+
+
+
+
+
+//POINTER #49 @ $7B64 - STRING #49 @ $8621
+#W32($7B64)
+//・パーティー解散[END-FE]
+
+
+
+
+
+//POINTER #50 @ $7B68 - STRING #50 @ $8634
+#W32($7B68)
+//・パーティー復活[END-FE]
+
+
+
+
+
+//POINTER #51 @ $7B6C - STRING #51 @ $8647
+#W32($7B6C)
+//・移動全ＯＮ[END-FE]
+
+
+
+
+
+//POINTER #52 @ $7B70 - STRING #52 @ $8656
+#W32($7B70)
+//・移動全ＯＦＦ[END-FE]
+
+
+
+
+
+//POINTER #53 @ $7B74 - STRING #53 @ $8667
+#W32($7B74)
+//・抜ける[END-FE]
+
+
+
+
+
+//POINTER #54 @ $7B78 - STRING #54 @ $8672
+#W32($7B78)
+//現在地：F01_3　移動先：N04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #55 @ $7B7C - STRING #55 @ $869D
+#W32($7B7C)
+//現在地：F01_3　移動先：F01_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #56 @ $7B80 - STRING #56 @ $86C8
+#W32($7B80)
+//現在地：F01_3　移動先：N01_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #57 @ $7B84 - STRING #57 @ $86F3
+#W32($7B84)
+//現在地：F01_4　移動先：B03_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #58 @ $7B88 - STRING #58 @ $871E
+#W32($7B88)
+//現在地：F01_4　移動先：D10_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #59 @ $7B8C - STRING #59 @ $8749
+#W32($7B8C)
+//現在地：F01_4　移動先：F01_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #60 @ $7B90 - STRING #60 @ $8774
+#W32($7B90)
+//現在地：F02_0　移動先：D04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #61 @ $7B94 - STRING #61 @ $879F
+#W32($7B94)
+//現在地：F02_0　移動先：F02_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #62 @ $7B98 - STRING #62 @ $87CA
+#W32($7B98)
+//現在地：F02_1　移動先：D10_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #63 @ $7B9C - STRING #63 @ $87F5
+#W32($7B9C)
+//現在地：F02_1　移動先：D14_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #64 @ $7BA0 - STRING #64 @ $8820
+#W32($7BA0)
+//現在地：F02_1　移動先：F02_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #65 @ $7BA4 - STRING #65 @ $884B
+#W32($7BA4)
+//現在地：F02_2　移動先：F02_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #66 @ $7BA8 - STRING #66 @ $8876
+#W32($7BA8)
+//現在地：F02_2　移動先：F02_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #67 @ $7BAC - STRING #67 @ $88A1
+#W32($7BAC)
+//現在地：F02_2　移動先：F02_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #68 @ $7BB0 - STRING #68 @ $88CC
+#W32($7BB0)
+//現在地：F02_2　移動先：F02_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #69 @ $7BB4 - STRING #69 @ $88F7
+#W32($7BB4)
+//現在地：F02_3　移動先：F02_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #70 @ $7BB8 - STRING #70 @ $8922
+#W32($7BB8)
+//現在地：F02_3　移動先：F03_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #71 @ $7BBC - STRING #71 @ $894D
+#W32($7BBC)
+//現在地：F02_3　移動先：M09_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #72 @ $7BC0 - STRING #72 @ $8978
+#W32($7BC0)
+//現在地：F02_4　移動先：D01_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #73 @ $7BC4 - STRING #73 @ $89A3
+#W32($7BC4)
+//現在地：F02_4　移動先：F02_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #74 @ $7BC8 - STRING #74 @ $89CE
+#W32($7BC8)
+//現在地：F02_4　移動先：F02_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #75 @ $7BCC - STRING #75 @ $89F9
+#W32($7BCC)
+//現在地：F02_4　移動先：F02_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #76 @ $7BD0 - STRING #76 @ $8A24
+#W32($7BD0)
+//現在地：F02_5　移動先：F03_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #77 @ $7BD4 - STRING #77 @ $8A4F
+#W32($7BD4)
+//現在地：F02_5　移動先：F02_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #78 @ $7BD8 - STRING #78 @ $8A7A
+#W32($7BD8)
+//現在地：F02_5　移動先：F06_3[END-FE]
+
+
+
+
+
+//POINTER #79 @ $7BDC - STRING #79 @ $8A99
+#W32($7BDC)
+//・移動しない[END-FE]
+
+
+
+
+
+//POINTER #80 @ $7BE0 - STRING #80 @ $8AA8
+#W32($7BE0)
+//・現在：F06_3へ[END-FE]
+
+
+
+
+
+//POINTER #81 @ $7BE4 - STRING #81 @ $8ABA
+#W32($7BE4)
+//・過去：F06_4へ[END-FE]
+
+
+
+
+
+//POINTER #82 @ $7BE8 - STRING #82 @ $8ACC
+#W32($7BE8)
+//現在地：F03_0　移動先：F02_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #83 @ $7BEC - STRING #83 @ $8AF7
+#W32($7BEC)
+//現在地：F03_0　移動先：F02_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #84 @ $7BF0 - STRING #84 @ $8B22
+#W32($7BF0)
+//現在地：F03_0　移動先：F03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #85 @ $7BF4 - STRING #85 @ $8B4D
+#W32($7BF4)
+//現在地：F03_0　移動先：F03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #86 @ $7BF8 - STRING #86 @ $8B78
+#W32($7BF8)
+//現在地：F03_0　移動先：F03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #87 @ $7BFC - STRING #87 @ $8BA3
+#W32($7BFC)
+//現在地：F03_1　移動先：B04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #88 @ $7C00 - STRING #88 @ $8BCE
+#W32($7C00)
+//現在地：F03_1　移動先：F03_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #89 @ $7C04 - STRING #89 @ $8BF9
+#W32($7C04)
+//現在地：F03_1　移動先：F03_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #90 @ $7C08 - STRING #90 @ $8C24
+#W32($7C08)
+//現在地：F03_2　移動先：F03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #91 @ $7C0C - STRING #91 @ $8C4F
+#W32($7C0C)
+//現在地：F03_2　移動先：F03_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #92 @ $7C10 - STRING #92 @ $8C7A
+#W32($7C10)
+//現在地：F03_3　移動先：F03_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #93 @ $7C14 - STRING #93 @ $8CA5
+#W32($7C14)
+//現在地：F03_3　移動先：F03_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #94 @ $7C18 - STRING #94 @ $8CD0
+#W32($7C18)
+//現在地：F03_3　移動先：F03_7　移動する？[END-FE]
+
+
+
+
+
+//POINTER #95 @ $7C1C - STRING #95 @ $8CFB
+#W32($7C1C)
+//現在地：F03_4　移動先：F03_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #96 @ $7C20 - STRING #96 @ $8D26
+#W32($7C20)
+//現在地：F03_4　移動先：F03_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #97 @ $7C24 - STRING #97 @ $8D51
+#W32($7C24)
+//現在地：F03_5　移動先：F03_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #98 @ $7C28 - STRING #98 @ $8D7C
+#W32($7C28)
+//現在地：F03_5　移動先：F03_6　移動する？[END-FE]
+
+
+
+
+
+//POINTER #99 @ $7C2C - STRING #99 @ $8DA7
+#W32($7C2C)
+//現在地：F03_6　移動先：F03_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #100 @ $7C30 - STRING #100 @ $8DD2
+#W32($7C30)
+//現在地：F03_6　移動先：F04_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #101 @ $7C34 - STRING #101 @ $8DFD
+#W32($7C34)
+//現在地：F03_6　移動先：M07_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #102 @ $7C38 - STRING #102 @ $8E28
+#W32($7C38)
+//現在地：F03_7　移動先：F03_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #103 @ $7C3C - STRING #103 @ $8E53
+#W32($7C3C)
+//現在地：F03_7　移動先：F06_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #104 @ $7C40 - STRING #104 @ $8E7E
+#W32($7C40)
+//・移動しない[END-FE]
+
+
+
+
+
+//POINTER #105 @ $7C44 - STRING #105 @ $8E8D
+#W32($7C44)
+//・現在：F06_3へ[END-FE]
+
+
+
+
+
+//POINTER #106 @ $7C48 - STRING #106 @ $8E9F
+#W32($7C48)
+//・過去：F06_4へ[END-FE]
+
+
+
+
+
+//POINTER #107 @ $7C4C - STRING #107 @ $8EB1
+#W32($7C4C)
+//現在地：F04_0　移動先：F04_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #108 @ $7C50 - STRING #108 @ $8EDC
+#W32($7C50)
+//現在地：F04_0　移動先：F05_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #109 @ $7C54 - STRING #109 @ $8F07
+#W32($7C54)
+//・移動しない[END-FE]
+
+
+
+
+
+//POINTER #110 @ $7C58 - STRING #110 @ $8F16
+#W32($7C58)
+//・現在：F05_2へ[END-FE]
+
+
+
+
+
+//POINTER #111 @ $7C5C - STRING #111 @ $8F28
+#W32($7C5C)
+//・過去：F05_3へ[END-FE]
+
+
+
+
+
+//POINTER #112 @ $7C60 - STRING #112 @ $8F3A
+#W32($7C60)
+//現在地：F04_1　移動先：F04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #113 @ $7C64 - STRING #113 @ $8F65
+#W32($7C64)
+//現在地：F04_1　移動先：F04_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #114 @ $7C68 - STRING #114 @ $8F90
+#W32($7C68)
+//現在地：F04_2　移動先：F03_6　移動する？[END-FE]
+
+
+
+
+
+//POINTER #115 @ $7C6C - STRING #115 @ $8FBB
+#W32($7C6C)
+//現在地：F04_2　移動先：F04_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #116 @ $7C70 - STRING #116 @ $8FE6
+#W32($7C70)
+//現在地：F05_0　移動先：F05_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #117 @ $7C74 - STRING #117 @ $9011
+#W32($7C74)
+//現在地：F05_0　移動先：F05_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #118 @ $7C78 - STRING #118 @ $903C
+#W32($7C78)
+//現在地：F05_0　移動先：F05_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #119 @ $7C7C - STRING #119 @ $9067
+#W32($7C7C)
+//・移動しない[END-FE]
+
+
+
+
+
+//POINTER #120 @ $7C80 - STRING #120 @ $9076
+#W32($7C80)
+//・現在：F05_2へ[END-FE]
+
+
+
+
+
+//POINTER #121 @ $7C84 - STRING #121 @ $9088
+#W32($7C84)
+//・過去：F05_3へ[END-FE]
+
+
+
+
+
+//POINTER #122 @ $7C88 - STRING #122 @ $909A
+#W32($7C88)
+//現在地：F05_0　移動先：F06_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #123 @ $7C8C - STRING #123 @ $90C5
+#W32($7C8C)
+//現在地：F05_1　移動先：F05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #124 @ $7C90 - STRING #124 @ $90F0
+#W32($7C90)
+//現在地：F05_1　移動先：F05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #125 @ $7C94 - STRING #125 @ $911B
+#W32($7C94)
+//現在地：F05_2　移動先：F04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #126 @ $7C98 - STRING #126 @ $9146
+#W32($7C98)
+//現在地：F05_2　移動先：F05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #127 @ $7C9C - STRING #127 @ $9171
+#W32($7C9C)
+//現在地：F05_2　移動先：F05_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #128 @ $7CA0 - STRING #128 @ $919C
+#W32($7CA0)
+//現在地：F05_2　移動先：M05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #129 @ $7CA4 - STRING #129 @ $91C7
+#W32($7CA4)
+//現在地：F05_2　移動先：F05_6　移動する？[END-FE]
+
+
+
+
+
+//POINTER #130 @ $7CA8 - STRING #130 @ $91F2
+#W32($7CA8)
+//現在地：F05_2　移動先：M05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #131 @ $7CAC - STRING #131 @ $921D
+#W32($7CAC)
+//現在地：F05_2　移動先：F04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #132 @ $7CB0 - STRING #132 @ $9248
+#W32($7CB0)
+//現在地：F05_4　移動先：F05_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #133 @ $7CB4 - STRING #133 @ $9273
+#W32($7CB4)
+//現在地：F05_4　移動先：F05_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #134 @ $7CB8 - STRING #134 @ $929E
+#W32($7CB8)
+//現在地：F05_5　移動先：D09_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #135 @ $7CBC - STRING #135 @ $92C9
+#W32($7CBC)
+//現在地：F05_5　移動先：F05_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #136 @ $7CC0 - STRING #136 @ $92F4
+#W32($7CC0)
+//現在地：F05_6　移動先：F05_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #137 @ $7CC4 - STRING #137 @ $931F
+#W32($7CC4)
+//現在地：F05_6　移動先：F05_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #138 @ $7CC8 - STRING #138 @ $934A
+#W32($7CC8)
+//現在地：F05_6　移動先：F10_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #139 @ $7CCC - STRING #139 @ $9375
+#W32($7CCC)
+//現在地：F06_0　移動先：F06_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #140 @ $7CD0 - STRING #140 @ $93A0
+#W32($7CD0)
+//現在地：F06_0　移動先：F06_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #141 @ $7CD4 - STRING #141 @ $93CB
+#W32($7CD4)
+//現在地：F06_0　移動先：F16_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #142 @ $7CD8 - STRING #142 @ $93F6
+#W32($7CD8)
+//現在地：F06_0　移動先：F16_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #143 @ $7CDC - STRING #143 @ $9421
+#W32($7CDC)
+//現在地：F06_1　移動先：F06_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #144 @ $7CE0 - STRING #144 @ $944C
+#W32($7CE0)
+//現在地：F06_1　移動先：F06_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #145 @ $7CE4 - STRING #145 @ $9477
+#W32($7CE4)
+//現在地：F06_1　移動先：F06_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #146 @ $7CE8 - STRING #146 @ $94A2
+#W32($7CE8)
+//現在地：F06_1　移動先：F06_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #147 @ $7CEC - STRING #147 @ $94CD
+#W32($7CEC)
+//現在地：F06_2　移動先：D05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #148 @ $7CF0 - STRING #148 @ $94F8
+#W32($7CF0)
+//現在地：F06_2　移動先：F06_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #149 @ $7CF4 - STRING #149 @ $9523
+#W32($7CF4)
+//現在地：F06_3　移動先：F02_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #150 @ $7CF8 - STRING #150 @ $954E
+#W32($7CF8)
+//現在地：F06_3　移動先：F05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #151 @ $7CFC - STRING #151 @ $9579
+#W32($7CFC)
+//現在地：F06_3　移動先：F06_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #152 @ $7D00 - STRING #152 @ $95A4
+#W32($7D00)
+//現在地：F06_3　移動先：F07_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #153 @ $7D04 - STRING #153 @ $95CF
+#W32($7D04)
+//現在地：F06_3　移動先：M03_0北　移動する？[END-FE]
+
+
+
+
+
+//POINTER #154 @ $7D08 - STRING #154 @ $95FC
+#W32($7D08)
+//現在地：F06_3　移動先：M03_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #155 @ $7D0C - STRING #155 @ $9627
+#W32($7D0C)
+//現在地：F06_3　移動先：M03_0南　移動する？[END-FE]
+
+
+
+
+
+//POINTER #156 @ $7D10 - STRING #156 @ $9654
+#W32($7D10)
+//現在地：F06_3　移動先：F03_7　移動する？[END-FE]
+
+
+
+
+
+//POINTER #157 @ $7D14 - STRING #157 @ $967F
+#W32($7D14)
+//現在地：F06_4　移動先：F02_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #158 @ $7D18 - STRING #158 @ $96AA
+#W32($7D18)
+//現在地：F06_4　移動先：F05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #159 @ $7D1C - STRING #159 @ $96D5
+#W32($7D1C)
+//現在地：F06_4　移動先：F06_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #160 @ $7D20 - STRING #160 @ $9700
+#W32($7D20)
+//現在地：F06_4　移動先：F03_7　移動する？[END-FE]
+
+
+
+
+
+//POINTER #161 @ $7D24 - STRING #161 @ $972B
+#W32($7D24)
+//現在地：F07_0　移動先：F07_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #162 @ $7D28 - STRING #162 @ $9756
+#W32($7D28)
+//現在地：F06_3　移動先：F02_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #163 @ $7D2C - STRING #163 @ $9781
+#W32($7D2C)
+//現在地：F06_3　移動先：F05_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #164 @ $7D30 - STRING #164 @ $97AC
+#W32($7D30)
+//現在地：F06_3　移動先：F06_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #165 @ $7D34 - STRING #165 @ $97D7
+#W32($7D34)
+//現在地：F06_3　移動先：F07_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #166 @ $7D38 - STRING #166 @ $9802
+#W32($7D38)
+//現在地：F07_0　移動先：F08_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #167 @ $7D3C - STRING #167 @ $982D
+#W32($7D3C)
+//現在地：F07_0　移動先：M04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #168 @ $7D40 - STRING #168 @ $9858
+#W32($7D40)
+//現在地：F07_1　移動先：F07_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #169 @ $7D44 - STRING #169 @ $9883
+#W32($7D44)
+//現在地：F07_1　移動先：F07_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #170 @ $7D48 - STRING #170 @ $98AE
+#W32($7D48)
+//現在地：F07_1　移動先：F07_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #171 @ $7D4C - STRING #171 @ $98D9
+#W32($7D4C)
+//現在地：F07_2　移動先：F07_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #172 @ $7D50 - STRING #172 @ $9904
+#W32($7D50)
+//現在地：F07_2　移動先：F07_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #173 @ $7D54 - STRING #173 @ $992F
+#W32($7D54)
+//現在地：F07_2　移動先：F07_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #174 @ $7D58 - STRING #174 @ $995A
+#W32($7D58)
+//現在地：F07_3　移動先：F07_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #175 @ $7D5C - STRING #175 @ $9985
+#W32($7D5C)
+//現在地：F07_3　移動先：F07_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #176 @ $7D60 - STRING #176 @ $99B0
+#W32($7D60)
+//現在地：F07_3　移動先：F07_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #177 @ $7D64 - STRING #177 @ $99DB
+#W32($7D64)
+//現在地：F07_4　移動先：F06_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #178 @ $7D68 - STRING #178 @ $9A06
+#W32($7D68)
+//現在地：F07_4　移動先：F07_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #179 @ $7D6C - STRING #179 @ $9A31
+#W32($7D6C)
+//現在地：F08_0　移動先：B01_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #180 @ $7D70 - STRING #180 @ $9A5C
+#W32($7D70)
+//現在地：F08_0　移動先：F08_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #181 @ $7D74 - STRING #181 @ $9A87
+#W32($7D74)
+//現在地：F08_1　移動先：F08_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #182 @ $7D78 - STRING #182 @ $9AB2
+#W32($7D78)
+//現在地：F08_1　移動先：F08_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #183 @ $7D7C - STRING #183 @ $9ADD
+#W32($7D7C)
+//現在地：F08_1　移動先：D02_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #184 @ $7D80 - STRING #184 @ $9B08
+#W32($7D80)
+//現在地：F08_2　移動先：F08_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #185 @ $7D84 - STRING #185 @ $9B33
+#W32($7D84)
+//現在地：F08_2　移動先：F08_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #186 @ $7D88 - STRING #186 @ $9B5E
+#W32($7D88)
+//現在地：F08_2　移動先：F08_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #187 @ $7D8C - STRING #187 @ $9B89
+#W32($7D8C)
+//現在地：F08_3　移動先：F00_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #188 @ $7D90 - STRING #188 @ $9BB4
+#W32($7D90)
+//現在地：F08_3　移動先：F08_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #189 @ $7D94 - STRING #189 @ $9BDF
+#W32($7D94)
+//現在地：F08_3　移動先：F08_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #190 @ $7D98 - STRING #190 @ $9C0A
+#W32($7D98)
+//現在地：F08_4　移動先：F08_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #191 @ $7D9C - STRING #191 @ $9C35
+#W32($7D9C)
+//現在地：F08_4　移動先：F08_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #192 @ $7DA0 - STRING #192 @ $9C60
+#W32($7DA0)
+//現在地：F08_5　移動先：F07_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #193 @ $7DA4 - STRING #193 @ $9C8B
+#W32($7DA4)
+//現在地：F08_5　移動先：F08_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #194 @ $7DA8 - STRING #194 @ $9CB6
+#W32($7DA8)
+//現在地：F08_5　移動先：F10_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #195 @ $7DAC - STRING #195 @ $9CE1
+#W32($7DAC)
+//現在地：F10_0　移動先：F08_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #196 @ $7DB0 - STRING #196 @ $9D0C
+#W32($7DB0)
+//現在地：F10_0　移動先：F10_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #197 @ $7DB4 - STRING #197 @ $9D37
+#W32($7DB4)
+//現在地：F10_1　移動先：F10_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #198 @ $7DB8 - STRING #198 @ $9D62
+#W32($7DB8)
+//現在地：F10_1　移動先：F10_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #199 @ $7DBC - STRING #199 @ $9D8D
+#W32($7DBC)
+//現在地：F10_1　移動先：F10_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #200 @ $7DC0 - STRING #200 @ $9DB8
+#W32($7DC0)
+//現在地：F10_1　移動先：F10_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #201 @ $7DC4 - STRING #201 @ $9DE3
+#W32($7DC4)
+//現在地：F10_2　移動先：F10_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #202 @ $7DC8 - STRING #202 @ $9E0E
+#W32($7DC8)
+//現在地：F10_2　移動先：F10_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #203 @ $7DCC - STRING #203 @ $9E39
+#W32($7DCC)
+//現在地：F10_2　移動先：F10_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #204 @ $7DD0 - STRING #204 @ $9E64
+#W32($7DD0)
+//現在地：F10_3　移動先：F10_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #205 @ $7DD4 - STRING #205 @ $9E8F
+#W32($7DD4)
+//現在地：F10_3　移動先：F10_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #206 @ $7DD8 - STRING #206 @ $9EBA
+#W32($7DD8)
+//現在地：F10_4　移動先：B02_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #207 @ $7DDC - STRING #207 @ $9EE5
+#W32($7DDC)
+//現在地：F10_4　移動先：F10_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #208 @ $7DE0 - STRING #208 @ $9F10
+#W32($7DE0)
+//現在地：F10_4　移動先：F12_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #209 @ $7DE4 - STRING #209 @ $9F3B
+#W32($7DE4)
+//現在地：F10_4　移動先：M04_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #210 @ $7DE8 - STRING #210 @ $9F66
+#W32($7DE8)
+//現在地：F10_5　移動先：F05_6　移動する？[END-FE]
+
+
+
+
+
+//POINTER #211 @ $7DEC - STRING #211 @ $9F91
+#W32($7DEC)
+//現在地：F10_5　移動先：F10_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #212 @ $7DF0 - STRING #212 @ $9FBC
+#W32($7DF0)
+//現在地：F10_5　移動先：M01_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #213 @ $7DF4 - STRING #213 @ $9FE7
+#W32($7DF4)
+//現在地：F12_0　移動先：F10_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #214 @ $7DF8 - STRING #214 @ $A012
+#W32($7DF8)
+//現在地：F13_0　移動先：F00_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #215 @ $7DFC - STRING #215 @ $A03D
+#W32($7DFC)
+//現在地：F13_0　移動先：F13_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #216 @ $7E00 - STRING #216 @ $A068
+#W32($7E00)
+//現在地：F13_0　移動先：F13_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #217 @ $7E04 - STRING #217 @ $A093
+#W32($7E04)
+//現在地：F13_0　移動先：F13_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #218 @ $7E08 - STRING #218 @ $A0BE
+#W32($7E08)
+//現在地：F13_1　移動先：F13_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #219 @ $7E0C - STRING #219 @ $A0E9
+#W32($7E0C)
+//現在地：F13_1　移動先：F13_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #220 @ $7E10 - STRING #220 @ $A114
+#W32($7E10)
+//現在地：F13_1　移動先：F13_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #221 @ $7E14 - STRING #221 @ $A13F
+#W32($7E14)
+//現在地：F13_1　移動先：F13_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #222 @ $7E18 - STRING #222 @ $A16A
+#W32($7E18)
+//現在地：F13_1　移動先：F13_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #223 @ $7E1C - STRING #223 @ $A195
+#W32($7E1C)
+//現在地：F13_2　移動先：F13_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #224 @ $7E20 - STRING #224 @ $A1C0
+#W32($7E20)
+//現在地：F13_2　移動先：F13_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #225 @ $7E24 - STRING #225 @ $A1EB
+#W32($7E24)
+//現在地：F13_2　移動先：F13_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #226 @ $7E28 - STRING #226 @ $A216
+#W32($7E28)
+//現在地：F13_3　移動先：D03_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #227 @ $7E2C - STRING #227 @ $A241
+#W32($7E2C)
+//現在地：F13_3　移動先：F13_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #228 @ $7E30 - STRING #228 @ $A26C
+#W32($7E30)
+//現在地：F13_3　移動先：M08_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #229 @ $7E34 - STRING #229 @ $A297
+#W32($7E34)
+//現在地：F13_3　移動先：B03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #230 @ $7E38 - STRING #230 @ $A2C2
+#W32($7E38)
+//現在地：F16_0　移動先：F06_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #231 @ $7E3C - STRING #231 @ $A2ED
+#W32($7E3C)
+//現在地：F16_0　移動先：F16_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #232 @ $7E40 - STRING #232 @ $A318
+#W32($7E40)
+//現在地：F16_1　移動先：F16_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #233 @ $7E44 - STRING #233 @ $A343
+#W32($7E44)
+//現在地：F16_1　移動先：F16_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #234 @ $7E48 - STRING #234 @ $A36E
+#W32($7E48)
+//現在地：F16_1　移動先：F16_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #235 @ $7E4C - STRING #235 @ $A399
+#W32($7E4C)
+//現在地：F16_1　移動先：F16_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #236 @ $7E50 - STRING #236 @ $A3C4
+#W32($7E50)
+//現在地：F16_2　移動先：D02_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #237 @ $7E54 - STRING #237 @ $A3EF
+#W32($7E54)
+//現在地：F16_2　移動先：F16_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #238 @ $7E58 - STRING #238 @ $A41A
+#W32($7E58)
+//現在地：F16_2　移動先：F16_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #239 @ $7E5C - STRING #239 @ $A445
+#W32($7E5C)
+//現在地：F16_2　移動先：F16_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #240 @ $7E60 - STRING #240 @ $A470
+#W32($7E60)
+//現在地：D13_0　移動先：F00_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #241 @ $7E64 - STRING #241 @ $A49B
+#W32($7E64)
+//現在地：M02_0　移動先：F00_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #242 @ $7E68 - STRING #242 @ $A4C6
+#W32($7E68)
+//現在地：D07_0　移動先：F00_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #243 @ $7E6C - STRING #243 @ $A4F1
+#W32($7E6C)
+//現在地：D13_0　移動先：F01_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #244 @ $7E70 - STRING #244 @ $A51C
+#W32($7E70)
+//選択してください。[END-FE]
+
+
+
+
+
+//POINTER #245 @ $7E74 - STRING #245 @ $A531
+#W32($7E74)
+//・このマップから移動[END-FE]
+
+
+
+
+
+//POINTER #246 @ $7E78 - STRING #246 @ $A548
+#W32($7E78)
+//・エリアジャンプ[END-FE]
+
+
+
+
+
+//POINTER #247 @ $7E7C - STRING #247 @ $A55B
+#W32($7E7C)
+//・パーティー解散[END-FE]
+
+
+
+
+
+//POINTER #248 @ $7E80 - STRING #248 @ $A56E
+#W32($7E80)
+//・パーティー復活[END-FE]
+
+
+
+
+
+//POINTER #249 @ $7E84 - STRING #249 @ $A581
+#W32($7E84)
+//・移動全ＯＮ[END-FE]
+
+
+
+
+
+//POINTER #250 @ $7E88 - STRING #250 @ $A590
+#W32($7E88)
+//・移動全ＯＦＦ[END-FE]
+
+
+
+
+
+//POINTER #251 @ $7E8C - STRING #251 @ $A5A1
+#W32($7E8C)
+//・抜ける[END-FE]
+
+
+
+
+
+//POINTER #252 @ $7E90 - STRING #252 @ $A5AC
+#W32($7E90)
+//現在地：N04_0[END-FE]
+
+
+
+
+
+//POINTER #253 @ $7E94 - STRING #253 @ $A5BC
+#W32($7E94)
+//・移動しない[END-FE]
+
+
+
+
+
+//POINTER #254 @ $7E98 - STRING #254 @ $A5CB
+#W32($7E98)
+//・現在：F01_2へ[END-FE]
+
+
+
+
+
+//POINTER #255 @ $7E9C - STRING #255 @ $A5DD
+#W32($7E9C)
+//・過去：F01_3へ[END-FE]
+
+
+
+
+
+//POINTER #256 @ $7EA0 - STRING #256 @ $A5EF
+#W32($7EA0)
+//現在地：N01_3　移動先：F01_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #257 @ $7EA4 - STRING #257 @ $A61A
+#W32($7EA4)
+//現在地：D10_3　移動先：F01_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #258 @ $7EA8 - STRING #258 @ $A645
+#W32($7EA8)
+//現在地：M06_0　移動先：F01_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #259 @ $7EAC - STRING #259 @ $A670
+#W32($7EAC)
+//現在地：B03_0　移動先：F01_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #260 @ $7EB0 - STRING #260 @ $A69B
+#W32($7EB0)
+//現在地：D14_0　移動先：F02_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #261 @ $7EB4 - STRING #261 @ $A6C6
+#W32($7EB4)
+//現在地：F02_3　移動先：M09_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #262 @ $7EB8 - STRING #262 @ $A6F1
+#W32($7EB8)
+//現在地：D10_0　移動先：F02_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #263 @ $7EBC - STRING #263 @ $A71C
+#W32($7EBC)
+//現在地：F02_3　移動先：M09_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #264 @ $7EC0 - STRING #264 @ $A747
+#W32($7EC0)
+//現在地：D01_0　移動先：F02_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #265 @ $7EC4 - STRING #265 @ $A772
+#W32($7EC4)
+//現在地：B04_0　移動先：F03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #266 @ $7EC8 - STRING #266 @ $A79D
+#W32($7EC8)
+//現在地：B04_0　移動先：F03_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #267 @ $7ECC - STRING #267 @ $A7C8
+#W32($7ECC)
+//現在地：M05_0　移動先：F05_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #268 @ $7ED0 - STRING #268 @ $A7F3
+#W32($7ED0)
+//現在地：D09_0　移動先：F05_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #269 @ $7ED4 - STRING #269 @ $A81E
+#W32($7ED4)
+//現在地：D09_0　移動先：F05_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #270 @ $7ED8 - STRING #270 @ $A849
+#W32($7ED8)
+//現在地：D09_0　移動先：F05_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #271 @ $7EDC - STRING #271 @ $A874
+#W32($7EDC)
+//現在地：D09_0　移動先：F05_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #272 @ $7EE0 - STRING #272 @ $A89F
+#W32($7EE0)
+//現在地：D05_0　移動先：F06_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #273 @ $7EE4 - STRING #273 @ $A8CA
+#W32($7EE4)
+//現在地：M00_0　移動先：F07_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #274 @ $7EE8 - STRING #274 @ $A8F5
+#W32($7EE8)
+//現在地：D02_0　移動先：F16_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #275 @ $7EEC - STRING #275 @ $A920
+#W32($7EEC)
+//現在地：D08_0　移動先：F08_2　移動する？[END-FE]
+
+
+
+
+
+//POINTER #276 @ $7EF0 - STRING #276 @ $A94B
+#W32($7EF0)
+//現在地：D02_3　移動先：F08_1　移動する？[END-FE]
+
+
+
+
+
+//POINTER #277 @ $7EF4 - STRING #277 @ $A976
+#W32($7EF4)
+//現在地：B01_0　移動先：F08_0　移動する？[END-FE]
+
+
+
+
+
+//POINTER #278 @ $7EF8 - STRING #278 @ $A9A1
+#W32($7EF8)
+//現在地：M01_0　移動先：F10_5　移動する？[END-FE]
+
+
+
+
+
+//POINTER #279 @ $7EFC - STRING #279 @ $A9CC
+#W32($7EFC)
+//現在地：M04_0　移動先：F10_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #280 @ $7F00 - STRING #280 @ $A9F7
+#W32($7F00)
+//現在地：B02_2　移動先：F10_4　移動する？[END-FE]
+
+
+
+
+
+//POINTER #281 @ $7F04 - STRING #281 @ $AA22
+#W32($7F04)
+//現在地：M08_0　移動先：F13_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #282 @ $7F08 - STRING #282 @ $AA4D
+#W32($7F08)
+//現在地：D03_0　移動先：F13_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #283 @ $7F0C - STRING #283 @ $AA78
+#W32($7F0C)
+//現在地：B03_1　移動先：F13_3　移動する？[END-FE]
+
+
+
+
+
+//POINTER #284 @ $7F10 - STRING #284 @ $AAA3
+#W32($7F10)
+//選択してください。[END-FE]
+
+
+
+
+
+//POINTER #285 @ $7F14 - STRING #285 @ $AAB8
+#W32($7F14)
+//・エリアジャンプ[END-FE]
+
+
+
+
+
+//POINTER #286 @ $7F18 - STRING #286 @ $AACB
+#W32($7F18)
+//・パーティー解散[END-FE]
+
+
+
+
+
+//POINTER #287 @ $7F1C - STRING #287 @ $AADE
+#W32($7F1C)
+//・パーティー復活[END-FE]
+
+
+
+
+
+//POINTER #288 @ $7F20 - STRING #288 @ $AAF1
+#W32($7F20)
+//・移動全ＯＮ[END-FE]
+
+
+
+
+
+//POINTER #289 @ $7F24 - STRING #289 @ $AB00
+#W32($7F24)
+//・移動全ＯＦＦ[END-FE]
+
+
+
+
+
+//POINTER #290 @ $7F28 - STRING #290 @ $AB11
+#W32($7F28)
+//・抜ける[END-FE]
+
+
+
+
+
+//POINTER #291 @ $7F2C - STRING #291 @ $AB1C
+#W32($7F2C)
+//選択してください。[END-FE]
+
+
+
+
+
+//POINTER #292 @ $7F30 - STRING #292 @ $AB31
+#W32($7F30)
+//・Ｆ００　フェルメンティア前[END-FE]
+
+
+
+
+
+//POINTER #293 @ $7F34 - STRING #293 @ $AB50
+#W32($7F34)
+//・Ｆ０１　トトゥア前[END-FE]
+
+
+
+
+
+//POINTER #294 @ $7F38 - STRING #294 @ $AB67
+#W32($7F38)
+//・Ｆ０２　ヤージェン村前[END-FE]
+
+
+
+
+
+//POINTER #295 @ $7F3C - STRING #295 @ $AB82
+#W32($7F3C)
+//・Ｆ０３　ガイラナック前[END-FE]
+
+
+
+
+
+//POINTER #296 @ $7F40 - STRING #296 @ $AB9D
+#W32($7F40)
+//・Ｆ０４　砂漠[END-FE]
+
+
+
+
+
+//POINTER #297 @ $7F44 - STRING #297 @ $ABAE
+#W32($7F44)
+//・Ｆ０５　ザーランバ前[END-FE]
+
+
+
+
+
+//POINTER #298 @ $7F48 - STRING #298 @ $ABC7
+#W32($7F48)
+//・Ｆ０６　ゼルドック前[END-FE]
+
+
+
+
+
+//POINTER #299 @ $7F4C - STRING #299 @ $ABE0
+#W32($7F4C)
+//・Ｆ０７　維持軍本部前[END-FE]
+
+
+
+
+
+//POINTER #300 @ $7F50 - STRING #300 @ $ABF9
+#W32($7F50)
+//・Ｆ０８　守護者の里前[END-FE]
+
+
+
+
+
+//POINTER #301 @ $7F54 - STRING #301 @ $AC12
+#W32($7F54)
+//・Ｆ１０　ワースリー村前[END-FE]
+
+
+
+
+
+//POINTER #302 @ $7F58 - STRING #302 @ $AC2D
+#W32($7F58)
+//・Ｆ１２　エルファンの森前[END-FE]
+
+
+
+
+
+//POINTER #303 @ $7F5C - STRING #303 @ $AC4A
+#W32($7F5C)
+//・Ｆ１３　ジュワイナ村前[END-FE]
+
+
+
+
+
+//POINTER #304 @ $7F60 - STRING #304 @ $AC65
+#W32($7F60)
+//・Ｆ１６　Ｄ２遺跡前[END-FE]

@@ -1,0 +1,5 @@
+gametitle=Growlanser V - Generations [SLPM 66418] (J)
+comment=Patch by Ethanol
+
+//Debug enabler
+patch=1,EE,203FB888,extended,0

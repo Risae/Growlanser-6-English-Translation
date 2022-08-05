@@ -1,0 +1,683 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $30F0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3020, 4, PTR)
+
+#JMP($30F0)
+#HDR($30F0)
+
+
+
+
+
+//POINTER #0 @ $3020 - STRING #0 @ $30F0
+#W32($3020)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3024 - STRING #1 @ $30F3
+#W32($3024)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3028 - STRING #2 @ $3100
+#W32($3028)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $302C - STRING #3 @ $3125
+#W32($302C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3030 - STRING #4 @ $314A
+#W32($3030)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3034 - STRING #5 @ $315F
+#W32($3034)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3038 - STRING #6 @ $3184
+#W32($3038)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $303C - STRING #7 @ $31A9
+#W32($303C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3040 - STRING #8 @ $31DE
+#W32($3040)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3044 - STRING #9 @ $3213
+#W32($3044)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3048 - STRING #10 @ $3238
+#W32($3048)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $304C - STRING #11 @ $325D
+#W32($304C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3050 - STRING #12 @ $3282
+#W32($3050)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3054 - STRING #13 @ $3297
+#W32($3054)
+//ルキアス\\
+//[CHAR2500][V0000]
+//いくつか、アンタらに[NLINE]
+//聞きたいことがある。[NWIN]
+//
+//[CHAR2500][V0100]
+//俺たちは今、エスグレンツ大陸へ[NLINE]
+//アドモニッシャーを追おうとしている。[NWIN]
+//
+//[CHAR2500][V0200]
+//だが、追いついたら…。[NLINE]
+//それから、[NLINE]
+//どうするつもりだ？[END-FE]
+//Rukias\\
+[CHAR2500][V0000]
+I have a few things I[NLINE]
+want to ask you.[NWIN]
+
+[CHAR2500][V0100]
+Right now, we're going to Esgrentz[NLINE]
+continent to pursue the Admonisher.[NWIN]
+
+[CHAR2500][V0200]
+But after we reach it, what[NLINE]
+do you intend to do?[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3058 - STRING #14 @ $335A
+#W32($3058)
+//・悪用されないようにする[END-FE]
+・Prevent it from being used for evil intentions[END-FE]
+
+
+
+
+
+//POINTER #15 @ $305C - STRING #15 @ $3375
+#W32($305C)
+//・平和維持軍のために取り返す[END-FE]
+・Get it back for the PMB[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3060 - STRING #16 @ $3394
+#W32($3060)
+//・破壊する[END-FE]
+・Destroy it[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3064 - STRING #17 @ $33A1
+#W32($3064)
+//・龍玉を奪う[END-FE]
+・Take back the Dragon Orb[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3068 - STRING #18 @ $33B0
+#W32($3068)
+//・まだ何も考えていない[END-FE]
+・I haven't thought of anything yet[END-FE]
+
+
+
+
+
+//POINTER #19 @ $306C - STRING #19 @ $33C9
+#W32($306C)
+//ウェンディ\\
+//[CHAR2500][V0300]
+//そうよね。[NLINE]
+//すごい破壊力を持った兵器なんでしょ？[NLINE]
+//そんな物を悪用されたらたまらないわ。[END-FE]
+//Wendy\\
+[CHAR2500][V0300]
+That's right.[NLINE]
+This weapon has great destructive power.[NLINE]
+I can't bear the thought of it being[NLINE]
+used for evil purposes.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3070 - STRING #20 @ $342A
+#W32($3070)
+//ウェンディ\\
+//[CHAR2500][V0400]
+//少なくとも平和維持軍の人は[NLINE]
+//それで平和を守っていたんだよね。[NLINE]
+//だったら、彼らに返すのが一番だものね。[END-FE]
+//Wendy\\
+[CHAR2500][V0400]
+Though they are few of them, the people[NLINE]
+of the PMB use it to protect the peace.[NLINE]
+That's why the best thing to do would[NLINE]
+be to return it to them.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3074 - STRING #21 @ $3499
+#W32($3074)
+//ウェンディ\\
+//[CHAR2500][V0500]
+//そうね、悪用されるくらいなら、[NLINE]
+//最悪破壊することも考えておくべきかしら？[END-FE]
+//Wendy\\
+[CHAR2500][V0500]
+You're right. Perhaps we should consider[NLINE]
+destroying it rather than let it be misused?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3078 - STRING #22 @ $34EC
+#W32($3078)
+//ウェンディ\\
+//[CHAR2500][V0600]
+//そうだよね。[NLINE]
+//龍玉さえ奪っちゃえば、[NLINE]
+//アドモニッシャーは動かせなくなるんだよね。[END-FE]
+//Wendy\\
+[CHAR2500][V0600]
+That's right.[NLINE]
+If we just take away the Dragon Orb,[NLINE]
+the Admonisher will stop being operational.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $307C - STRING #23 @ $3547
+#W32($307C)
+//ウェンディ\\
+//[CHAR2500][V0700]
+//モノポリス社の目的がわからない以上、[NLINE]
+//まだ何とも言えないよね。[END-FE]
+//Wendy\\
+[CHAR2500][V0700]
+As long as we don't know the objective[NLINE]
+of Monopolis, we can't decide on anything[NLINE]
+definite yet.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3080 - STRING #24 @ $3590
+#W32($3080)
+//ルキアス\\
+//[CHAR2500][V0800]
+//…だいたいわかった。[NLINE]
+//少なくとも、アンタらは龍玉を[NLINE]
+//悪用する気はないらしいな。[END-FE]
+//Rukias\\
+[CHAR2500][V0800]
+...Okay, got it.[NLINE]
+It doesn't sound like[NLINE]
+you intend to misuse the[NLINE]
+Dragon Orb at least.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3084 - STRING #25 @ $35E9
+#W32($3084)
+//ウェンディ\\
+//[CHAR2500][V0900]
+//当たり前でしょう！[NWIN]
+//
+//[CHAR2500][V0A00]
+//それより、改まってどうしたの？[END-FE]
+//Wendy\\
+[CHAR2500][V0900]
+Of course not![NWIN]
+
+[CHAR2500][V0A00]
+Why are you being so serious?[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3088 - STRING #26 @ $362E
+#W32($3088)
+//ルキアス\\
+//[CHAR2500][V0B00]
+//俺がこの大陸に来たのは、[NLINE]
+//龍玉を探し出すためだ。[END-FE]
+//Rukias\\
+[CHAR2500][V0B00]
+I came to this continent to[NLINE]
+search for the Dragon Orb.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $308C - STRING #27 @ $3669
+#W32($308C)
+//ウェンディ\\
+//[CHAR2500][V0C00]
+//えっ？[NLINE]
+//何のために？[END-FE]
+//Wendy\\
+[CHAR2500][V0C00]
+Huh?[NLINE]
+For what reason?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3090 - STRING #28 @ $3688
+#W32($3090)
+//ルキアス\\
+//[CHAR2500][V0D00]
+//それを説明するためにも、[NLINE]
+//向こうの大陸に戻ったら、[NLINE]
+//会って欲しい人がいる。[NWIN]
+//
+//[CHAR2500][V0E00]
+//そして彼と会うことは、[NLINE]
+//[Merklich]、[NLINE]
+//アンタの記憶を取り戻すことに[NLINE]
+//なるかも知れない。[END-FE]
+//Rukias\\
+[CHAR2500][V0D00]
+Before I explain that, there's[NLINE]
+someone I want to meet first after[NLINE]
+we've return to Esgrentz.[NWIN]
+
+[CHAR2500][V0E00]
+And after you meet him,[NLINE]
+your memories may return,[NLINE]
+[Merklich].[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3094 - STRING #29 @ $3737
+#W32($3094)
+//ウェンディ\\
+//この奥にトランス・ゲートがあるのね。[NLINE]
+//ちゃんと使えるかしら？[END-FE]
+//Wendy\\
+The Trangate is inside here.[NLINE]
+I wonder if we can really use it?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3098 - STRING #30 @ $3776
+#W32($3098)
+//ユリィ\\
+//トランス・ゲートを使った方が、[NLINE]
+//ファニルさん早く研究所へ[NLINE]
+//連れて行けます。[END-FE]
+//Yurii\\
+We can take Fanille to the[NLINE]
+research center faster if we[NLINE]
+used a Transgate.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $309C - STRING #31 @ $37C3
+#W32($309C)
+//　[NLINE]
+//カギがかかっているようだ…。[END-FE]
+//System Message\\
+[NLINE]
+It seems to be locked.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $30A0 - STRING #32 @ $37E6
+#W32($30A0)
+//　[NLINE]
+//トランス・ゲートのようだが、機能していない。[END-FE]
+//System Message\\
+It looks like a Transgate, but it's[NLINE]
+not working.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $30A4 - STRING #33 @ $3819
+#W32($30A4)
+//ユリィ\\
+//勇者様、このゲートは[NLINE]
+//機能させておいた方が、[NLINE]
+//後のために良いと思います。[END-FE]
+//Yurii\\
+Brave One, I think it would be[NLINE]
+best to activate this Gate for[NLINE]
+later.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $30A8 - STRING #34 @ $3864
+#W32($30A8)
+//ユリィ\\
+//[CHAR2E00][V0F00]
+//これはトランス・ゲートですよね？[NLINE]
+//停止状態のようですが…。[NWIN]
+//
+//[CHAR2E00][V1000]
+//あのゲートオープナーを使えば[NLINE]
+//機能を修復出来るのではないでしょうか？[END-FE]
+//Yurii\\
+[CHAR2E00][V0F00]
+This is a Transgate, right?[NLINE]
+It seems to have stopped working.[NWIN]
+
+[CHAR2E00][V1000]
+If we used that gate opener,[NLINE]
+couldn't we restore function to it?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $30AC - STRING #35 @ $38F7
+#W32($30AC)
+//ポトラド人\\
+//[CHAR6800][V0000]
+//おお、久しぶりじゃな！[NLINE]
+//そろそろトランス・ゲートのデータを[NLINE]
+//回収させてもらえんかな。[END-FE]
+//Pothradian\\
+[CHAR6800][V0000]
+Oh, it's been a while![NLINE]
+You've finally recovered the[NLINE]
+Transgate data.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $30B0 - STRING #36 @ $3956
+#W32($30B0)
+//ユリィ\\
+//[CHAR6800][V0100]
+//えっ？[NLINE]
+//ですが、ゲートオープナーを返してしまうと[NLINE]
+//私たちが移動できなくなってしまいます。[END-FE]
+//Yurii\\
+[CHAR6800][V0100]
+Hmm? But if we return the[NLINE]
+Gate Opener to you, we won't[NLINE]
+be able to use them.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $30B4 - STRING #37 @ $39B9
+#W32($30B4)
+//ポトラド人\\
+//[CHAR6800][V0200]
+//大丈夫じゃ。[NLINE]
+//代わりにこの指輪を用意した。[END-FE]
+//Pothradian\\
+[CHAR6800][V0200]
+No need to wrry. I prepared these[NLINE]
+rings for you instead.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $30B8 - STRING #38 @ $39EE
+#W32($30B8)
+//[CHAR6800][V0300]
+//その指輪を持っていれば、[NLINE]
+//今まで通りトランス・ゲートは使える。[NWIN]
+//
+//[CHAR6800][V0400]
+//というわけで、[NLINE]
+//その杖は回収させてもらうぞ。[END-FE]
+//Pothradian\\
+[CHAR6800][V0300]
+If you have those rings, you[NLINE]
+can make use of Transgates just[NLINE]
+like you have done up until now.[NWIN]
+
+[CHAR6800][V0400]
+I'll take back the staff now.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $30BC - STRING #39 @ $3A6D
+#W32($30BC)
+//ゲートオープナーを返却した。[END-FE]
+You returned the Gate Opener.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $30C0 - STRING #40 @ $3A8C
+#W32($30C0)
+//[CHAR6800][V0500]
+//では、確かに返してもらったぞ。[END-FE]
+//Pothradian\\
+[CHAR6800][V0500]
+I'll be taking it back.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $30C4 - STRING #41 @ $3AB5
+#W32($30C4)
+//[CHAR6800][V0600]
+//ゲートリング…。[NLINE]
+//７つありますので、[NLINE]
+//みなさんで１つずつ持ちましょう。[END-FE]
+//Yurii\\
+[CHAR6800][V0600]
+Gate Rings... There are[NLINE]
+seven of them, so we can[NLINE]
+give one to each person.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $30C8 - STRING #42 @ $3B06
+#W32($30C8)
+//　[NLINE]
+//既にゲートは使えるようになっている。[END-FE]
+//System Message\\
+[NLINE]
+The gate is already ready to be used.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $30CC - STRING #43 @ $3B31
+#W32($30CC)
+//今は使えません。[END-FE]
+You can't use it right now.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $30D0 - STRING #44 @ $3B44
+#W32($30D0)
+//　[NLINE]
+//既にゲートは使えるようになっている。[END-FE]
+//System Message\\
+[NLINE]
+The gate is already ready to be used.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $30D4 - STRING #45 @ $3B6F
+#W32($30D4)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #46 @ $30D8 - STRING #46 @ $3B86
+#W32($30D8)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #47 @ $30DC - STRING #47 @ $3B95
+#W32($30DC)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #48 @ $30E0 - STRING #48 @ $3BA4
+#W32($30E0)
+//デバッグセーブに行きますか？[END-FE]
+Do you want to go to a debugging save?[END-FE]
+
+
+
+
+
+//POINTER #49 @ $30E4 - STRING #49 @ $3BC3
+#W32($30E4)
+//Ｄ　Ｆ２９[END-FE]
+D F29[END-FE]
+
+
+
+

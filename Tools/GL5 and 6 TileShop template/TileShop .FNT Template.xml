@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gdf version="0.8">
+	<project name="Growlanser">
+		<arranger name="XXXXXX" elementsx="1" elementsy="1" width=">>0x1A<< DEC" height=">>0x1C<< DEC" layout="single" color="indexed" defaultcodec="PSX 4bpp" defaultdatafile="/Growlanser/XXXXXX.fnt">
+			<element fileoffset=">>0xC<< HEX" posx="0" posy="0" palette="/Growlanser/XXXXXX.CLUT.0" />
+		</arranger>
+		<palette name="XXXXXX.CLUT.0" fileoffset=">>0x8<< HEX" datafile="/Growlanser/XXXXXX.fnt" color="RGBA32" entries="16" zeroindextransparent="false" />
+		<datafile name="XXXXXX.fnt" location="XXXXXX.fnt" />
+	</project>
+</gdf>

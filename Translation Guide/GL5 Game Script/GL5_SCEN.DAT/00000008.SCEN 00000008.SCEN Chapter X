@@ -1,0 +1,5099 @@
+
+
+//POINTER #0 @ $4BA0 - STRING #0 @ $51B0
+#W32($4BA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $4BA4 - STRING #1 @ $51B3
+#W32($4BA4)
+//女冒険者[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #2 @ $4BA8 - STRING #2 @ $51BE
+#W32($4BA8)
+//男[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #3 @ $4BAC - STRING #3 @ $51C3
+#W32($4BAC)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #4 @ $4BB0 - STRING #4 @ $51D0
+#W32($4BB0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $4BB4 - STRING #5 @ $51F5
+#W32($4BB4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $4BB8 - STRING #6 @ $521A
+#W32($4BB8)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $4BBC - STRING #7 @ $522F
+#W32($4BBC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $4BC0 - STRING #8 @ $5264
+#W32($4BC0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $4BC4 - STRING #9 @ $5299
+#W32($4BC4)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $4BC8 - STRING #10 @ $52BE
+#W32($4BC8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $4BCC - STRING #11 @ $52E3
+#W32($4BCC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $4BD0 - STRING #12 @ $5308
+#W32($4BD0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $4BD4 - STRING #13 @ $531D
+#W32($4BD4)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #14 @ $4BD8 - STRING #14 @ $5344
+#W32($4BD8)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+Geilenach, Capital[NLINE]
+   of Grangale[END-FE]
+
+
+
+
+
+//POINTER #15 @ $4BDC - STRING #15 @ $5369
+#W32($4BDC)
+//あんたたち、ケガはないかね？[END-FE]
+Are you guys okay?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $4BE0 - STRING #16 @ $5388
+#W32($4BE0)
+//ああ、なんとかな。[END-FE]
+More or less.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $4BE4 - STRING #17 @ $539D
+#W32($4BE4)
+//よかったら、薬でも買ってくれないか？[NLINE]
+//他に宝石とかも扱ってるんだが…。[END-FE]
+I've got medicine, if you[NLINE]
+need some. Gems, too...[END-FE]
+
+
+
+
+
+//POINTER #18 @ $4BE8 - STRING #18 @ $53E6
+#W32($4BE8)
+//物価が上がった今の世じゃ、[NLINE]
+//宝石よりも食料の方がいいんじゃないか？[END-FE]
+Wouldn't people prefer food to[NLINE]
+gems, with the cost of living[NLINE]
+being so high?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $4BEC - STRING #19 @ $542B
+#W32($4BEC)
+//まったく、その通りなんだけど…。[NLINE]
+//トホホ…困ったなぁ…。[END-FE]
+True... Very true. But, hmm...[NLINE]
+What should I do...?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $4BF0 - STRING #20 @ $5466
+#W32($4BF0)
+//ここの人じゃなさそうですね。[END-FE]
+You're not from here, are you?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $4BF4 - STRING #21 @ $5485
+#W32($4BF4)
+//ああ、このグランゲイル王国の金持ちなら[NLINE]
+//宝石を買う余裕くらいあると思ったんだけど[NLINE]
+//読みが甘かったよ。[NWIN]
+//
+//戦争をやるためにすぐに換金するから、[NLINE]
+//宝石を買う方が手間だって言われたよ。[END-FE]
+You're right. I thought rich Grangalians[NLINE]
+would love to buy gems, but I guess[NLINE]
+I've read the situation incorrectly.[NWIN]
+
+If they need money for the war[NLINE]
+effort, gems are just a luxury.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $4BF8 - STRING #22 @ $5538
+#W32($4BF8)
+//あの身体で、どこに行ったのかしら？[END-FE]
+Where did he go, injured like that?[END-FE]
+
+
+
+
+
+//POINTER #23 @ $4BFC - STRING #23 @ $555D
+#W32($4BFC)
+//心配だな…。[END-FE]
+I worry about him.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4C00 - STRING #24 @ $556C
+#W32($4C00)
+//遺跡の位置は知っているか？[END-FE]
+Do you know where the ruin is?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4C04 - STRING #25 @ $5589
+#W32($4C04)
+//そういえば、場所までは聞いていないわ。[NLINE]
+//この間の人に、[NLINE]
+//もう一度話を聞きに行きましょう。[END-FE]
+You know, I forgot to ask him.[NLINE]
+Let's go find him again to[NLINE]
+see where we need to go.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4C08 - STRING #26 @ $55E4
+#W32($4C08)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+Geilenach, Capital[NLINE]
+   of Grangale[END-FE]
+
+
+
+
+
+//POINTER #27 @ $4C0C - STRING #27 @ $5609
+#W32($4C0C)
+//[CHAR0600][V0000]
+//ほおお……。[NLINE]
+//ここがグランゲイルの王都、[NLINE]
+//ガイラナックか……。[END-FE]
+[CHAR0600][V0000]
+Ahhh... So this is[NLINE]
+Geilenach, the capital[NLINE]
+of Grangale...[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4C10 - STRING #28 @ $5652
+#W32($4C10)
+//[CHAR0600][V0100]
+//そんなに珍しいんですか？[END-FE]
+[CHAR0600][V0100]
+Is it really that amazing?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4C14 - STRING #29 @ $5675
+#W32($4C14)
+//[CHAR0600][V0200]
+//当たり前だろう？[NLINE]
+//お前たちだって、私のことを[NLINE]
+//散々珍しがったではないか。[NWIN]
+//
+//[CH.FACE:Normal][CHAR0600][V0300]
+//これでも、ワシはポトラドの中では[NLINE]
+//人間に近い方だったが…。[END-FE]
+[CHAR0600][V0200]
+Of course. It's the same feeling[NLINE]
+as when you youngsters saw the[NLINE]
+strange and wonderful Pothrad.[NWIN]
+
+[CH.FACE:Normal][CHAR0600][V0300]
+I'm unusually simpatico with[NLINE]
+humans, for a Pothradian.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4C18 - STRING #30 @ $5710
+#W32($4C18)
+//[CHAR0600][V0400]
+//ポトラド人って、[NLINE]
+//自分たちの領からほとんど出てこないけど、[NLINE]
+//どんな暮らしをしているの？[END-FE]
+[CHAR0600][V0400]
+I don't know much about Pothradians,[NLINE]
+except that they don't leave their[NLINE]
+homeland often. What's their life like?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $4C1C - STRING #31 @ $5771
+#W32($4C1C)
+//[CHAR0600][V0500]
+//ポトラドは大地と共に生きることを[NLINE]
+//信条としている。[NLINE]
+//ポトラドには大地の力の流れを[NLINE]
+//感じられる者が生まれる。[NWIN]
+//
+//[CHAR0600][V0600]
+//大地の力の流れ[－][－][NLINE]
+//これを我々は『龍脈』と呼んでいるが、[NLINE]
+//この龍脈の上に暮らせば、その集落は栄える。[NWIN]
+//
+//[CHAR0600][V0700]
+//だが同じ所に定住すると[NLINE]
+//その土地の龍脈が弱くなる。[NLINE]
+//だから定期的に[NLINE]
+//余裕のある龍脈に移住するのじゃ。[END-FE]
+[CHAR0600][V0500]
+Our motto is to live in harmony with the[NLINE]
+earth. We're in tune with its energies.[NWIN]
+
+[CHAR0600][V0600]
+We call those energies that flow through[NLINE]
+the earth the Ley Line. Those who[NLINE]
+settle near it will live long lives.[NWIN]
+
+[CHAR0600][V0700]
+But that tends to weaken a Ley Line, so[NLINE]
+we have to migrate to other Ley Lines[NLINE]
+that still have power.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $4C20 - STRING #32 @ $58C2
+#W32($4C20)
+//[CHAR0600][V0800]
+//なるほど。[NLINE]
+//それで大地と共に生きる、なのか。[END-FE]
+[CHAR0600][V0800]
+So you live with the[NLINE]
+earth... Interesting.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $4C24 - STRING #33 @ $58F9
+#W32($4C24)
+//[CHAR0600][V0900]
+//人間は同じ場所に暮らし、[NLINE]
+//自分たちの暮らしやすいように[NLINE]
+//土地を変えていく。[NLINE]
+//この辺りが人間とポトラドの違いじゃな。[END-FE]
+[CHAR0600][V0900]
+Humans prefer to stay put,[NLINE]
+and change their environment[NLINE]
+to their own liking. That's the[NLINE]
+difference between our races.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $4C28 - STRING #34 @ $5976
+#W32($4C28)
+//[CHAR0600][V0A00]
+//でも、同じ所に定住すると[NLINE]
+//龍脈が弱くなるんでしょう？[NLINE]
+//つまり、人間の生き方は[NLINE]
+//本当は良くないということ？[END-FE]
+[CHAR0600][V0A00]
+But the Ley Line weakens[NLINE]
+from staying in the same[NLINE]
+place, right? So the human[NLINE]
+way shouldn't work.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $4C2C - STRING #35 @ $59E9
+#W32($4C2C)
+//[CHAR0600][V0B00]
+//ポトラドの信条からすると間違いじゃな。[NLINE]
+//だが、ワシは否定はせぬぞ。[NWIN]
+//
+//[CHAR0600][V0C00]
+//同じ場所に定住するからこそ、[NLINE]
+//これほど立派な街を造れる。[NWIN]
+//
+//[CHAR0600][V0D00]
+//ポトラドは２，３年で移住するため、[NLINE]
+//最低限の居住環境しか造らない。[END-FE]
+[CHAR0600][V0B00]
+That's what the Pothrads believe.[NLINE]
+But I don't begrudge you your ways.[NWIN]
+
+[CHAR0600][V0C00]
+It's staying in one place that lets[NLINE]
+you create a grand city like this.[NWIN]
+
+[CHAR0600][V0D00]
+Pothradians migrate every few years,[NLINE]
+so we only build what's necessary.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $4C30 - STRING #36 @ $5AC4
+#W32($4C30)
+//[CHAR0600][V0E00]
+//私にはポトラド人の生き方、[NLINE]
+//考え方は尊敬に値するよ。[NWIN]
+//
+//[CHAR0600][V0F00]
+//人間は土地に固執するから、[NLINE]
+//大地を消費してしまう。[NLINE]
+//消費すれば、[NLINE]
+//もっと肥沃な土地を求める。[NWIN]
+//
+//[CHAR0600][V1000]
+//こうして侵略戦争が起こる。[NWIN]
+//
+//[CHAR0600][V1100]
+//ポトラド人では[NLINE]
+//こんな戦争など起こらない。[END-FE]
+[CHAR0600][V0E00]
+I admire the wisdom of[NLINE]
+the Pothrad way of life.[NWIN]
+
+[CHAR0600][V0F00]
+By staying on the same soil,[NLINE]
+humans consume the power[NLINE]
+of the earth, and when it's[NLINE]
+used up, we look elsewhere.[NWIN]
+
+[CHAR0600][V1000]
+That's how invasions begin.[NWIN]
+
+[CHAR0600][V1100]
+Pothradians will never[NLINE]
+have such a war.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $4C34 - STRING #37 @ $5BC1
+#W32($4C34)
+//[CHAR0600][V1200]
+//どちらがいいと決めつけるのは浅はかだが、[NLINE]
+//互いの良い所を学びあえれば、[NLINE]
+//共に発展していくだろうな……。[NWIN]
+//
+//[CHAR0600][V1300]
+//もっとも、ポトラドは基本的に[NLINE]
+//『人間に関わるな』と教えられているからな。[NLINE]
+//ワシみたいな変人は、まれじゃて。[NWIN]
+//
+//[CHAR0600][V1400]
+//さ、それよりも街を案内してくれ。[END-FE]
+[CHAR0600][V1200]
+I couldn't say one way is better, but[NLINE]
+if we can learn from one another,[NLINE]
+we'll both flourish...[NWIN]
+
+[CHAR0600][V1300]
+But then, Pothrads are taught not[NLINE]
+to get involved in human affairs.[NLINE]
+Mine is the minority view.[NWIN]
+
+[CHAR0600][V1400]
+Now, show me around the town.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4C38 - STRING #38 @ $5CD0
+#W32($4C38)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+Geilenach, Capital[NLINE]
+   of Grangale[END-FE]
+
+
+
+
+
+//POINTER #39 @ $4C3C - STRING #39 @ $5CF5
+#W32($4C3C)
+//[CHAR0700][V1A00]
+//（…むぅ、…街に着いてしまった…。[NLINE]
+//　何かきっかけがあれば…）[END-FE]
+[CHAR0700][V1A00]
+(We've already reached[NLINE]
+town... Gotta stall for time...)[END-FE]
+
+
+
+
+
+//POINTER #40 @ $4C40 - STRING #40 @ $5D3E
+#W32($4C40)
+//[CHAR0700][V1B00]
+//どうしたの、セルディス？[END-FE]
+[CHAR0700][V1B00]
+What's wrong, Seldous?[END-FE]
+
+
+
+
+
+//POINTER #41 @ $4C44 - STRING #41 @ $5D61
+#W32($4C44)
+//[CHAR0700][V1C00]
+//ああ、ちょっと用事があるんだ。[CC.FFCD][CH.FACE:Normal][END-FE]
+[CHAR0700][V1C00]
+Uh, I have something to take care of.[CC.FFCD][CH.FACE:Normal][END-FE]
+
+
+
+
+
+//POINTER #42 @ $4C48 - STRING #42 @ $5D90
+#W32($4C48)
+//[CHAR0700][V1D00]
+//これをアランに渡して、[NLINE]
+//用意をしてもらってくれ。[NLINE]
+//用事が済んだら、すぐに向かう。[END-FE]
+[CHAR0700][V1D00]
+Can you give this list to Alan[NLINE]
+and have him prepare it? I'll[NLINE]
+catch up to you once I'm done.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $4C4C - STRING #43 @ $5DEB
+#W32($4C4C)
+//　[NLINE]
+//アランへの手紙を渡した！[END-FE]
+　[NLINE]
+Gave Vanette the Letter to Alan![END-FE]
+
+
+
+
+
+//POINTER #44 @ $4C50 - STRING #44 @ $5E0A
+#W32($4C50)
+//[CHAR0700][V1E00]
+//わかったわ。[END-FE]
+[CHAR0700][V1E00]
+Sure.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $4C54 - STRING #45 @ $5E21
+#W32($4C54)
+//　[NLINE]
+//ヴァネットがパーティーから外れた。[END-FE]
+　[NLINE]
+Vanette has left your party.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $4C58 - STRING #46 @ $5E4A
+#W32($4C58)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+Geilenach, Capital[NLINE]
+    of Grangale[END-FE]
+
+
+
+
+
+//POINTER #47 @ $4C5C - STRING #47 @ $5E6F
+#W32($4C5C)
+//そういえば少しはお金があるから、[NLINE]
+//装備やグッズを揃えておいた方がいいわね。[END-FE]
+We've got some money, so we[NLINE]
+should buy equipment and items.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $4C60 - STRING #48 @ $5EBC
+#W32($4C60)
+//ヴァネットは[NLINE]
+//アランの屋敷に向かった…。[END-FE]
+Vanette headed[NLINE]
+for Alan's house...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4C64 - STRING #49 @ $5EE7
+#W32($4C64)
+//　[NLINE]
+//城門が閉じていて、外へは出られない。[END-FE]
+　[NLINE]
+The gate's closed. I can't go out.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4C68 - STRING #50 @ $5F12
+#W32($4C68)
+//早く大陸を統一して欲しいわ。[END-FE]
+I wish Grangale would hurry[NLINE]
+up and unite the continent.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $4C6C - STRING #51 @ $5F31
+#W32($4C6C)
+//あなたたち、[NLINE]
+//あのスクリーパーの襲撃から[NLINE]
+//逃げてきたのかい？[NLINE]
+//いやぁ、無事でよかったね！[END-FE]
+You guys escaped the[NLINE]
+Screaper attack?[NLINE]
+I'm glad you both[NLINE]
+made it out okay![END-FE]
+
+
+
+
+
+//POINTER #52 @ $4C70 - STRING #52 @ $5F8C
+#W32($4C70)
+//すまないが、この辺りの病院は[NLINE]
+//城門のそばにある建物だけかい？[END-FE]
+Is the hospital by the gate[NLINE]
+the only one around here?[END-FE]
+
+
+
+
+
+//POINTER #53 @ $4C74 - STRING #53 @ $5FCB
+#W32($4C74)
+//その人を診せたいの？[NWIN]
+//
+//残念だけど、この辺りで病院は、[NLINE]
+//あそこだけだね。[NWIN]
+//
+//しかも、さっきのスクリーパーに[NLINE]
+//やられたケガ人で、[NLINE]
+//病院はいっぱいみたいよ。[END-FE]
+Does he need a doctor?[NWIN]
+
+That's the only hospital[NLINE]
+here, unfortunately...[NWIN]
+
+And it's full up with[NLINE]
+people who were hurt[NLINE]
+in the Screaper attack.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $4C78 - STRING #54 @ $6062
+#W32($4C78)
+//すまないが、病院はどこかな？[END-FE]
+Excuse me, where is the hospital?[END-FE]
+
+
+
+
+
+//POINTER #55 @ $4C7C - STRING #55 @ $6081
+#W32($4C7C)
+//その人を診せたいの？[NLINE]
+//病院なら、城門側の建物がそうだけど…。[NWIN]
+//
+//でも、さっきのスクリーパーに[NLINE]
+//やられたケガ人で、[NLINE]
+//病院はいっぱいみたいよ。[END-FE]
+Does he need a doctor? The[NLINE]
+hospital's by the gate...[NWIN]
+
+But it's full up with[NLINE]
+people who were hurt[NLINE]
+in the Screaper attack.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $4C80 - STRING #56 @ $610C
+#W32($4C80)
+//宿で休ませながら待つしかないか…。[END-FE]
+I guess he'll have to rest at the inn.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $4C84 - STRING #57 @ $6131
+#W32($4C84)
+//あのスクリーパーの襲撃から[NLINE]
+//逃げのびたなんて…。[END-FE]
+You survived the Screaper[NLINE]
+attack... I can't believe it...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $4C88 - STRING #58 @ $6164
+#W32($4C88)
+//ネイラーンがヌナーンを捨てて、[NLINE]
+//西に後退したってよ！[END-FE]
+Neylern has abandoned[NLINE]
+Nu Nahn and retreated west.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $4C8C - STRING #59 @ $619B
+#W32($4C8C)
+//グランゲイルの勝利も近いわね！[END-FE]
+Grangale's moment of triumph is here![END-FE]
+
+
+
+
+
+//POINTER #60 @ $4C90 - STRING #60 @ $61BC
+#W32($4C90)
+//いよいよ本格的に[NLINE]
+//ネイラーンを叩くそうよ。[END-FE]
+Rumor has it we're going[NLINE]
+to defeat Neylern for good.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $4C94 - STRING #61 @ $61E9
+#W32($4C94)
+//なんだと!?[END-FE]
+What!?[END-FE]
+
+
+
+
+
+//POINTER #62 @ $4C98 - STRING #62 @ $61F6
+#W32($4C98)
+//ネイラーンなんて小さな国が[NLINE]
+//グランゲイルにたてつくのが間違いなのさ。[NLINE]
+//これでスッキリするぜ。[END-FE]
+Neylern's no match for Grangale.[NLINE]
+Provoking us was their first and[NLINE]
+last mistake. We're on top now.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $4C9C - STRING #63 @ $6255
+#W32($4C9C)
+//そうよ。[NLINE]
+//グランゲイルが大陸中の国を統一すれば、[NLINE]
+//平和で平等な世界がくるのよ！[END-FE]
+That's right. Once this continent[NLINE]
+is united under Grangale, a new[NLINE]
+era of peace will dawn![END-FE]
+
+
+
+
+
+//POINTER #64 @ $4CA0 - STRING #64 @ $62A6
+#W32($4CA0)
+//グランゲイルの大陸統一思想は[NLINE]
+//国民にまで浸透しているみたいね。[END-FE]
+The people here are already drunk[NLINE]
+with the idea of imperial conquest...[END-FE]
+
+
+
+
+
+//POINTER #65 @ $4CA4 - STRING #65 @ $62E7
+#W32($4CA4)
+//グランゲイルが本腰を入れれば、[NLINE]
+//数で劣るネイラーンに勝機はない。[NLINE]
+//また虐殺が起こるのか……。[END-FE]
+Once Grangale bears down,[NLINE]
+Neylern will be outnumbered, and[NLINE]
+we'll see another massacre...[END-FE]
+
+
+
+
+
+//POINTER #66 @ $4CA8 - STRING #66 @ $6346
+#W32($4CA8)
+//戦争は単純に引き算だ。[NLINE]
+//自分たちの力から相手の力を引いて、[NLINE]
+//マイナスなら負け、それだけだ。[NWIN]
+//
+//兵の数で劣っていて、それでも勝とうとしたら[NLINE]
+//一人一人が強くなるか、[NLINE]
+//強い武器を持つしかない。[NWIN]
+//
+//魔法などの技術はその１つだな。[END-FE]
+It's the mathematics of war. Subtract[NLINE]
+the opponent's power from yours;[NLINE]
+a negative number means defeat.[NWIN]
+
+With inferior numbers, you either need[NLINE]
+stronger soldiers, or stronger weapons.[NWIN]
+
+Magic is a good example.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $4CAC - STRING #67 @ $6421
+#W32($4CAC)
+//この戦争を止めるためには、[NLINE]
+//私たちが相手よりも絶対的な力を[NLINE]
+//持つしかないのね。[END-FE]
+So... To stop this war, we[NLINE]
+need even more power[NLINE]
+than our enemies.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $4CB0 - STRING #68 @ $6472
+#W32($4CB0)
+//やはりあの兵器の力に頼るしかないようだな…。[NWIN]
+//
+//何としても出資者をあつめて、[NLINE]
+//一刻も早くあの兵器を使えるようにしなければ。[END-FE]
+We'll need that weapon after all...[NWIN]
+
+Which means we must find investors[NLINE]
+and restore the weapon immediately.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $4CB4 - STRING #69 @ $64ED
+#W32($4CB4)
+//食料援助をしてくれないなら、[NLINE]
+//奪っちまえって事だな！[END-FE]
+If they don't offer aid,[NLINE]
+we'll take it ourselves![END-FE]
+
+
+
+
+
+//POINTER #70 @ $4CB8 - STRING #70 @ $6524
+#W32($4CB8)
+//伝説でもなんでも、[NLINE]
+//この事態を収めてくれないかね。[NLINE]
+//ま、信じてないけど。[END-FE]
+It'd be nice if it could get[NLINE]
+us out of our situation now,[NLINE]
+but that's just a dream.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $4CBC - STRING #71 @ $656F
+#W32($4CBC)
+//すまないが、[NLINE]
+//このあたりに残る[NLINE]
+//楽園伝説について知りたいんだが。[END-FE]
+Excuse me... I'm investigating[NLINE]
+the paradise legend that's[NLINE]
+been circulating.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $4CC0 - STRING #72 @ $65B2
+#W32($4CC0)
+//楽園伝説？[NLINE]
+//なんだい、それ？[END-FE]
+Paradise legend?[NLINE]
+What's that?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $4CC4 - STRING #73 @ $65D1
+#W32($4CC4)
+//数百年前、誰も死なせずに大陸をまとめ、[NLINE]
+//楽園を創ったという伝説だが。[END-FE]
+Ages ago, this continent was united[NLINE]
+with absolutely no bloodshed.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $4CC8 - STRING #74 @ $6618
+#W32($4CC8)
+//それだったら、[NLINE]
+//今あんたが言ったことくらいしか知らないよ。[NLINE]
+//そもそもそんな伝説信じられないよ。[END-FE]
+Oh, that. I've heard it, but[NLINE]
+that's all. Who'd believe in[NLINE]
+such a legend?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $4CCC - STRING #75 @ $6679
+#W32($4CCC)
+//楽園伝説なんて[NLINE]
+//あくまでも伝説に過ぎないさ。[END-FE]
+The paradise legend is[NLINE]
+nothing but a myth.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $4CD0 - STRING #76 @ $66A8
+#W32($4CD0)
+//城門に挟まったスクリーパーを処理しています。[NLINE]
+//しばらくお待ち下さい。[END-FE]
+We're still dealing with the Screaper[NLINE]
+corpse stuck in the gate. Sorry.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $4CD4 - STRING #77 @ $66EF
+#W32($4CD4)
+//スクリーパーの死体を処理しています。[NLINE]
+//しばらくお待ち下さい。[END-FE]
+We're disposing of the Screaper's[NLINE]
+corpse. It'll be a little longer.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $4CD8 - STRING #78 @ $672E
+#W32($4CD8)
+//通行証はお持ちですね。[NLINE]
+//どうぞ、お通り下さい。[END-FE]
+Is your visa in order?[NLINE]
+Proceed then.[END-FE]
+
+
+
+
+
+//POINTER #79 @ $4CDC - STRING #79 @ $675F
+#W32($4CDC)
+//カインズ商店へようこそ！[END-FE]
+Welcome to Kyne's Emporium![END-FE]
+
+
+
+
+
+//POINTER #80 @ $4CE0 - STRING #80 @ $677A
+#W32($4CE0)
+//どのようなご用件でしょうか？[END-FE]
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $4CE4 - STRING #81 @ $6799
+#W32($4CE4)
+//・アクセサリ購入[END-FE]
+・Buy accessories[END-FE]
+
+
+
+
+
+//POINTER #82 @ $4CE8 - STRING #82 @ $67AC
+#W32($4CE8)
+//・グッズ購入[END-FE]
+・Buy items[END-FE]
+
+
+
+
+
+//POINTER #83 @ $4CEC - STRING #83 @ $67BB
+#W32($4CEC)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #84 @ $4CF0 - STRING #84 @ $67C4
+#W32($4CF0)
+//・アランへの取り次ぎを頼む[END-FE]
+・Ask for Alan[END-FE]
+
+
+
+
+
+//POINTER #85 @ $4CF4 - STRING #85 @ $67E1
+#W32($4CF4)
+//ありがとうございます。[NLINE]
+//またお越し下さい。[END-FE]
+Thank you very much.[NLINE]
+We hope to see you again.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $4CF8 - STRING #86 @ $680E
+#W32($4CF8)
+//カインズ商店へようこそ！[END-FE]
+Welcome to Kyne's Emporium![END-FE]
+
+
+
+
+
+//POINTER #87 @ $4CFC - STRING #87 @ $6829
+#W32($4CFC)
+//どのようなご用件でしょうか？[END-FE]
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #88 @ $4D00 - STRING #88 @ $6848
+#W32($4D00)
+//・武器購入[END-FE]
+・Buy weapons[END-FE]
+
+
+
+
+
+//POINTER #89 @ $4D04 - STRING #89 @ $6855
+#W32($4D04)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #90 @ $4D08 - STRING #90 @ $6862
+#W32($4D08)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #91 @ $4D0C - STRING #91 @ $686B
+#W32($4D0C)
+//・アランへの取り次ぎを頼む[END-FE]
+・Ask for Alan[END-FE]
+
+
+
+
+
+//POINTER #92 @ $4D10 - STRING #92 @ $6888
+#W32($4D10)
+//店主のアランに会いたい。[NLINE]
+//取り次いでくれないか。[END-FE]
+I'd like to see Alan, the[NLINE]
+proprietor. Could you[NLINE]
+let him know?[END-FE]
+
+
+
+
+
+//POINTER #93 @ $4D14 - STRING #93 @ $68BB
+#W32($4D14)
+//失礼ですが、[NLINE]
+//どちら様でしょうか？[END-FE]
+And what is your[NLINE]
+name, if I may ask?[END-FE]
+
+
+
+
+
+//POINTER #94 @ $4D18 - STRING #94 @ $68E0
+#W32($4D18)
+//セルディスとヴァネットだ。[END-FE]
+Seldous and Vanette.[END-FE]
+
+
+
+
+
+//POINTER #95 @ $4D1C - STRING #95 @ $68FD
+#W32($4D1C)
+//あ、お二人でしたら、[NLINE]
+//承っております。[NWIN]
+//
+//直接お屋敷の方へどうぞ。[END-FE]
+Oh, yes. He told me about you two.[NWIN]
+
+Please proceed to the main house.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $4D20 - STRING #96 @ $6940
+#W32($4D20)
+//直接お屋敷の方へどうぞ。[END-FE]
+Please proceed to the main house.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $4D24 - STRING #97 @ $695B
+#W32($4D24)
+//ありがとうございます。[NLINE]
+//またお越し下さい。[END-FE]
+Thank you very much.[NLINE]
+We hope to see you again.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $4D28 - STRING #98 @ $6988
+#W32($4D28)
+//いらっしゃい！[NLINE]
+//旅に必要な薬草はいかがかな？[NLINE]
+//きれいな宝石もあるよ！[END-FE]
+Welcome! Can I interest[NLINE]
+you in some herbs? I also[NLINE]
+have several beautiful gems![END-FE]
+
+
+
+
+
+//POINTER #99 @ $4D2C - STRING #99 @ $69CF
+#W32($4D2C)
+//おやじ、宝石を見せてくれ。[END-FE]
+Gems...? Let me see them.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $4D30 - STRING #100 @ $69EC
+#W32($4D30)
+//おお、これはこれは！[NWIN]
+//
+//ルビーに、サファイア、エメラルド！[NLINE]
+//お安くしておくよ！[END-FE]
+Oh, very good, Sir![NWIN]
+
+I'll give you a good deal on[NLINE]
+rubies, sapphires, or diamonds![END-FE]
+
+
+
+
+
+//POINTER #101 @ $4D34 - STRING #101 @ $6A3B
+#W32($4D34)
+//お買いあげ、[NLINE]
+//ありがとうございました！[END-FE]
+Thank you very[NLINE]
+much, Sir![END-FE]
+
+
+
+
+
+//POINTER #102 @ $4D38 - STRING #102 @ $6A64
+#W32($4D38)
+//ありがとう、[NLINE]
+//いい買い物ができたよ。[END-FE]
+Thanks. This[NLINE]
+is excellent.[END-FE]
+
+
+
+
+
+//POINTER #103 @ $4D3C - STRING #103 @ $6A8B
+#W32($4D3C)
+//いえいえ、今後もごひいきに！[END-FE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #104 @ $4D40 - STRING #104 @ $6AAA
+#W32($4D40)
+//そういえば、最近何人もの商人が[NLINE]
+//この街に出入りするようになったおかげで、[NLINE]
+//そこの店の品揃えも良くなっていますよ。[NWIN]
+//
+//なんだかどの商人も妙にそわそわしてて[NLINE]
+//気味がわるいんですけどね。[END-FE]
+With all the merchants visiting[NLINE]
+lately, the selection of the[NLINE]
+stores here has improved.[NWIN]
+
+But they all seem so restless...[NLINE]
+I wonder about them.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $4D44 - STRING #105 @ $6B5F
+#W32($4D44)
+//お買いあげ、[NLINE]
+//ありがとうございました！[END-FE]
+Thank you very[NLINE]
+much, Sir![END-FE]
+
+
+
+
+
+//POINTER #106 @ $4D48 - STRING #106 @ $6B88
+#W32($4D48)
+//あの宝石がお役に立てたようで、[NLINE]
+//私も嬉しいですよ！[END-FE]
+I'm glad the gem worked[NLINE]
+out for you, Sir![END-FE]
+
+
+
+
+
+//POINTER #107 @ $4D4C - STRING #107 @ $6BBD
+#W32($4D4C)
+//もし宝石が欲しくなったら、[NLINE]
+//ぜひ私に声をかけてください。[END-FE]
+If it concerns gems,[NLINE]
+I'm your man..[END-FE]
+
+
+
+
+
+//POINTER #108 @ $4D50 - STRING #108 @ $6BF8
+#W32($4D50)
+//いいなぁ…。[NLINE]
+//あそこ…。[END-FE]
+I wanna go[NLINE]
+up there...[END-FE]
+
+
+
+
+
+//POINTER #109 @ $4D54 - STRING #109 @ $6C13
+#W32($4D54)
+//いつか…いつかは、[NLINE]
+//登ってみたいなぁ…。[END-FE]
+I'll climb up...[NLINE]
+Someday...[END-FE]
+
+
+
+
+
+//POINTER #110 @ $4D58 - STRING #110 @ $6C3E
+#W32($4D58)
+//右スティックによるマップ確認モードは[NLINE]
+//街の中でも有効です。[NLINE]
+//マップ確認モードは、[CIRCLE]や[CROSS]で終了します。[END-FE]
+The Map Check function works in towns[NLINE]
+as well. You can exit the Map Check by[NLINE]
+pressing [CIRCLE] or [CROSS].[END-FE]
+
+
+
+
+
+//POINTER #111 @ $4E5C - STRING #111 @ $6DBE
+#W32($4E5C)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ahhh! I'm so busy![NWIN]
+
+Dammit! I'll never finish packing[NLINE]
+my stuff![NWIN]
+
+I don't even have time to chat[NLINE]
+with you![NWIN]
+
+What, you don't believe me!?[NWIN]
+
+I'm serious![NWIN]
+
+If I could skip this conversation,[NLINE]
+I would![NWIN]
+
+You don't know about skipping?[NWIN]
+
+If you want to skip messages, press[NLINE]
+the [CIRCLE] and [R1] buttons together![NWIN]
+
+And that's how you skip messages![NLINE]
+Got it?[NWIN]
+
+But watch out, pal.[NWIN]
+
+You might end up skipping important[NLINE]
+messages too.[NWIN]
+
+If you're talking to someone for the[NLINE]
+first time, you might want to listen[NLINE]
+to them.[NWIN]
+
+Huh? J-Just 'cause I'm telling you all[NLINE]
+this doesn't mean I have time to chat![NWIN]
+
+What part of busy don't you[NLINE]
+understand!?[NWIN]
+
+So don't talk to me... Once I get[NLINE]
+going, I can't stop myself...[END-FE]
+
+
+
+
+
+//POINTER #111 @ $4D5C - STRING #111 @ $6CA5
+#W32($4D5C)
+//装備品と技能プレートの説明を受けますか？[END-FE]
+View equipment and Plate tutorial?[END-FE]
+
+
+
+
+
+//POINTER #112 @ $4D60 - STRING #112 @ $6CD0
+#W32($4D60)
+//・説明を受ける[END-FE]
+・View the tutorial[END-FE]
+
+
+
+
+
+//POINTER #113 @ $4D64 - STRING #113 @ $6CE1
+#W32($4D64)
+//・説明を受けない[END-FE]
+・No need[END-FE]
+
+
+
+
+
+//POINTER #114 @ $4D68 - STRING #114 @ $6CF4
+#W32($4D68)
+//装備品は武器、防具、アクセサリの３種類が　　[NLINE]
+//装備できます。[END-FE]
+You can equip weapons,[NLINE]
+armor and accessories.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $4D6C - STRING #115 @ $6D33
+#W32($4D6C)
+//[COL01]武器[COL00][END-FE]
+[COL01]Weapons[COL00][END-FE]
+
+
+
+
+
+//POINTER #116 @ $4D70 - STRING #116 @ $6D40
+#W32($4D70)
+//武器は主に[COL02]ＡＴＫ[COL00]を上昇させ、　　　　　　　　[NLINE]
+//敵に与えるダメージを増やす装備品です。[END-FE]
+Weapon raises [COL01]ATK[COL00] to inflict[NLINE]
+more damage to enemies.[END-FE]
+
+
+
+
+
+//POINTER #117 @ $4D74 - STRING #117 @ $6D9D
+#W32($4D74)
+//[COL01]防具[COL00][END-FE]
+[COL01]Armor[COL00][END-FE]
+
+
+
+
+
+//POINTER #118 @ $4D78 - STRING #118 @ $6DAA
+#W32($4D78)
+//防具は主に[COL02]ＤＥＦ[COL00]を上昇させ、[NLINE]
+//敵から受けるダメージを減らす装備品です。　　[END-FE]
+Armor raises [COL01]DEF[COL00] to reduce[NLINE]
+damage taken from enemy attacks.[END-FE]
+
+
+
+
+
+//POINTER #119 @ $4D7C - STRING #119 @ $6DFD
+#W32($4D7C)
+//[COL01]アクセサリ２[COL00][END-FE]
+[COL01]Accessory 2[COL00][END-FE]
+
+
+
+
+
+//POINTER #120 @ $4D80 - STRING #120 @ $6E12
+#W32($4D80)
+//[COL01]アクセサリ１[COL00][END-FE]
+[COL01]Accessory 1[COL00][END-FE]
+
+
+
+
+
+//POINTER #121 @ $4D84 - STRING #121 @ $6E27
+#W32($4D84)
+//アクセサリは武器、防具とは異なり　　　　　　[NLINE]
+//様々な特殊能力を与えてくれます。[NLINE]
+//２個まで装備できます。[END-FE]
+Unlike weapons and armor,[NLINE]
+accessories grant special[NLINE]
+abilities. You have two slots.[END-FE]
+
+
+
+
+
+//POINTER #122 @ $4D88 - STRING #122 @ $6E90
+#W32($4D88)
+//また、武器、防具は使い込むことによって、[NLINE]
+//キャラクターの成長に必要な[COL01]『技能プレート』[COL00]　[NLINE]
+//を生成します。[END-FE]
+Using weapons and armor effectively[NLINE]
+will produce [COL01]Ability Plates[COL00] that are[NLINE]
+essential to character growth.[END-FE]
+
+
+
+
+
+//POINTER #123 @ $4D8C - STRING #123 @ $6EFF
+#W32($4D8C)
+//[COL01]技能プレート３[COL00][END-FE]
+[COL01]Ability Plate 3[COL00][END-FE]
+
+
+
+
+
+//POINTER #124 @ $4D90 - STRING #124 @ $6F16
+#W32($4D90)
+//[COL01]技能プレート２[COL00][END-FE]
+[COL01]Ability Plate 2[COL00][END-FE]
+
+
+
+
+
+//POINTER #125 @ $4D94 - STRING #125 @ $6F2D
+#W32($4D94)
+//[COL01]技能プレート１[COL00][END-FE]
+[COL01]Ability Plate 1[COL00][END-FE]
+
+
+
+
+
+//POINTER #126 @ $4D98 - STRING #126 @ $6F44
+#W32($4D98)
+//武器、防具は最大３種までの技能プレートを、　[NLINE]
+//生成します。[NLINE]
+//装備の際に表示されるこのメニューは、[NLINE]
+//生成候補の技能プレートを意味します。[NWIN]
+//
+//１～３の順番は、生成される技能プレートの[NLINE]
+//優先順位です。[NLINE]
+//修得していない技能が、優先されます。[END-FE]
+Each weapon or armor generates[NLINE]
+up to 3 different Ability Plates.[NLINE]
+The Equip menu screen shows the[NLINE]
+Plates that can be generated.[NWIN]
+
+The numbers 1 through 3 show the[NLINE]
+order in which the plates will be[NLINE]
+generated. Abilities that have not[NLINE]
+yet been mastered are prioritized.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $4D9C - STRING #127 @ $702D
+#W32($4D9C)
+//技能プレートは、[NLINE]
+//装備画面の[COL01]習熟メーター[COL00]が一杯になると[NLINE]
+//生成されます。[END-FE]
+Ability Plates are[NLINE]
+generated when the[NLINE]
+[COL01]Mastery Gauge[COL00] fills up.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $4DA0 - STRING #128 @ $707C
+#W32($4DA0)
+//生成された技能プレートは各キャラクター　　　[NLINE]
+//ごとにストックされますが、[NLINE]
+//各１枚しかストックできません。[NWIN]
+//
+//すでにストックされている技能は[NLINE]
+//生成されないので注意しましょう。[END-FE]
+Generated Plates go into each[NLINE]
+character's inventory. Only 1[NLINE]
+plate can be stocked at a time.[NWIN]
+
+Remember that already-stocked[NLINE]
+Ability Plates will not be generated.[END-FE]
+
+
+
+
+
+//POINTER #129 @ $4DA4 - STRING #129 @ $7129
+#W32($4DA4)
+//[COL01]アビリティツリー[COL00]の説明を受けますか？[END-FE]
+View the [COL01]Ability Tree[COL00] tutorial?[END-FE]
+
+
+
+
+
+//POINTER #130 @ $4DA8 - STRING #130 @ $7156
+#W32($4DA8)
+//・説明を受ける[END-FE]
+・View the tutorial[END-FE]
+
+
+
+
+
+//POINTER #131 @ $4DAC - STRING #131 @ $7167
+#W32($4DAC)
+//・説明を受けない[END-FE]
+・No need[END-FE]
+
+
+
+
+
+//POINTER #132 @ $4DB0 - STRING #132 @ $717A
+#W32($4DB0)
+//生成された技能プレートを[NLINE]
+//[COL01]『アビリティツリー』[COL00]にセットする事で、[NLINE]
+//魔法などの技能が修得可能になります。[NWIN]
+//
+//アビリティツリー画面を呼び出すには、[NLINE]
+//通常画面で[COL05][SQUARE][COL00]を押してください。[END-FE]
+You can learn magic by setting generated[NLINE]
+Ability Plates into the [COL01]Ability Tree[COL00].[NWIN]
+
+To open the Ability Tree screen,[NLINE]
+press [COL05][SQUARE][COL00] on the field screen.[END-FE]
+
+
+
+
+
+//POINTER #133 @ $4DB4 - STRING #133 @ $7235
+#W32($4DB4)
+//アビリティツリー画面[END-FE]
+Ability Tree Screen[END-FE]
+
+
+
+
+
+//POINTER #134 @ $4DB8 - STRING #134 @ $724C
+#W32($4DB8)
+//アビリティツリーには最初からいくつかの[NLINE]
+//技能プレートがセットされています。[NWIN]
+//
+//それぞれの技能プレートの色は、[NLINE]
+//オレンジ：魔法技能、緑：特技技能、[NLINE]
+//青：スキル技能、に対応しています。[END-FE]
+The Ability Tree is equipped with[NLINE]
+a few Plates from the start.[NWIN]
+
+Each Plate is color-coded:[NLINE]
+Orange: Magic,[NLINE]
+Green: Knacks,[NLINE]
+Blue: Skills.[END-FE]
+
+
+
+
+
+//POINTER #135 @ $4DBC - STRING #135 @ $7301
+#W32($4DBC)
+//この黄色で縁取りされた技能プレートには、[NLINE]
+//敵を倒すごとに[COL01]技能ポイント[COL00]が[NLINE]
+//加算されていきます。[END-FE]
+For each enemy defeated, a [COL01]Knack Point[COL00] is[NLINE]
+added to the Ability Plate highlighted in[NLINE]
+yellow.[END-FE]
+
+
+
+
+
+//POINTER #136 @ $4DC0 - STRING #136 @ $7366
+#W32($4DC0)
+//成長中の技能プレート[END-FE]
+Ability Plate developing[END-FE]
+
+
+
+
+
+//POINTER #137 @ $4DC4 - STRING #137 @ $737D
+#W32($4DC4)
+//成長中の技能プレート[END-FE]
+Ability Plate developing[END-FE]
+
+
+
+
+
+//POINTER #138 @ $4DC8 - STRING #138 @ $7394
+#W32($4DC8)
+//[COL01]技能ポイントメーター[END-FE]
+[COL01]Knack Point Meter[COL00][END-FE]
+
+
+
+
+
+//POINTER #139 @ $4DCC - STRING #139 @ $73AE
+#W32($4DCC)
+//Lvの最大は通常５。[NLINE]
+//最大が２のものもあり[END-FE]
+The highest ability level[NLINE]
+attainable is usually 5.[NLINE]
+Some max out at 2.[END-FE]
+
+
+
+
+
+//POINTER #140 @ $4DD0 - STRING #140 @ $73D9
+#W32($4DD0)
+//各技能プレートの技能ポイントメーターが、[NLINE]
+//たまっている技能ポイント量を表しています。[NLINE]
+//このメーターが一杯になると、[NLINE]
+//技能プレートのLvが上昇します。[NWIN]
+//
+//技能プレートのLvが１以上になると、[NLINE]
+//その技能が使用可能になります。[NWIN]
+//
+//一人のアビリティツリー画面につき、[NLINE]
+//同技能のプレートは最大３枚までセットできます。[NWIN]
+//
+//その際、同技能プレートの技能Lvは[NLINE]
+//合計されますが、Lv９が上限です。[END-FE]
+Each Plate's Knack Point Meter[NLINE]
+shows the accumulated Ability[NLINE]
+Points. When the meter is filled,[NLINE]
+the Plate's level will increase.[NWIN]
+
+Once a Plate reaches level 1, you will be[NLINE]
+able to use its ability.[NWIN]
+
+Up to 3 of the same Plate can be set in a[NLINE]
+character's Ability Tree.[NWIN]
+
+In this case, the three Plates' levels will be[NLINE]
+added, for a max level of 9.[END-FE]
+
+
+
+
+
+//POINTER #141 @ $4DD4 - STRING #141 @ $754A
+#W32($4DD4)
+//他の技能プレートを成長させたい場合、[NLINE]
+//技能ポイントの流れ、[NLINE]
+//[COL01]『フロー』[COL00]を変更することができます。[END-FE]
+You can develop other Ability Plates, by[NLINE]
+changing the [COL01]Flow[COL00] of the Ability Tree.[END-FE]
+
+
+
+
+
+//POINTER #142 @ $4DD8 - STRING #142 @ $75B3
+#W32($4DD8)
+//技能プレート上で[CIRCLE]を押すと、[NLINE]
+//プレートメニューが開きます。[END-FE]
+Press [CROSS] on the desired Plate to[NLINE]
+open the menu.[END-FE]
+
+
+
+
+
+//POINTER #143 @ $4DDC - STRING #143 @ $75F0
+#W32($4DDC)
+//一番左にあるプレートで『フロー変更』を選ぶと[NLINE]
+//技能ポイントが加算されるプレートを[NLINE]
+//変更することができます。[END-FE]
+You can change the Plate that will gain[NLINE]
+Knack Points by choosing the leftmost[NLINE]
+Plate and selecting Change Flow.[END-FE]
+
+
+
+
+
+//POINTER #144 @ $4DE0 - STRING #144 @ $765D
+#W32($4DE0)
+//技能ポイントのフローを[NLINE]
+//こちらに変更しました。[END-FE]
+The Ability Tree flow[NLINE]
+has changed to this:[END-FE]
+
+
+
+
+
+//POINTER #145 @ $4DE4 - STRING #145 @ $768E
+#W32($4DE4)
+//成長中の技能プレート[END-FE]
+Ability Plate developing[END-FE]
+
+
+
+
+
+//POINTER #146 @ $4DE8 - STRING #146 @ $76A5
+#W32($4DE8)
+//成長中の技能プレート[END-FE]
+Ability Plate developing[END-FE]
+
+
+
+
+
+//POINTER #147 @ $4DEC - STRING #147 @ $76BC
+#W32($4DEC)
+//なお、フローから外れた技能プレートは、[NLINE]
+//技能Lvが１／２の扱いになりますので、[NLINE]
+//注意してください。[END-FE]
+While Ability Plates are outside the flow,[NLINE]
+their levels are halved. Once returned to[NLINE]
+the flow, their levels are restored.[END-FE]
+
+
+
+
+
+//POINTER #148 @ $4DF0 - STRING #148 @ $771F
+#W32($4DF0)
+//フロー外の技能プレート[END-FE]
+Ability Plate outside the flow[END-FE]
+
+
+
+
+
+//POINTER #149 @ $4DF4 - STRING #149 @ $7738
+#W32($4DF4)
+//フロー外の技能プレート[END-FE]
+Ability Plate outside the flow[END-FE]
+
+
+
+
+
+//POINTER #150 @ $4DF8 - STRING #150 @ $7751
+#W32($4DF8)
+//1/2[END-FE]
+1/2[END-FE]
+
+
+
+
+
+//POINTER #151 @ $4DFC - STRING #151 @ $7757
+#W32($4DFC)
+//1/2[END-FE]
+1/2[END-FE]
+
+
+
+
+
+//POINTER #152 @ $4E00 - STRING #152 @ $775D
+#W32($4E00)
+//フロー外の技能プレート[END-FE]
+Ability Plate outside the flow[END-FE]
+
+
+
+
+
+//POINTER #153 @ $4E04 - STRING #153 @ $7776
+#W32($4E04)
+//フロー外の技能プレート[END-FE]
+Ability Plate outside the flow[END-FE]
+
+
+
+
+
+//POINTER #154 @ $4E08 - STRING #154 @ $778F
+#W32($4E08)
+//1/2[END-FE]
+1/2[END-FE]
+
+
+
+
+
+//POINTER #155 @ $4E0C - STRING #155 @ $7795
+#W32($4E0C)
+//1/2[END-FE]
+1/2[END-FE]
+
+
+
+
+
+//POINTER #156 @ $4E10 - STRING #156 @ $779B
+#W32($4E10)
+//最終的な技能値は、[NLINE]
+//フロー上の技能プレートのLvと[NLINE]
+//フロー外の技能プレートのLvの半分を[NLINE]
+//合計した物になります。[END-FE]
+The final ability level will be the sum[NLINE]
+of the levels of the Ability Plates in[NLINE]
+the flow and half the levels of the[NLINE]
+Ability Plates outside.[END-FE]
+
+
+
+
+
+//POINTER #157 @ $4E14 - STRING #157 @ $780A
+#W32($4E14)
+//最終的な技能値[END-FE]
+Final ability level[END-FE]
+
+
+
+
+
+//POINTER #158 @ $4E18 - STRING #158 @ $781B
+#W32($4E18)
+//最終的な技能値[END-FE]
+Final ability level[END-FE]
+
+
+
+
+
+//POINTER #159 @ $4E1C - STRING #159 @ $782C
+#W32($4E1C)
+//空白の位置には、[NLINE]
+//ストックされている技能プレートを[NLINE]
+//セットすることができます。[END-FE]
+You can place the Ability Plates that are being[NLINE]
+generated into any blank space in the Tree.[END-FE]
+
+
+
+
+
+//POINTER #160 @ $4E20 - STRING #160 @ $787D
+#W32($4E20)
+//空白の位置で[CIRCLE]を押すと…[END-FE]
+By pressing [CROSS] in any blank space...[END-FE]
+
+
+
+
+
+//POINTER #161 @ $4E24 - STRING #161 @ $7898
+#W32($4E24)
+//空白の位置で[CIRCLE]を押すと…[END-FE]
+By pressing [CROSS] in any blank space...[END-FE]
+
+
+
+
+
+//POINTER #162 @ $4E28 - STRING #162 @ $78B3
+#W32($4E28)
+//空白の位置で[CIRCLE]を押すと…[END-FE]
+By pressing [CROSS] in any blank space...[END-FE]
+
+
+
+
+
+//POINTER #163 @ $4E2C - STRING #163 @ $78CE
+#W32($4E2C)
+//ストックされている[NLINE]
+//技能プレートが[NLINE]
+//表示されます。[END-FE]
+You can view the[NLINE]
+Ability Plates that[NLINE]
+have been generated.[END-FE]
+
+
+
+
+
+//POINTER #164 @ $4E30 - STRING #164 @ $7903
+#W32($4E30)
+//技能プレートの矢印がつながるように[NLINE]
+//新たな技能プレートをセットしてみましょう。[END-FE]
+Place an Ability Plate so that the arrow[NLINE]
+connects the Plates.[END-FE]
+
+
+
+
+
+//POINTER #165 @ $4E34 - STRING #165 @ $7954
+#W32($4E34)
+//２枚の技能プレートが連結されました。[END-FE]
+2 Ability Plates are now connected.[END-FE]
+
+
+
+
+
+//POINTER #166 @ $4E38 - STRING #166 @ $797B
+#W32($4E38)
+//技能ポイントは連結されたフロー上の[NLINE]
+//技能プレートに[COL01]平均して[COL00]割り振られていきます。[NWIN]
+//
+//したがって成長中の技能を多く繋げていると[NLINE]
+//それぞれの技能の成長は遅くなります。[NWIN]
+//
+//Lvが上限に達した技能プレートにはそれ以上の[NLINE]
+//加算はされないため、先に数枚の技能プレートを[NLINE]
+//集中して成長させるのも一つの方法です。[NWIN]
+//
+//自分の望む成長のさせかたにあわせて[NLINE]
+//フローを連結していってください。[END-FE]
+Knack Points will be divided [COL01]evenly[COL00][NLINE]
+between Plates located in the Flow.[NWIN]
+
+Because Plates at the maximum level[NLINE]
+do not gain points, it may be wise to[NLINE]
+prioritize less-developed Plates.[NWIN]
+
+Connect the Plates to create[NLINE]
+a Flow that suits the situation.[END-FE]
+
+
+
+
+
+//POINTER #167 @ $4E3C - STRING #167 @ $7AEC
+#W32($4E3C)
+//セルディスたちが助けた男は何者か！　[NLINE]
+//人の天敵スクリーパーとは！　　　　　[NLINE]
+//彼らの時代から二十年の歳月が流れ、　[NLINE]
+//本当の物語が動き出す。　　　　　　　[END-FE]
+セルディスたちが助けた男は何者か！　[NLINE]
+人の天敵スクリーパーとは！　　　　　[NLINE]
+彼らの時代から二十年の歳月が流れ、　[NLINE]
+本当の物語が動き出す。　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #168 @ $4E40 - STRING #168 @ $7B85
+#W32($4E40)
+//この続きは製品版でお楽しみください。[NLINE]
+//プレートの操作や戦闘を遊びたい人は、[NLINE]
+//・体験版特別任務　　　　　　　　　　[NLINE]
+//をお楽しみください。　　　　　　　　[END-FE]
+この続きは製品版でお楽しみください。[NLINE]
+プレートの操作や戦闘を遊びたい人は、[NLINE]
+・体験版特別任務　　　　　　　　　　[NLINE]
+をお楽しみください。　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #169 @ $4E44 - STRING #169 @ $7C1E
+#W32($4E44)
+//すまんが、今の戦いのケガ人で[NLINE]
+//病室がいっぱいなんだ。[NLINE]
+//宿で待っていてくれないか？[END-FE]
+I'm sorry, but we're full due[NLINE]
+to the battle earlier. Can[NLINE]
+you wait for me at the inn?[END-FE]
+
+
+
+
+
+//POINTER #170 @ $4E48 - STRING #170 @ $7C71
+#W32($4E48)
+//まだ何か？[NLINE]
+//すまないが、ケガ人が多くて暇がないんだ。[NLINE]
+//大した用事ではないなら、後にしてくれ。[END-FE]
+Anything else? I'm sorry, but[NLINE]
+I have to get back to work.[NLINE]
+Can you come back later?[END-FE]
+
+
+
+
+
+//POINTER #171 @ $4E4C - STRING #171 @ $7CD0
+#W32($4E4C)
+//おお、気がついたようだな。[NLINE]
+//無事で何よりだ。[NWIN]
+//
+//何かあったらいつでも来なさい。[END-FE]
+Oh, you're awake.[NLINE]
+I'm glad you're okay.[NWIN]
+
+Come back if you need my help.[END-FE]
+
+
+
+
+
+//POINTER #172 @ $4E50 - STRING #172 @ $7D1F
+#W32($4E50)
+//ここガイラナックでは、[NLINE]
+//戦争の被害よりも[NLINE]
+//スクリーパーの被害が深刻だよ。[NWIN]
+//
+//戦争もスクリーパーも、[NLINE]
+//早くなくなってくれれば[NLINE]
+//いいのだがね…。[END-FE]
+Here in Geilenach, we're more[NLINE]
+concerned about Screaper[NLINE]
+attacks than the war.[NWIN]
+
+But I wish we could get[NLINE]
+rid of both the war and[NLINE]
+the Screapers...[END-FE]
+
+
+
+
+
+//POINTER #173 @ $4E54 - STRING #173 @ $7DAC
+#W32($4E54)
+//休んでいる場合じゃない。[NLINE]
+//ヴァネットがアランの屋敷で待っている。[END-FE]
+I don't have time to rest. Vanette[NLINE]
+is waiting for me at Alan's.[END-FE]
+
+
+
+
+
+//POINTER #174 @ $4E58 - STRING #174 @ $7DEF
+#W32($4E58)
+//こちらは宿の別館です。[NLINE]
+//ご用の方はフロントへお申し出下さい。[END-FE]
+This is the inn's annex.[NLINE]
+Please come through the front.[END-FE]
+
+
+
+
+
+//POINTER #175 @ $4E5C - STRING #175 @ $7E2E
+#W32($4E5C)
+//こちらは宿の別館です。[NLINE]
+//ご用の方はフロントへお申し出下さい。[END-FE]
+This is the inn's annex.[NLINE]
+Please come through the front.[END-FE]
+
+
+
+
+
+//POINTER #176 @ $4E60 - STRING #176 @ $7E6D
+#W32($4E60)
+//　[NLINE]
+//木箱が積んである。[END-FE]
+　[NLINE]
+It's a stack of crates.[END-FE]
+
+
+
+
+
+//POINTER #177 @ $4E64 - STRING #177 @ $7E86
+#W32($4E64)
+//　[NLINE]
+//木箱が積まれている。[END-FE]
+　[NLINE]
+It's a stack of crates.[END-FE]
+
+
+
+
+
+//POINTER #178 @ $4E68 - STRING #178 @ $7EA1
+#W32($4E68)
+//では、ここからは[NLINE]
+//別行動ということじゃな。[END-FE]
+We'll go our separate[NLINE]
+ways from here.[END-FE]
+
+
+
+
+
+//POINTER #179 @ $4E6C - STRING #179 @ $7ECE
+#W32($4E6C)
+//ペルナギ博士、[NLINE]
+//お気を付けて。[END-FE]
+Take care,[NLINE]
+Prof. Pernagi.[END-FE]
+
+
+
+
+
+//POINTER #180 @ $4E70 - STRING #180 @ $7EEF
+#W32($4E70)
+//うむ。[END-FE]
+Mmm.[END-FE]
+
+
+
+
+
+//POINTER #181 @ $4E74 - STRING #181 @ $7EF8
+#W32($4E74)
+//　[NLINE]
+//ペルナギ博士が同行人から外れた。[END-FE]
+　[NLINE]
+Prof. Pernagi has left your party.[END-FE]
+
+
+
+
+
+//POINTER #182 @ $4E78 - STRING #182 @ $7F1F
+#W32($4E78)
+//では、案内を頼むよ。[END-FE]
+Lead the way, Seldous.[END-FE]
+
+
+
+
+
+//POINTER #183 @ $4E7C - STRING #183 @ $7F36
+#W32($4E7C)
+//ああ、旅のお方！[NLINE]
+//うちの若旦那様を見かけませんでしたか？[END-FE]
+Ah, you there! Have you[NLINE]
+seen my young master?[END-FE]
+
+
+
+
+
+//POINTER #184 @ $4E80 - STRING #184 @ $7F71
+#W32($4E80)
+//いきなり言われても困るな。[NLINE]
+//詳しく話してくれないか？[END-FE]
+I'm not sure whom you mean.[NLINE]
+Slow down, and explain...[END-FE]
+
+
+
+
+
+//POINTER #185 @ $4E84 - STRING #185 @ $7FA8
+#W32($4E84)
+//はわわ、申し訳ありません。[NLINE]
+//私、カインズ商店の使用人をしております。[NWIN]
+//
+//我が商店の若旦那様が品物の仕入れのために[NLINE]
+//西へ向かったのですが、[NLINE]
+//お戻りの予定日を過ぎても戻らないのです！[NWIN]
+//
+//こんなことは今まで一度も無かったのですが…。[NLINE]
+//若旦那様に何かあったら、[NLINE]
+//わがカインズ商店はおしまいです！[NWIN]
+//
+//どうか、若旦那を…！[END-FE]
+S-Sorry, Sir. I work for Kyne's[NLINE]
+Emporium.[NWIN]
+
+Our young master has gone west[NLINE]
+to resupply, but he was supposed to[NLINE]
+have been back by now![NWIN]
+
+This has never happened before...[NLINE]
+Without our young master,[NLINE]
+Kyne's Emporium is finished![NWIN]
+
+Please... Save our master![END-FE]
+
+
+
+
+
+//POINTER #186 @ $4E88 - STRING #186 @ $80DB
+#W32($4E88)
+//わかった。[NLINE]
+//外に出ることがあったら、気にかけてみる。[END-FE]
+I understand. I'll keep him in[NLINE]
+mind when we go out again.[END-FE]
+
+
+
+
+
+//POINTER #187 @ $4E8C - STRING #187 @ $8112
+#W32($4E8C)
+//ああ、お願いします！[END-FE]
+Th-Thank you, Sir![END-FE]
+
+
+
+
+
+//POINTER #188 @ $4E90 - STRING #188 @ $8129
+#W32($4E90)
+//若旦那様は大丈夫でしょうか？[END-FE]
+Do you think our master's safe?[END-FE]
+
+
+
+
+
+//POINTER #189 @ $4E94 - STRING #189 @ $8148
+#W32($4E94)
+//若旦那様がお戻りになったんです！[NLINE]
+//よかった…。[END-FE]
+Our young master has[NLINE]
+returned! I'm so relieved...[END-FE]
+
+
+
+
+
+//POINTER #190 @ $4E98 - STRING #190 @ $8179
+#W32($4E98)
+//おや、めずらしい、旅の人ですか？[NLINE]
+//まさか、あなた達が[NLINE]
+//正義戦隊じゃないだろうね？[END-FE]
+How unusual to find travellers[NLINE]
+here. Are you the Justice[NLINE]
+Rangers, by any chance?[END-FE]
+
+
+
+
+
+//POINTER #191 @ $4E9C - STRING #191 @ $81CC
+#W32($4E9C)
+//その正義戦隊とは何だ？[END-FE]
+Who are the Justice Rangers?[END-FE]
+
+
+
+
+
+//POINTER #192 @ $4EA0 - STRING #192 @ $81E5
+#W32($4EA0)
+//知らないのかい？[NLINE]
+//なんでも、マスクをつけた５人組で[NLINE]
+//困っている人々を助けるために戦っている[NLINE]
+//正義の人たちみたいだよ。[END-FE]
+You've never heard of 'em?[NLINE]
+They're a group of masked[NLINE]
+heroes who fight to help[NLINE]
+the downtrodden.[END-FE]
+
+
+
+
+
+//POINTER #193 @ $4EA4 - STRING #193 @ $825C
+#W32($4EA4)
+//困っている人のため…。[NLINE]
+//なかなか見上げた人たちだな。[END-FE]
+The downtrodden, eh...?[NLINE]
+They sound like good people.[END-FE]
+
+
+
+
+
+//POINTER #194 @ $4EA8 - STRING #194 @ $8293
+#W32($4EA8)
+//一体、どんな人たちなんだろうね？[END-FE]
+I wonder... who are those masked men?[END-FE]
+
+
+
+
+
+//POINTER #195 @ $4EAC - STRING #195 @ $82B6
+#W32($4EAC)
+//いや、我々ではないよ。[NLINE]
+//ただ、この世界のことを[NLINE]
+//考えているという点では[NLINE]
+//同じかも知れないな…。[END-FE]
+Not us, I assure you.[NLINE]
+But perhaps they share[NLINE]
+our passion to make this[NLINE]
+world a better place...[END-FE]
+
+
+
+
+
+//POINTER #196 @ $4EB0 - STRING #196 @ $8317
+#W32($4EB0)
+//それじゃ、見たことがあるのか！[NLINE]
+//すごいなぁ…。[END-FE]
+Oh, so you've seen them![NLINE]
+I'm a little jealous...[END-FE]
+
+
+
+
+
+//POINTER #197 @ $4EB4 - STRING #197 @ $8348
+#W32($4EB4)
+//正義戦隊って、[NLINE]
+//一体どんな人たちなんだろう？[END-FE]
+I wonder what kind of people[NLINE]
+those Justice Rangers are...[END-FE]
+
+
+
+
+
+//POINTER #198 @ $4EB8 - STRING #198 @ $8377
+#W32($4EB8)
+//正義戦隊って、[NLINE]
+//一体どんな人たちなんだろう？[NLINE]
+//きっと強いんだろうなぁ…。[END-FE]
+I wonder... Just who are[NLINE]
+the Justice Rangers?[NLINE]
+They must be strong...[END-FE]
+
+
+
+
+
+//POINTER #199 @ $4EBC - STRING #199 @ $83C2
+#W32($4EBC)
+//[CHAR0200][V5600]
+//お話中失礼。[END-FE]
+[CHAR0200][V5600]
+Excuse us, Sir.[END-FE]
+
+
+
+
+
+//POINTER #200 @ $4EC0 - STRING #200 @ $83D9
+#W32($4EC0)
+//[CHAR0200][V5700]
+//おや、あなた達は。[NWIN]
+//
+//[CHAR0200][V5800]
+//そちらの人、もう大丈夫かい？[END-FE]
+[CHAR0200][V5700]
+Oh, it's you guys.[NWIN]
+
+[CHAR0200][V5800]
+How are you feeling today?[END-FE]
+
+
+
+
+
+//POINTER #201 @ $4EC4 - STRING #201 @ $841C
+#W32($4EC4)
+//[CHAR0200][V5900]
+//先日は失礼した。[END-FE]
+[CHAR0200][V5900]
+Sorry about yesterday.[END-FE]
+
+
+
+
+
+//POINTER #202 @ $4EC8 - STRING #202 @ $8437
+#W32($4EC8)
+//[CHAR0200][V5A00]
+//いやいや、無事で良かった。[NWIN]
+//
+//[CHAR0200][V5B00]
+//で、この間の続きかな？[END-FE]
+[CHAR0200][V5A00]
+I'm just glad you're all right.[NWIN]
+
+[CHAR0200][V5B00]
+Now where did we leave off?[END-FE]
+
+
+
+
+
+//POINTER #203 @ $4ECC - STRING #203 @ $847C
+#W32($4ECC)
+//[CHAR0200][V5C00]
+//ああ。[NLINE]
+//遺跡の場所を教えて欲しい。[END-FE]
+[CHAR0200][V5C00]
+We'd like to know where[NLINE]
+we can find this ruin.[END-FE]
+
+
+
+
+
+//POINTER #204 @ $4ED0 - STRING #204 @ $84A9
+#W32($4ED0)
+//[CHAR0200][V5D00]
+//場所は、この都市を出て[NLINE]
+//北へ道沿いに進むんだ。[NWIN]
+//
+//[CHAR0200][V5E00]
+//道は途中で二手に分かれるから、[NLINE]
+//そこから西に進み、橋を越えて[NLINE]
+//ノーストール山の方へ向かうらしいよ。[END-FE]
+[CHAR0200][V5D00]
+Take the road leading out[NLINE]
+of town to the north.[NWIN]
+
+[CHAR0200][V5E00]
+Once the road forks, take the[NLINE]
+west branch. Pass the bridge,[NLINE]
+then head to Mt. Nostal.[END-FE]
+
+
+
+
+
+//POINTER #205 @ $4ED4 - STRING #205 @ $854E
+#W32($4ED4)
+//[CHAR0200][V5F00]
+//北の橋を西へ向かえばいいんだな。[NLINE]
+//ありがとう。[END-FE]
+[CHAR0200][V5F00]
+So go north, then west[NLINE]
+past the bridge, eh?[END-FE]
+
+
+
+
+
+//POINTER #206 @ $4ED8 - STRING #206 @ $8587
+#W32($4ED8)
+//[CHAR0200][V6000]
+//お目当ての物が[NLINE]
+//見つかるといいな。[END-FE]
+[CHAR0200][V6000]
+Right. Happy[NLINE]
+hunting.[END-FE]
+
+
+
+
+
+//POINTER #207 @ $4EDC - STRING #207 @ $85B4
+#W32($4EDC)
+//[CHAR0200][V6100]
+//ねぇ、おじさん。[NLINE]
+//その遺跡って何があるの？[END-FE]
+[CHAR0200][V6100]
+What's in that ruin,[NLINE]
+anyway, Mister?[END-FE]
+
+
+
+
+
+//POINTER #208 @ $4EE0 - STRING #208 @ $85E9
+#W32($4EE0)
+//[CHAR0200][V6200]
+//何があるかは、知らないよ。[NLINE]
+//まだ調査が済んでいない場所だ。[NWIN]
+//
+//[CHAR0200][V6300]
+//どんな危険があるかも[NLINE]
+//知れないのに…。[END-FE]
+[CHAR0200][V6200]
+Well, the excavation didn't get[NLINE]
+very far, so no one knows.[NWIN]
+
+[CHAR0200][V6300]
+But I wouldn't try to find out[NLINE]
+if I were you.[END-FE]
+
+
+
+
+
+//POINTER #209 @ $4EE4 - STRING #209 @ $865E
+#W32($4EE4)
+//[CHAR0200][V6400]
+//へぇ…、そんな遺跡が…。[END-FE]
+[CHAR0200][V6400]
+An unexplored ruin... Amazing.[END-FE]
+
+
+
+
+
+//POINTER #210 @ $4EE8 - STRING #210 @ $8681
+#W32($4EE8)
+//[CHAR0200][V6500]
+//あなたも、冒険者？[END-FE]
+[CHAR0200][V6500]
+Are you an explorer, too?[NLINE]
+Oh, by the way, I'm Vanette.[END-FE]
+
+
+
+
+
+//POINTER #211 @ $4EEC - STRING #211 @ $869E
+#W32($4EEC)
+//[CHAR7F00][V2C00]
+//私はロミナ。[NLINE]
+//見ての通りの旅人よ。[END-FE]
+[CHAR7F00][V2C00]
+I'm Romina. As you[NLINE]
+can see, I'm a traveller.[END-FE]
+
+
+
+
+
+//POINTER #212 @ $4EF0 - STRING #212 @ $86CB
+#W32($4EF0)
+//[CHAR0200][V6800]
+//何か情報はないかしら？[END-FE]
+[CHAR0200][V6800]
+Do you know anything[NLINE]
+about it?[END-FE]
+
+
+
+
+
+//POINTER #213 @ $4EF4 - STRING #213 @ $86EC
+#W32($4EF4)
+//[CHAR0200][V6600]
+//ごめんなさいね。[NLINE]
+//私もこの国に来たばかりで、[NLINE]
+//詳しいことは知らないのよ。[NWIN]
+//
+//[CHAR0200][V6700]
+//でも、その遺跡っていうのは面白そう。[NLINE]
+//ケガをしないようにね。[END-FE]
+[CHAR0200][V6600]
+Oh, sorry, I don't... I just[NLINE]
+arrived in these parts.[NWIN]
+
+[CHAR0200][V6700]
+Sounds pretty interesting,[NLINE]
+though. Take care down there.[END-FE]
+
+
+
+
+
+//POINTER #214 @ $4EF8 - STRING #214 @ $8785
+#W32($4EF8)
+//遺跡の場所は、この都市を出て[NLINE]
+//北へ道沿いに進むんだ。[NWIN]
+//
+//道は途中で二手に分かれるから、[NLINE]
+//そこから西に進み、橋を越えて[NLINE]
+//ノーストール山の方へ向かうらしいよ。[END-FE]
+The ruin is north of town.[NLINE]
+Just head along the road.[NWIN]
+
+The road splits into two. Take[NLINE]
+the west road, then go over the[NLINE]
+bridge toward Mt. Nostal.[END-FE]
+
+
+
+
+
+//POINTER #215 @ $4EFC - STRING #215 @ $8820
+#W32($4EFC)
+//あぁ…、私のぼうやが…。[NLINE]
+//…わかっています。仕方なかったんですよね[NLINE]
+//でも、主人が戻って来たらなんて言えば……。[END-FE]
+Ohh... My son... I know that nothing[NLINE]
+could have saved him, but what will[NLINE]
+I tell my husband...?[END-FE]
+
+
+
+
+
+//POINTER #216 @ $4F00 - STRING #216 @ $8891
+#W32($4F00)
+//ありがとうございます！[NLINE]
+//あなた方のお陰で、ぼうやも無事でした。[NLINE]
+//お礼にこれをお受けとりください。[END-FE]
+Thank you, Sir! My son[NLINE]
+is all right, thanks to you.[NLINE]
+Take this, with my thanks.[END-FE]
+
+
+
+
+
+//POINTER #217 @ $4F04 - STRING #217 @ $88F4
+#W32($4F04)
+//兵士として出かけている主人に[NLINE]
+//顔向けが出来ます。[NLINE]
+//本当にありがとうございました。[END-FE]
+My husband is in the service, and[NLINE]
+it would have broken his heart if[NLINE]
+anything had happened to our boy.[END-FE]
+
+
+
+
+
+//POINTER #218 @ $4F08 - STRING #218 @ $8947
+#W32($4F08)
+//最近、カインズ商店のご主人が[NLINE]
+//忙しく働いてるんですけど、[NLINE]
+//景気の回復が近いのでしょうか？[END-FE]
+The young master at Kyne's[NLINE]
+Emporium seems busy lately.[NLINE]
+Is our economy turning around?[END-FE]
+
+
+
+
+
+//POINTER #219 @ $4F0C - STRING #219 @ $89A2
+#W32($4F0C)
+//…正義戦隊だったら、[NLINE]
+//お母さんを助けてくれたのに……[END-FE]
+If it had been the Justice[NLINE]
+Rangers... Mommy would[NLINE]
+still be alive...[END-FE]
+
+
+
+
+
+//POINTER #220 @ $4F10 - STRING #220 @ $89D9
+#W32($4F10)
+//ごめんなさい…。[NLINE]
+//…本当にごめんなさい。[END-FE]
+I'm sorry...[NLINE]
+I'm so sorry...[END-FE]
+
+
+
+
+
+//POINTER #221 @ $4F14 - STRING #221 @ $8A04
+#W32($4F14)
+//おじちゃんたちすご～い！[NLINE]
+//正義戦隊みたいで、かっこ良かったよ！[NLINE]
+//僕は大きくなったら、正義戦隊に入るんだ！[END-FE]
+You're so cooool! Just like[NLINE]
+the Justice Rangers! I'm gonna[NLINE]
+join them when I grow up![END-FE]
+
+
+
+
+
+//POINTER #222 @ $4F18 - STRING #222 @ $8A6F
+#W32($4F18)
+//そう、がんばってね。[NWIN]
+//
+//ふふ…。[NLINE]
+//子供って可愛いわね。[END-FE]
+I'm sure you will![NWIN]
+
+Awww... Don't you[NLINE]
+just love kids?[NLINE]
+They're so cute.[END-FE]
+
+
+
+
+
+//POINTER #223 @ $4F1C - STRING #223 @ $8AA6
+#W32($4F1C)
+//おじちゃん、正義戦隊って知ってる？[NLINE]
+//…でも、最近ちっとも見かけないんだ…。[END-FE]
+Hey, do you know the Justice Rangers?[NLINE]
+I haven't heard much about them lately...[END-FE]
+
+
+
+
+
+//POINTER #224 @ $4F20 - STRING #224 @ $8AF3
+#W32($4F20)
+//その遺跡、面白そうね。[NLINE]
+//私も行ってみようかしら？[END-FE]
+That ruin sounds interesting.[NLINE]
+Maybe I should pay a visit.[END-FE]
+
+
+
+
+
+//POINTER #225 @ $4F24 - STRING #225 @ $8B26
+#W32($4F24)
+//[CHAR0200][V1700]
+//だから言ったのに！[END-FE]
+[CHAR0200][V1700]
+I thought so...![END-FE]
+
+
+
+
+
+//POINTER #226 @ $4F28 - STRING #226 @ $8B43
+#W32($4F28)
+//[CHAR0200][V1800]
+//あんたたち、この人の知り合いか？[NLINE]
+//話してたら突然倒れて…。[END-FE]
+[CHAR0200][V1800]
+You know this guy? He collapsed[NLINE]
+when we were talking...[END-FE]
+
+
+
+
+
+//POINTER #227 @ $4F2C - STRING #227 @ $8B88
+#W32($4F2C)
+//[CHAR0200][V1900]
+//私は彼を宿に運ぶ。[NLINE]
+//お前はその人から[NLINE]
+//詳しい話を聞いておいてくれ。[END-FE]
+[CHAR0200][V1900]
+I'll take him back to[NLINE]
+the inn. Can you find[NLINE]
+out what happened?[END-FE]
+
+
+
+
+
+//POINTER #228 @ $4F30 - STRING #228 @ $8BD5
+#W32($4F30)
+//[CHAR0200][V1A00]
+//了解。[END-FE]
+[CHAR0200][V1A00]
+Sure.[END-FE]
+
+
+
+
+
+//POINTER #229 @ $4F34 - STRING #229 @ $8BE6
+#W32($4F34)
+//そうだ、これを渡しておこう。[END-FE]
+Oh yeah... Here, take this.[END-FE]
+
+
+
+
+
+//POINTER #230 @ $4F38 - STRING #230 @ $8C05
+#W32($4F38)
+//遺跡の中には、魔法でないと[NLINE]
+//倒しにくいモンスターもいる。[NLINE]
+//ウィル・オー・ウィスプとかな。[NWIN]
+//
+//攻撃魔法を覚えておきたいなら[NLINE]
+//使ってくれ。[END-FE]
+Some monsters in the ruins,[NLINE]
+like the Will o' Wisp, are hard[NLINE]
+to defeat without magic.[NWIN]
+
+If you want to learn attack[NLINE]
+magic, use this.[END-FE]
+
+
+
+
+
+//POINTER #231 @ $4F3C - STRING #231 @ $8C8C
+#W32($4F3C)
+//貴重なものを…ありがとう。[END-FE]
+Such a rarity... Thank you.[END-FE]
+
+
+
+
+
+//POINTER #232 @ $4F40 - STRING #232 @ $8CA9
+#W32($4F40)
+//なに、余りものだから気にするな。[END-FE]
+Eh, it was just lying around.[END-FE]
+
+
+
+
+
+//POINTER #233 @ $4F44 - STRING #233 @ $8CCC
+#W32($4F44)
+//魔導書を使ったキャラクターは、[NLINE]
+//技能プレートを手に入れることができます。[NLINE]
+//さらに『アビリティツリーにセットする』ことで[NLINE]
+//修得を開始します。[END-FE]
+By using Magic Scrolls, you can acquire[NLINE]
+Ability Plates. Set the Plates into the[NLINE]
+Ability Tree and the character will begin[NLINE]
+to learn the special ability.[END-FE]
+
+
+
+
+
+//POINTER #234 @ $4F48 - STRING #234 @ $8D59
+#W32($4F48)
+//手ぶらで行くのもな…。[NLINE]
+//何かヴァネットに打ち明ける[NLINE]
+//きっかけが欲しいな…。[END-FE]
+I can't go to her empty-[NLINE]
+handed... I need something[NLINE]
+to show her how I feel.[END-FE]
+
+
+
+
+
+//POINTER #235 @ $4F4C - STRING #235 @ $8DA6
+#W32($4F4C)
+//これはセルディス様。[NLINE]
+//ヴァネット様は中でお待ちです。[NLINE]
+//どうぞお入り下さい。[END-FE]
+Hello, Mr. Seldous.[NLINE]
+Ms. Vanette's been[NLINE]
+expecting you. Come in.[END-FE]
+
+
+
+
+
+//POINTER #236 @ $4F50 - STRING #236 @ $8DF3
+#W32($4F50)
+//セルディスという者だが、[NLINE]
+//アランに会いたい。[END-FE]
+I'm Seldous,[NLINE]
+here to see Alan.[END-FE]
+
+
+
+
+
+//POINTER #237 @ $4F54 - STRING #237 @ $8E22
+#W32($4F54)
+//あ、若旦那様より[NLINE]
+//お話を承っております。[NLINE]
+//どうぞお入り下さい。[END-FE]
+The young master[NLINE]
+notified us of your visit,[NLINE]
+Sir. Please come in.[END-FE]
+
+
+
+
+
+//POINTER #238 @ $4F58 - STRING #238 @ $8E63
+#W32($4F58)
+//若旦那様、お気をつけて[NLINE]
+//行ってらっしゃいませ。[END-FE]
+Have a safe[NLINE]
+trip, master.[END-FE]
+
+
+
+
+
+//POINTER #239 @ $4F5C - STRING #239 @ $8E94
+#W32($4F5C)
+//若旦那様は[NLINE]
+//大丈夫でしょうか…。[END-FE]
+I worry about our[NLINE]
+young master...[END-FE]
+
+
+
+
+
+//POINTER #240 @ $4F60 - STRING #240 @ $8EB7
+#W32($4F60)
+//若旦那様のことが心配です。[NLINE]
+//無事だと良いのですが……。[END-FE]
+I worry about the master.[NLINE]
+I hope he's safe...[END-FE]
+
+
+
+
+
+//POINTER #241 @ $4F64 - STRING #241 @ $8EF0
+#W32($4F64)
+//若旦那様はただいま[NLINE]
+//城へ納品に出かけております。[NLINE]
+//いつ戻られるかは、ちょっと…。[END-FE]
+Our master's delivering[NLINE]
+goods to the castle. I don't[NLINE]
+know when he'll be back.[END-FE]
+
+
+
+
+
+//POINTER #242 @ $4F68 - STRING #242 @ $8F43
+#W32($4F68)
+//国民が飢えるよりは戦争の方がマシだよ。[NLINE]
+//お偉方は正しいことをしていると思うね。[END-FE]
+Better to fight than starve to death.[NLINE]
+The top brass made the right call.[END-FE]
+
+
+
+
+
+//POINTER #243 @ $4F6C - STRING #243 @ $8F94
+#W32($4F6C)
+//どうやらシリルティア軍の活動が[NLINE]
+//活発になっているらしいね。[NLINE]
+//だけど、グランゲイルにはかなわないさ！[END-FE]
+Rumor has it the Cyriltians are[NLINE]
+preparing themselves... They're[NLINE]
+still no match for Grangale![END-FE]
+
+
+
+
+
+//POINTER #244 @ $4F70 - STRING #244 @ $8FF9
+#W32($4F70)
+//またスクリーパーが出たんだって？[NLINE]
+//街の壁の強化で、また臨時税かなぁ。[END-FE]
+The Screapers attacked again? Now[NLINE]
+watch the defense tax go up...[END-FE]
+
+
+
+
+
+//POINTER #245 @ $4F74 - STRING #245 @ $9040
+#W32($4F74)
+//また徴収かい？[NLINE]
+//…なんだ、ちがったか。[NWIN]
+//
+//旅人さん、この街でたくさん買い物をして[NLINE]
+//俺たちの税金を軽くしてくれよ！[END-FE]
+Are you here to draft me?[NLINE]
+...Oh, I thought you were...[NWIN]
+
+Go ahead, do lots of shopping![NLINE]
+Maybe our taxes will go down![END-FE]
+
+
+
+
+
+//POINTER #246 @ $4F78 - STRING #246 @ $90B1
+#W32($4F78)
+//　[NLINE]
+//タルが並んでいる。[END-FE]
+　[NLINE]
+Barrels are lined up here.[END-FE]
+
+
+
+
+
+//POINTER #247 @ $4F7C - STRING #247 @ $90CA
+#W32($4F7C)
+//　[NLINE]
+//用水路だ。[END-FE]
+　[NLINE]
+It's a canal.[END-FE]
+
+
+
+
+//POINTER #248 @ $4F80 - STRING #248 @ $90DB
+#W32($4F80)
+//　[NLINE]
+//グランゲイル軍の兵舎だ。[END-FE]
+　[NLINE]
+The army barracks are here.[END-FE]
+
+
+
+
+
+//POINTER #249 @ $4F84 - STRING #249 @ $90FA
+#W32($4F84)
+//ここはグランゲイル王城である。[END-FE]
+This is the castle of Grangale.[END-FE]
+
+
+
+
+
+//POINTER #250 @ $4F88 - STRING #250 @ $911B
+#W32($4F88)
+//一般人の立ち入りは出来ない。[NLINE]
+//立ち去られよ。[END-FE]
+Civilians aren't allowed in.[NLINE]
+Please leave.[END-FE]
+
+
+
+
+
+//POINTER #251 @ $4F8C - STRING #251 @ $914A
+#W32($4F8C)
+//[CHAR0200][V5300]
+//おはよう。[NLINE]
+//体調はどう？[END-FE]
+[CHAR0200][V5300]
+Good morning.[NLINE]
+Feeling better now?[END-FE]
+
+
+
+
+
+//POINTER #252 @ $4F90 - STRING #252 @ $916D
+#W32($4F90)
+//[CHAR0200][V5400]
+//ああ、もう大丈夫だ。[END-FE]
+[CHAR0200][V5400]
+I'll be fine, thanks[NLINE]
+to your care.[END-FE]
+
+
+
+
+
+//POINTER #253 @ $4F94 - STRING #253 @ $918C
+#W32($4F94)
+//[CHAR0200][V5500]
+//それは良かった。[NLINE]
+//では、行くとしようか。[END-FE]
+[CHAR0200][V5500]
+Good to hear it.[NLINE]
+Shall we be off?[END-FE]
+
+
+
+
+
+//POINTER #254 @ $4F98 - STRING #254 @ $91BF
+#W32($4F98)
+//早く部屋を取らないと…。[END-FE]
+We must check in first...[END-FE]
+
+
+
+
+
+//POINTER #255 @ $4F9C - STRING #255 @ $91DA
+#W32($4F9C)
+//　[NLINE]
+//柔らかそうなソファだ。[END-FE]
+　[NLINE]
+The sofa seems soft.[END-FE]
+
+
+
+
+
+//POINTER #256 @ $4FA0 - STRING #256 @ $91F7
+#W32($4FA0)
+//暖炉がある。　　　　　　　[NLINE]
+//今は使われていないようだ。[END-FE]
+There's a fireplace.[NLINE]
+It hasn't been used lately.[END-FE]
+
+
+
+
+
+//POINTER #257 @ $4FA4 - STRING #257 @ $9230
+#W32($4FA4)
+//　[NLINE]
+//柔らかそうなソファだ。[END-FE]
+　[NLINE]
+The sofa seems soft.[END-FE]
+
+
+
+
+
+//POINTER #258 @ $4FA8 - STRING #258 @ $924D
+#W32($4FA8)
+//　[NLINE]
+//植物が生けてある。[END-FE]
+　[NLINE]
+It's a plant.[END-FE]
+
+
+
+
+
+//POINTER #259 @ $4FAC - STRING #259 @ $9266
+#W32($4FAC)
+//あ、部屋の御用でしたら、[NLINE]
+//受付へお願いいたします。[END-FE]
+If you need a room, Sir,[NLINE]
+please check in first.[END-FE]
+
+
+
+
+
+//POINTER #260 @ $4FB0 - STRING #260 @ $929B
+#W32($4FB0)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #261 @ $4FB4 - STRING #261 @ $92B0
+#W32($4FB4)
+//急いで部屋を借りたい。[NLINE]
+//ケガ人がいるんだ。[END-FE]
+This man is wounded[NLINE]
+and needs a room.[END-FE]
+
+
+
+
+
+//POINTER #262 @ $4FB8 - STRING #262 @ $92DD
+#W32($4FB8)
+//さっきのスクリーパーに[NLINE]
+//やられたのかい？[END-FE]
+Did that Screaper[NLINE]
+get him?[END-FE]
+
+
+
+
+
+//POINTER #263 @ $4FBC - STRING #263 @ $9308
+#W32($4FBC)
+//そうではないが、そのスクリーパーのせいで、[NLINE]
+//病院がいっぱいらしいからな。[END-FE]
+No, but due to the Screaper, the[NLINE]
+hospital is filled to capacity.[END-FE]
+
+
+
+
+
+//POINTER #264 @ $4FC0 - STRING #264 @ $9353
+#W32($4FC0)
+//わかった、すぐに用意するよ。[END-FE]
+わかった、すぐに用意するよ。[END-FE]
+
+
+
+
+
+//POINTER #265 @ $4FC4 - STRING #265 @ $9372
+#W32($4FC4)
+//それと、医者を呼びたいのだが…。[END-FE]
+I'd also like to call a doctor here...[END-FE]
+
+
+
+
+
+//POINTER #266 @ $4FC8 - STRING #266 @ $9395
+#W32($4FC8)
+//医者はすぐには呼べないと思うよ。[NLINE]
+//ほら、さっきスクリーパーにやられたけが人で[NLINE]
+//病院はいっぱいらしいからね。[NWIN]
+//
+//とにかく、すぐに部屋を用意するよ。[END-FE]
+It won't be easy. You see, the[NLINE]
+doctors have their hands full[NLINE]
+with the Screaper victims.[NWIN]
+
+But I'll get you a room immediately.[END-FE]
+
+
+
+
+
+//POINTER #267 @ $4FCC - STRING #267 @ $9426
+#W32($4FCC)
+//その人をキャリィから降ろして[NLINE]
+//中へ！[END-FE]
+Get the man off of the[NLINE]
+Steed. Bring him in![END-FE]
+
+
+
+
+
+//POINTER #268 @ $4FD0 - STRING #268 @ $944D
+#W32($4FD0)
+//すまない。[END-FE]
+Thank you.[END-FE]
+
+
+
+
+
+//POINTER #269 @ $4FD4 - STRING #269 @ $945A
+#W32($4FD4)
+//それじゃ、私は[NLINE]
+//このキャリィを返してくるわね。[END-FE]
+I'll return the[NLINE]
+Steed to the shop.[END-FE]
+
+
+
+
+
+//POINTER #270 @ $4FD8 - STRING #270 @ $948B
+#W32($4FD8)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #271 @ $4FDC - STRING #271 @ $94A0
+#W32($4FDC)
+//・宿泊する[END-FE]
+・Check in[END-FE]
+
+
+
+
+
+//POINTER #272 @ $4FE0 - STRING #272 @ $94AD
+#W32($4FE0)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #273 @ $4FE4 - STRING #273 @ $94BC
+#W32($4FE4)
+//・Ｄ部屋(隠し)[END-FE]
+・Ｄ部屋(隠し)[END-FE]
+
+
+
+
+
+//POINTER #274 @ $4FE8 - STRING #274 @ $94CD
+#W32($4FE8)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になりますか？[END-FE]
+That'll be [CC.EF0E]Ы.[NLINE]
+Is that okay, Sir?[END-FE]
+
+
+
+
+
+//POINTER #275 @ $4FEC - STRING #275 @ $94F9
+#W32($4FEC)
+//ついでに記録をとられますか？[END-FE]
+Will you save your progress?[END-FE]
+
+
+
+
+
+//POINTER #276 @ $4FF0 - STRING #276 @ $9518
+#W32($4FF0)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+Have a[NLINE]
+safe trip.[END-FE]
+
+
+
+
+
+//POINTER #277 @ $4FF4 - STRING #277 @ $953D
+#W32($4FF4)
+//お客さん……[COL02][TEAR-DROP][COL00][NLINE]
+//お金が足りないみたいです。[END-FE]
+I'm sorry, but... You don't[NLINE]
+have enough for that.[END-FE]
+
+
+
+
+
+//POINTER #278 @ $4FF8 - STRING #278 @ $9570
+#W32($4FF8)
+//王都ガイラナック[END-FE]
+Geilenach[END-FE]
+
+
+
+
+
+//POINTER #279 @ $4FFC - STRING #279 @ $9583
+#W32($4FFC)
+//Ｄ　王都ガイラナック[END-FE]
+Ｄ　王都ガイラナック[END-FE]
+
+
+
+
+
+//POINTER #280 @ $5000 - STRING #280 @ $959A
+#W32($5000)
+//またのご利用を[NLINE]
+//お待ちしております。[END-FE]
+We hope to see[NLINE]
+you again soon.[END-FE]
+
+
+
+
+
+//POINTER #281 @ $5004 - STRING #281 @ $95C1
+#W32($5004)
+//[CHAR0200][V0000]
+//では、お大事に。[END-FE]
+[CHAR0200][V0000]
+Just let him rest.[END-FE]
+
+
+
+
+
+//POINTER #282 @ $5008 - STRING #282 @ $95DC
+#W32($5008)
+//[CHAR0200][V0100]
+//ありがとうございました。[END-FE]
+[CHAR0200][V0100]
+Thank you, doctor.[END-FE]
+
+
+
+
+
+//POINTER #283 @ $500C - STRING #283 @ $95FF
+#W32($500C)
+//[CHAR0200][V0200]
+//思ったより[NLINE]
+//大したことなくて良かったわね。[END-FE]
+[CHAR0200][V0200]
+I'm relieved to see[NLINE]
+he's all right.[END-FE]
+
+
+
+
+
+//POINTER #284 @ $5010 - STRING #284 @ $9634
+#W32($5010)
+//[CHAR0200][V0300]
+//そうだな。[NLINE]
+//それにしてもこの男、なぜ戦場なんかに？[END-FE]
+[CHAR0200][V0300]
+Me too. But I wonder why he was[NLINE]
+on that battlefield though.[END-FE]
+
+
+
+
+
+//POINTER #285 @ $5014 - STRING #285 @ $9671
+#W32($5014)
+//[CHAR0200][V0400]
+//このグランゲイル軍の兵士にも、[NLINE]
+//北のネイラーン軍の兵士にも見えん。[END-FE]
+[CHAR0200][V0400]
+He doesn't look like a soldier[NLINE]
+from either Grangale or Neylern.[END-FE]
+
+
+
+
+
+//POINTER #286 @ $5018 - STRING #286 @ $96BE
+#W32($5018)
+//[CHAR0200][V0500]
+//かといって、西の国シリルティアの兵が、[NLINE]
+//あの戦場にいる可能性は低いしね。[NWIN]
+//
+//[CHAR0200][V0600]
+//やっぱり、私たちと同じ冒険者よね。[END-FE]
+[CHAR0200][V0500]
+And Cyriltia is too far west[NLINE]
+to have soldiers out here...[NWIN]
+
+[CHAR0200][V0600]
+Maybe he's an explorer, like us.[END-FE]
+
+
+
+
+
+//POINTER #287 @ $501C - STRING #287 @ $973D
+#W32($501C)
+//[CHAR0200][V0700]
+//あの時、たしかに[NLINE]
+//『戦争を止める』と言った。[END-FE]
+[CHAR0200][V0700]
+"Stop the war." I'm sure[NLINE]
+that was what he said.[END-FE]
+
+
+
+
+
+//POINTER #288 @ $5020 - STRING #288 @ $9774
+#W32($5020)
+//[CHAR0200][V0800]
+//…う…。[END-FE]
+[CHAR0200][V0800]
+Ugh...[END-FE]
+
+
+
+
+
+//POINTER #289 @ $5024 - STRING #289 @ $9787
+#W32($5024)
+//[CHAR0200][V0900]
+//気がついたみたいよ。[END-FE]
+[CHAR0200][V0900]
+He's coming around.[END-FE]
+
+
+
+
+
+//POINTER #290 @ $5028 - STRING #290 @ $97A6
+#W32($5028)
+//[CHAR0200][V0A00]
+//……？[NLINE]
+//ここは…？[END-FE]
+[CHAR0200][V0A00]
+Where...[NLINE]
+Where am I...?[END-FE]
+
+
+
+
+
+//POINTER #291 @ $502C - STRING #291 @ $97C3
+#W32($502C)
+//[CHAR0200][V0B00]
+//グランゲイル王国の王都、[NLINE]
+//ガイラナックよ。[END-FE]
+[CHAR0200][V0B00]
+Geilenach, capital[NLINE]
+of Grangale.[END-FE]
+
+
+
+
+
+//POINTER #292 @ $5030 - STRING #292 @ $97F8
+#W32($5030)
+//[CHAR0200][V0C00]
+//…ガイラナック…。[END-FE]
+[CHAR0200][V0C00]
+Geilenach...[END-FE]
+
+
+
+
+
+//POINTER #293 @ $5034 - STRING #293 @ $9815
+#W32($5034)
+//[CHAR0200][V0D00]
+//君は北の戦場で倒れていたんだ。[NLINE]
+//兵士には見えないようだが、[NLINE]
+//何があったんだ？[END-FE]
+[CHAR0200][V0D00]
+We found you on a[NLINE]
+battlefield to the north,[NLINE]
+but you're no soldier, are you?[END-FE]
+
+
+
+
+
+//POINTER #294 @ $5038 - STRING #294 @ $986C
+#W32($5038)
+//[CHAR0200][V0E00]
+//俺は……。[NLINE]
+//俺はアイザック。[NLINE]
+//見ての通りの冒険者だ。　　[END-FE]
+[CHAR0200][V0E00]
+I'm Isaac... And you're[NLINE]
+right; I'm an explorer,[NLINE]
+not a soldier.[END-FE]
+
+
+
+
+
+//POINTER #295 @ $503C - STRING #295 @ $98AF
+#W32($503C)
+//[CHAR0200][V0F00]
+//あの戦場を通りかかって、[NLINE]
+//戦いに巻き込まれた。[NLINE]
+//礼を言おう、世話になった。[END-FE]
+[CHAR0200][V0F00]
+I got caught in the battle[NLINE]
+as I was passing through.[NLINE]
+Thanks for saving me.[END-FE]
+
+
+
+
+
+//POINTER #296 @ $5040 - STRING #296 @ $9904
+#W32($5040)
+//[CHAR0200][V1000]
+//私はヴァネット。[NLINE]
+//彼はセルディスよ。[NWIN]
+//
+//[CHAR0200][V1100]
+//でも、本当に危なかったわ。[NLINE]
+//もうちょっとでゲルに食べられちゃう[NLINE]
+//ところだったんだから。[END-FE]
+[CHAR0200][V1000]
+No problem. I'm Vanette, and this[NLINE]
+is Seldous.[NWIN]
+
+[CHAR0200][V1100]
+You were lucky. You were close to[NLINE]
+being eaten by those Slimes.[END-FE]
+
+
+
+
+
+//POINTER #297 @ $5044 - STRING #297 @ $9993
+#W32($5044)
+//……[CHAR0200][V1200]
+//そうか。[NLINE]
+//本当に世話になった。[END-FE]
+[CHAR0200][V1200]
+Oh... I see. Then I[NLINE]
+appreciate the help.[END-FE]
+
+
+
+
+
+//POINTER #298 @ $5048 - STRING #298 @ $99C0
+#W32($5048)
+//[CHAR0200][V1300]
+//…くっ…。[END-FE]
+[CHAR0200][V1300]
+Urgh...[END-FE]
+
+
+
+
+
+//POINTER #299 @ $504C - STRING #299 @ $99D5
+#W32($504C)
+//[CHAR0200][V1400]
+//おい、無理をするな。[NLINE]
+//どこにいくつもりだ。[END-FE]
+[CHAR0200][V1400]
+Where are you going?[NLINE]
+You're still weak![END-FE]
+
+
+
+
+
+//POINTER #300 @ $5050 - STRING #300 @ $9A0A
+#W32($5050)
+//[CHAR0200][V1500]
+//君たちには本当に感謝している。[NLINE]
+//だが、急ぐ用があるんだ。[END-FE]
+[CHAR0200][V1500]
+I've got things to do.[NLINE]
+Thanks again for your help.[END-FE]
+
+
+
+
+
+//POINTER #301 @ $5054 - STRING #301 @ $9A4D
+#W32($5054)
+//[CHAR0200][V1600]
+//あの人、[NLINE]
+//あんなフラついた足で[NLINE]
+//大丈夫かしら？[END-FE]
+[CHAR0200][V1600]
+Is he all right?[NLINE]
+He's kind of...[NLINE]
+staggering...[END-FE]
+
+
+
+
+
+//POINTER #302 @ $5058 - STRING #302 @ $9A86
+#W32($5058)
+//[CHAR0200][V1B00]
+//どうだった？[END-FE]
+[CHAR0200][V1B00]
+So what[NLINE]
+happened?[END-FE]
+
+
+
+
+
+//POINTER #303 @ $505C - STRING #303 @ $9A9D
+#W32($505C)
+//[CHAR0200][V1C00]
+//本当に話していたら[NLINE]
+//倒れただけみたいね。[END-FE]
+[CHAR0200][V1C00]
+Well, he just passed[NLINE]
+out while talking.[END-FE]
+
+
+
+
+
+//POINTER #304 @ $5060 - STRING #304 @ $9AD0
+#W32($5060)
+//[CHAR0200][V1D00]
+//それより面白い話を聞けたの。[NWIN]
+//
+//[CHAR0200][V1E00]
+//この近くに手つかずの遺跡が[NLINE]
+//眠っているらしいわ。[END-FE]
+[CHAR0200][V1D00]
+Listen to this though...[NWIN]
+
+[CHAR0200][V1E00]
+They say there's an[NLINE]
+old ruin near here.[END-FE]
+
+
+
+
+
+//POINTER #305 @ $5064 - STRING #305 @ $9B31
+#W32($5064)
+//[CHAR0200][V1F00]
+//手つかずの遺跡か…。[END-FE]
+[CHAR0200][V1F00]
+An old ruin...?[END-FE]
+
+
+
+
+
+//POINTER #306 @ $5068 - STRING #306 @ $9B50
+#W32($5068)
+//[CHAR0200][V2000]
+//何でも、戦争が始まったせいで、[NLINE]
+//調査が打ち切られたそうよ。[END-FE]
+[CHAR0200][V2000]
+They were investigating it, but[NLINE]
+the war interrupted their work.[END-FE]
+
+
+
+
+
+//POINTER #307 @ $506C - STRING #307 @ $9B95
+#W32($506C)
+//[CHAR0200][V2100]
+//行ってみる価値はありそうだな。[NLINE]
+//そこに楽園伝説の真相が[NLINE]
+//残っているかも知れない。[NWIN]
+//
+//[CHAR0200][V2200]
+//上手く行けば、[NLINE]
+//この戦争を終わらせられる…。[END-FE]
+[CHAR0200][V2100]
+If we looked into it, we[NLINE]
+might find more on this[NLINE]
+paradise legend...[NWIN]
+
+[CHAR0200][V2200]
+And that could mean[NLINE]
+an end to the war![END-FE]
+
+
+
+
+
+//POINTER #308 @ $5070 - STRING #308 @ $9C26
+#W32($5070)
+//[CHAR0200][V2300]
+//あ…あんたたち…。[END-FE]
+[CHAR0200][V2300]
+Y-You two...[END-FE]
+
+
+
+
+
+//POINTER #309 @ $5074 - STRING #309 @ $9C43
+#W32($5074)
+//[CHAR0200][V2400]
+//気がついたか？[END-FE]
+[CHAR0200][V2400]
+You're awake?[END-FE]
+
+
+
+
+
+//POINTER #310 @ $5078 - STRING #310 @ $9C5C
+#W32($5078)
+//[CHAR0200][V2500]
+//アンタ達も戦争を止める方法を[NLINE]
+//探しているのか？[END-FE]
+[CHAR0200][V2500]
+You seek a way to[NLINE]
+stop the war, too...?[END-FE]
+
+
+
+
+
+//POINTER #311 @ $507C - STRING #311 @ $9C95
+#W32($507C)
+//[CHAR0200][V2600]
+//まあな。[END-FE]
+[CHAR0200][V2600]
+Indeed.[END-FE]
+
+
+
+
+
+//POINTER #312 @ $5080 - STRING #312 @ $9CA8
+#W32($5080)
+//[CHAR0200][V2700]
+//古代にはこの大陸は１つの国だったそうだ。[NLINE]
+//しかも、戦乱の時代を、[NLINE]
+//血を流さずに統一したと言う。[NWIN]
+//
+//[CHAR0200][V2800]
+//このグランゲイル王国と、[NLINE]
+//西のシリルティア王国。[NLINE]
+//歴史に残るだけでも２回だ。[NWIN]
+//
+//[CHAR0200][V2900]
+//だがそれを、一体どうやって成し得たのか、[NLINE]
+//…正確な記録は、その後の戦争で[NLINE]
+//焼失している。[NWIN]
+//
+//[CHAR0200][V2A00]
+//だが、まだどこかの遺跡に[NLINE]
+//無事な文献があるはずだ。[NLINE]
+//私たちは、それを探し、旅をしている。[END-FE]
+[CHAR0200][V2700]
+They say these lands were[NLINE]
+once united. Peace was[NLINE]
+achieved with no bloodshed.[NWIN]
+
+[CHAR0200][V2800]
+Grangale Kingdom managed[NLINE]
+it once, and so did Cyriltia[NLINE]
+to the west.[NWIN]
+
+[CHAR0200][V2900]
+But I don't know how...[NLINE]
+The details have been[NLINE]
+lost to the wars since.[NWIN]
+
+[CHAR0200][V2A00]
+We're searching ancient[NLINE]
+ruins for records that might[NLINE]
+give us a clue.[END-FE]
+
+
+
+
+
+//POINTER #313 @ $5084 - STRING #313 @ $9E2B
+#W32($5084)
+//[CHAR0200][V2B00]
+//アンタの言うような、[NLINE]
+//そんなうまい話があるとは思えない。[END-FE]
+[CHAR0200][V2B00]
+Ah, that's a nice dream, but[NLINE]
+you're wasting your time.[END-FE]
+
+
+
+
+
+//POINTER #314 @ $5088 - STRING #314 @ $9E6E
+#W32($5088)
+//[CHAR0200][V2C00]
+//そうかな？[NLINE]
+//伝説とは根も葉もない物ではない。[NWIN]
+//
+//[CHAR0200][V2D00]
+//全てが事実ではないかも知れないが、[NLINE]
+//その話の元となった物はある。[NWIN]
+//
+//[CHAR0200][V2E00]
+//少なくとも、戦乱の時代が、[NLINE]
+//何らかの方法で終結したことは事実だと思う。[END-FE]
+[CHAR0200][V2C00]
+You can't dismiss it out of hand.[NWIN]
+
+[CHAR0200][V2D00]
+Even if it's been distorted,[NLINE]
+there's likely a grain of truth to it.[NWIN]
+
+[CHAR0200][V2E00]
+We know for certain that an age of[NLINE]
+war ended somehow.[END-FE]
+
+
+
+
+
+//POINTER #315 @ $508C - STRING #315 @ $9F3F
+#W32($508C)
+//[CHAR0200][V2F00]
+//…まあ、いい。[NWIN]
+//
+//[CHAR0200][V3000]
+//歴史についての見解はともかく、[NLINE]
+//俺も戦争を止めたくて、[NLINE]
+//その力を求めて旅をしている。[NWIN]
+//
+//[CHAR0200][V3100]
+//そのうちに[NLINE]
+//手つかずの遺跡の話を聞きつけて、[NLINE]
+//ここを目指したんだ。[END-FE]
+[CHAR0200][V2F00]
+Anyway...[NWIN]
+
+[CHAR0200][V3000]
+I see things differently, but I'm[NLINE]
+also searching for an end to war.[NWIN]
+
+[CHAR0200][V3100]
+I was on my way here to explore[NLINE]
+the nearby ruin.[END-FE]
+
+
+
+
+
+//POINTER #316 @ $5090 - STRING #316 @ $A002
+#W32($5090)
+//[CHAR0200][V3200]
+//あなたも同じ目的のために[NLINE]
+//旅をしていたのね。[END-FE]
+[CHAR0200][V3200]
+So we're all looking[NLINE]
+for the same thing...[END-FE]
+
+
+
+
+
+//POINTER #317 @ $5094 - STRING #317 @ $A039
+#W32($5094)
+//[CH.FACE:Close-Eyes][CHAR0200][V3300]
+//戦争は人々を苦しめる…。[NLINE]
+//…大切な人々を奪う……。[END-FE]
+[CH.FACE:Close-Eyes][CHAR0200][V3300]
+War is hell. Your loved[NLINE]
+ones... gone in an instant.[END-FE]
+
+
+
+
+
+//POINTER #318 @ $5098 - STRING #318 @ $A079
+#W32($5098)
+//[CHAR0200][V3400]
+//君も戦争で[NLINE]
+//愛しい人をなくしたのか？[END-FE]
+[CHAR0200][V3400]
+Have you lost family[NLINE]
+in the war?[END-FE]
+
+
+
+
+
+//POINTER #319 @ $509C - STRING #319 @ $A0A8
+#W32($509C)
+//[CH.FACE:Open-Eyes][CHAR0200][V3500]
+//アンタたちも？[END-FE]
+[CH.FACE:Open-Eyes][CHAR0200][V3500]
+Yes... yourselves?[END-FE]
+
+
+
+
+
+//POINTER #320 @ $50A0 - STRING #320 @ $A0C4
+#W32($50A0)
+//[CHAR0200][V3600]
+//もうずいぶん前になるがね。[NWIN]
+//
+//[CHAR0200][V3700]
+//戦争は、我々の暮らしていた孤児院を焼いた。[NLINE]
+//生き残ったのは私とヴァネットだけだ。[END-FE]
+[CHAR0200][V3600]
+Yes, but it was a long time ago.[NWIN]
+
+[CHAR0200][V3700]
+Vanette and I are the only survivors of[NLINE]
+an orphanage that was torched in battle.[END-FE]
+
+
+
+
+
+//POINTER #321 @ $50A4 - STRING #321 @ $A143
+#W32($50A4)
+//[CHAR0200][V3800]
+//１０年以上前の話だけどね。[NWIN]
+//
+//[CH.FACE:Angry][CHAR0200][V3900]
+//でも、あの日に私たちは誓ったのよ。[NWIN]
+//
+//[CHAR0200][V3A00]
+//死んだ兄弟や先生のためにも、[NLINE]
+//戦争のない世界をつくってみせるって。[END-FE]
+[CHAR0200][V3800]
+That was over 10 years ago.[NWIN]
+
+[CH.FACE:Angry][CHAR0200][V3900]
+We made a vow, that day...[NWIN]
+
+[CHAR0200][V3A00]
+To create a world without conflict,[NLINE]
+for our fallen brothers and sisters.[END-FE]
+
+
+
+
+
+//POINTER #322 @ $50A8 - STRING #322 @ $A1E4
+#W32($50A8)
+//[CHAR0200][V3B00]
+//それから１０年以上も……。[NWIN]
+//
+//[CHAR0200][V3C00]
+//俺たちは同じ目標のために[NLINE]
+//生きているのか。[END-FE]
+[CHAR0200][V3B00]
+You've been doing this 10 years...?[NWIN]
+
+[CHAR0200][V3C00]
+Sounds like we're dedicated[NLINE]
+to the same cause.[END-FE]
+
+
+
+
+
+//POINTER #323 @ $50AC - STRING #323 @ $A23D
+#W32($50AC)
+//[CHAR0200][V3D00]
+//ここで出会ったのは、[NLINE]
+//天の導きかも知れぬな。[NWIN]
+//
+//[CHAR0200][V3E00]
+//戦争を無くすために、[NLINE]
+//共に力を合わせないか？[END-FE]
+[CHAR0200][V3D00]
+This may be divine[NLINE]
+providence.[NWIN]
+
+[CHAR0200][V3E00]
+Shall we join forces,[NLINE]
+to put an end to war?[END-FE]
+
+
+
+
+
+//POINTER #324 @ $50B0 - STRING #324 @ $A2AA
+#W32($50B0)
+//[CHAR0200][V3F00]
+//ああ！[END-FE]
+[CHAR0200][V3F00]
+Let's do it![END-FE]
+
+
+
+
+
+//POINTER #325 @ $50B4 - STRING #325 @ $A2BB
+#W32($50B4)
+//　[NLINE]
+//アイザックが仲間になった！[NLINE]
+//　[END-FE]
+　[NLINE]
+Isaac has joined your party![NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #326 @ $50B8 - STRING #326 @ $A2E0
+#W32($50B8)
+//[CHAR0200][V4000]
+//ねぇ、アイザックは[NLINE]
+//どこに行くつもりだったの？[END-FE]
+[CHAR0200][V4000]
+What brought you[NLINE]
+to Grangale, Isaac?[END-FE]
+
+
+
+
+
+//POINTER #327 @ $50BC - STRING #327 @ $A319
+#W32($50BC)
+//[CHAR0200][V4100]
+//グランゲイルに[NLINE]
+//手つかずの遺跡があると聞いた。[NWIN]
+//
+//[CHAR0200][V4200]
+//その遺跡には、[NLINE]
+//戦争を終わらせる力が[NLINE]
+//眠っているかも知れない。[END-FE]
+[CHAR0200][V4100]
+There were rumors of an[NLINE]
+undisturbed ruin in Grangale.[NWIN]
+
+[CHAR0200][V4200]
+One that held a power strong[NLINE]
+enough to end war.[END-FE]
+
+
+
+
+
+//POINTER #328 @ $50C0 - STRING #328 @ $A39A
+#W32($50C0)
+//[CHAR0200][V4300]
+//戦争を終わらせる力？[END-FE]
+[CHAR0200][V4300]
+Really? It's that strong?[END-FE]
+
+
+
+
+
+//POINTER #329 @ $50C4 - STRING #329 @ $A3B9
+#W32($50C4)
+//[CHAR0200][V4400]
+//そう『力』さ。[NWIN]
+//
+//[CHAR0200][V4500]
+//どんな戦争にも負けない『大いなる力』…。[NWIN]
+//
+//[CHAR0200][V4600]
+//俺は別のルートから、[NLINE]
+//その遺跡に『大いなる力』があると知った。[END-FE]
+[CHAR0200][V4400]
+Supposedly.[NWIN]
+
+[CHAR0200][V4500]
+They say it can overpower any army.[NWIN]
+
+[CHAR0200][V4600]
+I heard about it in my travels, and I've[NLINE]
+been seeking it since.[END-FE]
+
+
+
+
+
+//POINTER #330 @ $50C8 - STRING #330 @ $A44C
+#W32($50C8)
+//[CHAR0200][V4700]
+//『大いなる力』か…。[NLINE]
+//具体的にはどんな物なんだ？[END-FE]
+[CHAR0200][V4700]
+I see... I wonder what[NLINE]
+form of power it is.[END-FE]
+
+
+
+
+
+//POINTER #331 @ $50CC - STRING #331 @ $A487
+#W32($50CC)
+//[CHAR0200][V4800]
+//それは…行けばわかる。[END-FE]
+[CHAR0200][V4800]
+We'll find out soon...[END-FE]
+
+
+
+
+
+//POINTER #332 @ $50D0 - STRING #332 @ $A4A8
+#W32($50D0)
+//[CHAR0200][V4900]
+//…うむ。[NLINE]
+//では、今日はゆっくりと体を休めてくれ。[NLINE]
+//出発は明日にしよう。[END-FE]
+[CHAR0200][V4900]
+Then, let's rest for[NLINE]
+now. We'll depart in[NLINE]
+the morning.[END-FE]
+
+
+
+
+
+//POINTER #333 @ $50D4 - STRING #333 @ $A4F9
+#W32($50D4)
+//[CHAR0200][V4A00]
+//あの…その小手…。[END-FE]
+[CHAR0200][V4A00]
+That gauntlet...[END-FE]
+
+
+
+
+
+//POINTER #334 @ $50D8 - STRING #334 @ $A516
+#W32($50D8)
+//[CHAR0200][V4B00]
+//ん？[NLINE]
+//ああ、これか。[END-FE]
+[CHAR0200][V4B00]
+Hm?[NLINE]
+Oh, this?[END-FE]
+
+
+
+
+
+//POINTER #335 @ $50DC - STRING #335 @ $A535
+#W32($50DC)
+//[CHAR0200][V4C00]
+//何度も俺を守ってくれた、[NLINE]
+//大切な物だ。[NWIN]
+//
+//[CHAR0200][V4D00]
+//それが何か？[END-FE]
+[CHAR0200][V4C00]
+This thing has saved[NLINE]
+my life many times.[NWIN]
+
+[CHAR0200][V4D00]
+You like it?[END-FE]
+
+
+
+
+
+//POINTER #336 @ $50E0 - STRING #336 @ $A57C
+#W32($50E0)
+//[CHAR0200][V4E00]
+//装飾がきれい…。[NWIN]
+//
+//[CHAR0200][V4F00]
+//見たこともない宝石がついてるけど、[NLINE]
+//なんていう宝石なの？[END-FE]
+[CHAR0200][V4E00]
+It's beautiful...[NWIN]
+
+[CHAR0200][V4F00]
+I've never seen these jewels[NLINE]
+before. What are they?[END-FE]
+
+
+
+
+
+//POINTER #337 @ $50E4 - STRING #337 @ $A5D9
+#W32($50E4)
+//[CHAR0200][V5000]
+//悪い、宝石には詳しくないんだ。[END-FE]
+[CHAR0200][V5000]
+I'm no expert, so I couldn't tell you.[END-FE]
+
+
+
+
+
+//POINTER #338 @ $50E8 - STRING #338 @ $A602
+#W32($50E8)
+//[CHAR0200][V5100]
+//そっか…。[NLINE]
+//ちょっと、残念。[NWIN]
+//
+//[CHAR0200][V5200]
+//それじゃ、[NLINE]
+//明日までゆっくり休んでね。[END-FE]
+[CHAR0200][V5100]
+Ah... Well, thanks[NLINE]
+for showing me.[NWIN]
+
+[CHAR0200][V5200]
+Have a good night! See[NLINE]
+you in the morning.[END-FE]
+
+
+
+
+
+//POINTER #339 @ $50EC - STRING #339 @ $A659
+#W32($50EC)
+//あの身体で、[NLINE]
+//大丈夫かしら？[END-FE]
+His condition[NLINE]
+isn't stable...[END-FE]
+
+
+
+
+
+//POINTER #340 @ $50F0 - STRING #340 @ $A678
+#W32($50F0)
+//今は眠っているようだ。[END-FE]
+He's sleeping.[END-FE]
+
+
+
+
+
+//POINTER #341 @ $50F4 - STRING #341 @ $A691
+#W32($50F4)
+//まだ出かけないのか？[END-FE]
+Aren't we going yet?[END-FE]
+
+
+
+
+
+//POINTER #342 @ $50F8 - STRING #342 @ $A6A8
+#W32($50F8)
+//　[NLINE]
+//花が生けてある。[END-FE]
+　[NLINE]
+The flowers smell nice.[END-FE]
+
+
+
+
+
+//POINTER #343 @ $50FC - STRING #343 @ $A6BF
+#W32($50FC)
+//テーブルの上には　　　[NLINE]
+//ランプが置かれている。[END-FE]
+There's a lamp[NLINE]
+on the table.[END-FE]
+
+
+
+
+
+//POINTER #344 @ $5100 - STRING #344 @ $A6F0
+#W32($5100)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+　[NLINE]
+It's a dresser.[END-FE]
+
+
+
+
+
+//POINTER #345 @ $5104 - STRING #345 @ $A70F
+#W32($5104)
+//[CHAR0600][V1500]
+//やあ、よく来てくれたね！[NLINE]
+//あのときは助けてくれてありがとう。[END-FE]
+[CHAR0600][V1500]
+Hey, thanks for coming! And[NLINE]
+for saving my life back there.[END-FE]
+
+
+
+
+
+//POINTER #346 @ $5108 - STRING #346 @ $A756
+#W32($5108)
+//[CHAR0600][V1600]
+//おや、そちらは…ひょっとして…？[END-FE]
+[CHAR0600][V1600]
+Oh... This gentleman is...?[END-FE]
+
+
+
+
+
+//POINTER #347 @ $510C - STRING #347 @ $A781
+#W32($510C)
+//[CHAR0600][V1700]
+//ポトラドのペルナギじゃ。[NLINE]
+//セルディス達と戦争を終わらせるために[NLINE]
+//協力し合っておる。[END-FE]
+[CHAR0600][V1700]
+Pernagi of Pothrad. I'm[NLINE]
+helping Seldous put an[NLINE]
+end to the war.[END-FE]
+
+
+
+
+
+//POINTER #348 @ $5110 - STRING #348 @ $A7DE
+#W32($5110)
+//[CHAR0600][V1800]
+//戦争を終わらせる？[END-FE]
+[CHAR0600][V1800]
+An end to the war?[END-FE]
+
+
+
+
+
+//POINTER #349 @ $5114 - STRING #349 @ $A7FB
+#W32($5114)
+//[CHAR0600][V1900]
+//ああ。[NLINE]
+//今日はそのことで来たんだ。[END-FE]
+[CHAR0600][V1900]
+Yes, that's why I've[NLINE]
+come to see you.[END-FE]
+
+
+
+
+
+//POINTER #350 @ $5118 - STRING #350 @ $A828
+#W32($5118)
+//[CHAR0600][V1A00]
+//…うむ、まずは話を聞こうか。[END-FE]
+[CHAR0600][V1A00]
+Got a proposition for me?[END-FE]
+
+
+
+
+
+//POINTER #351 @ $511C - STRING #351 @ $A84F
+#W32($511C)
+//[CHAR0600][V1B00]
+//この大陸にはもう何年も前から[NLINE]
+//戦争が続いている。[NWIN]
+//
+//[CHAR0600][V1C00]
+//何とかして戦争を終わらせ、[NLINE]
+//平和な世界をつくりたい。[NWIN]
+//
+//[CHAR0600][V1D00]
+//その方法を探して、[NLINE]
+//私たちは旅をしてきた…。[END-FE]
+[CHAR0600][V1B00]
+War has plagued this[NLINE]
+continent for years.[NWIN]
+
+[CHAR0600][V1C00]
+I want to put a stop to it,[NLINE]
+and create a peaceful world.[NWIN]
+
+[CHAR0600][V1D00]
+We've been searching[NLINE]
+for a way to do that...[END-FE]
+
+
+
+
+
+//POINTER #352 @ $5120 - STRING #352 @ $A8FE
+#W32($5120)
+//[CHAR0600][V1E00]
+//そして……。[END-FE]
+[CHAR0600][V1E00]
+And now, finally...[END-FE]
+
+
+
+
+
+//POINTER #353 @ $5124 - STRING #353 @ $A915
+#W32($5124)
+//[CHAR0600][V1F00]
+//…古代の兵器をねぇ…。[END-FE]
+[CHAR0600][V1F00]
+...An ancient weapon, huh?[END-FE]
+
+
+
+
+
+//POINTER #354 @ $5128 - STRING #354 @ $A936
+#W32($5128)
+//[CHAR0600][V2000]
+//どこか一国の勝利ではなく、[NLINE]
+//どこにも属さない我々が[NLINE]
+//戦闘行為を取り締まるんだ。[END-FE]
+[CHAR0600][V2000]
+An unaffiliated group like[NLINE]
+us could prevent war from[NLINE]
+breaking out again.[END-FE]
+
+
+
+
+
+//POINTER #355 @ $512C - STRING #355 @ $A98F
+#W32($512C)
+//[CHAR0600][V2100]
+//あの古代兵器を修理すれば、[NLINE]
+//数人で戦争を止めることができる。[END-FE]
+[CHAR0600][V2100]
+Once the weapon is fixed, we[NLINE]
+won't need many people.[END-FE]
+
+
+
+
+
+//POINTER #356 @ $5130 - STRING #356 @ $A9D6
+#W32($5130)
+//[CHAR0600][V2200]
+//この争いの時代、[NLINE]
+//商品の値段は上がっている。[NLINE]
+//おかげで市民は、我々がもうけていると[NLINE]
+//思っているだろうね。[NWIN]
+//
+//[CHAR0600][V2300]
+//だけど物価が上がったせいで、[NLINE]
+//人々が買い控えるようになり、[NLINE]
+//それどころか、[NLINE]
+//仕入れも安くなくなった。[NWIN]
+//
+//[CHAR0600][V2400]
+//戦争が激しくなり、[NLINE]
+//我々商売人は仕入れも命がけだ。[NWIN]
+//
+//[CHAR0600][V2500]
+//もし、戦争が終われば、[NLINE]
+//本来の正常な商いの姿に戻れる。[NWIN]
+//
+//[CHAR0600][V2600]
+//仕入れの危険もなく、[NLINE]
+//安くて良い品をみんなに提供出来る。[NWIN]
+//
+//[CHAR0600][V2700]
+//……いいだろう。[NLINE]
+//他の商人にもこの話をしてみるよ。[END-FE]
+[CHAR0600][V2200]
+You know, war traditionally raises[NLINE]
+commodity prices. Most people[NLINE]
+think of it as war profiteering.[NWIN]
+
+[CHAR0600][V2300]
+The truth is, higher prices hurt[NLINE]
+our sales. It costs more for us[NLINE]
+to obtain the goods, too.[NWIN]
+
+[CHAR0600][V2400]
+Just transporting the stock can[NLINE]
+be life-threatening, as you saw.[NWIN]
+
+[CHAR0600][V2500]
+If war ends, we can go back[NLINE]
+to business as usual.[NWIN]
+
+[CHAR0600][V2600]
+No one will get hurt, and we can[NLINE]
+provide reasonable prices again.[NWIN]
+
+[CHAR0600][V2700]
+...Sounds good. I'll discuss it[NLINE]
+with the other merchants.[END-FE]
+
+
+
+
+
+//POINTER #357 @ $5134 - STRING #357 @ $ABB1
+#W32($5134)
+//[CHAR0600][V2800]
+//ありがとう、アラン。[END-FE]
+[CHAR0600][V2800]
+Thank you, Alan.[END-FE]
+
+
+
+
+
+//POINTER #358 @ $5138 - STRING #358 @ $ABD0
+#W32($5138)
+//[CHAR0600][V2900]
+//感謝するのは、[NLINE]
+//他の商人たちの説得に成功した時にしてくれ。[END-FE]
+[CHAR0600][V2900]
+Thank me after I get the others[NLINE]
+on board with your proposal.[END-FE]
+
+
+
+
+
+//POINTER #359 @ $513C - STRING #359 @ $AC15
+#W32($513C)
+//[CHAR0600][V2A00]
+//それでも、私たちのことを[NLINE]
+//信じてくれたことには変わりはないわ。[END-FE]
+[CHAR0600][V2A00]
+It means a lot that[NLINE]
+you trusted us at all.[END-FE]
+
+
+
+
+
+//POINTER #360 @ $5140 - STRING #360 @ $AC5E
+#W32($5140)
+//[CHAR0600][V2B00]
+//僕を引き取ってくれた養父はね、[NLINE]
+//去年、病でこの世を去るまで、[NLINE]
+//かなり強引な方法で稼いでいたんだ。[NWIN]
+//
+//[CHAR0600][V2C00]
+//だから、常々人の役に立つことを[NLINE]
+//したいと考えていたんだ。[END-FE]
+[CHAR0600][V2B00]
+My foster father passed away[NLINE]
+last year. He was a pretty[NLINE]
+cutthroat businessman.[NWIN]
+
+[CHAR0600][V2C00]
+So I always wanted to[NLINE]
+do something good.[END-FE]
+
+
+
+
+
+//POINTER #361 @ $5144 - STRING #361 @ $AD0B
+#W32($5144)
+//[CHAR0600][V2D00]
+//ところで、その兵器だが、[NLINE]
+//他の出資者を説得するためにも[NLINE]
+//一度見ておきたいな。[NWIN]
+//
+//[CHAR0600][V2E00]
+//作業員の見積もりも必要だし、[NLINE]
+//なにより歴史を動かすものだろうからね。[END-FE]
+[CHAR0600][V2D00]
+Can I see the weapon first? It[NLINE]
+might help me persuade the others.[NWIN]
+
+[CHAR0600][V2E00]
+I'll need to estimate the cost, but[NLINE]
+I also just want to see the weapon[NLINE]
+that'll change history.[END-FE]
+
+
+
+
+
+//POINTER #362 @ $5148 - STRING #362 @ $ADB0
+#W32($5148)
+//[CHAR0600][V2F00]
+//ああ、すぐに案内しよう。[END-FE]
+[CHAR0600][V2F00]
+I'll take you right to it.[END-FE]
+
+
+
+
+
+//POINTER #363 @ $514C - STRING #363 @ $ADD3
+#W32($514C)
+//[CHAR0600][V3000]
+//では、ワシは機材を持ってから遺跡に向かう。[NLINE]
+//彼と先に行ってくれ。[END-FE]
+[CHAR0600][V3000]
+I'll head for the ruin once I collect[NLINE]
+my things. Go ahead without me.[END-FE]
+
+
+
+
+
+//POINTER #364 @ $5150 - STRING #364 @ $AE1E
+#W32($5150)
+//　[NLINE]
+//商人アランが同行人になった！[END-FE]
+　[NLINE]
+Alan will follow your party![END-FE]
+
+
+
+
+
+//POINTER #365 @ $5154 - STRING #365 @ $AE41
+#W32($5154)
+//[CHAR0700][V1F00]
+//やあ、いらっしゃい。[NLINE]
+//話は聞いているよ。[END-FE]
+[CHAR0700][V1F00]
+Hey there. I heard[NLINE]
+what's going on.[END-FE]
+
+
+
+
+
+//POINTER #366 @ $5158 - STRING #366 @ $AE74
+#W32($5158)
+//[CHAR0700][V2000]
+//すまないな、突然。[END-FE]
+[CHAR0700][V2000]
+Sorry to bother you.[END-FE]
+
+
+
+
+
+//POINTER #367 @ $515C - STRING #367 @ $AE91
+#W32($515C)
+//[CHAR0700][V2100]
+//いいってことさ。[NLINE]
+//では、僕は荷物の準備をしてくる。[NWIN]
+//
+//[CHAR0700][V2200]
+//…それより…がんばれよ。[END-FE]
+[CHAR0700][V2100]
+Don't worry about it. I'll[NLINE]
+go put your goods together.[NWIN]
+
+[CHAR0700][V2200]
+Anyway... Good luck.[END-FE]
+
+
+
+
+
+//POINTER #368 @ $5160 - STRING #368 @ $AEF0
+#W32($5160)
+//[CHAR0700][V2300]
+//…う、うむ…。[END-FE]
+[CHAR0700][V2300]
+U-Uh...[END-FE]
+
+
+
+
+
+//POINTER #369 @ $5164 - STRING #369 @ $AF09
+#W32($5164)
+//（いざとなると、緊張するな…。）[NWIN]
+//
+//（だが、ここで逃げるわけには…！）[END-FE]
+(I'm on pins and needles...)[NWIN]
+
+(But I can't back down now!)[END-FE]
+
+
+
+
+
+//POINTER #370 @ $5168 - STRING #370 @ $AF50
+#W32($5168)
+//[CHAR0700][V2400]
+//どうかしたの？[END-FE]
+[CHAR0700][V2400]
+What is it?[END-FE]
+
+
+
+
+
+//POINTER #371 @ $516C - STRING #371 @ $AF69
+#W32($516C)
+//[CHAR0700][V2500]
+//いや、なんでもない。[NWIN]
+//
+//[CHAR0700][V2600]
+//…あの、だな、ヴァネット。[END-FE]
+[CHAR0700][V2500]
+I-It's nothing...[NWIN]
+
+[CHAR0700][V2600]
+Um... Actually, Vanette?[END-FE]
+
+
+
+
+
+//POINTER #372 @ $5170 - STRING #372 @ $AFAC
+#W32($5170)
+//[CHAR0700][V2700]
+//なに？[END-FE]
+[CHAR0700][V2700]
+Yes?[END-FE]
+
+
+
+
+
+//POINTER #373 @ $5174 - STRING #373 @ $AFBD
+#W32($5174)
+//[CHAR0700][V2800]
+//これを…。[END-FE]
+[CHAR0700][V2800]
+Take this...[END-FE]
+
+
+
+
+
+//POINTER #374 @ $5178 - STRING #374 @ $AFD2
+#W32($5178)
+//　[NLINE]
+//ダイアモンドの指輪を渡した！[END-FE]
+　[NLINE]
+Handed over the Diamond Ring![END-FE]
+
+
+
+
+
+//POINTER #375 @ $517C - STRING #375 @ $AFF5
+#W32($517C)
+//[CHAR0700][V2900]
+//これは…きれいな、指輪…。[NLINE]
+//どうしたの、これ？[END-FE]
+[CHAR0700][V2900]
+This ring... It's beautiful...[NLINE]
+Why are you giving it to me?[END-FE]
+
+
+
+
+
+//POINTER #376 @ $5180 - STRING #376 @ $B02E
+#W32($5180)
+//[CHAR0700][V2A00]
+//君にはいろいろと世話になったからな。[NLINE]
+//そのお礼だ。[END-FE]
+[CHAR0700][V2A00]
+You've helped me so much.[NLINE]
+I wanted to thank you.[END-FE]
+
+
+
+
+
+//POINTER #377 @ $5184 - STRING #377 @ $B06B
+#W32($5184)
+//[CHAR0700][V2B00]
+//お礼だなんて、[NLINE]
+//あなたと私の仲じゃない。[END-FE]
+[CHAR0700][V2B00]
+You shouldn't have...[NLINE]
+You know I love helping you.[END-FE]
+
+
+
+
+
+//POINTER #378 @ $5188 - STRING #378 @ $B09E
+#W32($5188)
+//[CHAR0700][V2C00]
+//あ、ああ…。[NLINE]
+//それでだな…、もし良かったら…、[NLINE]
+//私の妻になってくれないか…？[END-FE]
+[CHAR0700][V2C00]
+I-I know... But if it's[NLINE]
+okay with you... Would[NLINE]
+you... marry me...?[END-FE]
+
+
+
+
+
+//POINTER #379 @ $518C - STRING #379 @ $B0F5
+#W32($518C)
+//[CHAR0700][V2D00]
+//…え…。[END-FE]
+[CHAR0700][V2D00]
+...Oh...[END-FE]
+
+
+
+
+
+//POINTER #380 @ $5190 - STRING #380 @ $B108
+#W32($5190)
+//[CHAR0700][V2E00]
+//私と、結婚してほしい。[END-FE]
+[CHAR0700][V2E00]
+I love you... I want[NLINE]
+us to be married.[END-FE]
+
+
+
+
+
+//POINTER #381 @ $5194 - STRING #381 @ $B129
+#W32($5194)
+//[CHAR0700][V2F00]
+//…うれしい…。[NLINE]
+//私、うれしいわ……。[NWIN]
+//
+//[CHAR0700][V3000]
+//この日を…待っていた…。[END-FE]
+[CHAR0700][V2F00]
+I'm so glad...[NLINE]
+This is...[NWIN]
+
+[CHAR0700][V3000]
+I've waited for this day...[END-FE]
+
+
+
+
+
+//POINTER #382 @ $5198 - STRING #382 @ $B17A
+#W32($5198)
+//[CHAR0700][V3100]
+//ヴァネット……。[END-FE]
+[CHAR0700][V3100]
+Vanette...[END-FE]
+
+
+
+
+
+//POINTER #383 @ $519C - STRING #383 @ $B195
+#W32($519C)
+//[CHAR0700][V3200]
+//きっと私は良き夫にはなれない。[NLINE]
+//君に苦労ばかりかけてしまうだろう…。[END-FE]
+[CHAR0700][V3200]
+I don't know if I'll make a good[NLINE]
+husband. I-I know I'll be busy...[END-FE]
+
+
+
+
+
+//POINTER #384 @ $51A0 - STRING #384 @ $B1E4
+#W32($51A0)
+//[CHAR0700][V3300]
+//…わかっているわ。[NLINE]
+//あなたとならば、大丈夫よ…。[NLINE]
+//愛しているわ、セルディス…。[END-FE]
+[CHAR0700][V3300]
+That's okay... I'll be fine,[NLINE]
+as long as I'm with you...[NLINE]
+I love you, Seldous.[END-FE]
+
+
+
+
+
+//POINTER #385 @ $51A4 - STRING #385 @ $B23D
+#W32($51A4)
+//[CHAR0700][V3400]
+//ヴァネット……。[END-FE]
+[CHAR0700][V3400]
+Vanette...[END-FE]
+
+
+
+
+
+//POINTER #386 @ $51A8 - STRING #386 @ $B258
+#W32($51A8)
+//　　こうしてセルディスは、[NLINE]
+//　　長年旅を続けた女性ヴァネットと結婚した。[NLINE]
+//　　それは永遠の愛を誓うと共に、[NLINE]
+//　　永遠の平和を誓うものでもあった。[END-FE]
+Seldous was wedded to his longtime[NLINE]
+companion, Vanette. They were bound[NLINE]
+in matrimony, while attempting[NLINE]
+to bring about eternal peace.[END-FE]
+
+
+
+
+
+//POINTER #387 @ $51AC - STRING #387 @ $B2EB
+#W32($51AC)
+//そしてセルディス達が[NLINE]
+//大いなる力を見つけてから、[NLINE]
+//一年の時が流れたある日…。[NLINE]
+//　[END-FE]
+It's been a year since Seldous[NLINE]
+and his comrades discovered[NLINE]
+the ancient weapon...[NLINE]
+　[END-FE]
+
+
+
+

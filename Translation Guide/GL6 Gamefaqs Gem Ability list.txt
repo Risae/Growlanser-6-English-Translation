@@ -1,0 +1,894 @@
+
+
+
+==     ==*************************************************************======
+ //   //              GROWLANSER VI: PRECARIOUS WORLD                  //
+   //              GEM, SKILLS, MAGIC & TECHNIQUE LIST                //
+  ===***************************************************************======
+
+Created by Ethel
+Copyright (c) Ethel
+gkane84@yahoo.com
+
+
+Author's note: This guide is to appear strictly on GameFAQs website only.
+Unless otherwise stated, NO part of this guide is to be copied or used
+anywhere else without my permission.
+
+2008 March 17 - Version 1.0
+
+
+================================INTRODUCTION=================================
+
+This little guide lists the gem, skills, magic and techniques in the game.
+Since the gem inventory is limited(last I checked, mine was written at 63,
+but I am not sure whether that will change), this list is definitely not yet
+complete as I have got a bad habit of selling gems I don't need the moment I
+get it, and so the information I have here is restricted by what I have and
+can find. Hopefully I will be able to add more as far as time and effort
+allow for.
+
+                                 CONTENTS
+            *****************************************************
+            ***GEM LISTING*****************************[GMLS]****
+            |  -->Enchant gems                                  |
+            |  -->Common gems                                   |
+            ***ABILITIES LISTING***********************[ABL1]****
+            |  -->MAGIC                                         |
+            |  -->SKILLS                                        |
+            |  -->TECHNIQUES                                    |
+            ***COMBINING GEMS AND LEARNING SKILLS******[CGL1]****
+            ***Q&A*************************************[QAA1]****
+            *****************************************************
+
+
+
+ GEM LISTING: Japanese characters for the 'Characteristic' and 'Combination
+ effect' are omitted for subsequent rows because it will just be repetitive
+ and waste of space to write the same thing over and over and over again.
+*****************************************************************************
+ Enchant gems    | Description/category/effects                        [GMLS]
+*****************************************************************************
+ サファイア      | 特性(Characteristic): 時空 (Time)
+ (Sapphire)      | 添加効果 (Combination effect): ->能力強化
+                 |                                  (Strengthen Ability)
+                 |                                ->能力の追加 (Ability +)
+                 |                                ->コピー (Copy)
+                 |                                ->ジェム生成(Create gem)
+                 |                                ->レア グッズ生成
+                 |                                  (Create rare goods)
+-----------------------------------------------------------------------------
+ ターコイズ      | Characteristic: 変換 (Transform)
+ (Turquoise)     | Combination effect: ->能力強化(Strengthen Ability)
+                 |                     ->スロット3 強化 (Strengthen Slot 3)
+                 |                     ->スロット3 コピー (Copy Slot 3)
+                 |                     ->グッズ生成 (Create goods)
+-----------------------------------------------------------------------------
+ エメラルド      | Characteristic: 精霊 (Soul)
+ (Emerald)       | Combination effect: ->状態回復グッズ生成
+                 |                       (Create status recovery goods)
+                 |                     ->ジェム生成(Create gem)
+-----------------------------------------------------------------------------
+ トパーズ        | Characteristic: 肉体 (Physical body)
+ (Topaz)         | Combination effect: ->スロット1 強化 (Strengthen Slot 1)
+                 |                     ->スロット1 コピー (Copy Slot 1)
+                 |                     ->ジェム生成(Create gem)
+                 |                     ->グッズ生成 (Create goods)
+-----------------------------------------------------------------------------
+ アンバー        | Characteristic: 増強 (Reinforce)
+ (Amber)         | Combination effect: ->回復グッズ生成
+                 |                       (Create recovery goods)
+                 |                     ->スロット1 コピー (Copy Slot 1)
+                 |                     ->ジェム生成(Create gem)
+                 |                     ->グッズ生成 (Create goods)
+-----------------------------------------------------------------------------
+ ルビー          | Characteristic: 打撃
+ (Ruby)          | Combination effect: ->スロット2 強化 (Strengthen Slot 2)
+                 |                     ->スロット2 コピー (Copy Slot 2)
+                 |                     ->ジェム生成(Create gem)
+                 |                     ->グッズ生成 (Create goods)
+-----------------------------------------------------------------------------
+ アメジスト      | Characteristic: 神秘 (Mystery)
+ (Amethyst)      | Combination effect: ->スロット4 強化 (Strengthen Slot 4)
+                 |                     ->スロット4 コピー (Copy Slot 4)
+                 |                     ->ジェム生成(Create gem)
+                 |                     ->グッズ生成 (Create goods)
+=============================================================================
+ COMMON GEMS: Sapphire(SP), Turquoise(TR), Emerald(EM), Topaz(TO),
+              Amber(AM), Ruby(RB), Amethyst(AS)
+=============================================================================
+ Bonus        |Enchant gem | Bonus           | Skill+Purpose/Use
+ name         |combination | skill           |
+*****************************************************************************
+ SLOT 1 GEM BONUS
+*****************************************************************************
+ 快癒         | AM+TO      | 回復性向上       | Recovery magic+goods effect
+ Restoration  |            | Recovery up      | 1.5 times the original
+-----------------------------------------------------------------------------
+ 精霊         | None       | 精霊のルーン     | All magic resistance up
+ Spirit       |            | Spirit rune      |
+-----------------------------------------------------------------------------
+ 成長         | None       | 経験直アップ     | Experience points obtained
+ Growth       |            | Experience UP    | +10%
+-----------------------------------------------------------------------------
+ 素早         | None       | DEX向上          | DEX+5
+ Speed        |            | DEX up           |
+-----------------------------------------------------------------------------
+ 腕力         | None       | STR向上          | STR+5
+ Strength     |            | STR up           |
+-----------------------------------------------------------------------------
+ 崩す         | SP+AM      | バランス崩す     | Deal an attack to increase
+ Crush        |            | Unbalance        | rigidity time
+-----------------------------------------------------------------------------
+ 受流         | AM+TR      | 受け流し         | Weapon dmg received -10%
+ Block        |            | Damage sink      |
+-----------------------------------------------------------------------------
+ 欲深         | None       | ミルアップ       | Mil+5%
+ Greed        |            | Mil UP           |
+-----------------------------------------------------------------------------
+ 銀盤         | None       | 銀のエンブレム   | Increase defense abilities:
+ Silver board |            | Silver emblem    | all mgc resistance up
+-----------------------------------------------------------------------------
+ 阻壁         | None       | マジックバリア   | Weapon and magic dmg received
+ Barrier      |            | Magic barrier    | -30%
+-----------------------------------------------------------------------------
+ 知恵         | None       | INT向上          | INT+5
+ Intelligence |            |                  |
+-----------------------------------------------------------------------------
+ 健康         | EM+TR      | テリアカ         | 60% chance of preventing
+ Health       |            | Terika           | status abnormalities
+-----------------------------------------------------------------------------
+ 溶岩         | None       | 溶岩のルーン     | Damage to enemy by fire and
+ Lava         |            | Lava rune        | earth element. Fire and earth
+              |            |                  | resistance up
+-----------------------------------------------------------------------------
+ 吹雪         | None       | 吹雪のルーン     | Damage to enemy by ice and
+ Snowstorm    |            | Snowstorm rune   | wind element. Ice and wind
+              |            |                  | resistance up
+-----------------------------------------------------------------------------
+ 春雷         | None       | 春雷のルーン     | Damage to enemy by holy and
+ Spring       |            | Spring Thunder   | thunder element. Holy and
+ Thunder      |            | rune             | thunder resistance up
+-----------------------------------------------------------------------------
+ 無双         | None       | イーヴァルディ   | Increase battle abilities:
+ Musou        |            | Ivaldi           | Higher attack 
+(Unmatched)   |            |                  |
+-----------------------------------------------------------------------------
+ 言霊         | None       | オードレリル     | Increase magic abilities:
+ Koto-dama    |            | Ord-leril        | Higher effect
+ (Soul)       |            |                  |
+-----------------------------------------------------------------------------
+ 光輝         | None       | M2               | Add 100 to all stats
+ Splendor     |            |                  |
+-----------------------------------------------------------------------------
+ 学習         | None       | 学習加速         | Technique points obtained
+ Study        |            | Increased        | +10%
+              |            | learning speed   |
+-----------------------------------------------------------------------------
+ 撃倒         | None       | ノックアウト.改  | Raise chance to cause faint
+ Knock out    |            | Knock-out        | status to enemy
+              |            | -advanced-       |
+-----------------------------------------------------------------------------
+ 炎石         | RB+EM      | 炎のルーン       | Damage to enemy by fire and
+ Flame stone  |            | Flame rune       | fire resistance up
+-----------------------------------------------------------------------------
+ 風石         | AM+SP      | 風のルーン       | Damage to enemy by wind and
+ Wind stone   |            | Wind rune        | wind resistance up
+-----------------------------------------------------------------------------
+ 雷石         | SP+EM      | 雷のルーン       | Damage to enemy by Thunder
+ Thunder stone|            | Thunder rune     | and Thunder resistance up
+-----------------------------------------------------------------------------
+ 氷石         | TR+EM      | 氷のルーン       | Damage to enemy by Ice
+ Ice stone    |            | Ice rune         | and Ice resistance up
+-----------------------------------------------------------------------------
+ 地石         | TO+EM      | 地のルーン       | Damage to enemy by earth
+ Earth stone  |            | Earth rune       | and earth resistance up
+-----------------------------------------------------------------------------
+ 聖石         | AS+EM      | 聖のルーン       | Damage to enemy by holy and
+ Holy stone   |            | Holy rune        | holy resistance up
+-----------------------------------------------------------------------------
+ 心石         | None       | 心のルーン       | Damage to enemy by spirit
+ Spirit stone |            | Spirit rune      | element & resistance up
+-----------------------------------------------------------------------------
+ 封炎         | None       | 炎属性無効化     | All damage received from and
+ Seal flame   |            | Flame immunity   | all fire magic usage are
+              |            |                  | blocked
+-----------------------------------------------------------------------------
+ 封風         | None       | 風属性無効化     | All damage received from and
+ Seal flame   |            | Flame immunity   | all fire magic usage are
+              |            |                  | blocked
+-----------------------------------------------------------------------------
+ 封雷         | None       | 雷属性無効化     | All damage received from and
+ Seal wind    |            | Wind immunity    | all wind magic usage are
+              |            |                  | blocked
+-----------------------------------------------------------------------------
+ 封氷         | None       | 氷属性無効化     | All damage received from and
+ Seal Ice     |            | Ice immunity     | all ice magic usage are
+              |            |                  | blocked
+-----------------------------------------------------------------------------
+ 封地         | None       | 地属性無効化     | All damage received from and
+ Seal earth   |            | Earth immunity   | all earth magic usage are
+              |            |                  | blocked
+-----------------------------------------------------------------------------
+ 封聖         | None       | 聖属性無効化     | All damage received from and
+ Seal holy    |            | Holy immunity    | all holy magic usage are
+              |            |                  | blocked
+-----------------------------------------------------------------------------
+ 封心         | None       | 精属性無効化     | All damage received from and
+ Seal spirit  |            | Spirit immunity  | all spirit based magic usage
+              |            |                  | are blocked
+-----------------------------------------------------------------------------
+ 迎撃         | None       | インターセプター | After learning Counter, 10%
+ Assault      |            | Interceptor      | chance to executing it
+              |            |                  | automatically
+-----------------------------------------------------------------------------
+ 空刃         | SP+RB      | ソニックブレード | Direct attack range + 15%
+ Vacuum blade |            | Sonic blade      |
+-----------------------------------------------------------------------------
+ 傷拒         | (SP+TO)    | イージスの盾     | Limit the highest damage
+ Anti-hurt    |            | Iegis shield     | received from each attack
+              |            |                  | to 40% of max HP
+-----------------------------------------------------------------------------
+ 頑健         | (TO+TR)    | 気絶耐性向上     | Increase resistance to
+ Vigor        |            | Faint resistance | faint status
+              |            | up               |
+-----------------------------------------------------------------------------
+ 幸運         | None       | ラックアップ     | Increase chance of getting
+ Fortune      |            | Luck UP          | a better item
+*****************************************************************************
+ SLOT 2 GEM BONUS
+*****************************************************************************
+ 透徹         | None       | 浸透到.改        | Increase dmg to screepers
+ Penetrating  |            | Penetration      |
+              |            | -advanced-       |
+-----------------------------------------------------------------------------
+ 防御         | TO+TO      | DEF向上          | DEF+5
+ Defense      |            | DEF up           |
+-----------------------------------------------------------------------------
+ 早業         | None       | ATW向上          | ATW -4
+ Quick        |            | ATW up           |
+-----------------------------------------------------------------------------
+ 心刃         | None       | 理力の刃         | Use 1 MP to deal 30% more
+ Mind blade   |            | Mind blade       | damage. Lack of MP: -30%
+-----------------------------------------------------------------------------
+ 心鎧         | None       | 理力の鎧         | Use 1 MP to reduce 30% of
+ Mind armor   |            | Mind armor       | received dmg. Lack of MP:+30%
+-----------------------------------------------------------------------------
+ 超刃         | None       | 武器威力アップ.改| Weapon dmg+20%
+ Ultra blade  |            | Weapon ability UP|
+              |            | -advanced-       |
+-----------------------------------------------------------------------------
+ 攻撃         | TO+RB      | ATK向上          | ATK+5
+ Attack       |            |                  |
+-----------------------------------------------------------------------------
+ 苦行         | TR+RB      | 苦行者の悟り     | 1.5 times the normal dmg
+ Penance      |            | Austere way      | but 50% of the total dmg back
+              |            |                  | to self
+-----------------------------------------------------------------------------
+ 砕く         | RB+SP      | 付与魔術破壊     | Weapon dmg+50%
+ Smash        |            | Annihilation     |
+              |            | magic            |
+-----------------------------------------------------------------------------
+ 寡兵         | RB+TR      | 寡兵の技         | Def increase when no. of
+ Minor force  |            | Minority         | enemies > no. of allies
+              |            | technique        |
+-----------------------------------------------------------------------------
+ 血染         | TR+AM      | 血染めの刃       | 15% of total dmg dealt to
+ Blood stain  |            | Blood stained    | enemy recover back to self
+              |            | blade            |
+-----------------------------------------------------------------------------
+ 魔王         | None       | 魔王の呪い       | Able to deal petrify,
+ Demon lord   |            | Demon's curse    | paralysis, venom and poison
+              |            |                  | to enemies
+-----------------------------------------------------------------------------
+ 吸鬼         | None       | バンパイア       | 10% of magic/weapon dmg to
+ Vampire      |            | Vampire          | enemy recover back to self
+-----------------------------------------------------------------------------
+ マヒ         | EM+EM      | マヒ攻撃         | Chance of dealing paralysis
+ Paralysis    |            | Paralysis attack | to an enemy
+-----------------------------------------------------------------------------
+ 暗殺         | RB+TP      | 暗殺技術         | Possibility of executing the
+ Assassinate  |            | Assassination    | sudden death attack
+-----------------------------------------------------------------------------
+ 石化         | None       | 石化攻撃         | Possibility of dealing
+ Petrify      |            | Petrify attack   | petrification to enemy
+-----------------------------------------------------------------------------
+ 賢殺         | None       | メイジスロター   | Deals more damage to enemies
+ Int killer   |            | Mage slaughter   | with high INT but lesser
+              |            |                  | to enemies with low INT
+----------------------------------------------------------------------------
+ 鎧穿         | None       | メタルキラー     | Deals more damage to enemies
+ Armor        |            | Metal killer     | with high DEF but lesser to
+ piercing     |            |                  | enemies with low DEF
+*****************************************************************************
+ SLOT 3 GEM BONUS
+*****************************************************************************
+ 体力         | None       | HP向上           | HP+20
+ Stamina      |            | HP up            |
+-----------------------------------------------------------------------------
+ 癒師         | None       | 治癒師の知恵     | Recovery effect +25%
+ Physician    |            | Physician wisdom |
+-----------------------------------------------------------------------------
+ 隠密         | AS+TO      | 隠密             | Enemy field reaction range
+ Avoidance    |            | Avoidance        | -40%
+-----------------------------------------------------------------------------
+ 滅殺         | None       | 滅殺の一撃       | 20% critical rate
+ Annihilation |            | Annihilating     |
+              |            | blow             |
+-----------------------------------------------------------------------------
+ 必殺         | RB+RB      | 必殺の一撃       | 12% critical rate
+ Killer       |            | Killer blow      |
+-----------------------------------------------------------------------------
+ 回生         | TO+SP      | 被害硬直短縮     | Rigidity time period after
+ Resurrection |            | Shorten damage   | being attacked by an enemy
+              |            | rigidity time    | is decreased by 20%
+-----------------------------------------------------------------------------
+ 早足         | None       | MOV向上          | MOV+5
+ Fast steps   |            | MOV up           |
+-----------------------------------------------------------------------------
+ 連続         | None       | 全硬直短縮       | All rigidity time period
+ Continuity   |            | Shorten all      | -20%
+              |            | rigidity time    |
+-----------------------------------------------------------------------------
+ ス増         | None       | スキル効果増強   | Skills: chance of occurring
+ Skill growth |            | Skill effect up  | +50%, effect+20%
+-----------------------------------------------------------------------------
+ 返し刃       | TR+TO      | 返し刃           | 10% dmg received return back
+ Counter blade|            | Counter blade    | to enemy
+-----------------------------------------------------------------------------
+ 活歌         | None       | 活力の歌         | Every fixed time period:
+ Vitality song|            | Vitality song    | within 3m range, allies'
+              |            |                  | rigidity time down
+-----------------------------------------------------------------------------
+ 覚歌         | None       | 目覚めの歌       | Every fixed time period:
+ Sober song   |            | Sober song       | within 3m range, allies are
+              |            |                  | more resistant against the
+              |            |                  | faint status
+-----------------------------------------------------------------------------
+ 喜歌         | None       | 喜びの歌         | Every fixed time period:
+ Joyful song  |            | Joyful song      | within 3m range, allies
+              |            |                  | recover HP
+-----------------------------------------------------------------------------
+ 魂砕         | None       | 魂粉砕           | 30% of HP dmg taken off from
+ Soul break   |            | Soul breaker     | MP as well
+-----------------------------------------------------------------------------
+ 空蝉         | TR+SP      | 空蝉の術         | 50% chance of executing the
+ Hollow       |            | Hollow technique | Shadow mist skill
+-----------------------------------------------------------------------------
+ 活性         | None       | 再生能力.改      | 7HP recovery every fixed
+ Activity     |            | Regeneration     | time period
+              |            | -advanced-       |
+-----------------------------------------------------------------------------
+ 鈍痛         | EM+SP      | 鈍痛の護符       | Every fixed time period:
+ Blunt hurt   |            | Blunt hurt charm | chance of recovering from
+              |            |                  | bad status but suffer a
+              |            |                  | certain amount of hurt
+-----------------------------------------------------------------------------
+ 薬師         | AM+AM      | 薬師の知恵       | HP recovery goods effect+25%
+ Chemist      |            | Chemist's        |
+              |            | wisdom           |
+-----------------------------------------------------------------------------
+ 昏倒         | RB+AS      | 昏倒             | During critical attacks,
+ Faint        |            | Faint            | opponent's MP-25% + damage to
+              |            |                  | Hp increase as well
+*****************************************************************************
+ SLOT 4 GEM BONUS
+*****************************************************************************
+ 魔力         | AM+AS      | 魔力アップ       | Increase effect of attack
+ Magic        |            | Magic strength   | and healing based magic
+ strength     |            | UP               |
+-----------------------------------------------------------------------------
+ 瞑想         | None       | 瞑想             | 1 MP recover every fixed
+ Contemplation|            | Contemplation    | time period
+-----------------------------------------------------------------------------
+ 魔典         | None       | 魔導奥義         | Able to use Meteor, Sonic
+ Magic        |            | Spells manual    | wave, Earthquake and Thunder
+ Encyclopedia |            |                  | storm
+-----------------------------------------------------------------------------
+ 魔弾         | AS+SP      | 魔法射程アップ   | Spell range+20%
+ Magic shot   |            | Magic range UP   |
+-----------------------------------------------------------------------------
+ 気力         | None       | MP向上           | MP+15
+ Willpower    |            | MP up            |
+-----------------------------------------------------------------------------
+ 魔壁         | SP+AS      | 魔力障壁         | Magic damage -15%
+ Spell barrier|            | Spell barrier    |
+-----------------------------------------------------------------------------
+ 魔柱         | None       | 魔力アップ.改    | Greatly increase the effect
+ Magic pillar |            | Magic strength UP| of attack and healing based
+              |            | -advanced-       | magic
+-----------------------------------------------------------------------------
+ 吸血         | TR+AS      | 吸血魔法         | 15% of magic damage dealt to
+ Blood sucking|            | Blood sucking    | enemy recover back to self
+              |            | magic            |
+-----------------------------------------------------------------------------
+ 死拒         | SP+TR      | 精神燃焼         | Uses MP(if MP is not 0) to
+ Anti-death   |            | Burning spirit   | absorb the damage when on
+              |            |                  | the verge of dying
+-----------------------------------------------------------------------------
+ 癒技         | None       | 癒しの秘技       | Able to use Cure, Healing
+ Restorative  |            | Restorative      | and Fine
+ skills       |            | techniques       |
+-----------------------------------------------------------------------------
+ 魔技         | None       | 魔道の秘技       | Able to use Blizzard, Blast,
+ Magic spells |            | Magic skills     | Thunderbolt, Holy cross and
+              |            |                  | MP drain
+*****************************************************************************
+
+
+                                                                       [ABL1]
+
+ MAGIC LISTING
+*****************************************************************************
+ SPELL NAME         | Explanation
+*****************************************************************************
+ ファイアーアロー   | Spell strength: 9. Fire based spell against individual
+ Fire arrow         | unit
+-----------------------------------------------------------------------------
+ アイス バレット    | Spell strength: 9. Ice based spell against individual
+ Ice barette        | unit
+-----------------------------------------------------------------------------
+ サンドショット     | Spell strength: 9. Earth based spell against individual
+ Sand shot          | unit(don't use on flying units)
+-----------------------------------------------------------------------------
+ ウィンド エッジ    | Spell strength: 10, Wind based spell against
+ Wind edge          | individual unit
+-----------------------------------------------------------------------------
+ ブラスト           | Spell strength: 15, Physical based spell against
+ Blast              | individual unit(very small area)
+-----------------------------------------------------------------------------
+ MPドレイン         | Area magic that absorbs MP. May not work
+-----------------------------------------------------------------------------
+ サンダーボルト     | Spell strength: 13. Thunder based spell against
+ Thunder bolt       | enemies in a designated line
+-----------------------------------------------------------------------------
+ ブリザード         | Spell strength: 8. Ice based spell against enemies
+ Blizzard           | in a designated area
+-----------------------------------------------------------------------------
+ フレア             | Spell strength: 9. Fire based spell against enemies
+ Flare              | in a designated area
+ ----------------------------------------------------------------------------
+ ホーリークロス     | Spell strength: 10. Holy based spell against enemies
+ Holy cross         | in a designated cross(+) area
+-----------------------------------------------------------------------------
+ ソニックウェイブ   | Spell strength: 18. Wind based spell against enemies
+ Sonic wave         | within a fixed area
+-----------------------------------------------------------------------------
+ メテオ             | Spell strength: 18. Physical based spell against
+ Meteor             | enemies in a designated area
+-----------------------------------------------------------------------------
+ サンダーストーム   | Spell strength: 16. Thunder based spell against
+ Thunder storm      | enemies in a fixed area
+-----------------------------------------------------------------------------
+ アースクエイク     | Spell strength: 11. Earth based spell against enemies
+ Earthquake         | on the entire screen
+-----------------------------------------------------------------------------
+ スリープ           | Area magic that causes sleep to enemies. May not work
+ Sleep              | (but from my experience, high chances)
+-----------------------------------------------------------------------------
+ サイレンス         | Area magic that causes enemies to be unable to chant
+ Silence            | magic. May not work
+-----------------------------------------------------------------------------
+ バインド           | Area magic that causes enemies to be unable to move.
+ Bind               | May not work
+-----------------------------------------------------------------------------
+ ルスト             | Area magic that causes enemies' weapon offense
+ Rust               | ability to go down. May not work
+-----------------------------------------------------------------------------
+ ウィーケン         | Area magic that causes enemies' defense against
+ Weaken             | weapon attacks to drop. May not work
+-----------------------------------------------------------------------------
+ フィア             | Area magic that causes enemies' defense against
+ Fear               | magic/spells to drop. May not work.
+-----------------------------------------------------------------------------
+ サイクル ダウン    | Magic on an individual unit: increase rigidity
+ Cycle down         | reduction time
+-----------------------------------------------------------------------------
+ アタック           | Area magic that increases allies' weapon offense
+ Attack             | ability
+-----------------------------------------------------------------------------
+ プロテクト         | Area magic that increases allies' defense against
+ Protect            | weapon attacks
+-----------------------------------------------------------------------------
+ レジスト           | Area magic that increases allies' defense against
+ Resist             | magic/spells
+-----------------------------------------------------------------------------
+ サイクルアップ     | Magic on an individual unit to increase speed of
+ Cycle up           | rigidity time reduction
+-----------------------------------------------------------------------------
+ キュア Cure        | Magic on an individual unit to recover slight HP
+-----------------------------------------------------------------------------
+ ヒーリング Healing | Magic on an individual unit to recover greater HP
+-----------------------------------------------------------------------------
+ ファイン Fine      | Magic on individual unit to remove all bad status
+                    | except fallen
+-----------------------------------------------------------------------------
+ レイズ Raise       | Raise a fallen unit(playable character)
+-----------------------------------------------------------------------------
+ グローキュア       | Area magic to heal allies' HP(slight)
+ Grow-cure          |
+-----------------------------------------------------------------------------
+ グローヒーリング   | Area magic to heal allies' HP(a lot)
+ Grow-healing       |
+-----------------------------------------------------------------------------
+ グローファイン     | Area magic to remove all bad status(apart from fallen)
+ Grow-fine          |
+-----------------------------------------------------------------------------
+ リターン Return    | Use to get out of dungeons
+*****************************************************************************
+ 
+
+ SKILL LISTING
+*****************************************************************************
+ SKILL NAME         | EXPLANATION
+*****************************************************************************
+ HPアップ HP UP    | Increase a character's max HP
+-----------------------------------------------------------------------------
+ MPアップ MP UP    | Increase a character's max MP
+-----------------------------------------------------------------------------
+ MOVアップ MOV UP  | Increase the MOV stat
+-----------------------------------------------------------------------------
+ 回復力アップ      | Increase effect of recovery received
+ Recovery UP       |
+-----------------------------------------------------------------------------
+ 命中ップ          | Increase accuracy
+ Accuracy UP       |
+-----------------------------------------------------------------------------
+ 特技消費免除      | There is a possibility whereby the technique count
+ Exemption of      | is not reduced after using executing a technique, i.e:
+ technique usage   | Critical strike(強打撃) count: 5, execute once and the
+                   | count may still remain at 5. Good to have, especially
+                   | when you've got Inferno
+-----------------------------------------------------------------------------
+ クリティカル      | Increase critical chances
+ Critical          |
+-----------------------------------------------------------------------------
+ MP回復 MP recovery| Recover MP every fixed time period
+-----------------------------------------------------------------------------
+ リジェネレート    | Recover HP every fixed time period
+ Regenerate        |
+-----------------------------------------------------------------------------
+ 防御技アップ      | While guarding: rigidity time period after being
+ Defense skill UP  | attacked is reduced, evasion rate is increased, damage
+                   | received is also reduced(more than normal)
+-----------------------------------------------------------------------------
+ 詠唱短縮          | Reduce chant time
+ Shorten chant time|
+-----------------------------------------------------------------------------
+ 肉体防御アップ    | Increase defense against weapon attacks = lesser
+ Physical defense  | dmg
+ UP                |
+-----------------------------------------------------------------------------
+ 状態異常防御      | Increase chances of preventing bad status effects:
+ Prevention of     | level 1: poison, level 2: venom, level 3: bind(movement
+ status            | stall), level 4: silence, level 5: sleep, level 6: faint
+ abnormalities     | level 7: paralysis, level 8: petrify/stone, level 9:
+                   | sudden death
+-----------------------------------------------------------------------------
+ MP吸収 MP absorb  | Absorb MP via attacking an enemy
+-----------------------------------------------------------------------------
+ HP吸収 HP absorb  | Absorb HP via attacking an enemy
+-----------------------------------------------------------------------------
+ 精霊の助力        | Increase chance of dealing a critical damage via magic
+ Spirit boost      |
+-----------------------------------------------------------------------------
+ 棘のオーラ        | Enemies around the character will have a small amount of
+ Piercing aura     | HP taken off every fixed time period(few seconds)
+-----------------------------------------------------------------------------
+ 魔法射程アップ    | Increase spell range
+ Magic range UP    |
+-----------------------------------------------------------------------------
+ 消費MP減少        | Reduce MP usage
+-----------------------------------------------------------------------------
+ 攻撃硬直短縮      | Reduces ATW
+ Shorten attack    |
+ rigidity time     |
+-----------------------------------------------------------------------------
+ ダメージ硬直減少  | Reduce damage rigidity time
+ Shorten damage    |
+ rigidity time     |
+-----------------------------------------------------------------------------
+ 道具硬直短縮      | Shorten the rigidity time after using an item/equipment
+ Shorten item      |
+ rigidity time     |
+-----------------------------------------------------------------------------
+ 影霞み            | Increase chance of avoiding an attack
+ Shadow mist       |
+-----------------------------------------------------------------------------
+ 魔法防御アップ    | Increase magic defense
+ Magic defense UP  |
+-----------------------------------------------------------------------------
+ 間接射程アップ    | Increase range of indirect attacks
+ Indirect range UP |
+-----------------------------------------------------------------------------
+
+
+ TECHNIQUE LISTING
+*****************************************************************************
+ TECHNIQUE NAME    | EXPLANATION
+*****************************************************************************
+ 強奪 Plunder      | Steal an item(along with an attack)
+-----------------------------------------------------------------------------
+ 魔法強化          | Magic effect+50% but requires 2 times the original MP
+ Strengthen magic  | usage
+-----------------------------------------------------------------------------
+ 乱れ撃つ          | Attack enemies randomly(for characters such as Rukias
+ Wild shoot        | and Iristelessa, indirect only)
+-----------------------------------------------------------------------------
+ 強打撃            | Deal a critical blow to an enemy unit
+ Critical strike   |
+-----------------------------------------------------------------------------
+ 貫通攻撃          | Deal damage to enemies in a designated line
+ Piercing attack   |
+-----------------------------------------------------------------------------
+ 全周囲攻撃        | Deal damage to enemies in surrounding area
+ All-round attack  |
+-----------------------------------------------------------------------------
+ 能力解析 Analyze  | Analyze an enemy's stats by instinct and experience
+-----------------------------------------------------------------------------
+ しのび歩き        | Reduces the field encounter range
+ Silent steps      |
+-----------------------------------------------------------------------------
+ 足留め            | Deal an increase to enemy's rigidity time period
+ Movement delay    |
+-----------------------------------------------------------------------------
+ 詠唱妨害          | Use it on enemies to have a chance at interrupting
+ Chant disruption  | (cancel) their chanting
+-----------------------------------------------------------------------------
+ バーサーク        | Increase the damage to an enemy but character will
+ Berserk           | become uncontrollable
+-----------------------------------------------------------------------------
+ 魔法耐性アップ    | Increase magic resistance(all rank +1)
+ Magic resistance  |
+ UP                |
+-----------------------------------------------------------------------------
+ ソウルブレイク    | Damage to MP as well and absorb 50% of that dmg done
+ Soul break        |
+-----------------------------------------------------------------------------
+ 即死攻撃          | Deal an attack to an enemy with possibility of killing
+ Sudden death      | him/her/it in 1 blow
+ attack            |
+-----------------------------------------------------------------------------
+ 死の呪詛          | If successful, the enemy will die after the time bar is
+ Death curse       | gone...imo it's actually better to just escape instead
+                   | of using this
+-----------------------------------------------------------------------------
+ 見切る            | Reduce MOV to 1/2 but greatly increases evasion
+ Sharp eye         |
+-----------------------------------------------------------------------------
+ カウンター        | Chances of countering(to enemies within range)
+ Counter           |
+-----------------------------------------------------------------------------
+ 精神集中          | Chance of preventing chant disruption technique used
+ Concentration     | by enemies
+-----------------------------------------------------------------------------
+ マインド シェル   | Chances of blocking enemy's magic/spell
+ Mind shell        |
+-----------------------------------------------------------------------------
+ 時限爆弾          | Create a time bomb which will hurt allies(within range)
+ Time bomb         | as well
+-----------------------------------------------------------------------------
+ インフェルノ      | Uses all MP to deal damage to enemies in the surrounding
+ Inferno           | area(bigger range than all-round attack). Higher the
+                   | max HP, the better the effect. Use this along with MP
+                   | absorb and technique usage exemption to get the best
+                   | results in tough battles
+*****************************************************************************
+
+
+*****************************************************************************
+|COMBINING GEMS AND SKILLS PLATES SYSTEM                              [CGL1]|
+*****************************************************************************
+
+NOTE: I transferred this small section from my walkthrough faq over to here
+because it falls under the same category of gems and skill plates, plus
+the Japanese characters added in are(hopefully) going to make the
+explanations less confusing.
+
+I realize that there will always be questions asking how such things work, 
+even after reading the software manual, so I'll do some explanations here.
+
+--->Gems
+
+Equipping gems will increase various stats or give you certain bonuses such
+as increased chances of critical hits, reduced magic/physical dmg incurred and
+so on. You'll have to look at the descriptions at the bottom of the screen
+(press Square button to select the bonus) to know what they do. Bonuses with
+a number beside them represent bonuses that can be accumulated(in other
+words, increase their levels), highest level in most cases being 9. To
+increase the levels, you'll need to have other gems with the same bonuses.
+I'll give an easy example below:
+
+(1)a gem with Attack3(攻撃3) in slot 2 and Stamina2(体力2) in slot 3
+
+Attack(攻撃) and Stamina(体力) are what I mention as bonuses above. Here,
+this gem has a level 3 Attack and level 2 Stamina bonus. 
+
+(2)a gem with Barrier1(阻壁1) in slot 1 and Attack1(攻撃1) in slot 2
+
+(3)a gem with Defense1(防御1) in slot 1, Attack1(攻撃1) in slot 2 and
+Magic strength1(魔力1) in slot 4
+
+To increase the effect of Attack, we will combine (1) and (2), after impact
+occurs(during battles or using the impact drug) on the gem combination board,
+we will have:
+
+(4) a gem with slot 1:Barrier1(阻壁1), slot 2:Attack 4(攻撃4) and slot 3:
+Stamina2(体力2)
+
+To further add on to the bonuses, we will combine (4) with (3), however, the
+slots 1 for both gems are occupied and yet with different bonuses(barrier and
+protect, you can only combine similar ones) and so we cannot combine the gem
+normally as each gem can only have 1 bonus type in each slot, therefore if we
+forcefully combine the 2 gems, we will get a gem with EITHER barrier1 OR
+defense1 in slot 1, Attack 5 in slot2, stamina2 in slot 3 and magic strength1
+in slot 4 and whichever slot 1 bonus that is not brought over is gone for
+good.
+
+To avoid that, we can first divide gem 3(by using the gem dividing drug) to
+remove the Protect1 bonus and we will obtain:
+
+(5)gem with Defense1(防御1) in slot 1
+
+AND
+
+(6)another gem with Attack1(攻撃1) in slot 2 and magic strength1(魔力1) in
+slot 4
+
+With this, we can combine (6) and (4) and use (5) to combine with another gem
+that has the Defense bonus. We can repeat this process until we get a final
+gem with Attack9 and continue to do the same for the other bonuses.
+
+Every gem has 4 slots. However, take note that the Attack bonus will always
+take up the 2nd slot in any gems and the Stamina bonus always in the 3rd slot
+and so on, meaning positions are fixed(Refer to my gem bonus list in this
+guide). The idea is to divide and combine gems with 4 desired bonuses that
+you want your characters to have. Each character can equip 2 gems. Bonuses
+with no accompanying numbers cannot be accumulated. Try various combinations
+and keep experimenting. You can't get something wrong till there's no going
+back, so long as you have enough impact(インパクト薬) and gem dividing drug
+(ジェム分解薬) with you.
+
+One thing to take note is that you must place your gems in the correct
+columns (additional gem or main gem), no matter what bonus level of the
+additional gem is, it will only add on ONE(1) level to the main gem bonus, 
+e.g: putting Attack6 gem in the additional gem column and Attack2 in the main
+gem column, the level of the bonus after combination will become
+Attack3(1 level from additional + 2 levels in main), but if you place it the
+other way round, the result will be Attack7(1 level from additional + 6 levels
+in main).
+
+For jewels such as emerald, ruby and so on. You can combine them together or
+combine with a gem to get various items(e.g: gale apple) and various gem
+effects(e.g: increasing the level of a gem bonus). You have to try this out
+for yourself because there are plenty of obtainable combinations and they are
+really random.
+
+
+--->Skill plate system
+
+The skill plate system is similar to the one in Growlanser V, perhaps only
+more balanced and easier to manipulate for those who can't understand the
+logic behind it, since this time round there are 2 flow paths instead of 1.
+
+Press the Square button bring up the ability tree and you can attach plates to
+the empty blocks to learn techniques, abilities and magic. The flow positions
+will change depending on what weapon and armor you are equipping(if the flow
+path color of your weapon and armor is the same, they will get combined in 1).
+I'm never an expert in laying out the plates in the most efficient way and
+never bothered to do so nor read the tutorial and so on, but I seriously don't
+understand how can anyone make the wrong moves with this system unless they
+completely don't understand how the thing work at all.
+
+Therefore I will give a suggestion and that is: to always check out your
+existing learning progress of the attached skill plates BEFORE equipping new
+available weapon+armor BEFORE attaching new plates. Remember and do these 3
+steps, and you'll have no more problems...and hopefully no complaints as well.
+
+You can only get ONE(1) plate of each magic/technique/ability from your
+weapon/armor. Example: you can only get 1 Fire Arrow plate, and once obtained,
+you won't get another(even by using any manuals/scrolls), it is fixed, so feel
+free to replace your equipment with something else once you have gotten 1 of
+each skill an equipped weapon/armor gave.
+
+When a plate has reached Level 5(the highest level for 1 plate), it will
+remain and never drop(of course unless you remove the plate from the tree).
+The bonus here is via the flow paths, if there is 1 flow path flowing through
+a maximum Level 5 plate. 1 level is being added.
+
+E.g: Both flow paths are flowing through a LV 5 Fire Arrow plate, the level
+will become 5 + 2(2 flow paths) = 7
+
+In other words, by right it is impossible to reach the maximum skill level 9.
+In this case here, you will have to get the special item [Limit Removal]
+(限定解除) and using it will do just what the name says: remove the 1 plate
+limit and give you a 2nd plate for the particular one you chose to
+replicate. The item itself is pretty rare in the main game, but you can get
+it via participating in the Coliseum. And please don't come telling me how
+it's ridiculous that you can only obtain the item in the later parts of the
+game because...this IS an RPG and and do you expect them to give you your
+1st/highest level items at the early parts of the game? Well, that aside
+though, I can assure you that beating the main game without using any limit
+removals is more than possible.
+
+Due to all the above, this system only requires you to use a lil bit of your
+brain to place the plates because whether you have a flow path through the
+completed level 5 plates or not, you will still need a 2nd plate to reach the
+maximum. Of course, by all means set it up however you want it to be using
+the items available which can change and divide flow paths.
+
+
+*****************************************************************************
+| Q&A                                                                 [QAA1]|
+*****************************************************************************
+
+Q: I get weird symbols all over this guide.
+A: You will need to change your browser encoding to Shift-JIS.
+
+Q: What does the various enchant gems do?
+
+A: You combine them together to get gems(if you notice, some gems have
+two colored circles showing something like: O+O), when combining with
+common gems, you get random effects(which are listed in the description for
+each type of enchant gem).
+
+Q: What does the characteristic of the enchant gems have to do with the
+combination effects?
+A: If you look over the common gem list, you will realize that slot 1 has
+more physical strengthening abilities while slot 4 has more of magic/spell
+related abilities. Though you can combine any type of enchant gem with most
+types of common gems, if you are aiming to strengthen/level up a 3rd slot
+bonus, you should combine with Turquoise to increase your chances. Same
+thing goes for the rest.
+
+Q: Where can I obtain enchant gems?
+A: The Coliseum tug battle Sheriltia match gives 1 of each enchant gem.
+Enemies drop them as well. Sometimes random enchant+common gem combinations
+will create another enchant gem but that is no doubt pointless. The randomly
+generated treasure chests in the optional dungeon will also give you some but
+don't count on that unless you have a lot of free time to meddle around in
+the dungeon.
+
+Q: What does the crap Ivaldi etc do!?
+A: I don't know. Okay okay, I spent 15 minutes testing them out and
+discovered that Ivaldi allows my character to deal a higher attack to the
+enemy. Ord-leril a higher magic damage and the Silver emblem increase mgc
+defense for all elements(this one is obvious). All those I already wrote
+under the description in my list. Apparently it's not just that though. After
+doing much searching, I finally found a place which explains the effects of
+the 3 abilities:
+
+***IMPORTANT NOTE: All words within the [[ ]] brackets below are my
+translation of the information I found on 35.atwiki.jp and NO part of it
+is mine. ALL credit should be given to the poster of the info***
+
+[[ -START-
+
+   Ivaldi: Critical rate+30%, Rigidity time to enemy+10%, enemy's resistance
+   to faint-1, 10% of weapon dmg dealt to enemy recover back to self
+
+   Ord-leril: Magic strength+30, Magic range+20%, 10% of magic dmg dealt to
+   enemy recover back to self
+
+   Silver emblem: All mgc resistance+1, faint guard+1, 75% chance of all
+   bad status(apart from fallen) void, weapon+magic dmg received-30%
+                                                                     -END- ]]
+
+I won't be testing it out(since most of the effects are "invisible") unless
+specifically requested but hopefully this little note will help clear some
+doubts.
+
+Q: I spot some errors.
+A: Since I'm writing all info on paper and using them as the basis while
+typing this faq, there are cases where my eyes(and my handwriting) may fail
+me. Therefore, please do inform me via email so I can make the necessary
+corrections.
+
+=============================================================================
+
+-Credits-
+
+Gamefaqs for posting this guide.
+
+Team Career(Atlus JP) for the Growlanser series.
+

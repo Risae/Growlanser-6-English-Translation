@@ -1,0 +1,597 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $4280, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $41A0, 4, PTR)
+
+#JMP($4280)
+#HDR($4280)
+
+
+
+
+
+//POINTER #0 @ $41A0 - STRING #0 @ $4280
+#W32($41A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $41A4 - STRING #1 @ $4283
+#W32($41A4)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $41A8 - STRING #2 @ $4290
+#W32($41A8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $41AC - STRING #3 @ $42B5
+#W32($41AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $41B0 - STRING #4 @ $42DA
+#W32($41B0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $41B4 - STRING #5 @ $42EF
+#W32($41B4)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $41B8 - STRING #6 @ $4314
+#W32($41B8)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $41BC - STRING #7 @ $4339
+#W32($41BC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $41C0 - STRING #8 @ $436E
+#W32($41C0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $41C4 - STRING #9 @ $43A3
+#W32($41C4)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $41C8 - STRING #10 @ $43C8
+#W32($41C8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $41CC - STRING #11 @ $43ED
+#W32($41CC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $41D0 - STRING #12 @ $4412
+#W32($41D0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $41D4 - STRING #13 @ $4427
+#W32($41D4)
+//下におりますか？[END-FE]
+Climb down?[END-FE]
+
+
+
+
+
+//POINTER #14 @ $41D8 - STRING #14 @ $443A
+#W32($41D8)
+//下におりますか？[END-FE]
+Climb down?[END-FE]
+
+
+
+
+
+//POINTER #15 @ $41DC - STRING #15 @ $444D
+#W32($41DC)
+//上に登りますか？[END-FE]
+Climb up?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $41E0 - STRING #16 @ $4460
+#W32($41E0)
+//上に登りますか？[END-FE]
+Climb up?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $41E4 - STRING #17 @ $4473
+#W32($41E4)
+//下におりますか？[END-FE]
+Climb down?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $41E8 - STRING #18 @ $4486
+#W32($41E8)
+//下におりますか？[END-FE]
+Climb down?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $41EC - STRING #19 @ $4499
+#W32($41EC)
+//ジュワイナ村北坑道内[END-FE]
+Inside Tunnel (North of Juwaina Village)[END-FE]
+
+
+
+
+
+//POINTER #20 @ $41F0 - STRING #20 @ $44B0
+#W32($41F0)
+//[CHAR2603][V4201]
+//では、坑道から出よう！[END-FE]
+[CHAR2603][V4201]
+Well then, let's get out of the mine![END-FE]
+
+
+
+
+
+//POINTER #21 @ $41F4 - STRING #21 @ $44D1
+#W32($41F4)
+//上に登りますか？[END-FE]
+Climb up?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $41F8 - STRING #22 @ $44E4
+#W32($41F8)
+//上に登りますか？[END-FE]
+Climb up?[END-FE]
+
+
+
+
+
+//POINTER #23 @ $41FC - STRING #23 @ $44F7
+#W32($41FC)
+//周囲の邪悪な波動を感じているようで、[NLINE]
+//動作していない…。[END-FE]
+It's not working. You seem to[NLINE]
+feel an evil vibration around[NLINE]
+you...[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4200 - STRING #24 @ $4532
+#W32($4200)
+//ジュワイナ村北坑道内[END-FE]
+Inside Tunnel (North of Juwaina Village)[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4204 - STRING #25 @ $4549
+#W32($4204)
+//戦闘ゼオンをスキップする？[END-FE]
+戦闘ゼオンをスキップする？[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4208 - STRING #26 @ $4566
+#W32($4208)
+//[CHAR2603][VCC00]
+//パリュショナーは攻撃されると[NLINE]
+//有害なガスを吐く習性がある。[NWIN]
+//
+//[CHAR2603][VCD00]
+//坑道内等の閉じた空間だと、[NLINE]
+//毒が充満してしまう。[NWIN]
+//
+//[CHAR2603][VCE00]
+//ポサヤだけを採取して[NLINE]
+//相手にしない方が良いだろう。[END-FE]
+//Randall\\
+[CHAR2603][VCC00]
+Pollutioners have a habit of[NLINE]
+emitting a harmful gas when[NLINE]
+attacked.[NWIN]
+
+[CHAR2603][VCD00]
+This tunnel is a closed off[NLINE]
+airspace, so it could fill up[NLINE]
+with poison.[NWIN]
+
+[CHAR2603][VCE00]
+It would be best to just take the[NLINE]
+Posaya and avoid fighting them.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $420C - STRING #27 @ $4621
+#W32($420C)
+//現在のガスの濃度は画面右のゲージで[NLINE]
+//知ることができます。　　　　　　　[END-FE]
+The current gas density will be[NLINE]
+displayed in a gauge on the right[NLINE]
+side of the screen.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4210 - STRING #28 @ $466A
+#W32($4210)
+//・敵の全滅[NLINE]
+//・ポサヤを採取してランディ脱出[NLINE]
+//　[Merklich]も脱出[END-FE]
+・All enemies are defeated[NLINE]
+・Randall and [Merklich] both escape[NLINE]
+ after taking the Posaya[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4214 - STRING #29 @ $46A5
+#W32($4214)
+//・ランディの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Randall dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4218 - STRING #30 @ $46CC
+#W32($4218)
+//早く君たちも脱出してくれ！[END-FE]
+You hurry and escape as well![END-FE]
+
+
+
+
+
+//POINTER #31 @ $421C - STRING #31 @ $46E9
+#W32($421C)
+//[CHAR2603][VCF00]
+//…これは…、うむ、間違いない！[NLINE]
+//これがポサヤだ！[END-FE]
+//Randall\\
+[CHAR2603][VCF00]
+...This is... Yes, there's[NLINE]
+mistaking it! This is Posaya![END-FE]
+
+
+
+
+
+//POINTER #32 @ $4220 - STRING #32 @ $4724
+#W32($4220)
+//[CHAR2603][V4201]
+//では、坑道から出よう！[END-FE]
+//Randall\\
+[CHAR2603][V4201]
+Well then, let's get out of[NLINE]
+the mine![END-FE]
+
+
+
+
+
+//POINTER #33 @ $4224 - STRING #33 @ $4745
+#W32($4224)
+//[CHAR2603][VD000]
+//パリュショナーの毒が充満する前に[NLINE]
+//この場から離れよう！[END-FE]
+[CHAR2603][VD000]
+Let's get out of here before the[NLINE]
+poison of the Pollutioners fills[NLINE]
+up the tunnel![END-FE]
+
+
+
+
+
+//POINTER #34 @ $4228 - STRING #34 @ $4786
+#W32($4228)
+//…これはポサヤではないな。[END-FE]
+//Randall\\
+...This isn't Posaya.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $422C - STRING #35 @ $47A3
+#W32($422C)
+//では、私はポサヤを探すとしよう。[NLINE]
+//君たちが調べる場所を指示してくれ。[END-FE]
+//Randall\\
+Well then, I'll go search for[NLINE]
+Posaya. Please let me know[NLINE]
+which places you would like[NLINE]
+me to check.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $4230 - STRING #36 @ $47EA
+#W32($4230)
+//私はどの辺りを[NLINE]
+//調べたらいいのかな？[END-FE]
+Where should I look?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $4234 - STRING #37 @ $4811
+#W32($4234)
+//わかった。[NLINE]
+//その辺りを調べてみよう。[END-FE]
+//Randall\\
+Understood. I'll try[NLINE]
+investigating that area.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4238 - STRING #38 @ $4838
+#W32($4238)
+//指示の変更はなくて良いのだな。[END-FE]
+You don't have to change instructions.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $423C - STRING #39 @ $4859
+#W32($423C)
+//調べる場所を指定してくれ。[END-FE]
+Please tell me where I should check.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $4240 - STRING #40 @ $4876
+#W32($4240)
+//調べる場所を変更したかったら[NLINE]
+//声をかけてくれ。[END-FE]
+//Randall\\
+If you would like to change place[NLINE]
+you would like me to search, please[NLINE]
+call me over.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $4244 - STRING #41 @ $48A7
+#W32($4244)
+//す、済まない…。[END-FE]
+M-my apologies...[END-FE]
+
+
+
+
+
+//POINTER #42 @ $4248 - STRING #42 @ $48BA
+#W32($4248)
+//[CHAR2603][V4201]
+//では、坑道から出よう！[END-FE]
+[CHAR2603][V4201]
+Well then, let's get out of the mine![END-FE]
+
+
+
+
+
+//POINTER #43 @ $424C - STRING #43 @ $48DB
+#W32($424C)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $4250 - STRING #44 @ $48F0
+#W32($4250)
+//Ｄ　Ｄ３[END-FE]
+D D3[END-FE]
+
+
+
+
+
+//POINTER #45 @ $4254 - STRING #45 @ $48FB
+#W32($4254)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #46 @ $4258 - STRING #46 @ $4912
+#W32($4258)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #47 @ $425C - STRING #47 @ $4921
+#W32($425C)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #48 @ $4260 - STRING #48 @ $4930
+#W32($4260)
+//・ランディの撃破[NLINE]
+//・パーティーの全滅[END-FE]
+・Randall dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4264 - STRING #49 @ $4957
+#W32($4264)
+//　[NLINE]
+//ランディと合流してからにしよう。[NLINE]
+//　[END-FE]
+[NLINE]
+Let's join with Randy first.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4268 - STRING #50 @ $4982
+#W32($4268)
+//　[NLINE]
+//まだポサヤを採取していない！[NLINE]
+//　[END-FE]
+[NLINE]
+We haven't collected Posaya yet![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #51 @ $426C - STRING #51 @ $49A9
+#W32($426C)
+//　[NLINE]
+//ランディと合流してからにしよう。[NLINE]
+//　[END-FE]
+[NLINE]
+ランディと合流してからにしよう。[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #52 @ $4270 - STRING #52 @ $49D4
+#W32($4270)
+//　[NLINE]
+//まだポサヤを採取していない！[NLINE]
+//　[END-FE]
+[NLINE]
+まだポサヤを採取していない！[NLINE]
+[END-FE]
+
+
+
+

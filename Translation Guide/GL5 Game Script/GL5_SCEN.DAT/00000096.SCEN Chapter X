@@ -1,0 +1,525 @@
+
+
+//POINTER #0 @ $1E20 - STRING #0 @ $1F10
+#W32($1E20)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $1E24 - STRING #1 @ $1F13
+#W32($1E24)
+//ラッシュの父[END-FF]
+
+
+
+
+
+//POINTER #2 @ $1E28 - STRING #2 @ $1F22
+#W32($1E28)
+//・敵の全滅[END-FE]
+
+
+
+
+
+//POINTER #3 @ $1E2C - STRING #3 @ $1F2F
+#W32($1E2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #4 @ $1E30 - STRING #4 @ $1F54
+#W32($1E30)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #5 @ $1E34 - STRING #5 @ $1F79
+#W32($1E34)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #6 @ $1E38 - STRING #6 @ $1F8E
+#W32($1E38)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #7 @ $1E3C - STRING #7 @ $1FC3
+#W32($1E3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #8 @ $1E40 - STRING #8 @ $1FF8
+#W32($1E40)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #9 @ $1E44 - STRING #9 @ $201D
+#W32($1E44)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #10 @ $1E48 - STRING #10 @ $2042
+#W32($1E48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #11 @ $1E4C - STRING #11 @ $2067
+#W32($1E4C)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #12 @ $1E50 - STRING #12 @ $207C
+#W32($1E50)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+
+
+
+
+
+//POINTER #13 @ $1E54 - STRING #13 @ $20A3
+#W32($1E54)
+//ワースリー村[END-FE]
+
+
+
+
+
+//POINTER #14 @ $1E58 - STRING #14 @ $20B2
+#W32($1E58)
+//ここは平和維持軍の作った[NLINE]
+//ワースリー村です！[END-FE]
+
+
+
+
+
+//POINTER #15 @ $1E5C - STRING #15 @ $20E1
+#W32($1E5C)
+//ここから浜に出られますが、[NLINE]
+//スクリーパーが出ることがありますので、[NLINE]
+//注意してください。[END-FE]
+
+
+
+
+
+//POINTER #16 @ $1E60 - STRING #16 @ $213A
+#W32($1E60)
+//ス、スレイヤー！[NLINE]
+//ほ、本物だよ！[END-FE]
+
+
+
+
+
+//POINTER #17 @ $1E64 - STRING #17 @ $215D
+#W32($1E64)
+//　[NLINE]
+//返事はない。[NLINE]
+//扉にはカギがかかっている。[NLINE]
+//　[END-FE]
+
+
+
+
+
+//POINTER #18 @ $1E68 - STRING #18 @ $2190
+#W32($1E68)
+//ここはクライアス様の意志に[NLINE]
+//賛同した者たちが集った村じゃ。[END-FE]
+
+
+
+
+
+//POINTER #19 @ $1E6C - STRING #19 @ $21CD
+#W32($1E6C)
+//おや、グランゲイルの人が来るなんて[NLINE]
+//珍しいこともあるんだなぁ。[END-FE]
+
+
+
+
+
+//POINTER #20 @ $1E70 - STRING #20 @ $220E
+#W32($1E70)
+//これは珍しい人がお見えだねぇ。[NLINE]
+//だがアンタは性格を変える必要はなさそうじゃ。[NLINE]
+//そのまま健やかに生きるといいだろう。[END-FE]
+
+
+
+
+
+//POINTER #21 @ $1E74 - STRING #21 @ $2283
+#W32($1E74)
+//井戸がある。[NLINE]
+//生活に必要な水はここから[NLINE]
+//汲み上げている。[END-FE]
+
+
+
+
+
+//POINTER #22 @ $1E78 - STRING #22 @ $22BE
+#W32($1E78)
+//肥料を入れる おけがある。[NLINE]
+//種類によって色分けされている。[END-FE]
+
+
+
+
+
+//POINTER #23 @ $1E7C - STRING #23 @ $22FA
+#W32($1E7C)
+//いらっしゃいませ。[NLINE]
+//武器防具屋へようこそ。[NWIN]
+//
+//ちょうど皆さんにピッタリの[NLINE]
+//武器防具がご用意できます。[NLINE]
+//ぜひご覧ください。[END-FE]
+
+
+
+
+
+//POINTER #24 @ $1E80 - STRING #24 @ $2373
+#W32($1E80)
+//いらっしゃいませ。[NLINE]
+//武器防具屋へようこそ。[END-FE]
+
+
+
+
+
+//POINTER #25 @ $1E84 - STRING #25 @ $23A0
+#W32($1E84)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+
+
+
+
+
+//POINTER #26 @ $1E88 - STRING #26 @ $23C7
+#W32($1E88)
+//・武器購入[END-FE]
+
+
+
+
+
+//POINTER #27 @ $1E8C - STRING #27 @ $23D4
+#W32($1E8C)
+//・防具購入[END-FE]
+
+
+
+
+
+//POINTER #28 @ $1E90 - STRING #28 @ $23E1
+#W32($1E90)
+//・売却[END-FE]
+
+
+
+
+
+//POINTER #29 @ $1E94 - STRING #29 @ $23EA
+#W32($1E94)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+
+
+
+
+
+//POINTER #30 @ $1E98 - STRING #30 @ $2411
+#W32($1E98)
+//いらっしゃいませ。[NLINE]
+//道具屋へようこそ。[END-FE]
+
+
+
+
+
+//POINTER #31 @ $1E9C - STRING #31 @ $243A
+#W32($1E9C)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+
+
+
+
+
+//POINTER #32 @ $1EA0 - STRING #32 @ $2461
+#W32($1EA0)
+//・アクセサリ購入[END-FE]
+
+
+
+
+
+//POINTER #33 @ $1EA4 - STRING #33 @ $2474
+#W32($1EA4)
+//・グッズ購入[END-FE]
+
+
+
+
+
+//POINTER #34 @ $1EA8 - STRING #34 @ $2483
+#W32($1EA8)
+//・売却[END-FE]
+
+
+
+
+
+//POINTER #35 @ $1EAC - STRING #35 @ $248C
+#W32($1EAC)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+
+
+
+
+
+//POINTER #36 @ $1EB0 - STRING #36 @ $24B3
+#W32($1EB0)
+//『英雄への第一歩は[NLINE]
+//　自分に合った武器と防具を[NLINE]
+//　装備するところから始まる』[NLINE]
+//　と、書かれている。[END-FE]
+
+
+
+
+
+//POINTER #37 @ $1EB4 - STRING #37 @ $2518
+#W32($1EB4)
+//えっ、ウソ！[NLINE]
+//グランゲイルのルーファス様!?[NWIN]
+//
+//直接お話し出来るなんて、[NLINE]
+//光栄です！[END-FE]
+
+
+
+
+
+//POINTER #38 @ $1EB8 - STRING #38 @ $256B
+#W32($1EB8)
+//どうですか？[NLINE]
+//私のグランゲイル式の敬礼？[END-FE]
+
+
+
+
+
+//POINTER #39 @ $1EBC - STRING #39 @ $2596
+#W32($1EBC)
+//お会い出来て、光栄であります！[END-FE]
+
+
+
+
+
+//POINTER #40 @ $1EC0 - STRING #40 @ $25B7
+#W32($1EC0)
+//ところで、ルーファス様の武器は、[NLINE]
+//ウィップですよね？[NWIN]
+//
+//ビフレストというウィップは[NLINE]
+//ご存じですか？[NWIN]
+//
+//ミスリル銀で出来た[NLINE]
+//最強のウィップだそうです。[NWIN]
+//
+//もし、ミスリル銀をお持ちなら、[NLINE]
+//私が職人にかけあって作ってもらいますよ！[END-FE]
+
+
+
+
+
+//POINTER #41 @ $1EC4 - STRING #41 @ $2694
+#W32($1EC4)
+//もし、ミスリル銀をお持ちなら、[NLINE]
+//ビフレストという最強のウィップが作れますよ。[END-FE]
+
+
+
+
+
+//POINTER #42 @ $1EC8 - STRING #42 @ $26E3
+#W32($1EC8)
+//お預かりしたミスリル銀は[NLINE]
+//私が責任を持って職人に届けます。[NWIN]
+//
+//来週いっぱいはかかると思います。[NLINE]
+//それまでお待ち下さい。[END-FE]
+
+
+
+
+
+//POINTER #43 @ $1ECC - STRING #43 @ $275A
+#W32($1ECC)
+//あ、これはっ！[NLINE]
+//ミスリル銀じゃないですか！[NWIN]
+//
+//これがあると、ビフレストという[NLINE]
+//最強のウィップが作れるんです！[END-FE]
+
+
+
+
+
+//POINTER #44 @ $1ED0 - STRING #44 @ $27C7
+#W32($1ED0)
+//では、お預かりします！[NLINE]
+//私が責任を持って職人に届けますね！[NWIN]
+//
+//でも出来上がるのは来週になると思います。[NLINE]
+//それまでお待ち下さい。[END-FE]
+
+
+
+
+
+//POINTER #45 @ $1ED4 - STRING #45 @ $2846
+#W32($1ED4)
+//あ、お客さん！[NLINE]
+//お泊まりでしたら、[NLINE]
+//受付を済ませていただけませんか？[END-FE]
+
+
+
+
+
+//POINTER #46 @ $1ED8 - STRING #46 @ $288D
+#W32($1ED8)
+//記録をとっていくかい？[END-FE]
+
+
+
+
+
+//POINTER #47 @ $1EDC - STRING #47 @ $28A6
+#W32($1EDC)
+//・休憩する[END-FE]
+
+
+
+
+
+//POINTER #48 @ $1EE0 - STRING #48 @ $28B3
+#W32($1EE0)
+//・記録をとる[END-FE]
+
+
+
+
+
+//POINTER #49 @ $1EE4 - STRING #49 @ $28C2
+#W32($1EE4)
+//・Ｄ部屋(隠し)[END-FE]
+
+
+
+
+
+//POINTER #50 @ $1EE8 - STRING #50 @ $28D3
+#W32($1EE8)
+//ワースリー村[END-FE]
+
+
+
+
+
+//POINTER #51 @ $1EEC - STRING #51 @ $28E2
+#W32($1EEC)
+//Ｄ　ルーファス・ワースリー村[END-FE]
+
+
+
+
+
+//POINTER #52 @ $1EF0 - STRING #52 @ $2901
+#W32($1EF0)
+//そうかい。[NLINE]
+//無理はしないようにな。[END-FE]
+
+
+
+
+
+//POINTER #53 @ $1EF4 - STRING #53 @ $2926
+#W32($1EF4)
+//ベッドで休みますか？[END-FE]
+
+
+
+
+
+//POINTER #54 @ $1EF8 - STRING #54 @ $293D
+#W32($1EF8)
+//　[NLINE]
+//花が生けてある。[END-FE]
+
+
+
+
+
+//POINTER #55 @ $1EFC - STRING #55 @ $2954
+#W32($1EFC)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+
+
+
+
+
+//POINTER #56 @ $1F00 - STRING #56 @ $2981
+#W32($1F00)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]

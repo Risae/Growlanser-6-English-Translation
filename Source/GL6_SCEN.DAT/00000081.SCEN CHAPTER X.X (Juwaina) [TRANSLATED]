@@ -1,0 +1,783 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $2C40, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2B20, 4, PTR)
+
+#JMP($2C40)
+#HDR($2C40)
+
+
+
+
+
+//POINTER #0 @ $2B20 - STRING #0 @ $2C40
+#W32($2B20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2B24 - STRING #1 @ $2C43
+#W32($2B24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2B28 - STRING #2 @ $2C50
+#W32($2B28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2B2C - STRING #3 @ $2C75
+#W32($2B2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2B30 - STRING #4 @ $2C9A
+#W32($2B30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2B34 - STRING #5 @ $2CAF
+#W32($2B34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2B38 - STRING #6 @ $2CD4
+#W32($2B38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2B3C - STRING #7 @ $2CF9
+#W32($2B3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2B40 - STRING #8 @ $2D2E
+#W32($2B40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2B44 - STRING #9 @ $2D63
+#W32($2B44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2B48 - STRING #10 @ $2D88
+#W32($2B48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2B4C - STRING #11 @ $2DAD
+#W32($2B4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2B50 - STRING #12 @ $2DD2
+#W32($2B50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2B54 - STRING #13 @ $2DE7
+#W32($2B54)
+//いい眺めだ。[NLINE]
+//ここから見ると、[NLINE]
+//村が森に囲まれているのがわかる。[END-FE]
+This is a nice view.[NLINE]
+From here, you can see that[NLINE]
+the village is surrounded by[NLINE]
+jungle.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2B58 - STRING #14 @ $2E2A
+#W32($2B58)
+//ジュワイナ村へようこそ！[END-FE]
+Welcome to Juwaina Village![END-FE]
+
+
+
+
+
+//POINTER #15 @ $2B5C - STRING #15 @ $2E45
+#W32($2B5C)
+//前にここら辺に迷い込んできた[NLINE]
+//ふとんを被った犬がいたの。[NWIN]
+//
+//その犬、リズミカルに吠えながら、[NLINE]
+//…何ていうのかしら、頭で回転しながら、[NLINE]
+//ダンスしてみせたの。[NWIN]
+//
+//犬があんなダンスを踊る事が出来るなんて[NLINE]
+//度肝を抜かれたわ。[NWIN]
+//
+//今でも鮮明にあのダンスを覚えているわ。[END-FE]
+Earlier, there was a dog wearing a futon[NLINE]
+that had gotten lost around here.[NWIN]
+
+While barking rhythmically, it showed me[NLINE]
+a dance where it-how do you call it?-did[NLINE]
+a headspin.[NWIN]
+
+I was amazed to learn a dog could dance[NLINE]
+like that.[NWIN]
+
+I vividly remember that dance, even now.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2B60 - STRING #16 @ $2F44
+#W32($2B60)
+//宜しかったら、そのダンス[NLINE]
+//教えてもらえませんか？[END-FE]
+Could you please teach us that[NLINE]
+dance?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2B64 - STRING #17 @ $2F77
+#W32($2B64)
+//別に構わないけど。[END-FE]
+Sure, I don't mind.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2B68 - STRING #18 @ $2F8C
+#W32($2B68)
+//　[NLINE]
+//ユリィはブレイクダンスを教わった。[END-FE]
+[NLINE]
+Yurii was taught the Break Dance![END-FE]
+
+
+
+
+
+//POINTER #19 @ $2B6C - STRING #19 @ $2FB5
+#W32($2B6C)
+//こんな感じだったと思うわ。[END-FE]
+I think it went like that.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2B70 - STRING #20 @ $2FD2
+#W32($2B70)
+//ありがとうございました。[END-FE]
+Thank you very much.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2B74 - STRING #21 @ $2FED
+#W32($2B74)
+//前にここら辺に迷い込んできた[NLINE]
+//ふとんを被った犬がいたの。[NWIN]
+//
+//その犬、リズミカルに吠えながら、[NLINE]
+//…何ていうのかしら、頭で回転しながら、[NLINE]
+//ダンスしてみせたの。[NWIN]
+//
+//あの犬のダンス、[NLINE]
+//凄かったわね…。[END-FE]
+Earlier, there was a dog wearing a futon[NLINE]
+that had gotten lost around here.[NWIN]
+
+While barking rhythmically, it showed me[NLINE]
+a dance where it-how do you call it?-did[NLINE]
+a headspin.[NWIN]
+
+It was amazing...[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2B78 - STRING #22 @ $30AC
+#W32($2B78)
+//ランディさんの家は[NLINE]
+//この村の一番奥だよ。[END-FE]
+Randall's house is in the innermost[NLINE]
+part of the village.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2B7C - STRING #23 @ $30D7
+#W32($2B7C)
+//いらっしゃいませ。[NLINE]
+//よろず屋へようこそ。[END-FE]
+Welcome![NLINE]
+This is the general store.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2B80 - STRING #24 @ $3102
+#W32($2B80)
+//どのような[NLINE]
+//ご用件でしょうか？[END-FE]
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2B84 - STRING #25 @ $3123
+#W32($2B84)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2B88 - STRING #26 @ $3130
+#W32($2B88)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #27 @ $2B8C - STRING #27 @ $313D
+#W32($2B8C)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2B90 - STRING #28 @ $314C
+#W32($2B90)
+//・香油購入[END-FE]
+・Buy perfume oil[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2B94 - STRING #29 @ $3159
+#W32($2B94)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2B98 - STRING #30 @ $3162
+#W32($2B98)
+//所持金 [CC.EF19]Ы[END-FE]
+Money [CC.EF19]Ы[END-FE]
+
+
+
+
+
+//POINTER #31 @ $2B9C - STRING #31 @ $3171
+#W32($2B9C)
+//プレゼントに良し、自分で使っても良し。[NLINE]
+//いい香りの香油だよ。[END-FE]
+I've got perfume oil that you can[NLINE]
+give as a present or use yourself.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $2BA0 - STRING #32 @ $31B0
+#W32($2BA0)
+//・ローズゼラニウムの香油[END-FE]
+・Rose Geranium Perfume Oil[END-FE]
+
+
+
+
+
+//POINTER #33 @ $2BA4 - STRING #33 @ $31CB
+#W32($2BA4)
+//・オレンジの香油[END-FE]
+・Orange Perfume Oil[END-FE]
+
+
+
+
+
+//POINTER #34 @ $2BA8 - STRING #34 @ $31DE
+#W32($2BA8)
+//・キンギョソウの香油[END-FE]
+・Snapdragon Perfume Oil[END-FE]
+
+
+
+
+
+//POINTER #35 @ $2BAC - STRING #35 @ $31F5
+#W32($2BAC)
+//・ミントの香油[END-FE]
+・Mint Perfume Oil[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2BB0 - STRING #36 @ $3206
+#W32($2BB0)
+//・買わない[END-FE]
+・Don't buy[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2BB4 - STRING #37 @ $3213
+#W32($2BB4)
+//大人の香りのローズゼラニウムの香油。[NLINE]
+//９本２００Ыになりますがよろしいですか？[END-FE]
+This rose geranium perfume oil has an[NLINE]
+adult fragrance. That will be 200Ы for[NLINE]
+nine vials. Would that be alright?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2BB8 - STRING #38 @ $3264
+#W32($2BB8)
+//あれ？[NLINE]
+//お客さん、お金が足りないみたいね。[END-FE]
+Hmm?[NLINE]
+It looks like you're short on cash,[NLINE]
+sir.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $2BBC - STRING #39 @ $3291
+#W32($2BBC)
+//お客さん、もう９回分も持ってるじゃないか。[NLINE]
+//今のを使い切ってからにした方がいいわよ。[END-FE]
+You already have nine vials, sir. How[NLINE]
+about you use up your current stock?[END-FE]
+
+
+
+
+
+//POINTER #40 @ $2BC0 - STRING #40 @ $32E8
+#W32($2BC0)
+//あたたかなスイートオレンジの香油。[NLINE]
+//９本２００Ыになりますがよろしいですか？[END-FE]
+This orange perfume oil has a warm and[NLINE]
+sweet fragrance. That will be 200Ы for[NLINE]
+nine vials. Would that be alright?[END-FE]
+
+
+
+
+//POINTER #41 @ $2BC4 - STRING #41 @ $3337
+#W32($2BC4)
+//甘く魅惑的なキンギョソウの香油。[NLINE]
+//１本２０Ыになりますがよろしいですか？[END-FE]
+This snapdragon perfume oil has a sweet[NLINE]
+and fascinating fragrance. That will be[NLINE]
+20Ы for one vial. Would that be alright?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $2BC8 - STRING #42 @ $3382
+#W32($2BC8)
+//気分すっきりミントの香油。[NLINE]
+//９本２００Ыになりますがよろしいですか？[END-FE]
+This mint perfume oil has a refreshing[NLINE]
+fragrance. That will be 200Ы for nine[NLINE]
+vials. Would that be alright?[END-FE]
+
+
+
+
+
+
+//POINTER #43 @ $2BCC - STRING #43 @ $33C9
+#W32($2BCC)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Come again![END-FE]
+
+
+
+
+
+//POINTER #44 @ $2BD0 - STRING #44 @ $33F0
+#W32($2BD0)
+//いやあ、いらっしゃい。[NLINE]
+//ここまで来るのは疲れただろう？[NWIN]
+//
+//そんなときは、隣で売っている[NLINE]
+//香油でリフレッシュだ！[END-FE]
+Oh, welcome![NLINE]
+Aren't you tired after coming[NLINE]
+all the way here?[NWIN]
+
+If so, you should refresh yourselves[NLINE]
+with the perfumed oil that is being[NLINE]
+sold next door![END-FE]
+
+
+
+
+
+//POINTER #45 @ $2BD4 - STRING #45 @ $345F
+#W32($2BD4)
+//ポサヤを採取しに行くのかな？[END-FE]
+//Randall\\
+Shall we go to get the Posaya?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $2BD8 - STRING #46 @ $347E
+#W32($2BD8)
+//では、村を出て[NLINE]
+//西にある鉱山跡へ行こう。[END-FE]
+//Randall\\
+Then let's go to the abandoned mine.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $2BDC - STRING #47 @ $34A9
+#W32($2BDC)
+//私に手伝える事があったら、[NLINE]
+//いつでも言ってくれ。[NLINE]
+//出来る限り、手を貸そう。[END-FE]
+If there's anything you need[NLINE]
+my help for, come speak with[NLINE]
+me anytime. I'll help you[NLINE]
+as much as I can.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $2BE0 - STRING #48 @ $34F6
+#W32($2BE0)
+//私に何か用かな？[END-FE]
+Do you need me for something?[END-FE]
+
+
+
+
+
+//POINTER #49 @ $2BE4 - STRING #49 @ $3509
+#W32($2BE4)
+//あら、[NLINE]
+//台所へは入らないでくださいな。[END-FE]
+Oh my, please don't enter the[NLINE]
+the kitchen![END-FE]
+
+
+
+
+
+//POINTER #50 @ $2BE8 - STRING #50 @ $3532
+#W32($2BE8)
+//お兄ちゃんたち、[NLINE]
+//パパのおともだち？[END-FE]
+Are you friends of papa's?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $2BEC - STRING #51 @ $3559
+#W32($2BEC)
+//ベランダは危ないから、[NLINE]
+//出られないようにカギがかけてあるのよ。[END-FE]
+The balcony is dangerous, so it's locked[NLINE]
+to prevent anyone from getting on it.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $2BF0 - STRING #52 @ $359A
+#W32($2BF0)
+//あ、ちょっと、お客さん！[NLINE]
+//お部屋をご利用でしたら、[NLINE]
+//受付を済ませてくださいませんか？[END-FE]
+Ah! Please hold on, sir![NLINE]
+If you would like to book a room, please[NLINE]
+head on over to the reception desk.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $2BF4 - STRING #53 @ $35F1
+#W32($2BF4)
+//鉱山跡は村を出て直ぐだ。[NLINE]
+//キャリィに乗る必要はないぞ。[END-FE]
+The abandoned mine lies directly[NLINE]
+outside the village. There's no[NLINE]
+need ride on a Steed.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $2BF8 - STRING #54 @ $362A
+#W32($2BF8)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $2BFC - STRING #55 @ $363F
+#W32($2BFC)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #56 @ $2C00 - STRING #56 @ $364C
+#W32($2C00)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #57 @ $2C04 - STRING #57 @ $365B
+#W32($2C04)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #58 @ $2C08 - STRING #58 @ $366C
+#W32($2C08)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #59 @ $2C0C - STRING #59 @ $3681
+#W32($2C0C)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になりますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $2C10 - STRING #60 @ $36AD
+#W32($2C10)
+//ついでに記録をとられますか？[END-FE]
+By the way, would you like to sign our[NLINE]
+guestbook?[END-FE]
+
+
+
+
+
+//POINTER #61 @ $2C14 - STRING #61 @ $36CC
+#W32($2C14)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $2C18 - STRING #62 @ $36F1
+#W32($2C18)
+//お客さん……[COL09][TEAR-DROP][COL00][NLINE]
+//お金が足りないみたいです。[END-FE]
+//Inn Clerk\\
+Sir...[COL09][TEAR-DROP][COL00][NLINE]
+It appears you're short on cash.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $2C1C - STRING #63 @ $3724
+#W32($2C1C)
+//ジュワイナ村[END-FE]
+Juwaina[END-FE]
+
+
+
+
+
+//POINTER #64 @ $2C20 - STRING #64 @ $3733
+#W32($2C20)
+//Ｄジュワイナ村[END-FE]
+D Juwaina[END-FE]
+
+
+
+
+
+//POINTER #65 @ $2C24 - STRING #65 @ $3744
+#W32($2C24)
+//またのご利用を[NLINE]
+//お待ちしております。[END-FE]
+We look forward to[NLINE]
+seeing you again.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $2C28 - STRING #66 @ $376B
+#W32($2C28)
+//ベッドで休みますか？[END-FE]
+Would you like to rest on the bed?[END-FE]
+
+
+
+
+
+//POINTER #67 @ $2C2C - STRING #67 @ $3782
+#W32($2C2C)
+//　[NLINE]
+//花が生けてある。[END-FE]
+[NLINE]
+Flowers have been arranged in a vase.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $2C30 - STRING #68 @ $3799
+#W32($2C30)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+[NLINE]
+There's a lamp placed on the table.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $2C34 - STRING #69 @ $37C6
+#W32($2C34)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+[NLINE]
+It's a dresser.[END-FE]
+
+
+
+

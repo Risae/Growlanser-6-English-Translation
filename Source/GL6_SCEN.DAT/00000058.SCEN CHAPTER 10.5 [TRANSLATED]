@@ -1,0 +1,569 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $23E0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2320, 4, PTR)
+
+#JMP($23E0)
+#HDR($23E0)
+
+
+
+
+
+//POINTER #0 @ $2320 - STRING #0 @ $23E0
+#W32($2320)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2324 - STRING #1 @ $23E3
+#W32($2324)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2328 - STRING #2 @ $23F0
+#W32($2328)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $232C - STRING #3 @ $2415
+#W32($232C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2330 - STRING #4 @ $243A
+#W32($2330)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2334 - STRING #5 @ $244F
+#W32($2334)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2338 - STRING #6 @ $2474
+#W32($2338)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $233C - STRING #7 @ $2499
+#W32($233C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2340 - STRING #8 @ $24CE
+#W32($2340)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2344 - STRING #9 @ $2503
+#W32($2344)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2348 - STRING #10 @ $2528
+#W32($2348)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $234C - STRING #11 @ $254D
+#W32($234C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2350 - STRING #12 @ $2572
+#W32($2350)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2354 - STRING #13 @ $2587
+#W32($2354)
+//アドモニッシャーの破片で[NLINE]
+//道が塞がっている…。[END-FE]
+The road is blocked by the remains[NLINE]
+of the Admonisher...[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2358 - STRING #14 @ $25B8
+#W32($2358)
+//[CHAR3C00][V0200]
+//むっ、お前たちは！[END-FE]
+[CHAR3C00][V0200]
+Hmph, it's you![END-FE]
+
+
+
+
+
+//POINTER #15 @ $235C - STRING #15 @ $25D5
+#W32($235C)
+//[CHAR3C00][V0300]
+//やっぱりモノポリス社か…。[END-FE]
+[CHAR3C00][V0300]
+I knew it was Monopolis...[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2360 - STRING #16 @ $25FA
+#W32($2360)
+//[CHAR3C00][V0400]
+//この様子じゃ、[NLINE]
+//まだ龍玉を手に入れていないみたいね。[END-FE]
+[CHAR3C00][V0400]
+Tt looks like they still haven't[NLINE]
+found the Dragon Orb.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2364 - STRING #17 @ $2639
+#W32($2364)
+//[CHAR3C00][V0500]
+//シュヴァイツァー様のところに[NLINE]
+//行かせるわけにはいかん！[END-FE]
+[CHAR3C00][V0500]
+We won't let you reach Captain[NLINE]
+Shuweizer![END-FE]
+
+
+
+
+
+//POINTER #18 @ $2368 - STRING #18 @ $267A
+#W32($2368)
+//[CHAR3C00][V0600]
+//ここは死守するぞ！　　　　　[NLINE]
+//　[END-FE]
+[CHAR3C00][V0600]
+We'll defend to the last man![END-FE]
+
+
+
+
+
+//POINTER #19 @ $236C - STRING #19 @ $26A5
+#W32($236C)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2370 - STRING #20 @ $26B2
+#W32($2370)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2374 - STRING #21 @ $26C7
+#W32($2374)
+//戦闘スキップする？[END-FE]
+Do you want to skip the battle?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2378 - STRING #22 @ $26DC
+#W32($2378)
+//アドモニッシャーの破片で[NLINE]
+//道が塞がっている…。[END-FE]
+The road is blocked by the remains[NLINE]
+of the Admonisher...[END-FE]
+
+
+
+
+
+//POINTER #23 @ $237C - STRING #23 @ $270D
+#W32($237C)
+//こちらも見あたりませんでした！[NWIN]
+//
+//む！貴様等は！[END-FE]
+We couldn't find it here, either![NWIN]
+
+Ah! It's them![END-FE]
+
+
+
+
+
+//POINTER #24 @ $2380 - STRING #24 @ $273E
+#W32($2380)
+//遅いぞ！[NLINE]
+//こいつらを撃退する！[NLINE]
+//手伝え！[END-FE]
+You're late![NLINE]
+Help us get rid of these pests![END-FE]
+
+
+
+
+
+//POINTER #25 @ $2384 - STRING #25 @ $2769
+#W32($2384)
+//戻ったか！[NLINE]
+//こいつらの撃退を手伝ってくれ！[END-FE]
+Good, you're back![NLINE]
+Help us get rid of these pests![END-FE]
+
+
+
+
+
+//POINTER #26 @ $2388 - STRING #26 @ $2796
+#W32($2388)
+//調査に回っていた人員が[NLINE]
+//戻ってきたようです！[NLINE]
+//気をつけてください！[END-FE]
+It looks like the troops that[NLINE]
+scouted up ahead have returned![NLINE]
+Be careful![END-FE]
+
+
+
+
+
+//POINTER #27 @ $238C - STRING #27 @ $27DB
+#W32($238C)
+//[CHAR3C00][V0D00]
+//これほど時間をかけては、[NLINE]
+//もう追跡できません…。[END-FE]
+[CHAR3C00][V0D00]
+If we stay here much longer, we[NLINE]
+won't able to track Shuweizer...[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2390 - STRING #28 @ $2816
+#W32($2390)
+//[CHAR3C00][V0700]
+//外が騒がしいと思えば[NLINE]
+//裏切り者か…。[END-FE]
+[CHAR3C00][V0700]
+So it's the traitors who are causing[NLINE]
+this commotion...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2394 - STRING #29 @ $2845
+#W32($2394)
+//[CHAR3C00][V0800]
+//シュヴァイツァー様！[NLINE]
+//龍玉は見つかりましたか？[END-FE]
+[CHAR3C00][V0800]
+Captain Shuweizer! Did you[NLINE]
+find the Dragon Orb?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2398 - STRING #30 @ $287E
+#W32($2398)
+//[CHAR3C00][V0900]
+//ああ、見つけた。[NWIN]
+//
+//[CHAR3C00][V0A00]
+//俺はこのまま船に向かう。[NLINE]
+//お前たちは足止めをしろ！[END-FE]
+[CHAR3C00][V0900]
+Yes, I found it.[NWIN]
+
+[CHAR3C00][V0A00]
+I will head to the boat.[NLINE]
+You deal with them![END-FE]
+
+
+
+
+
+//POINTER #31 @ $239C - STRING #31 @ $28D5
+#W32($239C)
+//[CHAR3C00][V0B00]
+//はっ！[END-FE]
+[CHAR3C00][V0B00]
+Yes, sir![END-FE]
+
+
+
+
+
+//POINTER #32 @ $23A0 - STRING #32 @ $28E6
+#W32($23A0)
+//[CHAR3C00][V0C00]
+//ああっ、[NLINE]
+//逃げられてしまいます！[NLINE]
+//みなさん、急いでください！[END-FE]
+[CHAR3C00][V0C00]
+Ah, he got away![NLINE]
+Everyone, please hurry![END-FE]
+
+
+
+
+
+//POINTER #33 @ $23A4 - STRING #33 @ $292D
+#W32($23A4)
+//・[Merklich]と[NLINE]
+//　ウェンディとルキアスが[NLINE]
+//　縄ばしごの周囲に集まる[NLINE]
+//・敵の全滅[END-FE]
+・[Merklich], Wendy and Rukias[NLINE]
+ gather at the rope ladder[NLINE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #34 @ $23A8 - STRING #34 @ $2978
+#W32($23A8)
+//・一定時間以内に戦場を離脱できない[NLINE]
+//・パーティーの全滅[END-FE]
+・Fail to escape from battle[NLINE]
+ within the time limit[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #35 @ $23AC - STRING #35 @ $29B1
+#W32($23AC)
+//[CHAR3C00][V0E00]
+//早く後を追いましょう。[END-FE]
+[CHAR3C00][V0E00]
+Let's hurry and go after him.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $23B0 - STRING #36 @ $29D2
+#W32($23B0)
+//[CHAR3C00][V0F00]
+//だけどどこへ行ったのかしら？[END-FE]
+[CHAR3C00][V0F00]
+But where did he go?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $23B4 - STRING #37 @ $29F9
+#W32($23B4)
+//[CHAR3C00][V1000]
+//前に営業スタッフが言っていただろ？[END-FE]
+[CHAR3C00][V1000]
+He mentioned it to that soldier,[NLINE]
+didn't he?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $23B8 - STRING #38 @ $2A26
+#W32($23B8)
+//[CHAR3C00][V1100]
+//なるほど…。[NLINE]
+//そこしか手がかりはないか。[NWIN]
+//
+//[CHAR3C00][V1200]
+//あなた、場所は分かるわよね？[END-FE]
+[CHAR3C00][V1100]
+I see... Then that's our only[NLINE]
+lead.[NWIN]
+
+[CHAR3C00][V1200]
+Do you know where it is?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $23BC - STRING #39 @ $2A7F
+#W32($23BC)
+//[CHAR3C00][V1500]
+//ヌナーンですね。[END-FE]
+[CHAR3C00][V1500]
+Nu Nahn.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $23C0 - STRING #40 @ $2A9A
+#W32($23C0)
+//[CHAR3C00][V1300]
+//それじゃ、急ぎましょう！[NLINE]
+//寄り道なんてしている暇はないわ！[END-FE]
+[CHAR3C00][V1300]
+Then let's hurry![NLINE]
+We don't have time to waste![END-FE]
+
+
+
+
+
+//POINTER #41 @ $23C4 - STRING #41 @ $2ADF
+#W32($23C4)
+//[CHAR3C00][V1400]
+//ほら、北に廃墟になった村があるって[NLINE]
+//言っていたじゃない。[NLINE]
+//そこから船で上陸したって。[END-FE]
+[CHAR3C00][V1400]
+Hey, didn't one of those sales representatives[NLINE]
+say there was a ruined village to the north?[NLINE]
+That's where they made land.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $23C8 - STRING #42 @ $2B3E
+#W32($23C8)
+//[CHAR3C00][V1500]
+//ヌナーンですね。[END-FE]
+[CHAR3C00][V1500]
+Nu Nahn.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $23CC - STRING #43 @ $2B59
+#W32($23CC)
+//[CHAR3C00][V1600]
+//寄り道なんてしている暇はないわ。[NLINE]
+//急ぎましょう！[END-FE]
+[CHAR3C00][V1600]
+We can't afford any detours.[NLINE]
+Let's hurry![END-FE]
+
+
+
+
+
+//POINTER #44 @ $23D0 - STRING #44 @ $2B94
+#W32($23D0)
+//　[NLINE]
+//センサーの反応値が１００を大きく超えている！[NLINE]
+//目的の物がこの側にあるに違いない！[NLINE]
+//　[END-FE]
+[NLINE]
+The response value of the sensor is more[NLINE]
+than hundred! There's no doubt that[NLINE]
+what you're looking for is somewhere[NLINE]
+around here![END-FE]
+
+
+
+
+
+//POINTER #45 @ $23D4 - STRING #45 @ $2BEF
+#W32($23D4)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $23D8 - STRING #46 @ $2C04
+#W32($23D8)
+//Ｄ　Ｆ１１[END-FE]
+D F11[END-FE]
+
+
+
+

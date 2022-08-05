@@ -1,0 +1,285 @@
+
+
+//POINTER #0 @ $24A0 - STRING #0 @ $2520
+#W32($24A0)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $24A4 - STRING #1 @ $2523
+#W32($24A4)
+//・敵の全滅[END-FE]
+
+
+
+
+
+//POINTER #2 @ $24A8 - STRING #2 @ $2530
+#W32($24A8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #3 @ $24AC - STRING #3 @ $2555
+#W32($24AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #4 @ $24B0 - STRING #4 @ $257A
+#W32($24B0)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #5 @ $24B4 - STRING #5 @ $258F
+#W32($24B4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #6 @ $24B8 - STRING #6 @ $25C4
+#W32($24B8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #7 @ $24BC - STRING #7 @ $25F9
+#W32($24BC)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #8 @ $24C0 - STRING #8 @ $261E
+#W32($24C0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #9 @ $24C4 - STRING #9 @ $2643
+#W32($24C4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #10 @ $24C8 - STRING #10 @ $2668
+#W32($24C8)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #11 @ $24CC - STRING #11 @ $267D
+#W32($24CC)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+
+
+
+
+
+//POINTER #12 @ $24D0 - STRING #12 @ $26A4
+#W32($24D0)
+//[CHARDF00][V0000]
+//無茶はおやめ下さい！[NLINE]
+//バクター様はまだ傷が治っておりません！[END-FE]
+
+
+
+
+
+//POINTER #13 @ $24D4 - STRING #13 @ $26EB
+#W32($24D4)
+//[CHARDF00][V0100]
+//バカ野郎！[NLINE]
+//だからって部下を見殺しに出来るか！[END-FE]
+
+
+
+
+
+//POINTER #14 @ $24D8 - STRING #14 @ $2724
+#W32($24D8)
+//[CHARDF00][V0200]
+//しかし、たった一人で[NLINE]
+//何が出来ますか!?[END-FE]
+
+
+
+
+
+//POINTER #15 @ $24DC - STRING #15 @ $2755
+#W32($24DC)
+//[CHARDF00][V0300]
+//無事でしたか、[NLINE]
+//バクター中尉。[END-FE]
+
+
+
+
+
+//POINTER #16 @ $24E0 - STRING #16 @ $277E
+#W32($24E0)
+//[CHARDF00][V0400]
+//…ゲッ、[NLINE]
+//ルーファス…大尉…。[END-FE]
+
+
+
+
+
+//POINTER #17 @ $24E4 - STRING #17 @ $27A7
+#W32($24E4)
+//[CHARDF00][V0500]
+//これはルーファス大尉！[NWIN]
+//
+//[CHARDF00][V0600]
+//大尉からもお願いします。[NLINE]
+//中尉はまだ[NLINE]
+//完全に傷が癒えていないのに、[NLINE]
+//仲間を助けに行くのだと…。[END-FE]
+
+
+
+
+
+//POINTER #18 @ $24E8 - STRING #18 @ $2830
+#W32($24E8)
+//[CHARDF00][V0700]
+//気持ちはわかりますが、[NLINE]
+//後は私にまかせて、[NLINE]
+//あなたはガイラナックへ戻りなさい。[END-FE]
+
+
+
+
+
+//POINTER #19 @ $24EC - STRING #19 @ $2889
+#W32($24EC)
+//[CHARDF00][V0800]
+//断る！[NLINE]
+//アレは俺の部下だ！[NLINE]
+//助けに行く権利が、俺にはある！[END-FE]
+
+
+
+
+
+//POINTER #20 @ $24F0 - STRING #20 @ $28CE
+#W32($24F0)
+//[CHARDF00][V0900]
+//…助ける権利、ですか。[NWIN]
+//
+//[CHARDF00][V0A00]
+//わかりました。[NLINE]
+//では、一緒に行きましょう。[NWIN]
+//
+//[CHARDF00][V0B00]
+//それが条件です。[END-FE]
+
+
+
+
+
+//POINTER #21 @ $24F4 - STRING #21 @ $293D
+#W32($24F4)
+//[CH.FACE:Close-Eyes][CHARDF00][V0C00]
+//…わかった…。[CC.FFCD][CH.FACE:Open-Eyes][END-FE]
+
+
+
+
+
+//POINTER #22 @ $24F8 - STRING #22 @ $295E
+#W32($24F8)
+//　[NLINE]
+//バクターが仲間になった！[NLINE]
+//　[END-FE]
+
+
+
+
+
+//POINTER #23 @ $24FC - STRING #23 @ $2981
+#W32($24FC)
+//[CHARDF00][V0D00]
+//では、私も[NLINE]
+//お手伝いさせてください。[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2500 - STRING #24 @ $29B0
+#W32($2500)
+//　[NLINE]
+//ストレイが仲間になった！[NLINE]
+//　[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2504 - STRING #25 @ $29D3
+#W32($2504)
+//デバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2508 - STRING #26 @ $29E8
+#W32($2508)
+//Ｄ　ルーファス・Ｆ４[END-FE]
+
+
+
+
+
+//POINTER #27 @ $250C - STRING #27 @ $29FF
+#W32($250C)
+//配置パターンを選んで[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2510 - STRING #28 @ $2A16
+#W32($2510)
+//・Ａパターン[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2514 - STRING #29 @ $2A25
+#W32($2514)
+//・Ｂパターン[END-FE]

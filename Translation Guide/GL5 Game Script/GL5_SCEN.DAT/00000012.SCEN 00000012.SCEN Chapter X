@@ -1,0 +1,463 @@
+
+
+//POINTER #0 @ $12A0 - STRING #0 @ $1330
+#W32($12A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $12A4 - STRING #1 @ $1333
+#W32($12A4)
+//ランディの妻[END-FF]
+Randall's Wife[END-FF]
+
+
+
+
+
+//POINTER #2 @ $12A8 - STRING #2 @ $1342
+#W32($12A8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $12AC - STRING #3 @ $134F
+#W32($12AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $12B0 - STRING #4 @ $1374
+#W32($12B0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $12B4 - STRING #5 @ $1399
+#W32($12B4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $12B8 - STRING #6 @ $13AE
+#W32($12B8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $12BC - STRING #7 @ $13E3
+#W32($12BC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $12C0 - STRING #8 @ $1418
+#W32($12C0)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $12C4 - STRING #9 @ $143D
+#W32($12C4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $12C8 - STRING #10 @ $1462
+#W32($12C8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $12CC - STRING #11 @ $1487
+#W32($12CC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $12D0 - STRING #12 @ $149C
+#W32($12D0)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #13 @ $15D4 - STRING #13 @ $17F9
+#W32($15D4)
+
+Skip Randall's Role?[END-FE]
+
+
+
+
+
+//POINTER #13 @ $12D4 - STRING #13 @ $14C3
+#W32($12D4)
+//[CHAR1400][V1600]
+//アドモニッシャーによる[NLINE]
+//砲撃から２０年[－][－][NLINE]
+//維持軍の働きにより[NLINE]
+//国家間の戦争は抑止され[NLINE]
+//ひとまずは[NLINE]
+//平和な時代が訪れていた。[END-FE]
+[CHAR1400][V1600]
+In the 20 years since the[NLINE]
+Admonisher first fired,[NLINE]
+war has come to a halt,[NLINE]
+and a new age of[NLINE]
+apparent peace[NLINE]
+has dawned.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $12D8 - STRING #14 @ $154A
+#W32($12D8)
+//[CHAR1400][V1700]
+//だが戦争にこそ至らぬものの[NLINE]
+//平和議会では各国とも譲らず[NLINE]
+//もはや現状の平和には[NLINE]
+//限界が見えていた…。[NLINE]
+//　[END-FE]
+[CHAR1400][V1700]
+Still, though open[NLINE]
+hostilities have come to an[NLINE]
+end, no country in the[NLINE]
+current Peace Talks[NLINE]
+will back down.[NLINE]
+The limits of[NLINE]
+peace are[NLINE]
+straining...[END-FE]
+
+
+
+
+
+//POINTER #15 @ $12DC - STRING #15 @ $15BB
+#W32($12DC)
+//[CHAR1400][V1800]
+//シリルティア王国の国民である[NLINE]
+//歴史学者[COL01]ランディ[COL00]は現状を憂い、[NLINE]
+//過去の平和だった時代を[NLINE]
+//調べることで[NLINE]
+//新たな平和の方法を[NLINE]
+//模索していた。[END-FE]
+[CHAR1400][V1800]
+The archaeologist [COL01]Randall[COL00][NLINE]
+took it upon himself to[NLINE]
+research the peace of[NLINE]
+ages past, to see if[NLINE]
+that golden age[NLINE]
+could be[NLINE]
+recreated.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $12E0 - STRING #16 @ $1652
+#W32($12E0)
+//[CHAR1400][V1900]
+//遺跡調査のエキスパートとして[NLINE]
+//国内外から[NLINE]
+//評価の高いランディ[－][－][NLINE]
+//今日も新たな依頼に[NLINE]
+//旅立ちの準備を[NLINE]
+//行っていた[－][－][END-FE]
+[CHAR1400][V1900]
+Randall had achieved[NLINE]
+worldwide renown as an[NLINE]
+archaeologist, and all[NLINE]
+his skill would be put[NLINE]
+to the test in his[NLINE]
+latest adventure...[END-FE]
+
+
+
+
+
+//POINTER #17 @ $12E4 - STRING #17 @ $16D1
+#W32($12E4)
+//ロール１を終えていないようなので、[NLINE]
+//ここでパラメータアップさせます。[NLINE]
+//告知ウィンドウが出るのは許して！[END-FE]
+ロール１を終えていないようなので、[NLINE]
+ここでパラメータアップさせます。[NLINE]
+告知ウィンドウが出るのは許して！[END-FE]
+
+
+
+
+
+//POINTER #18 @ $12E8 - STRING #18 @ $173A
+#W32($12E8)
+//[CHAR1400][V0200]
+//あなた、[NLINE]
+//今回はどこの遺跡まで[NLINE]
+//調査に行かれるのですか？[END-FE]
+[CHAR1400][V0200]
+Where are you off to this[NLINE]
+time, dear?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $12EC - STRING #19 @ $177D
+#W32($12EC)
+//[CHAR1400][V0300]
+//うむ……実はまだ[NLINE]
+//知らされていないのだ。[NWIN]
+//
+//[CHAR1400][V0400]
+//依頼人とは王都フェルメンティアの宿で[NLINE]
+//待ち合わせる事になっている。[END-FE]
+[CHAR1400][V0300]
+Do you know, they haven't[NLINE]
+actually told me yet.[NWIN]
+
+[CHAR1400][V0400]
+I'm to meet the client at[NLINE]
+Felmentia's inn.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $12F0 - STRING #20 @ $17FC
+#W32($12F0)
+//[CHAR1400][V0500]
+//そうですか……。[NWIN]
+//
+//[CHAR1400][V0600]
+//くれぐれも[NLINE]
+//お気をつけてくださいね。[END-FE]
+[CHAR1400][V0500]
+I see...[NWIN]
+
+[CHAR1400][V0600]
+Well, just be careful.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $12F4 - STRING #21 @ $1845
+#W32($12F4)
+//[CHAR1400][V0800]
+//お前と可愛いアンが待っていてくれるからこそ、[NLINE]
+//私は危険な遺跡からでも戻って来られる。[NWIN]
+//
+//[CHAR1400][V0900]
+//いつも留守にしていて、すまないな。[END-FE]
+[CHAR1400][V0800]
+With you and our darling Ann waiting for[NLINE]
+me here, I'd be a cad not to return.[NWIN]
+
+[CHAR1400][V0900]
+A shame I must leave you again...[END-FE]
+
+
+
+
+
+//POINTER #22 @ $12F8 - STRING #22 @ $18D0
+#W32($12F8)
+//[CHAR1400][V0A00]
+//いいのですよ。[NWIN]
+//
+//[CHAR1400][V0B00]
+//あなたが、この大陸みんなのために[NLINE]
+//日夜がんばっているのは、[NLINE]
+//わかっているのですから。[END-FE]
+[CHAR1400][V0A00]
+Oh, pish-tosh.[NWIN]
+
+[CHAR1400][V0B00]
+As long as you're putting[NLINE]
+the people first, I shan't[NLINE]
+utter a word of complaint.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $12FC - STRING #23 @ $1947
+#W32($12FC)
+//[CHAR1400][V0C00]
+//ありがとう。[NLINE]
+//それができるのも、[NLINE]
+//君が支えてくれるからだよ。[END-FE]
+[CHAR1400][V0C00]
+Darling, your support is more[NLINE]
+nourishing than any meal. Now,[NLINE]
+I must be off.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $1300 - STRING #24 @ $198E
+#W32($1300)
+//[CHAR1400][V0D00]
+//パパ、[NLINE]
+//気をつけて行ってらっしゃい！[END-FE]
+[CHAR1400][V0D00]
+Be careful, papa![END-FE]
+
+
+
+
+
+//POINTER #25 @ $1304 - STRING #25 @ $19BD
+#W32($1304)
+//[CHAR1400][V0E00]
+//行ってくるよ、アン。[NWIN]
+//
+//[CHAR1400][V0F00]
+//いつものように、[NLINE]
+//いい子にしてるんだぞ。[END-FE]
+[CHAR1400][V0E00]
+Of course, Ann.[NWIN]
+
+[CHAR1400][V0F00]
+And you must behave[NLINE]
+for your mother.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $1308 - STRING #26 @ $1A0E
+#W32($1308)
+//[CHAR1400][V1000]
+//あ、パパ！[NLINE]
+//おみやげお願いね！[END-FE]
+[CHAR1400][V1000]
+Bring me a[NLINE]
+souvenir, papa![END-FE]
+
+
+
+
+
+//POINTER #27 @ $130C - STRING #27 @ $1A37
+#W32($130C)
+//あなた……。[NLINE]
+//くれぐれもお気をつけて。[END-FE]
+Please be careful...[END-FE]
+
+
+
+
+
+//POINTER #28 @ $1310 - STRING #28 @ $1A60
+#W32($1310)
+//パパ、おみやげお願いね！[END-FE]
+Remember my souvenir![END-FE]
+
+
+
+
+
+//POINTER #29 @ $1314 - STRING #29 @ $1A7B
+#W32($1314)
+//あら、あなた。[NLINE]
+//台所に何のご用？[NLINE]
+//お腹がすいているの？[END-FE]
+Dear...? What are you[NLINE]
+doing here? Are you[NLINE]
+hungry?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $1318 - STRING #30 @ $1AB4
+#W32($1318)
+//いや、そういうわけではない。[END-FE]
+Oh, er, no... Pardon me.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $131C - STRING #31 @ $1AD3
+#W32($131C)
+//[CHAR1400][V1100]
+//ランディは、　　　　　　　　　　　[NLINE]
+//王都フェルメンティアへと向かった。[END-FE]
+[CHAR1400][V1100]
+Randall headed for Felmentia,[NLINE]
+capital of Cyriltia.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $1320 - STRING #32 @ $1B24
+#W32($1320)
+//おっと、今はフェルメンティアへ[NLINE]
+//急がなければな……。[END-FE]
+No, I must make haste to my[NLINE]
+assignment in Felmentia.[END-FE]
+
+
+
+

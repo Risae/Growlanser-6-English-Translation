@@ -1,0 +1,1346 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $2DC0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2C20, 4, PTR)
+
+#JMP($2DC0)
+#HDR($2DC0)
+
+
+
+
+
+//POINTER #0 @ $2C20 - STRING #0 @ $2DC0
+#W32($2C20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2C24 - STRING #1 @ $2DC3
+#W32($2C24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2C28 - STRING #2 @ $2DD0
+#W32($2C28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2C2C - STRING #3 @ $2DF5
+#W32($2C2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2C30 - STRING #4 @ $2E1A
+#W32($2C30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2C34 - STRING #5 @ $2E2F
+#W32($2C34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2C38 - STRING #6 @ $2E54
+#W32($2C38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2C3C - STRING #7 @ $2E79
+#W32($2C3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2C40 - STRING #8 @ $2EAE
+#W32($2C40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2C44 - STRING #9 @ $2EE3
+#W32($2C44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2C48 - STRING #10 @ $2F08
+#W32($2C48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2C4C - STRING #11 @ $2F2D
+#W32($2C4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2C50 - STRING #12 @ $2F52
+#W32($2C50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2C54 - STRING #13 @ $2F67
+#W32($2C54)
+//まだ、目的を果たしていません。[END-FE]
+We haven't fulfilled our purpose here yet.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2C58 - STRING #14 @ $2F88
+#W32($2C58)
+//[CHAR5E00][V3300]
+//基地司令殿、[NLINE]
+//どこへ行かれるのですか？[END-FE]
+[CHAR5E00][V3300]
+Commander, where are you going?[END-FE]
+
+
+
+
+//POINTER #15 @ $2C5C - STRING #15 @ $2FB9
+#W32($2C5C)
+//[CHAR5E00][V3400]
+//確認することがあるのでな、[NLINE]
+//少し出かける。[END-FE]
+[CHAR5E00][V3400]
+There is something I need to confirm.[NLINE]
+I'll be out for a while.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2C60 - STRING #16 @ $2FEE
+#W32($2C60)
+//[CHAR5E00][V3500]
+//お気をつけて！[END-FE]
+[CHAR5E00][V3500]
+Be careful, sir![END-FE]
+
+
+
+
+
+//POINTER #17 @ $2C64 - STRING #17 @ $3007
+#W32($2C64)
+//ここは物資の貯蔵庫だ。[NLINE]
+//民間人は中に入れないよ。[END-FE]
+This is the supply storehouse.[NLINE]
+Civilians are not allowed to enter.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2C68 - STRING #18 @ $303A
+#W32($2C68)
+//よく見れば、君は妖精を連れているんだね！[NLINE]
+//そっち系の趣味でもあるのかな？[NWIN]
+//
+//…あはは、冗談はさておき、[NLINE]
+//娘に送るつもりで忘れていたコレをあげよう！[END-FE]
+On closer look, it seems you've got[NLINE]
+a fairy with you! Got a thing for[NLINE]
+them, eh?[NWIN]
+
+...Ahahaha, joking aside, I'll give you[NLINE]
+these clothes I forgot to send to my[NLINE]
+daughter.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2C6C - STRING #19 @ $30CD
+#W32($2C6C)
+//妖精コスチューム[COL01]エレガントスーツ[COL00]を手に入れた！[END-FE]
+You obtained [COL01]Elegant Suit[COL00]![END-FE]
+
+
+
+
+
+//POINTER #20 @ $2C70 - STRING #20 @ $3104
+#W32($2C70)
+//この中に入れてあげられないから、[NLINE]
+//それで我慢してくれ。[END-FE]
+I can't let you inside. Please[NLINE]
+understand.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2C74 - STRING #21 @ $313D
+#W32($2C74)
+//ここは物資の貯蔵庫だ。[NLINE]
+//民間人は中に入れないよ。[END-FE]
+This is the supply storehouse.[NLINE]
+Civilians are not allowed to enter.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2C78 - STRING #22 @ $3170
+#W32($2C78)
+//　[NLINE]
+//地下水をくみ上げるポンプだ。[END-FE]
+[NLINE]
+It's a groundwater pump.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2C7C - STRING #23 @ $3193
+#W32($2C7C)
+//これは、司令殿。[NLINE]
+//お出かけですか。[END-FE]
+Oh, it's the commander.[NLINE]
+Are you going out, sir?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2C80 - STRING #24 @ $31B8
+#W32($2C80)
+//ここはフォメロス軍の基地です。[NLINE]
+//本来、民間の方は入れませんので、[NLINE]
+//問題は起こさないようにお願いします。[END-FE]
+This is an Fomerion army base.[NLINE]
+Civilians aren't allowed in under[NLINE]
+normal circumstances, so please don't[NLINE]
+cause any problems.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2C84 - STRING #25 @ $3221
+#W32($2C84)
+//司令殿にもしものことがあれば、[NLINE]
+//タダではすまさんぞ。[END-FE]
+If something happens to the commander,[NLINE]
+you won't get away with it.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2C88 - STRING #26 @ $3258
+#W32($2C88)
+//ここはフォメロス軍基地です。[END-FE]
+This is an Fomerion army base.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $2C8C - STRING #27 @ $3277
+#W32($2C8C)
+//これは司令！[NLINE]
+//異常はありません！[END-FE]
+It's the commander![NLINE]
+No abnormalities detected.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2C90 - STRING #28 @ $329A
+#W32($2C90)
+//この建物の中では[NLINE]
+//様々な事務処理を行います。[END-FE]
+Various kinds of paperwork are conducted[NLINE]
+in this building.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2C94 - STRING #29 @ $32C9
+#W32($2C94)
+//ここより奥へは[NLINE]
+//民間人の立ち入りは認められません。[END-FE]
+Civilians are not allowed to go[NLINE]
+further than this point.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2C98 - STRING #30 @ $32FE
+#W32($2C98)
+//司令殿、[NLINE]
+//基地内に異常はありません！[END-FE]
+No abnormalities dected within[NLINE]
+the base, commander![END-FE]
+
+
+
+
+
+//POINTER #31 @ $2C9C - STRING #31 @ $3325
+#W32($2C9C)
+//哨戒任務中である。[NLINE]
+//邪魔をしないで頂きたい。[END-FE]
+I'm currently on patrol.[NLINE]
+Please don't get in the way.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $2CA0 - STRING #32 @ $3354
+#W32($2CA0)
+//司令殿、[NLINE]
+//基地内に異常はありません！[END-FE]
+No abnormalities dected within[NLINE]
+the base, commander![END-FE]
+
+
+
+
+
+//POINTER #33 @ $2CA4 - STRING #33 @ $337B
+#W32($2CA4)
+//哨戒任務中である。[NLINE]
+//邪魔をしないで頂きたい。[END-FE]
+I'm currently on patrol.[NLINE]
+Please don't get in the way.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $2CA8 - STRING #34 @ $33AA
+#W32($2CA8)
+//[CHAR5E00][V1000]
+//皆さんはこの待合室でお待ち下さい。[END-FE]
+[CHAR5E00][V1000]
+Please wait here.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $2CAC - STRING #35 @ $33D7
+#W32($2CAC)
+//[CHAR5E00][V1100]
+//ここまでは作戦通りですね。[END-FE]
+[CHAR5E00][V1100]
+Everything has gone according to plan[NLINE]
+so far.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2CB0 - STRING #36 @ $33FC
+#W32($2CB0)
+//[CHAR5E00][V1200]
+//それじゃ、作戦の第２段階だな。[NLINE]
+//頼んだぜ。[END-FE]
+[CHAR5E00][V1200]
+So now we're at the second stage[NLINE]
+of our plan. We're counting on you.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2CB4 - STRING #37 @ $3431
+#W32($2CB4)
+//先ずは証拠を掴みましょう。[END-FE]
+Let's get the evidence first.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2CB8 - STRING #38 @ $344E
+#W32($2CB8)
+//ホフマンさんのところへ[NLINE]
+//向かいましょう。[END-FE]
+Let's go to where Hofman is.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $2CBC - STRING #39 @ $3479
+#W32($2CBC)
+//　[NLINE]
+//中から兵士の声がする。[END-FE]
+[NLINE]
+You can hear a soldier's voice[NLINE]
+coming from inside.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $2CC0 - STRING #40 @ $3496
+#W32($2CC0)
+//　[NLINE]
+//中から兵士の声がする。[END-FE]
+[NLINE]
+You can hear a soldier's voice[NLINE]
+coming from inside.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $2CC4 - STRING #41 @ $34B3
+#W32($2CC4)
+//[CHAR5E00][V1A00]
+//ホフマンさんが心配なのはわかりますが、[NLINE]
+//今は早く証拠品を見つけましょう。[END-FE]
+[CHAR5E00][V1A00]
+I understand you're worried about Hofman,[NLINE]
+but right now, let's focus on quickly[NLINE]
+finding the evidence.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $2CC8 - STRING #42 @ $3506
+#W32($2CC8)
+//[CHAR5E00][V1B00]
+//……。[END-FE]
+[CHAR5E00][V1B00]
+...[END-FE]
+
+
+
+
+
+//POINTER #43 @ $2CCC - STRING #43 @ $3517
+#W32($2CCC)
+//[CHAR5E00][V1C00]
+//ホフマン君。[NLINE]
+//黙っていては分からないではないか。[NLINE]
+//本当に君がやったのかね？[END-FE]
+[CHAR5E00][V1C00]
+Hofman, I won't know if you stay quiet.[NLINE]
+Did you really do it?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $2CD0 - STRING #44 @ $356C
+#W32($2CD0)
+//[CHAR5E00][V1D00]
+//……。[END-FE]
+[CHAR5E00][V1D00]
+...[END-FE]
+
+
+
+
+
+//POINTER #45 @ $2CD4 - STRING #45 @ $357D
+#W32($2CD4)
+//[CHAR5E00][V1E00]
+//軍の物資を横流しするなど、[NLINE]
+//今までの君からは想像も出来ん。[END-FE]
+[CHAR5E00][V1E00]
+I never could have imagined that[NLINE]
+you would do something like[NLINE]
+misappropriating military supplies.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $2CD8 - STRING #46 @ $35C2
+#W32($2CD8)
+//[CHAR5E00][V1F00]
+//司令。[NLINE]
+//私は、はめられたのですよ。[END-FE]
+[CHAR5E00][V1F00]
+Commander, I was framed.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $2CDC - STRING #47 @ $35EF
+#W32($2CDC)
+//[CHAR5E00][V2000]
+//はめられた、だと？[NLINE]
+//一体誰にだね。[END-FE]
+[CHAR5E00][V2000]
+Framed?[NLINE]
+By whom?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $2CE0 - STRING #48 @ $361C
+#W32($2CE0)
+//[CHAR5E00][V2100]
+//第３２補給小隊ウェルバー…。[END-FE]
+[CHAR5E00][V2100]
+By Captain Welber of the 32nd supply[NLINE]
+unit...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $2CE4 - STRING #49 @ $3643
+#W32($2CE4)
+//[CHAR5E00][V2200]
+//何だと？[NLINE]
+//君は上官を疑うのか？[END-FE]
+[CHAR5E00][V2200]
+What? You accuse your[NLINE]
+superior officer?[END-FE]
+
+
+
+
+
+//POINTER #50 @ $2CE8 - STRING #50 @ $366C
+#W32($2CE8)
+//[CHAR5E00][V2300]
+//別部隊の者が私を[NLINE]
+//陥れる意味はないでしょう？[NLINE]
+//それに、そのチャンスもない。[NWIN]
+//
+//[CHAR5E00][V2400]
+//私を陥れることが出来るのは、[NLINE]
+//それにふさわしい状況を[NLINE]
+//作りだせる立場にいる者です。[END-FE]
+[CHAR5E00][V2300]
+There would no point for a person[NLINE]
+from another unit to frame me, is[NLINE]
+there? They also wouldn't have the[NLINE]
+opportunity.[NWIN]
+
+[CHAR5E00][V2400]
+He's the only one who is the position to[NLINE]
+frame me.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $2CEC - STRING #51 @ $371D
+#W32($2CEC)
+//[CHAR5E00][V2500]
+//だからといって…、[NLINE]
+//…証拠はあるのかね？[END-FE]
+[CHAR5E00][V2500]
+Even so... Do you have proof?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $2CF0 - STRING #52 @ $3750
+#W32($2CF0)
+//[CHAR5E00][V2600]
+//それはここにあります！[END-FE]
+[CHAR5E00][V2600]
+We have it right here![END-FE]
+
+
+
+
+
+//POINTER #53 @ $2CF4 - STRING #53 @ $3771
+#W32($2CF4)
+//[CHAR5E00][V2700]
+//なんだ、君たちは？[END-FE]
+[CHAR5E00][V2700]
+What? Who are you?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $2CF8 - STRING #54 @ $378E
+#W32($2CF8)
+//[CHAR5E00][V2800]
+//ホフマンさんの無実を証明する[NLINE]
+//証拠を持ってきました！[END-FE]
+[CHAR5E00][V2800]
+We brought evidence to prove[NLINE]
+Hofman's innocence![END-FE]
+
+
+
+
+
+//POINTER #55 @ $2CFC - STRING #55 @ $37CD
+#W32($2CFC)
+//[CHAR5E00][V2900]
+//何だと？[END-FE]
+[CHAR5E00][V2900]
+What?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $2D00 - STRING #56 @ $37E0
+#W32($2D00)
+//[COL01]物資の記録[COL00]を渡した！[END-FE]
+You handed over [COL01]Supply Record[COL00]![END-FE]
+
+
+
+
+
+//POINTER #57 @ $2D04 - STRING #57 @ $37FD
+#W32($2D04)
+//[CHAR5E00][V2A00]
+//このノートは、[NLINE]
+//物資の管理帳じゃないか。[END-FE]
+[CHAR5E00][V2A00]
+Isn't this from one of our supply logbooks?[END-FE]
+
+
+
+
+
+//POINTER #58 @ $2D08 - STRING #58 @ $3830
+#W32($2D08)
+//[CHAR5E00][V2B00]
+//勝手に持ちだして申し訳ありません。[NWIN]
+//
+//[CHAR5E00][V2C00]
+//そのメモにある荷物と、[NLINE]
+//記録内容を照らし合わせてください。[END-FE]
+[CHAR5E00][V2B00]
+We're sorry for taking it[NLINE]
+without permission.[NWIN]
+
+[CHAR5E00][V2C00]
+Please compare the contents of the[NLINE]
+logbook with the crate numbers[NLINE]
+written on that memo.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $2D0C - STRING #59 @ $38A1
+#W32($2D0C)
+//[COL01]木箱の番号メモ[COL00]を渡した！[END-FE]
+You handed over [COL01]Crate Number Memo[COL00]![END-FE]
+
+
+
+
+
+//POINTER #60 @ $2D10 - STRING #60 @ $38C2
+#W32($2D10)
+//[CHAR5E00][V2D00]
+//ちなみに、そのリストは[NLINE]
+//ロイフェロンの闇市に横流しされていた[NLINE]
+//物資のコードをメモしたものです。[END-FE]
+[CHAR5E00][V2D00]
+On that memo, I wrote down the codes[NLINE]
+on the crates that were diverted[NLINE]
+to the black market in Royferon.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $2D14 - STRING #61 @ $392B
+#W32($2D14)
+//[CHAR5E00][V2E00]
+//全て大統領許可の特注品。[NLINE]
+//しかも受取人は…部隊長ウェルバー。[NLINE]
+//受け渡しの場所も任地とは無関係…。[END-FE]
+[CHAR5E00][V2E00]
+All these crates were ordered by the[NLINE]
+president. Furthermore, the receipt[NLINE]
+is... Captain Wellber. The delivery[NLINE]
+location is also different from the[NLINE]
+location where he is stationed...[END-FE]
+
+
+
+
+
+//POINTER #62 @ $2D18 - STRING #62 @ $3996
+#W32($2D18)
+//[CHAR5E00][V2F00]
+//これでは横流しの証拠になりませんか？[END-FE]
+[CHAR5E00][V2F00]
+Is this sufficient proof of[NLINE]
+embezzlement?[END-FE]
+
+
+
+
+
+//POINTER #63 @ $2D1C - STRING #63 @ $39C5
+#W32($2D1C)
+//[CHAR5E00][V3000]
+//このメモが本物だと証明されれば[NLINE]
+//十分な証拠になる。[END-FE]
+[CHAR5E00][V3000]
+If this memo is confirmed to[NLINE]
+be genuine, then this will be[NLINE]
+enough.[END-FE]
+
+
+
+
+
+//POINTER #64 @ $2D20 - STRING #64 @ $3A02
+#W32($2D20)
+//[CHAR5E00][V3100]
+//だったら、ロイフェロンの闇市を[NLINE]
+//ガサ入れすればいい。[NLINE]
+//あの大量の木箱は[NLINE]
+//そうそう消せるもんじゃない。[END-FE]
+[CHAR5E00][V3100]
+Then we should search the black[NLINE]
+market in Royferon. They won't be[NLINE]
+able to get rid of such a large[NLINE]
+amount of crates so quickly.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $2D24 - STRING #65 @ $3A71
+#W32($2D24)
+//[CHAR5E00][V3200]
+//わかった。[NLINE]
+//私をそこに案内してくれ。[NLINE]
+//自分の目で確認したい。[END-FE]
+[CHAR5E00][V3200]
+Understood. Lead me there.[NLINE]
+I will confirm it myself.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $2D28 - STRING #66 @ $3AB8
+#W32($2D28)
+//　[NLINE]
+//フォメロス軍基地司令が同行人になった！[END-FE]
+[NLINE]
+The base commander has become a companion![END-FE]
+
+
+
+
+
+//POINTER #67 @ $2D2C - STRING #67 @ $3AE5
+#W32($2D2C)
+//　[NLINE]
+//すでに証拠の記録簿は入手した。[END-FE]
+[NLINE]
+You've already obtained evidence[NLINE]
+from the supply logbook.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $2D30 - STRING #68 @ $3B0A
+#W32($2D30)
+//どのファイルを調べますか？[END-FE]
+Which file would you like to examine?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $2D34 - STRING #69 @ $3B27
+#W32($2D34)
+//・ファイルＡ[END-FE]
+・File A[END-FE]
+
+
+
+
+
+//POINTER #70 @ $2D38 - STRING #70 @ $3B36
+#W32($2D38)
+//・ファイルＢ[END-FE]
+・File B[END-FE]
+
+
+
+
+
+//POINTER #71 @ $2D3C - STRING #71 @ $3B45
+#W32($2D3C)
+//・ファイルＣ[END-FE]
+・File C[END-FE]
+
+
+
+
+
+//POINTER #72 @ $2D40 - STRING #72 @ $3B54
+#W32($2D40)
+//どの項目を調べますか？[END-FE]
+Which item would you like to examine?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $2D44 - STRING #73 @ $3B6D
+#W32($2D44)
+//・ＡＦ[END-FE]
+・AF[END-FE]
+
+
+
+
+
+//POINTER #74 @ $2D48 - STRING #74 @ $3B76
+#W32($2D48)
+//・ＡＨ[END-FE]
+・AH[END-FE]
+
+
+
+
+
+//POINTER #75 @ $2D4C - STRING #75 @ $3B7F
+#W32($2D4C)
+//・ＡＪ[END-FE]
+・AJ[END-FE]
+
+
+
+
+
+//POINTER #76 @ $2D50 - STRING #76 @ $3B88
+#W32($2D50)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＡＦ０２－００２１　　中央作戦司令部　[NLINE]
+//ＡＦ１２－０１９３　　中央作戦司令部　[NLINE]
+//ＡＦ３２－０３６２　　中央作戦司令部　[NLINE]
+//ＡＦ３６－０１０４　　中央作戦司令部　[NLINE]
+//ＡＦ４１－０４４７　　中央作戦司令部　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＡＦ４９－００１７　　中央作戦司令部　[END-FE]
+ [Control Number]         [Approver][NLINE]
+AF02-0021         Central Operations Command[NLINE]
+AF12-0193         Central Operations Command[NLINE]
+AF32-0362         Central Operations Command[NLINE]
+AF36-0104         Central Operations Command[NLINE]
+AF41-0447         Central Operations Command[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+AF49-0017         Central Operations Command[END-FE]
+
+
+
+
+
+//POINTER #77 @ $2D54 - STRING #77 @ $3D41
+#W32($2D54)
+//・ＡＨ００～０９[END-FE]
+・AH00~09[END-FE]
+
+
+
+
+
+//POINTER #78 @ $2D58 - STRING #78 @ $3D54
+#W32($2D58)
+//・ＡＨ１０～１９[END-FE]
+・AH10~19[END-FE]
+
+
+
+
+
+//POINTER #79 @ $2D5C - STRING #79 @ $3D67
+#W32($2D5C)
+//・ＡＨ２０～２９[END-FE]
+・AH20~29[END-FE]
+
+
+
+
+
+//POINTER #80 @ $2D60 - STRING #80 @ $3D7A
+#W32($2D60)
+//・ＡＨ３０～３９[END-FE]
+・AH30~39[END-FE]
+
+
+
+
+
+//POINTER #81 @ $2D64 - STRING #81 @ $3D8D
+#W32($2D64)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＡＨ０２－００２１　　中央作戦司令部　[NLINE]
+//ＡＨ０４－０１４６　　東方面作戦司令部[NLINE]
+//ＡＨ０４－０３１１　　中央作戦司令部　[NLINE]
+//ＡＨ０５－０００４　　中央作戦司令部　[NLINE]
+//ＡＨ０６－００１２　　東方面作戦司令部[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＡＨ０９－０００２　　中央作戦司令部　[END-FE]
+ [Control Number]         [Approver][NLINE]
+AH02-0021         Central Operations Command[NLINE]
+AH04-0146         Eastern Operations Command[NLINE]
+AH04-0311         Central Operations Command[NLINE]
+AH05-0004         Central Operations Command[NLINE]
+AH06-0012         Eastern Operations Command[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+AH09-0002         Central Operations Command[END-FE]
+
+
+
+
+
+//POINTER #82 @ $2D68 - STRING #82 @ $3F46
+#W32($2D68)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＡＨ１２－０１５２　　ジアント砦司令部[NLINE]
+//ＡＨ１３－０００６　　中央作戦司令部　[NLINE]
+//ＡＨ１３－００９１　　東方面作戦司令部[NLINE]
+//ＡＨ１４－００１９　　中央作戦司令部　[NLINE]
+//ＡＨ１５－００９３　　東方面作戦司令部[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＡＨ１９－０１０３　　中央作戦司令部　[END-FE]
+ [Control Number]         [Approver][NLINE]
+AH12-0152             Jiant Fortress Command[NLINE]
+AH13-0006         Central Operations Command[NLINE]
+AH13-0091         Eastern Operations Command[NLINE]
+AH14-0019         Central Operations Command[NLINE]
+AH15-0093         Eastern Operations Command[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+AH19-0103         Central Operations Command[END-FE]
+
+
+
+
+
+//POINTER #83 @ $2D6C - STRING #83 @ $40FF
+#W32($2D6C)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＡＨ２１－０１５２　　中央作戦司令部　[NLINE]
+//ＡＨ２３－０１９９　　東方面作戦司令部[NLINE]
+//ＡＨ２３－０２０１　　中央作戦司令部　[NLINE]
+//ＡＨ２４－００４８　　中央作戦司令部　[NLINE]
+//ＡＨ２５－００２２　　東方面作戦司令部[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＡＨ２７－００９５　　ジアント砦司令部[END-FE]
+ [Control Number]         [Approver][NLINE]
+AH21-0152         Central Operations Command[NLINE]
+AH23-0199         Eastern Operations Command[NLINE]
+AH23-0201         Central Operations Command[NLINE]
+AH24-0048         Central Operations Command[NLINE]
+AH25-0022         Eastern Operations Command[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+　　:　　　　　　　　　         :　　　　[NLINE]
+AH27-0095             Jiant Fortress Command[END-FE]
+
+
+
+
+
+//POINTER #84 @ $2D70 - STRING #84 @ $42B8
+#W32($2D70)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＡＨ３２－００２１　　中央作戦司令部　[NLINE]
+//ＡＨ３２－０３０４　　大統領グライム　[NLINE]
+//ＡＨ３２－０３３７　　大統領グライム　[NLINE]
+//ＡＨ３２－０３６２　　東方面作戦司令部[NLINE]
+//ＡＨ３２－０４０４　　東方面作戦司令部[NLINE]
+//ＡＨ３２－０４８２　　大統領グライム　[NLINE]
+//ＡＨ３２－０５１１　　中央作戦司令部　[NLINE]
+//ＡＨ３２－０５２３　　大統領グライム　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＡＨ３９－０１１１　　東方面作戦司令部[END-FE]
+ [Control Number]         [Approver][NLINE]
+AH32-0021         Central Operations Command[NLINE]
+AH32-0304                    President Glyme[NLINE]
+AH32-0337                    President Glyme[NLINE]
+AH32-0362         Eastern Operations Command[NLINE]
+AH32-0404         Eastern Operations Command[NLINE]
+AH32-0482                    President Glyme[NLINE]
+AH32-0511         Central Operations Command[NLINE]
+AH32-0523                    President Glyme[NLINE]
+    :                         :      [NLINE]
+AH39-0111         Eastern Operations Command[END-FE]
+
+
+
+
+
+//POINTER #85 @ $2D74 - STRING #85 @ $4471
+#W32($2D74)
+//・他を調べる[END-FE]
+・Check others[END-FE]
+
+
+
+
+
+//POINTER #86 @ $2D78 - STRING #86 @ $4480
+#W32($2D78)
+//・リストの項目だけ抜き出す[END-FE]
+・Single out the items on the list[END-FE]
+
+
+
+
+
+//POINTER #87 @ $2D7C - STRING #87 @ $449D
+#W32($2D7C)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//[COL06]ＡＨ３２－００２１　　中央作戦司令部　[NLINE]
+//[COL01]ＡＨ３２－０３０４　　大統領グライム　[NLINE]
+//ＡＨ３２－０３３７　　大統領グライム　[NLINE]
+//[COL06]ＡＨ３２－０３６２　　東方面作戦司令部[NLINE]
+//ＡＨ３２－０４０４　　東方面作戦司令部[NLINE]
+//[COL01]ＡＨ３２－０４８２　　大統領グライム　[NLINE]
+//[COL06]ＡＨ３２－０５１１　　中央作戦司令部　[NLINE]
+//[COL01]ＡＨ３２－０５２３　　大統領グライム　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//[COL06]ＡＨ３９－０１１１　　東方面作戦司令部[COL00][END-FE]
+ [Control Number]         [Approver][NLINE]
+AH32-0021         Central Operations Command[NLINE]
+AH32-0304                    President Glyme[NLINE]
+AH32-0337                    President Glyme[NLINE]
+AH32-0362         Eastern Operations Command[NLINE]
+AH32-0404         Eastern Operations Command[NLINE]
+AH32-0482                    President Glyme[NLINE]
+AH32-0511         Central Operations Command[NLINE]
+AH32-0523                    President Glyme[NLINE]
+    :                         :      [NLINE]
+AH39-0111         Eastern Operations Command[END-FE]
+
+
+
+
+
+//POINTER #88 @ $2D80 - STRING #88 @ $466E
+#W32($2D80)
+//[CHAR5E00][V1800]
+//他の荷物は軍の本部が承認したものなのに、[NLINE]
+//このリストの荷物だけは[NLINE]
+//大統領承認となっていますね。[NWIN]
+//
+//[CH.FACE:Angry][CHAR5E00][V1900]
+//このノートを持っていきましょう。[END-FE]
+[CHAR5E00][V1800]
+Even though other crates were approved by[NLINE]
+army headquarters, only the ones on this[NLINE]
+list were authorized by the president.[NWIN]
+
+[CH.FACE:Angry][CHAR5E00][V1900]
+Let's take this page from the logbook.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $2D84 - STRING #89 @ $4705
+#W32($2D84)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＡＪ０２－００２１　　中央作戦司令部　[NLINE]
+//ＡＪ１２－０１９３　　北方面作戦司令部[NLINE]
+//ＡＪ３２－０３６２　　中央作戦司令部　[NLINE]
+//ＡＪ３２－０１０４　　北方面作戦司令部[NLINE]
+//ＡＪ４０－０４４７　　中央作戦司令部　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＡＪ４３－０７０２　　中央作戦司令部　[END-FE]
+ [Control Number]         [Approver][NLINE]
+AJ02-0021          Central Operations Command[NLINE]
+AJ12-0193         Northern Operations Command[NLINE]
+AJ32-0362          Central Operations Command[NLINE]
+AJ32-0104         Northern Operations Command[NLINE]
+AJ40-0447          Central Operations Command[NLINE]
+　　:　　　　　　　　　      :　　　　[NLINE]
+　　:　　　　　　　　　      :　　　　[NLINE]
+　　:　　　　　　　　　      :　　　　[NLINE]
+　　:　　　　　　　　　      :　　　　[NLINE]
+AJ43-0702          Central Operations Command[END-FE]
+
+
+
+
+
+//POINTER #90 @ $2D88 - STRING #90 @ $48BE
+#W32($2D88)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＢＦ０１－００２１　　中央作戦司令部　[NLINE]
+//ＢＦ２０－０３４９　　中央作戦司令部　[NLINE]
+//ＢＦ２９－００７２　　中央作戦司令部　[NLINE]
+//ＢＨ０３－０４４３　　東方面作戦司令部[NLINE]
+//ＢＪ０５－０２４０　　中央作戦司令部　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＢＪ１７－０２３８　　東方面作戦司令部[END-FE]
+ [Control Number]         [Approver][NLINE]
+BF01-0021         Central Operations Command[NLINE]
+BF20-0349         Central Operations Command[NLINE]
+BF29-0072         Central Operations Command[NLINE]
+BH03-0443         Eastern Operations Command[NLINE]
+BJ05-0240         Central Operations Command[NLINE]
+　　:　　　　　　　　　     :　　　　[NLINE]
+　　:　　　　　　　　　     :　　　　[NLINE]
+　　:　　　　　　　　　     :　　　　[NLINE]
+　　:　　　　　　　　　     :　　　　[NLINE]
+BJ17-0238         Eastern Operations Command[END-FE]
+
+
+
+
+
+//POINTER #91 @ $2D8C - STRING #91 @ $4A77
+#W32($2D8C)
+//　【管理番号】　　　　【承認者】　　　[NLINE]
+//ＣＦ０１－０２０１　　中央作戦司令部　[NLINE]
+//ＣＦ２６－０１９３　　中央作戦司令部　[NLINE]
+//ＣＨ１１－０３６２　　東方面作戦司令部[NLINE]
+//ＣＨ２３－０１０４　　ジアント砦司令部[NLINE]
+//ＣＪ１５－０４４７　　中央作戦司令部　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//　　　　：　　　　　　　　　：　　　　[NLINE]
+//ＣＪ２０－０１７３　　北方面作戦司令部[END-FE]
+ [Control Number]         [Approver][NLINE]
+CF01-0201         Central Operations Command[NLINE]
+CF26-0193         Central Operations Command[NLINE]
+CH11-0362         Eastern Operations Command[NLINE]
+CH23-0104             Jiant Fortress Command[NLINE]
+CJ15-0447         Central Operations Command[NLINE]
+　　　　:　　　　　　　　　:　　　　[NLINE]
+　　　　:　　　　　　　　　:　　　　[NLINE]
+　　　　:　　　　　　　　　:　　　　[NLINE]
+　　　　:　　　　　　　　　:　　　　[NLINE]
+CJ20-0173      Northern Operations Command[END-FE]
+
+
+
+
+
+//POINTER #92 @ $2D90 - STRING #92 @ $4C30
+#W32($2D90)
+//　[NLINE]
+//すでに証拠の記録簿は入手した。[END-FE]
+[NLINE]
+You've already obtained evidence[NLINE]
+from the supply logbook.[END-FE]
+
+
+
+
+
+//POINTER #93 @ $2D94 - STRING #93 @ $4C55
+#W32($2D94)
+//　[NLINE]
+//机だ。[END-FE]
+[NLINE]
+It's a desk.[END-FE]
+
+
+
+
+
+//POINTER #94 @ $2D98 - STRING #94 @ $4C62
+#W32($2D98)
+//　[NLINE]
+//机だ。[END-FE]
+[NLINE]
+It's a desk.[END-FE]
+
+
+
+
+
+//POINTER #95 @ $2D9C - STRING #95 @ $4C6F
+#W32($2D9C)
+//　[NLINE]
+//暖炉だ。[END-FE]
+[NLINE]
+It's a fireplace.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $2DA0 - STRING #96 @ $4C7E
+#W32($2DA0)
+//[CHAR5E00][V1300]
+//私たちはここにいますから、[NLINE]
+//よろしくお願いします。[END-FE]
+[CHAR5E00][V1300]
+We will be here. Please take[NLINE]
+care of it.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $2DA4 - STRING #97 @ $4CBB
+#W32($2DA4)
+//[CHAR5E00][V1400]
+//証拠を見つけたんですね！[NLINE]
+//それでは、それをホフマンさんに。[END-FE]
+[CHAR5E00][V1400]
+You found the evidence![NLINE]
+You should go see Hofman.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $2DA8 - STRING #98 @ $4D00
+#W32($2DA8)
+//[CHAR5E00][V1500]
+//俺たちまでいなくなったら怪しまれるだろう？[NLINE]
+//アンタとユリィで行ってきてくれ。[END-FE]
+[CHAR5E00][V1500]
+They'll be suspicious if all of us are gone.[NLINE]
+You and Yurii should go.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $2DAC - STRING #99 @ $4D57
+#W32($2DAC)
+//[CHAR5E00][V1600]
+//記録を見つけたのか、[NLINE]
+//さすがだな。[END-FE]
+[CHAR5E00][V1600]
+You found the record?[NLINE]
+Good.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $2DB0 - STRING #100 @ $4D84
+#W32($2DB0)
+//[CHAR5E00][V1700]
+//ここで、リストにあった荷物を[NLINE]
+//調べれば良いんですね？[END-FE]
+[CHAR5E00][V1700]
+Shouldn't we check for the crates[NLINE]
+on the list?[END-FE]
+
+
+
+

@@ -1,0 +1,1152 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $4EA0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $4D20, 4, PTR)
+
+#JMP($4EA0)
+#HDR($4EA0)
+
+
+
+
+
+//POINTER #0 @ $4D20 - STRING #0 @ $4EA0
+#W32($4D20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $4D24 - STRING #1 @ $4EA3
+#W32($4D24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $4D28 - STRING #2 @ $4EB0
+#W32($4D28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $4D2C - STRING #3 @ $4ED5
+#W32($4D2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $4D30 - STRING #4 @ $4EFA
+#W32($4D30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $4D34 - STRING #5 @ $4F0F
+#W32($4D34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $4D38 - STRING #6 @ $4F34
+#W32($4D38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $4D3C - STRING #7 @ $4F59
+#W32($4D3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $4D40 - STRING #8 @ $4F8E
+#W32($4D40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $4D44 - STRING #9 @ $4FC3
+#W32($4D44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $4D48 - STRING #10 @ $4FE8
+#W32($4D48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $4D4C - STRING #11 @ $500D
+#W32($4D4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $4D50 - STRING #12 @ $5032
+#W32($4D50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $4D54 - STRING #13 @ $5047
+#W32($4D54)
+//[CHARE003][V8301]
+//ここで勝機をつかむっ！[END-FE]
+[CHARE003][V8301]
+Let's fight for victory![END-FE]
+
+
+
+
+
+//POINTER #14 @ $4D58 - STRING #14 @ $5068
+#W32($4D58)
+//[CHAR6500][V0000]
+//ザフリードは玉座の間にいるわ！[NLINE]
+//一気に最上階を目指しましょう！[END-FE]
+[CHAR6500][V0000]
+Zafreed is in the throne room![NLINE]
+Let's head straight for the[NLINE]
+highest floor![END-FE]
+
+
+
+
+
+//POINTER #15 @ $4D5C - STRING #15 @ $50B1
+#W32($4D5C)
+//[CHARE003][V9301]
+//さあ、行こうか！[END-FE]
+[CHARE003][V9301]
+Alright, let's go![END-FE]
+
+
+
+
+
+//POINTER #16 @ $4D60 - STRING #16 @ $50CC
+#W32($4D60)
+//[CHAR6600][V1A00]
+//ありがとう。[NLINE]
+//君たちのおかげで、革命が成功したよ。[END-FE]
+[CHAR6600][V1A00]
+Thank you. Because of you, the[NLINE]
+revolution succeeded.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $4D64 - STRING #17 @ $5109
+#W32($4D64)
+//[CHAR6600][V1B00]
+//マクスウェル兄様は[NLINE]
+//これからどうするのですか？[END-FE]
+[CHAR6600][V1B00]
+What will you do from here[NLINE]
+on out, brother?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $4D68 - STRING #18 @ $5142
+#W32($4D68)
+//[CHAR6600][V1C00]
+//私は裏方さ。[NLINE]
+//評議会のご意見役に徹するよ。[NWIN]
+//
+//[CHAR6600][V1D00]
+//それよりこれで、龍穴塔の攻略準備が[NLINE]
+//できるわけだな。[END-FE]
+[CHAR6600][V1C00]
+I'll be working from behind the[NLINE]
+scenes. I'll devote myself to the[NLINE]
+role suggested to me by the[NLINE]
+Revolutionary Council.[NWIN]
+
+[CHAR6600][V1D00]
+But more importantly, now we can[NLINE]
+prepare to attack the Ley Point[NLINE]
+Towers.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $4D6C - STRING #19 @ $51B5
+#W32($4D6C)
+//[CHAR6600][V1E00]
+//はい。[NLINE]
+//この世界にある４本の龍穴塔を[NLINE]
+//同時に攻略することになります。[END-FE]
+[CHAR6600][V1E00]
+Yes. We'll have to attack[NLINE]
+all four towers in the world[NLINE]
+at once.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $4D70 - STRING #20 @ $5204
+#W32($4D70)
+//[CHAR6600][V1F00]
+//確か、ヒンギスタン内には２本の[NLINE]
+//龍穴塔があったな。[END-FE]
+[CHAR6600][V1F00]
+If I remember right, there[NLINE]
+are two in Hingistan.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $4D74 - STRING #21 @ $5241
+#W32($4D74)
+//[CHAR6600][V2000]
+//早速、新生ヒンギスタンに[NLINE]
+//協力を求めることになりますね。[END-FE]
+[CHAR6600][V2000]
+We'll need to immediately request cooperation[NLINE]
+from the new Hingistani goverment.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $4D78 - STRING #22 @ $5284
+#W32($4D78)
+//[CHAR6600][V2100]
+//詳しいことが決まったら、[NLINE]
+//すぐに連絡してくれ。[END-FE]
+[CHAR6600][V2100]
+Once you've decided the details,[NLINE]
+contact me right away.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $4D7C - STRING #23 @ $52BD
+#W32($4D7C)
+//[CHAR5600][V3A00]
+//そうだな…。[NLINE]
+//これを持っていってくれ。[END-FE]
+[CHAR5600][V3A00]
+Oh, that's right...[NLINE]
+Please take this.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4D80 - STRING #24 @ $52EE
+#W32($4D80)
+//[CHAR6600][V2200]
+//それじゃ、私は事後処理があるので、[NLINE]
+//これで失礼する。[END-FE]
+[CHAR6600][V2200]
+Well then, I must go deal with[NLINE]
+the aftermath. Please excuse me.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4D84 - STRING #25 @ $532D
+#W32($4D84)
+//戻っている時間は無いわ！[NLINE]
+//進みましょう！[END-FE]
+There's no time to go back![NLINE]
+Let's push on![END-FE]
+
+
+
+
+
+//POINTER #26 @ $4D88 - STRING #26 @ $5358
+#W32($4D88)
+//[CHAR6500][V0100]
+//侵入者を排除するんだ！[END-FE]
+[CHAR6500][V0100]
+Remove the intruders![END-FE]
+
+
+
+
+
+//POINTER #27 @ $4D8C - STRING #27 @ $5379
+#W32($4D8C)
+//[CHAR6500][V0200]
+//あの開閉装置を放置して先へ進むと、[NLINE]
+//途中で挟み撃ちにされるわ！[NLINE]
+//破壊してから進みましょう！[END-FE]
+[CHAR6500][V0200]
+If we go on ahead without dealing[NLINE]
+with those lever-controlled barricades,[NLINE]
+we'll be caught in a pincer attack![NLINE]
+Let's destroy them before we advance![END-FE]
+
+
+
+
+
+//POINTER #28 @ $4D90 - STRING #28 @ $53DE
+#W32($4D90)
+//・左右の装置の破壊[END-FE]
+・Destroy the levers on the left and right[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4D94 - STRING #29 @ $53F3
+#W32($4D94)
+//[CHAR6500][V0300]
+//これで兵士の増援は防げますね！[END-FE]
+[CHAR6500][V0300]
+This will prevent reinforcements[NLINE]
+from reaching us![END-FE]
+
+
+
+
+
+//POINTER #30 @ $4D98 - STRING #30 @ $541C
+#W32($4D98)
+//[CHAR6500][V0300]
+//これで兵士の増援は防げますね！[NWIN]
+//
+//[CHAR6500][V0400]
+//あとはここにいる敵兵を倒せば、[NLINE]
+//背後の心配は無くなります！[NWIN]
+//
+//[CHAR6500][V0500]
+//皆さん、がんばってください！[END-FE]
+[CHAR6500][V0300]
+This will prevent reinforcements[NLINE]
+from reaching us![END-FE]
+
+[CHAR6500][V0400]
+And if we defeat all the enemy soldiers[NLINE]
+here, we won't have to worry about being[NLINE]
+attacked from behind![NWIN]
+
+[CHAR6500][V0500]
+Do your best, everyone![END-FE]
+
+
+
+
+
+//POINTER #31 @ $4D9C - STRING #31 @ $54AF
+#W32($4D9C)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #32 @ $4DA0 - STRING #32 @ $54BC
+#W32($4DA0)
+//[CHAR6500][V0700]
+//ちょっと待って！[NLINE]
+//開閉装置をそのままにしておくと、[NLINE]
+//途中で挟み撃ちにされるわ！[NLINE]
+//破壊してから進みましょう！[END-FE]
+[CHAR6500][V0700]
+Hold on![NLINE]
+If we go on ahead without dealing[NLINE]
+with those lever-controlled barricades,[NLINE]
+we'll be caught in a pincer attack![NLINE]
+Let's destroy them before we advance![END-FE]
+
+
+
+
+
+//POINTER #33 @ $4DA4 - STRING #33 @ $5531
+#W32($4DA4)
+//[CHAR6500][V0600]
+//これで安心して先に進めますね！[END-FE]
+[CHAR6500][V0600]
+Now we can safely proceed.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $4DA8 - STRING #34 @ $555A
+#W32($4DA8)
+//頼むぞ！[END-FE]
+I'm counting on you![END-FE]
+
+
+
+
+
+//POINTER #35 @ $4DAC - STRING #35 @ $5565
+#W32($4DAC)
+//先ずは、ここを切り抜けよう！[END-FE]
+Let's survive this first![END-FE]
+
+
+
+
+
+//POINTER #36 @ $4DB0 - STRING #36 @ $5584
+#W32($4DB0)
+//[CHAR6500][V0800]
+//正体を明かせぬ私は[NLINE]
+//これ以上進むわけにはいかない。[NWIN]
+//
+//[CHAR6500][V0900]
+//もっとも、以前のように戦えぬ私は[NLINE]
+//君たちの足手まといにしかならないがね。[END-FE]
+[CHAR6500][V0800]
+I can't go any further without[NLINE]
+revealing my identity.[NWIN]
+
+[CHAR6500][V0900]
+Besides, I can't fight like I used to,[NLINE]
+so I would just be a burden to you.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $4DB4 - STRING #37 @ $5613
+#W32($4DB4)
+//・任せろと言う[END-FE]
+・Leave it to us[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4DB8 - STRING #38 @ $5624
+#W32($4DB8)
+//・ウェンディのことを指摘[END-FE]
+・Point out Wendy is going[END-FE]
+
+
+
+
+
+//POINTER #39 @ $4DBC - STRING #39 @ $563F
+#W32($4DBC)
+//[CHAR6500][V0A00]
+//私はもともと側室の娘。[NLINE]
+//基本的に王位はないから。[END-FE]
+[CHAR6500][V0A00]
+I'm a daughter of a concubine.[NLINE]
+I have no right to the throne.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $4DC0 - STRING #40 @ $567A
+#W32($4DC0)
+//[CHAR6500][V0B00]
+//ここから先は君たちに頼るしかない。[NLINE]
+//頼むぞ！[END-FE]
+[CHAR6500][V0B00]
+I can only depend on you from here[NLINE]
+on out. I'm counting on you![END-FE]
+
+
+
+
+
+//POINTER #41 @ $4DC4 - STRING #41 @ $56B1
+#W32($4DC4)
+//敵を残して行ったら、[NLINE]
+//挟み撃ちされてしまうわ。[NLINE]
+//ここの敵を叩いておきましょう！[END-FE]
+If we leave these soldiers, we'll[NLINE]
+be caught in a pincer attack.[NLINE]
+Let's attack the enemy here![END-FE]
+
+
+
+
+
+//POINTER #42 @ $4DC8 - STRING #42 @ $5702
+#W32($4DC8)
+//[CHAR6500][V0700]
+//ちょっと待って！[NLINE]
+//開閉装置をそのままにしておくと、[NLINE]
+//途中で挟み撃ちにされるわ！[NLINE]
+//破壊してから進みましょう！[END-FE]
+[CHAR6500][V0700]
+Hold on![NLINE]
+If we go on ahead without dealing[NLINE]
+with those lever-controlled barricades,[NLINE]
+we'll be caught in a pincer attack![NLINE]
+Let's destroy them before we advance![END-FE]
+
+
+
+
+
+//POINTER #43 @ $4DCC - STRING #43 @ $5777
+#W32($4DCC)
+//に、兄様！[END-FE]
+M-Maxwell![END-FE]
+
+
+
+
+
+//POINTER #44 @ $4DD0 - STRING #44 @ $5784
+#W32($4DD0)
+//あぁ、マクスウェル様が！[END-FE]
+Aah! Commander Maxwell![END-FE]
+
+
+
+
+
+//POINTER #45 @ $4DD4 - STRING #45 @ $579F
+#W32($4DD4)
+//侵入者め！[NLINE]
+//ここから先へはいかせんぞ！[END-FE]
+Intruders! Don't let them[NLINE]
+get any further![END-FE]
+
+
+
+
+
+//POINTER #46 @ $4DD8 - STRING #46 @ $57C8
+#W32($4DD8)
+//戻っている時間は無いわ！[NLINE]
+//進みましょう！[END-FE]
+There's no time to go back![NLINE]
+Let's push on![END-FE]
+
+
+
+
+
+//POINTER #47 @ $4DDC - STRING #47 @ $57F3
+#W32($4DDC)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $4DE0 - STRING #48 @ $580A
+#W32($4DE0)
+//自動Ｄ　ＥＢ０８＿２前[END-FE]
+自動D EB08_2前[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4DE4 - STRING #49 @ $5823
+#W32($4DE4)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4DE8 - STRING #50 @ $583A
+#W32($4DE8)
+//自動Ｄ　ＥＢ０８＿２前[END-FE]
+自動D EB08_2前[END-FE]
+
+
+
+
+
+//POINTER #51 @ $4DEC - STRING #51 @ $5853
+#W32($4DEC)
+//[CHAR6600][V0000]
+//ここまで侵入を許すとは！[NLINE]
+//ふがいない兵士どもだ…。[END-FE]
+[CHAR6600][V0000]
+They allowed the intruders to reach[NLINE]
+the throne room! Those good-for-nothing[NLINE]
+simpletons...[END-FE]
+
+
+
+
+
+//POINTER #52 @ $4DF0 - STRING #52 @ $5890
+#W32($4DF0)
+//[CHAR6600][V0100]
+//ザフリード！[NLINE]
+//お前の悪事もここまでです！[END-FE]
+[CHAR6600][V0100]
+Zafreed! Your wrongdoings will[NLINE]
+end today![END-FE]
+
+
+
+
+
+//POINTER #53 @ $4DF4 - STRING #53 @ $58C3
+#W32($4DF4)
+//[CHAR6600][V0200]
+//これは誰かと思えば…、[NLINE]
+//お久しぶりですな、ウェンディアーナ姫。[END-FE]
+//Zafreed\\
+[CHAR6600][V0200]
+Well, well, well...[NLINE]
+It's been a long time, Princess Wendiana.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $4DF8 - STRING #54 @ $590C
+#W32($4DF8)
+//[CHAR6600][V0300]
+//兄を殺し、父を殺し、[NLINE]
+//国の民に害なす行動を許せません！[END-FE]
+//Wendy\\
+[CHAR6600][V0300]
+You killed my brother and my father![NLINE]
+You made the people of this country[NLINE]
+suffer! Those crimes are unforgiveable![END-FE]
+
+
+
+
+
+//POINTER #55 @ $4DFC - STRING #55 @ $594D
+#W32($4DFC)
+//[CHAR6600][V0400]
+//私を殺して、王位を奪うおつもりか？[END-FE]
+//Zafreed\\
+[CHAR6600][V0400]
+Do you intend to take the throne[NLINE]
+by killing me?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $4E00 - STRING #56 @ $597A
+#W32($4E00)
+//[CHAR6600][V0500]
+//いいえ…そんなことはしません。[NLINE]
+//…ヒンギスタンの一国民として、[NLINE]
+//お前を討ちます！[END-FE]
+//Wendy\\
+[CHAR6600][V0500]
+No... That's not my intention.[NLINE]
+...My intention is to defeat[NLINE]
+you as a citizen of Hingistan![END-FE]
+
+
+
+
+
+//POINTER #57 @ $4E04 - STRING #57 @ $59D5
+#W32($4E04)
+//[CHAR6600][V0600]
+//ならば、王家の血を絶やして、[NLINE]
+//我が力を絶対にするまで！[NWIN]
+//
+//[CHAR6600][V0700]
+//やつらを討ち取った者には[NLINE]
+//褒美を取らすぞ！[NLINE]
+//やれ！[END-FE]
+[CHAR6600][V0600]
+Then I shall eliminate the royal bloodline[NLINE]
+and make my power absolute![NWIN]
+
+[CHAR6600][V0700]
+I will reward those who[NLINE]
+kill them! Attack![END-FE]
+
+
+
+
+
+//POINTER #58 @ $4E08 - STRING #58 @ $5A52
+#W32($4E08)
+//・ザフリードの撃破[END-FE]
+・Defeat Zafreed[END-FE]
+
+
+
+
+
+//POINTER #59 @ $4E0C - STRING #59 @ $5A67
+#W32($4E0C)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #60 @ $4E10 - STRING #60 @ $5A7C
+#W32($4E10)
+//戦闘をスキップしますか？[END-FE]
+Would you like to skip the battle?[END-FE]
+
+
+
+
+//POINTER #61 @ $4E14 - STRING #61 @ $5A97
+#W32($4E14)
+//[CHAR6600][V0800]
+//魔法障壁、展開！[END-FE]
+[CHAR6600][V0800]
+Raise the magic barrier![END-FE]
+
+
+
+
+
+//POINTER #62 @ $4E18 - STRING #62 @ $5AB2
+#W32($4E18)
+//[CHAR6600][V0900]
+//はっ！[NLINE]
+//魔法障壁を張ります！[END-FE]
+[CHAR6600][V0900]
+Yes, my lord! Putting up the[NLINE]
+barrier![END-FE]
+
+
+
+
+
+//POINTER #63 @ $4E1C - STRING #63 @ $5AD9
+#W32($4E1C)
+//[CHAR6600][V0A00]
+//あの魔法使いを倒さないと、[NLINE]
+//ザフリードに手出しできないわ！[END-FE]
+[CHAR6600][V0A00]
+If we don't defeat those[NLINE]
+magic users, we can't get[NLINE]
+to Zafreed![END-FE]
+
+
+
+
+
+//POINTER #64 @ $4E20 - STRING #64 @ $5B1E
+#W32($4E20)
+//[CHAR6600][V0B00]
+//…我が声に応え、[NLINE]
+//友の魂を再びよみがえらせたまえ…！[END-FE]
+[CHAR6600][V0B00]
+...Spirits, answer my call![NLINE]
+Allow my comrades' soul to return[NLINE]
+to his body![END-FE]
+
+
+
+
+
+//POINTER #65 @ $4E24 - STRING #65 @ $5B5D
+#W32($4E24)
+//[CHAR6600][V0B00]
+//…我が声に応え、[NLINE]
+//友の魂を再びよみがえらせたまえ…！[END-FE]
+[CHAR6600][V0B00]
+...Spirits, answer my call![NLINE]
+Allow my comrades' soul to return[NLINE]
+to his body![END-FE]
+
+
+
+
+//POINTER #66 @ $4E28 - STRING #66 @ $5B9C
+#W32($4E28)
+//[CHAR6600][V0B00]
+//…我が声に応え、[NLINE]
+//友の魂を再びよみがえらせたまえ…！[END-FE]
+[CHAR6600][V0B00]
+...Spirits, answer my call![NLINE]
+Allow my comrades' soul to return[NLINE]
+to his body![END-FE]
+
+
+
+
+//POINTER #67 @ $4E2C - STRING #67 @ $5BDB
+#W32($4E2C)
+//[CHAR6600][V0B00]
+//…我が声に応え、[NLINE]
+//友の魂を再びよみがえらせたまえ…！[END-FE]
+[CHAR6600][V0B00]
+...Spirits, answer my call![NLINE]
+Allow my comrades' soul to return[NLINE]
+to his body![END-FE]
+
+
+
+
+//POINTER #68 @ $4E30 - STRING #68 @ $5C1A
+#W32($4E30)
+//[CHAR6600][V0B00]
+//…我が声に応え、[NLINE]
+//友の魂を再びよみがえらせたまえ…！[END-FE]
+[CHAR6600][V0B00]
+...Spirits, answer my call![NLINE]
+Allow my comrades' soul to return[NLINE]
+to his body![END-FE]
+
+
+
+
+//POINTER #69 @ $4E34 - STRING #69 @ $5C59
+#W32($4E34)
+//[CHAR6600][V0B00]
+//…我が声に応え、[NLINE]
+//友の魂を再びよみがえらせたまえ…！[END-FE]
+[CHAR6600][V0B00]
+...Spirits, answer my call![NLINE]
+Allow my comrades' soul to return[NLINE]
+to his body![END-FE]
+
+
+
+
+//POINTER #70 @ $4E38 - STRING #70 @ $5C98
+#W32($4E38)
+//……魂の結びつきよ……[END-FE]
+...Soul Bind...[END-FE]
+
+
+
+
+
+//POINTER #71 @ $4E3C - STRING #71 @ $5CB1
+#W32($4E3C)
+//[CHAR6600][V0C00]
+//仲間を復活させた!?[END-FE]
+[CHAR6600][V0C00]
+He revived his ally!?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $4E40 - STRING #72 @ $5CCE
+#W32($4E40)
+//[CC.EAEDFF]のＭＰが尽きた[END-FE]
+[CC.EAEDFF]'s MP has run out.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $4E44 - STRING #73 @ $5CE3
+#W32($4E44)
+//ぐぅ…精神力が…もう…。[END-FE]
+Ugh... No more... spiritual energy...[END-FE]
+
+
+
+
+
+//POINTER #74 @ $4E48 - STRING #74 @ $5CFE
+#W32($4E48)
+//精神力を消耗しすぎて自滅するなんて…。[NLINE]
+//あの障壁を支えるために、[NLINE]
+//精神を直結していたのですね。[END-FE]
+He died because he used too much[NLINE]
+of his spiritual energy. It seems[NLINE]
+he directly connected his spirit to[NLINE]
+that barrier in order to support it.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $4E4C - STRING #75 @ $5D5F
+#W32($4E4C)
+//精神力が…尽きます…[END-FE]
+My spiritual energy... has ran out...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $4E50 - STRING #76 @ $5D76
+#W32($4E50)
+//[CHAR6600][V0E00]
+//ぐ、ザフリード様…、[NLINE]
+//もうしわけありません…。[END-FE]
+[CHAR6600][V0E00]
+L-lord Zafreed, forgive me...[END-FE]
+
+
+
+
+
+
+//POINTER #77 @ $4E54 - STRING #77 @ $5DAF
+#W32($4E54)
+//[CHAR6600][V0D00]
+//なんだとっ？[NLINE]
+//私が自ら鍛えた魔法部隊が!?[END-FE]
+[CHAR6600][V0D00]
+What!? My personally trained magic[NLINE]
+unit has failed!?[END-FE]
+
+
+
+
+
+//POINTER #78 @ $4E58 - STRING #78 @ $5DE2
+#W32($4E58)
+//[CHAR6600][V0F00]
+//ぬおぉっ、まずい！[NLINE]
+//魔法障壁がっ!?[END-FE]
+[CHAR6600][V0F00]
+Aaaagh! The magic barrier!?[END-FE]
+
+
+
+
+
+//POINTER #79 @ $4E5C - STRING #79 @ $5E0F
+#W32($4E5C)
+//[CHAR6600][V1000]
+//私自らが相手をしてやろう。[NLINE]
+//ヒンギスタン一の大魔導師[NLINE]
+//ザフリード様自らがな！[END-FE]
+[CHAR6600][V1000]
+Very well. I, the greatest sorceror of[NLINE]
+Hingistan, will be your opponent![END-FE]
+
+
+
+
+
+//POINTER #80 @ $4E60 - STRING #80 @ $5E66
+#W32($4E60)
+//[CHAR6600][V1100]
+//ええい！[NLINE]
+//私をここまで追いこむとは…！[END-FE]
+[CHAR6600][V1100]
+Grrr! To think you've driven[NLINE]
+me this far..![END-FE]
+
+
+
+
+
+//POINTER #81 @ $4E64 - STRING #81 @ $5E97
+#W32($4E64)
+//[CHAR6600][V1200]
+//…う、バカな…、[NLINE]
+//この私が…、[NLINE]
+//…ぐ…！[END-FE]
+[CHAR6600][V1200]
+...I-impossible...[NLINE]
+how could I of all people...?[NLINE]
+...Ugh...![END-FE]
+
+
+
+
+
+//POINTER #82 @ $4E68 - STRING #82 @ $5ECA
+#W32($4E68)
+//[CHAR6600][V1300]
+//おおっ、[NLINE]
+//やったのか!?[END-FE]
+[CHAR6600][V1300]
+Oh! You did it!?[END-FE]
+
+
+
+
+
+//POINTER #83 @ $4E6C - STRING #83 @ $5EEB
+#W32($4E6C)
+//[CHAR6600][V1400]
+//俺たち、勝ったんだな！[END-FE]
+[CHAR6600][V1400]
+We won![END-FE]
+
+
+
+
+
+//POINTER #84 @ $4E70 - STRING #84 @ $5F0C
+#W32($4E70)
+//[CHAR6600][V1500]
+//あなたの悪事もここまでよ、[NLINE]
+//ザフリード。[NLINE]
+//あなたの身柄を拘束します！[END-FE]
+[CHAR6600][V1500]
+Your despotism ends here, Zafreed.[NLINE]
+You'll be taken into custody![END-FE]
+
+
+
+
+
+//POINTER #85 @ $4E74 - STRING #85 @ $5F5B
+#W32($4E74)
+//[CHAR6600][V1600]
+//…くっ…！[END-FE]
+[CHAR6600][V1600]
+...Ugh...![END-FE]
+
+
+
+
+
+//POINTER #86 @ $4E78 - STRING #86 @ $5F70
+#W32($4E78)
+//[CHAR6600][V1700]
+//奴はどうなるんだ？[END-FE]
+[CHAR6600][V1700]
+What will become of him?[END-FE]
+
+
+
+
+
+//POINTER #87 @ $4E7C - STRING #87 @ $5F8D
+#W32($4E7C)
+//[CHAR6600][V1800]
+//市民による革命評議会が[NLINE]
+//処断することになるわ。[END-FE]
+[CHAR6600][V1800]
+He'll be sentenced by the Revolutionary[NLINE]
+Council.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $4E80 - STRING #88 @ $5FC6
+#W32($4E80)
+//[CHAR6600][V1900]
+//これでヒンギスタンは[NLINE]
+//民主化の道を進むことになるのね。[END-FE]
+[CHAR6600][V1900]
+Now Hingistan has been put on the[NLINE]
+road towards democracy.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $4E84 - STRING #89 @ $6007
+#W32($4E84)
+//警備隊員[END-FE]
+Guard[END-FE]
+
+
+
+
+
+//POINTER #90 @ $4E88 - STRING #90 @ $6012
+#W32($4E88)
+//君たちがいなければ[NLINE]
+//ザフリードは倒せなかっただろう。[NWIN]
+//
+//本当にありがとう！[END-FE]
+If you weren't here, we never would[NLINE]
+have beaten Zafreed.[NWIN]
+
+Thank you so much![END-FE]
+
+
+
+
+
+//POINTER #91 @ $4E8C - STRING #91 @ $605D
+#W32($4E8C)
+//これで圧政から解放されたよ。[NLINE]
+//ありがとう。[END-FE]
+Now we're free from the[NLINE]
+shackles of tyranny.[NLINE]
+Thank you.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $4E90 - STRING #92 @ $608A
+#W32($4E90)
+//…[CC.D80F]…[CC.D80F]…。[END-FE]
+...[CC.D80F]...[CC.D80F]...[END-FE]
+
+
+
+

@@ -1,0 +1,5729 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $BF60, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $B920, 4, PTR)
+
+#JMP($BF60)
+#HDR($BF60)
+
+
+
+
+
+//POINTER #0 @ $B920 - STRING #0 @ $BF60
+#W32($B920)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $B924 - STRING #1 @ $BF63
+#W32($B924)
+//ウェルバー[END-FF]
+Wellber[END-FF]
+
+
+
+
+
+//POINTER #2 @ $B928 - STRING #2 @ $BF70
+#W32($B928)
+//ヒンギスタン国兵士長[END-FF]
+Hingistani Army Captain[END-FF]
+
+
+
+
+
+//POINTER #3 @ $B92C - STRING #3 @ $BF87
+#W32($B92C)
+//ヒンギスタン国兵士[END-FF]
+Hingistani Army Captain[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B930 - STRING #4 @ $BF9C
+#W32($B930)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #5 @ $B934 - STRING #5 @ $BFA9
+#W32($B934)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $B938 - STRING #6 @ $BFCE
+#W32($B938)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $B93C - STRING #7 @ $BFF3
+#W32($B93C)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $B940 - STRING #8 @ $C008
+#W32($B940)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #9 @ $B944 - STRING #9 @ $C02D
+#W32($B944)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #10 @ $B948 - STRING #10 @ $C052
+#W32($B948)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $B94C - STRING #11 @ $C087
+#W32($B94C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $B950 - STRING #12 @ $C0BC
+#W32($B950)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $B954 - STRING #13 @ $C0E1
+#W32($B954)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $B958 - STRING #14 @ $C106
+#W32($B958)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $B95C - STRING #15 @ $C12B
+#W32($B95C)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #16 @ $B960 - STRING #16 @ $C140
+#W32($B960)
+//ウェンディ\\
+//[CHAR5200][V2400]
+//シザーズもモノポリス社の船がよく来るし、[NLINE]
+//となると、レイスタンが一番ね。[END-FE]
+//Wendy\\
+[CHAR5200][V2400]
+Monopolis ships often come to Schizarz, so it's[NLINE]
+best if we go to Leystan.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $B964 - STRING #17 @ $C193
+#W32($B964)
+//ウェンディ\\
+//戻っているヒマはないわ！[END-FE]
+//Wendy\\
+We don't have time to go back![END-FE]
+
+
+
+
+
+//POINTER #18 @ $B968 - STRING #18 @ $C1AE
+#W32($B968)
+//ユリィ\\
+//[CHARCD00][V3900]
+//彼女は敵として出会わなければ[NLINE]
+//本当は悪い人ではないのかも[NLINE]
+//知れませんね。[END-FE]
+//Yurii\\
+[CHARCD00][V3900]
+When she isn't our enemy, she's[NLINE]
+actually not a bad person.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $B96C - STRING #19 @ $C201
+#W32($B96C)
+//デバッグ部屋へ行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $B970 - STRING #20 @ $C218
+#W32($B970)
+//自動Ｄ　ＥＢ０１＿０３前[END-FE]
+自動D EB01_03前[END-FE]
+
+
+
+
+
+//POINTER #21 @ $B974 - STRING #21 @ $C233
+#W32($B974)
+//ウェンディ\\
+//今戻ってどうするのよ!?[END-FE]
+//Wendy\\
+What's the point of going back now!?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $B978 - STRING #22 @ $C24C
+#W32($B978)
+//シュヴァイツァー\\
+//[CHAR0B00][V0A00]
+//…状況が変わった。[NLINE]
+//テロリストどもの始末は、[NLINE]
+//お前たち２人に任せる。[END-FE]
+//Shuweizer\\
+[CHAR0B00][V0A00]
+...The situation has changed.[NLINE]
+I'll leave you two to deal with[NLINE]
+the terrorists.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $B97C - STRING #23 @ $C29B
+#W32($B97C)
+//ウェンディ\\
+//[CHAR0B00][V0B00]
+//えっ？[NLINE]
+//シュヴァイツァー様は？[END-FE]
+//Wendy\\
+[CHAR0B00][V0B00]
+Huh? What will you do,[NLINE]
+Captain Shuweizer?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $B980 - STRING #24 @ $C2C4
+#W32($B980)
+//シュヴァイツァー\\
+//[CHAR0B00][V0C00]
+//他にやることができた。[NLINE]
+//ここからは別行動だ。[NWIN]
+//
+//[CHAR0B00][V0D00]
+//お前たちがテロリストを始末した頃、[NLINE]
+//俺の任務も終わるだろう。[NWIN]
+//
+//[CHAR0B00][V0E00]
+//それが終わったら、[NLINE]
+//すみやかにこの村へ撤収しろ。[NWIN]
+//
+//[CHAR0B00][V0F00]
+//船のところで待ち合わせる。[END-FE]
+//Shuweizer\\
+[CHAR0B00][V0C00]
+There's something else I must do.[NLINE]
+We will act separately from here on out.[NWIN]
+
+[CHAR0B00][V0D00]
+By the time you have dealt with the[NLINE]
+terrorists, my duty will most likely be[NLINE]
+over as well.[NWIN]
+
+[CHAR0B00][V0E00]
+When you're finished, quickly[NLINE]
+make your way back to this village.[NWIN]
+
+[CHAR0B00][V0F00]
+Meet me at the boat.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $B984 - STRING #25 @ $C39F
+#W32($B984)
+//ウェンディ\\
+//[CHAR0B00][V1000]
+//は、はぁ…。[END-FE]
+//Wendy\\
+[CHAR0B00][V1000]
+Y-yes, sir...[END-FE]
+
+
+
+
+
+//POINTER #26 @ $B988 - STRING #26 @ $C3B6
+#W32($B988)
+//シュヴァイツァー\\
+//[CHAR0B00][V1100]
+//テロリストの始末が終わっても[NLINE]
+//兵士にお前たちの姿を見られるな。[NWIN]
+//
+//[CHAR0B00][V1200]
+//モノポリス社が[NLINE]
+//いらぬ誤解を受けてはたまらぬ。[NWIN]
+//
+//[CHAR0B00][V1300]
+//この任務は責任重大だ。[NLINE]
+//頼むぞ。[END-FE]
+//Shuweizer\\
+[CHAR0B00][V1100]
+Even after you've dealt with the[NLINE]
+terrorists, don't let yourselves[NLINE]
+be seen by the soldiers.[NWIN]
+
+[CHAR0B00][V1200]
+Monopolis doesn't want any[NLINE]
+unneccesary misunderstandings.[NWIN]
+
+[CHAR0B00][V1300]
+This mission is of utmost[NLINE]
+importance. I'm counting[NLINE]
+on you.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $B98C - STRING #27 @ $C461
+#W32($B98C)
+//ウェンディ\\
+//[CHAR3C00][V1300]
+//それじゃ、急ぎましょう！[NLINE]
+//寄り道なんてしている暇はないわ！[END-FE]
+//Wendy\\
+[CHAR3C00][V1300]
+Well then, let's hurry![NLINE]
+We don't have time to make any detours![END-FE]
+
+
+
+
+
+//POINTER #28 @ $B990 - STRING #28 @ $C4A6
+#W32($B990)
+//時間をゼロにしますか？[END-FE]
+時間をゼロにしますか？[END-FE]
+
+
+
+
+
+//POINTER #29 @ $B994 - STRING #29 @ $C4BF
+#W32($B994)
+//・時間切れ[NLINE]
+//・パーティーの全滅[END-FE]
+・Time runs out[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #30 @ $B998 - STRING #30 @ $C4E0
+#W32($B998)
+//時間制限や残り時間があるとき、画面右上に[NLINE]
+//残り時間のメーターが表示されます。　　　[NLINE]
+//時間がなくならないよう注意してください。[END-FE]
+//System Message\\
+The meter in the top right of the[NLINE]
+screen shows the remaining time.[NLINE]
+Make sure not to let time run[NLINE]
+out.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $B99C - STRING #31 @ $C55F
+#W32($B99C)
+//残り時間[END-FE]
+//System Message\\
+Time left[END-FE]
+
+
+
+
+
+//POINTER #32 @ $B9A0 - STRING #32 @ $C56A
+#W32($B9A0)
+//残り時間[END-FE]
+//System Message\\
+Time left[END-FE]
+
+
+
+
+
+//POINTER #33 @ $B9A4 - STRING #33 @ $C575
+#W32($B9A4)
+//残り時間[END-FE]
+//System Message\\
+Time left[END-FE]
+
+
+
+
+
+//POINTER #34 @ $B9A8 - STRING #34 @ $C580
+#W32($B9A8)
+//ウェンディ\\
+//この音は！[END-FE]
+//Wendy\\
+Those noises![END-FE]
+
+
+
+
+
+//POINTER #35 @ $B9AC - STRING #35 @ $C58D
+#W32($B9AC)
+//ユリィ\\
+//[CHAR2E00][V0F00]
+//これはトランス・ゲートですよね？[NLINE]
+//停止状態のようですが…。[NWIN]
+//
+//[CHAR2E00][V1000]
+//あのゲートオープナーを使えば[NLINE]
+//機能を修復出来るのではないでしょうか？[END-FE]
+//Yurii\\
+[CHAR2E00][V0F00]
+This is a Transgate, correct?[NLINE]
+It seems to have stopped working.[NWIN]
+
+[CHAR2E00][V1000]
+If we used that gate opener,[NLINE]
+couldn't we restore function to it?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $B9B0 - STRING #36 @ $C620
+#W32($B9B0)
+//ウェンディ\\
+//目的地はジアント山のそば…。[NLINE]
+//トランス・ゲートを使うと、遠回りよ。[NWIN]
+//
+//それに寄り道していると、[NLINE]
+//イリスさんの体に負担がかかるわ。[END-FE]
+//Wendy\\
+Our destination is near Jiant Mountain.[NLINE]
+Using a Transgate would be the[NLINE]
+long way around.[NWIN]
+
+Besides, traveling longer than neccessary[NLINE]
+would put needless strain on Iris' body.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $B9B4 - STRING #37 @ $C6A1
+#W32($B9B4)
+//　[NLINE]
+//トランス・ゲートのようだが、機能していない。[END-FE]
+//System Message\\
+It looks like a Transgate, but it's[NLINE]
+not working.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $B9B8 - STRING #38 @ $C6D4
+#W32($B9B8)
+//　[NLINE]
+//既にゲートは使えるようになっている。[END-FE]
+//System Message\\
+[NLINE]
+The gate is already ready to be used.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $B9BC - STRING #39 @ $C6FF
+#W32($B9BC)
+//ネーリス\\
+//[CHARCD00][V1C00]
+//センサー類不調…[NLINE]
+//自己修復モードに移行…。[END-FE]
+//Neilis\\
+[CHARCD00][V1C00]
+Sensor in poor condition...[NLINE]
+Switching to Self-Repair Mode...[END-FE]
+
+
+
+
+
+//POINTER #40 @ $B9C0 - STRING #40 @ $C734
+#W32($B9C0)
+//ユリィ\\
+//[CHARCD00][V1D00]
+//えっ？[NLINE]
+//勇者様、あれは…。[END-FE]
+//Yurii\\
+[CHARCD00][V1D00]
+Hmm? Brave One, that's...[END-FE]
+
+
+
+
+
+//POINTER #41 @ $B9C4 - STRING #41 @ $C759
+#W32($B9C4)
+//ネーリス\\
+//[CHARCD00][V1E00]
+//誰だ…。[NLINE]
+//すまないが、今の私はカメラの不調で[NLINE]
+//ハッキリと物を見ることが出来ない。[NLINE]
+//それに聴覚センサーにも不具合が出ている。[END-FE]
+//Neilis\\
+[CHARCD00][V1E00]
+Who's there...? My apologies, my[NLINE]
+camera is currently in poor condition[NLINE]
+and I'm unable see things clearly.[NLINE]
+The performance of my hearing sensor[NLINE]
+also seems to have diminished.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $B9C8 - STRING #42 @ $C7DE
+#W32($B9C8)
+//ユリィ\\
+//[CHARCD00][V1F00]
+//（勇者様、たしかネーリスという敵です。[NLINE]
+//　どうやらこちらに[NLINE]
+//　気付いていないようですが…。）[NWIN]
+//
+//[CHARCD00][V2000]
+//（とりあえず、私は黙っております。）[END-FE]
+//Yurii\\
+[CHARCD00][V1F00]
+(Brave One, this is the very same[NLINE]
+ Neilis who fought against us earlier.[NLINE]
+ Apparently, she isn't aware of me and the others...)[NWIN]
+
+[CHARCD00][V2000]
+(I'll stay quiet for the time[NLINE]
+ being.)[END-FE]
+
+
+
+
+
+//POINTER #43 @ $B9CC - STRING #43 @ $C873
+#W32($B9CC)
+//ネーリス\\
+//[CHARCD00][V2100]
+//…この感覚…以前会ったことがあるな…。[NLINE]
+//たしか封印の大陸で。[NWIN]
+//
+//[CH.FACE:Sad][CHARCD00][V2200]
+//そういえばあの時もカメラの不調で[NLINE]
+//何も見えぬ時だったな。[NLINE]
+//まったく、この身体にも困った物だ。[NWIN]
+//
+//[CH.FACE:Normal][CHARCD00][V2300]
+//…そうか、[NLINE]
+//お前もこちらの大陸に来ていたのか。[NLINE]
+//だとするとモノポリス社の関係者だな。[NWIN]
+//
+//[CHARCD00][V2400]
+//ならば都合が良い。[NLINE]
+//少し質問をさせてくれ。[NWIN]
+//
+//[CHARCD00][V2500]
+//お前はインフィ…いや、ブランドル総帥が[NLINE]
+//どこにいるか知っているか？[END-FE]
+//Neilis\\
+[CHARCD00][V2100]
+This feeling... I have met you[NLINE]
+before... Yes... We've met on[NLINE]
+the Sealed Continent.[NWIN]
+
+[CH.FACE:Sad][CHARCD00][V2200]
+At that time, my camera was in[NLINE]
+poor condition as well.[NLINE]
+Hmmpf, this body is becoming quite[NLINE]
+the burden...[NWIN]
+
+[CH.FACE:Normal][CHARCD00][V2300]
+...So, you also came to this[NLINE]
+continent? Then you must have[NLINE]
+some relation to Monopolis as well.[NWIN]
+
+[CHARCD00][V2400]
+That's convenient.[NLINE]
+Let me ask you some questions.[NWIN]
+
+[CHARCD00][V2500]
+Do you know where Lord Infi-no,[NLINE]
+Chairman Brandole is?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $B9D0 - STRING #44 @ $CA06
+#W32($B9D0)
+//・モノポリス本社[END-FE]
+・At Monopolis Headquarters[END-FE]
+
+
+
+
+
+//POINTER #45 @ $B9D4 - STRING #45 @ $CA19
+#W32($B9D4)
+//・わからない[END-FE]
+・I don't know[END-FE]
+
+
+
+
+
+//POINTER #46 @ $B9D8 - STRING #46 @ $CA28
+#W32($B9D8)
+//ネーリス\\
+//[CHARCD00][V2600]
+//それは一週間前までの話だろう。[NLINE]
+//今はそこにいないのだ。[END-FE]
+//Neilis\\
+[CHARCD00][V2600]
+He was until one week ago.[NLINE]
+Now he's not there.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $B9DC - STRING #47 @ $CA69
+#W32($B9DC)
+//ネーリス\\
+//[CHARCD00][V2700]
+//そうか知らないか。[NLINE]
+//一週間前までは本社にいたのだが…。[END-FE]
+//Neilis\\
+[CHARCD00][V2700]
+I see, so you don't know either.[NLINE]
+He was at headquarters until one week[NLINE]
+ago...[END-FE]
+
+
+
+
+
+//POINTER #48 @ $B9E0 - STRING #48 @ $CAAA
+#W32($B9E0)
+//ネーリス\\
+//[CHARCD00][V2800]
+//私はこんな姿をしているからな。[NLINE]
+//事情を知らぬ社員に[NLINE]
+//姿を見られるわけにはいかない。[NWIN]
+//
+//[CH.FACE:Normal][CHARCD00][V2900]
+//お前だけには教えるが、[NLINE]
+//私は総帥直属の兵なのだぞ、[NLINE]
+//すごいだろう？[NWIN]
+//
+//[CHARCD00][V2A00]
+//私はあの方に遙か昔から仕えている。[NLINE]
+//それはもうお前になど想像もつかぬほど[NLINE]
+//遙か昔からだ。[NWIN]
+//
+//[CHARCD00][V2B00]
+//私はこんな姿をしているからな。[NLINE]
+//生身の人間にはこなせぬ任務も[NLINE]
+//こなすことが出来るんだ。[NWIN]
+//
+//[CH.FACE:Sad][CHARCD00][V2C00]
+//人間にはこなせぬ任務…。[NLINE]
+//…なのに一度もお褒めの言葉を[NLINE]
+//頂いたことがない…なぜなのだ…？[NWIN]
+//
+//[CHARCD00][V2D00]
+//私より大した任務を与えられなかった者が[NLINE]
+//あのお方にお褒めの言葉を頂いているのを[NLINE]
+//見たことがある。[NWIN]
+//
+//[CHARCD00][V2E00]
+//なのに、どうして私は誉めてもらえぬ？[NLINE]
+//私が生身の人間ではないからなのか？[NWIN]
+//
+//[CH.FACE:Angry][CHARCD00][V2F00]
+//お前も生身の人間なら、教えてくれ！[NLINE]
+//どうして私は誉めてもらえないのだろう？[END-FE]
+//Neilis\\
+[CHARCD00][V2800]
+Because of my mechnical body, I[NLINE]
+can't afford to be seen by company members[NLINE]
+who don't know what I am.[NWIN]
+
+[CH.FACE:Normal][CHARCD00][V2900]
+You're the only one to who I will tell this: I'm a[NLINE]
+soldier who directly reports to the[NLINE]
+chairman. An incredible honor, don't you agree?[NWIN]
+
+[CHARCD00][V2A00]
+I have served him for a very[NLINE]
+long time. You couldn't possibly[NLINE]
+imagine for how long.[NWIN]
+
+[CHARCD00][V2B00]
+Because I'm an artifical human, I[NLINE]
+can carry out missions that[NLINE]
+humans of flesh and blood cannot do.[NWIN]
+
+[CH.FACE:Sad][CHARCD00][V2C00]
+Mission completely impossible for ordinary humans...[NLINE]
+And yet, I never received even one single word[NLINE]
+of praise... Why is that?[NWIN]
+
+[CHARCD00][V2D00]
+I have seen him praise others[NLINE]
+who were given less important tasks[NLINE]
+than mine.[NWIN]
+
+[CHARCD00][V2E00]
+So why is it that I have never receive any[NLINE]
+praise? Is it because I'm not[NLINE]
+an organic human?[NWIN]
+
+[CH.FACE:Angry][CHARCD00][V2F00]
+You are an organic human, so[NLINE]
+tell me! Why don't I receive[NLINE]
+any praise?[END-FE]
+
+
+
+
+
+//POINTER #49 @ $B9E4 - STRING #49 @ $CD93
+#W32($B9E4)
+//・何か失敗しているから[END-FE]
+・Because you failed at something[END-FE]
+
+
+
+
+
+//POINTER #50 @ $B9E8 - STRING #50 @ $CDAC
+#W32($B9E8)
+//・総帥が気にしていないから[END-FE]
+・Because the chairman doesn't[NLINE]
+   bother with giving compliments[END-FE]
+
+
+
+
+
+//POINTER #51 @ $B9EC - STRING #51 @ $CDC9
+#W32($B9EC)
+//・総帥にしかわからない[END-FE]
+・Only the chairman knows[END-FE]
+
+
+
+
+
+//POINTER #52 @ $B9F0 - STRING #52 @ $CDE2
+#W32($B9F0)
+//ネーリス\\
+//[CHARCD00][V3000]
+//…やはりそうか…。[NLINE]
+//私に至らぬところがあるのだな。[NWIN]
+//
+//[CHARCD00][V3100]
+//ならば、よりいっそう、[NLINE]
+//あのお方のために励まねば…。[END-FE]
+//Neilis\\
+[CHARCD00][V3000]
+...Just as I expected....[NLINE]
+It's all my fault.[NWIN]
+
+[CHARCD00][V3100]
+I should have worked even[NLINE]
+harder for his sake...[END-FE]
+
+
+
+
+
+//POINTER #53 @ $B9F4 - STRING #53 @ $CE5D
+#W32($B9F4)
+//ネーリス\\
+//[CHARCD00][V3200]
+//そうなのだろうか？[NLINE]
+//あのお方が他の人間を誉めているのを[NLINE]
+//見たことはある。[NWIN]
+//
+//[CHARCD00][V3300]
+//きっと私には至らぬ点があるのだろう。[NLINE]
+//もっと気をつけねば。[END-FE]
+//Neilis\\
+[CHARCD00][V3200]
+Is that really the reason?[NLINE]
+I've seen him praise other people[NLINE]
+before.[NWIN]
+
+[CHARCD00][V3300]
+Surely I'm the one who is at fault here.[NLINE]
+I should have been more careful.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $B9F8 - STRING #54 @ $CEF4
+#W32($B9F8)
+//ネーリス\\
+//[CHARCD00][V3400]
+//…そうだな…。[NWIN]
+//
+//[CHARCD00][V3500]
+//あのお方は我々の想像もつかない[NLINE]
+//崇高な思考をされている。[NLINE]
+//我々にはわからぬ基準があるのだろう。[END-FE]
+//Neilis\\
+[CHARCD00][V3400]
+...You're right...[NWIN]
+
+[CHARCD00][V3500]
+You and me cannot begin to comprehend[NLINE]
+his noble mind. The standards by which he[NLINE]
+judges individuals are unfathomable to the[NLINE]
+likes of us.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $B9FC - STRING #55 @ $CF75
+#W32($B9FC)
+//ネーリス\\
+//[CHARCD00][V3600]
+//ありがとう。[NLINE]
+//お前に話を聞いて貰えてよかった。[NWIN]
+//
+//[CHARCD00][V3700]
+//こんな私のために、[NLINE]
+//時間を取らせてしまったな。[NWIN]
+//
+//[CHARCD00][V3800]
+//私の自己修復は間もなく終わる。[NLINE]
+//心配せずに行ってくれ。[END-FE]
+//Neilis\\
+[CHARCD00][V3600]
+Thank you. I'm glad you and I had[NLINE]
+this conversation.[NWIN]
+
+[CHARCD00][V3700]
+I'm sorry to have taken up so[NLINE]
+much of your time.[NWIN]
+
+[CHARCD00][V3800]
+My self-repairs will soon[NLINE]
+be finished. Please go ahead,[NLINE]
+don't worry about me.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $BA00 - STRING #56 @ $D026
+#W32($BA00)
+//ネーリス\\
+//私の自己修復は間もなく終わる。[NLINE]
+//心配せずに行ってくれ。[END-FE]
+//Neilis\\
+My self-repairs will soon[NLINE]
+be finished. Please go ahead,[NLINE]
+don't worry about me.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $BA04 - STRING #57 @ $D05F
+#W32($BA04)
+//ホフマン\\
+//[CHAR2900][V0100]
+//ジアント山は[NLINE]
+//ここを西にまっすぐだ。[END-FE]
+//Hofman\\
+[CHAR2900][V0100]
+Jiant Mountain lies directly[NLINE]
+west of here.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $BA08 - STRING #58 @ $D08E
+#W32($BA08)
+//イリステレサ\\
+//[CHAR4400][V0000]
+//『大地の祈り』のアジトは西です。[NLINE]
+//急ぎましょう。[END-FE]
+//Iristelessa\\
+[CHAR4400][V0000]
+The hideout of Earth's Grace lies[NLINE]
+west of here. Let us make haste.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $BA0C - STRING #59 @ $D0C9
+#W32($BA0C)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $BA10 - STRING #60 @ $D0E0
+#W32($BA10)
+//自動Ｄ　ＥＢ０５＿４前[END-FE]
+自動D EB05_4前[END-FE]
+
+
+
+
+
+//POINTER #61 @ $BA14 - STRING #61 @ $D0F9
+#W32($BA14)
+//ウェンディ\\
+//ちょっと、どこへ行くのよ！[NLINE]
+//イリスさんの体に負担をかけないためにも、[NLINE]
+//西のジアント山へ急ぎましょう！[END-FE]
+//Wendy\\
+Hey, where do you think you're going!?[NLINE]
+Let's hurry up and go to Jiant Mountain![NLINE]
+Otherwise we'll put a strain on Iris' body![END-FE]
+
+
+
+
+
+//POINTER #62 @ $BA18 - STRING #62 @ $D160
+#W32($BA18)
+//ウェンディ\\
+//イリスさんって、大人の女性って感じよね。[NLINE]
+//彼女みたいな人がタイプなんだ…。[END-FE]
+//Wendy\\
+Iris always sounds so mature, doesn't she?[NLINE]
+Are you into girls like her?[END-FE]
+
+
+
+
+
+//POINTER #63 @ $BA1C - STRING #63 @ $D1AD
+#W32($BA1C)
+//・はい[END-FE]
+・Yes[END-FE]
+
+
+
+
+
+//POINTER #64 @ $BA20 - STRING #64 @ $D1B6
+#W32($BA20)
+//・いいえ[END-FE]
+・No[END-FE]
+
+
+
+
+
+//POINTER #65 @ $BA24 - STRING #65 @ $D1C1
+#W32($BA24)
+//・特に意識していない[END-FE]
+・I never really thought about it[END-FE]
+
+
+
+
+
+//POINTER #66 @ $BA28 - STRING #66 @ $D1D8
+#W32($BA28)
+//ウェンディ\\
+//やっぱりね…。[NLINE]
+//あの時だって、[NLINE]
+//なんだかイイ感じだったし…。[END-FE]
+//Wendy\\
+Thought so...[NLINE]
+Last night felt pretty good, huh?[END-FE]
+
+
+
+
+
+
+//POINTER #67 @ $BA2C - STRING #67 @ $D217
+#W32($BA2C)
+//ウェンディ\\
+//うそでしょ？[NLINE]
+//だって、あの時だって、[NLINE]
+//なんだかイイ感じだったし…。[END-FE]
+//Wendy\\
+You're lying, right?[NLINE]
+Didn't last night feel pretty good?[END-FE]
+
+
+
+
+
+
+//POINTER #68 @ $BA30 - STRING #68 @ $D25C
+#W32($BA30)
+//ウェンディ\\
+//本当かなぁ？[NLINE]
+//だって、あの時だって、[NLINE]
+//なんだかイイ感じだったし…。[END-FE]
+//Wendy\\
+Oh really?[NLINE]
+Didn't last night feel pretty good?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $BA34 - STRING #69 @ $D2A1
+#W32($BA34)
+//ユリィ\\
+//ウェンディさん、何の事を…。[END-FE]
+//Yurii\\
+Wendy, what are you talking about...?[END-FE]
+
+
+
+
+
+//POINTER #70 @ $BA38 - STRING #70 @ $D2C0
+#W32($BA38)
+//ウェンディ\\
+//シザーズ村の宿で[NLINE]
+//抱き合ってたじゃない。[NWIN]
+//
+//…鼻の下伸ばしちゃって、[NLINE]
+//嬉しそうだったみたいね？[END-FE]
+//Wendy\\
+They were hugging each other[NLINE]
+in the inn, weren't they?[NWIN]
+
+...Based on that lewd look on your face,[NLINE]
+you seemed quite happy about it![END-FE]
+
+
+
+
+
+//POINTER #71 @ $BA3C - STRING #71 @ $D31F
+#W32($BA3C)
+//ウェンディ\\
+//どうせ私じゃ、[NLINE]
+//そんな顔させられませんよ～だ。[END-FE]
+//Wendy\\
+That's definitely not the expression he[NLINE]
+wears on his face when I'm around.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $BA40 - STRING #72 @ $D350
+#W32($BA40)
+//ウェンディ\\
+//ルキアス君だっているんだし、[NLINE]
+//ちょっとは考えてよね！[END-FE]
+//Wendy\\
+ルキアス君だっているんだし、[NLINE]
+ちょっとは考えてよね！[END-FE]
+
+
+
+
+
+//POINTER #73 @ $BA44 - STRING #73 @ $D387
+#W32($BA44)
+//レイスタン方面[END-FE]
+//System Message\\
+To Leystan[END-FE]
+
+
+
+
+
+//POINTER #74 @ $BA48 - STRING #74 @ $D398
+#W32($BA48)
+//シザーズ村方面[END-FE]
+//System Message\\
+To Schizarz Village[END-FE]
+
+
+
+
+
+//POINTER #75 @ $BA4C - STRING #75 @ $D3A9
+#W32($BA4C)
+//エル・ヒンギス方面[END-FE]
+//System Message\\
+To El Hingis[END-FE]
+
+
+
+
+
+//POINTER #76 @ $BA50 - STRING #76 @ $D3BE
+#W32($BA50)
+//ジアント山方面[END-FE]
+//System Message\\
+To Jiant Mountain[END-FE]
+
+
+
+
+
+//POINTER #77 @ $BA54 - STRING #77 @ $D3CF
+#W32($BA54)
+//現在位置[NLINE]
+//シズランド高原[END-FE]
+//System Message\\
+Current position:[NLINE]
+Schizland Plateau[END-FE]
+
+
+
+
+
+//POINTER #78 @ $BA58 - STRING #78 @ $D3EA
+#W32($BA58)
+//ホフマン\\
+//[CHAR2900][V0200]
+//この先がジアント山だ。[END-FE]
+//Hofman\\
+[CHAR2900][V0200]
+Ahead is Jiant Mountain.[END-FE]
+
+
+
+
+
+//POINTER #79 @ $BA5C - STRING #79 @ $D40B
+#W32($BA5C)
+//ユリィ\\
+//[CHAR2900][V0300]
+//ウェンディさんは、[NLINE]
+//ちゃんとヒンギスタン王国軍を[NLINE]
+//引き上げさせてくれたでしょうか？[END-FE]
+//Yurii\\
+[CHAR2900][V0300]
+I wonder if Wendy was successful[NLINE]
+in making the Hingistan troops[NLINE]
+withdraw?[END-FE]
+
+
+
+
+
+//POINTER #80 @ $BA60 - STRING #80 @ $D468
+#W32($BA60)
+//・信じよう[END-FE]
+・I believe in her[END-FE]
+
+
+
+
+
+//POINTER #81 @ $BA64 - STRING #81 @ $D475
+#W32($BA64)
+//・不安がある[END-FE]
+・I'm not sure[END-FE]
+
+
+
+
+
+//POINTER #82 @ $BA68 - STRING #82 @ $D484
+#W32($BA68)
+//ルキアス\\
+//[CHAR2900][V0400]
+//行けばわかるさ。[END-FE]
+//Rukias\\
+[CHAR2900][V0400]
+We'll know when we get there.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $BA6C - STRING #83 @ $D49F
+#W32($BA6C)
+//[CHAR2A00][V0000]
+//な、何だあれは!?[NWIN]
+//
+//[CHAR2A00][V0100]
+//くそっ！[NLINE]
+//今から山に戻って間に合うのか？[NWIN]
+//
+//[CHAR2A00][V0200]
+//とにかく急いで引き返すんだ！[END-FE]
+//System Message\\
+[CHAR2A00][V0000]
+W-what is that!?[NWIN]
+
+[CHAR2A00][V0100]
+Damn! Will we make it back[NLINE]
+to the mountain in time?[NWIN]
+
+[CHAR2A00][V0200]
+All forces fall back! Quickly![END-FE]
+
+
+
+
+
+//POINTER #84 @ $BA70 - STRING #84 @ $D512
+#W32($BA70)
+//ユリィ\\
+//[CHAR2A00][V0300]
+//アドモニッシャーが山に…。[NWIN]
+//
+//[CHAR2A00][V0400]
+//砲撃はないようですね。[END-FE]
+//Yurii\\
+[CHAR2A00][V0300]
+The Admonisher is at the[NLINE]
+mountain...[NWIN]
+
+[CHAR2A00][V0400]
+It looks like it didn't fire.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $BA74 - STRING #85 @ $D557
+#W32($BA74)
+//ルキアス\\
+//[CHAR2A00][V0500]
+//ヒンギスタン王国軍もすでにいないし、[NLINE]
+//あのねぇちゃん、[NLINE]
+//ちゃんとやったみたいだな。[END-FE]
+//Rukias\\
+[CHAR2A00][V0500]
+The Hingistani army is also[NLINE]
+gone. Seems like Wendy pulled it off.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $BA78 - STRING #86 @ $D5B4
+#W32($BA78)
+//ユリィ\\
+//[CHAR2A00][V0600]
+//それではレイスタンに戻りましょう！[END-FE]
+//Yurii\\
+[CHAR2A00][V0600]
+Let's return to Leystan![END-FE]
+
+
+
+
+
+//POINTER #87 @ $BA7C - STRING #87 @ $D5E1
+#W32($BA7C)
+//イリステレサ\\
+//[CHAR4400][V0100]
+//北側の岩が隠し扉になっています。[NLINE]
+//こっちです。[END-FE]
+//Iristelessa\\
+[CHAR4400][V0100]
+The rock on the north side conceals a[NLINE]
+hidden door. This way.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $BA80 - STRING #88 @ $D61A
+#W32($BA80)
+//ユリィ\\
+//イリスさんをおいて、[NLINE]
+//どこへ行かれるつもりですか？[END-FE]
+//Yurii\\
+Where are you going? We[NLINE]
+can't leave Iris behind.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $BA84 - STRING #89 @ $D64F
+#W32($BA84)
+//ユリィ\\
+//[CHAR4400][V0400]
+//皆さんがお待ちです。[NLINE]
+//急ぎましょう！[END-FE]
+//Yurii\\
+[CHAR4400][V0400]
+Everyone is waiting.[NLINE]
+Let's hurry![END-FE]
+
+
+
+
+
+//POINTER #90 @ $BA88 - STRING #90 @ $D67E
+#W32($BA88)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #91 @ $BA8C - STRING #91 @ $D695
+#W32($BA8C)
+//自動Ｄ　ＥＢ０３＿３前[END-FE]
+自動D EB03_3前[END-FE]
+
+
+
+
+
+//POINTER #92 @ $BA90 - STRING #92 @ $D6AE
+#W32($BA90)
+//ユリィ\\
+//どこに行かれるのですか？[NLINE]
+//今戻っては危険です！[END-FE]
+//Yurii\\
+Where are you going?[NLINE]
+It's dangerous to go back now![END-FE]
+
+
+
+
+
+//POINTER #93 @ $BA94 - STRING #93 @ $D6DF
+#W32($BA94)
+//ユリィ\\
+//どこに行かれるのですか？[NLINE]
+//砦の兵士と戦闘になってしまいます！[END-FE]
+//Yurii\\
+Where are you going?[NLINE]
+You'll end up in a fight with[NLINE]
+the soldiers at the fort![END-FE]
+
+
+
+
+
+//POINTER #94 @ $BA98 - STRING #94 @ $D71E
+#W32($BA98)
+//ユリィ\\
+//[CHAR4400][V0400]
+//皆さんがお待ちです。[NLINE]
+//急ぎましょう！[END-FE]
+//Yurii\\
+[CHAR4400][V0400]
+Everyone is waiting.[NLINE]
+Let's hurry![END-FE]
+
+
+
+
+
+//POINTER #95 @ $BA9C - STRING #95 @ $D74D
+#W32($BA9C)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #96 @ $BAA0 - STRING #96 @ $D764
+#W32($BAA0)
+//自動Ｄ　レジスタンスアジトへ[END-FE]
+自動Ｄ レジスタンスアジトへ[END-FE]
+
+
+
+
+
+//POINTER #97 @ $BAA4 - STRING #97 @ $D783
+#W32($BAA4)
+//ユリィ\\
+//[CHAR4400][V0200]
+//こんなところに…。[END-FE]
+//Yurii\\
+[CHAR4400][V0200]
+To think a secret passage would[NLINE]
+be here of all places...[END-FE]
+
+
+
+
+
+//POINTER #98 @ $BAA8 - STRING #98 @ $D7A0
+#W32($BAA8)
+//イリステレサ\\
+//[CHAR4400][V0300]
+//アジトはこの奥です。[NLINE]
+//さぁ、人に見つかる前に中へ。[END-FE]
+//Iristelessa\\
+[CHAR4400][V0300]
+The hideout is inside. Let us go[NLINE]
+in before someone sees us.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $BAAC - STRING #99 @ $D7DD
+#W32($BAAC)
+//ジアント山には[NLINE]
+//民間人の方は立ち入れません。[END-FE]
+Jiant Mountain is not accessible[NLINE]
+to the general public.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $BAB0 - STRING #100 @ $D80C
+#W32($BAB0)
+//大量のスクリーパーと、[NLINE]
+//見たこともない鎧の一団が[NLINE]
+//ジアント山の砦を破壊してしまった！[END-FE]
+A large group of Screapers and[NLINE]
+a band of soldiers I have never seen[NLINE]
+before have destroyed the fort at Jiant Mountain![END-FE]
+
+
+
+
+
+//POINTER #101 @ $BAB4 - STRING #101 @ $D863
+#W32($BAB4)
+//ジアント山には[NLINE]
+//民間人の方は立ち入れません。[END-FE]
+Jiant Mountain is not accessible[NLINE]
+to the general public.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $BAB8 - STRING #102 @ $D892
+#W32($BAB8)
+//あの連中は、いったい何者なんだ？[NLINE]
+//まさか、龍穴塔にいた連中か!?[NLINE]
+//圧倒的で、手も足も出なかった…。[END-FE]
+Who on earth were those soldiers?[NLINE]
+Could they be the same ones that[NLINE]
+were at the Ley Point Tower?[NLINE]
+They completely overwhelmed us. We[NLINE]
+were powerless to stop them.[END-FE]
+
+
+
+
+
+//POINTER #103 @ $BABC - STRING #103 @ $D8F5
+#W32($BABC)
+//ジアント山には[NLINE]
+//民間人の方は立ち入れません。[END-FE]
+Jiant Mountain is not accessible[NLINE]
+to the general public.[END-FE]
+
+
+
+
+
+//POINTER #104 @ $BAC0 - STRING #104 @ $D924
+#W32($BAC0)
+//謎の連中はここを破壊すると、[NLINE]
+//どこかに行ってしまったが、[NLINE]
+//砦の復旧にはまだ時間がかかりそうだ…。[END-FE]
+After those mysterious soldiers destroyed[NLINE]
+this place, they went off somewhere.[NLINE]
+It seems it will take some time to restore the fort...[END-FE]
+
+
+
+
+
+//POINTER #105 @ $BAC4 - STRING #105 @ $D987
+#W32($BAC4)
+//レジスタンスメンバー\\
+//中で休まれたいのなら[NLINE]
+//ご利用下さい。[END-FE]
+//Resistance Member\\
+If you would like to rest inside,[NLINE]
+please go ahead.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $BAC8 - STRING #106 @ $D9AE
+#W32($BAC8)
+//レジスタンスメンバー\\
+//この巨人はすぐには動かせませんので、[NLINE]
+//ホフマンという方に言われて、[NLINE]
+//ここで警備をしています。[END-FE]
+//Resistance Member\\
+This giant cannot me moved immediately,[NLINE]
+so a person called Hofman told me to[NLINE]
+stand guard here.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $BACC - STRING #107 @ $DA0D
+#W32($BACC)
+//中で休まれたいのなら[NLINE]
+//ご利用下さい。[END-FE]
+If you would like to rest inside,[NLINE]
+please go ahead.[END-FE]
+
+
+
+
+
+//POINTER #108 @ $BAD0 - STRING #108 @ $DA34
+#W32($BAD0)
+//エル・ヒンギスのその後の[NLINE]
+//情報はありませんか？[END-FE]
+Any more news from El Hingis?[END-FE]
+
+
+
+
+
+//POINTER #109 @ $BAD4 - STRING #109 @ $DA65
+#W32($BAD4)
+//不安をあおるだけなので、[NLINE]
+//他の街にはエル・ヒンギス壊滅の[NLINE]
+//事実を伏せることにしたそうです。[NWIN]
+//
+//それよりも、敵の拠点を突き止めて[NLINE]
+//攻撃をかける方に全力を注ぐそうです。[NLINE]
+//そのためにも、巨人は守って見せます！[END-FE]
+It seems other cities have surpressed[NLINE]
+the news about El Hingis's destruction[NLINE]
+beause it will only cause anxiety.[NWIN]
+
+Instead, they seem to spend all their[NLINE]
+energy locating and destroying enemy bases.[NLINE]
+That's why we guard this giant![END-FE]
+
+
+
+
+
+//POINTER #110 @ $BAD8 - STRING #110 @ $DB30
+#W32($BAD8)
+//この巨人を悪人に奪われないように、[NLINE]
+//ここで警備をしています。[END-FE]
+We stand guard here in order to[NLINE]
+prevent the giant from falling into the[NLINE]
+wrongs hands.[END-FE]
+
+
+
+
+
+//POINTER #111 @ $BADC - STRING #111 @ $DB6F
+#W32($BADC)
+//ここから見えたんだけど、[NLINE]
+//エル・ヒンギスの方で大きな爆発があったんだ。[NLINE]
+//いったい、何が…。[END-FE]
+ここから見えたんだけど、[NLINE]
+There was a huge explosion in the direction[NLINE]
+of El Hingis. What on earth is going on...?[END-FE]
+
+
+
+
+
+//POINTER #112 @ $BAE0 - STRING #112 @ $DBCC
+#W32($BAE0)
+//絶対にこの巨人は守って見せます！[NLINE]
+//…そして、エル・ヒンギスの仇を討つんだ…。[END-FE]
+We'll definitely protect this giant![NLINE]
+...And avenge the destruction of El Hingis...[END-FE]
+
+
+
+
+
+//POINTER #113 @ $BAE4 - STRING #113 @ $DC1B
+#W32($BAE4)
+//タイム１３変更？[NLINE]
+//※仮[END-FE]
+タイム１３変更？[NLINE]
+※仮[END-FE]
+
+
+
+
+
+//POINTER #114 @ $BAE8 - STRING #114 @ $DC34
+#W32($BAE8)
+//・そのまま[END-FE]
+・そのまま[END-FE]
+
+
+
+
+
+//POINTER #115 @ $BAEC - STRING #115 @ $DC41
+#W32($BAEC)
+//・１[END-FE]
+・1[END-FE]
+
+
+
+
+
+//POINTER #116 @ $BAF0 - STRING #116 @ $DC48
+#W32($BAF0)
+//・２００[END-FE]
+・200[END-FE]
+
+
+
+
+
+//POINTER #117 @ $BAF4 - STRING #117 @ $DC53
+#W32($BAF4)
+//・４００[END-FE]
+・400[END-FE]
+
+
+
+
+
+//POINTER #118 @ $BAF8 - STRING #118 @ $DC5E
+#W32($BAF8)
+//・９００[END-FE]
+・900[END-FE]
+
+
+
+
+
+//POINTER #119 @ $BAFC - STRING #119 @ $DC69
+#W32($BAFC)
+//ウェンディ\\
+//[CHAR0C00][V0000]
+//まだニセ兵士はいないみたいね。[NLINE]
+//西側から来るっていう話だけど、[NLINE]
+//どの辺りから出てくるのかしら？[END-FE]
+//Wendy\\
+[CHAR0C00][V0000]
+It looks like the fake soldiers[NLINE]
+are not here yet. They should be coming[NLINE]
+from the west, but I wonder from[NLINE]
+where exactly?[END-FE]
+
+
+
+
+
+//POINTER #120 @ $BB00 - STRING #120 @ $DCD2
+#W32($BB00)
+//ウェンディ\\
+//[CHAR0C00][V0100]
+//この気配…、すでにニセ兵士がいるわね！[NWIN]
+//
+//[CHAR0C00][V0200]
+//彼らを止めればいいのね？[END-FE]
+//Wendy\\
+[CHAR0C00][V0100]
+...The fake soldiers are already here![NWIN]
+
+[CHAR0C00][V0200]
+Let's go stop them![END-FE]
+
+
+
+
+
+//POINTER #121 @ $BB04 - STRING #121 @ $DD25
+#W32($BB04)
+//ウェンディ\\
+//[CHAR0C00][V0300]
+//はっ、もうニセ兵士がっ！[NWIN]
+//
+//[CHAR0C00][V0400]
+//急いで任務を果たさないと！[END-FE]
+//Wendy\\
+[CHAR0C00][V0300]
+Ah, the fake soldiers are already here![NWIN]
+
+[CHAR0C00][V0400]
+We have to complete our mission quickly![END-FE]
+
+
+
+
+
+//POINTER #122 @ $BB08 - STRING #122 @ $DD6C
+#W32($BB08)
+//偽ヒンギスタン兵士\\
+//[CHAR0C00][V0500]
+//フォメロス国と和平など結ぶものか！[NLINE]
+//こうしてやる！[END-FE]
+//Fake Hingistan Soldier\\
+[CHAR0C00][V0500]
+Make peace with Fomeros!?[NLINE]
+Never![END-FE]
+
+
+
+
+
+//POINTER #123 @ $BB0C - STRING #123 @ $DDA9
+#W32($BB0C)
+//フォメロス国軍兵士\\
+//[CHAR0C00][V0600]
+//ぐわあっ！[END-FE]
+//Fomeros Soldier\\
+[CHAR0C00][V0600]
+Guwaa![END-FE]
+
+
+
+
+
+//POINTER #124 @ $BB10 - STRING #124 @ $DDBE
+#W32($BB10)
+//フォメロス国軍兵士\\
+//[CHAR0C00][V0700]
+//お前たち、正気か！？[NLINE]
+//おのれ！[END-FE]
+//Fomeros Soldier\\
+[CHAR0C00][V0700]
+Have you become mad!?[NLINE]
+Bastards![END-FE]
+
+
+
+
+
+//POINTER #125 @ $BB14 - STRING #125 @ $DDE7
+#W32($BB14)
+//ウェンディ\\
+//[CHAR0C00][V0800]
+//ああ、間に合わなかった…。[END-FE]
+//Wendy\\
+[CHAR0C00][V0800]
+Aah, we're too late...[END-FE]
+
+
+
+
+
+//POINTER #126 @ $BB18 - STRING #126 @ $DE0C
+#W32($BB18)
+//作戦の注意事項を確認しますか？[END-FE]
+Would you like to go over the strategy again?[END-FE]
+
+
+
+
+
+//POINTER #127 @ $BB1C - STRING #127 @ $DE2D
+#W32($BB1C)
+//・確認する[END-FE]
+・Go over it[END-FE]
+
+
+
+
+
+//POINTER #128 @ $BB20 - STRING #128 @ $DE3A
+#W32($BB20)
+//・確認は不要[END-FE]
+・Don't go over it[END-FE]
+
+
+
+
+
+//POINTER #129 @ $BB24 - STRING #129 @ $DE49
+#W32($BB24)
+//[COL03]【[COL01]作戦内容[COL03]】[COL00][NLINE]
+//ヒンギスタン軍兵士、フォメロス軍兵士に扮した[NLINE]
+//テロリストを、正規兵と接触させる前に始末せよ。[NLINE]
+//[COL03]【[COL01]注意事項[COL03]】[COL00][NLINE]
+//・正規兵と偽兵士が接触してはいけない[NLINE]
+//・偽兵士を全滅させなければならない[NLINE]
+//・自分たちの姿を正規兵に発見されてはならない[NLINE]
+//　（レーダー上の[COL04]緑点[COL00]が正規兵）[NLINE]
+//・作戦完了後、すみやかにシザーズ村へ帰投せよ[END-FE]
+//System Message\\
+[COL03][[COL01]Strategy[COL03]][COL00][NLINE]
+The terrorists have disguised themselves as[NLINE]
+soldiers from Hingistan and Fomeros. Deal with[NLINE]
+them before they engage the[NLINE]
+real soldiers.[NLINE]
+[COL03][[COL01]Main Points[COL03]][COL00][NLINE]
+・Don't let the real soldiers come[NLINE]
+ in contact with the imposters[NLINE]
+・All the impostors must be[NLINE]
+ annihilated[NLINE]
+・Don't ley yourself be discovered by the[NLINE]
+ real solders[NLINE]
+ (they are indicated in on the radar[NLINE]
+ as [COL04]green[COL00] dots)[NLINE]
+・After the operation is complete, return[NLINE]
+ quickly to Schizarz village.[END-FE]
+
+
+
+
+
+//POINTER #130 @ $BB28 - STRING #130 @ $DFA8
+#W32($BB28)
+//ウェンディ\\
+//[CHAR0B00][V0900]
+//それじゃ、行きましょう！[END-FE]
+//Wendy\\
+[CHAR0B00][V0900]
+Alright, let's go![END-FE]
+
+
+
+
+
+//POINTER #131 @ $BB2C - STRING #131 @ $DFCB
+#W32($BB2C)
+//・偽兵士の全滅[END-FE]
+・Defeat all impostors[END-FE]
+
+
+
+
+
+//POINTER #132 @ $BB30 - STRING #132 @ $DFDC
+#W32($BB30)
+//・パーティーの全滅[NLINE]
+//・偽兵士がヒンギスタン兵に攻撃[NLINE]
+//・偽兵士がフォメロス兵に攻撃[NLINE]
+//・パーティーが正規兵に発見される[NLINE]
+//　（レーダー上の[COL04]緑点[COL00]が正規兵）[END-FE]
+・All party members die[NLINE]
+・The Fomerion soldiers are attacked by the imposters[NLINE]
+・The Hingistani soldiers are attacked by the imposters[NLINE]
+・The party is discovered by the real soldiers[NLINE]
+ (represented by [COL04]green[COL00] dots on the radar)[END-FE]
+
+
+
+
+
+//POINTER #133 @ $BB34 - STRING #133 @ $E077
+#W32($BB34)
+//フォメロスに偽装した仲間が妨害を受けた？[NLINE]
+//ち、すり抜けてやり過ごすか。[END-FE]
+Did the other group take casualties?[NLINE]
+Tch, we have choice but to slip past them.[END-FE]
+
+
+
+
+
+//POINTER #134 @ $BB38 - STRING #134 @ $E0C0
+#W32($BB38)
+//ヒンギスタンに偽装した仲間が妨害されてる！[NLINE]
+//こちらはこちらで任務を果たすべきだな。[END-FE]
+The other group has taken casualties![NLINE]
+However, we have to focus on our own objective![END-FE]
+
+
+
+
+
+//POINTER #135 @ $BB3C - STRING #135 @ $E115
+#W32($BB3C)
+//偽ヒンギスタン兵士\\
+//[CHAR0C00][V0900]
+//お前たち、何者だ！[NLINE]
+//我々、ヒンギスタン王国軍の[NLINE]
+//行動の邪魔をすると捕らえるぞ！[END-FE]
+//Fake Hingistan Soldier\\
+[CHAR0C00][V0900]
+Who are you!?[NLINE]
+Those who dare stand in the way of the[NLINE]
+Hingistani army will be arrested![END-FE]
+
+
+
+
+
+//POINTER #136 @ $BB40 - STRING #136 @ $E16E
+#W32($BB40)
+//ウェンディ\\
+//[CHAR0C00][V0A00]
+//そうやってヒンギスタン王国兵の真似をしても[NLINE]
+//テロリストだってことはお見通しよ！[END-FE]
+//Wendy\\
+[CHAR0C00][V0A00]
+We can see right through your ruse! We[NLINE]
+know you're terrorists![END-FE]
+
+
+
+
+
+//POINTER #137 @ $BB44 - STRING #137 @ $E1C7
+#W32($BB44)
+//偽ヒンギスタン兵士\\
+//[CHAR0C00][V0B00]
+//チッ！[NLINE]
+//ならば死ね！[END-FE]
+//Fake Hingistan Soldier\\
+[CHAR0C00][V0B00]
+Tch![NLINE]
+Then die![END-FE]
+
+
+
+
+
+//POINTER #138 @ $BB48 - STRING #138 @ $E1E6
+#W32($BB48)
+//偽ヒンギスタン兵士\\
+//邪魔するか！[NLINE]
+//ならばまずは貴様等からだ！[END-FE]
+//Fake Hingistan Soldier\\
+You mean to stand in our way?[NLINE]
+Then you'll be the first to die![END-FE]
+
+
+
+
+
+//POINTER #139 @ $BB4C - STRING #139 @ $E211
+#W32($BB4C)
+//偽フォメロス兵士\\
+//[CHAR0C00][V0C00]
+//お前たち、何者だ！[NLINE]
+//我々、フォメロス国軍の[NLINE]
+//行動を邪魔すると捕らえるぞ！[END-FE]
+//Fake Fomeros Soldier\\
+[CHAR0C00][V0C00]
+Who are you!?[NLINE]
+Those who dare stand in the way of the[NLINE]
+Fomerion army will be arrested![END-FE]
+
+
+
+
+
+//POINTER #140 @ $BB50 - STRING #140 @ $E264
+#W32($BB50)
+//ウェンディ\\
+//[CHAR0C00][V0D00]
+//そうやってフォメロス国兵の真似をしても[NLINE]
+//テロリストだってことはお見通しよ！[END-FE]
+//Wendy\\
+[CHAR0C00][V0D00]
+We can see right through your ruse! We[NLINE]
+know you're terrorists![END-FE]
+
+
+
+
+
+//POINTER #141 @ $BB54 - STRING #141 @ $E2B9
+#W32($BB54)
+//偽フォメロス兵士\\
+//[CHAR0C00][V0E00]
+//チッ！[NLINE]
+//ならば死ね！[END-FE]
+//Fake Fomeros Soldier\\
+[CHAR0C00][V0E00]
+Tch![NLINE]
+Then die![END-FE]
+
+
+
+
+
+//POINTER #142 @ $BB58 - STRING #142 @ $E2D8
+#W32($BB58)
+//偽フォメロス兵士\\
+//チィ、何処の連中か知らんが、[NLINE]
+//邪魔だてするなら容赦せん！[END-FE]
+//Fake Fomeros Soldier\\
+Tch, I don't know where you are[NLINE]
+from, but we won't allow you to[NLINE]
+get in our way![END-FE]
+
+
+
+
+
+//POINTER #143 @ $BB5C - STRING #143 @ $E313
+#W32($BB5C)
+//戦闘スキップする？[END-FE]
+Would you like to skip the battle?[END-FE]
+
+
+
+
+
+//POINTER #144 @ $BB60 - STRING #144 @ $E328
+#W32($BB60)
+//敵兵を全て倒したので、[NLINE]
+//本物の兵士に見つからないように[NLINE]
+//村に戻って下さい。[END-FE]
+//System Message\\
+All the imposters have been defeated.[NLINE]
+Return to the village without being[NLINE]
+discovered by the real soldiers.[END-FE]
+
+
+
+
+
+//POINTER #145 @ $BB64 - STRING #145 @ $E375
+#W32($BB64)
+//[CHAR0C00][V0500]
+//フォメロス国と和平など結ぶものか！[NLINE]
+//こうしてやる！[END-FE]
+[CHAR0C00][V0500]
+Make peace with Fomeros!?[NLINE]
+Never![END-FE]
+
+
+
+
+
+//POINTER #146 @ $BB68 - STRING #146 @ $E3B2
+#W32($BB68)
+//[CHAR0C00][V0600]
+//ぐわあっ！[END-FE]
+[CHAR0C00][V0600]
+Guwaa![END-FE]
+
+
+
+
+
+//POINTER #147 @ $BB6C - STRING #147 @ $E3C7
+#W32($BB6C)
+//[CHAR0C00][V0700]
+//お前たち、正気か！？[NLINE]
+//おのれ！[END-FE]
+[CHAR0C00][V0700]
+Have you become mad!?[NLINE]
+Bastards![END-FE]
+
+
+
+
+
+//POINTER #148 @ $BB70 - STRING #148 @ $E3F0
+#W32($BB70)
+//ウェンディ\\
+//[CHAR0C00][V0800]
+//ああ、間に合わなかった…。[END-FE]
+//Wendy\\
+[CHAR0C00][V0800]
+Aah, we're too late...[END-FE]
+
+
+
+
+
+//POINTER #149 @ $BB74 - STRING #149 @ $E415
+#W32($BB74)
+//[CHAR0C00][V3600]
+//ヒンギスタンと和平など結ぶものか！[NLINE]
+//こうしてやる！[END-FE]
+[CHAR0C00][V3600]
+Make peace with Hingistan!?[NLINE]
+Never![END-FE]
+
+
+
+
+
+//POINTER #150 @ $BB78 - STRING #150 @ $E452
+#W32($BB78)
+//[CHAR0C00][V0600]
+//ぐわあっ！[END-FE]
+[CHAR0C00][V0600]
+Guwaa![END-FE]
+
+
+
+
+
+//POINTER #151 @ $BB7C - STRING #151 @ $E467
+#W32($BB7C)
+//[CHAR0C00][V0700]
+//お前たち、正気か！？[NLINE]
+//おのれ！[END-FE]
+[CHAR0C00][V0700]
+Have you become mad!?[NLINE]
+Bastards![END-FE]
+
+
+
+
+
+//POINTER #152 @ $BB80 - STRING #152 @ $E490
+#W32($BB80)
+//ウェンディ\\
+//[CHAR0C00][V0800]
+//ああ、間に合わなかった…。[END-FE]
+//Wendy\\
+[CHAR0C00][V0800]
+Aah, we're too late...[END-FE]
+
+
+
+
+
+//POINTER #153 @ $BB84 - STRING #153 @ $E4B5
+#W32($BB84)
+//な、何だ、お前は!?[NWIN]
+//
+//その格好は、まさか、[NLINE]
+//モノポリス社の私兵か！[NWIN]
+//
+//モノポリス社は[NLINE]
+//テロリストとグルだったのか！[END-FE]
+W-who are you!?[NWIN]
+
+Those clothes... It can't be...[NLINE]
+Monopolis soldiers![NWIN]
+
+So Monopolis is conspiring[NLINE]
+with the terrorists![END-FE]
+
+
+
+
+
+//POINTER #154 @ $BB88 - STRING #154 @ $E526
+#W32($BB88)
+//[CHAR0C00][V0700]
+//お前たち、正気か！？[NLINE]
+//おのれ！[END-FE]
+[CHAR0C00][V0700]
+Have you become mad!?[NLINE]
+Bastards![END-FE]
+
+
+
+
+
+//POINTER #155 @ $BB8C - STRING #155 @ $E54F
+#W32($BB8C)
+//[CHAR0C00][V0F00]
+//くそっ！[NLINE]
+//こいつら、モノポリス社の兵か!?[NWIN]
+//
+//[CHAR0C00][V1000]
+//各国に武器をばらまき、[NLINE]
+//戦争で金儲けをするハゲタカがっ！[NWIN]
+//
+//[CHAR0C00][V1100]
+//戦争を長引かせて、[NLINE]
+//できるだけ甘い汁を吸い続けようって腹だろう！[END-FE]
+[CHAR0C00][V0F00]
+Damn! Are these Monopolis soldiers!?[NWIN]
+
+[CHAR0C00][V1000]
+They're nothing more than vultures who[NLINE]
+profit from war by selling[NLINE]
+weapons to every country![NWIN]
+
+[CHAR0C00][V1100]
+They just want to prolong the war so[NLINE]
+you can continue lining their fat pockets[NLINE]
+as much as possible![END-FE]
+
+
+
+
+
+//POINTER #156 @ $BB90 - STRING #156 @ $E60E
+#W32($BB90)
+//[CHAR0C00][V0F00]
+//くそっ！[NLINE]
+//こいつら、モノポリス社の兵か!?[NWIN]
+//
+//[CHAR0C00][V1000]
+//各国に武器をばらまき、[NLINE]
+//戦争で金儲けをするハゲタカがっ！[NWIN]
+//
+//[CHAR0C00][V1100]
+//戦争を長引かせて、[NLINE]
+//できるだけ甘い汁を吸い続けようって腹だろう！[END-FE]
+[CHAR0C00][V0F00]
+Damn! Are these Monopolis soldiers!?[NWIN]
+
+[CHAR0C00][V1000]
+They're nothing more than vultures who[NLINE]
+profit from war by selling[NLINE]
+weapons to every country![NWIN]
+
+[CHAR0C00][V1100]
+They just want to prolong the war so[NLINE]
+you can continue lining their fat pockets[NLINE]
+as much as possible![END-FE]
+
+
+
+
+
+//POINTER #157 @ $BB94 - STRING #157 @ $E6CD
+#W32($BB94)
+//ウェンディ\\
+//[CHAR0C00][V1500]
+//…これでテロリストは[NLINE]
+//いなくなったわね…。[END-FE]
+//Wendy\\
+[CHAR0C00][V1500]
+...That was the last of them...[END-FE]
+
+
+
+
+
+//POINTER #158 @ $BB98 - STRING #158 @ $E702
+#W32($BB98)
+//ウェンディ\\
+//[CHAR0C00][V1500]
+//…これでテロリストは[NLINE]
+//いなくなったわね…。[END-FE]
+//Wendy\\
+[CHAR0C00][V1500]
+...That was the last of them...[END-FE]
+
+
+
+
+//POINTER #159 @ $BB9C - STRING #159 @ $E737
+#W32($BB9C)
+//フォメロス国軍兵士\\
+//[CHAR0C00][V1600]
+//ん？[NLINE]
+//何か物音がしなかったか？[END-FE]
+//Fomeros Soldier\\
+[CHAR0C00][V1600]
+Hm? Did you hear that just[NLINE]
+now?[END-FE]
+
+
+
+
+
+//POINTER #160 @ $BBA0 - STRING #160 @ $E760
+#W32($BBA0)
+//フォメロス国軍兵士\\
+//[CHAR0C00][V1700]
+//見に行ったほうがよさそうだな。[END-FE]
+//Fomeros Soldier\\
+[CHAR0C00][V1700]
+It may be a good idea to[NLINE]
+take a look.[END-FE]
+
+
+
+
+
+//POINTER #161 @ $BBA4 - STRING #161 @ $E789
+#W32($BBA4)
+//ウェンディ\\
+//[CHAR0C00][V1800]
+//急いで逃げないと、[NLINE]
+//私たちのこと見られちゃうわ！[END-FE]
+//Wendy\\
+[CHAR0C00][V1800]
+If we don't hurry out of[NLINE]
+here, we'll be discovered![END-FE]
+
+
+
+
+
+//POINTER #162 @ $BBA8 - STRING #162 @ $E7C4
+#W32($BBA8)
+//・[Merklich]がマップ東端から脱出[END-FE]
+・[Merklich] escapes from the eastern end[NLINE]
+   of the map[END-FE]
+
+
+
+
+
+//POINTER #163 @ $BBAC - STRING #163 @ $E7E1
+#W32($BBAC)
+//・パーティーの全滅[NLINE]
+//・パーティーが正規兵に発見される[NLINE]
+//　（レーダー上の[COL04]緑点[COL00]が正規兵）[END-FE]
+・All party members die[NLINE]
+・The party is discovered by the real soldiers[NLINE]
+ (represented as [COL04]green[COL00] dots on the radar)[END-FE]
+
+
+
+
+
+//POINTER #164 @ $BBB0 - STRING #164 @ $E83E
+#W32($BBB0)
+//フォメロス国軍兵士\\
+//[CHAR0C00][V1900]
+//まて！[NLINE]
+//あやしい奴め！[NLINE]
+//何をしている!?[END-FE]
+//Fomeros Soldier\\
+[CHAR0C00][V1900]
+Hold it right there![NLINE]
+What are you doing here!?[END-FE]
+
+
+
+
+
+//POINTER #165 @ $BBB4 - STRING #165 @ $E86F
+#W32($BBB4)
+//ウェンディ\\
+//[CHAR0C00][V1A00]
+//え…あの…[END-FE]
+//Wendy\\
+[CHAR0C00][V1A00]
+We... uh...[END-FE]
+
+
+
+
+
+//POINTER #166 @ $BBB8 - STRING #166 @ $E884
+#W32($BBB8)
+//フォメロス国軍兵士\\
+//[CHAR0C00][V1B00]
+//一緒に来てもらおうか！[END-FE]
+//Fomeros Soldier\\
+[CHAR0C00][V1B00]
+You're coming with us![END-FE]
+
+
+
+
+
+//POINTER #167 @ $BBBC - STRING #167 @ $E8A5
+#W32($BBBC)
+//ウェンディ\\
+//[CHAR0C00][V1C00]
+//ああ…。[END-FE]
+//Wendy\\
+[CHAR0C00][V1C00]
+Aah...[END-FE]
+
+
+
+
+
+//POINTER #168 @ $BBC0 - STRING #168 @ $E8B8
+#W32($BBC0)
+//ヒンギスタン王国軍兵\\
+//[CHAR0C00][V1D00]
+//まて！[NLINE]
+//あやしい奴め！[NLINE]
+//何をしている!?[END-FE]
+//Hingistan Soldier\\
+[CHAR0C00][V1D00]
+Hold it right there![NLINE]
+What are you doing here!?[END-FE]
+
+
+
+
+
+//POINTER #169 @ $BBC4 - STRING #169 @ $E8E9
+#W32($BBC4)
+//ウェンディ\\
+//[CHAR0C00][V1A00]
+//え…あの…[END-FE]
+//Wendy\\
+[CHAR0C00][V1A00]
+We... uh...[END-FE]
+
+
+
+
+
+//POINTER #170 @ $BBC8 - STRING #170 @ $E8FE
+#W32($BBC8)
+//ヒンギスタン王国軍兵\\
+//[CHAR0C00][V1E00]
+//一緒に来てもらおうか！[END-FE]
+//Hingistan Soldier\\
+[CHAR0C00][V1E00]
+You're coming with us![END-FE]
+
+
+
+
+
+//POINTER #171 @ $BBCC - STRING #171 @ $E91F
+#W32($BBCC)
+//ウェンディ\\
+//[CHAR0C00][V1C00]
+//ああ…。[END-FE]
+//Wendy\\
+[CHAR0C00][V1C00]
+Aah...[END-FE]
+
+
+
+
+
+//POINTER #172 @ $BBD0 - STRING #172 @ $E932
+#W32($BBD0)
+//ウェンディ\\
+//フォメロス軍の兵士に近づき過ぎるのは[NLINE]
+//避けなきゃね…これは秘密任務なんだし。[END-FE]
+//Wendy\\
+We have to avoid getting too close to[NLINE]
+the Fomerion soldiers... This is a secret[NLINE]
+mission, remember?[END-FE]
+
+
+
+
+
+//POINTER #173 @ $BBD4 - STRING #173 @ $E981
+#W32($BBD4)
+//ウェンディ\\
+//ヒンギスタン軍の兵士に近づき過ぎるのは[NLINE]
+//避けなきゃね…これは秘密任務なんだし。[END-FE]
+//Wendy\\
+We have to avoid getting too close to[NLINE]
+the Hingistani soldiers...This is a secret[NLINE]
+mission, remember?[END-FE]
+
+
+
+
+
+//POINTER #174 @ $BBD8 - STRING #174 @ $E9D2
+#W32($BBD8)
+//ビジュアルシーンを飛ばす？[END-FE]
+Would you like to skip the visual scene?[END-FE]
+
+
+
+
+
+//POINTER #175 @ $BBDC - STRING #175 @ $E9EF
+#W32($BBDC)
+//[CHAR4A00][V0000]
+//いましたね。[NLINE]
+//あれが、ヒンギスタンの巨人…。[END-FE]
+[CHAR4A00][V0000]
+There it is. So that is the[NLINE]
+giant of Hingistan...[END-FE]
+
+
+
+
+
+//POINTER #176 @ $BBE0 - STRING #176 @ $EA26
+#W32($BBE0)
+//[CHAR4A00][V0100]
+//なんてバカでかいんだ…。[END-FE]
+[CHAR4A00][V0100]
+It's ridiculously huge...[END-FE]
+
+
+
+
+
+//POINTER #177 @ $BBE4 - STRING #177 @ $EA49
+#W32($BBE4)
+//ウェンディ\\
+//[CHAR4A00][V0200]
+//どうやら現在は兵士の休息中みたいね。[NLINE]
+//一気に襲撃をかけましょう。[NWIN]
+//
+//[CHAR4A00][V0300]
+//内部に巨人を動かすための場所があるはずだから、[NLINE]
+//そこへ行って、制御を奪えばいいわ。[END-FE]
+//Wendy\\
+[CHAR4A00][V0200]
+It looks like the soldiers are[NLINE]
+resting right now. Let's attack[NLINE]
+immediately.[NWIN]
+
+[CHAR4A00][V0300]
+Inside there should be a place from[NLINE]
+where we can control the giant, so let's[NLINE]
+head on over there.[END-FE]
+
+
+
+
+
+//POINTER #178 @ $BBE8 - STRING #178 @ $EAF0
+#W32($BBE8)
+//ホフマン\\
+//[CHAR4A00][V0400]
+//巨人が動き始めたら[NLINE]
+//もう止める方法はありませんね。[NLINE]
+//今のうちが勝負です！[END-FE]
+//Hofman\\
+[CHAR4A00][V0400]
+Once the giant starts moving, there's[NLINE]
+no way to stop it. Now is our[NLINE]
+only chance![END-FE]
+
+
+
+
+
+//POINTER #179 @ $BBEC - STRING #179 @ $EB43
+#W32($BBEC)
+//ユリィ\\
+//[CHAR4A00][V0500]
+//みなさん、お気をつけください！[END-FE]
+//Yurii\\
+[CHAR4A00][V0500]
+Please be careful, everyone![END-FE]
+
+
+
+
+
+//POINTER #180 @ $BBF0 - STRING #180 @ $EB6C
+#W32($BBF0)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #181 @ $BBF4 - STRING #181 @ $EB79
+#W32($BBF4)
+//・パーティーの全滅[NLINE]
+//・巨人が移動を開始[END-FE]
+・All party members die[NLINE]
+・The giant starts moving[END-FE]
+
+
+
+
+
+//POINTER #182 @ $BBF8 - STRING #182 @ $EBA2
+#W32($BBF8)
+//ホフマン\\
+//おや？[NLINE]
+//どうやら部隊の一部は[NLINE]
+//移動するところのようですね。[END-FE]
+//Hofman\\
+Hmm? It seems part of the troops[NLINE]
+are about to move.[END-FE]
+
+
+
+
+
+//POINTER #183 @ $BBFC - STRING #183 @ $EBDF
+#W32($BBFC)
+//ユリィ\\
+//そうなのですか？[END-FE]
+//Yurii\\
+What makes you say that?[END-FE]
+
+
+
+
+
+//POINTER #184 @ $BC00 - STRING #184 @ $EBF2
+#W32($BC00)
+//ホフマン\\
+//行軍準備をしているようですから。[NLINE]
+//どこかに隠れていれば[NLINE]
+//やりすごせるかもしれません。[NWIN]
+//
+//もっとも、それを待っている間に[NLINE]
+//巨人が動きだしては元も子もありません。[NLINE]
+//いつ動き出すかわかりませんしね。[NWIN]
+//
+//そこらへんの判断はお任せしますよ。[END-FE]
+//Hofman\\
+Because they seems to be preparing for[NLINE]
+a march. If we hide somewhere,[NLINE]
+maybe we can get past them.[NWIN]
+
+However, if the giant moves while[NLINE]
+we wait, then everything will be over.[NLINE]
+We don't know when it will.[NWIN]
+
+Let's do what you think is best.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #185 @ $BC04 - STRING #185 @ $ECD7
+#W32($BC04)
+//ヒンギスタン王国軍兵\\
+//よし、全隊移動開始。[NLINE]
+//隊列乱すな。[END-FE]
+//Hingistan Soldier\\
+Alright, all troops move[NLINE]
+out. Keep a straight line.[END-FE]
+
+
+
+
+
+//POINTER #186 @ $BC08 - STRING #186 @ $ECFC
+#W32($BC08)
+//ヒンギスタン王国軍兵\\
+//さて、のんびり行くか。[END-FE]
+//Hingistan Soldier\\
+Alright, let's take it easy.[END-FE]
+
+
+
+
+
+//POINTER #187 @ $BC0C - STRING #187 @ $ED15
+#W32($BC0C)
+//ヒンギスタン王国軍兵\\
+//おい、どやしつけられるぞ。[END-FE]
+//Hingistan Soldier\\
+Hey, you'll get us in trouble.[END-FE]
+
+
+
+
+
+//POINTER #188 @ $BC10 - STRING #188 @ $ED32
+#W32($BC10)
+//ヒンギスタン王国軍兵\\
+//隊長からは、もう見えやしないさ。[NWIN]
+//
+//どうせ巨人があるんだから、[NLINE]
+//オレらがまじめにやる必要なんて[NLINE]
+//ないんだよ。[END-FE]
+//Hingistan Soldier\\
+There's no way the captain can still see us.[NWIN]
+
+Besides, we have the giant, so[NLINE]
+there's no need to be diligent.[END-FE]
+
+
+
+
+
+//POINTER #189 @ $BC14 - STRING #189 @ $ED9F
+#W32($BC14)
+//ヒンギスタン王国軍兵\\
+//それもそうか…。[END-FE]
+//Hingistan Soldier\\
+I guess so...[END-FE]
+
+
+
+
+
+//POINTER #190 @ $BC18 - STRING #190 @ $EDB2
+#W32($BC18)
+//周辺の部隊に通達。[NLINE]
+//まもなく前進を開始する。[NLINE]
+//隔壁の閉鎖に注意せよ。[END-FE]
+//System Message\\
+Notification to surrounding units.[NLINE]
+The giant will commence moving shortly.[NLINE]
+Be careful of the closing bulkhead.[END-FE]
+
+
+
+
+
+//POINTER #191 @ $BC1C - STRING #191 @ $EDF9
+#W32($BC1C)
+//ユリィ\\
+//もうすぐ巨人が動き出すようです！[NLINE]
+//入り口が閉鎖されたら中に乗り込めなくなります！[NLINE]
+//急いでください！[END-FE]
+//Yurii\\
+It seems the giant is going to start moving soon![NLINE]
+If the entrance is closed, we won't be able to get[NLINE]
+inside. Please hurry![END-FE]
+
+
+
+
+
+//POINTER #192 @ $BC20 - STRING #192 @ $EE5E
+#W32($BC20)
+//隔壁閉鎖１０秒前。[END-FE]
+//System Message\\
+Ten seconds until closure.[END-FE]
+
+
+
+
+
+//POINTER #193 @ $BC24 - STRING #193 @ $EE73
+#W32($BC24)
+//ユリィ\\
+//時間がありませんよ！[NLINE]
+//急いでください！[END-FE]
+//Yurii\\
+We don't have time![NLINE]
+Please hurry![END-FE]
+
+
+
+
+
+//POINTER #194 @ $BC28 - STRING #194 @ $EE9C
+#W32($BC28)
+//隔壁を閉鎖する。[NLINE]
+//くりかえす、隔壁を閉鎖する。[NLINE]
+//内部の保安要員は閉鎖確認を行え。[END-FE]
+//System Message\\
+Closing bulkhead.[NLINE]
+Repeat, closing bulkhead.[NLINE]
+Confirming closure by security personnel.[END-FE]
+
+
+
+
+
+//POINTER #195 @ $BC2C - STRING #195 @ $EEEF
+#W32($BC2C)
+//ユリィ\\
+//ああ、[NLINE]
+//間に合いませんでした……。[END-FE]
+//Yurii\\
+Aah, we didn't make it in time...[END-FE]
+
+
+
+
+
+//POINTER #196 @ $BC30 - STRING #196 @ $EF14
+#W32($BC30)
+//[CHAR4A00][V0600]
+//はっ！[NLINE]
+//お前たち、何者だ？[END-FE]
+[CHAR4A00][V0600]
+Ah! Who are you?[END-FE]
+
+
+
+
+
+//POINTER #197 @ $BC34 - STRING #197 @ $EF39
+#W32($BC34)
+//ユリィ\\
+//[CHAR4A00][V0700]
+//気づかれてしまいましたね…。[END-FE]
+//Yurii\\
+[CHAR4A00][V0700]
+We have been discovered...[END-FE]
+
+
+
+
+
+//POINTER #198 @ $BC38 - STRING #198 @ $EF60
+#W32($BC38)
+//[CHAR4A00][V0800]
+//隊長、敵です！[END-FE]
+[CHAR4A00][V0800]
+Captain, it's the enemy![END-FE]
+
+
+
+
+
+//POINTER #199 @ $BC3C - STRING #199 @ $EF79
+#W32($BC3C)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V0900]
+//なんだと！[NWIN]
+//
+//[CHAR4A00][V0A00]
+//たった４人で来るとは[NLINE]
+//身の程知らずが！[NWIN]
+//
+//[CHAR4A00][V0B00]
+//総員、応戦せよ！[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V0900]
+What!?[NWIN]
+
+[CHAR4A00][V0A00]
+They came here with just four people?[NLINE]
+Hah! It seems they're overconfident![NWIN]
+
+[CHAR4A00][V0B00]
+All troops attack![END-FE]
+
+
+
+
+
+//POINTER #200 @ $BC40 - STRING #200 @ $EFD8
+#W32($BC40)
+//[CHAR4A00][V0C00]
+//はっ！[END-FE]
+[CHAR4A00][V0C00]
+Yes, sir![END-FE]
+
+
+
+
+
+//POINTER #201 @ $BC44 - STRING #201 @ $EFE9
+#W32($BC44)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V0D00]
+//ん？[NLINE]
+//あの女は…。[NWIN]
+//
+//[CHAR4A00][V0E00]
+//…まずいな…。[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V0D00]
+Huh? That girl...[NWIN]
+
+[CHAR4A00][V0E00]
+...Blast it...[END-FE]
+
+
+
+
+
+//POINTER #202 @ $BC48 - STRING #202 @ $F01E
+#W32($BC48)
+//ウェンディ\\
+//[CHAR4A00][V0F00]
+//えっ、彼は…。[NLINE]
+//まさか、ベッケル？[NWIN]
+//
+//[CHAR4A00][V1000]
+//でもここからじゃ[NLINE]
+//良く見えないわ。[NWIN]
+//
+//[CHAR4A00][V1100]
+//ねぇ、[Merklich]！[NLINE]
+//彼がベッケルか確認したいの！[NWIN]
+//
+//[CHAR4A00][V1200]
+//あそこに近づけるように[NLINE]
+//援護して！[END-FE]
+//Wendy\\
+[CHAR4A00][V0F00]
+Huh, That man is...[NLINE]
+No, it can't be...Beckel?[NWIN]
+
+[CHAR4A00][V1000]
+But I can't make sure from this distance.[NWIN]
+
+[CHAR4A00][V1100]
+Hey, [Merklich]! I would like to confirm[NLINE]
+whether or not that man is Beckel![NWIN]
+
+[CHAR4A00][V1200]
+Cover me so that I can get[NLINE]
+close to him![END-FE]
+
+
+
+
+
+//POINTER #203 @ $BC4C - STRING #203 @ $F0D7
+#W32($BC4C)
+//ウェンディ\\
+//[CHAR4A00][V1300]
+//えっ、彼は…？[END-FE]
+//Wendy\\
+[CHAR4A00][V1300]
+Huh, could he be...?[END-FE]
+
+
+
+
+
+//POINTER #204 @ $BC50 - STRING #204 @ $F0F0
+#W32($BC50)
+//Ｈ隊長をすぐに移動開始させる？[END-FE]
+Ｈ隊長をすぐに移動開始させる？[END-FE]
+
+
+
+
+
+//POINTER #205 @ $BC54 - STRING #205 @ $F111
+#W32($BC54)
+//ウェンディ\\
+//[CHAR4A00][V1400]
+//ベッケルじゃない！[NLINE]
+//やっぱり生きていたのね！[END-FE]
+//Wendy\\
+[CHAR4A00][V1400]
+It's Beckel! So you really[NLINE]
+are alive![END-FE]
+
+
+
+
+
+//POINTER #206 @ $BC58 - STRING #206 @ $F148
+#W32($BC58)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V1500]
+//ウェンディアーナ様…。[NLINE]
+//あなたこそ、[NLINE]
+//まだ生きていたとは…。[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V1500]
+Princess Wendiana... I didn't think[NLINE]
+that you would still be alive...[END-FE]
+
+
+
+
+
+//POINTER #207 @ $BC5C - STRING #207 @ $F18F
+#W32($BC5C)
+//ウェンディ\\
+//[CHAR4A00][V1600]
+//何を言っているの？[END-FE]
+//Wendy\\
+[CHAR4A00][V1600]
+What are you saying?[END-FE]
+
+
+
+
+
+//POINTER #208 @ $BC60 - STRING #208 @ $F1AC
+#W32($BC60)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V1700]
+//メーネから聞いていないのか？[NLINE]
+//…ならば好都合！[NWIN]
+//
+//[CHAR4A00][V1800]
+//お前たち、[NLINE]
+//この女をここで殺せ！[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V1700]
+You didn't hear from Meine?[NLINE]
+...Then it appears I'm in luck![NWIN]
+
+[CHAR4A00][V1800]
+You there! Kill this girl![END-FE]
+
+
+
+
+
+//POINTER #209 @ $BC64 - STRING #209 @ $F20F
+#W32($BC64)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V1700]
+//メーネから聞いていないのか？[NLINE]
+//…ならば好都合！[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V1700]
+You didn't hear from Meine?[NLINE]
+...Then it appears I'm in luck![END-FE]
+
+
+
+
+
+//POINTER #210 @ $BC68 - STRING #210 @ $F248
+#W32($BC68)
+//ウェンディ\\
+//[CHAR4A00][V1900]
+//ベッケル！？[END-FE]
+//Wendy\\
+[CHAR4A00][V1900]
+Beckel!?[END-FE]
+
+
+
+
+
+//POINTER #211 @ $BC6C - STRING #211 @ $F25F
+#W32($BC6C)
+//ウェンディ\\
+//[CHAR4A00][V1A00]
+//どこかで会ったような…。[NLINE]
+//でも彼なら死んだはず…。[NLINE]
+//…きっと似ているだけよ。[END-FE]
+//Wendy\\
+[CHAR4A00][V1A00]
+That man... Could he be...?[NLINE]
+No, that's impossible, he's dead.[NLINE]
+...He probably just looks like him.[END-FE]
+
+
+
+
+
+//POINTER #212 @ $BC70 - STRING #212 @ $F2B6
+#W32($BC70)
+//ウェンディ\\
+//教えて、ベッケル！[NLINE]
+//一体何があったのよ！[END-FE]
+//Wendy\\
+Tell me, Beckel![NLINE]
+What on earth happend!?[END-FE]
+
+
+
+
+
+//POINTER #213 @ $BC74 - STRING #213 @ $F2E1
+#W32($BC74)
+//ヒンギスタン王国軍兵長\\
+//死に往く者に話すことなどないわ！[NLINE]
+//どうしても知りたければ、[NLINE]
+//力ずくで聞けば良かろう！[END-FE]
+//Hingistan Officer\\
+There's no point in telling someone[NLINE]
+who is as good as dead! If you want[NLINE]
+to know, then you can get it out of[NLINE]
+me by force![END-FE]
+
+
+
+
+
+//POINTER #214 @ $BC78 - STRING #214 @ $F338
+#W32($BC78)
+//ウェンディ\\
+//…くっ！[NLINE]
+//…やるしかないの…？[END-FE]
+//Wendy\\
+...Ugh! Is this the only way...?[END-FE]
+
+
+
+
+
+//POINTER #215 @ $BC7C - STRING #215 @ $F359
+#W32($BC7C)
+//ウェンディ\\
+//お願い、ベッケル！[NLINE]
+//もうやめましょう？[END-FE]
+//Wendy\\
+Please, Beckel! Won't you stop this?[END-FE]
+
+
+
+
+
+//POINTER #216 @ $BC80 - STRING #216 @ $F382
+#W32($BC80)
+//ヒンギスタン王国軍兵長\\
+//相変わらず甘い女だな！[NLINE]
+//良く今まで生きてこられたものだ。[NWIN]
+//
+//だがお前に生きていられると、[NLINE]
+//いろいろと厄介なんだよ！[NWIN]
+//
+//巨人で一気に踏みつぶしてやる！[NLINE]
+//おとなしくここで死ね！[END-FE]
+//Hingistan Officer\\
+You're as naive as ever![NLINE]
+I'm amazed you managed to[NLINE]
+survive until now.[NWIN]
+
+But if you were to live, that would[NLINE]
+cause me a lot of trouble.[NWIN]
+
+I'll crush you in an instant with this[NLINE]
+giant! Now die![END-FE]
+
+
+
+
+
+//POINTER #217 @ $BC84 - STRING #217 @ $F42D
+#W32($BC84)
+//ウェンディ\\
+//…やっぱり、[NLINE]
+//戦うしかないのね…。[NWIN]
+//
+//[CH.FACE:Angry]
+//ならば、戦うわ！[NLINE]
+//今は巨人を止めることに集中する！[END-FE]
+//Wendy\\
+...I guess we have no choice[NLINE]
+but to fight...[NWIN]
+
+[CH.FACE:Angry]
+Then so be it![END-FE]
+We'll stop the giant![END-FE]
+
+
+
+
+
+//POINTER #218 @ $BC88 - STRING #218 @ $F48A
+#W32($BC88)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V1B00]
+//何ということだ。[NLINE]
+//このままでは巨人に入られてしまう…。[NWIN]
+//
+//[CHAR4A00][V1C00]
+//私は中に連絡に行く！[NLINE]
+//お前たちは出来るだけ時間を稼げ！[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V1B00]
+This can't be happening. At this[NLINE]
+rate, they'll get into the giant...[NWIN]
+
+[CHAR4A00][V1C00]
+I will go send word inside! Hold[NLINE]
+them off for as long as you can![END-FE]
+
+
+
+
+
+//POINTER #219 @ $BC8C - STRING #219 @ $F50B
+#W32($BC8C)
+//・兵士長が巨人に到達[NLINE]
+//・パーティーの全滅[NLINE]
+//・巨人が移動を開始[END-FE]
+・The army captain reaches the giant[NLINE]
+・All party members die[NLINE]
+・The giant begins to move[END-FE]
+
+
+
+
+
+//POINTER #220 @ $BC90 - STRING #220 @ $F54A
+#W32($BC90)
+//Ｈ兵士長を倒したことにする？[END-FE]
+Ｈ兵士長を倒したことにする？[END-FE]
+
+
+
+
+
+//POINTER #221 @ $BC94 - STRING #221 @ $F569
+#W32($BC94)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V1D00]
+//制御室！[NLINE]
+//すぐに巨人を動かせ！[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V1D00]
+Control room! Activate the[NLINE]
+giant immediately![END-FE]
+
+
+
+
+
+//POINTER #222 @ $BC98 - STRING #222 @ $F592
+#W32($BC98)
+//ユリィ\\
+//[CHAR4A00][V1E00]
+//ああ、[NLINE]
+//止められませんでした…。[END-FE]
+//Yurii\\
+[CHAR4A00][V1E00]
+Aah, we couldn't stop[NLINE]
+him...[END-FE]
+
+
+
+
+
+//POINTER #223 @ $BC9C - STRING #223 @ $F5BD
+#W32($BC9C)
+//ヒンギスタン王国軍兵長\\
+//[CHAR4A00][V1F00]
+//…く…くそ…[END-FE]
+//Hingistan Officer\\
+[CHAR4A00][V1F00]
+...D-damn it...[END-FE]
+
+
+
+
+
+//POINTER #224 @ $BCA0 - STRING #224 @ $F5D4
+#W32($BCA0)
+//・パーティーの全滅[NLINE]
+//・巨人が移動を開始[END-FE]
+・All party members die[NLINE]
+・The giant begins to move[END-FE]
+
+
+
+
+
+//POINTER #225 @ $BCA4 - STRING #225 @ $F5FD
+#W32($BCA4)
+//ウェンディ\\
+//[CHAR4A00][V2000]
+//…一体どういうこと？[NLINE]
+//メーネは何を知っているの…？[NWIN]
+//
+//[CH.FACE:Angry][CHAR4A00][V2100]
+//…ううん、悩むのは後！[NLINE]
+//今は巨人を何とかしないと！[END-FE]
+//Wendy\\
+[CHAR4A00][V2000]
+...What on earth is this[NLINE]
+about? What does Meine know?[NWIN]
+
+[CH.FACE:Angry][CHAR4A00][V2100]
+...No, I'll have to worry about that[NLINE]
+later! Now we have to do something[NLINE]
+about this giant![END-FE]
+
+
+
+
+
+//POINTER #226 @ $BCA8 - STRING #226 @ $F67A
+#W32($BCA8)
+//ウェンディ\\
+//[CHAR4A00][V2000]
+//…一体どういうこと？[NLINE]
+//メーネは何を知っているの…？[NWIN]
+//
+//[CHAR4A00][V2100]
+//…ううん、悩むのは後！[NLINE]
+//今は巨人を何とかしないと！[END-FE]
+//Wendy\\
+[CHAR4A00][V2000]
+...What in the world is this[NLINE]
+about? What does Meine know?[NWIN]
+
+[CHAR4A00][V2100]
+...No, I'll have to worry about that[NLINE]
+later! Now we have to do something[NLINE]
+about this giant![END-FE]
+
+
+
+
+
+//POINTER #227 @ $BCAC - STRING #227 @ $F6F3
+#W32($BCAC)
+//チェック用：タイム１　[CC.EF0D][END-FE]
+チェック用：タイム１ [CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #228 @ $BCB0 - STRING #228 @ $F70F
+#W32($BCB0)
+//ユリィ\\
+//[CHAR4A00][V2200]
+//やりましたね！[NLINE]
+//ですが、まだ安心は出来ません。[NLINE]
+//はやく巨人に入って、止めないと！[END-FE]
+//Yurii\\
+[CHAR4A00][V2200]
+We did it! But we can't rest easy[NLINE]
+yet. We quickly have to go into the[NLINE]
+giant and stop it![END-FE]
+
+
+
+
+
+//POINTER #229 @ $BCB4 - STRING #229 @ $F76A
+#W32($BCB4)
+//ウェンディ\\
+//[CHAR4A00][V2300]
+//うん、わかってるわ！[NLINE]
+//さあ、急ぎましょう！[END-FE]
+//Wendy\\
+[CHAR4A00][V2300]
+Got it! Let's hurry![END-FE]
+
+
+
+
+
+//POINTER #230 @ $BCB8 - STRING #230 @ $F79F
+#W32($BCB8)
+//ホフマン\\
+//[CHAR4D00][V0000]
+//敵が現れるまでに[NLINE]
+//応戦の態勢を整えよう。[END-FE]
+//Hofman\\
+[CHAR4D00][V0000]
+Let's prepare for battle before[NLINE]
+the enemy appears.[END-FE]
+
+
+
+
+
+//POINTER #231 @ $BCBC - STRING #231 @ $F7D2
+#W32($BCBC)
+//ルキアス\\
+//[CHAR4D00][V0100]
+//とはいっても、[NLINE]
+//こっちは４人だけどな。[END-FE]
+//Rukias\\
+[CHAR4D00][V0100]
+It's just the four of us, though.[END-FE]
+
+
+
+
+
+//POINTER #232 @ $BCC0 - STRING #232 @ $F803
+#W32($BCC0)
+//ホフマン\\
+//[CHAR4D00][V0200]
+//４人だから、余計に大切なんですよ。[END-FE]
+//Hofman\\
+[CHAR4D00][V0200]
+All the more reason to prepare.[END-FE]
+
+
+
+
+
+//POINTER #233 @ $BCC4 - STRING #233 @ $F830
+#W32($BCC4)
+//シュヴァイツァー\\
+//[CHAR4D00][V0300]
+//ほう、ヒンギスタン軍の出迎えがないと思えば[NLINE]
+//お前たちが制圧済みか。[NLINE]
+//こいつは好都合だな。[END-FE]
+//Shuweizer\\
+[CHAR4D00][V0300]
+Here I was expecting to be welcomed[NLINE]
+by the Hingistani army, but it appears you[NLINE]
+already have everything under control.[NLINE]
+How convenient.[END-FE]
+
+
+
+
+
+//POINTER #234 @ $BCC8 - STRING #234 @ $F893
+#W32($BCC8)
+//ウェンディ\\
+//[CHAR4D00][V0400]
+//やっぱり、シュヴァイツァーの赤狼隊…。[END-FE]
+//Wendy\\
+[CHAR4D00][V0400]
+As expected, it's Shuweizer and[NLINE]
+the Red Wolf Unit...[END-FE]
+
+
+
+
+
+//POINTER #235 @ $BCCC - STRING #235 @ $F8C4
+#W32($BCCC)
+//シュヴァイツァー\\
+//[CHAR4D00][V0500]
+//お前たちのことだ、[NLINE]
+//おとなしく渡せと言っても聞くまい。[NLINE]
+//ならば、無理やり動かして持ち帰るまでだ。[END-FE]
+//Shuweizer\\
+[CHAR4D00][V0500]
+I expect that asking you nicely to[NLINE]
+hand over the Dragon Orb isn't going to work.[NLINE]
+That means I'll just have to take it[NLINE]
+by force.[END-FE]
+
+
+
+
+
+//POINTER #236 @ $BCD0 - STRING #236 @ $F92F
+#W32($BCD0)
+//シュヴァイツァー\\
+//[CHAR4D00][V0600]
+//おい、お前の出番だぞ、[NLINE]
+//イリステレサ！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V0600]
+Iristelessa! You're up![END-FE]
+
+
+
+
+
+//POINTER #237 @ $BCD4 - STRING #237 @ $F960
+#W32($BCD4)
+//イリステレサ\\
+//[CC.AC00][CHAR4D00][V0700]
+//……。[END-FE]
+//Iristelessa\\
+[CC.AC00][CHAR4D00][V0700]
+...[END-FE]
+
+
+
+
+
+//POINTER #238 @ $BCD8 - STRING #238 @ $F974
+#W32($BCD8)
+//ルキアス\\
+//[CHAR4D00][V0800]
+//巫女…、[NLINE]
+//今度は財閥の手下になったのかよ！[END-FE]
+//Rukias\\
+[CHAR4D00][V0800]
+The Earth Priestess...[NLINE]
+Has she become a subordinate[NLINE]
+of Monopolis!?[END-FE]
+
+
+
+
+
+//POINTER #239 @ $BCDC - STRING #239 @ $F9A9
+#W32($BCDC)
+//イリステレサ\\
+//[CH.FACE:Open-Eyes][CHAR4D00][V0900]
+//私がこうしなければ、あの人が…。[END-FE]
+//Iristelessa\\
+[CH.FACE:Open-Eyes][CHAR4D00][V0900]
+If I don't do this, then he will...[END-FE]
+
+
+
+
+
+//POINTER #240 @ $BCE0 - STRING #240 @ $F9D7
+#W32($BCE0)
+//シュヴァイツァー\\
+//[CHAR4D00][V0A00]
+//余計なおしゃべりはするな！[NLINE]
+//お前は龍玉を使って[NLINE]
+//あの巨人を動かせばいいのだ！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V0A00]
+That's enough out of you![NLINE]
+Use the Dragon Orb and activate[NLINE]
+the giant![END-FE]
+
+
+
+
+
+//POINTER #241 @ $BCE4 - STRING #241 @ $FA2E
+#W32($BCE4)
+//ウェンディ\\
+//[CHAR4D00][V0B00]
+//龍玉で!?[NLINE]
+//まさか、そんなことが…。[END-FE]
+//Wendy\\
+[CHAR4D00][V0B00]
+With the Dragon Orb!?[NLINE]
+No way, that's impossible...[END-FE]
+
+
+
+
+
+//POINTER #242 @ $BCE8 - STRING #242 @ $FA5B
+#W32($BCE8)
+//シュヴァイツァー\\
+//[CHAR4D00][V0C00]
+//可能なのだよ、[NLINE]
+//大地の巫女自身が龍玉を使えばな！[NWIN]
+//
+//[CH.FACE:Angry][CHAR4D00][V0D00]
+//イリステレサは龍玉を使って巨人を動かせ！[NLINE]
+//残りの者は邪魔者の排除、[NLINE]
+//および巨人内部の制圧だ！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V0C00]
+It's quite possible when the Earth[NLINE]
+Priestess herself is using it![NWIN]
+
+[CH.FACE:Angry][CHAR4D00][V0D00]
+Iristelessa, use the Dragon Orb[NLINE]
+and activate the giant![NLINE]
+All remaining troops, get rid of[NLINE]
+these pests and seize control[NLINE]
+of the giant![END-FE]
+
+
+
+
+
+//POINTER #243 @ $BCEC - STRING #243 @ $FB00
+#W32($BCEC)
+//ウェンディ\\
+//[CHAR4D00][V0E00]
+//イリスさん…、[NLINE]
+//…やるしかないの…？[END-FE]
+//Wendy\\
+[CHAR4D00][V0E00]
+Iris... is this the only way...?[END-FE]
+
+
+
+
+
+//POINTER #244 @ $BCF0 - STRING #244 @ $FB2F
+#W32($BCF0)
+//・イリステレサの撃破[END-FE]
+・Defeat Iristelessa[END-FE]
+
+
+
+
+
+//POINTER #245 @ $BCF4 - STRING #245 @ $FB46
+#W32($BCF4)
+//・イリステレサに巨人の制御を奪われる[NLINE]
+//・敵の巨人内部への侵入を許す[NLINE]
+//・パーティーの全滅[END-FE]
+・The giant is taken over by Iristelessa[NLINE]
+・The giant is infiltrated by the enemy[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #246 @ $BCF8 - STRING #246 @ $FB9F
+#W32($BCF8)
+//ホフマン\\
+//敵は数が多いです！[NLINE]
+//巨人内部に逃がさないように[NLINE]
+//気をつけてください！[END-FE]
+//Hofman\\
+We're greatly outnumbered![NLINE]
+Make sure that no enemies get[NLINE]
+inside the giant![END-FE]
+
+
+
+
+
+//POINTER #247 @ $BCFC - STRING #247 @ $FBE6
+#W32($BCFC)
+//ウェンディ\\
+//それだけじゃなくて、[NLINE]
+//イリスさんが巨人を乗っ取ろうとしているのも[NLINE]
+//止めないと！[END-FE]
+//Wendy\\
+Not only that, we also have to[NLINE]
+stop Iristelessa from taking[NLINE]
+it over![END-FE]
+
+
+
+
+
+//POINTER #248 @ $BD00 - STRING #248 @ $FC37
+#W32($BD00)
+//ルキアス\\
+//くそ、面倒だな！[END-FE]
+//Rukias\\
+That's just great.[END-FE]
+
+
+
+
+
+//POINTER #249 @ $BD04 - STRING #249 @ $FC4A
+#W32($BD04)
+//シュヴァイツァー\\
+//こいつらっ！[NLINE]
+//チッ、[NLINE]
+//忌々しい……[END-FE]
+//Shuweizer\\
+Damn vermin![NLINE]
+Tch, I'm bleeding...[END-FE]
+
+
+
+
+
+//POINTER #250 @ $BD08 - STRING #250 @ $FC6F
+#W32($BD08)
+//イリステレサ\\
+//…。[END-FE]
+//Iristelessa\\
+...[END-FE]
+
+
+
+
+
+//POINTER #251 @ $BD0C - STRING #251 @ $FC76
+#W32($BD0C)
+//シュヴァイツァー\\
+//俺は一度後方に退くが、[NLINE]
+//余計な事は考えるなよ？[NLINE]
+//わかっているな？[END-FE]
+//Shuweizer\\
+I'll retreat this time, but[NLINE]
+don't let that distract you from[NLINE]
+our goal. Do you understand?[END-FE]
+
+
+
+
+
+//POINTER #252 @ $BD10 - STRING #252 @ $FCB9
+#W32($BD10)
+//イリステレサ\\
+//はい…。[END-FE]
+//Iristelessa\\
+Yes...[END-FE]
+
+
+
+
+
+//POINTER #253 @ $BD14 - STRING #253 @ $FCC4
+#W32($BD14)
+//ルキアス\\
+//…ところで、この戦闘が終わったら、[NLINE]
+//この巨人はどうなるんだ…？[END-FE]
+//Rukias\\
+...By the way, when this[NLINE]
+battle ends, what will happen[NLINE]
+to the giant...?[END-FE]
+
+
+
+
+
+//POINTER #254 @ $BD18 - STRING #254 @ $FD05
+#W32($BD18)
+//ウェンディ\\
+//私たちがここを動いたら[NLINE]
+//放置することになるわね。[END-FE]
+//Wendy\\
+We'll have to leave it.[END-FE]
+
+
+
+
+
+//POINTER #255 @ $BD1C - STRING #255 @ $FD38
+#W32($BD1C)
+//ルキアス\\
+//制御キーを抜いたとはいえ、[NLINE]
+//回収されたら、やばいんだろ？[END-FE]
+//Rukias\\
+Even though the control key is[NLINE]
+disconnected, wouldn't it be dangerous[NLINE]
+if it falls into the wrong hands?[END-FE]
+
+
+
+
+
+//POINTER #256 @ $BD20 - STRING #256 @ $FD73
+#W32($BD20)
+//ホフマン\\
+//そのためにも、モノポリス私設軍を[NLINE]
+//ここから完全に追い返さないと[NLINE]
+//いけませんね！[END-FE]
+//Hofman\\
+That's why we have to completely[NLINE]
+drive off Monopolis![END-FE]
+
+
+
+
+
+//POINTER #257 @ $BD24 - STRING #257 @ $FDC4
+#W32($BD24)
+//ルキアス\\
+//だったら連中が[NLINE]
+//ここに戻る気がなくなるまで[NLINE]
+//徹底的にやるだけだな！[END-FE]
+//Rukias\\
+So we'll have to give them such[NLINE]
+a severe beating that they never dare[NLINE]
+return here again![END-FE]
+
+
+
+
+
+//POINTER #258 @ $BD28 - STRING #258 @ $FE09
+#W32($BD28)
+//シュヴァイツァー\\
+//[CHAR4D00][V0F00]
+//まだ出来ないのか！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V0F00]
+You're still not finished?[END-FE]
+
+
+
+
+
+//POINTER #259 @ $BD2C - STRING #259 @ $FE26
+#W32($BD2C)
+//イリステレサ\\
+//[CHAR4D00][V1000]
+//すみません…。[NLINE]
+//もう少し時間を…。[END-FE]
+//Iristelessa\\
+[CHAR4D00][V1000]
+My apologies...[NLINE]
+Give me a little more time...[END-FE]
+
+
+
+
+
+//POINTER #260 @ $BD30 - STRING #260 @ $FE53
+#W32($BD30)
+//シュヴァイツァー\\
+//[CHAR4D00][V1100]
+//オヤジの作った塔に[NLINE]
+//龍玉が通じなかった以上、[NLINE]
+//あれを奪うしかないんだぞ！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V1100]
+The Dragon Orb didn't work on[NLINE]
+the towers my father built.[NLINE]
+Our only option is to seize control of the giant![END-FE]
+
+
+
+
+
+//POINTER #261 @ $BD34 - STRING #261 @ $FEA6
+#W32($BD34)
+//イリステレサ\\
+//[CHAR4D00][V1200]
+//…わかっています。[NLINE]
+//ですが、龍玉による制御奪取は[NLINE]
+//一度しかできません。[NWIN]
+//
+//[CHAR4D00][V1300]
+//失敗すれば魔動回路が耐性を持ち[NLINE]
+//二度と同じ方法は使えません。[END-FE]
+//Iristelessa\\
+[CHAR4D00][V1200]
+...I understand.[NLINE]
+However, using the Dragon Orb[NLINE]
+to seize control of giant will[NLINE]
+only work once.[NWIN]
+
+[CHAR4D00][V1300]
+If the takeover fails, the magic circuits[NLINE]
+of the giant will become resistent,[NLINE]
+and it will not be possible to perform this[NLINE]
+method a second time.[END-FE]
+
+
+
+
+
+//POINTER #262 @ $BD38 - STRING #262 @ $FF3D
+#W32($BD38)
+//シュヴァイツァー\\
+//[CHAR4D00][V1400]
+//だったら、しっかりやれ！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V1400]
+Then make sure you don't fail![END-FE]
+
+
+
+
+
+//POINTER #263 @ $BD3C - STRING #263 @ $FF60
+#W32($BD3C)
+//イリステレサ\\
+//[CHAR4D00][V1500]
+//…巨人の制御機構に到達。[NLINE]
+//これより命令パターンの解析にはいります。[END-FE]
+//Iristelessa\\
+[CHAR4D00][V1500]
+...I have reached the control mechanism[NLINE]
+of the giant. I will now begin analyzing[NLINE]
+its operation.[END-FE]
+
+
+
+
+
+//POINTER #264 @ $BD40 - STRING #264 @ $FFAD
+#W32($BD40)
+//イリステレサ\\
+//[CHAR4D00][V1600]
+//…巨人の制御機構の命令パターンが判明。[NLINE]
+//これより、制御権の奪取を開始します。[END-FE]
+//Iristelessa\\
+[CHAR4D00][V1600]
+...Analysis complete.[NLINE]
+I will now begin to take control.[END-FE]
+
+
+
+
+
+//POINTER #265 @ $BD44 - STRING #265 @ $10004
+#W32($BD44)
+//イリステレサ\\
+//[CHAR4D00][V1700]
+//…巨人の制御機構の奪取に成功。[NLINE]
+//龍玉によるコントロールが可能になりました。[END-FE]
+//Iristelessa\\
+[CHAR4D00][V1700]
+...The takeover has been succesful.[NLINE]
+Control with the Dragon Orb is now possible.[END-FE]
+
+
+
+
+
+//POINTER #266 @ $BD48 - STRING #266 @ $10059
+#W32($BD48)
+//ユリィ\\
+//[CHAR4D00][V1800]
+//ああ…間に合わなかった…。[END-FE]
+//Yurii\\
+[CHAR4D00][V1800]
+Aah, we didn't make it in time...[END-FE]
+
+
+
+
+
+//POINTER #267 @ $BD4C - STRING #267 @ $1007E
+#W32($BD4C)
+//シュヴァイツァー\\
+//…ふん、他愛もない…。[NLINE]
+//これなら内部の制圧も[NLINE]
+//たやすそうだな…。[END-FE]
+//Shuweizer\\
+...Hmmpf, child's play...[NLINE]
+Now it will be easier to seize[NLINE]
+control of the interior...[END-FE]
+
+
+
+
+
+//POINTER #268 @ $BD50 - STRING #268 @ $100C1
+#W32($BD50)
+//ユリィ\\
+//いけません！[NLINE]
+//内部に侵入される危険性があります！[NLINE]
+//気をつけてください！[END-FE]
+//Yurii\\
+Oh no![NLINE]
+They're about to get inside![NLINE]
+Please be careful![END-FE]
+
+
+
+
+
+//POINTER #269 @ $BD54 - STRING #269 @ $1010A
+#W32($BD54)
+//[END-FF]
+//昇降ランプへ到達！[NLINE]
+//このまま内部へ突破します！[END-FE]
+//[END-FF]
+We've reached the ramp![NLINE]
+We're almost at the giant![END-FE]
+
+
+
+
+
+//POINTER #270 @ $BD58 - STRING #270 @ $1013B
+#W32($BD58)
+//ユリィ\\
+//いけません！[NLINE]
+//敵兵が内部に侵入を図ろうとしています！[NLINE]
+//気をつけてください！[END-FE]
+//Yurii\\
+Oh no![NLINE]
+Enemy soldiers are about to get inside![NLINE]
+Please be careful![END-FE]
+
+
+
+
+
+//POINTER #271 @ $BD5C - STRING #271 @ $10188
+#W32($BD5C)
+//ふん、内部は制圧済か。[NLINE]
+//偽造済のＩＤカードで[NLINE]
+//一気に制御室を奪います！[END-FE]
+Mission accomplished.[NLINE]
+With this fake ID card we'll[NLINE]
+instantly take over the control room![END-FE]
+
+
+
+
+
+//POINTER #272 @ $BD60 - STRING #272 @ $101D1
+#W32($BD60)
+//シュヴァイツァー\\
+//よくやった。[NLINE]
+//これで俺の目的が果たせる！[END-FE]
+//Shuweizer\\
+Well done.[NLINE]
+Now my goal has been accomplished![END-FE]
+
+
+
+
+
+//POINTER #273 @ $BD64 - STRING #273 @ $101FC
+#W32($BD64)
+//イリステレサ\\
+//[CHAR4D00][V1900]
+//うぅ…これ以上は…。[END-FE]
+//Iristelessa\\
+[CHAR4D00][V1900]
+Ugh... I cannot go on...[END-FE]
+
+
+
+
+
+//POINTER #274 @ $BD68 - STRING #274 @ $1021B
+#W32($BD68)
+//シュヴァイツァー\\
+//[CHAR4D00][V1A00]
+//くそっ！[NLINE]
+//失敗したか！[NWIN]
+//
+//[CHAR4D00][V1B00]
+//巨人の奪取に失敗した上に[NLINE]
+//巫女を死なせる訳にもいかん！[NLINE]
+//ここは退却する！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V1A00]
+Blast it! She failed![NWIN]
+
+[CHAR4D00][V1B00]
+Now we failed at taking over[NLINE]
+the giant, we can't afford to[NLINE]
+let the Earth Priestess die as well![NLINE]
+All troops retreat![END-FE]
+
+
+
+
+
+//POINTER #275 @ $BD6C - STRING #275 @ $1028E
+#W32($BD6C)
+//シュヴァイツァー\\
+//[CHAR4D00][V1A00]
+//くそっ！[NLINE]
+//失敗したか！[NWIN]
+//
+//[CHAR4D00][V1B00]
+//巨人の奪取に失敗した上に[NLINE]
+//巫女を死なせる訳にもいかん！[NLINE]
+//ここは退却する！[END-FE]
+//Shuweizer\\
+[CHAR4D00][V1A00]
+Blast it! She failed![NWIN]
+
+[CHAR4D00][V1B00]
+Now we failed at taking over[NLINE]
+the giant, we can't afford to[NLINE]
+let the Earth Priestess die as well![NLINE]
+All troops retreat![END-FE]
+
+
+
+
+
+//POINTER #276 @ $BD70 - STRING #276 @ $10301
+#W32($BD70)
+//ユリィ\\
+//[CHAR4D00][V1C00]
+//お疲れさまです…。[NLINE]
+//ですが、あまりよい後味ではありませんね。[END-FE]
+//Yurii\\
+[CHAR4D00][V1C00]
+Well done...[NLINE]
+However, I can't help but think[NLINE]
+our victory was bittersweet.[END-FE]
+
+
+
+
+
+//POINTER #277 @ $BD74 - STRING #277 @ $10348
+#W32($BD74)
+//ウェンディ\\
+//[CHAR4D00][V1D00]
+//イリスさん…。[NLINE]
+//何か辛そうだったわ。[NWIN]
+//
+//[CHAR4D00][V1E00]
+//きっと理由があってあんなことを…。[END-FE]
+//Wendy\\
+[CHAR4D00][V1D00]
+Iris...[NLINE]
+It seemed like she was troubled over something.[NWIN]
+
+[CHAR4D00][V1E00]
+She must have had a reason[NLINE]
+for doing this...[END-FE]
+
+
+
+
+
+//POINTER #278 @ $BD78 - STRING #278 @ $103A3
+#W32($BD78)
+//・人質を取られた[END-FE]
+・Someone has been taken hostage[END-FE]
+
+
+
+
+
+//POINTER #279 @ $BD7C - STRING #279 @ $103B6
+#W32($BD7C)
+//・単に脅されている[END-FE]
+・She's being threatened[END-FE]
+
+
+
+
+
+//POINTER #280 @ $BD80 - STRING #280 @ $103CB
+#W32($BD80)
+//・原因不明[END-FE]
+・I don't know the reason[END-FE]
+
+
+
+
+
+//POINTER #281 @ $BD84 - STRING #281 @ $103D8
+#W32($BD84)
+//ユリィ\\
+//[CHAR4D00][V1F00]
+//そう言えば[NLINE]
+//『あの人が』と言っていましたね。[END-FE]
+//Yurii\\
+[CHAR4D00][V1F00]
+That reminds me, she did[NLINE]
+mention a "he".[END-FE]
+
+
+
+
+
+//POINTER #282 @ $BD88 - STRING #282 @ $1040F
+#W32($BD88)
+//ユリィ\\
+//[CHAR4D00][V2000]
+//『あの人が』という言葉からすると、[NLINE]
+//人質を取られているようですね。[END-FE]
+//Yurii\\
+[CHAR4D00][V2000]
+Based on the fact that she mentioned[NLINE]
+a "he", we can conclude someone has been[NLINE]
+taken hostage.[END-FE]
+
+
+
+
+
+//POINTER #283 @ $BD8C - STRING #283 @ $1045C
+#W32($BD8C)
+//ウェンディ\\
+//[CHAR4D00][V2100]
+//イリスさんの人質となると、[NLINE]
+//やっぱり、兄様かしら…。[END-FE]
+//Wendy\\
+[CHAR4D00][V2100]
+Could it be my brother...?[END-FE]
+
+
+
+
+
+//POINTER #284 @ $BD90 - STRING #284 @ $1049B
+#W32($BD90)
+//ユリィ\\
+//[CHAR4D00][V2200]
+//その可能性は[NLINE]
+//きわめて高いですね。[END-FE]
+//Yurii\\
+[CHAR4D00][V2200]
+That possibility is quite high.[END-FE]
+
+
+
+
+
+//POINTER #285 @ $BD94 - STRING #285 @ $104C8
+#W32($BD94)
+//ウェンディ\\
+//[CH.FACE:Close-Eyes][CHAR4D00][V2300]
+//…兄様…。[END-FE]
+//Wendy\\
+[CH.FACE:Close-Eyes][CHAR4D00][V2300]
+...Maxwell...[END-FE]
+
+
+
+
+
+//POINTER #286 @ $BD98 - STRING #286 @ $104E0
+#W32($BD98)
+//ルキアス\\
+//[CHAR4D00][V2400]
+//そういえば、シュヴァイツァーが[NLINE]
+//気になることを言っていたな。[END-FE]
+//Rukias\\
+[CHAR4D00][V2400]
+There was something that Shuweizer said[NLINE]
+that's still on my mind.[END-FE]
+
+
+
+
+
+//POINTER #287 @ $BD9C - STRING #287 @ $10527
+#W32($BD9C)
+//・巨人の奪取のチャンスは一度きり[END-FE]
+・That there's only one chance to take[NLINE]
+   the giant[END-FE]
+
+
+
+
+
+//POINTER #288 @ $BDA0 - STRING #288 @ $1054A
+#W32($BDA0)
+//・オヤジの塔に龍玉が通じない[END-FE]
+・That the Dragon Orb didn't work on[NLINE]
+   his father's towers[END-FE]
+
+
+
+
+
+//POINTER #289 @ $BDA4 - STRING #289 @ $10569
+#W32($BDA4)
+//・おぼえていない[END-FE]
+・I don't remember[END-FE]
+
+
+
+
+
+//POINTER #290 @ $BDA8 - STRING #290 @ $1057C
+#W32($BDA8)
+//ルキアス\\
+//[CHAR4D00][V2500]
+//たしかにそれも言っていたが、[NLINE]
+//オレが言いたいのはそっちじゃなく…。[END-FE]
+//Rukias\\
+[CHAR4D00][V2500]
+He said that too, but that's not[NLINE]
+what I'm talking about...[END-FE]
+
+
+
+
+
+//POINTER #291 @ $BDAC - STRING #291 @ $105C9
+#W32($BDAC)
+//ウェンディ\\
+//[CH.FACE:Open-Eyes][CHAR4D00][V2600]
+//たしか…、[NLINE]
+//オヤジの造った塔に龍玉が通じない、[NLINE]
+//とか…。[END-FE]
+//Wendy\\
+[CH.FACE:Open-Eyes][CHAR4D00][V2600]
+Ｉ'm pretty sure he said that the[NLINE]
+Dragon Orb didn't work on the towers[NLINE]
+his father made, or something[NLINE]
+like that...[END-FE]
+
+
+
+
+
+//POINTER #292 @ $BDB0 - STRING #292 @ $1060F
+#W32($BDB0)
+//ルキアス\\
+//[CHAR4D00][V2700]
+//ああ、それだ！[NWIN]
+//
+//[CHAR4D00][V2800]
+//あいつにとってのオヤジって、[NLINE]
+//総帥のブランドルだろう？[NLINE]
+//つまり、侵略者インフィニトーの仕業になる。[END-FE]
+//Rukias\\
+[CHAR4D00][V2700]
+Yes, that was it![NWIN]
+
+[CHAR4D00][V2800]
+His father is Chairman Brandole,[NLINE]
+right? In other words, those[NLINE]
+towers are the work of Infinitor.[END-FE]
+
+
+
+
+
+//POINTER #293 @ $BDB4 - STRING #293 @ $10694
+#W32($BDB4)
+//ホフマン\\
+//[CHAR4D00][V2900]
+//いったい何のことを話しているんだ？[NLINE]
+//誰だい、そのインフィニトーって？[END-FE]
+//Hofman\\
+[CHAR4D00][V2900]
+What exactly are you talking[NLINE]
+about? Who is this "Infinitor"?[END-FE]
+
+
+
+
+
+//POINTER #294 @ $BDB8 - STRING #294 @ $106E3
+#W32($BDB8)
+//ユリィ\\
+//[CHAR4D00][V2A00]
+//いきなりこんな話をすると[NLINE]
+//驚かれるかも知れませんが、[NLINE]
+//実は…。[END-FE]
+//Yurii\\
+[CHAR4D00][V2A00]
+What I'm about to tell you might[NLINE]
+astonish you. The truth is that...[END-FE]
+
+
+
+
+
+//POINTER #295 @ $BDBC - STRING #295 @ $1072C
+#W32($BDBC)
+//ユリィ\\
+//[CHAR4D00][V2B00]
+//…ということなのです。[END-FE]
+//Yurii\\
+[CHAR4D00][V2B00]
+...And that's how things are now.[END-FE]
+
+
+
+
+
+//POINTER #296 @ $BDC0 - STRING #296 @ $1074D
+#W32($BDC0)
+//ホフマン\\
+//[CHAR4D00][V2C00]
+//う～む、[NLINE]
+//にわかには信じがたい話だ。[NWIN]
+//
+//[CHAR4D00][V2D00]
+//だが君たちの行動には、[NLINE]
+//一貫した信念が感じられる。[NLINE]
+//それが何よりの証拠なのだろう。[END-FE]
+//Hofman\\
+[CHAR4D00][V2C00]
+Hmm.[NLINE]
+I find your story hard to believe.[NWIN]
+
+[CHAR4D00][V2D00]
+But I can sense your actions are[NLINE]
+driven by strong convictions. That's[NLINE]
+all the proof I need.[END-FE]
+
+
+
+
+
+//POINTER #297 @ $BDC4 - STRING #297 @ $107D8
+#W32($BDC4)
+//ウェンディ\\
+//[CHAR4D00][V2E00]
+//それで、これからどうする？[NLINE]
+//巨人の制御には失敗したとはいえ、[NLINE]
+//あっちにはイリスさんと龍玉があるわ。[END-FE]
+//Wendy\\
+[CHAR4D00][V2E00]
+So, what will we do from here?[NLINE]
+Although Shuweizer failed at[NLINE]
+taking over the giant, he still[NLINE]
+has Iris and the Dragon Orb.[END-FE]
+
+
+
+
+
+//POINTER #298 @ $BDC8 - STRING #298 @ $10845
+#W32($BDC8)
+//ユリィ\\
+//[CHAR4D00][V2F00]
+//さっきの巫女は誰かを人質に[NLINE]
+//無理やり言いなりにさせられていたようでした。[END-FE]
+//Yurii\\
+[CHAR4D00][V2F00]
+It seems like the Earth Priestess[NLINE]
+has been forced to obey Shuweizer[NLINE]
+because of a hostage.[END-FE]
+
+
+
+
+
+//POINTER #299 @ $BDCC - STRING #299 @ $10898
+#W32($BDCC)
+//ウェンディ\\
+//[CHAR4D00][V3100]
+//兄様…。[END-FE]
+//Wendy\\
+[CHAR4D00][V3100]
+Maxwell...[END-FE]
+
+
+
+
+
+//POINTER #300 @ $BDD0 - STRING #300 @ $108AB
+#W32($BDD0)
+//ユリィ\\
+//[CHAR4D00][V3200]
+//では彼を捜し出して、救出すれば、[NLINE]
+//イリステレサさんを呪縛から救えるのですね。[END-FE]
+//Yurii\\
+[CHAR4D00][V3200]
+If we find and rescue him,[NLINE]
+then Iristelessa will no[NLINE]
+longer be forced to obey Shuweizer.[END-FE]
+
+
+
+
+
+//POINTER #301 @ $BDD4 - STRING #301 @ $10902
+#W32($BDD4)
+//ルキアス\\
+//[CHAR4D00][V3300]
+//問題はどこに捕らえられているか、だ。[NLINE]
+//色々情報を探るしかないな。[END-FE]
+//Rukias\\
+[CHAR4D00][V3300]
+So now the question is: where is he[NLINE]
+held? We have no choice but to search for[NLINE]
+information.[END-FE]
+
+
+
+
+
+//POINTER #302 @ $BDD8 - STRING #302 @ $1094D
+#W32($BDD8)
+//・ヤースティル収容所が怪しい[END-FE]
+・Yarstill Prison seems suspicious[END-FE]
+
+
+
+
+
+//POINTER #303 @ $BDDC - STRING #303 @ $1096C
+#W32($BDDC)
+//・レイスタンで情報収集[END-FE]
+・Let's gather information in Leystan[END-FE]
+
+
+
+
+
+//POINTER #304 @ $BDE0 - STRING #304 @ $10985
+#W32($BDE0)
+//・念のためマキナスへ行ってみる[END-FE]
+・Let's head to Makinus-just to make sure[END-FE]
+
+
+
+
+
+//POINTER #305 @ $BDE4 - STRING #305 @ $109A6
+#W32($BDE4)
+//ユリィ\\
+//[CHAR2B00][V3A00]
+//それは無茶な話です！[END-FE]
+//Yurii\\
+[CHAR2B00][V3A00]
+That would be too reckless![END-FE]
+
+
+
+
+
+//POINTER #306 @ $BDE8 - STRING #306 @ $109C5
+#W32($BDE8)
+//ユリィ\\
+//[CHAR6700][V4900]
+//では、出発しましょう。[END-FE]
+//Yurii\\
+[CHAR6700][V4900]
+Then let's depart.[END-FE]
+
+
+
+
+
+//POINTER #307 @ $BDEC - STRING #307 @ $109E6
+#W32($BDEC)
+//貴様ら何者だ!?[END-FE]
+Who are you!?[END-FE]
+
+
+
+
+
+//POINTER #308 @ $BDF0 - STRING #308 @ $109F7
+#W32($BDF0)
+//モノポリス社の者です。[END-FE]
+We're from Monopolis.[END-FE]
+
+
+
+
+
+//POINTER #309 @ $BDF4 - STRING #309 @ $10A10
+#W32($BDF4)
+//現在、レジスタンスを捕らえるために[NLINE]
+//この先は封鎖している！[NWIN]
+//
+//おとなしく戻らないと、捕らえるぞ！[NLINE]
+//引き返せ！[END-FE]
+We've blocked this road in order[NLINE]
+to arrest resistance members.[NWIN]
+
+If you don't turn back now, we'll[NLINE]
+have to arrest you! Now go![END-FE]
+
+
+
+
+
+//POINTER #310 @ $BDF8 - STRING #310 @ $10A7D
+#W32($BDF8)
+//[CHAR6300][V1300]
+//お疲れ様、作戦成功ね。[NWIN]
+//
+//[CHAR6300][V1400]
+//次の段取りは聞いているわよね？[END-FE]
+//Wendy\\
+[CHAR6300][V1300]
+Good job! The operation was a success.[NWIN]
+
+[CHAR6300][V1400]
+You've heard what plan to do next, right?[END-FE]
+
+
+
+
+
+//POINTER #311 @ $BDFC - STRING #311 @ $10AC6
+#W32($BDFC)
+//・急いでエル・ヒンギスへ向かう[END-FE]
+・Quickly head for El Hingis[END-FE]
+
+
+
+
+
+//POINTER #312 @ $BE00 - STRING #312 @ $10AE7
+#W32($BE00)
+//・ここの兵を残してよいのか確認[END-FE]
+・Ask if it's safe to leave the soldiers here[END-FE]
+
+
+
+
+
+//POINTER #313 @ $BE04 - STRING #313 @ $10B08
+#W32($BE04)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #314 @ $BE08 - STRING #314 @ $10B17
+#W32($BE08)
+//[CHAR6300][V1500]
+//街道を通ると[NLINE]
+//ヒンギスタン軍との戦闘になるわ。[NLINE]
+//突破しても良いけど、[NLINE]
+//無難に行くならシザーズ村から[NLINE]
+//トランス・ゲートね。[END-FE]
+[CHAR6300][V1500]
+If we go by road, we'll end up[NLINE]
+in a battle with the Hingistani army.[NLINE]
+We could break through them,[NLINE]
+but it would be safer to use[NLINE]
+the Transgate in Schizarz.[END-FE]
+
+
+
+
+
+//POINTER #315 @ $BE0C - STRING #315 @ $10B9A
+#W32($BE0C)
+//[CHAR6300][V1600]
+//何のためにこの場所を選んだと思うの？[NLINE]
+//いざとなったら、巨人の中に逃げ込めば、[NLINE]
+//本隊が到着しても持ちこたえられるわ。[NWIN]
+//
+//[CHAR6300][V1700]
+//それに砲撃を警戒して、[NLINE]
+//敵の攻撃も鈍るだろうし。[END-FE]
+//Wendy\\
+[CHAR6300][V1600]
+Why do you think we chose this place?[NLINE]
+In case of emergency, they can retreat into[NLINE]
+the giant. Even if the main force of[NLINE]
+Hingistan arrives, they should be able to[NLINE]
+withstand them.[NWIN]
+
+[CHAR6300][V1700]
+And they might fight less aggressively[NLINE]
+because they're weary of a blast being[NLINE]
+fired.[END-FE]
+
+
+
+
+
+//POINTER #316 @ $BE10 - STRING #316 @ $10C51
+#W32($BE10)
+//[CHAR6300][V1800]
+//トランス・ゲートを使って、[NLINE]
+//一気にエル・ヒンギスまでもどるわよ！[END-FE]
+[CHAR6300][V1800]
+Let's use the Transgate to return[NLINE]
+to El Hingis straightaway![END-FE]
+
+
+
+
+
+//POINTER #317 @ $BE14 - STRING #317 @ $10C9C
+#W32($BE14)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #318 @ $BE18 - STRING #318 @ $10CB3
+#W32($BE18)
+//自動Ｄ　ＥＢ０８＿１前[END-FE]
+自動D EB08_1前[END-FE]
+
+
+
+
+
+//POINTER #319 @ $BE1C - STRING #319 @ $10CCC
+#W32($BE1C)
+//[CHAR6300][V0000]
+//お待ちしていました。[NWIN]
+//
+//[CHAR6300][V0100]
+//現在、ウェンディ様がジアント山に攻撃、[NLINE]
+//敵を引きつけつつ、こちらに後退しています。[NWIN]
+//
+//[CHAR6300][V0200]
+//すぐに作戦に参加していただけますか？[END-FE]
+//Resistance Member\\
+[CHAR6300][V0000]
+We have been waiting for you.[NWIN]
+
+[CHAR6300][V0100]
+Right now, Commander Wendy is in the middle[NLINE]
+of attacking Mount Jiant. She will attract the enemy's[NLINE]
+attention and lure them here.[NWIN]
+
+[CHAR6300][V0200]
+Are you ready to participate in the[NLINE]
+the operation?[END-FE]
+
+
+
+
+
+//POINTER #320 @ $BE20 - STRING #320 @ $10D75
+#W32($BE20)
+//・作戦に参加する[END-FE]
+・Take part in the operation[END-FE]
+
+
+
+
+
+//POINTER #321 @ $BE24 - STRING #321 @ $10D88
+#W32($BE24)
+//・まだ準備がある[END-FE]
+・Say that you still need to prepare[END-FE]
+
+
+
+
+
+//POINTER #322 @ $BE28 - STRING #322 @ $10D9B
+#W32($BE28)
+//[CHAR6300][V0300]
+//では、よろしくお願いします！[END-FE]
+//Resistance Member\\
+[CHAR6300][V0300]
+Alright, good luck![END-FE]
+
+
+
+
+
+//POINTER #323 @ $BE2C - STRING #323 @ $10DC2
+#W32($BE2C)
+//我々の任務は、あなた方の作戦の成功後、[NLINE]
+//ヒンギスタン軍をここに釘付けにすることです。[END-FE]
+//Resistance Member\\
+After you're succesful, our mission[NLINE]
+is to to keep the Hingistan army[NLINE]
+occupied here.[END-FE]
+
+
+
+
+
+//POINTER #324 @ $BE30 - STRING #324 @ $10E19
+#W32($BE30)
+//ここの防備はお任せ下さい！[NLINE]
+//あなた方が城を落とすまで、[NLINE]
+//精一杯、敵を引きつけます！[END-FE]
+//Resistance Member\\
+Leave it to us to defend this place![NLINE]
+While you take the castle, we'll[NLINE]
+try our hardest to lure in the enemy.[END-FE]
+
+
+
+
+
+//POINTER #325 @ $BE34 - STRING #325 @ $10E6E
+#W32($BE34)
+//この先は戦場です。[NLINE]
+//進むのであれば、[NLINE]
+//隊長と話して下さい。[END-FE]
+//Resistance Member\\
+The battlefield is up ahead.[NLINE]
+If you want to proceed, talk to[NLINE]
+the captain.[END-FE]
+
+
+
+
+
+//POINTER #326 @ $BE38 - STRING #326 @ $10EAB
+#W32($BE38)
+//よろしくお願いします！[END-FE]
+//Resistance Member\\
+Good luck![END-FE]
+
+
+
+
+
+//POINTER #327 @ $BE3C - STRING #327 @ $10EC4
+#W32($BE3C)
+//王都のことはあなた方にお任せします！[END-FE]
+//Resistance Member\\
+We'll leave the capturing of[NLINE]
+the capital to you![END-FE]
+
+
+
+
+
+//POINTER #328 @ $BE40 - STRING #328 @ $10EEB
+#W32($BE40)
+//この先は戦場です。[NLINE]
+//進むのであれば、[NLINE]
+//隊長と話して下さい。[END-FE]
+//Resistance Member\\
+The battlefield is up ahead.[NLINE]
+If you want to proceed, talk to[NLINE]
+the captain.[END-FE]
+
+
+
+
+
+//POINTER #329 @ $BE44 - STRING #329 @ $10F28
+#W32($BE44)
+//万一の場合は、[NLINE]
+//我々がここで食い止めます！[CC.FFFB][NLINE]
+//…そうならないことを願いますが…。[END-FE]
+//Resistance Member\\
+If worst comes to worst, we'll[NLINE]
+detain the enemy here.[CC.FFFB][NLINE]
+...I hope that doesn't happen, though...[END-FE]
+
+
+
+
+
+//POINTER #330 @ $BE48 - STRING #330 @ $10F7B
+#W32($BE48)
+//今のところは[NLINE]
+//順調ですね！[END-FE]
+//Resistance Member\\
+Things have been going well[NLINE]
+so far![END-FE]
+
+
+
+
+
+//POINTER #331 @ $BE4C - STRING #331 @ $10F98
+#W32($BE4C)
+//ヒンギスタン軍が来たら、[NLINE]
+//この巨人に立てこもる作戦です。[END-FE]
+//Resistance Member\\
+If the Hingistani army comes,[NLINE]
+the plan is to hole ourselves up[NLINE]
+in this giant.[END-FE]
+
+
+
+
+
+//POINTER #332 @ $BE50 - STRING #332 @ $10FD3
+#W32($BE50)
+//今なら巨人の中で休憩出来ますよ。[NLINE]
+//商人もいますので、中へ入ってみては[NLINE]
+//いかがですか？[END-FE]
+//Resistance Member\\
+You can rest inside the giant if you like.[NLINE]
+There's also a merchant, so why not[NLINE]
+go inside?[END-FE]
+
+
+
+
+
+//POINTER #333 @ $BE54 - STRING #333 @ $1102A
+#W32($BE54)
+//[CHAR6300][V0100]
+//現在、ウェンディ様がジアント山に攻撃、[NLINE]
+//敵を引きつけつつ、こちらに後退しています。[NWIN]
+//
+//[CHAR6300][V0200]
+//すぐに作戦に参加していただけますか？[END-FE]
+[CHAR6300][V0100]
+Right now, Commander Wendy is in the middle[NLINE]
+of attacking Mount Jiant. She will attract the enemy's[NLINE]
+attention and lure them here.[NWIN]
+
+[CHAR6300][V0200]
+Are you ready to participate in the[NLINE]
+the operation?[END-FE]
+
+
+
+
+//POINTER #334 @ $BE58 - STRING #334 @ $110B5
+#W32($BE58)
+//・作戦に参加する[END-FE]
+・Take part in the operation[END-FE]
+
+
+
+
+
+//POINTER #335 @ $BE5C - STRING #335 @ $110C8
+#W32($BE5C)
+//・まだ準備がある[END-FE]
+・Say that you still need to prepare[END-FE]
+
+
+
+
+
+//POINTER #336 @ $BE60 - STRING #336 @ $110DB
+#W32($BE60)
+//[CHAR6300][V0300]
+//では、よろしくお願いします！[END-FE]
+//Resistance Member\\
+[CHAR6300][V0300]
+Alright, good luck![END-FE]
+
+
+
+
+
+//POINTER #337 @ $BE64 - STRING #337 @ $11102
+#W32($BE64)
+//ウェンディ様はこの先で戦っておられます！[NLINE]
+//お急ぎ下さい！[END-FE]
+//Resistance Member\\
+Commander Wendy is fighting up ahead![NLINE]
+Please hurry![END-FE]
+
+
+
+
+
+//POINTER #338 @ $BE68 - STRING #338 @ $1113D
+#W32($BE68)
+//後は我々が引き受けます。[NLINE]
+//王都へお急ぎ下さい。[END-FE]
+//Resistance Member\\
+We'll take care of the rest.[NLINE]
+Please hurry to the capital.[END-FE]
+
+
+
+
+
+//POINTER #339 @ $BE6C - STRING #339 @ $1116E
+#W32($BE6C)
+//[CC.AC00][CHARCB00][V4200]
+//……ふふっ[COL01]★[COL00][END-FE]
+//Wendy\\
+[CC.AC00][CHARCB00][V4200]
+...Hee-hee[COL01]★[END-FE]
+
+
+
+
+
+//POINTER #340 @ $BE70 - STRING #340 @ $1118E
+#W32($BE70)
+//[CHARCB00][V4300]
+//どうしたんですか？[NLINE]
+//ウェンディさん？[END-FE]
+//Yurii\\
+[CHARCB00][V4300]
+What is it, Wendy?[END-FE]
+
+
+
+
+
+//POINTER #341 @ $BE74 - STRING #341 @ $111BD
+#W32($BE74)
+//[CHARCB00][V4400]
+//やっぱり、君といるときが、[NLINE]
+//一番『しっくり来る』、[NLINE]
+//…ってね。[END-FE]
+//Wendy\\
+[CHARCB00][V4400]
+It seems I feel the most comfortable[NLINE]
+when I'm fighting together with[NLINE]
+you, [Merklich].[END-FE]
+
+
+
+
+
+//POINTER #342 @ $BE78 - STRING #342 @ $11206
+#W32($BE78)
+//[CHARCB00][V4500]
+//お二人は、私と出会う前から[NLINE]
+//一緒に行動していましたね。[END-FE]
+//Yurii\\
+[CHARCB00][V4500]
+That's because you two have[NLINE]
+working together since before[NLINE]
+you met me, isn't it?[END-FE]
+
+
+
+
+
+//POINTER #343 @ $BE7C - STRING #343 @ $11247
+#W32($BE7C)
+//[CHARCB00][V4600]
+//私がいなくて大丈夫だった？[END-FE]
+//Wendy\\
+[CHARCB00][V4600]
+Did everything go OK while[NLINE]
+I was gone?[END-FE]
+
+
+
+
+
+//POINTER #344 @ $BE80 - STRING #344 @ $1126C
+#W32($BE80)
+//・いつも通り[END-FE]
+・Same as always[END-FE]
+
+
+
+
+
+//POINTER #345 @ $BE84 - STRING #345 @ $1127B
+#W32($BE84)
+//・不安だった[END-FE]
+・I felt anxious[END-FE]
+
+
+
+
+
+//POINTER #346 @ $BE88 - STRING #346 @ $1128A
+#W32($BE88)
+//・ウェンディが心配だった[END-FE]
+・I was worried about you[END-FE]
+
+
+
+
+
+//POINTER #347 @ $BE8C - STRING #347 @ $112A5
+#W32($BE8C)
+//[CHARCB00][V4700]
+//いつも通り…。[NLINE]
+//私がいても、いなくても同じか…。[END-FE]
+//Wendy\\
+[CHARCB00][V4700]
+Same as always...[NLINE]
+So you are doing just fine,[NLINE]
+with or without me, huh...?[END-FE]
+
+
+
+
+
+//POINTER #348 @ $BE90 - STRING #348 @ $112E0
+#W32($BE90)
+//[CHARCB00][V4800]
+//私がいなくて不安だった？[NLINE]
+//…そっか、…ふふ…。[END-FE]
+//Wendy\\
+[CHARCB00][V4800]
+So you felt anxious about not[NLINE]
+having me around, huh?[NLINE]
+...I see... Hehe...[END-FE]
+
+
+
+
+
+//POINTER #349 @ $BE94 - STRING #349 @ $11319
+#W32($BE94)
+//[CHARCB00][V4900]
+//自分のことより私の心配？[NLINE]
+//ちょっと、それって失礼じゃない？[NWIN]
+//
+//[CH.FACE:Sad][CHARCB00][V4A00]
+//まぁ、気にかけてくれたって事は[NLINE]
+//悪い気はしないけどさ…。[END-FE]
+//Wendy\\
+[CHARCB00][V4900]
+You worried about me more than[NLINE]
+yourself? Isn't that a little[NLINE]
+rude?[NWIN]
+
+[CH.FACE:Sad][CHARCB00][V4A00]
+Well, I guess it's not a bad[NLINE]
+thing that you care about me...[END-FE]
+
+
+
+
+
+//POINTER #350 @ $BE98 - STRING #350 @ $113A4
+#W32($BE98)
+//[CHARCB00][V4B00]
+//うん、今回別行動してみて[NLINE]
+//良くわかったわ。[NWIN]
+//
+//[CHARCB00][V4C00]
+//私って、意外と[NLINE]
+//君に頼ってたんだなって…。[END-FE]
+//Wendy\\
+[CHARCB00][V4B00]
+Operating separately taught me[NLINE]
+something.[NWIN]
+
+[CHARCB00][V4C00]
+I have become to depend on you[NLINE]
+more than I expected...[END-FE]
+
+
+
+
+
+//POINTER #351 @ $BE9C - STRING #351 @ $1140D
+#W32($BE9C)
+//[CHARCB00][V4D00]
+//ウェンディさん…。[END-FE]
+//Yurii\\
+[CHARCB00][V4D00]
+Wendy...[END-FE]
+
+
+
+
+
+//POINTER #352 @ $BEA0 - STRING #352 @ $1142A
+#W32($BEA0)
+//…[CC.D80F]…[CC.D80F][CHARCB00][V4E00]
+//ありがとう。[NLINE]
+//ちょっと、こうさせて…。[NWIN]
+//
+//…[CC.D80F]…[CC.D80F]…[CC.D80F]…。[CC.FFFB][NLINE]
+//[CH.FACE:Open-Eyes][CHARCB00][V4F00]
+//…どうしてなのかな…？[NWIN]
+//
+//[CHARCB00][V5000]
+//昔は自分だけでも[NLINE]
+//やれるって思ってた。[NWIN]
+//
+//[CHARCB00][V5100]
+//なのに…、君がいないと[NLINE]
+//不安になっちゃうよ…。[END-FE]
+//Wendy\\
+.[CC.D80F].[CC.D80F].[CHARCB00][V4E00]
+Thank you. Let's stay like[NLINE]
+this for a little while...[NWIN]
+
+.[CC.D80F].[CC.D80F].[CC.D80F].[CC.FFFB][NLINE]
+[CH.FACE:Open-Eyes][CHARCB00][V4F00]
+...Why?[NWIN]
+
+[CHARCB00][V5000]
+I used to think I could do[NLINE]
+everything myself.[NWIN]
+
+[CHARCB00][V5100]
+But... when you're not there,[NLINE]
+I become anxious...[END-FE]
+
+
+
+
+
+//POINTER #353 @ $BEA4 - STRING #353 @ $11507
+#W32($BEA4)
+//[CHARCB00][V5200]
+//…ありがとう。[NLINE]
+//もう、大丈夫…。[END-FE]
+//Wendy\\
+[CHARCB00][V5200]
+...Thank you.[NLINE]
+I'm fine now.[END-FE]
+
+
+
+
+
+//POINTER #354 @ $BEA8 - STRING #354 @ $11532
+#W32($BEA8)
+//・元気になって良かった[END-FE]
+・I'm glad you feel better[END-FE]
+
+
+
+
+
+//POINTER #355 @ $BEAC - STRING #355 @ $1154B
+#W32($BEAC)
+//・いつでもどうぞ[END-FE]
+・You can always come back for more[END-FE]
+
+
+
+
+
+//POINTER #356 @ $BEB0 - STRING #356 @ $1155E
+#W32($BEB0)
+//・早く行こう[END-FE]
+・Let's get going[END-FE]
+
+
+
+
+
+//POINTER #357 @ $BEB4 - STRING #357 @ $1156D
+#W32($BEB4)
+//[CHARCB00][V5300]
+//それじゃ、行こうか！[END-FE]
+//Wendy\\
+[CHARCB00][V5300]
+Alright, let's go![END-FE]
+
+
+
+
+
+//POINTER #358 @ $BEB8 - STRING #358 @ $1158C
+#W32($BEB8)
+//[CHARCB00][V5400]
+//…も、もう…！[END-FE]
+//Wendy\\
+[CHARCB00][V5400]
+C-cut it out...![END-FE]
+
+
+
+
+
+//POINTER #359 @ $BEBC - STRING #359 @ $115A5
+#W32($BEBC)
+//[CHARCB00][V5500]
+//うん、そうだね！[END-FE]
+//Wendy\\
+[CHARCB00][V5500]
+Yeah, you're right![END-FE]
+
+
+
+
+
+//POINTER #360 @ $BEC0 - STRING #360 @ $115C0
+#W32($BEC0)
+//[CHARCB00][V5600]
+//それじゃ、行こうか！[END-FE]
+//Wendy\\
+[CHARCB00][V5600]
+Let's go![END-FE]
+
+
+
+
+
+//POINTER #361 @ $BEC4 - STRING #361 @ $115DF
+#W32($BEC4)
+//[CHAR6300][V0400]
+//手を焼かせてくれたが[NLINE]
+//ここで一気に叩いてやる！[END-FE]
+//Hingistan Army Captain\\
+[CHAR6300][V0400]
+They've given us lots of trouble,[NLINE]
+but we will crush them here[NLINE]
+in one fell swoop![END-FE]
+
+
+
+
+
+//POINTER #362 @ $BEC8 - STRING #362 @ $11618
+#W32($BEC8)
+//[CHAR6300][V0500]
+//さあ、後一息よ！[NLINE]
+//みんな、がんばって！[END-FE]
+//Wendy\\
+[CHAR6300][V0500]
+Alright, we're almost done![NLINE]
+Everyone, do your best![END-FE]
+
+
+
+
+
+//POINTER #363 @ $BECC - STRING #363 @ $11649
+#W32($BECC)
+//[CHAR6300][V0600]
+//ウェンディさん！[END-FE]
+//Yurii\\
+[CHAR6300][V0600]
+Wendy![END-FE]
+
+
+
+
+
+//POINTER #364 @ $BED0 - STRING #364 @ $11664
+#W32($BED0)
+//[CHAR6300][V0700]
+//みんな！[NLINE]
+//来てくれたのね！[NWIN]
+//
+//[CHAR6300][V0800]
+//作戦は聞いているわね？[NLINE]
+//まずは思いきり戦って！[END-FE]
+//Wendy\\
+[CHAR6300][V0700]
+You came![NWIN]
+
+[CHAR6300][V0800]
+You've heard the plan, right?[NLINE]
+First, we'll fight them with all[NLINE]
+our strength![END-FE]
+
+
+
+
+
+//POINTER #365 @ $BED4 - STRING #365 @ $116C1
+#W32($BED4)
+//　[NLINE]
+//ウェンディが仲間になった！[END-FE]
+[NLINE]
+Wendy has become an ally![END-FE]
+
+
+
+
+
+//POINTER #366 @ $BED8 - STRING #366 @ $116E2
+#W32($BED8)
+//・敵兵２０体以上を撃破しつつ、[NLINE]
+//　マップ北側に５名以上到達し[NLINE]
+//　敵に援軍要請を行わせる[END-FE]
+・Defeat twenty or more enemies and[NLINE]
+ let five resistance members reach[NLINE]
+ the northern area of the map[NLINE]
+ to make the enemy request reinforcements[END-FE]
+
+
+
+
+
+//POINTER #367 @ $BEDC - STRING #367 @ $1173B
+#W32($BEDC)
+//・レジスタンスメンバーが３人以上[NLINE]
+//　撃破される[NLINE]
+//・パーティーの全滅[END-FE]
+・Three resistance members die[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #368 @ $BEE0 - STRING #368 @ $11780
+#W32($BEE0)
+//了解した！[NLINE]
+//みんな、前進だ！[END-FE]
+Understood![NLINE]
+All troops advance![END-FE]
+
+
+
+
+
+//POINTER #369 @ $BEE4 - STRING #369 @ $1179F
+#W32($BEE4)
+//ここまで移動させたということは、[NLINE]
+//前進しろと言う意味だな？[END-FE]
+ここまで移動させたということは、[NLINE]
+前進しろと言う意味だな？[END-FE]
+
+
+
+
+
+//POINTER #370 @ $BEE8 - STRING #370 @ $117DC
+#W32($BEE8)
+//前進を開始するのか？[END-FE]
+Shall we advance?[END-FE]
+
+
+
+
+
+//POINTER #371 @ $BEEC - STRING #371 @ $117F3
+#W32($BEEC)
+//おおむね敵陣を突破したわ！[NLINE]
+//このまま掃討してやるわ！[END-FE]
+//Wendy\\
+We've managed to break through[NLINE]
+enemy lines! Let's mop them up![END-FE]
+
+
+
+
+
+//POINTER #372 @ $BEF0 - STRING #372 @ $1182A
+#W32($BEF0)
+//おおむね敵陣を制圧しました！[NLINE]
+//このまま掃討します！[END-FE]
+//Iristelessa\\
+We've managed to break through[NLINE]
+enemy lines! Let's defeat all of them![END-FE]
+
+
+
+
+
+//POINTER #373 @ $BEF4 - STRING #373 @ $1185F
+#W32($BEF4)
+//敵陣を制圧したぞ！[NLINE]
+//このまま掃討してやる！[END-FE]
+//Rukias\\
+We've overrun the enemy's position![NLINE]
+Let's wipe them out![END-FE]
+
+
+
+
+
+//POINTER #374 @ $BEF8 - STRING #374 @ $1188C
+#W32($BEF8)
+//敵陣の制圧完了です！[NLINE]
+//このまま掃討戦に移りましょう！[END-FE]
+//Yurii\\
+We have overrun the enemy's position![NLINE]
+Let us commence the sweep-up operation![END-FE]
+
+
+
+
+
+//POINTER #375 @ $BEFC - STRING #375 @ $118C3
+#W32($BEFC)
+//我々は敵の戦力を引きつけるために[NLINE]
+//まずはここで待機します。[NWIN]
+//
+//前進してもよい段階と判断されたら、[NLINE]
+//我々に話しかけてください。[NWIN]
+//
+//敵の戦力を消耗させた上で我々が敵陣を侵せば、[NLINE]
+//敵は城へ援軍要請を出すはずです！[END-FE]
+//Resistance Member\\
+We shall stay here to lure in[NLINE]
+the enemy.[NWIN]
+
+When you've judged that it's[NLINE]
+time for us to advance, just[NLINE]
+say the word.[NWIN]
+
+If we encroach on the enemy's position[NLINE]
+once you've reduced their numbers, they[NLINE]
+should request reinforcements[NLINE]
+from the castle![END-FE]
+
+
+
+
+
+//POINTER #376 @ $BF00 - STRING #376 @ $11990
+#W32($BF00)
+//要するに敵を倒しつつ敵陣に押し入って、[NLINE]
+//こちらの力を見せつけたうえで[NLINE]
+//巨人に引き揚げればいいんだな。[END-FE]
+//Rukias\\
+In short, defeat the enemy and force[NLINE]
+our way to the enemy's position to show[NLINE]
+them our might. Afterwards, retreat[NLINE]
+back to the giant. Got it.[END-FE]
+
+
+
+
+
+//POINTER #377 @ $BF04 - STRING #377 @ $119F7
+#W32($BF04)
+//敵のやってくるエリアに[NLINE]
+//わたし達のうち[COL01]５人[COL00]くらいが入り込めば[NLINE]
+//敵は増援を呼ぶことになるはずよ。[NWIN]
+//
+//それと、味方はなるべく死なせないように。[NLINE]
+//味方が倒されすぎたら[NLINE]
+//巨人を守る戦力が足りなくなるわ。[END-FE]
+//Wendy\\
+If [COL01]five[COL00] of our people reach[NLINE]
+the enemy's territory, they should[NLINE]
+call for reinforcements.[NWIN]
+
+Also, make sure that we don't lose too many people.[NLINE]
+If we suffer too many losses, we[NLINE]
+won't have enough manpower to[NLINE]
+defend the giant.[END-FE]
+
+
+
+
+
+//POINTER #378 @ $BF08 - STRING #378 @ $11AC0
+#W32($BF08)
+//[CHAR6300][V0B00]
+//そんな…。[END-FE]
+//Yurii\\
+[CHAR6300][V0B00]
+Oh no...[END-FE]
+
+
+
+
+
+//POINTER #379 @ $BF0C - STRING #379 @ $11AD5
+#W32($BF0C)
+//[CHAR6300][V0A00]
+//２人目の被害がっ！[NLINE]
+//みなさん、がんばってください！[END-FE]
+//Yurii\\
+[CHAR6300][V0A00]
+We're down two people![NLINE]
+Fight hard, everyone![END-FE]
+
+
+
+
+
+//POINTER #380 @ $BF10 - STRING #380 @ $11B12
+#W32($BF10)
+//[CHAR6300][V0900]
+//ああっ、味方に被害がっ！[END-FE]
+//Yurii\\
+[CHAR6300][V0900]
+Aah, one of our allies went down![END-FE]
+
+
+
+
+
+//POINTER #381 @ $BF14 - STRING #381 @ $11B35
+#W32($BF14)
+//５名撃破[END-FE]
+Five enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #382 @ $BF18 - STRING #382 @ $11B40
+#W32($BF18)
+//１０名撃破[END-FE]
+Ten enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #383 @ $BF1C - STRING #383 @ $11B4D
+#W32($BF1C)
+//１５名撃破[END-FE]
+Fifteen enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #384 @ $BF20 - STRING #384 @ $11B5A
+#W32($BF20)
+//２０名撃破[END-FE]
+Twenty enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #385 @ $BF24 - STRING #385 @ $11B67
+#W32($BF24)
+//これだけ倒せば十分だわ！[NLINE]
+//あとは一斉に前進して、[NLINE]
+//今にも制圧されると相手に思わせましょう！[END-FE]
+//Wendy\\
+That should be enough![NLINE]
+Let's move forward all at once[NLINE]
+and make the enemy think they'll[NLINE]
+be overrun at any moment![END-FE]
+
+
+
+
+
+//POINTER #386 @ $BF28 - STRING #386 @ $11BC4
+#W32($BF28)
+//[CHAR6300][V0C00]
+//なんという事だ…。[NLINE]
+//このままでは…！[NWIN]
+//
+//[CHAR6300][V0D00]
+//援軍要請の信号をあげろ！[END-FE]
+//Hingistan Soldier\\
+[CHAR6300][V0C00]
+Oh no...[NLINE]
+At this rate we'll be...![NWIN]
+
+[CHAR6300][V0D00]
+Give the signal for[NLINE]
+reinforcements![END-FE]
+
+
+
+
+
+//POINTER #387 @ $BF2C - STRING #387 @ $11C15
+#W32($BF2C)
+//[CHAR6300][V0E00]
+//作戦第一段階成功！[NLINE]
+//総員退却開始！[END-FE]
+//Wendy\\
+[CHAR6300][V0E00]
+The first stage of our plan[NLINE]
+has been a success! All units retreat![END-FE]
+
+
+
+
+
+//POINTER #388 @ $BF30 - STRING #388 @ $11C42
+#W32($BF30)
+//[CHAR6300][V0F00]
+//作戦第一段階成功です！[NLINE]
+//レジスタンスの皆さん、[NLINE]
+//退却を開始してください！[END-FE]
+//Yurii\\
+[CHAR6300][V0F00]
+Phase one of our plan has been[NLINE]
+a success! All resistance members,[NLINE]
+please retreat![END-FE]
+
+
+
+
+
+//POINTER #389 @ $BF34 - STRING #389 @ $11C95
+#W32($BF34)
+//・レジスタンスメンバー全員脱出後に[NLINE]
+//　[Merklich]が脱出する[END-FE]
+・All resistance members escape,[NLINE]
+ [Merklich] escapes last[END-FE]
+
+
+
+
+
+//POINTER #390 @ $BF38 - STRING #390 @ $11CCC
+#W32($BF38)
+//[CHAR6300][V1000]
+//レジスタンスの皆さんが[NLINE]
+//退却を完了しました！[NLINE]
+//皆さんも急いで脱出を！[END-FE]
+//Yurii\\
+[CHAR6300][V1000]
+All resistance members have[NLINE]
+retreated! Now we should get[NLINE]
+out of here, too![END-FE]
+
+
+
+
+
+//POINTER #391 @ $BF3C - STRING #391 @ $11D1B
+#W32($BF3C)
+//・[Merklich]が南東へ脱出する[END-FE]
+・[Merklich] escapes to the southeast[END-FE]
+
+
+
+
+
+//POINTER #392 @ $BF40 - STRING #392 @ $11D34
+#W32($BF40)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #393 @ $BF44 - STRING #393 @ $11D49
+#W32($BF44)
+//[CHAR6300][V1100]
+//急いで次の段階に移りましょう！[END-FE]
+//Yurii\\
+[CHAR6300][V1100]
+Let's quickly move on to the next[NLINE]
+stage of the plan![END-FE]
+
+
+
+
+
+//POINTER #394 @ $BF48 - STRING #394 @ $11D72
+#W32($BF48)
+//[CHAR6300][V1200]
+//逃がすな！[NLINE]
+//援軍と協力してはさみ撃ちにしてくれる！[END-FE]
+//Hingistan Soldier\\
+[CHAR6300][V1200]
+Don't let them escape! We'll[NLINE]
+work together with the reinforcements and[NLINE]
+catch them in a pincer attack![END-FE]
+
+
+
+
+
+//POINTER #395 @ $BF4C - STRING #395 @ $11DAF
+#W32($BF4C)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #396 @ $BF50 - STRING #396 @ $11DC6
+#W32($BF50)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #397 @ $BF54 - STRING #397 @ $11DD5
+#W32($BF54)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #398 @ $BF58 - STRING #398 @ $11DE4
+#W32($BF58)
+//デバッグセーブに行きますか？[END-FE]
+Do you want to go to a debugging save?[END-FE]
+
+
+
+
+
+//POINTER #399 @ $BF5C - STRING #399 @ $11E03
+#W32($BF5C)
+//Ｄ　Ｆ２１[END-FE]
+D F21[END-FE]
+
+
+
+

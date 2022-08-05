@@ -1,0 +1,1345 @@
+
+
+//POINTER #0 @ $15A0 - STRING #0 @ $1790
+#W32($15A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $15A4 - STRING #1 @ $1793
+#W32($15A4)
+//預かってるラナの実だが、[NLINE]
+//持っていくかい？[END-FE]
+Would you like to take the[NLINE]
+Rana Fruit secured here?[END-FE]
+
+
+
+
+
+//POINTER #2 @ $15A8 - STRING #2 @ $17C0
+#W32($15A8)
+//そうかい。[NLINE]
+//預かってるから、[NLINE]
+//取りに来なよ。[END-FE]
+I see. Well,[NLINE]
+you may pick[NLINE]
+it up anytime.[END-FE]
+
+
+
+
+
+//POINTER #3 @ $15AC - STRING #3 @ $17EF
+#W32($15AC)
+//この奥には兵隊さんが腕を磨くための[NLINE]
+//闘技場があるんです。[NWIN]
+//
+//ですが、先日大きな大会が終わって、[NLINE]
+//現在は整備中です。[NWIN]
+//
+//しばらくお待ち下さい。[END-FE]
+This is the Colosseum where[NLINE]
+soldiers can test their skills.[NWIN]
+
+But we're still cleaning up from[NLINE]
+the last tournament.[NWIN]
+
+Please come back later.[END-FE]
+
+
+
+
+
+//POINTER #4 @ $15B0 - STRING #4 @ $187A
+#W32($15B0)
+//【デバッグ】すべて表示する？[END-FE]
+【デバッグ】すべて表示する？[END-FE]
+
+
+
+
+
+//POINTER #5 @ $15B4 - STRING #5 @ $1899
+#W32($15B4)
+//ただいま、次回大会へ向けての準備中です。[NLINE]
+//開催されたら腕試しに来てくださいね！[END-FE]
+We're preparing for the next tournament.[NLINE]
+Come try your skills when it starts![END-FE]
+
+
+
+
+
+//POINTER #6 @ $15B8 - STRING #6 @ $18EA
+#W32($15B8)
+//どのコースに[NLINE]
+//参加されますか？[END-FE]
+Which event would you[NLINE]
+like to try?[END-FE]
+
+
+
+
+
+//POINTER #7 @ $15BC - STRING #7 @ $190B
+#W32($15BC)
+//・打撃ダメージ競争[END-FE]
+・Hard Hitter[END-FE]
+
+
+
+
+
+//POINTER #8 @ $15C0 - STRING #8 @ $1920
+#W32($15C0)
+//・魔法ダメージ競争[END-FE]
+・Spell Slinger[END-FE]
+
+
+
+
+
+//POINTER #9 @ $15C4 - STRING #9 @ $1935
+#W32($15C4)
+//・勝ち抜きカッパークラス[END-FE]
+・Copper Match[END-FE]
+
+
+
+
+
+//POINTER #10 @ $15C8 - STRING #10 @ $1950
+#W32($15C8)
+//・勝ち抜きシルバークラス[END-FE]
+・Silver Match[END-FE]
+
+
+
+
+
+//POINTER #11 @ $15CC - STRING #11 @ $196B
+#W32($15CC)
+//・勝ち抜きゴールドクラス[END-FE]
+・Gold Match[END-FE]
+
+
+
+
+
+//POINTER #12 @ $15D0 - STRING #12 @ $1986
+#W32($15D0)
+//・勝ち抜きプラチナクラス[END-FE]
+・Platinum Match[END-FE]
+
+
+
+
+
+//POINTER #13 @ $15D4 - STRING #13 @ $19A1
+#W32($15D4)
+//・ボーナスバトル－ゴールドゲル[END-FE]
+・Bonus Battle - Gold Slime[END-FE]
+
+
+
+
+
+//POINTER #14 @ $15D8 - STRING #14 @ $19C2
+#W32($15D8)
+//・ボーナスバトル－ソウル[END-FE]
+・Bonus Battle - Soul[END-FE]
+
+
+
+
+
+//POINTER #15 @ $15DC - STRING #15 @ $19DD
+#W32($15DC)
+//・フリーバトル[END-FE]
+・Free-For-All[END-FE]
+
+
+
+
+
+//POINTER #16 @ $15E0 - STRING #16 @ $19EE
+#W32($15E0)
+//・エキシビジョンマッチ[END-FE]
+・Exhibition Match[END-FE]
+
+
+
+
+
+//POINTER #17 @ $15E4 - STRING #17 @ $1A07
+#W32($15E4)
+//・モンスター倒し大会[END-FE]
+・Monster Massacre[END-FE]
+
+
+
+
+
+//POINTER #18 @ $15E8 - STRING #18 @ $1A1E
+#W32($15E8)
+//・スレイヤー認定試験[END-FE]
+・Slayer Certification Exam[END-FE]
+
+
+
+
+
+//POINTER #19 @ $15EC - STRING #19 @ $1A35
+#W32($15EC)
+//打撃ダメージ競争ですね。[NLINE]
+//登録料が３０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Hard Hitter? The entry fee[NLINE]
+for that is 3000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $15F0 - STRING #20 @ $1A82
+#W32($15F0)
+//魔法ダメージ競争ですね。[NLINE]
+//登録料が３０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Spell Slinger? The entry fee[NLINE]
+for that is 3000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $15F4 - STRING #21 @ $1ACF
+#W32($15F4)
+//勝ち抜きカッパークラスですね。[NLINE]
+//登録料が１２００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Copper Match? The entry fee[NLINE]
+for that is 1200Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $15F8 - STRING #22 @ $1B22
+#W32($15F8)
+//勝ち抜きシルバークラスですね。[NLINE]
+//登録料が２５００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Silver Match? The entry fee[NLINE]
+for that is 2500Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #23 @ $15FC - STRING #23 @ $1B75
+#W32($15FC)
+//こちらは勝ち抜きカッパークラスを[NLINE]
+//全戦突破された方しか参加することは出来ません。[NLINE]
+//まずはカッパークラスの突破を目指してください。[END-FE]
+Only those who have mastered the[NLINE]
+Copper Match may enter.[NLINE]
+Please try the Copper Match first.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $1600 - STRING #24 @ $1BF8
+#W32($1600)
+//勝ち抜きゴールドクラスですね。[NLINE]
+//登録料が６０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Gold Match? The entry fee[NLINE]
+for that is 6000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $1604 - STRING #25 @ $1C4B
+#W32($1604)
+//こちらは勝ち抜きシルバークラスを[NLINE]
+//全戦突破された方しか参加することは出来ません。[NLINE]
+//まずはシルバークラスの突破を目指してください。[END-FE]
+Only those who have mastered the[NLINE]
+Silver Match may enter.[NLINE]
+Please try the Silver Match first.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $1608 - STRING #26 @ $1CCE
+#W32($1608)
+//勝ち抜きプラチナクラスですね。[NLINE]
+//登録料が１００００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Platinum Match? The entry fee[NLINE]
+for that is 10000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $160C - STRING #27 @ $1D23
+#W32($160C)
+//ボーナスバトルのゴールドゲル戦ですね。[NLINE]
+//登録料が３００００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+The Gold Slime bonus battle?[NLINE]
+The entry fee for that is 30000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $1610 - STRING #28 @ $1D80
+#W32($1610)
+//ボーナスバトルのソウル戦ですね。[NLINE]
+//登録料が３００００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+The Soul bonus battle?[NLINE]
+The entry fee for that is 30000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $1614 - STRING #29 @ $1DD7
+#W32($1614)
+//フリーバトルですね。[NLINE]
+//どれに挑戦なさいますか？[END-FE]
+The Free-For-All? Which[NLINE]
+level would you like?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $1618 - STRING #30 @ $1E08
+#W32($1618)
+//・チャンピオンクラス[END-FE]
+・Champion League[END-FE]
+
+
+
+
+
+//POINTER #31 @ $161C - STRING #31 @ $1E1F
+#W32($161C)
+//・ヒーロークラス[END-FE]
+・Hero League[END-FE]
+
+
+
+
+
+//POINTER #32 @ $1620 - STRING #32 @ $1E32
+#W32($1620)
+//・レジェンドクラス[END-FE]
+・Legend League[END-FE]
+
+
+
+
+
+//POINTER #33 @ $1624 - STRING #33 @ $1E47
+#W32($1624)
+//・マスタークラス[END-FE]
+・Master League[END-FE]
+
+
+
+
+
+//POINTER #34 @ $1628 - STRING #34 @ $1E5A
+#W32($1628)
+//チャンピオンクラスですね。[NLINE]
+//登録料が４０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Champion Level? The[NLINE]
+entry fee for that is[NLINE]
+4000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $162C - STRING #35 @ $1EA9
+#W32($162C)
+//ヒーロークラスですね。[NLINE]
+//登録料が８０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Hero Level? The[NLINE]
+entry fee for that is[NLINE]
+8000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $1630 - STRING #36 @ $1EF4
+#W32($1630)
+//レジェンドクラスですね。[NLINE]
+//登録料が２５０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Legend Level? The[NLINE]
+entry fee for that is[NLINE]
+25000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $1634 - STRING #37 @ $1F43
+#W32($1634)
+//マスタークラスですね。[NLINE]
+//登録料が４００００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Master Level? The[NLINE]
+entry fee for that is[NLINE]
+40000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $1638 - STRING #38 @ $1F90
+#W32($1638)
+//エキシビジョンマッチですね。[NLINE]
+//登録料が１３０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Exhibition Match?[NLINE]
+The entry fee for that is 13000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $163C - STRING #39 @ $1FE3
+#W32($163C)
+//モンスター倒し大会ですね。[NLINE]
+//登録料が３０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+The Monster Massacre?[NLINE]
+The entry fee for that is 3000Ы.[NLINE]
+Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #40 @ $1640 - STRING #40 @ $2032
+#W32($1640)
+//スレイヤー認定試験ですね。[NLINE]
+//どれに挑戦なさいますか？[END-FE]
+Slayer Certification Exam?[NLINE]
+Which class are you after?[END-FE]
+
+
+
+
+
+//POINTER #41 @ $1644 - STRING #41 @ $2069
+#W32($1644)
+//・ポーンクラス[END-FE]
+・Pawn Class[END-FE]
+
+
+
+
+
+//POINTER #42 @ $1648 - STRING #42 @ $207A
+#W32($1648)
+//・ルーククラス[END-FE]
+・Rook Class[END-FE]
+
+
+
+
+
+//POINTER #43 @ $164C - STRING #43 @ $208B
+#W32($164C)
+//・ナイトクラス[END-FE]
+・Knight Class[END-FE]
+
+
+
+
+
+//POINTER #44 @ $1650 - STRING #44 @ $209C
+#W32($1650)
+//・ビショップクラス[END-FE]
+・Bishop Class[END-FE]
+
+
+
+
+
+//POINTER #45 @ $1654 - STRING #45 @ $20B1
+#W32($1654)
+//・ヤクトクラス[END-FE]
+・Jagd Class[END-FE]
+
+
+
+
+
+//POINTER #46 @ $1658 - STRING #46 @ $20C2
+#W32($1658)
+//ポーンクラスですね。[NLINE]
+//登録料が１０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Pawn Class? The[NLINE]
+entry fee for that is[NLINE]
+1000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $165C - STRING #47 @ $210B
+#W32($165C)
+//ルーククラスですね。[NLINE]
+//登録料が３０００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Rook Class? The[NLINE]
+entry fee for that is[NLINE]
+3000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $1660 - STRING #48 @ $2154
+#W32($1660)
+//ナイトクラスですね。[NLINE]
+//登録料が７５００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Knight Class? The[NLINE]
+entry fee for that is[NLINE]
+7500Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #49 @ $1664 - STRING #49 @ $219D
+#W32($1664)
+//ビショップクラスですね。[NLINE]
+//登録料が１００００Ыとなりますが[NLINE]
+//よろしいですか？[END-FE]
+Bishop Class? The[NLINE]
+entry fee for that is[NLINE]
+10000Ы. Is that all right?[END-FE]
+
+
+
+
+
+//POINTER #50 @ $1668 - STRING #50 @ $21EC
+#W32($1668)
+//…見つけてしまいましたね。[NLINE]
+//闘技場の全てに打ち勝った[NLINE]
+//勇者だけが開ける扉を。[NWIN]
+//
+//はっきり言います。[NLINE]
+//これはシャレです。[NWIN]
+//
+//挑戦するのに[NLINE]
+//お金は必要ありません。[NLINE]
+//そして得るものは、[NLINE]
+//最強たる称号だけ。[NWIN]
+//
+//それでもあなたは[NLINE]
+//挑戦なさいますか？[END-FE]
+Ah... Only a hero who has[NLINE]
+conquered the Colosseum[NLINE]
+can see this door.[NWIN]
+
+Let's be clear on this:[NLINE]
+You're not going to win.[NWIN]
+
+You don't have to pay[NLINE]
+me either, not for[NLINE]
+suicide. All you get is the[NLINE]
+highest title we offer.[NWIN]
+
+Still interested in[NLINE]
+going for it?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $166C - STRING #51 @ $22D7
+#W32($166C)
+//やりましたね！[NLINE]
+//[Haschen]さんのおかげです！[END-FE]
+We did it! It's all[NLINE]
+thanks to you,[NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #52 @ $1670 - STRING #52 @ $2300
+#W32($1670)
+//ごめんなさい……。[NLINE]
+//私がもっとお役に立てれば……。[END-FE]
+Sorry... If only I had[NLINE]
+helped out more...[END-FE]
+
+
+
+
+
+//POINTER #53 @ $1674 - STRING #53 @ $2335
+#W32($1674)
+//はぁ、緊張しました。[END-FE]
+*sigh* I was so nervous.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $1678 - STRING #54 @ $234C
+#W32($1678)
+//やったな、[Haschen]！[NLINE]
+//これがチームワークってもんだな！[END-FE]
+We did it, [Haschen]![NLINE]
+Now that's teamwork![END-FE]
+
+
+
+
+
+//POINTER #55 @ $167C - STRING #55 @ $2381
+#W32($167C)
+//次はもっと、[NLINE]
+//飛ばしていくぜ！[END-FE]
+I'll move a little[NLINE]
+faster next time![END-FE]
+
+
+
+
+
+//POINTER #56 @ $1680 - STRING #56 @ $23A2
+#W32($1680)
+//疲れた、疲れたっと。[NLINE]
+//ゆっくり休みたいねぇ。[END-FE]
+Man, I'm bushed. I[NLINE]
+need a good rest.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $1684 - STRING #57 @ $23D1
+#W32($1684)
+//見事だ、[Haschen]。[NLINE]
+//よくみんなをまとめていた。[END-FE]
+Good work in using[NLINE]
+us as a team, [Haschen].[END-FE]
+
+
+
+
+
+//POINTER #58 @ $1688 - STRING #58 @ $23FE
+#W32($1688)
+//私もまだまだ未熟という事か。[END-FE]
+It seems I need to train harder.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $168C - STRING #59 @ $241D
+#W32($168C)
+//実戦とは違う緊張感があって、[NLINE]
+//いい刺激になったな。[END-FE]
+It was nice to fight without[NLINE]
+so much at stake for once.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $1690 - STRING #60 @ $2452
+#W32($1690)
+//いい戦いだった！[NLINE]
+//久しぶりに興奮したよ。[END-FE]
+How thrilling! What[NLINE]
+a smashing fight.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $1694 - STRING #61 @ $247D
+#W32($1694)
+//みんなの心をもっと一つに！[NLINE]
+//次もがんばろう。[END-FE]
+We must put our heart[NLINE]
+into it next time![END-FE]
+
+
+
+
+
+//POINTER #62 @ $1698 - STRING #62 @ $24AC
+#W32($1698)
+//闘技場の制覇も、[NLINE]
+//一つの英雄的行為と言えるな。[END-FE]
+Victory at the Colosseum[NLINE]
+is still heroic, in a way.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $169C - STRING #63 @ $24DD
+#W32($169C)
+//みんなで勝ち取る喜びは格別だ。[END-FE]
+Ahh, now that felt good.[END-FE]
+
+
+
+
+
+//POINTER #64 @ $16A0 - STRING #64 @ $24FE
+#W32($16A0)
+//まだまだ修行が足りないか……。[END-FE]
+I need more training...[END-FE]
+
+
+
+
+
+//POINTER #65 @ $16A4 - STRING #65 @ $251F
+#W32($16A4)
+//次はもっと上を目指そう。[END-FE]
+Let's aim higher next time[END-FE]
+
+
+
+
+
+//POINTER #66 @ $16A8 - STRING #66 @ $253A
+#W32($16A8)
+//やりましたね、[Haschen]。[NLINE]
+//私もあなたと共に戦えて鼻が高い。[END-FE]
+We did it, [Haschen].[NLINE]
+It was an honor to fight with you.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $16AC - STRING #67 @ $2573
+#W32($16AC)
+//フッ……私としたことが。[NLINE]
+//少し熱くなりすぎたようです。[NLINE]
+//次は決めましょう。[END-FE]
+*sigh* It goes to show[NLINE]
+you can't rush things.[NLINE]
+We'll win next time.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $16B0 - STRING #68 @ $25C0
+#W32($16B0)
+//もう少し、本気を出しても良かったですね。[END-FE]
+I suppose I could have tried harder.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $16B4 - STRING #69 @ $25EB
+#W32($16B4)
+//おめでとうございます！[NLINE]
+//やっぱり[Haschen]さんって、[NLINE]
+//お強いですね。[END-FE]
+Congratulations![NLINE]
+There's no doubt[NLINE]
+you're very strong.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $16B8 - STRING #70 @ $262C
+#W32($16B8)
+//つ、次もがんばってくださいね。[END-FE]
+B-Better luck next time![END-FE]
+
+
+
+
+
+//POINTER #71 @ $16BC - STRING #71 @ $264D
+#W32($16BC)
+//お疲れ様でした。[END-FE]
+You did wonderfully![END-FE]
+
+
+
+
+
+//POINTER #72 @ $16C0 - STRING #72 @ $2660
+#W32($16C0)
+//おめでとう！[NLINE]
+//[Haschen]なら[NLINE]
+//やってくれるって思ってたぜ！[END-FE]
+Congrats! I knew you[NLINE]
+could pull it off,[NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #73 @ $16C4 - STRING #73 @ $2697
+#W32($16C4)
+//ま、次があるさ！[NLINE]
+//次がな！[END-FE]
+Well, there's[NLINE]
+always next time![END-FE]
+
+
+
+
+
+//POINTER #74 @ $16C8 - STRING #74 @ $26B4
+#W32($16C8)
+//よ、お疲れさん！[END-FE]
+Yo, great job in there![END-FE]
+
+
+
+
+
+//POINTER #75 @ $16CC - STRING #75 @ $26C7
+#W32($16CC)
+//おめでとう。[NLINE]
+//十分に実力を発揮できたようだな。[END-FE]
+Well done. You showed[NLINE]
+remarkable skill in there.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $16D0 - STRING #76 @ $26F8
+#W32($16D0)
+//自分の実力を知るいい機会だっただろう。[NLINE]
+//腕を磨いて次に備えるんだな。[END-FE]
+Use this as a learning experience[NLINE]
+to see where you could improve.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $16D4 - STRING #77 @ $273F
+#W32($16D4)
+//大会の後は、[NLINE]
+//しっかり休養も取っておけ。[NLINE]
+//それも兵士の勤めだ。[END-FE]
+It's a soldier's duty[NLINE]
+to rest himself after[NLINE]
+a difficult battle.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $16D8 - STRING #78 @ $2780
+#W32($16D8)
+//おめでとう！[NLINE]
+//さすがだな、[Haschen]！[END-FE]
+Outstanding[NLINE]
+work, [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #79 @ $16DC - STRING #79 @ $27A3
+#W32($16DC)
+//がっかりすることはない。[NLINE]
+//君はまだまだ強くなれるはずだ。[END-FE]
+Don't look so down. You[NLINE]
+can do it with practice.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $16E0 - STRING #80 @ $27DE
+#W32($16E0)
+//見ていて血が騒いだよ。[END-FE]
+What an exciting match![END-FE]
+
+
+
+
+
+//POINTER #81 @ $16E4 - STRING #81 @ $27F7
+#W32($16E4)
+//おめでとう。[NLINE]
+//是非一度、手合わせ願いたいものだ。[END-FE]
+Congratulations. I'd love to see[NLINE]
+what you're like in a duel.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $16E8 - STRING #82 @ $282A
+#W32($16E8)
+//この無念を糧として、[NLINE]
+//さらに自分を鍛えるといい。[END-FE]
+A loss is only wasted if[NLINE]
+you don't learn from it.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $16EC - STRING #83 @ $285D
+#W32($16EC)
+//私もまた出場したいものだ。[END-FE]
+I long to enter again...[END-FE]
+
+
+
+
+
+//POINTER #84 @ $16F0 - STRING #84 @ $287A
+#W32($16F0)
+//おめでとう、[Haschen]。[NLINE]
+//さすがは維持軍にこの人ありと[NLINE]
+//言われるだけはありますね。[END-FE]
+Nicely done, [Haschen].[NLINE]
+Small wonder you're known[NLINE]
+as the PMB's backbone.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $16F4 - STRING #85 @ $28C9
+#W32($16F4)
+//残念でしたね。[NLINE]
+//しかし、良い経験をしたでしょう。[NLINE]
+//これを活かしてもっと強くなってください。[END-FE]
+It's unfortunate, but even[NLINE]
+losing can be valuable if you[NLINE]
+use it to become stronger.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $16F8 - STRING #86 @ $2926
+#W32($16F8)
+//お疲れ様でした。[NLINE]
+//いい肩慣らしになったでしょう？[END-FE]
+Welcome back. This must've[NLINE]
+been a good warm-up for you.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $16FC - STRING #87 @ $2959
+#W32($16FC)
+//がんばってくださいね。[END-FE]
+Good luck![END-FE]
+
+
+
+
+
+//POINTER #88 @ $1700 - STRING #88 @ $2972
+#W32($1700)
+//気合い入れて行って来いよ！[END-FE]
+Give 'em hell![END-FE]
+
+
+
+
+
+//POINTER #89 @ $1704 - STRING #89 @ $298F
+#W32($1704)
+//油断はするな。[END-FE]
+Don't let your guard down.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $1708 - STRING #90 @ $29A0
+#W32($1708)
+//君ならできるはずだ。[END-FE]
+Show me what you can do![END-FE]
+
+
+
+
+
+//POINTER #91 @ $170C - STRING #91 @ $29B7
+#W32($170C)
+//自分の力を出し切るんだ。[END-FE]
+You'll do fine. I know it.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $1710 - STRING #92 @ $29D2
+#W32($1710)
+//お手並み拝見。[NLINE]
+//と、いきますか。[END-FE]
+Give us a good[NLINE]
+show, hmm?[END-FE]
+
+
+
+
+
+//POINTER #93 @ $1714 - STRING #93 @ $29F5
+#W32($1714)
+//が、がんばります……。[END-FE]
+I-I'll do my best...[END-FE]
+
+
+
+
+
+//POINTER #94 @ $1718 - STRING #94 @ $2A0E
+#W32($1718)
+//ようし、俺に任せとけ！[END-FE]
+All right, leave it to me![END-FE]
+
+
+
+
+
+//POINTER #95 @ $171C - STRING #95 @ $2A27
+#W32($171C)
+//全力でいく。[END-FE]
+I won't hold back.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $1720 - STRING #96 @ $2A36
+#W32($1720)
+//フッ……。[NLINE]
+//腕が鳴るな。[END-FE]
+This shall be[NLINE]
+interesting.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $1724 - STRING #97 @ $2A51
+#W32($1724)
+//修行の成果を試すときだな。[END-FE]
+Now to test my skills.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $1728 - STRING #98 @ $2A6E
+#W32($1728)
+//こういうときは、[NLINE]
+//楽しみましょう。[END-FE]
+Let's try and[NLINE]
+enjoy this.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $172C - STRING #99 @ $2A93
+#W32($172C)
+//所持金 [CC.EF12]Ы[END-FE]
+[CC.EF12]Ы[END-FE]
+
+
+
+
+
+//POINTER #100 @ $1730 - STRING #100 @ $2AA2
+#W32($1730)
+//申し訳ありませんが[NLINE]
+//お金が足りないようなので受付できません。[END-FE]
+I'm sorry, but you can't afford[NLINE]
+the entry fee.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $1734 - STRING #101 @ $2AE1
+#W32($1734)
+//デバッグ部屋行く？[END-FE]
+デバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #102 @ $1738 - STRING #102 @ $2AF6
+#W32($1738)
+//自動Ｄ　闘技場[END-FE]
+自動Ｄ　闘技場[END-FE]
+
+
+
+
+
+//POINTER #103 @ $173C - STRING #103 @ $2B07
+#W32($173C)
+//ランダムチェックする？[END-FE]
+ランダムチェックする？[END-FE]
+
+
+
+
+
+//POINTER #104 @ $1740 - STRING #104 @ $2B20
+#W32($1740)
+//ランダムいくつ？[END-FE]
+ランダムいくつ？[END-FE]
+
+
+
+
+
+//POINTER #105 @ $1744 - STRING #105 @ $2B33
+#W32($1744)
+//・２[END-FE]
+・２[END-FE]
+
+
+
+
+
+//POINTER #106 @ $1748 - STRING #106 @ $2B3A
+#W32($1748)
+//・３[END-FE]
+・３[END-FE]
+
+
+
+
+
+//POINTER #107 @ $174C - STRING #107 @ $2B41
+#W32($174C)
+//・４[END-FE]
+・４[END-FE]
+
+
+
+
+
+//POINTER #108 @ $1750 - STRING #108 @ $2B48
+#W32($1750)
+//・５[END-FE]
+・５[END-FE]
+
+
+
+
+
+//POINTER #109 @ $1754 - STRING #109 @ $2B4F
+#W32($1754)
+//・６[END-FE]
+・６[END-FE]
+
+
+
+
+
+//POINTER #110 @ $1758 - STRING #110 @ $2B56
+#W32($1758)
+//・７[END-FE]
+・７[END-FE]
+
+
+
+
+
+//POINTER #111 @ $175C - STRING #111 @ $2B5D
+#W32($175C)
+//・８[END-FE]
+・８[END-FE]
+
+
+
+
+
+//POINTER #112 @ $1760 - STRING #112 @ $2B64
+#W32($1760)
+//・９[END-FE]
+・９[END-FE]
+
+
+
+
+
+//POINTER #113 @ $1764 - STRING #113 @ $2B6B
+#W32($1764)
+//・１０[END-FE]
+・１０[END-FE]
+
+
+
+
+
+//POINTER #114 @ $1768 - STRING #114 @ $2B74
+#W32($1768)
+//・１１[END-FE]
+・１１[END-FE]
+
+
+
+
+
+//POINTER #115 @ $176C - STRING #115 @ $2B7D
+#W32($176C)
+//・１２[END-FE]
+・１２[END-FE]
+
+
+
+
+
+//POINTER #116 @ $1770 - STRING #116 @ $2B86
+#W32($1770)
+//・１３[END-FE]
+・１３[END-FE]
+
+
+
+
+
+//POINTER #117 @ $1774 - STRING #117 @ $2B8F
+#W32($1774)
+//・１４[END-FE]
+・１４[END-FE]
+
+
+
+
+
+//POINTER #118 @ $1778 - STRING #118 @ $2B98
+#W32($1778)
+//・１５[END-FE]
+・１５[END-FE]
+
+
+
+
+
+//POINTER #119 @ $177C - STRING #119 @ $2BA1
+#W32($177C)
+//・１６[END-FE]
+・１６[END-FE]
+
+
+
+
+
+//POINTER #120 @ $1780 - STRING #120 @ $2BAA
+#W32($1780)
+//試行回数[CC.EF11]回[NLINE]
+//　０：[CC.EF00]回[NLINE]
+//　１：[CC.EF01]回[NLINE]
+//　２：[CC.EF02]回[NLINE]
+//　３：[CC.EF03]回[NLINE]
+//　４：[CC.EF04]回[NLINE]
+//　５：[CC.EF05]回[NLINE]
+//　６：[CC.EF06]回[NLINE]
+//　７：[CC.EF07]回[NLINE]
+//　８：[CC.EF08]回[NLINE]
+//　９：[CC.EF09]回[NLINE]
+//１０：[CC.EF0A]回[NLINE]
+//１１：[CC.EF0B]回[NLINE]
+//１２：[CC.EF0C]回[NLINE]
+//１３：[CC.EF0D]回[NLINE]
+//１４：[CC.EF0E]回[NLINE]
+//１５：[CC.EF0F]回[END-FE]
+試行回数[CC.EF11]回[NLINE]
+　０：[CC.EF00]回[NLINE]
+　１：[CC.EF01]回[NLINE]
+　２：[CC.EF02]回[NLINE]
+　３：[CC.EF03]回[NLINE]
+　４：[CC.EF04]回[NLINE]
+　５：[CC.EF05]回[NLINE]
+　６：[CC.EF06]回[NLINE]
+　７：[CC.EF07]回[NLINE]
+　８：[CC.EF08]回[NLINE]
+　９：[CC.EF09]回[NLINE]
+１０：[CC.EF0A]回[NLINE]
+１１：[CC.EF0B]回[NLINE]
+１２：[CC.EF0C]回[NLINE]
+１３：[CC.EF0D]回[NLINE]
+１４：[CC.EF0E]回[NLINE]
+１５：[CC.EF0F]回[END-FE]
+
+
+
+
+
+//POINTER #121 @ $1784 - STRING #121 @ $2C8A
+#W32($1784)
+//もう一度やる？[END-FE]
+Try again?[END-FE]
+
+
+
+
+
+//POINTER #122 @ $1788 - STRING #122 @ $2C9B
+#W32($1788)
+//　[NLINE]
+//護衛の依頼はキャンセルされました！[END-FE]
+　[NLINE]
+The request has been cancelled.[END-FE]
+
+
+
+

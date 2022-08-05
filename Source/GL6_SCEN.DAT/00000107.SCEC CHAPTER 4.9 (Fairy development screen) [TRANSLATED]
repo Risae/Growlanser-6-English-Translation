@@ -1,0 +1,1711 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $1BD0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $1920, 4, PTR)
+
+#JMP($1BD0)
+#HDR($1BD0)
+
+
+
+
+
+//POINTER #0 @ $1920 - STRING #0 @ $1BD0
+#W32($1920)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $1924 - STRING #1 @ $1BD3
+#W32($1924)
+//そういえば、勇者様！[NLINE]
+//私、暇を見てドレスを縫ってみました！[END-FE]
+Brave One! I've sewed a dress in my spare time![END-FE]
+
+
+
+
+
+//POINTER #2 @ $1928 - STRING #2 @ $1C10
+#W32($1928)
+//妖精コスチューム[COL01]ドレス[COL00]を手に入れた！[END-FE]
+You received a fairy [COL01]dress[COL00]![END-FE]
+
+
+
+
+
+//POINTER #3 @ $192C - STRING #3 @ $1C3D
+#W32($192C)
+//似合うかどうかは、[NLINE]
+//着てみてのお楽しみです[COL01]★[COL00][NWIN]
+//
+//[CH.FACE:Normal]
+//さて、それはさておき、[NLINE]
+//私は、着替えた方が宜しいのでしょうか？[END-FE]
+I'm looking forward to trying it on and[NLINE]
+see whether or not it suits me.[COL01]★[COL00][NWIN]
+
+[CH.FACE:Normal]
+But enough of that talk.[NLINE]
+Would you like me to change my clothes?[END-FE]
+
+
+
+
+
+//POINTER #4 @ $1930 - STRING #4 @ $1CB6
+#W32($1930)
+//えっ？[NLINE]
+//私は、着替えた方が宜しいのでしょうか？[END-FE]
+Hmm?[NLINE]
+Would you like me to change my clothes?[END-FE]
+
+
+
+
+
+//POINTER #5 @ $1934 - STRING #5 @ $1CE7
+#W32($1934)
+//それでは、どの服装に[NLINE]
+//いたしましょうか？[END-FE]
+Well then, what would you like me to wear?[END-FE]
+
+
+
+
+
+//POINTER #6 @ $1938 - STRING #6 @ $1D12
+#W32($1938)
+//・赤い豪華な着物[END-FE]
+・Thick Red Kimono[END-FE]
+
+
+
+
+
+//POINTER #7 @ $193C - STRING #7 @ $1D25
+#W32($193C)
+//・紺の豪華な着物[END-FE]
+・Thick Navy Blue Kimono[END-FE]
+
+
+
+
+
+//POINTER #8 @ $1940 - STRING #8 @ $1D38
+#W32($1940)
+//・桃色の薄手の着物[END-FE]
+・Thin Peach-colored Kimono[END-FE]
+
+
+
+
+
+//POINTER #9 @ $1944 - STRING #9 @ $1D4D
+#W32($1944)
+//・緑色の薄手の着物[END-FE]
+・Thin Green Kimono[END-FE]
+
+
+
+
+
+//POINTER #10 @ $1948 - STRING #10 @ $1D62
+#W32($1948)
+//・祭り着[END-FE]
+・Festival Clothes[END-FE]
+
+
+
+
+
+//POINTER #11 @ $194C - STRING #11 @ $1D6D
+#W32($194C)
+//・水着[END-FE]
+・Swimsuit[END-FE]
+
+
+
+
+
+//POINTER #12 @ $1950 - STRING #12 @ $1D76
+#W32($1950)
+//・カジュアル[END-FE]
+・Casual Clothes[END-FE]
+
+
+
+
+
+//POINTER #13 @ $1954 - STRING #13 @ $1D85
+#W32($1954)
+//・プロテクトスーツ[END-FE]
+・Protective Suit[END-FE]
+
+
+
+
+
+//POINTER #14 @ $1958 - STRING #14 @ $1D9A
+#W32($1958)
+//・ライトスーツ[END-FE]
+・Light Suit[END-FE]
+
+
+
+
+
+//POINTER #15 @ $195C - STRING #15 @ $1DAB
+#W32($195C)
+//・エレガントスーツ[END-FE]
+・Elegant Suit[END-FE]
+
+
+
+
+
+//POINTER #16 @ $1960 - STRING #16 @ $1DC0
+#W32($1960)
+//・ドレス[END-FE]
+・Dress[END-FE]
+
+
+
+
+
+//POINTER #17 @ $1964 - STRING #17 @ $1DCB
+#W32($1964)
+//・アクティブドレス[END-FE]
+・Travel Dress[END-FE]
+
+
+
+
+
+//POINTER #18 @ $1968 - STRING #18 @ $1DE0
+#W32($1968)
+//今着てる服ですか？[NLINE]
+//つまりこのままで宜しいということですね。[END-FE]
+Isn't that what I'm already wearing?[NLINE]
+In other words, there's no need for me to change.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $196C - STRING #19 @ $1E1F
+#W32($196C)
+//わかりました。[NLINE]
+//少しお待ちください。[END-FE]
+Understood. One moment please.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $1970 - STRING #20 @ $1E46
+#W32($1970)
+//おまたせしました[COL01]★[COL00][NWIN]
+//
+//[CH.FACE:Shy]
+//あの～、[NLINE]
+//似合っていますでしょうか？[END-FE]
+My apologies for the wait.[COL01]★[COL00][NWIN]
+
+[CH.FACE:Shy]
+Um, do you think it looks good on me?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $1974 - STRING #21 @ $1E8B
+#W32($1974)
+//少々重いのが難ですが、[NLINE]
+//好きなデザインの服です。[END-FE]
+It's a bit heavy, but I like the[NLINE]
+design.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $1978 - STRING #22 @ $1EBE
+#W32($1978)
+//少々重いのが難ですが、[NLINE]
+//好きなデザインの服です。[END-FE]
+It's a bit heavy, but I like the[NLINE]
+design.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $197C - STRING #23 @ $1EF1
+#W32($197C)
+//やはりこの格好が、[NLINE]
+//しっくりときますね。[END-FE]
+As I thought, it fits perfectly.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $1980 - STRING #24 @ $1F1C
+#W32($1980)
+//やはりこの格好が、[NLINE]
+//しっくりときますね。[END-FE]
+As I thought, it fits perfectly.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $1984 - STRING #25 @ $1F47
+#W32($1984)
+//とても動きやすくて[NLINE]
+//気に入っているんですよ[MUSIC-NOTE][END-FE]
+I like this one because it's very[NLINE]
+easy to move in.[MUSIC-NOTE][END-FE]
+
+
+
+
+
+//POINTER #26 @ $1988 - STRING #26 @ $1F76
+#W32($1988)
+//この格好は、[NLINE]
+//ちょっと…、[NLINE]
+//恥ずかしいです…。[END-FE]
+This outfit is a little...[NLINE]
+embarrassing...[END-FE]
+
+
+
+
+
+//POINTER #27 @ $198C - STRING #27 @ $1FA7
+#W32($198C)
+//ちょっとシックで、[NLINE]
+//でも可愛らしくて、[NLINE]
+//とっても良い雰囲気ですよね？[END-FE]
+It looks a bit chic, but it's cute[NLINE]
+and evokes a positive feeling, don't[NLINE]
+you agree?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $1990 - STRING #28 @ $1FEE
+#W32($1990)
+//丈夫な生地なので、[NLINE]
+//戦いに巻き込まれたときも[NLINE]
+//安心ですね[COL01]★[COL00][END-FE]
+It's made of a durable fabric,[NLINE]
+so this should keep me safe in[NLINE]
+battle.[COL01]★[END-FE]
+
+
+
+
+
+//POINTER #29 @ $1994 - STRING #29 @ $2031
+#W32($1994)
+//白と黒の色合いが精悍な印象ですね。[NLINE]
+//身も心も引き締まります。[END-FE]
+These shades of black and white give a[NLINE]
+fearless impression. This suit strengthens[NLINE]
+both the body and the mind.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $1998 - STRING #30 @ $2070
+#W32($1998)
+//白地にブルーのラインが[NLINE]
+//とてもオシャレですよね。[END-FE]
+These blue and white stripes[NLINE]
+look very fashionable, don't they?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $199C - STRING #31 @ $20A3
+#W32($199C)
+//舞踏会にでも参加出来そうな衣装ですね。[NLINE]
+//こんど、一曲踊って下さいませんか？[END-FE]
+I look like it would fit right at home[NLINE]
+at a ball. May I have this dance?[END-FE]
+
+
+
+
+
+//POINTER #32 @ $19A0 - STRING #32 @ $20F0
+#W32($19A0)
+//厚手の生地で防御力を備えつつも、[NLINE]
+//動きやすさを重視したデザインですね。[END-FE]
+This dress allows for ease of movement,[NLINE]
+while also providing protection with[NLINE]
+its thick fabric.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $19A4 - STRING #33 @ $2139
+#W32($19A4)
+//妖精能力増減[END-FE]
+Increase or decrease fairy ability[END-FE]
+
+
+
+
+
+//POINTER #34 @ $19A8 - STRING #34 @ $2148
+#W32($19A8)
+//・１　知識[END-FE]
+・1 KNW[END-FE]
+
+
+
+
+
+//POINTER #35 @ $19AC - STRING #35 @ $2155
+#W32($19AC)
+//・２　知性[END-FE]
+・2 INT[END-FE]
+
+
+
+
+
+//POINTER #36 @ $19B0 - STRING #36 @ $2162
+#W32($19B0)
+//・３　感性[END-FE]
+・3 SNS[END-FE]
+
+
+
+
+
+//POINTER #37 @ $19B4 - STRING #37 @ $216F
+#W32($19B4)
+//・４　魅力[END-FE]
+・4 CHR[END-FE]
+
+
+
+
+
+//POINTER #38 @ $19B8 - STRING #38 @ $217C
+#W32($19B8)
+//・５　精神力[END-FE]
+・5 FOC[END-FE]
+
+
+
+
+
+//POINTER #39 @ $19BC - STRING #39 @ $218B
+#W32($19BC)
+//・６　器力[END-FE]
+・6 FOC[END-FE]
+
+
+
+
+
+//POINTER #40 @ $19C0 - STRING #40 @ $2198
+#W32($19C0)
+//・７　体力[END-FE]
+・7 STA[END-FE]
+
+
+
+
+
+//POINTER #41 @ $19C4 - STRING #41 @ $21A5
+#W32($19C4)
+//・８　敏捷度[END-FE]
+・8 AGI[END-FE]
+
+
+
+
+
+//POINTER #42 @ $19C8 - STRING #42 @ $21B4
+#W32($19C8)
+//・９　能力取得判定[END-FE]
+・9 Ability acquisition determination[END-FE]
+
+
+
+
+
+//POINTER #43 @ $19CC - STRING #43 @ $21C9
+#W32($19CC)
+//知識[END-FE]
+KNW[END-FE]
+
+
+
+
+
+//POINTER #44 @ $19D0 - STRING #44 @ $21D0
+#W32($19D0)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #45 @ $19D4 - STRING #45 @ $21DB
+#W32($19D4)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #46 @ $19D8 - STRING #46 @ $21E6
+#W32($19D8)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #47 @ $19DC - STRING #47 @ $21F1
+#W32($19DC)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #48 @ $19E0 - STRING #48 @ $21FC
+#W32($19E0)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #49 @ $19E4 - STRING #49 @ $2207
+#W32($19E4)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #50 @ $19E8 - STRING #50 @ $2212
+#W32($19E8)
+//知性[END-FE]
+INT[END-FE]
+
+
+
+
+
+//POINTER #51 @ $19EC - STRING #51 @ $2219
+#W32($19EC)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #52 @ $19F0 - STRING #52 @ $2224
+#W32($19F0)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #53 @ $19F4 - STRING #53 @ $222F
+#W32($19F4)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #54 @ $19F8 - STRING #54 @ $223A
+#W32($19F8)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #55 @ $19FC - STRING #55 @ $2245
+#W32($19FC)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #56 @ $1A00 - STRING #56 @ $2250
+#W32($1A00)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #57 @ $1A04 - STRING #57 @ $225B
+#W32($1A04)
+//感性[END-FE]
+SNS[END-FE]
+
+
+
+
+
+//POINTER #58 @ $1A08 - STRING #58 @ $2262
+#W32($1A08)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #59 @ $1A0C - STRING #59 @ $226D
+#W32($1A0C)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #60 @ $1A10 - STRING #60 @ $2278
+#W32($1A10)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #61 @ $1A14 - STRING #61 @ $2283
+#W32($1A14)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #62 @ $1A18 - STRING #62 @ $228E
+#W32($1A18)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #63 @ $1A1C - STRING #63 @ $2299
+#W32($1A1C)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #64 @ $1A20 - STRING #64 @ $22A4
+#W32($1A20)
+//魅力増減[END-FE]
+CHR increases and decreases[END-FE]
+
+
+
+
+
+//POINTER #65 @ $1A24 - STRING #65 @ $22AF
+#W32($1A24)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #66 @ $1A28 - STRING #66 @ $22BA
+#W32($1A28)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #67 @ $1A2C - STRING #67 @ $22C5
+#W32($1A2C)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #68 @ $1A30 - STRING #68 @ $22D0
+#W32($1A30)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #69 @ $1A34 - STRING #69 @ $22DB
+#W32($1A34)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #70 @ $1A38 - STRING #70 @ $22E6
+#W32($1A38)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #71 @ $1A3C - STRING #71 @ $22F1
+#W32($1A3C)
+//精神力[END-FE]
+FOC[END-FE]
+
+
+
+
+
+//POINTER #72 @ $1A40 - STRING #72 @ $22FA
+#W32($1A40)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #73 @ $1A44 - STRING #73 @ $2305
+#W32($1A44)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #74 @ $1A48 - STRING #74 @ $2310
+#W32($1A48)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #75 @ $1A4C - STRING #75 @ $231B
+#W32($1A4C)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #76 @ $1A50 - STRING #76 @ $2326
+#W32($1A50)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #77 @ $1A54 - STRING #77 @ $2331
+#W32($1A54)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #78 @ $1A58 - STRING #78 @ $233C
+#W32($1A58)
+//器力増減[END-FE]
+Increase or decrease physical strength[END-FE]
+
+
+
+
+
+//POINTER #79 @ $1A5C - STRING #79 @ $2347
+#W32($1A5C)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #80 @ $1A60 - STRING #80 @ $2352
+#W32($1A60)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #81 @ $1A64 - STRING #81 @ $235D
+#W32($1A64)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #82 @ $1A68 - STRING #82 @ $2368
+#W32($1A68)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #83 @ $1A6C - STRING #83 @ $2373
+#W32($1A6C)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #84 @ $1A70 - STRING #84 @ $237E
+#W32($1A70)
+//－１００[END-FE]
+－１００[END-FE]
+
+
+
+
+
+//POINTER #85 @ $1A74 - STRING #85 @ $2389
+#W32($1A74)
+//体力[END-FE]
+STA[END-FE]
+
+
+
+
+
+//POINTER #86 @ $1A78 - STRING #86 @ $2390
+#W32($1A78)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #87 @ $1A7C - STRING #87 @ $239B
+#W32($1A7C)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #88 @ $1A80 - STRING #88 @ $23A6
+#W32($1A80)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #89 @ $1A84 - STRING #89 @ $23B1
+#W32($1A84)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #90 @ $1A88 - STRING #90 @ $23BC
+#W32($1A88)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #91 @ $1A8C - STRING #91 @ $23C7
+#W32($1A8C)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #92 @ $1A90 - STRING #92 @ $23D2
+#W32($1A90)
+//敏捷度[END-FE]
+AGI[END-FE]
+
+
+
+
+
+//POINTER #93 @ $1A94 - STRING #93 @ $23DB
+#W32($1A94)
+//＋１００[END-FE]
++100[END-FE]
+
+
+
+
+
+//POINTER #94 @ $1A98 - STRING #94 @ $23E6
+#W32($1A98)
+//＋　１０[END-FE]
++ 10[END-FE]
+
+
+
+
+
+//POINTER #95 @ $1A9C - STRING #95 @ $23F1
+#W32($1A9C)
+//＋　　１[END-FE]
++  1[END-FE]
+
+
+
+
+
+//POINTER #96 @ $1AA0 - STRING #96 @ $23FC
+#W32($1AA0)
+//－　　１[END-FE]
+-  1[END-FE]
+
+
+
+
+
+//POINTER #97 @ $1AA4 - STRING #97 @ $2407
+#W32($1AA4)
+//－　１０[END-FE]
+- 10[END-FE]
+
+
+
+
+
+//POINTER #98 @ $1AA8 - STRING #98 @ $2412
+#W32($1AA8)
+//－１００[END-FE]
+-100[END-FE]
+
+
+
+
+
+//POINTER #99 @ $1AAC - STRING #99 @ $241D
+#W32($1AAC)
+//手に入れたコスチュームは宿の受付で[NLINE]
+//『[COL01]ユリィを呼び出す[COL00]』を選ぶことで[NLINE]
+//着替えさせることが出来ます。[NLINE]
+//また着替えさせなくても、ユリィの気分次第で[NLINE]
+//勝手に着替えることもあります。[END-FE]
+You can let Yurii change into newly acquired[NLINE]
+clothes by selecting [COL01]Summon Yurii[COL00] at the[NLINE]
+inn reception desk. Even if you don't make[NLINE]
+Yurii change clothes, she may decide to do[NLINE]
+this on her own accord, depending on her mood.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $1AB0 - STRING #100 @ $24D4
+#W32($1AB0)
+//はい、[NLINE]
+//どのようなご用でしょうか？[END-FE]
+What can I do for you?[END-FE]
+
+
+
+
+
+//POINTER #101 @ $1AB4 - STRING #101 @ $24F9
+#W32($1AB4)
+//他にありますでしょうか？[NLINE]
+//何でもお申し付け下さい。[END-FE]
+Is there anything else I could help[NLINE]
+you with? Please don't hesitate[NLINE]
+to ask.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $1AB8 - STRING #102 @ $252E
+#W32($1AB8)
+//・コスチューム変更[END-FE]
+・Change costume[END-FE]
+
+
+
+
+
+//POINTER #103 @ $1ABC - STRING #103 @ $2543
+#W32($1ABC)
+//・ラナの実、種の使用[END-FE]
+・Use Rana Seed or Rana Fruit[END-FE]
+
+
+
+
+
+//POINTER #104 @ $1AC0 - STRING #104 @ $255A
+#W32($1AC0)
+//・やめる[END-FE]
+・Quit[END-FE]
+
+
+
+
+
+//POINTER #105 @ $1AC4 - STRING #105 @ $2565
+#W32($1AC4)
+//戦闘などで手に入る[COL01]ラナの実[COL00]・[COL01]ラナの種[COL00]は、[NLINE]
+//ユリィの能力を伸ばすための専用アイテムです。[NLINE]
+//[COL01]ラナの実[COL00]を使うことで、ユリィのパラメータを[NLINE]
+//[COL05]１００ポイント上昇[COL00]させることができます。[NLINE]
+//[COL01]ラナの種[COL00]を使用すると、ユリィのパラメータを[NLINE]
+//[COL05]１０ポイント上昇[COL00]させることが出来ます。[NWIN]
+//
+//ユリィの能力パラメータの組み合わせが、一定値[NLINE]
+//以上になると、ユリィは特殊能力を身につけます。[NLINE]
+//１つのパラメータに偏らせると、なかなか能力を[NLINE]
+//覚えられませんので、注意してください。[END-FE]
+[COL01]Rana Fruits[COL00] and [COL01Rana Seeds[COL00] are special items[NLINE]
+that help improve Yurii's stats. They can[NLINE]
+be obtained during battle. Using a [COL00]Rana Fruit[COL00][NLINE]
+will increase Yurii's stats by [COL05]100 points[COL00].[NLINE]
+Using a [COL01]Rana Seed[COL00] will increase them by [COL05]10 points[COL00].[NWIN]
+
+When a combination of Yurii's stats exceed[NLINE]
+a certain value, Yurii will obtain a new ability.[NLINE]
+Please keep in mind that if you focus too much[NLINE]
+on improving one particular stat, Yurii won't be able[NLINE]
+to easily learn new abilities.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $1AC8 - STRING #106 @ $2740
+#W32($1AC8)
+//今はラナの実も種も[NLINE]
+//持っていないようです…。[END-FE]
+It seems you don't any Rana Fruit[NLINE]
+or Rana Seed right now...[END-FE]
+
+
+
+
+
+//POINTER #107 @ $1ACC - STRING #107 @ $276F
+#W32($1ACC)
+//ラナの実か種を補充しますか？[END-FE]
+Do you want to replenish[NLINE]
+Rana Fruit or Rana Seed?[END-FE]
+
+
+
+
+
+//POINTER #108 @ $1AD0 - STRING #108 @ $278E
+#W32($1AD0)
+//知　識　　　→　　[NLINE]
+//知　性　　　→　　[NLINE]
+//感　性　　　→　　[NLINE]
+//魅　力　　　→　　[NLINE]
+//精神力　　　→　　[NLINE]
+//器　用　　　→　　[NLINE]
+//体　力　　　→　　[NLINE]
+//敏捷度　　　→　　[END-FE]
+KNW　　　→　　[NLINE]
+INT　　　→　　[NLINE]
+SNS　　　→　　[NLINE]
+CHR　　　→　　[NLINE]
+FOC　　　→　　[NLINE]
+DEX　　　→　　[NLINE]
+STA　　　→　　[NLINE]
+AGI　　　→　　[END-FE]
+
+
+
+
+
+//POINTER #109 @ $1AD4 - STRING #109 @ $282F
+#W32($1AD4)
+//[CC.EF00][NLINE]
+//[CC.EF01][NLINE]
+//[CC.EF02][NLINE]
+//[CC.EF03][NLINE]
+//[CC.EF04][NLINE]
+//[CC.EF05][NLINE]
+//[CC.EF06][NLINE]
+//[CC.EF07][END-FE]
+[CC.EF00][NLINE]
+[CC.EF01][NLINE]
+[CC.EF02][NLINE]
+[CC.EF03][NLINE]
+[CC.EF04][NLINE]
+[CC.EF05][NLINE]
+[CC.EF06][NLINE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #110 @ $1AD8 - STRING #110 @ $2858
+#W32($1AD8)
+//どれを使いますか？[END-FE]
+Which one do you want to use?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $1ADC - STRING #111 @ $286D
+#W32($1ADC)
+//・ラナの実[END-FE]
+・Rana Fruit[END-FE]
+
+
+
+
+
+//POINTER #112 @ $1AE0 - STRING #112 @ $287A
+#W32($1AE0)
+//・ラナの種[END-FE]
+・Rana Seed[END-FE]
+
+
+
+
+
+//POINTER #113 @ $1AE4 - STRING #113 @ $2887
+#W32($1AE4)
+//・実や種の補充[END-FE]
+・Replenish Fruits and Seeds[END-FE]
+
+
+
+
+
+//POINTER #114 @ $1AE8 - STRING #114 @ $2898
+#W32($1AE8)
+//・やめる[END-FE]
+・Quit[END-FE]
+
+
+
+
+
+//POINTER #115 @ $1AEC - STRING #115 @ $28A3
+#W32($1AEC)
+//ラナの実を使って[NLINE]
+//どの能力を伸ばしますか？[END-FE]
+Which stat do you want to increase[NLINE]
+with the Rana Fruit?[END-FE]
+
+
+
+
+
+//POINTER #116 @ $1AF0 - STRING #116 @ $28D0
+#W32($1AF0)
+//・知識[END-FE]
+・KNW[END-FE]
+
+
+
+
+
+//POINTER #117 @ $1AF4 - STRING #117 @ $28D9
+#W32($1AF4)
+//・知性[END-FE]
+・INT[END-FE]
+
+
+
+
+
+//POINTER #118 @ $1AF8 - STRING #118 @ $28E2
+#W32($1AF8)
+//・感性[END-FE]
+・SNS[END-FE]
+
+
+
+
+
+//POINTER #119 @ $1AFC - STRING #119 @ $28EB
+#W32($1AFC)
+//・魅力[END-FE]
+・CHR[END-FE]
+
+
+
+
+
+//POINTER #120 @ $1B00 - STRING #120 @ $28F4
+#W32($1B00)
+//・精神力[END-FE]
+・FOC[END-FE]
+
+
+
+
+
+//POINTER #121 @ $1B04 - STRING #121 @ $28FF
+#W32($1B04)
+//・器用[END-FE]
+・DEX[END-FE]
+
+
+
+
+
+//POINTER #122 @ $1B08 - STRING #122 @ $2908
+#W32($1B08)
+//・体力[END-FE]
+・STA[END-FE]
+
+
+
+
+
+//POINTER #123 @ $1B0C - STRING #123 @ $2911
+#W32($1B0C)
+//・敏捷度[END-FE]
+・AGI[END-FE]
+
+
+
+
+
+//POINTER #124 @ $1B10 - STRING #124 @ $291C
+#W32($1B10)
+//・やめる[END-FE]
+・Quit[END-FE]
+
+
+
+
+
+//POINTER #125 @ $1B14 - STRING #125 @ $2927
+#W32($1B14)
+//ラナの種を使って[NLINE]
+//どの能力を伸ばしますか？[END-FE]
+Which stat do you want to increase[NLINE]
+with the Rana Seed?[END-FE]
+
+
+
+
+
+//POINTER #126 @ $1B18 - STRING #126 @ $2954
+#W32($1B18)
+//・知識[END-FE]
+・KNW[END-FE]
+
+
+
+
+
+//POINTER #127 @ $1B1C - STRING #127 @ $295D
+#W32($1B1C)
+//・知性[END-FE]
+・INT[END-FE]
+
+
+
+
+
+//POINTER #128 @ $1B20 - STRING #128 @ $2966
+#W32($1B20)
+//・感性[END-FE]
+・SNS[END-FE]
+
+
+
+
+
+//POINTER #129 @ $1B24 - STRING #129 @ $296F
+#W32($1B24)
+//・魅力[END-FE]
+・CHR[END-FE]
+
+
+
+
+
+//POINTER #130 @ $1B28 - STRING #130 @ $2978
+#W32($1B28)
+//・精神力[END-FE]
+・FOC[END-FE]
+
+
+
+
+
+//POINTER #131 @ $1B2C - STRING #131 @ $2983
+#W32($1B2C)
+//・器用[END-FE]
+・DEX[END-FE]
+
+
+
+
+
+//POINTER #132 @ $1B30 - STRING #132 @ $298C
+#W32($1B30)
+//・体力[END-FE]
+・STA[END-FE]
+
+
+
+
+
+//POINTER #133 @ $1B34 - STRING #133 @ $2995
+#W32($1B34)
+//・敏捷度[END-FE]
+・AGI[END-FE]
+
+
+
+
+
+//POINTER #134 @ $1B38 - STRING #134 @ $29A0
+#W32($1B38)
+//・やめる[END-FE]
+・Quit[END-FE]
+
+
+
+
+
+//POINTER #135 @ $1B3C - STRING #135 @ $29AB
+#W32($1B3C)
+//知　識　　　→　　[NLINE]
+//知　性　　　→　　[NLINE]
+//感　性　　　→　　[NLINE]
+//魅　力　　　→　　[NLINE]
+//精神力　　　→　　[NLINE]
+//器　用　　　→　　[NLINE]
+//体　力　　　→　　[NLINE]
+//敏捷度　　　→　　[END-FE]
+KNW　　　→　　[NLINE]
+INT　　　→　　[NLINE]
+SNS　　　→　　[NLINE]
+CHR　　　→　　[NLINE]
+FOC　　　→　　[NLINE]
+DEX　　　→　　[NLINE]
+STA　　　→　　[NLINE]
+AGI　　　→　　[END-FE]
+
+
+
+
+
+//POINTER #136 @ $1B40 - STRING #136 @ $2A4C
+#W32($1B40)
+//[CC.EF00][NLINE]
+//[CC.EF01][NLINE]
+//[CC.EF02][NLINE]
+//[CC.EF03][NLINE]
+//[CC.EF04][NLINE]
+//[CC.EF05][NLINE]
+//[CC.EF06][NLINE]
+//[CC.EF07][END-FE]
+[CC.EF00][NLINE]
+[CC.EF01][NLINE]
+[CC.EF02][NLINE]
+[CC.EF03][NLINE]
+[CC.EF04][NLINE]
+[CC.EF05][NLINE]
+[CC.EF06][NLINE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #137 @ $1B44 - STRING #137 @ $2A75
+#W32($1B44)
+//[COL04][CC.EF08][END-FE]
+[COL04][CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #138 @ $1B48 - STRING #138 @ $2A7E
+#W32($1B48)
+//[COL03][CC.EF08][END-FE]
+[COL03][CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #139 @ $1B4C - STRING #139 @ $2A87
+#W32($1B4C)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #140 @ $1B50 - STRING #140 @ $2A8D
+#W32($1B50)
+//[COL04][CC.EF09][END-FE]
+[COL04][CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #141 @ $1B54 - STRING #141 @ $2A96
+#W32($1B54)
+//[COL03][CC.EF09][END-FE]
+[COL03][CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #142 @ $1B58 - STRING #142 @ $2A9F
+#W32($1B58)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #143 @ $1B5C - STRING #143 @ $2AA5
+#W32($1B5C)
+//[COL04][CC.EF0A][END-FE]
+[COL04][CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #144 @ $1B60 - STRING #144 @ $2AAE
+#W32($1B60)
+//[COL03][CC.EF0A][END-FE]
+[COL03][CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #145 @ $1B64 - STRING #145 @ $2AB7
+#W32($1B64)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #146 @ $1B68 - STRING #146 @ $2ABD
+#W32($1B68)
+//[COL04][CC.EF0B][END-FE]
+[COL04][CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #147 @ $1B6C - STRING #147 @ $2AC6
+#W32($1B6C)
+//[COL03][CC.EF0B][END-FE]
+[COL03][CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #148 @ $1B70 - STRING #148 @ $2ACF
+#W32($1B70)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #149 @ $1B74 - STRING #149 @ $2AD5
+#W32($1B74)
+//[COL04][CC.EF0C][END-FE]
+[COL04][CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #150 @ $1B78 - STRING #150 @ $2ADE
+#W32($1B78)
+//[COL03][CC.EF0C][END-FE]
+[COL03][CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #151 @ $1B7C - STRING #151 @ $2AE7
+#W32($1B7C)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #152 @ $1B80 - STRING #152 @ $2AED
+#W32($1B80)
+//[COL04][CC.EF0D][END-FE]
+[COL04][CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #153 @ $1B84 - STRING #153 @ $2AF6
+#W32($1B84)
+//[COL03][CC.EF0D][END-FE]
+[COL03][CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #154 @ $1B88 - STRING #154 @ $2AFF
+#W32($1B88)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #155 @ $1B8C - STRING #155 @ $2B05
+#W32($1B8C)
+//[COL04][CC.EF0F][END-FE]
+[COL04][CC.EF0F][END-FE]
+
+
+
+
+
+//POINTER #156 @ $1B90 - STRING #156 @ $2B0E
+#W32($1B90)
+//[COL03][CC.EF0F][END-FE]
+[COL03][CC.EF0F][END-FE]
+
+
+
+
+
+//POINTER #157 @ $1B94 - STRING #157 @ $2B17
+#W32($1B94)
+//[CC.EF0F][END-FE]
+[CC.EF0F][END-FE]
+
+
+
+
+
+//POINTER #158 @ $1B98 - STRING #158 @ $2B1D
+#W32($1B98)
+//[COL04][CC.EF10][END-FE]
+[COL04][CC.EF10][END-FE]
+
+
+
+
+
+//POINTER #159 @ $1B9C - STRING #159 @ $2B26
+#W32($1B9C)
+//[COL03][CC.EF10][END-FE]
+[COL03][CC.EF10][END-FE]
+
+
+
+
+
+//POINTER #160 @ $1BA0 - STRING #160 @ $2B2F
+#W32($1BA0)
+//[CC.EF10][END-FE]
+[CC.EF10][END-FE]
+
+
+
+
+
+//POINTER #161 @ $1BA4 - STRING #161 @ $2B35
+#W32($1BA4)
+//現在所持金　[CC.EF19][END-FE]
+[CC.EF19]Ы[END-FE]
+
+
+
+
+
+//POINTER #162 @ $1BA8 - STRING #162 @ $2B47
+#W32($1BA8)
+//現在所持金　[CC.EF19][END-FE]
+[CC.EF19]Ы[END-FE]
+
+
+
+
+
+//POINTER #163 @ $1BAC - STRING #163 @ $2B59
+#W32($1BAC)
+//どちらを補充しますか？[END-FE]
+Which do you want to replenish?[END-FE]
+
+
+
+
+
+//POINTER #164 @ $1BB0 - STRING #164 @ $2B72
+#W32($1BB0)
+//・ラナの実[END-FE]
+・Rana Fruit[END-FE]
+
+
+
+
+
+//POINTER #165 @ $1BB4 - STRING #165 @ $2B7F
+#W32($1BB4)
+//・ラナの種[END-FE]
+・Rana Seed[END-FE]
+
+
+
+
+
+//POINTER #166 @ $1BB8 - STRING #166 @ $2B8C
+#W32($1BB8)
+//・補充しない[END-FE]
+・Don't replenish[END-FE]
+
+
+
+
+
+//POINTER #167 @ $1BBC - STRING #167 @ $2B9B
+#W32($1BBC)
+//ラナの実[NLINE]
+//在庫[CC.EF19]個[END-FE]
+Rana Fruit[NLINE]
+Inventory [CC.EF19]x[END-FE]
+
+
+
+
+
+//POINTER #168 @ $1BC0 - STRING #168 @ $2BB1
+#W32($1BC0)
+//ラナの実[NLINE]
+//在庫無し[END-FE]
+Rana Fruit[NLINE]
+Out of stock[END-FE]
+
+
+
+
+
+//POINTER #169 @ $1BC4 - STRING #169 @ $2BC6
+#W32($1BC4)
+//ラナの種[NLINE]
+//在庫[CC.EF19]個[END-FE]
+Rana Seed[NLINE]
+Inventory [CC.EF19]x[END-FE]
+
+
+
+
+
+//POINTER #170 @ $1BC8 - STRING #170 @ $2BDC
+#W32($1BC8)
+//ラナの種[NLINE]
+//在庫無し[END-FE]
+Rana Seed[NLINE]
+Out of stock[END-FE]
+
+
+
+

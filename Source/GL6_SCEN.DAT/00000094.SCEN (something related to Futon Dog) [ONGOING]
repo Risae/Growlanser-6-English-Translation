@@ -1,0 +1,5257 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $BBE0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $B520, 4, PTR)
+
+#JMP($BBE0)
+#HDR($BBE0)
+
+
+
+
+
+//POINTER #0 @ $B520 - STRING #0 @ $BBE0
+#W32($B520)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $B524 - STRING #1 @ $BBE3
+#W32($B524)
+//ハゼゴロウ[END-FF]
+ハゼゴロウ[END-FF]
+
+
+
+
+
+//POINTER #2 @ $B528 - STRING #2 @ $BBF0
+#W32($B528)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $B52C - STRING #3 @ $BBFD
+#W32($B52C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $B530 - STRING #4 @ $BC22
+#W32($B530)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $B534 - STRING #5 @ $BC47
+#W32($B534)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $B538 - STRING #6 @ $BC5C
+#W32($B538)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $B53C - STRING #7 @ $BC81
+#W32($B53C)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $B540 - STRING #8 @ $BCA6
+#W32($B540)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $B544 - STRING #9 @ $BCDB
+#W32($B544)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $B548 - STRING #10 @ $BD10
+#W32($B548)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $B54C - STRING #11 @ $BD35
+#W32($B54C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $B550 - STRING #12 @ $BD5A
+#W32($B550)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $B554 - STRING #13 @ $BD7F
+#W32($B554)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $B558 - STRING #14 @ $BD94
+#W32($B558)
+//[CHARCB03][V0000]
+//どのふとん犬の足の速さが一番か！[NLINE]
+//それを決する舞台、[NLINE]
+//ドッグレースコンテストを開催いたします！[END-FE]
+[CHARCB03][V0000]
+どのふとん犬の足の速さが一番か！[NLINE]
+それを決する舞台、[NLINE]
+ドッグレースコンテストを開催いたします！[END-FE]
+
+
+
+
+
+//POINTER #15 @ $B55C - STRING #15 @ $BDFD
+#W32($B55C)
+//[CHARCB03][V0100]
+//スタートからゴールまで[NLINE]
+//他のふとん犬よりも速く辿り着く。[NLINE]
+//シンプル故に、能力の優劣がつこうというもの。[NWIN]
+//
+//[CHARCB03][V1F00]
+//ブリーダーの下目掛けて、[NLINE]
+//まっしぐらに走って貰いましょう！[END-FE]
+[CHARCB03][V0100]
+スタートからゴールまで[NLINE]
+他のふとん犬よりも速く辿り着く。[NLINE]
+シンプル故に、能力の優劣がつこうというもの。[NWIN]
+
+[CHARCB03][V1F00]
+ブリーダーの下目掛けて、[NLINE]
+まっしぐらに走って貰いましょう！[END-FE]
+
+
+
+
+
+//POINTER #16 @ $B560 - STRING #16 @ $BEB2
+#W32($B560)
+//[CHARCB03][V0200]
+//さあ、ドッグレースチャンピオンである[NLINE]
+//ニシキ選手に対して、他のふとん犬たちは[NLINE]
+//どんな戦いを見せてくれるのでしょうか！[END-FE]
+[CHARCB03][V0200]
+さあ、ドッグレースチャンピオンである[NLINE]
+ニシキ選手に対して、他のふとん犬たちは[NLINE]
+どんな戦いを見せてくれるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #17 @ $B564 - STRING #17 @ $BF31
+#W32($B564)
+//[CHARCB03][V0300]
+//さあ、ドッグレースチャンピオンである[NLINE]
+//テツ選手に対して、他のふとん犬たちは[NLINE]
+//どんな戦いを見せてくれるのでしょうか！[END-FE]
+[CHARCB03][V0300]
+さあ、ドッグレースチャンピオンである[NLINE]
+テツ選手に対して、他のふとん犬たちは[NLINE]
+どんな戦いを見せてくれるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #18 @ $B568 - STRING #18 @ $BFAE
+#W32($B568)
+//[CHARCB03][V0400]
+//さあ、ドッグレースチャンピオンである[NLINE]
+//タマ選手に対して、他のふとん犬たちは[NLINE]
+//どんな戦いを見せてくれるのでしょうか！[END-FE]
+[CHARCB03][V0400]
+さあ、ドッグレースチャンピオンである[NLINE]
+タマ選手に対して、他のふとん犬たちは[NLINE]
+どんな戦いを見せてくれるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #19 @ $B56C - STRING #19 @ $C02B
+#W32($B56C)
+//[CHARCB03][V0500]
+//さあ、ドッグレースチャンピオンである[NLINE]
+//モモ選手に対して、他のふとん犬たちは[NLINE]
+//どんな戦いを見せてくれるのでしょうか！[END-FE]
+[CHARCB03][V0500]
+さあ、ドッグレースチャンピオンである[NLINE]
+モモ選手に対して、他のふとん犬たちは[NLINE]
+どんな戦いを見せてくれるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #20 @ $B570 - STRING #20 @ $C0A8
+#W32($B570)
+//[CHARCB03][V0300]
+//さあ、ドッグレースチャンピオンである[NLINE]
+//テツ選手に対して、他のふとん犬たちは[NLINE]
+//どんな戦いを見せてくれるのでしょうか！[END-FE]
+[CHARCB03][V0300]
+さあ、ドッグレースチャンピオンである[NLINE]
+テツ選手に対して、他のふとん犬たちは[NLINE]
+どんな戦いを見せてくれるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #21 @ $B574 - STRING #21 @ $C125
+#W32($B574)
+//[CHARCB03][V0200]
+//さあ、ドッグレースチャンピオンである[NLINE]
+//ニシキ選手に対して、他のふとん犬たちは[NLINE]
+//どんな戦いを見せてくれるのでしょうか！[END-FE]
+[CHARCB03][V0200]
+さあ、ドッグレースチャンピオンである[NLINE]
+ニシキ選手に対して、他のふとん犬たちは[NLINE]
+どんな戦いを見せてくれるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #22 @ $B578 - STRING #22 @ $C1A4
+#W32($B578)
+//[CHARCB03][V0600]
+//ニシキ、頑張って！[END-FE]
+[CHARCB03][V0600]
+ニシキ、頑張って！[END-FE]
+
+
+
+
+
+//POINTER #23 @ $B57C - STRING #23 @ $C1C1
+#W32($B57C)
+//[CHARCB03][V0700]
+//テツ、頑張って！[END-FE]
+[CHARCB03][V0700]
+テツ、頑張って！[END-FE]
+
+
+
+
+
+//POINTER #24 @ $B580 - STRING #24 @ $C1DC
+#W32($B580)
+//[CHARCB03][V0800]
+//タマ、頑張って！[END-FE]
+[CHARCB03][V0800]
+タマ、頑張って！[END-FE]
+
+
+
+
+
+//POINTER #25 @ $B584 - STRING #25 @ $C1F7
+#W32($B584)
+//[CHARCB03][V0900]
+//モモ、頑張って！[END-FE]
+[CHARCB03][V0900]
+モモ、頑張って！[END-FE]
+
+
+
+
+
+//POINTER #26 @ $B588 - STRING #26 @ $C212
+#W32($B588)
+//ルールの説明を受けますか？[END-FE]
+ルールの説明を受けますか？[END-FE]
+
+
+
+
+
+//POINTER #27 @ $B58C - STRING #27 @ $C22F
+#W32($B58C)
+//ふとん犬たちは、[NLINE]
+//飼い主へと真っ直ぐに走っていきます。[NWIN]
+//
+//右上にふとん犬の体力ゲージがあります。[NLINE]
+//走っている間、このゲージが減っていきます。[NWIN]
+//
+//体力が尽きてしまうと、ふとん犬は[NLINE]
+//最低の走力でしか走れなくなってしまいます。[NWIN]
+//
+//競技中、[COL03]○[COL00]を押す事で[NLINE]
+//ふとん犬はダッシュを開始します。[NWIN]
+//
+//この状態では、体力の減り方が大幅にアップし、[NLINE]
+//直ぐに体力が底をついてしまいますので[NLINE]
+//注意してください。[NWIN]
+//
+//ダッシュ中に[COL09]×[COL00]を押す事で、[NLINE]
+//ダッシュを解除する事ができます。[NWIN]
+//
+//普通に走っている状態の時、[COL04]△[COL00]を[NLINE]
+//連打する事で体力が回復していきます。[NWIN]
+//
+//これらのボタンを駆使して、[NLINE]
+//どのふとん犬よりも先に[NLINE]
+//ゴールを目指してください。[END-FE]
+ふとん犬たちは、[NLINE]
+飼い主へと真っ直ぐに走っていきます。[NWIN]
+
+右上にふとん犬の体力ゲージがあります。[NLINE]
+走っている間、このゲージが減っていきます。[NWIN]
+
+体力が尽きてしまうと、ふとん犬は[NLINE]
+最低の走力でしか走れなくなってしまいます。[NWIN]
+
+競技中、[COL03]○[COL00]を押す事で[NLINE]
+ふとん犬はダッシュを開始します。[NWIN]
+
+この状態では、体力の減り方が大幅にアップし、[NLINE]
+直ぐに体力が底をついてしまいますので[NLINE]
+注意してください。[NWIN]
+
+ダッシュ中に[COL09]×[COL00]を押す事で、[NLINE]
+ダッシュを解除する事ができます。[NWIN]
+
+普通に走っている状態の時、[COL04]△[COL00]を[NLINE]
+連打する事で体力が回復していきます。[NWIN]
+
+これらのボタンを駆使して、[NLINE]
+どのふとん犬よりも先に[NLINE]
+ゴールを目指してください。[END-FE]
+
+
+
+
+
+//POINTER #28 @ $B590 - STRING #28 @ $C490
+#W32($B590)
+//[CHARCB03][V0A00]
+//どうやらふとん犬たちの準備は整ったみたいです。[NLINE]
+//それではふとんドッグレース、レディーゴー！[END-FE]
+[CHARCB03][V0A00]
+どうやらふとん犬たちの準備は整ったみたいです。[NLINE]
+それではふとんドッグレース、レディーゴー！[END-FE]
+
+
+
+
+
+//POINTER #29 @ $B594 - STRING #29 @ $C4F5
+#W32($B594)
+//レーススタート[END-FE]
+レーススタート[END-FE]
+
+
+
+
+
+//POINTER #30 @ $B598 - STRING #30 @ $C506
+#W32($B598)
+//[CHARCB03][V0B00]
+//ゴールっ！[NLINE]
+//一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
+[CHARCB03][V0B00]
+ゴールっ！[NLINE]
+一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #31 @ $B59C - STRING #31 @ $C545
+#W32($B59C)
+//[CHARCB03][V0C00]
+//ゴールっ！[NLINE]
+//一着に飛び込んできたのは、テツ選手だ！[END-FE]
+[CHARCB03][V0C00]
+ゴールっ！[NLINE]
+一着に飛び込んできたのは、テツ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #32 @ $B5A0 - STRING #32 @ $C582
+#W32($B5A0)
+//[CHARCB03][V0D00]
+//ゴールっ！[NLINE]
+//一着に飛び込んできたのは、タマ選手だ！[END-FE]
+[CHARCB03][V0D00]
+ゴールっ！[NLINE]
+一着に飛び込んできたのは、タマ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #33 @ $B5A4 - STRING #33 @ $C5BF
+#W32($B5A4)
+//[CHARCB03][V0E00]
+//ゴールっ！[NLINE]
+//一着に飛び込んできたのは、モモ選手だ！[END-FE]
+[CHARCB03][V0E00]
+ゴールっ！[NLINE]
+一着に飛び込んできたのは、モモ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #34 @ $B5A8 - STRING #34 @ $C5FC
+#W32($B5A8)
+//[CHARCB03][V0C00]
+//ゴールっ！[NLINE]
+//一着に飛び込んできたのは、テツ選手だ！[END-FE]
+[CHARCB03][V0C00]
+ゴールっ！[NLINE]
+一着に飛び込んできたのは、テツ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #35 @ $B5AC - STRING #35 @ $C639
+#W32($B5AC)
+//[CHARCB03][V0B00]
+//ゴールっ！[NLINE]
+//一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
+[CHARCB03][V0B00]
+ゴールっ！[NLINE]
+一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #36 @ $B5B0 - STRING #36 @ $C678
+#W32($B5B0)
+//レース終了[END-FE]
+レース終了[END-FE]
+
+
+
+
+
+//POINTER #37 @ $B5B4 - STRING #37 @ $C685
+#W32($B5B4)
+//[CHARCB03][V1100]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、テツ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1100]
+や、やりました！[NLINE]
+チャンピオンを押さえて、テツ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #38 @ $B5B8 - STRING #38 @ $C6E0
+#W32($B5B8)
+//[CHARCB03][V1000]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、ニシキ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1000]
+や、やりました！[NLINE]
+チャンピオンを押さえて、ニシキ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #39 @ $B5BC - STRING #39 @ $C73D
+#W32($B5BC)
+//[CHARCB03][V1100]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、テツ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1100]
+や、やりました！[NLINE]
+チャンピオンを押さえて、テツ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #40 @ $B5C0 - STRING #40 @ $C798
+#W32($B5C0)
+//[CHARCB03][V1000]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、ニシキ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1000]
+や、やりました！[NLINE]
+チャンピオンを押さえて、ニシキ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #41 @ $B5C4 - STRING #41 @ $C7F5
+#W32($B5C4)
+//[CHARCB03][V1C00]
+//素晴らしいレースでした。[NWIN]
+//
+//[CHARCB03][V1D00]
+//ブリーダーの皆様、ドッグレースに限らず、[NLINE]
+//ふとん犬の可能性を[NLINE]
+//もっと引き出してあげてください！[NWIN]
+//
+//[CHARCB03][V1E00]
+//これにてドッグレースコンテストを[NLINE]
+//終了いたします。[END-FE]
+[CHARCB03][V1C00]
+素晴らしいレースでした。[NWIN]
+
+[CHARCB03][V1D00]
+ブリーダーの皆様、ドッグレースに限らず、[NLINE]
+ふとん犬の可能性を[NLINE]
+もっと引き出してあげてください！[NWIN]
+
+[CHARCB03][V1E00]
+これにてドッグレースコンテストを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #42 @ $B5C8 - STRING #42 @ $C8BC
+#W32($B5C8)
+//[CHARCB03][V1000]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、ニシキ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1000]
+や、やりました！[NLINE]
+チャンピオンを押さえて、ニシキ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #43 @ $B5CC - STRING #43 @ $C919
+#W32($B5CC)
+//[CHARCB03][V1100]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、テツ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1100]
+や、やりました！[NLINE]
+チャンピオンを押さえて、テツ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #44 @ $B5D0 - STRING #44 @ $C974
+#W32($B5D0)
+//[CHARCB03][V1200]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、タマ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1200]
+や、やりました！[NLINE]
+チャンピオンを押さえて、タマ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #45 @ $B5D4 - STRING #45 @ $C9CF
+#W32($B5D4)
+//[CHARCB03][V1300]
+//や、やりました！[NLINE]
+//チャンピオンを押さえて、モモ選手、[NLINE]
+//ドッグレースを制しました！[END-FE]
+[CHARCB03][V1300]
+や、やりました！[NLINE]
+チャンピオンを押さえて、モモ選手、[NLINE]
+ドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #46 @ $B5D8 - STRING #46 @ $CA2A
+#W32($B5D8)
+//[CHARCB03][V0F00]
+//速いチャンピオンっ！[NLINE]
+//またしてもドッグレースを制しました！[END-FE]
+[CHARCB03][V0F00]
+速いチャンピオンっ！[NLINE]
+またしてもドッグレースを制しました！[END-FE]
+
+
+
+
+
+//POINTER #47 @ $B5DC - STRING #47 @ $CA6F
+#W32($B5DC)
+//[CHARCB03][V1400]
+//ニシキ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCB03][V1400]
+ニシキ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #48 @ $B5E0 - STRING #48 @ $CA9E
+#W32($B5E0)
+//[CHARCB03][V1500]
+//テツ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCB03][V1500]
+テツ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #49 @ $B5E4 - STRING #49 @ $CACB
+#W32($B5E4)
+//[CHARCB03][V1600]
+//タマ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCB03][V1600]
+タマ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #50 @ $B5E8 - STRING #50 @ $CAF8
+#W32($B5E8)
+//[CHARCB03][V1700]
+//モモ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCB03][V1700]
+モモ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #51 @ $B5EC - STRING #51 @ $CB25
+#W32($B5EC)
+//[CHARCB03][V1800]
+//ニシキ、[NLINE]
+//また頑張りましょうね。[END-FE]
+[CHARCB03][V1800]
+ニシキ、[NLINE]
+また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #52 @ $B5F0 - STRING #52 @ $CB50
+#W32($B5F0)
+//[CHARCB03][V1900]
+//テツ、[NLINE]
+//また頑張りましょうね。[END-FE]
+[CHARCB03][V1900]
+テツ、[NLINE]
+また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #53 @ $B5F4 - STRING #53 @ $CB79
+#W32($B5F4)
+//[CHARCB03][V1A00]
+//タマ、[NLINE]
+//また頑張りましょうね。[END-FE]
+[CHARCB03][V1A00]
+タマ、[NLINE]
+また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #54 @ $B5F8 - STRING #54 @ $CBA2
+#W32($B5F8)
+//[CHARCB03][V1B00]
+//モモ、[NLINE]
+//また頑張りましょうね。[END-FE]
+[CHARCB03][V1B00]
+モモ、[NLINE]
+また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #55 @ $B5FC - STRING #55 @ $CBCB
+#W32($B5FC)
+//　[Futon-Dog]　[NLINE]
+//体力　[CC.EF03][END-FE]
+　[Futon-Dog]　[NLINE]
+体力　[CC.EF03][END-FE]
+
+
+
+
+
+//POINTER #56 @ $B600 - STRING #56 @ $CBE1
+#W32($B600)
+//[COL03]○[COL00]にどのダンスをセットしますか？[END-FE]
+[COL03]○[COL00]にどのダンスをセットしますか？[END-FE]
+
+
+
+
+
+//POINTER #57 @ $B604 - STRING #57 @ $CC0A
+#W32($B604)
+//・プリティダンス　　　消費体力３　[END-FE]
+・プリティダンス　　　消費体力３　[END-FE]
+
+
+
+
+
+//POINTER #58 @ $B608 - STRING #58 @ $CC2F
+#W32($B608)
+//・ステップダンス　　　消費体力４　[END-FE]
+・ステップダンス　　　消費体力４　[END-FE]
+
+
+
+
+
+//POINTER #59 @ $B60C - STRING #59 @ $CC54
+#W32($B60C)
+//・体操ダンス　　　　　消費体力９　[END-FE]
+・体操ダンス　　　　　消費体力９　[END-FE]
+
+
+
+
+
+//POINTER #60 @ $B610 - STRING #60 @ $CC79
+#W32($B610)
+//・パラパラ　　　　　　消費体力５　[END-FE]
+・パラパラ　　　　　　消費体力５　[END-FE]
+
+
+
+
+
+//POINTER #61 @ $B614 - STRING #61 @ $CC9E
+#W32($B614)
+//・タップダンス　　　　消費体力７　[END-FE]
+・タップダンス　　　　消費体力７　[END-FE]
+
+
+
+
+
+//POINTER #62 @ $B618 - STRING #62 @ $CCC3
+#W32($B618)
+//・回転ダンス　　　　　消費体力５　[END-FE]
+・回転ダンス　　　　　消費体力５　[END-FE]
+
+
+
+
+
+//POINTER #63 @ $B61C - STRING #63 @ $CCE8
+#W32($B61C)
+//・ブレイクダンス　　　消費体力８　[END-FE]
+・ブレイクダンス　　　消費体力８　[END-FE]
+
+
+
+
+
+//POINTER #64 @ $B620 - STRING #64 @ $CD0D
+#W32($B620)
+//・チェックダンス　　　消費体力１０[END-FE]
+・チェックダンス　　　消費体力１０[END-FE]
+
+
+
+
+
+//POINTER #65 @ $B624 - STRING #65 @ $CD32
+#W32($B624)
+//[COL04]△[COL00]にどのダンスをセットしますか？[END-FE]
+[COL04]△[COL00]にどのダンスをセットしますか？[END-FE]
+
+
+
+
+
+//POINTER #66 @ $B628 - STRING #66 @ $CD5B
+#W32($B628)
+//・プリティダンス　　　消費体力３　[END-FE]
+・プリティダンス　　　消費体力３　[END-FE]
+
+
+
+
+
+//POINTER #67 @ $B62C - STRING #67 @ $CD80
+#W32($B62C)
+//・ステップダンス　　　消費体力４　[END-FE]
+・ステップダンス　　　消費体力４　[END-FE]
+
+
+
+
+
+//POINTER #68 @ $B630 - STRING #68 @ $CDA5
+#W32($B630)
+//・体操ダンス　　　　　消費体力９　[END-FE]
+・体操ダンス　　　　　消費体力９　[END-FE]
+
+
+
+
+
+//POINTER #69 @ $B634 - STRING #69 @ $CDCA
+#W32($B634)
+//・パラパラ　　　　　　消費体力５　[END-FE]
+・パラパラ　　　　　　消費体力５　[END-FE]
+
+
+
+
+
+//POINTER #70 @ $B638 - STRING #70 @ $CDEF
+#W32($B638)
+//・タップダンス　　　　消費体力７　[END-FE]
+・タップダンス　　　　消費体力７　[END-FE]
+
+
+
+
+
+//POINTER #71 @ $B63C - STRING #71 @ $CE14
+#W32($B63C)
+//・回転ダンス　　　　　消費体力５　[END-FE]
+・回転ダンス　　　　　消費体力５　[END-FE]
+
+
+
+
+
+//POINTER #72 @ $B640 - STRING #72 @ $CE39
+#W32($B640)
+//・ブレイクダンス　　　消費体力８　[END-FE]
+・ブレイクダンス　　　消費体力８　[END-FE]
+
+
+
+
+
+//POINTER #73 @ $B644 - STRING #73 @ $CE5E
+#W32($B644)
+//・チェックダンス　　　消費体力１０[END-FE]
+・チェックダンス　　　消費体力１０[END-FE]
+
+
+
+
+
+//POINTER #74 @ $B648 - STRING #74 @ $CE83
+#W32($B648)
+//[COL05]□[COL00]にどのダンスをセットしますか？[END-FE]
+[COL05]□[COL00]にどのダンスをセットしますか？[END-FE]
+
+
+
+
+
+//POINTER #75 @ $B64C - STRING #75 @ $CEAC
+#W32($B64C)
+//・プリティダンス　　　消費体力３　[END-FE]
+・プリティダンス　　　消費体力３　[END-FE]
+
+
+
+
+
+//POINTER #76 @ $B650 - STRING #76 @ $CED1
+#W32($B650)
+//・ステップダンス　　　消費体力４　[END-FE]
+・ステップダンス　　　消費体力４　[END-FE]
+
+
+
+
+
+//POINTER #77 @ $B654 - STRING #77 @ $CEF6
+#W32($B654)
+//・体操ダンス　　　　　消費体力９　[END-FE]
+・体操ダンス　　　　　消費体力９　[END-FE]
+
+
+
+
+
+//POINTER #78 @ $B658 - STRING #78 @ $CF1B
+#W32($B658)
+//・パラパラ　　　　　　消費体力５　[END-FE]
+・パラパラ　　　　　　消費体力５　[END-FE]
+
+
+
+
+
+//POINTER #79 @ $B65C - STRING #79 @ $CF40
+#W32($B65C)
+//・タップダンス　　　　消費体力７　[END-FE]
+・タップダンス　　　　消費体力７　[END-FE]
+
+
+
+
+
+//POINTER #80 @ $B660 - STRING #80 @ $CF65
+#W32($B660)
+//・回転ダンス　　　　　消費体力５　[END-FE]
+・回転ダンス　　　　　消費体力５　[END-FE]
+
+
+
+
+
+//POINTER #81 @ $B664 - STRING #81 @ $CF8A
+#W32($B664)
+//・ブレイクダンス　　　消費体力８　[END-FE]
+・ブレイクダンス　　　消費体力８　[END-FE]
+
+
+
+
+
+//POINTER #82 @ $B668 - STRING #82 @ $CFAF
+#W32($B668)
+//・チェックダンス　　　消費体力１０[END-FE]
+・チェックダンス　　　消費体力１０[END-FE]
+
+
+
+
+
+//POINTER #83 @ $B66C - STRING #83 @ $CFD4
+#W32($B66C)
+//これで宜しいですか？[END-FE]
+これで宜しいですか？[END-FE]
+
+
+
+
+
+//POINTER #84 @ $B670 - STRING #84 @ $CFEB
+#W32($B670)
+//[CHARCC03][V0000]
+//あの、可愛らしさで私たちを魅了するふとん犬！[NLINE]
+//そんなふとん犬が、ダンスを踊ったら…。[NLINE]
+//そんなファンの希望を実現した企画、[NLINE]
+//ダンスコンテストをここに開催します！[END-FE]
+[CHARCC03][V0000]
+あの、可愛らしさで私たちを魅了するふとん犬！[NLINE]
+そんなふとん犬が、ダンスを踊ったら…。[NLINE]
+そんなファンの希望を実現した企画、[NLINE]
+ダンスコンテストをここに開催します！[END-FE]
+
+
+
+
+
+//POINTER #85 @ $B674 - STRING #85 @ $D094
+#W32($B674)
+//[CHARCC03][V0100]
+//ふとん犬たちのダンス。[NLINE]
+//それは想像を絶する愛らしさを[NLINE]
+//私たちに見せてくれることでしょう！[END-FE]
+[CHARCC03][V0100]
+ふとん犬たちのダンス。[NLINE]
+それは想像を絶する愛らしさを[NLINE]
+私たちに見せてくれることでしょう！[END-FE]
+
+
+
+
+
+//POINTER #86 @ $B678 - STRING #86 @ $D0F7
+#W32($B678)
+//[CHARCC03][V0200]
+//ダンスチャンピオン、チェック選手に対して、[NLINE]
+//挑戦者たちはどんなダンスで[NLINE]
+//勝負を挑むのでしょうか！[END-FE]
+[CHARCC03][V0200]
+ダンスチャンピオン、チェック選手に対して、[NLINE]
+挑戦者たちはどんなダンスで[NLINE]
+勝負を挑むのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #87 @ $B67C - STRING #87 @ $D162
+#W32($B67C)
+//[CHARCC03][V0300]
+//ダンスチャンピオン、ニシキ選手に対して、[NLINE]
+//挑戦者たちはどんなダンスで[NLINE]
+//勝負を挑むのでしょうか！[END-FE]
+[CHARCC03][V0300]
+ダンスチャンピオン、ニシキ選手に対して、[NLINE]
+挑戦者たちはどんなダンスで[NLINE]
+勝負を挑むのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #88 @ $B680 - STRING #88 @ $D1CB
+#W32($B680)
+//[CHARCC03][V0400]
+//ダンスチャンピオン、テツ選手に対して、[NLINE]
+//挑戦者たちはどんなダンスで[NLINE]
+//勝負を挑むのでしょうか！[END-FE]
+[CHARCC03][V0400]
+ダンスチャンピオン、テツ選手に対して、[NLINE]
+挑戦者たちはどんなダンスで[NLINE]
+勝負を挑むのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #89 @ $B684 - STRING #89 @ $D232
+#W32($B684)
+//[CHARCC03][V0500]
+//ダンスチャンピオン、タマ選手に対して、[NLINE]
+//挑戦者たちはどんなダンスで[NLINE]
+//勝負を挑むのでしょうか！[END-FE]
+[CHARCC03][V0500]
+ダンスチャンピオン、タマ選手に対して、[NLINE]
+挑戦者たちはどんなダンスで[NLINE]
+勝負を挑むのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #90 @ $B688 - STRING #90 @ $D299
+#W32($B688)
+//[CHARCC03][V0600]
+//ダンスチャンピオン、モモ選手に対して、[NLINE]
+//挑戦者たちはどんなダンスで[NLINE]
+//勝負を挑むのでしょうか！[END-FE]
+[CHARCC03][V0600]
+ダンスチャンピオン、モモ選手に対して、[NLINE]
+挑戦者たちはどんなダンスで[NLINE]
+勝負を挑むのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #91 @ $B68C - STRING #91 @ $D300
+#W32($B68C)
+//ルールの説明を受けますか？[END-FE]
+ルールの説明を受けますか？[END-FE]
+
+
+
+
+
+//POINTER #92 @ $B690 - STRING #92 @ $D31D
+#W32($B690)
+//[CHARCC03][V0700]
+//それでは挑戦者、[NLINE]
+//ニシキ選手のダンスから披露です！[END-FE]
+[CHARCC03][V0700]
+それでは挑戦者、[NLINE]
+ニシキ選手のダンスから披露です！[END-FE]
+
+
+
+
+
+//POINTER #93 @ $B694 - STRING #93 @ $D35A
+#W32($B694)
+//[CHARCC03][V0800]
+//それでは挑戦者、[NLINE]
+//テツ選手のダンスから披露です！[END-FE]
+[CHARCC03][V0800]
+それでは挑戦者、[NLINE]
+テツ選手のダンスから披露です！[END-FE]
+
+
+
+
+
+//POINTER #94 @ $B698 - STRING #94 @ $D395
+#W32($B698)
+//[CHARCC03][V0900]
+//それでは挑戦者、[NLINE]
+//タマ選手のダンスから披露です！[END-FE]
+[CHARCC03][V0900]
+それでは挑戦者、[NLINE]
+タマ選手のダンスから披露です！[END-FE]
+
+
+
+
+
+//POINTER #95 @ $B69C - STRING #95 @ $D3D0
+#W32($B69C)
+//[CHARCC03][V0A00]
+//それでは挑戦者、[NLINE]
+//モモ選手のダンスから披露です！[END-FE]
+[CHARCC03][V0A00]
+それでは挑戦者、[NLINE]
+モモ選手のダンスから披露です！[END-FE]
+
+
+
+
+
+//POINTER #96 @ $B6A0 - STRING #96 @ $D40B
+#W32($B6A0)
+//[CHARCC03][V0C00]
+//次に挑戦者、[NLINE]
+//ニシキ選手のダンスの披露です！[END-FE]
+[CHARCC03][V0C00]
+次に挑戦者、[NLINE]
+ニシキ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #97 @ $B6A4 - STRING #97 @ $D442
+#W32($B6A4)
+//[CHARCC03][V0D00]
+//次に挑戦者、[NLINE]
+//テツ選手のダンスの披露です！[END-FE]
+[CHARCC03][V0D00]
+次に挑戦者、[NLINE]
+テツ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #98 @ $B6A8 - STRING #98 @ $D477
+#W32($B6A8)
+//[CHARCC03][V0E00]
+//次に挑戦者、[NLINE]
+//タマ選手のダンスの披露です！[END-FE]
+[CHARCC03][V0E00]
+次に挑戦者、[NLINE]
+タマ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #99 @ $B6AC - STRING #99 @ $D4AC
+#W32($B6AC)
+//[CHARCC03][V0F00]
+//次に挑戦者、[NLINE]
+//モモ選手のダンスの披露です！[END-FE]
+[CHARCC03][V0F00]
+次に挑戦者、[NLINE]
+モモ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #100 @ $B6B0 - STRING #100 @ $D4E1
+#W32($B6B0)
+//[CHARCC03][V1100]
+//最後に現チャンピオン、[NLINE]
+//ニシキ選手のダンスの披露です！[END-FE]
+[CHARCC03][V1100]
+最後に現チャンピオン、[NLINE]
+ニシキ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #101 @ $B6B4 - STRING #101 @ $D522
+#W32($B6B4)
+//[CHARCC03][V1200]
+//最後に現チャンピオン、[NLINE]
+//テツ選手のダンスの披露です！[END-FE]
+[CHARCC03][V1200]
+最後に現チャンピオン、[NLINE]
+テツ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #102 @ $B6B8 - STRING #102 @ $D561
+#W32($B6B8)
+//[CHARCC03][V1300]
+//最後に現チャンピオン、[NLINE]
+//タマ選手のダンスの披露です！[END-FE]
+[CHARCC03][V1300]
+最後に現チャンピオン、[NLINE]
+タマ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #103 @ $B6BC - STRING #103 @ $D5A0
+#W32($B6BC)
+//[CHARCC03][V1400]
+//最後に現チャンピオン、[NLINE]
+//モモ選手のダンスの披露です！[END-FE]
+[CHARCC03][V1400]
+最後に現チャンピオン、[NLINE]
+モモ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #104 @ $B6C0 - STRING #104 @ $D5DF
+#W32($B6C0)
+//ミュージックスタート[END-FE]
+ミュージックスタート[END-FE]
+
+
+
+
+
+//POINTER #105 @ $B6C4 - STRING #105 @ $D5F6
+#W32($B6C4)
+//出題される音楽に合わせて３回ダンスを披露し、[NLINE]
+//その得点を競い合います。[NWIN]
+//
+//出題される音楽はコンテストの最初に[NLINE]
+//表示されます。[NWIN]
+//
+//次にダンスを[COL03]○[COL00]、[COL04]△[COL00]、[COL05]□[COL00]の３つのボタンに[NLINE]
+//セットします。[NWIN]
+//
+//音楽とダンスには相性がありますので、[NLINE]
+//ダンスをセットする時は出題された[NLINE]
+//音楽を考慮してセットしてください。[NWIN]
+//
+//ダンスを踊りきるのに必要な体力があります。[NLINE]
+//３回踊りがありますので、[NLINE]
+//体力を考慮してダンスを選んでください。[NWIN]
+//
+//競技が始まり、ミュージックスタートの文字が[NLINE]
+//出て音楽が流れたら、２秒以内にダンスを[NLINE]
+//セットしたボタンを押してふとん犬に[NLINE]
+//踊るダンスを指示してください。[NWIN]
+//
+//２秒経過してしまうと、その回のダンスは[NLINE]
+//放棄したとみなされてしまいます。[NWIN]
+//
+//出題された音楽の内のどれかが流れますので、[NLINE]
+//それに合ったセットしたダンスボタンを押して[NLINE]
+//高得点を狙ってください。[NWIN]
+//
+//ボタンにセットしたダンスは、[NLINE]
+//それぞれ一回ずつしか使えませんので、[NLINE]
+//２度目、３度目のダンスの時は[NLINE]
+//それを忘れないようにしてください。[NWIN]
+//
+//音楽が流れ、ボタンを押すまでの時間も[NLINE]
+//得点に影響してきますので、音楽が分かり次第、[NLINE]
+//ボタンを早めに押してください。[NWIN]
+//
+//３回のダンスの合計点が自分の得点となり、[NLINE]
+//それを他のふとん犬たちのダンス得点と競います。[END-FE]
+出題される音楽に合わせて３回ダンスを披露し、[NLINE]
+その得点を競い合います。[NWIN]
+
+出題される音楽はコンテストの最初に[NLINE]
+表示されます。[NWIN]
+
+次にダンスを[COL03]○[COL00]、[COL04]△[COL00]、[COL05]□[COL00]の３つのボタンに[NLINE]
+セットします。[NWIN]
+
+音楽とダンスには相性がありますので、[NLINE]
+ダンスをセットする時は出題された[NLINE]
+音楽を考慮してセットしてください。[NWIN]
+
+ダンスを踊りきるのに必要な体力があります。[NLINE]
+３回踊りがありますので、[NLINE]
+体力を考慮してダンスを選んでください。[NWIN]
+
+競技が始まり、ミュージックスタートの文字が[NLINE]
+出て音楽が流れたら、２秒以内にダンスを[NLINE]
+セットしたボタンを押してふとん犬に[NLINE]
+踊るダンスを指示してください。[NWIN]
+
+２秒経過してしまうと、その回のダンスは[NLINE]
+放棄したとみなされてしまいます。[NWIN]
+
+出題された音楽の内のどれかが流れますので、[NLINE]
+それに合ったセットしたダンスボタンを押して[NLINE]
+高得点を狙ってください。[NWIN]
+
+ボタンにセットしたダンスは、[NLINE]
+それぞれ一回ずつしか使えませんので、[NLINE]
+２度目、３度目のダンスの時は[NLINE]
+それを忘れないようにしてください。[NWIN]
+
+音楽が流れ、ボタンを押すまでの時間も[NLINE]
+得点に影響してきますので、音楽が分かり次第、[NLINE]
+ボタンを早めに押してください。[NWIN]
+
+３回のダンスの合計点が自分の得点となり、[NLINE]
+それを他のふとん犬たちのダンス得点と競います。[END-FE]
+
+
+
+
+
+//POINTER #106 @ $B6C8 - STRING #106 @ $DA3F
+#W32($B6C8)
+//[COL03]○[COL00]　プリティダンス[END-FE]
+[COL03]○[COL00]　プリティダンス[END-FE]
+
+
+
+
+
+//POINTER #107 @ $B6CC - STRING #107 @ $DA5A
+#W32($B6CC)
+//[COL03]○[COL00]　ステップダンス[END-FE]
+[COL03]○[COL00]　ステップダンス[END-FE]
+
+
+
+
+
+//POINTER #108 @ $B6D0 - STRING #108 @ $DA75
+#W32($B6D0)
+//[COL03]○[COL00]　体操ダンス[END-FE]
+[COL03]○[COL00]　体操ダンス[END-FE]
+
+
+
+
+
+//POINTER #109 @ $B6D4 - STRING #109 @ $DA8C
+#W32($B6D4)
+//[COL03]○[COL00]　パラパラ[END-FE]
+[COL03]○[COL00]　パラパラ[END-FE]
+
+
+
+
+
+//POINTER #110 @ $B6D8 - STRING #110 @ $DAA1
+#W32($B6D8)
+//[COL03]○[COL00]　タップダンス[END-FE]
+[COL03]○[COL00]　タップダンス[END-FE]
+
+
+
+
+
+//POINTER #111 @ $B6DC - STRING #111 @ $DABA
+#W32($B6DC)
+//[COL03]○[COL00]　回転ダンス[END-FE]
+[COL03]○[COL00]　回転ダンス[END-FE]
+
+
+
+
+
+//POINTER #112 @ $B6E0 - STRING #112 @ $DAD1
+#W32($B6E0)
+//[COL03]○[COL00]　ブレイクダンス[END-FE]
+[COL03]○[COL00]　ブレイクダンス[END-FE]
+
+
+
+
+
+//POINTER #113 @ $B6E4 - STRING #113 @ $DAEC
+#W32($B6E4)
+//[COL03]○[COL00]　チェックダンス[END-FE]
+[COL03]○[COL00]　チェックダンス[END-FE]
+
+
+
+
+
+//POINTER #114 @ $B6E8 - STRING #114 @ $DB07
+#W32($B6E8)
+//[COL04]△[COL00]　プリティダンス[END-FE]
+[COL04]△[COL00]　プリティダンス[END-FE]
+
+
+
+
+
+//POINTER #115 @ $B6EC - STRING #115 @ $DB22
+#W32($B6EC)
+//[COL04]△[COL00]　ステップダンス[END-FE]
+[COL04]△[COL00]　ステップダンス[END-FE]
+
+
+
+
+
+//POINTER #116 @ $B6F0 - STRING #116 @ $DB3D
+#W32($B6F0)
+//[COL04]△[COL00]　体操ダンス[END-FE]
+[COL04]△[COL00]　体操ダンス[END-FE]
+
+
+
+
+
+//POINTER #117 @ $B6F4 - STRING #117 @ $DB54
+#W32($B6F4)
+//[COL04]△[COL00]　パラパラ[END-FE]
+[COL04]△[COL00]　パラパラ[END-FE]
+
+
+
+
+
+//POINTER #118 @ $B6F8 - STRING #118 @ $DB69
+#W32($B6F8)
+//[COL04]△[COL00]　タップダンス[END-FE]
+[COL04]△[COL00]　タップダンス[END-FE]
+
+
+
+
+
+//POINTER #119 @ $B6FC - STRING #119 @ $DB82
+#W32($B6FC)
+//[COL04]△[COL00]　回転ダンス[END-FE]
+[COL04]△[COL00]　回転ダンス[END-FE]
+
+
+
+
+
+//POINTER #120 @ $B700 - STRING #120 @ $DB99
+#W32($B700)
+//[COL04]△[COL00]　ブレイクダンス[END-FE]
+[COL04]△[COL00]　ブレイクダンス[END-FE]
+
+
+
+
+
+//POINTER #121 @ $B704 - STRING #121 @ $DBB4
+#W32($B704)
+//[COL04]△[COL00]　チェックダンス[END-FE]
+[COL04]△[COL00]　チェックダンス[END-FE]
+
+
+
+
+
+//POINTER #122 @ $B708 - STRING #122 @ $DBCF
+#W32($B708)
+//[COL05]□[COL00]　プリティダンス[END-FE]
+[COL05]□[COL00]　プリティダンス[END-FE]
+
+
+
+
+
+//POINTER #123 @ $B70C - STRING #123 @ $DBEA
+#W32($B70C)
+//[COL05]□[COL00]　ステップダンス[END-FE]
+[COL05]□[COL00]　ステップダンス[END-FE]
+
+
+
+
+
+//POINTER #124 @ $B710 - STRING #124 @ $DC05
+#W32($B710)
+//[COL05]□[COL00]　体操ダンス[END-FE]
+[COL05]□[COL00]　体操ダンス[END-FE]
+
+
+
+
+
+//POINTER #125 @ $B714 - STRING #125 @ $DC1C
+#W32($B714)
+//[COL05]□[COL00]　パラパラ[END-FE]
+[COL05]□[COL00]　パラパラ[END-FE]
+
+
+
+
+
+//POINTER #126 @ $B718 - STRING #126 @ $DC31
+#W32($B718)
+//[COL05]□[COL00]　タップダンス[END-FE]
+[COL05]□[COL00]　タップダンス[END-FE]
+
+
+
+
+
+//POINTER #127 @ $B71C - STRING #127 @ $DC4A
+#W32($B71C)
+//[COL05]□[COL00]　回転ダンス[END-FE]
+[COL05]□[COL00]　回転ダンス[END-FE]
+
+
+
+
+
+//POINTER #128 @ $B720 - STRING #128 @ $DC61
+#W32($B720)
+//[COL05]□[COL00]　ブレイクダンス[END-FE]
+[COL05]□[COL00]　ブレイクダンス[END-FE]
+
+
+
+
+
+//POINTER #129 @ $B724 - STRING #129 @ $DC7C
+#W32($B724)
+//[COL05]□[COL00]　チェックダンス[END-FE]
+[COL05]□[COL00]　チェックダンス[END-FE]
+
+
+
+
+
+//POINTER #130 @ $B728 - STRING #130 @ $DC97
+#W32($B728)
+//　　　　今回のコンテスト課題曲は、[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　　　　とさせて頂きます。[NLINE]
+//　　ふとん犬ダンスコンテスト審査委員会　　[END-FE]
+　　　　今回のコンテスト課題曲は、[NLINE]
+　[NLINE]
+　[NLINE]
+　[NLINE]
+　　　　とさせて頂きます。[NLINE]
+　　ふとん犬ダンスコンテスト審査委員会　　[END-FE]
+
+
+
+
+
+//POINTER #131 @ $B72C - STRING #131 @ $DD10
+#W32($B72C)
+//ライク・ア・カートゥーン[END-FE]
+ライク・ア・カートゥーン[END-FE]
+
+
+
+
+
+//POINTER #132 @ $B730 - STRING #132 @ $DD2B
+#W32($B730)
+//行動開始！[END-FE]
+行動開始！[END-FE]
+
+
+
+
+
+//POINTER #133 @ $B734 - STRING #133 @ $DD38
+#W32($B734)
+//楽しき出来事[END-FE]
+楽しき出来事[END-FE]
+
+
+
+
+
+//POINTER #134 @ $B738 - STRING #134 @ $DD47
+#W32($B738)
+//ライク・ア・カートゥーン[END-FE]
+ライク・ア・カートゥーン[END-FE]
+
+
+
+
+
+//POINTER #135 @ $B73C - STRING #135 @ $DD62
+#W32($B73C)
+//行動開始！[END-FE]
+行動開始！[END-FE]
+
+
+
+
+
+//POINTER #136 @ $B740 - STRING #136 @ $DD6F
+#W32($B740)
+//楽しき出来事[END-FE]
+楽しき出来事[END-FE]
+
+
+
+
+
+//POINTER #137 @ $B744 - STRING #137 @ $DD7E
+#W32($B744)
+//ライク・ア・カートゥーン[END-FE]
+ライク・ア・カートゥーン[END-FE]
+
+
+
+
+
+//POINTER #138 @ $B748 - STRING #138 @ $DD99
+#W32($B748)
+//行動開始！[END-FE]
+行動開始！[END-FE]
+
+
+
+
+
+//POINTER #139 @ $B74C - STRING #139 @ $DDA6
+#W32($B74C)
+//楽しき出来事[END-FE]
+楽しき出来事[END-FE]
+
+
+
+
+
+//POINTER #140 @ $B750 - STRING #140 @ $DDB5
+#W32($B750)
+//[CHARCC03][V0A00]
+//それでは挑戦者、[NLINE]
+//モモ選手のダンスから披露です！[END-FE]
+[CHARCC03][V0A00]
+それでは挑戦者、[NLINE]
+モモ選手のダンスから披露です！[END-FE]
+
+
+
+
+
+//POINTER #141 @ $B754 - STRING #141 @ $DDF0
+#W32($B754)
+//[CHARCC03][V0900]
+//それでは挑戦者、[NLINE]
+//タマ選手のダンスから披露です！[END-FE]
+[CHARCC03][V0900]
+それでは挑戦者、[NLINE]
+タマ選手のダンスから披露です！[END-FE]
+
+
+
+
+
+//POINTER #142 @ $B758 - STRING #142 @ $DE2B
+#W32($B758)
+//[CHARCC03][V0F00]
+//次に挑戦者、[NLINE]
+//モモ選手のダンスの披露です！[END-FE]
+[CHARCC03][V0F00]
+次に挑戦者、[NLINE]
+モモ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #143 @ $B75C - STRING #143 @ $DE60
+#W32($B75C)
+//[CHARCC03][V0E00]
+//次に挑戦者、[NLINE]
+//タマ選手のダンスの披露です！[END-FE]
+[CHARCC03][V0E00]
+次に挑戦者、[NLINE]
+タマ選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #144 @ $B760 - STRING #144 @ $DE95
+#W32($B760)
+//[CHARCC03][V1C00]
+//モモ選手、中々のダンスでした！[END-FE]
+[CHARCC03][V1C00]
+モモ選手、中々のダンスでした！[END-FE]
+
+
+
+
+
+//POINTER #145 @ $B764 - STRING #145 @ $DEBE
+#W32($B764)
+//[CHARCC03][V1B00]
+//タマ選手、中々のダンスでした！[END-FE]
+[CHARCC03][V1B00]
+タマ選手、中々のダンスでした！[END-FE]
+
+
+
+
+
+//POINTER #146 @ $B768 - STRING #146 @ $DEE7
+#W32($B768)
+//[CHARCC03][V1800]
+//あ～っと、モモ選手のダンスは[NLINE]
+//審査員には不評のようだ！[END-FE]
+[CHARCC03][V1800]
+あ～っと、モモ選手のダンスは[NLINE]
+審査員には不評のようだ！[END-FE]
+
+
+
+
+
+//POINTER #147 @ $B76C - STRING #147 @ $DF28
+#W32($B76C)
+//[CHARCC03][V1700]
+//あ～っと、タマ選手のダンスは[NLINE]
+//審査員には不評のようだ！[END-FE]
+[CHARCC03][V1700]
+あ～っと、タマ選手のダンスは[NLINE]
+審査員には不評のようだ！[END-FE]
+
+
+
+
+
+//POINTER #148 @ $B770 - STRING #148 @ $DF69
+#W32($B770)
+//[CHARCC03][V0B00]
+//次に挑戦者、[NLINE]
+//チェック選手のダンスの披露です！[END-FE]
+[CHARCC03][V0B00]
+次に挑戦者、[NLINE]
+チェック選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #149 @ $B774 - STRING #149 @ $DFA2
+#W32($B774)
+//[CHARCC03][V1000]
+//最後に現チャンピオン、[NLINE]
+//チェック選手のダンスの披露です！[END-FE]
+[CHARCC03][V1000]
+最後に現チャンピオン、[NLINE]
+チェック選手のダンスの披露です！[END-FE]
+
+
+
+
+
+//POINTER #150 @ $B778 - STRING #150 @ $DFE5
+#W32($B778)
+//[CHARCC03][V1D00]
+//す、素晴らしい！[NLINE]
+//ふとん犬にここまでのダンスを[NLINE]
+//踊る事が出来ようとは！[NLINE]
+//チェック選手、私たちの度肝を抜いてくれます！[END-FE]
+[CHARCC03][V1D00]
+す、素晴らしい！[NLINE]
+ふとん犬にここまでのダンスを[NLINE]
+踊る事が出来ようとは！[NLINE]
+チェック選手、私たちの度肝を抜いてくれます！[END-FE]
+
+
+
+
+
+//POINTER #151 @ $B77C - STRING #151 @ $E064
+#W32($B77C)
+//お～と、[Futon-Dog]選手！[NLINE]
+//ダンスを踊るタイミングを[NLINE]
+//逃してしまった！[END-FE]
+お～と、[Futon-Dog]選手！[NLINE]
+ダンスを踊るタイミングを[NLINE]
+逃してしまった！[END-FE]
+
+
+
+
+
+//POINTER #152 @ $B780 - STRING #152 @ $E0A5
+#W32($B780)
+//おっと[Futon-Dog]選手、[NLINE]
+//ダンスを成功させるだけの[NLINE]
+//体力が残っていなかったようだ！[END-FE]
+おっと[Futon-Dog]選手、[NLINE]
+ダンスを成功させるだけの[NLINE]
+体力が残っていなかったようだ！[END-FE]
+
+
+
+
+
+//POINTER #153 @ $B784 - STRING #153 @ $E0F2
+#W32($B784)
+//[Futon-Dog]選手、[NLINE]
+//最後のダンスをお願いします！[END-FE]
+[Futon-Dog]選手、[NLINE]
+最後のダンスをお願いします！[END-FE]
+
+
+
+
+
+//POINTER #154 @ $B788 - STRING #154 @ $E11D
+#W32($B788)
+//それでは[Futon-Dog]選手、[NLINE]
+//二度目のダンスを披露してください！[END-FE]
+それでは[Futon-Dog]選手、[NLINE]
+二度目のダンスを披露してください！[END-FE]
+
+
+
+
+
+//POINTER #155 @ $B78C - STRING #155 @ $E156
+#W32($B78C)
+//ミュージックスタート[END-FE]
+ミュージックスタート[END-FE]
+
+
+
+
+
+//POINTER #156 @ $B790 - STRING #156 @ $E16D
+#W32($B790)
+//全部ＯＦＦした？[END-FE]
+全部ＯＦＦした？[END-FE]
+
+
+
+
+
+//POINTER #157 @ $B794 - STRING #157 @ $E180
+#W32($B794)
+//[CHARCC03][V1E00]
+//す、素晴らしい！[NLINE]
+//ふとん犬にここまでのダンスを[NLINE]
+//踊る事が出来ようとは！[NLINE]
+//ニシキ選手、私たちの度肝を抜いてくれます！[END-FE]
+[CHARCC03][V1E00]
+す、素晴らしい！[NLINE]
+ふとん犬にここまでのダンスを[NLINE]
+踊る事が出来ようとは！[NLINE]
+ニシキ選手、私たちの度肝を抜いてくれます！[END-FE]
+
+
+
+
+
+//POINTER #158 @ $B798 - STRING #158 @ $E1FD
+#W32($B798)
+//[CHARCC03][V1F00]
+//す、素晴らしい！[NLINE]
+//ふとん犬にここまでのダンスを[NLINE]
+//踊る事が出来ようとは！[NLINE]
+//テツ選手、私たちの度肝を抜いてくれます！[END-FE]
+[CHARCC03][V1F00]
+す、素晴らしい！[NLINE]
+ふとん犬にここまでのダンスを[NLINE]
+踊る事が出来ようとは！[NLINE]
+テツ選手、私たちの度肝を抜いてくれます！[END-FE]
+
+
+
+
+
+//POINTER #159 @ $B79C - STRING #159 @ $E278
+#W32($B79C)
+//[CHARCC03][V2000]
+//す、素晴らしい！[NLINE]
+//ふとん犬にここまでのダンスを[NLINE]
+//踊る事が出来ようとは！[NLINE]
+//タマ選手、私たちの度肝を抜いてくれます！[END-FE]
+[CHARCC03][V2000]
+す、素晴らしい！[NLINE]
+ふとん犬にここまでのダンスを[NLINE]
+踊る事が出来ようとは！[NLINE]
+タマ選手、私たちの度肝を抜いてくれます！[END-FE]
+
+
+
+
+
+//POINTER #160 @ $B7A0 - STRING #160 @ $E2F3
+#W32($B7A0)
+//[CHARCC03][V2100]
+//す、素晴らしい！[NLINE]
+//ふとん犬にここまでのダンスを[NLINE]
+//踊る事が出来ようとは！[NLINE]
+//モモ選手、私たちの度肝を抜いてくれます！[END-FE]
+[CHARCC03][V2100]
+す、素晴らしい！[NLINE]
+ふとん犬にここまでのダンスを[NLINE]
+踊る事が出来ようとは！[NLINE]
+モモ選手、私たちの度肝を抜いてくれます！[END-FE]
+
+
+
+
+
+//POINTER #161 @ $B7A4 - STRING #161 @ $E36E
+#W32($B7A4)
+//[CHARCC03][V1900]
+//ニシキ選手、中々のダンスでした！[END-FE]
+[CHARCC03][V1900]
+ニシキ選手、中々のダンスでした！[END-FE]
+
+
+
+
+
+//POINTER #162 @ $B7A8 - STRING #162 @ $E399
+#W32($B7A8)
+//[CHARCC03][V1A00]
+//テツ選手、中々のダンスでした！[END-FE]
+[CHARCC03][V1A00]
+テツ選手、中々のダンスでした！[END-FE]
+
+
+
+
+
+//POINTER #163 @ $B7AC - STRING #163 @ $E3C2
+#W32($B7AC)
+//[CHARCC03][V1B00]
+//タマ選手、中々のダンスでした！[END-FE]
+[CHARCC03][V1B00]
+タマ選手、中々のダンスでした！[END-FE]
+
+
+
+
+
+//POINTER #164 @ $B7B0 - STRING #164 @ $E3EB
+#W32($B7B0)
+//[CHARCC03][V1C00]
+//モモ選手、中々のダンスでした！[END-FE]
+[CHARCC03][V1C00]
+モモ選手、中々のダンスでした！[END-FE]
+
+
+
+
+
+//POINTER #165 @ $B7B4 - STRING #165 @ $E414
+#W32($B7B4)
+//[CHARCC03][V1500]
+//あ～っと、ニシキ選手のダンスは[NLINE]
+//審査員には不評のようだ！[END-FE]
+[CHARCC03][V1500]
+あ～っと、ニシキ選手のダンスは[NLINE]
+審査員には不評のようだ！[END-FE]
+
+
+
+
+
+//POINTER #166 @ $B7B8 - STRING #166 @ $E457
+#W32($B7B8)
+//[CHARCC03][V1600]
+//あ～っと、テツ選手のダンスは[NLINE]
+//審査員には不評のようだ！[END-FE]
+[CHARCC03][V1600]
+あ～っと、テツ選手のダンスは[NLINE]
+審査員には不評のようだ！[END-FE]
+
+
+
+
+
+//POINTER #167 @ $B7BC - STRING #167 @ $E498
+#W32($B7BC)
+//[CHARCC03][V1700]
+//あ～っと、タマ選手のダンスは[NLINE]
+//審査員には不評のようだ！[END-FE]
+[CHARCC03][V1700]
+あ～っと、タマ選手のダンスは[NLINE]
+審査員には不評のようだ！[END-FE]
+
+
+
+
+
+//POINTER #168 @ $B7C0 - STRING #168 @ $E4D9
+#W32($B7C0)
+//[CHARCC03][V1800]
+//あ～っと、モモ選手のダンスは[NLINE]
+//審査員には不評のようだ！[END-FE]
+[CHARCC03][V1800]
+あ～っと、モモ選手のダンスは[NLINE]
+審査員には不評のようだ！[END-FE]
+
+
+
+
+
+//POINTER #169 @ $B7C4 - STRING #169 @ $E51A
+#W32($B7C4)
+//[CHARCC03][V2200]
+//全ふとん犬の演技が終わったようです。[NLINE]
+//では、審査結果の発表です！[END-FE]
+[CHARCC03][V2200]
+全ふとん犬の演技が終わったようです。[NLINE]
+では、審査結果の発表です！[END-FE]
+
+
+
+
+
+//POINTER #170 @ $B7C8 - STRING #170 @ $E565
+#W32($B7C8)
+//[CHARCC03][V2500]
+//み、見事なダンスでした！[NLINE]
+//ニシキ選手、[NLINE]
+//チャンピオンを破り王座に着きました！[END-FE]
+[CHARCC03][V2500]
+み、見事なダンスでした！[NLINE]
+ニシキ選手、[NLINE]
+チャンピオンを破り王座に着きました！[END-FE]
+
+
+
+
+
+//POINTER #171 @ $B7CC - STRING #171 @ $E5BC
+#W32($B7CC)
+//[CHARCC03][V2600]
+//み、見事なダンスでした！[NLINE]
+//テツ選手、[NLINE]
+//チャンピオンを破り王座に着きました！[END-FE]
+[CHARCC03][V2600]
+み、見事なダンスでした！[NLINE]
+テツ選手、[NLINE]
+チャンピオンを破り王座に着きました！[END-FE]
+
+
+
+
+
+//POINTER #172 @ $B7D0 - STRING #172 @ $E611
+#W32($B7D0)
+//[CHARCC03][V2700]
+//み、見事なダンスでした！[NLINE]
+//タマ選手、[NLINE]
+//チャンピオンを破り王座に着きました！[END-FE]
+[CHARCC03][V2700]
+み、見事なダンスでした！[NLINE]
+タマ選手、[NLINE]
+チャンピオンを破り王座に着きました！[END-FE]
+
+
+
+
+
+//POINTER #173 @ $B7D4 - STRING #173 @ $E666
+#W32($B7D4)
+//[CHARCC03][V2800]
+//み、見事なダンスでした！[NLINE]
+//モモ選手、[NLINE]
+//チャンピオンを破り王座に着きました！[END-FE]
+[CHARCC03][V2800]
+み、見事なダンスでした！[NLINE]
+モモ選手、[NLINE]
+チャンピオンを破り王座に着きました！[END-FE]
+
+
+
+
+
+//POINTER #174 @ $B7D8 - STRING #174 @ $E6BB
+#W32($B7D8)
+//[CHARCC03][V3100]
+//愛らしく、そして素晴らしいダンスでした。[NWIN]
+//
+//[CHARCC03][V3200]
+//ブリーダーの皆様、ダンスコンテストに限らず、[NLINE]
+//ふとん犬の可能性をもっと引き出して[NLINE]
+//あげてください！[NWIN]
+//
+//[CHARCC03][V3300]
+//これにてダンスコンテストを終了いたします。[END-FE]
+[CHARCC03][V3100]
+愛らしく、そして素晴らしいダンスでした。[NWIN]
+
+[CHARCC03][V3200]
+ブリーダーの皆様、ダンスコンテストに限らず、[NLINE]
+ふとん犬の可能性をもっと引き出して[NLINE]
+あげてください！[NWIN]
+
+[CHARCC03][V3300]
+これにてダンスコンテストを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #175 @ $B7DC - STRING #175 @ $E78E
+#W32($B7DC)
+//[CHARCC03][V2300]
+//チャンピオン強し！[NLINE]
+//再び王座へと着きました！[END-FE]
+[CHARCC03][V2300]
+チャンピオン強し！[NLINE]
+再び王座へと着きました！[END-FE]
+
+
+
+
+
+//POINTER #176 @ $B7E0 - STRING #176 @ $E7C5
+#W32($B7E0)
+//[CHARCC03][V2400]
+//み、見事なダンスでした！[NLINE]
+//チェック選手、[NLINE]
+//チャンピオンを破り王座に着きました！[END-FE]
+[CHARCC03][V2400]
+み、見事なダンスでした！[NLINE]
+チェック選手、[NLINE]
+チャンピオンを破り王座に着きました！[END-FE]
+
+
+
+
+
+//POINTER #177 @ $B7E4 - STRING #177 @ $E81E
+#W32($B7E4)
+//モモ　[CC.EF08]点[END-FE]
+モモ　[CC.EF08]点[END-FE]
+
+
+
+
+
+//POINTER #178 @ $B7E8 - STRING #178 @ $E82C
+#W32($B7E8)
+//タマ　[CC.EF08]点[END-FE]
+タマ　[CC.EF08]点[END-FE]
+
+
+
+
+
+//POINTER #179 @ $B7EC - STRING #179 @ $E83A
+#W32($B7EC)
+//チェック　[CC.EF07]点[END-FE]
+チェック　[CC.EF07]点[END-FE]
+
+
+
+
+
+//POINTER #180 @ $B7F0 - STRING #180 @ $E84C
+#W32($B7F0)
+//[Futon-Dog]　[CC.EF0D]点[END-FE]
+[Futon-Dog]　[CC.EF0D]点[END-FE]
+
+
+
+
+
+//POINTER #181 @ $B7F4 - STRING #181 @ $E85A
+#W32($B7F4)
+//モモ　[CC.EF08]点[END-FE]
+モモ　[CC.EF08]点[END-FE]
+
+
+
+
+
+//POINTER #182 @ $B7F8 - STRING #182 @ $E868
+#W32($B7F8)
+//タマ　[CC.EF08]点[END-FE]
+タマ　[CC.EF08]点[END-FE]
+
+
+
+
+
+//POINTER #183 @ $B7FC - STRING #183 @ $E876
+#W32($B7FC)
+//[Futon-Dog]　[CC.EF0D]点[END-FE]
+[Futon-Dog]　[CC.EF0D]点[END-FE]
+
+
+
+
+
+//POINTER #184 @ $B800 - STRING #184 @ $E884
+#W32($B800)
+//チェック　[CC.EF07]点[END-FE]
+チェック　[CC.EF07]点[END-FE]
+
+
+
+
+
+//POINTER #185 @ $B804 - STRING #185 @ $E896
+#W32($B804)
+//[Futon-Dog]　[CC.EF0D]点[END-FE]
+[Futon-Dog]　[CC.EF0D]点[END-FE]
+
+
+
+
+
+//POINTER #186 @ $B808 - STRING #186 @ $E8A4
+#W32($B808)
+//モモ　[CC.EF08]点[END-FE]
+モモ　[CC.EF08]点[END-FE]
+
+
+
+
+
+//POINTER #187 @ $B80C - STRING #187 @ $E8B2
+#W32($B80C)
+//タマ　[CC.EF08]点[END-FE]
+タマ　[CC.EF08]点[END-FE]
+
+
+
+
+
+//POINTER #188 @ $B810 - STRING #188 @ $E8C0
+#W32($B810)
+//チェック　[CC.EF07]点[END-FE]
+チェック　[CC.EF07]点[END-FE]
+
+
+
+
+
+//POINTER #189 @ $B814 - STRING #189 @ $E8D2
+#W32($B814)
+//[CHARCC03][V2900]
+//ニシキ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCC03][V2900]
+ニシキ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #190 @ $B818 - STRING #190 @ $E901
+#W32($B818)
+//[CHARCC03][V2A00]
+//テツ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCC03][V2A00]
+テツ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #191 @ $B81C - STRING #191 @ $E92E
+#W32($B81C)
+//[CHARCC03][V2B00]
+//タマ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCC03][V2B00]
+タマ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #192 @ $B820 - STRING #192 @ $E95B
+#W32($B820)
+//[CHARCC03][V2C00]
+//モモ、凄いです！[NLINE]
+//頑張りましたね！[END-FE]
+[CHARCC03][V2C00]
+モモ、凄いです！[NLINE]
+頑張りましたね！[END-FE]
+
+
+
+
+
+//POINTER #193 @ $B824 - STRING #193 @ $E988
+#W32($B824)
+//[CHARCC03][V2D00]
+//ニシキ、また頑張りましょうね。[END-FE]
+[CHARCC03][V2D00]
+ニシキ、また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #194 @ $B828 - STRING #194 @ $E9B1
+#W32($B828)
+//[CHARCC03][V2E00]
+//テツ、また頑張りましょうね。[END-FE]
+[CHARCC03][V2E00]
+テツ、また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #195 @ $B82C - STRING #195 @ $E9D8
+#W32($B82C)
+//[CHARCC03][V2F00]
+//タマ、また頑張りましょうね。[END-FE]
+[CHARCC03][V2F00]
+タマ、また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #196 @ $B830 - STRING #196 @ $E9FF
+#W32($B830)
+//[CHARCC03][V3000]
+//モモ、また頑張りましょうね。[END-FE]
+[CHARCC03][V3000]
+モモ、また頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #197 @ $B834 - STRING #197 @ $EA26
+#W32($B834)
+//[CHARCE03][V0000]
+//ふとん犬はどこまで耐え、[NLINE]
+//ゲテモノたちをどう処理していくのか！[NLINE]
+//…ゲテモノ大食いコンテスト、ここに開催します！[END-FE]
+[CHARCE03][V0000]
+ふとん犬はどこまで耐え、[NLINE]
+ゲテモノたちをどう処理していくのか！[NLINE]
+…ゲテモノ大食いコンテスト、ここに開催します！[END-FE]
+
+
+
+
+
+//POINTER #198 @ $B838 - STRING #198 @ $EA9F
+#W32($B838)
+//[CHARCE03][V0100]
+//これ程、ふとん犬との関係を問われる[NLINE]
+//コンテストは無いかもしれません！[END-FE]
+[CHARCE03][V0100]
+これ程、ふとん犬との関係を問われる[NLINE]
+コンテストは無いかもしれません！[END-FE]
+
+
+
+
+
+//POINTER #199 @ $B83C - STRING #199 @ $EAEE
+#W32($B83C)
+//[CHARCE03][V0200]
+//ブリーダーの期待に応え、[NLINE]
+//多くのゲテモノを食べるのは、[NLINE]
+//どのふとん犬だ！[END-FE]
+[CHARCE03][V0200]
+ブリーダーの期待に応え、[NLINE]
+多くのゲテモノを食べるのは、[NLINE]
+どのふとん犬だ！[END-FE]
+
+
+
+
+
+//POINTER #200 @ $B840 - STRING #200 @ $EB41
+#W32($B840)
+//[CHARCE03][V0400]
+//大食いチャンプ、ニシキ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0400]
+大食いチャンプ、ニシキ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #201 @ $B844 - STRING #201 @ $EB8A
+#W32($B844)
+//[CHARCE03][V0500]
+//大食いチャンプ、テツ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0500]
+大食いチャンプ、テツ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #202 @ $B848 - STRING #202 @ $EBD1
+#W32($B848)
+//[CHARCE03][V0600]
+//大食いチャンプ、タマ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0600]
+大食いチャンプ、タマ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #203 @ $B84C - STRING #203 @ $EC18
+#W32($B84C)
+//[CHARCE03][V0700]
+//大食いチャンプ、モモ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0700]
+大食いチャンプ、モモ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #204 @ $B850 - STRING #204 @ $EC5F
+#W32($B850)
+//[CHARCE03][V0400]
+//大食いチャンプ、ニシキ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0400]
+大食いチャンプ、ニシキ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #205 @ $B854 - STRING #205 @ $ECA8
+#W32($B854)
+//[CHARCE03][V0500]
+//大食いチャンプ、テツ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0500]
+大食いチャンプ、テツ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #206 @ $B858 - STRING #206 @ $ECEF
+#W32($B858)
+//[CHARCE03][V0300]
+//大食いチャンプ、アオ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0300]
+大食いチャンプ、アオ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #207 @ $B85C - STRING #207 @ $ED36
+#W32($B85C)
+//[CHARCE03][V0600]
+//大食いチャンプ、タマ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0600]
+大食いチャンプ、タマ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #208 @ $B860 - STRING #208 @ $ED7D
+#W32($B860)
+//[CHARCE03][V0700]
+//大食いチャンプ、モモ選手を[NLINE]
+//超えるものは現れるのでしょうか！[END-FE]
+[CHARCE03][V0700]
+大食いチャンプ、モモ選手を[NLINE]
+超えるものは現れるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #209 @ $B864 - STRING #209 @ $EDC4
+#W32($B864)
+//[CHARCE03][V0800]
+//逃げだそうとするふとん犬[NLINE]
+//続出のこのコンテスト。[NLINE]
+//無事終える事ができるのでしょうか！[END-FE]
+[CHARCE03][V0800]
+逃げだそうとするふとん犬[NLINE]
+続出のこのコンテスト。[NLINE]
+無事終える事ができるのでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #210 @ $B868 - STRING #210 @ $EE23
+#W32($B868)
+//ルールの説明を受けますか？[END-FE]
+ルールの説明を受けますか？[END-FE]
+
+
+
+
+
+//POINTER #211 @ $B86C - STRING #211 @ $EE40
+#W32($B86C)
+//[CHARCE03][V0900]
+//それではゲテモノ大食いコンテスト、[NLINE]
+//レディーゴー！[END-FE]
+[CHARCE03][V0900]
+それではゲテモノ大食いコンテスト、[NLINE]
+レディーゴー！[END-FE]
+
+
+
+
+
+//POINTER #212 @ $B870 - STRING #212 @ $EE7D
+#W32($B870)
+//ゲテモノレベルＡです。[END-FE]
+ゲテモノレベルＡです。[END-FE]
+
+
+
+
+
+//POINTER #213 @ $B874 - STRING #213 @ $EE96
+#W32($B874)
+//ゲテモノレベルＢです。[END-FE]
+ゲテモノレベルＢです。[END-FE]
+
+
+
+
+
+//POINTER #214 @ $B878 - STRING #214 @ $EEAF
+#W32($B878)
+//ゲテモノレベルＣです。[END-FE]
+ゲテモノレベルＣです。[END-FE]
+
+
+
+
+
+//POINTER #215 @ $B87C - STRING #215 @ $EEC8
+#W32($B87C)
+//ゲテモノ大食いコンテスト　開始[END-FE]
+ゲテモノ大食いコンテスト　開始[END-FE]
+
+
+
+
+
+//POINTER #216 @ $B880 - STRING #216 @ $EEE9
+#W32($B880)
+//制限時間内に、多くのゲテモノを[NLINE]
+//ふとん犬に食べさせた者が勝者になります。[NWIN]
+//
+//ふとん犬はゲテモノの前に立つと、[NLINE]
+//一定の速度で食べていきます。[NWIN]
+//
+//ふとん犬の左右にプレイヤーが立つと[NLINE]
+//アイコンが現れます。[NWIN]
+//
+//この時に[COL03]○[COL00]を連打すると、[NLINE]
+//ふとん犬を応援する事ができます。[NLINE]
+//これに応えて、ふとん犬はゲテモノを[NLINE]
+//食べる速度を上げます。[NWIN]
+//
+//右上にあるゲージが満たされれば、[NLINE]
+//ゲテモノを一匹食べたことになります。[NLINE]
+//目安にしてください。[NWIN]
+//
+//暫くゲテモノと向かい合っていると、[NLINE]
+//ふとん犬は食べるのを嫌がり[NLINE]
+//逃げ出してしまいます。[NWIN]
+//
+//その時はふとん犬を迎えに[NLINE]
+//行ってあげてください。[NLINE]
+//逃げたふとん犬に近づき説得すると、[NLINE]
+//競技に復帰してくれます。[NWIN]
+//
+//どうにかしてふとん犬をゲテモノの前に置いて、[NLINE]
+//多くのゲテモノを食べさせてください。[END-FE]
+制限時間内に、多くのゲテモノを[NLINE]
+ふとん犬に食べさせた者が勝者になります。[NWIN]
+
+ふとん犬はゲテモノの前に立つと、[NLINE]
+一定の速度で食べていきます。[NWIN]
+
+ふとん犬の左右にプレイヤーが立つと[NLINE]
+アイコンが現れます。[NWIN]
+
+この時に[COL03]○[COL00]を連打すると、[NLINE]
+ふとん犬を応援する事ができます。[NLINE]
+これに応えて、ふとん犬はゲテモノを[NLINE]
+食べる速度を上げます。[NWIN]
+
+右上にあるゲージが満たされれば、[NLINE]
+ゲテモノを一匹食べたことになります。[NLINE]
+目安にしてください。[NWIN]
+
+暫くゲテモノと向かい合っていると、[NLINE]
+ふとん犬は食べるのを嫌がり[NLINE]
+逃げ出してしまいます。[NWIN]
+
+その時はふとん犬を迎えに[NLINE]
+行ってあげてください。[NLINE]
+逃げたふとん犬に近づき説得すると、[NLINE]
+競技に復帰してくれます。[NWIN]
+
+どうにかしてふとん犬をゲテモノの前に置いて、[NLINE]
+多くのゲテモノを食べさせてください。[END-FE]
+
+
+
+
+
+//POINTER #217 @ $B884 - STRING #217 @ $F1A6
+#W32($B884)
+//[Futon-Dog]の一口は[CC.EF00]。[NLINE]
+//忍耐度は[CC.EF01]。[END-FE]
+[Futon-Dog]の一口は[CC.EF00]。[NLINE]
+忍耐度は[CC.EF01]。[END-FE]
+
+
+
+
+
+//POINTER #218 @ $B888 - STRING #218 @ $F1C9
+#W32($B888)
+//逃げ出し１[END-FE]
+逃げ出し１[END-FE]
+
+
+
+
+
+//POINTER #219 @ $B88C - STRING #219 @ $F1D6
+#W32($B88C)
+//逃げ出し２[END-FE]
+逃げ出し２[END-FE]
+
+
+
+
+
+//POINTER #220 @ $B890 - STRING #220 @ $F1E3
+#W32($B890)
+//おおっと！[NLINE]
+//[Futon-Dog]選手、たまらず逃げ出した！[END-FE]
+おおっと！[NLINE]
+[Futon-Dog]選手、たまらず逃げ出した！[END-FE]
+
+
+
+
+
+//POINTER #221 @ $B894 - STRING #221 @ $F210
+#W32($B894)
+//逃げ出し３[END-FE]
+逃げ出し３[END-FE]
+
+
+
+
+
+//POINTER #222 @ $B898 - STRING #222 @ $F21D
+#W32($B898)
+//逃げ出し４[END-FE]
+逃げ出し４[END-FE]
+
+
+
+
+
+//POINTER #223 @ $B89C - STRING #223 @ $F22A
+#W32($B89C)
+//…[Futon-Dog]、ガンバって。[END-FE]
+…[Futon-Dog]、ガンバって。[END-FE]
+
+
+
+
+
+//POINTER #224 @ $B8A0 - STRING #224 @ $F241
+#W32($B8A0)
+//[CC.EF19]匹目[END-FE]
+[CC.EF19]匹目[END-FE]
+
+
+
+
+
+//POINTER #225 @ $B8A4 - STRING #225 @ $F24B
+#W32($B8A4)
+//[CC.EF19]匹目[END-FE]
+[CC.EF19]匹目[END-FE]
+
+
+
+
+
+//POINTER #226 @ $B8A8 - STRING #226 @ $F255
+#W32($B8A8)
+//[CC.EF19]匹目[END-FE]
+[CC.EF19]匹目[END-FE]
+
+
+
+
+
+//POINTER #227 @ $B8AC - STRING #227 @ $F25F
+#W32($B8AC)
+//[CC.EF19]匹目[END-FE]
+[CC.EF19]匹目[END-FE]
+
+
+
+
+
+//POINTER #228 @ $B8B0 - STRING #228 @ $F269
+#W32($B8B0)
+//おおっと！[NLINE]
+//アオ選手、たまらず逃げ出した！[END-FE]
+おおっと！[NLINE]
+アオ選手、たまらず逃げ出した！[END-FE]
+
+
+
+
+
+//POINTER #229 @ $B8B4 - STRING #229 @ $F296
+#W32($B8B4)
+//おおっと！[NLINE]
+//ニシキ選手、たまらず逃げ出した！[END-FE]
+おおっと！[NLINE]
+ニシキ選手、たまらず逃げ出した！[END-FE]
+
+
+
+
+
+//POINTER #230 @ $B8B8 - STRING #230 @ $F2C5
+#W32($B8B8)
+//おおっと！[NLINE]
+//テツ選手、たまらず逃げ出した！[END-FE]
+おおっと！[NLINE]
+テツ選手、たまらず逃げ出した！[END-FE]
+
+
+
+
+
+//POINTER #231 @ $B8BC - STRING #231 @ $F2F2
+#W32($B8BC)
+//おおっと！[NLINE]
+//タマ選手、たまらず逃げ出した！[END-FE]
+おおっと！[NLINE]
+タマ選手、たまらず逃げ出した！[END-FE]
+
+
+
+
+
+//POINTER #232 @ $B8C0 - STRING #232 @ $F31F
+#W32($B8C0)
+//おおっと！[NLINE]
+//モモ選手、たまらず逃げ出した！[END-FE]
+おおっと！[NLINE]
+モモ選手、たまらず逃げ出した！[END-FE]
+
+
+
+
+
+//POINTER #233 @ $B8C4 - STRING #233 @ $F34C
+#W32($B8C4)
+//[CHARCE03][V0A00]
+//そこまで！[END-FE]
+[CHARCE03][V0A00]
+そこまで！[END-FE]
+
+
+
+
+
+//POINTER #234 @ $B8C8 - STRING #234 @ $F361
+#W32($B8C8)
+//[CHARCE03][V0B00]
+//…それでは結果発表です。[END-FE]
+[CHARCE03][V0B00]
+…それでは結果発表です。[END-FE]
+
+
+
+
+
+//POINTER #235 @ $B8CC - STRING #235 @ $F384
+#W32($B8CC)
+//[CHARCE03][V0D00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、ニシキ選手だ！[END-FE]
+[CHARCE03][V0D00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、ニシキ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #236 @ $B8D0 - STRING #236 @ $F3CB
+#W32($B8D0)
+//[CHARCE03][V0E00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、テツ選手だ！[END-FE]
+[CHARCE03][V0E00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、テツ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #237 @ $B8D4 - STRING #237 @ $F410
+#W32($B8D4)
+//[CHARCE03][V0C00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、アオ選手だ！[END-FE]
+[CHARCE03][V0C00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、アオ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #238 @ $B8D8 - STRING #238 @ $F455
+#W32($B8D8)
+//[CHARCE03][V0F00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、タマ選手だ！[END-FE]
+[CHARCE03][V0F00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、タマ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #239 @ $B8DC - STRING #239 @ $F49A
+#W32($B8DC)
+//[CHARCE03][V1000]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、モモ選手だ！[END-FE]
+[CHARCE03][V1000]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、モモ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #240 @ $B8E0 - STRING #240 @ $F4DF
+#W32($B8E0)
+//[CHARCE03][V0D00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、ニシキ選手だ！[END-FE]
+[CHARCE03][V0D00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、ニシキ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #241 @ $B8E4 - STRING #241 @ $F526
+#W32($B8E4)
+//[CHARCE03][V0E00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、テツ選手だ！[END-FE]
+[CHARCE03][V0E00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、テツ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #242 @ $B8E8 - STRING #242 @ $F56B
+#W32($B8E8)
+//[CHARCE03][V0F00]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、タマ選手だ！[END-FE]
+[CHARCE03][V0F00]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、タマ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #243 @ $B8EC - STRING #243 @ $F5B0
+#W32($B8EC)
+//[CHARCE03][V1000]
+//ゲテモノに勇敢に立ち向かい、[NLINE]
+//優勝をしたのは、モモ選手だ！[END-FE]
+[CHARCE03][V1000]
+ゲテモノに勇敢に立ち向かい、[NLINE]
+優勝をしたのは、モモ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #244 @ $B8F0 - STRING #244 @ $F5F5
+#W32($B8F0)
+//[CHARCE03][V1500]
+//実に勇敢なふとん犬たちのコンテストでした。[NWIN]
+//
+//[CHARCE03][V1600]
+//ブリーダーの皆様、ゲテモノ大食いコンテストに[NLINE]
+//限らず、ふとん犬の可能性をもっと引き出して[NLINE]
+//あげてください！[NWIN]
+//
+//[CHARCE03][V1700]
+//これにてゲテモノ大食いコンテストを[NLINE]
+//終了いたします。[END-FE]
+[CHARCE03][V1500]
+実に勇敢なふとん犬たちのコンテストでした。[NWIN]
+
+[CHARCE03][V1600]
+ブリーダーの皆様、ゲテモノ大食いコンテストに[NLINE]
+限らず、ふとん犬の可能性をもっと引き出して[NLINE]
+あげてください！[NWIN]
+
+[CHARCE03][V1700]
+これにてゲテモノ大食いコンテストを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #245 @ $B8F4 - STRING #245 @ $F6DC
+#W32($B8F4)
+//犬Ａ、[CC.EF00]点[NLINE]
+//[Futon-Dog]、[CC.EF01]点[NLINE]
+//アオ、[CC.EF02]点[NLINE]
+//犬Ｂ、[CC.EF03]点[END-FE]
+犬Ａ、[CC.EF00]点[NLINE]
+[Futon-Dog]、[CC.EF01]点[NLINE]
+アオ、[CC.EF02]点[NLINE]
+犬Ｂ、[CC.EF03]点[END-FE]
+
+
+
+
+
+//POINTER #246 @ $B8F8 - STRING #246 @ $F711
+#W32($B8F8)
+//[COL01]３位　[COL00]ニシキ[END-FE]
+[COL01]３位　[COL00]ニシキ[END-FE]
+
+
+
+
+
+//POINTER #247 @ $B8FC - STRING #247 @ $F726
+#W32($B8FC)
+//[COL01]３位　[COL00]テツ[END-FE]
+[COL01]３位　[COL00]テツ[END-FE]
+
+
+
+
+
+//POINTER #248 @ $B900 - STRING #248 @ $F739
+#W32($B900)
+//[COL01]３位　[COL00][Futon-Dog][END-FE]
+[COL01]３位　[COL00][Futon-Dog][END-FE]
+
+
+
+
+
+//POINTER #249 @ $B904 - STRING #249 @ $F74C
+#W32($B904)
+//[COL01]３位　[COL00]アオ[END-FE]
+[COL01]３位　[COL00]アオ[END-FE]
+
+
+
+
+
+//POINTER #250 @ $B908 - STRING #250 @ $F75F
+#W32($B908)
+//[COL01]３位　[COL00]タマ[END-FE]
+[COL01]３位　[COL00]タマ[END-FE]
+
+
+
+
+
+//POINTER #251 @ $B90C - STRING #251 @ $F772
+#W32($B90C)
+//[COL01]３位　[COL00]モモ[END-FE]
+[COL01]３位　[COL00]モモ[END-FE]
+
+
+
+
+
+//POINTER #252 @ $B910 - STRING #252 @ $F785
+#W32($B910)
+//[COL01]２位　[COL00]ニシキ[END-FE]
+[COL01]２位　[COL00]ニシキ[END-FE]
+
+
+
+
+
+//POINTER #253 @ $B914 - STRING #253 @ $F79A
+#W32($B914)
+//[COL01]２位　[COL00]テツ[END-FE]
+[COL01]２位　[COL00]テツ[END-FE]
+
+
+
+
+
+//POINTER #254 @ $B918 - STRING #254 @ $F7AD
+#W32($B918)
+//[COL01]２位　[COL00][Futon-Dog][END-FE]
+[COL01]２位　[COL00][Futon-Dog][END-FE]
+
+
+
+
+
+//POINTER #255 @ $B91C - STRING #255 @ $F7C0
+#W32($B91C)
+//[COL01]２位　[COL00]アオ[END-FE]
+[COL01]２位　[COL00]アオ[END-FE]
+
+
+
+
+
+//POINTER #256 @ $B920 - STRING #256 @ $F7D3
+#W32($B920)
+//[COL01]２位　[COL00]タマ[END-FE]
+[COL01]２位　[COL00]タマ[END-FE]
+
+
+
+
+
+//POINTER #257 @ $B924 - STRING #257 @ $F7E6
+#W32($B924)
+//[COL01]２位　[COL00]モモ[END-FE]
+[COL01]２位　[COL00]モモ[END-FE]
+
+
+
+
+
+//POINTER #258 @ $B928 - STRING #258 @ $F7F9
+#W32($B928)
+//[COL01]１位　[COL00]ニシキ[END-FE]
+[COL01]１位　[COL00]ニシキ[END-FE]
+
+
+
+
+
+//POINTER #259 @ $B92C - STRING #259 @ $F80E
+#W32($B92C)
+//[COL01]１位　[COL00]テツ[END-FE]
+[COL01]１位　[COL00]テツ[END-FE]
+
+
+
+
+
+//POINTER #260 @ $B930 - STRING #260 @ $F821
+#W32($B930)
+//[COL01]１位　[COL00][Futon-Dog][END-FE]
+[COL01]１位　[COL00][Futon-Dog][END-FE]
+
+
+
+
+
+//POINTER #261 @ $B934 - STRING #261 @ $F834
+#W32($B934)
+//[COL01]１位　[COL00]アオ[END-FE]
+[COL01]１位　[COL00]アオ[END-FE]
+
+
+
+
+
+//POINTER #262 @ $B938 - STRING #262 @ $F847
+#W32($B938)
+//[COL01]１位　[COL00]タマ[END-FE]
+[COL01]１位　[COL00]タマ[END-FE]
+
+
+
+
+
+//POINTER #263 @ $B93C - STRING #263 @ $F85A
+#W32($B93C)
+//[COL01]１位　[COL00]モモ[END-FE]
+[COL01]１位　[COL00]モモ[END-FE]
+
+
+
+
+
+//POINTER #264 @ $B940 - STRING #264 @ $F86D
+#W32($B940)
+//[CHARCE03][V1100]
+//ニシキ、凄いです！[END-FE]
+[CHARCE03][V1100]
+ニシキ、凄いです！[END-FE]
+
+
+
+
+
+//POINTER #265 @ $B944 - STRING #265 @ $F88A
+#W32($B944)
+//[CHARCE03][V1200]
+//テツ、凄いです！[END-FE]
+[CHARCE03][V1200]
+テツ、凄いです！[END-FE]
+
+
+
+
+
+//POINTER #266 @ $B948 - STRING #266 @ $F8A5
+#W32($B948)
+//[CHARCE03][V1300]
+//タマ、凄いです！[END-FE]
+[CHARCE03][V1300]
+タマ、凄いです！[END-FE]
+
+
+
+
+
+//POINTER #267 @ $B94C - STRING #267 @ $F8C0
+#W32($B94C)
+//[CHARCE03][V1400]
+//モモ、凄いです！[END-FE]
+[CHARCE03][V1400]
+モモ、凄いです！[END-FE]
+
+
+
+
+
+//POINTER #268 @ $B950 - STRING #268 @ $F8DB
+#W32($B950)
+//ここを[Futon-Dog]に掘り返させるのですか？[END-FE]
+ここを[Futon-Dog]に掘り返させるのですか？[END-FE]
+
+
+
+
+
+//POINTER #269 @ $B954 - STRING #269 @ $F900
+#W32($B954)
+//[Futon-Dog]にこの辺りの匂いを[NLINE]
+//嗅いでもらいますか？[END-FE]
+[Futon-Dog]にこの辺りの匂いを[NLINE]
+嗅いでもらいますか？[END-FE]
+
+
+
+
+
+//POINTER #270 @ $B958 - STRING #270 @ $F92F
+#W32($B958)
+//サーチ回数　残り[CC.EF01]回[END-FE]
+サーチ回数　残り[CC.EF01]回[END-FE]
+
+
+
+
+
+//POINTER #271 @ $B95C - STRING #271 @ $F947
+#W32($B95C)
+//　[NLINE]
+//玉を掘り出した！[END-FE]
+　[NLINE]
+玉を掘り出した！[END-FE]
+
+
+
+
+
+//POINTER #272 @ $B960 - STRING #272 @ $F95E
+#W32($B960)
+//な、なんと！[NLINE]
+//[Futon-Dog]選手、全ての玉を[NLINE]
+//見つけ出してしまった！[NLINE]
+//これはスゴい記録だ！[END-FE]
+な、なんと！[NLINE]
+[Futon-Dog]選手、全ての玉を[NLINE]
+見つけ出してしまった！[NLINE]
+これはスゴい記録だ！[END-FE]
+
+
+
+
+
+//POINTER #273 @ $B964 - STRING #273 @ $F9B1
+#W32($B964)
+//　[NLINE]
+//何も掘り出せなかった。[END-FE]
+　[NLINE]
+何も掘り出せなかった。[END-FE]
+
+
+
+
+
+//POINTER #274 @ $B968 - STRING #274 @ $F9CE
+#W32($B968)
+//タイムアップ[END-FE]
+タイムアップ[END-FE]
+
+
+
+
+
+//POINTER #275 @ $B96C - STRING #275 @ $F9DD
+#W32($B96C)
+//[CHARCE03][V0A00]
+//そこまで！[END-FE]
+[CHARCE03][V0A00]
+そこまで！[END-FE]
+
+
+
+
+
+//POINTER #276 @ $B970 - STRING #276 @ $F9F2
+#W32($B970)
+//[CHARCE03][V0B00]
+//…それでは結果発表です。[END-FE]
+[CHARCE03][V0B00]
+…それでは結果発表です。[END-FE]
+
+
+
+
+
+//POINTER #277 @ $B974 - STRING #277 @ $FA15
+#W32($B974)
+//[CHARCD03][V2700]
+//ブリーダーの皆様、玉探しコンテストに限らず、[NLINE]
+//ふとん犬の可能性をもっと引き出して[NLINE]
+//あげてください！[NWIN]
+//
+//[CHARCD03][V2800]
+//これにて玉探しコンテストを終了いたします。[END-FE]
+[CHARCD03][V2700]
+ブリーダーの皆様、玉探しコンテストに限らず、[NLINE]
+ふとん犬の可能性をもっと引き出して[NLINE]
+あげてください！[NWIN]
+
+[CHARCD03][V2800]
+これにて玉探しコンテストを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #278 @ $B978 - STRING #278 @ $FAB6
+#W32($B978)
+//テツ　記録[CC.EF18]個[END-FE]
+テツ　記録[CC.EF18]個[END-FE]
+
+
+
+
+
+//POINTER #279 @ $B97C - STRING #279 @ $FAC8
+#W32($B97C)
+//ニシキ　記録[CC.EF18]個[END-FE]
+ニシキ　記録[CC.EF18]個[END-FE]
+
+
+
+
+
+//POINTER #280 @ $B980 - STRING #280 @ $FADC
+#W32($B980)
+//モモ　記録[CC.EF19]個[END-FE]
+モモ　記録[CC.EF19]個[END-FE]
+
+
+
+
+
+//POINTER #281 @ $B984 - STRING #281 @ $FAEE
+#W32($B984)
+//タマ　記録[CC.EF19]個[END-FE]
+タマ　記録[CC.EF19]個[END-FE]
+
+
+
+
+
+//POINTER #282 @ $B988 - STRING #282 @ $FB00
+#W32($B988)
+//[Futon-Dog]　記録[CC.EF17]個[END-FE]
+[Futon-Dog]　記録[CC.EF17]個[END-FE]
+
+
+
+
+
+//POINTER #283 @ $B98C - STRING #283 @ $FB12
+#W32($B98C)
+//[CHARCD03][V2900]
+//優勝したのは、ニシキ選手だ！[END-FE]
+[CHARCD03][V2900]
+優勝したのは、ニシキ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #284 @ $B990 - STRING #284 @ $FB39
+#W32($B990)
+//[CHARCD03][V2A00]
+//優勝したのは、テツ選手だ！[END-FE]
+[CHARCD03][V2A00]
+優勝したのは、テツ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #285 @ $B994 - STRING #285 @ $FB5E
+#W32($B994)
+//[CHARCD03][V2B00]
+//優勝したのは、タマ選手だ！[END-FE]
+[CHARCD03][V2B00]
+優勝したのは、タマ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #286 @ $B998 - STRING #286 @ $FB83
+#W32($B998)
+//[CHARCD03][V2C00]
+//優勝したのは、モモ選手だ！[END-FE]
+[CHARCD03][V2C00]
+優勝したのは、モモ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #287 @ $B99C - STRING #287 @ $FBA8
+#W32($B99C)
+//テツ　記録[CC.EF18]個[END-FE]
+テツ　記録[CC.EF18]個[END-FE]
+
+
+
+
+
+//POINTER #288 @ $B9A0 - STRING #288 @ $FBBA
+#W32($B9A0)
+//ニシキ　記録[CC.EF18]個[END-FE]
+ニシキ　記録[CC.EF18]個[END-FE]
+
+
+
+
+
+//POINTER #289 @ $B9A4 - STRING #289 @ $FBCE
+#W32($B9A4)
+//[Futon-Dog]　記録[CC.EF17]個[END-FE]
+[Futon-Dog]　記録[CC.EF17]個[END-FE]
+
+
+
+
+
+//POINTER #290 @ $B9A8 - STRING #290 @ $FBE0
+#W32($B9A8)
+//モモ　記録[CC.EF19]個[END-FE]
+モモ　記録[CC.EF19]個[END-FE]
+
+
+
+
+
+//POINTER #291 @ $B9AC - STRING #291 @ $FBF2
+#W32($B9AC)
+//タマ　記録[CC.EF19]個[END-FE]
+タマ　記録[CC.EF19]個[END-FE]
+
+
+
+
+
+//POINTER #292 @ $B9B0 - STRING #292 @ $FC04
+#W32($B9B0)
+//[CHARCD03][V2C00]
+//優勝したのは、モモ選手だ！[END-FE]
+[CHARCD03][V2C00]
+優勝したのは、モモ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #293 @ $B9B4 - STRING #293 @ $FC29
+#W32($B9B4)
+//[CHARCD03][V2B00]
+//優勝したのは、タマ選手だ！[END-FE]
+[CHARCD03][V2B00]
+優勝したのは、タマ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #294 @ $B9B8 - STRING #294 @ $FC4E
+#W32($B9B8)
+//[Futon-Dog]　記録[CC.EF17]個[END-FE]
+[Futon-Dog]　記録[CC.EF17]個[END-FE]
+
+
+
+
+
+//POINTER #295 @ $B9BC - STRING #295 @ $FC60
+#W32($B9BC)
+//テツ　記録[CC.EF18]個[END-FE]
+テツ　記録[CC.EF18]個[END-FE]
+
+
+
+
+
+//POINTER #296 @ $B9C0 - STRING #296 @ $FC72
+#W32($B9C0)
+//ニシキ　記録[CC.EF18]個[END-FE]
+ニシキ　記録[CC.EF18]個[END-FE]
+
+
+
+
+
+//POINTER #297 @ $B9C4 - STRING #297 @ $FC86
+#W32($B9C4)
+//モモ　記録[CC.EF19]個[END-FE]
+モモ　記録[CC.EF19]個[END-FE]
+
+
+
+
+
+//POINTER #298 @ $B9C8 - STRING #298 @ $FC98
+#W32($B9C8)
+//タマ　記録[CC.EF19]個[END-FE]
+タマ　記録[CC.EF19]個[END-FE]
+
+
+
+
+
+//POINTER #299 @ $B9CC - STRING #299 @ $FCAA
+#W32($B9CC)
+//[CHARCD03][V2C00]
+//優勝したのは、モモ選手だ！[END-FE]
+[CHARCD03][V2C00]
+優勝したのは、モモ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #300 @ $B9D0 - STRING #300 @ $FCCF
+#W32($B9D0)
+//[CHARCD03][V2B00]
+//優勝したのは、タマ選手だ！[END-FE]
+[CHARCD03][V2B00]
+優勝したのは、タマ選手だ！[END-FE]
+
+
+
+
+
+//POINTER #301 @ $B9D4 - STRING #301 @ $FCF4
+#W32($B9D4)
+//[CHARCD03][V0200]
+//ニシキ、頑張りましょうね！[END-FE]
+[CHARCD03][V0200]
+ニシキ、頑張りましょうね！[END-FE]
+
+
+
+
+
+//POINTER #302 @ $B9D8 - STRING #302 @ $FD19
+#W32($B9D8)
+//[CHARCD03][V0300]
+//テツ、頑張りましょうね！[END-FE]
+[CHARCD03][V0300]
+テツ、頑張りましょうね！[END-FE]
+
+
+
+
+
+//POINTER #303 @ $B9DC - STRING #303 @ $FD3C
+#W32($B9DC)
+//[CHARCD03][V0400]
+//タマ、頑張りましょうね！[END-FE]
+[CHARCD03][V0400]
+タマ、頑張りましょうね！[END-FE]
+
+
+
+
+
+//POINTER #304 @ $B9E0 - STRING #304 @ $FD5F
+#W32($B9E0)
+//[CHARCD03][V0500]
+//モモ、頑張りましょうね！[END-FE]
+[CHARCD03][V0500]
+モモ、頑張りましょうね！[END-FE]
+
+
+
+
+
+//POINTER #305 @ $B9E4 - STRING #305 @ $FD82
+#W32($B9E4)
+//[CHARCD03][V1F00]
+//ニシキ、やりましたね！[END-FE]
+[CHARCD03][V1F00]
+ニシキ、やりましたね！[END-FE]
+
+
+
+
+
+//POINTER #306 @ $B9E8 - STRING #306 @ $FDA3
+#W32($B9E8)
+//[CHARCD03][V2000]
+//テツ、やりましたね！[END-FE]
+[CHARCD03][V2000]
+テツ、やりましたね！[END-FE]
+
+
+
+
+
+//POINTER #307 @ $B9EC - STRING #307 @ $FDC2
+#W32($B9EC)
+//[CHARCD03][V2100]
+//タマ、やりましたね！[END-FE]
+[CHARCD03][V2100]
+タマ、やりましたね！[END-FE]
+
+
+
+
+
+//POINTER #308 @ $B9F0 - STRING #308 @ $FDE1
+#W32($B9F0)
+//[CHARCD03][V2200]
+//モモ、やりましたね！[END-FE]
+[CHARCD03][V2200]
+モモ、やりましたね！[END-FE]
+
+
+
+
+
+//POINTER #309 @ $B9F4 - STRING #309 @ $FE00
+#W32($B9F4)
+//[CHARCD03][V2300]
+//ニシキ、[NLINE]
+//次は頑張りましょうね。[END-FE]
+[CHARCD03][V2300]
+ニシキ、[NLINE]
+次は頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #310 @ $B9F8 - STRING #310 @ $FE2B
+#W32($B9F8)
+//[CHARCD03][V2400]
+//テツ、[NLINE]
+//次は頑張りましょうね。[END-FE]
+[CHARCD03][V2400]
+テツ、[NLINE]
+次は頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #311 @ $B9FC - STRING #311 @ $FE54
+#W32($B9FC)
+//[CHARCD03][V2500]
+//タマ、[NLINE]
+//次は頑張りましょうね。[END-FE]
+[CHARCD03][V2500]
+タマ、[NLINE]
+次は頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #312 @ $BA00 - STRING #312 @ $FE7D
+#W32($BA00)
+//[CHARCD03][V2600]
+//モモ、[NLINE]
+//次は頑張りましょうね。[END-FE]
+[CHARCD03][V2600]
+モモ、[NLINE]
+次は頑張りましょうね。[END-FE]
+
+
+
+
+
+//POINTER #313 @ $BA04 - STRING #313 @ $FEA6
+#W32($BA04)
+//タカラレベルＡ[END-FE]
+タカラレベルＡ[END-FE]
+
+
+
+
+
+//POINTER #314 @ $BA08 - STRING #314 @ $FEB7
+#W32($BA08)
+//タカラレベルＢ[END-FE]
+タカラレベルＢ[END-FE]
+
+
+
+
+
+//POINTER #315 @ $BA0C - STRING #315 @ $FEC8
+#W32($BA0C)
+//[CHARCD03][V0000]
+//犬の嗅覚は人の１００万倍～１億倍と[NLINE]
+//言われています。[NLINE]
+//…ならば、ふとん犬はどれ程のものか。[NLINE]
+//これより玉探しコンテストを開催します！[END-FE]
+[CHARCD03][V0000]
+犬の嗅覚は人の１００万倍～１億倍と[NLINE]
+言われています。[NLINE]
+…ならば、ふとん犬はどれ程のものか。[NLINE]
+これより玉探しコンテストを開催します！[END-FE]
+
+
+
+
+
+//POINTER #316 @ $BA10 - STRING #316 @ $FF55
+#W32($BA10)
+//会場に埋められた１０個の玉の内、[NLINE]
+//選手たちは何個見つけ出す事が[NLINE]
+//出来るのでしょうか？[END-FE]
+会場に埋められた１０個の玉の内、[NLINE]
+選手たちは何個見つけ出す事が[NLINE]
+出来るのでしょうか？[END-FE]
+
+
+
+
+
+//POINTER #317 @ $BA14 - STRING #317 @ $FFAC
+#W32($BA14)
+//[CHARCD03][V0700]
+//テツ選手の挑戦です！[END-FE]
+[CHARCD03][V0700]
+テツ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #318 @ $BA18 - STRING #318 @ $FFCB
+#W32($BA18)
+//[CHARCD03][V0600]
+//ニシキ選手の挑戦です！[END-FE]
+[CHARCD03][V0600]
+ニシキ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #319 @ $BA1C - STRING #319 @ $FFEC
+#W32($BA1C)
+//[CHARCD03][V0E00]
+//それでは、レディーゴー！[END-FE]
+[CHARCD03][V0E00]
+それでは、レディーゴー！[END-FE]
+
+
+
+
+
+//POINTER #320 @ $BA20 - STRING #320 @ $1000F
+#W32($BA20)
+//[CHARCD03][V0D00]
+//玉探し名人、モモ選手の挑戦です！[END-FE]
+[CHARCD03][V0D00]
+玉探し名人、モモ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #321 @ $BA24 - STRING #321 @ $1003A
+#W32($BA24)
+//[CHARCD03][V0C00]
+//玉探し名人、タマ選手の挑戦です！[END-FE]
+[CHARCD03][V0C00]
+玉探し名人、タマ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #322 @ $BA28 - STRING #322 @ $10065
+#W32($BA28)
+//[CHARCD03][V0900]
+//モモ選手の挑戦です！[END-FE]
+[CHARCD03][V0900]
+モモ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #323 @ $BA2C - STRING #323 @ $10084
+#W32($BA2C)
+//[CHARCD03][V0800]
+//タマ選手の挑戦です！[END-FE]
+[CHARCD03][V0800]
+タマ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #324 @ $BA30 - STRING #324 @ $100A3
+#W32($BA30)
+//[CHARCD03][V0E00]
+//それでは、レディーゴー！[END-FE]
+[CHARCD03][V0E00]
+それでは、レディーゴー！[END-FE]
+
+
+
+
+
+//POINTER #325 @ $BA34 - STRING #325 @ $100C6
+#W32($BA34)
+//[CHARCD03][V0600]
+//ニシキ選手の挑戦です！[END-FE]
+[CHARCD03][V0600]
+ニシキ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #326 @ $BA38 - STRING #326 @ $100E7
+#W32($BA38)
+//[CHARCD03][V0700]
+//テツ選手の挑戦です！[END-FE]
+[CHARCD03][V0700]
+テツ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #327 @ $BA3C - STRING #327 @ $10106
+#W32($BA3C)
+//[CHARCD03][V0800]
+//タマ選手の挑戦です！[END-FE]
+[CHARCD03][V0800]
+タマ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #328 @ $BA40 - STRING #328 @ $10125
+#W32($BA40)
+//[CHARCD03][V0900]
+//モモ選手の挑戦です！[END-FE]
+[CHARCD03][V0900]
+モモ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #329 @ $BA44 - STRING #329 @ $10144
+#W32($BA44)
+//[CHARCD03][V0A00]
+//玉探し名人、[NLINE]
+//ニシキ選手の挑戦です！[END-FE]
+[CHARCD03][V0A00]
+玉探し名人、[NLINE]
+ニシキ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #330 @ $BA48 - STRING #330 @ $10173
+#W32($BA48)
+//[CHARCD03][V0B00]
+//玉探し名人、[NLINE]
+//テツ選手の挑戦です！[END-FE]
+[CHARCD03][V0B00]
+玉探し名人、[NLINE]
+テツ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #331 @ $BA4C - STRING #331 @ $101A0
+#W32($BA4C)
+//[CHARCD03][V0C00]
+//玉探し名人、[NLINE]
+//タマ選手の挑戦です！[END-FE]
+[CHARCD03][V0C00]
+玉探し名人、[NLINE]
+タマ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #332 @ $BA50 - STRING #332 @ $101CD
+#W32($BA50)
+//[CHARCD03][V0D00]
+//玉探し名人、[NLINE]
+//モモ選手の挑戦です！[END-FE]
+[CHARCD03][V0D00]
+玉探し名人、[NLINE]
+モモ選手の挑戦です！[END-FE]
+
+
+
+
+
+//POINTER #333 @ $BA54 - STRING #333 @ $101FA
+#W32($BA54)
+//ルールの説明を受けますか？[END-FE]
+ルールの説明を受けますか？[END-FE]
+
+
+
+
+
+//POINTER #334 @ $BA58 - STRING #334 @ $10217
+#W32($BA58)
+//制限時間内に、会場に埋められた[NLINE]
+//１０個の玉をより多く見つけ出した者が[NLINE]
+//勝者となります。[NWIN]
+//
+//[COL03]○[COL00]を押すと、[NLINE]
+//ふとん犬に足元を掘らせる事が出来ます。[NWIN]
+//
+//掘っている間にも競技時間は経過していますので、[NLINE]
+//ある程度埋められた場所を予測して掘った方が[NLINE]
+//効率良く玉を回収できます。[NWIN]
+//
+//[COL09]×[COL00]を押す事で、[NLINE]
+//ふとん犬がサーチしてくれます。[NWIN]
+//
+//玉の埋まっている方向を、ふとん犬の向きで、[NLINE]
+//距離を、吠えたり、アイコンで教えてくれます。[END-FE]
+制限時間内に、会場に埋められた[NLINE]
+１０個の玉をより多く見つけ出した者が[NLINE]
+勝者となります。[NWIN]
+
+[COL03]○[COL00]を押すと、[NLINE]
+ふとん犬に足元を掘らせる事が出来ます。[NWIN]
+
+掘っている間にも競技時間は経過していますので、[NLINE]
+ある程度埋められた場所を予測して掘った方が[NLINE]
+効率良く玉を回収できます。[NWIN]
+
+[COL09]×[COL00]を押す事で、[NLINE]
+ふとん犬がサーチしてくれます。[NWIN]
+
+玉の埋まっている方向を、ふとん犬の向きで、[NLINE]
+距離を、吠えたり、アイコンで教えてくれます。[END-FE]
+
+
+
+
+
+//POINTER #335 @ $BA5C - STRING #335 @ $103B4
+#W32($BA5C)
+//１回吠え　　　　　　　遠距離[NLINE]
+//２回吠え　　　　　　　中遠距離[NLINE]
+//[COL03]!![COL00]＋１回吠え　　　　　中距離[NLINE]
+//[COL03]!![COL00]＋２回吠え　　　　　中近距離[NLINE]
+//[COL03]!![COL00]＋３回吠え　　　　　近距離[NLINE]
+//[COL09][MUSIC-NOTE][COL00]＋３回吠え　　　　　足元[END-FE]
+１回吠え　　　　　　　遠距離[NLINE]
+２回吠え　　　　　　　中遠距離[NLINE]
+[COL03]!![COL00]＋１回吠え　　　　　中距離[NLINE]
+[COL03]!![COL00]＋２回吠え　　　　　中近距離[NLINE]
+[COL03]!![COL00]＋３回吠え　　　　　近距離[NLINE]
+[COL09][MUSIC-NOTE][COL00]＋３回吠え　　　　　足元[END-FE]
+
+
+
+
+
+//POINTER #336 @ $BA60 - STRING #336 @ $10483
+#W32($BA60)
+//それ以上遠くであったり、能力が足りないと、[NLINE]
+//ふとん犬はサーチする事が出来ません。[NLINE]
+//サーチ回数は能力に従って増加していきます。[NWIN]
+//
+//サーチを駆使して、[NLINE]
+//会場から多くの玉を探し出してください。[END-FE]
+それ以上遠くであったり、能力が足りないと、[NLINE]
+ふとん犬はサーチする事が出来ません。[NLINE]
+サーチ回数は能力に従って増加していきます。[NWIN]
+
+サーチを駆使して、[NLINE]
+会場から多くの玉を探し出してください。[END-FE]
+
+
+
+
+
+//POINTER #337 @ $BA64 - STRING #337 @ $1053E
+#W32($BA64)
+//[CHARCD03][V0E00]
+//それでは、レディーゴー！[END-FE]
+[CHARCD03][V0E00]
+それでは、レディーゴー！[END-FE]
+
+
+
+
+
+//POINTER #338 @ $BA68 - STRING #338 @ $10561
+#W32($BA68)
+//嗅覚ＬＶは[CC.EF00]です[NLINE]
+//サーチ回数は[CC.EF01]です。[END-FE]
+嗅覚ＬＶは[CC.EF00]です[NLINE]
+サーチ回数は[CC.EF01]です。[END-FE]
+
+
+
+
+
+//POINTER #339 @ $BA6C - STRING #339 @ $1058C
+#W32($BA6C)
+//宝レベルＡです。[END-FE]
+宝レベルＡです。[END-FE]
+
+
+
+
+
+//POINTER #340 @ $BA70 - STRING #340 @ $1059F
+#W32($BA70)
+//宝レベルＢです。[END-FE]
+宝レベルＢです。[END-FE]
+
+
+
+
+
+//POINTER #341 @ $BA74 - STRING #341 @ $105B2
+#W32($BA74)
+//宝レベルＣです。[END-FE]
+宝レベルＣです。[END-FE]
+
+
+
+
+
+//POINTER #342 @ $BA78 - STRING #342 @ $105C5
+#W32($BA78)
+//玉探しコンテスト　開始[END-FE]
+玉探しコンテスト　開始[END-FE]
+
+
+
+
+
+//POINTER #343 @ $BA7C - STRING #343 @ $105DE
+#W32($BA7C)
+//サーチ回数　残り[CC.EF01]回[END-FE]
+サーチ回数　残り[CC.EF01]回[END-FE]
+
+
+
+
+
+//POINTER #344 @ $BA80 - STRING #344 @ $105F6
+#W32($BA80)
+//[CHARCF03][V0000]
+//…ふとん犬コンテスト。[NLINE]
+//それは愛らしい外見からはとても想像も付かない[NLINE]
+//ふとん犬の実力が試される場所。[END-FE]
+[CHARCF03][V0000]
+…ふとん犬コンテスト。[NLINE]
+それは愛らしい外見からはとても想像も付かない[NLINE]
+ふとん犬の実力が試される場所。[END-FE]
+
+
+
+
+
+//POINTER #345 @ $BA84 - STRING #345 @ $10665
+#W32($BA84)
+//[CHARCF03][V0100]
+//ブリーダーの皆様はご存知だと思われますが、[NLINE]
+//あまりの実力のためにコンテストを出場禁止に[NLINE]
+//なってしまったふとん犬がいます。[END-FE]
+[CHARCF03][V0100]
+ブリーダーの皆様はご存知だと思われますが、[NLINE]
+あまりの実力のためにコンテストを出場禁止に[NLINE]
+なってしまったふとん犬がいます。[END-FE]
+
+
+
+
+
+//POINTER #346 @ $BA88 - STRING #346 @ $106E8
+#W32($BA88)
+//[CHARCF03][V0200]
+//動物博士にして、このコンテストの主催者、[NLINE]
+//そして最高のブリーダーの名を持つ[NLINE]
+//ハゼゴロウ氏の飼い犬、[NLINE]
+//ペケに挑戦する者が今日現れました！[END-FE]
+[CHARCF03][V0200]
+動物博士にして、このコンテストの主催者、[NLINE]
+そして最高のブリーダーの名を持つ[NLINE]
+ハゼゴロウ氏の飼い犬、[NLINE]
+ペケに挑戦する者が今日現れました！[END-FE]
+
+
+
+
+
+//POINTER #347 @ $BA8C - STRING #347 @ $10779
+#W32($BA8C)
+//[CHARCF03][V0300]
+//全てのコンテストで優勝を収め、[NLINE]
+//この舞台に挑戦するふとん犬の名は、[NLINE]
+//ニシキ！[END-FE]
+[CHARCF03][V0300]
+全てのコンテストで優勝を収め、[NLINE]
+この舞台に挑戦するふとん犬の名は、[NLINE]
+ニシキ！[END-FE]
+
+
+
+
+
+//POINTER #348 @ $BA90 - STRING #348 @ $107D0
+#W32($BA90)
+//[CHARCF03][V0400]
+//全てのコンテストで優勝を収め、[NLINE]
+//この舞台に挑戦するふとん犬の名は、[NLINE]
+//テツ！[END-FE]
+[CHARCF03][V0400]
+全てのコンテストで優勝を収め、[NLINE]
+この舞台に挑戦するふとん犬の名は、[NLINE]
+テツ！[END-FE]
+
+
+
+
+
+//POINTER #349 @ $BA94 - STRING #349 @ $10825
+#W32($BA94)
+//[CHARCF03][V0500]
+//全てのコンテストで優勝を収め、[NLINE]
+//この舞台に挑戦するふとん犬の名は、[NLINE]
+//タマ！[END-FE]
+[CHARCF03][V0500]
+全てのコンテストで優勝を収め、[NLINE]
+この舞台に挑戦するふとん犬の名は、[NLINE]
+タマ！[END-FE]
+
+
+
+
+
+//POINTER #350 @ $BA98 - STRING #350 @ $1087A
+#W32($BA98)
+//[CHARCF03][V0600]
+//全てのコンテストで優勝を収め、[NLINE]
+//この舞台に挑戦するふとん犬の名は、[NLINE]
+//モモ！[END-FE]
+[CHARCF03][V0600]
+全てのコンテストで優勝を収め、[NLINE]
+この舞台に挑戦するふとん犬の名は、[NLINE]
+モモ！[END-FE]
+
+
+
+
+
+//POINTER #351 @ $BA9C - STRING #351 @ $108CF
+#W32($BA9C)
+//[CHARCF03][V0700]
+//そして王者、ペケの入場です！[END-FE]
+[CHARCF03][V0700]
+そして王者、ペケの入場です！[END-FE]
+
+
+
+
+
+//POINTER #352 @ $BAA0 - STRING #352 @ $108F6
+#W32($BAA0)
+//[CHARCF03][V0800]
+//挑戦者ニシキ、[NLINE]
+//王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+//コンテスト最高の戦いが[NLINE]
+//ここに繰り広げられようとしています！[END-FE]
+[CHARCF03][V0800]
+挑戦者ニシキ、[NLINE]
+王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+コンテスト最高の戦いが[NLINE]
+ここに繰り広げられようとしています！[END-FE]
+
+
+
+
+
+//POINTER #353 @ $BAA4 - STRING #353 @ $1097D
+#W32($BAA4)
+//[CHARCF03][V0900]
+//挑戦者テツ、[NLINE]
+//王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+//コンテスト最高の戦いが[NLINE]
+//ここに繰り広げられようとしています！[END-FE]
+[CHARCF03][V0900]
+挑戦者テツ、[NLINE]
+王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+コンテスト最高の戦いが[NLINE]
+ここに繰り広げられようとしています！[END-FE]
+
+
+
+
+
+//POINTER #354 @ $BAA8 - STRING #354 @ $10A02
+#W32($BAA8)
+//[CHARCF03][V0A00]
+//挑戦者タマ、[NLINE]
+//王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+//コンテスト最高の戦いが[NLINE]
+//ここに繰り広げられようとしています！[END-FE]
+[CHARCF03][V0A00]
+挑戦者タマ、[NLINE]
+王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+コンテスト最高の戦いが[NLINE]
+ここに繰り広げられようとしています！[END-FE]
+
+
+
+
+
+//POINTER #355 @ $BAAC - STRING #355 @ $10A87
+#W32($BAAC)
+//[CHARCF03][V0B00]
+//挑戦者モモ、[NLINE]
+//王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+//コンテスト最高の戦いが[NLINE]
+//ここに繰り広げられようとしています！[END-FE]
+[CHARCF03][V0B00]
+挑戦者モモ、[NLINE]
+王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
+コンテスト最高の戦いが[NLINE]
+ここに繰り広げられようとしています！[END-FE]
+
+
+
+
+
+//POINTER #356 @ $BAB0 - STRING #356 @ $10B0C
+#W32($BAB0)
+//[CHARCF03][V0C00]
+//ふとん犬、[NLINE]
+//ブリーダー共に準備はよろしいですか？[END-FE]
+[CHARCF03][V0C00]
+ふとん犬、[NLINE]
+ブリーダー共に準備はよろしいですか？[END-FE]
+
+
+
+
+
+//POINTER #357 @ $BAB4 - STRING #357 @ $10B47
+#W32($BAB4)
+//ルールの説明を受けますか？[END-FE]
+ルールの説明を受けますか？[END-FE]
+
+
+
+
+
+//POINTER #358 @ $BAB8 - STRING #358 @ $10B64
+#W32($BAB8)
+//王者ペケとの一対一の真剣バトルです。[NLINE]
+//相手のＨＰを０にした者が勝者となります。[NWIN]
+//
+//闘犬には攻撃ターンと防御ターンがあります。[NWIN]
+//
+//攻撃ターンは、[NLINE]
+//警戒ポイントサーチと攻撃場所指定の[NLINE]
+//２つで構成されています。[NWIN]
+//
+//警戒ポイントサーチは、[NLINE]
+//敵がどの位置を警戒しているか、[NLINE]
+//警戒が薄いかを見抜いてくれます。[NWIN]
+//
+//能力が高ければ、[NLINE]
+//警戒網を見抜く確率が上がります。[NWIN]
+//
+//攻撃場所指定は、[NLINE]
+//敵をどこから攻めるかを指定します。[NWIN]
+//
+//能力が高ければ、[NLINE]
+//クリティカルが出る確率が上がります。[NWIN]
+//
+//それぞれにブーストをかける事が出来、[NLINE]
+//またそれを使う事により、[NLINE]
+//より良い結果を出す確率が上昇します。[NWIN]
+//
+//防御ターンは、相手の攻撃を防御します。[NLINE]
+//能力が高ければ、防御する率が上昇します。[NWIN]
+//
+//これにもブーストをかける事が出来、[NLINE]
+//高確率で防御を成功させる事ができます。[NWIN]
+//
+//ブースト回数は限られており、[NLINE]
+//能力により増減します。[NWIN]
+//
+//ブーストを必要なタイミングで使い、[NLINE]
+//敵のＨＰを削り、自分のＨＰを守り、[NLINE]
+//この戦いを勝ち抜いてください。[END-FE]
+王者ペケとの一対一の真剣バトルです。[NLINE]
+相手のＨＰを０にした者が勝者となります。[NWIN]
+
+闘犬には攻撃ターンと防御ターンがあります。[NWIN]
+
+攻撃ターンは、[NLINE]
+警戒ポイントサーチと攻撃場所指定の[NLINE]
+２つで構成されています。[NWIN]
+
+警戒ポイントサーチは、[NLINE]
+敵がどの位置を警戒しているか、[NLINE]
+警戒が薄いかを見抜いてくれます。[NWIN]
+
+能力が高ければ、[NLINE]
+警戒網を見抜く確率が上がります。[NWIN]
+
+攻撃場所指定は、[NLINE]
+敵をどこから攻めるかを指定します。[NWIN]
+
+能力が高ければ、[NLINE]
+クリティカルが出る確率が上がります。[NWIN]
+
+それぞれにブーストをかける事が出来、[NLINE]
+またそれを使う事により、[NLINE]
+より良い結果を出す確率が上昇します。[NWIN]
+
+防御ターンは、相手の攻撃を防御します。[NLINE]
+能力が高ければ、防御する率が上昇します。[NWIN]
+
+これにもブーストをかける事が出来、[NLINE]
+高確率で防御を成功させる事ができます。[NWIN]
+
+ブースト回数は限られており、[NLINE]
+能力により増減します。[NWIN]
+
+ブーストを必要なタイミングで使い、[NLINE]
+敵のＨＰを削り、自分のＨＰを守り、[NLINE]
+この戦いを勝ち抜いてください。[END-FE]
+
+
+
+
+
+//POINTER #359 @ $BABC - STRING #359 @ $10ECD
+#W32($BABC)
+//[CHARCF03][V0D00]
+//それでは…、レディーファイトっ！[END-FE]
+[CHARCF03][V0D00]
+それでは…、レディーファイトっ！[END-FE]
+
+
+
+
+
+//POINTER #360 @ $BAC0 - STRING #360 @ $10EF8
+#W32($BAC0)
+//闘犬　スタート[END-FE]
+闘犬　スタート[END-FE]
+
+
+
+
+
+//POINTER #361 @ $BAC4 - STRING #361 @ $10F09
+#W32($BAC4)
+//完全前[END-FE]
+完全前[END-FE]
+
+
+
+
+
+//POINTER #362 @ $BAC8 - STRING #362 @ $10F12
+#W32($BAC8)
+//完全後ろ[END-FE]
+完全後ろ[END-FE]
+
+
+
+
+
+//POINTER #363 @ $BACC - STRING #363 @ $10F1D
+#W32($BACC)
+//完全右[END-FE]
+完全右[END-FE]
+
+
+
+
+
+//POINTER #364 @ $BAD0 - STRING #364 @ $10F26
+#W32($BAD0)
+//完全左[END-FE]
+完全左[END-FE]
+
+
+
+
+
+//POINTER #365 @ $BAD4 - STRING #365 @ $10F2F
+#W32($BAD4)
+//弱点前[END-FE]
+弱点前[END-FE]
+
+
+
+
+
+//POINTER #366 @ $BAD8 - STRING #366 @ $10F38
+#W32($BAD8)
+//弱点後ろ[END-FE]
+弱点後ろ[END-FE]
+
+
+
+
+
+//POINTER #367 @ $BADC - STRING #367 @ $10F43
+#W32($BADC)
+//弱点右[END-FE]
+弱点右[END-FE]
+
+
+
+
+
+//POINTER #368 @ $BAE0 - STRING #368 @ $10F4C
+#W32($BAE0)
+//弱点左[END-FE]
+弱点左[END-FE]
+
+
+
+
+
+//POINTER #369 @ $BAE4 - STRING #369 @ $10F55
+#W32($BAE4)
+//　[NLINE]
+//　　　　　　　　[Futon-Dog]ターン[END-FE]
+　[NLINE]
+　　　　　　　　[Futon-Dog]ターン[END-FE]
+
+
+
+
+
+//POINTER #370 @ $BAE8 - STRING #370 @ $10F76
+#W32($BAE8)
+//ペケの警戒場所を見抜くために、[NLINE]
+//ブーストを使用しますか？[END-FE]
+ペケの警戒場所を見抜くために、[NLINE]
+ブーストを使用しますか？[END-FE]
+
+
+
+
+
+//POINTER #371 @ $BAEC - STRING #371 @ $10FB1
+#W32($BAEC)
+//・使用しない[END-FE]
+・使用しない[END-FE]
+
+
+
+
+
+//POINTER #372 @ $BAF0 - STRING #372 @ $10FC0
+#W32($BAF0)
+//・使用する[END-FE]
+・使用する[END-FE]
+
+
+
+
+
+//POINTER #373 @ $BAF4 - STRING #373 @ $10FCD
+#W32($BAF4)
+//　　　　[Futon-Dog]は、ペケが前方を[NLINE]
+//　　　警戒していないのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが前方を[NLINE]
+　　　警戒していないのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #374 @ $BAF8 - STRING #374 @ $11010
+#W32($BAF8)
+//　　　　[Futon-Dog]は、ペケが後方を[NLINE]
+//　　　警戒していないのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが後方を[NLINE]
+　　　警戒していないのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #375 @ $BAFC - STRING #375 @ $11053
+#W32($BAFC)
+//　　　　[Futon-Dog]は、ペケが右を[NLINE]
+//　　　警戒していないのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが右を[NLINE]
+　　　警戒していないのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #376 @ $BB00 - STRING #376 @ $11094
+#W32($BB00)
+//　　　　[Futon-Dog]は、ペケが左を[NLINE]
+//　　　警戒していないのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが左を[NLINE]
+　　　警戒していないのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #377 @ $BB04 - STRING #377 @ $110D5
+#W32($BB04)
+//　　　　[Futon-Dog]は、ペケが前方を[NLINE]
+//　　　警戒しているのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが前方を[NLINE]
+　　　警戒しているのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #378 @ $BB08 - STRING #378 @ $11116
+#W32($BB08)
+//　　　　[Futon-Dog]は、ペケが後方を[NLINE]
+//　　　警戒しているのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが後方を[NLINE]
+　　　警戒しているのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #379 @ $BB0C - STRING #379 @ $11157
+#W32($BB0C)
+//　　　　[Futon-Dog]は、ペケが右を[NLINE]
+//　　　警戒しているのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが右を[NLINE]
+　　　警戒しているのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #380 @ $BB10 - STRING #380 @ $11196
+#W32($BB10)
+//　　　　[Futon-Dog]は、ペケが左を[NLINE]
+//　　　警戒しているのを見抜いた！[END-FE]
+　　　　[Futon-Dog]は、ペケが左を[NLINE]
+　　　警戒しているのを見抜いた！[END-FE]
+
+
+
+
+
+//POINTER #381 @ $BB14 - STRING #381 @ $111D5
+#W32($BB14)
+//どこから攻撃を仕掛けますか？[END-FE]
+どこから攻撃を仕掛けますか？[END-FE]
+
+
+
+
+
+//POINTER #382 @ $BB18 - STRING #382 @ $111F4
+#W32($BB18)
+//・前方[END-FE]
+・前方[END-FE]
+
+
+
+
+
+//POINTER #383 @ $BB1C - STRING #383 @ $111FD
+#W32($BB1C)
+//・後方[END-FE]
+・後方[END-FE]
+
+
+
+
+
+//POINTER #384 @ $BB20 - STRING #384 @ $11206
+#W32($BB20)
+//・右[END-FE]
+・右[END-FE]
+
+
+
+
+
+//POINTER #385 @ $BB24 - STRING #385 @ $1120D
+#W32($BB24)
+//・左[END-FE]
+・左[END-FE]
+
+
+
+
+
+//POINTER #386 @ $BB28 - STRING #386 @ $11214
+#W32($BB28)
+//・ブーストを使用する[END-FE]
+・ブーストを使用する[END-FE]
+
+
+
+
+
+//POINTER #387 @ $BB2C - STRING #387 @ $1122B
+#W32($BB2C)
+//　[NLINE]
+//ブーストは発動している。[END-FE]
+　[NLINE]
+ブーストは発動している。[END-FE]
+
+
+
+
+
+//POINTER #388 @ $BB30 - STRING #388 @ $1124A
+#W32($BB30)
+//　[NLINE]
+//　　　　　　　　ペケターン[END-FE]
+　[NLINE]
+　　　　　　　　ペケターン[END-FE]
+
+
+
+
+
+//POINTER #389 @ $BB34 - STRING #389 @ $1126B
+#W32($BB34)
+//[Futon-Dog]の防御に、[NLINE]
+//ブーストを使用しますか？[END-FE]
+[Futon-Dog]の防御に、[NLINE]
+ブーストを使用しますか？[END-FE]
+
+
+
+
+
+//POINTER #390 @ $BB38 - STRING #390 @ $11296
+#W32($BB38)
+//・使用しない[END-FE]
+・使用しない[END-FE]
+
+
+
+
+
+//POINTER #391 @ $BB3C - STRING #391 @ $112A5
+#W32($BB3C)
+//・使用する[END-FE]
+・使用する[END-FE]
+
+
+
+
+
+//POINTER #392 @ $BB40 - STRING #392 @ $112B2
+#W32($BB40)
+//攻撃前[END-FE]
+攻撃前[END-FE]
+
+
+
+
+
+//POINTER #393 @ $BB44 - STRING #393 @ $112BB
+#W32($BB44)
+//貫通[END-FE]
+貫通[END-FE]
+
+
+
+
+
+//POINTER #394 @ $BB48 - STRING #394 @ $112C2
+#W32($BB48)
+//完全[END-FE]
+完全[END-FE]
+
+
+
+
+
+//POINTER #395 @ $BB4C - STRING #395 @ $112C9
+#W32($BB4C)
+//防御　クリティカル[END-FE]
+防御　クリティカル[END-FE]
+
+
+
+
+
+//POINTER #396 @ $BB50 - STRING #396 @ $112DE
+#W32($BB50)
+//防御　ダメージ[END-FE]
+防御　ダメージ[END-FE]
+
+
+
+
+
+//POINTER #397 @ $BB54 - STRING #397 @ $112EF
+#W32($BB54)
+//クリティカル[END-FE]
+クリティカル[END-FE]
+
+
+
+
+
+//POINTER #398 @ $BB58 - STRING #398 @ $112FE
+#W32($BB58)
+//普通攻撃[END-FE]
+普通攻撃[END-FE]
+
+
+
+
+
+//POINTER #399 @ $BB5C - STRING #399 @ $11309
+#W32($BB5C)
+//クリティカル[END-FE]
+クリティカル[END-FE]
+
+
+
+
+
+//POINTER #400 @ $BB60 - STRING #400 @ $11318
+#W32($BB60)
+//ブースト回数[NLINE]
+//　残り[CC.EF0C]回[END-FE]
+ブースト回数[NLINE]
+　残り[CC.EF0C]回[END-FE]
+
+
+
+
+
+//POINTER #401 @ $BB64 - STRING #401 @ $11334
+#W32($BB64)
+//ペケ[NLINE]
+//ＨＰ[CC.EF0B][END-FE]
+ペケ[NLINE]
+ＨＰ[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #402 @ $BB68 - STRING #402 @ $11344
+#W32($BB68)
+//[Futon-Dog][NLINE]
+//ＨＰ[CC.EF0A][END-FE]
+[Futon-Dog][NLINE]
+ＨＰ[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #403 @ $BB6C - STRING #403 @ $11354
+#W32($BB6C)
+//　[NLINE]
+//　　　　　　　　[CC.EF0F]ダメージ[END-FE]
+　[NLINE]
+　　　　　　　　[CC.EF0F]ダメージ[END-FE]
+
+
+
+
+
+//POINTER #404 @ $BB70 - STRING #404 @ $11376
+#W32($BB70)
+//　[NLINE]
+//　　　　　　　　ノーダメージ[END-FE]
+　[NLINE]
+　　　　　　　　ノーダメージ[END-FE]
+
+
+
+
+
+//POINTER #405 @ $BB74 - STRING #405 @ $11399
+#W32($BB74)
+//ランダム数値[NLINE]
+//[CC.EF08][END-FE]
+ランダム数値[NLINE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #406 @ $BB78 - STRING #406 @ $113AD
+#W32($BB78)
+//[CHARCF03][V0E00]
+//や、やりました！[NLINE]
+//不動と思われた王者ペケを下し、[NLINE]
+//挑戦者ニシキ、遂に頂点に登りつめました！[END-FE]
+[CHARCF03][V0E00]
+や、やりました！[NLINE]
+不動と思われた王者ペケを下し、[NLINE]
+挑戦者ニシキ、遂に頂点に登りつめました！[END-FE]
+
+
+
+
+
+//POINTER #407 @ $BB7C - STRING #407 @ $11412
+#W32($BB7C)
+//[CHARCF03][V0F00]
+//や、やりました！[NLINE]
+//不動と思われた王者ペケを下し、[NLINE]
+//挑戦者テツ、遂に頂点に登りつめました！[END-FE]
+[CHARCF03][V0F00]
+や、やりました！[NLINE]
+不動と思われた王者ペケを下し、[NLINE]
+挑戦者テツ、遂に頂点に登りつめました！[END-FE]
+
+
+
+
+
+//POINTER #408 @ $BB80 - STRING #408 @ $11475
+#W32($BB80)
+//[CHARCF03][V1000]
+//や、やりました！[NLINE]
+//不動と思われた王者ペケを下し、[NLINE]
+//挑戦者タマ、遂に頂点に登りつめました！[END-FE]
+[CHARCF03][V1000]
+や、やりました！[NLINE]
+不動と思われた王者ペケを下し、[NLINE]
+挑戦者タマ、遂に頂点に登りつめました！[END-FE]
+
+
+
+
+
+//POINTER #409 @ $BB84 - STRING #409 @ $114D8
+#W32($BB84)
+//[CHARCF03][V1100]
+//や、やりました！[NLINE]
+//不動と思われた王者ペケを下し、[NLINE]
+//挑戦者モモ、遂に頂点に登りつめました！[END-FE]
+[CHARCF03][V1100]
+や、やりました！[NLINE]
+不動と思われた王者ペケを下し、[NLINE]
+挑戦者モモ、遂に頂点に登りつめました！[END-FE]
+
+
+
+
+
+//POINTER #410 @ $BB88 - STRING #410 @ $1153B
+#W32($BB88)
+//[CHARCF03][V1200]
+//ニシキ、あなたは最高のふとん犬です！[NLINE]
+//…期待に応えてくれて、ありがとう。[END-FE]
+[CHARCF03][V1200]
+ニシキ、あなたは最高のふとん犬です！[NLINE]
+…期待に応えてくれて、ありがとう。[END-FE]
+
+
+
+
+
+//POINTER #411 @ $BB8C - STRING #411 @ $1158E
+#W32($BB8C)
+//[CHARCF03][V1300]
+//テツ、あなたは最高のふとん犬です！[NLINE]
+//…期待に応えてくれて、ありがとう。[END-FE]
+[CHARCF03][V1300]
+テツ、あなたは最高のふとん犬です！[NLINE]
+…期待に応えてくれて、ありがとう。[END-FE]
+
+
+
+
+
+//POINTER #412 @ $BB90 - STRING #412 @ $115DF
+#W32($BB90)
+//[CHARCF03][V1400]
+//タマ、あなたは最高のふとん犬です！[NLINE]
+//…期待に応えてくれて、ありがとう。[END-FE]
+[CHARCF03][V1400]
+タマ、あなたは最高のふとん犬です！[NLINE]
+…期待に応えてくれて、ありがとう。[END-FE]
+
+
+
+
+
+//POINTER #413 @ $BB94 - STRING #413 @ $11630
+#W32($BB94)
+//[CHARCF03][V1500]
+//モモ、あなたは最高のふとん犬です！[NLINE]
+//…期待に応えてくれて、ありがとう。[END-FE]
+[CHARCF03][V1500]
+モモ、あなたは最高のふとん犬です！[NLINE]
+…期待に応えてくれて、ありがとう。[END-FE]
+
+
+
+
+
+//POINTER #414 @ $BB98 - STRING #414 @ $11681
+#W32($BB98)
+//[CHARCF03][V1600]
+//…まさか、うちのペケを負かしてしまうとは。[NLINE]
+//ふとん犬の可能性は、こんなにも奥が深いのか。[NLINE]
+//私はブリーダーとして未熟だったようだ。[NLINE]
+//良い勉強をさせてもらったよ。[END-FE]
+[CHARCF03][V1600]
+…まさか、うちのペケを負かしてしまうとは。[NLINE]
+ふとん犬の可能性は、こんなにも奥が深いのか。[NLINE]
+私はブリーダーとして未熟だったようだ。[NLINE]
+良い勉強をさせてもらったよ。[END-FE]
+
+
+
+
+
+//POINTER #415 @ $BB9C - STRING #415 @ $1172A
+#W32($BB9C)
+//[CHARCF03][V1700]
+//…ハゼゴロウさん。[END-FE]
+[CHARCF03][V1700]
+…ハゼゴロウさん。[END-FE]
+
+
+
+
+
+//POINTER #416 @ $BBA0 - STRING #416 @ $11747
+#W32($BBA0)
+//[CHARCF03][V1800]
+//もっとふとん犬の研究をしたくなったよ！[NLINE]
+//これはコンテスト主催者として、[NLINE]
+//勝者に贈る賞品だ。[NLINE]
+//受け取ってくれ。[END-FE]
+[CHARCF03][V1800]
+もっとふとん犬の研究をしたくなったよ！[NLINE]
+これはコンテスト主催者として、[NLINE]
+勝者に贈る賞品だ。[NLINE]
+受け取ってくれ。[END-FE]
+
+
+
+
+
+//POINTER #417 @ $BBA4 - STRING #417 @ $117BE
+#W32($BBA4)
+//[CHARCF03][V1900]
+//今度は君たちに負けないよう、[NLINE]
+//ふとん犬に愛情を注ぐよ。[END-FE]
+[CHARCF03][V1900]
+今度は君たちに負けないよう、[NLINE]
+ふとん犬に愛情を注ぐよ。[END-FE]
+
+
+
+
+
+//POINTER #418 @ $BBA8 - STRING #418 @ $117FF
+#W32($BBA8)
+//[CHARCF03][V1A00]
+//素晴らしい戦いでした！[NLINE]
+//このコンテストはふとん犬史上に[NLINE]
+//語り継がれるものになるでしょう！[END-FE]
+[CHARCF03][V1A00]
+素晴らしい戦いでした！[NLINE]
+このコンテストはふとん犬史上に[NLINE]
+語り継がれるものになるでしょう！[END-FE]
+
+
+
+
+
+//POINTER #419 @ $BBAC - STRING #419 @ $11862
+#W32($BBAC)
+//[CHARCF03][V1B00]
+//みなさん、ふとん犬、ブリーダーたちに[NLINE]
+//盛大な拍手を送ろうではありませんか！[END-FE]
+[CHARCF03][V1B00]
+みなさん、ふとん犬、ブリーダーたちに[NLINE]
+盛大な拍手を送ろうではありませんか！[END-FE]
+
+
+
+
+
+//POINTER #420 @ $BBB0 - STRING #420 @ $118B7
+#W32($BBB0)
+//[CHARCF03][V1C00]
+//新チャンピオン、ニシキ、[NLINE]
+//おめでとうございます！[END-FE]
+[CHARCF03][V1C00]
+新チャンピオン、ニシキ、[NLINE]
+おめでとうございます！[END-FE]
+
+
+
+
+
+//POINTER #421 @ $BBB4 - STRING #421 @ $118F2
+#W32($BBB4)
+//[CHARCF03][V1D00]
+//新チャンピオン、テツ、[NLINE]
+//おめでとうございます！[END-FE]
+[CHARCF03][V1D00]
+新チャンピオン、テツ、[NLINE]
+おめでとうございます！[END-FE]
+
+
+
+
+
+//POINTER #422 @ $BBB8 - STRING #422 @ $1192B
+#W32($BBB8)
+//[CHARCF03][V1E00]
+//新チャンピオン、タマ、[NLINE]
+//おめでとうございます！[END-FE]
+[CHARCF03][V1E00]
+新チャンピオン、タマ、[NLINE]
+おめでとうございます！[END-FE]
+
+
+
+
+
+//POINTER #423 @ $BBBC - STRING #423 @ $11964
+#W32($BBBC)
+//[CHARCF03][V1F00]
+//新チャンピオン、モモ、[NLINE]
+//おめでとうございます！[END-FE]
+[CHARCF03][V1F00]
+新チャンピオン、モモ、[NLINE]
+おめでとうございます！[END-FE]
+
+
+
+
+
+//POINTER #424 @ $BBC0 - STRING #424 @ $1199D
+#W32($BBC0)
+//[CHARCF03][V2000]
+//つ、強いっ！流石は王者ペケっ！[NWIN]
+//
+//[CHARCF03][V2100]
+//コンテストが始まって以来、[NLINE]
+//ゆるぎなくチャンピオンの座に君臨しています！[END-FE]
+[CHARCF03][V2000]
+つ、強いっ！流石は王者ペケっ！[NWIN]
+
+[CHARCF03][V2100]
+コンテストが始まって以来、[NLINE]
+ゆるぎなくチャンピオンの座に君臨しています！[END-FE]
+
+
+
+
+
+//POINTER #425 @ $BBC4 - STRING #425 @ $11A18
+#W32($BBC4)
+//[CHARCF03][V2200]
+//ふ～う、コンテストを[NLINE]
+//全部勝ち抜いてくるだけはあった。[NLINE]
+//でも、私もふとん犬研究に[NLINE]
+//一生を捧げていこうとしている者。[NLINE]
+//ふとん犬の事で、簡単に負ける訳にはいかないよ。[END-FE]
+[CHARCF03][V2200]
+ふ～う、コンテストを[NLINE]
+全部勝ち抜いてくるだけはあった。[NLINE]
+でも、私もふとん犬研究に[NLINE]
+一生を捧げていこうとしている者。[NLINE]
+ふとん犬の事で、簡単に負ける訳にはいかないよ。[END-FE]
+
+
+
+
+
+//POINTER #426 @ $BBC8 - STRING #426 @ $11AC5
+#W32($BBC8)
+//[CHARCF03][V2300]
+//…完敗です。ふとん犬に対する想いも、[NLINE]
+//ブリーダーとしての腕も。[END-FE]
+[CHARCF03][V2300]
+…完敗です。ふとん犬に対する想いも、[NLINE]
+ブリーダーとしての腕も。[END-FE]
+
+
+
+
+
+//POINTER #427 @ $BBCC - STRING #427 @ $11B0E
+#W32($BBCC)
+//[CHARCF03][V2400]
+//悲観する事はないよ。[NLINE]
+//ここまでペケと戦えた者はいなかった。[NLINE]
+//これはふとん犬にたくさんの[NLINE]
+//愛情を注いでくれたお礼だ。[NLINE]
+//受け取ってくれ。[END-FE]
+[CHARCF03][V2400]
+悲観する事はないよ。[NLINE]
+ここまでペケと戦えた者はいなかった。[NLINE]
+これはふとん犬にたくさんの[NLINE]
+愛情を注いでくれたお礼だ。[NLINE]
+受け取ってくれ。[END-FE]
+
+
+
+
+
+//POINTER #428 @ $BBD0 - STRING #428 @ $11B9D
+#W32($BBD0)
+//[CHARCF03][V2500]
+//素晴らしい戦いでした！[NLINE]
+//このコンテストはふとん犬史上に[NLINE]
+//語り継がれるものになるでしょう！[NWIN]
+//
+//[CHARCF03][V2600]
+//みなさん、ふとん犬、ブリーダーたちに[NLINE]
+//盛大な拍手を送ろうではありませんか！[NLINE]
+//チャンピオン、ペケ、おめでとうございます！[END-FE]
+[CHARCF03][V2500]
+素晴らしい戦いでした！[NLINE]
+このコンテストはふとん犬史上に[NLINE]
+語り継がれるものになるでしょう！[NWIN]
+
+[CHARCF03][V2600]
+みなさん、ふとん犬、ブリーダーたちに[NLINE]
+盛大な拍手を送ろうではありませんか！[NLINE]
+チャンピオン、ペケ、おめでとうございます！[END-FE]
+
+
+
+
+
+//POINTER #429 @ $BBD4 - STRING #429 @ $11C80
+#W32($BBD4)
+//　[NLINE]
+//今は競技に集中しよう。[END-FE]
+　[NLINE]
+今は競技に集中しよう。[END-FE]
+
+
+
+
+
+//POINTER #430 @ $BBD8 - STRING #430 @ $11C9D
+#W32($BBD8)
+//　[NLINE]
+//今は競技に集中しよう。[END-FE]
+　[NLINE]
+今は競技に集中しよう。[END-FE]
+
+
+
+

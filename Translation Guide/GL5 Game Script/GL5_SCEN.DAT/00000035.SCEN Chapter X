@@ -1,0 +1,418 @@
+
+
+//POINTER #0 @ $2C20 - STRING #0 @ $2CC0
+#W32($2C20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2C24 - STRING #1 @ $2CC3
+#W32($2C24)
+//・敵の全滅[END-FE]
+・敵の全滅[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2C28 - STRING #2 @ $2CD0
+#W32($2C28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・同行人の死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2C2C - STRING #3 @ $2CF5
+#W32($2C2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・同行人の死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2C30 - STRING #4 @ $2D1A
+#W32($2C30)
+//・パーティーの全滅[END-FE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2C34 - STRING #5 @ $2D2F
+#W32($2C34)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・ＮＰＣの死亡[NLINE]
+・同行人の死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2C38 - STRING #6 @ $2D64
+#W32($2C38)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・ＮＰＣの死亡[NLINE]
+・同行人の死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2C3C - STRING #7 @ $2D99
+#W32($2C3C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・ＮＰＣの死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2C40 - STRING #8 @ $2DBE
+#W32($2C40)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・同行人の死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2C44 - STRING #9 @ $2DE3
+#W32($2C44)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・同行人の死亡[NLINE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2C48 - STRING #10 @ $2E08
+#W32($2C48)
+//・パーティーの全滅[END-FE]
+・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2C4C - STRING #11 @ $2E1D
+#W32($2C4C)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+　[NLINE]
+ふとん犬はどこかへ走り去った…。[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2C50 - STRING #12 @ $2E44
+#W32($2C50)
+//復活失敗。[NLINE]
+//このメッセージは滅多に出ないはずだが、[NLINE]
+//出てもバグではない。[END-FE]
+復活失敗。[NLINE]
+このメッセージは滅多に出ないはずだが、[NLINE]
+出てもバグではない。[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2C54 - STRING #13 @ $2E8F
+#W32($2C54)
+//ロール１で、宝箱を[NLINE]
+//スライドさせたかどうか変更する？[END-FE]
+ロール１で、宝箱を[NLINE]
+スライドさせたかどうか変更する？[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2C58 - STRING #14 @ $2EC6
+#W32($2C58)
+//・通常プレイ[END-FE]
+・通常プレイ[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2C5C - STRING #15 @ $2ED5
+#W32($2C5C)
+//・スライドさせた[END-FE]
+・スライドさせた[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2C60 - STRING #16 @ $2EE8
+#W32($2C60)
+//・スライドさせてない[END-FE]
+・スライドさせてない[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2C64 - STRING #17 @ $2EFF
+#W32($2C64)
+//大いなる力の遺跡[END-FE]
+大いなる力の遺跡[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2C68 - STRING #18 @ $2F12
+#W32($2C68)
+//装置がある。　　　　　　　[NLINE]
+//しかし、動作しないようだ。[END-FE]
+装置がある。　　　　　　　[NLINE]
+しかし、動作しないようだ。[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2C6C - STRING #19 @ $2F4B
+#W32($2C6C)
+//装置がある。　　　　　　　[NLINE]
+//しかし、動作しないようだ。[END-FE]
+装置がある。　　　　　　　[NLINE]
+しかし、動作しないようだ。[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2C70 - STRING #20 @ $2F84
+#W32($2C70)
+//　[NLINE]
+//『ＮＮＣ』と書かれたスイッチがあるが、[NLINE]
+//壊れているようだ。　　　　　　　　[END-FE]
+　[NLINE]
+『ＮＮＣ』と書かれたスイッチがあるが、[NLINE]
+壊れているようだ。　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2C74 - STRING #21 @ $2FD5
+#W32($2C74)
+//　[NLINE]
+//『ＮＣＮ』と書かれたスイッチがあるが、[NLINE]
+//　壊れているようだ。　　　　　　　　[END-FE]
+　[NLINE]
+『ＮＣＮ』と書かれたスイッチがあるが、[NLINE]
+　壊れているようだ。　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2C78 - STRING #22 @ $3028
+#W32($2C78)
+//　[NLINE]
+//『ＮＣＣ』と書かれたスイッチがあるが、[NLINE]
+//　壊れているようだ。　　　　　　　　[END-FE]
+　[NLINE]
+『ＮＣＣ』と書かれたスイッチがあるが、[NLINE]
+　壊れているようだ。　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2C7C - STRING #23 @ $307B
+#W32($2C7C)
+//　[NLINE]
+//『ＣＮＮ』と書かれたスイッチがあるが、[NLINE]
+//　壊れているようだ。　　　　　　　　[END-FE]
+　[NLINE]
+『ＣＮＮ』と書かれたスイッチがあるが、[NLINE]
+　壊れているようだ。　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2C80 - STRING #24 @ $30CE
+#W32($2C80)
+//　[NLINE]
+//レバーがあるが、　　[NLINE]
+//　壊れているようだ。[END-FE]
+　[NLINE]
+レバーがあるが、　　[NLINE]
+　壊れているようだ。[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2C84 - STRING #25 @ $30FF
+#W32($2C84)
+//　[NLINE]
+//宝箱にはカギがかかっている。[END-FE]
+　[NLINE]
+宝箱にはカギがかかっている。[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2C88 - STRING #26 @ $3122
+#W32($2C88)
+//本来はこのタイミングでは[NLINE]
+//宝箱は開けられませんが、フラグが立っています。[END-FE]
+本来はこのタイミングでは[NLINE]
+宝箱は開けられませんが、フラグが立っています。[END-FE]
+
+
+
+
+
+//POINTER #27 @ $2C8C - STRING #27 @ $316D
+#W32($2C8C)
+//カギがかかっている。　　　　　　　[NLINE]
+//しかし、ぼろぼろに錆びているため、[NLINE]
+//簡単に開ける事ができた。　　　　　[END-FE]
+カギがかかっている。　　　　　　　[NLINE]
+しかし、ぼろぼろに錆びているため、[NLINE]
+簡単に開ける事ができた。　　　　　[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2C90 - STRING #28 @ $31DA
+#W32($2C90)
+//天井からの水滴で、　　　　[NLINE]
+//宝箱にかかっていたカギが　[NLINE]
+//サビてしまっていたようだ。[END-FE]
+天井からの水滴で、　　　　[NLINE]
+宝箱にかかっていたカギが　[NLINE]
+サビてしまっていたようだ。[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2C94 - STRING #29 @ $322F
+#W32($2C94)
+//カギがかかっている。　　　　　　　[NLINE]
+//しかし、ぼろぼろに錆びているため、[NLINE]
+//簡単に開ける事ができた。　　　　　[END-FE]
+カギがかかっている。　　　　　　　[NLINE]
+しかし、ぼろぼろに錆びているため、[NLINE]
+簡単に開ける事ができた。　　　　　[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2C98 - STRING #30 @ $329C
+#W32($2C98)
+//周囲の邪悪な波動を感じているようで、[NLINE]
+//動作していない…。[END-FE]
+周囲の邪悪な波動を感じているようで、[NLINE]
+動作していない…。[END-FE]
+
+
+
+
+
+//POINTER #31 @ $2C9C - STRING #31 @ $32D7
+#W32($2C9C)
+//大いなる力の遺跡[END-FE]
+大いなる力の遺跡[END-FE]
+
+
+
+
+
+//POINTER #32 @ $2CA0 - STRING #32 @ $32EA
+#W32($2CA0)
+//扉にはカギがかかっている。[END-FE]
+扉にはカギがかかっている。[END-FE]
+
+
+
+
+
+//POINTER #33 @ $2CA4 - STRING #33 @ $3307
+#W32($2CA4)
+//配置パターンを選んで[END-FE]
+配置パターンを選んで[END-FE]
+
+
+
+
+
+//POINTER #34 @ $2CA8 - STRING #34 @ $331E
+#W32($2CA8)
+//・Ａパターン[END-FE]
+・Ａパターン[END-FE]
+
+
+
+
+
+//POINTER #35 @ $2CAC - STRING #35 @ $332D
+#W32($2CAC)
+//・Ｂパターン[END-FE]
+・Ｂパターン[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2CB0 - STRING #36 @ $333C
+#W32($2CB0)
+//デバッグ部屋行く？[END-FE]
+デバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2CB4 - STRING #37 @ $3351
+#W32($2CB4)
+//Ｄ　Ｄ５[END-FE]
+Ｄ　Ｄ５[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2CB8 - STRING #38 @ $335C
+#W32($2CB8)
+//　[NLINE]
+//魔法の力が、かき消された……[END-FE]
+　[NLINE]
+魔法の力が、かき消された……[END-FE]

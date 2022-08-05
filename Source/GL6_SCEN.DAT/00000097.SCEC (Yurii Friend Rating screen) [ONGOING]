@@ -1,0 +1,247 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $510, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $4A0, 4, PTR)
+
+#JMP($510)
+#HDR($510)
+
+
+
+
+
+//POINTER #0 @ $4A0 - STRING #0 @ $510
+#W32($4A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $4A4 - STRING #1 @ $513
+#W32($4A4)
+//[COL05]う…うん…好きだよ…[COL00][END-FE]
+//Wendy\\
+[COL05]う…うん…好きだよ…[END-FE]
+
+
+
+
+
+//POINTER #2 @ $4A8 - STRING #2 @ $530
+#W32($4A8)
+//[COL04]頼れるチームメイト…かな？[COL00][END-FE]
+[COL04]頼れるチームメイト…かな？[END-FE]
+
+
+
+
+
+//POINTER #3 @ $4AC - STRING #3 @ $553
+#W32($4AC)
+//[COL07]彼はチームメイトだよ[END-FE]
+[COL07]彼はチームメイトだよ[END-FE]
+
+
+
+
+
+//POINTER #4 @ $4B0 - STRING #4 @ $56D
+#W32($4B0)
+//[COL09]何考えてるかわからないよね[COL00][END-FE]
+[COL09]何考えてるかわからないよね[COL00][END-FE]
+
+
+
+
+
+//POINTER #5 @ $4B4 - STRING #5 @ $590
+#W32($4B4)
+//[COL05]素直に…尊敬しているぜ[COL00][END-FE]
+//Rukias\\
+[COL05]素直に…尊敬しているぜ[END-FE]
+
+
+
+
+
+//POINTER #6 @ $4B8 - STRING #6 @ $5AF
+#W32($4B8)
+//[COL04]なかなか超えられない壁だな[COL00][END-FE]
+[COL04]なかなか超えられない壁だな[END-FE]
+
+
+
+
+
+//POINTER #7 @ $4BC - STRING #7 @ $5D2
+#W32($4BC)
+//[COL07]まぁ、すぐに超えてやるよ[END-FE]
+[COL07]まぁ、すぐに超えてやるよ[END-FE]
+
+
+
+
+
+//POINTER #8 @ $4C0 - STRING #8 @ $5F0
+#W32($4C0)
+//[COL09]眼中にないね[COL00][END-FE]
+[COL09]眼中にないね[COL00][END-FE]
+
+
+
+
+
+//POINTER #9 @ $4C4 - STRING #9 @ $605
+#W32($4C4)
+//[COL05]彼が私の上官だったら…[COL00][END-FE]
+//Hofman\\
+[COL05]彼が私の上官だったら…[COL00][END-FE]
+
+
+
+
+
+//POINTER #10 @ $4C8 - STRING #10 @ $624
+#W32($4C8)
+//[COL04]頼れる男だと思う[COL00][END-FE]
+[COL04]頼れる男だと思う[COL00][END-FE]
+
+
+
+
+
+//POINTER #11 @ $4CC - STRING #11 @ $63D
+#W32($4CC)
+//[COL07]良い人だとは思いますよ[END-FE]
+[COL07]良い人だとは思いますよ[END-FE]
+
+
+
+
+
+//POINTER #12 @ $4D0 - STRING #12 @ $659
+#W32($4D0)
+//[COL09]別に、何とも…[COL00][END-FE]
+[COL09]別に、何とも…[COL00][END-FE]
+
+
+
+
+
+//POINTER #13 @ $4D4 - STRING #13 @ $670
+#W32($4D4)
+//[COL05]…特別な人です…[COL00][END-FE]
+//Iristelessa\\
+[COL05]…特別な人です…[COL00][END-FE]
+
+
+
+
+
+//POINTER #14 @ $4D8 - STRING #14 @ $689
+#W32($4D8)
+//[COL04]さすがは守護勇士ですね[COL00][END-FE]
+[COL04]さすがは守護勇士ですね[COL00][END-FE]
+
+
+
+
+
+//POINTER #15 @ $4DC - STRING #15 @ $6A8
+#W32($4DC)
+//[COL07]守護勇士ならあれくらい当然[END-FE]
+[COL07]守護勇士ならあれくらい当然[END-FE]
+
+
+
+
+
+//POINTER #16 @ $4E0 - STRING #16 @ $6C8
+#W32($4E0)
+//[COL09]守護勇士のくせに情けない…[COL00][END-FE]
+[COL09]守護勇士のくせに情けない…[COL00][END-FE]
+
+
+
+
+
+//POINTER #17 @ $4E4 - STRING #17 @ $6EB
+#W32($4E4)
+//[COL05]あの方以外見えません[COL00][END-FE]
+//Anita\\
+[COL05]あの方以外見えません[COL00][END-FE]
+
+
+
+
+
+//POINTER #18 @ $4E8 - STRING #18 @ $708
+#W32($4E8)
+//[COL04]特別な殿方です…[COL00][END-FE]
+[COL04]特別な殿方です…[COL00][END-FE]
+
+
+
+
+
+//POINTER #19 @ $4EC - STRING #19 @ $721
+#W32($4EC)
+//[COL07]私の恩人です[END-FE]
+[COL07]私の恩人です[END-FE]
+
+
+
+
+
+//POINTER #20 @ $4F0 - STRING #20 @ $733
+#W32($4F0)
+//[COL09]彼は変わってしまった…[COL00][END-FE]
+[COL09]彼は変わってしまった…[COL00][END-FE]
+
+
+
+
+
+//POINTER #21 @ $4F4 - STRING #21 @ $752
+#W32($4F4)
+//[COL05]俺の認める数少ない男だ[COL00][END-FE]
+//Haschen\\
+[COL05]俺の認める数少ない男だ[COL00][END-FE]
+
+
+
+
+
+//POINTER #22 @ $4F8 - STRING #22 @ $771
+#W32($4F8)
+//[COL04]良きライバル、かな？[COL00][END-FE]
+[COL04]良きライバル、かな？[COL00][END-FE]
+
+
+
+
+
+//POINTER #23 @ $4FC - STRING #23 @ $78E
+#W32($4FC)
+//[COL07]みんなをまとめる要だろうな[END-FE]
+[COL07]みんなをまとめる要だろうな[END-FE]
+
+
+
+
+
+//POINTER #24 @ $500 - STRING #24 @ $7AE
+#W32($500)
+//[COL09]悪いが、よくわからないな[COL00][END-FE]
+[COL09]悪いが、よくわからないな[COL00][END-FE]
+
+
+
+

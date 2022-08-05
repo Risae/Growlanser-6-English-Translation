@@ -1,0 +1,2672 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $6620, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $6320, 4, PTR)
+
+#JMP($6620)
+#HDR($6620)
+
+
+
+
+
+//POINTER #0 @ $6320 - STRING #0 @ $6620
+#W32($6320)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $6324 - STRING #1 @ $6623
+#W32($6324)
+//シュヴァイツァー[END-FF]
+Shuweizer[END-FF]
+
+
+
+
+
+//POINTER #2 @ $6328 - STRING #2 @ $6636
+#W32($6328)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $632C - STRING #3 @ $6643
+#W32($632C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $6330 - STRING #4 @ $6668
+#W32($6330)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・One of your companionsr dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $6334 - STRING #5 @ $668D
+#W32($6334)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $6338 - STRING #6 @ $66A2
+#W32($6338)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $633C - STRING #7 @ $66C7
+#W32($633C)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $6340 - STRING #8 @ $66EC
+#W32($6340)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $6344 - STRING #9 @ $6721
+#W32($6344)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $6348 - STRING #10 @ $6756
+#W32($6348)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $634C - STRING #11 @ $677B
+#W32($634C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $6350 - STRING #12 @ $67A0
+#W32($6350)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $6354 - STRING #13 @ $67C5
+#W32($6354)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $6358 - STRING #14 @ $67DA
+#W32($6358)
+//ルキアス\\
+//[CHARCE00][V1B00]
+//なぁ…。[END-FE]
+//Rukias\\
+[CHARCE00][V1B00]
+Hey...[END-FE]
+
+
+
+
+
+//POINTER #15 @ $635C - STRING #15 @ $67ED
+#W32($635C)
+//ホフマン\\
+//[CHARCE00][V1C00]
+//ん？[NLINE]
+//どうかしたのかな？[END-FE]
+//Hofman\\
+[CHARCE00][V1C00]
+Hmm?[NLINE]
+What's the matter?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $6360 - STRING #16 @ $6810
+#W32($6360)
+//ルキアス\\
+//[CHARCE00][V1D00]
+//アンタ、すごく背が高いよな？[END-FE]
+//Rukias\\
+[CHARCE00][V1D00]
+You're really tall, aren't you?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $6364 - STRING #17 @ $6837
+#W32($6364)
+//ホフマン\\
+//[CHARCE00][V1E00]
+//あっはっはっ、[NLINE]
+//よく他人から『ウドの大木』…[NLINE]
+//なんて言われますけどね…。[END-FE]
+//Hofman\\
+[CHARCE00][V1E00]
+Ahahaha. I've often been called[NLINE]
+a "big weakling" by other[NLINE]
+people, though.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $6368 - STRING #18 @ $688A
+#W32($6368)
+//ルキアス\\
+//[CHARCE00][V1F00]
+//そんなことないだろう？[NLINE]
+//その体つきを見れば、[NLINE]
+//それなりに強い奴だってわかる。[END-FE]
+//Rukias\\
+[CHARCE00][V1F00]
+No way![NLINE]
+One look at your physique would[NLINE]
+tell people you're a reasonably[NLINE]
+strong guy.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $636C - STRING #19 @ $68E1
+#W32($636C)
+//ホフマン\\
+//[CHARCE00][V2000]
+//それなりに…ね…。[NWIN]
+//
+//[CHARCE00][V2100]
+//…それで？[NLINE]
+//それが何か？[END-FE]
+//Hofman\\
+[CHARCE00][V2000]
+I suppose I am...[NWIN]
+
+[CHARCE00][V2100]
+...So then, what's[NLINE]
+this about?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $6370 - STRING #20 @ $6920
+#W32($6370)
+//ルキアス\\
+//[CHARCE00][V2200]
+//どうやったら、[NLINE]
+//そこまで大きくなれるんだ？[END-FE]
+//Rukias\\
+[CHARCE00][V2200]
+What did you do to become[NLINE]
+that big?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $6374 - STRING #21 @ $6955
+#W32($6374)
+//ホフマン\\
+//[CHARCE00][V2300]
+//どうやってと言われても…[NLINE]
+//…う～ん…。[END-FE]
+//Hofman\\
+[CHARCE00][V2300]
+What did I do...?[NLINE]
+hmmm...[END-FE]
+
+
+
+
+
+//POINTER #22 @ $6378 - STRING #22 @ $6986
+#W32($6378)
+//ルキアス\\
+//[CHARCE00][V2400]
+//頼む、教えてくれ！[END-FE]
+//Rukias\\
+[CHARCE00][V2400]
+Please! You've got to tell me![END-FE]
+
+
+
+
+
+//POINTER #23 @ $637C - STRING #23 @ $69A3
+#W32($637C)
+//ホフマン\\
+//[CHARCE00][V2500]
+//一言で言うと[NLINE]
+//『寝る子は育つ』…でしょうかね？[END-FE]
+//Hofman\\
+[CHARCE00][V2500]
+There's a saying:[NLINE]
+"A well-slept child is a[NLINE]
+well-kept child."[END-FE]
+
+
+
+
+
+//POINTER #24 @ $6380 - STRING #24 @ $69DC
+#W32($6380)
+//ルキアス\\
+//[CHARCE00][V2600]
+//『寝る子』…？[NLINE]
+//…寝ていれば育つのか…？[END-FE]
+//Rukias\\
+[CHARCE00][V2600]
+"A well-slept child"?[NLINE]
+...So if I sleep, I'll[NLINE]
+grow bigger...?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $6384 - STRING #25 @ $6A0F
+#W32($6384)
+//・その通り[END-FE]
+・That's right.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $6388 - STRING #26 @ $6A1C
+#W32($6388)
+//・そんなことはない[END-FE]
+・Of course not.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $638C - STRING #27 @ $6A31
+#W32($638C)
+//・寝るだけでは育たない[END-FE]
+・It's not just sleeping that[NLINE]
+ makes you grow.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $6390 - STRING #28 @ $6A4A
+#W32($6390)
+//ホフマン\\
+//[CHARCE00][V2700]
+//…と言っても、[NLINE]
+//ただ寝ていてはダメでしょうけどね…。[END-FE]
+//Hofman\\
+[CHARCE00][V2700]
+...Actually, that doesn't[NLINE]
+mean that all you should[NLINE]
+do is sleep...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $6394 - STRING #29 @ $6A89
+#W32($6394)
+//ホフマン\\
+//[CHARCE00][V2800]
+//いやいや、それが育つんですよ。[NLINE]
+//まぁ、ただ寝るだけじゃないんですが。[END-FE]
+//Hofman\\
+[CHARCE00][V2800]
+No, no, no! What you should be[NLINE]
+doing is growing. Sleeping[NLINE]
+isn't all there is to it,[NLINE]
+you know.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $6398 - STRING #30 @ $6AD8
+#W32($6398)
+//ホフマン\\
+//[CHARCE00][V2900]
+//そう、その通り。[END-FE]
+//Hofman\\
+[CHARCE00][V2900]
+Yes, that's right.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $639C - STRING #31 @ $6AF3
+#W32($639C)
+//ルキアス\\
+//[CHARCE00][V2A00]
+//どういうことだ？[END-FE]
+//Rukias\\
+[CHARCE00][V2A00]
+What do you mean?[END-FE]
+
+
+
+
+
+//POINTER #32 @ $63A0 - STRING #32 @ $6B0E
+#W32($63A0)
+//ホフマン\\
+//[CHARCE00][V2B00]
+//良く遊んで、良く食べて、良く眠ること。[NLINE]
+//これが成長の秘訣ですよ。[NWIN]
+//
+//[CHARCE00][V2C00]
+//身体が成長するのは寝ている間です。[NLINE]
+//そして成長は身体の足りないものを補うことです。[NWIN]
+//
+//[CHARCE00][V2D00]
+//背が届かないから背を伸ばす。[NLINE]
+//力が足りないから、筋肉がつく…。[NWIN]
+//
+//[CHARCE00][V2E00]
+//そのためにも身体が[NLINE]
+//それ以上の成長を欲しがるようにしないとね。[NWIN]
+//
+//[CHARCE00][V2F00]
+//もっとも、成長には栄養が必要ですから、[NLINE]
+//ちゃんと食べないとダメなのはわかりますね？[END-FE]
+//Hofman\\
+[CHARCE00][V2B00]
+Play well, eat well, sleep well.[NLINE]
+That is the secret to growing.[NWIN]
+
+[CHARCE00][V2C00]
+The body grows while it's sleeping.[NLINE]
+And growing is the body making up[NLINE]
+for something it lacks.[NWIN]
+
+[CHARCE00][V2D00]
+If you're not tall enough, your[NLINE]
+height will extend. If you're not[NLINE]
+strong enough, you will form muscles...[NWIN]
+
+[CHARCE00][V2E00]
+That's why you have to make your[NLINE]
+body desire to grow even more.[NWIN]
+
+[CHARCE00][V2F00]
+However, growth requires nutrition.[NLINE]
+You know that you won't grow any[NLINE]
+larger if you don't eat properly, right?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $63A4 - STRING #33 @ $6CA1
+#W32($63A4)
+//ルキアス\\
+//[CHARCE00][V3000]
+//あんたはそうやって[NLINE]
+//大きくなったのか？[END-FE]
+//Rukias\\
+[CHARCE00][V3000]
+You became big by[NLINE]
+doing those things?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $63A8 - STRING #34 @ $6CD2
+#W32($63A8)
+//ホフマン\\
+//[CHARCE00][V3100]
+//私は子供の頃、[NLINE]
+//やんちゃ坊主でした。[NWIN]
+//
+//[CHARCE00][V3200]
+//私には兄がいるんですが、[NLINE]
+//男兄弟というものは、[NLINE]
+//どうしても張り合おうとする。[NWIN]
+//
+//[CHARCE00][V3300]
+//兄というより、[NLINE]
+//ライバルなんですよね…。[NWIN]
+//
+//[CHARCE00][V3400]
+//兄に負けまいと、[NLINE]
+//いろいろムチャをしました。[END-FE]
+//Hofman\\
+[CHARCE00][V3100]
+When I was a child, I[NLINE]
+was mischievous.[NWIN]
+
+[CHARCE00][V3200]
+I have an older brother. You know[NLINE]
+how it is with brothers, they always[NLINE]
+try to compete with each other.[NWIN]
+
+[CHARCE00][V3300]
+We were rivals moreso than brothers.[NWIN]
+
+[CHARCE00][V3400]
+I was determined to not to be[NLINE]
+outdone by him, so I did all[NLINE]
+kinds of reckless things.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $63AC - STRING #35 @ $6DBF
+#W32($63AC)
+//ルキアス\\
+//[CHARCE00][V3500]
+//兄弟か…。[NLINE]
+//俺には兄弟はいないからな…。[NWIN]
+//
+//[CH.FACE:Normal][CHARCE00][V3600]
+//だけど、今の説明は[NLINE]
+//なんとなく分かる気がする。[NWIN]
+//
+//[CHARCE00][V3700]
+//やるからには勝ちたい！[NLINE]
+//…そういうことだろ？[END-FE]
+//Rukias\\
+[CHARCE00][V3500]
+Brothers, huh...?[NLINE]
+I don't have any brothers...[NWIN]
+
+[CH.FACE:Normal][CHARCE00][V3600]
+But I think I kind of get[NLINE]
+what you're trying to say.[NWIN]
+
+[CHARCE00][V3700]
+If you compete, compete to win![NLINE]
+...Right?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $63B0 - STRING #36 @ $6E64
+#W32($63B0)
+//ホフマン\\
+//[CHARCE00][V3800]
+//はい。[END-FE]
+//Hofman\\
+[CHARCE00][V3800]
+Yes.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $63B4 - STRING #37 @ $6E75
+#W32($63B4)
+//ルキアス\\
+//[CHARCE00][V3900]
+//だったら話は早い。[NLINE]
+//このまま鍛錬を続けていればいいって事だ！[END-FE]
+//Rukias\\
+[CHARCE00][V3900]
+That makes things easy.[NLINE]
+I should just keep training[NLINE]
+like I have before![END-FE]
+
+
+
+
+
+//POINTER #38 @ $63B8 - STRING #38 @ $6EBC
+#W32($63B8)
+//ルキアス\\
+//[CHARCE00][V3A00]
+//よし！[NLINE]
+//やるぞ！[END-FE]
+//Rukias\\
+[CHARCE00][V3A00]
+Alright![NLINE]
+Here I go![END-FE]
+
+
+
+
+
+//POINTER #39 @ $63BC - STRING #39 @ $6ED7
+#W32($63BC)
+//ユリィ\\
+//[CHARCE00][V3B00]
+//人間とはそうやって大きくなるのですか。[NLINE]
+//はじめて知りました。[END-FE]
+//Yurii\\
+[CHARCE00][V3B00]
+Humans grow larger by doing those things?[NLINE]
+I never knew about that.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $63C0 - STRING #40 @ $6F1E
+#W32($63C0)
+//ホフマン\\
+//[CHARCE00][V3C00]
+//…と、[NLINE]
+//私が思っているだけ…。[END-FE]
+//Hofman\\
+[CHARCE00][V3C00]
+...Well, that's just what I[NLINE]
+think...[END-FE]
+
+
+
+
+
+//POINTER #41 @ $63C4 - STRING #41 @ $6F47
+#W32($63C4)
+//ユリィ\\
+//[CHARCE00][V3D00]
+//…えっ？[NLINE]
+//それじゃ、嘘なんですか？[END-FE]
+//Yurii\\
+[CHARCE00][V3D00]
+Hmm?[NLINE]
+You were telling lies?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $63C8 - STRING #42 @ $6F74
+#W32($63C8)
+//ホフマン\\
+//[CHARCE00][V3E00]
+//いやいや、嘘ではないよ。[NLINE]
+//ただ、あくまで私の体験だというだけで[NLINE]
+//確実じゃないということさ。[END-FE]
+//Hofman\\
+[CHARCE00][V3E00]
+No no, they're not lies.[NLINE]
+I was purely speaking out of[NLINE]
+my own experience. They're not[NLINE]
+cold hard facts.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $63CC - STRING #43 @ $6FD9
+#W32($63CC)
+//ユリィ\\
+//…[CC.D80F]…[CC.D80F]…[CC.D80F]…[CHARCE00][V3F00]
+//はぁ…。[NWIN]
+//
+//[CH.FACE:Normal][CHARCE00][V4000]
+//でも、ルキアスさんの悩みが消えたなら、[NLINE]
+//それで良しとしますか。[END-FE]
+//Yurii\\
+.[CC.D80F].[CC.D80F].[CC.D80F].[CHARCE00][V3F00]
+*Sigh*...[NWIN]
+
+[CH.FACE:Normal][CHARCE00][V4000]
+But since it made Rukias stop worrying,[NLINE]
+I suppose it's a good thing you told him.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $63D0 - STRING #44 @ $7049
+#W32($63D0)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $63D4 - STRING #45 @ $7060
+#W32($63D4)
+//自動Ｄ　ＥＢ０９＿２前[END-FE]
+自動D　EB09_2前[END-FE]
+
+
+
+
+
+//POINTER #46 @ $63D8 - STRING #46 @ $7079
+#W32($63D8)
+//レイスタン方面[END-FE]
+//System Message\\
+To Leystan[END-FE]
+
+
+
+
+
+//POINTER #47 @ $63DC - STRING #47 @ $708A
+#W32($63DC)
+//シズランド高原方面[END-FE]
+//System Message\\
+To Shizland Plateau[END-FE]
+
+
+
+
+
+//POINTER #48 @ $63E0 - STRING #48 @ $709F
+#W32($63E0)
+//ユリィ\\
+//[CHAR4F00][V0000]
+//軍人さんが多いですね。[END-FE]
+//Yurii\\
+[CHAR4F00][V0000]
+There are many soldiers.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $63E4 - STRING #49 @ $70C0
+#W32($63E4)
+//ホフマン\\
+//[CHAR4F00][V0100]
+//警戒しているのか、[NLINE]
+//捜索しているのか…。[NWIN]
+//
+//[CHAR4F00][V0200]
+//どちらにしろレイスタンに駐留する[NLINE]
+//フォメロス軍に何かあったようですね。[END-FE]
+//Hofman\\
+[CHAR4F00][V0100]
+Are they on the lookout or conducting[NLINE]
+a search...?[NWIN]
+
+[CHAR4F00][V0200]
+Either way, it seems like something[NLINE]
+happened to the Fomeros troops[NLINE]
+stationed in Leystan.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $63E8 - STRING #50 @ $7143
+#W32($63E8)
+//ホフマン\\
+//[CHAR2900][V0000]
+//ジアント山は[NLINE]
+//この湖を[COL01]南から西[COL00]に回り込んだ先だ。[END-FE]
+//Hofman\\
+[CHAR2900][V0000]
+If we go [COL01]south from this lake and[NLINE]
+then head west[COL00], we'll reach[NLINE]
+Jiant Mountain.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $63EC - STRING #51 @ $7184
+#W32($63EC)
+//ユリィ\\
+//[CHAR5200][V1E00]
+//街が見えてきましたね。[NWIN]
+//
+//[CHAR5200][V1F00]
+//アニータさん、[NLINE]
+//大丈夫ですか。[END-FE]
+//Yurii\\
+[CHAR5200][V1E00]
+The city has come into view.[NWIN]
+
+[CHAR5200][V1F00]
+Anita, are you alright?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $63F0 - STRING #52 @ $71CD
+#W32($63F0)
+//アニータ\\
+//[CHAR5200][V2000]
+//はい、さすがに疲れました。[NWIN]
+//
+//[CHAR5200][V2100]
+//ずっとあの部屋の中だったもので、[NLINE]
+//こんなに歩いたのは初めてです。[END-FE]
+//Anita\\
+[CHAR5200][V2000]
+Yes, I'm tired, that's all.[NWIN]
+
+[CHAR5200][V2100]
+I've been in that room for a[NLINE]
+long time, and this is the[NLINE]
+first time I've walked such a[NLINE]
+long distance.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $63F4 - STRING #53 @ $723C
+#W32($63F4)
+//ウェンディ\\
+//[CHAR5200][V2200]
+//これからのことを話し合うためにも[NLINE]
+//どこか落ち着ける場所に行きましょう。[END-FE]
+//Wendy\\
+[CHAR5200][V2200]
+Let's go somewhere calm and talk about[NLINE]
+what we're going to do next.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $63F8 - STRING #54 @ $728D
+#W32($63F8)
+//ユリィ\\
+//先にファニルさんを研究所へ[NLINE]
+//お連れしましょう。[END-FE]
+//Yurii\\
+Let's take Fanille to the[NLINE]
+research center first.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $63FC - STRING #55 @ $72BE
+#W32($63FC)
+//ルキアス\\
+//レイスタンの宿に寄ってくれ。[NLINE]
+//じいさんを巫女に会わせてやりたいんだ。[END-FE]
+//Rukias\\
+Let's stop by at the inn in Leystan.[NLINE]
+I want to let the old man meet the[NLINE]
+Shrine Maiden.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $6400 - STRING #56 @ $7305
+#W32($6400)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $6404 - STRING #57 @ $731C
+#W32($6404)
+//自動Ｄ　ＥＢ０７＿３前[END-FE]
+自動D EB07_3前[END-FE]
+
+
+
+
+
+//POINTER #58 @ $6408 - STRING #58 @ $7335
+#W32($6408)
+//ルキアス\\
+//はやくフォメロス軍を退かせる方法を[NLINE]
+//考えないと！[END-FE]
+//Rukias\\
+We have to quickly think of a way[NLINE]
+to make the Fomeros troops retreat![END-FE]
+
+
+
+
+
+//POINTER #59 @ $640C - STRING #59 @ $7368
+#W32($640C)
+//ルキアス\\
+//レイスタンの宿に寄ってくれ。[NLINE]
+//あんたに会わせたい人がいるんだ。[END-FE]
+//Rukias\\
+Let's stop by at the inn in Leystan.[NLINE]
+There's someone I want you to meet.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $6410 - STRING #60 @ $73A9
+#W32($6410)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #61 @ $6414 - STRING #61 @ $73C0
+#W32($6414)
+//自動Ｄ　ＥＢ０７＿Ｘ１前[END-FE]
+自動D EB07_X1前[END-FE]
+
+
+
+
+
+//POINTER #62 @ $6418 - STRING #62 @ $73DB
+#W32($6418)
+//ユリィ\\
+//[CHAR2E00][V0F00]
+//これはトランス・ゲートですよね？[NLINE]
+//停止状態のようですが…。[NWIN]
+//
+//[CHAR2E00][V1000]
+//あのゲートオープナーを使えば[NLINE]
+//機能を修復出来るのではないでしょうか？[END-FE]
+//Yurii\\
+[CHAR2E00][V0F00]
+This is a Transgate, right?[NLINE]
+It seems to have stopped working.[NWIN]
+
+[CHAR2E00][V1000]
+If we used that gate opener,[NLINE]
+couldn't we restore function to it?[END-FE]
+
+
+
+
+
+//POINTER #63 @ $641C - STRING #63 @ $746E
+#W32($641C)
+//ユリィ\\
+//これはトランス・ゲートですよね？[NLINE]
+//停止状態のようですが…。[NWIN]
+//
+//あのゲートリングを使えば[NLINE]
+//機能を修復出来るのではないでしょうか？[END-FE]
+//Yurii\\
+This is a Transgate, right?[NLINE]
+It seems to have stopped working.[NWIN]
+
+If we used that Gate Ring,[NLINE]
+couldn't we restore function to it?[END-FE]
+
+
+
+
+
+//POINTER #64 @ $6420 - STRING #64 @ $74ED
+#W32($6420)
+//　[NLINE]
+//トランス・ゲートのようだが、機能していない。[END-FE]
+//System Message\\
+It looks like a Transgate, but it's[NLINE]
+not working.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $6424 - STRING #65 @ $7520
+#W32($6424)
+//ルキアス\\
+//レイスタンの宿に寄ってくれ。[NLINE]
+//じいさんを巫女に会わせてやりたいんだ。[END-FE]
+//Rukias\\
+Let's stop by at the inn in Leystan.[NLINE]
+I want to let the old man meet the[NLINE]
+Shrine Maiden.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $6428 - STRING #66 @ $7567
+#W32($6428)
+//ユリィ\\
+//皆さんを置いていくわけには参りません。[NLINE]
+//ゲートを利用するならば、[NLINE]
+//皆さんと合流してからにしましょう。[END-FE]
+//Yurii\\
+We can't leave everyone behind.[NLINE]
+Let's gather everyone before we[NLINE]
+use the Gate.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $642C - STRING #67 @ $75CE
+#W32($642C)
+//フォメロス国ロイフェロン[NLINE]
+//　レノックス研究所方面[END-FE]
+//System Message\\
+To Royferon (Fomeros) and[NLINE]
+Lennox Research Facility[END-FE]
+
+
+
+
+
+//POINTER #68 @ $6430 - STRING #68 @ $7601
+#W32($6430)
+//シズランド高原方面[END-FE]
+//System Message\\
+To Shizland Plateau[END-FE]
+
+
+
+
+
+//POINTER #69 @ $6434 - STRING #69 @ $7616
+#W32($6434)
+//ヒンギスタン王国[NLINE]
+//レイスタン[END-FE]
+//System Message\\
+Hingistan Kingdom[NLINE]
+Leystan[END-FE]
+
+
+
+
+
+//POINTER #70 @ $6438 - STRING #70 @ $7635
+#W32($6438)
+//　[NLINE]
+//ポリュミネの樹が光を放っている…。[END-FE]
+//System Message\\
+[NLINE]
+The Pollumine tree is glowing...[END-FE]
+
+
+
+
+
+//POINTER #71 @ $643C - STRING #71 @ $765E
+#W32($643C)
+//　[NLINE]
+//既にゲートは使えるようになっている。[END-FE]
+//System Message\\
+[NLINE]
+The gate is already ready to be used.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $6440 - STRING #72 @ $7689
+#W32($6440)
+//ルキアス\\
+//[CHAR3E00][V0000]
+//なぁ、ちょっとイイか？[END-FE]
+//Rukias\\
+[CHAR3E00][V0000]
+Hey, do you have a moment?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $6444 - STRING #73 @ $76AA
+#W32($6444)
+//イリステレサ\\
+//[CHAR3E00][V0100]
+//何か？[END-FE]
+//Iristelessa\\
+[CHAR3E00][V0100]
+What is it?[END-FE]
+
+
+
+
+
+//POINTER #74 @ $6448 - STRING #74 @ $76BB
+#W32($6448)
+//ルキアス\\
+//[CHAR3E00][V0200]
+//里の生き残りのじいさんがいるんだ。[NLINE]
+//ちょっと会ってやってくれないか？[END-FE]
+//Rukias\\
+[CHAR3E00][V0200]
+There's a survivor from Earth Village[NLINE]
+is this city. Could you meet with[NLINE]
+him?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $644C - STRING #75 @ $770A
+#W32($644C)
+//イリステレサ\\
+//[CC.AC00][CHAR3E00][V0300]
+//……。[END-FE]
+//Iristelessa\\
+[CC.AC00][CHAR3E00][V0300]
+...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $6450 - STRING #76 @ $771E
+#W32($6450)
+//・会うように勧める[END-FE]
+・Recommend her to meet him[END-FE]
+
+
+
+
+
+//POINTER #77 @ $6454 - STRING #77 @ $7733
+#W32($6454)
+//・別に会う必要はない[END-FE]
+・It's not particularly necessary to meet[NLINE]
+ him[END-FE]
+
+
+
+
+
+//POINTER #78 @ $6458 - STRING #78 @ $774A
+#W32($6458)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #79 @ $645C - STRING #79 @ $7759
+#W32($645C)
+//イリステレサ\\
+//[CHAR3E00][V0400]
+//そうですね。[NLINE]
+//これが最後のチャンスかも知れませんし。[END-FE]
+//Iristelessa\\
+[CHAR3E00][V0400]
+You are right. This is probably my[NLINE]
+last chance.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $6460 - STRING #80 @ $7798
+#W32($6460)
+//ルキアス\\
+//[CHAR3E00][V0500]
+//アンタは黙ってろよ。[NWIN]
+//
+//[CH.FACE:Sad][CHAR3E00][V0600]
+//頼む、[NLINE]
+//じいさんに会ってやってくれ。[END-FE]
+//Rukias\\
+[CHAR3E00][V0500]
+I didn't ask you.[NWIN]
+
+[CH.FACE:Sad][CHAR3E00][V0600]
+Please, meet with the old man.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $6464 - STRING #81 @ $77E9
+#W32($6464)
+//イリステレサ\\
+//[CHAR3E00][V0700]
+//…わかりました。[NLINE]
+//これが最後のチャンスかも知れませんから。[END-FE]
+//Iristelessa\\
+[CHAR3E00][V0700]
+...Very well.[NLINE]
+This might be my last chance.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $6468 - STRING #82 @ $782E
+#W32($6468)
+//ルキアス\\
+//[CHAR3E00][V0800]
+//頼む、[NLINE]
+//じいさんに会ってやってくれ。[END-FE]
+//Rukias\\
+[CHAR3E00][V0800]
+Please, meet with the old man.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $646C - STRING #83 @ $785D
+#W32($646C)
+//イリステレサ\\
+//[CHAR3E00][V0900]
+//…わかりました。[NLINE]
+//これが最後のチャンスかも知れませんから。[END-FE]
+//Iristelessa\\
+[CHAR3E00][V0900]
+...Very well.[NLINE]
+This might be my last chance.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $6470 - STRING #84 @ $78A2
+#W32($6470)
+//ウェンディ\\
+//[CHAR3E00][V0A00]
+//それじゃ、レイスタンね。[END-FE]
+//Wendy\\
+[CHAR3E00][V0A00]
+Then let's head to Leystan.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $6474 - STRING #85 @ $78C5
+#W32($6474)
+//フォメロス国軍兵士\\
+//[CHAR4F00][V0300]
+//おい、そこの奴ら、止まれ！[NLINE]
+//　[END-FE]
+//Fomeros Soldier\\
+[CHAR4F00][V0300]
+Hey, you there! Hold it![END-FE]
+
+
+
+
+
+//POINTER #86 @ $6478 - STRING #86 @ $78EE
+#W32($6478)
+//フォメロス国軍兵士\\
+//[CHAR4F00][V0400]
+//現在は特別警戒中だ！　　　[NLINE]
+//身分証を提示しろ！[END-FE]
+//Fomeros Soldier\\
+[CHAR4F00][V0400]
+We're currently in a state of alert![NLINE]
+Show your proof of identity![END-FE]
+
+
+
+
+
+//POINTER #87 @ $647C - STRING #87 @ $7927
+#W32($647C)
+//フォメロス国軍兵士\\
+//[CHAR4F00][V0500]
+//早く身分証を提示しろ！[END-FE]
+//Fomeros Soldier\\
+[CHAR4F00][V0500]
+Hurry up and show me proof of[NLINE]
+your identity.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $6480 - STRING #88 @ $7948
+#W32($6480)
+//フォメロス国軍兵士\\
+//[CHAR4F00][V0600]
+//モノポリス社の者か。[NWIN]
+//
+//[CHAR4F00][V0700]
+//通ってよし。[END-FE]
+//Fomeros Soldier\\
+[CHAR4F00][V0600]
+I see you're Monopolis employees.[NWIN]
+
+[CHAR4F00][V0700]
+You may pass.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $6484 - STRING #89 @ $797D
+#W32($6484)
+//フォメロス国軍兵士\\
+//怪しい者を見かけたら[NLINE]
+//ご一報を。[END-FE]
+//Fomeros Soldier\\
+Please let us know if you[NLINE]
+see anyone suspicious.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $6488 - STRING #90 @ $79A0
+#W32($6488)
+//フォメロス国軍兵士\\
+//テロリストの警戒中だ。[NLINE]
+//ここからフォメロスまでの街道が[NLINE]
+//現在封鎖されている。[END-FE]
+//Fomeros Soldier\\
+We're on the lookout for terrorists.[NLINE]
+This road leads to Fomeros but is[NLINE]
+currently closed off.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $648C - STRING #91 @ $79EF
+#W32($648C)
+//フォメロス国軍兵士\\
+//テロリストの警戒中だ。[NLINE]
+//ここからフォメロスまでの街道が[NLINE]
+//現在封鎖されている。[END-FE]
+//Fomeros Soldier\\
+We're on the alert for terrorists.[NLINE]
+This road leads to Fomeros but is[NLINE]
+currently closed off.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $6490 - STRING #92 @ $7A3E
+#W32($6490)
+//フォメロス国軍兵士\\
+//…怪しいヤツを見なかったか？[END-FE]
+//Fomeros Soldier\\
+...Did you see anyone suspicious?[END-FE]
+
+
+
+
+
+//POINTER #93 @ $6494 - STRING #93 @ $7A5D
+#W32($6494)
+//フォメロス国軍兵士\\
+//お前たち、[NLINE]
+//テロリストじゃないだろうな？[END-FE]
+//Fomeros Soldier\\
+You're not terrorists, are you?[END-FE]
+
+
+
+
+
+
+//POINTER #94 @ $6498 - STRING #94 @ $7A88
+#W32($6498)
+//フォメロス国軍兵士\\
+//怪しいヤツを見かけたら、[NLINE]
+//ご一報下さい。[END-FE]
+//Fomeros Soldier\\
+Please let us know if you[NLINE]
+see anyone suspicious.[END-FE]
+
+
+
+
+
+//POINTER #95 @ $649C - STRING #95 @ $7AB3
+#W32($649C)
+//デバッグセーブに行きますか？[END-FE]
+Do you want to go to a debugging save?[END-FE]
+
+
+
+
+
+//POINTER #96 @ $64A0 - STRING #96 @ $7AD2
+#W32($64A0)
+//Ｄ　Ｆ２３[END-FE]
+D F23[END-FE]
+
+
+
+
+
+//POINTER #97 @ $64A4 - STRING #97 @ $7ADF
+#W32($64A4)
+//ユリィ\\
+//ひょっとして、[NLINE]
+//あそこにいるのが[NLINE]
+//そうなのでは…？[END-FE]
+//Yurii\\
+Could that person over[NLINE]
+there be him...?[END-FE]
+
+
+
+
+
+//POINTER #98 @ $64A8 - STRING #98 @ $7B14
+#W32($64A8)
+//ユリィ\\
+//ひょっとして、[NLINE]
+//あそこにいるのが[NLINE]
+//そうなのでは…？[END-FE]
+//Yurii\\
+Could that person over[NLINE]
+there be him...?[END-FE]
+
+
+
+
+
+//POINTER #99 @ $64AC - STRING #99 @ $7B49
+#W32($64AC)
+//ユリィ\\
+//[CHARCA00][V0000]
+//あの…あなたは…？[END-FE]
+//Yurii\\
+[CHARCA00][V0000]
+Excuse me... Are you...?[END-FE]
+
+
+
+
+
+//POINTER #100 @ $64B0 - STRING #100 @ $7B66
+#W32($64B0)
+//赤狼隊メンバー\\
+//[CHARCA00][V0100]
+//…できれば…[NLINE]
+//会いたくはなかったな。[END-FE]
+//Red Wolf Member\\
+[CHARCA00][V0100]
+...I would have prefered not[NLINE]
+to meet with you.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $64B4 - STRING #101 @ $7B95
+#W32($64B4)
+//ユリィ\\
+//[CHARCA00][V0200]
+//やはり！[NLINE]
+//生きていたのですね！[END-FE]
+//Yurii\\
+[CHARCA00][V0200]
+I knew it![NLINE]
+You're alive![END-FE]
+
+
+
+
+
+//POINTER #102 @ $64B8 - STRING #102 @ $7BBE
+#W32($64B8)
+//シュヴァイツァー\\
+//[CHARCA00][V0300]
+//ほとんど死にかけていたのだがな。[NLINE]
+//シャイアーのやつが余計なことをした。[NWIN]
+//
+//[CHARCA00][V0400]
+//レノックス研究所には大地の里から押収した[NLINE]
+//ある機械がある。それを使ったらしい。[END-FE]
+//Shuweizer\\
+[CHARCA00][V0300]
+I almost died. Shayer did something[NLINE]
+she shouldn't have...[NWIN]
+
+[CHARCA00][V0400]
+There's a device at the Lennox[NLINE]
+Research Facility that was taken[NLINE]
+from Earth Village. It seems[NLINE]
+she used it to safe me.[END-FE]
+
+
+
+
+
+//POINTER #103 @ $64BC - STRING #103 @ $7C67
+#W32($64BC)
+//・なぜ生きていることを言わないのか？[END-FE]
+・Why didn't you let us know you survived?[END-FE]
+
+
+
+
+
+//POINTER #104 @ $64C0 - STRING #104 @ $7C8E
+#W32($64C0)
+//・名乗らないことの理由が想像できる[END-FE]
+・I can imagine the reason you didn't[NLINE]
+ name yourself[END-FE]
+
+
+
+
+
+//POINTER #105 @ $64C4 - STRING #105 @ $7CB3
+#W32($64C4)
+//シュヴァイツァー\\
+//[CHARCA00][V0500]
+//すべてはインフィニトー対策だ。[END-FE]
+//Shuweizer\\
+[CHARCA00][V0500]
+I had to protect myself from Infinitor.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $64C8 - STRING #106 @ $7CDC
+#W32($64C8)
+//・それはアニータのため[END-FE]
+・It was for Anita's sake[END-FE]
+
+
+
+
+
+//POINTER #107 @ $64CC - STRING #107 @ $7CF5
+#W32($64CC)
+//・以前のように戦えないため[END-FE]
+・Because you can't fight like[NLINE]
+ you used to[END-FE]
+
+
+
+
+
+//POINTER #108 @ $64D0 - STRING #108 @ $7D12
+#W32($64D0)
+//・インフィニトー対策[END-FE]
+・You had to protect yourself from Infinitor[END-FE]
+
+
+
+
+
+//POINTER #109 @ $64D4 - STRING #109 @ $7D29
+#W32($64D4)
+//シュヴァイツァー\\
+//[CHARCA00][V0600]
+//まったくの見当違いだ。[NWIN]
+//
+//[CHARCA00][V0700]
+//あいつのためならば、生存を明かして[NLINE]
+//総帥という重荷を降ろしてやりたいくらいだ。[END-FE]
+//Shuweizer\\
+[CHARCA00][V0600]
+You're completely wrong.[NWIN]
+
+[CHARCA00][V0700]
+For her sake, I would want nothing[NLINE]
+better than to reveal my survival and[NLINE]
+relieve her of the burden of being[NLINE]
+the company leader.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $64D8 - STRING #110 @ $7DA2
+#W32($64D8)
+//シュヴァイツァー\\
+//[CHARCA00][V0800]
+//確かにそれもあるが、[NLINE]
+//正しい答えじゃない。[END-FE]
+//Shuweizer\\
+[CHARCA00][V0800]
+That's true as well,[NLINE]
+but it's not the correct[NLINE]
+answer.[END-FE]
+
+
+
+
+
+//POINTER #111 @ $64DC - STRING #111 @ $7DD7
+#W32($64DC)
+//シュヴァイツァー\\
+//[CHARCA00][V0900]
+//わかっているようだな。[END-FE]
+//Shuweizer\\
+[CHARCA00][V0900]
+It seems you understand.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $64E0 - STRING #112 @ $7DF8
+#W32($64E0)
+//シュヴァイツァー\\
+//[CHARCA00][V0A00]
+//インフィニトーのことはイリスから聞いた。[NLINE]
+//俺の家系が奴の乗り移る肉体に[NLINE]
+//一番適合するらしいとな。[NWIN]
+//
+//[CHARCA00][V0B00]
+//ならば、親父の肉体が使えなくなった時、[NLINE]
+//奴が真っ先に狙うのは俺の体だ。[NWIN]
+//
+//[CHARCA00][V0C00]
+//つまり俺は、奴にとって、肉体のスペアだ。[NWIN]
+//
+//[CHARCA00][V0D00]
+//だが幸いなことに、ネーリスによって[NLINE]
+//俺は死んだことになっている。[NLINE]
+//ならばそのままの方がいいだろう。[NWIN]
+//
+//[CHARCA00][V0E00]
+//それに…、[NLINE]
+//…今の俺は時間移動が出来ない。[END-FE]
+//Shuweizer\\
+[CHARCA00][V0A00]
+I heard about Infinitor from Iris.[NLINE]
+It seems the people from my family[NLINE]
+are the most suitable for him to[NLINE]
+possess.[NWIN]
+
+[CHARCA00][V0B00]
+Which means that once my father's[NLINE]
+body becomes unusable, he will[NLINE]
+fist and foremost try to possess[NLINE]
+mine.[NWIN]
+
+[CHARCA00][V0C00]
+In other words, I'm a spare[NLINE]
+body to him.[NWIN]
+
+[CHARCA00][V0D00]
+However, he fortunately thinks that[NLINE]
+I have been killed by Neilis.[NLINE]
+It's best to keep it that way.[NWIN]
+
+[CHARCA00][V0E00]
+Also... I can no longer[NLINE]
+travel through time.[END-FE]
+
+
+
+
+
+//POINTER #113 @ $64E4 - STRING #113 @ $7F85
+#W32($64E4)
+//ユリィ\\
+//[CHARCA00][V0F00]
+//えっ、なぜですか？[END-FE]
+//Yurii\\
+[CHARCA00][V0F00]
+What? Why?[END-FE]
+
+
+
+
+
+//POINTER #114 @ $64E8 - STRING #114 @ $7FA2
+#W32($64E8)
+//シュヴァイツァー\\
+//[CHARCA00][V1000]
+//俺の体を元に戻し、命を救ったあの装置。[NLINE]
+//余計なことに、時を越える手術が施される[NLINE]
+//前の体に戻しやがった…。[NWIN]
+//
+//[CHARCA00][V1100]
+//そういうことで、以前のように[NLINE]
+//過去に遡ることは出来なくなった。[NWIN]
+//
+//[CHARCA00][V1200]
+//…まぁ、なっちまったものは仕方ない。[NLINE]
+//だから俺は、[NLINE]
+//影からサポートすることにしたんだ。[END-FE]
+//Shuweizer\\
+[CHARCA00][V1000]
+The device that saved my life[NLINE]
+also returned my body to normal.[NLINE]
+It returned my body back to the state[NLINE]
+it was in before I received the[NLINE]
+operation that allowed me to travel[NLINE]
+through time.[NWIN]
+
+[CHARCA00][V1100]
+That's why I can no longer travel to the[NLINE]
+past.[NWIN]
+
+[CHARCA00][V1200]
+...Well, what's done is done.[NLINE]
+For that reason, I decided to[NLINE]
+support you from the shadows.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $64EC - STRING #115 @ $80BD
+#W32($64EC)
+//ユリィ\\
+//[CHARCA00][V1300]
+//シュヴァイツァーさん…。[END-FE]
+//Yurii\\
+[CHARCA00][V1300]
+Shuweizer...[END-FE]
+
+
+
+
+
+//POINTER #116 @ $64F0 - STRING #116 @ $80E0
+#W32($64F0)
+//シュヴァイツァー\\
+//[CHARCA00][V1400]
+//くだらんことを長々と話してしまった。[NWIN]
+//
+//[CHARCA00][V1500]
+//いいか？[NLINE]
+//次に俺に会っても、絶対に話しかけるな。[END-FE]
+//Shuweizer\\
+[CHARCA00][V1400]
+Anyway, this pointless chit chat[NLINE]
+is just a waste of time.[NWIN]
+
+[CHARCA00][V1500]
+If you meet me again,[NLINE]
+don't talk to me under any[NLINE]
+circumstances. Got that?[END-FE]
+
+
+
+
+
+//POINTER #117 @ $64F4 - STRING #117 @ $8149
+#W32($64F4)
+//シュヴァイツァー\\
+//[CHARCA00][V1600]
+//それから…、[END-FE]
+//Shuweizer\\
+[CHARCA00][V1600]
+Also...[END-FE]
+
+
+
+
+
+//POINTER #118 @ $64F8 - STRING #118 @ $8160
+#W32($64F8)
+//シュヴァイツァー\\
+//[CHARCA00][V1700]
+//…このことは誰にも言うなよ。[END-FE]
+//Shuweizer\\
+[CHARCA00][V1700]
+...Don't tell anyone about this.[END-FE]
+
+
+
+
+
+//POINTER #119 @ $64FC - STRING #119 @ $8187
+#W32($64FC)
+//モノポリス社警備兵長\\
+//現在、急ピッチで進入路の確保中です。[END-FE]
+//Monopolis Officer\\
+We're currently rushing to clear a path[NLINE]
+through the forest.[END-FE]
+
+
+
+
+
+//POINTER #120 @ $6500 - STRING #120 @ $81AE
+#W32($6500)
+//モノポリス社警備兵長\\
+//作業員の安全は、[NLINE]
+//我が命に代えても守ってみせる！[END-FE]
+//Monopolis Officer\\
+I will protect the workers, even[NLINE]
+if I have to give up my own life![END-FE]
+
+
+
+
+
+//POINTER #121 @ $6504 - STRING #121 @ $81E1
+#W32($6504)
+//モノポリス社警備兵\\
+//最近、スクリーパーが出没しているらしい。[NLINE]
+//ああ、俺も[COL01]浸透剄[COL00]を持っていれば、[NLINE]
+//少しは気が楽なのに…。[END-FE]
+//Monopolis Guard\\
+It seems that Screapers have been appearing[NLINE]
+frequently lately. Ah, if only I had a [COL01]Penetrator Gem[COL00],[NLINE]
+I would feel a bit more at ease...[END-FE]
+
+
+
+
+
+//POINTER #122 @ $6508 - STRING #122 @ $824C
+#W32($6508)
+//モノポリス社警備兵\\
+//絶対に負けないぞ！[END-FE]
+//Monopolis Guard\\
+Don't you lose![END-FE]
+
+
+
+
+
+//POINTER #123 @ $650C - STRING #123 @ $8261
+#W32($650C)
+//モノポリス社警備兵\\
+//ポリュミネにスクリーパー除けの効果があれば[NLINE]
+//こんなに怯えなくていいのに…。[END-FE]
+//Monopolis Guard\\
+If Pollumine had the effect of warding[NLINE]
+off Screapers, I wouldn't have to be[NLINE]
+so scared...[END-FE]
+
+
+
+
+
+//POINTER #124 @ $6510 - STRING #124 @ $82AE
+#W32($6510)
+//モノポリス社警備兵\\
+//スクリーパーが相手だろうと！[NLINE]
+//…ひるみはしない…！[END-FE]
+//Monopolis Guard\\
+Even if we end up fighting Screapers,[NLINE]
+...I won't be daunted...![END-FE]
+
+
+
+
+
+//POINTER #125 @ $6514 - STRING #125 @ $82E3
+#W32($6514)
+//モノポリス社警備兵\\
+//い、今のところ敵影はありません！[END-FE]
+//Monopolis Guard\\
+N-no sign of the enemy so far![END-FE]
+
+
+
+
+
+//POINTER #126 @ $6518 - STRING #126 @ $8306
+#W32($6518)
+//モノポリス社警備兵\\
+//作業員は守りましょう！[END-FE]
+//Monopolis Guard\\
+We'll protect the workers![END-FE]
+
+
+
+
+
+//POINTER #127 @ $651C - STRING #127 @ $831F
+#W32($651C)
+//男\\
+//人が通れるだけの伐採と言っても、[NLINE]
+//けっこう切らないといけないからな。[END-FE]
+//Man\\
+Even cutting away just enough tress so[NLINE]
+that people can pass through is still quite[NLINE]
+a lot of work.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $6520 - STRING #128 @ $8366
+#W32($6520)
+//男\\
+//おらぁ！[NLINE]
+//手を休めるな～！[END-FE]
+//Man\\
+Hey, don't slack off![END-FE]
+
+
+
+
+
+//POINTER #129 @ $6524 - STRING #129 @ $8383
+#W32($6524)
+//男\\
+//危険だから、[NLINE]
+//近づかないでくれないかな。[END-FE]
+//Man\\
+It's dangerous, so please don't[NLINE]
+get close.[END-FE]
+
+
+
+
+
+//POINTER #130 @ $6528 - STRING #130 @ $83AE
+#W32($6528)
+//男\\
+//君たちを信じてるぞ！[END-FE]
+//Man\\
+We believe in you![END-FE]
+
+
+
+
+
+//POINTER #131 @ $652C - STRING #131 @ $83C5
+#W32($652C)
+//男\\
+//何でも一斉攻撃をするんだって？[NLINE]
+//絶対間に合わせるよ。[END-FE]
+//Man\\
+So I heard that everyone will attack[NLINE]
+all at once? Don't worry, we'll[NLINE]
+definitely finish on time.[END-FE]
+
+
+
+
+
+//POINTER #132 @ $6530 - STRING #132 @ $83FC
+#W32($6530)
+//男\\
+//こ、怖くない…！[NLINE]
+//怖くないぞぉっ！[END-FE]
+//Man\\
+I-I'm not scared...![NLINE]
+No sir![END-FE]
+
+
+
+
+
+//POINTER #133 @ $6534 - STRING #133 @ $8421
+#W32($6534)
+//ユリィ\\
+//[CHAR6B00][V0000]
+//森を切り開いていますね。[NLINE]
+//この奥に龍穴塔があるのでしょうか？[END-FE]
+//Yurii\\
+[CHAR6B00][V0000]
+They are cutting a way through the forest.[NLINE]
+Does the Ley Point Tower lay beyond?[END-FE]
+
+
+
+
+
+//POINTER #134 @ $6538 - STRING #134 @ $8468
+#W32($6538)
+//モノポリス社警備兵長\\
+//[CHAR6B00][V0100]
+//お疲れ様です。[NLINE]
+//あと少しで人が通れるようになります。[NLINE]
+//もう少しお待ちください。[END-FE]
+//Monopolis Officer\\
+[CHAR6B00][V0100]
+You've made it. Soon, you'll be able[NLINE]
+to pass. Please wait a while longer.[END-FE]
+
+
+
+
+
+//POINTER #135 @ $653C - STRING #135 @ $84C1
+#W32($653C)
+//モノポリス社警備兵\\
+//[CHAR6B00][V0200]
+//うわぁ、[NLINE]
+//で、出たぞ！[END-FE]
+//Monopolis Guard\\
+[CHAR6B00][V0200]
+Aaah! They're here![END-FE]
+
+
+
+
+
+//POINTER #136 @ $6540 - STRING #136 @ $84E2
+#W32($6540)
+//ユリィ\\
+//[CHAR6B00][V0300]
+//スクリーパーです！[NLINE]
+//皆さんを守らないと！[END-FE]
+//Yurii\\
+[CHAR6B00][V0300]
+Screapers! We have to[NLINE]
+protect everyone![END-FE]
+
+
+
+
+
+//POINTER #137 @ $6544 - STRING #137 @ $8515
+#W32($6544)
+//・モンスターの全滅[END-FE]
+・All monsters are defeated[END-FE]
+
+
+
+
+
+//POINTER #138 @ $6548 - STRING #138 @ $852A
+#W32($6548)
+//・作業員の死亡[NLINE]
+//・警備兵２名以上の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・A workers dies[NLINE]
+・More than two soldiers die[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #139 @ $654C - STRING #139 @ $8567
+#W32($654C)
+//ユリィ\\
+//モンスターが！[NLINE]
+//この騒ぎで注意を引いてしまったようです。[NLINE]
+//気をつけてください！[END-FE]
+//Yurii\\
+Monsters! It seems the noise[NLINE]
+caught their attention.[NLINE]
+Please be careful![END-FE]
+
+
+
+
+
+//POINTER #140 @ $6550 - STRING #140 @ $85B8
+#W32($6550)
+//赤狼隊メンバー\\
+//…スクリーパー…、[NLINE]
+//やはり出たか…。[NWIN]
+//
+//およばずながら[NLINE]
+//手助けする！[END-FE]
+//Red Wolf Member\\
+...Screapers...[NLINE]
+I knew they would come...[NWIN]
+
+I'll help you to the best[NLINE]
+of my ability![END-FE]
+
+
+
+
+
+//POINTER #141 @ $6554 - STRING #141 @ $85FD
+#W32($6554)
+//ユリィ\\
+//（シュヴァイツァーさん…。）[END-FE]
+//Yurii\\
+(Shuweizer...)[END-FE]
+
+
+
+
+
+//POINTER #142 @ $6558 - STRING #142 @ $861C
+#W32($6558)
+//ユリィ\\
+//…彼は…？[END-FE]
+//Yurii\\
+...Is he...?[END-FE]
+
+
+
+
+
+//POINTER #143 @ $655C - STRING #143 @ $8629
+#W32($655C)
+//赤狼隊メンバー\\
+//…おい。[NLINE]
+//わかっているだろうが…。[END-FE]
+//Red Wolf Member\\
+...Hey. You know who I am,[NLINE]
+don't you...?[END-FE]
+
+
+
+
+
+//POINTER #144 @ $6560 - STRING #144 @ $864E
+#W32($6560)
+//ユリィ\\
+//…はい、[NLINE]
+//心得ております。[NLINE]
+//誰にも申しません。[END-FE]
+//Yurii\\
+...Yes. We won't tell[NLINE]
+anyone.[END-FE]
+
+
+
+
+
+//POINTER #145 @ $6564 - STRING #145 @ $867F
+#W32($6564)
+//赤狼隊メンバー\\
+//…なら、いい…。[END-FE]
+//Red Wolf Member\\
+...Very well...[END-FE]
+
+
+
+
+
+//POINTER #146 @ $6568 - STRING #146 @ $8692
+#W32($6568)
+//アニータ\\
+//……えっ？[END-FE]
+//Anita\\
+...Hmm?[END-FE]
+
+
+
+
+
+//POINTER #147 @ $656C - STRING #147 @ $869F
+#W32($656C)
+//赤狼隊メンバー\\
+//…何を見ている…。[NLINE]
+//今は目の前の敵に集中しろ…。[END-FE]
+//Red Wolf Member\\
+...What are you looking at...?[NLINE]
+Focus on the enemy in fron of you...[END-FE]
+
+
+
+
+
+//POINTER #148 @ $6570 - STRING #148 @ $86D2
+#W32($6570)
+//アニータ\\
+//は、はいっ！[END-FE]
+//Anita\\
+Y-yes![END-FE]
+
+
+
+
+
+//POINTER #149 @ $6574 - STRING #149 @ $86E1
+#W32($6574)
+//赤狼隊メンバー\\
+//………。[END-FE]
+//Red Wolf Member\\
+...[END-FE]
+
+
+
+
+
+//POINTER #150 @ $6578 - STRING #150 @ $86EC
+#W32($6578)
+//赤狼隊メンバー\\
+//…チッ！[NLINE]
+//…ここまでか…。[END-FE]
+//Red Wolf Member\\
+...Tch![NLINE]
+...It's over...[END-FE]
+
+
+
+
+
+//POINTER #151 @ $657C - STRING #151 @ $8709
+#W32($657C)
+//ユリィ\\
+//ああっ！[NLINE]
+//警備兵の方に被害がっ！[END-FE]
+//Yurii\\
+Aah![NLINE]
+One of the soldiers went down![END-FE]
+
+
+
+
+
+//POINTER #152 @ $6580 - STRING #152 @ $872C
+#W32($6580)
+//男\\
+//[CHAR6B00][V0900]
+//うわぁ！[END-FE]
+//Man\\
+[CHAR6B00][V0900]
+Uwaa![END-FE]
+
+
+
+
+
+//POINTER #153 @ $6584 - STRING #153 @ $873F
+#W32($6584)
+//ユリィ\\
+//ああ！[NLINE]
+//作業員の方が！[END-FE]
+//Yurii\\
+Aah![NLINE]
+One of the workers went down![END-FE]
+
+
+
+
+
+//POINTER #154 @ $6588 - STRING #154 @ $8758
+#W32($6588)
+//男\\
+//[CHAR6B00][V0900]
+//うわぁ！[END-FE]
+//Man\\
+[CHAR6B00][V0900]
+Uwaa![END-FE]
+
+
+
+
+
+//POINTER #155 @ $658C - STRING #155 @ $876B
+#W32($658C)
+//ユリィ\\
+//ああ！[NLINE]
+//作業員の方が！[END-FE]
+//Yurii\\
+Aah![NLINE]
+One of the workers went down![END-FE]
+
+
+
+
+
+//POINTER #156 @ $6590 - STRING #156 @ $8784
+#W32($6590)
+//男\\
+//[CHAR6B00][V0900]
+//うわぁ！[END-FE]
+//Man\\
+[CHAR6B00][V0900]
+Uwaa![END-FE]
+
+
+
+
+
+//POINTER #157 @ $6594 - STRING #157 @ $8797
+#W32($6594)
+//ユリィ\\
+//ああ！[NLINE]
+//作業員の方が！[END-FE]
+//Yurii\\
+Aah![NLINE]
+One of the workers went down![END-FE]
+
+
+
+
+
+//POINTER #158 @ $6598 - STRING #158 @ $87B0
+#W32($6598)
+//ここの戦闘は完全と失敗クリアのみです[END-FE]
+//System Message\\
+ここの戦闘は完全と失敗クリアのみです[END-FE]
+
+
+
+
+
+//POINTER #159 @ $659C - STRING #159 @ $87D7
+#W32($659C)
+//モノポリス社警備兵長\\
+//[CHAR6B00][V0B00]
+//ありがとうございました。[NLINE]
+//おかげで作業が続行できます。[END-FE]
+//Monopolis Officer\\
+[CHAR6B00][V0B00]
+Thank you very much.[NLINE]
+Thanks to you we can[NLINE]
+continue the operation.[END-FE]
+
+
+
+
+
+//POINTER #160 @ $65A0 - STRING #160 @ $8818
+#W32($65A0)
+//[CHAR6B00][V0C00]
+//やったぞ！[NLINE]
+//とうとう道が開通しました！[END-FE]
+[CHAR6B00][V0C00]
+We did it! We've finally[NLINE]
+cleared a path![END-FE]
+
+
+
+
+
+//POINTER #161 @ $65A4 - STRING #161 @ $8849
+#W32($65A4)
+//[CHAR6B00][V0D00]
+//おお、よくやった！[NLINE]
+//早速奥に進んで、第２段階にあたれ！[END-FE]
+[CHAR6B00][V0D00]
+Good work! Let's advance at once[NLINE]
+and start the next second stage[NLINE]
+of the operation!![END-FE]
+
+
+
+
+
+//POINTER #162 @ $65A8 - STRING #162 @ $888A
+#W32($65A8)
+//[CHAR6B00][V0D00]
+//おお、よくやった！[NLINE]
+//早速奥に進んで、第２段階にあたれ！[END-FE]
+[CHAR6B00][V0D00]
+Good work! Let's advance at once[NLINE]
+and start the next second stage[NLINE]
+of the operation!![END-FE]
+
+
+
+
+
+//POINTER #163 @ $65AC - STRING #163 @ $88CB
+#W32($65AC)
+//いいか！[NLINE]
+//絶対に街に入れてはならぬ！[NWIN]
+//
+//命をかけてでも、[NLINE]
+//ここで食い止めるんだ！[END-FE]
+Don't let them enter the city[NLINE]
+under any circumstances! Got that?[NWIN]
+
+Hold them off, even if you have[NLINE]
+to give up your life to do so![END-FE]
+
+
+
+
+
+//POINTER #164 @ $65B0 - STRING #164 @ $891C
+#W32($65B0)
+//た、隊長！[NLINE]
+//こっちからも！[END-FE]
+Ca-captain![NLINE]
+They're over here too![END-FE]
+
+
+
+
+
+//POINTER #165 @ $65B4 - STRING #165 @ $8939
+#W32($65B4)
+//…助太刀する…。[END-FE]
+...I will help you fight...[END-FE]
+
+
+
+
+
+//POINTER #166 @ $65B8 - STRING #166 @ $894C
+#W32($65B8)
+//おおっ、すまない！[END-FE]
+Ah, we owe you![END-FE]
+
+
+
+
+
+//POINTER #167 @ $65BC - STRING #167 @ $8961
+#W32($65BC)
+//あれは…、[NLINE]
+//スクリーパーじゃないか！[END-FE]
+Those are... Screapers![END-FE]
+
+
+
+
+
+//POINTER #168 @ $65C0 - STRING #168 @ $8988
+#W32($65C0)
+//街に入られたら、大変です！[END-FE]
+It would be disastrous if they[NLINE]
+were to enter the city![END-FE]
+
+
+
+
+
+//POINTER #169 @ $65C4 - STRING #169 @ $89A5
+#W32($65C4)
+//やらせるかよ！[END-FE]
+We won't let them![END-FE]
+
+
+
+
+
+//POINTER #170 @ $65C8 - STRING #170 @ $89B6
+#W32($65C8)
+//・モンスターの全滅[END-FE]
+・All monsters are defeated[END-FE]
+
+
+
+
+
+//POINTER #171 @ $65CC - STRING #171 @ $89CB
+#W32($65CC)
+//・スクリーパーが街に侵入する[NLINE]
+//・フォメロス軍兵士長の死亡[NLINE]
+//・モノポリス社赤狼隊員の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Screaper enter the city[NLINE]
+・The Fomeros captain dies[NLINE]
+・The Red Wolf Unit member dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #172 @ $65D0 - STRING #172 @ $8A38
+#W32($65D0)
+//あぁ…、[NLINE]
+//スクリーパーが街に…。[END-FE]
+Aah...[NLINE]
+The Screapers entered the city...[END-FE]
+
+
+
+
+
+//POINTER #173 @ $65D4 - STRING #173 @ $8A5B
+#W32($65D4)
+//…くっ！[END-FE]
+...Argh![END-FE]
+
+
+
+
+
+//POINTER #174 @ $65D8 - STRING #174 @ $8A66
+#W32($65D8)
+//[CHARE003][V0901]
+//不用意過ぎたか！[END-FE]
+[CHARE003][V0901]
+Was I too careless!?[END-FE]
+
+
+
+
+
+//POINTER #175 @ $65DC - STRING #175 @ $8A81
+#W32($65DC)
+//あと１匹残っています！[NLINE]
+//お気をつけ下さい！[END-FE]
+There's only one left![NLINE]
+Be careful![END-FE]
+
+
+
+
+
+//POINTER #176 @ $65E0 - STRING #176 @ $8AAE
+#W32($65E0)
+//あと１匹残っています！[NLINE]
+//お気をつけ下さい！[END-FE]
+There's only one left![NLINE]
+Be careful![END-FE]
+
+
+
+
+
+//POINTER #177 @ $65E4 - STRING #177 @ $8ADB
+#W32($65E4)
+//スクリーパーはもういませんね！[NLINE]
+//後は残りのモンスターだけです！[END-FE]
+There are no more Screapers![NLINE]
+Only the remaining monsters[NLINE]
+are left![END-FE]
+
+
+
+
+
+//POINTER #178 @ $65E8 - STRING #178 @ $8B1C
+#W32($65E8)
+//モンスターはもういませんね！[NLINE]
+//後はスクリーパーだけです！[END-FE]
+There are no more monsters![NLINE]
+Only the Screapers are left![END-FE]
+
+
+
+
+
+//POINTER #179 @ $65EC - STRING #179 @ $8B57
+#W32($65EC)
+//その制服は、[NLINE]
+//モノポリス社の方ですか？[NWIN]
+//
+//本当にありがとうございました！[END-FE]
+That uniform! Are you with Monopolis?[NWIN]
+
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #180 @ $65F0 - STRING #180 @ $8BA0
+#W32($65F0)
+//俺が勝手にしたことだ。[NLINE]
+//礼はいらない。[NWIN]
+//
+//…悪いが、先を急ぐので、[NLINE]
+//これで失礼する…。[END-FE]
+I did it because I felt like it.[NLINE]
+You don't need to thank me.[NWIN]
+
+...Sorry, but I'm in a hurry,[NLINE]
+so I'll have to go now...[END-FE]
+
+
+
+
+
+//POINTER #181 @ $65F4 - STRING #181 @ $8BF7
+#W32($65F4)
+//君たちも、ありがとう！[NLINE]
+//おかげで街を守ることが出来たよ！[NWIN]
+//
+//私は本部に報告があるので、[NLINE]
+//これで失礼する！[END-FE]
+Thank to you as well![NLINE]
+Because of you, we've managed[NLINE]
+to protect the city![NWIN]
+
+We'll have to report to headquarters,[NLINE]
+so please excuse us![END-FE]
+
+
+
+
+
+//POINTER #182 @ $65F8 - STRING #182 @ $8C60
+#W32($65F8)
+//　[NLINE]
+//トランス・ゲートのようだが、機能していない。[END-FE]
+//System Message\\
+It looks like a Transgate, but it's[NLINE]
+not working.[END-FE]
+
+
+
+
+
+//POINTER #183 @ $65FC - STRING #183 @ $8C93
+#W32($65FC)
+//　[NLINE]
+//今は戦わないと…！[END-FE]
+[NLINE]
+We have to fight now...![END-FE]
+
+
+
+
+
+//POINTER #184 @ $6600 - STRING #184 @ $8CAC
+#W32($6600)
+//フォメロス国ロイフェロン[NLINE]
+//　レノックス研究所方面[END-FE]
+To Royferon (Fomeros) and[NLINE]
+Lennox Research Facility[END-FE]
+
+
+
+
+
+//POINTER #185 @ $6604 - STRING #185 @ $8CDF
+#W32($6604)
+//シズランド高原方面[END-FE]
+To Shizland Plateau[END-FE]
+
+
+
+
+
+//POINTER #186 @ $6608 - STRING #186 @ $8CF4
+#W32($6608)
+//ヒンギスタン王国[NLINE]
+//レイスタン[END-FE]
+Hingistan Kingdom[NLINE]
+Leystan[END-FE]
+
+
+
+
+
+//POINTER #187 @ $660C - STRING #187 @ $8D13
+#W32($660C)
+//　[NLINE]
+//ポリュミネの樹が光を放っている…。[END-FE]
+//System Message\\
+[NLINE]
+The Pollumine tree is glowing...[END-FE]
+
+
+
+
+
+//POINTER #188 @ $6610 - STRING #188 @ $8D3C
+#W32($6610)
+//ポリュミネの樹には[NLINE]
+//スクリーパー除けの効果があったのでは…？[NLINE]
+//その効果が効かない変種なのでしょうか？[END-FE]
+Don't Pollumine trees have the effect[NLINE]
+of warding off Screapers? Are these[NLINE]
+variants that doesn't have this effect?[END-FE]
+
+
+
+
+
+//POINTER #189 @ $6614 - STRING #189 @ $8DA3
+#W32($6614)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #190 @ $6618 - STRING #190 @ $8DBA
+#W32($6618)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #191 @ $661C - STRING #191 @ $8DC9
+#W32($661C)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+

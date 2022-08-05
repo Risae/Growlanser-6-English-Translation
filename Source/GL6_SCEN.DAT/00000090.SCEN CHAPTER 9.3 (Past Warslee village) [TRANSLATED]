@@ -1,0 +1,1016 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $3970, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3820, 4, PTR)
+
+#JMP($3970)
+#HDR($3970)
+
+
+
+
+
+//POINTER #0 @ $3820 - STRING #0 @ $3970
+#W32($3820)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3824 - STRING #1 @ $3973
+#W32($3824)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3828 - STRING #2 @ $3980
+#W32($3828)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $382C - STRING #3 @ $39A5
+#W32($382C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3830 - STRING #4 @ $39CA
+#W32($3830)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3834 - STRING #5 @ $39DF
+#W32($3834)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3838 - STRING #6 @ $3A04
+#W32($3838)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $383C - STRING #7 @ $3A29
+#W32($383C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3840 - STRING #8 @ $3A5E
+#W32($3840)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3844 - STRING #9 @ $3A93
+#W32($3844)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3848 - STRING #10 @ $3AB8
+#W32($3848)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $384C - STRING #11 @ $3ADD
+#W32($384C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3850 - STRING #12 @ $3B02
+#W32($3850)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3854 - STRING #13 @ $3B17
+#W32($3854)
+//[CHAR3800][V3800]
+//わっ、廃墟じゃないわ。[NLINE]
+//ってことは、成功したのね？[END-FE]
+[CHAR3800][V3800]
+Wow! It's no longer in ruins![NLINE]
+That means we succeeded, right?[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3858 - STRING #14 @ $3B54
+#W32($3858)
+//[CHAR3800][V3900]
+//はい。[NLINE]
+//さあ、急いでカイザリス島へ向かいましょう！[END-FE]
+[CHAR3800][V3900]
+Yes.[NLINE]
+Let's hurry to Kaiseris Island![END-FE]
+
+
+
+
+
+//POINTER #15 @ $385C - STRING #15 @ $3B91
+#W32($385C)
+//いけません、勇者様！[NWIN]
+//
+//ミランダ達の力で保護された過去の世界は、[NLINE]
+//村からカイザリス島までの海です。[NWIN]
+//
+//ここから外に出ては、歴史の隙間に落ち込んで、[NLINE]
+//戻れなくなってしまいます！[END-FE]
+Don't, Brave One![NWIN]
+
+The world of the past that is being[NLINE]
+maintained by the power of Miranda and[NLINE]
+the others only stretches from this village[NLINE]
+to the sea in which Kaiseris Island[NLINE]
+is located.[NWIN]
+
+If we step outside its confines, we'll[NLINE]
+fall in a gap in time and won't be[NLINE]
+able to go back![END-FE]
+
+
+
+
+
+//POINTER #16 @ $3860 - STRING #16 @ $3C3E
+#W32($3860)
+//　[NLINE]
+//留守のようだ。[END-FE]
+[NLINE]
+No one seems to be home.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3864 - STRING #17 @ $3C53
+#W32($3864)
+//この村は少し前に[NLINE]
+//復興したばかりなんですじゃ。[NLINE]
+//やはり住み慣れた家はいいですな。[END-FE]
+We've just finished reconstructing this[NLINE]
+village a little while ago. Oh, how nice[NLINE]
+it is to live in a familiar home.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3868 - STRING #18 @ $3CA6
+#W32($3868)
+//　[NLINE]
+//留守のようだ…。[END-FE]
+[NLINE]
+No one seems to be home...[END-FE]
+
+
+
+
+
+//POINTER #19 @ $386C - STRING #19 @ $3CBD
+#W32($386C)
+//維持軍兵３[END-FE]
+PMB Soldier 3[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3870 - STRING #20 @ $3CCA
+#W32($3870)
+//おや～。[NLINE]
+//見かけない顔だね。[NWIN]
+//
+//どこから来たのか知らないけど、[NLINE]
+//気をつけて旅をするんだよ。[END-FE]
+Oh! I haven't seen your faces[NLINE]
+around here before.[NWIN]
+
+I don't know where you came from,[NLINE]
+but take care on your journey.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3874 - STRING #21 @ $3D25
+#W32($3874)
+//井戸がある。[NLINE]
+//生活に必要な水はここから[NLINE]
+//汲み上げているのだろう。[END-FE]
+It's a well.[NLINE]
+The water the villagers need for daily[NLINE]
+life is most likely pumped up from here.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3878 - STRING #22 @ $3D68
+#W32($3878)
+//肥料を入れる おけがある。[NLINE]
+//種類によって色分けされている。[END-FE]
+These are containers for storing fertilizer.[NLINE]
+Each color signifies a different type.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $387C - STRING #23 @ $3DA4
+#W32($387C)
+//いらっしゃいませ。[NLINE]
+//武器防具屋へようこそ。[END-FE]
+//Merchant\\
+Welcome.[NLINE]
+This is the Weapon and Armor Store.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3880 - STRING #24 @ $3DD1
+#W32($3880)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3884 - STRING #25 @ $3DF8
+#W32($3884)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3888 - STRING #26 @ $3E05
+#W32($3888)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #27 @ $388C - STRING #27 @ $3E12
+#W32($388C)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3890 - STRING #28 @ $3E1B
+#W32($3890)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+//POINTER #29 @ $3894 - STRING #29 @ $3E42
+#W32($3894)
+//いらっしゃいませ。[NLINE]
+//道具屋へようこそ。[END-FE]
+//Merchant\\
+Welcome.[NLINE]
+This is the Item Shop.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3898 - STRING #30 @ $3E6B
+#W32($3898)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+How may I help you?[END-FE]
+
+
+
+
+//POINTER #31 @ $389C - STRING #31 @ $3E92
+#W32($389C)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #32 @ $38A0 - STRING #32 @ $3EA1
+#W32($38A0)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #33 @ $38A4 - STRING #33 @ $3EB0
+#W32($38A4)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #34 @ $38A8 - STRING #34 @ $3EB9
+#W32($38A8)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #35 @ $38AC - STRING #35 @ $3EE0
+#W32($38AC)
+//『英雄への第一歩は[NLINE]
+//　自分に合った武器と防具を[NLINE]
+//　装備するところから始まる』[NLINE]
+//　と、書かれている。[END-FE]
+On the sign is written:[NLINE]
+"The first step to becoming[NLINE]
+a hero is equipping yourself[NLINE]
+with the right weapons and armor."[END-FE]
+
+
+
+
+
+//POINTER #36 @ $38B0 - STRING #36 @ $3F45
+#W32($38B0)
+//新しい商品、売れてるかなぁ…。[NWIN]
+//
+//よし、がんばらないとな！[END-FE]
+I wonder if I could begin a new service...[NWIN]
+
+Alright, let's get on it![END-FE]
+
+
+
+
+
+//POINTER #37 @ $38B4 - STRING #37 @ $3F80
+#W32($38B4)
+//[CHAR3800][V3B00]
+//え、ボクのボートを使いたいって？[NWIN]
+//
+//[CHAR3800][V3C00]
+//もちろん！[NLINE]
+//やっぱり道具は使ってこそだよね！[NWIN]
+//
+//[CHAR3800][V3D00]
+//すぐ海岸に用意するよ。[END-FE]
+[CHAR3800][V3B00]
+Huh, you want to use my boat you say?[NWIN]
+
+[CHAR3800][V3C00]
+Why of course! Tools are there[NLINE]
+to be used after all![NWIN]
+
+[CHAR3800][V3D00]
+I will prepare it for you at[NLINE]
+the beach straightaway.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $38B8 - STRING #38 @ $4001
+#W32($38B8)
+//[CHAR3800][V3E00]
+//海岸においてきたから、[NLINE]
+//自由に使っていいよ。[NWIN]
+//
+//[CHAR3800][V3F00]
+//気をつけてね。[END-FE]
+[CHAR3800][V3E00]
+I placed it at the beach.[NLINE]
+Feel free to use it.[NWIN]
+
+[CHAR3800][V3F00]
+But be careful, alright?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $38BC - STRING #39 @ $4050
+#W32($38BC)
+//えっ、龍玉？[NLINE]
+//アドモニッシャーの動力？[NWIN]
+//
+//まだ見つかっていないようだよ。[NWIN]
+//
+//ボクも詳しくは知らないから、[NLINE]
+//直接本部で聞いて欲しいな。[END-FE]
+The Dragon Orb?[NLINE]
+That thing that powers the Admonisher?[NWIN]
+
+I'm guessing it hasn't been found yet.[NWIN]
+
+However, I don't know the details,[NLINE]
+so you should probably ask at headquarters.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $38C0 - STRING #40 @ $40D3
+#W32($38C0)
+//ようこそ！[NLINE]
+//ここはワースリー村です。[END-FE]
+Welcome![NLINE]
+This is Warslee Village.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $38C4 - STRING #41 @ $40FA
+#W32($38C4)
+//海からスクリーパーが入り込まないように[NLINE]
+//こうして見張っています。[NWIN]
+//
+//海岸ではスクリーパーにご注意下さい。[END-FE]
+We stand guard to prevent Screapers[NLINE]
+from coming in here from the sea.[NWIN]
+
+Watch out for Screapers on the beach.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $38C8 - STRING #42 @ $4163
+#W32($38C8)
+//腹が減っては何もできねぇ。[NWIN]
+//
+//維持軍兵士にはなれなかったが、[NLINE]
+//俺たちの育てた作物が、[NLINE]
+//維持軍兵士たちの腹に入るんだ。[NLINE]
+//立派に平和に貢献してるってわけさ！[END-FE]
+You can't do anything if you're hungry.[NWIN]
+
+I didn't manage to join the PMB[NLINE]
+myself, but the crops that we[NLINE]
+we grow are you used to feed[NLINE]
+its soldiers. That way I can[NLINE]
+still contribute to peace![END-FE]
+
+
+
+
+
+//POINTER #43 @ $38CC - STRING #43 @ $41FC
+#W32($38CC)
+//この村は、一度スクリーパーに[NLINE]
+//壊されたことがあるの。[NWIN]
+//
+//ラッシュという宿の主人の息子さんが[NLINE]
+//いたんだけど残念なことに、[NLINE]
+//スクリーパーに村が壊された日に[NLINE]
+//行方不明になってしまったの。[NWIN]
+//
+//彼には不思議な能力があって、[NLINE]
+//近くにいるだけでスクリーパーを[NLINE]
+//弱体化させることができたんですって。[END-FE]
+This village was once destroyed[NLINE]
+by Screapers.[NWIN]
+
+The innkeeper had a son called Rasche,[NLINE]
+but he unfortunately went missing on the[NLINE]
+day the village was attacked by them.[NWIN]
+
+Rasche had a mysterious ability that[NLINE]
+allowed him to weaken Screapers by simply[NLINE]
+standing near them.[NWIN]
+
+
+
+
+//POINTER #44 @ $38D0 - STRING #44 @ $4315
+#W32($38D0)
+//[CHAR3800][V4000]
+//これであの島に行くのか。[END-FE]
+[CHAR3800][V4000]
+We're going to the island with that boat?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $38D4 - STRING #45 @ $4338
+#W32($38D4)
+//[CHAR3800][V4100]
+//はい、急ぎましょう！[END-FE]
+[CHAR3800][V4100]
+Yes. Let's hurry![END-FE]
+
+
+
+
+
+//POINTER #46 @ $38D8 - STRING #46 @ $4357
+#W32($38D8)
+//ワースリー村・海岸[END-FE]
+Warslee Village - Beach[END-FE]
+
+
+
+
+
+//POINTER #47 @ $38DC - STRING #47 @ $436C
+#W32($38DC)
+//[CHAR3A00][V0000]
+//皆さん、お疲れ様でした。[NLINE]
+//では、現代に戻ります。[END-FE]
+[CHAR3A00][V0000]
+Good work everyone![NLINE]
+Let's return to the present.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $38E0 - STRING #48 @ $43A7
+#W32($38E0)
+//ワースリー村・現代[END-FE]
+Warslee Village - Present[END-FE]
+
+
+
+
+
+//POINTER #49 @ $38E4 - STRING #49 @ $43BC
+#W32($38E4)
+//[CHAR3A00][V0100]
+//ちゃんと帰ってこられたわね。[NLINE]
+//作戦、大成功！[NWIN]
+//
+//[CHAR3A00][V0200]
+//ユリィ、すごいお手柄ね！[END-FE]
+[CHAR3A00][V0100]
+We've made it back safely.[NLINE]
+Our plan was a huge success![NWIN]
+
+All thanks to Yurii![END-FE]
+
+
+
+
+
+//POINTER #50 @ $38E8 - STRING #50 @ $4415
+#W32($38E8)
+//[CHAR3A00][V0300]
+//いいえ、私よりも、[NLINE]
+//ミランダ達の手柄です。[NWIN]
+//
+//[CHAR3A00][V0400]
+//彼女たちは、命を削ってまで[NLINE]
+//皆様を過去に送ってくれたのですから。[END-FE]
+[CHAR3A00][V0300]
+No, Mira and the others deserve[NLINE]
+all the credit.[NWIN]
+
+They nearly died in order to send us[NLINE]
+to the past.[END-FE]]
+
+
+
+
+
+//POINTER #51 @ $38EC - STRING #51 @ $4494
+#W32($38EC)
+//[CHAR3A00][V0500]
+//えっ、そうなの!?[NLINE]
+//…悪いことしちゃったかな…。[NWIN]
+//
+//[CH.FACE:Normal][CHAR3A00][V0600]
+//暇が出来たら、[NLINE]
+//ちゃんと挨拶にいかなきゃね！[END-FE]
+[CHAR3A00][V0500]
+What!? Really!?[NLINE]
+....So we put their lives at risk...[NWIN]
+
+[CC.BE0000][CHAR3A00][V0600]
+If we have free time, we should[NLINE]
+step by and properly thank them![END-FE]
+
+
+
+
+
+//POINTER #52 @ $38F0 - STRING #52 @ $4507
+#W32($38F0)
+//[CHAR3A00][V0700]
+//それもそうだが、[NLINE]
+//今はやることがあるぜ。[NLINE]
+//急いで龍玉を探さないとな。[END-FE]
+[CHAR3A00][V0700]
+I agree, but there's still[NLINE]
+something we must do.[NLINE]
+We need to hurry and find[NLINE]
+the Dragon Orb.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $38F4 - STRING #53 @ $4556
+#W32($38F4)
+//[CHAR3A00][V0800]
+//龍玉はアドモニッシャーに積まれていました。[NLINE]
+//ですが、クイーンとの戦いの前に[NLINE]
+//大破したらしいです。[END-FE]
+[CHAR3A00][V0800]
+The Dragon Orb is inside[NLINE]
+the Admonisher. However, it was[NLINE]
+seriously damaged before[NLINE]
+the fight against the Queen.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $38F8 - STRING #54 @ $45C1
+#W32($38F8)
+//[CHAR3A00][V0900]
+//それじゃ、[NLINE]
+//平和維持軍で話を聞いた方がいいかな？[END-FE]
+[CHAR3A00][V0900]
+Then how about we go talk with someone[NLINE]
+from the PMB?[END-FE]
+
+
+
+
+
+//POINTER #55 @ $38FC - STRING #55 @ $45FC
+#W32($38FC)
+//カイザリス島に行ってしまうと[NLINE]
+//戻ってくる時間はありません。[NLINE]
+//準備の方はよろしいですか？[END-FE]
+Once we go to Kaiseris Island,[NLINE]
+we won't have time to return.[NLINE]
+Are you prepared?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3900 - STRING #56 @ $4655
+#W32($3900)
+//船は苦手だけど、[NLINE]
+//がまん、がまん…。[END-FE]
+Boats make me seasick, but[NLINE]
+I guess I'll have to put[NLINE]
+up with it...[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3904 - STRING #57 @ $467C
+#W32($3904)
+//カイザリスで戦闘終わったことにする？[END-FE]
+End the battle on Kaiseris Island?[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3908 - STRING #58 @ $46A3
+#W32($3908)
+//あ、お客さん！[NLINE]
+//受付を済ませてもらえませんか？[END-FE]
+Excuse me, sir![NLINE]
+Could you please come over to[NLINE]
+the reception first?[END-FE]
+
+
+
+
+
+//POINTER #59 @ $390C - STRING #59 @ $46D4
+#W32($390C)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3910 - STRING #60 @ $46E9
+#W32($3910)
+//・休憩する[END-FE]
+・Rest[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3914 - STRING #61 @ $46F6
+#W32($3914)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3918 - STRING #62 @ $4705
+#W32($3918)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #63 @ $391C - STRING #63 @ $4716
+#W32($391C)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #64 @ $3920 - STRING #64 @ $472B
+#W32($3920)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になられますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #65 @ $3924 - STRING #65 @ $4759
+#W32($3924)
+//ついでに記録をとっていくかい？[END-FE]
+//Inn Clerk\\
+By the way, would you like to sign our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #66 @ $3928 - STRING #66 @ $477A
+#W32($3928)
+//……[COL09][TEAR-DROP][COL00][NLINE]
+//誠に申しわけありませんが[NLINE]
+//代金が足りておりません…。[END-FE]
+//Inn clerk\\
+...[COL09][TEAR-DROP][COL00][NLINE]
+I'm very sorry but it appears you[NLINE]
+don't have enough money...[END-FE]
+
+
+
+
+
+//POINTER #67 @ $392C - STRING #67 @ $47BF
+#W32($392C)
+//ワースリー村・過去[END-FE]
+Warslee Village - Past[END-FE]
+
+
+
+
+
+//POINTER #68 @ $3930 - STRING #68 @ $47D4
+#W32($3930)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $3934 - STRING #69 @ $47F9
+#W32($3934)
+//Ｄ　ワースリー村復興後[END-FE]
+D Reconstructed Warslee Village[END-FE]
+
+
+
+
+
+//POINTER #70 @ $3938 - STRING #70 @ $4812
+#W32($3938)
+//そうかい。[NLINE]
+//無理はしないで下さいね。[END-FE]
+I see. Please don't overdo it.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $393C - STRING #71 @ $4839
+#W32($393C)
+//良かったら何か[NLINE]
+//買っていってくれないか？[END-FE]
+Would you like to buy something?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $3940 - STRING #72 @ $4864
+#W32($3940)
+//ぜひ、見ていってくれ！[END-FE]
+Please take a look![END-FE]
+
+
+
+
+
+//POINTER #73 @ $3944 - STRING #73 @ $487D
+#W32($3944)
+//・武器購入[END-FE]
+・Buy weapons[END-FE]
+
+
+
+
+
+//POINTER #74 @ $3948 - STRING #74 @ $488A
+#W32($3948)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #75 @ $394C - STRING #75 @ $4897
+#W32($394C)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #76 @ $3950 - STRING #76 @ $48A6
+#W32($3950)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #77 @ $3954 - STRING #77 @ $48B5
+#W32($3954)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #78 @ $3958 - STRING #78 @ $48BE
+#W32($3958)
+//またどうぞ！[END-FE]
+//Merchant\\
+Come again![END-FE]
+
+
+
+
+
+//POINTER #79 @ $395C - STRING #79 @ $48CD
+#W32($395C)
+//ベッドで休みますか？[END-FE]
+Would you like to rest on the bed?[END-FE]
+
+
+
+
+
+//POINTER #80 @ $3960 - STRING #80 @ $48E4
+#W32($3960)
+//　[NLINE]
+//花が生けてある。[END-FE]
+[NLINE]
+Flowers are arranged in a vase.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $3964 - STRING #81 @ $48FB
+#W32($3964)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+[NLINE]
+There's a lamp placed on the table.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $3968 - STRING #82 @ $4928
+#W32($3968)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+[NLINE]
+It's a dresser.[END-FE]
+
+
+
+

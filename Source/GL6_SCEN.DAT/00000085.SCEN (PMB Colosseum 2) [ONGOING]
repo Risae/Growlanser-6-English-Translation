@@ -1,0 +1,5654 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $D4B0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $CCA0, 4, PTR)
+
+#JMP($D4B0)
+#HDR($D4B0)
+
+
+
+
+
+//POINTER #0 @ $CCA0 - STRING #0 @ $D4B0
+#W32($CCA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $CCA4 - STRING #1 @ $D4B3
+#W32($CCA4)
+//司会者[END-FF]
+Moderator[END-FF]
+
+
+
+
+
+//POINTER #2 @ $CCA8 - STRING #2 @ $D4BC
+#W32($CCA8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $CCAC - STRING #3 @ $D4C9
+#W32($CCAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $CCB0 - STRING #4 @ $D4EE
+#W32($CCB0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $CCB4 - STRING #5 @ $D513
+#W32($CCB4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $CCB8 - STRING #6 @ $D528
+#W32($CCB8)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $CCBC - STRING #7 @ $D54D
+#W32($CCBC)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $CCC0 - STRING #8 @ $D572
+#W32($CCC0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $CCC4 - STRING #9 @ $D5A7
+#W32($CCC4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $CCC8 - STRING #10 @ $D5DC
+#W32($CCC8)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $CCCC - STRING #11 @ $D601
+#W32($CCCC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $CCD0 - STRING #12 @ $D626
+#W32($CCD0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $CCD4 - STRING #13 @ $D64B
+#W32($CCD4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $CCD8 - STRING #14 @ $D660
+#W32($CCD8)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #15 @ $CCDC - STRING #15 @ $D673
+#W32($CCDC)
+//二大陸一強い一撃を持つのは[NLINE]
+//いったい誰なのか！[NWIN]
+//
+//打撃でのダメージの強さを競う、[NLINE]
+//打撃ダメージ競争の時間がやって参りました。[END-FE]
+二大陸一強い一撃を持つのは[NLINE]
+いったい誰なのか！[NWIN]
+
+打撃でのダメージの強さを競う、[NLINE]
+打撃ダメージ競争の時間がやって参りました。[END-FE]
+
+
+
+
+
+//POINTER #16 @ $CCE0 - STRING #16 @ $D6F0
+#W32($CCE0)
+//挑戦するのは、二大陸一の攻撃力を誇る[NLINE]
+//打撃ダメージ王……[END-FE]
+挑戦するのは、二大陸一の攻撃力を誇る[NLINE]
+打撃ダメージ王……[END-FE]
+
+
+
+
+
+//POINTER #17 @ $CCE4 - STRING #17 @ $D72B
+#W32($CCE4)
+//本日の挑戦者は……[END-FE]
+本日の挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #18 @ $CCE8 - STRING #18 @ $D740
+#W32($CCE8)
+//ルールをご説明しましょう！[END-FE]
+ルールをご説明しましょう！[END-FE]
+
+
+
+
+
+//POINTER #19 @ $CCEC - STRING #19 @ $D75D
+#W32($CCEC)
+//エスグレンツ大陸から持ってまいりました、[NLINE]
+//頑強なるゴーレムに攻撃を仕掛け、[NLINE]
+//[COL03]一回の攻撃で出来る限り大きなダメージ[COL00]を[NLINE]
+//与えてください。[NWIN]
+//
+//時間内に与えたダメージのうち[NLINE]
+//[COL03]一番大きなダメージ値[COL00]が記録となります。[END-FE]
+エスグレンツ大陸から持ってまいりました、[NLINE]
+頑強なるゴーレムに攻撃を仕掛け、[NLINE]
+[COL03]一回の攻撃で出来る限り大きなダメージ[COL00]を[NLINE]
+与えてください。[NWIN]
+
+時間内に与えたダメージのうち[NLINE]
+[COL03]一番大きなダメージ値[COL00]が記録となります。[END-FE]
+
+
+
+
+
+//POINTER #20 @ $CCF0 - STRING #20 @ $D836
+#W32($CCF0)
+//[Merklich]選手は[NLINE]
+//今回が初挑戦！[NWIN]
+//
+//果たして強豪たちを押し退け、[NLINE]
+//ランクインできるでしょうか！[END-FE]
+[Merklich]選手は[NLINE]
+今回が初挑戦！[NWIN]
+
+果たして強豪たちを押し退け、[NLINE]
+ランクインできるでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #21 @ $CCF4 - STRING #21 @ $D88F
+#W32($CCF4)
+//[Merklich]選手の[NLINE]
+//最高記録は[CC.EF19]ポイント。[NLINE]
+//果たして新記録は出るのでしょうか!?[END-FE]
+[Merklich]選手の[NLINE]
+最高記録は[CC.EF19]ポイント。[NLINE]
+果たして新記録は出るのでしょうか!?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $CCF8 - STRING #22 @ $D8D9
+#W32($CCF8)
+//それでは、競争を開始します！[END-FE]
+それでは、競争を開始します！[END-FE]
+
+
+
+
+
+//POINTER #23 @ $CCFC - STRING #23 @ $D8F8
+#W32($CCFC)
+//打撃ダメージ競争　スタート！[END-FE]
+打撃ダメージ競争　スタート！[END-FE]
+
+
+
+
+
+//POINTER #24 @ $CD00 - STRING #24 @ $D917
+#W32($CD00)
+//・タイムアップ[END-FE]
+・Time up[END-FE]
+
+
+
+
+
+//POINTER #25 @ $CD04 - STRING #25 @ $D928
+#W32($CD04)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #26 @ $CD08 - STRING #26 @ $D931
+#W32($CD08)
+//攻撃前[END-FE]
+攻撃前[END-FE]
+
+
+
+
+
+//POINTER #27 @ $CD0C - STRING #27 @ $D93A
+#W32($CD0C)
+//攻撃後[END-FE]
+攻撃後[END-FE]
+
+
+
+
+
+//POINTER #28 @ $CD10 - STRING #28 @ $D943
+#W32($CD10)
+//タイムアップ！[END-FE]
+タイムアップ！[END-FE]
+
+
+
+
+
+//POINTER #29 @ $CD14 - STRING #29 @ $D954
+#W32($CD14)
+//さあ、終了です。[NLINE]
+//[Merklich]選手の[NLINE]
+//成績は……[END-FE]
+さあ、終了です。[NLINE]
+[Merklich]選手の[NLINE]
+成績は……[END-FE]
+
+
+
+
+
+//POINTER #30 @ $CD18 - STRING #30 @ $D97F
+#W32($CD18)
+//[CC.EF01]ポイント！[END-FE]
+[CC.EF01]ポイント！[END-FE]
+
+
+
+
+
+//POINTER #31 @ $CD1C - STRING #31 @ $D98F
+#W32($CD1C)
+//[Merklich]選手、[NLINE]
+//自己最高記録の更新です！[END-FE]
+[Merklich]選手、[NLINE]
+自己最高記録の更新です！[END-FE]
+
+
+
+
+
+//POINTER #32 @ $CD20 - STRING #32 @ $D9B6
+#W32($CD20)
+//デバッグ表示：[NLINE]
+//ａ：[CC.EF00][NLINE]
+//ｂ：[CC.EF01][NLINE]
+//ｃ：[CC.EF02][NLINE]
+//ｚ：[CC.EF19][END-FE]
+デバッグ表示：[NLINE]
+ａ：[CC.EF00][NLINE]
+ｂ：[CC.EF01][NLINE]
+ｃ：[CC.EF02][NLINE]
+ｚ：[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #33 @ $CD24 - STRING #33 @ $D9EB
+#W32($CD24)
+//それでは、ランキング表を[NLINE]
+//見てみましょう！[END-FE]
+それでは、ランキング表を[NLINE]
+見てみましょう！[END-FE]
+
+
+
+
+
+//POINTER #34 @ $CD28 - STRING #34 @ $DA18
+#W32($CD28)
+//ランキングは調整前です。[END-FE]
+ランキングは調整前です。[END-FE]
+
+
+
+
+
+//POINTER #35 @ $CD2C - STRING #35 @ $DA33
+#W32($CD2C)
+//　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　　１位　　[CC.EAEDFF][NLINE]
+//　　２位　　[CC.EAEEFF][NLINE]
+//　　３位　　[CC.EAEFFF][NLINE]
+//　　４位　　[CC.EAF0FF][NLINE]
+//　　５位　　[CC.EAF1FF][NLINE]
+//　　６位　　[CC.EAF2FF][NLINE]
+//　　７位　　[CC.EAF3FF][NLINE]
+//　　８位　　[CC.EAF4FF][NLINE]
+//　　９位　　[CC.EAF5FF][NLINE]
+//　１０位　　[CC.EAF6FF][NLINE]
+//　　　　　　　　　　　　　　　　　　　　　[END-FE]
+[NLINE]
+[NLINE]
+[NLINE]
+　　１位　　[CC.EAEDFF][NLINE]
+　　２位　　[CC.EAEEFF][NLINE]
+　　３位　　[CC.EAEFFF][NLINE]
+　　４位　　[CC.EAF0FF][NLINE]
+　　５位　　[CC.EAF1FF][NLINE]
+　　６位　　[CC.EAF2FF][NLINE]
+　　７位　　[CC.EAF3FF][NLINE]
+　　８位　　[CC.EAF4FF][NLINE]
+　　９位　　[CC.EAF5FF][NLINE]
+　１０位　　[CC.EAF6FF][NLINE]
+　　　　　　　　　　　　　　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #36 @ $CD30 - STRING #36 @ $DB20
+#W32($CD30)
+//■ 打撃ダメージ競争ランキング ■[END-FE]
+■ 打撃ダメージ競争ランキング ■[END-FE]
+
+
+
+
+
+//POINTER #37 @ $CD34 - STRING #37 @ $DB43
+#W32($CD34)
+//限界値オーバー[END-FE]
+限界値オーバー[END-FE]
+
+
+
+
+
+//POINTER #38 @ $CD38 - STRING #38 @ $DB54
+#W32($CD38)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #39 @ $CD3C - STRING #39 @ $DB5A
+#W32($CD3C)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #40 @ $CD40 - STRING #40 @ $DB60
+#W32($CD40)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #41 @ $CD44 - STRING #41 @ $DB66
+#W32($CD44)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #42 @ $CD48 - STRING #42 @ $DB6C
+#W32($CD48)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #43 @ $CD4C - STRING #43 @ $DB72
+#W32($CD4C)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #44 @ $CD50 - STRING #44 @ $DB78
+#W32($CD50)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #45 @ $CD54 - STRING #45 @ $DB7E
+#W32($CD54)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #46 @ $CD58 - STRING #46 @ $DB84
+#W32($CD58)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #47 @ $CD5C - STRING #47 @ $DB8A
+#W32($CD5C)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #48 @ $CD60 - STRING #48 @ $DB90
+#W32($CD60)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #49 @ $CD64 - STRING #49 @ $DB96
+#W32($CD64)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #50 @ $CD68 - STRING #50 @ $DB9C
+#W32($CD68)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #51 @ $CD6C - STRING #51 @ $DBA2
+#W32($CD6C)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #52 @ $CD70 - STRING #52 @ $DBA8
+#W32($CD70)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #53 @ $CD74 - STRING #53 @ $DBAE
+#W32($CD74)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #54 @ $CD78 - STRING #54 @ $DBB4
+#W32($CD78)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #55 @ $CD7C - STRING #55 @ $DBBA
+#W32($CD7C)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #56 @ $CD80 - STRING #56 @ $DBC0
+#W32($CD80)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #57 @ $CD84 - STRING #57 @ $DBC6
+#W32($CD84)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #58 @ $CD88 - STRING #58 @ $DBCC
+#W32($CD88)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #59 @ $CD8C - STRING #59 @ $DBD2
+#W32($CD8C)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #60 @ $CD90 - STRING #60 @ $DBD8
+#W32($CD90)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #61 @ $CD94 - STRING #61 @ $DBDE
+#W32($CD94)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #62 @ $CD98 - STRING #62 @ $DBE4
+#W32($CD98)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #63 @ $CD9C - STRING #63 @ $DBEA
+#W32($CD9C)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #64 @ $CDA0 - STRING #64 @ $DBF0
+#W32($CDA0)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #65 @ $CDA4 - STRING #65 @ $DBF6
+#W32($CDA4)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #66 @ $CDA8 - STRING #66 @ $DBFC
+#W32($CDA8)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #67 @ $CDAC - STRING #67 @ $DC02
+#W32($CDAC)
+//おおっと！！[NWIN]
+//
+//二大陸一の打撃王であった[NLINE]
+//シュヴァイツァーの記録を打ち破り、[NLINE]
+//ここに新チャンピオンが誕生いたしました！[END-FE]
+おおっと！！[NWIN]
+
+二大陸一の打撃王であった[NLINE]
+シュヴァイツァーの記録を打ち破り、[NLINE]
+ここに新チャンピオンが誕生いたしました！[END-FE]
+
+
+
+
+
+//POINTER #68 @ $CDB0 - STRING #68 @ $DC79
+#W32($CDB0)
+//それでは、二大陸一の打撃ダメージ王[NLINE]
+//[Merklich]選手に、[NLINE]
+//もう一度大きな拍手をお願いします！[END-FE]
+それでは、二大陸一の打撃ダメージ王[NLINE]
+[Merklich]選手に、[NLINE]
+もう一度大きな拍手をお願いします！[END-FE]
+
+
+
+
+
+//POINTER #69 @ $CDB4 - STRING #69 @ $DCD0
+#W32($CDB4)
+//[Merklich]選手、[NLINE]
+//残念ながらランク外でした。[NWIN]
+//
+//次回からの活躍に期待しましょう！[END-FE]
+[Merklich]選手、[NLINE]
+残念ながらランク外でした。[NWIN]
+
+次回からの活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #70 @ $CDB8 - STRING #70 @ $DD1B
+#W32($CDB8)
+//[Merklich]選手、[NLINE]
+//打撃ダメージ王を目指して[NLINE]
+//次もがんばってください！[END-FE]
+[Merklich]選手、[NLINE]
+打撃ダメージ王を目指して[NLINE]
+次もがんばってください！[END-FE]
+
+
+
+
+
+//POINTER #71 @ $CDBC - STRING #71 @ $DD5C
+#W32($CDBC)
+//打撃ダメージ王、[NLINE]
+//[Merklich]選手の[NLINE]
+//さらなる飛躍に期待しましょう！[END-FE]
+打撃ダメージ王、[NLINE]
+[Merklich]選手の[NLINE]
+さらなる飛躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #72 @ $CDC0 - STRING #72 @ $DD9B
+#W32($CDC0)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #73 @ $CDC4 - STRING #73 @ $DDAE
+#W32($CDC4)
+//大陸一強い魔法使いは誰なのか!?[NWIN]
+//
+//魔法で与えられる[NLINE]
+//一回のダメージ量はどこまで強力なのか！[NWIN]
+//
+//それを競う魔法ダメージ競争の[NLINE]
+//時間がやって参りました。[END-FE]
+大陸一強い魔法使いは誰なのか!?[NWIN]
+
+魔法で与えられる[NLINE]
+一回のダメージ量はどこまで強力なのか！[NWIN]
+
+それを競う魔法ダメージ競争の[NLINE]
+時間がやって参りました。[END-FE]
+
+
+
+
+
+//POINTER #74 @ $CDC8 - STRING #74 @ $DE41
+#W32($CDC8)
+//挑戦するのは[NLINE]
+//二大陸一の魔法使い……[END-FE]
+挑戦するのは[NLINE]
+二大陸一の魔法使い……[END-FE]
+
+
+
+
+
+//POINTER #75 @ $CDCC - STRING #75 @ $DE68
+#W32($CDCC)
+//本日の挑戦者は……！[END-FE]
+本日の挑戦者は……！[END-FE]
+
+
+
+
+
+//POINTER #76 @ $CDD0 - STRING #76 @ $DE7F
+#W32($CDD0)
+//ルールをご説明しましょう！[END-FE]
+ルールをご説明しましょう！[END-FE]
+
+
+
+
+
+//POINTER #77 @ $CDD4 - STRING #77 @ $DE9C
+#W32($CDD4)
+//エスグレンツ大陸から持ってまいりました、[NLINE]
+//頑強なるゴーレムに攻撃魔法を唱え、[NLINE]
+//[COL03]一回の魔法で、出来るだけ大きなダメージ[COL00]を[NLINE]
+//与えてください。[NWIN]
+//
+//制限時間内に与えたダメージのうち[NLINE]
+//[COL03]一番大きなダメージ値[COL00]が記録となります。[NWIN]
+//
+//時間がありますので、[NLINE]
+//どの魔法を選択するかもポイントです！[END-FE]
+エスグレンツ大陸から持ってまいりました、[NLINE]
+頑強なるゴーレムに攻撃魔法を唱え、[NLINE]
+[COL03]一回の魔法で、出来るだけ大きなダメージ[COL00]を[NLINE]
+与えてください。[NWIN]
+
+制限時間内に与えたダメージのうち[NLINE]
+[COL03]一番大きなダメージ値[COL00]が記録となります。[NWIN]
+
+時間がありますので、[NLINE]
+どの魔法を選択するかもポイントです！[END-FE]
+
+
+
+
+
+//POINTER #78 @ $CDD8 - STRING #78 @ $DFB9
+#W32($CDD8)
+//[Merklich]選手は[NLINE]
+//今回が初挑戦！[NLINE]
+//果たして、ランクインできるでしょうか！[END-FE]
+[Merklich]選手は[NLINE]
+今回が初挑戦！[NLINE]
+果たして、ランクインできるでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #79 @ $CDDC - STRING #79 @ $DFFE
+#W32($CDDC)
+//[Merklich]選手の[NLINE]
+//最高記録は[CC.EF18]ポイント。[NLINE]
+//果たして新記録は出るのでしょうか!?[END-FE]
+[Merklich]選手の[NLINE]
+最高記録は[CC.EF18]ポイント。[NLINE]
+果たして新記録は出るのでしょうか!?[END-FE]
+
+
+
+
+
+//POINTER #80 @ $CDE0 - STRING #80 @ $E048
+#W32($CDE0)
+//それでは、競争を開始します！[END-FE]
+それでは、競争を開始します！[END-FE]
+
+
+
+
+
+//POINTER #81 @ $CDE4 - STRING #81 @ $E067
+#W32($CDE4)
+//魔法ダメージ競争　スタート！[END-FE]
+魔法ダメージ競争　スタート！[END-FE]
+
+
+
+
+
+//POINTER #82 @ $CDE8 - STRING #82 @ $E086
+#W32($CDE8)
+//デバッグでタイム延ばす？[END-FE]
+デバッグでタイム延ばす？[END-FE]
+
+
+
+
+
+//POINTER #83 @ $CDEC - STRING #83 @ $E0A1
+#W32($CDEC)
+//・タイムアップ[END-FE]
+・Time up[END-FE]
+
+
+
+
+
+//POINTER #84 @ $CDF0 - STRING #84 @ $E0B2
+#W32($CDF0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #85 @ $CDF4 - STRING #85 @ $E0BB
+#W32($CDF4)
+//魔法後だよ[END-FE]
+魔法後だよ[END-FE]
+
+
+
+
+
+//POINTER #86 @ $CDF8 - STRING #86 @ $E0C8
+#W32($CDF8)
+//[CC.EF00]ダメージ[END-FE]
+[CC.EF00]ダメージ[END-FE]
+
+
+
+
+
+//POINTER #87 @ $CDFC - STRING #87 @ $E0D6
+#W32($CDFC)
+//タイムアップ！[END-FE]
+タイムアップ！[END-FE]
+
+
+
+
+
+//POINTER #88 @ $CE00 - STRING #88 @ $E0E7
+#W32($CE00)
+//さあ、終了です。[NLINE]
+//[Merklich]選手の[NLINE]
+//成績は……[END-FE]
+さあ、終了です。[NLINE]
+[Merklich]選手の[NLINE]
+成績は……[END-FE]
+
+
+
+
+
+//POINTER #89 @ $CE04 - STRING #89 @ $E112
+#W32($CE04)
+//[CC.EF01]ポイント！[END-FE]
+[CC.EF01]ポイント！[END-FE]
+
+
+
+
+
+//POINTER #90 @ $CE08 - STRING #90 @ $E122
+#W32($CE08)
+//[Merklich]選手、[NLINE]
+//自己最高記録の更新です！[END-FE]
+[Merklich]選手、[NLINE]
+自己最高記録の更新です！[END-FE]
+
+
+
+
+
+//POINTER #91 @ $CE0C - STRING #91 @ $E149
+#W32($CE0C)
+//[Merklich]選手、[NLINE]
+//残念ながら時間内に魔法ダメージを[NLINE]
+//与える事ができませんでした。[END-FE]
+[Merklich]選手、[NLINE]
+残念ながら時間内に魔法ダメージを[NLINE]
+与える事ができませんでした。[END-FE]
+
+
+
+
+
+//POINTER #92 @ $CE10 - STRING #92 @ $E196
+#W32($CE10)
+//デバッグ表示：[NLINE]
+//ａ：[CC.EF00][NLINE]
+//ｂ：[CC.EF01][NLINE]
+//ｃ：[CC.EF02][NLINE]
+//ｙ：[CC.EF18][END-FE]
+デバッグ表示：[NLINE]
+ａ：[CC.EF00][NLINE]
+ｂ：[CC.EF01][NLINE]
+ｃ：[CC.EF02][NLINE]
+ｙ：[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #93 @ $CE14 - STRING #93 @ $E1CB
+#W32($CE14)
+//それでは、ランキング表を[NLINE]
+//見てみましょう！[END-FE]
+それでは、ランキング表を[NLINE]
+見てみましょう！[END-FE]
+
+
+
+
+
+//POINTER #94 @ $CE18 - STRING #94 @ $E1F8
+#W32($CE18)
+//ランキングは調整前です。[END-FE]
+ランキングは調整前です。[END-FE]
+
+
+
+
+
+//POINTER #95 @ $CE1C - STRING #95 @ $E213
+#W32($CE1C)
+//　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　　１位　　[CC.EAEDFF][NLINE]
+//　　２位　　[CC.EAEEFF][NLINE]
+//　　３位　　[CC.EAEFFF][NLINE]
+//　　４位　　[CC.EAF0FF][NLINE]
+//　　５位　　[CC.EAF1FF][NLINE]
+//　　６位　　[CC.EAF2FF][NLINE]
+//　　７位　　[CC.EAF3FF][NLINE]
+//　　８位　　[CC.EAF4FF][NLINE]
+//　　９位　　[CC.EAF5FF][NLINE]
+//　１０位　　[CC.EAF6FF][NLINE]
+//　　　　　　　　　　　　　　　　　　　　　[END-FE]
+　[NLINE]
+　[NLINE]
+　[NLINE]
+　　１位　　[CC.EAEDFF][NLINE]
+　　２位　　[CC.EAEEFF][NLINE]
+　　３位　　[CC.EAEFFF][NLINE]
+　　４位　　[CC.EAF0FF][NLINE]
+　　５位　　[CC.EAF1FF][NLINE]
+　　６位　　[CC.EAF2FF][NLINE]
+　　７位　　[CC.EAF3FF][NLINE]
+　　８位　　[CC.EAF4FF][NLINE]
+　　９位　　[CC.EAF5FF][NLINE]
+　１０位　　[CC.EAF6FF][NLINE]
+　　　　　　　　　　　　　　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #96 @ $CE20 - STRING #96 @ $E300
+#W32($CE20)
+//■ 魔法ダメージ競争ランキング ■[END-FE]
+■ 魔法ダメージ競争ランキング ■[END-FE]
+
+
+
+
+
+//POINTER #97 @ $CE24 - STRING #97 @ $E323
+#W32($CE24)
+//限界値オーバー[END-FE]
+限界値オーバー[END-FE]
+
+
+
+
+
+//POINTER #98 @ $CE28 - STRING #98 @ $E334
+#W32($CE28)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #99 @ $CE2C - STRING #99 @ $E33A
+#W32($CE2C)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #100 @ $CE30 - STRING #100 @ $E340
+#W32($CE30)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #101 @ $CE34 - STRING #101 @ $E346
+#W32($CE34)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #102 @ $CE38 - STRING #102 @ $E34C
+#W32($CE38)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #103 @ $CE3C - STRING #103 @ $E352
+#W32($CE3C)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #104 @ $CE40 - STRING #104 @ $E358
+#W32($CE40)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #105 @ $CE44 - STRING #105 @ $E35E
+#W32($CE44)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #106 @ $CE48 - STRING #106 @ $E364
+#W32($CE48)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #107 @ $CE4C - STRING #107 @ $E36A
+#W32($CE4C)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #108 @ $CE50 - STRING #108 @ $E370
+#W32($CE50)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #109 @ $CE54 - STRING #109 @ $E376
+#W32($CE54)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #110 @ $CE58 - STRING #110 @ $E37C
+#W32($CE58)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #111 @ $CE5C - STRING #111 @ $E382
+#W32($CE5C)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #112 @ $CE60 - STRING #112 @ $E388
+#W32($CE60)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #113 @ $CE64 - STRING #113 @ $E38E
+#W32($CE64)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #114 @ $CE68 - STRING #114 @ $E394
+#W32($CE68)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #115 @ $CE6C - STRING #115 @ $E39A
+#W32($CE6C)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #116 @ $CE70 - STRING #116 @ $E3A0
+#W32($CE70)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #117 @ $CE74 - STRING #117 @ $E3A6
+#W32($CE74)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #118 @ $CE78 - STRING #118 @ $E3AC
+#W32($CE78)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #119 @ $CE7C - STRING #119 @ $E3B2
+#W32($CE7C)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #120 @ $CE80 - STRING #120 @ $E3B8
+#W32($CE80)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #121 @ $CE84 - STRING #121 @ $E3BE
+#W32($CE84)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #122 @ $CE88 - STRING #122 @ $E3C4
+#W32($CE88)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #123 @ $CE8C - STRING #123 @ $E3CA
+#W32($CE8C)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #124 @ $CE90 - STRING #124 @ $E3D0
+#W32($CE90)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #125 @ $CE94 - STRING #125 @ $E3D6
+#W32($CE94)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #126 @ $CE98 - STRING #126 @ $E3DC
+#W32($CE98)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #127 @ $CE9C - STRING #127 @ $E3E2
+#W32($CE9C)
+//おおっと！！[NWIN]
+//
+//ヒンギスタン一の魔法使い[NLINE]
+//ザフリード選手の成績が破られました！[NWIN]
+//
+//新たなるチャンピオン！[NLINE]
+//魔法ダメージ王がここに誕生しました！[END-FE]
+おおっと！！[NWIN]
+
+ヒンギスタン一の魔法使い[NLINE]
+ザフリード選手の成績が破られました！[NWIN]
+
+新たなるチャンピオン！[NLINE]
+魔法ダメージ王がここに誕生しました！[END-FE]
+
+
+
+
+
+//POINTER #128 @ $CEA0 - STRING #128 @ $E46F
+#W32($CEA0)
+//それでは、二大陸一の魔法ダメージ王[NLINE]
+//[Merklich]選手に、[NLINE]
+//もう一度大きな拍手をお願いします！[END-FE]
+それでは、二大陸一の魔法ダメージ王[NLINE]
+[Merklich]選手に、[NLINE]
+もう一度大きな拍手をお願いします！[END-FE]
+
+
+
+
+
+//POINTER #129 @ $CEA4 - STRING #129 @ $E4C6
+#W32($CEA4)
+//[Merklich]選手、[NLINE]
+//残念ながらランク外でした。[NWIN]
+//
+//次回からの活躍に期待しましょう！[END-FE]
+[Merklich]選手、[NLINE]
+残念ながらランク外でした。[NWIN]
+
+次回からの活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #130 @ $CEA8 - STRING #130 @ $E511
+#W32($CEA8)
+//[Merklich]選手、[NLINE]
+//魔法ダメージ王を目指して[NLINE]
+//次もがんばってください！[END-FE]
+[Merklich]選手、[NLINE]
+魔法ダメージ王を目指して[NLINE]
+次もがんばってください！[END-FE]
+
+
+
+
+
+//POINTER #131 @ $CEAC - STRING #131 @ $E552
+#W32($CEAC)
+//魔法ダメージ王、[NLINE]
+//[Merklich]選手の[NLINE]
+//さらなる飛躍に期待しましょう！[END-FE]
+魔法ダメージ王、[NLINE]
+[Merklich]選手の[NLINE]
+さらなる飛躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #132 @ $CEB0 - STRING #132 @ $E591
+#W32($CEB0)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #133 @ $CEB4 - STRING #133 @ $E5A4
+#W32($CEB4)
+//打撃、魔法、特技。[NLINE]
+//戦略を巡らし、ひらすらにダメージを加算し、[NLINE]
+//その合計を競う、総合ダメージ競争の[NLINE]
+//時間がやって参りました。[END-FE]
+打撃、魔法、特技。[NLINE]
+戦略を巡らし、ひらすらにダメージを加算し、[NLINE]
+その合計を競う、総合ダメージ競争の[NLINE]
+時間がやって参りました。[END-FE]
+
+
+
+
+
+//POINTER #134 @ $CEB8 - STRING #134 @ $E623
+#W32($CEB8)
+//本日の挑戦者は、[NLINE]
+//ダメージキング……[END-FE]
+本日の挑戦者は、[NLINE]
+ダメージキング……[END-FE]
+
+
+
+
+
+//POINTER #135 @ $CEBC - STRING #135 @ $E64A
+#W32($CEBC)
+//本日の挑戦者は……[END-FE]
+本日の挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #136 @ $CEC0 - STRING #136 @ $E65F
+#W32($CEC0)
+//ルールをご説明しましょう！[END-FE]
+ルールをご説明しましょう！[END-FE]
+
+
+
+
+
+//POINTER #137 @ $CEC4 - STRING #137 @ $E67C
+#W32($CEC4)
+//中央にあるゴーレムに[NLINE]
+//合計でどれだけのダメージを与えるかを競います！[NWIN]
+//
+//攻撃方法は問いません！[NLINE]
+//打撃、魔法、特技、[NLINE]
+//あらゆるものを駆使してください！[NWIN]
+//
+//[COL03]制限時間内に与えたダメージの総合計[COL00]が、[NLINE]
+//記録となります！[END-FE]
+中央にあるゴーレムに[NLINE]
+合計でどれだけのダメージを与えるかを競います！[NWIN]
+
+攻撃方法は問いません！[NLINE]
+打撃、魔法、特技、[NLINE]
+あらゆるものを駆使してください！[NWIN]
+
+[COL03]制限時間内に与えたダメージの総合計[COL00]が、[NLINE]
+記録となります！[END-FE]
+
+
+
+
+
+//POINTER #138 @ $CEC8 - STRING #138 @ $E751
+#W32($CEC8)
+//[Merklich]選手は[NLINE]
+//今回が初挑戦！[NLINE]
+//果たして、ランクインできるでしょうか！[END-FE]
+[Merklich]選手は[NLINE]
+今回が初挑戦！[NLINE]
+果たして、ランクインできるでしょうか！[END-FE]
+
+
+
+
+
+//POINTER #139 @ $CECC - STRING #139 @ $E796
+#W32($CECC)
+//[Merklich]選手の[NLINE]
+//最高記録は[CC.EF17]ポイント。[NLINE]
+//果たして新記録は出るのでしょうか!?[END-FE]
+[Merklich]選手の[NLINE]
+最高記録は[CC.EF17]ポイント。[NLINE]
+果たして新記録は出るのでしょうか!?[END-FE]
+
+
+
+
+
+//POINTER #140 @ $CED0 - STRING #140 @ $E7E0
+#W32($CED0)
+//それでは、競争を開始します！[END-FE]
+それでは、競争を開始します！[END-FE]
+
+
+
+
+
+//POINTER #141 @ $CED4 - STRING #141 @ $E7FF
+#W32($CED4)
+//総合ダメージ競争　スタート！[END-FE]
+総合ダメージ競争　スタート！[END-FE]
+
+
+
+
+
+//POINTER #142 @ $CED8 - STRING #142 @ $E81E
+#W32($CED8)
+//デバッグでタイム延ばす？[END-FE]
+デバッグでタイム延ばす？[END-FE]
+
+
+
+
+
+//POINTER #143 @ $CEDC - STRING #143 @ $E839
+#W32($CEDC)
+//・タイムアップ[END-FE]
+・Time up[END-FE]
+
+
+
+
+
+//POINTER #144 @ $CEE0 - STRING #144 @ $E84A
+#W32($CEE0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #145 @ $CEE4 - STRING #145 @ $E853
+#W32($CEE4)
+//攻撃後[END-FE]
+攻撃後[END-FE]
+
+
+
+
+
+//POINTER #146 @ $CEE8 - STRING #146 @ $E85C
+#W32($CEE8)
+//魔法後[END-FE]
+魔法後[END-FE]
+
+
+
+
+
+//POINTER #147 @ $CEEC - STRING #147 @ $E865
+#W32($CEEC)
+//[CC.EF00]ダメージ[END-FE]
+[CC.EF00]ダメージ[END-FE]
+
+
+
+
+
+//POINTER #148 @ $CEF0 - STRING #148 @ $E873
+#W32($CEF0)
+//合計[CC.EF01]ダメージ[END-FE]
+合計[CC.EF01]ダメージ[END-FE]
+
+
+
+
+
+//POINTER #149 @ $CEF4 - STRING #149 @ $E885
+#W32($CEF4)
+//タイムアップ！[END-FE]
+タイムアップ！[END-FE]
+
+
+
+
+
+//POINTER #150 @ $CEF8 - STRING #150 @ $E896
+#W32($CEF8)
+//さあ、終了です。[NLINE]
+//[Merklich]選手の[NLINE]
+//成績は……[END-FE]
+さあ、終了です。[NLINE]
+[Merklich]選手の[NLINE]
+成績は……[END-FE]
+
+
+
+
+
+//POINTER #151 @ $CEFC - STRING #151 @ $E8C1
+#W32($CEFC)
+//[CC.EF01]ポイント！[END-FE]
+[CC.EF01]ポイント！[END-FE]
+
+
+
+
+
+//POINTER #152 @ $CF00 - STRING #152 @ $E8D1
+#W32($CF00)
+//[Merklich]選手、[NLINE]
+//自己最高記録の更新です！[END-FE]
+[Merklich]選手、[NLINE]
+自己最高記録の更新です！[END-FE]
+
+
+
+
+
+//POINTER #153 @ $CF04 - STRING #153 @ $E8F8
+#W32($CF04)
+//[Merklich]選手、[NLINE]
+//制限時間内に[NLINE]
+//全く攻撃をしなかったようです。[END-FE]
+[Merklich]選手、[NLINE]
+制限時間内に[NLINE]
+全く攻撃をしなかったようです。[END-FE]
+
+
+
+
+
+//POINTER #154 @ $CF08 - STRING #154 @ $E933
+#W32($CF08)
+//それでは、ランキング表を[NLINE]
+//見てみましょう！[END-FE]
+それでは、ランキング表を[NLINE]
+見てみましょう！[END-FE]
+
+
+
+
+
+//POINTER #155 @ $CF0C - STRING #155 @ $E960
+#W32($CF0C)
+//ランキングは調整前です。[END-FE]
+ランキングは調整前です。[END-FE]
+
+
+
+
+
+//POINTER #156 @ $CF10 - STRING #156 @ $E97B
+#W32($CF10)
+//　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　　１位　　[CC.EAEDFF][NLINE]
+//　　２位　　[CC.EAEEFF][NLINE]
+//　　３位　　[CC.EAEFFF][NLINE]
+//　　４位　　[CC.EAF0FF][NLINE]
+//　　５位　　[CC.EAF1FF][NLINE]
+//　　６位　　[CC.EAF2FF][NLINE]
+//　　７位　　[CC.EAF3FF][NLINE]
+//　　８位　　[CC.EAF4FF][NLINE]
+//　　９位　　[CC.EAF5FF][NLINE]
+//　１０位　　[CC.EAF6FF][NLINE]
+//　　　　　　　　　　　　　　　　　　　　　[END-FE]
+　[NLINE]
+　[NLINE]
+　[NLINE]
+　　１位　　[CC.EAEDFF][NLINE]
+　　２位　　[CC.EAEEFF][NLINE]
+　　３位　　[CC.EAEFFF][NLINE]
+　　４位　　[CC.EAF0FF][NLINE]
+　　５位　　[CC.EAF1FF][NLINE]
+　　６位　　[CC.EAF2FF][NLINE]
+　　７位　　[CC.EAF3FF][NLINE]
+　　８位　　[CC.EAF4FF][NLINE]
+　　９位　　[CC.EAF5FF][NLINE]
+　１０位　　[CC.EAF6FF][NLINE]
+　　　　　　　　　　　　　　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #157 @ $CF14 - STRING #157 @ $EA68
+#W32($CF14)
+//■ 総合ダメージ競争ランキング ■[END-FE]
+■ 総合ダメージ競争ランキング ■[END-FE]
+
+
+
+
+
+//POINTER #158 @ $CF18 - STRING #158 @ $EA8B
+#W32($CF18)
+//限界値オーバー[END-FE]
+限界値オーバー[END-FE]
+
+
+
+
+
+//POINTER #159 @ $CF1C - STRING #159 @ $EA9C
+#W32($CF1C)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #160 @ $CF20 - STRING #160 @ $EAA2
+#W32($CF20)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #161 @ $CF24 - STRING #161 @ $EAA8
+#W32($CF24)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #162 @ $CF28 - STRING #162 @ $EAAE
+#W32($CF28)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #163 @ $CF2C - STRING #163 @ $EAB4
+#W32($CF2C)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #164 @ $CF30 - STRING #164 @ $EABA
+#W32($CF30)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #165 @ $CF34 - STRING #165 @ $EAC0
+#W32($CF34)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #166 @ $CF38 - STRING #166 @ $EAC6
+#W32($CF38)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #167 @ $CF3C - STRING #167 @ $EACC
+#W32($CF3C)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #168 @ $CF40 - STRING #168 @ $EAD2
+#W32($CF40)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #169 @ $CF44 - STRING #169 @ $EAD8
+#W32($CF44)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #170 @ $CF48 - STRING #170 @ $EADE
+#W32($CF48)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #171 @ $CF4C - STRING #171 @ $EAE4
+#W32($CF4C)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #172 @ $CF50 - STRING #172 @ $EAEA
+#W32($CF50)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #173 @ $CF54 - STRING #173 @ $EAF0
+#W32($CF54)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #174 @ $CF58 - STRING #174 @ $EAF6
+#W32($CF58)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #175 @ $CF5C - STRING #175 @ $EAFC
+#W32($CF5C)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #176 @ $CF60 - STRING #176 @ $EB02
+#W32($CF60)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #177 @ $CF64 - STRING #177 @ $EB08
+#W32($CF64)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #178 @ $CF68 - STRING #178 @ $EB0E
+#W32($CF68)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #179 @ $CF6C - STRING #179 @ $EB14
+#W32($CF6C)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #180 @ $CF70 - STRING #180 @ $EB1A
+#W32($CF70)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #181 @ $CF74 - STRING #181 @ $EB20
+#W32($CF74)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #182 @ $CF78 - STRING #182 @ $EB26
+#W32($CF78)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #183 @ $CF7C - STRING #183 @ $EB2C
+#W32($CF7C)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #184 @ $CF80 - STRING #184 @ $EB32
+#W32($CF80)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #185 @ $CF84 - STRING #185 @ $EB38
+#W32($CF84)
+//[CC.EF17][END-FE]
+[CC.EF17][END-FE]
+
+
+
+
+
+//POINTER #186 @ $CF88 - STRING #186 @ $EB3E
+#W32($CF88)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #187 @ $CF8C - STRING #187 @ $EB44
+#W32($CF8C)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #188 @ $CF90 - STRING #188 @ $EB4A
+#W32($CF90)
+//や、やりました！[NLINE]
+//全てのダメージ部門を制覇し、[NLINE]
+//ここに真のダメージチャンピオンの誕生です！[NWIN]
+//
+//[Merklich]選手の攻撃により、[NLINE]
+//沈まない相手はいないことでしょう！[END-FE]
+や、やりました！[NLINE]
+全てのダメージ部門を制覇し、[NLINE]
+ここに真のダメージチャンピオンの誕生です！[NWIN]
+
+[Merklich]選手の攻撃により、[NLINE]
+沈まない相手はいないことでしょう！[END-FE]
+
+
+
+
+
+//POINTER #189 @ $CF94 - STRING #189 @ $EBE3
+#W32($CF94)
+//総合ダメージ王の証として、[NLINE]
+//当闘技場から秘蔵の宝物が贈られます！[END-FE]
+総合ダメージ王の証として、[NLINE]
+当闘技場から秘蔵の宝物が贈られます！[END-FE]
+
+
+
+
+
+//POINTER #190 @ $CF98 - STRING #190 @ $EC26
+#W32($CF98)
+//それでは、最高のダメージ王[NLINE]
+//[Merklich]選手に、[NLINE]
+//もう一度大きな拍手をお願いします！[END-FE]
+それでは、最高のダメージ王[NLINE]
+[Merklich]選手に、[NLINE]
+もう一度大きな拍手をお願いします！[END-FE]
+
+
+
+
+
+//POINTER #191 @ $CF9C - STRING #191 @ $EC75
+#W32($CF9C)
+//[Merklich]選手、[NLINE]
+//残念ながらランク外でした。[NWIN]
+//
+//次回からの活躍に期待しましょう！[END-FE]
+[Merklich]選手、[NLINE]
+残念ながらランク外でした。[NWIN]
+
+次回からの活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #192 @ $CFA0 - STRING #192 @ $ECC0
+#W32($CFA0)
+//[Merklich]選手、[NLINE]
+//総合ダメージ王を目指して[NLINE]
+//次もがんばってください！[END-FE]
+[Merklich]選手、[NLINE]
+総合ダメージ王を目指して[NLINE]
+次もがんばってください！[END-FE]
+
+
+
+
+
+//POINTER #193 @ $CFA4 - STRING #193 @ $ED01
+#W32($CFA4)
+//総合ダメージ王、[NLINE]
+//[Merklich]選手の[NLINE]
+//さらなる飛躍に期待しましょう！[END-FE]
+総合ダメージ王、[NLINE]
+[Merklich]選手の[NLINE]
+さらなる飛躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #194 @ $CFA8 - STRING #194 @ $ED40
+#W32($CFA8)
+//打撃ダメージ王の証として、[NLINE]
+//当闘技場から秘蔵の宝物が贈られます！[END-FE]
+打撃ダメージ王の証として、[NLINE]
+当闘技場から秘蔵の宝物が贈られます！[END-FE]
+
+
+
+
+
+//POINTER #195 @ $CFAC - STRING #195 @ $ED83
+#W32($CFAC)
+//魔法ダメージ王の証として、[NLINE]
+//当闘技場から秘蔵の宝物が贈られます！[END-FE]
+魔法ダメージ王の証として、[NLINE]
+当闘技場から秘蔵の宝物が贈られます！[END-FE]
+
+
+
+
+
+//POINTER #196 @ $CFB0 - STRING #196 @ $EDC6
+#W32($CFB0)
+//これから勝ち抜きカッパークラスを開催します！[END-FE]
+これから勝ち抜きカッパークラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #197 @ $CFB4 - STRING #197 @ $EDF5
+#W32($CFB4)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+それでは、熱いバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #198 @ $CFB8 - STRING #198 @ $EE1E
+#W32($CFB8)
+//カッパークラス　第１戦　スタート！[END-FE]
+カッパークラス　第１戦　スタート！[END-FE]
+
+
+
+
+
+//POINTER #199 @ $CFBC - STRING #199 @ $EE43
+#W32($CFBC)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #200 @ $CFC0 - STRING #200 @ $EE56
+#W32($CFC0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #201 @ $CFC4 - STRING #201 @ $EE5F
+#W32($CFC4)
+//これから勝ち抜きシルバークラスを開催します！[END-FE]
+これから勝ち抜きシルバークラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #202 @ $CFC8 - STRING #202 @ $EE8E
+#W32($CFC8)
+//それでは、胸躍るバトルを期待しましょう！[END-FE]
+それでは、胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #203 @ $CFCC - STRING #203 @ $EEB9
+#W32($CFCC)
+//シルバークラス　第１戦　スタート！[END-FE]
+シルバークラス　第１戦　スタート！[END-FE]
+
+
+
+
+
+//POINTER #204 @ $CFD0 - STRING #204 @ $EEDE
+#W32($CFD0)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #205 @ $CFD4 - STRING #205 @ $EEF1
+#W32($CFD4)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #206 @ $CFD8 - STRING #206 @ $EEFA
+#W32($CFD8)
+//これから勝ち抜きゴールドクラスを開催します！[END-FE]
+これから勝ち抜きゴールドクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #207 @ $CFDC - STRING #207 @ $EF29
+#W32($CFDC)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+それでは、熱いバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #208 @ $CFE0 - STRING #208 @ $EF52
+#W32($CFE0)
+//ゴールドクラス　第１戦　スタート！[END-FE]
+ゴールドクラス　第１戦　スタート！[END-FE]
+
+
+
+
+
+//POINTER #209 @ $CFE4 - STRING #209 @ $EF77
+#W32($CFE4)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #210 @ $CFE8 - STRING #210 @ $EF8A
+#W32($CFE8)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #211 @ $CFEC - STRING #211 @ $EF93
+#W32($CFEC)
+//これから勝ち抜きプラチナクラスを開催します！[END-FE]
+これから勝ち抜きプラチナクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #212 @ $CFF0 - STRING #212 @ $EFC2
+#W32($CFF0)
+//それでは、胸躍るバトルを期待しましょう！[END-FE]
+それでは、胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #213 @ $CFF4 - STRING #213 @ $EFED
+#W32($CFF4)
+//プラチナクラス　第１戦　スタート！[END-FE]
+プラチナクラス　第１戦　スタート！[END-FE]
+
+
+
+
+
+//POINTER #214 @ $CFF8 - STRING #214 @ $F012
+#W32($CFF8)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #215 @ $CFFC - STRING #215 @ $F025
+#W32($CFFC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #216 @ $D000 - STRING #216 @ $F02E
+#W32($D000)
+//ルールをご説明しましょう！[NWIN]
+//
+//一人で次々に現れるモンスターを[NLINE]
+//撃破してもらいます。[NLINE]
+//そして五連戦勝ち抜く事ができれば[NLINE]
+//次のクラスへの挑戦権を得る事ができます。[END-FE]
+ルールをご説明しましょう！[NWIN]
+
+一人で次々に現れるモンスターを[NLINE]
+撃破してもらいます。[NLINE]
+そして五連戦勝ち抜く事ができれば[NLINE]
+次のクラスへの挑戦権を得る事ができます。[END-FE]
+
+
+
+
+
+//POINTER #217 @ $D004 - STRING #217 @ $F0CD
+#W32($D004)
+//本日の挑戦者は……[END-FE]
+本日の挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #218 @ $D008 - STRING #218 @ $F0E2
+#W32($D008)
+//カッパークラス　第２戦！[END-FE]
+カッパークラス　第２戦！[END-FE]
+
+
+
+
+
+//POINTER #219 @ $D00C - STRING #219 @ $F0FD
+#W32($D00C)
+//シルバークラス　第２戦！[END-FE]
+シルバークラス　第２戦！[END-FE]
+
+
+
+
+
+//POINTER #220 @ $D010 - STRING #220 @ $F118
+#W32($D010)
+//ゴールドクラス　第２戦！[END-FE]
+ゴールドクラス　第２戦！[END-FE]
+
+
+
+
+
+//POINTER #221 @ $D014 - STRING #221 @ $F133
+#W32($D014)
+//プラチナクラス　第２戦！[END-FE]
+プラチナクラス　第２戦！[END-FE]
+
+
+
+
+
+//POINTER #222 @ $D018 - STRING #222 @ $F14E
+#W32($D018)
+//カッパークラス　第３戦！[END-FE]
+カッパークラス　第３戦！[END-FE]
+
+
+
+
+
+//POINTER #223 @ $D01C - STRING #223 @ $F169
+#W32($D01C)
+//シルバークラス　第３戦！[END-FE]
+シルバークラス　第３戦！[END-FE]
+
+
+
+
+
+//POINTER #224 @ $D020 - STRING #224 @ $F184
+#W32($D020)
+//ゴールドクラス　第３戦！[END-FE]
+ゴールドクラス　第３戦！[END-FE]
+
+
+
+
+
+//POINTER #225 @ $D024 - STRING #225 @ $F19F
+#W32($D024)
+//プラチナクラス　第３戦！[END-FE]
+プラチナクラス　第３戦！[END-FE]
+
+
+
+
+
+//POINTER #226 @ $D028 - STRING #226 @ $F1BA
+#W32($D028)
+//カッパークラス　第４戦！[END-FE]
+カッパークラス　第４戦！[END-FE]
+
+
+
+
+
+//POINTER #227 @ $D02C - STRING #227 @ $F1D5
+#W32($D02C)
+//シルバークラス　第４戦！[END-FE]
+シルバークラス　第４戦！[END-FE]
+
+
+
+
+
+//POINTER #228 @ $D030 - STRING #228 @ $F1F0
+#W32($D030)
+//ゴールドクラス　第４戦！[END-FE]
+ゴールドクラス　第４戦！[END-FE]
+
+
+
+
+
+//POINTER #229 @ $D034 - STRING #229 @ $F20B
+#W32($D034)
+//プラチナクラス　第４戦！[END-FE]
+プラチナクラス　第４戦！[END-FE]
+
+
+
+
+
+//POINTER #230 @ $D038 - STRING #230 @ $F226
+#W32($D038)
+//カッパークラス　第５戦！[END-FE]
+カッパークラス　第５戦！[END-FE]
+
+
+
+
+
+//POINTER #231 @ $D03C - STRING #231 @ $F241
+#W32($D03C)
+//シルバークラス　第５戦！[END-FE]
+シルバークラス　第５戦！[END-FE]
+
+
+
+
+
+//POINTER #232 @ $D040 - STRING #232 @ $F25C
+#W32($D040)
+//ゴールドクラス　第５戦！[END-FE]
+ゴールドクラス　第５戦！[END-FE]
+
+
+
+
+
+//POINTER #233 @ $D044 - STRING #233 @ $F277
+#W32($D044)
+//プラチナクラス　第５戦！[END-FE]
+プラチナクラス　第５戦！[END-FE]
+
+
+
+
+
+//POINTER #234 @ $D048 - STRING #234 @ $F292
+#W32($D048)
+//やりました、[NLINE]
+//[Merklich]選手！[NLINE]
+//５戦勝ち抜き！[END-FE]
+やりました、[NLINE]
+[Merklich]選手！[NLINE]
+５戦勝ち抜き！[END-FE]
+
+
+
+
+
+//POINTER #235 @ $D04C - STRING #235 @ $F2BD
+#W32($D04C)
+//[Merklich]選手には[NLINE]
+//次のクラスへの挑戦権と、[NLINE]
+//賞品が授与されます！[END-FE]
+[Merklich]選手には[NLINE]
+次のクラスへの挑戦権と、[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #236 @ $D050 - STRING #236 @ $F2FC
+#W32($D050)
+//それでは、これにて[NLINE]
+//勝ち抜きカッパークラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、これにて[NLINE]
+勝ち抜きカッパークラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #237 @ $D054 - STRING #237 @ $F33D
+#W32($D054)
+//それでは、これにて[NLINE]
+//勝ち抜きシルバークラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、これにて[NLINE]
+勝ち抜きシルバークラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #238 @ $D058 - STRING #238 @ $F37E
+#W32($D058)
+//それでは、これにて[NLINE]
+//勝ち抜きゴールドクラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、これにて[NLINE]
+勝ち抜きゴールドクラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #239 @ $D05C - STRING #239 @ $F3BF
+#W32($D05C)
+//[Merklich]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+[Merklich]選手の[NLINE]
+今後の活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #240 @ $D060 - STRING #240 @ $F3EA
+#W32($D060)
+//[Merklich]選手、[NLINE]
+//ついに勝ち抜き全クラスを[NLINE]
+//制覇しました！[NLINE]
+//おめでとうございます！[NWIN]
+//
+//[Merklich]選手には[NLINE]
+//豪華な賞品が授与されます！[NLINE]
+//お受け取りください。[END-FE]
+[Merklich]選手、[NLINE]
+ついに勝ち抜き全クラスを[NLINE]
+制覇しました！[NLINE]
+おめでとうございます！[NWIN]
+
+[Merklich]選手には[NLINE]
+豪華な賞品が授与されます！[NLINE]
+お受け取りください。[END-FE]
+
+
+
+
+
+//POINTER #241 @ $D064 - STRING #241 @ $F479
+#W32($D064)
+//またしても勝ち抜きプラチナクラスを[NLINE]
+//制覇しました！[NLINE]
+//賞品の授与です。[END-FE]
+またしても勝ち抜きプラチナクラスを[NLINE]
+制覇しました！[NLINE]
+賞品の授与です。[END-FE]
+
+
+
+
+
+//POINTER #242 @ $D068 - STRING #242 @ $F4C0
+#W32($D068)
+//それでは、これにて[NLINE]
+//勝ち抜きプラチナクラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Merklich]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+それでは、これにて[NLINE]
+勝ち抜きプラチナクラスを[NLINE]
+終了いたします。[NWIN]
+
+[Merklich]選手の[NLINE]
+今後の活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #243 @ $D06C - STRING #243 @ $F52B
+#W32($D06C)
+//第４戦まで勝ち抜き、[NLINE]
+//惜しくも敗れ去った[NLINE]
+//[Merklich]選手には[NLINE]
+//賞金が授与されます。[END-FE]
+第４戦まで勝ち抜き、[NLINE]
+惜しくも敗れ去った[NLINE]
+[Merklich]選手には[NLINE]
+賞金が授与されます。[END-FE]
+
+
+
+
+
+//POINTER #244 @ $D070 - STRING #244 @ $F57A
+#W32($D070)
+//これにめげず、[NLINE]
+//次も挑戦してください。[END-FE]
+これにめげず、[NLINE]
+次も挑戦してください。[END-FE]
+
+
+
+
+
+//POINTER #245 @ $D074 - STRING #245 @ $F5A3
+#W32($D074)
+//それでは、[NLINE]
+//これにて勝ち抜きカッパークラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、[NLINE]
+これにて勝ち抜きカッパークラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #246 @ $D078 - STRING #246 @ $F5E4
+#W32($D078)
+//それでは、[NLINE]
+//これにて勝ち抜きシルバークラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、[NLINE]
+これにて勝ち抜きシルバークラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #247 @ $D07C - STRING #247 @ $F625
+#W32($D07C)
+//それでは、[NLINE]
+//これにて勝ち抜きゴールドクラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、[NLINE]
+これにて勝ち抜きゴールドクラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #248 @ $D080 - STRING #248 @ $F666
+#W32($D080)
+//それでは、[NLINE]
+//これにて勝ち抜きプラチナクラスを[NLINE]
+//終了いたします。[END-FE]
+それでは、[NLINE]
+これにて勝ち抜きプラチナクラスを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #249 @ $D084 - STRING #249 @ $F6A7
+#W32($D084)
+//[Merklich]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+[Merklich]選手の[NLINE]
+今後の活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #250 @ $D088 - STRING #250 @ $F6D2
+#W32($D088)
+//バクターチーム！[END-FE]
+バクターチーム！[END-FE]
+
+
+
+
+
+//POINTER #251 @ $D08C - STRING #251 @ $F6E5
+#W32($D08C)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #252 @ $D090 - STRING #252 @ $F726
+#W32($D090)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #253 @ $D094 - STRING #253 @ $F741
+#W32($D094)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #254 @ $D098 - STRING #254 @ $F754
+#W32($D098)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #255 @ $D09C - STRING #255 @ $F75D
+#W32($D09C)
+//シリルティアチーム！[END-FE]
+シリルティアチーム！[END-FE]
+
+
+
+
+
+//POINTER #256 @ $D0A0 - STRING #256 @ $F774
+#W32($D0A0)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #257 @ $D0A4 - STRING #257 @ $F7B5
+#W32($D0A4)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #258 @ $D0A8 - STRING #258 @ $F7D0
+#W32($D0A8)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #259 @ $D0AC - STRING #259 @ $F7E3
+#W32($D0AC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #260 @ $D0B0 - STRING #260 @ $F7EC
+#W32($D0B0)
+//維持軍チーム！[END-FE]
+維持軍チーム！[END-FE]
+
+
+
+
+
+//POINTER #261 @ $D0B4 - STRING #261 @ $F7FD
+#W32($D0B4)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #262 @ $D0B8 - STRING #262 @ $F83E
+#W32($D0B8)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #263 @ $D0BC - STRING #263 @ $F859
+#W32($D0BC)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #264 @ $D0C0 - STRING #264 @ $F86C
+#W32($D0C0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #265 @ $D0C4 - STRING #265 @ $F875
+#W32($D0C4)
+//スレイヤーチーム！[END-FE]
+スレイヤーチーム！[END-FE]
+
+
+
+
+
+//POINTER #266 @ $D0C8 - STRING #266 @ $F88A
+#W32($D0C8)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #267 @ $D0CC - STRING #267 @ $F8CB
+#W32($D0CC)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #268 @ $D0D0 - STRING #268 @ $F8E6
+#W32($D0D0)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #269 @ $D0D4 - STRING #269 @ $F8F9
+#W32($D0D4)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #270 @ $D0D8 - STRING #270 @ $F902
+#W32($D0D8)
+//ハンターチーム！[END-FE]
+ハンターチーム！[END-FE]
+
+
+
+
+
+//POINTER #271 @ $D0DC - STRING #271 @ $F915
+#W32($D0DC)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #272 @ $D0E0 - STRING #272 @ $F956
+#W32($D0E0)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #273 @ $D0E4 - STRING #273 @ $F971
+#W32($D0E4)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #274 @ $D0E8 - STRING #274 @ $F984
+#W32($D0E8)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #275 @ $D0EC - STRING #275 @ $F98D
+#W32($D0EC)
+//エスグレンツチーム！[END-FE]
+エスグレンツチーム！[END-FE]
+
+
+
+
+
+//POINTER #276 @ $D0F0 - STRING #276 @ $F9A4
+#W32($D0F0)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #277 @ $D0F4 - STRING #277 @ $F9E5
+#W32($D0F4)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #278 @ $D0F8 - STRING #278 @ $FA00
+#W32($D0F8)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #279 @ $D0FC - STRING #279 @ $FA13
+#W32($D0FC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #280 @ $D100 - STRING #280 @ $FA1C
+#W32($D100)
+//リーダーチーム！[END-FE]
+リーダーチーム！[END-FE]
+
+
+
+
+
+//POINTER #281 @ $D104 - STRING #281 @ $FA2F
+#W32($D104)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #282 @ $D108 - STRING #282 @ $FA70
+#W32($D108)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #283 @ $D10C - STRING #283 @ $FA8B
+#W32($D10C)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #284 @ $D110 - STRING #284 @ $FA9E
+#W32($D110)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #285 @ $D114 - STRING #285 @ $FAA7
+#W32($D114)
+//総帥チーム！[END-FE]
+総帥チーム！[END-FE]
+
+
+
+
+
+//POINTER #286 @ $D118 - STRING #286 @ $FAB6
+#W32($D118)
+//どちらのチームが勝ち残るのか、[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+どちらのチームが勝ち残るのか、[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #287 @ $D11C - STRING #287 @ $FAF7
+#W32($D11C)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #288 @ $D120 - STRING #288 @ $FB12
+#W32($D120)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #289 @ $D124 - STRING #289 @ $FB25
+#W32($D124)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #290 @ $D128 - STRING #290 @ $FB2E
+#W32($D128)
+//これからタッグバトルを開催します！[END-FE]
+これからタッグバトルを開催します！[END-FE]
+
+
+
+
+
+//POINTER #291 @ $D12C - STRING #291 @ $FB53
+#W32($D12C)
+//ルールをご説明しましょう！[NWIN]
+//
+//２対２の真剣チームバトル。[NLINE]
+//一度でも倒されてしまったら、[NLINE]
+//[COL03]バトルに復帰することは出来ません[COL00]！[NWIN]
+//
+//敵対する２人の相手を撃破したチームが[NLINE]
+//勝者となります！[NWIN]
+//
+//…挑戦するのは自由。[NLINE]
+//ならば、私が口出しするのも野暮というもの。[END-FE]
+ルールをご説明しましょう！[NWIN]
+
+２対２の真剣チームバトル。[NLINE]
+一度でも倒されてしまったら、[NLINE]
+[COL03]バトルに復帰することは出来ません[COL00]！[NWIN]
+
+敵対する２人の相手を撃破したチームが[NLINE]
+勝者となります！[NWIN]
+
+…挑戦するのは自由。[NLINE]
+ならば、私が口出しするのも野暮というもの。[END-FE]
+
+
+
+
+
+//POINTER #292 @ $D130 - STRING #292 @ $FC4E
+#W32($D130)
+//本日の挑戦者は……[END-FE]
+本日の挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #293 @ $D134 - STRING #293 @ $FC63
+#W32($D134)
+//最凶タッグチーム、[NLINE]
+//スクリーパーチーム！[END-FE]
+最凶タッグチーム、[NLINE]
+スクリーパーチーム！[END-FE]
+
+
+
+
+
+//POINTER #294 @ $D138 - STRING #294 @ $FC8E
+#W32($D138)
+//最強の栄冠を[NLINE]
+//どちらのチームが手にするのでしょうか！[NLINE]
+//胸躍るバトルを期待しましょう！[END-FE]
+最強の栄冠を[NLINE]
+どちらのチームが手にするのでしょうか！[NLINE]
+胸躍るバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #295 @ $D13C - STRING #295 @ $FCE5
+#W32($D13C)
+//タッグバトル　スタート！[END-FE]
+タッグバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #296 @ $D140 - STRING #296 @ $FD00
+#W32($D140)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #297 @ $D144 - STRING #297 @ $FD13
+#W32($D144)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #298 @ $D148 - STRING #298 @ $FD1C
+#W32($D148)
+//これからタッグバトルを開催します！[END-FE]
+これからタッグバトルを開催します！[END-FE]
+
+
+
+
+
+//POINTER #299 @ $D14C - STRING #299 @ $FD41
+#W32($D14C)
+//ルールをご説明しましょう！[NWIN]
+//
+//２対２の真剣チームバトル。[NLINE]
+//一度でも倒されてしまったら、[NLINE]
+//[COL03]バトルに復帰することは出来ません[COL00]！[NWIN]
+//
+//敵対する２人の相手を撃破したチームが[NLINE]
+//勝者となります！[NWIN]
+//
+//勝利したチームには[NLINE]
+//ステキな賞品がプレゼントされますので、[NLINE]
+//がんばってください！[END-FE]
+ルールをご説明しましょう！[NWIN]
+
+２対２の真剣チームバトル。[NLINE]
+一度でも倒されてしまったら、[NLINE]
+[COL03]バトルに復帰することは出来ません[COL00]！[NWIN]
+
+敵対する２人の相手を撃破したチームが[NLINE]
+勝者となります！[NWIN]
+
+勝利したチームには[NLINE]
+ステキな賞品がプレゼントされますので、[NLINE]
+がんばってください！[END-FE]
+
+
+
+
+
+//POINTER #300 @ $D150 - STRING #300 @ $FE4C
+#W32($D150)
+//本日の挑戦者は……[END-FE]
+本日の挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #301 @ $D154 - STRING #301 @ $FE61
+#W32($D154)
+//[Merklich]チーム！[END-FE]
+[Merklich]チーム！[END-FE]
+
+
+
+
+
+//POINTER #302 @ $D158 - STRING #302 @ $FE70
+#W32($D158)
+//迎え撃つは……[END-FE]
+迎え撃つは……[END-FE]
+
+
+
+
+
+//POINTER #303 @ $D15C - STRING #303 @ $FE81
+#W32($D15C)
+//決着が付いたようです！[END-FE]
+決着が付いたようです！[END-FE]
+
+
+
+
+
+//POINTER #304 @ $D160 - STRING #304 @ $FE9A
+#W32($D160)
+//……信じられません。[NLINE]
+//あの、最凶のスクリーパーを敵に回して、[NLINE]
+//勝ち抜いてしまうとは…。[NWIN]
+//
+//ここに最強のコンビ誕生です！[NLINE]
+//その名は…。[END-FE]
+……信じられません。[NLINE]
+あの、最凶のスクリーパーを敵に回して、[NLINE]
+勝ち抜いてしまうとは…。[NWIN]
+
+ここに最強のコンビ誕生です！[NLINE]
+その名は…。[END-FE]
+
+
+
+
+
+//POINTER #305 @ $D164 - STRING #305 @ $FF1F
+#W32($D164)
+//最早疑うべくもない！[NLINE]
+//やはり最強はこのチームにこそ相応しい！[NLINE]
+//勝利チームは…。[END-FE]
+最早疑うべくもない！[NLINE]
+やはり最強はこのチームにこそ相応しい！[NLINE]
+勝利チームは…。[END-FE]
+
+
+
+
+
+//POINTER #306 @ $D168 - STRING #306 @ $FF70
+#W32($D168)
+//[Merklich]チーム！[END-FE]
+[Merklich]チーム！[END-FE]
+
+
+
+
+
+//POINTER #307 @ $D16C - STRING #307 @ $FF7F
+#W32($D16C)
+//この闘技場が贈れる物では、[NLINE]
+//もう満足して貰えないかもしれませんが、[NLINE]
+//この賞品をお受け取りください。[END-FE]
+この闘技場が贈れる物では、[NLINE]
+もう満足して貰えないかもしれませんが、[NLINE]
+この賞品をお受け取りください。[END-FE]
+
+
+
+
+
+//POINTER #308 @ $D170 - STRING #308 @ $FFE4
+#W32($D170)
+//当闘技場に[NLINE]
+//[Merklich]チーム程の[NLINE]
+//勇者チームに渡せる賞品はありませんが、[NLINE]
+//これをお受け取りください。[END-FE]
+当闘技場に[NLINE]
+[Merklich]チーム程の[NLINE]
+勇者チームに渡せる賞品はありませんが、[NLINE]
+これをお受け取りください。[END-FE]
+
+
+
+
+
+//POINTER #309 @ $D174 - STRING #309 @ $10045
+#W32($D174)
+//それでは最強のタッグチームに[NLINE]
+//もう一度盛大な拍手を！[END-FE]
+それでは最強のタッグチームに[NLINE]
+もう一度盛大な拍手を！[END-FE]
+
+
+
+
+
+//POINTER #310 @ $D178 - STRING #310 @ $1007C
+#W32($D178)
+//勝利したのは、[NLINE]
+//[Merklich]チーム！[END-FE]
+勝利したのは、[NLINE]
+[Merklich]チーム！[END-FE]
+
+
+
+
+
+//POINTER #311 @ $D17C - STRING #311 @ $1009B
+#W32($D17C)
+//勝利したのは、[NLINE]
+//バクターチーム！[END-FE]
+勝利したのは、[NLINE]
+バクターチーム！[END-FE]
+
+
+
+
+
+//POINTER #312 @ $D180 - STRING #312 @ $100BE
+#W32($D180)
+//勝利したのは、[NLINE]
+//シリルティアチーム！[END-FE]
+勝利したのは、[NLINE]
+シリルティアチーム！[END-FE]
+
+
+
+
+
+//POINTER #313 @ $D184 - STRING #313 @ $100E5
+#W32($D184)
+//勝利したのは、[NLINE]
+//維持軍チーム！[END-FE]
+勝利したのは、[NLINE]
+維持軍チーム！[END-FE]
+
+
+
+
+
+//POINTER #314 @ $D188 - STRING #314 @ $10106
+#W32($D188)
+//勝利したのは、[NLINE]
+//スレイヤーチーム！[END-FE]
+勝利したのは、[NLINE]
+スレイヤーチーム！[END-FE]
+
+
+
+
+
+//POINTER #315 @ $D18C - STRING #315 @ $1012B
+#W32($D18C)
+//勝利したのは、[NLINE]
+//ハンターチーム！[END-FE]
+勝利したのは、[NLINE]
+ハンターチーム！[END-FE]
+
+
+
+
+
+//POINTER #316 @ $D190 - STRING #316 @ $1014E
+#W32($D190)
+//勝利したのは、[NLINE]
+//エスグレンツチーム！[END-FE]
+勝利したのは、[NLINE]
+エスグレンツチーム！[END-FE]
+
+
+
+
+
+//POINTER #317 @ $D194 - STRING #317 @ $10175
+#W32($D194)
+//勝利したのは、[NLINE]
+//リーダーチーム！[END-FE]
+勝利したのは、[NLINE]
+リーダーチーム！[END-FE]
+
+
+
+
+
+//POINTER #318 @ $D198 - STRING #318 @ $10198
+#W32($D198)
+//勝利したのは、[NLINE]
+//総帥チーム！[END-FE]
+勝利したのは、[NLINE]
+総帥チーム！[END-FE]
+
+
+
+
+
+//POINTER #319 @ $D19C - STRING #319 @ $101B7
+#W32($D19C)
+//勝利したのは、[NLINE]
+//スクリーパーチーム！[END-FE]
+勝利したのは、[NLINE]
+スクリーパーチーム！[END-FE]
+
+
+
+
+
+//POINTER #320 @ $D1A0 - STRING #320 @ $101DE
+#W32($D1A0)
+//これをもちまして、[NLINE]
+//タッグバトルを終了いたします。[NWIN]
+//
+//勝利したチームに[NLINE]
+//もう一度拍手をお願いします！[END-FE]
+これをもちまして、[NLINE]
+タッグバトルを終了いたします。[NWIN]
+
+勝利したチームに[NLINE]
+もう一度拍手をお願いします！[END-FE]
+
+
+
+
+
+//POINTER #321 @ $D1A4 - STRING #321 @ $10243
+#W32($D1A4)
+//勝利しました[NLINE]
+//[Merklich]チームには[NLINE]
+//更なる強豪チームへの挑戦権と[NLINE]
+//賞品が授与されます！[END-FE]
+勝利しました[NLINE]
+[Merklich]チームには[NLINE]
+更なる強豪チームへの挑戦権と[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #322 @ $D1A8 - STRING #322 @ $10296
+#W32($D1A8)
+//勝利しました[NLINE]
+//[Merklich]チームには[NLINE]
+//賞品が授与されます！[END-FE]
+勝利しました[NLINE]
+[Merklich]チームには[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #323 @ $D1AC - STRING #323 @ $102CB
+#W32($D1AC)
+//闘技場ファンの誰もが夢見た[NLINE]
+//エキシビジョンマッチの[NLINE]
+//時間がやって参りました！[NWIN]
+//
+//エントリーしているのは、[NLINE]
+//いずれ劣らぬ各国英雄クラスの[NLINE]
+//勇者ばかり！[NWIN]
+//
+//そんな勇者たちの入場です！[END-FE]
+闘技場ファンの誰もが夢見た[NLINE]
+エキシビジョンマッチの[NLINE]
+時間がやって参りました！[NWIN]
+
+エントリーしているのは、[NLINE]
+いずれ劣らぬ各国英雄クラスの[NLINE]
+勇者ばかり！[NWIN]
+
+そんな勇者たちの入場です！[END-FE]
+
+
+
+
+
+//POINTER #324 @ $D1B0 - STRING #324 @ $1037C
+#W32($D1B0)
+//さあ、見せてもらいましょう。[NLINE]
+//その熱いバトルを！[END-FE]
+さあ、見せてもらいましょう。[NLINE]
+その熱いバトルを！[END-FE]
+
+
+
+
+
+//POINTER #325 @ $D1B4 - STRING #325 @ $103AF
+#W32($D1B4)
+//エキシビジョンマッチ　スタート！[END-FE]
+エキシビジョンマッチ　スタート！[END-FE]
+
+
+
+
+
+//POINTER #326 @ $D1B8 - STRING #326 @ $103D2
+#W32($D1B8)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #327 @ $D1BC - STRING #327 @ $103E5
+#W32($D1BC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #328 @ $D1C0 - STRING #328 @ $103EE
+#W32($D1C0)
+//驚天動地のドリームバトルに決着がつきました。[NLINE]
+//この決戦を制したのは……[END-FE]
+驚天動地のドリームバトルに決着がつきました。[NLINE]
+この決戦を制したのは……[END-FE]
+
+
+
+
+
+//POINTER #329 @ $D1C4 - STRING #329 @ $10437
+#W32($D1C4)
+//[Merklich]チーム！[NWIN]
+//
+//なんと、６名すべてを撃破し、[NLINE]
+//初の完全制覇となりました！[END-FE]
+[Merklich]チーム！[NWIN]
+
+なんと、６名すべてを撃破し、[NLINE]
+初の完全制覇となりました！[END-FE]
+
+
+
+
+
+//POINTER #330 @ $D1C8 - STRING #330 @ $10480
+#W32($D1C8)
+//[Merklich]チーム！[NWIN]
+//
+//またも６名すべてを撃破し、[NLINE]
+//完全制覇です！[NWIN]
+//
+//強い、実に強～い！[END-FE]
+[Merklich]チーム！[NWIN]
+
+またも６名すべてを撃破し、[NLINE]
+完全制覇です！[NWIN]
+
+強い、実に強～い！[END-FE]
+
+
+
+
+
+//POINTER #331 @ $D1CC - STRING #331 @ $104CF
+#W32($D1CC)
+//[Merklich]チーム！[NWIN]
+//
+//[CC.EF01]人の選手を撃破しての優勝です！[NWIN]
+//
+//[Merklich]チームには[NLINE]
+//成績に応じた賞品が贈られます！[END-FE]
+[Merklich]チーム！[NWIN]
+
+[CC.EF01]人の選手を撃破しての優勝です！[NWIN]
+
+[Merklich]チームには[NLINE]
+成績に応じた賞品が贈られます！[END-FE]
+
+
+
+
+
+//POINTER #332 @ $D1D0 - STRING #332 @ $10531
+#W32($D1D0)
+//おっと！[NLINE]
+//[Merklich]選手、[NLINE]
+//どうやらすべての賞品を[NLINE]
+//持ちきれないほど持っているようです。[END-FE]
+おっと！[NLINE]
+[Merklich]選手、[NLINE]
+どうやらすべての賞品を[NLINE]
+持ちきれないほど持っているようです。[END-FE]
+
+
+
+
+
+//POINTER #333 @ $D1D4 - STRING #333 @ $10586
+#W32($D1D4)
+//あと[CC.EF01]個の賞品を選べます。[END-FE]
+あと[CC.EF01]個の賞品を選べます。[END-FE]
+
+
+
+
+
+//POINTER #334 @ $D1D8 - STRING #334 @ $105A4
+#W32($D1D8)
+//・魔導書[END-FE]
+・魔導書[END-FE]
+
+
+
+
+
+//POINTER #335 @ $D1DC - STRING #335 @ $105AF
+#W32($D1DC)
+//・奥義書[END-FE]
+・奥義書[END-FE]
+
+
+
+
+
+//POINTER #336 @ $D1E0 - STRING #336 @ $105BA
+#W32($D1E0)
+//・秘本[END-FE]
+・秘本[END-FE]
+
+
+
+
+
+//POINTER #337 @ $D1E4 - STRING #337 @ $105C3
+#W32($D1E4)
+//・いらない[END-FE]
+・いらない[END-FE]
+
+
+
+
+
+//POINTER #338 @ $D1E8 - STRING #338 @ $105D0
+#W32($D1E8)
+//・大地の魔導書[END-FE]
+・大地の魔導書[END-FE]
+
+
+
+
+
+//POINTER #339 @ $D1EC - STRING #339 @ $105E1
+#W32($D1EC)
+//・氷雪の魔導書[END-FE]
+・氷雪の魔導書[END-FE]
+
+
+
+
+
+//POINTER #340 @ $D1F0 - STRING #340 @ $105F2
+#W32($D1F0)
+//・烈火の魔導書[END-FE]
+・烈火の魔導書[END-FE]
+
+
+
+
+
+//POINTER #341 @ $D1F4 - STRING #341 @ $10603
+#W32($D1F4)
+//・旋風の魔導書[END-FE]
+・旋風の魔導書[END-FE]
+
+
+
+
+
+//POINTER #342 @ $D1F8 - STRING #342 @ $10614
+#W32($D1F8)
+//・心魂の魔導書[END-FE]
+・心魂の魔導書[END-FE]
+
+
+
+
+
+//POINTER #343 @ $D1FC - STRING #343 @ $10625
+#W32($D1FC)
+//・神経伝達の魔導書[END-FE]
+・神経伝達の魔導書[END-FE]
+
+
+
+
+
+//POINTER #344 @ $D200 - STRING #344 @ $1063A
+#W32($D200)
+//・奇跡の魔導書[END-FE]
+・奇跡の魔導書[END-FE]
+
+
+
+
+
+//POINTER #345 @ $D204 - STRING #345 @ $1064B
+#W32($D204)
+//・戻る[END-FE]
+・戻る[END-FE]
+
+
+
+
+
+//POINTER #346 @ $D208 - STRING #346 @ $10654
+#W32($D208)
+//・反撃奥義の書[END-FE]
+・反撃奥義の書[END-FE]
+
+
+
+
+
+//POINTER #347 @ $D20C - STRING #347 @ $10665
+#W32($D20C)
+//・全殺斬奥義の書[END-FE]
+・全殺斬奥義の書[END-FE]
+
+
+
+
+
+//POINTER #348 @ $D210 - STRING #348 @ $10678
+#W32($D210)
+//・大盗賊の奥義書[END-FE]
+・大盗賊の奥義書[END-FE]
+
+
+
+
+
+//POINTER #349 @ $D214 - STRING #349 @ $1068B
+#W32($D214)
+//・召喚魔術師の奥義書[END-FE]
+・召喚魔術師の奥義書[END-FE]
+
+
+
+
+
+//POINTER #350 @ $D218 - STRING #350 @ $106A2
+#W32($D218)
+//・狂戦士の奥義書[END-FE]
+・狂戦士の奥義書[END-FE]
+
+
+
+
+
+//POINTER #351 @ $D21C - STRING #351 @ $106B5
+#W32($D21C)
+//・戻る[END-FE]
+・戻る[END-FE]
+
+
+
+
+
+//POINTER #352 @ $D220 - STRING #352 @ $106BE
+#W32($D220)
+//・体力増幅秘本[END-FE]
+・体力増幅秘本[END-FE]
+
+
+
+
+
+//POINTER #353 @ $D224 - STRING #353 @ $106CF
+#W32($D224)
+//・精神力増幅秘本[END-FE]
+・精神力増幅秘本[END-FE]
+
+
+
+
+
+//POINTER #354 @ $D228 - STRING #354 @ $106E2
+#W32($D228)
+//・移動力増幅秘本[END-FE]
+・移動力増幅秘本[END-FE]
+
+
+
+
+
+//POINTER #355 @ $D22C - STRING #355 @ $106F5
+#W32($D22C)
+//・動体視力強化の秘本[END-FE]
+・動体視力強化の秘本[END-FE]
+
+
+
+
+
+//POINTER #356 @ $D230 - STRING #356 @ $1070C
+#W32($D230)
+//・早業の秘本[END-FE]
+・早業の秘本[END-FE]
+
+
+
+
+
+//POINTER #357 @ $D234 - STRING #357 @ $1071B
+#W32($D234)
+//・呪い言葉の秘本[END-FE]
+・呪い言葉の秘本[END-FE]
+
+
+
+
+
+//POINTER #358 @ $D238 - STRING #358 @ $1072E
+#W32($D238)
+//・魔法原理の秘本[END-FE]
+・魔法原理の秘本[END-FE]
+
+
+
+
+
+//POINTER #359 @ $D23C - STRING #359 @ $10741
+#W32($D23C)
+//・身体同調の秘本[END-FE]
+・身体同調の秘本[END-FE]
+
+
+
+
+
+//POINTER #360 @ $D240 - STRING #360 @ $10754
+#W32($D240)
+//・精神同調の秘本[END-FE]
+・精神同調の秘本[END-FE]
+
+
+
+
+
+//POINTER #361 @ $D244 - STRING #361 @ $10767
+#W32($D244)
+//・生命力強化の秘本[END-FE]
+・生命力強化の秘本[END-FE]
+
+
+
+
+
+//POINTER #362 @ $D248 - STRING #362 @ $1077C
+#W32($D248)
+//・みかわしの秘本[END-FE]
+・みかわしの秘本[END-FE]
+
+
+
+
+
+//POINTER #363 @ $D24C - STRING #363 @ $1078F
+#W32($D24C)
+//・治癒力の秘本[END-FE]
+・治癒力の秘本[END-FE]
+
+
+
+
+
+//POINTER #364 @ $D250 - STRING #364 @ $107A0
+#W32($D250)
+//・安らぎの秘本[END-FE]
+・安らぎの秘本[END-FE]
+
+
+
+
+
+//POINTER #365 @ $D254 - STRING #365 @ $107B1
+#W32($D254)
+//・戻る[END-FE]
+・戻る[END-FE]
+
+
+
+
+
+//POINTER #366 @ $D258 - STRING #366 @ $107BA
+#W32($D258)
+//それでは、[NLINE]
+//これにてエキシビジョンマッチを[NLINE]
+//終了いたします。[NWIN]
+//
+//次回も熱いバトルにご期待ください！[END-FE]
+それでは、[NLINE]
+これにてエキシビジョンマッチを[NLINE]
+終了いたします。[NWIN]
+
+次回も熱いバトルにご期待ください！[END-FE]
+
+
+
+
+
+//POINTER #367 @ $D25C - STRING #367 @ $1081D
+#W32($D25C)
+//あ～っと、[NLINE]
+//[Merklich]チーム、[NLINE]
+//リタイアです！[END-FE]
+あ～っと、[NLINE]
+[Merklich]チーム、[NLINE]
+リタイアです！[END-FE]
+
+
+
+
+
+//POINTER #368 @ $D260 - STRING #368 @ $10848
+#W32($D260)
+//ポーンクラス　試験　スタート！[END-FE]
+ポーンクラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #369 @ $D264 - STRING #369 @ $10869
+#W32($D264)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #370 @ $D268 - STRING #370 @ $1087C
+#W32($D268)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #371 @ $D26C - STRING #371 @ $10885
+#W32($D26C)
+//ルーククラス　試験　スタート！[END-FE]
+ルーククラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #372 @ $D270 - STRING #372 @ $108A6
+#W32($D270)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #373 @ $D274 - STRING #373 @ $108B9
+#W32($D274)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #374 @ $D278 - STRING #374 @ $108C2
+#W32($D278)
+//ナイトクラス　試験　スタート！[END-FE]
+ナイトクラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #375 @ $D27C - STRING #375 @ $108E3
+#W32($D27C)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #376 @ $D280 - STRING #376 @ $108F6
+#W32($D280)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #377 @ $D284 - STRING #377 @ $108FF
+#W32($D284)
+//ビショップクラス　試験　スタート！[END-FE]
+ビショップクラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #378 @ $D288 - STRING #378 @ $10924
+#W32($D288)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #379 @ $D28C - STRING #379 @ $10937
+#W32($D28C)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #380 @ $D290 - STRING #380 @ $10940
+#W32($D290)
+//ヤクトクラス　試験　スタート！[END-FE]
+ヤクトクラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #381 @ $D294 - STRING #381 @ $10961
+#W32($D294)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #382 @ $D298 - STRING #382 @ $10974
+#W32($D298)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #383 @ $D29C - STRING #383 @ $1097D
+#W32($D29C)
+//これよりスレイヤー認定試験、[NLINE]
+//クイーンクラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+クイーンクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #384 @ $D2A0 - STRING #384 @ $109BA
+#W32($D2A0)
+//……、今私は何を口にしました？[NWIN]
+//
+//スクリーパーの中でも、[NLINE]
+//最強の生物たるものの名前を口にしたような…。[END-FE]
+……、今私は何を口にしました？[NWIN]
+
+スクリーパーの中でも、[NLINE]
+最強の生物たるものの名前を口にしたような…。[END-FE]
+
+
+
+
+
+//POINTER #385 @ $D2A4 - STRING #385 @ $10A21
+#W32($D2A4)
+//すみません。あり得ませんね。[NLINE]
+//当闘技場がいくら無茶やり放題でも、[NLINE]
+//そればっかりは用意なんて…。[END-FE]
+すみません。あり得ませんね。[NLINE]
+当闘技場がいくら無茶やり放題でも、[NLINE]
+そればっかりは用意なんて…。[END-FE]
+
+
+
+
+
+//POINTER #386 @ $D2A8 - STRING #386 @ $10A82
+#W32($D2A8)
+//嘘っ！[NLINE]
+//本当に用意したの！[NLINE]
+//しかもいつの間に！[END-FE]
+嘘っ！[NLINE]
+本当に用意したの！[NLINE]
+しかもいつの間に！[END-FE]
+
+
+
+
+
+//POINTER #387 @ $D2AC - STRING #387 @ $10AB3
+#W32($D2AC)
+//……用意してしまったものは[NLINE]
+//仕方ありませんね。[END-FE]
+……用意してしまったものは[NLINE]
+仕方ありませんね。[END-FE]
+
+
+
+
+
+//POINTER #388 @ $D2B0 - STRING #388 @ $10AE4
+#W32($D2B0)
+//では、この最強生物に無謀にも立ち向かう[NLINE]
+//勇者の入場です！[NLINE]
+//その名も……[END-FE]
+では、この最強生物に無謀にも立ち向かう[NLINE]
+勇者の入場です！[NLINE]
+その名も……[END-FE]
+
+
+
+
+
+//POINTER #389 @ $D2B4 - STRING #389 @ $10B2D
+#W32($D2B4)
+//もう、何も言いません！[NLINE]
+//と言うか、言えません！[NLINE]
+//トコトンまで、やってもらいましょう！[END-FE]
+もう、何も言いません！[NLINE]
+と言うか、言えません！[NLINE]
+トコトンまで、やってもらいましょう！[END-FE]
+
+
+
+
+
+//POINTER #390 @ $D2B8 - STRING #390 @ $10B84
+#W32($D2B8)
+//クイーンクラス　試験　スタート！[END-FE]
+クイーンクラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #391 @ $D2BC - STRING #391 @ $10BA7
+#W32($D2BC)
+//クイーンクラス　試験　スタート！[END-FE]
+クイーンクラス　試験　スタート！[END-FE]
+
+
+
+
+
+//POINTER #392 @ $D2C0 - STRING #392 @ $10BCA
+#W32($D2C0)
+//・敵すべての撃破[END-FE]
+・敵すべての撃破[END-FE]
+
+
+
+
+
+//POINTER #393 @ $D2C4 - STRING #393 @ $10BDD
+#W32($D2C4)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #394 @ $D2C8 - STRING #394 @ $10BE6
+#W32($D2C8)
+//クイーンがブレス発射態勢！[END-FE]
+クイーンがブレス発射態勢！[END-FE]
+
+
+
+
+
+//POINTER #395 @ $D2CC - STRING #395 @ $10C03
+#W32($D2CC)
+//クイーンがブレス発射態勢！！[END-FE]
+クイーンがブレス発射態勢！！[END-FE]
+
+
+
+
+
+//POINTER #396 @ $D2D0 - STRING #396 @ $10C22
+#W32($D2D0)
+//クイーンがブレス発射態勢！！！[END-FE]
+クイーンがブレス発射態勢！！！[END-FE]
+
+
+
+
+
+//POINTER #397 @ $D2D4 - STRING #397 @ $10C43
+#W32($D2D4)
+//クイーンがブレス発射態勢！！！！[END-FE]
+クイーンがブレス発射態勢！！！！[END-FE]
+
+
+
+
+
+//POINTER #398 @ $D2D8 - STRING #398 @ $10C66
+#W32($D2D8)
+//クイーンがブレス発射態勢！！！！！[END-FE]
+クイーンがブレス発射態勢！！！！！[END-FE]
+
+
+
+
+
+//POINTER #399 @ $D2DC - STRING #399 @ $10C8B
+#W32($D2DC)
+//クイーンがブレス発射態勢！！！！！[END-FE]
+クイーンがブレス発射態勢！！！！！[END-FE]
+
+
+
+
+
+//POINTER #400 @ $D2E0 - STRING #400 @ $10CB0
+#W32($D2E0)
+//クイーンがブレス発射態勢！！！！！[END-FE]
+クイーンがブレス発射態勢！！！！！[END-FE]
+
+
+
+
+
+//POINTER #401 @ $D2E4 - STRING #401 @ $10CD5
+#W32($D2E4)
+//クイーンがブレス発射態勢！！！！！[END-FE]
+クイーンがブレス発射態勢！！！！！[END-FE]
+
+
+
+
+
+//POINTER #402 @ $D2E8 - STRING #402 @ $10CFA
+#W32($D2E8)
+//クイーンがブレス発射態勢！！！！！[END-FE]
+クイーンがブレス発射態勢！！！！！[END-FE]
+
+
+
+
+
+//POINTER #403 @ $D2EC - STRING #403 @ $10D1F
+#W32($D2EC)
+//クイーンがブレス発射態勢！！！！！[END-FE]
+クイーンがブレス発射態勢！！！！！[END-FE]
+
+
+
+
+
+//POINTER #404 @ $D2F0 - STRING #404 @ $10D44
+#W32($D2F0)
+//これよりスレイヤー認定試験、[NLINE]
+//ポーンクラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+ポーンクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #405 @ $D2F4 - STRING #405 @ $10D7F
+#W32($D2F4)
+//これよりスレイヤー認定試験、[NLINE]
+//ルーククラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+ルーククラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #406 @ $D2F8 - STRING #406 @ $10DBA
+#W32($D2F8)
+//これよりスレイヤー認定試験、[NLINE]
+//ナイトクラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+ナイトクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #407 @ $D2FC - STRING #407 @ $10DF5
+#W32($D2FC)
+//これよりスレイヤー認定試験、[NLINE]
+//ビショップクラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+ビショップクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #408 @ $D300 - STRING #408 @ $10E34
+#W32($D300)
+//これよりスレイヤー認定試験、[NLINE]
+//ヤクトクラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+ヤクトクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #409 @ $D304 - STRING #409 @ $10E6F
+#W32($D304)
+//これよりスレイヤー認定試験、[NLINE]
+//クイーンクラスを開催します！[END-FE]
+これよりスレイヤー認定試験、[NLINE]
+クイーンクラスを開催します！[END-FE]
+
+
+
+
+
+//POINTER #410 @ $D308 - STRING #410 @ $10EAC
+#W32($D308)
+//もう、驚きません。[NLINE]
+//今回もとことんまでやってもらいましょう！[NWIN]
+//
+//挑戦者は……[END-FE]
+もう、驚きません。[NLINE]
+今回もとことんまでやってもらいましょう！[NWIN]
+
+挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #411 @ $D30C - STRING #411 @ $10EF9
+#W32($D30C)
+//１対１でスクリーパーを倒した者のみに[NLINE]
+//与えられる証、スレイヤー。[NWIN]
+//
+//人としての限界を超え、[NLINE]
+//天敵とされしものを打ち倒す者だけが[NLINE]
+//手にできる強さの称号！[NWIN]
+//
+//今、この天敵たるスクリーパーに[NLINE]
+//立ち向かおうとする者がいます！[END-FE]
+１対１でスクリーパーを倒した者のみに[NLINE]
+与えられる証、スレイヤー。[NWIN]
+
+人としての限界を超え、[NLINE]
+天敵とされしものを打ち倒す者だけが[NLINE]
+手にできる強さの称号！[NWIN]
+
+今、この天敵たるスクリーパーに[NLINE]
+立ち向かおうとする者がいます！[END-FE]
+
+
+
+
+
+//POINTER #412 @ $D310 - STRING #412 @ $10FD0
+#W32($D310)
+//本日、このスレイヤー試験の[NLINE]
+//挑戦者は……[END-FE]
+本日、このスレイヤー試験の[NLINE]
+挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #413 @ $D314 - STRING #413 @ $10FFB
+#W32($D314)
+//本日、ポーン・スレイヤーに成るべく[NLINE]
+//挑む者は……[END-FE]
+本日、ポーン・スレイヤーに成るべく[NLINE]
+挑む者は……[END-FE]
+
+
+
+
+
+//POINTER #414 @ $D318 - STRING #414 @ $1102E
+#W32($D318)
+//本日、このスレイヤー試験の[NLINE]
+//挑戦者は……[END-FE]
+本日、このスレイヤー試験の[NLINE]
+挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #415 @ $D31C - STRING #415 @ $11059
+#W32($D31C)
+//本日、ルーク・スレイヤーに成るべく[NLINE]
+//挑む者は……[END-FE]
+本日、ルーク・スレイヤーに成るべく[NLINE]
+挑む者は……[END-FE]
+
+
+
+
+
+//POINTER #416 @ $D320 - STRING #416 @ $1108C
+#W32($D320)
+//本日、このスレイヤー試験の[NLINE]
+//挑戦者は……[END-FE]
+本日、このスレイヤー試験の[NLINE]
+挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #417 @ $D324 - STRING #417 @ $110B7
+#W32($D324)
+//本日、ナイト・スレイヤーに成るべく[NLINE]
+//挑む者は……[END-FE]
+本日、ナイト・スレイヤーに成るべく[NLINE]
+挑む者は……[END-FE]
+
+
+
+
+
+//POINTER #418 @ $D328 - STRING #418 @ $110EA
+#W32($D328)
+//本日、このスレイヤー試験の[NLINE]
+//挑戦者は……[END-FE]
+本日、このスレイヤー試験の[NLINE]
+挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #419 @ $D32C - STRING #419 @ $11115
+#W32($D32C)
+//本日、ビショップ・スレイヤーに成るべく[NLINE]
+//挑む者は……[END-FE]
+本日、ビショップ・スレイヤーに成るべく[NLINE]
+挑む者は……[END-FE]
+
+
+
+
+
+//POINTER #420 @ $D330 - STRING #420 @ $1114C
+#W32($D330)
+//本日、このスレイヤー試験の[NLINE]
+//挑戦者は……[END-FE]
+本日、このスレイヤー試験の[NLINE]
+挑戦者は……[END-FE]
+
+
+
+
+
+//POINTER #421 @ $D334 - STRING #421 @ $11177
+#W32($D334)
+//本日、ヤクト・スレイヤーに成るべく[NLINE]
+//挑む者は……[END-FE]
+本日、ヤクト・スレイヤーに成るべく[NLINE]
+挑む者は……[END-FE]
+
+
+
+
+
+//POINTER #422 @ $D338 - STRING #422 @ $111AA
+#W32($D338)
+//残念ながら本物のスクリーパーの[NLINE]
+//捕獲は叶いませんでしたが、[NLINE]
+//同等の能力を秘めた[NLINE]
+//対戦相手を用意しました！[NWIN]
+//
+//これを打ち倒し、[NLINE]
+//我々に新たな英雄の誕生の瞬間を[NLINE]
+//見せてくれるのでしょうか？[NWIN]
+//
+//それでは、熱いバトルを期待しましょう！[END-FE]
+残念ながら本物のスクリーパーの[NLINE]
+捕獲は叶いませんでしたが、[NLINE]
+同等の能力を秘めた[NLINE]
+対戦相手を用意しました！[NWIN]
+
+これを打ち倒し、[NLINE]
+我々に新たな英雄の誕生の瞬間を[NLINE]
+見せてくれるのでしょうか？[NWIN]
+
+それでは、熱いバトルを期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #423 @ $D33C - STRING #423 @ $1128B
+#W32($D33C)
+//ここにスレイヤーに[NLINE]
+//名を連ねる者が現れました！[NLINE]
+//その名も[Merklich]！[NWIN]
+//
+//ポーン・スクリーパーを倒し、[NLINE]
+//私たちに希望を与えてくれました！[NWIN]
+//
+//[Merklich]選手には、[NLINE]
+//ポーン・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+ここにスレイヤーに[NLINE]
+名を連ねる者が現れました！[NLINE]
+その名も[Merklich]！[NWIN]
+
+ポーン・スクリーパーを倒し、[NLINE]
+私たちに希望を与えてくれました！[NWIN]
+
+[Merklich]選手には、[NLINE]
+ポーン・スレイヤーの称号と[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #424 @ $D340 - STRING #424 @ $1134E
+#W32($D340)
+//ポーン・スレイヤー[END-FE]
+ポーン・スレイヤー[END-FE]
+
+
+
+
+
+//POINTER #425 @ $D344 - STRING #425 @ $11363
+#W32($D344)
+//人類の天敵は、彼の前では天敵に成らず！[NLINE]
+//ポーンだけでなく、[NLINE]
+//ルーク級のスクリーパーまでも[NLINE]
+//その実力で捻じ伏せた！[NLINE]
+//その名も[Merklich]！[NWIN]
+//
+//ルーク・スクリーパーを倒した、[NLINE]
+//[Merklich]選手には、[NLINE]
+//ルーク・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+人類の天敵は、彼の前では天敵に成らず！[NLINE]
+ポーンだけでなく、[NLINE]
+ルーク級のスクリーパーまでも[NLINE]
+その実力で捻じ伏せた！[NLINE]
+その名も[Merklich]！[NWIN]
+
+ルーク・スクリーパーを倒した、[NLINE]
+[Merklich]選手には、[NLINE]
+ルーク・スレイヤーの称号と[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #426 @ $D348 - STRING #426 @ $11448
+#W32($D348)
+//ルーク・スレイヤー[END-FE]
+ルーク・スレイヤー[END-FE]
+
+
+
+
+
+//POINTER #427 @ $D34C - STRING #427 @ $1145D
+#W32($D34C)
+//どこまで高みに登るのか！[NLINE]
+//遂にナイト級をも沈め、[NLINE]
+//人類に大きな希望を与えてくれました！[NLINE]
+//その名も[Merklich]！[NWIN]
+//
+//ナイト・スクリーパーを倒した、[NLINE]
+//[Merklich]選手には、[NLINE]
+//ナイト・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+どこまで高みに登るのか！[NLINE]
+遂にナイト級をも沈め、[NLINE]
+人類に大きな希望を与えてくれました！[NLINE]
+その名も[Merklich]！[NWIN]
+
+ナイト・スクリーパーを倒した、[NLINE]
+[Merklich]選手には、[NLINE]
+ナイト・スレイヤーの称号と[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #428 @ $D350 - STRING #428 @ $11528
+#W32($D350)
+//ナイト・スレイヤー[END-FE]
+ナイト・スレイヤー[END-FE]
+
+
+
+
+
+//POINTER #429 @ $D354 - STRING #429 @ $1153D
+#W32($D354)
+//一人で立ち向かうには余りに大き過ぎる壁。[NLINE]
+//そんなビショップという壁を打ち崩し、[NLINE]
+//大いなる快挙を成し遂げました！[NLINE]
+//その名も[Merklich]！[NWIN]
+//
+//ビショップ・スクリーパーを倒した、[NLINE]
+//[Merklich]選手には、[NLINE]
+//ビショップ・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+一人で立ち向かうには余りに大き過ぎる壁。[NLINE]
+そんなビショップという壁を打ち崩し、[NLINE]
+大いなる快挙を成し遂げました！[NLINE]
+その名も[Merklich]！[NWIN]
+
+ビショップ・スクリーパーを倒した、[NLINE]
+[Merklich]選手には、[NLINE]
+ビショップ・スレイヤーの称号と[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #430 @ $D358 - STRING #430 @ $11628
+#W32($D358)
+//ビショップ・スレイヤー[END-FE]
+ビショップ・スレイヤー[END-FE]
+
+
+
+
+
+//POINTER #431 @ $D35C - STRING #431 @ $11641
+#W32($D35C)
+//前人未到の領域。[NLINE]
+//スクリーパーを狩るヤクトの名を持つ怪物すら、[NLINE]
+//彼の前に轟沈した！[NWIN]
+//
+//スレイヤーの中のスレイヤー！[NLINE]
+//その頂に登りつめました！[NLINE]
+//その名も[Merklich]！[NWIN]
+//
+//ヤクト・スクリーパーを倒した、[NLINE]
+//[Merklich]選手には、[NLINE]
+//ヤクト・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+前人未到の領域。[NLINE]
+スクリーパーを狩るヤクトの名を持つ怪物すら、[NLINE]
+彼の前に轟沈した！[NWIN]
+
+スレイヤーの中のスレイヤー！[NLINE]
+その頂に登りつめました！[NLINE]
+その名も[Merklich]！[NWIN]
+
+ヤクト・スクリーパーを倒した、[NLINE]
+[Merklich]選手には、[NLINE]
+ヤクト・スレイヤーの称号と[NLINE]
+賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #432 @ $D360 - STRING #432 @ $11740
+#W32($D360)
+//ヤクト・スレイヤー[END-FE]
+ヤクト・スレイヤー[END-FE]
+
+
+
+
+
+//POINTER #433 @ $D364 - STRING #433 @ $11755
+#W32($D364)
+//妖精コスチューム[COL01]水着[COL00]を手に入れた！[END-FE]
+妖精コスチューム[COL01]水着[COL00]を手に入れた！[END-FE]
+
+
+
+
+
+//POINTER #434 @ $D368 - STRING #434 @ $11780
+#W32($D368)
+//あ、あははは…。[NLINE]
+//人があの化け物を倒せるとは…。[NWIN]
+//
+//…言葉を失ってしまうところでした。[NLINE]
+//もう、彼の前に立ち塞がるものはいないでしょう！[NWIN]
+//
+//まさに人類最強！[NLINE]
+//クイーン・スレイヤー[NLINE]
+//[Merklich]！[NWIN]
+//
+//こんな英雄に渡せる程の代物は[NLINE]
+//当闘技場にはありませんが、[NLINE]
+//精一杯の贈り物をしたいと思います！[END-FE]
+あ、あははは…。[NLINE]
+人があの化け物を倒せるとは…。[NWIN]
+
+…言葉を失ってしまうところでした。[NLINE]
+もう、彼の前に立ち塞がるものはいないでしょう！[NWIN]
+
+まさに人類最強！[NLINE]
+クイーン・スレイヤー[NLINE]
+[Merklich]！[NWIN]
+
+こんな英雄に渡せる程の代物は[NLINE]
+当闘技場にはありませんが、[NLINE]
+精一杯の贈り物をしたいと思います！[END-FE]
+
+
+
+
+
+//POINTER #435 @ $D36C - STRING #435 @ $11895
+#W32($D36C)
+//クイーン・スレイヤー[END-FE]
+クイーン・スレイヤー[END-FE]
+
+
+
+
+
+//POINTER #436 @ $D370 - STRING #436 @ $118AC
+#W32($D370)
+//またも見せてくれました！[NLINE]
+//ポーン・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+またも見せてくれました！[NLINE]
+ポーン・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #437 @ $D374 - STRING #437 @ $118E3
+#W32($D374)
+//この程度では止まらない！[NLINE]
+//ルーク・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+この程度では止まらない！[NLINE]
+ルーク・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #438 @ $D378 - STRING #438 @ $1191A
+#W32($D378)
+//魅せてくれます！[NLINE]
+//ナイト・スレイヤー[NLINE]
+//[Merklich]。[END-FE]
+魅せてくれます！[NLINE]
+ナイト・スレイヤー[NLINE]
+[Merklich]。[END-FE]
+
+
+
+
+
+//POINTER #439 @ $D37C - STRING #439 @ $11949
+#W32($D37C)
+//行く手を遮るもの無し！[NLINE]
+//ビショップ・スレイヤー[NLINE]
+//[Merklich]。[END-FE]
+行く手を遮るもの無し！[NLINE]
+ビショップ・スレイヤー[NLINE]
+[Merklich]。[END-FE]
+
+
+
+
+
+//POINTER #440 @ $D380 - STRING #440 @ $11982
+#W32($D380)
+//人類の希望がまたやってくれました！[NLINE]
+//ヤクト・スレイヤー、[NLINE]
+//[Merklich]！[END-FE]
+人類の希望がまたやってくれました！[NLINE]
+ヤクト・スレイヤー、[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #441 @ $D384 - STRING #441 @ $119C5
+#W32($D384)
+//向かうところ敵無し！[NLINE]
+//流石、史上最強の[NLINE]
+//クイーン・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+向かうところ敵無し！[NLINE]
+流石、史上最強の[NLINE]
+クイーン・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #442 @ $D388 - STRING #442 @ $11A0C
+#W32($D388)
+//見事ポーン・スクリーパーを倒しました[NLINE]
+//[Merklich]選手には[NLINE]
+//闘技場から賞品が授与されます！[END-FE]
+見事ポーン・スクリーパーを倒しました[NLINE]
+[Merklich]選手には[NLINE]
+闘技場から賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #443 @ $D38C - STRING #443 @ $11A61
+#W32($D38C)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ポーンクラスを終了いたします。[END-FE]
+それでは、これにてスレイヤー認定試験、[NLINE]
+ポーンクラスを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #444 @ $D390 - STRING #444 @ $11AAA
+#W32($D390)
+//見事ルーク・スクリーパーを倒しました[NLINE]
+//[Merklich]選手には[NLINE]
+//闘技場から賞品が授与されます！[END-FE]
+見事ルーク・スクリーパーを倒しました[NLINE]
+[Merklich]選手には[NLINE]
+闘技場から賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #445 @ $D394 - STRING #445 @ $11AFF
+#W32($D394)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ルーククラスを終了いたします。[END-FE]
+それでは、これにてスレイヤー認定試験、[NLINE]
+ルーククラスを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #446 @ $D398 - STRING #446 @ $11B48
+#W32($D398)
+//見事・スクリーパーを倒しました[NLINE]
+//[Merklich]選手には[NLINE]
+//闘技場から賞品が授与されます！[END-FE]
+見事・スクリーパーを倒しました[NLINE]
+[Merklich]選手には[NLINE]
+闘技場から賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #447 @ $D39C - STRING #447 @ $11B97
+#W32($D39C)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ナイトクラスを終了いたします。[END-FE]
+それでは、これにてスレイヤー認定試験、[NLINE]
+ナイトクラスを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #448 @ $D3A0 - STRING #448 @ $11BE0
+#W32($D3A0)
+//見事ビショップ・スクリーパーを倒しました[NLINE]
+//[Merklich]選手には[NLINE]
+//闘技場から賞品が授与されます！[END-FE]
+見事ビショップ・スクリーパーを倒しました[NLINE]
+[Merklich]選手には[NLINE]
+闘技場から賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #449 @ $D3A4 - STRING #449 @ $11C39
+#W32($D3A4)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ビショップクラスを終了いたします。[END-FE]
+それでは、これにてスレイヤー認定試験、[NLINE]
+ビショップクラスを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #450 @ $D3A8 - STRING #450 @ $11C86
+#W32($D3A8)
+//見事ヤクト・スクリーパーを倒しました[NLINE]
+//[Merklich]選手には[NLINE]
+//闘技場から賞品が授与されます！[END-FE]
+見事ヤクト・スクリーパーを倒しました[NLINE]
+[Merklich]選手には[NLINE]
+闘技場から賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #451 @ $D3AC - STRING #451 @ $11CDB
+#W32($D3AC)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ヤクトクラスを終了いたします。[END-FE]
+それでは、これにてスレイヤー認定試験、[NLINE]
+ヤクトクラスを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #452 @ $D3B0 - STRING #452 @ $11D24
+#W32($D3B0)
+//見事クイーン・スクリーパーを倒しました[NLINE]
+//[Merklich]選手には[NLINE]
+//闘技場から賞品が授与されます！[END-FE]
+見事クイーン・スクリーパーを倒しました[NLINE]
+[Merklich]選手には[NLINE]
+闘技場から賞品が授与されます！[END-FE]
+
+
+
+
+
+//POINTER #453 @ $D3B4 - STRING #453 @ $11D7B
+#W32($D3B4)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//クイーンクラスを終了いたします。[END-FE]
+それでは、これにてスレイヤー認定試験、[NLINE]
+クイーンクラスを終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #454 @ $D3B8 - STRING #454 @ $11DC6
+#W32($D3B8)
+//[Merklich]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+[Merklich]選手の[NLINE]
+今後の活躍に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #455 @ $D3BC - STRING #455 @ $11DF1
+#W32($D3BC)
+//ポーン・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+ポーン・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #456 @ $D3C0 - STRING #456 @ $11E0E
+#W32($D3C0)
+//ルーク・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+ルーク・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #457 @ $D3C4 - STRING #457 @ $11E2B
+#W32($D3C4)
+//ナイト・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+ナイト・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #458 @ $D3C8 - STRING #458 @ $11E48
+#W32($D3C8)
+//ビショップ・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+ビショップ・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #459 @ $D3CC - STRING #459 @ $11E69
+#W32($D3CC)
+//ヤクト・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+ヤクト・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #460 @ $D3D0 - STRING #460 @ $11E86
+#W32($D3D0)
+//史上最強[NLINE]
+//クイーン・スレイヤー[NLINE]
+//[Merklich]！[END-FE]
+史上最強[NLINE]
+クイーン・スレイヤー[NLINE]
+[Merklich]！[END-FE]
+
+
+
+
+
+//POINTER #461 @ $D3D4 - STRING #461 @ $11EAF
+#W32($D3D4)
+//[Merklich]選手！[END-FE]
+[Merklich]選手！[END-FE]
+
+
+
+
+
+//POINTER #462 @ $D3D8 - STRING #462 @ $11EBC
+#W32($D3D8)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #463 @ $D3DC - STRING #463 @ $11ECF
+#W32($D3DC)
+//ご覧下さい！[NLINE]
+//続々と入場する[NLINE]
+//この黄金に輝くゲルたちを！[END-FE]
+ご覧下さい！[NLINE]
+続々と入場する[NLINE]
+この黄金に輝くゲルたちを！[END-FE]
+
+
+
+
+
+//POINTER #464 @ $D3E0 - STRING #464 @ $11F0A
+#W32($D3E0)
+//挑戦者、[Merklich]チームには[NLINE]
+//このゴールドゲルを思う存分[NLINE]
+//倒していただきましょう！[END-FE]
+挑戦者、[Merklich]チームには[NLINE]
+このゴールドゲルを思う存分[NLINE]
+倒していただきましょう！[END-FE]
+
+
+
+
+
+//POINTER #465 @ $D3E4 - STRING #465 @ $11F59
+#W32($D3E4)
+//ゴールドゲルバトル　スタート！[END-FE]
+ゴールドゲルバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #466 @ $D3E8 - STRING #466 @ $11F7A
+#W32($D3E8)
+//・モンスターすべての撃破または逃走[END-FE]
+・モンスターすべての撃破または逃走[END-FE]
+
+
+
+
+
+//POINTER #467 @ $D3EC - STRING #467 @ $11F9F
+#W32($D3EC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #468 @ $D3F0 - STRING #468 @ $11FA8
+#W32($D3F0)
+//バトル終了！[END-FE]
+バトル終了！[END-FE]
+
+
+
+
+
+//POINTER #469 @ $D3F4 - STRING #469 @ $11FB7
+#W32($D3F4)
+//残念！[NLINE]
+//[Merklich]チーム、[NLINE]
+//一匹のゲルも[NLINE]
+//倒すことができませんでした。[NWIN]
+//
+//次回の挑戦に期待しましょう！[END-FE]
+残念！[NLINE]
+[Merklich]チーム、[NLINE]
+一匹のゲルも[NLINE]
+倒すことができませんでした。[NWIN]
+
+次回の挑戦に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #470 @ $D3F8 - STRING #470 @ $12018
+#W32($D3F8)
+//なんと！[NLINE]
+//[Merklich]チームは[NLINE]
+//すべてのゴールドゲルを撃破しました！[END-FE]
+なんと！[NLINE]
+[Merklich]チームは[NLINE]
+すべてのゴールドゲルを撃破しました！[END-FE]
+
+
+
+
+
+//POINTER #471 @ $D3FC - STRING #471 @ $12057
+#W32($D3FC)
+//[Merklich]チーム、[NLINE]
+//[CC.EF01]体のゴールドゲルを撃破しました！[END-FE]
+[Merklich]チーム、[NLINE]
+[CC.EF01]体のゴールドゲルを撃破しました！[END-FE]
+
+
+
+
+
+//POINTER #472 @ $D400 - STRING #472 @ $1208B
+#W32($D400)
+//それでは、これにてゴールドゲルバトルを[NLINE]
+//終了いたします。[END-FE]
+それでは、これにてゴールドゲルバトルを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #473 @ $D404 - STRING #473 @ $120C6
+#W32($D404)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #474 @ $D408 - STRING #474 @ $120D9
+#W32($D408)
+//あらゆる物理攻撃を[NLINE]
+//かわしてしまう魔法生物ソウルたちが、[NLINE]
+//ワラワラと入場して参ります！[END-FE]
+あらゆる物理攻撃を[NLINE]
+かわしてしまう魔法生物ソウルたちが、[NLINE]
+ワラワラと入場して参ります！[END-FE]
+
+
+
+
+
+//POINTER #475 @ $D40C - STRING #475 @ $12132
+#W32($D40C)
+//さて、この１２体のソウルを[NLINE]
+//挑戦者たちは何体倒せるのでしょうか!?[NWIN]
+//
+//[Merklich]チームが[NLINE]
+//挑みます！[END-FE]
+さて、この１２体のソウルを[NLINE]
+挑戦者たちは何体倒せるのでしょうか!?[NWIN]
+
+[Merklich]チームが[NLINE]
+挑みます！[END-FE]
+
+
+
+
+
+//POINTER #476 @ $D410 - STRING #476 @ $1218F
+#W32($D410)
+//ソウルバトル　スタート！[END-FE]
+ソウルバトル　スタート！[END-FE]
+
+
+
+
+
+//POINTER #477 @ $D414 - STRING #477 @ $121AA
+#W32($D414)
+//・モンスターすべての撃破または逃走[END-FE]
+・モンスターすべての撃破または逃走[END-FE]
+
+
+
+
+
+//POINTER #478 @ $D418 - STRING #478 @ $121CF
+#W32($D418)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #479 @ $D41C - STRING #479 @ $121D8
+#W32($D41C)
+//バトル終了！[END-FE]
+バトル終了！[END-FE]
+
+
+
+
+
+//POINTER #480 @ $D420 - STRING #480 @ $121E7
+#W32($D420)
+//残念！[NLINE]
+//[Merklich]チーム、[NLINE]
+//一体のソウルも[NLINE]
+//倒すことができませんでした。[NWIN]
+//
+//次回の挑戦に期待しましょう！[END-FE]
+残念！[NLINE]
+[Merklich]チーム、[NLINE]
+一体のソウルも[NLINE]
+倒すことができませんでした。[NWIN]
+
+次回の挑戦に期待しましょう！[END-FE]
+
+
+
+
+
+//POINTER #481 @ $D424 - STRING #481 @ $1224A
+#W32($D424)
+//なんと！[NLINE]
+//[Merklich]チームは[NLINE]
+//すべてのソウルを撃破しました！[END-FE]
+なんと！[NLINE]
+[Merklich]チームは[NLINE]
+すべてのソウルを撃破しました！[END-FE]
+
+
+
+
+
+//POINTER #482 @ $D428 - STRING #482 @ $12283
+#W32($D428)
+//[Merklich]チーム、[NLINE]
+//[CC.EF01]体のソウルを撃破しました！[END-FE]
+[Merklich]チーム、[NLINE]
+[CC.EF01]体のソウルを撃破しました！[END-FE]
+
+
+
+
+
+//POINTER #483 @ $D42C - STRING #483 @ $122B1
+#W32($D42C)
+//それでは、これにてソウルバトルを[NLINE]
+//終了いたします。[END-FE]
+それでは、これにてソウルバトルを[NLINE]
+終了いたします。[END-FE]
+
+
+
+
+
+//POINTER #484 @ $D430 - STRING #484 @ $122E6
+#W32($D430)
+//……おや？[NWIN]
+//
+//…………[NWIN]
+//
+//……………！[NWIN]
+//
+//……！！！！！！[NWIN]
+//
+//[END-FE]
+……おや？[NWIN]
+
+…………[NWIN]
+
+……………！[NWIN]
+
+……！！！！！！[NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #485 @ $D434 - STRING #485 @ $1231F
+#W32($D434)
+//な、な、な、なんと！[NLINE]
+//信じられないことが成されていました！[NWIN]
+//
+//[Merklich]選手は、[NLINE]
+//当闘技場の全ての競技を[NLINE]
+//完全に制覇してしまいました！[NWIN]
+//
+//ここに真の王者が誕生しました！[END-FE]
+な、な、な、なんと！[NLINE]
+信じられないことが成されていました！[NWIN]
+
+[Merklich]選手は、[NLINE]
+当闘技場の全ての競技を[NLINE]
+完全に制覇してしまいました！[NWIN]
+
+ここに真の王者が誕生しました！[END-FE]
+
+
+
+
+
+//POINTER #486 @ $D438 - STRING #486 @ $123C0
+#W32($D438)
+//すべてを制覇した王者にとって、[NLINE]
+//大した代物ではないかも知れませんが、[NLINE]
+//闘技場由緒ある秘宝を贈り、[NLINE]
+//これを称えたいと思います。[END-FE]
+すべてを制覇した王者にとって、[NLINE]
+大した代物ではないかも知れませんが、[NLINE]
+闘技場由緒ある秘宝を贈り、[NLINE]
+これを称えたいと思います。[END-FE]
+
+
+
+
+
+//POINTER #487 @ $D43C - STRING #487 @ $1243F
+#W32($D43C)
+//打撃ダメージ競争[END-FE]
+打撃ダメージ競争[END-FE]
+
+
+
+
+
+//POINTER #488 @ $D440 - STRING #488 @ $12452
+#W32($D440)
+//魔法ダメージ競争[END-FE]
+魔法ダメージ競争[END-FE]
+
+
+
+
+
+//POINTER #489 @ $D444 - STRING #489 @ $12465
+#W32($D444)
+//総合ダメージ競争[END-FE]
+総合ダメージ競争[END-FE]
+
+
+
+
+
+//POINTER #490 @ $D448 - STRING #490 @ $12478
+#W32($D448)
+//勝ち抜きカッパークラス[END-FE]
+勝ち抜きカッパークラス[END-FE]
+
+
+
+
+
+//POINTER #491 @ $D44C - STRING #491 @ $12491
+#W32($D44C)
+//勝ち抜きシルバークラス[END-FE]
+勝ち抜きシルバークラス[END-FE]
+
+
+
+
+
+//POINTER #492 @ $D450 - STRING #492 @ $124AA
+#W32($D450)
+//勝ち抜きゴールドクラス[END-FE]
+勝ち抜きゴールドクラス[END-FE]
+
+
+
+
+
+//POINTER #493 @ $D454 - STRING #493 @ $124C3
+#W32($D454)
+//勝ち抜きプラチナクラス[END-FE]
+勝ち抜きプラチナクラス[END-FE]
+
+
+
+
+
+//POINTER #494 @ $D458 - STRING #494 @ $124DC
+#W32($D458)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #495 @ $D45C - STRING #495 @ $124EB
+#W32($D45C)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #496 @ $D460 - STRING #496 @ $124FA
+#W32($D460)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #497 @ $D464 - STRING #497 @ $12509
+#W32($D464)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #498 @ $D468 - STRING #498 @ $12518
+#W32($D468)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #499 @ $D46C - STRING #499 @ $12527
+#W32($D46C)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #500 @ $D470 - STRING #500 @ $12536
+#W32($D470)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #501 @ $D474 - STRING #501 @ $12545
+#W32($D474)
+//タッグバトル[END-FE]
+タッグバトル[END-FE]
+
+
+
+
+
+//POINTER #502 @ $D478 - STRING #502 @ $12554
+#W32($D478)
+//エキシビジョンマッチ[END-FE]
+エキシビジョンマッチ[END-FE]
+
+
+
+
+
+//POINTER #503 @ $D47C - STRING #503 @ $1256B
+#W32($D47C)
+//スレイヤー認定試験　ポーンクラス[END-FE]
+スレイヤー認定試験　ポーンクラス[END-FE]
+
+
+
+
+
+//POINTER #504 @ $D480 - STRING #504 @ $1258E
+#W32($D480)
+//スレイヤー認定試験　ルーククラス[END-FE]
+スレイヤー認定試験　ルーククラス[END-FE]
+
+
+
+
+
+//POINTER #505 @ $D484 - STRING #505 @ $125B1
+#W32($D484)
+//スレイヤー認定試験　ナイトクラス[END-FE]
+スレイヤー認定試験　ナイトクラス[END-FE]
+
+
+
+
+
+//POINTER #506 @ $D488 - STRING #506 @ $125D4
+#W32($D488)
+//スレイヤー認定試験　ビショップクラス[END-FE]
+スレイヤー認定試験　ビショップクラス[END-FE]
+
+
+
+
+
+//POINTER #507 @ $D48C - STRING #507 @ $125FB
+#W32($D48C)
+//スレイヤー認定試験　ヤクトクラス[END-FE]
+スレイヤー認定試験　ヤクトクラス[END-FE]
+
+
+
+
+
+//POINTER #508 @ $D490 - STRING #508 @ $1261E
+#W32($D490)
+//スレイヤー認定試験　クイーンクラス[END-FE]
+スレイヤー認定試験　クイーンクラス[END-FE]
+
+
+
+
+
+//POINTER #509 @ $D494 - STRING #509 @ $12643
+#W32($D494)
+//ゴールドゲルバトル[END-FE]
+ゴールドゲルバトル[END-FE]
+
+
+
+
+
+//POINTER #510 @ $D498 - STRING #510 @ $12658
+#W32($D498)
+//ソウルバトル[END-FE]
+ソウルバトル[END-FE]
+
+
+
+
+
+//POINTER #511 @ $D49C - STRING #511 @ $12667
+#W32($D49C)
+//あ～っと、[NLINE]
+//[Merklich]選手ダウーン！[NLINE]
+//ここでリタイアだ！[END-FE]
+あ～っと、[NLINE]
+[Merklich]選手ダウーン！[NLINE]
+ここでリタイアだ！[END-FE]
+
+
+
+
+
+//POINTER #512 @ $D4A0 - STRING #512 @ $1269C
+#W32($D4A0)
+//あ～っと、[NLINE]
+//[Merklich]チーム、[NLINE]
+//リタイアです！[END-FE]
+あ～っと、[NLINE]
+[Merklich]チーム、[NLINE]
+リタイアです！[END-FE]
+
+
+
+
+
+//POINTER #513 @ $D4A4 - STRING #513 @ $126C7
+#W32($D4A4)
+//　[NLINE]
+//闘技場内では、闘いに集中しよう！[NLINE]
+//[END-FE]
+　[NLINE]
+闘技場内では、闘いに集中しよう！[NLINE]
+[END-FE]
+
+
+
+

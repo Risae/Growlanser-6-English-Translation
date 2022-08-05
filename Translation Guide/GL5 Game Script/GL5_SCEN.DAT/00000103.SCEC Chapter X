@@ -1,0 +1,197 @@
+
+
+//POINTER #0 @ $5A0 - STRING #0 @ $610
+#W32($5A0)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $5A4 - STRING #1 @ $613
+#W32($5A4)
+//そんな…はずかしい…です…[END-FE]
+
+
+
+
+
+//POINTER #2 @ $5A8 - STRING #2 @ $630
+#W32($5A8)
+//とても…やさしい人…です[END-FE]
+
+
+
+
+
+//POINTER #3 @ $5AC - STRING #3 @ $64B
+#W32($5AC)
+//良い人だと…思います[END-FE]
+
+
+
+
+
+//POINTER #4 @ $5B0 - STRING #4 @ $662
+#W32($5B0)
+//ちょっと…苦手です…[END-FE]
+
+
+
+
+
+//POINTER #5 @ $5B4 - STRING #5 @ $679
+#W32($5B4)
+//頼もしい相棒だぜ！[END-FE]
+
+
+
+
+
+//POINTER #6 @ $5B8 - STRING #6 @ $68E
+#W32($5B8)
+//なかなかやる奴だよな！[END-FE]
+
+
+
+
+
+//POINTER #7 @ $5BC - STRING #7 @ $6A7
+#W32($5BC)
+//あれくらい普通じゃねぇの？[END-FE]
+
+
+
+
+
+//POINTER #8 @ $5C0 - STRING #8 @ $6C4
+#W32($5C0)
+//なんだか生意気だよな[END-FE]
+
+
+
+
+
+//POINTER #9 @ $5C4 - STRING #9 @ $6DB
+#W32($5C4)
+//………[END-FE]
+
+
+
+
+
+//POINTER #10 @ $5C8 - STRING #10 @ $6E4
+#W32($5C8)
+//頼れる男だと思う[END-FE]
+
+
+
+
+
+//POINTER #11 @ $5CC - STRING #11 @ $6F7
+#W32($5CC)
+//頼もしい部下だ[END-FE]
+
+
+
+
+
+//POINTER #12 @ $5D0 - STRING #12 @ $708
+#W32($5D0)
+//別に、何とも…[END-FE]
+
+
+
+
+
+//POINTER #13 @ $5D4 - STRING #13 @ $719
+#W32($5D4)
+//友情に年の差は無関係だ[END-FE]
+
+
+
+
+
+//POINTER #14 @ $5D8 - STRING #14 @ $732
+#W32($5D8)
+//彼を見ると誰かを思い出す[END-FE]
+
+
+
+
+
+//POINTER #15 @ $5DC - STRING #15 @ $74D
+#W32($5DC)
+//将来が楽しみな男だ[END-FE]
+
+
+
+
+
+//POINTER #16 @ $5E0 - STRING #16 @ $762
+#W32($5E0)
+//まだまだ未熟だな[END-FE]
+
+
+
+
+
+//POINTER #17 @ $5E4 - STRING #17 @ $775
+#W32($5E4)
+//特別な殿方だ[END-FE]
+
+
+
+
+
+//POINTER #18 @ $5E8 - STRING #18 @ $784
+#W32($5E8)
+//気になる相手ではあるな[END-FE]
+
+
+
+
+
+//POINTER #19 @ $5EC - STRING #19 @ $79D
+#W32($5EC)
+//クライアスの部下だろう？[END-FE]
+
+
+
+
+
+//POINTER #20 @ $5F0 - STRING #20 @ $7B8
+#W32($5F0)
+//私を怒らせたいのか？[END-FE]
+
+
+
+
+
+//POINTER #21 @ $5F4 - STRING #21 @ $7CF
+#W32($5F4)
+//２人目の親友ですね[END-FE]
+
+
+
+
+
+//POINTER #22 @ $5F8 - STRING #22 @ $7E4
+#W32($5F8)
+//良きライバル、でしょうか？[END-FE]
+
+
+
+
+
+//POINTER #23 @ $5FC - STRING #23 @ $801
+#W32($5FC)
+//立派な兵士ですね[END-FE]
+
+
+
+
+
+//POINTER #24 @ $600 - STRING #24 @ $814
+#W32($600)
+//何を言わせたいのですか？[END-FE]

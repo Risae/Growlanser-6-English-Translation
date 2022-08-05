@@ -1,0 +1,53 @@
+################## TileShop ##################
+
+GL5 ENG 0000002f.fnt.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<gdf version="0.8">
+	<project name="Growlanser">
+		<arranger name="GL5 ENG 0000002f" elementsx="1" elementsy="1" width="320" height="640" layout="single" color="indexed" defaultcodec="PSX 4bpp" defaultdatafile="/Growlanser/GL5 ENG 0000002f.fnt">
+			<element fileoffset="620" posx="0" posy="0" palette="/Growlanser/GL5 ENG 0000002f.CLUT.0" />
+		</arranger>
+		<palette name="GL5 ENG 0000002f.CLUT.0" fileoffset="220" datafile="/Growlanser/GL5 ENG 0000002f.fnt" color="RGBA32" entries="16" zeroindextransparent="false" />
+		<datafile name="GL5 ENG 0000002f.fnt" location="GL5 ENG 0000002f.fnt" />
+	</project>
+</gdf>
+
+GL6:
+
+
+
+
+
+
+################## Tile Molester ##################
+
+###### 2bpp ######
+
+
+Settings JPN:
+
+Codec: 2bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns 80, Rows 136
+
+
+Settings ENG:
+
+Codec: 2bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns ??, Rows ??
+
+
+###### 4bpp ######
+
+Settings JPN:
+
+
+
+
+Settings ENG:
+
+Codec: 4bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns 40, Rows 83
