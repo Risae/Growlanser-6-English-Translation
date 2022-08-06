@@ -1,8 +1,9 @@
 Growlanser 6 English Translation blog: https://growlanser6english.blogspot.com/ <br />
 Growlanser 6 Discord: https://discord.gg/59Nw2U2 <br />
+Growlanserver Discord: https://discord.gg/uVh3XxRGtG <br />
 Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit
 
-<details> <summary>Build folder</summary>
+<details> <summary>Build folder</summary> <br />
 
 Batch that can compile all the translated repository files into the games .DATs and ELF. 
 In order to use the batch a folder named `04-Original files`, which hosts the original GL6s .DAT files, needs to exist.
