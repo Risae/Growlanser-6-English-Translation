@@ -1,8 +1,6 @@
 Growlanser 6 English Translation blog: https://growlanser6english.blogspot.com/
-
-Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit
-
 Growlanser 6 Discord: https://discord.gg/59Nw2U2
+Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit
 
 <details> <summary>Build folder</summary>
 
