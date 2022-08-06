@@ -1,8 +1,14 @@
-Visit https://growlanser6english.blogspot.com/ and https://discord.gg/59Nw2U2 for more information.
+Growlanser 6 English Translation blog: https://growlanser6english.blogspot.com/
+
+Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit
+
+Growlanser 6 Discord: https://discord.gg/59Nw2U2
 
 <details> <summary>Build folder</summary>
 
-Batch that can compile all the translated repository files into the games .DATs and ELF. The following is a list of files that need to be imported into the .DATs:
+Batch that can compile all the translated repository files into the games .DATs and ELF. 
+In order to use the batch a folder named `04-Original files`, which hosts the original GL6s .DAT files, needs to exist.
+The following is a list of files that need to be imported into the .DATs:
 
 `GL_FACE.DAT`
 
