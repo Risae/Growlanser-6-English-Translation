@@ -161,7 +161,7 @@ quickbms -w -r -r growlanser.bms "%GITHUBPATH%\Build\05-build\GL6_FILE.DAT" "%GI
 copy /y "%GITHUBPATH%\Build\05-build\GL6_FILE.DAT" "%GITHUBPATH%\Build\GL6_FILE.DAT"
 
 
-::::SCEN.DAT
+:::: SCEN.DAT
 
 :: delete old SCEN.DAT and Copy SCEN.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\Build\05-build\GL6_SCEN.DAT"
