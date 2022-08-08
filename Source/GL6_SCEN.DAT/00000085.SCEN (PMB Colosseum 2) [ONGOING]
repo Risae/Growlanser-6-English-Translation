@@ -237,12 +237,12 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #20 @ $CCF0 - STRING #20 @ $D836
 #W32($CCF0)
-//[Merklich]選手は[NLINE]
+//[MainCharName]選手は[NLINE]
 //今回が初挑戦！[NWIN]
 //
 //果たして強豪たちを押し退け、[NLINE]
 //ランクインできるでしょうか！[END-FE]
-[Merklich]選手は[NLINE]
+[MainCharName]選手は[NLINE]
 今回が初挑戦！[NWIN]
 
 果たして強豪たちを押し退け、[NLINE]
@@ -254,10 +254,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #21 @ $CCF4 - STRING #21 @ $D88F
 #W32($CCF4)
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //最高記録は[CC.EF19]ポイント。[NLINE]
 //果たして新記録は出るのでしょうか!?[END-FE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 最高記録は[CC.EF19]ポイント。[NLINE]
 果たして新記録は出るのでしょうか!?[END-FE]
 
@@ -331,10 +331,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #29 @ $CD14 - STRING #29 @ $D954
 #W32($CD14)
 //さあ、終了です。[NLINE]
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //成績は……[END-FE]
 さあ、終了です。[NLINE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 成績は……[END-FE]
 
 
@@ -352,9 +352,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #31 @ $CD1C - STRING #31 @ $D98F
 #W32($CD1C)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //自己最高記録の更新です！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 自己最高記録の更新です！[END-FE]
 
 
@@ -732,10 +732,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #68 @ $CDB0 - STRING #68 @ $DC79
 #W32($CDB0)
 //それでは、二大陸一の打撃ダメージ王[NLINE]
-//[Merklich]選手に、[NLINE]
+//[MainCharName]選手に、[NLINE]
 //もう一度大きな拍手をお願いします！[END-FE]
 それでは、二大陸一の打撃ダメージ王[NLINE]
-[Merklich]選手に、[NLINE]
+[MainCharName]選手に、[NLINE]
 もう一度大きな拍手をお願いします！[END-FE]
 
 
@@ -744,11 +744,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #69 @ $CDB4 - STRING #69 @ $DCD0
 #W32($CDB4)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //残念ながらランク外でした。[NWIN]
 //
 //次回からの活躍に期待しましょう！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 残念ながらランク外でした。[NWIN]
 
 次回からの活躍に期待しましょう！[END-FE]
@@ -759,10 +759,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #70 @ $CDB8 - STRING #70 @ $DD1B
 #W32($CDB8)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //打撃ダメージ王を目指して[NLINE]
 //次もがんばってください！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 打撃ダメージ王を目指して[NLINE]
 次もがんばってください！[END-FE]
 
@@ -773,10 +773,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #71 @ $CDBC - STRING #71 @ $DD5C
 #W32($CDBC)
 //打撃ダメージ王、[NLINE]
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //さらなる飛躍に期待しましょう！[END-FE]
 打撃ダメージ王、[NLINE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 さらなる飛躍に期待しましょう！[END-FE]
 
 
@@ -871,10 +871,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #78 @ $CDD8 - STRING #78 @ $DFB9
 #W32($CDD8)
-//[Merklich]選手は[NLINE]
+//[MainCharName]選手は[NLINE]
 //今回が初挑戦！[NLINE]
 //果たして、ランクインできるでしょうか！[END-FE]
-[Merklich]選手は[NLINE]
+[MainCharName]選手は[NLINE]
 今回が初挑戦！[NLINE]
 果たして、ランクインできるでしょうか！[END-FE]
 
@@ -884,10 +884,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #79 @ $CDDC - STRING #79 @ $DFFE
 #W32($CDDC)
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //最高記録は[CC.EF18]ポイント。[NLINE]
 //果たして新記録は出るのでしょうか!?[END-FE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 最高記録は[CC.EF18]ポイント。[NLINE]
 果たして新記録は出るのでしょうか!?[END-FE]
 
@@ -970,10 +970,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #88 @ $CE00 - STRING #88 @ $E0E7
 #W32($CE00)
 //さあ、終了です。[NLINE]
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //成績は……[END-FE]
 さあ、終了です。[NLINE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 成績は……[END-FE]
 
 
@@ -991,9 +991,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #90 @ $CE08 - STRING #90 @ $E122
 #W32($CE08)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //自己最高記録の更新です！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 自己最高記録の更新です！[END-FE]
 
 
@@ -1002,10 +1002,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #91 @ $CE0C - STRING #91 @ $E149
 #W32($CE0C)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //残念ながら時間内に魔法ダメージを[NLINE]
 //与える事ができませんでした。[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 残念ながら時間内に魔法ダメージを[NLINE]
 与える事ができませんでした。[END-FE]
 
@@ -1388,10 +1388,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #128 @ $CEA0 - STRING #128 @ $E46F
 #W32($CEA0)
 //それでは、二大陸一の魔法ダメージ王[NLINE]
-//[Merklich]選手に、[NLINE]
+//[MainCharName]選手に、[NLINE]
 //もう一度大きな拍手をお願いします！[END-FE]
 それでは、二大陸一の魔法ダメージ王[NLINE]
-[Merklich]選手に、[NLINE]
+[MainCharName]選手に、[NLINE]
 もう一度大きな拍手をお願いします！[END-FE]
 
 
@@ -1400,11 +1400,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #129 @ $CEA4 - STRING #129 @ $E4C6
 #W32($CEA4)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //残念ながらランク外でした。[NWIN]
 //
 //次回からの活躍に期待しましょう！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 残念ながらランク外でした。[NWIN]
 
 次回からの活躍に期待しましょう！[END-FE]
@@ -1415,10 +1415,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #130 @ $CEA8 - STRING #130 @ $E511
 #W32($CEA8)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //魔法ダメージ王を目指して[NLINE]
 //次もがんばってください！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 魔法ダメージ王を目指して[NLINE]
 次もがんばってください！[END-FE]
 
@@ -1429,10 +1429,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #131 @ $CEAC - STRING #131 @ $E552
 #W32($CEAC)
 //魔法ダメージ王、[NLINE]
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //さらなる飛躍に期待しましょう！[END-FE]
 魔法ダメージ王、[NLINE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 さらなる飛躍に期待しましょう！[END-FE]
 
 
@@ -1519,10 +1519,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #138 @ $CEC8 - STRING #138 @ $E751
 #W32($CEC8)
-//[Merklich]選手は[NLINE]
+//[MainCharName]選手は[NLINE]
 //今回が初挑戦！[NLINE]
 //果たして、ランクインできるでしょうか！[END-FE]
-[Merklich]選手は[NLINE]
+[MainCharName]選手は[NLINE]
 今回が初挑戦！[NLINE]
 果たして、ランクインできるでしょうか！[END-FE]
 
@@ -1532,10 +1532,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #139 @ $CECC - STRING #139 @ $E796
 #W32($CECC)
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //最高記録は[CC.EF17]ポイント。[NLINE]
 //果たして新記録は出るのでしょうか!?[END-FE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 最高記録は[CC.EF17]ポイント。[NLINE]
 果たして新記録は出るのでしょうか!?[END-FE]
 
@@ -1636,10 +1636,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #150 @ $CEF8 - STRING #150 @ $E896
 #W32($CEF8)
 //さあ、終了です。[NLINE]
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //成績は……[END-FE]
 さあ、終了です。[NLINE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 成績は……[END-FE]
 
 
@@ -1657,9 +1657,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #152 @ $CF00 - STRING #152 @ $E8D1
 #W32($CF00)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //自己最高記録の更新です！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 自己最高記録の更新です！[END-FE]
 
 
@@ -1668,10 +1668,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #153 @ $CF04 - STRING #153 @ $E8F8
 #W32($CF04)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //制限時間内に[NLINE]
 //全く攻撃をしなかったようです。[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 制限時間内に[NLINE]
 全く攻撃をしなかったようです。[END-FE]
 
@@ -2019,13 +2019,13 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //全てのダメージ部門を制覇し、[NLINE]
 //ここに真のダメージチャンピオンの誕生です！[NWIN]
 //
-//[Merklich]選手の攻撃により、[NLINE]
+//[MainCharName]選手の攻撃により、[NLINE]
 //沈まない相手はいないことでしょう！[END-FE]
 や、やりました！[NLINE]
 全てのダメージ部門を制覇し、[NLINE]
 ここに真のダメージチャンピオンの誕生です！[NWIN]
 
-[Merklich]選手の攻撃により、[NLINE]
+[MainCharName]選手の攻撃により、[NLINE]
 沈まない相手はいないことでしょう！[END-FE]
 
 
@@ -2046,10 +2046,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #190 @ $CF98 - STRING #190 @ $EC26
 #W32($CF98)
 //それでは、最高のダメージ王[NLINE]
-//[Merklich]選手に、[NLINE]
+//[MainCharName]選手に、[NLINE]
 //もう一度大きな拍手をお願いします！[END-FE]
 それでは、最高のダメージ王[NLINE]
-[Merklich]選手に、[NLINE]
+[MainCharName]選手に、[NLINE]
 もう一度大きな拍手をお願いします！[END-FE]
 
 
@@ -2058,11 +2058,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #191 @ $CF9C - STRING #191 @ $EC75
 #W32($CF9C)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //残念ながらランク外でした。[NWIN]
 //
 //次回からの活躍に期待しましょう！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 残念ながらランク外でした。[NWIN]
 
 次回からの活躍に期待しましょう！[END-FE]
@@ -2073,10 +2073,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #192 @ $CFA0 - STRING #192 @ $ECC0
 #W32($CFA0)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //総合ダメージ王を目指して[NLINE]
 //次もがんばってください！[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 総合ダメージ王を目指して[NLINE]
 次もがんばってください！[END-FE]
 
@@ -2087,10 +2087,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #193 @ $CFA4 - STRING #193 @ $ED01
 #W32($CFA4)
 //総合ダメージ王、[NLINE]
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //さらなる飛躍に期待しましょう！[END-FE]
 総合ダメージ王、[NLINE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 さらなる飛躍に期待しましょう！[END-FE]
 
 
@@ -2474,10 +2474,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #234 @ $D048 - STRING #234 @ $F292
 #W32($D048)
 //やりました、[NLINE]
-//[Merklich]選手！[NLINE]
+//[MainCharName]選手！[NLINE]
 //５戦勝ち抜き！[END-FE]
 やりました、[NLINE]
-[Merklich]選手！[NLINE]
+[MainCharName]選手！[NLINE]
 ５戦勝ち抜き！[END-FE]
 
 
@@ -2486,10 +2486,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #235 @ $D04C - STRING #235 @ $F2BD
 #W32($D04C)
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //次のクラスへの挑戦権と、[NLINE]
 //賞品が授与されます！[END-FE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 次のクラスへの挑戦権と、[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -2538,9 +2538,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #239 @ $D05C - STRING #239 @ $F3BF
 #W32($D05C)
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //今後の活躍に期待しましょう！[END-FE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 今後の活躍に期待しましょう！[END-FE]
 
 
@@ -2549,20 +2549,20 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #240 @ $D060 - STRING #240 @ $F3EA
 #W32($D060)
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //ついに勝ち抜き全クラスを[NLINE]
 //制覇しました！[NLINE]
 //おめでとうございます！[NWIN]
 //
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //豪華な賞品が授与されます！[NLINE]
 //お受け取りください。[END-FE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 ついに勝ち抜き全クラスを[NLINE]
 制覇しました！[NLINE]
 おめでとうございます！[NWIN]
 
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 豪華な賞品が授与されます！[NLINE]
 お受け取りください。[END-FE]
 
@@ -2589,13 +2589,13 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //勝ち抜きプラチナクラスを[NLINE]
 //終了いたします。[NWIN]
 //
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //今後の活躍に期待しましょう！[END-FE]
 それでは、これにて[NLINE]
 勝ち抜きプラチナクラスを[NLINE]
 終了いたします。[NWIN]
 
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 今後の活躍に期待しましょう！[END-FE]
 
 
@@ -2606,11 +2606,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D06C)
 //第４戦まで勝ち抜き、[NLINE]
 //惜しくも敗れ去った[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //賞金が授与されます。[END-FE]
 第４戦まで勝ち抜き、[NLINE]
 惜しくも敗れ去った[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 賞金が授与されます。[END-FE]
 
 
@@ -2682,9 +2682,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #249 @ $D084 - STRING #249 @ $F6A7
 #W32($D084)
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //今後の活躍に期待しましょう！[END-FE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 今後の活躍に期待しましょう！[END-FE]
 
 
@@ -3216,8 +3216,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #301 @ $D154 - STRING #301 @ $FE61
 #W32($D154)
-//[Merklich]チーム！[END-FE]
-[Merklich]チーム！[END-FE]
+//[MainCharName]チーム！[END-FE]
+[MainCharName]チーム！[END-FE]
 
 
 
@@ -3275,8 +3275,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #306 @ $D168 - STRING #306 @ $FF70
 #W32($D168)
-//[Merklich]チーム！[END-FE]
-[Merklich]チーム！[END-FE]
+//[MainCharName]チーム！[END-FE]
+[MainCharName]チーム！[END-FE]
 
 
 
@@ -3298,11 +3298,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #308 @ $D170 - STRING #308 @ $FFE4
 #W32($D170)
 //当闘技場に[NLINE]
-//[Merklich]チーム程の[NLINE]
+//[MainCharName]チーム程の[NLINE]
 //勇者チームに渡せる賞品はありませんが、[NLINE]
 //これをお受け取りください。[END-FE]
 当闘技場に[NLINE]
-[Merklich]チーム程の[NLINE]
+[MainCharName]チーム程の[NLINE]
 勇者チームに渡せる賞品はありませんが、[NLINE]
 これをお受け取りください。[END-FE]
 
@@ -3324,9 +3324,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #310 @ $D178 - STRING #310 @ $1007C
 #W32($D178)
 //勝利したのは、[NLINE]
-//[Merklich]チーム！[END-FE]
+//[MainCharName]チーム！[END-FE]
 勝利したのは、[NLINE]
-[Merklich]チーム！[END-FE]
+[MainCharName]チーム！[END-FE]
 
 
 
@@ -3451,11 +3451,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #321 @ $D1A4 - STRING #321 @ $10243
 #W32($D1A4)
 //勝利しました[NLINE]
-//[Merklich]チームには[NLINE]
+//[MainCharName]チームには[NLINE]
 //更なる強豪チームへの挑戦権と[NLINE]
 //賞品が授与されます！[END-FE]
 勝利しました[NLINE]
-[Merklich]チームには[NLINE]
+[MainCharName]チームには[NLINE]
 更なる強豪チームへの挑戦権と[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -3466,10 +3466,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #322 @ $D1A8 - STRING #322 @ $10296
 #W32($D1A8)
 //勝利しました[NLINE]
-//[Merklich]チームには[NLINE]
+//[MainCharName]チームには[NLINE]
 //賞品が授与されます！[END-FE]
 勝利しました[NLINE]
-[Merklich]チームには[NLINE]
+[MainCharName]チームには[NLINE]
 賞品が授与されます！[END-FE]
 
 
@@ -3552,11 +3552,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #329 @ $D1C4 - STRING #329 @ $10437
 #W32($D1C4)
-//[Merklich]チーム！[NWIN]
+//[MainCharName]チーム！[NWIN]
 //
 //なんと、６名すべてを撃破し、[NLINE]
 //初の完全制覇となりました！[END-FE]
-[Merklich]チーム！[NWIN]
+[MainCharName]チーム！[NWIN]
 
 なんと、６名すべてを撃破し、[NLINE]
 初の完全制覇となりました！[END-FE]
@@ -3567,13 +3567,13 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #330 @ $D1C8 - STRING #330 @ $10480
 #W32($D1C8)
-//[Merklich]チーム！[NWIN]
+//[MainCharName]チーム！[NWIN]
 //
 //またも６名すべてを撃破し、[NLINE]
 //完全制覇です！[NWIN]
 //
 //強い、実に強～い！[END-FE]
-[Merklich]チーム！[NWIN]
+[MainCharName]チーム！[NWIN]
 
 またも６名すべてを撃破し、[NLINE]
 完全制覇です！[NWIN]
@@ -3586,17 +3586,17 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #331 @ $D1CC - STRING #331 @ $104CF
 #W32($D1CC)
-//[Merklich]チーム！[NWIN]
+//[MainCharName]チーム！[NWIN]
 //
 //[CC.EF01]人の選手を撃破しての優勝です！[NWIN]
 //
-//[Merklich]チームには[NLINE]
+//[MainCharName]チームには[NLINE]
 //成績に応じた賞品が贈られます！[END-FE]
-[Merklich]チーム！[NWIN]
+[MainCharName]チーム！[NWIN]
 
 [CC.EF01]人の選手を撃破しての優勝です！[NWIN]
 
-[Merklich]チームには[NLINE]
+[MainCharName]チームには[NLINE]
 成績に応じた賞品が贈られます！[END-FE]
 
 
@@ -3606,11 +3606,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #332 @ $D1D0 - STRING #332 @ $10531
 #W32($D1D0)
 //おっと！[NLINE]
-//[Merklich]選手、[NLINE]
+//[MainCharName]選手、[NLINE]
 //どうやらすべての賞品を[NLINE]
 //持ちきれないほど持っているようです。[END-FE]
 おっと！[NLINE]
-[Merklich]選手、[NLINE]
+[MainCharName]選手、[NLINE]
 どうやらすべての賞品を[NLINE]
 持ちきれないほど持っているようです。[END-FE]
 
@@ -3935,10 +3935,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #367 @ $D25C - STRING #367 @ $1081D
 #W32($D25C)
 //あ～っと、[NLINE]
-//[Merklich]チーム、[NLINE]
+//[MainCharName]チーム、[NLINE]
 //リタイアです！[END-FE]
 あ～っと、[NLINE]
-[Merklich]チーム、[NLINE]
+[MainCharName]チーム、[NLINE]
 リタイアです！[END-FE]
 
 
@@ -4542,22 +4542,22 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D33C)
 //ここにスレイヤーに[NLINE]
 //名を連ねる者が現れました！[NLINE]
-//その名も[Merklich]！[NWIN]
+//その名も[MainCharName]！[NWIN]
 //
 //ポーン・スクリーパーを倒し、[NLINE]
 //私たちに希望を与えてくれました！[NWIN]
 //
-//[Merklich]選手には、[NLINE]
+//[MainCharName]選手には、[NLINE]
 //ポーン・スレイヤーの称号と[NLINE]
 //賞品が授与されます！[END-FE]
 ここにスレイヤーに[NLINE]
 名を連ねる者が現れました！[NLINE]
-その名も[Merklich]！[NWIN]
+その名も[MainCharName]！[NWIN]
 
 ポーン・スクリーパーを倒し、[NLINE]
 私たちに希望を与えてくれました！[NWIN]
 
-[Merklich]選手には、[NLINE]
+[MainCharName]選手には、[NLINE]
 ポーン・スレイヤーの称号と[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -4580,20 +4580,20 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //ポーンだけでなく、[NLINE]
 //ルーク級のスクリーパーまでも[NLINE]
 //その実力で捻じ伏せた！[NLINE]
-//その名も[Merklich]！[NWIN]
+//その名も[MainCharName]！[NWIN]
 //
 //ルーク・スクリーパーを倒した、[NLINE]
-//[Merklich]選手には、[NLINE]
+//[MainCharName]選手には、[NLINE]
 //ルーク・スレイヤーの称号と[NLINE]
 //賞品が授与されます！[END-FE]
 人類の天敵は、彼の前では天敵に成らず！[NLINE]
 ポーンだけでなく、[NLINE]
 ルーク級のスクリーパーまでも[NLINE]
 その実力で捻じ伏せた！[NLINE]
-その名も[Merklich]！[NWIN]
+その名も[MainCharName]！[NWIN]
 
 ルーク・スクリーパーを倒した、[NLINE]
-[Merklich]選手には、[NLINE]
+[MainCharName]選手には、[NLINE]
 ルーク・スレイヤーの称号と[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -4615,19 +4615,19 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //どこまで高みに登るのか！[NLINE]
 //遂にナイト級をも沈め、[NLINE]
 //人類に大きな希望を与えてくれました！[NLINE]
-//その名も[Merklich]！[NWIN]
+//その名も[MainCharName]！[NWIN]
 //
 //ナイト・スクリーパーを倒した、[NLINE]
-//[Merklich]選手には、[NLINE]
+//[MainCharName]選手には、[NLINE]
 //ナイト・スレイヤーの称号と[NLINE]
 //賞品が授与されます！[END-FE]
 どこまで高みに登るのか！[NLINE]
 遂にナイト級をも沈め、[NLINE]
 人類に大きな希望を与えてくれました！[NLINE]
-その名も[Merklich]！[NWIN]
+その名も[MainCharName]！[NWIN]
 
 ナイト・スクリーパーを倒した、[NLINE]
-[Merklich]選手には、[NLINE]
+[MainCharName]選手には、[NLINE]
 ナイト・スレイヤーの称号と[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -4649,19 +4649,19 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //一人で立ち向かうには余りに大き過ぎる壁。[NLINE]
 //そんなビショップという壁を打ち崩し、[NLINE]
 //大いなる快挙を成し遂げました！[NLINE]
-//その名も[Merklich]！[NWIN]
+//その名も[MainCharName]！[NWIN]
 //
 //ビショップ・スクリーパーを倒した、[NLINE]
-//[Merklich]選手には、[NLINE]
+//[MainCharName]選手には、[NLINE]
 //ビショップ・スレイヤーの称号と[NLINE]
 //賞品が授与されます！[END-FE]
 一人で立ち向かうには余りに大き過ぎる壁。[NLINE]
 そんなビショップという壁を打ち崩し、[NLINE]
 大いなる快挙を成し遂げました！[NLINE]
-その名も[Merklich]！[NWIN]
+その名も[MainCharName]！[NWIN]
 
 ビショップ・スクリーパーを倒した、[NLINE]
-[Merklich]選手には、[NLINE]
+[MainCharName]選手には、[NLINE]
 ビショップ・スレイヤーの称号と[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -4686,10 +4686,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //
 //スレイヤーの中のスレイヤー！[NLINE]
 //その頂に登りつめました！[NLINE]
-//その名も[Merklich]！[NWIN]
+//その名も[MainCharName]！[NWIN]
 //
 //ヤクト・スクリーパーを倒した、[NLINE]
-//[Merklich]選手には、[NLINE]
+//[MainCharName]選手には、[NLINE]
 //ヤクト・スレイヤーの称号と[NLINE]
 //賞品が授与されます！[END-FE]
 前人未到の領域。[NLINE]
@@ -4698,10 +4698,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 スレイヤーの中のスレイヤー！[NLINE]
 その頂に登りつめました！[NLINE]
-その名も[Merklich]！[NWIN]
+その名も[MainCharName]！[NWIN]
 
 ヤクト・スクリーパーを倒した、[NLINE]
-[Merklich]選手には、[NLINE]
+[MainCharName]選手には、[NLINE]
 ヤクト・スレイヤーの称号と[NLINE]
 賞品が授与されます！[END-FE]
 
@@ -4737,7 +4737,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //
 //まさに人類最強！[NLINE]
 //クイーン・スレイヤー[NLINE]
-//[Merklich]！[NWIN]
+//[MainCharName]！[NWIN]
 //
 //こんな英雄に渡せる程の代物は[NLINE]
 //当闘技場にはありませんが、[NLINE]
@@ -4750,7 +4750,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 まさに人類最強！[NLINE]
 クイーン・スレイヤー[NLINE]
-[Merklich]！[NWIN]
+[MainCharName]！[NWIN]
 
 こんな英雄に渡せる程の代物は[NLINE]
 当闘技場にはありませんが、[NLINE]
@@ -4773,10 +4773,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D370)
 //またも見せてくれました！[NLINE]
 //ポーン・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 またも見せてくれました！[NLINE]
 ポーン・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -4786,10 +4786,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D374)
 //この程度では止まらない！[NLINE]
 //ルーク・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 この程度では止まらない！[NLINE]
 ルーク・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -4799,10 +4799,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D378)
 //魅せてくれます！[NLINE]
 //ナイト・スレイヤー[NLINE]
-//[Merklich]。[END-FE]
+//[MainCharName]。[END-FE]
 魅せてくれます！[NLINE]
 ナイト・スレイヤー[NLINE]
-[Merklich]。[END-FE]
+[MainCharName]。[END-FE]
 
 
 
@@ -4812,10 +4812,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D37C)
 //行く手を遮るもの無し！[NLINE]
 //ビショップ・スレイヤー[NLINE]
-//[Merklich]。[END-FE]
+//[MainCharName]。[END-FE]
 行く手を遮るもの無し！[NLINE]
 ビショップ・スレイヤー[NLINE]
-[Merklich]。[END-FE]
+[MainCharName]。[END-FE]
 
 
 
@@ -4825,10 +4825,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D380)
 //人類の希望がまたやってくれました！[NLINE]
 //ヤクト・スレイヤー、[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 人類の希望がまたやってくれました！[NLINE]
 ヤクト・スレイヤー、[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -4839,11 +4839,11 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //向かうところ敵無し！[NLINE]
 //流石、史上最強の[NLINE]
 //クイーン・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 向かうところ敵無し！[NLINE]
 流石、史上最強の[NLINE]
 クイーン・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -4852,10 +4852,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #442 @ $D388 - STRING #442 @ $11A0C
 #W32($D388)
 //見事ポーン・スクリーパーを倒しました[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //闘技場から賞品が授与されます！[END-FE]
 見事ポーン・スクリーパーを倒しました[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 闘技場から賞品が授与されます！[END-FE]
 
 
@@ -4876,10 +4876,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #444 @ $D390 - STRING #444 @ $11AAA
 #W32($D390)
 //見事ルーク・スクリーパーを倒しました[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //闘技場から賞品が授与されます！[END-FE]
 見事ルーク・スクリーパーを倒しました[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 闘技場から賞品が授与されます！[END-FE]
 
 
@@ -4900,10 +4900,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #446 @ $D398 - STRING #446 @ $11B48
 #W32($D398)
 //見事・スクリーパーを倒しました[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //闘技場から賞品が授与されます！[END-FE]
 見事・スクリーパーを倒しました[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 闘技場から賞品が授与されます！[END-FE]
 
 
@@ -4924,10 +4924,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #448 @ $D3A0 - STRING #448 @ $11BE0
 #W32($D3A0)
 //見事ビショップ・スクリーパーを倒しました[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //闘技場から賞品が授与されます！[END-FE]
 見事ビショップ・スクリーパーを倒しました[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 闘技場から賞品が授与されます！[END-FE]
 
 
@@ -4948,10 +4948,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #450 @ $D3A8 - STRING #450 @ $11C86
 #W32($D3A8)
 //見事ヤクト・スクリーパーを倒しました[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //闘技場から賞品が授与されます！[END-FE]
 見事ヤクト・スクリーパーを倒しました[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 闘技場から賞品が授与されます！[END-FE]
 
 
@@ -4972,10 +4972,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #452 @ $D3B0 - STRING #452 @ $11D24
 #W32($D3B0)
 //見事クイーン・スクリーパーを倒しました[NLINE]
-//[Merklich]選手には[NLINE]
+//[MainCharName]選手には[NLINE]
 //闘技場から賞品が授与されます！[END-FE]
 見事クイーン・スクリーパーを倒しました[NLINE]
-[Merklich]選手には[NLINE]
+[MainCharName]選手には[NLINE]
 闘技場から賞品が授与されます！[END-FE]
 
 
@@ -4995,9 +4995,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #454 @ $D3B8 - STRING #454 @ $11DC6
 #W32($D3B8)
-//[Merklich]選手の[NLINE]
+//[MainCharName]選手の[NLINE]
 //今後の活躍に期待しましょう！[END-FE]
-[Merklich]選手の[NLINE]
+[MainCharName]選手の[NLINE]
 今後の活躍に期待しましょう！[END-FE]
 
 
@@ -5007,9 +5007,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #455 @ $D3BC - STRING #455 @ $11DF1
 #W32($D3BC)
 //ポーン・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 ポーン・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -5018,9 +5018,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #456 @ $D3C0 - STRING #456 @ $11E0E
 #W32($D3C0)
 //ルーク・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 ルーク・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -5029,9 +5029,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #457 @ $D3C4 - STRING #457 @ $11E2B
 #W32($D3C4)
 //ナイト・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 ナイト・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -5040,9 +5040,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #458 @ $D3C8 - STRING #458 @ $11E48
 #W32($D3C8)
 //ビショップ・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 ビショップ・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -5051,9 +5051,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #459 @ $D3CC - STRING #459 @ $11E69
 #W32($D3CC)
 //ヤクト・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 ヤクト・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -5063,10 +5063,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($D3D0)
 //史上最強[NLINE]
 //クイーン・スレイヤー[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 史上最強[NLINE]
 クイーン・スレイヤー[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -5074,8 +5074,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #461 @ $D3D4 - STRING #461 @ $11EAF
 #W32($D3D4)
-//[Merklich]選手！[END-FE]
-[Merklich]選手！[END-FE]
+//[MainCharName]選手！[END-FE]
+[MainCharName]選手！[END-FE]
 
 
 
@@ -5105,10 +5105,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #464 @ $D3E0 - STRING #464 @ $11F0A
 #W32($D3E0)
-//挑戦者、[Merklich]チームには[NLINE]
+//挑戦者、[MainCharName]チームには[NLINE]
 //このゴールドゲルを思う存分[NLINE]
 //倒していただきましょう！[END-FE]
-挑戦者、[Merklich]チームには[NLINE]
+挑戦者、[MainCharName]チームには[NLINE]
 このゴールドゲルを思う存分[NLINE]
 倒していただきましょう！[END-FE]
 
@@ -5155,13 +5155,13 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #469 @ $D3F4 - STRING #469 @ $11FB7
 #W32($D3F4)
 //残念！[NLINE]
-//[Merklich]チーム、[NLINE]
+//[MainCharName]チーム、[NLINE]
 //一匹のゲルも[NLINE]
 //倒すことができませんでした。[NWIN]
 //
 //次回の挑戦に期待しましょう！[END-FE]
 残念！[NLINE]
-[Merklich]チーム、[NLINE]
+[MainCharName]チーム、[NLINE]
 一匹のゲルも[NLINE]
 倒すことができませんでした。[NWIN]
 
@@ -5174,10 +5174,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #470 @ $D3F8 - STRING #470 @ $12018
 #W32($D3F8)
 //なんと！[NLINE]
-//[Merklich]チームは[NLINE]
+//[MainCharName]チームは[NLINE]
 //すべてのゴールドゲルを撃破しました！[END-FE]
 なんと！[NLINE]
-[Merklich]チームは[NLINE]
+[MainCharName]チームは[NLINE]
 すべてのゴールドゲルを撃破しました！[END-FE]
 
 
@@ -5186,9 +5186,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #471 @ $D3FC - STRING #471 @ $12057
 #W32($D3FC)
-//[Merklich]チーム、[NLINE]
+//[MainCharName]チーム、[NLINE]
 //[CC.EF01]体のゴールドゲルを撃破しました！[END-FE]
-[Merklich]チーム、[NLINE]
+[MainCharName]チーム、[NLINE]
 [CC.EF01]体のゴールドゲルを撃破しました！[END-FE]
 
 
@@ -5233,12 +5233,12 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //さて、この１２体のソウルを[NLINE]
 //挑戦者たちは何体倒せるのでしょうか!?[NWIN]
 //
-//[Merklich]チームが[NLINE]
+//[MainCharName]チームが[NLINE]
 //挑みます！[END-FE]
 さて、この１２体のソウルを[NLINE]
 挑戦者たちは何体倒せるのでしょうか!?[NWIN]
 
-[Merklich]チームが[NLINE]
+[MainCharName]チームが[NLINE]
 挑みます！[END-FE]
 
 
@@ -5284,13 +5284,13 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #480 @ $D420 - STRING #480 @ $121E7
 #W32($D420)
 //残念！[NLINE]
-//[Merklich]チーム、[NLINE]
+//[MainCharName]チーム、[NLINE]
 //一体のソウルも[NLINE]
 //倒すことができませんでした。[NWIN]
 //
 //次回の挑戦に期待しましょう！[END-FE]
 残念！[NLINE]
-[Merklich]チーム、[NLINE]
+[MainCharName]チーム、[NLINE]
 一体のソウルも[NLINE]
 倒すことができませんでした。[NWIN]
 
@@ -5303,10 +5303,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #481 @ $D424 - STRING #481 @ $1224A
 #W32($D424)
 //なんと！[NLINE]
-//[Merklich]チームは[NLINE]
+//[MainCharName]チームは[NLINE]
 //すべてのソウルを撃破しました！[END-FE]
 なんと！[NLINE]
-[Merklich]チームは[NLINE]
+[MainCharName]チームは[NLINE]
 すべてのソウルを撃破しました！[END-FE]
 
 
@@ -5315,9 +5315,9 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 //POINTER #482 @ $D428 - STRING #482 @ $12283
 #W32($D428)
-//[Merklich]チーム、[NLINE]
+//[MainCharName]チーム、[NLINE]
 //[CC.EF01]体のソウルを撃破しました！[END-FE]
-[Merklich]チーム、[NLINE]
+[MainCharName]チーム、[NLINE]
 [CC.EF01]体のソウルを撃破しました！[END-FE]
 
 
@@ -5365,7 +5365,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //な、な、な、なんと！[NLINE]
 //信じられないことが成されていました！[NWIN]
 //
-//[Merklich]選手は、[NLINE]
+//[MainCharName]選手は、[NLINE]
 //当闘技場の全ての競技を[NLINE]
 //完全に制覇してしまいました！[NWIN]
 //
@@ -5373,7 +5373,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 な、な、な、なんと！[NLINE]
 信じられないことが成されていました！[NWIN]
 
-[Merklich]選手は、[NLINE]
+[MainCharName]選手は、[NLINE]
 当闘技場の全ての競技を[NLINE]
 完全に制覇してしまいました！[NWIN]
 
@@ -5617,10 +5617,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #511 @ $D49C - STRING #511 @ $12667
 #W32($D49C)
 //あ～っと、[NLINE]
-//[Merklich]選手ダウーン！[NLINE]
+//[MainCharName]選手ダウーン！[NLINE]
 //ここでリタイアだ！[END-FE]
 あ～っと、[NLINE]
-[Merklich]選手ダウーン！[NLINE]
+[MainCharName]選手ダウーン！[NLINE]
 ここでリタイアだ！[END-FE]
 
 
@@ -5630,10 +5630,10 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #512 @ $D4A0 - STRING #512 @ $1269C
 #W32($D4A0)
 //あ～っと、[NLINE]
-//[Merklich]チーム、[NLINE]
+//[MainCharName]チーム、[NLINE]
 //リタイアです！[END-FE]
 あ～っと、[NLINE]
-[Merklich]チーム、[NLINE]
+[MainCharName]チーム、[NLINE]
 リタイアです！[END-FE]
 
 

@@ -1846,11 +1846,11 @@ the ship.[END-FE]
 #W32($8294)
 //イリスさん!?[NWIN]
 //
-//[Merklich]様！[NLINE]
+//[MainCharName]様！[NLINE]
 //イリスさんを宿へ！[END-FE]
 Iris!?[NWIN]
 
-Master [Merklich]![NLINE]
+Master [MainCharName]![NLINE]
 Let's take Iris to the inn![END-FE]
 
 

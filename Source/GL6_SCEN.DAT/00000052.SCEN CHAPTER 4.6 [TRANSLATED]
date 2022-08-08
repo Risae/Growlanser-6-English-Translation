@@ -1096,10 +1096,10 @@ is Yurii. And he is...[END-FE]
 //POINTER #93 @ $4314 - STRING #93 @ $5210
 #W32($4314)
 //[CHAR1300][V2D00]
-//彼は[Merklich]。[NLINE]
+//彼は[MainCharName]。[NLINE]
 //…無愛想な奴だけどね。[END-FE]
 [CHAR1300][V2D00]
-This is[Merklich].[NLINE]
+This is[MainCharName].[NLINE]
 ...He can be a bit of a sourpuss, though.[END-FE]
 
 

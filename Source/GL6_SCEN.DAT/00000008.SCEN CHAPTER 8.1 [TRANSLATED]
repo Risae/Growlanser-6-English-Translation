@@ -204,11 +204,11 @@ Go to the debugging room?[END-FE]
 //POINTER #18 @ $4DE8 - STRING #18 @ $516C
 #W32($4DE8)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //みなさんを置いて行くわけには参りません。[NLINE]
 //レイスタンに戻られた方がよろしいかと。[END-FE]
 //Yurii\\
-Master [Merklich], we can't leave[NLINE]
+Master [MainCharName], we can't leave[NLINE]
 everyone behind. We should return to[NLINE]
 Leystan.[END-FE]
 
@@ -219,12 +219,12 @@ Leystan.[END-FE]
 //POINTER #19 @ $4DEC - STRING #19 @ $51C9
 #W32($4DEC)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //ウェンディさんとの待ち合わせは[NLINE]
 //レイスタンです。[NLINE]
 //戻られた方がよろしいかと。[END-FE]
 //Yurii\\
-Master [Merklich], we're supposed[NLINE]
+Master [MainCharName], we're supposed[NLINE]
 to meet Wendy in Leystan. We should[NLINE]
 go back.[END-FE]
 
@@ -249,11 +249,11 @@ We have to save Yurii![NLINE]
 //POINTER #21 @ $4DF4 - STRING #21 @ $5247
 #W32($4DF4)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //みなさんを置いて行くわけには参りません。[NLINE]
 //レイスタンに戻られた方がよろしいかと。[END-FE]
 //Yurii\\
-Master [Merklich], we can't leave[NLINE]
+Master [MainCharName], we can't leave[NLINE]
 everyone behind. We should return to[NLINE]
 Leystan.[END-FE]
 
@@ -264,10 +264,10 @@ Leystan.[END-FE]
 //POINTER #22 @ $4DF8 - STRING #22 @ $52A4
 #W32($4DF8)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //今はジアント山へ向かわないと！[END-FE]
 //Yurii\\
-Master [Merklich], we must head to[NLINE]
+Master [MainCharName], we must head to[NLINE]
 Jiant Mountain![END-FE]
 
 
@@ -277,12 +277,12 @@ Jiant Mountain![END-FE]
 //POINTER #23 @ $4DFC - STRING #23 @ $52CF
 #W32($4DFC)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //ウェンディさんとの待ち合わせは[NLINE]
 //レイスタンです。[NLINE]
 //戻られた方がよろしいかと。[END-FE]
 //Yurii\\
-Master [Merklich], we're supposed[NLINE]
+Master [MainCharName], we're supposed[NLINE]
 to meet Wendy in Leystan. We should[NLINE]
 go back.[END-FE]
 

@@ -1047,11 +1047,11 @@ the raising of the ship to you.[END-FE]
 #W32($5AC0)
 //シャイアー\\
 //[CHAR6E00][V1F00]
-//[Merklich]に指令を出します。[NLINE]
+//[MainCharName]に指令を出します。[NLINE]
 //巫女のサポートチームを選出しなさい。[END-FE]
 //Shayer\\
 [CHAR6E00][V1F00]
-[Merklich] will give orders.[NLINE]
+[MainCharName] will give orders.[NLINE]
 Please put together a support[NLINE]
 team for the Earth Priestess.[END-FE]
 

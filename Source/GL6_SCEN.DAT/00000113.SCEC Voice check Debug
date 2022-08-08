@@ -4038,10 +4038,10 @@
 //POINTER #288 @ $2E20 - STRING #288 @ $88A6
 #W32($2E20)
 //[CHAR5300][V0700]
-//083_007それじゃ、私と[Merklich]には[NLINE]
+//083_007それじゃ、私と[MainCharName]には[NLINE]
 //どんな手術が？[END-FE]
 [CHAR5300][V0700]
-083_007それじゃ、私と[Merklich]には[NLINE]
+083_007それじゃ、私と[MainCharName]には[NLINE]
 どんな手術が？[END-FE]
 
 
@@ -4056,7 +4056,7 @@
 //
 //[CHAR5300][V0900]
 //083_009そこで、随行者を連れて行けるような技術を[NLINE]
-//[Merklich]さんを使って、[NLINE]
+//[MainCharName]さんを使って、[NLINE]
 //研究していました。[NWIN]
 //
 //[CHAR5300][V0A00]
@@ -4069,7 +4069,7 @@
 
 [CHAR5300][V0900]
 083_009そこで、随行者を連れて行けるような技術を[NLINE]
-[Merklich]さんを使って、[NLINE]
+[MainCharName]さんを使って、[NLINE]
 研究していました。[NWIN]
 
 [CHAR5300][V0A00]
@@ -13086,11 +13086,11 @@
 //POINTER #876 @ $3750 - STRING #876 @ $14FCB
 #W32($3750)
 //[CHAR5900][V1300]
-//089_019おはよう、[Merklich]。[NLINE]
+//089_019おはよう、[MainCharName]。[NLINE]
 //ルキアスくんが[NLINE]
 //ホフマンさんをつれて帰ってきたって。[END-FE]
 [CHAR5900][V1300]
-089_019おはよう、[Merklich]。[NLINE]
+089_019おはよう、[MainCharName]。[NLINE]
 ルキアスくんが[NLINE]
 ホフマンさんをつれて帰ってきたって。[END-FE]
 
@@ -13144,7 +13144,7 @@
 //ここまで来て失敗は出来ませんから！[NWIN]
 //
 //[CHAR7000][V0B00]
-//112_011…[Merklich]様を勇者として[NLINE]
+//112_011…[MainCharName]様を勇者として[NLINE]
 //ここまでついてきましたが、[NLINE]
 //本当にうれしく思います。[NWIN]
 //
@@ -13155,7 +13155,7 @@
 ここまで来て失敗は出来ませんから！[NWIN]
 
 [CHAR7000][V0B00]
-112_011…[Merklich]様を勇者として[NLINE]
+112_011…[MainCharName]様を勇者として[NLINE]
 ここまでついてきましたが、[NLINE]
 本当にうれしく思います。[NWIN]
 

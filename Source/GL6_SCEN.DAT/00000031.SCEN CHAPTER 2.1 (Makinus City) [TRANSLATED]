@@ -201,11 +201,11 @@ them over.[END-FE]
 //POINTER #16 @ $63E0 - STRING #16 @ $6B36
 #W32($63E0)
 //社員番号－[COL09]ＴＭＲ００３[COL00][NLINE]
-//　　　　　[Merklich][NLINE]
+//　　　　　[MainCharName][NLINE]
 //[COL03]本日１１：００、本社ビル１０Ｆまで出頭せよ。[NLINE]
 //なお、制服ではなく私服着用のこと。[COL00][END-FE]
 Employee Number - [COL09]TMR003[COL00][NLINE]
-     [Merklich][NLINE]
+     [MainCharName][NLINE]
 [COL03]Report to the 10th floor desk of the HQ[NLINE]
 building today at 11 A.M. Don't come in[NLINE]
 uniform, come in your personal attire.[END-FE]
@@ -4300,7 +4300,7 @@ In that case, please put your ID in here.[END-FE]
 //POINTER #317 @ $6894 - STRING #317 @ $BE77
 #W32($6894)
 //おや？[NLINE]
-//あんたが[Merklich]かい。[NWIN]
+//あんたが[MainCharName]かい。[NWIN]
 //
 //すぐに本社へ寄こすようにって[NLINE]
 //伝言を受けてるんだよ。[NWIN]
@@ -4308,7 +4308,7 @@ In that case, please put your ID in here.[END-FE]
 //こんな所で道草してないで[NLINE]
 //さっさと本社に行った方がいいよ。[END-FE]
 Oh?[NLINE]
-Are you [Merklich]?[NWIN]
+Are you [MainCharName]?[NWIN]
 
 I've received a message from headquarters.[NLINE]
 You're to head over there immediately.[NWIN]
@@ -4452,14 +4452,14 @@ Will you rest on the bed?[END-FE]
 
 //POINTER #329 @ $68C4 - STRING #329 @ $C141
 #W32($68C4)
-//[Merklich]さん、いるかい？[NWIN]
+//[MainCharName]さん、いるかい？[NWIN]
 //
 //今、本社の人が来て、[NLINE]
 //明日の朝、役員室に来るように[NLINE]
 //言っていたよ。[NWIN]
 //
 //それじゃ、伝えたからね！[END-FE]
-Mr. [Merklich], are you there?[NWIN]
+Mr. [MainCharName], are you there?[NWIN]
 
 This morning, someone came and asked[NLINE]
 for you to come to the board[NLINE]

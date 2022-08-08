@@ -161,10 +161,10 @@ You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
 
 //POINTER #14 @ $5258 - STRING #14 @ $5632
 #W32($5258)
-//ポッドを出た[Merklich]は[NLINE]
+//ポッドを出た[MainCharName]は[NLINE]
 //変わってしまった世界を知るため[NLINE]
 //かつての想い出の地に赴いた<$81><$B9><$81><$B9>[END-FE]
-After leaving the pod, [Merklich][NLINE]
+After leaving the pod, [MainCharName][NLINE]
 went to places he remembered in[NLINE]
 order to learn how the world had[NLINE]
 changed...<$81><$B9><$81><$B9>[END-FE]
@@ -175,11 +175,11 @@ changed...<$81><$B9><$81><$B9>[END-FE]
 
 //POINTER #15 @ $525C - STRING #15 @ $5687
 #W32($525C)
-//ポッドを出た[Merklich]は[NLINE]
+//ポッドを出た[MainCharName]は[NLINE]
 //人間となったユリィを連れ[NLINE]
 //変わってしまった世界を知るため[NLINE]
 //かつての想い出の地に赴いた<$81><$B9><$81><$B9>[END-FE]
-After leaving the pod, [Merklich][NLINE]
+After leaving the pod, [MainCharName][NLINE]
 went to places he remembered in[NLINE]
 order to learn how the world had[NLINE]
 changed...<$81><$B9><$81><$B9>[END-FE]
@@ -190,11 +190,11 @@ changed...<$81><$B9><$81><$B9>[END-FE]
 
 //POINTER #16 @ $5260 - STRING #16 @ $56F6
 #W32($5260)
-//ポッドを出た[Merklich]は[NLINE]
+//ポッドを出た[MainCharName]は[NLINE]
 //共に脱出したネーリスと共に[NLINE]
 //変わってしまった世界を知るため[NLINE]
 //かつての想い出の地に赴いた<$81><$B9><$81><$B9>[END-FE]
-After leaving the pod, [Merklich],[NLINE]
+After leaving the pod, [MainCharName],[NLINE]
 together with Neilis, went to places[NLINE]
 he remembered in order to learn how[NLINE]
 the world had changed...<$81><$B9><$81><$B9>[END-FE]
@@ -205,11 +205,11 @@ the world had changed...<$81><$B9><$81><$B9>[END-FE]
 
 //POINTER #17 @ $5264 - STRING #17 @ $5767
 #W32($5264)
-//ポッドを出た[Merklich]は[NLINE]
+//ポッドを出た[MainCharName]は[NLINE]
 //妖精ユリィをともなって[NLINE]
 //変わってしまった世界を知るため[NLINE]
 //かつての想い出の地に赴いた<$81><$B9><$81><$B9>[END-FE]
-After leaving the pod, [Merklich],[NLINE]
+After leaving the pod, [MainCharName],[NLINE]
 together with the fairy Yurii,[NLINE]
 went to places he remembered[NLINE]
 in order to learn how the world[NLINE]
@@ -267,9 +267,9 @@ it changed.[END-FE]
 
 //POINTER #21 @ $5274 - STRING #21 @ $58D3
 #W32($5274)
-//[Merklich]は一人、[NLINE]
+//[MainCharName]は一人、[NLINE]
 //変わった世界を旅していた…。[END-FE]
-[Merklich] was traveling[NLINE]
+[MainCharName] was traveling[NLINE]
 alone in a changed world...[END-FE]
 
 
@@ -2214,7 +2214,7 @@ arrival is being eagerly awaited![END-FE]
 //　[NLINE]
 //だが、それでいい<$81><$B9><$81><$B9>[NLINE]
 //　[NLINE]
-//[Merklich]は新たな世界に[NLINE]
+//[MainCharName]は新たな世界に[NLINE]
 //一歩を踏み出す…[END-FE]
 Two thousand years after the<$81><$B9><$81><$B9>[NLINE]
 final battle, people's lives[NLINE]
@@ -2222,7 +2222,7 @@ were the same as before time changed.[NLINE]
 　[NLINE]
 All was well.<$81><$B9><$81><$B9>[NLINE]
 　[NLINE]
-And thus, [Merklich] took his next steps[NLINE]
+And thus, [MainCharName] took his next steps[NLINE]
 in the new world...[END-FE]
 
 

@@ -1703,10 +1703,10 @@
 
 //POINTER #110 @ $27D8 - STRING #110 @ $5C14
 #W32($27D8)
-//…[Merklich]さん、[CC.FFFB][NLINE]
+//…[MainCharName]さん、[CC.FFFB][NLINE]
 //[CHAR5A00][V5000]
 //090_080詳細はあなたにお願いします。[END-FE]
-…[Merklich]さん、[CC.FFFB][NLINE]
+…[MainCharName]さん、[CC.FFFB][NLINE]
 [CHAR5A00][V5000]
 090_080詳細はあなたにお願いします。[END-FE]
 
@@ -2568,13 +2568,13 @@
 //103_071では、早速出発しましょう。[NWIN]
 //
 //[CHAR6700][V4800]
-//103_072[Merklich]さん、[NLINE]
+//103_072[MainCharName]さん、[NLINE]
 //人選はあなたにお任せします。[END-FE]
 [CHAR6700][V4700]
 103_071では、早速出発しましょう。[NWIN]
 
 [CHAR6700][V4800]
-103_072[Merklich]さん、[NLINE]
+103_072[MainCharName]さん、[NLINE]
 人選はあなたにお任せします。[END-FE]
 
 
@@ -3062,7 +3062,7 @@
 //088_026それは…。[NWIN]
 //
 //[CHAR5800][V1B00]
-//088_027[Merklich]を見るのが辛いのです。[NLINE]
+//088_027[MainCharName]を見るのが辛いのです。[NLINE]
 //あの人と同じ顔のあなたを…。[NWIN]
 //
 //[CHAR5800][V1C00]
@@ -3079,7 +3079,7 @@
 088_026それは…。[NWIN]
 
 [CHAR5800][V1B00]
-088_027[Merklich]を見るのが辛いのです。[NLINE]
+088_027[MainCharName]を見るのが辛いのです。[NLINE]
 あの人と同じ顔のあなたを…。[NWIN]
 
 [CHAR5800][V1C00]
@@ -9058,11 +9058,11 @@
 //[CHAR0200][V0E00]
 //002_014無愛想な人ね～。[NLINE]
 //まぁ、名札を見ればわかっちゃうけどね。[NLINE]
-//え～と、あなたは…[Merklich]か…。[END-FE]
+//え～と、あなたは…[MainCharName]か…。[END-FE]
 [CHAR0200][V0E00]
 002_014無愛想な人ね～。[NLINE]
 まぁ、名札を見ればわかっちゃうけどね。[NLINE]
-え～と、あなたは…[Merklich]か…。[END-FE]
+え～と、あなたは…[MainCharName]か…。[END-FE]
 
 
 
@@ -9488,7 +9488,7 @@
 //それじゃ、勝手につけちゃうぞ？[NWIN]
 //
 //[CHAR0300][V1C00]
-//003_028あなたの名前は…[Merklich]…！[NWIN]
+//003_028あなたの名前は…[MainCharName]…！[NWIN]
 //
 //[CHAR0300][V1D00]
 //003_029理由はないけど、[NLINE]
@@ -9498,7 +9498,7 @@
 それじゃ、勝手につけちゃうぞ？[NWIN]
 
 [CHAR0300][V1C00]
-003_028あなたの名前は…[Merklich]…！[NWIN]
+003_028あなたの名前は…[MainCharName]…！[NWIN]
 
 [CHAR0300][V1D00]
 003_029理由はないけど、[NLINE]
@@ -10170,13 +10170,13 @@
 //[CHARC900][V0400]
 //201_004
 //あのレノックス研究所襲撃から２日後[－][－][NLINE]
-//[Merklich]は[NLINE]
+//[MainCharName]は[NLINE]
 //モノポリス本社のある都市マキナスにて[NLINE]
 //周辺の警備任務にあたっていた。[END-FE]
 [CHARC900][V0400]
 201_004
 あのレノックス研究所襲撃から２日後[－][－][NLINE]
-[Merklich]は[NLINE]
+[MainCharName]は[NLINE]
 モノポリス本社のある都市マキナスにて[NLINE]
 周辺の警備任務にあたっていた。[END-FE]
 

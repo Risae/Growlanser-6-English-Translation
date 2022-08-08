@@ -13117,14 +13117,14 @@
 //POINTER #881 @ $3964 - STRING #881 @ $15260
 #W32($3964)
 //[CHAR4500][V4F00]
-//069_079それじゃ[Merklich]に[NLINE]
+//069_079それじゃ[MainCharName]に[NLINE]
 //以前の記憶がないって言うのは…。[NWIN]
 //
 //[CHAR4500][V5000]
 //069_080無くしたんじゃなくて、[NLINE]
 //最初から無かったってこと？[END-FE]
 [CHAR4500][V4F00]
-069_079それじゃ[Merklich]に[NLINE]
+069_079それじゃ[MainCharName]に[NLINE]
 以前の記憶がないって言うのは…。[NWIN]
 
 [CHAR4500][V5000]

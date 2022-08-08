@@ -393,11 +393,11 @@ Everyone, please hurry![END-FE]
 
 //POINTER #33 @ $23A4 - STRING #33 @ $292D
 #W32($23A4)
-//・[Merklich]と[NLINE]
+//・[MainCharName]と[NLINE]
 //　ウェンディとルキアスが[NLINE]
 //　縄ばしごの周囲に集まる[NLINE]
 //・敵の全滅[END-FE]
-・[Merklich], Wendy and Rukias[NLINE]
+・[MainCharName], Wendy and Rukias[NLINE]
  gather at the rope ladder[NLINE]
 ・All enemies defeated[END-FE]
 

@@ -557,10 +557,10 @@ somewhere...[TEAR-DROP][END-FE]
 
 //POINTER #39 @ $5FBC - STRING #39 @ $6A0B
 #W32($5FBC)
-//[Merklich]は[NLINE]
+//[MainCharName]は[NLINE]
 //ウェンディ自身の装備について確認した！[END-FE]
 //System Message\\
-[Merklich] confirmed Wendy's equipment![END-FE]
+[MainCharName] confirmed Wendy's equipment![END-FE]
 
 
 
@@ -1725,11 +1725,11 @@ To Dastis[END-FE]
 //POINTER #114 @ $60E8 - STRING #114 @ $82D1
 #W32($60E8)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //みなさんと別行動をされるのは、[NLINE]
 //よろしくないかと…。[END-FE]
 //Yurii\\
-Mr. [Merklich], I don't think[NLINE]
+Mr. [MainCharName], I don't think[NLINE]
 everyone going off on there own[NLINE]
 would be a good idea...[END-FE]
 
@@ -1843,11 +1843,11 @@ not working.[END-FE]
 //POINTER #120 @ $6100 - STRING #120 @ $8579
 #W32($6100)
 //ユリィ\\
-//[Merklich]様。[NLINE]
+//[MainCharName]様。[NLINE]
 //みなさんと別行動をされるのは、[NLINE]
 //よろしくないかと…。[END-FE]
 //Yurii\\
-Mr. [Merklich], I don't think[NLINE]
+Mr. [MainCharName], I don't think[NLINE]
 everyone going off on there own[NLINE]
 would be a good idea...[END-FE]
 

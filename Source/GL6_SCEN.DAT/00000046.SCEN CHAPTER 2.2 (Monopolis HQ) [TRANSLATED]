@@ -1940,8 +1940,8 @@ problem.[END-FE]
 
 //POINTER #138 @ $7BC8 - STRING #138 @ $A806
 #W32($7BC8)
-//・[Merklich][END-FE]
-・[Merklich][END-FE]
+//・[MainCharName][END-FE]
+・[MainCharName][END-FE]
 
 
 
@@ -2003,10 +2003,10 @@ problem.[END-FE]
 
 //POINTER #145 @ $7BE4 - STRING #145 @ $A86F
 #W32($7BE4)
-//【[Merklich]】[NLINE]
+//【[MainCharName]】[NLINE]
 //　[CC.D814]社員番号－ＴＭＲ００３[CC.D814][NLINE]
 //　データ[CC.D814]不在[END-FE]
-[[Merklich]][NLINE]
+[[MainCharName]][NLINE]
  [CC.D814]Employee Number - TMR003[CC.D814][NLINE]
  Data [CC.D814]absent[END-FE]
 
@@ -2016,10 +2016,10 @@ problem.[END-FE]
 
 //POINTER #146 @ $7BE8 - STRING #146 @ $A8AB
 #W32($7BE8)
-//【[Merklich]】[NLINE]
+//【[MainCharName]】[NLINE]
 //　社員番号－ＴＭＲ００３[NLINE]
 //　データ不在[END-FE]
-[[Merklich]][NLINE]
+[[MainCharName]][NLINE]
  Employee Number - TMR003[NLINE]
  Data absent[END-FE]
 
@@ -2029,11 +2029,11 @@ problem.[END-FE]
 
 //POINTER #147 @ $7BEC - STRING #147 @ $A8DE
 #W32($7BEC)
-//【[Merklich]】[NLINE]
+//【[MainCharName]】[NLINE]
 //　社員番号－ＴＭＲ００３[NLINE]
 //　特務一課『赤狼隊』に転属。[NLINE]
 //　その他、登録事項なし。[END-FE]
-[[Merklich]][NLINE]
+[[MainCharName]][NLINE]
  Employee Number - TMR003[NLINE]
  Transfered to the "Red Wolf Unit".[NLINE]
  Other information non-existent.[END-FE]

@@ -12149,8 +12149,8 @@ Main Story Start[END-FE]
 
 //POINTER #977 @ $10E64 - STRING #977 @ $1C947
 #W32($10E64)
-//[Merklich]攻撃前[END-FE]
-[Merklich] before the attack[END-FE]
+//[MainCharName]攻撃前[END-FE]
+[MainCharName] before the attack[END-FE]
 
 
 
@@ -12158,8 +12158,8 @@ Main Story Start[END-FE]
 
 //POINTER #978 @ $10E68 - STRING #978 @ $1C954
 #W32($10E68)
-//[Merklich]攻撃後[END-FE]
-[Merklich] after the attack[END-FE]
+//[MainCharName]攻撃後[END-FE]
+[MainCharName] after the attack[END-FE]
 
 
 

@@ -7953,10 +7953,10 @@
 #W32($2880)
 //[CHAR1100][V1E00]
 //017_030勇者？[NLINE]
-//勇者って[Merklich]が？[END-FE]
+//勇者って[MainCharName]が？[END-FE]
 [CHAR1100][V1E00]
 017_030勇者？[NLINE]
-勇者って[Merklich]が？[END-FE]
+勇者って[MainCharName]が？[END-FE]
 
 
 
@@ -9931,11 +9931,11 @@
 //[CHAR3B00][V0800]
 //059_008ウェンディです。[NLINE]
 //それから、ルキアスと、[NLINE]
-//[Merklich]。[END-FE]
+//[MainCharName]。[END-FE]
 [CHAR3B00][V0800]
 059_008ウェンディです。[NLINE]
 それから、ルキアスと、[NLINE]
-[Merklich]。[END-FE]
+[MainCharName]。[END-FE]
 
 
 

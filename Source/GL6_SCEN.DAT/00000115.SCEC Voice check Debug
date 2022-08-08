@@ -2271,10 +2271,10 @@
 //POINTER #171 @ $17CC - STRING #171 @ $4675
 #W32($17CC)
 //[CHAR1300][V2D00]
-//019_045彼は[Merklich]。[NLINE]
+//019_045彼は[MainCharName]。[NLINE]
 //…無愛想な奴だけどね。[END-FE]
 [CHAR1300][V2D00]
-019_045彼は[Merklich]。[NLINE]
+019_045彼は[MainCharName]。[NLINE]
 …無愛想な奴だけどね。[END-FE]
 
 
@@ -4822,7 +4822,7 @@
 //
 //[CHAR1A00][V2900]
 //026_041なんだか彼女も[NLINE]
-//[Merklich]のことを[NLINE]
+//[MainCharName]のことを[NLINE]
 //知っているみたいだったし…。[NWIN]
 //
 //[CHAR1A00][V2A00]
@@ -4833,7 +4833,7 @@
 
 [CHAR1A00][V2900]
 026_041なんだか彼女も[NLINE]
-[Merklich]のことを[NLINE]
+[MainCharName]のことを[NLINE]
 知っているみたいだったし…。[NWIN]
 
 [CHAR1A00][V2A00]
@@ -5270,13 +5270,13 @@
 //POINTER #366 @ $1AD8 - STRING #366 @ $8714
 #W32($1AD8)
 //[CHAR1800][V1C00]
-//024_028…ねぇ、[Merklich]…。[NWIN]
+//024_028…ねぇ、[MainCharName]…。[NWIN]
 //
 //[CHAR1800][V1D00]
 //024_029会社が探している『ある物』って、[NLINE]
 //その龍玉の事じゃないかな？[END-FE]
 [CHAR1800][V1C00]
-024_028…ねぇ、[Merklich]…。[NWIN]
+024_028…ねぇ、[MainCharName]…。[NWIN]
 
 [CHAR1800][V1D00]
 024_029会社が探している『ある物』って、[NLINE]

@@ -1234,11 +1234,11 @@ Is this Lennox Research Facility?[END-FE]
 //ウェンディ\\
 //[CHAR5000][V0400]
 //そうよ。[NLINE]
-//私と[Merklich]が[NLINE]
+//私と[MainCharName]が[NLINE]
 //初めて出会ったところ。[END-FE]
 //Wendy\\
 [CHAR5000][V0400]
-Yes. This is where [Merklich][NLINE]
+Yes. This is where [MainCharName][NLINE]
 and I met.[END-FE]
 
 
@@ -1463,8 +1463,8 @@ that you can easily sneak in.[END-FE]
 //POINTER #110 @ $9458 - STRING #110 @ $AAAF
 #W32($9458)
 //・警備兵に気づかれずに、[NLINE]
-//　[Merklich]が研究所内へ入る[END-FE]
-・[Merklich] enters the facility without[NLINE]
+//　[MainCharName]が研究所内へ入る[END-FE]
+・[MainCharName] enters the facility without[NLINE]
  being seen by the guards[END-FE]
 
 
@@ -1473,11 +1473,11 @@ that you can easily sneak in.[END-FE]
 
 //POINTER #111 @ $945C - STRING #111 @ $AAE2
 #W32($945C)
-//・[Merklich]が敵に見つかる[NLINE]
+//・[MainCharName]が敵に見つかる[NLINE]
 //・ウェンディの死亡[NLINE]
 //・ルキアスの死亡[NLINE]
 //・警備兵５体の撃破[END-FE]
-・[Merklich] is discovered by the guards[NLINE]
+・[MainCharName] is discovered by the guards[NLINE]
 ・Wendy dies[NLINE]
 ・Rukias dies[NLINE]
 ・More than four guards are defeated[END-FE]
@@ -1928,9 +1928,9 @@ the same direction.[END-FE]
 //POINTER #144 @ $94E0 - STRING #144 @ $B19B
 #W32($94E0)
 //・パーティーメンバーの脱出後に[NLINE]
-//　[Merklich]が脱出する[NLINE]
+//　[MainCharName]が脱出する[NLINE]
 //　(全員同じ方向へ脱出すること)[END-FE]
-・[Merklich] escapes after other party[NLINE]
+・[MainCharName] escapes after other party[NLINE]
  members have escaped[NLINE]
  (All members must escape in[NLINE]
  same direction)[END-FE]
@@ -2035,10 +2035,10 @@ here.[END-FE]
 //POINTER #152 @ $9500 - STRING #152 @ $B2F9
 #W32($9500)
 //ウェンディ\\
-//おかえり、[Merklich]！[NLINE]
+//おかえり、[MainCharName]！[NLINE]
 //それじゃ、脱出しましょ！[END-FE]
 //Wendy\\
-Welcome back, [Merklich]![NLINE]
+Welcome back, [MainCharName]![NLINE]
 Let's get out of here![END-FE]
 
 
@@ -2139,9 +2139,9 @@ Forgive me.[END-FE]
 //POINTER #161 @ $9524 - STRING #161 @ $B3FC
 #W32($9524)
 //・パーティーメンバーの脱出後に[NLINE]
-//　[Merklich]が脱出する[NLINE]
+//　[MainCharName]が脱出する[NLINE]
 //　(全員同じ方向へ脱出すること)[END-FE]
-・[Merklich] escapes after other party[NLINE]
+・[MainCharName] escapes after other party[NLINE]
  members have escaped[NLINE]
  (All members must escape in[NLINE]
  same direction)[END-FE]
@@ -2201,8 +2201,8 @@ guards. Let's escape.[END-FE]
 
 //POINTER #166 @ $9538 - STRING #166 @ $B4F1
 #W32($9538)
-//・[Merklich]がマップ外に脱出する[END-FE]
-・[Merklich] escapes from the map[END-FE]
+//・[MainCharName]がマップ外に脱出する[END-FE]
+・[MainCharName] escapes from the map[END-FE]
 
 
 
@@ -2284,12 +2284,12 @@ him go![END-FE]
 #W32($9550)
 //・敵指揮官の撃破の後、[NLINE]
 //　パーティーメンバーの脱出後に[NLINE]
-//　[Merklich]が脱出する[NLINE]
+//　[MainCharName]が脱出する[NLINE]
 //　(全員同じ方向へ脱出すること)[END-FE]
 ・The other party members escape[NLINE]
  after the enemy commander has[NLINE]
  been defeated. Afterwards,[NLINE]
- [Merklich] escapes.[NLINE]
+ [MainCharName] escapes.[NLINE]
  (All members must escape in[NLINE]
  same direction)[END-FE]
 
@@ -3044,10 +3044,10 @@ Shall we return to Makinus?[END-FE]
 
 //POINTER #226 @ $9628 - STRING #226 @ $C147
 #W32($9628)
-//[Merklich]たちは、[NLINE]
+//[MainCharName]たちは、[NLINE]
 //マキナスへと戻った。[END-FE]
 //System Message\\
-[Merklich] and the others[NLINE]
+[MainCharName] and the others[NLINE]
 returned to Makinus.[END-FE]
 
 

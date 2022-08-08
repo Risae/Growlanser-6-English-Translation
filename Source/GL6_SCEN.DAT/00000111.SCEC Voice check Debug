@@ -734,10 +734,10 @@
 //POINTER #56 @ $1D00 - STRING #56 @ $33E5
 #W32($1D00)
 //[CHAR6E00][V1F00]
-//110_031[Merklich]に指令を出します。[NLINE]
+//110_031[MainCharName]に指令を出します。[NLINE]
 //巫女のサポートチームを選出しなさい。[END-FE]
 [CHAR6E00][V1F00]
-110_031[Merklich]に指令を出します。[NLINE]
+110_031[MainCharName]に指令を出します。[NLINE]
 巫女のサポートチームを選出しなさい。[END-FE]
 
 
@@ -1275,7 +1275,7 @@
 //
 //[CHAR2500][V0E00]
 //037_014そして彼と会うことは、[NLINE]
-//[Merklich]、[NLINE]
+//[MainCharName]、[NLINE]
 //アンタの記憶を取り戻すことに[NLINE]
 //なるかも知れない。[END-FE]
 [CHAR2500][V0D00]
@@ -1285,7 +1285,7 @@
 
 [CHAR2500][V0E00]
 037_014そして彼と会うことは、[NLINE]
-[Merklich]、[NLINE]
+[MainCharName]、[NLINE]
 アンタの記憶を取り戻すことに[NLINE]
 なるかも知れない。[END-FE]
 
@@ -2398,11 +2398,11 @@
 #W32($1ED4)
 //[CHAR5000][V0400]
 //080_004そうよ。[NLINE]
-//私と[Merklich]が[NLINE]
+//私と[MainCharName]が[NLINE]
 //初めて出会ったところ。[END-FE]
 [CHAR5000][V0400]
 080_004そうよ。[NLINE]
-私と[Merklich]が[NLINE]
+私と[MainCharName]が[NLINE]
 初めて出会ったところ。[END-FE]
 
 
@@ -6428,7 +6428,7 @@
 //良く見えないわ。[NWIN]
 //
 //[CHAR4A00][V1100]
-//074_017ねぇ、[Merklich]！[NLINE]
+//074_017ねぇ、[MainCharName]！[NLINE]
 //彼がベッケルか確認したいの！[NWIN]
 //
 //[CHAR4A00][V1200]
@@ -6443,7 +6443,7 @@
 良く見えないわ。[NWIN]
 
 [CHAR4A00][V1100]
-074_017ねぇ、[Merklich]！[NLINE]
+074_017ねぇ、[MainCharName]！[NLINE]
 彼がベッケルか確認したいの！[NWIN]
 
 [CHAR4A00][V1200]

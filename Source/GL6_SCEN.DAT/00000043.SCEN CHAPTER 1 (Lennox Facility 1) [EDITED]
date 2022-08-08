@@ -786,9 +786,9 @@ Merklich[END-FE]
 
 //POINTER #56 @ $5880 - STRING #56 @ $6804
 #W32($5880)
-//・『[Merklich]』[END-FE]
+//・『[MainCharName]』[END-FE]
 //System Message\\
-・[Merklich][END-FE]
+・[MainCharName][END-FE]
 
 
 
@@ -987,11 +987,11 @@ your Employee ID?[END-FE]
 #W32($58B8)
 //　　モノポリス社警備部特務二課[NLINE]
 //　　社員番号　ＴＭＲ００３[NLINE]
-//　　　　　　　[Merklich][END-FE]
+//　　　　　　　[MainCharName][END-FE]
 //System Message\\
 Monopolis Special Guard Corps, 2nd Division[NLINE]
       Employee Number: TMR003[NLINE]
-                 [COL01][Merklich][END-FE]
+                 [COL01][MainCharName][END-FE]
 
 
 
@@ -1847,12 +1847,12 @@ Nice to meet you![END-FE]
 //[CHAR0200][V0E00]
 //無愛想な人ね～。[NLINE]
 //まぁ、名札を見ればわかっちゃうけどね。[NLINE]
-//え～と、あなたは…[Merklich]か…。[END-FE]
+//え～と、あなたは…[MainCharName]か…。[END-FE]
 //Wendy\\
 [CHAR0200][V0E00]
 Not the friendly type? Well, I'll just[NLINE]
 have take a peek at your name tag, then.[NLINE]
-Hmm, seems your name is... [Merklich]?[END-FE]
+Hmm, seems your name is... [MainCharName]?[END-FE]
 
 
 
@@ -2111,10 +2111,10 @@ those terrorists![END-FE]
 
 //POINTER #142 @ $59D8 - STRING #142 @ $7E3E
 #W32($59D8)
-//・[Merklich]の死亡[NLINE]
+//・[MainCharName]の死亡[NLINE]
 //・ウェンディの死亡[END-FE]
 //Lose condition Message\\
-・[Merklich] dies[NLINE]
+・[MainCharName] dies[NLINE]
 ・Wendy dies[END-FE]
 
 
@@ -2532,7 +2532,7 @@ Nice to meet you.[END-FE]
 //それじゃ、勝手につけちゃうぞ？[NWIN]
 //
 //[CHAR0300][V1C00]
-//あなたの名前は…[Merklich]…！[NWIN]
+//あなたの名前は…[MainCharName]…！[NWIN]
 //
 //[CHAR0300][V1D00]
 //理由はないけど、[NLINE]
@@ -2543,7 +2543,7 @@ You won't tell me? Well, I'll[NLINE]
 just have to name you myself, then.[NWIN]
 
 [CHAR0300][V1C00]
-Your name is... [Merklich]![NWIN]
+Your name is... [MainCharName]![NWIN]
 
 [CHAR0300][V1D00]
 That name just popped in my mind[NLINE]
@@ -2849,12 +2849,12 @@ those terrorists![END-FE]
 //POINTER #192 @ $5AA0 - STRING #192 @ $89AF
 #W32($5AA0)
 //・爆弾を設置される[NLINE]
-//・[Merklich]の死亡[NLINE]
+//・[MainCharName]の死亡[NLINE]
 //・ウェンディの死亡[END-FE]
 //Lose condition message\\
 ・The terrorist successfully sets up[NLINE]
  the bomb[NLINE]
-・[Merklich] dies[NLINE]
+・[MainCharName] dies[NLINE]
 ・Wendy dies[END-FE]
 
 
@@ -3485,14 +3485,14 @@ conflict areas.[END-FE]
 #W32($5B50)
 //[CHARC900][V0400]
 //あのレノックス研究所襲撃から２日後[－][－][NLINE]
-//[Merklich]は[NLINE]
+//[MainCharName]は[NLINE]
 //モノポリス本社のある都市マキナスにて[NLINE]
 //周辺の警備任務にあたっていた。[END-FE]
 //System Message\\
 [CHARC900][V0400]
 Two days have passed since the attack[NLINE]
 on the Lenox Research Facility...[NLINE]
-[Merklich] has been assigned security duty[NLINE]
+[MainCharName] has been assigned security duty[NLINE]
 in the city of [COL01]Makinus[COL00], home[NLINE]
 to the Monopolis Headquarters.[END-FE]
 

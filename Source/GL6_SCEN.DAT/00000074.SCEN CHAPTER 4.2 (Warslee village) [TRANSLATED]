@@ -1011,11 +1011,11 @@ Let's go, Brave One![END-FE]
 #W32($545C)
 //[CHAR1100][V1E00]
 //勇者？[NLINE]
-//勇者って[Merklich]が？[END-FE]
+//勇者って[MainCharName]が？[END-FE]
 //Wendy\\
 [CHAR1100][V1E00]
 Brave One?[NLINE]
-[Merklich] is the Brave One?[END-FE]
+[MainCharName] is the Brave One?[END-FE]
 
 
 
@@ -1360,7 +1360,7 @@ it's quite easy.[END-FE]
 //[CHAR1100][V3B00]
 //それで、彼が予言の勇者だと。[END-FE]
 [CHAR1100][V3B00]
-So you really think [Merklich] is[NLINE]
+So you really think [MainCharName] is[NLINE]
 the Brave One mentioned in the prophecy?[END-FE]
 
 
@@ -1397,7 +1397,7 @@ Yurii became an ally![NLINE]
 
 //POINTER #101 @ $54B4 - STRING #101 @ $6E20
 #W32($54B4)
-//妖精ユリィは、[Merklich]を追従します。[NLINE]
+//妖精ユリィは、[MainCharName]を追従します。[NLINE]
 //ユリィは基本的に戦闘には参加しませんが、[NLINE]
 //今後、旅をする上で役に立つ能力を覚えます。[END-FE]
 Yurii the fairy will now serve you.[NLINE]
@@ -1765,7 +1765,7 @@ preparations, go talk to Miranda![END-FE]
 //POINTER #128 @ $5520 - STRING #128 @ $74D6
 #W32($5520)
 //ああ、ありがとうございます。[NLINE]
-//ユリィさんの勇者[Merklich]様。[NWIN]
+//ユリィさんの勇者[MainCharName]様。[NWIN]
 //
 //ギャリック様を救って頂いて[NLINE]
 //本当にありがとうございます。[NWIN]
@@ -1776,7 +1776,7 @@ preparations, go talk to Miranda![END-FE]
 //準備が出来ましたら、[NLINE]
 //ミランダに話しかけてくださいませ。[END-FE]
 Ah, thank you for all that you've[NLINE]
-done, Master [Merklich].[NWIN]
+done, Master [MainCharName].[NWIN]
 
 You have my eternal gratitude for[NLINE]
 saving Master Gaerik's life.[NWIN]

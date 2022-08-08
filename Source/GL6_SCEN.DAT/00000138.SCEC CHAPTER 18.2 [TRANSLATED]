@@ -39,14 +39,14 @@ Yes, how can I help you?[END-FE]
 //その頬の印…。[NWIN]
 //
 //ひょっとしてあなた、[NLINE]
-//[Merklich]さんでしょ！[NWIN]
+//[MainCharName]さんでしょ！[NWIN]
 //
 //へぇ～！[NLINE]
 //あなたがそうなんだ！[END-FE]
 Hmm?[NLINE]
 Those face tattoos...[NWIN]
 
-Could you be [Merklich]!?[NWIN]
+Could you be [MainCharName]!?[NWIN]
 
 Wow![NLINE]
 You really are him, aren't you!?[END-FE]
@@ -224,12 +224,12 @@ only the part related to you.[END-FE]
 //POINTER #9 @ $AC4 - STRING #9 @ $10DB
 #W32($AC4)
 //………と出会ったの。[NLINE]
-//彼は[Merklich]さんといって、[NLINE]
+//彼は[MainCharName]さんといって、[NLINE]
 //ちょっと言葉少なだけど、私に勇気をくれた人。[NLINE]
 //詳しいことは教えられないけれど、あることの[NLINE]
 //せいで、私は生きる望みをなくしていたわ。[NLINE]
 //だって、毎日が辛いことの連続だったから。[NLINE]
-//[Merklich]さんは私の中に[NLINE]
+//[MainCharName]さんは私の中に[NLINE]
 //まだ未来に望みをかける心があることを[NLINE]
 //気付かせてくれたわ。[NLINE]
 //それから、私は生きることに積極的になれた。[NWIN]
@@ -237,7 +237,7 @@ only the part related to you.[END-FE]
 //だけど、私を救ってくれた彼は時々とても[NLINE]
 //辛い顔をするの。[NLINE]
 //彼の検診の時、見てしまったんだけど、[NLINE]
-//[Merklich]さんは胸に大きな傷があるの。[NLINE]
+//[MainCharName]さんは胸に大きな傷があるの。[NLINE]
 //彼はそれを見ながら、とても悲しそうな…、[NLINE]
 //とても苦しそうな顔をしていたわ。[NLINE]
 //今の私には無理かも知れないけれど、[NLINE]
@@ -254,13 +254,13 @@ only the part related to you.[END-FE]
 //………………[NLINE]
 //………[END-FE]
 You met him?[NLINE]
-He's called [Merklich].[NLINE]
+He's called [MainCharName].[NLINE]
 He doesn't say much, but he's the one[NLINE]
 who gave me courage. I can't tell you[NLINE]
 the details, but because of a certain[NLINE]
 incident, I had lost the will to live.[NLINE]
 Everyday was a series of painful events.[NLINE]
-[Merklich] reminded me that I still had[NLINE]
+[MainCharName] reminded me that I still had[NLINE]
 hope for the future. Afterwards, I began[NLINE]
 to live more proactively.[NWIN]
 
@@ -366,9 +366,9 @@ go outside?[END-FE]
 
 //POINTER #14 @ $AD8 - STRING #14 @ $15E6
 #W32($AD8)
-//[Merklich]さんに[NLINE]
+//[MainCharName]さんに[NLINE]
 //連れてきてもらいました。[END-FE]
-[Merklich] took me with him.[END-FE]
+[MainCharName] took me with him.[END-FE]
 
 
 
@@ -818,11 +818,11 @@ her. Much appreciated![END-FE]
 //POINTER #45 @ $B54 - STRING #45 @ $1F31
 #W32($B54)
 //[CHAR2103][V0200]
-//[Merklich]さん、[NLINE]
+//[MainCharName]さん、[NLINE]
 //どうかしましたか？[END-FE]
 //Anita\\
 [CHAR2103][V0200]
-What's the matter, [Merklich]?[END-FE]
+What's the matter, [MainCharName]?[END-FE]
 
 
 
@@ -1047,11 +1047,11 @@ I'll keep that in mind and do my best.[END-FE]
 #W32($B84)
 //[CHAR2103][V1300]
 //今は一刻も早く世界をまとめましょう。[NLINE]
-//[Merklich]さん、お願いしますね。[END-FE]
+//[MainCharName]さん、お願いしますね。[END-FE]
 //Anita\\
 [CHAR2103][V1300]
 Let's unify the world as soon as possible.[NLINE]
-I'm counting on you, [Merklich].[END-FE]
+I'm counting on you, [MainCharName].[END-FE]
 
 
 
@@ -1059,9 +1059,9 @@ I'm counting on you, [Merklich].[END-FE]
 
 //POINTER #58 @ $B88 - STRING #58 @ $24D3
 #W32($B88)
-//[Merklich]さん、[NLINE]
+//[MainCharName]さん、[NLINE]
 //明日はお願いしますね。[END-FE]
-I'll see you tomorrow, [Merklich].[END-FE]
+I'll see you tomorrow, [MainCharName].[END-FE]
 
 
 

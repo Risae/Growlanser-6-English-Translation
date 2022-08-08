@@ -592,8 +592,8 @@ hurry![END-FE]
 
 //POINTER #45 @ $6DD4 - STRING #45 @ $782F
 #W32($6DD4)
-//・[Merklich]が山を登る[END-FE]
-・[Merklich] reaches the top of the mountain[END-FE]
+//・[MainCharName]が山を登る[END-FE]
+・[MainCharName] reaches the top of the mountain[END-FE]
 
 
 
@@ -891,8 +891,8 @@ Don't let them escape![END-FE]
 
 //POINTER #67 @ $6E2C - STRING #67 @ $7EFD
 #W32($6E2C)
-//・[Merklich]が山を登る[END-FE]
-・[Merklich] reaches the top of the mountain[END-FE]
+//・[MainCharName]が山を登る[END-FE]
+・[MainCharName] reaches the top of the mountain[END-FE]
 
 
 
@@ -1350,9 +1350,9 @@ of here, we'll be in trouble![END-FE]
 
 //POINTER #102 @ $6EB8 - STRING #102 @ $87BE
 #W32($6EB8)
-//・[Merklich]たちが[NLINE]
+//・[MainCharName]たちが[NLINE]
 //　下山を完了する[END-FE]
-・[Merklich] and the others reach the bottom of the mountain[END-FE]
+・[MainCharName] and the others reach the bottom of the mountain[END-FE]
 
 
 

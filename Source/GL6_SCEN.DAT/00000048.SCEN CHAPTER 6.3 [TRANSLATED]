@@ -2241,14 +2241,14 @@ attack.[END-FE]
 //POINTER #151 @ $68FC - STRING #151 @ $93B5
 #W32($68FC)
 //妖精ユリィを連れている…、[NLINE]
-//あなたが[Merklich]さんですね。[NWIN]
+//あなたが[MainCharName]さんですね。[NWIN]
 //
 //初めまして、[NLINE]
 //グランゲイル王国の[NLINE]
 //ルーファス大尉です。[END-FE]
 //Rufus\\
 Yurii is accompanying you...[NLINE]
-You're [Merklich], aren't you?[NWIN]
+You're [MainCharName], aren't you?[NWIN]
 
 Pleased to meet you. I'm[NLINE]
 Captain Rufus of Grangale[NLINE]

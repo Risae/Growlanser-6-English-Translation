@@ -613,8 +613,8 @@ Combat Macro Test.[END-FE]
 
 //POINTER #64 @ $91A0 - STRING #64 @ $A8EA
 #W32($91A0)
-//１－[COL01]主人公名[Merklich][END-FE]
-1-[COL01]Main character's name [Merklich][END-FE]
+//１－[COL01]主人公名[MainCharName][END-FE]
+1-[COL01]Main character's name [MainCharName][END-FE]
 
 
 
@@ -2310,8 +2310,8 @@ characters are also line break and ignored[NLINE]
 
 //POINTER #241 @ $9464 - STRING #241 @ $BCAB
 #W32($9464)
-//・[COL03][Merklich][END-FE]
-・[COL03][Merklich][END-FE]
+//・[COL03][MainCharName][END-FE]
+・[COL03][MainCharName][END-FE]
 
 
 
@@ -3045,8 +3045,8 @@ It's a problem statement[END-FE]
 
 //POINTER #322 @ $95A8 - STRING #322 @ $BF8B
 #W32($95A8)
-//１－[COL01]主人公名[Merklich][END-FE]
-１－[COL01]主人公名[Merklich][END-FE]
+//１－[COL01]主人公名[MainCharName][END-FE]
+１－[COL01]主人公名[MainCharName][END-FE]
 
 
 
@@ -5496,9 +5496,9 @@ Weaknesses color change - Wind[END-FE]
 
 //POINTER #587 @ $99CC - STRING #587 @ $D23C
 #W32($99CC)
-//主人公　[Merklich][NLINE]
+//主人公　[MainCharName][NLINE]
 //俺町　[Futon-Dog][END-FE]
-Hero: [Merklich][NLINE]
+Hero: [MainCharName][NLINE]
 Dog:　[Futon-Dog][END-FE]
 
 
@@ -5507,8 +5507,8 @@ Dog:　[Futon-Dog][END-FE]
 
 //POINTER #588 @ $99D0 - STRING #588 @ $D257
 #W32($99D0)
-//俺が[Merklich]様だ！[END-FE]
-I'm [Merklich]![END-FE]
+//俺が[MainCharName]様だ！[END-FE]
+I'm [MainCharName]![END-FE]
 
 
 

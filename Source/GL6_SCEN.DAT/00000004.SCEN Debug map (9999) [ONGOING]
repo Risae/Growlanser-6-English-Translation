@@ -1814,8 +1814,8 @@ I'm Korin[END-FE]
 
 //POINTER #196 @ $5630 - STRING #196 @ $6BC6
 #W32($5630)
-//[Merklich]です[END-FE]
-I'm [Merklich][END-FE]
+//[MainCharName]です[END-FE]
+I'm [MainCharName][END-FE]
 
 
 
@@ -1832,8 +1832,8 @@ Still Korin[END-FE]
 
 //POINTER #198 @ $5638 - STRING #198 @ $6BE2
 #W32($5638)
-//また[Merklich]です[END-FE]
-Still [Merklich][END-FE]
+//また[MainCharName]です[END-FE]
+Still [MainCharName][END-FE]
 
 
 
@@ -2498,8 +2498,8 @@ What will you do with Yurii?[END-FE]
 
 //POINTER #272 @ $5760 - STRING #272 @ $7132
 #W32($5760)
-//・追従者を[Merklich]にする[END-FE]
-・Follow [Merklich][END-FE]
+//・追従者を[MainCharName]にする[END-FE]
+・Follow [MainCharName][END-FE]
 
 
 
@@ -2597,8 +2597,8 @@ What will you do with Korin?[END-FE]
 
 //POINTER #283 @ $578C - STRING #283 @ $7201
 #W32($578C)
-//・追従者を[Merklich]にする[END-FE]
-・Follow [Merklich][END-FE]
+//・追従者を[MainCharName]にする[END-FE]
+・Follow [MainCharName][END-FE]
 
 
 

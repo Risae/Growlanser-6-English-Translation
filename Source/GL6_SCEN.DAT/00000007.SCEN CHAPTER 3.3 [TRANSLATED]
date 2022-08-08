@@ -2350,8 +2350,8 @@ here, we'll be discovered![END-FE]
 
 //POINTER #162 @ $BBA8 - STRING #162 @ $E7C4
 #W32($BBA8)
-//・[Merklich]がマップ東端から脱出[END-FE]
-・[Merklich] escapes from the eastern end[NLINE]
+//・[MainCharName]がマップ東端から脱出[END-FE]
+・[MainCharName] escapes from the eastern end[NLINE]
    of the map[END-FE]
 
 
@@ -2918,7 +2918,7 @@ Huh? That girl...[NWIN]
 //良く見えないわ。[NWIN]
 //
 //[CHAR4A00][V1100]
-//ねぇ、[Merklich]！[NLINE]
+//ねぇ、[MainCharName]！[NLINE]
 //彼がベッケルか確認したいの！[NWIN]
 //
 //[CHAR4A00][V1200]
@@ -2933,7 +2933,7 @@ No, it can't be...Beckel?[NWIN]
 But I can't make sure from this distance.[NWIN]
 
 [CHAR4A00][V1100]
-Hey, [Merklich]! I would like to confirm[NLINE]
+Hey, [MainCharName]! I would like to confirm[NLINE]
 whether or not that man is Beckel![NWIN]
 
 [CHAR4A00][V1200]
@@ -4951,7 +4951,7 @@ What is it, Wendy?[END-FE]
 [CHARCB00][V4400]
 It seems I feel the most comfortable[NLINE]
 when I'm fighting together with[NLINE]
-you, [Merklich].[END-FE]
+you, [MainCharName].[END-FE]
 
 
 
@@ -5613,9 +5613,9 @@ please retreat![END-FE]
 //POINTER #389 @ $BF34 - STRING #389 @ $11C95
 #W32($BF34)
 //・レジスタンスメンバー全員脱出後に[NLINE]
-//　[Merklich]が脱出する[END-FE]
+//　[MainCharName]が脱出する[END-FE]
 ・All resistance members escape,[NLINE]
- [Merklich] escapes last[END-FE]
+ [MainCharName] escapes last[END-FE]
 
 
 
@@ -5639,8 +5639,8 @@ out of here, too![END-FE]
 
 //POINTER #391 @ $BF3C - STRING #391 @ $11D1B
 #W32($BF3C)
-//・[Merklich]が南東へ脱出する[END-FE]
-・[Merklich] escapes to the southeast[END-FE]
+//・[MainCharName]が南東へ脱出する[END-FE]
+・[MainCharName] escapes to the southeast[END-FE]
 
 
 

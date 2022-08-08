@@ -389,10 +389,10 @@ Thank you![END-FE]
 
 //POINTER #23 @ $6FC - STRING #23 @ $FD1
 #W32($6FC)
-//ユリィと[Merklich]は[NLINE]
+//ユリィと[MainCharName]は[NLINE]
 //その本を読み始めた。[NLINE]
 //　[END-FE]
-Yurii and [Merklich] began[NLINE]
+Yurii and [MainCharName] began[NLINE]
 reading the book.[NLINE]
 [END-FE]
 

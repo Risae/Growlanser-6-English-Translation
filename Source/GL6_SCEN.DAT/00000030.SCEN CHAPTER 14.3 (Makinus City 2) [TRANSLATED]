@@ -323,9 +323,9 @@ who will accompany us.[END-FE]
 
 //POINTER #25 @ $5684 - STRING #25 @ $5D40
 #W32($5684)
-//[Merklich]とルキアスは[NLINE]
+//[MainCharName]とルキアスは[NLINE]
 //レイスタンの北東へ移動した。[END-FE]
-[Merklich] and Rukias went[NLINE]
+[MainCharName] and Rukias went[NLINE]
 northeast of Leystan.[END-FE]
 
 
@@ -1496,12 +1496,12 @@ We can prepare a room for you immediately.[NLINE]
 //POINTER #116 @ $57F0 - STRING #116 @ $72E3
 #W32($57F0)
 //[CHAR5900][V1300]
-//おはよう、[Merklich]。[NLINE]
+//おはよう、[MainCharName]。[NLINE]
 //ルキアスくんが[NLINE]
 //ホフマンさんをつれて帰ってきたって。[END-FE]
 //Wendy\\
 [CHAR5900][V1300]
-Good morning, [Merklich].[NLINE]
+Good morning, [MainCharName].[NLINE]
 Rukias has returned with Hofman.[END-FE]
 
 
@@ -1920,7 +1920,7 @@ It's finally time.[END-FE]
 //ここまで来て失敗は出来ませんから！[NWIN]
 //
 //[CHAR7000][V0B00]
-//…[Merklich]様を勇者として[NLINE]
+//…[MainCharName]様を勇者として[NLINE]
 //ここまでついてきましたが、[NLINE]
 //本当にうれしく思います。[NWIN]
 //
@@ -1933,7 +1933,7 @@ coming this far![NWIN]
 
 [CHAR7000][V0B00]
 ...I'm truly glad for being your[NLINE]
-companion, Master [Merklich].[NWIN]
+companion, Master [MainCharName].[NWIN]
 
 [CHAR7000][V0C00]
 Now, let's go-for the sake of[NLINE]

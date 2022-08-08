@@ -1741,9 +1741,9 @@ Villager Buster[END-FE]
 
 //POINTER #133 @ $8F34 - STRING #133 @ $AB06
 #W32($8F34)
-//闘技場で、[Merklich]のクラス名を[NLINE]
+//闘技場で、[MainCharName]のクラス名を[NLINE]
 //変えることが出来るようになりました。[END-FE]
-闘技場で、[Merklich]のクラス名を[NLINE]
+闘技場で、[MainCharName]のクラス名を[NLINE]
 変えることが出来るようになりました。[END-FE]
 
 

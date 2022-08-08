@@ -2976,14 +2976,14 @@ from his sleep.[END-FE]
 //POINTER #205 @ $94D4 - STRING #205 @ $D1BE
 #W32($94D4)
 //[CHAR4500][V4F00]
-//それじゃ[Merklich]に[NLINE]
+//それじゃ[MainCharName]に[NLINE]
 //以前の記憶がないって言うのは…。[NWIN]
 //
 //[CHAR4500][V5000]
 //無くしたんじゃなくて、[NLINE]
 //最初から無かったってこと？[END-FE]
 [CHAR4500][V4F00]
-So the fact that [Merklich] didn't have[NLINE]
+So the fact that [MainCharName] didn't have[NLINE]
 previous memories means that...[NWIN]
 
 [CHAR4500][V5000]
@@ -3687,9 +3687,9 @@ Let's escape as well![END-FE]
 //POINTER #267 @ $95CC - STRING #267 @ $DD26
 #W32($95CC)
 //・パーティーメンバー全員を脱出させ、[NLINE]
-//　最後に[Merklich]が脱出[END-FE]
+//　最後に[MainCharName]が脱出[END-FE]
 ・All party members escape.[NLINE]
- [Merklich] escapes last.[END-FE]
+ [MainCharName] escapes last.[END-FE]
 
 
 
@@ -3809,9 +3809,9 @@ been opened.[END-FE]
 //POINTER #279 @ $95FC - STRING #279 @ $DEC6
 #W32($95FC)
 //・パーティーメンバー全員を脱出させ、[NLINE]
-//　最後に[Merklich]が脱出[END-FE]
+//　最後に[MainCharName]が脱出[END-FE]
 ・All party members escape.[NLINE]
- [Merklich] escapes last.[END-FE]
+ [MainCharName] escapes last.[END-FE]
 
 
 

@@ -242,7 +242,7 @@ Why did you run off all of a sudden?[END-FE]
 //
 //[CHAR1A00][V2900]
 //なんだか彼女も[NLINE]
-//[Merklich]のことを[NLINE]
+//[MainCharName]のことを[NLINE]
 //知っているみたいだったし…。[NWIN]
 //
 //[CHAR1A00][V2A00]
@@ -252,7 +252,7 @@ That resistance woman from earlier...[NLINE]
 Do you know her?[NWIN]
 
 [CHAR1A00][V2900]
-Somehow, she also knew about [Merklich]...[NWIN]
+Somehow, she also knew about [MainCharName]...[NWIN]
 
 [CHAR1A00][V2A00]
 I'm pretty sure she called him "Brave Guard"...[END-FE]
@@ -1284,13 +1284,13 @@ the Admonisher... Damn![END-FE]
 //POINTER #107 @ $6ECC - STRING #107 @ $840A
 #W32($6ECC)
 //[CHAR1800][V1C00]
-//…ねぇ、[Merklich]…。[NWIN]
+//…ねぇ、[MainCharName]…。[NWIN]
 //
 //[CHAR1800][V1D00]
 //会社が探している『ある物』って、[NLINE]
 //その龍玉の事じゃないかな？[END-FE]
 [CHAR1800][V1C00]
-...Hey, [Merklich]...[NWIN]
+...Hey, [MainCharName]...[NWIN]
 
 [CHAR1800][V1D00]
 Could the thing that Monopolis is[NLINE]

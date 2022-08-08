@@ -1494,9 +1494,9 @@ Is that all right?[END-FE]
 
 //POINTER #144 @ $2560 - STRING #144 @ $3B60
 #W32($2560)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]守護勇士[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]守護勇士[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1536,9 +1536,9 @@ Is that all right?[END-FE]
 
 //POINTER #148 @ $2570 - STRING #148 @ $3C2A
 #W32($2570)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]モノポリス特別隊員[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]モノポリス特別隊員[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1578,9 +1578,9 @@ Is that all right?[END-FE]
 
 //POINTER #152 @ $2580 - STRING #152 @ $3CFA
 #W32($2580)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ポーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ポーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1620,9 +1620,9 @@ Is that all right?[END-FE]
 
 //POINTER #156 @ $2590 - STRING #156 @ $3DC8
 #W32($2590)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ルーク・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ルーク・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1662,9 +1662,9 @@ Is that all right?[END-FE]
 
 //POINTER #160 @ $25A0 - STRING #160 @ $3E98
 #W32($25A0)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ナイト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ナイト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1704,9 +1704,9 @@ Is that all right?[END-FE]
 
 //POINTER #164 @ $25B0 - STRING #164 @ $3F6C
 #W32($25B0)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ビショップ・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ビショップ・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1746,9 +1746,9 @@ Is that all right?[END-FE]
 
 //POINTER #168 @ $25C0 - STRING #168 @ $404A
 #W32($25C0)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ヤクト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ヤクト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1788,9 +1788,9 @@ Is that all right?[END-FE]
 
 //POINTER #172 @ $25D0 - STRING #172 @ $4122
 #W32($25D0)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]クイーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]クイーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1830,9 +1830,9 @@ Is that all right?[END-FE]
 
 //POINTER #176 @ $25E0 - STRING #176 @ $41F4
 #W32($25E0)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]村人バスター[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]村人バスター[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1872,9 +1872,9 @@ Is that all right?[END-FE]
 
 //POINTER #180 @ $25F0 - STRING #180 @ $42C0
 #W32($25F0)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ゲルバスター[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ゲルバスター[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1914,9 +1914,9 @@ Is that all right?[END-FE]
 
 //POINTER #184 @ $2600 - STRING #184 @ $4388
 #W32($2600)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]オレ様バスター[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]オレ様バスター[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -1956,9 +1956,9 @@ Is that all right?[END-FE]
 
 //POINTER #188 @ $2610 - STRING #188 @ $4464
 #W32($2610)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ガーディアンバスター[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ガーディアンバスター[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -2000,9 +2000,9 @@ Is that all right?[END-FE]
 
 //POINTER #192 @ $2620 - STRING #192 @ $4552
 #W32($2620)
-//[Merklich]のクラス名が[NLINE]
+//[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ダンジョンバスター[COL03]】[COL00]に変更された。[END-FE]
-[Merklich]のクラス名が[NLINE]
+[MainCharName]のクラス名が[NLINE]
 [COL03]【[COL00]ダンジョンバスター[COL03]】[COL00]に変更された。[END-FE]
 
 
@@ -2242,9 +2242,9 @@ Is that all right?[END-FE]
 
 //POINTER #210 @ $2668 - STRING #210 @ $4C5C
 #W32($2668)
-//やったな、[Merklich]！[NLINE]
+//やったな、[MainCharName]！[NLINE]
 //この調子でいこうぜ！[END-FE]
-やったな、[Merklich]！[NLINE]
+やったな、[MainCharName]！[NLINE]
 この調子でいこうぜ！[END-FE]
 
 
@@ -2408,9 +2408,9 @@ Is that all right?[END-FE]
 //POINTER #225 @ $26A4 - STRING #225 @ $4F53
 #W32($26A4)
 //すごい、すごい！[NLINE]
-//[Merklich]、さすがだね！[END-FE]
+//[MainCharName]、さすがだね！[END-FE]
 すごい、すごい！[NLINE]
-[Merklich]、さすがだね！[END-FE]
+[MainCharName]、さすがだね！[END-FE]
 
 
 
@@ -2439,10 +2439,10 @@ Is that all right?[END-FE]
 //POINTER #228 @ $26B0 - STRING #228 @ $4FB0
 #W32($26B0)
 //やるもんだな、[NLINE]
-//[Merklich]。[NLINE]
+//[MainCharName]。[NLINE]
 //見ていて、燃えたぜ。[END-FE]
 やるもんだな、[NLINE]
-[Merklich]。[NLINE]
+[MainCharName]。[NLINE]
 見ていて、燃えたぜ。[END-FE]
 
 
@@ -2504,10 +2504,10 @@ Is that all right?[END-FE]
 #W32($26C8)
 //お見事！[NLINE]
 //やるもんだな、[NLINE]
-//[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
 お見事！[NLINE]
 やるもんだな、[NLINE]
-[Merklich]！[END-FE]
+[MainCharName]！[END-FE]
 
 
 
@@ -2569,10 +2569,10 @@ Is that all right?[END-FE]
 //POINTER #240 @ $26E0 - STRING #240 @ $5180
 #W32($26E0)
 //おめでとう、[NLINE]
-//[Merklich]。[NLINE]
+//[MainCharName]。[NLINE]
 //見事な腕前だったよ。[END-FE]
 おめでとう、[NLINE]
-[Merklich]。[NLINE]
+[MainCharName]。[NLINE]
 見事な腕前だったよ。[END-FE]
 
 

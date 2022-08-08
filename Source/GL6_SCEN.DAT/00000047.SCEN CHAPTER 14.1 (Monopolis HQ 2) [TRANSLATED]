@@ -1816,8 +1816,8 @@ becoming a serious problem.[END-FE]
 
 //POINTER #131 @ $71AC - STRING #131 @ $9D4B
 #W32($71AC)
-//・[Merklich][END-FE]
-・[Merklich][END-FE]
+//・[MainCharName][END-FE]
+・[MainCharName][END-FE]
 
 
 
@@ -1879,11 +1879,11 @@ becoming a serious problem.[END-FE]
 
 //POINTER #138 @ $71C8 - STRING #138 @ $9DB4
 #W32($71C8)
-//【[Merklich]】[NLINE]
+//【[MainCharName]】[NLINE]
 //　社員番号－ＴＭＲ００３[NLINE]
 //　特務一課『赤狼隊』に転属。[NLINE]
 //　その他、登録事項なし。[END-FE]
-[[Merklich]][NLINE]
+[[MainCharName]][NLINE]
  Employee Number - TMR003[NLINE]
  Transfered to the "Red Wolf Unit".[NLINE]
  Other information non-existent.[END-FE]
@@ -3492,10 +3492,10 @@ Then we shall hurry for that.[END-FE]
 
 //POINTER #231 @ $733C - STRING #231 @ $C454
 #W32($733C)
-//…[Merklich]さん、[CC.FFFB][NLINE]
+//…[MainCharName]さん、[CC.FFFB][NLINE]
 //[CHAR5A00][V5000]
 //詳細はあなたにお願いします。[END-FE]
-...[Merklich],[CC.FFFB][NLINE]
+...[MainCharName],[CC.FFFB][NLINE]
 [CHAR5A00][V5000]
 I'll leave the details to you.[END-FE]
 
@@ -4448,7 +4448,7 @@ we explain.[END-FE]
 //では、早速出発しましょう。[NWIN]
 //
 //[CHAR6700][V4800]
-//[Merklich]さん、[NLINE]
+//[MainCharName]さん、[NLINE]
 //人選はあなたにお任せします。[END-FE]
 //Anita\\
 [CHAR6700][V4700]
@@ -4456,7 +4456,7 @@ Then let's depart immediately.[NWIN]
 
 [CHAR6700][V4800]
 I'll leave the team selection[NLINE]
-to you, [Merklich].[END-FE]
+to you, [MainCharName].[END-FE]
 
 
 
@@ -5000,7 +5000,7 @@ fight with us?[END-FE]
 //それは…。[NWIN]
 //
 //[CHAR5800][V1B00]
-//[Merklich]を見るのが辛いのです。[NLINE]
+//[MainCharName]を見るのが辛いのです。[NLINE]
 //あの人と同じ顔のあなたを…。[NWIN]
 //
 //[CHAR5800][V1C00]
@@ -5017,7 +5017,7 @@ fight with us?[END-FE]
 The truth is...[NWIN]
 
 [CHAR5800][V1B00]
-It's painful for me to look at [Merklich].[NLINE]
+It's painful for me to look at [MainCharName].[NLINE]
 He has the same face as him...[NWIN]
 
 [CHAR5800][V1C00]

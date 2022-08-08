@@ -1143,10 +1143,10 @@ Wendy[END-FF]
 //POINTER #88 @ $2000 - STRING #88 @ $3EB4
 #W32($2000)
 //[CHAR2103][V0200]
-//801_002[Merklich]さん、[NLINE]
+//801_002[MainCharName]さん、[NLINE]
 //どうかしましたか？[END-FE]
 [CHAR2103][V0200]
-801_002[Merklich]さん、[NLINE]
+801_002[MainCharName]さん、[NLINE]
 どうかしましたか？[END-FE]
 
 
@@ -1343,10 +1343,10 @@ Wendy[END-FF]
 #W32($2024)
 //[CHAR2103][V1300]
 //801_019今は一刻も早く世界をまとめましょう。[NLINE]
-//[Merklich]さん、お願いしますね。[END-FE]
+//[MainCharName]さん、お願いしますね。[END-FE]
 [CHAR2103][V1300]
 801_019今は一刻も早く世界をまとめましょう。[NLINE]
-[Merklich]さん、お願いしますね。[END-FE]
+[MainCharName]さん、お願いしますね。[END-FE]
 
 
 
@@ -10242,7 +10242,7 @@ Well, shall we go?[END-FE]
 //
 //[CHARCB00][V3B00]
 //203_059自信が湧いてきたよ。[NLINE]
-//[Merklich]、ありがとう。[END-FE]
+//[MainCharName]、ありがとう。[END-FE]
 [CHARCB00][V3900]
 203_057…私は、すぐにマクスウェル兄様が[NLINE]
 助かるかもしれないってわかったし。[NLINE]
@@ -10255,7 +10255,7 @@ Well, shall we go?[END-FE]
 
 [CHARCB00][V3B00]
 203_059自信が湧いてきたよ。[NLINE]
-[Merklich]、ありがとう。[END-FE]
+[MainCharName]、ありがとう。[END-FE]
 
 
 

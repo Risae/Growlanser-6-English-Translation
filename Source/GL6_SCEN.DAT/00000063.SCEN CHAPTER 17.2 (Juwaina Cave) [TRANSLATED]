@@ -320,9 +320,9 @@ side of the screen.[END-FE]
 #W32($4210)
 //・敵の全滅[NLINE]
 //・ポサヤを採取してランディ脱出[NLINE]
-//　[Merklich]も脱出[END-FE]
+//　[MainCharName]も脱出[END-FE]
 ・All enemies are defeated[NLINE]
-・Randall and [Merklich] both escape[NLINE]
+・Randall and [MainCharName] both escape[NLINE]
  after taking the Posaya[END-FE]
 
 

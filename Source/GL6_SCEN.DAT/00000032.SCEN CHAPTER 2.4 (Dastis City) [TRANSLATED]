@@ -7897,9 +7897,9 @@ Die![END-FE]
 
 //POINTER #649 @ $80C4 - STRING #649 @ $1010F
 #W32($80C4)
-//・[Merklich]の死亡[NLINE]
+//・[MainCharName]の死亡[NLINE]
 //・ウェンディの死亡[END-FE]
-・[Merklich] dies[NLINE]
+・[MainCharName] dies[NLINE]
 ・Wendy dies[END-FE]
 
 

@@ -1754,11 +1754,11 @@ you two also had an operation...[END-FE]
 //POINTER #135 @ $3EBC - STRING #135 @ $5D9F
 #W32($3EBC)
 //[CHAR5300][V0700]
-//それじゃ、私と[Merklich]には[NLINE]
+//それじゃ、私と[MainCharName]には[NLINE]
 //どんな手術が？[END-FE]
 [CHAR5300][V0700]
 What kind of operation did[NLINE]
-[Merklich] and I have?[END-FE]
+[MainCharName] and I have?[END-FE]
 
 
 
@@ -1772,7 +1772,7 @@ What kind of operation did[NLINE]
 //
 //[CHAR5300][V0900]
 //そこで、随行者を連れて行けるような技術を[NLINE]
-//[Merklich]さんを使って、[NLINE]
+//[MainCharName]さんを使って、[NLINE]
 //研究していました。[NWIN]
 //
 //[CHAR5300][V0A00]
@@ -1786,7 +1786,7 @@ one person to change history.[NWIN]
 
 [CHAR5300][V0900]
 That's why they researched a way[NLINE]
-for [Merklich] to be taken along[NLINE]
+for [MainCharName] to be taken along[NLINE]
 as a companion.[NWIN]
 
 [CHAR5300][V0A00]
