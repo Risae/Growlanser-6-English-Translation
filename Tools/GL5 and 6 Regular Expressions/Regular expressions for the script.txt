@@ -69,6 +69,11 @@ SPACEFWSPACE
 ^([^\/#\r\n])+[a-zA-Z][^]]$
 
 
+##### Finds [ missing in "[CC.XXXX]" ####
+
+[a-zA-Z0-9\!\?\.\,\(\)](CC\.)
+
+
 ##### Find string that is missing ., ,, !, ? before [NLINE], [NWIN] etc #####
 
 ^([^\/・\r\n])+[a-zA-Z](\[NLINE\])
