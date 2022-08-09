@@ -1068,11 +1068,11 @@ Location: 0x32C210
 
 Location: 0x32C218
 このアイテムは[00]
-Can't hold any[00]
+of this item.[00] (Original: "Can't hold any" - affected by the changes in 00000573.asm))
 
 Location: 0x32C230
 これ以上持てません[00]
-more of this item.[00]
+Can't hold any more[00] (Original: "more of this item." - affected by the changes in 00000573.asm)
 
 Location: 0x32C248
 %s[00]
@@ -1102,10 +1102,10 @@ Location: 0x32C288
 	.string "Price"
 
 .orga 0x32C218
-	.string "Can't hold any"
+	.string "of this item."
 
 .orga 0x32C230
-	.string "more of this item."
+	.string "Can't hold any more"
 
 .orga 0x32C250
 	.string "can't be equipped."
