@@ -4708,9 +4708,9 @@ members on the radar?[END-FE]
 //時間を止めて状況を確認するには、[NLINE]
 //何を操作すればよいか？[END-FE]
 //Shady Person\\
-How do you stop time and[NLINE]
-check the status of the[NLINE]
-Map?[END-FE]
+How do you stop time[NLINE]
+and check the status[NLINE]
+of the Map?[END-FE]
 
 
 
@@ -4720,7 +4720,7 @@ Map?[END-FE]
 #W32($1048C)
 //・[COL09]×[COL00]を押しながら方向キー[END-FE]
 //System Message\\
-・Press the directional pad while holding [CROSS][END-FE]
+・Press the directional pad while holding [CIRCLE][END-FE]
 
 
 
@@ -9449,7 +9449,7 @@ memorizing.[NWIN]
 
 After that, I will make an alteration[NLINE]
 to a single object in this room. Your[NLINE]
-obejective is to point out this object.[NWIN]
+objective is to point out this object.[NWIN]
 
 Well then, go ahead and take it all[NLINE]
 in.[END-FE]
@@ -9981,7 +9981,7 @@ Well then, let's go back outside.[END-FE]
 //マップ確認モードは、[CIRCLE]や[CROSS]等で終了します。[END-FE]
 Map Checking Mode is convenient for checking[NLINE]
 the status of the map.[NLINE]
-To end Map Checking Mode, press [CIRCLE] or [CROSS].[END-FE]
+To end Map Checking Mode, press [CROSS] or [CIRCLE].[END-FE]
 
 
 
