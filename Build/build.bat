@@ -139,6 +139,11 @@ copy /y "%GITHUBPATH%\Build\04-Original files\GL6_FILE DAT\00000596.mss" "%GITHU
 "%GITHUBPATH%\Build\01-armips-v0.11.0-windows-x86\armips.exe" 00000596.asm
 del "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000596.asm"
 
+copy /y "%GITHUBPATH%\Source\GL6_FILE.DAT\00000598.mss Teleport screen text box coord\00000598.asm" "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000598.asm"
+copy /y "%GITHUBPATH%\Build\04-Original files\GL6_FILE DAT\00000598.mss" "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000598.mss"
+"%GITHUBPATH%\Build\01-armips-v0.11.0-windows-x86\armips.exe" 00000598.asm
+del "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000598.asm"
+
 copy /y "%GITHUBPATH%\Source\GL6_FILE.DAT\00000803.dat Additional Plate info text\00000803.asm" "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000803.asm"
 copy /y "%GITHUBPATH%\Build\04-Original files\GL6_FILE DAT\00000803.dat" "%GITHUBPATH%\Build\05-build\GL6_FILE DAT\00000803.dat"
 "%GITHUBPATH%\Build\01-armips-v0.11.0-windows-x86\armips.exe" 00000803.asm
