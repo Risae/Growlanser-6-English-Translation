@@ -167,7 +167,7 @@ function first
     @@Loop:
     li        s5,VWFtable     ;Load VWFtable
     lbu       s6,(s4)
-    beq       s6,0xFF,@@FFDF  ;GOTO Control chars...
+    beq       s6,0xFF,@@ControlCodes  ;GOTO Control chars...
     nop        
     sltiu     s2,s6,0x0080
     bnez      s2,@@Adder      ;GOTO Add ASCII widths
@@ -177,13 +177,16 @@ function first
     b         @@Loop          
     nop
 
-    @@FFDF:
+    @@ControlCodes:
     addiu     s4,0x1
     lbu       s6,(s4)
-    bne       s6,0xDF,@@End   ;Reached EoL
-    nop
+    beq       s6,0xDF,@@Loop  ;Color tag
     addiu     s4,0x2
-    b         @@Loop
+    beq       s6,0xCE,@@Loop  ;Sound Bank tag
+    addiu     s4,0x3
+    beq       s6,0xCF,@@Loop  ;Sound Index tag
+    addiu     s4,0x3
+    b         @@End   ;Exit early on unknown tag
     nop
 
     @@Adder:
