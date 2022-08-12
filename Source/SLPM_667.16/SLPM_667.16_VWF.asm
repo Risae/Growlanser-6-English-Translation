@@ -7,6 +7,22 @@ SetTextColor equ 0x00151670
 SetTextScale equ 0x00151890
 DrawLetter equ 0x001522BC
 DrawTextAt equ 0x00151840
+printf equ 0x129798 ; Part of the full width numbers in enemies defeated string
+
+
+/*
+Fix for the full width numbers that are displayed when you kill more than 1 enemy at the same time.
+*/
+
+.org 0x2C7684
+move a0, v0
+li   a1, 0x42C0C0 ; address to "%d" string
+move a2, s3
+jal  printf
+nop
+b    0x2C7708
+nop
+
 
 /*
 Window width set part, is given in characters
