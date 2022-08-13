@@ -157,12 +157,15 @@ function first
 //that'd need investigation, too many branches
 .func CalculateSpace
     dmove     s1,v1
-    lbu       s2,0x17E(s0)
+    lbu       s2,0x1A8(s0)    ;line counter
     lw        s4,0x18C(s0)    ;Load line address into s4
-    beqz      s2,@@Loop
-    nop 
-    addiu     s4,0x02         ;Not the first line, add 2 chars to account for EoL (FFFC)
+    lbu       s2,(s4)
+    bne      s2,0xFF,@@loop
     nop
+    lbu       s2,0x1(s4)
+    bne       s2,0xFC,@@Loop   ;If first tag is a new line, skip 2 bytes
+    nop
+    addiu     s4,0x2
 
     @@Loop:
     li        s5,VWFtable     ;Load VWFtable
@@ -178,14 +181,13 @@ function first
     nop
 
     @@ControlCodes:
-    addiu     s4,0x1
-    lbu       s6,(s4)
-    beq       s6,0xDF,@@Loop  ;Color tag
-    addiu     s4,0x2
-    beq       s6,0xCE,@@Loop  ;Sound Bank tag
+    lbu       s6,0x01(s4)
+    beql      s6,0xDF,@@Loop  ;Color tag
     addiu     s4,0x3
-    beq       s6,0xCF,@@Loop  ;Sound Index tag
-    addiu     s4,0x3
+    beql      s6,0xCE,@@Loop  ;Sound Bank tag
+    addiu     s4,0x4
+    beql      s6,0xCF,@@Loop  ;Sound Index tag
+    addiu     s4,0x4
     b         @@End   ;Exit early on unknown tag
     nop
 
