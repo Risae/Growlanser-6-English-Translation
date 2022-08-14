@@ -402,5 +402,3 @@ del "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
 del "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
 del "%GITHUBPATH%\build\01-armips\SLPM_667.16"
 del "%GITHUBPATH%\build\01-armips\abcde.tbl"
-
-pause
