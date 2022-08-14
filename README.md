@@ -1,90 +1,26 @@
-Growlanser 6 English Translation blog: https://growlanser6english.blogspot.com/ <br />
-Growlanser 6 Discord: https://discord.gg/59Nw2U2 <br />
-Growlanserver Discord: https://discord.gg/uVh3XxRGtG <br />
+Growlanser 6 is the sequel to Growlanser 5 / Growlanser: Heritage of War. This repository provides a Work-In-Progress English Translation.
+
+To build the English Translation Patch you need:
+- The original Growlanser 6 game
+- A tool like [Xpert2](https://gbatemp.net/download/xpert2-xpert-tool.37071/) or [Apache2](https://www.psx-place.com/resources/apache-by-sonix-2004.697/) to dump the contents of the ISO
+
+To build the English Translation Patch from source by yourself, create a folder called `04-Original files` inside `build` and put all of the games `*.DAT` files inside it. Use [`build.bat`](/build/build.bat) to patch the original files. Once patched, you can use tools like Xpert2 to create a new ISO. Occasionally xDelta patches will be provided in the `Releases` page, which can be used to directly patch the ISO.
+
+Directory structure:
+
+    /source               project files of all native libraries and executables
+    /source/GL6_CHAR.DAT  currently just a placeholder
+    /source/GL6_FACE.DAT  translated tm2 image files
+    /source/GL6_FILE.DAT  translated and modified data files 
+    /source/GL6_MAP.DAT   currently just a placeholder
+    /source/GL6_MOV.DAT   translated ingame movie files
+    /source/GL6_SCEN.DAT  translated script files
+    /source/SLPM_667.16   translated and modified ELF
+    /build                script to patch the original game files
+    /tools                tools, scripts and various other things used in the translation of the game
+    /translation guide    translation guides and game manuals for the english translation
+
+Growlanser 6 English Translation Blog: https://growlanser6english.blogspot.com/ <br />
+Growlanser 6 English Translation Discord: https://discord.gg/59Nw2U2 <br />
 Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit
-
-<details> <summary>Build folder</summary>
-
-Batch that can compile all the translated repository files into the games .DATs and ELF. 
-In order to use the batch a folder named `04-Original files`, which hosts the original GL6s .DAT files, needs to exist.
-The following is a list of files that need to be imported into the .DATs:
-
-`GL_FACE.DAT`
-
-- `00000144.FACE` TIM2 title cards for Warslee, Rio Rey, PMB HQ
-	- `00000000.tm2`
-- `00000145.FACE` TIM2 title cards for Totuwa. Juwaina, Felmentia
-- `00000146.FACE` TIM2 title cards for Zaramba, Zerdok, Geilenach
-- `00000147.FACE` TIM2 title cards for Jaergen, XXX, Pothrad Village
-- `00000148.FACE` TIM2 title cards for Transgate Center, XXX, XXX
-- `00000149.FACE` TIM2 title cards for Makinus, Dastis, Dragonpit Tower
-	- `00000000.tm2`
-- `00000150.FACE` TIM2 title cards for Schizarz, Leystan, Jian Mountain. El Hingis, Hingistan
-- `00000151.FACE` TIM2 title cards for Jian Mountain, Fomeros, Royferon
-- `00000152.FACE` TIM2 title cards for XXX, Transgate Center, XXX
-
-`GL6_FILE.DAT`
-
-- `00000046.fnt` Latin Alphabet and Katakana IMPORTANT
-- `00000566.mss` Spell casting screen text box coord
-- `00000569.mss` Yurii Main Menu text box coord
-- `00000573.mss` Buying and Selling text box coord
-- `00000594.mss` Equipment change screen
-- `00000596.mss` Winning screen P to KP modification
-- `00000602.tm2` GL6 Icons
-- `00000604.tm2` Character Menu
-- `00000606.tm2` Mission complete screen
-- `00000608.tm2` Prologue stats screen
-- `00000611.tm2` Yurii Main Menu
-- `00000612.tm2` Friend rating screen
-- `00000647.tm2` Gem creating screen
-- `00000803.dat` Additional Plate info text
-- `00000806.dat` Yurii Attributes
-
-`GL6_MOV.DAT`
-
-- ?
-
-`GL6_SCEN.DAT`
-
-- Translated SCEN files
-- `00000001.SCEN.asm` Modified debug save room 
-- `00000043.SCEN.asm` Modified text boxes with voice lines 
-
-`SLPM_667.16`
-
-- `SLPM_667.16_translation.asm` Translation and other fixes for the ELF
-- `SLPM_667.16_VWF.asm` VWF for the game
-
-</details>
-
-<details> <summary>Source folder</summary>
-
-- `GL6_CHAR.DAT` contains character models
-- `GL6_FACE.DAT` contains image files
-- `GL6_FILE.DAT` contains image and various game files
-- `GL6_MAP.DAT` contains the map data
-- `GL6_MOV.DAT` contains the game cutscenes
-- `GL6_SCEN.DAT` contains the script files for Growlanser 6.
-- `SLPM_667.16` contains information on changes to the ELF of the game.
-
-Naming convention for `GL6_SCEN.DAT` script files:
-
-- `[ONGOING]` This file still needs to be fully translated
-- `[TRANSLATED]` This file has been translated and needs to be edited
-- `[EDITED]` This file has been translated and edited and needs to be proofread
-- `[PROOFREAD]` This file has been translated, edited and proofread
-
-</details>
-
-<details> <summary>Tools folder</summary>
-
-Contains various tools and scripts used in the Growlanser 6 translation.
-
-</details>
-
-<details> <summary>Translation Guide folder</summary>
-
-Contains Translation Guides and Manuals/Game Guides used in the Growlanser 6 translation.
-
-</details>
+Growlanserver Discord: https://discord.gg/uVh3XxRGtG <br />
