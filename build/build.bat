@@ -36,6 +36,9 @@ quickbms -w growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_FACE.DAT" "
 quickbms -w growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_FILE.DAT" "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT"
 quickbms -w growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_SCEN.DAT" "%GITHUBPATH%\build\05-original_files\GL6_SCEN DAT"
 
+:: Unpack the "*.FACE" files
+quickbms -w -d -F "*.FACE" growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT"
+
 
 :::: SLPM_667.16
 
@@ -69,11 +72,14 @@ rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
 xcopy "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\"
 
-:: Copy translated files to the build folder
+:: Change to the xdelta folder, create the file folder, execute the xdelta patches and save the resulting file in the created folder
+cd /d "%GITHUBPATH%\build\04-xdelta"
+
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE"
-copy /y "%GITHUBPATH%\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\TRANSLATED 00000000.tm2" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
+
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE"
-copy /y "%GITHUBPATH%\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\TRANSLATED 00000000.tm2" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
 
 :: Switch folder to quickbms and copy the growlanser.bms file to the folder
 cd /d "%GITHUBPATH%\build\02-quickbms\"
