@@ -1,0 +1,126 @@
+TileShop .xml files:
+
+Hi Risae,
+
+So I've looked at the GL5 files (GL6 looks the same) and the verdict is: "No, but kind of" regarding what I think is accurate viewing. I'm not sure how I would test accurate editing.
+Here's the result so far: https://i.imgur.com/VTrS8OJ.png
+I'll go through the steps necessary to get to the result for "GL5 ENG 0000002e.fnt".
+The offset at 0x8 of each font file contains the location of the palette (0x220). Scroll here and see that the palette is split between two sections. TileShop cannot support scattered palettes at the moment, so I copy/pasted the second half directly after the first half. The color format is RGBA32 and not BGR15 as I would have assumed. I also changed the alpha channel values from 0x80 to 0xFF. 0x80 is probably a game/format-specific transparency value that maps onto an alpha blend mode that is not 50% transparent.
+I mostly setup the included project through hand-editing the XML project files. Copy/pasting from single layout images is currently far from ideal and I've found some bugs in the process.
+If you try the project, make sure the project file (and included modified font) is in the root of the TileShop folder. I introduced a bug with directory-dependency of the schema validation in the current version.
+Thanks for the TIM2 links. I will look at them when I get some other features/bugs worked out.
+
+- Klarth
+
+
+
+###################
+
+
+
+Hi Klarth,
+
+so i took a look at your project.
+I was able to see the font just like you did.
+Now i tried to create a new project for the GL6 font using the .xml information from the GL5 .xml (see attachment).
+After that, i copied the 2nd palette information below the first just like you did with the GL5 (see attachment).
+But i only get a black screen looking at the picture.
+Do you know what i could have done wrong?
+Also, i have a few questions regarding TileShop:
+- Is it currently possible to re-import an exported graphics file? I saw that i could export the image of GL5 that was working as a .bmp file. Is it also possible to import a modified file?
+- When i edit the picture using the Pixel Editor, how do i save it to the original file?
+Thank you for helping us.
+
+
+
+###################
+
+
+
+Hi Risae,
+
+For the GL6 font provided, please know that getting the width correct is critically important. You cannot reuse the same width (and height) from other files. Luckily, the FNT file contains the width, height, palette offset, image data offset, etc as follows:
+0x8 - Palette offset (probably 4-byte)
+0xC - Image offset (probably 4-byte)
+0x1A - Image width (2-bytes)
+0x1C - Image height (2-bytes)
+I have included a revision to the GL6 project which includes one arranger at an incorrect height (768) and the other at a correct height (192). Without header information, you would need to open the font file directly in TileShop, change codecs, adjust width/height/file offset until you figure out the correct settings.
+For editing via TileShop:
+Importing is currently not supported, but will be supported soon. Importing has worked for quite some time in ImageMagitekConsole, but I would like to have a nicer solution for merging multi-palette images before rolling it into TileShop. I may not hold back for that though.
+There is a save button in the pixel editor's toolbar that saves changes directly to the file.
+I would suggest holding your editing for now, at least if you plan on using TileShop. I have an undo/redo feature for the pixel editor locally, but probably won't release a new version for another 2-3 days. You may also want to wait for importing as hand-editing a font with transparency aliasing using a very basic pixel editor is not a fun task.
+
+- Klarth
+
+
+
+###################
+
+
+
+GL 5:
+
+<?xml version="1.0" encoding="utf-8"?>
+<gdf version="0.8">
+	<project name="Growlanser">
+		<arranger name="GL5 ENG 0000002e" elementsx="1" elementsy="1" width="256" height="288" layout="single" color="indexed" defaultcodec="PSX 4bpp" defaultdatafile="/Growlanser/GL5 ENG 0000002e.fnt">
+			<element fileoffset="620" posx="0" posy="0" palette="/Growlanser/GL5 ENG 0000002e.CLUT.0" />
+		</arranger>
+		<palette name="GL5 ENG 0000002e.CLUT.0" fileoffset="220" datafile="/Growlanser/GL5 ENG 0000002e.fnt" color="RGBA32" entries="16" zeroindextransparent="false" />
+		<datafile name="GL5 ENG 0000002e.fnt" location="GL5 ENG 0000002e.fnt" />
+	</project>
+</gdf>
+
+
+###################
+
+GL 6:
+
+<?xml version="1.0" encoding="utf-8"?>
+<gdf version="0.8">
+	<project name="Growlanser">
+		<arranger name="GL6 JPN 0000002e 768" elementsx="1" elementsy="1" width="768" height="80" layout="single" color="indexed" defaultcodec="PSX 4bpp" defaultdatafile="/Growlanser/GL6 JPN 0000002e.fnt">
+			<element fileoffset="620" posx="0" posy="0" palette="/Growlanser/GL6 JPN 0000002e.CLUT.0" />
+		</arranger>
+		<arranger name="GL6 JPN 0000002e 192" elementsx="1" elementsy="1" width="192" height="320" layout="single" color="indexed" defaultcodec="PSX 4bpp" defaultdatafile="/Growlanser/GL6 JPN 0000002e.fnt">
+			<element fileoffset="620" posx="0" posy="0" palette="/Growlanser/GL6 JPN 0000002e.CLUT.0" />
+		</arranger>
+		<palette name="GL6 JPN 0000002e.CLUT.0" fileoffset="220" datafile="/Growlanser/GL6 JPN 0000002e.fnt" color="RGBA32" entries="16" zeroindextransparent="false" />
+		<datafile name="GL6 JPN 0000002e.fnt" location="GL6 JPN 0000002e.fnt" />
+	</project>
+</gdf>
+
+
+
+### TileMolester Settings: ###
+
+###### 2bpp ######
+
+Settings JPN:
+
+Codec: 2bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns 48, Rows 54
+
+
+Settings ENG:
+
+Codec: 2bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns 64, Rows 118
+
+
+###### 4bpp ######
+
+Settings JPN:
+
+Codec: 4bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns 24, Rows 42
+
+
+Settings ENG:
+
+Codec: 4bpp linear, reverse order
+Mode: 2 dimensional
+Stretch: Columns 32, Rows 80
