@@ -8,7 +8,7 @@ To build the English Translation Patch from source by yourself, create a folder 
 
 Directory structure:
 
-    /source               project files of all native libraries and executables
+    /source               directory which contains all translated files
     /source/GL6_CHAR.DAT  currently just a placeholder
     /source/GL6_FACE.DAT  translated tm2 image files
     /source/GL6_FILE.DAT  translated and modified data files 
