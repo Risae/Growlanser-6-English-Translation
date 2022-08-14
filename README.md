@@ -8,17 +8,17 @@ To build the English Translation Patch from source by yourself, create a folder 
 
 Directory structure:
 
-    /source               directory which contains all translated files
-    /source/GL6_CHAR.DAT  currently just a placeholder
-    /source/GL6_FACE.DAT  translated tm2 image files
-    /source/GL6_FILE.DAT  translated and modified data files 
-    /source/GL6_MAP.DAT   currently just a placeholder
-    /source/GL6_MOV.DAT   translated ingame movie files
-    /source/GL6_SCEN.DAT  translated script files
-    /source/SLPM_667.16   translated and modified ELF
-    /build                script and tools needed to patch the original game files
-    /tools                tools, scripts and various other things used in the translation of the game
-    /translation guide    translation guides and game manuals for the english translation
+    /source                  directory which contains all translated files
+    /source/GL6_CHAR.DAT     currently just a placeholder
+    /source/GL6_FACE.DAT     translated tm2 image files
+    /source/GL6_FILE.DAT     translated and modified data files 
+    /source/GL6_MAP.DAT      currently just a placeholder
+    /source/GL6_MOV.DAT      translated ingame movie files
+    /source/GL6_SCEN.DAT     translated script files
+    /source/SLPM_667.16      translated and modified ELF
+    /build                   script and tools needed to patch the original game files
+    /tools                   tools, scripts and various other things used in the translation of the game
+    /translation guide       translation guides and game manuals for the english translation
 
 Growlanser 6 English Translation Blog: https://growlanser6english.blogspot.com/ <br />
 Growlanser 6 English Translation Discord: https://discord.gg/59Nw2U2 <br />
