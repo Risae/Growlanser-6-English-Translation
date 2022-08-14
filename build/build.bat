@@ -53,7 +53,7 @@ copy /y "%GITHUBPATH%\build\05-original_files\SLPM_667.16" "%GITHUBPATH%\build\0
 copy /y "%GITHUBPATH%\tools\GL5 and 6 abcde scripts\abcde.tbl" "%GITHUBPATH%\build\01-armips\abcde.tbl"
 
 :: Switch to the armips folder and start the armips script
-cd /d "%GITHUBPATH%\build\01-armips-v0.11.0-windows-x86"
+cd /d "%GITHUBPATH%\build\01-armips\"
 armips.exe SLPM_667.16_translation.asm
 armips.exe SLPM_667.16_VWF.asm
 
@@ -73,7 +73,7 @@ mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
 xcopy "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\"
 
 :: Change to the xdelta folder, create the file folder, execute the xdelta patches and save the resulting file in the created folder
-cd /d "%GITHUBPATH%\build\04-xdelta"
+cd /d "%GITHUBPATH%\build\04-xdelta\"
 
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE"
 xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
@@ -108,7 +108,7 @@ rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
 mkdir "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
 
 :: Change to the xdelta folder, execute the xdelta patches and save the resulting file in the build folder
-cd /d "%GITHUBPATH%\build\04-xdelta"
+cd /d "%GITHUBPATH%\build\04-xdelta\"
 xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000046.fnt" "%GITHUBPATH%\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000046.fnt"
 xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000602.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000602.tm2"
 xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000604.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000604.tm2"
@@ -402,3 +402,5 @@ del "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
 del "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
 del "%GITHUBPATH%\build\01-armips\SLPM_667.16"
 del "%GITHUBPATH%\build\01-armips\abcde.tbl"
+
+pause
