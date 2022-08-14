@@ -1,0 +1,8156 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $9270, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $88A0, 4, PTR)
+
+#JMP($9270)
+#HDR($9270)
+
+
+
+
+
+
+//POINTER #0 @ $88A0 - STRING #0 @ $9270
+#W32($88A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $88A4 - STRING #1 @ $9273
+#W32($88A4)
+//ペケ[END-FF]
+Ellon[END-FF]
+
+
+
+
+
+//POINTER #2 @ $88A8 - STRING #2 @ $927A
+#W32($88A8)
+//ニシキ[END-FF]
+Tarran[END-FF]
+
+
+
+
+
+//POINTER #3 @ $88AC - STRING #3 @ $9283
+#W32($88AC)
+//テツ[END-FF]
+Masonite[END-FF]
+
+
+
+
+
+//POINTER #4 @ $88B0 - STRING #4 @ $928A
+#W32($88B0)
+//タマ[END-FF]
+Liana[END-FF]
+
+
+
+
+
+//POINTER #5 @ $88B4 - STRING #5 @ $9291
+#W32($88B4)
+//モモ[END-FF]
+Soleil[END-FF]
+
+
+
+
+
+//POINTER #6 @ $88B8 - STRING #6 @ $9298
+#W32($88B8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #7 @ $88BC - STRING #7 @ $92A5
+#W32($88BC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $88C0 - STRING #8 @ $92CA
+#W32($88C0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $88C4 - STRING #9 @ $92EF
+#W32($88C4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $88C8 - STRING #10 @ $9304
+#W32($88C8)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #11 @ $88CC - STRING #11 @ $9329
+#W32($88CC)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #12 @ $88D0 - STRING #12 @ $934E
+#W32($88D0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $88D4 - STRING #13 @ $9383
+#W32($88D4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $88D8 - STRING #14 @ $93B8
+#W32($88D8)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $88DC - STRING #15 @ $93DD
+#W32($88DC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #16 @ $88E0 - STRING #16 @ $9402
+#W32($88E0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #17 @ $88E4 - STRING #17 @ $9427
+#W32($88E4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #18 @ $88E8 - STRING #18 @ $943C
+#W32($88E8)
+//す、スゴいよ！[NLINE]
+//まさかペケちゃんを破るなんて！[NLINE]
+//おめでとうね、[Futon-Dog]。[END-FE]
+B-bewdy[NLINE]
+To think ya could beat Ellon![NLINE]
+Goon on ya, [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #19 @ $88EC - STRING #19 @ $9483
+#W32($88EC)
+//残念だったね。[NLINE]
+//まぁ、気を落とさないでね。[END-FE]
+Too bad.[NLINE]
+Well, don't be discouraged, mate.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $88F0 - STRING #20 @ $94B0
+#W32($88F0)
+//コンテストご苦労さま！[END-FE]
+Much obliged for participatin' in[NLINE]
+the contest![END-FE]
+
+
+
+
+
+//POINTER #21 @ $88F4 - STRING #21 @ $94C9
+#W32($88F4)
+//君が見つけた玉は[CC.EF17]個だから、[NLINE]
+//その分ラナの種をあげるね。[END-FE]
+Ya found [CC.EF17] balls.[NLINE]
+I'll give ya one Rana Seed for each.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $88F8 - STRING #22 @ $9505
+#W32($88F8)
+//ちゃんとふとん犬を守ってあげないと、[NLINE]
+//ダメじゃないか！[END-FE]
+You can't leave your Futon Dog[NLINE]
+unprotected![END-FE]
+
+
+
+
+
+//POINTER #23 @ $88FC - STRING #23 @ $953E
+#W32($88FC)
+//ハゼゴロウさんから受けていた仕事だけど、[NLINE]
+//続けられそうになかったので[NLINE]
+//キャンセルしておいたよ。[END-FE]
+I canceled the job you received[NLINE]
+from Dr. Irving because you[NLINE]
+didn't seem able to continue.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $8900 - STRING #24 @ $959F
+#W32($8900)
+//今度はふとん犬から目を離さずに[NLINE]
+//散歩するんだぞ。[END-FE]
+This time keep an eye on your[NLINE]
+Futon Dog while you take a walk.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $8904 - STRING #25 @ $95D2
+#W32($8904)
+//[CHAR1B00][V0000]
+//ここがトトゥア村です。[NWIN]
+//
+//[CHAR1B00][V0100]
+//フェルメンティアまでは[NLINE]
+//まだかなりありますから、[NLINE]
+//ゆっくり疲れをとられると良いでしょう。[END-FE]
+[CHAR1B00][V0000]
+This is Totuwa village.[NWIN]
+
+[CHAR1B00][V0100]
+It's still fairly long until[NLINE]
+Felmentia, so it would be a good[NLINE]
+idea to rest here.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $8908 - STRING #26 @ $9655
+#W32($8908)
+//[CHAR1B00][V0200]
+//ここがトトゥア村です。[NLINE]
+//ゆっくり疲れをとられると良いでしょう。[END-FE]
+[CHAR1B00][V0200]
+This is Totuwa village.[NLINE]
+It would be a good idea to take a[NLINE]
+rest here.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $890C - STRING #27 @ $969E
+#W32($890C)
+//[CHAR1B00][V0300]
+//何もないところだな。[NLINE]
+//何か変わった物とかないのか？[END-FE]
+[CHAR1B00][V0300]
+What an empty place.[NLINE]
+Did something happen?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $8910 - STRING #28 @ $96DB
+#W32($8910)
+//[CHAR1B00][V0400]
+//そうですね…。[NLINE]
+//私も知り合いがいる程度で[NLINE]
+//詳しくは…。[END-FE]
+[CHAR1B00][V0400]
+You're right...[NLINE]
+I only have an acquaintance living here,[NLINE]
+so I don't know the details...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $8914 - STRING #29 @ $971C
+#W32($8914)
+//[CHAR1B00][V0500]
+//知り合い？[END-FE]
+[CHAR1B00][V0500]
+Acquaintance?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $8918 - STRING #30 @ $9731
+#W32($8918)
+//[CHAR1B00][V0600]
+//はい。[NLINE]
+//ミランダという妖精ですが、[NLINE]
+//宿にいると思います。[END-FE]
+[CHAR1B00][V0600]
+Yes.[NLINE]
+A fairy named Mira. I think she[NLINE]
+is at the inn.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $891C - STRING #31 @ $9774
+#W32($891C)
+//ここがトトゥア村です。[NLINE]
+//ミランダは宿にいると思います。[END-FE]
+This is Totuwa Village.[NLINE]
+I think Miranda is at the inn.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $8920 - STRING #32 @ $97AD
+#W32($8920)
+//[Futon-Dog]とそのブリーダーさん、[NLINE]
+//優勝おめでとう！[NWIN]
+//
+//これは優勝の賞品ね！[END-FE]
+Congratulations to [Futon-Dog][NLINE]
+and its raiser for winning![NLINE]
+
+This is your price![END-FE]
+
+
+
+
+
+//POINTER #33 @ $8924 - STRING #33 @ $97F2
+#W32($8924)
+//あら？[NLINE]
+//どうやら持てないみたいね。[NWIN]
+//
+//ラナの袋に入れておくから、[NLINE]
+//自分で取り出してね。[END-FE]
+Hmm?[NLINE]
+It seems you can't hold any more.[NWIN]
+
+I'll put it in your Rana Bag so that[NLINE]
+you can take it out when you have[NLINE]
+room again[END-FE]
+
+
+
+
+
+//POINTER #34 @ $8928 - STRING #34 @ $9849
+#W32($8928)
+//これ以上[COL01]ラナの袋[COL00]に入らない！[END-FE]
+Your [COL01]Rana Bag[COL00] is full![END-FE]
+
+
+
+
+
+//POINTER #35 @ $892C - STRING #35 @ $986E
+#W32($892C)
+//それと優勝のお祝いに[NLINE]
+//ポイントをあげるね。[END-FE]
+I'll also give you points to celebrate[NLINE]
+your victory.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $8930 - STRING #36 @ $989B
+#W32($8930)
+//サービスポイントが[NLINE]
+//２０ポイント加算された。[END-FE]
+You received 20 Service Points.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $8934 - STRING #37 @ $98CA
+#W32($8934)
+//あのさぁ、私ってダンスコンテストを[NLINE]
+//ずっと観戦してるでしょ。[END-FE]
+I've been watching the Dance[NLINE]
+Contest for a long time.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $8938 - STRING #38 @ $9909
+#W32($8938)
+//それでチェックちゃんのダンスを[NLINE]
+//覚えちゃったんだけど、[NLINE]
+//どんなダンスか知りたくない？[END-FE]
+I remembered a dance sweet, little[NLINE]
+Check did once. Do you know what[NLINE]
+to know what kind of dance it is?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $893C - STRING #39 @ $9960
+#W32($893C)
+//よし！[NLINE]
+//特別に教えてあげよう！[END-FE]
+Alright, then I will teach[NLINE]
+you![END-FE]
+
+
+
+
+
+//POINTER #40 @ $8940 - STRING #40 @ $9981
+#W32($8940)
+//　[NLINE]
+//[Futon-Dog]はチェックダンスを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned Check Dance![END-FE]
+
+
+
+
+
+//POINTER #41 @ $8944 - STRING #41 @ $99A6
+#W32($8944)
+//わ～、物覚えが良いね[NLINE]
+//[Futon-Dog]は。[NWIN]
+//
+//このダンスはどの音楽にも合うみたいだよ。[NLINE]
+//でも、その分体力の消費が激しいみたい。[NLINE]
+//ここぞって時に踊ってね。[END-FE]
+Wow! [Futon-Dog] has such[NLINE]
+a good memory![NWIN]
+
+This dance seems to go well with any[NLINE]
+music piece. However, it consumes a[NLINE]
+lot of physical strength. Save it[NLINE]
+for a critical moment.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $8948 - STRING #42 @ $9A33
+#W32($8948)
+//そっか。[NLINE]
+//せっかく覚えたのに、残念…。[END-FE]
+I see, that's a shame.[NLINE]
+Even though I went through all[NLINE]
+that trouble of remembering it...[END-FE]
+
+
+
+
+
+//POINTER #43 @ $894C - STRING #43 @ $9A5C
+#W32($894C)
+//次も優勝目指してがんばってね。[END-FE]
+Do your best to win the contest[NLINE]
+next time.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $8950 - STRING #44 @ $9A7D
+#W32($8950)
+//これ以上[COL01]ラナの袋[COL00]に入らない！[END-FE]
+Your [COL01]Rana Bag[COL00] is full![END-FE]
+
+
+
+
+
+//POINTER #45 @ $8954 - STRING #45 @ $9AA2
+#W32($8954)
+//[Futon-Dog]とそのブリーダーさん、[NLINE]
+//準優勝おめでとう！[NWIN]
+//
+//これは準優勝の賞品ね！[END-FE]
+Congratulations to [Futon-Dog][NLINE]
+and its raiser for winning![NLINE]
+
+
+This is your price![END-FE]
+
+
+
+
+
+//POINTER #46 @ $8958 - STRING #46 @ $9AEB
+#W32($8958)
+//あら？[NLINE]
+//どうやら持てないみたいだね。[NWIN]
+//
+//残りはラナの袋に入れておくから、[NLINE]
+//自分で取り出してね。[END-FE]
+Hmm?[NLINE]
+It seems you can't hold any more.[NWIN]
+
+I'll put it in your Rana Bag so that[NLINE]
+you can take it out when you have[NLINE]
+room again[END-FE]
+
+
+
+
+
+//POINTER #47 @ $895C - STRING #47 @ $9B4A
+#W32($895C)
+//次は優勝目指してがんばってね。[END-FE]
+Do your best to win the contest[NLINE]
+next time.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $8960 - STRING #48 @ $9B6B
+#W32($8960)
+//まさか、全てのコンテストで[NLINE]
+//優勝してしまうとは…。[NWIN]
+//
+//君たちのブリーダーとしての実力が[NLINE]
+//ここまでとは…。[END-FE]
+Strewth, I can't believe[NLINE]
+ya won all o' the contest...[NWIN]
+
+I didn't think yoah aboilitees[NLINE]
+as raisers had grown this much...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $8964 - STRING #49 @ $9BD4
+#W32($8964)
+//ハゼゴロウさん、[NLINE]
+//どうかなさいましたか？[END-FE]
+What's the matter, Mr. Irving?[END-FE]
+
+
+
+
+
+//POINTER #50 @ $8968 - STRING #50 @ $9BFF
+#W32($8968)
+//私以外にここまで[NLINE]
+//ふとん犬のポテンシャルを[NLINE]
+//引き出す者が現れようとは。[NWIN]
+//
+//君にブリーダーを勧めた[NLINE]
+//私の目に狂いはなかったよ。[NWIN]
+//
+//…どうだろう？[NLINE]
+//私が育てた最高のふとん犬と[NLINE]
+//対戦してみたくはないかね？[END-FE]
+I nevah would have thought[NLINE]
+another raiser would appear[NLINE]
+who could draw out the potential[NLINE]
+of Futon Dogs like I 'ave.[NWIN]
+
+Me eyes were not deceivin' me[NLINE]
+when I saw the raiser potential[NLINE]
+in ya.[NWIN]
+
+...What do ya say, mate?[NLINE]
+How about me doggie and yours[NLINE]
+'ave a one-on-one?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $896C - STRING #51 @ $9CC4
+#W32($896C)
+//結構。[NWIN]
+//
+//では、競う内容だが、[NLINE]
+//シンプルにふとん犬の力を競う[NLINE]
+//闘犬対決と行こう。[NWIN]
+//
+//それではいつも通り、[NLINE]
+//申し込みをしてくれ。[NLINE]
+//今回は特別なイベントだ。[NWIN]
+//
+//参加費用なんてケチな事は言わないよ。[NLINE]
+//いつでも挑戦しに来てくれ。[END-FE]
+Bonzer![NWIN]
+
+Alroight, the contest is simple:[NLINE]
+we will let our doggies foight to[NLINE]
+see which one is strawngest![NWIN]
+
+Please apply as usual.[NLINE]
+It's a special event.[NWIN]
+
+Just so ya know, the participation fee[NLINE]
+ain't cheap. Come challenge Ellon anytoime.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $8970 - STRING #52 @ $9D9D
+#W32($8970)
+//そうか。[NWIN]
+//
+//挑戦したくなったらいつでも言ってくれ。[NLINE]
+//私たちはいつでも君たちの挑戦を受けよう。[END-FE]
+Roight.[NWIN]
+
+Whenever yaw ready to challenge Ellon,[NLINE]
+just give me a shout. We will always accept[NLINE]
+yoah challenge.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $8974 - STRING #53 @ $9DFA
+#W32($8974)
+//…ねぇ、すっごく気になっていたんだけど、[NLINE]
+//そのふとん犬のふとんの下って、[NLINE]
+//どうなっているのかな？[NWIN]
+//
+//[CH.FACE:Laughing]
+//ちょっと見せてくれないかな？[END-FE]
+...Hey, there's something that[NLINE]
+really got me curious...[NLINE]
+What's going on underneath[NLINE]
+that dog's futon?[NWIN]
+
+[CH.FACE:Laughing]
+How about you take a little peek?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $8978 - STRING #54 @ $9E7F
+#W32($8978)
+//…ふとんに見えるかも知れませんが、[NLINE]
+//これはふとん犬の身体の一部です。[NWIN]
+//
+//ウェンディさんは[NLINE]
+//それを取れと言われるのですか？[END-FE]
+...It may look like an ordinary futon,[NLINE]
+but it's actually part of its body.[NWIN]
+
+Did Wendy put you up to this?[END-FE]
+
+
+
+
+
+
+//POINTER #55 @ $897C - STRING #55 @ $9EF8
+#W32($897C)
+//えっ！[NWIN]
+//
+//…そう言えばそうだね。[NWIN]
+//
+//ごめん、ふとんを被っているだけの[NLINE]
+//犬に見えて。[NWIN]
+//
+//そうか、ふとん犬のふとんって、[NLINE]
+//毛皮なんだよね。[NWIN]
+//
+//そう考えると、ふとんの下なんて[NLINE]
+//ないってことか。[END-FE]
+What!?[NWIN]
+
+...Yeah, I did.[NWIN]
+
+I'm sorry, that dog just looked to[NLINE]
+me like it was covered by a futon.[NWIN]
+
+I get it now. So the futon is actually[NLINE]
+its fur, huh?[NWIN]
+
+So does that mean there's nothing under[NLINE]
+the futon?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $8980 - STRING #56 @ $9FAD
+#W32($8980)
+//そうではないかと。[END-FE]
+I believe so, yes.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $8984 - STRING #57 @ $9FC2
+#W32($8984)
+//そうか。[NWIN]
+//
+//変わっているけど、[NLINE]
+//犬と、ふとんの取り合わせって[NLINE]
+//可愛いよね。[NLINE]
+//私もファンになっちゃいそうだよ。[END-FE]
+I see.[NWIN]
+
+It's weird but the combination[NLINE]
+between dog and futon is jus so cute.[NLINE]
+It seems I've become a fan, too.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $8988 - STRING #58 @ $A02F
+#W32($8988)
+//ですよね！[END-FE]
+I know, right?[END-FE]
+
+
+
+
+
+//POINTER #59 @ $898C - STRING #59 @ $A03C
+#W32($898C)
+//散歩、楽しんで来てね。[END-FE]
+Enjoy your walk![END-FE]
+
+
+
+
+
+//POINTER #60 @ $8990 - STRING #60 @ $A055
+#W32($8990)
+//そんなケッタイな犬、[NLINE]
+//可愛いものかね。[NLINE]
+//オレには理解できないぜ。[END-FE]
+How could a weird dog like this[NLINE]
+be so cute? I don't get it.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $8994 - STRING #61 @ $A098
+#W32($8994)
+//面白い犬ですね、[NLINE]
+//ふとん犬というのは。[END-FE]
+Futon Dogs are pretty interesting, huh?[END-FE]
+
+
+
+
+
+//POINTER #62 @ $8998 - STRING #62 @ $A0C1
+#W32($8998)
+//私はゆっくりとしているから、[NLINE]
+//じっくりとふとん犬とやらと[NLINE]
+//交流を深めてきてくれ。[END-FE]
+I'm taking it easy, so please[NLINE]
+take your time and deepen the[NLINE]
+bond between you and your Futon[NLINE]
+Dog.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $899C - STRING #63 @ $A114
+#W32($899C)
+//[Futon-Dog]の朱色のふとん、[NLINE]
+//とても暖かそうですね。[END-FE]
+[Futon-Dog]'s vermillion futon[NLINE]
+looks warm, doesn't it?[END-FE]
+
+
+
+
+
+//POINTER #64 @ $89A0 - STRING #64 @ $A143
+#W32($89A0)
+//十字の模様のふとん…。[NLINE]
+//どうやってあんな形に[NLINE]
+//なったのでしょうね。[END-FE]
+A cross shaped futon...[NLINE]
+How did it become such a[NLINE]
+shape.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $89A4 - STRING #65 @ $A188
+#W32($89A4)
+//[Futon-Dog]のふとんは斑点模様が[NLINE]
+//とても可愛いらしいですね。[END-FE]
+[Futon-Dog]'s spotted pattern looks[NLINE]
+very cute, doesn't it?[END-FE]
+
+
+
+
+
+//POINTER #66 @ $89A8 - STRING #66 @ $A1BF
+#W32($89A8)
+//ダイヤ柄…。[NLINE]
+//可愛いふとんですね。[END-FE]
+A diamond pattern...[NLINE]
+What a cute futon, isn't it?[END-FE]
+
+
+
+
+
+//POINTER #67 @ $89AC - STRING #67 @ $A1E4
+#W32($89AC)
+//まあ、息抜きも大切だからな。[END-FE]
+It's important to take breaks.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $89B0 - STRING #68 @ $A203
+#W32($89B0)
+//[CHAR5F00][V3200]
+//勇者様、皆さんを置いて[NLINE]
+//勝手な行動はいけません。[END-FE]
+[CHAR5F00][V3200]
+Brave One, we can't just leave[NLINE]
+everyone behind.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $89B4 - STRING #69 @ $A23E
+#W32($89B4)
+//いらっしゃいませ。[NLINE]
+//よろず屋へようこそ。[END-FE]
+Welcome.[NLINE]
+This is the Item Shop.[END-FE].[END-FE]
+
+
+
+
+
+//POINTER #70 @ $89B8 - STRING #70 @ $A269
+#W32($89B8)
+//どのような[NLINE]
+//ご用件でしょうか？[END-FE]
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #71 @ $89BC - STRING #71 @ $A28A
+#W32($89BC)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #72 @ $89C0 - STRING #72 @ $A297
+#W32($89C0)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #73 @ $89C4 - STRING #73 @ $A2A4
+#W32($89C4)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #74 @ $89C8 - STRING #74 @ $A2B3
+#W32($89C8)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #75 @ $89CC - STRING #75 @ $A2C2
+#W32($89CC)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #76 @ $89D0 - STRING #76 @ $A2CB
+#W32($89D0)
+//ありがとうございます。[NLINE]
+//またお越し下さい。[END-FE]
+Thank you very much.[NLINE]
+Come again![END-FE]
+
+
+
+
+
+//POINTER #77 @ $89D4 - STRING #77 @ $A2F8
+#W32($89D4)
+//旅のお方、[NLINE]
+//動物とお話が出来たら[NLINE]
+//楽しいと思いませんか？[NWIN]
+//
+//どこかにそんな方法って[NLINE]
+//ないでしょうか？[END-FE]
+Wouldn't it be fun to talk[NLINE]
+to animals?[NWIN]
+
+I wonder if there's a way to do that?[END-FE]
+
+
+
+
+
+//POINTER #78 @ $89D8 - STRING #78 @ $A35D
+#W32($89D8)
+//　[NLINE]
+//留守のようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+It seems no one is home...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #79 @ $89DC - STRING #79 @ $A378
+#W32($89DC)
+//おや、旅の人とはめずらしい。[NLINE]
+//ゆっくりしていって下さいね。[END-FE]
+Oh! We don't get a lot of travelers[NLINE]
+around here.[NLINE]
+Please make yourself at home.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $89E0 - STRING #80 @ $A3B5
+#W32($89E0)
+//私の家に何か用かい？[END-FE]
+Did you come to my house because[NLINE]
+you need something?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $89E4 - STRING #81 @ $A3CC
+#W32($89E4)
+//　[NLINE]
+//留守のようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+It seems no one is home...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #82 @ $89E8 - STRING #82 @ $A3E7
+#W32($89E8)
+//なれぬ人には、[NLINE]
+//この雪は辛いでしょうなぁ…。[END-FE]
+This snow is harsh on those[NLINE]
+who are not accustomed to it...[END-FE]
+
+
+
+
+
+//POINTER #83 @ $89EC - STRING #83 @ $A416
+#W32($89EC)
+//[CHARCA03][V0000]
+//はふ、はふ…。[END-FE]
+[CHARCA03][V0000]
+Ha-ha-ha...[END-FE]
+
+
+
+
+
+//POINTER #84 @ $89F0 - STRING #84 @ $A42F
+#W32($89F0)
+//[CHARCA03][V0100]
+//こ、この生き物は……、[NLINE]
+//なんて愛らしいのでしょうか！[END-FE]
+[CHARCA03][V0100]
+T-this creature...[NLINE]
+How adorable it is![END-FE]
+
+
+
+
+
+//POINTER #85 @ $89F4 - STRING #85 @ $A46E
+#W32($89F4)
+//[CHARCA03][V0000]
+//はふ、はふ…。[END-FE]
+[CHARCA03][V0000]
+Ha-ha-ha...[END-FE]
+
+
+
+
+
+//POINTER #86 @ $89F8 - STRING #86 @ $A487
+#W32($89F8)
+//[CHARCA03][V1B00]
+//……はぁ～、[NLINE]
+//な、なんて可愛らしい…。[END-FE]
+[CHARCA03][V1B00]
+...Awww![NLINE]
+H-how adorable...[END-FE]
+
+
+
+
+
+//POINTER #87 @ $89FC - STRING #87 @ $A4B8
+#W32($89FC)
+//[CHARCA03][V0100]
+//こ、この生き物は……、[NLINE]
+//なんて愛らしいのでしょうか！[END-FE]
+[CHARCA03][V0100]
+T-this creature...[NLINE]
+How adorable it is![END-FE]
+
+
+
+
+
+//POINTER #88 @ $8A00 - STRING #88 @ $A4F7
+#W32($8A00)
+//[CHARCA03][V0200]
+//おっ！[NLINE]
+//君にもこの愛らしさがわかるかね！[END-FE]
+[CHARCA03][V0200]
+Crikey![NLINE]
+So ya recognize their charm, too![END-FE]
+
+
+
+
+
+//POINTER #89 @ $8A04 - STRING #89 @ $A52A
+#W32($8A04)
+//[CHARCA03][V0300]
+//あ、はい！[NWIN]
+//
+//[CHARCA03][V0500]
+//…この動物は、なんと言う[NLINE]
+//お名前なのでしょうか？[END-FE]
+[CHARCA03][V0300]
+Oh! Yes, I do![NWIN]
+
+[CHARCA03][V0500]
+...What is the name of this[NLINE]
+animal?[END-FE]
+
+
+
+
+
+//POINTER #90 @ $8A08 - STRING #90 @ $A579
+#W32($8A08)
+//[CHARCA03][V0600]
+//ふとん犬（いぬ）さ！[NWIN]
+//
+//[CHARCA03][V0700]
+//一時期絶滅したとさえ言われていた、[NLINE]
+//貴重な動物さ！[END-FE]
+[CHARCA03][V0600]
+They call 'em Futon Dogs![NWIN]
+
+[CHARCA03][V0700]
+Precious beasties that were even[NLINE]
+said to be extinct for a whoile![END-FE]
+
+
+
+
+
+//POINTER #91 @ $8A0C - STRING #91 @ $A5D4
+#W32($8A0C)
+//[CHARCA03][V0800]
+//ふとん犬ですか…。[NLINE]
+//これだけ可愛ければ、[NLINE]
+//誰もが飼いたくなりますね。[NLINE]
+//出来ることなら、私も飼ってみたいです…。[END-FE]
+[CHARCA03][V0800]
+Futon Dogs you say...?[NLINE]
+Everyone would want to keep animals[NLINE]
+as adorable as these. If possible, I[NLINE]
+would like to try keeping one, too...[END-FE]
+
+
+
+
+
+//POINTER #92 @ $8A10 - STRING #92 @ $A64D
+#W32($8A10)
+//[CHARCA03][V0900]
+//君は見所があるね。[NLINE]
+//私はハゼゴロウ。[NLINE]
+//ふとん犬の研究に[NLINE]
+//一生を捧げていこうとしている人間だ。[END-FE]
+[CHARCA03][V0900]
+Ya seem promisin'.[NLINE]
+Name's Irving.[NLINE]
+I 'ave devoted me loife to the[NLINE]
+study of Futon Dogs.[END-FE]
+
+
+
+
+
+//POINTER #93 @ $8A14 - STRING #93 @ $A6B4
+#W32($8A14)
+//[CHARCA03][V0A00]
+//何か１つに夢中になれる、[NLINE]
+//それは素晴らしい事です。[NLINE]
+//ぜひとも、頑張ってください！[END-FE]
+[CHARCA03][V0A00]
+It's great to submerge oneself into[NLINE]
+a particular subject.[NLINE]
+Please continue doing your best![END-FE]
+
+
+
+
+
+//POINTER #94 @ $8A18 - STRING #94 @ $A70F
+#W32($8A18)
+//[CHARCA03][V0B00]
+//ありがとう。[NLINE]
+//…そう言えば、[NLINE]
+//君はふとん犬を飼ってみたいと言っていたね。[END-FE]
+[CHARCA03][V0B00]
+Much obliged.[NLINE]
+...Anyway, didn't ya say ya would like to[NLINE]
+try keepin' a Futon Dog?[END-FE]
+
+
+
+
+
+//POINTER #95 @ $8A1C - STRING #95 @ $A762
+#W32($8A1C)
+//[CHARCA03][V0C00]
+//え、…それは出来る事なら[NLINE]
+//飼ってはみたいですけど…。[END-FE]
+[CHARCA03][V0C00]
+Uhm...[NLINE]
+I would like to if I could...[END-FE]
+
+
+
+
+
+//POINTER #96 @ $8A20 - STRING #96 @ $A7A1
+#W32($8A20)
+//[CHARCA03][V0D00]
+//なら、１頭飼ってみないかね！[END-FE]
+[CHARCA03][V0D00]
+Well, why won't ya try keepin' one then![END-FE]
+
+
+
+
+
+//POINTER #97 @ $8A24 - STRING #97 @ $A7C8
+#W32($8A24)
+//[CHARCA03][V0E00]
+//えっ！[NLINE]
+//希少種なのではありませんか？[END-FE]
+[CHARCA03][V0E00]
+What!? But aren't they a rare breed?[END-FE]
+
+
+
+
+
+//POINTER #98 @ $8A28 - STRING #98 @ $A7F7
+#W32($8A28)
+//[CHARCA03][V0F00]
+//その通りだ。[NLINE]
+//それ故にふとん犬に関するデータは、[NLINE]
+//ほとんど無いんだ。[NWIN]
+//
+//[CHARCA03][V1000]
+//私の研究では、ふとん犬の潜在的な能力は、[NLINE]
+//普通の犬とは比べものにならない。[NWIN]
+//
+//[CHARCA03][V1100]
+//だが、ふとん犬は穏やかな性格をした動物だ。[NLINE]
+//だから、その能力を開花させる事はほとんどない。[NWIN]
+//
+//[CHARCA03][V1200]
+//そこで能力を引き出してくれる、[NLINE]
+//ブリーダーを募集していたんだ。[NWIN]
+//
+//[CHARCA03][V1300]
+//君なら、ブリーダーに１番必要なもの、[NLINE]
+//愛情を持っている！[NLINE]
+//適任だと思うのだが。[END-FE]
+[CHARCA03][V0F00]
+Yeah, that's roight.[NLINE]
+That's why there's almost no[NLINE]
+information about 'em.[NWIN]
+
+[CHARCA03][V1000]
+In me study I 'ave found that the[NLINE]
+latent aboilitees of Futon Dogs far[NLINE]
+exceeds those of ordinary canoines.[NWIN]
+
+[CHARCA03][V1100]
+Howevah, because they are a gentle[NLINE]
+breed, they rarely develop these[NLINE]
+aboilitees.[NWIN]
+
+[CHARCA03][V1200]
+That's why I'm lookin' for raisers[NLINE]
+who can draw these out.[NWIN]
+
+[CHARCA03][V1300]
+Ya seem to 'ave the most important quality[NLINE]
+a raiser can 'ave. Namely, love![NLINE]
+I think yaw perfect for the job.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $8A2C - STRING #99 @ $A99E
+#W32($8A2C)
+//[CHARCA03][V1400]
+//そう言って貰えるのは嬉しく思います。[NLINE]
+//…ですが、私たちは旅の途中。[NWIN]
+//
+//[CHARCA03][V1500]
+//危険な事もありますので、[NLINE]
+//連れて回る訳には…。[END-FE]
+[CHARCA03][V1400]
+I'm glad to hear that.[NLINE]
+...However, we're currently on[NLINE]
+a journey.[NWIN]
+
+[CHARCA03][V1500]
+Because it might be dangerous, I[NLINE]
+can't just take one with me...[END-FE]
+
+
+
+
+
+//POINTER #100 @ $8A30 - STRING #100 @ $AA23
+#W32($8A30)
+//[CHARCA03][V1600]
+//普段は私が預かるよ。[NLINE]
+//君はふとん犬を育てたい時だけ、[NLINE]
+//会いに来てくれればいい。[END-FE]
+[CHARCA03][V1600]
+I'll take care of 'em as always.[NLINE]
+Come see me whenever ya want to[NLINE]
+raise a Futon Dog.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $8A34 - STRING #101 @ $AA7C
+#W32($8A34)
+//[CHARCA03][V1800]
+//まあ、考えておいてくれないか。[NLINE]
+//ブリーダーになりたいと思ったら[NLINE]
+//私に話しかけてくれ。[NWIN]
+//
+//[CHARCA03][V1900]
+//ペケ、挨拶して。[END-FE]
+[CHARCA03][V1800]
+Well, why won't ya think about it?[NLINE]
+If ya want to become a raiser,[NLINE]
+give me a shout.[NWIN]
+
+[CHARCA03][V1900]
+Ellon, get ovah here![END-FE]
+
+
+
+
+
+//POINTER #102 @ $8A38 - STRING #102 @ $AAF5
+#W32($8A38)
+//[CHARCA03][V1A00]
+//へっ、へっ…、[NLINE]
+//わふぅ～[MUSIC-NOTE][END-FE]
+[CHARCA03][V1A00]
+Ha-ha-ha...[NLINE]
+Woof![MUSIC-NOTE][END-FE]
+
+
+
+
+
+//POINTER #103 @ $8A3C - STRING #103 @ $AB1A
+#W32($8A3C)
+//どうやら仕事が忙しいようだね。[NLINE]
+//落ち着いてからで良いから、[NLINE]
+//ブリーダーになるかどうか決めてくれ。[END-FE]
+Ya seem flat out with work.[NLINE]
+How 'bout ya decide whether ya want[NLINE]
+to become a raiser when things 'ave[NLINE]
+calmed down?[END-FE]
+
+
+
+
+
+//POINTER #104 @ $8A40 - STRING #104 @ $AB7D
+#W32($8A40)
+//どうやら仕事が忙しいようだね。[NLINE]
+//落ち着いてからで良いから、[NLINE]
+//[Futon-Dog]を育ててあげてくれ。[END-FE]
+Ya seem flat out with work.[NLINE]
+Come raise [Futon-Dog] when things[NLINE]
+'ave calmed down.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $8A44 - STRING #105 @ $ABD4
+#W32($8A44)
+//飼いたいふとん犬は決めたかね？[END-FE]
+'Ave ya decided which Futon Dog ya want[NLINE]
+to raise?[END-FE]
+
+
+
+
+
+//POINTER #106 @ $8A48 - STRING #106 @ $ABF5
+#W32($8A48)
+//どのふとん犬を飼いたいか決めたら、[NLINE]
+//またたずねに来てくれ。[END-FE]
+Give me a shout once ya 'ave decided which[NLINE]
+Futon Dog ya want to raise.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $8A4C - STRING #107 @ $AC32
+#W32($8A4C)
+//やあ、ブリーダーをやる気になったかな？[END-FE]
+G'day mate, feeling like becoming a raiser?[END-FE]
+
+
+
+
+
+//POINTER #108 @ $8A50 - STRING #108 @ $AC5B
+#W32($8A50)
+//はい、やってみようと思います。[END-FE]
+Yeah, already thought so.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $8A54 - STRING #109 @ $AC7C
+#W32($8A54)
+//そうか！[NLINE]
+//君たちのような人に育ててもらえれば、[NLINE]
+//ふとん犬も喜ぶよ。[NWIN]
+//
+//ではまず、ふとん犬について色々[NLINE]
+//知ってもらおうと思う。[END-FE]
+Bonzer![NLINE]
+Me doggies will be stoked to be[NLINE]
+raised by youse blokes![NWIN]
+
+Howevah, first I would loike ya to[NLINE]
+tell ya various things 'bout Futon Dogs.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $8A58 - STRING #110 @ $ACF9
+#W32($8A58)
+//何について知りたいかな？[END-FE]
+What would ya loike to know?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $8A5C - STRING #111 @ $AD14
+#W32($8A5C)
+//・ブリーダーの心得[END-FE]
+・Tell me about the things I should know in[NLINE]
+   advance when becoming a raiser[END-FE]
+
+
+
+
+
+//POINTER #112 @ $8A60 - STRING #112 @ $AD29
+#W32($8A60)
+//・コンテストについて[END-FE]
+・Tell me about contests[END-FE]
+
+
+
+
+
+//POINTER #113 @ $8A64 - STRING #113 @ $AD40
+#W32($8A64)
+//・知っている[END-FE]
+・I know everything already[END-FE]
+
+
+
+
+
+//POINTER #114 @ $8A68 - STRING #114 @ $AD4F
+#W32($8A68)
+//ブリーダーの心得と言っても、[NLINE]
+//構えることはないよ。[NWIN]
+//
+//基本的にはふとん犬に色々な事を[NLINE]
+//してあげれば良いんだ。[NWIN]
+//
+//この村ではふとん犬に関する[NLINE]
+//様々なサポートを行っている。[NLINE]
+//それを活用してくれ。[NWIN]
+//
+//ご褒美をあげるも良し。[NLINE]
+//遊んであげるも良し。[NWIN]
+//
+//そうすれば、次第にふとん犬は[NLINE]
+//育っていくだろう。[NWIN]
+//
+//村で行われているサポートを受けるには[NLINE]
+//サービスポイントというものが必要となる。[NWIN]
+//
+//そのサービスポイントだが、[NLINE]
+//ふとん犬といっしょに働く事で[NLINE]
+//稼ぐ事ができる。[NLINE]
+//仕事が欲しい時は私に言ってくれ。[NWIN]
+//
+//後、ふとん犬を連れて散歩などしてみてくれ。[NLINE]
+//村の中だけでなく、[NLINE]
+//もっと広い場所を走りたいはずだ。[NLINE]
+//外へと出かけると良いだろう。[END-FE]
+Ya don't need qualifications to[NLINE]
+become a trainer.[NWIN]
+
+Basically, all ya 've got to do is[NLINE]
+do things with a Futon Dog.[NWIN]
+
+Various kinds of rainin' support[NLINE]
+are provided in this village. Make sure[NLINE]
+to take advantage of 'em.[NWIN]
+
+Ya can also give 'em rewards[NLINE]
+or play with 'em.[NWIN]
+
+If ya do that, then the Futon Dog's[NLINE]
+aboilitees will gradually grow.[NWIN]
+
+In order to receive raisin' support[NLINE]
+in the village, you need somethin'[NLINE]
+called Service Points.[NWIN]
+
+Ya can earn Service Points by performin'[NLINE]
+a job together with yoah dog. Give me a shout[NLINE]
+when ya want a job.[NWIN]
+
+Lastly, try takin' yah Futon Dog on[NLINE]
+a walk. Ya don't want yah dog to just[NLINE]
+run around the village, but in a wider[NLINE]
+area as well. Goin' outside would be the[NLINE]
+good oil.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $8A6C - STRING #115 @ $AFAA
+#W32($8A6C)
+//外にはモンスターがいます。[NLINE]
+//ふとん犬が危険なのではありませんか？[END-FE]
+There are monsters outside the village.[NLINE]
+Won't that be dangerous for the Futon Dogs?[END-FE]
+
+
+
+
+
+//POINTER #116 @ $8A70 - STRING #116 @ $AFED
+#W32($8A70)
+//そこが君たちブリーダーの腕の見せ所さ。[NLINE]
+//ふとん犬も戦闘に参加する事で、[NLINE]
+//レベルが上がっていく。[NWIN]
+//
+//最初は大変かもしれないが、[NLINE]
+//徐々にふとん犬も成長していくだろう。[NWIN]
+//
+//それまではブリーダーが[NLINE]
+//しっかりと見守ってあげなければならない。[NWIN]
+//
+//散歩できる範囲だが、[NLINE]
+//雪のある寒い地方だけだ。[NWIN]
+//
+//見ての通り、[NLINE]
+//ふとん犬は寒い土地に適応するために[NLINE]
+//体毛をふとんのように変化させている。[NWIN]
+//
+//だから、この辺りの寒い場所しか散歩が出来ない。[NLINE]
+//これが基本的なブリーダーの心得だ。[END-FE]
+That's when ya show yah a fair dinkum raiser![NLINE]
+By lettin' a Futon Dog participate in battle,[NLINE]
+its level will roise.[NWIN]
+
+It may be difficult at first, but yoah[NLINE]
+Futon Dog will gradually grow strongah.[NWIN]
+
+Until then, you 'ave to keep a foirm[NLINE]
+eye on 'em.[NWIN]
+
+Ya can only go for a walk in cold[NLINE]
+regions with snow.[NWIN]
+
+As ya can see, Futon Dogs change their[NLINE]
+fur to somethin' that resembles a futon[NLINE]
+in order to adapt to cold cloimates.[NWIN]
+
+That's why they can only walk 'round here.[NLINE]
+That's a basic thing for a raiser to[NLINE]
+keep in moind.[END-FE]
+
+
+
+
+
+//POINTER #117 @ $8A74 - STRING #117 @ $B1AE
+#W32($8A74)
+//基本的に散歩、お仕事、サポート、[NLINE]
+//この三点を繰り返してふとん犬を[NLINE]
+//成長させていく。[NLINE]
+//これがブリーダーの心得だ。[END-FE]
+Basically, walk with 'em, work with 'em,[NLINE]
+train with 'em. Rinse. Repeat.[NLINE]
+These are must-do's for any raiser.[END-FE]
+
+
+
+
+
+//POINTER #118 @ $8A78 - STRING #118 @ $B21F
+#W32($8A78)
+//コンテストはどれだけふとん犬に愛情を注ぎ、[NLINE]
+//育てたかを競うものだ。[NWIN]
+//
+//それぞれのコンテストを勝ち抜くと、[NLINE]
+//豪華な賞品が贈られる。[NLINE]
+//期待していてくれ。[NWIN]
+//
+//ふとん犬との間に絆があれば、[NLINE]
+//普段以上の力を出して、[NLINE]
+//ブリーダーの期待に応えてくれるはずさ。[NWIN]
+//
+//そして大いにコンテストを[NLINE]
+//盛り上げてくれ！[NLINE]
+//ガンバって育ててくれ！[END-FE]
+Contests are for showin' how much a Futon Dog's[NLINE]
+aboilitees 'ave grown, and how much love ya put[NLINE]
+into 'em.[NWIN]
+
+The more contests ya win, the moah[NLINE]
+luxurious the prize. Please look[NLINE]
+fohwahd to it.[NWIN]
+
+If a Futon Dog has a bond with its[NLINE]
+raiser, it should be able to excert its[NLINE]
+paowah more than usual and meet his or her[NLINE]
+expectations.[NWIN]
+
+And make the contest moah excitin'[NLINE]
+as well! Good luck with raisin'![END-FE]
+
+
+
+
+
+//POINTER #119 @ $8A7C - STRING #119 @ $B356
+#W32($8A7C)
+//そうか。[END-FE]
+Roight.[END-FE]
+
+
+
+
+
+//POINTER #120 @ $8A80 - STRING #120 @ $B361
+#W32($8A80)
+//では、君が育てるふとん犬たちを呼ぶから、[NLINE]
+//少し後ろに下がってくれ。[END-FE]
+Alroight, time to call in the doggies[NLINE]
+available for raisin'. Youse blokes[NLINE]
+please step back back a bit.[END-FE]
+
+
+
+
+
+//POINTER #121 @ $8A84 - STRING #121 @ $B3A6
+#W32($8A84)
+//さあ、出ておいで！[NLINE]
+//ニシキ、テツ、タマ、モモ！[END-FE]
+Tarran! Masonite! Liana! Soleil![NLINE]
+Come 'ave a gander![END-FE]
+
+
+
+
+
+//POINTER #122 @ $8A88 - STRING #122 @ $B3D7
+#W32($8A88)
+//この４匹の内、１匹を選んでくれ。[NLINE]
+//それが君たちのふとん犬になる。[NWIN]
+//
+//それぞれに特徴があるけど、[NLINE]
+//説明はいるかい？[END-FE]
+Ya can choose one out of thaese four.[NLINE]
+The one you peecked will become yoah[NLINE]
+Futon Dog.[NWIN]
+
+They each 'ave their own trites[NLINE]
+and puhs'naloitees.[NLINE]
+Would you loike an explanation?[END-FE]
+
+
+
+
+
+//POINTER #123 @ $8A8C - STRING #123 @ $B448
+#W32($8A8C)
+//朱色のふとんを被っているのがニシキ。[NLINE]
+//少し臆病な性格をしている。[NLINE]
+//得意なのは逃げ足で培った足の速さだ。[END-FE]
+The one with the scarlet futon[NLINE]
+is Tarran. He's a leettle bit shoy.[NLINE]
+Tarran is also queeck on his feet,[NLINE]
+a skill he gained by runnin' away[NLINE]
+a lot.[END-FE]
+
+
+
+
+
+//POINTER #124 @ $8A90 - STRING #124 @ $B4B1
+#W32($8A90)
+//黒の十字模様を背中に背負っているのがテツ。[NLINE]
+//堅気な性格で、根性が据わっている。[NLINE]
+//基礎体力はしっかり持っている。[END-FE]
+The one with the black cross pahttuhnn[NLINE]
+on its back is Masonite. He's reliable and[NLINE]
+has strawng willpaowah. Masonite has solid basic[NLINE]
+physical straength.[END-FE]
+
+
+
+
+
+//POINTER #125 @ $8A94 - STRING #125 @ $B522
+#W32($8A94)
+//緑の水玉模様のふとんを被っているのがタマ。[NLINE]
+//新しいもの好きの女の子で、[NLINE]
+//嗅覚に優れている。[END-FE]
+The one with the green polka-dotted[NLINE]
+futon is Liana. She's a sheila who loikes[NLINE]
+new theengs and has a good sense of smell.[END-FE]
+
+
+
+
+
+//POINTER #126 @ $8A98 - STRING #126 @ $B57F
+#W32($8A98)
+//ピンクのダイヤ柄をしているのがモモ。[NLINE]
+//最近までお屋敷で過ごしていたらしく、[NLINE]
+//良くしつけをされている。[END-FE]
+The one with the pink diamond pattern[NLINE]
+is Soleil. She seems to 'ave spend toime[NLINE]
+in a mansion until recently and is well[NLINE]
+mannered.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $8A9C - STRING #127 @ $B5E6
+#W32($8A9C)
+//わかった。[END-FE]
+Gottit.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $8AA0 - STRING #128 @ $B5F3
+#W32($8AA0)
+//では、どのふとん犬にする？[END-FE]
+Alroight, which Futon Dog will it be?[END-FE]
+
+
+
+
+
+//POINTER #129 @ $8AA4 - STRING #129 @ $B610
+#W32($8AA4)
+//・ニシキ[END-FE]
+・Tarran[END-FE]
+
+
+
+
+
+//POINTER #130 @ $8AA8 - STRING #130 @ $B61B
+#W32($8AA8)
+//・テツ[END-FE]
+・Masonite[END-FE]
+
+
+
+
+
+//POINTER #131 @ $8AAC - STRING #131 @ $B624
+#W32($8AAC)
+//・タマ[END-FE]
+・Liana[END-FE]
+
+
+
+
+
+//POINTER #132 @ $8AB0 - STRING #132 @ $B62D
+#W32($8AB0)
+//・モモ[END-FE]
+・Soleil[END-FE]
+
+
+
+
+
+//POINTER #133 @ $8AB4 - STRING #133 @ $B636
+#W32($8AB4)
+//ニシキだね。[NWIN]
+//
+//ニシキ、今日からこの人たちが、[NLINE]
+//君の飼い主だよ。[END-FE]
+So you peecked Tarran, eh?[NWIN]
+
+Tarran, thaese blokes will be yoah[NLINE]
+ownahs from now on, alroight?[END-FE]
+
+
+
+
+
+//POINTER #134 @ $8AB8 - STRING #134 @ $B677
+#W32($8AB8)
+//…くぅ～ん…。[END-FE]
+...Awooo...[END-FE]
+
+
+
+
+
+//POINTER #135 @ $8ABC - STRING #135 @ $B688
+#W32($8ABC)
+//ニシキ[END-FE]
+Tarran[END-FE]
+
+
+
+
+
+//POINTER #136 @ $8AC0 - STRING #136 @ $B691
+#W32($8AC0)
+//テツだね。[NWIN]
+//
+//テツ、今日からこの人たちが、[NLINE]
+//君の飼い主だよ。[END-FE]
+So you peecked Masonite, eh?[NWIN]
+
+Masonite, thaese blokes will be yoah[NLINE]
+ownahs from now on, alroight?[END-FE]
+
+
+
+
+
+//POINTER #137 @ $8AC4 - STRING #137 @ $B6CE
+#W32($8AC4)
+//…うー…。[END-FE]
+...Uuuu...[END-FE]
+
+
+
+
+
+//POINTER #138 @ $8AC8 - STRING #138 @ $B6DB
+#W32($8AC8)
+//テツ[END-FE]
+Masonite[END-FE]
+
+
+
+
+
+//POINTER #139 @ $8ACC - STRING #139 @ $B6E2
+#W32($8ACC)
+//タマだね。[NWIN]
+//
+//タマ、今日からこの人たちが、[NLINE]
+//君の飼い主だよ。[END-FE]
+So you peecked Liana, eh?[NWIN]
+
+Liana, thaese blokes will be yoah[NLINE]
+ownahs from now on, alroight?[END-FE]
+
+
+
+
+
+//POINTER #140 @ $8AD0 - STRING #140 @ $B71F
+#W32($8AD0)
+//…う～…。[END-FE]
+...Uuuu...[END-FE]
+
+
+
+
+
+//POINTER #141 @ $8AD4 - STRING #141 @ $B72C
+#W32($8AD4)
+//タマ[END-FE]
+Liana[END-FE]
+
+
+
+
+
+//POINTER #142 @ $8AD8 - STRING #142 @ $B733
+#W32($8AD8)
+//モモだね。[NWIN]
+//
+//モモ、今日からこの人たちが、[NLINE]
+//君の飼い主だよ。[END-FE]
+So you peecked Soleil, eh?[NWIN]
+
+Soleil, thaese blokes will be yoah[NLINE]
+ownahs from now on, alroight?[END-FE]
+
+
+
+
+
+//POINTER #143 @ $8ADC - STRING #143 @ $B770
+#W32($8ADC)
+//…きゃうん…。[END-FE]
+...Nnnn...Nnnn....[END-FE]
+
+
+
+
+
+//POINTER #144 @ $8AE0 - STRING #144 @ $B781
+#W32($8AE0)
+//モモ[END-FE]
+Soleil[END-FE]
+
+
+
+
+
+//POINTER #145 @ $8AE4 - STRING #145 @ $B788
+#W32($8AE4)
+//…まぁ、ゆっくりと[NLINE]
+//仲良くなって行ってくれ。[END-FE]
+...Well, I'll hope ya'll get[NLINE]
+alawng.[END-FE]
+
+
+
+
+
+//POINTER #146 @ $8AE8 - STRING #146 @ $B7B7
+#W32($8AE8)
+//じゃあ、育てたくなったら私に言ってくれ。[NWIN]
+//
+//そうだ、少しだけだが、[NLINE]
+//サービスポイントをあげておこう。[NLINE]
+//試しにサポートを受けてみてくれ。[END-FE]
+Alroight, if ya want to raise your[NLINE]
+doggie, come talk to me.[NWIN]
+
+Oh, just one moah thing.[NLINE]
+I'll geeve ya some Service Points.[NLINE]
+Troy usin' it on raisin' support.[END-FE]
+
+
+
+
+
+//POINTER #147 @ $8AEC - STRING #147 @ $B83E
+#W32($8AEC)
+//サービスポイントが[NLINE]
+//２０ポイント加算された。[END-FE]
+You received 20 Service Points.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #148 @ $8AF0 - STRING #148 @ $B86D
+#W32($8AF0)
+//では、ふとん犬の新たなる可能性を[NLINE]
+//一緒に見ようじゃないか！[END-FE]
+Alroight, let's deescovah the unrealized[NLINE]
+potential of these doggies tohgethah![END-FE]
+
+
+
+
+
+//POINTER #149 @ $8AF4 - STRING #149 @ $B8AA
+#W32($8AF4)
+//そうか。[NLINE]
+//気が向いたら、また言ってくれ。[END-FE]
+Alroight. Come talk to me again when[NLINE]
+you feel loike it.[END-FE]
+
+
+
+
+
+//POINTER #150 @ $8AF8 - STRING #150 @ $B8D5
+#W32($8AF8)
+//帰ってきたようだね。[NLINE]
+//枝をどれだけ集めてきたか[NLINE]
+//見せてもらっていいかな？[END-FE]
+Looks loike ya back.[NLINE]
+Would ya loike me to show ya how[NLINE]
+many branches ya have collected?[END-FE]
+
+
+
+
+
+//POINTER #151 @ $8AFC - STRING #151 @ $B920
+#W32($8AFC)
+//帰ってきたようだね。[NLINE]
+//甲殻をどれだけ集めてきたか[NLINE]
+//見せてもらっていいかな？[END-FE]
+Looks loike ya back.[NLINE]
+Would ya loike me to show ya how[NLINE]
+many shells ya have collected?[END-FE]
+
+
+
+
+
+//POINTER #152 @ $8B00 - STRING #152 @ $B96D
+#W32($8B00)
+//帰ってきたようだね。[NLINE]
+//舌をどれだけ集めてきたか[NLINE]
+//見せてもらっていいかな？[END-FE]
+Looks loike ya back.[NLINE]
+Would ya loike me to show ya how[NLINE]
+many tongues ya have collected?[END-FE]
+
+
+
+
+
+//POINTER #153 @ $8B04 - STRING #153 @ $B9B8
+#W32($8B04)
+//帰ってきたようだね。[NLINE]
+//粉をどれだけ集めてきたか[NLINE]
+//見せてもらっていいかな？[END-FE]
+Looks loike ya back.[NLINE]
+Would ya loike me to show ya how[NLINE]
+much powder ya have collected?[END-FE]
+
+
+
+
+
+//POINTER #154 @ $8B08 - STRING #154 @ $BA03
+#W32($8B08)
+//帰ってきたようだね。[NLINE]
+//甲殻をどれだけ集めてきたか[NLINE]
+//見せてもらっていいかな？[END-FE]
+Looks loike ya back.[NLINE]
+Would ya loike me to show ya how[NLINE]
+many shells ya have collected?[END-FE]
+
+
+
+
+
+//POINTER #155 @ $8B0C - STRING #155 @ $BA50
+#W32($8B0C)
+//回収するものは１０個以上持てないから、[NLINE]
+//ある程度回収したら戻ってきてくれ。[END-FE]
+Ya can't collect moah than 10, so[NLINE]
+come back aftah ya collected some.[END-FE]
+
+
+
+
+
+//POINTER #156 @ $8B10 - STRING #156 @ $BA9D
+#W32($8B10)
+//…なんだ、[NLINE]
+//全然回収してきてくれていないのか。[NWIN]
+//
+//仕方ない、[NLINE]
+//またの機会に頼むとするよ。[END-FE]
+...What? Ya 'aven't collected any at all?[NWIN]
+
+Well, bettah luck next toime.[END-FE]
+
+
+
+
+
+//POINTER #157 @ $8B14 - STRING #157 @ $BAF6
+#W32($8B14)
+//[CC.EF00]個か。[NLINE]
+//じゃあ、同じだけのサービスポイントを[NLINE]
+//振り込んでおくよ、ご苦労さま。[END-FE]
+[CC.EF00]個か。[NLINE]
+Alroight, then I will geeve ya the[NLINE]
+same amount of Service Points. Nice goin',[NLINE]
+mate.[END-FE]
+
+
+
+
+
+//POINTER #158 @ $8B18 - STRING #158 @ $BB48
+#W32($8B18)
+//サービスポイントが[NLINE]
+//[CC.EF00]ポイント加算された。[END-FE]
+You received [CC.EF00] Service Points.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #159 @ $8B1C - STRING #159 @ $BB76
+#W32($8B1C)
+//船着場から[NLINE]
+//ここまでご苦労さま。[END-FE]
+Good on ya, mate.[END-FE]
+
+
+
+
+
+//POINTER #160 @ $8B20 - STRING #160 @ $BB99
+#W32($8B20)
+//届けてくれたみたいだね。[NLINE]
+//ご苦労さま。[END-FE]
+Looks loike ya deleevered it.[NLINE]
+Good on ya, mate.[[END-FE]
+
+
+
+
+
+//POINTER #161 @ $8B24 - STRING #161 @ $BBC2
+#W32($8B24)
+//おっ！[NLINE]
+//どうやら無事に見つけ出して[NLINE]
+//来てくれたみたいだね。[NLINE]
+//ご苦労さま。[END-FE]
+Strewth![NLINE]
+Looks loike ya brought it back[NLINE]
+in one piece. Good on ya, mate.[END-FE]
+
+
+
+
+
+//POINTER #162 @ $8B28 - STRING #162 @ $BC0D
+#W32($8B28)
+//じゃあ、仕事分のサービスポイントを[NLINE]
+//振り込んでおくよ。[END-FE]
+Alroight, I'll geeve ya some[NLINE]
+Service Points.[END-FE]
+
+
+
+
+
+//POINTER #163 @ $8B2C - STRING #163 @ $BC46
+#W32($8B2C)
+//サービスポイントが[NLINE]
+//１５ポイント加算された。[END-FE]
+You received 15 Service Points.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #164 @ $8B30 - STRING #164 @ $BC75
+#W32($8B30)
+//じゃあ、仕事分のサービスポイントを[NLINE]
+//振り込んでおくよ。[END-FE]
+Alroight, I'll geeve ya some[NLINE]
+Service Points.[END-FE]
+
+
+
+
+
+//POINTER #165 @ $8B34 - STRING #165 @ $BCAE
+#W32($8B34)
+//サービスポイントが[NLINE]
+//１０ポイント加算された。[END-FE]
+You received 10 Service Points.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #166 @ $8B38 - STRING #166 @ $BCDD
+#W32($8B38)
+//犬の訓練士？[NLINE]
+//へぇ～、そんな人がわざわざ[NLINE]
+//この大陸へ来てくれるのか。[NWIN]
+//
+//わかった。[NLINE]
+//その人が来たら、[NLINE]
+//丁重におもてなしさせてもらうよ。[END-FE]
+A professional dog trainer?[NLINE]
+Crikey! Such a bloke came all[NLINE]
+the way to this continent, eh?[NWIN]
+
+Roight. Whaen he comes heah I'll[NLINE]
+make sure to treat him weeth grite[NLINE]
+respect![END-FE]
+
+
+
+
+
+//POINTER #167 @ $8B3C - STRING #167 @ $BD64
+#W32($8B3C)
+//やあ、君たち！[NLINE]
+//やっと犬ゾリが届いたよ！[NWIN]
+//
+//君たちが維持軍まで[NLINE]
+//知らせに行ってくれたんだってね。[NLINE]
+//ありがとう！[NWIN]
+//
+//これは心ばかりのお礼だ、[NLINE]
+//受け取ってくれ。[END-FE]
+Oi, mates! The dog sled finohly ahroived![NWIN]
+
+Youse blokes went to PMB headquarters to[NLINE]
+infohm about it, eh? Ta![NWIN]
+
+Take this as thanks![END-FE]
+
+
+
+
+
+//POINTER #168 @ $8B40 - STRING #168 @ $BDFF
+#W32($8B40)
+//サービスポイントが[NLINE]
+//２０ポイント加算された。[END-FE]
+You received 20 Service Points.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #169 @ $8B44 - STRING #169 @ $BE2E
+#W32($8B44)
+//本当にありがとう。[END-FE]
+Cheers, mate![END-FE]
+
+
+
+
+
+//POINTER #170 @ $8B48 - STRING #170 @ $BE43
+#W32($8B48)
+//おぉ！[NLINE]
+//育てて来たようだね。[NWIN]
+//
+//じゃあ、[NLINE]
+//これは今回のプレゼントだ。[END-FE]
+Crikey! Looks loike [Futon-Dog]'s[NLINE]
+aboilitees improved.[NWIN]
+
+Roight, this is yoah present[NLINE]
+this toime.[END-FE]
+
+
+
+
+
+//POINTER #171 @ $8B4C - STRING #171 @ $BE88
+#W32($8B4C)
+//おぉ！[NLINE]
+//育てて来たようだね。[NWIN]
+//
+//じゃあ、[NLINE]
+//これが前に言っていたプレゼントだ。[NLINE]
+//受け取ってくれ。[END-FE]
+Crikey! Looks loike [Futon-Dog]'s[NLINE]
+aboilitees improved.[NWIN]
+
+Roight, this is yoah present[NLINE]
+this toime.[END-FE]
+
+
+
+
+
+//POINTER #172 @ $8B50 - STRING #172 @ $BEE7
+#W32($8B50)
+//おや？[NLINE]
+//どうやらラナの種を[NLINE]
+//これ以上持てないようだね。[NLINE]
+//なら、ラナの袋に入れておくよ。[END-FE]
+Strewth![NLINE]
+Seems loike ya can't hold any[NLINE]
+moah Rana Fruit. I'll put it in[NLINE]
+yoah Rana bag, then.[END-FE]
+
+
+
+
+
+//POINTER #173 @ $8B54 - STRING #173 @ $BF40
+#W32($8B54)
+//ラナの種の在庫は[NLINE]
+//[CC.EF05]個。[END-FE]
+You have [CC.EF05] pieces of[NLINE]
+Rana fruit in your inventory.[END-FE]
+
+
+
+
+
+//POINTER #174 @ $8B58 - STRING #174 @ $BF5C
+#W32($8B58)
+//ガンバッてくれているみたいだね。[NLINE]
+//[Futon-Dog]もきっと喜んでいるよ。[NWIN]
+//
+//私からの感謝の気持ちを[NLINE]
+//受け取ってくれ。[END-FE]
+Looks like yaw doin' yoah best.[NLINE]
+I'm shooah [Futon-Dog] is stoked, too.[NWIN]
+
+I owe ya, mate.[END-FE]
+
+
+
+
+
+//POINTER #175 @ $8B5C - STRING #175 @ $BFC5
+#W32($8B5C)
+//それにしてもずいぶんと[NLINE]
+//育ててくれたみたいだね。[NWIN]
+//
+//君にブリーダーを頼んで本当に良かったよ。[NLINE]
+//これはちょっとした感謝の気持ちだ。[NLINE]
+//受け取ってくれ。[END-FE]
+Looks loike like [Futon-Dog]'s aboilitees[NLINE]
+grew quite a bit.[NWIN]
+
+I'm stoked I asked ya to become a[NLINE]
+raiser! Heah's a little somethin'[NLINE]
+as thanks.[END-FE]
+
+
+
+
+
+//POINTER #176 @ $8B60 - STRING #176 @ $C058
+#W32($8B60)
+//おや？[NLINE]
+//どうやらラナの実を[NLINE]
+//これ以上持てないようだね。[NLINE]
+//なら、ラナの袋に入れておくよ。[END-FE]
+Strewth![NLINE]
+Seems loike ya can't hold any[NLINE]
+moah Rana Fruit. I'll put it in[NLINE]
+yoah Rana bag, then.[END-FE]
+
+
+
+
+
+//POINTER #177 @ $8B64 - STRING #177 @ $C0B1
+#W32($8B64)
+//これ以上[COL01]ラナの袋[COL00]に入らない！[END-FE]
+You can't fit any more in your[COL01]Rana Bag[COL00]![END-FE]
+
+
+
+
+
+//POINTER #178 @ $8B68 - STRING #178 @ $C0D6
+#W32($8B68)
+//ラナの実の在庫は[NLINE]
+//[CC.EF05]個。[END-FE]
+You have [CC.EF05] pieces of[NLINE]
+Rana fruit in your inventory.[END-FE]
+
+
+
+
+
+//POINTER #179 @ $8B6C - STRING #179 @ $C0F2
+#W32($8B6C)
+//今日はどうするんだい？[END-FE]
+What do ya wanna do today?[END-FE]
+
+
+
+
+
+//POINTER #180 @ $8B70 - STRING #180 @ $C10B
+#W32($8B70)
+//・散歩に行く[END-FE]
+・Go for a walk[END-FE]
+
+
+
+
+
+//POINTER #181 @ $8B74 - STRING #181 @ $C11A
+#W32($8B74)
+//・ふとん犬を預ける[END-FE]
+・Leave Futon Dog at shelter[END-FE]
+
+
+
+
+
+//POINTER #182 @ $8B78 - STRING #182 @ $C12F
+#W32($8B78)
+//・ポイントを使う[END-FE]
+・Use points[END-FE]
+
+
+
+
+
+//POINTER #183 @ $8B7C - STRING #183 @ $C142
+#W32($8B7C)
+//・仕事をする[END-FE]
+・Work[END-FE]
+
+
+
+
+
+//POINTER #184 @ $8B80 - STRING #184 @ $C151
+#W32($8B80)
+//・アドバイスを聞く[END-FE]
+・Ask for advice[END-FE]
+
+
+
+
+
+//POINTER #185 @ $8B84 - STRING #185 @ $C166
+#W32($8B84)
+//・挑戦する[END-FE]
+・Challenge Ellon[END-FE]
+
+
+
+
+
+//POINTER #186 @ $8B88 - STRING #186 @ $C173
+#W32($8B88)
+//・何でもない[END-FE]
+・Nothing[END-FE]
+
+
+
+
+
+//POINTER #187 @ $8B8C - STRING #187 @ $C182
+#W32($8B8C)
+//ふとん犬と散歩に行くのかい？[END-FE]
+Goin' on a walk with [Futon-Dog], eh?[END-FE]
+
+
+
+
+
+//POINTER #188 @ $8B90 - STRING #188 @ $C1A1
+#W32($8B90)
+//では、君たちのふとん犬を呼ぼう。[NLINE]
+//ちょっと待っていてくれ。[END-FE]
+Alroight, I'll give yoah doggie[NLINE]
+a holler. Hang on a tick.[END-FE]
+
+
+
+
+
+//POINTER #189 @ $8B94 - STRING #189 @ $C1DE
+#W32($8B94)
+//またせたね。[NLINE]
+//さあ、行っておいで。[END-FE]
+Sorry for the wait.[NLINE]
+Roight, off ya go.[END-FE]
+
+
+
+
+
+//POINTER #190 @ $8B98 - STRING #190 @ $C203
+#W32($8B98)
+//そうだ！[NLINE]
+//ふとん犬の[NLINE]
+//レベルが上がったら戻っておいで。[NWIN]
+//
+//妖精である君に[NLINE]
+//その分のプレゼントをあげるよ！[NWIN]
+//
+//だから、[NLINE]
+//しっかりと育ててあげてくれ！[NWIN]
+//
+//さあ、行っておいで。[END-FE]
+Blimey! Almost forgot![NLINE]
+Return 'ere after yoah doggie[NLINE]
+went up a level.[NWIN]
+
+Then I'll give yoah little[NLINE]
+fairy 'ere a prezzy.[NWIN]
+
+So do yoah best to raise[NLINE]
+yoah doggie![NWIN]
+
+Roight, off ya go then.[END-FE]
+
+
+
+
+
+//POINTER #191 @ $8B9C - STRING #191 @ $C2AA
+#W32($8B9C)
+//[Futon-Dog]にこの前教わった[NLINE]
+//ダンスを教えましょう。[END-FE]
+Let's teach [Futon-Dog] the dance[NLINE]
+that we were taught last time.[END-FE]
+
+
+
+
+
+//POINTER #192 @ $8BA0 - STRING #192 @ $C2D9
+#W32($8BA0)
+//　[NLINE]
+//[Futon-Dog]はブレイクダンスを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned Break Dance![END-FE]
+
+
+
+
+
+//POINTER #193 @ $8BA4 - STRING #193 @ $C2FE
+#W32($8BA4)
+//[Futon-Dog]にこの前見た図の[NLINE]
+//ダンスを教えてみましょう。[END-FE]
+Let's teach [Futon-Dog] the dance[NLINE]
+we saw on that diagram earlier.[END-FE]
+
+
+
+
+
+//POINTER #194 @ $8BA8 - STRING #194 @ $C331
+#W32($8BA8)
+//　[NLINE]
+//[Futon-Dog]はタップダンスを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned Tap Dance![END-FE]
+
+
+
+
+
+//POINTER #195 @ $8BAC - STRING #195 @ $C354
+#W32($8BAC)
+//[Futon-Dog]にこの前買った本の内容を[NLINE]
+//教えましょう。[END-FE]
+Let's learn [Futon-Dog] the dance[NLINE]
+from that book we bought last time![END-FE]
+
+
+
+
+
+//POINTER #196 @ $8BB0 - STRING #196 @ $C383
+#W32($8BB0)
+//　[NLINE]
+//[Futon-Dog]は体操ダンスを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned Gymnastics Dance![END-FE]
+
+
+
+
+
+//POINTER #197 @ $8BB4 - STRING #197 @ $C3A4
+#W32($8BB4)
+//ふとん犬に会いたくなったら、[NLINE]
+//いつでも来てくれ。[END-FE]
+If ya want to see yoah Futon Dog,[NLINE]
+come see me anytoime.[END-FE]
+
+
+
+
+
+//POINTER #198 @ $8BB8 - STRING #198 @ $C3D7
+#W32($8BB8)
+//仕事の途中だね。[NLINE]
+//今回の仕事はキャンセルして、[NLINE]
+//散歩を終わりにするかい？[END-FE]
+Yaw in the middle of a job.[NLINE]
+Would ya loike to cancel yoah job[NLINE]
+and end yoah walk?[END-FE]
+
+
+
+
+
+//POINTER #199 @ $8BBC - STRING #199 @ $C422
+#W32($8BBC)
+//わかった。[NLINE]
+//仕事はキャンセルしておくよ。[NLINE]
+//また、[Futon-Dog]に会いに来てくれよ！[END-FE]
+Roight.[NLINE]
+I'll cancel the job for ya.[NLINE]
+Come see [Futon-Dog] another toime![END-FE]
+
+
+
+
+
+//POINTER #200 @ $8BC0 - STRING #200 @ $C46D
+#W32($8BC0)
+//じゃあ、仕事をガンバってくれ！[END-FE]
+Alroight, good luck with the job![END-FE]
+
+
+
+
+
+//POINTER #201 @ $8BC4 - STRING #201 @ $C48E
+#W32($8BC4)
+//散歩は終わりかい？[END-FE]
+Would ya loike to end yoah walk?[END-FE]
+
+
+
+
+
+//POINTER #202 @ $8BC8 - STRING #202 @ $C4A3
+#W32($8BC8)
+//そうか。[NLINE]
+//また[Futon-Dog]に会いに来てくれよ！[END-FE]
+Roight. If ya want to see yoah Futon Dog,[NLINE]
+come see me anytoime.[END-FE]
+
+
+
+
+
+//POINTER #203 @ $8BCC - STRING #203 @ $C4CC
+#W32($8BCC)
+//じゃあ、[NLINE]
+//もっとふとん犬と遊んでおいでよ。[END-FE]
+Alroight, then play with yoah[NLINE]
+doggie some moar.[END-FE]
+
+
+
+
+
+//POINTER #204 @ $8BD0 - STRING #204 @ $C4F9
+#W32($8BD0)
+//どうしたんだい？[NLINE]
+//仕事をキャンセルするのかい？[END-FE]
+What's the mahttah?[NLINE]
+Would ya loike to cancel yoah job?[END-FE]
+
+
+
+
+
+//POINTER #205 @ $8BD4 - STRING #205 @ $C52A
+#W32($8BD4)
+//わかった。[NLINE]
+//仕事はキャンセルしておくよ。[END-FE]
+Roight.[NLINE]
+I'll cancel the job for ya.[END-FE]
+
+
+
+
+
+//POINTER #206 @ $8BD8 - STRING #206 @ $C555
+#W32($8BD8)
+//じゃあ、仕事をガンバってくれ！[END-FE]
+Alroight, good luck with the job![END-FE]
+
+
+
+
+
+//POINTER #207 @ $8BDC - STRING #207 @ $C576
+#W32($8BDC)
+//どのアドバイスを受けたいのかな？[END-FE]
+What advoice would ya loike to heah?[END-FE]
+
+
+
+
+
+//POINTER #208 @ $8BE0 - STRING #208 @ $C599
+#W32($8BE0)
+//・サービスポイントについて[END-FE]
+・About Service Points[END-FE]
+
+
+
+
+
+//POINTER #209 @ $8BE4 - STRING #209 @ $C5B6
+#W32($8BE4)
+//・サポートについて[END-FE]
+・About Support[END-FE]
+
+
+
+
+
+//POINTER #210 @ $8BE8 - STRING #210 @ $C5CB
+#W32($8BE8)
+//・コンテストについて[END-FE]
+・About Contests[END-FE]
+
+
+
+
+
+//POINTER #211 @ $8BEC - STRING #211 @ $C5E2
+#W32($8BEC)
+//・アドバイスは要らない[END-FE]
+・I don't need advice[END-FE]
+
+
+
+
+
+//POINTER #212 @ $8BF0 - STRING #212 @ $C5FB
+#W32($8BF0)
+//ふとん犬たちのサポートを受ける[NLINE]
+//ことの出来るポイントだ。[NWIN]
+//
+//私が紹介する仕事をふとん犬と[NLINE]
+//いっしょにこなして、[NLINE]
+//これを稼いで欲しい。[END-FE]
+These are points ya can spend to[NLINE]
+receive suppoht for yoah doggie.[NWIN]
+
+I want ya to earn these by[NLINE]
+completin' certain jobs togethah[NLINE]
+with [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #213 @ $8BF4 - STRING #213 @ $C680
+#W32($8BF4)
+//この村で行われているサービスは[NLINE]
+//ご褒美、玩具の貸し出し、[NLINE]
+//それと音楽鑑賞だ。[NWIN]
+//
+//それぞれサポートを受けるには[NLINE]
+//サービスポイントが必要になる。[NWIN]
+//
+//必要なポイントは表示されているはずだから、[NLINE]
+//残りポイントには注意して[NLINE]
+//サポートを受けてくれ。[NWIN]
+//
+//ご褒美と玩具の貸し出しは、私。[NLINE]
+//コンテスト申し込みは、隣の彼女。[NLINE]
+//そして音楽鑑賞は宿の人が受け持っている。[NWIN]
+//
+//色々顔を出してみてくれ。[NLINE]
+//もしかしたら、サービスは増えるかもしれない。[NLINE]
+//村の外から新しい何かが入ってくれば…、とかね。[END-FE]
+The services offered in this village[NLINE]
+are: treat givin', rentin' toys,[NLINE]
+and music playin'.[NWIN]
+
+Ya will need Service Points to[NLINE]
+receive these services.[NWIN]
+
+The required amount of point is[NLINE]
+displayed on the roight. Pay attention[NLINE]
+to yoah remaining points when makin'[NLINE]
+use o' services.[NWIN]
+
+I'm the one who gives treats and rents[NLINE]
+out toys. If ya want to apply for[NLINE]
+a contest, talk to the sheila next[NLINE]
+to me. The inn keeper is in charge of[NLINE]
+playing music.[NWIN]
+
+The amount of services moight increase.[NLINE]
+For example, when someone new comes to[NLINE]
+the village... or somethin'. Anyway,[NLINE]
+make sure to drop by from toime to toime.[END-FE]
+
+
+
+
+
+//POINTER #214 @ $8BF8 - STRING #214 @ $C84F
+#W32($8BF8)
+//コンテストには他のブリーダーが鍛えた、[NLINE]
+//強力なふとん犬たちが出場してくる。[NLINE]
+//生半可な鍛え方では、勝てないぞ。[NWIN]
+//
+//それにコンテスト登録料としてお金が必要になる。[NLINE]
+//ある程度鍛えておかないと、[NLINE]
+//お金をドブに捨てる事になるぞ。[NWIN]
+//
+//コンテストの特徴を見て、[NLINE]
+//どの能力が必要かを考えると良いだろう。[END-FE]
+Paowerful Futon Dogs trained by other[NLINE]
+raisers will participate in the contest.[NLINE]
+Ya can't win with a half-baked trainin'[NLINE]
+method.[NWIN]
+
+Also, ya 'ave to pay a contest[NLINE]
+registration fee. If ya don't train[NLINE]
+to some extent, ya'll just end[NLINE]
+up bleedin' money.[NWIN]
+
+Lookin' at the characteristics of[NLINE]
+each contest and thinkin' about which[NLINE]
+aboilitees ya need would be the good[NLINE]
+oil.[END-FE]
+
+
+
+
+
+//POINTER #215 @ $8BFC - STRING #215 @ $C96C
+#W32($8BFC)
+//私が育てたふとん犬に[NLINE]
+//挑戦する気になったかい？[END-FE]
+Feelin' loike challengin' the[NLINE]
+Futon Dog I raised?[END-FE]
+
+
+
+
+
+//POINTER #216 @ $8C00 - STRING #216 @ $C99D
+#W32($8C00)
+//結構。[NWIN]
+//
+//では、競う内容だが、[NLINE]
+//シンプルにふとん犬の力を競う[NLINE]
+//闘犬対決と行こう。[NWIN]
+//
+//それではいつも通り、[NLINE]
+//申し込みをしてくれ。[NLINE]
+//今回は特別なイベントだ。[NWIN]
+//
+//参加費用なんてケチな事は言わないよ。[NLINE]
+//いつでも挑戦しに来てくれ。[END-FE]
+Bonzer![NWIN]
+
+Alroight, the contest is simple:[NLINE]
+we will let our doggies foight to[NLINE]
+see which one is strawngest![NWIN]
+
+Please apply as usual.[NLINE]
+It's a special event.[NWIN]
+
+Just so ya know, the participation fee[NLINE]
+ain't cheap. Come challenge Ellon anytoime.[END-FE]
+
+
+
+
+
+//POINTER #217 @ $8C04 - STRING #217 @ $CA76
+#W32($8C04)
+//そうか。[NWIN]
+//
+//挑戦したくなったらいつでも言ってくれ。[NLINE]
+//私たちはいつでも君たちの挑戦を受けよう。[END-FE]
+Roight.[NWIN]
+
+Whenever yaw ready to challenge Ellon,[NLINE]
+just give me a shout. We will always accept[NLINE]
+yoah challenge.[END-FE]
+
+
+
+
+
+//POINTER #218 @ $8C08 - STRING #218 @ $CAD3
+#W32($8C08)
+//ブリーダーさんいらっしゃい！[NLINE]
+//私にどんな御用かな？[END-FE]
+Welcome raisers! How may I help[NLINE]
+you?[END-FE]
+
+
+
+
+
+//POINTER #219 @ $8C0C - STRING #219 @ $CB08
+#W32($8C0C)
+//・コンテストに参加する[END-FE]
+・Participate in contest[END-FE]
+
+
+
+
+
+//POINTER #220 @ $8C10 - STRING #220 @ $CB21
+#W32($8C10)
+//・忠犬度が知りたい[END-FE]
+・Check Loyalty Depth[END-FE]
+
+
+
+
+
+//POINTER #221 @ $8C14 - STRING #221 @ $CB36
+#W32($8C14)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #222 @ $8C18 - STRING #222 @ $CB41
+#W32($8C18)
+//コンテストの参加申し込みだね。[NLINE]
+//どのコンテストに出場するつもりなのかな？[END-FE]
+So you will participate in a contest.[NLINE]
+Which contest will you participate in?[END-FE]
+
+
+
+
+
+//POINTER #223 @ $8C1C - STRING #223 @ $CB8C
+#W32($8C1C)
+//・ドッグレースコンテスト[END-FE]
+・Dog Race Contest[END-FE]
+
+
+
+
+
+//POINTER #224 @ $8C20 - STRING #224 @ $CBA7
+#W32($8C20)
+//・ダンスコンテスト[END-FE]
+・Dance Contest[END-FE]
+
+
+
+
+
+//POINTER #225 @ $8C24 - STRING #225 @ $CBBC
+#W32($8C24)
+//・ゲテモノ大食いコンテスト[END-FE]
+・Slime Binge-eating Contest[END-FE]
+
+
+
+
+
+//POINTER #226 @ $8C28 - STRING #226 @ $CBD9
+#W32($8C28)
+//・玉探しコンテスト[END-FE]
+・Ball Search Contest[END-FE]
+
+
+
+
+
+//POINTER #227 @ $8C2C - STRING #227 @ $CBEE
+#W32($8C2C)
+//・ペケと戦う[END-FE]
+・Challenge Ellon[END-FE]
+
+
+
+
+
+//POINTER #228 @ $8C30 - STRING #228 @ $CBFD
+#W32($8C30)
+//・出場を止める[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #229 @ $8C34 - STRING #229 @ $CC0E
+#W32($8C34)
+//ドッグレースコンテストだね。[END-FE]
+The Dog Race Contest?[END-FE]
+
+
+
+
+
+//POINTER #230 @ $8C38 - STRING #230 @ $CC2D
+#W32($8C38)
+//・コンテストの説明を受ける[END-FE]
+・Receive explanation about contest[END-FE]
+
+
+
+
+
+//POINTER #231 @ $8C3C - STRING #231 @ $CC4A
+#W32($8C3C)
+//・参加する[END-FE]
+・Participate[END-FE]
+
+
+
+
+
+//POINTER #232 @ $8C40 - STRING #232 @ $CC57
+#W32($8C40)
+//・参加を止める[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #233 @ $8C44 - STRING #233 @ $CC68
+#W32($8C44)
+//ふとん犬たちは、[NLINE]
+//飼い主へと真っ直ぐに走っていきます。[NWIN]
+//
+//右上にふとん犬の体力ゲージがあります。[NLINE]
+//走っている間、このゲージが減っていきます。[NWIN]
+//
+//体力が尽きてしまうと、ふとん犬は[NLINE]
+//最低の走力でしか走れなくなってしまいます。[NWIN]
+//
+//競技中、[COL03]○[COL00]を押す事で[NLINE]
+//ふとん犬はダッシュを開始します。[NWIN]
+//
+//この状態では、体力の減り方が大幅にアップし、[NLINE]
+//直ぐに体力が底をついてしまいますので[NLINE]
+//注意してください。[NWIN]
+//
+//ダッシュ中に[COL09]×[COL00]を押す事で、[NLINE]
+//ダッシュを解除する事ができます。[NWIN]
+//
+//普通に走っている状態の時、[COL04]△[COL00]を[NLINE]
+//連打する事で体力が回復していきます。[NWIN]
+//
+//これらのボタンを駆使して、[NLINE]
+//どのふとん犬よりも先に[NLINE]
+//ゴールを目指してください。[END-FE]
+The Futon Dogs will run straight to[NLINE]
+their owners.[NWIN]
+
+A gauge showing your Futon Dog's[NLINE]
+physical strength will be displayed[NLINE]
+on the left. This gauge will deplete[NLINE]
+while it's running.[NWIN]
+
+Once its physical strength has been[NLINE]
+exhausted, it will only be able to run[NLINE]
+at the lowest speed possible.[NWIN]
+
+During the contest, press [COL03][CIRCLE][COL00][NLINE]
+to make your Futon Dog start dashing.[NWIN]
+
+Please note that during this state,[NLINE]
+your Futon Dog's physical strength[NLINE]
+will decrease significantly and will[NLINE]
+soon run out.[NWIN]
+
+You can cancel the dash by pressing[NLINE]
+[COL09][CROSS][COL00].[NWIN]
+
+During normal running, you can restore[NLINE]
+your Futon Dog's physical strength by[NLINE]
+pressing [COL04]△[COL00] repeatedly.[NWIN]
+
+Make full use of these buttons to[NLINE]
+make your Futon Dog reach the goal[NLINE]
+before any of the others.[END-FE]
+
+
+
+
+
+//POINTER #234 @ $8C48 - STRING #234 @ $CEC9
+#W32($8C48)
+//参加するのは５００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 500Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #235 @ $8C4C - STRING #235 @ $CEF8
+#W32($8C4C)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #236 @ $8C50 - STRING #236 @ $CF1F
+#W32($8C50)
+//参加するのは１０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 1000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #237 @ $8C54 - STRING #237 @ $CF50
+#W32($8C54)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #238 @ $8C58 - STRING #238 @ $CF77
+#W32($8C58)
+//参加するのは２０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 2000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #239 @ $8C5C - STRING #239 @ $CFA8
+#W32($8C5C)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #240 @ $8C60 - STRING #240 @ $CFCF
+#W32($8C60)
+//ダンスコンテストだね。[END-FE]
+The Dance Contest?[END-FE]
+
+
+
+
+
+//POINTER #241 @ $8C64 - STRING #241 @ $CFE8
+#W32($8C64)
+//・コンテストの説明を受ける[END-FE]
+・Receive explanation about contest[END-FE]
+
+
+
+
+
+//POINTER #242 @ $8C68 - STRING #242 @ $D005
+#W32($8C68)
+//・参加する[END-FE]
+・Participate[END-FE]
+
+
+
+
+
+//POINTER #243 @ $8C6C - STRING #243 @ $D012
+#W32($8C6C)
+//・参加を止める[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #244 @ $8C70 - STRING #244 @ $D023
+#W32($8C70)
+//出題される音楽に合わせて３回ダンスを披露し、[NLINE]
+//その得点を競い合います。[NWIN]
+//
+//出題される音楽はコンテストの最初に[NLINE]
+//表示されます。[NWIN]
+//
+//次にダンスを[COL03]○[COL00]、[COL04]△[COL00]、[COL05]□[COL00]の３つのボタンに[NLINE]
+//セットします。[NWIN]
+//
+//音楽とダンスには相性がありますので、[NLINE]
+//ダンスをセットする時は出題された[NLINE]
+//音楽を考慮してセットしてください。[NWIN]
+//
+//ダンスを踊りきるのに必要な体力があります。[NLINE]
+//３回踊りがありますので、[NLINE]
+//体力を考慮してダンスを選んでください。[NWIN]
+//
+//競技が始まり、ミュージックスタートの文字が[NLINE]
+//出て音楽が流れたら、２秒以内にダンスを[NLINE]
+//セットしたボタンを押してふとん犬に[NLINE]
+//踊るダンスを指示してください。[NWIN]
+//
+//２秒経過してしまうと、その回のダンスは[NLINE]
+//放棄したとみなされてしまいます。[NWIN]
+//
+//出題された音楽の内のどれかが流れますので、[NLINE]
+//それに合ったセットしたダンスボタンを押して[NLINE]
+//高得点を狙ってください。[NWIN]
+//
+//ボタンにセットしたダンスは、[NLINE]
+//それぞれ一回ずつしか使えませんので、[NLINE]
+//２度目、３度目のダンスの時は[NLINE]
+//それを忘れないようにしてください。[NWIN]
+//
+//音楽が流れ、ボタンを押すまでの時間も[NLINE]
+//得点に影響してきますので、音楽が分かり次第、[NLINE]
+//ボタンを早めに押してください。[NWIN]
+//
+//３回のダンスの合計点が自分の得点となり、[NLINE]
+//それを他のふとん犬たちのダンス得点と競います。[END-FE]
+Your Futon Dog will dance to three different[NLINE]
+music pieces and aim for the highest score.[NWIN]
+
+The music pieces will be displayed at the[NLINE]
+beginning of the contest.[NWIN]
+
+Next, set a dance to the following buttons:[NLINE]
+[COL03][CIRCLE][COL00], [COL04][TRIANGLE][COL00] and [COL05]Square[COL00].[[NWIN]
+
+Because there are affinities between[NLINE]
+certain dances and music pieces, please[NLINE]
+take into account the music when[NLINE]
+setting a dance.[NWIN]
+
+Physical strength is needed to complete[NLINE]
+a dance. Because your Futon Dog will[NLINE]
+perform a dance three times, please consider[NLINE]
+its physical strength when choosing[NLINE]
+the dances.[NWIN]
+
+When the competition starts, the name[NLINE]
+of the piece will be displayed, and the[NLINE]
+music will begin. Make sure to press one[NLINE]
+of the three earlier mentioned buttons[NLINE]
+within two seconds to let your Futon[NLINE]
+Dog know which dance it should do.[NWIN]
+
+If you fail to press one of these[NLINE]
+buttons within two seconds, your Futon[NLINE]
+Dog won't be allowed to perform its[NLINE]
+dance that turn.[NWIN]
+
+After that, choose the dance that best matches[NLINE]
+the music that is playing by pressing one of the[NLINE]
+three buttons, and aim for the highest score.[NWIN]
+
+You can only use each button once,[NLINE]
+so keep this in mind when the second[NLINE]
+and third music pieces are playing.[NWIN]
+
+The time it takes to press a button also[NLINE]
+effects the score, so remember to press[NLINE]
+a button as soon as you recognize the[NLINE]
+music.[NWIN]
+
+Your final score is a combination[NLINE]
+of the points you earned with each[NLINE]
+of the three dances, and will be[NLINE]
+compared to that of the other Futon Dogs.[END-FE]
+
+
+
+
+
+//POINTER #245 @ $8C74 - STRING #245 @ $D46C
+#W32($8C74)
+//あら？[NLINE]
+//どうやらダンスを１つも[NLINE]
+//覚えてないみたいだね。[NWIN]
+//
+//それじゃあ、[NLINE]
+//ダンスコンテストに出場できないよ。[END-FE]
+Oh? It seems your Futon Dog[NLINE]
+hasn't remembered any dances.[NWIN]
+
+Unfortunately, that means it won't[NLINE]
+be able to participate in the Dance[NLINE]
+Contest.[END-FE]
+
+
+
+
+
+//POINTER #246 @ $8C78 - STRING #246 @ $D4D7
+#W32($8C78)
+//参加するのは５００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 500Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #247 @ $8C7C - STRING #247 @ $D506
+#W32($8C7C)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #248 @ $8C80 - STRING #248 @ $D52D
+#W32($8C80)
+//参加するのは１０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 1000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #249 @ $8C84 - STRING #249 @ $D55E
+#W32($8C84)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #250 @ $8C88 - STRING #250 @ $D585
+#W32($8C88)
+//参加するのは２０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 2000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #251 @ $8C8C - STRING #251 @ $D5B6
+#W32($8C8C)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #252 @ $8C90 - STRING #252 @ $D5DD
+#W32($8C90)
+//ゲテモノ大食いコンテストだね。[END-FE]
+The Slime Binge-eating Contest?[END-FE]
+
+
+
+
+
+//POINTER #253 @ $8C94 - STRING #253 @ $D5FE
+#W32($8C94)
+//・コンテストの説明を受ける[END-FE]
+・Receive explanation about contest[END-FE]
+
+
+
+
+
+//POINTER #254 @ $8C98 - STRING #254 @ $D61B
+#W32($8C98)
+//・参加する[END-FE]
+・Participate[END-FE]
+
+
+
+
+
+//POINTER #255 @ $8C9C - STRING #255 @ $D628
+#W32($8C9C)
+//・参加を止める[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #256 @ $8CA0 - STRING #256 @ $D639
+#W32($8CA0)
+//制限時間内に、多くのゲテモノを[NLINE]
+//ふとん犬に食べさせた者が勝者になります。[NWIN]
+//
+//ふとん犬はゲテモノの前に立つと、[NLINE]
+//一定の速度で食べていきます。[NWIN]
+//
+//ふとん犬の左右にプレイヤーが立つと[NLINE]
+//アイコンが現れます。[NWIN]
+//
+//この時に[COL03]○[COL00]を連打すると、[NLINE]
+//ふとん犬を応援する事ができます。[NLINE]
+//これに応えて、ふとん犬はゲテモノを[NLINE]
+//食べる速度を上げます。[NWIN]
+//
+//右上にあるゲージが満たされれば、[NLINE]
+//ゲテモノを一匹食べたことになります。[NLINE]
+//目安にしてください。[NWIN]
+//
+//しばらくゲテモノと向かい合っていると、[NLINE]
+//ふとん犬は食べるのを嫌がり[NLINE]
+//逃げ出してしまいます。[NWIN]
+//
+//その時はふとん犬を迎えに[NLINE]
+//行ってあげてください。[NLINE]
+//逃げたふとん犬に近づき説得すると、[NLINE]
+//競技に復帰してくれます。[NWIN]
+//
+//どうにかしてふとん犬をゲテモノの前に置いて、[NLINE]
+//多くのゲテモノを食べさせてください。[END-FE]
+The Futon Dog who eats the most Slimes[NLINE]
+within the time limit is the winner.[NWIN]
+
+When a Futon Dog stands in front of[NLINE]
+a slime, it eats at a constant speed.[NWIN]
+
+An icon will appear when you stand to[NLINE]
+the left or right of the Futon Dog.[NWIN]
+
+If you press [COL03][CIRCLE][COL00] during[NLINE]
+that time, you can support your Futon Dog.[NLINE]
+In response to this, the rate at which your[NLINE]
+Futon Dog eats Slimes will increase.[NWIN]
+
+Your Futon Dog will have eaten one[NLINE]
+Slime once the gauge in the upper right[NLINE]
+is filled. Please use this as a guide.[NWIN]
+
+After facing the Slime for a while,[NLINE]
+the Futon Dog will become unwilling[NLINE]
+to eat it and will run away.[NWIN]
+
+Please fetch back your Futon Dog[NLINE]
+when that happens. If you approach[NLINE]
+the runaway Futon Dog and encourage[NLINE]
+it, it will return to the competion.[NWIN]
+
+Please make your Futon Dog eat as much[NLINE]
+Slimes as possible.[END-FE]
+
+
+
+
+
+//POINTER #257 @ $8CA4 - STRING #257 @ $D8FA
+#W32($8CA4)
+//参加するのは５００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 500Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #258 @ $8CA8 - STRING #258 @ $D929
+#W32($8CA8)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #259 @ $8CAC - STRING #259 @ $D950
+#W32($8CAC)
+//参加するのは１０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 1000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #260 @ $8CB0 - STRING #260 @ $D981
+#W32($8CB0)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #261 @ $8CB4 - STRING #261 @ $D9A8
+#W32($8CB4)
+//参加するのは２０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 2000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #262 @ $8CB8 - STRING #262 @ $D9D9
+#W32($8CB8)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #263 @ $8CBC - STRING #263 @ $DA00
+#W32($8CBC)
+//コンテストに参加する気になったら[NLINE]
+//私に言ってね。[END-FE]
+Please let me know if you would like[NLINE]
+to participate in a contest.[END-FE]
+
+
+
+
+
+//POINTER #264 @ $8CC0 - STRING #264 @ $DA33
+#W32($8CC0)
+//玉探しコンテストだね。[END-FE]
+The Ball Search Contest?[END-FE]
+
+
+
+
+
+//POINTER #265 @ $8CC4 - STRING #265 @ $DA4C
+#W32($8CC4)
+//・コンテストの説明を受ける[END-FE]
+・Receive explanation on contest[END-FE]
+
+
+
+
+
+//POINTER #266 @ $8CC8 - STRING #266 @ $DA69
+#W32($8CC8)
+//・参加する[END-FE]
+・Participate[END-FE]
+
+
+
+
+
+//POINTER #267 @ $8CCC - STRING #267 @ $DA76
+#W32($8CCC)
+//・参加を止める[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #268 @ $8CD0 - STRING #268 @ $DA87
+#W32($8CD0)
+//制限時間内に、会場に埋められた[NLINE]
+//１０個の玉をより多く見つけ出した者が[NLINE]
+//勝者となります。[NWIN]
+//
+//[COL03]○[COL00]を押すと、[NLINE]
+//ふとん犬に足元を掘らせる事が出来ます。[NWIN]
+//
+//掘っている間にも競技時間は経過していますので、[NLINE]
+//ある程度埋められた場所を予測して掘った方が[NLINE]
+//効率良く玉を回収できます。[NWIN]
+//
+//[COL09]×[COL00]を押す事で、[NLINE]
+//ふとん犬がサーチしてくれます。[NWIN]
+//
+//玉の埋まっている方向を、ふとん犬の向きで、[NLINE]
+//距離を、吠えたり、アイコンで教えてくれます。[END-FE]
+The Futon Dog who finds most of the[NLINE]
+ten balls buried at the site within the[NLINE]
+limit will be the winner.[NWIN]
+
+By pressing [COL03]○[COL00] you can make[NLINE]
+your Futon Dog dig where it's standing.[NWIN]
+
+Because the timer keeps counting down[NLINE]
+while your Futon Dog is digging, it's[NLINE]
+best to predict where a ball could be[NLINE]
+buried to some extent. This way, you[NLINE]
+can collect balls more efficiently.[NWIN]
+
+You can make your Futon Dog search[NLINE]
+by pressing [COL09]CROSS[COL00].[NWIN]
+
+The direction where the ball is buried[NLINE]
+is indicated by the direction your Futon[NLINE]
+Dog is facing. The distance is determined[NLINE]
+by the way your Futon Dog barks and the icon[NLINE]
+it displays.[END-FE]
+
+
+
+
+
+//POINTER #269 @ $8CD4 - STRING #269 @ $DC24
+#W32($8CD4)
+//１回吠え　　　　　　　遠距離[NLINE]
+//２回吠え　　　　　　　中遠距離[NLINE]
+//[COL03]!![COL00]＋１回吠え　　　　　中距離[NLINE]
+//[COL03]!![COL00]＋２回吠え　　　　　中近距離[NLINE]
+//[COL03]!![COL00]＋３回吠え　　　　　近距離[NLINE]
+//[COL09][MUSIC-NOTE][COL00]＋３回吠え　　　　　足元[END-FE]
+One bark             Long distance[NLINE]
+Two barks            Moderately long distance[NLINE]
+[COL03]!![COL00]+ One bark       Moderate distance[NLINE]
+[COL03]!![COL00]+ Two barks      Moderately short distance[NLINE]
+[COL03]!![COL00]+ Three barks    Short distance[NLINE]
+[COL09][MUSIC-NOTE][COL00]+ three barks　　　　　Right underneath[END-FE]
+
+
+
+
+
+//POINTER #270 @ $8CD8 - STRING #270 @ $DCF3
+#W32($8CD8)
+//それ以上遠くであったり、能力が足りないと、[NLINE]
+//ふとん犬はサーチする事が出来ません。[NLINE]
+//サーチ回数は能力に従って増加していきます。[NWIN]
+//
+//サーチを駆使して、[NLINE]
+//会場から多くの玉を探し出してください。[END-FE]
+Your Futon Dog will not be able to search[NLINE]
+if it's too far away or if its Discipline[NLINE]
+stat and Loyalty is too low. The number[NLINE]
+of searches will increase in accordance[NLINE]
+with its Discipline stat and Loyalty.[NWIN]
+
+Make the most of your Futon Dog's search[NLINE]
+ability to find the most balls at the site.[END-FE]
+
+
+
+
+
+//POINTER #271 @ $8CDC - STRING #271 @ $DDAE
+#W32($8CDC)
+//参加するのは５００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 500Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #272 @ $8CE0 - STRING #272 @ $DDDD
+#W32($8CE0)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #273 @ $8CE4 - STRING #273 @ $DE04
+#W32($8CE4)
+//参加するのは１０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 1000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #274 @ $8CE8 - STRING #274 @ $DE35
+#W32($8CE8)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #275 @ $8CEC - STRING #275 @ $DE5C
+#W32($8CEC)
+//参加するのは２０００Ы必要だけど、[NLINE]
+//参加する？[END-FE]
+You need 2000Ы to participate.[NLINE]
+Will you participate?[END-FE]
+
+
+
+
+
+//POINTER #276 @ $8CF0 - STRING #276 @ $DE8D
+#W32($8CF0)
+//じゃあ、コンテスト会場に案内するね。[END-FE]
+Very well, I will guide you to the contest[NLINE]
+site.[END-FE]
+
+
+
+
+
+//POINTER #277 @ $8CF4 - STRING #277 @ $DEB4
+#W32($8CF4)
+//…そうか。[NLINE]
+//君たちは遂に、そこまで登り詰めたんだね。[NWIN]
+//
+//私から言える事は、[NLINE]
+//ペケちゃんはハゼゴロウさんが[NLINE]
+//育てた無敗のふとん犬。[NWIN]
+//
+//生半可な育て方では勝てないよ。[END-FE]
+...I see. So you have finally made[NLINE]
+it to the top.[NWIN]
+
+All I can say is that Ellon is[NLINE]
+an undefeated Futon Dog raised by[NLINE]
+Dr. Irving himself.[NWIN]
+
+A Futon Dog that lacks a good upbringing[NLINE]
+isn't going to best him.[END-FE]
+
+
+
+
+
+//POINTER #278 @ $8CF8 - STRING #278 @ $DF55
+#W32($8CF8)
+//それでも挑戦する？[END-FE]
+Would you still like to challenge Ellon?[END-FE]
+
+
+
+
+
+//POINTER #279 @ $8CFC - STRING #279 @ $DF6A
+#W32($8CFC)
+//・闘犬の説明を受ける[END-FE]
+・Receive explanation on dogfight[END-FE]
+
+
+
+
+
+//POINTER #280 @ $8D00 - STRING #280 @ $DF81
+#W32($8D00)
+//・挑戦する[END-FE]
+・Challenge[END-FE]
+
+
+
+
+
+//POINTER #281 @ $8D04 - STRING #281 @ $DF8E
+#W32($8D04)
+//・挑戦しない[END-FE]
+・Don't challenge[END-FE]
+
+
+
+
+
+//POINTER #282 @ $8D08 - STRING #282 @ $DF9D
+#W32($8D08)
+//王者ペケとの一対一の真剣バトルです。[NLINE]
+//相手のＨＰを０にした者が勝者となります。[NWIN]
+//
+//闘犬には攻撃ターンと防御ターンがあります。[NWIN]
+//
+//攻撃ターンは、[NLINE]
+//警戒ポイントサーチと攻撃場所指定の[NLINE]
+//２つで構成されています。[NWIN]
+//
+//警戒ポイントサーチは、[NLINE]
+//敵がどの位置を警戒しているか、[NLINE]
+//警戒が薄いかを見抜いてくれます。[NWIN]
+//
+//能力が高ければ、[NLINE]
+//警戒網を見抜く確率が上がります。[NWIN]
+//
+//攻撃場所指定は、[NLINE]
+//敵をどこから攻めるかを指定します。[NWIN]
+//
+//能力が高ければ、[NLINE]
+//クリティカルが出る確率が上がります。[NWIN]
+//
+//それぞれにブーストをかける事が出来、[NLINE]
+//またそれを使う事により、[NLINE]
+//より良い結果を出す確率が上昇します。[NWIN]
+//
+//防御ターンは、相手の攻撃を防御します。[NLINE]
+//能力が高ければ、防御する率が上昇します。[NWIN]
+//
+//これにもブーストをかける事が出来、[NLINE]
+//高確率で防御を成功させる事ができます。[NWIN]
+//
+//ブースト回数は限られており、[NLINE]
+//能力により増減します。[NWIN]
+//
+//ブーストを必要なタイミングで使い、[NLINE]
+//敵のＨＰを削り、自分のＨＰを守り、[NLINE]
+//この戦いを勝ち抜いてください。[END-FE]
+Your Futon Dog will engage in a[NLINE]
+one-on-one fight with the reigning[NLINE]
+champion Ellon. You simply have to[NLINE]
+win.[NWIN]
+
+There will attack turns and defense[NLINE]
+turns during the dogfight.[NWIN]
+
+Your Futon Dog's attack turn consists[NLINE]
+of two parts: Alertness Check and[NLINE]
+Determine Attack Location.[NWIN]
+
+Alertness Check will tell you[NLINE]
+on which side your opponent is[NLINE]
+alert and on which side he is less[NLINE]
+alert.[NWIN]
+
+The higher the Smell stat and Loyalty[NLINE]
+of your Futon Dog, the more likely it[NLINE]
+is to find a weakpoint in its opponent's[NLINE]
+defense.[NWIN]
+
+During Determine Attack Location, you[NLINE]
+will decide from side your Futon Dog[NLINE]
+will attack its opponent.[NWIN]
+
+The higher your Futon Dog's overall[NLINE]
+stats, the higher the chance it will[NLINE]
+land a critical hit.[NWIN]
+
+You can further improve the chance to find[NLINE]
+a weakspot or land a critical hit by making[NLINE]
+use of boosts.[NWIN]
+
+During the defense turn, your Futon Dog[NLINE]
+will defend against its opponent's attacks.[NWIN]
+
+Likewise, you can make use of boosts to[NLINE]
+raise the chance of a successful defense.[NWIN]
+
+The number of boosts is limited and will[NLINE]
+increase or decrease depending on your[NLINE]
+Futon Dog's stats.[NWIN]
+
+Use boosts when you need them,[NLINE]
+lower your opponent's HP, and make[NLINE]
+sure the HP of your own Futon Dog stays[NLINE]
+high. That is the road to victory.[END-FE]
+
+
+
+
+
+//POINTER #283 @ $8D0C - STRING #283 @ $E306
+#W32($8D0C)
+//ペケに挑戦する？[END-FE]
+Challenge Ellon?[END-FE]
+
+
+
+
+
+//POINTER #284 @ $8D10 - STRING #284 @ $E319
+#W32($8D10)
+//・闘犬の説明を受ける[END-FE]
+・Receive explanation on dogfight[END-FE]
+
+
+
+
+
+//POINTER #285 @ $8D14 - STRING #285 @ $E330
+#W32($8D14)
+//・挑戦する[END-FE]
+・Challenge[END-FE]
+
+
+
+
+
+//POINTER #286 @ $8D18 - STRING #286 @ $E33D
+#W32($8D18)
+//・挑戦しない[END-FE]
+・Don't challenge[END-FE]
+
+
+
+
+
+//POINTER #287 @ $8D1C - STRING #287 @ $E34C
+#W32($8D1C)
+//わかった。[NLINE]
+//じゃあ、会場に案内するよ。[NLINE]
+//ガンバってね。[END-FE]
+I see. Then I will now guide[NLINE]
+you to the contest site. Good[NLINE]
+luck.[END-FE]
+
+
+
+
+
+//POINTER #288 @ $8D20 - STRING #288 @ $E385
+#W32($8D20)
+//賢明な判断だと思うよ。[NLINE]
+//自信が持てたら挑戦したら良いよ。[END-FE]
+I think that's a wise decision.[NLINE]
+Come back when you feel more confident.[END-FE]
+
+
+
+
+
+//POINTER #289 @ $8D24 - STRING #289 @ $E3C0
+#W32($8D24)
+//ペケちゃんはリベンジのために、[NLINE]
+//特訓でお出かけ中みたい。[NLINE]
+//だから、戦えないの。[NLINE]
+//ごめんね。[END-FE]
+Ellon is out training to get[NLINE]
+revenge on you. Thus, you can't[NLINE]
+fight him. I'm sorry.[END-FE]
+
+
+
+
+
+//POINTER #290 @ $8D28 - STRING #290 @ $E41D
+#W32($8D28)
+//ペケちゃんはお留守なの。[NLINE]
+//だから、戦えないの。[NLINE]
+//ごめんね。[END-FE]
+Ellon is out. Thus, you can't[NLINE]
+fight him. I'm sorry.[END-FE]
+
+
+
+
+
+//POINTER #291 @ $8D2C - STRING #291 @ $E45A
+#W32($8D2C)
+//忠犬度。[NLINE]
+//つまりどれぐらいなつかれているかを[NLINE]
+//知りたいのね。[NWIN]
+//
+//調べてみるから、[NLINE]
+//ちょっと待っててね。[END-FE]
+Loyalty Depth. In other words, how attached[NLINE]
+your Futon Dog is to you. Would you[NLINE]
+like to know this?[NWIN]
+
+I will check. Please wait a[NLINE]
+moment.[END-FE]
+
+
+
+
+
+//POINTER #292 @ $8D30 - STRING #292 @ $E4C1
+#W32($8D30)
+//１分後[END-FE]
+One minute later[END-FE]
+
+
+
+
+
+//POINTER #293 @ $8D34 - STRING #293 @ $E4CA
+#W32($8D34)
+//それじゃあ、[Futon-Dog]がどれぐらい[NLINE]
+//なついているか教えてあげるね。[END-FE]
+Alright, I will now tell you how attached[NLINE]
+[Futon-Dog] is to you.[END-FE]
+
+
+
+
+
+//POINTER #294 @ $8D38 - STRING #294 @ $E509
+#W32($8D38)
+//忠犬度[CC.EF00][END-FE]
+Loyalty Depth[CC.EF00][END-FE]
+
+
+
+
+
+//POINTER #295 @ $8D3C - STRING #295 @ $E515
+#W32($8D3C)
+//もうべったりっ！[NLINE]
+//[Futon-Dog]のブリーダーは、[NLINE]
+//君以外ありえないって感じだね！[END-FE]
+You are inseparable![NLINE]
+[Futon-Dog] feels no else can[NLINE]
+be its breeder but you![END-FE]
+
+
+
+
+
+//POINTER #296 @ $8D40 - STRING #296 @ $E55E
+#W32($8D40)
+//あ～、うらやましいな。[NLINE]
+//仲良しさんだね。[END-FE]
+Awww, I envy you.[NLINE]
+You two are good friends.[END-FE]
+
+
+
+
+
+//POINTER #297 @ $8D44 - STRING #297 @ $E589
+#W32($8D44)
+//お、仲良きことは美しきかな。[NLINE]
+//結構なついてきたみたい。[END-FE]
+Oh, how beautiful it is to be[NLINE]
+good friends with someone. It[NLINE]
+looks like it grew attached to[NLINE]
+you quite a bit.[END-FE]
+
+
+
+
+
+//POINTER #298 @ $8D48 - STRING #298 @ $E5C2
+#W32($8D48)
+//やっとブリーダーと認められた[NLINE]
+//レベルだね。[NLINE]
+//ここからだよ。[END-FE]
+It finally acknowledged you as its[NLINE]
+raiser. Kee it up.[END-FE]
+
+
+
+
+
+//POINTER #299 @ $8D4C - STRING #299 @ $E5FF
+#W32($8D4C)
+//う～ん、これじゃダメだね。[NLINE]
+//エサをくれる人ぐらいにしか[NLINE]
+//思ってないみたい。[END-FE]
+Hmmm, this is no good. It seems[NLINE]
+it only thinks of you as someone[NLINE]
+who gives food.[END-FE]
+
+
+
+
+
+//POINTER #300 @ $8D50 - STRING #300 @ $E64C
+#W32($8D50)
+//全くなつかれてないよ。[NLINE]
+//ブリーダーとして失格だよ。[END-FE]
+It isn't attached to you at all.[NLINE]
+You're unfit to be a raiser.[END-FE]
+
+
+
+
+
+//POINTER #301 @ $8D54 - STRING #301 @ $E681
+#W32($8D54)
+//こんな感じかな。[NLINE]
+//もっとふとん犬と仲良くなってね！[END-FE]
+Something like that.[NLINE]
+Keep growing closer to your Futon[NLINE]
+Dog, alright?[END-FE]
+
+
+
+
+
+//POINTER #302 @ $8D58 - STRING #302 @ $E6B6
+#W32($8D58)
+//う～ん！[NLINE]
+//今日もふとん犬はカワイイわぁ！[NWIN]
+//
+//私、ふとん犬と関わることができて、[NLINE]
+//とーーーーっても幸せよ～！[END-FE]
+Awwww![NLINE]
+The Futon Dogs are as cute[NLINE]
+as ever![NWIN]
+
+I'm sooooooooo happy I can[NLINE]
+be around them![END-FE]
+
+
+
+
+
+//POINTER #303 @ $8D5C - STRING #303 @ $E721
+#W32($8D5C)
+//お、ブリーダーだね。[NLINE]
+//私に何の用事だい？[END-FE]
+Ah, a raiser.[NLINE]
+What can I do for you?[END-FE]
+
+
+
+
+
+//POINTER #304 @ $8D60 - STRING #304 @ $E74C
+#W32($8D60)
+//・ふとん犬を回復してもらう[END-FE]
+・Heal Futon Dog[END-FE]
+
+
+
+
+
+//POINTER #305 @ $8D64 - STRING #305 @ $E769
+#W32($8D64)
+//・雑談をする[END-FE]
+・Chat[END-FE]
+
+
+
+
+
+//POINTER #306 @ $8D68 - STRING #306 @ $E778
+#W32($8D68)
+//・何でもない[END-FE]
+・Nothing[END-FE]
+
+
+
+
+
+//POINTER #307 @ $8D6C - STRING #307 @ $E787
+#W32($8D6C)
+//おしっ！[NLINE]
+//なら、これをふとん犬に食べさせな。[END-FE]
+You got it! Please let your[NLINE]
+Futon Dog eat this.[END-FE]
+
+
+
+
+
+//POINTER #308 @ $8D70 - STRING #308 @ $E7B6
+#W32($8D70)
+//これでもう大丈夫だ。[NLINE]
+//散歩を続けてきてくれよ。[END-FE]
+It should be fine now. Please[NLINE]
+continue with your walk.[END-FE]
+
+
+
+
+
+//POINTER #309 @ $8D74 - STRING #309 @ $E7E7
+#W32($8D74)
+//ふとん犬の成長に合わせて、[NLINE]
+//私たちが外のモンスターを調整している。[NWIN]
+//
+//ある程度ふとん犬のレベルがあがったら、[NLINE]
+//自動的にコースが変わるから、[NLINE]
+//外のモンスターが変わった時は気をつけてくれ。[END-FE]
+We adjust the monsters outside in[NLINE]
+accordance with your Futon Dog's[NLINE]
+development.[NWIN]
+
+When your Futon Dog's level rises a[NLINE]
+certain extent, the course will change[NLINE]
+automatically. Be careful when the monsters[NLINE]
+outside change.[END-FE]
+
+
+
+
+
+//POINTER #310 @ $8D78 - STRING #310 @ $E8A0
+#W32($8D78)
+//ふとん犬の散歩できる場所を[NLINE]
+//もっと増やしたいのだが、[NLINE]
+//良い場所はないものかな。[END-FE]
+We want to increase the amount[NLINE]
+of places where Futon Dogs can[NLINE]
+go for a walk. I wonder if they're[NLINE]
+are any good spots for that?[END-FE]
+
+
+
+
+
+//POINTER #311 @ $8D7C - STRING #311 @ $E8F1
+#W32($8D7C)
+//村を出て西の洞窟。[NLINE]
+//その奥に氷で出来た壁があって、[NLINE]
+//氷越しに開けた空間が見えるのか。[NWIN]
+//
+//そう言えば、[NLINE]
+//この村にそんな言い伝えが残っていたな。[NWIN]
+//
+//もしかしたら、使えるかもしれないな。[NLINE]
+//今度までに調べておくよ。[END-FE]
+A cave west of the village.[NLINE]
+You're saying there's a wall of[NLINE]
+ice in the back and that you can[NLINE]
+see an open space behind it?[NWIN]
+
+That reminds me of a certain legend[NLINE]
+passed down in this village.[NWIN]
+
+It might be able to make use of it.[NLINE]
+I'll have looked into it by the[NLINE]
+time you come back here.[END-FE]
+
+
+
+
+
+//POINTER #312 @ $8D80 - STRING #312 @ $E9BE
+#W32($8D80)
+//氷の壁について[NLINE]
+//調べておくよ。[END-FE]
+I'll have looked into it by the[NLINE]
+time you come back here.[END-FE]
+
+
+
+
+
+//POINTER #313 @ $8D84 - STRING #313 @ $E9DF
+#W32($8D84)
+//そうそう、氷の壁について[NLINE]
+//分かった事を教えるよ。[END-FE]
+Oh right, I'll tell you[NLINE]
+what I learned about the[NLINE]
+ice wall.[END-FE]
+
+
+
+
+
+//POINTER #314 @ $8D88 - STRING #314 @ $EA12
+#W32($8D88)
+//キンギョソウの香油を持って、[NLINE]
+//『トゥートゥー、トゥラララ、[NLINE]
+//トゥリトゥートゥー、トゥララ、[NLINE]
+//トゥリトゥリ、トゥラ、トゥートゥー、[NLINE]
+//トゥラトゥトゥ、トゥリトゥ、トゥララトゥ』と[NLINE]
+//唱えると、氷の壁の奥へ行けるらしい。[END-FE]
+You can get behind the ice wall[NLINE]
+by using Snapdragon Oil on it[NLINE]
+and chanting:[NLINE]
+Diddly diddly dumpty;[NLINE]
+Ice walls make me grumpy.[NLINE]
+I’ll wager a crown,[NLINE]
+I'll break you down,[NLINE]
+sing diddly diddly dumpty.[END-FE]
+
+
+
+
+
+//POINTER #315 @ $8D8C - STRING #315 @ $EAE9
+#W32($8D8C)
+//もし、キンギョソウの香油があったら、[NLINE]
+//一度試してみるといいよ。[END-FE]
+If you have some Snapdragon Oil,[NLINE]
+you should try it some time.[END-FE]
+
+
+
+
+
+//POINTER #316 @ $8D90 - STRING #316 @ $EB2A
+#W32($8D90)
+//あの氷の壁の奥へは行ったかい？[NWIN]
+//
+//キンギョソウの香油があれば、[NLINE]
+//あの奥へ行けるらしいよ。[NWIN]
+//
+//キンギョソウの香油は[NLINE]
+//ジュワイナに売ってたと思うよ。[END-FE]
+Did you get past that ice wall?[NWIN]
+
+You can get past it if you[NLINE]
+have some Snapdragon oil.[NWIN]
+
+I think they sell that kind[NLINE]
+of oil in Juwaina.[END-FE]
+
+
+
+
+
+//POINTER #317 @ $8D94 - STRING #317 @ $EBB9
+#W32($8D94)
+//それじゃあ、[NLINE]
+//ふとん犬との散歩を楽しんできな。[END-FE]
+Alright, enjoy your walk with[NLINE]
+your Futon Dog.[END-FE]
+
+
+
+
+
+//POINTER #318 @ $8D98 - STRING #318 @ $EBEA
+#W32($8D98)
+//ハゼゴロウさんがこの村に来てから、[NLINE]
+//村がにぎやかになった気がするよ。[END-FE]
+I get the impression the village has[NLINE]
+become lively ever since Dr. Irving[NLINE]
+came here.[END-FE]
+
+
+
+
+
+//POINTER #319 @ $8D9C - STRING #319 @ $EC31
+#W32($8D9C)
+//先生に用事かい？[NLINE]
+//先生なら今、犬たちと散歩だよ。[NLINE]
+//その間に小屋の掃除を終わらせないとね！[END-FE]
+Do you need Dr. Irving for something?[NLINE]
+He's out on a walk with the dogs[NLINE]
+right. In the meantime, I have to[NLINE]
+finish cleaning the shelter![END-FE]
+
+
+
+
+
+//POINTER #320 @ $8DA0 - STRING #320 @ $EC8C
+#W32($8DA0)
+//[CHARCA03][V1A00]
+//へっ、へっ…、[NLINE]
+//わふぅ～[MUSIC-NOTE][END-FE]
+[CHARCA03][V1A00]
+Ha-ha-ha...[NLINE]
+Woof![MUSIC-NOTE][END-FE]
+
+
+
+
+
+//POINTER #321 @ $8DA4 - STRING #321 @ $ECB1
+#W32($8DA4)
+//おっ！[NLINE]
+//ふとん犬を連れているって事は、[NLINE]
+//君はブリーダーだね。[END-FE]
+Oh![NLINE]
+Since you got a Futon Dog tagging[NLINE]
+along, that means you're raisers,[NLINE]
+right?[END-FE]
+
+
+
+
+
+//POINTER #322 @ $8DA8 - STRING #322 @ $ECF0
+#W32($8DA8)
+//私はふとん犬愛好会の者だ。[NLINE]
+//ここで散歩に出かけるふとん犬を見送っている。[NWIN]
+//
+//私たちはふとん犬が可能な限り安全に[NLINE]
+//散歩できる環境作りに日夜努力している。[NWIN]
+//
+//散歩コースはふとん犬の状況に合わせて、[NLINE]
+//険しくなっていくので気に留めておいてくれ。[NWIN]
+//
+//後、私に言ってくれれば、[NLINE]
+//ふとん犬の傷の手当てをしてあげるよ。[NWIN]
+//
+//ふとん犬との散歩、楽しんできてくれ。[END-FE]
+I'm a member of the Futon Dog Lovers[NLINE]
+Association.[NLINE]
+I see off the dogs that go for a[NLINE]
+walk outside the village.[NWIN]
+
+We strive day and night to create[NLINE]
+an environment where our Futon Dogs[NLINE]
+can walk as safely as possible.[NWIN]
+
+Please keep in the mind that the[NLINE]
+difficulty of the walking course will[NLINE]
+increase in accordance with your[NLINE]
+Futon Dog's level.[NWIN]
+
+When you get back, talk to me and I'll[NLINE]
+treat your Futon Dog's wounds for you.[NWIN]
+
+Please enjoy walking with your Futon Dog.[END-FE]
+
+
+
+
+
+//POINTER #323 @ $8DAC - STRING #323 @ $EE41
+#W32($8DAC)
+//じゃあ、良い散歩を！[END-FE]
+Enjoy your walk![END-FE]
+
+
+
+
+
+//POINTER #324 @ $8DB0 - STRING #324 @ $EE58
+#W32($8DB0)
+//お金が足りてないみたい。[NLINE]
+//残念だけど、参加出来ないよ。[END-FE]
+It seems you don't have enough money.[NLINE]
+I'm sorry, but I can't let you[NLINE]
+participate.[END-FE]
+
+
+
+
+
+//POINTER #325 @ $8DB4 - STRING #325 @ $EE91
+#W32($8DB4)
+//私たちはここで待ってるよ。[END-FE]
+We'll wait for you here.[END-FE]
+
+
+
+
+
+//POINTER #326 @ $8DB8 - STRING #326 @ $EEAE
+#W32($8DB8)
+//俺たちはここで待っている。[NLINE]
+//少し羽を伸ばしてきな。[END-FE]
+We'll wait for you here.[NLINE]
+Relax and enjoy yourself a little.[END-FE]
+
+
+
+
+
+//POINTER #327 @ $8DBC - STRING #327 @ $EEE3
+#W32($8DBC)
+//私たちはここで休んでおきます。[END-FE]
+We will rest here.[END-FE]
+
+
+
+
+
+//POINTER #328 @ $8DC0 - STRING #328 @ $EF04
+#W32($8DC0)
+//なら、[NLINE]
+//私たちはゆっくりとさせてもらうよ。[END-FE]
+We will let you relax.[END-FE]
+
+
+
+
+
+//POINTER #329 @ $8DC4 - STRING #329 @ $EF31
+#W32($8DC4)
+//私たちはここで休憩していますね。[END-FE]
+We'll rest here, OK?[END-FE]
+
+
+
+
+
+//POINTER #330 @ $8DC8 - STRING #330 @ $EF54
+#W32($8DC8)
+//俺たちはここで待っているよ。[END-FE]
+We'll wait here.[END-FE]
+
+
+
+
+
+//POINTER #331 @ $8DCC - STRING #331 @ $EF73
+#W32($8DCC)
+//ポイントサービスだね。[NLINE]
+//どれにするかな？[END-FE]
+Spendin's some points, yeah?[NLINE]
+What service would ya loike to[NLINE]
+spend it on?[END-FE]
+
+
+
+
+
+//POINTER #332 @ $8DD0 - STRING #332 @ $EF9E
+#W32($8DD0)
+//・フード関係[END-FE]
+・Food giving[END-FE]
+
+
+
+
+
+//POINTER #333 @ $8DD4 - STRING #333 @ $EFAD
+#W32($8DD4)
+//・貸し出し玩具[END-FE]
+・Renting toys[END-FE]
+
+
+
+
+
+//POINTER #334 @ $8DD8 - STRING #334 @ $EFBE
+#W32($8DD8)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #335 @ $8DDC - STRING #335 @ $EFC9
+#W32($8DDC)
+//どの食べ物を[Futon-Dog]に与えるんだい？[END-FE]
+What food would ya loike to give to [Futon-Dog]?[END-FE]
+
+
+
+
+
+//POINTER #336 @ $8DE0 - STRING #336 @ $EFEC
+#W32($8DE0)
+//・高級肉　　　　　　　３ポイント[END-FE]
+・Luxury Meat　　　　　3 points[END-FE]
+
+
+
+
+
+//POINTER #337 @ $8DE4 - STRING #337 @ $F00F
+#W32($8DE4)
+//・活きの良い魚　　　　３ポイント[END-FE]
+・Fresh Fish　　　　   3 points[END-FE]
+
+
+
+
+
+//POINTER #338 @ $8DE8 - STRING #338 @ $F032
+#W32($8DE8)
+//・噛み易い骨　　　　　３ポイント[END-FE]
+・Chewing Bone　　　　 3 points[END-FE]
+
+
+
+
+
+//POINTER #339 @ $8DEC - STRING #339 @ $F055
+#W32($8DEC)
+//・ダイエットフード　　３ポイント[END-FE]
+・Diet Food　　        3 points[END-FE]
+
+
+
+
+
+//POINTER #340 @ $8DF0 - STRING #340 @ $F078
+#W32($8DF0)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #341 @ $8DF4 - STRING #341 @ $F083
+#W32($8DF4)
+//品質最良、高級肉だね。[NLINE]
+//３ポイント貰うけど、良いかな？[END-FE]
+This roight here is Luxury Meat of[NLINE]
+the hoighest quality. It will cost[NLINE]
+ya three points, alroight?[END-FE]
+
+
+
+
+
+//POINTER #342 @ $8DF8 - STRING #342 @ $F0BC
+#W32($8DF8)
+//おっ、活きの良い魚だね。[NLINE]
+//３ポイント貰うけど、良いかな？[END-FE]
+Ya want the Fresh Fish, yeah?[NLINE]
+It will cost ya three points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #343 @ $8DFC - STRING #343 @ $F0F7
+#W32($8DFC)
+//噛み易い骨だね。[NLINE]
+//３ポイント貰うけど、良いかな？[END-FE]
+Ya want the Chewing Bone, yeah?[NLINE]
+It will cost ya three points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #344 @ $8E00 - STRING #344 @ $F12A
+#W32($8E00)
+//ダイエットフードか。[NLINE]
+//３ポイント貰うけど、良いかな？[END-FE]
+The Diet Food?[NLINE]
+It will cost ya three points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #345 @ $8E04 - STRING #345 @ $F161
+#W32($8E04)
+//玩具の貸し出しだね。[NLINE]
+//何を使って[Futon-Dog]と遊んであげるのかな？[END-FE]
+Ya want to rent some toys, yeah?[NLINE]
+What do you want to use to play with [Futon-Dog]?[END-FE]
+
+
+
+
+
+//POINTER #346 @ $8E08 - STRING #346 @ $F19E
+#W32($8E08)
+//・ロープ　　　　　　　２ポイント[END-FE]
+・Rope　　　　　　　    2 points[END-FE]
+
+
+
+
+
+//POINTER #347 @ $8E0C - STRING #347 @ $F1C1
+#W32($8E0C)
+//・ヌイグルミ　　　　　４ポイント[END-FE]
+・Stuffed Toy　　　　　4 points[END-FE]
+
+
+
+
+
+//POINTER #348 @ $8E10 - STRING #348 @ $F1E4
+#W32($8E10)
+//・フリスビー　　　　　４ポイント[END-FE]
+・Frisbee　　　　　    4 points[END-FE]
+
+
+
+
+
+//POINTER #349 @ $8E14 - STRING #349 @ $F207
+#W32($8E14)
+//・カラフルボール　　　３ポイント[END-FE]
+・Colored Ball　　　   3 points[END-FE]
+
+
+
+
+
+//POINTER #350 @ $8E18 - STRING #350 @ $F22A
+#W32($8E18)
+//・アロマ袋　　　　　　３ポイント[END-FE]
+・Scent Bag　　　　　　3 points[END-FE]
+
+
+
+
+
+//POINTER #351 @ $8E1C - STRING #351 @ $F24D
+#W32($8E1C)
+//・犬ゾリ　　　　　　　５ポイント[END-FE]
+・Dog Sled            5 points[END-FE]
+
+
+
+
+
+//POINTER #352 @ $8E20 - STRING #352 @ $F270
+#W32($8E20)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #353 @ $8E24 - STRING #353 @ $F27B
+#W32($8E24)
+//ロープを使うんだね。[NLINE]
+//２ポイント貰うけど、良いかな？[END-FE]
+The rope?[NLINE]
+It will cost ya two points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #354 @ $8E28 - STRING #354 @ $F2B2
+#W32($8E28)
+//ヌイグルミを使うんだね。[NLINE]
+//４ポイント貰うけど、良いかな？[END-FE]
+The stuffed toy?[NLINE]
+It will cost ya four points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+
+//POINTER #355 @ $8E2C - STRING #355 @ $F2ED
+#W32($8E2C)
+//フリスビーを使うんだね。[NLINE]
+//４ポイント貰うけど、良いかな？[END-FE]
+The frisbee?[NLINE]
+It will cost ya four points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #356 @ $8E30 - STRING #356 @ $F328
+#W32($8E30)
+//ボールを使うんだね。[NLINE]
+//３ポイント貰うけど、良いかな？[END-FE]
+The ball?[NLINE]
+It will cost ya three points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #357 @ $8E34 - STRING #357 @ $F35F
+#W32($8E34)
+//アロマ袋を使うんだね。[NLINE]
+//３ポイント貰うけど、良いかな？[END-FE]
+The scent bag?[NLINE]
+It will cost ya three points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #358 @ $8E38 - STRING #358 @ $F398
+#W32($8E38)
+//犬ゾリを使うんだね。[NLINE]
+//５ポイント貰うけど、良いかな？[END-FE]
+The dog sled?[NLINE]
+It will cost ya five points,[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #359 @ $8E3C - STRING #359 @ $F3CF
+#W32($8E3C)
+//すまない。[NLINE]
+//犬ゾリは注文して随分経つのだが、[NLINE]
+//まだ届いていないんだ。[NWIN]
+//
+//ソリを頼んだのは[NLINE]
+//ここから東にある大河を渡った先、[NLINE]
+//船着場近くで店をやっている男になんだが。[NWIN]
+//
+//いつになったら届くんだろうな？[END-FE]
+Sorry, it's been a long toime[NLINE]
+since I ordered the dog sled,[NLINE]
+but it still hasn't ahroived.[NWIN]
+
+The person I ordered it from was[NLINE]
+the innkeepah at the pier, on the[NLINE]
+east side of the reevah.[NWIN]
+
+When will it foinally ahroive?[END-FE]
+
+
+
+
+
+//POINTER #360 @ $8E40 - STRING #360 @ $F494
+#W32($8E40)
+//犬ゾリはいつになったら[NLINE]
+//納品されるんだろうな？[END-FE]
+When will that bloke foinally deleevah[NLINE]
+that dog sled?[END-FE]
+
+
+
+
+
+//POINTER #361 @ $8E44 - STRING #361 @ $F4C5
+#W32($8E44)
+//すまないが、[NLINE]
+//ソリは注文中なんだ。[END-FE]
+Sorry, the dog sled still hasn't[NLINE]
+been deleevahed yet.[END-FE]
+
+
+
+
+
+//POINTER #362 @ $8E48 - STRING #362 @ $F4EA
+#W32($8E48)
+//そうだ。今の[Futon-Dog]なら、[NLINE]
+//このダンスを踊る事が出来ると思うよ。[NWIN]
+//
+//ダンスコンテストに向けて、[NLINE]
+//教えておくよ。[END-FE]
+Alright, I think [Futon-Dog] is now[NLINE]
+ready to learn a new dance.[NWIN]
+
+Let's head to the Dance Contest site,[NLINE]
+and then I'll teach [Futon-Dog] how to[NLINE]
+do it.[END-FE]
+
+
+
+
+
+//POINTER #363 @ $8E4C - STRING #363 @ $F555
+#W32($8E4C)
+//　[NLINE]
+//[Futon-Dog]はパラパラを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned ParaPara![END-FE]
+
+
+
+
+
+//POINTER #364 @ $8E50 - STRING #364 @ $F574
+#W32($8E50)
+//これは立ち系と言われるダンスで、[NLINE]
+//楽しき出来事と相性が良いよ。[NLINE]
+//機会があったら、踊ってくれ。[END-FE]
+This is a standing-type dance.[NLINE]
+It fits well with "Cheerful Event".[NLINE]
+Give it a try when you have the chance.[END-FE]
+
+
+
+
+
+//POINTER #365 @ $8E54 - STRING #365 @ $F5D3
+#W32($8E54)
+//そうだ。今の[Futon-Dog]なら、[NLINE]
+//このダンスを踊る事が出来ると思うよ。[NWIN]
+//
+//ダンスコンテストに向けて、[NLINE]
+//教えておくよ。[END-FE]
+Alright, I think [Futon-Dog] is now[NLINE]
+ready to learn a new dance.[NWIN]
+
+Let's head to the Dance Contest site,[NLINE]
+and then I'll teach [Futon-Dog] how to[NLINE]
+do it.[END-FE]
+
+
+
+
+
+//POINTER #366 @ $8E58 - STRING #366 @ $F63E
+#W32($8E58)
+//　[NLINE]
+//[Futon-Dog]はステップダンスを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned Step Dance.[END-FE]
+
+
+
+
+
+//POINTER #367 @ $8E5C - STRING #367 @ $F663
+#W32($8E5C)
+//これは名前の通りステップ系と[NLINE]
+//言われるダンスで、[NLINE]
+//ライク・ア・カートゥーンと相性が良いよ。[NLINE]
+//機会があったら、踊ってくれ。[END-FE]
+As its name implies, this dance is[NLINE]
+of the step variety. It fits well[NLINE]
+with "Like a Cartoon". Give it a[NLINE]
+try when you have the chance.[END-FE]
+
+
+
+
+
+//POINTER #368 @ $8E60 - STRING #368 @ $F6DE
+#W32($8E60)
+//ボクにどうして欲しいんだい？[END-FE]
+What do you want me to do?[END-FE]
+
+
+
+
+
+//POINTER #369 @ $8E64 - STRING #369 @ $F6FD
+#W32($8E64)
+//・技を教わる[END-FE]
+・Teach trick[END-FE]
+
+
+
+
+
+//POINTER #370 @ $8E68 - STRING #370 @ $F70C
+#W32($8E68)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #371 @ $8E6C - STRING #371 @ $F717
+#W32($8E6C)
+//技を覚えさせるんだね。[NLINE]
+//どれを教わりたいんだい？[END-FE]
+You want me to teach [Futon-Dog][NLINE]
+a trick? Which one?[END-FE]
+
+
+
+
+
+//POINTER #372 @ $8E70 - STRING #372 @ $F74A
+#W32($8E70)
+//・フセ　　　　　　　　３ポイント[END-FE]
+・Lie down            3 points[END-FE]
+
+
+
+
+
+//POINTER #373 @ $8E74 - STRING #373 @ $F76D
+#W32($8E74)
+//・タテ　　　　　　　　３ポイント[END-FE]
+・Stand up　　　　　　 3 points[END-FE]
+
+
+
+
+
+//POINTER #374 @ $8E78 - STRING #374 @ $F790
+#W32($8E78)
+//・オイデ　　　　　　　３ポイント[END-FE]
+・Come　              3 points[END-FE]
+
+
+
+
+
+//POINTER #375 @ $8E7C - STRING #375 @ $F7B3
+#W32($8E7C)
+//・オマワリ　　　　　　３ポイント[END-FE]
+・Spin around　　　　　3 points[END-FE]
+
+
+
+
+
+//POINTER #376 @ $8E80 - STRING #376 @ $F7D6
+#W32($8E80)
+//・ロールオーバー　　　４ポイント[END-FE]
+・Roll over　　　      4 points[END-FE]
+
+
+
+
+
+//POINTER #377 @ $8E84 - STRING #377 @ $F7F9
+#W32($8E84)
+//・フリフリ　　　　　　３ポイント[END-FE]
+・Wag tail　　　　　　 3 points[END-FE]
+
+
+
+
+
+//POINTER #378 @ $8E88 - STRING #378 @ $F81C
+#W32($8E88)
+//・二本足立ち　　　　　４ポイント[END-FE]
+・Stand on two legs　 4 points[END-FE]
+
+
+
+
+
+//POINTER #379 @ $8E8C - STRING #379 @ $F83F
+#W32($8E8C)
+//・前転　　　　　　　　５ポイント[END-FE]
+・Forward roll　　　　 5 points[END-FE]
+
+
+
+
+
+//POINTER #380 @ $8E90 - STRING #380 @ $F862
+#W32($8E90)
+//・バク宙　　　　　　　６ポイント[END-FE]
+・Backflip　　　　　　 6 points[END-FE]
+
+
+
+
+
+//POINTER #381 @ $8E94 - STRING #381 @ $F885
+#W32($8E94)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #382 @ $8E98 - STRING #382 @ $F890
+#W32($8E98)
+//[Futon-Dog]にフセを覚えさせるんだね？[END-FE]
+You want me [Futon-Dog] to learn how[NLINE]
+to lie down on command?[END-FE]
+
+
+
+
+
+//POINTER #383 @ $8E9C - STRING #383 @ $F8B1
+#W32($8E9C)
+//では、行きます。[NLINE]
+//[Futon-Dog]、フセ！[END-FE]
+Alright, here we go.[NLINE]
+[Futon-Dog], lie down![END-FE]
+
+
+
+
+
+//POINTER #384 @ $8EA0 - STRING #384 @ $F8D2
+#W32($8EA0)
+//　[NLINE]
+//[Futon-Dog]にフセを覚えさせた！[END-FE]
+　[NLINE]
+[Futon-Dog] learned how to lie down[NLINE]
+on command![END-FE]
+
+
+
+
+
+//POINTER #385 @ $8EA4 - STRING #385 @ $F8F1
+#W32($8EA4)
+//お見事！[NLINE]
+//これでフセはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered lying[NLINE]
+down on command.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #386 @ $8EA8 - STRING #386 @ $F940
+#W32($8EA8)
+//[Futon-Dog]にタテを覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how[NLINE]
+to lie down on command?[END-FE]
+
+
+
+
+
+//POINTER #387 @ $8EAC - STRING #387 @ $F961
+#W32($8EAC)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #388 @ $8EB0 - STRING #388 @ $F974
+#W32($8EB0)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #389 @ $8EB4 - STRING #389 @ $F98F
+#W32($8EB4)
+//では、行きます。[NLINE]
+//[Futon-Dog]、タテ！[END-FE]
+Here we go.[NLINE]
+[Futon-Dog], stand up![END-FE]
+
+
+
+
+
+//POINTER #390 @ $8EB8 - STRING #390 @ $F9B0
+#W32($8EB8)
+//　[NLINE]
+//[Futon-Dog]にタテを覚えさせた！[END-FE]
+[NLINE]
+[Futon-Dog] learned how to stand up[NLINE]
+on command![END-FE]
+
+
+
+
+
+//POINTER #391 @ $8EBC - STRING #391 @ $F9CF
+#W32($8EBC)
+//お見事！[NLINE]
+//これでタテはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered standing[NLINE]
+up on command.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #392 @ $8EC0 - STRING #392 @ $FA1E
+#W32($8EC0)
+//[Futon-Dog]にオイデを覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how to[NLINE]
+come on command?[END-FE]
+
+
+
+
+
+//POINTER #393 @ $8EC4 - STRING #393 @ $FA41
+#W32($8EC4)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #394 @ $8EC8 - STRING #394 @ $FA54
+#W32($8EC8)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #395 @ $8ECC - STRING #395 @ $FA6F
+#W32($8ECC)
+//では、行きます。[NLINE]
+//[Futon-Dog]、オイデ！[END-FE]
+Here we go.[NLINE]
+[Futon-Dog], come here![END-FE]
+
+
+
+
+
+//POINTER #396 @ $8ED0 - STRING #396 @ $FA92
+#W32($8ED0)
+//　[NLINE]
+//[Futon-Dog]にオイデを覚えさせた！[END-FE]
+　[NLINE]
+[Futon-Dog] learned how to come[NLINE]
+on command![END-FE]
+
+
+
+
+
+//POINTER #397 @ $8ED4 - STRING #397 @ $FAB3
+#W32($8ED4)
+//お見事！[NLINE]
+//これでオイデはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered coming[NLINE]
+on command.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #398 @ $8ED8 - STRING #398 @ $FB04
+#W32($8ED8)
+//[Futon-Dog]にオマワリを覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how to[NLINE]
+spin around?[END-FE]
+
+
+
+
+
+//POINTER #399 @ $8EDC - STRING #399 @ $FB29
+#W32($8EDC)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #400 @ $8EE0 - STRING #400 @ $FB3C
+#W32($8EE0)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #401 @ $8EE4 - STRING #401 @ $FB57
+#W32($8EE4)
+//では、行きます。[NLINE]
+//[Futon-Dog]、オマワリ！[END-FE]
+Here we go.[NLINE]
+[Futon-Dog], spin around![END-FE]
+
+
+
+
+
+//POINTER #402 @ $8EE8 - STRING #402 @ $FB7C
+#W32($8EE8)
+//　[NLINE]
+//[Futon-Dog]にオマワリを覚えさせた！[END-FE]
+[NLINE]
+[Futon-Dog] learned how to spin around![END-FE]
+
+
+
+
+
+//POINTER #403 @ $8EEC - STRING #403 @ $FB9F
+#W32($8EEC)
+//お見事！[NLINE]
+//これでオマワリはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered spinning[NLINE]
+around.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #404 @ $8EF0 - STRING #404 @ $FBF2
+#W32($8EF0)
+//[Futon-Dog]にロールオーバーを覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how to[NLINE]
+roll over on command?[END-FE]
+
+
+
+
+
+//POINTER #405 @ $8EF4 - STRING #405 @ $FC1D
+#W32($8EF4)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #406 @ $8EF8 - STRING #406 @ $FC30
+#W32($8EF8)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #407 @ $8EFC - STRING #407 @ $FC4B
+#W32($8EFC)
+//では、行きます。[NLINE]
+//[Futon-Dog]、ロールオーバー！[END-FE]
+Here we go.[NLINE]
+[Futon-Dog], roll over![END-FE]
+
+
+
+
+
+//POINTER #408 @ $8F00 - STRING #408 @ $FC76
+#W32($8F00)
+//　[NLINE]
+//[Futon-Dog]にロールオーバーを覚えさせた！[END-FE]
+　[NLINE]
+[Futon-Dog] learned how to roll over[NLINE]
+on command![END-FE]
+
+
+
+
+
+//POINTER #409 @ $8F04 - STRING #409 @ $FC9F
+#W32($8F04)
+//お見事！[NLINE]
+//これでロールオーバーはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered rolling[NLINE]
+over on command.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #410 @ $8F08 - STRING #410 @ $FCF8
+#W32($8F08)
+//[Futon-Dog]にフリフリを覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to wag its tail[NLINE]
+on command?[END-FE]
+
+
+
+
+
+//POINTER #411 @ $8F0C - STRING #411 @ $FD1D
+#W32($8F0C)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #412 @ $8F10 - STRING #412 @ $FD30
+#W32($8F10)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #413 @ $8F14 - STRING #413 @ $FD4B
+#W32($8F14)
+//では、行きます。[NLINE]
+//[Futon-Dog]、フリフリ！[END-FE]
+Here we go.[NLINE]
+[Futon-Dog], wag your tail![END-FE]
+
+
+
+
+
+//POINTER #414 @ $8F18 - STRING #414 @ $FD70
+#W32($8F18)
+//　[NLINE]
+//[Futon-Dog]にフリフリを覚えさせた！[END-FE]
+[NLINE]
+[Futon-Dog] learned how to wag its[NLINE]
+tail on command![END-FE]
+
+
+
+
+
+//POINTER #415 @ $8F1C - STRING #415 @ $FD93
+#W32($8F1C)
+//お見事！[NLINE]
+//これでフリフリはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered wagging its[NLINE]
+tail on command.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #416 @ $8F20 - STRING #416 @ $FDE6
+#W32($8F20)
+//[Futon-Dog]に二本足立ちを覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how to[NLINE]
+stand on two legs?[END-FE]
+
+
+
+
+
+//POINTER #417 @ $8F24 - STRING #417 @ $FE0D
+#W32($8F24)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #418 @ $8F28 - STRING #418 @ $FE20
+#W32($8F28)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #419 @ $8F2C - STRING #419 @ $FE3B
+#W32($8F2C)
+//では、行きます。[NLINE]
+//[Futon-Dog]、二本足立ち！[END-FE]
+Here we go.[NLINE]
+[Futon-Dog], stand on two legs![END-FE]
+
+
+
+
+
+//POINTER #420 @ $8F30 - STRING #420 @ $FE62
+#W32($8F30)
+//　[NLINE]
+//[Futon-Dog]に二本足立ちを覚えさせた！[END-FE]
+[NLINE]
+[Futon-Dog] learned how to stand on[NLINE]
+two legs![END-FE]
+
+
+
+
+
+//POINTER #421 @ $8F34 - STRING #421 @ $FE87
+#W32($8F34)
+//お見事！[NLINE]
+//これで二本足立ちはマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered standing on[NLINE]
+two legs.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #422 @ $8F38 - STRING #422 @ $FEDC
+#W32($8F38)
+//[Futon-Dog]に前転を覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how[NLINE]
+to do a forward roll?[END-FE]
+
+
+
+
+
+//POINTER #423 @ $8F3C - STRING #423 @ $FEFD
+#W32($8F3C)
+//では、行きます。[NLINE]
+//[Futon-Dog]、前転！[END-FE]
+Alright, here we go.[NLINE]
+[Futon-Dog, do a forward roll![END-FE]
+
+
+
+
+
+//POINTER #424 @ $8F40 - STRING #424 @ $FF1E
+#W32($8F40)
+//　[NLINE]
+//[Futon-Dog]に前転を覚えさせた！[END-FE]
+[NLINE]
+[Futon-Dog] learned how to do a forward[NLINE]
+roll![END-FE]
+
+
+
+
+
+//POINTER #425 @ $8F44 - STRING #425 @ $FF3D
+#W32($8F44)
+//お見事！[NLINE]
+//これで前転はマスターしたね。[NWIN]
+//
+//この調子で他の技も覚えさせていこう。[END-FE]
+Excellent! It mastered doing a forward[NLINE]
+roll.[NWIN]
+
+Keep it up![END-FE]
+
+
+
+
+
+//POINTER #426 @ $8F48 - STRING #426 @ $FF8C
+#W32($8F48)
+//[Futon-Dog]にバク宙を覚えさせるんだね？[END-FE]
+You want [Futon-Dog] to learn how to do[NLINE]
+a backflip?[END-FE]
+
+
+
+
+
+//POINTER #427 @ $8F4C - STRING #427 @ $FFAF
+#W32($8F4C)
+//では、行きます。[NLINE]
+//[Futon-Dog]、バク宙！[END-FE]
+Alright, here we go.[NLINE]
+[Futon-Dog], do a backflip![END-FE]
+
+
+
+
+
+//POINTER #428 @ $8F50 - STRING #428 @ $FFD2
+#W32($8F50)
+//　[NLINE]
+//[Futon-Dog]にバク宙を覚えさせた！[END-FE]
+[NLINE]
+[Futon-Dog] learned how to do a backflip![END-FE]
+
+
+
+
+
+//POINTER #429 @ $8F54 - STRING #429 @ $FFF3
+#W32($8F54)
+//す、凄い！[NLINE]
+//バク宙までマスターしてしまうなんて！[NWIN]
+//
+//いや、君の熱心さには頭が下がる思いだよ。[NLINE]
+//この調子で[Futon-Dog]を育ててあげてくれ。[END-FE]
+A-amazing! To think it mastered doing[NLINE]
+a backflip![NWIN]
+
+I take my hat off to your enthusiasm.[NLINE]
+Please continue doing a good job of[NLINE]
+raising [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #430 @ $8F58 - STRING #430 @ $10074
+#W32($8F58)
+//また、ふとん犬に技を教えたくなったら、[NLINE]
+//ボクのところへ来てくれよ。[END-FE]
+Come to me if you want me to teach[NLINE]
+your Futon Dog another trick.[END-FE]
+
+
+
+
+
+//POINTER #431 @ $8F5C - STRING #431 @ $100B9
+#W32($8F5C)
+//ふとん犬に技を教えたくなったら、[NLINE]
+//ボクのところへ連れて来てくれよ。[END-FE]
+Come to me if you want me to teach[NLINE]
+your Futon Dog another trick.[END-FE]
+
+
+
+
+
+//POINTER #432 @ $8F60 - STRING #432 @ $100FE
+#W32($8F60)
+//船着場に荷物を[NLINE]
+//届けて欲しいんだ。[END-FE]
+I want ya to deleevah these[NLINE]
+goods at the pier, alroight?[END-FE]
+
+
+
+
+
+//POINTER #433 @ $8F64 - STRING #433 @ $10123
+#W32($8F64)
+//物を探してきて欲しいんだ。[END-FE]
+I want ya to search for somethin',[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #434 @ $8F68 - STRING #434 @ $10140
+#W32($8F68)
+//船着場まで物を[NLINE]
+//取ってきて欲しいんだ。[END-FE]
+If want ya to pick somethin'[NLINE]
+at the pier, alroight?[END-FE]
+
+
+
+
+
+//POINTER #435 @ $8F6C - STRING #435 @ $10169
+#W32($8F6C)
+//狩りをしてきて欲しいんだが。[END-FE]
+If want ya to do some huntin',[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #436 @ $8F70 - STRING #436 @ $10188
+#W32($8F70)
+//今回の仕事だけど、[NLINE]
+//船着場に荷物を届けて欲しいんだ。[END-FE]
+This time, I want ya to deleevah these[NLINE]
+goods at the pier, alroight?[END-FE]
+
+
+
+
+
+//POINTER #437 @ $8F74 - STRING #437 @ $101BF
+#W32($8F74)
+//相当重いけど、届けてくれないか？[END-FE]
+It's quite heavy, but ya'll deleevah[NLINE]
+it for me, roight?[END-FE]
+
+
+
+
+
+//POINTER #438 @ $8F78 - STRING #438 @ $101E2
+#W32($8F78)
+//ありがとう。[NLINE]
+//では、外へ行こうか。[END-FE]
+Much obliged.[NLINE]
+Let's head outside.[END-FE]
+
+
+
+
+
+//POINTER #439 @ $8F7C - STRING #439 @ $10207
+#W32($8F7C)
+//今回の仕事だけど、[NLINE]
+//ある物を探してきて欲しいんだ。[END-FE]
+This toime, I want ya to search for somethin',[NLINE]
+alroight?[END-FE]
+
+
+
+
+
+//POINTER #440 @ $8F80 - STRING #440 @ $1023C
+#W32($8F80)
+//引き受けてくれるかな？[END-FE]
+Do ya accept?[END-FE]
+
+
+
+
+
+//POINTER #441 @ $8F84 - STRING #441 @ $10255
+#W32($8F84)
+//船着場から、このトトゥアまでの間に、[NLINE]
+//落し物をした人がいてね。[NLINE]
+//それを探して来て欲しいんだ。[NWIN]
+//
+//雪の中に埋もれてしまっているだろうから、[NLINE]
+//ふとん犬の嗅覚だけが頼りになる。[NWIN]
+//
+//これがその落とし主の匂いだ。[NLINE]
+//しっかりと嗅いでくれ。[END-FE]
+There's a bloke who lost somethin'[NLINE]
+somewhere inbetween the pier and[NLINE]
+Totuwa. I want ya to foind it.[NWIN]
+
+It probably got buried undah the snow,[NLINE]
+so ya'll 'ave to rely on your Futon Dog's[NLINE]
+sense of smell.[NWIN]
+
+This is the smell of the dropped[NLINE]
+object. Give it a good sniff.[END-FE]
+
+
+
+
+
+//POINTER #442 @ $8F88 - STRING #442 @ $10336
+#W32($8F88)
+//じゃあ、宜しくたのむよ！[END-FE]
+Alroight, I'm countin' on ya![END-FE]
+
+
+
+
+
+//POINTER #443 @ $8F8C - STRING #443 @ $10351
+#W32($8F8C)
+//今回の仕事だけど、[NLINE]
+//船着場まで荷物を[NLINE]
+//取りに行って欲しいんだ。[END-FE]
+This toime, If want ya to pick somethin'[NLINE]
+at the pier, alroight?[END-FE]
+
+
+
+
+
+//POINTER #444 @ $8F90 - STRING #444 @ $10392
+#W32($8F90)
+//引き受けてくれるかな？[END-FE]
+Do ya accept?[END-FE]
+
+
+
+
+
+//POINTER #445 @ $8F94 - STRING #445 @ $103AB
+#W32($8F94)
+//連絡はしてあるから、[NLINE]
+//あとは行って荷物をもらってくるだけだ。[NLINE]
+//宜しく頼むよ。[END-FE]
+I already contacted the bloke at[NLINE]
+the pier. All you have to do is pick[NLINE]
+up the luggage. I'm countin' on ya.[END-FE]
+
+
+
+
+
+//POINTER #446 @ $8F98 - STRING #446 @ $103FA
+#W32($8F98)
+//今回の仕事だけど、[NLINE]
+//狩りをしてきて欲しいんだ。[END-FE]
+This toime, I want ya to do[NLINE]
+some huntin'.[END-FE]
+
+
+
+
+
+//POINTER #447 @ $8F9C - STRING #447 @ $1042B
+#W32($8F9C)
+//引き受けてくれるかな？[END-FE]
+Do ya accept?[END-FE]
+
+
+
+
+
+//POINTER #448 @ $8FA0 - STRING #448 @ $10444
+#W32($8FA0)
+//トレントというモンスターがいるのだが、[NLINE]
+//その丈夫な枝を取ってきて欲しい。[NWIN]
+//
+//最近雪が降り止まないから、[NLINE]
+//家屋の補強をしておきたいんだ。[NLINE]
+//取ってきてくれた分だけ、[NLINE]
+//サービスポイントをあげるよ。[END-FE]
+There's a monster called a Trent.[NLINE]
+I want ya to get one of its sturdy[NLINE]
+branches.[NWIN]
+
+It hasn't stopped snowin' lately,[NLINE]
+so I want to use it to reinforce me[NLINE]
+house. I'll give ya a Service Point[NLINE]
+for each branch ya bring me.[END-FE]
+
+
+
+
+
+//POINTER #449 @ $8FA4 - STRING #449 @ $10503
+#W32($8FA4)
+//サーワワームというモンスターがいるのだが、[NLINE]
+//その丈夫な甲殻を取ってきて欲しい。[NWIN]
+//
+//最近雪が降り止まないから、[NLINE]
+//家屋の補強をしておきたいんだ。[NLINE]
+//取ってきてくれた分だけ、[NLINE]
+//サービスポイントをあげるよ。[END-FE]
+There's a monster called a Sour Worm.[NLINE]
+I want ya to get its sturdy shell.[NWIN]
+
+It hasn't stopped snowin' lately,[NLINE]
+so I want to use it to reinforce me[NLINE]
+house. I'll give ya a Service Point[NLINE]
+for each shell ya bring me.[END-FE]
+
+
+
+
+
+//POINTER #450 @ $8FA8 - STRING #450 @ $105C8
+#W32($8FA8)
+//ガルッパーというモンスターがいるんだが、[NLINE]
+//その舌を取ってきて欲しい。[NWIN]
+//
+//あれは丈夫なロープとして使えるから、[NLINE]
+//重宝するんだ。[NWIN]
+//
+//取って来てくれた分だけ、[NLINE]
+//サービスポイントをあげるよ。[END-FE]
+There's a monster called a Gulper.[NLINE]
+I want ya to get its tongue.[NWIN]
+
+I want to use it as a strong rope.[NWIN]
+
+I'll give ya a Service Point[NLINE]
+for each tongue ya bring me.[END-FE]
+
+
+
+
+
+//POINTER #451 @ $8FAC - STRING #451 @ $1067D
+#W32($8FAC)
+//ウィル・オー・ウィスプという[NLINE]
+//モンスターがいるんだが、[NLINE]
+//ヤツがまとっている発光する粉を[NLINE]
+//取ってきて欲しい。[NWIN]
+//
+//明かりとして活用できるので、[NLINE]
+//重宝するんだ。[NWIN]
+//
+//取って来てくれた分だけ、[NLINE]
+//サービスポイントをあげるよ。[END-FE]
+There's a monster called a[NLINE]
+Will o' Wisp. I want ya to[NLINE]
+some of the luminescent powder[NLINE]
+that covers it.[NWIN]
+
+I want to use it for illumination.[NWIN]
+
+I'll give ya a Service Point[NLINE]
+for each pinch of powder ya bring me.[END-FE]
+
+
+
+
+
+//POINTER #452 @ $8FB0 - STRING #452 @ $10750
+#W32($8FB0)
+//フローターという[NLINE]
+//モンスターがいるんだが、[NLINE]
+//その甲殻を取ってきて欲しい。[NWIN]
+//
+//丈夫な甲殻だから、何かと重宝するんだ。[NLINE]
+//取って来てくれた分だけ、[NLINE]
+//サービスポイントをあげるよ。[END-FE]
+There's a monster called a Floater.[NLINE]
+I want ya to get its shell.[NWIN]
+
+It's sturdy shell, so it'll be of[NLINE]
+use to me.[NWIN]
+ 
+I'll give ya a Service Point[NLINE]
+for each shell ya bring me.[END-FE]
+
+
+
+
+
+//POINTER #453 @ $8FB4 - STRING #453 @ $107FB
+#W32($8FB4)
+//じゃあ、また今度頼むよ。[END-FE]
+Alroight, maybe some other toime.[END-FE]
+
+
+
+
+
+//POINTER #454 @ $8FB8 - STRING #454 @ $10816
+#W32($8FB8)
+//練習場の貸し出しですね。[NLINE]
+//４ポイント必要ですが宜しいですか？[END-FE]
+You want to rent the excercise field?[NLINE]
+That will be four points. Would that[NLINE]
+be alright?[END-FE]
+
+
+
+
+
+//POINTER #455 @ $8FBC - STRING #455 @ $10855
+#W32($8FBC)
+//では、こちらにどうぞ。[END-FE]
+Very well, please go ahead.[END-FE]
+
+
+
+
+
+//POINTER #456 @ $8FC0 - STRING #456 @ $1086E
+#W32($8FC0)
+//またのご来店を[NLINE]
+//お待ちしております。[END-FE]
+We look forward to[NLINE]
+seeing you again.[END-FE]
+
+
+
+
+
+//POINTER #457 @ $8FC4 - STRING #457 @ $10895
+#W32($8FC4)
+//申し訳ありませんが、[NLINE]
+//練習場を借りるだけのポイントを[NLINE]
+//所持していらっしゃらないようです。[END-FE]
+I'm very sorry, but it appears you[NLINE]
+don't have enough points to rent[NLINE]
+the practice area.[END-FE]
+
+
+
+
+
+//POINTER #458 @ $8FC8 - STRING #458 @ $108F0
+#W32($8FC8)
+//では、教えよう。[END-FE]
+Alright, let's begin.[END-FE]
+
+
+
+
+
+//POINTER #459 @ $8FCC - STRING #459 @ $10903
+#W32($8FCC)
+//じゃあ、命令してみよう。[END-FE]
+Let's try giving the command.[END-FE]
+
+
+
+
+
+//POINTER #460 @ $8FD0 - STRING #460 @ $1091E
+#W32($8FD0)
+//まだ[Futon-Dog]にはこの命令は[NLINE]
+//理解できないみたいだね。[NWIN]
+//
+//今回は残念だったね。[NLINE]
+//また挑戦してみてくれよ。[END-FE]
+It seems [Futon-Dog] doesn't[NLINE]
+understand this command yet.[NWIN]
+
+What a shame. Please try again.[END-FE]
+
+
+
+
+
+//POINTER #461 @ $8FD4 - STRING #461 @ $10981
+#W32($8FD4)
+//その命令は[NLINE]
+//[Futon-Dog]に覚えさせたはずだよ。[END-FE]
+[Futon-Dog] already should have learned[NLINE]
+this command.[END-FE]
+
+
+
+
+
+//POINTER #462 @ $8FD8 - STRING #462 @ $109AA
+#W32($8FD8)
+//残りポイント[NLINE]
+//[CC.EF00]ポイント[END-FE]
+Remaining points:[NLINE]
+[CC.EF00] points[END-FE]
+
+
+
+
+
+//POINTER #463 @ $8FDC - STRING #463 @ $109C6
+#W32($8FDC)
+//残りポイント[NLINE]
+//[CC.EF00]ポイント[END-FE]
+Remaining points:[NLINE]
+[CC.EF00] points[END-FE]
+
+
+
+
+
+//POINTER #464 @ $8FE0 - STRING #464 @ $109E2
+#W32($8FE0)
+//[COL03]【[COL00][Futon-Dog][COL03]】[COL00][NLINE]
+//　　　　[COL03]【[COL00]しつけ[COL03]】[COL00]　　　→　　[NLINE]
+//　　　　[COL03]【[COL00]根　性[COL03]】[COL00]　　　→　　[NLINE]
+//　　　　[COL03]【[COL00]嗅　覚[COL03]】[COL00]　　　→　　[NLINE]
+//　　　　[COL03]【[COL00]リズム[COL03]】[COL00]　　　→　　[END-FE]
+[COL03]【[COL00][Futon-Dog][COL03]】[COL00][NLINE]
+　　　　[COL03]【[COL00]Discipline[COL03]】[COL00]　　　→　　[NLINE]
+　　　　[COL03]【[COL00]Willpower [COL03]】[COL00]　　　→　　[NLINE]
+　　　　[COL03]【[COL00]Smell     [COL03]】[COL00]　　　→　　[NLINE]
+　　　　[COL03]【[COL00]Rhythm    [COL03]】[COL00]　　　→　　[END-FE]
+
+
+
+
+
+//POINTER #465 @ $8FE4 - STRING #465 @ $10AA9
+#W32($8FE4)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #466 @ $8FE8 - STRING #466 @ $10AB2
+#W32($8FE8)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #467 @ $8FEC - STRING #467 @ $10AB8
+#W32($8FEC)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #468 @ $8FF0 - STRING #468 @ $10AC1
+#W32($8FF0)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #469 @ $8FF4 - STRING #469 @ $10AC7
+#W32($8FF4)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #470 @ $8FF8 - STRING #470 @ $10AD0
+#W32($8FF8)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #471 @ $8FFC - STRING #471 @ $10AD6
+#W32($8FFC)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #472 @ $9000 - STRING #472 @ $10ADF
+#W32($9000)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #473 @ $9004 - STRING #473 @ $10AE5
+#W32($9004)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #474 @ $9008 - STRING #474 @ $10AEE
+#W32($9008)
+//[COL09]ＭＡＸ[END-FE]
+[COL09]MAX[END-FE]
+
+
+
+
+
+//POINTER #475 @ $900C - STRING #475 @ $10AFA
+#W32($900C)
+//[COL09][CC.EF0D][END-FE]
+[COL09][CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #476 @ $9010 - STRING #476 @ $10B03
+#W32($9010)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #477 @ $9014 - STRING #477 @ $10B0C
+#W32($9014)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #478 @ $9018 - STRING #478 @ $10B12
+#W32($9018)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #479 @ $901C - STRING #479 @ $10B1B
+#W32($901C)
+//[COL09]ＭＡＸ[END-FE]
+[COL09]MAX[END-FE]
+
+
+
+
+
+//POINTER #480 @ $9020 - STRING #480 @ $10B27
+#W32($9020)
+//[COL09][CC.EF0E][END-FE]
+[COL09][CC.EF0E][END-FE]
+
+
+
+
+
+//POINTER #481 @ $9024 - STRING #481 @ $10B30
+#W32($9024)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #482 @ $9028 - STRING #482 @ $10B39
+#W32($9028)
+//[CC.EF0E][END-FE]
+[CC.EF0E][END-FE]
+
+
+
+
+
+//POINTER #483 @ $902C - STRING #483 @ $10B3F
+#W32($902C)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #484 @ $9030 - STRING #484 @ $10B48
+#W32($9030)
+//[COL09]ＭＡＸ[END-FE]
+[COL09]MAX[END-FE]
+
+
+
+
+
+//POINTER #485 @ $9034 - STRING #485 @ $10B54
+#W32($9034)
+//[COL09][CC.EF0F][END-FE]
+[COL09][CC.EF0F][END-FE]
+
+
+
+
+
+//POINTER #486 @ $9038 - STRING #486 @ $10B5D
+#W32($9038)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #487 @ $903C - STRING #487 @ $10B66
+#W32($903C)
+//[CC.EF0F][END-FE]
+[CC.EF0F][END-FE]
+
+
+
+
+
+//POINTER #488 @ $9040 - STRING #488 @ $10B6C
+#W32($9040)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #489 @ $9044 - STRING #489 @ $10B75
+#W32($9044)
+//[COL09]ＭＡＸ[END-FE]
+[COL09]MAX[END-FE]
+
+
+
+
+
+//POINTER #490 @ $9048 - STRING #490 @ $10B81
+#W32($9048)
+//[COL09][CC.EF10][END-FE]
+[COL09][CC.EF10][END-FE]
+
+
+
+
+
+//POINTER #491 @ $904C - STRING #491 @ $10B8A
+#W32($904C)
+//ＭＡＸ[END-FE]
+MAX[END-FE]
+
+
+
+
+
+//POINTER #492 @ $9050 - STRING #492 @ $10B93
+#W32($9050)
+//[CC.EF10][END-FE]
+[CC.EF10][END-FE]
+
+
+
+
+
+//POINTER #493 @ $9054 - STRING #493 @ $10B99
+#W32($9054)
+//どんな音楽を聴きますか？[END-FE]
+Which music piece would you like[NLINE]
+to listen to?[END-FE]
+
+
+
+
+
+//POINTER #494 @ $9058 - STRING #494 @ $10BB4
+#W32($9058)
+//・ライク・ア・カートゥーン　２ポイント[END-FE]
+・Like a Cartoon　          ２ points[END-FE]
+
+
+
+
+
+//POINTER #495 @ $905C - STRING #495 @ $10BDD
+#W32($905C)
+//・楽しい出来事　　　　　　　２ポイント[END-FE]
+・Cheerful Event　　　　　　 2 points[END-FE]
+
+
+
+
+
+//POINTER #496 @ $9060 - STRING #496 @ $10C06
+#W32($9060)
+//・行動開始！　　　　　　　　２ポイント[END-FE]
+・Move Out!　　　　　　　　  2 points[END-FE]
+
+
+
+
+
+//POINTER #497 @ $9064 - STRING #497 @ $10C2F
+#W32($9064)
+//・雑談をする[END-FE]
+・Chat[END-FE]
+
+
+
+
+
+//POINTER #498 @ $9068 - STRING #498 @ $10C3E
+#W32($9068)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #499 @ $906C - STRING #499 @ $10C49
+#W32($906C)
+//ライク・ア・カートゥーン[NLINE]
+//を聴きますか？[END-FE]
+You want to listen to "Like a[NLINE]
+Cartoon"?[END-FE]
+
+
+
+
+
+//POINTER #500 @ $9070 - STRING #500 @ $10C74
+#W32($9070)
+//楽しい出来事[NLINE]
+//を聴きますか？[END-FE]
+You want to listen to "Cheerful[NLINE]
+Event"?[END-FE]
+
+
+
+
+
+//POINTER #501 @ $9074 - STRING #501 @ $10C93
+#W32($9074)
+//行動開始！[NLINE]
+//を聴きますか？[END-FE]
+You want to listen to "Move[NLINE]
+Out"?[END-FE]
+
+
+
+
+
+//POINTER #502 @ $9078 - STRING #502 @ $10CB0
+#W32($9078)
+//ここでしつけするのを見ていましたけど、[NLINE]
+//尻尾を振らせるフリフリって命令、[NLINE]
+//とても可愛らしかったです。[NWIN]
+//
+//あれを見ていたら、[NLINE]
+//私、ふとん犬の可愛らしさを表現する[NLINE]
+//ダンスを考えてみたんです。[NWIN]
+//
+//良かったら、ダンスコンテストで[NLINE]
+//踊らせてみてください。[END-FE]
+I watched you train your Futon[NLINE]
+Dog from here. It looks so cute[NLINE]
+when you command it to wag its tail.[NWIN]
+
+While I was watching, I thought[NLINE]
+of a dance that conveys the cuteness[NLINE]
+of your Futon Dog.[NWIN]
+
+If it's alright, may I teach it[NLINE]
+to your Futon Dog in the dance[NLINE]
+contest area?[END-FE]
+
+
+
+
+
+//POINTER #503 @ $907C - STRING #503 @ $10DA3
+#W32($907C)
+//　[NLINE]
+//[Futon-Dog]はプリティダンスを覚えた！[END-FE]
+[NLINE]
+[Futon-Dog] learned Pretty Dance![END-FE]
+
+
+
+
+
+//POINTER #504 @ $9080 - STRING #504 @ $10DC8
+#W32($9080)
+//どの音楽にも合うと思うので、[NLINE]
+//気軽に踊らせてみてくださいね。[END-FE]
+I think it fits well with any[NLINE]
+music piece. Please try it out[NLINE]
+sometime.[END-FE]
+
+
+
+
+
+//POINTER #505 @ $9084 - STRING #505 @ $10E07
+#W32($9084)
+//ここで聞ける音楽は、[NLINE]
+//ダンスコンテストで使われている曲と[NLINE]
+//同じものなんです。[NWIN]
+//
+//ダンスには音楽との相性があるらしくて、[NLINE]
+//ライク・ア・カートゥーンはステップ系、[NLINE]
+//楽しき出来事は立ち系、[NLINE]
+//行動開始！は回転系のダンスと[NLINE]
+//相性が良いみたいですよ。[NWIN]
+//
+//後、どの音楽でも相性の良いダンスが[NLINE]
+//あるらしいんですけど、[NLINE]
+//どれにも属してないか、[NLINE]
+//混合したダンスがあるらしいですよ。[END-FE]
+The music pieces you can listen[NLINE]
+to here are the same as the ones[NLINE]
+used in the dance contest.[NWIN]
+
+Each dance has affinity with[NLINE]
+one of the music pieces. Dances[NLINE]
+of the step variety go well[NLINE]
+together with "Like a Caroon".[NLINE]
+Dances of the standing variety[NLINE]
+go well with "Cheerful Event".[NLINE]
+Dances of the rotation variety[NLINE]
+go well with "Move Out!".[NWIN]
+
+There's also a dance that fits[NLINE]
+well with any music piece.[NLINE]
+Lastly, there's a mixed dance[NLINE]
+that doesn't fit well with[NLINE]
+either of them.[END-FE]
+
+
+
+
+
+//POINTER #506 @ $9088 - STRING #506 @ $10F6E
+#W32($9088)
+//もっと鍛えていないと、[NLINE]
+//ふとん犬はついていけないみたいですよ。[NWIN]
+//
+//他の事をして能力をあげたら、[NLINE]
+//また練習してあげてください。[END-FE]
+It seems your Futon Dog can't[NLINE]
+keep up without more training.[NWIN]
+
+Please practice again after[NLINE]
+raising your Futon Dog's stats[NLINE]
+by doing other things.[END-FE]
+
+
+
+
+
+//POINTER #507 @ $908C - STRING #507 @ $10FEB
+#W32($908C)
+//またのご来店を[NLINE]
+//お待ちしております。[END-FE]
+We look forward to[NLINE]
+seeing you again.[END-FE]
+
+
+
+
+
+//POINTER #508 @ $9090 - STRING #508 @ $11012
+#W32($9090)
+//すみません！[NLINE]
+//お部屋をご利用でしたら、[NLINE]
+//受付を済ませて下さい。[END-FE]
+Excuse me, sir! If you would[NLINE]
+like to book a room, please[NLINE]
+head on over to the reception[NLINE]
+desk.[END-FE]
+
+
+
+
+
+//POINTER #509 @ $9094 - STRING #509 @ $11053
+#W32($9094)
+//すみません！[NLINE]
+//お部屋をご利用でしたら、[NLINE]
+//受付を済ませて下さい。[END-FE]
+Excuse me, sir! If you would[NLINE]
+like to book a room, please[NLINE]
+head on over to the reception[NLINE]
+desk.[END-FE]
+
+
+
+
+
+//POINTER #510 @ $9098 - STRING #510 @ $11094
+#W32($9098)
+//[CHAR3500][V0200]
+//どうした、ユリィ。[NLINE]
+//知識部門のコンテストは[NLINE]
+//まだ開催されないが…。[END-FE]
+[CHAR3500][V0200]
+What's the matter, Yurii?[NLINE]
+The debate contest is[NLINE]
+still not open yet.[END-FE]
+
+
+
+
+
+//POINTER #511 @ $909C - STRING #511 @ $110E1
+#W32($909C)
+//[CHAR3500][V0300]
+//ええと…、[NLINE]
+//今日は別の用事で来たのです…。[END-FE]
+[CHAR3500][V0300]
+Umm... I came for something else...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #512 @ $90A0 - STRING #512 @ $11116
+#W32($90A0)
+//[CHAR3500][V0400]
+//君にしては歯切れが悪いな？[NLINE]
+//クイーン・オブ・ピクシーの名が泣くぞ？[END-FE]
+[CHAR3500][V0400]
+Unlike your usual self, you're not[NLINE]
+very articulate today. Do you still[NLINE]
+deserve to be called Queen of Pixies?[END-FE]
+
+
+
+
+
+//POINTER #513 @ $90A4 - STRING #513 @ $11163
+#W32($90A4)
+//[CHAR3500][V0500]
+//…わかりました…。[END-FE]
+[CHAR3500][V0500]
+...Very well...[END-FE]
+
+
+
+
+
+//POINTER #514 @ $90A8 - STRING #514 @ $11180
+#W32($90A8)
+//[CHAR3500][V0600]
+//実はあなたの力を借りたいのです、[NLINE]
+//ミランダ。[END-FE]
+[CHAR3500][V0600]
+The truth is, I would like to[NLINE]
+ask for your help, Mira.[END-FE]
+
+
+
+
+
+//POINTER #515 @ $90AC - STRING #515 @ $111B7
+#W32($90AC)
+//[CHAR3500][V0700]
+//それは、この星の未来に関することか？[END-FE]
+[CHAR3500][V0700]
+Does this concern the future of this[NLINE]
+planet?[END-FE]
+
+
+
+
+
+//POINTER #516 @ $90B0 - STRING #516 @ $111E6
+#W32($90B0)
+//[CHAR3500][V0800]
+//どうしてそれを…？[END-FE]
+[CHAR3500][V0800]
+How did you...?[END-FE]
+
+
+
+
+
+//POINTER #517 @ $90B4 - STRING #517 @ $11203
+#W32($90B4)
+//[CHAR3500][V0900]
+//君がその人間たちと現れてから、[NLINE]
+//時の流れがあわただしくなったのでね。[NLINE]
+//少し占いなどをしてみた。[CC.BE0105][NWIN]
+//
+//[CHAR3500][V0A00]
+//過去に何か起きるたびに[NLINE]
+//未来が大きく変わるので、[NLINE]
+//占いが全く役に立たない。[END-FE]
+[CHAR3500][V0900]
+Ever since you came here with[NLINE]
+these humans, the flow of time[NLINE]
+has become turbulent. I tried looking[NLINE]
+a little ahead in the future.[CC.BE0105][NWIN]
+
+[CHAR3500][V0A00]
+However, every time something happens[NLINE]
+in the past, the future greatly changes.[NLINE]
+Thus, trying to forsee the future has[NLINE]
+become exercise in futility.[END-FE]
+
+
+
+
+
+//POINTER #518 @ $90B8 - STRING #518 @ $112C4
+#W32($90B8)
+//[CHAR3500][V0B00]
+//そこまで分かっていたのですか。[END-FE]
+[CHAR3500][V0B00]
+So you know that much?[END-FE]
+
+
+
+
+
+//POINTER #519 @ $90BC - STRING #519 @ $112ED
+#W32($90BC)
+//[CHAR3500][V0C00]
+//今まで過去を変えられる人間がいるとは[NLINE]
+//知らなかったのでね、少し驚いたよ。[NWIN]
+//
+//[CHAR3500][V0D00]
+//だが、君が関係しているなら、[NLINE]
+//過去を変えられることも納得できる。[NWIN]
+//
+//[CHAR3500][V0E00]
+//それで、力を貸して欲しいとは？[END-FE]
+[CHAR3500][V0C00]
+Until now, I didn't know that there[NLINE]
+were humans who could change the[NLINE]
+past. That surprised me a little.[NWIN]
+
+[CHAR3500][V0D00]
+However, knowing you were involved, it[NLINE]
+makes a whole lot more sense.[NWIN]
+
+[CHAR3500][V0E00]
+So then, you want my help?[END-FE]
+
+
+
+
+
+//POINTER #520 @ $90C0 - STRING #520 @ $113B2
+#W32($90C0)
+//[CHAR3500][V0F00]
+//私は[COL01]時の歪み[COL00]を使って、[NLINE]
+//彼らを過去に送ることはできます。[NLINE]
+//ですが、[COL01]歪み[COL00]がなければ、[NLINE]
+//過去へは送れません。[NWIN]
+//
+//[CHAR3500][V1000]
+//もし、時に関する力が、[NLINE]
+//私よりも強いミランダなら[NLINE]
+//[COL01]時の歪み[COL00]を用いずとも[NLINE]
+//彼らを過去に送れるのではないでしょうか？[END-FE]
+[CHAR3500][V0F00]
+I can send my companions to the[NLINE]
+past using a [COL01]Time Distortion[COL00].[NLINE]
+However, if there is no [COL01]Distortion[COL00],[NLINE]
+it's not possible for me to do so.[NWIN]
+
+[CHAR3500][V1000]
+Since you have stronger time-related[NLINE]
+powers than I do, Mira, could you[NLINE]
+perhaps send them to the past without[NLINE]
+using a [COL01]Time Distortion[COL00]?[END-FE]
+
+
+
+
+
+//POINTER #521 @ $90C4 - STRING #521 @ $114B1
+#W32($90C4)
+//[CHAR3500][V1100]
+//それは無理だ。[NLINE]
+//いくら私でも、私と君が力を合わせても、[NLINE]
+//何もないところから時を動かすことは無理だ。[END-FE]
+[CHAR3500][V1100]
+That's impossible. Not even if you and[NLINE]
+I would combine our powers.[END-FE]
+
+
+
+
+
+//POINTER #522 @ $90C8 - STRING #522 @ $1151E
+#W32($90C8)
+//[CC.AC00][CHAR3500][V1200]
+//……。[END-FE]
+[CC.AC00][CHAR3500][V1200]
+...[END-FE]
+
+
+
+
+
+//POINTER #523 @ $90CC - STRING #523 @ $11532
+#W32($90CC)
+//[CH.FACE:Close-Eyes][CHAR3500][V1300]
+//だが、他の妖精の力を借りれば[NLINE]
+//不可能ではないだろう。[CC.BE0102][NWIN]
+//
+//[CHAR3500][V1400]
+//物に込められた思いを読み取ることに長けた[NLINE]
+//ゼルドックのロッティと、ヤージェンのノーラ、[NLINE]
+//サポートを合わせて、全員で４人は必要だが…。[CC.BE0100][NWIN]
+//
+//[CH.FACE:Open-Eyes][CHAR3500][V1500]
+//…ふむ、これはうまくいくかも知れないぞ。[END-FE]
+[CH.FACE:Close-Eyes][CHAR3500][V1300]
+However, if we ask the other fairies for help,[NLINE]
+it might not be impossible.[CC.BE0102][NWIN]
+
+[CHAR3500][V1400]
+A total of four fairies are needed.[NLINE]
+The other two spots could be filled[NLINE]
+by Nora from Jaergen, and Lily from[NLINE]
+Zerdok, who both excel at reading[NLINE]
+thoughts within objects. [CC.BE0100][NWIN]
+
+[CH.FACE:Open-Eyes][CHAR3500][V1500]
+...Yes, that number should suffice.[END-FE]
+
+
+
+
+
+//POINTER #524 @ $90D0 - STRING #524 @ $1163F
+#W32($90D0)
+//[CHAR3500][V1600]
+//ミランダ…。[END-FE]
+[CHAR3500][V1600]
+Mira...[END-FE]
+
+
+
+
+
+//POINTER #525 @ $90D4 - STRING #525 @ $11656
+#W32($90D4)
+//[CHAR3500][V1700]
+//君が他の妖精を頼るなど、[NLINE]
+//普通では考えられないからな。[NWIN]
+//
+//[CHAR3500][V1800]
+//だが、それを曲げてここに来た。[NLINE]
+//それだけで十分に手伝う理由にはなる。[END-FE]
+[CHAR3500][V1700]
+Under normal circumstances, it would have[NLINE]
+been unthinkable for you to ask the help[NLINE]
+of another fairy.[NWIN]
+
+[CHAR3500][V1800]
+However, you set aside your pride and[NLINE]
+came here. That alone is enough reason[NLINE]
+to help you.[END-FE]
+
+
+
+
+
+//POINTER #526 @ $90D8 - STRING #526 @ $116E5
+#W32($90D8)
+//[CHAR3500][V1900]
+//…ありがとうございます、[NLINE]
+//ミランダ…。[END-FE]
+[CHAR3500][V1900]
+...Thank you very much, Mira...[END-FE]
+
+
+
+
+
+//POINTER #527 @ $90DC - STRING #527 @ $11716
+#W32($90DC)
+//[CHAR3500][V1A00]
+//他の妖精のことは私に任せて、[NLINE]
+//君たちは、君たちのなすべきことを[NLINE]
+//果たしてくれ。[END-FE]
+[CHAR3500][V1A00]
+I will contact the other fairies.[NLINE]
+You all fulfill what it is you[NLINE]
+need to do.[END-FE]
+
+
+
+
+
+//POINTER #528 @ $90E0 - STRING #528 @ $1176F
+#W32($90E0)
+//[CHAR3500][V1B00]
+//よかったわね、協力してもらえて。[NWIN]
+//
+//[CH.FACE:Serious][CHAR3500][V1C00]
+//それで、次の段取りだけど…。[END-FE]
+[CHAR3500][V1B00]
+I'm glad Mira will help us.[NWIN]
+
+[CH.FACE:Serious][CHAR3500][V1C00]
+Alright, time to decide our next[NLINE]
+course of action.[END-FE]
+
+
+
+
+
+//POINTER #529 @ $90E4 - STRING #529 @ $117C4
+#W32($90E4)
+//[CHAR3500][V1D00]
+//まずは過去を正常な歴史に戻しましょう。[NWIN]
+//
+//[CHAR3500][V1E00]
+//平和維持軍に入るべき人物が、[NLINE]
+//過去にワースリー村で殺されてしまいました。[NWIN]
+//
+//[CHAR3500][V1F00]
+//それを防がないとなりません。[END-FE]
+[CHAR3500][V1D00]
+First, let's return history back[NLINE]
+to normal.[NWIN]
+
+[CHAR3500][V1E00]
+The person who was supposed[NLINE]
+to enter the PMB was killed in[NLINE]
+Warslee Village in the past.[NWIN]
+
+[CHAR3500][V1F00]
+We must prevent that from happening.[END-FE]
+
+
+
+
+
+//POINTER #530 @ $90E8 - STRING #530 @ $1186D
+#W32($90E8)
+//[CHAR3500][V1A00]
+//他の妖精のことは私に任せて、[NLINE]
+//君たちは、君たちのなすべきことを[NLINE]
+//果たしてくれ。[END-FE]
+[CHAR3500][V1A00]
+I will contact the other fairies.[NLINE]
+You all fulfill what it is you[NLINE]
+need to do.[END-FE]
+
+
+
+
+
+//POINTER #531 @ $90EC - STRING #531 @ $118C6
+#W32($90EC)
+//[CHAR3500][V1D00]
+//まずは過去を正常な歴史に戻しましょう。[NWIN]
+//
+//[CHAR3500][V1E00]
+//平和維持軍に入るべき人物が、[NLINE]
+//過去にワースリー村で殺されてしまいました。[NWIN]
+//
+//[CHAR3500][V1F00]
+//それを防がないとなりません。[END-FE]
+[CHAR3500][V1D00]
+First, let's return history back[NLINE]
+to normal.[NWIN]
+
+[CHAR3500][V1E00]
+The person who was supposed[NLINE]
+to enter the PMB was killed in[NLINE]
+Warslee Village in the past.[NWIN]
+
+[CHAR3500][V1F00]
+We must prevent that from happening.[END-FE]
+
+
+
+
+
+//POINTER #532 @ $90F0 - STRING #532 @ $1196F
+#W32($90F0)
+//お前たちは面白い人間だな。[NLINE]
+//時の先を乱しているようだ…。[END-FE]
+You're very interesting humans.[NLINE]
+It seems like you're disrupting[NLINE]
+the future...[END-FE]
+
+
+
+
+
+//POINTER #533 @ $90F4 - STRING #533 @ $119AA
+#W32($90F4)
+//おっ！[NLINE]
+//言った通りやって来たよ！[NWIN]
+//
+//これから、培った技術を使って、[NLINE]
+//ビシビシとふとん犬達をしつけていくから、[NLINE]
+//ボクに用事がある時は遠慮無く言ってくれ。[NWIN]
+//
+//もちろん、その分のポイントは[NLINE]
+//もらうけどね。[NWIN]
+//
+//そうだ、これは引越し祝いってことで、[NLINE]
+//君にあげるよ。[END-FE]
+Ah! You came just like you said[NLINE]
+you would![NWIN]
+
+From now one, I will use the techniques[NLINE]
+I have cultivated to give rigorous trainings[NLINE]
+to Futon Dogs. Come talk to me anytime.[NWIN]
+
+But it will cost you Service Points, of[NLINE]
+course.[NWIN]
+
+Oh, I almost forgot. Here, take this.[NLINE]
+It's a sort of reverse housewarming gift.[END-FE]
+
+
+
+
+
+//POINTER #534 @ $90F8 - STRING #534 @ $11AA5
+#W32($90F8)
+//これからよろしく頼むよ。[END-FE]
+See you around![END-FE]
+
+
+
+
+
+//POINTER #535 @ $90FC - STRING #535 @ $11AC0
+#W32($90FC)
+//いらっしゃいませ。[NLINE]
+//どのようなご用でしょうか？[END-FE]
+Welcome, how may I help you?[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #536 @ $9100 - STRING #536 @ $11AF1
+#W32($9100)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #537 @ $9104 - STRING #537 @ $11AFE
+#W32($9104)
+//・部屋に行く[END-FE]
+・Go to room[END-FE]
+
+
+
+
+
+//POINTER #538 @ $9108 - STRING #538 @ $11B0D
+#W32($9108)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #539 @ $910C - STRING #539 @ $11B1C
+#W32($910C)
+//・音楽を聴く[END-FE]
+・Listen to music[END-FE]
+
+
+
+
+
+//POINTER #540 @ $9110 - STRING #540 @ $11B2B
+#W32($9110)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #541 @ $9114 - STRING #541 @ $11B3C
+#W32($9114)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #542 @ $9118 - STRING #542 @ $11B51
+#W32($9118)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になりますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #543 @ $911C - STRING #543 @ $11B7D
+#W32($911C)
+//ついでに記録をとられますか？[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #544 @ $9120 - STRING #544 @ $11B9C
+#W32($9120)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #545 @ $9124 - STRING #545 @ $11BC1
+#W32($9124)
+//お客さん……[COL09][TEAR-DROP][COL00][NLINE]
+//お金が足りないみたいですよ？[END-FE]
+//Inn Clerk\\
+Sir...[COL09][TEAR-DROP][COL00][NLINE]
+It appears you're short on cash.[END-FE]
+
+
+
+
+
+//POINTER #546 @ $9128 - STRING #546 @ $11BF6
+#W32($9128)
+//・ルキアスの客室[END-FE]
+・Rukias' room[END-FE]
+
+
+
+
+
+//POINTER #547 @ $912C - STRING #547 @ $11C09
+#W32($912C)
+//・自分の客室[END-FE]
+・Your own room[END-FE]
+
+
+
+
+
+//POINTER #548 @ $9130 - STRING #548 @ $11C18
+#W32($9130)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #549 @ $9134 - STRING #549 @ $11C23
+#W32($9134)
+//トトゥア村[END-FE]
+Totuwa Village[END-FE]
+
+
+
+
+
+//POINTER #550 @ $9138 - STRING #550 @ $11C30
+#W32($9138)
+//Ｄトトゥア村[END-FE]
+D Totuwa Village[END-FE]
+
+
+
+
+
+//POINTER #551 @ $913C - STRING #551 @ $11C3F
+#W32($913C)
+//キャリィ屋へようこそ！[NLINE]
+//…って、ふとん犬は[NLINE]
+//連れて行けないよ。[END-FE]
+Welcome! This is the Steed Express.[NLINE]
+...You can't bring your[NLINE]
+Futon Dog, though.[END-FE]
+
+
+
+
+
+//POINTER #552 @ $9140 - STRING #552 @ $11C80
+#W32($9140)
+//[CHAR4800][V2B00]
+//それじゃ、今日はちょっと[NLINE]
+//自由時間にしてイイよね？[END-FE]
+[CHAR4800][V2B00]
+Today we have a little free time, right?[END-FE]
+
+
+
+
+
+//POINTER #553 @ $9144 - STRING #553 @ $11CBD
+#W32($9144)
+//[CHAR2403][V9400]
+//ああ。[CC.FFCD][CC.FFFB][NLINE]
+//[CHAR4900][V1100]
+//それでいいよな？[END-FE]
+[CHAR2403][V9400]
+Yeah.[CC.FFCD][CC.FFFB][NLINE]
+[CHAR4900][V1100]
+Is that OK with you?[END-FE]
+
+
+
+
+
+//POINTER #554 @ $9148 - STRING #554 @ $11CEC
+#W32($9148)
+//では、お部屋にご案内いたします。[END-FE]
+I will guide you to your room.[END-FE]
+
+
+
+
+
+//POINTER #555 @ $914C - STRING #555 @ $11D0F
+#W32($914C)
+//[CHAR1B00][V0700]
+//来たか、ユリィ。[END-FE]
+[CHAR1B00][V0700]
+So you have come, Yurii.[END-FE]
+
+
+
+
+
+//POINTER #556 @ $9150 - STRING #556 @ $11D2A
+#W32($9150)
+//[CHAR1B00][V0800]
+//お久しぶりです、ミランダ。[NLINE]
+//ひょっとして、[NLINE]
+//私たちがここに来ることが？[END-FE]
+[CHAR1B00][V0800]
+It's been a while, Mira.[NLINE]
+Did you perhaps know we were[NLINE]
+coming here?[END-FE]
+
+
+
+
+
+//POINTER #557 @ $9154 - STRING #557 @ $11D7B
+#W32($9154)
+//[CHAR1B00][V0900]
+//ああ、見えた。[NWIN]
+//
+//[CHAR1B00][V0A00]
+//とうとう君も[NLINE]
+//自分の勇者を見つけたようだな。[END-FE]
+[CHAR1B00][V0900]
+Yes, I forsaw it.[NWIN]
+
+[CHAR1B00][V0A00]
+It seems like you finally found[NLINE]
+your hero.[END-FE]
+
+
+
+
+
+//POINTER #558 @ $9158 - STRING #558 @ $11DCA
+#W32($9158)
+//[CHAR1B00][V0B00]
+//ええ。[NLINE]
+//彼こそが勇者だと確信しました。[NWIN]
+//
+//[CHAR1B00][V0C00]
+//今までどうしても見つけられなかったのは、[NLINE]
+//勇者様がこの大陸の外にいたからです。[END-FE]
+[CHAR1B00][V0B00]
+Yes.[NLINE]
+I'm confident that he is the[NLINE]
+the Brave One.[NWIN]
+
+[CHAR1B00][V0C00]
+The reason I hadn't found him until[NLINE]
+now was because he comes from outside[NLINE]
+the continent.[END-FE]
+
+
+
+
+
+//POINTER #559 @ $915C - STRING #559 @ $11E53
+#W32($915C)
+//[CHAR1B00][V0D00]
+//外の大陸…なるほど。[NLINE]
+//どうりで私にも見えぬはずだ。[END-FE]
+[CHAR1B00][V0D00]
+Outside the continent... I see.[NLINE]
+It's no wonder then that even[NLINE]
+I couldn't forsee it.[END-FE]
+
+
+
+
+
+//POINTER #560 @ $9160 - STRING #560 @ $11E90
+#W32($9160)
+//[CHAR1B00][V0E00]
+//ねぇ、ユリィ。[NLINE]
+//状況が分からないんだけど…。[END-FE]
+[CHAR1B00][V0E00]
+Hey, Yurii, could you catch us up[NLINE]
+to speed...?[END-FE]
+
+
+
+
+
+//POINTER #561 @ $9164 - STRING #561 @ $11EC7
+#W32($9164)
+//[CHAR1B00][V0F00]
+//あ、申し訳ございません、[NLINE]
+//ウェンディさん。[NWIN]
+//
+//[CHAR1B00][V1000]
+//彼女はミランダ。[NLINE]
+//私も一目置く数少ない妖精の一人です。[END-FE]
+[CHAR1B00][V0F00]
+Ah, I'm very sorry, Wendy.[NWIN]
+
+[CHAR1B00][V1000]
+That fairy is Mira.[NLINE]
+She is one of the few fairies who[NLINE]
+even I acknowledge to be superior.[END-FE]
+
+
+
+
+
+//POINTER #562 @ $9168 - STRING #562 @ $11F3C
+#W32($9168)
+//[CHAR1B00][V1100]
+//初めまして。[NLINE]
+//ミランダという。[NLINE]
+//以後お見知りおきを。[END-FE]
+[CHAR1B00][V1100]
+Pleased to meet you.[NLINE]
+My name is Mira.[END-FE]
+
+
+
+
+
+//POINTER #563 @ $916C - STRING #563 @ $11F7B
+#W32($916C)
+//[CHAR1B00][V1200]
+//あ、こちらこそ…。[NWIN]
+//
+//[CHAR1B00][V1300]
+//…って、知りたいのは彼女の名前じゃなくて、[NLINE]
+//私たちが来ることが見えたとか何とかって…。[END-FE]
+[CHAR1B00][V1200]
+Ah, nice to meet you, too...[NWIN]
+
+[CHAR1B00][V1300]
+...But what I wanted to know is why[NLINE]
+she could foresee that we were coming...[END-FE]
+
+
+
+
+
+//POINTER #564 @ $9170 - STRING #564 @ $11FF8
+#W32($9170)
+//[CHAR1B00][V1400]
+//はい、[NLINE]
+//もちろん説明させていただきます。[NWIN]
+//
+//[CHAR1B00][V1500]
+//妖精は人間と違って、[NLINE]
+//過去や未来が知覚できるという話は[NLINE]
+//させていただいたと思います。[NWIN]
+//
+//[CHAR1B00][V1600]
+//ですが、その『時読み』も[NLINE]
+//妖精によって得手不得手があります。[NWIN]
+//
+//[CHAR1B00][V1700]
+//ミランダは多くの妖精の中でも[NLINE]
+//『時読み』の能力に長けているのです。[NLINE]
+//その力は私でもかないません。[END-FE]
+[CHAR1B00][V1400]
+Of course, allow me to explain.[NWIN]
+
+[CHAR1B00][V1500]
+I already told you that fairies[NLINE]
+can sense the past and the future.[NWIN]
+
+[CHAR1B00][V1600]
+However, how good fairies are at[NLINE]
+"reading time" depends on the individual.[NWIN]
+
+[CHAR1B00][V1700]
+Mira's time reading ability exceeds[NLINE]
+that of most, if not all, faries. Even I[NLINE]
+don't have that much power.[END-FE]
+
+
+
+
+
+//POINTER #565 @ $9174 - STRING #565 @ $12139
+#W32($9174)
+//[CHAR1B00][V1800]
+//へぇ…、ユリィよりすごいんだ。[END-FE]
+[CHAR1B00][V1800]
+Wow... Even more incredible than Yurii, huh?[END-FE]
+
+
+
+
+
+//POINTER #566 @ $9178 - STRING #566 @ $12162
+#W32($9178)
+//[CHAR1B00][V1900]
+//他の妖精よりは的中率が高い、[NLINE]
+//程度にしておこう。[NWIN]
+//
+//[CHAR1B00][V1A00]
+//絶対の的中など出来ないのだからな。[NWIN]
+//
+//[CHAR1B00][V1B00]
+//未来はほんのちょっとしたことで[NLINE]
+//全く変わってしまうこともある。[NWIN]
+//
+//[CHAR1B00][V1C00]
+//特にここ１年の間は変動が激しすぎる。[NLINE]
+//おかげで私の的中率も下がる一方だ。[END-FE]
+[CHAR1B00][V1900]
+The success rate of my predictions[NLINE]
+is higher than that of the other[NLINE]
+fairies. Let's put it that way.[NWIN]
+
+[CHAR1B00][V1A00]
+A perfect success rate is impossible.[NWIN]
+
+[CHAR1B00][V1B00]
+The future could completely change[NLINE]
+due to the smallest of things.[NWIN]
+
+[CHAR1B00][V1C00]
+Especially during the past year, the[NLINE]
+changes have been extreme. Because[NLINE]
+of that, my success rate has lowered.[END-FE]
+
+
+
+
+
+//POINTER #567 @ $917C - STRING #567 @ $12263
+#W32($917C)
+//[CHAR1B00][V1D00]
+//ミランダでも読めないのですか？[NLINE]
+//私だけではなかったのですね。[END-FE]
+[CHAR1B00][V1D00]
+Even you couldn't read the future?[NLINE]
+So it wasn't just me.[END-FE]
+
+
+
+
+
+//POINTER #568 @ $9180 - STRING #568 @ $122AA
+#W32($9180)
+//[CHAR1B00][V1E00]
+//ここ１年の変動は異常とも言える。[NLINE]
+//おかげで正しい未来など見えぬ。[NLINE]
+//まさか大陸の封印が解けるとも思わなかった。[END-FE]
+[CHAR1B00][V1E00]
+The future-changing events that have[NLINE]
+occured this past year can said to be[NLINE]
+extraordinary. That's why the actual future[NLINE]
+can't be forseen. I never would have thought[NLINE]
+the seal around this continent would[NLINE]
+break.[END-FE]
+
+
+
+
+
+//POINTER #569 @ $9184 - STRING #569 @ $12321
+#W32($9184)
+//[CHAR1B00][V1F00]
+//つまり、ここ１年の出来事が不安定で、[NLINE]
+//それが世界の行く末に[NLINE]
+//大きな影響を与えていると？[END-FE]
+[CHAR1B00][V1F00]
+In other words, you're saying the events[NLINE]
+from the past year have greatly altered[NLINE]
+the status quo, which will have a large[NLINE]
+impact on the future, right?[END-FE]
+
+
+
+
+
+//POINTER #570 @ $9188 - STRING #570 @ $12382
+#W32($9188)
+//[CHAR1B00][V2000]
+//まだ不確定な要素が多すぎるから[NLINE]
+//滅多なことは言いたくないが、[NLINE]
+//最悪の場合、この星そのものが終わる。[END-FE]
+[CHAR1B00][V2000]
+What I'm about to tell is might be[NLINE]
+rash because there are still too many[NLINE]
+uncertainties. However, I will say it[NLINE]
+anyway: in the worst case scenario,[NLINE]
+the world itself will end.[END-FE]
+
+
+
+
+
+//POINTER #571 @ $918C - STRING #571 @ $123EF
+#W32($918C)
+//[CHAR1B00][V2100]
+//星そのものが、終わる？[END-FE]
+[CHAR1B00][V2100]
+The world itself will end?[END-FE]
+
+
+
+
+
+//POINTER #572 @ $9190 - STRING #572 @ $12410
+#W32($9190)
+//[CHAR1B00][V2200]
+//それって、[NLINE]
+//あのレジスタンスの女性が言っていた…。[NWIN]
+//
+//[CHAR1B00][V2300]
+//いったいどういう事？[END-FE]
+[CHAR1B00][V2200]
+That's what that resistance woman[NLINE]
+was saying...[NWIN]
+
+[CHAR1B00][V2300]
+Just what does it mean?[END-FE]
+
+
+
+
+
+//POINTER #573 @ $9194 - STRING #573 @ $1246B
+#W32($9194)
+//[CHAR1B00][V2400]
+//あくまでも最悪の未来が来た場合だ。[NLINE]
+//だから、滅多なことは言えない。[NWIN]
+//
+//[CHAR1B00][V2500]
+//だがこれだけは予言しよう。[END-FE]
+[CHAR1B00][V2400]
+This will only happen in the absolute[NLINE]
+worst scenario. That's why I said[NLINE]
+it was rash of me to say so.[NWIN]
+
+[CHAR1B00][V2500]
+However, I can predict the following.[END-FE]
+
+
+
+
+
+//POINTER #574 @ $9198 - STRING #574 @ $124DC
+#W32($9198)
+//[CHAR1B00][V2600]
+//予言…？[END-FE]
+[CHAR1B00][V2600]
+Predict...?[END-FE]
+
+
+
+
+
+//POINTER #575 @ $919C - STRING #575 @ $124EF
+#W32($919C)
+//[CHAR1B00][V2700]
+//その運命がくるか、回避できるか…。[NLINE]
+//すべてはあなた方の行動にかかっている。[END-FE]
+[CHAR1B00][V2700]
+Whether that future comes to pass[NLINE]
+or not... all will depended on your[NLINE]
+actions.[END-FE]
+
+
+
+
+
+//POINTER #576 @ $91A0 - STRING #576 @ $12544
+#W32($91A0)
+//[CHAR1B00][V2800]
+//私たちの…。[END-FE]
+[CHAR1B00][V2800]
+Ours...?[END-FE]
+
+
+
+
+
+//POINTER #577 @ $91A4 - STRING #577 @ $1255B
+#W32($91A4)
+//[CHAR1B00][V2900]
+//そしてあなた方の肉親の誰かが[NLINE]
+//未来の決定に大きな役割を果たす…。[END-FE]
+[CHAR1B00][V2900]
+And one of your blood will play[NLINE]
+a major role in deciding the future...[END-FE]
+
+
+
+
+
+//POINTER #578 @ $91A8 - STRING #578 @ $125A6
+#W32($91A8)
+//[CHAR1B00][V2A00]
+//俺達の肉親…？[END-FE]
+[CHAR1B00][V2A00]
+One of our blood...?[END-FE]
+
+
+
+
+
+//POINTER #579 @ $91AC - STRING #579 @ $125BF
+#W32($91AC)
+//[CHAR1B00][V2B00]
+//時が不安定で、今はこの程度しか言えない。[NLINE]
+//それにあなた方の未来を[NLINE]
+//私が告げるわけにはいかないからな。[END-FE]
+[CHAR1B00][V2B00]
+Because time is unstable, I can[NLINE]
+only say this much. I can't say[NLINE]
+for certain what your futures might[NLINE]
+be.[END-FE]
+
+
+
+
+
+//POINTER #580 @ $91B0 - STRING #580 @ $1262E
+#W32($91B0)
+//[CHAR1B00][V2C00]
+//ミランダ…。[END-FE]
+[CHAR1B00][V2C00]
+Mira...[END-FE]
+
+
+
+
+
+//POINTER #581 @ $91B4 - STRING #581 @ $12645
+#W32($91B4)
+//[CHAR1B00][V2D00]
+//お前にそんな顔は似合わぬぞ、[NLINE]
+//ユリィ。[NWIN]
+//
+//[CHAR1B00][V2E00]
+//いつも通り、自信を持って行くがいい。[NLINE]
+//自分が選んだ人間を信じることだ。[END-FE]
+[CHAR1B00][V2D00]
+Such a face does not suit[NLINE]
+you, Yurii.[NWIN]
+
+[CHAR1B00][V2E00]
+As always, go in confidence.[NLINE]
+Believe in the human who you[NLINE]
+have chosen yourself.[END-FE]
+
+
+
+
+
+//POINTER #582 @ $91B8 - STRING #582 @ $126C6
+#W32($91B8)
+//[CHAR1B00][V2F00]
+//ありがとう、ミランダ。[END-FE]
+[CHAR1B00][V2F00]
+Thank you, Mira.[END-FE]
+
+
+
+
+
+//POINTER #583 @ $91BC - STRING #583 @ $126E7
+#W32($91BC)
+//ベッドで休みますか？[END-FE]
+Will you rest on the bed?[END-FE]
+
+
+
+
+
+//POINTER #584 @ $91C0 - STRING #584 @ $126FE
+#W32($91C0)
+//　[NLINE]
+//花が生けてある。[END-FE]
+[NLINE]
+There are flowers in a vase.[END-FE]
+
+
+
+
+
+//POINTER #585 @ $91C4 - STRING #585 @ $12715
+#W32($91C4)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+[NLINE]
+A lamp is placed on the table.[END-FE]
+
+
+
+
+
+//POINTER #586 @ $91C8 - STRING #586 @ $12742
+#W32($91C8)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+[NLINE]
+It's a dresser.[END-FE]
+
+
+
+
+
+//POINTER #587 @ $91CC - STRING #587 @ $12761
+#W32($91CC)
+//風景画が飾られている。[NLINE]
+//この近辺を描いたものではないようだ。[END-FE]
+It's a landscape painting.[NLINE]
+It doesn't look like it depicts the[NLINE]
+surrounding environment.[END-FE]
+
+
+
+
+
+//POINTER #588 @ $91D0 - STRING #588 @ $127A0
+#W32($91D0)
+//[CHAR9501][V0000]
+//ここは、妖精の知力を競う、[NLINE]
+//妖精コンテスト学術部門の会場です。[END-FE]
+[CHAR9501][V0000]
+This the contest hall for the[NLINE]
+Debate Contest, where fairies[NLINE]
+show off their wit.[END-FE]
+
+
+
+
+
+//POINTER #589 @ $91D4 - STRING #589 @ $127E9
+#W32($91D4)
+//いらっしゃいませ。[NLINE]
+//ここではコンテストに関する[NLINE]
+//総合案内をしております。[END-FE]
+Welcome.[NLINE]
+Here you can find a general guide[NLINE]
+about the contest.[END-FE]
+
+
+
+
+
+//POINTER #590 @ $91D8 - STRING #590 @ $12834
+#W32($91D8)
+//・更衣室を借りる[END-FE]
+・Use dressing room[END-FE]
+
+
+
+
+
+//POINTER #591 @ $91DC - STRING #591 @ $12847
+#W32($91DC)
+//・案内を抜ける[END-FE]
+・Exit guide[END-FE]
+
+
+
+
+
+//POINTER #592 @ $91E0 - STRING #592 @ $12858
+#W32($91E0)
+//お召し替えですね？[NLINE]
+//それでしたら、無料でご利用になれます。[END-FE]
+You would like to change?[NLINE]
+You may use the dressing room for free.[END-FE]
+
+
+
+
+
+//POINTER #593 @ $91E4 - STRING #593 @ $12895
+#W32($91E4)
+//君の妖精はどんな能力があるのかね？[END-FE]
+What kind of abilities does your[NLINE]
+fairy have?[END-FE]
+
+
+
+
+
+//POINTER #594 @ $91E8 - STRING #594 @ $128BA
+#W32($91E8)
+//私どもには妖精はいませんが、[NLINE]
+//こうして妖精を見るのが好きでしてな。[END-FE]
+We don't have fairies but but we[NLINE]
+enjoy seeing them like this.[END-FE]
+
+
+
+
+
+//POINTER #595 @ $91EC - STRING #595 @ $128FF
+#W32($91EC)
+//早く次のコンテストは始まらないのか？[NLINE]
+//私はこれを見るのが楽しみなんですよ。[END-FE]
+Will the next contest start soon?[NLINE]
+I'm looking forward to seeing it.[END-FE]
+
+
+
+
+
+//POINTER #596 @ $91F0 - STRING #596 @ $1294C
+#W32($91F0)
+//うちの子も賢いのですが、[NLINE]
+//ミランダさんにはとてもかないませんわ。[END-FE]
+My child is smart, but not as much[NLINE]
+as Miranda.[END-FE]
+
+
+
+
+
+//POINTER #597 @ $91F4 - STRING #597 @ $1298F
+#W32($91F4)
+//妖精を見ていると心が安らぎますわ。[NLINE]
+//そう思いませんこと？[END-FE]
+Watching fairies makes me feel at ease.[NLINE]
+Don't you agree?[END-FE]
+
+
+
+
+
+//POINTER #598 @ $91F8 - STRING #598 @ $129CA
+#W32($91F8)
+//わたくしのナッツちゃんでは、[NLINE]
+//ここのチャンピオンには歯が立ちませんの…。[END-FE]
+My Pookie is no match for the champion[NLINE]
+of this place...[END-FE]
+
+
+
+
+
+//POINTER #599 @ $91FC - STRING #599 @ $12A15
+#W32($91FC)
+//それでは[NLINE]
+//[Futon-Dog]と何をしましょうか？[END-FE]
+What would you like to do with [Futon-Dog]?[END-FE]
+
+
+
+
+
+//POINTER #600 @ $9200 - STRING #600 @ $12A3A
+#W32($9200)
+//・ランニング[END-FE]
+・Running[END-FE]
+
+
+
+
+
+//POINTER #601 @ $9204 - STRING #601 @ $12A49
+#W32($9204)
+//・ジャンプ[END-FE]
+・Jumping[END-FE]
+
+
+
+
+
+//POINTER #602 @ $9208 - STRING #602 @ $12A56
+#W32($9208)
+//・スラローム[END-FE]
+・Slaloming[END-FE]
+
+
+
+
+
+//POINTER #603 @ $920C - STRING #603 @ $12A65
+#W32($920C)
+//・ハードル[END-FE]
+・Hurdling[END-FE]
+
+
+
+
+
+//POINTER #604 @ $9210 - STRING #604 @ $12A72
+#W32($9210)
+//・トンネル潜り[END-FE]
+・Tunnel crawling[END-FE]
+
+
+
+
+
+//POINTER #605 @ $9214 - STRING #605 @ $12A83
+#W32($9214)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #606 @ $9218 - STRING #606 @ $12A8E
+#W32($9218)
+//ランニングをするのですね？[END-FE]
+You would like [Futon-Dog] to[NLINE]
+do some running?[END-FE]
+
+
+
+
+
+//POINTER #607 @ $921C - STRING #607 @ $12AAB
+#W32($921C)
+//そうですね。[NLINE]
+//じゃあ、[Futon-Dog]一緒に走りましょうか。[END-FE]
+Very well.[NLINE]
+Alright, feeling up for a run, [Futon-Dog]?[END-FE]
+
+
+
+
+
+//POINTER #608 @ $9220 - STRING #608 @ $12ADE
+#W32($9220)
+//ジャンプをさせてみるのですね？[END-FE]
+You would like to let [Futon-Dog][NLINE]
+do some jumping?[END-FE]
+
+
+
+
+
+//POINTER #609 @ $9224 - STRING #609 @ $12AFF
+#W32($9224)
+//そうですね。[NLINE]
+//じゃあ[Futon-Dog]、がんばりましょう。[END-FE]
+Very well.[NLINE]
+Do your best, [Futon-Dog]![END-FE]
+
+
+
+
+
+//POINTER #610 @ $9228 - STRING #610 @ $12B2E
+#W32($9228)
+//スラロームをさせてみるのですね？[END-FE]
+You would like to let [Futon-Dog][NLINE]
+do some slaloming?[END-FE]
+
+
+
+
+
+//POINTER #611 @ $922C - STRING #611 @ $12B51
+#W32($922C)
+//そうですね。[NLINE]
+//じゃあ[Futon-Dog]、やってみましょう。[END-FE]
+Very well.[NLINE]
+Alright, let's give it a try, [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #612 @ $9230 - STRING #612 @ $12B80
+#W32($9230)
+//ハードルをやらせてみるのですね？[END-FE]
+You would like to let [Futon-Dog][NLINE]
+do some hurdling?[END-FE]
+
+
+
+
+
+//POINTER #613 @ $9234 - STRING #613 @ $12BA3
+#W32($9234)
+//そうですね。[NLINE]
+//[Futon-Dog]、行ってみましょう。[END-FE]
+Very well.[NLINE]
+Alright, let's give it a try, [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #614 @ $9238 - STRING #614 @ $12BCC
+#W32($9238)
+//トンネル潜りさせてみるのですね？[END-FE]
+You would like to let [Futon-Dog][NLINE]
+do some tunnel crawling?[END-FE]
+
+
+
+
+
+//POINTER #615 @ $923C - STRING #615 @ $12BEF
+#W32($923C)
+//そうですね。[NLINE]
+//よしっ！[NLINE]
+//[Futon-Dog]、がんばってみましょう！[END-FE]
+Very well.[NLINE]
+Do you your best, [Futon-Dog]![END-FE]
+
+
+
+
+
+//POINTER #616 @ $9240 - STRING #616 @ $12C26
+#W32($9240)
+//練習場を借りたポイントは戻りませんが、[NLINE]
+//宜しいのですか？[END-FE]
+Are you sure? The points you used[NLINE]
+to rent the excercise field won't[NLINE]
+be returned.[END-FE]
+
+
+
+
+
+//POINTER #617 @ $9244 - STRING #617 @ $12C61
+#W32($9244)
+//４ポイント支払えば、[NLINE]
+//引き続き場所を借りる事ができますが、[NLINE]
+//延長しますか？[END-FE]
+If you pay four points, you can[NLINE]
+continue renting the field. Would[NLINE]
+you like to extend your stay?[END-FE]
+
+
+
+
+
+//POINTER #618 @ $9248 - STRING #618 @ $12CAE
+#W32($9248)
+//・延長する[END-FE]
+・Extend[END-FE]
+
+
+
+
+
+//POINTER #619 @ $924C - STRING #619 @ $12CBB
+#W32($924C)
+//・延長しない[END-FE]
+・Don't extend[END-FE]
+
+
+
+
+
+//POINTER #620 @ $9250 - STRING #620 @ $12CCA
+#W32($9250)
+//[Futon-Dog]、戻りましょう。[END-FE]
+Let's go back, [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #621 @ $9254 - STRING #621 @ $12CE1
+#W32($9254)
+//あっ、[Futon-Dog]！[END-FE]
+Ah, [Futon-Dog]![END-FE]
+
+
+
+
+
+//POINTER #622 @ $9258 - STRING #622 @ $12CF0
+#W32($9258)
+//…[Futon-Dog]には、[NLINE]
+//何を練習していたのか[NLINE]
+//分かっていないみたいです。[END-FE]
+...[Futon-Dog] doesn't[NLINE]
+seem to understand what[NLINE]
+it was practicing.[END-FE]
+
+
+
+
+
+//POINTER #623 @ $925C - STRING #623 @ $12D31
+#W32($925C)
+//　[NLINE]
+//清潔そうなベッドだ。[END-FE]
+[NLINE]
+It's clean-looking bed.[END-FE]
+
+
+
+
+
+//POINTER #624 @ $9260 - STRING #624 @ $12D4C
+#W32($9260)
+//　[NLINE]
+//花が生けてある。[END-FE]
+[NLINE]
+There are flowers in a vase.[END-FE]
+
+
+
+
+
+//POINTER #625 @ $9264 - STRING #625 @ $12D63
+#W32($9264)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+[NLINE]
+A lamp is placed on the table.[END-FE]
+
+
+
+
+
+//POINTER #626 @ $9268 - STRING #626 @ $12D90
+#W32($9268)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+[NLINE]
+It's a dresser.[END-FE]
+
+
+
+
+
+//POINTER #627 @ $926C - STRING #627 @ $12DAF
+#W32($926C)
+//風景画が飾られている。[NLINE]
+//この近辺を描いたものではないようだ。[END-FE]
+It's a landscape painting.[NLINE]
+It doesn't look like it depicts the[NLINE]
+surrounding environment.[END-FE]
+
+
+
+

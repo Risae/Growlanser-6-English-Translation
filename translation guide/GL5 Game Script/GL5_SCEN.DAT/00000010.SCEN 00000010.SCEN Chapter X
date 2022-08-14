@@ -1,0 +1,1834 @@
+
+
+//POINTER #0 @ $3A20 - STRING #0 @ $3C50
+#W32($3A20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3A24 - STRING #1 @ $3C53
+#W32($3A24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3A28 - STRING #2 @ $3C60
+#W32($3A28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $3A2C - STRING #3 @ $3C85
+#W32($3A2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3A30 - STRING #4 @ $3CAA
+#W32($3A30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3A34 - STRING #5 @ $3CBF
+#W32($3A34)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3A38 - STRING #6 @ $3CF4
+#W32($3A38)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $3A3C - STRING #7 @ $3D29
+#W32($3A3C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3A40 - STRING #8 @ $3D4E
+#W32($3A40)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3A44 - STRING #9 @ $3D73
+#W32($3A44)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3A48 - STRING #10 @ $3D98
+#W32($3A48)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $3A4C - STRING #11 @ $3DAD
+#W32($3A4C)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3A50 - STRING #12 @ $3DD4
+#W32($3A50)
+//[CHAR1700][V0000]
+//ここは……。[END-FE]
+[CHAR1700][V0000]
+This place...[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3A54 - STRING #13 @ $3DEB
+#W32($3A54)
+//地下の遺跡[END-FE]
+Underground Ruin[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3A58 - STRING #14 @ $3DF8
+#W32($3A58)
+//ビリィ殿を放っておくわけにはいかんな。[END-FE]
+Now where did Alasdir get to...?[END-FE]
+
+
+
+
+
+//POINTER #15 @ $3A5C - STRING #15 @ $3E21
+#W32($3A5C)
+//ビリィ殿を放っておくわけにはいかんな。[END-FE]
+Now where did Alasdir get to...?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3A60 - STRING #16 @ $3E4A
+#W32($3A60)
+//周囲の邪悪な波動を感じているようで、[NLINE]
+//動作していない…。[END-FE]
+The malice present in the air seems[NLINE]
+to be preventing it from working.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3A64 - STRING #17 @ $3E85
+#W32($3A64)
+//ビリィ殿を放っておくわけにはいかんな。[END-FE]
+Now where did Alasdir get to...?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3A68 - STRING #18 @ $3EAE
+#W32($3A68)
+//ベッドで休みますか？[END-FE]
+Would you like to rest?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $3A6C - STRING #19 @ $3EC5
+#W32($3A6C)
+//モンスターがいる中で[NLINE]
+//寝られるわけがない…。[NLINE]
+//まずは、モンスターを倒さねば。[END-FE]
+I'd better defeat the monsters[NLINE]
+first to avoid some very[NLINE]
+bitey dreams...[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3A70 - STRING #20 @ $3F14
+#W32($3A70)
+//棚があるが、役に立ちそうな物は[NLINE]
+//残されていない。　　　　　　　[END-FE]
+There's nothing useful on the[NLINE]
+shelf here.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3A74 - STRING #21 @ $3F55
+#W32($3A74)
+//地下の遺跡[END-FE]
+Underground Ruin[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3A78 - STRING #22 @ $3F62
+#W32($3A78)
+//[CHAR1700][V0100]
+//う、うーん……。[END-FE]
+[CHAR1700][V0100]
+Unghh...[END-FE]
+
+
+
+
+
+//POINTER #23 @ $3A7C - STRING #23 @ $3F7D
+#W32($3A7C)
+//[CHAR1700][V0200]
+//怪我はないか？[END-FE]
+[CHAR1700][V0200]
+Are you hurt?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3A80 - STRING #24 @ $3F96
+#W32($3A80)
+//[CHAR1700][V0300]
+//ランディ先生……[NLINE]
+//自分は何ともないようです。[END-FE]
+[CHAR1700][V0300]
+Oh...I'm fine Doctor.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3A84 - STRING #25 @ $3FCD
+#W32($3A84)
+//[CHAR1700][V0400]
+//それはなによりだ。[NWIN]
+//
+//[CHAR1700][V0500]
+//しかし、シェリス殿は[NLINE]
+//おられないようだな……。[NWIN]
+//
+//[CHAR1700][V0600]
+//だが、我々が無事なのだ。[NLINE]
+//シェリス殿に限って『もしも』はあるまい。[NWIN]
+//
+//[CHAR1700][V0700]
+//出口を探しながら、[NLINE]
+//合流できれば良いのだが……。[END-FE]
+[CHAR1700][V0400]
+Glad to hear it.[NWIN]
+
+[CHAR1700][V0500]
+I can't seem to find Lady Sherris,[NLINE]
+though...[NWIN]
+
+[CHAR1700][V0600]
+But if we're relatively unharmed, then[NLINE]
+surely Lady Sherris is equally fine.[NWIN]
+
+[CHAR1700][V0700]
+With luck, we'll find her on our[NLINE]
+way out.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3A88 - STRING #26 @ $40A8
+#W32($3A88)
+//[CHAR1700][V0800]
+//あのナイト・スクリーパーも[NLINE]
+//我々と一緒に落ちたはずですが、[NLINE]
+//見あたらないですね……。[END-FE]
+[CHAR1700][V0800]
+I think that Knight Screaper[NLINE]
+fell down with us, but I haven't[NLINE]
+seen it...[END-FE]
+
+
+
+
+
+//POINTER #27 @ $3A8C - STRING #27 @ $4107
+#W32($3A8C)
+//地下の遺跡[END-FE]
+Underground Ruin[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3A90 - STRING #28 @ $4114
+#W32($3A90)
+//[CHAR1700][V1C00]
+//ランディ殿！[NLINE]
+//ご無事であったか！[END-FE]
+[CHAR1700][V1C00]
+Dr. Randall,[NLINE]
+you're safe![END-FE]
+
+
+
+
+
+//POINTER #29 @ $3A94 - STRING #29 @ $413F
+#W32($3A94)
+//[CHAR1700][V1D00]
+//シェリス殿こそ、[NLINE]
+//お怪我もなさそうで何より。[NWIN]
+//
+//[CHAR1700][V1E00]
+//出口を探してやってきたのですが、[NLINE]
+//この奥は、もう探されましたか？[END-FE]
+[CHAR1700][V1D00]
+And you as well, milady! What[NLINE]
+a relief![NWIN]
+
+[CHAR1700][V1E00]
+I was hoping to find an exit, though.[NLINE]
+Have you been through this door?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3A98 - STRING #30 @ $41C0
+#W32($3A98)
+//[CHAR1700][V1F00]
+//この向こうには、[NLINE]
+//ナイト・スクリーパーがいる。[END-FE]
+[CHAR1700][V1F00]
+No. The Knight Screaper is[NLINE]
+through there.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $3A9C - STRING #31 @ $41F9
+#W32($3A9C)
+//[CHAR1700][V2000]
+//なんですと！[END-FE]
+[CHAR1700][V2000]
+Bloody hell![END-FE]
+
+
+
+
+
+//POINTER #32 @ $3AA0 - STRING #32 @ $4210
+#W32($3AA0)
+//[CHAR1700][V2100]
+//先ほどの崩落により、[NLINE]
+//私は奴とともにこの上の階に落ちたのだ。[NWIN]
+//
+//[CHAR1700][V2200]
+//ナイト・スクリーパーは、[NLINE]
+//瓦礫に尾を挟まれ、動けなくなっている。[END-FE]
+[CHAR1700][V2100]
+I fell down with it to the floor[NLINE]
+above us.[NWIN]
+
+[CHAR1700][V2200]
+It's partially trapped under some[NLINE]
+wreckage for now, though.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $3AA4 - STRING #33 @ $42A1
+#W32($3AA4)
+//[CHAR1700][V2300]
+//なるほど、[NLINE]
+//近づかなければ危険ではないのですな。[END-FE]
+[CHAR1700][V2300]
+I see... We'll keep our distance,[NLINE]
+then.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $3AA8 - STRING #34 @ $42DC
+#W32($3AA8)
+//[CHAR1700][V2400]
+//ところが、奴の背後に扉がある。[NLINE]
+//他の扉は調べたが、[NLINE]
+//いずれも出口ではなかった。[END-FE]
+[CHAR1700][V2400]
+We can't. There's a door in that room too,[NLINE]
+and it's the only one I haven't checked.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $3AAC - STRING #35 @ $4335
+#W32($3AAC)
+//[CHAR1700][V2500]
+//それでは、スクリーパーを倒さなければ[NLINE]
+//我々は外に出られないと……？[END-FE]
+[CHAR1700][V2500]
+You mean, we have to kill a Screaper[NLINE]
+to get out of here?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $3AB0 - STRING #36 @ $4382
+#W32($3AB0)
+//[CHAR1700][V2600]
+//そうと決まったわけでは[NLINE]
+//ないだろうが……。[NWIN]
+//
+//[CH.FACE:Angry][CC.AC00][CHAR1700][V2700]
+//……ん？[NWIN]
+//
+//[CHAR1700][V2800]
+//貴公は見ない顔だな。[NLINE]
+//私の部下ではないようだが。[END-FE]
+[CHAR1700][V2600]
+I can't say for sure. I[NLINE]
+hope not, but...[NWIN]
+
+[CH.FACE:Angry][CC.AC00][CHAR1700][V2700]
+Hm...?[NWIN]
+
+[CHAR1700][V2800]
+I've never seen you before.[NLINE]
+You're not one of my men...[END-FE]
+
+
+
+
+
+//POINTER #37 @ $3AB4 - STRING #37 @ $440A
+#W32($3AB4)
+//[CHAR1700][V2900]
+//は、はい！[NLINE]
+//自分は遺跡調査隊所属の者であります！[END-FE]
+[CHAR1700][V2900]
+C-Correct, milady![NLINE]
+I-I'm with the Ruin Explorers![END-FE]
+
+
+
+
+
+//POINTER #38 @ $3AB8 - STRING #38 @ $4445
+#W32($3AB8)
+//[CHAR1700][V2A00]
+//なるほど、[NLINE]
+//確かこの近くに逗留していたな。[END-FE]
+[CHAR1700][V2A00]
+Ah, I see. They're stationed[NLINE]
+nearby.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $3ABC - STRING #39 @ $447A
+#W32($3ABC)
+//[CHAR1700][V2B00]
+//はっ！[NLINE]
+//ランディ博士をお連れするように言われ、[NLINE]
+//現地へ向かう途中でありました！[END-FE]
+[CHAR1700][V2B00]
+Yes, milady! I had orders to fetch[NLINE]
+Dr. Randall, and we were on our[NLINE]
+way, when...[END-FE]
+
+
+
+
+
+//POINTER #40 @ $3AC0 - STRING #40 @ $44D3
+#W32($3AC0)
+//[CHAR1700][V2C00]
+//そうか、任務ご苦労。[NWIN]
+//
+//[CHAR1700][V2D00]
+//ここにはどんな危険が潜んでいるかわからん。[NLINE]
+//必ずランディ殿をお守りしてくれ。[END-FE]
+[CHAR1700][V2C00]
+Well, keep it up, soldier.[NWIN]
+
+[CHAR1700][V2D00]
+We don't know what dangers lurk in here.[NLINE]
+Protect Dr. Randall with your life.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $3AC4 - STRING #41 @ $4548
+#W32($3AC4)
+//[CHAR1700][V2E00]
+//はっ！[END-FE]
+[CHAR1700][V2E00]
+Roger![END-FE]
+
+
+
+
+
+//POINTER #42 @ $3AC8 - STRING #42 @ $4559
+#W32($3AC8)
+//　[NLINE]
+//シェリス近衛兵長が仲間になった！[NLINE]
+//　[END-FE]
+　[NLINE]
+Sherris has joined your party![NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #43 @ $3ACC - STRING #43 @ $4584
+#W32($3ACC)
+//[CHAR1700][V0900]
+//ここは……資料室のようだな。[END-FE]
+[CHAR1700][V0900]
+I'd guess these are the archives.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $3AD0 - STRING #44 @ $45AB
+#W32($3AD0)
+//[CHAR1700][V0A00]
+//何か役立ちそうなものが？[END-FE]
+[CHAR1700][V0A00]
+Do you see anything useful?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $3AD4 - STRING #45 @ $45CE
+#W32($3AD4)
+//[CHAR1700][V0B00]
+//ここに置かれているのはいったい？[END-FE]
+[CHAR1700][V0B00]
+What are all these papers?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $3AD8 - STRING #46 @ $45F9
+#W32($3AD8)
+//[CHAR1700][V0C00]
+//どうやら、古代帝国の文献らしい。[NLINE]
+//かなりの量がある。[END-FE]
+[CHAR1700][V0C00]
+Ancient Imperial documents,[NLINE]
+most likely. Rather a lot of them.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $3ADC - STRING #47 @ $4638
+#W32($3ADC)
+//[CHAR1700][V0D00]
+//この遺跡の資料でも見つかれば、[NLINE]
+//ここから出るのに役立つかも知れん。[END-FE]
+[CHAR1700][V0D00]
+If they contain information on these[NLINE]
+ruins, they'd be useful indeed.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $3AE0 - STRING #48 @ $4685
+#W32($3AE0)
+//[CHAR1800][V1B00]
+//ここが資料室です。こう見ると、[NLINE]
+//ここは資料の宝庫かも知れませんな。[END-FE]
+[CHAR1800][V1B00]
+Ah, the archive room. There should[NLINE]
+be valuable information here.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $3AE4 - STRING #49 @ $46D2
+#W32($3AE4)
+//[CHAR1800][V1C00]
+//いずれはすべて運び出しますが、[NLINE]
+//それには時間がかかります。[END-FE]
+[CHAR1800][V1C00]
+We'll eventually get everything[NLINE]
+out, but that'll take some time.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $3AE8 - STRING #50 @ $4717
+#W32($3AE8)
+//[CHAR1800][V1D00]
+//まず、ランディ先生が[NLINE]
+//必要とされるものをお選びください。[END-FE]
+[CHAR1800][V1D00]
+Pick a few you think are[NLINE]
+especially important to begin with.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $3AEC - STRING #51 @ $475A
+#W32($3AEC)
+//　[NLINE]
+//かなりの数の文献が並んでいる。[END-FE]
+　[NLINE]
+There are several documents.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $3AF0 - STRING #52 @ $477F
+#W32($3AF0)
+//日よけ処理をした赤茶色のビンが置いてある。[NLINE]
+//中には、ドロリとした青い液体が入っている。[END-FE]
+There's a bottle made of light-resistant[NLINE]
+glass, filled with sticky blue liquid.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $3AF4 - STRING #53 @ $47D8
+#W32($3AF4)
+//[CHAR1700][V1600]
+//どうやらこれが、[NLINE]
+//接着剤に使う青色の液体らしいな。[END-FE]
+[CHAR1700][V1600]
+This appears to be the blue liquid[NLINE]
+used to make epoxy resin.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $3AF8 - STRING #54 @ $4815
+#W32($3AF8)
+//[CHAR1700][V1700]
+//何かの役に立つかも知れない。[NLINE]
+//持って行こう。[END-FE]
+[CHAR1700][V1700]
+We'd better bring it along, just[NLINE]
+in case.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $3AFC - STRING #55 @ $484C
+#W32($3AFC)
+//[CHAR1700][V1800]
+//ランディ殿、その瓶はいったい？[END-FE]
+[CHAR1700][V1800]
+What's in the bottle, Dr. Randall?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3B00 - STRING #56 @ $4875
+#W32($3B00)
+//[CHAR1700][V1900]
+//これと対になる錠剤を混ぜると、[NLINE]
+//強力な接着剤になるようなのだが……。[END-FE]
+[CHAR1700][V1900]
+One of the ingredients for making[NLINE]
+that epoxy resin I mentioned.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3B04 - STRING #57 @ $48C4
+#W32($3B04)
+//[CHAR1700][V1A00]
+//そういえば、[NLINE]
+//スクリーパーのいる部屋の隣には[NLINE]
+//倉庫らしき部屋がある。[END-FE]
+[CHAR1700][V1A00]
+You know, there was a storage[NLINE]
+room of some sort next to the[NLINE]
+Screaper's chamber...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3B08 - STRING #58 @ $4913
+#W32($3B08)
+//[CHAR1700][V1B00]
+//もしやその中に緑の錠剤が……？[END-FE]
+[CHAR1700][V1B00]
+Think the green pills are in there...?[END-FE]
+
+
+
+
+
+//POINTER #59 @ $3B0C - STRING #59 @ $493C
+#W32($3B0C)
+//じっくり調べたいところだが、[NLINE]
+//今は脱出の手がかりになる物だけに[NLINE]
+//特定しておこう。[END-FE]
+Would that I had days to read these...[NLINE]
+I'd better focus on the ones I need[NLINE]
+for now.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3B10 - STRING #60 @ $498F
+#W32($3B10)
+//どの本を調べますか？[END-FE]
+Which book will you examine?[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3B14 - STRING #61 @ $49A6
+#W32($3B14)
+//・赤い背表紙の本[END-FE]
+・Red book[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3B18 - STRING #62 @ $49B9
+#W32($3B18)
+//・黒い背表紙の本[END-FE]
+・Black book[END-FE]
+
+
+
+
+
+//POINTER #63 @ $3B1C - STRING #63 @ $49CC
+#W32($3B1C)
+//・茶色い背表紙の本[END-FE]
+・Brown book[END-FE]
+
+
+
+
+
+//POINTER #64 @ $3B20 - STRING #64 @ $49E1
+#W32($3B20)
+//・青い背表紙の本[END-FE]
+・Blue book[END-FE]
+
+
+
+
+
+//POINTER #65 @ $3B24 - STRING #65 @ $49F4
+#W32($3B24)
+//[CHAR1800][V2500]
+//これは、[NLINE]
+//古代帝国時代の魔法に関しての文献か。[NLINE]
+//だが、私の専門ではないな。[END-FE]
+[CHAR1800][V2500]
+This one covers magic of the Imperial[NLINE]
+era... Interesting for some, I suppose,[NLINE]
+but not really relevant.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $3B28 - STRING #66 @ $4A49
+#W32($3B28)
+//[CHAR1800][V1E00]
+//む……これは。[END-FE]
+[CHAR1800][V1E00]
+Hmm... This is...[END-FE]
+
+
+
+
+
+//POINTER #67 @ $3B2C - STRING #67 @ $4A62
+#W32($3B2C)
+//[CHAR1800][V1F00]
+//古代帝国時代の歴史を[NLINE]
+//つづったもののようだ。[NLINE]
+//資料的価値がありそうですな。[END-FE]
+[CHAR1800][V1F00]
+A history of the ancient[NLINE]
+empire. It's quite valuable[NLINE]
+as background material...[END-FE]
+
+
+
+
+
+//POINTER #68 @ $3B30 - STRING #68 @ $4AB7
+#W32($3B30)
+//[CHAR1800][V2000]
+//ただ、かなり冊数が[NLINE]
+//あるようだが……。[END-FE]
+[CHAR1800][V2000]
+But it's composed of[NLINE]
+so many volumes...[END-FE]
+
+
+
+
+
+//POINTER #69 @ $3B34 - STRING #69 @ $4AE8
+#W32($3B34)
+//[CHAR1800][V2100]
+//後ほど、部下に命じて[NLINE]
+//運ばせましょう。[END-FE]
+[CHAR1800][V2100]
+I'll have my men bring[NLINE]
+them out, Sir.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $3B38 - STRING #70 @ $4B19
+#W32($3B38)
+//[CHAR1800][V2600]
+//これは、古代帝国の宮廷についての[NLINE]
+//記録のようだ。[NLINE]
+//文化を知るうえでは役に立つかも知れないが、[NLINE]
+//実用ではなさそうだ。[END-FE]
+[CHAR1800][V2600]
+Details of the ancient Imperial[NLINE]
+palace... Their culture seems[NLINE]
+fascinating, but it's not practical[NLINE]
+to study right now.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $3B3C - STRING #71 @ $4B96
+#W32($3B3C)
+//[CHAR1800][V2200]
+//これは……、[NLINE]
+//この遺跡についての資料のようだな。[NLINE]
+//詳しく調べれば、調査が円滑になるだろう。[END-FE]
+[CHAR1800][V2200]
+Aha... this document concerns these[NLINE]
+ruins. I think we'll find what we're[NLINE]
+looking for within.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $3B40 - STRING #72 @ $4BFB
+#W32($3B40)
+//[CHAR1800][V2300]
+//では、先ほどの資料と一緒に、[NLINE]
+//部下に運ばせましょう。[NWIN]
+//
+//[CHAR1800][V2400]
+//今回運び出せるのは[NLINE]
+//これで限界です。[END-FE]
+[CHAR1800][V2300]
+Then let's bring this one out[NLINE]
+along with the others.[NWIN]
+
+[CHAR1800][V2400]
+That's all we can carry out[NLINE]
+for now.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $3B44 - STRING #73 @ $4C68
+#W32($3B44)
+//[CHAR1800][V2100]
+//後ほど、部下に命じて[NLINE]
+//運ばせましょう。[END-FE]
+[CHAR1800][V2100]
+I'll have my men bring[NLINE]
+them out, Sir.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $3B48 - STRING #74 @ $4C99
+#W32($3B48)
+//　[NLINE]
+//かなりの数の文献が並んでいる。[END-FE]
+　[NLINE]
+There are many documents.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $3B4C - STRING #75 @ $4CBE
+#W32($3B4C)
+//樽の中から、腐ったような匂いが漏れている。[NLINE]
+//フタを開けない方が良さそうだ。　　　　　　　[END-FE]
+A rotten smell emanates from the barrel.[NLINE]
+It's best not to open the lid...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $3B50 - STRING #76 @ $4D19
+#W32($3B50)
+//[CHAR1700][V0E00]
+//ん？[NLINE]
+//これはなんだ……？[END-FE]
+[CHAR1700][V0E00]
+Hello, what's[NLINE]
+this...?[END-FE]
+
+
+
+
+
+//POINTER #77 @ $3B54 - STRING #77 @ $4D3C
+#W32($3B54)
+//[CHAR1700][V0F00]
+//ふむ……。[NLINE]
+//古代帝国語で書かれているな。[END-FE]
+[CHAR1700][V0F00]
+Hmm... It's in the ancient[NLINE]
+Imperial language.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $3B58 - STRING #78 @ $4D6F
+#W32($3B58)
+//[CHAR1700][V1000]
+//これは、古代帝国の建設現場で[NLINE]
+//使われていた薬品の説明書らしい。[NWIN]
+//
+//[CHAR1700][V1100]
+//原料となる青色の液体と[NLINE]
+//緑色の錠剤を混ぜ合わせると、[NLINE]
+//強力な接着剤になるらしいが……。[END-FE]
+[CHAR1700][V1000]
+Directions for a compound used in[NLINE]
+construction back then, apparently.[NWIN]
+
+[CHAR1700][V1100]
+By mixing the blue liquid and[NLINE]
+green pills, they'd synthesize[NLINE]
+a strong epoxy resin...[END-FE]
+
+
+
+
+
+//POINTER #79 @ $3B5C - STRING #79 @ $4E18
+#W32($3B5C)
+//[CHAR1700][V1000]
+//これは、古代帝国の建設現場で[NLINE]
+//使われていた薬品の説明書らしい。[NWIN]
+//
+//[CHAR1700][V1100]
+//原料となる青色の液体と[NLINE]
+//緑色の錠剤を混ぜ合わせると、[NLINE]
+//強力な接着剤になるらしいが……。[END-FE]
+[CHAR1700][V1000]
+Directions for a compound used in[NLINE]
+construction back then, apparently.[NWIN]
+
+[CHAR1700][V1100]
+By mixing the blue liquid and[NLINE]
+green pills, they'd synthesize[NLINE]
+a strong epoxy resin...[END-FE]
+
+
+
+
+
+//POINTER #80 @ $3B60 - STRING #80 @ $4EC1
+#W32($3B60)
+//[CHAR1700][V1200]
+//その接着剤とやら、[NLINE]
+//あのナイト・スクリーパーと戦うのに[NLINE]
+//役立つかも知れん。[NWIN]
+//
+//[CHAR1700][V1300]
+//この階にも出口はないようだし、[NLINE]
+//やらねばなるまい。[NWIN]
+//
+//[CHAR1700][V1400]
+//できれば[NLINE]
+//さけたいところだったが…。[END-FE]
+[CHAR1700][V1200]
+Hmm... We may be able to use[NLINE]
+that to fight the Knight[NLINE]
+Screaper.[NWIN]
+
+[CHAR1700][V1300]
+And without an exit on this[NLINE]
+level, we'll need it.[NWIN]
+
+[CHAR1700][V1400]
+I hoped it wouldn't come to[NLINE]
+this, but...[END-FE]
+
+
+
+
+
+//POINTER #81 @ $3B64 - STRING #81 @ $4F80
+#W32($3B64)
+//[CHAR1700][V1500]
+//なるほど、[NLINE]
+//動きを止めることができれば[NLINE]
+//スクリーパーと言えども……。[END-FE]
+[CHAR1700][V1500]
+Really? Well, let's try to[NLINE]
+halt the Screaper and hope[NLINE]
+for the best.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $3B68 - STRING #82 @ $4FCF
+#W32($3B68)
+//付近のモンスターを[NLINE]
+//片づけないと危ないな。[END-FE]
+I must clear out the[NLINE]
+nearby monsters.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $3B6C - STRING #83 @ $4FFC
+#W32($3B6C)
+//スイッチがある。操作しますか？[END-FE]
+It's a switch. Press it?[END-FE]
+
+
+
+
+
+//POINTER #84 @ $3B70 - STRING #84 @ $501D
+#W32($3B70)
+//[CHAR1800][V1900]
+//まだモンスターが[NLINE]
+//残っているかも知れませんな。[END-FE]
+[CHAR1800][V1900]
+Careful... There may[NLINE]
+be some monsters left inside.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $3B74 - STRING #85 @ $5056
+#W32($3B74)
+//[CHAR1800][V1A00]
+//ナイト・スクリーパーが倒されて、[NLINE]
+//隠れていたモンスターが[NLINE]
+//姿を現している可能性もあります。[END-FE]
+[CHAR1800][V1A00]
+They'll likely come out of hiding,[NLINE]
+now that the Knight Screaper[NLINE]
+has been taken care of.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $3B78 - STRING #86 @ $50BB
+#W32($3B78)
+//[CHAR1700][V2F00]
+//シェリス殿、[NLINE]
+//我々はこの下の階を探索したが、[NLINE]
+//どうやら出口はないようだ。[END-FE]
+[CHAR1700][V2F00]
+Lady Sherris, we've searched[NLINE]
+the lower regions, but there[NLINE]
+seems to be no exit.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $3B7C - STRING #87 @ $510E
+#W32($3B7C)
+//[CHAR1700][V3000]
+//それでは、[NLINE]
+//外へ出る方法を探すとしよう。[END-FE]
+[CHAR1700][V3000]
+It's time we found a way[NLINE]
+out of here.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3B80 - STRING #88 @ $5141
+#W32($3B80)
+//ランディ殿、ここはひとまず[NLINE]
+//外へ出てみよう。[NLINE]
+//後ほど、調査のために人手を割く。[END-FE]
+Let's go outside for now, Dr.[NLINE]
+Randall. I'll send men back[NLINE]
+later to investigate.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $3B84 - STRING #89 @ $5192
+#W32($3B84)
+//　[NLINE]
+//特に何もないようだ。[END-FE]
+　[NLINE]
+There's nothing special here.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3B88 - STRING #90 @ $51AD
+#W32($3B88)
+//[CHAR1700][V4100]
+//む、この錠剤のようだな……。[END-FE]
+[CHAR1700][V4100]
+I expect these are the pills I need.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $3B8C - STRING #91 @ $51D4
+#W32($3B8C)
+//　[NLINE]
+//緑色の錠剤が大量に置いてある。[END-FE]
+　[NLINE]
+The jar contains many green pills.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3B90 - STRING #92 @ $51F9
+#W32($3B90)
+//　[NLINE]
+//緑色の錠剤が大量に置いてある。[END-FE]
+　[NLINE]
+The jar contains many green pills.[END-FE]
+
+
+
+
+
+//POINTER #93 @ $3B94 - STRING #93 @ $521E
+#W32($3B94)
+//役に立つかどうかはわかりませんが、[NLINE]
+//後で部下に回収させます。[END-FE]
+I'll have my men carry them out,[NLINE]
+just in case.[END-FE]
+
+
+
+
+
+//POINTER #94 @ $3B98 - STRING #94 @ $525D
+#W32($3B98)
+//これが例の錠剤か。[NLINE]
+//だが、もう必要なさそうだな。[END-FE]
+These are the pills I used[NLINE]
+earlier, but I don't need them now.[END-FE]
+
+
+
+
+
+//POINTER #95 @ $3B9C - STRING #95 @ $5290
+#W32($3B9C)
+//[CHAR1700][V3300]
+//何の方策もなしに[NLINE]
+//ナイト・スクリーパーと戦うのは危険すぎる。[NWIN]
+//
+//[CHAR1700][V3400]
+//何か策はないものか……？[END-FE]
+[CHAR1700][V3300]
+We need a plan before taking on a[NLINE]
+Knight Screaper.[NWIN]
+
+[CHAR1700][V3400]
+Let's not go in there blind.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $3BA0 - STRING #96 @ $52F9
+#W32($3BA0)
+//[CHAR1700][V3500]
+//ん……？[NLINE]
+//ときにランディ殿、その瓶は……？[END-FE]
+[CHAR1700][V3500]
+By the way, Dr. Randall... What's[NLINE]
+in that bottle?[END-FE]
+
+
+
+
+
+//POINTER #97 @ $3BA4 - STRING #97 @ $532E
+#W32($3BA4)
+//[CHAR1700][V3600]
+//おお、これですか？[NWIN]
+//
+//[CHAR1700][V3700]
+//下の階で見つけたのですが、[NLINE]
+//どうやら強力な接着剤の材料のようです。[NWIN]
+//
+//[CHAR1700][V3800]
+//何かの役に立つかと思い、[NLINE]
+//持って参ったのですが……。[END-FE]
+[CHAR1700][V3600]
+Oh, this old thing?[NWIN]
+
+[CHAR1700][V3700]
+I found it on the lower levels. It's an[NLINE]
+ingredient for a strong epoxy resin.[NWIN]
+
+[CHAR1700][V3800]
+I thought we might find[NLINE]
+some use for it.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $3BA8 - STRING #98 @ $53D5
+#W32($3BA8)
+//[CHAR1700][V3900]
+//接着剤か……。[NLINE]
+//それでナイト・スクリーパーの動きを[NLINE]
+//止めることができれば、[NLINE]
+//互角に戦えるかも知れんな。[END-FE]
+[CHAR1700][V3900]
+Epoxy resin, huh? If we could[NLINE]
+immobilize the Knight Screaper,[NLINE]
+we might just stand a chance[NLINE]
+against it.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $3BAC - STRING #99 @ $5446
+#W32($3BAC)
+//[CHAR1700][V3A00]
+//接着剤を作るにはもう１つ、[NLINE]
+//緑色の錠剤が必要なようです。[NWIN]
+//
+//[CHAR1700][V3B00]
+//ですが、[NLINE]
+//それが見あたらないのですよ。[END-FE]
+[CHAR1700][V3A00]
+Capital idea. All we need to[NLINE]
+create some are the green pills.[NWIN]
+
+[CHAR1700][V3B00]
+I haven't seen any thus[NLINE]
+far, though.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $3BB0 - STRING #100 @ $54B9
+#W32($3BB0)
+//[CHAR1700][V3C00]
+//この扉の向こう、[NLINE]
+//左側に倉庫らしき部屋がある。[NLINE]
+//もしや、そこにあるかも知れん。[END-FE]
+[CHAR1700][V3C00]
+Behind this door to the left[NLINE]
+was a storage room, I think.[NLINE]
+Let's search there.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $3BB4 - STRING #101 @ $5512
+#W32($3BB4)
+//[CHAR1700][V3D00]
+//ならば、行ってみるしか[NLINE]
+//ありませんな。[END-FE]
+[CHAR1700][V3D00]
+Anything you say,[NLINE]
+milady.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $3BB8 - STRING #102 @ $5543
+#W32($3BB8)
+//[CHAR1700][V3E00]
+//覚悟はいいな？[END-FE]
+[CHAR1700][V3E00]
+Ready, Doctor?[END-FE]
+
+
+
+
+
+//POINTER #103 @ $3BBC - STRING #103 @ $555C
+#W32($3BBC)
+//[CHAR1700][V3F00]
+//よし、行くぞ！[END-FE]
+[CHAR1700][V3F00]
+Then let's go![END-FE]
+
+
+
+
+
+//POINTER #104 @ $3BC0 - STRING #104 @ $5575
+#W32($3BC0)
+//[CHAR1700][V4000]
+//そうか。[NLINE]
+//では、もう少し準備をしてから突入しよう。[END-FE]
+[CHAR1700][V4000]
+Very well. Make sure you're ready[NLINE]
+before we charge in.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $3BC4 - STRING #105 @ $55B2
+#W32($3BC4)
+//[CHAR1700][V3100]
+//動けないとは言え、[NLINE]
+//扉の向こうにスクリーパーがいる。[NWIN]
+//
+//[CHAR1700][V3200]
+//まず、下の階に出口がないかどうかを[NLINE]
+//探索してから奥へ行ってみた方がいい。[END-FE]
+[CHAR1700][V3100]
+It's trapped for now, but there's[NLINE]
+a Screaper behind that door.[NWIN]
+
+[CHAR1700][V3200]
+Let's check the lower regions first[NLINE]
+and save that room as a last resort.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $3BC8 - STRING #106 @ $5643
+#W32($3BC8)
+//ランディ殿、スクリーパーを[NLINE]
+//このまま放っておくわけにはいかない！[END-FE]
+Dr. Randall, where are you going!? We[NLINE]
+can't leave the Screaper![END-FE]
+
+
+
+
+
+//POINTER #107 @ $3BCC - STRING #107 @ $5686
+#W32($3BCC)
+//ランディ殿、出る前に[NLINE]
+//残ったモンスターを一掃しておこう。[END-FE]
+We should defeat all the monsters[NLINE]
+before leaving.[END-FE]
+
+
+
+
+
+//POINTER #108 @ $3BD0 - STRING #108 @ $56C1
+#W32($3BD0)
+//もう少し下を探した方が良さそうだな。[END-FE]
+Let's check the lower levels.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $3BD4 - STRING #109 @ $56E8
+#W32($3BD4)
+//手負いのナイト・スクリーパーとはいえ、[NLINE]
+//やはり一戦交えねばならぬか。[END-FE]
+I'm not eager to fight that thing, but[NLINE]
+we have to or we can't get out.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $3BD8 - STRING #110 @ $572F
+#W32($3BD8)
+//接着剤を完成させるには、[NLINE]
+//緑色の錠剤も必要だ。[END-FE]
+We're still missing[NLINE]
+the green pills...[END-FE]
+
+
+
+
+
+//POINTER #111 @ $3BDC - STRING #111 @ $5760
+#W32($3BDC)
+//[CHAR1700][V4400]
+//この青色の液体と緑色の錠剤を[NLINE]
+//混ぜ合わせればいいのだな……。[NWIN]
+//
+//[CHAR1700][V4500]
+//色が変わった……！[NWIN]
+//
+//[CHAR1700][V4600]
+//どうやら接着剤になったようだ。[END-FE]
+[CHAR1700][V4400]
+All right, let's try mixing up some[NLINE]
+of this epoxy resin...[NWIN]
+
+[CHAR1700][V4500]
+Ah! The color's changed.[NWIN]
+
+[CHAR1700][V4600]
+I'd say we've found our resin.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $3BE0 - STRING #112 @ $57EB
+#W32($3BE0)
+//これは、ランディ殿に[NLINE]
+//お任せした方が良さそうだ。[END-FE]
+This is more in Dr. Randall's[NLINE]
+line of work.[END-FE]
+
+
+
+
+
+//POINTER #113 @ $3BE4 - STRING #113 @ $581E
+#W32($3BE4)
+//これは、ランディ先生に[NLINE]
+//お任せした方が良さそうだ。[END-FE]
+I'll let the Doctor handle[NLINE]
+this one.[END-FE]
+
+
+
+
+
+//POINTER #114 @ $3BE8 - STRING #114 @ $5853
+#W32($3BE8)
+//これは、ランディ殿に[NLINE]
+//お任せした方が良さそうだ。[END-FE]
+This is more in Dr. Randall's[NLINE]
+line of work.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $3BEC - STRING #115 @ $5886
+#W32($3BEC)
+//これは、ランディ先生に[NLINE]
+//お任せした方が良さそうだ。[END-FE]
+I'll let the Doctor handle[NLINE]
+this one.[END-FE]
+
+
+
+
+
+//POINTER #116 @ $3BF0 - STRING #116 @ $58BB
+#W32($3BF0)
+//[CHAR1700][V4700]
+//ここからでは遠すぎるな……。[END-FE]
+[CHAR1700][V4700]
+I'm too far away...[END-FE]
+
+
+
+
+
+//POINTER #117 @ $3BF4 - STRING #117 @ $58E2
+#W32($3BF4)
+//[CHAR1700][V4800]
+//よし、当たった！[END-FE]
+[CHAR1700][V4800]
+Bang on![END-FE]
+
+
+
+
+
+//POINTER #118 @ $3BF8 - STRING #118 @ $58FD
+#W32($3BF8)
+//[CHAR1700][V4900]
+//……効いたか？[END-FE]
+[CHAR1700][V4900]
+...Did it work?[END-FE]
+
+
+
+
+
+//POINTER #119 @ $3BFC - STRING #119 @ $5916
+#W32($3BFC)
+//[CHAR1700][V4A00]
+//動きが鈍くなったようだな。[END-FE]
+[CHAR1700][V4A00]
+It's slowing down...![END-FE]
+
+
+
+
+
+//POINTER #120 @ $3C00 - STRING #120 @ $593B
+#W32($3C00)
+//これは、ランディ殿に[NLINE]
+//お任せした方が良さそうだな。[END-FE]
+This is more in Dr. Randall's[NLINE]
+line of work.[END-FE]
+
+
+
+
+
+//POINTER #121 @ $3C04 - STRING #121 @ $5970
+#W32($3C04)
+//これは、ランディ先生に[NLINE]
+//お任せした方が良さそうだ。[END-FE]
+I'll let the Doctor handle[NLINE]
+this one.[END-FE]
+
+
+
+
+
+//POINTER #122 @ $3C08 - STRING #122 @ $59A5
+#W32($3C08)
+//[CHAR1700][V4B00]
+//倒せた……？[END-FE]
+[CHAR1700][V4B00]
+Did we kill it...?[END-FE]
+
+
+
+
+
+//POINTER #123 @ $3C0C - STRING #123 @ $59BC
+#W32($3C0C)
+//[CHAR1700][V4C00]
+//弱っていたとは言え、[NLINE]
+//ナイト・スクリーパー…。[NLINE]
+//手強い相手だった。[END-FE]
+[CHAR1700][V4C00]
+Even if we did, it[NLINE]
+didn't go down[NLINE]
+without a fight...[END-FE]
+
+
+
+
+
+//POINTER #124 @ $3C10 - STRING #124 @ $5A09
+#W32($3C10)
+//[CHAR1700][V4D00]
+//さすがはシェリス殿。[END-FE]
+[CHAR1700][V4D00]
+Excellent form, milady.[END-FE]
+
+
+
+
+
+//POINTER #125 @ $3C14 - STRING #125 @ $5A28
+#W32($3C14)
+//[CHAR1700][V4E00]
+//ランディ殿の助力あってのことだ。[NLINE]
+//それに、遺跡調査隊はいい兵士に[NLINE]
+//恵まれているようだな。[END-FE]
+[CHAR1700][V4E00]
+You were a big help too, Doctor.[NLINE]
+And I see that the Ruin Explorers[NLINE]
+can hold their own in a fight.[END-FE]
+
+
+
+
+
+//POINTER #126 @ $3C18 - STRING #126 @ $5A8B
+#W32($3C18)
+//[CHAR1700][V4F00]
+//……どうした？[NLINE]
+//貴公の事だ。[END-FE]
+[CHAR1700][V4F00]
+...Um... That was[NLINE]
+a compliment?[END-FE]
+
+
+
+
+
+//POINTER #127 @ $3C1C - STRING #127 @ $5AB2
+#W32($3C1C)
+//[CHAR1700][V5000]
+//……は？[NLINE]
+//自分がでありますか？[END-FE]
+[CHAR1700][V5000]
+...Oh! Were you talking[NLINE]
+to me, milady?[END-FE]
+
+
+
+
+
+//POINTER #128 @ $3C20 - STRING #128 @ $5ADB
+#W32($3C20)
+//[CHAR1700][V5100]
+//そうですな。[NLINE]
+//彼のような立派な兵士がいれば、[NLINE]
+//シリルティアも安泰でしょう。[END-FE]
+[CHAR1700][V5100]
+Unquestionably. Cyriltia[NLINE]
+could use a few more fine[NLINE]
+soldiers like him.[END-FE]
+
+
+
+
+
+//POINTER #129 @ $3C24 - STRING #129 @ $5B30
+#W32($3C24)
+//[CHAR1700][V5200]
+//そうだ、良かったらこれを[NLINE]
+//貰ってはくれまいか？[NWIN]
+//
+//[CHAR1700][V5300]
+//友情のメダルといって、[NLINE]
+//私もある人から託された物だ。[NWIN]
+//
+//[CHAR1700][V5400]
+//もっとも、[NLINE]
+//２０年近くも前の話だがな。[END-FE]
+[CHAR1700][V5200]
+In fact... Yes, I think you[NLINE]
+should have this.[NWIN]
+
+[CHAR1700][V5300]
+It's called a Friendship Medal. It[NLINE]
+was given to me once, too.[NWIN]
+
+[CHAR1700][V5400]
+By a dear friend, about 20[NLINE]
+years ago.[END-FE]
+
+
+
+
+
+//POINTER #130 @ $3C28 - STRING #130 @ $5BD7
+#W32($3C28)
+//　[NLINE]
+//友情のメダルを渡した。[END-FE]
+　[NLINE]
+Passed on the Friendship Medal.[END-FE]
+
+
+
+
+
+//POINTER #131 @ $3C2C - STRING #131 @ $5BF4
+#W32($3C2C)
+//[CHAR1700][V5500]
+//よかったな。[END-FE]
+[CHAR1700][V5500]
+You should be proud.[END-FE]
+
+
+
+
+
+//POINTER #132 @ $3C30 - STRING #132 @ $5C0B
+#W32($3C30)
+//[CHAR1700][V5600]
+//は、はいっ！[NLINE]
+//光栄であります！[END-FE]
+[CHAR1700][V5600]
+Y-Yes, Ma'am![NLINE]
+It's an honor![END-FE]
+
+
+
+
+
+//POINTER #133 @ $3C34 - STRING #133 @ $5C34
+#W32($3C34)
+//ビリィを回復させた直後で、[NLINE]
+//かつ下の階へ行く階段上でのみ、[NLINE]
+//デバッグ部屋への移動が保証されます。[NLINE]
+//それ以外の時にデバッグ部屋に行っても[NLINE]
+//動作保証できませんので、ご了承ください。[NLINE]
+//なお小マップ２ですが、下の階の仕掛けや[NLINE]
+//調査が全て済んだ状態であれば、[NLINE]
+//ボス戦前にセーブしても、問題ない…かも？[END-FE]
+ビリィを回復させた直後で、[NLINE]
+かつ下の階へ行く階段上でのみ、[NLINE]
+デバッグ部屋への移動が保証されます。[NLINE]
+それ以外の時にデバッグ部屋に行っても[NLINE]
+動作保証できませんので、ご了承ください。[NLINE]
+なお小マップ２ですが、下の階の仕掛けや[NLINE]
+調査が全て済んだ状態であれば、[NLINE]
+ボス戦前にセーブしても、問題ない…かも？[END-FE]
+
+
+
+
+
+//POINTER #134 @ $3C38 - STRING #134 @ $5D59
+#W32($3C38)
+//同意してデバッグ部屋行く？[END-FE]
+同意してデバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #135 @ $3C3C - STRING #135 @ $5D76
+#W32($3C3C)
+//Ｄ　Ｒ２Ｄ７[END-FE]
+Ｄ　Ｒ２Ｄ７[END-FE]
+
+
+
+
+
+//POINTER #136 @ $3C40 - STRING #136 @ $5D85
+#W32($3C40)
+//ビリィを回復させた直後で、[NLINE]
+//かつ下の階へ行く階段上でのみ、[NLINE]
+//デバッグ部屋への移動が保証されます。[END-FE]
+ビリィを回復させた直後で、[NLINE]
+かつ下の階へ行く階段上でのみ、[NLINE]
+デバッグ部屋への移動が保証されます。[END-FE]
+
+
+
+
+
+//POINTER #137 @ $3C44 - STRING #137 @ $5DE8
+#W32($3C44)
+//な、なんということだ……！[END-FE]
+Th-This can't be...![END-FE]
+
+
+
+
+
+//POINTER #138 @ $3C48 - STRING #138 @ $5E05
+#W32($3C48)
+//　[NLINE]
+//魔法の力が、かき消された……[END-FE]
+　[NLINE]
+The spell was ineffective...[END-FE]
+
+
+
+

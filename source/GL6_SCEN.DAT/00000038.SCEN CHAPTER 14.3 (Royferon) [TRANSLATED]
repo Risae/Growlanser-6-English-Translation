@@ -1,0 +1,6621 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $A6E0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $9F20, 4, PTR)
+
+#JMP($A6E0)
+#HDR($A6E0)
+
+
+
+
+
+//POINTER #0 @ $9F20 - STRING #0 @ $A6E0
+#W32($9F20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $9F24 - STRING #1 @ $A6E3
+#W32($9F24)
+//墓守[END-FF]
+Gravekeeper[END-FF]
+
+
+
+
+
+//POINTER #2 @ $9F28 - STRING #2 @ $A6EA
+#W32($9F28)
+//オーナー[END-FF]
+Owner[END-FF]
+
+
+
+
+
+//POINTER #3 @ $9F2C - STRING #3 @ $A6F5
+#W32($9F2C)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #4 @ $9F30 - STRING #4 @ $A702
+#W32($9F30)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $9F34 - STRING #5 @ $A727
+#W32($9F34)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $9F38 - STRING #6 @ $A74C
+#W32($9F38)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $9F3C - STRING #7 @ $A761
+#W32($9F3C)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $9F40 - STRING #8 @ $A786
+#W32($9F40)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #9 @ $9F44 - STRING #9 @ $A7AB
+#W32($9F44)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $9F48 - STRING #10 @ $A7E0
+#W32($9F48)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $9F4C - STRING #11 @ $A815
+#W32($9F4C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $9F50 - STRING #12 @ $A83A
+#W32($9F50)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $9F54 - STRING #13 @ $A85F
+#W32($9F54)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $9F58 - STRING #14 @ $A884
+#W32($9F58)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $9F5C - STRING #15 @ $A899
+#W32($9F5C)
+//[CHAR5B00][V0500]
+//ここがロイフェロンだ。[NLINE]
+//私はあまり馴染みがないところだけどね。[NWIN]
+//
+//[CHAR5B00][V0600]
+//ウェルバーは何かとこの街に来ていた。[NLINE]
+//きっとここには何かある…。[END-FE]
+[CHAR5B00][V0500]
+This is Royferon.[NLINE]
+It's a place I'm not very familiar with,[NLINE]
+though.[NWIN]
+
+[CHAR5B00][V0600]
+Wellber came here for some reason.[NLINE]
+There must be something here...[END-FE]
+
+
+
+
+
+//POINTER #16 @ $9F60 - STRING #16 @ $A92C
+#W32($9F60)
+//[CHAR2003][V7400]
+//ここってロイフェロン？[NLINE]
+//…メーネがここにいるの？[END-FE]
+[CHAR2003][V7400]
+This is Royferon?[NLINE]
+...Could Meine be here?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $9F64 - STRING #17 @ $A967
+#W32($9F64)
+//…おかしい。[NWIN]
+//
+//ダンジョンのリサーチをしようとする度に、[NLINE]
+//人の態度がおかしくなるわ。[NWIN]
+//
+//その後はほとんどの人が[NLINE]
+//冷たい視線を私に送ってくる…。[NWIN]
+//
+//[CH.FACE:Normal][CC.AA0000]
+//…どうして？[END-FE]
+//Dungeon Lady\\
+...How strange.[NWIN]
+
+Every time I try to research dungeons,[NLINE]
+people get all weird.[NWIN]
+
+Afterwards, most people give me these[NLINE]
+cold stares...[NWIN]
+
+[CH.FACE:Normal][CC.AA0000]
+...Why?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $9F68 - STRING #18 @ $AA0A
+#W32($9F68)
+//このおね～ちゃん、おかし～！[END-FE]
+//Boy\\
+You're really weird, lady![END-FE]
+
+
+
+
+
+//POINTER #19 @ $9F6C - STRING #19 @ $AA29
+#W32($9F6C)
+//おかし～ね！[END-FE]
+//Girl\\
+Loony![END-FE]
+
+
+
+
+
+//POINTER #20 @ $9F70 - STRING #20 @ $AA38
+#W32($9F70)
+//失礼しちゃうわ！[NWIN]
+//
+//この世の中で、一番楽しい話題を[NLINE]
+//提供してるのにあの態度はなんだ！[END-FE]
+//Dungeon Lady\\
+Why you little...![NWIN]
+
+I provided you with the most enjoyable[NLINE]
+topic in the world and this is how you[NLINE]
+treat me!?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $9F74 - STRING #21 @ $AA8D
+#W32($9F74)
+//もう、リサーチするのは止め！[NLINE]
+//これ以上続けても、実りなんてないわ！[NWIN]
+//
+//見返してやる！[NWIN]
+//
+//見てなさい、ダンジョンの話題を[NLINE]
+//するたびに、白い目で私を見た者たち！[NWIN]
+//
+//ダンジョンがこの世でもっとも崇高な[NLINE]
+//建造物であることを認めさせてやる！[NWIN]
+//
+//そうと決まれば、まずは材料集めよ！[NWIN]
+//
+//[CH.FACE:Normal]
+//どこかに安く物を[NLINE]
+//仕入れられる場所はないかな？[NWIN]
+//
+//確か、あの街のゴミ捨て場に[NLINE]
+//使えそうなものがたくさんあったような…。[NWIN]
+//
+//[CH.FACE:Angry]
+//まず、そこからだ！[END-FE]
+//Dungeon Lady\\
+Fine, I'll stop with researching![NLINE]
+It would be pointless to continue![NWIN]
+
+But I'll show you![NWIN]
+
+Just wait and see, all of you who gaze[NLINE]
+at me with cold eyes every time I bring[NLINE]
+up dungeons![NWIN]
+
+I'll make you recognize dungeons as[NLINE]
+the most supreme buildings this world[NLINE]
+has ever known![NWIN]
+
+Now that I've made up my mind, I'll first[NLINE]
+gather materials![NWIN]
+
+[CH.FACE:Normal]
+Is there a place where I can get[NLINE]
+thingse cheap?[NWIN]
+
+I'm sure there are a lot of things[NLINE]
+from that city's dump that I could[NLINE]
+use...[NWIN]
+
+[CH.FACE:Angry]
+That's where I'll start![END-FE]
+
+
+
+
+
+//POINTER #22 @ $9F78 - STRING #22 @ $AC26
+#W32($9F78)
+//やあ、あなた方は！[NLINE]
+//あの時は危ないところを、[NLINE]
+//ありがとうございました！[END-FE]
+//Merchant\\
+Oh, hello again! Thank you for[NLINE]
+saving me when I was in danger![END-FE]
+
+
+
+
+
+//POINTER #23 @ $9F7C - STRING #23 @ $AC6F
+#W32($9F7C)
+//今度は、モンスターに[NLINE]
+//襲われなかったようですね。[END-FE]
+//Yurii\\
+It seems like you didn't get[NLINE]
+attacked by monsters this time.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $9F80 - STRING #24 @ $ACA2
+#W32($9F80)
+//それが、実はまた襲われたんです。[NLINE]
+//スクリーパーとかいう怪物に！[END-FE]
+//Merchant\\
+Actually, I was attacked again.[NLINE]
+By creatures called Screapers![END-FE]
+
+
+
+
+
+//POINTER #25 @ $9F84 - STRING #25 @ $ACE3
+#W32($9F84)
+//スクリーパーに襲われて、[NLINE]
+//良く無事だったな。[END-FE]
+//Rukias\\
+And yet you're safe somehow.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $9F88 - STRING #26 @ $AD12
+#W32($9F88)
+//モノポリス社の警備の方が[NLINE]
+//助けてくれました。[NWIN]
+//
+//『[COL01]赤狼隊[COL00]』とか言っていましたが、[NLINE]
+//いやぁ、強かった！[NWIN]
+//
+//おかげでこうして帰ってこられましたよ。[NLINE]
+//これでやっと店に商品を出せます！[END-FE]
+//Merchant\\
+A Monopolis soldier helped me.[NWIN]
+
+He said he was from [COL01]Red Wolf Unit[COL00] or something.[NLINE]
+And boy was he strong![NWIN]
+
+Thanks to him, I managed to return safely.[NLINE]
+Now I can finally restock my store![END-FE]
+
+
+
+
+
+//POINTER #27 @ $9F8C - STRING #27 @ $ADC7
+#W32($9F8C)
+//『赤狼隊』…ですか…。[NLINE]
+//いったい、誰でしょう？[NWIN]
+//
+//まさか、ウェンディさんでは[NLINE]
+//ありませんよね？[END-FE]
+//Yurii\\
+A Red Wolf Unit member...[NLINE]
+Who on earth could it be?[NWIN]
+
+Could it be that Wendy is here?[NLINE]
+Or was it someone else?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $9F90 - STRING #28 @ $AE26
+#W32($9F90)
+//・マクスウェル[END-FE]
+・It was Maxwell[END-FE]
+
+
+
+
+
+//POINTER #29 @ $9F94 - STRING #29 @ $AE37
+#W32($9F94)
+//・ウェンディ[END-FE]
+・It was Wendy[END-FE]
+
+
+
+
+
+//POINTER #30 @ $9F98 - STRING #30 @ $AE46
+#W32($9F98)
+//・それ以外の誰か[END-FE]
+・It was someone else[END-FE]
+
+
+
+
+
+//POINTER #31 @ $9F9C - STRING #31 @ $AE59
+#W32($9F9C)
+//・この話題に興味がない[END-FE]
+・I'm not interested in this topic[END-FE]
+
+
+
+
+
+//POINTER #32 @ $9FA0 - STRING #32 @ $AE72
+#W32($9FA0)
+//マクスウェルはウェンディさんと[NLINE]
+//ヒンギスタン王城に向かったはずでは？[END-FE]
+Maxwell and Wendy headed for the royal[NLINE]
+castle in Hingistan, did they not?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $9FA4 - STRING #33 @ $AEB9
+#W32($9FA4)
+//それはないと思いますよ。[NLINE]
+//彼女はヒンギスタン王城で[NLINE]
+//作戦を行っているはずですから。[END-FE]
+I do not think it was her.[NLINE]
+She should be at the royal castle[NLINE]
+in Hingistan right now, performing[NLINE]
+her mission.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $9FA8 - STRING #34 @ $AF0E
+#W32($9FA8)
+//そうですね、[NLINE]
+//赤狼隊のメンバーは他にもいるでしょうし。[END-FE]
+//Iristelessa\\
+Yes, there are other Red Wolf Unit[NLINE]
+members besides Wendy.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $9FAC - STRING #35 @ $AF47
+#W32($9FAC)
+//…あ、[NLINE]
+//申し訳ありません…。[END-FE]
+...Ah, my apologies...[END-FE]
+
+
+
+
+
+
+//POINTER #36 @ $9FB0 - STRING #36 @ $AF66
+#W32($9FB0)
+//まぁ、それは後で確認するとして、[NLINE]
+//今はフォメロス軍の基地へ向かおう。[END-FE]
+//Hofman\\
+Well, let's look into this later.[NLINE]
+For now, let's head for the Fomerion[NLINE]
+army base.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $9FB4 - STRING #37 @ $AFAD
+#W32($9FB4)
+//そういえば、[NLINE]
+//ちょっとお願いがあるんだが…。[NWIN]
+//
+//帰る途中で、[NLINE]
+//レイスタンに寄ってもらえないかな？[NWIN]
+//
+//以前、私をかくまってくれた人に[NLINE]
+//お礼を言っておきたいんだ。[END-FE]
+//Hofman\\
+I have a small request...[NWIN]
+
+On our way back, could we stop[NLINE]
+by Leystan?[NWIN]
+
+I would like to say thanks to the[NLINE]
+person who sheltered me.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $9FB8 - STRING #38 @ $B04A
+#W32($9FB8)
+//えっ、変な匂いですか？[CC.FFFB][NLINE]
+//それはウチじゃありませんよ！[NLINE]
+//この奥の墓地からじゃないですか？[END-FE]
+What? You smell something weird?[CC.FFFB][NLINE]
+Well, it certainly isn't coming from my house![NLINE]
+Isn't it coming from the graveyard?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $9FBC - STRING #39 @ $B0A5
+#W32($9FBC)
+//もう！[NLINE]
+//墓地裏の家なんて言わないで下さい！[END-FE]
+What kind of place do you think I[NLINE]
+live in? Some kind of murder house?[NLINE]
+Jeez![END-FE]
+
+
+
+
+
+//POINTER #40 @ $9FC0 - STRING #40 @ $B0D2
+#W32($9FC0)
+//街の奥に、[NLINE]
+//大きい墓地があるんだよ。[NWIN]
+//
+//ここは先祖を大切にする所だからね。[NLINE]
+//街のすぐそばにあるんだ。[END-FE]
+Right next to the city lies[NLINE]
+a large graveyard.[NWIN]
+
+That is where we pay respects to[NLINE]
+our ancestors. It's directly behind[NLINE]
+my house.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $9FC4 - STRING #41 @ $B137
+#W32($9FC4)
+//こちらは店の裏口です。[NLINE]
+//ご利用でしたら、正面からどうぞ。[END-FE]
+This is the store's back entrance.[NLINE]
+Please enter from the front.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $9FC8 - STRING #42 @ $B172
+#W32($9FC8)
+//お客様ですか？[NWIN]
+//
+//申し訳ございませんが、[NLINE]
+//主人がまだ仕入れから戻っていないので…。[NWIN]
+//
+//もうしばらくお待ち下さい。[END-FE]
+Ah, a custormer?[NWIN]
+
+I'm very sorry, but my husband[NLINE]
+went out to buy more stock and[NLINE]
+still hasn't returned yet...[NWIN]
+
+Please wait a little while longer.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $9FCC - STRING #43 @ $B1E1
+#W32($9FCC)
+//主人の危ないところを助けて頂いたそうで、[NLINE]
+//本当にありがとうございます。[END-FE]
+I heard you saved my husband. Thank[NLINE]
+you from the bottom of my heart.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $9FD0 - STRING #44 @ $B22A
+#W32($9FD0)
+//ルキアスイベントのデバッグ？[END-FE]
+Rukias event debug?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $9FD4 - STRING #45 @ $B249
+#W32($9FD4)
+//最近物の値段がどんどん上がっちゃって、[NLINE]
+//生活が大変よ。[NLINE]
+//早く戦争が終わってくれないかしら？[END-FE]
+Prices have been rising steadily[NLINE]
+lately and life has become hard.[NLINE]
+Will the war end soon?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $9FD8 - STRING #46 @ $B2A6
+#W32($9FD8)
+//そう言えば、道具屋の店主は[NLINE]
+//まだ戻らないのかしら？[NLINE]
+//高くても、売ってないと困るものね。[END-FE]
+By the way, hasn't the owner of[NLINE]
+the general store returned yet?[NLINE]
+His prices may be high, but if he[NLINE]
+doesn't sell anything, he'll be[NLINE]
+in trouble.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $9FDC - STRING #47 @ $B2FF
+#W32($9FDC)
+//どうしてヒンギスタン王国内の内紛を[NLINE]
+//我が国が止めてやらなきゃならないんだ？[NWIN]
+//
+//その軍隊の活動資金は[NLINE]
+//俺たちの税金じゃないか！[NWIN]
+//
+//そんなことのために[NLINE]
+//税金を払ってるわけじゃないぞ！[END-FE]
+Why should our country have to[NLINE]
+put an end to the internal conflict[NLINE]
+in Hingistan?[NWIN]
+
+Doesn't the military funding come[NLINE]
+from our tax money!?[NWIN]
+
+I'm not paying taxes for that![END-FE]
+
+
+
+
+
+
+//POINTER #48 @ $9FE0 - STRING #48 @ $B3B0
+#W32($9FE0)
+//ヒンギスタンから兵を引き上げるって[NLINE]
+//決まったそうだよ！[END-FE]
+I heard it was decided to withdraw[NLINE]
+our troops from Hingistan![END-FE]
+
+
+
+
+
+//POINTER #49 @ $9FE4 - STRING #49 @ $B3E9
+#W32($9FE4)
+//噴水の前に立っている赤い服の女…。[NLINE]
+//ダンジョンがどうとかと、[NLINE]
+//おかしなことを口にしてくる。[NWIN]
+//
+//相手にしない方が良いぞ。[END-FE]
+See that young woman dressed in[NLINE]
+red standing in front of the[NLINE]
+fountain? She's saying weird[NLINE]
+things, something about dungeons.[NWIN]
+
+You best ignore her.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $9FE8 - STRING #50 @ $B460
+#W32($9FE8)
+//[CHAR5B00][V0700]
+//アンタ達、闇市の会場知っているか？[END-FE]
+//Man\\
+[CHAR5B00][V0700]
+Have you heard about the black market?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $9FEC - STRING #51 @ $B48D
+#W32($9FEC)
+//[CHAR5B00][V0800]
+//闇市？[NLINE]
+//いや、知らないなぁ。[END-FE]
+//Hofman\\
+[CHAR5B00][V0800]
+Black market?[NLINE]
+No, we haven't.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $9FF0 - STRING #52 @ $B4B4
+#W32($9FF0)
+//[CHAR5B00][V0900]
+//そこでは、[NLINE]
+//生活に必要なのを知っていて、[NLINE]
+//値をつり上げてるんだ。[NWIN]
+//
+//[CHAR5B00][V0A00]
+//もっとも、[NLINE]
+//闇市もそれほど数が出る訳じゃないから[NLINE]
+//滅多な事じゃ教えてくれないんだ。[NWIN]
+//
+//[CHAR5B00][V0B00]
+//そうか。[NLINE]
+//アンタらも知らないのか…。[END-FE]
+//Man\\
+[CHAR5B00][V0900]
+They raise the prices on the products[NLINE]
+that they know we need for our daily[NLINE]
+lives.[NWIN]
+
+[CHAR5B00][V0A00]
+However, those products are scarce[NLINE]
+even there, so not a lot of people[NLINE]
+are told about it.[NWIN]
+
+[CHAR5B00][V0B00]
+I see. So, you didn't know about[NLINE]
+it, either...[END-FE]
+
+
+
+
+
+//POINTER #53 @ $9FF4 - STRING #53 @ $B589
+#W32($9FF4)
+//[CHAR5B00][V0C00]
+//その闇市の話は誰から聞いたんだ？[END-FE]
+//Hofman\\
+[CHAR5B00][V0C00]
+Who told you about the black market?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $9FF8 - STRING #54 @ $B5B4
+#W32($9FF8)
+//[CHAR5B00][V0D00]
+//人づてに聞いただけだが、[NLINE]
+//どこかの店主が、[NLINE]
+//『闇市のせいで商品が売れなくなった』[NLINE]
+//…って言っていたんだって…。[END-FE]
+//Man\\
+[CHAR5B00][V0D00]
+I just heard it from hearsay.[NLINE]
+Some shopkeeper said that his[NLINE]
+goods didn't sell because of[NLINE]
+the black market...[END-FE]
+
+
+
+
+
+//POINTER #55 @ $9FFC - STRING #55 @ $B62D
+#W32($9FFC)
+//どこかの店主が、[NLINE]
+//『闇市のせいで商品が売れなくなった』[NLINE]
+//…って言っていたんだって…。[END-FE]
+Some shopkeeper said that his[NLINE]
+goods didn't sell because of[NLINE]
+the black market...[END-FE]
+
+
+
+
+
+//POINTER #56 @ $A000 - STRING #56 @ $B684
+#W32($A000)
+//墓地の地下にあった闇市が摘発されたんだって！[NLINE]
+//悪いことは続かないって事だな。[END-FE]
+//Man\\
+A black market ring that operated underneath[NLINE]
+the graveyard got busted! It's as they say,[NLINE]
+bad things don't last.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $A004 - STRING #57 @ $B6D3
+#W32($A004)
+//俺も[COL01]メーネ[COL00]さんみたく、真面目に働くか。[NWIN]
+//
+//それにしても…、…闇市か…。[NLINE]
+//無くなる前に行ってみたかったなぁ…。[END-FE]
+//Man\\
+I'll go work diligently like [COL01]Meine[COL00].[NWIN]
+
+Still...[NLINE]
+I wanted to go to the black market[NLINE]
+before it got shut down...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $A008 - STRING #58 @ $B746
+#W32($A008)
+//・メーネのことを質問[END-FE]
+・Ask about Meine[END-FE]
+
+
+
+
+
+//POINTER #59 @ $A00C - STRING #59 @ $B75D
+#W32($A00C)
+//・何もしない[END-FE]
+・Don't say anything[END-FE]
+
+
+
+
+
+//POINTER #60 @ $A010 - STRING #60 @ $B76C
+#W32($A010)
+//とても働き者だって評判の女性だよ。[NLINE]
+//…たしか、宝石商と結婚したんだっけ？[END-FE]
+She's a woman who is known to work very[NLINE]
+hard. If I remember right, she married[NLINE]
+the jewel shop owner.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $A014 - STRING #61 @ $B7B7
+#W32($A014)
+//おとな達の事なんて知らないね。[END-FE]
+I don't know anything about adult[NLINE]
+stuff.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $A018 - STRING #62 @ $B7D8
+#W32($A018)
+//…変な赤い服。[END-FE]
+...Those red clothes that lady is[NLINE]
+wearing are really weird.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $A01C - STRING #63 @ $B7E9
+#W32($A01C)
+//彼と一緒なら、毎日ハッピーよ[COL03][HEART][COL00][END-FE]
+Everyday is happy when I'm with my boyfriend.[COL03][HEART][END-FE]
+
+
+
+
+
+//POINTER #64 @ $A020 - STRING #64 @ $B810
+#W32($A020)
+//私たちの遊び場に、[NLINE]
+//変な人が立ってるの。[NWIN]
+//
+//…早くいなくならないかな。[END-FE]
+A weird lady is standing at[NLINE]
+our play spot.[NWIN]
+
+...I hope she'll go away soon.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $A024 - STRING #65 @ $B857
+#W32($A024)
+//な～に？[END-FE]
+Whadya want?[END-FE]
+
+
+
+
+
+//POINTER #66 @ $A028 - STRING #66 @ $B862
+#W32($A028)
+//せかいには、へんな人がいるって[NLINE]
+//おとうさんがいってたけど、[NLINE]
+//あの赤い人がそうなのかな？[END-FE]
+My papa told me there are[NLINE]
+strange people in this world.[NLINE]
+Is that red lady one of them?[END-FE]
+
+
+
+
+
+//POINTER #67 @ $A02C - STRING #67 @ $B8BB
+#W32($A02C)
+//ふふふん[MUSIC-NOTE][END-FE]
+La-la-la [MUSIC-NOTE][END-FE]
+
+
+
+
+
+//POINTER #68 @ $A030 - STRING #68 @ $B8C8
+#W32($A030)
+//あの赤い人に[NLINE]
+//近よらないほうがいいよ、[NLINE]
+//ゼッタイ！[END-FE]
+Don't go near that red lady![NLINE]
+You hear me, mister?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $A034 - STRING #69 @ $B8FD
+#W32($A034)
+//いらっしゃいませ！[END-FE]
+//Merchant\\
+Welcome![END-FE]
+
+
+
+
+
+//POINTER #70 @ $A038 - STRING #70 @ $B912
+#W32($A038)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #71 @ $A03C - STRING #71 @ $B939
+#W32($A03C)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #72 @ $A040 - STRING #72 @ $B946
+#W32($A040)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #73 @ $A044 - STRING #73 @ $B953
+#W32($A044)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #74 @ $A048 - STRING #74 @ $B95C
+#W32($A048)
+//またのお越しを[NLINE]
+//お待ちしております。[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #75 @ $A04C - STRING #75 @ $B983
+#W32($A04C)
+//いらっしゃいませ！[NWIN]
+//
+//物価のせいで少々高いかも知れませんが、[NLINE]
+//見ていって下さい！[NWIN]
+//
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+Welcome![NWIN]
+
+Our prices may be a little high,[NLINE]
+but please take a look![NWIN]
+
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #76 @ $A050 - STRING #76 @ $B9FA
+#W32($A050)
+//・食材を探す[END-FE]
+・Search for ingredients[END-FE]
+
+
+
+
+
+//POINTER #77 @ $A054 - STRING #77 @ $BA09
+#W32($A054)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #78 @ $A058 - STRING #78 @ $BA18
+#W32($A058)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #79 @ $A05C - STRING #79 @ $BA27
+#W32($A05C)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #80 @ $A060 - STRING #80 @ $BA30
+#W32($A060)
+//何か、料理できるような物って[NLINE]
+//ありませんか？[END-FE]
+//Wendy\\
+Do you have any cooking ingredients?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $A064 - STRING #81 @ $BA5F
+#W32($A064)
+//えっ、料理ですか？[NLINE]
+//うちだと調味料くらいしか…。[NWIN]
+//
+//それで良かったら、差し上げますよ。[NLINE]
+//みなさんにはお世話になりましたから。[END-FE]
+//Merchant\\
+Cooking, you say? I only have[NLINE]
+this seasoning at the moment...[NWIN]
+
+I would like to give it to you,[NLINE]
+if that's alright. I'm in your[NLINE]
+debt.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $A068 - STRING #82 @ $BADC
+#W32($A068)
+//残念ですが、[NLINE]
+//先ほどの調味料しかありません。[END-FE]
+I'm sorry, I only have that seasoning[NLINE]
+I mentioned earlier.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $A06C - STRING #83 @ $BB0B
+#W32($A06C)
+//ありがとうございました。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #84 @ $A070 - STRING #84 @ $BB34
+#W32($A070)
+//あっ！[NLINE]
+//井戸の前に、お姉さんを発見しました！[END-FE]
+//Yurii\\
+Ah! There she is, in front of[NLINE]
+the well![END-FE]
+
+
+
+
+
+//POINTER #85 @ $A074 - STRING #85 @ $BB63
+#W32($A074)
+//…墓場に井戸って…。[NWIN]
+//
+//ここってたしか、土葬よね？[NWIN]
+//
+//だとしたら、その横にある[NLINE]
+//井戸って…。[NWIN]
+//
+//[CH.FACE:Shy][CC.AC00]
+//ある意味、ナイス？[NLINE]
+//冥界まで続くダンジョン…。[NWIN]
+//
+//一歩足を踏み入れれば、[NLINE]
+//その中には、おばけが…[END-FE]
+//Dungeon Lady\\
+...A well in a graveyard...[NWIN]
+
+This place is where they bury[NLINE]
+the dead...[NWIN]
+
+If that's the case, then this[NLINE]
+well is...[NWIN]
+
+[CH.FACE:Shy][CC.AC00]
+That's kind of cool in a way.[NLINE]
+A dungeon that leads to the[NLINE]
+underworld...[NWIN]
+
+Once you step in, ghost will app-[END-FE]
+
+
+
+
+
+//POINTER #86 @ $A078 - STRING #86 @ $BC25
+#W32($A078)
+//見～つ～け～[NLINE]
+//ま～し～た～よ～！[END-FE]
+//Yurii\\
+Found you![END-FE]
+
+
+
+
+
+//POINTER #87 @ $A07C - STRING #87 @ $BC48
+#W32($A07C)
+//きゃああああぁぁ、[NLINE]
+//出た出たああぁぁっ！[END-FE]
+//Dungeon Lady\\
+Waaaaaah![NLINE]
+They came to get meeeee![END-FE]
+
+
+
+
+
+//POINTER #88 @ $A080 - STRING #88 @ $BC73
+#W32($A080)
+//な、なにがですか!?[NLINE]
+//なにが出たんですか!?[END-FE]
+//Yurii\\
+W-what do you mean?[NLINE]
+Who came to get you!?[END-FE]
+
+
+
+
+
+//POINTER #89 @ $A084 - STRING #89 @ $BC9E
+#W32($A084)
+//…おどかさないでよ。[NLINE]
+//…井戸から、おばけとかが[NLINE]
+//出てきたのかと思ったじゃない。[NWIN]
+//
+//はあ～、ビックリした…。[NWIN]
+//
+//………、あれ？[END-FE]
+//Dungeon Lady\\
+...Don't scare me like that.[NLINE]
+I thought ghosts had come[NLINE]
+out of the well.[NWIN]
+
+Aaah, my heart is pounding...[NWIN]
+
+...Huh?[END-FE]
+
+
+
+
+
+//POINTER #90 @ $A088 - STRING #90 @ $BD19
+#W32($A088)
+//あ～、説教妖精！[END-FE]
+//Dungeon Lady\\
+Ah! You're that holier-than-thou fairy![END-FE]
+
+
+
+
+
+//POINTER #91 @ $A08C - STRING #91 @ $BD2C
+#W32($A08C)
+//…せ、説教妖精？[END-FE]
+//Yurii\\
+...Holier-than-thou fairy?[END-FE]
+
+
+
+
+
+//POINTER #92 @ $A090 - STRING #92 @ $BD3F
+#W32($A090)
+//青い悪魔に続いて、[NLINE]
+//またしても私の前に立ち塞がるか、[NLINE]
+//妖精め！[END-FE]
+//Dungeon Lady\\
+Do you intend to stand in my way[NLINE]
+just like that blue she-devil!?[NLINE]
+Curse you![END-FE]
+
+
+
+
+
+//POINTER #93 @ $A094 - STRING #93 @ $BD80
+#W32($A094)
+//…青い悪魔？[END-FE]
+//Yurii\\
+...Blue she-devil?[END-FE]
+
+
+
+
+
+//POINTER #94 @ $A098 - STRING #94 @ $BD8F
+#W32($A098)
+//青い悪魔。[NLINE]
+//それは笑みを浮かべながら、[NLINE]
+//私を蹴りまくる、恐怖の妖精！[END-FE]
+//Dungeon Lady\\
+That's right, blue she-devil. That[NLINE]
+horrifying fairy who kicks me around[NLINE]
+while wearing a smile on her face![END-FE]
+
+
+
+
+
+//POINTER #95 @ $A09C - STRING #95 @ $BDD6
+#W32($A09C)
+//だ・れ・が、[NLINE]
+//青い悪魔だって～？[END-FE]
+//Korin\\
+Who ya calling a blue she-devil?[END-FE]
+
+
+
+
+
+//POINTER #96 @ $A0A0 - STRING #96 @ $BDF9
+#W32($A0A0)
+//で、出た～！[NWIN]
+//
+//な、なんで青い悪魔がここに！[END-FE]
+//Dungeon Lady\\
+S-she's here![NWIN]
+
+W-why is the blue she-devil here!?[END-FE]
+
+
+
+
+
+//POINTER #97 @ $A0A4 - STRING #97 @ $BE26
+#W32($A0A4)
+//コリン、この方と[NLINE]
+//知り合いだったのですか？[END-FE]
+//Yurii\\
+Is this person a friend of yours, Korin?[END-FE]
+
+
+
+
+
+//POINTER #98 @ $A0A8 - STRING #98 @ $BE53
+#W32($A0A8)
+//知ってるといえば、知ってるけど、[NLINE]
+//…知り合いと言われたくない相手ね！[END-FE]
+//Korin\\
+I guess you could say I know her, but it's[NLINE]
+not like she's my friend or anything![END-FE]
+
+
+
+
+
+//POINTER #99 @ $A0AC - STRING #99 @ $BE9A
+#W32($A0AC)
+//ひどいことを、サラッと…。[END-FE]
+//Dungeon Lady\\
+She said that without hesitating...[END-FE]
+
+
+
+
+
+//POINTER #100 @ $A0B0 - STRING #100 @ $BEB7
+#W32($A0B0)
+//そ[CC.D80F]・れ[CC.D80F]・よ[CC.D80F]・り[CC.D80F]・も、[CC.D819][NLINE]
+//また、妹さんを放っておいて、[NLINE]
+//アンタはナニをしてるのよ！[END-FE]
+//Korin\\
+Aaanyway...[NLINE]
+What you are doing, leaving your[NLINE]
+sister all alone again!?[END-FE]
+
+
+
+
+
+//POINTER #101 @ $A0B4 - STRING #101 @ $BF17
+#W32($A0B4)
+//…前の試験に落ちて、[NLINE]
+//それで…。[END-FE]
+//Dungeon Lady\\
+...I failed the test, so[NLINE]
+now...[END-FE]
+
+
+
+
+
+//POINTER #102 @ $A0B8 - STRING #102 @ $BF3A
+#W32($A0B8)
+//…え？[NLINE]
+//試験落ちたの？[END-FE]
+//Korin\\
+...What?[NLINE]
+You failed a test?[END-FE]
+
+
+
+
+
+//POINTER #103 @ $A0BC - STRING #103 @ $BF53
+#W32($A0BC)
+//だから次のダンジョン制作に[NLINE]
+//走り回っているのよ…。[END-FE]
+//Dungeon Lady\\
+That's why I'm going around trying[NLINE]
+to make my next dungeon...[END-FE]
+
+
+
+
+
+//POINTER #104 @ $A0C0 - STRING #104 @ $BF88
+#W32($A0C0)
+//そ、そうだったの、[NLINE]
+//それは……[END-FE]
+//Korin\\
+I-I see...[NLINE]
+I'm so sorry...[END-FE]
+
+
+
+
+
+//POINTER #105 @ $A0C4 - STRING #105 @ $BFA9
+#W32($A0C4)
+//…って、私が事情を知らないとでも[NLINE]
+//思っているの！[END-FE]
+//Korin\\
+...Not! You think we don't know[NLINE]
+what's going on!?[END-FE]
+
+
+
+
+
+//POINTER #106 @ $A0C8 - STRING #106 @ $BFDC
+#W32($A0C8)
+//アンタが暴走して、[NLINE]
+//ダンジョンマスターの杖を[NLINE]
+//盗んできたのは知っているのよ！[END-FE]
+//Korin\\
+We know you went rogue and stole[NLINE]
+stole the Dungeon Master's Rod![END-FE]
+
+
+
+
+
+//POINTER #107 @ $A0CC - STRING #107 @ $C02B
+#W32($A0CC)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #108 @ $A0D0 - STRING #108 @ $C058
+#W32($A0D0)
+//ユリィ、絶対捕まえるわよ！[END-FE]
+//Korin\\
+We've got to stop her, Yurii![END-FE]
+
+
+
+
+
+//POINTER #109 @ $A0D4 - STRING #109 @ $C075
+#W32($A0D4)
+//異論はありません。[NWIN]
+//
+//絶対に捕まえましょう！[END-FE]
+//Yurii\\
+I agree.[NWIN]
+
+We can't let her get away with this![END-FE]
+
+
+
+
+
+//POINTER #110 @ $A0D8 - STRING #110 @ $C0A2
+#W32($A0D8)
+//青い…。[NLINE]
+//（何故か、コリンの顔が脳裏に。）[END-FE]
+//Yurii\\
+Blue she-devil...[NLINE]
+(Somehow, that reminds me of Korin.)[END-FE]
+
+
+
+
+
+//POINTER #111 @ $A0DC - STRING #111 @ $C0CF
+#W32($A0DC)
+//最高のダンジョンを創れる[NLINE]
+//絶好のチャンスなんだ！[NWIN]
+//
+//こんなところで[NLINE]
+//捕まってなるものか！[END-FE]
+//Dungeon Lady\\
+This is my best chance to create[NLINE]
+the ultimate dungeon![NWIN]
+
+Do you think you can stop me now!?[END-FE]
+
+
+
+
+
+//POINTER #112 @ $A0E0 - STRING #112 @ $C128
+#W32($A0E0)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #113 @ $A0E4 - STRING #113 @ $C155
+#W32($A0E4)
+//……。[NWIN]
+//
+//本当に本来の目的を[NLINE]
+//忘れてしまっているようですね。[NWIN]
+//
+//妹さんが言うには、井戸をダンジョンの[NLINE]
+//入り口にするみたいですから、[NLINE]
+//井戸をめぐっていれば見つかるかもしれません。[END-FE]
+//Yurii\\
+...[NWIN]
+
+It seems she forgot about her original[NLINE]
+purpose.[NWIN]
+
+Her younger sister said she wants[NLINE]
+to turn a well into the entrance[NLINE]
+to her dungeon. Maybe we'll find[NLINE]
+her if we search around wells.[END-FE]
+
+
+
+
+
+//POINTER #114 @ $A0E8 - STRING #114 @ $C204
+#W32($A0E8)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #115 @ $A0EC - STRING #115 @ $C21B
+#W32($A0EC)
+//自動Ｄ　ＥＢ０７＿１前[END-FE]
+自動D EB07_1前[END-FE]
+
+
+
+
+
+//POINTER #116 @ $A0F0 - STRING #116 @ $C234
+#W32($A0F0)
+//[CHAR5F00][V0000]
+//おい、アンタら、[NLINE]
+//こんな場所に…、[NLINE]
+//…えっ、その顔は…！[END-FE]
+[CHAR5F00][V0000]
+Hey, what are you doing[NLINE]
+here-[NLINE]
+...What!? That face...![END-FE]
+
+
+
+
+
+//POINTER #117 @ $A0F4 - STRING #117 @ $C277
+#W32($A0F4)
+//[CHAR5F00][V0100]
+//ひゃああっ！[END-FE]
+[CHAR5F00][V0100]
+Aaaaaah![END-FE]
+
+
+
+
+
+//POINTER #118 @ $A0F8 - STRING #118 @ $C28E
+#W32($A0F8)
+//[CHAR5F00][V0200]
+//司令殿と知って逃げたようですな。[NWIN]
+//
+//[CC.BF7605][CHAR5F00][V0300]
+//証拠を消されるかもしれません。[NLINE]
+//急ぎましょう。[END-FE]
+[CHAR5F00][V0200]
+It seems he ran because he[NLINE]
+knows the commander.[NWIN]
+
+[CC.BF7605][CHAR5F00][V0300]
+They might erase the evidence.[NLINE]
+Let's hurry.[END-FE]
+
+
+
+
+
+//POINTER #119 @ $A0FC - STRING #119 @ $C2F5
+#W32($A0FC)
+//[CHAR5B00][V2000]
+//よそ者がこんな墓場に[NLINE]
+//何しに来たんだ？[END-FE]
+[CHAR5B00][V2000]
+What are outsiders like you coming[NLINE]
+to this graveyard for?[END-FE]
+
+
+
+
+
+//POINTER #120 @ $A100 - STRING #120 @ $C326
+#W32($A100)
+//・合い言葉を言う[END-FE]
+・Say the password[END-FE]
+
+
+
+
+
+//POINTER #121 @ $A104 - STRING #121 @ $C339
+#W32($A104)
+//・立ち去る[END-FE]
+・Leave[END-FE]
+
+
+
+
+
+//POINTER #122 @ $A108 - STRING #122 @ $C346
+#W32($A108)
+//・墓場を守るより戦場に生きたい[END-FE]
+・I want to be buried in a flowerfield rather[NLINE]
+ than in a graveyard[END-FE]
+
+
+
+
+
+//POINTER #123 @ $A10C - STRING #123 @ $C367
+#W32($A10C)
+//・墓場で死ぬより戦場で死にたい[END-FE]
+・I want to be buried on the battlefield rather[NLINE]
+ than in a graveyard[END-FE]
+
+
+
+
+
+//POINTER #124 @ $A110 - STRING #124 @ $C388
+#W32($A110)
+//・戦場で死ぬより墓場で死にたい[END-FE]
+・I want to be buried in a graveyard rather[NLINE]
+ than on the battlefield[END-FE]
+
+
+
+
+
+//POINTER #125 @ $A114 - STRING #125 @ $C3A9
+#W32($A114)
+//・戦場で死ぬより墓守でも生きたい[END-FE]
+・I want to be buried on a sportsfield rather[NLINE]
+ than in a graveyard[END-FE]
+
+
+
+
+
+//POINTER #126 @ $A118 - STRING #126 @ $C3CC
+#W32($A118)
+//[CHAR5B00][V2100]
+//だったら戦場に行きな。[END-FE]
+[CHAR5B00][V2100]
+Then go to a flowerfield.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $A11C - STRING #127 @ $C3ED
+#W32($A11C)
+//[CHAR5B00][V2200]
+//だったら戦場に行きな。[END-FE]
+[CHAR5B00][V2200]
+Then go to a battlefield.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $A120 - STRING #128 @ $C40E
+#W32($A120)
+//[CHAR5B00][V2300]
+//なんだ、客か…。[END-FE]
+[CHAR5B00][V2300]
+Customers, eh?[END-FE]
+
+
+
+
+
+//POINTER #129 @ $A124 - STRING #129 @ $C429
+#W32($A124)
+//[CHAR5B00][V2400]
+//アンタ、俺をバカにしてるのか？[END-FE]
+[CHAR5B00][V2400]
+Are you making a fool out of me?[END-FE]
+
+
+
+
+
+//POINTER #130 @ $A128 - STRING #130 @ $C452
+#W32($A128)
+//どうした、入らないのか？[END-FE]
+Aren't you going inside?[END-FE]
+
+
+
+
+
+//POINTER #131 @ $A12C - STRING #131 @ $C46D
+#W32($A12C)
+//…ここでのことは…黙ってます…。[END-FE]
+...Don't tell anyone about what's[NLINE]
+going on here...[END-FE]
+
+
+
+
+
+//POINTER #132 @ $A130 - STRING #132 @ $C490
+#W32($A130)
+//まさか、この中で[NLINE]
+//密売が行われていたとは…。[END-FE]
+//Fomeros Soldier\\
+I can't believe illicit trades[NLINE]
+was occuring in here...[END-FE]
+
+
+
+
+
+//POINTER #133 @ $A134 - STRING #133 @ $C4BF
+#W32($A134)
+//ここは閉鎖されました。[NLINE]
+//一般人の立ち入りは出来ません。[END-FE]
+//Fomeros Soldier\\
+This building is closed off.[NLINE]
+Civilians are not allowed to enter.[END-FE]
+
+
+
+
+
+//POINTER #134 @ $A138 - STRING #134 @ $C4F8
+#W32($A138)
+//私の大事な人が[NLINE]
+//ここで眠っているのです。[END-FE]
+//Woman\\
+My significant other is[NLINE]
+resting here.[END-FE]
+
+
+
+
+
+//POINTER #135 @ $A13C - STRING #135 @ $C523
+#W32($A13C)
+//あなた方も、お墓参りですか？[END-FE]
+Are you also visiting a grave?[END-FE]
+
+
+
+
+
+//POINTER #136 @ $A140 - STRING #136 @ $C542
+#W32($A140)
+//　[NLINE]
+//倉庫がある。[END-FE]
+[NLINE]
+It's a warehouse.[END-FE]
+
+
+
+
+
+//POINTER #137 @ $A144 - STRING #137 @ $C555
+#W32($A144)
+//ここは閉鎖されました。[END-FE]
+It's closed off.[END-FE]
+
+
+
+
+
+//POINTER #138 @ $A148 - STRING #138 @ $C56E
+#W32($A148)
+//　[NLINE]
+//管理人の使っている小屋のようだ。[END-FE]
+[NLINE]
+It looks like a caretaker's hut.[END-FE]
+
+
+
+
+
+//POINTER #139 @ $A14C - STRING #139 @ $C595
+#W32($A14C)
+//ここから奥に行けそうだ。[END-FE]
+It looks like you can go in from here.[END-FE]
+
+
+
+
+
+//POINTER #140 @ $A150 - STRING #140 @ $C5B0
+#W32($A150)
+//・行く必要はない[END-FE]
+・Don't go in[END-FE]
+
+
+
+
+
+//POINTER #141 @ $A154 - STRING #141 @ $C5C3
+#W32($A154)
+//・行ってみたい[END-FE]
+・Go in[END-FE]
+
+
+
+
+
+//POINTER #142 @ $A158 - STRING #142 @ $C5D4
+#W32($A158)
+//ここから街に戻れそうだ。[END-FE]
+It looks like you can go back[NLINE]
+to the city from here.[END-FE]
+
+
+
+
+
+//POINTER #143 @ $A15C - STRING #143 @ $C5EF
+#W32($A15C)
+//・街に戻る[END-FE]
+・Go back.[END-FE]
+
+
+
+
+
+//POINTER #144 @ $A160 - STRING #144 @ $C5FC
+#W32($A160)
+//・まだ戻らない[END-FE]
+・Don't go back.[END-FE]
+
+
+
+
+
+//POINTER #145 @ $A164 - STRING #145 @ $C60D
+#W32($A164)
+//[CHAR5C00][V0000]
+//なかなか賑わってるようだな。[END-FE]
+[CHAR5C00][V0000]
+Seems like a pretty busy place.[END-FE]
+
+
+
+
+
+//POINTER #146 @ $A168 - STRING #146 @ $C634
+#W32($A168)
+//[CHAR5C00][V0100]
+//品数が少ないって聞いていたけど、[NLINE]
+//これなら普通の商店並みじゃないか。[NWIN]
+//
+//[CH.FACE:Sad][CHAR5C00][V0200]
+//いったいどうやって流通しているんだ？[NLINE]
+//おかしすぎる…。[END-FE]
+[CHAR5C00][V0100]
+I heard that the number of articles[NLINE]
+was few, but it seems to be the same[NLINE]
+as the average store.[NWIN]
+
+[CH.FACE:Sad][CHAR5C00][V0200]
+Where on earth do they get their[NLINE]
+products from? How strange...[END-FE]
+
+
+
+
+
+//POINTER #147 @ $A16C - STRING #147 @ $C6C7
+#W32($A16C)
+//[CHAR5C00][V0300]
+//色々調べてみましょう。[END-FE]
+[CHAR5C00][V0300]
+Let us investigate.[END-FE]
+
+
+
+
+
+//POINTER #148 @ $A170 - STRING #148 @ $C6E8
+#W32($A170)
+//どこに行かれる[NLINE]
+//おつもりですか？[END-FE]
+Where are you going?[END-FE]
+
+
+
+
+
+//POINTER #149 @ $A174 - STRING #149 @ $C70B
+#W32($A174)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #150 @ $A178 - STRING #150 @ $C720
+#W32($A178)
+//しっかり買っていってね～。[END-FE]
+Have a look![END-FE]
+
+
+
+
+
+//POINTER #151 @ $A17C - STRING #151 @ $C73D
+#W32($A17C)
+//今買い逃すと、[NLINE]
+//次はいつ買えるかわからないよ！[END-FE]
+If you miss out now, who knows[NLINE]
+when you'll be able to get your[NLINE]
+hands on it again![END-FE]
+
+
+
+
+
+//POINTER #152 @ $A180 - STRING #152 @ $C76E
+#W32($A180)
+//まぁ、ゆっくり見ていって。[END-FE]
+Take a look as long as you like.[END-FE]
+
+
+
+
+
+//POINTER #153 @ $A184 - STRING #153 @ $C78B
+#W32($A184)
+//どれが欲しいのかな？[END-FE]
+What would you like?[END-FE]
+
+
+
+
+
+//POINTER #154 @ $A188 - STRING #154 @ $C7A2
+#W32($A188)
+//………。[END-FE]
+...[END-FE]
+
+
+
+
+
+//POINTER #155 @ $A18C - STRING #155 @ $C7AD
+#W32($A18C)
+//[CHAR5C00][V0400]
+//色々あるようだが、[NLINE]
+//フォメロス国軍の正式採用品ばかりだな。[END-FE]
+[CHAR5C00][V0400]
+All these products are used by[NLINE]
+the Fomerion army.[END-FE]
+
+
+
+
+
+//POINTER #156 @ $A190 - STRING #156 @ $C7F2
+#W32($A190)
+//[CHAR5C00][V0500]
+//そういえば、[NLINE]
+//[COL01]デュランダル[COL00]はないのか？[END-FE]
+[CHAR5C00][V0500]
+Excuse me, do you have a [COL01]Durandal[COL00][NLINE]
+for sale?[END-FE]
+
+
+
+
+
+//POINTER #157 @ $A194 - STRING #157 @ $C829
+#W32($A194)
+//[CHAR5C00][V0600]
+//ちょっとまってくれ。[NLINE]
+//在庫を見てくる。[END-FE]
+[CHAR5C00][V0600]
+Please wait a moment.[NLINE]
+I'll check the stock.[END-FE]
+
+
+
+
+
+//POINTER #158 @ $A198 - STRING #158 @ $C85A
+#W32($A198)
+//[CHAR5C00][V0700]
+//…ん？[NLINE]
+//…あの木箱は…。[END-FE]
+[CHAR5C00][V0700]
+...Hm?[NLINE]
+...Those wooden boxes...[END-FE]
+
+
+
+
+
+//POINTER #159 @ $A19C - STRING #159 @ $C87D
+#W32($A19C)
+//[CHAR5C00][V0800]
+//何かあったのか？[END-FE]
+[CHAR5C00][V0800]
+What's wrong?[END-FE]
+
+
+
+
+
+//POINTER #160 @ $A1A0 - STRING #160 @ $C898
+#W32($A1A0)
+//[CHAR5C00][V0900]
+//ん、ああ…、[NLINE]
+//ちょっとな…。[END-FE]
+[CHAR5C00][V0900]
+Oh! Um...[NLINE]
+It's nothing...[END-FE]
+
+
+
+
+
+//POINTER #161 @ $A1A4 - STRING #161 @ $C8BF
+#W32($A1A4)
+//[CHAR5C00][V0A00]
+//悪いが、品切れだ。[NLINE]
+//次の入荷を待ってくれ。[END-FE]
+[CHAR5C00][V0A00]
+Sorry, but we're out of stock.[NLINE]
+Please wait until the next shipment.[END-FE]
+
+
+
+
+
+//POINTER #162 @ $A1A8 - STRING #162 @ $C8F4
+#W32($A1A8)
+//[CHAR5C00][V0B00]
+//そうか、残念だ。[END-FE]
+[CHAR5C00][V0B00]
+I see, too bad.[END-FE]
+
+
+
+
+
+//POINTER #163 @ $A1AC - STRING #163 @ $C90F
+#W32($A1AC)
+//[CHAR5C00][V0C00]
+//ちょっといいか？[END-FE]
+[CHAR5C00][V0C00]
+Can I have a moment?[END-FE]
+
+
+
+
+
+//POINTER #164 @ $A1B0 - STRING #164 @ $C92A
+#W32($A1B0)
+//残念だが、デュランダルは入ってないな。[END-FE]
+Sorry, but we don't have a Durandal in stock.[END-FE]
+
+
+
+
+
+//POINTER #165 @ $A1B4 - STRING #165 @ $C953
+#W32($A1B4)
+//[CHAR5C00][V1500]
+//見つからないように[NLINE]
+//慎重にやろう。[END-FE]
+[CHAR5C00][V1500]
+Be careful not to get caught.[END-FE]
+
+
+
+
+
+//POINTER #166 @ $A1B8 - STRING #166 @ $C980
+#W32($A1B8)
+//[CHAR5C00][V1600]
+//私たちの行動がばれないように[NLINE]
+//連中の目を引きつけておいて欲しい。[END-FE]
+[CHAR5C00][V1600]
+The others will distract them so[NLINE]
+that they won't notice us.[END-FE]
+
+
+
+
+
+//POINTER #167 @ $A1BC - STRING #167 @ $C9CB
+#W32($A1BC)
+//[CHAR5C00][V2100]
+//とにかく、みんなの所に戻ろう。[END-FE]
+[CHAR5C00][V2100]
+Anyway, let's go back to the others.[END-FE]
+
+
+
+
+
+//POINTER #168 @ $A1C0 - STRING #168 @ $C9F4
+#W32($A1C0)
+//[CHAR5C00][V0D00]
+//どうしたのですか、[NLINE]
+//ホフマンさん？[END-FE]
+[CHAR5C00][V0D00]
+What's the matter, Hofman?[END-FE]
+
+
+
+
+
+//POINTER #169 @ $A1C4 - STRING #169 @ $CA21
+#W32($A1C4)
+//[CHAR5C00][V0E00]
+//さっき店の者が在庫を確認しに行っただろう？[NLINE]
+//あの時、あの男が調べていた木箱…、[NLINE]
+//あれは軍の物資のようだった。[END-FE]
+[CHAR5C00][V0E00]
+Did you see that vendor checking[NLINE]
+his stock? Those crates he was[NLINE]
+looking through...[NLINE]
+It looked like those belonged to[NLINE]
+the army.[END-FE]
+
+
+
+
+
+//POINTER #170 @ $A1C8 - STRING #170 @ $CA98
+#W32($A1C8)
+//[CHAR5C00][V0F00]
+//本当ですか？[END-FE]
+[CHAR5C00][V0F00]
+Are you sure?[END-FE]
+
+
+
+
+
+//POINTER #171 @ $A1CC - STRING #171 @ $CAAF
+#W32($A1CC)
+//[CHAR5C00][V1000]
+//それを確認したい。[NWIN]
+//
+//[CHAR5C00][V1100]
+//二手に分かれて、[NLINE]
+//一組は見張りの目をそらし、[NLINE]
+//もう一組が荷物の確認をする。[END-FE]
+[CHAR5C00][V1000]
+I would like to confirm.[NWIN]
+
+[CHAR5C00][V1100]
+Let's split up into two groups. One[NLINE]
+will act as lookout, the other[NLINE]
+will check the crates.[END-FE]
+
+
+
+
+
+//POINTER #172 @ $A1D0 - STRING #172 @ $CB20
+#W32($A1D0)
+//[CHAR5C00][V1200]
+//ホフマンさんは[NLINE]
+//荷物を見に行った方がいいですね。[NWIN]
+//
+//[CHAR5E00][V1300]
+//私たちはここにいますから、[NLINE]
+//よろしくお願いします。[END-FE]
+[CHAR5C00][V1200]
+It would be best for Hofman[NLINE]
+to take a look the crates.[NWIN]
+
+[CHAR5E00][V1300]
+We will remain here. Good luck.[END-FE]
+
+
+
+
+
+//POINTER #173 @ $A1D4 - STRING #173 @ $CB97
+#W32($A1D4)
+//[CHAR5C00][V1400]
+//よし、さっそく作業にかかろう。[END-FE]
+[CHAR5C00][V1400]
+Alright, let's get to work right[NLINE]
+away.[END-FE]
+
+
+
+
+
+//POINTER #174 @ $A1D8 - STRING #174 @ $CBC0
+#W32($A1D8)
+//気付かれないように荷物を調べろ！[END-FE]
+Investigate the crates without being noticed![END-FE]
+
+
+
+
+
+//POINTER #175 @ $A1DC - STRING #175 @ $CBE3
+#W32($A1DC)
+//ルール説明が必要ですか？[END-FE]
+Do you need an explanation?[END-FE]
+
+
+
+
+
+//POINTER #176 @ $A1E0 - STRING #176 @ $CBFE
+#W32($A1E0)
+//仲間の２人が、店主と用心棒の１人の[NLINE]
+//注意を引いてくれます。[NLINE]
+//あなたは巡回している用心棒に見つからないよう[NLINE]
+//奥の木箱を調査して下さい。[NLINE]
+//また調査後この位置まで戻って下さい。[END-FE]
+Rukias and Iris will draw the attention[NLINE]
+of the storekeeper and one bodyguard.[NLINE]
+You must examine the crates in the back[NLINE]
+without being noticed by the patrolling[NLINE]
+bodyguard. After examining the crates,[NLINE]
+return to this spot.[END-FE]
+
+
+
+
+
+//POINTER #177 @ $A1E4 - STRING #177 @ $CCAB
+#W32($A1E4)
+//　[NLINE]
+//作戦失敗[END-FE]
+[NLINE]
+Mission Failed[END-FE]
+
+
+
+
+
+//POINTER #178 @ $A1E8 - STRING #178 @ $CCBA
+#W32($A1E8)
+//[CHAR5C00][V2200]
+//ここで話すのはまずい。[NLINE]
+//宿にでも行って話そう。[END-FE]
+[CHAR5C00][V2200]
+Talking here would be a bad idea.[NLINE]
+Let's go to the inn.[END-FE]
+
+
+
+
+
+//POINTER #179 @ $A1EC - STRING #179 @ $CCF3
+#W32($A1EC)
+//おいっ！[NLINE]
+//何をしている！[NLINE]
+//そっちに行くんじゃない！[END-FE]
+Hey, what are you doing!?[NLINE]
+This area is off-limits![END-FE]
+
+
+
+
+
+
+//POINTER #180 @ $A1F0 - STRING #180 @ $CD28
+#W32($A1F0)
+//おいっ！[NLINE]
+//何をしている！[NLINE]
+//こっちに入るんじゃない！[END-FE]
+Hey, what are you doing!?[NLINE]
+You can't come back here![END-FE]
+
+
+
+
+
+//POINTER #181 @ $A1F4 - STRING #181 @ $CD5D
+#W32($A1F4)
+//[CHAR5C00][V1900]
+//荷物には送り先を表すアルファベットと[NLINE]
+//数字のコードが記されているはずだ。[NWIN]
+//
+//[CHAR5C00][V1A00]
+//それをよく見てくれ。[END-FE]
+[CHAR5C00][V1900]
+There should be an alphabetic and[NLINE]
+numeric code on the crates indicating[NLINE]
+their destination.[NWIN]
+
+[CHAR5C00][V1A00]
+Take a good look.[END-FE]
+
+
+
+
+
+//POINTER #182 @ $A1F8 - STRING #182 @ $CDCE
+#W32($A1F8)
+//急ごう。[END-FE]
+Let's hurry.[END-FE]
+
+
+
+
+
+//POINTER #183 @ $A1FC - STRING #183 @ $CDD9
+#W32($A1FC)
+//こちら側は私に任せてくれ。[NLINE]
+//君は東側面の荷を調べて欲しい。[END-FE]
+Leave this side to me.[NLINE]
+You check the crates on the right.[END-FE]
+
+
+
+
+
+//POINTER #184 @ $A200 - STRING #184 @ $CE16
+#W32($A200)
+//　[NLINE]
+//こちらを調べる必要はなさそうだ。[END-FE]
+[NLINE]
+There's no need for you to check this side.[END-FE]
+
+
+
+
+
+//POINTER #185 @ $A204 - STRING #185 @ $CE3D
+#W32($A204)
+//[CHAR5C00][V1900]
+//荷物には送り先を表すアルファベットと[NLINE]
+//数字のコードが記されているはずだ。[NWIN]
+//
+//[CHAR5C00][V1A00]
+//それをよく見てくれ。[END-FE]
+[CHAR5C00][V1900]
+There should be an alphabetic and[NLINE]
+numeric code on the crates indicating[NLINE]
+their destination.[NWIN]
+
+[CHAR5C00][V1A00]
+Take a good look.[END-FE]
+
+
+
+
+
+//POINTER #186 @ $A208 - STRING #186 @ $CEAE
+#W32($A208)
+//どの木箱を調べますか？[END-FE]
+Which box will you examine?[END-FE]
+
+
+
+
+
+//POINTER #187 @ $A20C - STRING #187 @ $CEC7
+#W32($A20C)
+//・左上[END-FE]
+・The one on the top left[END-FE]
+
+
+
+
+
+//POINTER #188 @ $A210 - STRING #188 @ $CED0
+#W32($A210)
+//・右上[END-FE]
+・The one on the top right[END-FE]
+
+
+
+
+
+//POINTER #189 @ $A214 - STRING #189 @ $CED9
+#W32($A214)
+//・左下[END-FE]
+・The one on the bottom left[END-FE]
+
+
+
+
+
+//POINTER #190 @ $A218 - STRING #190 @ $CEE2
+#W32($A218)
+//・右下[END-FE]
+・The one on the bottom right[END-FE]
+
+
+
+
+
+//POINTER #191 @ $A21C - STRING #191 @ $CEEB
+#W32($A21C)
+//　[NLINE]
+//ＡＨ３２－０５２３[END-FE]
+[NLINE]
+AH32-0523[END-FE]
+
+
+
+
+
+//POINTER #192 @ $A220 - STRING #192 @ $CF04
+#W32($A220)
+//　[NLINE]
+//ＡＨ３２－０４８２[END-FE]
+[NLINE]
+AH32-0482[END-FE]
+
+
+
+
+
+//POINTER #193 @ $A224 - STRING #193 @ $CF1D
+#W32($A224)
+//　[NLINE]
+//ＡＨ３２－０３３７[END-FE]
+[NLINE]
+AH32-0337[END-FE]
+
+
+
+
+
+//POINTER #194 @ $A228 - STRING #194 @ $CF36
+#W32($A228)
+//　[NLINE]
+//ＡＨ３２－０３０４[END-FE]
+[NLINE]
+AH32-0304[END-FE]
+
+
+
+
+
+//POINTER #195 @ $A22C - STRING #195 @ $CF4F
+#W32($A22C)
+//　[NLINE]
+//これ以上調べる必要はなさそうだ。[END-FE]
+[NLINE]
+There's no need for you to investigate[NLINE]
+further.[END-FE]
+
+
+
+
+
+//POINTER #196 @ $A230 - STRING #196 @ $CF76
+#W32($A230)
+//[CHAR5C00][V1B00]
+//どうだった？[END-FE]
+//Hofman\\
+[CHAR5C00][V1B00]
+How did it go?[END-FE]
+
+
+
+
+
+//POINTER #197 @ $A234 - STRING #197 @ $CF8D
+#W32($A234)
+//・法則性はない[END-FE]
+・There's no pattern[END-FE]
+
+
+
+
+
+//POINTER #198 @ $A238 - STRING #198 @ $CF9E
+#W32($A238)
+//・法則性があった[END-FE]
+・There's a pattern[END-FE]
+
+
+
+
+
+//POINTER #199 @ $A23C - STRING #199 @ $CFB1
+#W32($A23C)
+//・よくわからなかった[END-FE]
+・I couldn't figure it out[END-FE]
+
+
+
+
+
+//POINTER #200 @ $A240 - STRING #200 @ $CFC8
+#W32($A240)
+//[CHAR5C00][V1E00]
+//そんなことはありませんでしたわ。[NLINE]
+//どの木箱も[COL01]ＡＨ３２[COL00]から始まっていました。[END-FE]
+[CHAR5C00][V1E00]
+Actually, there was a pattern.[NLINE]
+Every crate number started[NLINE]
+with [COL01]AH32[COL00].[END-FE]
+
+
+
+
+
+//POINTER #201 @ $A244 - STRING #201 @ $D023
+#W32($A244)
+//[CHAR5C00][V1F00]
+//どんな法則性だった？[END-FE]
+//Hofman\\
+[CHAR5C00][V1F00]
+What kind of pattern?[END-FE]
+
+
+
+
+
+//POINTER #202 @ $A248 - STRING #202 @ $D042
+#W32($A248)
+//・ＡＨ３２で始まる[END-FE]
+・It begins with AH32[END-FE]
+
+
+
+
+
+//POINTER #203 @ $A24C - STRING #203 @ $D057
+#W32($A24C)
+//・ＡＭ３２で始まる[END-FE]
+・It begins with AM32[END-FE]
+
+
+
+
+
+//POINTER #204 @ $A250 - STRING #204 @ $D06C
+#W32($A250)
+//・ＡＷ３２で始まる[END-FE]
+・It begins with AW32[END-FE]
+
+
+
+
+
+//POINTER #205 @ $A254 - STRING #205 @ $D081
+#W32($A254)
+//[CHAR5C00][V1C00]
+//それじゃ意味がないぞ。[END-FE]
+[CHAR5C00][V1C00]
+That doesn't make sense.[END-FE]
+
+
+
+
+
+//POINTER #206 @ $A258 - STRING #206 @ $D0A2
+#W32($A258)
+//[CHAR5C00][V1D00]
+//たしか、どの木箱の番号も[NLINE]
+//[COL01]ＡＨ３２[COL00]から始まっていました。[END-FE]
+[CHAR5C00][V1D00]
+I'm pretty sure every crate number[NLINE]
+started with [COL01]AH32[COL00].[END-FE]
+
+
+
+
+
+//POINTER #207 @ $A25C - STRING #207 @ $D0EB
+#W32($A25C)
+//[CHAR5C00][V2000]
+//やっぱりそうか…。[NWIN]
+//
+//[CHAR5C00][V2100]
+//とにかく、みんなの所に戻ろう。[END-FE]
+//Hofman\\
+[CHAR5C00][V2000]
+Just as I thought...[NWIN]
+
+[CHAR5C00][V2100]
+Well let's return to the others.[END-FE]
+
+
+
+
+
+//POINTER #208 @ $A260 - STRING #208 @ $D130
+#W32($A260)
+//[CHAR5C00][V1700]
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+[CHAR5C00][V1700]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #209 @ $A264 - STRING #209 @ $D159
+#W32($A264)
+//[CHAR5C00][V1800]
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+[CHAR5C00][V1800]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #210 @ $A268 - STRING #210 @ $D188
+#W32($A268)
+//[CHAR5C00][V1700]
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+[CHAR5C00][V1700]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #211 @ $A26C - STRING #211 @ $D1B1
+#W32($A26C)
+//[CHAR5C00][V1800]
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+[CHAR5C00][V1800]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #212 @ $A270 - STRING #212 @ $D1E0
+#W32($A270)
+//[CHAR5C00][V1700]
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+[CHAR5C00][V1700]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #213 @ $A274 - STRING #213 @ $D209
+#W32($A274)
+//[CHAR5C00][V1800]
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+[CHAR5C00][V1800]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #214 @ $A278 - STRING #214 @ $D238
+#W32($A278)
+//[CHAR5C00][V1700]
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+[CHAR5C00][V1700]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #215 @ $A27C - STRING #215 @ $D261
+#W32($A27C)
+//[CHAR5C00][V1800]
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+[CHAR5C00][V1800]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #216 @ $A280 - STRING #216 @ $D290
+#W32($A280)
+//[CHAR5C00][V1700]
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+[CHAR5C00][V1700]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #217 @ $A284 - STRING #217 @ $D2B9
+#W32($A284)
+//[CHAR5C00][V1800]
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+[CHAR5C00][V1800]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #218 @ $A288 - STRING #218 @ $D2E8
+#W32($A288)
+//[CHAR5C00][V1700]
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+[CHAR5C00][V1700]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #219 @ $A28C - STRING #219 @ $D311
+#W32($A28C)
+//[CHAR5C00][V1800]
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+[CHAR5C00][V1800]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #220 @ $A290 - STRING #220 @ $D340
+#W32($A290)
+//こらっ！[NLINE]
+//どこに行くつもりだ！[END-FE]
+Hey![NLINE]
+Where do you think you're going!?[END-FE]
+
+
+
+
+
+//POINTER #221 @ $A294 - STRING #221 @ $D361
+#W32($A294)
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #222 @ $A298 - STRING #222 @ $D388
+#W32($A298)
+//こらっ！[NLINE]
+//どこに行くつもりだ！[END-FE]
+Hey![NLINE]
+Where do you think you're going!?[END-FE]
+
+
+
+
+
+//POINTER #223 @ $A29C - STRING #223 @ $D3A9
+#W32($A29C)
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #224 @ $A2A0 - STRING #224 @ $D3D0
+#W32($A2A0)
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #225 @ $A2A4 - STRING #225 @ $D3F1
+#W32($A2A4)
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #226 @ $A2A8 - STRING #226 @ $D418
+#W32($A2A8)
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #227 @ $A2AC - STRING #227 @ $D439
+#W32($A2AC)
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #228 @ $A2B0 - STRING #228 @ $D460
+#W32($A2B0)
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #229 @ $A2B4 - STRING #229 @ $D481
+#W32($A2B4)
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #230 @ $A2B8 - STRING #230 @ $D4A8
+#W32($A2B8)
+//おいっ！[NLINE]
+//そこで何をしている！[END-FE]
+Hey, what are you doing over[NLINE]
+there!?[END-FE]
+
+
+
+
+
+//POINTER #231 @ $A2BC - STRING #231 @ $D4C9
+#W32($A2BC)
+//ああ…、[NLINE]
+//発見されてしまいました…。[END-FE]
+Aaah...[NLINE]
+We've been found out...[END-FE]
+
+
+
+
+
+//POINTER #232 @ $A2C0 - STRING #232 @ $D4F0
+#W32($A2C0)
+//お客様！[NLINE]
+//お部屋のご利用でしたら、[NLINE]
+//こちらで承ります。[END-FE]
+Excuse me, sir![NLINE]
+If you would like to book a room, please[NLINE]
+head on over to the reception desk.[END-FE]
+
+
+
+
+
+//POINTER #233 @ $A2C4 - STRING #233 @ $D529
+#W32($A2C4)
+//いらっしゃいませ。[END-FE]
+//Inn Owner\\
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #234 @ $A2C8 - STRING #234 @ $D53E
+#W32($A2C8)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #235 @ $A2CC - STRING #235 @ $D54B
+#W32($A2CC)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #236 @ $A2D0 - STRING #236 @ $D55A
+#W32($A2D0)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #237 @ $A2D4 - STRING #237 @ $D56B
+#W32($A2D4)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #238 @ $A2D8 - STRING #238 @ $D580
+#W32($A2D8)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になられますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #239 @ $A2DC - STRING #239 @ $D5AE
+#W32($A2DC)
+//ご記録もとられますか？[END-FE]
+//Inn clerk\\
+Would you like to sign our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #240 @ $A2E0 - STRING #240 @ $D5C7
+#W32($A2E0)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #241 @ $A2E4 - STRING #241 @ $D5EC
+#W32($A2E4)
+//……[COL09][TEAR-DROP][COL00][NLINE]
+//誠に申しわけありませんが[NLINE]
+//代金が足りておりません…。[END-FE]
+//Inn clerk\\
+...[COL09][TEAR-DROP][COL00][NLINE]
+I'm very sorry but it appears you[NLINE]
+don't have enough money...[END-FE]
+
+
+
+
+
+//POINTER #242 @ $A2E8 - STRING #242 @ $D631
+#W32($A2E8)
+//どうしても泊まりたいですか？[END-FE]
+//Inn clerk\\
+Are you sure you would like to stay?[END-FE]
+
+
+
+
+
+//POINTER #243 @ $A2EC - STRING #243 @ $D650
+#W32($A2EC)
+//それでしたら、それに見合う労働を[NLINE]
+//して頂くということでどうでしょう？[END-FE]
+In that case, how about some[NLINE]
+manual labor in order to pay of[NLINE]
+your debt?[END-FE]
+
+
+
+
+
+//POINTER #244 @ $A2F0 - STRING #244 @ $D697
+#W32($A2F0)
+//　[NLINE]
+//大量の薪割りを命じられた！[END-FE]
+[NLINE]
+You were ordered to chop large amounts[NLINE]
+of wood![END-FE]
+
+
+
+
+
+//POINTER #245 @ $A2F4 - STRING #245 @ $D6B8
+#W32($A2F4)
+//　[NLINE]
+//みんなの不評を買った…。[END-FE]
+[NLINE]
+This turn of events wasn't received[NLINE]
+favorably by the others...[END-FE]
+
+
+
+
+
+//POINTER #246 @ $A2F8 - STRING #246 @ $D6D7
+#W32($A2F8)
+//気が向いたら、またどうぞ。[END-FE]
+lease come again.[END-FE]
+
+
+
+
+
+//POINTER #247 @ $A2FC - STRING #247 @ $D6F4
+#W32($A2FC)
+//ロイフェロン[END-FE]
+Royferon[END-FE]
+
+
+
+
+
+//POINTER #248 @ $A300 - STRING #248 @ $D703
+#W32($A300)
+//Ｄ　ロイフェロン[END-FE]
+D Royferon[END-FE]
+
+
+
+
+
+//POINTER #249 @ $A304 - STRING #249 @ $D716
+#W32($A304)
+//[CHAR6000][V1300]
+//おはようございます。[NLINE]
+//もうお昼過ぎですよ。[END-FE]
+//Iristelessa\\
+[CHAR6000][V1300]
+Good morning.[NLINE]
+It is already past noon.[END-FE]
+
+
+
+
+
+//POINTER #250 @ $A308 - STRING #250 @ $D74B
+#W32($A308)
+//[CHAR6000][V1700]
+//やあ、皆さん、[NLINE]
+//お待たせしました。[END-FE]
+//Hofman\\
+[CHAR6000][V1700]
+Hello there, everyone.[NLINE]
+Sorry for keeping you waiting.[END-FE]
+
+
+
+
+
+//POINTER #251 @ $A30C - STRING #251 @ $D778
+#W32($A30C)
+//[CHAR6000][V1800]
+//お帰り。[NLINE]
+//容疑が晴れたから、[NLINE]
+//軍に復帰するんじゃないかと思ったぜ。[END-FE]
+//Rukias\\
+[CHAR6000][V1800]
+Welcome back. Now that your name[NLINE]
+is cleared, I thought you would[NLINE]
+go back to the army.[END-FE]
+
+
+
+
+
+//POINTER #252 @ $A310 - STRING #252 @ $D7C5
+#W32($A310)
+//[CHAR6000][V1900]
+//そうですね。[NLINE]
+//もう逃げる必要は[NLINE]
+//ないわけですし。[END-FE]
+//Yurii\\
+[CHAR6000][V1900]
+Yes, you don't need to[NLINE]
+flee anymore.[END-FE]
+
+
+
+
+
+//POINTER #253 @ $A314 - STRING #253 @ $D800
+#W32($A314)
+//[CHAR6000][V1A00]
+//司令に今この世界で起きていることを[NLINE]
+//話したよ。[NLINE]
+//そして特別任務をもらった。[NWIN]
+//
+//[CHAR6000][V1B00]
+//『君たちに同行して、[NLINE]
+//　さらに詳しいことを調べるように』[NLINE]
+//…とね。[END-FE]
+//Hofman\\
+[CHAR6000][V1A00]
+I've talked with the commander about[NLINE]
+what's happening in the world right[NLINE]
+now. I received a special mission[NLINE]
+from him.[NWIN]
+
+[CHAR6000][V1B00]
+To go together with you and find[NLINE]
+out more information.[END-FE]
+
+
+
+
+
+//POINTER #254 @ $A318 - STRING #254 @ $D8A1
+#W32($A318)
+//[CHAR6000][V1C00]
+//信じていただけたんですね。[END-FE]
+//Iristelessa\\
+[CHAR6000][V1C00]
+So he believes you.[END-FE]
+
+
+
+
+
+//POINTER #255 @ $A31C - STRING #255 @ $D8C6
+#W32($A31C)
+//[CHAR6000][V1D00]
+//ああ。[NLINE]
+//有事の際には協力もしてもらえる。[NWIN]
+//
+//[CHAR6000][V1E00]
+//例の龍穴塔とやらを攻略するときには[NLINE]
+//力強い味方となるだろう。[END-FE]
+//Hofman\\
+[CHAR6000][V1D00]
+Yes. When the need arises, he'll[NLINE]
+cooperate.[NWIN]
+
+[CHAR6000][V1E00]
+When we launch our attack on the Ley Point[NLINE]
+Towers, he'll be a strong ally.[END-FE]
+
+
+
+
+
+//POINTER #256 @ $A320 - STRING #256 @ $D93F
+#W32($A320)
+//[CHAR6000][V1F00]
+//やりましたね。[NLINE]
+//あとはヒンギスタンの方を片づければ、[NLINE]
+//準備は完了です。[END-FE]
+//Iristelessa\\
+[CHAR6000][V1F00]
+We have succeeded. Once the matter in[NLINE]
+Hingistan is settled, our preparations[NLINE]
+will be complete.[END-FE]
+
+
+
+
+
+//POINTER #257 @ $A324 - STRING #257 @ $D990
+#W32($A324)
+//[CHAR6000][V2000]
+//それじゃ、[NLINE]
+//モノポリス社に戻ろうぜ。[END-FE]
+//Rukias\\
+[CHAR6000][V2000]
+Alright, shall we go back to[NLINE]
+Monopolis then?[END-FE]
+
+
+
+
+
+//POINTER #258 @ $A328 - STRING #258 @ $D9BF
+#W32($A328)
+//[CHAR2003][V7F00]
+//結局、何の準備も出来てない…。[NWIN]
+//
+//[CHAR2003][V8000]
+//でも、会えるだけでいいか。[END-FE]
+[CHAR2003][V7F00]
+I haven't made any preparations yet...[NWIN]
+
+[CHAR2003][V8000]
+Should I just meet her?[END-FE]
+
+
+
+
+
+//POINTER #259 @ $A32C - STRING #259 @ $DA0C
+#W32($A32C)
+//[CHAR2003][V8300]
+//いろんな食材がそろったから、[NLINE]
+//何とかなりそう。[NLINE]
+//色々ありがとうね！[NWIN]
+//
+//[CH.FACE:Normal][CHAR2003][V8400]
+//それじゃ、[NLINE]
+//私は厨房を借りるから、[NLINE]
+//先に部屋に行っていて！[END-FE]
+//Wendy\\
+[CHAR2003][V8300]
+These ingredients will do the trick.[NLINE]
+Thank you for everything![NWIN]
+
+[CH.FACE:Normal][CHAR2003][V8400]
+Alright, I'm going borrow the[NLINE]
+kitchen for a little bit. You[NLINE]
+go ahead to your room![END-FE]
+
+
+
+
+
+//POINTER #260 @ $A330 - STRING #260 @ $DAA1
+#W32($A330)
+//[CHAR2003][V8100]
+//これで満足出来る料理が[NLINE]
+//作れるかわからないけど、[NLINE]
+//やるだけやってみる。[NWIN]
+//
+//[CHAR2003][V8200]
+//それじゃ、[NLINE]
+//私は厨房を借りるから、[NLINE]
+//先に部屋に行っていて！[END-FE]
+[CHAR2003][V8100]
+I don't know if I can make a[NLINE]
+satisfying dish with these[NLINE]
+ingredients, but I'll do my best![NWIN]
+
+[CHAR2003][V8200]
+Alright, I'm going borrow the[NLINE]
+kitchen for a little bit. You[NLINE]
+go ahead to your room![END-FE]
+
+
+
+
+
+//POINTER #261 @ $A334 - STRING #261 @ $DB36
+#W32($A334)
+//左寝る調整？[END-FE]
+左寝る調整？[END-FE]
+
+
+
+
+
+//POINTER #262 @ $A338 - STRING #262 @ $DB45
+#W32($A338)
+//[CHAR5D00][V0000]
+//では、ホフマンさん[NLINE]
+//詳しいことを教えていただけますか？[END-FE]
+//Yurii\\
+[CHAR5D00][V0000]
+Alright, will you tell us the[NLINE]
+details, Hofman?[END-FE]
+
+
+
+
+
+//POINTER #263 @ $A33C - STRING #263 @ $DB86
+#W32($A33C)
+//[CHAR5D00][V0100]
+//私はあの闇市に[NLINE]
+//ウェルバーが関与していると確信したよ。[END-FE]
+//Hofman\\
+[CHAR5D00][V0100]
+I've confirmed that Wellber is[NLINE]
+involved in the black market ring.[END-FE]
+
+
+
+
+
+//POINTER #264 @ $A340 - STRING #264 @ $DBC7
+#W32($A340)
+//[CHAR5D00][V0200]
+//理由は？[END-FE]
+//Rukias\\
+[CHAR5D00][V0200]
+And the evidence?[END-FE]
+
+
+
+
+
+//POINTER #265 @ $A344 - STRING #265 @ $DBDA
+#W32($A344)
+//[CHAR5D00][V0300]
+//どの木箱にも[NLINE]
+//[COL01]ＡＨ３２[COL00]で始まるコードが[NLINE]
+//刻印されていた。[END-FE]
+//Hofman\\
+[CHAR5D00][V0300]
+All those boxes have a code written on them[NLINE]
+that begins with [COL01]AH32[COL00].[END-FE]
+
+
+
+
+
+//POINTER #266 @ $A348 - STRING #266 @ $DC23
+#W32($A348)
+//[CHAR5D00][V0400]
+//それはどういう意味なのでしょう？[END-FE]
+//Yurii\\
+[CHAR5D00][V0400]
+What does that mean?[END-FE]
+
+
+
+
+
+//POINTER #267 @ $A34C - STRING #267 @ $DC4E
+#W32($A34C)
+//[CHAR5D00][V0500]
+//[COL01]ＡＨ３２[COL00]とは、私を陥れた[NLINE]
+//部隊長のウェルバーのコード。[NLINE]
+//つまり、あそこにあるのは彼の部隊に[NLINE]
+//送られるはずの荷物ということになる。[END-FE]
+//Hofman\\
+[CHAR5D00][V0500]
+[COL01]AH32[COL00] is Captain Wellber's code,[NLINE]
+the one who framed me. In other words,[NLINE]
+those crates were supposed to be sent[NLINE]
+to his unit.[END-FE]
+
+
+
+
+
+//POINTER #268 @ $A350 - STRING #268 @ $DCDF
+#W32($A350)
+//[CHAR5D00][V0600]
+//そのウェルバーという人の任地が[NLINE]
+//このロイフェロンというわけでは[NLINE]
+//ないのですね？[END-FE]
+//Iristelessa\\
+[CHAR5D00][V0600]
+But Wellber is not stationed at[NLINE]
+Royferon, is he?[END-FE]
+
+
+
+
+
+//POINTER #269 @ $A354 - STRING #269 @ $DD38
+#W32($A354)
+//[CHAR5D00][V0700]
+//ああ。[NLINE]
+//私のいた[COL01]第３２補給小隊[COL00]とは、[NLINE]
+//受け取った荷物を前線に送り届けるのが任務。[NWIN]
+//
+//[CHAR5D00][V0800]
+//つまり[COL01]ＡＨ３２[COL00]という刻印の箱は、[NLINE]
+//輸送中をのぞき、フォメロス国内には[NLINE]
+//あってはならないものだ。[END-FE]
+//Hofman\\
+[CHAR5D00][V0700]
+Right.[NLINE]
+The [COL01]32nd supply unit[COL00], to[NLINE]
+which is belonged, is responsible for[NLINE]
+sending supplies to the frontlines.[NWIN]
+
+[CHAR5D00][V0800]
+In other words, the crates labeled "AH32"[NLINE]
+shouldn't be in Fomeros, except during[NLINE]
+transport.[END-FE]
+
+
+
+
+
+//POINTER #270 @ $A358 - STRING #270 @ $DE07
+#W32($A358)
+//[CHAR5D00][V0900]
+//その荷物が基地でもない[NLINE]
+//この街にあったということは…。[END-FE]
+//Iristelessa\\
+[CHAR5D00][V0900]
+The fact that the crates are not[NLINE]
+at the base, but here in this[NLINE]
+city means that...[END-FE]
+
+
+
+
+
+//POINTER #271 @ $A35C - STRING #271 @ $DE48
+#W32($A35C)
+//[CHAR5D00][V0A00]
+//ずばり、横流ししか考えられない。[END-FE]
+//Hofman\\
+[CHAR5D00][V0A00]
+Exactly, they must have been diverted[NLINE]
+into illegal channels.[END-FE]
+
+
+
+
+
+//POINTER #272 @ $A360 - STRING #272 @ $DE73
+#W32($A360)
+//[CHAR5D00][V0B00]
+//念のためお聞きしますが、[NLINE]
+//それは人間社会の中でも[NLINE]
+//良くないことなのですよね？[END-FE]
+//Yurii\\
+[CHAR5D00][V0B00]
+I'm asking just to make sure,[NLINE]
+but that's considered to be[NLINE]
+an improper action in human[NLINE]
+society, correct?[END-FE]
+
+
+
+
+
+//POINTER #273 @ $A364 - STRING #273 @ $DECA
+#W32($A364)
+//[CHAR5D00][V0C00]
+//企業で言えば、横領、着服だ。[NLINE]
+//許されることではない。[END-FE]
+//Hofman\\
+[CHAR5D00][V0C00]
+Companies call it misappropriation or[NLINE]
+embezzlement. It's inexcusable.[END-FE]
+
+
+
+
+
+//POINTER #274 @ $A368 - STRING #274 @ $DF09
+#W32($A368)
+//[CHAR5D00][V0D00]
+//一応、荷物の番号を一通りメモしておいた。[NLINE]
+//何かの証拠として使えるだろう。[END-FE]
+[CHAR5D00][V0D00]
+I wrote down the number on crates.[NLINE]
+I should be able to use it as[NLINE]
+some kind of evidence.[END-FE]
+
+
+
+
+
+//POINTER #275 @ $A36C - STRING #275 @ $DF5C
+#W32($A36C)
+//[CHAR5D00][V0E00]
+//だがこれだけでは、[NLINE]
+//まだ証拠として不十分だ。[END-FE]
+//Hofman\\
+[CHAR5D00][V0E00]
+However, this by itself is still not[NLINE]
+enough proof.[END-FE]
+
+
+
+
+
+//POINTER #276 @ $A370 - STRING #276 @ $DF93
+#W32($A370)
+//[CHAR5D00][V0F00]
+//なあ、アンタは[NLINE]
+//どうやって陥れられたんだ？[END-FE]
+//Rukias\\
+[CHAR5D00][V0F00]
+Hey, how exactly were you[NLINE]
+framed?[END-FE]
+
+
+
+
+
+//POINTER #277 @ $A374 - STRING #277 @ $DFC8
+#W32($A374)
+//[CHAR5D00][V1000]
+//うむ…、それは…。[END-FE]
+//Hofman\\
+[CHAR5D00][V1000]
+Hm... well...[END-FE]
+
+
+
+
+
+//POINTER #278 @ $A378 - STRING #278 @ $DFE5
+#W32($A378)
+//[CHAR5D00][V4C00]
+//では、その部隊長は[NLINE]
+//ホフマンさんに[NLINE]
+//ドロボウの罪を着せようとしたのですね。[END-FE]
+//Yurii\\
+[CHAR5D00][V4C00]
+So Welber tried to frame you for[NLINE]
+theft.[END-FE]
+
+
+
+
+
+//POINTER #279 @ $A37C - STRING #279 @ $E03A
+#W32($A37C)
+//[CHAR5D00][V4D00]
+//ああ。[NLINE]
+//あの時の物資も、ここに来ていたんだろうな。[END-FE]
+//Hofman\\
+[CHAR5D00][V4D00]
+Yes. I wonder if the supplies from back[NLINE]
+then also ended up here.[END-FE]
+
+
+
+
+
+//POINTER #280 @ $A380 - STRING #280 @ $E077
+#W32($A380)
+//[CHAR5D00][V4E00]
+//話を聞けば聞くほど、その上官が黒幕だな。[NLINE]
+//　[NLINE]
+//　[END-FE]
+//Rukias\\
+[CHAR5D00][V4E00]
+The more I hear, the more it sounds[NLINE]
+like that Welber is behind it.[END-FE]
+
+
+
+
+
+//POINTER #281 @ $A384 - STRING #281 @ $E0B2
+#W32($A384)
+//[CHAR5D00][V4F00]
+//だが、荷物の入った箱の番号だけじゃ、　　[NLINE]
+//証拠にならないだろう？[NLINE]
+//どうする？[END-FE]
+//Rukias\\
+[CHAR5D00][V4F00]
+But just having the number of[NLINE]
+those crates is not enough[NLINE]
+proof. What are we going to do?[END-FE]
+
+
+
+
+
+//POINTER #282 @ $A388 - STRING #282 @ $E109
+#W32($A388)
+//[CHAR5D00][V5000]
+//この街から北に向かったところに、[NLINE]
+//前線に荷物を送るための基地がある。[NWIN]
+//
+//[CHAR5D00][V5100]
+//この街に流されるにしても、[NLINE]
+//ヒンギスタン王国内の前線に送られるにしても、[NLINE]
+//物資は一度その基地に集められる。[NWIN]
+//
+//[CHAR5D00][V5200]
+//そこでは全ての荷物の通過記録が[NLINE]
+//残っているはずだ。[NLINE]
+//それとこのメモを照らし合わせれば、[NLINE]
+//荷物の発注者と、それを許可した者、[NLINE]
+//そして荷物の届け先がわかる。[END-FE]
+//Hofman\\
+[CHAR5D00][V5000]
+North of this city lies the base[NLINE]
+that sends supplies to the frontline.[NWIN]
+
+[CHAR5D00][V5100]
+Supplies to be sent to either this[NLINE]
+city or the frontline in Hingistan[NLINE]
+are temporarily stored there.[NWIN]
+
+[CHAR5D00][V5200]
+There should be records of all[NLINE]
+the supplies that passed through[NLINE]
+there. If we compare my memo to[NLINE]
+those records, we'll know who[NLINE]
+ordered the supplies, who approved[NLINE]
+them, and their destination.[END-FE]
+
+
+
+
+
+//POINTER #283 @ $A38C - STRING #283 @ $E26E
+#W32($A38C)
+//[CHAR5D00][V5300]
+//でもそこはフォメロス国軍の基地なんですよね？[NLINE]
+//どうやって忍び込むつもりです？[END-FE]
+//Iristelessa\\
+[CHAR5D00][V5300]
+But that is a Fomerion army base, is[NLINE]
+it not? How do we intend to sneak[NLINE]
+into it?[END-FE]
+
+
+
+
+
+//POINTER #284 @ $A390 - STRING #284 @ $E2C5
+#W32($A390)
+//[CHAR5D00][V5400]
+//忍び込むことは、まず不可能だろう。[NLINE]
+//ならば、正面から乗り込めばいい。[END-FE]
+//Hofman\\
+[CHAR5D00][V5400]
+Sneaking in would be quite[NLINE]
+impossible. We'll have to enter[NLINE]
+from the front.[END-FE]
+
+
+
+
+
+//POINTER #285 @ $A394 - STRING #285 @ $E314
+#W32($A394)
+//[CHAR5D00][V5500]
+//正面からって、[NLINE]
+//それこそ自殺行為だろう？[END-FE]
+//Rukias\\
+[CHAR5D00][V5500]
+Won't entering from the front be[NLINE]
+a suicide move?[END-FE]
+
+
+
+
+
+//POINTER #286 @ $A398 - STRING #286 @ $E347
+#W32($A398)
+//[CHAR5D00][V5600]
+//荒っぽい方法は最終手段だよ。[CC.FFCD][CC.BE0105][NLINE]
+//　[END-FE]
+//Hofman\\
+[CHAR5D00][V5600]
+Desperate times call for desperate[NLINE]
+measures.[CC.FFCD][CC.BE0105][END-FE]
+
+
+
+
+
+//POINTER #287 @ $A39C - STRING #287 @ $E378
+#W32($A39C)
+//[CHAR5D00][V5700]
+//手みやげを持っていけば、[NLINE]
+//すんなり通してくれるさ。　　[END-FE]
+//Hofman\\
+[CHAR5D00][V5700]
+If we bring a present, they'll let[NLINE]
+us pass without any objections.[END-FE]
+
+
+
+
+
+//POINTER #288 @ $A3A0 - STRING #288 @ $E3B9
+#W32($A3A0)
+//[CHAR5D00][V5800]
+//手みやげって…。[END-FE]
+//Yurii\\
+[CHAR5D00][V5800]
+A present...[END-FE]
+
+
+
+
+
+//POINTER #289 @ $A3A4 - STRING #289 @ $E3D4
+#W32($A3A4)
+//・真犯人[END-FE]
+・A real criminal[END-FE]
+
+
+
+
+
+//POINTER #290 @ $A3A8 - STRING #290 @ $E3DF
+#W32($A3A8)
+//・目の前の手配犯[END-FE]
+・The wanted man standing in front of us[END-FE]
+
+
+
+
+
+//POINTER #291 @ $A3AC - STRING #291 @ $E3F2
+#W32($A3AC)
+//・そんなものはない[END-FE]
+・We've got no such thing[END-FE]
+
+
+
+
+
+//POINTER #292 @ $A3B0 - STRING #292 @ $E407
+#W32($A3B0)
+//[CHAR5D00][V5900]
+//そんな回りくどい方法をとらなくても[NLINE]
+//ここに手配犯がいるじゃないか。[NLINE]
+//…もちろん、無実だけどね。[END-FE]
+[CHAR5D00][V5900]
+Why would be use such a roundabout[NLINE]
+method when we have a wanted fugitive[NLINE]
+right in our midst?[NLINE]
+
+...But I'm innocent, of course.[END-FE]
+
+
+
+
+
+//POINTER #293 @ $A3B4 - STRING #293 @ $E470
+#W32($A3B4)
+//[CHAR5D00][V5A00]
+//そうとも。[NWIN]
+//
+//[CHAR5D00][V5B00]
+//ここに手配犯がいるじゃないか。[NLINE]
+//…もちろん、無実だけどね。[END-FE]
+//Hofman\\
+[CHAR5D00][V5A00]
+Yes.[NWIN]
+
+[CHAR5D00][V5B00]
+You're talking about me, correct?[NLINE]
+...But I'm innocent, of course.[END-FE]
+
+
+
+
+
+//POINTER #294 @ $A3B8 - STRING #294 @ $E4C9
+#W32($A3B8)
+//[CHAR5D00][V5C00]
+//ここに手配犯がいるじゃないか。[NLINE]
+//…もちろん、無実だけどね。[END-FE]
+//Hofman\\
+[CHAR5D00][V5C00]
+I'm a wanted fugitive, aren't I?[NLINE]
+...But I'm innocent, of course.[END-FE]
+
+
+
+
+
+//POINTER #295 @ $A3BC - STRING #295 @ $E50E
+#W32($A3BC)
+//[CHAR5D00][V5D00]
+//…なるほどな。[NLINE]
+//だが、それだと中には入れるが、[NLINE]
+//どうやって脱出する？[END-FE]
+//Rukias\\
+[CHAR5D00][V5D00]
+...I see. But if we get in that[NLINE]
+way, how will you escape?[END-FE]
+
+
+
+
+
+//POINTER #296 @ $A3C0 - STRING #296 @ $E55D
+#W32($A3C0)
+//[CHAR5D00][V5E00]
+//まぁ、なんとかなるさ。[END-FE]
+//Hofman\\
+[CHAR5D00][V5E00]
+Well, we'll figure something out.[END-FE]
+
+
+
+
+
+//POINTER #297 @ $A3C4 - STRING #297 @ $E57E
+#W32($A3C4)
+//[CHAR5D00][V5F00]
+//そんな気楽な…。[END-FE]
+//Iristelessa\\
+[CHAR5D00][V5F00]
+You seem very lighthearted about[NLINE]
+the situation...[END-FE]
+
+
+
+
+
+//POINTER #298 @ $A3C8 - STRING #298 @ $E599
+#W32($A3C8)
+//[CHAR5D00][V6000]
+//ともかく、[NLINE]
+//明日から行動開始ということで。[END-FE]
+//Hofman\\
+[CHAR5D00][V6000]
+Anyway, we'll enact our plan[NLINE]
+tomorrow.[END-FE]
+
+
+
+
+
+//POINTER #299 @ $A3CC - STRING #299 @ $E5CE
+#W32($A3CC)
+//この後、寝るモーションするよ。[END-FE]
+この後、寝るモーションするよ。[END-FE]
+
+
+
+
+
+//POINTER #300 @ $A3D0 - STRING #300 @ $E5EF
+#W32($A3D0)
+//寝たので、座標調整して。[END-FE]
+寝たので、座標調整して。[END-FE]
+
+
+
+
+
+//POINTER #301 @ $A3D4 - STRING #301 @ $E60A
+#W32($A3D4)
+//[CHAR6000][V1400]
+//なんだかうなされていましたが、[NLINE]
+//夢見が悪かったのですか？[END-FE]
+//Yurii\\
+[CHAR6000][V1400]
+I heard you cry out in your sleep.[NLINE]
+Did you have a bad dream?[END-FE]
+
+
+
+
+
+//POINTER #302 @ $A3D8 - STRING #302 @ $E64D
+#W32($A3D8)
+//・肯定する[END-FE]
+・Confirm[END-FE]
+
+
+
+
+
+//POINTER #303 @ $A3DC - STRING #303 @ $E65A
+#W32($A3DC)
+//・否定する[END-FE]
+・Deny[END-FE]
+
+
+
+
+
+//POINTER #304 @ $A3E0 - STRING #304 @ $E667
+#W32($A3E0)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #305 @ $A3E4 - STRING #305 @ $E676
+#W32($A3E4)
+//[CHAR6000][V1600]
+//ならば良いのですが…。[END-FE]
+//Yurii\\
+[CHAR6000][V1600]
+I see...[END-FE]
+
+
+
+
+
+//POINTER #306 @ $A3E8 - STRING #306 @ $E697
+#W32($A3E8)
+//[CHAR6000][V1500]
+//きっとお疲れなのですね。[NLINE]
+//ご自愛ください。[END-FE]
+[CHAR6000][V1500]
+You must be tired. Please take[NLINE]
+care of yourself.[END-FE]
+
+
+
+
+
+//POINTER #307 @ $A3EC - STRING #307 @ $E6CC
+#W32($A3EC)
+//[CHAR2003][V5E00]
+//はい。[END-FE]
+[CHAR2003][V5E00]
+Yes?[END-FE]
+
+
+
+
+
+//POINTER #308 @ $A3F0 - STRING #308 @ $E6DD
+#W32($A3F0)
+//[CHAR2003][V5F00]
+//あの…、[NLINE]
+//私に話とは…。[END-FE]
+//Girl (Meine)\\
+[CHAR2003][V5F00]
+Um...[NLINE]
+You wanted to talk with me...?[END-FE]
+
+
+
+
+
+//POINTER #309 @ $A3F4 - STRING #309 @ $E700
+#W32($A3F4)
+//・メーネであることを確認する[END-FE]
+・Ask her if she's Meine[END-FE]
+
+
+
+
+
+//POINTER #310 @ $A3F8 - STRING #310 @ $E71F
+#W32($A3F8)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #311 @ $A3FC - STRING #311 @ $E72E
+#W32($A3FC)
+//[CHAR2003][V6000]
+//はい、そうですが…。[NLINE]
+//どうして私のことを？[END-FE]
+//Meine\\
+[CHAR2003][V6000]
+Yes, I am. Why did you want to[NLINE]
+meet me?[END-FE]
+
+
+
+
+
+//POINTER #312 @ $A400 - STRING #312 @ $E763
+#W32($A400)
+//[CHAR2003][V6100]
+//ウェンディさん…、[NLINE]
+//あ、ウェンディアーナ姫から伺いました。[END-FE]
+//Yurii\\
+[CHAR2003][V6100]
+Wendy-ah, Princess Wendiana[NLINE]
+is looking for you.[END-FE]
+
+
+
+
+
+//POINTER #313 @ $A404 - STRING #313 @ $E7A8
+#W32($A404)
+//[CHAR2003][V6200]
+//初めまして。[NLINE]
+//あなたのことはウェンディ様…、[NLINE]
+//あ、ウェンディアーナ姫から伺いました。[END-FE]
+[CHAR2003][V6200]
+Pleased to meet you.[NLINE]
+Wendy-ah, Princess Wendiana[NLINE]
+is looking for you.[END-FE]
+
+
+
+
+
+//POINTER #314 @ $A408 - STRING #314 @ $E807
+#W32($A408)
+//[CHAR2003][V6300]
+//ウェンディアーナ姫から!?[NLINE]
+//ひ、姫は何と…。[END-FE]
+//Meine\\
+[CHAR2003][V6300]
+Princess Wendiana!?[NLINE]
+What did she say...?[END-FE]
+
+
+
+
+
+//POINTER #315 @ $A40C - STRING #315 @ $E83C
+#W32($A40C)
+//[CHAR2003][V6400]
+//ベッケルという男が死んで、[NLINE]
+//ウェンディ様は事実を知りたいと[NLINE]
+//申しております。[END-FE]
+//Yurii\\
+[CHAR2003][V6400]
+That Beckel has died and that[NLINE]
+she would like to know the truth.[END-FE]
+
+
+
+
+
+//POINTER #316 @ $A410 - STRING #316 @ $E893
+#W32($A410)
+//[CHAR2003][V6500]
+//ベッケルが死んだ…。[NLINE]
+//…そうですか。[END-FE]
+//Meine\\
+[CHAR2003][V6500]
+Beckel has died?[NLINE]
+...I see.[END-FE]
+
+
+
+
+
+//POINTER #317 @ $A414 - STRING #317 @ $E8C2
+#W32($A414)
+//[CHAR2003][V6600]
+//私とベッケルは姫の従者として[NLINE]
+//城を旅立ちました。[NLINE]
+//ですが、ベッケルが城からの軍資金を[NLINE]
+//横領していたのです。[NWIN]
+//
+//[CHAR2003][V6700]
+//ベッケルはそれを姫の[NLINE]
+//無駄遣いのせいだと私に言っていました。[NLINE]
+//ですが、横領の現場を知った私を[NLINE]
+//ベッケルは殺そうとしました。[END-FE]
+//Meine\\
+[CHAR2003][V6600]
+Beckel and I left the castle as[NLINE]
+the attendants of the princess.[NLINE]
+But Beckel was embezzling the[NLINE]
+campaign funds given to us.[NWIN]
+
+[CHAR2003][V6700]
+He said to me that the princess squandered[NLINE]
+it all. But Beckel was going to kill me[NLINE]
+because I knew about the embezzlement.[END-FE]
+
+
+
+
+
+//POINTER #318 @ $A418 - STRING #318 @ $E9BB
+#W32($A418)
+//[CHAR2003][V6800]
+//それでこのロイフェロンに[NLINE]
+//逃げてきたのですね。[END-FE]
+//Yurii\\
+[CHAR2003][V6800]
+And so you fled to Royferon.[END-FE]
+
+
+
+
+
+//POINTER #319 @ $A41C - STRING #319 @ $E9F4
+#W32($A41C)
+//[CHAR2003][V6900]
+//姫はどうなさっていますか？[NLINE]
+//…私をうらんでいますか？[END-FE]
+//Meine\\
+[CHAR2003][V6900]
+How is the princess?[NLINE]
+...Does she resent me?[END-FE]
+
+
+
+
+
+//POINTER #320 @ $A420 - STRING #320 @ $EA33
+#W32($A420)
+//[CHAR2003][V6A00]
+//ウェンディ様はそんな方ではありません。[NLINE]
+//あなたが無事であることを伝えれば、[NLINE]
+//きっと喜んでくれるでしょう。[END-FE]
+//Yurii\\
+[CHAR2003][V6A00]
+Wendy is not that kind of person.[NLINE]
+If we tell her that you're safe,[NLINE]
+I'm sure she'll be happy.[END-FE]
+
+
+
+
+
+//POINTER #321 @ $A424 - STRING #321 @ $EAA6
+#W32($A424)
+//[CHAR2003][V6B00]
+//それを聞いて安心しました。[NLINE]
+//姫には[COL01]メーネは幸せに暮らしている[COL00]と[NLINE]
+//お伝え下さい。[END-FE]
+//Meine\\
+[CHAR2003][V6B00]
+I'm relieved to hear that.[NLINE]
+Please tell the princess that[NLINE]
+[COL01]I'm living in happiness[COL00].[END-FE]
+
+
+
+
+
+//POINTER #322 @ $A428 - STRING #322 @ $EB05
+#W32($A428)
+//[CHAR2003][V8500]
+//はい、どうぞ。[END-FE]
+//Yurii\\
+[CHAR2003][V8500]
+Yes, come in.[END-FE]
+
+
+
+
+
+//POINTER #323 @ $A42C - STRING #323 @ $EB1E
+#W32($A42C)
+//[CHAR2003][V8600]
+//あの、[NLINE]
+//今度はどのようなご用でしょうか？[END-FE]
+//Meine\\
+[CHAR2003][V8600]
+Um, why did you call me here[NLINE]
+this time?[END-FE]
+
+
+
+
+
+//POINTER #324 @ $A430 - STRING #324 @ $EB51
+#W32($A430)
+//[CHAR2003][V8700]
+//実は、[NLINE]
+//会って頂きたい方がおりまして。[END-FE]
+//Yurii\\
+[CHAR2003][V8700]
+Actually, there's someone who[NLINE]
+would like to to meet you.[END-FE]
+
+
+
+
+
+//POINTER #325 @ $A434 - STRING #325 @ $EB82
+#W32($A434)
+//[CHAR2003][V8800]
+//どなたでしょうか？[END-FE]
+//Meine\\
+[CHAR2003][V8800]
+Who could it be?[END-FE]
+
+
+
+
+
+//POINTER #326 @ $A438 - STRING #326 @ $EB9F
+#W32($A438)
+//[CHAR2003][V8900]
+//それは…。[END-FE]
+//Yurii\\
+[CHAR2003][V8900]
+Well...[END-FE]
+
+
+
+
+
+//POINTER #327 @ $A43C - STRING #327 @ $EBB4
+#W32($A43C)
+//[CHAR2003][V8A00]
+//おまたせ！[END-FE]
+//Wendy\\
+[CHAR2003][V8A00]
+Sorry for making you wait![END-FE]
+
+
+
+
+
+//POINTER #328 @ $A440 - STRING #328 @ $EBC9
+#W32($A440)
+//[CHAR2003][V8B00]
+//えっ？[END-FE]
+//Meine\\
+[CHAR2003][V8B00]
+Eh?[END-FE]
+
+
+
+
+
+//POINTER #329 @ $A444 - STRING #329 @ $EBDA
+#W32($A444)
+//[CHAR2003][V8C00]
+//メーネ！[END-FE]
+//Wendy\\
+[CHAR2003][V8C00]
+Meine![END-FE]
+
+
+
+
+
+//POINTER #330 @ $A448 - STRING #330 @ $EBED
+#W32($A448)
+//[CHAR2003][V8D00]
+//姫！[NLINE]
+//ああ、申し訳ございません。[NLINE]
+//本来ならば、こちらから伺わねばならないのに…。[END-FE]
+//Meine\\
+[CHAR2003][V8D00]
+Princess! Oh, my deepest apologies.[NLINE]
+It is I who should be visiting you...[END-FE]
+
+
+
+
+
+//POINTER #331 @ $A44C - STRING #331 @ $EC48
+#W32($A44C)
+//[CHAR2003][V8E00]
+//いいのよ、メーネ。[NLINE]
+//あなたが無事だったなら、それだけで。[NWIN]
+//
+//[CHAR2003][V8F00]
+//それに、私はもう姫じゃないから、[NLINE]
+//気を遣わなくても良いのよ。[END-FE]
+//Wendy\\
+[CHAR2003][V8E00]
+It's fine, Meine. It's enough[NLINE]
+that you're safe.[NWIN]
+
+[CHAR2003][V8F00]
+Besides, I'm not a princess[NLINE]
+any more, so you don't have[NLINE]
+to worry.[END-FE]
+
+
+
+
+
+//POINTER #332 @ $A450 - STRING #332 @ $ECD1
+#W32($A450)
+//[CHAR2003][V9000]
+//では、革命の話は本当だったのですね…。[END-FE]
+//Meine\\
+[CHAR2003][V9000]
+So the revolution really happened...[END-FE]
+
+
+
+
+
+//POINTER #333 @ $A454 - STRING #333 @ $ED02
+#W32($A454)
+//[CHAR2003][V9100]
+//メーネの方は、どうだった？[END-FE]
+//Wendy\\
+[CHAR2003][V9100]
+How have you been, Meine?[END-FE]
+
+
+
+
+
+//POINTER #334 @ $A458 - STRING #334 @ $ED27
+#W32($A458)
+//[CHAR2003][V9200]
+//おかげさまで、この通りです。[NLINE]
+//良い方と家庭を持つことも出来ました。[END-FE]
+//Meine\\
+[CHAR2003][V9200]
+I've been fortunate enough to raise a[NLINE]
+family with a wonderful husband.[END-FE]
+
+
+
+
+
+//POINTER #335 @ $A45C - STRING #335 @ $ED74
+#W32($A45C)
+//[CHAR2003][V9300]
+//そう、それは良かったわ。[END-FE]
+//Wendy\\
+[CHAR2003][V9300]
+I'm very glad to hear that.[END-FE]
+
+
+
+
+
+//POINTER #336 @ $A460 - STRING #336 @ $ED97
+#W32($A460)
+//[CHAR2003][V9400]
+//ところで、メーネに[NLINE]
+//見て欲しい物があるんだけど…。[END-FE]
+//Wendy\\
+[CHAR2003][V9400]
+By the way, I have something for[NLINE]
+you...[END-FE]
+
+
+
+
+
+//POINTER #337 @ $A464 - STRING #337 @ $EDD4
+#W32($A464)
+//[CHAR2003][V9500]
+//私に、ですか？[END-FE]
+//Meine\\
+[CHAR2003][V9500]
+For me?[END-FE]
+
+
+
+
+
+//POINTER #338 @ $A468 - STRING #338 @ $EDED
+#W32($A468)
+//[CHAR2003][V9600]
+//これ…。[END-FE]
+//Wendy\\
+[CHAR2003][V9600]
+This...[END-FE]
+
+
+
+
+
+//POINTER #339 @ $A46C - STRING #339 @ $EE00
+#W32($A46C)
+//[CHAR2003][V9700]
+//あの頃は何も出来なかったけど、[NLINE]
+//私…。[END-FE]
+//Wendy\\
+[CHAR2003][V9700]
+Before, I wasn't able to do anything,[NLINE]
+so I...[END-FE]
+
+
+
+
+
+//POINTER #340 @ $A470 - STRING #340 @ $EE31
+#W32($A470)
+//[CHAR2003][V9800]
+//ありがたく頂かせて頂きます。[END-FE]
+//Meine\\
+[CHAR2003][V9800]
+I'll accept it with gratitude.[END-FE]
+
+
+
+
+
+//POINTER #341 @ $A474 - STRING #341 @ $EE58
+#W32($A474)
+//[CHAR2003][V9900]
+//ごちそうさまでした。[END-FE]
+//Meine\\
+[CHAR2003][V9900]
+Thank you for the meal.[END-FE]
+
+
+
+
+
+//POINTER #342 @ $A478 - STRING #342 @ $EE77
+#W32($A478)
+//[CHAR2003][V9A00]
+//ど、どうだった？[END-FE]
+//Wendy\\
+[CHAR2003][V9A00]
+H-how was it?[END-FE]
+
+
+
+
+
+//POINTER #343 @ $A47C - STRING #343 @ $EE92
+#W32($A47C)
+//[CHAR2003][V9B00]
+//とても心のこもったお料理でした。[NLINE]
+//姫の想いが伝わってきましたよ。[NWIN]
+//
+//[CHAR2003][V9C00]
+//私がいなくても、[NLINE]
+//姫は成長なさっていたのですね。[END-FE]
+//Meine\\
+[CHAR2003][V9B00]
+It was a heartfelt dish. It conveyed[NLINE]
+how much you care.[NWIN]
+
+[CHAR2003][V9C00]
+You have really grown while I wasn't[NLINE]
+there, haven't you, princess?[END-FE]
+
+
+
+
+
+//POINTER #344 @ $A480 - STRING #344 @ $EF17
+#W32($A480)
+//[CHAR2003][V9D00]
+//メーネがいたから、[NLINE]
+//メーネを安心させたかったから[NLINE]
+//料理をはじめたの。[NWIN]
+//
+//[CHAR2003][V9E00]
+//今の私がいるのも、[NLINE]
+//メーネのおかげ。[NLINE]
+//いろいろと、ありがとう。[END-FE]
+//Wendy\\
+[CHAR2003][V9D00]
+When you and I were together,[NLINE]
+I started to cook because I[NLINE]
+wanted to make you feel at ease.[NWIN]
+
+[CHAR2003][V9E00]
+It's thanks to you that I've[NLINE]
+made it this far. Thank you[NLINE]
+for everything.[END-FE]
+
+
+
+
+
+//POINTER #345 @ $A484 - STRING #345 @ $EFAE
+#W32($A484)
+//[CHAR2003][V9F00]
+//今日は姫の成長した姿を見ることが出来て、[NLINE]
+//とても良い日になりました。[NWIN]
+//
+//[CHAR2003][VA000]
+//申し訳ありませんが、[NLINE]
+//店の手伝いがありますので、[NLINE]
+//名残惜しいのですが…。[END-FE]
+//Meine\\
+[CHAR2003][V9F00]
+I'm grateful for being able[NLINE]
+see how you've grown.[NWIN]
+
+[CHAR2003][VA000]
+I'm very sorry, but I need to[NLINE]
+help out at the store...[END-FE]
+
+
+
+
+
+//POINTER #346 @ $A488 - STRING #346 @ $F04F
+#W32($A488)
+//[CHAR2003][VA100]
+//うん、私も嬉しかった。[NLINE]
+//また会いに来るから！[END-FE]
+//Wendy\\
+[CHAR2003][VA100]
+Yes, I'm grateful, too.[NLINE]
+I'll come meet you again![END-FE]
+
+
+
+
+
+//POINTER #347 @ $A48C - STRING #347 @ $F086
+#W32($A48C)
+//[CHAR2003][VA200]
+//はい、お待ちしています。[END-FE]
+//Meine\\
+[CHAR2003][VA200]
+Yes, I'll wait for you.[END-FE]
+
+
+
+
+
+//POINTER #348 @ $A490 - STRING #348 @ $F0A9
+#W32($A490)
+//[CHAR2003][VA300]
+//ありがとう、みんな。[NLINE]
+//なんだか、胸の中にあった物が[NLINE]
+//すっかり取れた感じ。[NWIN]
+//
+//[CHAR2003][VA400]
+//本当にありがとう！[END-FE]
+//Wendy\\
+[CHAR2003][VA300]
+Thank you, everyone.[NLINE]
+I feel like a burden has been[NLINE]
+lifted from my shoulders.[NWIN]
+
+[CHAR2003][VA400]
+Thank you from the bottom[NLINE]
+of my heart![END-FE]
+
+
+
+
+
+//POINTER #349 @ $A494 - STRING #349 @ $F118
+#W32($A494)
+//宝石商[END-FE]
+Jeweler[END-FE]
+
+
+
+
+
+//POINTER #350 @ $A498 - STRING #350 @ $F121
+#W32($A498)
+//[CHAR5B00][V0E00]
+//いらっしゃい！[NLINE]
+//ゆっくり見ていっておくれよ！[END-FE]
+//Owner\\
+[CHAR5B00][V0E00]
+Welcome![NLINE]
+Please feel free to take a look![END-FE]
+
+
+
+
+
+//POINTER #351 @ $A49C - STRING #351 @ $F158
+#W32($A49C)
+//[CHAR5B00][V0F00]
+//宝石…ですね…。[END-FE]
+//Iristelessa\\
+[CHAR5B00][V0F00]
+Jewels...[END-FE]
+
+
+
+
+
+//POINTER #352 @ $A4A0 - STRING #352 @ $F173
+#W32($A4A0)
+//[CHAR5B00][V1000]
+//このご時世に宝石なんて売れるのか？[END-FE]
+[CHAR5B00][V1000]
+They're selling jewels at a time[NLINE]
+like this?[END-FE]
+
+
+
+
+
+//POINTER #353 @ $A4A4 - STRING #353 @ $F1A0
+#W32($A4A4)
+//[CHAR5B00][V1100]
+//戦地付近ならば、[NLINE]
+//財産を宝石に換えておくのは[NLINE]
+//よくあることだが…。[NWIN]
+//
+//[CHAR5B00][V1200]
+//ここは国境沿いといっても、[NLINE]
+//戦地からは遠いから、[NLINE]
+//需要はないんじゃないかな。[NLINE]
+//特にこのご時世じゃ…。[END-FE]
+[CHAR5B00][V1100]
+Near the vicinity of the battlefront,[NLINE]
+it's common practice to convert one's[NLINE]
+assets into jewels...[NWIN]
+
+[CHAR5B00][V1200]
+Even though this city is located along[NLINE]
+the border, it's far from battlefield,[NLINE]
+so there should be no demand. Especially[NLINE]
+during these times...[END-FE]
+
+
+
+
+
+//POINTER #354 @ $A4A8 - STRING #354 @ $F25B
+#W32($A4A8)
+//[CHAR5B00][V1300]
+//そうなんだよ、最近売れなくてねぇ…。[NLINE]
+//それもこれも、闇市のせいに決まってるさ。[END-FE]
+[CHAR5B00][V1300]
+That's right, we haven't been[NLINE]
+able to sell any recently...[NLINE]
+It's all because of the black[NLINE]
+market.[END-FE]
+
+
+
+
+
+//POINTER #355 @ $A4AC - STRING #355 @ $F2B4
+#W32($A4AC)
+//[CHAR5B00][V1400]
+//（その商品じゃ、[NLINE]
+//　闇市は関係ないだろうけどな…。）[END-FE]
+[CHAR5B00][V1400]
+(I doubt there's currently much[NLINE]
+ demand for jewels on the black[NLINE]
+ market, though...)[END-FE]
+
+
+
+
+
+//POINTER #356 @ $A4B0 - STRING #356 @ $F2F3
+#W32($A4B0)
+//[CHAR5B00][V1500]
+//ええと、[NLINE]
+//その闇市っていうのはどこでやってるんだ？[END-FE]
+[CHAR5B00][V1500]
+Um, where are they holding this[NLINE]
+black market?[END-FE]
+
+
+
+
+
+//POINTER #357 @ $A4B4 - STRING #357 @ $F330
+#W32($A4B4)
+//[CHAR5B00][V1600]
+//嫌だよ。[NLINE]
+//教えたらそっちに行くつもりだろう？[NLINE]
+//損するとわかって教えられるかよ。[END-FE]
+[CHAR5B00][V1600]
+I don't think so! You're going to go there[NLINE]
+if I tell it to you, aren't you?[NLINE]
+I won't tell you if that means[NLINE]
+I'll lose out on money.[END-FE]
+
+
+
+
+
+//POINTER #358 @ $A4B8 - STRING #358 @ $F389
+#W32($A4B8)
+//[CHAR5B00][V1700]
+//それじゃ、情報料を払おう。[END-FE]
+[CHAR5B00][V1700]
+Then I will pay you for the information.[END-FE]
+
+
+
+
+
+//POINTER #359 @ $A4BC - STRING #359 @ $F3AE
+#W32($A4BC)
+//[CHAR5B00][V1800]
+//それなら考えなくもないが…。[NLINE]
+//お金よりも現物がいいな。[NWIN]
+//
+//[CHAR5B00][V1900]
+//うちのオフクロが歳ですぐに目を回すんだ。[NLINE]
+//[COL01]気付け薬[COL00]を５つほどくれないか？[END-FE]
+[CHAR5B00][V1800]
+I might consider that...[NLINE]
+But I prefer goods over money.[NWIN]
+
+[CHAR5B00][V1900]
+My mother often faints because of old[NLINE]
+age. How about you give me five[NLINE]
+[COL01]analeptics[COL01]?[END-FE]
+
+
+
+
+
+//POINTER #360 @ $A4C0 - STRING #360 @ $F447
+#W32($A4C0)
+//[COL01]気付け薬[COL00]を５個渡しますか？[END-FE]
+Will you hand over five [COL01]analeptics[COL00]?[END-FE]
+
+
+
+
+
+//POINTER #361 @ $A4C4 - STRING #361 @ $F46A
+#W32($A4C4)
+//[CHAR5B00][V1A00]
+//おお、ありがとうよ。[NLINE]
+//これでオフクロが目を回しても安心だ。[END-FE]
+[CHAR5B00][V1A00]
+Oh, thank you. Now I don't have to[NLINE]
+worry that my mother will faint.[END-FE]
+
+
+
+
+
+//POINTER #362 @ $A4C8 - STRING #362 @ $F4AF
+#W32($A4C8)
+//[CHAR5B00][V1B00]
+//闇市の場所を教えてくれ。[END-FE]
+[CHAR5B00][V1B00]
+Please tell us the location of the[NLINE]
+black market.[END-FE]
+
+
+
+
+
+//POINTER #363 @ $A4CC - STRING #363 @ $F4D2
+#W32($A4CC)
+//[CHAR5B00][V1C00]
+//闇市は、墓場裏の倉庫だ。[NLINE]
+//墓守に合い言葉を言えば通してくれる。[NWIN]
+//
+//[CHAR5B00][V1D00]
+//合い言葉は…[NLINE]
+//[COL01]戦場で死ぬより墓場で死にたい[COL00]、だ。[END-FE]
+[CHAR5B00][V1C00]
+The black market is held in the storehouse[NLINE]
+behind the base. If you tell the password[NLINE]
+to the gravekeeper, he'll let you pass.[NWIN]
+
+[CHAR5B00][V1D00]
+The password is:[NLINE]
+
+"[COL01]I want to be buried in a graveyard[NLINE]
+[COL01]rather than on the battlefield.[COL00]".[END-FE]
+
+
+
+
+
+//POINTER #364 @ $A4D0 - STRING #364 @ $F55B
+#W32($A4D0)
+//[CHAR5B00][V1E00]
+//今は持ち合わせがないな。[NLINE]
+//すぐに仕入れてくるよ。[END-FE]
+[CHAR5B00][V1E00]
+I don't have any now.[NLINE]
+I'll buy some for you soon.[END-FE]
+
+
+
+
+
+//POINTER #365 @ $A4D4 - STRING #365 @ $F596
+#W32($A4D4)
+//[CHAR5B00][V1F00]
+//情報料の代わりに[NLINE]
+//[COL01]気付け薬[COL00]を５つほどくれないか？[END-FE]
+[CHAR5B00][V1F00]
+How about you give me five [COL01]analeptics[COL00]
+in exchange for the information?[END-FE]
+
+
+
+
+
+//POINTER #366 @ $A4D8 - STRING #366 @ $F5D7
+#W32($A4D8)
+//当店の宝石は、上質ですよ。[END-FE]
+//Inn Owner\\
+Our shop's jewels are of the[NLINE]
+finest quality.[END-FE]
+
+
+
+
+
+//POINTER #367 @ $A4DC - STRING #367 @ $F5F4
+#W32($A4DC)
+//・メーネのことを質問[END-FE]
+・Ask about Meine[END-FE]
+
+
+
+
+
+//POINTER #368 @ $A4E0 - STRING #368 @ $F60B
+#W32($A4E0)
+//・何もしない[END-FE]
+・Say nothing[END-FE]
+
+
+
+
+
+//POINTER #369 @ $A4E4 - STRING #369 @ $F61A
+#W32($A4E4)
+//[CHAR2003][V5700]
+//えっ、妻の名前？[NLINE]
+//それを聞いてどうするつもりだ？[END-FE]
+//Inn Owner\\
+[CHAR2003][V5700]
+What? my wife's name?[NLINE]
+What do you intend to do if[NLINE]
+I were to tell you?[END-FE]
+
+
+
+
+
+//POINTER #370 @ $A4E8 - STRING #370 @ $F655
+#W32($A4E8)
+//[CHAR2003][V5800]
+//妻は無実だぞ！[NLINE]
+//彼女は悪いことなど出来る人ではない！[END-FE]
+//Inn Owner\\
+[CHAR2003][V5800]
+My wife is innocent![NLINE]
+She wouldn't hurt a fly![END-FE]
+
+
+
+
+
+//POINTER #371 @ $A4EC - STRING #371 @ $F694
+#W32($A4EC)
+//[CHAR2003][V5900]
+//警戒しないでください！[NLINE]
+//お金を横領したと思われる男は[NLINE]
+//すでに死にました。[NWIN]
+//
+//[CHAR2003][V5A00]
+//私たちは事実が知りたいだけです。[NLINE]
+//メーネさんに会わせてください！[END-FE]
+//Yurii\\
+[CHAR2003][V5900]
+Please calm down! The man who[NLINE]
+was embezzling money has[NLINE]
+already died.[NWIN]
+
+[CHAR2003][V5A00]
+We just want to know the truth.[NLINE]
+Please let us meet Meine![END-FE]
+
+
+
+
+
+//POINTER #372 @ $A4F0 - STRING #372 @ $F731
+#W32($A4F0)
+//[CHAR2003][V5B00]
+//…ヒンギスタンの[NLINE]
+//役人じゃないのか？[END-FE]
+//Inn Owner\\
+[CHAR2003][V5B00]
+...You're not Hingistan[NLINE]
+government officials?[END-FE]
+
+
+
+
+
+//POINTER #373 @ $A4F4 - STRING #373 @ $F760
+#W32($A4F4)
+//[CHAR2003][V5C00]
+//ちがいます。[NLINE]
+//どちらかと言えばジェワールです。[NLINE]
+//モノポリス社の者ですので。[END-FE]
+//Yurii\\
+[CHAR2003][V5C00]
+No. We're from Jewarl.[NLINE]
+We're with Monopolis.[END-FE]
+
+
+
+
+
+//POINTER #374 @ $A4F8 - STRING #374 @ $F7B5
+#W32($A4F8)
+//[CHAR2003][V5D00]
+//…そうか。[NLINE]
+//ならば、今夜宿に行かせるよ。[END-FE]
+//Inn Owner\\
+[CHAR2003][V5D00]
+...I see. Then I will have[NLINE]
+her meet you at the inn tonight.[END-FE]
+
+
+
+
+
+//POINTER #375 @ $A4FC - STRING #375 @ $F7E8
+#W32($A4FC)
+//最近、妻の笑顔が絶えないんですよ。[NWIN]
+//
+//これまで、たまに辛そうな顔をすることが[NLINE]
+//ありましたが、そういう事もなくなりました。[NWIN]
+//
+//これも皆様のおかげですね。[END-FE]
+My wife has been constantly smiling[NLINE]
+recently.[NWIN]
+
+In the past, she sometimes had a painful[NLINE]
+look on her face, but not anymore.[NWIN]
+
+It's all thanks to you.[END-FE]
+
+
+
+
+
+//POINTER #376 @ $A500 - STRING #376 @ $F87D
+#W32($A500)
+//妻のことなら心配ない。[NLINE]
+//今夜宿に行かせるよ。[END-FE]
+Don't worry about my wife.[NLINE]
+She will meet you at the inn[NLINE]
+tonight.[END-FE]
+
+
+
+
+
+//POINTER #377 @ $A504 - STRING #377 @ $F8AC
+#W32($A504)
+//いらっしゃいませ。[NLINE]
+//当店、自慢の宝石を[NLINE]
+//ごゆっくりご覧下さいませ。[END-FE]
+Welcome.[NLINE]
+Please take a look at our[NLINE]
+wonderful jewels.[END-FE]
+
+
+
+
+
+//POINTER #378 @ $A508 - STRING #378 @ $F8F1
+#W32($A508)
+//…正直に申しまして、[NLINE]
+//このご時世では、[NLINE]
+//店の売上げも落ち込んでいます。[NWIN]
+//
+//オーナーも、我々スタッフも[NLINE]
+//努力しているのですが、[NLINE]
+//こればかりはどうも…。[END-FE]
+...To be honest, our sales[NLINE]
+have been declining recently.[NWIN]
+
+Both the owner and staff are working[NLINE]
+very hard, but there's no helping[NLINE]
+it...[END-FE]
+
+
+
+
+
+//POINTER #379 @ $A50C - STRING #379 @ $F986
+#W32($A50C)
+//闇市がなくなったならば、[NLINE]
+//当店の売上げは戻るでしょうか？[NLINE]
+//今の政策が変わらない以上、[NLINE]
+//望み薄でしょうね…。[END-FE]
+Will our sales go up again if the[NLINE]
+black market were to disappear?[NLINE]
+As long as the current goverment[NLINE]
+policy doesn't change, I think[NLINE]
+there's little hope...[END-FE]
+
+
+
+
+
+//POINTER #380 @ $A510 - STRING #380 @ $F9F3
+#W32($A510)
+//ヒンギスタンから兵を引き上げるという決定が[NLINE]
+//成されたそうです。[NWIN]
+//
+//これで国内の市場が良くなって、[NLINE]
+//以前のような売上げが戻ることを[NLINE]
+//期待しています。[END-FE]
+It seems the goverment decided to[NLINE]
+withdraw our troops from Hingistan.[NWIN]
+
+I hope this will restore the domestic[NLINE]
+market and allow us to reach our original[NLINE]
+sales numbers again.[END-FE]
+
+
+
+
+
+//POINTER #381 @ $A514 - STRING #381 @ $FA86
+#W32($A514)
+//　[NLINE]
+//指輪の寸法直し、承ります。[NLINE]
+//[COL05]～お気軽にどうぞ～[COL00][NLINE]
+//　[END-FE]
+[NLINE]
+We can resize your ring for you.[NLINE]
+[COL05]~Don't hestitate to ask~[COL00][NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #382 @ $A518 - STRING #382 @ $FAC5
+#W32($A518)
+//珍しい金属で出来ていますね…。[NLINE]
+//申し訳ありませんが、魔法金属だと、[NLINE]
+//加工することは無理です。[END-FE]
+This is made of a rare material...[NLINE]
+I'm very sorry, but it's impossible[NLINE]
+for me to alter magic metal.[END-FE]
+
+
+
+
+
+//POINTER #383 @ $A51C - STRING #383 @ $FB24
+#W32($A51C)
+//はい、これを直すんですか？[CC.D814][NLINE]
+//…[CC.D80F]…[CC.D80F]…[CC.D80F]…。[NWIN]
+//
+//…すみません、[NLINE]
+//魔法金属はちょっと無理です。[END-FE]
+You would like to change this one?[CC.D814][NLINE]
+...[CC.D80F]...[CC.D80F]...[CC.D80F]...[NWIN]
+
+...I'm sorry, but I don't think[NLINE]
+I can alter magic metal.[END-FE]
+
+
+
+
+
+//POINTER #384 @ $A520 - STRING #384 @ $FB87
+#W32($A520)
+//これは珍しい指輪ですね。[NLINE]
+//寸法直しでしたら、[NLINE]
+//カウンターの者が承ります。[END-FE]
+This is a very rare ring.[NLINE]
+If you would like to resize it,[NLINE]
+please talk to person behind the[NLINE]
+counter.[END-FE]
+
+
+
+
+
+//POINTER #385 @ $A524 - STRING #385 @ $FBD2
+#W32($A524)
+//お助けをっ！[END-FE]
+Save me![END-FE]
+
+
+
+
+
+//POINTER #386 @ $A528 - STRING #386 @ $FBE1
+#W32($A528)
+//さぁ、見て行ってよ！[END-FE]
+Have a look![END-FE]
+
+
+
+
+
+//POINTER #387 @ $A52C - STRING #387 @ $FBF8
+#W32($A52C)
+//何とかしてくれぇ！[END-FE]
+Please do something![END-FE]
+
+
+
+
+
+//POINTER #388 @ $A530 - STRING #388 @ $FC0D
+#W32($A530)
+//今日で売り切るよ！[NLINE]
+//早くしないとなくなるよ！[END-FE]
+Last chance![NLINE]
+Get it while you still can![END-FE]
+
+
+
+
+
+//POINTER #389 @ $A534 - STRING #389 @ $FC3C
+#W32($A534)
+//まだ死にたくないよ～！[END-FE]
+I don't want to die![END-FE]
+
+
+
+
+
+//POINTER #390 @ $A538 - STRING #390 @ $FC55
+#W32($A538)
+//今を逃すと、[NLINE]
+//いつ入荷するかわからないよ！[END-FE]
+If you miss out now, who knows[NLINE]
+when you'll get another chance![END-FE]
+
+
+
+
+
+//POINTER #391 @ $A53C - STRING #391 @ $FC82
+#W32($A53C)
+//ひ～！[NLINE]
+//た、助けて！[END-FE]
+Aaaaiiii![NLINE]
+S-save me![END-FE]
+
+
+
+
+
+//POINTER #392 @ $A540 - STRING #392 @ $FC99
+#W32($A540)
+//欲しいなら、悩まず買え！[NLINE]
+//後悔しても遅いぞ！[END-FE]
+If you want it, just buy it![NLINE]
+Don't make yourself regret it later![END-FE]
+
+
+
+
+
+//POINTER #393 @ $A544 - STRING #393 @ $FCC8
+#W32($A544)
+//ただ、買い物に来ていた[NLINE]
+//だけなのに、どうして!?[END-FE]
+I just came here to shop![NLINE]
+Why is this happening!?[END-FE]
+
+
+
+
+
+//POINTER #394 @ $A548 - STRING #394 @ $FCF9
+#W32($A548)
+//予算は決まっているから、[NLINE]
+//どれを優先すべきかしらね？[END-FE]
+I've got a fixed budget, so[NLINE]
+what should I prioritize?[END-FE]
+
+
+
+
+
+//POINTER #395 @ $A54C - STRING #395 @ $FD30
+#W32($A54C)
+//何でオレまで！[END-FE]
+Why me!?[END-FE]
+
+
+
+
+
+//POINTER #396 @ $A550 - STRING #396 @ $FD41
+#W32($A550)
+//アンタらも買い物かい？[NLINE]
+//オレより先に買うなよ～！[END-FE]
+Are you shopping here, too?[NLINE]
+I call dibs![END-FE]
+
+
+
+
+
+//POINTER #397 @ $A554 - STRING #397 @ $FD74
+#W32($A554)
+//ひ、ひぃ～！[NLINE]
+//死にたくない！[END-FE]
+Aaaaiiii![NLINE]
+I don't want to die![END-FE]
+
+
+
+
+
+//POINTER #398 @ $A558 - STRING #398 @ $FD93
+#W32($A558)
+//欲しい物が出来たのかい？[END-FE]
+Did you get what you wanted?[END-FE]
+
+
+
+
+
+//POINTER #399 @ $A55C - STRING #399 @ $FDAE
+#W32($A55C)
+//何でも証言するから、[NLINE]
+//守ってくれ！[END-FE]
+Please protect me! I'll testify to[NLINE]
+anything![END-FE]
+
+
+
+
+
+//POINTER #400 @ $A560 - STRING #400 @ $FDD3
+#W32($A560)
+//なんだよ…。[END-FE]
+Whadya want...?[END-FE]
+
+
+
+
+
+//POINTER #401 @ $A564 - STRING #401 @ $FDE2
+#W32($A564)
+//ははははは！[NLINE]
+//先に失礼させてもらうよ。[NWIN]
+//
+//この闇市は外から封鎖させよう。[NLINE]
+//これで二度と会うことはない。[END-FE]
+Hahahaha![NLINE]
+Please excuse me.[NWIN]
+
+I'm going to block this market[NLINE]
+from the outside. We won't meet[NLINE]
+again.[END-FE]
+
+
+
+
+
+//POINTER #402 @ $A568 - STRING #402 @ $FE49
+#W32($A568)
+//しまった！逃がしたか！[END-FE]
+Shoot! He ran way![END-FE]
+
+
+
+
+
+//POINTER #403 @ $A56C - STRING #403 @ $FE62
+#W32($A56C)
+//[CHAR5F00][V0400]
+//これは…確かにリスト通りの荷物だ…。[END-FE]
+[CHAR5F00][V0400]
+These... are certainly the[NLINE]
+crates from the list...[END-FE]
+
+
+
+
+
+//POINTER #404 @ $A570 - STRING #404 @ $FE91
+#W32($A570)
+//[CHAR5F00][V0500]
+//おい、何をしている！[END-FE]
+[CHAR5F00][V0500]
+Hey, what are you doing!?[END-FE]
+
+
+
+
+
+//POINTER #405 @ $A574 - STRING #405 @ $FEB0
+#W32($A574)
+//[CHAR5F00][V0600]
+//フォメロス国軍の者だ！[NLINE]
+//物資の横流し犯を追っている！[END-FE]
+[CHAR5F00][V0600]
+I'm with the Fomerion army![NLINE]
+I'm tracing misappropriated[NLINE]
+supplies![END-FE]
+
+
+
+
+
+//POINTER #406 @ $A578 - STRING #406 @ $FEEF
+#W32($A578)
+//[CHAR5F00][V0700]
+//なっ!?[NWIN]
+//
+//[CHAR5F00][V0800]
+//お、俺じゃない！[NLINE]
+//俺はここを任されただけで…。[END-FE]
+[CHAR5F00][V0700]
+What!?[NWIN]
+
+[CHAR5F00][V0800]
+It wasn't me! I was only[NLINE]
+left in charge of this place...[END-FE]
+
+
+
+
+
+//POINTER #407 @ $A57C - STRING #407 @ $FF38
+#W32($A57C)
+//[CHAR5F00][V0900]
+//ならば、お前に指示を出したのは誰だ？[END-FE]
+[CHAR5F00][V0900]
+Then who was the one who[NLINE]
+ordered you?[END-FE]
+
+
+
+
+
+//POINTER #408 @ $A580 - STRING #408 @ $FF67
+#W32($A580)
+//[CHAR5F00][V0A00]
+//そ、それは…。[END-FE]
+[CHAR5F00][V0A00]
+I-it was...[END-FE]
+
+
+
+
+
+//POINTER #409 @ $A584 - STRING #409 @ $FF80
+#W32($A584)
+//[CHAR5F00][V0B00]
+//その犯人は[NLINE]
+//あなたの隣にいる男ではありませんか？[END-FE]
+[CHAR5F00][V0B00]
+Isn't the perpetrator the man standing[NLINE]
+next to you?[END-FE]
+
+
+
+
+
+//POINTER #410 @ $A588 - STRING #410 @ $FFBB
+#W32($A588)
+//[CHAR5F00][V0C00]
+//貴様、良くもぬけぬけと！[NLINE]
+//貴様と大統領が結託し、[NLINE]
+//貴重な物資を横流ししていることは[NLINE]
+//ここに証拠がそろっている！[END-FE]
+[CHAR5F00][V0C00]
+How dare you set foot in here!?[NLINE]
+You conspired with the president,[NLINE]
+and this place contains all the[NLINE]
+evidence that you misappropriated[NLINE]
+a large amount of valuable supplies![END-FE]
+
+
+
+
+
+//POINTER #411 @ $A58C - STRING #411 @ $10034
+#W32($A58C)
+//[CHAR5F00][V0D00]
+//ほう、証拠がそろって…。[NLINE]
+//つまり、それが無くなれば…。[END-FE]
+[CHAR5F00][V0D00]
+Heh, all the evidence, you say...?[NLINE]
+In other words, if that were to[NLINE]
+disappear...[END-FE]
+
+
+
+
+
+//POINTER #412 @ $A590 - STRING #412 @ $10075
+#W32($A590)
+//[CHAR5F00][V0E00]
+//何をするつもりだ？[END-FE]
+[CHAR5F00][V0E00]
+What do you intend do?[END-FE]
+
+
+
+
+
+//POINTER #413 @ $A594 - STRING #413 @ $10092
+#W32($A594)
+//[CHAR5F00][V0F00]
+//私は物資を横流しした[NLINE]
+//逃亡兵を追ってここへ来た。[NLINE]
+//だが犯人の攻撃にあいやむなく応戦。[NWIN]
+//
+//[CHAR5F00][V1000]
+//基地司令殿もその戦闘で[NLINE]
+//尊い犠牲となった…[NLINE]
+//…という筋書きでいかがかな？[END-FE]
+[CHAR5F00][V0F00]
+I came here in pursuit of an escaped[NLINE]
+soldier who embezzled supplies.[NLINE]
+However, I was forced to respond[NLINE]
+to the criminal's attack.[NWIN]
+
+[CHAR5F00][V1000]
+Unfortunately, the base commander nobly[NLINE]
+sacrificed himself during the battle...[NLINE]
+...How does that scenario sound?[END-FE]
+
+
+
+
+
+//POINTER #414 @ $A598 - STRING #414 @ $10143
+#W32($A598)
+//[CHAR5F00][V1100]
+//貴様という男は！[NLINE]
+//どこまで見下げ果てた奴だ！[END-FE]
+[CHAR5F00][V1100]
+You scoundrel! Could you stoop[NLINE]
+any lower?[END-FE]
+
+
+
+
+
+//POINTER #415 @ $A59C - STRING #415 @ $1017A
+#W32($A59C)
+//[CHAR5F00][V1200]
+//口封じだ。[NLINE]
+//この場にいる者は全員殺してしまえ！[END-FE]
+[CHAR5F00][V1200]
+Silence![NLINE]
+Kill everyone in this place![END-FE]
+
+
+
+
+
+//POINTER #416 @ $A5A0 - STRING #416 @ $101B3
+#W32($A5A0)
+//[CHAR5F00][V1300]
+//な、なんだって!?[NLINE]
+//話が違うじゃないか！[END-FE]
+[CHAR5F00][V1300]
+What!?[NLINE]
+That's not what you promised![END-FE]
+
+
+
+
+
+//POINTER #417 @ $A5A4 - STRING #417 @ $101E4
+#W32($A5A4)
+//[CHAR5F00][V1400]
+//…なぁ！[NLINE]
+//いくらでも証言するから、[NLINE]
+//俺たちを守ってくれ！[END-FE]
+[CHAR5F00][V1400]
+...Hey! I'll testify as much[NLINE]
+as I can if you help me![END-FE]
+
+
+
+
+
+//POINTER #418 @ $A5A8 - STRING #418 @ $10227
+#W32($A5A8)
+//・ウェルバーの撃破[END-FE]
+・Defeat Wellber[END-FE]
+
+
+
+
+
+//POINTER #419 @ $A5AC - STRING #419 @ $1023C
+#W32($A5AC)
+//・基地司令の死亡[NLINE]
+//・民間人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The base commander dies[NLINE]
+・Any civilians die[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #420 @ $A5B0 - STRING #420 @ $10273
+#W32($A5B0)
+//[CHAR5F00][V1500]
+//くそっ！[NLINE]
+//ここまでやるとはっ！[NLINE]
+//やむを得ぬ！[END-FE]
+[CHAR5F00][V1500]
+Damn it![NLINE]
+I've gotten this far![NLINE]
+There's no other way![END-FE]
+
+
+
+
+
+//POINTER #421 @ $A5B4 - STRING #421 @ $102AA
+#W32($A5B4)
+//[CHAR5F00][V1600]
+//むっ！[NLINE]
+//逃げるつもりか？[NLINE]
+//奴を逃がすな！[END-FE]
+[CHAR5F00][V1600]
+He intends to run?[NLINE]
+Don't let him escape![END-FE]
+
+
+
+
+
+//POINTER #422 @ $A5B8 - STRING #422 @ $102DD
+#W32($A5B8)
+//・ウェルバーの逃亡[NLINE]
+//・基地司令の死亡[NLINE]
+//・民間人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Wellber escapes[NLINE]
+・The base commander dies[NLINE]
+・Any civilians die[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #423 @ $A5BC - STRING #423 @ $10328
+#W32($A5BC)
+//ウェルバー！[NLINE]
+//私をおとしいれるだけならまだしも、[NLINE]
+//よくも私の班の兵まで巻き込んだな！[NWIN]
+//
+//死んでいった彼らに、[NLINE]
+//どう謝罪するつもりだ!?[END-FE]
+Wellber! You not only framed me,[NLINE]
+you even involved the soldiers[NLINE]
+of my squad![NWIN]
+
+How do you intend to make amends[NLINE]
+for those fallen men!?[END-FE]
+
+
+
+
+
+//POINTER #424 @ $A5C0 - STRING #424 @ $103AD
+#W32($A5C0)
+//ハン！[NLINE]
+//お前がもっと上手く指揮していれば[NLINE]
+//彼らも死なずに済んだろうよ！[END-FE]
+Ha! If you ordered your[NLINE]
+subordinates more tactfully,[NLINE]
+they wouldn't have died![END-FE]
+
+
+
+
+
+//POINTER #425 @ $A5C4 - STRING #425 @ $103F6
+#W32($A5C4)
+//こ、このっ！[END-FE]
+D-damn you![END-FE]
+
+
+
+
+
+//POINTER #426 @ $A5C8 - STRING #426 @ $10405
+#W32($A5C8)
+//[CHAR5F00][V1700]
+//…し…しまった…。[END-FE]
+[CHAR5F00][V1700]
+...N-no...[END-FE]
+
+
+
+
+
+//POINTER #427 @ $A5CC - STRING #427 @ $10422
+#W32($A5CC)
+//[CHAR5F00][V1800]
+//く…くそ…、[NLINE]
+//俺様が……。[END-FE]
+[CHAR5F00][V1800]
+B-blast it...[NLINE]
+How could I of all people...[END-FE]
+
+
+
+
+
+//POINTER #428 @ $A5D0 - STRING #428 @ $10447
+#W32($A5D0)
+//[CHAR5F00][V1900]
+//ウェルバー様！[END-FE]
+[CHAR5F00][V1900]
+Lieutenant Colonel![END-FE]
+
+
+
+
+
+//POINTER #429 @ $A5D4 - STRING #429 @ $10460
+#W32($A5D4)
+//[CHAR5F00][V1A00]
+//貴様たちもおとなしくしろ！[NLINE]
+//これ以上ことを荒立てると、[NLINE]
+//軍事裁判で不利にはたらくぞ！[END-FE]
+[CHAR5F00][V1A00]
+Be quiet! If you make any more[NLINE]
+trouble, the more at a disadvantage[NLINE]
+you'll be at your court martial![END-FE]
+
+
+
+
+
+//POINTER #430 @ $A5D8 - STRING #430 @ $104BF
+#W32($A5D8)
+//[CHAR5F00][V1B00]
+//く…っ。[END-FE]
+[CHAR5F00][V1B00]
+Ugh...[END-FE]
+
+
+
+
+
+//POINTER #431 @ $A5DC - STRING #431 @ $104D2
+#W32($A5DC)
+//[CHAR5F00][V1C00]
+//…終わった…。[END-FE]
+[CHAR5F00][V1C00]
+...It's over...[END-FE]
+
+
+
+
+
+//POINTER #432 @ $A5E0 - STRING #432 @ $104EB
+#W32($A5E0)
+//[CHAR5F00][V1D00]
+//私はフォメロス国の名誉ある軍人として[NLINE]
+//物資を横流しし、私腹を肥やす[NLINE]
+//ウェルバー一味を告発する。[NWIN]
+//
+//[CHAR5F00][V1E00]
+//当然、現大統領グライムにも[NLINE]
+//火の粉がかかることは覚悟せよ！[END-FE]
+[CHAR5F00][V1D00]
+As an honorable soldier of Fomeros,[NLINE]
+I indict Wellber for misappropriating[NLINE]
+supplies for his own profit.[NWIN]
+
+[CHAR5F00][V1E00]
+And of course, President Glyme can[NLINE]
+expect lots of problems coming his[NLINE]
+way as well![END-FE]
+
+
+
+
+
+//POINTER #433 @ $A5E4 - STRING #433 @ $10598
+#W32($A5E4)
+//[CHAR5F00][V1F00]
+//…くぅぅ…。[END-FE]
+[CHAR5F00][V1F00]
+...Ugh...[END-FE]
+
+
+
+
+
+//POINTER #434 @ $A5E8 - STRING #434 @ $105AF
+#W32($A5E8)
+//[CHAR5F00][V2000]
+//大統領が物資の横流し？[END-FE]
+[CHAR5F00][V2000]
+The president misappropriated[NLINE]
+supplies?[END-FE]
+
+
+
+
+
+//POINTER #435 @ $A5EC - STRING #435 @ $105D0
+#W32($A5EC)
+//[CHAR5F00][V2100]
+//それじゃ、[NLINE]
+//ここで私たちが払ったお金は[NLINE]
+//大統領のポケットに入っちまうのかい？[END-FE]
+[CHAR5F00][V2100]
+So the money we paid here[NLINE]
+goes into the president's[NLINE]
+pocket?[END-FE]
+
+
+
+
+
+//POINTER #436 @ $A5F0 - STRING #436 @ $10627
+#W32($A5F0)
+//[CHAR5F00][V2200]
+//くそっ！[NLINE]
+//そんな奴がこの国を動かしていたのかよ！[END-FE]
+[CHAR5F00][V2200]
+Damn! Such a scoundrel is[NLINE]
+running the country?[END-FE]
+
+
+
+
+
+//POINTER #437 @ $A5F4 - STRING #437 @ $10662
+#W32($A5F4)
+//[CH.FACE:Open-Eyes][CHAR5F00][V2300]
+//有権者の皆さん！[NLINE]
+//もっと政治に目を向けましょう！[NLINE]
+//誰ならば自分たちの生活を良くしてくれるのか？[NLINE]
+//その声が反映されるのが選挙です！[NWIN]
+//
+//[CHAR5F00][V2400]
+//誰に投票しろとは言いません。[NLINE]
+//ただ、よく考えて投票してください！[END-FE]
+[CH.FACE:Open-Eyes][CHAR5F00][V2300]
+Citizens of Fomeros![NLINE]
+Let's turn our eyes more towards[NLINE]
+politics! Which candidate will be[NLINE]
+able to improve our lives? Your voices[NLINE]
+will be reflected in the election![NWIN]
+
+[CHAR5F00][V2400]
+I can't tell you who to vote[NLINE]
+for. I only ask you to choose[NLINE]
+wisely![END-FE]
+
+
+
+
+
+//POINTER #438 @ $A5F8 - STRING #438 @ $1073A
+#W32($A5F8)
+//[CHAR5F00][V2500]
+//そうだな！[NLINE]
+//すくなくとも、国民を困らせてまで[NLINE]
+//戦争を続けるような奴は願い下げだ！[END-FE]
+[CHAR5F00][V2500]
+That's right! The very least we[NLINE]
+should is vote that warmonger[NLINE]
+out of office![END-FE]
+
+
+
+
+
+//POINTER #439 @ $A5FC - STRING #439 @ $10795
+#W32($A5FC)
+//[CHAR5F00][V2600]
+//そうよ、そうよ！[NLINE]
+//みんなにも教えましょう！[END-FE]
+[CHAR5F00][V2600]
+Hear, hear![NLINE]
+Let's go inform everyone![END-FE]
+
+
+
+
+
+//POINTER #440 @ $A600 - STRING #440 @ $107CA
+#W32($A600)
+//[CHAR5F00][V2700]
+//やりましたね。[END-FE]
+[CHAR5F00][V2700]
+We did it.[END-FE]
+
+
+
+
+
+//POINTER #441 @ $A604 - STRING #441 @ $107E3
+#W32($A604)
+//[CHAR5F00][V2800]
+//ホフマン。[NLINE]
+//これで君も戻ってこられるな。[END-FE]
+[CHAR5F00][V2800]
+Hofman, now you can come back.[END-FE]
+
+
+
+
+
+//POINTER #442 @ $A608 - STRING #442 @ $10816
+#W32($A608)
+//[CHAR5F00][V2900]
+//そのことですが、[NLINE]
+//折り入って相談があります。[NWIN]
+//
+//[CHAR5F00][V2A00]
+//実はこの世界には[NLINE]
+//大変なことが起こっているのです…。[END-FE]
+[CHAR5F00][V2900]
+That's right, but there's something[NLINE]
+I would like to talk with you about.[NWIN]
+
+[CHAR5F00][V2A00]
+The truth is, our world is[NLINE]
+facing a serious crisis...[END-FE]
+
+
+
+
+
+//POINTER #443 @ $A60C - STRING #443 @ $1088B
+#W32($A60C)
+//[CHAR5F00][V2B00]
+//２０００年前の悲劇が…？[NWIN]
+//
+//[CHAR5F00][V2C00]
+//詳しい話を聞きたいが、[NLINE]
+//いつまでもこいつらをこのままにはしておけん。[NWIN]
+//
+//[CHAR5F00][V2D00]
+//続きは基地で聞こう。[END-FE]
+[CHAR5F00][V2B00]
+A calamity that occured 2,000 years ago...?[NWIN]
+
+[CHAR5F00][V2C00]
+I would like to hear the details of[NLINE]
+your story, but I can't be away[NLINE]
+from my men for too long.[NWIN]
+
+[CHAR5F00][V2D00]
+I shall hear more at the base.[END-FE]
+
+
+
+
+
+//POINTER #444 @ $A610 - STRING #444 @ $1091A
+#W32($A610)
+//[CHAR5F00][V2E00]
+//はい。[END-FE]
+[CHAR5F00][V2E00]
+Alright.[END-FE]
+
+
+
+
+
+//POINTER #445 @ $A614 - STRING #445 @ $1092B
+#W32($A614)
+//[CHAR5F00][V2F00]
+//私は司令と基地に行ってくる。[NLINE]
+//明日には戻るので、宿で待っていてくれ。[END-FE]
+[CHAR5F00][V2F00]
+I will go with the commander[NLINE]
+to the base. I'll return[NLINE]
+tomorrow, so please wait[NLINE]
+for me at the inn.[END-FE]
+
+
+
+
+
+//POINTER #446 @ $A618 - STRING #446 @ $1097A
+#W32($A618)
+//[CHAR5F00][V3000]
+//それじゃ、[NLINE]
+//今日は自由行動としないか？[END-FE]
+[CHAR5F00][V3000]
+So today we'll have free[NLINE]
+time, right?[END-FE]
+
+
+
+
+
+//POINTER #447 @ $A61C - STRING #447 @ $109AB
+#W32($A61C)
+//[CHAR5F00][V3100]
+//そうですね。[NLINE]
+//ホフマンさんが戻るまでは[NLINE]
+//この街で待機ということで。[END-FE]
+[CHAR5F00][V3100]
+Yes. We'll wait in the[NLINE]
+city until Hofman returns.[END-FE]
+
+
+
+
+
+//POINTER #448 @ $A620 - STRING #448 @ $109F8
+#W32($A620)
+//[CHAR5D00][V1100]
+//ホフマン！[NLINE]
+//Ｂ班班長のホフマンはどこだ！[END-FE]
+[CHAR5D00][V1100]
+Hofman! Where is Sergeant Hofman[NLINE]
+of squad B!?[END-FE]
+
+
+
+
+
+//POINTER #449 @ $A624 - STRING #449 @ $10A2B
+#W32($A624)
+//[CHAR5D00][V1200]
+//お呼びですか、[NLINE]
+//ウェルバー部隊長殿！[END-FE]
+[CHAR5D00][V1200]
+You called for me, Captain[NLINE]
+Wellber?[END-FE]
+
+
+
+
+
+//POINTER #450 @ $A628 - STRING #450 @ $10A5A
+#W32($A628)
+//[CHAR5D00][V1300]
+//今日届いた物資の件で話がある。[END-FE]
+[CHAR5D00][V1300]
+I want to talk with you about the[NLINE]
+supplies that arrived today.[END-FE]
+
+
+
+
+
+//POINTER #451 @ $A62C - STRING #451 @ $10A83
+#W32($A62C)
+//[CHAR5D00][V1400]
+//はっ、何でありましょうか。[END-FE]
+[CHAR5D00][V1400]
+Yes, what is the matter, sir?[END-FE]
+
+
+
+
+
+//POINTER #452 @ $A630 - STRING #452 @ $10AA8
+#W32($A630)
+//[CHAR5D00][V1500]
+//見ての通り、今日届いた物資は[NLINE]
+//予定の２割にも満たない。[END-FE]
+[CHAR5D00][V1500]
+As you have seen, the supplies[NLINE]
+that were sent today are less[NLINE]
+than 20% procent of the planned[NLINE]
+amount.[END-FE]
+
+
+
+
+
+//POINTER #453 @ $A634 - STRING #453 @ $10AE9
+#W32($A634)
+//[CHAR5D00][V1600]
+//はい、その通りであります。[NLINE]
+//残りの物資は遅れるとの[NLINE]
+//報告が入っております。[END-FE]
+[CHAR5D00][V1600]
+That's right, sir.[NLINE]
+I included a report stating[NLINE]
+that the remaining goods will[NLINE]
+be delayed.[END-FE]
+
+
+
+
+
+//POINTER #454 @ $A638 - STRING #454 @ $10B3E
+#W32($A638)
+//[CHAR5D00][V1700]
+//たった今、[NLINE]
+//ヒンギスタン軍の襲撃を受け、[NLINE]
+//輸送隊が立ち往生しているらしいとの[NLINE]
+//報告が入った。[NWIN]
+//
+//[CHAR5D00][V1800]
+//このままでは前線に物資を[NLINE]
+//届けることは難しい。[END-FE]
+[CHAR5D00][V1700]
+Just now, I received a report that the[NLINE]
+supply unit has been brough to a standstill[NLINE]
+after receiving an attack from the Hingistani[NLINE]
+army.[NWIN]
+
+[CHAR5D00][V1800]
+If nothing is done, it will be[NLINE]
+difficult to send supplies to the[NLINE]
+frontline.[END-FE]
+
+
+
+
+
+//POINTER #455 @ $A63C - STRING #455 @ $10BDD
+#W32($A63C)
+//[CHAR5D00][V1900]
+//では、早速救援部隊を！[END-FE]
+[CHAR5D00][V1900]
+Then we must immediately send a[NLINE]
+relief force![END-FE]
+
+
+
+
+
+//POINTER #456 @ $A640 - STRING #456 @ $10BFE
+#W32($A640)
+//[CHAR5D00][V1A00]
+//言われずともわかっている。[NWIN]
+//
+//[CC.BE0105][CHAR5D00][V1B00]
+//私は救援部隊を組織し、[NLINE]
+//輸送隊の援護に向かう。[NWIN]
+//
+//[CHAR5D00][V1C00]
+//その間、お前に[NLINE]
+//ここの守りを任せたい。[END-FE]
+[CHAR5D00][V1A00]
+You don't have to tell me that.[NWIN]
+
+[CC.BE0105][CHAR5D00][V1B00]
+I'll organize a relief force and[NLINE]
+provide backup the supply unit.[NWIN]
+
+[CHAR5D00][V1C00]
+During that time, I will entrust the[NLINE]
+defense of this encampment to you.[END-FE]
+
+
+
+
+
+//POINTER #457 @ $A644 - STRING #457 @ $10C8F
+#W32($A644)
+//[CHAR5D00][V1D00]
+//はっ、了解しました！[NLINE]
+//自分はこの場を死守いたします！[END-FE]
+[CHAR5D00][V1D00]
+Yes, understood![NLINE]
+We will defend this camp to[NLINE]
+the last man![END-FE]
+
+
+
+
+
+//POINTER #458 @ $A648 - STRING #458 @ $10CCE
+#W32($A648)
+//[CHAR5D00][V1E00]
+//もっとも、前線を越えて[NLINE]
+//ここまで敵が来ることはないと思うが。[NWIN]
+//
+//[CHAR5D00][V1F00]
+//ともかく、まかせるぞ！[END-FE]
+[CHAR5D00][V1E00]
+However, I don't think the enemy will[NLINE]
+venture this far beyond the frontline.[NWIN]
+
+[CHAR5D00][V1F00]
+In any case, I'll leave it[NLINE]
+to you![END-FE]
+
+
+
+
+
+//POINTER #459 @ $A64C - STRING #459 @ $10D35
+#W32($A64C)
+//[CHAR5D00][V2000]
+//珍しいですね、[NLINE]
+//部隊長が自ら出るなんて。[NLINE]
+//いつも命令ばかりの人なのに。[END-FE]
+[CHAR5D00][V2000]
+It's quite unusual for the[NLINE]
+captain himself to go out.[NLINE]
+Up until now, he only gave[NLINE]
+orders.[END-FE]
+
+
+
+
+
+//POINTER #460 @ $A650 - STRING #460 @ $10D86
+#W32($A650)
+//[CHAR5D00][V2100]
+//そうだな。[NWIN]
+//
+//[CHAR5D00][V2200]
+//とりあえず、[NLINE]
+//警戒をおこたらないようにしよう。[NWIN]
+//
+//[CHAR5D00][V2300]
+//この人数では、襲撃をうければ、[NLINE]
+//ひとたまりもない。[END-FE]
+[CHAR5D00][V2100]
+That's true.[NWIN]
+
+[CHAR5D00][V2200]
+Anyway, let's be vigilant.[NWIN]
+
+[CHAR5D00][V2300]
+With such few people, we won't stand[NLINE]
+a chance if they attack us.[END-FE]
+
+
+
+
+
+//POINTER #461 @ $A654 - STRING #461 @ $10E0F
+#W32($A654)
+//[CHAR5D00][V2400]
+//はっ！[END-FE]
+[CHAR5D00][V2400]
+Yes, sir![END-FE]
+
+
+
+
+
+//POINTER #462 @ $A658 - STRING #462 @ $10E20
+#W32($A658)
+//[CHAR5D00][V2500]
+//ウェルバー様、[NLINE]
+//あの連中だけで大丈夫でしょうか？[NWIN]
+//
+//[CHAR5D00][V2600]
+//ホフマンが死ぬようなことになれば…。[END-FE]
+[CHAR5D00][V2500]
+Captain Wellber, will these numbers[NLINE]
+be enough to defend the camp?[NWIN]
+
+[CHAR5D00][V2600]
+If Hofman were to die...[END-FE]
+
+
+
+
+
+//POINTER #463 @ $A65C - STRING #463 @ $10E89
+#W32($A65C)
+//[CHAR5D00][V2700]
+//大丈夫だろう。[NLINE]
+//ああみえて、奴は有能だからな。[END-FE]
+[CHAR5D00][V2700]
+It will be fine. He many not look the[NLINE]
+part, but he's quite capable.[END-FE]
+
+
+
+
+
+//POINTER #464 @ $A660 - STRING #464 @ $10EC2
+#W32($A660)
+//[CHAR5D00][V2800]
+//うわ！[NLINE]
+//て、敵襲ー！[END-FE]
+[CHAR5D00][V2800]
+Argh![NLINE]
+W-we're under attack![END-FE]
+
+
+
+
+
+//POINTER #465 @ $A664 - STRING #465 @ $10EE1
+#W32($A664)
+//[CHAR5D00][V2900]
+//なっ!?[NLINE]
+//こんなところに？[NWIN]
+//
+//[CHAR5D00][V2A00]
+//とにかく、[NLINE]
+//全員、応戦せよ！[END-FE]
+[CHAR5D00][V2900]
+What!?[NLINE]
+Here?[NWIN]
+
+[CHAR5D00][V2A00]
+All troops, attack![END-FE]
+
+
+
+
+
+//POINTER #466 @ $A668 - STRING #466 @ $10F2A
+#W32($A668)
+//[CHAR5D00][V2B00]
+//さがせ！[NLINE]
+//どの箱かにあるはずだ！[END-FE]
+[CHAR5D00][V2B00]
+Search for it![NLINE]
+It should be in one of these crates![END-FE]
+
+
+
+
+
+//POINTER #467 @ $A66C - STRING #467 @ $10F55
+#W32($A66C)
+//[CHAR5D00][V2C00]
+//連中の狙いは[NLINE]
+//ここにある荷物にあるのか？[END-FE]
+[CHAR5D00][V2C00]
+Are they looking for something[NLINE]
+in these crates?[END-FE]
+
+
+
+
+
+//POINTER #468 @ $A670 - STRING #468 @ $10F88
+#W32($A670)
+//[CHAR5D00][V2D00]
+//ＡＨ３２－０１００、これだ！[END-FE]
+[CHAR5D00][V2D00]
+AH32-0100! Here it is![END-FE]
+
+
+
+
+
+//POINTER #469 @ $A674 - STRING #469 @ $10FAF
+#W32($A674)
+//[CHAR5D00][V2E00]
+//なっ、ない!?[NWIN]
+//
+//[CHAR5D00][V2F00]
+//くそっ！[NLINE]
+//あの男、ウソを…！[END-FE]
+[CHAR5D00][V2E00]
+What!? It's not here!?[NWIN]
+
+[CHAR5D00][V2F00]
+Damn it![NLINE]
+He lied...![END-FE]
+
+
+
+
+
+//POINTER #470 @ $A678 - STRING #470 @ $10FEC
+#W32($A678)
+//[CHAR5D00][V3000]
+//こうなったら、[NLINE]
+//皆殺しにしてやる！[END-FE]
+[CHAR5D00][V3000]
+Then we'll kill them all![END-FE]
+
+
+
+
+
+//POINTER #471 @ $A67C - STRING #471 @ $11019
+#W32($A67C)
+//[CHAR5D00][V3100]
+//これはどうしたことだ！[END-FE]
+[CHAR5D00][V3100]
+What happened here!?[END-FE]
+
+
+
+
+
+//POINTER #472 @ $A680 - STRING #472 @ $1103A
+#W32($A680)
+//[CHAR5D00][V3200]
+//これは部隊長殿…。[NLINE]
+//実はヒンギスタン軍の襲撃を…。[NWIN]
+//
+//[CHAR5D00][V3300]
+//部下は文字通り死力を尽くし、[NLINE]
+//全滅してしまいました…。[END-FE]
+[CHAR5D00][V3200]
+Captain...[NLINE]
+Hingistani soldiers attacked...[NWIN]
+
+[CHAR5D00][V3300]
+My men fought until their[NLINE]
+dying breath...[END-FE]
+
+
+
+
+
+//POINTER #473 @ $A684 - STRING #473 @ $110B7
+#W32($A684)
+//[CHAR5D00][V3400]
+//バカな事を言うな！[NLINE]
+//こんな所に敵が来るはずなかろう！[END-FE]
+[CHAR5D00][V3400]
+Don't be ridiculous![NLINE]
+The enemy would never come[NLINE]
+all the way here![END-FE]
+
+
+
+
+
+//POINTER #474 @ $A688 - STRING #474 @ $110F6
+#W32($A688)
+//[CHAR5D00][V3500]
+//ウソではありません！[NLINE]
+//そこにも死体があるではないですか！[END-FE]
+[CHAR5D00][V3500]
+It's not a lie! There are[NLINE]
+dead bodies there, aren't there!?[END-FE]
+
+
+
+
+
+//POINTER #475 @ $A68C - STRING #475 @ $11139
+#W32($A68C)
+//[CHAR5D00][V3600]
+//ウェルバー様！[NLINE]
+//敵兵がこんな手紙を[NLINE]
+//持っていました！[END-FE]
+[CHAR5D00][V3600]
+Captain Wellber![NLINE]
+The enemy soldier had this[NLINE]
+letter on him![END-FE]
+
+
+
+
+
+//POINTER #476 @ $A690 - STRING #476 @ $11178
+#W32($A690)
+//[CHAR5D00][V3700]
+//内容はなんだ、読んでみろ！[END-FE]
+[CHAR5D00][V3700]
+What are the contents? Read[NLINE]
+it to me![END-FE]
+
+
+
+
+
+//POINTER #477 @ $A694 - STRING #477 @ $1119D
+#W32($A694)
+//[CHAR5D00][V3800]
+//…これは…！[NWIN]
+//
+//[CHAR5D00][V3900]
+//ホフマンが[NLINE]
+//物資を渡すという密書です！[END-FE]
+[CHAR5D00][V3800]
+...This is...![NWIN]
+
+[CHAR5D00][V3900]
+A secret message of Hofman saying that[NLINE]
+he will hand them over supplies![END-FE]
+
+
+
+
+
+//POINTER #478 @ $A698 - STRING #478 @ $111E4
+#W32($A698)
+//[CHAR5D00][V3A00]
+//なんだと!?[NLINE]
+//貴様、ヒンギスタン軍に[NLINE]
+//物資を流していたのか！[END-FE]
+[CHAR5D00][V3A00]
+What!? You are handing over supplies[NLINE]
+to the Hingistani army!?[END-FE]
+
+
+
+
+
+//POINTER #479 @ $A69C - STRING #479 @ $11229
+#W32($A69C)
+//[CHAR5D00][V3B00]
+//そんな、バカな！[NLINE]
+//なぜ私がそんなことを！[NWIN]
+//
+//[CHAR5D00][V3C00]
+//第一、物資ならこのように[NLINE]
+//守り通しました！[END-FE]
+[CHAR5D00][V3B00]
+That's ridiculous![NLINE]
+Why would I do that!?[NWIN]
+
+[CHAR5D00][V3C00]
+I fought to protect the[NLINE]
+supplies, didn't I!?[END-FE]
+
+
+
+
+
+//POINTER #480 @ $A6A0 - STRING #480 @ $11290
+#W32($A6A0)
+//[CHAR5D00][V3D00]
+//…どこが守っただ！[NLINE]
+//空ではないか！[END-FE]
+[CHAR5D00][V3D00]
+...Protected what!?[NLINE]
+They're empty![END-FE]
+
+
+
+
+
+//POINTER #481 @ $A6A4 - STRING #481 @ $112BD
+#W32($A6A4)
+//[CHAR5D00][V3E00]
+//…なっ…!?[END-FE]
+[CHAR5D00][V3E00]
+...What...!?[END-FE]
+
+
+
+
+
+//POINTER #482 @ $A6A8 - STRING #482 @ $112D2
+#W32($A6A8)
+//[CHAR5D00][V3F00]
+//…そんな…中身は…どこに…？[END-FE]
+[CHAR5D00][V3F00]
+...No... Where are the[NLINE]
+contents...?[END-FE]
+
+
+
+
+
+//POINTER #483 @ $A6AC - STRING #483 @ $112F9
+#W32($A6AC)
+//[CHAR5D00][V4000]
+//すでにヒンギスタンの連中に[NLINE]
+//渡してしまったか…。[END-FE]
+[CHAR5D00][V4000]
+So you already passed them to[NLINE]
+those Hingistani vultures...?[END-FE]
+
+
+
+
+
+//POINTER #484 @ $A6B0 - STRING #484 @ $11334
+#W32($A6B0)
+//[CHAR5D00][V4100]
+//違います！[END-FE]
+[CHAR5D00][V4100]
+That's not true![END-FE]
+
+
+
+
+
+//POINTER #485 @ $A6B4 - STRING #485 @ $11349
+#W32($A6B4)
+//[CHAR5D00][V4200]
+//何が違うだ！[NLINE]
+//現に物資が消えているではないか！[NWIN]
+//
+//[CHAR5D00][V4300]
+//さては、仲間に見られたから、[NLINE]
+//口封じに殺したのか！[END-FE]
+[CHAR5D00][V4200]
+What do you mean that's not true!?[NLINE]
+Aren't the supplies gone now?![NWIN]
+
+[CHAR5D00][V4300]
+And because you were seen by your[NLINE]
+allies, you killed them to prevent[NLINE]
+them from talking![END-FE]
+
+
+
+
+
+//POINTER #486 @ $A6B8 - STRING #486 @ $113BE
+#W32($A6B8)
+//[CHAR5D00][V4400]
+//そんな！[NLINE]
+//私の話を聞いてください！[END-FE]
+[CHAR5D00][V4400]
+No![NLINE]
+Please listen to me![END-FE]
+
+
+
+
+
+//POINTER #487 @ $A6BC - STRING #487 @ $113EB
+#W32($A6BC)
+//[CHAR5D00][V4500]
+//ああ、そうだな。[NLINE]
+//詳しく話を聞く必要があるな。[END-FE]
+[CHAR5D00][V4500]
+Yes, you're right.[NLINE]
+I'll need to hear the details.[END-FE]
+
+
+
+
+
+//POINTER #488 @ $A6C0 - STRING #488 @ $11424
+#W32($A6C0)
+//[CHAR5D00][V4600]
+//おい！[NLINE]
+//ホフマンを捕らえろ！[END-FE]
+[CHAR5D00][V4600]
+Listen up![NLINE]
+Arrest Hofman![END-FE]
+
+
+
+
+
+//POINTER #489 @ $A6C4 - STRING #489 @ $1144B
+#W32($A6C4)
+//[CHAR5D00][V4700]
+//ま、待ってください！[NLINE]
+//私は無実です！[END-FE]
+[CHAR5D00][V4700]
+Wait![NLINE]
+I'm innocent![END-FE]
+
+
+
+
+
+//POINTER #490 @ $A6C8 - STRING #490 @ $1147A
+#W32($A6C8)
+//[CHAR5D00][V4800]
+//話は査問委員会でしてもらう。[END-FE]
+[CHAR5D00][V4800]
+Save it for the hearing.[END-FE]
+
+
+
+
+
+//POINTER #491 @ $A6CC - STRING #491 @ $114A1
+#W32($A6CC)
+//[CHAR5D00][V4900]
+//くっ！[END-FE]
+[CHAR5D00][V4900]
+Ugh![END-FE]
+
+
+
+
+
+//POINTER #492 @ $A6D0 - STRING #492 @ $114B2
+#W32($A6D0)
+//[CHAR5D00][V4A00]
+//逃がすな！[NLINE]
+//捕らえるんだ！[END-FE]
+[CHAR5D00][V4A00]
+Don't let him escape![NLINE]
+Capture him![END-FE]
+
+
+
+
+
+//POINTER #493 @ $A6D4 - STRING #493 @ $114D7
+#W32($A6D4)
+//[CHAR5D00][V4B00]
+//　　私が捕らえられれば、　　　　　　　　　[NLINE]
+//　　不当な軍法会議で、有罪。　　　　　　　[NLINE]
+//　　大統領選に臨む兄が失脚する。　　　　　[NLINE]
+//　　だから私は捕まるわけにはいかなかった。[END-FE]
+[CHAR5D00][V4B00]
+  If I got caught, I would be declared guilty[NLINE]
+  in an unjust court martial. My brother who[NLINE]
+  is participating in the presidential election[NLINE]
+  would fail. That's why I couldn't afford to be[NLINE]
+  arrested.[END-FE]
+
+
+
+

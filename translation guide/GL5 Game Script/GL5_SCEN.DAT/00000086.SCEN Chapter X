@@ -1,0 +1,522 @@
+
+
+//POINTER #0 @ $2A20 - STRING #0 @ $2B00
+#W32($2A20)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2A24 - STRING #1 @ $2B03
+#W32($2A24)
+//・敵の全滅[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2A28 - STRING #2 @ $2B10
+#W32($2A28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2A2C - STRING #3 @ $2B35
+#W32($2A2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2A30 - STRING #4 @ $2B5A
+#W32($2A30)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2A34 - STRING #5 @ $2B6F
+#W32($2A34)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2A38 - STRING #6 @ $2BA4
+#W32($2A38)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2A3C - STRING #7 @ $2BD9
+#W32($2A3C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2A40 - STRING #8 @ $2BFE
+#W32($2A40)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2A44 - STRING #9 @ $2C23
+#W32($2A44)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2A48 - STRING #10 @ $2C48
+#W32($2A48)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2A4C - STRING #11 @ $2C5D
+#W32($2A4C)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2A50 - STRING #12 @ $2C84
+#W32($2A50)
+//一気に小マップ３まで移動？[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2A54 - STRING #13 @ $2CA1
+#W32($2A54)
+//まずはサフィアを仲間にしてください。[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2A58 - STRING #14 @ $2CC8
+#W32($2A58)
+//[CHARD000][V0000]
+//あ、シェリス様！[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2A5C - STRING #15 @ $2CE3
+#W32($2A5C)
+//[CHARD000][V0100]
+//サフィアではないか。[NLINE]
+//見回りか？[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2A60 - STRING #16 @ $2D0E
+#W32($2A60)
+//[CHARD000][V0200]
+//はい。[NLINE]
+//森の見回りが終わったので、[NLINE]
+//これから戻るところです。[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2A64 - STRING #17 @ $2D55
+#W32($2A64)
+//[CHARD000][V0300]
+//そうか。[NLINE]
+//そう言えば、こっちに[NLINE]
+//商人のマニスは来なかったか？[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2A68 - STRING #18 @ $2D9C
+#W32($2A68)
+//[CHARD000][V0400]
+//マニスという人は知りませんが、[NLINE]
+//商人とだったら、すれ違いましたよ。[NWIN]
+//
+//[CHARD000][V0500]
+//何かあったんですか？[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2A6C - STRING #19 @ $2E07
+#W32($2A6C)
+//[CHARD000][V0600]
+//ちょっと確かめたいことが[NLINE]
+//あってな…。[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2A70 - STRING #20 @ $2E38
+#W32($2A70)
+//[CHARD000][V0700]
+//商人を捜すなら、[NLINE]
+//私もお手伝いします！[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2A74 - STRING #21 @ $2E69
+#W32($2A74)
+//[CHARD000][V0800]
+//見回りが終わったばかりでは[NLINE]
+//疲れているのではないか？[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2A78 - STRING #22 @ $2EA8
+#W32($2A78)
+//[CHARD000][V0900]
+//大丈夫ですよ！[NLINE]
+//シェリス様のお役に立てるなら、[NLINE]
+//疲れなんて吹っ飛んじゃいます！[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2A7C - STRING #23 @ $2F01
+#W32($2A7C)
+//[CHARD000][V0A00]
+//そ、そうか。[NLINE]
+//すまないな…。[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2A80 - STRING #24 @ $2F28
+#W32($2A80)
+//[CHARD000][V0B00]
+//気にしないでください！[NLINE]
+//シェリス様は女性兵士のアコガレですから！[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2A84 - STRING #25 @ $2F73
+#W32($2A84)
+//　[NLINE]
+//サフィアが仲間になった！[NLINE]
+//　[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2A88 - STRING #26 @ $2F96
+#W32($2A88)
+//こんなところにラナの実がある…。[NLINE]
+//ニナに教えてやるか。[NLINE]
+//宝箱に戻しておこう。[END-FE]
+
+
+
+
+
+//POINTER #27 @ $2A8C - STRING #27 @ $2FE5
+#W32($2A8C)
+//[CHARD200][V2700]
+//それにしても、[NLINE]
+//女だと言うだけじゃ…。[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2A90 - STRING #28 @ $3016
+#W32($2A90)
+//[CHARD200][V2800]
+//そう言えば、どこかの部隊の隊長が[NLINE]
+//暗殺者のウワサに詳しいっていう話を[NLINE]
+//聞いたことがあります…。[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2A94 - STRING #29 @ $307F
+#W32($2A94)
+//[CHARD200][V2900]
+//どこの部隊だ？[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2A98 - STRING #30 @ $3098
+#W32($2A98)
+//[CHARD200][V2A00]
+//すみません、それが…。[NLINE]
+//でもたしか城の外で働く部隊でした。[NLINE]
+//でも、私のいる森林警備の部隊じゃないです。[END-FE]
+
+
+
+
+
+//POINTER #31 @ $2A9C - STRING #31 @ $3109
+#W32($2A9C)
+//一気に０８０１に行く？[END-FE]
+
+
+
+
+
+//POINTER #32 @ $2AA0 - STRING #32 @ $3122
+#W32($2AA0)
+//[CHARD200][V0000]
+//ここは危険なんだと、[NLINE]
+//いったい何度言えばわかるんだ！[END-FE]
+
+
+
+
+
+//POINTER #33 @ $2AA4 - STRING #33 @ $3161
+#W32($2AA4)
+//[CHARD200][V0100]
+//ごめんなさい、[NLINE]
+//ランディのおじちゃん…。[END-FE]
+
+
+
+
+
+//POINTER #34 @ $2AA8 - STRING #34 @ $3194
+#W32($2AA8)
+//[CHARD200][V0200]
+//さ、村に帰るぞ！[END-FE]
+
+
+
+
+
+//POINTER #35 @ $2AAC - STRING #35 @ $31AF
+#W32($2AAC)
+//[CHARD200][V0300]
+//すみませんでしたな。[NLINE]
+//あなた方なら大丈夫でしょうが、[NLINE]
+//この坑道はガスが出ることがありますので、[NLINE]
+//奥までは入らない方が良いでしょう。[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2AB0 - STRING #36 @ $323C
+#W32($2AB0)
+//いつも危ないって言われるけど、[NLINE]
+//危なかった事なんて、今までないのにさ。[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2AB4 - STRING #37 @ $3285
+#W32($2AB4)
+//[CHARD000][V0C00]
+//ここはタダじゃ通さないぞ！[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2AB8 - STRING #38 @ $32AA
+#W32($2AB8)
+//[CHARD000][V0D00]
+//通るならツーコーリョーはらえ！[END-FE]
+
+
+
+
+
+//POINTER #39 @ $2ABC - STRING #39 @ $32D3
+#W32($2ABC)
+//[CHARD000][V0E00]
+//君たちジュワイナ村の子？[END-FE]
+
+
+
+
+
+//POINTER #40 @ $2AC0 - STRING #40 @ $32F6
+#W32($2AC0)
+//[CHARD000][V0F00]
+//通るならツーコーリョーはらえ！[END-FE]
+
+
+
+
+
+//POINTER #41 @ $2AC4 - STRING #41 @ $331F
+#W32($2AC4)
+//[CHARD000][V1000]
+//いったい、いくらで[NLINE]
+//通してくれるのかな？[END-FE]
+
+
+
+
+
+//POINTER #42 @ $2AC8 - STRING #42 @ $3352
+#W32($2AC8)
+//[CHARD000][V1100]
+//高いぞ、はらえるのか？[NLINE]
+//１００００ゴロンだぞ！[END-FE]
+
+
+
+
+
+//POINTER #43 @ $2ACC - STRING #43 @ $338B
+#W32($2ACC)
+//[CHARD000][V1200]
+//１００００ゴロン？[END-FE]
+
+
+
+
+
+//POINTER #44 @ $2AD0 - STRING #44 @ $33A8
+#W32($2AD0)
+//[CHARD000][V1300]
+//ん？[NLINE]
+//ゴロンなんて通貨、[NLINE]
+//聞いたことありませんよ？[END-FE]
+
+
+
+
+
+//POINTER #45 @ $2AD4 - STRING #45 @ $33E5
+#W32($2AD4)
+//[CHARD000][V1400]
+//仕方ない。[NLINE]
+//出直そう。[END-FE]
+
+
+
+
+
+//POINTER #46 @ $2AD8 - STRING #46 @ $3406
+#W32($2AD8)
+//タンケンするの、[NLINE]
+//おもしろいのに…。[END-FE]
+
+
+
+
+
+//POINTER #47 @ $2ADC - STRING #47 @ $342D
+#W32($2ADC)
+//事故が起こってからでは遅いですからな。[NLINE]
+//教えて頂き、ありがとうございました。[END-FE]
+
+
+
+
+
+//POINTER #48 @ $2AE0 - STRING #48 @ $347C
+#W32($2AE0)
+//鉱山入り口[END-FE]
+
+
+
+
+
+//POINTER #49 @ $2AE4 - STRING #49 @ $3489
+#W32($2AE4)
+//ジュワイナ村[END-FE]
+
+
+
+
+
+//POINTER #50 @ $2AE8 - STRING #50 @ $3498
+#W32($2AE8)
+//ジュワイナの森[NLINE]
+//フェルメンティア方面[END-FE]
+
+
+
+
+
+//POINTER #51 @ $2AEC - STRING #51 @ $34BF
+#W32($2AEC)
+//デバッグ部屋行く？[END-FE]
+
+
+
+
+
+//POINTER #52 @ $2AF0 - STRING #52 @ $34D4
+#W32($2AF0)
+//Ｄ　シェリス・Ｆ１３[END-FE]
+
+
+
+
+
+//POINTER #53 @ $2AF4 - STRING #53 @ $34EB
+#W32($2AF4)
+//配置パターンを選んで[END-FE]
+
+
+
+
+
+//POINTER #54 @ $2AF8 - STRING #54 @ $3502
+#W32($2AF8)
+//・Ａパターン[END-FE]
+
+
+
+
+
+//POINTER #55 @ $2AFC - STRING #55 @ $3511
+#W32($2AFC)
+//・Ｂパターン[END-FE]

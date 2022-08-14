@@ -1,0 +1,1718 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $9BA0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $9920, 4, PTR)
+
+#JMP($9BA0)
+#HDR($9BA0)
+
+
+
+
+
+//POINTER #0 @ $9920 - STRING #0 @ $9BA0
+#W32($9920)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $9924 - STRING #1 @ $9BA3
+#W32($9924)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $9928 - STRING #2 @ $9BB0
+#W32($9928)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $992C - STRING #3 @ $9BD5
+#W32($992C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $9930 - STRING #4 @ $9BFA
+#W32($9930)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $9934 - STRING #5 @ $9C0F
+#W32($9934)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $9938 - STRING #6 @ $9C34
+#W32($9938)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $993C - STRING #7 @ $9C59
+#W32($993C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $9940 - STRING #8 @ $9C8E
+#W32($9940)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $9944 - STRING #9 @ $9CC3
+#W32($9944)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $9948 - STRING #10 @ $9CE8
+#W32($9948)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $994C - STRING #11 @ $9D0D
+#W32($994C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $9950 - STRING #12 @ $9D32
+#W32($9950)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $9954 - STRING #13 @ $9D47
+#W32($9954)
+//モンスターたちは[NLINE]
+//こちらの部屋に来そうにない。[NLINE]
+//全員がこちらの部屋に退避すれば[NLINE]
+//エレベーターを動かしても大丈夫そうだ。[END-FE]
+The monsters are unlikely to enter[NLINE]
+that room. After everyone made their[NLINE]
+way to it, it should be safe to operate[NLINE]
+the elavator.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $9958 - STRING #14 @ $9DC0
+#W32($9958)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the elevator[NLINE]
+during battle.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $995C - STRING #15 @ $9DED
+#W32($995C)
+//　[NLINE]
+//転送用の魔法陣がある。[END-FE]
+[NLINE]
+It's a magic circle used for transferring.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $9960 - STRING #16 @ $9E0A
+#W32($9960)
+//魔法陣を使用しますか？[END-FE]
+Will you use the magic circle?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $9964 - STRING #17 @ $9E23
+#W32($9964)
+//　[NLINE]
+//スイッチはロックされているようだ。[END-FE]
+[NLINE]
+The switch seems to be locked.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $9968 - STRING #18 @ $9E4C
+#W32($9968)
+//　[NLINE]
+//スイッチはロックされているようだ。[END-FE]
+[NLINE]
+The switch seems to be locked.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $996C - STRING #19 @ $9E75
+#W32($996C)
+//　[NLINE]
+//不思議な力ではじき出された！[END-FE]
+[NLINE]
+You were forced out by a mysterious power.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $9970 - STRING #20 @ $9E98
+#W32($9970)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the elevator[NLINE]
+during battle.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $9974 - STRING #21 @ $9EC5
+#W32($9974)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the elevator[NLINE]
+during battle.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $9978 - STRING #22 @ $9EF2
+#W32($9978)
+//穴から下の階に降りられそうだ。[NLINE]
+//降りますか？[END-FE]
+It looks like this hole leads to a lower level.[NLINE]
+Drop down?[END-FE]
+
+
+
+
+
+//POINTER #23 @ $997C - STRING #23 @ $9F21
+#W32($997C)
+//スイッチは[NLINE]
+//奥に押し込まれている。[END-FE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $9980 - STRING #24 @ $9F46
+#W32($9980)
+//スイッチがあります。[NLINE]
+//押してみますか？[END-FE]
+It's a switch. Will you[NLINE]
+try pressing it?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $9984 - STRING #25 @ $9F6F
+#W32($9984)
+//　[NLINE]
+//今はそれどころではない。[END-FE]
+[NLINE]
+That's out of the question right now.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $9988 - STRING #26 @ $9F8E
+#W32($9988)
+//　[NLINE]
+//スイッチは故障しているようだ。[END-FE]
+[NLINE]
+The switch seems to be out of order.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $998C - STRING #27 @ $9FB3
+#W32($998C)
+//　[NLINE]
+//スイッチは故障しているようだ。[END-FE]
+[NLINE]
+The switch seems to be out of order.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $9990 - STRING #28 @ $9FD8
+#W32($9990)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $9994 - STRING #29 @ $9FF3
+#W32($9994)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $9998 - STRING #30 @ $A00E
+#W32($9998)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $999C - STRING #31 @ $A029
+#W32($999C)
+//　[NLINE]
+//赤扉が閉まっている。[END-FE]
+[NLINE]
+The red door is closed.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $99A0 - STRING #32 @ $A044
+#W32($99A0)
+//扉は閉じられている。[NLINE]
+//どこかに仕掛でもあるのだろうか。[END-FE]
+The door is closed.[NLINE]
+Could there be a mechanism somewhere?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $99A4 - STRING #33 @ $A07D
+#W32($99A4)
+//モンスターに弾き出された！[END-FE]
+You were forced out by a monster![END-FE]
+
+
+
+
+
+//POINTER #34 @ $99A8 - STRING #34 @ $A09A
+#W32($99A8)
+//モンスターに弾き出された！[END-FE]
+You were forced out by a monster![END-FE]
+
+
+
+
+
+//POINTER #35 @ $99AC - STRING #35 @ $A0B7
+#W32($99AC)
+//モンスターに弾き出された！[END-FE]
+You were forced out by a monster![END-FE]
+
+
+
+
+
+//POINTER #36 @ $99B0 - STRING #36 @ $A0D4
+#W32($99B0)
+//モンスターに弾き出された！[END-FE]
+You were forced out by a monster![END-FE]
+
+
+
+
+
+//POINTER #37 @ $99B4 - STRING #37 @ $A0F1
+#W32($99B4)
+//スイッチがあります。[NLINE]
+//押しますか？[END-FE]
+It's a switch.[NLINE]
+Will you press it?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $99B8 - STRING #38 @ $A116
+#W32($99B8)
+//　[NLINE]
+//スイッチは押されている。[END-FE]
+[NLINE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $99BC - STRING #39 @ $A135
+#W32($99BC)
+//スイッチがあります。[NLINE]
+//押しますか？[END-FE]
+It's a switch.[NLINE]
+Will you press it?[END-FE]
+
+
+
+
+//POINTER #40 @ $99C0 - STRING #40 @ $A15A
+#W32($99C0)
+//　[NLINE]
+//スイッチは押されている。[END-FE]
+[NLINE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $99C4 - STRING #41 @ $A179
+#W32($99C4)
+//スイッチがあります。[NLINE]
+//押しますか？[END-FE]
+It's a switch.[NLINE]
+Will you press it?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $99C8 - STRING #42 @ $A19E
+#W32($99C8)
+//　[NLINE]
+//スイッチは押されている。[END-FE]
+[NLINE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $99CC - STRING #43 @ $A1BD
+#W32($99CC)
+//スイッチがあります。[NLINE]
+//押しますか？[END-FE]
+It's a switch.[NLINE]
+Will you press it?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $99D0 - STRING #44 @ $A1E2
+#W32($99D0)
+//　[NLINE]
+//スイッチは押されている。[END-FE]
+[NLINE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $99D4 - STRING #45 @ $A201
+#W32($99D4)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the[NLINE]
+elevator during battle.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $99D8 - STRING #46 @ $A22E
+#W32($99D8)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the[NLINE]
+elevator during battle.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $99DC - STRING #47 @ $A25B
+#W32($99DC)
+//スイッチは[NLINE]
+//奥に押し込まれている。[END-FE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $99E0 - STRING #48 @ $A280
+#W32($99E0)
+//スイッチがあります。[NLINE]
+//押してみますか？[END-FE]
+It's a switch.[NLINE]
+Will you try pressing it?[END-FE]
+
+
+
+
+
+//POINTER #49 @ $99E4 - STRING #49 @ $A2A9
+#W32($99E4)
+//　[NLINE]
+//今はそれどころではない。[END-FE]
+[NLINE]
+That's out of the question right now.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $99E8 - STRING #50 @ $A2C8
+#W32($99E8)
+//スイッチがあります。[NLINE]
+//押してみますか？[END-FE]
+It's a switch.[NLINE]
+Will you try pressing it?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $99EC - STRING #51 @ $A2F1
+#W32($99EC)
+//　[NLINE]
+//何も起こらなかった。[END-FE]
+[NLINE]
+Nothing happened.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $99F0 - STRING #52 @ $A30C
+#W32($99F0)
+//宝箱から汎用防具出してますが、[NLINE]
+//バランス悪げなら言ってください。[END-FE]
+I took general-purpose armor[NLINE]
+from the treasure box. Please[NLINE]
+tell me if it's a bad combination.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $99F4 - STRING #53 @ $A34F
+#W32($99F4)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $99F8 - STRING #54 @ $A36A
+#W32($99F8)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $99FC - STRING #55 @ $A385
+#W32($99FC)
+//　[NLINE]
+//赤扉が閉まっている。[END-FE]
+[NLINE]
+The red door is closed.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $9A00 - STRING #56 @ $A3A0
+#W32($9A00)
+//　[NLINE]
+//赤扉が閉まっている。[END-FE]
+[NLINE]
+The red door is closed.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $9A04 - STRING #57 @ $A3BB
+#W32($9A04)
+//　[NLINE]
+//扉は内側から閉められている。[END-FE]
+[NLINE]
+The door is closed from the inside.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $9A08 - STRING #58 @ $A3DE
+#W32($9A08)
+//　[NLINE]
+//扉は内側から閉められている。[END-FE]
+[NLINE]
+The door is closed from the inside.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $9A0C - STRING #59 @ $A401
+#W32($9A0C)
+//　[NLINE]
+//扉は内側から閉められている。[END-FE]
+[NLINE]
+The door is closed from the inside.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $9A10 - STRING #60 @ $A424
+#W32($9A10)
+//　[NLINE]
+//扉は内側から閉められている。[END-FE]
+[NLINE]
+The door is closed from the inside.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $9A14 - STRING #61 @ $A447
+#W32($9A14)
+//扉は閉ざされている。[NLINE]
+//どこかに開けるための[NLINE]
+//仕掛があるのだろうか。[END-FE]
+The door is closed. Could[NLINE]
+there be a mechanism somewhere[NLINE]
+that opens it?[END-FE]
+
+
+
+
+
+//POINTER #62 @ $9A18 - STRING #62 @ $A48C
+#W32($9A18)
+//魔法赤[END-FE]
+魔法赤[END-FE]
+
+
+
+
+
+//POINTER #63 @ $9A1C - STRING #63 @ $A495
+#W32($9A1C)
+//魔法緑[END-FE]
+魔法緑[END-FE]
+
+
+
+
+
+//POINTER #64 @ $9A20 - STRING #64 @ $A49E
+#W32($9A20)
+//魔法聖[END-FE]
+魔法聖[END-FE]
+
+
+
+
+
+//POINTER #65 @ $9A24 - STRING #65 @ $A4A7
+#W32($9A24)
+//魔法青[END-FE]
+魔法青[END-FE]
+
+
+
+
+
+//POINTER #66 @ $9A28 - STRING #66 @ $A4B0
+#W32($9A28)
+//赤点灯[END-FE]
+赤点灯[END-FE]
+
+
+
+
+
+//POINTER #67 @ $9A2C - STRING #67 @ $A4B9
+#W32($9A2C)
+//赤消灯[END-FE]
+赤消灯[END-FE]
+
+
+
+
+
+//POINTER #68 @ $9A30 - STRING #68 @ $A4C2
+#W32($9A30)
+//緑点灯[END-FE]
+緑点灯[END-FE]
+
+
+
+
+
+//POINTER #69 @ $9A34 - STRING #69 @ $A4CB
+#W32($9A34)
+//緑消灯[END-FE]
+緑消灯[END-FE]
+
+
+
+
+
+//POINTER #70 @ $9A38 - STRING #70 @ $A4D4
+#W32($9A38)
+//貴点灯[END-FE]
+貴点灯[END-FE]
+
+
+
+
+
+//POINTER #71 @ $9A3C - STRING #71 @ $A4DD
+#W32($9A3C)
+//貴消灯[END-FE]
+貴消灯[END-FE]
+
+
+
+
+
+//POINTER #72 @ $9A40 - STRING #72 @ $A4E6
+#W32($9A40)
+//青点灯[END-FE]
+青点灯[END-FE]
+
+
+
+
+
+//POINTER #73 @ $9A44 - STRING #73 @ $A4EF
+#W32($9A44)
+//青消灯[END-FE]
+青消灯[END-FE]
+
+
+
+
+
+//POINTER #74 @ $9A48 - STRING #74 @ $A4F8
+#W32($9A48)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the[NLINE]
+elevator during battle.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $9A4C - STRING #75 @ $A525
+#W32($9A4C)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the[NLINE]
+elevator during battle.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $9A50 - STRING #76 @ $A552
+#W32($9A50)
+//スイッチは[NLINE]
+//奥に押し込まれている。[END-FE]
+The switch has been pressed.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $9A54 - STRING #77 @ $A577
+#W32($9A54)
+//スイッチがあります。[NLINE]
+//押してみますか？[END-FE]
+It's a switch.[NLINE]
+Will you try pressing it?[END-FE]
+
+
+
+
+
+//POINTER #78 @ $9A58 - STRING #78 @ $A5A0
+#W32($9A58)
+//　[NLINE]
+//今はそれどころではない。[END-FE]
+[NLINE]
+That's out of the question right now.[END-FE]
+
+
+
+
+
+//POINTER #79 @ $9A5C - STRING #79 @ $A5BF
+#W32($9A5C)
+//　[NLINE]
+//スイッチは故障しているようだ。[END-FE]
+[NLINE]
+The switch seems to be out of order.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $9A60 - STRING #80 @ $A5E4
+#W32($9A60)
+//　[NLINE]
+//スイッチは故障しているようだ。[END-FE]
+[NLINE]
+The switch seems to be out of order.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $9A64 - STRING #81 @ $A609
+#W32($9A64)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $9A68 - STRING #82 @ $A624
+#W32($9A68)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $9A6C - STRING #83 @ $A63F
+#W32($9A6C)
+//　[NLINE]
+//緑扉が閉まっている。[END-FE]
+[NLINE]
+The green door is closed.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $9A70 - STRING #84 @ $A65A
+#W32($9A70)
+//　[NLINE]
+//赤扉が閉まっている。[END-FE]
+[NLINE]
+The red door is closed.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $9A74 - STRING #85 @ $A675
+#W32($9A74)
+//扉は閉まっている。[NLINE]
+//周りのオーブと何か[NLINE]
+//関係しているのだろうか。[END-FE]
+The door is closed.[NLINE]
+Could it be related to the[NLINE]
+surrounding orbs?[END-FE]
+
+
+
+
+
+//POINTER #86 @ $9A78 - STRING #86 @ $A6B8
+#W32($9A78)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the[NLINE]
+elevator during battle.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $9A7C - STRING #87 @ $A6E5
+#W32($9A7C)
+//交戦中にエレベーターを[NLINE]
+//動かすのは危険だ。[END-FE]
+It's dangerous to operate the[NLINE]
+elevator during battle.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $9A80 - STRING #88 @ $A712
+#W32($9A80)
+//　[NLINE]
+//穴が開いている。[NLINE]
+//落ちては危険だ。[NLINE]
+//　[END-FE]
+[NLINE]
+There's a hole.[NLINE]
+Dropping down is dangerous.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #89 @ $9A84 - STRING #89 @ $A73F
+#W32($9A84)
+//　[NLINE]
+//転送用の魔法陣がある。[END-FE]
+[NLINE]
+It's a magic circle used for transferring.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $9A88 - STRING #90 @ $A75C
+#W32($9A88)
+//魔法陣を使用しますか？[END-FE]
+Will you use the magic circle?[END-FE]
+
+
+
+
+
+//POINTER #91 @ $9A8C - STRING #91 @ $A775
+#W32($9A8C)
+//　[NLINE]
+//転送用の魔法陣がある。[END-FE]
+[NLINE]
+It's a magic circle used for transferring.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $9A90 - STRING #92 @ $A792
+#W32($9A90)
+//魔法陣を使用しますか？[END-FE]
+Will you use the magic circle?[END-FE]
+
+
+
+
+
+//POINTER #93 @ $9A94 - STRING #93 @ $A7AB
+#W32($9A94)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #94 @ $9A98 - STRING #94 @ $A7C2
+#W32($9A98)
+//自動Ｄ　ＥＢ０３＿１前[END-FE]
+自動Ｄ　ＥＢ０３＿１前[END-FE]
+
+
+
+
+
+//POINTER #95 @ $9A9C - STRING #95 @ $A7DB
+#W32($9A9C)
+//クリスタルが[NLINE]
+//はめこまれている。[END-FE]
+Crystals are inlaid in the wall.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $9AA0 - STRING #96 @ $A7FE
+#W32($9AA0)
+//　[NLINE]
+//スイッチはロックされているようだ。[END-FE]
+[NLINE]
+The switch seems to be locked.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $9AA4 - STRING #97 @ $A827
+#W32($9AA4)
+//　[NLINE]
+//スイッチはロックされているようだ。[END-FE]
+[NLINE]
+The switch seems to be locked.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $9AA8 - STRING #98 @ $A850
+#W32($9AA8)
+//うわ……[END-FE]
+Uwaa...[END-FE]
+
+
+
+
+
+//POINTER #99 @ $9AAC - STRING #99 @ $A85B
+#W32($9AAC)
+//な、なんだよアレ！[NLINE]
+//スクリーパー？[END-FE]
+W-what are those thing?[NLINE]
+Screapers?[END-FE]
+
+
+
+
+
+//POINTER #100 @ $9AB0 - STRING #100 @ $A880
+#W32($9AB0)
+//ナイト級のスクリーパーです。[NLINE]
+//まだ生き残りがいるんですね…。[NWIN]
+//
+//気づかれないうちに、[NLINE]
+//お逃げになった方が[NLINE]
+//よろしいかと。[END-FE]
+Those are Knight Screapers.[NLINE]
+So some of them have survived...[NWIN]
+
+It might be better to not let them[NLINE]
+notice us and run away.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $9AB4 - STRING #101 @ $A8F9
+#W32($9AB4)
+//　[NLINE]
+//転送用の魔法陣がある。[END-FE]
+　[NLINE]
+It's a magic circle used for transferring.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $9AB8 - STRING #102 @ $A916
+#W32($9AB8)
+//魔法陣を使用しますか？[END-FE]
+Will you use the magic circle?[END-FE]
+
+
+
+
+
+//POINTER #103 @ $9ABC - STRING #103 @ $A92F
+#W32($9ABC)
+//　[NLINE]
+//今はそれどころではない！[END-FE]
+　[NLINE]
+That's out of the question right now![END-FE]
+
+
+
+
+
+//POINTER #104 @ $9AC0 - STRING #104 @ $A94E
+#W32($9AC0)
+//銅の鷲が置かれている。[END-FE]
+It's a copper statue of an eagle.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $9AC4 - STRING #105 @ $A967
+#W32($9AC4)
+//金の鷲が置かれている。[END-FE]
+It's a golden statue of an eagle.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $9AC8 - STRING #106 @ $A980
+#W32($9AC8)
+//銀の鷲が置かれている。[END-FE]
+It's a silver statue of an eagle.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $9ACC - STRING #107 @ $A999
+#W32($9ACC)
+//十二面体の結晶が[NLINE]
+//くぼみにはまっている。[END-FE]
+Crystals with a dodecahedron shape[NLINE]
+are embedded inside the cavity.[END-FE]
+
+
+
+
+
+//POINTER #108 @ $9AD0 - STRING #108 @ $A9C4
+#W32($9AD0)
+//十二面体の結晶が[NLINE]
+//くぼみにはまっている。[END-FE]
+Crystals with a dodecahedron shape[NLINE]
+are embedded inside the cavity.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $9AD4 - STRING #109 @ $A9EF
+#W32($9AD4)
+//十二面体の結晶が[NLINE]
+//くぼみにはまっている。[END-FE]
+Crystals with a dodecahedron shape[NLINE]
+are embedded inside the cavity.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $9AD8 - STRING #110 @ $AA1A
+#W32($9AD8)
+//十二面体の結晶が[NLINE]
+//くぼみにはまっている。[END-FE]
+Crystals with a dodecahedron shape[NLINE]
+are embedded inside the cavity.[END-FE]
+
+
+
+
+
+//POINTER #111 @ $9ADC - STRING #111 @ $AA45
+#W32($9ADC)
+//[CHAR2300][V0000]
+//シュヴァイツァー様、ありました！[NLINE]
+//センサーが振り切れています！[END-FE]
+[CHAR2300][V0000]
+Captain Shuweizer, it's here![NLINE]
+The sensor is vibrating![END-FE]
+
+
+
+
+
+//POINTER #112 @ $9AE0 - STRING #112 @ $AA8E
+#W32($9AE0)
+//[CHAR2300][V0100]
+//ほう、これが龍玉か…。[NWIN]
+//
+//[CHAR2300][V0200]
+//なるほど、たいした魔力だ。[NLINE]
+//親父が探しているのはこれに違いないだろう。[NWIN]
+//
+//[CHAR2300][V0300]
+//これがあれば、あの[COL01]アドモニッシャー[COL00]って奴を[NLINE]
+//動かせるんだな？[END-FE]
+[CHAR2300][V0100]
+Heh. So this is the Dragon Orb...[NWIN]
+
+[CHAR2300][V0200]
+I see. It possesses vast amounts of[NLINE]
+magical power. This must be the object[NLINE]
+my father is looking for.[NWIN]
+
+[CHAR2300][V0300]
+Could we activate that device they call[NLINE]
+the [COL01]Admonisher[COL00] with this?[END-FE]
+
+
+
+
+
+//POINTER #113 @ $9AE4 - STRING #113 @ $AB4B
+#W32($9AE4)
+//[CHAR2300][V0400]
+//よし、帰還するぞ。[END-FE]
+[CHAR2300][V0400]
+Alright, let's return.[END-FE]
+
+
+
+
+
+//POINTER #114 @ $9AE8 - STRING #114 @ $AB68
+#W32($9AE8)
+//[CHAR2300][V0500]
+//その龍玉をおいていけ！[END-FE]
+[CHAR2300][V0500]
+Get your hands off the Dragon Orb![END-FE]
+
+
+
+
+
+//POINTER #115 @ $9AEC - STRING #115 @ $AB89
+#W32($9AEC)
+//[CHAR2300][V0600]
+//ちっ！[NLINE]
+//もうここを嗅ぎつけたか！[END-FE]
+[CHAR2300][V0600]
+Tch![NLINE]
+They've already tracked us down![END-FE]
+
+
+
+
+
+//POINTER #116 @ $9AF0 - STRING #116 @ $ABB4
+#W32($9AF0)
+//[CHAR2300][V0700]
+//シュヴァイツァー様、[NLINE]
+//ここは我々が食い止めます！[NLINE]
+//お先にどうぞ！[END-FE]
+[CHAR2300][V0700]
+Captain Shuweizer, we will[NLINE]
+hold them off! Please[NLINE]
+go ahead![END-FE]
+
+
+
+
+
+//POINTER #117 @ $9AF4 - STRING #117 @ $ABFF
+#W32($9AF4)
+//[CHAR2300][V0800]
+//頼むぜ！[END-FE]
+[CHAR2300][V0800]
+I'm counting on you![END-FE]
+
+
+
+
+
+//POINTER #118 @ $9AF8 - STRING #118 @ $AC12
+#W32($9AF8)
+//[CHAR2300][V0900]
+//逃がすか！[END-FE]
+[CHAR2300][V0900]
+He's running away![END-FE]
+
+
+
+
+
+//POINTER #119 @ $9AFC - STRING #119 @ $AC27
+#W32($9AFC)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #120 @ $9B00 - STRING #120 @ $AC34
+#W32($9B00)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #121 @ $9B04 - STRING #121 @ $AC49
+#W32($9B04)
+//　[NLINE]
+//転送用の魔法陣がある。[END-FE]
+[NLINE]
+It's a magic circle used for transferring.[END-FE]
+
+
+
+
+
+//POINTER #122 @ $9B08 - STRING #122 @ $AC66
+#W32($9B08)
+//魔法陣を使用しますか？[END-FE]
+Will you use the magic circle?[END-FE]
+
+
+
+
+
+//POINTER #123 @ $9B0C - STRING #123 @ $AC7F
+#W32($9B0C)
+//　[NLINE]
+//今は戦わないと！[END-FE]
+[NLINE]
+We must fight now![END-FE]
+
+
+
+
+
+//POINTER #124 @ $9B10 - STRING #124 @ $AC96
+#W32($9B10)
+//　[NLINE]
+//センサーの反応値が振り切れている！[NLINE]
+//[END-FE]
+[NLINE]
+The sensor is receiving a strong signal![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #125 @ $9B14 - STRING #125 @ $ACC1
+#W32($9B14)
+//　[NLINE]
+//センサーの反応値は１００に満たないようだ…。[NLINE]
+//[END-FE]
+[NLINE]
+It seems the value of the signal is more[NLINE]
+than hundred...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #126 @ $9B18 - STRING #126 @ $ACF6
+#W32($9B18)
+//銅の鷲が置かれている。[END-FE]
+It's a copper statue of an eagle.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $9B1C - STRING #127 @ $AD0F
+#W32($9B1C)
+//金の鷲が置かれている。[END-FE]
+It's a golden statue of an eagle.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $9B20 - STRING #128 @ $AD28
+#W32($9B20)
+//銀の鷲が置かれている。[END-FE]
+It's a silver statue of an eagle.[END-FE]
+
+
+
+
+
+//POINTER #129 @ $9B24 - STRING #129 @ $AD41
+#W32($9B24)
+//[CHAR2300][V0C00]
+//彼はアドモニッシャーを[NLINE]
+//動かすと言っていました。[NLINE]
+//もしあれが悪用されたら…。[END-FE]
+[CHAR2300][V0C00]
+He talked about activating[NLINE]
+the Admonisher. If that device[NLINE]
+were to be misused...[END-FE]
+
+
+
+
+
+//POINTER #130 @ $9B28 - STRING #130 @ $AD98
+#W32($9B28)
+//[CHAR2300][V0D00]
+//早く追いましょう！[END-FE]
+[CHAR2300][V0D00]
+Let's go after him quickly![END-FE]
+
+
+
+
+
+//POINTER #131 @ $9B2C - STRING #131 @ $ADB5
+#W32($9B2C)
+//[CHAR2300][V0A00]
+//じゃあな！[END-FE]
+[CHAR2300][V0A00]
+Take care of yourselves![END-FE]
+
+
+
+
+
+//POINTER #132 @ $9B30 - STRING #132 @ $ADCA
+#W32($9B30)
+//[CHAR2300][V0B00]
+//ああっ、逃げられてしまいました！[END-FE]
+[CHAR2300][V0B00]
+Ah, he got away![END-FE]
+
+
+
+
+
+//POINTER #133 @ $9B34 - STRING #133 @ $ADF5
+#W32($9B34)
+//見たか！[NLINE]
+//我がいやしの技を！[END-FE]
+Did you you get a good look[NLINE]
+at our healing technique!?[END-FE]
+
+
+
+
+
+//POINTER #134 @ $9B38 - STRING #134 @ $AE14
+#W32($9B38)
+//敵は少数ですが、[NLINE]
+//僧兵が二人がかりで支援しています！[NLINE]
+//気をつけてください！[END-FE]
+The enemy has few numbers, but[NLINE]
+two healers are supporting them![NLINE]
+Please be careful![END-FE]
+
+
+
+
+
+//POINTER #135 @ $9B3C - STRING #135 @ $AE61
+#W32($9B3C)
+//なっ…！[NLINE]
+//後ろからモンスターが！[END-FE]
+What...!?[NLINE]
+Monsters appeared from behind![END-FE]
+
+
+
+
+
+//POINTER #136 @ $9B40 - STRING #136 @ $AE84
+#W32($9B40)
+//魔法生物です！[NLINE]
+//人間の気配を追ってきたんですね。[END-FE]
+Those are magical creatures![NLINE]
+They noticed the presence of humans[NLINE]
+and came after us![END-FE]
+
+
+
+
+
+//POINTER #137 @ $9B44 - STRING #137 @ $AEB7
+#W32($9B44)
+//しめた！[NLINE]
+//挟み撃ちにしてやれ！[END-FE]
+Tch! Attack them from two sides![END-FE]
+
+
+
+
+
+//POINTER #138 @ $9B48 - STRING #138 @ $AED8
+#W32($9B48)
+//　[NLINE]
+//魔法陣が一瞬輝きかけたが、静かになった。[NLINE]
+//　[END-FE]
+[NLINE]
+The magic circle shined briefly for[NLINE]
+a moment but then faded.[END-FE]
+
+
+
+
+
+
+//POINTER #139 @ $9B4C - STRING #139 @ $AF0B
+#W32($9B4C)
+//？[NLINE]
+//なんでしょう？[END-FE]
+Hmm?[NLINE]
+What was that?[END-FE]
+
+
+
+
+
+//POINTER #140 @ $9B50 - STRING #140 @ $AF20
+#W32($9B50)
+//なっ…！[NLINE]
+//あんなところからモンスターが！[END-FE]
+What...!?[NLINE]
+Monsters appeared from behind![END-FE]
+
+
+
+
+
+//POINTER #141 @ $9B54 - STRING #141 @ $AF4B
+#W32($9B54)
+//魔法生物です！[NLINE]
+//人間の気配を追ってきたんですね。[END-FE]
+Those are magical creatures![NLINE]
+They noticed the presence of humans[NLINE]
+and came after us![END-FE]
+
+
+
+
+
+//POINTER #142 @ $9B58 - STRING #142 @ $AF7E
+#W32($9B58)
+//チィ！[NLINE]
+//余計なところに！[END-FE]
+Tsk! Another problem to deal with![END-FE]
+
+
+
+
+
+//POINTER #143 @ $9B5C - STRING #143 @ $AF99
+#W32($9B5C)
+//何階へ行きますか？[END-FE]
+Which floor will you go to?[END-FE]
+
+
+
+
+
+//POINTER #144 @ $9B60 - STRING #144 @ $AFAE
+#W32($9B60)
+//・５Ｆ[END-FE]
+・５Ｆ[END-FE]
+
+
+
+
+
+//POINTER #145 @ $9B64 - STRING #145 @ $AFB7
+#W32($9B64)
+//・４Ｆ[END-FE]
+・４Ｆ[END-FE]
+
+
+
+
+
+//POINTER #146 @ $9B68 - STRING #146 @ $AFC0
+#W32($9B68)
+//・３Ｆ[END-FE]
+・３Ｆ[END-FE]
+
+
+
+
+
+//POINTER #147 @ $9B6C - STRING #147 @ $AFC9
+#W32($9B6C)
+//・２Ｆ[END-FE]
+・２Ｆ[END-FE]
+
+
+
+
+
+//POINTER #148 @ $9B70 - STRING #148 @ $AFD2
+#W32($9B70)
+//・１Ｆ[END-FE]
+・１Ｆ[END-FE]
+
+
+
+
+
+//POINTER #149 @ $9B74 - STRING #149 @ $AFDB
+#W32($9B74)
+//・エレベーターを降りる。[END-FE]
+・Get off the elevator[END-FE]
+
+
+
+
+
+//POINTER #150 @ $9B78 - STRING #150 @ $AFF6
+#W32($9B78)
+//右エレベーターから出現[END-FE]
+右エレベーターから出現[END-FE]
+
+
+
+
+
+//POINTER #151 @ $9B7C - STRING #151 @ $B00F
+#W32($9B7C)
+//左エレベーターから出現[END-FE]
+左エレベーターから出現[END-FE]
+
+
+
+
+
+//POINTER #152 @ $9B80 - STRING #152 @ $B028
+#W32($9B80)
+//エレベーターを使わずに出現[END-FE]
+エレベーターを使わずに出現[END-FE]
+
+
+
+
+
+//POINTER #153 @ $9B84 - STRING #153 @ $B045
+#W32($9B84)
+//　[NLINE]
+//魔法の力が、かき消された……[END-FE]
+　[NLINE]
+Its magical power has vanished...[END-FE]
+
+
+
+
+
+//POINTER #154 @ $9B88 - STRING #154 @ $B068
+#W32($9B88)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #155 @ $9B8C - STRING #155 @ $B07F
+#W32($9B8C)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #156 @ $9B90 - STRING #156 @ $B08E
+#W32($9B90)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #157 @ $9B94 - STRING #157 @ $B09D
+#W32($9B94)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #158 @ $9B98 - STRING #158 @ $B0B2
+#W32($9B98)
+//Ｄ　Ｄ９[END-FE]
+D D9[END-FE]
+
+
+
+

@@ -1,0 +1,1697 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $6F30, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $6D20, 4, PTR)
+
+#JMP($6F30)
+#HDR($6F30)
+
+
+
+
+
+//POINTER #0 @ $6D20 - STRING #0 @ $6F30
+#W32($6D20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $6D24 - STRING #1 @ $6F33
+#W32($6D24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $6D28 - STRING #2 @ $6F40
+#W32($6D28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $6D2C - STRING #3 @ $6F65
+#W32($6D2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $6D30 - STRING #4 @ $6F8A
+#W32($6D30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $6D34 - STRING #5 @ $6F9F
+#W32($6D34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $6D38 - STRING #6 @ $6FC4
+#W32($6D38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $6D3C - STRING #7 @ $6FE9
+#W32($6D3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $6D40 - STRING #8 @ $701E
+#W32($6D40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $6D44 - STRING #9 @ $7053
+#W32($6D44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $6D48 - STRING #10 @ $7078
+#W32($6D48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $6D4C - STRING #11 @ $709D
+#W32($6D4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $6D50 - STRING #12 @ $70C2
+#W32($6D50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $6D54 - STRING #13 @ $70D7
+#W32($6D54)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $6D58 - STRING #14 @ $70FA
+#W32($6D58)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $6D5C - STRING #15 @ $711D
+#W32($6D5C)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $6D60 - STRING #16 @ $7140
+#W32($6D60)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $6D64 - STRING #17 @ $7163
+#W32($6D64)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $6D68 - STRING #18 @ $7186
+#W32($6D68)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $6D6C - STRING #19 @ $71A9
+#W32($6D6C)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $6D70 - STRING #20 @ $71CC
+#W32($6D70)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $6D74 - STRING #21 @ $71EF
+#W32($6D74)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $6D78 - STRING #22 @ $7212
+#W32($6D78)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $6D7C - STRING #23 @ $7235
+#W32($6D7C)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $6D80 - STRING #24 @ $7258
+#W32($6D80)
+//扉は内側から[NLINE]
+//ロックされている。[END-FE]
+The door is locked from the[NLINE]
+inside.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $6D84 - STRING #25 @ $727B
+#W32($6D84)
+//[CHAR2900][V0500]
+//それじゃ、作戦を聞こうか？[END-FE]
+[CHAR2900][V0500]
+Alright, let's hear the strategy.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $6D88 - STRING #26 @ $72A0
+#W32($6D88)
+//いきなり山頂？[END-FE]
+いきなり山頂？[END-FE]
+
+
+
+
+
+//POINTER #27 @ $6D8C - STRING #27 @ $72B1
+#W32($6D8C)
+//[CHAR2900][V0600]
+//この山は鉱山であると同時に、[NLINE]
+//ヒンギスタン王国の砦でもあった。[NWIN]
+//
+//[CHAR2900][V0700]
+//おそらくそれが採掘量の少ない[NLINE]
+//この山にこだわる理由だと思う。[NWIN]
+//
+//[CHAR2900][V0800]
+//そしてこの山の司令官ウェルバーが[NLINE]
+//私を陥れた張本人だ。[NWIN]
+//
+//[CHAR2900][V0900]
+//補給部隊の隊長が、前線基地の司令を兼任。[NLINE]
+//私に罪を着せ、その手柄で昇進したんだ。[NWIN]
+//
+//[CHAR2900][V0A00]
+//だから私が姿を見せれば、[NLINE]
+//私を捕えようと追ってくると思う。[END-FE]
+[CHAR2900][V0600]
+This mountain is both a mine and[NLINE]
+and a Hingistani fortress.[NWIN]
+
+[CHAR2900][V0700]
+I think that's the reason why[NLINE]
+Fomeros troops linger here despite[NLINE]
+their being not much left to be mined.[NWIN]
+
+[CHAR2900][V0800]
+The commander here, Wellber, is[NLINE]
+the one who framed me.[NWIN]
+
+[CHAR2900][V0900]
+He's the captain of the supply corps,[NLINE]
+but also doubles as the commander[NLINE]
+of this outpost. His actions towards[NLINE]
+me caused him to be promoted.[NWIN]
+
+[CHAR2900][V0A00]
+That's why I think he'll try to[NLINE]
+capture me if I were to show up.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $6D90 - STRING #28 @ $741E
+#W32($6D90)
+//[CHAR2900][V0B00]
+//ご自分をオトリになさる[NLINE]
+//おつもりですか？[END-FE]
+[CHAR2900][V0B00]
+You intend to set yourself up[NLINE]
+as bait?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $6D94 - STRING #29 @ $7451
+#W32($6D94)
+//[CHAR2900][V0C00]
+//他にいい方法が思いつかなくてね。[NWIN]
+//
+//[CH.FACE:Serious][CHAR2900][V0D00]
+//とにかく、ここの司令官は[NLINE]
+//絶対に私を捕えようとする。[NLINE]
+//これは間違いない。[NWIN]
+//
+//[CHAR2900][V0E00]
+//そしてあの男の性格からして、[NLINE]
+//全力で追手を差し向ける。[END-FE]
+[CHAR2900][V0C00]
+I can't think of any other way.[NWIN]
+
+[CH.FACE:Serious][CHAR2900][V0D00]
+In any case, Welber will[NLINE]
+absolutely try to capture me.[NLINE]
+There's no doubt about that.[NWIN]
+
+[CHAR2900][V0E00]
+And knowing him, he will dispatch[NLINE]
+all his troops to pursue me.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $6D98 - STRING #30 @ $7512
+#W32($6D98)
+//[CHAR2900][V0F00]
+//つまり、アンタを頂上の砦まで連れて行き、[NLINE]
+//敵兵が食いついてきたら全力で山を降りる。[NLINE]
+//それにつられてフォメロス国兵が[NLINE]
+//砦から離れれば、被害を減らせる。[END-FE]
+[CHAR2900][V0F00]
+In other words, we'll take you to[NLINE]
+the fortress at the top, and[NLINE]
+then descend the mountain as quickly[NLINE]
+as we can after the soldiers took the[NLINE]
+bait. That way, we'll make the Fomeros[NLINE]
+soldiers move away from the fort and[NLINE]
+thereby reduce the number of casualties.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $6D9C - STRING #31 @ $75B1
+#W32($6D9C)
+//[CHAR2900][V1000]
+//ああ、うまく行けば[NLINE]
+//砲撃もされないと思う。[END-FE]
+[CHAR2900][V1000]
+Yes, if it goes well, I don't[NLINE]
+think the mountain will get blasted.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $6DA0 - STRING #32 @ $75E6
+#W32($6DA0)
+//[CHAR2900][V1100]
+//それは、どうしてだ？[END-FE]
+[CHAR2900][V1100]
+Why do you think so?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $6DA4 - STRING #33 @ $7605
+#W32($6DA4)
+//・根拠はない[END-FE]
+・There's no reason to think that[END-FE]
+
+
+
+
+
+//POINTER #34 @ $6DA8 - STRING #34 @ $7614
+#W32($6DA8)
+//・少数の兵に砲撃はムダ[END-FE]
+・It's pointless to fire a blast[NLINE]
+   if there are very few soldiers[END-FE]
+
+
+
+
+
+//POINTER #35 @ $6DAC - STRING #35 @ $762D
+#W32($6DAC)
+//・わからない[END-FE]
+・I don't know[END-FE]
+
+
+
+
+
+//POINTER #36 @ $6DB0 - STRING #36 @ $763C
+#W32($6DB0)
+//[CHAR2900][V1200]
+//いやあるよ。[NWIN]
+//
+//[CHAR2900][V1300]
+//君はたった一人の子供を黙らせるために[NLINE]
+//大砲を撃つかい？[END-FE]
+[CHAR2900][V1200]
+Actually, there is.[NWIN]
+
+[CHAR2900][V1300]
+Do you get rid of a mere fly by[NLINE]
+blasting it away with a superweapon?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $6DB4 - STRING #37 @ $7693
+#W32($6DB4)
+//[CHAR2900][V1400]
+//つまり、少数の兵に[NLINE]
+//砲撃は見合わないということですね。[END-FE]
+[CHAR2900][V1400]
+In other words, using the Admonisher's[NLINE]
+destructive power on such a small amount[NLINE]
+of soldiers isn't worth the trouble.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $6DB8 - STRING #38 @ $76D4
+#W32($6DB8)
+//[CHAR2900][V1500]
+//その通り！[END-FE]
+[CHAR2900][V1500]
+That's right![END-FE]
+
+
+
+
+
+//POINTER #39 @ $6DBC - STRING #39 @ $76E9
+#W32($6DBC)
+//[CHAR2900][V1600]
+//例えば、[NLINE]
+//君はたった一人の子供を黙らせるために[NLINE]
+//大砲を撃つかい？[END-FE]
+[CHAR2900][V1600]
+For example, imagine getting rid[NLINE]
+of a fly by blasting it away with[NLINE]
+a superweapon.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $6DC0 - STRING #40 @ $7734
+#W32($6DC0)
+//[CHAR2900][V1700]
+//なるほど。[NLINE]
+//少数の兵が相手じゃ、[NLINE]
+//砲撃は無用って事か。[END-FE]
+[CHAR2900][V1700]
+I see.[NLINE]
+So you're saying it would be pointless[NLINE]
+to use the Admonisher's blast against[NLINE]
+such a small amount of soldiers.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $6DC4 - STRING #41 @ $7775
+#W32($6DC4)
+//[CHAR2900][V1800]
+//もちろん、[NLINE]
+//それを判断する者の主観によるから[NLINE]
+//絶対とはいえないけどね。[END-FE]
+[CHAR2900][V1800]
+This is all subjective of course,[NLINE]
+so we can't say for sure.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $6DC8 - STRING #42 @ $77C6
+#W32($6DC8)
+//[CHAR2900][V1900]
+//はっ！[NLINE]
+//みなさん、あれを！[END-FE]
+[CHAR2900][V1900]
+Ah![NLINE]
+Everyone, over there![END-FE]
+
+
+
+
+
+//POINTER #43 @ $6DCC - STRING #43 @ $77EB
+#W32($6DCC)
+//[CHAR2900][V1A00]
+//アドモニッシャーです！[END-FE]
+[CHAR2900][V1A00]
+The Admonisher![END-FE]
+
+
+
+
+
+//POINTER #44 @ $6DD0 - STRING #44 @ $780C
+#W32($6DD0)
+//[CHAR2900][V1B00]
+//時間がないね、[NLINE]
+//急ごう！[END-FE]
+[CHAR2900][V1B00]
+There's no time, let's[NLINE]
+hurry![END-FE]
+
+
+
+
+
+//POINTER #45 @ $6DD4 - STRING #45 @ $782F
+#W32($6DD4)
+//・[MainCharName]が山を登る[END-FE]
+・[MainCharName] reaches the top of the mountain[END-FE]
+
+
+
+
+
+//POINTER #46 @ $6DD8 - STRING #46 @ $7842
+#W32($6DD8)
+//・ホフマンの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #47 @ $6DDC - STRING #47 @ $7869
+#W32($6DDC)
+//頂上の戦闘が終わったことにしますか？[END-FE]
+Will you end the battle at the summit?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $6DE0 - STRING #48 @ $7890
+#W32($6DE0)
+//・下山を完了する[END-FE]
+・Complete mountain descent[END-FE]
+
+
+
+
+
+//POINTER #49 @ $6DE4 - STRING #49 @ $78A3
+#W32($6DE4)
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Defeat more than thirty-four[NLINE]
+ Fomeros soldiers[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #50 @ $6DE8 - STRING #50 @ $78D8
+#W32($6DE8)
+//なぁ、さっき[NLINE]
+//敵を食いつかせるって話をしたが、[NLINE]
+//具体的にどれくらい被害を与えればいいんだ？[END-FE]
+Hey, earlier we've talked about how[NLINE]
+we're going to bait the enemy into[NLINE]
+going after us. But how much of them[NLINE]
+should we defeat?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $6DEC - STRING #51 @ $7935
+#W32($6DEC)
+//この山の兵力を考えると、[NLINE]
+//[COL01]１５人以上３５人未満[COL00]だろう。[NLINE]
+//１５人を超えれば、私たちを脅威と判断して[NLINE]
+//全軍で追ってくるはずだ。[NWIN]
+//
+//だが、３５人以上の被害を出すと、[NLINE]
+//砦の防御自体が手薄になってしまう。[NLINE]
+//そう判断されると、追撃は中止される。[NWIN]
+//
+//しかも山頂での戦いで[NLINE]
+//ウェルバーを引き出すのに、[NLINE]
+//かなりの損害を与える必要があるでしょう。[END-FE]
+Based on the amount of soldiers stationed[NLINE]
+at this mountain, we should aim to defeat[NLINE]
+somewhere between [COL01]fifteen and thirty-four[COL00][NLINE]
+of them. If we defeat more than fifteen,[NLINE]
+they'll judge us to be a threat and[NLINE]
+will go after us with all their might.[NWIN]
+
+However, if we defeat more than thirty-four[NLINE]
+of them, the fortress' defenses will weaken.[NLINE]
+Once Wellber realizes that, he'll put a stop[NLINE]
+to the the pursuit.[NWIN]
+
+Furthermore, we'll have to inflict considerable[NLINE]
+damage to the enemy during the battle at the[NLINE]
+summit to cause Wellber to come out.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $6DF0 - STRING #52 @ $7A80
+#W32($6DF0)
+//それじゃ、ざっくり計算してみよう。[NWIN]
+//
+//倒していいのは３４人までだ。[NLINE]
+//そのうち山頂でウェルバーを誘き出すために[NLINE]
+//１５人は倒す…。[NWIN]
+//
+//となると、山頂までの登り下りで倒すのは[NLINE]
+//合わせて２０人より少なくする[NLINE]
+//必要があるな…。[END-FE]
+Alright, let's do a quick calculation.[NWIN]
+
+We can defeat up to thirty-four soldiers.[NLINE]
+fifteen of those have to be defeated[NLINE]
+in order to lure out Wellber at the[NLINE]
+summit...[NWIN]
+
+Which means that until we reach the summit,[NLINE]
+we can't defeat more than nineteen.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $6DF4 - STRING #53 @ $7B57
+#W32($6DF4)
+//山頂でどれだけの敵と交戦するか[NLINE]
+//正確にはわかりませんが、[NLINE]
+//その考え方は目安になるでしょう。[NWIN]
+//
+//それと、ウェルバーには手出ししない[NLINE]
+//ようにお願いします。[END-FE]
+I don't know exactly how[NLINE]
+many enemies we'll have to[NLINE]
+face at the summit, but let's[NLINE]
+use that as a guideline.[NWIN]
+
+Also, please don't fight[NLINE]
+Wellber.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $6DF8 - STRING #54 @ $7BEE
+#W32($6DF8)
+//アンタの仇だからか？[END-FE]
+Because you want to take care[NLINE]
+of him yourself?[END-FE]
+
+
+
+
+
+//POINTER #55 @ $6DFC - STRING #55 @ $7C05
+#W32($6DFC)
+//そうではなく、司令官が倒されると、[NLINE]
+//態勢を立て直す為に軍は守りに[NLINE]
+//徹するでしょう。[NLINE]
+//それは望ましくありません。[END-FE]
+No, that's not it.[NLINE]
+If their commander is defeated, the[NLINE]
+the soldiers will focus on defense[NLINE]
+in order to regroup. We don't want[NLINE]
+that to happen.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $6E00 - STRING #56 @ $7C76
+#W32($6E00)
+//…ということだぜ、守護勇士。[NLINE]
+//俺たちはお前の指示がない限りは[NLINE]
+//普通に戦うから、[NLINE]
+//よく考えて指示を出してくれよ！[END-FE]
+...That's the plan, Brave Guard.[NLINE]
+As long as you don't give[NLINE]
+specific instruction to us,[NLINE]
+we'll fight as we normally do.[NLINE]
+So think carefully and give us[NLINE]
+your instructions![END-FE]
+
+
+
+
+
+//POINTER #57 @ $6E04 - STRING #57 @ $7CE7
+#W32($6E04)
+//ポイントは出来るだけ被害を与えずに[NLINE]
+//山頂にたどり着くことですね。[END-FE]
+We must get to the summit while[NLINE]
+making as little casualties as[NLINE]
+possible.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $6E08 - STRING #58 @ $7D2A
+#W32($6E08)
+//よし、行こうぜ！[END-FE]
+Okay, let's go![END-FE]
+
+
+
+
+
+//POINTER #59 @ $6E0C - STRING #59 @ $7D3D
+#W32($6E0C)
+//・ホフマンの死亡[NLINE]
+//・フォメロス兵を３５人以上倒す[NLINE]
+//　もしくは山頂までに２０人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・Kill more than thirty-four Fomeros soldiers or kill[NLINE]
+ more than nineteen before reaching the mountain top[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #60 @ $6E10 - STRING #60 @ $7DA8
+#W32($6E10)
+//戻っている場合じゃない！[NLINE]
+//この場から一刻も早く退却しよう！[END-FE]
+This isn't the time to go back![NLINE]
+Let's get out of here as quickly[NLINE]
+as possible![END-FE]
+
+
+
+
+
+//POINTER #61 @ $6E14 - STRING #61 @ $7DE5
+#W32($6E14)
+//戻っている場合ではありません！[NLINE]
+//砲撃される前に下りましょう！[END-FE]
+Now is not the time to return![NLINE]
+Let's descend before the Admonisher[NLINE]
+fires its blast![END-FE]
+
+
+
+
+
+//POINTER #62 @ $6E18 - STRING #62 @ $7E24
+#W32($6E18)
+//時間がない、急ごう！[END-FE]
+There's no time! Hurry![END-FE]
+
+
+
+
+
+//POINTER #63 @ $6E1C - STRING #63 @ $7E3B
+#W32($6E1C)
+//総員、追跡に加われ！[NLINE]
+//あの侵入者たちを逃がすな！[END-FE]
+All units after them![NLINE]
+Don't let them escape![END-FE]
+
+
+
+
+
+//POINTER #64 @ $6E20 - STRING #64 @ $7E6E
+#W32($6E20)
+//・下山を完了する[END-FE]
+・Complete mountain descent[END-FE]
+
+
+
+
+
+//POINTER #65 @ $6E24 - STRING #65 @ $7E81
+#W32($6E24)
+//・ホフマンの死亡[NLINE]
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・Kill more than thirty-four Formeros soldiers[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #66 @ $6E28 - STRING #66 @ $7EC8
+#W32($6E28)
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Kill more than thirty-four Formeros soldiers[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #67 @ $6E2C - STRING #67 @ $7EFD
+#W32($6E2C)
+//・[MainCharName]が山を登る[END-FE]
+・[MainCharName] reaches the top of the mountain[END-FE]
+
+
+
+
+
+//POINTER #68 @ $6E30 - STRING #68 @ $7F10
+#W32($6E30)
+//・ホフマンの死亡[NLINE]
+//・フォメロス兵を３５人以上倒す[NLINE]
+//　もしくは山頂までに２０人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・Kill more than thirty-four Formeros soldiers or kill[NLINE]
+ more than nineteen before reaching the mountain top[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #69 @ $6E34 - STRING #69 @ $7F7B
+#W32($6E34)
+//戻っている場合じゃない！[NLINE]
+//早く頂上を目指さないと！[END-FE]
+This isn't the time to go back![NLINE]
+We have to hurry up and reach the summit![END-FE]
+
+
+
+
+
+//POINTER #70 @ $6E38 - STRING #70 @ $7FB0
+#W32($6E38)
+//まだ捕まえられんのか！[NWIN]
+//
+//奴らを捕らえた者は[NLINE]
+//昇進させてやるぞ！[END-FE]
+You still haven't caught him!?[NWIN]
+
+I'll promote the person[NLINE]
+who manages to capture them![END-FE]
+
+
+
+
+
+//POINTER #71 @ $6E3C - STRING #71 @ $7FF1
+#W32($6E3C)
+//戻っている場合ではありません！[NLINE]
+//砲撃される前に下りましょう！[END-FE]
+This isn't the time to go back![NLINE]
+We have to hurry up and reach the summit![END-FE]
+
+
+
+
+
+//POINTER #72 @ $6E40 - STRING #72 @ $8030
+#W32($6E40)
+//[CHAR2900][V2000]
+//ここで出来るだけ粘ってください。[NLINE]
+//そのうち、絶対にウェルバー少佐は出てきます。[END-FE]
+[CHAR2900][V2000]
+Let's hold out here as long as we can.[NLINE]
+Wellber will definitely come out sooner[NLINE]
+or later.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $6E44 - STRING #73 @ $8089
+#W32($6E44)
+//[CHAR2900][V2100]
+//そいつが出てきたら、[NLINE]
+//退却を開始するんだな？[END-FE]
+[CHAR2900][V2100]
+We'll start retreating when[NLINE]
+he shows up?[END-FE]
+
+
+
+
+
+//POINTER #74 @ $6E48 - STRING #74 @ $80C0
+#W32($6E48)
+//[CHAR2900][V2200]
+//はい！[END-FE]
+[CHAR2900][V2200]
+Yes![END-FE]
+
+
+
+
+
+//POINTER #75 @ $6E4C - STRING #75 @ $80D1
+#W32($6E4C)
+//・ウェルバー出現後、下山を完了する[END-FE]
+・Descend the mountain after Wellber appears[END-FE]
+
+
+
+
+
+//POINTER #76 @ $6E50 - STRING #76 @ $80F6
+#W32($6E50)
+//・ホフマンの死亡[NLINE]
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・Defeat more than thirty-four Fomeros soldiers[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #77 @ $6E54 - STRING #77 @ $813D
+#W32($6E54)
+//山頂での撃破数１５にしますか？[END-FE]
+山頂での撃破数１５にしますか？[END-FE]
+
+
+
+
+
+//POINTER #78 @ $6E58 - STRING #78 @ $815E
+#W32($6E58)
+//[CHAR2900][V1C00]
+//こちらが強敵だと思わせないと[NLINE]
+//本気で追ってきてくれませんから[NLINE]
+//仕方ありませんが、出来れば兵士の被害は[NLINE]
+//最小限にとどめてください。[END-FE]
+[CHAR2900][V1C00]
+They won't pursue us if they don't[NLINE]
+think of us as a threat, so we can't[NLINE]
+avoid making casualties. However, let's[NLINE]
+keep the body count to a minimum.[END-FE]
+
+
+
+
+
+//POINTER #79 @ $6E5C - STRING #79 @ $81E9
+#W32($6E5C)
+//[CHAR2900][V2A00]
+//先回りされないよう[NLINE]
+//このリフトを壊しておこう。[END-FE]
+[CHAR2900][V2A00]
+Let's destroy this lift so[NLINE]
+that they won't be able[NLINE]
+to get ahead of us.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $6E60 - STRING #80 @ $8222
+#W32($6E60)
+//[CHAR2900][V2B00]
+//先回りされないように[NLINE]
+//このリフトを壊しておきましょうか。[END-FE]
+[CHAR2900][V2B00]
+Let's destroy this lift so[NLINE]
+that they won't be able[NLINE]
+to get ahead of us.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $6E64 - STRING #81 @ $8265
+#W32($6E64)
+//リフトの制御装置[END-FE]
+Lift Control Device[END-FE]
+
+
+
+
+
+//POINTER #82 @ $6E68 - STRING #82 @ $8278
+#W32($6E68)
+//・リフトを破壊し、[NLINE]
+//　ウェルバーが出現した後に[NLINE]
+//　下山を完了する[END-FE]
+・Destroy the lift and[NLINE]
+ descent the mountain,[NLINE]
+ after Welber appears[END-FE]
+
+
+
+
+
+//POINTER #83 @ $6E6C - STRING #83 @ $82BB
+#W32($6E6C)
+//・リフトを破壊し、[NLINE]
+//　ホフマンを逃がした後に[NLINE]
+//　パーティーメンバーも脱出する[END-FE]
+・Destroy the lift and[NLINE]
+ descent the mountain,[NLINE]
+ after Welber appears[END-FE]
+
+
+
+
+
+//POINTER #84 @ $6E70 - STRING #84 @ $830A
+#W32($6E70)
+//[CHAR2900][V2800]
+//パワービルダー起動完了！[END-FE]
+[CHAR2900][V2800]
+Activation of Power Builder complete![END-FE]
+
+
+
+
+
+//POINTER #85 @ $6E74 - STRING #85 @ $832D
+#W32($6E74)
+//…サギョウカイシ。[END-FE]
+...COMMENCING WORK.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $6E78 - STRING #86 @ $8342
+#W32($6E78)
+//[CHAR2900][V2900]
+//これを壊しておけば、[NLINE]
+//先回りされる心配はありませんね。[END-FE]
+[CHAR2900][V2900]
+Now that we've destroy this, we[NLINE]
+won't have to worry about them[NLINE]
+getting ahead of us.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $6E7C - STRING #87 @ $8383
+#W32($6E7C)
+//・ウェルバー出現後、下山を完了する[END-FE]
+・Descent the mountain after Welber appears[END-FE]
+
+
+
+
+
+//POINTER #88 @ $6E80 - STRING #88 @ $83A8
+#W32($6E80)
+//むう！いかんな、[NLINE]
+//せっかくの好機だというのに…。[NWIN]
+//
+//ひとまず私は退くぞ、[NLINE]
+//お前達はこの場を死守しろ！[END-FE]
+Hmmpf! This is no good. Even[NLINE]
+though this was such a great[NLINE]
+oppurtunity...[NWIN]
+
+I'll withraw for the time being.[NLINE]
+The rest of you defend this fort[NLINE]
+at all costs![END-FE]
+
+
+
+
+
+//POINTER #89 @ $6E84 - STRING #89 @ $840D
+#W32($6E84)
+//バカ！[NLINE]
+//連中をおびきださなきゃいけないんだろ！[END-FE]
+Idiot! We're supposed to lure them away![END-FE]
+
+
+
+
+
+//POINTER #90 @ $6E88 - STRING #90 @ $843E
+#W32($6E88)
+//[CHAR2900][V2C00]
+//まさか本当に現れるとはな！[NLINE]
+//おとなしくお縄につく気になったか！[END-FE]
+[CHAR2900][V2C00]
+I didn't think you would show[NLINE]
+your face here! So you've[NLINE]
+come to turn yourself in quietly,[NLINE]
+have you?[END-FE]
+
+
+
+
+
+//POINTER #91 @ $6E8C - STRING #91 @ $8487
+#W32($6E8C)
+//[CHAR2900][V2D00]
+//私は無実です！[NLINE]
+//たしかに私も私の兄も、[NLINE]
+//この戦争には反対しています。[NWIN]
+//
+//[CHAR2900][V2E00]
+//だからといって、[NLINE]
+//ヒンギスタン王国に物資を横流しなど、[NLINE]
+//絶対に行わない！[END-FE]
+[CHAR2900][V2D00]
+I'm innocent![NLINE]
+It's ture that my brother and I oppose[NLINE]
+this war![NWIN]
+
+[CHAR2900][V2E00]
+But that doesn't mean I would ever[NLINE]
+sell stolen supplies to Hingistan![END-FE]
+
+
+
+
+
+//POINTER #92 @ $6E90 - STRING #92 @ $8528
+#W32($6E90)
+//[CHAR2900][V2F00]
+//それは法廷で聞いてやる！[END-FE]
+[CHAR2900][V2F00]
+Save it for court![END-FE]
+
+
+
+
+
+//POINTER #93 @ $6E94 - STRING #93 @ $854B
+#W32($6E94)
+//[CHAR2900][V3000]
+//公平でない法廷へは出頭できませんね。[NWIN]
+//
+//[CHAR2900][V3100]
+//あなたが私を陥れようとした[NLINE]
+//証拠をつかむまでは、絶対に！[END-FE]
+[CHAR2900][V3000]
+I won't submit myself to an[NLINE]
+an unfair trail![NWIN]
+
+[CHAR2900][V3100]
+I won't let myself be judged until[NLINE]
+I have proof that you framed me![END-FE]
+
+
+
+
+
+//POINTER #94 @ $6E98 - STRING #94 @ $85BC
+#W32($6E98)
+//[CHAR2900][V3200]
+//くっ！[NWIN]
+//
+//[CHAR2900][V3300]
+//是が非でも捕らえろ！[END-FE]
+[CHAR2900][V3200]
+Hng![NWIN]
+
+[CHAR2900][V3300]
+Arrest him at all costs![END-FE]
+
+
+
+
+
+//POINTER #95 @ $6E9C - STRING #95 @ $85EB
+#W32($6E9C)
+//[CHAR2900][V3400]
+//さて、私は急いで逃げます。[NLINE]
+//後のことはお任せしますよ！[END-FE]
+[CHAR2900][V3400]
+Alright, I'll make a run for it.[NLINE]
+I will leave the rest to you![END-FE]
+
+
+
+
+
+//POINTER #96 @ $6EA0 - STRING #96 @ $862C
+#W32($6EA0)
+//・ホフマンを逃がした後に[NLINE]
+//　パーティーメンバーも脱出する[END-FE]
+・Party members escape after[NLINE]
+ Hofman has done so first[END-FE]
+
+
+
+
+
+//POINTER #97 @ $6EA4 - STRING #97 @ $8667
+#W32($6EA4)
+//・リフトを破壊し、[NLINE]
+//　ホフマンを逃がした後に[NLINE]
+//　パーティーメンバーも脱出する[END-FE]
+・Party members escape after[NLINE]
+ Hofman has done so first[NLINE]
+ and the lift is destroyed[END-FE]
+
+
+
+
+
+//POINTER #98 @ $6EA8 - STRING #98 @ $86B6
+#W32($6EA8)
+//・ホフマンの死亡[NLINE]
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・ウェルバーの撃破[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・Kill more than thirty-four Formeros soldiers[NLINE]
+・Welber is defeated[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #99 @ $6EAC - STRING #99 @ $8711
+#W32($6EAC)
+//今の状態で脱出できません。[NLINE]
+//お二方が回復しないと！[END-FE]
+We can't escape like this.[NLINE]
+Both of you have to recover![END-FE]
+
+
+
+
+
+//POINTER #100 @ $6EB0 - STRING #100 @ $8746
+#W32($6EB0)
+//[CHAR2900][V3600]
+//作戦成功ですね。[NLINE]
+//さあ、あなたたちも急いで逃げてください！[END-FE]
+[CHAR2900][V3600]
+The operation has been a success.[NLINE]
+You three also hurry and[NLINE]
+run![END-FE]
+
+
+
+
+
+//POINTER #101 @ $6EB4 - STRING #101 @ $878B
+#W32($6EB4)
+//[CHAR2900][V3700]
+//そうだな。[NLINE]
+//俺たちも逃げないとやばいぜ！[END-FE]
+[CHAR2900][V3700]
+Yeah. If we don't get out[NLINE]
+of here, we'll be in trouble![END-FE]
+
+
+
+
+
+//POINTER #102 @ $6EB8 - STRING #102 @ $87BE
+#W32($6EB8)
+//・[MainCharName]たちが[NLINE]
+//　下山を完了する[END-FE]
+・[MainCharName] and the others reach the bottom of the mountain[END-FE]
+
+
+
+
+
+//POINTER #103 @ $6EBC - STRING #103 @ $87DF
+#W32($6EBC)
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・ウェルバーの撃破[NLINE]
+//・パーティーの全滅[END-FE]
+・Kill more than thirty-four Formeros soldiers[NLINE]
+・Welber is defeated[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #104 @ $6EC0 - STRING #104 @ $8828
+#W32($6EC0)
+//この調子で下りましょう！[END-FE]
+Let's descend while we're in[NLINE]
+good condition![END-FE]
+
+
+
+
+
+//POINTER #105 @ $6EC4 - STRING #105 @ $8843
+#W32($6EC4)
+//ウェルバー少佐が[NLINE]
+//出てくるまでがんばってくれ！[END-FE]
+Let's fight hard until Welber[NLINE]
+comes out![END-FE]
+
+
+
+
+
+//POINTER #106 @ $6EC8 - STRING #106 @ $8874
+#W32($6EC8)
+//先ずは、ホフマンさんに[NLINE]
+//脱出してもらわなければ。[END-FE]
+We must first let Hofman escape.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $6ECC - STRING #107 @ $88A7
+#W32($6ECC)
+//なんだ？！[NLINE]
+//何か爆発した？！[END-FE]
+What!?[NLINE]
+Did something explode?[END-FE]
+
+
+
+
+
+//POINTER #108 @ $6ED0 - STRING #108 @ $88C6
+#W32($6ED0)
+//きゃあ！！[NLINE]
+//何か爆発しました、[NLINE]
+//気をつけてください！[END-FE]
+Aaah!![NLINE]
+Something exploded![NLINE]
+Please be careful![END-FE]
+
+
+
+
+
+//POINTER #109 @ $6ED4 - STRING #109 @ $88FD
+#W32($6ED4)
+//作業機械の燃料です。[NLINE]
+//破壊して構いませんが、[NLINE]
+//爆発の際は近くにいるとダメージを受けます！[NLINE]
+//気をつけてください！[END-FE]
+It's machine fuel.[NLINE]
+You can destroy them if you want,[NLINE]
+but anyone near them will receive[NLINE]
+damage if they explode! Be careful![END-FE]
+
+
+
+
+
+//POINTER #110 @ $6ED8 - STRING #110 @ $896E
+#W32($6ED8)
+//[CHAR2900][V1D00]
+//うぅっ！[NLINE]
+//…しまった…。[END-FE]
+[CHAR2900][V1D00]
+Uuh![NLINE]
+...No...[END-FE]
+
+
+
+
+
+//POINTER #111 @ $6EDC - STRING #111 @ $8991
+#W32($6EDC)
+//[CC.EF0D]人撃破　残り[CC.EF0E][END-FE]
+Defeated: [CC.EF0D] Remaining: [CC.EF0E][END-FE]
+
+
+
+
+
+//POINTER #112 @ $6EE0 - STRING #112 @ $89A6
+#W32($6EE0)
+//おびき出しには[NLINE]
+//これだけやれば十分でしょう。[NWIN]
+//
+//あとはウェルバーが出てくるまで、[NLINE]
+//山頂で損害を与え続けていきますよ！[END-FE]
+That should be enough to[NLINE]
+lure them away.[NWIN]
+
+Let's continue inflicting damage[NLINE]
+on the enemy until Wellber shows up![END-FE]
+
+
+
+
+
+//POINTER #113 @ $6EE4 - STRING #113 @ $8A1B
+#W32($6EE4)
+//少し倒しすぎました…[NWIN]
+//
+//倒した数が３５人を超えると[NLINE]
+//ここからおびき出せなくなりますね。[NLINE]
+//気をつけましょう。[END-FE]
+We've defeated a few too many...[NWIN]
+
+We won't be able to lure them[NLINE]
+away from here if we defeat more.[NLINE]
+than thirty-four of them.[NLINE]
+Please be careful.[END-FE]
+
+
+
+
+
+//POINTER #114 @ $6EE8 - STRING #114 @ $8A86
+#W32($6EE8)
+//少し倒しすぎました…[NLINE]
+//倒した数が３５人を超えると[NLINE]
+//ここからおびき出せなくなってしまいます。[NLINE]
+//気をつけてください。[END-FE]
+We've defeated a few too many...[NLINE]
+We won't be able to lure them[NLINE]
+away from here if we defeat more.[NLINE]
+than thirty-four of them.[NLINE]
+Please be careful.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $6EEC - STRING #115 @ $8AF9
+#W32($6EEC)
+//あまり山頂へ向かう間に倒しすぎてしまうと、[NLINE]
+//早めに防備を固められてしまいます！[NWIN]
+//
+//山頂につくまでに倒す人数は[NLINE]
+//１９人までにしておいてください！[END-FE]
+If we defeat too many on our way[NLINE]
+to the summit, they'll strengthen[NLINE]
+their defenses too soon![NWIN]
+
+Please don't defeat more than[NLINE]
+nineteen soldiers before we get[NLINE]
+to the top![END-FE]
+
+
+
+
+
+//POINTER #116 @ $6EF0 - STRING #116 @ $8B88
+#W32($6EF0)
+//あまり山頂へ向かう間に倒しすぎてしまうと、[NLINE]
+//早めに防備を固められてしまいます！[NWIN]
+//
+//山頂につくまでに倒す人数は[NLINE]
+//１９人までにしておいてください！[END-FE]
+If we defeat too many on our way[NLINE]
+to the summit, they'll strengthen[NLINE]
+their defenses too soon![NWIN]
+
+Please don't defeat more than[NLINE]
+nineteen soldiers before we get[NLINE]
+to the top![END-FE]
+
+
+
+
+
+//POINTER #117 @ $6EF4 - STRING #117 @ $8C17
+#W32($6EF4)
+//[CHAR2900][V1E00]
+//被害が大きすぎる、[NLINE]
+//全員いまの守備位置から出るな！[END-FE]
+[CHAR2900][V1E00]
+We've taken too much casualties.[NLINE]
+No one is to leave their defensive[NLINE]
+position![END-FE]
+
+
+
+
+
+//POINTER #118 @ $6EF8 - STRING #118 @ $8C54
+#W32($6EF8)
+//[CHAR2900][V1F00]
+//警戒心を強めすぎましたね。[NLINE]
+//作戦、失敗です…。[END-FE]
+[CHAR2900][V1F00]
+They've become too vigilant.[NLINE]
+This operation is a failture...[END-FE]
+
+
+
+
+
+//POINTER #119 @ $6EFC - STRING #119 @ $8C8D
+#W32($6EFC)
+//[CHAR2900][V2300]
+//裏切り者のホフマンか!?[NWIN]
+//
+//[CHAR2900][V2400]
+//おいっ！[NLINE]
+//ウェルバー中佐に連絡を！[END-FE]
+[CHAR2900][V2300]
+Is that the traitor Hofman!?[NWIN]
+
+[CHAR2900][V2400]
+Hey! Report th9s to Lieutenant Colonel Wellber![END-FE]
+
+
+
+
+
+//POINTER #120 @ $6F00 - STRING #120 @ $8CDA
+#W32($6F00)
+//[CHAR2900][V2500]
+//中佐？[NLINE]
+//…いつの間に中佐に…[END-FE]
+[CHAR2900][V2500]
+Lieutenant Colonel?[NLINE]
+When did he become Lieutenant Colonel...?[END-FE]
+
+
+
+
+
+//POINTER #121 @ $6F04 - STRING #121 @ $8D01
+#W32($6F04)
+//[CHAR2900][V2600]
+//パワービルダーを起動しろ！[NLINE]
+//絶対に連中を逃がすな！[END-FE]
+[CHAR2900][V2600]
+Activate the Power Builder![NLINE]
+Don't let them escape, no[NLINE]
+matter what![END-FE]
+
+
+
+
+
+//POINTER #122 @ $6F08 - STRING #122 @ $8D3E
+#W32($6F08)
+//[CHAR2900][V2700]
+//了解しました！[END-FE]
+[CHAR2900][V2700]
+Understood![END-FE]
+
+
+
+
+
+//POINTER #123 @ $6F0C - STRING #123 @ $8D57
+#W32($6F0C)
+//・ウェルバー出現後、下山を完了する[END-FE]
+・Descent the mountain after Welber appears[END-FE]
+
+
+
+
+
+//POINTER #124 @ $6F10 - STRING #124 @ $8D7C
+#W32($6F10)
+//・リフトを破壊し、[NLINE]
+//　ウェルバーが出現した後、[NLINE]
+//　下山を完了する[END-FE]
+・Destroy the lift and descend[NLINE]
+ the mountain after Welber appears[END-FE]
+
+
+
+
+
+//POINTER #125 @ $6F14 - STRING #125 @ $8DBF
+#W32($6F14)
+//・ホフマンの死亡[NLINE]
+//・フォメロス兵を３５人以上倒す[NLINE]
+//・パーティーの全滅[END-FE]
+・Hofman dies[NLINE]
+・Defeat more than thirty-four Fomeros soldiers[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #126 @ $6F18 - STRING #126 @ $8E06
+#W32($6F18)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #127 @ $6F1C - STRING #127 @ $8E1D
+#W32($6F1C)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #128 @ $6F20 - STRING #128 @ $8E2C
+#W32($6F20)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+

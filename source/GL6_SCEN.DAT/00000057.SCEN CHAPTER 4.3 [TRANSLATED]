@@ -1,0 +1,636 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $4F00, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $4E20, 4, PTR)
+
+#JMP($4F00)
+#HDR($4F00)
+
+
+
+
+
+//POINTER #0 @ $4E20 - STRING #0 @ $4F00
+#W32($4E20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $4E24 - STRING #1 @ $4F03
+#W32($4E24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $4E28 - STRING #2 @ $4F10
+#W32($4E28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $4E2C - STRING #3 @ $4F35
+#W32($4E2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $4E30 - STRING #4 @ $4F5A
+#W32($4E30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $4E34 - STRING #5 @ $4F6F
+#W32($4E34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $4E38 - STRING #6 @ $4F94
+#W32($4E38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $4E3C - STRING #7 @ $4FB9
+#W32($4E3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $4E40 - STRING #8 @ $4FEE
+#W32($4E40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $4E44 - STRING #9 @ $5023
+#W32($4E44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $4E48 - STRING #10 @ $5048
+#W32($4E48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $4E4C - STRING #11 @ $506D
+#W32($4E4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $4E50 - STRING #12 @ $5092
+#W32($4E50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $4E54 - STRING #13 @ $50A7
+#W32($4E54)
+//ワースリー村[NLINE]
+//リオレー村[NLINE]
+//ベルシェイド刑務所[END-FE]
+To Warslee Village[NLINE]
+To Rio Rey Village[NLINE]
+To Belshade Prison[END-FE]
+
+
+
+
+
+//POINTER #14 @ $4E58 - STRING #14 @ $50D6
+#W32($4E58)
+//平和維持軍本部[NLINE]
+//シリルティア方面[END-FE]
+To PMB Headquarters[NLINE]
+To Cyriltia[END-FE]
+
+
+
+
+
+//POINTER #15 @ $4E5C - STRING #15 @ $50F9
+#W32($4E5C)
+//　[NLINE]
+//ナトンの実が色づきはじめている。[NLINE]
+//あと少しすれば熟しそうだ。　　　[NLINE]
+//　[END-FE]
+[NLINE]
+The Naton Fruit has begun to change[NLINE]
+color. It will be ripe after a little[NLINE]
+more time has passed.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #16 @ $4E60 - STRING #16 @ $5146
+#W32($4E60)
+//　[NLINE]
+//熟したナトンの実が１つある。[END-FE]
+[NLINE]
+There's a ripe Naton Fruit hanging in the tree.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $4E64 - STRING #17 @ $5169
+#W32($4E64)
+//ナトンの実を採りますか？[END-FE]
+Would you like to pick the Naton Fruit?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $4E68 - STRING #18 @ $5184
+#W32($4E68)
+//　[NLINE]
+//熟した実はなさそうだ。[END-FE]
+[NLINE]
+It looks like there are no ripe fruits.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $4E6C - STRING #19 @ $51A1
+#W32($4E6C)
+//これは[COL01]ナトンの実[COL00]ですね。[END-FE]
+This is a [COL01]Naton fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #20 @ $4E70 - STRING #20 @ $51C2
+#W32($4E70)
+//えっ！[NLINE]
+//これが幻の[COL01]ナトンの実[COL00]なの？[END-FE]
+No way! Could this be the[NLINE]
+fabled [COL01]Naton Fruit[COL00]?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $4E74 - STRING #21 @ $51ED
+#W32($4E74)
+//幻とはおおげさな…。[NLINE]
+//たしかに、希少ではありますが…。[END-FE]
+Fabled is a strong way of putting...[NLINE]
+It's indeed rare, but...[END-FE]
+
+
+
+
+
+//POINTER #22 @ $4E78 - STRING #22 @ $5226
+#W32($4E78)
+//そんなことないわよ！[NLINE]
+//エスグレンツ大陸では[NLINE]
+//絶滅してしまったのよ？[END-FE]
+You're wrong![NLINE]
+This fruit has become extinct in[NLINE]
+Esgrentz![END-FE]
+
+
+
+
+
+//POINTER #23 @ $4E7C - STRING #23 @ $526B
+#W32($4E7C)
+//まぁ、そうだったんですか…。[END-FE]
+Ah, I see...[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4E80 - STRING #24 @ $528A
+#W32($4E80)
+//[CC.BE0100]
+//その独特の食感で、[NLINE]
+//マニア垂涎の味覚なのよ…。[END-FE]
+[CC.BE0100]
+Its unique texture is[NLINE]
+what gives it such a delicious[NLINE]
+taste...[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4E84 - STRING #25 @ $52BF
+#W32($4E84)
+//これは[COL01]ナトンの実[COL00]ですね。[NWIN]
+//
+//独特の食感が人気の果実ですが、[NLINE]
+//栽培が難しく、自生している物を[NLINE]
+//収穫するしかないそうです。[NWIN]
+//
+//そのため市場に出回ることは[NLINE]
+//ほとんどないそうです。[END-FE]
+This is[COL01]Naton Fruit[COL00].[NWIN]
+
+Its unique texture makes it popular.[NLINE]
+However, it's supposedly difficult to[NLINE]
+cultivate, so the only option is to[NLINE]
+harvest what grows naturally on the[NLINE]
+trees.[NWIN]
+
+For that reason, Naton Fruit rarely[NLINE]
+shows up on the market.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4E88 - STRING #26 @ $5370
+#W32($4E88)
+//…ともかく、[NLINE]
+//収穫出来るのは[NLINE]
+//まだ先のようですね。[END-FE]
+...Anyway, it seems like it's[NLINE]
+not yet ready to be picked.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $4E8C - STRING #27 @ $53A5
+#W32($4E8C)
+//[CHAR2400][V0000]
+//今のがアドモニッシャー？[END-FE]
+[CHAR2400][V0000]
+Was that the Admonisher?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4E90 - STRING #28 @ $53C8
+#W32($4E90)
+//[CHAR2400][V0100]
+//はい。[NLINE]
+//ですが、いったいあれをどこに？[END-FE]
+[CHAR2400][V0100]
+Yes.[NLINE]
+But where is it going?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4E94 - STRING #29 @ $53F9
+#W32($4E94)
+//[CHAR2400][V0200]
+//方角を考えると[NLINE]
+//ヒンギスタン王国の方向と言えるな。[END-FE]
+[CHAR2400][V0200]
+Based on the direction, it seems[NLINE]
+to be going toward Hingistan.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4E98 - STRING #30 @ $5436
+#W32($4E98)
+//[CHAR2400][V0300]
+//あのトランス・ゲートが[NLINE]
+//どこにつながっているかによるが、[NLINE]
+//あっちの大陸に先回りできるなら、[NLINE]
+//やってみる価値はあるんじゃないか？[END-FE]
+[CHAR2400][V0300]
+It might be worth it to try and reach Esgrenz[NLINE]
+ahead of the Admonisher by using a Transgate.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $4E9C - STRING #31 @ $54BF
+#W32($4E9C)
+//[CHAR2400][V0400]
+//大陸間移動用のトランス・ゲートとか[NLINE]
+//この大陸には残ってないのか？[END-FE]
+[CHAR2400][V0400]
+Are there any Transgates[NLINE]
+left on in this continent?[END-FE]
+
+
+
+
+
+//POINTER #32 @ $4EA0 - STRING #32 @ $550A
+#W32($4EA0)
+//[CHAR2400][V0500]
+//今の人間は使っていませんので…、[NLINE]
+//知っているとすれば、それはポトラド人かと…。[END-FE]
+[CHAR2400][V0500]
+They are no longer used by humans...[NLINE]
+However, if anyone knows about them,[NLINE]
+it surely must be the Pothrads...[END-FE]
+
+
+
+
+
+//POINTER #33 @ $4EA4 - STRING #33 @ $5563
+#W32($4EA4)
+//[CHAR2400][V0600]
+//それじゃ、とにかく、[NLINE]
+//ポトラド人の里に行くしかないわね。[END-FE]
+[CHAR2400][V0600]
+Then we should probably head on over to[NLINE]
+Pothrad village, right?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $4EA8 - STRING #34 @ $55A6
+#W32($4EA8)
+//[CHAR2200][V0500]
+//ここを東に向かうと[NLINE]
+//ワースリー村の前に出ます。[END-FE]
+[CHAR2200][V0500]
+If we head east from here, we'll end up[NLINE]
+in fron tof Warslee Village.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $4EAC - STRING #35 @ $55DF
+#W32($4EAC)
+//[CHAR2200][V0600]
+//えっと、ワースリーってたしか…。[END-FE]
+[CHAR2200][V0600]
+Uh, Warslee Village was the place where...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $4EB0 - STRING #36 @ $560A
+#W32($4EB0)
+//[CHAR2200][V0700]
+//皆様と出会った[NLINE]
+//浜辺がある村です。[END-FE]
+[CHAR2200][V0700]
+Warslee Village is the place where[NLINE]
+we first met.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $4EB4 - STRING #37 @ $5637
+#W32($4EB4)
+//リオレー村方面[END-FE]
+To Rio Rey[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4EB8 - STRING #38 @ $5648
+#W32($4EB8)
+//ベルシェイド刑務所[END-FE]
+To Belshade Prison[END-FE]
+
+
+
+
+
+//POINTER #39 @ $4EBC - STRING #39 @ $565D
+#W32($4EBC)
+//ワースリー村方面[END-FE]
+To Warslee Village[END-FE]
+
+
+
+
+
+//POINTER #40 @ $4EC0 - STRING #40 @ $5670
+#W32($4EC0)
+//リオレー村・入口[END-FE]
+To Rio Rey Village Entrance[END-FE]
+
+
+
+
+
+//POINTER #41 @ $4EC4 - STRING #41 @ $5683
+#W32($4EC4)
+//[CHAR1200][V0000]
+//このすぐ東に[NLINE]
+//海にかかった橋があります。[NWIN]
+//
+//[CHAR1200][V0100]
+//そこを越えてまっすぐ東に向かえば[NLINE]
+//グランゲイル王国王都ガイラナックです。[END-FE]
+[CHAR1200][V0000]
+East of here lies a bridge that spans[NLINE]
+a body water.[NWIN]
+
+[CHAR1200][V0100]
+Cross it and head straight[NLINE]
+east to reach the capital of Grangale[NLINE]
+Kingdom, Geilenach.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $4EC8 - STRING #42 @ $5708
+#W32($4EC8)
+//どちらへ行かれるのですか？[NLINE]
+//ガイラナックは東です。[END-FE]
+Where are we going?[NLINE]
+Geilenach lies east from here.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $4ECC - STRING #43 @ $573D
+#W32($4ECC)
+//なんでここまで来ちゃったの？[NLINE]
+//早く戻りましょう。[END-FE]
+Why did we come all the way out here?[NLINE]
+Let's go back quickly.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $4ED0 - STRING #44 @ $5770
+#W32($4ED0)
+//ワースリー村[END-FE]
+To Warslee Village[END-FE]
+
+
+
+
+
+//POINTER #45 @ $4ED4 - STRING #45 @ $577F
+#W32($4ED4)
+//王都ガイラナック[NLINE]
+//ザーランバ方面[END-FE]
+To Royal Capital Geilenach[NLINE]
+To Zaramba[END-FE]
+
+
+
+
+
+//POINTER #46 @ $4ED8 - STRING #46 @ $57A2
+#W32($4ED8)
+//ベルシェイド刑務所[END-FE]
+To Belshade Prison[END-FE]
+
+
+
+
+
+//POINTER #47 @ $4EDC - STRING #47 @ $57B7
+#W32($4EDC)
+//　[NLINE]
+//刑務所の扉は重く閉ざされている。[END-FE]
+[NLINE]
+The door to the prison is firmly closed.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $4EE0 - STRING #48 @ $57DE
+#W32($4EE0)
+//ここは維持軍の刑務所です。[NLINE]
+//おかしなことをすると、[NLINE]
+//罪人の仲間だと思われますので、[NLINE]
+//ご注意を。[END-FE]
+This is a PMB prison.[NLINE]
+If you act suspicious in any way,[NLINE]
+you'll be considered a criminal sympathizer.[NLINE]
+Please be aware.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4EE4 - STRING #49 @ $583F
+#W32($4EE4)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4EE8 - STRING #50 @ $5856
+#W32($4EE8)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #51 @ $4EEC - STRING #51 @ $5865
+#W32($4EEC)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #52 @ $4EF0 - STRING #52 @ $5874
+#W32($4EF0)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #53 @ $4EF4 - STRING #53 @ $5889
+#W32($4EF4)
+//Ｄ　Ｆ１０[END-FE]
+D F10[END-FE]
+
+
+
+

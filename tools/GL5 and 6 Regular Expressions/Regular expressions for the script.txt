@@ -1,0 +1,208 @@
+################# Normal search: #################
+
+##### Find dublicates #####
+
+[NLINE][NLINE]
+[NWIN][NWIN]
+[END-FE][END-FE]
+[END-FF][END-FF]
+..
+!!
+??
+,,
+・・
+SPACESPACE
+SPACEFWSPACE
+
+
+##### Find space before or after NLINE, NWIN, END and ?, !, ., ,, ・#####
+
+ [NLINE]
+　[NLINE]
+[NLINE] 
+[NLINE]　
+ [NWIN]
+　[NWIN]
+[NWIN] 
+[NWIN]　
+ [END-FF]
+　[END-FF]
+[END-FF] 
+[END-FF]　
+ [END-FE]
+　[END-FE]
+[END-FE] 
+[END-FE]　
+? 
+ ?
+! 
+ !
+. 
+ .
+, 
+ ,
+・ 
+ ・
+
+##### Find unnecessary Standard color code at the end of a string #####
+
+[COL00][END-FE]
+
+
+
+
+################# Regular expression: #################
+
+##### Find string that is missing [ inside [NLINE], [NWIN] etc #####
+
+[^[](NLINE])
+
+[^[](NWIN])
+
+[^[](END-FE])
+
+[^[](END-FF])
+
+
+##### Finds lines that are missing a ] at the end ####
+
+^([^\/#\r\n])+[a-zA-Z][^]]$
+
+
+##### Finds [ missing in "[CC.XXXX]" ####
+
+[a-zA-Z0-9\!\?\.\,\(\)](CC\.)
+
+
+##### Find string that is missing ., ,, !, ? before [NLINE], [NWIN] etc #####
+
+^([^\/・\r\n])+[a-zA-Z](\[NLINE\])
+
+^([^\/・\r\n])+[a-zA-Z](\[NWIN\])
+
+^([^\/・\r\n])+[a-zA-Z](\[END-FE\])
+
+^([^\/・\r\n])+[a-zA-Z](\[END-FF\])
+
+
+##### Find string that is missing [ at the end of the line #####
+
+^([^\/#\r\n])+[a-zA-Z0-9\"\!\£\$\%\^\&\*\(\)\-\_\=\+]$
+
+
+
+##### Find ・ that has english characters after it #####
+
+^([^\/\r\n])+・
+
+・[a-zA-Z0-9\!\?\.\,\(\)]
+
+
+##### Find full width space before and after english characters #####
+
+^([^\/\r\n])+[　]
+
+[a-zA-Z0-9\!\?\.\,\(\)]　
+　[a-zA-Z0-9\!\?\.\,\(\)]
+
+
+##### Find lines longer than X characters #####
+
+.{34,}
+
+^([^\/\r\n]){45,}
+
+
+##### Find japanese ？, ！, 。, 、, … before and after english characters#####
+
+^([^\/\r\n])+[？]
+
+^([^\/\r\n])+[！]
+
+^([^\/\r\n])+[。]
+
+^([^\/\r\n])+[、]
+
+^([^\/\r\n])+[…]
+
+
+[a-zA-Z0-9\!\?\.\,\(\)]？
+
+[a-zA-Z0-9\!\?\.\,\(\)]！
+
+[a-zA-Z0-9\!\?\.\,\(\)]。
+
+[a-zA-Z0-9\!\?\.\,\(\)]、
+
+[a-zA-Z0-9\!\?\.\,\(\)]…
+
+
+？[a-zA-Z0-9\!\?\.\,\(\)]
+
+！[a-zA-Z0-9\!\?\.\,\(\)]
+
+。[a-zA-Z0-9\!\?\.\,\(\)]
+
+、[a-zA-Z0-9\!\?\.\,\(\)]
+
+…[a-zA-Z0-9\!\?\.\,\(\)]
+
+
+
+
+##### Finds （, ）, 【, 】, 『, 』, 《, 》 that has english characters after and before it #####
+
+^([^\/\r\n])+[（]
+
+^([^\/\r\n])+[）]
+
+^([^\/\r\n])+[【]
+
+^([^\/\r\n])+[】]
+
+^([^\/\r\n])+[『]
+
+^([^\/\r\n])+[』]
+
+^([^\/\r\n])+[《]
+
+^([^\/\r\n])+[》]
+
+
+（[a-zA-Z0-9\!\?\.\,\(\)]
+
+）[a-zA-Z0-9\!\?\.\,\(\)]
+
+【[a-zA-Z0-9\!\?\.\,\(\)]
+
+】[a-zA-Z0-9\!\?\.\,\(\)]
+
+『[a-zA-Z0-9\!\?\.\,\(\)]
+
+』[a-zA-Z0-9\!\?\.\,\(\)]
+
+《[a-zA-Z0-9\!\?\.\,\(\)]
+
+》[a-zA-Z0-9\!\?\.\,\(\)]
+
+
+[a-zA-Z0-9\!\?\.\,\(\)]（
+
+[a-zA-Z0-9\!\?\.\,\(\)]）
+
+[a-zA-Z0-9\!\?\.\,\(\)]【
+
+[a-zA-Z0-9\!\?\.\,\(\)]】
+
+[a-zA-Z0-9\!\?\.\,\(\)]『
+
+[a-zA-Z0-9\!\?\.\,\(\)]』
+
+[a-zA-Z0-9\!\?\.\,\(\)]《
+
+[a-zA-Z0-9\!\?\.\,\(\)]》
+
+
+This one excludes everything that has english characters
+(?![a-zA-Z0-9\!\?\.\,\(\)])[？]
+(?![a-zA-Z0-9!?])[？！。、]

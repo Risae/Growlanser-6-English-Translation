@@ -1,0 +1,1209 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $4A10, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $48A0, 4, PTR)
+
+#JMP($4A10)
+#HDR($4A10)
+
+
+
+
+
+//POINTER #0 @ $48A0 - STRING #0 @ $4A10
+#W32($48A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $48A4 - STRING #1 @ $4A13
+#W32($48A4)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $48A8 - STRING #2 @ $4A20
+#W32($48A8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $48AC - STRING #3 @ $4A45
+#W32($48AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $48B0 - STRING #4 @ $4A6A
+#W32($48B0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $48B4 - STRING #5 @ $4A7F
+#W32($48B4)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $48B8 - STRING #6 @ $4AA4
+#W32($48B8)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $48BC - STRING #7 @ $4AC9
+#W32($48BC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $48C0 - STRING #8 @ $4AFE
+#W32($48C0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $48C4 - STRING #9 @ $4B33
+#W32($48C4)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $48C8 - STRING #10 @ $4B58
+#W32($48C8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $48CC - STRING #11 @ $4B7D
+#W32($48CC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $48D0 - STRING #12 @ $4BA2
+#W32($48D0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $48D4 - STRING #13 @ $4BB7
+#W32($48D4)
+//導入劇スキップする？[END-FE]
+導入劇スキップする？[END-FE]
+
+
+
+
+
+//POINTER #14 @ $48D8 - STRING #14 @ $4BCE
+#W32($48D8)
+//ついでに戦闘終わったことにする？[END-FE]
+ついでに戦闘終わったことにする？[END-FE]
+
+
+
+
+
+//POINTER #15 @ $48DC - STRING #15 @ $4BF1
+#W32($48DC)
+//ルキアス\\
+//[CHAR3900][V0000]
+//何とかスクリーパーにも襲われずに[NLINE]
+//上陸できたな。[END-FE]
+//Rukias\\
+[CHAR3900][V0000]
+We've somehow made it to land[NLINE]
+without being attacked by[NLINE]
+Screapers.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $48E0 - STRING #16 @ $4C2C
+#W32($48E0)
+//ウェンディ\\
+//[CHAR3900][V0100]
+//ここ以外に、上陸できそうなところはないから、[NLINE]
+//ここからは徒歩で移動ね。[NWIN]
+//
+//[CHAR3900][V0200]
+//それより、まだ時間は大丈夫かな？[END-FE]
+//Wendy\\
+[CHAR3900][V0100]
+It doesn't look like we[NLINE]
+can dock anywhere else.[NLINE]
+We'll have to walk from here.[NWIN]
+
+[CHAR3900][V0200]
+But more importantly, do we[NLINE]
+still have enough time?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $48E4 - STRING #17 @ $4CA7
+#W32($48E4)
+//ユリィ\\
+//…[CC.D80F]…[CC.D80F]…[CC.D80F]…。[NWIN]
+//
+//[CH.FACE:Open-Eyes][CHAR3900][V0300]
+//クイーンの気配はまだあります。[NLINE]
+//ですが、急いだ方が良さそうです！[END-FE]
+//Yurii\\
+...[CC.D80F]...[CC.D80F]...[CC.D80F]...[NWIN]
+
+[CH.FACE:Open-Eyes][CHAR3900][V0300]
+I can still sense the Queen.[NLINE]
+However, we best hurry![END-FE]
+
+
+
+
+
+//POINTER #18 @ $48E8 - STRING #18 @ $4D0A
+#W32($48E8)
+//ユリィ\\
+//あまりゆっくりとは出来ませんが、[NLINE]
+//万全の状態で進むために[NLINE]
+//ボートで休憩するのも良いでしょう。[END-FE]
+//Yurii\\
+We can't spend too much time,[NLINE]
+but it might be a good idea[NLINE]
+to rest on the boat so that we[NLINE]
+can proceed in perfect condition.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $48EC - STRING #19 @ $4D69
+#W32($48EC)
+//ボートで休憩しますか？[END-FE]
+Would you like to rest on the boat?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $48F0 - STRING #20 @ $4D82
+#W32($48F0)
+//今はボートで休んでいる時ではない！[NLINE]
+//モンスターと戦わなければ！[END-FE]
+You've got no time to rest on the[NLINE]
+boat right now! You have to fight[NLINE]
+the monsters![END-FE]
+
+
+
+
+
+//POINTER #21 @ $48F4 - STRING #21 @ $4DC3
+#W32($48F4)
+//ワースリー村へ戻りますか？[END-FE]
+Return to Warslee Village?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $48F8 - STRING #22 @ $4DE0
+#W32($48F8)
+//ウェンディ\\
+//[CHAR3900][V0500]
+//なんだか、人工的ね。[END-FE]
+//Wendy\\
+[CHAR3900][V0500]
+This kind of looks man-made.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $48FC - STRING #23 @ $4DFF
+#W32($48FC)
+//ルキアス\\
+//[CHAR3900][V0600]
+//大地の里の伝承だと、[NLINE]
+//クイーンを封印するために[NLINE]
+//大がかりな準備を行ったらしい。[NWIN]
+//
+//[CHAR3900][V0700]
+//その準備の時に使ったんじゃないか？[END-FE]
+//Rukias\\
+[CHAR3900][V0600]
+According to legends passed[NLINE]
+down in Earth Village, elaborate[NLINE]
+preparations were made in order[NLINE]
+to seal the Queen.[NWIN]
+
+[CHAR3900][V0700]
+I'm guessing they made this[NLINE]
+at that time.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4900 - STRING #24 @ $4E84
+#W32($4900)
+//ウェンディ\\
+//[CHAR3900][V0800]
+//だとしたら、上陸地点としては[NLINE]
+//間違ってないって事ね。[END-FE]
+//Wendy\\
+[CHAR3900][V0800]
+Then it seems we docked at[NLINE]
+the right place.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4904 - STRING #25 @ $4EC3
+#W32($4904)
+//デバッグ部屋へ行く？[NLINE]
+//ただ吸引の石板を設置済みだとハマリます。[END-FE]
+//System Message\\
+Go to the debug room?[NLINE]
+However, if the sealing slab is already[NLINE]
+installed, it will be a hassle.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4908 - STRING #26 @ $4F04
+#W32($4908)
+//自動Ｄ　ＥＢ０３＿６前[END-FE]
+自動D　EB03_6前[END-FE]
+
+
+
+
+
+//POINTER #27 @ $490C - STRING #27 @ $4F1D
+#W32($490C)
+//ルキアス\\
+//[CHAR3900][V0900]
+//ここが最深部か？[END-FE]
+//Rukias\\
+[CHAR3900][V0900]
+Is this the innermost area?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4910 - STRING #28 @ $4F38
+#W32($4910)
+//ユリィ\\
+//[CHAR3900][V0A00]
+//…ああ、これは…。[END-FE]
+//Yurii\\
+[CHAR3900][V0A00]
+Ah, this is...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4914 - STRING #29 @ $4F55
+#W32($4914)
+//ルキアス\\
+//[CHAR3900][V0B00]
+//どうした？[END-FE]
+//Rukias\\
+[CHAR3900][V0B00]
+What's the matter?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4918 - STRING #30 @ $4F6A
+#W32($4918)
+//ユリィ\\
+//[CHAR3900][V0C00]
+//ここで間違いありません。[NWIN]
+//
+//[CHAR3900][V0D00]
+//どうやら、２０００年前にも[NLINE]
+//ここで[COL01]吸引の石板[COL00]を使ったようです。[END-FE]
+//Yurii\\
+[CHAR3900][V0C00]
+There's no doubt that this is the place.[NWIN]
+
+[CHAR3900][V0D00]
+This must be where they used[NLINE]
+the [COL01]Sealing Tablets[COL00][NLINE]
+2,000 years ago.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $491C - STRING #31 @ $4FDB
+#W32($491C)
+//ルキアス\\
+//[CHAR3900][V0E00]
+//過去が見えたのか？[END-FE]
+//Rukias\\
+[CHAR3900][V0E00]
+Did you see the past?[END-FE]
+
+
+
+
+
+//POINTER #32 @ $4920 - STRING #32 @ $4FF8
+#W32($4920)
+//ユリィ\\
+//[CHAR3900][V0F00]
+//はい、大勢の人の心が…、[NLINE]
+//クイーンを倒そうとする意志が伝わってきます。[END-FE]
+//Yurii\\
+[CHAR3900][V0F00]
+Yes, I sense many minds with[NLINE]
+a strong intention to defeat[NLINE]
+the Queen...[END-FE]
+
+
+
+
+
+//POINTER #33 @ $4924 - STRING #33 @ $5049
+#W32($4924)
+//ユリィ\\
+//[CHAR3900][V1000]
+//石板を設置する台座があるはずです。[NLINE]
+//まずはそこに…。[END-FE]
+//Yurii\\
+[CHAR3900][V1000]
+There should be pedestals on which[NLINE]
+we can place the Tablets.[NLINE]
+First we-[END-FE]
+
+
+
+
+
+//POINTER #34 @ $4928 - STRING #34 @ $5088
+#W32($4928)
+//ルキアス\\
+//[CHAR3900][V1100]
+//おい、今のは、[NLINE]
+//この上からじゃないか？[END-FE]
+//Rukias\\
+[CHAR3900][V1100]
+Hey, didn't that come from[NLINE]
+above?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $492C - STRING #35 @ $50B9
+#W32($492C)
+//ウェンディ\\
+//[CHAR3900][V1200]
+//どうやら始まったみたいね。[END-FE]
+//Wendy\\
+[CHAR3900][V1200]
+It seems like it has begun.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $4930 - STRING #36 @ $50DE
+#W32($4930)
+//ユリィ\\
+//[CHAR3900][V1300]
+//さあ、石板を準備してください。[END-FE]
+//Yurii\\
+[CHAR3900][V1300]
+Alright, let's prepare the Tablets.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $4934 - STRING #37 @ $5107
+#W32($4934)
+//表面に呪文の彫り込まれた台座がある。[NLINE]
+//何かを置くことが出来そうだ。[END-FE]
+//System Message\\
+It's a pedestal with an incantation[NLINE]
+carved in its surface. It seems like[NLINE]
+something can be placed on it.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4938 - STRING #38 @ $514C
+#W32($4938)
+//ユリィ\\
+//[CHAR3900][V1400]
+//『吸引の石板』を置かないのですか？[END-FE]
+//Yurii\\
+[CHAR3900][V1400]
+Will you place the Sealing Tablet?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $493C - STRING #39 @ $5179
+#W32($493C)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $4940 - STRING #40 @ $51AA
+#W32($4940)
+//表面に呪文の彫り込まれた台座がある。[NLINE]
+//何かを置くことが出来そうだ。[END-FE]
+//System Message\\
+It's a pedestal with an incantation[NLINE]
+carved in its surface. It seems like[NLINE]
+something can be placed on it.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $4944 - STRING #41 @ $51EF
+#W32($4944)
+//ユリィ\\
+//[CHAR3900][V1400]
+//『吸引の石板』を置かないのですか？[END-FE]
+//Yurii\\
+[CHAR3900][V1400]
+Will you place the Sealing Tablet?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $4948 - STRING #42 @ $521C
+#W32($4948)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $494C - STRING #43 @ $524D
+#W32($494C)
+//表面に呪文の彫り込まれた台座がある。[NLINE]
+//何かを置くことが出来そうだ。[END-FE]
+//System Message\\
+It's a pedestal with an incantation[NLINE]
+carved in its surface. It seems like[NLINE]
+something can be placed on it.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $4950 - STRING #44 @ $5292
+#W32($4950)
+//ユリィ\\
+//[CHAR3900][V1400]
+//『吸引の石板』を置かないのですか？[END-FE]
+//Yurii\\
+[CHAR3900][V1400]
+Will you place the Sealing Tablet?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $4954 - STRING #45 @ $52BF
+#W32($4954)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $4958 - STRING #46 @ $52F0
+#W32($4958)
+//表面に呪文の彫り込まれた台座がある。[NLINE]
+//何かを置くことが出来そうだ。[END-FE]
+//System Message\\
+It's a pedestal with an incantation[NLINE]
+carved in its surface. It seems like[NLINE]
+something can be placed on it.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $495C - STRING #47 @ $5335
+#W32($495C)
+//ユリィ\\
+//[CHAR3900][V1400]
+//『吸引の石板』を置かないのですか？[END-FE]
+//Yurii\\
+[CHAR3900][V1400]
+Will you place the Sealing Tablet?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $4960 - STRING #48 @ $5362
+#W32($4960)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4964 - STRING #49 @ $5393
+#W32($4964)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4968 - STRING #50 @ $53C4
+#W32($4968)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $496C - STRING #51 @ $53F5
+#W32($496C)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $4970 - STRING #52 @ $5426
+#W32($4970)
+//　[NLINE]
+//台座の上には『吸引の石板』が置かれている。[END-FE]
+//System Message\\
+[NLINE]
+You placed the Sealing Tablet on the pedestal.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $4974 - STRING #53 @ $5457
+#W32($4974)
+//ウェンディ\\
+//[CHAR3900][V1500]
+//間に合ったみたいね。[NWIN]
+//
+//[CHAR3900][V1600]
+//あとは上がクイーン・スクリーパーを[NLINE]
+//倒してくれるのを待てばいい、と。[END-FE]
+//Wendy\\
+[CHAR3900][V1500]
+It seems like we've made[NLINE]
+it in time.[NWIN]
+
+[CHAR3900][V1600]
+Now we just wait for the[NLINE]
+Queen Screaper to be defeated.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $4978 - STRING #54 @ $54C4
+#W32($4978)
+//ネーリス\\
+//[CC.AC00][CHAR3900][V1700]
+//……。[END-FE]
+//Neilis\\
+[CC.AC00][CHAR3900][V1700]
+...[END-FE]
+
+
+
+
+
+//POINTER #55 @ $497C - STRING #55 @ $54D8
+#W32($497C)
+//ウェンディ\\
+//[CHAR3900][V1800]
+//な、何？[END-FE]
+//Wendy\\
+[CHAR3900][V1800]
+Wh-what?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $4980 - STRING #56 @ $54EB
+#W32($4980)
+//ネーリス\\
+//[CHAR3900][V1900]
+//クイーン…守る…。[NWIN]
+//
+//[CHAR3900][V1A00]
+//邪魔者…排除…。[END-FE]
+//Neilis\\
+[CHAR3900][V1900]
+Protect... Queen...[NWIN]
+
+[CHAR3900][V1A00]
+Remove... intruders...[END-FE]
+
+
+
+
+
+//POINTER #57 @ $4984 - STRING #57 @ $5522
+#W32($4984)
+//ルキアス\\
+//[CHAR3900][V1B00]
+//どうやら、[NLINE]
+//あまりいい状況ではなさそうだな。[END-FE]
+//Rukias\\
+[CHAR3900][V1B00]
+This isn't looking good.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $4988 - STRING #58 @ $5559
+#W32($4988)
+//ユリィ\\
+//[CHAR3900][V1C00]
+//石板を壊されたら、[NLINE]
+//せっかくの作戦が失敗します！[NLINE]
+//気をつけてください。[END-FE]
+//Yurii\\
+[CHAR3900][V1C00]
+If the Tablets are destroyed,[NLINE]
+then all our hard work will[NLINE]
+be for nothing! Please don't[NLINE]
+let that happen.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $498C - STRING #59 @ $55AA
+#W32($498C)
+//ウェンディ\\
+//[CHAR3900][V1800]
+//な、何？[END-FE]
+//Wendy\\
+[CHAR3900][V1800]
+Wh-what?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $4990 - STRING #60 @ $55BD
+#W32($4990)
+//ネーリス\\
+//[CHAR3900][V1900]
+//クイーン…守る…。[NWIN]
+//
+//[CHAR3900][V1A00]
+//邪魔者…排除…。[END-FE]
+//Neilis\\
+[CHAR3900][V1900]
+Protect... Queen...[NWIN]
+
+[CHAR3900][V1A00]
+Remove... intruders...[END-FE]
+
+
+
+
+
+//POINTER #61 @ $4994 - STRING #61 @ $55F4
+#W32($4994)
+//ルキアス\\
+//[CHAR3900][V1B00]
+//どうやら、[NLINE]
+//あまりいい状況ではなさそうだな。[END-FE]
+//Rukias\\
+[CHAR3900][V1B00]
+This isn't looking good.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $4998 - STRING #62 @ $562B
+#W32($4998)
+//ユリィ\\
+//[CHAR3900][V1C00]
+//石板を壊されたら、[NLINE]
+//せっかくの作戦が失敗します！[NLINE]
+//気をつけてください。[END-FE]
+//Yurii\\
+[CHAR3900][V1C00]
+If the Tablets are destroyed,[NLINE]
+then all our hard work will[NLINE]
+be for nothing! Please don't[NLINE]
+let that happen.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $499C - STRING #63 @ $567C
+#W32($499C)
+//・クイーンの封印まで石板を守り抜く[NLINE]
+//・敵の全滅[END-FE]
+・Prevent the Tablets from being destroyed[NLINE]
+ until the Queen is sealed[NLINE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #64 @ $49A0 - STRING #64 @ $56AD
+#W32($49A0)
+//・石板を破壊される[NLINE]
+//・パーティーの全滅[END-FE]
+・One of the slabs is destroyed[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #65 @ $49A4 - STRING #65 @ $56D6
+#W32($49A4)
+//いきなり封印完了？[END-FE]
+いきなり封印完了？[END-FE]
+
+
+
+
+
+//POINTER #66 @ $49A8 - STRING #66 @ $56EB
+#W32($49A8)
+//吸引の石板にヒビが入り始めた！[END-FE]
+The Sealing Plate began to crack![END-FE]
+
+
+
+
+
+//POINTER #67 @ $49AC - STRING #67 @ $570C
+#W32($49AC)
+//吸引の石板にヒビが入り始めた！[END-FE]
+The Sealing Plate began to crack![END-FE]
+
+
+
+
+
+//POINTER #68 @ $49B0 - STRING #68 @ $572D
+#W32($49B0)
+//吸引の石板にヒビが入り始めた！[END-FE]
+The Sealing Plate began to crack![END-FE]
+
+
+
+
+
+//POINTER #69 @ $49B4 - STRING #69 @ $574E
+#W32($49B4)
+//吸引の石板にヒビが入り始めた！[END-FE]
+The Sealing Plate began to crack![END-FE]
+
+
+
+
+
+//POINTER #70 @ $49B8 - STRING #70 @ $576F
+#W32($49B8)
+//[CHAR3900][V1D00]
+//ああっ、石板が！[END-FE]
+[CHAR3900][V1D00]
+Aah! The Tablet![END-FE]
+
+
+
+
+
+//POINTER #71 @ $49BC - STRING #71 @ $578A
+#W32($49BC)
+//[CHAR3900][V1E00]
+//任務…完了…[END-FE]
+[CHAR3900][V1E00]
+Mission... complete...[END-FE]
+
+
+
+
+
+//POINTER #72 @ $49C0 - STRING #72 @ $57A1
+#W32($49C0)
+//[CHAR3900][V1F00]
+//いったい、この敵は…？[NLINE]
+//ガーディアンの一種なんでしょうか？[END-FE]
+[CHAR3900][V1F00]
+What on earth is this enemy...?[NLINE]
+Could it be some kind of Guardian?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $49C4 - STRING #73 @ $57E6
+#W32($49C4)
+//[CHAR3900][V2000]
+//くっ！[NLINE]
+//何なのこいつ？[NLINE]
+//戦闘人形!?[END-FE]
+[CHAR3900][V2000]
+Ugh![NLINE]
+What is it?[NLINE]
+A Combat Automaton!?[END-FE]
+
+
+
+
+
+//POINTER #74 @ $49C8 - STRING #74 @ $5813
+#W32($49C8)
+//[CHAR3900][V2100]
+//くっ！[NLINE]
+//何なんだ、こいつは？[NLINE]
+//戦闘人形なのか!?[END-FE]
+[CHAR3900][V2100]
+Ugh![NLINE]
+What is that thing?[NLINE]
+A Combat Automaton!?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $49CC - STRING #75 @ $584C
+#W32($49CC)
+//[CHAR3900][V2200]
+//…損害値…増大…[NLINE]
+//作戦続行…不能…。[NWIN]
+//
+//[CHAR3900][V2300]
+//…戦線を離脱する…。[END-FE]
+//Neilis\\
+[CHAR3900][V2200]
+...Damage values... increasing...[NLINE]
+Resuming mission... impossible...[NWIN]
+
+[CHAR3900][V2300]
+...Commencing retreat...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $49D0 - STRING #76 @ $5899
+#W32($49D0)
+//[CHAR3900][V2400]
+//これは…、[NLINE]
+//…クイーンを倒した!?[END-FE]
+[CHAR3900][V2400]
+Is... the Queen defeated!?[END-FE]
+
+
+
+
+
+//POINTER #77 @ $49D4 - STRING #77 @ $58C4
+#W32($49D4)
+//・クイーンを封印した石板を守る[NLINE]
+//・敵の全滅[END-FE]
+・Protect the Sealing Tablets that[NLINE]
+ sealed the Queen.[NLINE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #78 @ $49D8 - STRING #78 @ $58F1
+#W32($49D8)
+//・石板を破壊される[NLINE]
+//・パーティーの全滅[END-FE]
+・The Tablets are destroyed[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #79 @ $49DC - STRING #79 @ $591A
+#W32($49DC)
+//[CHAR3900][V2500]
+//作戦失敗…。[NLINE]
+//すみやかに…次段階へ移行…。[END-FE]
+//Neilis\\
+[CHAR3900][V2500]
+Operation failed...[NLINE]
+Moving to next stage... immediately...[END-FE]
+
+
+
+
+
+//POINTER #80 @ $49E0 - STRING #80 @ $594F
+#W32($49E0)
+//[CHAR3900][V2600]
+//やりましたね！[NLINE]
+//これで、歴史の流れは[NLINE]
+//確実に変わりました！[END-FE]
+[CHAR3900][V2600]
+We did it! We changed the course[NLINE]
+of history![END-FE]
+
+
+
+
+
+//POINTER #81 @ $49E4 - STRING #81 @ $5994
+#W32($49E4)
+//[CHAR3900][V2700]
+//だが、これで龍玉のありかは[NLINE]
+//また分からなくなった。[END-FE]
+[CHAR3900][V2700]
+But now we once again don't know[NLINE]
+where the Dragon Orb is.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $49E8 - STRING #82 @ $59D1
+#W32($49E8)
+//[CHAR3900][V2800]
+//いいえ、だいたいの見当はついています。[NWIN]
+//
+//[CHAR3900][V2900]
+//大破したアドモニッシャーの中に[NLINE]
+//龍玉は残されているはずです。[END-FE]
+[CHAR3900][V2800]
+Actually, I think I might have an idea[NLINE]
+where it is.[NWIN]
+
+[CHAR3900][V2900]
+The Dragon Orb should still[NLINE]
+be inside the crashed remains[NLINE]
+of the Admonisher.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $49EC - STRING #83 @ $5A48
+#W32($49EC)
+//[CHAR3900][V2A00]
+//壊れてなければいいけど。[END-FE]
+[CHAR3900][V2A00]
+Hopefully it isn't broken.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $49F0 - STRING #84 @ $5A6B
+#W32($49F0)
+//[CHAR3900][V2B00]
+//龍玉はこの星の化身だ。[NLINE]
+//あれを壊すには、[NLINE]
+//この星を壊せるだけの力が必要だ。[END-FE]
+[CHAR3900][V2B00]
+The Dragon Orb is the embodiment[NLINE]
+of this planet. In order to break[NLINE]
+it, you would need enough power[NLINE]
+to destroy the planet itself.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $49F4 - STRING #85 @ $5AC0
+#W32($49F4)
+//[CHAR3900][V2C00]
+//それじゃ、他の人に奪われないように、[NLINE]
+//急ぎましょう！[END-FE]
+[CHAR3900][V2C00]
+Alright, let's hurry and go get[NLINE]
+it before anyone else does![END-FE]
+
+
+
+
+
+//POINTER #86 @ $49F8 - STRING #86 @ $5AFF
+#W32($49F8)
+//不思議な力で[NLINE]
+//リターンが打ち消された。[END-FE]
+Return was negated by a[NLINE]
+mysterious force.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $49FC - STRING #87 @ $5B28
+#W32($49FC)
+//デバッグセーブに行きますか？[NLINE]
+//ただ吸引の石板を設置済みだとハマリます。[END-FE]
+//System Message\\
+Do you want to go to a debugging[NLINE]
+save? However, if the suction[NLINE]
+stone plate is already installed,[NLINE]
+it will be a hassle.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $4A00 - STRING #88 @ $5B71
+#W32($4A00)
+//Ｄ　Ｄ３１[END-FE]
+D D31[END-FE]
+
+
+
+
+
+//POINTER #89 @ $4A04 - STRING #89 @ $5B7E
+#W32($4A04)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #90 @ $4A08 - STRING #90 @ $5B95
+#W32($4A08)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #91 @ $4A0C - STRING #91 @ $5BA4
+#W32($4A0C)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+

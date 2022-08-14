@@ -1,0 +1,1134 @@
+
+
+//POINTER #0 @ $B20 - STRING #0 @ $D30
+#W32($B20)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $B24 - STRING #1 @ $D33
+#W32($B24)
+//えっ？[NLINE]
+//自分の性格が知りたい？[NLINE]
+//う～んとね…。[END-FE]
+
+
+
+
+
+//POINTER #2 @ $B28 - STRING #2 @ $D64
+#W32($B28)
+//性格設定デバッグする？[END-FE]
+
+
+
+
+
+//POINTER #3 @ $B2C - STRING #3 @ $D7D
+#W32($B2C)
+//モラルは？[END-FE]
+
+
+
+
+
+//POINTER #4 @ $B30 - STRING #4 @ $D8A
+#W32($B30)
+//・善人[END-FE]
+
+
+
+
+
+//POINTER #5 @ $B34 - STRING #5 @ $D93
+#W32($B34)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #6 @ $B38 - STRING #6 @ $D9C
+#W32($B38)
+//・悪人[END-FE]
+
+
+
+
+
+//POINTER #7 @ $B3C - STRING #7 @ $DA5
+#W32($B3C)
+//自信は？[END-FE]
+
+
+
+
+
+//POINTER #8 @ $B40 - STRING #8 @ $DB0
+#W32($B40)
+//・強気[END-FE]
+
+
+
+
+
+//POINTER #9 @ $B44 - STRING #9 @ $DB9
+#W32($B44)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #10 @ $B48 - STRING #10 @ $DC2
+#W32($B48)
+//・弱気[END-FE]
+
+
+
+
+
+//POINTER #11 @ $B4C - STRING #11 @ $DCB
+#W32($B4C)
+//知能は？[END-FE]
+
+
+
+
+
+//POINTER #12 @ $B50 - STRING #12 @ $DD6
+#W32($B50)
+//・天才[END-FE]
+
+
+
+
+
+//POINTER #13 @ $B54 - STRING #13 @ $DDF
+#W32($B54)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #14 @ $B58 - STRING #14 @ $DE8
+#W32($B58)
+//・バカ[END-FE]
+
+
+
+
+
+//POINTER #15 @ $B5C - STRING #15 @ $DF1
+#W32($B5C)
+//優しさは？[END-FE]
+
+
+
+
+
+//POINTER #16 @ $B60 - STRING #16 @ $DFE
+#W32($B60)
+//・優しい[END-FE]
+
+
+
+
+
+//POINTER #17 @ $B64 - STRING #17 @ $E09
+#W32($B64)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #18 @ $B68 - STRING #18 @ $E12
+#W32($B68)
+//・冷たい[END-FE]
+
+
+
+
+
+//POINTER #19 @ $B6C - STRING #19 @ $E1D
+#W32($B6C)
+//素直さは？[END-FE]
+
+
+
+
+
+//POINTER #20 @ $B70 - STRING #20 @ $E2A
+#W32($B70)
+//・素直[END-FE]
+
+
+
+
+
+//POINTER #21 @ $B74 - STRING #21 @ $E33
+#W32($B74)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #22 @ $B78 - STRING #22 @ $E3C
+#W32($B78)
+//・天の邪鬼[END-FE]
+
+
+
+
+
+//POINTER #23 @ $B7C - STRING #23 @ $E49
+#W32($B7C)
+//冷静さは？[END-FE]
+
+
+
+
+
+//POINTER #24 @ $B80 - STRING #24 @ $E56
+#W32($B80)
+//・冷静[END-FE]
+
+
+
+
+
+//POINTER #25 @ $B84 - STRING #25 @ $E5F
+#W32($B84)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #26 @ $B88 - STRING #26 @ $E68
+#W32($B88)
+//・直情[END-FE]
+
+
+
+
+
+//POINTER #27 @ $B8C - STRING #27 @ $E71
+#W32($B8C)
+//行動力は？[END-FE]
+
+
+
+
+
+//POINTER #28 @ $B90 - STRING #28 @ $E7E
+#W32($B90)
+//・積極的[END-FE]
+
+
+
+
+
+//POINTER #29 @ $B94 - STRING #29 @ $E89
+#W32($B94)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #30 @ $B98 - STRING #30 @ $E92
+#W32($B98)
+//・消極的[END-FE]
+
+
+
+
+
+//POINTER #31 @ $B9C - STRING #31 @ $E9D
+#W32($B9C)
+//女好きは？[END-FE]
+
+
+
+
+
+//POINTER #32 @ $BA0 - STRING #32 @ $EAA
+#W32($BA0)
+//・女好き[END-FE]
+
+
+
+
+
+//POINTER #33 @ $BA4 - STRING #33 @ $EB5
+#W32($BA4)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #34 @ $BA8 - STRING #34 @ $EBE
+#W32($BA8)
+//・女嫌い[END-FE]
+
+
+
+
+
+//POINTER #35 @ $BAC - STRING #35 @ $EC9
+#W32($BAC)
+//男好きは？[END-FE]
+
+
+
+
+
+//POINTER #36 @ $BB0 - STRING #36 @ $ED6
+#W32($BB0)
+//・男好き[END-FE]
+
+
+
+
+
+//POINTER #37 @ $BB4 - STRING #37 @ $EE1
+#W32($BB4)
+//・普通[END-FE]
+
+
+
+
+
+//POINTER #38 @ $BB8 - STRING #38 @ $EEA
+#W32($BB8)
+//・男嫌い[END-FE]
+
+
+
+
+
+//POINTER #39 @ $BBC - STRING #39 @ $EF5
+#W32($BBC)
+//みんなはね[NLINE]
+//『口ばかり達者なくせに、動こうとしない人』と[NLINE]
+//思っているみたいだよ。[NWIN]
+//
+//やはり男は言わずにやるか、[NLINE]
+//言ったら実行する方がいいんじゃないかな？[NWIN]
+//
+//あまりこんなことを続けていると、[NLINE]
+//みんなに嫌われちゃうかもよ？[NWIN]
+//
+//まぁ、これからの行動には、[NLINE]
+//じゅうぶん注意することだね～。[END-FE]
+
+
+
+
+
+//POINTER #40 @ $BC0 - STRING #40 @ $100A
+#W32($BC0)
+//優しく見えたと思ったら、素直じゃなくなったり、[NLINE]
+//けっこう、みんなは混乱しているみたい。[NWIN]
+//
+//かんたんに言えば『気分屋』ってやつ？[NLINE]
+//維持軍のメンバーとしてそれじゃマズイんじゃないの？[NWIN]
+//
+//円滑なチーム活動のためにも、[NLINE]
+//もう少し発言には気をつけた方が良いよー。[END-FE]
+
+
+
+
+
+//POINTER #41 @ $BC4 - STRING #41 @ $1105
+#W32($BC4)
+//気弱なくせに、よく考えず、突っ走る奴～[NLINE]
+//…と思われてるね。[NLINE]
+//どっちかというと迷惑な性格だよねー。[NWIN]
+//
+//アンタのそんな行動が、いずれみんなを[NLINE]
+//危険なメにあわせるかもよ？[NLINE]
+//今のうちに直しておくべきだと思うよ。[END-FE]
+
+
+
+
+
+//POINTER #42 @ $BC8 - STRING #42 @ $11D0
+#W32($BC8)
+//弱気ですぐカッとなるのに、[NLINE]
+//実際には行動しない…。[NLINE]
+//口先だけで行動がともなわない奴だね。[NWIN]
+//
+//後先考えず行動して、後悔するよりはマシだけど[NLINE]
+//いざと言うときに、チャンスを逃すタイプだね。[NWIN]
+//
+//まあ、冷静に対処できるならば[NLINE]
+//それが一番かもしれないけどね……。[END-FE]
+
+
+
+
+
+//POINTER #43 @ $BCC - STRING #43 @ $12C9
+#W32($BCC)
+//弱気なのに、すぐカッとなる性格。[NLINE]
+//一言でいえば『短気』ってことだね。[NWIN]
+//
+//もっと冷静さを心がけないと、思わぬところで[NLINE]
+//失敗することになるから気をつけてね～。[END-FE]
+
+
+
+
+
+//POINTER #44 @ $BD0 - STRING #44 @ $1364
+#W32($BD0)
+//アンタって実は人間嫌いでしょ？[NLINE]
+//みんなとの接し方だけどさ、[NLINE]
+//他人を遠ざけるような言動ばかりじゃない！[END-FE]
+
+
+
+
+
+//POINTER #45 @ $BD4 - STRING #45 @ $13CB
+#W32($BD4)
+//まぁ、優しくは接していたみたいだから、[NLINE]
+//単に人と接するのが苦手なだけなのかな？[END-FE]
+
+
+
+
+
+//POINTER #46 @ $BD8 - STRING #46 @ $141C
+#W32($BD8)
+//あんまり他人に冷たくしていると、[NLINE]
+//みんなに嫌われちゃうよ？[NLINE]
+//気をつけた方がいいって！[END-FE]
+
+
+
+
+
+//POINTER #47 @ $BDC - STRING #47 @ $1473
+#W32($BDC)
+//こっちが嫌えば、相手にも嫌われるってこと、[NLINE]
+//忘れないでよね。[END-FE]
+
+
+
+
+
+//POINTER #48 @ $BE0 - STRING #48 @ $14B2
+#W32($BE0)
+//男女わけ隔てがなく接してみるみたいだし、[NLINE]
+//アンタって、人が好きなんだね！[END-FE]
+
+
+
+
+
+//POINTER #49 @ $BE4 - STRING #49 @ $14FD
+#W32($BE4)
+//だけどさ～、その割には[NLINE]
+//人を傷つけるようなことするよね？[NLINE]
+//それは直した方がいいって！[END-FE]
+
+
+
+
+
+//POINTER #50 @ $BE8 - STRING #50 @ $1554
+#W32($BE8)
+//それは普段の行動を見てればよくわかるよ。[NLINE]
+//優しさは何よりも大切！[NLINE]
+//これからもみんなに優しくね？[NWIN]
+//
+//もちろん、アタシには他の人以上に[NLINE]
+//優しくしてね～[MUSIC-NOTE][NLINE]
+//…なんて！[END-FE]
+
+
+
+
+
+//POINTER #51 @ $BEC - STRING #51 @ $15F5
+#W32($BEC)
+//相手を受け入れて行動するって[NLINE]
+//とっても良いことだと思うよ！[NLINE]
+//これからもずっと続けてね[COL01]★[COL00][END-FE]
+
+
+
+
+
+//POINTER #52 @ $BF0 - STRING #52 @ $1654
+#W32($BF0)
+//みんなからは、[NLINE]
+//素直な良い人だと思われてるみたいだね。[END-FE]
+
+
+
+
+
+//POINTER #53 @ $BF4 - STRING #53 @ $168D
+#W32($BF4)
+//みんなからは、ちょっと素直じゃないけど、[NLINE]
+//それなりに良い人だと思われてるみたい。[END-FE]
+
+
+
+
+
+//POINTER #54 @ $BF8 - STRING #54 @ $16E0
+#W32($BF8)
+//ただ、ちょっと冷たいところがあるみたいだね。[NLINE]
+//もっとみんなに優しく接した方が[NLINE]
+//良いんじゃないかな？[END-FE]
+
+
+
+
+
+//POINTER #55 @ $BFC - STRING #55 @ $1745
+#W32($BFC)
+//みんなへの接し方も優しいし、[NLINE]
+//そのあたりが好評だよ。[END-FE]
+
+
+
+
+
+//POINTER #56 @ $C00 - STRING #56 @ $177C
+#W32($C00)
+//冷静で、頭も良く、行動力もある、[NLINE]
+//維持軍メンバーとしてふさわしい人だね。[NLINE]
+//このままみんなを助けてあげてね！[END-FE]
+
+
+
+
+
+//POINTER #57 @ $C04 - STRING #57 @ $17E9
+#W32($C04)
+//冷静で、頭が良い。[NLINE]
+//ただ、行動力がちょっと足りないみたい。[NLINE]
+//ここぞ！という時に、チャンスを逃さないよう[NLINE]
+//気をつけた方が良いよ。[END-FE]
+
+
+
+
+
+//POINTER #58 @ $C08 - STRING #58 @ $186A
+#W32($C08)
+//だけど直感で動いているみたいだね。[NLINE]
+//もう少し考えてから動くようにしても[NLINE]
+//良いんじゃないかな～？[END-FE]
+
+
+
+
+
+//POINTER #59 @ $C0C - STRING #59 @ $18CB
+#W32($C0C)
+//気持ちはあるのにすぐに動けないのは[NLINE]
+//頭の良さがジャマしているのかな？[NLINE]
+//もうちょっと行動的になってもいいんじゃない？[END-FE]
+
+
+
+
+
+//POINTER #60 @ $C10 - STRING #60 @ $1940
+#W32($C10)
+//それから、行動するときには[NLINE]
+//ちゃんと考えた方が良いよ？[NLINE]
+//アンタの場合、考えることを放棄してるでしょ？[END-FE]
+
+
+
+
+
+//POINTER #61 @ $C14 - STRING #61 @ $19A7
+#W32($C14)
+//でもアンタは行動力が足りないよね。[NLINE]
+//もっと自分から動かないと、ね？[END-FE]
+
+
+
+
+
+//POINTER #62 @ $C18 - STRING #62 @ $19EC
+#W32($C18)
+//ほかには、これと言ったところはないね。[NLINE]
+//平凡～！[END-FE]
+
+
+
+
+
+//POINTER #63 @ $C1C - STRING #63 @ $1A1F
+#W32($C1C)
+//アンタってさ？[NLINE]
+//どっちかっていうと悪人だよね。[END-FE]
+
+
+
+
+
+//POINTER #64 @ $C20 - STRING #64 @ $1A50
+#W32($C20)
+//だから、いくら優しいことをしても、[NLINE]
+//裏があると思われて、損をするんだよ？[NLINE]
+//もっと節度ある行動を心がけるべきだね。[END-FE]
+
+
+
+
+
+//POINTER #65 @ $C24 - STRING #65 @ $1AC3
+#W32($C24)
+//他人をいたわらない冷たい態度もマイナス!![NLINE]
+//円滑なチームワークのためにも[NLINE]
+//態度を改めるべきよ！絶対に！[END-FE]
+
+
+
+
+
+//POINTER #66 @ $C28 - STRING #66 @ $1B2A
+#W32($C28)
+//あまり考えないところもマイナス!![NLINE]
+//平和維持軍の一員だってことを[NLINE]
+//自覚すべきだよ！[END-FE]
+
+
+
+
+
+//POINTER #67 @ $C2C - STRING #67 @ $1B7D
+#W32($C2C)
+//アンタさー、頭は良いんだから、[NLINE]
+//もっとみなさんのことを考えれば、[NLINE]
+//今より良い人間関係を作れるはずでしょ？[NLINE]
+//もう、がんばれよ～！[END-FE]
+
+
+
+
+
+//POINTER #68 @ $C30 - STRING #68 @ $1BFE
+#W32($C30)
+//ほかには、これと言ったところはないね。[NLINE]
+//平凡～！[END-FE]
+
+
+
+
+
+//POINTER #69 @ $C34 - STRING #69 @ $1C31
+#W32($C34)
+//う～ん、良くも悪くもない[NLINE]
+//普通の人だと思われてるんじゃない？[END-FE]
+
+
+
+
+
+//POINTER #70 @ $C38 - STRING #70 @ $1C70
+#W32($C38)
+//まあ、優しいだけが取り柄？[END-FE]
+
+
+
+
+
+//POINTER #71 @ $C3C - STRING #71 @ $1C8D
+#W32($C3C)
+//でも、どっちかというと、[NLINE]
+//冷たい人だよね～。[END-FE]
+
+
+
+
+
+//POINTER #72 @ $C40 - STRING #72 @ $1CBC
+#W32($C40)
+//それよりもう少し積極的になるべきかな？[NLINE]
+//みんなのお荷物になりたいわけ？[END-FE]
+
+
+
+
+
+//POINTER #73 @ $C44 - STRING #73 @ $1D05
+#W32($C44)
+//それよりも積極的なところは[NLINE]
+//評価できるんじゃないかな。[END-FE]
+
+
+
+
+
+//POINTER #74 @ $C48 - STRING #74 @ $1D3E
+#W32($C48)
+//ただ、ちょっと冷静さが足りないかな。[NLINE]
+//その点さえ気をつければ、[NLINE]
+//もっとみんなの評価も良くなると思うよ。[END-FE]
+
+
+
+
+
+//POINTER #75 @ $C4C - STRING #75 @ $1DA7
+#W32($C4C)
+//とくに軽率と言うこともないし、[NLINE]
+//このまま接すれば良いんじゃないかな。[END-FE]
+
+
+
+
+
+//POINTER #76 @ $C50 - STRING #76 @ $1DEE
+#W32($C50)
+//あと、アンタって物事をちゃんと考えてないよね。[NLINE]
+//それだけは直した方が良いと思うよ。[END-FE]
+
+
+
+
+
+//POINTER #77 @ $C54 - STRING #77 @ $1E43
+#W32($C54)
+//アンタって頭は良いから、[NLINE]
+//アタシがとやかく言う事はないよね。[NLINE]
+//そのまま、がんばって！[END-FE]
+
+
+
+
+
+//POINTER #78 @ $C58 - STRING #78 @ $1E9A
+#W32($C58)
+//他にはこれと言った特徴はないかな。[NLINE]
+//つまり、アンタの場合、[NLINE]
+//もう少し自己アピールをした方が良いって！[END-FE]
+
+
+
+
+
+//POINTER #79 @ $C5C - STRING #79 @ $1F01
+#W32($C5C)
+//今のおヌシが持っている香りだと[NLINE]
+//これが出来るぞ？[END-FE]
+
+
+
+
+
+//POINTER #80 @ $C60 - STRING #80 @ $1F34
+#W32($C60)
+//・善悪の性格変更[END-FE]
+
+
+
+
+
+//POINTER #81 @ $C64 - STRING #81 @ $1F47
+#W32($C64)
+//・自信の性格変更[END-FE]
+
+
+
+
+
+//POINTER #82 @ $C68 - STRING #82 @ $1F5A
+#W32($C68)
+//・考え方の性格変更[END-FE]
+
+
+
+
+
+//POINTER #83 @ $C6C - STRING #83 @ $1F6F
+#W32($C6C)
+//・優しさの性格変更[END-FE]
+
+
+
+
+
+//POINTER #84 @ $C70 - STRING #84 @ $1F84
+#W32($C70)
+//・素直さの性格変更[END-FE]
+
+
+
+
+
+//POINTER #85 @ $C74 - STRING #85 @ $1F99
+#W32($C74)
+//・冷静さの性格変更[END-FE]
+
+
+
+
+
+//POINTER #86 @ $C78 - STRING #86 @ $1FAE
+#W32($C78)
+//・積極性の性格変更[END-FE]
+
+
+
+
+
+//POINTER #87 @ $C7C - STRING #87 @ $1FC3
+#W32($C7C)
+//・同性に対する性格の変更[END-FE]
+
+
+
+
+
+//POINTER #88 @ $C80 - STRING #88 @ $1FDE
+#W32($C80)
+//・異性に対する性格の変更[END-FE]
+
+
+
+
+
+//POINTER #89 @ $C84 - STRING #89 @ $1FF9
+#W32($C84)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #90 @ $C88 - STRING #90 @ $2004
+#W32($C88)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #91 @ $C8C - STRING #91 @ $201B
+#W32($C8C)
+//・良い性格にしたい[END-FE]
+
+
+
+
+
+//POINTER #92 @ $C90 - STRING #92 @ $2030
+#W32($C90)
+//・悪い性格にしたい[END-FE]
+
+
+
+
+
+//POINTER #93 @ $C94 - STRING #93 @ $2045
+#W32($C94)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #94 @ $C98 - STRING #94 @ $2050
+#W32($C98)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #95 @ $C9C - STRING #95 @ $2067
+#W32($C9C)
+//・自信を持ちたい[END-FE]
+
+
+
+
+
+//POINTER #96 @ $CA0 - STRING #96 @ $207A
+#W32($CA0)
+//・自信過剰を控えたい[END-FE]
+
+
+
+
+
+//POINTER #97 @ $CA4 - STRING #97 @ $2091
+#W32($CA4)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #98 @ $CA8 - STRING #98 @ $209C
+#W32($CA8)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #99 @ $CAC - STRING #99 @ $20B3
+#W32($CAC)
+//・知性的になりたい[END-FE]
+
+
+
+
+
+//POINTER #100 @ $CB0 - STRING #100 @ $20C8
+#W32($CB0)
+//・あふれる知性を抑えたい[END-FE]
+
+
+
+
+
+//POINTER #101 @ $CB4 - STRING #101 @ $20E3
+#W32($CB4)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #102 @ $CB8 - STRING #102 @ $20EE
+#W32($CB8)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #103 @ $CBC - STRING #103 @ $2105
+#W32($CBC)
+//・人に優しくなりたい[END-FE]
+
+
+
+
+
+//POINTER #104 @ $CC0 - STRING #104 @ $211C
+#W32($CC0)
+//・冷たく振る舞いたい[END-FE]
+
+
+
+
+
+//POINTER #105 @ $CC4 - STRING #105 @ $2133
+#W32($CC4)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #106 @ $CC8 - STRING #106 @ $213E
+#W32($CC8)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #107 @ $CCC - STRING #107 @ $2155
+#W32($CCC)
+//・素直になりたい[END-FE]
+
+
+
+
+
+//POINTER #108 @ $CD0 - STRING #108 @ $2168
+#W32($CD0)
+//・裏読みが出来るようになりたい[END-FE]
+
+
+
+
+
+//POINTER #109 @ $CD4 - STRING #109 @ $2189
+#W32($CD4)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #110 @ $CD8 - STRING #110 @ $2194
+#W32($CD8)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #111 @ $CDC - STRING #111 @ $21AB
+#W32($CDC)
+//・冷静に構えたい[END-FE]
+
+
+
+
+
+//POINTER #112 @ $CE0 - STRING #112 @ $21BE
+#W32($CE0)
+//・感情のまま動けるようになりたい[END-FE]
+
+
+
+
+
+//POINTER #113 @ $CE4 - STRING #113 @ $21E1
+#W32($CE4)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #114 @ $CE8 - STRING #114 @ $21EC
+#W32($CE8)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #115 @ $CEC - STRING #115 @ $2203
+#W32($CEC)
+//・積極的になりたい[END-FE]
+
+
+
+
+
+//POINTER #116 @ $CF0 - STRING #116 @ $2218
+#W32($CF0)
+//・積極性を抑えたい[END-FE]
+
+
+
+
+
+//POINTER #117 @ $CF4 - STRING #117 @ $222D
+#W32($CF4)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #118 @ $CF8 - STRING #118 @ $2238
+#W32($CF8)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #119 @ $CFC - STRING #119 @ $224F
+#W32($CFC)
+//・同性に興味を持ちたい[END-FE]
+
+
+
+
+
+//POINTER #120 @ $D00 - STRING #120 @ $2268
+#W32($D00)
+//・同性を嫌いたい[END-FE]
+
+
+
+
+
+//POINTER #121 @ $D04 - STRING #121 @ $227B
+#W32($D04)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #122 @ $D08 - STRING #122 @ $2286
+#W32($D08)
+//どう変えたいのかな？[END-FE]
+
+
+
+
+
+//POINTER #123 @ $D0C - STRING #123 @ $229D
+#W32($D0C)
+//・異性に興味を持ちたい[END-FE]
+
+
+
+
+
+//POINTER #124 @ $D10 - STRING #124 @ $22B6
+#W32($D10)
+//・異性を嫌いたい[END-FE]
+
+
+
+
+
+//POINTER #125 @ $D14 - STRING #125 @ $22C9
+#W32($D14)
+//・やめる[END-FE]
+
+
+
+
+
+//POINTER #126 @ $D18 - STRING #126 @ $22D4
+#W32($D18)
+//まだ続けるかい？[END-FE]
+
+
+
+
+
+//POINTER #127 @ $D1C - STRING #127 @ $22E7
+#W32($D1C)
+//・続ける[END-FE]
+
+
+
+
+
+//POINTER #128 @ $D20 - STRING #128 @ $22F2
+#W32($D20)
+//・もうやめる[END-FE]
+
+
+
+
+
+//POINTER #129 @ $D24 - STRING #129 @ $2301
+#W32($D24)
+//また用があったらおいで。[END-FE]

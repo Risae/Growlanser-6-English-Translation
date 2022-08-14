@@ -1,0 +1,6006 @@
+
+
+//POINTER #0 @ $D4A0 - STRING #0 @ $DC40
+#W32($D4A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $D4A4 - STRING #1 @ $DC43
+#W32($D4A4)
+//司会者[END-FF]
+MC[END-FF]
+
+
+
+
+
+//POINTER #2 @ $D4A8 - STRING #2 @ $DC4C
+#W32($D4A8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $D4AC - STRING #3 @ $DC59
+#W32($D4AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $D4B0 - STRING #4 @ $DC7E
+#W32($D4B0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $D4B4 - STRING #5 @ $DCA3
+#W32($D4B4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $D4B8 - STRING #6 @ $DCB8
+#W32($D4B8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $D4BC - STRING #7 @ $DCED
+#W32($D4BC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $D4C0 - STRING #8 @ $DD22
+#W32($D4C0)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $D4C4 - STRING #9 @ $DD47
+#W32($D4C4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $D4C8 - STRING #10 @ $DD6C
+#W32($D4C8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $D4CC - STRING #11 @ $DD91
+#W32($D4CC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $D4D0 - STRING #12 @ $DDA6
+#W32($D4D0)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #13 @ $D4D4 - STRING #13 @ $DDCD
+#W32($D4D4)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #14 @ $D4D8 - STRING #14 @ $DDE0
+#W32($D4D8)
+//打撃ダメージ競争[END-FE]
+Hard Hitter[END-FE]
+
+
+
+
+
+//POINTER #15 @ $D4DC - STRING #15 @ $DDF3
+#W32($D4DC)
+//大陸一強い一撃を持つのは[NLINE]
+//いったい誰なのか！[END-FE]
+Who packs the fiercest[NLINE]
+punch in all the land!?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $D4E0 - STRING #16 @ $DE22
+#W32($D4E0)
+//武器で与えられるダメージの強さを競う、[NLINE]
+//打撃ダメージ競争の時間がやって参りました。[NWIN]
+//
+//本日は大陸一の攻撃力を誇る打撃ダメージ王、[NLINE]
+//[Haschen]の登場です！[END-FE]
+We'll find out in this event, a contest to[NLINE]
+see who can deal the most physical damage![NWIN]
+
+Today's challenger is [Haschen], the[NLINE]
+reigning Hard Hitter King![END-FE]
+
+
+
+
+
+//POINTER #17 @ $D4E4 - STRING #17 @ $DEB5
+#W32($D4E4)
+//武器で与えられるダメージの大きさを競う[NLINE]
+//打撃ダメージ競争の時間がやって参りました。[NWIN]
+//
+//本日の挑戦者は……！[END-FE]
+We'll find out in this event, a contest to[NLINE]
+see who can deal the most physical damage![NWIN]
+
+Today's challenger is...![END-FE]
+
+
+
+
+
+//POINTER #18 @ $D4E8 - STRING #18 @ $DF20
+#W32($D4E8)
+//ルールをご説明しましょう！[END-FE]
+But how does it work, you ask?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $D4EC - STRING #19 @ $DF3D
+#W32($D4EC)
+//維持軍の誇る戦闘兵器、[NLINE]
+//ガーディアンに攻撃を仕掛け、[NLINE]
+//[COL03]一回の攻撃でなるべく大きなダメージ[COL00]を[NLINE]
+//与えてください。[NWIN]
+//
+//時間内に与えたダメージのうち[NLINE]
+//[COL03]一番大きなダメージ値[COL00]が記録となります。[END-FE]
+Our challenger will attack, assault, and assail[NLINE]
+the PMB's vaunted Guardian to [COL03]deliver the[NLINE]
+hardest strike he possibly can[COL00].[NWIN]
+
+The [COL03]hardest single hit[COL00] delivered before time[NLINE]
+runs out is his entry.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $D4F0 - STRING #20 @ $DFFE
+#W32($D4F0)
+//[Haschen]選手は[NLINE]
+//今回初挑戦！[NLINE]
+//果たして、ランクインできるでしょうか！[END-FE]
+Today's contestant, [Haschen],[NLINE]
+is stepping up for the first[NLINE]
+time! Could he go all the way!?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $D4F4 - STRING #21 @ $E041
+#W32($D4F4)
+//[Haschen]選手の[NLINE]
+//最高記録は[CC.EF19]ポイント。[NLINE]
+//記録更新はなるでしょうか!?[END-FE]
+[Haschen]'s current record[NLINE]
+is [CC.EF19] points. Can he[NLINE]
+top that? We shall see![END-FE]
+
+
+
+
+
+//POINTER #22 @ $D4F8 - STRING #22 @ $E083
+#W32($D4F8)
+//それでは、競争を開始します！[END-FE]
+Now, let the fists fly![END-FE]
+
+
+
+
+
+//POINTER #23 @ $D4FC - STRING #23 @ $E0A2
+#W32($D4FC)
+//打撃ダメージ競争　スタート！[END-FE]
+The Hard Hitter event has begun![END-FE]
+
+
+
+
+
+//POINTER #24 @ $D500 - STRING #24 @ $E0C1
+#W32($D500)
+//・タイムアップ[END-FE]
+・Time runs out[END-FE]
+
+
+
+
+
+//POINTER #25 @ $D504 - STRING #25 @ $E0D2
+#W32($D504)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #26 @ $D508 - STRING #26 @ $E0DB
+#W32($D508)
+//攻撃前[END-FE]
+攻撃前[END-FE]
+
+
+
+
+
+//POINTER #27 @ $D50C - STRING #27 @ $E0E4
+#W32($D50C)
+//攻撃後[END-FE]
+攻撃後[END-FE]
+
+
+
+
+
+//POINTER #28 @ $D510 - STRING #28 @ $E0ED
+#W32($D510)
+//タイムアップ！[END-FE]
+Time's up![END-FE]
+
+
+
+
+
+//POINTER #29 @ $D514 - STRING #29 @ $E0FE
+#W32($D514)
+//さあ、終了いたしました。[NLINE]
+//[Haschen]選手の[NLINE]
+//成績は……[END-FE]
+So how did he do?[NLINE]
+[Haschen]'s high[NLINE]
+point today is...[END-FE]
+
+
+
+
+
+//POINTER #30 @ $D518 - STRING #30 @ $E131
+#W32($D518)
+//[CC.EF01]ポイント！[END-FE]
+[CC.EF01] points![END-FE]
+
+
+
+
+
+//POINTER #31 @ $D51C - STRING #31 @ $E141
+#W32($D51C)
+//[Haschen]選手、[NLINE]
+//自己最高記録の更新です！[END-FE]
+Unbelievable! That's a[NLINE]
+new record for [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #32 @ $D520 - STRING #32 @ $E168
+#W32($D520)
+//デバッグ表示：[NLINE]
+//ａ：[CC.EF00][NLINE]
+//ｂ：[CC.EF01][NLINE]
+//ｃ：[CC.EF02][NLINE]
+//ｚ：[CC.EF19][END-FE]
+デバッグ表示：[NLINE]
+ａ：[CC.EF00][NLINE]
+ｂ：[CC.EF01][NLINE]
+ｃ：[CC.EF02][NLINE]
+ｚ：[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #33 @ $D524 - STRING #33 @ $E19D
+#W32($D524)
+//それでは、ランキング表を[NLINE]
+//見てみましょう！[END-FE]
+Now let's take a look[NLINE]
+at the standings![END-FE]
+
+
+
+
+
+//POINTER #34 @ $D528 - STRING #34 @ $E1CA
+#W32($D528)
+//　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　　１位　　[CC.EAEDFF][NLINE]
+//　　２位　　[CC.EAEEFF][NLINE]
+//　　３位　　[CC.EAEFFF][NLINE]
+//　　４位　　[CC.EAF0FF][NLINE]
+//　　５位　　[CC.EAF1FF][NLINE]
+//　　６位　　[CC.EAF2FF][NLINE]
+//　　７位　　[CC.EAF3FF][NLINE]
+//　　８位　　[CC.EAF4FF][NLINE]
+//　　９位　　[CC.EAF5FF][NLINE]
+//　１０位　　[CC.EAF6FF][NLINE]
+//　　　　　　　　　　　　　　　　　　　　　[END-FE]
+　[NLINE]
+　[NLINE]
+　[NLINE]
+      #1     [CC.EAEDFF]　　[NLINE]
+      #2     [CC.EAEEFF][NLINE]
+      #3     [CC.EAEFFF][NLINE]
+      #4     [CC.EAF0FF][NLINE]
+      #5     [CC.EAF1FF][NLINE]
+      #6     [CC.EAF2FF][NLINE]
+      #7     [CC.EAF3FF][NLINE]
+      #8     [CC.EAF4FF][NLINE]
+      #9     [CC.EAF5FF][NLINE]
+      #10    [CC.EAF6FF][NLINE]
+　　　　　　　　　　　　　　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #35 @ $D52C - STRING #35 @ $E2B7
+#W32($D52C)
+//■ 打撃ダメージ競争ランキング ■[END-FE]
+■ Hard Hitter Standings ■[END-FE]
+
+
+
+
+
+//POINTER #36 @ $D530 - STRING #36 @ $E2DA
+#W32($D530)
+//限界値オーバー[END-FE]
+Max limit reached[END-FE]
+
+
+
+
+
+//POINTER #37 @ $D534 - STRING #37 @ $E2EB
+#W32($D534)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #38 @ $D538 - STRING #38 @ $E2F1
+#W32($D538)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #39 @ $D53C - STRING #39 @ $E2F7
+#W32($D53C)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #40 @ $D540 - STRING #40 @ $E2FD
+#W32($D540)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #41 @ $D544 - STRING #41 @ $E303
+#W32($D544)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #42 @ $D548 - STRING #42 @ $E309
+#W32($D548)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #43 @ $D54C - STRING #43 @ $E30F
+#W32($D54C)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #44 @ $D550 - STRING #44 @ $E315
+#W32($D550)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #45 @ $D554 - STRING #45 @ $E31B
+#W32($D554)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #46 @ $D558 - STRING #46 @ $E321
+#W32($D558)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #47 @ $D55C - STRING #47 @ $E327
+#W32($D55C)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #48 @ $D560 - STRING #48 @ $E32D
+#W32($D560)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #49 @ $D564 - STRING #49 @ $E333
+#W32($D564)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #50 @ $D568 - STRING #50 @ $E339
+#W32($D568)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #51 @ $D56C - STRING #51 @ $E33F
+#W32($D56C)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #52 @ $D570 - STRING #52 @ $E345
+#W32($D570)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #53 @ $D574 - STRING #53 @ $E34B
+#W32($D574)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #54 @ $D578 - STRING #54 @ $E351
+#W32($D578)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #55 @ $D57C - STRING #55 @ $E357
+#W32($D57C)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #56 @ $D580 - STRING #56 @ $E35D
+#W32($D580)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #57 @ $D584 - STRING #57 @ $E363
+#W32($D584)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #58 @ $D588 - STRING #58 @ $E369
+#W32($D588)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #59 @ $D58C - STRING #59 @ $E36F
+#W32($D58C)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #60 @ $D590 - STRING #60 @ $E375
+#W32($D590)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #61 @ $D594 - STRING #61 @ $E37B
+#W32($D594)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #62 @ $D598 - STRING #62 @ $E381
+#W32($D598)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #63 @ $D59C - STRING #63 @ $E387
+#W32($D59C)
+//[CC.EF19][END-FE]
+[CC.EF19][END-FE]
+
+
+
+
+
+//POINTER #64 @ $D5A0 - STRING #64 @ $E38D
+#W32($D5A0)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #65 @ $D5A4 - STRING #65 @ $E393
+#W32($D5A4)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #66 @ $D5A8 - STRING #66 @ $E399
+#W32($D5A8)
+//なんと！！[NWIN]
+//
+//当闘技場設立第一回大会において[NLINE]
+//優勝したロックバイン将軍の成績が、[NLINE]
+//十数年の時を経てついに破られました！[NWIN]
+//
+//新たなるチャンピオン！[NLINE]
+//打撃ダメージ王の誕生です！[END-FE]
+Holy moly, ladies and gentlemen![NWIN]
+
+General Rockbein's record, set[NLINE]
+at the first Hard Hitter and lasting[NLINE]
+over a decade, has been broken![NWIN]
+
+Give a big hand to our contestant,[NLINE]
+the new Hard Hitter King![END-FE]
+
+
+
+
+
+//POINTER #67 @ $D5AC - STRING #67 @ $E444
+#W32($D5AC)
+//そして、[Haschen]選手は[NLINE]
+//魔法ダメージ、打撃ダメージ両部門を[NLINE]
+//制覇致しました！[NWIN]
+//
+//ついに伝説のダメージチャンピオンが[NLINE]
+//歴史に現れました！[NWIN]
+//
+//この偉業を讃え、当闘技場からは[NLINE]
+//伝説の魔槍が贈られます！[END-FE]
+Folks, [Haschen] is now the[NLINE]
+Hard Hitter King AND the[NLINE]
+Spell Slinger Archmagus![NWIN]
+
+For one man to be so deadly is[NLINE]
+unprecedented![NWIN]
+
+In honor of this feat, we present[NLINE]
+to you this legendary spear![END-FE]
+
+
+
+
+
+//POINTER #68 @ $D5B0 - STRING #68 @ $E501
+#W32($D5B0)
+//打撃ダメージ王の証として、[NLINE]
+//当闘技場から秘蔵の宝物が贈られます！[END-FE]
+And now, your prize for[NLINE]
+becoming Hard Hitter King![END-FE]
+
+
+
+
+
+//POINTER #69 @ $D5B4 - STRING #69 @ $E544
+#W32($D5B4)
+//それでは、[NWIN]
+//
+//ダメージ王[NLINE]
+//[Haschen]選手に、[NLINE]
+//もう一度大きな拍手をお願いします！[END-FE]
+One more time![NWIN]
+
+Let's give our champion[NLINE]
+another round of applause![NLINE]
+Congratulations, [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #70 @ $D5B8 - STRING #70 @ $E58F
+#W32($D5B8)
+//[Haschen]選手、[NLINE]
+//惜しくもランク外でした。[NWIN]
+//
+//次回からの活躍に期待しましょう！[END-FE]
+Unfortunately, [Haschen][NLINE]
+didn't make the cut.[NWIN]
+
+Better luck next time![END-FE]
+
+
+
+
+
+//POINTER #71 @ $D5BC - STRING #71 @ $E5D8
+#W32($D5BC)
+//打撃ダメージ王を目指す、[NLINE]
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Come back next time for[NLINE]
+[Haschen]'s next attempt at[NLINE]
+becoming Hard Hitter King![END-FE]
+
+
+
+
+
+//POINTER #72 @ $D5C0 - STRING #72 @ $E61D
+#W32($D5C0)
+//打撃ダメージ王、[NLINE]
+//[Haschen]選手の[NLINE]
+//さらなる挑戦に期待しましょう！[END-FE]
+Come back next time to[NLINE]
+see our Hard Hitter King's[NLINE]
+latest challenge![END-FE]
+
+
+
+
+
+//POINTER #73 @ $D5C4 - STRING #73 @ $E65C
+#W32($D5C4)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #74 @ $D5C8 - STRING #74 @ $E66F
+#W32($D5C8)
+//魔法ダメージ競争[END-FE]
+Spell Slinger[END-FE]
+
+
+
+
+
+//POINTER #75 @ $D5CC - STRING #75 @ $E682
+#W32($D5CC)
+//大陸一強い魔法使いは誰なのか!?[END-FE]
+Who's the strongest sorcerer of all!?[END-FE]
+
+
+
+
+
+//POINTER #76 @ $D5D0 - STRING #76 @ $E6A3
+#W32($D5D0)
+//魔法で与えられる[NLINE]
+//ダメージの大きさを競う[NLINE]
+//魔法ダメージ競争の時間が[NLINE]
+//やって参りました。[NWIN]
+//
+//本日は大陸一の魔法使い、[NLINE]
+//[Haschen]の登場です！[END-FE]
+Arcane energies will be[NLINE]
+pushed to the limit as we[NLINE]
+see who can cast the single[NLINE]
+strongest spell![NWIN]
+
+Let's welcome our returning[NLINE]
+Archmagus, [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #77 @ $D5D4 - STRING #77 @ $E728
+#W32($D5D4)
+//魔法で与えられる[NLINE]
+//ダメージの大きさを競う[NLINE]
+//魔法ダメージ競争の時間が[NLINE]
+//やって参りました。[NWIN]
+//
+//本日の挑戦者は……！[END-FE]
+Arcane energies will be[NLINE]
+pushed to the limit as we[NLINE]
+see who can cast the single[NLINE]
+strongest spell![NWIN]
+
+Today's challenger is...![END-FE]
+
+
+
+
+
+//POINTER #78 @ $D5D8 - STRING #78 @ $E797
+#W32($D5D8)
+//ルールをご説明しましょう！[END-FE]
+But how does it work, you ask?[END-FE]
+
+
+
+
+
+//POINTER #79 @ $D5DC - STRING #79 @ $E7B4
+#W32($D5DC)
+//維持軍の誇る戦闘兵器、[NLINE]
+//ガーディアンに攻撃魔法を唱え、[NLINE]
+//[COL03]一回の魔法で、出来るだけ大きなダメージ[COL00]を[NLINE]
+//与えてください。[NWIN]
+//
+//時間内に与えたダメージのうち[NLINE]
+//[COL03]一番大きなダメージ値[COL00]が記録となります。[NWIN]
+//
+//制限時間がありますので、[NLINE]
+//どの魔法を選択するかもポイントです！[END-FE]
+Our challenger will enchant and[NLINE]
+ensorcel the PMB's vaunted[NLINE]
+Guardian to [COL03]deliver the hardest[NLINE]
+incantation[COL00] he possibly can.[NWIN]
+
+The [COL03]strongest single spell[COL00] cast[NLINE]
+before time runs out is his entry.[NWIN]
+
+I remind you that time is a factor,[NLINE]
+so choose your spells wisely![END-FE]
+
+
+
+
+
+//POINTER #80 @ $D5E0 - STRING #80 @ $E8BB
+#W32($D5E0)
+//[Haschen]選手は[NLINE]
+//今回初挑戦！[NLINE]
+//果たして、ランクインできるでしょうか！[END-FE]
+Today's contestant, [Haschen],[NLINE]
+is stepping up for the first[NLINE]
+time! Could he go all the way!?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $D5E4 - STRING #81 @ $E8FE
+#W32($D5E4)
+//[Haschen]選手の[NLINE]
+//最高記録は[CC.EF18]ポイント。[NLINE]
+//記録更新はなるでしょうか!?[END-FE]
+[Haschen]'s current record[NLINE]
+is [CC.EF18] points. Can he[NLINE]
+top that? Let's find out![END-FE]
+
+
+
+
+
+//POINTER #82 @ $D5E8 - STRING #82 @ $E940
+#W32($D5E8)
+//それでは、競争を開始します！[END-FE]
+Now, let the hexes fly![END-FE]
+
+
+
+
+
+//POINTER #83 @ $D5EC - STRING #83 @ $E95F
+#W32($D5EC)
+//魔法ダメージ競争　スタート！[END-FE]
+The Spell Slinger event has begun![END-FE]
+
+
+
+
+
+//POINTER #84 @ $D5F0 - STRING #84 @ $E97E
+#W32($D5F0)
+//デバッグでタイム延ばす？[END-FE]
+デバッグでタイム延ばす？[END-FE]
+
+
+
+
+
+//POINTER #85 @ $D5F4 - STRING #85 @ $E999
+#W32($D5F4)
+//・タイムアップ[END-FE]
+・Time runs out[END-FE]
+
+
+
+
+
+//POINTER #86 @ $D5F8 - STRING #86 @ $E9AA
+#W32($D5F8)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #87 @ $D5FC - STRING #87 @ $E9B3
+#W32($D5FC)
+//[CC.EF00]ダメージ[END-FE]
+[CC.EF00] damage[END-FE]
+
+
+
+
+
+//POINTER #88 @ $D600 - STRING #88 @ $E9C1
+#W32($D600)
+//タイムアップ！[END-FE]
+Time's up![END-FE]
+
+
+
+
+
+//POINTER #89 @ $D604 - STRING #89 @ $E9D2
+#W32($D604)
+//さあ、終了いたしました。[NLINE]
+//[Haschen]選手の[NLINE]
+//成績は……[END-FE]
+So how did he do?[NLINE]
+[Haschen]'s high[NLINE]
+point today is...[END-FE]
+
+
+
+
+
+//POINTER #90 @ $D608 - STRING #90 @ $EA05
+#W32($D608)
+//[CC.EF01]ポイント！[END-FE]
+[CC.EF01] points![END-FE]
+
+
+
+
+
+//POINTER #91 @ $D60C - STRING #91 @ $EA15
+#W32($D60C)
+//[Haschen]選手、[NLINE]
+//自己最高記録の更新です！[END-FE]
+Unbelievable! That's a[NLINE]
+new record for [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #92 @ $D610 - STRING #92 @ $EA3C
+#W32($D610)
+//[Haschen]選手、[NLINE]
+//残念ながら時間内に魔法ダメージを[NLINE]
+//与える事ができませんでした。[END-FE]
+Unfortunately, [Haschen] didn't get[NLINE]
+off a single point of damage[NLINE]
+in the time limit. Ouch![END-FE]
+
+
+
+
+
+//POINTER #93 @ $D614 - STRING #93 @ $EA89
+#W32($D614)
+//デバッグ表示：[NLINE]
+//ａ：[CC.EF00][NLINE]
+//ｂ：[CC.EF01][NLINE]
+//ｃ：[CC.EF02][NLINE]
+//ｙ：[CC.EF18][END-FE]
+デバッグ表示：[NLINE]
+ａ：[CC.EF00][NLINE]
+ｂ：[CC.EF01][NLINE]
+ｃ：[CC.EF02][NLINE]
+ｙ：[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #94 @ $D618 - STRING #94 @ $EABE
+#W32($D618)
+//それでは、ランキング表を[NLINE]
+//見てみましょう！[END-FE]
+Now let's take a look[NLINE]
+at the standings![END-FE]
+
+
+
+
+
+//POINTER #95 @ $D61C - STRING #95 @ $EAEB
+#W32($D61C)
+//ランキングは調整前です。[END-FE]
+ランキングは調整前です。[END-FE]
+
+
+
+
+
+//POINTER #96 @ $D620 - STRING #96 @ $EB06
+#W32($D620)
+//　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//　　１位　　[CC.EAEDFF][NLINE]
+//　　２位　　[CC.EAEEFF][NLINE]
+//　　３位　　[CC.EAEFFF][NLINE]
+//　　４位　　[CC.EAF0FF][NLINE]
+//　　５位　　[CC.EAF1FF][NLINE]
+//　　６位　　[CC.EAF2FF][NLINE]
+//　　７位　　[CC.EAF3FF][NLINE]
+//　　８位　　[CC.EAF4FF][NLINE]
+//　　９位　　[CC.EAF5FF][NLINE]
+//　１０位　　[CC.EAF6FF][NLINE]
+//　　　　　　　　　　　　　　　　　　　　　[END-FE]
+　[NLINE]
+　[NLINE]
+　[NLINE]
+      #1     [CC.EAEDFF][NLINE]
+      #2     [CC.EAEEFF][NLINE]
+      #3     [CC.EAEFFF][NLINE]
+      #4     [CC.EAF0FF][NLINE]
+      #5     [CC.EAF1FF][NLINE]
+      #6     [CC.EAF2FF][NLINE]
+      #7     [CC.EAF3FF][NLINE]
+      #8     [CC.EAF4FF][NLINE]
+      #9     [CC.EAF5FF][NLINE]
+      #10    [CC.EAF6FF][NLINE]
+　　　　　　　　　　　　　　　　　　　　　[END-FE]
+
+
+
+
+
+//POINTER #97 @ $D624 - STRING #97 @ $EBF3
+#W32($D624)
+//■ 魔法ダメージ競争ランキング ■[END-FE]
+■Spell Slinger Standings■[END-FE]
+
+
+
+
+
+//POINTER #98 @ $D628 - STRING #98 @ $EC16
+#W32($D628)
+//限界値オーバー[END-FE]
+Exceeded the limit.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $D62C - STRING #99 @ $EC27
+#W32($D62C)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #100 @ $D630 - STRING #100 @ $EC2D
+#W32($D630)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #101 @ $D634 - STRING #101 @ $EC33
+#W32($D634)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #102 @ $D638 - STRING #102 @ $EC39
+#W32($D638)
+//[CC.EF04][END-FE]
+[CC.EF04][END-FE]
+
+
+
+
+
+//POINTER #103 @ $D63C - STRING #103 @ $EC3F
+#W32($D63C)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #104 @ $D640 - STRING #104 @ $EC45
+#W32($D640)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #105 @ $D644 - STRING #105 @ $EC4B
+#W32($D644)
+//[CC.EF05][END-FE]
+[CC.EF05][END-FE]
+
+
+
+
+
+//POINTER #106 @ $D648 - STRING #106 @ $EC51
+#W32($D648)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #107 @ $D64C - STRING #107 @ $EC57
+#W32($D64C)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #108 @ $D650 - STRING #108 @ $EC5D
+#W32($D650)
+//[CC.EF06][END-FE]
+[CC.EF06][END-FE]
+
+
+
+
+
+//POINTER #109 @ $D654 - STRING #109 @ $EC63
+#W32($D654)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #110 @ $D658 - STRING #110 @ $EC69
+#W32($D658)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #111 @ $D65C - STRING #111 @ $EC6F
+#W32($D65C)
+//[CC.EF07][END-FE]
+[CC.EF07][END-FE]
+
+
+
+
+
+//POINTER #112 @ $D660 - STRING #112 @ $EC75
+#W32($D660)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #113 @ $D664 - STRING #113 @ $EC7B
+#W32($D664)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #114 @ $D668 - STRING #114 @ $EC81
+#W32($D668)
+//[CC.EF08][END-FE]
+[CC.EF08][END-FE]
+
+
+
+
+
+//POINTER #115 @ $D66C - STRING #115 @ $EC87
+#W32($D66C)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #116 @ $D670 - STRING #116 @ $EC8D
+#W32($D670)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #117 @ $D674 - STRING #117 @ $EC93
+#W32($D674)
+//[CC.EF09][END-FE]
+[CC.EF09][END-FE]
+
+
+
+
+
+//POINTER #118 @ $D678 - STRING #118 @ $EC99
+#W32($D678)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #119 @ $D67C - STRING #119 @ $EC9F
+#W32($D67C)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #120 @ $D680 - STRING #120 @ $ECA5
+#W32($D680)
+//[CC.EF0A][END-FE]
+[CC.EF0A][END-FE]
+
+
+
+
+
+//POINTER #121 @ $D684 - STRING #121 @ $ECAB
+#W32($D684)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #122 @ $D688 - STRING #122 @ $ECB1
+#W32($D688)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #123 @ $D68C - STRING #123 @ $ECB7
+#W32($D68C)
+//[CC.EF0B][END-FE]
+[CC.EF0B][END-FE]
+
+
+
+
+
+//POINTER #124 @ $D690 - STRING #124 @ $ECBD
+#W32($D690)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #125 @ $D694 - STRING #125 @ $ECC3
+#W32($D694)
+//[CC.EF18][END-FE]
+[CC.EF18][END-FE]
+
+
+
+
+
+//POINTER #126 @ $D698 - STRING #126 @ $ECC9
+#W32($D698)
+//[CC.EF0C][END-FE]
+[CC.EF0C][END-FE]
+
+
+
+
+
+//POINTER #127 @ $D69C - STRING #127 @ $ECCF
+#W32($D69C)
+//[CC.EF0D][END-FE]
+[CC.EF0D][END-FE]
+
+
+
+
+
+//POINTER #128 @ $D6A0 - STRING #128 @ $ECD5
+#W32($D6A0)
+//なんと！！[NWIN]
+//
+//前回大会において優勝した[NLINE]
+//シェリス近衛兵長の成績が、破られました！[NWIN]
+//
+//新たなるチャンピオン！[NLINE]
+//魔法ダメージ王の誕生です！[END-FE]
+Leapin' Screapers![NWIN]
+
+Lady Sherris' record, set at the[NLINE]
+last event, has been shattered![NWIN]
+
+Let's hear some applause for our[NLINE]
+new Spell Slinger Archmagus![END-FE]
+
+
+
+
+
+//POINTER #129 @ $D6A4 - STRING #129 @ $ED5A
+#W32($D6A4)
+//そして、[Haschen]選手は[NLINE]
+//打撃ダメージ、魔法ダメージ両部門を[NLINE]
+//制覇致しました！[NWIN]
+//
+//ついに伝説のダメージチャンピオンが[NLINE]
+//歴史に現れました！[NWIN]
+//
+//この偉業を讃え、当闘技場からは[NLINE]
+//伝説の魔槍が贈られます！[END-FE]
+Folks, [Haschen] is now the[NLINE]
+Spell Slinger Archmagus AND[NLINE]
+the Hard Hitter King![NWIN]
+
+For one man to be so deadly is[NLINE]
+unprecedented![NWIN]
+
+In honor of this feat, we present[NLINE]
+to you this legendary spear![END-FE]
+
+
+
+
+
+//POINTER #130 @ $D6A8 - STRING #130 @ $EE17
+#W32($D6A8)
+//魔法ダメージ王の証として、[NLINE]
+//当闘技場から秘蔵の宝物が贈られます！[END-FE]
+And now, your prize for[NLINE]
+becoming the new Archmagus![END-FE]
+
+
+
+
+
+//POINTER #131 @ $D6AC - STRING #131 @ $EE5A
+#W32($D6AC)
+//それでは、[NWIN]
+//
+//ダメージ王[NLINE]
+//[Haschen]選手に、[NLINE]
+//もう一度大きな拍手をお願いします！[END-FE]
+One more time![NWIN]
+
+Let's give our champion[NLINE]
+another round of applause![NLINE]
+Congratulations, [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #132 @ $D6B0 - STRING #132 @ $EEA5
+#W32($D6B0)
+//[Haschen]選手、[NLINE]
+//惜しくもランク外でした。[NWIN]
+//
+//次回からの活躍に期待しましょう！[END-FE]
+Unfortunately, [Haschen][NLINE]
+didn't make the cut.[NWIN]
+
+Better luck next time![END-FE]
+
+
+
+
+
+//POINTER #133 @ $D6B4 - STRING #133 @ $EEEE
+#W32($D6B4)
+//魔法ダメージ王を目指す、[NLINE]
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Come back next time for[NLINE]
+[Haschen]'s next attempt at[NLINE]
+becoming the Archmagus![END-FE]
+
+
+
+
+
+//POINTER #134 @ $D6B8 - STRING #134 @ $EF33
+#W32($D6B8)
+//魔法ダメージ王、[NLINE]
+//[Haschen]選手の[NLINE]
+//さらなる挑戦に期待しましょう！[END-FE]
+Come back next time to[NLINE]
+see our new Archmagus'[NLINE]
+latest challenge![END-FE]
+
+
+
+
+
+//POINTER #135 @ $D6BC - STRING #135 @ $EF72
+#W32($D6BC)
+//勝ち抜きカッパークラス[END-FE]
+Copper Match[END-FE]
+
+
+
+
+
+//POINTER #136 @ $D6C0 - STRING #136 @ $EF8B
+#W32($D6C0)
+//これから勝ち抜きカッパークラスを開催します！[END-FE]
+It's time for another Copper Match![END-FE]
+
+
+
+
+
+//POINTER #137 @ $D6C4 - STRING #137 @ $EFBA
+#W32($D6C4)
+//ルールをご説明しましょう！[NWIN]
+//
+//一人で次々に現れるモンスターを[NLINE]
+//撃破してもらいます。[NLINE]
+//そして五連戦勝ち抜く事ができれば[NLINE]
+//次のクラスへの挑戦権を得る事ができます。[END-FE]
+Does everyone know the rules? No?[NWIN]
+
+A quick refresher: enemies pop up, and[NLINE]
+the challenger knocks them down.[NLINE]
+They'll have to win five rounds in a[NLINE]
+row to advance to the next class.[END-FE]
+
+
+
+
+
+//POINTER #138 @ $D6C8 - STRING #138 @ $F059
+#W32($D6C8)
+//本日の挑戦者は……[END-FE]
+Today's challenger is...[END-FE]
+
+
+
+
+
+//POINTER #139 @ $D6CC - STRING #139 @ $F06E
+#W32($D6CC)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Best of luck, gentlemen! Let's begin![END-FE]
+
+
+
+
+
+//POINTER #140 @ $D6D0 - STRING #140 @ $F097
+#W32($D6D0)
+//カッパークラス　第１戦　スタート！[END-FE]
+Copper Match Start![END-FE]
+
+
+
+
+
+//POINTER #141 @ $D6D4 - STRING #141 @ $F0BC
+#W32($D6D4)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #142 @ $D6D8 - STRING #142 @ $F0CF
+#W32($D6D8)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #143 @ $D6DC - STRING #143 @ $F0D8
+#W32($D6DC)
+//カッパークラス　第２戦！[END-FE]
+Copper Match, Round 2![END-FE]
+
+
+
+
+
+//POINTER #144 @ $D6E0 - STRING #144 @ $F0F3
+#W32($D6E0)
+//やりました、[NLINE]
+//[Haschen]選手！[NLINE]
+//５戦勝ち抜き！[NWIN]
+//
+//[Haschen]選手には[NLINE]
+//次のクラスへの挑戦権と、[NLINE]
+//賞品が授与されます！[END-FE]
+[Haschen] has done it![NLINE]
+He's won all five rounds![NWIN]
+
+He'll win this amazing[NLINE]
+prize and a chance to[NLINE]
+go to the next rank![END-FE]
+
+
+
+
+
+//POINTER #145 @ $D6E4 - STRING #145 @ $F15C
+#W32($D6E4)
+//それでは、これにて[NLINE]
+//勝ち抜きカッパークラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps up[NLINE]
+the Copper Match,[NLINE]
+folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #146 @ $D6E8 - STRING #146 @ $F1C7
+#W32($D6E8)
+//カッパークラス　第３戦！[END-FE]
+Copper Match, Round 3![END-FE]
+
+
+
+
+
+//POINTER #147 @ $D6EC - STRING #147 @ $F1E2
+#W32($D6EC)
+//カッパークラス　第４戦！[END-FE]
+Copper Match, Round 4![END-FE]
+
+
+
+
+
+//POINTER #148 @ $D6F0 - STRING #148 @ $F1FD
+#W32($D6F0)
+//カッパークラス　第５戦！[END-FE]
+Copper Match, Round 5![END-FE]
+
+
+
+
+
+//POINTER #149 @ $D6F4 - STRING #149 @ $F218
+#W32($D6F4)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[END-FE]
+Oh, rotten luck![NLINE]
+[Haschen] has to forfeit![END-FE]
+
+
+
+
+
+//POINTER #150 @ $D6F8 - STRING #150 @ $F23F
+#W32($D6F8)
+//第４戦まで勝ち抜き、[NLINE]
+//おしくも敗れ去った[NLINE]
+//[Haschen]選手には[NLINE]
+//賞金が授与されます。[END-FE]
+Sadly, [Haschen] had[NLINE]
+to forfeit in the last[NLINE]
+round, but we have a[NLINE]
+prize for him anyway![END-FE]
+
+
+
+
+
+//POINTER #151 @ $D6FC - STRING #151 @ $F28E
+#W32($D6FC)
+//これにめげず、[NLINE]
+//次も挑戦してください。[END-FE]
+I know I can't wait to[NLINE]
+see his next attempt![END-FE]
+
+
+
+
+
+//POINTER #152 @ $D700 - STRING #152 @ $F2B7
+#W32($D700)
+//それでは、これにて[NLINE]
+//勝ち抜きカッパークラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps up[NLINE]
+the Copper Match,[NLINE]
+folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #153 @ $D704 - STRING #153 @ $F322
+#W32($D704)
+//勝ち抜きシルバークラス[END-FE]
+Silver Match[END-FE]
+
+
+
+
+
+//POINTER #154 @ $D708 - STRING #154 @ $F33B
+#W32($D708)
+//これから勝ち抜きシルバークラスを開催します！[END-FE]
+It's time for another Silver Match![END-FE]
+
+
+
+
+
+//POINTER #155 @ $D70C - STRING #155 @ $F36A
+#W32($D70C)
+//ルールをご説明しましょう！[NWIN]
+//
+//一人で次々に現れるモンスターを[NLINE]
+//撃破してもらいます。[NLINE]
+//そして五連戦勝ち抜く事ができれば[NLINE]
+//次のクラスへの挑戦権を得る事ができます。[END-FE]
+Does everyone know the rules? No?[NWIN]
+
+A quick refresher: enemies pop up, and[NLINE]
+the challenger knocks them down.[NLINE]
+They'll have to win five rounds in a[NLINE]
+row to advance to the next class.[END-FE]
+
+
+
+
+
+//POINTER #156 @ $D710 - STRING #156 @ $F409
+#W32($D710)
+//本日の挑戦者は……[END-FE]
+Today's challenger is...[END-FE]
+
+
+
+
+
+//POINTER #157 @ $D714 - STRING #157 @ $F41E
+#W32($D714)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Best of luck, gentlemen! Let's begin![END-FE]
+
+
+
+
+
+//POINTER #158 @ $D718 - STRING #158 @ $F447
+#W32($D718)
+//シルバークラス　第１戦　スタート！[END-FE]
+Silver Match Start![END-FE]
+
+
+
+
+
+//POINTER #159 @ $D71C - STRING #159 @ $F46C
+#W32($D71C)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #160 @ $D720 - STRING #160 @ $F47F
+#W32($D720)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #161 @ $D724 - STRING #161 @ $F488
+#W32($D724)
+//シルバークラス　第２戦！[END-FE]
+Silver Match, Round 2![END-FE]
+
+
+
+
+
+//POINTER #162 @ $D728 - STRING #162 @ $F4A3
+#W32($D728)
+//やりました、[NLINE]
+//[Haschen]選手！[NLINE]
+//５戦勝ち抜き！[NWIN]
+//
+//[Haschen]選手には[NLINE]
+//次のクラスへの挑戦権と、[NLINE]
+//賞品が授与されます！[END-FE]
+[Haschen] has done it![NLINE]
+He's won all five rounds![NWIN]
+
+He'll win this amazing[NLINE]
+prize and a chance to[NLINE]
+go to the next rank![END-FE]
+
+
+
+
+
+//POINTER #163 @ $D72C - STRING #163 @ $F50C
+#W32($D72C)
+//それでは、これにて[NLINE]
+//勝ち抜きシルバークラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps up[NLINE]
+the Silver Match,[NLINE]
+folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #164 @ $D730 - STRING #164 @ $F577
+#W32($D730)
+//シルバークラス　第３戦！[END-FE]
+Silver Match, Round 3![END-FE]
+
+
+
+
+
+//POINTER #165 @ $D734 - STRING #165 @ $F592
+#W32($D734)
+//シルバークラス　第４戦！[END-FE]
+Silver Match, Round 4![END-FE]
+
+
+
+
+
+//POINTER #166 @ $D738 - STRING #166 @ $F5AD
+#W32($D738)
+//シルバークラス　第５戦！[END-FE]
+Silver Match, Round 5![END-FE]
+
+
+
+
+
+//POINTER #167 @ $D73C - STRING #167 @ $F5C8
+#W32($D73C)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[END-FE]
+Oh, rotten luck![NLINE]
+[Haschen] has to forfeit![END-FE]
+
+
+
+
+
+//POINTER #168 @ $D740 - STRING #168 @ $F5EF
+#W32($D740)
+//第４戦まで勝ち抜き、[NLINE]
+//おしくも敗れ去った[NLINE]
+//[Haschen]選手には[NLINE]
+//賞金が授与されます。[END-FE]
+Sadly, [Haschen] had[NLINE]
+to forfeit in the last[NLINE]
+round, but we have a[NLINE]
+prize for him anyway![END-FE]
+
+
+
+
+
+//POINTER #169 @ $D744 - STRING #169 @ $F63E
+#W32($D744)
+//これにめげず、[NLINE]
+//次も挑戦してください。[END-FE]
+I know I can't wait to[NLINE]
+see his next attempt![END-FE]
+
+
+
+
+
+//POINTER #170 @ $D748 - STRING #170 @ $F667
+#W32($D748)
+//それでは、これにて[NLINE]
+//勝ち抜きシルバークラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps up[NLINE]
+the Silver Match,[NLINE]
+folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #171 @ $D74C - STRING #171 @ $F6D2
+#W32($D74C)
+//勝ち抜きゴールドクラス[END-FE]
+Gold Match[END-FE]
+
+
+
+
+
+//POINTER #172 @ $D750 - STRING #172 @ $F6EB
+#W32($D750)
+//これから勝ち抜きゴールドクラスを開催します！[END-FE]
+It's time for another Gold Match![END-FE]
+
+
+
+
+
+//POINTER #173 @ $D754 - STRING #173 @ $F71A
+#W32($D754)
+//ルールをご説明しましょう！[NWIN]
+//
+//一人で次々に現れるモンスターを[NLINE]
+//撃破してもらいます。[NLINE]
+//そして五連戦勝ち抜く事ができれば[NLINE]
+//次のクラスへの挑戦権を得る事ができます。[END-FE]
+Does everyone know the rules? No?[NWIN]
+
+A quick refresher: enemies pop up, and[NLINE]
+the challenger knocks them down.[NLINE]
+They'll have to win five rounds in a[NLINE]
+row to advance to the next class.[END-FE]
+
+
+
+
+
+//POINTER #174 @ $D758 - STRING #174 @ $F7B9
+#W32($D758)
+//本日の挑戦者は……[END-FE]
+Today's challenger is...[END-FE]
+
+
+
+
+
+//POINTER #175 @ $D75C - STRING #175 @ $F7CE
+#W32($D75C)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Best of luck, gentlemen! Let's begin![END-FE]
+
+
+
+
+
+//POINTER #176 @ $D760 - STRING #176 @ $F7F7
+#W32($D760)
+//ゴールドクラス　第１戦　スタート！[END-FE]
+Gold Match Start![END-FE]
+
+
+
+
+
+//POINTER #177 @ $D764 - STRING #177 @ $F81C
+#W32($D764)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #178 @ $D768 - STRING #178 @ $F82F
+#W32($D768)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #179 @ $D76C - STRING #179 @ $F838
+#W32($D76C)
+//ゴールドクラス　第２戦！[END-FE]
+Gold Match, Round 2![END-FE]
+
+
+
+
+
+//POINTER #180 @ $D770 - STRING #180 @ $F853
+#W32($D770)
+//やりました、[NLINE]
+//[Haschen]選手！[NLINE]
+//５戦勝ち抜き！[NWIN]
+//
+//[Haschen]選手には[NLINE]
+//次のクラスへの挑戦権と、[NLINE]
+//賞品が授与されます！[END-FE]
+[Haschen] has done it![NLINE]
+He's won all five rounds![NWIN]
+
+He'll win this amazing[NLINE]
+prize and a chance to[NLINE]
+go to the next rank![END-FE]
+
+
+
+
+
+//POINTER #181 @ $D774 - STRING #181 @ $F8BC
+#W32($D774)
+//それでは、これにて[NLINE]
+//勝ち抜きゴールドクラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps up[NLINE]
+the Gold Match,[NLINE]
+folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #182 @ $D778 - STRING #182 @ $F927
+#W32($D778)
+//ゴールドクラス　第３戦！[END-FE]
+Gold Match, Round 3![END-FE]
+
+
+
+
+
+//POINTER #183 @ $D77C - STRING #183 @ $F942
+#W32($D77C)
+//ゴールドクラス　第４戦！[END-FE]
+Gold Match, Round 4![END-FE]
+
+
+
+
+
+//POINTER #184 @ $D780 - STRING #184 @ $F95D
+#W32($D780)
+//ゴールドクラス　第５戦！[END-FE]
+Gold Match, Round 5![END-FE]
+
+
+
+
+
+//POINTER #185 @ $D784 - STRING #185 @ $F978
+#W32($D784)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[END-FE]
+Oh, rotten luck![NLINE]
+[Haschen] has to forfeit![END-FE]
+
+
+
+
+
+//POINTER #186 @ $D788 - STRING #186 @ $F99F
+#W32($D788)
+//第４戦まで勝ち抜き、[NLINE]
+//おしくも敗れ去った[NLINE]
+//[Haschen]選手には[NLINE]
+//賞金が授与されます。[END-FE]
+Sadly, [Haschen] had[NLINE]
+to forfeit in the last[NLINE]
+round, but we have a[NLINE]
+prize for him anyway![END-FE]
+
+
+
+
+
+//POINTER #187 @ $D78C - STRING #187 @ $F9EE
+#W32($D78C)
+//これにめげず、[NLINE]
+//次も挑戦してください。[END-FE]
+I know I can't wait to[NLINE]
+see his next attempt![END-FE]
+
+
+
+
+
+//POINTER #188 @ $D790 - STRING #188 @ $FA17
+#W32($D790)
+//それでは、これにて[NLINE]
+//勝ち抜きゴールドクラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps up[NLINE]
+the Gold Match,[NLINE]
+folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #189 @ $D794 - STRING #189 @ $FA82
+#W32($D794)
+//勝ち抜きプラチナクラス[END-FE]
+Platinum Match[END-FE]
+
+
+
+
+
+//POINTER #190 @ $D798 - STRING #190 @ $FA9B
+#W32($D798)
+//これから勝ち抜きプラチナクラスを開催します！[END-FE]
+It's time for another Platinum Match![END-FE]
+
+
+
+
+
+//POINTER #191 @ $D79C - STRING #191 @ $FACA
+#W32($D79C)
+//ルールをご説明しましょう！[NWIN]
+//
+//一人で次々に現れるモンスターを[NLINE]
+//撃破してもらいます。[NLINE]
+//そして五連戦勝ち抜く事ができれば[NLINE]
+//ステキな賞品がプレゼントされます。[END-FE]
+Does everyone know the rules? No?[NWIN]
+
+A quick refresher: enemies pop up, and[NLINE]
+the challenger knocks them down.[NLINE]
+They'll have to win five rounds in a[NLINE]
+row to advance to the next class.[END-FE]
+
+
+
+
+
+//POINTER #192 @ $D7A0 - STRING #192 @ $FB63
+#W32($D7A0)
+//本日の挑戦者は……[END-FE]
+Today's challenger is...[END-FE]
+
+
+
+
+
+//POINTER #193 @ $D7A4 - STRING #193 @ $FB78
+#W32($D7A4)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Best of luck, gentlemen! Let's begin![END-FE]
+
+
+
+
+
+//POINTER #194 @ $D7A8 - STRING #194 @ $FBA1
+#W32($D7A8)
+//プラチナクラス　第１戦　スタート！[END-FE]
+Platinum Match Start![END-FE]
+
+
+
+
+
+//POINTER #195 @ $D7AC - STRING #195 @ $FBC6
+#W32($D7AC)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #196 @ $D7B0 - STRING #196 @ $FBD9
+#W32($D7B0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #197 @ $D7B4 - STRING #197 @ $FBE2
+#W32($D7B4)
+//プラチナクラス　第２戦！[END-FE]
+Platinum Match, Round 2![END-FE]
+
+
+
+
+
+//POINTER #198 @ $D7B8 - STRING #198 @ $FBFD
+#W32($D7B8)
+//やりました、[NLINE]
+//[Haschen]選手！[NLINE]
+//５戦勝ち抜き！[NWIN]
+//
+//[Haschen]選手、[NLINE]
+//ついに勝ち抜き全クラスを[NLINE]
+//制覇しました！[NLINE]
+//おめでとうございます！[NWIN]
+//
+//[Haschen]選手には[NLINE]
+//豪華な賞品が授与されます！[NLINE]
+//お受け取りください。[END-FE]
+He's done it![NLINE]
+[Haschen]has won[NLINE]
+the tournament![NWIN]
+
+Ladies and gentlemen,[NLINE]
+[Haschen] has mastered[NLINE]
+every single class of[NLINE]
+the tournament![NWIN]
+
+And have we got a[NLINE]
+magnificent prize for[NLINE]
+him![END-FE]
+
+
+
+
+
+//POINTER #199 @ $D7BC - STRING #199 @ $FCB6
+#W32($D7BC)
+//やりました、[NLINE]
+//[Haschen]選手！[NLINE]
+//５戦勝ち抜き！[NWIN]
+//
+//またしても勝ち抜きプラチナクラスを[NLINE]
+//制覇しました！[NLINE]
+//賞品の授与です。[END-FE]
+He's done it![NLINE]
+[Haschen] has won[NLINE]
+the tournament![NWIN]
+
+[Haschen] has conquered the[NLINE]
+Platinum Match once again![NLINE]
+Here's what he won![END-FE]
+
+
+
+
+
+//POINTER #200 @ $D7C0 - STRING #200 @ $FD27
+#W32($D7C0)
+//それでは、これにて[NLINE]
+//勝ち抜きプラチナクラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps[NLINE]
+up the Platinum[NLINE]
+Match, folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #201 @ $D7C4 - STRING #201 @ $FD92
+#W32($D7C4)
+//プラチナクラス　第３戦！[END-FE]
+Platinum Match, Round 3![END-FE]
+
+
+
+
+
+//POINTER #202 @ $D7C8 - STRING #202 @ $FDAD
+#W32($D7C8)
+//プラチナクラス　第４戦！[END-FE]
+Platinum Match, Round 4![END-FE]
+
+
+
+
+
+//POINTER #203 @ $D7CC - STRING #203 @ $FDC8
+#W32($D7CC)
+//プラチナクラス　第５戦！[END-FE]
+Platinum Match, Round 5![END-FE]
+
+
+
+
+
+//POINTER #204 @ $D7D0 - STRING #204 @ $FDE3
+#W32($D7D0)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[END-FE]
+Oh, rotten luck![NLINE]
+[Haschen] has to forfeit![END-FE]
+
+
+
+
+
+//POINTER #205 @ $D7D4 - STRING #205 @ $FE0A
+#W32($D7D4)
+//第４戦まで勝ち抜き、[NLINE]
+//おしくも敗れ去った[NLINE]
+//[Haschen]選手には[NLINE]
+//賞金が授与されます。[END-FE]
+Sadly, [Haschen] had[NLINE]
+to forfeit in the last[NLINE]
+round, but we have a[NLINE]
+prize for him anyway![END-FE]
+
+
+
+
+
+//POINTER #206 @ $D7D8 - STRING #206 @ $FE59
+#W32($D7D8)
+//これにめげず、[NLINE]
+//次も挑戦してください。[END-FE]
+I know I can't wait to[NLINE]
+see his next attempt![END-FE]
+
+
+
+
+
+//POINTER #207 @ $D7DC - STRING #207 @ $FE82
+#W32($D7DC)
+//それでは、これにて[NLINE]
+//勝ち抜きプラチナクラスを[NLINE]
+//終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+Aaand that wraps[NLINE]
+up the Platinum[NLINE]
+Match, folks.[NWIN]
+
+Come back again for[NLINE]
+more exciting events![END-FE]
+
+
+
+
+
+//POINTER #208 @ $D7E0 - STRING #208 @ $FEED
+#W32($D7E0)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #209 @ $D7E4 - STRING #209 @ $FF00
+#W32($D7E4)
+//ゴールドゲルバトル[END-FE]
+Gold Slime Battle[END-FE]
+
+
+
+
+
+//POINTER #210 @ $D7E8 - STRING #210 @ $FF15
+#W32($D7E8)
+//ご覧下さい、この黄金に輝くゲルたちを！[END-FE]
+Look at these beautiful golden Slimes![END-FE]
+
+
+
+
+
+//POINTER #211 @ $D7EC - STRING #211 @ $FF3E
+#W32($D7EC)
+//挑戦者、[Haschen]チームには[NLINE]
+//このゴールドゲルを思う存分[NLINE]
+//倒していただきましょう！[END-FE]
+Shiny, huh? Now let's[NLINE]
+watch [Haschen]'s team whack[NLINE]
+as many as they can![END-FE]
+
+
+
+
+
+//POINTER #212 @ $D7F0 - STRING #212 @ $FF8D
+#W32($D7F0)
+//ゴールドゲルバトル　スタート！[END-FE]
+Gold Slime Battle Start![END-FE]
+
+
+
+
+
+//POINTER #213 @ $D7F4 - STRING #213 @ $FFAE
+#W32($D7F4)
+//・モンスターすべての撃破または逃走[END-FE]
+・All enemies die or escape[END-FE]
+
+
+
+
+
+//POINTER #214 @ $D7F8 - STRING #214 @ $FFD3
+#W32($D7F8)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #215 @ $D7FC - STRING #215 @ $FFDC
+#W32($D7FC)
+//バトル終了！[END-FE]
+The battle is over![END-FE]
+
+
+
+
+
+//POINTER #216 @ $D800 - STRING #216 @ $FFEB
+#W32($D800)
+//残念！[NLINE]
+//[Haschen]チーム、[NLINE]
+//一匹のゲルも[NLINE]
+//倒すことができませんでした。[NWIN]
+//
+//次回の挑戦に期待しましょう！[END-FE]
+Ohh, how embarassing![NLINE]
+[Haschen]'s team[NLINE]
+couldn't defeat even[NLINE]
+one Slime![NWIN]
+
+Better luck next time![END-FE]
+
+
+
+
+
+//POINTER #217 @ $D804 - STRING #217 @ $1004C
+#W32($D804)
+//なんと！[NLINE]
+//[Haschen]チームは[NLINE]
+//すべてのゴールドゲルを撃破しました！[END-FE]
+Mother of pearl![NLINE]
+[Haschen]'s team wiped[NLINE]
+out all the Gold Slimes![END-FE]
+
+
+
+
+
+//POINTER #218 @ $D808 - STRING #218 @ $1008B
+#W32($D808)
+//[Haschen]チーム、[NLINE]
+//[CC.EF01]体のゴールドゲルを撃破しました！[END-FE]
+[Haschen]'s team defeated[NLINE]
+[CC.EF01] Gold Slimes![END-FE]
+
+
+
+
+
+//POINTER #219 @ $D80C - STRING #219 @ $100BF
+#W32($D80C)
+//それでは、これにてゴールドゲルバトルを[NLINE]
+//終了いたします。[END-FE]
+That's all for today's[NLINE]
+Gold Slime Battle, folks![END-FE]
+
+
+
+
+
+//POINTER #220 @ $D810 - STRING #220 @ $100FA
+#W32($D810)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #221 @ $D814 - STRING #221 @ $1010D
+#W32($D814)
+//ソウルバトル[END-FE]
+Soul Battle[END-FE]
+
+
+
+
+
+//POINTER #222 @ $D818 - STRING #222 @ $1011C
+#W32($D818)
+//あらゆる物理攻撃を[NLINE]
+//かわしてしまう魔法生物ソウル！[END-FE]
+I present Souls, incapable of[NLINE]
+being harmed by normal means![END-FE]
+
+
+
+
+
+//POINTER #223 @ $D81C - STRING #223 @ $10151
+#W32($D81C)
+//この１２体のソウルを[NLINE]
+//挑戦者たちは何体倒せるのでしょうか!?[NWIN]
+//
+//[Haschen]チームが[NLINE]
+//挑みます！[END-FE]
+[Haschen]'s team will have[NLINE]
+to use magic to make a dent![NLINE]
+How many of the 12 Souls can[NLINE]
+they slaughter? Let's watch![NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #224 @ $D820 - STRING #224 @ $101A8
+#W32($D820)
+//ソウルバトル　スタート！[END-FE]
+Soul Battle Start![END-FE]
+
+
+
+
+
+//POINTER #225 @ $D824 - STRING #225 @ $101C3
+#W32($D824)
+//・モンスターすべての撃破または逃走[END-FE]
+・All enemies die or escape[END-FE]
+
+
+
+
+
+//POINTER #226 @ $D828 - STRING #226 @ $101E8
+#W32($D828)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #227 @ $D82C - STRING #227 @ $101F1
+#W32($D82C)
+//バトル終了！[END-FE]
+The battle is over![END-FE]
+
+
+
+
+
+//POINTER #228 @ $D830 - STRING #228 @ $10200
+#W32($D830)
+//残念！[NLINE]
+//[Haschen]チーム、[NLINE]
+//一体のソウルも[NLINE]
+//倒すことができませんでした。[NWIN]
+//
+//次回の挑戦に期待しましょう！[END-FE]
+Ohh, how embarassing![NLINE]
+[Haschen]'s team[NLINE]
+couldn't defeat even[NLINE]
+one Soul![NWIN]
+
+Better luck next time![END-FE]
+
+
+
+
+
+//POINTER #229 @ $D834 - STRING #229 @ $10263
+#W32($D834)
+//なんと！[NLINE]
+//[Haschen]チームは[NLINE]
+//すべてのソウルを撃破しました！[END-FE]
+Oh my golly![NLINE]
+[Haschen]'s team wiped[NLINE]
+out all the Souls![END-FE]
+
+
+
+
+
+//POINTER #230 @ $D838 - STRING #230 @ $1029C
+#W32($D838)
+//[Haschen]チーム、[NLINE]
+//[CC.EF01]体のソウルを撃破しました！[END-FE]
+[Haschen]'s team defeated[NLINE]
+[CC.EF01] Souls![END-FE]
+
+
+
+
+
+//POINTER #231 @ $D83C - STRING #231 @ $102CA
+#W32($D83C)
+//それでは、これにてソウルバトルを[NLINE]
+//終了いたします。[END-FE]
+That's all for today's[NLINE]
+Soul Battle, folks![END-FE]
+
+
+
+
+
+//POINTER #232 @ $D840 - STRING #232 @ $102FF
+#W32($D840)
+//フリーバトル　チャンピオンクラス[END-FE]
+Champion League Free-For-All[END-FE]
+
+
+
+
+
+//POINTER #233 @ $D844 - STRING #233 @ $10322
+#W32($D844)
+//歴戦の猛者たちが集う、[NLINE]
+//夢のフリーバトル！[NWIN]
+//
+//本日は、ヒーロークラスへの[NLINE]
+//ランクアップをかけて[NLINE]
+//猛者たちが集っております！[NWIN]
+//
+//２連戦を勝ち抜けばランクアップ！[NLINE]
+//今回挑戦するのは……[NLINE]
+//[Haschen]チーム！[END-FE]
+Welcome to the Free-For-All,[NLINE]
+the wildest event around![NWIN]
+
+Today our savage contestants[NLINE]
+will be fighting for a chance to[NLINE]
+get to the Hero League![NWIN]
+
+It takes two wins in a row[NLINE]
+to make it there! Good luck,[NLINE]
+[Haschen]'s team![END-FE]
+
+
+
+
+
+//POINTER #234 @ $D848 - STRING #234 @ $103E3
+#W32($D848)
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Best of luck, gentlemen! Let's begin![END-FE]
+
+
+
+
+
+//POINTER #235 @ $D84C - STRING #235 @ $1040C
+#W32($D84C)
+//フリーバトル　第１戦　スタート！[END-FE]
+Free-For-All Round 1 Start![END-FE]
+
+
+
+
+
+//POINTER #236 @ $D850 - STRING #236 @ $1042F
+#W32($D850)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #237 @ $D854 - STRING #237 @ $10442
+#W32($D854)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #238 @ $D858 - STRING #238 @ $1044B
+#W32($D858)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #239 @ $D85C - STRING #239 @ $1045E
+#W32($D85C)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #240 @ $D860 - STRING #240 @ $10467
+#W32($D860)
+//[Haschen]チーム、[NLINE]
+//見事に１戦目を勝ち抜きました！[NWIN]
+//
+//続いて第２戦！[NWIN]
+//
+//準備が整いましたらお知らせください。[END-FE]
+[Haschen]'s team has made[NLINE]
+it past the first round![NWIN]
+
+On to round two![NWIN]
+
+Ready whenever you are![END-FE]
+
+
+
+
+
+//POINTER #241 @ $D864 - STRING #241 @ $104CC
+#W32($D864)
+//[Haschen]チーム、[NLINE]
+//準備は整いましたでしょうか？[NWIN]
+//
+//このまま時間が過ぎますと[NLINE]
+//棄権と見なされます。[NLINE]
+//お早くお知らせください。[END-FE]
+We need an answer,[NLINE]
+[Haschen]'s team![NWIN]
+
+If you don't respond, we'll[NLINE]
+have to take it as a forfeit.[NLINE]
+The clock is ticking![END-FE]
+
+
+
+
+
+//POINTER #242 @ $D868 - STRING #242 @ $10543
+#W32($D868)
+//[Haschen]チーム、[NLINE]
+//残念ながら棄権のようです。[NLINE]
+//またの挑戦をお待ちしています。[END-FE]
+[Haschen]'s team seems to[NLINE]
+be forfeiting, but they're[NLINE]
+welcome back here anytime![END-FE]
+
+
+
+
+
+//POINTER #243 @ $D86C - STRING #243 @ $1058E
+#W32($D86C)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[NWIN]
+//
+//ヒーロークラスにランクアップいたしました！[END-FE]
+[Haschen]'s team has done it![NLINE]
+They've won both battles![NWIN]
+
+They're moving up to the Hero League![END-FE]
+
+
+
+
+
+//POINTER #244 @ $D870 - STRING #244 @ $105E7
+#W32($D870)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[END-FE]
+[Haschen]'s team has[NLINE]
+done it! They've[NLINE]
+won both battles![END-FE]
+
+
+
+
+
+//POINTER #245 @ $D874 - STRING #245 @ $10614
+#W32($D874)
+//見事勝ち抜いた[NLINE]
+//[Haschen]チームには[NLINE]
+//賞品が授与されます。[END-FE]
+I think [Haschen]'s[NLINE]
+team deserves a[NLINE]
+prize for that![END-FE]
+
+
+
+
+
+//POINTER #246 @ $D878 - STRING #246 @ $1064B
+#W32($D878)
+//それでは、これにてフリーバトル、[NLINE]
+//チャンピオンクラスを終了いたします。[NWIN]
+//
+//[Haschen]チームの[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's it for today's Champion[NLINE]
+League Free-For-All![NWIN]
+
+Come back for more of[NLINE]
+[Haschen]'s team's exploits soon![END-FE]
+
+
+
+
+
+//POINTER #247 @ $D87C - STRING #247 @ $106C0
+#W32($D87C)
+//おや、もう休憩は十分でしょうか？[END-FE]
+Are you ready for more?[END-FE]
+
+
+
+
+
+//POINTER #248 @ $D880 - STRING #248 @ $106E3
+#W32($D880)
+//[Haschen]チーム、[NLINE]
+//準備万端のようです！[NWIN]
+//
+//それでは、引き続き熱戦をお楽しみください！[END-FE]
+They're ready to go,[NLINE]
+folks![NWIN]
+
+Let the battle resume![END-FE]
+
+
+
+
+
+//POINTER #249 @ $D884 - STRING #249 @ $10734
+#W32($D884)
+//そうですか、[NLINE]
+//それでは時間まで準備を整えてください。[END-FE]
+Well, you've got till the end of[NLINE]
+intermission to get it together![END-FE]
+
+
+
+
+
+//POINTER #250 @ $D888 - STRING #250 @ $1076B
+#W32($D888)
+//フリーバトル　第２戦　スタート！[END-FE]
+Free-For-All Round 2 Start![END-FE]
+
+
+
+
+
+//POINTER #251 @ $D88C - STRING #251 @ $1078E
+#W32($D88C)
+//エキシビジョンマッチ[END-FE]
+Exhibition Match[END-FE]
+
+
+
+
+
+//POINTER #252 @ $D890 - STRING #252 @ $107A5
+#W32($D890)
+//闘技場ファンの誰もが夢見た[NLINE]
+//エキシビジョンマッチの[NLINE]
+//時間がやって参りました！[NWIN]
+//
+//エントリーしているのは、[NLINE]
+//いずれ劣らぬ各国英雄クラスの[NLINE]
+//勇者ばかり！[NWIN]
+//
+//さあ、見せてもらいましょう。[NLINE]
+//その熱いバトルを！[END-FE]
+The time has come for[NLINE]
+every fight fan's dream,[NLINE]
+the Exhibition Match![NWIN]
+
+A battle royale of heroic[NLINE]
+fighters, each representing[NLINE]
+their home countries![NLINE]
+Let's all sit back and[NLINE]
+watch the sparks fly![END-FE]
+
+
+
+
+
+//POINTER #253 @ $D894 - STRING #253 @ $1086C
+#W32($D894)
+//エキシビジョンマッチ　スタート！[END-FE]
+Exhibition Match Start![END-FE]
+
+
+
+
+
+//POINTER #254 @ $D898 - STRING #254 @ $1088F
+#W32($D898)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #255 @ $D89C - STRING #255 @ $108A2
+#W32($D89C)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #256 @ $D8A0 - STRING #256 @ $108AB
+#W32($D8A0)
+//驚天動地のドリームバトルに決着がつきました。[NLINE]
+//この決戦を制したのは……[END-FE]
+Another sensational battle draws to a[NLINE]
+close, and the winner is...[END-FE]
+
+
+
+
+
+//POINTER #257 @ $D8A4 - STRING #257 @ $108F4
+#W32($D8A4)
+//[Haschen]チーム！[NWIN]
+//
+//なんと、１２名すべてを撃破し、[NLINE]
+//初の完全制覇となりました！[END-FE]
+[Haschen]'s team![NWIN]
+
+He's defeated all comers[NLINE]
+to become our new champ![NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #258 @ $D8A8 - STRING #258 @ $1093F
+#W32($D8A8)
+//[Haschen]チーム！[NWIN]
+//
+//またも１２名すべてを撃破し、[NLINE]
+//完全制覇です！[NWIN]
+//
+//強い、実に強～い！[END-FE]
+[Haschen]'s team![NWIN]
+
+They've once again[NLINE]
+steamrolled to victory![NWIN]
+
+They're unstoppable![END-FE]
+
+
+
+
+
+//POINTER #259 @ $D8AC - STRING #259 @ $10990
+#W32($D8AC)
+//[Haschen]チーム！[NWIN]
+//
+//[CC.EF01]人の選手を撃破しての優勝です！[NWIN]
+//
+//[Haschen]チームには[NLINE]
+//成績に応じた賞品が送られます！[END-FE]
+[Haschen]'s team![NWIN]
+
+He defeated a shocking [CC.EF01] warriors![NWIN]
+
+Just wait until he sees what he[NLINE]
+wins for such a performance![END-FE]
+
+
+
+
+
+//POINTER #260 @ $D8B0 - STRING #260 @ $109F2
+#W32($D8B0)
+//おっと！[NLINE]
+//[Haschen]選手、[NLINE]
+//どうやらすべての賞品を[NLINE]
+//持ちきれないほど持っているようです。[END-FE]
+Whoops! Looks like [Haschen][NLINE]
+is full up on every prize[NLINE]
+we could possibly offer[NLINE]
+him! The man is loaded![END-FE]
+
+
+
+
+
+//POINTER #261 @ $D8B4 - STRING #261 @ $10A47
+#W32($D8B4)
+//あと[CC.EF01]個の賞品を選べます。[END-FE]
+Choose [CC.EF01] more.[END-FE]
+
+
+
+
+
+//POINTER #262 @ $D8B8 - STRING #262 @ $10A65
+#W32($D8B8)
+//・魔導書[END-FE]
+・Spell Scrolls[END-FE]
+
+
+
+
+
+//POINTER #263 @ $D8BC - STRING #263 @ $10A70
+#W32($D8BC)
+//・奥義書[END-FE]
+・Knack Scrolls[END-FE]
+
+
+
+
+
+//POINTER #264 @ $D8C0 - STRING #264 @ $10A7B
+#W32($D8C0)
+//・秘本[END-FE]
+・Skill Scrolls[END-FE]
+
+
+
+
+
+//POINTER #265 @ $D8C4 - STRING #265 @ $10A84
+#W32($D8C4)
+//・いらない[END-FE]
+・Don't want any[END-FE]
+
+
+
+
+
+//POINTER #266 @ $D8C8 - STRING #266 @ $10A91
+#W32($D8C8)
+//・大地の魔導書[END-FE]
+・Earth Scroll[END-FE]
+
+
+
+
+
+//POINTER #267 @ $D8CC - STRING #267 @ $10AA2
+#W32($D8CC)
+//・氷雪の魔導書[END-FE]
+・Ice Scroll[END-FE]
+
+
+
+
+
+//POINTER #268 @ $D8D0 - STRING #268 @ $10AB3
+#W32($D8D0)
+//・烈火の魔導書[END-FE]
+・Fire Scroll[END-FE]
+
+
+
+
+
+//POINTER #269 @ $D8D4 - STRING #269 @ $10AC4
+#W32($D8D4)
+//・旋風の魔導書[END-FE]
+・Wind Scroll[END-FE]
+
+
+
+
+
+//POINTER #270 @ $D8D8 - STRING #270 @ $10AD5
+#W32($D8D8)
+//・心魂の魔導書[END-FE]
+・Soul Scroll[END-FE]
+
+
+
+
+
+//POINTER #271 @ $D8DC - STRING #271 @ $10AE6
+#W32($D8DC)
+//・神経伝達の魔導書[END-FE]
+・Neural Scroll[END-FE]
+
+
+
+
+
+//POINTER #272 @ $D8E0 - STRING #272 @ $10AFB
+#W32($D8E0)
+//・奇跡の魔導書[END-FE]
+・Miracle Scroll[END-FE]
+
+
+
+
+
+//POINTER #273 @ $D8E4 - STRING #273 @ $10B0C
+#W32($D8E4)
+//・戻る[END-FE]
+・Back[END-FE]
+
+
+
+
+
+//POINTER #274 @ $D8E8 - STRING #274 @ $10B15
+#W32($D8E8)
+//・反撃奥義の書[END-FE]
+・Counterattack Scroll[END-FE]
+
+
+
+
+
+//POINTER #275 @ $D8EC - STRING #275 @ $10B26
+#W32($D8EC)
+//・全殺斬奥義の書[END-FE]
+・Sword Scroll[END-FE]
+
+
+
+
+
+//POINTER #276 @ $D8F0 - STRING #276 @ $10B39
+#W32($D8F0)
+//・大盗賊の奥義書[END-FE]
+・Thievery Scroll[END-FE]
+
+
+
+
+
+//POINTER #277 @ $D8F4 - STRING #277 @ $10B4C
+#W32($D8F4)
+//・召喚魔術師の奥義書[END-FE]
+・Mage's Scroll[END-FE]
+
+
+
+
+
+//POINTER #278 @ $D8F8 - STRING #278 @ $10B63
+#W32($D8F8)
+//・狂戦士の奥義書[END-FE]
+・Berserker Scroll[END-FE]
+
+
+
+
+
+//POINTER #279 @ $D8FC - STRING #279 @ $10B76
+#W32($D8FC)
+//・戻る[END-FE]
+・Back[END-FE]
+
+
+
+
+
+//POINTER #280 @ $D900 - STRING #280 @ $10B7F
+#W32($D900)
+//・体力増幅秘本[END-FE]
+・Vigor Scroll[END-FE]
+
+
+
+
+
+//POINTER #281 @ $D904 - STRING #281 @ $10B90
+#W32($D904)
+//・精神力増幅秘本[END-FE]
+・Mental Scroll[END-FE]
+
+
+
+
+
+//POINTER #282 @ $D908 - STRING #282 @ $10BA3
+#W32($D908)
+//・移動力増幅秘本[END-FE]
+・Mobility Scroll[END-FE]
+
+
+
+
+
+//POINTER #283 @ $D90C - STRING #283 @ $10BB6
+#W32($D90C)
+//・動体視力強化の秘本[END-FE]
+・Vision Scroll[END-FE]
+
+
+
+
+
+//POINTER #284 @ $D910 - STRING #284 @ $10BCD
+#W32($D910)
+//・早業の秘本[END-FE]
+・Reflex Scroll[END-FE]
+
+
+
+
+
+//POINTER #285 @ $D914 - STRING #285 @ $10BDC
+#W32($D914)
+//・呪い言葉の秘本[END-FE]
+・Invoke Scroll[END-FE]
+
+
+
+
+
+//POINTER #286 @ $D918 - STRING #286 @ $10BEF
+#W32($D918)
+//・魔法原理の秘本[END-FE]
+・Magic Scroll[END-FE]
+
+
+
+
+
+//POINTER #287 @ $D91C - STRING #287 @ $10C02
+#W32($D91C)
+//・身体同調の秘本[END-FE]
+・Body Tune Scroll[END-FE]
+
+
+
+
+
+//POINTER #288 @ $D920 - STRING #288 @ $10C15
+#W32($D920)
+//・精神同調の秘本[END-FE]
+・Mind Tune Scroll[END-FE]
+
+
+
+
+
+//POINTER #289 @ $D924 - STRING #289 @ $10C28
+#W32($D924)
+//・生命力強化の秘本[END-FE]
+・Life Scroll[END-FE]
+
+
+
+
+
+//POINTER #290 @ $D928 - STRING #290 @ $10C3D
+#W32($D928)
+//・みかわしの秘本[END-FE]
+・Shadow Scroll[END-FE]
+
+
+
+
+
+//POINTER #291 @ $D92C - STRING #291 @ $10C50
+#W32($D92C)
+//・治癒力の秘本[END-FE]
+・Healing Scroll[END-FE]
+
+
+
+
+
+//POINTER #292 @ $D930 - STRING #292 @ $10C61
+#W32($D930)
+//・安らぎの秘本[END-FE]
+・Meditation Scroll[END-FE]
+
+
+
+
+
+//POINTER #293 @ $D934 - STRING #293 @ $10C72
+#W32($D934)
+//・戻る[END-FE]
+・Back[END-FE]
+
+
+
+
+
+//POINTER #294 @ $D938 - STRING #294 @ $10C7B
+#W32($D938)
+//それでは、[NLINE]
+//これにてエキシビジョンマッチを[NLINE]
+//終了いたします。[NWIN]
+//
+//次回も熱いバトルにご期待ください！[END-FE]
+That's all the Exhibition[NLINE]
+Match excitement we[NLINE]
+have for today.[NWIN]
+
+Come back next time![END-FE]
+
+
+
+
+
+//POINTER #295 @ $D93C - STRING #295 @ $10CDE
+#W32($D93C)
+//数値初期化する？[END-FE]
+数値初期化する？[END-FE]
+
+
+
+
+
+//POINTER #296 @ $D940 - STRING #296 @ $10CF1
+#W32($D940)
+//モンスター倒し大会[END-FE]
+Monster Massacre[END-FE]
+
+
+
+
+
+//POINTER #297 @ $D944 - STRING #297 @ $10D06
+#W32($D944)
+//ご覧下さい、このおぞましいモンスターたち！[END-FE]
+Look at the ugly mugs on these beasts![END-FE]
+
+
+
+
+
+//POINTER #298 @ $D948 - STRING #298 @ $10D33
+#W32($D948)
+//このモンスターを最も多く倒せるのは[NLINE]
+//いったいどのチームでしょうか!?[NWIN]
+//
+//さあ、早速試合開始といきましょう！[END-FE]
+We're here to see which team can[NLINE]
+slaughter the most of these fiends![NWIN]
+
+Let the bloodbath commence![END-FE]
+
+
+
+
+
+//POINTER #299 @ $D94C - STRING #299 @ $10D9C
+#W32($D94C)
+//モンスター倒し競争　スタート！[END-FE]
+Monster Massacre Start![END-FE]
+
+
+
+
+
+//POINTER #300 @ $D950 - STRING #300 @ $10DBD
+#W32($D950)
+//・モンスターすべての撃破[END-FE]
+・All monsters defeated[END-FE]
+
+
+
+
+
+//POINTER #301 @ $D954 - STRING #301 @ $10DD8
+#W32($D954)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #302 @ $D958 - STRING #302 @ $10DE1
+#W32($D958)
+//主：[CC.EF01]体[NLINE]
+//１：[CC.EF02]体[NLINE]
+//２：[CC.EF03]体[NLINE]
+//３：[CC.EF04]体[NLINE]
+//　[NLINE]
+//残：[CC.EF12]体[END-FE]
+主：[CC.EF01]体[NLINE]
+１：[CC.EF02]体[NLINE]
+２：[CC.EF03]体[NLINE]
+３：[CC.EF04]体[NLINE]
+　[NLINE]
+残：[CC.EF12]体[END-FE]
+
+
+
+
+
+//POINTER #303 @ $D95C - STRING #303 @ $10E1D
+#W32($D95C)
+//バトル終了！[END-FE]
+The battle is over![END-FE]
+
+
+
+
+
+//POINTER #304 @ $D960 - STRING #304 @ $10E2C
+#W32($D960)
+//あっという間の戦いでした。[NLINE]
+//最も多くゲルを倒したのは……[END-FE]
+That was over quick! The[NLINE]
+team with the most kills is...[END-FE]
+
+
+
+
+
+//POINTER #305 @ $D964 - STRING #305 @ $10E67
+#W32($D964)
+//[Haschen]チームでした！[END-FE]
+[Haschen]'s team![END-FE]
+
+
+
+
+
+//POINTER #306 @ $D968 - STRING #306 @ $10E7C
+#W32($D968)
+//ファイアストライクチームでした！[END-FE]
+The Fire Strikers![END-FE]
+
+
+
+
+
+//POINTER #307 @ $D96C - STRING #307 @ $10E9F
+#W32($D96C)
+//チーム・ゴールデンサンダーでした！[END-FE]
+Golden Thunder![END-FE]
+
+
+
+
+
+//POINTER #308 @ $D970 - STRING #308 @ $10EC4
+#W32($D970)
+//グリーンストロングチームでした！[END-FE]
+The Green Machine![END-FE]
+
+
+
+
+
+//POINTER #309 @ $D974 - STRING #309 @ $10EE7
+#W32($D974)
+//おおっと！[NLINE]
+//[Haschen]チームはなんと、[NLINE]
+//ゲル倒し大会完全制覇！[NWIN]
+//
+//どうですか、このカリスマと自信に満ちた[NLINE]
+//[Haschen]選手の姿！[NWIN]
+//
+//これからの活躍に、ますます期待がかかります！[END-FE]
+Wowee! [Haschen]'s team is the[NLINE]
+clear champion of today's[NLINE]
+Monster Massacre![NWIN]
+
+Just look at [Haschen]'s confidence[NLINE]
+out there! A warrior born and bred![NWIN]
+
+I can't wait to see what he'll sign[NLINE]
+up for next![END-FE]
+
+
+
+
+
+//POINTER #310 @ $D978 - STRING #310 @ $10F88
+#W32($D978)
+//さて、出場チームには倒したゲルの分だけ[NLINE]
+//賞品がお持ち帰りいただけます……[NWIN]
+//
+//が！[NWIN]
+//
+//[Haschen]選手はどうやら[NLINE]
+//すでに持ちきれないほど[NLINE]
+//賞品をお持ちのようです。[NWIN]
+//
+//またのチャレンジをお願いいたします。[END-FE]
+Each team will receive prizes based[NLINE]
+on how many kills they got...[NWIN]
+
+However![NWIN]
+
+[Haschen] has already reached his[NLINE]
+limit when it comes to the prize[NLINE]
+we've got in store for him.[NWIN]
+
+I can't wait for his next attempt![END-FE]
+
+
+
+
+
+//POINTER #311 @ $D97C - STRING #311 @ $11045
+#W32($D97C)
+//さて、[Haschen]選手には[NLINE]
+//倒したゲルの数だけ[NLINE]
+//賞品をお持ち帰りいただけます。[END-FE]
+Based on the number of[NLINE]
+kills his team got, this is[NLINE]
+what we have for [Haschen]![END-FE]
+
+
+
+
+
+//POINTER #312 @ $D980 - STRING #312 @ $1108E
+#W32($D980)
+//[CC.EF01]個の賞品を選べます。[END-FE]
+Choose [CC.EF01] more.[END-FE]
+
+
+
+
+
+//POINTER #313 @ $D984 - STRING #313 @ $110A8
+#W32($D984)
+//・生命のリンゴ[END-FE]
+・Life Apple[END-FE]
+
+
+
+
+
+//POINTER #314 @ $D988 - STRING #314 @ $110B9
+#W32($D988)
+//・知恵のリンゴ[END-FE]
+・Wisdom Apple[END-FE]
+
+
+
+
+
+//POINTER #315 @ $D98C - STRING #315 @ $110CA
+#W32($D98C)
+//・疾風のリンゴ[END-FE]
+・Gale Apple[END-FE]
+
+
+
+
+
+//POINTER #316 @ $D990 - STRING #316 @ $110DB
+#W32($D990)
+//・いらない[END-FE]
+・Don't want any[END-FE]
+
+
+
+
+
+//POINTER #317 @ $D994 - STRING #317 @ $110E8
+#W32($D994)
+//さて、出場チームには倒したゲルの分だけ[NLINE]
+//賞品がお持ち帰りいただけます……[NWIN]
+//
+//が！[NLINE]
+//[Haschen]チームは[NLINE]
+//一体もゲルを倒していないため、[NLINE]
+//賞品がございません。[NWIN]
+//
+//残念でした。[END-FE]
+Each team will receive prizes based[NLINE]
+on how many kills they got...[NWIN]
+
+However![NWIN]
+
+Since [Haschen]'s team failed to[NLINE]
+defeat a single Slime, they get[NLINE]
+zilch![NWIN]
+
+Better luck next time![END-FE]
+
+
+
+
+
+//POINTER #318 @ $D998 - STRING #318 @ $1118B
+#W32($D998)
+//それでは、これにて今回の[NLINE]
+//モンスター倒し大会は終了です！[NLINE]
+//またの挑戦をお待ちしています！[END-FE]
+That's it for today's Monster[NLINE]
+Massacre! Come back for[NLINE]
+more Slime-slaughtering fun![END-FE]
+
+
+
+
+
+//POINTER #319 @ $D99C - STRING #319 @ $111E6
+#W32($D99C)
+//フリーバトル　ヒーロークラス[END-FE]
+Free-For-All Hero League[END-FE]
+
+
+
+
+
+//POINTER #320 @ $D9A0 - STRING #320 @ $11205
+#W32($D9A0)
+//各国の英雄たちが集うフリーバトル、[NLINE]
+//ヒーロークラスを開催いたします。[NWIN]
+//
+//チャンピオンクラスをしのぐ、[NLINE]
+//歴戦の強者を相手に、[NLINE]
+//[Haschen]チームは[NLINE]
+//戦い抜けるでしょうか!?[END-FE]
+Welcome to the Free-For-All,[NLINE]
+the wildest event around![NWIN]
+
+Can [Haschen]'s party emerge[NLINE]
+victorious against warriors[NLINE]
+stronger than the rabble[NLINE]
+in the Champion League?[END-FE]
+
+
+
+
+
+//POINTER #321 @ $D9A4 - STRING #321 @ $112A6
+#W32($D9A4)
+//２戦勝ち抜けば、[NLINE]
+//レジェンドクラスに昇格します！[NLINE]
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Two wins in a row will get you[NLINE]
+passage to the Legend League![NLINE]
+So let's get right to it![END-FE]
+
+
+
+
+
+//POINTER #322 @ $D9A8 - STRING #322 @ $11301
+#W32($D9A8)
+//フリーバトル　第１戦　スタート！[END-FE]
+Free-For-All Round 1 Start![END-FE]
+
+
+
+
+
+//POINTER #323 @ $D9AC - STRING #323 @ $11324
+#W32($D9AC)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #324 @ $D9B0 - STRING #324 @ $11337
+#W32($D9B0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #325 @ $D9B4 - STRING #325 @ $11340
+#W32($D9B4)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #326 @ $D9B8 - STRING #326 @ $11353
+#W32($D9B8)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #327 @ $D9BC - STRING #327 @ $1135C
+#W32($D9BC)
+//[Haschen]チーム、[NLINE]
+//見事に１戦目を勝ち抜きました！[NWIN]
+//
+//続いて第２戦！[NWIN]
+//
+//準備が整いましたらお知らせください。[END-FE]
+[Haschen]'s team has made[NLINE]
+it past the first round![NWIN]
+
+On to round two![NWIN]
+
+Ready whenever you are![END-FE]
+
+
+
+
+
+//POINTER #328 @ $D9C0 - STRING #328 @ $113C1
+#W32($D9C0)
+//[Haschen]チーム、[NLINE]
+//準備は整いましたでしょうか？[NWIN]
+//
+//このまま時間が過ぎますと[NLINE]
+//棄権と見なされます。[NLINE]
+//お早くお知らせください。[END-FE]
+We need an answer,[NLINE]
+[Haschen]'s team![NWIN]
+
+If you don't respond, we'll[NLINE]
+have to take it as a forfeit.[NLINE]
+The clock is ticking![END-FE]
+
+
+
+
+
+//POINTER #329 @ $D9C4 - STRING #329 @ $11438
+#W32($D9C4)
+//[Haschen]チーム、[NLINE]
+//残念ながら棄権のようです。[NLINE]
+//またの挑戦をお待ちしています。[END-FE]
+[Haschen]'s team seems to[NLINE]
+be forfeiting, but they're[NLINE]
+welcome back here anytime![END-FE]
+
+
+
+
+
+//POINTER #330 @ $D9C8 - STRING #330 @ $11483
+#W32($D9C8)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[NWIN]
+//
+//この戦いを制した[NLINE]
+//[Haschen]チームは、[NLINE]
+//レジェンドクラスにランクアップ！[END-FE]
+[Haschen]'s team has[NLINE]
+done it again! They've[NLINE]
+won both rounds![NWIN]
+
+They're headed straight[NLINE]
+to the Legend League![END-FE]
+
+
+
+
+
+//POINTER #331 @ $D9CC - STRING #331 @ $114F4
+#W32($D9CC)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[END-FE]
+[Haschen]'s team has[NLINE]
+done it! They've[NLINE]
+won both battles![END-FE]
+
+
+
+
+
+//POINTER #332 @ $D9D0 - STRING #332 @ $11521
+#W32($D9D0)
+//見事勝ち抜いた[NLINE]
+//[Haschen]チームには[NLINE]
+//賞品が授与されます。[END-FE]
+I think [Haschen]'s[NLINE]
+team deserves a[NLINE]
+prize for that![END-FE]
+
+
+
+
+
+//POINTER #333 @ $D9D4 - STRING #333 @ $11558
+#W32($D9D4)
+//それでは、これにてフリーバトル、[NLINE]
+//ヒーロークラスを終了いたします。[NWIN]
+//
+//[Haschen]チームの[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's it for today's Hero[NLINE]
+League Free-For-All![NWIN]
+
+Come back for more of[NLINE]
+[Haschen]'s team's exploits soon![END-FE]
+
+
+
+
+
+//POINTER #334 @ $D9D8 - STRING #334 @ $115C9
+#W32($D9D8)
+//おや、もう休憩は十分でしょうか？[END-FE]
+Are you ready for more?[END-FE]
+
+
+
+
+
+//POINTER #335 @ $D9DC - STRING #335 @ $115EC
+#W32($D9DC)
+//[Haschen]チーム、[NLINE]
+//準備万端のようです！[NWIN]
+//
+//それでは、引き続き熱戦をお楽しみください！[END-FE]
+They're ready to go,[NLINE]
+folks![NWIN]
+
+Let the battle resume![END-FE]
+
+
+
+
+
+//POINTER #336 @ $D9E0 - STRING #336 @ $1163D
+#W32($D9E0)
+//そうですか、[NLINE]
+//それでは時間まで準備を整えてください。[END-FE]
+Well, you've got till the end of[NLINE]
+intermission to get it together![END-FE]
+
+
+
+
+
+//POINTER #337 @ $D9E4 - STRING #337 @ $11674
+#W32($D9E4)
+//フリーバトル　第２戦　スタート！[END-FE]
+Free-For-All Round 2 Start![END-FE]
+
+
+
+
+
+//POINTER #338 @ $D9E8 - STRING #338 @ $11697
+#W32($D9E8)
+//フリーバトル　レジェンドクラス[END-FE]
+Legend League Free-For-All[END-FE]
+
+
+
+
+
+//POINTER #339 @ $D9EC - STRING #339 @ $116B8
+#W32($D9EC)
+//ここに集うは生きた伝説！[NLINE]
+//一人一人が一騎当千！[NWIN]
+//
+//レジェンドクラスのバトルが始まります。[NLINE]
+//[Haschen]チームは[NLINE]
+//戦い抜けるでしょうか!?[END-FE]
+Every one of today's fighters is[NLINE]
+worth a thousand lesser men![NWIN]
+
+Yes, welcome to today's Legend[NLINE]
+League Free-For-All! Can[NLINE]
+[Haschen]'s team survive?[END-FE]
+
+
+
+
+
+//POINTER #340 @ $D9F0 - STRING #340 @ $11737
+#W32($D9F0)
+//２戦勝ち抜けば、[NLINE]
+//マスタークラスに昇格します！[NLINE]
+//それでは、熱いバトルを期待しましょう！[END-FE]
+They'll have to win two battles[NLINE]
+in a row to reach the Master[NLINE]
+League! Let's see how they fare![END-FE]
+
+
+
+
+
+//POINTER #341 @ $D9F4 - STRING #341 @ $11790
+#W32($D9F4)
+//フリーバトル　第１戦　スタート！[END-FE]
+Free-For-All Round 1 Start![END-FE]
+
+
+
+
+
+//POINTER #342 @ $D9F8 - STRING #342 @ $117B3
+#W32($D9F8)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #343 @ $D9FC - STRING #343 @ $117C6
+#W32($D9FC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #344 @ $DA00 - STRING #344 @ $117CF
+#W32($DA00)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #345 @ $DA04 - STRING #345 @ $117E2
+#W32($DA04)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #346 @ $DA08 - STRING #346 @ $117EB
+#W32($DA08)
+//[Haschen]チーム、[NLINE]
+//見事に１戦目を勝ち抜きました！[NWIN]
+//
+//続いて第２戦！[NWIN]
+//
+//準備が整いましたらお知らせください。[END-FE]
+[Haschen]'s team has made[NLINE]
+it past the first round![NWIN]
+
+On to round two![NWIN]
+
+Ready whenever you are![END-FE]
+
+
+
+
+
+//POINTER #347 @ $DA0C - STRING #347 @ $11850
+#W32($DA0C)
+//[Haschen]チーム、[NLINE]
+//準備は整いましたでしょうか？[NWIN]
+//
+//このまま時間が過ぎますと[NLINE]
+//棄権と見なされます。[NLINE]
+//お早くお知らせください。[END-FE]
+We need an answer,[NLINE]
+[Haschen]'s team![NWIN]
+
+If you don't respond, we'll[NLINE]
+have to take it as a forfeit.[NLINE]
+The clock is ticking![END-FE]
+
+
+
+
+
+//POINTER #348 @ $DA10 - STRING #348 @ $118C7
+#W32($DA10)
+//[Haschen]チーム、[NLINE]
+//残念ながら棄権のようです。[NLINE]
+//またの挑戦をお待ちしています。[END-FE]
+[Haschen]'s team seems to[NLINE]
+be forfeiting, but they're[NLINE]
+welcome back here anytime![END-FE]
+
+
+
+
+
+//POINTER #349 @ $DA14 - STRING #349 @ $11912
+#W32($DA14)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[NWIN]
+//
+//[Haschen]チームは、[NLINE]
+//フリーバトルの最高峰、マスタークラスに[NLINE]
+//ランクアップいたしました！[END-FE]
+[Haschen]'s team has[NLINE]
+done it again! They've[NLINE]
+won both rounds![NWIN]
+
+They're off to the majors[NLINE]
+now--the Master League![END-FE]
+
+
+
+
+
+//POINTER #350 @ $DA18 - STRING #350 @ $11993
+#W32($DA18)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[END-FE]
+[Haschen]'s team has[NLINE]
+done it! They've[NLINE]
+won both battles![END-FE]
+
+
+
+
+
+//POINTER #351 @ $DA1C - STRING #351 @ $119C0
+#W32($DA1C)
+//見事勝ち抜いた[NLINE]
+//[Haschen]チームには[NLINE]
+//賞品が授与されます。[NLINE]
+//どちらかのをお選びください。[END-FE]
+And that's not all![NLINE]
+[Haschen]'s team will[NLINE]
+also have its choice of[NLINE]
+these fabulous prizes![END-FE]
+
+
+
+
+
+//POINTER #352 @ $DA20 - STRING #352 @ $11A15
+#W32($DA20)
+//・エリクサー×３[END-FE]
+・Elixir x3[END-FE]
+
+
+
+
+
+//POINTER #353 @ $DA24 - STRING #353 @ $11A28
+#W32($DA24)
+//・祝福の鐘[END-FE]
+・Blessing Bell[END-FE]
+
+
+
+
+
+//POINTER #354 @ $DA28 - STRING #354 @ $11A35
+#W32($DA28)
+//それでは、これにてフリーバトル、[NLINE]
+//レジェンドクラスを終了いたします。[NWIN]
+//
+//[Haschen]チームの[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's it for today's Legend[NLINE]
+League Free-For-All![NWIN]
+
+Come back for more of[NLINE]
+[Haschen]'s team's exploits soon![END-FE]
+
+
+
+
+
+//POINTER #355 @ $DA2C - STRING #355 @ $11AA8
+#W32($DA2C)
+//おや、もう休憩は十分でしょうか？[END-FE]
+Are you ready for more?[END-FE]
+
+
+
+
+
+//POINTER #356 @ $DA30 - STRING #356 @ $11ACB
+#W32($DA30)
+//[Haschen]チーム、[NLINE]
+//準備万端のようです！[NWIN]
+//
+//それでは、引き続き熱戦をお楽しみください！[END-FE]
+They're ready to go,[NLINE]
+folks![NWIN]
+
+Let the battle resume![END-FE]
+
+
+
+
+
+//POINTER #357 @ $DA34 - STRING #357 @ $11B1C
+#W32($DA34)
+//そうですか、[NLINE]
+//それでは時間まで準備を整えてください。[END-FE]
+Well, you've got till the end of[NLINE]
+intermission to get it together![END-FE]
+
+
+
+
+
+//POINTER #358 @ $DA38 - STRING #358 @ $11B53
+#W32($DA38)
+//フリーバトル　第２戦　スタート！[END-FE]
+Free-For-All Round 2 Start![END-FE]
+
+
+
+
+
+//POINTER #359 @ $DA3C - STRING #359 @ $11B76
+#W32($DA3C)
+//フリーバトル　マスタークラス[END-FE]
+Master League Free-For-All[END-FE]
+
+
+
+
+
+//POINTER #360 @ $DA40 - STRING #360 @ $11B95
+#W32($DA40)
+//フリーバトルの最高峰、[NLINE]
+//マスタークラスの戦いがここに！[NWIN]
+//
+//幾多の死闘をくぐり抜け、[NLINE]
+//マスタークラスへと勝ち上ってきた[NLINE]
+//[Haschen]チーム！[END-FE]
+It's time for the Master League,[NLINE]
+the zenith of the Free-For-All![NWIN]
+
+And now I present the ones[NLINE]
+who risked it all to make their[NLINE]
+way here! [Haschen]'s team![END-FE]
+
+
+
+
+
+//POINTER #361 @ $DA44 - STRING #361 @ $11C18
+#W32($DA44)
+//フリーバトルの最高峰、[NLINE]
+//マスタークラスの戦いがここに！[END-FE]
+The elite of elites, the Master[NLINE]
+League battle, begins now![END-FE]
+
+
+
+
+
+//POINTER #362 @ $DA48 - STRING #362 @ $11C51
+#W32($DA48)
+//２戦勝ち抜けば、[NLINE]
+//[Haschen]チームが[NLINE]
+//このフリーバトルの[NLINE]
+//覇者となります！[END-FE]
+Just two wins,[NLINE]
+and [Haschen]'s team[NLINE]
+will be the Free-[NLINE]
+For-All champs![END-FE]
+
+
+
+
+
+//POINTER #363 @ $DA4C - STRING #363 @ $11C98
+#W32($DA4C)
+//マスタークラスの覇者、[NLINE]
+//[Haschen]チームは[NLINE]
+//今日も勝ち残れるでしょうか！[END-FE]
+Will the champions of[NLINE]
+the Master League pull[NLINE]
+off another victory today?[END-FE]
+
+
+
+
+
+//POINTER #364 @ $DA50 - STRING #364 @ $11CDD
+#W32($DA50)
+//フリーバトル　第１戦　スタート！[END-FE]
+Free-For-All Round 1 Start![END-FE]
+
+
+
+
+
+//POINTER #365 @ $DA54 - STRING #365 @ $11D00
+#W32($DA54)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #366 @ $DA58 - STRING #366 @ $11D13
+#W32($DA58)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #367 @ $DA5C - STRING #367 @ $11D1C
+#W32($DA5C)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #368 @ $DA60 - STRING #368 @ $11D2F
+#W32($DA60)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #369 @ $DA64 - STRING #369 @ $11D38
+#W32($DA64)
+//[Haschen]チーム、[NLINE]
+//見事に１戦目を勝ち抜きました！[NWIN]
+//
+//続いて第２戦！[NWIN]
+//
+//準備が整いましたらお知らせください。[END-FE]
+[Haschen]'s team has made[NLINE]
+it past the first round![NWIN]
+
+On to round two![NWIN]
+
+Ready whenever you are![END-FE]
+
+
+
+
+
+//POINTER #370 @ $DA68 - STRING #370 @ $11D9D
+#W32($DA68)
+//[Haschen]チーム、[NLINE]
+//準備は整いましたでしょうか？[NWIN]
+//
+//このまま時間が過ぎますと[NLINE]
+//棄権と見なされます。[NLINE]
+//お早くお知らせください。[END-FE]
+We need an answer,[NLINE]
+[Haschen]'s team![NWIN]
+
+If you don't respond, we'll[NLINE]
+have to take it as a forfeit.[NLINE]
+The clock is ticking![END-FE]
+
+
+
+
+
+//POINTER #371 @ $DA6C - STRING #371 @ $11E14
+#W32($DA6C)
+//[Haschen]チーム、[NLINE]
+//残念ながら棄権のようです。[NLINE]
+//またの挑戦をお待ちしています。[END-FE]
+[Haschen]'s team seems to[NLINE]
+be forfeiting, but they're[NLINE]
+welcome back here anytime![END-FE]
+
+
+
+
+
+//POINTER #372 @ $DA70 - STRING #372 @ $11E5F
+#W32($DA70)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[NWIN]
+//
+//ついにフリーバトルの最高峰、[NLINE]
+//マスタークラスを制し、[NLINE]
+//覇者となりました！[NWIN]
+//
+//見事勝ち抜いた[NLINE]
+//[Haschen]チームには[NLINE]
+//賞品が授与されます。[NLINE]
+//どちらかのをお選びください。[END-FE]
+Ladies and gentlemen,[NLINE]
+[Haschen]'s team has gone[NLINE]
+all the way to the top![NWIN]
+
+They're the new[NLINE]
+reigning champions of[NLINE]
+the Free-For-All![NWIN]
+
+And now it's time for[NLINE]
+the victors to choose[NLINE]
+one of our lovely prizes![END-FE]
+
+
+
+
+
+//POINTER #373 @ $DA74 - STRING #373 @ $11F2A
+#W32($DA74)
+//・エリクサー×５[END-FE]
+・Elixir x5[END-FE]
+
+
+
+
+
+//POINTER #374 @ $DA78 - STRING #374 @ $11F3D
+#W32($DA78)
+//・祝福の鐘×２[END-FE]
+・Blessing Bell x2[END-FE]
+
+
+
+
+
+//POINTER #375 @ $DA7C - STRING #375 @ $11F4E
+#W32($DA7C)
+//そして王者の証として[NLINE]
+//特別な賞品が与えられます！[END-FE]
+And we have a special gift[NLINE]
+for our true champion![END-FE]
+
+
+
+
+
+//POINTER #376 @ $DA80 - STRING #376 @ $11F81
+#W32($DA80)
+//やりました、[NLINE]
+//[Haschen]チーム！[NLINE]
+//２戦勝ち抜き！[NWIN]
+//
+//ついにフリーバトルの最高峰、[NLINE]
+//マスタークラスを制し、[NLINE]
+//覇者となりました！[NWIN]
+//
+//見事勝ち抜いた[NLINE]
+//[Haschen]チームには[NLINE]
+//賞品が授与されます。[NLINE]
+//どちらかのをお選びください。[END-FE]
+Ladies and gentlemen,[NLINE]
+[Haschen]'s team has gone[NLINE]
+all the way to the top![NWIN]
+
+They're the new[NLINE]
+reigning champions of[NLINE]
+the Free-For-All![NWIN]
+
+And now it's time for[NLINE]
+the victors to choose[NLINE]
+one of our lovely prizes![END-FE]
+
+
+
+
+
+//POINTER #377 @ $DA84 - STRING #377 @ $1204C
+#W32($DA84)
+//・エリクサー×５[END-FE]
+・Elixir x5[END-FE]
+
+
+
+
+
+//POINTER #378 @ $DA88 - STRING #378 @ $1205F
+#W32($DA88)
+//・祝福の鐘×２[END-FE]
+・Blessing Bell x2[END-FE]
+
+
+
+
+
+//POINTER #379 @ $DA8C - STRING #379 @ $12070
+#W32($DA8C)
+//それでは、これにてフリーバトル、[NLINE]
+//マスタークラスを終了いたします。[NWIN]
+//
+//フリーバトルの覇者、[NLINE]
+//[Haschen]チームの[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's it for today's Legend[NLINE]
+League Free-For-All![NWIN]
+
+Come back for more[NLINE]
+exploits from our[NLINE]
+champions, [Haschen]'s team![END-FE]
+
+
+
+
+
+//POINTER #380 @ $DA90 - STRING #380 @ $120F7
+#W32($DA90)
+//おや、もう休憩は十分でしょうか？[END-FE]
+Are you ready for more?[END-FE]
+
+
+
+
+
+//POINTER #381 @ $DA94 - STRING #381 @ $1211A
+#W32($DA94)
+//[Haschen]チーム、[NLINE]
+//準備万端のようです！[NWIN]
+//
+//それでは、引き続き熱戦をお楽しみください！[END-FE]
+They're ready to go,[NLINE]
+folks![NWIN]
+
+Let the battle resume![END-FE]
+
+
+
+
+
+//POINTER #382 @ $DA98 - STRING #382 @ $1216B
+#W32($DA98)
+//そうですか、[NLINE]
+//それでは時間まで準備を整えてください。[END-FE]
+Well, you've got till the end of[NLINE]
+intermission to get it together![END-FE]
+
+
+
+
+
+//POINTER #383 @ $DA9C - STRING #383 @ $121A2
+#W32($DA9C)
+//フリーバトル　第２戦　スタート！[END-FE]
+Free-For-All Round 2 Start![END-FE]
+
+
+
+
+
+//POINTER #384 @ $DAA0 - STRING #384 @ $121C5
+#W32($DAA0)
+//スレイヤー認定試験　ポーンクラス[END-FE]
+Slayer Certification Exam, Pawn Class[END-FE]
+
+
+
+
+
+//POINTER #385 @ $DAA4 - STRING #385 @ $121E8
+#W32($DAA4)
+//これからスレイヤー認定試験、[NLINE]
+//ポーンクラスを開催します！[END-FE]
+It's time for the Pawn Class[NLINE]
+Slayer Certification Exam![END-FE]
+
+
+
+
+
+//POINTER #386 @ $DAA8 - STRING #386 @ $12223
+#W32($DAA8)
+//一対一でスクリーパーを倒した者のみに[NLINE]
+//与えられる称号、スレイヤー。[NWIN]
+//
+//人の天敵と恐れられ、[NLINE]
+//それでも打ち倒す者だけが[NLINE]
+//手にできる強さの証。[NWIN]
+//
+//果敢にもこの高き壁に[NLINE]
+//立ち向かおうとする者がいます！[END-FE]
+Only those who can defeat Screapers[NLINE]
+in single combat are called Slayers.[NWIN]
+
+This is the opportunity for those[NLINE]
+strong enough to prove their[NLINE]
+abilities.[NWIN]
+
+Today we have just such a[NLINE]
+contender for you![END-FE]
+
+
+
+
+
+//POINTER #387 @ $DAAC - STRING #387 @ $122E4
+#W32($DAAC)
+//本日の挑戦者は……[END-FE]
+His name is...[END-FE]
+
+
+
+
+
+//POINTER #388 @ $DAB0 - STRING #388 @ $122F9
+#W32($DAB0)
+//残念ながら本物のスクリーパーの[NLINE]
+//捕獲は叶いませんでしたが、[NLINE]
+//同等の能力を秘めた[NLINE]
+//対戦相手を用意しました！[NWIN]
+//
+//これを打ち倒し、[NLINE]
+//我々の前に新たな英雄の誕生を[NLINE]
+//垣間見させてくれるのでしょうか？[NWIN]
+//
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Unfortunately, we don't have[NLINE]
+a real Screaper for you, but[NLINE]
+we've got an opponent that's[NLINE]
+just as strong as the real thing![NWIN]
+
+Can our challenger beat it? Are[NLINE]
+we about to witness the birth[NLINE]
+of a new hero?[NWIN]
+
+Watch closely, ladies and gents![END-FE]
+
+
+
+
+
+//POINTER #389 @ $DAB4 - STRING #389 @ $123DE
+#W32($DAB4)
+//ポーンクラス　試験　スタート！[END-FE]
+Pawn Class Examination Start![END-FE]
+
+
+
+
+
+//POINTER #390 @ $DAB8 - STRING #390 @ $123FF
+#W32($DAB8)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #391 @ $DABC - STRING #391 @ $12412
+#W32($DABC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #392 @ $DAC0 - STRING #392 @ $1241B
+#W32($DAC0)
+//ポーン・スレイヤー[END-FE]
+Pawn Slayer[END-FE]
+
+
+
+
+
+//POINTER #393 @ $DAC4 - STRING #393 @ $12430
+#W32($DAC4)
+//ここに新たなスレイヤーが[NLINE]
+//誕生しました！[NLINE]
+//その名も[Haschen]！[NWIN]
+//
+//見事ポーン・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//ポーン・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+There's a new Slayer in[NLINE]
+the world today! His name is[NLINE]
+[Haschen]![NWIN]
+
+For defeating a Pawn[NLINE]
+Screaper in single combat,[NLINE]
+[Haschen] receives the title[NLINE]
+of Pawn Slayer and a prize![END-FE]
+
+
+
+
+
+//POINTER #394 @ $DAC8 - STRING #394 @ $124D3
+#W32($DAC8)
+//またも見せてくれました！[NLINE]
+//ポーン・スレイヤー[NLINE]
+//[Haschen]！[END-FE]
+Pawn Slayer[NLINE]
+[Haschen] has[NLINE]
+done it again![END-FE]
+
+
+
+
+
+//POINTER #395 @ $DACC - STRING #395 @ $1250A
+#W32($DACC)
+//ポーン・スクリーパーでは[NLINE]
+//止められない！[NLINE]
+//ルーク・スレイヤー[NLINE]
+//[Haschen]！[END-FE]
+Pawn Screapers[NLINE]
+are no match for[NLINE]
+[Haschen], the[NLINE]
+Rook Slayer![END-FE]
+
+
+
+
+
+//POINTER #396 @ $DAD0 - STRING #396 @ $12551
+#W32($DAD0)
+//魅せてくれます！[NLINE]
+//ナイト・スレイヤー[NLINE]
+//[Haschen]。[END-FE]
+Another takedown[NLINE]
+from Knight Slayer[NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #397 @ $DAD4 - STRING #397 @ $12580
+#W32($DAD4)
+//行く手を遮るもの無し！[NLINE]
+//ビショップ・スレイヤー[NLINE]
+//[Haschen]。[END-FE]
+Nothing can stop[NLINE]
+[Haschen] the[NLINE]
+Bishop Slayer![END-FE]
+
+
+
+
+
+//POINTER #398 @ $DAD8 - STRING #398 @ $125B9
+#W32($DAD8)
+//ヤクト・スレイヤー、[NLINE]
+//[Haschen]！[NLINE]
+//この名は歴史に[NLINE]
+//深く刻まれることでしょう！[END-FE]
+Jagd Slayer[Haschen]![NLINE]
+Your name will go down[NLINE]
+in history![END-FE]
+
+
+
+
+
+//POINTER #399 @ $DADC - STRING #399 @ $12604
+#W32($DADC)
+//見事ポーン・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//賞品が授与されます！[END-FE]
+We've got a fantastic prize for[NLINE]
+[Haschen] for successfully[NLINE]
+defeating the Pawn Screaper![END-FE]
+
+
+
+
+
+//POINTER #400 @ $DAE0 - STRING #400 @ $12651
+#W32($DAE0)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ポーンクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Pawn[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+contestant will do next![END-FE]
+
+
+
+
+
+//POINTER #401 @ $DAE4 - STRING #401 @ $126C4
+#W32($DAE4)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[NWIN]
+//
+//これにめげず、[NLINE]
+//次回も挑戦してください。[END-FE]
+Bad luck for [Haschen]![NLINE]
+He'll have to give up![NWIN]
+
+But he's welcome[NLINE]
+to try again anytime![END-FE]
+
+
+
+
+
+//POINTER #402 @ $DAE8 - STRING #402 @ $12715
+#W32($DAE8)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ポーンクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Pawn[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+contestant will do next![END-FE]
+
+
+
+
+
+//POINTER #403 @ $DAEC - STRING #403 @ $12788
+#W32($DAEC)
+//スレイヤー認定試験　ルーククラス[END-FE]
+Slayer Certification Exam, Rook Class[END-FE]
+
+
+
+
+
+//POINTER #404 @ $DAF0 - STRING #404 @ $127AB
+#W32($DAF0)
+//これからスレイヤー認定試験、[NLINE]
+//ルーククラスを開催します！[END-FE]
+It's time for the Rook Class[NLINE]
+Slayer Certification Exam![END-FE]
+
+
+
+
+
+//POINTER #405 @ $DAF4 - STRING #405 @ $127E6
+#W32($DAF4)
+//一対一でスクリーパーを倒した者のみに[NLINE]
+//与えられる称号、スレイヤー。[NWIN]
+//
+//人の天敵と恐れられ、[NLINE]
+//それでも打ち倒す者だけが[NLINE]
+//手にできる強さの証。[NWIN]
+//
+//果敢にもこの高き壁に[NLINE]
+//立ち向かおうとする者がいます！[END-FE]
+Only those who can defeat Screapers[NLINE]
+in single combat are called Slayers.[NWIN]
+
+This is the opportunity for those[NLINE]
+strong enough to prove their[NLINE]
+abilities.[NWIN]
+
+Today we have just such a[NLINE]
+contender for you![END-FE]
+
+
+
+
+
+//POINTER #406 @ $DAF8 - STRING #406 @ $128A7
+#W32($DAF8)
+//本日の挑戦者は……[END-FE]
+His name is...[END-FE]
+
+
+
+
+
+//POINTER #407 @ $DAFC - STRING #407 @ $128BC
+#W32($DAFC)
+//残念ながら本物のスクリーパーの[NLINE]
+//捕獲は叶いませんでしたが、[NLINE]
+//同等の能力を秘めた[NLINE]
+//対戦相手を用意しました！[NWIN]
+//
+//これを打ち倒し、[NLINE]
+//我々の前に新たな英雄の誕生を[NLINE]
+//垣間見させてくれるのでしょうか？[NWIN]
+//
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Unfortunately, we don't have[NLINE]
+a real Screaper for you, but[NLINE]
+we've got an opponent that's[NLINE]
+just as strong as the real thing![NWIN]
+
+Can our challenger beat it? Are[NLINE]
+we about to witness the birth[NLINE]
+of a new hero?[NWIN]
+
+Watch closely, ladies and gents![END-FE]
+
+
+
+
+
+//POINTER #408 @ $DB00 - STRING #408 @ $129A1
+#W32($DB00)
+//ルーククラス　試験　スタート！[END-FE]
+Rook Class Examination Start![END-FE]
+
+
+
+
+
+//POINTER #409 @ $DB04 - STRING #409 @ $129C2
+#W32($DB04)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #410 @ $DB08 - STRING #410 @ $129D5
+#W32($DB08)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #411 @ $DB0C - STRING #411 @ $129DE
+#W32($DB0C)
+//ルーク・スレイヤー[END-FE]
+Rook Slayer[END-FE]
+
+
+
+
+
+//POINTER #412 @ $DB10 - STRING #412 @ $129F3
+#W32($DB10)
+//ここに栄誉あるスレイヤーが[NLINE]
+//誕生しました！[NLINE]
+//その名も[Haschen]！[NWIN]
+//
+//見事ルーク・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//ルーク・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+Our Slayer [Haschen][NLINE]
+is really moving up[NLINE]
+in the world![NWIN]
+
+For defeating a Rook[NLINE]
+Screaper in single combat,[NLINE]
+[Haschen] receives the title[NLINE]
+of Rook Slayer and a prize![END-FE]
+
+
+
+
+
+//POINTER #413 @ $DB14 - STRING #413 @ $12A98
+#W32($DB14)
+//称号に偽り無し！[NLINE]
+//ルーク・スレイヤー[NLINE]
+//[Haschen]！[END-FE]
+His title says it[NLINE]
+all! [Haschen][NLINE]
+the Rook Slayer![END-FE]
+
+
+
+
+
+//POINTER #414 @ $DB18 - STRING #414 @ $12AC7
+#W32($DB18)
+//魅せてくれます！[NLINE]
+//ナイト・スレイヤー[NLINE]
+//[Haschen]。[END-FE]
+Another takedown[NLINE]
+from Knight Slayer[NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #415 @ $DB1C - STRING #415 @ $12AF6
+#W32($DB1C)
+//行く手を遮るもの無し！[NLINE]
+//ビショップ・スレイヤー[NLINE]
+//[Haschen]。[END-FE]
+Nothing can stop[NLINE]
+[Haschen] the[NLINE]
+Bishop Slayer![END-FE]
+
+
+
+
+
+//POINTER #416 @ $DB20 - STRING #416 @ $12B2F
+#W32($DB20)
+//ヤクト・スレイヤー、[NLINE]
+//[Haschen]！[NLINE]
+//この名は歴史に[NLINE]
+//深く刻まれることでしょう！[END-FE]
+Jagd Slayer[Haschen]![NLINE]
+Your name will go down[NLINE]
+in history![END-FE]
+
+
+
+
+
+//POINTER #417 @ $DB24 - STRING #417 @ $12B7A
+#W32($DB24)
+//見事ルーク・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//賞品が授与されます！[END-FE]
+For singlehandedly defeating a[NLINE]
+Rook Screaper, [Haschen][NLINE]
+gets this fantastic prize![END-FE]
+
+
+
+
+
+//POINTER #418 @ $DB28 - STRING #418 @ $12BC7
+#W32($DB28)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ルーククラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Rook[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #419 @ $DB2C - STRING #419 @ $12C3A
+#W32($DB2C)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[NWIN]
+//
+//これにめげず、[NLINE]
+//次回も挑戦してください。[END-FE]
+Bad luck for [Haschen]![NLINE]
+He'll have to give up![NWIN]
+
+But he's welcome[NLINE]
+to try again anytime![END-FE]
+
+
+
+
+
+//POINTER #420 @ $DB30 - STRING #420 @ $12C8B
+#W32($DB30)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ルーククラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Rook[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #421 @ $DB34 - STRING #421 @ $12CFE
+#W32($DB34)
+//スレイヤー認定試験　ナイトクラス[END-FE]
+Slayer Certification Exam, Knight Class[END-FE]
+
+
+
+
+
+//POINTER #422 @ $DB38 - STRING #422 @ $12D21
+#W32($DB38)
+//これからスレイヤー認定試験、[NLINE]
+//ナイトクラスを開催します！[END-FE]
+It's time for the Knight Class[NLINE]
+Slayer Certification Exam![END-FE]
+
+
+
+
+
+//POINTER #423 @ $DB3C - STRING #423 @ $12D5C
+#W32($DB3C)
+//一対一でスクリーパーを倒した者のみに[NLINE]
+//与えられる称号、スレイヤー。[NWIN]
+//
+//人の天敵と恐れられ、[NLINE]
+//それでも打ち倒す者だけが[NLINE]
+//手にできる強さの証。[END-FE]
+Only those who can defeat Screapers[NLINE]
+in single combat are called Slayers.[NWIN]
+
+This is the opportunity for those[NLINE]
+strong enough to prove their[NLINE]
+abilities.[END-FE]
+
+
+
+
+
+//POINTER #424 @ $DB40 - STRING #424 @ $12DE7
+#W32($DB40)
+//本日の挑戦者は、[NLINE]
+//前人未踏の領域に踏み入れ、[NLINE]
+//今やこの闘技場で知らぬ者はいません！[NLINE]
+//そう、彼こそ[NLINE]
+//史上最強のスレイヤー！[END-FE]
+Our challenger today needs[NLINE]
+no introduction! You know[NLINE]
+the man I'm talking about--[NLINE]
+The greatest Slayer on[NLINE]
+the continent![END-FE]
+
+
+
+
+
+//POINTER #425 @ $DB44 - STRING #425 @ $12E62
+#W32($DB44)
+//記録による限り、[NLINE]
+//あのロックバイン将軍しか[NLINE]
+//なし得ていない偉業！[NWIN]
+//
+//それに挑戦しようとする[NLINE]
+//勇気ある者が現れました！[END-FE]
+According to our records,[NLINE]
+only General Rockbein[NLINE]
+has passed this exam![NWIN]
+
+But today we have with[NLINE]
+us a challenger![END-FE]
+
+
+
+
+
+//POINTER #426 @ $DB48 - STRING #426 @ $12ED7
+#W32($DB48)
+//本日の挑戦者は、[NLINE]
+//ロックバイン将軍と並ぶ、[NLINE]
+//ナイトの称号を持つ者！[END-FE]
+Today's challenger[NLINE]
+is a Slayer on par with[NLINE]
+General Rockbein![END-FE]
+
+
+
+
+
+//POINTER #427 @ $DB4C - STRING #427 @ $12F1C
+#W32($DB4C)
+//残念ながら本物のスクリーパーの[NLINE]
+//捕獲は叶いませんでしたが、[NLINE]
+//同等の能力を秘めた[NLINE]
+//対戦相手を用意しました！[NWIN]
+//
+//これを打ち倒し、[NLINE]
+//我々の前に新たな英雄の誕生を[NLINE]
+//垣間見させてくれるのでしょうか？[NWIN]
+//
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Unfortunately, we don't have[NLINE]
+a real Screaper for you, but[NLINE]
+we've got an opponent that's[NLINE]
+just as strong as the real thing![NWIN]
+
+Can our challenger beat it? Are[NLINE]
+we about to witness the birth[NLINE]
+of a new hero?[NWIN]
+
+Watch closely, ladies and gents![END-FE]
+
+
+
+
+
+//POINTER #428 @ $DB50 - STRING #428 @ $13001
+#W32($DB50)
+//ナイトクラス　試験　スタート！[END-FE]
+Knight Class Examination Start![END-FE]
+
+
+
+
+
+//POINTER #429 @ $DB54 - STRING #429 @ $13022
+#W32($DB54)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #430 @ $DB58 - STRING #430 @ $13035
+#W32($DB58)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #431 @ $DB5C - STRING #431 @ $1303E
+#W32($DB5C)
+//ナイト・スレイヤー[END-FE]
+Knight Slayer[END-FE]
+
+
+
+
+
+//POINTER #432 @ $DB60 - STRING #432 @ $13053
+#W32($DB60)
+//ここに人類２人目の[NLINE]
+//栄誉あるスレイヤーが[NLINE]
+//誕生しました！[NLINE]
+//その名も[Haschen]！[NWIN]
+//
+//見事ナイト・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//ナイト・スレイヤーの称号と[NLINE]
+//賞品が授与されます！[END-FE]
+At long last, we have[NLINE]
+a second Knight Slayer![NLINE]
+Ladies and gentlemen, I[NLINE]
+give you [Haschen]![NWIN]
+
+For defeating a Knight[NLINE]
+Screaper in single combat,[NLINE]
+[Haschen] receives the title[NLINE]
+of Knight Slayer and a prize![END-FE]
+
+
+
+
+
+//POINTER #433 @ $DB64 - STRING #433 @ $13106
+#W32($DB64)
+//お～っと、[NLINE]
+//残念なことに[NLINE]
+//[Haschen]選手、[NLINE]
+//ラナの実はこれ以上持ちきれない。[NWIN]
+//
+//このラナの実は受付に預けておきます。[NLINE]
+//手軽になった時に来てください。[END-FE]
+Oh, unlucky [Haschen]![NLINE]
+He can't hold any more Rana[NLINE]
+Fruits, I'm afraid.[NWIN]
+
+We'll leave this one with[NLINE]
+reception for you to claim later.[END-FE]
+
+
+
+
+
+//POINTER #434 @ $DB68 - STRING #434 @ $13195
+#W32($DB68)
+//魅せてくれます！[NLINE]
+//ナイト・スレイヤー[NLINE]
+//[Haschen]。[END-FE]
+Another takedown[NLINE]
+from Knight Slayer[NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #435 @ $DB6C - STRING #435 @ $131C4
+#W32($DB6C)
+//行く手を遮るもの無し！[NLINE]
+//ビショップ・スレイヤー[NLINE]
+//[Haschen]。[END-FE]
+Nothing can stop[NLINE]
+[Haschen] the[NLINE]
+Bishop Slayer![END-FE]
+
+
+
+
+
+//POINTER #436 @ $DB70 - STRING #436 @ $131FD
+#W32($DB70)
+//ヤクト・スレイヤー、[NLINE]
+//[Haschen]！[NLINE]
+//この名は歴史に[NLINE]
+//深く刻まれることでしょう！[END-FE]
+Jagd Slayer[Haschen]![NLINE]
+Your name will go down[NLINE]
+in history![END-FE]
+
+
+
+
+
+//POINTER #437 @ $DB74 - STRING #437 @ $13248
+#W32($DB74)
+//見事ナイト・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//賞品が授与されます！[END-FE]
+For singlehandedly defeating a[NLINE]
+Knight Screaper, [Haschen][NLINE]
+gets this fantastic prize![END-FE]
+
+
+
+
+
+//POINTER #438 @ $DB78 - STRING #438 @ $13295
+#W32($DB78)
+//お～と、[NLINE]
+//残念なことに[NLINE]
+//[Haschen]選手、[NLINE]
+//ラナの実はこれ以上持ちきれない。[NWIN]
+//
+//このラナの実は受付に預けておきます。[NLINE]
+//手軽になった時に来てください。[END-FE]
+Oh, unlucky [Haschen]![NLINE]
+He can't hold any more Rana[NLINE]
+Fruits, I'm afraid.[NWIN]
+
+We'll leave this one with[NLINE]
+reception for you to claim later.[END-FE]
+
+
+
+
+
+//POINTER #439 @ $DB7C - STRING #439 @ $13322
+#W32($DB7C)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ナイトクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Knight[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #440 @ $DB80 - STRING #440 @ $13395
+#W32($DB80)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[NWIN]
+//
+//これにめげず、[NLINE]
+//次回も挑戦してください。[END-FE]
+Bad luck for [Haschen]![NLINE]
+He'll have to give up![NWIN]
+
+But he's welcome[NLINE]
+to try again anytime![END-FE]
+
+
+
+
+
+//POINTER #441 @ $DB84 - STRING #441 @ $133E6
+#W32($DB84)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ナイトクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Knight[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #442 @ $DB88 - STRING #442 @ $13459
+#W32($DB88)
+//スレイヤー認定試験　ビショップクラス[END-FE]
+Slayer Certification Exam, Bishop Class[END-FE]
+
+
+
+
+
+//POINTER #443 @ $DB8C - STRING #443 @ $13480
+#W32($DB8C)
+//これからスレイヤー認定試験、[NLINE]
+//ビショップクラスを開催します！[END-FE]
+It's time for the Bishop Class[NLINE]
+Slayer Certification Exam![END-FE]
+
+
+
+
+
+//POINTER #444 @ $DB90 - STRING #444 @ $134BF
+#W32($DB90)
+//一対一でスクリーパーを倒した者のみに[NLINE]
+//与えられる称号、スレイヤー。[NWIN]
+//
+//人の天敵と恐れられ、[NLINE]
+//それでも打ち倒す者だけが[NLINE]
+//手にできる強さの証。[END-FE]
+Only those who can defeat Screapers[NLINE]
+in single combat are called Slayers.[NWIN]
+
+This is the opportunity for those[NLINE]
+strong enough to prove their[NLINE]
+abilities.[END-FE]
+
+
+
+
+
+//POINTER #445 @ $DB94 - STRING #445 @ $1354A
+#W32($DB94)
+//そしてここに、[NLINE]
+//誰も踏み入れたことのない境地へと[NLINE]
+//挑戦する若者がいます。[NWIN]
+//
+//人類が確認する最強最悪のスクリーパー！[NLINE]
+//この災厄と一対一で勝利することが、[NLINE]
+//果たして人間にできるのか！[NLINE]
+//私たちに可能性を見せてくれるのか！[END-FE]
+Today's challenger will be facing[NLINE]
+an opponent never before[NLINE]
+attempted in this Colosseum.[NWIN]
+
+The strongest and worst Screaper[NLINE]
+known to mankind! Is it humanly[NLINE]
+possible to defeat? Have we, as[NLINE]
+men, met our match!?[END-FE]
+
+
+
+
+
+//POINTER #446 @ $DB98 - STRING #446 @ $13621
+#W32($DB98)
+//本日の挑戦者は……[END-FE]
+Today's challenger is...[END-FE]
+
+
+
+
+
+//POINTER #447 @ $DB9C - STRING #447 @ $13636
+#W32($DB9C)
+//本日の挑戦者は、[NLINE]
+//前人未踏の領域に踏み入れ、[NLINE]
+//今やこの闘技場で知らぬ者はいません！[NLINE]
+//そう、彼こそ[NLINE]
+//史上最強のスレイヤー！[END-FE]
+Today's challenger has already[NLINE]
+braved this threat once, and[NLINE]
+he needs no introduction![NLINE]
+Yes, I refer to the strongest[NLINE]
+Slayer the world has ever seen![END-FE]
+
+
+
+
+
+//POINTER #448 @ $DBA0 - STRING #448 @ $136B1
+#W32($DBA0)
+//残念ながら本物のスクリーパーの[NLINE]
+//捕獲は叶いませんでしたが、[NLINE]
+//同等の能力を秘めた[NLINE]
+//対戦相手を用意しました！[NWIN]
+//
+//これを打ち倒し、[NLINE]
+//我々の前に新たな英雄の誕生を[NLINE]
+//垣間見させてくれるのでしょうか？[NWIN]
+//
+//それでは、熱いバトルを期待しましょう！[END-FE]
+Unfortunately, we don't have[NLINE]
+a real Screaper for you, but[NLINE]
+we've got an opponent that's[NLINE]
+just as strong as the real thing![NWIN]
+
+Can our challenger beat it? Are[NLINE]
+we about to witness the birth[NLINE]
+of a new hero?[NWIN]
+
+Watch closely, ladies and gents![END-FE]
+
+
+
+
+
+//POINTER #449 @ $DBA4 - STRING #449 @ $13796
+#W32($DBA4)
+//ビショップクラス　試験　スタート！[END-FE]
+Bishop Class Examination Start![END-FE]
+
+
+
+
+
+//POINTER #450 @ $DBA8 - STRING #450 @ $137BB
+#W32($DBA8)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #451 @ $DBAC - STRING #451 @ $137CE
+#W32($DBAC)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #452 @ $DBB0 - STRING #452 @ $137D7
+#W32($DBB0)
+//ヤクト・スレイヤー、[NLINE]
+//[Haschen]！[NLINE]
+//この名は歴史に[NLINE]
+//深く刻まれることでしょう！[NWIN]
+//
+//見事ビショップスクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//豪華賞品が授与されます！[END-FE]
+Jagd Slayer[Haschen]![NLINE]
+Your name will go down[NLINE]
+in history![NWIN]
+
+For singlehandedly defeating a[NLINE]
+Bishop Screaper, [Haschen][NLINE]
+gets this fantastic prize![END-FE]
+
+
+
+
+
+//POINTER #453 @ $DBB4 - STRING #453 @ $13874
+#W32($DBB4)
+//ビショップ・スレイヤー[END-FE]
+Bishop Slayer[END-FE]
+
+
+
+
+
+//POINTER #454 @ $DBB8 - STRING #454 @ $1388D
+#W32($DBB8)
+//ここに前人未踏のスレイヤーが[NLINE]
+//誕生しました！[NLINE]
+//その名も[Haschen]！[NWIN]
+//
+//見事ビショップスクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NWIN]
+//
+//スレイヤーの中のスレイヤー、[NLINE]
+//ビショップ・スレイヤーの称号と[NLINE]
+//豪華賞品が授与されます！[END-FE]
+Our Slayer [Haschen][NLINE]
+is really moving up[NLINE]
+in the world![NWIN]
+
+For defeating a Bishop Screaper[NLINE]
+in single combat...[NLINE]
+[Haschen] gets the Bishop AND[NLINE]
+Slayer of Slayers titles, as[NLINE]
+well as this wonderful prize![END-FE]
+
+
+
+
+
+//POINTER #455 @ $DBBC - STRING #455 @ $1395C
+#W32($DBBC)
+//最強のスレイヤー！[NLINE]
+//今度もやってくれました！[NWIN]
+//
+//行く手遮るもの無し！[NLINE]
+//ビショップ・スレイヤー[NLINE]
+//[Haschen]！[END-FE]
+Our strongest Slayer[NLINE]
+has done it again![NWIN]
+
+Nothing can stop[NLINE]
+[Haschen] the[NLINE]
+Bishop Slayer![END-FE]
+
+
+
+
+
+//POINTER #456 @ $DBC0 - STRING #456 @ $139C1
+#W32($DBC0)
+//見事ビショップ・スクリーパーを倒しました[NLINE]
+//[Haschen]選手には、[NLINE]
+//豪華賞品が授与されます！[END-FE]
+For singlehandedly defeating a[NLINE]
+Bishop Screaper, [Haschen][NLINE]
+gets this fantastic prize![END-FE]
+
+
+
+
+
+//POINTER #457 @ $DBC4 - STRING #457 @ $13A16
+#W32($DBC4)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ビショップクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Bishop[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #458 @ $DBC8 - STRING #458 @ $13A8D
+#W32($DBC8)
+//残念、[Haschen]選手。[NLINE]
+//ここでリタイアだ！[NWIN]
+//
+//これにめげず、[NLINE]
+//次回も挑戦してください。[END-FE]
+Bad luck for [Haschen]![NLINE]
+He'll have to give up![NWIN]
+
+But he's welcome[NLINE]
+to try again anytime![END-FE]
+
+
+
+
+
+//POINTER #459 @ $DBCC - STRING #459 @ $13ADE
+#W32($DBCC)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ビショップクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Bishop[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #460 @ $DBD0 - STRING #460 @ $13B55
+#W32($DBD0)
+//スレイヤー認定試験　ヤクトクラス[END-FE]
+Slayer Certification Exam, Jagd Class[END-FE]
+
+
+
+
+
+//POINTER #461 @ $DBD4 - STRING #461 @ $13B78
+#W32($DBD4)
+//これからスレイヤー認定試験、[NLINE]
+//ヤクトクラスを開催します！[END-FE]
+It's time for the Jagd Class[NLINE]
+Slayer Certification Exam![END-FE]
+
+
+
+
+
+//POINTER #462 @ $DBD8 - STRING #462 @ $13BB3
+#W32($DBD8)
+//ヤクトの名を手に入れ、[NLINE]
+//この試験を受ける意味が[NLINE]
+//全くありません。[NWIN]
+//
+//それでも挑戦する、[NLINE]
+//最強最高のスレイヤーが[NLINE]
+//またこの舞台に立とうとしています！[NLINE]
+//その名は……[END-FE]
+Even though today's[NLINE]
+contestant has already[NLINE]
+reached Jagd rank...[NWIN]
+
+He's going to give us[NLINE]
+another show! Ladies and[NLINE]
+gents, the strongest Slayer[NLINE]
+ever known to man![END-FE]
+
+
+
+
+
+//POINTER #463 @ $DBDC - STRING #463 @ $13C54
+#W32($DBDC)
+//全ての頂点を極め、[NLINE]
+//それでも止まぬ闘争心が[NLINE]
+//挑戦させるのか！[NWIN]
+//
+//ビショップの名に不満ある者が、[NLINE]
+//不遜にも白銀のアイツに[NLINE]
+//戦いを挑もうとしています！[NLINE]
+//その名は……[END-FE]
+Can't anything quench[NLINE]
+this man's desire to[NLINE]
+advance to the top!?[NWIN]
+
+Not satisfied with his title[NLINE]
+of Bishop Slayer, he's[NLINE]
+taking on the Platinum[NLINE]
+Screaper! I give you...[END-FE]
+
+
+
+
+
+//POINTER #464 @ $DBE0 - STRING #464 @ $13CF5
+#W32($DBE0)
+//最早、語る言葉はありません！[NLINE]
+//この頂上決戦を見ようではありませんか！[NLINE]
+//それでは真剣勝負、開始！[END-FE]
+Words cannot do this justice![NLINE]
+Feast your eyes upon this, the[NLINE]
+final battle! And now... begin![END-FE]
+
+
+
+
+
+//POINTER #465 @ $DBE4 - STRING #465 @ $13D56
+#W32($DBE4)
+//ヤクトクラス　試験　スタート！[END-FE]
+Jagd Class Examination Start![END-FE]
+
+
+
+
+
+//POINTER #466 @ $DBE8 - STRING #466 @ $13D77
+#W32($DBE8)
+//・敵すべての撃破[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #467 @ $DBEC - STRING #467 @ $13D8A
+#W32($DBEC)
+//・[Haschen]の死亡[END-FE]
+・[Haschen] dies[END-FE]
+
+
+
+
+
+//POINTER #468 @ $DBF0 - STRING #468 @ $13D99
+#W32($DBF0)
+//ヤクト・スレイヤー[END-FE]
+Jagd Slayer[END-FE]
+
+
+
+
+
+//POINTER #469 @ $DBF4 - STRING #469 @ $13DAE
+#W32($DBF4)
+//やっ、やりました！[NLINE]
+//ビショップという[NLINE]
+//微妙な名を捨て、[NLINE]
+//語り継がれるであろう[NLINE]
+//最高位のスレイヤーが誕生しました！[NWIN]
+//
+//その名も[NLINE]
+//ヤクト・スレイヤー、[NLINE]
+//[Haschen]！[NWIN]
+//
+//この闘技場最後の偉業を成し遂げた[NLINE]
+//[Haschen]選手には、[NLINE]
+//特別賞が授与されます。[END-FE]
+H-He did it! He really did it! He's[NLINE]
+thrown off the mantle of[NLINE]
+Bishop Slayer and become the[NLINE]
+ultimate Slayer, he whom no man[NLINE]
+can hope to match![NWIN]
+
+From this day forward,[NLINE]
+[Haschen] will be known as the[NLINE]
+first and only Jagd Slayer![NWIN]
+
+And this, the ultimate achievement,[NLINE]
+will be rewarded with the[NLINE]
+Colosseum's ultimate prize.[END-FE]
+
+
+
+
+
+//POINTER #470 @ $DBF8 - STRING #470 @ $13E93
+#W32($DBF8)
+//　[NLINE]
+//コスチューム『[COL01]水着[COL00]』を手に入れた！[NLINE]
+//　[END-FE]
+　[NLINE]
+Obtained [COL01]Swimsuit[COL00]![NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #471 @ $DBFC - STRING #471 @ $13EC6
+#W32($DBFC)
+//本当に[NLINE]
+//おめでとうございます！[END-FE]
+Congratulations,[NLINE]
+my good man![END-FE]
+
+
+
+
+
+//POINTER #472 @ $DC00 - STRING #472 @ $13EE7
+#W32($DC00)
+//ヤクト・スレイヤー、[NLINE]
+//[Haschen]！[NLINE]
+//この名は歴史に[NLINE]
+//深く刻まれることでしょう！[END-FE]
+Jagd Slayer[Haschen]![NLINE]
+Your name will go down[NLINE]
+in history![NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #473 @ $DC04 - STRING #473 @ $13F32
+#W32($DC04)
+//それでは、これにてスレイヤー認定試験、[NLINE]
+//ヤクトクラスを終了いたします。[NWIN]
+//
+//[Haschen]選手の[NLINE]
+//今後の活躍に期待しましょう！[END-FE]
+That's all for today's Jagd[NLINE]
+Class Slayer Certification Exam.[NWIN]
+
+Come back to see what our[NLINE]
+Slayer will do next![END-FE]
+
+
+
+
+
+//POINTER #474 @ $DC08 - STRING #474 @ $13FA5
+#W32($DC08)
+//……おや？[NWIN]
+//
+//…………[NWIN]
+//
+//……………！[NWIN]
+//
+//……！！！！！！[NWIN]
+//
+//[END-FE]
+...What's this?[NWIN]
+
+Unbelievable...[NWIN]
+
+Inconceivable...![NWIN]
+
+Completely and utterly impossible![NWIN]
+
+[END-FE]
+
+
+
+
+
+//POINTER #475 @ $DC0C - STRING #475 @ $13FDE
+#W32($DC0C)
+//な、な、な、なんと！[NLINE]
+//信じられません！[NWIN]
+//
+//[Haschen]選手は、[NLINE]
+//当闘技場の全ての競技を[NLINE]
+//完全に制覇いたしました！[NWIN]
+//
+//究極、完璧な真の王者の誕生であります！[END-FE]
+Th-Th-This can't be! I can[NLINE]
+scarcely believe my eyes![NWIN]
+
+[Haschen] has become the champion[NLINE]
+of every event the Colosseum[NLINE]
+has to offer![NWIN]
+
+I declare him Czar of the Colosseum![END-FE]
+
+
+
+
+
+//POINTER #476 @ $DC10 - STRING #476 @ $1406F
+#W32($DC10)
+//すべてを制覇した究極王者の前には[NLINE]
+//ささやかなものかも知れませんが、[NLINE]
+//闘技場に眠る最高の宝物をもって、[NLINE]
+//この偉業を称えたいと思います。[END-FE]
+It's not much for our newly[NLINE]
+crowned Czar, but we'd like[NLINE]
+to offer you something to[NLINE]
+commemorate the occasion.[END-FE]
+
+
+
+
+
+//POINTER #477 @ $DC14 - STRING #477 @ $140F6
+#W32($DC14)
+//……と、思いましたが、[NLINE]
+//なんと[Haschen]選手、[NLINE]
+//すでに究極の宝物すら[NLINE]
+//持ちきれないほど所持しておられるようです！[NWIN]
+//
+//さすがは究極の王者であります！[END-FE]
+...At least, we would if[NLINE]
+[Haschen]'s pockets weren't[NLINE]
+already filled with this[NLINE]
+precious gift!![NWIN]
+
+That's what makes him the Czar![END-FE]
+
+
+
+
+
+//POINTER #478 @ $DC18 - STRING #478 @ $14183
+#W32($DC18)
+//平和維持軍の赤い疾風！[NLINE]
+//ストライクエッジこと[NLINE]
+//[Haschen]！[END-FE]
+The PMB's[NLINE]
+scarlet gale![NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #479 @ $DC1C - STRING #479 @ $141BA
+#W32($DC1C)
+//平和維持軍の赤い竜巻！[NLINE]
+//ハードクラッシャーこと[NLINE]
+//[Haschen]！[END-FE]
+The PMB's[NLINE]
+scarlet hurricane![NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #480 @ $DC20 - STRING #480 @ $141F3
+#W32($DC20)
+//平和維持軍の赤い太陽！[NLINE]
+//グレートセイヴァーこと[NLINE]
+//[Haschen]！[END-FE]
+The PMB's[NLINE]
+scarlet sun![NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #481 @ $DC24 - STRING #481 @ $1422C
+#W32($DC24)
+//平和維持軍の赤い稲妻！[NLINE]
+//スマートフェンサーこと[NLINE]
+//[Haschen]！[END-FE]
+The PMB's[NLINE]
+scarlet lightning![NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #482 @ $DC28 - STRING #482 @ $14265
+#W32($DC28)
+//平和維持軍の赤き勇者！[NLINE]
+//ブレイヴスターこと[NLINE]
+//[Haschen]！[END-FE]
+The PMB's[NLINE]
+scarlet hero![NLINE]
+[Haschen]![END-FE]
+
+
+
+
+
+//POINTER #483 @ $DC2C - STRING #483 @ $1429A
+#W32($DC2C)
+//あ～っと、[NLINE]
+//[Haschen]選手ダウーン！[END-FE]
+Oh, bad luck![NLINE]
+[Haschen] is down![END-FE]
+
+
+
+
+
+//POINTER #484 @ $DC30 - STRING #484 @ $142BB
+#W32($DC30)
+//あ～っと、[NLINE]
+//[Haschen]チーム、[NLINE]
+//リタイアです！[END-FE]
+Ohh, bad luck![NLINE]
+[Haschen]'s team is[NLINE]
+out of the game![END-FE]
+
+
+

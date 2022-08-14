@@ -1,0 +1,5028 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $5B60, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $5320, 4, PTR)
+
+#JMP($5B60)
+#HDR($5B60)
+
+
+
+
+
+//POINTER #0 @ $5320 - STRING #0 @ $5B60
+#W32($5320)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $5324 - STRING #1 @ $5B63
+#W32($5324)
+//Growlanser[END-FF]
+Growlanser[END-FF]
+
+
+
+
+
+//POINTER #2 @ $5328 - STRING #2 @ $5B70
+#W32($5328)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $532C - STRING #3 @ $5B7D
+#W32($532C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $5330 - STRING #4 @ $5BA2
+#W32($5330)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $5334 - STRING #5 @ $5BC7
+#W32($5334)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $5338 - STRING #6 @ $5BDC
+#W32($5338)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $533C - STRING #7 @ $5C01
+#W32($533C)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $5340 - STRING #8 @ $5C26
+#W32($5340)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $5344 - STRING #9 @ $5C5B
+#W32($5344)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $5348 - STRING #10 @ $5C90
+#W32($5348)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $534C - STRING #11 @ $5CB5
+#W32($534C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $5350 - STRING #12 @ $5CDA
+#W32($5350)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $5354 - STRING #13 @ $5CFF
+#W32($5354)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $5358 - STRING #14 @ $5D14
+#W32($5358)
+//どうする？　[COL09][CROSS][COL00]で抜ける[END-FE]
+What will you do? Exit with [COL09][CIRCLE][END-FE]
+
+
+
+
+
+//POINTER #15 @ $535C - STRING #15 @ $5D33
+#W32($535C)
+//・セーブ([R1]押しでLOAD)[END-FE]
+・Save (LOAD by pressing [R1])[END-FE]
+
+
+
+
+
+//POINTER #16 @ $5360 - STRING #16 @ $5D4E
+#W32($5360)
+//・ＧＬ[SIX]　シナリオ　開始[END-FE]
+・GL [SIX] scenario start[END-FE]
+
+
+
+
+
+//POINTER #17 @ $5364 - STRING #17 @ $5D69
+#W32($5364)
+//・イベントチェック[END-FE]
+・Event check[END-FE]
+
+
+
+
+
+//POINTER #18 @ $5368 - STRING #18 @ $5D7E
+#W32($5368)
+//・顔グラチェック[END-FE]
+・Face check[END-FE]
+
+
+
+
+
+//POINTER #19 @ $536C - STRING #19 @ $5D91
+#W32($536C)
+//・ボイスチェック[END-FE]
+・Voice check[END-FE]
+
+
+
+
+
+//POINTER #20 @ $5370 - STRING #20 @ $5DA4
+#W32($5370)
+//・マクロ命令チェック[END-FE]
+・Macro instruction check[END-FE]
+
+
+
+
+
+//POINTER #21 @ $5374 - STRING #21 @ $5DBB
+#W32($5374)
+//・キャラメイク[END-FE]
+・Character creation[END-FE]
+
+
+
+
+
+//POINTER #22 @ $5378 - STRING #22 @ $5DCC
+#W32($5378)
+//・もろもろチェック[END-FE]
+・Various checks[END-FE]
+
+
+
+
+
+//POINTER #23 @ $537C - STRING #23 @ $5DE1
+#W32($537C)
+//・デバッグ用シナリオ[END-FE]
+・Debug scenarios[END-FE]
+
+
+
+
+
+//POINTER #24 @ $5380 - STRING #24 @ $5DF8
+#W32($5380)
+//・デバッグセーブ部屋[END-FE]
+・Debug save room[END-FE]
+
+
+
+
+
+//POINTER #25 @ $5384 - STRING #25 @ $5E0F
+#W32($5384)
+//スキップフラグを立てますか？[END-FE]
+Do you want to set a skip flag?[END-FE]
+
+
+
+
+
+//POINTER #26 @ $5388 - STRING #26 @ $5E2E
+#W32($5388)
+//戦闘スキップフラグを立てますか？[END-FE]
+Do you want to set a battle skip flag?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $538C - STRING #27 @ $5E51
+#W32($538C)
+//・最初から[END-FE]
+・From the beginning[END-FE]
+
+
+
+
+
+//POINTER #28 @ $5390 - STRING #28 @ $5E5E
+#W32($5390)
+//・第１章[END-FE]
+・Chapter 1[END-FE]
+
+
+
+
+
+//POINTER #29 @ $5394 - STRING #29 @ $5E69
+#W32($5394)
+//・第２章[END-FE]
+・Chapter 2[END-FE]
+
+
+
+
+
+//POINTER #30 @ $5398 - STRING #30 @ $5E74
+#W32($5398)
+//・第３章[END-FE]
+・Chapter 3[END-FE]
+
+
+
+
+
+//POINTER #31 @ $539C - STRING #31 @ $5E7F
+#W32($539C)
+//・第４章[END-FE]
+・Chapter 4[END-FE]
+
+
+
+
+
+//POINTER #32 @ $53A0 - STRING #32 @ $5E8A
+#W32($53A0)
+//・第５章[END-FE]
+・Chapter 5[END-FE]
+
+
+
+
+
+//POINTER #33 @ $53A4 - STRING #33 @ $5E95
+#W32($53A4)
+//・第６章[END-FE]
+・Chapter 6[END-FE]
+
+
+
+
+
+//POINTER #34 @ $53A8 - STRING #34 @ $5EA0
+#W32($53A8)
+//・第７章[END-FE]
+・Chapter 7[END-FE]
+
+
+
+
+
+//POINTER #35 @ $53AC - STRING #35 @ $5EAB
+#W32($53AC)
+//・第８章[END-FE]
+・Chapter 8[END-FE]
+
+
+
+
+
+//POINTER #36 @ $53B0 - STRING #36 @ $5EB6
+#W32($53B0)
+//・第９章[END-FE]
+・Chapter 9[END-FE]
+
+
+
+
+
+//POINTER #37 @ $53B4 - STRING #37 @ $5EC1
+#W32($53B4)
+//研究所の医務室からスタートです。[END-FE]
+It starts from the medical office.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $53B8 - STRING #38 @ $5EE4
+#W32($53B8)
+//・第１章　マキナス[END-FE]
+・Chapter 1 Makinus[END-FE]
+
+
+
+
+
+//POINTER #39 @ $53BC - STRING #39 @ $5EF9
+#W32($53BC)
+//・第１章　ダスティス[END-FE]
+・Chapter 1 Dastis[END-FE]
+
+
+
+
+
+//POINTER #40 @ $53C0 - STRING #40 @ $5F10
+#W32($53C0)
+//・第１章　シザーズ[END-FE]
+・Chapter 1 Schizarz[END-FE]
+
+
+
+
+
+//POINTER #41 @ $53C4 - STRING #41 @ $5F25
+#W32($53C4)
+//・第１章　シザーズ後マキナス[END-FE]
+・Chapter 1 Makinus after Schizarz[END-FE]
+
+
+
+
+
+//POINTER #42 @ $53C8 - STRING #42 @ $5F44
+#W32($53C8)
+//・初マキナスから[END-FE]
+・From the first Makinus[END-FE]
+
+
+
+
+
+//POINTER #43 @ $53CC - STRING #43 @ $5F57
+#W32($53CC)
+//・ダスティスに向かうところから[END-FE]
+・From the road to Dastis[END-FE]
+
+
+
+
+
+//POINTER #44 @ $53D0 - STRING #44 @ $5F78
+#W32($53D0)
+//研究所のイベントの後、マキナスからです。[END-FE]
+After the events at the Institute, it[NLINE]
+begins at Makinus.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $53D4 - STRING #45 @ $5FA3
+#W32($53D4)
+//任務を受けた後、マキナスの外からです。[END-FE]
+Outside of Makinus, after receiving the mission[END-FE]
+
+
+
+
+
+//POINTER #46 @ $53D8 - STRING #46 @ $5FCC
+#W32($53D8)
+//任務を受けた後、ダスティスからです。[END-FE]
+After receiving the mission, from Dastis?!?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $53DC - STRING #47 @ $5FF3
+#W32($53DC)
+//・第２章　休暇明け[END-FE]
+・Chapter 2 Post Vacation?!?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $53E0 - STRING #48 @ $6008
+#W32($53E0)
+//・第２章　船上[END-FE]
+・Chapter 2 Onboard the ship[END-FE]
+
+
+
+
+
+//POINTER #49 @ $53E4 - STRING #49 @ $6019
+#W32($53E4)
+//・第２章　ワースリー村[END-FE]
+・Chapter 2 Warslee Village[END-FE]
+
+
+
+
+
+//POINTER #50 @ $53E8 - STRING #50 @ $6032
+#W32($53E8)
+//・第２章　ザーランバ[END-FE]
+・Chapter 2 Zaramba[END-FE]
+
+
+
+
+
+//POINTER #51 @ $53EC - STRING #51 @ $6049
+#W32($53EC)
+//・第２章　フェルメンティア[END-FE]
+・Chapter 2 Felmentia[END-FE]
+
+
+
+
+
+//POINTER #52 @ $53F0 - STRING #52 @ $6066
+#W32($53F0)
+//先へ進むには、ベッドで寝て下さい。[END-FE]
+To move on, sleep in the bed.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $53F4 - STRING #53 @ $608B
+#W32($53F4)
+//・初日から[END-FE]
+・From the first day[END-FE]
+
+
+
+
+
+//POINTER #54 @ $53F8 - STRING #54 @ $6098
+#W32($53F8)
+//・２日目から[END-FE]
+・From the second day[END-FE]
+
+
+
+
+
+//POINTER #55 @ $53FC - STRING #55 @ $60A7
+#W32($53FC)
+//・３日目から[END-FE]
+・From the third day[END-FE]
+
+
+
+
+
+//POINTER #56 @ $5400 - STRING #56 @ $60B6
+#W32($5400)
+//フェルメンティアのイベントを見る為だけの設定なので[NLINE]
+//このままプレイするとヤバイです。[NLINE]
+//注意してください。[END-FE]
+It's a setting just for watching[NLINE]
+Fermentia events, so it's dangerous[NLINE]
+to play as it is. Be careful.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $5404 - STRING #57 @ $6121
+#W32($5404)
+//　[NLINE]
+//未実装[END-FE]
+[NLINE]
+Unimplemented[END-FE]
+
+
+
+
+
+//POINTER #58 @ $5408 - STRING #58 @ $612E
+#W32($5408)
+//追加のネーリスイベントチェック？[END-FE]
+Check for additional Neilis events?[END-FE]
+
+
+
+
+
+//POINTER #59 @ $540C - STRING #59 @ $6151
+#W32($540C)
+//・盲目のネーリス１[END-FE]
+・Blind Neilis 1[END-FE]
+
+
+
+
+
+//POINTER #60 @ $5410 - STRING #60 @ $6166
+#W32($5410)
+//・盲目のネーリス３[END-FE]
+・Blind Neilis 3[END-FE]
+
+
+
+
+
+//POINTER #61 @ $5414 - STRING #61 @ $617B
+#W32($5414)
+//・ノーラにアイテム見て貰う[END-FE]
+・Let Nora see the item[END-FE]
+
+
+
+
+
+//POINTER #62 @ $5418 - STRING #62 @ $6198
+#W32($5418)
+//・やらない[END-FE]
+・Don't do it[END-FE]
+
+
+
+
+
+//POINTER #63 @ $541C - STRING #63 @ $61A5
+#W32($541C)
+//ネーリスのナイフも欲しい？[END-FE]
+Would you like a knife from Neilis?[END-FE]
+
+
+
+
+
+//POINTER #64 @ $5420 - STRING #64 @ $61C2
+#W32($5420)
+//ついでにアニータのアイテムも？[END-FE]
+And Anita's items, too?[END-FE]
+
+
+
+
+
+//POINTER #65 @ $5424 - STRING #65 @ $61E3
+#W32($5424)
+//追加のネーリスイベントチェック？[END-FE]
+Check for additional Neilis events?[END-FE]
+
+
+
+
+
+//POINTER #66 @ $5428 - STRING #66 @ $6206
+#W32($5428)
+//・７章開始時[END-FE]
+・At the beginning of Chapter 7[END-FE]
+
+
+
+
+
+//POINTER #67 @ $542C - STRING #67 @ $6215
+#W32($542C)
+//・７章終了間際[END-FE]
+・End of Chapter 7[END-FE]
+
+
+
+
+
+//POINTER #68 @ $5430 - STRING #68 @ $6226
+#W32($5430)
+//・マキナスに帰還から[END-FE]
+・From the return to Makinus[END-FE]
+
+
+
+
+
+//POINTER #69 @ $5434 - STRING #69 @ $623D
+#W32($5434)
+//・マキナスから出発[END-FE]
+・Departure from Makinus[END-FE]
+
+
+
+
+
+//POINTER #70 @ $5438 - STRING #70 @ $6252
+#W32($5438)
+//・ウェンディ合流から[END-FE]
+・Since meeting up with Wendy[END-FE]
+
+
+
+
+
+//POINTER #71 @ $543C - STRING #71 @ $6269
+#W32($543C)
+//・何もせず抜ける[END-FE]
+・Exit without doing anything[END-FE]
+
+
+
+
+
+//POINTER #72 @ $5440 - STRING #72 @ $627C
+#W32($5440)
+//・ロイフェロンの地下マーケットチェック？[END-FE]
+・Check the underground market of Royferon?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $5444 - STRING #73 @ $62A7
+#W32($5444)
+//・ネーリス子供救出戦闘[END-FE]
+・Neilis child rescue battle[END-FE]
+
+
+
+
+
+//POINTER #74 @ $5448 - STRING #74 @ $62C0
+#W32($5448)
+//・過去の記憶[END-FE]
+・Past memory[END-FE]
+
+
+
+
+
+//POINTER #75 @ $544C - STRING #75 @ $62CF
+#W32($544C)
+//ボイスチェックモードです。[NLINE]
+//チェックしたい項目を選んで下さい。[NLINE]
+//×キャンセルで終わります。[END-FE]
+This is the voice check mode.[NLINE]
+Select the item you want to check.[NLINE]
+Press [CIRCLE] to Cancel.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $5450 - STRING #76 @ $632C
+#W32($5450)
+//・Ｃファイルシリーズ[END-FE]
+・C file series[END-FE]
+
+
+
+
+
+//POINTER #77 @ $5454 - STRING #77 @ $6343
+#W32($5454)
+//・Ｅ＿０１００～０１３０[END-FE]
+・Ｅ＿０１００～０１３０[END-FE]
+
+
+
+
+
+//POINTER #78 @ $5458 - STRING #78 @ $635E
+#W32($5458)
+//・Ｅ＿０２２０～０２３３[END-FE]
+・Ｅ＿０２２０～０２３３[END-FE]
+
+
+
+
+
+//POINTER #79 @ $545C - STRING #79 @ $6379
+#W32($545C)
+//・Ｅ＿０３０１～０３０５[END-FE]
+・Ｅ＿０３０１～０３０５[END-FE]
+
+
+
+
+
+//POINTER #80 @ $5460 - STRING #80 @ $6394
+#W32($5460)
+//・Ｅ＿０３０６～０３１１Ａ[END-FE]
+・Ｅ＿０３０６～０３１１Ａ[END-FE]
+
+
+
+
+
+//POINTER #81 @ $5464 - STRING #81 @ $63B1
+#W32($5464)
+//・Ｅ＿０５００～０５２９[END-FE]
+・Ｅ＿０５００～０５２９[END-FE]
+
+
+
+
+
+//POINTER #82 @ $5468 - STRING #82 @ $63CC
+#W32($5468)
+//・Ｅ＿０５４０～０５８５[END-FE]
+・Ｅ＿０５４０～０５８５[END-FE]
+
+
+
+
+
+//POINTER #83 @ $546C - STRING #83 @ $63E7
+#W32($546C)
+//・Ｅ＿０６００～０６１１[END-FE]
+・Ｅ＿０６００～０６１１[END-FE]
+
+
+
+
+
+//POINTER #84 @ $5470 - STRING #84 @ $6402
+#W32($5470)
+//何をする？[CROSS]で抜けます[END-FE]
+What are you going to do? Exit with [CROSS][END-FE]
+
+
+
+
+
+//POINTER #85 @ $5474 - STRING #85 @ $641B
+#W32($5474)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #86 @ $5478 - STRING #86 @ $6426
+#W32($5478)
+//・座標指定メッセージチェック[END-FE]
+・Coordinate specification message check?!?[END-FE]
+
+
+
+
+
+//POINTER #87 @ $547C - STRING #87 @ $6445
+#W32($547C)
+//・顔とメッセージチェック[END-FE]
+・Face and message check[END-FE]
+
+
+
+
+
+//POINTER #88 @ $5480 - STRING #88 @ $6460
+#W32($5480)
+//・顔マクロチェック[END-FE]
+・Face macro check[END-FE]
+
+
+
+
+
+//POINTER #89 @ $5484 - STRING #89 @ $6475
+#W32($5484)
+//・妖精チェック[END-FE]
+・Fairy check[END-FE]
+
+
+
+
+
+//POINTER #90 @ $5488 - STRING #90 @ $6486
+#W32($5488)
+//・パーティー集合解散チェック[END-FE]
+・Party assembly and dismissal check[END-FE]
+
+
+
+
+
+//POINTER #91 @ $548C - STRING #91 @ $64A5
+#W32($548C)
+//・外字チェック[END-FE]
+・External character check[END-FE]
+
+
+
+
+
+//POINTER #92 @ $5490 - STRING #92 @ $64B6
+#W32($5490)
+//・武器ＣＧ変更[END-FE]
+・Weapon CG change[END-FE]
+
+
+
+
+
+//POINTER #93 @ $5494 - STRING #93 @ $64C7
+#W32($5494)
+//・常駐エフェクトチェック[END-FE]
+・Resident effects check[END-FE]
+
+
+
+
+
+//POINTER #94 @ $5498 - STRING #94 @ $64E2
+#W32($5498)
+//・特殊画面効果チェック[END-FE]
+・Special screen effect check[END-FE]
+
+
+
+
+
+//POINTER #95 @ $549C - STRING #95 @ $64FB
+#W32($549C)
+//・クラス吹き出しチェック[END-FE]
+・Class callout check[END-FE]
+
+
+
+
+
+//POINTER #96 @ $54A0 - STRING #96 @ $6516
+#W32($54A0)
+//・モーションチェック[END-FE]
+・Motion check[END-FE]
+
+
+
+
+
+//POINTER #97 @ $54A4 - STRING #97 @ $652D
+#W32($54A4)
+//・ムービーチェック[END-FE]
+・Movie check[END-FE]
+
+
+
+
+
+//POINTER #98 @ $54A8 - STRING #98 @ $6542
+#W32($54A8)
+//・ビジュアルチェック[END-FE]
+・Visual check[END-FE]
+
+
+
+
+
+//POINTER #99 @ $54AC - STRING #99 @ $6559
+#W32($54AC)
+//・セーブチェック[END-FE]
+・Save check[END-FE]
+
+
+
+
+
+//POINTER #100 @ $54B0 - STRING #100 @ $656C
+#W32($54B0)
+//チェックシナリオへ飛びますか？[END-FE]
+Do you want to jump to a scenario check?[END-FE]
+
+
+
+
+
+//POINTER #101 @ $54B4 - STRING #101 @ $658D
+#W32($54B4)
+//本地名表示しますか？[END-FE]
+Do you want to display your home name?[END-FE]
+
+
+
+
+
+//POINTER #102 @ $54B8 - STRING #102 @ $65A4
+#W32($54B8)
+//ダミーイベント導入終了[END-FE]
+End of dummy event introduction[END-FE]
+
+
+
+
+
+//POINTER #103 @ $54BC - STRING #103 @ $65BD
+#W32($54BC)
+//スキップフラグを立てますか？[END-FE]
+Do you want to set a skip flag?[END-FE]
+
+
+
+
+
+//POINTER #104 @ $54C0 - STRING #104 @ $65DC
+#W32($54C0)
+//どれをチェックしますか？[END-FE]
+Which do you want to check?[END-FE]
+
+
+
+
+
+//POINTER #105 @ $54C4 - STRING #105 @ $65F7
+#W32($54C4)
+//・ダンジョン[END-FE]
+・Dungeon[END-FE]
+
+
+
+
+
+//POINTER #106 @ $54C8 - STRING #106 @ $6606
+#W32($54C8)
+//・配置[END-FE]
+・Configuration[END-FE]
+
+
+
+
+
+//POINTER #107 @ $54CC - STRING #107 @ $660F
+#W32($54CC)
+//・その他[END-FE]
+・Other[END-FE]
+
+
+
+
+
+//POINTER #108 @ $54D0 - STRING #108 @ $661A
+#W32($54D0)
+//・ＰＣ待機モーション[END-FE]
+・PC standby motion[END-FE]
+
+
+
+
+
+//POINTER #109 @ $54D4 - STRING #109 @ $6631
+#W32($54D4)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #110 @ $54D8 - STRING #110 @ $663C
+#W32($54D8)
+//ダンジョンをチェックしますか？[END-FE]
+Do you want to check the dungeon?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $54DC - STRING #111 @ $665D
+#W32($54DC)
+//どうする？　[COL09][CROSS][COL00]で抜ける[END-FE]
+What will you do? Exit with [COL09][CROSS][END-FE]
+
+
+
+
+
+//POINTER #112 @ $54E0 - STRING #112 @ $667C
+#W32($54E0)
+//・Ｄ２０[END-FE]
+・D20[END-FE]
+
+
+
+
+
+//POINTER #113 @ $54E4 - STRING #113 @ $6687
+#W32($54E4)
+//・Ｄ２１[END-FE]
+・D21[END-FE]
+
+
+
+
+
+//POINTER #114 @ $54E8 - STRING #114 @ $6692
+#W32($54E8)
+//・Ｄ２２[END-FE]
+・D22[END-FE]
+
+
+
+
+
+//POINTER #115 @ $54EC - STRING #115 @ $669D
+#W32($54EC)
+//・Ｄ２３[END-FE]
+・D23[END-FE]
+
+
+
+
+
+//POINTER #116 @ $54F0 - STRING #116 @ $66A8
+#W32($54F0)
+//・Ｄ２４[END-FE]
+・D24[END-FE]
+
+
+
+
+
+//POINTER #117 @ $54F4 - STRING #117 @ $66B3
+#W32($54F4)
+//・Ｄ２５[END-FE]
+・D25[END-FE]
+
+
+
+
+
+//POINTER #118 @ $54F8 - STRING #118 @ $66BE
+#W32($54F8)
+//・Ｄ２６[END-FE]
+・D26[END-FE]
+
+
+
+
+
+//POINTER #119 @ $54FC - STRING #119 @ $66C9
+#W32($54FC)
+//・Ｄ２７[END-FE]
+・D27[END-FE]
+
+
+
+
+
+//POINTER #120 @ $5500 - STRING #120 @ $66D4
+#W32($5500)
+//・Ｄ２８[END-FE]
+・D28[END-FE]
+
+
+
+
+
+//POINTER #121 @ $5504 - STRING #121 @ $66DF
+#W32($5504)
+//・Ｄ２９[END-FE]
+・D29[END-FE]
+
+
+
+
+
+//POINTER #122 @ $5508 - STRING #122 @ $66EA
+#W32($5508)
+//・Ｄ３０[END-FE]
+・D30[END-FE]
+
+
+
+
+
+//POINTER #123 @ $550C - STRING #123 @ $66F5
+#W32($550C)
+//・Ｄ３１[END-FE]
+・D31[END-FE]
+
+
+
+
+
+//POINTER #124 @ $5510 - STRING #124 @ $6700
+#W32($5510)
+//・Ｄ３２[END-FE]
+・D32[END-FE]
+
+
+
+
+
+//POINTER #125 @ $5514 - STRING #125 @ $670B
+#W32($5514)
+//・最終ダンジョン[END-FE]
+・Final dungeon[END-FE]
+
+
+
+
+
+//POINTER #126 @ $5518 - STRING #126 @ $671E
+#W32($5518)
+//襲撃前に飛びますか？[END-FE]
+Do you want to jump to before the attack?[END-FE]
+
+
+
+
+
+//POINTER #127 @ $551C - STRING #127 @ $6735
+#W32($551C)
+//配置をチェックしますか？[END-FE]
+Do you want to check the placement?[END-FE]
+
+
+
+
+
+//POINTER #128 @ $5520 - STRING #128 @ $6750
+#W32($5520)
+//どうする？　[COL09][CROSS][COL00]で抜ける[END-FE]
+What will you do? Exit with [COL09][CROSS][END-FE]
+
+
+
+
+
+//POINTER #129 @ $5524 - STRING #129 @ $676F
+#W32($5524)
+//・Ｆ２０[END-FE]
+・Ｆ２０[END-FE]
+
+
+
+
+
+//POINTER #130 @ $5528 - STRING #130 @ $677A
+#W32($5528)
+//・Ｆ２１[END-FE]
+・Ｆ２１[END-FE]
+
+
+
+
+
+//POINTER #131 @ $552C - STRING #131 @ $6785
+#W32($552C)
+//・Ｆ２２[END-FE]
+・Ｆ２２[END-FE]
+
+
+
+
+
+//POINTER #132 @ $5530 - STRING #132 @ $6790
+#W32($5530)
+//・Ｆ２３[END-FE]
+・Ｆ２３[END-FE]
+
+
+
+
+
+//POINTER #133 @ $5534 - STRING #133 @ $679B
+#W32($5534)
+//・Ｆ２４[END-FE]
+・Ｆ２４[END-FE]
+
+
+
+
+
+//POINTER #134 @ $5538 - STRING #134 @ $67A6
+#W32($5538)
+//・Ｆ２５[END-FE]
+・Ｆ２５[END-FE]
+
+
+
+
+
+//POINTER #135 @ $553C - STRING #135 @ $67B1
+#W32($553C)
+//・Ｆ２６[END-FE]
+・Ｆ２６[END-FE]
+
+
+
+
+
+//POINTER #136 @ $5540 - STRING #136 @ $67BC
+#W32($5540)
+//・Ｆ２８[END-FE]
+・Ｆ２８[END-FE]
+
+
+
+
+
+//POINTER #137 @ $5544 - STRING #137 @ $67C7
+#W32($5544)
+//・Ｆ２９[END-FE]
+・Ｆ２９[END-FE]
+
+
+
+
+
+//POINTER #138 @ $5548 - STRING #138 @ $67D2
+#W32($5548)
+//・Ｆ３０[END-FE]
+・Ｆ３０[END-FE]
+
+
+
+
+
+//POINTER #139 @ $554C - STRING #139 @ $67DD
+#W32($554C)
+//捕食マクロを試しますか？[END-FE]
+Would you like to try a predatory macro?!?[END-FE]
+
+
+
+
+
+//POINTER #140 @ $5550 - STRING #140 @ $67F8
+#W32($5550)
+//・何をチェックしますか？[END-FE]
+・What do you want to check?[END-FE]
+
+
+
+
+
+//POINTER #141 @ $5554 - STRING #141 @ $6813
+#W32($5554)
+//・盗みマクロチャック[END-FE]
+・Stealing Macro check[END-FE]
+
+
+
+
+
+//POINTER #142 @ $5558 - STRING #142 @ $682A
+#W32($5558)
+//・捕食君チェック[END-FE]
+・Predator check[END-FE]
+
+
+
+
+
+//POINTER #143 @ $555C - STRING #143 @ $683D
+#W32($555C)
+//・ふとん犬[END-FE]
+・Futon dog[END-FE]
+
+
+
+
+
+//POINTER #144 @ $5560 - STRING #144 @ $684A
+#W32($5560)
+//・闘技場[END-FE]
+・Arena[END-FE]
+
+
+
+
+
+//POINTER #145 @ $5564 - STRING #145 @ $6855
+#W32($5564)
+//・カーソルチェック[END-FE]
+・Cursor check[END-FE]
+
+
+
+
+
+//POINTER #146 @ $5568 - STRING #146 @ $686A
+#W32($5568)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #147 @ $556C - STRING #147 @ $6875
+#W32($556C)
+//どれを確認しますか？[END-FE]
+Which do you want to check?[END-FE]
+
+
+
+
+
+//POINTER #148 @ $5570 - STRING #148 @ $688C
+#W32($5570)
+//・初ふとん犬[END-FE]
+・First futon dog[END-FE]
+
+
+
+
+
+//POINTER #149 @ $5574 - STRING #149 @ $689B
+#W32($5574)
+//・ふとん犬仲間中[END-FE]
+・Futon dogs[END-FE]
+
+
+
+
+
+//POINTER #150 @ $5578 - STRING #150 @ $68AE
+#W32($5578)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #151 @ $557C - STRING #151 @ $68B9
+#W32($557C)
+//どのふとん犬にしますか？[END-FE]
+Which futon do you want?[END-FE]
+
+
+
+
+
+//POINTER #152 @ $5580 - STRING #152 @ $68D4
+#W32($5580)
+//・ニシキ[END-FE]
+・Nishiki[END-FE]
+
+
+
+
+
+//POINTER #153 @ $5584 - STRING #153 @ $68DF
+#W32($5584)
+//・テツ[END-FE]
+・Tetsu[END-FE]
+
+
+
+
+
+//POINTER #154 @ $5588 - STRING #154 @ $68E8
+#W32($5588)
+//・タマ[END-FE]
+・Tama[END-FE]
+
+
+
+
+
+//POINTER #155 @ $558C - STRING #155 @ $68F1
+#W32($558C)
+//・モモ[END-FE]
+・Momo[END-FE]
+
+
+
+
+
+//POINTER #156 @ $5590 - STRING #156 @ $68FA
+#W32($5590)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #157 @ $5594 - STRING #157 @ $6905
+#W32($5594)
+//ニシキ[END-FE]
+Nishiki[END-FE]
+
+
+
+
+
+//POINTER #158 @ $5598 - STRING #158 @ $690E
+#W32($5598)
+//テツ[END-FE]
+Tetsu[END-FE]
+
+
+
+
+
+//POINTER #159 @ $559C - STRING #159 @ $6915
+#W32($559C)
+//タマ[END-FE]
+Tama[END-FE]
+
+
+
+
+
+//POINTER #160 @ $55A0 - STRING #160 @ $691C
+#W32($55A0)
+//モモ[END-FE]
+Momo[END-FE]
+
+
+
+
+
+//POINTER #161 @ $55A4 - STRING #161 @ $6923
+#W32($55A4)
+//ニシキ[END-FE]
+Nishiki[END-FE]
+
+
+
+
+
+//POINTER #162 @ $55A8 - STRING #162 @ $692C
+#W32($55A8)
+//パーティー２にカーソルを合わせます。[NLINE]
+//どの速度であわせますか？[END-FE]
+Place the cursor on party 2.[NLINE]
+At what speed do you want the[NLINE]
+cursor to move to the party 2?[END-FE]
+
+
+
+
+
+//POINTER #163 @ $55AC - STRING #163 @ $696D
+#W32($55AC)
+//・速度１[END-FE]
+・Speed 1[END-FE]
+
+
+
+
+
+//POINTER #164 @ $55B0 - STRING #164 @ $6978
+#W32($55B0)
+//・速度２[END-FE]
+・Speed 2[END-FE]
+
+
+
+
+
+//POINTER #165 @ $55B4 - STRING #165 @ $6983
+#W32($55B4)
+//・速度３[END-FE]
+・Speed 3[END-FE]
+
+
+
+
+
+//POINTER #166 @ $55B8 - STRING #166 @ $698E
+#W32($55B8)
+//・速度４[END-FE]
+・Speed 4[END-FE]
+
+
+
+
+
+//POINTER #167 @ $55BC - STRING #167 @ $6999
+#W32($55BC)
+//・速度５[END-FE]
+・Speed 5[END-FE]
+
+
+
+
+
+//POINTER #168 @ $55C0 - STRING #168 @ $69A4
+#W32($55C0)
+//・速度６[END-FE]
+・Speed 6[END-FE]
+
+
+
+
+
+//POINTER #169 @ $55C4 - STRING #169 @ $69AF
+#W32($55C4)
+//・速度７[END-FE]
+・Speed 7[END-FE]
+
+
+
+
+
+//POINTER #170 @ $55C8 - STRING #170 @ $69BA
+#W32($55C8)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #171 @ $55CC - STRING #171 @ $69C5
+#W32($55CC)
+//どのデバッグシナリオに行きますか？[END-FE]
+Which debugging scenario do[NLINE]
+you want to go to?[END-FE]
+
+
+
+
+
+//POINTER #172 @ $55D0 - STRING #172 @ $69EA
+#W32($55D0)
+//・００００[END-FE]
+・0000[END-FE]
+
+
+
+
+
+//POINTER #173 @ $55D4 - STRING #173 @ $69F7
+#W32($55D4)
+//・０００５[END-FE]
+・0005[END-FE]
+
+
+
+
+
+//POINTER #174 @ $55D8 - STRING #174 @ $6A04
+#W32($55D8)
+//ダミーから来た[END-FE]
+That's from the dummy?!?[END-FE]
+
+
+
+
+
+//POINTER #175 @ $55DC - STRING #175 @ $6A15
+#W32($55DC)
+//座標指定メッセージのチェックをします[END-FE]
+Check for coordinated messages?!?[END-FE]
+
+
+
+
+
+//POINTER #176 @ $55E0 - STRING #176 @ $6A3C
+#W32($55E0)
+//まず、吹き出しなし版[END-FE]
+First, the version without speech bubble[END-FE]
+
+
+
+
+
+//POINTER #177 @ $55E4 - STRING #177 @ $6A53
+#W32($55E4)
+//０，０[END-FE]
+０，０[END-FE]
+
+
+
+
+
+//POINTER #178 @ $55E8 - STRING #178 @ $6A5C
+#W32($55E8)
+//５１１，０[END-FE]
+５１１，０[END-FE]
+
+
+
+
+
+//POINTER #179 @ $55EC - STRING #179 @ $6A69
+#W32($55EC)
+//０，２２４[END-FE]
+０，２２４[END-FE]
+
+
+
+
+
+//POINTER #180 @ $55F0 - STRING #180 @ $6A76
+#W32($55F0)
+//５１１，２２４[END-FE]
+５１１，２２４[END-FE]
+
+
+
+
+
+//POINTER #181 @ $55F4 - STRING #181 @ $6A87
+#W32($55F4)
+//０，４４７[END-FE]
+０，４４７[END-FE]
+
+
+
+
+
+//POINTER #182 @ $55F8 - STRING #182 @ $6A94
+#W32($55F8)
+//５１１，４４７[END-FE]
+５１１，４４７[END-FE]
+
+
+
+
+
+//POINTER #183 @ $55FC - STRING #183 @ $6AA5
+#W32($55FC)
+//次に、吹き出しあり版[END-FE]
+Next, the version with speech bubbles[END-FE]
+
+
+
+
+
+//POINTER #184 @ $5600 - STRING #184 @ $6ABC
+#W32($5600)
+//０，０[END-FE]
+０，０[END-FE]
+
+
+
+
+
+//POINTER #185 @ $5604 - STRING #185 @ $6AC5
+#W32($5604)
+//５１１，０[END-FE]
+５１１，０[END-FE]
+
+
+
+
+
+//POINTER #186 @ $5608 - STRING #186 @ $6AD2
+#W32($5608)
+//０，２２４[END-FE]
+０，２２４[END-FE]
+
+
+
+
+
+//POINTER #187 @ $560C - STRING #187 @ $6ADF
+#W32($560C)
+//５１１，２２４[END-FE]
+５１１，２２４[END-FE]
+
+
+
+
+
+//POINTER #188 @ $5610 - STRING #188 @ $6AF0
+#W32($5610)
+//０，４４７[END-FE]
+０，４４７[END-FE]
+
+
+
+
+
+//POINTER #189 @ $5614 - STRING #189 @ $6AFD
+#W32($5614)
+//５１１，４４７[END-FE]
+５１１，４４７[END-FE]
+
+
+
+
+
+//POINTER #190 @ $5618 - STRING #190 @ $6B0E
+#W32($5618)
+//選択文の吹き出しチェック（北）[END-FE]
+Selective speech bubble check (North)[END-FE]
+
+
+
+
+
+//POINTER #191 @ $561C - STRING #191 @ $6B2F
+#W32($561C)
+//選択文の吹き出しチェック（南）[END-FE]
+Selective Callout Check (South)[END-FE]
+
+
+
+
+
+//POINTER #192 @ $5620 - STRING #192 @ $6B50
+#W32($5620)
+//選択文の吹き出しチェック（東）[END-FE]
+Selective speech bubble check (East)[END-FE]
+
+
+
+
+
+//POINTER #193 @ $5624 - STRING #193 @ $6B71
+#W32($5624)
+//選択文の吹き出しチェック（西）[END-FE]
+Selective speech bubble check (West)[END-FE]
+
+
+
+
+
+//POINTER #194 @ $5628 - STRING #194 @ $6B92
+#W32($5628)
+//顔グラからのセリフのチェックをします[END-FE]
+Check the lines from your face[END-FE]
+
+
+
+
+
+//POINTER #195 @ $562C - STRING #195 @ $6BB9
+#W32($562C)
+//コリンです[END-FE]
+I'm Korin[END-FE]
+
+
+
+
+
+//POINTER #196 @ $5630 - STRING #196 @ $6BC6
+#W32($5630)
+//[MainCharName]です[END-FE]
+I'm [MainCharName][END-FE]
+
+
+
+
+
+//POINTER #197 @ $5634 - STRING #197 @ $6BD1
+#W32($5634)
+//またコリンです[END-FE]
+Still Korin[END-FE]
+
+
+
+
+
+//POINTER #198 @ $5638 - STRING #198 @ $6BE2
+#W32($5638)
+//また[MainCharName]です[END-FE]
+Still [MainCharName][END-FE]
+
+
+
+
+
+//POINTER #199 @ $563C - STRING #199 @ $6BF1
+#W32($563C)
+//ファニル消します[END-FE]
+I am Fanille[END-FE]
+
+
+
+
+
+//POINTER #200 @ $5640 - STRING #200 @ $6C04
+#W32($5640)
+//ＭＥＳに顔指定でファニル０を出します[END-FE]
+Give Fanille 0 to MES by specifying a face?!?[END-FE]
+
+
+
+
+
+//POINTER #201 @ $5644 - STRING #201 @ $6C2B
+#W32($5644)
+//ファニル出します[END-FE]
+Give Fanille?!?[END-FE]
+
+
+
+
+
+//POINTER #202 @ $5648 - STRING #202 @ $6C3E
+#W32($5648)
+//再度チェック？[END-FE]
+Check again?[END-FE]
+
+
+
+
+
+//POINTER #203 @ $564C - STRING #203 @ $6C4F
+#W32($564C)
+//主人公消します[END-FE]
+Erase the main character[END-FE]
+
+
+
+
+
+//POINTER #204 @ $5650 - STRING #204 @ $6C60
+#W32($5650)
+//主人公出します[END-FE]
+Put the main character on[END-FE]
+
+
+
+
+
+//POINTER #205 @ $5654 - STRING #205 @ $6C71
+#W32($5654)
+//両方消します[END-FE]
+Erase both[END-FE]
+
+
+
+
+
+//POINTER #206 @ $5658 - STRING #206 @ $6C80
+#W32($5658)
+//両方出します[END-FE]
+Give both[END-FE]
+
+
+
+
+
+//POINTER #207 @ $565C - STRING #207 @ $6C8F
+#W32($565C)
+//ファニル消します[END-FE]
+Turn off fanil[END-FE]
+
+
+
+
+
+//POINTER #208 @ $5660 - STRING #208 @ $6CA2
+#W32($5660)
+//普通[END-FE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #209 @ $5664 - STRING #209 @ $6CA9
+#W32($5664)
+//瀕死[END-FE]
+Dying[END-FE]
+
+
+
+
+
+//POINTER #210 @ $5668 - STRING #210 @ $6CB0
+#W32($5668)
+//怒り[END-FE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #211 @ $566C - STRING #211 @ $6CB7
+#W32($566C)
+//悲しい[END-FE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #212 @ $5670 - STRING #212 @ $6CC0
+#W32($5670)
+//照れる[END-FE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #213 @ $5674 - STRING #213 @ $6CC9
+#W32($5674)
+//まじめ[END-FE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #214 @ $5678 - STRING #214 @ $6CD2
+#W32($5678)
+//穏やか[END-FE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #215 @ $567C - STRING #215 @ $6CDB
+#W32($567C)
+//笑い[END-FE]
+Laughing[END-FE]
+
+
+
+
+
+//POINTER #216 @ $5680 - STRING #216 @ $6CE2
+#W32($5680)
+//北[END-FE]
+North[END-FE]
+
+
+
+
+
+//POINTER #217 @ $5684 - STRING #217 @ $6CE7
+#W32($5684)
+//南[END-FE]
+South[END-FE]
+
+
+
+
+
+//POINTER #218 @ $5688 - STRING #218 @ $6CEC
+#W32($5688)
+//東[END-FE]
+East[END-FE]
+
+
+
+
+
+//POINTER #219 @ $568C - STRING #219 @ $6CF1
+#W32($568C)
+//西[END-FE]
+West[END-FE]
+
+
+
+
+
+//POINTER #220 @ $5690 - STRING #220 @ $6CF6
+#W32($5690)
+//どのチェック？[END-FE]
+Which one?[END-FE]
+
+
+
+
+
+//POINTER #221 @ $5694 - STRING #221 @ $6D07
+#W32($5694)
+//・顔保護チェック[END-FE]
+・Face protection check[END-FE]
+
+
+
+
+
+//POINTER #222 @ $5698 - STRING #222 @ $6D1A
+#W32($5698)
+//・顔優先チェック[END-FE]
+・Face priority check[END-FE]
+
+
+
+
+
+//POINTER #223 @ $569C - STRING #223 @ $6D2D
+#W32($569C)
+//・顔移動チェック[END-FE]
+・Face movement check[END-FE]
+
+
+
+
+
+//POINTER #224 @ $56A0 - STRING #224 @ $6D40
+#W32($56A0)
+//顔グラ保護のチェックをします[END-FE]
+Check face protection[END-FE]
+
+
+
+
+
+//POINTER #225 @ $56A4 - STRING #225 @ $6D5F
+#W32($56A4)
+//主人公０の顔は保護されています。[END-FE]
+The protagonist 0's face is protected.[END-FE]
+
+
+
+
+
+//POINTER #226 @ $56A8 - STRING #226 @ $6D82
+#W32($56A8)
+//ファニル０は通常です[END-FE]
+Fanille 0 is normal[END-FE]
+
+
+
+
+
+//POINTER #227 @ $56AC - STRING #227 @ $6D99
+#W32($56AC)
+//コリン０は通常です[END-FE]
+Korin 0 is normal[END-FE]
+
+
+
+
+
+//POINTER #228 @ $56B0 - STRING #228 @ $6DAE
+#W32($56B0)
+//ファニル０は通常です[END-FE]
+Fanille 0 is normal[END-FE]
+
+
+
+
+
+//POINTER #229 @ $56B4 - STRING #229 @ $6DC5
+#W32($56B4)
+//ファニル０を保護しました[END-FE]
+Protected Fanille 0[END-FE]
+
+
+
+
+
+//POINTER #230 @ $56B8 - STRING #230 @ $6DE0
+#W32($56B8)
+//コリン１は通常です[END-FE]
+Korin 1 is normal[END-FE]
+
+
+
+
+
+//POINTER #231 @ $56BC - STRING #231 @ $6DF5
+#W32($56BC)
+//主人公０は普通です。[END-FE]
+The protagonist 0 is normal.[END-FE]
+
+
+
+
+
+//POINTER #232 @ $56C0 - STRING #232 @ $6E0C
+#W32($56C0)
+//保護を解除しました。[END-FE]
+Removed protection.[END-FE]
+
+
+
+
+
+//POINTER #233 @ $56C4 - STRING #233 @ $6E23
+#W32($56C4)
+//コリン０は通常です[END-FE]
+Korin 0 is normal[END-FE]
+
+
+
+
+
+//POINTER #234 @ $56C8 - STRING #234 @ $6E38
+#W32($56C8)
+//顔グラ優先のチェックをします[END-FE]
+Check the priority of face gras?!?[END-FE]
+
+
+
+
+
+//POINTER #235 @ $56CC - STRING #235 @ $6E57
+#W32($56CC)
+//主人公０の顔は優先です。[END-FE]
+The face of the main character 0 has priority.[END-FE]
+
+
+
+
+
+//POINTER #236 @ $56D0 - STRING #236 @ $6E72
+#W32($56D0)
+//ファニル０は通常です[END-FE]
+Fanille 0 is normal[END-FE]
+
+
+
+
+
+//POINTER #237 @ $56D4 - STRING #237 @ $6E89
+#W32($56D4)
+//ファニル０を優先にしました。[END-FE]
+Fanille 0 was given priority.[END-FE]
+
+
+
+
+
+//POINTER #238 @ $56D8 - STRING #238 @ $6EA8
+#W32($56D8)
+//顔移動のチェックする[END-FE]
+Check face movement[END-FE]
+
+
+
+
+
+//POINTER #239 @ $56DC - STRING #239 @ $6EBF
+#W32($56DC)
+//速度０で[(3)]へ移動[END-FE]
+Move to [(3)] at speed 0[END-FE]
+
+
+
+
+
+//POINTER #240 @ $56E0 - STRING #240 @ $6ED2
+#W32($56E0)
+//速度１で[(4)]へ移動[END-FE]
+Move to [(4)] at speed 1[END-FE]
+
+
+
+
+
+//POINTER #241 @ $56E4 - STRING #241 @ $6EE5
+#W32($56E4)
+//速度２で[(6)]へ移動[END-FE]
+Move to [(6)] at speed 2[END-FE]
+
+
+
+
+
+//POINTER #242 @ $56E8 - STRING #242 @ $6EF8
+#W32($56E8)
+//速度３で[(4)]へ移動[END-FE]
+Move to [(4)] at speed 3[END-FE]
+
+
+
+
+
+//POINTER #243 @ $56EC - STRING #243 @ $6F0B
+#W32($56EC)
+//速度４で[(2)]へ移動[END-FE]
+Move to [(2)] at speed 4[END-FE]
+
+
+
+
+
+//POINTER #244 @ $56F0 - STRING #244 @ $6F1E
+#W32($56F0)
+//速度５で[(6)]へ移動[END-FE]
+Move to [(6)] at speed 5[END-FE]
+
+
+
+
+
+//POINTER #245 @ $56F4 - STRING #245 @ $6F31
+#W32($56F4)
+//速度６で[(2)]へ移動[END-FE]
+Move to [(2)] at speed 6[END-FE]
+
+
+
+
+
+//POINTER #246 @ $56F8 - STRING #246 @ $6F44
+#W32($56F8)
+//速度７で[(6)]へ移動[END-FE]
+Move to [(6)] at speed 7[END-FE]
+
+
+
+
+
+//POINTER #247 @ $56FC - STRING #247 @ $6F57
+#W32($56FC)
+//速度５で（５０，０）へ移動[END-FE]
+Move to (50,0) at speed 5[END-FE]
+
+
+
+
+
+//POINTER #248 @ $5700 - STRING #248 @ $6F74
+#W32($5700)
+//速度５で相対（２５６、０）へ移動[END-FE]
+Move to relative (256, 0) at speed 5[END-FE]
+
+
+
+
+
+//POINTER #249 @ $5704 - STRING #249 @ $6F97
+#W32($5704)
+//移動チェック終了[END-FE]
+Movement check end[END-FE]
+
+
+
+
+
+//POINTER #250 @ $5708 - STRING #250 @ $6FAA
+#W32($5708)
+//顔表情のチェックする[END-FE]
+Check facial expressions[END-FE]
+
+
+
+
+
+//POINTER #251 @ $570C - STRING #251 @ $6FC1
+#W32($570C)
+//目を閉じます[END-FE]
+Close your eyes[END-FE]
+
+
+
+
+
+//POINTER #252 @ $5710 - STRING #252 @ $6FD0
+#W32($5710)
+//口を『あ』にします[END-FE]
+Make an "a"[END-FE]
+
+
+
+
+
+//POINTER #253 @ $5714 - STRING #253 @ $6FE5
+#W32($5714)
+//口を『い』にします[END-FE]
+Make an "i"[END-FE]
+
+
+
+
+
+//POINTER #254 @ $5718 - STRING #254 @ $6FFA
+#W32($5718)
+//口を『う』にします[END-FE]
+Make an "u"[END-FE]
+
+
+
+
+
+//POINTER #255 @ $571C - STRING #255 @ $700F
+#W32($571C)
+//口を『え』にします[END-FE]
+Make an "e"[END-FE]
+
+
+
+
+
+//POINTER #256 @ $5720 - STRING #256 @ $7024
+#W32($5720)
+//口を『お』にします[END-FE]
+Make an "o"[END-FE]
+
+
+
+
+
+//POINTER #257 @ $5724 - STRING #257 @ $7039
+#W32($5724)
+//口を半開きにします[END-FE]
+Open your mouth halfway[END-FE]
+
+
+
+
+
+//POINTER #258 @ $5728 - STRING #258 @ $704E
+#W32($5728)
+//目を通常に戻します[END-FE]
+Return eyes to normal[END-FE]
+
+
+
+
+
+//POINTER #259 @ $572C - STRING #259 @ $7063
+#W32($572C)
+//終わります[END-FE]
+End[END-FE]
+
+
+
+
+
+//POINTER #260 @ $5730 - STRING #260 @ $7070
+#W32($5730)
+//現在未使用の部分です。[END-FE]
+Currently unused part.[END-FE]
+
+
+
+
+
+//POINTER #261 @ $5734 - STRING #261 @ $7089
+#W32($5734)
+//妖精関係のチェックする？[END-FE]
+Do you want to check the fairies?[END-FE]
+
+
+
+
+
+//POINTER #262 @ $5738 - STRING #262 @ $70A4
+#W32($5738)
+//・ユリィ[END-FE]
+・Yurii[END-FE]
+
+
+
+
+
+//POINTER #263 @ $573C - STRING #263 @ $70AF
+#W32($573C)
+//・コリン[END-FE]
+・Korin[END-FE]
+
+
+
+
+
+//POINTER #264 @ $5740 - STRING #264 @ $70BA
+#W32($5740)
+//ユリィをどうする？[END-FE]
+What will you do with Yurii?[END-FE]
+
+
+
+
+
+//POINTER #265 @ $5744 - STRING #265 @ $70CF
+#W32($5744)
+//・表示する[END-FE]
+・Display[END-FE]
+
+
+
+
+
+//POINTER #266 @ $5748 - STRING #266 @ $70DC
+#W32($5748)
+//・表示消す[END-FE]
+・Display off[END-FE]
+
+
+
+
+
+//POINTER #267 @ $574C - STRING #267 @ $70E9
+#W32($574C)
+//・分離する[END-FE]
+・Separate[END-FE]
+
+
+
+
+
+//POINTER #268 @ $5750 - STRING #268 @ $70F6
+#W32($5750)
+//・合流する[END-FE]
+・Join[END-FE]
+
+
+
+
+
+//POINTER #269 @ $5754 - STRING #269 @ $7103
+#W32($5754)
+//・上下する[END-FE]
+・Go up and down[END-FE]
+
+
+
+
+
+//POINTER #270 @ $5758 - STRING #270 @ $7110
+#W32($5758)
+//・上下しない[END-FE]
+・Do not go up and down[END-FE]
+
+
+
+
+
+//POINTER #271 @ $575C - STRING #271 @ $711F
+#W32($575C)
+//・妖精能力ＭＡＸ[END-FE]
+・Fairy power MAX[END-FE]
+
+
+
+
+
+//POINTER #272 @ $5760 - STRING #272 @ $7132
+#W32($5760)
+//・追従者を[MainCharName]にする[END-FE]
+・Follow [MainCharName][END-FE]
+
+
+
+
+
+//POINTER #273 @ $5764 - STRING #273 @ $7149
+#W32($5764)
+//・追従者をウェンディにする[END-FE]
+・Follow Wendy[END-FE]
+
+
+
+
+
+//POINTER #274 @ $5768 - STRING #274 @ $7166
+#W32($5768)
+//・追従者をルキアスにする[END-FE]
+・Follow Rukias[END-FE]
+
+
+
+
+
+//POINTER #275 @ $576C - STRING #275 @ $7181
+#W32($576C)
+//・Ｓフラグ妖精誕生　ＯＮ[END-FE]
+・S flag fairy birth ON?!?[END-FE]
+
+
+
+
+
+//POINTER #276 @ $5770 - STRING #276 @ $719C
+#W32($5770)
+//コリンをどうする？[END-FE]
+What will you do with Korin?[END-FE]
+
+
+
+
+
+//POINTER #277 @ $5774 - STRING #277 @ $71B1
+#W32($5774)
+//・表示する[END-FE]
+・Display[END-FE]
+
+
+
+
+
+//POINTER #278 @ $5778 - STRING #278 @ $71BE
+#W32($5778)
+//・表示消す[END-FE]
+・Display off[END-FE]
+
+
+
+
+
+//POINTER #279 @ $577C - STRING #279 @ $71CB
+#W32($577C)
+//・分離する[END-FE]
+・Separate[END-FE]
+
+
+
+
+
+//POINTER #280 @ $5780 - STRING #280 @ $71D8
+#W32($5780)
+//・合流する[END-FE]
+・Join[END-FE]
+
+
+
+
+
+//POINTER #281 @ $5784 - STRING #281 @ $71E5
+#W32($5784)
+//・上下する[END-FE]
+・Go up and down[END-FE]
+
+
+
+
+
+//POINTER #282 @ $5788 - STRING #282 @ $71F2
+#W32($5788)
+//・上下しない[END-FE]
+・Do not go up and down[END-FE]
+
+
+
+
+
+//POINTER #283 @ $578C - STRING #283 @ $7201
+#W32($578C)
+//・追従者を[MainCharName]にする[END-FE]
+・Follow [MainCharName][END-FE]
+
+
+
+
+
+//POINTER #284 @ $5790 - STRING #284 @ $7218
+#W32($5790)
+//・追従者をウェンディにする[END-FE]
+・Follow Wendy[END-FE]
+
+
+
+
+
+//POINTER #285 @ $5794 - STRING #285 @ $7235
+#W32($5794)
+//・追従者をルキアスにする[END-FE]
+・Follow Rukias[END-FE]
+
+
+
+
+
+//POINTER #286 @ $5798 - STRING #286 @ $7250
+#W32($5798)
+//集合解散のチェックする[END-FE]
+Check the assembly and dismissal.[END-FE]
+
+
+
+
+
+//POINTER #287 @ $579C - STRING #287 @ $7269
+#W32($579C)
+//どうする？[END-FE]
+What will you do?[END-FE]
+
+
+
+
+
+//POINTER #288 @ $57A0 - STRING #288 @ $7276
+#W32($57A0)
+//・パーティーを増やす[END-FE]
+・Increase your party[END-FE]
+
+
+
+
+
+//POINTER #289 @ $57A4 - STRING #289 @ $728D
+#W32($57A4)
+//・同行人付ける[END-FE]
+・Have a companion[END-FE]
+
+
+
+
+
+//POINTER #290 @ $57A8 - STRING #290 @ $729E
+#W32($57A8)
+//・同行人外す[END-FE]
+・Remove companion[END-FE]
+
+
+
+
+
+//POINTER #291 @ $57AC - STRING #291 @ $72AD
+#W32($57AC)
+//・パーティー解散[END-FE]
+・Break up the party[END-FE]
+
+
+
+
+
+//POINTER #292 @ $57B0 - STRING #292 @ $72C0
+#W32($57B0)
+//・パーティー集合[END-FE]
+・Gather party[END-FE]
+
+
+
+
+
+//POINTER #293 @ $57B4 - STRING #293 @ $72D3
+#W32($57B4)
+//・パーティー集合２[END-FE]
+・Gather party 2[END-FE]
+
+
+
+
+
+//POINTER #294 @ $57B8 - STRING #294 @ $72E8
+#W32($57B8)
+//・パーティー陣形[END-FE]
+・Party formation[END-FE]
+
+
+
+
+
+//POINTER #295 @ $57BC - STRING #295 @ $72FB
+#W32($57BC)
+//吹き出し位置調整する？[END-FE]
+Do you want to adjust the pop-up position?[END-FE]
+
+
+
+
+
+//POINTER #296 @ $57C0 - STRING #296 @ $7314
+#W32($57C0)
+//・する[END-FE]
+・Do it[END-FE]
+
+
+
+
+
+//POINTER #297 @ $57C4 - STRING #297 @ $731D
+#W32($57C4)
+//・しない[END-FE]
+・Don't do it[END-FE]
+
+
+
+
+
+//POINTER #298 @ $57C8 - STRING #298 @ $7328
+#W32($57C8)
+//・主人公[END-FE]
+・Main character[END-FE]
+
+
+
+
+
+//POINTER #299 @ $57CC - STRING #299 @ $7333
+#W32($57CC)
+//・ウェンディ[END-FE]
+・Wendy[END-FE]
+
+
+
+
+
+//POINTER #300 @ $57D0 - STRING #300 @ $7342
+#W32($57D0)
+//・ユリィ[END-FE]
+・Yurii[END-FE]
+
+
+
+
+
+//POINTER #301 @ $57D4 - STRING #301 @ $734D
+#W32($57D4)
+//・ビジュアルチェック[END-FE]
+・Visual check[END-FE]
+
+
+
+
+
+//POINTER #302 @ $57D8 - STRING #302 @ $7364
+#W32($57D8)
+//・もどる[END-FE]
+・Return[END-FE]
+
+
+
+
+
+//POINTER #303 @ $57DC - STRING #303 @ $736F
+#W32($57DC)
+//主人公０の[NLINE]
+//普通[END-FE]
+Main character 0[NLINE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #304 @ $57E0 - STRING #304 @ $7382
+#W32($57E0)
+//主人公０の[NLINE]
+//まじめ[END-FE]
+Main character 0[NLINE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #305 @ $57E4 - STRING #305 @ $7397
+#W32($57E4)
+//主人公０の[NLINE]
+//穏やか[END-FE]
+Main character 0[NLINE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #306 @ $57E8 - STRING #306 @ $73AC
+#W32($57E8)
+//主人公０の[NLINE]
+//怒り[END-FE]
+Main character 0[NLINE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #307 @ $57EC - STRING #307 @ $73BF
+#W32($57EC)
+//主人公０の[NLINE]
+//悲しい[END-FE]
+Main character 0[NLINE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #308 @ $57F0 - STRING #308 @ $73D4
+#W32($57F0)
+//主人公０の[NLINE]
+//照れる[END-FE]
+Main character 0[NLINE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #309 @ $57F4 - STRING #309 @ $73E9
+#W32($57F4)
+//主人公０の[NLINE]
+//笑い[END-FE]
+Main character 0[NLINE]
+Laughing[END-FE]
+
+
+
+
+
+//POINTER #310 @ $57F8 - STRING #310 @ $73FC
+#W32($57F8)
+//主人公０の[NLINE]
+//瀕死[END-FE]
+Main character 0[NLINE]
+Dying[END-FE]
+
+
+
+
+
+//POINTER #311 @ $57FC - STRING #311 @ $740F
+#W32($57FC)
+//ウェンディ０の[NLINE]
+//普通[END-FE]
+Wendy 0[NLINE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #312 @ $5800 - STRING #312 @ $7426
+#W32($5800)
+//ウェンディ０の[NLINE]
+//まじめ[END-FE]
+Wendy 0[NLINE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #313 @ $5804 - STRING #313 @ $743F
+#W32($5804)
+//ウェンディ０の[NLINE]
+//穏やか[END-FE]
+Wendy 0[NLINE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #314 @ $5808 - STRING #314 @ $7458
+#W32($5808)
+//ウェンディ０の[NLINE]
+//怒り[END-FE]
+Wendy 0[NLINE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #315 @ $580C - STRING #315 @ $746F
+#W32($580C)
+//ウェンディ０の[NLINE]
+//悲しい[END-FE]
+Wendy 0[NLINE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #316 @ $5810 - STRING #316 @ $7488
+#W32($5810)
+//ウェンディ０の[NLINE]
+//照れる[END-FE]
+Wendy 0[NLINE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #317 @ $5814 - STRING #317 @ $74A1
+#W32($5814)
+//ウェンディ０の[NLINE]
+//笑い[END-FE]
+Wendy 0[NLINE]
+Laughing[END-FE]
+
+
+
+
+
+//POINTER #318 @ $5818 - STRING #318 @ $74B8
+#W32($5818)
+//ウェンディ０の[NLINE]
+//瀕死[END-FE]
+Wendy 0[NLINE]
+Dying[END-FE]
+
+
+
+
+
+//POINTER #319 @ $581C - STRING #319 @ $74CF
+#W32($581C)
+//ウェンディ１の[NLINE]
+//普通[END-FE]
+Wendy 1[NLINE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #320 @ $5820 - STRING #320 @ $74E6
+#W32($5820)
+//ウェンディ１の[NLINE]
+//まじめ[END-FE]
+Wendy 1[NLINE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #321 @ $5824 - STRING #321 @ $74FF
+#W32($5824)
+//ウェンディ１の[NLINE]
+//穏やか[END-FE]
+Wendy 1[NLINE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #322 @ $5828 - STRING #322 @ $7518
+#W32($5828)
+//ウェンディ１の[NLINE]
+//怒り[END-FE]
+Wendy 1[NLINE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #323 @ $582C - STRING #323 @ $752F
+#W32($582C)
+//ウェンディ１の[NLINE]
+//悲しい[END-FE]
+Wendy 1[NLINE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #324 @ $5830 - STRING #324 @ $7548
+#W32($5830)
+//ウェンディ１の[NLINE]
+//照れる[END-FE]
+Wendy 1[NLINE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #325 @ $5834 - STRING #325 @ $7561
+#W32($5834)
+//ウェンディ１の[NLINE]
+//瀕死[END-FE]
+Wendy 1[NLINE]
+Dying[END-FE]
+
+
+
+
+
+//POINTER #326 @ $5838 - STRING #326 @ $7578
+#W32($5838)
+//・ユリィ服０[END-FE]
+・Yurii clothes 0[END-FE]
+
+
+
+
+
+//POINTER #327 @ $583C - STRING #327 @ $7587
+#W32($583C)
+//・ユリィ服１[END-FE]
+・Yurii clothes 1[END-FE]
+
+
+
+
+
+//POINTER #328 @ $5840 - STRING #328 @ $7596
+#W32($5840)
+//・ユリィ服２[END-FE]
+・Yurii clothes 2[END-FE]
+
+
+
+
+
+//POINTER #329 @ $5844 - STRING #329 @ $75A5
+#W32($5844)
+//・ユリィ服３[END-FE]
+・Yurii clothes 3[END-FE]
+
+
+
+
+
+//POINTER #330 @ $5848 - STRING #330 @ $75B4
+#W32($5848)
+//・ユリィ服４[END-FE]
+・Yurii clothes 4[END-FE]
+
+
+
+
+
+//POINTER #331 @ $584C - STRING #331 @ $75C3
+#W32($584C)
+//・ユリィ服５[END-FE]
+・Yurii clothes 5[END-FE]
+
+
+
+
+
+//POINTER #332 @ $5850 - STRING #332 @ $75D2
+#W32($5850)
+//・ユリィ服６[END-FE]
+・Yurii clothes 6[END-FE]
+
+
+
+
+
+//POINTER #333 @ $5854 - STRING #333 @ $75E1
+#W32($5854)
+//・ユリィ服７[END-FE]
+・Yurii clothes 7[END-FE]
+
+
+
+
+
+//POINTER #334 @ $5858 - STRING #334 @ $75F0
+#W32($5858)
+//・ユリィ服８[END-FE]
+・Yurii clothes 8[END-FE]
+
+
+
+
+
+//POINTER #335 @ $585C - STRING #335 @ $75FF
+#W32($585C)
+//・ユリィ服９[END-FE]
+・Yurii clothes 9[END-FE]
+
+
+
+
+
+//POINTER #336 @ $5860 - STRING #336 @ $760E
+#W32($5860)
+//・ユリィ服１０[END-FE]
+・Yurii clothes 10[END-FE]
+
+
+
+
+
+//POINTER #337 @ $5864 - STRING #337 @ $761F
+#W32($5864)
+//・ユリィ服１１[END-FE]
+・Yurii clothes 11[END-FE]
+
+
+
+
+
+//POINTER #338 @ $5868 - STRING #338 @ $7630
+#W32($5868)
+//・ユリィ０[END-FE]
+・Yurii 0[END-FE]
+
+
+
+
+
+//POINTER #339 @ $586C - STRING #339 @ $763D
+#W32($586C)
+//・ユリィ１[END-FE]
+・Yurii 1[END-FE]
+
+
+
+
+
+//POINTER #340 @ $5870 - STRING #340 @ $764A
+#W32($5870)
+//・ユリィ２[END-FE]
+・Yurii 2[END-FE]
+
+
+
+
+
+//POINTER #341 @ $5874 - STRING #341 @ $7657
+#W32($5874)
+//ユリィ０の[NLINE]
+//普通[END-FE]
+Yurii 0[NLINE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #342 @ $5878 - STRING #342 @ $766A
+#W32($5878)
+//ユリィ０の[NLINE]
+//まじめ[END-FE]
+Yurii 0[NLINE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #343 @ $587C - STRING #343 @ $767F
+#W32($587C)
+//ユリィ０の[NLINE]
+//穏やか[END-FE]
+Yurii 0[NLINE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #344 @ $5880 - STRING #344 @ $7694
+#W32($5880)
+//ユリィ０の[NLINE]
+//怒り[END-FE]
+Yurii 0[NLINE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #345 @ $5884 - STRING #345 @ $76A7
+#W32($5884)
+//ユリィ０の[NLINE]
+//悲しい[END-FE]
+Yurii 0[NLINE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #346 @ $5888 - STRING #346 @ $76BC
+#W32($5888)
+//ユリィ０の[NLINE]
+//照れる[END-FE]
+Yurii 0[NLINE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #347 @ $588C - STRING #347 @ $76D1
+#W32($588C)
+//ユリィ０の[NLINE]
+//笑い[END-FE]
+Yurii 0[NLINE]
+Laughing[END-FE]
+
+
+
+
+
+//POINTER #348 @ $5890 - STRING #348 @ $76E4
+#W32($5890)
+//ユリィ１の[NLINE]
+//普通[END-FE]
+Yurii 1[NLINE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #349 @ $5894 - STRING #349 @ $76F7
+#W32($5894)
+//ユリィ１の[NLINE]
+//まじめ[END-FE]
+Yurii 1[NLINE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #350 @ $5898 - STRING #350 @ $770C
+#W32($5898)
+//ユリィ１の[NLINE]
+//穏やか[END-FE]
+Yurii 1[NLINE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #351 @ $589C - STRING #351 @ $7721
+#W32($589C)
+//ユリィ１の[NLINE]
+//怒り[END-FE]
+Yurii 1[NLINE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #352 @ $58A0 - STRING #352 @ $7734
+#W32($58A0)
+//ユリィ１の[NLINE]
+//悲しい[END-FE]
+Yurii 1[NLINE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #353 @ $58A4 - STRING #353 @ $7749
+#W32($58A4)
+//ユリィ１の[NLINE]
+//照れる[END-FE]
+Yurii 1[NLINE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #354 @ $58A8 - STRING #354 @ $775E
+#W32($58A8)
+//ユリィ１の[NLINE]
+//笑い[END-FE]
+Yurii 1[NLINE]
+Laughing[END-FE]
+
+
+
+
+
+//POINTER #355 @ $58AC - STRING #355 @ $7771
+#W32($58AC)
+//ユリィ２の[NLINE]
+//普通[END-FE]
+Yurii 2[NLINE]
+Normal[END-FE]
+
+
+
+
+
+//POINTER #356 @ $58B0 - STRING #356 @ $7784
+#W32($58B0)
+//ユリィ２の[NLINE]
+//まじめ[END-FE]
+Yurii 2[NLINE]
+Serious[END-FE]
+
+
+
+
+
+//POINTER #357 @ $58B4 - STRING #357 @ $7799
+#W32($58B4)
+//ユリィ２の[NLINE]
+//穏やか[END-FE]
+Yurii 2[NLINE]
+Calm[END-FE]
+
+
+
+
+
+//POINTER #358 @ $58B8 - STRING #358 @ $77AE
+#W32($58B8)
+//ユリィ２の[NLINE]
+//怒り[END-FE]
+Yurii 2[NLINE]
+Angry[END-FE]
+
+
+
+
+
+//POINTER #359 @ $58BC - STRING #359 @ $77C1
+#W32($58BC)
+//ユリィ２の[NLINE]
+//悲しい[END-FE]
+Yurii 2[NLINE]
+Sad[END-FE]
+
+
+
+
+
+//POINTER #360 @ $58C0 - STRING #360 @ $77D6
+#W32($58C0)
+//ユリィ２の[NLINE]
+//照れる[END-FE]
+Yurii 2[NLINE]
+Shy[END-FE]
+
+
+
+
+
+//POINTER #361 @ $58C4 - STRING #361 @ $77EB
+#W32($58C4)
+//ユリィ２の[NLINE]
+//笑い[END-FE]
+Yurii 2[NLINE]
+Laughing[END-FE]
+
+
+
+
+
+//POINTER #362 @ $58C8 - STRING #362 @ $77FE
+#W32($58C8)
+//服を選び直しますか？[END-FE]
+Do you want to reselect your clothes?[END-FE]
+
+
+
+
+
+//POINTER #363 @ $58CC - STRING #363 @ $7815
+#W32($58CC)
+//どれか選んで。×で終了[END-FE]
+Choose one. End with ×[END-FE]
+
+
+
+
+
+//POINTER #364 @ $58D0 - STRING #364 @ $782E
+#W32($58D0)
+//・ウェンディＥＮＤ[END-FE]
+・Wendy Ending[END-FE]
+
+
+
+
+
+//POINTER #365 @ $58D4 - STRING #365 @ $7843
+#W32($58D4)
+//・ルキアスＥＮＤ[END-FE]
+・Rukias Ending[END-FE]
+
+
+
+
+
+//POINTER #366 @ $58D8 - STRING #366 @ $7856
+#W32($58D8)
+//・アニータＥＮＤ[END-FE]
+・Anita Ending[END-FE]
+
+
+
+
+
+//POINTER #367 @ $58DC - STRING #367 @ $7869
+#W32($58DC)
+//・ホフマンＥＮＤ[END-FE]
+・Hofman Ending[END-FE]
+
+
+
+
+
+//POINTER #368 @ $58E0 - STRING #368 @ $787C
+#W32($58E0)
+//・イリステレサＥＮＤ[END-FE]
+・Iristelessa Ending[END-FE]
+
+
+
+
+
+//POINTER #369 @ $58E4 - STRING #369 @ $7893
+#W32($58E4)
+//・ゼオンシルトＥＮＤ[END-FE]
+・Haschen Ending[END-FE]
+
+
+
+
+
+//POINTER #370 @ $58E8 - STRING #370 @ $78AA
+#W32($58E8)
+//・ユリィＥＮＤ[END-FE]
+・Yurii Ending[END-FE]
+
+
+
+
+
+//POINTER #371 @ $58EC - STRING #371 @ $78BB
+#W32($58EC)
+//・主人公ＥＮＤ[END-FE]
+・Hero Ending[END-FE]
+
+
+
+
+
+//POINTER #372 @ $58F0 - STRING #372 @ $78CC
+#W32($58F0)
+//・ネーリスＥＮＤ[END-FE]
+・Neilis Ending[END-FE]
+
+
+
+
+
+//POINTER #373 @ $58F4 - STRING #373 @ $78DF
+#W32($58F4)
+//・巨人見上げる[END-FE]
+・Looking up at the giant[END-FE]
+
+
+
+
+
+//POINTER #374 @ $58F8 - STRING #374 @ $78F0
+#W32($58F8)
+//・アドモと巨人[END-FE]
+・Admonisher and the Giant[END-FE]
+
+
+
+
+
+//POINTER #375 @ $58FC - STRING #375 @ $7901
+#W32($58FC)
+//・龍穴塔[END-FE]
+・Dragon Cave Tower[END-FE]
+
+
+
+
+
+//POINTER #376 @ $5900 - STRING #376 @ $790C
+#W32($5900)
+//終了は×ボタン[END-FE]
+End with × button[END-FE]
+
+
+
+
+
+//POINTER #377 @ $5904 - STRING #377 @ $791D
+#W32($5904)
+//・下方向[END-FE]
+・Downward[END-FE]
+
+
+
+
+
+//POINTER #378 @ $5908 - STRING #378 @ $7928
+#W32($5908)
+//・上方向[END-FE]
+・Upward[END-FE]
+
+
+
+
+
+//POINTER #379 @ $590C - STRING #379 @ $7933
+#W32($590C)
+//・左方向[END-FE]
+・Left[END-FE]
+
+
+
+
+
+//POINTER #380 @ $5910 - STRING #380 @ $793E
+#W32($5910)
+//・右方向[END-FE]
+・Right[END-FE]
+
+
+
+
+
+//POINTER #381 @ $5914 - STRING #381 @ $7949
+#W32($5914)
+//いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+
+
+
+
+
+//POINTER #382 @ $5918 - STRING #382 @ $7A02
+#W32($5918)
+//いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+
+
+
+
+
+//POINTER #383 @ $591C - STRING #383 @ $7ABB
+#W32($591C)
+//いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+
+
+
+
+
+//POINTER #384 @ $5920 - STRING #384 @ $7B74
+#W32($5920)
+//いろはにおえどちりぬるをわかよたれそつねなら[NLINE]
+//ん、うのやまけふこえてあさきゆめみしえひもせ[NLINE]
+//す。いろはにおえどちりぬるをわかよたれそつね[NLINE]
+//ならん、うのやまけふこえてあさきゆめみしえひ[NLINE]
+//もせす[END-FE]
+いろはにおえどちりぬるをわかよたれそつねなら[NLINE]
+ん、うのやまけふこえてあさきゆめみしえひもせ[NLINE]
+す。いろはにおえどちりぬるをわかよたれそつね[NLINE]
+ならん、うのやまけふこえてあさきゆめみしえひ[NLINE]
+もせす[END-FE]
+
+
+
+
+
+//POINTER #385 @ $5924 - STRING #385 @ $7C35
+#W32($5924)
+//いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす。いろはにおえどちりぬるをわかよたれそつねならん、うのやまけふこえてあさきゆめみしえひもせす[END-FE]
+
+
+
+
+
+//POINTER #386 @ $5928 - STRING #386 @ $7CEE
+#W32($5928)
+//いろはにおえどちりぬるをわかよたれそつねなら[NLINE]
+//ん、うのやまけふこえてあさきゆめみしえひもせ[NLINE]
+//す。いろはにおえどちりぬるをわかよたれそつね[NLINE]
+//ならん、うのやまけふこえてあさきゆめみしえひ[NLINE]
+//もせす[END-FE]
+いろはにおえどちりぬるをわかよたれそつねなら[NLINE]
+ん、うのやまけふこえてあさきゆめみしえひもせ[NLINE]
+す。いろはにおえどちりぬるをわかよたれそつね[NLINE]
+ならん、うのやまけふこえてあさきゆめみしえひ[NLINE]
+もせす[END-FE]
+
+
+
+
+
+//POINTER #387 @ $592C - STRING #387 @ $7DAF
+#W32($592C)
+//文字[NLINE]
+//　表示：ー－ー　!?　はぁと　汗１　汗２　 [{=}][NLINE]
+//　外字：[---]　[!?]　 [HEART][COL05][HEART][COL00] 　[TEAR-DROP][COL09][TEAR-DROP][COL00]　[2-TEAR-DROP][COL09][2-TEAR-DROP][COL00]　[{==}][NLINE]
+//アイコン[NLINE]
+//　表示：Lv 金 武器防具 GemGoods貴重品Plate[NLINE]
+//　外字：Ц Ы　О　П　Р　[GOODS]　　Т　　У[NLINE]
+//ボタン[NLINE]
+//　表示： △　□　○　×[NLINE]
+//　外字：[TRIANGLE][COL04][TRIANGLE][COL00][SQUARE][COL05][SQUARE][COL00][CIRCLE][COL03][CIRCLE][COL00][CROSS][COL09][CROSS][COL00][NLINE]
+//　表示：START SELECT L1  L2  R1  R2[NLINE]
+//　外字：[START][SELECT][L1][L2][R1][R2][END-FE]
+文字[NLINE]
+　表示：ー－ー　!?　はぁと　汗１　汗２　 [{=}][NLINE]
+　外字：[---]　[!?]　 [HEART][COL05][HEART][COL00] 　[TEAR-DROP][COL09][TEAR-DROP][COL00]　[2-TEAR-DROP][COL09][2-TEAR-DROP][COL00]　[{==}][NLINE]
+アイコン[NLINE]
+　表示：Lv 金 武器防具 GemGoods貴重品Plate[NLINE]
+　外字：Ц Ы　О　П　Р　[GOODS]　　Т　　У[NLINE]
+ボタン[NLINE]
+　表示： △　□　○　×[NLINE]
+　外字：[TRIANGLE][COL04][TRIANGLE][COL00][SQUARE][COL05][SQUARE][COL00][CIRCLE][COL03][CIRCLE][COL00][CROSS][COL09][CROSS][COL00][NLINE]
+　表示：START SELECT L1  L2  R1  R2[NLINE]
+　外字：[START][SELECT][L1][L2][R1][R2][END-FE]
+
+
+
+
+
+//POINTER #388 @ $5930 - STRING #388 @ $7F22
+#W32($5930)
+//０１２３４５６７８９[NLINE]
+//ＡＢＣＤＥＦＧＨＩＪＫＬＭ[NLINE]
+//ＮＯＰＱＲＳＴＵＶＷＸＹＺ[NLINE]
+//ａｂｃｄｅｆｇｈｉｊｋｌｍ[NLINE]
+//ｎｏｐｑｒｓｔｕｖｗｘｙｚ[END-FE]
+０１２３４５６７８９[NLINE]
+ＡＢＣＤＥＦＧＨＩＪＫＬＭ[NLINE]
+ＮＯＰＱＲＳＴＵＶＷＸＹＺ[NLINE]
+ａｂｃｄｅｆｇｈｉｊｋｌｍ[NLINE]
+ｎｏｐｑｒｓｔｕｖｗｘｙｚ[END-FE]
+
+
+
+
+
+//POINTER #389 @ $5934 - STRING #389 @ $7FA9
+#W32($5934)
+//ぁあぃいぅうぇえぉおかがきぎくぐけげこご[NLINE]
+//さざしじすずせぜそぞただちぢっつづてでとど[NLINE]
+//なにぬねのはばぱひびぴふぶぷへべぺほぼぽ[NLINE]
+//まみむめもゃやゅゆょよらりるれろゎわゐゑをん[NLINE]
+//ァアィイゥウェエォオカガキギクグケゲコゴ[NLINE]
+//サザシジスズセゼソゾタダチヂッツヅテデトド[NLINE]
+//ナニヌネノハバパヒビピフブプヘベペホボポ[NLINE]
+//マミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶ[END-FE]
+ぁあぃいぅうぇえぉおかがきぎくぐけげこご[NLINE]
+さざしじすずせぜそぞただちぢっつづてでとど[NLINE]
+なにぬねのはばぱひびぴふぶぷへべぺほぼぽ[NLINE]
+まみむめもゃやゅゆょよらりるれろゎわゐゑをん[NLINE]
+ァアィイゥウェエォオカガキギクグケゲコゴ[NLINE]
+サザシジスズセゼソゾタダチヂッツヅテデトド[NLINE]
+ナニヌネノハバパヒビピフブプヘベペホボポ[NLINE]
+マミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶ[END-FE]
+
+
+
+
+
+//POINTER #390 @ $5938 - STRING #390 @ $810C
+#W32($5938)
+// !"#$%&'()*+,-./[NLINE]
+//0123456789:;[LESS-THAN]=\3e?[NLINE]
+//@ABCDEFGHIJKLMNO[NLINE]
+//PQRSTUVWXYZ[\\]^_[NLINE]
+//`abcdefghijklmno[NLINE]
+//pqrstuvwxyz{|}~ [END-FE]
+ !"#$%&'()*+,-./[NLINE]
+0123456789:;[LESS-THAN]=\3e?[NLINE]
+@ABCDEFGHIJKLMNO[NLINE]
+PQRSTUVWXYZ[\\]^_[NLINE]
+`abcdefghijklmno[NLINE]
+pqrstuvwxyz{|}~ [END-FE]
+
+
+
+
+
+//POINTER #391 @ $593C - STRING #391 @ $817C
+#W32($593C)
+//[COL00]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL01]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL02]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL03]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL04]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL05]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL06]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL07]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL08]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL09]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0A]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0B]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0C]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0D]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0E]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0F]あいうえお０１２３４亜居羽絵御[COL00][END-FE]
+[COL00]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL01]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL02]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL03]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL04]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL05]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL06]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL07]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL08]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL09]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0A]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0B]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0C]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0D]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0E]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0F]あいうえお０１２３４亜居羽絵御[COL00][END-FE]
+
+
+
+
+
+//POINTER #392 @ $5940 - STRING #392 @ $83DD
+#W32($5940)
+//[COL00]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL01]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL02]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL03]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL04]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL05]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL06]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL07]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL08]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL09]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0A]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0B]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0C]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0D]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0E]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+//[COL0F]あいうえお０１２３４亜居羽絵御[COL00][END-FE]
+[COL00]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL01]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL02]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL03]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL04]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL05]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL06]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL07]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL08]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL09]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0A]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0B]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0C]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0D]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0E]あいうえお０１２３４亜居羽絵御[COL00][NLINE]
+[COL0F]あいうえお０１２３４亜居羽絵御[COL00][END-FE]
+
+
+
+
+
+//POINTER #393 @ $5944 - STRING #393 @ $863E
+#W32($5944)
+//I am a Growlanser! You must fight to win.[NLINE]
+//Zzzz...?[END-FE]
+I am a Growlanser! You must fight to win.[NLINE]
+Zzzz...?[END-FE]
+
+
+
+
+
+//POINTER #394 @ $5948 - STRING #394 @ $8674
+#W32($5948)
+//I am a Growlanser! You must fight to win.[NLINE]
+//Zzzz...?[END-FE]
+I am a Growlanser! You must fight to win.[NLINE]
+Zzzz...?[END-FE]
+
+
+
+
+
+//POINTER #395 @ $594C - STRING #395 @ $86AA
+#W32($594C)
+//・V_00 ウェンディエンド[END-FE]
+・V_00 Wendy end[END-FE]
+
+
+
+
+
+//POINTER #396 @ $5950 - STRING #396 @ $86C4
+#W32($5950)
+//・V_01 ルキアスエンド[END-FE]
+・V_01 Rukias end[END-FE]
+
+
+
+
+
+//POINTER #397 @ $5954 - STRING #397 @ $86DC
+#W32($5954)
+//・V_02 アニータエンド[END-FE]
+・V_02 Anita end[END-FE]
+
+
+
+
+
+//POINTER #398 @ $5958 - STRING #398 @ $86F4
+#W32($5958)
+//・V_03 ホフマンエンド[END-FE]
+・V_03 Hofman end[END-FE]
+
+
+
+
+
+//POINTER #399 @ $595C - STRING #399 @ $870C
+#W32($595C)
+//・V_04 イリステレサエンド[END-FE]
+・V_04 Iristelessa end[END-FE]
+
+
+
+
+
+//POINTER #400 @ $5960 - STRING #400 @ $8728
+#W32($5960)
+//・V_05 ゼオンシルトエンド[END-FE]
+・V_05 Haschen end[END-FE]
+
+
+
+
+
+//POINTER #401 @ $5964 - STRING #401 @ $8744
+#W32($5964)
+//・V_06 ユリィエンド[END-FE]
+・V_06 Yurii end[END-FE]
+
+
+
+
+
+//POINTER #402 @ $5968 - STRING #402 @ $875A
+#W32($5968)
+//・V_07 主人公エンド[END-FE]
+・V_07 Hero end[END-FE]
+
+
+
+
+
+//POINTER #403 @ $596C - STRING #403 @ $8770
+#W32($596C)
+//・V_08 ネーリスエンド[END-FE]
+・V_08 Neilis end[END-FE]
+
+
+
+
+
+//POINTER #404 @ $5970 - STRING #404 @ $8788
+#W32($5970)
+//・V_09 巨人見上げる[END-FE]
+・V_09 Looking up at the giant[END-FE]
+
+
+
+
+
+//POINTER #405 @ $5974 - STRING #405 @ $879E
+#W32($5974)
+//・V_10 アドモニと巨人[END-FE]
+・V_10 Admonisher and the Giant[END-FE]
+
+
+
+
+
+//POINTER #406 @ $5978 - STRING #406 @ $87B6
+#W32($5978)
+//・V_11 龍穴塔[END-FE]
+・V_11 Dragon Cave Tower[END-FE]
+
+
+
+
+
+//POINTER #407 @ $597C - STRING #407 @ $87C6
+#W32($597C)
+//セーブのチェックする[END-FE]
+Check the save[END-FE]
+
+
+
+
+
+//POINTER #408 @ $5980 - STRING #408 @ $87DD
+#W32($5980)
+//どれ？[END-FE]
+Which one?[END-FE]
+
+
+
+
+
+//POINTER #409 @ $5984 - STRING #409 @ $87E6
+#W32($5984)
+//・セーブロード[END-FE]
+・Save load[END-FE]
+
+
+
+
+
+//POINTER #410 @ $5988 - STRING #410 @ $87F7
+#W32($5988)
+//・セーブポイントＯＮ[END-FE]
+・Save points ON[END-FE]
+
+
+
+
+
+//POINTER #411 @ $598C - STRING #411 @ $880E
+#W32($598C)
+//・セーブポイントＯＦＦ[END-FE]
+・Save points OFF[END-FE]
+
+
+
+
+
+//POINTER #412 @ $5990 - STRING #412 @ $8827
+#W32($5990)
+//デバッグセーブ[END-FE]
+Debug save[END-FE]
+
+
+
+
+
+//POINTER #413 @ $5994 - STRING #413 @ $8838
+#W32($5994)
+//武器ＣＧ変更のチェックする[END-FE]
+Check for weapon CG changes[END-FE]
+
+
+
+
+
+//POINTER #414 @ $5998 - STRING #414 @ $8855
+#W32($5998)
+//どれをセットしますか？[END-FE]
+Which one would you like to set?[END-FE]
+
+
+
+
+
+//POINTER #415 @ $599C - STRING #415 @ $886E
+#W32($599C)
+//・海魔制御装置[END-FE]
+・Sea demon control system?!?[END-FE]
+
+
+
+
+
+//POINTER #416 @ $59A0 - STRING #416 @ $887F
+#W32($59A0)
+//・手紙[END-FE]
+・Letter[END-FE]
+
+
+
+
+
+//POINTER #417 @ $59A4 - STRING #417 @ $8888
+#W32($59A4)
+//・光点黄[END-FE]
+・Light spot yellow[END-FE]
+
+
+
+
+
+//POINTER #418 @ $59A8 - STRING #418 @ $8893
+#W32($59A8)
+//・光点赤[END-FE]
+・Light spot red[END-FE]
+
+
+
+
+
+//POINTER #419 @ $59AC - STRING #419 @ $889E
+#W32($59AC)
+//・光点青[END-FE]
+・Light spot blue[END-FE]
+
+
+
+
+
+//POINTER #420 @ $59B0 - STRING #420 @ $88A9
+#W32($59B0)
+//・木槌[END-FE]
+・Wooden Hammer[END-FE]
+
+
+
+
+
+//POINTER #421 @ $59B4 - STRING #421 @ $88B2
+#W32($59B4)
+//・赤ちゃん[END-FE]
+・Baby[END-FE]
+
+
+
+
+
+//POINTER #422 @ $59B8 - STRING #422 @ $88BF
+#W32($59B8)
+//・本閉[END-FE]
+・Closed[END-FE]
+
+
+
+
+
+//POINTER #423 @ $59BC - STRING #423 @ $88C8
+#W32($59BC)
+//・本開[END-FE]
+・Open[END-FE]
+
+
+
+
+
+//POINTER #424 @ $59C0 - STRING #424 @ $88D1
+#W32($59C0)
+//・信号弾[END-FE]
+・Signal flare[END-FE]
+
+
+
+
+
+//POINTER #425 @ $59C4 - STRING #425 @ $88DC
+#W32($59C4)
+//・マスク[END-FE]
+・Mask[END-FE]
+
+
+
+
+
+//POINTER #426 @ $59C8 - STRING #426 @ $88E7
+#W32($59C8)
+//・外す[END-FE]
+・Remove[END-FE]
+
+
+
+
+
+//POINTER #427 @ $59CC - STRING #427 @ $88F0
+#W32($59CC)
+//再生の仕方は？（初期値は１回）[END-FE]
+How to play? (Initial value is once)[END-FE]
+
+
+
+
+
+//POINTER #428 @ $59D0 - STRING #428 @ $8911
+#W32($59D0)
+//・１回再生[END-FE]
+・Play once[END-FE]
+
+
+
+
+
+//POINTER #429 @ $59D4 - STRING #429 @ $891E
+#W32($59D4)
+//・ループ再生[END-FE]
+・Loop playback[END-FE]
+
+
+
+
+
+//POINTER #430 @ $59D8 - STRING #430 @ $892D
+#W32($59D8)
+//・エフェクト消す[END-FE]
+・Turn off the effect[END-FE]
+
+
+
+
+
+//POINTER #431 @ $59DC - STRING #431 @ $8940
+#W32($59DC)
+//どれを表示する？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #432 @ $59E0 - STRING #432 @ $8953
+#W32($59E0)
+//・火柱[END-FE]
+・Pillar of fire[END-FE]
+
+
+
+
+
+//POINTER #433 @ $59E4 - STRING #433 @ $895C
+#W32($59E4)
+//・爆発小[END-FE]
+・Small explosion[END-FE]
+
+
+
+
+
+//POINTER #434 @ $59E8 - STRING #434 @ $8967
+#W32($59E8)
+//・爆発大[END-FE]
+・Large explosion[END-FE]
+
+
+
+
+
+//POINTER #435 @ $59EC - STRING #435 @ $8972
+#W32($59EC)
+//・キラリ１[END-FE]
+・Glitter 1[END-FE]
+
+
+
+
+
+//POINTER #436 @ $59F0 - STRING #436 @ $897F
+#W32($59F0)
+//・キラリ２[END-FE]
+・Glitter 2[END-FE]
+
+
+
+
+
+//POINTER #437 @ $59F4 - STRING #437 @ $898C
+#W32($59F4)
+//・煙１[END-FE]
+・Smoke 1[END-FE]
+
+
+
+
+
+//POINTER #438 @ $59F8 - STRING #438 @ $8995
+#W32($59F8)
+//・煙２[END-FE]
+・Smoke 2[END-FE]
+
+
+
+
+
+//POINTER #439 @ $59FC - STRING #439 @ $899E
+#W32($59FC)
+//・煙３[END-FE]
+・Smoke 3[END-FE]
+
+
+
+
+
+//POINTER #440 @ $5A00 - STRING #440 @ $89A7
+#W32($5A00)
+//・煙４[END-FE]
+・Smoke 4[END-FE]
+
+
+
+
+
+//POINTER #441 @ $5A04 - STRING #441 @ $89B0
+#W32($5A04)
+//・光の柱（緑）[END-FE]
+・Pillar of light (green)[END-FE]
+
+
+
+
+
+//POINTER #442 @ $5A08 - STRING #442 @ $89C1
+#W32($5A08)
+//・光の柱（赤）[END-FE]
+・Pillar of light (red)[END-FE]
+
+
+
+
+
+//POINTER #443 @ $5A0C - STRING #443 @ $89D2
+#W32($5A0C)
+//・光の柱（青）[END-FE]
+・Pillar of light (blue)[END-FE]
+
+
+
+
+
+//POINTER #444 @ $5A10 - STRING #444 @ $89E3
+#W32($5A10)
+//・光の柱２[END-FE]
+・Pillar of light 2[END-FE]
+
+
+
+
+
+//POINTER #445 @ $5A14 - STRING #445 @ $89F0
+#W32($5A14)
+//・松明[END-FE]
+・Torch[END-FE]
+
+
+
+
+
+//POINTER #446 @ $5A18 - STRING #446 @ $89F9
+#W32($5A18)
+//・0 通常ブラー[END-FE]
+・0 Normal blur[END-FE]
+
+
+
+
+
+//POINTER #447 @ $5A1C - STRING #447 @ $8A0A
+#W32($5A1C)
+//・0 通常ブラー　終了[END-FE]
+・0 Normal blur end[END-FE]
+
+
+
+
+
+//POINTER #448 @ $5A20 - STRING #448 @ $8A21
+#W32($5A20)
+//・1 横方向ホワイトフェードでブラー[END-FE]
+・1 Blur with horizontal white fade[END-FE]
+
+
+
+
+
+//POINTER #449 @ $5A24 - STRING #449 @ $8A46
+#W32($5A24)
+//・1 横方向ホワイトフェードでブラー　終了[END-FE]
+・1 Blur with horizontal white fade end[END-FE]
+
+
+
+
+
+//POINTER #450 @ $5A28 - STRING #450 @ $8A71
+#W32($5A28)
+//・2 回転ホワイトフェードでブラー[END-FE]
+・2 Blur with a rotating white fade[END-FE]
+
+
+
+
+
+//POINTER #451 @ $5A2C - STRING #451 @ $8A94
+#W32($5A2C)
+//・2 回転ホワイトフェードでブラー　終了[END-FE]
+・2 Blur with a rotating white fade end[END-FE]
+
+
+
+
+
+//POINTER #452 @ $5A30 - STRING #452 @ $8ABD
+#W32($5A30)
+//・イベント[END-FE]
+・Event[END-FE]
+
+
+
+
+
+//POINTER #453 @ $5A34 - STRING #453 @ $8ACA
+#W32($5A34)
+//・ＥＮＤ[END-FE]
+・END[END-FE]
+
+
+
+
+
+//POINTER #454 @ $5A38 - STRING #454 @ $8AD5
+#W32($5A38)
+//・魔法[END-FE]
+・Magic[END-FE]
+
+
+
+
+
+//POINTER #455 @ $5A3C - STRING #455 @ $8ADE
+#W32($5A3C)
+//・その他[END-FE]
+・Other[END-FE]
+
+
+
+
+
+//POINTER #456 @ $5A40 - STRING #456 @ $8AE9
+#W32($5A40)
+//・05爆風に飛ばされる[END-FE]
+・05 Blown away by the blast[END-FE]
+
+
+
+
+
+//POINTER #457 @ $5A44 - STRING #457 @ $8B00
+#W32($5A44)
+//・06爆発の地響き[END-FE]
+・06 The ground shakes from the explosion[END-FE]
+
+
+
+
+
+//POINTER #458 @ $5A48 - STRING #458 @ $8B13
+#W32($5A48)
+//・07宇宙船、浮上[END-FE]
+・07 Spacecraft surfaced[END-FE]
+
+
+
+
+
+//POINTER #459 @ $5A4C - STRING #459 @ $8B26
+#W32($5A4C)
+//・18アドモニッシャー解説[END-FE]
+・18 Admonisher explanation[END-FE]
+
+
+
+
+
+//POINTER #460 @ $5A50 - STRING #460 @ $8B41
+#W32($5A50)
+//・19マザー封印[END-FE]
+・19 Mother sealed[END-FE]
+
+
+
+
+
+//POINTER #461 @ $5A54 - STRING #461 @ $8B52
+#W32($5A54)
+//・23アドモニッシャー浮上[END-FE]
+・23 Admonisher surfacing[END-FE]
+
+
+
+
+
+//POINTER #462 @ $5A58 - STRING #462 @ $8B6D
+#W32($5A58)
+//・08主人公[END-FE]
+・08 Main character[END-FE]
+
+
+
+
+
+//POINTER #463 @ $5A5C - STRING #463 @ $8B7A
+#W32($5A5C)
+//・09エンディング共通部[END-FE]
+・09 Common Ending[END-FE]
+
+
+
+
+
+//POINTER #464 @ $5A60 - STRING #464 @ $8B93
+#W32($5A60)
+//・10ウェンディ[END-FE]
+・10 Wendy[END-FE]
+
+
+
+
+
+//POINTER #465 @ $5A64 - STRING #465 @ $8BA4
+#W32($5A64)
+//・11ルキアス[END-FE]
+・11 Rukias[END-FE]
+
+
+
+
+
+//POINTER #466 @ $5A68 - STRING #466 @ $8BB3
+#W32($5A68)
+//・12イリステレサ[END-FE]
+・12 Iristelessa[END-FE]
+
+
+
+
+
+//POINTER #467 @ $5A6C - STRING #467 @ $8BC6
+#W32($5A6C)
+//・13アニータ[END-FE]
+・13 Anita[END-FE]
+
+
+
+
+
+//POINTER #468 @ $5A70 - STRING #468 @ $8BD5
+#W32($5A70)
+//・14ホフマン[END-FE]
+・14 Hofman[END-FE]
+
+
+
+
+
+//POINTER #469 @ $5A74 - STRING #469 @ $8BE4
+#W32($5A74)
+//・15ゼオンシルト[END-FE]
+・15 Haschen[END-FE]
+
+
+
+
+
+//POINTER #470 @ $5A78 - STRING #470 @ $8BF7
+#W32($5A78)
+//・16ユリィ[END-FE]
+・16 Yurii[END-FE]
+
+
+
+
+
+//POINTER #471 @ $5A7C - STRING #471 @ $8C04
+#W32($5A7C)
+//・17ネーリス[END-FE]
+・17 Neilis[END-FE]
+
+
+
+
+
+//POINTER #472 @ $5A80 - STRING #472 @ $8C13
+#W32($5A80)
+//・00サンダーストーム[END-FE]
+・00 Thunder Storm[END-FE]
+
+
+
+
+
+//POINTER #473 @ $5A84 - STRING #473 @ $8C2A
+#W32($5A84)
+//・01ソニックウェーブ[END-FE]
+・01 Sonic Wave[END-FE]
+
+
+
+
+
+//POINTER #474 @ $5A88 - STRING #474 @ $8C41
+#W32($5A88)
+//・02アースクエイク[END-FE]
+・02 Earthquake[END-FE]
+
+
+
+
+
+//POINTER #475 @ $5A8C - STRING #475 @ $8C56
+#W32($5A8C)
+//・03メテオ[END-FE]
+・03 Meteor[END-FE]
+
+
+
+
+
+//POINTER #476 @ $5A90 - STRING #476 @ $8C63
+#W32($5A90)
+//・04レイズ[END-FE]
+・04 Raise[END-FE]
+
+
+
+
+
+//POINTER #477 @ $5A94 - STRING #477 @ $8C70
+#W32($5A94)
+//・20オープニング[END-FE]
+・20 Opening[END-FE]
+
+
+
+
+
+//POINTER #478 @ $5A98 - STRING #478 @ $8C83
+#W32($5A98)
+//・21キャラ紹介[END-FE]
+・21 Character introduction[END-FE]
+
+
+
+
+
+//POINTER #479 @ $5A9C - STRING #479 @ $8C94
+#W32($5A9C)
+//・22スタッフロール[END-FE]
+・22 Staff roll[END-FE]
+
+
+
+
+
+//POINTER #480 @ $5AA0 - STRING #480 @ $8CA9
+#W32($5AA0)
+//どの音楽？[END-FE]
+Which music?[END-FE]
+
+
+
+
+
+//POINTER #481 @ $5AA4 - STRING #481 @ $8CB6
+#W32($5AA4)
+//・MISSION COMPLETE[END-FE]
+・MISSION COMPLETE[END-FE]
+
+
+
+
+
+//POINTER #482 @ $5AA8 - STRING #482 @ $8CCB
+#W32($5AA8)
+//・MISSION CLEAR[END-FE]
+・MISSION CLEAR[END-FE]
+
+
+
+
+
+//POINTER #483 @ $5AAC - STRING #483 @ $8CDD
+#W32($5AAC)
+//・MISSION FAILED[END-FE]
+・MISSION FAILED[END-FE]
+
+
+
+
+
+//POINTER #484 @ $5AB0 - STRING #484 @ $8CF0
+#W32($5AB0)
+//・Level Up ![END-FE]
+・Level Up ![END-FE]
+
+
+
+
+
+//POINTER #485 @ $5AB4 - STRING #485 @ $8CFF
+#W32($5AB4)
+//[CHARE603][V0000]
+//[NLINE]
+//MISSION COMPLETE[END-FE]
+[CHARE603][V0000]
+[NLINE]
+MISSION COMPLETE[END-FE]
+
+
+
+
+
+//POINTER #486 @ $5AB8 - STRING #486 @ $8D1C
+#W32($5AB8)
+//[CHARE603][V0100]
+//[NLINE]
+//MISSION CLEAR[END-FE]
+[CHARE603][V0100]
+[NLINE]
+MISSION CLEAR[END-FE]
+
+
+
+
+
+//POINTER #487 @ $5ABC - STRING #487 @ $8D36
+#W32($5ABC)
+//[CHARE603][V0200]
+//[NLINE]
+//MISSION FAILED[END-FE]
+[CHARE603][V0200]
+[NLINE]
+MISSION FAILED[END-FE]
+
+
+
+
+
+//POINTER #488 @ $5AC0 - STRING #488 @ $8D51
+#W32($5AC0)
+//[CHARE603][V0300]
+//[NLINE]
+//Level Up ![END-FE]
+[CHARE603][V0300]
+[NLINE]
+Level Up ![END-FE]
+
+
+
+
+
+//POINTER #489 @ $5AC4 - STRING #489 @ $8D68
+#W32($5AC4)
+//松２デバッグ実行？[END-FE]
+Matsu2 debug run?[END-FE]
+
+
+
+
+
+//POINTER #490 @ $5AC8 - STRING #490 @ $8D7D
+#W32($5AC8)
+//カーソル移動チェック[END-FE]
+Cursor movement check[END-FE]
+
+
+
+
+
+//POINTER #491 @ $5ACC - STRING #491 @ $8D94
+#W32($5ACC)
+//・左上へ[END-FE]
+・To the upper left[END-FE]
+
+
+
+
+
+//POINTER #492 @ $5AD0 - STRING #492 @ $8D9F
+#W32($5AD0)
+//・右上へ[END-FE]
+・To the upper right[END-FE]
+
+
+
+
+
+//POINTER #493 @ $5AD4 - STRING #493 @ $8DAA
+#W32($5AD4)
+//・左下へ[END-FE]
+・To the lower left[END-FE]
+
+
+
+
+
+//POINTER #494 @ $5AD8 - STRING #494 @ $8DB5
+#W32($5AD8)
+//・右下へ[END-FE]
+・To the lower right[END-FE]
+
+
+
+
+
+//POINTER #495 @ $5ADC - STRING #495 @ $8DC0
+#W32($5ADC)
+//・中央へ[END-FE]
+・To the center[END-FE]
+
+
+
+
+
+//POINTER #496 @ $5AE0 - STRING #496 @ $8DCB
+#W32($5AE0)
+//どれが見たい？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #497 @ $5AE4 - STRING #497 @ $8DDC
+#W32($5AE4)
+//・休め１[END-FE]
+・Rest 1[END-FE]
+
+
+
+
+
+//POINTER #498 @ $5AE8 - STRING #498 @ $8DE7
+#W32($5AE8)
+//・休め２[END-FE]
+・Rest 2[END-FE]
+
+
+
+
+
+//POINTER #499 @ $5AEC - STRING #499 @ $8DF2
+#W32($5AEC)
+//・休め３[END-FE]
+・Rest 3[END-FE]
+
+
+
+
+
+//POINTER #500 @ $5AF0 - STRING #500 @ $8DFD
+#W32($5AF0)
+//・勝利[END-FE]
+・Victory[END-FE]
+
+
+
+
+
+//POINTER #501 @ $5AF4 - STRING #501 @ $8E06
+#W32($5AF4)
+//どれが見たい？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #502 @ $5AF8 - STRING #502 @ $8E17
+#W32($5AF8)
+//・休め１[END-FE]
+・Rest 1[END-FE]
+
+
+
+
+
+//POINTER #503 @ $5AFC - STRING #503 @ $8E22
+#W32($5AFC)
+//・休め２[END-FE]
+・Rest 2[END-FE]
+
+
+
+
+
+//POINTER #504 @ $5B00 - STRING #504 @ $8E2D
+#W32($5B00)
+//・休め３[END-FE]
+・Rest 3[END-FE]
+
+
+
+
+
+//POINTER #505 @ $5B04 - STRING #505 @ $8E38
+#W32($5B04)
+//・勝利[END-FE]
+・Victory[END-FE]
+
+
+
+
+
+//POINTER #506 @ $5B08 - STRING #506 @ $8E41
+#W32($5B08)
+//どれが見たい？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #507 @ $5B0C - STRING #507 @ $8E52
+#W32($5B0C)
+//・休め１[END-FE]
+・Rest 1[END-FE]
+
+
+
+
+
+//POINTER #508 @ $5B10 - STRING #508 @ $8E5D
+#W32($5B10)
+//・休め２[END-FE]
+・Rest 2[END-FE]
+
+
+
+
+
+//POINTER #509 @ $5B14 - STRING #509 @ $8E68
+#W32($5B14)
+//・休め３[END-FE]
+・Rest 3[END-FE]
+
+
+
+
+
+//POINTER #510 @ $5B18 - STRING #510 @ $8E73
+#W32($5B18)
+//・勝利[END-FE]
+・Victory[END-FE]
+
+
+
+
+
+//POINTER #511 @ $5B1C - STRING #511 @ $8E7C
+#W32($5B1C)
+//どれが見たい？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #512 @ $5B20 - STRING #512 @ $8E8D
+#W32($5B20)
+//・休め１[END-FE]
+・Rest 1[END-FE]
+
+
+
+
+
+//POINTER #513 @ $5B24 - STRING #513 @ $8E98
+#W32($5B24)
+//・休め２[END-FE]
+・Rest 2[END-FE]
+
+
+
+
+
+//POINTER #514 @ $5B28 - STRING #514 @ $8EA3
+#W32($5B28)
+//・休め３[END-FE]
+・Rest 3[END-FE]
+
+
+
+
+
+//POINTER #515 @ $5B2C - STRING #515 @ $8EAE
+#W32($5B2C)
+//・勝利[END-FE]
+・Victory[END-FE]
+
+
+
+
+
+//POINTER #516 @ $5B30 - STRING #516 @ $8EB7
+#W32($5B30)
+//どれが見たい？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #517 @ $5B34 - STRING #517 @ $8EC8
+#W32($5B34)
+//・休め１[END-FE]
+・Rest 1[END-FE]
+
+
+
+
+
+//POINTER #518 @ $5B38 - STRING #518 @ $8ED3
+#W32($5B38)
+//・休め２[END-FE]
+・Rest 2[END-FE]
+
+
+
+
+
+//POINTER #519 @ $5B3C - STRING #519 @ $8EDE
+#W32($5B3C)
+//・休め３[END-FE]
+・Rest 3[END-FE]
+
+
+
+
+
+//POINTER #520 @ $5B40 - STRING #520 @ $8EE9
+#W32($5B40)
+//・勝利[END-FE]
+・Victory[END-FE]
+
+
+
+
+
+//POINTER #521 @ $5B44 - STRING #521 @ $8EF2
+#W32($5B44)
+//どれが見たい？[END-FE]
+Which one do you want to see?[END-FE]
+
+
+
+
+
+//POINTER #522 @ $5B48 - STRING #522 @ $8F03
+#W32($5B48)
+//・休め１[END-FE]
+・Rest 1[END-FE]
+
+
+
+
+
+//POINTER #523 @ $5B4C - STRING #523 @ $8F0E
+#W32($5B4C)
+//・休め２[END-FE]
+・Rest 2[END-FE]
+
+
+
+
+
+//POINTER #524 @ $5B50 - STRING #524 @ $8F19
+#W32($5B50)
+//・休め３[END-FE]
+・Rest 3[END-FE]
+
+
+
+
+
+//POINTER #525 @ $5B54 - STRING #525 @ $8F24
+#W32($5B54)
+//・勝利[END-FE]
+・Victory[END-FE]
+
+
+
+
+
+//POINTER #526 @ $5B58 - STRING #526 @ $8F2D
+#W32($5B58)
+//戻るのかい？[END-FE]
+You're going back?[END-FE]
+
+
+
+

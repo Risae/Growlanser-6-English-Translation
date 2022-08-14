@@ -1,0 +1,5212 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $9360, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $8D20, 4, PTR)
+
+#JMP($9360)
+#HDR($9360)
+
+
+
+
+
+//POINTER #0 @ $8D20 - STRING #0 @ $9360
+#W32($8D20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $8D24 - STRING #1 @ $9363
+#W32($8D24)
+//謎の声[END-FF]
+Mysterious Voice[END-FF]
+
+
+
+
+
+//POINTER #2 @ $8D28 - STRING #2 @ $936C
+#W32($8D28)
+//ダンジョンガール[END-FF]
+Dungeon Girl[END-FF]
+
+
+
+
+
+//POINTER #3 @ $8D2C - STRING #3 @ $937F
+#W32($8D2C)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #4 @ $8D30 - STRING #4 @ $938C
+#W32($8D30)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $8D34 - STRING #5 @ $93B1
+#W32($8D34)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $8D38 - STRING #6 @ $93D6
+#W32($8D38)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $8D3C - STRING #7 @ $93EB
+#W32($8D3C)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $8D40 - STRING #8 @ $9410
+#W32($8D40)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #9 @ $8D44 - STRING #9 @ $9435
+#W32($8D44)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $8D48 - STRING #10 @ $946A
+#W32($8D48)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $8D4C - STRING #11 @ $949F
+#W32($8D4C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $8D50 - STRING #12 @ $94C4
+#W32($8D50)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $8D54 - STRING #13 @ $94E9
+#W32($8D54)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $8D58 - STRING #14 @ $950E
+#W32($8D58)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $8D5C - STRING #15 @ $9523
+#W32($8D5C)
+//迷宮最下層[END-FE]
+Dungeon Bottom[END-FE]
+
+
+
+
+
+//POINTER #16 @ $8D60 - STRING #16 @ $9530
+#W32($8D60)
+//ハシゴがあります。[NLINE]
+//上りますか？[END-FE]
+//System Message\\
+There's a ladder.[NLINE]
+Do you want to go up?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $8D64 - STRING #17 @ $9553
+#W32($8D64)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #18 @ $8D68 - STRING #18 @ $9580
+#W32($8D68)
+//コリン\\
+//ついに地下５０階…。[NLINE]
+//気合入れていくよ。[END-FE]
+//Korin\\
+We're finally at the 50th floor...[NLINE]
+Let's do this.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $8D6C - STRING #19 @ $95AB
+#W32($8D6C)
+//ユリィ\\
+//ここが地下５０階です。[NLINE]
+//頑張りましょう。[END-FE]
+//Yurii\\
+This is the 50th floor.[NLINE]
+Let's do our best.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $8D70 - STRING #20 @ $95D6
+#W32($8D70)
+//ダンジョンレディ\\
+//…まさか、これだけ階層を増やしたのに[NLINE]
+//ダンジョンの最深部まで来られるなんて…。[NWIN]
+//
+//…どんなにガンバっても、[NLINE]
+//妖精の前に屈してしまうの？[END-FE]
+//Dungeon Lady\\
+...To think that even after I increased[NLINE]
+the floor count by this much, you still[NLINE]
+managed to make it to the bottom...[NWIN]
+
+...Will I succumb to this fairy, no[NLINE]
+matter how hard I try?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $8D74 - STRING #21 @ $965D
+#W32($8D74)
+//コリン\\
+//…妙にシリアスだね。[END-FE]
+//Korin\\
+...She's weirdly serious.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $8D78 - STRING #22 @ $9674
+#W32($8D78)
+//ユリィ\\
+//…妙にシリアスですね。[END-FE]
+//Yurii\\
+...She's strangely serious.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $8D7C - STRING #23 @ $968D
+#W32($8D7C)
+//ダンジョンレディ\\
+//ダンジョンマスターの杖。[NWIN]
+//
+//この杖の実力はこんなものじゃない。[NLINE]
+//私が引き出せていないだけなんだ。[END-FE]
+//Dungeon Lady\\
+Oh, Dungeon Master's Rod.[NWIN]
+
+I know this isn't your true power.[NLINE]
+I just can't draw it out of you.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $8D80 - STRING #24 @ $96EE
+#W32($8D80)
+//コリン\\
+//な、なんか様子がおかしいよ。[END-FE]
+//Korin\\
+S-she's acting funny.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $8D84 - STRING #25 @ $970D
+#W32($8D84)
+//ユリィ\\
+//…様子がおかしいです。[END-FE]
+//Yurii\\
+...Something is wrong with her.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $8D88 - STRING #26 @ $9726
+#W32($8D88)
+//ダンジョンレディ\\
+//もう、他のことなんてどうでも良い！[NLINE]
+//私は全霊を以って、妖精軍団を倒す！[END-FE]
+//Dungeon Lady\\
+Nothing else matters to me anymore![NLINE]
+I'll use all my might to defeat this[NLINE]
+fairy and her gang![END-FE]
+
+
+
+
+
+//POINTER #27 @ $8D8C - STRING #27 @ $976F
+#W32($8D8C)
+//コリン\\
+//ちょっ、アンタ！[NLINE]
+//正気に戻りなさい！[END-FE]
+//Korin\\
+Hold on![NLINE]
+Get your sanity back![END-FE]
+
+
+
+
+
+//POINTER #28 @ $8D90 - STRING #28 @ $9796
+#W32($8D90)
+//ユリィ\\
+//自暴自棄になってはいけません！[NLINE]
+//正気に戻ってください！[END-FE]
+//Yurii\\
+Don't become reckless![NLINE]
+Come to your senses![END-FE]
+
+
+
+
+
+//POINTER #29 @ $8D94 - STRING #29 @ $97CF
+#W32($8D94)
+//ダンジョンレディ\\
+//杖よ、その大いなる力を以って、[NLINE]
+//最凶のしもべを召喚せよ！[END-FE]
+//Dungeon Lady\\
+Oh, mighty rod! Use your great power[NLINE]
+to summon your most fearsome servant![END-FE]
+
+
+
+
+
+//POINTER #30 @ $8D98 - STRING #30 @ $980A
+#W32($8D98)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #31 @ $8D9C - STRING #31 @ $9837
+#W32($8D9C)
+//コリン\\
+//ス、スクリーパー！[NLINE]
+//しかも、大きい！[END-FE]
+//Korin\\
+A S-Screaper![NLINE]
+And it's huge![END-FE]
+
+
+
+
+
+//POINTER #32 @ $8DA0 - STRING #32 @ $985E
+#W32($8DA0)
+//ユリィ\\
+//ス、スクリーパー！[NLINE]
+//お、大きい！[END-FE]
+//Yurii\\
+A S-Screaper![NLINE]
+It's enormous![END-FE]
+
+
+
+
+
+//POINTER #33 @ $8DA4 - STRING #33 @ $9881
+#W32($8DA4)
+//ダンジョンレディ\\
+//ど、どんなもんだい…。[END-FE]
+//Dungeon Lady\\
+H-how about that...?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $8DA8 - STRING #34 @ $989A
+#W32($8DA8)
+//コリン\\
+//ど、どうしたの！[END-FE]
+//Korin\\
+W-what's going on with you!?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $8DAC - STRING #35 @ $98AD
+#W32($8DAC)
+//ユリィ\\
+//どうしたんですか！[END-FE]
+//Yurii\\
+What's the matter with you!?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $8DB0 - STRING #36 @ $98C2
+#W32($8DB0)
+//ダンジョンレディ\\
+//杖に力が…。[NLINE]
+//力が吸われて…。[NWIN]
+//
+//[CC.BE0009][CC.AC00]
+//うぅ…、[NLINE]
+//[COL06]…くっくっくっ…、[NLINE]
+//バカな女よ…[COL00][NWIN]
+//
+//[COL06]…その程度の力で、[NLINE]
+//魔神の力を御しきれると[NLINE]
+//思ったか…！[COL00]…うぅ…[NWIN]
+//
+//[CC.BE0008]
+//そんな…杖の悪魔なの…？[NLINE]
+//アタシじゃ…制御…[NWIN]
+//
+//[CC.BE0009][CC.AC00]
+//[COL06]…多少力があるとはいえ、[NLINE]
+//ダンジョンマスターでもない[NLINE]
+//お前のような小娘に…[COL00][NWIN]
+//
+//[COL06]…ダンジョン界最強と…[NLINE]
+//恐れられた我が力…[NLINE]
+//使いこなせるわけ無かろう…[COL00][NWIN]
+//
+//[COL06]…スクリーパーよ！[NLINE]
+//この娘のジャマな意識を奪い[NLINE]
+//我をこの世に復活させるのだ！[COL00][NWIN]
+//
+//[CC.BE0008]
+//…うわあああっ！[NLINE]
+//ダメ、制御できない…。[END-FE]
+//Dungeon Lady\\
+The staff...is consuming...[NLINE]
+my power...[NWIN]
+
+[CC.BE0009][CC.AC00]
+Ugh...[NLINE]
+[COL06]...Hehehe...[NLINE]
+Foolish girl...[NWIN]
+
+[COL06]...Did you really think[NLINE]
+you could control the might of[NLINE]
+a devil with that kind of power...!?[NLINE]
+[COL00]...Ugh...[NWIN]
+
+[CC.BE0008]
+No way... The devil inside the rod...?[NLINE]
+It's... taking hold of me...[NWIN]
+
+[CC.BE0009][CC.AC00]
+[COL06]...Although you have some[NLINE]
+power, you're far from a Dungeon[NLINE]
+Master, little girl...[COL00][NWIN]
+
+[COL06]Someone like you[ is unable to control[NLINE]
+neither the world's greatest dungeon[NLINE]
+nor my fearsome power...[COL00][NWIN]
+
+[COL06]...Screaper![NLINE]
+Deprive this girl of her consciousness[NLINE]
+and bring me back into this world![COL00][NWIN]
+
+[CC.BE0008]
+...Aaaaargh![NLINE]
+No, I can't hold on...[END-FE]
+
+
+
+
+
+//POINTER #37 @ $8DB4 - STRING #37 @ $9ABF
+#W32($8DB4)
+//コリン\\
+//制御できないって、マズいよ！[NLINE]
+//このままじゃ、お姉さんが！[NWIN]
+//
+//自業自得だけど、[NLINE]
+//このまま放っておけないよ！[END-FE]
+//Korin\\
+This is bad! At this rate,[NLINE]
+she'll get possessed![NWIN]
+
+She's got only herself to blame,[NLINE]
+but we can't leave her like this.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $8DB8 - STRING #38 @ $9B28
+#W32($8DB8)
+//ユリィ\\
+//制御ができないのですか！[NLINE]
+//大変です！[NLINE]
+//このままではお姉さんが！[NWIN]
+//
+//身から出たサビですが、[NLINE]
+//このまま放ってはおけません！[END-FE]
+//Yurii\\
+"Can't hold on"!?[NLINE]
+This is bad! At this rate,[NLINE]
+she'll get possessed![NWIN]
+
+She brought this unto herself, but[NLINE]
+we can't leave her like this![END-FE]
+
+
+
+
+
+//POINTER #39 @ $8DBC - STRING #39 @ $9B9F
+#W32($8DBC)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #40 @ $8DC0 - STRING #40 @ $9BAC
+#W32($8DC0)
+//・パーティーの全滅[NLINE]
+//・ダンジョンレディの撃破[END-FE]
+・All party members die[NLINE]
+・Dungeon Lady is defeated[END-FE]
+
+
+
+
+
+//POINTER #41 @ $8DC4 - STRING #41 @ $9BDB
+#W32($8DC4)
+//[COL06]おのれ…[NLINE]
+//いま一歩というところで…[NLINE]
+//だが、あきらめぬぞ…[END-FE]
+[COL06]Damn you...[NLINE]
+I was on the brink of victory...[NLINE]
+However, I won't give up...[END-FE]
+
+
+
+
+
+//POINTER #42 @ $8DC8 - STRING #42 @ $9C19
+#W32($8DC8)
+//[COL06]ダンジョンの魅力にとりつかれた者が[NLINE]
+//この世界にいる限り…[NLINE]
+//いつの日にか…必ず…[END-FE]
+[COL06]As long as there are people in[NLINE]
+this world who are drawn in by the[NLINE]
+allure of dungeons...[NLINE]
+...Then someday... I will surely...[END-FE]
+
+
+
+
+
+//POINTER #43 @ $8DCC - STRING #43 @ $9C6D
+#W32($8DCC)
+//コリン\\
+//なんとかなったね。[END-FE]
+//Korin\\
+We did it somehow.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $8DD0 - STRING #44 @ $9C82
+#W32($8DD0)
+//ユリィ\\
+//なんとかなりましたね。[END-FE]
+//Yurii\\
+We managed somehow.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $8DD4 - STRING #45 @ $9C9B
+#W32($8DD4)
+//ダンジョンレディ\\
+//……ごめんなさい。[END-FE]
+//Dungeon Lady\\
+...Sorry.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $8DD8 - STRING #46 @ $9CB0
+#W32($8DD8)
+//コリン\\
+//無事だった？[END-FE]
+//Korin\\
+Are you okay?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $8DDC - STRING #47 @ $9CBF
+#W32($8DDC)
+//ユリィ\\
+//無事でしたか？[END-FE]
+//Yurii\\
+Are you alright?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $8DE0 - STRING #48 @ $9CD0
+#W32($8DE0)
+//ダンジョンレディ\\
+//え？[NLINE]
+//あ、はい、おかげ様で…。[END-FE]
+//Dungeon Lady\\
+Huh?[NLINE]
+Ah, yes. Thanks to you...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $8DE4 - STRING #49 @ $9CF1
+#W32($8DE4)
+//コリン\\
+//良かった！[NWIN]
+//
+//[CH.FACE:Angry]
+//まったく、[NLINE]
+//ムチャするんじゃないの！[END-FE]
+//Korin\\
+Good![NWIN]
+
+[CH.FACE:Angry]
+But you've got to dial back[NLINE]
+the crazy![END-FE]
+
+
+
+
+
+//POINTER #50 @ $8DE8 - STRING #50 @ $9D28
+#W32($8DE8)
+//ユリィ\\
+//無事でなによりです。[NWIN]
+//
+//[CH.FACE:Angry]
+//もう無茶はしないでください！[END-FE]
+//Yurii\\
+That's the most important thing.[NWIN]
+
+[CH.FACE:Angry]
+But you have to stop behaving so[NLINE]
+recklessly![END-FE]
+
+
+
+
+
+//POINTER #51 @ $8DEC - STRING #51 @ $9D61
+#W32($8DEC)
+//ダンジョンレディ\\
+//ご、ごめんなさい！[NLINE]
+//己の未熟さを痛感しました…。[NWIN]
+//
+//まさかダンジョンマスターの杖が[NLINE]
+//本当に悪魔を封じていたなんて…。[NWIN]
+//
+//アタシはそんな杖を[NLINE]
+//ああ、なんてことを…。[END-FE]
+//Dungeon Lady\\
+I-I'm sorry![NLINE]
+I realize how immature I was...[NWIN]
+
+To think there really was a devil[NLINE]
+sealed inside the Dungeon Master's[NLINE]
+Rod...[NWIN]
+
+Ah, why did I ever use it...?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $8DF0 - STRING #52 @ $9E02
+#W32($8DF0)
+//コリン\\
+//これにこりたら、[NLINE]
+//人の言うことを聞く！[NWIN]
+//
+//それに最強を証明するって言って、[NLINE]
+//杖の力に頼ってたんじゃ、[NLINE]
+//それは最強のダンジョンの証明にはならないよ！[END-FE]
+//Korin\\
+Listen to what people say from[NLINE]
+now on![NWIN]
+
+Also, you can't rely on a rod to[NLINE]
+proof that your dungeon is the ultmate[NLINE]
+one![END-FE]
+
+
+
+
+
+//POINTER #53 @ $8DF4 - STRING #53 @ $9E95
+#W32($8DF4)
+//ユリィ\\
+//これにこりたら、[NLINE]
+//人の言うことは聞くようにしてください。[NWIN]
+//
+//それに、最強を証明するのに杖に頼っていては、[NLINE]
+//あなたのダンジョンが最強である[NLINE]
+//証明にはなりませんよ！[END-FE]
+//Yurii\\
+Please listen to what other people[NLINE]
+say from now on.[NWIN]
+
+Also, you can't rely on a rod to[NLINE]
+proof that your dungeon is the ultmate[NLINE]
+one![END-FE]
+
+
+
+
+
+//POINTER #54 @ $8DF8 - STRING #54 @ $9F36
+#W32($8DF8)
+//ダンジョンレディ\\
+//…その通りです。[NLINE]
+//このダンジョンは最強じゃなかった…。[NLINE]
+//誰もがクリア出来ないからこそ最強…。[END-FE]
+//Dungeon Lady\\
+...You're right.[NLINE]
+This isn't the ultimate dungeon...[NLINE]
+Otherwise no one would have been[NLINE]
+able to clear it...[END-FE]
+
+
+
+
+
+//POINTER #55 @ $8DFC - STRING #55 @ $9F95
+#W32($8DFC)
+//コリン\\
+//…って、[NLINE]
+//また目的を間違えてるし！[END-FE]
+//Korin\\
+You're missing the point again![END-FE]
+
+
+
+
+
+//POINTER #56 @ $8E00 - STRING #56 @ $9FBA
+#W32($8E00)
+//ユリィ\\
+//…って、[NLINE]
+//また目的を間違えてます！[END-FE]
+//Yurii\\
+You're missing the point again![END-FE]
+
+
+
+
+
+//POINTER #57 @ $8E04 - STRING #57 @ $9FDF
+#W32($8E04)
+//ダンジョンレディ\\
+//あ、わわわ…！[NLINE]
+//ご、ごめんなさい！[NLINE]
+//ごめんなさい！[END-FE]
+//Dungeon Lady\\
+Ah...![NLINE]
+Sorry! Sorry! Sorry![END-FE]
+
+
+
+
+
+//POINTER #58 @ $8E08 - STRING #58 @ $A014
+#W32($8E08)
+//コリン\\
+//別にあやまらなくても良いよ。[NLINE]
+//これまでの分はちゃ～んと、[NLINE]
+//清算するから。[END-FE]
+//Korin\\
+No worries. I'm going to make[NLINE]
+reeeaally sure sure we're even.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $8E0C - STRING #59 @ $A05F
+#W32($8E0C)
+//ダンジョンレディ\\
+//えっ？[END-FE]
+//Dungeon Lady\\
+Huh?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $8E10 - STRING #60 @ $A068
+#W32($8E10)
+//コリン\\
+//あ～、スッキリした！[END-FE]
+//Korin\\
+Aah! I feel so much better![END-FE]
+
+
+
+
+
+//POINTER #61 @ $8E14 - STRING #61 @ $A07F
+#W32($8E14)
+//ダンジョンレディ\\
+//ひ、ひどい…。[END-FE]
+//Dungeon Lady\\
+H-how cruel...[END-FE]
+
+
+
+
+
+//POINTER #62 @ $8E18 - STRING #62 @ $A090
+#W32($8E18)
+//コリン\\
+//さて、妹さんのところに戻ろうか。[END-FE]
+//Korin\\
+Well, let's get back to your sister.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $8E1C - STRING #63 @ $A0B3
+#W32($8E1C)
+//ユリィ\\
+//…本当にわかっているのでしょうか？[NLINE]
+//[CH.FACE:Laughing]
+//ともかく、[NLINE]
+//妹さんのところに戻りましょうか。[END-FE]
+//Yurii\\
+...Do you really understand?[NLINE]
+[CH.FACE:Laughing]
+Anyway, let's return to your[NLINE]
+sister.[END-FE]
+
+
+
+
+
+//POINTER #64 @ $8E20 - STRING #64 @ $A10A
+#W32($8E20)
+//みなさん！[NLINE]
+//大丈夫ですか？[END-FE]
+Are you alright, everyone?[END-FE]
+
+
+
+
+
+//POINTER #65 @ $8E24 - STRING #65 @ $A127
+#W32($8E24)
+//コリン\\
+//お！[NLINE]
+//ナイスタイミング！[NWIN]
+//
+//妹さん、こっちは大丈夫だよ！[NWIN]
+//
+//それより、お姉さん捕まえたよ！[END-FE]
+//Korin\\
+Ah![NLINE]
+Nice timing![NWIN]
+
+We're okay![NWIN]
+
+And better yet, we caught your[NLINE]
+sister![END-FE]
+
+
+
+
+
+//POINTER #66 @ $8E28 - STRING #66 @ $A180
+#W32($8E28)
+//ユリィ\\
+//あっ！[NLINE]
+//丁度良いところに！[NWIN]
+//
+//こちらは大丈夫です。[NLINE]
+//それよりも、[NLINE]
+//お姉さんを捕まえましたよ！[END-FE]
+//Yurii\\
+Ah![NLINE]
+Perfect timing![NWIN]
+
+We're alright. And better[NLINE]
+yet, we caught your sister![END-FE]
+
+
+
+
+
+//POINTER #67 @ $8E2C - STRING #67 @ $A1DD
+#W32($8E2C)
+//えっ！[NLINE]
+//そこにお姉ちゃんがいるんですか？[END-FE]
+Really!?[NLINE]
+Is my sister there?[END-FE]
+
+
+
+
+
+//POINTER #68 @ $8E30 - STRING #68 @ $A208
+#W32($8E30)
+//ダンジョンレディ\\
+//ごめんね。[NLINE]
+//迷惑かけたみたいで。[END-FE]
+//Dungeon Lady\\
+I'm sorry for the way[NLINE]
+I acted.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $8E34 - STRING #69 @ $A22B
+#W32($8E34)
+//…良かった。[NWIN]
+//
+//……あのね、お姉ちゃん。[END-FE]
+...It's fine.[NWIN]
+
+Um, sister...[END-FE]
+
+
+
+
+
+//POINTER #70 @ $8E38 - STRING #70 @ $A254
+#W32($8E38)
+//ダンジョンレディ\\
+//どうかしたの？[END-FE]
+//Dungeon Lady\\
+What is it?[END-FE]
+
+
+
+
+
+//POINTER #71 @ $8E3C - STRING #71 @ $A265
+#W32($8E3C)
+//…長老さまから、手紙が…。[END-FE]
+...There's a letter from the village[NLINE]
+elder...[END-FE]
+
+
+
+
+
+//POINTER #72 @ $8E40 - STRING #72 @ $A282
+#W32($8E40)
+//ダンジョンレディ\\
+//えっ!?[END-FE]
+//Dungeon Lady\\
+What!?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $8E44 - STRING #73 @ $A28B
+#W32($8E44)
+//…どうする、お姉ちゃん？[END-FE]
+...What should I do, sister?[END-FE]
+
+
+
+
+
+//POINTER #74 @ $8E48 - STRING #74 @ $A2A6
+#W32($8E48)
+//ダンジョンレディ\\
+//…よ、読んで！[END-FE]
+//Dungeon Lady\\
+...R-read it![END-FE]
+
+
+
+
+
+//POINTER #75 @ $8E4C - STRING #75 @ $A2B7
+#W32($8E4C)
+//…わかったよ。[NWIN]
+//
+//【ダンジョンマスターの杖の[NLINE]
+//　無断持ち出し及び使用。】[NWIN]
+//
+//【これを使い、[NLINE]
+//　ダンジョン制作を行ったことにより、[NLINE]
+//　試験は失格とする。】[END-FE]
+...Alright.[NWIN]
+
+ "Regarding unauthorized taking[NLINE]
+  and usage of the Dungeon Master's[NLINE]
+  staff.[NWIN]
+
+  We regret to inform you that[NLINE]
+  due to your decision to use[NLINE]
+  the Dungeon Master's Rod to[NLINE]
+  create a dungeon, you are hereby[NLINE]
+  disqualified from the exam."[END-FE]
+
+
+
+
+
+//POINTER #76 @ $8E50 - STRING #76 @ $A34E
+#W32($8E50)
+//ダンジョンレディ\\
+//…失格。[END-FE]
+//Dungeon Lady\\
+...Disqualified.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $8E54 - STRING #77 @ $A359
+#W32($8E54)
+//コリン\\
+//一族の宝物が無くなれば、[NLINE]
+//バレないワケないよね。[END-FE]
+//Korin\\
+The rod is your clan's treasure,[NLINE]
+so there's no reason you wouldn't[NLINE]
+get caught.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $8E58 - STRING #78 @ $A38C
+#W32($8E58)
+//ユリィ\\
+//一族の宝物ですから、[NLINE]
+//バレない訳ありませんでしたね。[END-FE]
+//Yurii\\
+The rod is your clan's treasure,[NLINE]
+so there's no reason you wouldn't[NLINE]
+get caught.[END-FE]
+
+
+
+
+
+//POINTER #79 @ $8E5C - STRING #79 @ $A3C3
+#W32($8E5C)
+//【なお、そのダンジョン制作への[NLINE]
+//　意気込みは買うとし、次回に期待する。】[END-FE]
+//System Message\\
+ "However, we highly value your[NLINE]
+  enthusiasm towards creating[NLINE]
+  dungeons and expect you to take[NLINE]
+  the test next time."[END-FE]
+
+
+
+
+
+//POINTER #80 @ $8E60 - STRING #80 @ $A40E
+#W32($8E60)
+//ダンジョンレディ\\
+//…次回？[CC.FFFB][NLINE]
+//…ってことは追試？[END-FE]
+//Dungeon Lady\\
+...Next time?[CC.FFFB][NLINE]
+...A resit?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $8E64 - STRING #81 @ $A42F
+#W32($8E64)
+//ダンジョンレディ\\
+//えっ！[NLINE]
+//追放どころか、[NLINE]
+//追試受けさせてくれるの！[END-FE]
+//Dungeon Lady\\
+What!?[NLINE]
+So instead of expelling me, they[NLINE]
+allow me to take a resit!?[END-FE]
+
+
+
+
+
+//POINTER #82 @ $8E68 - STRING #82 @ $A462
+#W32($8E68)
+//そうみたい。[END-FE]
+It seems like it.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $8E6C - STRING #83 @ $A471
+#W32($8E6C)
+//ダンジョンレディ\\
+//だって、失格って！[END-FE]
+//Dungeon Lady\\
+But they said I was disqualified![END-FE]
+
+
+
+
+
+//POINTER #84 @ $8E70 - STRING #84 @ $A486
+#W32($8E70)
+//コリン\\
+//良いじゃない！[NLINE]
+//せっかく、追試を受けさせてくれるって[NLINE]
+//言ってんだし。[END-FE]
+//Korin\\
+Isn't this great!?[NLINE]
+They'll still allow you do a[NLINE]
+resit.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $8E74 - STRING #85 @ $A4CD
+#W32($8E74)
+//ユリィ\\
+//良いではないですか！[NLINE]
+//心意気が認められたのですから。[END-FE]
+//Yurii\\
+Isn't this great!?[NLINE]
+They acknowledged your enthusiasm.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $8E78 - STRING #86 @ $A504
+#W32($8E78)
+//ダンジョンレディ\\
+//じゃあ、私、[NLINE]
+//まだ族長になれるチャンスがあるの!?[END-FE]
+//Dungeon Lady\\
+So I still have a chance to become[NLINE]
+the village elder!?[END-FE]
+
+
+
+
+
+//POINTER #87 @ $8E7C - STRING #87 @ $A537
+#W32($8E7C)
+//そうだよ、お姉ちゃん！[NLINE]
+//また、いっしょにガンバろうよ！[END-FE]
+That's right, sister![NLINE]
+Let's do our best together![END-FE]
+
+
+
+
+
+//POINTER #88 @ $8E80 - STRING #88 @ $A570
+#W32($8E80)
+//コリン\\
+//姉妹か。[NLINE]
+//なんか良いな。[END-FE]
+//Korin\\
+It's nice to have a sister.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $8E84 - STRING #89 @ $A58B
+#W32($8E84)
+//ユリィ\\
+//姉妹愛ですか。[NLINE]
+//良いものですね。[END-FE]
+//Yurii\\
+Sisterly love is a wonderful thing.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $8E88 - STRING #90 @ $A5AE
+#W32($8E88)
+//ダンジョンレディ\\
+//うん！[NLINE]
+//私、ガンバるね！[NWIN]
+//
+//今度は自分の力で、[NLINE]
+//世界最高のダンジョンを創るよ！[NWIN]
+//
+//[CH.FACE:Laughing][CC.AA0001]
+//そうと決まれば！[END-FE]
+//Dungeon Lady\\
+You're right![NLINE]
+I'm going to do my best![NWIN]
+
+And this time, I'll make the[NLINE]
+world's ultimate dungeon with[NLINE]
+my own power![NWIN]
+
+[CH.FACE:Laughing][CC.AA0001]
+I've made up my mind![END-FE]
+
+
+
+
+
+//POINTER #91 @ $8E8C - STRING #91 @ $A617
+#W32($8E8C)
+//ダンジョンレディ\\
+//みなさん！[NLINE]
+//何か買いませんか？[END-FE]
+//Dungeon Lady\\
+Care to make a purchase, my[NLINE]
+friends?[END-FE]
+
+
+
+
+
+//POINTER #92 @ $8E90 - STRING #92 @ $A638
+#W32($8E90)
+//コリン\\
+//………。[END-FE]
+//Korin\\
+...[END-FE]
+
+
+
+
+
+//POINTER #93 @ $8E94 - STRING #93 @ $A643
+#W32($8E94)
+//ユリィ\\
+//………。[END-FE]
+//Yurii\\
+...[END-FE]
+
+
+
+
+
+//POINTER #94 @ $8E98 - STRING #94 @ $A64E
+#W32($8E98)
+//ダンジョンレディ\\
+//新たなダンジョン創りのため、[NLINE]
+//資金を貯めないと。[NWIN]
+//
+//[CC.AA0000]ご協力、お願いします！[END-FE]
+//Dungeon Lady\\
+I have to raise money in order to[NLINE]
+create a new dungeon.[NWIN]
+
+[CC.AA0000]Thank you in advance for[NLINE]
+your support![END-FE]
+
+
+
+
+
+//POINTER #95 @ $8E9C - STRING #95 @ $A69D
+#W32($8E9C)
+//コリン\\
+//こ、こりてないかも…。[END-FE]
+//Korin\\
+D-did she learn anything...?[END-FE]
+
+
+
+
+
+//POINTER #96 @ $8EA0 - STRING #96 @ $A6B6
+#W32($8EA0)
+//ユリィ\\
+//こ、こりてないかもしれません…。[END-FE]
+//Yurii\\
+D-did she learn anything...?[END-FE]
+
+
+
+
+
+//POINTER #97 @ $8EA4 - STRING #97 @ $A6D9
+#W32($8EA4)
+//ダンジョンレディ\\
+//ご、ごめん…。[END-FE]
+//Dungeon Lady\\
+I-I'm sorry...[END-FE]
+
+
+
+
+
+//POINTER #98 @ $8EA8 - STRING #98 @ $A6EA
+#W32($8EA8)
+//ダンジョンレディ\\
+//くっくっくっ…。[NLINE]
+//ついに復活を果たしたぞ！[END-FE]
+//Dungeon Lady\\
+Hehehe...[NLINE]
+I have been revived at last![END-FE]
+
+
+
+
+
+//POINTER #99 @ $8EAC - STRING #99 @ $A717
+#W32($8EAC)
+//コリン\\
+//そ、そんな！[END-FE]
+//Korin\\
+N-no way![END-FE]
+
+
+
+
+
+//POINTER #100 @ $8EB0 - STRING #100 @ $A726
+#W32($8EB0)
+//ユリィ\\
+//そ、そんな！[END-FE]
+//Yurii\\
+O-oh no![END-FE]
+
+
+
+
+
+//POINTER #101 @ $8EB4 - STRING #101 @ $A735
+#W32($8EB4)
+//ダンジョンレディ\\
+//次なるダンジョン制作費をかせぐために、[NLINE]
+//なにか買ってください？[NLINE]
+//ワタシが世界中を巡って集めた[NLINE]
+//めずらしいアイテムばっかりですよ。[END-FE]
+//Dungeon Lady\\
+How about you buy something? It will[NLINE]
+help me cover the production costs[NLINE]
+of my next dungeon. I sell nothing[NLINE]
+but rare items I've collected around[NLINE]
+the world.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $8EB8 - STRING #102 @ $A7B8
+#W32($8EB8)
+//ダンジョンレディ\\
+//どうします？[END-FE]
+//Dungeon Lady\\
+What will it be?[END-FE]
+
+
+
+
+
+//POINTER #103 @ $8EBC - STRING #103 @ $A7C7
+#W32($8EBC)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #104 @ $8EC0 - STRING #104 @ $A7D6
+#W32($8EC0)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #105 @ $8EC4 - STRING #105 @ $A7DF
+#W32($8EC4)
+//ダンジョンレディ\\
+//サイフの底が見えるまで、[NLINE]
+//使っていってくださいね[COL05][HEART][COL00][NLINE]
+//またお願いします～！[END-FE]
+//Dungeon Lady\\
+Make sure to spend every last penny.[COL05][HEART][COL00][NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #106 @ $8EC8 - STRING #106 @ $A830
+#W32($8EC8)
+//地上に戻りますか？[END-FE]
+Will you return to the surface?[END-FE]
+
+
+
+
+
+//POINTER #107 @ $8ECC - STRING #107 @ $A845
+#W32($8ECC)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #108 @ $8ED0 - STRING #108 @ $A872
+#W32($8ED0)
+//【ダンジョンバスター】[NLINE]
+//の称号を手に入れた！[END-FE]
+You received the title[NLINE]
+of "Dungeon Buster"![END-FE]
+
+
+
+
+
+//POINTER #109 @ $8ED4 - STRING #109 @ $A8A1
+#W32($8ED4)
+//ダンジョンバスター[END-FE]
+Dungeon Buster[END-FE]
+
+
+
+
+
+//POINTER #110 @ $8ED8 - STRING #110 @ $A8B6
+#W32($8ED8)
+//ダンジョンレディ\\
+//このダンジョンを制覇された今、[NLINE]
+//この称号はあなたに相応しい！[NWIN]
+//
+//ってことで、今日からアナタは[NLINE]
+//ダンジョンバスターです！[NWIN]
+//
+//おめでとう！[NLINE]
+//わ～、パチパチ！[END-FE]
+//Dungeon Lady\\
+Now that you've cleared this[NLINE]
+dungeon, you're befitting of[NLINE]
+the following title.[NWIN]
+
+I hereby bestow upon you the[NLINE]
+title of Dungeon Buster![NWIN]
+
+Congratulations![NLINE]
+Hurray! Clap-clap-clap![END-FE]
+
+
+
+
+
+//POINTER #111 @ $8EDC - STRING #111 @ $A94D
+#W32($8EDC)
+//コリン\\
+//…最後の最後まで、[NLINE]
+//余計なものを…。[END-FE]
+//Korin\\
+...Great, another worthless[NLINE]
+title...[END-FE]
+
+
+
+
+
+//POINTER #112 @ $8EE0 - STRING #112 @ $A974
+#W32($8EE0)
+//ユリィ\\
+//あっ！[NLINE]
+//勝手に勇者様のクラス名が[NLINE]
+//ダンジョンバスターに！[END-FE]
+//Yurii\\
+Ah![NLINE]
+You changed the Brave One's class name[NLINE]
+without his permission![END-FE]
+
+
+
+
+
+//POINTER #113 @ $8EE4 - STRING #113 @ $A9AF
+#W32($8EE4)
+//ダンジョンレディ\\
+//やったね！[END-FE]
+//Dungeon Lady\\
+Way to go![END-FE]
+
+
+
+
+
+//POINTER #114 @ $8EE8 - STRING #114 @ $A9BC
+#W32($8EE8)
+//コリン\\
+//………。[END-FE]
+//Korin\\
+...[END-FE]
+
+
+
+
+
+//POINTER #115 @ $8EEC - STRING #115 @ $A9C7
+#W32($8EEC)
+//ユリィ\\
+//………。[END-FE]
+//Yurii\\
+...[END-FE]
+
+
+
+
+
+//POINTER #116 @ $8EF0 - STRING #116 @ $A9D2
+#W32($8EF0)
+//　[NLINE]
+//魔法の力が、かき消された……[END-FE]
+//System Message\\
+[NLINE]
+Its magical power has vanished...[END-FE]
+
+
+
+
+
+//POINTER #117 @ $8EF4 - STRING #117 @ $A9F5
+#W32($8EF4)
+//初回フラグＯＮ[END-FE]
+//System Message\\
+初回フラグＯＮ[END-FE]
+
+
+
+
+
+//POINTER #118 @ $8EF8 - STRING #118 @ $AA06
+#W32($8EF8)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #119 @ $8EFC - STRING #119 @ $AA12
+#W32($8EFC)
+//ハシゴがあります。[NLINE]
+//下りますか？[END-FE]
+//System Message\\
+There's a ladder.[NLINE]
+Do you want to go down?[END-FE]
+
+
+
+
+
+//POINTER #120 @ $8F00 - STRING #120 @ $AA35
+#W32($8F00)
+//変数[CC.EF00][END-FE]
+//System Message\\
+変数[CC.EF00][END-FE]
+
+
+
+
+
+//POINTER #121 @ $8F04 - STRING #121 @ $AA3F
+#W32($8F04)
+//ハシゴがあります。[NLINE]
+//上りますか？[END-FE]
+//System Message\\
+There's a ladder.[NLINE]
+Do you want to go up?[END-FE]
+
+
+
+
+
+//POINTER #122 @ $8F08 - STRING #122 @ $AA62
+#W32($8F08)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #123 @ $8F0C - STRING #123 @ $AA6E
+#W32($8F0C)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #124 @ $8F10 - STRING #124 @ $AA7A
+#W32($8F10)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #125 @ $8F14 - STRING #125 @ $AA86
+#W32($8F14)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #126 @ $8F18 - STRING #126 @ $AA92
+#W32($8F18)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #127 @ $8F1C - STRING #127 @ $AA9E
+#W32($8F1C)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #128 @ $8F20 - STRING #128 @ $AAAA
+#W32($8F20)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #129 @ $8F24 - STRING #129 @ $AAB6
+#W32($8F24)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #130 @ $8F28 - STRING #130 @ $AAC2
+#W32($8F28)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #131 @ $8F2C - STRING #131 @ $AACE
+#W32($8F2C)
+//【村人バスター】[NLINE]
+//の称号を手に入れた！[END-FE]
+//System Message\\
+You have obtained the title[NLINE]
+of "Villager Buster"![END-FE]
+
+
+
+
+
+//POINTER #132 @ $8F30 - STRING #132 @ $AAF7
+#W32($8F30)
+//村人バスター[END-FE]
+Villager Buster[END-FE]
+
+
+
+
+
+//POINTER #133 @ $8F34 - STRING #133 @ $AB06
+#W32($8F34)
+//闘技場で、[MainCharName]のクラス名を[NLINE]
+//変えることが出来るようになりました。[END-FE]
+闘技場で、[MainCharName]のクラス名を[NLINE]
+変えることが出来るようになりました。[END-FE]
+
+
+
+
+
+//POINTER #134 @ $8F38 - STRING #134 @ $AB49
+#W32($8F38)
+//【守護勇士】、【モノポリス特別隊員】、[NLINE]
+//闘技場で得た現在のスレイヤー名、[NLINE]
+//このダンジョンで入手したクラス名の内[NLINE]
+//どれかに変える事が可能です。[END-FE]
+【守護勇士】、【モノポリス特別隊員】、[NLINE]
+闘技場で得た現在のスレイヤー名、[NLINE]
+このダンジョンで入手したクラス名の内[NLINE]
+どれかに変える事が可能です。[END-FE]
+
+
+
+
+
+//POINTER #135 @ $8F3C - STRING #135 @ $ABD8
+#W32($8F3C)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #136 @ $8F40 - STRING #136 @ $AC05
+#W32($8F40)
+//コリン\\
+//…はぁ～。[NLINE]
+//また、このパターンか。[END-FE]
+//Korin\\
+...*Sigh*[NLINE]
+This again?[END-FE]
+
+
+
+
+
+//POINTER #137 @ $8F44 - STRING #137 @ $AC2A
+#W32($8F44)
+//ユリィ\\
+//この呪文はまさか！[END-FE]
+//Yurii\\
+That spell...![END-FE]
+
+
+
+
+
+//POINTER #138 @ $8F48 - STRING #138 @ $AC3F
+#W32($8F48)
+//ダンジョンレディ\\
+//フッ、フッ、フッ！[NLINE]
+//私を追ってここまでくるとは！[END-FE]
+//Dungeon Lady\\
+Heh heh heh![NLINE]
+To think you followed me all the[NLINE]
+way here![END-FE]
+
+
+
+
+
+//POINTER #139 @ $8F4C - STRING #139 @ $AC72
+#W32($8F4C)
+//ダンジョンレディ\\
+//もう私に構うな、[NLINE]
+//こんちくしょう！[END-FE]
+//Dungeon Lady\\
+Leave me alone already, will[NLINE]
+ya!?[END-FE]
+
+
+
+
+
+//POINTER #140 @ $8F50 - STRING #140 @ $AC97
+#W32($8F50)
+//コリン\\
+//私だって、アンタに関わりたくないわよ！[NLINE]
+//妹さんに頼まれなきゃ、来る気なんて、[NLINE]
+//これ～[CC.D80F]～[CC.D80F]～[CC.D80F]～[CC.D80F]～っぽっちもないわよ！[END-FE]
+//Korin\\
+Trust me, I don't want anything to[NLINE]
+do with you! If your little sister[NLINE]
+hadn't asked, I wouldn't have felt[NLINE]
+like coming! Not ooooooooneeeee bit![END-FE]
+
+
+
+
+
+//POINTER #141 @ $8F54 - STRING #141 @ $AD16
+#W32($8F54)
+//ダンジョンレディ\\
+//うわ～！[NLINE]
+//これ以上無いくらいに、言葉を伸ばした！[NWIN]
+//
+//[CH.FACE:Angry]
+//おのれ、青の悪魔め！[END-FE]
+//Dungeon Lady\\
+Wow![NLINE]
+You couldn't have stretched out[NLINE]
+that word any longer![NWIN]
+
+[CH.FACE:Angry]
+You can stick it, blue she-devil![END-FE]
+
+
+
+
+
+//POINTER #142 @ $8F58 - STRING #142 @ $AD63
+#W32($8F58)
+//コリン\\
+//ムカッ！[NWIN]
+//
+//[CH.FACE:Laughing]
+//どうやら、[NLINE]
+//まだ蹴られ足りないみたいだね。[END-FE]
+//Korin\\
+Why you![NWIN]
+
+[CH.FACE:Laughing]
+Seems like one butt-kicking[NLINE]
+wasn't enough.[END-FE]
+
+
+
+
+
+//POINTER #143 @ $8F5C - STRING #143 @ $AD9E
+#W32($8F5C)
+//ダンジョンレディ\\
+//あ、相変わらずな、[NLINE]
+//恐怖の微笑み…。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//で、でも今の私には、[NLINE]
+//この杖がある！[END-FE]
+//Dungeon Lady\\
+T-there's that terrifying[NLINE]
+smile again...[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+B-but this time, I have[NLINE]
+this rod![END-FE]
+
+
+
+
+
+//POINTER #144 @ $8F60 - STRING #144 @ $ADF3
+#W32($8F60)
+//ダンジョンレディ\\
+//ダンジョンマスターになった[NLINE]
+//私には向かう所、敵無し！[NWIN]
+//
+//この杖の実力、[NLINE]
+//思い知れ！[END-FE]
+//Dungeon Lady\\
+No one is a match for me, the[NLINE]
+dungeon master![NWIN]
+
+Witness the true power of this[NLINE]
+rod![END-FE]
+
+
+
+
+
+//POINTER #145 @ $8F64 - STRING #145 @ $AE46
+#W32($8F64)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #146 @ $8F68 - STRING #146 @ $AE73
+#W32($8F68)
+//村人\\
+//ん？[END-FE]
+//Villager\\
+Huh?[END-FE]
+
+
+
+
+
+//POINTER #147 @ $8F6C - STRING #147 @ $AE7A
+#W32($8F6C)
+//村人\\
+//こ、ここはどこだ！[NLINE]
+//それにめちゃくちゃ[NLINE]
+//でかくないか、オレ！[END-FE]
+//Villager\\
+W-where am I?[NLINE]
+And how did I get[NLINE]
+so crazy big!?[END-FE]
+
+
+
+
+
+//POINTER #148 @ $8F70 - STRING #148 @ $AEB9
+#W32($8F70)
+//ダンジョンレディ\\
+//…[CC.D80F]…[CC.D80F]…。[END-FE]
+//Dungeon Lady\\
+...[CC.D80F]...[CC.D80F]...[END-FE]
+
+
+
+
+
+//POINTER #149 @ $8F74 - STRING #149 @ $AECA
+#W32($8F74)
+//コリン\\
+//…[CC.D80F]…[CC.D80F]…。[NWIN]
+//
+//[CH.FACE:Laughing]
+//１つ聞いて良いかな、[NLINE]
+//ダンジョンマスター？[END-FE]
+//Korin\\
+...[CC.D80F]...[CC.D80F]...[NWIN]
+
+[CH.FACE:Laughing]
+Can I ask you something,[NLINE]
+Dungeon Master?[END-FE]
+
+
+
+
+
+//POINTER #150 @ $8F78 - STRING #150 @ $AF0B
+#W32($8F78)
+//ダンジョンレディ\\
+//ダメっ！[NLINE]
+//聞いちゃダメっ！[END-FE]
+//Dungeon Lady\\
+No! You may not![END-FE]
+
+
+
+
+
+//POINTER #151 @ $8F7C - STRING #151 @ $AF28
+#W32($8F7C)
+//コリン\\
+//え～い、うっさい！[NLINE]
+//どうなってんのよ、これ！[NWIN]
+//
+//誰、何！[NLINE]
+//で、この大きさは！[END-FE]
+//Korin\\
+Hnng, you're so annoying![NLINE]
+What happened?[NWIN]
+
+Who's that? What is he?[NLINE]
+And what's with his size!?[END-FE]
+
+
+
+
+
+//POINTER #152 @ $8F80 - STRING #152 @ $AF75
+#W32($8F80)
+//ダンジョンレディ\\
+//…やはりぶっつけ本番はいけないな。[NLINE]
+//見てはいけないものが出てきたよ。[END-FE]
+//Dungeon Lady\\
+...I knew I should have practiced first.[NLINE]
+You shouldn't be seeing this.[END-FE]
+
+
+
+
+
+//POINTER #153 @ $8F84 - STRING #153 @ $AFBC
+#W32($8F84)
+//コリン\\
+//き・こ・え・て・る・ぞ！[NWIN]
+//
+//何て危ないことしてんのよ！[NWIN]
+//
+//どうすんのよ、これ！[END-FE]
+//Korin\\
+Do. You. Hear. Me!?[NWIN]
+
+You're playing with fire![NWIN]
+
+What do you plan on doing!?[END-FE]
+
+
+
+
+
+//POINTER #154 @ $8F88 - STRING #154 @ $B009
+#W32($8F88)
+//村人\\
+//あの～、オレどうしたら、[NLINE]
+//戻れるんでしょうか？[END-FE]
+//Villager\\
+Excuse me, how do I get[NLINE]
+back?[END-FE]
+
+
+
+
+
+//POINTER #155 @ $8F8C - STRING #155 @ $B03A
+#W32($8F8C)
+//ダンジョンレディ\\
+//う～ん、意外に冷静な人だな…。[END-FE]
+//Dungeon Lady\\
+Hmmm, he's surprisingly calm...[END-FE]
+
+
+
+
+
+//POINTER #156 @ $8F90 - STRING #156 @ $B05B
+#W32($8F90)
+//ダンジョンレディ\\
+//そこの君！[END-FE]
+//Dungeon Lady\\
+You there![END-FE]
+
+
+
+
+
+//POINTER #157 @ $8F94 - STRING #157 @ $B068
+#W32($8F94)
+//村人\\
+//はい、なんでしょうか？[END-FE]
+//Villager\\
+Yes, what is it?[END-FE]
+
+
+
+
+
+//POINTER #158 @ $8F98 - STRING #158 @ $B081
+#W32($8F98)
+//ダンジョンレディ\\
+//私の頼みを聞いてくれたら、[NLINE]
+//元の姿、そして元の場所に戻してあげるよ！[END-FE]
+//Dungeon Lady\\
+If you heed my request, I'll restore you[NLINE]
+to your original shape and send you[NLINE]
+home![END-FE]
+
+
+
+
+
+//POINTER #159 @ $8F9C - STRING #159 @ $B0C8
+#W32($8F9C)
+//コリン\\
+//悪い予感が…。[END-FE]
+//Korin\\
+I've got a bad feeling...[END-FE]
+
+
+
+
+
+//POINTER #160 @ $8FA0 - STRING #160 @ $B0D9
+#W32($8FA0)
+//村人\\
+//…う～ん。[NLINE]
+//で、どんな頼みだい？[END-FE]
+//Villager\\
+...Hmmm.[NLINE]
+What kind of request?[END-FE]
+
+
+
+
+
+//POINTER #161 @ $8FA4 - STRING #161 @ $B0FC
+#W32($8FA4)
+//ダンジョンレディ\\
+//その巨体を使って、[NLINE]
+//そこの人たちをやっつけて！[END-FE]
+//Dungeon Lady\\
+Use your large body to mop[NLINE]
+the floor with them![END-FE]
+
+
+
+
+
+//POINTER #162 @ $8FA8 - STRING #162 @ $B12D
+#W32($8FA8)
+//コリン\\
+//ちょ、アンタ！[END-FE]
+//Korin\\
+Hold on![END-FE]
+
+
+
+
+
+//POINTER #163 @ $8FAC - STRING #163 @ $B13E
+#W32($8FAC)
+//ダンジョンレディ\\
+//それだけの体があれば、[NLINE]
+//楽なお願いだよ、がんばって！[END-FE]
+//Dungeon Lady\\
+It's an easy request for someone[NLINE]
+so large. Good luck![END-FE]
+
+
+
+
+
+//POINTER #164 @ $8FB0 - STRING #164 @ $B175
+#W32($8FB0)
+//村人\\
+//…楽かな？[END-FE]
+//Villager\\
+...Easy?[END-FE]
+
+
+
+
+
+//POINTER #165 @ $8FB4 - STRING #165 @ $B182
+#W32($8FB4)
+//ダンジョンレディ\\
+//うん！[NLINE]
+//簡単、お気楽な作業だよ！[END-FE]
+//Dungeon Lady\\
+You bet![NLINE]
+It's an easy and cushy task![END-FE]
+
+
+
+
+
+//POINTER #166 @ $8FB8 - STRING #166 @ $B1A5
+#W32($8FB8)
+//村人\\
+//…確かに、これだけ大きければ。[END-FE]
+//Villager\\
+...That's definitely true if I'm this[NLINE]
+big...[END-FE]
+
+
+
+
+
+//POINTER #167 @ $8FBC - STRING #167 @ $B1C6
+#W32($8FBC)
+//コリン\\
+//そこのキミ、そんなヤツの言うこと、[NLINE]
+//聞いちゃダメだよ！[END-FE]
+//Korin\\
+Don't listen to that looney![END-FE]
+
+
+
+
+
+//POINTER #168 @ $8FC0 - STRING #168 @ $B1FF
+#W32($8FC0)
+//村人\\
+//でも、戻りたいし…。[END-FE]
+//Villager\\
+But I want to go back...[END-FE]
+
+
+
+
+
+//POINTER #169 @ $8FC4 - STRING #169 @ $B216
+#W32($8FC4)
+//ダンジョンレディ\\
+//ふっふっふっ！[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//そういうこと！[END-FE]
+//Dungeon Lady\\
+He he he![NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+That's right![END-FE]
+
+
+
+
+
+//POINTER #170 @ $8FC8 - STRING #170 @ $B23F
+#W32($8FC8)
+//コリン\\
+//つまり、私たちと戦う。[NLINE]
+//それで良いのかな？[END-FE]
+//Korin\\
+So you'll fight us.[NLINE]
+Sure about that?[END-FE]
+
+
+
+
+
+//POINTER #171 @ $8FCC - STRING #171 @ $B26C
+#W32($8FCC)
+//村人\\
+//…この妖精、怖いっス！[END-FE]
+//Villager\\
+...That fairy is creepy![END-FE]
+
+
+
+
+
+//POINTER #172 @ $8FD0 - STRING #172 @ $B285
+#W32($8FD0)
+//ダンジョンレディ\\
+//そ、そうだよね！[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//んじゃ、どこかの村人さん！[NLINE]
+//やっちゃってください！[END-FE]
+//Dungeon Lady\\
+T-tell me about it![NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+Well then, Mr. Random Villager![NLINE]
+Please get to it![END-FE]
+
+
+
+
+
+//POINTER #173 @ $8FD4 - STRING #173 @ $B2D4
+#W32($8FD4)
+//ユリィ\\
+//でも、妹さんが心配してますよ。[END-FE]
+//Yurii\\
+But your sister is worried about you.[END-FE]
+
+
+
+
+
+//POINTER #174 @ $8FD8 - STRING #174 @ $B2F5
+#W32($8FD8)
+//ダンジョンレディ\\
+//ぐっ……。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//ダメ、私は私の道を行くと決めたの！[NLINE]
+//もう、後戻りは出来ないの！[END-FE]
+//Dungeon Lady\\
+Ugh...[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+No, I decided to walk my own path![NLINE]
+I can't go back anymore![END-FE]
+
+
+
+
+
+//POINTER #175 @ $8FDC - STRING #175 @ $B34A
+#W32($8FDC)
+//ユリィ\\
+//それはただの暴走では…。[END-FE]
+//Yurii\\
+But isn't what you're doing just[NLINE]
+running away...?[END-FE]
+
+
+
+
+
+//POINTER #176 @ $8FE0 - STRING #176 @ $B365
+#W32($8FE0)
+//ダンジョンレディ\\
+//……。[END-FE]
+//Dungeon Lady\\
+...[END-FE]
+
+
+
+
+
+//POINTER #177 @ $8FE4 - STRING #177 @ $B36E
+#W32($8FE4)
+//ユリィ\\
+//あの～、どうかしましたか？[END-FE]
+//Yurii\\
+Um, is everything alright?[END-FE]
+
+
+
+
+
+//POINTER #178 @ $8FE8 - STRING #178 @ $B38B
+#W32($8FE8)
+//ダンジョンレディ\\
+//よ、妖精なんか嫌いだ！[NWIN]
+//
+//[CC.AA0000]ダンジョンマスターになった[NLINE]
+//私には向かう所、敵無しなんだ！[NWIN]
+//
+//この杖の実力、[NLINE]
+//思い知れ！[END-FE]
+//Dungeon Lady\\
+I-I hate you fairies![NWIN]
+
+[CC.AA0000]No one is a match for me, the[NLINE]
+dungeon master![NWIN]
+
+Witness the true power of this[NLINE]
+rod![END-FE]
+
+
+
+
+
+//POINTER #179 @ $8FEC - STRING #179 @ $B400
+#W32($8FEC)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #180 @ $8FF0 - STRING #180 @ $B42D
+#W32($8FF0)
+//村人\\
+//ん？[END-FE]
+//Villager\\
+Huh?[END-FE]
+
+
+
+
+
+//POINTER #181 @ $8FF4 - STRING #181 @ $B434
+#W32($8FF4)
+//村人\\
+//こ、ここはどこだ！[NLINE]
+//それにめちゃくちゃ[NLINE]
+//でかくないか、オレ！[END-FE]
+//Villager\\
+W-where am I?[NLINE]
+And how did I get[NLINE]
+so crazy big!?[END-FE]
+
+
+
+
+
+//POINTER #182 @ $8FF8 - STRING #182 @ $B473
+#W32($8FF8)
+//ダンジョンレディ\\
+//…[CC.D80F]…[CC.D80F]…。[END-FE]
+//Dungeon Lady\\
+...[CC.D80F]...[CC.D80F]...[END-FE]
+
+
+
+
+
+//POINTER #183 @ $8FFC - STRING #183 @ $B484
+#W32($8FFC)
+//ユリィ\\
+//…[CC.D80F]…[CC.D80F]…。[NWIN]
+//
+//[CH.FACE:Laughing]
+//１つ聞いて宜しいでしょうか？[END-FE]
+//Yurii\\
+...[CC.D80F]...[CC.D80F]...[NWIN]
+
+[CH.FACE:Laughing]
+May I ask you a question, Dungeon[NLINE]
+Master?[END-FE]
+
+
+
+
+
+//POINTER #184 @ $9000 - STRING #184 @ $B4B7
+#W32($9000)
+//ダンジョンレディ\\
+//ダメっ！[NLINE]
+//聞いちゃダメっ！[END-FE]
+//Dungeon Lady\\
+No![NLINE]
+You may not![END-FE]
+
+
+
+
+
+//POINTER #185 @ $9004 - STRING #185 @ $B4D4
+#W32($9004)
+//ユリィ\\
+//で、ですが、この巨大な人は！[END-FE]
+//Yurii\\
+B-but what do you intend to do[NLINE]
+with this giant!?[END-FE]
+
+
+
+
+
+//POINTER #186 @ $9008 - STRING #186 @ $B4F3
+#W32($9008)
+//ダンジョンレディ\\
+//聞くなって言ったのに！[END-FE]
+//Dungeon Lady\\
+I said no questions![END-FE]
+
+
+
+
+
+//POINTER #187 @ $900C - STRING #187 @ $B50C
+#W32($900C)
+//村人\\
+//あの～、オレは[NLINE]
+//どうなっているんでしょうか？[END-FE]
+//Villager\\
+Excuse me, what happened to me?[END-FE]
+
+
+
+
+
+//POINTER #188 @ $9010 - STRING #188 @ $B53B
+#W32($9010)
+//ダンジョンレディ\\
+//う～ん、意外に冷静な人だな…。[END-FE]
+//Dungeon Lady\\
+Hmmm, he's surprisingly calm...[END-FE]
+
+
+
+
+
+//POINTER #189 @ $9014 - STRING #189 @ $B55C
+#W32($9014)
+//ダンジョンレディ\\
+//そこの君！[END-FE]
+//Dungeon Lady\\
+You there![END-FE]
+
+
+
+
+
+//POINTER #190 @ $9018 - STRING #190 @ $B569
+#W32($9018)
+//村人\\
+//はい、なんでしょうか？[END-FE]
+//Villager\\
+Yes, what is it?[END-FE]
+
+
+
+
+
+//POINTER #191 @ $901C - STRING #191 @ $B582
+#W32($901C)
+//ダンジョンレディ\\
+//私の頼みを聞いてくれたら、[NLINE]
+//元の姿、そして元の場所に戻してあげるよ！[END-FE]
+//Dungeon Lady\\
+If you heed my request, I'll restore you[NLINE]
+to your original shape and send you[NLINE]
+home![END-FE]
+
+
+
+
+
+//POINTER #192 @ $9020 - STRING #192 @ $B5C9
+#W32($9020)
+//ユリィ\\
+//悪い予感がします…。[END-FE]
+//Yurii\\
+I've got a bad feeling...[END-FE]
+
+
+
+
+
+//POINTER #193 @ $9024 - STRING #193 @ $B5E0
+#W32($9024)
+//村人\\
+//…う～ん。[NLINE]
+//で、どんな頼みだい？[END-FE]
+//Villager\\
+...Hmmm.[NLINE]
+What kind of request?[END-FE]
+
+
+
+
+
+//POINTER #194 @ $9028 - STRING #194 @ $B603
+#W32($9028)
+//ダンジョンレディ\\
+//その巨体を使って、[NLINE]
+//そこの人たちをやっつけて！[END-FE]
+//Dungeon Lady\\
+Use your large body to mop[NLINE]
+the floor with them![END-FE]
+
+
+
+
+
+//POINTER #195 @ $902C - STRING #195 @ $B634
+#W32($902C)
+//ユリィ\\
+//な、何を！[END-FE]
+//Yurii\\
+W-what!?[END-FE]
+
+
+
+
+
+//POINTER #196 @ $9030 - STRING #196 @ $B641
+#W32($9030)
+//ダンジョンレディ\\
+//それだけの体があれば、[NLINE]
+//楽なお願いだよ、がんばって！[END-FE]
+//Dungeon Lady\\
+It's an easy request for someone[NLINE]
+so large. Good luck![END-FE]
+
+
+
+
+
+//POINTER #197 @ $9034 - STRING #197 @ $B678
+#W32($9034)
+//村人\\
+//…楽かな？[END-FE]
+//Villager\\
+...Easy?[END-FE]
+
+
+
+
+
+//POINTER #198 @ $9038 - STRING #198 @ $B685
+#W32($9038)
+//ダンジョンレディ\\
+//うん！[NLINE]
+//簡単、お気楽な作業だよ！[END-FE]
+//Dungeon Lady\\
+You bet![NLINE]
+It's an easy and cushy task![END-FE]
+
+
+
+
+
+//POINTER #199 @ $903C - STRING #199 @ $B6A8
+#W32($903C)
+//村人\\
+//…確かに、これだけ大きければ。[END-FE]
+//Villager\\
+...That's definitely true if I'm this[NLINE]
+big...[END-FE]
+
+
+
+
+
+//POINTER #200 @ $9040 - STRING #200 @ $B6C9
+#W32($9040)
+//ユリィ\\
+//何を言っているんですか！[END-FE]
+//Yurii\\
+What are you saying!?[END-FE]
+
+
+
+
+
+//POINTER #201 @ $9044 - STRING #201 @ $B6E4
+#W32($9044)
+//村人\\
+//でも、戻りたいし…。[END-FE]
+//Villager\\
+But I want to go back...[END-FE]
+
+
+
+
+
+//POINTER #202 @ $9048 - STRING #202 @ $B6FB
+#W32($9048)
+//ダンジョンレディ\\
+//ふっふっふっ！[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//そういうこと！[END-FE]
+//Dungeon Lady\\
+He he he![NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+That's right![END-FE]
+
+
+
+
+
+//POINTER #203 @ $904C - STRING #203 @ $B724
+#W32($904C)
+//ユリィ\\
+//何やら予断が許されない事態に[NLINE]
+//陥ってしまったような…。[END-FE]
+//Yurii\\
+It seems we've ended up in an[NLINE]
+unpredictable situation.[END-FE]
+
+
+
+
+
+//POINTER #204 @ $9050 - STRING #204 @ $B75D
+#W32($9050)
+//村人\\
+//よし、やるッス！[END-FE]
+//Villager\\
+Alright, I'll do it![END-FE]
+
+
+
+
+
+//POINTER #205 @ $9054 - STRING #205 @ $B770
+#W32($9054)
+//ダンジョンレディ\\
+//どこかの村人さん！[NLINE]
+//やっちゃってください！[END-FE]
+//Dungeon Lady\\
+Then please get to it, Mr. Random[NLINE]
+Villager![END-FE]
+
+
+
+
+
+//POINTER #206 @ $9058 - STRING #206 @ $B79D
+#W32($9058)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #207 @ $905C - STRING #207 @ $B7AA
+#W32($905C)
+//ハシゴがあります。[NLINE]
+//地上に戻りますか？[END-FE]
+It's a ladder.[NLINE]
+Return to the surface?[END-FE]
+
+
+
+
+
+//POINTER #208 @ $9060 - STRING #208 @ $B7D3
+#W32($9060)
+//ユリィ\\
+//大きな宝箱を開けていませんが、[NLINE]
+//よろしいのですか？[END-FE]
+//Yurii\\
+We haven't opened the large treasure[NLINE]
+chest. Is that alright?[END-FE]
+
+
+
+
+
+//POINTER #209 @ $9064 - STRING #209 @ $B808
+#W32($9064)
+//更に地下へ潜りますか？[END-FE]
+Go further underground?[END-FE]
+
+
+
+
+
+//POINTER #210 @ $9068 - STRING #210 @ $B821
+#W32($9068)
+//ダンジョンレディ\\
+//どうして攻撃しないの！[END-FE]
+//Dungeon Lady\\
+Why aren't you attacking them!?[END-FE]
+
+
+
+
+
+//POINTER #211 @ $906C - STRING #211 @ $B83A
+#W32($906C)
+//村人\\
+//…良く考えたらオレ、[NLINE]
+//ケンカしたことない…。[END-FE]
+//Villager\\
+...Now that I think about it,[NLINE]
+I never got hurt before...[END-FE]
+
+
+
+
+
+//POINTER #212 @ $9070 - STRING #212 @ $B869
+#W32($9070)
+//ダンジョンレディ\\
+//へぇ？[END-FE]
+//Dungeon Lady\\
+Huh?[END-FE]
+
+
+
+
+
+//POINTER #213 @ $9074 - STRING #213 @ $B872
+#W32($9074)
+//村人\\
+//…戦い方、知らない…。[END-FE]
+//Villager\\
+...I don't know how to fight...[END-FE]
+
+
+
+
+
+//POINTER #214 @ $9078 - STRING #214 @ $B88B
+#W32($9078)
+//ダンジョンレディ\\
+//ちょ、今更！[END-FE]
+//Dungeon Lady\\
+Couldn't you have told me that[NLINE]
+earlier!?[END-FE]
+
+
+
+
+
+//POINTER #215 @ $907C - STRING #215 @ $B89A
+#W32($907C)
+//村人\\
+//ごめん…。[END-FE]
+//Villager\\
+Sorry...[END-FE]
+
+
+
+
+
+//POINTER #216 @ $9080 - STRING #216 @ $B8A7
+#W32($9080)
+//ダンジョンレディ\\
+//…え～と。[END-FE]
+//Dungeon Lady\\
+...Ummmm.[END-FE]
+
+
+
+
+
+//POINTER #217 @ $9084 - STRING #217 @ $B8B4
+#W32($9084)
+//コリン\\
+//どうするのかな？[END-FE]
+//Korin\\
+What will you do now?[END-FE]
+
+
+
+
+
+//POINTER #218 @ $9088 - STRING #218 @ $B8C7
+#W32($9088)
+//ユリィ\\
+//もう、止めた方が宜しいのでは？[END-FE]
+//Yurii\\
+Wouldn't it be best if you give[NLINE]
+up now?[END-FE]
+
+
+
+
+
+//POINTER #219 @ $908C - STRING #219 @ $B8E8
+#W32($908C)
+//ダンジョンレディ\\
+//…人選ミス…、だね。[NWIN]
+//
+//[CH.FACE:Calm][CC.AA0000]
+//どこかの村人さん、ご苦労さま。[NLINE]
+//元の場所に戻してあげるよ。[END-FE]
+//Dungeon Lady\\
+...Seems like I picked the wrong[NLINE]
+person for the job.[NWIN]
+
+[CH.FACE:Calm][CC.AA0000]
+Mr. Random Villager, thank you for[NLINE]
+your efforts. I'll send you back to[NLINE]
+where you came from.[END-FE]
+
+
+
+
+
+//POINTER #220 @ $9090 - STRING #220 @ $B943
+#W32($9090)
+//村人\\
+//え？[NLINE]
+//何もしてないけど、良いの？[END-FE]
+//Villager\\
+Huh?[NLINE]
+Are you sure? I didn't do anything.[END-FE]
+
+
+
+
+
+//POINTER #221 @ $9094 - STRING #221 @ $B966
+#W32($9094)
+//ダンジョンレディ\\
+//仕方ないよ。[NLINE]
+//それじゃあ、元気でね。[END-FE]
+//Dungeon Lady\\
+It can't be helped.[NLINE]
+Alright, take care now.[END-FE]
+
+
+
+
+
+//POINTER #222 @ $9098 - STRING #222 @ $B98D
+#W32($9098)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #223 @ $909C - STRING #223 @ $B9BA
+#W32($909C)
+//ダンジョンレディ\\
+//ふぅ～、上手く行った。[END-FE]
+//Dungeon Lady\\
+Phew, that went well.[END-FE]
+
+
+
+
+
+//POINTER #224 @ $90A0 - STRING #224 @ $B9D3
+#W32($90A0)
+//コリン\\
+//さあ、どうしてくれようか。[END-FE]
+//Korin\\
+Well, well, what to do with you?[END-FE]
+
+
+
+
+
+//POINTER #225 @ $90A4 - STRING #225 @ $B9F0
+#W32($90A4)
+//ダンジョンレディ\\
+//青い悪魔、まだまだ甘いわね！[END-FE]
+//Dungeon Lady\\
+It's not over yet, blue she-devil![END-FE]
+
+
+
+
+
+//POINTER #226 @ $90A8 - STRING #226 @ $BA0F
+#W32($90A8)
+//コリン\\
+//なにが甘いのよ！[NLINE]
+//って言うか、その青い悪魔は止めろ！[END-FE]
+//Korin\\
+Whadya mean this isn't over?[NLINE]
+And stop calling me "blue she-devil"![END-FE]
+
+
+
+
+
+//POINTER #227 @ $90AC - STRING #227 @ $BA46
+#W32($90AC)
+//ダンジョンレディ\\
+//今回創り上げた最強ダンジョンは[NLINE]
+//過去最高の仕上がり。[NWIN]
+//
+//この程度で制覇したと[NLINE]
+//思ってもらっては困るわね。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//と、いう事でサラバだ！[END-FE]
+//Dungeon Lady\\
+My ultimate dungeon is the deepest[NLINE]
+ever created.[NWIN]
+
+Don't think that you've already[NLINE]
+cleared it.[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+Hasta la vista![END-FE]
+
+
+
+
+
+//POINTER #228 @ $90B0 - STRING #228 @ $BACF
+#W32($90B0)
+//ユリィ\\
+//さあ、妹さんの所に戻りましょう。[END-FE]
+//Yurii\\
+Let's return to where your sister is.[END-FE]
+
+
+
+
+
+//POINTER #229 @ $90B4 - STRING #229 @ $BAF2
+#W32($90B4)
+//ダンジョンレディ\\
+//ま、未だだ！[NLINE]
+//この最強ダンジョンは、前に創った[NLINE]
+//１１階仕立てのショボイものとは違う！[NWIN]
+//
+//こんな程度で、妖精に敗北してたまるか！[NLINE]
+//勝負はこれからだ！[NWIN]
+//
+//この下では、今回みたいにはいかないぞ！[END-FE]
+//Dungeon Lady\\
+N-not yet![NLINE]
+This ultimate dungeon is different from[NLINE]
+the snoozefest that was my previous[NLINE]
+eleven-floor dungeon![NWIN]
+
+There's no way I would be defeated[NLINE]
+by a fairy! It's not over yet![NWIN]
+
+Next time will be different![END-FE]
+
+
+
+
+
+//POINTER #230 @ $90B8 - STRING #230 @ $BBAD
+#W32($90B8)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #231 @ $90BC - STRING #231 @ $BBDA
+#W32($90BC)
+//コリン\\
+//逃げられたか。[END-FE]
+//Korin\\
+She ran.[END-FE]
+
+
+
+
+
+//POINTER #232 @ $90C0 - STRING #232 @ $BBEB
+#W32($90C0)
+//ユリィ\\
+//…下って、[NLINE]
+//まだ続くのですか、このダンジョン…。[END-FE]
+//Yurii\\
+...Next time?[NLINE]
+How deep does this dungeon go...?[END-FE]
+
+
+
+
+
+//POINTER #233 @ $90C4 - STRING #233 @ $BC1E
+#W32($90C4)
+//みなさん、無事ですか？[END-FE]
+Are you alright, everyone?[END-FE]
+
+
+
+
+
+//POINTER #234 @ $90C8 - STRING #234 @ $BC37
+#W32($90C8)
+//コリン\\
+//あれ、妹さんの声だ。[END-FE]
+//Korin\\
+Ah! It's the little sister's voice![END-FE]
+
+
+
+
+
+//POINTER #235 @ $90CC - STRING #235 @ $BC4E
+#W32($90CC)
+//ユリィ\\
+//これは、妹さんの声のようですね。[END-FE]
+//Yurii\\
+That sounds like the voice of the[NLINE]
+little sister.[END-FE]
+
+
+
+
+
+//POINTER #236 @ $90D0 - STRING #236 @ $BC71
+#W32($90D0)
+//お姉ちゃんはいましたか？[END-FE]
+//Dungeon Girl\\
+Did you find my sister?[END-FE]
+
+
+
+
+
+//POINTER #237 @ $90D4 - STRING #237 @ $BC8C
+#W32($90D4)
+//コリン\\
+//いたにはいたけど、[NLINE]
+//逃げられた。[END-FE]
+//Korin\\
+Yeah, but she ran.[END-FE]
+
+
+
+
+
+//POINTER #238 @ $90D8 - STRING #238 @ $BCAF
+#W32($90D8)
+//ユリィ\\
+//いましたが、地下へと[NLINE]
+//逃げてしまいました。[END-FE]
+//Yurii\\
+We did, but she fled to a[NLINE]
+deeper floor.[END-FE]
+
+
+
+
+
+//POINTER #239 @ $90DC - STRING #239 @ $BCDC
+#W32($90DC)
+//そ、そうですか…。[NWIN]
+//
+//今地上と、右側のハシゴを繋げることに成功しました！[NLINE]
+//これでいつでも地上と１０階を行き来ができます！[END-FE]
+//Dungeon Girl\\
+I-I see...[NWIN]
+
+The surface and the ladder on the right are now[NLINE]
+connected! Now you can go back and forth between[NLINE]
+the surface and the 10th floor at any time![END-FE]
+
+
+
+
+
+//POINTER #240 @ $90E0 - STRING #240 @ $BD55
+#W32($90E0)
+//コリン\\
+//…どうやって？[END-FE]
+//Korin\\
+...How?[END-FE]
+
+
+
+
+
+//POINTER #241 @ $90E4 - STRING #241 @ $BD66
+#W32($90E4)
+//ユリィ\\
+//…どうやってですか？[END-FE]
+//Yurii\\
+...How is that possible?[END-FE]
+
+
+
+
+
+//POINTER #242 @ $90E8 - STRING #242 @ $BD7D
+#W32($90E8)
+//ダンジョンのカミサマの[NLINE]
+//おかげに決まってるじゃないですか！[END-FE]
+//Dungeon Girl\\
+Why, because the Dungeon God decided[NLINE]
+it to be so, of course![END-FE]
+
+
+
+
+
+//POINTER #243 @ $90EC - STRING #243 @ $BDBA
+#W32($90EC)
+//コリン\\
+//そ、そうなんだ…。[NLINE]
+//…ダンジョンのカミサマっていったい…。[END-FE]
+//Korin\\
+R-right...[NLINE]
+...The heck is a Dungeon God...?[END-FE]
+
+
+
+
+
+//POINTER #244 @ $90F0 - STRING #244 @ $BDF7
+#W32($90F0)
+//ユリィ\\
+//…そ、そうですか。[END-FE]
+//Yurii\\
+...I-I see.[END-FE]
+
+
+
+
+
+//POINTER #245 @ $90F4 - STRING #245 @ $BE0C
+#W32($90F4)
+//みなさん、申し訳ありませんが、[NLINE]
+//お姉ちゃんのこと、よろしくお願いします。[END-FE]
+//Dungeon Girl\\
+I'm so sorry have burdened you with[NLINE]
+this, everyone. Please bring back my[NLINE]
+sister.[END-FE]
+
+
+
+
+
+//POINTER #246 @ $90F8 - STRING #246 @ $BE57
+#W32($90F8)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #247 @ $90FC - STRING #247 @ $BE63
+#W32($90FC)
+//【ゲルバスター】[NLINE]
+//の称号を手に入れた！[END-FE]
+//System Message\\
+You obtained the title[NLINE]
+of "Slime Buster"![END-FE]
+
+
+
+
+
+//POINTER #248 @ $9100 - STRING #248 @ $BE8C
+#W32($9100)
+//ゲルバスター[END-FE]
+Slime Buster[END-FE]
+
+
+
+
+
+//POINTER #249 @ $9104 - STRING #249 @ $BE9B
+#W32($9104)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #250 @ $9108 - STRING #250 @ $BEC8
+#W32($9108)
+//コリン\\
+//…はぁ～。[NLINE]
+//前置きは良いから出てきなさいよ。[END-FE]
+//Korin\\
+...*Sigh*[NLINE]
+Yeah, yeah, nice intro. Come out already.[END-FE]
+
+
+
+
+
+//POINTER #251 @ $910C - STRING #251 @ $BEF7
+#W32($910C)
+//ユリィ\\
+//………。[END-FE]
+//Yurii\\
+...[END-FE]
+
+
+
+
+
+//POINTER #252 @ $9110 - STRING #252 @ $BF02
+#W32($9110)
+//ダンジョンレディ\\
+//フッ、フッ、フッ！[NLINE]
+//２０階まで追ってくるとはやるわね！[END-FE]
+//Dungeon Lady\\
+Heh heh heh![NLINE]
+So you followed me all the way[NLINE]
+down to the 20th floor![END-FE]
+
+
+
+
+
+//POINTER #253 @ $9114 - STRING #253 @ $BF3B
+#W32($9114)
+//ダンジョンレディ\\
+//今回は前のようにいかないんだから！[END-FE]
+//Dungeon Lady\\
+This time won't be like the last![END-FE]
+
+
+
+
+
+//POINTER #254 @ $9118 - STRING #254 @ $BF60
+#W32($9118)
+//コリン\\
+//前回は[NLINE]
+//戦いにすらならなかったからね。[END-FE]
+//Korin\\
+We didn't even fight last time.[END-FE]
+
+
+
+
+
+//POINTER #255 @ $911C - STRING #255 @ $BF89
+#W32($911C)
+//ユリィ\\
+//前回は[NLINE]
+//戦いですらありませんでしたね。[END-FE]
+//Yurii\\
+There wasn't even a fight last[NLINE]
+time.[END-FE]
+
+
+
+
+
+//POINTER #256 @ $9120 - STRING #256 @ $BFB2
+#W32($9120)
+//ダンジョンレディ\\
+//…それは、村人だし…。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//今回は戦えるもので迎え撃ちだ！[END-FE]
+//Dungeon Lady\\
+...Because of that villager...[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+This time, you'll face something[NLINE]
+that can actually fight![END-FE]
+
+
+
+
+
+//POINTER #257 @ $9124 - STRING #257 @ $BFF3
+#W32($9124)
+//コリン\\
+//やれるもんなら、やってみなさい！[END-FE]
+//Korin\\
+Bring it![END-FE]
+
+
+
+
+
+//POINTER #258 @ $9128 - STRING #258 @ $C016
+#W32($9128)
+//ユリィ\\
+//えっ！[NLINE]
+//また、戦うのですか？[END-FE]
+//Yurii\\
+What!?[NLINE]
+Another battle?[END-FE]
+
+
+
+
+
+//POINTER #259 @ $912C - STRING #259 @ $C035
+#W32($912C)
+//ダンジョンレディ\\
+//カモーン、我がしもべ！[END-FE]
+//Dungeon Lady\\
+Come forth my servant![END-FE]
+
+
+
+
+
+//POINTER #260 @ $9130 - STRING #260 @ $C04E
+#W32($9130)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #261 @ $9134 - STRING #261 @ $C07B
+#W32($9134)
+//ダンジョンレディ\\
+//ビッグゲル！[NWIN]
+//
+//ゲルの能力を数百倍にアップ！[NLINE]
+//まさに最強のゲル！[END-FE]
+//Dungeon Lady\\
+A Big Slime![NWIN]
+
+The abilities of a slime multiplied[NLINE]
+hundredfold! The ultimate slime![END-FE]
+
+
+
+
+
+//POINTER #262 @ $9138 - STRING #262 @ $C0BC
+#W32($9138)
+//コリン\\
+//で、でかい！[NWIN]
+//
+//[CH.FACE:Normal]
+//…でも、ゲルだよね。[END-FE]
+//Korin\\
+I-it's huge![NWIN]
+
+[CH.FACE:Normal]
+...But it's still a slime,[NLINE]
+though.[END-FE]
+
+
+
+
+
+//POINTER #263 @ $913C - STRING #263 @ $C0E5
+#W32($913C)
+//ユリィ\\
+//お、大きい！[NWIN]
+//
+//[CH.FACE:Normal]
+//…でも、ゲルですね。[END-FE]
+//Yurii\\
+Ah! It's enormous![NWIN]
+
+[CH.FACE:Normal]
+...However, it's still a slime.[END-FE]
+
+
+
+
+
+//POINTER #264 @ $9140 - STRING #264 @ $C10E
+#W32($9140)
+//ダンジョンレディ\\
+//へぇ？[END-FE]
+//Dungeon Lady\\
+Huh?[END-FE]
+
+
+
+
+
+//POINTER #265 @ $9144 - STRING #265 @ $C117
+#W32($9144)
+//コリン\\
+//なんだかんだ言っても、ゲル！[NLINE]
+//炎に弱いのは変わりない！[END-FE]
+//Korin\\
+A slime is still a slime![NLINE]
+It's still weak to fire![END-FE]
+
+
+
+
+
+//POINTER #266 @ $9148 - STRING #266 @ $C150
+#W32($9148)
+//ユリィ\\
+//炎の魔法をぶつければ、[NLINE]
+//効果は大だと思われます。[NLINE]
+//ゲルですから。[END-FE]
+//Yurii\\
+It's a slime, so casting a[NLINE]
+fire spell on it will be[NLINE]
+very effective.[END-FE]
+
+
+
+
+
+//POINTER #267 @ $914C - STRING #267 @ $C193
+#W32($914C)
+//ダンジョンレディ\\
+//…[CC.D80F]…[CC.D80F]…。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//げ、ゲル！[NLINE]
+//やっちゃいなさい！[END-FE]
+//Dungeon Lady\\
+...[CC.D80F]...[CC.D80F]...[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+S-Slime![NLINE]
+Go get 'em![END-FE]
+
+
+
+
+
+//POINTER #268 @ $9150 - STRING #268 @ $C1CC
+#W32($9150)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #269 @ $9154 - STRING #269 @ $C1D9
+#W32($9154)
+//ダンジョンレディ\\
+//…気のせいじゃなかったら、[NLINE]
+//普通のゲル以上に炎に弱くなってなかった？[END-FE]
+//Dungeon Lady\\
+...Was it just my imagination or was that[NLINE]
+Slime even weaker against fire than normal?[END-FE]
+
+
+
+
+
+//POINTER #270 @ $9158 - STRING #270 @ $C220
+#W32($9158)
+//コリン\\
+//気のせいじゃないと思うよ。[END-FE]
+//Korin\\
+It wasn't your imagination.[END-FE]
+
+
+
+
+
+//POINTER #271 @ $915C - STRING #271 @ $C23D
+#W32($915C)
+//ユリィ\\
+//…恐らく。[END-FE]
+//Yurii\\
+...Most likely.[END-FE]
+
+
+
+
+
+//POINTER #272 @ $9160 - STRING #272 @ $C24A
+#W32($9160)
+//ダンジョンレディ\\
+//…ビッグゲル、[NLINE]
+//ガンバってもゲルってことなのね…。[NWIN]
+//
+//[CC.AA0001]こ、今回は勝ちをゆずってあげるわ！[END-FE]
+//Dungeon Lady\\
+...Oh, Big Slime, even if you did your best,[NLINE]
+in the end, you were just a Slime...[NWIN]
+
+[CC.AA0001]V-victory is yours this time![END-FE]
+
+
+
+
+
+//POINTER #273 @ $9164 - STRING #273 @ $C2A7
+#W32($9164)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #274 @ $9168 - STRING #274 @ $C2D4
+#W32($9168)
+//コリン\\
+//くそ～！[NLINE]
+//逃げられた！[NWIN]
+//
+//ゲルの能力アップだけじゃなくて、[NLINE]
+//自分の逃げ足もアップさせたんじゃないの！[END-FE]
+//Korin\\
+Shoot![NLINE]
+She ran![NWIN]
+
+Seems like she not only boosted that[NLINE]
+Slime, but her escape ability, too![END-FE]
+
+
+
+
+
+//POINTER #275 @ $916C - STRING #275 @ $C339
+#W32($916C)
+//ユリィ\\
+//あ！[NLINE]
+//逃げてしまいました！[END-FE]
+//Yurii\\
+Aah![NLINE]
+She ran away![END-FE]
+
+
+
+
+
+//POINTER #276 @ $9170 - STRING #276 @ $C356
+#W32($9170)
+//みなさん、ご無事ですか？[END-FE]
+//Dungeon Girl\\
+Are you alright, everyone?[END-FE]
+
+
+
+
+
+//POINTER #277 @ $9174 - STRING #277 @ $C371
+#W32($9174)
+//コリン\\
+//おっと、[NLINE]
+//妹さんだ。[NWIN]
+//
+//[CH.FACE:Angry]
+//無事だけど、また逃げられた！[END-FE]
+//Korin\\
+Ah, the little sister.[NWIN]
+
+[CH.FACE:Angry]
+We're safe, but she ran away again![END-FE]
+
+
+
+
+
+//POINTER #278 @ $9178 - STRING #278 @ $C3AA
+#W32($9178)
+//ユリィ\\
+//あっ、[NLINE]
+//妹さんの声が。[NWIN]
+//
+//[CH.FACE:Sad]
+//無事ですが、お姉さんは…。[END-FE]
+//Yurii\\
+Ah, the voice of the little sister.[NWIN]
+
+[CH.FACE:Sad]
+We're safe, but your sister...[END-FE]
+
+
+
+
+
+//POINTER #279 @ $917C - STRING #279 @ $C3E3
+#W32($917C)
+//そこから下の方に、[NLINE]
+//お姉ちゃんの気配が消えていきました。[NWIN]
+//
+//もっと下へ降りたのだと…。[END-FE]
+Her presence has disappeared...[NWIN]
+
+I think she went further down...[END-FE]
+
+
+
+
+
+//POINTER #280 @ $9180 - STRING #280 @ $C43A
+#W32($9180)
+//コリン\\
+//更に下…。[END-FE]
+//Korin\\
+Further down...[END-FE]
+
+
+
+
+
+//POINTER #281 @ $9184 - STRING #281 @ $C447
+#W32($9184)
+//ユリィ\\
+//更に下ですか…。[END-FE]
+//Yurii\\
+Further down...?[END-FE]
+
+
+
+
+
+//POINTER #282 @ $9188 - STRING #282 @ $C45A
+#W32($9188)
+//……ご迷惑をおかけして、[NLINE]
+//申し訳ありません。[NWIN]
+//
+//あの～、２０階と地上を繋ぎましたので、[NLINE]
+//戻るさいは、右側のハシゴをお使いください。[END-FE]
+...Once again, I'm so sorry for troubling[NLINE]
+you with this.[NWIN]
+
+Um, the surface and the 20th floor are now[NLINE]
+connected. Please use the ladder on the right[NLINE]
+if you would like to return.[END-FE]
+
+
+
+
+
+//POINTER #283 @ $918C - STRING #283 @ $C4DD
+#W32($918C)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #284 @ $9190 - STRING #284 @ $C4E9
+#W32($9190)
+//【オレ様バスター】[NLINE]
+//の称号を手に入れた！[END-FE]
+You received the title[NLINE]
+of "Bachtamania Buster"![END-FE]
+
+
+
+
+
+//POINTER #285 @ $9194 - STRING #285 @ $C514
+#W32($9194)
+//オレ様バスター[END-FE]
+Bachtamania Buster[END-FE]
+
+
+
+
+
+//POINTER #286 @ $9198 - STRING #286 @ $C525
+#W32($9198)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #287 @ $919C - STRING #287 @ $C552
+#W32($919C)
+//コリン\\
+//来たわね！[NLINE]
+//今度こそ、終わりにしてやる！[END-FE]
+//Korin\\
+She's coming![NLINE]
+This time's going to be the end![END-FE]
+
+
+
+
+
+//POINTER #288 @ $91A0 - STRING #288 @ $C57D
+#W32($91A0)
+//ユリィ\\
+//パターン化して来ましたね…。[END-FE]
+//Yurii\\
+There she comes, predictable as[NLINE]
+always...[END-FE]
+
+
+
+
+
+//POINTER #289 @ $91A4 - STRING #289 @ $C59C
+#W32($91A4)
+//ダンジョンレディ\\
+//くっ、青い悪魔め！[NLINE]
+//調子に乗って！[END-FE]
+//Dungeon Lady\\
+Shut your trap, blue harpy![NLINE]
+Don't get cocky![END-FE]
+
+
+
+
+
+//POINTER #290 @ $91A8 - STRING #290 @ $C5C1
+#W32($91A8)
+//コリン\\
+//ムカッ！[NWIN]
+//
+//[CH.FACE:Laughing]
+//まあ、調子にも乗っちゃうでしょう。[NWIN]
+//
+//戦えない村人に弱点を増幅したゲル。[NLINE]
+//こんなへっぽこなのが相手じゃ、[NLINE]
+//勝負にならないし。[END-FE]
+//Korin\\
+Hnng! You're ticking me off![NWIN]
+
+[CH.FACE:Laughing]
+Anyway, I'm not cocky at all.[NWIN]
+
+First a villager who can't fight.[NLINE]
+Then a Slime who's extremely weak[NLINE]
+against fire. A hack like you is[NLINE]
+no match for the likes of us![END-FE]
+
+
+
+
+
+//POINTER #291 @ $91AC - STRING #291 @ $C64C
+#W32($91AC)
+//ダンジョンレディ\\
+//…、パターン化とか言うな！[NLINE]
+//芸風がほとんどない人間に聞こえるじゃないか！[END-FE]
+//Dungeon Lady\\
+...Don't call me predictable![NLINE]
+You make me sound like someone[NLINE]
+without any style![END-FE]
+
+
+
+
+
+//POINTER #292 @ $91B0 - STRING #292 @ $C697
+#W32($91B0)
+//ユリィ\\
+//………。[END-FE]
+//Yurii\\
+...[END-FE]
+
+
+
+
+
+//POINTER #293 @ $91B4 - STRING #293 @ $C6A2
+#W32($91B4)
+//ダンジョンレディ\\
+//うわ～、その通りと言わんばかりの沈黙。[NLINE]
+//こんちくしょう！[END-FE]
+//Dungeon Lady\\
+Wow! Your silence says enough![END-FE]
+
+
+
+
+
+//POINTER #294 @ $91B8 - STRING #294 @ $C6DD
+#W32($91B8)
+//ユリィ\\
+//べ、別にそんな事は…。[END-FE]
+//Yurii\\
+T-that's not it...[END-FE]
+
+
+
+
+
+//POINTER #295 @ $91BC - STRING #295 @ $C6F6
+#W32($91BC)
+//ダンジョンレディ\\
+//だから、押し黙るな！[END-FE]
+//Dungeon Lady\\
+Yes, it was! Just admit it![END-FE]
+
+
+
+
+
+//POINTER #296 @ $91C0 - STRING #296 @ $C70D
+#W32($91C0)
+//ダンジョンレディ\\
+//……フッ、さすがは、我が天敵の妖精。[NLINE]
+//危うくペースに乗せられるところだったわ。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//今度こそ、君たちの最期だ！[END-FE]
+//Dungeon Lady\\
+...Hmmpf, how typical of a fairy.[NLINE]
+You almost had me fooled.[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+This will be the end for you![END-FE]
+
+
+
+
+
+//POINTER #297 @ $91C4 - STRING #297 @ $C782
+#W32($91C4)
+//ユリィ\\
+//戦えない人、弱点を増幅したゲル。[NLINE]
+//その次ですか…。[END-FE]
+//Yurii\\
+First a person who couldn't fight,[NLINE]
+then a Slime which was extremely[NLINE]
+weak to fire. What will be next...?[END-FE]
+
+
+
+
+
+//POINTER #298 @ $91C8 - STRING #298 @ $C7B7
+#W32($91C8)
+//ダンジョンレディ\\
+//いちいちつっこむな！[NLINE]
+//しかも同情的な表情で！[END-FE]
+//Dungeon Lady\\
+Stop being such a busybody all the[NLINE]
+time! And take that sympathetic[NLINE]
+look of your face![END-FE]
+
+
+
+
+
+//POINTER #299 @ $91CC - STRING #299 @ $C7E6
+#W32($91CC)
+//ダンジョンレディ\\
+//…私を本気にさせるとどうなるか、[NLINE]
+//思い知らせてあげるわ！[END-FE]
+//Dungeon Lady\\
+...I'll show you what happens[NLINE]
+when I get serious![END-FE]
+
+
+
+
+
+//POINTER #300 @ $91D0 - STRING #300 @ $C821
+#W32($91D0)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #301 @ $91D4 - STRING #301 @ $C84E
+#W32($91D4)
+//バクター\\
+//オレ様に倒して欲しいっていうのは、[NLINE]
+//どいつだ！[END-FE]
+//Bachter\\
+Who ya want Bachtamania to run wild on!?[END-FE]
+
+
+
+
+
+//POINTER #302 @ $91D8 - STRING #302 @ $C87F
+#W32($91D8)
+//コリン\\
+//……バクター？[END-FE]
+//Korin\\
+...Bachter?[END-FE]
+
+
+
+
+
+//POINTER #303 @ $91DC - STRING #303 @ $C890
+#W32($91DC)
+//ユリィ\\
+//…確か、グランゲイル軍のバクター隊長？[END-FE]
+//Yurii\\
+...Is that Captain Bachter of the[NLINE]
+Grangalian army?[END-FE]
+
+
+
+
+
+//POINTER #304 @ $91E0 - STRING #304 @ $C8B9
+#W32($91E0)
+//ダンジョンレディ\\
+//隊長！[NLINE]
+//目の前のヤツらです！[END-FE]
+//Dungeon Lady\\
+Those guys in front of us, Captain![END-FE]
+
+
+
+
+
+//POINTER #305 @ $91E4 - STRING #305 @ $C8D8
+#W32($91E4)
+//バクター\\
+//テメェらか！[NLINE]
+//オレ様の部下に手を出したのは！[END-FE]
+//Bachter\\
+Punks![NLINE]
+You've been messin' with Bachtamania's[NLINE]
+subordinate![END-FE]
+
+
+
+
+
+//POINTER #306 @ $91E8 - STRING #306 @ $C907
+#W32($91E8)
+//コリン\\
+//部下～!?[NLINE]
+//[CH.FACE:Sad]
+//…なんだか、[NLINE]
+//手段を選ばなくなってきたな。[END-FE]
+//Korin\\
+Subordinate!?[NLINE]
+[CH.FACE:Sad]
+...Seems like she's willing to[NLINE]
+use any trick in the book.[END-FE]
+
+
+
+
+
+//POINTER #307 @ $91EC - STRING #307 @ $C942
+#W32($91EC)
+//ユリィ\\
+//………。[END-FE]
+//Yurii\\
+...[END-FE]
+
+
+
+
+
+//POINTER #308 @ $91F0 - STRING #308 @ $C94D
+#W32($91F0)
+//バクター\\
+//オレ様の部下を可愛がってくれたみたいだな。[NLINE]
+//後悔させてやるぜ！[END-FE]
+//Bachter\\
+Seems like you've been messin' with[NLINE]
+my subordinate. Bachtamania's gonna[NLINE]
+you regret that![END-FE]
+
+
+
+
+
+//POINTER #309 @ $91F4 - STRING #309 @ $C98E
+#W32($91F4)
+//ダンジョンレディ\\
+//隊長、お願いします！[END-FE]
+//Dungeon Lady\\
+Beat them up, Captain![END-FE]
+
+
+
+
+
+//POINTER #310 @ $91F8 - STRING #310 @ $C9A5
+#W32($91F8)
+//コリン\\
+//なにが、『隊長、お願いします！』だ！[NLINE]
+//みんな、返り討ちよ！[END-FE]
+//Korin\\
+You wish![NLINE]
+Let's get him![END-FE]
+
+
+
+
+
+//POINTER #311 @ $91FC - STRING #311 @ $C9E2
+#W32($91FC)
+//ユリィ\\
+//…私、このダンジョンに入ってから、[NLINE]
+//状況についていけてない気がします。[NWIN]
+//
+//…正気で潜ってはいけない[NLINE]
+//代物だったのでしょうか…。[END-FE]
+//Yurii\\
+...I feel like I haven't been able[NLINE]
+to keep up with the situation ever[NLINE]
+since I entered this dungeon.[NWIN]
+
+...Perhaps I shouldn't have gone in[NLINE]
+with a sane mind...[END-FE]
+
+
+
+
+
+//POINTER #312 @ $9200 - STRING #312 @ $CA61
+#W32($9200)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #313 @ $9204 - STRING #313 @ $CA6E
+#W32($9204)
+//バクター\\
+//つ、強ぇ！[NWIN]
+//
+//なんだ、コイツらの実力は！[END-FE]
+//Bachter\\
+N-no way![NWIN]
+
+These punks are strong![END-FE]
+
+
+
+
+
+//POINTER #314 @ $9208 - STRING #314 @ $CA97
+#W32($9208)
+//ダンジョンレディ\\
+//あ、隊長！[NWIN]
+//
+//[CH.FACE:Laughing][CC.AA0001]
+//……こうなったら！[END-FE]
+//Dungeon Lady\\
+Ah! Captain![NWIN]
+
+[CH.FACE:Laughing][CC.AA0001]
+...So it has come to this![END-FE]
+
+
+
+
+
+//POINTER #315 @ $920C - STRING #315 @ $CAC0
+#W32($920C)
+//コリン\\
+//ちょっ、待ちなさい！[END-FE]
+//Korin\\
+Hold on![END-FE]
+
+
+
+
+
+//POINTER #316 @ $9210 - STRING #316 @ $CAD7
+#W32($9210)
+//ユリィ\\
+//悪い予感が…。[END-FE]
+//Yurii\\
+I have a bad feeling...[END-FE]
+
+
+
+
+
+//POINTER #317 @ $9214 - STRING #317 @ $CAE8
+#W32($9214)
+//バクター\\
+//こ、これは！[END-FE]
+//Bachter\\
+What's goin' on!?[END-FE]
+
+
+
+
+
+//POINTER #318 @ $9218 - STRING #318 @ $CAF7
+#W32($9218)
+//ダンジョンレディ\\
+//一度撃破されても、[NLINE]
+//巨大化して復活！[NLINE]
+//燃える展開だ！[END-FE]
+//Dungeon Lady\\
+He got defeated, but I restored[NLINE]
+him and turned him into a giant![NLINE]
+This is going to be interesting![END-FE]
+
+
+
+
+
+//POINTER #319 @ $921C - STRING #319 @ $CB2E
+#W32($921C)
+//バクター[END-FF]
+//なんだか知らんが、[NLINE]
+//この巨体なら勝てるぜ！[END-FE]
+//Bachter[END-FF]
+I don't know what's goin' on,[NLINE]
+but there's no way Bachtamania's[NLINE]
+gonna lose now that he's a giant![END-FE]
+
+
+
+
+
+//POINTER #320 @ $9220 - STRING #320 @ $CB5B
+#W32($9220)
+//………。[NWIN]
+//
+//[CH.FACE:Laughing]
+//勝ったね。[END-FE]
+...[NWIN]
+
+[CH.FACE:Laughing]
+We won.[END-FE]
+
+
+
+
+
+//POINTER #321 @ $9224 - STRING #321 @ $CB76
+#W32($9224)
+//ダンジョンレディ\\
+//な、なんで！[END-FE]
+//Dungeon Lady\\
+N-nuh-uh![END-FE]
+
+
+
+
+
+//POINTER #322 @ $9228 - STRING #322 @ $CB85
+#W32($9228)
+//コリン\\
+//なんでじゃない！[NLINE]
+//一度敗れて、巨大化して復活！[NLINE]
+//それは敗北者の展開！[NWIN]
+//
+//この展開になったら、[NLINE]
+//どうあがいてもそっちは勝てないのよ！[END-FE]
+//Korin\\
+Yuh-uh![NLINE]
+He got defeated and you restored[NLINE]
+him and made him a giant! That's[NLINE]
+what losers do![NWIN]
+
+If you do that, you can't win anymore,[NLINE]
+no matter what![END-FE]
+
+
+
+
+
+//POINTER #323 @ $922C - STRING #323 @ $CC08
+#W32($922C)
+//ダンジョンレディ\\
+//こ、根拠はわからないけど、[NLINE]
+//自信にあふれている！[NLINE]
+//ま、負けないで、バクター隊長！[END-FE]
+//Dungeon Lady\\
+I-I don't know what you're[NLINE]
+talking about! D-don't lose[NLINE]
+to them, Captain Bachter![END-FE]
+
+
+
+
+
+//POINTER #324 @ $9230 - STRING #324 @ $CC5B
+#W32($9230)
+//ユリィ\\
+//燃えるかどうかはともかく、[NLINE]
+//そのパターンは、負ける者の展開では。[END-FE]
+//Yurii\\
+Interesting or not, it doesn't change[NLINE]
+the fact that you've lost.[END-FE]
+
+
+
+
+
+//POINTER #325 @ $9234 - STRING #325 @ $CC9E
+#W32($9234)
+//ダンジョンレディ\\
+//り、理屈はわからないんだけど、[NLINE]
+//そんな気がする…。[NWIN]
+//
+//[CC.BE0008]
+//ま、負けないで、バクター隊長！[END-FE]
+//Dungeon Lady\\
+I-I don't know what you're[NLINE]
+talking about![NWIN]
+
+[CC.BE0008]
+D-don't lose to them, Captain Bachter![END-FE]
+
+
+
+
+
+//POINTER #326 @ $9238 - STRING #326 @ $CCF7
+#W32($9238)
+//バクター\\
+//この巨体だ。[NLINE]
+//そうそう負けるかよ！[END-FE]
+//Bachter\\
+This giant ain't gonna lose![END-FE]
+
+
+
+
+
+//POINTER #327 @ $923C - STRING #327 @ $CD1C
+#W32($923C)
+//バクター\\
+//な、なんで、このオレ様が！[NLINE]
+//これだけ巨大な体になったのに！[END-FE]
+//Bachter\\
+H-how could Bachtamania still lose after[NLINE]
+becoming a giant!?[END-FE]
+
+
+
+
+
+//POINTER #328 @ $9240 - STRING #328 @ $CD59
+#W32($9240)
+//ダンジョンレディ\\
+//………。[END-FE]
+//Dungeon Lady\\
+...[END-FE]
+
+
+
+
+
+//POINTER #329 @ $9244 - STRING #329 @ $CD64
+#W32($9244)
+//ダンジョンレディ\\
+//し、しまった！[NLINE]
+//巨大化はしたけど、[NLINE]
+//能力はそのままだった！[END-FE]
+//Dungeon Lady\\
+S-shoot![NLINE]
+Even though I turned him into a[NLINE]
+giant, his abilities remained the[NLINE]
+same![END-FE]
+
+
+
+
+
+//POINTER #330 @ $9248 - STRING #330 @ $CDA1
+#W32($9248)
+//バクター\\
+//…お前なんか、オレ様の部下じゃねぇ。[END-FE]
+//Bachter\\
+...You ain't this champ's subordinate![END-FE]
+
+
+
+
+
+//POINTER #331 @ $924C - STRING #331 @ $CDC8
+#W32($924C)
+//ダンジョンレディ\\
+//え？[NLINE]
+//た、隊長！[END-FE]
+//Dungeon Lady\\
+Huh?[NLINE]
+C-captain![END-FE]
+
+
+
+
+
+//POINTER #332 @ $9250 - STRING #332 @ $CDDB
+#W32($9250)
+//バクター\\
+//オレ様は帰るぞ。[END-FE]
+//Bachter\\
+Bachtamania's headin' back.[END-FE]
+
+
+
+
+
+//POINTER #333 @ $9254 - STRING #333 @ $CDEE
+#W32($9254)
+//ダンジョンレディ\\
+//帰るって？[NLINE]
+//た、隊長見捨てないで！[END-FE]
+//Dungeon Lady\\
+Heading back?[NLINE]
+D-don't leave me, Captain![END-FE]
+
+
+
+
+
+//POINTER #334 @ $9258 - STRING #334 @ $CE13
+#W32($9258)
+//ダンジョンレディ\\
+//フッ、フフッ…。[END-FE]
+//Dungeon Lady\\
+Heh heh he...[END-FE]
+
+
+
+
+
+//POINTER #335 @ $925C - STRING #335 @ $CE26
+#W32($925C)
+//ダンジョンレディ\\
+//そ、そうだったのね。[NLINE]
+//敗れてからの巨大化は、[NLINE]
+//敵役の必須条件…。[NWIN]
+//
+//[CC.BE0008]
+//これでは勝てるものも勝てないワケだ。[END-FE]
+//Dungeon Lady\\
+T-that's right.[NLINE]
+Growing big after being defeated[NLINE]
+is an essential trope of bad[NLINE]
+guys...[NWIN]
+
+[CC.BE0008]
+And bad guys always lose.[END-FE]
+
+
+
+
+
+//POINTER #336 @ $9260 - STRING #336 @ $CE93
+#W32($9260)
+//ダンジョンレディ\\
+//うしっ！[NLINE]
+//次に活かすぞ！[END-FE]
+//Dungeon Lady\\
+Alright![NLINE]
+I won't make the same mistake[NLINE]
+next time![END-FE]
+
+
+
+
+
+//POINTER #337 @ $9264 - STRING #337 @ $CEAE
+#W32($9264)
+//コリン\\
+//こりてないどころか、[NLINE]
+//妙な反省してるし…。[NWIN]
+//
+//[CH.FACE:Angry]
+//って、逃がすか！[END-FE]
+//Korin\\
+It doesn't seem like she has lost[NLINE]
+her motivation. Actually, it's more[NLINE]
+like she's doubling down on her weird[NLINE]
+logic...[NWIN]
+
+[CH.FACE:Angry]
+We won't let you get away![END-FE]
+
+
+
+
+
+//POINTER #338 @ $9268 - STRING #338 @ $CEF1
+#W32($9268)
+//ユリィ\\
+//周りに迷惑をかけなければ、[NLINE]
+//前向きで素晴らしいことなのですが…。[NWIN]
+//
+//[CH.FACE:Serious]
+//それよりも、[NLINE]
+//いい加減にして、[NLINE]
+//妹さんのところへ帰りましょう！[END-FE]
+//Yurii\\
+It would be nice if you didn't cause[NLINE]
+trouble to the people around you...[NWIN]
+
+[CH.FACE:Serious]
+But that aside, please stop this[NLINE]
+foolishness and come back with us[NLINE]
+to your sister![END-FE]
+
+
+
+
+
+//POINTER #339 @ $926C - STRING #339 @ $CF78
+#W32($926C)
+//ダンジョンレディ\\
+//これぐらいで勝った気で[NLINE]
+//いてもらっては困るね。[END-FE]
+//Dungeon Lady\\
+Hah! Don't think you've already[NLINE]
+won.[END-FE]
+
+
+
+
+
+//POINTER #340 @ $9270 - STRING #340 @ $CFA9
+#W32($9270)
+//ダンジョンレディ\\
+//捕まえれるものなら、[NLINE]
+//捕まえてごらん！[END-FE]
+//Dungeon Lady\\
+Catch me if you can![END-FE]
+
+
+
+
+
+//POINTER #341 @ $9274 - STRING #341 @ $CFD2
+#W32($9274)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #342 @ $9278 - STRING #342 @ $CFFF
+#W32($9278)
+//コリン\\
+//また、逃がしたか。[END-FE]
+//Korin\\
+She ran away again.[END-FE]
+
+
+
+
+
+//POINTER #343 @ $927C - STRING #343 @ $D014
+#W32($927C)
+//ユリィ\\
+//…逃がしてしまったようです。[END-FE]
+//Yurii\\
+...It seems she ran away again.[END-FE]
+
+
+
+
+
+//POINTER #344 @ $9280 - STRING #344 @ $D033
+#W32($9280)
+//みなさん、聞こえますか？[END-FE]
+Can you hear me, everyone?[END-FE]
+
+
+
+
+
+//POINTER #345 @ $9284 - STRING #345 @ $D04E
+#W32($9284)
+//コリン\\
+//うん、聞こえるよ。[END-FE]
+//Korin\\
+Yeah, we can hear you.[END-FE]
+
+
+
+
+
+//POINTER #346 @ $9288 - STRING #346 @ $D063
+#W32($9288)
+//ユリィ\\
+//はい、聞こえます。[END-FE]
+//Yurii\\
+Yes, we can hear you.[END-FE]
+
+
+
+
+
+//POINTER #347 @ $928C - STRING #347 @ $D078
+#W32($928C)
+//現状はどうですか？[END-FE]
+How are things?[END-FE]
+
+
+
+
+
+//POINTER #348 @ $9290 - STRING #348 @ $D08D
+#W32($9290)
+//コリン\\
+//追っかけ中。[NLINE]
+//たぶんまた下に逃げたと思う。[END-FE]
+//Korin\\
+We're still chasing her.[NLINE]
+She probbably fled to a lower[NLINE]
+floor again.[END-FE]
+
+
+
+
+
+//POINTER #349 @ $9294 - STRING #349 @ $D0BA
+#W32($9294)
+//ユリィ\\
+//追跡中です。[NLINE]
+//下の方へ行ったかと。[END-FE]
+//Yurii\\
+We're still pursuing her.[NLINE]
+We think she went down.[END-FE]
+
+
+
+
+
+//POINTER #350 @ $9298 - STRING #350 @ $D0DF
+#W32($9298)
+//とりあえず、そこと地上を繋ぎましたので、[NLINE]
+//戻る時は右のハシゴから上ってください。[END-FE]
+Anyway, I connencted the surface to[NLINE]
+where you are. If you want to go back,[NLINE]
+use the ladder on the right.[END-FE]
+
+
+
+
+
+//POINTER #351 @ $929C - STRING #351 @ $D132
+#W32($929C)
+//コリン\\
+//了解。[END-FE]
+//Korin\\
+Okay.[END-FE]
+
+
+
+
+
+//POINTER #352 @ $92A0 - STRING #352 @ $D13B
+#W32($92A0)
+//ユリィ\\
+//わかりました。[END-FE]
+//Yurii\\
+Understood.[END-FE]
+
+
+
+
+
+//POINTER #353 @ $92A4 - STRING #353 @ $D14C
+#W32($92A4)
+//地下[CC.EF00]Ｆ[END-FE]
+B[CC.EF00]F[END-FE]
+
+
+
+
+
+//POINTER #354 @ $92A8 - STRING #354 @ $D158
+#W32($92A8)
+//【ガーディアンバスター】[NLINE]
+//の称号を手に入れた！[END-FE]
+You obtained the title[NLINE]
+of "Guardian Buster"![END-FE]
+
+
+
+
+
+//POINTER #355 @ $92AC - STRING #355 @ $D189
+#W32($92AC)
+//ガーディアンバスター[END-FE]
+Guardian Buster[END-FE]
+
+
+
+
+
+//POINTER #356 @ $92B0 - STRING #356 @ $D1A0
+#W32($92B0)
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #357 @ $92B4 - STRING #357 @ $D1CD
+#W32($92B4)
+//コリン\\
+//みんな！[NLINE]
+//気合入れて、今度こそ終わらせるわよ！[END-FE]
+//Korin\\
+Everyone![NLINE]
+Let's roll up our sleeves and[NLINE]
+end this![END-FE]
+
+
+
+
+
+//POINTER #358 @ $92B8 - STRING #358 @ $D1FE
+#W32($92B8)
+//ユリィ\\
+//みなさん！[NLINE]
+//ここで終わらせましょう！[END-FE]
+//Yurii\\
+Everyone![NLINE]
+Let's end this here![END-FE]
+
+
+
+
+
+//POINTER #359 @ $92BC - STRING #359 @ $D225
+#W32($92BC)
+//ダンジョンレディ\\
+//ず、ずいぶんと気合が[NLINE]
+//入っているじゃない…。[NWIN]
+//
+//[CH.FACE:Angry][CC.AA0000]
+//べ、別に怖くないもんね！[END-FE]
+//Dungeon Lady\\
+L-like hell you will...[NWIN]
+
+[CH.FACE:Angry][CC.AA0000]
+I-I'm not afraid of you![END-FE]
+
+
+
+
+
+//POINTER #360 @ $92C0 - STRING #360 @ $D276
+#W32($92C0)
+//コリン\\
+//ふ～ん、じゃあ、どうしてくれようかな。[END-FE]
+//Korin\\
+Hmmm, whatever shall I do with you?[END-FE]
+
+
+
+
+
+//POINTER #361 @ $92C4 - STRING #361 @ $D29F
+#W32($92C4)
+//ダンジョンレディ\\
+//…ま、負けない！[END-FE]
+//Dungeon Lady\\
+...I-I won't lose![END-FE]
+
+
+
+
+
+//POINTER #362 @ $92C8 - STRING #362 @ $D2B2
+#W32($92C8)
+//ユリィ\\
+//そろそろ、お遊びは終わりにしましょう。[END-FE]
+//Yurii\\
+Stop playing games.[END-FE]
+
+
+
+
+
+//POINTER #363 @ $92CC - STRING #363 @ $D2DB
+#W32($92CC)
+//ダンジョンレディ\\
+//あ、遊びじゃないやい！[NLINE]
+//私は真剣なんだ！[END-FE]
+//Dungeon Lady\\
+I'm not playing games![NLINE]
+I'm super-duper serious![END-FE]
+
+
+
+
+
+//POINTER #364 @ $92D0 - STRING #364 @ $D306
+#W32($92D0)
+//ダンジョンレディ\\
+//このダンジョンを最高最強と[NLINE]
+//認めさせるんだ！[NWIN]
+//
+//出でよ！[NLINE]
+//ダンジョンを守る守護神よ！[END-FE]
+//Dungeon Lady\\
+I'll make you acknowledge that[NLINE]
+this is the ultimate dungeon![NWIN]
+
+Oh, Divine Protector of this dungeon![NLINE]
+Heed my call![END-FE]
+
+
+
+
+
+//POINTER #365 @ $92D4 - STRING #365 @ $D35B
+#W32($92D4)
+//コリン\\
+//そんな大げさなこと言っても、[NLINE]
+//出てくるものなんて。[END-FE]
+//Korin\\
+I doubt it'll be as fearsome[NLINE]
+as you make it sound.[END-FE]
+
+
+
+
+
+//POINTER #366 @ $92D8 - STRING #366 @ $D390
+#W32($92D8)
+//ユリィ\\
+//なにやら凄そうな感じがしますが、[NLINE]
+//これまでを考えれば…。[END-FE]
+//Yurii\\
+It sounds very formidable, but[NLINE]
+considering her track record...[END-FE]
+
+
+
+
+
+//POINTER #367 @ $92DC - STRING #367 @ $D3CB
+#W32($92DC)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #368 @ $92E0 - STRING #368 @ $D3F8
+#W32($92E0)
+//コリン\\
+//ま、まともだ！[END-FE]
+//Korin\\
+S-she actually put out[NLINE]
+something decent![END-FE]
+
+
+
+
+
+//POINTER #369 @ $92E4 - STRING #369 @ $D409
+#W32($92E4)
+//ユリィ\\
+//ま、まともです！[END-FE]
+//Yurii\\
+S-she actually conjured[NLINE]
+something decent![END-FE]
+
+
+
+
+
+//POINTER #370 @ $92E8 - STRING #370 @ $D41C
+#W32($92E8)
+//ダンジョンレディ\\
+//…や、やった！[NLINE]
+//やったよ！[NWIN]
+//
+//[CC.AA0000]ダンジョンのボスみたいなのが[NLINE]
+//出てきたよ！[END-FE]
+//Dungeon Lady\\
+...I-I did it![NLINE]
+I did it![NWIN]
+
+[CC.AA0000]I finally summoned something[NLINE]
+that's like a dungeon boss![END-FE]
+
+
+
+
+
+//POINTER #371 @ $92EC - STRING #371 @ $D469
+#W32($92EC)
+//コリン\\
+//ウソみたい…。[END-FE]
+//Korin\\
+No way...[END-FE]
+
+
+
+
+
+//POINTER #372 @ $92F0 - STRING #372 @ $D47A
+#W32($92F0)
+//ユリィ\\
+//嘘みたいです…。[END-FE]
+//Yurii\\
+I can't believe it...[END-FE]
+
+
+
+
+
+//POINTER #373 @ $92F4 - STRING #373 @ $D48D
+#W32($92F4)
+//ダンジョンレディ\\
+//まじめな顔して、驚くな！[NWIN]
+//
+//ガーディアン！[NLINE]
+//この失礼なヤツらをとっちめろ！[END-FE]
+//Dungeon Lady\\
+Don't act all surpised![NWIN]
+
+Guardian![NLINE]
+Get rid of these boors![END-FE]
+
+
+
+
+
+//POINTER #374 @ $92F8 - STRING #374 @ $D4D8
+#W32($92F8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #375 @ $92FC - STRING #375 @ $D4E5
+#W32($92FC)
+//ダンジョンレディ\\
+//う、ウソ！[NLINE]
+//私のガーディアンが、妖精軍団なんかに！[END-FE]
+//Dungeon Lady\\
+N-no way![NLINE]
+My guardian defeated by that fairy's[NLINE]
+gang![END-FE]
+
+
+
+
+
+//POINTER #376 @ $9300 - STRING #376 @ $D51A
+#W32($9300)
+//コリン\\
+//なんかで悪かったわね！[END-FE]
+//Korin\\
+Sorry about that![END-FE]
+
+
+
+
+
+//POINTER #377 @ $9304 - STRING #377 @ $D533
+#W32($9304)
+//ユリィ\\
+//よ、妖精軍団って…。[END-FE]
+//Yurii\\
+T-that fairy's gang...?[END-FE]
+
+
+
+
+
+//POINTER #378 @ $9308 - STRING #378 @ $D54A
+#W32($9308)
+//ダンジョンレディ\\
+//この杖を以ってしても、[NLINE]
+//負けてしまうの…？[END-FE]
+//Dungeon Lady\\
+Even with this rod, I lost...?[END-FE]
+
+
+
+
+
+//POINTER #379 @ $930C - STRING #379 @ $D577
+#W32($930C)
+//コリン\\
+//め、めずらしく落ち込んでるよ。[END-FE]
+//Korin\\
+S-she looks unusually depressed...[END-FE]
+
+
+
+
+
+//POINTER #380 @ $9310 - STRING #380 @ $D598
+#W32($9310)
+//ユリィ\\
+//ずいぶん落ち込んでしまった[NLINE]
+//みたいですね…。[END-FE]
+//Yurii\\
+She looks pretty depressed...[END-FE]
+
+
+
+
+
+//POINTER #381 @ $9314 - STRING #381 @ $D5C7
+#W32($9314)
+//ダンジョンレディ\\
+//覚えてろ、覚えてろ！[NLINE]
+//次だ！[NLINE]
+//次こそは！[END-FE]
+//Dungeon Lady\\
+Game on, fairy. Game on![NLINE]
+Next time![NLINE]
+Next time for sure![END-FE]
+
+
+
+
+
+//POINTER #382 @ $9318 - STRING #382 @ $D5F2
+#W32($9318)
+//ダンジョンレディ\\
+//…ムニャムニャムニャリの[NLINE]
+//パッチョッチョ！[END-FE]
+//Dungeon Lady\\
+...Presto Cartographo![END-FE]
+
+
+
+
+
+//POINTER #383 @ $931C - STRING #383 @ $D61F
+#W32($931C)
+//コリン\\
+//………。[NWIN]
+//
+//少しでも可哀相かなって[NLINE]
+//思うんじゃなかった！[END-FE]
+//Korin\\
+...[NWIN]
+
+I didn't feel the least bit[NLINE]
+sorry for her![END-FE]
+
+
+
+
+
+//POINTER #384 @ $9320 - STRING #384 @ $D658
+#W32($9320)
+//ユリィ\\
+//に、逃げられた！[NWIN]
+//
+//油断しました。[END-FE]
+//Yurii\\
+S-she ran![NWIN]
+
+We let our guard down.[END-FE]
+
+
+
+
+
+//POINTER #385 @ $9324 - STRING #385 @ $D67B
+#W32($9324)
+//みなさん、生きていますか？[END-FE]
+Are you alive, everyone?[END-FE]
+
+
+
+
+
+//POINTER #386 @ $9328 - STRING #386 @ $D698
+#W32($9328)
+//コリン\\
+//生きてるよ。[NLINE]
+//捕まえられなかったけど…。[END-FE]
+//Korin\\
+We're alive.[NLINE]
+We didn't catch her, though...[END-FE]
+
+
+
+
+
+//POINTER #387 @ $932C - STRING #387 @ $D6C3
+#W32($932C)
+//ユリィ\\
+//生きています。[NLINE]
+//ですが、捕まえられませんでした。[END-FE]
+//Yurii\\
+We're alive.[NLINE]
+However, we were unable to catch her.[END-FE]
+
+
+
+
+
+//POINTER #388 @ $9330 - STRING #388 @ $D6F6
+#W32($9330)
+//…お姉ちゃんが迷惑をかけて[NLINE]
+//すみません。[END-FE]
+...I'm sorry for the trouble that[NLINE]
+my sister is causing you.[END-FE]
+
+
+
+
+
+//POINTER #389 @ $9334 - STRING #389 @ $D721
+#W32($9334)
+//コリン\\
+//妹さんがあやまることじゃないよ。[NWIN]
+//
+//[CH.FACE:Angry]
+//頭を下げさすのは、[NLINE]
+//あの姉だ！[END-FE]
+//Korin\\
+You don't have to apologize.[NWIN]
+
+[CH.FACE:Angry]
+The one who should is that sister[NLINE]
+of yours![END-FE]
+
+
+
+
+
+//POINTER #390 @ $9338 - STRING #390 @ $D768
+#W32($9338)
+//ユリィ\\
+//妹さんが謝ることではありません。[NWIN]
+//
+//[CH.FACE:Angry]
+//…お姉さんには、謝らせますけど。[END-FE]
+//Yurii\\
+You need for you to apologize.[NWIN]
+
+[CH.FACE:Angry]
+...She one who should is your sister.[END-FE]
+
+
+
+
+
+//POINTER #391 @ $933C - STRING #391 @ $D7B1
+#W32($933C)
+//…あ、あははは…。[NWIN]
+//
+//みなさん、そこと地上を繋ぎましたので、[NLINE]
+//右のハシゴから外へ出られます。[NWIN]
+//
+//無理しないでくださいね。[END-FE]
+...Ah-ahahaha...[NWIN]
+
+I connencted the surface to your[NLINE]
+location. Use the ladder on the[NLINE]
+right if you would like to go[NLINE]
+outside.[NWIN]
+
+Please don't overdo it.[END-FE]
+
+
+
+
+
+//POINTER #392 @ $9340 - STRING #392 @ $D828
+#W32($9340)
+//ゴールドゲルかソウルを配置しますか？[NLINE]
+//（※どちらが配置されるかは選べません。[NLINE]
+//また、モンスターがＰＣと同じ部屋に配置されて[NLINE]
+//すぐにエンカウントになる場合もあります。）[END-FE]
+ゴールドゲルかソウルを配置しますか？[NLINE]
+（※どちらが配置されるかは選べません。[NLINE]
+また、モンスターがＰＣと同じ部屋に配置されて[NLINE]
+すぐにエンカウントになる場合もあります。）[END-FE]
+
+
+
+
+
+//POINTER #393 @ $9344 - STRING #393 @ $D8D1
+#W32($9344)
+//申し訳ありません。[NLINE]
+//このダンジョンは入り組んでいるため、[NLINE]
+//宝箱がいくつあるかわかりません。[END-FE]
+This dungeon is intricate, so I[NLINE]
+don't know how many treasure chest[NLINE]
+there are. My apologies.[END-FE]
+
+
+
+
+
+//POINTER #394 @ $9348 - STRING #394 @ $D92E
+#W32($9348)
+//・敵の全滅[NLINE]
+//・リーダーがハシゴへ逃げる[END-FE]
+・All enemies are defeated.[NLINE]
+・The leader uses the ladder to escape.[END-FE]
+
+
+
+
+
+//POINTER #395 @ $934C - STRING #395 @ $D957
+#W32($934C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #396 @ $9350 - STRING #396 @ $D97C
+#W32($9350)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+

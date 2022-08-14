@@ -1,0 +1,397 @@
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $150
+#W32($A0)
+ＧＬ <$87>X　メインタイトル[END-FF]
+Title Screen[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $15F
+#W32($A4)
+疾風のごとく[END-FF]
+Winds of War[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $16E
+#W32($A8)
+ビッグバトル[END-FF]
+Showdown[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $179
+#W32($AC)
+迫リ来ル者[END-FF]
+Battle Against Time[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $18F
+#W32($B0)
+我ココニアリ[END-FF]
+At Your Service[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $1A1
+#W32($B4)
+アゲインスト[END-FF]
+Against All Odds[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $1B4
+#W32($B8)
+ハードハードラック[END-FF]
+Through Adversity[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $1C8
+#W32($BC)
+ファイナルバトル[END-FF]
+Heritage of War[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $1DA
+#W32($C0)
+冒険者たち[END-FF]
+Warriors[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $1E5
+#W32($C4)
+完全勝利[END-FF]
+Mission Complete![END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $1F9
+#W32($C8)
+勝利の余韻[END-FF]
+Less Than Perfect[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $20D
+#W32($CC)
+むなしき心に[END-FF]
+Pyrrhic Victory[END-FF]
+
+
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $21F
+#W32($D0)
+想いをはせて[END-FF]
+Daydreaming[END-FF]
+
+
+
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $22D
+#W32($D4)
+ケイヴ[END-FF]
+Dungeon[END-FF]
+
+
+
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $237
+#W32($D8)
+古代の遺物[END-FF]
+Ancient Relics[END-FF]
+
+
+
+
+
+//POINTER #15 @ $DC - STRING #15 @ $248
+#W32($DC)
+最後の冒険[END-FF]
+End of Days[END-FF]
+
+
+
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $256
+#W32($E0)
+草原を渡る風[END-FF]
+Green Grass[END-FF]
+
+
+
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $264
+#W32($E4)
+平和維持軍のテーマ[END-FF]
+PMB's Theme[END-FF]
+
+
+
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $272
+#W32($E8)
+シリルティア王国軍のテーマ[END-FF]
+Cyriltian Army's Theme[END-FF]
+
+
+
+
+
+//POINTER #19 @ $EC - STRING #19 @ $28B
+#W32($EC)
+グランゲイル王国軍のテーマ[END-FF]
+Grangalian Army's Theme[END-FF]
+
+
+
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $2A5
+#W32($F0)
+ネイラーン王国軍のテーマ[END-FF]
+Neylern Army's Theme[END-FF]
+
+
+
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $2BC
+#W32($F4)
+穏やかな日々[END-FF]
+Thinking of You[END-FF]
+
+
+
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $2CE
+#W32($F8)
+静かな日々[END-FF]
+Quiet Days[END-FF]
+
+
+
+
+
+//POINTER #23 @ $FC - STRING #23 @ $2DB
+#W32($FC)
+夢ノ跡[END-FF]
+Dreams Lost[END-FF]
+
+
+
+
+
+//POINTER #24 @ $100 - STRING #24 @ $2E9
+#W32($100)
+散歩日和[END-FF]
+Walk in the Park[END-FF]
+
+
+
+
+
+//POINTER #25 @ $104 - STRING #25 @ $2FC
+#W32($104)
+黄昏[END-FF]
+Twilight[END-FF]
+
+
+
+
+
+//POINTER #26 @ $108 - STRING #26 @ $307
+#W32($108)
+寂しさ[END-FF]
+Solitude[END-FF]
+
+
+
+
+
+//POINTER #27 @ $10C - STRING #27 @ $312
+#W32($10C)
+悲しみ[END-FF]
+Sorrow[END-FF]
+
+
+
+
+
+//POINTER #28 @ $110 - STRING #28 @ $31B
+#W32($110)
+悲痛[END-FF]
+Tragedy[END-FF]
+
+
+
+
+
+//POINTER #29 @ $114 - STRING #29 @ $325
+#W32($114)
+楽しき出来事[END-FF]
+Flights of Fancy[END-FF]
+
+
+
+
+
+//POINTER #30 @ $118 - STRING #30 @ $338
+#W32($118)
+ライク・ア・カートゥーン[END-FF]
+Slapstick[END-FF]
+
+
+
+
+
+//POINTER #31 @ $11C - STRING #31 @ $344
+#W32($11C)
+君のてのひら[END-FF]
+Boy meets Girl[END-FF]
+
+
+
+
+
+//POINTER #32 @ $120 - STRING #32 @ $355
+#W32($120)
+ＧＬ<$87>X 愛のテーマ[END-FF]
+Confession of Love[END-FF]
+
+
+
+
+
+//POINTER #33 @ $124 - STRING #33 @ $36A
+#W32($124)
+思い出[END-FF]
+Memories[END-FF]
+
+
+
+
+
+//POINTER #34 @ $128 - STRING #34 @ $375
+#W32($128)
+尾行[END-FF]
+Undercover[END-FF]
+
+
+
+
+
+//POINTER #35 @ $12C - STRING #35 @ $382
+#W32($12C)
+行動開始！[END-FF]
+Spring into Action![END-FF]
+
+
+
+
+
+//POINTER #36 @ $130 - STRING #36 @ $398
+#W32($130)
+迫リクル…[END-FF]
+The Coming Storm[END-FF]
+
+
+
+
+
+//POINTER #37 @ $134 - STRING #37 @ $3AB
+#W32($134)
+神秘[END-FF]
+Mythology[END-FF]
+
+
+
+
+
+//POINTER #38 @ $138 - STRING #38 @ $3B7
+#W32($138)
+ウズマク悪[END-FF]
+Wicked Omen[END-FF]
+
+
+
+
+
+//POINTER #39 @ $13C - STRING #39 @ $3C5
+#W32($13C)
+パーティー会場[END-FF]
+Noble Affair[END-FF]
+
+
+
+
+
+//POINTER #40 @ $140 - STRING #40 @ $3D4
+#W32($140)
+コンテスト[END-FF]
+Contest[END-FF]
+
+
+
+
+
+//POINTER #41 @ $144 - STRING #41 @ $3DE
+#W32($144)
+優勝[END-FF]
+And the Winner is...![END-FF]
+
+
+
+
+
+//POINTER #42 @ $148 - STRING #42 @ $3F6
+#W32($148)
+ピリオド[END-FF]
+Tides of Time[END-FF]
+
+
+
+
+
+//POINTER #43 @ $14C - STRING #43 @ $406
+#W32($14C)
+深ク暗キ闇[END-FF]
+Fade to Black[END-FF]
+
+
+
+

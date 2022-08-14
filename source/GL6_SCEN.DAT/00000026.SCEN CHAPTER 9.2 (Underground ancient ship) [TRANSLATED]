@@ -1,0 +1,1387 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $71E0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $7020, 4, PTR)
+
+#JMP($71E0)
+#HDR($71E0)
+
+
+
+
+
+//POINTER #0 @ $7020 - STRING #0 @ $71E0
+#W32($7020)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $7024 - STRING #1 @ $71E3
+#W32($7024)
+//警告[END-FF]
+Warning[END-FF]
+
+
+
+
+
+//POINTER #2 @ $7028 - STRING #2 @ $71EA
+#W32($7028)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $702C - STRING #3 @ $71F7
+#W32($702C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $7030 - STRING #4 @ $721C
+#W32($7030)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $7034 - STRING #5 @ $7241
+#W32($7034)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $7038 - STRING #6 @ $7256
+#W32($7038)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $703C - STRING #7 @ $727B
+#W32($703C)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $7040 - STRING #8 @ $72A0
+#W32($7040)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $7044 - STRING #9 @ $72D5
+#W32($7044)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $7048 - STRING #10 @ $730A
+#W32($7048)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $704C - STRING #11 @ $732F
+#W32($704C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $7050 - STRING #12 @ $7354
+#W32($7050)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $7054 - STRING #13 @ $7379
+#W32($7054)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $7058 - STRING #14 @ $738E
+#W32($7058)
+//　[NLINE]
+//スイッチは動かなくなってしまっている。[END-FE]
+[NLINE]
+The switch is no longer working.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $705C - STRING #15 @ $73BB
+#W32($705C)
+//扉はロックされている。[END-FE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $7060 - STRING #16 @ $73D4
+#W32($7060)
+//　[NLINE]
+//今はそれどころではない！[END-FE]
+[NLINE]
+This isn't the time![END-FE]
+
+
+
+
+
+//POINTER #17 @ $7064 - STRING #17 @ $73F3
+#W32($7064)
+//[CHAR3300][V0000]
+//浸水してるな。[NLINE]
+//情報通りか。[END-FE]
+[CHAR3300][V0000]
+It's submerged, just like we[NLINE]
+were told.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $7068 - STRING #18 @ $741A
+#W32($7068)
+//[CHAR3300][V0100]
+//それじゃ、アレの出番ね。[END-FE]
+[CHAR3300][V0100]
+Time to use the diving gear.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $706C - STRING #19 @ $743D
+#W32($706C)
+//　[NLINE]
+//今は敵を何とかしないと！[END-FE]
+[NLINE]
+You have to deal with the enemies right now![END-FE]
+
+
+
+
+
+//POINTER #20 @ $7070 - STRING #20 @ $745C
+#W32($7070)
+//小型潜水具を使って先へ進みますか？[END-FE]
+Will you use the diving gear and[NLINE]
+proceed?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $7074 - STRING #21 @ $7481
+#W32($7074)
+//　[NLINE]
+//扉はロックされている！[END-FE]
+[NLINE]
+The door is locked![END-FE]
+
+
+
+
+
+//POINTER #22 @ $7078 - STRING #22 @ $749E
+#W32($7078)
+//　[NLINE]
+//ここから先は浸水していて進めない。[END-FE]
+[NLINE]
+You can't go any further because the[NLINE]
+section up ahead is flooded.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $707C - STRING #23 @ $74C7
+#W32($707C)
+//装置があるが、操作してみますか？[END-FE]
+There'a machine. Would you like to[NLINE]
+operate it?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $7080 - STRING #24 @ $74EA
+#W32($7080)
+//……最終記録。[NLINE]
+//全ての作戦が終了した。[NWIN]
+//
+//私はこの艦の艦長ベルビーリである。[NLINE]
+//本艦は主駆動部が大破し、[NLINE]
+//現在は補助動力による微速航行を続けている。[NWIN]
+//
+//大陸全体に張り巡らされたエネルギー壁のため[NLINE]
+//外洋に出ることも出来ない。[NLINE]
+//今はこの艦を隠すべき場所を探しているところだ。[NWIN]
+//
+//後の人々がこの艦を発見したときのため、[NLINE]
+//そしてこの戦いに身を投じた兵士の栄誉をたたえ、[NLINE]
+//ここに記録を残そうと思う。[NWIN]
+//
+//龍玉の力で本拠地を壊滅させられたヤツらは、[NLINE]
+//我々から龍玉を奪うべく、最後の猛攻を開始した。[NWIN]
+//
+//こうして生み出されたのが最強最悪の生物、[NLINE]
+//スクリーパーである。[NWIN]
+//
+//スクリーパーによる無差別攻撃は、[NLINE]
+//我々の版図の７割を占める海を奪い、[NLINE]
+//世界の国々の連携を断った。[NWIN]
+//
+//そこで我々はあえて龍玉をおとりにし、[NLINE]
+//全てのスクリーパーを統率するクイーンを[NLINE]
+//おびき出すことに成功した。[NWIN]
+//
+//そしてこの大陸を決戦の地として、[NLINE]
+//クイーン・スクリーパーを封印することに成功した。[NWIN]
+//
+//今この大陸を取り巻くエネルギーの壁は、[NLINE]
+//クイーン・スクリーパーを封じるエネルギーの[NLINE]
+//流れだ。[NLINE]
+//これは、この地に流れる龍脈を使って[NLINE]
+//形成されている。[NWIN]
+//
+//この壁はクイーンを封じるための結界だが、[NLINE]
+//外界の龍脈の流れをも遮断してしまう。[NLINE]
+//つまり、この大陸の龍脈が尽きるまでの間しか[NLINE]
+//クイーン・スクリーパーを封じることは出来ない。[NWIN]
+//
+//我々の計算では、封印により弱った[NLINE]
+//クイーン・スクリーパーが死滅するまで[NLINE]
+//２０００年もの時間が必要だと推定される。[NWIN]
+//
+//だが、この封印は、この大陸内に残された[NLINE]
+//龍脈の力だけを使っても、[NLINE]
+//３０００年間は維持出来る計算だ。[NWIN]
+//
+//この大陸に残された人々には[NLINE]
+//２０００年間の忍耐を強いることになるが、[NLINE]
+//世界全体を救うため、そしてヤツらから[NLINE]
+//龍玉を守るためにも必要なことであった。[NWIN]
+//
+//そして、我が艦隊と共にこの地に残る道を選んだ[NLINE]
+//多くの兵士たちの献身的な働きをたたえる。[END-FE]
+...Final record.[NLINE]
+All operations are complete.[NWIN]
+
+I am Belviere, captain of this warship.[NLINE]
+With the main generator destroyed, we're[NLINE]
+running at low speeds on our reserve power.[NWIN]
+
+The energy wall surrounding the continent[NLINE]
+prevents us from leaving it. We're currently[NLINE]
+looking for a place to hide the ship.[NWIN]
+
+I'll be leaving this record for posterity,[NLINE]
+in honor of the soldiers who dedicated[NLINE]
+their lives to this fight.[NWIN]
+
+The victims of the Dragon Orb mounted[NLINE]
+a last-ditch attempt to steal it from us.[NWIN]
+
+This led to the creation of the Screaper,[NLINE]
+the most powerful life form imaginable.[NWIN]
+
+Constant Screaper attacks have taken our[NLINE]
+oceans, 70% of our territory. This caused[NLINE]
+us to be cut off from the aid of other[NLINE]
+countries.[NWIN]
+
+We devised a plan to use the Orb to[NLINE]
+lure out the mightiest of all Screapers,[NLINE]
+the Queen.[NWIN]
+
+After a decisive battle, we succeeded[NLINE]
+in sealing the Queen Screaper.[NWIN]
+
+The wall of energy surrounding this[NLINE]
+continent is the mechanism that's[NLINE]
+keeping the Queen Screaper sealed.[NLINE]
+This energy wall is formed by using the[NLINE]
+the Ley Lines.[NWIN]
+
+However, this barrier also blocks the flow[NLINE]
+of Ley Lines from the outside world. In other[NLINE]
+words, the barrier will last only as long as the[NLINE]
+Ley Lines of this continent can supply it with energy.[NWIN]
+
+According to our scientists' estimates,[NLINE]
+the barrier will weaken the Queen Screaper[NLINE]
+such that it will die in 2,000 years.[NWIN]
+
+This continent's Ley Line should be[NLINE]
+sufficient to maintain the barrier for[NLINE]
+3,000 years, more than enough time.[NWIN]
+
+We recognize the burden that the people[NLINE]
+of this continent must bear, but it's the[NLINE]
+only way to save the world and protect[NLINE]
+the Dragon Orb from those who desire it.[NWIN]
+
+Praise be to the soldiers who have chosen[NLINE]
+to remain, and to their dedication.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $7084 - STRING #25 @ $7B27
+#W32($7084)
+//　[NLINE]
+//スイッチは動かなくなってしまっている。[END-FE]
+[NLINE]
+The switch is no longer working.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $7088 - STRING #26 @ $7B54
+#W32($7088)
+//　[NLINE]
+//扉はロックされている。[END-FE]
+[NLINE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $708C - STRING #27 @ $7B71
+#W32($708C)
+//どこかに、この扉を開ける[NLINE]
+//スイッチがあるのかな？[END-FE]
+Could there be a swich somewhere[NLINE]
+that opens this door?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $7090 - STRING #28 @ $7BA4
+#W32($7090)
+//宝箱にはラナの実が入っている。[NLINE]
+//しかし、これ以上持てないので　[NLINE]
+//そっと宝箱に戻した。　　　　　[END-FE]
+The treasure chest contains Rana[NLINE]
+Fruit. However, you can't carry [NLINE]
+any more, so you put it back.   [END-FE]
+
+
+
+
+
+//POINTER #29 @ $7094 - STRING #29 @ $7C05
+#W32($7094)
+//　[NLINE]
+//今は敵を何とかしないと！[END-FE]
+[NLINE]
+You have to deal with the enemies right now![END-FE]
+
+
+
+
+
+//POINTER #30 @ $7098 - STRING #30 @ $7C24
+#W32($7098)
+//小型潜水具を使いますか？[END-FE]
+Will you use the diving gear?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $709C - STRING #31 @ $7C3F
+#W32($709C)
+//ん？[NLINE]
+//何か明かりが動いたような…。[END-FE]
+Hmm?[NLINE]
+It seems something like a light[NLINE]
+turned on...[END-FE]
+
+
+
+
+
+//POINTER #32 @ $70A0 - STRING #32 @ $7C64
+#W32($70A0)
+//なんだ？[NLINE]
+//今何か作動しなかったか？[END-FE]
+Hmm? Did something turn on?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $70A4 - STRING #33 @ $7C89
+#W32($70A4)
+//…音がしました。[NLINE]
+//なんの音だったのでしょう？[END-FE]
+...I heard something.[NLINE]
+What was it?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $70A8 - STRING #34 @ $7CB8
+#W32($70A8)
+//少し暗くなった？[NLINE]
+//どこか明かりが消えたのかな…。[END-FE]
+Did it become a little darker?[NLINE]
+I wonder if a light has gone[NLINE]
+out somewhere...[END-FE]
+
+
+
+
+
+//POINTER #35 @ $70AC - STRING #35 @ $7CEB
+#W32($70AC)
+//…音が止んだ？[NLINE]
+//作動していたものが止まったのか？[END-FE]
+...Did the sound stop?[NLINE]
+Has the thing that got turned on[NLINE]
+stopped working?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $70B0 - STRING #36 @ $7D1E
+#W32($70B0)
+//…力の流れが途絶えました。[NLINE]
+//動いていたものが一つ、止まったようです。[END-FE]
+...The energy flow has ceased.[NLINE]
+It seems one of the things that got[NLINE]
+turned on has stopped working.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $70B4 - STRING #37 @ $7D65
+#W32($70B4)
+//　[NLINE]
+//扉はロックされている。[END-FE]
+[NLINE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $70B8 - STRING #38 @ $7D82
+#W32($70B8)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $70BC - STRING #39 @ $7D9F
+#W32($70BC)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $70C0 - STRING #40 @ $7DBC
+#W32($70C0)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $70C4 - STRING #41 @ $7DD9
+#W32($70C4)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $70C8 - STRING #42 @ $7DF6
+#W32($70C8)
+//どうやら、一定の周期でランプが[NLINE]
+//切り替わっているみたいですね。[NWIN]
+//
+//どうにかして、これを揃えることは[NLINE]
+//できないでしょうか？[END-FE]
+It seems the lamps are switching[NLINE]
+at regular intervals.[NWIN]
+
+Could there be a way to light them[NLINE]
+all at the same time?[END-FE]
+
+
+
+
+
+//POINTER #43 @ $70CC - STRING #43 @ $7E6F
+#W32($70CC)
+//４つボタンが並んでいます。[NLINE]
+//どのボタンを押しますか。[END-FE]
+Four buttons are situated side-by-side.[NLINE]
+Which button will you press?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $70D0 - STRING #44 @ $7EA6
+#W32($70D0)
+//・黄[END-FE]
+・Yellow[END-FE]
+
+
+
+
+
+//POINTER #45 @ $70D4 - STRING #45 @ $7EAD
+#W32($70D4)
+//・緑[END-FE]
+・Green[END-FE]
+
+
+
+
+
+//POINTER #46 @ $70D8 - STRING #46 @ $7EB4
+#W32($70D8)
+//・赤[END-FE]
+・Red[END-FE]
+
+
+
+
+
+//POINTER #47 @ $70DC - STRING #47 @ $7EBB
+#W32($70DC)
+//・青[END-FE]
+・Blue[END-FE]
+
+
+
+
+
+//POINTER #48 @ $70E0 - STRING #48 @ $7EC2
+#W32($70E0)
+//・何もしない[END-FE]
+・Nothing[END-FE]
+
+
+
+
+
+//POINTER #49 @ $70E4 - STRING #49 @ $7ED1
+#W32($70E4)
+//　[NLINE]
+//ボタンは故障している。[END-FE]
+[NLINE]
+The button is broken.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $70E8 - STRING #50 @ $7EEE
+#W32($70E8)
+//　[NLINE]
+//ボタンは故障している。[END-FE]
+[NLINE]
+The button is broken.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $70EC - STRING #51 @ $7F0B
+#W32($70EC)
+//　[NLINE]
+//扉はロックされている。[END-FE]
+[NLINE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $70F0 - STRING #52 @ $7F28
+#W32($70F0)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $70F4 - STRING #53 @ $7F45
+#W32($70F4)
+//スイッチがあります。[NLINE]
+//操作しますか？[END-FE]
+It's a switch.[NLINE]
+Do you want to press it?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $70F8 - STRING #54 @ $7F6C
+#W32($70F8)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $70FC - STRING #55 @ $7F89
+#W32($70FC)
+//　[NLINE]
+//ランプは消えている。[END-FE]
+[NLINE]
+The lamp is off.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $7100 - STRING #56 @ $7FA4
+#W32($7100)
+//スイッチがあります。[NLINE]
+//操作しますか？[END-FE]
+It's a switch.[NLINE]
+Do you want to press it?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $7104 - STRING #57 @ $7FCB
+#W32($7104)
+//　[NLINE]
+//スイッチは故障している。[END-FE]
+[NLINE]
+The switch is broken.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $7108 - STRING #58 @ $7FEA
+#W32($7108)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $710C - STRING #59 @ $8007
+#W32($710C)
+//　[NLINE]
+//ランプは消えている。[END-FE]
+[NLINE]
+The lamp is off.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $7110 - STRING #60 @ $8022
+#W32($7110)
+//スイッチがあります。[NLINE]
+//操作しますか？[END-FE]
+It's a switch.[NLINE]
+Do you want to press it?[END-FE]
+
+
+
+
+
+//POINTER #61 @ $7114 - STRING #61 @ $8049
+#W32($7114)
+//　[NLINE]
+//スイッチは故障している。[END-FE]
+[NLINE]
+The switch is broken.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $7118 - STRING #62 @ $8068
+#W32($7118)
+//　[NLINE]
+//ランプは点灯している。[END-FE]
+[NLINE]
+The lamp is on.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $711C - STRING #63 @ $8085
+#W32($711C)
+//スイッチがあります。[NLINE]
+//操作しますか？[END-FE]
+It's a switch.[NLINE]
+Do you want to press it?[END-FE]
+
+
+
+
+
+//POINTER #64 @ $7120 - STRING #64 @ $80AC
+#W32($7120)
+//[CHAR3300][V0200]
+//全部の隔壁がしまってる…。[NLINE]
+//これじゃ、先へ進めないじゃない。[END-FE]
+[CHAR3300][V0200]
+All the bulkheads are down...[NLINE]
+We can't proceed like this.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $7124 - STRING #65 @ $80F3
+#W32($7124)
+//[CHAR3300][V0300]
+//ここまで来てあきらめられるか？[NWIN]
+//
+//[CHAR3300][V0400]
+//どうせもうこの戦艦は使えないんだ。[NLINE]
+//壊しちまえばいいだろう。[END-FE]
+[CHAR3300][V0300]
+Do you just want to give up[NLINE]
+after coming this far?[NWIN]
+
+[CHAR3300][V0400]
+This battleship can no longer be[NLINE]
+used. We can just destroy those[NLINE]
+bulkheads.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $7128 - STRING #66 @ $8162
+#W32($7128)
+//ボス戦前にデバックセーブ部屋に[NLINE]
+//行ってしまっていたら、[NLINE]
+//フラグが初期化されて隔壁が降りてしまいます。[NLINE]
+//隔壁を開けますか？[END-FE]
+ボス戦前にデバックセーブ部屋に[NLINE]
+行ってしまっていたら、[NLINE]
+フラグが初期化されて隔壁が降りてしまいます。[NLINE]
+隔壁を開けますか？[END-FE]
+
+
+
+
+
+//POINTER #67 @ $712C - STRING #67 @ $81DD
+#W32($712C)
+//古代船最深部前[END-FE]
+Ancient Ship - Innermost Section[END-FE]
+
+
+
+
+
+//POINTER #68 @ $7130 - STRING #68 @ $81EE
+#W32($7130)
+//左にスイッチがあるわ。[NLINE]
+//もしかしたら、[NLINE]
+//この状況を止められるかもしれないわ。[END-FE]
+There's a switch on the left.[NLINE]
+If we press it, we might be able[NLINE]
+to stop the alert.[END-FE]
+
+
+
+
+
+//POINTER #69 @ $7134 - STRING #69 @ $823D
+#W32($7134)
+//左にスイッチがあるぜ。[NLINE]
+//もしかしたら、[NLINE]
+//この状況から抜け出せるかもしれないぜ。[END-FE]
+There's a switch on the left.[NLINE]
+Maybe we can use it to get out[NLINE]
+of this situation.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $7138 - STRING #70 @ $828E
+#W32($7138)
+//左にスイッチがあります。[NLINE]
+//もしかしたら、[NLINE]
+//この状況を止められるかもしれません。[END-FE]
+There's a switch on the left.[NLINE]
+If we press it, we might be able[NLINE]
+to stop the alert.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $713C - STRING #71 @ $82DF
+#W32($713C)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $7140 - STRING #72 @ $82F6
+#W32($7140)
+//自動Ｄ　ＥＢ０３＿４前[END-FE]
+自動D　EB03_4前[END-FE]
+
+
+
+
+
+//POINTER #73 @ $7144 - STRING #73 @ $830F
+#W32($7144)
+//…機械音がしなくなりました。[NLINE]
+//ひょっとして、ガーディアンの増援を[NLINE]
+//止められたのかもしれません。[END-FE]
+...The mechanical noices have ceased.[NLINE]
+Perhaps there are no longer any incoming[NLINE]
+Guardian reinforcements.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $7148 - STRING #74 @ $8370
+#W32($7148)
+//古代船最深部前[END-FE]
+Ancient Ship - Innermost Section[END-FE]
+
+
+
+
+
+//POINTER #75 @ $714C - STRING #75 @ $8381
+#W32($714C)
+//古代船最深部前[END-FE]
+Ancient Ship - Innermost Section[END-FE]
+
+
+
+
+
+//POINTER #76 @ $7150 - STRING #76 @ $8392
+#W32($7150)
+//[CHAR3300][V1300]
+//艦内に異変を感知。[NLINE]
+//侵入者を排除せよ。[END-FE]
+[CHAR3300][V1300]
+Abnormal activity detected.[NLINE]
+Eliminating intruders.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $7154 - STRING #77 @ $83C3
+#W32($7154)
+//[CHAR3300][V0500]
+//ガーディアンです！[NLINE]
+//気をつけてください！[END-FE]
+[CHAR3300][V0500]
+Guardians![NLINE]
+Please be careful![END-FE]
+
+
+
+
+
+//POINTER #78 @ $7158 - STRING #78 @ $83F6
+#W32($7158)
+//[CHAR3300][V0600]
+//この状況では狙い撃ちされます！[NLINE]
+//注意してください！[END-FE]
+[CHAR3300][V0600]
+They're shooting at us![NLINE]
+Be careful![END-FE]
+
+
+
+
+
+//POINTER #79 @ $715C - STRING #79 @ $8433
+#W32($715C)
+//[CHAR3300][V0700]
+//ここが最深部？[NWIN]
+//
+//[CHAR3300][V0800]
+//奥に格納庫みたいなところがあるわ。[END-FE]
+[CHAR3300][V0700]
+Is this the innermost section[NLINE]
+of the ship?[NWIN]
+
+[CHAR3300][V0800]
+There's something that looks like[NLINE]
+a hangar in the back.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $7160 - STRING #80 @ $8478
+#W32($7160)
+//[CHAR3300][V0900]
+//ニァーラの粉があるとしたら、[NLINE]
+//あの部屋の奥でしょうか？[END-FE]
+[CHAR3300][V0900]
+Could the Niara Powder be inside?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $7164 - STRING #81 @ $84B9
+#W32($7164)
+//[CHAR3300][V0A00]
+//おい、イヤな予感がするぜ。[NLINE]
+//気をつけて進もうぜ。[END-FE]
+[CHAR3300][V0A00]
+Hey, I've got a bad feeling[NLINE]
+about this. Let's proceed with[NLINE]
+caution.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $7168 - STRING #82 @ $84F4
+#W32($7168)
+//方向変わった？[END-FE]
+方向変わった？[END-FE]
+
+
+
+
+
+//POINTER #83 @ $716C - STRING #83 @ $8505
+#W32($716C)
+//方向変わった？[END-FE]
+方向変わった？[END-FE]
+
+
+
+
+
+//POINTER #84 @ $7170 - STRING #84 @ $8516
+#W32($7170)
+//まだニァーラの粉を[NLINE]
+//手に入れてないよ！[END-FE]
+We haven't got the Niara[NLINE]
+Powder yet![END-FE]
+
+
+
+
+
+//POINTER #85 @ $7174 - STRING #85 @ $853F
+#W32($7174)
+//おい、まだ目的の物を[NLINE]
+//手に入れてないぞ！[END-FE]
+Hey, we still haven't got[NLINE]
+what we came for![END-FE]
+
+
+
+
+
+//POINTER #86 @ $7178 - STRING #86 @ $856A
+#W32($7178)
+//勇者様、まだニァーラの粉を[NLINE]
+//手に入れていません！[END-FE]
+Brave One, we still have to[NLINE]
+obtain the Niara Powder![END-FE]
+
+
+
+
+
+//POINTER #87 @ $717C - STRING #87 @ $859D
+#W32($717C)
+//まだニァーラの粉を[NLINE]
+//手に入れてないよ！[END-FE]
+We haven't got the Niara[NLINE]
+Powder yet![END-FE]
+
+
+
+
+
+//POINTER #88 @ $7180 - STRING #88 @ $85C6
+#W32($7180)
+//おい、まだ目的の物を[NLINE]
+//手に入れてないぞ！[END-FE]
+Hey, we still haven't got[NLINE]
+what we came for![END-FE]
+
+
+
+
+
+//POINTER #89 @ $7184 - STRING #89 @ $85F1
+#W32($7184)
+//勇者様、まだニァーラの粉を[NLINE]
+//手に入れていません！[END-FE]
+Brave One, we still have to[NLINE]
+obtain the Niara Powder![END-FE]
+
+
+
+
+
+//POINTER #90 @ $7188 - STRING #90 @ $8624
+#W32($7188)
+//[CHAR3300][V1400]
+//防衛システム、動力回復確認。[NLINE]
+//システムを作動します。[END-FE]
+[CHAR3300][V1400]
+Energy restoration of Defense System[NLINE]
+confirmed.[NLINE]
+Activating.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $718C - STRING #91 @ $8663
+#W32($718C)
+//[CHAR3300][V0B00]
+//ほら、おいでなすった！[END-FE]
+[CHAR3300][V0B00]
+Here it comes![END-FE]
+
+
+
+
+
+//POINTER #92 @ $7190 - STRING #92 @ $8684
+#W32($7190)
+//・ニァーラの粉を入手し、[NLINE]
+//　このフロアを脱出する[NLINE]
+//・メックサーペントの撃破[END-FE]
+・Obtain Neara Powder and[NLINE]
+ escape from this floor[NLINE]
+・Defeat Mech Serpent[END-FE]
+
+
+
+
+
+//POINTER #93 @ $7194 - STRING #93 @ $86D1
+#W32($7194)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #94 @ $7198 - STRING #94 @ $86E6
+#W32($7198)
+//[CHAR3300][V0C00]
+//攻撃が通じていません！[END-FE]
+[CHAR3300][V0C00]
+Your attack didn't damage it![END-FE]
+
+
+
+
+
+//POINTER #95 @ $719C - STRING #95 @ $8707
+#W32($719C)
+//[CHAR3300][V0D00]
+//やっぱりダメなようです！[NLINE]
+//別の方法を考えましょう！[END-FE]
+[CHAR3300][V0D00]
+Attacking it seems to be useless![NLINE]
+Let's think of another way![END-FE]
+
+
+
+
+
+//POINTER #96 @ $71A0 - STRING #96 @ $8744
+#W32($71A0)
+//ヘンチスフィアが損傷！[END-FE]
+The Henchysphere is damaged![END-FE]
+
+
+
+
+
+//POINTER #97 @ $71A4 - STRING #97 @ $875D
+#W32($71A4)
+//[CHAR3300][V0E00]
+//今の攻撃で、小さいガーディアンの方が[NLINE]
+//損傷したようですね…。[NWIN]
+//
+//[CHAR3300][V0F00]
+//今みたいに、[NLINE]
+//敵の攻撃をうまく利用できれば…。[END-FE]
+[CHAR3300][V0E00]
+It seems that small Guardian was[NLINE]
+damaged by that attack just now.[NWIN]
+
+[CHAR3300][V0F00]
+We should continue making use[NLINE]
+the enemy's attack.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $71A8 - STRING #98 @ $87DC
+#W32($71A8)
+//[CHAR3300][V1500]
+//支援ユニットＡが停止しました。[NLINE]
+//防御支援機能が解除されます。[END-FE]
+[CHAR3300][V1500]
+Support Unit A has stopped.[NLINE]
+Deactivating Defense Support Function.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $71AC - STRING #99 @ $8823
+#W32($71AC)
+//[CHAR3300][V1000]
+//あっ、障壁が消えました！[NLINE]
+//これなら攻撃が通じるかも知れませんね！[END-FE]
+[CHAR3300][V1000]
+Ah, the barrier disappeared![NLINE]
+Now you might be able to damage it![END-FE]
+
+
+
+
+
+//POINTER #100 @ $71B0 - STRING #100 @ $886E
+#W32($71B0)
+//[CHAR3300][V1600]
+//支援ユニットＢが停止しました。[NLINE]
+//修復支援機能が解除されます。[END-FE]
+[CHAR3300][V1600]
+Support Unit B has stopped.[NLINE]
+Deactivating Defense Support Function.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $71B4 - STRING #101 @ $88B5
+#W32($71B4)
+//[CHAR3300][V1700]
+//支援ユニットＣが停止しました。[NLINE]
+//攻撃支援機能が解除されます。[END-FE]
+[CHAR3300][V1700]
+Support Unit C has stopped.[NLINE]
+Deactivating Defense Support Function.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $71B8 - STRING #102 @ $88FC
+#W32($71B8)
+//[CHAR3300][V1800]
+//防御システム機能不全。[NLINE]
+//システムを停止。[NLINE]
+//システムに直結された防御機構も[NLINE]
+//ロックを解除されます。[END-FE]
+[CHAR3300][V1800]
+Defensive System malfunctioning.[NLINE]
+Shutting down.[NLINE]
+Deactivating directly connencted Defense[NLINE]
+Support System.[END-FE]
+
+
+
+
+
+//POINTER #103 @ $71BC - STRING #103 @ $8967
+#W32($71BC)
+//扉はロックされている。[END-FE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #104 @ $71C0 - STRING #104 @ $8980
+#W32($71C0)
+//扉はロックされている。[END-FE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $71C4 - STRING #105 @ $8999
+#W32($71C4)
+//扉はロックされている。[END-FE]
+The door is locked.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $71C8 - STRING #106 @ $89B2
+#W32($71C8)
+//[CHAR3300][V1100]
+//これのようですね！[NLINE]
+//２０００年も前の物なのに、[NLINE]
+//すごい力を感じます…。[END-FE]
+[CHAR3300][V1100]
+This seems to be it! I sense its[NLINE]
+amazing power. Even after 2,000[NLINE]
+years, that still hasn't has faded...[END-FE]
+
+
+
+
+
+//POINTER #107 @ $71CC - STRING #107 @ $8A03
+#W32($71CC)
+//[CHAR3300][V1200]
+//それじゃ、戻りましょう！[END-FE]
+[CHAR3300][V1200]
+Alright, let's go back![END-FE]
+
+
+
+
+
+//POINTER #108 @ $71D0 - STRING #108 @ $8A26
+#W32($71D0)
+//　[NLINE]
+//まだニァーラの粉を採取していない！[END-FE]
+[NLINE]
+You haven't collected the Niara Powder yet![END-FE]
+
+
+
+
+
+//POINTER #109 @ $71D4 - STRING #109 @ $8A4F
+#W32($71D4)
+//デバッグセーブに行きますか？[END-FE]
+Do you want to go to a debugging save?[END-FE]
+
+
+
+
+
+//POINTER #110 @ $71D8 - STRING #110 @ $8A6E
+#W32($71D8)
+//Ｄ　Ｄ３０[END-FE]
+D D30[END-FE]
+
+
+
+

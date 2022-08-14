@@ -1,0 +1,1447 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $2A20, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $27A0, 4, PTR)
+
+#JMP($2A20)
+#HDR($2A20)
+
+
+
+
+
+//POINTER #0 @ $27A0 - STRING #0 @ $2A20
+#W32($27A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $27A4 - STRING #1 @ $2A23
+#W32($27A4)
+//誰のモーションチェック？[END-FE]
+Whose movement check?[END-FE]
+
+
+
+
+
+//POINTER #2 @ $27A8 - STRING #2 @ $2A3E
+#W32($27A8)
+//・[MainCharName][END-FE]
+・[MainCharName][END-FE]
+
+
+
+
+
+//POINTER #3 @ $27AC - STRING #3 @ $2A47
+#W32($27AC)
+//・ウェンディ[END-FE]
+・Wendy[END-FE]
+
+
+
+
+
+//POINTER #4 @ $27B0 - STRING #4 @ $2A56
+#W32($27B0)
+//・ルキアス[END-FE]
+・Rukias[END-FE]
+
+
+
+
+
+//POINTER #5 @ $27B4 - STRING #5 @ $2A63
+#W32($27B4)
+//・ホフマン[END-FE]
+・Hofman[END-FE]
+
+
+
+
+
+//POINTER #6 @ $27B8 - STRING #6 @ $2A70
+#W32($27B8)
+//・イリステレサ[END-FE]
+・Iristelessa[END-FE]
+
+
+
+
+
+//POINTER #7 @ $27BC - STRING #7 @ $2A81
+#W32($27BC)
+//・アニータ[END-FE]
+・Anita[END-FE]
+
+
+
+
+
+//POINTER #8 @ $27C0 - STRING #8 @ $2A8E
+#W32($27C0)
+//・[Haschen][END-FE]
+・[Haschen][END-FE]
+
+
+
+
+
+//POINTER #9 @ $27C4 - STRING #9 @ $2A97
+#W32($27C4)
+//・[Futon-Dog]（ふとん犬）[END-FE]
+・[Futon-Dog] (Futon Dog)[END-FE]
+
+
+
+
+
+//POINTER #10 @ $27C8 - STRING #10 @ $2AAC
+#W32($27C8)
+//・その他[END-FE]
+・Other[END-FE]
+
+
+
+
+
+//POINTER #11 @ $27CC - STRING #11 @ $2AB7
+#W32($27CC)
+//誰のモーションチェック？[END-FE]
+Whose movement check?[END-FE]
+
+
+
+
+
+//POINTER #12 @ $27D0 - STRING #12 @ $2AD2
+#W32($27D0)
+//・総帥ブランドル[END-FE]
+・General Brandole[END-FE]
+
+
+
+
+
+//POINTER #13 @ $27D4 - STRING #13 @ $2AE5
+#W32($27D4)
+//・過去ネーリス[END-FE]
+・Past Neilis[END-FE]
+
+
+
+
+
+//POINTER #14 @ $27D8 - STRING #14 @ $2AF6
+#W32($27D8)
+//・ネーリス[END-FE]
+・Neilis[END-FE]
+
+
+
+
+
+//POINTER #15 @ $27DC - STRING #15 @ $2B03
+#W32($27DC)
+//・宰相ザフリード[END-FE]
+・Prime Minister Zafreed[END-FE]
+
+
+
+
+
+//POINTER #16 @ $27E0 - STRING #16 @ $2B16
+#W32($27E0)
+//・ウェルバー[END-FE]
+・Welber[END-FE]
+
+
+
+
+
+//POINTER #17 @ $27E4 - STRING #17 @ $2B25
+#W32($27E4)
+//・過去巫女[END-FE]
+・Past Shrine Maiden[END-FE]
+
+
+
+
+
+//POINTER #18 @ $27E8 - STRING #18 @ $2B32
+#W32($27E8)
+//・シャイアー[END-FE]
+・Shayer[END-FE]
+
+
+
+
+
+//POINTER #19 @ $27EC - STRING #19 @ $2B41
+#W32($27EC)
+//・医者[END-FE]
+・Doctor[END-FE]
+
+
+
+
+
+//POINTER #20 @ $27F0 - STRING #20 @ $2B4A
+#W32($27F0)
+//・その他[END-FE]
+・Other[END-FE]
+
+
+
+
+
+//POINTER #21 @ $27F4 - STRING #21 @ $2B55
+#W32($27F4)
+//[CC.EF01]/[CC.EF00][END-FE]
+[CC.EF01]/[CC.EF00][END-FE]
+
+
+
+
+
+//POINTER #22 @ $27F8 - STRING #22 @ $2B5F
+#W32($27F8)
+//主人公敬礼[END-FE]
+主人公敬礼[END-FE]
+
+
+
+
+
+//POINTER #23 @ $27FC - STRING #23 @ $2B6C
+#W32($27FC)
+//主人公ベッド寝る[END-FE]
+Main character goes to bed[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2800 - STRING #24 @ $2B7F
+#W32($2800)
+//主人公ベッド起きる[END-FE]
+Main character wakes up in bed[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2804 - STRING #25 @ $2B94
+#W32($2804)
+//主人公倒れる[END-FE]
+主人公倒れる[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2808 - STRING #26 @ $2BA3
+#W32($2808)
+//主人公跪く[END-FE]
+主人公跪く[END-FE]
+
+
+
+
+
+//POINTER #27 @ $280C - STRING #27 @ $2BB0
+#W32($280C)
+//主人公ケガ立ち[END-FE]
+主人公ケガ立ち[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2810 - STRING #28 @ $2BC1
+#W32($2810)
+//主人公ケガ歩き[END-FE]
+主人公ケガ歩き[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2814 - STRING #29 @ $2BD2
+#W32($2814)
+//主人公うずくまる[END-FE]
+主人公うずくまる[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2818 - STRING #30 @ $2BE5
+#W32($2818)
+//主人公握手[END-FE]
+主人公握手[END-FE]
+
+
+
+
+
+//POINTER #31 @ $281C - STRING #31 @ $2BF2
+#W32($281C)
+//主人公撫でる少年[END-FE]
+主人公撫でる少年[END-FE]
+
+
+
+
+
+//POINTER #32 @ $2820 - STRING #32 @ $2C05
+#W32($2820)
+//主人公抱きしめる[END-FE]
+主人公抱きしめる[END-FE]
+
+
+
+
+
+//POINTER #33 @ $2824 - STRING #33 @ $2C18
+#W32($2824)
+//主人公腰に手[END-FE]
+主人公腰に手[END-FE]
+
+
+
+
+
+//POINTER #34 @ $2828 - STRING #34 @ $2C27
+#W32($2828)
+//主人公ベッド寝る・左[END-FE]
+主人公ベッド寝る・左[END-FE]
+
+
+
+
+
+//POINTER #35 @ $282C - STRING #35 @ $2C3E
+#W32($282C)
+//主人公ベッド起きる・左[END-FE]
+主人公ベッド起きる・左[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2830 - STRING #36 @ $2C57
+#W32($2830)
+//主人公スイッチ操作[END-FE]
+主人公スイッチ操作[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2834 - STRING #37 @ $2C6C
+#W32($2834)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2838 - STRING #38 @ $2C8D
+#W32($2838)
+//ウェンディ敬礼[END-FE]
+ウェンディ敬礼[END-FE]
+
+
+
+
+
+//POINTER #39 @ $283C - STRING #39 @ $2C9E
+#W32($283C)
+//ウェンディベッド寝る[END-FE]
+ウェンディベッド寝る[END-FE]
+
+
+
+
+
+//POINTER #40 @ $2840 - STRING #40 @ $2CB5
+#W32($2840)
+//ウェンディベッド起きる[END-FE]
+ウェンディベッド起きる[END-FE]
+
+
+
+
+
+//POINTER #41 @ $2844 - STRING #41 @ $2CCE
+#W32($2844)
+//ウェンディ倒れる[END-FE]
+ウェンディ倒れる[END-FE]
+
+
+
+
+
+//POINTER #42 @ $2848 - STRING #42 @ $2CE1
+#W32($2848)
+//ウェンディ起きあがる[END-FE]
+ウェンディ起きあがる[END-FE]
+
+
+
+
+
+//POINTER #43 @ $284C - STRING #43 @ $2CF8
+#W32($284C)
+//ウェンディ跪く[END-FE]
+ウェンディ跪く[END-FE]
+
+
+
+
+
+//POINTER #44 @ $2850 - STRING #44 @ $2D09
+#W32($2850)
+//ウェンディ渡す[END-FE]
+ウェンディ渡す[END-FE]
+
+
+
+
+
+//POINTER #45 @ $2854 - STRING #45 @ $2D1A
+#W32($2854)
+//ウェンディ受け取る[END-FE]
+ウェンディ受け取る[END-FE]
+
+
+
+
+
+//POINTER #46 @ $2858 - STRING #46 @ $2D2F
+#W32($2858)
+//ウェンディ落ち込み[END-FE]
+ウェンディ落ち込み[END-FE]
+
+
+
+
+
+//POINTER #47 @ $285C - STRING #47 @ $2D44
+#W32($285C)
+//ウェンディスイッチ操作[END-FE]
+ウェンディスイッチ操作[END-FE]
+
+
+
+
+
+//POINTER #48 @ $2860 - STRING #48 @ $2D5D
+#W32($2860)
+//ウェンディ寝続ける[END-FE]
+ウェンディ寝続ける[END-FE]
+
+
+
+
+
+//POINTER #49 @ $2864 - STRING #49 @ $2D72
+#W32($2864)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #50 @ $2868 - STRING #50 @ $2D93
+#W32($2868)
+//ルキアスベッド寝る[END-FE]
+ルキアスベッド寝る[END-FE]
+
+
+
+
+
+//POINTER #51 @ $286C - STRING #51 @ $2DA8
+#W32($286C)
+//ルキアスベッド起きる[END-FE]
+ルキアスベッド起きる[END-FE]
+
+
+
+
+
+//POINTER #52 @ $2870 - STRING #52 @ $2DBF
+#W32($2870)
+//ルキアス倒れる[END-FE]
+ルキアス倒れる[END-FE]
+
+
+
+
+
+//POINTER #53 @ $2874 - STRING #53 @ $2DD0
+#W32($2874)
+//ルキアス起きあがる[END-FE]
+ルキアス起きあがる[END-FE]
+
+
+
+
+
+//POINTER #54 @ $2878 - STRING #54 @ $2DE5
+#W32($2878)
+//ルキアス跪く[END-FE]
+ルキアス跪く[END-FE]
+
+
+
+
+
+//POINTER #55 @ $287C - STRING #55 @ $2DF4
+#W32($287C)
+//ルキアス渡す[END-FE]
+ルキアス渡す[END-FE]
+
+
+
+
+
+//POINTER #56 @ $2880 - STRING #56 @ $2E03
+#W32($2880)
+//ルキアス受け取る[END-FE]
+ルキアス受け取る[END-FE]
+
+
+
+
+
+//POINTER #57 @ $2884 - STRING #57 @ $2E16
+#W32($2884)
+//ルキアス握手[END-FE]
+ルキアス握手[END-FE]
+
+
+
+
+
+//POINTER #58 @ $2888 - STRING #58 @ $2E25
+#W32($2888)
+//ルキアス振り払う[END-FE]
+ルキアス振り払う[END-FE]
+
+
+
+
+
+//POINTER #59 @ $288C - STRING #59 @ $2E38
+#W32($288C)
+//ルキアス落ち込む[END-FE]
+ルキアス落ち込む[END-FE]
+
+
+
+
+
+//POINTER #60 @ $2890 - STRING #60 @ $2E4B
+#W32($2890)
+//ルキアススイッチ操作[END-FE]
+ルキアススイッチ操作[END-FE]
+
+
+
+
+
+//POINTER #61 @ $2894 - STRING #61 @ $2E62
+#W32($2894)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #62 @ $2898 - STRING #62 @ $2E83
+#W32($2898)
+//ホフマン敬礼[END-FE]
+ホフマン敬礼[END-FE]
+
+
+
+
+
+//POINTER #63 @ $289C - STRING #63 @ $2E92
+#W32($289C)
+//ホフマン寝る[END-FE]
+ホフマン寝る[END-FE]
+
+
+
+
+
+//POINTER #64 @ $28A0 - STRING #64 @ $2EA1
+#W32($28A0)
+//ホフマン起きる[END-FE]
+ホフマン起きる[END-FE]
+
+
+
+
+
+//POINTER #65 @ $28A4 - STRING #65 @ $2EB2
+#W32($28A4)
+//ホフマン倒れる[END-FE]
+ホフマン倒れる[END-FE]
+
+
+
+
+
+//POINTER #66 @ $28A8 - STRING #66 @ $2EC3
+#W32($28A8)
+//ホフマン起きあがる[END-FE]
+ホフマン起きあがる[END-FE]
+
+
+
+
+
+//POINTER #67 @ $28AC - STRING #67 @ $2ED8
+#W32($28AC)
+//ホフマン跪く[END-FE]
+ホフマン跪く[END-FE]
+
+
+
+
+
+//POINTER #68 @ $28B0 - STRING #68 @ $2EE7
+#W32($28B0)
+//ホフマン顔隠して走る[END-FE]
+ホフマン顔隠して走る[END-FE]
+
+
+
+
+
+//POINTER #69 @ $28B4 - STRING #69 @ $2EFE
+#W32($28B4)
+//ホフマン渡す[END-FE]
+ホフマン渡す[END-FE]
+
+
+
+
+
+//POINTER #70 @ $28B8 - STRING #70 @ $2F0D
+#W32($28B8)
+//ホフマン受け取る[END-FE]
+ホフマン受け取る[END-FE]
+
+
+
+
+
+//POINTER #71 @ $28BC - STRING #71 @ $2F20
+#W32($28BC)
+//ホフマン頭をかく[END-FE]
+ホフマン頭をかく[END-FE]
+
+
+
+
+
+//POINTER #72 @ $28C0 - STRING #72 @ $2F33
+#W32($28C0)
+//ホフマン落ち込む＊[END-FE]
+ホフマン落ち込む＊[END-FE]
+
+
+
+
+
+//POINTER #73 @ $28C4 - STRING #73 @ $2F48
+#W32($28C4)
+//ホフマンスイッチ操作[END-FE]
+ホフマンスイッチ操作[END-FE]
+
+
+
+
+
+//POINTER #74 @ $28C8 - STRING #74 @ $2F5F
+#W32($28C8)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #75 @ $28CC - STRING #75 @ $2F80
+#W32($28CC)
+//イリステレサベッド寝る[END-FE]
+イリステレサベッド寝る[END-FE]
+
+
+
+
+
+//POINTER #76 @ $28D0 - STRING #76 @ $2F99
+#W32($28D0)
+//イリステレサベッド起きる[END-FE]
+イリステレサベッド起きる[END-FE]
+
+
+
+
+
+//POINTER #77 @ $28D4 - STRING #77 @ $2FB4
+#W32($28D4)
+//イリステレサ倒れる[END-FE]
+イリステレサ倒れる[END-FE]
+
+
+
+
+
+//POINTER #78 @ $28D8 - STRING #78 @ $2FC9
+#W32($28D8)
+//イリステレサ起きあがる[END-FE]
+イリステレサ起きあがる[END-FE]
+
+
+
+
+
+//POINTER #79 @ $28DC - STRING #79 @ $2FE2
+#W32($28DC)
+//イリステレサ跪く[END-FE]
+イリステレサ跪く[END-FE]
+
+
+
+
+
+//POINTER #80 @ $28E0 - STRING #80 @ $2FF5
+#W32($28E0)
+//イリステレサ龍玉使う[END-FE]
+イリステレサ龍玉使う[END-FE]
+
+
+
+
+
+//POINTER #81 @ $28E4 - STRING #81 @ $300C
+#W32($28E4)
+//弱り立ち[END-FE]
+弱り立ち[END-FE]
+
+
+
+
+
+//POINTER #82 @ $28E8 - STRING #82 @ $3017
+#W32($28E8)
+//弱り待機[END-FE]
+弱り待機[END-FE]
+
+
+
+
+
+//POINTER #83 @ $28EC - STRING #83 @ $3022
+#W32($28EC)
+//イリステレサめまい[END-FE]
+イリステレサめまい[END-FE]
+
+
+
+
+
+//POINTER #84 @ $28F0 - STRING #84 @ $3037
+#W32($28F0)
+//イリステレサ驚く[END-FE]
+イリステレサ驚く[END-FE]
+
+
+
+
+
+//POINTER #85 @ $28F4 - STRING #85 @ $304A
+#W32($28F4)
+//イリステレサ龍玉使う２[END-FE]
+イリステレサ龍玉使う２[END-FE]
+
+
+
+
+
+//POINTER #86 @ $28F8 - STRING #86 @ $3063
+#W32($28F8)
+//イリステレサ渡す[END-FE]
+イリステレサ渡す[END-FE]
+
+
+
+
+
+//POINTER #87 @ $28FC - STRING #87 @ $3076
+#W32($28FC)
+//イリステレサ受け取る[END-FE]
+イリステレサ受け取る[END-FE]
+
+
+
+
+
+//POINTER #88 @ $2900 - STRING #88 @ $308D
+#W32($2900)
+//イリステレサ胸で泣く[END-FE]
+イリステレサ胸で泣く[END-FE]
+
+
+
+
+
+//POINTER #89 @ $2904 - STRING #89 @ $30A4
+#W32($2904)
+//イリステレサ落ち込む＊[END-FE]
+イリステレサ落ち込む＊[END-FE]
+
+
+
+
+
+//POINTER #90 @ $2908 - STRING #90 @ $30BD
+#W32($2908)
+//イリステレサ寝続ける[END-FE]
+イリステレサ寝続ける[END-FE]
+
+
+
+
+
+//POINTER #91 @ $290C - STRING #91 @ $30D4
+#W32($290C)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #92 @ $2910 - STRING #92 @ $30F5
+#W32($2910)
+//アニータベッド寝る[END-FE]
+アニータベッド寝る[END-FE]
+
+
+
+
+
+//POINTER #93 @ $2914 - STRING #93 @ $310A
+#W32($2914)
+//アニータベッド起きる[END-FE]
+アニータベッド起きる[END-FE]
+
+
+
+
+
+//POINTER #94 @ $2918 - STRING #94 @ $3121
+#W32($2918)
+//アニータ倒れる[END-FE]
+アニータ倒れる[END-FE]
+
+
+
+
+
+//POINTER #95 @ $291C - STRING #95 @ $3132
+#W32($291C)
+//アニータ起きあがる[END-FE]
+アニータ起きあがる[END-FE]
+
+
+
+
+
+//POINTER #96 @ $2920 - STRING #96 @ $3147
+#W32($2920)
+//アニータ跪く[END-FE]
+アニータ跪く[END-FE]
+
+
+
+
+
+//POINTER #97 @ $2924 - STRING #97 @ $3156
+#W32($2924)
+//アニータ時間移動[END-FE]
+アニータ時間移動[END-FE]
+
+
+
+
+
+//POINTER #98 @ $2928 - STRING #98 @ $3169
+#W32($2928)
+//アニータ薬を飲む[END-FE]
+アニータ薬を飲む[END-FE]
+
+
+
+
+
+//POINTER #99 @ $292C - STRING #99 @ $317C
+#W32($292C)
+//アニータ驚く[END-FE]
+アニータ驚く[END-FE]
+
+
+
+
+
+//POINTER #100 @ $2930 - STRING #100 @ $318B
+#W32($2930)
+//アニータ渡す[END-FE]
+アニータ渡す[END-FE]
+
+
+
+
+
+//POINTER #101 @ $2934 - STRING #101 @ $319A
+#W32($2934)
+//アニータ受け取る[END-FE]
+アニータ受け取る[END-FE]
+
+
+
+
+
+//POINTER #102 @ $2938 - STRING #102 @ $31AD
+#W32($2938)
+//アニータ落ち込む＊[END-FE]
+アニータ落ち込む＊[END-FE]
+
+
+
+
+
+//POINTER #103 @ $293C - STRING #103 @ $31C2
+#W32($293C)
+//アニータスイッチ操作[END-FE]
+アニータスイッチ操作[END-FE]
+
+
+
+
+
+//POINTER #104 @ $2940 - STRING #104 @ $31D9
+#W32($2940)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #105 @ $2944 - STRING #105 @ $31FA
+#W32($2944)
+//ゼオンシルト腕組み[END-FE]
+ゼオンシルト腕組み[END-FE]
+
+
+
+
+
+//POINTER #106 @ $2948 - STRING #106 @ $320F
+#W32($2948)
+//ゼオンシルト落ち込む＊[END-FE]
+ゼオンシルト落ち込む＊[END-FE]
+
+
+
+
+
+//POINTER #107 @ $294C - STRING #107 @ $3228
+#W32($294C)
+//ゼオンシルト休め１[END-FE]
+ゼオンシルト休め１[END-FE]
+
+
+
+
+
+//POINTER #108 @ $2950 - STRING #108 @ $323D
+#W32($2950)
+//ゼオンシルト勝利[END-FE]
+ゼオンシルト勝利[END-FE]
+
+
+
+
+
+//POINTER #109 @ $2954 - STRING #109 @ $3250
+#W32($2954)
+//ゼオンシルト休め２[END-FE]
+ゼオンシルト休め２[END-FE]
+
+
+
+
+
+//POINTER #110 @ $2958 - STRING #110 @ $3265
+#W32($2958)
+//ゼオンシルト休め３[END-FE]
+ゼオンシルト休め３[END-FE]
+
+
+
+
+
+//POINTER #111 @ $295C - STRING #111 @ $327A
+#W32($295C)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #112 @ $2960 - STRING #112 @ $329B
+#W32($2960)
+//ふとん犬眠る[END-FE]
+ふとん犬眠る[END-FE]
+
+
+
+
+
+//POINTER #113 @ $2964 - STRING #113 @ $32AA
+#W32($2964)
+//ふとん犬防御[END-FE]
+ふとん犬防御[END-FE]
+
+
+
+
+
+//POINTER #114 @ $2968 - STRING #114 @ $32B9
+#W32($2968)
+//ふとん犬アピール[END-FE]
+ふとん犬アピール[END-FE]
+
+
+
+
+
+//POINTER #115 @ $296C - STRING #115 @ $32CC
+#W32($296C)
+//尻尾ふり歩き[END-FE]
+尻尾ふり歩き[END-FE]
+
+
+
+
+
+//POINTER #116 @ $2970 - STRING #116 @ $32DB
+#W32($2970)
+//ふとん犬ステップ[END-FE]
+ふとん犬ステップ[END-FE]
+
+
+
+
+
+//POINTER #117 @ $2974 - STRING #117 @ $32EE
+#W32($2974)
+//ふとん犬パラパラ[END-FE]
+ふとん犬パラパラ[END-FE]
+
+
+
+
+
+//POINTER #118 @ $2978 - STRING #118 @ $3301
+#W32($2978)
+//ふとん犬ブレイク[END-FE]
+ふとん犬ブレイク[END-FE]
+
+
+
+
+
+//POINTER #119 @ $297C - STRING #119 @ $3314
+#W32($297C)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #120 @ $2980 - STRING #120 @ $3335
+#W32($2980)
+//ライバル敬礼[END-FE]
+ライバル敬礼[END-FE]
+
+
+
+
+
+//POINTER #121 @ $2984 - STRING #121 @ $3344
+#W32($2984)
+//ライバル倒れる[END-FE]
+ライバル倒れる[END-FE]
+
+
+
+
+
+//POINTER #122 @ $2988 - STRING #122 @ $3355
+#W32($2988)
+//ライバル起きあがる[END-FE]
+ライバル起きあがる[END-FE]
+
+
+
+
+
+//POINTER #123 @ $298C - STRING #123 @ $336A
+#W32($298C)
+//ライバル跪く[END-FE]
+ライバル跪く[END-FE]
+
+
+
+
+
+//POINTER #124 @ $2990 - STRING #124 @ $3379
+#W32($2990)
+//ライバル腕組み[END-FE]
+ライバル腕組み[END-FE]
+
+
+
+
+
+//POINTER #125 @ $2994 - STRING #125 @ $338A
+#W32($2994)
+//ライバル座る[END-FE]
+ライバル座る[END-FE]
+
+
+
+
+
+//POINTER #126 @ $2998 - STRING #126 @ $3399
+#W32($2998)
+//ライバル殺される[END-FE]
+ライバル殺される[END-FE]
+
+
+
+
+
+//POINTER #127 @ $299C - STRING #127 @ $33AC
+#W32($299C)
+//ライバル渡す[END-FE]
+ライバル渡す[END-FE]
+
+
+
+
+
+//POINTER #128 @ $29A0 - STRING #128 @ $33BB
+#W32($29A0)
+//ライバル受け取る[END-FE]
+ライバル受け取る[END-FE]
+
+
+
+
+
+//POINTER #129 @ $29A4 - STRING #129 @ $33CE
+#W32($29A4)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #130 @ $29A8 - STRING #130 @ $33EF
+#W32($29A8)
+//総帥座る[END-FE]
+総帥座る[END-FE]
+
+
+
+
+
+//POINTER #131 @ $29AC - STRING #131 @ $33FA
+#W32($29AC)
+//総帥腕を組む[END-FE]
+総帥腕を組む[END-FE]
+
+
+
+
+
+//POINTER #132 @ $29B0 - STRING #132 @ $3409
+#W32($29B0)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #133 @ $29B4 - STRING #133 @ $342A
+#W32($29B4)
+//生身ネイリス倒れる[END-FE]
+生身ネイリス倒れる[END-FE]
+
+
+
+
+
+//POINTER #134 @ $29B8 - STRING #134 @ $343F
+#W32($29B8)
+//生身ネイリス倒れている[END-FE]
+生身ネイリス倒れている[END-FE]
+
+
+
+
+
+//POINTER #135 @ $29BC - STRING #135 @ $3458
+#W32($29BC)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #136 @ $29C0 - STRING #136 @ $3479
+#W32($29C0)
+//ネイリス飛び降り[END-FE]
+ネイリス飛び降り[END-FE]
+
+
+
+
+
+//POINTER #137 @ $29C4 - STRING #137 @ $348C
+#W32($29C4)
+//ネイリス膝を着く[END-FE]
+ネイリス膝を着く[END-FE]
+
+
+
+
+
+//POINTER #138 @ $29C8 - STRING #138 @ $349F
+#W32($29C8)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #139 @ $29CC - STRING #139 @ $34C0
+#W32($29CC)
+//ザフリード座る[END-FE]
+ザフリード座る[END-FE]
+
+
+
+
+
+//POINTER #140 @ $29D0 - STRING #140 @ $34D1
+#W32($29D0)
+//ザフリード跪く[END-FE]
+ザフリード跪く[END-FE]
+
+
+
+
+
+//POINTER #141 @ $29D4 - STRING #141 @ $34E2
+#W32($29D4)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #142 @ $29D8 - STRING #142 @ $3503
+#W32($29D8)
+//ウェルバー跪く[END-FE]
+ウェルバー跪く[END-FE]
+
+
+
+
+
+//POINTER #143 @ $29DC - STRING #143 @ $3514
+#W32($29DC)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #144 @ $29E0 - STRING #144 @ $3535
+#W32($29E0)
+//過去巫女倒れる[END-FE]
+過去巫女倒れる[END-FE]
+
+
+
+
+
+//POINTER #145 @ $29E4 - STRING #145 @ $3546
+#W32($29E4)
+//過去巫女起きあがる[END-FE]
+過去巫女起きあがる[END-FE]
+
+
+
+
+
+//POINTER #146 @ $29E8 - STRING #146 @ $355B
+#W32($29E8)
+//過去巫女跪く[END-FE]
+過去巫女跪く[END-FE]
+
+
+
+
+
+//POINTER #147 @ $29EC - STRING #147 @ $356A
+#W32($29EC)
+//過去巫女龍玉使う２[END-FE]
+過去巫女龍玉使う２[END-FE]
+
+
+
+
+
+//POINTER #148 @ $29F0 - STRING #148 @ $357F
+#W32($29F0)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #149 @ $29F4 - STRING #149 @ $35A0
+#W32($29F4)
+//シャイアー腕組み[END-FE]
+シャイアー腕組み[END-FE]
+
+
+
+
+
+//POINTER #150 @ $29F8 - STRING #150 @ $35B3
+#W32($29F8)
+//シャイアーうなだれる[END-FE]
+シャイアーうなだれる[END-FE]
+
+
+
+
+
+//POINTER #151 @ $29FC - STRING #151 @ $35CA
+#W32($29FC)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+
+
+//POINTER #152 @ $2A00 - STRING #152 @ $35EB
+#W32($2A00)
+//医者座る[END-FE]
+医者座る[END-FE]
+
+
+
+
+
+//POINTER #153 @ $2A04 - STRING #153 @ $35F6
+#W32($2A04)
+//作業員作業中[END-FE]
+作業員作業中[END-FE]
+
+
+
+
+
+//POINTER #154 @ $2A08 - STRING #154 @ $3605
+#W32($2A08)
+//作業員スイッチ操作[END-FE]
+作業員スイッチ操作[END-FE]
+
+
+
+
+
+//POINTER #155 @ $2A0C - STRING #155 @ $361A
+#W32($2A0C)
+//作業員咳き込む[END-FE]
+作業員咳き込む[END-FE]
+
+
+
+
+
+//POINTER #156 @ $2A10 - STRING #156 @ $362B
+#W32($2A10)
+//作業員眠い[END-FE]
+作業員眠い[END-FE]
+
+
+
+
+
+//POINTER #157 @ $2A14 - STRING #157 @ $3638
+#W32($2A14)
+//作業員縛られ[END-FE]
+作業員縛られ[END-FE]
+
+
+
+
+
+//POINTER #158 @ $2A18 - STRING #158 @ $3647
+#W32($2A18)
+//初めのモーションに戻りますか？[END-FE]
+初めのモーションに戻りますか？[END-FE]
+
+
+
+

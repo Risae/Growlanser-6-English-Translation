@@ -1,0 +1,54 @@
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $C0
+#W32($A0)
+//攻撃する目標を決める際の傾向を設定します。[END-FF]
+Choose how they decide their[NLINE]
+next action.[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $ED
+#W32($A4)
+//魔法を唱えようとする度合いを設定します。[END-FF]
+Choose spellcasting frequency.[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $10E
+#W32($A8)
+//仲間が魔法を自動思考で唱えた際に、発動対象を[NLINE]
+//自動決定するかどうかの設定です。[NLINE]
+//半自動では範囲魔法の時のみ確認を求めます。[END-FF]
+Set whether AI comrades need permission[NLINE]
+to cast spells. Half-Auto asks only for[NLINE]
+area-effect actions.[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $177
+#W32($AC)
+//修得済みの魔法それぞれについて、使用の度合いと[NLINE]
+//使用の禁止を設定できます。[END-FF]
+Set casting frequency of each spell[NLINE]
+that the character has learned.[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $1BE
+#W32($B0)
+//各グッズそれぞれについて、使用の度合いと使用の[NLINE]
+//禁止を設定できます。[END-FF]
+Set frequency of use for each item.[END-FF]
+
+
+
+

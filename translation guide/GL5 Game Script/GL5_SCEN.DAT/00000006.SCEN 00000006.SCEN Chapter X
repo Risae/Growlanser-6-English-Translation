@@ -1,0 +1,1252 @@
+
+
+//POINTER #0 @ $3720 - STRING #0 @ $38F0
+#W32($3720)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3724 - STRING #1 @ $38F3
+#W32($3724)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3728 - STRING #2 @ $3900
+#W32($3728)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $372C - STRING #3 @ $3925
+#W32($372C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3730 - STRING #4 @ $394A
+#W32($3730)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3734 - STRING #5 @ $395F
+#W32($3734)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3738 - STRING #6 @ $3994
+#W32($3738)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $373C - STRING #7 @ $39C9
+#W32($373C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3740 - STRING #8 @ $39EE
+#W32($3740)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3744 - STRING #9 @ $3A13
+#W32($3744)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3748 - STRING #10 @ $3A38
+#W32($3748)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $374C - STRING #11 @ $3A4D
+#W32($374C)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3750 - STRING #12 @ $3A74
+#W32($3750)
+//[CHAR0900][V1400]
+//うまく行ったな。[END-FE]
+[CHAR0900][V1400]
+That went well.[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3754 - STRING #13 @ $3A8F
+#W32($3754)
+//[CHAR0900][V1500]
+//ああ。[NLINE]
+//これでシリルティアの捜索も[NLINE]
+//しばらくは止まるだろう。[END-FE]
+[CHAR0900][V1500]
+Yes, I doubt Cyriltia[NLINE]
+will be able to find[NLINE]
+us for a while.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3758 - STRING #14 @ $3AD6
+#W32($3758)
+//[CHAR0900][V1600]
+//よかった…これで、[NLINE]
+//兵器完成までの時間が…[CC.FFCD][CH.FACE:Close-Eyes][END-FE]
+[CHAR0900][V1600]
+I'm glad we bought time...[NLINE]
+To complete the weapon...[CC.FFCD][CH.FACE:Close-Eyes][END-FE]
+
+
+
+
+
+//POINTER #15 @ $375C - STRING #15 @ $3B10
+#W32($375C)
+//[CHAR0900][V1700]
+//ヴァネット！[NLINE]
+//…なんて無茶を…！[END-FE]
+[CHAR0900][V1700]
+Vanette! For[NLINE]
+gods' sake...![END-FE]
+
+
+
+
+
+//POINTER #16 @ $3760 - STRING #16 @ $3B3B
+#W32($3760)
+//[CHAR0900][V1800]
+//急いで戻ろう。[END-FE]
+[CHAR0900][V1800]
+Let's go back.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3764 - STRING #17 @ $3B54
+#W32($3764)
+//[CHAR0900][V0000]
+//セルディス様！[NLINE]
+//シリルティア軍の陣は[NLINE]
+//ここからすぐ東にあります。[NWIN]
+//
+//[CHAR0900][V0100]
+//物資の量と残っている兵の数からして、[NLINE]
+//ほとんどの兵は捜索に出ているようです。[END-FE]
+[CHAR0900][V0000]
+Lord Seldous! The Cyriltian camp[NLINE]
+is due east from here, Sir![NWIN]
+
+[CHAR0900][V0100]
+Judging by the way they're outfitted,[NLINE]
+their soldiers have joined the scouts.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3768 - STRING #18 @ $3BF5
+#W32($3768)
+//[CHAR0900][V0200]
+//つまり、仕掛けるなら今ということだな。[NLINE]
+//地形と配置の報告を頼む。[END-FE]
+[CHAR0900][V0200]
+Then now's the time to strike.[NLINE]
+Show me how they're situated.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $376C - STRING #19 @ $3C40
+#W32($376C)
+//[CHAR0900][V0300]
+//この先にはくぼ地があり、[NLINE]
+//その中に兵たんが置かれています。[NLINE]
+//そこに降りられる坂が、２箇所ありました。[NWIN]
+//
+//[CHAR0900][V0400]
+//現在の兵数は６。[NLINE]
+//それと、荷を輸送してきた動物が４。[END-FE]
+[CHAR0900][V0300]
+Their camp is in a recession[NLINE]
+up ahead. There's a slope on[NLINE]
+either side of it to high ground.[NWIN]
+
+[CHAR0900][V0400]
+They number six soldiers[NLINE]
+and four Steeds.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3770 - STRING #20 @ $3CED
+#W32($3770)
+//[CHAR0900][V0500]
+//なるほど…。[NLINE]
+//では、これから作戦を説明する。[END-FE]
+[CHAR0900][V0500]
+All right, then...[NLINE]
+Here's the plan.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3774 - STRING #21 @ $3D24
+#W32($3774)
+//[CHAR0900][V0600]
+//我々の任務はシリルティア軍の陣に[NLINE]
+//西側から攻撃をかけ、[NLINE]
+//捜索隊を呼び戻させることだ。[NWIN]
+//
+//[CHAR0900][V0700]
+//この人数でそれを行わねばならないため、[NLINE]
+//みんなの連携が必要不可欠だ。[END-FE]
+[CHAR0900][V0600]
+The goal is to attack the[NLINE]
+Cyriltians from the west, forcing[NLINE]
+them to recall their scouts.[NWIN]
+
+[CHAR0900][V0700]
+We don't have much manpower,[NLINE]
+so we need to time this carefully.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3778 - STRING #22 @ $3DD1
+#W32($3778)
+//[CHAR0900][V0800]
+//はいっ！[END-FE]
+[CHAR0900][V0800]
+Yes, Sir![END-FE]
+
+
+
+
+
+//POINTER #23 @ $377C - STRING #23 @ $3DE4
+#W32($377C)
+//[CHAR0900][V0900]
+//まず、私が敵の兵たんに火を放つ。[NLINE]
+//敵に発見されなかったとしても、[NLINE]
+//それが戦いの合図だ。[NWIN]
+//
+//[CHAR0900][V0A00]
+//よし、行くぞ！[END-FE]
+[CHAR0900][V0900]
+I'll set fire to their supplies.[NLINE]
+Even if they don't notice,[NLINE]
+that's the signal to attack.[NWIN]
+
+[CHAR0900][V0A00]
+Let's move out![END-FE]
+
+
+
+
+
+//POINTER #24 @ $3780 - STRING #24 @ $3E5D
+#W32($3780)
+//デバッグ部屋へ行く？[END-FE]
+デバッグ部屋へ行く？[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3784 - STRING #25 @ $3E74
+#W32($3784)
+//自動Ｄ　Ｒ１シリルティア戦前[END-FE]
+自動Ｄ　Ｒ１シリルティア戦前[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3788 - STRING #26 @ $3E93
+#W32($3788)
+//シリルティア軍は東だ。[NLINE]
+//こっちじゃない。[END-FE]
+The Cyriltian Army is to[NLINE]
+the east, not this way.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $378C - STRING #27 @ $3EBE
+#W32($378C)
+//急がねばならないときに、[NLINE]
+//寄り道など出来ないな。[END-FE]
+There's no time to[NLINE]
+waste. I must hurry.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3790 - STRING #28 @ $3EF1
+#W32($3790)
+//資材[END-FE]
+Supplies[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3794 - STRING #29 @ $3EF8
+#W32($3794)
+//あの資材に火をつければ[NLINE]
+//一気に燃やせそうだな…。[NLINE]
+//着火剤を持っている私自身が[NLINE]
+//あそこまで行く必要がある。[NWIN]
+//
+//それから輸送用の動物がいるらしいが、[NLINE]
+//それも驚かせて逃がせば、[NLINE]
+//ここを放棄せざるを得まい。[END-FE]
+If I can set fire to that,[NLINE]
+it'll all burn. But I've got[NLINE]
+to carry the tinder box[NLINE]
+there myself...[NWIN]
+
+They've got Steeds, too... If I[NLINE]
+can get those to run, they'll[NLINE]
+have to abandon this camp.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3798 - STRING #30 @ $3FBF
+#W32($3798)
+//進入経路はこの北側の坂と…。[END-FE]
+We'll come in from this[NLINE]
+slope to the north...[END-FE]
+
+
+
+
+
+//POINTER #31 @ $379C - STRING #31 @ $3FDE
+#W32($379C)
+//南側のこの坂だけか…。[END-FE]
+And this one, to the south.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $37A0 - STRING #32 @ $3FF7
+#W32($37A0)
+//セルディス様、[NLINE]
+//我々はどこから魔法を使えば[NLINE]
+//よいでしょうか？[END-FE]
+Where should we start[NLINE]
+the magic assault,[NLINE]
+Lord Seldous?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $37A4 - STRING #33 @ $4036
+#W32($37A4)
+//ここから魔法を使えば安全に支援できるが、[NLINE]
+//捜索隊が戻ってきた時に一部の魔法が届かない。[NLINE]
+//少し北に移動すれば敵援軍には対処できるが[NLINE]
+//敵兵の攻撃にさらされるかもしれない…。[END-FE]
+Once their scouts return, you might[NLINE]
+not be able to reach them. You can deal[NLINE]
+with the backup units by moving north,[NLINE]
+but you'll be open to their attacks.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $37A8 - STRING #34 @ $40E1
+#W32($37A8)
+//・この場から攻撃[END-FE]
+・Attack from here[END-FE]
+
+
+
+
+
+//POINTER #35 @ $37AC - STRING #35 @ $40F4
+#W32($37AC)
+//・少し北に移動させる[END-FE]
+・Move north a little[END-FE]
+
+
+
+
+
+//POINTER #36 @ $37B0 - STRING #36 @ $410B
+#W32($37B0)
+//了解しました。[END-FE]
+Understood, Sir.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $37B4 - STRING #37 @ $411C
+#W32($37B4)
+//では、我々はどうしましょう？[END-FE]
+What do we do then?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $37B8 - STRING #38 @ $413B
+#W32($37B8)
+//剣が使える彼らに、何をさせるか……。[END-FE]
+Against swords? Well...[END-FE]
+
+
+
+
+
+//POINTER #39 @ $37BC - STRING #39 @ $4162
+#W32($37BC)
+//・１人が魔法使いの護衛、もう１人が北の坂で待機[END-FE]
+・One with the mage, one on the north slope[END-FE]
+
+
+
+
+
+//POINTER #40 @ $37C0 - STRING #40 @ $4193
+#W32($37C0)
+//・１人が魔法使いの護衛、もう１人が南の坂で待機[END-FE]
+・One with the mage, one on the south slope[END-FE]
+
+
+
+
+
+//POINTER #41 @ $37C4 - STRING #41 @ $41C4
+#W32($37C4)
+//・２人とも北の坂で待機[END-FE]
+・Both of them on the north slope[END-FE]
+
+
+
+
+
+//POINTER #42 @ $37C8 - STRING #42 @ $41DD
+#W32($37C8)
+//・２人とも南の坂で待機[END-FE]
+・Both of them on the south slope[END-FE]
+
+
+
+
+
+//POINTER #43 @ $37CC - STRING #43 @ $41F6
+#W32($37CC)
+//・２つの坂に別々に待機[END-FE]
+・One on each slope[END-FE]
+
+
+
+
+
+//POINTER #44 @ $37D0 - STRING #44 @ $420F
+#W32($37D0)
+//了解しました。[END-FE]
+Understood, Sir.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $37D4 - STRING #45 @ $4220
+#W32($37D4)
+//いいか、とにかく捜索隊が帰還するまでが勝負だ。[NLINE]
+//迅速に行動しよう。[END-FE]
+This will be a race against time. It'll[NLINE]
+be decided by the time the scouts return.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $37D8 - STRING #46 @ $4265
+#W32($37D8)
+//よし、行動開始！[END-FE]
+Now move out![END-FE]
+
+
+
+
+
+//POINTER #47 @ $37DC - STRING #47 @ $4278
+#W32($37DC)
+//・資材に火を放ち、[NLINE]
+//　輸送動物を追い散らす[END-FE]
+・Set a fire and drive off the Steeds[END-FE]
+
+
+
+
+
+//POINTER #48 @ $37E0 - STRING #48 @ $42A5
+#W32($37E0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #49 @ $37E4 - STRING #49 @ $42BA
+#W32($37E4)
+//戦闘スキップする？[END-FE]
+戦闘スキップする？[END-FE]
+
+
+
+
+
+//POINTER #50 @ $37E8 - STRING #50 @ $42CF
+#W32($37E8)
+//誰だ！[NLINE]
+//怪しいやつめ！[NLINE]
+//総員警戒態勢！[END-FE]
+Who goes there!?[NLINE]
+All troops, go[NLINE]
+to alert status![END-FE]
+
+
+
+
+
+//POINTER #51 @ $37EC - STRING #51 @ $42F8
+#W32($37EC)
+//くっ、見つかったか！[END-FE]
+Damn! They found us![END-FE]
+
+
+
+
+
+//POINTER #52 @ $37F0 - STRING #52 @ $430F
+#W32($37F0)
+//この資材に、[NLINE]
+//おかしな真似はさせんぞ！[END-FE]
+I'm not letting[NLINE]
+you touch this![END-FE]
+
+
+
+
+
+//POINTER #53 @ $37F4 - STRING #53 @ $4338
+#W32($37F4)
+//この資材に、[NLINE]
+//おかしな真似はさせんぞ！[END-FE]
+I'm not letting[NLINE]
+you touch this![END-FE]
+
+
+
+
+
+//POINTER #54 @ $37F8 - STRING #54 @ $4361
+#W32($37F8)
+//よし、ここに火を…。[END-FE]
+I'll set the fire here...[END-FE]
+
+
+
+
+
+//POINTER #55 @ $37FC - STRING #55 @ $4378
+#W32($37FC)
+//今度こそ…。[END-FE]
+I'll get it this time...[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3800 - STRING #56 @ $4387
+#W32($3800)
+//なんだ？[NLINE]
+//物資に火が!?[NLINE]
+//て、敵襲！[END-FE]
+Huh? It's a fire![NLINE]
+Sound the alarm![END-FE]
+
+
+
+
+
+//POINTER #57 @ $3804 - STRING #57 @ $43AC
+#W32($3804)
+//くそっ！[NLINE]
+//今ならまだ消し止められるはずだ！[END-FE]
+Damn! We've got to[NLINE]
+put this fire out![END-FE]
+
+
+
+
+
+//POINTER #58 @ $3808 - STRING #58 @ $43D9
+#W32($3808)
+//くそっ！[NLINE]
+//今ならまだ消し止められるはずだ！[END-FE]
+Damn! We've got to[NLINE]
+put this fire out![END-FE]
+
+
+
+
+
+//POINTER #59 @ $380C - STRING #59 @ $4406
+#W32($380C)
+//それが狙いか！[END-FE]
+So that's what[NLINE]
+you're after![END-FE]
+
+
+
+
+
+//POINTER #60 @ $3810 - STRING #60 @ $4417
+#W32($3810)
+//何をするか貴様！[END-FE]
+Hold it right there![END-FE]
+
+
+
+
+
+//POINTER #61 @ $3814 - STRING #61 @ $442A
+#W32($3814)
+//まだくすぶっている状態だ。[NLINE]
+//油断は出来ないな…。[END-FE]
+It's just smoldering.[NLINE]
+I'll keep an eye on it...[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3818 - STRING #62 @ $445D
+#W32($3818)
+//ふうっ、消せたぞ！[END-FE]
+Phew! The fire's out![END-FE]
+
+
+
+
+
+//POINTER #63 @ $381C - STRING #63 @ $4472
+#W32($381C)
+//ダメだ…。[NLINE]
+//ここまで燃え広がってしまっては…。[END-FE]
+It's too late... The[NLINE]
+fire's out of control![END-FE]
+
+
+
+
+
+//POINTER #64 @ $3820 - STRING #64 @ $44A3
+#W32($3820)
+//もうこれで火を消すのは無理だろう。[END-FE]
+It's too late to put it out now.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $3824 - STRING #65 @ $44C8
+#W32($3824)
+//ここまで燃えれば[NLINE]
+//火を消すのは無理だな。[END-FE]
+The fire's too big[NLINE]
+to put out now.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $3828 - STRING #66 @ $44F3
+#W32($3828)
+//ここまで燃えれば[NLINE]
+//火を消すのは無理ね。[END-FE]
+The fire's risen too[NLINE]
+high to put out...[END-FE]
+
+
+
+
+
+//POINTER #67 @ $382C - STRING #67 @ $451C
+#W32($382C)
+//よし、まずは成功だな…。[NLINE]
+//後は輸送用の動物を追い散らせば…。[END-FE]
+That's the first task complete.[NLINE]
+Now to drive off the Steeds...[END-FE]
+
+
+
+
+
+//POINTER #68 @ $3830 - STRING #68 @ $455B
+#W32($3830)
+//セルディス様、我々はどうしますか？[END-FE]
+Your orders, Lord Seldous?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $3834 - STRING #69 @ $4580
+#W32($3834)
+//・敵兵士を攻撃[END-FE]
+・Attack the enemy soldiers[END-FE]
+
+
+
+
+
+//POINTER #70 @ $3838 - STRING #70 @ $4591
+#W32($3838)
+//・輸送用の動物を攻撃[END-FE]
+・Attack the Steeds[END-FE]
+
+
+
+
+
+//POINTER #71 @ $383C - STRING #71 @ $45A8
+#W32($383C)
+//了解しました！[END-FE]
+Roger that, Sir![END-FE]
+
+
+
+
+
+//POINTER #72 @ $3840 - STRING #72 @ $45B9
+#W32($3840)
+//[CHAR0900][V0B00]
+//セルディス！[END-FE]
+[CHAR0900][V0B00]
+Seldous![END-FE]
+
+
+
+
+
+//POINTER #73 @ $3844 - STRING #73 @ $45D0
+#W32($3844)
+//[CHAR0900][V0C00]
+//アイザック!?[NLINE]
+//来てくれたのか！[END-FE]
+[CHAR0900][V0C00]
+Isaac!?[NLINE]
+You came![END-FE]
+
+
+
+
+
+//POINTER #74 @ $3848 - STRING #74 @ $45F9
+#W32($3848)
+//[CHAR0900][V0D00]
+//戻る途中でヴァネットに会ってな。[NLINE]
+//ここの事を聞いたんだ。[END-FE]
+[CHAR0900][V0D00]
+I met Vanette on the way back.[NLINE]
+She told me what you were up to.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $384C - STRING #75 @ $463C
+#W32($384C)
+//[CHAR0900][V0E00]
+//ヴァネットに？[END-FE]
+[CHAR0900][V0E00]
+You saw Vanette?[END-FE]
+
+
+
+
+
+//POINTER #76 @ $3850 - STRING #76 @ $4655
+#W32($3850)
+//[CHAR0900][V0F00]
+//詳しい話は後だ。[NLINE]
+//俺も手伝う！[END-FE]
+[CHAR0900][V0F00]
+Later, later. I'm[NLINE]
+here to help![END-FE]
+
+
+
+
+
+//POINTER #77 @ $3854 - STRING #77 @ $467E
+#W32($3854)
+//[CHAR0900][V1000]
+//セルディス！[END-FE]
+[CHAR0900][V1000]
+Seldous![END-FE]
+
+
+
+
+
+//POINTER #78 @ $3858 - STRING #78 @ $4695
+#W32($3858)
+//[CHAR0900][V1100]
+//ヴァネット!?[END-FE]
+[CHAR0900][V1100]
+Vanette!?[END-FE]
+
+
+
+
+
+//POINTER #79 @ $385C - STRING #79 @ $46AC
+#W32($385C)
+//[CHAR0900][V1200]
+//どうして？[NLINE]
+//俺に任せて待っていろと…。[END-FE]
+[CHAR0900][V1200]
+Huh? I told[NLINE]
+you, stay in--[END-FE]
+
+
+
+
+
+//POINTER #80 @ $3860 - STRING #80 @ $46DD
+#W32($3860)
+//[CHAR0900][V1300]
+//今更帰れとは言わないでね！[NLINE]
+//さあ、早く片付けましょう！[END-FE]
+[CHAR0900][V1300]
+Don't tell me to go back![NLINE]
+Now, let's finish this![END-FE]
+
+
+
+
+
+//POINTER #81 @ $3864 - STRING #81 @ $471E
+#W32($3864)
+//そろそろ捜索隊が戻る時間だな…。[NLINE]
+//成果はあっただろうか？[END-FE]
+Those scouts are due back.[NLINE]
+I wonder if they found anything...[END-FE]
+
+
+
+
+
+//POINTER #82 @ $3868 - STRING #82 @ $4759
+#W32($3868)
+//間もなく捜索隊が戻る！[NLINE]
+//それまで持ちこたえろ！[END-FE]
+Hold out, everyone, until[NLINE]
+the scouts return![END-FE]
+
+
+
+
+
+//POINTER #83 @ $386C - STRING #83 @ $478A
+#W32($386C)
+//な、なんだ？[NLINE]
+//なぜ集積所が襲われている？！[END-FE]
+What!? The supplies[NLINE]
+are under attack!?[END-FE]
+
+
+
+
+
+//POINTER #84 @ $3870 - STRING #84 @ $47B7
+#W32($3870)
+//しまった。もう捜索隊が戻ってきた。[NLINE]
+//急がなくては…。[END-FE]
+Damn! The scouts are[NLINE]
+back. We have to hurry...[END-FE]
+
+
+
+
+
+//POINTER #85 @ $3874 - STRING #85 @ $47EE
+#W32($3874)
+//ピィ！[END-FE]
+Piii![END-FE]
+
+
+
+
+
+//POINTER #86 @ $3878 - STRING #86 @ $47F7
+#W32($3878)
+//ギュオ！[END-FE]
+Gyoh![END-FE]
+
+
+
+
+
+//POINTER #87 @ $387C - STRING #87 @ $4802
+#W32($387C)
+//ピュオ！[END-FE]
+Pyohh![END-FE]
+
+
+
+
+
+//POINTER #88 @ $3880 - STRING #88 @ $480D
+#W32($3880)
+//ギャオ！[END-FE]
+Graoo![END-FE]
+
+
+
+
+
+//POINTER #89 @ $3884 - STRING #89 @ $4818
+#W32($3884)
+//輸送用動物がすべて逃げ出した！[END-FE]
+All the Steeds have escaped![END-FE]
+
+
+
+
+
+//POINTER #90 @ $3888 - STRING #90 @ $4839
+#W32($3888)
+//あとは資材を燃やしきらないと。[END-FE]
+I'll let the fire take its course.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $388C - STRING #91 @ $485A
+#W32($388C)
+//輸送用動物が逃げ出した！[END-FE]
+The Steed has escaped![END-FE]
+
+
+
+
+
+//POINTER #92 @ $3890 - STRING #92 @ $4875
+#W32($3890)
+//輸送用動物を撃破した！[END-FE]
+The Steed has escaped![END-FE]
+
+
+
+
+
+//POINTER #93 @ $3894 - STRING #93 @ $488E
+#W32($3894)
+//目的は達成した。[NLINE]
+//みんな、退却を開始しろ！[END-FE]
+Mission accomplished.[NLINE]
+Fall back, everyone![END-FE]
+
+
+
+
+
+//POINTER #94 @ $3898 - STRING #94 @ $48BB
+#W32($3898)
+//了解です！[END-FE]
+Roger that![END-FE]
+
+
+
+
+
+//POINTER #95 @ $389C - STRING #95 @ $48C8
+#W32($389C)
+//・パーティーがマップ西端から脱出する[END-FE]
+・All party members escape[END-FE]
+
+
+
+
+
+//POINTER #96 @ $38A0 - STRING #96 @ $48EF
+#W32($38A0)
+//・一人も脱出せずにパーティーが全滅する[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #97 @ $38A4 - STRING #97 @ $4918
+#W32($38A4)
+//すまない……逃げ切れなかったか。[NLINE]
+//残りは我々だけだ。急ごう。[END-FE]
+We're the only ones[NLINE]
+left. Let's hurry.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $38A8 - STRING #98 @ $4957
+#W32($38A8)
+//まずいな……残りは我々だけで[NLINE]
+//なんとかするしかない。[END-FE]
+This isn't good... We'll have[NLINE]
+to do the rest ourselves.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $38AC - STRING #99 @ $498E
+#W32($38AC)
+//あの火を、消さないと…。[END-FE]
+Get that fire put out![END-FE]
+
+
+
+
+
+//POINTER #100 @ $38B0 - STRING #100 @ $49A9
+#W32($38B0)
+//く、わかった！[END-FE]
+Damn! Understood![END-FE]
+
+
+
+
+
+//POINTER #101 @ $38B4 - STRING #101 @ $49BA
+#W32($38B4)
+//ここを、守らないと…。[END-FE]
+I must protect the camp...[END-FE]
+
+
+
+
+
+//POINTER #102 @ $38B8 - STRING #102 @ $49D3
+#W32($38B8)
+//貴様ら、一体何者……。[END-FE]
+Who the hell are you guys!?[END-FE]
+
+
+
+
+
+//POINTER #103 @ $38BC - STRING #103 @ $49EC
+#W32($38BC)
+//よし、兵は脱出を完了したな。[NLINE]
+//次は我々の番だ。[END-FE]
+Good, everyone's made it[NLINE]
+out. Now it's our turn.[END-FE]
+
+
+
+
+
+//POINTER #104 @ $38C0 - STRING #104 @ $4A1D
+#W32($38C0)
+//よし、兵は脱出を完了したな。[NLINE]
+//次は我々の番だ。[END-FE]
+Good, everyone's made it[NLINE]
+out. Now it's our turn.[END-FE]
+
+
+
+
+
+//POINTER #105 @ $38C4 - STRING #105 @ $4A4E
+#W32($38C4)
+//よし、みんな脱出を完了したな。[NLINE]
+//後は私が脱出するだけだ。[END-FE]
+All right, everyone's out.[NLINE]
+Now it's our turn to escape.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $38C8 - STRING #106 @ $4A89
+#W32($38C8)
+//よし、みんな脱出を完了したな。[END-FE]
+All right, everyone's out now.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $38CC - STRING #107 @ $4AAA
+#W32($38CC)
+//よし、私で最後だな。[NLINE]
+//任務完了だ！[END-FE]
+I'm the only one[NLINE]
+left... We did it![END-FE]
+
+
+
+
+
+//POINTER #108 @ $38D0 - STRING #108 @ $4ACF
+#W32($38D0)
+//私の退却は[NLINE]
+//他のみんなが退いてからだ。[END-FE]
+I'll retreat after[NLINE]
+everyone else has.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $38D4 - STRING #109 @ $4AF8
+#W32($38D4)
+//よし、俺で終わりだな。[NLINE]
+//任務完了だぜ！[END-FE]
+Is that everyone?[NLINE]
+Mission accomplished![END-FE]
+
+
+
+
+
+//POINTER #110 @ $38D8 - STRING #110 @ $4B21
+#W32($38D8)
+//先に行くが、[NLINE]
+//気をつけろよ！[END-FE]
+All right, I'm[NLINE]
+off. Stay alert![END-FE]
+
+
+
+
+
+//POINTER #111 @ $38DC - STRING #111 @ $4B40
+#W32($38DC)
+//私で最後みたいね。[NLINE]
+//任務完了よ。[END-FE]
+Looks like I'm the[NLINE]
+only one left...[NLINE]
+Then we did it![END-FE]
+
+
+
+
+
+//POINTER #112 @ $38E0 - STRING #112 @ $4B63
+#W32($38E0)
+//先に行くわね。[NLINE]
+//気をつけて！[END-FE]
+I'm leaving.[NLINE]
+Be careful![END-FE]
+
+
+
+
+
+//POINTER #113 @ $38E4 - STRING #113 @ $4B82
+#W32($38E4)
+//デバッグ部屋へ行く？[END-FE]
+デバッグ部屋へ行く？[END-FE]
+
+
+
+
+
+//POINTER #114 @ $38E8 - STRING #114 @ $4B99
+#W32($38E8)
+//自動Ｄ　戦闘直後[END-FE]
+自動Ｄ　戦闘直後[END-FE]

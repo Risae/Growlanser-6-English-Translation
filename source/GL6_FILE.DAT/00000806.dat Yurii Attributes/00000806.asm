@@ -1,0 +1,51 @@
+.open "00000806.dat", 0x0
+.ps2
+
+/*
+[8140] = Full width space
+[20] = ASCII space
+
+知[8140]識[0D0A]
+KNW[20][20][20][0D0A]
+
+知[8140]性[0D0A]
+INT[20][20][20][0D0A]
+
+感[8140]性[0D0A]
+SNS[20][20][20][0D0A]
+
+魅[8140]力[0D0A]
+CHR[20][20][20][0D0A]
+
+精神力[0D0A]
+MNT[20][20][20][0D0A]
+
+器[8140]用[0D0A]
+DEX[20][20][20][0D0A]
+
+体[8140]力[0D0A]
+STA[20][20][20][0D0A]
+
+敏捷度[0D0A]
+AGI[20][20][20]
+*/
+
+.orga 0x0
+	.ascii "KNW"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "INT"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "SNS"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "CHR"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "MNT"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "DEX"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "STA"
+	.byte 0x20, 0x20, 0x20, 0x0D, 0x0A
+	.ascii "AGI"
+	.byte 0x20, 0x20, 0x20
+
+.close

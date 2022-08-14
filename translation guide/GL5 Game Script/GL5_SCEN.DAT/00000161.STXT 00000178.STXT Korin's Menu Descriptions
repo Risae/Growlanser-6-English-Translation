@@ -1,0 +1,124 @@
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $E0
+#W32($A0)
+Ц×２％の確率で、敵の攻撃を防御。[END-FF]
+„Wx 2°hance to block attacks.[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $102
+#W32($A4)
+Ц×２％の確率で、敵の魔法を無効化。[END-FF]
+„Wx 2°hance to block spells.[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $123
+#W32($A8)
+攻撃した相手に、Ц×２％の確率で反撃。[NLINE]
+与えるダメージは妖精の能力値に比例する。[END-FF]
+„Wx 2°hance to counterattack.[NLINE]
+Counter damage depends on Korin's stats.[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $16F
+#W32($AC)
+暇になるとしゃべりだす。[END-FF]
+Starts blathering when bored.[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $18F
+#W32($B0)
+ストーリーの進展状況を教えてくれる。[END-FF]
+Recounts the story.[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $1A5
+#W32($B4)
+仲間との友好状態を判定する。[END-FF]
+Charts your friendship ratings.[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $1C7
+#W32($B8)
+性格を判定する。[END-FF]
+Hear what everyone thinks of you.[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $1EB
+#W32($BC)
+ダンジョンや遺跡内で使うと、取り残した[NLINE]
+宝物の残数を調べてくる。[END-FF]
+Check how many more treasure chests[NLINE]
+remain in the current dungeon.[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $231
+#W32($C0)
+チャーム効果を発揮して、商人に値引かせる。[NLINE]
+値引率はЦに比例。[END-FF]
+Charms merchants into giving a discount.[NLINE]
+Discount rate depends on the skill „W.[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $284
+#W32($C4)
+特殊能力予備１７[END-FF]
+“ÁŽê”\—Í—\”õ‚P‚V[END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $297
+#W32($C8)
+特殊能力予備１８[END-FF]
+“ÁŽê”\—Í—\”õ‚P‚W[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $2AA
+#W32($CC)
+特殊能力予備１９[END-FF]
+“ÁŽê”\—Í—\”õ‚P‚X[END-FF]
+
+
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $2BD
+#W32($D0)
+特殊能力予備２０[END-FF]
+“ÁŽê”\—Í—\”õ‚Q‚O[END-FF]
+
+
+
+

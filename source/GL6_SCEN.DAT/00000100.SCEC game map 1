@@ -1,0 +1,138 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $1150, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $1120, 4, PTR)
+
+#JMP($1150)
+#HDR($1150)
+
+
+
+
+
+//POINTER #0 @ $1120 - STRING #0 @ $1150
+#W32($1120)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $1124 - STRING #1 @ $1153
+#W32($1124)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #2 @ $1128 - STRING #2 @ $1180
+#W32($1128)
+//　[TRIANGLE]で地名表示　[NLINE]
+//　[SQUARE]で地名消去　[NLINE]
+//　[CROSS]で終了[END-FE]
+[TRIANGLE] to display names[NLINE]
+[SQUARE] to hide names[NLINE]
+[CROSS] end[END-FE]
+
+
+
+
+
+//POINTER #3 @ $112C - STRING #3 @ $11B1
+#W32($112C)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #4 @ $1130 - STRING #4 @ $11DE
+#W32($1130)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #5 @ $1134 - STRING #5 @ $120B
+#W32($1134)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #6 @ $1138 - STRING #6 @ $1238
+#W32($1138)
+//地図は汚れていて、役に立たない…。[END-FE]
+地図は汚れていて、役に立たない…。[END-FE]
+
+
+
+
+
+//POINTER #7 @ $113C - STRING #7 @ $125D
+#W32($113C)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #8 @ $1140 - STRING #8 @ $128A
+#W32($1140)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #9 @ $1144 - STRING #9 @ $12B7
+#W32($1144)
+//　[NLINE]
+//この地図では判別出来ないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+I can't seem to identify it on this map...[NLINE]
+[END-FE]
+
+
+
+

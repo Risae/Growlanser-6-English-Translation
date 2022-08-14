@@ -1,0 +1,575 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $2900, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2820, 4, PTR)
+
+#JMP($2900)
+#HDR($2900)
+
+
+
+
+
+//POINTER #0 @ $2820 - STRING #0 @ $2900
+#W32($2820)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2824 - STRING #1 @ $2903
+#W32($2824)
+//コリン[END-FF]
+Korin[END-FF]
+
+
+
+
+
+//POINTER #2 @ $2828 - STRING #2 @ $290C
+#W32($2828)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $282C - STRING #3 @ $2919
+#W32($282C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2830 - STRING #4 @ $293E
+#W32($2830)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2834 - STRING #5 @ $2963
+#W32($2834)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2838 - STRING #6 @ $2978
+#W32($2838)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $283C - STRING #7 @ $299D
+#W32($283C)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2840 - STRING #8 @ $29C2
+#W32($2840)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2844 - STRING #9 @ $29F7
+#W32($2844)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2848 - STRING #10 @ $2A2C
+#W32($2848)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $284C - STRING #11 @ $2A51
+#W32($284C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2850 - STRING #12 @ $2A76
+#W32($2850)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2854 - STRING #13 @ $2A9B
+#W32($2854)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2858 - STRING #14 @ $2AB0
+#W32($2858)
+//３色のスイッチがある[END-FE]
+３色のスイッチがある[END-FE]
+
+
+
+
+
+//POINTER #15 @ $285C - STRING #15 @ $2AC7
+#W32($285C)
+//・赤のスイッチを押す[END-FE]
+・赤のスイッチを押す[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2860 - STRING #16 @ $2ADE
+#W32($2860)
+//・青のスイッチを押す[END-FE]
+・青のスイッチを押す[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2864 - STRING #17 @ $2AF5
+#W32($2864)
+//・緑のスイッチを押す[END-FE]
+・緑のスイッチを押す[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2868 - STRING #18 @ $2B0C
+#W32($2868)
+//頑丈な扉だ。　　　　　　　[NLINE]
+//カギがかかっているようだ。[END-FE]
+頑丈な扉だ。　　　　　　　[NLINE]
+カギがかかっているようだ。[END-FE]
+
+
+
+
+
+//POINTER #19 @ $286C - STRING #19 @ $2B45
+#W32($286C)
+//ドアを開けようとすると、[NLINE]
+//カチッという音がした。　[END-FE]
+ドアを開けようとすると、[NLINE]
+カチッという音がした。　[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2870 - STRING #20 @ $2B7A
+#W32($2870)
+//ドアを開けますか？[END-FE]
+ドアを開けますか？[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2874 - STRING #21 @ $2B8F
+#W32($2874)
+//　[NLINE]
+//トラップが発動した！[NLINE]
+//　[NLINE]
+//[MainCharName]は石化した！[NLINE]
+//　[END-FE]
+　[NLINE]
+トラップが発動した！[NLINE]
+　[NLINE]
+[MainCharName]は石化した！[NLINE]
+　[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2878 - STRING #22 @ $2BC4
+#W32($2878)
+//扉の裏側で、何かのトラップが[NLINE]
+//作動したような音がした。　　[END-FE]
+扉の裏側で、何かのトラップが[NLINE]
+作動したような音がした。　　[END-FE]
+
+
+
+
+
+//POINTER #23 @ $287C - STRING #23 @ $2C01
+#W32($287C)
+//岩自体が動いて入り口を[NLINE]
+//塞ぐ仕掛けだ。　　　　[NLINE]
+//いまは開いている。　　[END-FE]
+岩自体が動いて入り口を[NLINE]
+塞ぐ仕掛けだ。　　　　[NLINE]
+いまは開いている。　　[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2880 - STRING #24 @ $2C4A
+#W32($2880)
+//樽の上に１枚の紙が貼り付けてある。[NLINE]
+//　[NLINE]
+//[“][COL01]海からの風に　たなびく草原の緑　[NLINE]
+//　その丘から眺む落陽に　希望を託す[COL00][”][END-FE]
+樽の上に１枚の紙が貼り付けてある。[NLINE]
+　[NLINE]
+[“][COL01]海からの風に　たなびく草原の緑　[NLINE]
+　その丘から眺む落陽に　希望を託す[COL00][”][END-FE]
+
+
+
+
+
+//POINTER #25 @ $2884 - STRING #25 @ $2CC3
+#W32($2884)
+//木箱が積んであるが、[NLINE]
+//中身はカラのようだ。[END-FE]
+木箱が積んであるが、[NLINE]
+中身はカラのようだ。[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2888 - STRING #26 @ $2CF0
+#W32($2888)
+//きれいに畳まれた布がある。[END-FE]
+きれいに畳まれた布がある。[END-FE]
+
+
+
+
+
+//POINTER #27 @ $288C - STRING #27 @ $2D0D
+#W32($288C)
+//・取る[END-FE]
+・取る[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2890 - STRING #28 @ $2D16
+#W32($2890)
+//・そのままにしておく[END-FE]
+・そのままにしておく[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2894 - STRING #29 @ $2D2D
+#W32($2894)
+//木箱が積んであるが、[NLINE]
+//中身はカラのようだ。[END-FE]
+木箱が積んであるが、[NLINE]
+中身はカラのようだ。[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2898 - STRING #30 @ $2D5A
+#W32($2898)
+//　[NLINE]
+//樽の中身は水や酒のようだ。[END-FE]
+[NLINE]
+樽の中身は水や酒のようだ。[END-FE]
+
+
+
+
+
+//POINTER #31 @ $289C - STRING #31 @ $2D7B
+#W32($289C)
+//何の装置だろうか、　　　　[NLINE]
+//ほんのりと熱を発している。[END-FE]
+何の装置だろうか、　　　　[NLINE]
+ほんのりと熱を発している。[END-FE]
+
+
+
+
+
+//POINTER #32 @ $28A0 - STRING #32 @ $2DB4
+#W32($28A0)
+//　[NLINE]
+//何かの計測器だろうか…。[END-FE]
+[NLINE]
+何かの計測器だろうか…。[END-FE]
+
+
+
+
+
+//POINTER #33 @ $28A4 - STRING #33 @ $2DD3
+#W32($28A4)
+//　[NLINE]
+//特に重要そうな物はない。[END-FE]
+[NLINE]
+特に重要そうな物はない。[END-FE]
+
+
+
+
+
+//POINTER #34 @ $28A8 - STRING #34 @ $2DF2
+#W32($28A8)
+//　[NLINE]
+//テーブルの上には特に重要そうな物はない。[END-FE]
+[NLINE]
+テーブルの上には特に重要そうな物はない。[END-FE]
+
+
+
+
+
+//POINTER #35 @ $28AC - STRING #35 @ $2E21
+#W32($28AC)
+//　[NLINE]
+//特に重要そうな物はない。[END-FE]
+[NLINE]
+特に重要そうな物はない。[END-FE]
+
+
+
+
+
+//POINTER #36 @ $28B0 - STRING #36 @ $2E40
+#W32($28B0)
+//　[NLINE]
+//地下水路のようだ。[END-FE]
+[NLINE]
+地下水路のようだ。[END-FE]
+
+
+
+
+
+//POINTER #37 @ $28B4 - STRING #37 @ $2E59
+#W32($28B4)
+//桟橋だ。[NLINE]
+//ここに船を繋いであったのだろうか？[END-FE]
+桟橋だ。[NLINE]
+ここに船を繋いであったのだろうか？[END-FE]
+
+
+
+
+
+//POINTER #38 @ $28B8 - STRING #38 @ $2E88
+#W32($28B8)
+//　[NLINE]
+//何に使う物か分からない……。[END-FE]
+　[NLINE]
+何に使う物か分からない……。[END-FE]
+
+
+
+
+
+//POINTER #39 @ $28BC - STRING #39 @ $2EAB
+#W32($28BC)
+//きゃー！[NLINE]
+//食べられちゃうー！[END-FE]
+きゃー！[NLINE]
+食べられちゃうー！[END-FE]
+
+
+
+
+
+//POINTER #40 @ $28C0 - STRING #40 @ $2ECA
+#W32($28C0)
+//・パーティーの全滅[NLINE]
+//・コリンを食べたモンスターの逃走[END-FE]
+・All party members die[NLINE]
+・コリンを食べたモンスターの逃走[END-FE]
+
+
+
+
+
+//POINTER #41 @ $28C4 - STRING #41 @ $2F01
+#W32($28C4)
+//・パーティーの全滅[NLINE]
+//・同行人の死亡[NLINE]
+//・コリンを食べたモンスターの逃走[END-FE]
+・All party members die[NLINE]
+・Follower dies[NLINE]
+・コリンを食べたモンスターの逃走[END-FE]
+
+
+
+
+
+//POINTER #42 @ $28C8 - STRING #42 @ $2F48
+#W32($28C8)
+//た、助かった～。[END-FE]
+た、助かった～。[END-FE]
+
+
+
+
+
+//POINTER #43 @ $28CC - STRING #43 @ $2F5B
+#W32($28CC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #44 @ $28D0 - STRING #44 @ $2F70
+#W32($28D0)
+//・パーティーの全滅[NLINE]
+//・同行人の死亡[END-FE]
+・All party members die[NLINE]
+・同行人の死亡[END-FE]
+
+
+
+
+
+//POINTER #45 @ $28D4 - STRING #45 @ $2F95
+#W32($28D4)
+//た～す～け～て～！[END-FE]
+た～す～け～て～！[END-FE]
+
+
+
+
+
+//POINTER #46 @ $28D8 - STRING #46 @ $2FAA
+#W32($28D8)
+//ダ、ダメです！[NLINE]
+//まだコリンちゃんが！[END-FE]
+ダ、ダメです！[NLINE]
+まだコリンちゃんが！[END-FE]
+
+
+
+
+
+//POINTER #47 @ $28DC - STRING #47 @ $2FD1
+#W32($28DC)
+//おいおい！[NLINE]
+//コリンどうするんだよ！[END-FE]
+おいおい！[NLINE]
+コリンどうするんだよ！[END-FE]
+
+
+
+
+
+//POINTER #48 @ $28E0 - STRING #48 @ $2FF6
+#W32($28E0)
+//コリンを助けなければ。[END-FE]
+コリンを助けなければ。[END-FE]
+
+
+
+
+
+//POINTER #49 @ $28E4 - STRING #49 @ $300F
+#W32($28E4)
+//コリンを放っておくわけにはいくまい。[END-FE]
+コリンを放っておくわけにはいくまい。[END-FE]
+
+
+
+
+
+//POINTER #50 @ $28E8 - STRING #50 @ $3036
+#W32($28E8)
+//何をしている。[NLINE]
+//今はコリンを助けねば。[END-FE]
+何をしている。[NLINE]
+今はコリンを助けねば。[END-FE]
+
+
+
+
+
+//POINTER #51 @ $28EC - STRING #51 @ $305F
+#W32($28EC)
+//あなたはコリンが[NLINE]
+//どうなってもいいのですか？[END-FE]
+あなたはコリンが[NLINE]
+どうなってもいいのですか？[END-FE]
+
+
+
+
+
+//POINTER #52 @ $28F0 - STRING #52 @ $308E
+#W32($28F0)
+//た、助けて～！[END-FE]
+た、助けて～！[END-FE]
+
+
+
+

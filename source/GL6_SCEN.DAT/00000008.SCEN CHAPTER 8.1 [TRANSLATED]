@@ -1,0 +1,1332 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $4F60, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $4DA0, 4, PTR)
+
+#JMP($4F60)
+#HDR($4F60)
+
+
+
+
+
+
+//POINTER #0 @ $4DA0 - STRING #0 @ $4F60
+#W32($4DA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $4DA4 - STRING #1 @ $4F63
+#W32($4DA4)
+//ユリィ[END-FF]
+Yurii[END-FF]
+
+
+
+
+
+//POINTER #2 @ $4DA8 - STRING #2 @ $4F6C
+#W32($4DA8)
+//コリン[END-FF]
+Korin[END-FF]
+
+
+
+
+
+//POINTER #3 @ $4DAC - STRING #3 @ $4F75
+#W32($4DAC)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #4 @ $4DB0 - STRING #4 @ $4F82
+#W32($4DB0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $4DB4 - STRING #5 @ $4FA7
+#W32($4DB4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $4DB8 - STRING #6 @ $4FCC
+#W32($4DB8)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $4DBC - STRING #7 @ $4FE1
+#W32($4DBC)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $4DC0 - STRING #8 @ $5006
+#W32($4DC0)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #9 @ $4DC4 - STRING #9 @ $502B
+#W32($4DC4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $4DC8 - STRING #10 @ $5060
+#W32($4DC8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $4DCC - STRING #11 @ $5095
+#W32($4DCC)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $4DD0 - STRING #12 @ $50BA
+#W32($4DD0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $4DD4 - STRING #13 @ $50DF
+#W32($4DD4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $4DD8 - STRING #14 @ $5104
+#W32($4DD8)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $4DDC - STRING #15 @ $5119
+#W32($4DDC)
+//ルキアス\\
+//[CHAR2700][V0000]
+//ふぅ、やっと出られたな。[END-FE]
+//Rukias\\
+[CHAR2700][V0000]
+Whew, we finally got out.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $4DE0 - STRING #16 @ $513C
+#W32($4DE0)
+//デバッグ部屋へ行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $4DE4 - STRING #17 @ $5153
+#W32($4DE4)
+//自動Ｄ　ＥＢ０３＿２前[END-FE]
+自動D　EB03_2前[END-FE]
+
+
+
+
+
+//POINTER #18 @ $4DE8 - STRING #18 @ $516C
+#W32($4DE8)
+//ユリィ\\
+//[MainCharName]様。[NLINE]
+//みなさんを置いて行くわけには参りません。[NLINE]
+//レイスタンに戻られた方がよろしいかと。[END-FE]
+//Yurii\\
+Master [MainCharName], we can't leave[NLINE]
+everyone behind. We should return to[NLINE]
+Leystan.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $4DEC - STRING #19 @ $51C9
+#W32($4DEC)
+//ユリィ\\
+//[MainCharName]様。[NLINE]
+//ウェンディさんとの待ち合わせは[NLINE]
+//レイスタンです。[NLINE]
+//戻られた方がよろしいかと。[END-FE]
+//Yurii\\
+Master [MainCharName], we're supposed[NLINE]
+to meet Wendy in Leystan. We should[NLINE]
+go back.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $4DF0 - STRING #20 @ $5222
+#W32($4DF0)
+//　[NLINE]
+//今はユリィを助けなければ！[NLINE]
+//　[END-FE]
+//System Message\\
+[NLINE]
+We have to save Yurii![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #21 @ $4DF4 - STRING #21 @ $5247
+#W32($4DF4)
+//ユリィ\\
+//[MainCharName]様。[NLINE]
+//みなさんを置いて行くわけには参りません。[NLINE]
+//レイスタンに戻られた方がよろしいかと。[END-FE]
+//Yurii\\
+Master [MainCharName], we can't leave[NLINE]
+everyone behind. We should return to[NLINE]
+Leystan.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $4DF8 - STRING #22 @ $52A4
+#W32($4DF8)
+//ユリィ\\
+//[MainCharName]様。[NLINE]
+//今はジアント山へ向かわないと！[END-FE]
+//Yurii\\
+Master [MainCharName], we must head to[NLINE]
+Jiant Mountain![END-FE]
+
+
+
+
+
+//POINTER #23 @ $4DFC - STRING #23 @ $52CF
+#W32($4DFC)
+//ユリィ\\
+//[MainCharName]様。[NLINE]
+//ウェンディさんとの待ち合わせは[NLINE]
+//レイスタンです。[NLINE]
+//戻られた方がよろしいかと。[END-FE]
+//Yurii\\
+Master [MainCharName], we're supposed[NLINE]
+to meet Wendy in Leystan. We should[NLINE]
+go back.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4E00 - STRING #24 @ $5328
+#W32($4E00)
+//デバッグセーブに行きますか？[END-FE]
+Do you want to go to a debugging save?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4E04 - STRING #25 @ $5347
+#W32($4E04)
+//Ｄ　Ｆ２２[END-FE]
+D F22[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4E08 - STRING #26 @ $5354
+#W32($4E08)
+//護衛[END-FE]
+Escort Guard[END-FE]
+
+
+
+
+
+//POINTER #27 @ $4E0C - STRING #27 @ $535B
+#W32($4E0C)
+//ホフマン\\
+//[CHAR2700][V0100]
+//くそっ、[NLINE]
+//いったい何人いるんだ？[END-FE]
+//Hofman\\
+[CHAR2700][V0100]
+For goodness' sake, how many are there?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4E10 - STRING #28 @ $5386
+#W32($4E10)
+//行商人\\
+//[CHAR2700][V0200]
+//もう、だめだよ、[NLINE]
+//ホフマンさん…。[NLINE]
+//護衛もアンタ以外[NLINE]
+//やられちまった…。[END-FE]
+//Peddler\\
+[CHAR2700][V0200]
+It's no good, Hofman![NLINE]
+All the other escort guards except[NLINE]
+for you have been killed...[END-FE]
+
+
+
+
+
+//POINTER #29 @ $4E14 - STRING #29 @ $53D9
+#W32($4E14)
+//ホフマン\\
+//[CHAR2700][V0300]
+//あきらめちゃダメですよ！[NWIN]
+//
+//[CHAR2700][V0400]
+//もうすぐ援軍がくるんでしょう？[END-FE]
+//Hofman\\
+[CHAR2700][V0300]
+We mustn't give up![NWIN]
+
+[CHAR2700][V0400]
+Surely, reinforcements will arrive soon?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4E18 - STRING #30 @ $5424
+#W32($4E18)
+//テロリスト\\
+//[CHAR2700][V0500]
+//あの男、なかなかやるな…。[NLINE]
+//だが、あと一息だ。[END-FE]
+//Terrorist\\
+[CHAR2700][V0500]
+That guy is pretty tough...[NLINE]
+But he's on his last legs.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $4E1C - STRING #31 @ $545D
+#W32($4E1C)
+//ルキアス\\
+//[CHAR2700][V0600]
+//…ん…？[NLINE]
+//血の臭いがする。[END-FE]
+//Rukias\\
+[CHAR2700][V0600]
+...Hmm...?[NLINE]
+I smell blood.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $4E20 - STRING #32 @ $5482
+#W32($4E20)
+//ユリィ\\
+//[CHAR2700][V0700]
+//あ、あれです！[END-FE]
+//Yurii\\
+[CHAR2700][V0700]
+Ah, over there![END-FE]
+
+
+
+
+
+//POINTER #33 @ $4E24 - STRING #33 @ $549B
+#W32($4E24)
+//ウェンディ\\
+//[CHAR2700][V0800]
+//隊商が襲われている？[NLINE]
+//助けましょう！[END-FE]
+//Wendy\\
+[CHAR2700][V0800]
+Is a caravan being attacked?[NLINE]
+Let's help them![END-FE]
+
+
+
+
+
+//POINTER #34 @ $4E28 - STRING #34 @ $54CA
+#W32($4E28)
+//・テロリストの全滅[END-FE]
+・All terrorists are defeated[END-FE]
+
+
+
+
+
+//POINTER #35 @ $4E2C - STRING #35 @ $54DF
+#W32($4E2C)
+//・商人の死亡[NLINE]
+//・護衛役の死亡[NLINE]
+//・キャリィの全滅[NLINE]
+//・パーティーの全滅[END-FE]
+・One of the merchants dies[NLINE]
+・The merchant's escort guard dies[NLINE]
+・All Steeds die[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #36 @ $4E30 - STRING #36 @ $5524
+#W32($4E30)
+//戦闘スキップする？[END-FE]
+Would you like to skip the battle?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $4E34 - STRING #37 @ $5539
+#W32($4E34)
+//なんだ貴様ら、我々の物資徴用を[NLINE]
+//邪魔だてするか！[END-FE]
+So you meddlers want to prevent us[NLINE]
+from obtaining materials!?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4E38 - STRING #38 @ $556C
+#W32($4E38)
+//ウェンディ\\
+//やってることは要するに強盗じゃないの！[NLINE]
+//そんな理屈が通ると思ってるの？！[END-FE]
+//Wendy\\
+What you're doing is robbery![NLINE]
+Don't you see that!?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $4E3C - STRING #39 @ $55B7
+#W32($4E3C)
+//フォメロス国軍兵士\\
+//[CHAR2700][V1700]
+//あ、あの！[END-FE]
+//Fomeros Soldier\\
+[CHAR2700][V1700]
+E-excuse me![END-FE]
+
+
+
+
+
+//POINTER #40 @ $4E40 - STRING #40 @ $55CC
+#W32($4E40)
+//ウェンディ\\
+//[CHAR2700][V1800]
+//えっ？[END-FE]
+//Wendy\\
+[CHAR2700][V1800]
+Hmmm?[END-FE]
+
+
+
+
+
+//POINTER #41 @ $4E44 - STRING #41 @ $55DD
+#W32($4E44)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $4E48 - STRING #42 @ $55F4
+#W32($4E48)
+//自動Ｄ　戦闘０３＿２後[END-FE]
+自動D　戦闘03_2後[END-FE]
+
+
+
+
+
+//POINTER #43 @ $4E4C - STRING #43 @ $560D
+#W32($4E4C)
+//フォメロス国軍兵士\\
+//[CHAR2700][V1700]
+//あ、あの！[END-FE]
+//Fomeros Soldier\\
+[CHAR2700][V1700]
+E-excuse me![END-FE]
+
+
+
+
+
+//POINTER #44 @ $4E50 - STRING #44 @ $5622
+#W32($4E50)
+//[CHAR2700][V1800]
+//えっ？[END-FE]
+[CHAR2700][V1800]
+Hmmm?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $4E54 - STRING #45 @ $5633
+#W32($4E54)
+//ま、まずいな…[END-FE]
+T-this is bad...[END-FE]
+
+
+
+
+
+//POINTER #46 @ $4E58 - STRING #46 @ $5644
+#W32($4E58)
+//し、死ぬ、死んじゃう…[END-FE]
+I-I'm dying...[END-FE]
+
+
+
+
+
+//POINTER #47 @ $4E5C - STRING #47 @ $565D
+#W32($4E5C)
+//い、痛い…[END-FE]
+O-ow![END-FE]
+
+
+
+
+
+//POINTER #48 @ $4E60 - STRING #48 @ $566A
+#W32($4E60)
+//ま、まさか…こんな…。[END-FE]
+N-no...this cannot be...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4E64 - STRING #49 @ $5683
+#W32($4E64)
+//そ…そんな…[END-FE]
+N-no...[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4E68 - STRING #50 @ $5692
+#W32($4E68)
+//そ…そんな…[END-FE]
+N-no...[END-FE]
+
+
+
+
+
+//POINTER #51 @ $4E6C - STRING #51 @ $56A1
+#W32($4E6C)
+//うわ、手綱が！[NLINE]
+//キャリィが逃げる！[NWIN]
+//
+//頼む、あいつを連れ戻してくれ！[END-FE]
+Aah, I lost the rein![NLINE]
+The Steed is running away![NWIN]
+
+Please bring it back![END-FE]
+
+
+
+
+
+//POINTER #52 @ $4E70 - STRING #52 @ $56E6
+#W32($4E70)
+//・商人の死亡[NLINE]
+//・護衛役の死亡[NLINE]
+//・キャリィの全滅、または逃走[NLINE]
+//・パーティーの全滅[END-FE]
+・One of the merchants die[NLINE]
+・The merchant's escort guard dies[NLINE]
+・All Steeds die or run away[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #53 @ $4E74 - STRING #53 @ $5737
+#W32($4E74)
+//キュピョ！[END-FE]
+Gyup![END-FE]
+
+
+
+
+
+//POINTER #54 @ $4E78 - STRING #54 @ $5744
+#W32($4E78)
+//キュピョ！[END-FE]
+Gyup![END-FE]
+
+
+
+
+
+//POINTER #55 @ $4E7C - STRING #55 @ $5751
+#W32($4E7C)
+//キュピョ！[END-FE]
+Gyup![END-FE]
+
+
+
+
+
+//POINTER #56 @ $4E80 - STRING #56 @ $575E
+#W32($4E80)
+//キュピ！[END-FE]
+Gyup![END-FE]
+
+
+
+
+
+//POINTER #57 @ $4E84 - STRING #57 @ $5769
+#W32($4E84)
+//落ち着いてください、[NLINE]
+//大丈夫ですから…。[END-FE]
+Please calm down, it's[NLINE]
+alright...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $4E88 - STRING #58 @ $5794
+#W32($4E88)
+//キュピ！[END-FE]
+Gyup![END-FE]
+
+
+
+
+
+//POINTER #59 @ $4E8C - STRING #59 @ $579F
+#W32($4E8C)
+//ほーら怖くない怖くない…[END-FE]
+Hey, take it easy, take it easy...[END-FE]
+
+
+
+
+
+//POINTER #60 @ $4E90 - STRING #60 @ $57BA
+#W32($4E90)
+//キュピ！[END-FE]
+Gyup![END-FE]
+
+
+
+
+
+//POINTER #61 @ $4E94 - STRING #61 @ $57C5
+#W32($4E94)
+//くそ、落ち着けったら！[NLINE]
+//飼い主のところに戻れ！[END-FE]
+Damnit, I said calm down![NLINE]
+Return to your owner![END-FE]
+
+
+
+
+
+//POINTER #62 @ $4E98 - STRING #62 @ $57F6
+#W32($4E98)
+//　[NLINE]
+//キャリィは落ち着きを取り戻した！[END-FE]
+[NLINE]
+The Steed calmed down![END-FE]
+
+
+
+
+
+//POINTER #63 @ $4E9C - STRING #63 @ $581D
+#W32($4E9C)
+//キュイ！！[END-FE]
+Kweeeh!![END-FE]
+
+
+
+
+
+//POINTER #64 @ $4EA0 - STRING #64 @ $582A
+#W32($4EA0)
+//　[NLINE]
+//キャリィは森のいずこかへと消えた！[NLINE]
+//[END-FE]
+[NLINE]
+The Steed disappeared somewhere into the forest![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #65 @ $4EA4 - STRING #65 @ $5855
+#W32($4EA4)
+//ああ……大事な商品が…[END-FE]
+Aaah... our valuable merchandise...[END-FE]
+
+
+
+
+
+//POINTER #66 @ $4EA8 - STRING #66 @ $586E
+#W32($4EA8)
+//うぅ…、[NLINE]
+//商品が全部…[NLINE]
+//もう、だめだよ…。[END-FE]
+Oh no...[NLINE]
+All of our merchandise...[NLINE]
+We're done for...[END-FE]
+
+
+
+
+
+//POINTER #67 @ $4EAC - STRING #67 @ $589B
+#W32($4EAC)
+//うわぁっ！[NLINE]
+//商品がぁ！[END-FE]
+Uwaa![NLINE]
+The merchandise![END-FE]
+
+
+
+
+
+//POINTER #68 @ $4EB0 - STRING #68 @ $58B4
+#W32($4EB0)
+//ま、また商品が～！[END-FE]
+M-more merchandise gone![END-FE]
+
+
+
+
+
+//POINTER #69 @ $4EB4 - STRING #69 @ $58C9
+#W32($4EB4)
+//うぅ…、[NLINE]
+//商品が全部…[NLINE]
+//もう、だめだよ…。[END-FE]
+Oh no...[NLINE]
+All of our merchandise...[NLINE]
+We're done for...[END-FE]
+
+
+
+
+
+//POINTER #70 @ $4EB8 - STRING #70 @ $58F6
+#W32($4EB8)
+//[CHAR2700][V0900]
+//助けてくれてありがとう。[END-FE]
+[CHAR2700][V0900]
+Thank you for helping me.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $4EBC - STRING #71 @ $5919
+#W32($4EBC)
+//[CHAR2700][V0A00]
+//襲撃地点とはまだなのか？[END-FE]
+[CHAR2700][V0A00]
+We still haven't reached the battle site yet?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $4EC0 - STRING #72 @ $593C
+#W32($4EC0)
+//[CHAR2700][V0B00]
+//もうすぐです！[END-FE]
+[CHAR2700][V0B00]
+We're almost there![END-FE]
+
+
+
+
+
+//POINTER #73 @ $4EC4 - STRING #73 @ $5955
+#W32($4EC4)
+//[CHAR2700][V0C00]
+//あ、あれです！[END-FE]
+[CHAR2700][V0C00]
+Ah, over there![END-FE]
+
+
+
+
+
+//POINTER #74 @ $4EC8 - STRING #74 @ $596E
+#W32($4EC8)
+//[CHAR2700][V0D00]
+//むっ、アレは!?[END-FE]
+[CHAR2700][V0D00]
+Ah! Could he be...!?[END-FE]
+
+
+
+
+
+//POINTER #75 @ $4ECC - STRING #75 @ $5987
+#W32($4ECC)
+//[CHAR2700][V0E00]
+//やばい…。[END-FE]
+[CHAR2700][V0E00]
+Uh-oh...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $4ED0 - STRING #76 @ $599C
+#W32($4ED0)
+//[CHAR2700][V0F00]
+//隊長殿、[NLINE]
+//私は先に街に行かせてもらいます。[END-FE]
+[CHAR2700][V0F00]
+Captain, I will go ahead to the city.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $4ED4 - STRING #77 @ $59D1
+#W32($4ED4)
+//無実の逃亡者[END-FE]
+Innocent Fugitive[END-FE]
+
+
+
+
+
+//POINTER #78 @ $4ED8 - STRING #78 @ $59E0
+#W32($4ED8)
+//[CHAR2700][V1000]
+//あ、ホフマンさん！[END-FE]
+[CHAR2700][V1000]
+Ah, Hofman![END-FE]
+
+
+
+
+
+//POINTER #79 @ $4EDC - STRING #79 @ $59FD
+#W32($4EDC)
+//[CHAR2700][V1100]
+//今のは…、[NLINE]
+//ホフマンなのか…？[NWIN]
+//
+//[CHAR2700][V1200]
+//いや、[NLINE]
+//今はこっちのことが先決だな。[END-FE]
+[CHAR2700][V1100]
+Was that Hofman just now...?[NWIN]
+
+[CHAR2700][V1200]
+No, this matter takes priority[NLINE]
+right now.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $4EE0 - STRING #80 @ $5A54
+#W32($4EE0)
+//[CHAR2700][V1300]
+//みなさん、大丈夫でしたか？[END-FE]
+[CHAR2700][V1300]
+Are you alright, everyone?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $4EE4 - STRING #81 @ $5A79
+#W32($4EE4)
+//[CHAR2700][V1400]
+//ええ、通りかかったこの人たちが[NLINE]
+//加勢してくれて、何とか…。[END-FE]
+[CHAR2700][V1400]
+Yes, these people that were[NLINE]
+passing by helped us.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $4EE8 - STRING #82 @ $5ABE
+#W32($4EE8)
+//[CHAR2700][V1500]
+//そうですか。[NLINE]
+//君たち、ありがとう。[NWIN]
+//
+//[CHAR2700][V1600]
+//街はもうすぐです。[NLINE]
+//私たちが護衛しましょう。[END-FE]
+[CHAR2700][V1500]
+I see.[NLINE]
+You have our thanks.[NWIN]
+
+[CHAR2700][V1600]
+The city is close.[NLINE]
+We shall escort you.[END-FE]
+
+
+
+
+
+//POINTER #83 @ $4EEC - STRING #83 @ $5B21
+#W32($4EEC)
+//ありがとうございます。[NLINE]
+//おかげで助かりました。[END-FE]
+Thank you very much.[NLINE]
+We made it thanks to you.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $4EF0 - STRING #84 @ $5B52
+#W32($4EF0)
+//た、助けてください～！[END-FE]
+P-please help me![END-FE]
+
+
+
+
+
+//POINTER #85 @ $4EF4 - STRING #85 @ $5B6B
+#W32($4EF4)
+//いやぁ、なかなかお強いですな！[NLINE]
+//本当に助かりました。[END-FE]
+It seems you and your friends are pretty strong![NLINE]
+You really helped us out.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $4EF8 - STRING #86 @ $5BA2
+#W32($4EF8)
+//わ、私たちは[NLINE]
+//荷物を届けないと[NLINE]
+//いけないんです～！[END-FE]
+W-we have to deliver our goods![NLINE]
+[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #87 @ $4EFC - STRING #87 @ $5BD7
+#W32($4EFC)
+//ご協力に感謝します！[NLINE]
+//道中、お気をつけて。[END-FE]
+Thank you for your help.[NLINE]
+Please be careful on your journey.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $4F00 - STRING #88 @ $5C04
+#W32($4F00)
+//隊商を助けていただいて、[NLINE]
+//ありがとうございました。[NLINE]
+//道中、お気をつけて！[END-FE]
+Thank you for saving our caravan.[NLINE]
+Please be careful on your journey![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #89 @ $4F04 - STRING #89 @ $5C4F
+#W32($4F04)
+//君たちが助けてくれたんだね！[NLINE]
+//本当にありがとう！[NLINE]
+//いやぁ、よくあの数を倒せたね！[END-FE]
+You guys really helped us out![NLINE]
+Thanks a lot! I can't believe[NLINE]
+you were able to defeat that many![END-FE]
+
+
+
+
+
+//POINTER #90 @ $4F08 - STRING #90 @ $5CA2
+#W32($4F08)
+//[CHAR2700][V1900]
+//テロリストから商人たちを[NLINE]
+//守ってくださったそうで。[NLINE]
+//ご協力に感謝します！[END-FE]
+[CHAR2700][V1900]
+Thank you for protecting[NLINE]
+the merchants from the[NLINE]
+terrorists![END-FE]
+
+
+
+
+
+//POINTER #91 @ $4F0C - STRING #91 @ $5CF5
+#W32($4F0C)
+//・返事を返す[END-FE]
+・Reply[END-FE]
+
+
+
+
+
+//POINTER #92 @ $4F10 - STRING #92 @ $5D04
+#W32($4F10)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #93 @ $4F14 - STRING #93 @ $5D13
+#W32($4F14)
+//[CHAR2700][V1A00]
+//ここのところテロリストが、[NLINE]
+//なりを潜めていたんで、[NLINE]
+//すっかり油断していましたよ。[NWIN]
+//
+//[CHAR2700][V1B00]
+//何か変わったことはありませんでしたか？[END-FE]
+[CHAR2700][V1A00]
+The recent terrorists have ceased their[NLINE]
+activities lately, so we were[NLINE]
+caught completely off guard.[NWIN]
+
+[CHAR2700][V1B00]
+Has something changed?[END-FE]
+
+
+
+
+
+//POINTER #94 @ $4F18 - STRING #94 @ $5D9E
+#W32($4F18)
+//[CHAR2700][V1C00]
+//ごめんなさい、[NLINE]
+//私たちにはちょっと…。[NWIN]
+//
+//[CHAR2700][V1D00]
+//それより、最近のテロリストって[NLINE]
+//どういうことですか？[END-FE]
+[CHAR2700][V1C00]
+I'm sorry, we have no idea...[NWIN]
+
+[CHAR2700][V1D00]
+Anyway, what do you mean with[NLINE]
+recent terrorists?[END-FE]
+
+
+
+
+
+//POINTER #95 @ $4F1C - STRING #95 @ $5E0D
+#W32($4F1C)
+//[CHAR2700][V1E00]
+//テロリストのくせに、[NLINE]
+//テロ行為がめっきり減りましたね。[NLINE]
+//組織だった行動で統制が取れてきたようです。[NWIN]
+//
+//[CHAR2700][V1F00]
+//ここまで来ると、もうテロリストではなく、[NLINE]
+//反政府組織…レジスタンスですね。[END-FE]
+[CHAR2700][V1E00]
+Terrorist attacks have decreased[NLINE]
+remarkably. It seems their activities[NLINE]
+have become more organized.[NWIN]
+
+[CHAR2700][V1F00]
+At this point, they're no longer[NLINE]
+a terrorist group. Instead, they've[NLINE]
+become an anti-government organization...[NLINE]
+... A resistance.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $4F20 - STRING #96 @ $5ECE
+#W32($4F20)
+//[CHAR2700][V2000]
+//レジスタンス…。[END-FE]
+[CHAR2700][V2000]
+A resistance...[END-FE]
+
+
+
+
+
+//POINTER #97 @ $4F24 - STRING #97 @ $5EE9
+#W32($4F24)
+//[CHAR2700][V2100]
+//まだあくまでも噂ですが、[NLINE]
+//すごくカリスマがある人物が[NLINE]
+//呼びかけているとか…。[NWIN]
+//
+//[CHAR2700][V2200]
+//だから、今回のような襲撃は[NLINE]
+//ひょっとしたらテロに見せかけた[NLINE]
+//野盗かも知れませんな。[NWIN]
+//
+//[CHAR2700][V2300]
+//ともかく、旅をなさるなら、[NLINE]
+//お気をつけください。[END-FE]
+[CHAR2700][V2100]
+It's still only rumor, but[NLINE]
+I heard that a very charismatic[NLINE]
+man rallied the various terrorist[NLINE]
+groups around him...[NWIN]
+
+[CHAR2700][V2200]
+Therefore, the attack just now[NLINE]
+may just have been banditry disguised[NLINE]
+as terrorism.[NWIN]
+
+[CHAR2700][V2300]
+At any rate, please be careful[NLINE]
+on your travels.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $4F28 - STRING #98 @ $5FD6
+#W32($4F28)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #99 @ $4F2C - STRING #99 @ $5FED
+#W32($4F2C)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #100 @ $4F30 - STRING #100 @ $5FFC
+#W32($4F30)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #101 @ $4F34 - STRING #101 @ $600B
+#W32($4F34)
+//・ユリィを食べたモンスターの逃走[NLINE]
+//・パーティーの全滅[END-FE]
+・The monster that ate Yurii escapes[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #102 @ $4F38 - STRING #102 @ $6042
+#W32($4F38)
+//・ユリィを食べたモンスターの逃走[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The monster that ate Yurii escapes[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #103 @ $4F3C - STRING #103 @ $6089
+#W32($4F3C)
+//・コリンを食べたモンスターの逃走[NLINE]
+//・パーティーの全滅[END-FE]
+・The monster that ate Korin escapes[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #104 @ $4F40 - STRING #104 @ $60C0
+#W32($4F40)
+//・コリンを食べたモンスターの逃走[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The monster that ate Korin escapes[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #105 @ $4F44 - STRING #105 @ $6107
+#W32($4F44)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #106 @ $4F48 - STRING #106 @ $611C
+#W32($4F48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #107 @ $4F4C - STRING #107 @ $6141
+#W32($4F4C)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #108 @ $4F50 - STRING #108 @ $6156
+#W32($4F50)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #109 @ $4F54 - STRING #109 @ $617B
+#W32($4F54)
+//[CHARD003][V1700]
+//きゃあー、勇者様ー！[END-FE]
+[CHARD003][V1700]
+Aaaah! Brave Guard![END-FE]
+
+
+
+
+
+//POINTER #110 @ $4F58 - STRING #110 @ $619A
+#W32($4F58)
+//た～す～け～て～！[END-FE]
+HEEELP MEEE![END-FE]
+
+
+
+

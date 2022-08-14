@@ -1,0 +1,5481 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $790, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($790)
+#HDR($790)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $790
+#W32($A0)
+//二刀流の練習に用いられる青銅製の剣。[NLINE]
+//ケガをしないように、先を丸めており、また[NLINE]
+//強度も低いため、威力は低い。[END-FF]
+A bronze sword used for practicing[NLINE]
+dual wielding. The point is rounded[NLINE]
+to avoid injury.[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $7FF
+#W32($A4)
+//二刀流で戦いやすいように重量配分された[NLINE]
+//鋼の双刀。[END-FF]
+Steel sword whose weight is evenly[NLINE]
+distributed to make it easier to[NLINE]
+fight with two swords.[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $834
+#W32($A8)
+//切れ味の鋭いロングソードを二刀流用に[NLINE]
+//改良した剣。扱いづらいのが難点。[END-FF]
+Long swords with sharp blades.[NLINE]
+Difficult for novices to handle.[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $87D
+#W32($AC)
+//軽く作られた刀身を使った、二刀流用の剣。[NLINE]
+//扱いやすく、次々と攻撃を繰り出しやすい反面、[NLINE]
+//威力は低くなってしまう。[END-FF]
+Double-edged swords with light blades.[NLINE]
+Easy to make consecutive attacks. The[NLINE]
+power is reduced due to low strength.[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $8F0
+#W32($B0)
+//状況に応じて、逆手にも持ち替えやすいように[NLINE]
+//改良された剣。予想外の攻撃で、相手に避ける[NLINE]
+//ヒマを与えない。　　　　　　　　　　[COL09]命中率UP[END-FF]
+Swords that are easy to switch,[NLINE]
+allowing unpredictable attacks.[NLINE]
+[COL09]Bonus: Hit Ratio Up[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $97A
+#W32($B4)
+//剣闘士たちが好んで使う、実戦的な双剣。[NLINE]
+//無骨な作りだが、重量配分に優れ、扱いやすい。[NLINE]
+//　　　　　　　　　　　　　　　　　　　[COL09]回避UP[END-FF]
+Practical swords used by gladiators.[NLINE]
+Roughly made but easy to use.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $A02
+#W32($B8)
+//大きなつばを持つ特殊な双刀。手元に重心をおき[NLINE]
+//相手の攻撃を受け流しやすくなっている。[NLINE]
+//ダメージを軽減する目的で使われる。[END-FF]
+Twin swords with large collars for[NLINE]
+additional protection and stability.[NLINE]
+Allows easy parrying.[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $A7D
+#W32($BC)
+//東方で使われる大小の刀。[NLINE]
+//非常に鋭い切れ味を誇る。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+One long and one short sword used in[NLINE]
+the east. Boasts very sharp edges.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $AE3
+#W32($C0)
+//先端に向かって幅広になる刀身を持つ、片刃の[NLINE]
+//湾刀。軽く持ちやすいため、二刀流に適している。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Single-edged sword with a wide tip.[NLINE]
+Suitable for dual weilding.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $B71
+#W32($C4)
+//二刀流の騎士たちが愛用する、大小の剣。[NLINE]
+//名工が作った剣だけに、重量のわりに扱いやすく、[NLINE]
+//優れた殺傷能力を誇る。[END-FF]
+Dual swords loved by knights.[NLINE]
+Easy to handle with excellent[NLINE]
+lethality.[END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $BE2
+#W32($C8)
+//一振りに氷のルーン。もう一振りに炎のルーンを[NLINE]
+//与えた魔法剣。相手の弱点に合わせ、攻撃を[NLINE]
+//変えられる利点を持つ。　　　　　[COL09]炎・冷属性攻撃[END-FF]
+Magic swords, one imbued with fire[NLINE]
+and the other with ice.[NLINE]
+[COL09]Bonus: Fire / Ice[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $C6E
+#W32($CC)
+//高名な聖女が、一昼夜祈りをささげた聖なる剣。[NLINE]
+//邪悪な魔物を倒すために、用意されたという。[NLINE]
+//　　[COL09]戦闘時、一定時間ごとにＨＰ回復・[COL09]聖属性攻撃[END-FF]
+Holy sword blessed with the prayers of[NLINE]
+a saint. Capable of slaying demons.[NLINE]
+[COL09]Bonus: Holy / HP Regenerate[END-FF]
+
+
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $CFF
+#W32($D0)
+//攻撃時、刀身に稲光が現れる魔法剣。かつては[NLINE]
+//雷を自在に操る力をもっていたとされる。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]雷属性攻撃[END-FF]
+Magic sword that summons lightning[NLINE]
+upon impact.[NLINE]
+[COL09]Bonus: Lightning[END-FF]
+
+
+
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $D87
+#W32($D4)
+//波紋のような模様が特徴の、異国の湾刀。[NLINE]
+//しなやかで刃こぼれせず、錆びることもない。[NLINE]
+//　　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Foreign sword with a ripple pattern.[NLINE]
+Flexible and resistant to rust.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $E0F
+#W32($D8)
+//振るうと低いうなり音を立てる剣。[NLINE]
+//刀身の特殊な形状により、重い攻撃を放ち、[NLINE]
+//相手をよろめかせる効果がある。　　[COL09]追加硬直UP[END-FF]
+Sword that vibrates upon impact.[NLINE]
+Can cause the enemy to stagger.[NLINE]
+[COL09]Bonus: Stun[END-FF]
+
+
+
+
+
+//POINTER #15 @ $DC - STRING #15 @ $E8D
+#W32($DC)
+//鏡のようにみがき込まれた刀身で光を反射し、[NLINE]
+//攻撃時に相手の目をくらませることが出来る剣。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]命中率UP[END-FF]
+Sword that can blind the opponenet.[NLINE]
+Reflects light with a mirror-like blade.[NLINE]
+[COL09]Bonus: Hit Ratio Up[END-FF]
+
+
+
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $F19
+#W32($E0)
+//相手の頭部を強打することに特化した双剣。[NLINE]
+//重い刀身を持ち、相手が気絶しやすくなるよう[NLINE]
+//工夫されている。　　　　　　　　　[COL09]追加硬直UP[END-FF]
+Heavy swords specialized in smashing the[NLINE]
+opponent's head, easily causing fainting.[NLINE]
+[COL09]Bonus: Stun[END-FF]
+
+
+
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $FA1
+#W32($E4)
+//北方の覇王が持っていたとされる双剣。[NLINE]
+//豪華な装飾に目を奪われがちだが、非常に高い[NLINE]
+//実用性を持っている。[END-FF]
+Dual swords claimed to have been used by[NLINE]
+the northern kings. Luxurious and expensive,[NLINE]
+yet still practical to use.[END-FF]
+
+
+
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $100A
+#W32($E8)
+//希少な魔法金属、ミスリル銀で作られた[NLINE]
+//軽量で切れ味の鋭い双刀。[END-FF]
+Lightweight swords made from a rare[NLINE]
+magical metal called mythril. Sharp[NLINE]
+and easy to use in pairs.[END-FF]
+
+
+
+
+
+//POINTER #19 @ $EC - STRING #19 @ $104B
+#W32($EC)
+//非常に重い刀身の双剣。相手を強くよろめかせ[NLINE]
+//気絶しやすくするが、扱うには優れた筋力が要求[NLINE]
+//される。　　　　　[COL09]追加硬直UP クリティカル率UP[END-FF]
+Very heavy dual swords that can strongly[NLINE]
+shake the opponent. Difficult to wield.[NLINE]
+[COL09]Bonus: Stun / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $10D8
+#W32($F0)
+//はるか東方の異国に伝わる伝説の双剣。[NLINE]
+//戦乱の時代の英雄が用いたとされ、自らが受けた[NLINE]
+//傷を相手にも返す力を持っている。[END-FF]
+Legendary dual swords from a far east[NLINE]
+country said to possess the spirit of[NLINE]
+a great war hero.[END-FF]
+
+
+
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $114F
+#W32($F4)
+//かつてソードマスターと呼ばれた英雄が愛用した、[NLINE]
+//二振りの魔法剣。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Magic swords that once belonged to[NLINE]
+a hero known as the Swordmaster.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $11C5
+#W32($F8)
+//刀身にミスリル製の微小な歯を持った特殊な双剣。[NLINE]
+//攻撃が当たった際に剣を引くことで、相手の鎧を[NLINE]
+//削り切り、致命傷を与えることができる。[END-FF]
+Special swords lined with mythril teeth[NLINE]
+along the edges. Can tear into the foe's[NLINE]
+armor and cause fatal wounds.[END-FF]
+
+
+
+
+
+//POINTER #23 @ $FC - STRING #23 @ $124C
+#W32($FC)
+//相手に掛かっている魔法効果を打ち消すことの[NLINE]
+//できる魔法剣。ただし状態異常をも打ち消す。[END-FF]
+Swords capable of negating any magical[NLINE]
+effects on the opponent.[END-FF]
+
+
+
+
+
+//POINTER #24 @ $100 - STRING #24 @ $12A5
+#W32($100)
+//空を舞う龍のように、刀身が波形にうねった双剣。[NLINE]
+//隕鉄製の刃は切れ味が非常に鋭く、刀身の形状の[NLINE]
+//ため殺傷能力も高い。　　　　　　　　[COL09]冷属性攻撃[END-FF]
+Twisted blades mimicking the body of a[NLINE]
+dragon in the sky. Very sharp and lethal.[NLINE]
+[COL09]Bonus: Ice[END-FF]
+
+
+
+
+
+//POINTER #25 @ $104 - STRING #25 @ $1337
+#W32($104)
+//十六夜の月の夜に、死者の弔いのために打たれた[NLINE]
+//御神刀。霊界へと霊を誘う風が宿っているという。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]風属性攻撃[END-FF]
+Swords used in a sacrificial ritual on[NLINE]
+the night of the sixteenth moon.[NLINE]
+[COL09]Bonus: Wind[END-FF]
+
+
+
+
+
+//POINTER #26 @ $108 - STRING #26 @ $13C9
+#W32($108)
+//多くの血を吸ってきた魔性の双剣。切り裂いた[NLINE]
+//相手の生気を吸い、持ち主に与える力があるという。[END-FF]
+Magical swords that suck the opponent's blood.[NLINE]
+Said to have the power to drain the opponent's[NLINE]
+life force and give it to the user.[END-FF]
+
+
+
+
+
+//POINTER #27 @ $10C - STRING #27 @ $1428
+#W32($10C)
+//北方の王、レグナルドが持っていたとされる、[NLINE]
+//二振りの名剣。リュシングとフィティングと[NLINE]
+//名付けられている。[END-FF]
+Swords named after a fallen king[NLINE]
+whose spirit is said to possess[NLINE]
+the blades.[END-FF]
+
+
+
+
+
+//POINTER #28 @ $110 - STRING #28 @ $1493
+#W32($110)
+//聖女が満月の夜に聖別した双剣。その夜が明けると、[NLINE]
+//ミスリル銀製の刀身が純白に変わることから、[NLINE]
+//この名がついた。　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Twin swords sanctified by a saint during[NLINE]
+a full moon. The blades glow at night.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #29 @ $114 - STRING #29 @ $1525
+#W32($114)
+//まがまがしい気を放つ、圧倒的な破壊力を持った[NLINE]
+//魔剣。持つ者には勝利と破滅をもたらすと[NLINE]
+//伝えられている。　　　[COL09]武器威力UP 自分にダメージ[END-FF]
+Swords with overwhelming destructive power that[NLINE]
+bring victory and ruin to those who wield them.[NLINE]
+[COL09]Bonus: Weapon Power Up / Damage to Self[END-FF]
+
+
+
+
+
+//POINTER #30 @ $118 - STRING #30 @ $15B0
+#W32($118)
+//太古の時代に作られた大ぶりの双剣。未知の[NLINE]
+//金属に、現在では失われた鍛造方法が用いられ、[NLINE]
+//非常に鋭い切れ味と強度を誇る。[END-FF]
+Large ancient swords made with a technique[NLINE]
+that has long been lost. Extremely strong[NLINE]
+and sharp.[END-FF]
+
+
+
+
+
+//POINTER #31 @ $11C - STRING #31 @ $1629
+#W32($11C)
+//天地創造に用いられたと言われている二振りの剣。[NLINE]
+//原始の混沌から、一振りが空を切り出し、もう[NLINE]
+//一振りが地を切り出したという。　[COL09]風・地属性攻撃[END-FF]
+Two swords used in the creation of the universe.[NLINE]
+One tears the sky, the other shakes the ground.[NLINE]
+[COL09]Bonus: Wind / Earth[END-FF]
+
+
+
+
+
+//POINTER #32 @ $120 - STRING #32 @ $16B9
+#W32($120)
+//切り裂かれた相手に対し、精神をかき乱す[NLINE]
+//悲鳴に似た音を聞かせるという魔剣。その音が、[NLINE]
+//相手に精神的ダメージを与えるという。[COL09]精属性攻撃[END-FF]
+Cursed sword that strikes with the sound of[NLINE]
+a deafening scream that can cause insanity.[NLINE]
+[COL09]Bonus: Spirit[END-FF]
+
+
+
+
+
+//POINTER #33 @ $124 - STRING #33 @ $1743
+#W32($124)
+//はるか東方にいたとされる伝説の剣豪、ムサシが[NLINE]
+//用いていたという双剣。細身で美しい刀身は、[NLINE]
+//凄まじい切れ味を誇る。[COL09]クリティカル率UP [COL09]回避UP[END-FF]
+Twin swords used by the legendary swordsman[NLINE]
+Musashi, boasting beautiful, slender blades.[NLINE]
+[COL09]Bonus: Critical Rate Up / Evade Up[END-FF]
+
+
+
+
+
+//POINTER #34 @ $128 - STRING #34 @ $17D3
+#W32($128)
+//異国の大地母神が、邪龍に挑む勇者に与えた双剣。[NLINE]
+//刀身には、大地と生命の調和を象る模様が刻まれて[NLINE]
+//おり、戦いの間、ＨＰを回復する効果をもつ。[END-FF]
+Twin swords presented to a hero that challenged[NLINE]
+the Earth Dragon. The blades represent harmony.[NLINE]
+It has the effect of restoring HP.[END-FF]
+
+
+
+
+
+//POINTER #35 @ $12C - STRING #35 @ $1860
+#W32($12C)
+//伝説の騎士ディアルミドが使っていた二振りの魔剣。[NLINE]
+//長剣はモラルタ、短剣はベガルタという名を持つ。[END-FF]
+Swords once used by the legendary knight[NLINE]
+Diarmuid. The long sword has the name Moralta[NLINE]
+and the short sword has the name Vegalta.[END-FF]
+
+
+
+
+
+//POINTER #36 @ $130 - STRING #36 @ $18C3
+#W32($130)
+//世界の理を二振りの太刀に秘した、異国の双刀。[NLINE]
+//光輝く太刀が陽、暗く影をまとった太刀が陰を表し、[NLINE]
+//万物を切り裂く力を宿している。[END-FF]
+Exotic twin swords. One represents light,[NLINE]
+the other represents shadow. They have the[NLINE]
+power to cut through all things.[END-FF]
+
+
+
+
+
+//POINTER #37 @ $134 - STRING #37 @ $1944
+#W32($134)
+//地獄の裁判神が持つとされる、伝説の魔剣。[NLINE]
+//死者の善行と悪行とを、その二振りの剣で計る[NLINE]
+//という。　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Legendary swords used in the trials of hell.[NLINE]
+One protects good, the other punishes evil.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #38 @ $138 - STRING #38 @ $19CC
+#W32($138)
+//インフィニトーが親衛隊隊長に与えた究極の双刀。[NLINE]
+//別世界で作られた魔剣で、刀身は虹色の光を放つ。[NLINE]
+//[COL09]　全属性攻撃（相手の最も苦手とする属性で攻撃）[END-FF]
+Ultimate swords forged by the Infinitor[NLINE]
+that shine with an iridescent light.[NLINE]
+[COL09]Bonus: Attack with the opponent's weakness[END-FF]
+
+
+
+
+
+//POINTER #39 @ $13C - STRING #39 @ $1A60
+#W32($13C)
+//別世界で作られた魔剣で、刀身は虹色の光を放つ。[NLINE]
+//前回のプレイまでの変換後装備品。[NLINE]
+//[COL09]　全属性攻撃（相手の最も苦手とする属性で攻撃）[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Attack with the opponent's weakness[END-FF]
+
+
+
+
+
+//POINTER #40 @ $140 - STRING #40 @ $1AE6
+#W32($140)
+//いつの間にか身につけていた剣。[NLINE]
+//夢の中でのみ装備者に魔法の力を与える。[END-FF]
+Mysterious swords that grant special[NLINE]
+abilities within dreams.[END-FF]
+
+
+
+
+
+//POINTER #41 @ $144 - STRING #41 @ $1B2F
+#W32($144)
+//扱いが難しいとされる竿状武器を練習するために[NLINE]
+//用いられる矛。穂先の部分は青銅製で、刃も丸めて[NLINE]
+//いるため、武器としての威力は低い。[END-FF]
+Basic spear with a bronze tip and a[NLINE]
+rounded blade. The power is low,[NLINE]
+making it suitable for rookies.[END-FF]
+
+
+
+
+
+//POINTER #42 @ $148 - STRING #42 @ $1BB2
+#W32($148)
+//丈夫な木の棒の先に、刀剣をつけただけの原始的な[NLINE]
+//武器。軽くて使いやすく安価。[END-FF]
+Simple polearm with a single-edged[NLINE]
+blade at the end of a wooden pole.[NLINE]
+Light, easy to use and inexpensive.[END-FF]
+
+
+
+
+
+//POINTER #43 @ $14C - STRING #43 @ $1C01
+#W32($14C)
+//毒竿とも呼ばれる、刃の部分に毒を塗った長槍。[NLINE]
+//斬りつけた相手に毒を与えることがある。[END-FF]
+Long spear with a poison-coated blade.[NLINE]
+Can cause opponents to get poisoned.[END-FF]
+
+
+
+
+
+//POINTER #44 @ $150 - STRING #44 @ $1C58
+#W32($150)
+//戦闘用に特別に作られた巨大な鎌。[NLINE]
+//その扱いは難しく特殊な訓練が必要とされる。[END-FF]
+Large scythe made for battle.[NLINE]
+It's difficult to use, requiring[NLINE]
+extensive training.[END-FF]
+
+
+
+
+
+//POINTER #45 @ $154 - STRING #45 @ $1CA7
+#W32($154)
+//長槍に斧とハンマーを取り付けたような竿状武器。[NLINE]
+//その重量と鋭い切っ先により、十分な破壊力を[NLINE]
+//持っている。　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Long pole with a hammer attached at the end.[NLINE]
+Its weight allows decent destructive power.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #46 @ $158 - STRING #46 @ $1D35
+#W32($158)
+//浄化作用があると言われる純銀で作られた大鎌。[NLINE]
+//マメに磨いていないと刃が曇ってしまう。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Large scythe made from purifying[NLINE]
+silver.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #47 @ $15C - STRING #47 @ $1DBF
+#W32($15C)
+//黒く神秘的な輝きを持つ黒曜石で作られた[NLINE]
+//刃を持った大鎌。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]地属性攻撃[END-FF]
+Large scythe made from beautiful[NLINE]
+black obsidian.[NLINE]
+[COL09]Bonus: Earth[END-FF]
+
+
+
+
+
+//POINTER #48 @ $160 - STRING #48 @ $1E2D
+#W32($160)
+//巨大な斧頭を持った竿状武器。[NLINE]
+//その重量から、高い破壊力を誇る。[NLINE]
+//[END-FF]
+Pole with a massive axe head.[NLINE]
+Its weight allows for high[NLINE]
+destructive power.[END-FF]
+
+
+
+
+
+//POINTER #49 @ $164 - STRING #49 @ $1E70
+#W32($164)
+//ハルバードの起源とされる竿状武器。[NLINE]
+//複雑な形状の穂先により、斬る、突く、叩く、[NLINE]
+//引っかけるという使い方が可能。[END-FF]
+Pole weapon that is considered to be the[NLINE]
+origin of the halberd. Can be used to[NLINE]
+hook the oppoenent's weapon.[END-FF]
+
+
+
+
+
+//POINTER #50 @ $168 - STRING #50 @ $1EE1
+#W32($168)
+//白い輝きを発し、大きく反った刃を持つ大鎌。[NLINE]
+//その形は三日月を連想させる。[END-FF]
+Scythe with a large warped blade that[NLINE]
+emits a white glow. Its shape resembles[NLINE]
+a crescent moon.[END-FF]
+
+
+
+
+
+//POINTER #51 @ $16C - STRING #51 @ $1F2C
+#W32($16C)
+//邪悪な生ける死者たちを滅ぼすため、七賢者が[NLINE]
+//製法をあみ出した神聖な槍。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Sacred spear made by the Seven Wise Men[NLINE]
+to destroy the wicked Lord of the Dead.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #52 @ $170 - STRING #52 @ $1FA8
+#W32($170)
+//長い刀身を持つ、巨大な斧のような竿状武器。[NLINE]
+//その重量により、すさまじい威力を誇っている。[END-FF]
+Short pole with a long, cleaver type[NLINE]
+blade. The weight of the blade makes[NLINE]
+it extremely powerful.[END-FF]
+
+
+
+
+
+//POINTER #53 @ $174 - STRING #53 @ $2003
+#W32($174)
+//白兵戦最強といわれる竿状武器。複雑な形状の[NLINE]
+//穂先を使いこなせば、斬る以外にも、突く、叩く、[NLINE]
+//引っかけるといった、多彩な攻撃が可能となる。[END-FF]
+Two-handed pole weapon with an axe blade[NLINE]
+topped with a spike mounted on a long rod.[NLINE]
+Very versatile when in skilled hands.[END-FF]
+
+
+
+
+
+//POINTER #54 @ $178 - STRING #54 @ $208E
+#W32($178)
+//東方で発展した槍のような武器で、月牙と呼ばれる[NLINE]
+//三日月状の横刃が片方についている。古代の英雄が[NLINE]
+//用いた強力な武器を模したもの。[END-FF]
+Halberd with a larger crescent-shaped[NLINE]
+blade that mimicks the legendary weapons[NLINE]
+used by ancient heroes.[END-FF]
+
+
+
+
+
+//POINTER #55 @ $17C - STRING #55 @ $210F
+#W32($17C)
+//風すらも断ち切るほど、素早い攻撃を繰り出せると[NLINE]
+//いわれる超軽量の竿状武器。その分、一撃の威力は[NLINE]
+//落ちるが、手数でカバーできる。　　　[COL09]風属性攻撃[END-FF]
+Ultra-lightweight spear that can cut[NLINE]
+through wind when used skillfully.[NLINE]
+[COL09]Bonus: Wind[END-FF]
+
+
+
+
+
+//POINTER #56 @ $180 - STRING #56 @ $21A3
+#W32($180)
+//魔力を付与され、より鋭い刃を持ち、切れ味の[NLINE]
+//鋭くなった大鎌。[END-FF]
+Large scythe enchanted to keep[NLINE]
+a sharp blade.[END-FF]
+
+
+
+
+
+//POINTER #57 @ $184 - STRING #57 @ $21E2
+#W32($184)
+//古代の強力な呪いがかかった戦斧。相手に強力な[NLINE]
+//毒を与えることもあるが、呪いのためか、防御が[NLINE]
+//おろそかになるという。[END-FF]
+Battle axe afflicted with an ancient[NLINE]
+curse. Said to bring misfortune to[NLINE]
+those struck by it.[END-FF]
+
+
+
+
+
+//POINTER #58 @ $188 - STRING #58 @ $2257
+#W32($188)
+//収穫祭において、女神役を務める女性が使用する[NLINE]
+//装飾が施された優美な大鎌。[END-FF]
+Beautifully decorated scythe used[NLINE]
+by the goddess' stand-in during the[NLINE]
+harvest festival.[END-FF]
+
+
+
+
+
+//POINTER #59 @ $18C - STRING #59 @ $22A2
+#W32($18C)
+//羽のような形をした、巨大な刀剣をつけたグレイブ。[NLINE]
+//刃先は翼の羽根のように波打っており、傷口を広げ[NLINE]
+//殺傷能力を高める効果をもつ。[END-FF]
+Glaive with a large blade shaped like[NLINE]
+a feather. The wavy edge of the blade[NLINE]
+can cause large, fatal wounds.[END-FF]
+
+
+
+
+
+//POINTER #60 @ $190 - STRING #60 @ $2323
+#W32($190)
+//熟練した使い手が扱うことで、素早い突きが[NLINE]
+//繰り出せる神秘の槍。突きの残像がいくつも見える[NLINE]
+//ことから、この名がつけられた。[END-FF]
+Mysterious spear that can be used to make[NLINE]
+quick thrusts. It gets its name from the[NLINE]
+afterimage created by each thrust.[END-FF]
+
+
+
+
+
+//POINTER #61 @ $194 - STRING #61 @ $239E
+#W32($194)
+//石化の呪いをもつ凶悪なモンスター、バジリスクの[NLINE]
+//一部を切っ先に用いた竿状武器。その血に潜む[NLINE]
+//呪いの力で、相手を石化させることがあるという。[END-FF]
+Spear cursed with the power of[NLINE]
+a heinous monster that can[NLINE]
+cause petrification.[END-FF]
+
+
+
+
+
+//POINTER #62 @ $198 - STRING #62 @ $242B
+#W32($198)
+//獲物の手足の腱を切断して行動不能に追い込むため[NLINE]
+//取り回しの良さを工夫し、切れ味を強化した大鎌。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Scythe made to cut the enemy's[NLINE]
+tendons to prevent it from moving.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #63 @ $19C - STRING #63 @ $24BD
+#W32($19C)
+//永久凍土に覆われたゲンドゥール島にある、決して[NLINE]
+//溶けることのない氷を穂先に使った竿状武器。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]冷属性攻撃[END-FF]
+Spear tipped with a rare crystal[NLINE]
+that's always cold as ice.[NLINE]
+[COL09]Bonus: Ice[END-FF]
+
+
+
+
+
+//POINTER #64 @ $1A0 - STRING #64 @ $254D
+#W32($1A0)
+//炎の精霊を封じ込めた、魔法の槍。消えることなく[NLINE]
+//吹き出し続ける灼熱の炎は、その高熱で相手を[NLINE]
+//焼き尽くすという。　　　　　　　　　[COL09]炎属性攻撃[END-FF]
+Magical spear that contains fire spirits.[NLINE]
+Its tip is always scorching hot.[NLINE]
+[COL09]Bonus: Fire[END-FF]
+
+
+
+
+
+//POINTER #65 @ $1A4 - STRING #65 @ $25DD
+#W32($1A4)
+//殺人狂と呼ばれた、ヴァルタム侯爵が愛用した戦斧。[NLINE]
+//人の血を吸うと、穂先が赤く変色し、持つ者に[NLINE]
+//相手の生気を与えるという。[END-FF]
+Axe once used in a faraway land by a[NLINE]
+frenzied man to commit murder. Its blade[NLINE]
+glows red when soaked with blood.[END-FF]
+
+
+
+
+
+//POINTER #66 @ $1A8 - STRING #66 @ $2658
+#W32($1A8)
+//魔法によって精錬された金属、ミスリルによって[NLINE]
+//作られた大鎌。軽く、切れ味が鋭い。[END-FF]
+Scythe made from mythril.[NLINE]
+Lightweight, yet very sharp.[END-FF]
+
+
+
+
+
+//POINTER #67 @ $1AC - STRING #67 @ $26AB
+#W32($1AC)
+//血と戦いを求める呪われた毒槍。穂先が灼熱を[NLINE]
+//放つため、大釜で保管されている。その熱で、[NLINE]
+//攻撃をしてきた者にダメージを与える。[COL09]炎属性攻撃[END-FF]
+Mythical spear whose tip has to be kept[NLINE]
+immersed in water to keep it from igniting.[NLINE]
+[COL09]Bonus: Fire[END-FF]
+
+
+
+
+
+//POINTER #68 @ $1B0 - STRING #68 @ $2737
+#W32($1B0)
+//その刃に斬りつけられると、肉体だけではなく[NLINE]
+//魂も傷つくと恐れられる大鎌。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Large scythe that cuts not only[NLINE]
+flesh but also souls.[END-FF]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #69 @ $1B4 - STRING #69 @ $27B5
+#W32($1B4)
+//棍棒のように太い柄と、常人には持ち上げる事すら[NLINE]
+//出来ない穂先を持つ巨槍。常識を超えた重量により、[NLINE]
+//攻撃時のスキができるが、相手が気絶しやすくなる。[END-FF]
+Very heavy mythical spear that can cause[NLINE]
+the opponent to faint with a single blow.[NLINE]
+Requires great skill to handle.[END-FF]
+
+
+
+
+
+//POINTER #70 @ $1B8 - STRING #70 @ $284A
+#W32($1B8)
+//死神がその手に持っているとされる巨大な鎌。刃に[NLINE]
+//宿った禍々しい力は、かすっただけでも、相手を[NLINE]
+//死に至らしめる事がある。　　[COL09]クリティカル率UP[END-FF]
+This scythe's evil power may kill[NLINE]
+opponents even if they dodge.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #71 @ $1BC - STRING #71 @ $28DA
+#W32($1BC)
+//東の果てにある国の名匠が、秘伝の技で鍛えた刃を[NLINE]
+//もつ槍。軽い一振りで４人の脛骨を断ったことから、[NLINE]
+//その名が付いた。[END-FF]
+Scythe forged by a master blacksmith[NLINE]
+from a foreign country. It boasts the[NLINE]
+ability to slice through bones.[END-FF]
+
+
+
+
+
+//POINTER #72 @ $1C0 - STRING #72 @ $294F
+#W32($1C0)
+//無数の矢じりが飛び出したかのように、相手を[NLINE]
+//ズタズタに刺し貫く伝説の魔槍。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Mythical spear made from a sea monster's bone.[NLINE]
+Pierces its enemies like countless arrows.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #73 @ $1C4 - STRING #73 @ $29CD
+#W32($1C4)
+//異国の破壊神が持つ力を象徴した三つ叉の槍。[NLINE]
+//その攻撃は、激しい雷光のように見えるという。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]雷属性攻撃[END-FF]
+Arrow-like trident that symbolizes[NLINE]
+the power of the god of lightning.[NLINE]
+[COL09]Bonus: Lightning[END-FF]
+
+
+
+
+
+//POINTER #74 @ $1C8 - STRING #74 @ $2A5B
+#W32($1C8)
+//世界の終わりの日、この鎌を持った女神が現れ[NLINE]
+//全ての者の命を刈り取ると言われる。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+It's said that on the last day, the[NLINE]
+goddess will reap all souls with this.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #75 @ $1CC - STRING #75 @ $2ADF
+#W32($1CC)
+//伝説の七聖者による祈りが込められ、特別に[NLINE]
+//聖別されたミスリル銀製の戦斧。石突には、七人の[NLINE]
+//聖遺物が入っている。　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Axe with the wishes of seven holy saints[NLINE]
+inscribed on its silver blade.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #76 @ $1D0 - STRING #76 @ $2B6D
+#W32($1D0)
+//北方の神がもつ必殺必中の槍。穂先にルーン文字が[NLINE]
+//記され、あらゆる鎧を貫く魔力を持つという。[NLINE]
+//　　　　[COL09]雷属性攻撃 命中率UP クリティカル率UP[END-FF]
+Mythical spear said to have belonged to a[NLINE]
+mighty god. It has runes inscribed on it.[NLINE]
+[COL09]Bonus: Lightning / Hit Ratio Up / Crit Rate Up[END-FF]
+
+
+
+
+
+//POINTER #77 @ $1D4 - STRING #77 @ $2BFB
+#W32($1D4)
+//東の最果てで、混沌から最初の大地を生み出したと[NLINE]
+//される伝説の矛。世界創造以前の未知の物質から[NLINE]
+//作られており、絶大な攻撃力を誇る。　[COL09]地属性攻撃[END-FF]
+Legendary jeweled spear used by the gods to[NLINE]
+raise the primordial land-mass.[NLINE]
+[COL09]Bonus: Earth[END-FF]
+
+
+
+
+
+//POINTER #78 @ $1D8 - STRING #78 @ $2C8D
+#W32($1D8)
+//東の最果てで、混沌から最初の大地を生み出したと[NLINE]
+//される伝説の矛。前回のプレイまでの変換後装備品。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]地属性攻撃[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Earth[END-FF]
+
+
+
+
+
+//POINTER #79 @ $1DC - STRING #79 @ $2D23
+#W32($1DC)
+//ウェ武器予備１[END-FF]
+Wendy W. Reserve 1[END-FF]
+
+
+
+
+
+//POINTER #80 @ $1E0 - STRING #80 @ $2D34
+#W32($1E0)
+//護身用に隠し持つ、刃の短い短剣。投げて使える[NLINE]
+//ようにも作られているが、作りが粗いため、[NLINE]
+//威力は低い。[END-FF]
+Cheap dagger that can be thrown.[NLINE]
+Suitable only for self defense.[END-FF]
+
+
+
+
+
+//POINTER #81 @ $1E4 - STRING #81 @ $2D9B
+#W32($1E4)
+//狩人たちがハンティングの際に用いるナイフ。[NLINE]
+//携帯性に優れ、十分な切れ味も持っている。[END-FF]
+Knife used by hunters for hunting.[NLINE]
+Very sharp and portable.[END-FF]
+
+
+
+
+
+//POINTER #82 @ $1E8 - STRING #82 @ $2DF2
+#W32($1E8)
+//投げて使うために重量配分されたダガー。[NLINE]
+//威力は低いが、あまり訓練を積まなくても目標に[NLINE]
+//当てやすいため、扱いやすい。　　　[COL09]射程距離UP[END-FF]
+Dagger with weight distributed for throwing.[NLINE]
+Weak in power, but easy to use.[NLINE]
+[COL09]Bonus: Attack Range Up[END-FF]
+
+
+
+
+
+//POINTER #83 @ $1EC - STRING #83 @ $2E7A
+#W32($1EC)
+//僧侶たちが護身用に身につけているナイフ。[NLINE]
+//聖水に浸し、聖別されている。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Knife kept by monks for self-defense.[NLINE]
+Soaked in holy water and sanctified.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #84 @ $1F0 - STRING #84 @ $2EF6
+#W32($1F0)
+//眠りのルーンを刻んだ短剣。[NLINE]
+//まれに相手を眠らせることがある。[END-FF]
+Dagger engraved with the rune of[NLINE]
+slumber. Occasionally puts the[NLINE]
+opponent to sleep.[END-FF]
+
+
+
+
+
+//POINTER #85 @ $1F4 - STRING #85 @ $2F35
+#W32($1F4)
+//波打った刃が特徴のナイフ。鋭い切れ味だけでなく、[NLINE]
+//刀身の美しい模様から、芸術品としても高い評価を[NLINE]
+//受けている。[END-FF]
+Lost dagger from a foreign land. Features[NLINE]
+a wavy blade with a beautiful pattern.[NLINE]
+Highly regarded among artisans.[END-FF]
+
+
+
+
+
+//POINTER #86 @ $1F8 - STRING #86 @ $2FA6
+#W32($1F8)
+//ナイフのような異国の武器。[NLINE]
+//非常に切れ味が鋭いため、高い殺傷能力を持つ。[END-FF]
+Particularly short foreign knife[NLINE]
+that is extremely lethal due to[NLINE]
+its sharpness.[END-FF]
+
+
+
+
+
+//POINTER #87 @ $1FC - STRING #87 @ $2FF1
+#W32($1FC)
+//兵士が格闘用に用いるナイフ。重厚で切れ味も鋭く、[NLINE]
+//殺傷能力が高い。[END-FF]
+A knife used by soldiers for[NLINE]
+fighting. Solid and sharp,[NLINE]
+has high lethality.[END-FF]
+
+
+
+
+
+//POINTER #88 @ $200 - STRING #88 @ $3036
+#W32($200)
+//威力の低さをおぎなうため、刃先にマヒ毒を塗った[NLINE]
+//スローイングダガー。まれに相手をマヒさせる[NLINE]
+//ことがある。[END-FF]
+Throwing dagger coated with a paralyzing[NLINE]
+poison. Low in power, but can occasionally[NLINE]
+stun the opponent.[END-FF]
+
+
+
+
+
+//POINTER #89 @ $204 - STRING #89 @ $30A1
+#W32($204)
+//素早く投げることだけを追求した短刀。[NLINE]
+//殺傷能力こそ低めだが、手数で敵を圧倒できる。[END-FF]
+Lightweight throwing knives that allow[NLINE]
+for quick attacks. Low in power, but can[NLINE]
+overwhelm the opponent with speed.[END-FF]
+
+
+
+
+
+//POINTER #90 @ $208 - STRING #90 @ $30F6
+#W32($208)
+//吸血鬼を倒す際に使われた白樫の杭。そのためか[NLINE]
+//微少な魔力を秘めており、並のナイフよりも[NLINE]
+//高い威力を持っている。　　　　　　　[COL09]聖属性攻撃[END-FF]
+Stake made from the wood of a magical[NLINE]
+white oak. Effective against vampires.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #91 @ $20C - STRING #91 @ $3182
+#W32($20C)
+//より正確に遠くまで飛ぶように改良されたナイフ。[NLINE]
+//飛距離の秘密は、つばの部分に付けられた、薄い[NLINE]
+//羽根にある。　　　　　　　　　　　[COL09]射程距離UP[END-FF]
+Dagger that flies farther than others.[NLINE]
+Has a feather attached to the hilt.[NLINE]
+[COL09]Bonus: Attack Range Up[END-FF]
+
+
+
+
+
+//POINTER #92 @ $210 - STRING #92 @ $3212
+#W32($210)
+//攻撃時に、電撃を発してより大きなダメージを[NLINE]
+//与えるように作られた魔法のダガー。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]雷属性攻撃[END-FF]
+Magic dagger that creates a shockwave[NLINE]
+upon impact.[NLINE]
+[COL09]Bonus: Lightning[END-FF]
+
+
+
+
+
+//POINTER #93 @ $214 - STRING #93 @ $3296
+#W32($214)
+//暗殺者たちが好んで使う、急所を狙うための細身の[NLINE]
+//ダガー。相手を死に至らしめるための、猛毒が[NLINE]
+//塗り込まれている。[END-FF]
+Pointy dagger often used by assassins.[NLINE]
+Coated with a deadly poison to make up[NLINE]
+for low physical strength.[END-FF]
+
+
+
+
+
+//POINTER #94 @ $218 - STRING #94 @ $3307
+#W32($218)
+//異国のニンジャと呼ばれる集団が使うという、[NLINE]
+//棒状の投げナイフ。使いこなすには厳しい訓練が[NLINE]
+//必要だが、高い殺傷能力を持っている。[END-FF]
+Metal spikes used as weapons in a[NLINE]
+foreign country. Requires strict[NLINE]
+training for proper use.[END-FF]
+
+
+
+
+
+//POINTER #95 @ $21C - STRING #95 @ $3388
+#W32($21C)
+//砂漠に住む、悪魔のトゲと呼ばれるサソリの毒を[NLINE]
+//刀身に塗った投げナイフ。まれに相手を猛毒で[NLINE]
+//侵すことがある。[END-FF]
+Throwing knife shaped like the sting of[NLINE]
+a deadly scorpion found in the desert.[NLINE]
+Can occasionally poison the opponent.[END-FF]
+
+
+
+
+
+//POINTER #96 @ $220 - STRING #96 @ $33F5
+#W32($220)
+//威力を増すために重りをつけたダーツ。重り部分が、[NLINE]
+//攻撃命中時に破裂するように出来ており、相手を[NLINE]
+//ひるませる効果も持っている。　　　　[COL09]硬直追加UP[END-FF]
+Darts specifically made heavy to increase[NLINE]
+power. Designed to burst on impact.[NLINE]
+[COL09]Bonus: Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #97 @ $224 - STRING #97 @ $3489
+#W32($224)
+//針のような刀身を持つ、ミスリル銀製の投げナイフ。[NLINE]
+//折らずに刺すには長い修練が必要だが、その分[NLINE]
+//並外れた貫通能力を持っている。　[COL09]追加効果：マヒ[END-FF]
+Throwing knife with a needle-like blade.[NLINE]
+Has extraordinary penetration ability.[NLINE]
+[COL09]Bonus: Paralyze[END-FF]
+
+
+
+
+
+//POINTER #98 @ $228 - STRING #98 @ $351B
+#W32($228)
+//素早く投げると炎の尾を引いて飛ぶことから、[NLINE]
+//その名がついた投げナイフ。炎の精霊の加護が[NLINE]
+//あるという。　　　　　　　　　　　　[COL09]炎属性攻撃[END-FF]
+Throwing knife named after the trails of[NLINE]
+fire it leaves along its trajectory.[NLINE]
+[COL09]Bonus: Fire[END-FF]
+
+
+
+
+
+//POINTER #99 @ $22C - STRING #99 @ $35A7
+#W32($22C)
+//自ら意思を持つように、相手に向かって飛んでいく[NLINE]
+//魔法の投げナイフ。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Magical throwing knives that follow the[NLINE]
+opponent with a mind of their own.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #100 @ $230 - STRING #100 @ $361D
+#W32($230)
+//飛翔と必中のルーンを刻んだ、古代のクサビ型短刀。[NLINE]
+//ルーン文字の魔力により、十分な飛距離と[NLINE]
+//命中精度が得られている。 [COL09]射程距離UP 命中率UP[END-FF]
+Ancient wedge-shaped dagger with runes[NLINE]
+of flight and sword inscribed on it.[NLINE]
+[COL09]Bonus: Attack Range Up / Hit Ratio Up[END-FF]
+
+
+
+
+
+//POINTER #101 @ $234 - STRING #101 @ $36A9
+#W32($234)
+//東方の伝説の賢者が身につけていたとされる、[NLINE]
+//刀身に北斗七星が刻まれた剣。神秘的な力を持つと[NLINE]
+//言われている。[END-FF]
+Short sword said to have belonged to a wise[NLINE]
+man from the east. Has an engraving of the[NLINE]
+north star that glows in moonlight.[END-FF]
+
+
+
+
+
+//POINTER #102 @ $238 - STRING #102 @ $3716
+#W32($238)
+//刀身が常に霜におおわれている魔法の短剣。傷口の[NLINE]
+//血を一瞬で凍らせるほど冷たい刀身が、相手の[NLINE]
+//動きを鈍らせる。　　　　[COL09] 冷属性攻撃 硬直追加UP[END-FF]
+Magical dagger whose blade is always covered in[NLINE]
+frost. Can cause wounds to freeze instantly.[NLINE]
+[COL09]Bonus: Ice / Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #103 @ $23C - STRING #103 @ $37A6
+#W32($23C)
+//魔法の土くれで、投げると鋭い針になる。針は[NLINE]
+//陶器のような焼いた土に見えるが、鋼よりも硬く[NLINE]
+//金属鎧すら貫く。　　　　　　　　　　[COL09]土属性攻撃[END-FF]
+Needle made from magic clay that's harder[NLINE]
+than steel and sharper than a blade.[NLINE]
+[COL09]Bonus: Earth[END-FF]
+
+
+
+
+
+//POINTER #104 @ $240 - STRING #104 @ $3834
+#W32($240)
+//長い針のようなミスリル製投げナイフで、鋭い[NLINE]
+//切っ先は、ずがい骨すら簡単につらぬく。相手に[NLINE]
+//激しい精神的苦痛を与え、ＭＰにダメージを与える。[END-FF]
+Mythril nails sharp enough to pierce[NLINE]
+through bone. Causes mental distress,[NLINE]
+draining the opponent's MP.[END-FF]
+
+
+
+
+
+//POINTER #105 @ $244 - STRING #105 @ $38C1
+#W32($244)
+//血を連想させる禍々しい赤色の刃を持ったダガー。[NLINE]
+//その一撃は魂を削ると恐れられている。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Dagger with an ominous blade that's as red as[NLINE]
+blood. Said to destroy the opponent's soul.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #106 @ $248 - STRING #106 @ $3949
+#W32($248)
+//棒の周囲に細く鋭い針の生えた特殊な投げ武器。[NLINE]
+//非常に重い未知の金属で出来ており、相手が[NLINE]
+//気絶しやすい。　　　　　　　　　　　[COL09]精属性攻撃[END-FF]
+Special knife made from a very heavy[NLINE]
+unknown metal. Can cause dizziness.[NLINE]
+[COL09]Bonus: Spirit[END-FF]
+
+
+
+
+
+//POINTER #107 @ $24C - STRING #107 @ $39D5
+#W32($24C)
+//伝説の大王が使っていた、美しい短剣。その名は、[NLINE]
+//小さな白い柄手を意味する。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Beautifully crafted white dagger used[NLINE]
+by royalty.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #108 @ $250 - STRING #108 @ $3A55
+#W32($250)
+//西の果てにあるという宿り木の枝で、投げると鋭い[NLINE]
+//矢に変化する。この矢が無敵の神をつらぬき、死に[NLINE]
+//至らしめたという伝説がある。[COL09]クリティカル率UP[END-FF]
+Darts made from a mythical tree in the west[NLINE]
+that transform into arrows in mid-air.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #109 @ $254 - STRING #109 @ $3AE7
+#W32($254)
+//稲妻から作られたという神秘の武器。古代の神の[NLINE]
+//武器といわれ、相手をしびれさせ、動きを邪魔する[NLINE]
+//力がある。　　[COL09]雷属性攻撃 硬直追加UP 命中率UP[END-FF]
+Mysterious weapon made from lightning that[NLINE]
+numbs the opponent to hinder movement.[NLINE]
+[COL09]Bonus: Lightning / Increased Stagger Time / Hit Ratio Up[END-FF]
+
+
+
+
+
+//POINTER #110 @ $258 - STRING #110 @ $3B77
+#W32($258)
+//光の神が使った魔剣とされ、敵に向かって投げれば[NLINE]
+//剣自らが敵を切り伏せる。また攻撃した相手に[NLINE]
+//報復する魔力も持つ。　　　　[COL09]クリティカル率UP[END-FF]
+Legendary short sword forged by the gods that[NLINE]
+retaliates attacks with a strike of its own.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #111 @ $25C - STRING #111 @ $3C05
+#W32($25C)
+//光の神が使った魔剣とされ、敵に向かって投げれば[NLINE]
+//剣自らが敵を切り伏せる。[NLINE]
+//前回プレイの変換後装備品。 [COL09]クリティカル率UP[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #112 @ $260 - STRING #112 @ $3C81
+#W32($260)
+//ルキ武器予備１[END-FF]
+Ruki W. Reserve 1[END-FF]
+
+
+
+
+
+//POINTER #113 @ $264 - STRING #113 @ $3C92
+#W32($264)
+//サーベルの原型となった曲刀。希少な隕鉄を使って[NLINE]
+//作られており、魔力付加されていない曲刀の中では、[NLINE]
+//最も優れた切れ味と強度を誇る。[END-FF]
+The classic saber, crafted from[NLINE]
+rare minerals. Only enchanted[NLINE]
+varieties are stronger than this.[END-FF]
+
+
+
+
+
+//POINTER #114 @ $268 - STRING #114 @ $3D15
+#W32($268)
+//真っ直ぐな棟と、緩やかに湾曲した刃をもつ剣。[NLINE]
+//短めの刀身は非常に肉厚で、長剣ほどの重量を持ち、[NLINE]
+//その打撃力で相手を打ち倒す。　　　　[COL09]炎属性攻撃[END-FF]
+Thick, curved sword. Its weight can[NLINE]
+cleave the enemy in half.[NLINE]
+[COL09]Bonus: Fire[END-FF]
+
+
+
+
+
+//POINTER #115 @ $26C - STRING #115 @ $3DA9
+#W32($26C)
+//細く優美に反った刀身を持つ曲刀。[NLINE]
+//様々な武器の影響を受け、改良されている。[END-FF]
+A thin, gracefully curved blade.[NLINE]
+Its design was influenced by many[NLINE]
+different types of weapons.[END-FF]
+
+
+
+
+
+//POINTER #116 @ $270 - STRING #116 @ $3DF6
+#W32($270)
+//伝説の英雄が、邪竜を倒す際に用いたとされる[NLINE]
+//名刀を模した、ミスリル銀製のシミター。[NLINE]
+//　　　　　　　　　　　　　　[COL09]クリティカル率UP[END-FF]
+Legendary sword capable of cutting[NLINE]
+through steel-hard dragon skin.[NLINE]
+[COL09]Bonus: Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #117 @ $274 - STRING #117 @ $3E7C
+#W32($274)
+//古代神聖帝国の聖帝が、聖騎士たちに与えたと[NLINE]
+//される、白銀に輝く細身の剣。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Thin sword passed down through kings of an[NLINE]
+ancient empire. Shines bright silver.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #118 @ $278 - STRING #118 @ $3EFA
+#W32($278)
+//刀身に無数の小さな歯をならべたシミター。[NLINE]
+//斬りつけた際、その歯が相手の肉に潜り込み、[NLINE]
+//深い傷を与えるという。　　　　　　　[COL09]硬直追加UP[END-FF]
+Mythical sword lined with small teeth on the[NLINE]
+blade that dig into the opponent's flesh.[NLINE]
+[COL09]Bonus: Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #119 @ $27C - STRING #119 @ $3F84
+#W32($27C)
+//人の血を用いて鍛えられたという、呪われた魔剣。[NLINE]
+//常に刀身から猛毒を滴らせており、傷つけた相手を[NLINE]
+//猛毒で侵すことがある。[END-FF]
+Mythical iron sword said to have been tempered[NLINE]
+in blood. Always dripping with resentment, it[NLINE]
+has a chance of poisoning the opponent.[END-FF]
+
+
+
+
+
+//POINTER #120 @ $280 - STRING #120 @ $3FFD
+#W32($280)
+//伝説の勇者ロヴァルが使ったとされる[NLINE]
+//幻の曲刀。輝く刃が美しい。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]風属性攻撃[END-FF]
+Curved sword used by the legendary[NLINE]
+hero Lofarr.[NLINE]
+[COL09]Bonus: Wind[END-FF]
+
+
+
+
+
+//POINTER #121 @ $284 - STRING #121 @ $4071
+#W32($284)
+//東の果てにある国の名匠が、秘伝の技で鍛えた業物。[NLINE]
+//刀身に波打つような美しい模様をもつ湾刀で、[NLINE]
+//その切れ味は、金属鎧すら断ち斬る。　[COL09]精属性攻撃[COL00][END-FF]
+Evil sword masterfully crafted using a secret[NLINE]
+technique. Cuts friend and foe alike.[NLINE]
+[COL09]Bonus: Spirit[COL00][END-FF]
+
+
+
+
+
+//POINTER #122 @ $288 - STRING #122 @ $4106
+#W32($288)
+//かまいたちを発する曲刀。巨大な嵐を呼ぶ力が[NLINE]
+//秘められていることから、その名がついた。[NLINE]
+//　　　　　 [COL09]ソニックウェーブ使用可能 風属性攻撃[END-FF]
+Curved sword that creates whirlwinds.[NLINE]
+[COL09]Use: Sonic Wave[NLINE]
+Bonus: Wind[END-FF]
+
+
+
+
+
+//POINTER #123 @ $28C - STRING #123 @ $4190
+#W32($28C)
+//打ちかかった相手を破滅させるという呪われた魔剣。[NLINE]
+//持ち主の命を削りながら、相手に致命傷を与えると[NLINE]
+//言われている。　　　　　　　　[COL09]武器ダメージ増加[END-FF]
+Cursed magic sword that causes fatal wounds[NLINE]
+that can instantly kill the opponent.[NLINE]
+[COL09]Bonus: Weapon Damage Up[END-FF]
+
+
+
+
+
+//POINTER #124 @ $290 - STRING #124 @ $4226
+#W32($290)
+//異国の神が英雄に与えたとされる伝説の名剣。[NLINE]
+//鋼より硬いウロコにおおわれた邪竜を一刀両断に[NLINE]
+//したという。[END-FF]
+Mythical sword said to have been given[NLINE]
+to a hero by a god. Capable of slicing[NLINE]
+through dragon scales as hard as steel.[END-FF]
+
+
+
+
+
+//POINTER #125 @ $294 - STRING #125 @ $428F
+#W32($294)
+//１２勇者の１人が使っていた伝説の名剣。黄金の[NLINE]
+//柄には、聖者たちの聖遺物が収められている。[NLINE]
+//神話の時代に作られたといわれている。　[COL09]聖属性攻撃[END-FF]
+Holy sword used by one of the 12 mythical[NLINE]
+heroes. Has intricate carvings on the blade.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #126 @ $298 - STRING #126 @ $431F
+#W32($298)
+//世界を破滅に導くと伝えられる魔剣で、永遠に[NLINE]
+//燃え続ける灼熱の炎を、その刀身にまとっている。[NLINE]
+//　　　　　　　　[COL09]炎属性攻撃 クリティカル率UP[END-FF]
+Legendary sword said to lead the world to ruin[NLINE]
+by creating flames akin to a dragon's breath.[NLINE]
+[COL09]Bonus: Fire / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #127 @ $29C - STRING #127 @ $43AC
+#W32($29C)
+//永遠に燃え続ける灼熱の炎をその刀身にまとう魔剣。[NLINE]
+//前回のプレイまでの変換後装備品。[NLINE]
+//　　　　　　　　[COL09]炎属性攻撃 クリティカル率UP[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Fire / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #128 @ $2A0 - STRING #128 @ $4431
+#W32($2A0)
+//未使用[END-FF]
+A simple bow.[END-FF]
+
+
+
+
+
+//POINTER #129 @ $2A4 - STRING #129 @ $443A
+#W32($2A4)
+//イチイの木から作られた、大人の身長ほどもある[NLINE]
+//長い弓。優れた性能を持っているが、使いこなす[NLINE]
+//には、長い訓練が必要となる。　　　　[COL09]射程距離UP[END-FF]
+Wooden bow the same height as an adult.[NLINE]
+Performs well but requires training.[NLINE]
+[COL09]Bonus: Attack Range Up[END-FF]
+
+
+
+
+
+//POINTER #130 @ $2A8 - STRING #130 @ $44CA
+#W32($2A8)
+//ミスリル銀を使って補強したロングボウ。放たれた[NLINE]
+//矢に魔力を与え、より遠くの目標が狙える能力を[NLINE]
+//持っている。　　　　　　　　　　　　[COL09]射程距離UP[END-FF]
+Longbow reinforced with mythril.[NLINE]
+Allows more effective shooting.[NLINE]
+[COL09]Bonus: Attack Range Up[END-FF]
+
+
+
+
+
+//POINTER #131 @ $2AC - STRING #131 @ $455C
+#W32($2AC)
+//２ｍを超す、巨大なロングボウ。扱う者の腕力と[NLINE]
+//精神力が問われるが、その威力は驚異的で命中した[NLINE]
+//ものを気絶させるほどである。　　　[COL09]硬直追加UP [END-FF]
+Huge longbow that requires not only skill,[NLINE]
+but also strength of the wielder.[NLINE]
+[COL09]Bonus: Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #132 @ $2B0 - STRING #132 @ $45ED
+#W32($2B0)
+//超高速で矢を放つ魔法の弓。その矢の後に、雲が[NLINE]
+//出来ることから、その名が付けられた。[NLINE]
+//　　　　　　　　[COL09]風属性攻撃 クリティカル率UP[END-FF]
+Magical bow that shoots arrows at[NLINE]
+an extremely high speed.[NLINE]
+[COL09]Bonus: Wind / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #133 @ $2B4 - STRING #133 @ $4672
+#W32($2B4)
+//矢を放つと、弦が嘆き悲しむような音色を出す弓。[NLINE]
+//強烈な矢の一撃は、相手に激しい精神的苦痛を与え、[NLINE]
+//ＭＰにダメージを与える。　　　　　　[COL09]精属性攻撃[END-FF]
+Haunted bow that causes the wind to wail.[NLINE]
+Drains the target's MP by causing distress.[NLINE]
+[COL09]Bonus: Spirit[END-FF]
+
+
+
+
+
+//POINTER #134 @ $2B8 - STRING #134 @ $4708
+#W32($2B8)
+//弓の名手である森の妖精、エルフたちが使う弓。[NLINE]
+//扱いやすく威力に優れるが希少なため非常に高値で[NLINE]
+//取引される。　　　　[COL09]クリティカル率UP 射程距離UP[END-FF]
+Elven bow that uses flint arrowheads. Rains[NLINE]
+arrows from the sky, causing heavy damage.[NLINE]
+[COL09]Bonus: Attack Range Up / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #135 @ $2BC - STRING #135 @ $479B
+#W32($2BC)
+//樹齢数千年を越えると言われるイチイの神木から[NLINE]
+//作られた大弓。弓に神木の魂が宿っているとされ、[NLINE]
+//清い心の持ち主しか扱えない。　　　　[COL09]地属性攻撃[END-FF]
+Bow made from the wood of a sacred tree.[NLINE]
+The tree's spirit resides within it.[NLINE]
+[COL09]Bonus: Earth[END-FF]
+
+
+
+
+
+//POINTER #136 @ $2C0 - STRING #136 @ $482D
+#W32($2C0)
+//『ムダなしの弓』という名を持つ、魔法の弓。[NLINE]
+//伝説の騎士が使い、百発百中を誇ったといわれて[NLINE]
+//いる。　　　　　　[COL09] 命中率UP クリティカル率UP[END-FF]
+Mighty bow used by a mythical knight.[NLINE]
+It is said to never miss its mark.[NLINE]
+[COL09]Bonus: Hit Ratio Up / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #137 @ $2C4 - STRING #137 @ $48B9
+#W32($2C4)
+//大地創造の時より、世界の中心にあるという世界樹。[NLINE]
+//強大な魔力が宿るその枝を、森の妖精王が用いて[NLINE]
+//作った究極の弓。[COL09] 聖属性攻撃 クリティカル率UP[END-FF]
+Legendary bow crafted by fairies and named[NLINE]
+after the tree it was made from.[NLINE]
+[COL09]Bonus: Holy / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #138 @ $2C8 - STRING #138 @ $494B
+#W32($2C8)
+//強大な魔力が宿る世界樹の枝を、森の妖精王が用いて[NLINE]
+//作った究極の弓。前回のプレイまでの変換後装備品。[NLINE]
+//　　　　　　　　　　[COL09] 聖属性攻撃 クリティカル率UP[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Holy / Critical Rate Up[END-FF]
+
+
+
+
+
+//POINTER #139 @ $2CC - STRING #139 @ $49E5
+#W32($2CC)
+//イリ予備弓１[END-FF]
+Iris Reserve Bow 1[END-FF]
+
+
+
+
+
+//POINTER #140 @ $2D0 - STRING #140 @ $49F4
+#W32($2D0)
+//大司教が祈りを捧げる際に用いる、美しく豪華な[NLINE]
+//クリスタル製のオーブ。[END-FF]
+Beautiful pearl beads used[NLINE]
+by saints for prayer.[END-FF]
+
+
+
+
+
+//POINTER #141 @ $2D4 - STRING #141 @ $4A3B
+#W32($2D4)
+//伝説の魔女が、過去の出来事を見るために作った[NLINE]
+//魔力を秘めたオーブ。心を落ち着かせ、精神集中を[NLINE]
+//助ける効果がある。　　　　　　　　　[COL09]魔法威力UP[END-FF]
+Magic stones used by witches to[NLINE]
+gain supernatural knowledge.[NLINE]
+[COL09]Bonus: Intelligence Up[END-FF]
+
+
+
+
+
+//POINTER #142 @ $2D8 - STRING #142 @ $4ACD
+#W32($2D8)
+//邪神を封じるために作られたとされる水晶球。[NLINE]
+//効力がわずかに残っているためか、攻撃した相手の[NLINE]
+//動きを止める力がある。[COL09] 地属性攻撃 硬直追加UP[END-FF]
+Crystal ball made to ward off evil.[NLINE]
+Can slow the target's movement.[NLINE]
+[COL09]Bonus: Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #143 @ $2DC - STRING #143 @ $4B5B
+#W32($2DC)
+//永遠に消えることのない神聖な白い炎が、内部で[NLINE]
+//静かに燃えているオーブ。古代神聖帝国の聖帝が[NLINE]
+//祈りの儀式に用いたとされる。　　　　[COL09]炎属性攻撃[END-FF]
+Mysterious orb that contains a sacred[NLINE]
+white flame that never burns out.[NLINE]
+[COL09]Bonus: Fire[END-FF]
+
+
+
+
+
+//POINTER #144 @ $2E0 - STRING #144 @ $4BEB
+#W32($2E0)
+//暗黒神の魔眼をつらぬいたとされる魔弾。[NLINE]
+//光の神の魔力が込められていると言われ、敵の元へ[NLINE]
+//超高速で飛翔する。　　　 [COL09]聖属性攻撃 命中率UP[END-FF]
+Mythical orb said to have been imbued[NLINE]
+with the power of the god of light.[NLINE]
+[COL09]Bonus: Holy / Hit Ratio Up[END-FF]
+
+
+
+
+
+//POINTER #145 @ $2E4 - STRING #145 @ $4C75
+#W32($2E4)
+//未来の可能性を物質化したという未知の結晶で[NLINE]
+//作られたオーブ。強い魔力を放つためか、狙われた[NLINE]
+//相手は気絶しやすくなる。　　　　　[COL09]魔法詠唱短縮[END-FF]
+Ultimate crystal made from an unknown[NLINE]
+material that can manipulate time.[NLINE]
+[COL09]Bonus: Quick Cast[END-FF]
+
+
+
+
+
+//POINTER #146 @ $2E8 - STRING #146 @ $4D05
+#W32($2E8)
+//未来の可能性を物質化したという未知の結晶で[NLINE]
+//作られたオーブ。前回のプレイまでの変換後装備品。[NLINE]
+//　　　　　　　　　　　　　　　　　[COL09]魔法詠唱短縮[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Quick Cast[END-FF]
+
+
+
+
+
+//POINTER #147 @ $2EC - STRING #147 @ $4D97
+#W32($2EC)
+//アニータ宝珠予備１[END-FF]
+Anita W. Reserve 1[END-FF]
+
+
+
+
+
+//POINTER #148 @ $2F0 - STRING #148 @ $4DAC
+#W32($2F0)
+//今では使い手が少なくなった、両刃槍術の練習に[NLINE]
+//使うための木製の特殊槍。ケガをしないように[NLINE]
+//先を丸めてあるため、威力は低い。[END-FF]
+Wooden lance made for training. Its[NLINE]
+tip is rounded to prevent training[NLINE]
+injuries, so it's not very useful.[END-FF]
+
+
+
+
+
+//POINTER #149 @ $2F4 - STRING #149 @ $4E29
+#W32($2F4)
+//鉄製の槍を２つ組み合わせただけの両刃槍。[NLINE]
+//おおざっぱな作りであるため、威力は今ひとつ。[NLINE]
+//[END-FF]
+Double-tipped lance made from two[NLINE]
+metal lances. Its poor craftsmanship[NLINE]
+provides low striking power.[END-FF]
+
+
+
+
+
+//POINTER #150 @ $2F8 - STRING #150 @ $4E84
+#W32($2F8)
+//長槍に使う穂先を２つ組合せて作られた特殊な槍。[NLINE]
+//両刃槍用に作られた物ではないが、重量バランスは[NLINE]
+//取られており、そこそこの威力がある。[END-FF]
+Special lance originally made of two[NLINE]
+separate pieces. Has good weight[NLINE]
+balance, and does decent damage.[END-FF]
+
+
+
+
+
+//POINTER #151 @ $2FC - STRING #151 @ $4F0B
+#W32($2FC)
+//冷気を発する穂先を持ち、[NLINE]
+//傷つけた部位を凍らせるという魔法の両刃槍。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]冷属性攻撃[END-FF]
+Double-tipped lance that freezes[NLINE]
+wounds with a cold wave.[NLINE]
+[COL09]Bonus: Ice[END-FF]
+
+
+
+
+
+//POINTER #152 @ $300 - STRING #152 @ $4F85
+#W32($300)
+//本来は騎兵が使う、小型の穂先付き長槍を、[NLINE]
+//２つ組み合わせて作った武器。扱いにくいが[NLINE]
+//重量があるため、意外と威力がある。[END-FF]
+Cavalier's weapon that combines to[NLINE]
+form a single long lance. Its heavy[NLINE]
+weight offers good damage.[END-FF]
+
+
+
+
+
+//POINTER #153 @ $304 - STRING #153 @ $4FFE
+#W32($304)
+//かつて竜騎兵が用いた槍を、両刃槍に改良した武器。[NLINE]
+//巨大なバンプレートが拳部分を守ってくれるため、[NLINE]
+//防御にも優れている。[END-FF]
+Dragon knight's lance customized to[NLINE]
+have two tips. Its large fist guard[NLINE]
+provides good defense.[END-FF]
+
+
+
+
+
+//POINTER #154 @ $308 - STRING #154 @ $5077
+#W32($308)
+//その刃は空気を切り裂き、かまいたちを[NLINE]
+//作り出して敵を傷つけるという。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]風属性攻撃[END-FF]
+This lance's blade creates a[NLINE]
+whirlwind to damage the enemy.[NLINE]
+[COL09]Bonus: Wind[END-FF]
+
+
+
+
+
+//POINTER #155 @ $30C - STRING #155 @ $50F1
+#W32($30C)
+//細く軽いながらも十分な強度を持つ両刃槍。[NLINE]
+//しなりがあり、敵の攻撃を受け流しやすい。[NLINE]
+//　　　　　　　　　　　　　　　　　　　[COL09]回避UP[END-FF]
+Thin and light, but very durable.[NLINE]
+Allows for easier evasion.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #156 @ $310 - STRING #156 @ $5177
+#W32($310)
+//洞窟の奥に差し込む神聖な光を、５００年もの間[NLINE]
+//浴びせ続けて作られた両刃槍。穂先自体が淡い光を[NLINE]
+//放つ。　　　　　　　　　　　　　　　[COL09]聖属性攻撃[END-FF]
+Double-tipped lance whose light shone[NLINE]
+in a deep cavern for 500 years.[NLINE]
+[COL09]Bonus: Holy[END-FF]
+
+
+
+
+
+//POINTER #157 @ $314 - STRING #157 @ $5209
+#W32($314)
+//魔法によって精錬された金属、ミスリルを[NLINE]
+//使用した両刃槍。軽量で切れ味抜群。[END-FF]
+Double-tipped lance made of mythril.[NLINE]
+It's light and very sharp.[END-FF]
+
+
+
+
+
+//POINTER #158 @ $318 - STRING #158 @ $5256
+#W32($318)
+//鋭い刃と絶妙な重量配分により、抜群の使用感を[NLINE]
+//誇る業物。かつては、両刃槍術を使う将官のみが、[NLINE]
+//その使用を許された。[END-FF]
+Weapon with a sharp blade and perfect[NLINE]
+weight. Only instructors of double-[NLINE]
+tipped lance methods could use it.[END-FF]
+
+
+
+
+
+//POINTER #159 @ $31C - STRING #159 @ $52CB
+#W32($31C)
+//その刃のあまりの鋭さに、突きを受けると[NLINE]
+//身がすくんで動けなくなると言われる名両刃槍。[NLINE]
+//　　　　　　　　　　　 [COL09]精属性攻撃 硬直追加UP[END-FF]
+Renowned double-tipped lance that[NLINE]
+stuns its victims with fear.[NLINE]
+[COL09]Bonus: Spirit / Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #160 @ $320 - STRING #160 @ $5353
+#W32($320)
+//狂戦士リーヴェイグが愛用した、[NLINE]
+//持ち主に活力を与える魔槍。[NLINE]
+//その重量のため、一般兵士には使いこなせない。[END-FF]
+Magic lance of the Berserker Revaig.[NLINE]
+Those capable of lifting its weight[NLINE]
+receive energy from it.[END-FF]
+
+
+
+
+
+//POINTER #161 @ $324 - STRING #161 @ $53BE
+#W32($324)
+//はるか昔、大陸外から渡ってきた職人が、[NLINE]
+//その秘伝の技によって作ったという両刃槍。[END-FF]
+Made long ago by a blacksmith whose[NLINE]
+technique was legendary.[END-FF]
+
+
+
+
+
+//POINTER #162 @ $328 - STRING #162 @ $5411
+#W32($328)
+//幻の金属、オリハルコンで作られた両刃槍。[NLINE]
+//光り輝く穂先は、驚異的な切れ味を誇る。[END-FF]
+Double-tipped lance of adamantium,[NLINE]
+the phantom metal. Its tips shine[NLINE]
+very brightly.[END-FF]
+
+
+
+
+
+//POINTER #163 @ $32C - STRING #163 @ $5464
+#W32($32C)
+//危機を察知して炎を発するという伝説の魔槍の[NLINE]
+//名を冠した無骨な両刃槍。[NLINE]
+//　　　　　　　　　　　 [COL09]炎属性攻撃 硬直追加UP[END-FF]
+Legendary double-tipped lance that[NLINE]
+shoots fire in times of need.[NLINE]
+[COL09]Bonus: Fire / Increased Stagger Time[END-FF]
+
+
+
+
+
+//POINTER #164 @ $330 - STRING #164 @ $54DC
+#W32($330)
+//相手の弱点を見切り、その力を自在に変える[NLINE]
+//究極の魔槍。別名『偉大なる者の遺産』。[NLINE]
+//[COL09]　全属性攻撃（相手の最も苦手とする属性で攻撃）[END-FF]
+Magic lance that adapts to the enemy it faces.[NLINE]
+Called "The Great One's Inheritance".[NLINE]
+[COL09]Bonus: Attack with the opponent's weakness[END-FF]
+
+
+
+
+
+//POINTER #165 @ $334 - STRING #165 @ $5562
+#W32($334)
+//はるか昔、大陸外から渡ってきた職人が残した[NLINE]
+//幾多の傑作の中でも最高と言われる一本。[NLINE]
+//真に力のある者にしか手に入れられないと言う。[END-FF]
+An ancient blacksmith's finest creation.[NLINE]
+They say it can only be used by those[NLINE]
+with true strength.[END-FF]
+
+
+
+
+
+//POINTER #166 @ $338 - STRING #166 @ $55E5
+#W32($338)
+//神々をも貫くと言われる伝説の魔槍。[NLINE]
+//使用者に絶大な力を与える。[END-FF]
+Legendary lance that pierces even the gods.[NLINE]
+Gives great power to the user.[END-FF]
+
+
+
+
+
+//POINTER #167 @ $33C - STRING #167 @ $5626
+#W32($33C)
+//攻撃用と言うより、[NLINE]
+//牙を保護するための、マウスピース。[NLINE]
+//攻撃力は皆無に近い。[END-FF]
+A mouthpiece that offers more[NLINE]
+defense than offense.[END-FF]
+
+
+
+
+
+//POINTER #168 @ $340 - STRING #168 @ $5675
+#W32($340)
+//顎が外れそうになる、牙の補強武器。[NLINE]
+//装備すると口内が銅の味で満たされる…。[END-FF]
+A reinforced weapon that is likely to come[NLINE]
+off the jaw. The mouth is filled with the[NLINE]
+taste of copper when equipped...[END-FF]
+
+
+
+
+
+//POINTER #169 @ $344 - STRING #169 @ $56C2
+#W32($344)
+//鉄をも砕いたとされる、妖犬の牙。[NLINE]
+//あまりの破壊力に口内には常に血の味が…。[END-FF]
+A mouthpiece said to be capable of crushing[NLINE]
+iron. Very high destructive power. Leaves[NLINE]
+the taste of blood in the mouth...[END-FF]
+
+
+
+
+
+//POINTER #170 @ $348 - STRING #170 @ $570F
+#W32($348)
+//犬武器３[END-FF]
+Canine Weapon 3[END-FF]
+
+
+
+
+
+//POINTER #171 @ $34C - STRING #171 @ $571A
+#W32($34C)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #172 @ $350 - STRING #172 @ $5721
+#W32($350)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #173 @ $354 - STRING #173 @ $5728
+#W32($354)
+//ただの服なので、防具としての効果は期待できない。[NLINE]
+//ただし何も着用しないよりは、いくらかましである。[END-FF]
+Regular clothes that are just barely[NLINE]
+better than nothing.[END-FF]
+
+
+
+
+
+//POINTER #174 @ $358 - STRING #174 @ $578D
+#W32($358)
+//厚手の布で作られた丈夫な服。[NLINE]
+//昔から旅人たちの間で愛用されてきた。[NLINE]
+//防具としての効果も、少しは期待できる。[END-FF]
+Thick clothes worn by travellers.[NLINE]
+Decent as armor goes.[END-FF]
+
+
+
+
+
+//POINTER #175 @ $35C - STRING #175 @ $57FA
+#W32($35C)
+//防寒や装飾のため、二枚の布の間に綿を詰めた[NLINE]
+//生地で作られた服。多少だが、打撃の威力を[NLINE]
+//軽減する事ができる。[END-FF]
+Clothes stuffed with cotton for[NLINE]
+warmth. The force of physical[NLINE]
+blows is somewhat mitigated.[END-FF]
+
+
+
+
+
+//POINTER #176 @ $360 - STRING #176 @ $5867
+#W32($360)
+//布と動物の皮を重ね合わせ、幾重にもした[NLINE]
+//丈夫な服。丈夫さだけを追求した服なので[NLINE]
+//ツギハギのようにも見える。[END-FF]
+Particularly durable clothes made[NLINE]
+by layering animal skin.[END-FF]
+
+
+
+
+
+//POINTER #177 @ $364 - STRING #177 @ $58D4
+#W32($364)
+//動物の皮で作られた服だが、[NLINE]
+//皮と皮の間をキルティング等で補い、[NLINE]
+//防御効果をわずかながら高めている。[END-FF]
+Quilted animal-skin clothes that[NLINE]
+offer a measure of protection.[END-FF]
+
+
+
+
+
+//POINTER #178 @ $368 - STRING #178 @ $5939
+#W32($368)
+//武術を行う者たちが身にまとう、非常に丈夫な服。[NLINE]
+//様々な動作に対応できるように作られているため、[NLINE]
+//連続して動きやすい。[END-FF]
+Very sturdy clothes designed to[NLINE]
+allow easy movement. Popular[NLINE]
+among travellers.[END-FF]
+
+
+
+
+
+//POINTER #179 @ $36C - STRING #179 @ $59B0
+#W32($36C)
+//乳白色の美しい毛質を持つニュトから作られた[NLINE]
+//毛皮のコート。美しさだけでなく、防具として[NLINE]
+//の機能も優れている。[END-FF]
+Fur coat made from the silky Nute[NLINE]
+hide. Not only is it fashionable, but[NLINE]
+it's also highly effective armor.[END-FF]
+
+
+
+
+
+//POINTER #180 @ $370 - STRING #180 @ $5A1F
+#W32($370)
+//首から腰までの短いジャケット。打撃効果を[NLINE]
+//軽減するために、羊毛や綿などを挟み込み、[NLINE]
+//厚めのキルティング加工がされている。[END-FF]
+Short close-fitting padded jacket[NLINE]
+that provides decent shock absorption.[END-FF]
+
+
+
+
+
+//POINTER #181 @ $374 - STRING #181 @ $5A9A
+#W32($374)
+//全身を覆うように作られた、厚手の革のスーツ。[NLINE]
+//内側にはキルティングも施されており、意外と[NLINE]
+//防御効果が高い。[END-FF]
+Thick leather suit made to cover[NLINE]
+the whole body. Quilting on the[NLINE]
+inside provides good defense.[END-FF]
+
+
+
+
+
+//POINTER #182 @ $378 - STRING #182 @ $5B07
+#W32($378)
+//ソフトレザーに金属の鋲を打ち込んで強化したもの。[NLINE]
+//鋲の頭部が大きく作られているため、[NLINE]
+//簡単な加工で高い防御効果がある。[END-FF]
+Upgraded soft leather with metal[NLINE]
+studs. The large studs provide[NLINE]
+excellent protection in battle.[END-FF]
+
+
+
+
+
+//POINTER #183 @ $37C - STRING #183 @ $5B80
+#W32($37C)
+//オイルで煮固めた厚手の革を用いて作られた鎧。[NLINE]
+//ソフトレザーより頑丈。[END-FF]
+Armor made from thick leather[NLINE]
+simmered in oil. Stronger[NLINE]
+than soft leather.[END-FF]
+
+
+
+
+
+//POINTER #184 @ $380 - STRING #184 @ $5BC7
+#W32($380)
+//ハードレザー・アーマーの一種。攻撃を受けやすい[NLINE]
+//上半身には、特に厚めの革を使っている。[END-FF]
+Type of hard leather armor. Features[NLINE]
+especially thick leather on the[NLINE]
+vulnerable upper body.[END-FF]
+
+
+
+
+
+//POINTER #185 @ $384 - STRING #185 @ $5C20
+#W32($384)
+//レザースーツの胸部に金属板を組み合わせたもの。[NLINE]
+//動きやすく、また防御効果も兼ね合わせている。[NLINE]
+//[END-FF]
+Improved leather armor that has a metal[NLINE]
+plate covering the chest. Easy to move[NLINE]
+in and provides good defense.[END-FF]
+
+
+
+
+//POINTER #186 @ $388 - STRING #186 @ $5C81
+#W32($388)
+//金属の鋲を打ち込んで強化したスタデッドレザーで[NLINE]
+//全身を覆う鎧。動きやすさと防御力を兼ね備える。[END-FF]
+Upgraded version of the studded[NLINE]
+leather, covering the whole body.[NLINE]
+Affords good protection and movement.[END-FF]
+
+
+
+
+
+//POINTER #187 @ $38C - STRING #187 @ $5CE2
+#W32($38C)
+//魔力を付与され、防御力を増したハードレザー。[NLINE]
+//革だけで作られた防具では、最高の防御力を誇る。[END-FF]
+Hard leather strengthened with magic.[NLINE]
+Boasts the best protection of all the[NLINE]
+leather armor.[END-FF]
+
+
+
+
+
+//POINTER #188 @ $390 - STRING #188 @ $5D41
+#W32($390)
+//鋼鉄製のプロテクターを、ふんだんに使った[NLINE]
+//レザースーツ。革本来の利点を活かしたまま、[NLINE]
+//最高水準の防御効果を持っている。[END-FF]
+Leather armor enhanced with steel[NLINE]
+plates. Slightly uncomfortable,[NLINE]
+but manageable.[END-FF]
+
+
+
+
+
+//POINTER #189 @ $394 - STRING #189 @ $5DBA
+#W32($394)
+//ただの服なので、防具としての効果は期待できない。[NLINE]
+//ただし何も着用しないよりは、いくらかましである。[END-FF]
+Regular clothes that are just barely[NLINE]
+better than nothing.[END-FF]
+
+
+
+
+
+//POINTER #190 @ $398 - STRING #190 @ $5E1F
+#W32($398)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #191 @ $39C - STRING #191 @ $5E26
+#W32($39C)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #192 @ $3A0 - STRING #192 @ $5E2D
+#W32($3A0)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #193 @ $3A4 - STRING #193 @ $5E34
+#W32($3A4)
+//皮鎧にリングを縫いつけた防具。そこそこの[NLINE]
+//防御効果があるが、それなりの筋力がなければ、[NLINE]
+//その重さに足をとられてしまう。[END-FF]
+Armor made from a series of metallic[NLINE]
+rings sewn into fabric. Offers some[NLINE]
+protection, but is relatively fragile.[END-FF]
+
+
+
+
+
+//POINTER #194 @ $3A8 - STRING #194 @ $5EAD
+#W32($3A8)
+//皮鎧に、丈夫なウロコ状金属板を貼り付けた防具。[NLINE]
+//動く度に金属音が鳴り響く。[END-FF]
+Armor made from small metal scales[NLINE]
+sewn into fabric. Makes a clanging[NLINE]
+sound with every movement.[END-FF]
+
+
+
+
+
+//POINTER #195 @ $3AC - STRING #195 @ $5EFA
+#W32($3AC)
+//金属の小片を革ひもなどで皮鎧に留め付けたもので、[NLINE]
+//スプリントメイルとも呼ばれる。スケイルメイルより[NLINE]
+//防御効果は高いが、さらに重い。[END-FF]
+Scale mail that uses larger rectangular[NLINE]
+metal plates sewn into leather.[NLINE]
+More durable, but heavier.[END-FF]
+
+
+
+
+
+//POINTER #196 @ $3B0 - STRING #196 @ $5F7F
+#W32($3B0)
+//細い金属の鎖を編んで作った服状の鎧。[NLINE]
+//腕や腰の部分までチェインを使っているため、[NLINE]
+//防御効果は高いが、それなりに重くなっている。[END-FF]
+Armor-like clothes with braided[NLINE]
+metal chains. Covers only the chest[NLINE]
+and shoulders for freer movement.[END-FF]
+
+
+
+
+
+//POINTER #197 @ $3B4 - STRING #197 @ $6000
+#W32($3B4)
+//金属板を縫いつけ、防御力を強化したチュニック。[NLINE]
+//重さと防御力のバランスに優れる。[END-FF]
+Tunic of sewn metal plates. Offers[NLINE]
+a good balance between weight and[NLINE]
+defense.[END-FF]
+
+
+
+
+
+//POINTER #198 @ $3B8 - STRING #198 @ $6053
+#W32($3B8)
+//金属板を加工して作った胸当て。[NLINE]
+//受けた衝撃を逃がすよう形状が工夫されている。[END-FF]
+Metal breastplate made to absorb[NLINE]
+the shock from enemy blows.[END-FF]
+
+
+
+
+
+//POINTER #199 @ $3BC - STRING #199 @ $60A2
+#W32($3BC)
+//魔法で精製された金属、ミスリルの細い鎖を[NLINE]
+//服状に編んで作った高価な防具。[NLINE]
+//白銀色の輝きを放つ。[END-FF]
+Expensive armor made from the[NLINE]
+magical metal of mythril.[END-FF]
+
+
+
+
+
+//POINTER #200 @ $3C0 - STRING #200 @ $6103
+#W32($3C0)
+//金属板で作った、上半身用の鎧。並はずれた[NLINE]
+//防御効果を誇るが非常に重く、訓練を受けて[NLINE]
+//いないとまともに歩くこともできない。[END-FF]
+Very heavy armor made from iron plates.[NLINE]
+Boasts decent defense, but is difficult[NLINE]
+to walk in.[END-FF]
+
+
+
+
+
+//POINTER #201 @ $3C4 - STRING #201 @ $617E
+#W32($3C4)
+//全身を金属板で覆い、あらゆる攻撃から身を守る鎧。[NLINE]
+//その重量は尋常ではなく、訓練を受けた者以外が[NLINE]
+//着ると動く事もできない。[END-FF]
+Metal plate armor covering the whole[NLINE]
+body. An inexperienced fighter can't[NLINE]
+handle its weight.[END-FF]
+
+
+
+
+
+//POINTER #202 @ $3C8 - STRING #202 @ $61F9
+#W32($3C8)
+//魔法によって強化されたブレストプレート。[NLINE]
+//装備者のオーラを高め、身を守る力として放出する。[END-FF]
+Breastplate upgraded by magic. It has[NLINE]
+the ability to strengthen the wearer's[NLINE]
+aura.[END-FF]
+
+
+
+
+
+//POINTER #203 @ $3CC - STRING #203 @ $6256
+#W32($3CC)
+//魔界の深奥で作られたとされる、まがまがしい鎧。[NLINE]
+//着用者を攻撃する者に邪悪な力と災厄をもたらすと[NLINE]
+//いわれているが、真偽のほどは定かではない。[END-FF]
+Mysterious armor said to bring[NLINE]
+misfortune to those who attack[NLINE]
+the wearer.[END-FF]
+
+
+
+
+
+//POINTER #204 @ $3D0 - STRING #204 @ $62E3
+#W32($3D0)
+//古代帝国建国の祖、アエネアスが身につけていた[NLINE]
+//という伝説の鎧。鎧に認められた者はあらゆる[NLINE]
+//災厄から護られるという。[END-FF]
+Legendary armor worn by Aeneas of[NLINE]
+the ancient empire. If it accepts you,[NLINE]
+you'll be protected from anything.[END-FF]
+
+
+
+
+
+//POINTER #205 @ $3D4 - STRING #205 @ $6358
+#W32($3D4)
+//鎧予備１[END-FF]
+Armor Reserve 1[END-FF]
+
+
+
+
+
+//POINTER #206 @ $3D8 - STRING #206 @ $6363
+#W32($3D8)
+//身にまとうことで精神を落ち着かせる効果のある[NLINE]
+//ローブ。見た目があまり良くないため、[NLINE]
+//一般的に女性魔術師には好まれない。[END-FF]
+Robe that calms the wearer's mind.[NLINE]
+Its dowdy appearance makes it[NLINE]
+unpopular with female magic-users.[END-FF]
+
+
+
+
+
+//POINTER #207 @ $3DC - STRING #207 @ $63DC
+#W32($3DC)
+//硬くなめした革を肩と胸部に取り付けた[NLINE]
+//厚手のローブ。軽くて動きやすいわりに[NLINE]
+//優れた防御効果を持つが、過信は禁物。[END-FF]
+Leather robe thick around the chest[NLINE]
+and shoulders. Easy to move in, but[NLINE]
+not very dependable.[END-FF]
+
+
+
+
+
+//POINTER #208 @ $3E0 - STRING #208 @ $644F
+#W32($3E0)
+//何重にも防御の魔力付加をかけた、厚手のローブ。[NLINE]
+//高位の魔術師のために作られたもので、並みの[NLINE]
+//ローブとは比べ物にならないほどの防御効果がある。[END-FF]
+Thick robe with many layers of[NLINE]
+enchanted cloth. Designed for[NLINE]
+high-ranking sorcerers.[NLINE]
+
+
+
+
+
+//POINTER #209 @ $3E4 - STRING #209 @ $64DE
+#W32($3E4)
+//なめし革や金属プレートで補強したローブ。[NLINE]
+//クールな外見からか、魔術師以外の男性にも[NLINE]
+//人気が高い。[END-FF]
+Robe reinforced with metal plates.[NLINE]
+Its tough looks make it unpopular[NLINE]
+with female magic-users.[END-FF]
+
+
+
+
+
+//POINTER #210 @ $3E8 - STRING #210 @ $6541
+#W32($3E8)
+//地の精霊王が善良な農夫に与えたとされるローブ。[NLINE]
+//精霊王の加護を得ているためか、見た目以上の[NLINE]
+//優れた防御効果を持つ。[END-FF]
+Robe blessed by the king of the[NLINE]
+earth spirits. It offers more[NLINE]
+protection than it seems.[END-FF]
+
+
+
+
+
+//POINTER #211 @ $3EC - STRING #211 @ $65B6
+#W32($3EC)
+//大賢者アルヴィースが弟子たちに与えたとされる[NLINE]
+//ローブ。防護のために魔法障壁が施されている。[END-FF]
+Robe given by the Great Sage Alviss[NLINE]
+to his students. It's warded for[NLINE]
+greater protection.[END-FF]
+
+
+
+
+
+//POINTER #212 @ $3F0 - STRING #212 @ $6613
+#W32($3F0)
+//新月の夜、銀皿の聖水に浸した上質な絹の[NLINE]
+//ローブに、１２人の乙女が祈りを捧げて作る、[NLINE]
+//神聖な力を宿したローブ。[END-FF]
+Holy robe sewn during a new moon,[NLINE]
+then soaked in holy water and blessed[NLINE]
+by 12 virgins.[END-FF]
+
+
+
+
+
+//POINTER #213 @ $3F4 - STRING #213 @ $6682
+#W32($3F4)
+//魔法が付与され外見よりも遙かに丈夫。[END-FF]
+The spell cast on it makes it[NLINE]
+stronger than it looks.[END-FF]
+
+
+
+
+
+//POINTER #214 @ $3F8 - STRING #214 @ $66A9
+#W32($3F8)
+//戦闘用に考案された厚手の革ジャケット。[NLINE]
+//内側にキルティング、狙われやすい所に鎖帷子を[NLINE]
+//用い、見た目以上の防御効果をもつ。[END-FF]
+Quilted leather jacket with chainmail[NLINE]
+covering vulnerable spots. Much[NLINE]
+stronger than it looks.[END-FF]
+
+
+
+
+
+//POINTER #215 @ $3FC - STRING #215 @ $6724
+#W32($3FC)
+//細い鋼の糸を編んで作られた、金属製ジャケット。[NLINE]
+//多少重いが、身体の動きを犠牲にすることなく、[NLINE]
+//優れた防御能力を発揮する。[END-FF]
+Metal jacket made of thin steel yarn.[NLINE]
+Slightly heavy without sacrificing[NLINE]
+movement.[NLINE]
+
+
+
+
+
+//POINTER #216 @ $400 - STRING #216 @ $679F
+#W32($400)
+//ミスリル銀の糸を編んで作られた、[NLINE]
+//メタルジャケット。非常に軽く、優れた防御能力も[NLINE]
+//誇る。[END-FF]
+Jacket made of mythril yarn. Very light[NLINE]
+while maintaining excellent defense.[END-FF]
+
+
+
+
+
+//POINTER #217 @ $404 - STRING #217 @ $67FA
+#W32($404)
+//男鎧予備１[END-FF]
+Jacket Reserve 1[END-FF]
+
+
+
+
+
+//POINTER #218 @ $408 - STRING #218 @ $6807
+#W32($408)
+//肩ひもで吊り、腰で締める形のエプロンに[NLINE]
+//似たドレス。主に貴族邸宅に仕える女性などが[NLINE]
+//着用する。[END-FF]
+Hung from the shoulders and tied at[NLINE]
+the back. Usually worn by maids working[NLINE]
+in noble houses.[END-FF]
+
+
+
+
+
+//POINTER #219 @ $40C - STRING #219 @ $6868
+#W32($40C)
+//世界樹の樹皮の繊維から作られた、美しい[NLINE]
+//緑色のエプロンドレス。神秘的な生命力が[NLINE]
+//得られるという。[COL09]戦闘時、一定時間ごとにＨＰ回復[END-FF]
+Dress made from the bark fibre of a mythical[NLINE]
+tree. Wearers experience heightened vitality.[NLINE]
+[COL09]Bonus: HP Regenerate[END-FF]
+
+
+
+
+
+//POINTER #220 @ $410 - STRING #220 @ $68EC
+#W32($410)
+//女鎧予備１[END-FF]
+Dress Reserve 1[END-FF]
+
+
+
+
+
+//POINTER #221 @ $414 - STRING #221 @ $68F9
+#W32($414)
+//美しい光沢をもつ、体に密着するスーツ。[NLINE]
+//シーズという蛾の幼虫のマユから作られ、優れた[NLINE]
+//衝撃吸収能力と、槍をも通さぬ丈夫さを持つ。[END-FF]
+Suit that adheres to the body with a[NLINE]
+beautiful gloss. Durable and offers[NLINE]
+good shock absorption.[END-FF]
+
+
+
+
+
+//POINTER #222 @ $418 - STRING #222 @ $697C
+#W32($418)
+//ボディスーツの表面に特殊な油を塗り込み、[NLINE]
+//敵の攻撃を滑らせるように加工したスーツ。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]回避率UP[END-FF]
+Bodysuit with a special coating that[NLINE]
+causes enemy attacks to slip.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #223 @ $41C - STRING #223 @ $6A02
+#W32($41C)
+//狂戦士のごとき、恐るべき戦闘力が得られる[NLINE]
+//スーツ。相手を傷つけるたびに自らの肉体も[NLINE]
+//傷つくという諸刃の鎧。[END-FF]
+Mysterious suit that aggravates the[NLINE]
+wearer's anger, potentially causing[NLINE]
+loss of control.[END-FF]
+
+
+
+
+
+//POINTER #224 @ $420 - STRING #224 @ $6A6F
+#W32($420)
+//分厚い金属製プロテクターを要所要所に仕込んだ[NLINE]
+//ボディスーツ。多少重くはなるが、身体の動きを[NLINE]
+//犠牲にすることなく、優れた防御能力を発揮する。[END-FF]
+Slightly heavier bodysuit with metal[NLINE]
+plates covering the vital points.[END-FF]
+
+
+
+
+
+//POINTER #225 @ $424 - STRING #225 @ $6AFC
+#W32($424)
+//地の精霊、スプリガンの加護を受けたスーツ。[NLINE]
+//うっすらと光り輝く魔法防御壁が、表面を守って[NLINE]
+//いるため、非常に優れた防御能力を誇る。[END-FF]
+Suit blessed by the earth spirit[NLINE]
+Spriggan. A magical coating protects[NLINE]
+the suit's surface.[END-FF]
+
+
+
+
+
+//POINTER #226 @ $428 - STRING #226 @ $6B7F
+#W32($428)
+//聖者によって、邪悪な魔法をしりぞける紋章が[NLINE]
+//施されたアーマースーツ。優れた対魔法能力を[NLINE]
+//備えている。[NLINE]
+//　　　　　　　　　　　　　　　　　　　　　　　[END-FF]
+Armored suit blessed by a saint to[NLINE]
+ward off evil. Resistant to magic.[END-FF]
+
+
+
+
+
+//POINTER #227 @ $42C - STRING #227 @ $6C16
+#W32($42C)
+//鋼よりも硬いドラゴンのウロコを、胸部などに[NLINE]
+//用いた最高品質のボディスーツ。[NLINE]
+//炎への強い耐性も兼ね備えている。[END-FF]
+Highest quality bodysuit modified to have[NLINE]
+a dragon scale plate covering the chest.[NLINE]
+Strongly resistant to fire.[END-FF]
+
+
+
+
+
+//POINTER #228 @ $430 - STRING #228 @ $6C85
+#W32($430)
+//ミスリル銀を織り、表面を鏡のように仕上げた[NLINE]
+//ボディスーツ。強い魔力を帯びているため、悪意の[NLINE]
+//ある攻撃を弾き、魔法を無効化する事がある。[END-FF]
+Myhtril fibre suit with a mirror[NLINE]
+like surface. Resistant to magic.[END-FF]
+
+
+
+
+
+//POINTER #229 @ $434 - STRING #229 @ $6D0E
+#W32($434)
+//極めて劣悪な環境のなかでも、着用者の身を[NLINE]
+//守ることから、その名がついたボディスーツ。[NLINE]
+//魔界探索するために生み出されたと言われている。[END-FF]
+Protects the wearer even in the harshest[NLINE]
+of environments. Said to have been made[NLINE]
+to traverse the underworld.[END-FF]
+
+
+
+
+
+//POINTER #230 @ $438 - STRING #230 @ $6D95
+#W32($438)
+//幾多の英雄たちがその身にまとったとされる、光り[NLINE]
+//輝くボディスーツ。ミスリル銀で編まれており、[NLINE]
+//並外れた防御能力を誇る。[END-FF]
+Armor said to have been worn by many[NLINE]
+heroes. Made from mythril silver, it[NLINE]
+boasts exceptional defense.[END-FF]
+
+
+
+
+
+//POINTER #231 @ $43C - STRING #231 @ $6E0E
+#W32($43C)
+//インフィニトーが特別なガードにのみ、与えたと[NLINE]
+//される強力な防具。かつてインフィニトーの[NLINE]
+//封印の際に失われたと言われていた。[END-FF]
+Ultimate armor forged by the Infinitor.[NLINE]
+Given to only the most deserving[NLINE]
+of warriors.[END-FF]
+
+
+
+
+
+//POINTER #232 @ $440 - STRING #232 @ $6E8B
+#W32($440)
+//特別なガードにのみ、与えられたと[NLINE]
+//される強力な防具。[NLINE]
+//前回のプレイまでの変換後装備品。[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[END-FF]
+
+
+
+
+
+//POINTER #233 @ $444 - STRING #233 @ $6EE4
+#W32($444)
+//鋼の板で作られた胸飾り。[NLINE]
+//力の無い女戦士が一般的に身に付けている。[END-FF]
+Women's vest made from steel plates.[NLINE]
+Generally unremarkable.[END-FF]
+
+
+
+
+
+//POINTER #234 @ $448 - STRING #234 @ $6F29
+#W32($448)
+//鉄板部分に浮き彫りが施された胸飾り。[NLINE]
+//その美しい造形が好まれ、女戦士たちに[NLINE]
+//愛用されている。[END-FF]
+Iron breastplate with decorative[NLINE]
+designs embossed on it. Popular[NLINE]
+among female warriors.[END-FF]
+
+
+
+
+
+//POINTER #235 @ $44C - STRING #235 @ $6F88
+#W32($44C)
+//どう猛な海竜のウロコを使って作られた鎧。[NLINE]
+//そのウロコは、鋼に近い硬度を持ちながらも[NLINE]
+//軽量なため、上級兵に支給する国もある。[END-FF]
+Armor made from the scales of a sea monster.[NLINE]
+Being lightweight, it is preferred by[NLINE]
+high ranking officers.[END-FF]
+
+
+
+
+
+//POINTER #236 @ $450 - STRING #236 @ $7005
+#W32($450)
+//ダイヤを星のようにちりばめた、見事な胸飾り。[NLINE]
+//魔法詠唱時の精神集中を助け、疲労をおさえる力を[NLINE]
+//持つ。　　　　　　　　　　　　　　[COL09]消費ＭＰ減少[END-FF]
+Star-shaped breastplate studded with[NLINE]
+crystals that have calming properties.[NLINE]
+[COL09]Bonus: MP Cost Down[END-FF]
+
+
+
+
+
+//POINTER #237 @ $454 - STRING #237 @ $7097
+#W32($454)
+//ドラゴンロードのウロコを削って作った胸飾り。[NLINE]
+//硬さ、重量ともに優れ、炎に対する耐性も[NLINE]
+//持ち合わせている。[END-FF]
+Armor made from the scales of a[NLINE]
+dragon. Tough, durable and[NLINE]
+resistant to fire.[END-FF]
+
+
+
+
+
+//POINTER #238 @ $458 - STRING #238 @ $7102
+#W32($458)
+//伝説の聖女、ソフィーが付けていた、[NLINE]
+//ミスリル製の胸飾り。着用すると、[NLINE]
+//胸飾り全体がやわらかな光につつまれる。[END-FF]
+Mythril breastplate said to have been[NLINE]
+worn by the legendary saint Sophie.[NLINE]
+It glows with a soft light.[END-FF]
+
+
+
+
+
+//POINTER #239 @ $45C - STRING #239 @ $7171
+#W32($45C)
+//天然の魔力を帯びた宝石、魔鉱石を配した胸飾り。[NLINE]
+//装飾としての魔鉱石の美しさだけでなく、[NLINE]
+//魔法に対しての耐性も併せ持つ優れた防具。[END-FF]
+Chest armor made from a magical ore.[NLINE]
+Not only is it beautiful, it is also[NLINE]
+resistant to magic.[END-FF]
+
+
+
+
+
+//POINTER #240 @ $460 - STRING #240 @ $71F4
+#W32($460)
+//古代に大陸統一をなした征服王朝の将軍が[NLINE]
+//装備したとされる金属製の胸当て。[NLINE]
+//激戦の跡なのか、多くの刀傷が残っている。[END-FF]
+Armor worn by the army of a great[NLINE]
+conqueror. Decorated with scars[NLINE]
+from several fierce battles.[END-FF]
+
+
+
+
+
+//POINTER #241 @ $464 - STRING #241 @ $7269
+#W32($464)
+//天使の祝福を受けられるという、神聖な胸当て。[NLINE]
+//中央にある美しい羽飾りによって、[NLINE]
+//胸部の見栄えを良くする効果もある。[END-FF]
+Mythical breastplate blessed by angels[NLINE]
+and worn by gods. It is decorated with[NLINE]
+a beautiful feather at the centre.[END-FF]
+
+
+
+
+
+//POINTER #242 @ $468 - STRING #242 @ $72DE
+#W32($468)
+//王族のために用意された、豪華な胸当て。[NLINE]
+//飾りの美しさもさることながら、強力な魔力付加に[NLINE]
+//より、ずば抜けた防御力を誇る。[END-FF]
+Luxurious breastplate prepared for royalty,[NLINE]
+with engravings carved by an enchanted[NLINE]
+burin. Boasts exceptional defense.[END-FF]
+
+
+
+
+
+//POINTER #243 @ $46C - STRING #243 @ $7357
+#W32($46C)
+//「堅牢なるヒンギス」との意味を持つ、ヒンギス[NLINE]
+//王家に伝わる魔力をこめられた伝説の防具。かつて[NLINE]
+//の政争に巻き込まれ失われていた。　[COL09]魔法威力UP[END-FF]
+Ultimate armor once lost in political conflict.[NLINE]
+It has been blessed by the Hingis Royal Family.[NLINE]
+[COL09]Bonus: Intelligence Up[END-FF]
+
+
+
+
+
+//POINTER #244 @ $470 - STRING #244 @ $73E7
+#W32($470)
+//「堅牢なるヒンギス」との意味を持つ、ヒンギス[NLINE]
+//王家に伝わる魔力をこめられた伝説の防具。[NLINE]
+//前回のプレイまでの変換後装備品。　[COL09]魔法威力UP[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: Intelligence Up[END-FF]
+
+
+
+
+
+//POINTER #245 @ $474 - STRING #245 @ $7471
+#W32($474)
+//目の細かい生地に、砂漠での風と熱を防ぐための[NLINE]
+//紋章を縫い込んで作った高価なマント。[NLINE]
+//裕福な行商人たちが好んで使用する。[END-FF]
+Cloak made from a fine-grained fabric[NLINE]
+that protects from wind and heat in the[NLINE]
+desert. Preferred by affluent hawkers.[END-FF]
+
+
+
+
+
+//POINTER #246 @ $478 - STRING #246 @ $74EA
+#W32($478)
+//高名な司祭が祝福を与えたマント。外見は普通の[NLINE]
+//マントと変わらないが、高い防御力を誇る。[END-FF]
+Cloak blessed by a prestigious priest.[NLINE]
+Unremarkable in appearance, but offers[NLINE]
+relatively decent protection.[END-FF]
+
+
+
+
+
+//POINTER #247 @ $47C - STRING #247 @ $7543
+#W32($47C)
+//内側に小さな刃が仕込まれているため、攻撃して[NLINE]
+//きた相手に手傷を負わせることができるマント。[END-FF]
+Cloak with pockets that carry concealed[NLINE]
+blades. Can cause injury if handled[NLINE]
+carelessly.[END-FF]
+
+
+
+
+
+//POINTER #248 @ $480 - STRING #248 @ $75A0
+#W32($480)
+//大自然の力を宿した、淡い白光を放つローブ。[NLINE]
+//北方の森に住んでいたシャーマンたちの長が、[NLINE]
+//代々受け継いできたものだといわれている。[END-FF]
+Shimmering cloak infused with the power[NLINE]
+of nature. Said to have been handed down[NLINE]
+in a tribe of shamans for generations.[END-FF]
+
+
+
+
+
+//POINTER #249 @ $484 - STRING #249 @ $7623
+#W32($484)
+//森の妖精が織り上げた、魔力を秘めた布を使って[NLINE]
+//作られたマント。その繊細なデザインは、[NLINE]
+//芸術品としても通用する。　　　　　　[COL09]回避率UP[END-FF]
+Mantle of the forest fairies.[NLINE]
+Features a highly fashionable design.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #250 @ $488 - STRING #250 @ $76AB
+#W32($488)
+//高名な騎士たちが愛用した、レザー製のクローク。[NLINE]
+//軽量なミスリル銀製プロテクターをふんだんに用い、[NLINE]
+//革の特性をそのままに最高水準の防御力を持つ。[END-FF]
+Leather cloak beloved of high-class[NLINE]
+crusaders. Its mythril fabric gives[NLINE]
+it very high defense.[END-FF]
+
+
+
+
+
+//POINTER #251 @ $48C - STRING #251 @ $773C
+#W32($48C)
+//風の加護を受けた緑色のクローク。身に着けた者に[NLINE]
+//風をまとったような行動力と移動力を与える。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]回避率UP[END-FF]
+Green cloak that grants the wearer higher[NLINE]
+awareness by reading the wind.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #252 @ $490 - STRING #252 @ $77CA
+#W32($490)
+//背の部分に護りのルーンが印されたマント。[NLINE]
+//[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]回避率UP[END-FF]
+Evening wear with a rune of pride[NLINE]
+embroided on the back.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #253 @ $494 - STRING #253 @ $7828
+#W32($494)
+//闇の王がまとっていたとされる漆黒のクローク。[NLINE]
+//強い魔力を秘め、優れた防御効果を持つ。[NLINE]
+//[COL09]魔法&武器で与えたダメージの５％、ＨＰが回復[END-FF]
+Cloak of the Abyss King. Has strong[NLINE]
+magic power and very high defense.[NLINE]
+[COL09]Bonus: Heal 5% of damage dealt to enemies[END-FF]
+
+
+
+
+
+//POINTER #254 @ $498 - STRING #254 @ $78AF
+#W32($498)
+//古代の次元魔導師が究極の防具として編み出した[NLINE]
+//魔法の品。自らの存在位置を別次元にずらし、[NLINE]
+//着用したものに強力な回避能力を与える。[END-FF]
+Strange cloak crafted by an ancient mage.[NLINE]
+Grants the ability to teleport, allowing[NLINE]
+the wearer to dodge almost any attack.[END-FF]
+
+
+
+
+
+//POINTER #255 @ $49C - STRING #255 @ $7932
+#W32($49C)
+//古代の次元魔導師が究極の防具として編み出した[NLINE]
+//魔法の品。着用者に強力な回避能力を与える。[NLINE]
+//前回のプレイまでの変換後装備品。[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[END-FF]
+
+
+
+
+
+//POINTER #256 @ $4A0 - STRING #256 @ $79AF
+#W32($4A0)
+//多数の金属環を内側に縫いつけてあるコート。[NLINE]
+//一見すると普通のコートだが、動くとうるさい。[NLINE]
+//[NLINE]
+//[END-FF]
+Coat with many metal rings sewn on the[NLINE]
+inside. At first glance it looks normal,[NLINE]
+but is noisy when it moves.[END-FF]
+
+
+
+
+
+//POINTER #257 @ $4A4 - STRING #257 @ $7A0E
+#W32($4A4)
+//黒地のコートに鏡のように反射するミスリル銀が、[NLINE]
+//相手に目の錯覚を引き起こさせ、もう一人の自分を[NLINE]
+//見せるという。　　　　　　　　　　[COL09]回避率UP[END-FF]
+Coated with mythril silver, it has a mirror[NLINE]
+like surface. Easily confuses enemies.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #258 @ $4A8 - STRING #258 @ $7A9E
+#W32($4A8)
+//裏地に金属の板を縫いつけ、補強したコート。[NLINE]
+//高い防御力を誇るが、重い。[END-FF]
+Coat lined with metal plates. Offers[NLINE]
+high defense, but at the cost of[NLINE]
+movement.[END-FF]
+
+
+
+
+
+//POINTER #259 @ $4AC - STRING #259 @ $7AE7
+#W32($4AC)
+//闇の精霊の力を封じた布で作られたコート。[NLINE]
+//全ての光を吸収するかのような、真っ黒な外見が[NLINE]
+//その名の由来ともなっている。[END-FF]
+Coat imbued with the spirit of[NLINE]
+darkness. Named due to its tendency[NLINE]
+to absorb all light.[END-FF]
+
+
+
+
+
+//POINTER #260 @ $4B0 - STRING #260 @ $7B5E
+#W32($4B0)
+//大地の加護を得て強化された魔法のコート。[NLINE]
+//着ることで、寒さだけでなく暑さからも[NLINE]
+//身を守る。[END-FF]
+Magical coat blessed by the king of[NLINE]
+the earth spirits. Offers great[NLINE]
+protection against heat and cold.[END-FF]
+
+
+
+
+
+//POINTER #261 @ $4B4 - STRING #261 @ $7BBB
+#W32($4B4)
+//かつて大陸を席巻した古代帝国の将軍が身に[NLINE]
+//まとったと言われる優美なコート。戦場で着る為に[NLINE]
+//作られたため、過酷な環境でも快適に過ごせる。[END-FF]
+Coat worn by a marshal of the ancient[NLINE]
+empire. Its design allows the wearer[NLINE]
+to survive in any terrain or weather.[END-FF]
+
+
+
+
+
+//POINTER #262 @ $4B8 - STRING #262 @ $7C44
+#W32($4B8)
+//黄金帝国と呼ばれた理想郷の聖帝が代々身に纏った[NLINE]
+//着衣。真の平和を目指す者達へ受け継がれる[NLINE]
+//という。　　　　[COL09]戦闘時、一定時間ごとにＨＰ回復[END-FF]
+Emperor's coat passed down to those[NLINE]
+who believe in true peace.[NLINE]
+[COL09]Bonus: HP Regenerate[END-FF]
+
+
+
+
+
+//POINTER #263 @ $4BC - STRING #263 @ $7CD2
+#W32($4BC)
+//黄金帝国と呼ばれた理想郷の聖帝が代々身に纏った[NLINE]
+//着衣。前回のプレイまでの変換後装備品。[NLINE]
+//　　　　　　　　[COL09]戦闘時、一定時間ごとにＨＰ回復[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[NLINE]
+[COL09]Bonus: HP Regenerate[END-FF]
+
+
+
+
+
+//POINTER #264 @ $4C0 - STRING #264 @ $7D5E
+#W32($4C0)
+//銀の細工が施された、鋼鉄製の肩当て。[NLINE]
+//そのサイズから、高い防御能力を誇るだけでなく、[NLINE]
+//装飾品としての価値も高い。[END-FF]
+Silver-coated, steel shoulder pads that not[NLINE]
+only boast high defensive capabilities, but[NLINE]
+are also highly valued as decorations.[END-FF]
+
+
+
+
+
+//POINTER #265 @ $4C4 - STRING #265 @ $7DD1
+#W32($4C4)
+//今では絶滅してしまった巨大亀種の甲羅から[NLINE]
+//削り出された肩鎧。[NLINE]
+//鋼よりも硬く軽量で、優れた防御力を持つ。[END-FF]
+Pauldron made from the shell of a giant[NLINE]
+turtle species that is now extinct.[NLINE]
+Lightweight, yet harder than steel.[END-FF]
+
+
+
+
+
+//POINTER #266 @ $4C8 - STRING #266 @ $7E3A
+#W32($4C8)
+//特殊な模様と、魔鉱石の配列によって、[NLINE]
+//相手に目の錯覚を引き起こす神秘的な肩当て。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]回避率UP[END-FF]
+Pauldron made from an array of magical ores[NLINE]
+that cast an illusion on the enemy.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #267 @ $4CC - STRING #267 @ $7EBE
+#W32($4CC)
+//大地と人間の結びつきの契約を象徴する、伝説の[NLINE]
+//肩章。着用者には大地神の加護が得られる。[NLINE]
+//　　　　　　　　[COL09]戦闘時、一定時間ごとにＨＰ回復[END-FF]
+Shoulder ornament symbolizing the[NLINE]
+harmony between humans and earth.[NLINE]
+[COL09]Bonus: HP Regenerate[END-FF]
+
+
+
+
+
+//POINTER #268 @ $4D0 - STRING #268 @ $7F4A
+#W32($4D0)
+//異国の神の両肩に止まる二羽の烏を模した肩当て。[NLINE]
+//その神が持つ力の一部が得られると言われ、[NLINE]
+//魔法に対する防御と共に、精神と知識を強化する。[END-FF]
+Legendary shoulder guards crafted in the[NLINE]
+image of the two birds that rested on[NLINE]
+the shoulders of a mythical god.[END-FF]
+
+
+
+
+
+//POINTER #269 @ $4D4 - STRING #269 @ $7FD5
+#W32($4D4)
+//異国の神の両肩に止まる二羽の烏を模した肩当て。[NLINE]
+//魔法に対する防御と共に、精神と知識を強化する。[NLINE]
+//前回のプレイまでの変換後装備品。[NLINE]
+//[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[END-FF]
+
+
+
+
+
+//POINTER #270 @ $4D8 - STRING #270 @ $805A
+#W32($4D8)
+//１本１本に魔力を込めた絹糸で作られたケープ。[NLINE]
+//軽量ながら優れた防御効果をもつが、作製に[NLINE]
+//手間と時間がかかるため、高価である。[END-FF]
+Cape made from magic silk.[NLINE]
+Expensive due to the time and[NLINE]
+effort needed to make it.[END-FF]
+
+
+
+
+
+//POINTER #271 @ $4DC - STRING #271 @ $80D9
+#W32($4DC)
+//大天使より、その製法をさずかったとされる[NLINE]
+//高位の聖職者用のケープ。[END-FF]
+Sacred cape made using a secret[NLINE]
+technique. Worn by the highest[NLINE]
+ranking priests.[END-FF]
+
+
+
+
+
+//POINTER #272 @ $4E0 - STRING #272 @ $811E
+#W32($4E0)
+//天空より舞い降りた美しい乙女がまとっている、[NLINE]
+//薄い絹の羽衣。空を飛ぶ魔力は、失われているが、[NLINE]
+//持ち主の魔力を大幅に増強する力がある。[END-FF]
+White silk robe worn by a beautiful[NLINE]
+maiden who descended from the sky.[NLINE]
+Greatly boosts the wearer's magic.[END-FF]
+
+
+
+
+
+//POINTER #273 @ $4E4 - STRING #273 @ $81A5
+#W32($4E4)
+//伝説の聖女、ソフィーの遺体をくるんだ布を[NLINE]
+//利用して作られたケープ。絶対的な聖性を帯び、[NLINE]
+//着用するとまばゆい輝きを放つ。[END-FF]
+Cape worn by the legendary saint Sophie.[NLINE]
+Stained with holy water, it glows when[NLINE]
+worn by a person with a pure heart.[END-FF]
+
+
+
+
+
+//POINTER #274 @ $4E8 - STRING #274 @ $821E
+#W32($4E8)
+//伝説の聖女、ソフィーの遺体をくるんだ布を[NLINE]
+//利用して作られたケープ。絶対的な聖性を有す。[NLINE]
+//前回のプレイまでの変換後装備品。[NLINE]
+//[END-FF]
+Equipment carried over from[NLINE]
+the last playthrough.[END-FF]
+
+
+
+
+
+//POINTER #275 @ $4EC - STRING #275 @ $829B
+#W32($4EC)
+//布で出来た袖無しの上着。[NLINE]
+//覆う部位が少なく、布地も厚くはないため[NLINE]
+//防御力は期待できない。[END-FF]
+Sleeveless overcoat. Less than ideal[NLINE]
+for defense due to its inadequate[NLINE]
+coverage and thin material.[END-FF]
+
+
+
+
+
+//POINTER #276 @ $4F0 - STRING #276 @ $82F6
+#W32($4F0)
+//革で出来た袖無しの上着。[NLINE]
+//ある程度の衝撃から身を守る事ができるが、[NLINE]
+//どちらかといえばおしゃれの要素が強い。[END-FF]
+Sleeveless leather overcoat. Can[NLINE]
+stand a slight shock, but it's more[NLINE]
+fashionable than effective.[END-FF]
+
+
+
+
+
+//POINTER #277 @ $4F4 - STRING #277 @ $8363
+#W32($4F4)
+//シーズ蛾のマユから作られた強化ジャーキンに、[NLINE]
+//幻影効果を魔力付加したもの。[NLINE]
+//敵の攻撃が外れやすくなる。　　　　　[COL09]回避率UP[END-FF]
+Upgraded jerkin made from the scheze[NLINE]
+moth's silk.[NLINE]
+[COL09]Bonus: Evade Up[END-FF]
+
+
+
+
+
+//POINTER #278 @ $4F8 - STRING #278 @ $83E1
+#W32($4F8)
+//薄い金属片を縫いつける事で防御力を強化した[NLINE]
+//袖なしの上着。[NLINE]
+//金属片が光を反射し、華美な印象を与える。[END-FF]
+Overcoat made of thin metal strips[NLINE]
+for enhanced defense. The shiny metal[NLINE]
+makes a good impression on passers-by.[END-FF]
+
+
+
+
+
+//POINTER #279 @ $4FC - STRING #279 @ $8448
+#W32($4FC)
+//討伐された巨大な竜の皮をなめして作られた[NLINE]
+//袖なしの上着。着用者の皮膚を硬くし、露出した[NLINE]
+//肌をも守る効果がある。[END-FF]
+Overcoat made from dragon skin. It[NLINE]
+makes the wearer's skin harder too,[NLINE]
+protecting even exposed flesh.[END-FF]
+
+
+
+
+
+//POINTER #280 @ $500 - STRING #280 @ $84B9
+#W32($500)
+//貴族たちが金に糸目をつけず作らせた、決闘用[NLINE]
+//強化ジャーキン。華やかな彩りの外見に似合わず、[NLINE]
+//非常に優れた防御効果を持つ。[END-FF]
+Strong jerkin created by noblemen[NLINE]
+for duelling. Its defensive strength[NLINE]
+is matched only by its luxury.[END-FF]
+
+
+
+
+
+//POINTER #281 @ $504 - STRING #281 @ $8534
+#W32($504)
+//隕石から精製した銀を糸状に伸ばし、[NLINE]
+//織り込んだ布から作った豪華な袖なしの上着。[NLINE]
+//穏やかな波動が着用者の精神を落ち着かせる。[END-FF]
+Overcoat made from purified meteorite[NLINE]
+material. It emanates a calming aura.[END-FF]
+
+
+
+
+
+//POINTER #282 @ $508 - STRING #282 @ $85B1
+#W32($508)
+//神々の時代から存在すると伝えられる[NLINE]
+//究極の鎧。布地で作られていながら、[NLINE]
+//その防御力は魔法強化した板金鎧をも凌駕する。[END-FF]
+Ultimate armor believed to be from[NLINE]
+the days of the gods. Though made of[NLINE]
+cloth, it's stronger than magic steel.[END-FF]
+
+
+
+
+
+//POINTER #283 @ $50C - STRING #283 @ $8628
+#W32($50C)
+//皮で出来た首輪。[NLINE]
+//これが飼い犬の証。[END-FF]
+Collar made of leather.[NLINE]
+This is proof of a domestic dog.[END-FF]
+
+
+
+
+
+//POINTER #284 @ $510 - STRING #284 @ $864F
+#W32($510)
+//犬には酷な重さの首輪。[NLINE]
+//これが愛情の重さなのか…。[END-FF]
+Collar that weighs heavily on the dog.[NLINE]
+Is this the weight of love...[END-FF]
+
+
+
+
+
+//POINTER #285 @ $514 - STRING #285 @ $8684
+#W32($514)
+//地獄の番犬、ケロベロスがしていたという首輪。[NLINE]
+//これを着ければ、あなたも地獄の番犬。[END-FF]
+Collar worn by Cerberus, the watchdog[NLINE]
+of hell. If you wear this, you are[NLINE]
+also a watchdog of hell.[END-FF]
+
+
+
+
+//POINTER #286 @ $518 - STRING #286 @ $86D9
+#W32($518)
+//犬首輪３[END-FF]
+Canine Reserve 3[END-FF]
+
+
+
+
+
+//POINTER #287 @ $51C - STRING #287 @ $86E4
+#W32($51C)
+//防具ダミー[END-FF]
+Dummy[END-FF]
+
+
+
+
+
+//POINTER #288 @ $520 - STRING #288 @ $86F1
+#W32($520)
+//防具ダミー[END-FF]
+Dummy[END-FF]
+
+
+
+
+
+//POINTER #289 @ $524 - STRING #289 @ $86FE
+#W32($524)
+//防具[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #290 @ $528 - STRING #290 @ $8705
+#W32($528)
+//薬草をせんじて作った傷薬。[NLINE]
+//患部に塗ることで、少々の傷なら治癒できる。[NLINE]
+//　　　　　　　　　　　　　[COL09]ＨＰ回復‥４０～５０[END-FF]
+Ointment made from medicinal herbs.[NLINE]
+Applying it will heal small wounds.[NLINE]
+[COL09]HP Recovery: 40～50[END-FF]
+
+
+
+
+
+//POINTER #291 @ $52C - STRING #291 @ $8781
+#W32($52C)
+//高山で採れる珍しい薬草から作られた傷薬。[NLINE]
+//値段は少々高いが、回復効果が優れている。[NLINE]
+//　　　　　　　　　　　[COL09]ＨＰ回復‥１４５～１５５[END-FF]
+Ointment made from rare alpine herbs.[NLINE]
+Slightly expensive, but effective.[NLINE]
+[COL09]HP Recovery: 145～155[END-FF]
+
+
+
+
+
+//POINTER #292 @ $530 - STRING #292 @ $8809
+#W32($530)
+//聖母クローディアが、傷ついた旅人に製造法を[NLINE]
+//伝えたとされる神秘的な薬。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]ＨＰ全回復[END-FF]
+Strange ointment from a recipe[NLINE]
+devised by Holy Mother Claudia.[NLINE]
+[COL09]Recovers all HP[END-FF]
+
+
+
+
+
+//POINTER #293 @ $534 - STRING #293 @ $8885
+#W32($534)
+//不死の薬の研究中に発明されたという水薬。[NLINE]
+//強い生命力を秘めている貴重品。[NLINE]
+//　　　　　　　　　[COL09]パーティー全員のＨＰを全回復[END-FF]
+Medicine found during the search for[NLINE]
+immortality. Rare but very potent.[NLINE]
+[COL09]Recovers all party members' HP[END-FF]
+
+
+
+
+
+//POINTER #294 @ $538 - STRING #294 @ $8903
+#W32($538)
+//魔力を帯びた、甘い香りを放つ果実。[NLINE]
+//栽培が非常に難しいため珍重されている。[NLINE]
+//　　　　　　　　　　　　　[COL09]ＭＰ回復‥４５～５５[END-FF]
+Magic fruit with a sweet fragrance.[NLINE]
+Very difficult to cultivate.[NLINE]
+[COL09]MP Recovery: 45～55[END-FF]
+
+
+
+
+
+//POINTER #295 @ $53C - STRING #295 @ $8983
+#W32($53C)
+//体内に入った毒を中和する薬草。[NLINE]
+//傷口にすりこめば十分な効果が得られる。[NLINE]
+//　　　　　　　　　　　　　　　　[COL09]毒、猛毒を治癒[END-FF]
+Herb that neutralizes poison. Rub it[NLINE]
+into the wound for best results.[NLINE]
+[COL09]Cures poison[END-FF]
+
+
+
+
+
+//POINTER #296 @ $540 - STRING #296 @ $89FF
+#W32($540)
+//強心作用のあるハーブエキスから作った薬。[NLINE]
+//薄らいだ意識や、体の痺れを瞬時に治す。[NLINE]
+//　　　　　　　　　　　　　　　[COL09]マヒ、気絶を治癒[END-FF]
+Medicine made from herbs with[NLINE]
+restorative effects.[NLINE]
+[COL09]Cures paralysis/unconsciousness[END-FF]
+
+
+
+
+
+//POINTER #297 @ $544 - STRING #297 @ $8A85
+#W32($544)
+//南方で採れる強い香りの薬草をせんじた薬。[NLINE]
+//石化毒を中和し全身に血を通わせる。[NLINE]
+//　　　　　　　　　　　　　　　　　　[COL09]石化を治癒[END-FF]
+Brewed from strong-smelling herbs.[NLINE]
+Neutralizes petrification agents.[NLINE]
+[COL09]Cures petrification[END-FF]
+
+
+
+
+
+//POINTER #298 @ $548 - STRING #298 @ $8B07
+#W32($548)
+//賢者たちが作り出した魔法の薬。[NLINE]
+//あらゆる毒を中和する万能薬と呼ばれている。[NLINE]
+//　　　　　　　　[COL09]瀕死以外のステイタス異常を治癒[END-FF]
+Mystic tincture made by sages. Said[NLINE]
+to neutralize all types of poisons.[NLINE]
+[COL09]Cures all status ailments[END-FF]
+
+
+
+
+
+//POINTER #299 @ $54C - STRING #299 @ $8B87
+#W32($54C)
+//天上界の果物から作られた酒。[NLINE]
+//戦いで倒れた者にかければ、たちどころに[NLINE]
+//傷がふさがり、元気になる。　　　[COL09]瀕死状態を治療[END-FF]
+Drink of the gods. Pour it on the[NLINE]
+fallen to see them rise again.[NLINE]
+[COL09]Raises dying party members[END-FF]
+
+
+
+
+
+//POINTER #300 @ $550 - STRING #300 @ $8C01
+#W32($550)
+//神界の馬から採れたといわれる血。[NLINE]
+//飲んだ者に驚異的な脚力を与える。[NLINE]
+//　　　　　　　　　　　　　　[COL09]ダッシュ効果を得る[END-FF]
+Blood from a heavenly horse that[NLINE]
+confers speed on those who drink it.[NLINE]
+[COL09]Gain dash effect[END-FF]
+
+
+
+
+
+//POINTER #301 @ $554 - STRING #301 @ $8C79
+#W32($554)
+//幸運を呼ぶ女神が描かれたメダリオン。[NLINE]
+//[NLINE]
+//[COL09]　　　　獲得道具ランク１ポイントUP(最大は２４)[END-FF]
+Medallion engraved with an image of[NLINE]
+the goddess of luck.[NLINE]
+[COL09]Gain better items from enemies[END-FF]
+
+
+
+
+
+//POINTER #302 @ $558 - STRING #302 @ $8CD5
+#W32($558)
+//伝説の大盗賊アルスィオーヴが持っていた[NLINE]
+//ベル。宝のありかを音で知らせてくれる。[NLINE]
+//　　　　　　　　　　[COL09]確実に敵から道具を獲得する[END-FF]
+The legendary bandit Alsiov's bell.[NLINE]
+Its ring guides you to treasure.[NLINE]
+[COL09]Always gain items from enemies[END-FF]
+
+
+
+
+
+//POINTER #303 @ $55C - STRING #303 @ $8D59
+#W32($55C)
+//大賢者ヴィトが作った秘薬。体勢を瞬時に[NLINE]
+//立て直し、即座に行動が取れるようになる。[NLINE]
+//　　　　　　　　　[COL09]ＡＴＷゲージの硬直時間を減少[END-FF]
+Nostrum created by the Great Sage Vito.[NLINE]
+Allows movement right after striking.[NLINE]
+[COL09]Decreases ATW delay after an attack[END-FF]
+
+
+
+
+
+//POINTER #304 @ $560 - STRING #304 @ $8DDF
+#W32($560)
+//大地の女神をまつる神官たちが、神木と[NLINE]
+//あがめるリンゴの木から採れたもの。[NLINE]
+//　　　　　　　　　　　　　　　[COL09]ＳＴＲが１～４UP[END-FF]
+From an apple tree revered by[NLINE]
+priests of the earth goddess.[NLINE]
+[COL09]Increases 1～4 STR[END-FF]
+
+
+
+
+
+//POINTER #305 @ $564 - STRING #305 @ $8E5D
+#W32($564)
+//世界創造の時よりあるとされるリンゴの[NLINE]
+//巨木から採られた実。太古からの知識が[NLINE]
+//蓄えられている。　　　　　　　[COL09]ＩＮＴが１～４UP[END-FF]
+Gathered from a tree that has stood[NLINE]
+since the creation of the earth.[NLINE]
+[COL09]Increases 1～4 INT[END-FF]
+
+
+
+
+
+//POINTER #306 @ $568 - STRING #306 @ $8EDD
+#W32($568)
+//風の妖精が護るリンゴの木から採られた[NLINE]
+//青リンゴ。１年にたった１つしか実らない。[NLINE]
+//　　　　　　　　　　　　　　　[COL09]ＤＥＸが１～４UP[END-FF]
+Gathered from a tree guarded by wind[NLINE]
+fairies. Only one grows each year.[NLINE]
+[COL09]Increases 1～4 DEX[END-FF]
+
+
+
+
+
+//POINTER #307 @ $56C - STRING #307 @ $8F61
+#W32($56C)
+//イケてる男が読む、身だしなみについて[NLINE]
+//書かれた本。内容を会得した者は、異性、[NLINE]
+//同性ともひきつける。　　　　　　　　[COL09]カリスマUP[END-FF]
+Style book studied by elegant men.[NLINE]
+Its adherents are quite fashionable.[NLINE]
+[COL09]Increases charisma[END-FF]
+
+
+
+
+
+//POINTER #308 @ $570 - STRING #308 @ $8FE3
+#W32($570)
+//祝福の力を授けられた黄金製のハンドベル。[NLINE]
+//ただし一度鳴らすとヒビ割れてしまう。[NLINE]
+//　　　　　　　[COL09]能力を維持して、ＬＶを１０下げる[END-FF]
+Blessed golden bell that will[NLINE]
+shatter after ringing once.[NLINE]
+[COL09]Keep all abilities and lose 10 Lv.[END-FF]
+
+
+
+
+
+//POINTER #309 @ $574 - STRING #309 @ $9067
+#W32($574)
+//技能の修得方法を記した作者不詳の巻物。[NLINE]
+//[NLINE]
+//　　　　　　　[COL09]技能ポイントを１００ポイント得る[END-FF]
+Anonymously written scroll with[NLINE]
+details on how to learn knacks.[NLINE]
+[COL09]Gain 100 Knack Points[END-FF]
+
+
+
+
+
+//POINTER #310 @ $578 - STRING #310 @ $90C5
+#W32($578)
+//すべての技能を極めたという古代の戦士ラマダスの[NLINE]
+//記した秘伝書。秘伝の修得術が書かれているという。[NLINE]
+//　　　　　　　[COL09]技能ポイントを２５０ポイント得る[END-FF]
+Scroll written by Ramadus, an ancient[NLINE]
+warrior who mastered all knacks.[NLINE]
+[COL09]Gain 250 Knack Points[END-FF]
+
+
+
+
+
+//POINTER #311 @ $57C - STRING #311 @ $915B
+#W32($57C)
+//賢者の念が込められた不思議な石。[NLINE]
+//砕けば武器防具の扱いに長けるという。[NLINE]
+//[COL09]装備から生成中のプレートへ１５ポイントを加える[END-FF]
+Stone with a sage's power within.[NLINE]
+Break it to master weapons and armor.[NLINE]
+[COL09]Gain 15 points on the equipment plate[END-FF]
+
+
+
+
+
+//POINTER #312 @ $580 - STRING #312 @ $91D7
+#W32($580)
+//エルフの念が込められた不思議な石。[NLINE]
+//砕けば武器防具の扱いに長けるという。[NLINE]
+//[COL09]装備から生成中のプレートへ５５ポイントを加える[END-FF]
+Stone with an elf's power within.[NLINE]
+Break it to master weapons and armor.[NLINE]
+[COL09]Gain 55 points on the equipment plate[END-FF]
+
+
+
+
+
+//POINTER #313 @ $584 - STRING #313 @ $9255
+#W32($584)
+//大地に眠るエネルギーのありかが記された[NLINE]
+//魔導書。大地に対する深い知識を得られる。[NLINE]
+//　　　　　　　　　　　[COL04]サンドショット[COL09]を修得可能[END-FF]
+Scroll mapping the energy of the earth.[NLINE]
+Gain a deep understanding of the land.[NLINE]
+[COL09]Learn [COL04]Sand Shot[END-FF]
+
+
+
+
+
+//POINTER #314 @ $588 - STRING #314 @ $92DE
+#W32($588)
+//水とその変化に関する知識が記された魔導書。[NLINE]
+//氷や雪の構造に対する深い知識を得られる。[NLINE]
+//　　　　　　　　　　　[COL04]アイスバレット[COL09]を修得可能[END-FF]
+Scroll of water and its properties.[NLINE]
+Gain a deep understanding of liquid.[NLINE]
+[COL09]Learn [COL04]Ice Barrage[END-FF]
+
+
+
+
+
+//POINTER #315 @ $58C - STRING #315 @ $936B
+#W32($58C)
+//魔力で炎を生み出す初歩の術が記された[NLINE]
+//魔導書。炎に対する深い知識を得られる。[NLINE]
+//　　　　　　　　　　　[COL04]ファイアアロー[COL09]を修得可能[END-FF]
+Scroll of a basic fire creation spell.[NLINE]
+Gain a deep understanding of fire.[NLINE]
+[COL09]Learn [COL04]Fire Arrow[END-FF]
+
+
+
+
+
+//POINTER #316 @ $590 - STRING #316 @ $93F0
+#W32($590)
+//真空を生み出す魔術が記された魔導書。[NLINE]
+//大気に対する深い知識を得られる。[NLINE]
+//　　　　　　　　　　　[COL04]ウィンドエッジ[COL09]を修得可能[END-FF]
+Scroll of the formation of vacuums.[NLINE]
+Gain a deep understanding of air.[NLINE]
+[COL09]Learn [COL04]Wind Edge[END-FF]
+
+
+
+
+
+//POINTER #317 @ $594 - STRING #317 @ $946F
+#W32($594)
+//精神力と魔力との関係が記された魔導書。[NLINE]
+//精神力に対する深い知識が得られる。[NLINE]
+//　　　　　　　　　　　　[COL04]ＭＰドレイン[COL09]を修得可能[END-FF]
+Scroll of mental mastery over magic.[NLINE]
+Gain a deep understanding of the mind.[NLINE]
+[COL09]Learn [COL04]Magic Vortex[END-FF]
+
+
+
+
+
+//POINTER #318 @ $598 - STRING #318 @ $94F2
+#W32($598)
+//神経組織の構造について記された魔導書。[NLINE]
+//神経伝達に対する深い知識を得られる。[NLINE]
+//　　　　　　　　　　　[COL04]サイクルアップ[COL09]を修得可能[END-FF]
+Scroll detailing the nervous system.[NLINE]
+Gain a deep understanding of nerves.[NLINE]
+[COL09]Learn [COL04]Cycle Up[END-FF]
+
+
+
+
+
+//POINTER #319 @ $59C - STRING #319 @ $9577
+#W32($59C)
+//人体の構造と、生命の秘密が記された魔導書。[NLINE]
+//治癒能力に対する深い知識が得られる。[NLINE]
+//　　　　　　　　　　　　　[COL04]ヒーリング[COL09]を修得可能[END-FF]
+Scroll of the secrets of life.[NLINE]
+Gain a deep understanding of healing.[NLINE]
+[COL09]Learn [COL04]Heal[END-FF]
+
+
+
+
+
+//POINTER #320 @ $5A0 - STRING #320 @ $9600
+#W32($5A0)
+//相手の攻撃を見切り、反撃を行う方法が[NLINE]
+//記された巻物。[NLINE]
+//　　　　　　　　　　　　　[COL05]カウンター[COL09]を修得可能[END-FF]
+Scroll with directions on countering[NLINE]
+an opponent's attack.[NLINE]
+[COL09]Learn [COL04]Counter[END-FF]
+
+
+
+
+
+//POINTER #321 @ $5A4 - STRING #321 @ $966D
+#W32($5A4)
+//武器の扱いに習熟する事で、周囲にいる敵[NLINE]
+//全てに攻撃を行う方法が記された巻物。[NLINE]
+//　　　　　　　　　　　　　[COL05]全周囲攻撃[COL09]を修得可能[END-FF]
+Scroll with directions on how to[NLINE]
+strike all around you.[NLINE]
+[COL09]Learn [COL04]Circle Strike[END-FF]
+
+
+
+
+
+//POINTER #322 @ $5A8 - STRING #322 @ $96F2
+#W32($5A8)
+//伝説の大盗賊アルスィオーヴが、盗みを行う[NLINE]
+//際の効果的な手さばきについて記した書。[NLINE]
+//　　　　　　　　　　　　　　　　[COL05]強奪[COL09]を修得可能[END-FF]
+Scroll with tips from the great[NLINE]
+bandit Alsiov on stealing.[NLINE]
+[COL09]Learn [COL04]Thievery[END-FF]
+
+
+
+
+
+//POINTER #323 @ $5AC - STRING #323 @ $977B
+#W32($5AC)
+//魔女ヘイズが、より強力な魔力を得るために[NLINE]
+//編み出した秘術が記された書。[NLINE]
+//　　　　　　　　　　　　　　[COL05]魔法強化[COL09]を修得可能[END-FF]
+Scroll from the witch Hayze on how[NLINE]
+to improve one's magic power.[NLINE]
+[COL09]Learn [COL04]Magic Up[END-FF]
+
+
+
+
+
+//POINTER #324 @ $5B0 - STRING #324 @ $97FA
+#W32($5B0)
+//守りを捨て、攻撃のみに専念できる精神の[NLINE]
+//トランス法が記された北の国より伝わる書。[NLINE]
+//　　　　　　　　　　　　　[COL05]バーサーク[COL09]を修得可能[END-FF]
+Scroll from the north on how to[NLINE]
+enter an attacking fugue state.[NLINE]
+[COL09]Learn [COL04]Berserk[END-FF]
+
+
+
+
+
+//POINTER #325 @ $5B4 - STRING #325 @ $9883
+#W32($5B4)
+//人体の仕組みが記された書。生命力を高める[NLINE]
+//秘伝の法を知ることができる。[NLINE]
+//　　　　　　　　　　　　　[COL01]ＨＰアップ[COL09]を修得可能[END-FF]
+Scroll on the structure of the human[NLINE]
+body. Heightens one's life energy.[NLINE]
+[COL09]Learn [COL04]HP Up[END-FF]
+
+
+
+
+
+//POINTER #326 @ $5B8 - STRING #326 @ $9902
+#W32($5B8)
+//魔力の増強の奥義が記された書。[NLINE]
+//精神力を高める秘伝を知ることができる。[NLINE]
+//　　　　　　　　　　　　　[COL01]ＭＰアップ[COL09]を修得可能[END-FF]
+Scroll on the structure of the mind.[NLINE]
+Heightens one's mental energy.[NLINE]
+[COL09]Learn [COL04]MP Up[END-FF]
+
+
+
+
+
+//POINTER #327 @ $5BC - STRING #327 @ $9981
+#W32($5BC)
+//俊足の奥義が記された書。走る速度を上げる[NLINE]
+//秘伝の法を知ることができる。[NLINE]
+//　　　　　　　　　　　　[COL01]ＭＯＶアップ[COL09]を修得可能[END-FF]
+Scroll of speed. Learn it to[NLINE]
+increase your own running speed.[NLINE]
+[COL09]Learn [COL04]MOV Up[END-FF]
+
+
+
+
+
+//POINTER #328 @ $5C0 - STRING #328 @ $9A00
+#W32($5C0)
+//動体視力を高める方法が記された書。[NLINE]
+//武器攻撃をより的確に行えるようになる。[NLINE]
+//　　　　　　　　　　　　　[COL01]命中アップ[COL09]を修得可能[END-FF]
+Scroll on enhancing eyesight. Learn[NLINE]
+how to attack more effectively.[NLINE]
+[COL09]Learn [COL04]Hit Ratio Up[END-FF]
+
+
+
+
+
+//POINTER #329 @ $5C4 - STRING #329 @ $9A83
+#W32($5C4)
+//攻撃時のムダな動きをなくし、流れるような[NLINE]
+//動作を体得する方法が記された書。[NLINE]
+//　　　　　　　　　　　　[COL01]攻撃硬直短縮[COL09]を修得可能[END-FF]
+Scroll on how to move efficiently[NLINE]
+in a flowing manner.[NLINE]
+[COL09]Learn [COL04]Quick Attack[END-FF]
+
+
+
+
+
+//POINTER #330 @ $5C8 - STRING #330 @ $9B06
+#W32($5C8)
+//魔法詠唱時の発声を、より素早く的確に行う[NLINE]
+//秘密が記された書。[NLINE]
+//　　　　　　　　　　　　　　[COL01]詠唱短縮[COL09]を修得可能[END-FF]
+Scroll on how to cast spells[NLINE]
+quickly and accurately.[NLINE]
+[COL09]Learn [COL04]Quick Cast[END-FF]
+
+
+
+
+
+//POINTER #331 @ $5CC - STRING #331 @ $9B7B
+#W32($5CC)
+//魔法発動の原理がわかりやすく記された書。[NLINE]
+//[NLINE]
+//　　　　　　　　　　　　[COL01]消費ＭＰ減少[COL09]を修得可能[END-FF]
+Scroll making the principles of spell[NLINE]
+activation easier to understand.[NLINE]
+[COL09]Learn [COL04]MP Cost Down[END-FF]
+
+
+
+
+
+//POINTER #332 @ $5D0 - STRING #332 @ $9BDE
+#W32($5D0)
+//相手との対峙による身体への影響について[NLINE]
+//記した書。身体の同調方法が学べる。[NLINE]
+//　　　　　　　　　　　　　　[COL01]ＨＰ吸収[COL09]を修得可能[END-FF]
+Scroll teaching how the body can[NLINE]
+synchronize with other beings.[NLINE]
+[COL09]Learn [COL04]HP Drain[END-FF]
+
+
+
+
+
+//POINTER #333 @ $5D4 - STRING #333 @ $9C61
+#W32($5D4)
+//相手との対峙による精神への影響について[NLINE]
+//記した書。精神の同調方法が学べる。[NLINE]
+//　　　　　　　　　　　　　　[COL01]ＭＰ吸収[COL09]を修得可能[END-FF]
+Scroll teaching how the mind can[NLINE]
+synchronize with other psyches.[NLINE]
+[COL09]Learn [COL04]MP Drain[END-FF]
+
+
+
+
+
+//POINTER #334 @ $5D8 - STRING #334 @ $9CE4
+#W32($5D8)
+//生命エネルギーを高める呼吸法を記した書。[NLINE]
+//続けることで免疫力が高まる。[NLINE]
+//　　　　　　　　　　　　[COL01]状態異常防御[COL09]を修得可能[END-FF]
+Scroll that teaches breathing[NLINE]
+methods to enhance one's immunity.[NLINE]
+[COL09]Learn [COL04]Ailment Guard[END-FF]
+
+
+
+
+
+//POINTER #335 @ $5DC - STRING #335 @ $9D63
+#W32($5DC)
+//東にある国の間諜が用いたとされる、驚異的[NLINE]
+//な体術について記された書。[NLINE]
+//　　　　　　　　　　　　　　　[COL01]影霞み[COL09]を修得可能[END-FF]
+Scroll of menacing martial arts used[NLINE]
+by spies from an eastern country.[NLINE]
+[COL09]Learn [COL04]Shadow Dodge[END-FF]
+
+
+
+
+
+//POINTER #336 @ $5E0 - STRING #336 @ $9DE0
+#W32($5E0)
+//自己治癒能力を高めるために必要となる、[NLINE]
+//身体組織の働きについて記した書。[NLINE]
+//　　　　　　　　　　　[COL01]リジェネレート[COL09]を修得可能[END-FF]
+Scroll on increasing natural healing[NLINE]
+abilities through positive thinking.[NLINE]
+[COL09]Learn [COL04]HP Regenerate[END-FF]
+
+
+
+
+
+//POINTER #337 @ $5E4 - STRING #337 @ $9E61
+#W32($5E4)
+//瞑想時の精神状態を分析し、覚醒時にも同じ[NLINE]
+//効果を得る方法について記された書。[NLINE]
+//　　　　　　　　　　　　　　[COL01]ＭＰ回復[COL09]を修得可能[END-FF]
+Scroll on increasing one's mental[NLINE]
+clarity through meditation.[NLINE]
+[COL09]Learn [COL04]MP Regenerate[END-FF]
+
+
+
+
+//POINTER #338 @ $5E8 - STRING #338 @ $9EE6
+#W32($5E8)
+//静かな心で鏡の中に自らを映すことにより、[NLINE]
+//修得する技の傾向を見直すことができる。[NLINE]
+//　　　　　　　[COL09]技能プレートの分岐を上方向に変更[END-FF]
+Reexamine one's inner flow by[NLINE]
+considering it with a calm mind.[NLINE]
+[COL09]Move a Plate's arrow up[END-FF]
+
+
+
+
+
+//POINTER #339 @ $5EC - STRING #339 @ $9F6C
+#W32($5EC)
+//静かな心で鏡の中に自らを映すことにより、[NLINE]
+//修得する技の傾向を見直すことができる。[NLINE]
+//　　　　　　　[COL09]技能プレートの分岐を下方向に変更[END-FF]
+Reexamine one's inner flow by[NLINE]
+considering it with a calm mind.[NLINE]
+[COL09]Move a Plate's arrow down[END-FF]
+
+
+
+
+
+//POINTER #340 @ $5F0 - STRING #340 @ $9FF2
+#W32($5F0)
+//鏡の中に別の自分を見いだすことにより、[NLINE]
+//修得する技の傾向を自由にできる。[NLINE]
+//　　　　　　[COL09]技能プレートの分岐を自由方向に変更[END-FF]
+Reexamine one's inner flow by[NLINE]
+discovering a new persona.[NLINE]
+[COL09]Change a Plate's arrow freely[END-FF]
+
+
+
+
+
+//POINTER #341 @ $5F4 - STRING #341 @ $A070
+#W32($5F4)
+//鏡の中に別の自分を見いだすことにより、[NLINE]
+//修得する技の傾向を拡げることができる。[NLINE]
+//　　　　　　　[COL09]技能プレートの分岐を両方向に変更[END-FF]
+Acknowledge the contradictions[NLINE]
+inherent in one's inner self.[NLINE]
+[COL09]Cause a Plate's arrow to branch[END-FF]
+
+
+
+
+
+//POINTER #342 @ $5F8 - STRING #342 @ $A0F4
+#W32($5F8)
+//身体と精神を瞑想に導き、数日間の鍛錬を[NLINE]
+//積んだのと同等の効果を与える。[NLINE]
+//　　[COL09]指定技能プレートに技能ポイント５０を加える[END-FF]
+Gain the same benefits of difficult[NLINE]
+training through intense meditation.[NLINE]
+[COL09]Add 50 Knack Points to a Plate[END-FF]
+
+
+
+
+
+//POINTER #343 @ $5FC - STRING #343 @ $A170
+#W32($5FC)
+//身体と精神を瞑想に導き、長期間の鍛錬を[NLINE]
+//積んだのと同等の効果を与える。[NLINE]
+//　[COL09]指定技能プレートに技能ポイント２５０を加える[END-FF]
+Gain the same benefits of difficult[NLINE]
+training through intense meditation.[NLINE]
+[COL09]Add 250 Knack Points to a Plate[END-FF]
+
+
+
+
+
+//POINTER #344 @ $600 - STRING #344 @ $A1EC
+#W32($600)
+//催眠により記憶の入れ替えを行うカード。[NLINE]
+//覚えた技同士を入れ替えることができる。[NLINE]
+//　　　　　　　　[COL09]技能プレートの位置を交換できる[END-FF]
+Card used to reprogram one's mind[NLINE]
+through hypnosis.[NLINE]
+[COL09]Move set Plates freely[END-FF]
+
+
+
+
+
+//POINTER #345 @ $604 - STRING #345 @ $A270
+#W32($604)
+//魔導士が出来の悪い弟子を教育するために[NLINE]
+//作ったといわれる貴重な巻物。[NLINE]
+//　[COL09]技能プレートを他のメンバーのストックにコピー[END-FF]
+Scroll made by a sorcerer to educate[NLINE]
+his slower pupils.[NLINE]
+[COL09]Give a copied ability plate to a comrade[END-FF]
+
+
+
+
+
+//POINTER #346 @ $608 - STRING #346 @ $A2EA
+#W32($608)
+//魔導士が破門した弟子の知識を消すために[NLINE]
+//使う毒。技能の修得と経験を失う。[NLINE]
+//　　　　[COL09]技能プレートをはがし、ストックに入れる[END-FF]
+Drug used by a sorcerer to erase his[NLINE]
+expelled pupils' dangerous knowledge.[NLINE]
+[COL09]Return a Plate back to one's stock[END-FF]
+
+
+
+
+
+//POINTER #347 @ $60C - STRING #347 @ $A368
+#W32($60C)
+//技修得の限界を突破し、新たな力を得るための秘法。[NLINE]
+//　[NLINE]
+//　[COL09]技能プレートから同種２枚目のプレートを作る。[END-FF]
+Scroll used to break through the limits[NLINE]
+of the mind and gain new power.[NLINE]
+[COL09]Create a copy of a Plate[END-FF]
+
+
+
+
+
+//POINTER #348 @ $610 - STRING #348 @ $A3D2
+#W32($610)
+//ジェムに使うと強制的にインパクトを発生させる薬。[NLINE]
+//(ジェム合成メニュー内で使います)[NLINE]
+//　　　　　　　　　　　[COL09]即座にインパクトを起こす[END-FF]
+!! A drug that forces an impact when[NLINE]
+used in gem synthesis.[NLINE]
+[COL09]Make an immediate impact[END-FF]
+
+
+
+
+
+//POINTER #349 @ $614 - STRING #349 @ $A45A
+#W32($614)
+//能力を２種以上持つジェムを、２個のジェムに[NLINE]
+//分解する薬。(ジェム合成メニュー内で使います)[NLINE]
+//　[COL09]ジェムの能力を２つに分け、新たなジェムを得る[END-FF]
+!! A drug that splits gems with two or more[NLINE]
+abilities into two separate gems.[NLINE]
+[COL09]Divide a gem into two separate gems[END-FF]
+
+
+
+
+
+//POINTER #350 @ $618 - STRING #350 @ $A4E8
+#W32($618)
+//不使用[NLINE]
+//;ジェムカッター[END-FF]
+Gem Buster[END-FF]
+
+
+
+
+
+//POINTER #351 @ $61C - STRING #351 @ $A502
+#W32($61C)
+//不使用[NLINE]
+//;ジェムカッター・改[END-FF]
+Gem Buster EX[END-FF]
+
+
+
+
+
+//POINTER #352 @ $620 - STRING #352 @ $A520
+#W32($620)
+//不使用[NLINE]
+//;ジェム強制強化[END-FF]
+Gem Reinforcer[END-FF]
+
+
+
+
+//POINTER #353 @ $624 - STRING #353 @ $A53A
+#W32($624)
+//不使用[NLINE]
+//;ジェム強制強化・改[END-FF]
+Gem Reinforcer EX[END-FF]
+
+
+
+
+//POINTER #354 @ $628 - STRING #354 @ $A558
+#W32($628)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #355 @ $62C - STRING #355 @ $A55F
+#W32($62C)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #356 @ $630 - STRING #356 @ $A566
+#W32($630)
+//予備[END-FF]
+Reserve[END-FF]
+
+
+
+
+
+//POINTER #357 @ $634 - STRING #357 @ $A56D
+#W32($634)
+//モノポリス社の社員である事を証明する身分証。[NLINE]
+//このエスグレンツ大陸では通行証代わりとなる。[NLINE]
+//また本社ビル内でも色々と必要になる。[END-FF]
+ID card to prove that you are an employee of[NLINE]
+the Monopolis company. Also acts as a travel[NLINE]
+pass inside the Esgrenz continent.[END-FF]
+
+
+
+
+
+//POINTER #358 @ $638 - STRING #358 @ $A5F0
+#W32($638)
+//エスグレンツ大陸を旅する者の必須アイテム。[NLINE]
+//魔法の力で現在の位置を知ることが出来るが、[NLINE]
+//それほど精度は高くない。[END-FF]
+A must-have item for travelers of Esgrenz.[NLINE]
+Enchanted to give one's position, but the[NLINE]
+spell isn't very accurate.[END-FF]
+
+
+
+
+
+//POINTER #359 @ $63C - STRING #359 @ $A663
+#W32($63C)
+//ゴートランド大陸を旅する者の必須アイテム。[NLINE]
+//魔法の力で現在の位置を知ることが出来るが、[NLINE]
+//それほど精度は高くない。[END-FF]
+A must-have item for travelers of Goatland.[NLINE]
+Enchanted to give one's position, but the[NLINE]
+spell isn't very accurate.[END-FF]
+
+
+
+
+
+//POINTER #360 @ $640 - STRING #360 @ $A6D6
+#W32($640)
+//大地のエネルギーを操るという秘宝。[NLINE]
+//その組成は全くの謎で、いかなる方法を[NLINE]
+//以てしても複製することは出来ない。[END-FF]
+Treasure said to control the earth's[NLINE]
+energy. Its composition is unknown,[NLINE]
+and thus it cannot be reproduced.[END-FF]
+
+
+
+
+
+//POINTER #361 @ $644 - STRING #361 @ $A745
+#W32($644)
+//４枚で１セットになっており、[NLINE]
+//その効果範囲内でクイーン・スクリーパーを[NLINE]
+//倒せば、石板にクイーンを封印できる。[END-FF]
+!! Four pieces are in one set.[NLINE]
+The Queen Screaper can be sealed on the[NLINE]
+slate if defeated within its range.[END-FF]
+
+
+
+
+
+//POINTER #362 @ $648 - STRING #362 @ $A7B4
+#W32($648)
+//古代魔法の媒介として貴重な粉。[NLINE]
+//物質を圧縮、吸引する魔法には必要不可欠。[NLINE]
+//現代ではその製法は失われている。[END-FF]
+!! Precious powder used as an ancient[NLINE]
+ingredient for drawing magic circles. The[NLINE]
+process of making it has long been lost.[END-FF]
+
+
+
+
+
+//POINTER #363 @ $64C - STRING #363 @ $A821
+#W32($64C)
+//モノポリス社が開発した携帯型の潜水具。[NLINE]
+//長さ２０センチほどの筒をくわえて使用する。[NLINE]
+//２０分ほどの潜水が可能。[END-FF]
+Portable diving equipment developed by[NLINE]
+Monopolis. It is possible to dive for[NLINE]
+about 20 minutes.[END-FF]
+
+
+
+
+
+//POINTER #364 @ $650 - STRING #364 @ $A890
+#W32($650)
+//一般の時の流れと異なる独自の波長を持ち、[NLINE]
+//時間移動を行う能力を有する者の波動に反応、[NLINE]
+//過去への随行を可能とする特殊なクリスタル。[END-FF]
+A special crystal that allows travel into[NLINE]
+the past. Has its own wavelength that only[NLINE]
+reacts to someone who can manipulate time.[END-FF]
+
+
+
+
+
+//POINTER #365 @ $654 - STRING #365 @ $A913
+#W32($654)
+//フォメロス、ヒンギスタンの両兵士に変装した[NLINE]
+//テロリストが両軍を交戦させようとする作戦を[NLINE]
+//仲間に伝える為の報告書らしい。[END-FF]
+A report about terrorists that are disguised[NLINE]
+as Fomeros and Hingistan Soldiers planning[NLINE]
+to instigate a war between the countries.[END-FF]
+
+
+
+
+
+//POINTER #366 @ $658 - STRING #366 @ $A98C
+#W32($658)
+//モノポリス本社のエレベーターを最上階に[NLINE]
+//向かわせるときに必要となるカギ。[NLINE]
+//選ばれた者しか所有を許されない。[END-FF]
+Key required by the elevator[NLINE]
+to go to the top floor of the[NLINE]
+Monopolis Headquarters.[END-FF]
+
+
+
+
+
+//POINTER #367 @ $65C - STRING #367 @ $A9F9
+#W32($65C)
+//遺物の魔力を計測するためのセンサー。[NLINE]
+//小型化を優先したため、指向性がなく、[NLINE]
+//目的物を探すためには向いていない。[END-FF]
+!! Sensor to measure the magic of the relics.[NLINE]
+There is no directivity due to portability.[NLINE]
+Not suitable for finding objects.[END-FF]
+
+
+
+
+
+//POINTER #368 @ $660 - STRING #368 @ $AA6A
+#W32($660)
+//会員制酒場『ダークキャット』会員証。[NLINE]
+//再発行はいたしません。大切にお持ち下さい。[NLINE]
+//特別日は会員証提示だけでは入店出来ません。[NLINE]
+//[END-FF]
+"Dark Cat" membership card. It will not[NLINE]
+be reissued under any circumstances.[END-FF]
+
+
+
+
+
+//POINTER #369 @ $664 - STRING #369 @ $AAEB
+#W32($664)
+//本社ビルのあるマキナスの入り口で受け取った[NLINE]
+//指令書。[NLINE]
+//本社からの指示が書かれている。[END-FF]
+Instruction booklet received at the[NLINE]
+entrance of Makinus, where the Monopolis[NLINE]
+Headquarter is located.[END-FF]
+
+
+
+
+
+//POINTER #370 @ $668 - STRING #370 @ $AB42
+#W32($668)
+//地脈の力に働きかけ、休止状態にあるトランス[NLINE]
+//ゲートの機能を、一時的に修復することが[NLINE]
+//出来る杖。[END-FF]
+!! Taps into the Ley Line to temporarily[NLINE]
+reactivate the gate.[END-FF]
+
+
+
+
+
+//POINTER #371 @ $66C - STRING #371 @ $ABA3
+#W32($66C)
+//ヒンギスタンの巨人の持つ魔動砲の砲撃命令を[NLINE]
+//取り消すために必要なカギ。[NLINE]
+//　[END-FF]
+Key needed to cancel Hingistan's[NLINE]
+bombardment orders.[END-FF]
+
+
+
+
+
+//POINTER #372 @ $670 - STRING #372 @ $ABF0
+#W32($670)
+//テロリストのアジトで発見したメモ。[NLINE]
+//『図書館４－２－Ｂ－１３３』と書かれている。[NLINE]
+//　[END-FF]
+A note found in the terrorists' hideout.[NLINE]
+"Library 4-2-B-133" is scribbled on it.[END-FF]
+
+
+
+
+
+//POINTER #373 @ $674 - STRING #373 @ $AC47
+#W32($674)
+//ヒンギスタンの巨人を動かす制御装置の[NLINE]
+//マスターキー。制御装置のみを停止させるため[NLINE]
+//これを抜いても動力自体は稼働状態にある。[END-FF]
+!! Master key used to control the giants of[NLINE]
+Hingistan. The power itself is still in[NLINE]
+operation even if it is removed.[END-FF]
+
+
+
+
+
+//POINTER #374 @ $678 - STRING #374 @ $ACC4
+#W32($678)
+//円形の硬貨の形をしたチョコレート。[NLINE]
+//表面にアルファベットの型押しがしてあるだけで、[NLINE]
+//特に仕掛けがあるわけではない。[END-FF]
+!! Chocolate in the shape of a round coin.[NLINE]
+The surface is just embossed with an[NLINE]
+alphabet.[END-FF]
+
+
+
+
+
+//POINTER #375 @ $67C - STRING #375 @ $AD39
+#W32($67C)
+//ヤースティル収容所内の青い扉に対応したカギ。[NLINE]
+//　[NLINE]
+//　[END-FF]
+A key corresponding to the blue door[NLINE]
+in Yastil camp.[END-FF]
+
+
+
+
+
+//POINTER #376 @ $680 - STRING #376 @ $AD70
+#W32($680)
+//ヤースティル収容所内の赤い扉に対応したカギ。[NLINE]
+//　[NLINE]
+//　[END-FF]
+A key corresponding to the red door[NLINE]
+in Yastil camp.[END-FF]
+
+
+
+
+
+//POINTER #377 @ $684 - STRING #377 @ $ADA7
+#W32($684)
+//ヤースティル収容所内の緑の扉に対応したカギ。[NLINE]
+//　[NLINE]
+//　[END-FF]
+A key corresponding to the green door[NLINE]
+in Yastil camp.[END-FF]
+
+
+
+
+
+//POINTER #378 @ $688 - STRING #378 @ $ADDE
+#W32($688)
+//レノックス研究所の地下にある、監禁室のカギ。[END-FF]
+The key to the confinement room in the[NLINE]
+basement of the Lenox Institute.[END-FF]
+
+
+
+
+
+//POINTER #379 @ $68C - STRING #379 @ $AE0D
+#W32($68C)
+//アニータに施された『時を越える術』を[NLINE]
+//発動するための薬。[NLINE]
+//身体にかかる負担を減らす効果もある。[END-FF]
+Drug that activitates Anita's time travel[NLINE]
+ability. It also has the effect of reducing[NLINE]
+the burden on the body.[END-FF]
+
+
+
+
+
+//POINTER #380 @ $690 - STRING #380 @ $AE6E
+#W32($690)
+//マクスウェルが持っていたペンダント。[NLINE]
+//イリステレサもこのペンダントを知っているらしい。[END-FF]
+A pendant Maxwell had. Iristellesa[NLINE]
+seems to recognize it.[END-FF]
+
+
+
+
+
+//POINTER #381 @ $694 - STRING #381 @ $AEC7
+#W32($694)
+//ロイフェロンの墓地の地下にある[NLINE]
+//闇市で調べた木箱のナンバーの一覧。[NLINE]
+//全て【ＡＨ－３２】で始まっている。[END-FF]
+!! Memo found in the basement of the Loyferon[NLINE]
+Cemetery. Lists the crate numbers checked[NLINE]
+in the black market, starting with "AH-32".[END-FF]
+
+
+
+
+
+//POINTER #382 @ $698 - STRING #382 @ $AF30
+#W32($698)
+//ＡＨ３２で始まる物資のうち、ロイフェロンに[NLINE]
+//流されていた物はすべて大統領の許可物である。[NLINE]
+//ウェルバーと大統領の癒着の証拠。[END-FF]
+!! Evidence of the president's collusion[NLINE]
+with Wellber. Shows that all supplies were[NLINE]
+disposed of by the president's orders.[END-FF]
+
+
+
+
+
+//POINTER #383 @ $69C - STRING #383 @ $AFAD
+#W32($69C)
+//ヒンギスタンの巨人の、脚部ブロックの扉を[NLINE]
+//開くためのカードキー。[NLINE]
+//中階層以上の扉には対応していない。[END-FF]
+!! Card key for opening doors in the lower[NLINE]
+level of the Giant. It does not work in[NLINE]
+other levels.[END-FF]
+
+
+
+
+
+//POINTER #384 @ $6A0 - STRING #384 @ $B014
+#W32($6A0)
+//ヒンギスタンの巨人の、中階層ブロックにある[NLINE]
+//エレベーターのロックを解除する為のカードキー。[NLINE]
+//中枢部の制御には対応していない。[END-FF]
+!! Card key for operating the elevator in the[NLINE]
+middle level of the Giant. It does not[NLINE]
+support central control.[END-FF]
+
+
+
+
+
+//POINTER #385 @ $6A4 - STRING #385 @ $B093
+#W32($6A4)
+//腰痛に効く鎮痛薬。[NLINE]
+//座ったままで動けなくなった男が[NLINE]
+//追い求める救いの薬。[END-FF]
+Medicine for back pain. Highly valued[NLINE]
+by the annoying man at the inn.[END-FF]
+
+
+
+
+
+//POINTER #386 @ $6A8 - STRING #386 @ $B0DE
+#W32($6A8)
+//特別房に捕らえられているマクスウェルの槍。[NLINE]
+//救出の際、戦闘になることが予想されるので[NLINE]
+//彼に渡しておくべきだろう。[END-FF]
+Maxwell's spear. You should give[NLINE]
+it to him as it may be a useful[NLINE]
+reinforcement in battle.[END-FF]
+
+
+
+
+
+//POINTER #387 @ $6AC - STRING #387 @ $B151
+#W32($6AC)
+//地脈の力に働きかけ、休止状態にあるトランス[NLINE]
+//ゲートの機能を、一時的に修復することが[NLINE]
+//出来る指輪。[END-FF]
+!! Taps into the Ley Line to temporarily[NLINE]
+reactivate the gate.[END-FF]
+
+
+
+
+
+//POINTER #388 @ $6B0 - STRING #388 @ $B1B4
+#W32($6B0)
+//七色の布をまるで虹のように縫い合わせた[NLINE]
+//パッチワーク柄のハンカチ。[NLINE]
+//レジスタンス『大地の祈り』メンバーの証。[END-FF]
+Seven colors of cloth sewn together like[NLINE]
+a rainbow. Proof of membership of the[NLINE]
+Resistance's Prayer of the Earth.[END-FF]
+
+
+
+
+
+//POINTER #389 @ $6B4 - STRING #389 @ $B223
+#W32($6B4)
+//カイザリス島を取り巻くバリアーを抜けるための[NLINE]
+//特殊な宝石が埋め込まれた指輪。[NLINE]
+//戦いの中でネーリスが落とした物。[END-FF]
+Jeweled ring dropped by Neilis,[NLINE]
+needed to pass through the barrier[NLINE]
+surrounding Kaiseris Island.[END-FF]
+
+
+
+
+
+//POINTER #390 @ $6B8 - STRING #390 @ $B294
+#W32($6B8)
+//ネーリスから貰ったナイフ。[NLINE]
+//傷だらけだが、よく手入れされている。[NLINE]
+//かなり古い物のようだ。[END-FF]
+Knife given by Neilis. Full of scratches[NLINE]
+but well maintained. Seems quite old.[END-FF]
+
+
+
+
+//POINTER #391 @ $6BC - STRING #391 @ $B2EF
+#W32($6BC)
+//目覚めたときからポケットに入っていた[NLINE]
+//女性物のハンカチ。[NLINE]
+//どうして自分が持っているのだろう？[END-FF]
+Found in your pocket when you woke[NLINE]
+up. It has a floral pattern.[NLINE]
+Why do you have it?[END-FF]
+
+
+
+
+//POINTER #392 @ $6C0 - STRING #392 @ $B34E
+#W32($6C0)
+//レノックス研究所の地下室でもらったしおり。[NLINE]
+//一輪の野草が押し花になっている。[END-FF]
+Pressed wildflower given to you by a[NLINE]
+strange girl in the basement of the[NLINE]
+Lenox Facility.[END-FF]
+
+
+
+
+//POINTER #393 @ $6C4 - STRING #393 @ $B39D
+#W32($6C4)
+//レノックス研究所の地下室で見つけたペン。[NLINE]
+//今はインク切れで、使うことは出来ないが、[NLINE]
+//使用者の想いを文字にしていたのであろう。[END-FF]
+Pen found in the basement of the[NLINE]
+Lenox Facility. It's out of ink[NLINE]
+and can't be used.[END-FF]
+
+
+
+
+//POINTER #394 @ $6C8 - STRING #394 @ $B41C
+#W32($6C8)
+//布袋の中に札のような物が入っている[NLINE]
+//イリステレサのお手製のお守り。[NLINE]
+//どんな御利益があるのだろうか…？[END-FF]
+Iristellesa's handmade amulet.[NLINE]
+What fortune does it bring?[END-FF]
+
+
+
+
+//POINTER #395 @ $6CC - STRING #395 @ $B483
+#W32($6CC)
+//大地の毒素を吸い上げて、[NLINE]
+//公害で汚染された土地を元に戻す、[NLINE]
+//魔法の樹『ポリュミネ』の種。[NLINE]
+//[END-FF]
+Seed of the magical Pollumine tree.[NLINE]
+Sucks up toxins from the earth,[NLINE]
+purifying the land.[END-FF]
+
+
+
+
+//POINTER #396 @ $6D0 - STRING #396 @ $B4E0
+#W32($6D0)
+//ファニルから預かった、ランディ宛の手紙。[NLINE]
+//　[NLINE]
+//　[END-FF]
+A letter from Fanille.[NLINE]
+Addressed to Randall.[END-FF]
+
+
+
+
+//POINTER #397 @ $6D4 - STRING #397 @ $B513
+#W32($6D4)
+//毒の抗体を持った不思議なコケ。[NLINE]
+//[Haschen]の体を治すのに[NLINE]
+//欠かせない物らしい。[END-FF]
+Mysterious moss with poisonous antibodies.[NLINE]
+An indispensable cure.[END-FF]
+
+
+
+
+//POINTER #398 @ $6D8 - STRING #398 @ $B55E
+#W32($6D8)
+//紐を通すための穴の開いた真珠。[NLINE]
+//元々は７つで１つのネックレス[NLINE]
+//としての形を取っていた。[END-FF]
+One pearl bead from a set of seven,[NLINE]
+once held together as a necklace.[END-FF]
+
+
+
+
+//POINTER #399 @ $6DC - STRING #399 @ $B5B7
+#W32($6DC)
+//心象風景と心象風景を繋ぐ扉を[NLINE]
+//開くことのできる不思議なカギ。[NLINE]
+//　[END-FF]
+A mysterious key that opens a door[NLINE]
+connecting mental scenarios.[END-FF]
+
+
+
+
+//POINTER #400 @ $6E0 - STRING #400 @ $B5FA
+#W32($6E0)
+//一通りの工作用の道具が収められた箱。[NLINE]
+//　[NLINE]
+//[END-FF]
+A box containing a set of tools.[END-FF]
+
+
+
+
+//POINTER #401 @ $6E4 - STRING #401 @ $B627
+#W32($6E4)
+//大地創造の時より、[NLINE]
+//世界の中心にあるという世界樹の枝。[NLINE]
+//[END-FF]
+A branch from the World Tree said to have[NLINE]
+existed since the creation of the world.[END-FF]
+
+
+
+//POINTER #402 @ $6E8 - STRING #402 @ $B662
+#W32($6E8)
+//ホフマンがレイスタンの宿の主人に託した手紙。[NLINE]
+//砲撃を回避出来た事への礼が書かれている。[END-FF]
+A letter left by Hofman to the innkeeper[NLINE]
+in Leystan. Written inside of it is gratitude[NLINE]
+for being able to avoid the bombardment.[END-FF]
+
+
+
+//POINTER #403 @ $6EC - STRING #403 @ $B6BB
+#W32($6EC)
+//その食感が人気のナトンの実。保存が利く。[NLINE]
+//栽培が難しく、自生したものを[NLINE]
+//つみ取るしかない。[END-FF]
+A popular fruit. Difficult to cultivate,[NLINE]
+it must have been gathered from[NLINE]
+naturally-growing trees.[END-FF]
+
+
+
+
+//POINTER #404 @ $6F0 - STRING #404 @ $B718
+#W32($6F0)
+//目的の街まで楽に移動できる[NLINE]
+//『キャリィ屋』の無料利用券。[NLINE]
+//キャリィが出払っている時はご了承下さい。[END-FF]
+Ticket for the "carry shop", allowing[NLINE]
+free travel between destinations.[NLINE]
+Please be aware when the carrier is out.[END-FF]
+
+
+
+
+//POINTER #405 @ $6F4 - STRING #405 @ $B77D
+#W32($6F4)
+//妖精コンテスト会場に設置されている[NLINE]
+//トレーニング施設を無料で使うことが出来る。[NLINE]
+//妖精がいない人には無用の長物。[END-FF]
+Allows free use of the training[NLINE]
+facility at the Fairy Contest Hall.[NLINE]
+Useless for those without fairies.[END-FF]
+
+
+
+
+
+//POINTER #406 @ $6F8 - STRING #406 @ $B7EE
+#W32($6F8)
+//変わらない友情と信頼の証。[NLINE]
+//信頼の証、誓いの証として友へと手渡すもの。[END-FF]
+Given to a friend as proof of[NLINE]
+absolute friendship and trust.[END-FF]
+
+
+
+
+//POINTER #407 @ $6FC - STRING #407 @ $B837
+#W32($6FC)
+//幸福感のあるグレープフルーツの香りは、[NLINE]
+//あなたの心を正しき方向に導いてくれる[NLINE]
+//でしょう。[END-FF]
+The joyful scent of grapefruit will[NLINE]
+set your heart on the right track.[END-FF]
+
+
+
+
+
+//POINTER #408 @ $700 - STRING #408 @ $B892
+#W32($700)
+//心を落ち着かせる効果のあるクラリセージは[NLINE]
+//あなたに自信を与えてくれるでしょう。[NLINE]
+//[END-FF]
+The calming scent of clary sage[NLINE]
+bestows confidence.[END-FF]
+
+
+
+
+
+//POINTER #409 @ $704 - STRING #409 @ $B8E5
+#W32($704)
+//眠気を払い集中力を高めるローズマリーの香り。[NLINE]
+//あなたの知性を高める手助けをしてくれる[NLINE]
+//でしょう。[END-FF]
+The scent of rosemary increases one's[NLINE]
+concentration and heightens one's[NLINE]
+intelligence.[END-FF]
+
+
+
+
+
+//POINTER #410 @ $708 - STRING #410 @ $B948
+#W32($708)
+//心を落ち着かせるラベンダーの香りは、[NLINE]
+//どんなときでもあなたを落ち着かせてくれる[NLINE]
+//でしょう。[END-FF]
+The calming scent of lavender will[NLINE]
+soothe your nerves no matter what[NLINE]
+the situation at hand.[END-FF]
+
+
+
+
+
+//POINTER #411 @ $70C - STRING #411 @ $B9A5
+#W32($70C)
+//タラゴンの香りはあなたに活力を与え、[NLINE]
+//より積極的な気持ちを与えてくれるでしょう。[END-FF]
+The scent of tarragon will energize[NLINE]
+you and make you more outgoing.[END-FF]
+
+
+
+
+
+//POINTER #412 @ $710 - STRING #412 @ $B9F8
+#W32($710)
+//男っぽい香りのシダーウッド。[NLINE]
+//同性とのトラブルを解決してくれるでしょう。[END-FF]
+The manly scent of cedarwood will[NLINE]
+help resolve your troubles with[NLINE]
+other men.[END-FF]
+
+
+
+
+
+//POINTER #413 @ $714 - STRING #413 @ $BA43
+#W32($714)
+//香りのよい香水。なぜかあまり入荷されず、[NLINE]
+//いつも品薄。[NLINE]
+//花言葉は「秘密」[END-FF]
+Sweet-smelling incense that's always[NLINE]
+in short supply. The meaning of this[NLINE]
+flower is "secrecy".[END-FF]
+
+
+
+
+
+//POINTER #414 @ $718 - STRING #414 @ $BA8E
+#W32($718)
+//ローズゼラニウムの花びらをつけ込んだ香油。[NLINE]
+//バラのようなムーディーな大人の香り。[END-FF]
+Scented oil made with rose geranium[NLINE]
+petals. Gives off a moody, adult[NLINE]
+scent, like roses.[END-FF]
+
+
+
+
+
+//POINTER #415 @ $71C - STRING #415 @ $BAE1
+#W32($71C)
+//オレンジの実をつけ込んだ香油。[NLINE]
+//甘く暖かな香りでリラックス。[END-FF]
+Scented oil made with orange seeds.[NLINE]
+Relaxes the soul with its sweet,[NLINE]
+warm scent.[END-FF]
+
+
+
+
+
+//POINTER #416 @ $720 - STRING #416 @ $BB20
+#W32($720)
+//ミントの葉をつけ込んだ香油。[NLINE]
+//さわやかな香りでリフレッシュ。[END-FF]
+Scented oil made with mint leaves.[NLINE]
+Refreshes the soul with its[NLINE]
+invigorating scent.[END-FF]
+
+
+
+
+
+//POINTER #417 @ $724 - STRING #417 @ $BB5F
+#W32($724)
+//甘い香りが独特のキンギョソウの香油。[NLINE]
+//人にはよい香りなのだが、悪魔はこれを[NLINE]
+//嫌うらしい。[END-FF]
+Snapdragon oil with a very distinct[NLINE]
+scent. Pleasant to humans, but it's[NLINE]
+said that demons cannot abide it.[END-FF]
+
+
+
+
+
+//POINTER #418 @ $728 - STRING #418 @ $BBBA
+#W32($728)
+//ダスティスで描いてもらった肖像画。[NLINE]
+//なかなか男前に描かれている。[END-FF]
+A portrait drawn in Dastis.[NLINE]
+It is drawn quite handsomely.[END-FF]
+
+
+
+
+//POINTER #419 @ $72C - STRING #419 @ $BBFD
+#W32($72C)
+//ダスティスで描いてもらった絵。[NLINE]
+//ユリィが肩に乗っている。[END-FF]
+A picture with Yurii drawn in Dastis.[END-FF]
+
+
+
+
+//POINTER #420 @ $730 - STRING #420 @ $BC38
+#W32($730)
+//ダスティスで描いてもらった絵。[NLINE]
+//ウェンディが横に並んでいる。[END-FF]
+A picture with Wendy drawn in Dastis.[END-FF]
+
+
+
+
+//POINTER #421 @ $734 - STRING #421 @ $BC77
+#W32($734)
+//ダスティスで描いてもらった絵。[NLINE]
+//イリステレサが横に並んでいる。[END-FF]
+A picture with Iristellesa drawn in Dastis.[END-FF]
+
+
+
+
+//POINTER #422 @ $738 - STRING #422 @ $BCB8
+#W32($738)
+//ダスティスで描いてもらった絵。[NLINE]
+//アニータが横に並んでいる。[END-FF]
+A picture with Anita drawn in Dastis.[END-FF]
+
+
+
+
+//POINTER #423 @ $73C - STRING #423 @ $BCF5
+#W32($73C)
+//動きやすそうなドレスをデザインした型紙。[NLINE]
+//妖精サイズなため、縫製にはかなりの腕前が[NLINE]
+//必要になるだろう。[END-FF]
+Pattern for miniature sports clothing[NLINE]
+that look easy to move in.[END-FF]
+
+
+
+
+
+//POINTER #424 @ $740 - STRING #424 @ $BD5E
+#W32($740)
+//カジュアルな洋服の型紙。[NLINE]
+//妖精サイズなため、縫製にはかなりの腕前が[NLINE]
+//必要になるだろう。[END-FF]
+Pattern for miniature casual wear.[END-FF]
+
+
+
+
+//POINTER #425 @ $744 - STRING #425 @ $BDB7
+#W32($744)
+//○○の型紙[NLINE]
+//妖精サイズなため、縫製にはかなりの腕前が[NLINE]
+//必要になるだろう。[END-FF]
+Pattern for miniature clothes that[NLINE]
+require a good amount of skill to sew.[END-FF]
+
+
+
+
+//POINTER #426 @ $748 - STRING #426 @ $BE02
+#W32($748)
+//モノポリス本社ビル８階にある資料室。[NLINE]
+//その中央に展示してある武器の固定を[NLINE]
+//解除するカギ。[END-FF]
+Key to the library on the 8th floor[NLINE]
+of the Monopolis Headquarters.[END-FF]
+
+
+
+
+//POINTER #427 @ $74C - STRING #427 @ $BE5D
+#W32($74C)
+//マクスウェルから渡されたカギ。[NLINE]
+//形状としては何かの箱を開けるためのもの[NLINE]
+//らしい。[END-FF]
+A key given by Maxwell.[NLINE]
+Seems like it opens some sort of box.[END-FF]
+
+
+
+
+
+//POINTER #428 @ $750 - STRING #428 @ $BEB0
+#W32($750)
+//ロイフェロンの道具屋から分けてもらった[NLINE]
+//調味料セット。[END-FF]
+Seasoning packet from the[NLINE]
+tool shop in Royferon.[END-FF]
+
+
+
+
+
+//POINTER #429 @ $754 - STRING #429 @ $BEE9
+#W32($754)
+//シザーズ村産の美味しい魚の干物。[NLINE]
+//保存が利き、そのまま食べられる。[END-FF]
+Dried fish from Scissors Village.[NLINE]
+Can be eaten as it is.[END-FF]
+
+
+
+
+
+//POINTER #430 @ $758 - STRING #430 @ $BF2E
+#W32($758)
+//シザーズ村で捕れた小魚。[NLINE]
+//生なので、鮮度を保つのが難しい。[END-FF]
+A small fish caught in Scissor Village.[NLINE]
+Because it is raw, it is difficult[NLINE]
+to keep fresh.[END-FF]
+
+
+
+
+
+//POINTER #431 @ $75C - STRING #431 @ $BF6B
+#W32($75C)
+//ポトラド人が自然の中で育てた有機野菜。[NLINE]
+//人間が作った物より味が濃いと言われている。[END-FF]
+Organic vegetables grown by Potradians.[NLINE]
+It is said the taste is richer than[NLINE]
+of those made by humans.[END-FF]
+
+
+
+
+
+//POINTER #432 @ $760 - STRING #432 @ $BFC0
+#W32($760)
+//ヒンギスタン王国で採れる南国の果実。[NLINE]
+//甘みの濃さが人気。[END-FF]
+Tropical fruit from the Kingdom of Hingistan.[NLINE]
+Its rich sweetness makes it very popular.[END-FF]
+
+
+
+
+
+//POINTER #433 @ $764 - STRING #433 @ $BFFB
+#W32($764)
+//ダスティスの鉱山で掘り出された[NLINE]
+//謎の鉱物の原石。[NLINE]
+//詳しいことは調べてみないとわからない。[END-FF]
+A mysterious mineral gemstone[NLINE]
+excavated at the Dastis mine.[END-FF]
+
+
+
+
+
+//POINTER #434 @ $768 - STRING #434 @ $C056
+#W32($768)
+//平和維持軍の宝物庫から盗まれた過去の品々。[NLINE]
+//ゼルドック北西の遺跡に立てこもっていた[NLINE]
+//盗賊から回収した。[END-FF]
+Goods that were stolen from the PMB's[NLINE]
+storage unit. Recovered from the[NLINE]
+ruins north of Zerdock.[END-FF]
+
+
+
+
+
+//POINTER #435 @ $76C - STRING #435 @ $C0BF
+#W32($76C)
+//伝説の聖女ソフィーの遺骸をくるんだ布。[NLINE]
+//彼女の清らかな徳により、その布も清められ、[NLINE]
+//同時に聖なる力を帯びた。[END-FF]
+A cloth wrapped around the remains of the[NLINE]
+legendary saint Sophie. It is said to have[NLINE]
+been purified by her pure virtue.[END-FF]
+
+
+
+
+
+//POINTER #436 @ $770 - STRING #436 @ $C12E
+#W32($770)
+//古代のファッション雑誌に近い物だが、[NLINE]
+//服に織り込む魔法の紋様の特集がされている。[NLINE]
+//しかしその複雑な形状は再現することが難しい。[END-FF]
+An ancient fashion magazine of sorts.[NLINE]
+It contains complex magical patterns[NLINE]
+that are difficult to reproduce.[END-FF]
+
+
+
+
+
+//POINTER #437 @ $774 - STRING #437 @ $C1AF
+#W32($774)
+//様々な魔法装飾を合理的に組み合わせ、更に[NLINE]
+//デザイン的にも一級品に仕上げている。[NLINE]
+//並の人では仕立てることは出来ないだろう。[END-FF]
+A first class design incorporating magical[NLINE]
+patterns. It can't be tailored by ordinary[NLINE]
+people.[END-FF]
+
+
+
+
+
+//POINTER #438 @ $778 - STRING #438 @ $C22A
+#W32($778)
+//小粒だが虹色の光を放つ不思議な実。[NLINE]
+//トレーニング時に服用することで妖精の能力を[NLINE]
+//大幅に上昇することが出来る。（１００上昇）[END-FF]
+Mysterious fruit that glows like a[NLINE]
+rainbow. Give it to the Fairy Trainer[NLINE]
+to greatly increase Yurii's stats.[END-FF]
+
+
+
+
+
+//POINTER #439 @ $77C - STRING #439 @ $C2A7
+#W32($77C)
+//小粒だが虹色の光を放つ不思議な種。[NLINE]
+//トレーニング時に服用することで妖精の能力を[NLINE]
+//少し上昇することが出来る。（１０上昇）[END-FF]
+Mysterious seed that glows like a[NLINE]
+rainbow. Give it to the Fairy Trainer[NLINE]
+to slightly increase Yurii's stats.[END-FF]
+
+
+
+
+
+//POINTER #440 @ $780 - STRING #440 @ $C320
+#W32($780)
+//ラナの樹の皮でつくった袋で、ラナの実と種を[NLINE]
+//保存するのに適している。[NLINE]
+//持ちきれない分が自動的に保管される。[END-FF]
+Basket made from Rana leaves and branches.[NLINE]
+Suitable for storing excess items while[NLINE]
+travelling.[END-FF]
+
+
+
+

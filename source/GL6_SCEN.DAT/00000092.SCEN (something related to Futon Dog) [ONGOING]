@@ -1,0 +1,1016 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $8A20, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $88A0, 4, PTR)
+
+#JMP($8A20)
+#HDR($8A20)
+
+
+
+
+
+//POINTER #0 @ $88A0 - STRING #0 @ $8A20
+#W32($88A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $88A4 - STRING #1 @ $8A23
+#W32($88A4)
+//ハゼゴロウ[END-FF]
+ハゼゴロウ[END-FF]
+
+
+
+
+
+//POINTER #2 @ $88A8 - STRING #2 @ $8A30
+#W32($88A8)
+//ユリィ[END-FF]
+Yurii[END-FF]
+
+
+
+
+
+//POINTER #3 @ $88AC - STRING #3 @ $8A39
+#W32($88AC)
+//コリン[END-FF]
+Korin[END-FF]
+
+
+
+
+
+//POINTER #4 @ $88B0 - STRING #4 @ $8A42
+#W32($88B0)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #5 @ $88B4 - STRING #5 @ $8A4F
+#W32($88B4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $88B8 - STRING #6 @ $8A74
+#W32($88B8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $88BC - STRING #7 @ $8A99
+#W32($88BC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $88C0 - STRING #8 @ $8AAE
+#W32($88C0)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #9 @ $88C4 - STRING #9 @ $8AD3
+#W32($88C4)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #10 @ $88C8 - STRING #10 @ $8AF8
+#W32($88C8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $88CC - STRING #11 @ $8B2D
+#W32($88CC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $88D0 - STRING #12 @ $8B62
+#W32($88D0)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $88D4 - STRING #13 @ $8B87
+#W32($88D4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $88D8 - STRING #14 @ $8BAC
+#W32($88D8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $88DC - STRING #15 @ $8BD1
+#W32($88DC)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #16 @ $88E0 - STRING #16 @ $8BE6
+#W32($88E0)
+//じゃあ、これを持ってくれ。[END-FE]
+じゃあ、これを持ってくれ。[END-FE]
+
+
+
+
+
+//POINTER #17 @ $88E4 - STRING #17 @ $8C03
+#W32($88E4)
+//　[NLINE]
+//重い荷物を受け取った。[END-FE]
+[NLINE]
+重い荷物を受け取った。[END-FE]
+
+
+
+
+
+//POINTER #18 @ $88E8 - STRING #18 @ $8C20
+#W32($88E8)
+//船着場までガンバってくれ！[END-FE]
+船着場までガンバってくれ！[END-FE]
+
+
+
+
+
+//POINTER #19 @ $88EC - STRING #19 @ $8C3D
+#W32($88EC)
+//届け物を[NLINE]
+//止めるのですか？[END-FE]
+届け物を[NLINE]
+止めるのですか？[END-FE]
+
+
+
+
+
+//POINTER #20 @ $88F0 - STRING #20 @ $8C5A
+#W32($88F0)
+//それでは船着場へ参りましょう。[END-FE]
+それでは船着場へ参りましょう。[END-FE]
+
+
+
+
+
+//POINTER #21 @ $88F4 - STRING #21 @ $8C7B
+#W32($88F4)
+//トトゥア村[END-FE]
+トトゥア村[END-FE]
+
+
+
+
+
+//POINTER #22 @ $88F8 - STRING #22 @ $8C88
+#W32($88F8)
+//フェルメンティア方面[NLINE]
+//トンネル[END-FE]
+フェルメンティア方面[NLINE]
+トンネル[END-FE]
+
+
+
+
+
+//POINTER #23 @ $88FC - STRING #23 @ $8CA9
+#W32($88FC)
+//船着き場[END-FE]
+船着き場[END-FE]
+
+
+
+
+
+//POINTER #24 @ $8900 - STRING #24 @ $8CB4
+#W32($8900)
+//[Futon-Dog]が嫌がっています。[NLINE]
+//ふとん犬にはこの先の気温は辛いみたいです。[END-FE]
+[Futon-Dog]が嫌がっています。[NLINE]
+ふとん犬にはこの先の気温は辛いみたいです。[END-FE]
+
+
+
+
+
+//POINTER #25 @ $8904 - STRING #25 @ $8CF9
+#W32($8904)
+//ここの壁だけ氷で出来ていて、[NLINE]
+//氷越しに開けた空間が見える。[END-FE]
+ここの壁だけ氷で出来ていて、[NLINE]
+氷越しに開けた空間が見える。[END-FE]
+
+
+
+
+
+//POINTER #26 @ $8908 - STRING #26 @ $8D36
+#W32($8908)
+//　[NLINE]
+//[Futon-Dog]は奥へ行きたそうだ。[END-FE]
+[NLINE]
+[Futon-Dog]は奥へ行きたそうだ。[END-FE]
+
+
+
+
+
+//POINTER #27 @ $890C - STRING #27 @ $8D55
+#W32($890C)
+//戦闘を終えた後に[NLINE]
+//ゆっくり調べてみよう。[END-FE]
+戦闘を終えた後に[NLINE]
+ゆっくり調べてみよう。[END-FE]
+
+
+
+
+
+//POINTER #28 @ $8910 - STRING #28 @ $8D80
+#W32($8910)
+//氷の壁が光輝いている。[NLINE]
+//今なら通り抜けられそうだ。[END-FE]
+氷の壁が光輝いている。[NLINE]
+今なら通り抜けられそうだ。[END-FE]
+
+
+
+
+
+//POINTER #29 @ $8914 - STRING #29 @ $8DB5
+#W32($8914)
+//届け物を[NLINE]
+//止めるのですか？[END-FE]
+届け物を[NLINE]
+止めるのですか？[END-FE]
+
+
+
+
+
+//POINTER #30 @ $8918 - STRING #30 @ $8DD2
+#W32($8918)
+//それでは船着場へ参りましょう。[END-FE]
+それでは船着場へ参りましょう。[END-FE]
+
+
+
+
+
+//POINTER #31 @ $891C - STRING #31 @ $8DF3
+#W32($891C)
+//届け物を[NLINE]
+//止めるのですか？[END-FE]
+届け物を[NLINE]
+止めるのですか？[END-FE]
+
+
+
+
+
+//POINTER #32 @ $8920 - STRING #32 @ $8E10
+#W32($8920)
+//それでは船着場へ参りましょう。[END-FE]
+それでは船着場へ参りましょう。[END-FE]
+
+
+
+
+
+//POINTER #33 @ $8924 - STRING #33 @ $8E31
+#W32($8924)
+//　[NLINE]
+//[Futon-Dog]は回転ダンスを閃いた！[END-FE]
+[NLINE]
+[Futon-Dog]は回転ダンスを閃いた！[END-FE]
+
+
+
+
+
+//POINTER #34 @ $8928 - STRING #34 @ $8E52
+#W32($8928)
+//アトリビュートカウンター[END-FE]
+アトリビュートカウンター[END-FE]
+
+
+
+
+
+//POINTER #35 @ $892C - STRING #35 @ $8E6D
+#W32($892C)
+//アトリビュートカウンター[END-FE]
+アトリビュートカウンター[END-FE]
+
+
+
+
+
+//POINTER #36 @ $8930 - STRING #36 @ $8E88
+#W32($8930)
+//アトリビュートカウンター[END-FE]
+アトリビュートカウンター[END-FE]
+
+
+
+
+
+//POINTER #37 @ $8934 - STRING #37 @ $8EA3
+#W32($8934)
+//アトリビュートカウンター[END-FE]
+アトリビュートカウンター[END-FE]
+
+
+
+
+
+//POINTER #38 @ $8938 - STRING #38 @ $8EBE
+#W32($8938)
+//アトリビュートカウンター[END-FE]
+アトリビュートカウンター[END-FE]
+
+
+
+
+
+//POINTER #39 @ $893C - STRING #39 @ $8ED9
+#W32($893C)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #40 @ $8940 - STRING #40 @ $8F08
+#W32($8940)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #41 @ $8944 - STRING #41 @ $8F37
+#W32($8944)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #42 @ $8948 - STRING #42 @ $8F66
+#W32($8948)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #43 @ $894C - STRING #43 @ $8F95
+#W32($894C)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #44 @ $8950 - STRING #44 @ $8FC4
+#W32($8950)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #45 @ $8954 - STRING #45 @ $8FF3
+#W32($8954)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #46 @ $8958 - STRING #46 @ $9022
+#W32($8958)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #47 @ $895C - STRING #47 @ $9051
+#W32($895C)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #48 @ $8960 - STRING #48 @ $9080
+#W32($8960)
+//[Futon-Dog]は落とし主の匂いのする[NLINE]
+//包みを見つけた！[END-FE]
+[Futon-Dog]は落とし主の匂いのする[NLINE]
+包みを見つけた！[END-FE]
+
+
+
+
+
+//POINTER #49 @ $8964 - STRING #49 @ $90AF
+#W32($8964)
+//おっ、その荷物は[NLINE]
+//ハゼゴロウさんからだね。[NWIN]
+//
+//よし、確かに受け取ったよ。[NLINE]
+//道中気をつけて帰ってくれよ。[END-FE]
+おっ、その荷物は[NLINE]
+ハゼゴロウさんからだね。[NWIN]
+
+よし、確かに受け取ったよ。[NLINE]
+道中気をつけて帰ってくれよ。[END-FE]
+
+
+
+
+
+//POINTER #50 @ $8968 - STRING #50 @ $9116
+#W32($8968)
+//気をつけて帰れよ。[END-FE]
+気をつけて帰れよ。[END-FE]
+
+
+
+
+
+//POINTER #51 @ $896C - STRING #51 @ $912B
+#W32($896C)
+//おっ、君だね。[NLINE]
+//荷物を運んでくれるのは。[NWIN]
+//
+//じゃあ、重いけど頼んだよ。[END-FE]
+おっ、君だね。[NLINE]
+荷物を運んでくれるのは。[NWIN]
+
+じゃあ、重いけど頼んだよ。[END-FE]
+
+
+
+
+
+//POINTER #52 @ $8970 - STRING #52 @ $9172
+#W32($8970)
+//頼んだよ！[END-FE]
+頼んだよ！[END-FE]
+
+
+
+
+
+//POINTER #53 @ $8974 - STRING #53 @ $917F
+#W32($8974)
+//建物の中とはいえ、[NLINE]
+//やっぱり寒いね。[END-FE]
+建物の中とはいえ、[NLINE]
+やっぱり寒いね。[END-FE]
+
+
+
+
+
+//POINTER #54 @ $8978 - STRING #54 @ $91A6
+#W32($8978)
+//　[NLINE]
+//枝を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+枝を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #55 @ $897C - STRING #55 @ $91C0
+#W32($897C)
+//これ以上持てそうにない。[NLINE]
+//枝を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+枝を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #56 @ $8980 - STRING #56 @ $91F7
+#W32($8980)
+//　[NLINE]
+//舌を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+舌を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #57 @ $8984 - STRING #57 @ $9211
+#W32($8984)
+//これ以上持てそうにない。[NLINE]
+//舌を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+舌を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #58 @ $8988 - STRING #58 @ $9248
+#W32($8988)
+//　[NLINE]
+//甲殻を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+甲殻を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #59 @ $898C - STRING #59 @ $9264
+#W32($898C)
+//これ以上持てそうにない。[NLINE]
+//甲殻を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+甲殻を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #60 @ $8990 - STRING #60 @ $929D
+#W32($8990)
+//　[NLINE]
+//枝を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+枝を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #61 @ $8994 - STRING #61 @ $92B7
+#W32($8994)
+//これ以上持てそうにない。[NLINE]
+//枝を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+枝を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #62 @ $8998 - STRING #62 @ $92EE
+#W32($8998)
+//　[NLINE]
+//舌を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+舌を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #63 @ $899C - STRING #63 @ $9308
+#W32($899C)
+//これ以上持てそうにない。[NLINE]
+//舌を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+舌を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #64 @ $89A0 - STRING #64 @ $933F
+#W32($89A0)
+//　[NLINE]
+//甲殻を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+甲殻を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #65 @ $89A4 - STRING #65 @ $935B
+#W32($89A4)
+//これ以上持てそうにない。[NLINE]
+//甲殻を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+甲殻を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #66 @ $89A8 - STRING #66 @ $9394
+#W32($89A8)
+//　[NLINE]
+//甲殻を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+甲殻を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #67 @ $89AC - STRING #67 @ $93B0
+#W32($89AC)
+//これ以上持てそうにない。[NLINE]
+//甲殻を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+甲殻を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #68 @ $89B0 - STRING #68 @ $93E9
+#W32($89B0)
+//　[NLINE]
+//粉を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+粉を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #69 @ $89B4 - STRING #69 @ $9403
+#W32($89B4)
+//これ以上持てそうにない。[NLINE]
+//粉を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+粉を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #70 @ $89B8 - STRING #70 @ $943A
+#W32($89B8)
+//　[NLINE]
+//甲殻を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+甲殻を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #71 @ $89BC - STRING #71 @ $9456
+#W32($89BC)
+//これ以上持てそうにない。[NLINE]
+//甲殻を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+甲殻を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #72 @ $89C0 - STRING #72 @ $948F
+#W32($89C0)
+//　[NLINE]
+//粉を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+粉を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #73 @ $89C4 - STRING #73 @ $94A9
+#W32($89C4)
+//これ以上持てそうにない。[NLINE]
+//粉を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+粉を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #74 @ $89C8 - STRING #74 @ $94E0
+#W32($89C8)
+//　[NLINE]
+//甲殻を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+甲殻を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #75 @ $89CC - STRING #75 @ $94FC
+#W32($89CC)
+//これ以上持てそうにない。[NLINE]
+//甲殻を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+甲殻を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #76 @ $89D0 - STRING #76 @ $9535
+#W32($89D0)
+//　[NLINE]
+//粉を[CC.EF00]個回収した。[END-FE]
+[NLINE]
+粉を[CC.EF00]個回収した。[END-FE]
+
+
+
+
+
+//POINTER #77 @ $89D4 - STRING #77 @ $954F
+#W32($89D4)
+//これ以上持てそうにない。[NLINE]
+//粉を回収するのを断念した。[END-FE]
+これ以上持てそうにない。[NLINE]
+粉を回収するのを断念した。[END-FE]
+
+
+
+
+
+//POINTER #78 @ $89D8 - STRING #78 @ $9586
+#W32($89D8)
+//あっ！[NLINE]
+//[Futon-Dog]！[END-FE]
+あっ！[NLINE]
+[Futon-Dog]！[END-FE]
+
+
+
+
+
+//POINTER #79 @ $89DC - STRING #79 @ $9597
+#W32($89DC)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #80 @ $89E0 - STRING #80 @ $95AC
+#W32($89E0)
+//Ｄ　Ｄ１３[END-FE]
+D D13[END-FE]
+
+
+
+
+
+//POINTER #81 @ $89E4 - STRING #81 @ $95B9
+#W32($89E4)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #82 @ $89E8 - STRING #82 @ $95D0
+#W32($89E8)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #83 @ $89EC - STRING #83 @ $95DF
+#W32($89EC)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #84 @ $89F0 - STRING #84 @ $95EE
+#W32($89F0)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #85 @ $89F4 - STRING #85 @ $95F7
+#W32($89F4)
+//・ユリィを食べたモンスターの逃走[NLINE]
+//・パーティーの全滅[END-FE]
+・ユリィを食べたモンスターの逃走[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #86 @ $89F8 - STRING #86 @ $962E
+#W32($89F8)
+//・ユリィを食べたモンスターの逃走[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・ユリィを食べたモンスターの逃走[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #87 @ $89FC - STRING #87 @ $9675
+#W32($89FC)
+//・コリンを食べたモンスターの逃走[NLINE]
+//・パーティーの全滅[END-FE]
+・コリンを食べたモンスターの逃走[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #88 @ $8A00 - STRING #88 @ $96AC
+#W32($8A00)
+//・コリンを食べたモンスターの逃走[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・コリンを食べたモンスターの逃走[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #89 @ $8A04 - STRING #89 @ $96F3
+#W32($8A04)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #90 @ $8A08 - STRING #90 @ $9708
+#W32($8A08)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #91 @ $8A0C - STRING #91 @ $972D
+#W32($8A0C)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #92 @ $8A10 - STRING #92 @ $9742
+#W32($8A10)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #93 @ $8A14 - STRING #93 @ $9767
+#W32($8A14)
+//[CHARD003][V1700]
+//きゃあー、勇者様ー！[END-FE]
+[CHARD003][V1700]
+きゃあー、勇者様ー！[END-FE]
+
+
+
+
+
+//POINTER #94 @ $8A18 - STRING #94 @ $9786
+#W32($8A18)
+//た～す～け～て～！[END-FE]
+た～す～け～て～！[END-FE]
+
+
+
+

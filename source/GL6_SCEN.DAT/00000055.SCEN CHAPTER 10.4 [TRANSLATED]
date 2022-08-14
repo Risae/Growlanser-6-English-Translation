@@ -1,0 +1,866 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $6240, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $6120, 4, PTR)
+
+#JMP($6240)
+#HDR($6240)
+
+
+
+
+
+//POINTER #0 @ $6120 - STRING #0 @ $6240
+#W32($6120)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $6124 - STRING #1 @ $6243
+#W32($6124)
+//蔦[END-FF]
+Ivy[END-FF]
+
+
+
+
+
+//POINTER #2 @ $6128 - STRING #2 @ $6248
+#W32($6128)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $612C - STRING #3 @ $6255
+#W32($612C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $6130 - STRING #4 @ $627A
+#W32($6130)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $6134 - STRING #5 @ $629F
+#W32($6134)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $6138 - STRING #6 @ $62B4
+#W32($6138)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $613C - STRING #7 @ $62D9
+#W32($613C)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $6140 - STRING #8 @ $62FE
+#W32($6140)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $6144 - STRING #9 @ $6333
+#W32($6144)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $6148 - STRING #10 @ $6368
+#W32($6148)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $614C - STRING #11 @ $638D
+#W32($614C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $6150 - STRING #12 @ $63B2
+#W32($6150)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $6154 - STRING #13 @ $63D7
+#W32($6154)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $6158 - STRING #14 @ $63EC
+#W32($6158)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #15 @ $615C - STRING #15 @ $6403
+#W32($615C)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #16 @ $6160 - STRING #16 @ $6412
+#W32($6160)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+
+
+//POINTER #17 @ $6164 - STRING #17 @ $6421
+#W32($6164)
+//先にファニルさんを研究所へ[NLINE]
+//お連れしましょう。[END-FE]
+Let's take Fanille to the[NLINE]
+research center first.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $6168 - STRING #18 @ $6452
+#W32($6168)
+//そちらではありません！[NLINE]
+//早くシュヴァイツァーを追わないと[NLINE]
+//見失います！[END-FE]
+Not that way![NLINE]
+If we don't hurry up and pursue[NLINE]
+Schuweizer, we'll lose sight of him![END-FE]
+
+
+
+
+
+//POINTER #19 @ $616C - STRING #19 @ $649B
+#W32($616C)
+//平和維持軍本部[END-FE]
+PMB Headquarters[END-FE]
+
+
+
+
+
+//POINTER #20 @ $6170 - STRING #20 @ $64AC
+#W32($6170)
+//シリルティア方面[END-FE]
+To Cyriltia[END-FE]
+
+
+
+
+
+//POINTER #21 @ $6174 - STRING #21 @ $64BF
+#W32($6174)
+//グランゲイル方面[END-FE]
+To Grangale[END-FE]
+
+
+
+
+
+//POINTER #22 @ $6178 - STRING #22 @ $64D2
+#W32($6178)
+//維持軍本部入り口です。[END-FE]
+This is the entrance to the PMB Headquarters.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $617C - STRING #23 @ $64EB
+#W32($617C)
+//[Haschen]さん、ご苦労さまです！[NLINE]
+//任務、ガンバってください！[END-FE]
+We appreciate your efforts, [Haschen]![NLINE]
+Good luck with your mission![END-FE]
+
+
+
+
+
+//POINTER #24 @ $6180 - STRING #24 @ $6524
+#W32($6180)
+//東はグランゲイル軍が[NLINE]
+//にらみをきかせている。[NLINE]
+//一般人には通行不可能だ。[END-FE]
+The area east of here is under the[NLINE]
+control of the Grangale army. We[NLINE]
+can't let ordinary civilians pass.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $6184 - STRING #25 @ $656D
+#W32($6184)
+//あなたは、たしか…。[END-FE]
+Ah, you're...[END-FE]
+
+
+
+
+
+//POINTER #26 @ $6188 - STRING #26 @ $6584
+#W32($6188)
+//ん？[NLINE]
+//前に会ったよな？[NLINE]
+//たしか船着き場の宿で…。[NWIN]
+//
+//悪いが、ここは通れない。[NLINE]
+//すぐ東にグランゲイル兵がいるんだ。[NWIN]
+//
+//シリルティア軍は兵を退いたんだが、[NLINE]
+//グランゲイルは警戒を解こうとしていない。[NLINE]
+//近づくだけで攻撃される。[END-FE]
+Hmm?[NLINE]
+We met before, didn't we?[NLINE]
+At that inn near the ferry pier...[NWIN]
+
+Sorry, but you can't pass. There[NLINE]
+are Grangale soldiers east of here.[NWIN]
+
+Cyriltia has withdrawn its troops,[NLINE]
+but Grangale has yet to lower its[NLINE]
+guard. They will attack on sight.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $618C - STRING #27 @ $665D
+#W32($618C)
+//仕方ありませんね、[NLINE]
+//別の道を探しましょう。[END-FE]
+It seems we have no choice but[NLINE]
+to search for another route.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $6190 - STRING #28 @ $668A
+#W32($6190)
+//すぐ東にグランゲイル兵がいるんだ。[NLINE]
+//悪いが、ここは通れない。[END-FE]
+Sorry, but you can't pass. There[NLINE]
+are Grangale soldiers east of here.[NWIN]
+
+
+
+
+
+//POINTER #29 @ $6194 - STRING #29 @ $66C9
+#W32($6194)
+//[CHAR3C00][V1700]
+//やはり東に逃げましたね。[NLINE]
+//急いで追いかけましょう！[END-FE]
+[CHAR3C00][V1700]
+Just as I thought, he fled east.[NLINE]
+Let's go after him![END-FE]
+
+
+
+
+
+//POINTER #30 @ $6198 - STRING #30 @ $6706
+#W32($6198)
+//縄ばしごを下りますか？[END-FE]
+Do you want to go down the rope ladder?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $619C - STRING #31 @ $671F
+#W32($619C)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #32 @ $61A0 - STRING #32 @ $6736
+#W32($61A0)
+//自動Ｄ　ＥＢ０４＿１前[END-FE]
+自動D EB04_1前[END-FE]
+
+
+
+
+
+//POINTER #33 @ $61A4 - STRING #33 @ $674F
+#W32($61A4)
+//そちらではありません！[NLINE]
+//早くシュヴァイツァーを追わないと[NLINE]
+//見失います！[END-FE]
+Not that way![NLINE]
+If we don't hurry up and pursue[NLINE]
+Schuweizer, we'll lose sight of him![END-FE]
+
+
+
+
+
+//POINTER #34 @ $61A8 - STRING #34 @ $6798
+#W32($61A8)
+//[CHAR3C00][V0000]
+//大丈夫？[END-FE]
+[CHAR3C00][V0000]
+Are you alright?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $61AC - STRING #35 @ $67AB
+#W32($61AC)
+//[CHAR3C00][V0100]
+//…妙な男たちが現れて…龍玉が危ない…。[NLINE]
+//俺は大丈夫だ…早く…龍玉を…。[END-FE]
+[CHAR3C00][V0100]
+Strange men appeared...[NLINE]
+The Dragon Orb is in danger...[NLINE]
+I'm alright... Hurry and[NLINE]
+retrieve the Dragon Orb...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $61B0 - STRING #36 @ $67FC
+#W32($61B0)
+//[CHAR3C00][V1B00]
+//…俺は大丈夫だ…、[NLINE]
+//早く…龍玉を…。[END-FE]
+[CHAR3C00][V1B00]
+I'm alright... Hurry and[NLINE]
+retrieve the Dragon Orb...[END-FE]
+
+
+
+
+
+//POINTER #37 @ $61B4 - STRING #37 @ $682B
+#W32($61B4)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $61B8 - STRING #38 @ $6842
+#W32($61B8)
+//自動Ｄ　ＥＢ０４＿３前[END-FE]
+自動D EB04_3前[END-FE]
+
+
+
+
+
+//POINTER #39 @ $61BC - STRING #39 @ $685B
+#W32($61BC)
+//うわっ、[NLINE]
+//なんだか変な湖ね。[END-FE]
+Wow, what a strange lake.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $61C0 - STRING #40 @ $687A
+#W32($61C0)
+//これは、２０年ほど前に、[NLINE]
+//アドモニッシャーが初めて放った[NLINE]
+//砲撃で出来たあとです。[CC.BE0105][NWIN]
+//
+//あまりにも深く大地を傷つけたため[NLINE]
+//地下水がしみ出して、[NLINE]
+//このような湖になりました。[END-FE]
+This is where the Admonisher[NLINE]
+fired its first shot twenty[NLINE]
+years ago.[CC.BE0105][NWIN]
+
+It left such a deep hole in[NLINE]
+the ground that underground[NLINE]
+water welled up, resulting in the[NLINE]
+lake you see before you.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $61C4 - STRING #41 @ $6925
+#W32($61C4)
+//砲撃の跡…。[NLINE]
+//多くの犠牲が出たんでしょうね。[END-FE]
+A reminder of the Admonisher's blast...[NLINE]
+It must have made a lot of victims.[END-FE]
+
+
+
+
+
+//POINTER #42 @ $61C8 - STRING #42 @ $6954
+#W32($61C8)
+//…はい…。[NLINE]
+//おかげで２０年間、[NLINE]
+//戦争は防がれていましたが…。[END-FE]
+Yes... However, as a result, war[NLINE]
+was prevented twenty years ago...[END-FE]
+
+
+
+
+
+//POINTER #43 @ $61CC - STRING #43 @ $6993
+#W32($61CC)
+//平和を得る代償ってのは[NLINE]
+//高くつくんだな…。[NWIN]
+//
+//[CH.FACE:Close-Eyes][CH.FACE:Angry]
+//最初から争わなきゃ[NLINE]
+//いいだけなのに…。[END-FE]
+It's a high price to pay for[NLINE]
+peace...[NWIN]
+
+[CH.FACE:Close-Eyes][CH.FACE:Angry]
+If only there had been no conflict in[NLINE]
+the first place...[END-FE]
+
+
+
+
+
+//POINTER #44 @ $61D0 - STRING #44 @ $69EF
+#W32($61D0)
+//グランゲイル王国へようこそ。[NWIN]
+//
+//クイーン・オブ・ピクシーのユリィどのを[NLINE]
+//連れたお方よ。[END-FE]
+Companions of the Queen of Pixies,[NWIN]
+I bid you welcome to Grangale Kingdom.[END-FE]
+
+
+
+
+
+
+//POINTER #45 @ $61D4 - STRING #45 @ $6A46
+#W32($61D4)
+//ここから東はグランゲイルの領土だ。[END-FE]
+East from here lies Grangale territory.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $61D8 - STRING #46 @ $6A6B
+#W32($61D8)
+//見慣れない姿だが、[NLINE]
+//どこの国から来たのだ？[NWIN]
+//
+//だが、妖精を…。[NLINE]
+//しかもユリィ殿を連れているなら、[NLINE]
+//お前たちを信頼して、ここを通そう。[END-FE]
+Your attires look unfamiliar.[NLINE]
+What country are you from?[NWIN]
+
+Wait a minute, you have a fairy[NLINE]
+accompanying you...[NLINE]
+And it's Lady Yurii at that. In[NLINE]
+that case, I trust you. You may pass.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $61DC - STRING #47 @ $6AF0
+#W32($61DC)
+//道中、お気をつけて！[END-FE]
+Take care on your journey![END-FE]
+
+
+
+
+
+//POINTER #48 @ $61E0 - STRING #48 @ $6B07
+#W32($61E0)
+//モノポリスという一団が[NLINE]
+//先ほど、慌ただしく東へ向かったが…。[NLINE]
+//お前たちも、その仲間か？[END-FE]
+Soldiers from a company called Monopolis[NLINE]
+headed east a little while ago...[NLINE]
+Are you their companions?[END-FE]
+
+
+
+
+
+//POINTER #49 @ $61E4 - STRING #49 @ $6B60
+#W32($61E4)
+//………。[END-FE]
+...[END-FE]
+
+
+
+
+
+//POINTER #50 @ $61E8 - STRING #50 @ $6B6B
+#W32($61E8)
+//[Haschen]さん、ご苦労さまです！[NWIN]
+//
+//また任務ですか？[NLINE]
+//ガンバってください！[END-FE]
+We appreciate your efforts, [Haschen]![NLINE]
+Are you on another mission? Good luck![END-FE]
+
+
+
+
+
+//POINTER #51 @ $61EC - STRING #51 @ $6BB0
+#W32($61EC)
+//私は街にスクリーパーが入らないように[NLINE]
+//ここを死守します！[END-FE]
+I'll defend this spot at all costs[NLINE]
+in order to prevent Screapers from[NLINE]
+getting into the city![END-FE]
+
+
+
+
+
+//POINTER #52 @ $61F0 - STRING #52 @ $6BEB
+#W32($61F0)
+//ありがとうございました！[NLINE]
+//みなさんお強いですね！[NLINE]
+//感服しました！[NWIN]
+//
+//また、スクリーパーが出るかもしれませんが、[NLINE]
+//みなさんと[Haschen]さんが[NLINE]
+//協力すれば大丈夫でしょう。[NLINE]
+//気をつけて行って来てください！[END-FE]
+Thank you very much![NLINE]
+I'm impressed by how strong[NLINE]
+you are![NWIN]
+
+You may encounter more Screapers,[NLINE]
+but as long as you cooperate[NLINE]
+with Haschen, you'll be alright.[NLINE]
+Please be careful on our journey![END-FE]
+
+
+
+
+
+//POINTER #53 @ $61F4 - STRING #53 @ $6CAC
+#W32($61F4)
+//[CHAR6A00][V0000]
+//あっ、スクリーパーだよ！[END-FE]
+[CHAR6A00][V0000]
+Aah! Screapers![END-FE]
+
+
+
+
+
+//POINTER #54 @ $61F8 - STRING #54 @ $6CCF
+#W32($61F8)
+//[CHAR6A00][V0100]
+//おあつらえ向きだな。[END-FE]
+[CHAR6A00][V0100]
+Perfect.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $61FC - STRING #55 @ $6CEE
+#W32($61FC)
+//・スクリーパーの全滅[END-FE]
+・All Screapers are defeated[END-FE]
+
+
+
+
+
+//POINTER #56 @ $6200 - STRING #56 @ $6D05
+#W32($6200)
+//・維持軍兵士の死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The PMB soldier dies[NLINE]
+・One of your companions[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #57 @ $6204 - STRING #57 @ $6D3E
+#W32($6204)
+//・維持軍兵士の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The PMB soldier dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #58 @ $6208 - STRING #58 @ $6D67
+#W32($6208)
+//[CHAR6A00][V0200]
+//よっしゃぁ！[NLINE]
+//来たよ、来たよ！[END-FE]
+[CHAR6A00][V0200]
+Alright, it's show time![END-FE]
+
+
+
+
+
+//POINTER #59 @ $620C - STRING #59 @ $6D90
+#W32($620C)
+//[CHAR6A00][V0300]
+//それは…？[END-FE]
+[CHAR6A00][V0300]
+Is that...?[END-FE]
+
+
+
+
+
+//POINTER #60 @ $6210 - STRING #60 @ $6DA5
+#W32($6210)
+//[CHAR6A00][V0400]
+//これが俺の能力[COL01]超音波結界[COL00]だ。[NWIN]
+//
+//[CHAR6A00][V0500]
+//俺の体内には、[NLINE]
+//スクリーパーが嫌う音波を発する細胞がある。[NLINE]
+//それにより俺の近くにいるスクリーパーほど[NLINE]
+//弱らせることが出来る。[NWIN]
+//
+//[CHAR6A00][V0600]
+//有効範囲はそれほど広くはないが、[NLINE]
+//効果は体験してくれればわかると思う。[END-FE]
+[CHAR6A00][V0400]
+This is my ability: an [COL01]Ultrasonic Barrier[COL00].[NWIN]
+
+[CHAR6A00][V0500]
+In my body, there are cells that[NLINE]
+emit a sound frequency that[NLINE]
+Screapers dislike. The closer[NLINE]
+I get to Screapers, the more[NLINE]
+they'll weaken.[NWIN]
+
+[CHAR6A00][V0600]
+The effect range is not that wide. You'll[NLINE]
+understand the effect once you see for yourself.[NWIN]
+
+
+
+
+
+//POINTER #61 @ $6214 - STRING #61 @ $6EA8
+#W32($6214)
+//[CHAR6A00][V0700]
+//この距離なら効果範囲内だ。[NLINE]
+//だが近くに寄れば寄るほど効果は大きくなる。[NLINE]
+//忘れないでくれ。[END-FE]
+[CHAR6A00][V0700]
+They're now in the effect range.[NLINE]
+The closer they get to me, the stronger[NLINE]
+the effect will become. Don't forget.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $6218 - STRING #62 @ $6F0B
+#W32($6218)
+//しまった！維持軍兵が…！[END-FE]
+Oh no! The PMB soldier...![END-FE]
+
+
+
+
+
+//POINTER #63 @ $621C - STRING #63 @ $6F26
+#W32($621C)
+//ここのクリアは完全のみです[END-FE]
+ここのクリアは完全のみです[END-FE]
+
+
+
+
+
+//POINTER #64 @ $6220 - STRING #64 @ $6F43
+#W32($6220)
+//[CHAR6A00][V0800]
+//終わったな。[NLINE]
+//初めての合同戦闘にしては上々かな？[NLINE]
+//これからもよろしく頼む。[END-FE]
+[CHAR6A00][V0800]
+It's over. Not bad for our first fight[NLINE]
+together, right? Let's keep it up.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $6224 - STRING #65 @ $6F98
+#W32($6224)
+//ちぇ、[NLINE]
+//アンタの力を見せられなかったね。[END-FE]
+Hmmpf, you didn't even get to show[NLINE]
+off your power.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $6228 - STRING #66 @ $6FC3
+#W32($6228)
+//先ほどおっしゃっていた力のことですか？[END-FE]
+What about that ability you mentioned[NLINE]
+earlier?[END-FE]
+
+
+
+
+
+//POINTER #67 @ $622C - STRING #67 @ $6FEC
+#W32($622C)
+//俺の体内には、[NLINE]
+//スクリーパーが嫌う音波を発する細胞がある。[NLINE]
+//それにより俺の近くにいるスクリーパーほど[NLINE]
+//弱らせることが出来る。[NWIN]
+//
+//それが俺の能力、[COL01]超音波結界[COL00]だ。[NLINE]
+//有効範囲はそれほど広くはないが、[NLINE]
+//効果は体験してくれればわかると思う。[NWIN]
+//
+//今回は能力を使えなかったが、[NLINE]
+//スクリーパーが出没しているとなれば[NLINE]
+//またすぐに役に立つ機会があるだろう。[NLINE]
+//よろしく頼む。[END-FE]
+In my body, there are cells that[NLINE]
+emit a sound frequency that[NLINE]
+Screapers dislike. The closer[NLINE]
+I get to Screapers, the more[NLINE]
+they'll weaken.[NWIN]
+
+That's my ability: an [COL01]Ultrasonic Barrier[COL00].[NLINE]
+The effect range is not that wide. You'll[NLINE]
+understand the effect once you see for yourself.[NWIN]
+
+I couldn't use my ability this time,[NLINE]
+but it'll proof useful when we encounter[NLINE]
+more Screapers. Let's keep up the good[NLINE]
+work.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $6230 - STRING #68 @ $7151
+#W32($6230)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $6234 - STRING #69 @ $7166
+#W32($6234)
+//Ｄ　Ｆ７[END-FE]
+D F7[END-FE]
+
+
+
+

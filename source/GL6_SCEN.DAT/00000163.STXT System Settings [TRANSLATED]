@@ -1,0 +1,123 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $D0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($D0)
+#HDR($D0)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $D0
+#W32($A0)
+//サウンド[END-FF]
+Sound[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $DB
+#W32($A4)
+//音声[END-FF]
+Voice[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $E2
+#W32($A8)
+//戦闘音声[END-FF]
+Battle Voice[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $ED
+#W32($AC)
+//ＨＰ表示[END-FF]
+HP Display[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $F8
+#W32($B0)
+//カーソル記憶[END-FF]
+Cursor Memory[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $107
+#W32($B4)
+//バイブレーション機能[END-FF]
+Vibration[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $11E
+#W32($B8)
+//戦闘時範囲確認[END-FF]
+Area Confirmation[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $12F
+#W32($BC)
+//特技発動時の停止[END-FF]
+Cancel Knacks[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $142
+#W32($C0)
+//魔法ムービー[END-FF]
+Magic Movie[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $151
+#W32($C4)
+//命令終了後の思考[END-FF]
+Party Actions[END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $164
+#W32($C8)
+//勝敗条件確認[END-FF]
+Display Conditions[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $173
+#W32($CC)
+//カーソル変更[END-FF]
+Change Cursor[END-FF]
+
+
+

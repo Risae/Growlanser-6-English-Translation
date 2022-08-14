@@ -1,0 +1,421 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $33B0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3320, 4, PTR)
+
+#JMP($33B0)
+#HDR($33B0)
+
+
+
+
+
+//POINTER #0 @ $3320 - STRING #0 @ $33B0
+#W32($3320)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3324 - STRING #1 @ $33B3
+#W32($3324)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3328 - STRING #2 @ $33C0
+#W32($3328)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $332C - STRING #3 @ $33E5
+#W32($332C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3330 - STRING #4 @ $340A
+#W32($3330)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3334 - STRING #5 @ $341F
+#W32($3334)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3338 - STRING #6 @ $3444
+#W32($3338)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $333C - STRING #7 @ $3469
+#W32($333C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3340 - STRING #8 @ $349E
+#W32($3340)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3344 - STRING #9 @ $34D3
+#W32($3344)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3348 - STRING #10 @ $34F8
+#W32($3348)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $334C - STRING #11 @ $351D
+#W32($334C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3350 - STRING #12 @ $3542
+#W32($3350)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3354 - STRING #13 @ $3557
+#W32($3354)
+//[COL01]ラナの実[COL00]を手に入れた！[END-FE]
+You obtained [COL01]Rana Fruit![COL00]![END-FE]
+
+
+
+
+
+//POINTER #14 @ $3358 - STRING #14 @ $3576
+#W32($3358)
+//宝箱にはラナの実が入っている。[NLINE]
+//しかし、これ以上持てないので　[NLINE]
+//そっと宝箱に戻した。　　　　　[END-FE]
+Inside the chest is Rana Fruit.[NLINE]
+However, since you can't hold[NLINE]
+any more, you gently put it[NLINE]
+back.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $335C - STRING #15 @ $35D7
+#W32($335C)
+//[CHAR2603][VD100]
+//ポサヤを手に入れる事が出来たな。[NLINE]
+//少しは役に立てたかな。[END-FE]
+//Randall\\
+[CHAR2603][VD100]
+We managed to obtain Posaya.[NLINE]
+I hope to have been of assistance.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3360 - STRING #16 @ $361A
+#W32($3360)
+//[CHAR2603][VD200]
+//はい。[NLINE]
+//ランディ様、ありがとうございました。[END-FE]
+//Yurii\\
+[CHAR2603][VD200]
+Yes, certainly. Thank you[NLINE]
+very much, Dr. Randall.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3364 - STRING #17 @ $3651
+#W32($3364)
+//[CHAR2603][VD300]
+//私はこのままジュワイナに戻るとしよう。[NLINE]
+//困った事があれば、訪ねに来てくれたまえ。[NLINE]
+//出来る限り力になろう。[NLINE]
+//では、また会おう！[END-FE]
+//Randall\\
+[CHAR2603][VD300]
+I will return to Juwaina. If you[NLINE]
+have any troubles, please come[NLINE]
+visit me. I'll help you as much[NLINE]
+as I can. Well then, until we'll[NLINE]
+meet again![END-FE]
+
+
+
+
+
+//POINTER #18 @ $3368 - STRING #18 @ $36D8
+#W32($3368)
+//この廃坑は落盤が起きたばかりなんだよ。[NLINE]
+//とても危険な状態だから、[NLINE]
+//人が入らないように見張っているのさ。[END-FE]
+//Guard\\
+This unused mine just had a[NLINE]
+cave-in. It's very dangerous,[NLINE]
+so I'm standing guard to make[NLINE]
+sure no one enters.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $336C - STRING #19 @ $3741
+#W32($336C)
+//ご苦労さま。[END-FE]
+//Randall\\
+Greetings.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3370 - STRING #20 @ $3750
+#W32($3370)
+//あ、ランディさん。[NLINE]
+//どうしたんだい？[END-FE]
+//Guard\\
+Ah, Mr. Randall.[NLINE]
+What's the matter?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3374 - STRING #21 @ $3777
+#W32($3374)
+//必要な薬草があってね。[NLINE]
+//それを採りに廃坑に入りたいのだよ。[END-FE]
+//Randall\\
+Inside is a plant we're in[NLINE]
+need of. We'd like to enter[NLINE]
+the mine to get it.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3378 - STRING #22 @ $37B4
+#W32($3378)
+//廃坑にかい？[NLINE]
+//中は危険だよ。[NWIN]
+//
+//う～ん、ランディさんがいっしょなら[NLINE]
+//大丈夫かな。[NWIN]
+//
+//あんまりムチャはしないでくれよ。[END-FE]
+//Guard\\
+In the mine?[NLINE]
+It's dangerous inside.[NWIN]
+
+Well, since Mr. Randall is with you,[NLINE]
+I suppose it's fine.[NWIN]
+
+Please don't be reckless.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $337C - STRING #23 @ $3827
+#W32($337C)
+//ありがとう。[END-FE]
+//Randall\\
+Thank you.[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3380 - STRING #24 @ $3836
+#W32($3380)
+//では、入るとしよう。[END-FE]
+//Randall\\
+Well then, let's go in.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3384 - STRING #25 @ $384D
+#W32($3384)
+//気をつけて[NLINE]
+//行ってきてくれよ。[END-FE]
+Please be careful in there.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3388 - STRING #26 @ $386E
+#W32($3388)
+//落盤の危険があるから、[NLINE]
+//入ったらダメだぞ。[END-FE]
+Since there is a risk of a[NLINE]
+cave-in, you can't enter.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $338C - STRING #27 @ $389B
+#W32($338C)
+//こっちは東だ。[NLINE]
+//鉱山跡は西の方だぞ。[END-FE]
+This way is east.[NLINE]
+The abandoned mine lies[NLINE]
+to the west.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3390 - STRING #28 @ $38C2
+#W32($3390)
+//鉱山入り口[END-FE]
+Mine Entrance[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3394 - STRING #29 @ $38CF
+#W32($3394)
+//ジュワイナ村[END-FE]
+Juwaina Village[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3398 - STRING #30 @ $38DE
+#W32($3398)
+//ジュワイナの森[NLINE]
+//フェルメンティア方面[END-FE]
+Juwaina Jungle[NLINE]
+To Felmentia[END-FE]
+
+
+
+
+
+//POINTER #31 @ $339C - STRING #31 @ $3905
+#W32($339C)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #32 @ $33A0 - STRING #32 @ $391A
+#W32($33A0)
+//Ｄ　Ｆ１３[END-FE]
+D F13[END-FE]
+
+
+
+
+
+//POINTER #33 @ $33A4 - STRING #33 @ $3927
+#W32($33A4)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #34 @ $33A8 - STRING #34 @ $393E
+#W32($33A8)
+//・Ａパターン[END-FE]
+・A Pattern[END-FE]
+
+
+
+
+
+//POINTER #35 @ $33AC - STRING #35 @ $394D
+#W32($33AC)
+//・Ｂパターン[END-FE]
+・B Pattern[END-FE]
+
+
+
+

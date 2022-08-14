@@ -1,0 +1,132 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $C0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($C0)
+#HDR($C0)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $C0
+#W32($A0)
+//原石：サファイア[NLINE]
+//特性：時空[NLINE]
+//添加効果：能力強化、能力の追加、コピー、[NLINE]
+//　　　　　ジェム生成、レアグッズ生成[END-FF]
+Ore： Sapphire/Trait： Space-time[NLINE]
+Additional effect：[NLINE]
+Capacity+, Ability+, Copy+,[NLINE]
+Gem generation, Rare Item+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $12F
+#W32($A4)
+//原石：ターコイズ[NLINE]
+//特性：変換[NLINE]
+//添加効果：能力強化、スロット３強化、[NLINE]
+//　　　　　スロット３コピー、グッズ生成[END-FF]
+Ore: Turquoise/Trait: Transformation[NLINE]
+Additional effect：[NLINE]
+Capacity+, Slot 3 enhanced,[NLINE]
+Slot 3 Copy, Item generation[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $19C
+#W32($A8)
+//原石：エメラルド[NLINE]
+//特性：精霊[NLINE]
+//添加効果：状態回復グッズ生成、ジェム生成[END-FF]
+Ore: Emerald/Trait: Spirit[NLINE]
+Additional effect：[NLINE]
+Status Recovery Item generation,[NLINE]
+Gem generation[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $1E5
+#W32($AC)
+//原石：トパーズ[NLINE]
+//特性：肉体[NLINE]
+//添加効果：スロット１強化、スロット１コピー、[NLINE]
+//　　　　　ジェム生成、グッズ生成[END-FF]
+Ore: Topaz/Trait: Body[NLINE]
+Additional effect：[NLINE]
+Slot 1 enhanced, Slot 1 copy,[NLINE]
+Gem generation, Item generation[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $252
+#W32($B0)
+//原石：アンバー[NLINE]
+//特性：増強[NLINE]
+//添加効果：回復グッズ生成、スロット１コピー[NLINE]
+//　　　　　ジェム生成、グッズ生成[END-FF]
+Ore: Amber/Trait: Reinforce[NLINE]
+Additional effect：[NLINE]
+Recovery Item generation, Slot 1 copy,[NLINE]
+Gem generation, Item generation[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $2BD
+#W32($B4)
+//原石：ルビー[NLINE]
+//特性：打撃[NLINE]
+//添加効果：スロット２強化、スロット２コピー、[NLINE]
+//　　　　　ジェム生成、グッズ生成[END-FF]
+Ore: Ruby/Trait: Strike[NLINE]
+Additional effect：[NLINE]
+Slot 2 enhanced, Slot 2 Copy,[NLINE]
+Gem generation, Item generation[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $328
+#W32($B8)
+//原石：アメジスト[NLINE]
+//特性：神秘[NLINE]
+//添加効果：スロット４強化、スロット４コピー、[NLINE]
+//　　　　　ジェム生成、グッズ生成[END-FF]
+Ore: Amethyst/Trait: Mystery[NLINE]
+Additional effect：[NLINE]
+Slot 4 enhanced, Slot 4 Copy[NLINE]
+Gem generation, Item generation[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $397
+#W32($BC)
+//色：ダイヤ[NLINE]
+//原石：ダイヤ[NLINE]
+//特性：特殊[END-FF]
+Ore: Diamond/Trait: Diamond[NLINE]
+Additional effect：[NLINE]
+Unique[END-FF]
+
+
+

@@ -1,0 +1,1842 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $3EE0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3CA0, 4, PTR)
+
+#JMP($3EE0)
+#HDR($3EE0)
+
+
+
+
+
+//POINTER #0 @ $3CA0 - STRING #0 @ $3EE0
+#W32($3CA0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3CA4 - STRING #1 @ $3EE3
+#W32($3CA4)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3CA8 - STRING #2 @ $3EF0
+#W32($3CA8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $3CAC - STRING #3 @ $3F15
+#W32($3CAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3CB0 - STRING #4 @ $3F3A
+#W32($3CB0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3CB4 - STRING #5 @ $3F4F
+#W32($3CB4)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3CB8 - STRING #6 @ $3F74
+#W32($3CB8)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $3CBC - STRING #7 @ $3F99
+#W32($3CBC)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3CC0 - STRING #8 @ $3FCE
+#W32($3CC0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3CC4 - STRING #9 @ $4003
+#W32($3CC4)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3CC8 - STRING #10 @ $4028
+#W32($3CC8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $3CCC - STRING #11 @ $404D
+#W32($3CCC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3CD0 - STRING #12 @ $4072
+#W32($3CD0)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3CD4 - STRING #13 @ $4087
+#W32($3CD4)
+//[CHAR6200][V0000]
+//ここがヒンギスタンの王都エル・ヒンギスか…。[NLINE]
+//はじめて来たぜ。[END-FE]
+[CHAR6200][V0000]
+So this is Hingistan's capital, El[NLINE]
+Hingis, huh? This is the first[NLINE]
+time I've been here.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3CD8 - STRING #14 @ $40D0
+#W32($3CD8)
+//[CHAR6200][V0100]
+//私もはじめてです。[END-FE]
+[CHAR6200][V0100]
+It is my first time as well.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $3CDC - STRING #15 @ $40ED
+#W32($3CDC)
+//[CHAR6200][V0200]
+//見たところ、まだ静かですし、[NLINE]
+//間に合ったようですね。[END-FE]
+[CHAR6200][V0200]
+Everything is still quiet by[NLINE]
+the looks of it. It seems we[NLINE]
+made it in time.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3CE0 - STRING #16 @ $412C
+#W32($3CE0)
+//[CHAR6200][V0300]
+//そうですね。[NLINE]
+//では、お２人を探しましょう。[END-FE]
+[CHAR6200][V0300]
+Indeed. Well then, let us find[NLINE]
+Wendy and Maxwell.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3CE4 - STRING #17 @ $4161
+#W32($3CE4)
+//みんな、お疲れ。[NWIN]
+//
+//今夜の宿代は私がもつから、[NLINE]
+//今日は宿で休んでいかない？[END-FE]
+Good work, everyone.[NWIN]
+
+Tonight's inn fee is one me,[NLINE]
+so how about we rest today?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3CE8 - STRING #18 @ $41AC
+#W32($3CE8)
+//それじゃ、今日は自由行動ということで。[NLINE]
+//明日の朝、宿のロビーに集合ね！[END-FE]
+Alright, that means everyone can roam[NLINE]
+around freely today. Let's regroup in[NLINE]
+the lobby tomorrow morning![END-FE]
+
+
+
+
+
+//POINTER #19 @ $3CEC - STRING #19 @ $41F5
+#W32($3CEC)
+//マキナスに急ぐの？[NLINE]
+//…そっか、残念！[NWIN]
+//
+//それじゃ、[NLINE]
+//マキナスに急ぎましょう！[END-FE]
+We have to hurry back to Makinus?[NLINE]
+...I see, that's too bad![NWIN]
+
+Alright, let's go back quickly![END-FE]
+
+
+
+
+
+//POINTER #20 @ $3CF0 - STRING #20 @ $4242
+#W32($3CF0)
+//これからは民主国家に[NLINE]
+//なるのですって！[NLINE]
+//いったいどんな国になるのかしら？[END-FE]
+They say that from now on, this[NLINE]
+country will be a democracy! What[NLINE]
+kind of country will Hingistan[NLINE]
+turn into?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3CF4 - STRING #21 @ $428D
+#W32($3CF4)
+//騒がしいと思ったら、[NLINE]
+//戦争が始まったんですか？[NLINE]
+//まぁ、怖い…。[END-FE]
+As soon as more people show up around here,[NLINE]
+a war begins. My, how frightening...[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3CF8 - STRING #22 @ $42CE
+#W32($3CF8)
+//最近、税金が[NLINE]
+//どんどん高くなっているんです。[NWIN]
+//
+//おかげで国外逃亡する人まで[NLINE]
+//いるみたいよ。[END-FE]
+The taxes have been getting higher[NLINE]
+and higher recently.[NWIN]
+
+It seems it even caused some people[NLINE]
+to flee abroad.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $3CFC - STRING #23 @ $4329
+#W32($3CFC)
+//やったわね！[NLINE]
+//とうとう革命が成功したのね！[NWIN]
+//
+//こっそり支援していた[NLINE]
+//甲斐があったわ！[END-FE]
+We did it! The revolution has[NLINE]
+finally succeeded.[NWIN]
+
+Secretly supporting the cause[NLINE]
+paid off![END-FE]
+
+
+
+
+
+//POINTER #24 @ $3D00 - STRING #24 @ $437E
+#W32($3D00)
+//レジスタンスが王城へ[NLINE]
+//攻撃をはじめたそうよ！[NLINE]
+//絶対に勝って欲しいわ！[END-FE]
+I heard the resistance have begun[NLINE]
+their attack on the royal castle![NLINE]
+I definitely want them to win![END-FE]
+
+
+
+
+
+//POINTER #25 @ $3D04 - STRING #25 @ $43C5
+#W32($3D04)
+//この王都は豊かに見えるかもしれないけれど、[NLINE]
+//ここだけの話、誰もが見栄を[NLINE]
+//張っているだけよ。[NWIN]
+//
+//重い税を払っても、[NLINE]
+//自分にはまだ余裕があるんだってね。[NWIN]
+//
+//そんなくだらない見栄なんて[NLINE]
+//張らなくても良い時代になって欲しいわ。[END-FE]
+The royal capital may look prosperous,[NLINE]
+but between you and me, everyone is[NLINE]
+merely putting up a front.[NWIN]
+
+Despite paying heavy taxes, I can[NLINE]
+still afford to.[NWIN]
+
+I want things to get better so that[NLINE]
+I don't have to pretend anymore[NLINE]
+everything is fine and dandy![END-FE]
+
+
+
+
+
+//POINTER #26 @ $3D08 - STRING #26 @ $449E
+#W32($3D08)
+//いやぁ、あのザフリードが[NLINE]
+//捕らえられたんだってね！[NLINE]
+//一発なぐってやりたいよ！[END-FE]
+I heard that Zafreed got captured![NLINE]
+I want to introduce him to[NLINE]
+my fists![END-FE]
+
+
+
+
+
+//POINTER #27 @ $3D0C - STRING #27 @ $44ED
+#W32($3D0C)
+//あ、アタシは関係ないよ！[NLINE]
+//革命なんて知らないからね！[NLINE]
+//帰っておくれ！[END-FE]
+Ah, I don't know anything about[NLINE]
+a revolution! I have nothing to[NLINE]
+do with it! Go home![END-FE]
+
+
+
+
+
+//POINTER #28 @ $3D10 - STRING #28 @ $4534
+#W32($3D10)
+//今、この国を動かしているのは[NLINE]
+//宰相のザフリードさ。[NWIN]
+//
+//あの男が実権を握ってから、[NLINE]
+//アタシらの生活は厳しくなる一方さ。[END-FE]
+The one who is currently running[NLINE]
+the country is Chancellor Zafreed.[NWIN]
+
+Our lives have been getting tougher[NLINE]
+ever since that man took control.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3D14 - STRING #29 @ $45A9
+#W32($3D14)
+//ルキアスイベントのデバッグ？[END-FE]
+Rukias event debug?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3D18 - STRING #30 @ $45C8
+#W32($3D18)
+//これからは…ボクも[NLINE]
+//ごはん食べていいんだよね？[END-FE]
+From now on...I can eat meals[NLINE]
+too, right?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $3D1C - STRING #31 @ $45F9
+#W32($3D1C)
+//せんそうでしぬまえに…[NLINE]
+//おなかが…すいて[NLINE]
+//しんじゃうよ…[END-FE]
+I will sooner... die of hunger...[NLINE]
+than die... in the war...[END-FE]
+
+
+
+
+
+//POINTER #32 @ $3D20 - STRING #32 @ $4634
+#W32($3D20)
+//いもうとがね…、[NLINE]
+//おなかすきすぎて、[NLINE]
+//しんじゃったの…。[NWIN]
+//
+//ボクも…[NLINE]
+//お…おなか…すいたよ…。[END-FE]
+My little sister...died because[NLINE]
+she was really hungry...[NWIN]
+
+
+I-I'm...so hungry, too...[END-FE]
+
+
+
+
+
+
+//POINTER #33 @ $3D24 - STRING #33 @ $4693
+#W32($3D24)
+//[CHAR6200][V0400]
+//やぁ、皆さん。[END-FE]
+[CHAR6200][V0400]
+Hello there, everyone.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $3D28 - STRING #34 @ $46AC
+#W32($3D28)
+//[CHAR6200][V0500]
+//えっ？[END-FE]
+[CHAR6200][V0500]
+Hmm?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $3D2C - STRING #35 @ $46BD
+#W32($3D2C)
+//[CHAR6200][V0600]
+//私ですよ、私。[END-FE]
+[CHAR6200][V0600]
+It's me.[END-FE]
+
+
+
+
+
+//POINTER #36 @ $3D30 - STRING #36 @ $46D6
+#W32($3D30)
+//[CHAR6200][V0700]
+//へ…変装王さん？[END-FE]
+[CHAR6200][V0700]
+The Master of Disguise?[END-FE]
+
+
+
+
+
+//POINTER #37 @ $3D34 - STRING #37 @ $46F1
+#W32($3D34)
+//[CHAR6200][V0800]
+//おっと、大声はご遠慮を。[NWIN]
+//
+//[CHAR6200][V0900]
+//もし、マクスウェル様をお探しなら[NLINE]
+//宿へどうぞ。[NWIN]
+//
+//[CHAR6200][V0A00]
+//これを見せれば[NLINE]
+//案内してもらえるでしょう。[END-FE]
+[CHAR6200][V0800]
+Hey now, not so loud.[NWIN]
+
+[CHAR6200][V0900]
+If you're looking for Maxwell,[NLINE]
+go to the inn.[NWIN]
+
+[CHAR6200][V0A00]
+If you show this to the innkeeper, he'll[NLINE]
+guide you to him.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $3D38 - STRING #38 @ $4780
+#W32($3D38)
+//宿の主人に先ほどの[NLINE]
+//[COL01]七色のハンカチ[COL00]を見せて下さい。[END-FE]
+Please show that [COL01]Seven-Colored Handkerchief[COL00][NLINE]
+to the innkeeper.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $3D3C - STRING #39 @ $47BB
+#W32($3D3C)
+//[CHAR6400][V0400]
+//お戻りですか！[NLINE]
+//現在、レジスタンスを主力とした[NLINE]
+//市民兵による城攻めが行われています。[END-FE]
+[CHAR6400][V0400]
+You're back![NLINE]
+A militia spearheaded by the resistance[NLINE]
+is currently attacking the castle.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $3D40 - STRING #40 @ $481A
+#W32($3D40)
+//・自分たちに任せろ！[END-FE]
+・Leave it to us![END-FE]
+
+
+
+
+
+//POINTER #41 @ $3D44 - STRING #41 @ $4831
+#W32($3D44)
+//・お前は戦わないのか？[END-FE]
+・Won't you fight?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $3D48 - STRING #42 @ $484A
+#W32($3D48)
+//[CHAR6400][V0500]
+//はい、お任せします！[END-FE]
+[CHAR6400][V0500]
+Good luck![END-FE]
+
+
+
+
+
+//POINTER #43 @ $3D4C - STRING #43 @ $4869
+#W32($3D4C)
+//[CHAR6400][V0600]
+//あなたは、[NLINE]
+//どうなさるのですか？[END-FE]
+[CHAR6400][V0600]
+What will you do?[END-FE]
+
+
+
+
+
+//POINTER #44 @ $3D50 - STRING #44 @ $4894
+#W32($3D50)
+//[CHAR6400][V0700]
+//私の仕事は情報操作ですから。[NWIN]
+//
+//[CHAR6400][V0800]
+//勢いづいた市民が、革命成功後、[NLINE]
+//ザフリード派に私的暴行を行う可能性があります。[NLINE]
+//それに罪のない貴族までも標的にしないようにね。[END-FE]
+[CHAR6400][V0700]
+My job is to manipulate information.[NWIN]
+
+[CHAR6400][V0800]
+After the revolution has been a success,[NLINE]
+frenzied citizens might try to assault[NLINE]
+Zafreed or even innocent aristocrats.[NLINE]
+I'll prevent that from happening.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $3D54 - STRING #45 @ $4943
+#W32($3D54)
+//[CHAR6400][V0900]
+//今回の革命は、王制が無くなれば良いだけです。[NLINE]
+//それ以上の血を流さないためにも、[NLINE]
+//私をはじめとする情報操作スタッフが[NLINE]
+//市民の感情をコントロールします。[END-FE]
+[CHAR6400][V0900]
+The point of this revolution is only[NLINE]
+to abolish the monarchy. That's why[NLINE]
+information manipulators, including[NLINE]
+myself, will control the emotions[NLINE]
+of the citizens to prevent any more[NLINE]
+blood from being shed.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $3D58 - STRING #46 @ $49E2
+#W32($3D58)
+//[CHAR6400][V0A00]
+//事後の準備も万全ってことか。[END-FE]
+//Rukias\\
+[CHAR6400][V0A00]
+So you already thought about what to[NLINE]
+do after the revolution is over, huh?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $3D5C - STRING #47 @ $4A09
+#W32($3D5C)
+//[CHAR6400][V0B00]
+//それじゃ、行きましょう！[END-FE]
+//Wendy\\
+[CHAR6400][V0B00]
+Alright, let's go![END-FE]
+
+
+
+
+
+//POINTER #48 @ $3D60 - STRING #48 @ $4A2C
+#W32($3D60)
+//市民の情報誘導は私に任せて、[NLINE]
+//早く城の戦いに参加して下さい！[END-FE]
+Leave the shaping of public opinion[NLINE]
+to me. You hurry and participate in[NLINE]
+the battle at the castle![END-FE]
+
+
+
+
+
+//POINTER #49 @ $3D64 - STRING #49 @ $4A6B
+#W32($3D64)
+//いらっしゃいませ、[NLINE]
+//武器と防具の店です。[END-FE]
+Welcome.[NLINE]
+This is the weapons and armor store.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $3D68 - STRING #50 @ $4A96
+#W32($3D68)
+//ご覧になって下さい。[END-FE]
+Please have a look.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $3D6C - STRING #51 @ $4AAD
+#W32($3D6C)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #52 @ $3D70 - STRING #52 @ $4ABA
+#W32($3D70)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #53 @ $3D74 - STRING #53 @ $4AC7
+#W32($3D74)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #54 @ $3D78 - STRING #54 @ $4AD0
+#W32($3D78)
+//またどうぞ。[END-FE]
+Please come again.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $3D7C - STRING #55 @ $4ADF
+#W32($3D7C)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3D80 - STRING #56 @ $4AF4
+#W32($3D80)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3D84 - STRING #57 @ $4B1B
+#W32($3D84)
+//・食材を探す[END-FE]
+・Search for ingredients[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3D88 - STRING #58 @ $4B2A
+#W32($3D88)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #59 @ $3D8C - STRING #59 @ $4B39
+#W32($3D8C)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3D90 - STRING #60 @ $4B48
+#W32($3D90)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3D94 - STRING #61 @ $4B51
+#W32($3D94)
+//何か、料理できるような物って[NLINE]
+//ありませんか？[END-FE]
+Do you have any cooking ingredients?[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3D98 - STRING #62 @ $4B80
+#W32($3D98)
+//料理ねぇ…。[NWIN]
+//
+//直接使えるかわからないけど、[NLINE]
+//デザートにどうだい？[END-FE]
+Cooking, you say...?[NWIN]
+
+I don't know if it's something you[NLINE]
+could use, but how about dessert?[END-FE]
+
+
+
+
+
+//POINTER #63 @ $3D9C - STRING #63 @ $4BC3
+#W32($3D9C)
+//あんたらにはザフリードを[NLINE]
+//やっつけてもらったからね。[NWIN]
+//
+//お代はいらないよ。[END-FE]
+I don't need payment.[NWIN]
+
+You defeated Zafreed for us.[END-FE]
+
+
+
+
+
+//POINTER #64 @ $3DA0 - STRING #64 @ $4C0E
+#W32($3DA0)
+//ありがとうございます！[END-FE]
+Thank you![END-FE]
+
+
+
+
+
+//POINTER #65 @ $3DA4 - STRING #65 @ $4C27
+#W32($3DA4)
+//その果実は美味しいよ。[NLINE]
+//よく味わっておくれよ！[END-FE]
+This fruit is delicious.[NLINE]
+Take time to enjoy the taste![END-FE]
+
+
+
+
+
+//POINTER #66 @ $3DA8 - STRING #66 @ $4C58
+#W32($3DA8)
+//ありがとうございます。[END-FE]
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #67 @ $3DAC - STRING #67 @ $4C71
+#W32($3DAC)
+//ザフリードが倒されたそうだ！[NLINE]
+//これで特権階級にしか入手出来なかった物を[NLINE]
+//私たちも手にすることが出来る！[NWIN]
+//
+//あ～、やっとあのヒンギスタン名物の[NLINE]
+//おいしい果物が食べられるぞ～。[END-FE]
+Ｉ heard Zafreed has been defeated![NLINE]
+Now we can get things that before were[NLINE]
+only available to the privileged class![NWIN]
+
+Aah, now I finally get to eat that[NLINE]
+delicious Hingistan fruit![END-FE]
+
+
+
+
+
+//POINTER #68 @ $3DB0 - STRING #68 @ $4D1E
+#W32($3DB0)
+//ひょっとして、アンタ達も[NLINE]
+//城に攻め込むのか？[NLINE]
+//お、俺は行かないぞ！[END-FE]
+Will you attack the castle too[NLINE]
+by any chance? Ah, I'm not going![END-FE]
+
+
+
+
+
+//POINTER #69 @ $3DB4 - STRING #69 @ $4D63
+#W32($3DB4)
+//何でも、王様が[NLINE]
+//お亡くなりになったそうだよ。[NWIN]
+//
+//まぁ、だいぶ前から寝こんでいて、[NLINE]
+//政治は宰相のザフリードが仕切っていたから[NLINE]
+//我々の生活には変わりはないけどね…。[NWIN]
+//
+//…つまり相変わらずキツイってことよ。[END-FE]
+I heard that the king has passed[NLINE]
+away.[NWIN]
+
+Well, he was bedridden for a long[NLINE]
+time and left governing to Chancellor[NLINE]
+Zafreed, so our lives haven't really[NLINE]
+changed...[NWIN]
+
+...In other words, we have it rough[NLINE]
+as usual.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $3DB8 - STRING #70 @ $4E2A
+#W32($3DB8)
+//すごいわ！[NLINE]
+//本当に革命が成功したのね！[NWIN]
+//
+//何でもかんでも税をかけられていた[NLINE]
+//苦しい生活から解放されるのね！[END-FE]
+Amazing! The revolution[NLINE]
+truly was a success![NWIN]
+
+The days of being taxed on[NLINE]
+anything and everything are[NLINE]
+finally over![END-FE]
+
+
+
+
+
+//POINTER #71 @ $3DBC - STRING #71 @ $4E95
+#W32($3DBC)
+//大変よ！[NLINE]
+//革命を叫ぶ人たちが、[NLINE]
+//お城に攻め込んだの！[NWIN]
+//
+//ああ、一体どうなっちゃうのかしら？[NLINE]
+//本当に革命って成功するの？[END-FE]
+This is bad![NLINE]
+People calling for a revolution[NLINE]
+have attacked the castle![NWIN]
+
+Oh, what will happen now?[NLINE]
+Will the revolution truly[NLINE]
+succeed?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $3DC0 - STRING #72 @ $4F0C
+#W32($3DC0)
+//やだわ、いったい何なのかしら。[NLINE]
+//最近、街の雰囲気が[NLINE]
+//ピリピリしているのよ…。[END-FE]
+What on earth is going on?[NLINE]
+The atmosphere in the city has been[NLINE]
+charged with tension lately...[END-FE]
+
+
+
+
+
+//POINTER #73 @ $3DC4 - STRING #73 @ $4F5B
+#W32($3DC4)
+//なんでも、スゴ腕の４人組が[NLINE]
+//レジスタンスに力を貸したって[NLINE]
+//ウワサだよ。[NWIN]
+//
+//革命が成功したのは彼らのおかげだってさ。[NLINE]
+//そのリーダーは妖精を連れている男だって[NLINE]
+//話だけど…。[NWIN]
+//
+//まさか、あんた達が？[NLINE]
+//…って、そんなわけないか。[END-FE]
+なんでも、スゴ腕の４人組が[NLINE]
+It's rumored that a party of four strong[NLINE]
+warriors aided the resistance.[NWIN]
+
+It's thanks to them that the revolution[NLINE]
+was a success. I heard their leader was[NLINE]
+a man accompanied by a fairy...[NWIN]
+
+Could those warriors be you?[NLINE]
+...No, surely it couldn't be.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $3DC8 - STRING #74 @ $5036
+#W32($3DC8)
+//革命がついに始まったか。[NLINE]
+//この国の命運は、これで決まるんだな。[END-FE]
+Has the revolution begun at last?[NLINE]
+This revolution will determine the[NLINE]
+fate of this country.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $3DCC - STRING #75 @ $5077
+#W32($3DCC)
+//アンタら旅の人かい？[NLINE]
+//こんな時に来るなんてついてないね。[NLINE]
+//すぐに立ち去った方がいいよ。[NWIN]
+//
+//大きな声じゃ言えないけど、[NLINE]
+//まもなく市民が一斉蜂起するから。[END-FE]
+Are you travelers? You have come[NLINE]
+at an unfortunate time.[NLINE]
+You better leave immediately.[NWIN]
+
+I can't say this too loud, but soon[NLINE]
+the citizens will rise up all at once.[END-FE]
+
+
+
+
+
+
+//POINTER #76 @ $3DD0 - STRING #76 @ $510E
+#W32($3DD0)
+//君たち[COL01]ナトンの実[COL00]というのを知っているかね？[NLINE]
+//この大陸ではすでに絶滅した植物の実でね。[NLINE]
+//一度食べてみたかったなぁ…。[END-FE]
+Do you know about [COL01]Naton Fruit[COL00]?[NLINE]
+The plants they grow from have long[NLINE]
+been extinct on this continent.[NLINE]
+If only I could have eaten one...[END-FE]
+
+
+
+
+
+//POINTER #77 @ $3DD4 - STRING #77 @ $5189
+#W32($3DD4)
+//なんだって？[NLINE]
+//[COL01]浸透剄・改[COL00]を売って欲しい？[NLINE]
+//それなら１００００Ы出せるかね？[END-FE]
+What's that?[NLINE]
+You want me to sell my [COL01]Mega Penetrator Gem[COL00]?[NLINE]
+In that case, how does 10,000Ы sound?[END-FE]
+
+
+
+
+
+//POINTER #78 @ $3DD8 - STRING #78 @ $51DC
+#W32($3DD8)
+//・１００００Ы支払う[END-FE]
+・Pay 10,000Ы[END-FE]
+
+
+
+
+
+//POINTER #79 @ $3DDC - STRING #79 @ $51F3
+#W32($3DDC)
+//・支払わない[END-FE]
+・Don't pay[END-FE]
+
+
+
+
+
+//POINTER #80 @ $3DE0 - STRING #80 @ $5202
+#W32($3DE0)
+//残念だが、[NLINE]
+//持ち合わせが足りないようだね。[NLINE]
+//またのお越しを…。[END-FE]
+What a shame. It looks you you[NLINE]
+don't have enough money.[NLINE]
+Maybe some other time...[END-FE]
+
+
+
+
+
+//POINTER #81 @ $3DE4 - STRING #81 @ $5243
+#W32($3DE4)
+//そうかい。[END-FE]
+I see.[END-FE]
+
+
+
+
+
+//POINTER #82 @ $3DE8 - STRING #82 @ $5250
+#W32($3DE8)
+//この国が変わるのか…。[NLINE]
+//昔のように、暮らしやすい国に[NLINE]
+//なるとよいのう。[END-FE]
+So this country is going to change...[NLINE]
+I hope it will become a comfortable country[NLINE]
+to live in, just like before...[END-FE]
+
+
+
+
+
+//POINTER #83 @ $3DEC - STRING #83 @ $5299
+#W32($3DEC)
+//とうとうレジスタンスが[NLINE]
+//攻撃を開始したようじゃな…。[END-FE]
+It looks like the resistance has[NLINE]
+launched an attack at last...[END-FE]
+
+
+
+
+
+//POINTER #84 @ $3DF0 - STRING #84 @ $52D0
+#W32($3DF0)
+//歴史が変わろうとしているのかのぅ…。[END-FE]
+Is the course of history about to change...?[END-FE]
+
+
+
+
+
+//POINTER #85 @ $3DF4 - STRING #85 @ $52F7
+#W32($3DF4)
+//ここはヒンギスタン王城だ。[NLINE]
+//旅の者は、今は中には入れぬ。[END-FE]
+This is the royal castle of Hingistan.[NLINE]
+Travelers can't go inside right now.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $3DF8 - STRING #86 @ $5332
+#W32($3DF8)
+//ここはヒンギスタン王城だ。[NLINE]
+//中に忍び込もうなどと思うなよ。[END-FE]
+This is the royal castle of Hingistan.[NLINE]
+Don't try to sneak inside.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $3DFC - STRING #87 @ $536F
+#W32($3DFC)
+//みなさんのおかげで、[NLINE]
+//強敵ザフリードを倒すことができました。[NWIN]
+//
+//次は、自分たち国民が[NLINE]
+//国を良くしていきます。[END-FE]
+Thanks to you, we were able to defeat[NLINE]
+that tyrant Zafreed.[NWIN]
+
+Next, the citizens of Hingistan will[NLINE]
+begin improving this country.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3E00 - STRING #88 @ $53DC
+#W32($3E00)
+//マクスウェルはこの中だ！[END-FE]
+Maxwell is inside![END-FE]
+
+
+
+
+
+//POINTER #89 @ $3E04 - STRING #89 @ $53F7
+#W32($3E04)
+//この城は評議会の施設として[NLINE]
+//使われることになります。[END-FE]
+This castle will become the seat[NLINE]
+of the new council.[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3E08 - STRING #90 @ $542E
+#W32($3E08)
+//城門の確保は俺たちに任せろ！[END-FE]
+We'll secure the castle gate![END-FE]
+
+
+
+
+
+//POINTER #91 @ $3E0C - STRING #91 @ $544D
+#W32($3E0C)
+//おおっ！[NLINE]
+//それはまさしく[COL01]ナトンの実[COL00]！[NLINE]
+//私の持つ、貴重なジェムと交換してくれないか？[END-FE]
+Ooh![NLINE]
+That's without a doubt a piece of[NLINE]
+[COL01]Naton Fruit[COL00]![NLINE]
+Would you like to trade it for my[NLINE]
+valueable gem?[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3E10 - STRING #92 @ $54A8
+#W32($3E10)
+//・交換する[END-FE]
+・Trade[END-FE]
+
+
+
+
+
+//POINTER #93 @ $3E14 - STRING #93 @ $54B5
+#W32($3E14)
+//・交換しない[END-FE]
+・Don't trade[END-FE]
+
+
+
+
+
+//POINTER #94 @ $3E18 - STRING #94 @ $54C4
+#W32($3E18)
+//ありがとう！[NLINE]
+//これをあげよう！[NWIN]
+//
+//この[COL01]浸透剄・改[COL00]は、[NLINE]
+//本来１００００Ыもする物だよ！[END-FE]
+Thank you! Here![NWIN]
+
+This [COL01]Mega Penetrator Gem[COL00] is[NLINE]
+worth 10,000Ы![END-FE]
+
+
+
+
+
+//POINTER #95 @ $3E1C - STRING #95 @ $551F
+#W32($3E1C)
+//　[NLINE]
+//[COL01]ナトンの実[COL00]と[COL01]浸透剄・改[COL00]を交換した！[NLINE]
+//　[END-FE]
+[NLINE]
+You traded [COL01]Naton Fruit[COL00] for [COL01]Mega Penetrator Gem[COL00]![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #96 @ $3E20 - STRING #96 @ $5558
+#W32($3E20)
+//…おお、モチモチしたこの食感…！[NLINE]
+//まさに伝説の味覚!![END-FE]
+...Oh, this soft and chewy texture...![NLINE]
+The taste is nothing less than legendary![END-FE]
+
+
+
+
+
+//POINTER #97 @ $3E24 - STRING #97 @ $558F
+#W32($3E24)
+//この[COL01]浸透剄・改[COL00]は、[NLINE]
+//本来１００００Ыもする物なのに…。[END-FE]
+Too bad, this [COL01]Mega Penetrator Gem[COL00] is[NLINE]
+worth 10,000Ы...[END-FE]
+
+
+
+
+
+//POINTER #98 @ $3E28 - STRING #98 @ $55CE
+#W32($3E28)
+//なに、まだナトンの実を持っている!?[NLINE]
+//ということは、普通に手にはいるのだな！[NLINE]
+//よし、自分で探してみるか！[END-FE]
+What!? You have another Naton Fruit!?[NLINE]
+That means it can be acquired through[NLINE]
+normal means! Alright, I'll try searching[NLINE]
+for it myself![END-FE]
+
+
+
+
+
+//POINTER #99 @ $3E2C - STRING #99 @ $5637
+#W32($3E2C)
+//お客さん！[NLINE]
+//お部屋のご利用でしたら、[NLINE]
+//こちらで承ります。[END-FE]
+Excuse me, sir![NLINE]
+If you would like to book a room, please[NLINE]
+head on over to the reception desk.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $3E30 - STRING #100 @ $5672
+#W32($3E30)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $3E34 - STRING #101 @ $5687
+#W32($3E34)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #102 @ $3E38 - STRING #102 @ $5694
+#W32($3E38)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #103 @ $3E3C - STRING #103 @ $56A1
+#W32($3E3C)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #104 @ $3E40 - STRING #104 @ $56B0
+#W32($3E40)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #105 @ $3E44 - STRING #105 @ $56C1
+#W32($3E44)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #106 @ $3E48 - STRING #106 @ $56D6
+#W32($3E48)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になられますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #107 @ $3E4C - STRING #107 @ $5704
+#W32($3E4C)
+//ご記録もとられますか？[END-FE]
+//Inn clerk\\
+Would you like to sign our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #108 @ $3E50 - STRING #108 @ $571D
+#W32($3E50)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #109 @ $3E54 - STRING #109 @ $5742
+#W32($3E54)
+//……[COL09][TEAR-DROP][COL00][NLINE]
+//誠に申しわけありませんが[NLINE]
+//代金が足りておりません…。[END-FE]
+//Inn clerk\\
+...[COL09][TEAR-DROP][COL00][NLINE]
+I'm very sorry but it appears you[NLINE]
+don't have enough money...[END-FE]
+
+
+
+
+
+//POINTER #110 @ $3E58 - STRING #110 @ $5787
+#W32($3E58)
+//もうお休みになられますか？[END-FE]
+Will you already go to bed?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $3E5C - STRING #111 @ $57A4
+#W32($3E5C)
+//では、ごゆっくり…。[END-FE]
+Sleep well...[END-FE]
+
+
+
+
+
+//POINTER #112 @ $3E60 - STRING #112 @ $57BB
+#W32($3E60)
+//エル・ヒンギス[END-FE]
+El Hingis[END-FE]
+
+
+
+
+
+//POINTER #113 @ $3E64 - STRING #113 @ $57CC
+#W32($3E64)
+//Ｄ　エル・ヒンギス[END-FE]
+D El Hingis[END-FE]
+
+
+
+
+
+//POINTER #114 @ $3E68 - STRING #114 @ $57E1
+#W32($3E68)
+//ヒンギスタンの革命も成功し、[NLINE]
+//間もなくフォメロスも兵を引き上げるでしょう。[NLINE]
+//いよいよ龍穴塔の攻略段階に入りますね。[END-FE]
+The revolution is Hingistan has been a success,[NLINE]
+and soon, Fomeros will withdraw its troops.[NLINE]
+It is finally time to capture the Ley Point[NLINE]
+Towers.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $3E6C - STRING #115 @ $5856
+#W32($3E6C)
+//い、いよいよ龍穴塔の攻略段階ね。[NLINE]
+//お守りは役立っているかしら？[END-FE]
+I-it is finally time to capture the Ley Point[NLINE]
+Towers. Could it be that my talisman helped[NLINE]
+us?[END-FE]
+
+
+
+
+
+//POINTER #116 @ $3E70 - STRING #116 @ $5897
+#W32($3E70)
+//[CHAR6200][V0B00]
+//どうぞ、こちらへ…。[END-FE]
+[CHAR6200][V0B00]
+Please come this way...[END-FE]
+
+
+
+
+
+//POINTER #117 @ $3E74 - STRING #117 @ $58B6
+#W32($3E74)
+//もう誰も中にはいませんよ？[END-FE]
+There's no one inside anymore.[END-FE]
+
+
+
+
+
+//POINTER #118 @ $3E78 - STRING #118 @ $58D3
+#W32($3E78)
+//おはよう！[NLINE]
+//それじゃ、マキナスに戻りましょう！[END-FE]
+Good morning! Alright, let's[NLINE]
+return to Makinus![END-FE]
+
+
+
+
+
+//POINTER #119 @ $3E7C - STRING #119 @ $5904
+#W32($3E7C)
+//　[NLINE]
+//お部屋、すぐに用意出来ます。[NLINE]
+//[COL05]～休息のお客様もお気軽にどうぞ～[COL00][NLINE]
+//　[END-FE]
+//System Message\\
+[NLINE]
+We can prepare a room for you immediately.[NLINE]
+[COL05]Why don't you rest here for a while?[COL00][NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #120 @ $3E80 - STRING #120 @ $5953
+#W32($3E80)
+//[CHAR6200][V0C00]
+//おお、来てくれたか。[NLINE]
+//フォメロスの方はうまく行ったようだな。[END-FE]
+[CHAR6200][V0C00]
+Ah, you came. I heard that everything[NLINE]
+went well in Fomeros.[END-FE]
+
+
+
+
+
+//POINTER #121 @ $3E84 - STRING #121 @ $599A
+#W32($3E84)
+//[CHAR6200][V0D00]
+//はい、ホフマンさんの容疑も晴れ、[NLINE]
+//物資横流しの真犯人も捕らえました。[END-FE]
+[CHAR6200][V0D00]
+Yes, Hofman has been cleared of[NLINE]
+suspicion and the culprit behind[NLINE]
+the embezzlement has been apprehended.[END-FE]
+
+
+
+
+
+//POINTER #122 @ $3E88 - STRING #122 @ $59E9
+#W32($3E88)
+//[CHAR6200][V0E00]
+//それに、有事の際には[NLINE]
+//フォメロス軍にも協力してもらえそうだ。[END-FE]
+[CHAR6200][V0E00]
+The Fomerion army will lent us a[NLINE]
+hand in case of emergency.[END-FE]
+
+
+
+
+
+//POINTER #123 @ $3E8C - STRING #123 @ $5A30
+#W32($3E8C)
+//[CHAR6200][V0F00]
+//そうか、順調だな。[NLINE]
+//あとは我々だけか。[END-FE]
+[CHAR6200][V0F00]
+I see, that's good.[NLINE]
+Now all that remains is the[NLINE]
+matter in my country.[END-FE]
+
+
+
+
+
+//POINTER #124 @ $3E90 - STRING #124 @ $5A61
+#W32($3E90)
+//[CHAR6200][V1000]
+//こちらの状況を説明して、[NLINE]
+//マクスウェル。[END-FE]
+[CHAR6200][V1000]
+Please explain the situation,[NLINE]
+Maxwell.[END-FE]
+
+
+
+
+
+//POINTER #125 @ $3E94 - STRING #125 @ $5A94
+#W32($3E94)
+//[CHAR6200][V1100]
+//そうだな。[NWIN]
+//
+//[CHAR6200][V1200]
+//現在ザフリードは[NLINE]
+//城の守りを固めて警戒している。[NWIN]
+//
+//[CHAR6200][V1300]
+//このまま突入しても、[NLINE]
+//ムダに死者が出るだけだ。[NLINE]
+//そこで陽動をかけることにした。[NWIN]
+//
+//[CHAR6200][V1400]
+//ウェンディがジアント山の基地に[NLINE]
+//襲撃をかける手はずになっている。[NLINE]
+//君たちは、まずそちらに参加してくれ。[NWIN]
+//
+//[CHAR6200][V1500]
+//そちらで騒ぎを起こせば、[NLINE]
+//城の兵が増援に向かう。[NLINE]
+//そのスキに、私たちが城の門を制圧する。[END-FE]
+[CHAR6200][V1100]
+Right.[NWIN]
+
+[CHAR6200][V1200]
+Currently, Zafreed is on his guard[NLINE]
+and has the castle strongly defended.[NWIN]
+
+[CHAR6200][V1300]
+If we stormed the castle now,[NLINE]
+we would only take unnecessary[NLINE]
+casualties. So we've decided to[NLINE]
+create a diversion.[NWIN]
+
+[CHAR6200][V1400]
+Wendy is conducting an attack[NLINE]
+on the base on Jiant Mountain.[NLINE]
+Please participate in the battle.[NLINE]
+there first.[NWIN]
+
+[CHAR6200][V1500]
+If you cause enough of a stir there,[NLINE]
+reinforcements from the castle[NLINE]
+will come. When that happens, we'll[NLINE]
+gain control of the castle gate.[END-FE]
+
+
+
+
+
+//POINTER #126 @ $3E98 - STRING #126 @ $5C0D
+#W32($3E98)
+//[CHAR6200][V1600]
+//城の兵士を[NLINE]
+//ジアント山に集中させるわけだな。[END-FE]
+[CHAR6200][V1600]
+Because then the castle soldiers will[NLINE]
+be focused on Jiant Mountain.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $3E9C - STRING #127 @ $5C44
+#W32($3E9C)
+//[CHAR6200][V1700]
+//ああ、だがその作戦が成功したら、[NLINE]
+//君たちにはザフリードとの決戦にも[NLINE]
+//参加して欲しい。[NWIN]
+//
+//[CHAR6200][V1800]
+//ザフリードはヒンギスタンでも一番の[NLINE]
+//魔法使いだ。[NLINE]
+//レジスタンスのメンバーでは歯が立たない。[END-FE]
+[CHAR6200][V1700]
+Yes. However, once the plan[NLINE]
+succeeds, we also want you[NLINE]
+to participate in the battle[NLINE]
+with Zafreed.[NWIN]
+
+[CHAR6200][V1800]
+Zafreed is the most powerful[NLINE]
+magic user in Hingistan.[NLINE]
+Resistance members are no match[NLINE]
+for him.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $3EA0 - STRING #128 @ $5D07
+#W32($3EA0)
+//[CHAR6200][V1900]
+//ジアント山で戦って、[NLINE]
+//その後ここへ…。[NLINE]
+//間に合うでしょうか？[END-FE]
+[CHAR6200][V1900]
+Fighting at Jiant Mountain and[NLINE]
+then come back here...[NLINE]
+Will there be enough time?[END-FE]
+
+
+
+
+
+//POINTER #129 @ $3EA4 - STRING #129 @ $5D4E
+#W32($3EA4)
+//[CHAR6200][V1A00]
+//君たちは[COL01]トランス・ゲート[COL00]が使えたはずだ。[NLINE]
+//シザーズ村から一気にここに戻り、[NLINE]
+//城の攻略に参加して欲しい。[NWIN]
+//
+//[CHAR6200][V1B00]
+//力とスピードが重要な作戦だ。[NLINE]
+//君たちにしか出来ないだろう。[NLINE]
+//頼む。[END-FE]
+[CHAR6200][V1A00]
+You have been able to use [COL01]Transgates[COL00].[NLINE]
+Return here at once from Schizarz and[NLINE]
+participate in the capture of the castle.[NWIN]
+
+[CHAR6200][V1B00]
+It's a plan for which we need[NLINE]
+strength and speed. Only you[NLINE]
+are up to it. I'm counting on you.[END-FE]
+
+
+
+
+
+//POINTER #130 @ $3EA8 - STRING #130 @ $5E11
+#W32($3EA8)
+//[CHAR6200][V1C00]
+//もう一度、作戦を説明しようか？[END-FE]
+[CHAR6200][V1C00]
+Would you like me to explain our[NLINE]
+strategy again?[END-FE]
+
+
+
+
+
+//POINTER #131 @ $3EAC - STRING #131 @ $5E3A
+#W32($3EAC)
+//[CHAR6200][V1D00]
+//ウェンディと合流し、ジアント山基地を攻撃。[NLINE]
+//エル・ヒンギスの兵士を増援に引っ張り出す。[NLINE]
+//作戦が成功したら、君たちはここに戻り、[NLINE]
+//城のザフリードとの決戦に参加してくれ。[END-FE]
+[CHAR6200][V1D00]
+Meet up with Wendy and attack the base[NLINE]
+at Jiant Mountain. That will cause[NLINE]
+reinforcements to be sent from El[NLINE]
+Hingis. If the operation is succesful,[NLINE]
+return here and join us in the[NLINE]
+final battle against Zafreed at the[NLINE]
+castle.[END-FE]
+
+
+
+
+
+//POINTER #132 @ $3EB0 - STRING #132 @ $5EEB
+#W32($3EB0)
+//[CHAR6200][V1E00]
+//この作戦はトランス・ゲートを使える[NLINE]
+//君たちだから出来るものだ。[NLINE]
+//頼む。[END-FE]
+[CHAR6200][V1E00]
+Because you're able to use Trans Gates,[NLINE]
+you're the only ones who can pull off[NLINE]
+this strategy. I'm counting on you.[END-FE]
+
+
+
+
+
+//POINTER #133 @ $3EB4 - STRING #133 @ $5F3C
+#W32($3EB4)
+//ウェンディ様はジアント山で作戦行動中だ。[NLINE]
+//早く合流してくれ。[END-FE]
+Wendy is carrying out a millitary[NLINE]
+operation at Jiant Mountain.[NLINE]
+Hurry and meet up with her.[END-FE]
+
+
+
+
+
+//POINTER #134 @ $3EB8 - STRING #134 @ $5F7B
+#W32($3EB8)
+//ジアント山での作戦は[NLINE]
+//上手く行ったようですな！[NWIN]
+//
+//兵士が城を出るタイミングで[NLINE]
+//奇襲が成功しましたよ！[NWIN]
+//
+//後は城内のザフリードを[NLINE]
+//捕らえるだけです！[END-FE]
+The operation at Jiant Mountain[NLINE]
+seems to have gone well![NWIN]
+
+The suprise attack we carried out[NLINE]
+after the soldiers left the castle[NLINE]
+was successful![NWIN]
+
+All we have to do now is capture[NLINE]
+Zafreed in the castle![END-FE]
+
+
+
+
+
+//POINTER #135 @ $3EBC - STRING #135 @ $600C
+#W32($3EBC)
+//ベッドで休みますか？[END-FE]
+Will you rest on the beed?[END-FE]
+
+
+
+
+
+//POINTER #136 @ $3EC0 - STRING #136 @ $6023
+#W32($3EC0)
+//　[NLINE]
+//先ほどまで寝ていたベッドだ。[END-FE]
+[NLINE]
+It's the bed you were sleeping on[NLINE]
+earlier.[END-FE]
+
+
+
+
+
+//POINTER #137 @ $3EC4 - STRING #137 @ $6046
+#W32($3EC4)
+//　[NLINE]
+//休むなら、自分の部屋をとるべきだ。[NLINE]
+//　[END-FE]
+[NLINE]
+If you want to rest, you should[NLINE]
+do so in your own room.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #138 @ $3EC8 - STRING #138 @ $6073
+#W32($3EC8)
+//城内は革命評議会の施設として[NLINE]
+//再利用される予定です。[END-FE]
+The castle will be repurposed as the[NLINE]
+seat of the Revolutionary Council.[END-FE]
+
+
+
+
+
+//POINTER #139 @ $3ECC - STRING #139 @ $60AA
+#W32($3ECC)
+//革命が成功したのも[NLINE]
+//みなさんのおかげです。[END-FE]
+It's thanks to you that the revolution[NLINE]
+has been a success.[END-FE]
+
+
+
+
+
+//POINTER #140 @ $3ED0 - STRING #140 @ $60D7
+#W32($3ED0)
+//明日からは、頭を切り換えて、[NLINE]
+//これからのことに集中しないとね。[END-FE]
+Starting from tomorrow, I'll have[NLINE]
+to switch gears and concentrate on[NLINE]
+the future.[END-FE]
+
+
+
+

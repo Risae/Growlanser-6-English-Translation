@@ -1,0 +1,285 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $160, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($160)
+#HDR($160)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $160
+#W32($A0)
+//ファイアアロー[END-FF]
+Fire Arrow[END-FF]
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $171
+#W32($A4)
+//アイスバレット[END-FF]
+Ice Barrage[END-FF]
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $182
+#W32($A8)
+//サンドショット[END-FF]
+Sand Shot[END-FF]
+
+
+//POINTER #3 @ $AC - STRING #3 @ $193
+#W32($AC)
+//ウィンドエッジ[END-FF]
+Wind Edge[END-FF]
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $1A4
+#W32($B0)
+//ブラスト[END-FF]
+Blast[END-FF]
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $1AF
+#W32($B4)
+//ＭＰドレイン[END-FF]
+Magic Vortex[END-FF]
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $1BE
+#W32($B8)
+//サンダーボルト[END-FF]
+Thunderbolt[END-FF]
+
+
+//POINTER #7 @ $BC - STRING #7 @ $1CF
+#W32($BC)
+//ブリザード[END-FF]
+Blizzard[END-FF]
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $1DC
+#W32($C0)
+//フレア[END-FF]
+Flare[END-FF]
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $1E5
+#W32($C4)
+//ホーリークロス[END-FF]
+Holy Cross[END-FF]
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $1F6
+#W32($C8)
+//デスクラウド[END-FF]
+Death Cloud[END-FF]
+
+
+//POINTER #11 @ $CC - STRING #11 @ $205
+#W32($CC)
+//サンダーストーム[END-FF]
+Thunder Storm[END-FF]
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $218
+#W32($D0)
+//ソニックウェーブ[END-FF]
+Sonic Wave[END-FF]
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $22B
+#W32($D4)
+//アースクエイク[END-FF]
+Earthquake[END-FF]
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $23C
+#W32($D8)
+//メテオ[END-FF]
+Meteor[END-FF]
+
+
+//POINTER #15 @ $DC - STRING #15 @ $245
+#W32($DC)
+//スリープ[END-FF]
+Sleep[END-FF]
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $250
+#W32($E0)
+//サイレンス[END-FF]
+Silence[END-FF]
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $25D
+#W32($E4)
+//サイクルダウン[END-FF]
+Cycle Down[END-FF]
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $26E
+#W32($E8)
+//バインド[END-FF]
+Bind[END-FF]
+
+
+//POINTER #19 @ $EC - STRING #19 @ $279
+#W32($EC)
+//ルスト[END-FF]
+Rust[END-FF]
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $282
+#W32($F0)
+//ウィーケン[END-FF]
+Atrophy[END-FF]
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $28F
+#W32($F4)
+//フィア[END-FF]
+Fear[END-FF]
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $298
+#W32($F8)
+//アタック[END-FF]
+Attack Up[END-FF]
+
+
+//POINTER #23 @ $FC - STRING #23 @ $2A3
+#W32($FC)
+//プロテクト[END-FF]
+Protect[END-FF]
+
+
+//POINTER #24 @ $100 - STRING #24 @ $2B0
+#W32($100)
+//レジスト[END-FF]
+Resist[END-FF]
+
+
+//POINTER #25 @ $104 - STRING #25 @ $2BB
+#W32($104)
+//サイクルアップ[END-FF]
+Cycle Up[END-FF]
+
+
+//POINTER #26 @ $108 - STRING #26 @ $2CC
+#W32($108)
+//キュア[END-FF]
+Cure[END-FF]
+
+
+//POINTER #27 @ $10C - STRING #27 @ $2D5
+#W32($10C)
+//ヒーリング[END-FF]
+Heal[END-FF]
+
+
+//POINTER #28 @ $110 - STRING #28 @ $2E2
+#W32($110)
+//ファイン[END-FF]
+Remedy[END-FF]
+
+
+//POINTER #29 @ $114 - STRING #29 @ $2ED
+#W32($114)
+//レイズ[END-FF]
+Raise[END-FF]
+
+
+//POINTER #30 @ $118 - STRING #30 @ $2F6
+#W32($118)
+//グローキュア[END-FF]
+Grow-Cure[END-FF]
+
+
+//POINTER #31 @ $11C - STRING #31 @ $305
+#W32($11C)
+//グローヒーリング[END-FF]
+Grow-Heal[END-FF]
+
+
+//POINTER #32 @ $120 - STRING #32 @ $318
+#W32($120)
+//グローファイン[END-FF]
+Grow-Remedy[END-FF]
+
+
+//POINTER #33 @ $124 - STRING #33 @ $329
+#W32($124)
+//リターン[END-FF]
+Escape[END-FF]
+
+
+//POINTER #34 @ $128 - STRING #34 @ $334
+#W32($128)
+//テレポート[END-FF]
+Teleport[END-FF]
+
+
+//POINTER #35 @ $12C - STRING #35 @ $341
+#W32($12C)
+//テ２[END-FF]
+T2[END-FF]
+
+
+//POINTER #36 @ $130 - STRING #36 @ $348
+#W32($130)
+//ウェイクデッド[END-FF]
+Necromancy[END-FF]
+
+
+//POINTER #37 @ $134 - STRING #37 @ $359
+#W32($134)
+//ドレインストーム[END-FF]
+Draining Storm[END-FF]
+
+
+//POINTER #38 @ $138 - STRING #38 @ $36C
+#W32($138)
+//ソニックイレーザ[END-FF]
+Sonic Laser[END-FF]
+
+
+//POINTER #39 @ $13C - STRING #39 @ $37F
+#W32($13C)
+//ソニックイレーザ[END-FF]
+Sonic Laser[END-FF]
+
+
+//POINTER #40 @ $140 - STRING #40 @ $392
+#W32($140)
+//生体放電撃[END-FF]
+Spark Discharge[END-FF]
+
+
+//POINTER #41 @ $144 - STRING #41 @ $39F
+#W32($144)
+//バーストライン[END-FF]
+Burst Laser[END-FF]
+
+
+//POINTER #42 @ $148 - STRING #42 @ $3B0
+#W32($148)
+//遠吠え[END-FF]
+Howling[END-FF]
+
+
+//POINTER #43 @ $14C - STRING #43 @ $3B9
+#W32($14C)
+//脱出[END-FF]
+Escape[END-FF]
+
+
+//POINTER #44 @ $150 - STRING #44 @ $3C0
+#W32($150)
+//ヒュプノス[END-FF]
+Hypnos[END-FF]

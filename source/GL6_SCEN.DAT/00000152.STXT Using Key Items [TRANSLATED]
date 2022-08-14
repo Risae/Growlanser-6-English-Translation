@@ -1,0 +1,646 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $1F0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($1F0)
+#HDR($1F0)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $1F0
+#W32($A0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $203
+#W32($A4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $216
+#W32($A8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $229
+#W32($AC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $23C
+#W32($B0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $24F
+#W32($B4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $262
+#W32($B8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $275
+#W32($BC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $288
+#W32($C0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $29B
+#W32($C4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $2AE
+#W32($C8)
+//反応値は１００に満たない。[NLINE]
+//目的の物はこの辺りにはなさそうだ。[END-FF]
+The reaction value is less than 100.[NLINE]
+There seems to be no object in this area.[END-FF]
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $2EF
+#W32($CC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $302
+#W32($D0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $315
+#W32($D4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $328
+#W32($D8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #15 @ $DC - STRING #15 @ $33B
+#W32($DC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $34E
+#W32($E0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $361
+#W32($E4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $374
+#W32($E8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #19 @ $EC - STRING #19 @ $387
+#W32($EC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $39A
+#W32($F0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $3AD
+#W32($F4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $3C0
+#W32($F8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #23 @ $FC - STRING #23 @ $3D3
+#W32($FC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #24 @ $100 - STRING #24 @ $3E6
+#W32($100)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #25 @ $104 - STRING #25 @ $3F9
+#W32($104)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #26 @ $108 - STRING #26 @ $40C
+#W32($108)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #27 @ $10C - STRING #27 @ $41F
+#W32($10C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #28 @ $110 - STRING #28 @ $432
+#W32($110)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #29 @ $114 - STRING #29 @ $445
+#W32($114)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #30 @ $118 - STRING #30 @ $458
+#W32($118)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #31 @ $11C - STRING #31 @ $46B
+#W32($11C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #32 @ $120 - STRING #32 @ $47E
+#W32($120)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #33 @ $124 - STRING #33 @ $491
+#W32($124)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #34 @ $128 - STRING #34 @ $4A4
+#W32($128)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #35 @ $12C - STRING #35 @ $4B7
+#W32($12C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #36 @ $130 - STRING #36 @ $4CA
+#W32($130)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #37 @ $134 - STRING #37 @ $4DD
+#W32($134)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #38 @ $138 - STRING #38 @ $4F0
+#W32($138)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+
+//POINTER #39 @ $13C - STRING #39 @ $503
+#W32($13C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #40 @ $140 - STRING #40 @ $516
+#W32($140)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #41 @ $144 - STRING #41 @ $529
+#W32($144)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #42 @ $148 - STRING #42 @ $53C
+#W32($148)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #43 @ $14C - STRING #43 @ $54F
+#W32($14C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #44 @ $150 - STRING #44 @ $562
+#W32($150)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #45 @ $154 - STRING #45 @ $575
+#W32($154)
+//この手紙を読んでいるということは、　　　　　[NLINE]
+//君たちも無事に脱出出来たらしいね。　　　　　[NLINE]
+//君たちのおかげで、我が軍の兵が砲撃を　　　　[NLINE]
+//受けずにすんだよ。本当に良かった！　　　　　[NLINE]
+//あの後、私はまっすぐレイスタンに戻ってきた　[NLINE]
+//のだけれど、途中で兵に見つかってしまってね、[NLINE]
+//君たちの帰りを待つ時間はなさそうだ。　　　　[NLINE]
+//手紙を残すだけとなった無礼を許して欲しい。　[NLINE]
+//本当にありがとう。　　　　　　　　　　　　　[NLINE]
+//しばらくどこかに身を隠すことにするよ。　　　[NLINE]
+//君たちとは、またどこかで出会える気がする。　[NLINE]
+//再会出来たら、その時改めて礼を言わせて貰う。[NLINE]
+//それまで、お元気で！　　　　　～ホフマン～　[NLINE]
+//　[NLINE]
+//　[NLINE]
+//[END-FF]
+The fact that you are reading this[NLINE]
+letter means that you must have[NLINE]
+escaped safely. Thanks to you my[NLINE]
+country's soldiers weren't shot by[NLINE]
+the cannon. What good news![NLINE]
+After that, I returned straight to[NLINE]
+Leystan, but on the way I was found[NLINE]
+by soldiers, and I don't have time[NLINE]
+to wait for your return. Please[NLINE]
+forgive the fact that I could only[NLINE]
+leave you a letter. Thank you very[NLINE]
+much. I will hide myself for a little[NLINE]
+while. I think we will meet again[NLINE]
+somewhere. After we meet again, let[NLINE]
+me thank you properly.[NLINE]
+Until then, take care! ~Hofman~[END-FF]
+
+
+
+//POINTER #46 @ $158 - STRING #46 @ $7D6
+#W32($158)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #47 @ $15C - STRING #47 @ $7E9
+#W32($15C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #48 @ $160 - STRING #48 @ $7FC
+#W32($160)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #49 @ $164 - STRING #49 @ $80F
+#W32($164)
+//Entrust your will to this medal[NLINE]
+//and take it to a person you[NLINE]
+//know can be trusted.[NLINE]
+//（あなたの想いをこのメダルに注ぎなさい。[NLINE]
+//　そして信頼できる者に託しなさい。）[END-FF]
+Invest your will in this medal[NLINE]
+and take it to a person you[NLINE]
+know can be trusted.[NLINE][END-FF]
+
+
+
+//POINTER #50 @ $168 - STRING #50 @ $8B4
+#W32($168)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #51 @ $16C - STRING #51 @ $8C7
+#W32($16C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #52 @ $170 - STRING #52 @ $8DA
+#W32($170)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #53 @ $174 - STRING #53 @ $8ED
+#W32($174)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #54 @ $178 - STRING #54 @ $900
+#W32($178)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #55 @ $17C - STRING #55 @ $913
+#W32($17C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #56 @ $180 - STRING #56 @ $926
+#W32($180)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #57 @ $184 - STRING #57 @ $939
+#W32($184)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #58 @ $188 - STRING #58 @ $94C
+#W32($188)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+
+//POINTER #59 @ $18C - STRING #59 @ $95F
+#W32($18C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #60 @ $190 - STRING #60 @ $972
+#W32($190)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #61 @ $194 - STRING #61 @ $985
+#W32($194)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #62 @ $198 - STRING #62 @ $998
+#W32($198)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #63 @ $19C - STRING #63 @ $9AB
+#W32($19C)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #64 @ $1A0 - STRING #64 @ $9BE
+#W32($1A0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #65 @ $1A4 - STRING #65 @ $9D1
+#W32($1A4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #66 @ $1A8 - STRING #66 @ $9E4
+#W32($1A8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+
+//POINTER #67 @ $1AC - STRING #67 @ $9F7
+#W32($1AC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #68 @ $1B0 - STRING #68 @ $A0A
+#W32($1B0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #69 @ $1B4 - STRING #69 @ $A1D
+#W32($1B4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #70 @ $1B8 - STRING #70 @ $A30
+#W32($1B8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+
+//POINTER #71 @ $1BC - STRING #71 @ $A43
+#W32($1BC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #72 @ $1C0 - STRING #72 @ $A56
+#W32($1C0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #73 @ $1C4 - STRING #73 @ $A69
+#W32($1C4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #74 @ $1C8 - STRING #74 @ $A7C
+#W32($1C8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #75 @ $1CC - STRING #75 @ $A8F
+#W32($1CC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #76 @ $1D0 - STRING #76 @ $AA2
+#W32($1D0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #77 @ $1D4 - STRING #77 @ $AB5
+#W32($1D4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #78 @ $1D8 - STRING #78 @ $AC8
+#W32($1D8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #79 @ $1DC - STRING #79 @ $ADB
+#W32($1DC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+
+//POINTER #80 @ $1E0 - STRING #80 @ $AEE
+#W32($1E0)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #81 @ $1E4 - STRING #81 @ $B01
+#W32($1E4)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #82 @ $1E8 - STRING #82 @ $B14
+#W32($1E8)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]
+
+
+
+//POINTER #83 @ $1EC - STRING #83 @ $B27
+#W32($1EC)
+//今は使えません。[END-FF]
+This can't be used right now.[END-FF]

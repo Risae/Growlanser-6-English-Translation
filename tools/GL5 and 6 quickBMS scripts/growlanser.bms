@@ -1,0 +1,82 @@
+#Growlanser .dat script
+#just use on raw files
+#Script by Shokoniraya
+
+get SIGNATURE long #FLK\x00
+get UNKNOW_1 short
+get UNKNOW_FLAG short #bit dept for something or a table offset?
+get HEADER_FLAG long #it tell us file used as a package or raw size?
+get PADDING_NUMBER long
+get UNKNOW_2 long
+get TOTAL_ARCHIVE_SIZE long #size of current file
+
+get FILES_COUNT long
+get UNKNOW_3 long #a flag or maximum header size that game can handle it?
+
+
+string FILE_EXTENSION = ""
+math SLOT_COUNT = 0
+for i = 0 < FILES_COUNT
+putarray 1 SLOT_COUNT FILE_EXTENSION
+math SLOT_COUNT + 1
+next i
+
+savepos TABLE_OFFSET
+xmath TABLE_SIZE "FILES_COUNT * 8"
+goto TABLE_SIZE 0 SEEK_CUR
+
+do
+get START_COUNT short
+get EXTENSION_RATE short
+get NULL long
+getdstring FILE_EXTENSION 8
+
+math EXTENSION_COUNT = START_COUNT
+for e = 0 < EXTENSION_RATE
+putarray 1 EXTENSION_COUNT FILE_EXTENSION
+math EXTENSION_COUNT + 1
+next e
+
+while FILE_EXTENSION != ""
+
+math NUMBERIC_COUNT = 0
+goto TABLE_OFFSET
+for i = 0 < FILES_COUNT
+string NUMBERIC_COUNT_STRING = ""
+string NUMBERIC_COUNT_STRING + NUMBERIC_COUNT
+string ZERO_NUMBERIC = "00000000"
+strlen NUMBERIC_COUNT_LENGTH NUMBERIC_COUNT_STRING
+string ZERO_NUMBERIC - NUMBERIC_COUNT_LENGTH
+string ZERO_NUMBERIC + NUMBERIC_COUNT
+getarray FILE_EXTENSION 1 NUMBERIC_COUNT
+
+get FILE_OFFSET long #padded to PADDING_NUMBER. if PADDING_NUMBER is 0, then it padded to 2048
+if PADDING_NUMBER = 0
+math PADDING_NUMBER = 2048
+endif
+
+math TEST_OFFSET = FILE_OFFSET
+math TEST_OFFSET x PADDING_NUMBER
+
+if TEST_OFFSET = FILE_OFFSET
+math FILE_OFFSET x PADDING_NUMBER
+endif
+
+get FILE_SIZE long
+
+string FILE_NAME = ""
+string FILE_NAME + ZERO_NUMBERIC
+string FILE_NAME + "."
+string FILE_NAME + FILE_EXTENSION
+
+log FILE_NAME FILE_OFFSET FILE_SIZE
+
+
+savepos CHECKPOINT
+goto 20
+get ARCHIVE_SIZE asize
+put ARCHIVE_SIZE long
+goto CHECKPOINT
+
+math NUMBERIC_COUNT + 1
+next i

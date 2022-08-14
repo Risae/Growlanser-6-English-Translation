@@ -1,0 +1,593 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $740, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $6A0, 4, PTR)
+
+#JMP($740)
+#HDR($740)
+
+
+
+
+
+//POINTER #0 @ $6A0 - STRING #0 @ $740
+#W32($6A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $6A4 - STRING #1 @ $743
+#W32($6A4)
+//冒険は男のロマンじゃ。[NLINE]
+//あんたがうらやましいわい。[NWIN]
+//
+//ワシも第二の人生を探す旅に出たいのぅ。[END-FE]
+Going on an adventure is every man's dream.[NLINE]
+I envy you.[NWIN]
+
+Oh, how I wish I could spend my golden[NLINE]
+years as an adventurer.[END-FE]
+
+
+
+
+
+//POINTER #2 @ $6A8 - STRING #2 @ $7A0
+#W32($6A8)
+//[CHAR2303][V1000]
+//勇者様、どうして私は妖精なのでしょう？[NLINE]
+//皆様と同じ人間だったら良かったのに…。[END-FE]
+[CHAR2303][V1000]
+Brave One, why am I a fairy?[NLINE]
+If only I were human like[NLINE]
+everyone else...[END-FE]
+
+
+
+
+
+//POINTER #3 @ $6AC - STRING #3 @ $7F9
+#W32($6AC)
+//・人間ならば、時を越えられない[END-FE]
+・If you were human, we wouldn't be[NLINE]
+   able travel through time[END-FE]
+
+
+
+
+
+//POINTER #4 @ $6B0 - STRING #4 @ $81A
+#W32($6B0)
+//・ムダな考えだと突き放す[END-FE]
+・It's pointless to think about[END-FE]
+
+
+
+
+
+//POINTER #5 @ $6B4 - STRING #5 @ $835
+#W32($6B4)
+//・人間だったらどうしたいのか聞く[END-FE]
+・What would you like to do if you were human?[END-FE]
+
+
+
+
+
+//POINTER #6 @ $6B8 - STRING #6 @ $858
+#W32($6B8)
+//[CHAR2303][V1100]
+//たしかにそうですね。[NLINE]
+//私の唯一の役目ですものね。[NWIN]
+//
+//[CH.FACE:Close-Eyes][CHAR2303][V1200]
+//それさえも出来なくなったら、[NLINE]
+//本当に役立たずです…。[END-FE]
+[CHAR2303][V1100]
+That's certainly true.[NLINE]
+It's my sole purpose.[NWIN]
+
+[CH.FACE:Close-Eyes][CHAR2303][V1200]
+If I couldn't even do that,[NLINE]
+I would be utterly useless...[END-FE]
+
+
+
+
+
+//POINTER #7 @ $6BC - STRING #7 @ $8D4
+#W32($6BC)
+//[CHAR2303][V1300]
+//それでも、もし人間だったらと[NLINE]
+//そう考えてしまうのです。[END-FE]
+[CHAR2303][V1300]
+Regardless, I couldn't keep myself from[NLINE]
+wondering about it.[END-FE]
+
+
+
+
+
+//POINTER #8 @ $6C0 - STRING #8 @ $915
+#W32($6C0)
+//[CHAR2303][V1400]
+//も、申し訳ありませんでした。[END-FE]
+[CHAR2303][V1400]
+M-my apologies.[END-FE]
+
+
+
+
+
+//POINTER #9 @ $6C4 - STRING #9 @ $93C
+#W32($6C4)
+//[CHAR2303][V1500]
+//それは決まっています！[NWIN]
+//
+//[CHAR2303][V1600]
+//みなさんと同じ様に勇者様をお助けします！[NLINE]
+//一緒に戦って、勇者様を守ることも出来ます！[END-FE]
+[CHAR2303][V1500]
+That's obvious![NWIN]
+
+[CHAR2303][V1600]
+I would help you like the others![NLINE]
+I could fight by your side and protect[NLINE]
+you![END-FE]
+
+
+
+
+
+//POINTER #10 @ $6C8 - STRING #10 @ $9BB
+#W32($6C8)
+//[CHAR2303][V1700]
+//それに…！[NLINE]
+//…いいえ、何でもありません…。[CH.FACE:Close-Eyes][END-FE]
+[CHAR2303][V1700]
+And...![NLINE]
+...No, never mind...[CH.FACE:Close-Eyes][END-FE]
+
+
+
+
+
+//POINTER #11 @ $6CC - STRING #11 @ $9F3
+#W32($6CC)
+//[CHAR2303][V1800]
+//おや、お前さんは妖精と旅をしているのかい？[NLINE]
+//それで世界を救うために戦っていたりしたら、[NLINE]
+//まるでグローランサーだな。[END-FE]
+[CHAR2303][V1800]
+Oh, you're traveling with a fairy?[NLINE]
+Then you're fighting to save the[NLINE]
+world, just like the Growlanser.[END-FE]
+
+
+
+
+
+//POINTER #12 @ $6D0 - STRING #12 @ $A70
+#W32($6D0)
+//[CHAR2303][V1900]
+//耳慣れない言葉かい？[NLINE]
+//最近では廃れてしまった物語じゃよ。[NWIN]
+//
+//[CHAR2303][V4700]
+//ワシが子供のころまでは普通に語られたが、[NLINE]
+//最近は流行らないのかねぇ…。[END-FE]
+[CHAR2303][V1900]
+You haven't heard of it? It's a[NLINE]
+mostly forgotten tale these days.[NWIN]
+
+[CHAR2303][V4700]
+It was commonly told when I was[NLINE]
+child, but it seems to have fallen[NLINE]
+out of fashion...[END-FE]
+
+
+
+
+
+//POINTER #13 @ $6D4 - STRING #13 @ $B03
+#W32($6D4)
+//[CHAR2303][V1A00]
+//その物語について[NLINE]
+//詳しく教えてもらえませんか？[END-FE]
+[CHAR2303][V1A00]
+Could you tell us more about[NLINE]
+this tale?[END-FE]
+
+
+
+
+
+//POINTER #14 @ $6D8 - STRING #14 @ $B3C
+#W32($6D8)
+//[CHAR2303][V1B00]
+//ある国に両の目の色が違う男がいた。[NLINE]
+//彼は将来、世界を救うか、[NLINE]
+//世界を滅ぼすという正反対の予言をされた。[NWIN]
+//
+//[CHAR2303][V4800]
+//そこでその国の名だたる魔女が、[NLINE]
+//男を見張るために[NLINE]
+//一人の妖精をつかわした。[NWIN]
+//
+//[CHAR2303][V4900]
+//男は旅をして、さまざまな仲間と出会い、[NLINE]
+//見事おのれに課された負の運命を打ち破り、[NLINE]
+//世界を平和に導いたという。[END-FE]
+[CHAR2303][V1B00]
+Once long ago in a certain land, there[NLINE]
+lived a man with odd-colored eyes. He[NLINE]
+received a prophecy that in the future,[NLINE]
+he would either save the world or destroy[NLINE]
+it.[NWIN]
+
+[CHAR2303][V4800]
+And so, a famous sorceress from that[NLINE]
+country sent a fairy in order to look[NLINE]
+after him.[NWIN]
+
+[CHAR2303][V4900]
+He went on a journey, met many[NLINE]
+allies, broke free from his ill-fated[NLINE]
+destiny, and led the world to peace.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $6DC - STRING #15 @ $C77
+#W32($6DC)
+//[CHAR2303][V1C00]
+//それで、その勇者様は[NLINE]
+//どうなったのですか？[END-FE]
+[CHAR2303][V1C00]
+What happened to that hero?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $6E0 - STRING #16 @ $CAC
+#W32($6E0)
+//[CHAR2303][V1D00]
+//実はこの物語の終わり方は[NLINE]
+//いくつも存在しているのじゃ。[NWIN]
+//
+//[CHAR2303][V4A00]
+//仲間の一人と、外の世界を目指したとか、[NLINE]
+//隣の国の女騎士と結ばれたとかな。[NWIN]
+//
+//[CHAR2303][V4B00]
+//そうそう、妖精と結ばれた[NLINE]
+//という終わり方もあったな。[END-FE]
+[CHAR2303][V1D00]
+The truth is that this tale has several[NLINE]
+different endings.[NWIN]
+
+[CHAR2303][V4A00]
+There's an ending in which he[NLINE]
+goes off exploring the outside[NLINE]
+world with one of his friends,[NLINE]
+and one in which he marries a[NLINE]
+female knight from a neighboring[NLINE]
+country.[NWIN]
+
+[CHAR2303][V4B00]
+Ah, yes, yes, there's also an ending[NLINE]
+in which he marries his fairy.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $6E4 - STRING #17 @ $D7D
+#W32($6E4)
+//[CHAR2303][V1E00]
+//妖精と勇者様が結ばれたのですか？[END-FE]
+[CHAR2303][V1E00]
+The fairy and the hero were[NLINE]
+married?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $6E8 - STRING #18 @ $DA8
+#W32($6E8)
+//[CHAR2303][V1F00]
+//妖精は魔女に頼んで人間になり、[NLINE]
+//勇者と結ばれた…だったかな？[NLINE]
+//とにかくいろいろな終わり方があるようじゃ。[NWIN]
+//
+//[CHAR2303][V4C00]
+//ワシの子供のころは、どの終わり方が好みか[NLINE]
+//みんなと話が弾んだものじゃよ…。[END-FE]
+[CHAR2303][V1F00]
+The fairy requested the sorceress to[NLINE]
+make her human, and afterwards, married[NLINE]
+the hero... Wasn't that what happened?[NLINE]
+In any case, there are several endedings.[NWIN]
+
+[CHAR2303][V4C00]
+When I was a child, we would all have[NLINE]
+lively conversations about the ending[NLINE]
+we liked most...[END-FE]
+
+
+
+
+
+//POINTER #19 @ $6EC - STRING #19 @ $E6F
+#W32($6EC)
+//[CHAR2303][V2000]
+//そんなお話があったのですね…。[NLINE]
+//そのお話を知るにはどうすれば良いでしょう？[END-FE]
+[CHAR2303][V2000]
+I see... Is there a way to learn[NLINE]
+more about this story?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $6F0 - STRING #20 @ $EC4
+#W32($6F0)
+//[CHAR2303][V2100]
+//今ではもう売っていないようじゃから、[NLINE]
+//あるとすれば古書で探すしかないだろうな。[END-FE]
+[CHAR2303][V2100]
+It's not sold anymore, so you'll[NLINE]
+have to look for old books.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $6F4 - STRING #21 @ $F1D
+#W32($6F4)
+//[CHAR2303][V2200]
+//そうですか、ちょっと残念です。[NLINE]
+//いろいろとありがとうございました。[END-FE]
+[CHAR2303][V2200]
+I see, that's a bit disappointing.[NLINE]
+Thank you very much.[END-FE]
+
+
+
+
+
+//POINTER #22 @ $6F8 - STRING #22 @ $F6A
+#W32($6F8)
+//[CHAR2303][V2300]
+//えっ、これは…！？[NLINE]
+//勇者様、これを読んでも良いのですか？[NWIN]
+//
+//[CH.FACE:Laughing][CHAR3B00][V2B00]
+//ありがとうございます！[END-FE]
+[CHAR2303][V2300]
+What! Could this be...!?[NLINE]
+Brave One, could we read this?[NWIN]
+
+[CH.FACE:Laughing][CHAR3B00][V2B00]
+Thank you![END-FE]
+
+
+
+
+
+//POINTER #23 @ $6FC - STRING #23 @ $FD1
+#W32($6FC)
+//ユリィと[MainCharName]は[NLINE]
+//その本を読み始めた。[NLINE]
+//　[END-FE]
+Yurii and [MainCharName] began[NLINE]
+reading the book.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #24 @ $700 - STRING #24 @ $FFC
+#W32($700)
+//しかし、そこにあった本は[NLINE]
+//勇者が悪を倒し、[NLINE]
+//世界を平和にしたところで終わっていた。[END-FE]
+However, the book ended right after[NLINE]
+the hero defeated evil and led the[NLINE]
+world to peace.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $704 - STRING #25 @ $1051
+#W32($704)
+//特定の誰かとその後の人生を送ったことは[NLINE]
+//一切触れられていなかった…。[NLINE]
+//　[END-FE]
+There was no mention of with whom the[NLINE]
+hero spent his life afterwards...[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #26 @ $708 - STRING #26 @ $109C
+#W32($708)
+//[CHAR2303][V2400]
+//この書籍では、[NLINE]
+//その後のお話まで触れていませんね。[NLINE]
+//ちょっと残念です。[END-FE]
+//Yurii\\
+[CHAR2303][V2400]
+This book doesn't mention what[NLINE]
+happened after. How disappointing.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $70C - STRING #27 @ $10ED
+#W32($70C)
+//[CHAR2303][V2500]
+//久しぶりだね。[NLINE]
+//どうだい、あの本は見つかったかな？[END-FE]
+//Old Man\\
+[CHAR2303][V2500]
+It's been a while.[NLINE]
+How about it? Did you find[NLINE]
+that book?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $710 - STRING #28 @ $112A
+#W32($710)
+//[CHAR2303][V2600]
+//図書館で調べてみたのですが、[NLINE]
+//そこにあった本では、[NLINE]
+//勇者様のその後は省略されていました。[END-FE]
+//Yurii\\
+[CHAR2303][V2600]
+We checked in the library. However,[NLINE]
+the book we found there omits the part[NLINE]
+of what happened to the hero afterwards.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $714 - STRING #29 @ $118D
+#W32($714)
+//[CHAR2303][V2700]
+//やっぱりそうか。[NLINE]
+//その後の部分が無くても、[NLINE]
+//物語としては成立するからのう。[END-FE]
+//Old Man\\
+[CHAR2303][V2700]
+Just as I expected. That tale was[NLINE]
+written down without a specific[NLINE]
+ending.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $718 - STRING #30 @ $11E2
+#W32($718)
+//[CHAR2303][V2800]
+//楽しみにしていたので、[NLINE]
+//ちょっと残念でした。[END-FE]
+//Yurii\\
+[CHAR2303][V2800]
+I was looking forward to learning[NLINE]
+how it ended, so it was a little[NLINE]
+disappointing.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $71C - STRING #31 @ $1219
+#W32($71C)
+//[CHAR2303][V2900]
+//だったらこれは役に立ちそうじゃな。[END-FE]
+//Old Man\\
+[CHAR2303][V2900]
+Then this may be helpful.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $720 - STRING #32 @ $1246
+#W32($720)
+//[CHAR2303][V2A00]
+//これは！[END-FE]
+//Yurii\\
+[CHAR2303][V2A00]
+Ah![END-FE]
+
+
+
+
+
+//POINTER #33 @ $724 - STRING #33 @ $1259
+#W32($724)
+//[CHAR2303][V2B00]
+//子供の頃の知人に声をかけて、[NLINE]
+//残っていた本をもらってきたんじゃ。[END-FE]
+//Old Man\\
+[CHAR2303][V2B00]
+I spoke with a childhood friend of[NLINE]
+mine and received this spare book[NLINE]
+from him.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $728 - STRING #34 @ $12A4
+#W32($728)
+//[CHAR2303][V2C00]
+//ありがとうございます！[END-FE]
+//Yurii\\
+[CHAR2303][V2C00]
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #35 @ $72C - STRING #35 @ $12C5
+#W32($72C)
+//では、開けていない[NLINE]
+//宝箱が残っているか探して参ります！[END-FE]
+Alright, let's find out if there[NLINE]
+are any treasure chest that haven't[NLINE]
+been opened![END-FE]
+
+
+
+
+
+//POINTER #36 @ $730 - STRING #36 @ $12FE
+#W32($730)
+//この中には、[NLINE]
+//開けてない宝箱は残っていないみたいです。[END-FE]
+It seems there are no unopened treasure[NLINE]
+chests left inside.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $734 - STRING #37 @ $1337
+#W32($734)
+//見つけました！[NWIN]
+//
+//この中には、開けられてない宝箱が[NLINE]
+//あと[CC.EF0E]個 ありました！[END-FE]
+We've found it![NWIN]
+
+There are [CC.EF0E] treasure chest[NLINE]
+left inside![END-FE]
+
+
+
+

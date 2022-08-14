@@ -1,0 +1,3136 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $1870, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $1520, 4, PTR)
+
+#JMP($1870)
+#HDR($1870)
+
+
+
+
+
+//POINTER #0 @ $1520 - STRING #0 @ $1870
+#W32($1520)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $1524 - STRING #1 @ $1873
+#W32($1524)
+//ルキアス[END-FF]
+Rukias[END-FF]
+
+
+
+
+
+//POINTER #2 @ $1528 - STRING #2 @ $187E
+#W32($1528)
+//　休暇に入って１回目の会話。　[END-FE]
+ The first conversation after[NLINE]
+  taking the day off.[END-FE]
+
+
+
+
+
+//POINTER #3 @ $152C - STRING #3 @ $189F
+#W32($152C)
+//…考え事をしたいんだ。[NLINE]
+//少し一人にしてくれないか？[END-FE]
+...I want to think.[NLINE]
+Could you leave me alone for[NLINE]
+a while?[END-FE]
+
+
+
+
+
+//POINTER #4 @ $1530 - STRING #4 @ $18D4
+#W32($1530)
+// [END-FE]
+ [END-FE]
+
+
+
+
+
+//POINTER #5 @ $1534 - STRING #5 @ $18D8
+#W32($1534)
+//[CHAR2403][V0000]
+//どうなっているんだ…。[NLINE]
+//あれは確かに巫女だった。[NLINE]
+//守護勇士を連れていなかったみたいだが。[END-FE]
+[CHAR2403][V0000]
+Just what happened...?[NLINE]
+That was certainly the Earth Priestess.[NLINE]
+It seemed like she wasn't with her Brave[NLINE]
+Guard.[END-FE]
+
+
+
+
+
+//POINTER #6 @ $1538 - STRING #6 @ $193B
+#W32($1538)
+//[CHAR2403][V0100]
+//…誰だ？[END-FE]
+[CHAR2403][V0100]
+...Who is it?[END-FE]
+
+
+
+
+
+//POINTER #7 @ $153C - STRING #7 @ $194E
+#W32($153C)
+//・名乗る[END-FE]
+・Name yourself[END-FE]
+
+
+
+
+
+//POINTER #8 @ $1540 - STRING #8 @ $1959
+#W32($1540)
+//・無視してドアを開ける[END-FE]
+・Ignore Rukias and open the door[END-FE]
+
+
+
+
+
+//POINTER #9 @ $1544 - STRING #9 @ $1972
+#W32($1544)
+//[CHAR2403][V0200]
+//アンタか…。[END-FE]
+[CHAR2403][V0200]
+It's you...[END-FE]
+
+
+
+
+
+//POINTER #10 @ $1548 - STRING #10 @ $1989
+#W32($1548)
+//[CHAR2403][V0300]
+//勝手に開けるな！[NLINE]
+//礼儀ってもんを知らないのか…。[END-FE]
+[CHAR2403][V0300]
+Hey, don't just waltz in here[NLINE]
+without permission![NLINE]
+Don't you have any manners?[END-FE]
+
+
+
+
+
+//POINTER #11 @ $154C - STRING #11 @ $19C4
+#W32($154C)
+//[CHAR2403][V0400]
+//一体何の用だ？[NLINE]
+//大した用じゃないなら、[NLINE]
+//すぐに出て行ってくれ。[END-FE]
+[CHAR2403][V0400]
+What is it?[NLINE]
+If it's not important, then[NLINE]
+get out.[END-FE]
+
+
+
+
+
+//POINTER #12 @ $1550 - STRING #12 @ $1A0D
+#W32($1550)
+//・様子を見に来た[END-FE]
+・I came to see how you are doing[END-FE]
+
+
+
+
+
+//POINTER #13 @ $1554 - STRING #13 @ $1A20
+#W32($1554)
+//・あの女は何者か尋ねる[END-FE]
+・Who was that woman?[END-FE]
+
+
+
+
+
+//POINTER #14 @ $1558 - STRING #14 @ $1A39
+#W32($1558)
+//・部屋を出る[END-FE]
+・Leave the room[END-FE]
+
+
+
+
+
+//POINTER #15 @ $155C - STRING #15 @ $1A48
+#W32($155C)
+//[CHAR2403][V0500]
+//様子を見に？[END-FE]
+[CHAR2403][V0500]
+You came to see how I'm doing?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $1560 - STRING #16 @ $1A5F
+#W32($1560)
+//[CHAR2403][V0600]
+//はい。[NLINE]
+//ルキアスさんの様子が[NLINE]
+//両目の色が違う女性に会われてから[NLINE]
+//おかしかったものですから。[END-FE]
+[CHAR2403][V0600]
+Yes.[NLINE]
+You have been in a stange mood[NLINE]
+ever since we met that woman[NLINE]
+with the odd colored eyes.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $1564 - STRING #17 @ $1AC4
+#W32($1564)
+//[CH.FACE:Close-Eyes][CHAR2403][V0700]
+//お節介だな…。[END-FE]
+[CH.FACE:Close-Eyes][CHAR2403][V0700]
+You are too nosy...[END-FE]
+
+
+
+
+
+//POINTER #18 @ $1568 - STRING #18 @ $1AE0
+#W32($1568)
+//[CH.FACE:Open-Eyes][CHAR2403][V0800]
+//悪いがその件は話せない。[NWIN]
+//
+//[CH.FACE:Close-Eyes][CHAR2403][V0900]
+//それにオレ自身も混乱していて、[NLINE]
+//どう言えばいいのかわからないんだ。[NWIN]
+//
+//[CH.FACE:Open-Eyes][CH.FACE:Serious][CHAR2403][V0A00]
+//もし、お前がオレの捜している人物なら、[NLINE]
+//いずれは話すことになるだろう。[NWIN]
+//
+//[CHAR2403][V0B00]
+//それまでは待ってくれ。[END-FE]
+[CH.FACE:Open-Eyes][CHAR2403][V0800]
+I'm sorry, but I can't talk about that.[NWIN]
+
+[CH.FACE:Close-Eyes][CHAR2403][V0900]
+Besides, I'm confused, so I wouldn't[NLINE]
+even know what to say.[NWIN]
+
+[CH.FACE:Open-Eyes][CH.FACE:Serious][CHAR2403][V0A00]
+But if you're the one I'm looking[NLINE]
+for, I'll talk with you about it one[NLINE]
+of these days.[NWIN]
+
+[CHAR2403][V0B00]
+Wait until then.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $156C - STRING #19 @ $1BCC
+#W32($156C)
+//[CHAR2403][V0E00]
+//ところで、アンタって結構強いよな。[NLINE]
+//どうやったら強くなれる？[END-FE]
+[CHAR2403][V0E00]
+By the way, you're really[NLINE]
+strong. How did you become[NLINE]
+that way?[END-FE]
+
+
+
+
+
+//POINTER #20 @ $1570 - STRING #20 @ $1C13
+#W32($1570)
+//・素質が全て[END-FE]
+・Talent is everything[END-FE]
+
+
+
+
+
+//POINTER #21 @ $1574 - STRING #21 @ $1C22
+#W32($1574)
+//・日々の努力[END-FE]
+・Through daily effort[END-FE]
+
+
+
+
+
+//POINTER #22 @ $1578 - STRING #22 @ $1C31
+#W32($1578)
+//・秘密[END-FE]
+・It's a secret[END-FE]
+
+
+
+
+
+//POINTER #23 @ $157C - STRING #23 @ $1C3A
+#W32($157C)
+//[CHAR2403][V0F00]
+//素質か…。[NLINE]
+//それじゃ、素質の無いヤツは[NLINE]
+//どうやっても強くなれないのか？[NWIN]
+//
+//[CHAR2403][V1000]
+//確かにアンタを見てると[NLINE]
+//特別な事は何一つしていないな…。[NWIN]
+//
+//[CHAR2403][V1100]
+//これはもう少し注意深く[NLINE]
+//観察する必要があるか…。[END-FE]
+[CHAR2403][V0F00]
+Talent, huh...?[NLINE]
+So people without any talent[NLINE]
+can't get any stronger no[NLINE]
+matter what they do?[NWIN]
+
+[CHAR2403][V1000]
+But when looking at you,[NLINE]
+it doesn't seem like there's[NLINE]
+anything special about you...[NWIN]
+
+[CHAR2403][V1100]
+Do I need to observe you[NLINE]
+more carefully...?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $1580 - STRING #24 @ $1D07
+#W32($1580)
+//[CHAR2403][V1200]
+//努力か…。[NLINE]
+//確かにもっともな意見だな。[NWIN]
+//
+//[CHAR2403][V1300]
+//だが、アンタを見ていると[NLINE]
+//特別な事は何一つしていないようだがな…。[NWIN]
+//
+//[CHAR2403][V1400]
+//これはもう少し注意深く[NLINE]
+//観察する必要があるか…。[END-FE]
+[CHAR2403][V1200]
+Efforts, huh?[NLINE]
+Certainly that's the best view.[NWIN]
+
+[CHAR2403][V1300]
+But when looking at you,[NLINE]
+it doesn't seem like there's[NLINE]
+anything special about you...[NWIN]
+
+[CHAR2403][V1400]
+Do I need to observe you[NLINE]
+more carefully...?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $1584 - STRING #25 @ $1DBE
+#W32($1584)
+//[CHAR2403][V1500]
+//教えたくないのか？[NLINE]
+//だったらそれでいいよ。[NWIN]
+//
+//[CHAR2403][V1600]
+//これからはもう少し注意深く[NLINE]
+//観察すればいいだけだ。[END-FE]
+[CHAR2403][V1500]
+You won't tell me?[NLINE]
+Fine, whatever.[NWIN]
+
+[CHAR2403][V1600]
+Then I just have to observe you[NLINE]
+more carefully from now on.[END-FE]
+
+
+
+
+
+//POINTER #26 @ $1588 - STRING #26 @ $1E2F
+#W32($1588)
+//[CHAR2403][V1700]
+//ルキアスさんも[NLINE]
+//十分お強いと思うのですが…。[END-FE]
+[CHAR2403][V1700]
+I think you're already[NLINE]
+strong enough, Rukias...[END-FE]
+
+
+
+
+
+//POINTER #27 @ $158C - STRING #27 @ $1E66
+#W32($158C)
+//[CHAR2403][V1800]
+//こんなんじゃダメなんだよ！[NLINE]
+//まだまだ足りないんだ！[END-FE]
+[CHAR2403][V1800]
+That's not good enough![NLINE]
+I'm still lacking![END-FE]
+
+
+
+
+
+//POINTER #28 @ $1590 - STRING #28 @ $1EA3
+#W32($1590)
+//[CHAR2403][V1900]
+//なぜ強さを求めるのでしょうか？[END-FE]
+[CHAR2403][V1900]
+Why are you looking for strength?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $1594 - STRING #29 @ $1ECC
+#W32($1594)
+//[CHAR2403][V1A00]
+//アンタらには関係ない！[NLINE]
+//これは俺の問題なんだ！[NWIN]
+//
+//[CH.FACE:Close-Eyes][CHAR2403][V1B00]
+//…悪いが、[NLINE]
+//そろそろ出て行ってくれないか…。[END-FE]
+[CHAR2403][V1A00]
+That's none of your business![NLINE]
+It's my own problem![NWIN]
+
+[CH.FACE:Close-Eyes][CHAR2403][V1B00]
+...I'm sorry, but could[NLINE]
+you leave now?[END-FE]
+
+
+
+
+
+//POINTER #30 @ $1598 - STRING #30 @ $1F3E
+#W32($1598)
+//[CH.FACE:Close-Eyes][CHAR2403][V0C00]
+//あの女性か…。[END-FE]
+[CH.FACE:Close-Eyes][CHAR2403][V0C00]
+That woman...?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $159C - STRING #31 @ $1F5A
+#W32($159C)
+//[CHAR2403][V0D00]
+//ああ、そうしてくれ。[NLINE]
+//こっちも考えたい事があるんだ。[NLINE]
+//一人にしてくれ。[END-FE]
+[CHAR2403][V0D00]
+Yeah, please leave.[NLINE]
+There's something I need[NLINE]
+to think about, so leave[NLINE]
+me alone.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $15A0 - STRING #32 @ $1FAB
+#W32($15A0)
+//[CHAR2403][V1D00]
+//…一人にしてくれって言ったろ。[NLINE]
+//部屋から出ていけよ。[END-FE]
+[CHAR2403][V1D00]
+...I said leave me alone.[NLINE]
+Get out of my room.[END-FE]
+
+
+
+
+
+//POINTER #33 @ $15A4 - STRING #33 @ $1FEA
+#W32($15A4)
+//[CHAR2403][V1C00]
+//勇者様、外へ行きましょう。[NLINE]
+//ルキアスさん、失礼いたしました。[END-FE]
+[CHAR2403][V1C00]
+Brave one, let's step outside.[NLINE]
+Rukias, please excuse us.[END-FE]
+
+
+
+
+
+//POINTER #34 @ $15A8 - STRING #34 @ $2031
+#W32($15A8)
+//[CHAR2403][V1E00]
+//どうやら、アンタは[NLINE]
+//本物の守護勇士みたいだな。[END-FE]
+[CHAR2403][V1E00]
+So you're the real Brave[NLINE]
+Guard after all.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $15AC - STRING #35 @ $206A
+#W32($15AC)
+//・そうらしい[END-FE]
+・It seems so[END-FE]
+
+
+
+
+
+//POINTER #36 @ $15B0 - STRING #36 @ $2079
+#W32($15B0)
+//・何かの間違い[END-FE]
+・This must be some sort of mistake[END-FE]
+
+
+
+
+
+//POINTER #37 @ $15B4 - STRING #37 @ $208A
+#W32($15B4)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #38 @ $15B8 - STRING #38 @ $2099
+#W32($15B8)
+//[CHAR2403][V1F00]
+//なにを他人事みたいに言っている？[END-FE]
+[CHAR2403][V1F00]
+Why do you act like this is none[NLINE]
+of your business?[END-FE]
+
+
+
+
+
+//POINTER #39 @ $15BC - STRING #39 @ $20C4
+#W32($15BC)
+//[CHAR2403][V2000]
+//それはアンタに記憶がないだけだ。[END-FE]
+[CHAR2403][V2000]
+You just don't remember.[END-FE]
+
+
+
+
+
+//POINTER #40 @ $15C0 - STRING #40 @ $20EF
+#W32($15C0)
+//[CHAR2403][V2100]
+//アンタの戦い方を見れば良くわかるよ。[NLINE]
+//いくら記憶を失っていても、[NLINE]
+//その強さに偽りはないだろう。[NWIN]
+//
+//[CHAR2403][V2200]
+//もっとも、今のアンタの強さは[NLINE]
+//俺が聞いていた程じゃないようだけどな。[END-FE]
+[CHAR2403][V2100]
+It's obvious when I see you[NLINE]
+fight. Even though you[NLINE]
+lost your memory, your[NLINE]
+strength still remains.[NWIN]
+
+[CHAR2403][V2200]
+But your current strength[NLINE]
+doesn't seem to be as great[NLINE]
+as I heard.[END-FE]
+
+
+
+
+
+//POINTER #41 @ $15C4 - STRING #41 @ $21A6
+#W32($15C4)
+//・話の先をうながす[END-FE]
+・Prompt him to continue his story[END-FE]
+
+
+
+
+
+//POINTER #42 @ $15C8 - STRING #42 @ $21BB
+#W32($15C8)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #43 @ $15CC - STRING #43 @ $21CA
+#W32($15CC)
+//[CHAR2403][V2300]
+//俺は強くなりたいんだ。[NLINE]
+//小さい頃聞かされていた守護勇士はその目標だ。[NWIN]
+//
+//[CHAR2403][V2400]
+//だから俺は、手始めにアンタを超えて見せる。[END-FE]
+[CHAR2403][V2300]
+I want to become strong.[NLINE]
+Since I was small, I wanted to[NLINE]
+become like the Brave Guard I[NLINE]
+was told about.[NWIN]
+
+[CHAR2403][V2400]
+That's why I will get started[NLINE]
+by surpassing you![END-FE]
+
+
+
+
+
+//POINTER #44 @ $15D0 - STRING #44 @ $224D
+#W32($15D0)
+//・超えられない[END-FE]
+・You can't surpass me[END-FE]
+
+
+
+
+
+//POINTER #45 @ $15D4 - STRING #45 @ $225E
+#W32($15D4)
+//・何を超える気か問う[END-FE]
+・Surpass me in what way?[END-FE]
+
+
+
+
+
+//POINTER #46 @ $15D8 - STRING #46 @ $2275
+#W32($15D8)
+//・簡単に超えられる[END-FE]
+・You could surpass me easily[END-FE]
+
+
+
+
+
+//POINTER #47 @ $15DC - STRING #47 @ $228A
+#W32($15DC)
+//[CHAR2403][V2500]
+//そんなの[NLINE]
+//やってみなければわからないだろう！[NWIN]
+//
+//[CHAR2403][V2600]
+//それに今のアンタならば[NLINE]
+//超えられない強さじゃない。[END-FE]
+[CHAR2403][V2500]
+I won't know unless I try![NWIN]
+
+[CHAR2403][V2600]
+Besides, it's not like your[NLINE]
+current strength is so great[NLINE]
+that it can't be surpassed.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $15E0 - STRING #48 @ $22FD
+#W32($15E0)
+//[CHAR2403][V2700]
+//なにってチカラだよ、チカラ！[NWIN]
+//
+//[CHAR2403][V2800]
+//あの時、オレに守護勇士ほどの[NLINE]
+//チカラがあれば…。[END-FE]
+[CHAR2403][V2700]
+In what way? strength, of course![NWIN]
+
+[CHAR2403][V2800]
+If I had the strength of a[NLINE]
+Brave Guard that time, then I...[END-FE]
+
+
+
+
+
+//POINTER #49 @ $15E4 - STRING #49 @ $235E
+#W32($15E4)
+//[CHAR2403][V2900]
+//強くなるのが簡単なことだと？[NWIN]
+//
+//[CHAR2403][V2A00]
+//簡単なら、きっとあんなこと…。[END-FE]
+[CHAR2403][V2900]
+You're saying getting stronger[NLINE]
+is easy?[NWIN]
+
+[CHAR2403][V2A00]
+In that case, I'll definitely[NLINE]
+surpass you...[END-FE]
+
+
+
+
+
+//POINTER #50 @ $15E8 - STRING #50 @ $23AD
+#W32($15E8)
+//[CHAR2403][V2B00]
+//とにかく、オレはアンタを超えてみせる！[NWIN]
+//
+//[CHAR2403][V2C00]
+//アンタを超えたら、その次はもっと強いヤツ。[NLINE]
+//それが終わったら更に強いヤツ…。[NWIN]
+//
+//[CHAR2403][V2D00]
+//どこまでも強くなってやる。[END-FE]
+[CHAR2403][V2B00]
+Any way, I'll surpass you![NLINE]
+Just you wait and see![NWIN]
+
+[CHAR2403][V2C00]
+And after I surpassed you, I'll surpass[NLINE]
+someone who is stronger. And after I've[NLINE]
+done that, I'll surpass someone who is[NLINE]
+even more strong...[NWIN]
+
+[CHAR2403][V2D00]
+I'm going to get stronger no matter what.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $15EC - STRING #51 @ $2458
+#W32($15EC)
+//・応援する[END-FE]
+・I'll root for you[END-FE]
+
+
+
+
+
+//POINTER #52 @ $15F0 - STRING #52 @ $2465
+#W32($15F0)
+//・ムダなことだ[END-FE]
+・It's impossible[END-FE]
+
+
+
+
+
+//POINTER #53 @ $15F4 - STRING #53 @ $2476
+#W32($15F4)
+//・理由を聞く[END-FE]
+・Ask him why[END-FE]
+
+
+
+
+
+//POINTER #54 @ $15F8 - STRING #54 @ $2485
+#W32($15F8)
+//[CHAR2403][V2E00]
+//自分を超えられようとしているのに、[NLINE]
+//変なヤツ…。[END-FE]
+[CHAR2403][V2E00]
+Even though I'm saying I'll[NLINE]
+surpass you...[NLINE]
+You're a weird guy...[END-FE]
+
+
+
+
+
+//POINTER #55 @ $15FC - STRING #55 @ $24C0
+#W32($15FC)
+//[CHAR2403][V2F00]
+//本当に強くなりたいのですね。[END-FE]
+[CHAR2403][V2F00]
+He really wants to become strong,[NLINE]
+doesn't he?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $1600 - STRING #56 @ $24E7
+#W32($1600)
+//[CHAR2403][V3000]
+//その言葉覚えておけよ。[END-FE]
+[CHAR2403][V3000]
+I'll remember you said that.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $1604 - STRING #57 @ $2508
+#W32($1604)
+//[CHAR2403][V3100]
+//本当に強くなりたいのですね。[END-FE]
+[CHAR2403][V3100]
+He really wants to become strong,[NLINE]
+doesn't he?[END-FE]
+
+
+
+
+
+//POINTER #58 @ $1608 - STRING #58 @ $252F
+#W32($1608)
+//[CHAR2403][V3200]
+//大地の里の者なら、[NLINE]
+//強さを求めるのは当然だろう。[END-FE]
+[CHAR2403][V3200]
+As a resident of Earth Village,[NLINE]
+it's natural for me to seek strength.[END-FE]
+
+
+
+
+
+
+//POINTER #59 @ $160C - STRING #59 @ $256A
+#W32($160C)
+//オレはアンタを超えてみせる！[NLINE]
+//覚悟してろよ…！[END-FE]
+I'll surpass you someday![NLINE]
+Be prepared...![END-FE]
+
+
+
+
+
+//POINTER #60 @ $1610 - STRING #60 @ $259B
+#W32($1610)
+//[CHAR2403][V3300]
+//ルキアスさんは[NLINE]
+//どうして強さにこだわるのでしょう？[NWIN]
+//
+//[CHAR2403][V3400]
+//大地の里の者だからというのは[NLINE]
+//建前にしか思えないのです。[END-FE]
+[CHAR2403][V3300]
+I wonder why Rukias is so[NLINE]
+set on gaining strength?[NWIN]
+
+[CHAR2403][V3400]
+I think the reason he gave[NLINE]
+about being a resident of[NLINE]
+Earth Village is only a pretense.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $1614 - STRING #61 @ $261A
+#W32($1614)
+//・他人事に興味はない[END-FE]
+・I'm not interested in the affairs[NLINE]
+ of other people[END-FE]
+
+
+
+
+
+//POINTER #62 @ $1618 - STRING #62 @ $2631
+#W32($1618)
+//・いずれ聞いてみる[END-FE]
+・I'll try asking him someday[END-FE]
+
+
+
+
+
+//POINTER #63 @ $161C - STRING #63 @ $2646
+#W32($161C)
+//・ユリィに聞き出させる[END-FE]
+・Make Yurii elicit the truth[NLINE]
+ out of him[END-FE]
+
+
+
+
+
+//POINTER #64 @ $1620 - STRING #64 @ $265F
+#W32($1620)
+//[CHAR2403][V3500]
+//そうですか…。[NLINE]
+//すみません、[NLINE]
+//どうも気になってしまったもので。[END-FE]
+[CHAR2403][V3500]
+I see...[NLINE]
+My apologies, I became curious even[NLINE]
+though I shouldn't have.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $1624 - STRING #65 @ $26A8
+#W32($1624)
+//[CHAR2403][V3600]
+//そうですね…。[NLINE]
+//頃合いを見て、[NLINE]
+//直接聞くことにしましょう。[END-FE]
+[CHAR2403][V3600]
+I see...[NLINE]
+Let's look for a suitable[NLINE]
+time and ask him personally.[END-FE]
+
+
+
+
+
+//POINTER #66 @ $1628 - STRING #66 @ $26ED
+#W32($1628)
+//[CHAR2403][V3700]
+//わかりました…。[NLINE]
+//頃合いを見て、[NLINE]
+//それとなく聞き出してみます。[END-FE]
+[CHAR2403][V3700]
+Understood...[NLINE]
+I'll look for a suitable time[NLINE]
+and shall try asking him indirectly.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $162C - STRING #67 @ $2736
+#W32($162C)
+//[CHAR2403][V3800]
+//ルキアスさん。[NLINE]
+//どうしてそれほどに[NLINE]
+//強さを求めるのですか？[END-FE]
+[CHAR2403][V3800]
+Rukias, why are you seeking[NLINE]
+that much strength?[END-FE]
+
+
+
+
+
+//POINTER #68 @ $1630 - STRING #68 @ $277B
+#W32($1630)
+//[CHAR2403][V3900]
+//前にも言っただろう？[NWIN]
+//
+//[CHAR2403][V3A00]
+//大地の里の者は、[NLINE]
+//巫女を守るのが務めだって。[NWIN]
+//
+//[CH.FACE:Sad][CHAR2403][V3B00]
+//５年前の襲撃の時、[NLINE]
+//俺は逃げることしか出来なかった…。[END-FE]
+[CHAR2403][V3900]
+Didn't I tell you before?[NWIN]
+
+[CHAR2403][V3A00]
+The people of Earth Village work to[NLINE]
+protect the Earth Priestess.[NWIN]
+
+[CH.FACE:Sad][CHAR2403][V3B00]
+During that attack that happend[NLINE]
+five years ago, I could only run...[END-FE]
+
+
+
+
+
+//POINTER #69 @ $1634 - STRING #69 @ $2814
+#W32($1634)
+//[CHAR2403][V3C00]
+//ですが、ルキアスさんの５年前の[NLINE]
+//年齢を考えれば仕方ないことかと…。[END-FE]
+[CHAR2403][V3C00]
+Yes, but that couldn't be helped[NLINE]
+considering your age five years[NLINE]
+ago...[END-FE]
+
+
+
+
+
+//POINTER #70 @ $1638 - STRING #70 @ $2861
+#W32($1638)
+//・黙って成り行きを見守る[END-FE]
+・Silently watch how the conversation[NLINE]
+ plays out.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $163C - STRING #71 @ $287C
+#W32($163C)
+//・本当の理由は襲撃の後にある[END-FE]
+・The real reason is what happened[NLINE]
+   after the attack on the village[END-FE]
+
+
+
+
+
+//POINTER #72 @ $1640 - STRING #72 @ $289B
+#W32($1640)
+//・本当のことを言え！と怒鳴る[END-FE]
+・Yell at him to tell the truth.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $1644 - STRING #73 @ $28BA
+#W32($1644)
+//[CHAR2403][V3D00]
+//もっと記憶に新しいことが[NLINE]
+//ルキアスさんを苦しめているように思います。[END-FE]
+[CHAR2403][V3D00]
+I think you're troubled by a more[NLINE]
+recent memory, Rukias.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $1648 - STRING #74 @ $2909
+#W32($1648)
+//[CH.FACE:Close-Eyes][CC.AA0001][CHAR2403][V3E00]
+//…くっ！[END-FE]
+[CH.FACE:Close-Eyes][CC.AA0001][CHAR2403][V3E00]
+...Ugh![END-FE]
+
+
+
+
+
+//POINTER #75 @ $164C - STRING #75 @ $2923
+#W32($164C)
+//[CHAR2403][V3F00]
+//どうやら勇者様の[NLINE]
+//予想どおりのようですね。[END-FE]
+[CHAR2403][V3F00]
+It seems like it's as[NLINE]
+you thought, Brave One.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $1650 - STRING #76 @ $2958
+#W32($1650)
+//[CH.FACE:Open-Eyes][CHAR2403][V4000]
+//…チッ！[NLINE]
+//わかったよ…。[NWIN]
+//
+//[CH.FACE:Sad][CHAR2403][V4100]
+//あれはゴートランドの結界が解ける[NLINE]
+//少し前のことだった…。[END-FE]
+[CH.FACE:Open-Eyes][CHAR2403][V4000]
+...Tch! Alright, alright..[NWIN]
+
+[CH.FACE:Sad][CHAR2403][V4100]
+It's something that happend a little[NLINE]
+while before the barrier around[NLINE]
+Goatland lifted...[END-FE]
+
+
+
+
+
+//POINTER #77 @ $1654 - STRING #77 @ $29C4
+#W32($1654)
+//[CHAR2403][V5500]
+//…そこには食い散らかされた[NLINE]
+//残飯みたいになったレラがいたよ…。[END-FE]
+[CHAR2403][V5500]
+...And there lay the remains[NLINE]
+of Lela, scattered like footscraps...[END-FE]
+
+
+
+
+
+//POINTER #78 @ $1658 - STRING #78 @ $2A0D
+#W32($1658)
+//[CC.AC00][CHAR2403][V5600]
+//……。[END-FE]
+[CC.AC00][CHAR2403][V5600]
+...[END-FE]
+
+
+
+
+
+//POINTER #79 @ $165C - STRING #79 @ $2A21
+#W32($165C)
+//[CH.FACE:Open-Eyes][CHAR2403][V5700]
+//あの時、俺にもっと力があったら[NLINE]
+//せめてあと１０分間、[NLINE]
+//モンスターを逃がさないでいられたら…[NLINE]
+//レラは助かっていた…。[NWIN]
+//
+//[CHAR2403][V5800]
+//あんな思いは二度としたくない。[NLINE]
+//だから俺は強くなりたい…。[END-FE]
+[CH.FACE:Open-Eyes][CHAR2403][V5700]
+If I had more strength that time...[NLINE]
+I could have hold off the monsters[NLINE]
+for at least another ten minutes...[NLINE]
+Then Lela would have been saved...[NWIN]
+
+[CHAR2403][V5800]
+I don't want to be plagued by such[NLINE]
+thoughts a second time. That's why[NLINE]
+I want to get strong...[END-FE]
+
+
+
+
+
+//POINTER #80 @ $1660 - STRING #80 @ $2AE5
+#W32($1660)
+//[CHAR2403][V5900]
+//すみませんでした。[NLINE]
+//つらい事を思い出させてしまって…。[END-FE]
+[CHAR2403][V5900]
+We're very sorry. We made you recall[NLINE]
+a painful experience...[END-FE]
+
+
+
+
+
+//POINTER #81 @ $1664 - STRING #81 @ $2B26
+#W32($1664)
+//[CHAR2403][V5A00]
+//…別にいいさ。[NLINE]
+//思い出すもなにも、[NLINE]
+//毎晩夢で見ていることだからな…。[NWIN]
+//
+//[CHAR2403][V5B00]
+//ただ、少しでも悪いと感じたなら、[NLINE]
+//少し俺を一人にしてくれないか…。[END-FE]
+[CHAR2403][V5A00]
+...It's fine. Even if I don't[NLINE]
+remember, I see it in my dreams[NLINE]
+every night...[NWIN]
+
+[CHAR2403][V5B00]
+But if you feel even the slightest[NLINE]
+bit sorry for me, then do me a favor[NLINE]
+and leave me alone...[END-FE]
+
+
+
+
+
+//POINTER #82 @ $1668 - STRING #82 @ $2BC1
+#W32($1668)
+//…荒れてるだろ…？[NLINE]
+//今ではこんな感じだが、[NLINE]
+//ここが俺の故郷なんだ。[NWIN]
+//
+//５年前のあの日、[NLINE]
+//俺はじいさんに手を引かれて[NLINE]
+//逃げることしかできなかった。[NWIN]
+//
+//[CH.FACE:Close-Eyes][CH.FACE:Angry]
+//ここに立っていると、[NLINE]
+//その悔しさがこみ上げてくるぜ…。[END-FE]
+//Rukias\\
+...What a mess...[NLINE]
+This used to be my home, but now[NLINE]
+it's like this.[NWIN]
+
+Five years ago, I could only[NLINE]
+flee while being led by that[NLINE]
+old man's hand.[NWIN]
+
+[CH.FACE:Close-Eyes][CH.FACE:Angry]
+Standing here makes me filled[NLINE]
+with regret...[END-FE]
+
+
+
+
+
+//POINTER #83 @ $166C - STRING #83 @ $2C91
+#W32($166C)
+//念のため言っておく。[NLINE]
+//巫女を勇気づけるのは構わないが、[NLINE]
+//あまり邪魔はするなよな。[END-FE]
+//Rukias\\
+I'll say this just in case:[NLINE]
+I don't mind if you encourage[NLINE]
+the Earth Priestess, but don't[NLINE]
+get in the way too much.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $1670 - STRING #84 @ $2CE4
+#W32($1670)
+//[CHAR2403][V5C00]
+//えっ、これは…。[NLINE]
+//勇者様、あれが見えますか？[END-FE]
+//Yurii\\
+[CHAR2403][V5C00]
+Huh, could that be...?[NLINE]
+Brave One, can you see it?[END-FE]
+
+
+
+
+
+//POINTER #85 @ $1674 - STRING #85 @ $2D1B
+#W32($1674)
+//[CHAR2403][V5D00]
+//小さいですが、[NLINE]
+//間違いありません。[NLINE]
+//時の歪みです。[NWIN]
+//
+//[CH.FACE:Sad][CHAR2403][V5E00]
+//ですがこれは[NLINE]
+//時の流れを変えたために[NLINE]
+//生じたものでは[NLINE]
+//ありません。[NWIN]
+//
+//[CHAR2403][V5F00]
+//むしろ、過去を変えたい[NLINE]
+//という想いが生み出した[NLINE]
+//歪みです。[NWIN]
+//
+//[CHAR2403][V6000]
+//これ以上の詳しいことは[NLINE]
+//調べてみないと[NLINE]
+//分かりませんが…。[END-FE]
+//Yurii\\
+[CHAR2403][V5D00]
+It's small, but there's no[NLINE]
+mistaking it. It's a Time[NLINE]
+Distortion.[NWIN]
+
+[CH.FACE:Sad][CHAR2403][V5E00]
+But it's not the result of[NLINE]
+changing the flow of time.[NWIN]
+
+[CHAR2403][V5F00]
+Instead, it's a distortion[NLINE]
+born from a desire to change[NLINE]
+the past.[NWIN]
+
+[CHAR2403][V6000]
+I can't be sure without examining[NLINE]
+it more carefully, but...[END-FE]
+
+
+
+
+
+//POINTER #86 @ $1678 - STRING #86 @ $2E30
+#W32($1678)
+//[CHAR2403][V6100]
+//この歪みは…、[NLINE]
+//ルキアスさんが生み出したものですね。[END-FE]
+//Yurii\\
+[CHAR2403][V6100]
+This distortion...[NLINE]
+Rukias created it.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $167C - STRING #87 @ $2E6F
+#W32($167C)
+//[CHAR2403][V6200]
+//俺が？[NWIN]
+//
+//[CH.FACE:Sad][CHAR2403][V6300]
+//そういえば、この場所はレラが…[END-FE]
+//Rukias\\
+[CHAR2403][V6200]
+Me?[NWIN]
+
+[CH.FACE:Sad][CHAR2403][V6300]
+That reminds me, this is where[NLINE]
+Lela...[END-FE]
+
+
+
+
+
+//POINTER #88 @ $1680 - STRING #88 @ $2EAC
+#W32($1680)
+//[CHAR2403][V6400]
+//過去を変えたいという強烈な想いが[NLINE]
+//歪みを作り上げてしまったようです。[NWIN]
+//
+//[CHAR2403][V6500]
+//おそらく、勇者様にあの出来事を話したせいで、[NLINE]
+//一時的に未練が増大したのでしょう。[END-FE]
+//Yurii\\
+[CHAR2403][V6400]
+It seems your intense desire to change[NLINE]
+the past created a Time Distortion.[NWIN]
+
+[CHAR2403][V6500]
+Most likely, your regret temporarily[NLINE]
+increased because you talked about[NLINE]
+the event with the Brave One.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $1684 - STRING #89 @ $2F55
+#W32($1684)
+//[CHAR2403][V6600]
+//だったら、ここから[NLINE]
+//あの時に戻れるのか？[END-FE]
+//Rukias\\
+[CHAR2403][V6600]
+Does that mean we can return to that[NLINE]
+from here?[END-FE]
+
+
+
+
+
+//POINTER #90 @ $1688 - STRING #90 @ $2F88
+#W32($1688)
+//[CHAR2403][V6700]
+//ですがこのままでは利用出来ません。[NLINE]
+//もっと大きくならなければ…。[NWIN]
+//
+//[CHAR2403][V6800]
+//それよりも、この大きさでは[NLINE]
+//自然消滅する方が早いかも知れません。[END-FE]
+//Yurii\\
+[CHAR2403][V6700]
+It can't be used now.[NLINE]
+It must become larger...[NWIN]
+
+[CHAR2403][V6800]
+On top of that, because of its small size,[NLINE]
+the rate at which it will disappear[NLINE]
+might be higher.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $168C - STRING #91 @ $301D
+#W32($168C)
+//[CH.FACE:Close-Eyes]
+//…[CC.D80F]…[CC.D80F]…[CC.D80F]…。[END-FE]
+[CH.FACE:Close-Eyes]
+.[CC.D80F].[CC.D80F].[CC.D80F].[END-FE]
+
+
+
+
+
+//POINTER #92 @ $1690 - STRING #92 @ $3036
+#W32($1690)
+//[CHAR2403][V6900]
+//ちょうど話がしたかったんだ。[NWIN]
+//
+//[CHAR2403][V6A00]
+//あの時の歪みについてなんだが、[NLINE]
+//あの大きさでは過去に行けないんだよな？[END-FE]
+[CHAR2403][V6900]
+I want to talk to you.[NWIN]
+
+[CHAR2403][V6A00]
+It's about that Time Distortion.[NLINE]
+We can't go to the past with[NLINE]
+it because of its size, right?[END-FE]
+
+
+
+
+
+//POINTER #93 @ $1694 - STRING #93 @ $30AD
+#W32($1694)
+//[CHAR2403][V6B00]
+//はい。[NLINE]
+//残念ながら。[END-FE]
+[CHAR2403][V6B00]
+Yes, I'm afraid so.[END-FE]
+
+
+
+
+
+//POINTER #94 @ $1698 - STRING #94 @ $30CC
+#W32($1698)
+//[CHAR2403][V6C00]
+//それじゃ、あの歪みを大きく、[NLINE]
+//過去に戻れるようにするには[NLINE]
+//どうすればいいんだ？[END-FE]
+[CHAR2403][V6C00]
+Then what can we do to make[NLINE]
+that distortion bigger so[NLINE]
+that we can go to the past?[END-FE]
+
+
+
+
+
+//POINTER #95 @ $169C - STRING #95 @ $3125
+#W32($169C)
+//[CHAR2403][V6D00]
+//方法は３つあります。[NWIN]
+//
+//[CHAR2403][V6E00]
+//１つめは、過去に戻れる者が[NLINE]
+//あの場で過去に向かうこと。[END-FE]
+[CHAR2403][V6D00]
+There are three ways.[NWIN]
+
+[CHAR2403][V6E00]
+The first is to have a person who[NLINE]
+can return to the past travel[NLINE]
+back to that location.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $16A0 - STRING #96 @ $3184
+#W32($16A0)
+//[CHAR2403][V6F00]
+//それはダメだろう。[NLINE]
+//第一、過去に戻れる者がいるなら、[NLINE]
+//あの歪みを大きくする必要は無い。[END-FE]
+[CHAR2403][V6F00]
+That's not an option. If we had[NLINE]
+someone who could travel to the[NLINE]
+past, we wouldn't need to increase[NLINE]
+the size of the distortion in the[NLINE]
+first place.[END-FE]
+
+
+
+
+
+//POINTER #97 @ $16A4 - STRING #97 @ $31E5
+#W32($16A4)
+//[CHAR2403][V7000]
+//２つめは、[NLINE]
+//もっと強く過去に未練を持つこと。[END-FE]
+[CHAR2403][V7000]
+The second is to have an even[NLINE]
+more intense feeling of regret[NLINE]
+towards the past.[END-FE]
+
+
+
+
+
+//POINTER #98 @ $16A8 - STRING #98 @ $321C
+#W32($16A8)
+//[CH.FACE:Close-Eyes][CHAR2403][V7100]
+//毎晩夢に見るくらいなのに、[NLINE]
+//これ以上、どうやって未練を持てっていうんだ！[NWIN]
+//
+//[CH.FACE:Open-Eyes][CHAR2403][V7200]
+//…最後の方法は？[END-FE]
+[CH.FACE:Close-Eyes][CHAR2403][V7100]
+I relive the event in my dreams[NLINE]
+every night. I don't know how[NLINE]
+I could possibly feel any more regret.[NWIN]
+
+[CH.FACE:Open-Eyes][CHAR2403][V7200]
+...What is the last method?[END-FE]
+
+
+
+
+
+//POINTER #99 @ $16AC - STRING #99 @ $328F
+#W32($16AC)
+//[CHAR2403][V7300]
+//３つめは、過去と今をつなぐ[NLINE]
+//品物の力を借りることです。[END-FE]
+[CHAR2403][V7300]
+The third is to use the[NLINE]
+power of an object that links[NLINE]
+the past to the present.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $16B0 - STRING #100 @ $32D0
+#W32($16B0)
+//[CHAR2403][V7400]
+//品物…？[END-FE]
+[CHAR2403][V7400]
+An object...?[END-FE]
+
+
+
+
+
+//POINTER #101 @ $16B4 - STRING #101 @ $32E3
+#W32($16B4)
+//[CHAR2403][V7500]
+//何でも良いわけではありません。[NWIN]
+//
+//[CHAR2403][V7600]
+//現在の時の流れと、変わった後の時の流れ、[NLINE]
+//この両方に関係する物で、[NLINE]
+//なおかつ、想いのこもった物でなければ…。[END-FE]
+[CHAR2403][V7500]
+We can't just use anything.[NWIN]
+
+[CHAR2403][V7600]
+It has to be an item full of[NLINE]
+memories and one which is related[NLINE]
+to both the present and the[NLINE]
+time period which has been[NLINE]
+altered...[END-FE]
+
+
+
+
+
+//POINTER #102 @ $16B8 - STRING #102 @ $3382
+#W32($16B8)
+//[CHAR2403][V7700]
+//…そうか…。[END-FE]
+[CHAR2403][V7700]
+...Right...[END-FE]
+
+
+
+
+
+//POINTER #103 @ $16BC - STRING #103 @ $3399
+#W32($16BC)
+//[CHAR2403][V7800]
+//それと、もし過去に戻っても[NLINE]
+//そこには当時のルキアスさんがいます。[NWIN]
+//
+//[CHAR2403][V7900]
+//もし、過去のルキアスさんに[NLINE]
+//見つかってしまえば…。[END-FE]
+[CHAR2403][V7800]
+Furthermore, if we return to the[NLINE]
+past, then the Rukias of that[NLINE]
+time would also be there.[NWIN]
+
+[CHAR2403][V7900]
+If you were to be seen by the past[NLINE]
+Rukias...[END-FE]
+
+
+
+
+
+//POINTER #104 @ $16C0 - STRING #104 @ $3420
+#W32($16C0)
+//[CH.FACE:Close-Eyes][CHAR2403][V7A00]
+//どのみち、[NLINE]
+//俺にはムリってことか…。[END-FE]
+[CH.FACE:Close-Eyes][CHAR2403][V7A00]
+So it's impossible no matter[NLINE]
+what we do...[END-FE]
+
+
+
+
+
+//POINTER #105 @ $16C4 - STRING #105 @ $3452
+#W32($16C4)
+//[CHAR2403][V7B00]
+//ルキアスさん…。[END-FE]
+[CHAR2403][V7B00]
+Rukias...[END-FE]
+
+
+
+
+
+//POINTER #106 @ $16C8 - STRING #106 @ $346D
+#W32($16C8)
+//[CHAR2403][V7C00]
+//勇者様、私は余計な事を[NLINE]
+//言ってしまったのでしょうか？[END-FE]
+[CHAR2403][V7C00]
+Brave One, did I say anything[NLINE]
+I shouldn't have?[END-FE]
+
+
+
+
+
+//POINTER #107 @ $16CC - STRING #107 @ $34AC
+#W32($16CC)
+//・本当に余計なことだ[END-FE]
+・Yes, you did[END-FE]
+
+
+
+
+
+//POINTER #108 @ $16D0 - STRING #108 @ $34C3
+#W32($16D0)
+//・現実は非情なものだ[END-FE]
+・Reality is harsh[END-FE]
+
+
+
+
+
+//POINTER #109 @ $16D4 - STRING #109 @ $34DA
+#W32($16D4)
+//・事実確認の参考になった[END-FE]
+・It was helpful of you to confirm[NLINE]
+   the facts[END-FE]
+
+
+
+
+
+//POINTER #110 @ $16D8 - STRING #110 @ $34F5
+#W32($16D8)
+//[CHAR2403][V7D00]
+//そうですね…。[NLINE]
+//後でルキアスさんに謝っておきます。[END-FE]
+[CHAR2403][V7D00]
+You're right...[NLINE]
+I will apologize to Rukias[NLINE]
+later.[END-FE]
+
+
+
+
+
+//POINTER #111 @ $16DC - STRING #111 @ $3532
+#W32($16DC)
+//[CHAR2403][V7E00]
+//諦めさせてしまったようで、[NLINE]
+//申し訳ないです。[NLINE]
+//後でルキアスさんに謝っておきます。[END-FE]
+[CHAR2403][V7E00]
+It seems I made him lose hope.[NLINE]
+I'm very sorry. I will apologize[NLINE]
+to Rukias later.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $16E0 - STRING #112 @ $358D
+#W32($16E0)
+//[CHAR2403][V7F00]
+//えっ？　参考ですか？[END-FE]
+[CHAR2403][V7F00]
+Hmm? Helpful?[END-FE]
+
+
+
+
+
+//POINTER #113 @ $16E4 - STRING #113 @ $35AC
+#W32($16E4)
+//・事実を知れば諦められる[END-FE]
+・Now that he knows the facts, he can give up[END-FE]
+
+
+
+
+
+//POINTER #114 @ $16E8 - STRING #114 @ $35C7
+#W32($16E8)
+//・何としてもルキアスを過去に連れて行く[END-FE]
+・We will bring Rukias to the past[NLINE]
+ no matter what[END-FE]
+
+
+
+
+
+//POINTER #115 @ $16EC - STRING #115 @ $35F0
+#W32($16EC)
+//[CHAR2403][V8000]
+//そういうことですか。[NLINE]
+//でも、傷つけてしまったようですし、[NLINE]
+//後でルキアスさんに謝っておきます。[END-FE]
+[CHAR2403][V8000]
+I see. But it seems I hurt him.[NLINE]
+I will apologize to Rukias[NLINE]
+later.[END-FE]
+
+
+
+
+
+//POINTER #116 @ $16F0 - STRING #116 @ $3657
+#W32($16F0)
+//[CHAR2403][V8200]
+//つまり、ルキアスさんが[NLINE]
+//過去の自分と接触する前に[NLINE]
+//事件を解決するつもりですか？[NWIN]
+//
+//[CHAR2403][V8300]
+//…不可能とは申しませんが、[NLINE]
+//かなり危険です…。[END-FE]
+[CHAR2403][V8200]
+In other words, you intend to[NLINE]
+save Lela before Rukias comes[NLINE]
+into contact with his past self?[NWIN]
+
+[CHAR2403][V8300]
+...I won't say it's impossible,[NLINE]
+but there is considerable[NLINE]
+danger...[END-FE]
+
+
+
+
+
+//POINTER #117 @ $16F4 - STRING #117 @ $36E8
+#W32($16F4)
+//・それでも実行する[END-FE]
+・I will do it regardless[END-FE]
+
+
+
+
+
+//POINTER #118 @ $16F8 - STRING #118 @ $36FD
+#W32($16F8)
+//・危険は冒せない[END-FE]
+・We can't take the risk[END-FE]
+
+
+
+
+
+//POINTER #119 @ $16FC - STRING #119 @ $3710
+#W32($16FC)
+//[CHAR2403][V8400]
+//わかりました。[NLINE]
+//ではその事をルキアスさんに伝えて、[NLINE]
+//作戦を立てましょう。[NWIN]
+//
+//[CHAR2403][V8100]
+//過去の事実を変えるなら、[NLINE]
+//勇者様だけが行けば良いのですが、[NLINE]
+//それではルキアスさんのためになりませんからね。[END-FE]
+[CHAR2403][V8400]
+Understood. Then let's tell[NLINE]
+Rukias and form a plan.[NWIN]
+
+[CHAR2403][V8100]
+If we're going to change the[NLINE]
+past, it would best if you[NLINE]
+would go alone. However, that[NLINE]
+won't help Rukias.[END-FE]
+
+
+
+
+
+//POINTER #120 @ $1700 - STRING #120 @ $37D7
+#W32($1700)
+//[CHAR2403][V8500]
+//そうですね。[NLINE]
+//実際、危険が大きすぎますから。[END-FE]
+[CHAR2403][V8500]
+You're right.[NLINE]
+The risk would be too great.[END-FE]
+
+
+
+
+
+//POINTER #121 @ $1704 - STRING #121 @ $380E
+#W32($1704)
+//[CHAR2403][V8600]
+//ルキアスさん。[NLINE]
+//あの歪みのことなんですが…。[END-FE]
+[CHAR2403][V8600]
+Rukias, we would like to talk[NLINE]
+to you about that distortion...[END-FE]
+
+
+
+
+
+//POINTER #122 @ $1708 - STRING #122 @ $3845
+#W32($1708)
+//[CHAR2403][V8700]
+//どうせムリなんだろう？[END-FE]
+[CHAR2403][V8700]
+But no matter what we do,[NLINE]
+we can't use it to save[NLINE]
+Lela, right?[END-FE]
+
+
+
+
+
+//POINTER #123 @ $170C - STRING #123 @ $3866
+#W32($170C)
+//[CHAR2403][V8800]
+//勇者様のお話を[NLINE]
+//聞いていただけませんか？[END-FE]
+[CHAR2403][V8800]
+Did you hear from the[NLINE]
+Brave One?[END-FE]
+
+
+
+
+
+//POINTER #124 @ $1710 - STRING #124 @ $3899
+#W32($1710)
+//[CHAR2403][V8900]
+//話？[END-FE]
+[CHAR2403][V8900]
+Hear what?[END-FE]
+
+
+
+
+
+//POINTER #125 @ $1714 - STRING #125 @ $38A8
+#W32($1714)
+//[CHAR2403][V8A00]
+//実は…。[END-FE]
+[CHAR2403][V8A00]
+The truth is...[END-FE]
+
+
+
+
+
+//POINTER #126 @ $1718 - STRING #126 @ $38BB
+#W32($1718)
+//[CHAR2403][V8B00]
+//それじゃ、過去の俺が現れるまでの[NLINE]
+//短時間でレラを助け出すっていうのか？[END-FE]
+[CHAR2403][V8B00]
+So you're saying we will rescue[NLINE]
+Lera in the short period of time[NLINE]
+before my past self appears?[END-FE]
+
+
+
+
+
+//POINTER #127 @ $171C - STRING #127 @ $390C
+#W32($171C)
+//[CHAR2403][V8C00]
+//はい。[NLINE]
+//危険ですが、それしかありません。[END-FE]
+[CHAR2403][V8C00]
+Yes. It's dangerous, but[NLINE]
+that's the only way.[END-FE]
+
+
+
+
+
+//POINTER #128 @ $1720 - STRING #128 @ $393F
+#W32($1720)
+//[CHAR2403][V8D00]
+//あの時、俺はすぐにレラを追いかけた。[NLINE]
+//モンスターどもを足止めできたのは[NLINE]
+//せいぜい２、３分だった。[END-FE]
+[CHAR2403][V8D00]
+When I woke up, I went after Lela[NLINE]
+immediately. Before I passed out,[NLINE]
+I was only able to obstruct the monsters[NLINE]
+for two or three minutes at most.[END-FE]
+
+
+
+
+
+//POINTER #129 @ $1724 - STRING #129 @ $39AA
+#W32($1724)
+//[CHAR2403][V8E00]
+//その短時間で助けられなければ[NLINE]
+//おしまいです。[NWIN]
+//
+//[CHAR2403][V8F00]
+//一度干渉を受けた時間は耐性を持ち、[NLINE]
+//もう干渉できなくなります。[NWIN]
+//
+//[CHAR2403][V9000]
+//それでも良いなら…。[END-FE]
+[CHAR2403][V8E00]
+If we don't save her in that[NLINE]
+time frame, all will be over.[NWIN]
+
+[CHAR2403][V8F00]
+Time will become resistant after[NLINE]
+having been meddled with once.[NLINE]
+We won't be able to go back to[NLINE]
+that moment a second time.[NWIN]
+
+[CHAR2403][V9000]
+If you would still like to go[NLINE]
+through with this, please let[NLINE]
+me know..[END-FE]
+
+
+
+
+
+//POINTER #130 @ $1728 - STRING #130 @ $3A47
+#W32($1728)
+//[CHAR2403][V9100]
+//…少し考えさせてくれ…。[END-FE]
+[CHAR2403][V9100]
+...Let me think about it...[END-FE]
+
+
+
+
+
+//POINTER #131 @ $172C - STRING #131 @ $3A6A
+#W32($172C)
+//…すまない…。[NLINE]
+//…１人にしておいてくれ…。[END-FE]
+...Sorry, but could you[NLINE]
+leave me alone for a bit...?[END-FE]
+
+
+
+
+
+//POINTER #132 @ $1730 - STRING #132 @ $3A97
+#W32($1730)
+//[CHAR2403][V9200]
+//なぁ…、[NLINE]
+//あの話、覚えているか…？[END-FE]
+//Rukias\\
+[CHAR2403][V9200]
+Hey... Do you remember what[NLINE]
+we talked about...?[END-FE]
+
+
+
+
+
+//POINTER #133 @ $1734 - STRING #133 @ $3AC4
+#W32($1734)
+//[CHAR2403][V9300]
+//あの話というと、[NLINE]
+//過去に戻る件ですか？[END-FE]
+//Yurii\\
+[CHAR2403][V9300]
+About returning to the past?[END-FE]
+
+
+
+
+
+//POINTER #134 @ $1738 - STRING #134 @ $3AF5
+#W32($1738)
+//[CHAR2403][V9400]
+//ああ。[NWIN]
+//
+//[CHAR2403][V9500]
+//明日ここを出発すれば、[NLINE]
+//戻れるかどうかわからない。[NWIN]
+//
+//[CHAR2403][V9600]
+//だったら、今しかチャンスはないんだ。[NLINE]
+//俺と、一緒に過去に行ってくれないか？[END-FE]
+//Rukias\\
+[CHAR2403][V9400]
+Yeah.[NWIN]
+
+[CHAR2403][V9500]
+When we depart here tomorrow,[NLINE]
+I don't know if we can come back.[NWIN]
+
+[CHAR2403][V9600]
+So, now's the only chance.[NLINE]
+Will you go with me to the past?[END-FE]
+
+
+
+
+
+//POINTER #135 @ $173C - STRING #135 @ $3B96
+#W32($173C)
+//・引き受ける[END-FE]
+・Accept[END-FE]
+
+
+
+
+
+//POINTER #136 @ $1740 - STRING #136 @ $3BA5
+#W32($1740)
+//・断る[END-FE]
+・Refuse[END-FE]
+
+
+
+
+
+//POINTER #137 @ $1744 - STRING #137 @ $3BAE
+#W32($1744)
+//[CHAR2403][V9700]
+//ありがとう。[NWIN]
+//
+//[CC.BF6D00][CHAR2403][V9800]
+//それじゃ、サッサと行って[NLINE]
+//帰ってこようぜ！[END-FE]
+//Rukias\\
+[CHAR2403][V9700]
+Thanks.[NWIN]
+
+[CC.BF6D00][CHAR2403][V9800]
+Alright, let's go there and[NLINE]
+then get back here as quickly[NLINE]
+as possible![END-FE]
+
+
+
+
+
+//POINTER #138 @ $1748 - STRING #138 @ $3BFD
+#W32($1748)
+//[CHAR2403][V9900]
+//…そうか…。[NLINE]
+//タイミングが悪いよな。[NWIN]
+//
+//[CHAR2403][V9A00]
+//すまないな。[NLINE]
+//聞かなかったことにしてくれ。[END-FE]
+[CHAR2403][V9900]
+...Right...[NLINE]
+It's bad timing.[NWIN]
+
+[CHAR2403][V9A00]
+Sorry, please forget what[NLINE]
+I said.[END-FE]
+
+
+
+
+
+//POINTER #139 @ $174C - STRING #139 @ $3C60
+#W32($174C)
+//いよいよ明日は、[NLINE]
+//天翔船に向かうのか…。[NWIN]
+//
+//大地の里の生き残りとして、[NLINE]
+//務めを果たすときがきたぜ…。[END-FE]
+Tomorrow we will finally[NLINE]
+head towards the Celestial[NLINE]
+Ship.[NWIN]
+
+The time has come to fulfill[NLINE]
+my duty as survivor of Earth[NLINE]
+Village...[END-FE]
+
+
+
+
+
+//POINTER #140 @ $1750 - STRING #140 @ $3CC5
+#W32($1750)
+//いよいよ、大地の里の生き残りとして、[NLINE]
+//務めを果たすときだぜ…。[END-FE]
+The time has finally come to[NLINE]
+fulfill duty as survivor of Earth[NLINE]
+Village...[END-FE]
+
+
+
+
+
+//POINTER #141 @ $1754 - STRING #141 @ $3D06
+#W32($1754)
+//[CHAR2403][VC600]
+//話ってなんだ？[NLINE]
+//アンタには世話になったからな。[NLINE]
+//俺に出来ることなら、何でも言ってくれ。[END-FE]
+[CHAR2403][VC600]
+What is it? You've looked after[NLINE]
+all this time, so if there's[NLINE]
+anything I can do, just tell me.[END-FE]
+
+
+
+
+
+//POINTER #142 @ $1758 - STRING #142 @ $3D67
+#W32($1758)
+//[CHAR2403][VB700]
+//勇者様は、最後の戦いで[NLINE]
+//ルキアスさんを第一に連れて行きたいと[NLINE]
+//申しております。[END-FE]
+[CHAR2403][VB700]
+The Brave One said you're[NLINE]
+the person he wants to bring[NLINE]
+to the final battle the most.[END-FE]
+
+
+
+
+
+//POINTER #143 @ $175C - STRING #143 @ $3DC0
+#W32($175C)
+//[CHAR2403][VB800]
+//えっ？[NLINE]
+//…それって、この俺を[NLINE]
+//頼りにしてくれているってことか？[END-FE]
+[CHAR2403][VB800]
+What?[NLINE]
+...So you've put your trust[NLINE]
+in me?[END-FE]
+
+
+
+
+
+//POINTER #144 @ $1760 - STRING #144 @ $3E09
+#W32($1760)
+//[CHAR2403][VB900]
+//はい、[NLINE]
+//そう取られて良いと思います。[END-FE]
+[CHAR2403][VB900]
+Yes, that's how I interpret it.[END-FE]
+
+
+
+
+
+//POINTER #145 @ $1764 - STRING #145 @ $3E38
+#W32($1764)
+//[CHAR2403][VBA00]
+//その…、正直うれしいぜ。[NLINE]
+//アンタはオレの目標だから。[NLINE]
+//そのアンタに頼りにされる日が[NLINE]
+//来るなんてな…。[NWIN]
+//
+//[CHAR2403][VBB00]
+//アンタを目標にがんばってみたけど、[NLINE]
+//正直、俺じゃ敵わないって[NLINE]
+//痛感していたよ。[NWIN]
+//
+//[CH.FACE:Laughing][CHAR2403][VBC00]
+//力の強さだけじゃない、[NLINE]
+//心の強さ、行動力そして、[NLINE]
+//みんなをまとめる力…。[NLINE]
+//そのすべてでアンタはすごいよ。[NWIN]
+//
+//[CHAR2403][VBD00]
+//俺が認めた人物に、[NLINE]
+//認め返されるなんて、[NLINE]
+//これ以上光栄なことがあるか？[NWIN]
+//
+//[CH.FACE:Shy][CHAR2403][VBE00]
+//この戦いが終わったらさ、[NLINE]
+//オレは大地の里に帰ろうと思う。[NWIN]
+//
+//[CHAR2403][VBF00]
+//ほとんど壊れちまってるけど、[NLINE]
+//あそこはオレの故郷だからな。[NLINE]
+//復興させてやろうと思う。[NWIN]
+//
+//[CHAR2403][VC000]
+//その…、[NLINE]
+//アンタはそう考えてないかもしれないけど[NLINE]
+//あそこはアンタの故郷でもあるんだぜ。[NWIN]
+//
+//[CHAR2403][VC100]
+//…だからさ、[NLINE]
+//終わったらいっしょに帰らないか？[NLINE]
+//俺たちの故郷に…。[END-FE]
+[CHAR2403][VBA00]
+To tell you the truth...[NLINE]
+... that makes me happy.[NLINE]
+My goal was to be like you.[NLINE]
+And now you're the one who[NLINE]
+is relying on me...[NWIN]
+
+[CHAR2403][VBB00]
+I've tried hard to surpass you.[NLINE]
+But to be honest, I've come to[NLINE]
+realize that you and I are[NLINE]
+no match.[NWIN]
+
+[CH.FACE:Laughing][CHAR2403][VBC00]
+You're not not just physically[NLINE]
+strong, but also strong of mind,[NLINE]
+proactive, and able to unite[NLINE]
+everyone... You're amazing at[NLINE]
+all these things.[NWIN]
+
+[CHAR2403][VBD00]
+Is there any more honor[NLINE]
+in being recognized by[NLINE]
+the person I look up to?[NWIN]
+
+[CH.FACE:Shy][CHAR2403][VBE00]
+After this battle is over,[NLINE]
+I'm thinking of returning[NLINE]
+to Earth Village.[NWIN]
+
+[CHAR2403][VBF00]
+It's mostly destroyed, but it's[NLINE]
+the place where I grew up.[NLINE]
+I'm going to rebuilt it.[NWIN]
+
+[CHAR2403][VC000]
+And...[NLINE]
+You may not think so, but it's[NLINE]
+your home too in a way.[NWIN]
+
+[CHAR2403][VC100]
+...So, after this is over, how[NLINE]
+you and I go back? To our[NLINE]
+home...?[END-FE]
+
+
+
+
+
+//POINTER #146 @ $1768 - STRING #146 @ $4115
+#W32($1768)
+//[CHAR2403][VC200]
+//そうと決まれば、[NLINE]
+//この戦いを終わらせて帰ろうぜ！[NLINE]
+//俺たちの故郷に！[END-FE]
+[CHAR2403][VC200]
+It's been decided! Let's[NLINE]
+go back to our home after[NLINE]
+this battle is over![END-FE]
+
+
+
+
+
+//POINTER #147 @ $176C - STRING #147 @ $4162
+#W32($176C)
+//[CHARCE00][V0000]
+//…うぅ…ううぅ…。[NWIN]
+//
+//[CHARCE00][V0100]
+//…う…く、くそ……。[NWIN]
+//
+//[CHARCE00][V0200]
+//…レラ…逃げろ…レラ…！[NWIN]
+//
+//[CHARCE00][V0300]
+//…う…うわぁ…！[NWIN]
+//
+//[CHARCE00][V0400]
+//…レラ、レラーー！[END-FE]
+[CHARCE00][V0000]
+... Uhh... Ugh...[NWIN]
+
+[CHARCE00][V0100]
+...Uh... D-damn...[NWIN]
+
+[CHARCE00][V0200]
+Lela... Run... Lela![NWIN]
+
+[CHARCE00][V0300]
+...U-uwaaa...![NWIN]
+
+[CHARCE00][V0400]
+...Lera! Lelaaa![END-FE]
+
+
+
+
+
+//POINTER #148 @ $1770 - STRING #148 @ $41F5
+#W32($1770)
+//[CHARCE00][V0500]
+//…今のは、[NLINE]
+//ルキアスさんの声ですね…。[NWIN]
+//
+//[CH.FACE:Sad][CHARCE00][V0600]
+//何かうなされているようですね。[END-FE]
+[CHARCE00][V0500]
+That was Rukias' voice[NLINE]
+just now...[NWIN]
+
+[CH.FACE:Sad][CHARCE00][V0600]
+It seems he's having a nightmare.[END-FE]
+
+
+
+
+
+//POINTER #149 @ $1774 - STRING #149 @ $4252
+#W32($1774)
+//[CHARCE00][V0900]
+//…ふぅ…。[END-FE]
+[CHARCE00][V0900]
+...Haaa..[END-FE]
+
+
+
+
+
+//POINTER #150 @ $1778 - STRING #150 @ $4267
+#W32($1778)
+//[CHARCE00][V0A00]
+//ルキアスさん、いかがなされましたか？[END-FE]
+[CHARCE00][V0A00]
+Rukias, what's the matter?[END-FE]
+
+
+
+
+
+//POINTER #151 @ $177C - STRING #151 @ $4296
+#W32($177C)
+//[CHARCE00][V0B00]
+//…何でもない…。[END-FE]
+[CHARCE00][V0B00]
+...It's nothing...[END-FE]
+
+
+
+
+
+//POINTER #152 @ $1780 - STRING #152 @ $42B1
+#W32($1780)
+//[CHARCE00][V0C00]
+//ちょっと、ルキアス君？[NLINE]
+//気分が悪いのはわかるけど、[NLINE]
+//そういう言い方は良くないんじゃないかな？[END-FE]
+[CHARCE00][V0C00]
+Hold on, Rukias.[NLINE]
+We know something is wrong, so[NLINE]
+don't talk like that.[END-FE]
+
+
+
+
+
+//POINTER #153 @ $1784 - STRING #153 @ $4318
+#W32($1784)
+//[CH.FACE:Close-Eyes][CC.AC00][CHARCE00][V0D00]
+//…[CC.D80F]…[CC.D80F]…。[END-FE]
+[CH.FACE:Close-Eyes][CC.AC00][CHARCE00][V0D00]
+.[CC.D80F].[CC.D80F].[END-FE]
+
+
+
+
+
+//POINTER #154 @ $1788 - STRING #154 @ $4337
+#W32($1788)
+//・ルキアスをかばう[END-FE]
+・Defend Rukias[END-FE]
+
+
+
+
+
+//POINTER #155 @ $178C - STRING #155 @ $434C
+#W32($178C)
+//・ウェンディに同意する[END-FE]
+・Agree with Wendy[END-FE]
+
+
+
+
+
+//POINTER #156 @ $1790 - STRING #156 @ $4365
+#W32($1790)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #157 @ $1794 - STRING #157 @ $4374
+#W32($1794)
+//[CHARCE00][V0E00]
+//えぇ～！[NLINE]
+//悪いのは私の方なの？[END-FE]
+[CHARCE00][V0E00]
+Huh!? I'm the bad guy?[END-FE]
+
+
+
+
+
+//POINTER #158 @ $1798 - STRING #158 @ $439D
+#W32($1798)
+//[CH.FACE:Open-Eyes][CHARCE00][V0F00]
+//…わかったよ、[NLINE]
+//俺が悪かったよ。[END-FE]
+[CH.FACE:Open-Eyes][CHARCE00][V0F00]
+...Alright, I'm sorry, OK?[END-FE]
+
+
+
+
+
+//POINTER #159 @ $179C - STRING #159 @ $43CB
+#W32($179C)
+//[CHARCE00][V1000]
+//…ただ夢見が悪かっただけだ。[NWIN]
+//
+//[CHARCE00][V1100]
+//毎晩のことだがな。[NWIN]
+//
+//[CH.FACE:Close-Eyes][CH.FACE:Angry][CHARCE00][V1200]
+//…くそっ、[NLINE]
+//ぐっすりと眠ってみたいぜ…。[END-FE]
+[CHARCE00][V1000]
+...It's just that I had a bad dream.[NWIN]
+
+[CHARCE00][V1100]
+I have it very night.[NWIN]
+
+[CH.FACE:Close-Eyes][CH.FACE:Angry][CHARCE00][V1200]
+...Damn, it seems I talked in my[NLINE]
+sleep...[END-FE]
+
+
+
+
+
+//POINTER #160 @ $17A0 - STRING #160 @ $4447
+#W32($17A0)
+//[CHARCE00][V1300]
+//…えっ!?[END-FE]
+[CHARCE00][V1300]
+...Huh!?[END-FE]
+
+
+
+
+
+//POINTER #161 @ $17A4 - STRING #161 @ $445A
+#W32($17A4)
+//[CH.FACE:Open-Eyes][CHARCE00][V1400]
+//…さ、そろそろ出発しようぜ。[END-FE]
+[CH.FACE:Open-Eyes][CHARCE00][V1400]
+...Anyway, let's get going.[END-FE]
+
+
+
+
+
+//POINTER #162 @ $17A8 - STRING #162 @ $4484
+#W32($17A8)
+//[CHARCE00][V0000]
+//…うぅ…ううぅ…。[NWIN]
+//
+//[CHARCE00][V0200]
+//…レラ…逃げろ…レラ…！[END-FE]
+[CHARCE00][V0000]
+... Uhh... Ugh...[NWIN]
+
+[CHARCE00][V0200]
+...Lela...Run...Lela...![END-FE]
+
+
+
+
+
+//POINTER #163 @ $17AC - STRING #163 @ $44C3
+#W32($17AC)
+//[CHARCE00][V0700]
+//…またうなされていますね…。[NLINE]
+//ルキアスさん、かわいそうに…。[END-FE]
+[CHARCE00][V0700]
+...He's having another bad dream,[NLINE]
+isn't he? Poor Rukias...[END-FE]
+
+
+
+
+
+//POINTER #164 @ $17B0 - STRING #164 @ $450A
+#W32($17B0)
+//[CHARCE00][V0800]
+//…ルキアスさん、辛そうですね。[END-FE]
+[CHARCE00][V0800]
+...It seems Rukias is having[NLINE]
+a hard time.[END-FE]
+
+
+
+
+
+//POINTER #165 @ $17B4 - STRING #165 @ $4533
+#W32($17B4)
+//[CC.AC00][CHARCE00][V1500]
+//…………。[END-FE]
+[CC.AC00][CHARCE00][V1500]
+...[END-FE]
+
+
+
+
+
+//POINTER #166 @ $17B8 - STRING #166 @ $454B
+#W32($17B8)
+//[CHARCE00][V1600]
+//どうかされましたか、[NLINE]
+//ルキアスさん？[END-FE]
+[CHARCE00][V1600]
+Is something the matter,[NLINE]
+Rukias?[END-FE]
+
+
+
+
+
+//POINTER #167 @ $17BC - STRING #167 @ $457A
+#W32($17BC)
+//[CHARCE00][V1700]
+//…あの人は、レラの母親だ…。[END-FE]
+[CHARCE00][V1700]
+...That person is Lera's[NLINE]
+mother...[END-FE]
+
+
+
+
+
+//POINTER #168 @ $17C0 - STRING #168 @ $45A1
+#W32($17C0)
+//[CHARCE00][V1800]
+//知っているのですか？[END-FE]
+[CHARCE00][V1800]
+Does she know?[END-FE]
+
+
+
+
+
+//POINTER #169 @ $17C4 - STRING #169 @ $45C0
+#W32($17C4)
+//[CH.FACE:Close-Eyes][CHARCE00][V1900]
+//…いい人だったのに…。[NLINE]
+//自分の娘の死を受け入れられず、[NLINE]
+//あんな風になっちまった…。[NWIN]
+//
+//[CH.FACE:Open-Eyes][CHARCE00][V1A00]
+//行こうぜ。[NLINE]
+//あの人を見てるのは辛い…。[END-FE]
+[CH.FACE:Close-Eyes][CHARCE00][V1900]
+...She's a good person... but[NLINE]
+she couldn't accept the death[NLINE]
+of her daughter, and ended up[NLINE]
+like that...[NWIN]
+
+[CH.FACE:Open-Eyes][CHARCE00][V1A00]
+Let's go. It's painful to look[NLINE]
+at her...[END-FE]
+
+
+
+
+
+//POINTER #170 @ $17C8 - STRING #170 @ $4653
+#W32($17C8)
+//なぁ…[CC.D80F]…[CC.D80F]…、[CC.D814][NLINE]
+//いや、何でもない…。[END-FE]
+Hey.[CC.D80F].[CC.D80F].[CC.D814][NLINE]
+Never mind...[END-FE]
+
+
+
+
+
+//POINTER #171 @ $17CC - STRING #171 @ $4681
+#W32($17CC)
+//・黙って立ち去る[END-FE]
+・Leave without saying a word[END-FE]
+
+
+
+
+
+//POINTER #172 @ $17D0 - STRING #172 @ $4694
+#W32($17D0)
+//・ちゃんと言わせる[END-FE]
+・Make him talk[END-FE]
+
+
+
+
+
+//POINTER #173 @ $17D4 - STRING #173 @ $46A9
+#W32($17D4)
+//・迷っているのかと言う[END-FE]
+・Ask if he's lost[END-FE]
+
+
+
+
+
+//POINTER #174 @ $17D8 - STRING #174 @ $46C2
+#W32($17D8)
+//…まぁ、それはそうなんだが…。[END-FE]
+...Well, yeah, but...[END-FE]
+
+
+
+
+
+//POINTER #175 @ $17DC - STRING #175 @ $46E3
+#W32($17DC)
+//なぁ、正直に答えてほしいんだが、[NLINE]
+//俺は強くなっているか？[END-FE]
+Hey, I want you to answer[NLINE]
+me honestly. Have I gotten[NLINE]
+stronger?[END-FE]
+
+
+
+
+
+//POINTER #176 @ $17E0 - STRING #176 @ $471E
+#W32($17E0)
+//…そうか…。[NLINE]
+//これでも強くなっているのか…。[END-FE]
+...Right...[NLINE]
+So I've gotten stronger after[NLINE]
+all...[END-FE]
+
+
+
+
+
+//POINTER #177 @ $17E4 - STRING #177 @ $474D
+#W32($17E4)
+//…そうか…。[NLINE]
+//この程度じゃ、まだまだだよな…。[END-FE]
+...Right...[NLINE]
+So I still have a long way to go...[END-FE]
+
+
+
+
+
+//POINTER #178 @ $17E8 - STRING #178 @ $477E
+#W32($17E8)
+//やっぱりアンタはすごいよな。[NLINE]
+//アンタは、自分のすることに迷いがない。[NLINE]
+//少なくとも、俺にはそう見えるんだ。[NWIN]
+//
+//[CH.FACE:Close-Eyes]
+//俺も、アンタみたくなれれば[NLINE]
+//迷わずに決められるんだろうけどな…。[NLINE]
+//やっぱり、いろいろ考えちまうんだ。[NWIN]
+//
+//[CH.FACE:Open-Eyes]
+//悪いけど、まだ答えは出そうにない。[NLINE]
+//もう少しだけ、考えさせてくれ…。[END-FE]
+As I thought, you're really amazing.[NLINE]
+You do things without hesitation.[NLINE]
+At least, that's what it looks like[NLINE]
+to me.[NWIN]
+
+[CH.FACE:Close-Eyes]
+If I could become like you, I[NLINE]
+wonder if I could decide without[NLINE]
+hesitating...[NLINE]
+Here I go, thinking about various[NLINE]
+things again.[NWIN]
+
+[CH.FACE:Open-Eyes]
+I'm sorry, but I still can't[NLINE]
+answer. Give me a little[NLINE]
+more time...[END-FE]
+
+
+
+
+
+//POINTER #179 @ $17EC - STRING #179 @ $489B
+#W32($17EC)
+//さっきの戦いの時に現れた[NLINE]
+//赤狼隊の男…。[NWIN]
+//
+//あの赤狼隊員はスクリーパーと[NLINE]
+//対等に戦っていたよな。[NWIN]
+//
+//俺もあれくらい強ければ、[NLINE]
+//何も迷うことはないんだけどな…。[END-FE]
+That Red Wolf Unit member[NLINE]
+who appeared during the[NLINE]
+battle from earlier...[NWIN]
+
+He was able to fight on equal[NLINE]
+footing with Screapers.[NWIN]
+
+If I could be that strong,[NLINE]
+I wouldn't never hesitate[NLINE]
+about anything...[END-FE]
+
+
+
+
+
+//POINTER #180 @ $17F0 - STRING #180 @ $4938
+#W32($17F0)
+//…やっぱり、[NLINE]
+//アンタってすごいよな。[NWIN]
+//
+//今なら、自分が子供だったって、[NLINE]
+//素直に認められるよ。[NWIN]
+//
+//精一杯、背伸びをして、[NLINE]
+//それでもアンタには届かない…。[NWIN]
+//
+//アンタには、己の強さ以外にも[NLINE]
+//他の人間を引っ張っていく、[NLINE]
+//そんな力があるんだな…。[NWIN]
+//
+//そして、不可能と思えることを[NLINE]
+//次々と可能にしてしまう…。[NLINE]
+//これじゃ、勝てるはずがない。[END-FE]
+...Just as I thought, you're[NLINE]
+incredible.[NWIN]
+
+Now I can honestly admit I'm[NLINE]
+just a kid.[NWIN]
+
+Even if I pushed myself[NLINE]
+beyond my own limit, I still[NLINE]
+wouldn't be able to rise to[NLINE]
+your level.[NWIN]
+
+And aside from your own strength,[NLINE]
+you also have the power to draw[NLINE]
+out strength in others...[NWIN]
+
+Time after time, you made things that[NLINE]
+seemed impossible, possible....[NLINE]
+I have no chance of ever winning[NLINE]
+against you.[END-FE]
+
+
+
+
+
+//POINTER #181 @ $17F4 - STRING #181 @ $4A79
+#W32($17F4)
+//・胸を張る[END-FE]
+・Puff out your chest[END-FE]
+
+
+
+
+
+//POINTER #182 @ $17F8 - STRING #182 @ $4A86
+#W32($17F8)
+//・謙遜する[END-FE]
+・Be modest[END-FE]
+
+
+
+
+
+//POINTER #183 @ $17FC - STRING #183 @ $4A93
+#W32($17FC)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #184 @ $1800 - STRING #184 @ $4AA2
+#W32($1800)
+//ははは…！[NLINE]
+//そうやってふざける姿も、[NLINE]
+//イヤミに見えないや…。[END-FE]
+Hahaha...![NLINE]
+Even if you clown around like[NLINE]
+that, you're not annoying...[END-FE]
+
+
+
+
+
+//POINTER #185 @ $1804 - STRING #185 @ $4AE1
+#W32($1804)
+//確かに仲間一人一人の力は認めるが、[NLINE]
+//もっと自分を誇ってもいいんだぜ？[END-FE]
+It's true that the strength of[NLINE]
+all the members of our group should[NLINE]
+be acknowledged, but it wouldn't[NLINE]
+hurt to be more proud of yourself,[NLINE]
+you know.[END-FE]
+
+
+
+
+
+//POINTER #186 @ $1808 - STRING #186 @ $4B28
+#W32($1808)
+//なんだい、[NLINE]
+//照れて何も言えないのか？[END-FE]
+What? You're too shy to[NLINE]
+say anything?[END-FE]
+
+
+
+
+
+//POINTER #187 @ $180C - STRING #187 @ $4B4F
+#W32($180C)
+//…なぁ、どうしてチャンスは[NLINE]
+//１度しかないんだろうな。[NWIN]
+//
+//何度でもやり直せれば、[NLINE]
+//レラを助けに行くことに、[NLINE]
+//こんなにも臆病にならずに済むのに。[END-FE]
+...So I guess we only have one[NLINE]
+chance.[NWIN]
+
+If I could try over again,[NLINE]
+I wouldn't be so hesitant[NLINE]
+about going to save Lela.[END-FE]
+
+
+
+
+
+//POINTER #188 @ $1810 - STRING #188 @ $4BDC
+#W32($1810)
+//・そのチャンスを捨てる気か？[END-FE]
+・Do you intend to throw away your one chance?[END-FE]
+
+
+
+
+
+//POINTER #189 @ $1814 - STRING #189 @ $4BFB
+#W32($1814)
+//・本来はそのチャンスもなかった[END-FE]
+・Normally, you wouldn't even have this chance[END-FE]
+
+
+
+
+
+//POINTER #190 @ $1818 - STRING #190 @ $4C1C
+#W32($1818)
+//・チャンスは１度あれば十分[END-FE]
+・One chance is enough[END-FE]
+
+
+
+
+
+//POINTER #191 @ $181C - STRING #191 @ $4C39
+#W32($181C)
+//…そうか…。[NLINE]
+//こうやって迷っていたら[NLINE]
+//せっかくのチャンスが無駄になるか。[END-FE]
+...You're right...[NLINE]
+If I keep fretting like this, I'll[NLINE]
+end up wasting this precious opportunity.[END-FE]
+
+
+
+
+
+//POINTER #192 @ $1820 - STRING #192 @ $4C84
+#W32($1820)
+//そうだよな…。[NLINE]
+//普通は過去を変えるなんて[NLINE]
+//出来ないんだよな…。[NWIN]
+//
+//[CH.FACE:Normal]
+//そう考えると、[NLINE]
+//このチャンスは１回でも[NLINE]
+//尊いものだったんだ…。[END-FE]
+You're right...[NLINE]
+Normally it's not even possible[NLINE]
+to change the past.[NWIN]
+
+[CH.FACE:Normal]
+Now that I think about it,[NLINE]
+the fact that I have a chance[NLINE]
+to begin with is something[NLINE]
+I should be grateful for.[END-FE]
+
+
+
+
+
+//POINTER #193 @ $1824 - STRING #193 @ $4D09
+#W32($1824)
+//さすがだな。[NLINE]
+//そう言いきれるアンタが[NLINE]
+//今の俺にはまぶしいよ。[END-FE]
+That's such a typical thing[NLINE]
+for you to say. The fact[NLINE]
+you're so confident when[NLINE]
+saying that is amazing to me.[END-FE]
+
+
+
+
+
+//POINTER #194 @ $1828 - STRING #194 @ $4D48
+#W32($1828)
+//いろいろありがとう。[NLINE]
+//アンタの助言をムダにしないよう、[NLINE]
+//最善の方法を考えてみるよ。[NWIN]
+//
+//悪いけど、[NLINE]
+//少し一人にさせてくれないか？[END-FE]
+Thank you for everything. I[NLINE]
+I'll think of the best way[NLINE]
+to go about things so that[NLINE]
+your words of encouragement won't[NLINE]
+be for nothing.[NWIN]
+
+Sorry, but could you let me be[NLINE]
+alone for a while?[END-FE]
+
+
+
+
+
+//POINTER #195 @ $182C - STRING #195 @ $4DC7
+#W32($182C)
+//[CHAR2403][V9100]
+//…少し考えさせてくれ…。[END-FE]
+[CHAR2403][V9100]
+...Give me some time to think...[END-FE]
+
+
+
+
+
+//POINTER #196 @ $1830 - STRING #196 @ $4DEA
+#W32($1830)
+//なぁ、正直に答えてほしいんだが、[NLINE]
+//俺は強くなっているか？[END-FE]
+Hey, I want you to answer[NLINE]
+me honestly. Have I gotten[NLINE]
+stronger?[END-FE]
+
+
+
+
+
+//POINTER #197 @ $1834 - STRING #197 @ $4E25
+#W32($1834)
+//…そうか…。[NLINE]
+//これでも強くなっているのか…。[END-FE]
+...Right...[NLINE]
+So I've gotten stronger after[NLINE]
+all...[END-FE]
+
+
+
+
+
+//POINTER #198 @ $1838 - STRING #198 @ $4E54
+#W32($1838)
+//…そうか…。[NLINE]
+//この程度じゃ、まだまだだよな…。[END-FE]
+...Right...[NLINE]
+So I still have a long way to go...[END-FE]
+
+
+
+
+
+//POINTER #199 @ $183C - STRING #199 @ $4E85
+#W32($183C)
+//[CH.FACE:Close-Eyes]
+//…それに…、今さら強くなっても、[NLINE]
+//レラは…もう…。[END-FE]
+[CH.FACE:Close-Eyes]
+...But... even if I would get stronger[NLINE]
+now, Lela would still be...[END-FE]
+
+
+
+
+
+//POINTER #200 @ $1840 - STRING #200 @ $4EBD
+#W32($1840)
+//ルキアスさん、[NLINE]
+//何を見ているんですか？[END-FE]
+//Yurii\\
+Rukias, what are you[NLINE]
+looking at?[END-FE]
+
+
+
+
+
+//POINTER #201 @ $1844 - STRING #201 @ $4EE6
+#W32($1844)
+//…[CC.D80F]…[CC.D80F]…。[NLINE]
+//あの女の子、レラに似てる…。[END-FE]
+//Rukias\\
+...[CC.D80F]...[CC.D80F]...[NLINE]
+That child looks like Lera...[END-FE]
+
+
+
+
+
+//POINTER #202 @ $1848 - STRING #202 @ $4F15
+#W32($1848)
+//それは…。[END-FE]
+//Yurii\\
+Rukias...[END-FE]
+
+
+
+
+
+//POINTER #203 @ $184C - STRING #203 @ $4F22
+#W32($184C)
+//[CH.FACE:Close-Eyes]
+//…わかってるよ…。[NWIN]
+//
+//いつまでも引きずってちゃダメだ、[NLINE]
+//それはわかってるんだ…。[NWIN]
+//
+//[CH.FACE:Open-Eyes][CH.FACE:Sad]
+//…だけど、[NLINE]
+//…忘れられないんだ…。[NWIN]
+//
+//毎晩のように、[NLINE]
+//悪夢が俺を責めるんだ…。[END-FE]
+//Rukias\\
+[CH.FACE:Close-Eyes]
+...I get it...[NWIN]
+
+I can't drag this out forever,[NLINE]
+I get that...[NWIN]
+
+[CH.FACE:Open-Eyes][CH.FACE:Sad]
+...But... I just can't[NLINE]
+forget...[NWIN]
+
+Every night, I'm being tormented[NLINE]
+by nightmares...[END-FE]
+
+
+
+
+
+//POINTER #204 @ $1850 - STRING #204 @ $4FCB
+#W32($1850)
+//…すまない…。[NLINE]
+//…１人にしておいてくれ。[END-FE]
+//Rukias\\
+...Sorry, but could you[NLINE]
+please leave me alone?[END-FE]
+
+
+
+
+
+//POINTER #205 @ $1854 - STRING #205 @ $4FF6
+#W32($1854)
+//…[CC.D80F]…[CC.D80F]…。[NLINE]
+//あの女の人、レラの母親なんだ…。[END-FE]
+...[CC.D80F]...[CC.D80F]...[NLINE]
+That person is Lela's mother...[END-FE]
+
+
+
+
+
+//POINTER #206 @ $1858 - STRING #206 @ $5029
+#W32($1858)
+//それは…。[END-FE]
+Rukias...[END-FE]
+
+
+
+
+
+//POINTER #207 @ $185C - STRING #207 @ $5036
+#W32($185C)
+//[CH.FACE:Close-Eyes]
+//…あの時俺が、[NLINE]
+//レラを守ってあげられれば…。[NWIN]
+//
+//あの人があんな風になることも…。[NLINE]
+//…くそっ！[END-FE]
+[CH.FACE:Close-Eyes]
+...If I had protected[NLINE]
+Lela back then...[NWIN]
+
+Her mother wouldn't have[NLINE]
+ended up like that...[NLINE]
+...Damn it![END-FE]
+
+
+
+
+
+//POINTER #208 @ $1860 - STRING #208 @ $5096
+#W32($1860)
+//…すまない…。[NLINE]
+//…１人にしておいてくれ。[END-FE]
+...Sorry, but could you[NLINE]
+please leave me alone?[END-FE]
+
+
+
+
+
+//POINTER #209 @ $1864 - STRING #209 @ $50C1
+#W32($1864)
+//…すまない…。[NLINE]
+//…１人にしておいてくれ。[END-FE]
+...Sorry, but could you[NLINE]
+please leave me alone?[END-FE]
+
+
+
+

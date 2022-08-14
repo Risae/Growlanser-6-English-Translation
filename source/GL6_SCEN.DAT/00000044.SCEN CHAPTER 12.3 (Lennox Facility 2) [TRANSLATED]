@@ -1,0 +1,1291 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $34A0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3320, 4, PTR)
+
+#JMP($34A0)
+#HDR($34A0)
+
+
+
+
+
+//POINTER #0 @ $3320 - STRING #0 @ $34A0
+#W32($3320)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3324 - STRING #1 @ $34A3
+#W32($3324)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3328 - STRING #2 @ $34B0
+#W32($3328)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $332C - STRING #3 @ $34D5
+#W32($332C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3330 - STRING #4 @ $34FA
+#W32($3330)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3334 - STRING #5 @ $350F
+#W32($3334)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3338 - STRING #6 @ $3534
+#W32($3338)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $333C - STRING #7 @ $3559
+#W32($333C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3340 - STRING #8 @ $358E
+#W32($3340)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3344 - STRING #9 @ $35C3
+#W32($3344)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3348 - STRING #10 @ $35E8
+#W32($3348)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $334C - STRING #11 @ $360D
+#W32($334C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3350 - STRING #12 @ $3632
+#W32($3350)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3354 - STRING #13 @ $3647
+#W32($3354)
+//レノックス研究所[END-FE]
+Lennox Research Facility[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3358 - STRING #14 @ $365A
+#W32($3358)
+//[CHAR5100][V0000]
+//うまく入り込めましたね。[NWIN]
+//
+//[CHAR5100][V0100]
+//では、中の警備兵に見つからないように[NLINE]
+//手術を受けたという女性を探しましょう。[END-FE]
+[CHAR5100][V0000]
+We managed to get inside undetected.[NWIN]
+
+[CHAR5100][V0100]
+Let's search for the woman who[NLINE]
+received that operation before[NLINE]
+the enemy finds us.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $335C - STRING #15 @ $36D3
+#W32($335C)
+//・居場所がわからない[END-FE]
+・I don't know where she is[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3360 - STRING #16 @ $36EA
+#W32($3360)
+//・居場所を知っている[END-FE]
+・I know where she is[END-FE]
+
+
+
+
+
+//POINTER #17 @ $3364 - STRING #17 @ $3701
+#W32($3364)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3368 - STRING #18 @ $3710
+#W32($3368)
+//[CHAR5100][V0200]
+//わからないからと[NLINE]
+//ここに立ち止まっていても[NLINE]
+//いずれ敵に見つかります。[NLINE]
+//早く探しましょう！[END-FE]
+[CHAR5100][V0200]
+Even if you don't know, just standing[NLINE]
+around here is a surefire way to[NLINE]
+get caught. Let's search go for her[NLINE]
+quickly![END-FE]
+
+
+
+
+
+//POINTER #19 @ $336C - STRING #19 @ $3773
+#W32($336C)
+//[CHAR5100][V0300]
+//本当ですか？[NLINE]
+//それは心強いです！[END-FE]
+[CHAR5100][V0300]
+Really?[NLINE]
+That's reassuring![END-FE]
+
+
+
+
+
+//POINTER #20 @ $3370 - STRING #20 @ $379E
+#W32($3370)
+//[CHAR5100][V0400]
+//では、参りましょう！[END-FE]
+[CHAR5100][V0400]
+Let's get moving![END-FE]
+
+
+
+
+
+//POINTER #21 @ $3374 - STRING #21 @ $37BD
+#W32($3374)
+//・警備兵に気づかれずに、[NLINE]
+//　目的の女性を連れ出す[END-FE]
+・Take the girl with you without[NLINE]
+ being noticed by guards[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3378 - STRING #22 @ $37F0
+#W32($3378)
+//・警備兵に発見される[END-FE]
+・You're discovered by the guards[END-FE]
+
+
+
+
+
+//POINTER #23 @ $337C - STRING #23 @ $3807
+#W32($337C)
+//・警備兵に気づかれずに、[NLINE]
+//　目的の女性を連れ出す[END-FE]
+・Take the girl with you without[NLINE]
+ being noticed by guards[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3380 - STRING #24 @ $383A
+#W32($3380)
+//・警備兵に発見される[END-FE]
+・You're discovered by the guards[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3384 - STRING #25 @ $3851
+#W32($3384)
+//・警備兵に気づかれずに、[NLINE]
+//　目的の女性を連れ出す[END-FE]
+・Take the girl with you without[NLINE]
+ being noticed by guards[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3388 - STRING #26 @ $3884
+#W32($3388)
+//・警備兵に発見される[END-FE]
+・You're discovered by the guards[END-FE]
+
+
+
+
+
+//POINTER #27 @ $338C - STRING #27 @ $389B
+#W32($338C)
+//外に出る前に、[NLINE]
+//早く目的を遂行しましょう。[END-FE]
+Let's fulfill our goal here before[NLINE]
+we go back outside.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3390 - STRING #28 @ $38C8
+#W32($3390)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3394 - STRING #29 @ $38DF
+#W32($3394)
+//自動Ｄ　ＥＢ０６＿２前[END-FE]
+自動Ｄ　ＥＢ０６＿２前[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3398 - STRING #30 @ $38F8
+#W32($3398)
+//ここは倉庫だぞ。[NLINE]
+//用がないなら、出て行ってくれないかな。[END-FE]
+This is the warehouse.[NLINE]
+If you don't have any business here,[NLINE]
+please leave.[END-FE]
+
+
+
+
+
+//POINTER #31 @ $339C - STRING #31 @ $3933
+#W32($339C)
+//[CHAR5100][V0700]
+//ん？[NLINE]
+//…お前、どこかで……？[NWIN]
+//
+//…[CC.D80F]…[CC.D80F]…[CC.D80F][CHAR5100][V0800]
+//ああっ！[END-FE]
+[CHAR5100][V0700]
+Hmm?[NLINE]
+...Where do I know you from...?[NWIN]
+
+...[CC.D80F]...[CC.D80F]...[CC.D80F][CHAR5100][V0800]
+Aah![END-FE]
+
+
+
+
+
+//POINTER #32 @ $33A0 - STRING #32 @ $397B
+#W32($33A0)
+//[CHAR5100][V0900]
+//ああ…、[NLINE]
+//侵入がばれてしまいました…！[END-FE]
+[CHAR5100][V0900]
+Aah...[NLINE]
+We've been found out![END-FE]
+
+
+
+
+
+//POINTER #33 @ $33A4 - STRING #33 @ $39AC
+#W32($33A4)
+//[CHAR5100][V0500]
+//ん？[NLINE]
+//…見慣れない奴だな…？[END-FE]
+[CHAR5100][V0500]
+Hmm?[NLINE]
+...I haven't seen you around here[NLINE]
+before...[END-FE]
+
+
+
+
+
+//POINTER #34 @ $33A8 - STRING #34 @ $39D3
+#W32($33A8)
+//[CHAR5100][V0500]
+//ん？[NLINE]
+//…見慣れない奴だな…？[END-FE]
+[CHAR5100][V0500]
+Hmm?[NLINE]
+...I haven't seen you around here[NLINE]
+before...[END-FE]
+
+
+
+
+
+//POINTER #35 @ $33AC - STRING #35 @ $39FA
+#W32($33AC)
+//[CHAR5100][V0500]
+//ん？[NLINE]
+//…見慣れない奴だな…？[END-FE]
+[CHAR5100][V0500]
+Hmm?[NLINE]
+...I haven't seen you around here[NLINE]
+before...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $33B0 - STRING #36 @ $3A21
+#W32($33B0)
+//[CHAR5100][V0500]
+//ん？[NLINE]
+//…見慣れない奴だな…？[END-FE]
+[CHAR5100][V0500]
+Hmm?[NLINE]
+...I haven't seen you around here[NLINE]
+before...[END-FE]
+
+
+
+
+
+//POINTER #37 @ $33B4 - STRING #37 @ $3A48
+#W32($33B4)
+//[CHAR5100][V0500]
+//ん？[NLINE]
+//…見慣れない奴だな…？[END-FE]
+[CHAR5100][V0500]
+Hmm?[NLINE]
+...I haven't seen you around here[NLINE]
+before...[END-FE]
+
+
+
+
+
+//POINTER #38 @ $33B8 - STRING #38 @ $3A6F
+#W32($33B8)
+//[CHAR5100][V0600]
+//（勇者様、危険です。[NLINE]
+//　警備の兵士には、[NLINE]
+//　近づかないほうがよろしいかと。）[END-FE]
+[CHAR5100][V0600]
+ (Brave One, this is risky.[NLINE]
+ It's better not to get too[NLINE]
+ close to the guards).[END-FE]
+
+
+
+
+
+//POINTER #39 @ $33BC - STRING #39 @ $3AC6
+#W32($33BC)
+//[CHAR5100][V3000]
+//先ほど私の事は[NLINE]
+//思い出せていないとわかりましたが、[NLINE]
+//そのほかの事は…記憶は戻りましたか？[END-FE]
+[CHAR5100][V3000]
+I know that you don't remember[NLINE]
+me, but did any other of your[NLINE]
+memories return?[END-FE]
+
+
+
+
+
+//POINTER #40 @ $33C0 - STRING #40 @ $3B29
+#W32($33C0)
+//・戻っていない[END-FE]
+・No[END-FE]
+
+
+
+
+
+//POINTER #41 @ $33C4 - STRING #41 @ $3B3A
+#W32($33C4)
+//・戻っている[END-FE]
+・Yes[END-FE]
+
+
+
+
+
+//POINTER #42 @ $33C8 - STRING #42 @ $3B49
+#W32($33C8)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #43 @ $33CC - STRING #43 @ $3B58
+#W32($33CC)
+//[CHAR5100][V3100]
+//…そうですか。[NLINE]
+//残念ですね。[END-FE]
+[CHAR5100][V3100]
+...I see.[NLINE]
+That's unfortunate.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $33D0 - STRING #44 @ $3B7F
+#W32($33D0)
+//[CHAR5100][V3200]
+//…やっぱり、ウソがヘタなんですね。[NLINE]
+//やはり戻っていませんか…。[END-FE]
+[CHAR5100][V3200]
+...You're as bad at lying as ever.[NLINE]
+So your memories still haven't returned...[END-FE]
+
+
+
+
+
+//POINTER #45 @ $33D4 - STRING #45 @ $3BC8
+#W32($33D4)
+//[CHAR5100][V3300]
+//…そうですか、[NLINE]
+//まだ戻らないのですね。[END-FE]
+[CHAR5100][V3300]
+...I see, so they still haven't[NLINE]
+returned.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $33D8 - STRING #46 @ $3BF9
+#W32($33D8)
+//[CHAR5100][V3400]
+//アニータさんは、[NLINE]
+//勇者様とお知り合いなのですか？[END-FE]
+[CHAR5100][V3400]
+Is Anita an acquaintance of yours,[NLINE]
+Brave One?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $33DC - STRING #47 @ $3C34
+#W32($33DC)
+//[CHAR5100][V3500]
+//はい。[NLINE]
+//ほんの１０日ほどの間でしたが…。[NWIN]
+//
+//[CH.FACE:Serious][CHAR5100][V3600]
+//それより今は[NLINE]
+//ここを出る事だけを考えましょう。[END-FE]
+[CHAR5100][V3500]
+Yes. But it was only for ten[NLINE]
+days...[NWIN]
+
+[CH.FACE:Serious][CHAR5100][V3600]
+More importantly, let's focus[NLINE]
+on getting out of here.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $33E0 - STRING #48 @ $3CA3
+#W32($33E0)
+//炉の調整が忙しいんだ。[NLINE]
+//話しかけないでくれないか。[END-FE]
+I'm busy with adjusting the reactor's[NLINE]
+tempature. Please don't talk to me.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $33E4 - STRING #49 @ $3CD8
+#W32($33E4)
+//炉は稼働中だが、[NLINE]
+//思ったほど温度は高くない。[END-FE]
+The reactor is in operation but[NLINE]
+the tempature is not as high as[NLINE]
+you thought.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $33E8 - STRING #50 @ $3D07
+#W32($33E8)
+//炉の操作パネル。[NLINE]
+//複雑そうで素人には操作出来そうにない。[END-FE]
+It's the control panel of the reactor.[NLINE]
+It seems too complicated to be operated[NLINE]
+by a layperson.[END-FE]
+
+
+
+
+
+//POINTER #51 @ $33EC - STRING #51 @ $3D42
+#W32($33EC)
+//特別研究室につき施錠中[END-FE]
+It's locked because it's a special labratory.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $33F0 - STRING #52 @ $3D5B
+#W32($33F0)
+//[CHAR5100][V0A00]
+//やあ、[NLINE]
+//君のことは覚えているよ。[NWIN]
+//
+//[CHAR5100][V0B00]
+//それにアニータ様にも言われていたしね。[NLINE]
+//そうか、その時が来たのか。[END-FE]
+[CHAR5100][V0A00]
+Hello, I remember you.[NWIN]
+
+[CHAR5100][V0B00]
+I've been informed by Anita.[NLINE]
+It seems the time has come.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $33F4 - STRING #53 @ $3DD2
+#W32($33F4)
+//[CHAR5100][V0C00]
+//彼女は何と？[END-FE]
+[CHAR5100][V0C00]
+What did she say?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $33F8 - STRING #54 @ $3DE9
+#W32($33F8)
+//[CHAR5100][V0D00]
+//いずれ、時の手術を受けた男が戻ってくる。[NLINE]
+//その時は自分を連れて行くだろうから、[NLINE]
+//協力するようにとね。[END-FE]
+[CHAR5100][V0D00]
+"Eventually, a man who received an[NLINE]
+operation that allows him to travel[NLINE]
+through time will come. He will come[NLINE]
+to take me with him, so please cooperate."[END-FE]
+
+
+
+
+
+//POINTER #55 @ $33FC - STRING #55 @ $3E58
+#W32($33FC)
+//[CHAR5100][V0E00]
+//それでは協力してくれるのですか？[END-FE]
+[CHAR5100][V0E00]
+So you will help us?[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3400 - STRING #56 @ $3E83
+#W32($3400)
+//[CHAR5100][V0F00]
+//人として、これ以上、[NLINE]
+//アニータ様を人体実験に使うのは反対だ。[NWIN]
+//
+//[CHAR5100][V1000]
+//ここから連れ去ってもらって、[NLINE]
+//穏やかに過ごして欲しい。[END-FE]
+[CHAR5100][V0F00]
+I'm morally opposed to using Anita[NLINE]
+any longer for experiments.[NWIN]
+
+[CHAR5100][V1000]
+After you take her from here,[NLINE]
+I want her to live peacefully.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3404 - STRING #57 @ $3F0A
+#W32($3404)
+//[CHAR5100][V1100]
+//だが君たちは彼女に、[NLINE]
+//あの力を使わせるだろう。[NLINE]
+//それだけが…。[END-FE]
+[CHAR5100][V1100]
+But you will make her use[NLINE]
+her use, won't you?[NLINE]
+That's why you're here...[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3408 - STRING #58 @ $3F53
+#W32($3408)
+//[CHAR5100][V1200]
+//私たちには、あの方の[NLINE]
+//時を越える力が必要なのです。[END-FE]
+[CHAR5100][V1200]
+We need her power to travel[NLINE]
+through time.[END-FE]
+
+
+
+
+
+//POINTER #59 @ $340C - STRING #59 @ $3F90
+#W32($340C)
+//[CHAR5100][V1300]
+//アニータ様に施された手術は、[NLINE]
+//まだ技術が確立される前のもので、[NLINE]
+//時を越える術を使うには、この薬が必要だ。[NWIN]
+//
+//[CHAR5100][V1400]
+//あの術は彼女の身体に大きな負担をかける。[NLINE]
+//この薬で術の負担を多少は減らせるのだが、[NLINE]
+//出来ることなら術を使わないで欲しい。[NWIN]
+//
+//[CHAR5100][V1500]
+//彼女の体力を考えれば、あと１度が限界だ。[NLINE]
+//もし、２度目の力を使おうものなら…。[NWIN]
+//
+//[CHAR5100][V1600]
+//…命の保証はできない…。[END-FE]
+[CHAR5100][V1300]
+Anita was operated on before the[NLINE]
+procedure was perfected. That's[NLINE]
+why she needs to take this medicine[NLINE]
+when using her ability to travel[NLINE]
+through time.[NWIN]
+
+[CHAR5100][V1400]
+Anita's ability takes a large toll[NLINE]
+on her body. This medicine decreases[NLINE]
+that burden. Please make her use her[NLINE]
+ability as little as possible.[NWIN]
+
+[CHAR5100][V1500]
+Based her physical condition, she[NLINE]
+is only able to do it one more[NLINE]
+time. If she were to do it a second[NLINE]
+time...[NWIN]
+
+[CHAR5100][V1600]
+...There's no guarantee that she will[NLINE]
+survive...[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3410 - STRING #60 @ $40FF
+#W32($3410)
+//[CHAR5100][V1700]
+//わかりました。[NLINE]
+//彼女のためにも、[NLINE]
+//ムダな力は使わせません。[END-FE]
+[CHAR5100][V1700]
+Understood.[NLINE]
+For her sake, we won't make her[NLINE]
+use her power unnecessarily.[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3414 - STRING #61 @ $4144
+#W32($3414)
+//[CHAR5100][V1800]
+//頼む。[NLINE]
+//これが牢のカギだ。[END-FE]
+[CHAR5100][V1800]
+I'm counting on you. This[NLINE]
+is the key to her cell.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3418 - STRING #62 @ $4169
+#W32($3418)
+//[CHAR5100][V1900]
+//それから、彼女の負担を減らす薬だ。[NLINE]
+//念のため、残りを全て渡しておく。[END-FE]
+[CHAR5100][V1900]
+Here's the medicine for lessening[NLINE]
+her burden. To be on the safe side,[NLINE]
+I will give you all that's left.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $341C - STRING #63 @ $41B8
+#W32($341C)
+//[CHAR5100][V1A00]
+//出来るなら、使わずに[NLINE]
+//すませて欲しいがね。[NWIN]
+//
+//[CHAR5100][V1B00]
+//私に出来るのはここまでだ。[NLINE]
+//さあ、警備兵が戻ってくる前に、[NLINE]
+//早くするんだ。[END-FE]
+[CHAR5100][V1A00]
+Please avoid letting her take it[NLINE]
+as much as possible.[NWIN]
+
+[CHAR5100][V1B00]
+This is all I can do.[NLINE]
+Hurry before the soldiers[NLINE]
+come back.[END-FE]
+
+
+
+
+
+//POINTER #64 @ $3420 - STRING #64 @ $4241
+#W32($3420)
+//[CHAR5100][V1C00]
+//はい。[END-FE]
+[CHAR5100][V1C00]
+Yes.[END-FE]
+
+
+
+
+
+//POINTER #65 @ $3424 - STRING #65 @ $4252
+#W32($3424)
+//アニータ様は、幼い頃から身体が弱かった。[NLINE]
+//ブランドル様は実の娘のためにと、[NLINE]
+//様々な医療を研究させた。[NWIN]
+//
+//その甲斐あってか、アニータ様は人並みの健康を[NLINE]
+//やっと手に入れたのだ。[NWIN]
+//
+//それが前の総帥が亡くなると、ブランドル様は[NLINE]
+//人が変わったようになった。[NLINE]
+//もちろん、そのおかげで様々な新薬を発明できた。[NLINE]
+//しかし、それをアニータ様で試されたのは…。[NWIN]
+//
+//私はブランドル様に、実験の中止を頼んだが[NLINE]
+//聞き入れてもらえなかった。[NLINE]
+//『危険な実験だからこそ、身内の者を使うのだ』[NLINE]
+//そう言われては、誰も反対できなくなった。[NWIN]
+//
+//アニータ様から笑顔が消えるのに[NLINE]
+//そう長い時間は必要なかった。[NWIN]
+//
+//それはそうだろう？[NLINE]
+//誰だって…、[NLINE]
+//実験動物のような日々に耐えられるものか…。[NWIN]
+//
+//心はやつれ、肉体的にも過度の負担を負っている。[NLINE]
+//だから、君がアニータ様を連れ出してくれれば[NLINE]
+//少しは人並みの生活に戻れるかもしれない。[NLINE]
+//彼女には人並みに幸せになる権利があるはずだ。[NWIN]
+//
+//後のことは君に任せる。[NLINE]
+//アニータ様をよろしくお願いします。[NLINE]
+//彼女に…人並みの幸せを…。[END-FE]
+Anita had a weak body since she was[NLINE]
+a child. For the sake of his daughter,[NLINE]
+Chairman Brandole ordered the studying[NLINE]
+of various medical treatments.[NWIN]
+
+Perhaps due to that, Anita managed to[NLINE]
+obtain the health of an average person.[NWIN]
+
+When the previous chairman died, Brandole[NLINE]
+became a different person. Of course, thanks[NLINE]
+to him, we were able to invent various new[NLINE]
+medicines. However, it was on Anita on[NLINE]
+which these were first tested...[NWIN]
+
+I asked the chairman to stop his experiments,[NLINE]
+but he didn't listen.[NLINE]
+"The danger of these experiments is[NLINE]
+exactly why I use a relative."[NLINE]
+No one could oppose him after he[NLINE]
+said that.[NWIN]
+
+I didn't take long for Anita to lose[NLINE]
+her ability to smile.[NWIN]
+
+Why wouldn't she?[NLINE]
+Could anyone endure being treated day[NLINE]
+in and day out like a laboratory animal[NLINE]
+and still be able to?[NWIN]
+
+Anita is mentally worn out and physically[NLINE]
+overburdened. If you take her out of here,[NLINE]
+she may be able to return to having[NLINE]
+a normal life. She has the right to[NLINE]
+become happy like anyone else.[NWIN]
+
+I'll leave the rest to you. Please[NLINE]
+take care of Miss Anita. Give her[NLINE]
+a happy life...[END-FE]
+
+
+
+
+
+//POINTER #66 @ $3428 - STRING #66 @ $45D9
+#W32($3428)
+//[CHAR5100][V1B00]
+//私に出来るのはここまでだ。[NLINE]
+//さあ、警備兵が戻ってくる前に、[NLINE]
+//早くするんだ。[END-FE]
+[CHAR5100][V1B00]
+I did all I could.[NLINE]
+Hurry before the soldiers[NLINE]
+come back.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $342C - STRING #67 @ $462E
+#W32($342C)
+//アニータ様、[NLINE]
+//どうか、ご無事で。[END-FE]
+Please stay safe, Miss Anita.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $3430 - STRING #68 @ $4651
+#W32($3430)
+//…はい…。[END-FE]
+...Yes...[END-FE]
+
+
+
+
+
+//POINTER #69 @ $3434 - STRING #69 @ $465E
+#W32($3434)
+//　[NLINE]
+//手術台のようだ。[END-FE]
+[NLINE]
+It looks like an operating table.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $3438 - STRING #70 @ $4675
+#W32($3438)
+//　[NLINE]
+//手術の器具が置かれている。[END-FE]
+[NLINE]
+Surgical instruments are laid out neatly.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $343C - STRING #71 @ $4696
+#W32($343C)
+//[CHAR5100][V2C00]
+//しかし、どうやって開ければ…。[END-FE]
+[CHAR5100][V2C00]
+But how do we open the door...?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $3440 - STRING #72 @ $46BF
+#W32($3440)
+//[CHAR5100][V2D00]
+//カギは医務の先生が持っています。[END-FE]
+[CHAR5100][V2D00]
+The medical doctor has the key.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $3444 - STRING #73 @ $46EA
+#W32($3444)
+//[CHAR5100][V2D00]
+//カギは医務の先生が持っています。[END-FE]
+[CHAR5100][V2D00]
+The medical doctor has the key.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $3448 - STRING #74 @ $4715
+#W32($3448)
+//この牢のカギを外してください。[END-FE]
+Please unlock the door.[END-FE]
+
+
+
+
+
+//POINTER #75 @ $344C - STRING #75 @ $4736
+#W32($344C)
+//　[NLINE]
+//開かない…。[END-FE]
+[NLINE]
+It won't open...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $3450 - STRING #76 @ $4749
+#W32($3450)
+//その扉は開けられないわ。[NLINE]
+//特殊なカギが必要なの。[END-FE]
+The door won't open through normal[NLINE]
+means. You need a special key.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $3454 - STRING #77 @ $477C
+#W32($3454)
+//　[NLINE]
+//装置は動いていないようだ…。[NLINE]
+//　[END-FE]
+[NLINE]
+The device doesn't seem to be[NLINE]
+working...[END-FE]
+
+
+
+
+
+//POINTER #78 @ $3458 - STRING #78 @ $47A3
+#W32($3458)
+//通常セーブでもよければ、セーブする？[END-FE]
+通常セーブでもよければ、セーブする？[END-FE]
+
+
+
+
+
+//POINTER #79 @ $345C - STRING #79 @ $47CA
+#W32($345C)
+//通常セーブ　レノックス研究所[END-FE]
+Normal Save Lennox Research Facility[END-FE]
+
+
+
+
+
+//POINTER #80 @ $3460 - STRING #80 @ $47E9
+#W32($3460)
+//　[NLINE]
+//引き出しを備えた小机だ。[END-FE]
+[NLINE]
+It's a small desk with a drawer.[END-FE]
+
+
+
+
+
+//POINTER #81 @ $3464 - STRING #81 @ $4808
+#W32($3464)
+//[CHAR5100][V1D00]
+//お久しぶりです。[NWIN]
+//
+//[CHAR5100][V1E00]
+//やはり私が予言した通り、[NLINE]
+//あなたは戻ってきてくれましたね。[NWIN]
+//
+//[CHAR5100][V1F00]
+//私の事は思い出してくれましたか？[END-FE]
+[CHAR5100][V1D00]
+It's been a long time.[NWIN]
+
+[CHAR5100][V1E00]
+You came back for me, just as[NLINE]
+I predicted.[NWIN]
+
+[CHAR5100][V1F00]
+Did you remember who I am?[END-FE]
+
+
+
+
+
+//POINTER #82 @ $3468 - STRING #82 @ $4891
+#W32($3468)
+//[CHAR5100][V2000]
+//…[CC.D80F]…[CC.D80F]相変わらず、ウソが下手な人ですね。[NLINE]
+//その顔を見れば、わかります…。[NWIN]
+//
+//[CHAR5100][V2100]
+//…そうですか、[NLINE]
+//まだ思い出してもらえないんですね…。[END-FE]
+[CHAR5100][V2000]
+...[CC.D80F]...[CC.D80F]You're a bad[NLINE]
+liar, as usual. I can tell by your face...[NWIN]
+
+[CHAR5100][V2100]
+So you still can't remember me...[END-FE]
+
+
+
+
+
+//POINTER #83 @ $346C - STRING #83 @ $4926
+#W32($346C)
+//[CHAR5100][V2200]
+//…そうですか、[NLINE]
+//まだ思い出してもらえないんですね…。[END-FE]
+[CHAR5100][V2200]
+...I see.[NLINE]
+You still can't remember me...[END-FE]
+
+
+
+
+
+//POINTER #84 @ $3470 - STRING #84 @ $4965
+#W32($3470)
+//[CHAR5100][V2300]
+//では、悲しいですが、[NLINE]
+//自己紹介をしておきます。[NLINE]
+//私は[COL01]アニータ[COL00]といいます。[NWIN]
+//
+//[CHAR5100][V2400]
+//そちらの妖精さんは？[END-FE]
+[CHAR5100][V2300]
+I'm sad I have to do this, but I will[NLINE]
+introduce myself. My name is [COL01]Anita[COL00].[NWIN]
+
+[CHAR5100][V2400]
+What about your fairy?[END-FE]
+
+
+
+
+
+//POINTER #85 @ $3474 - STRING #85 @ $49DC
+#W32($3474)
+//[CHAR5100][V2500]
+//勇者様と旅をしております、[NLINE]
+//ユリィと申します。[NLINE]
+//以後、よろしくお願いします。[END-FE]
+[CHAR5100][V2500]
+I'm traveling with the Brave One.[NLINE]
+My name is Yurii. Pleased to meet you.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $3478 - STRING #86 @ $4A33
+#W32($3478)
+//[CHAR5100][V2600]
+//よろしく、ユリィさん。[END-FE]
+[CHAR5100][V2600]
+Nice to meet you, Yurii.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $347C - STRING #87 @ $4A54
+#W32($347C)
+//[CHAR5100][V2700]
+//それにしても、アニータさんは[NLINE]
+//私たちが来た事を驚かれないのですね？[END-FE]
+[CHAR5100][V2700]
+Are you not surprised that[NLINE]
+we came?[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3480 - STRING #88 @ $4AA1
+#W32($3480)
+//[CHAR5100][V2800]
+//あなた方が来るのは[NLINE]
+//予見していましたから…。[END-FE]
+[CHAR5100][V2800]
+I foresaw that you would...[END-FE]
+
+
+
+
+
+//POINTER #89 @ $3484 - STRING #89 @ $4AD8
+#W32($3484)
+//[CHAR5100][V2900]
+//では、私たちがここに来た理由も[NLINE]
+//ご存じなのですね？[END-FE]
+[CHAR5100][V2900]
+Then do you also know the[NLINE]
+reason why we're here?[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3488 - STRING #90 @ $4B15
+#W32($3488)
+//[CHAR5100][V2A00]
+//はい。[NLINE]
+//あなた方は父であるブランドルを[NLINE]
+//止めようとしている。[NLINE]
+//そしてそのために、私の力を必要としている。[NWIN]
+//
+//[CHAR5100][V2B00]
+//これが運命なのでしょう。[NLINE]
+//すでに覚悟は出来ています。[NLINE]
+//この牢のカギを外してください。[END-FE]
+[CHAR5100][V2A00]
+Yes.[NLINE]
+You're going to stop my father,[NLINE]
+Brandole. In order to do so,[NLINE]
+you need my power.[NWIN]
+
+[CHAR5100][V2B00]
+This must be fate.[NLINE]
+I'm already prepared.[NLINE]
+Please open the cell.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $348C - STRING #91 @ $4BE6
+#W32($348C)
+//[CHAR5100][V2E00]
+//さあ、行きましょう。[NWIN]
+//
+//[CHAR5100][V2F00]
+//世界を消滅させるわけにはいきません。[END-FE]
+[CHAR5100][V2E00]
+Alright, let's go.[NWIN]
+
+[CHAR5100][V2F00]
+We can't afford to let the world[NLINE]
+perish.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3490 - STRING #92 @ $4C33
+#W32($3490)
+//　[NLINE]
+//アニータが仲間になった！[NLINE]
+//　[END-FE]
+[NLINE]
+Anita has become a companion![NLINE]
+[END-FE]
+
+
+
+

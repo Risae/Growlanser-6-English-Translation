@@ -1,0 +1,1092 @@
+
+
+//POINTER #0 @ $2EA0 - STRING #0 @ $3080
+#W32($2EA0)
+//[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2EA4 - STRING #1 @ $3083
+#W32($2EA4)
+//・敵の全滅[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2EA8 - STRING #2 @ $3090
+#W32($2EA8)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2EAC - STRING #3 @ $30B5
+#W32($2EAC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2EB0 - STRING #4 @ $30DA
+#W32($2EB0)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2EB4 - STRING #5 @ $30EF
+#W32($2EB4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2EB8 - STRING #6 @ $3124
+#W32($2EB8)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2EBC - STRING #7 @ $3159
+#W32($2EBC)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2EC0 - STRING #8 @ $317E
+#W32($2EC0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2EC4 - STRING #9 @ $31A3
+#W32($2EC4)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2EC8 - STRING #10 @ $31C8
+#W32($2EC8)
+//・パーティーの全滅[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2ECC - STRING #11 @ $31DD
+#W32($2ECC)
+//　[NLINE]
+//ふとん犬はどこかへ走り去った…。[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2ED0 - STRING #12 @ $3204
+#W32($2ED0)
+//グランゲイル王国[NLINE]
+//王都ガイラナック[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2ED4 - STRING #13 @ $3229
+#W32($2ED4)
+//…しかし、バクターも大変ですね。[NLINE]
+//ヤージェン村での汚名を返上しようと[NLINE]
+//張り切り過ぎなんでしょうか…？[END-FE]
+
+
+
+
+
+//POINTER #14 @ $2ED8 - STRING #14 @ $3290
+#W32($2ED8)
+//早く、国王陛下に報告しなければ…。[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2EDC - STRING #15 @ $32B5
+#W32($2EDC)
+//[CHARDE00][V0000]
+//ルーファス様！[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2EE0 - STRING #16 @ $32CE
+#W32($2EE0)
+//[CHARDE00][V0100]
+//どうしました？[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2EE4 - STRING #17 @ $32E7
+#W32($2EE4)
+//[CHARDE00][V0200]
+//ザーランバがジークヴァルトの強襲を[NLINE]
+//受けております！[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2EE8 - STRING #18 @ $3326
+#W32($2EE8)
+//[CHARDE00][V0300]
+//何ですって!?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2EEC - STRING #19 @ $333D
+#W32($2EEC)
+//[CHARDE00][V0400]
+//現在バクター中尉が応戦しておりますが、[NLINE]
+//いつまで持つか…。[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2EF0 - STRING #20 @ $3382
+#W32($2EF0)
+//[CHARDE00][V0500]
+//わかりました。[NLINE]
+//私がすぐに向かいます。[NWIN]
+//
+//[CHARDE00][V0600]
+//貴方は司令部へ報告を。[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2EF4 - STRING #21 @ $33D3
+#W32($2EF4)
+//[CHARDE00][V0700]
+//はっ！[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2EF8 - STRING #22 @ $33E4
+#W32($2EF8)
+//[CHARDE00][V0800]
+//急がないといけませんね…。[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2EFC - STRING #23 @ $3409
+#W32($2EFC)
+//空き屋　　　[NLINE]
+//入居者募集中[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2F00 - STRING #24 @ $3426
+#W32($2F00)
+//これはルーファス大尉！[NLINE]
+//いったい何のご用で？[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2F04 - STRING #25 @ $3455
+#W32($2F04)
+//最近、変わったことはありましたか？[END-FE]
+
+
+
+
+
+//POINTER #26 @ $2F08 - STRING #26 @ $347A
+#W32($2F08)
+//いいえ。[NLINE]
+//最近はおとなしいものです。[END-FE]
+
+
+
+
+
+//POINTER #27 @ $2F0C - STRING #27 @ $34A1
+#W32($2F0C)
+//そうですか。[NLINE]
+//何かあったら、すぐに通報して下さいね。[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2F10 - STRING #28 @ $34D8
+#W32($2F10)
+//はい、わかりました。[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2F14 - STRING #29 @ $34EF
+#W32($2F14)
+//おお、大尉ではないですか。[NLINE]
+//どこかお怪我でも？[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2F18 - STRING #30 @ $3520
+#W32($2F18)
+//いいえ、私はどこも…。[NLINE]
+//先生はいつも市民の具合を[NLINE]
+//見て下さるので、[NLINE]
+//ご挨拶にうかがいました。[END-FE]
+
+
+
+
+
+//POINTER #31 @ $2F1C - STRING #31 @ $357F
+#W32($2F1C)
+//これは、どうも、ご丁寧に。[NLINE]
+//医者は治すのが仕事ですからな。[END-FE]
+
+
+
+
+
+//POINTER #32 @ $2F20 - STRING #32 @ $35BC
+#W32($2F20)
+//これからもよろしくお願いします。[END-FE]
+
+
+
+
+
+//POINTER #33 @ $2F24 - STRING #33 @ $35DF
+#W32($2F24)
+//はい、お任せ下さい。[END-FE]
+
+
+
+
+
+//POINTER #34 @ $2F28 - STRING #34 @ $35F6
+#W32($2F28)
+//　[NLINE]
+//木箱が積んである。[END-FE]
+
+
+
+
+
+//POINTER #35 @ $2F2C - STRING #35 @ $360F
+#W32($2F2C)
+//　[NLINE]
+//壁にイニシャルが刻んである。[NLINE]
+//[COL03]Ｙ．Ｗ[NLINE]
+//　[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2F30 - STRING #36 @ $3641
+#W32($2F30)
+//　[NLINE]
+//ここからは、街並みがよく見える。[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2F34 - STRING #37 @ $3668
+#W32($2F34)
+//　[NLINE]
+//遠くの森までよく見える。[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2F38 - STRING #38 @ $3687
+#W32($2F38)
+//下におりますか？[END-FE]
+
+
+
+
+
+//POINTER #39 @ $2F3C - STRING #39 @ $369A
+#W32($2F3C)
+//事故が起こらずに[NLINE]
+//戻れて良かったよ。[END-FE]
+
+
+
+
+
+//POINTER #40 @ $2F40 - STRING #40 @ $36C1
+#W32($2F40)
+//お帰りなさいませ、大尉！[END-FE]
+
+
+
+
+
+//POINTER #41 @ $2F44 - STRING #41 @ $36DC
+#W32($2F44)
+//危ないから、[NLINE]
+//行かない方がいいって！[END-FE]
+
+
+
+
+
+//POINTER #42 @ $2F48 - STRING #42 @ $3703
+#W32($2F48)
+//ルーファス様。[NLINE]
+//道具屋へようこそ。[END-FE]
+
+
+
+
+
+//POINTER #43 @ $2F4C - STRING #43 @ $3728
+#W32($2F4C)
+//ご購入でしょうか、売却でしょうか？[END-FE]
+
+
+
+
+
+//POINTER #44 @ $2F50 - STRING #44 @ $374D
+#W32($2F50)
+//・アクセサリ購入[END-FE]
+
+
+
+
+
+//POINTER #45 @ $2F54 - STRING #45 @ $3760
+#W32($2F54)
+//・グッズ購入[END-FE]
+
+
+
+
+
+//POINTER #46 @ $2F58 - STRING #46 @ $376F
+#W32($2F58)
+//・売却[END-FE]
+
+
+
+
+
+//POINTER #47 @ $2F5C - STRING #47 @ $3778
+#W32($2F5C)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+
+
+
+
+
+//POINTER #48 @ $2F60 - STRING #48 @ $379F
+#W32($2F60)
+//お疲れ様です、ルーファス大尉。[NLINE]
+//武器防具屋へようこそ。[END-FE]
+
+
+
+
+
+//POINTER #49 @ $2F64 - STRING #49 @ $37D8
+#W32($2F64)
+//ご購入でしょうか、売却でしょうか？[END-FE]
+
+
+
+
+
+//POINTER #50 @ $2F68 - STRING #50 @ $37FD
+#W32($2F68)
+//・武器購入[END-FE]
+
+
+
+
+
+//POINTER #51 @ $2F6C - STRING #51 @ $380A
+#W32($2F6C)
+//・防具購入[END-FE]
+
+
+
+
+
+//POINTER #52 @ $2F70 - STRING #52 @ $3817
+#W32($2F70)
+//・売却[END-FE]
+
+
+
+
+
+//POINTER #53 @ $2F74 - STRING #53 @ $3820
+#W32($2F74)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+
+
+
+
+
+//POINTER #54 @ $2F78 - STRING #54 @ $3847
+#W32($2F78)
+//これは、スレイヤー様！[NLINE]
+//先日はこの街を守って頂いて、[NLINE]
+//本当に助かりましたわ。[END-FE]
+
+
+
+
+
+//POINTER #55 @ $2F7C - STRING #55 @ $3896
+#W32($2F7C)
+//ケガはしませんでしたか？[END-FE]
+
+
+
+
+
+//POINTER #56 @ $2F80 - STRING #56 @ $38B1
+#W32($2F80)
+//はい、[NLINE]
+//本当にありがとうございました。[END-FE]
+
+
+
+
+
+//POINTER #57 @ $2F84 - STRING #57 @ $38DA
+#W32($2F84)
+//ああ、ルーファス様！[NLINE]
+//街の中までモンスターが入ってくるなんて[NLINE]
+//本当に怖かったですわ。[END-FE]
+
+
+
+
+
+//POINTER #58 @ $2F88 - STRING #58 @ $3931
+#W32($2F88)
+//もう二度とこのようなことがないように、[NLINE]
+//厳重に警戒を行います。[END-FE]
+
+
+
+
+
+//POINTER #59 @ $2F8C - STRING #59 @ $3972
+#W32($2F8C)
+//ありがとうございます。[NLINE]
+//今度、兵隊さんに[NLINE]
+//クッキーの差し入れを[NLINE]
+//持っていきますね！[END-FE]
+
+
+
+
+
+//POINTER #60 @ $2F90 - STRING #60 @ $39C7
+#W32($2F90)
+//ここは昔、カインズという豪商の屋敷でした。[NLINE]
+//ですが、平和維持軍ができてしばらくしたころ、[NLINE]
+//国王の怒りをかって、追い出されてしまいました。[END-FE]
+
+
+
+
+
+//POINTER #61 @ $2F94 - STRING #61 @ $3A52
+#W32($2F94)
+//　[NLINE]
+//タルが並んでいる。[END-FE]
+
+
+
+
+
+//POINTER #62 @ $2F98 - STRING #62 @ $3A6B
+#W32($2F98)
+//　[NLINE]
+//用水路だ。[END-FE]
+
+
+
+
+
+//POINTER #63 @ $2F9C - STRING #63 @ $3A7C
+#W32($2F9C)
+//　[NLINE]
+//タルの隙間に何か落ちている。[END-FE]
+
+
+
+
+
+//POINTER #64 @ $2FA0 - STRING #64 @ $3A9F
+#W32($2FA0)
+//お疲れさまです、大尉。[NLINE]
+//基地に異常はありません！[END-FE]
+
+
+
+
+
+//POINTER #65 @ $2FA4 - STRING #65 @ $3AD2
+#W32($2FA4)
+//ご苦労様。[END-FE]
+
+
+
+
+
+//POINTER #66 @ $2FA8 - STRING #66 @ $3ADF
+#W32($2FA8)
+//お疲れさまです、大尉。[NLINE]
+//水門を修理してから、[NLINE]
+//モンスターの侵入はありません。[END-FE]
+
+
+
+
+
+//POINTER #67 @ $2FAC - STRING #67 @ $3B2E
+#W32($2FAC)
+//そうですか。[NLINE]
+//でも、油断は禁物ですよ。[END-FE]
+
+
+
+
+
+//POINTER #68 @ $2FB0 - STRING #68 @ $3B57
+#W32($2FB0)
+//はっ！[END-FE]
+
+
+
+
+
+//POINTER #69 @ $2FB4 - STRING #69 @ $3B60
+#W32($2FB4)
+//都市の中に水を通さなければ[NLINE]
+//スクリーパーの心配もないけど、[NLINE]
+//水がないと生きていけないからなぁ…。[END-FE]
+
+
+
+
+
+//POINTER #70 @ $2FB8 - STRING #70 @ $3BC3
+#W32($2FB8)
+//こんにちは。[NLINE]
+//スレイヤーのルーファス様。[END-FE]
+
+
+
+
+
+//POINTER #71 @ $2FBC - STRING #71 @ $3BEE
+#W32($2FBC)
+//　[NLINE]
+//グランゲイル軍の兵舎だ。[END-FE]
+
+
+
+
+
+//POINTER #72 @ $2FC0 - STRING #72 @ $3C0D
+#W32($2FC0)
+//謁見の前に、[NLINE]
+//ネイラーンの残党を[NLINE]
+//なんとかしないと。[END-FE]
+
+
+
+
+
+//POINTER #73 @ $2FC4 - STRING #73 @ $3C44
+#W32($2FC4)
+//今はザーランバの[NLINE]
+//救援に向かわねば。[END-FE]
+
+
+
+
+
+//POINTER #74 @ $2FC8 - STRING #74 @ $3C6B
+#W32($2FC8)
+//お疲れさまです。[END-FE]
+
+
+
+
+
+//POINTER #75 @ $2FCC - STRING #75 @ $3C7E
+#W32($2FCC)
+//これは大尉、[NLINE]
+//城にお戻りですか？[END-FE]
+
+
+
+
+
+//POINTER #76 @ $2FD0 - STRING #76 @ $3CA1
+#W32($2FD0)
+//[CHARE300][V0100]
+//ルーファス！[END-FE]
+
+
+
+
+
+//POINTER #77 @ $2FD4 - STRING #77 @ $3CB8
+#W32($2FD4)
+//[CHARE300][V0200]
+//どうしたんですか、[NLINE]
+//ギャリック？[END-FE]
+
+
+
+
+
+//POINTER #78 @ $2FD8 - STRING #78 @ $3CE3
+#W32($2FD8)
+//[CHARE300][V0300]
+//お前、本当に進言するつもりなのか？[END-FE]
+
+
+
+
+
+//POINTER #79 @ $2FDC - STRING #79 @ $3D10
+#W32($2FDC)
+//[CHARE300][V0400]
+//はい。[NLINE]
+//あなたに何と思われようと、[NLINE]
+//私は……。[END-FE]
+
+
+
+
+
+//POINTER #80 @ $2FE0 - STRING #80 @ $3D49
+#W32($2FE0)
+//[CHARE300][V0500]
+//…ったく、[NLINE]
+//しょうがねぇヤツだな。[NLINE]
+//こうと決めたら、[NLINE]
+//テコでも動きやがらねぇ！[END-FE]
+
+
+
+
+
+//POINTER #81 @ $2FE4 - STRING #81 @ $3DA2
+#W32($2FE4)
+//[CHARE300][V0600]
+//それは、どうも。[NLINE]
+//と言うわけで、止めてもムダですよ。[END-FE]
+
+
+
+
+
+//POINTER #82 @ $2FE8 - STRING #82 @ $3DE1
+#W32($2FE8)
+//[CHARE300][V0700]
+//…陛下が受け入れてくれると[NLINE]
+//本気で思っているのか？[END-FE]
+
+
+
+
+
+//POINTER #83 @ $2FEC - STRING #83 @ $3E1E
+#W32($2FEC)
+//[CHARE300][V0800]
+//やってみなければ分かりません。[NLINE]
+//可能性がゼロでないのなら、[NLINE]
+//それにかけてみます。[NWIN]
+//
+//[CHARE300][V0900]
+//平和維持軍のクライアスも、[NLINE]
+//可能性を信じて活動しています。[NWIN]
+//
+//[CHARE300][V0A00]
+//私はこの大陸に生きる者の一人として、[NLINE]
+//戦争のない世界が作れるのなら、[NLINE]
+//協力したいのです。[NWIN]
+//
+//[CHARE300][V0B00]
+//他人に押しつけるつもりはありませんが、[NLINE]
+//止めてもムダです。[NLINE]
+//では。[END-FE]
+
+
+
+
+
+//POINTER #84 @ $2FF0 - STRING #84 @ $3F6B
+#W32($2FF0)
+//[CHARE300][V0C00]
+//待てよ！[END-FE]
+
+
+
+
+
+//POINTER #85 @ $2FF4 - STRING #85 @ $3F7E
+#W32($2FF4)
+//[CHARE300][V0D00]
+//何ですか、[NLINE]
+//止めてもムダだと…。[END-FE]
+
+
+
+
+
+//POINTER #86 @ $2FF8 - STRING #86 @ $3FA9
+#W32($2FF8)
+//[CHARE300][V0E00]
+//いいや、止めない。[NWIN]
+//
+//[CHARE300][V0F00]
+//オレも一緒に行こう。[END-FE]
+
+
+
+
+
+//POINTER #87 @ $2FFC - STRING #87 @ $3FE4
+#W32($2FFC)
+//[CHARE300][V1000]
+//ギャリック…。[NLINE]
+//まさか君がクライアスの思想に[NLINE]
+//共感するとは思いませんでした。[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3000 - STRING #88 @ $403B
+#W32($3000)
+//[CHARE300][V1100]
+//勘違いするな。[NLINE]
+//誰が奴の思想に共感した？[NWIN]
+//
+//[CHARE300][V1200]
+//オレが共感したのは[NLINE]
+//お前の考えだ。[END-FE]
+
+
+
+
+
+//POINTER #89 @ $3004 - STRING #89 @ $409A
+#W32($3004)
+//[CC.AC00][CHARE300][V1300]
+//くすっ。[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3008 - STRING #90 @ $40B0
+#W32($3008)
+//[CHARE300][V1400]
+//何をしている！[NLINE]
+//早く行くぞ！[END-FE]
+
+
+
+
+
+//POINTER #91 @ $300C - STRING #91 @ $40D7
+#W32($300C)
+//[CHARE300][V1500]
+//　[NLINE]
+//こうして、ルーファスは国王に進言し、　　　　[NLINE]
+//ネイラーンとの会談は実現する。　　　　　　　[NLINE]
+//そしてそれは、新たな世界への第一歩であった。[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3010 - STRING #92 @ $416E
+#W32($3010)
+//暖炉がある。[NLINE]
+//今は使われていないようだ。[END-FE]
+
+
+
+
+
+//POINTER #93 @ $3014 - STRING #93 @ $4199
+#W32($3014)
+//　[NLINE]
+//柔らかそうなソファだ。[END-FE]
+
+
+
+
+
+//POINTER #94 @ $3018 - STRING #94 @ $41B6
+#W32($3018)
+//　[NLINE]
+//植物が生けてある。[END-FE]
+
+
+
+
+
+//POINTER #95 @ $301C - STRING #95 @ $41CF
+#W32($301C)
+//毎度、ご利用ありがとうございます。[NLINE]
+//どのようなご用件でしょうか？[END-FE]
+
+
+
+
+
+//POINTER #96 @ $3020 - STRING #96 @ $4212
+#W32($3020)
+//・宿泊する[END-FE]
+
+
+
+
+
+//POINTER #97 @ $3024 - STRING #97 @ $421F
+#W32($3024)
+//・記録をとる[END-FE]
+
+
+
+
+
+//POINTER #98 @ $3028 - STRING #98 @ $422E
+#W32($3028)
+//・Ｄ部屋(隠し)[END-FE]
+
+
+
+
+
+//POINTER #99 @ $302C - STRING #99 @ $423F
+#W32($302C)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になられますか？[END-FE]
+
+
+
+
+
+//POINTER #100 @ $3030 - STRING #100 @ $426D
+#W32($3030)
+//記録もとられますか？[END-FE]
+
+
+
+
+
+//POINTER #101 @ $3034 - STRING #101 @ $4284
+#W32($3034)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+
+
+
+
+
+//POINTER #102 @ $3038 - STRING #102 @ $42A9
+#W32($3038)
+//ルーファス様……[COL02][TEAR-DROP][COL00][NLINE]
+//料金が不足しているようです。[END-FE]
+
+
+
+
+
+//POINTER #103 @ $303C - STRING #103 @ $42E2
+#W32($303C)
+//王都ガイラナック[END-FE]
+
+
+
+
+
+//POINTER #104 @ $3040 - STRING #104 @ $42F5
+#W32($3040)
+//Ｄ　ルーファス・ガイラナック[END-FE]
+
+
+
+
+
+//POINTER #105 @ $3044 - STRING #105 @ $4314
+#W32($3044)
+//またのご利用を[NLINE]
+//心よりお待ちしております。[END-FE]
+
+
+
+
+
+//POINTER #106 @ $3048 - STRING #106 @ $4341
+#W32($3048)
+//いらっしゃいませ。[NLINE]
+//こちらは、妖精コンテストの受付です。[END-FE]
+
+
+
+
+
+//POINTER #107 @ $304C - STRING #107 @ $437C
+#W32($304C)
+//妖精コンテストですか…。[NLINE]
+//私には関係ありませんね。[END-FE]
+
+
+
+
+
+//POINTER #108 @ $3050 - STRING #108 @ $43B1
+#W32($3050)
+//ベッドで休みますか？[END-FE]
+
+
+
+
+
+//POINTER #109 @ $3054 - STRING #109 @ $43C8
+#W32($3054)
+//　[NLINE]
+//花が生けてある。[END-FE]
+
+
+
+
+
+//POINTER #110 @ $3058 - STRING #110 @ $43DF
+#W32($3058)
+//　[NLINE]
+//テーブルの上にはランプが置かれている。[END-FE]
+
+
+
+
+
+//POINTER #111 @ $305C - STRING #111 @ $440C
+#W32($305C)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+
+
+
+
+
+//POINTER #112 @ $3060 - STRING #112 @ $442B
+#W32($3060)
+//男１　だ。[END-FE]
+
+
+
+
+
+//POINTER #113 @ $3064 - STRING #113 @ $4438
+#W32($3064)
+//男２　だ。[END-FE]
+
+
+
+
+
+//POINTER #114 @ $3068 - STRING #114 @ $4445
+#W32($3068)
+//男３　だ。[END-FE]
+
+
+
+
+
+//POINTER #115 @ $306C - STRING #115 @ $4452
+#W32($306C)
+//女１　です。[END-FE]
+
+
+
+
+
+//POINTER #116 @ $3070 - STRING #116 @ $4461
+#W32($3070)
+//女２　です。[END-FE]
+
+
+
+
+
+//POINTER #117 @ $3074 - STRING #117 @ $4470
+#W32($3074)
+//女３　です。[END-FE]
+
+
+
+
+
+//POINTER #118 @ $3078 - STRING #118 @ $447F
+#W32($3078)
+//司会のアシスタントを[NLINE]
+//務めさせて頂きます。[END-FE]

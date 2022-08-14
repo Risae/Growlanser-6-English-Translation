@@ -1,0 +1,3602 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $6E0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $A0, 4, PTR)
+
+#JMP($6E0)
+#HDR($6E0)
+
+
+
+
+
+//POINTER #0 @ $A0 - STRING #0 @ $6E0
+#W32($A0)
+//警備隊員[END-FF]
+Guard[END-FF]
+
+
+
+
+
+//POINTER #1 @ $A4 - STRING #1 @ $6EB
+#W32($A4)
+//警備隊員[END-FF]
+Guard[END-FF]
+
+
+
+
+
+//POINTER #2 @ $A8 - STRING #2 @ $6F6
+#W32($A8)
+//旅の少年[END-FF]
+Traveling Boy[END-FF]
+
+
+
+
+
+//POINTER #3 @ $AC - STRING #3 @ $701
+#W32($AC)
+//ホメロス軍下士官[END-FF]
+Fomeros Captain[END-FF]
+
+
+
+
+
+//POINTER #4 @ $B0 - STRING #4 @ $714
+#W32($B0)
+//大地の巫女[END-FF]
+Shrine Maiden[END-FF]
+
+
+
+
+
+//POINTER #5 @ $B4 - STRING #5 @ $721
+#W32($B4)
+//総帥令嬢[END-FF]
+General's Daughter[END-FF]
+
+
+
+
+
+//POINTER #6 @ $B8 - STRING #6 @ $72C
+#W32($B8)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #7 @ $BC - STRING #7 @ $733
+#W32($BC)
+//研究員[END-FF]
+Researcher[END-FF]
+
+
+
+
+
+//POINTER #8 @ $C0 - STRING #8 @ $73C
+#W32($C0)
+//維持軍司令[END-FF]
+Military Commander[END-FF]
+
+
+
+
+
+//POINTER #9 @ $C4 - STRING #9 @ $749
+#W32($C4)
+//維持軍実行部員[END-FF]
+Maintenance Staff[END-FF]
+
+
+
+
+
+//POINTER #10 @ $C8 - STRING #10 @ $75A
+#W32($C8)
+//歴史学者[END-FF]
+Historian[END-FF]
+
+
+
+
+
+//POINTER #11 @ $CC - STRING #11 @ $765
+#W32($CC)
+//シリルティア近衛兵長[END-FF]
+Cyriltian Captain[END-FF]
+
+
+
+
+
+//POINTER #12 @ $D0 - STRING #12 @ $77C
+#W32($D0)
+//グランゲイル軍士官[END-FF]
+Grangalian Officer[END-FF]
+
+
+
+
+
+//POINTER #13 @ $D4 - STRING #13 @ $791
+#W32($D4)
+//冒険者[END-FF]
+Adventurer[END-FF]
+
+
+
+
+
+//POINTER #14 @ $D8 - STRING #14 @ $79A
+#W32($D8)
+//冒険者[END-FF]
+Adventurer[END-FF]
+
+
+
+
+
+//POINTER #15 @ $DC - STRING #15 @ $7A3
+#W32($DC)
+//冒険者[END-FF]
+Adventurer[END-FF]
+
+
+
+
+
+//POINTER #16 @ $E0 - STRING #16 @ $7AC
+#W32($E0)
+//シリルティア軍歩兵[END-FF]
+Cyriltian Soldier[END-FF]
+
+
+
+
+
+//POINTER #17 @ $E4 - STRING #17 @ $7C1
+#W32($E4)
+//元ネイラーン将軍[END-FF]
+Ex-Neylern General[END-FF]
+
+
+
+
+
+//POINTER #18 @ $E8 - STRING #18 @ $7D4
+#W32($E8)
+//元ネイラーン軍上級兵[END-FF]
+Ex-Neylern Soldier[END-FF]
+
+
+
+
+
+//POINTER #19 @ $EC - STRING #19 @ $7EB
+#W32($EC)
+//元ネイラーン軍上級兵[END-FF]
+Ex-Neylern Soldier[END-FF]
+
+
+
+
+
+//POINTER #20 @ $F0 - STRING #20 @ $802
+#W32($F0)
+//元ネイラーン軍上級兵[END-FF]
+Ex-Neylern Soldier[END-FF]
+
+
+
+
+
+//POINTER #21 @ $F4 - STRING #21 @ $819
+#W32($F4)
+//研究員[END-FF]
+Researcher[END-FF]
+
+
+
+
+
+//POINTER #22 @ $F8 - STRING #22 @ $822
+#W32($F8)
+//謎の男[END-FF]
+Mysterious Man[END-FF]
+
+
+
+
+
+//POINTER #23 @ $FC - STRING #23 @ $82B
+#W32($FC)
+//ハンター[END-FF]
+Hunter[END-FF]
+
+
+
+
+
+//POINTER #24 @ $100 - STRING #24 @ $836
+#W32($100)
+//シリルティア軍僧兵[END-FF]
+Cyriltian Healer[END-FF]
+
+
+
+
+
+//POINTER #25 @ $104 - STRING #25 @ $84B
+#W32($104)
+//グランゲイル軍士官[END-FF]
+Grangalian Officer[END-FF]
+
+
+
+
+
+//POINTER #26 @ $108 - STRING #26 @ $860
+#W32($108)
+//グランゲイル軍魔導兵[END-FF]
+Grangalian Sorceror[END-FF]
+
+
+
+
+
+//POINTER #27 @ $10C - STRING #27 @ $877
+#W32($10C)
+Pothradian[END-FF]
+
+
+
+
+
+//POINTER #28 @ $110 - STRING #28 @ $884
+#W32($110)
+//グランゲイル軍士官[END-FF]
+Grangalian Officer[END-FF]
+
+
+
+
+
+//POINTER #29 @ $114 - STRING #29 @ $899
+#W32($114)
+//謎の男[END-FF]
+Mysterious Man[END-FF]
+
+
+
+
+
+//POINTER #30 @ $118 - STRING #30 @ $8A2
+#W32($118)
+//謎の男[END-FF]
+Mysterious Man[END-FF]
+
+
+
+
+
+//POINTER #31 @ $11C - STRING #31 @ $8AB
+#W32($11C)
+//研究員[END-FF]
+Researcher[END-FF]
+
+
+
+
+
+//POINTER #32 @ $120 - STRING #32 @ $8B4
+#W32($120)
+//グランゲイル中将[END-FF]
+Grangalian Lt. General[END-FF]
+
+
+
+
+
+//POINTER #33 @ $124 - STRING #33 @ $8C7
+#W32($124)
+//ネイラーン王[END-FF]
+Neylern King[END-FF]
+
+
+
+
+
+//POINTER #34 @ $128 - STRING #34 @ $8D6
+#W32($128)
+//村人[END-FF]
+Villager[END-FF]
+
+
+
+
+
+//POINTER #35 @ $12C - STRING #35 @ $8DD
+#W32($12C)
+//冒険者[END-FF]
+Adventurer[END-FF]
+
+
+
+
+
+//POINTER #36 @ $130 - STRING #36 @ $8E6
+#W32($130)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #37 @ $134 - STRING #37 @ $8ED
+#W32($134)
+//維持軍副司令[END-FF]
+PMB Commander[END-FF]
+
+
+
+
+
+//POINTER #38 @ $138 - STRING #38 @ $8FC
+#W32($138)
+//維持軍総司令[END-FF]
+PMB Commander[END-FF]
+
+
+
+
+
+//POINTER #39 @ $13C - STRING #39 @ $90B
+#W32($13C)
+//村人[END-FF]
+Villager[END-FF]
+
+
+
+
+
+//POINTER #40 @ $140 - STRING #40 @ $912
+#W32($140)
+//シリルティア軍准将[END-FF]
+Cyriltian Vice Gen.[END-FF]
+
+
+
+
+
+//POINTER #41 @ $144 - STRING #41 @ $927
+#W32($144)
+//赤狼隊隊長[END-FF]
+Red Wolf Captain[END-FF]
+
+
+
+
+
+//POINTER #42 @ $148 - STRING #42 @ $934
+#W32($148)
+//侵略者インフィニトー[END-FF]
+Infinitor[END-FF]
+
+
+
+
+
+//POINTER #43 @ $14C - STRING #43 @ $94B
+#W32($14C)
+//親衛隊[END-FF]
+Imperial Guard[END-FF]
+
+
+
+
+
+//POINTER #44 @ $150 - STRING #44 @ $954
+#W32($150)
+//謎の戦闘人形[END-FF]
+Mystery Battle Doll[END-FF]
+
+
+
+
+
+//POINTER #45 @ $154 - STRING #45 @ $963
+#W32($154)
+//宰相[END-FF]
+Prime Minister[END-FF]
+
+
+
+
+
+//POINTER #46 @ $158 - STRING #46 @ $96A
+#W32($158)
+//レジスタンス[END-FF]
+Resistance[END-FF]
+
+
+
+
+
+//POINTER #47 @ $15C - STRING #47 @ $979
+#W32($15C)
+//幹部[END-FF]
+Executive[END-FF]
+
+
+
+
+
+//POINTER #48 @ $160 - STRING #48 @ $980
+#W32($160)
+//フォメロス軍中佐[END-FF]
+Fomeros Commander[END-FF]
+
+
+
+
+
+//POINTER #49 @ $164 - STRING #49 @ $993
+#W32($164)
+//大地の巫女[END-FF]
+Shrine Maiden[END-FF]
+
+
+
+
+
+//POINTER #50 @ $168 - STRING #50 @ $9A0
+#W32($168)
+//大統領候補[END-FF]
+Candidate[END-FF]
+
+
+
+
+
+//POINTER #51 @ $16C - STRING #51 @ $9AD
+#W32($16C)
+//大統領候補[END-FF]
+Candidate[END-FF]
+
+
+
+
+
+//POINTER #52 @ $170 - STRING #52 @ $9BA
+#W32($170)
+//司令官[END-FF]
+Commander[END-FF]
+
+
+
+
+
+//POINTER #53 @ $174 - STRING #53 @ $9C3
+#W32($174)
+//クローン兵隊員[END-FF]
+Clone Soldier[END-FF]
+
+
+
+
+
+//POINTER #54 @ $178 - STRING #54 @ $9D4
+#W32($178)
+//女性指揮官[END-FF]
+Female Commander[END-FF]
+
+
+
+
+
+//POINTER #55 @ $17C - STRING #55 @ $9E1
+#W32($17C)
+//平和維持軍上級兵[END-FF]
+PMB Officer[END-FF]
+
+
+
+
+
+//POINTER #56 @ $180 - STRING #56 @ $9F4
+#W32($180)
+//平和維持軍一般兵[END-FF]
+PMB Soldier[END-FF]
+
+
+
+
+
+//POINTER #57 @ $184 - STRING #57 @ $A07
+#W32($184)
+//平和維持軍魔導兵[END-FF]
+PMB Sorceror[END-FF]
+
+
+
+
+
+//POINTER #58 @ $188 - STRING #58 @ $A1A
+#W32($188)
+//平和維持軍魔導兵[END-FF]
+PMB Sorceror[END-FF]
+
+
+
+
+
+//POINTER #59 @ $18C - STRING #59 @ $A2D
+#W32($18C)
+//平和維持軍僧兵[END-FF]
+PMB Healer[END-FF]
+
+
+
+
+
+//POINTER #60 @ $190 - STRING #60 @ $A3E
+#W32($190)
+//平和維持軍弓兵[END-FF]
+PMB Archer[END-FF]
+
+
+
+
+
+//POINTER #61 @ $194 - STRING #61 @ $A4F
+#W32($194)
+//警備隊員[END-FF]
+Guard[END-FF]
+
+
+
+
+
+//POINTER #62 @ $198 - STRING #62 @ $A5A
+#W32($198)
+//警備隊員[END-FF]
+Guard[END-FF]
+
+
+
+
+
+//POINTER #63 @ $19C - STRING #63 @ $A65
+#W32($19C)
+//警備隊員[END-FF]
+Guard[END-FF]
+
+
+
+
+
+//POINTER #64 @ $1A0 - STRING #64 @ $A70
+#W32($1A0)
+//シリルティア軍上級兵[END-FF]
+Cyriltian Officer[END-FF]
+
+
+
+
+
+//POINTER #65 @ $1A4 - STRING #65 @ $A87
+#W32($1A4)
+//シリルティア軍歩兵[END-FF]
+Cyriltian Soldier[END-FF]
+
+
+
+
+
+//POINTER #66 @ $1A8 - STRING #66 @ $A9C
+#W32($1A8)
+//シリルティア軍重歩兵[END-FF]
+Cyriltian Knight[END-FF]
+
+
+
+
+
+//POINTER #67 @ $1AC - STRING #67 @ $AB3
+#W32($1AC)
+//シリルティア軍弓兵[END-FF]
+Cyriltian Archer[END-FF]
+
+
+
+
+
+//POINTER #68 @ $1B0 - STRING #68 @ $AC8
+#W32($1B0)
+//シリルティア軍僧兵[END-FF]
+Cyriltian Healer[END-FF]
+
+
+
+
+
+//POINTER #69 @ $1B4 - STRING #69 @ $ADD
+#W32($1B4)
+//シリルティア軍魔導兵[END-FF]
+Cyriltian Sorceror[END-FF]
+
+
+
+
+
+//POINTER #70 @ $1B8 - STRING #70 @ $AF4
+#W32($1B8)
+//グランゲイル軍上級兵[END-FF]
+Grangalian Officer[END-FF]
+
+
+
+
+
+//POINTER #71 @ $1BC - STRING #71 @ $B0B
+#W32($1BC)
+//グランゲイル軍歩兵[END-FF]
+Grangalian Soldier[END-FF]
+
+
+
+
+
+//POINTER #72 @ $1C0 - STRING #72 @ $B20
+#W32($1C0)
+//グランゲイル軍重歩兵[END-FF]
+Grangalian Knight[END-FF]
+
+
+
+
+
+//POINTER #73 @ $1C4 - STRING #73 @ $B37
+#W32($1C4)
+//グランゲイル軍弓兵[END-FF]
+Grangalian Archer[END-FF]
+
+
+
+
+
+//POINTER #74 @ $1C8 - STRING #74 @ $B4C
+#W32($1C8)
+//グランゲイル軍魔導兵[END-FF]
+Grangalian Sorceror[END-FF]
+
+
+
+
+
+//POINTER #75 @ $1CC - STRING #75 @ $B63
+#W32($1CC)
+//グランゲイル軍魔導兵[END-FF]
+Grangalian Sorceror[END-FF]
+
+
+
+
+
+//POINTER #76 @ $1D0 - STRING #76 @ $B7A
+#W32($1D0)
+//グランゲイル軍僧兵[END-FF]
+Grangalian Healer[END-FF]
+
+
+
+
+
+//POINTER #77 @ $1D4 - STRING #77 @ $B8F
+#W32($1D4)
+//ネイラーン軍上級兵[END-FF]
+Neylern Officer[END-FF]
+
+
+
+
+
+//POINTER #78 @ $1D8 - STRING #78 @ $BA4
+#W32($1D8)
+//ネイラーン軍歩兵[END-FF]
+Neylern Soldier[END-FF]
+
+
+
+
+
+//POINTER #79 @ $1DC - STRING #79 @ $BB7
+#W32($1DC)
+//ネイラーン軍弓兵[END-FF]
+Neylern Archer[END-FF]
+
+
+
+
+
+//POINTER #80 @ $1E0 - STRING #80 @ $BCA
+#W32($1E0)
+//ネイラーン軍魔導兵[END-FF]
+Neylern Sorceror[END-FF]
+
+
+
+
+
+//POINTER #81 @ $1E4 - STRING #81 @ $BDF
+#W32($1E4)
+//ネイラーン軍僧兵[END-FF]
+Neylern Healer[END-FF]
+
+
+
+
+
+//POINTER #82 @ $1E8 - STRING #82 @ $BF2
+#W32($1E8)
+//盗賊[END-FF]
+Bandit[END-FF]
+
+
+
+
+
+//POINTER #83 @ $1EC - STRING #83 @ $BF9
+#W32($1EC)
+//盗賊[END-FF]
+Bandit[END-FF]
+
+
+
+
+
+//POINTER #84 @ $1F0 - STRING #84 @ $C00
+#W32($1F0)
+//盗賊[END-FF]
+Bandit[END-FF]
+
+
+
+
+
+//POINTER #85 @ $1F4 - STRING #85 @ $C07
+#W32($1F4)
+//盗賊[END-FF]
+Bandit[END-FF]
+
+
+
+
+
+//POINTER #86 @ $1F8 - STRING #86 @ $C0E
+#W32($1F8)
+//盗賊[END-FF]
+Bandit[END-FF]
+
+
+
+
+
+//POINTER #87 @ $1FC - STRING #87 @ $C15
+#W32($1FC)
+//盗賊[END-FF]
+Bandit[END-FF]
+
+
+
+
+
+//POINTER #88 @ $200 - STRING #88 @ $C1C
+#W32($200)
+//盗賊頭[END-FF]
+Bandit Leader[END-FF]
+
+
+
+
+
+//POINTER #89 @ $204 - STRING #89 @ $C25
+#W32($204)
+//正義戦隊[END-FF]
+Justice Ranger[END-FF]
+
+
+
+
+
+//POINTER #90 @ $208 - STRING #90 @ $C30
+#W32($208)
+//正義戦隊[END-FF]
+Justice Ranger[END-FF]
+
+
+
+
+
+//POINTER #91 @ $20C - STRING #91 @ $C3B
+#W32($20C)
+//正義戦隊[END-FF]
+Justice Ranger[END-FF]
+
+
+
+
+
+//POINTER #92 @ $210 - STRING #92 @ $C46
+#W32($210)
+//正義戦隊[END-FF]
+Justice Ranger[END-FF]
+
+
+
+
+
+//POINTER #93 @ $214 - STRING #93 @ $C51
+#W32($214)
+//正義戦隊[END-FF]
+Justice Ranger[END-FF]
+
+
+
+
+
+//POINTER #94 @ $218 - STRING #94 @ $C5C
+#W32($218)
+//ハンター[END-FF]
+Hunter[END-FF]
+
+
+
+
+
+//POINTER #95 @ $21C - STRING #95 @ $C67
+#W32($21C)
+//ハンター[END-FF]
+Hunter[END-FF]
+
+
+
+
+
+//POINTER #96 @ $220 - STRING #96 @ $C72
+#W32($220)
+//モノポリス社上級兵[END-FF]
+Monopolis Officer[END-FF]
+
+
+
+
+
+//POINTER #97 @ $224 - STRING #97 @ $C87
+#W32($224)
+//モノポリス社歩兵[END-FF]
+Monopolis Soldier[END-FF]
+
+
+
+
+
+//POINTER #98 @ $228 - STRING #98 @ $C9A
+#W32($228)
+//モノポリス社重歩兵[END-FF]
+Monopolis Knight[END-FF]
+
+
+
+
+
+//POINTER #99 @ $22C - STRING #99 @ $CAF
+#W32($22C)
+//モノポリス社弓兵[END-FF]
+Monopolis Archer[END-FF]
+
+
+
+
+
+//POINTER #100 @ $230 - STRING #100 @ $CC2
+#W32($230)
+//モノポリス社魔導兵[END-FF]
+Monopolis Sorceror[END-FF]
+
+
+
+
+
+//POINTER #101 @ $234 - STRING #101 @ $CD7
+#W32($234)
+//モノポリス社魔導兵[END-FF]
+Monopolis Sorceror[END-FF]
+
+
+
+
+
+//POINTER #102 @ $238 - STRING #102 @ $CEC
+#W32($238)
+//モノポリス社僧兵[END-FF]
+Monopolis Healer[END-FF]
+
+
+
+
+
+//POINTER #103 @ $23C - STRING #103 @ $CFF
+#W32($23C)
+//モノポリス社僧兵[END-FF]
+Monopolis Healer[END-FF]
+
+
+
+
+
+//POINTER #104 @ $240 - STRING #104 @ $D12
+#W32($240)
+//赤狼隊隊員[END-FF]
+Red Wolf Member[END-FF]
+
+
+
+
+
+//POINTER #105 @ $244 - STRING #105 @ $D1F
+#W32($244)
+//ヒンギスタン上級兵[END-FF]
+Hingistan Officer[END-FF]
+
+
+
+
+
+//POINTER #106 @ $248 - STRING #106 @ $D34
+#W32($248)
+//ヒンギスタン歩兵[END-FF]
+Hingistan Soldier[END-FF]
+
+
+
+
+
+//POINTER #107 @ $24C - STRING #107 @ $D47
+#W32($24C)
+//ヒンギスタン重歩兵[END-FF]
+Hingistan Knight[END-FF]
+
+
+
+
+
+//POINTER #108 @ $250 - STRING #108 @ $D5C
+#W32($250)
+//ヒンギスタン弓兵[END-FF]
+Hingistan Archer[END-FF]
+
+
+
+
+
+//POINTER #109 @ $254 - STRING #109 @ $D6F
+#W32($254)
+//ヒンギスタン魔導兵[END-FF]
+Hingistan Sorceror[END-FF]
+
+
+
+
+
+//POINTER #110 @ $258 - STRING #110 @ $D84
+#W32($258)
+//ヒンギスタン僧兵[END-FF]
+Hingistan Healer[END-FF]
+
+
+
+
+
+//POINTER #111 @ $25C - STRING #111 @ $D97
+#W32($25C)
+//ヒンギスタン親衛隊[END-FF]
+Hingistan Guard[END-FF]
+
+
+
+
+
+//POINTER #112 @ $260 - STRING #112 @ $DAC
+#W32($260)
+//偽装したテロリスト[END-FF]
+Disguised Terrorist[END-FF]
+
+
+
+
+
+//POINTER #113 @ $264 - STRING #113 @ $DC1
+#W32($264)
+//偽装したテロリスト[END-FF]
+Disguised Terrorist[END-FF]
+
+
+
+
+
+//POINTER #114 @ $268 - STRING #114 @ $DD6
+#W32($268)
+//フォメロス上級兵[END-FF]
+Fomeros Officer[END-FF]
+
+
+
+
+
+//POINTER #115 @ $26C - STRING #115 @ $DE9
+#W32($26C)
+//フォメロス歩兵[END-FF]
+Fomeros Soldier[END-FF]
+
+
+
+
+
+//POINTER #116 @ $270 - STRING #116 @ $DFA
+#W32($270)
+//フォメロス重歩兵[END-FF]
+Fomeros Knight[END-FF]
+
+
+
+
+
+//POINTER #117 @ $274 - STRING #117 @ $E0D
+#W32($274)
+//フォメロス弓兵[END-FF]
+Fomeros Archer[END-FF]
+
+
+
+
+
+//POINTER #118 @ $278 - STRING #118 @ $E1E
+#W32($278)
+//フォメロス魔導兵[END-FF]
+Fomeros Sorceror[END-FF]
+
+
+
+
+
+//POINTER #119 @ $27C - STRING #119 @ $E31
+#W32($27C)
+//フォメロス僧兵[END-FF]
+Fomeros Healer[END-FF]
+
+
+
+
+
+//POINTER #120 @ $280 - STRING #120 @ $E42
+#W32($280)
+//偽装したテロリスト[END-FF]
+Disguised Terrorist[END-FF]
+
+
+
+
+
+//POINTER #121 @ $284 - STRING #121 @ $E57
+#W32($284)
+//偽装したテロリスト[END-FF]
+Disguised Terrorist[END-FF]
+
+
+
+
+
+//POINTER #122 @ $288 - STRING #122 @ $E6C
+#W32($288)
+//レジスタンス軍隊長[END-FF]
+Resistance Leader[END-FF]
+
+
+
+
+
+//POINTER #123 @ $28C - STRING #123 @ $E81
+#W32($28C)
+//レジスタンス軍歩兵[END-FF]
+Resistance Soldier[END-FF]
+
+
+
+
+
+//POINTER #124 @ $290 - STRING #124 @ $E96
+#W32($290)
+//レジスタンス軍重歩兵[END-FF]
+Resistance Knight[END-FF]
+
+
+
+
+
+//POINTER #125 @ $294 - STRING #125 @ $EAD
+#W32($294)
+//レジスタンス軍弓兵[END-FF]
+Resistance Archer[END-FF]
+
+
+
+
+
+//POINTER #126 @ $298 - STRING #126 @ $EC2
+#W32($298)
+//レジスタンス軍魔導兵[END-FF]
+Resistance Sorceror[END-FF]
+
+
+
+
+
+//POINTER #127 @ $29C - STRING #127 @ $ED9
+#W32($29C)
+//レジスタンス軍僧兵[END-FF]
+Resistance Healer[END-FF]
+
+
+
+
+
+//POINTER #128 @ $2A0 - STRING #128 @ $EEE
+#W32($2A0)
+//テロリスト隊長[END-FF]
+Terrorist Leader[END-FF]
+
+
+
+
+
+//POINTER #129 @ $2A4 - STRING #129 @ $EFF
+#W32($2A4)
+//テロリスト歩兵[END-FF]
+Terrorist Soldier[END-FF]
+
+
+
+
+
+//POINTER #130 @ $2A8 - STRING #130 @ $F10
+#W32($2A8)
+//テロリスト斧兵[END-FF]
+Terrorist Knight[END-FF]
+
+
+
+
+
+//POINTER #131 @ $2AC - STRING #131 @ $F21
+#W32($2AC)
+//テロリスト弓兵[END-FF]
+Terrorist Archer[END-FF]
+
+
+
+
+
+//POINTER #132 @ $2B0 - STRING #132 @ $F32
+#W32($2B0)
+//テロリスト魔導兵[END-FF]
+Terrorist Sorceror[END-FF]
+
+
+
+
+
+//POINTER #133 @ $2B4 - STRING #133 @ $F45
+#W32($2B4)
+//テロリスト僧兵[END-FF]
+Terrorist Healer[END-FF]
+
+
+
+
+
+//POINTER #134 @ $2B8 - STRING #134 @ $F56
+#W32($2B8)
+//テロリスト[END-FF]
+Terrorist[END-FF]
+
+
+
+
+
+//POINTER #135 @ $2BC - STRING #135 @ $F63
+#W32($2BC)
+//侵略軍上級兵[END-FF]
+Invading Officer[END-FF]
+
+
+
+
+
+//POINTER #136 @ $2C0 - STRING #136 @ $F72
+#W32($2C0)
+//侵略軍歩兵[END-FF]
+Invading Soldier[END-FF]
+
+
+
+
+
+//POINTER #137 @ $2C4 - STRING #137 @ $F7F
+#W32($2C4)
+//侵略軍狙撃兵[END-FF]
+Invading Archer[END-FF]
+
+
+
+
+
+//POINTER #138 @ $2C8 - STRING #138 @ $F8E
+#W32($2C8)
+//侵略軍魔導兵[END-FF]
+Invading Sorceror[END-FF]
+
+
+
+
+
+//POINTER #139 @ $2CC - STRING #139 @ $F9D
+#W32($2CC)
+//侵略軍僧兵[END-FF]
+Invading Healer[END-FF]
+
+
+
+
+
+//POINTER #140 @ $2D0 - STRING #140 @ $FAA
+#W32($2D0)
+//総帥軍上級兵[END-FF]
+Armed Forces Officer[END-FF]
+
+
+
+
+
+//POINTER #141 @ $2D4 - STRING #141 @ $FB9
+#W32($2D4)
+//総帥軍歩兵[END-FF]
+Armed Forces Soldier[END-FF]
+
+
+
+
+
+//POINTER #142 @ $2D8 - STRING #142 @ $FC6
+#W32($2D8)
+//総帥軍重歩兵[END-FF]
+Armed Forces Knight[END-FF]
+
+
+
+
+
+//POINTER #143 @ $2DC - STRING #143 @ $FD5
+#W32($2DC)
+//総帥軍弓兵[END-FF]
+Armed Forces Archer[END-FF]
+
+
+
+
+
+//POINTER #144 @ $2E0 - STRING #144 @ $FE2
+#W32($2E0)
+//総帥軍魔導兵[END-FF]
+Armed Forces Sorceror[END-FF]
+
+
+
+
+
+//POINTER #145 @ $2E4 - STRING #145 @ $FF1
+#W32($2E4)
+//総帥軍魔導兵[END-FF]
+Armed Forces Sorceror[END-FF]
+
+
+
+
+
+//POINTER #146 @ $2E8 - STRING #146 @ $1000
+#W32($2E8)
+//総帥軍僧兵[END-FF]
+Armed Forces Healer[END-FF]
+
+
+
+
+
+//POINTER #147 @ $2EC - STRING #147 @ $100D
+#W32($2EC)
+//総帥軍僧兵[END-FF]
+Armed Forces Healer[END-FF]
+
+
+
+
+
+//POINTER #148 @ $2F0 - STRING #148 @ $101A
+#W32($2F0)
+//男の子[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #149 @ $2F4 - STRING #149 @ $1023
+#W32($2F4)
+//男の子[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #150 @ $2F8 - STRING #150 @ $102C
+#W32($2F8)
+//男の子[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #151 @ $2FC - STRING #151 @ $1035
+#W32($2FC)
+//女の子[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #152 @ $300 - STRING #152 @ $103E
+#W32($300)
+//女の子[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #153 @ $304 - STRING #153 @ $1047
+#W32($304)
+//女の子[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #154 @ $308 - STRING #154 @ $1050
+#W32($308)
+//男の子[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #155 @ $30C - STRING #155 @ $1059
+#W32($30C)
+//男の子[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #156 @ $310 - STRING #156 @ $1062
+#W32($310)
+//男の子[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #157 @ $314 - STRING #157 @ $106B
+#W32($314)
+//女の子[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #158 @ $318 - STRING #158 @ $1074
+#W32($318)
+//女の子[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #159 @ $31C - STRING #159 @ $107D
+#W32($31C)
+//女の子[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #160 @ $320 - STRING #160 @ $1086
+#W32($320)
+//少年[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #161 @ $324 - STRING #161 @ $108D
+#W32($324)
+//少年[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #162 @ $328 - STRING #162 @ $1094
+#W32($328)
+//少年[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #163 @ $32C - STRING #163 @ $109B
+#W32($32C)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #164 @ $330 - STRING #164 @ $10A2
+#W32($330)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #165 @ $334 - STRING #165 @ $10A9
+#W32($334)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #166 @ $338 - STRING #166 @ $10B0
+#W32($338)
+//少年[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #167 @ $33C - STRING #167 @ $10B7
+#W32($33C)
+//少年[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #168 @ $340 - STRING #168 @ $10BE
+#W32($340)
+//少年[END-FF]
+Boy[END-FF]
+
+
+
+
+
+//POINTER #169 @ $344 - STRING #169 @ $10C5
+#W32($344)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #170 @ $348 - STRING #170 @ $10CC
+#W32($348)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #171 @ $34C - STRING #171 @ $10D3
+#W32($34C)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #172 @ $350 - STRING #172 @ $10DA
+#W32($350)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #173 @ $354 - STRING #173 @ $10E1
+#W32($354)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #174 @ $358 - STRING #174 @ $10E8
+#W32($358)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #175 @ $35C - STRING #175 @ $10EF
+#W32($35C)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #176 @ $360 - STRING #176 @ $10F6
+#W32($360)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #177 @ $364 - STRING #177 @ $10FD
+#W32($364)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #178 @ $368 - STRING #178 @ $1104
+#W32($368)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #179 @ $36C - STRING #179 @ $110B
+#W32($36C)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #180 @ $370 - STRING #180 @ $1112
+#W32($370)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #181 @ $374 - STRING #181 @ $1119
+#W32($374)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #182 @ $378 - STRING #182 @ $1120
+#W32($378)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #183 @ $37C - STRING #183 @ $1127
+#W32($37C)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #184 @ $380 - STRING #184 @ $112E
+#W32($380)
+//商人[END-FF]
+Peddler[END-FF]
+
+
+
+
+
+//POINTER #185 @ $384 - STRING #185 @ $1135
+#W32($384)
+//商人[END-FF]
+Peddler[END-FF]
+
+
+
+
+
+//POINTER #186 @ $388 - STRING #186 @ $113C
+#W32($388)
+//商人[END-FF]
+Peddler[END-FF]
+
+
+
+
+
+//POINTER #187 @ $38C - STRING #187 @ $1143
+#W32($38C)
+//商人[END-FF]
+Peddler[END-FF]
+
+
+
+
+
+//POINTER #188 @ $390 - STRING #188 @ $114A
+#W32($390)
+//商人[END-FF]
+Peddler[END-FF]
+
+
+
+
+
+//POINTER #189 @ $394 - STRING #189 @ $1151
+#W32($394)
+//商人[END-FF]
+Peddler[END-FF]
+
+
+
+
+
+//POINTER #190 @ $398 - STRING #190 @ $1158
+#W32($398)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #191 @ $39C - STRING #191 @ $1163
+#W32($39C)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #192 @ $3A0 - STRING #192 @ $116E
+#W32($3A0)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #193 @ $3A4 - STRING #193 @ $1179
+#W32($3A4)
+//林業従事者[END-FF]
+Forestry Worker[END-FF]
+
+
+
+
+
+//POINTER #194 @ $3A8 - STRING #194 @ $1186
+#W32($3A8)
+//林業従事者[END-FF]
+Forestry Worker[END-FF]
+
+
+
+
+
+//POINTER #195 @ $3AC - STRING #195 @ $1193
+#W32($3AC)
+//林業従事者[END-FF]
+Forestry Worker[END-FF]
+
+
+
+
+
+//POINTER #196 @ $3B0 - STRING #196 @ $11A0
+#W32($3B0)
+//おばさん[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #197 @ $3B4 - STRING #197 @ $11AB
+#W32($3B4)
+//おばさん[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #198 @ $3B8 - STRING #198 @ $11B6
+#W32($3B8)
+//おばさん[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #199 @ $3BC - STRING #199 @ $11C1
+#W32($3BC)
+//旅人[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #200 @ $3C0 - STRING #200 @ $11C8
+#W32($3C0)
+//旅人[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #201 @ $3C4 - STRING #201 @ $11CF
+#W32($3C4)
+//旅人[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #202 @ $3C8 - STRING #202 @ $11D6
+#W32($3C8)
+//旅人[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #203 @ $3CC - STRING #203 @ $11DD
+#W32($3CC)
+//旅人[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #204 @ $3D0 - STRING #204 @ $11E4
+#W32($3D0)
+//旅人[END-FF]
+Traveller[END-FF]
+
+
+
+
+
+//POINTER #205 @ $3D4 - STRING #205 @ $11EB
+#W32($3D4)
+//学者[END-FF]
+Researcher[END-FF]
+
+
+
+
+
+//POINTER #206 @ $3D8 - STRING #206 @ $11F2
+#W32($3D8)
+//学者[END-FF]
+Researcher[END-FF]
+
+
+
+
+
+//POINTER #207 @ $3DC - STRING #207 @ $11F9
+#W32($3DC)
+//男性[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #208 @ $3E0 - STRING #208 @ $1200
+#W32($3E0)
+//男性[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #209 @ $3E4 - STRING #209 @ $1207
+#W32($3E4)
+//男性[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #210 @ $3E8 - STRING #210 @ $120E
+#W32($3E8)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #211 @ $3EC - STRING #211 @ $1215
+#W32($3EC)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #212 @ $3F0 - STRING #212 @ $121C
+#W32($3F0)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #213 @ $3F4 - STRING #213 @ $1223
+#W32($3F4)
+//老人[END-FF]
+Old Man[END-FF]
+
+
+
+
+
+//POINTER #214 @ $3F8 - STRING #214 @ $122A
+#W32($3F8)
+//老人[END-FF]
+Old Man[END-FF]
+
+
+
+
+
+//POINTER #215 @ $3FC - STRING #215 @ $1231
+#W32($3FC)
+//老人[END-FF]
+Old Man[END-FF]
+
+
+
+
+
+//POINTER #216 @ $400 - STRING #216 @ $1238
+#W32($400)
+//老婆[END-FF]
+Old Woman[END-FF]
+
+
+
+
+
+//POINTER #217 @ $404 - STRING #217 @ $123F
+#W32($404)
+//老婆[END-FF]
+Old Woman[END-FF]
+
+
+
+
+
+//POINTER #218 @ $408 - STRING #218 @ $1246
+#W32($408)
+//老婆[END-FF]
+Old Woman[END-FF]
+
+
+
+
+
+//POINTER #219 @ $40C - STRING #219 @ $124D
+#W32($40C)
+//長老[END-FF]
+Leader[END-FF]
+
+
+
+
+
+//POINTER #220 @ $410 - STRING #220 @ $1254
+#W32($410)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #221 @ $414 - STRING #221 @ $125F
+#W32($414)
+//青年[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #222 @ $418 - STRING #222 @ $1266
+#W32($418)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #223 @ $41C - STRING #223 @ $126D
+#W32($41C)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #224 @ $420 - STRING #224 @ $1274
+#W32($420)
+//ホテルマン[END-FF]
+Clerk[END-FF]
+
+
+
+
+
+//POINTER #225 @ $424 - STRING #225 @ $1281
+#W32($424)
+//司会者[END-FF]
+MC[END-FF]
+
+
+
+
+
+//POINTER #226 @ $428 - STRING #226 @ $128A
+#W32($428)
+//メイド[END-FF]
+Maid[END-FF]
+
+
+
+
+
+//POINTER #227 @ $42C - STRING #227 @ $1293
+#W32($42C)
+//ダンジョンレディ[END-FF]
+Dungeon Lady[END-FF]
+
+
+
+
+
+//POINTER #228 @ $430 - STRING #228 @ $12A6
+#W32($430)
+//ダンジョンガール[END-FF]
+Dungeon Girl[END-FF]
+
+
+
+
+
+//POINTER #229 @ $434 - STRING #229 @ $12B9
+#W32($434)
+//ポトラド人[END-FF]
+Pothradian[END-FF]
+
+
+
+
+
+//POINTER #230 @ $438 - STRING #230 @ $12C6
+#W32($438)
+//ポトラド人[END-FF]
+Pothradian[END-FF]
+
+
+
+
+
+//POINTER #231 @ $43C - STRING #231 @ $12D3
+#W32($43C)
+//ポトラド人族長[END-FF]
+Pothradian Patriarch[END-FF]
+
+
+
+
+
+//POINTER #232 @ $440 - STRING #232 @ $12E4
+#W32($440)
+//販売員[END-FF]
+Salesperson[END-FF]
+
+
+
+
+
+//POINTER #233 @ $444 - STRING #233 @ $12ED
+#W32($444)
+//販売員[END-FF]
+Salesperson[END-FF]
+
+
+
+
+
+//POINTER #234 @ $448 - STRING #234 @ $12F6
+#W32($448)
+//販売員[END-FF]
+Salesperson[END-FF]
+
+
+
+
+
+//POINTER #235 @ $44C - STRING #235 @ $12FF
+#W32($44C)
+//ＯＬ[END-FF]
+OL[END-FF]
+
+
+
+
+
+//POINTER #236 @ $450 - STRING #236 @ $1306
+#W32($450)
+//ＯＬ[END-FF]
+OL[END-FF]
+
+
+
+
+
+//POINTER #237 @ $454 - STRING #237 @ $130D
+#W32($454)
+//ＯＬ[END-FF]
+OL[END-FF]
+
+
+
+
+
+//POINTER #238 @ $458 - STRING #238 @ $1314
+#W32($458)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #239 @ $45C - STRING #239 @ $131F
+#W32($45C)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #240 @ $460 - STRING #240 @ $132A
+#W32($460)
+//おじさん[END-FF]
+Man[END-FF]
+
+
+
+
+
+//POINTER #241 @ $464 - STRING #241 @ $1335
+#W32($464)
+//女性幹部[END-FF]
+Female Leader[END-FF]
+
+
+
+
+
+//POINTER #242 @ $468 - STRING #242 @ $1340
+#W32($468)
+//技術者[END-FF]
+Engineer[END-FF]
+
+
+
+
+
+//POINTER #243 @ $46C - STRING #243 @ $1349
+#W32($46C)
+//キャリィ[END-FF]
+Steed[END-FF]
+
+
+
+
+
+//POINTER #244 @ $470 - STRING #244 @ $1354
+#W32($470)
+//軍キャリィ[END-FF]
+Steed[END-FF]
+
+
+
+
+
+//POINTER #245 @ $474 - STRING #245 @ $1361
+#W32($474)
+//キャリィ[END-FF]
+Steed[END-FF]
+
+
+
+
+
+//POINTER #246 @ $478 - STRING #246 @ $136C
+#W32($478)
+//軍キャリィ[END-FF]
+Steed[END-FF]
+
+
+
+
+
+//POINTER #247 @ $47C - STRING #247 @ $1379
+#W32($47C)
+//キャリィ[END-FF]
+Steed[END-FF]
+
+
+
+
+
+//POINTER #248 @ $480 - STRING #248 @ $1384
+#W32($480)
+//ゲル[END-FF]
+Slime[END-FF]
+
+
+
+
+
+//POINTER #249 @ $484 - STRING #249 @ $138B
+#W32($484)
+//ミュータントゲル[END-FF]
+Mutant Slime[END-FF]
+
+
+
+
+
+//POINTER #250 @ $488 - STRING #250 @ $139E
+#W32($488)
+//ゴールドゲル[END-FF]
+Gold Slime[END-FF]
+
+
+
+
+
+//POINTER #251 @ $48C - STRING #251 @ $13AD
+#W32($48C)
+//ウィル・オー・ウィスプ[END-FF]
+Will o' Wisp[END-FF]
+
+
+
+
+
+//POINTER #252 @ $490 - STRING #252 @ $13C6
+#W32($490)
+//スピリット[END-FF]
+Spirit[END-FF]
+
+
+
+
+
+//POINTER #253 @ $494 - STRING #253 @ $13D3
+#W32($494)
+//ソウル[END-FF]
+Soul[END-FF]
+
+
+
+
+
+//POINTER #254 @ $498 - STRING #254 @ $13DC
+#W32($498)
+//インプ[END-FF]
+Imp[END-FF]
+
+
+
+
+
+//POINTER #255 @ $49C - STRING #255 @ $13E5
+#W32($49C)
+//サマエル[END-FF]
+Samael[END-FF]
+
+
+
+
+
+//POINTER #256 @ $4A0 - STRING #256 @ $13F0
+#W32($4A0)
+//パペットゴーレム[END-FF]
+Puppet Golem[END-FF]
+
+
+
+
+
+//POINTER #257 @ $4A4 - STRING #257 @ $1403
+#W32($4A4)
+//インセクター[END-FF]
+Insector[END-FF]
+
+
+
+
+
+//POINTER #258 @ $4A8 - STRING #258 @ $1412
+#W32($4A8)
+//ラビデューラ[END-FF]
+Rabidhura[END-FF]
+
+
+
+
+
+//POINTER #259 @ $4AC - STRING #259 @ $1421
+#W32($4AC)
+//ホーンディンゴ[END-FF]
+Horned Dingo[END-FF]
+
+
+
+
+
+//POINTER #260 @ $4B0 - STRING #260 @ $1432
+#W32($4B0)
+//ダイアストライプ[END-FF]
+Diastripe[END-FF]
+
+
+
+
+
+//POINTER #261 @ $4B4 - STRING #261 @ $1445
+#W32($4B4)
+//スケルトン[END-FF]
+Skeleton[END-FF]
+
+
+
+
+
+//POINTER #262 @ $4B8 - STRING #262 @ $1452
+#W32($4B8)
+//スケルトンナイト[END-FF]
+Skull Knight[END-FF]
+
+
+
+
+
+//POINTER #263 @ $4BC - STRING #263 @ $1465
+#W32($4BC)
+//ボーンタイタン[END-FF]
+Bone Titan[END-FF]
+
+
+
+
+
+//POINTER #264 @ $4C0 - STRING #264 @ $1476
+#W32($4C0)
+//ゾンビ[END-FF]
+Zombie[END-FF]
+
+
+
+
+
+//POINTER #265 @ $4C4 - STRING #265 @ $147F
+#W32($4C4)
+//グール[END-FF]
+Ghoul[END-FF]
+
+
+
+
+
+//POINTER #266 @ $4C8 - STRING #266 @ $1488
+#W32($4C8)
+//スペクター[END-FF]
+Spectre[END-FF]
+
+
+
+
+
+//POINTER #267 @ $4CC - STRING #267 @ $1495
+#W32($4CC)
+//リッチ[END-FF]
+Lich[END-FF]
+
+
+
+
+
+//POINTER #268 @ $4D0 - STRING #268 @ $149E
+#W32($4D0)
+//ネクロマンサー[END-FF]
+Necromancer[END-FF]
+
+
+
+
+
+//POINTER #269 @ $4D4 - STRING #269 @ $14AF
+#W32($4D4)
+//ノー・ライフ・キング[END-FF]
+Nosferatu[END-FF]
+
+
+
+
+
+//POINTER #270 @ $4D8 - STRING #270 @ $14C6
+#W32($4D8)
+//リザードマン[END-FF]
+Lizardman[END-FF]
+
+
+
+
+
+//POINTER #271 @ $4DC - STRING #271 @ $14D5
+#W32($4DC)
+//リザードマンロード[END-FF]
+Lizard Lord[END-FF]
+
+
+
+
+
+//POINTER #272 @ $4E0 - STRING #272 @ $14EA
+#W32($4E0)
+//プチドラゴン[END-FF]
+Petit Dragon[END-FF]
+
+
+
+
+
+//POINTER #273 @ $4E4 - STRING #273 @ $14F9
+#W32($4E4)
+//ダスクドレイク[END-FF]
+Dragon[END-FF]
+
+
+
+
+
+//POINTER #274 @ $4E8 - STRING #274 @ $150A
+#W32($4E8)
+//ガルッパー[END-FF]
+Gulper[END-FF]
+
+
+
+
+
+//POINTER #275 @ $4EC - STRING #275 @ $1517
+#W32($4EC)
+//デヴォワラー[END-FF]
+Devourer[END-FF]
+
+
+
+
+
+//POINTER #276 @ $4F0 - STRING #276 @ $1526
+#W32($4F0)
+//バルサム[END-FF]
+Vulcan[END-FF]
+
+
+
+
+
+//POINTER #277 @ $4F4 - STRING #277 @ $1531
+#W32($4F4)
+//ボムツリー[END-FF]
+Boomshroom[END-FF]
+
+
+
+
+
+//POINTER #278 @ $4F8 - STRING #278 @ $153E
+#W32($4F8)
+//デビルプラント[END-FF]
+Demon Plant[END-FF]
+
+
+
+
+
+//POINTER #279 @ $4FC - STRING #279 @ $154F
+#W32($4FC)
+//悪魔の使い[END-FF]
+Devil Minion[END-FF]
+
+
+
+
+
+//POINTER #280 @ $500 - STRING #280 @ $155C
+#W32($500)
+//イヴィルメイジ[END-FF]
+Evil Mage[END-FF]
+
+
+
+
+
+//POINTER #281 @ $504 - STRING #281 @ $156D
+#W32($504)
+//ドレッドメイガス[END-FF]
+Dread Magus[END-FF]
+
+
+
+
+
+//POINTER #282 @ $508 - STRING #282 @ $1580
+#W32($508)
+//ウェアキャット[END-FF]
+Werecat[END-FF]
+
+
+
+
+
+//POINTER #283 @ $50C - STRING #283 @ $1591
+#W32($50C)
+//ウェアパンサー[END-FF]
+Werepanther[END-FF]
+
+
+
+
+
+//POINTER #284 @ $510 - STRING #284 @ $15A2
+#W32($510)
+//魔動機兵・改[END-FF]
+Mystek Guardian EX[END-FF]
+
+
+
+
+
+//POINTER #285 @ $514 - STRING #285 @ $15B1
+#W32($514)
+//エルダーメック[END-FF]
+Elder Mech[END-FF]
+
+
+
+
+
+//POINTER #286 @ $518 - STRING #286 @ $15C2
+#W32($518)
+//ルインガード[END-FF]
+Ruin Guard[END-FF]
+
+
+
+
+
+//POINTER #287 @ $51C - STRING #287 @ $15D1
+#W32($51C)
+//ルインガード[END-FF]
+Ruin Guard[END-FF]
+
+
+
+
+
+//POINTER #288 @ $520 - STRING #288 @ $15E0
+#W32($520)
+//再生魔動機兵[END-FF]
+Mystek Guardian[END-FF]
+
+
+
+
+
+//POINTER #289 @ $524 - STRING #289 @ $15EF
+#W32($524)
+//フローター[END-FF]
+Floater[END-FF]
+
+
+
+
+
+//POINTER #290 @ $528 - STRING #290 @ $15FC
+#W32($528)
+//アーマバルーン[END-FF]
+Armored Balloon[END-FF]
+
+
+
+
+
+//POINTER #291 @ $52C - STRING #291 @ $160D
+#W32($52C)
+//デーモン[END-FF]
+Demon[END-FF]
+
+
+
+
+
+//POINTER #292 @ $530 - STRING #292 @ $1618
+#W32($530)
+//アークデーモン[END-FF]
+Arch Demon[END-FF]
+
+
+
+
+
+//POINTER #293 @ $534 - STRING #293 @ $1629
+#W32($534)
+//デーモンロード[END-FF]
+Demon Lord[END-FF]
+
+
+
+
+
+//POINTER #294 @ $538 - STRING #294 @ $163A
+#W32($538)
+//ジャイアント[END-FF]
+Giant[END-FF]
+
+
+
+
+
+//POINTER #295 @ $53C - STRING #295 @ $1649
+#W32($53C)
+//トロール[END-FF]
+Troll[END-FF]
+
+
+
+
+
+//POINTER #296 @ $540 - STRING #296 @ $1654
+#W32($540)
+//タイタン[END-FF]
+Titan[END-FF]
+
+
+
+
+
+//POINTER #297 @ $544 - STRING #297 @ $165F
+#W32($544)
+//ポイズナー[END-FF]
+Poisoner[END-FF]
+
+
+
+
+
+//POINTER #298 @ $548 - STRING #298 @ $166C
+#W32($548)
+//テラーポイズナー[END-FF]
+Toxifier[END-FF]
+
+
+
+
+
+//POINTER #299 @ $54C - STRING #299 @ $167F
+#W32($54C)
+//パリュショナー[END-FF]
+Pollutioner[END-FF]
+
+
+
+
+
+//POINTER #300 @ $550 - STRING #300 @ $1690
+#W32($550)
+//ブロンズゴーレム[END-FF]
+Bronze Golem[END-FF]
+
+
+
+
+
+//POINTER #301 @ $554 - STRING #301 @ $16A3
+#W32($554)
+//アイアンゴーレム[END-FF]
+Iron Golem[END-FF]
+
+
+
+
+
+//POINTER #302 @ $558 - STRING #302 @ $16B6
+#W32($558)
+//ミスリルゴーレム[END-FF]
+Mythril Golem[END-FF]
+
+
+
+
+
+//POINTER #303 @ $55C - STRING #303 @ $16C9
+#W32($55C)
+//ガーゴイル[END-FF]
+Gargoyle[END-FF]
+
+
+
+
+
+//POINTER #304 @ $560 - STRING #304 @ $16D6
+#W32($560)
+//レッサーデーモン[END-FF]
+Lesser Demon[END-FF]
+
+
+
+
+
+//POINTER #305 @ $564 - STRING #305 @ $16E9
+#W32($564)
+//グレーターデーモン[END-FF]
+Greater Demon[END-FF]
+
+
+
+
+
+//POINTER #306 @ $568 - STRING #306 @ $16FE
+#W32($568)
+//ポーン・スクリーパー[END-FF]
+Pawn Screaper[END-FF]
+
+
+
+
+
+//POINTER #307 @ $56C - STRING #307 @ $1715
+#W32($56C)
+//ルーク・スクリーパー[END-FF]
+Rook Screaper[END-FF]
+
+
+
+
+
+//POINTER #308 @ $570 - STRING #308 @ $172C
+#W32($570)
+//シェルド・ルーク[END-FF]
+Armored Rook[END-FF]
+
+
+
+
+
+//POINTER #309 @ $574 - STRING #309 @ $173F
+#W32($574)
+//ルーク・チャンター[END-FF]
+Mystic Rook[END-FF]
+
+
+
+
+
+//POINTER #310 @ $578 - STRING #310 @ $1754
+#W32($578)
+//ポーン・スクリーパー[END-FF]
+Pawn Screaper[END-FF]
+
+
+
+
+
+//POINTER #311 @ $57C - STRING #311 @ $176B
+#W32($57C)
+//ナイト・スクリーパー[END-FF]
+Knight Screaper[END-FF]
+
+
+
+
+
+//POINTER #312 @ $580 - STRING #312 @ $1782
+#W32($580)
+//ビショップ・スクリーパー[END-FF]
+Bishop Screaper[END-FF]
+
+
+
+
+
+//POINTER #313 @ $584 - STRING #313 @ $179D
+#W32($584)
+//ヤクト・スクリーパー[END-FF]
+Jagd Screaper[END-FF]
+
+
+
+
+
+//POINTER #314 @ $588 - STRING #314 @ $17B4
+#W32($588)
+//変異・スクリーパー[END-FF]
+Mutant Screaper[END-FF]
+
+
+
+
+
+//POINTER #315 @ $58C - STRING #315 @ $17C9
+#W32($58C)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #316 @ $590 - STRING #316 @ $17D4
+#W32($590)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #317 @ $594 - STRING #317 @ $17DF
+#W32($594)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #318 @ $598 - STRING #318 @ $17EA
+#W32($598)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #319 @ $59C - STRING #319 @ $17F5
+#W32($59C)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #320 @ $5A0 - STRING #320 @ $1800
+#W32($5A0)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #321 @ $5A4 - STRING #321 @ $180B
+#W32($5A4)
+//ふとん犬[END-FF]
+Futon Dog[END-FF]
+
+
+
+
+
+//POINTER #322 @ $5A8 - STRING #322 @ $1816
+#W32($5A8)
+//サーワワーム[END-FF]
+Sour Worm[END-FF]
+
+
+
+
+
+//POINTER #323 @ $5AC - STRING #323 @ $1825
+#W32($5AC)
+//スリーミークロウラー[END-FF]
+Meat Crawler[END-FF]
+
+
+
+
+
+//POINTER #324 @ $5B0 - STRING #324 @ $183C
+#W32($5B0)
+//フェイタルバーミン[END-FF]
+Fetal Vermin[END-FF]
+
+
+
+
+
+//POINTER #325 @ $5B4 - STRING #325 @ $1851
+#W32($5B4)
+//トレント[END-FF]
+Trent[END-FF]
+
+
+
+
+
+//POINTER #326 @ $5B8 - STRING #326 @ $185C
+#W32($5B8)
+//ハームツリー[END-FF]
+Herm Tree[END-FF]
+
+
+
+
+
+//POINTER #327 @ $5BC - STRING #327 @ $186B
+#W32($5BC)
+//デビルプラント[END-FF]
+Demon Plant[END-FF]
+
+
+
+
+
+//POINTER #328 @ $5C0 - STRING #328 @ $187C
+#W32($5C0)
+//マイコニッド[END-FF]
+Maiconid[END-FF]
+
+
+
+
+
+//POINTER #329 @ $5C4 - STRING #329 @ $188B
+#W32($5C4)
+//バウンドフンギ[END-FF]
+Bound Fungi[END-FF]
+
+
+
+
+
+//POINTER #330 @ $5C8 - STRING #330 @ $189C
+#W32($5C8)
+//デスファンガス[END-FF]
+Death Fungus[END-FF]
+
+
+
+
+
+//POINTER #331 @ $5CC - STRING #331 @ $18AD
+#W32($5CC)
+//ジェイドスタチュー[END-FF]
+Jade Statue[END-FF]
+
+
+
+
+
+//POINTER #332 @ $5D0 - STRING #332 @ $18C2
+#W32($5D0)
+//アジュールスタチュー[END-FF]
+Azure Statue[END-FF]
+
+
+
+
+
+//POINTER #333 @ $5D4 - STRING #333 @ $18D9
+#W32($5D4)
+//アンバースタチュー[END-FF]
+Amber Statue[END-FF]
+
+
+
+
+
+//POINTER #334 @ $5D8 - STRING #334 @ $18EE
+#W32($5D8)
+//マギカインド[END-FF]
+Magi Kind[END-FF]
+
+
+
+
+
+//POINTER #335 @ $5DC - STRING #335 @ $18FD
+#W32($5DC)
+//ソリデッドアバター[END-FF]
+Solitude Avatar[END-FF]
+
+
+
+
+
+//POINTER #336 @ $5E0 - STRING #336 @ $1912
+#W32($5E0)
+//フェイズウォーカー[END-FF]
+Phase Walker[END-FF]
+
+
+
+
+
+//POINTER #337 @ $5E4 - STRING #337 @ $1927
+#W32($5E4)
+//アンデルフロシュ[END-FF]
+Andel Frosch[END-FF]
+
+
+
+
+
+//POINTER #338 @ $5E8 - STRING #338 @ $193A
+#W32($5E8)
+//ベルゼンフロシュ[END-FF]
+Belsen Frosch[END-FF]
+
+
+
+
+
+//POINTER #339 @ $5EC - STRING #339 @ $194D
+#W32($5EC)
+//アンゲストフロシュ[END-FF]
+Anges Frosch[END-FF]
+
+
+
+
+
+//POINTER #340 @ $5F0 - STRING #340 @ $1962
+#W32($5F0)
+//パンチャー[END-FF]
+Puncher[END-FF]
+
+
+
+
+
+//POINTER #341 @ $5F4 - STRING #341 @ $196F
+#W32($5F4)
+//ヘビーパンチャー[END-FF]
+Heavy Puncher[END-FF]
+
+
+
+
+
+//POINTER #342 @ $5F8 - STRING #342 @ $1982
+#W32($5F8)
+//ギガトンパンチャー[END-FF]
+Gigaton Puncher[END-FF]
+
+
+
+
+
+//POINTER #343 @ $5FC - STRING #343 @ $1997
+#W32($5FC)
+//フィギュアヘッド[END-FF]
+Figurehead[END-FF]
+
+
+
+
+
+//POINTER #344 @ $600 - STRING #344 @ $19AA
+#W32($600)
+//スプリガン[END-FF]
+Spriggan[END-FF]
+
+
+
+
+
+//POINTER #345 @ $604 - STRING #345 @ $19B7
+#W32($604)
+//スプリガン[END-FF]
+Spriggan[END-FF]
+
+
+
+
+
+//POINTER #346 @ $608 - STRING #346 @ $19C4
+#W32($608)
+//エネルギー球[END-FF]
+Energy Ball[END-FF]
+
+
+
+
+
+//POINTER #347 @ $60C - STRING #347 @ $19D3
+#W32($60C)
+//エネルギー球[END-FF]
+Energy Ball[END-FF]
+
+
+
+
+
+//POINTER #348 @ $610 - STRING #348 @ $19E2
+#W32($610)
+//クイーン・スクリーパー[END-FF]
+Queen Screaper[END-FF]
+
+
+
+
+
+//POINTER #349 @ $614 - STRING #349 @ $19FB
+#W32($614)
+//クイーン・スクリーパー[END-FF]
+Queen Screaper[END-FF]
+
+
+
+
+
+//POINTER #350 @ $618 - STRING #350 @ $1A14
+#W32($618)
+//パワービルダー[END-FF]
+Power Builder[END-FF]
+
+
+
+
+
+//POINTER #351 @ $61C - STRING #351 @ $1A25
+#W32($61C)
+//メックサーペント[END-FF]
+Meek Serpent[END-FF]
+
+
+
+
+
+//POINTER #352 @ $620 - STRING #352 @ $1A38
+#W32($620)
+//メックサーペント[END-FF]
+Meek Serpent[END-FF]
+
+
+
+
+
+//POINTER #353 @ $624 - STRING #353 @ $1A4B
+#W32($624)
+//ヘンチスフィア[END-FF]
+Hentisphere[END-FF]
+
+
+
+
+
+//POINTER #354 @ $628 - STRING #354 @ $1A5C
+#W32($628)
+//ヘンチスフィア[END-FF]
+Hentisphere[END-FF]
+
+
+
+
+
+//POINTER #355 @ $62C - STRING #355 @ $1A6D
+#W32($62C)
+//ヘンチスフィア[END-FF]
+Hentisphere[END-FF]
+
+
+
+
+
+//POINTER #356 @ $630 - STRING #356 @ $1A7E
+#W32($630)
+//クリスタル[END-FF]
+Crystal[END-FF]
+
+
+
+
+
+//POINTER #357 @ $634 - STRING #357 @ $1A8B
+#W32($634)
+//クリスタルガーダー[END-FF]
+Crystal Guardian[END-FF]
+
+
+
+
+
+//POINTER #358 @ $638 - STRING #358 @ $1AA0
+#W32($638)
+//冬眠カプセル[END-FF]
+Hibernation Capsule[END-FF]
+
+
+
+
+
+//POINTER #359 @ $63C - STRING #359 @ $1AAF
+#W32($63C)
+//インフィニトー[END-FF]
+Infinitor[END-FF]
+
+
+
+
+
+//POINTER #360 @ $640 - STRING #360 @ $1AC0
+#W32($640)
+//インフィニトー[END-FF]
+Infinitor[END-FF]
+
+
+
+
+
+//POINTER #361 @ $644 - STRING #361 @ $1AD1
+#W32($644)
+//護衛砲台[END-FF]
+Escort Battery[END-FF]
+
+
+
+
+
+//POINTER #362 @ $648 - STRING #362 @ $1ADC
+#W32($648)
+//回復装置[END-FF]
+Recovery Device[END-FF]
+
+
+
+
+
+//POINTER #363 @ $64C - STRING #363 @ $1AE7
+#W32($64C)
+//精神寄生体[END-FF]
+Mental Parasite[END-FF]
+
+
+
+
+
+//POINTER #364 @ $650 - STRING #364 @ $1AF4
+#W32($650)
+//目標物[END-FF]
+Target[END-FF]
+
+
+
+
+
+//POINTER #365 @ $654 - STRING #365 @ $1AFD
+#W32($654)
+//装置[END-FF]
+Device[END-FF]
+
+
+
+
+
+//POINTER #366 @ $658 - STRING #366 @ $1B04
+#W32($658)
+//資材[END-FF]
+Material[END-FF]
+
+
+
+
+
+//POINTER #367 @ $65C - STRING #367 @ $1B0B
+#W32($65C)
+//石版[END-FF]
+Lithograph[END-FF]
+
+
+
+
+
+//POINTER #368 @ $660 - STRING #368 @ $1B12
+#W32($660)
+//バリケード[END-FF]
+Barricade[END-FF]
+
+
+
+
+
+//POINTER #369 @ $664 - STRING #369 @ $1B1F
+#W32($664)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #370 @ $668 - STRING #370 @ $1B26
+#W32($668)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #371 @ $66C - STRING #371 @ $1B2D
+#W32($66C)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #372 @ $670 - STRING #372 @ $1B34
+#W32($670)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #373 @ $674 - STRING #373 @ $1B3B
+#W32($674)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #374 @ $678 - STRING #374 @ $1B42
+#W32($678)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #375 @ $67C - STRING #375 @ $1B49
+#W32($67C)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #376 @ $680 - STRING #376 @ $1B50
+#W32($680)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #377 @ $684 - STRING #377 @ $1B57
+#W32($684)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #378 @ $688 - STRING #378 @ $1B5E
+#W32($688)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #379 @ $68C - STRING #379 @ $1B65
+#W32($68C)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #380 @ $690 - STRING #380 @ $1B6C
+#W32($690)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #381 @ $694 - STRING #381 @ $1B73
+#W32($694)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #382 @ $698 - STRING #382 @ $1B7A
+#W32($698)
+//妖精[END-FF]
+Fairy[END-FF]
+
+
+
+
+
+//POINTER #383 @ $69C - STRING #383 @ $1B81
+#W32($69C)
+//生命エネルギー[END-FF]
+Life Energy[END-FF]
+
+
+
+
+
+//POINTER #384 @ $6A0 - STRING #384 @ $1B92
+#W32($6A0)
+//緑の光[END-FF]
+Green Light[END-FF]
+
+
+
+
+
+//POINTER #385 @ $6A4 - STRING #385 @ $1B9B
+#W32($6A4)
+//赤の光[END-FF]
+Red Light[END-FF]
+
+
+
+
+
+//POINTER #386 @ $6A8 - STRING #386 @ $1BA4
+#W32($6A8)
+//青の光[END-FF]
+Blue Light[END-FF]
+
+
+
+
+
+//POINTER #387 @ $6AC - STRING #387 @ $1BAD
+#W32($6AC)
+//少女[END-FF]
+Girl[END-FF]
+
+
+
+
+
+//POINTER #388 @ $6B0 - STRING #388 @ $1BB4
+#W32($6B0)
+//大地の巫女[END-FF]
+Shrine Maiden[END-FF]
+
+
+
+
+
+//POINTER #389 @ $6B4 - STRING #389 @ $1BC1
+#W32($6B4)
+//ユニットチェック１[END-FF]
+Unit Check 1[END-FF]
+
+
+
+
+
+//POINTER #390 @ $6B8 - STRING #390 @ $1BD6
+#W32($6B8)
+//ユニットチェック２[END-FF]
+Unit Check 2[END-FF]
+
+
+
+
+
+//POINTER #391 @ $6BC - STRING #391 @ $1BEB
+#W32($6BC)
+//ユニットチェック３[END-FF]
+Unit Check 3[END-FF]
+
+
+
+
+
+//POINTER #392 @ $6C0 - STRING #392 @ $1C00
+#W32($6C0)
+//ユニットチェック４[END-FF]
+Unit Check 4[END-FF]
+
+
+
+
+
+//POINTER #393 @ $6C4 - STRING #393 @ $1C15
+#W32($6C4)
+//ユニットチェック５[END-FF]
+Unit Check 5[END-FF]
+
+
+
+
+
+//POINTER #394 @ $6C8 - STRING #394 @ $1C2A
+#W32($6C8)
+//ユニットチェック６[END-FF]
+Unit Check 6[END-FF]
+
+
+
+
+
+//POINTER #395 @ $6CC - STRING #395 @ $1C3F
+#W32($6CC)
+//ユニットチェック７[END-FF]
+Unit Check 7[END-FF]
+
+
+
+
+
+//POINTER #396 @ $6D0 - STRING #396 @ $1C54
+#W32($6D0)
+//ユニットチェック８[END-FF]
+Unit Check 8[END-FF]
+
+
+
+
+
+//POINTER #397 @ $6D4 - STRING #397 @ $1C69
+#W32($6D4)
+//ユニットチェック９[END-FF]
+Unit Check 9[END-FF]
+
+
+
+
+
+//POINTER #398 @ $6D8 - STRING #398 @ $1C7E
+#W32($6D8)
+//ユニットチェック１０[END-FF]
+Unit Check 10[END-FF]

@@ -1,0 +1,1237 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $4340, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $41A0, 4, PTR)
+
+#JMP($4340)
+#HDR($4340)
+
+
+
+
+
+//POINTER #0 @ $41A0 - STRING #0 @ $4340
+#W32($41A0)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $41A4 - STRING #1 @ $4343
+#W32($41A4)
+//同行人とは[END-FF]
+Companions[END-FF]
+
+
+
+
+
+//POINTER #2 @ $41A8 - STRING #2 @ $4350
+#W32($41A8)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #3 @ $41AC - STRING #3 @ $435D
+#W32($41AC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $41B0 - STRING #4 @ $4382
+#W32($41B0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $41B4 - STRING #5 @ $43A7
+#W32($41B4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $41B8 - STRING #6 @ $43BC
+#W32($41B8)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $41BC - STRING #7 @ $43E1
+#W32($41BC)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $41C0 - STRING #8 @ $4406
+#W32($41C0)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $41C4 - STRING #9 @ $443B
+#W32($41C4)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $41C8 - STRING #10 @ $4470
+#W32($41C8)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $41CC - STRING #11 @ $4495
+#W32($41CC)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $41D0 - STRING #12 @ $44BA
+#W32($41D0)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $41D4 - STRING #13 @ $44DF
+#W32($41D4)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $41D8 - STRING #14 @ $44F4
+#W32($41D8)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #15 @ $41DC - STRING #15 @ $450B
+#W32($41DC)
+//自動Ｄ　ＥＢ０２＿２前[END-FE]
+自動Ｄ ＥＢ０２＿２前[END-FE]
+
+
+
+
+
+//POINTER #16 @ $41E0 - STRING #16 @ $4524
+#W32($41E0)
+//デバッグ部屋行く？[END-FE]
+//System Message\\
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #17 @ $41E4 - STRING #17 @ $4539
+#W32($41E4)
+//Ｄ　Ｆ４[END-FE]
+D F4[END-FE]
+
+
+
+
+
+//POINTER #18 @ $41E8 - STRING #18 @ $4544
+#W32($41E8)
+//配置パターンを選んで[END-FE]
+Select a placement pattern[END-FE]
+
+
+
+
+
+//POINTER #19 @ $41EC - STRING #19 @ $455B
+#W32($41EC)
+//・Ａパターン[END-FE]
+・A pattern[END-FE]
+
+
+
+
+
+//POINTER #20 @ $41F0 - STRING #20 @ $456A
+#W32($41F0)
+//・Ｂパターン[END-FE]
+・B pattern[END-FE]
+
+
+
+
+
+//POINTER #21 @ $41F4 - STRING #21 @ $4579
+#W32($41F4)
+//[CHAR1300][V0000]
+//どうした、坊や？[NLINE]
+//正義の味方気取りかも知れんが、[NLINE]
+//あとはそいつだけだぜ？[END-FE]
+[CHAR1300][V0000]
+Are you ready to give up, boy?[NLINE]
+Maybe you think you're a big[NLINE]
+hero, but when you're wounded[NLINE]
+friend is gone, you'll be all[NLINE]
+on your own![END-FE]
+
+
+
+
+
+//POINTER #22 @ $41F8 - STRING #22 @ $45CC
+#W32($41F8)
+//[CHAR1300][V0100]
+//…全くついてない…。[NLINE]
+//とんだ厄介事に巻き込まれたもんだ…。[END-FE]
+[CHAR1300][V0100]
+...Just my luck...[NLINE]
+Seems like I got myself into some[NLINE]
+serious trouble...[END-FE]
+
+
+
+
+
+//POINTER #23 @ $41FC - STRING #23 @ $4611
+#W32($41FC)
+//[CHAR1300][V0200]
+//…俺のことはいい…[NLINE]
+//君も早く…逃げろ…[END-FE]
+[CHAR1300][V0200]
+...Leave me...[NLINE]
+You hurry... and run...[END-FE]
+
+
+
+
+
+//POINTER #24 @ $4200 - STRING #24 @ $4642
+#W32($4200)
+//[CHAR1300][V0300]
+//出来ればそうしたいが、[NLINE]
+//あの連中、逃がしてくれそうにないぜ。[END-FE]
+[CHAR1300][V0300]
+I would do that if I could, but it[NLINE]
+seems like those guys aren't going[NLINE]
+to let me through.[END-FE]
+
+
+
+
+
+//POINTER #25 @ $4204 - STRING #25 @ $4689
+#W32($4204)
+//[CHAR1300][V0400]
+//…すまない…迷惑をかけた…。[NLINE]
+//…これを…これを…[END-FE]
+[CHAR1300][V0400]
+Sorry... for causing... you trouble...[NLINE]
+Take... it...[END-FE]
+
+
+
+
+
+//POINTER #26 @ $4208 - STRING #26 @ $46C4
+#W32($4208)
+//[CHAR1300][V0500]
+//これを、何だ？[END-FE]
+[CHAR1300][V0500]
+Take what?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $420C - STRING #27 @ $46DD
+#W32($420C)
+//[CHAR1300][V0600]
+//これ…を…[END-FE]
+[CHAR1300][V0600]
+Take... this...[END-FE]
+
+
+
+
+
+//POINTER #28 @ $4210 - STRING #28 @ $46F2
+#W32($4210)
+//少年は水晶のような物を受け取った！[END-FE]
+The boy received a crystal-like object![END-FE]
+
+
+
+
+
+//POINTER #29 @ $4214 - STRING #29 @ $4717
+#W32($4214)
+//[CHAR1300][V0700]
+//さあ、そろそろ年貢の納め時だぜ？[END-FE]
+[CHAR1300][V0700]
+Alright, time to hand it over.[END-FE]
+
+
+
+
+
+//POINTER #30 @ $4218 - STRING #30 @ $4742
+#W32($4218)
+//[CHAR1300][V0800]
+//う、うわぁ！[NLINE]
+//なんだ、ありゃ!?[END-FE]
+[CHAR1300][V0800]
+U-uwaa! What is that thing!?[END-FE]
+
+
+
+
+
+//POINTER #31 @ $421C - STRING #31 @ $476B
+#W32($421C)
+//[CHAR1300][V0900]
+//…スクリーパー…!?[NWIN]
+//
+//[CHAR1300][V0A00]
+//おい…君…[NLINE]
+//この苗木を手放すな…。[NWIN]
+//
+//[CHAR1300][V0B00]
+//この苗木は…奴を…[NLINE]
+//…う…ぅ……[END-FE]
+[CHAR1300][V0900]
+...A Screaper...!?[NWIN]
+
+[CHAR1300][V0A00]
+Listen to me... Don't lose[NLINE]
+this seedling...[NWIN]
+
+[CHAR1300][V0B00]
+This seedling will... protect[NLINE]
+you from th-[NLINE]
+...Uuuh...[END-FE]
+
+
+
+
+
+//POINTER #32 @ $4220 - STRING #32 @ $47DE
+#W32($4220)
+//[CHAR1300][V0C00]
+//おい！[NLINE]
+//アンタ！[END-FE]
+[CHAR1300][V0C00]
+Hey! Hang in there![END-FE]
+
+
+
+
+
+//POINTER #33 @ $4224 - STRING #33 @ $47F9
+#W32($4224)
+//[CHAR1300][V0D00]
+//…くっ！[NLINE]
+//勝手に死にやがって。[NWIN]
+//
+//[CH.FACE:Angry][CHAR1300][V0E00]
+//俺一人で[NLINE]
+//切りぬけろっていうのかよ…。[END-FE]
+[CHAR1300][V0D00]
+...Damn! He died on me.[NWIN]
+
+[CH.FACE:Angry][CHAR1300][V0E00]
+Looks like I'll have to cut through them[NLINE]
+by myself...[END-FE]
+
+
+
+
+
+//POINTER #34 @ $4228 - STRING #34 @ $4856
+#W32($4228)
+//[CHAR1300][V0F00]
+//何なの、このモンスターは？[END-FE]
+[CHAR1300][V0F00]
+What are those monsters?[END-FE]
+
+
+
+
+
+//POINTER #35 @ $422C - STRING #35 @ $487B
+#W32($422C)
+//[CHAR1300][V1000]
+//大変です！[NLINE]
+//人が襲われています！[END-FE]
+[CHAR1300][V1000]
+This is bad![NLINE]
+They're attacking people![END-FE]
+
+
+
+
+
+//POINTER #36 @ $4230 - STRING #36 @ $48A6
+#W32($4230)
+//[CHAR1300][V1100]
+//くっ！[NLINE]
+//財閥の連中だ！[NLINE]
+//まとめて始末するぞ！[END-FE]
+[CHAR1300][V1100]
+Damn! More Monopolis rats![NLINE]
+Let's dispose of all of them![END-FE]
+
+
+
+
+
+//POINTER #37 @ $4234 - STRING #37 @ $48DD
+#W32($4234)
+//[CHAR1300][V1200]
+//あれって、テロリスト!?[END-FE]
+[CHAR1300][V1200]
+Terrorists!?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $4238 - STRING #38 @ $48FE
+#W32($4238)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #39 @ $423C - STRING #39 @ $490B
+#W32($423C)
+//・少年の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・The boy dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #40 @ $4240 - STRING #40 @ $492E
+#W32($4240)
+//…ちぃっ！[END-FE]
+...Tch![END-FE]
+
+
+
+
+
+//POINTER #41 @ $4244 - STRING #41 @ $493B
+#W32($4244)
+//・少年に指示を出す[END-FE]
+・Give instructions to the boy[END-FE]
+
+
+
+
+
+//POINTER #42 @ $4248 - STRING #42 @ $4950
+#W32($4248)
+//・好きにやらせる[END-FE]
+・Let him do as he likes[END-FE]
+
+
+
+
+
+//POINTER #43 @ $424C - STRING #43 @ $4963
+#W32($424C)
+//・そのまま戦わせる[END-FE]
+・Keep fighting where you are now[END-FE]
+
+
+
+
+
+//POINTER #44 @ $4250 - STRING #44 @ $4978
+#W32($4250)
+//・自分のそばに来させる[END-FE]
+・Come to me[END-FE]
+
+
+
+
+
+//POINTER #45 @ $4254 - STRING #45 @ $4991
+#W32($4254)
+//・ウェンディのそばに行かせる[END-FE]
+・Go over to Wendy[END-FE]
+
+
+
+
+
+//POINTER #46 @ $4258 - STRING #46 @ $49B0
+#W32($4258)
+//ああ、わかったよ！[END-FE]
+Got it![END-FE]
+
+
+
+
+
+//POINTER #47 @ $425C - STRING #47 @ $49C5
+#W32($425C)
+//くそ、この化け物が…[END-FE]
+Damn, this monster...[END-FE]
+
+
+
+
+
+//POINTER #48 @ $4260 - STRING #48 @ $49DC
+#W32($4260)
+//・まとめて始末してやると言う[END-FE]
+・Say that you'll get rid of all[NLINE]
+   the terrorists[END-FE]
+
+
+
+
+
+//POINTER #49 @ $4264 - STRING #49 @ $49FB
+#W32($4264)
+//・協力してスクリーパーを倒そうと言う[END-FE]
+・Say that you and the terrorists should[NLINE]
+   cooperate to defeat the Screaper[END-FE]
+
+
+
+
+
+//POINTER #50 @ $4268 - STRING #50 @ $4A22
+#W32($4268)
+//ふざけるな！[NLINE]
+//返り討ちにしてやる！[END-FE]
+Like hell you will! I will[NLINE]
+kill you before you can![END-FE]
+
+
+
+
+
+//POINTER #51 @ $426C - STRING #51 @ $4A47
+#W32($426C)
+//ふざけるな！[NLINE]
+//誰が貴様らなんぞと！[END-FE]
+Like hell we will![NLINE]
+Why would I cooperate with Monopolis[NLINE]
+scum?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $4270 - STRING #52 @ $4A6C
+#W32($4270)
+//くそ、まだ死なないのか、コイツは！[END-FE]
+Damn, this thing just won't die![END-FE]
+
+
+
+
+
+//POINTER #53 @ $4274 - STRING #53 @ $4A91
+#W32($4274)
+//がんばって下さい！[NLINE]
+//あともう一息です！[END-FE]
+Please keep trying![NLINE]
+Just hold out a little bit[NLINE]
+longer!![END-FE]
+
+
+
+
+
+//POINTER #54 @ $4278 - STRING #54 @ $4ABA
+#W32($4278)
+//なんなんだよ、コイツ…[NLINE]
+//ほとんど刃が通らないじゃないか！[END-FE]
+What the hell? I can hardly[NLINE]
+cut through this thing![END-FE]
+
+
+
+
+
+//POINTER #55 @ $427C - STRING #55 @ $4AF5
+#W32($427C)
+//１匹だけなら、[NLINE]
+//持久戦に持ち込めば、なんとかなるわ！[END-FE]
+It's only one Screaper, so we should be able[NLINE]
+to take it down by ourselves. However,[NLINE]
+it's going to be an endurance test![END-FE]
+
+
+
+
+
+//POINTER #56 @ $4280 - STRING #56 @ $4B2C
+#W32($4280)
+//[CHAR1300][V1300]
+//…あの男…、[NLINE]
+//まさか守護勇士（ブレイヴ・ガード）？[END-FE]
+[CHAR1300][V1300]
+...That man... Could he be[NLINE]
+the Brave Guard?[END-FE]
+
+
+
+
+
+//POINTER #57 @ $4284 - STRING #57 @ $4B69
+#W32($4284)
+//この借り、いつか返す！[END-FE]
+I'll get back at you someday![END-FE]
+
+
+
+
+
+//POINTER #58 @ $4288 - STRING #58 @ $4B82
+#W32($4288)
+//いまに見ていろ！[END-FE]
+Just you wait![END-FE]
+
+
+
+
+
+//POINTER #59 @ $428C - STRING #59 @ $4B95
+#W32($428C)
+//また会うぞ！[END-FE]
+I'll be seeing you![END-FE]
+
+
+
+
+
+//POINTER #60 @ $4290 - STRING #60 @ $4BA4
+#W32($4290)
+//おのれ……[END-FE]
+Bastards...[END-FE]
+
+
+
+
+
+//POINTER #61 @ $4294 - STRING #61 @ $4BB1
+#W32($4294)
+//こ、こんなところで、[NLINE]
+//こんな化け物に…！[END-FE]
+N-no way... To think I would die here[NLINE]
+at the hands of such creatures...![END-FE]
+
+
+
+
+
+//POINTER #62 @ $4298 - STRING #62 @ $4BDC
+#W32($4298)
+//貴様らには…負け…ん…[END-FE]
+I won't... lose... to the[NLINE]
+likes... of you...[END-FE]
+
+
+
+
+
+//POINTER #63 @ $429C - STRING #63 @ $4BF5
+#W32($429C)
+//この化け物め…[END-FE]
+Damn these monsters...[END-FE]
+
+
+
+
+
+//POINTER #64 @ $42A0 - STRING #64 @ $4C06
+#W32($42A0)
+//不覚…[END-FE]
+Failure...[END-FE]
+
+
+
+
+
+//POINTER #65 @ $42A4 - STRING #65 @ $4C0F
+#W32($42A4)
+//くそ、引きあげるぞ！[END-FE]
+Damn, I'm getting out of here!![END-FE]
+
+
+
+
+
+//POINTER #66 @ $42A8 - STRING #66 @ $4C26
+#W32($42A8)
+//…く…くそ…。[END-FE]
+...D-damn...[END-FE]
+
+
+
+
+
+//POINTER #67 @ $42AC - STRING #67 @ $4C37
+#W32($42AC)
+//[CHAR1300][V1400]
+//ふぅ、終わったようね。[NWIN]
+//
+//[CH.FACE:Normal][CHAR1300][V1500]
+//君、大丈夫だった？[END-FE]
+[CHAR1300][V1400]
+Pfew, looks like it's over.[NWIN]
+
+[CH.FACE:Normal][CHAR1300][V1500]
+Are you alright?[END-FE]
+
+
+
+
+
+//POINTER #68 @ $42B0 - STRING #68 @ $4C78
+#W32($42B0)
+//[CHAR1300][V1600]
+//まぁな…。[END-FE]
+[CHAR1300][V1600]
+Sort of...[END-FE]
+
+
+
+
+
+//POINTER #69 @ $42B4 - STRING #69 @ $4C8D
+#W32($42B4)
+//[CHAR1300][V1700]
+//それより、アンタ。[NLINE]
+//ブレイヴ・ガードだろ？[NLINE]
+//こんなところで何してるんだ。[END-FE]
+[CHAR1300][V1700]
+But more importantly, you're the[NLINE]
+Brave Guard, right? What are[NLINE]
+you doing in a place like this?[END-FE]
+
+
+
+
+
+//POINTER #70 @ $42B8 - STRING #70 @ $4CE0
+#W32($42B8)
+//[CHAR1300][V1800]
+//えっ？[NLINE]
+//知り合い？[END-FE]
+[CHAR1300][V1800]
+Huh? You know him?[END-FE]
+
+
+
+
+
+//POINTER #71 @ $42BC - STRING #71 @ $4CFD
+#W32($42BC)
+//[CHAR1300][V1900]
+//それに、こんな女と一緒にいるなんて。[NLINE]
+//この女は巫女じゃないだろう？[END-FE]
+[CHAR1300][V1900]
+And why are you with this girl?[NLINE]
+Surely she isn't the Earth Priestess, right?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $42C0 - STRING #72 @ $4D4A
+#W32($42C0)
+//！！[NWIN]
+//
+//[CH.FACE:Sad][CHAR1400][V6300]
+//どういうことなの？[END-FE]
+!![NWIN]
+
+[CH.FACE:Sad][CHAR1400][V6300]
+What's that supposed to mean?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $42C4 - STRING #73 @ $4D71
+#W32($42C4)
+//[CHAR1300][V1A00]
+//勇者様。[NLINE]
+//この少年とお知り合いなのですか？[END-FE]
+[CHAR1300][V1A00]
+Brave One, do you know this boy?[END-FE]
+
+
+
+
+
+//POINTER #74 @ $42C8 - STRING #74 @ $4DA6
+#W32($42C8)
+//[CC.AC00][CHAR1300][V1B00]
+//（これだけ言って分からないって事は、[NLINE]
+//　他人の空似ってやつか…。）[NWIN]
+//
+//[CC.AC00][CHAR1300][V1C00]
+//[CC.AC00]（…だが、顔の印は…。）[END-FE]
+[CC.AC00][CHAR1300][V1B00]
+(Could he just be someone who happens[NLINE]
+ to resemble him...? No it's too early to tell.)[NWIN]
+
+[CC.AC00][CHAR1300][V1C00]
+[CC.AC00](But those marks on his face...)[END-FE]
+
+
+
+
+
+//POINTER #75 @ $42CC - STRING #75 @ $4E1E
+#W32($42CC)
+//[CHAR1300][V1D00]
+//彼の知り合いかも知れないけど、[NLINE]
+//覚えてなくても怒らないで。[NLINE]
+//実はちょっと記憶をなくしててさ…。[END-FE]
+[CHAR1300][V1D00]
+You might know who he is, but please[NLINE]
+don't get angry if he doesn't[NLINE]
+remember you. He actually lost all of his[NLINE]
+memories...[END-FE]
+
+
+
+
+
+//POINTER #76 @ $42D0 - STRING #76 @ $4E87
+#W32($42D0)
+//[CHAR1300][V1E00]
+//いや、こっちも直接知っているわけじゃない。[NLINE]
+//俺が聞かされていた奴と[NLINE]
+//あまりにも特徴が似ていたから、ついな。[END-FE]
+[CHAR1300][V1E00]
+No, I don't know him personally.[NLINE]
+It's just that he bears a lot of resemblance[NLINE]
+too someone I heard about.[END-FE]
+
+
+
+
+
+//POINTER #77 @ $42D4 - STRING #77 @ $4EFC
+#W32($42D4)
+//[CHAR1300][V1F00]
+//ところで、アンタら[NLINE]
+//これからどうするんだ？[NWIN]
+//
+//[CHAR1300][V2000]
+//東に行くなら一緒に行きたいんだが。[NLINE]
+//アンタらと一緒なら安全に旅が出来そうだ。[END-FE]
+[CHAR1300][V1F00]
+Anyway, what will you do now?[NWIN]
+
+[CHAR1300][V2000]
+If you're going east, then I[NLINE]
+want to go with you. It seems[NLINE]
+I'll be able to travel safely with[NLINE]
+you.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $42D8 - STRING #78 @ $4F87
+#W32($42D8)
+//[CHAR1300][V2100]
+//私たちは[NLINE]
+//ガイラナックって都市に行くだけよ？[END-FE]
+[CHAR1300][V2100]
+We're only planning on going to[NLINE]
+a place called Geilenach, though.[END-FE]
+
+
+
+
+
+//POINTER #79 @ $42DC - STRING #79 @ $4FBE
+#W32($42DC)
+//[CHAR1300][V2200]
+//取りあえず、[NLINE]
+//そこまででいい。[END-FE]
+[CHAR1300][V2200]
+That's good enough for the time being.[END-FE]
+
+
+
+
+
+//POINTER #80 @ $42E0 - STRING #80 @ $4FE7
+#W32($42E0)
+//[CHAR1300][V2300]
+//どうする？[END-FE]
+[CHAR1300][V2300]
+What shall we do?[END-FE]
+
+
+
+
+
+//POINTER #81 @ $42E4 - STRING #81 @ $4FFC
+#W32($42E4)
+//・ウェンディに任せる[END-FE]
+・Leave it to Wendy[END-FE]
+
+
+
+
+
+//POINTER #82 @ $42E8 - STRING #82 @ $5013
+#W32($42E8)
+//・一緒に行く[END-FE]
+・Go together[END-FE]
+
+
+
+
+
+//POINTER #83 @ $42EC - STRING #83 @ $5022
+#W32($42EC)
+//・断る[END-FE]
+・Refuse[END-FE]
+
+
+
+
+
+//POINTER #84 @ $42F0 - STRING #84 @ $502B
+#W32($42F0)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #85 @ $42F4 - STRING #85 @ $503A
+#W32($42F4)
+//[CHAR1300][V2500]
+//だったら、ＯＫかな。[NLINE]
+//ガイラナックまで一緒に行きましょう。[END-FE]
+[CHAR1300][V2500]
+If you let me decide, then I suppose it's OK.[NLINE]
+Let's go to Geilenach together![END-FE]
+
+
+
+
+
+//POINTER #86 @ $42F8 - STRING #86 @ $507F
+#W32($42F8)
+//[CHAR1300][V2400]
+//良かったわね。[END-FE]
+[CHAR1300][V2400]
+Great![END-FE]
+
+
+
+
+
+//POINTER #87 @ $42FC - STRING #87 @ $5098
+#W32($42FC)
+//[CHAR1300][V2600]
+//そんな！[NLINE]
+//この子は会社の人を守ってくれようとしたんだよ？[NWIN]
+//
+//[CHAR1300][V2700]
+//一緒に街に行くくらい、いいじゃない？[END-FE]
+[CHAR1300][V2600]
+Hold on! Didn't he try protecting[NLINE]
+that Metropolis soldier?[NWIN]
+
+[CHAR1300][V2700]
+Can't we at least travel with him to the city?[END-FE]
+
+
+
+
+
+//POINTER #88 @ $4300 - STRING #88 @ $5109
+#W32($4300)
+//[CHAR1300][V2800]
+//黙っているって事は、[NLINE]
+//私が決めてもいいってことかな？[NWIN]
+//
+//[CHAR1300][V2900]
+//だったらＯＫよ。[NLINE]
+//ガイラナックまで一緒に行きましょう。[END-FE]
+[CHAR1300][V2800]
+Since you're being silent, does that[NLINE]
+mean I get to decide?[NWIN]
+
+[CHAR1300][V2900]
+If so, then I'm OK with it.[NLINE]
+Let's go to Geilenach together![END-FE]
+
+
+
+
+
+//POINTER #89 @ $4304 - STRING #89 @ $5188
+#W32($4304)
+//[CHAR1300][V2A00]
+//…助かる。[NWIN]
+//
+//[CHAR1300][V2B00]
+//俺は[COL01]ルキアス[COL00]だ。[END-FE]
+[CHAR1300][V2A00]
+...Thanks.[NWIN]
+
+[CHAR1300][V2B00]
+I'm [COL01]Rukias[COL00].[END-FE]
+
+
+
+
+
+//POINTER #90 @ $4308 - STRING #90 @ $51BD
+#W32($4308)
+//[CHAR1300][V2C00]
+//私はウェンディ。[NLINE]
+//この妖精がユリィで、彼が…。[END-FE]
+[CHAR1300][V2C00]
+I'm Wendy. This fairy here[NLINE]
+is Yurii. And he is...[END-FE]
+
+
+
+
+
+//POINTER #91 @ $430C - STRING #91 @ $51F6
+#W32($430C)
+//・名乗る[END-FE]
+・Tell him your name[END-FE]
+
+
+
+
+
+//POINTER #92 @ $4310 - STRING #92 @ $5201
+#W32($4310)
+//・名乗らない[END-FE]
+・Don't tell him your name[END-FE]
+
+
+
+
+
+//POINTER #93 @ $4314 - STRING #93 @ $5210
+#W32($4314)
+//[CHAR1300][V2D00]
+//彼は[MainCharName]。[NLINE]
+//…無愛想な奴だけどね。[END-FE]
+[CHAR1300][V2D00]
+This is[MainCharName].[NLINE]
+...He can be a bit of a sourpuss, though.[END-FE]
+
+
+
+
+
+//POINTER #94 @ $4318 - STRING #94 @ $523D
+#W32($4318)
+//　[NLINE]
+//[COL01]ルキアス[COL00]が同行人になった！[NLINE]
+//　[END-FE]
+[NLINE]
+[COL01]Rukias[COL00] joined as a companion![NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #95 @ $431C - STRING #95 @ $5268
+#W32($431C)
+//旅をする途中で、一時的にパーティーに加わる[NLINE]
+//キャラクターを[COL05]同行人[COL00]と呼びます。[NLINE]
+//同行人はパーティーメンバーではありますが、[NLINE]
+//直接行動の指示を出すことが出来ません。[NLINE]
+//死なせてしまうとゲームオーバーになりますので[NLINE]
+//注意してください。[END-FE]
+Characters who will temporarily join you[NLINE]
+on your journey are called [COL05]companions[COL00].[NLINE]
+Companions will join your party but can't[NLINE]
+directly be controlled. Please be aware that[NLINE]
+the death of one of your companions will[NLINE]
+result in a Game Over.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $4320 - STRING #96 @ $5353
+#W32($4320)
+//ねぇ、ユリィ。[NLINE]
+//さっきの戦いで手に入れた[NLINE]
+//[COL01]ラナの実[COL00]って、なんなの？[END-FE]
+Say, Yurii. What's this [COL01]Rana Fruit[COL00][NLINE]
+that we obtained during battle earlier?[END-FE]
+
+
+
+
+
+//POINTER #97 @ $4324 - STRING #97 @ $539E
+#W32($4324)
+//ねぇ、ユリィ。[NLINE]
+//さっきの戦いで手に入れた[NLINE]
+//[COL01]ラナの種[COL00]って、なんなの？[END-FE]
+Say, Yurii. What's this [COL01]Rana Seed[COL00][NLINE]
+that we obtained during battle earlier?[END-FE]
+
+
+
+
+
+//POINTER #98 @ $4328 - STRING #98 @ $53E9
+#W32($4328)
+//ああ、あれですか。[NWIN]
+//
+//[COL01]ラナの実[COL00]や[COL01]ラナの種[COL00]は[NLINE]
+//私たち妖精が成長するための果実です。[NWIN]
+//
+//トレーニング時にそれを利用することで、[NLINE]
+//トレーニング効果を高めることが出来ます。[END-FE]
+Oh, that?[NWIN]
+
+[COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00][NLINE]
+help us fairies develop our abilities.[NWIN]
+
+If you use them during training, you'll[NLINE]
+be abale to increase the effectiveness[NLINE]
+of said training.[END-FE]
+
+
+
+
+
+//POINTER #99 @ $432C - STRING #99 @ $5498
+#W32($432C)
+//へぇ、そうなんだ…。[END-FE]
+Wow, really?[END-FE]
+
+
+
+
+
+//POINTER #100 @ $4330 - STRING #100 @ $54AF
+#W32($4330)
+//トレーニングには時間も必要ですので、[NLINE]
+//[COL01]ラナの実[COL00]や[COL01]種[COL00]を使うときには[NLINE]
+//勇者様が宿に立ち寄られたときに、[NLINE]
+//私を呼び出してください。[END-FE]
+Training takes time. Please call me[NLINE]
+when you visit an inn if you want to[NLINE]
+use [COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00].[END-FE]
+
+
+
+
+
+//POINTER #101 @ $4334 - STRING #101 @ $553A
+#W32($4334)
+//ユリィがトレーニングすると、どうなるの？[END-FE]
+What happens when you train?[END-FE]
+
+
+
+
+
+//POINTER #102 @ $4338 - STRING #102 @ $5565
+#W32($4338)
+//妖精も人間と同じく、[NLINE]
+//いろいろな技を覚えます。[NWIN]
+//
+//勇者様の冒険のお役に立てることも[NLINE]
+//あるかと思いますので、宿に寄られたら[NLINE]
+//ご指示をお願いしますね。[END-FE]
+The same as with humans. I'll learn[NLINE]
+various abilities.[NWIN]
+
+I think they'll come in handy during[NLINE]
+our adventure, Brave One. Please[NLINE]
+give me instructions when[NLINE]
+we stop by at an inn.[END-FE]
+
+
+
+

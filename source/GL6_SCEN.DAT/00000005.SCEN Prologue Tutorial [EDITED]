@@ -1,0 +1,12260 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $10EA0, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $FF20, 4, PTR)
+
+#JMP($10EA0)
+#HDR($10EA0)
+
+
+
+
+
+
+//POINTER #0 @ $FF20 - STRING #0 @ $10EA0
+#W32($FF20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $FF24 - STRING #1 @ $10EA3
+#W32($FF24)
+//女性[END-FF]
+Woman[END-FF]
+
+
+
+
+
+//POINTER #2 @ $FF28 - STRING #2 @ $10EAA
+#W32($FF28)
+//右スティック操作でマップ確認モード[END-FF]
+Use the right analog stick for Map Checking Mode.[END-FF]
+
+
+
+
+
+//POINTER #3 @ $FF2C - STRING #3 @ $10ECF
+#W32($FF2C)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #4 @ $FF30 - STRING #4 @ $10EDC
+#W32($FF30)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $FF34 - STRING #5 @ $10F01
+#W32($FF34)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #6 @ $FF38 - STRING #6 @ $10F26
+#W32($FF38)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #7 @ $FF3C - STRING #7 @ $10F3B
+#W32($FF3C)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #8 @ $FF40 - STRING #8 @ $10F60
+#W32($FF40)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #9 @ $FF44 - STRING #9 @ $10F85
+#W32($FF44)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $FF48 - STRING #10 @ $10FBA
+#W32($FF48)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $FF4C - STRING #11 @ $10FEF
+#W32($FF4C)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $FF50 - STRING #12 @ $11014
+#W32($FF50)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $FF54 - STRING #13 @ $11039
+#W32($FF54)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #14 @ $FF58 - STRING #14 @ $1105E
+#W32($FF58)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #15 @ $FF5C - STRING #15 @ $11073
+#W32($FF5C)
+//男\\
+//ここから外へ出ることが出来る。[NLINE]
+//モンスターがいるかもしれないから、[NLINE]
+//気をつけてくれよ。[END-FE]
+//Guard 2\\
+This road leads out of the[NLINE]
+village. There may be monsters,[NLINE]
+so be careful.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $FF60 - STRING #16 @ $110CC
+#W32($FF60)
+//男\\
+//…外にモンスターか。[NLINE]
+//気を引き締めて入り口を[NLINE]
+//警備しないとな。[END-FE]
+//Guard 2\\
+...A monster outside the gate, huh?[NLINE]
+I better be more watchful while[NLINE]
+guarding the entrance, then.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $FF64 - STRING #17 @ $1110D
+#W32($FF64)
+//男\\
+//モンスターがいたそうだ。[NLINE]
+//詰め所からの伝令で、[NLINE]
+//安全のためしばらく外へ出るのは[NLINE]
+//禁止させてもらうことになった。[END-FE]
+//Guard 2\\
+I heard there was a monster outside.[NLINE]
+By orders of the guardhouse, residents[NLINE]
+have been instructed to not leave[NLINE]
+the village for a while. It's for their[NLINE]
+own safety.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $FF68 - STRING #18 @ $1117E
+#W32($FF68)
+//攻撃イベントをもう一度やりますか？[END-FE]
+//System Message\\
+Do you want to try the Attack Event again?[END-FE]
+
+
+
+
+
+//POINTER #19 @ $FF6C - STRING #19 @ $111A3
+#W32($FF6C)
+//男\\
+//己の力量がわかるのも[NLINE]
+//強さの内さ、ハッハッハッ！[END-FE]
+//Warrior\\
+To be strong also means to know[NLINE]
+one's own limits! Ha-ha-ha![END-FE]
+
+
+
+
+
+//POINTER #20 @ $FF70 - STRING #20 @ $111D6
+#W32($FF70)
+//男\\
+//いつか、また胸を貸してやるよ、[NLINE]
+//ワッハッハッハ！[END-FE]
+//Warrior\\
+Don't worry, kid. I'll give you[NLINE]
+another workout some other time![NLINE]
+Wa-ha-ha-ha![END-FE]
+
+
+
+
+
+//POINTER #21 @ $FF74 - STRING #21 @ $11209
+#W32($FF74)
+//男\\
+//う～ん、[NLINE]
+//鉄壁なる防御を目指すには…。[END-FE]
+//Warrior\\
+I need to aim for an impregnable[NLINE]
+defense...![END-FE]
+
+
+
+
+
+
+//POINTER #22 @ $FF78 - STRING #22 @ $11232
+#W32($FF78)
+//男\\
+//スッゲェ～連撃だったよ。[END-FE]
+//Warrior\\
+Amazing![NLINE]
+My defense was completely shattered.[END-FE]
+
+
+
+
+
+//POINTER #23 @ $FF7C - STRING #23 @ $1124D
+#W32($FF7C)
+//男\\
+//…ど、どうしよう。[NWIN]
+//
+//彼女との約束の時間は[NLINE]
+//刻々と迫っているのに、[NLINE]
+//見張りの交代が来ない…。[NWIN]
+//
+//こんな時に限って、[NLINE]
+//いったいどうしたんだろう…。[END-FE]
+//Guard\\
+...What should I do?[NWIN]
+
+It's almost the time I promised to meet[NLINE]
+my sweetheart at, but my relief hasn't[NLINE]
+arrived yet...[NWIN]
+
+Just what should I do...?[END-FE]
+
+
+
+
+
+//POINTER #24 @ $FF80 - STRING #24 @ $112DC
+#W32($FF80)
+//男\\
+//ん、何か用か？[END-FE]
+//Guard\\
+Hm? What is it?[END-FE]
+
+
+
+
+
+//POINTER #25 @ $FF84 - STRING #25 @ $112ED
+#W32($FF84)
+//男\\
+//君！[NLINE]
+//ちょっと頼まれてくれないか！[NWIN]
+//
+//実はこの祭壇を警備しているんだが、[NLINE]
+//とっくに警備の交代の時間が来ているのに[NLINE]
+//誰も交代に来てくれないんだ。[NWIN]
+//
+//このままじゃ宿で待ち合わせしている[NLINE]
+//彼女を待たせちゃうよ…。[END-FE]
+//Guard\\
+You![NLINE]
+Can I ask you a favor?[NWIN]
+
+I'm guarding this shrine and the[NLINE]
+time for a shift change has been[NLINE]
+long overdue.[NWIN]
+
+At this rate, my sweetheart[NLINE]
+waiting for me at the inn will think[NLINE]
+I stood her up again...[END-FE]
+
+
+
+
+
+//POINTER #26 @ $FF88 - STRING #26 @ $113BA
+#W32($FF88)
+//男\\
+//悪いんだけど、[NLINE]
+//交代する人を呼んできてくれないかな？[END-FE]
+//Guard\\
+I'm sorry to ask this of you,[NLINE]
+but could you get someone to[NLINE]
+guard for me?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $FF8C - STRING #27 @ $113F1
+#W32($FF8C)
+//・呼んでくる[END-FE]
+・Call someone[END-FE]
+
+
+
+
+
+//POINTER #28 @ $FF90 - STRING #28 @ $11400
+#W32($FF90)
+//・自分が代わりに見張る[END-FE]
+・Stand guard yourself[END-FE]
+
+
+
+
+
+//POINTER #29 @ $FF94 - STRING #29 @ $11419
+#W32($FF94)
+//・自分には関係ない[END-FE]
+・This has nothing to do with me[END-FE]
+
+
+
+
+
+//POINTER #30 @ $FF98 - STRING #30 @ $1142E
+#W32($FF98)
+//男\\
+//あ、ありがとう！[NWIN]
+//
+//警備員の詰め所は茶色い扉の家だ。[NLINE]
+//すまないけど、急いで頼むよ！[END-FE]
+//Guard\\
+T-thank you![NWIN]
+
+The guardhouse is the building with[NLINE]
+the brown door.[NWIN]
+
+I'm sorry, but please hurry![END-FE]
+
+
+
+
+
+//POINTER #31 @ $FF9C - STRING #31 @ $11481
+#W32($FF9C)
+//男\\
+//え？[NLINE]
+//交代してくれるの？[NWIN]
+//
+//…う～ん。[NLINE]
+//…頼んで良いかな。[NWIN]
+//
+//決して祭壇の前から離れないでくれよ。[NLINE]
+//それと、中は絶対に入らないこと。[NWIN]
+//
+//それじゃあ、悪いけど頼んだよ！[END-FE]
+//Guard\\
+What? You'll cover my shift?[NWIN]
+
+Hmmm...[NLINE]
+...Well, if it's not too much to ask.[NWIN]
+
+Don't leave your guardpost. Also, don't[NLINE]
+enter the shrine under any circumstances![NWIN]
+
+
+Alright then, I'm counting on you![END-FE]
+
+
+
+
+
+//POINTER #32 @ $FFA0 - STRING #32 @ $11524
+#W32($FFA0)
+//男\\
+//そ、そうだよな。[NLINE]
+//こんな頼みきいてくれる人なんて[NLINE]
+//いないよな…。[END-FE]
+//Guard\\
+Y-you're right. I shouldn't have[NLINE]
+asked you to do that for me...[END-FE]
+
+
+
+
+
+//POINTER #33 @ $FFA4 - STRING #33 @ $11567
+#W32($FFA4)
+//男\\
+//…はぁ、今度こそ遅刻しないって[NLINE]
+//言っておいたのに、彼女になんて言えば…。[END-FE]
+//Guard\\
+...Oh man, she told me not to be[NLINE]
+late this time, or else...[NLINE]
+What should I say to her...?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $FFA8 - STRING #34 @ $115B2
+#W32($FFA8)
+//男\\
+//見張り代わってくれて[NLINE]
+//ありがとう！[END-FE]
+//Guard\\
+Thank you for standing guard![END-FE]
+
+
+
+
+
+//POINTER #35 @ $FFAC - STRING #35 @ $115D7
+#W32($FFAC)
+//男\\
+//見張り代わってくれて[NLINE]
+//ありがとう！[END-FE]
+//Guard\\
+Thank you for standing guard![END-FE]
+
+
+
+
+
+//POINTER #36 @ $FFB0 - STRING #36 @ $115FC
+#W32($FFB0)
+//男\\
+//君を信用したボクがバカだったよ！[END-FE]
+//Guard\\
+I was a fool to trust you![END-FE]
+
+
+
+
+
+//POINTER #37 @ $FFB4 - STRING #37 @ $1161F
+#W32($FFB4)
+//男\\
+//もっと誠実な人間になってくれよ。[END-FE]
+//Guard\\
+You should work on being more honest.[END-FE]
+
+
+
+
+
+//POINTER #38 @ $FFB8 - STRING #38 @ $11642
+#W32($FFB8)
+//男\\
+//もっと誠実な人間になってくれよ。[END-FE]
+//Guard\\
+You should work on being more honest.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $FFBC - STRING #39 @ $11665
+#W32($FFBC)
+//男\\
+//君を信用したボクがバカだったよ！[END-FE]
+//Guard\\
+I was a fool to trust you![END-FE]
+
+
+
+
+
+//POINTER #40 @ $FFC0 - STRING #40 @ $11688
+#W32($FFC0)
+//男\\
+//君を信用したボクがバカだったよ！[END-FE]
+//Guard\\
+I was a fool to trust you![END-FE]
+
+
+
+
+
+//POINTER #41 @ $FFC4 - STRING #41 @ $116AB
+#W32($FFC4)
+//男\\
+//それじゃあ、早急に頼むよ！[END-FE]
+//Guard\\
+I'm counting on you![END-FE]
+
+
+
+
+
+//POINTER #42 @ $FFC8 - STRING #42 @ $116C8
+#W32($FFC8)
+//男\\
+//し、しばらく待てだって！[NLINE]
+//…く、くそっ、待つしかないか…。[NWIN]
+//
+//ありがとう、連絡してくれて。[NLINE]
+//仕方ないから、もうしばらく警備しておくよ。[END-FE]
+//Guard\\
+T-they said to wait a little longer?[NLINE]
+I guess that's all I can do, then...[NWIN]
+
+Thank you for telling me. It can't be[NLINE]
+helped. I'll guard the entrance a[NLINE]
+little longer.[END-FE]
+
+
+
+
+
+//POINTER #43 @ $FFCC - STRING #43 @ $1174F
+#W32($FFCC)
+//男\\
+//え！[NLINE]
+//彼女に事情を伝えてくれたって！[NWIN]
+//
+//あ、ありがとう！[NLINE]
+//本当に助かったよ！[NWIN]
+//
+//これはちょっとしたお礼だ。[NLINE]
+//拾ったものだけど受け取ってくれ！[END-FE]
+//Guard\\
+Oh! So you told my sweetheart about[NLINE]
+my situation![NWIN]
+
+Thank you, you really helped me out![NWIN]
+
+Please, take this. It's just something I[NLINE]
+picked up, but I want you to have it.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $FFD0 - STRING #44 @ $117DA
+#W32($FFD0)
+//男\\
+//よし！[NLINE]
+//交代が来たら彼女に会いに行くぞ！[NLINE]
+//ありがとう、君。[END-FE]
+//Guard\\
+Alright![NLINE]
+When the next guard comes, I'll[NLINE]
+go meet my sweetheart.[NLINE]
+Thank you for your help.[END-FE]
+
+
+
+
+
+//POINTER #45 @ $FFD4 - STRING #45 @ $11817
+#W32($FFD4)
+//男\\
+//助かったよ、ありがとう！[END-FE]
+//Guard\\
+Thanks for helping me out![END-FE]
+
+
+
+
+
+//POINTER #46 @ $FFD8 - STRING #46 @ $11832
+#W32($FFD8)
+//男\\
+//くそっ、待つしかないか…。[END-FE]
+//Guard\\
+Damn it, is waiting all I can do...?[END-FE]
+
+
+
+
+
+//POINTER #47 @ $FFDC - STRING #47 @ $1184F
+#W32($FFDC)
+//村人\\
+//う～ん、どこにあるんだろ？[END-FE]
+//Boy\\
+Hmm, where could it be?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $FFE0 - STRING #48 @ $1186C
+#W32($FFE0)
+//村人\\
+//…そんな方法が。[END-FE]
+//Boy\\
+Huh, so that's how you do it.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $FFE4 - STRING #49 @ $1187F
+#W32($FFE4)
+//村人\\
+//お兄ちゃんも宝探し？[NWIN]
+//
+//ボクあやしいハシラ、[NLINE]
+//４つ見つけたよ！[NWIN]
+//
+//ハシラの上の方に物がのってるんだけど、[NLINE]
+//どうやって取れば良いんだろう？[END-FE]
+//Boy\\
+Are you searching for treasure too,[NLINE]
+mister?[NWIN]
+
+I found four suspicious pillars![NWIN]
+
+There might be something on the top[NLINE]
+of the pillars, but how do I get it?[END-FE]
+
+
+
+
+
+//POINTER #50 @ $FFE8 - STRING #50 @ $11906
+#W32($FFE8)
+//村人\\
+//どこだよ…。[END-FE]
+//Boy\\
+Where is it...?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $FFEC - STRING #51 @ $11915
+#W32($FFEC)
+//村人\\
+//…やっぱりあれだったのか。[NLINE]
+//しかし、そんな落とし方ってありかよ。[END-FE]
+//Boy\\
+So that's where it was, huh?[NLINE]
+But how did you make it fall?[END-FE]
+
+
+
+
+
+//POINTER #52 @ $FFF0 - STRING #52 @ $11958
+#W32($FFF0)
+//村人\\
+//チビの奴４本にまで絞り込んだのに、[NLINE]
+//まだ気付かないのかなぁ…。[NLINE]
+//あの左の奴なのに…。[END-FE]
+//Villager\\
+I've narrowed it down to four worn[NLINE]
+down pillars, but I haven't been[NLINE]
+able to spot the treasure yet...[NLINE]
+I'm sure it's on one of them on the left...[END-FE]
+
+
+
+
+
+//POINTER #53 @ $FFF4 - STRING #53 @ $119AF
+#W32($FFF4)
+//村人\\
+//チビの奴４本にまで絞り込んだのに、[NLINE]
+//まだ気付かないのかなぁ…。[NLINE]
+//あの手前の奴なのに…。[END-FE]
+//Villager\\
+I've narrowed it down to four worn[NLINE]
+down pillars, but I haven't been[NLINE]
+able to spot the treasure yet...[NLINE]
+I'm sure it's on one of them in the front...[END-FE]
+
+
+
+
+
+//POINTER #54 @ $FFF8 - STRING #54 @ $11A08
+#W32($FFF8)
+//村人\\
+//チビの奴４本にまで絞り込んだのに、[NLINE]
+//まだ気付かないのかなぁ…。[NLINE]
+//あの右の奴なのに…。[END-FE]
+//Villager\\
+I've narrowed it down to four worn[NLINE]
+down pillars, but I haven't been[NLINE]
+able to spot the treasure yet...[NLINE]
+I'm sure it's on one of them on the right...[END-FE]
+
+
+
+
+
+//POINTER #55 @ $FFFC - STRING #55 @ $11A5F
+#W32($FFFC)
+//村人\\
+//チビの奴４本にまで絞り込んだのに、[NLINE]
+//まだ気付かないのかなぁ…。[NLINE]
+//あの奥の奴なのに…。[END-FE]
+//Villager\\
+I've narrowed it down to four worn[NLINE]
+down pillars, but I haven't been[NLINE]
+able to spot the treasure yet...[NLINE]
+I'm sure it's on one of them in the back...[END-FE]
+
+
+
+
+
+//POINTER #56 @ $10000 - STRING #56 @ $11AB6
+#W32($10000)
+//村人\\
+//…怪しいと思っても、[NLINE]
+//上までのぼれないんじゃ意味ないぜ。[END-FE]
+//Villager\\
+...But just because I think those[NLINE]
+pillars are fishy, doesn't[NLINE]
+mean I'm able to climb them.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $10004 - STRING #57 @ $11AF1
+#W32($10004)
+//村人\\
+//あら、経験を積んできたようね。[NWIN]
+//
+//あなた強そうには見えるけど、[NLINE]
+//腕力だけじゃ、一流にはなれないわよ。[NWIN]
+//
+//あなたがどれだけ戦闘に[NLINE]
+//精通しているか試してあげる。[END-FE]
+//Villager\\
+Oh, it looks like you've gained some[NLINE]
+combat experience.[NWIN]
+
+You seem to be strong, but you can't[NLINE]
+become the best with just muscles.[NWIN]
+
+I'll test you to see how familiar[NLINE]
+you are with combat.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $10008 - STRING #58 @ $11B8C
+#W32($10008)
+//村人\\
+//挑戦してみる？[END-FE]
+//Villager\\
+Will you take the challenge?[END-FE]
+
+
+
+
+
+//POINTER #59 @ $1000C - STRING #59 @ $11B9D
+#W32($1000C)
+//村人\\
+//じゃあ、問題いくわよ！[END-FE]
+//Villager\\
+Well then, here are the questions![END-FE]
+
+
+
+
+
+//POINTER #60 @ $10010 - STRING #60 @ $11BB6
+#W32($10010)
+//村人\\
+//装備した武器が必要とする[NLINE]
+//ＳＴＲを満たしていない場合、[NLINE]
+//どこにペナルティが加えられる？[END-FE]
+//Villager\\
+When you don't have enough STR[NLINE]
+required to equip a weapon, what[NLINE]
+penalty will you get?[END-FE]
+
+
+
+
+
+//POINTER #61 @ $10014 - STRING #61 @ $11C0F
+#W32($10014)
+//・ＭＯＶが減少[END-FE]
+・MOV will decrease[END-FE]
+
+
+
+
+
+//POINTER #62 @ $10018 - STRING #62 @ $11C20
+#W32($10018)
+//・最大ＨＰが低下[END-FE]
+・Maximum HP will decrease[END-FE]
+
+
+
+
+
+//POINTER #63 @ $1001C - STRING #63 @ $11C33
+#W32($1001C)
+//・ＡＴＷが増加[END-FE]
+・ATW will increase[END-FE]
+
+
+
+
+
+//POINTER #64 @ $10020 - STRING #64 @ $11C44
+#W32($10020)
+//村人\\
+//詠唱する魔法Lvを変えて、[NLINE]
+//変化するものは？[END-FE]
+//Villager\\
+When you change the magic level of the[NLINE]
+spell you are casting, what will change?[END-FE]
+
+
+
+
+
+//POINTER #65 @ $10024 - STRING #65 @ $11C71
+#W32($10024)
+//・魔法射程[END-FE]
+・Magic range[END-FE]
+
+
+
+
+
+//POINTER #66 @ $10028 - STRING #66 @ $11C7E
+#W32($10028)
+//・消費ＭＰ[END-FE]
+・MP consumption[END-FE]
+
+
+
+
+
+//POINTER #67 @ $1002C - STRING #67 @ $11C8B
+#W32($1002C)
+//・詠唱時間[END-FE]
+・Casting time[END-FE]
+
+
+
+
+
+//POINTER #68 @ $10030 - STRING #68 @ $11C98
+#W32($10030)
+//村人\\
+//ＩＮＴが上昇すると、[NLINE]
+//大きく変化するものは？[END-FE]
+//Villager\\
+What changes significantly[NLINE]
+when INT rises?[END-FE]
+
+
+
+
+
+//POINTER #69 @ $10034 - STRING #69 @ $11CC7
+#W32($10034)
+//・最大ＭＰの増加[END-FE]
+・Maximum MP increases[END-FE]
+
+
+
+
+
+//POINTER #70 @ $10038 - STRING #70 @ $11CDA
+#W32($10038)
+//・詠唱時間の短縮[END-FE]
+・Reduced casting time[END-FE]
+
+
+
+
+
+//POINTER #71 @ $1003C - STRING #71 @ $11CED
+#W32($1003C)
+//・消費ＭＰの減少[END-FE]
+・MP consumption decreases[END-FE]
+
+
+
+
+
+//POINTER #72 @ $10040 - STRING #72 @ $11D00
+#W32($10040)
+//村人\\
+//[COL03]【[COL00]移動[COL03]】[COL00]、[COL03]【[COL00]防御[COL03]】[COL00]、[COL03]【[COL00]装着[COL03]】[COL00]、[NLINE]
+//この３つの中でコマンド画面に[NLINE]
+//無いのはどれか？[END-FE]
+//Villager\\
+[COL03][COL00]Move[COL03][COL00], [COL03][COL00]Defend[COL03][COL00], or [COL03][COL00]Equipping[COL03][COL00].[NLINE]
+Among these three, which one is[NLINE]
+not displayed in the Command[NLINE]
+Menu?[END-FE]
+
+
+
+
+
+//POINTER #73 @ $10044 - STRING #73 @ $11D75
+#W32($10044)
+//・移動[END-FE]
+・Move[END-FE]
+
+
+
+
+
+//POINTER #74 @ $10048 - STRING #74 @ $11D7E
+#W32($10048)
+//・防御[END-FE]
+・Defend[END-FE]
+
+
+
+
+
+//POINTER #75 @ $1004C - STRING #75 @ $11D87
+#W32($1004C)
+//・装着[END-FE]
+・Equipping[END-FE]
+
+
+
+
+
+//POINTER #76 @ $10050 - STRING #76 @ $11D90
+#W32($10050)
+//村人\\
+//硬直中にあなただけが可能な行動があるが、[NLINE]
+//それは何か？[END-FE]
+//Villager\\
+There is an action you can only perform[NLINE]
+when the time on the ATM Gauge is[NLINE]
+counting down. Which action is that?[END-FE]
+
+
+
+
+
+//POINTER #77 @ $10054 - STRING #77 @ $11DC9
+#W32($10054)
+//・味方をかばう[END-FE]
+・Protect allies[END-FE]
+
+
+
+
+
+//POINTER #78 @ $10058 - STRING #78 @ $11DDA
+#W32($10058)
+//・左スティックによる移動[END-FE]
+・Move with the left analog stick[END-FE]
+
+
+
+
+
+//POINTER #79 @ $1005C - STRING #79 @ $11DF5
+#W32($1005C)
+//・防御コマンド[END-FE]
+・Use the Defend command[END-FE]
+
+
+
+
+
+//POINTER #80 @ $10060 - STRING #80 @ $11E06
+#W32($10060)
+//村人\\
+//全問正解とは、[NLINE]
+//外見だけでなく中身まで一流だね！[NLINE]
+//あんたなら本物の一流になれるよ！[END-FE]
+//Villager\\
+Not only does your physique match that[NLINE]
+of an elite warrior, but your mind[NLINE]
+as well! You have answered all the[NLINE]
+questions correctly![NWIN]
+
+You could become a true first-class[NLINE]
+fighter someday![END-FE]
+
+
+
+
+
+//POINTER #81 @ $10064 - STRING #81 @ $11E5B
+#W32($10064)
+//村人\\
+//４問正解か。[NLINE]
+//結構やるね！[NWIN]
+//
+//十分一流を目指せるレベルだよ！[END-FE]
+//Villager\\
+You got four questions correct. Pretty[NLINE]
+good![NWIN]
+
+You should aim to become a first-class[NLINE]
+fighter someday![END-FE]
+
+
+
+
+
+//POINTER #82 @ $10068 - STRING #82 @ $11E98
+#W32($10068)
+//村人\\
+//３問正解と。[NLINE]
+//まずまずだね。[NLINE]
+//この調子で一流を目指してくれ！[END-FE]
+//Villager\\
+You answered three questions correctly.[NWIN]
+
+That's not bad. Keep it up and aim[NLINE]
+to become a first-class fighter![END-FE]
+
+
+
+
+
+//POINTER #83 @ $1006C - STRING #83 @ $11ED7
+#W32($1006C)
+//村人\\
+//う～ん、だいぶ知識が足りないね。[NLINE]
+//しっかりと覚えておかないと、[NLINE]
+//戦術は組み立てられないよ。[END-FE]
+//Villager\\
+Well, it seems your knowledge is a[NLINE]
+little lacking.[NWIN]
+
+If you can't clearly recall what[NLINE]
+you have learned, you won't able[NLINE]
+to devise any strategies.[END-FE]
+
+
+
+
+
+//POINTER #84 @ $10070 - STRING #84 @ $11F34
+#W32($10070)
+//村人\\
+//…これはちょっと…。[NLINE]
+//もう一度、一から勉強し直した方が[NLINE]
+//良いと思うよ。[END-FE]
+//Villager\\
+...That was... not great...[NLINE]
+I think it would be best if you start[NLINE]
+studying again from the beginning.[END-FE]
+
+
+
+
+
+//POINTER #85 @ $10074 - STRING #85 @ $11F7D
+#W32($10074)
+//村人\\
+//…あちゃあ！[NLINE]
+//見せかけだけだったか。[NWIN]
+//
+//知識をないがしろにしてると、[NLINE]
+//後で後悔することになるよ。[END-FE]
+//Villager\\
+...Shame on you! Were you just[NLINE]
+playing soldier this whole time?[NWIN]
+
+If you neglect to learn, you'll[NLINE]
+regret it later.[END-FE]
+
+
+
+
+
+//POINTER #86 @ $10078 - STRING #86 @ $11FDE
+#W32($10078)
+//村人\\
+//能力と知識によって、[NLINE]
+//戦略が生まれる。[NWIN]
+//
+//だから腕力だけじゃ、[NLINE]
+//戦闘には勝てないわよ。[END-FE]
+//Villager\\
+Strategies arise from ability[NLINE]
+and knowledge.[NWIN]
+
+That means you can't win a battle[NLINE]
+with brute strength alone.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $1007C - STRING #87 @ $12035
+#W32($1007C)
+//村人\\
+//無理にとは言わないけど。[NLINE]
+//腕力だけじゃ一流にはなれないよ。[END-FE]
+//Villager\\
+I'm not saying it's impossible, but[NLINE]
+you can't become one of the best by[NLINE]
+relying on brute strength alone.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $10080 - STRING #88 @ $12072
+#W32($10080)
+//村人\\
+//あなた戦士に見えるけど、[NLINE]
+//実戦経験無さそうね。[NWIN]
+//
+//戦闘に関する問題を出しても、[NLINE]
+//きっと答えられないでしょうね。[END-FE]
+//Villager\\
+You look like a warrior, but you[NLINE]
+have no actual experience, do you?[NWIN]
+
+I'm sure you won't be able to answer[NLINE]
+questions about combat.[END-FE]
+
+
+
+
+
+//POINTER #89 @ $10084 - STRING #89 @ $120E1
+#W32($10084)
+//村人\\
+//ふぅ～、散歩が楽しくて、[NLINE]
+//つい、歩きすぎたわい…。[NWIN]
+//
+//もう体力の限界じゃ、[NLINE]
+//これでは家まで帰れぬ…。[NWIN]
+//
+//鎮痛薬はもっているが、[NLINE]
+//これで体力は戻らんしなぁ…。[NWIN]
+//
+//誰か、回復薬を[NLINE]
+//わけてはくれぬじゃろうか？[END-FE]
+//Villager\\
+Phew, I do enjoy taking walks,[NLINE]
+but it seems I overdid it...[NWIN]
+
+I'm already at the end of my rope[NLINE]
+and can't return home...[NWIN]
+
+I have some pain medicine, but that won't[NLINE]
+restore my vitality.[NWIN]
+
+I wonder if anyone has a Vulnerary[NLINE]
+by chance?[END-FE]
+
+
+
+
+
+//POINTER #90 @ $10088 - STRING #90 @ $121A8
+#W32($10088)
+//回復薬を渡しますか？[END-FE]
+//System Message\\
+Will you give the Vulnerary?[END-FE]
+
+
+
+
+
+//POINTER #91 @ $1008C - STRING #91 @ $121BF
+#W32($1008C)
+//村人\\
+//おお、わけてくれるのか。[NLINE]
+//ありがたいのう。[NWIN]
+//
+//…そうじゃ。[NLINE]
+//こんなものしかないが、お礼じゃ。[NLINE]
+//受け取ってくれ。[END-FE]
+//Villager\\
+Oh, you're giving this to me?[NLINE]
+Much obliged.[NWIN]
+
+Well then, I only have this to give[NLINE]
+as thanks. Please take it.[END-FE]
+
+
+
+
+
+//POINTER #92 @ $10090 - STRING #92 @ $1222E
+#W32($10090)
+//村人\\
+//これで帰れそうじゃ。[NLINE]
+//若いの、ありがとう。[END-FE]
+//Villager\\
+Looks like I can go home now.[NLINE]
+You have my gratitude, young man.[END-FE]
+
+
+
+
+
+
+//POINTER #93 @ $10094 - STRING #93 @ $1225B
+#W32($10094)
+//村人\\
+//散歩は良いのう。[NWIN]
+//
+//昔、腰痛をわずらっておって、[NLINE]
+//こうして散歩できんかったから、[NLINE]
+//楽しくてたまらんわい。[END-FE]
+//Old Man\\
+There's nothing better than a good[NLINE]
+walk.[NWIN]
+
+Back in the day, my back pain used to[NLINE]
+prevent me from going on walks like this.[NLINE]
+Being able to do it again makes me feel[NLINE]
+overjoyed![END-FE]
+
+
+
+
+
+//POINTER #94 @ $10098 - STRING #94 @ $122C4
+#W32($10098)
+//お供え物があります。[NLINE]
+//取りますか？[END-FE]
+//System Message\\
+There is an offering placed on the altar.[NLINE]
+Will you take it?[END-FE]
+
+
+
+
+
+//POINTER #95 @ $1009C - STRING #95 @ $122E9
+#W32($1009C)
+//回復薬がいっぱいで[NLINE]
+//お供え物を取れなかった。[END-FE]
+//System Message\\
+You can't carry any more Vulneraries.[END-FE]
+
+
+
+
+
+//POINTER #96 @ $100A0 - STRING #96 @ $12318
+#W32($100A0)
+//　[NLINE]
+//カギがかけられている。　　　　　　　　[NLINE]
+//ここを開くためには特殊なカギが必要だ。[NLINE]
+//　[END-FE]
+//System Message\\
+[NLINE]
+The door is locked.[NLINE]
+You need a special key to open it.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #97 @ $100A4 - STRING #97 @ $12371
+#W32($100A4)
+//　[NLINE]
+//カギがかけられている。　　　　　　[NLINE]
+//[COL01]夢見のカギ[COL00]を使えば開けられそうだ。[NLINE]
+//　[END-FE]
+//System Message\\
+The door is locked.[NLINE]
+It looks like it will open if you use[NLINE]
+the [COL01]Dream Key[COL00].[END-FE]
+
+
+
+
+
+//POINTER #98 @ $100A8 - STRING #98 @ $123C8
+#W32($100A8)
+//貴重品の使い方を知りたいですか？[END-FE]
+Do you want to know how to[NLINE]
+use [COL01]Special Items[COL00]?[END-FE]
+
+
+
+
+
+//POINTER #99 @ $100AC - STRING #99 @ $123EB
+#W32($100AC)
+//冒険を進めていく上で手に入るアイテムには[NLINE]
+//[COL01]貴重品[COL00]という物があります。[NLINE]
+//これらを使用する為には、コマンドメニューから[NLINE]
+//[COL01]道具[COL00]→[COL01]貴重品[COL00]と開き、[NLINE]
+//目的の道具を選びます。[NWIN]
+//
+//ただし、目的物から離れすぎていたりすると[NLINE]
+//使用出来ない場合がありますので、[NLINE]
+//注意して下さい。[END-FE]
+//System Message\\
+Throughout your adventure, there will be[NLINE]
+certain goods you can obtain called[NLINE]
+[COL01]Special Items[COL00].[NWIN]
+
+In order to use them, choose[NLINE]
+[COL01]Item [COL00]→[COL01] Special[COL00][NLINE]
+from the Command Menu, and then select the[NLINE]
+item.[NWIN]
+
+However, please note that the item[NLINE]
+won't have effect if you are too[NLINE]
+far from the person on which you would[NLINE]
+like to use it.[END-FE]
+
+
+
+
+
+//POINTER #100 @ $100B0 - STRING #100 @ $124FE
+#W32($100B0)
+//[COL03]『[COL01]最終試練の間[COL03]』[COL00][NLINE]
+//と書かれたプレートがかかっている。[END-FE]
+//System Message\\
+[COL03]"[COL01]Room of the Final Test[COL03]"[COL00][NLINE]
+is written on the doorplate.[END-FE]
+
+
+
+
+
+//POINTER #101 @ $100B4 - STRING #101 @ $12541
+#W32($100B4)
+//女性\\
+//…この先は、夢の終わりに[NLINE]
+//繋がっているようです。[NLINE]
+//ですが危険な匂いを感じます。[NWIN]
+//
+//この危機を回避するためにも、[NLINE]
+//戦いの経験を積むべきですが、[NLINE]
+//経験もなく扉を開けますか？[END-FE]
+//Shrine Maiden\\
+...Past this door lies the end of the dream.[NLINE]
+I sense dangerous presences ahead...[NWIN]
+
+You should gain more combat experience[NLINE]
+in order to ward these off.[NLINE]
+Would you like to open the door regardless?[END-FE]
+
+
+
+
+
+//POINTER #102 @ $100B8 - STRING #102 @ $125EA
+#W32($100B8)
+//女性\\
+//…この先は、夢の終わりに[NLINE]
+//繋がっているようです。[NLINE]
+//それでも扉を開けますか？[END-FE]
+//Shrine Maiden\\
+...Past this door lies the end of the dream.[NLINE]
+Will you open the door now?[END-FE]
+
+
+
+
+
+//POINTER #103 @ $100BC - STRING #103 @ $12637
+#W32($100BC)
+//[COL03]『[COL01]最終試練の間[COL03]』[COL00][NLINE]
+//と書かれたプレートがかかっている。[END-FE]
+//System Message\\
+[COL03]"[COL01]Room of the Final Test[COL03]"[COL00][NLINE]
+is written on the doorplate.[END-FE]
+
+
+
+
+
+//POINTER #104 @ $100C0 - STRING #104 @ $1267A
+#W32($100C0)
+//男\\
+//詰め所に何かようか？[END-FE]
+//Guard 3\\
+Do you have business at the guardhouse?[END-FE]
+
+
+
+
+
+//POINTER #105 @ $100C4 - STRING #105 @ $12691
+#W32($100C4)
+//男\\
+//やべえ！[NLINE]
+//もう、そんな時間か！[NWIN]
+//
+//連絡してくれてありがとう！[NLINE]
+//すぐに代わりの者をよこすから、[NLINE]
+//もう少し待つように伝えてくれないか。[NLINE]
+//頼むわ！[END-FE]
+//Guard 3\\
+Oh no, it's time already!?[NWIN]
+
+Thank you for telling me. I'll send a[NLINE]
+guard right away. Could you please tell[NLINE]
+him to wait a little longer?[END-FE]
+
+
+
+
+
+//POINTER #106 @ $100C8 - STRING #106 @ $1271E
+#W32($100C8)
+//男\\
+//悪い、すぐに代わりをよこすから、[NLINE]
+//もう少し待つように言ってくれ。[END-FE]
+//Guard 3\\
+I'm sorry, tell him to wait a little[NLINE]
+longer. I'll send a guard soon.[END-FE]
+
+
+
+
+
+//POINTER #107 @ $100CC - STRING #107 @ $12761
+#W32($100CC)
+//男\\
+//ここは詰め所だ。[NLINE]
+//用が無いならどっか行ってくれ。[END-FE]
+//Guard 3\\
+This is the guardhouse. If you have no[NLINE]
+business here, please leave.[END-FE]
+
+
+
+
+
+//POINTER #108 @ $100D0 - STRING #108 @ $12794
+#W32($100D0)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #109 @ $100D4 - STRING #109 @ $127AD
+#W32($100D4)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #110 @ $100D8 - STRING #110 @ $127D6
+#W32($100D8)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #111 @ $100DC - STRING #111 @ $127EF
+#W32($100DC)
+//　[NLINE]
+//上から何かが降ってきた。[END-FE]
+//System Message\\
+[NLINE]
+Something fell from above.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $100E0 - STRING #112 @ $1280E
+#W32($100E0)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #113 @ $100E4 - STRING #113 @ $12837
+#W32($100E4)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #114 @ $100E8 - STRING #114 @ $12850
+#W32($100E8)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #115 @ $100EC - STRING #115 @ $12879
+#W32($100EC)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #116 @ $100F0 - STRING #116 @ $12892
+#W32($100F0)
+//　[NLINE]
+//上から何かが降ってきた。[END-FE]
+//System Message\\
+[NLINE]
+Something fell from above.[END-FE]
+
+
+
+
+
+//POINTER #117 @ $100F4 - STRING #117 @ $128B1
+#W32($100F4)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #118 @ $100F8 - STRING #118 @ $128DA
+#W32($100F8)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #119 @ $100FC - STRING #119 @ $128F3
+#W32($100FC)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #120 @ $10100 - STRING #120 @ $1291C
+#W32($10100)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #121 @ $10104 - STRING #121 @ $12935
+#W32($10104)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #122 @ $10108 - STRING #122 @ $1295E
+#W32($10108)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #123 @ $1010C - STRING #123 @ $12977
+#W32($1010C)
+//　[NLINE]
+//上から何かが降ってきた。[END-FE]
+//System Message\\
+[NLINE]
+Something fell from above.[END-FE]
+
+
+
+
+
+//POINTER #124 @ $10110 - STRING #124 @ $12996
+#W32($10110)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #125 @ $10114 - STRING #125 @ $129BF
+#W32($10114)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #126 @ $10118 - STRING #126 @ $129D8
+#W32($10118)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #127 @ $1011C - STRING #127 @ $12A01
+#W32($1011C)
+//柱を揺らしてみますか？[END-FE]
+//System Message\\
+Do you want to shake this pillar?[END-FE]
+
+
+
+
+
+//POINTER #128 @ $10120 - STRING #128 @ $12A1A
+#W32($10120)
+//　[NLINE]
+//上から何かが降ってきた。[END-FE]
+//System Message\\
+[NLINE]
+Something fell from above.[END-FE]
+
+
+
+
+
+//POINTER #129 @ $10124 - STRING #129 @ $12A39
+#W32($10124)
+//上から降ってきたゴミを[NLINE]
+//頭から被った。[END-FE]
+//System Message\\
+Dirt fell on your head.[END-FE]
+
+
+
+
+
+//POINTER #130 @ $10128 - STRING #130 @ $12A62
+#W32($10128)
+//　[NLINE]
+//柱が立ち並んでいる。[END-FE]
+//System Message\\
+[NLINE]
+There are pillars lined up.[END-FE]
+
+
+
+
+
+//POINTER #131 @ $1012C - STRING #131 @ $12A7D
+#W32($1012C)
+//男\\
+//こらっ！[NLINE]
+//ここは立ち入り禁止だ！[END-FE]
+//Man\\
+Hey, this is a restricted area![END-FE]
+
+
+
+
+
+//POINTER #132 @ $10130 - STRING #132 @ $12AA0
+#W32($10130)
+//女性\\
+//この先へ行ってしまうと戻れませんが、[NLINE]
+//よろしいのですか？[END-FE]
+//Shrine Maiden\\
+You cannot return here if you proceed.[NLINE]
+Are you sure you want to continue?[END-FE]
+
+
+
+
+
+//POINTER #133 @ $10134 - STRING #133 @ $12ADB
+#W32($10134)
+//男\\
+//あれほど祭壇から[NLINE]
+//離れないでくれって言っておいたのに！[NLINE]
+//君に頼んだボクがバカだったよ！[END-FE]
+//Guard\\
+I told you not to leave the shrine![NLINE]
+I shouldn't have asked for your help.[END-FE]
+
+
+
+
+
+//POINTER #134 @ $10138 - STRING #134 @ $12B34
+#W32($10138)
+//男\\
+//それまで！[END-FE]
+//Warrior\\
+Time's up![END-FE]
+
+
+
+
+
+//POINTER #135 @ $1013C - STRING #135 @ $12B41
+#W32($1013C)
+//男\\
+//じ、時間だ！[NLINE]
+//ここまでだ！[END-FE]
+//Warrior\\
+I-it's time! That's enough![END-FE]
+
+
+
+
+
+//POINTER #136 @ $10140 - STRING #136 @ $12B5E
+#W32($10140)
+//ま、参った！[NLINE]
+//もう、やめてくれ！[END-FE]
+//Warrior\\
+I-I give up![NLINE]
+Please stop![END-FE]
+
+
+
+
+
+//POINTER #137 @ $10144 - STRING #137 @ $12B81
+#W32($10144)
+//男\\
+//こんなもんだ。[NLINE]
+//これでオレの防御が鉄壁であることが[NLINE]
+//証明されたワケだ、ワッハッハッハ！[NWIN]
+//
+//まあ、そこそこの攻撃だったよ。[END-FE]
+//Warrior\\
+And that's that! My defense has[NLINE]
+been proven to be impregnable! Wa-ha-ha![NWIN]
+
+Anyway, your attacks weren't half-bad,[NLINE]
+kid.[END-FE]
+
+
+
+
+
+//POINTER #138 @ $10148 - STRING #138 @ $12BFA
+#W32($10148)
+//男\\
+//ふ～う、中々やるな。[NLINE]
+//鉄壁と思っていたオレの防御を[NLINE]
+//ぬけるなんて…。[NWIN]
+//
+//防御にもっと[NLINE]
+//みがきをかけないと！[END-FE]
+//Warrior\\
+Phew, not bad! I thought my[NLINE]
+defense was unbreakable...[NWIN]
+
+I have to strengthen my[NLINE]
+defense even more![END-FE]
+
+
+
+
+
+//POINTER #139 @ $1014C - STRING #139 @ $12C65
+#W32($1014C)
+//男\\
+//オレの防御を完全に打ち破るなんて…。[NWIN]
+//
+//アンタみたいな人がいるなんて、[NLINE]
+//世の中広いな…。[END-FE]
+//Warrior\\
+You completely broke through my[NLINE]
+defense...[NWIN]
+
+To think a person like you exists...[NLINE]
+It's as they say: there's always a bigger[NLINE]
+fish...[END-FE]
+
+
+
+
+
+//POINTER #140 @ $10150 - STRING #140 @ $12CBE
+#W32($10150)
+//男\\
+//お待たせ！[NLINE]
+//いや、本当にありがとう。[NLINE]
+//何とか彼女に事情を話してこれたよ。[NWIN]
+//
+//あのさ、見張りを交代してもらって[NLINE]
+//こんな事を言うのもなんだけど、[NLINE]
+//祭壇には入らなかったよね。[END-FE]
+//Guard\\
+I'm sorry for taking so long! I managed[NLINE]
+to talk to my sweetheart about the[NLINE]
+situation.[NWIN]
+
+Uh, I know I shouldn't be asking this[NLINE]
+after what you've done for me, but you[NLINE]
+didn't enter the shrine, right?[END-FE]
+
+
+
+
+
+//POINTER #141 @ $10154 - STRING #141 @ $12D67
+#W32($10154)
+//男\\
+//疑ったりして悪かったね。[NLINE]
+//これも一応仕事なんだ、許してくれ。[NWIN]
+//
+//あ、そうだ、これはお礼だ。[NLINE]
+//拾ったものだけど受け取ってくれよ。[END-FE]
+//Guard\\
+I'm sorry for doubting you, but[NLINE]
+this is work, so please forgive me.[NWIN]
+
+Please, take this. It's just something I[NLINE]
+picked up, but I want you to have it.[END-FE]
+
+
+
+
+
+//POINTER #142 @ $10158 - STRING #142 @ $12DE6
+#W32($10158)
+//な、なんだって！[END-FE]
+//Guard\\
+W-what did you just say!?[END-FE]
+
+
+
+
+
+//POINTER #143 @ $1015C - STRING #143 @ $12DF9
+#W32($1015C)
+//男\\
+//供え物が無くなっている！[NLINE]
+//なんて事をするんだ！[NLINE]
+//それを返せ！[END-FE]
+//Guard\\
+The offering is gone! How[NLINE]
+could you do that?[NLINE]
+Give it back![END-FE]
+
+
+
+
+
+//POINTER #144 @ $10160 - STRING #144 @ $12E38
+#W32($10160)
+//　[NLINE]
+//回復薬を取り上げられた。[END-FE]
+//System Message\\
+[NLINE]
+You handed over the Vulnerary.[END-FE]
+
+
+
+
+
+//POINTER #145 @ $10164 - STRING #145 @ $12E57
+#W32($10164)
+//男\\
+//君を信用したボクがバカだったよ！[END-FE]
+//Guard\\
+I was a fool to have trusted you![END-FE]
+
+
+
+
+
+//POINTER #146 @ $10168 - STRING #146 @ $12E7A
+#W32($10168)
+//男\\
+//…良くわからないけど、[NLINE]
+//君は祭壇に入ったんだね。[NWIN]
+//
+//正直に話してくれたのは[NLINE]
+//人として素晴らしいけど、[NLINE]
+//念を押したのに祭壇に入ったことは[NLINE]
+//許せないことだ。[NWIN]
+//
+//もっと誠実な人間になってくれ。[END-FE]
+//Guard\\
+...I'm not sure, but it looks like[NLINE]
+somebody entered the altar.[NWIN]
+
+It's good to be honest, but I can't[NLINE]
+forgive you for going inside. I[NLINE]
+should have been more careful...[NWIN]
+
+You should become a more sincere[NLINE]
+person.[END-FE]
+
+
+
+
+
+//POINTER #147 @ $1016C - STRING #147 @ $12F33
+#W32($1016C)
+//男\\
+//…どこにも入られた形跡はない。[NLINE]
+//まったく、嘘はいけないよ。[NWIN]
+//
+//とりあえずご苦労さま。[END-FE]
+//Guard\\
+...There are no signs of it being[NLINE]
+entered anywhere. Well be damned,[NLINE]
+you didn't lie.[NWIN]
+
+Anyway, good work.[END-FE]
+
+
+
+
+
+//POINTER #148 @ $10170 - STRING #148 @ $12F88
+#W32($10170)
+//男\\
+//何やってるんだよ！[NLINE]
+//あれ程中に入らないでくれって[NLINE]
+//言っておいたのに！[END-FE]
+//Guard\\
+How could you do that?![NLINE]
+I told you not to go in![END-FE]
+
+
+
+
+
+//POINTER #149 @ $10174 - STRING #149 @ $12FCF
+#W32($10174)
+//男\\
+//しかも、お供え物まで盗んで！[NLINE]
+//それを返せ！[END-FE]
+//Guard\\
+And you even stole the offering![NLINE]
+Put it back![END-FE]
+
+
+
+
+
+//POINTER #150 @ $10178 - STRING #150 @ $12FFC
+#W32($10178)
+//　[NLINE]
+//回復薬を取り上げられた。[END-FE]
+//System Message\\
+[NLINE]
+You handed over the Vulnerary.[END-FE]
+
+
+
+
+
+//POINTER #151 @ $1017C - STRING #151 @ $1301B
+#W32($1017C)
+//男\\
+//君を信用したボクがバカだったよ！[NLINE]
+//そこから出て行ってくれ！[END-FE]
+//Guard\\
+I shouldn't have trusted you![NLINE]
+Get out of there![END-FE]
+
+
+
+
+
+//POINTER #152 @ $10180 - STRING #152 @ $13058
+#W32($10180)
+//女性\\
+//中々戻ってきませんね。[END-FE]
+//Shrine Maiden\\
+He is taking quite a while...[END-FE]
+
+
+
+
+
+//POINTER #153 @ $10184 - STRING #153 @ $13071
+#W32($10184)
+//女性\\
+//では、警備の人が戻ってくるまで[NLINE]
+//もうしばらく待ちましょう。[END-FE]
+//Shrine Maiden\\
+Let us wait for the guard[NLINE]
+to come back.[END-FE]
+
+
+
+
+
+//POINTER #154 @ $10188 - STRING #154 @ $130AE
+#W32($10188)
+//青年[END-FE]
+Young Man[END-FE]
+
+
+
+
+
+//POINTER #155 @ $1018C - STRING #155 @ $130B5
+#W32($1018C)
+//[CHARC800][V0000]
+//　[NLINE]
+//　　　　　　　…光を感じます。　　　　　　　[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0000]
+[NLINE]
+                ...I sense a light.[END-FE]
+
+
+
+
+
+//POINTER #156 @ $10190 - STRING #156 @ $130F0
+#W32($10190)
+//[CHARC800][V0100]
+//　　　　　　　　淡いながらも、　　　　　　　[NLINE]
+//　　　　　　強く輝こうとする光…。　　　　　[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0100]
+                 Although still faint,[NLINE]
+            it is about to shine brightly.[END-FE]
+
+
+
+
+
+//POINTER #157 @ $10194 - STRING #157 @ $13155
+#W32($10194)
+//[CHARC800][V0200]
+//　　　　　…素養はあるようですが、　　　　　[NLINE]
+//　　　　それだけで判断するのは早計…。　　　[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0200]
+       It seems he possesses the necessary[NLINE]
+         talents, but it would be too rash[NLINE]
+           to judge him by that alone...[END-FE]
+
+
+
+
+
+//POINTER #158 @ $10198 - STRING #158 @ $131BA
+#W32($10198)
+//女性\\
+//[CHARC800][V0300]
+//はじめまして。[NLINE]
+//今、あなたの心に直接語りかけています。[NWIN]
+//
+//[CH.FACE:Serious][CHARC800][V0400]
+//私は破滅に向かうこの世界を[NLINE]
+//救える人たちを探しています。[NWIN]
+//
+//[CHARC800][V0500]
+//もしかしたら、[NLINE]
+//あなたがその戦士であるかもしれません。[NWIN]
+//
+//[CH.FACE:Normal][CHARC800][V0600]
+//ですから、あなたが私の探している[NLINE]
+//人物であるかどうか、これから少し[NLINE]
+//見せて頂きたいのですがよろしいですか？[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0300]
+Pleased to meet you.[NLINE]
+Right now, I am speaking directly to your[NLINE]
+mind.[NWIN]
+
+[CH.FACE:Serious][CHARC800][V0400]
+I am looking for one who can save this[NLINE]
+world, which is headed towards[NLINE]
+destruction.[NWIN]
+
+[CHARC800][V0500]
+It is possible that you are this warrior.[NWIN]
+
+[CH.FACE:Normal][CHARC800][V0600]
+Therefore, will you allow me to observe[NLINE]
+you and see for myself whether you are[NLINE]
+the one whom I seek?[END-FE]
+
+
+
+
+
+//POINTER #159 @ $1019C - STRING #159 @ $132F9
+#W32($1019C)
+//・構わない[END-FE]
+・I don't mind[END-FE]
+
+
+
+
+
+//POINTER #160 @ $101A0 - STRING #160 @ $13306
+#W32($101A0)
+//・興味ない[END-FE]
+・I'm not interested[END-FE]
+
+
+
+
+
+//POINTER #161 @ $101A4 - STRING #161 @ $13313
+#W32($101A4)
+//女性\\
+//[CHARC800][V0C00]
+//まずはお名前を教えてください。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0C00]
+First, please tell me your name.[END-FE]
+
+
+
+
+
+//POINTER #162 @ $101A8 - STRING #162 @ $1333C
+#W32($101A8)
+//メークリッヒ[END-FE]
+Merklich[END-FE]
+
+
+
+
+
+//POINTER #163 @ $101AC - STRING #163 @ $1334B
+#W32($101AC)
+//女性\\
+//[CHARC800][V0D00]
+//これから、あなたの心の中を見せてもらいます。[NLINE]
+//普段通りのあなたを私に見せてください。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0D00]
+Now, let me see inside your mind.[NLINE]
+Please show me what kind of[NLINE]
+person you are.[END-FE]
+
+
+
+
+
+//POINTER #164 @ $101B0 - STRING #164 @ $133AA
+#W32($101B0)
+//女性\\
+//[CHARC800][V0E00]
+//どうやらここが、[NLINE]
+//あなたの心象風景のようですね。[NWIN]
+//
+//[CH.FACE:Normal][CHARC800][V0F00]
+//私はこの夢の住人ではないので、[NLINE]
+//干渉することはできません。[NLINE]
+//それではしばらくの間、[NLINE]
+//あなたの人柄を見せて頂きます。[NWIN]
+//
+//[CHARC800][V2100]
+//ここでの行動はすべて、[NLINE]
+//あなたの能力に影響します。[NLINE]
+//よく考えて行動して下さい。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0E00]
+It seems that this place is your mental[NLINE]
+landscape.[NWIN]
+
+[CH.FACE:Normal][CHARC800][V0F00]
+Since I am not a resident of this[NLINE]
+dream, I cannot interfere.[NLINE]
+For the time being, please show me[NLINE]
+what kind of person you are.[NWIN]
+
+[CHARC800][V2100]
+All of your actions here will influence[NLINE]
+your abilities.[NLINE]
+Please think and act carefully.[END-FE]
+
+
+
+
+
+//POINTER #165 @ $101B4 - STRING #165 @ $134BD
+#W32($101B4)
+//女性\\
+//[CHARC800][V0700]
+//…そうですね。[NLINE]
+//人にはそれぞれ事情があるというもの。[NWIN]
+//
+//[CH.FACE:Normal][CHARC800][V0800]
+//残念ですが私の求めていた人物では[NLINE]
+//なかったようです。[NWIN]
+//
+//[CHARC800][V0900]
+//せめてお名前を教えていただけませんか？[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0700]
+...I see. We each have our own reasons[NLINE]
+for the decisions we make.[NWIN]
+
+[CH.FACE:Normal][CHARC800][V0800]
+Unfortunately, it seems you are not[NLINE]
+the person I am looking for...[NWIN]
+
+[CHARC800][V0900]
+However, could you at the very least[NLINE]
+tell me your name?[END-FE]
+
+
+
+
+
+//POINTER #166 @ $101B8 - STRING #166 @ $1356E
+#W32($101B8)
+//メークリッヒ[END-FE]
+Merklich[END-FE]
+
+
+
+
+
+//POINTER #167 @ $101BC - STRING #167 @ $1357D
+#W32($101BC)
+//女性\\
+//[CHARC800][V0A00]
+//ありがとうございます。[NLINE]
+//時間をとらせてしまいましたね。[NWIN]
+//
+//[CH.FACE:Sad][CHARC800][V0B00]
+//では、さようなら…。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V0A00]
+Thank you very much.[NLINE]
+Forgive me for taking[NLINE]
+up your time.[NWIN]
+
+[CH.FACE:Sad][CHARC800][V0B00]
+Farewell...[END-FE]
+
+
+
+
+
+//POINTER #168 @ $101C0 - STRING #168 @ $135E0
+#W32($101C0)
+//男\\
+//う～ん、鉄壁！[NLINE]
+//何人たりとも、[NLINE]
+//オレの防御は打ち崩せないぜ！[NWIN]
+//
+//あんた戦士だな。[NLINE]
+//オレの防御を打ち崩す自信はあるかな？[END-FE]
+//Warrior\\
+Ha-ha-ha! I'm like an iron wall![NLINE]
+No one can break through my[NLINE]
+defense![NWIN]
+
+You look like a warrior. Do you[NLINE]
+think you have what it takes to[NLINE]
+break through?[END-FE]
+
+
+
+
+
+//POINTER #169 @ $101C4 - STRING #169 @ $13657
+#W32($101C4)
+//男\\
+//まぁ、無理はしない方が良いぜ。[NLINE]
+//なんたって、オレの防御は鉄壁だから、[NLINE]
+//挑戦するだけムダだと思うぜ。[END-FE]
+//Warrior\\
+Well, it's better not to punch above[NLINE]
+your weight class. My defense is[NLINE]
+unbreakable, so challenging me[NLINE]
+would have been useless![END-FE]
+
+
+
+
+
+//POINTER #170 @ $101C8 - STRING #170 @ $136BC
+#W32($101C8)
+//・挑戦する[END-FE]
+・Challenge him[END-FE]
+
+
+
+
+
+//POINTER #171 @ $101CC - STRING #171 @ $136C9
+#W32($101CC)
+//・やめておく[END-FE]
+・Leave[END-FE]
+
+
+
+
+
+//POINTER #172 @ $101D0 - STRING #172 @ $136D8
+#W32($101D0)
+//男\\
+//ほお～。[NLINE]
+//自信ありって感じだな。[NWIN]
+//
+//なら、一定時間で[NLINE]
+//俺を降参させてみな。[NWIN]
+//
+//アンタは[COL03]○[COL00]を押して攻撃する。[NLINE]
+//オレはひたすらそれをガードする。[NWIN]
+//
+//攻撃が終わったタイミングで[NLINE]
+//[COL03]○[COL00]を押せば、次の攻撃に移れる。[NWIN]
+//
+//タイミングを外して早くボタンを押してしまうと、[NLINE]
+//呼吸が乱れて、次の攻撃に移れなくなるからな。[END-FE]
+//Warrior\\
+You're really sure of yourself, aren't you?[NWIN]
+
+If so, then try to make me yield within[NLINE]
+a fixed time.[NWIN]
+
+You can attack by pressing [CROSS].[NLINE]
+I will do nothing but guard against[NLINE]
+your attacks.[NWIN]
+
+If you press [CROSS] at the right time at the[NLINE]
+end of the attack, you will transition to[NLINE]
+your next attack.[NWIN]
+
+If you miss the timing and press the[NLINE]
+button too soon, you'll get disoriented[NLINE]
+and won't be able to make the next[NLINE]
+attack.[END-FE]
+
+
+
+
+
+//POINTER #173 @ $101D4 - STRING #173 @ $13809
+#W32($101D4)
+//男\\
+//じゃあ、スタートだ。[END-FE]
+//Warrior\\
+Well then, let's start![END-FE]
+
+
+
+
+
+//POINTER #174 @ $101D8 - STRING #174 @ $13820
+#W32($101D8)
+//鉄壁の防御？を打ち砕け！[END-FE]
+//System Message\\
+An ironclad defense? Crush it![END-FE]
+
+
+
+
+
+//POINTER #175 @ $101DC - STRING #175 @ $1383B
+#W32($101DC)
+//３[END-FE]
+3[END-FE]
+
+
+
+
+
+//POINTER #176 @ $101E0 - STRING #176 @ $13840
+#W32($101E0)
+//２[END-FE]
+2[END-FE]
+
+
+
+
+
+//POINTER #177 @ $101E4 - STRING #177 @ $13845
+#W32($101E4)
+//１[END-FE]
+1[END-FE]
+
+
+
+
+
+//POINTER #178 @ $101E8 - STRING #178 @ $1384A
+#W32($101E8)
+//男\\
+//賢明だな。[NLINE]
+//己の力量がわかるのも[NLINE]
+//強さの内さ、ハッハッハッ！[END-FE]
+//Warrior\\
+Wise choice! To be strong also[NLINE]
+means to know one's own limits![NLINE]
+Ha-ha-ha![END-FE]
+
+
+
+
+
+//POINTER #179 @ $101EC - STRING #179 @ $13889
+#W32($101EC)
+//女性\\
+//よろしかったら、[NLINE]
+//あなたの人柄を知るために、[NLINE]
+//いくつか質問をしても良いでしょうか？[END-FE]
+//Shrine Maiden\\
+If it is alright, may I ask a few questions[NLINE]
+in order to learn more about you?[END-FE]
+
+
+
+
+
+//POINTER #180 @ $101F0 - STRING #180 @ $138DE
+#W32($101F0)
+//女性\\
+//では、いくつか質問させていただきます。[END-FE]
+//Shrine Maiden\\
+Then I will proceed with my questions.[END-FE]
+
+
+
+
+
+//POINTER #181 @ $101F4 - STRING #181 @ $13907
+#W32($101F4)
+//女性\\
+//戦いに勝つために最も[NLINE]
+//必要だと思うものは何ですか？[END-FE]
+//Shrine Maiden\\
+What do you think is most[NLINE]
+important to win a battle?[END-FE]
+
+
+
+
+
+//POINTER #182 @ $101F8 - STRING #182 @ $1393C
+#W32($101F8)
+//・戦闘力[END-FE]
+・Strength[END-FE]
+
+
+
+
+
+//POINTER #183 @ $101FC - STRING #183 @ $13947
+#W32($101FC)
+//・機動力[END-FE]
+・Mobility[END-FE]
+
+
+
+
+
+//POINTER #184 @ $10200 - STRING #184 @ $13952
+#W32($10200)
+//・判断力[END-FE]
+・Judgment[END-FE]
+
+
+
+
+
+//POINTER #185 @ $10204 - STRING #185 @ $1395D
+#W32($10204)
+//・戦略[END-FE]
+・Strategy[END-FE]
+
+
+
+
+
+//POINTER #186 @ $10208 - STRING #186 @ $13966
+#W32($10208)
+//・運[END-FE]
+・Luck[END-FE]
+
+
+
+
+
+//POINTER #187 @ $1020C - STRING #187 @ $1396D
+#W32($1020C)
+///女性\\
+//あなたの得意な戦闘スタイルは[NLINE]
+//なんですか？[END-FE]
+//Shrine Maiden\\
+What is your preferred fighting style?[END-FE]
+
+
+
+
+
+//POINTER #188 @ $10210 - STRING #188 @ $1399A
+#W32($10210)
+//・堂々と正面から[END-FE]
+・Fighting on the frontline[END-FE]
+
+
+
+
+
+//POINTER #189 @ $10214 - STRING #189 @ $139AD
+#W32($10214)
+//・魔法で派手に[END-FE]
+・Using magic abundantly[END-FE]
+
+
+
+
+
+//POINTER #190 @ $10218 - STRING #190 @ $139BE
+#W32($10218)
+//・背後からこっそり[END-FE]
+・Sneaking in from behind[END-FE]
+
+
+
+
+
+//POINTER #191 @ $1021C - STRING #191 @ $139D3
+#W32($1021C)
+//・統制のとれた連携[END-FE]
+・Organized and coordinated[END-FE]
+
+
+
+
+
+//POINTER #192 @ $10220 - STRING #192 @ $139E8
+#W32($10220)
+//・臨機応変[END-FE]
+・Flexible[END-FE]
+
+
+
+
+
+//POINTER #193 @ $10224 - STRING #193 @ $139F5
+#W32($10224)
+//女性\\
+//もし、あなたに強大な力が１つ手に入るとしたら、[NLINE]
+//どんな力を望みますか？[END-FE]
+//Shrine Maiden\\
+If you could obtain one mighty[NLINE]
+power, what would it be?[END-FE]
+
+
+
+
+
+//POINTER #194 @ $10228 - STRING #194 @ $13A3E
+#W32($10228)
+//・純粋な力[END-FE]
+・Raw power[END-FE]
+
+
+
+
+
+//POINTER #195 @ $1022C - STRING #195 @ $13A4B
+#W32($1022C)
+//・魔導の力[END-FE]
+・The power of magic[END-FE]
+
+
+
+
+
+//POINTER #196 @ $10230 - STRING #196 @ $13A58
+#W32($10230)
+//・癒しの力[END-FE]
+・The power of healing[END-FE]
+
+
+
+
+
+//POINTER #197 @ $10234 - STRING #197 @ $13A65
+#W32($10234)
+//・必殺の力[END-FE]
+・The power of certain death[END-FE]
+
+
+
+
+
+//POINTER #198 @ $10238 - STRING #198 @ $13A72
+#W32($10238)
+//女性\\
+//もし、そんな力を手に入れたとしたら、[NLINE]
+//どんな事に使いますか？[END-FE]
+//Shrine Maiden\\
+If you obtained said power, what[NLINE]
+would you use it for?[END-FE]
+
+
+
+
+
+//POINTER #199 @ $1023C - STRING #199 @ $13AB1
+#W32($1023C)
+//・人のため[END-FE]
+・For other people[END-FE]
+
+
+
+
+
+//POINTER #200 @ $10240 - STRING #200 @ $13ABE
+#W32($10240)
+//・世界平和のため[END-FE]
+・For world peace[END-FE]
+
+
+
+
+
+//POINTER #201 @ $10244 - STRING #201 @ $13AD1
+#W32($10244)
+//・己を誇示するため[END-FE]
+・To show off[END-FE]
+
+
+
+
+
+//POINTER #202 @ $10248 - STRING #202 @ $13AE6
+#W32($10248)
+//・夢を叶えるため[END-FE]
+・To make my dreams come true[END-FE]
+
+
+
+
+
+//POINTER #203 @ $1024C - STRING #203 @ $13AF9
+#W32($1024C)
+//女性\\
+//あなたの今一番欲しているものは？[END-FE]
+//Shrine Maiden\\
+What do you want most right now?[END-FE]
+
+
+
+
+
+//POINTER #204 @ $10250 - STRING #204 @ $13B1C
+#W32($10250)
+//・恋人[END-FE]
+・A lover[END-FE]
+
+
+
+
+
+//POINTER #205 @ $10254 - STRING #205 @ $13B25
+#W32($10254)
+//・友人[END-FE]
+・Friends[END-FE]
+
+
+
+
+
+//POINTER #206 @ $10258 - STRING #206 @ $13B2E
+#W32($10258)
+//・金[END-FE]
+・Money[END-FE]
+
+
+
+
+
+//POINTER #207 @ $1025C - STRING #207 @ $13B35
+#W32($1025C)
+//・名誉[END-FE]
+・Honor[END-FE]
+
+
+
+
+
+//POINTER #208 @ $10260 - STRING #208 @ $13B3E
+#W32($10260)
+//・権力[END-FE]
+・Power[END-FE]
+
+
+
+
+
+//POINTER #209 @ $10264 - STRING #209 @ $13B47
+#W32($10264)
+//女性\\
+//最後に、命と引き換えに世界が[NLINE]
+//救えるとしたら、あなたはどうしますか？[END-FE]
+//Shrine Maiden\\
+Finally, what would you do if you had[NLINE]
+to save the world in exchange for a life?[END-FE]
+
+
+
+
+
+//POINTER #210 @ $10268 - STRING #210 @ $13B8E
+#W32($10268)
+//・世界のために命を投げ出す[END-FE]
+・I would gladly give my life to save the world[END-FE]
+
+
+
+
+
+//POINTER #211 @ $1026C - STRING #211 @ $13BAB
+#W32($1026C)
+//・自分の命で助かる世界に未練はない[END-FE]
+・I don't care enough about the world to[NLINE]
+  give up my own life for it[END-FE]
+
+
+
+
+
+//POINTER #212 @ $10270 - STRING #212 @ $13BD0
+#W32($10270)
+//・それが運命と従う[END-FE]
+・I will follow my destiny[END-FE]
+
+
+
+
+
+//POINTER #213 @ $10274 - STRING #213 @ $13BE5
+#W32($10274)
+//・両方助かる道を探す[END-FE]
+・I will find a way to save both[END-FE]
+
+
+
+
+
+//POINTER #214 @ $10278 - STRING #214 @ $13BFC
+#W32($10278)
+//女性\\
+//自己犠牲。[NLINE]
+//これにより多くの命が助かるなら…。[NLINE]
+//…それも１つの勇気の選択でしょう。[END-FE]
+//Shrine Maiden\\
+Self-sacrifice...[NLINE]
+If such an act saves many lives,[NLINE]
+then that could also be considered[NLINE]
+a courageous choice...[END-FE]
+
+
+
+
+
+//POINTER #215 @ $1027C - STRING #215 @ $13C51
+#W32($1027C)
+//女性\\
+//そ、そうですか…。[NLINE]
+//それも１つの答えでしょう。[END-FE]
+//Shrine Maiden\\
+I-I see...[NLINE]
+That is one possible answer.[END-FE]
+
+
+
+
+
+//POINTER #216 @ $10280 - STRING #216 @ $13C82
+#W32($10280)
+//女性\\
+//…運命、ですか。[NLINE]
+//…そうなのかもしれませんね。[END-FE]
+//Shrine Maiden\\
+...Destiny?[NLINE]
+It could be that such a thing[NLINE]
+exists...[END-FE]
+
+
+
+
+
+//POINTER #217 @ $10284 - STRING #217 @ $13CB3
+#W32($10284)
+//女性\\
+//…それが一番なのでしょう。[NLINE]
+//ですが、それこそが最も過酷な道となるでしょう。[NLINE]
+//その道を行くなら、[NLINE]
+//それ相応の覚悟が必要になるでしょう。[END-FE]
+//Shrine Maiden\\
+...That would be the most favorable[NLINE]
+outcome. But also the one that would[NLINE]
+be the most difficult to obtain.[NWIN]
+
+If you choose to go down that path,[NLINE]
+you will need to be prepared accordingly.[END-FE]
+
+
+
+
+
+//POINTER #218 @ $10288 - STRING #218 @ $13D3A
+#W32($10288)
+//女性\\
+//色々な質問に答えて貰いまして[NLINE]
+//ありがとうございます。[END-FE]
+//Shrine Maiden\\
+Thank you for answering[NLINE]
+my questions.[END-FE]
+
+
+
+
+
+//POINTER #219 @ $1028C - STRING #219 @ $13D71
+#W32($1028C)
+//女性\\
+//そうですか。[NLINE]
+//すみません、つまらない事を言って…。[END-FE]
+//Shrine Maiden\\
+I see...[NLINE]
+My apologies for making idle talk...[END-FE]
+
+
+
+
+
+//POINTER #220 @ $10290 - STRING #220 @ $13DA6
+#W32($10290)
+//　[NLINE]
+//誰もいないようだ。[END-FE]
+//System Message\\
+[NLINE]
+Nobody seems to be there.[END-FE]
+
+
+
+
+
+//POINTER #221 @ $10294 - STRING #221 @ $13DBF
+#W32($10294)
+//男\\
+//詰め所に[NLINE]
+//伝えておくべきだな…。[END-FE]
+//Guard 3\\
+I have to inform the guardhouse...![END-FE]
+
+
+
+
+
+//POINTER #222 @ $10298 - STRING #222 @ $13DE2
+#W32($10298)
+//男\\
+//さっき里の外でモンスターを発見した。[NLINE]
+//オレは詰め所にこの事を連絡しておく。[END-FE]
+//Guard 3\\
+A monster was sighted outside[NLINE]
+the village. I'll go report to[NLINE]
+the guardhouse.[END-FE]
+
+
+
+
+
+//POINTER #223 @ $1029C - STRING #223 @ $13E2F
+#W32($1029C)
+//男\\
+//１匹だったから、脅威ではないと思うが、[NLINE]
+//警戒はしといてくれよ。[END-FE]
+//Guard 3\\
+It's only one creature. I don't think[NLINE]
+it's a threat, but please be vigiliant![END-FE]
+
+
+
+
+
+//POINTER #224 @ $102A0 - STRING #224 @ $13E70
+#W32($102A0)
+//男\\
+//そこのアンタ、戦士だな。[NLINE]
+//もし、ここから外に出る際は気をつけてくれ。[NLINE]
+//じゃあな。[END-FE]
+//Guard 3\\
+You there! You look like a warrior.[NLINE]
+Be careful when you go outside.[NLINE]
+Well then, I'm off![END-FE]
+
+
+
+
+
+
+//POINTER #225 @ $102A4 - STRING #225 @ $13EC3
+#W32($102A4)
+//　　　　[COL03]『[COL00]知ってお得、システム情報[COL03]』[COL00]　　　[NLINE]
+//　　　　　という本が置いてあります。　　　[NLINE]
+//　　　　　読んでみますか？　　　　　　　　[END-FE]
+//System Message\\
+There's a book called [COL01]System Information[COL00].[NLINE]
+Would you like to read it?[END-FE]
+
+
+
+
+
+//POINTER #226 @ $102A8 - STRING #226 @ $13F54
+#W32($102A8)
+//移動は方向キーと左スティックで行えるぞ！[NLINE]
+//[COL09]×[COL00]と方向キー、左スティックで走って[NLINE]
+//移動が可能だ！[END-FE]
+//System Message\\
+Point the left stick in any direction[NLINE]
+to move your character.[NWIN]
+
+You can run by holding down [CROSS] while[NLINE]
+moving with the left stick.[END-FE]
+
+
+
+
+
+//POINTER #227 @ $102AC - STRING #227 @ $13FB9
+#W32($102AC)
+//話す相手が複数いる時は、[NLINE]
+//[L1]、[R1]を使ってマーカーを[NLINE]
+//話したいキャラに合わせよう。[NLINE]
+//これで複雑化した社会も切り抜けられるぞ！[END-FE]
+//System Message\\
+Use [L1] and [R1] to move the marker to the[NLINE]
+character you want to talk to.[END-FE]
+
+
+
+
+
+//POINTER #228 @ $102B0 - STRING #228 @ $1403A
+#W32($102B0)
+//[R1]と[COL09]×[COL00]を同時に押すと、[NLINE]
+//メッセージをスキップすることが可能！[NLINE]
+//これでうっとうしい話とおさらばだ！[END-FE]
+//System Message\\
+Press [R1] and [CROSS] simultaneously[NLINE]
+to skip messages. This way you can say[NLINE]
+goodbye to annoying conversations![END-FE]
+
+
+
+
+
+//POINTER #229 @ $102B4 - STRING #229 @ $140A5
+#W32($102B4)
+//[L1]、[L2]、[R1]、[R2]、[START]、[SELECT][NLINE]
+//を同時に押すことで、[NLINE]
+//ゲームをリセットすることが出来るぞ！[NLINE]
+//ロードまでの時間を短縮だ！[END-FE]
+//System Message\\
+You can reset the game by pressing[NLINE]
+[L1], [L2], [R1], [R2], [START], and [SELECT][NLINE]
+simultaneously.[NLINE]
+It reduces the loading time![END-FE]
+
+
+
+
+
+//POINTER #230 @ $102B8 - STRING #230 @ $14126
+#W32($102B8)
+//女\\
+//仕事で遅れるんじゃ、仕方ないか。[END-FE]
+//Woman\\
+It can't be helped if he's[NLINE]
+late because of work...[END-FE]
+
+
+
+
+
+//POINTER #231 @ $102BC - STRING #231 @ $14149
+#W32($102BC)
+//女\\
+//遅いわね、あの人…。[END-FE]
+//Woman\\
+He's late...[END-FE]
+
+
+
+
+
+//POINTER #232 @ $102C0 - STRING #232 @ $14160
+#W32($102C0)
+//女\\
+//遅いわね、あの人…。[END-FE]
+//Woman\\
+He's late...[END-FE]
+
+
+
+
+
+//POINTER #233 @ $102C4 - STRING #233 @ $14177
+#W32($102C4)
+//警備の仕事で遅れる事を伝えますか？[END-FE]
+//System Message\\
+Inform her that the guard will be late due[NLINE]
+to his guard duty?[END-FE]
+
+
+
+
+
+//POINTER #234 @ $102C8 - STRING #234 @ $1419C
+#W32($102C8)
+//女\\
+//仕事で遅れるのですか。[NLINE]
+//それなら仕方ないですね。[NWIN]
+//
+//あの人いつも遅刻するから、[NLINE]
+//お灸をすえるつもりで、今度遅刻したら[NLINE]
+//別れるって言ってあったんです。[NWIN]
+//
+//悪いことしちゃったみたいですね。[NLINE]
+//連絡をくれてありがとうございます。[END-FE]
+//Woman\\
+He's late because of work? If that's so,[NLINE]
+then it can't be helped...[NWIN]
+
+He's always late, so I planned on telling[NLINE]
+him that I would break up with him if he's[NLINE]
+late again.[NWIN]
+
+It looks like I was in the wrong. Thank you[NLINE]
+for letting me know.[END-FE]
+
+
+
+
+
+//POINTER #235 @ $102CC - STRING #235 @ $14277
+#W32($102CC)
+//店員\\
+//ウチの子、[NLINE]
+//まだ外で遊んでいるのかね。[END-FE]
+//Clerk\\
+Are my sons still playing outside?[END-FE]
+
+
+
+
+
+//POINTER #236 @ $102D0 - STRING #236 @ $142A0
+#W32($102D0)
+//店員\\
+//ウチの子供が、[NLINE]
+//宝探しにはまっているのよ。[NWIN]
+//
+//でも、そのお宝っていうのが、[NLINE]
+//柱の上にあるらしくてね。[NWIN]
+//
+//子供じゃ取れっこ無いのに、[NLINE]
+//今日もあきないで[NLINE]
+//柱を見上げているんでしょうね。[NWIN]
+//
+//どんな宝物か、[NLINE]
+//見てみたい気もするけど。[END-FE]
+//Clerk\\
+My sons are addicted to treasure[NLINE]
+hunting.[NWIN]
+
+But the treasure seems to be on[NLINE]
+top of a pillar.[NWIN]
+
+They're probably looking up at[NLINE]
+the pillars today as well, even[NLINE]
+though there's no way they can get it.[NWIN]
+
+I do want to see what kind of[NLINE]
+treasure is up there, though.[END-FE]
+
+
+
+
+
+//POINTER #237 @ $102D4 - STRING #237 @ $1437D
+#W32($102D4)
+//店員\\
+//へぇ～、アンタ宝物見つけたんだって！[NLINE]
+//ウチの子にはザンネンだったけど、[NLINE]
+//これで危ない遊びもしないでしょう。[END-FE]
+//Clerk\\
+Oh my, you've found the treasure! That's[NLINE]
+too bad for the children. Though it also[NLINE]
+means they're no longer wandering outside[NLINE]
+doing god knows what...[END-FE]
+
+
+
+
+
+//POINTER #238 @ $102D8 - STRING #238 @ $143EA
+#W32($102D8)
+//店員\\
+//ねぇ、ものは相談なんだけど。[NLINE]
+//その宝物、譲ってくれないかな？[NWIN]
+//
+//自分で見つけられなかったけど、[NLINE]
+//ウチの子に宝探し記念として、[NLINE]
+//プレゼントしてあげたいの。[NWIN]
+//
+//タダとは言わない。[NLINE]
+//って言っても、家にあるものは、[NLINE]
+//工具箱ぐらいなものだけど[NLINE]
+//交換してくれないかい？[END-FE]
+//Clerk\\
+Say, I was wondering...[NLINE]
+Could you give me the treasure?[NWIN]
+
+The children couldn't find it themselves, but[NLINE]
+I would like to give it to them as a[NLINE]
+reminder of their treasure hunt.[NWIN]
+
+I'm not saying for free, of course![NLINE]
+You could say this is something more[NLINE]
+for use around home, but how about[NLINE]
+I trade you this toolbox for it?[END-FE]
+
+
+
+
+
+//POINTER #239 @ $102DC - STRING #239 @ $144E9
+#W32($102DC)
+//店員\\
+//交渉成立っと。[NWIN]
+//
+//ありがとね、お兄さん。[END-FE]
+//Clerk\\
+It's a deal![NLINE]
+Thank you, mister.[END-FE]
+
+
+
+
+
+//POINTER #240 @ $102E0 - STRING #240 @ $14512
+#W32($102E0)
+//店員\\
+//ダメか。[NLINE]
+//そっか、しかたないね。[NLINE]
+//お兄さん、無理言って悪かったね。[END-FE]
+//Clerk\\
+No? I see, it can't be helped...[NLINE]
+I'm sorry for asking you, mister.[END-FE]
+
+
+
+
+
+//POINTER #241 @ $102E4 - STRING #241 @ $14557
+#W32($102E4)
+//店員\\
+//ありがとね、[NLINE]
+//お兄さん。[END-FE]
+//Clerk\\
+Thank you, mister.[END-FE]
+
+
+
+
+
+//POINTER #242 @ $102E8 - STRING #242 @ $14572
+#W32($102E8)
+//店員\\
+//無理言ってごめんね、[NLINE]
+//お兄さん。[END-FE]
+//Clerk\\
+I'm sorry for asking you, mister.[END-FE]
+
+
+
+
+
+//POINTER #243 @ $102EC - STRING #243 @ $14595
+#W32($102EC)
+//女性\\
+//あれが、警備兵が言っていた[NLINE]
+//モンスターのようですね。[END-FE]
+//Shrine Maiden\\
+Over there. That looks like the[NLINE]
+monster that soldier mentioned.[END-FE]
+
+
+
+
+
+//POINTER #244 @ $102F0 - STRING #244 @ $145CC
+#W32($102F0)
+//女性\\
+//あれは、モンスターのようですね。[END-FE]
+//Shrine Maiden\\
+That looks like a monster.[END-FE]
+
+
+
+
+
+//POINTER #245 @ $102F4 - STRING #245 @ $145EF
+#W32($102F4)
+//チュートリアルを受けますか？[END-FE]
+//System Message\\
+Do you want to view the battle tutorial?[END-FE]
+
+
+
+
+
+//POINTER #246 @ $102F8 - STRING #246 @ $1460E
+#W32($102F8)
+//チュートリアルを開始します。[NLINE]
+//まずはモンスターに近づいて下さい。[END-FE]
+//System Message\\
+The tutorial will now begin.[NLINE]
+First, get closer to the monster.[END-FE]
+
+
+
+
+
+//POINTER #247 @ $102FC - STRING #247 @ $14651
+#W32($102FC)
+//不思議な力で戻れなくなっている！　[NLINE]
+//どうやら、モンスターを倒さなければ[NLINE]
+//里に戻れないようだ。　　　　　　　[END-FE]
+//System Message\\
+A mysterious power is holding you back.[NLINE]
+Apparently, you can't go back to the[NLINE]
+village if you don't defeat the monster.[END-FE]
+
+
+
+
+
+//POINTER #248 @ $10300 - STRING #248 @ $146BE
+#W32($10300)
+//[COL03]【[COL00]夢見のカギ[COL03]】[COL00]　　[NLINE]
+//心象風景と心象風景を繋ぐ扉を　[NLINE]
+//開くことのできる不思議なカギ。[END-FE]
+//System Message\\
+[COL03][COL00]Dream Key[COL03][COL00][NLINE]
+A mysterious key that can open the[NLINE]
+door which links different dream[NLINE]
+sceneries to one another.[END-FE]
+
+
+
+
+
+//POINTER #249 @ $10304 - STRING #249 @ $1471F
+#W32($10304)
+//　[NLINE]
+//早くモンスターに近づいてください。[END-FE]
+//System Message\\
+[NLINE]
+Get closer to the monster.[END-FE]
+
+
+
+
+
+//POINTER #250 @ $10308 - STRING #250 @ $14748
+#W32($10308)
+//攻撃によりＨＰが０になると[NLINE]
+//その相手を撃破できます。[NLINE]
+//それぞれのＨＰは、[NLINE]
+//頭上に[COL01]バーの形で表示[COL00]されています。[END-FE]
+//System Message\\
+The target will be defeated when[NLINE]
+its HP reaches 0. Each target's HP is[NLINE]
+displayed in a bar above its head.[END-FE]
+
+
+
+
+
+//POINTER #251 @ $1030C - STRING #251 @ $147BD
+#W32($1030C)
+//自分と仲間はＨＰが０になると[NLINE]
+//瀕死状態となり、行動不能に陥ります。[NLINE]
+//全員が瀕死になると[COL01]ゲームオーバー[COL00]です。[NLINE]
+//注意してください。[END-FE]
+//System Message\\
+When the HP reaches 0, you or an ally[NLINE]
+will be on the verge of death and will[NLINE]
+become unable to act. If all party members[NLINE]
+are on the verge of death, it will result[NLINE]
+in a [COL01]Game Over[COL00].[NLINE]
+Please be cautious.[END-FE]
+
+
+
+
+
+//POINTER #252 @ $10310 - STRING #252 @ $14844
+#W32($10310)
+//[COL01]戦闘システムの特徴[COL00][END-FE]
+//System Message\\
+[COL01]Combat System Features[END-FE]
+
+
+
+
+
+//POINTER #253 @ $10314 - STRING #253 @ $1485F
+#W32($10314)
+//[COL01]戦闘システムの特徴[COL00][END-FE]
+//System Message\\
+[COL01]Combat System Features[END-FE]
+
+
+
+
+
+//POINTER #254 @ $10318 - STRING #254 @ $1487A
+#W32($10318)
+//[COL01]戦闘システムの特徴[COL00][END-FE]
+//System Message\\
+[COL01]Combat System Features[END-FE]
+
+
+
+
+
+//POINTER #255 @ $1031C - STRING #255 @ $14895
+#W32($1031C)
+//屋外やダンジョンにはモンスターが[NLINE]
+//うろついており、画面や操作が切り替わる事なく[NLINE]
+//そのままの状態で戦闘になります。[END-FE]
+//System Message\\
+Monsters wander inside dungeons or outdoors.[NLINE]
+Battles will play out the same in both[NLINE]
+environments. The screen display and[NLINE]
+controls will not change.[END-FE]
+
+
+
+
+
+//POINTER #256 @ $10320 - STRING #256 @ $14908
+#W32($10320)
+//近づくとモンスターは攻撃を[NLINE]
+//しかけてきますが、プレイヤー側から[NLINE]
+//先に攻撃をしかけることもできます。[END-FE]
+//System Message\\
+As you get closer, monsters will[NLINE]
+start to attack you, but you[NLINE]
+can attack them first.[END-FE]
+
+
+
+
+
+//POINTER #257 @ $10324 - STRING #257 @ $1496D
+#W32($10324)
+//　[NLINE]
+//さらにモンスターに近づいてみましょう。[END-FE]
+//System Message\\
+[NLINE]
+Let's get even closer to the monster.[END-FE]
+
+
+
+
+
+//POINTER #258 @ $10328 - STRING #258 @ $1499A
+#W32($10328)
+//モンスターや敵に近づくと[NLINE]
+//赤いマーカーが表示されます。[END-FE]
+//System Message\\
+You will see a red marker as you approach[NLINE]
+monsters and enemies.[END-FE]
+
+
+
+
+
+//POINTER #259 @ $1032C - STRING #259 @ $149D3
+#W32($1032C)
+//赤いマーカーの表示中に[CIRCLE]を押すと、[NLINE]
+//主人公はその相手へ攻撃を始め、[NLINE]
+//以後自動で攻撃を続けます。[END-FE]
+//System Message\\
+When you press [CROSS] while the red marker is[NLINE]
+displayed, the main character will begin to[NLINE]
+attack that target. From there on, he will[NLINE]
+continue attacking the target automatically.[END-FE]
+
+
+
+
+
+//POINTER #260 @ $10330 - STRING #260 @ $14A34
+#W32($10330)
+//なお、攻撃対象を決めた際には、[NLINE]
+//相手のＨＰメーターに[NLINE]
+//ターゲットロックが表示され、[NLINE]
+//主人公の頭部には黄色い輪が表示されます。[NLINE]
+//また誰を攻撃したかが報告されます。[END-FE]
+//System Message\\
+Furthermore, when the enemy target has been[NLINE]
+decided, a target-lock will be displayed[NLINE]
+around its HP meter. A yellow aura around[NLINE]
+the the main character indicates that you[NLINE]
+or the enemy has dealt out an attack.[END-FE]
+
+
+
+
+
+
+//POINTER #261 @ $10334 - STRING #261 @ $14AD7
+#W32($10334)
+//また攻撃中に、移動など他の行動を行うと、[NLINE]
+//攻撃がキャンセルされるので注意して下さい。[END-FE]
+//System Message\\
+Please note that if you perform other[NLINE]
+actions, such as moving during an attack,[NLINE]
+the attack will be cancelled.[END-FE]
+
+
+
+
+
+//POINTER #262 @ $10338 - STRING #262 @ $14B2E
+#W32($10338)
+//ひとたび攻撃を行うと、硬直時間が無くなるまで[NLINE]
+//次の行動が行えません。[END-FE]
+//System Message\\
+Once an attack is made, the next[NLINE]
+action cannot be performed until[NLINE]
+the time on the ATW Gauge has run out.[END-FE]
+
+
+
+
+
+//POINTER #263 @ $1033C - STRING #263 @ $14B75
+#W32($1033C)
+//画面下にある簡易ステイタスの[NLINE]
+//[COL01]ＡＴＷゲージ[COL00]に黄色く表示されている部分が[NLINE]
+//残り硬直時間です。[END-FE]
+//System Message\\
+The [COL01]ATW Gauge[COL00] is diplayed in yellow[NLINE]
+at the bottom of the screen. This bar[NLINE]
+is the remaining time before the character[NLINE]
+can perform another action.[END-FE]
+
+
+
+
+
+//POINTER #264 @ $10340 - STRING #264 @ $14BD8
+#W32($10340)
+//[COL01]ＡＴＷゲージ[COL00][END-FE]
+//System Message\\
+[COL01]ATW Gauge[END-FE]
+
+
+
+
+
+//POINTER #265 @ $10344 - STRING #265 @ $14BED
+#W32($10344)
+//[COL01]ＡＴＷゲージ[COL00][END-FE]
+//System Message\\
+[COL01]ATW Gauge[END-FE]
+
+
+
+
+
+//POINTER #266 @ $10348 - STRING #266 @ $14C02
+#W32($10348)
+//[COL01]ＡＴＷゲージ[COL00][END-FE]
+//System Message\\
+[COL01]ATW Gauge[END-FE]
+
+
+
+
+
+//POINTER #267 @ $1034C - STRING #267 @ $14C17
+#W32($1034C)
+//また[COL01]主人公のみ、硬直中にも移動が可能[COL00]です。[NLINE]
+//ただし、移動をすると[NLINE]
+//自動攻撃はキャンセルされます。[END-FE]
+//System Message\\
+Moving while time on the ATW Gauge remains[NLINE]
+[COL01]is only possible for the main character[COL00].[NLINE]
+However, when you move, your automatic[NLINE]
+attack will be cancelled.[END-FE]
+
+
+
+
+
+//POINTER #268 @ $10350 - STRING #268 @ $14C80
+#W32($10350)
+//攻撃を受けると、硬直を受けます。[NLINE]
+//集団に囲まれると、身動きが取れなくなるので[NLINE]
+//注意しましょう。[END-FE]
+//System Message\\
+When another character receives an attack,[NLINE]
+he or she will have to wait until time on[NLINE]
+the ATW Gauge has ran out. He or she may[NLINE]
+not be able to move while surrounded by[NLINE]
+enemies, so be careful.[END-FE]
+
+
+
+
+
+//POINTER #269 @ $10354 - STRING #269 @ $14CE1
+#W32($10354)
+//[COL04]△[COL00]を押し、コマンドメニューで[NLINE]
+//防御コマンドを選ぶことで、[NLINE]
+//その場で防御態勢をとることができます。[END-FE]
+//System Message\\
+You can make characters assume a defensive[NLINE]
+position where they stand by pressing [TRIANGLE][NLINE]
+and choosing Defend in the Command Menu.[END-FE]
+
+
+
+
+
+//POINTER #270 @ $10358 - STRING #270 @ $14D4A
+#W32($10358)
+//防御中は相手から受けるダメージを減らせますが、[NLINE]
+//硬直している間は、防御効果は得られません。[END-FE]
+//System Message\\
+While characters are defending, they can[NLINE]
+reduce the damage they receive from their[NLINE]
+opponents. However, they will not be able[NLINE]
+to defend while there is still time[NLINE]
+remaining on the ATW Gauge.[END-FE]
+
+
+
+
+
+//POINTER #271 @ $1035C - STRING #271 @ $14DA7
+#W32($1035C)
+//　[NLINE]
+//しっかりと施錠されている。[END-FE]
+//System Message\\
+[NLINE]
+It's firmly locked.[END-FE]
+
+
+
+
+
+//POINTER #272 @ $10360 - STRING #272 @ $14DC8
+#W32($10360)
+//この扉に使う物ではないらしい…。[END-FE]
+//System Message\\
+It can't be used on this door...[END-FE]
+
+
+
+
+
+//POINTER #273 @ $10364 - STRING #273 @ $14DEB
+#W32($10364)
+//市民\\
+//付き合ってもらって、悪かったね。[NLINE]
+//これは感謝の気持ちだ。[END-FE]
+//Civilian\\
+My apologies for taking up your[NLINE]
+time. Please consider this a token[NLINE]
+of my gratitude.[END-FE]
+
+
+
+
+
+//POINTER #274 @ $10368 - STRING #274 @ $14E26
+#W32($10368)
+//市民\\
+//それじゃあ、失礼するよ。[END-FE]
+//Civilian\\
+Well then, please excuse me.[END-FE]
+
+
+
+
+
+//POINTER #275 @ $1036C - STRING #275 @ $14E41
+#W32($1036C)
+//市民\\
+//そうか、工具を持って来てくれたのか。[NWIN]
+//
+//これについてはお礼を言っておくよ、[NLINE]
+//ありがとう。[END-FE]
+//Technician\\
+Oh, did you bring me a toolbox?[NWIN]
+
+You have my thanks.[END-FE]
+
+
+
+
+
+//POINTER #276 @ $10370 - STRING #276 @ $14E9A
+#W32($10370)
+//市民\\
+//これは！[NWIN]
+//
+//助かったよ！[NLINE]
+//これでエレベーターとドアの[NLINE]
+//修理が出来るよ！[NWIN]
+//
+//これは本当に少ないけど、私の気持ちだ。[NLINE]
+//受け取ってくれ。[END-FE]
+//Technician\\
+This is it![NWIN]
+
+With this I can repair the elevator and[NLINE]
+the door! Thanks a lot![NWIN]
+
+It's really small, but please take this[NLINE]
+as a token of my gratitude.[END-FE]
+
+
+
+
+
+//POINTER #277 @ $10374 - STRING #277 @ $14F1B
+#W32($10374)
+//市民\\
+//よ～し！[NLINE]
+//修理に取りかかるぞ！[END-FE]
+//Technician\\
+Alright![NLINE]
+I'm going to begin repairs![END-FE]
+
+
+
+
+
+//POINTER #278 @ $10378 - STRING #278 @ $14F3C
+#W32($10378)
+//市民\\
+//これで、ネックレスを元通りに戻せます。[NLINE]
+//本当にありがとうございます！[END-FE]
+//Young Man\\
+I can repair the necklace with this![NLINE]
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #279 @ $1037C - STRING #279 @ $14F83
+#W32($1037C)
+//市民\\
+//は～、ホッとしました。[NWIN]
+//
+//こんなに気を抜いてしまうと、[NLINE]
+//また、走っている子供たちと[NLINE]
+//ぶつかってしまうかもしれませんね。[NWIN]
+//
+//いや～、ほんとに良かったです。[END-FE]
+//Young Man\\
+Oh, what a relief![NWIN]
+
+If I let my mind wander like that again,[NLINE]
+I might end up accidently bumping into[NLINE]
+those running children for a second time![NWIN]
+
+Aah, I'm so glad![END-FE]
+
+
+
+
+
+//POINTER #280 @ $10380 - STRING #280 @ $1501A
+#W32($10380)
+//市民\\
+//あ、ありがとうございます！[NLINE]
+//後１つで、ネックレスを元通りに直せます。[NWIN]
+//
+//すみませんが、見つけたら[NLINE]
+//届けてくれませんか？[NLINE]
+//よろしくお願いします。[END-FE]
+//Young Man\\
+T-thank you very much![NLINE]
+One more and I can fix the necklace.[NWIN]
+
+I'm sorry for the bother, but[NLINE]
+if you find it, will you bring[NLINE]
+it to me? Much appreciated![END-FE]
+
+
+
+
+
+//POINTER #281 @ $10384 - STRING #281 @ $150A9
+#W32($10384)
+//市民\\
+//あ、ありがとうございます！[NLINE]
+//後２つで、ネックレスを元通りに直せます。[NWIN]
+//
+//すみませんが、見つけたら[NLINE]
+//届けてくれませんか？[NLINE]
+//よろしくお願いします。[END-FE]
+//Young Man\\
+T-thank you very much![NLINE]
+Two more and I can fix the necklace.[NWIN]
+
+I'm sorry, but should you find[NLINE]
+more, will you bring them to me?[NLINE]
+Much appreciated.[END-FE]
+
+
+
+
+
+//POINTER #282 @ $10388 - STRING #282 @ $15138
+#W32($10388)
+//市民\\
+//あ、ありがとうございます！[NLINE]
+//後３つで、ネックレスを元通りに直せます。[NWIN]
+//
+//すみませんが、見つけたら[NLINE]
+//届けてくれませんか？[NLINE]
+//よろしくお願いします。[END-FE]
+//Young Man\\
+T-thank you very much![NLINE]
+Three more and I can fix the necklace.[NWIN]
+
+I'm sorry, but should you find[NLINE]
+more, will you bring them to me?[NLINE]
+Much appreciated.[END-FE]
+
+
+
+
+
+//POINTER #283 @ $1038C - STRING #283 @ $151C7
+#W32($1038C)
+//市民\\
+//あ、ありがとうございます！[NLINE]
+//後４つで、ネックレスを元通りに直せます。[NWIN]
+//
+//すみませんが、見つけたら[NLINE]
+//届けてくれませんか？[NLINE]
+//よろしくお願いします。[END-FE]
+//Young Man\\
+T-thank you very much![NLINE]
+Four more and I can fix the necklace.[NWIN]
+
+I'm sorry, but should you find[NLINE]
+more, will you bring them to me?[NLINE]
+Much appreciated![END-FE]
+
+
+
+
+
+//POINTER #284 @ $10390 - STRING #284 @ $15256
+#W32($10390)
+//市民\\
+//あ、ありがとうございます！[NLINE]
+//後５つで、ネックレスを元通りに直せます。[NWIN]
+//
+//すみませんが、見つけたら[NLINE]
+//届けてくれませんか？[NLINE]
+//よろしくお願いします。[END-FE]
+//Young Man\\
+T-thank you very much![NLINE]
+Five more and I can fix the necklace.[NWIN]
+
+I'm sorry, but should you find[NLINE]
+more, will you bring them to me?[NLINE]
+Much appreciated![END-FE]
+
+
+
+
+
+//POINTER #285 @ $10394 - STRING #285 @ $152E5
+#W32($10394)
+//市民\\
+//あ、ありがとうございます！[NLINE]
+//後６つで、ネックレスを元通りに直せます。[NWIN]
+//
+//すみませんが、見つけたら[NLINE]
+//届けてくれませんか？[NLINE]
+//よろしくお願いします。[END-FE]
+//Young Man\\
+T-thank you very much![NLINE]
+Six more and I can fix the necklace.[NWIN]
+
+I'm sorry, but should you find[NLINE]
+more, will you bring them to me?[NLINE]
+Much appreciated![END-FE]
+
+
+
+
+
+//POINTER #286 @ $10398 - STRING #286 @ $15374
+#W32($10398)
+//モノポリス社警備兵\\
+//外でモンスターが目撃された。[NLINE]
+//しばらくは外に出ない方が良いだろう。[END-FE]
+//Monopolis Guard\\
+Some monsters were spotted[NLINE]
+nearby. It'd be better not[NLINE]
+to go outside for a while.[END-FE]
+
+
+
+
+
+//POINTER #287 @ $1039C - STRING #287 @ $153B9
+#W32($1039C)
+//モノポリス社警備兵\\
+//しばらく、ここは封鎖する。[END-FE]
+//Monopolis Guard\\
+This road is closed for[NLINE]
+the time being.[END-FE]
+
+
+
+
+
+//POINTER #288 @ $103A0 - STRING #288 @ $153D6
+#W32($103A0)
+//市民\\
+//修理するか。[END-FE]
+//Technician\\
+I can finally fix it![NLINE]
+Thanks again![END-FE]
+
+
+
+
+
+//POINTER #289 @ $103A4 - STRING #289 @ $153E5
+#W32($103A4)
+//市民\\
+//どこかで工具を調達してこないと…。[END-FE]
+//Technician\\
+I have to get a toolbox somehow...[END-FE]
+
+
+
+
+
+//POINTER #290 @ $103A8 - STRING #290 @ $1540A
+#W32($103A8)
+//市民\\
+//バリバリ修理するぞ！[END-FE]
+//Technician\\
+I'm going to repair it![END-FE]
+
+
+
+
+
+//POINTER #291 @ $103AC - STRING #291 @ $15421
+#W32($103AC)
+//市民\\
+//どこかで工具を調達できないものかな？[END-FE]
+//Technician\\
+I wonder if I could get the[NLINE]
+tools from somewhere...[END-FE]
+
+
+
+
+
+//POINTER #292 @ $103B0 - STRING #292 @ $15448
+#W32($103B0)
+//市民\\
+//いらっしゃいませ。[END-FE]
+//Technician\\
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #293 @ $103B4 - STRING #293 @ $1545D
+#W32($103B4)
+//エレベーターから異音がする事を[NLINE]
+//伝えますか？[END-FE]
+//System Message\\
+Will you tell him about the strange noises[NLINE]
+coming from the elevator?[END-FE]
+
+
+
+
+
+//POINTER #294 @ $103B8 - STRING #294 @ $1548C
+#W32($103B8)
+//何だって！[END-FE]
+//Technician\\
+What!?[END-FE]
+
+
+
+
+
+//POINTER #295 @ $103BC - STRING #295 @ $15499
+#W32($103BC)
+//市民\\
+//し、しまった！[NLINE]
+//勢い良くドアを開けてしまった！[END-FE]
+//Technician\\
+O-oh no! I opened the door too[NLINE]
+quickly![END-FE]
+
+
+
+
+
+//POINTER #296 @ $103C0 - STRING #296 @ $154CA
+#W32($103C0)
+//市民\\
+//やっぱり…。[NLINE]
+//ドアの金具が壊れてるよ。[NLINE]
+//はあ～。[END-FE]
+//Technician\\
+I knew it...[NLINE]
+The door hinge is broken.[END-FE]
+
+
+
+
+
+//POINTER #297 @ $103C4 - STRING #297 @ $154FD
+#W32($103C4)
+//市民\\
+//ちょっと、待っていてくれ。[NLINE]
+//エレベーターの様子を見てくるから。[END-FE]
+//Technician\\
+Please wait a moment. I'll take[NLINE]
+a look at the elevator.[END-FE]
+
+
+
+
+
+//POINTER #298 @ $103C8 - STRING #298 @ $1553E
+#W32($103C8)
+//市民\\
+//ギアが上手く[NLINE]
+//噛み合っていないみたいだね。[NWIN]
+//
+//今手元に工具が無くて[NLINE]
+//応急処置になってしまったけど、[NLINE]
+//しばらくは大丈夫だと思うよ。[NWIN]
+//
+//…本格的に修理をした方が良いだろうけど、[NLINE]
+//さっきも言ったけど、工具が無くてね。[NWIN]
+//
+//人に貸したまま、[NLINE]
+//しばらく返ってきそうにないんだ。[END-FE]
+//Technician\\
+Looks like the gears don't mesh properly.[NWIN]
+
+I don't have the proper tools on hand,[NLINE]
+so this is only a temporary fix. I think[NLINE]
+it'll be fine for a while, though.[NWIN]
+
+...It would be better to make real repairs,[NLINE]
+but as I said before, I lack the[NLINE]
+proper tools at the moment.[NWIN]
+
+I lent them out and they still haven't[NLINE]
+been returned.[END-FE]
+
+
+
+
+
+//POINTER #299 @ $103CC - STRING #299 @ $15643
+#W32($103CC)
+//市民\\
+//ドアも壊れてしまったよ。[NLINE]
+//とほほ～。[END-FE]
+//Technician\\
+And now the door is also broken...[END-FE]
+
+
+
+
+
+//POINTER #300 @ $103D0 - STRING #300 @ $1566A
+#W32($103D0)
+//市民\\
+//なんにせよ、[NLINE]
+//知らせてくれてありがとう。[END-FE]
+//Technician\\
+Anyway, thank you for telling me.[END-FE]
+
+
+
+
+
+//POINTER #301 @ $103D4 - STRING #301 @ $15695
+#W32($103D4)
+//市民\\
+//外に行く際は、[NLINE]
+//モンスターに気をつけてくれよ。[NWIN]
+//
+//それと、さっきエレベーターで登ってくる時、[NLINE]
+//変な音を聞いたんだ。[NWIN]
+//
+//俺はここの見張りをしないといけない。[NLINE]
+//キミ、ヒマがあったら伝えておいてくれないか？[NWIN]
+//
+//エレベーター下出入口の、すぐ横にあるお店。[NLINE]
+//そこに技師がいるんだ。[NWIN]
+//
+//その人にエレベーターの様子がおかしいって、[NLINE]
+//言っておいてくれないかい？[END-FE]
+//Guard\\
+Watch out for the monsters when you go[NLINE]
+outside.[NWIN]
+
+Also, I heard a strange noise when I rode[NLINE]
+the elevator.[NWIN]
+
+I have to patrol this place. If you have[NLINE]
+time, will you let someone know about it?[NWIN]
+
+There's a shop right next to it. There[NLINE]
+should be a technician there.[NWIN]
+
+Can you tell him that there's something[NLINE]
+wrong with the elevator?[END-FE]
+
+
+
+
+
+//POINTER #302 @ $103D8 - STRING #302 @ $157E8
+#W32($103D8)
+//市民\\
+//さっきエレベーターで登ってくる時、[NLINE]
+//変な音を聞いたんだ。[NWIN]
+//
+//俺はここの見張りをしないといけない。[NLINE]
+//キミ、ヒマがあったら伝えておいてくれないか？[NWIN]
+//
+//エレベーター下出入口の、すぐ横にあるお店。[NLINE]
+//そこに技師がいるんだ。[NWIN]
+//
+//その人にエレベーターの様子がおかしいって、[NLINE]
+//言っておいてくれないかい？[END-FE]
+//Guard\\
+I heard a strange noise when I rode[NLINE]
+the elevator.[NWIN]
+
+I have to patrol this place. If you have[NLINE]
+time, will you let someone know about it?[NWIN]
+
+There's a shop right next to the[NLINE]
+bottom exit. There should be a[NLINE]
+technician there.[NWIN]
+
+Could you tell him that there's something[NLINE]
+wrong with the elevator?[END-FE]
+
+
+
+
+
+//POINTER #303 @ $103DC - STRING #303 @ $15903
+#W32($103DC)
+//市民\\
+//外でたくさんのゲルを見かけたそうだ。[NLINE]
+//しばらく、街の入り口を封鎖するみたいだ。[END-FE]
+//Guard\\
+There have been a lot of Slimes around[NLINE]
+these days. They've been blocking the[NLINE]
+entrance to the town for some time[NLINE]
+now.[END-FE]
+
+
+
+
+
+//POINTER #304 @ $103E0 - STRING #304 @ $15954
+#W32($103E0)
+//市民\\
+//この西側から外に出られるが、[NLINE]
+//外に行く際は、[NLINE]
+//モンスターに気をつけてくれよ。[END-FE]
+//Guard\\
+You can get outside through the[NLINE]
+western gate. But if you do, watch[NLINE]
+out for monsters.[END-FE]
+
+
+
+
+
+//POINTER #305 @ $103E4 - STRING #305 @ $159A3
+#W32($103E4)
+//市民\\
+//ケチ！[END-FE]
+//Boy/Girl\\
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #306 @ $103E8 - STRING #306 @ $159AC
+#W32($103E8)
+//市民\\
+//今度は負けないからな！[END-FE]
+//Boy/Girl\\
+I won't lose this time![END-FE]
+
+
+
+
+
+//POINTER #307 @ $103EC - STRING #307 @ $159C5
+#W32($103EC)
+//市民\\
+//いい勝負だったな！[NLINE]
+//次も負けないぞ！[END-FE]
+//Boy/Girl\\
+That was a good race![NLINE]
+I won't lose next time![END-FE]
+
+
+
+
+
+//POINTER #308 @ $103F0 - STRING #308 @ $159EC
+#W32($103F0)
+//市民\\
+//何度勝負しても[NLINE]
+//負ける気がしないな。[END-FE]
+//Boy/Girl\\
+I don't feel like losing, no matter[NLINE]
+how many times we race![END-FE]
+
+
+
+
+
+//POINTER #309 @ $103F4 - STRING #309 @ $15A13
+#W32($103F4)
+//市民\\
+//ケチッ！[END-FE]
+//Boy/Girl\\
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #310 @ $103F8 - STRING #310 @ $15A1E
+#W32($103F8)
+//市民\\
+//また、あそべ！[END-FE]
+//Boy/Girl\\
+Let's play again![END-FE]
+
+
+
+
+
+//POINTER #311 @ $103FC - STRING #311 @ $15A2F
+#W32($103FC)
+//市民\\
+//けちっ！[END-FE]
+//Boy/Girl\\
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #312 @ $10400 - STRING #312 @ $15A3A
+#W32($10400)
+//市民\\
+//たのしかったぞ！[END-FE]
+//Boy/Girl\\
+That was fun![END-FE]
+
+
+
+
+
+//POINTER #313 @ $10404 - STRING #313 @ $15A4D
+#W32($10404)
+//市民\\
+//けち？[END-FE]
+//Boy/Girl\\
+...Buzzkill?[END-FE]
+
+
+
+
+
+//POINTER #314 @ $10408 - STRING #314 @ $15A56
+#W32($10408)
+//市民\\
+//ありがと！[END-FE]
+//Boy/Girl\\
+Thanks![END-FE]
+
+
+
+
+
+//POINTER #315 @ $1040C - STRING #315 @ $15A63
+#W32($1040C)
+//店員\\
+//いらっしゃい。[NLINE]
+//何かお買い上げですか？[END-FE]
+//Merchant\\
+Welcome.[NLINE]
+Would you like to buy something?[END-FE]
+
+
+
+
+
+//POINTER #316 @ $10410 - STRING #316 @ $15A8C
+#W32($10410)
+//腰痛に効く鎮痛薬をお求めで？[NLINE]
+//はい、ございますよ。[END-FE]
+//Merchant\\
+You're looking for medicine[NLINE]
+that helps with back pain?[NWIN]
+
+You're in luck, we got some[NLINE]
+in stock![END-FE]
+
+
+
+
+
+//POINTER #317 @ $10414 - STRING #317 @ $15AC1
+#W32($10414)
+//店員\\
+//１０Ыになりますが、[NLINE]
+//お買い上げになりますか？[END-FE]
+//Merchant\\
+That will be 10Ы.[NLINE]
+Do you want to buy it?[END-FE]
+
+
+
+
+
+//POINTER #318 @ $10418 - STRING #318 @ $15AF2
+#W32($10418)
+//店員\\
+//ありがとうございます。[END-FE]
+//Merchant\\
+Thank you very much.[END-FE]
+
+
+
+
+
+//POINTER #319 @ $1041C - STRING #319 @ $15B0B
+#W32($1041C)
+//店員\\
+//お客さん、お金が足りませんよ。[END-FE]
+//Merchant\\
+Sir, you don't have enough[NLINE]
+money.[END-FE]
+
+
+
+
+
+//POINTER #320 @ $10420 - STRING #320 @ $15B2C
+#W32($10420)
+//店員\\
+//そうですか。[END-FE]
+//Merchant\\
+I see.[END-FE]
+
+
+
+
+
+//POINTER #321 @ $10424 - STRING #321 @ $15B3B
+#W32($10424)
+//店員\\
+//またのご来店を[NLINE]
+//お待ちしております。[END-FE]
+//Merchant\\
+We look forward to[NLINE]
+seeing you again.[END-FE]
+
+
+
+
+
+//POINTER #322 @ $10428 - STRING #322 @ $15B62
+#W32($10428)
+//店員\\
+//ありがとうございました！[END-FE]
+//Merchant\\
+Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #323 @ $1042C - STRING #323 @ $15B7D
+#W32($1042C)
+//所持金 [CC.EF19]Ы[END-FE]
+//System Message\\
+Money [CC.EF19]Ы[END-FE]
+
+
+
+
+
+//POINTER #324 @ $10430 - STRING #324 @ $15B8C
+#W32($10430)
+//市民\\
+//いくらでも構いません。[NLINE]
+//でも、後２０Ы募金してもらえると助かります！[END-FE]
+//Activist\\
+We welcome all the donations we can[NLINE]
+get. However, it would be very helpful[NLINE]
+if you could donate another 20Ы![END-FE]
+
+
+
+
+
+//POINTER #325 @ $10434 - STRING #325 @ $15BD3
+#W32($10434)
+//市民\\
+//後１５Ыの募金で、[NLINE]
+//新しい樹を植えることができます！[END-FE]
+//Activist\\
+By donating another 15Ы, you can[NLINE]
+plant a new tree![END-FE]
+
+
+
+
+
+//POINTER #326 @ $10438 - STRING #326 @ $15C0A
+#W32($10438)
+//市民\\
+//後１０Ыの募金で、[NLINE]
+//新しい樹を植えることができます！[END-FE]
+//Activist\\
+By donating another 10Ы, you can[NLINE]
+plant a new tree![END-FE]
+
+
+
+
+
+//POINTER #327 @ $1043C - STRING #327 @ $15C41
+#W32($1043C)
+//市民\\
+//後５Ыの募金で、[NLINE]
+//新しい樹を植えることができます！[END-FE]
+//Activist\\
+By donating another 5Ы, you[NLINE]
+can plant a new tree![END-FE]
+
+
+
+
+
+//POINTER #328 @ $10440 - STRING #328 @ $15C76
+#W32($10440)
+//市民\\
+//募金をおねがいします！[END-FE]
+//Activist\\
+Please donate![END-FE]
+
+
+
+
+
+//POINTER #329 @ $10444 - STRING #329 @ $15C8F
+#W32($10444)
+//・募金する[END-FE]
+・Donate[END-FE]
+
+
+
+
+
+//POINTER #330 @ $10448 - STRING #330 @ $15C9C
+#W32($10448)
+//・無視する[END-FE]
+・Ignore[END-FE]
+
+
+
+
+
+//POINTER #331 @ $1044C - STRING #331 @ $15CA9
+#W32($1044C)
+//・５Ы[END-FE]
+・5Ы[END-FE]
+
+
+
+
+
+//POINTER #332 @ $10450 - STRING #332 @ $15CB2
+#W32($10450)
+//・１０Ы[END-FE]
+・10Ы[END-FE]
+
+
+
+
+
+//POINTER #333 @ $10454 - STRING #333 @ $15CBD
+#W32($10454)
+//・１５Ы[END-FE]
+・15Ы[END-FE]
+
+
+
+
+
+//POINTER #334 @ $10458 - STRING #334 @ $15CC8
+#W32($10458)
+//・２０Ы[END-FE]
+・20Ы[END-FE]
+
+
+
+
+
+//POINTER #335 @ $1045C - STRING #335 @ $15CD3
+#W32($1045C)
+//・やっぱり止める[END-FE]
+・Quit[END-FE]
+
+
+
+
+
+//POINTER #336 @ $10460 - STRING #336 @ $15CE6
+#W32($10460)
+//市民\\
+//あの～、[NLINE]
+//お金がないみたいですけど…。[END-FE]
+//Activist\\
+Hmm... It seems like you don't[NLINE]
+have enough money.[END-FE]
+
+
+
+
+
+//POINTER #337 @ $10464 - STRING #337 @ $15D0F
+#W32($10464)
+//市民\\
+//ありがとうございます！[NLINE]
+//これで新しい樹が植えられます！[END-FE]
+//Activist\\
+Thanks to your donation we can plant[NLINE]
+new trees! Thank you very much![END-FE]
+
+
+
+
+
+//POINTER #338 @ $10468 - STRING #338 @ $15D48
+#W32($10468)
+//市民\\
+//私を見つけるとは、[NLINE]
+//キミやるね。[NWIN]
+//
+//何？[NLINE]
+//ＲＡＤＡＲを見れば一目瞭然だって!?[END-FE]
+//Shady Person\\
+So you've managed to find me at[NLINE]
+long last, huh kid?[NWIN]
+
+What!? Finding me with a radar[NLINE]
+was like stealing candy from a baby,[NLINE]
+you say?![END-FE]
+
+
+
+
+
+//POINTER #339 @ $1046C - STRING #339 @ $15D95
+#W32($1046C)
+//市民\\
+//ボクの正体を[NLINE]
+//よくも世間にさらしてくれたな！[NWIN]
+//
+//何？[NLINE]
+//ＲＡＤＡＲを見ればバレバレだって!?[END-FE]
+//Shady Person\\
+Oh, thank you SO MUCH for exposing me[NLINE]
+to the world![NWIN]
+
+What!? Even a monkey could have[NLINE]
+found me with a radar, you say?![END-FE]
+
+
+
+
+
+//POINTER #340 @ $10470 - STRING #340 @ $15DEE
+#W32($10470)
+//市民\\
+//…そうか、キミは相当知識に[NLINE]
+//自信があるみたいだね。[NLINE]
+//なら、このボクが試してやろう！[END-FE]
+//Shady Person\\
+...So that's how it is, huh? You seem[NLINE]
+quite confident about what you know.[NLINE]
+In that case, you will be put to the[NLINE]
+test by none other than ME![END-FE]
+
+
+
+
+
+//POINTER #341 @ $10474 - STRING #341 @ $15E43
+#W32($10474)
+//市民\\
+//挑戦を受けるか。[NLINE]
+//良かろう、試してくれるわ！[END-FE]
+//Shady Person\\
+You'll take the challenge?[NLINE]
+Very well, show me what you[NLINE]
+got![END-FE]
+
+
+
+
+
+//POINTER #342 @ $10478 - STRING #342 @ $15E72
+#W32($10478)
+//市民\\
+//ＲＡＤＡＲ（レーダー）で表示される[NLINE]
+//パーティーメンバーの色は何色だ？[END-FE]
+//Shady Person\\
+Which color is used to display party[NLINE]
+members on the radar?[END-FE]
+
+
+
+
+
+//POINTER #343 @ $1047C - STRING #343 @ $15EB9
+#W32($1047C)
+//・レッド[END-FE]
+//System Message\\
+・Red[END-FE]
+
+
+
+
+
+//POINTER #344 @ $10480 - STRING #344 @ $15EC4
+#W32($10480)
+//・ブルー[END-FE]
+//System Message\\
+・Blue[END-FE]
+
+
+
+
+
+//POINTER #345 @ $10484 - STRING #345 @ $15ECF
+#W32($10484)
+//・グリーン[END-FE]
+//System Message\\
+・Green[END-FE]
+
+
+
+
+
+//POINTER #346 @ $10488 - STRING #346 @ $15EDC
+#W32($10488)
+//市民\\
+//時間を止めて状況を確認するには、[NLINE]
+//何を操作すればよいか？[END-FE]
+//Shady Person\\
+How do you stop time[NLINE]
+and check the status[NLINE]
+of the Map?[END-FE]
+
+
+
+
+
+//POINTER #347 @ $1048C - STRING #347 @ $15F17
+#W32($1048C)
+//・[COL09]×[COL00]を押しながら方向キー[END-FE]
+//System Message\\
+・Press the directional pad while holding [CIRCLE][END-FE]
+
+
+
+
+
+//POINTER #348 @ $10490 - STRING #348 @ $15F38
+#W32($10490)
+//・左スティック[END-FE]
+//System Message\\
+・Move the left stick[END-FE]
+
+
+
+
+
+//POINTER #349 @ $10494 - STRING #349 @ $15F49
+#W32($10494)
+//・右スティック[END-FE]
+//System Message\\
+・Move the right stick[END-FE]
+
+
+
+
+
+//POINTER #350 @ $10498 - STRING #350 @ $15F5A
+#W32($10498)
+//市民\\
+//移動する時、走らせる方法で[NLINE]
+//無いものはどれだ？[END-FE]
+//Shady Person\\
+What is not a way to let your character run?[END-FE]
+
+
+
+
+
+//POINTER #351 @ $1049C - STRING #351 @ $15F8B
+#W32($1049C)
+//・左スティック[END-FE]
+//System Message\\
+・Move the left stick[END-FE]
+
+
+
+
+
+//POINTER #352 @ $104A0 - STRING #352 @ $15F9C
+#W32($104A0)
+//・右スティック[END-FE]
+//System Message\\
+・Move the right stick[END-FE]
+
+
+
+
+
+//POINTER #353 @ $104A4 - STRING #353 @ $15FAD
+#W32($104A4)
+//・[COL09]×[COL00]を押しながら方向キー[END-FE]
+//System Message\\
+・Press the directional pad while holding [CROSS][END-FE]
+
+
+
+
+
+//POINTER #354 @ $104A8 - STRING #354 @ $15FCE
+#W32($104A8)
+//市民\\
+//メッセージスキップを行うには[NLINE]
+//[R1]と何を押さなければならないか？[END-FE]
+//Shady Person\\
+What button do press alongside [R1][NLINE]
+in order to skip messages?[END-FE]
+
+
+
+
+
+//POINTER #355 @ $104AC - STRING #355 @ $16011
+#W32($104AC)
+//・[COL09]×[COL00][END-FE]
+//System Message\\
+・[CIRCLE][END-FE]
+
+
+
+
+
+//POINTER #356 @ $104B0 - STRING #356 @ $1601E
+#W32($104B0)
+//・[COL03]○[COL00][END-FE]
+//System Message\\
+・[CROSS][END-FE]
+
+
+
+
+
+//POINTER #357 @ $104B4 - STRING #357 @ $1602B
+#W32($104B4)
+//・[COL04]△[COL00][END-FE]
+//System Message\\
+・[TRIANGLE][END-FE]
+
+
+
+
+
+//POINTER #358 @ $104B8 - STRING #358 @ $16038
+#W32($104B8)
+//最後にボクが着ているのは何？[END-FE]
+//Shady Person\\
+And finally, what am I wearing?[END-FE]
+
+
+
+
+
+//POINTER #359 @ $104BC - STRING #359 @ $16057
+#W32($104BC)
+//・ビジネススーツ[END-FE]
+//System Message\\
+・A business suit[END-FE]
+
+
+
+
+
+//POINTER #360 @ $104C0 - STRING #360 @ $1606A
+#W32($104C0)
+//・商人服[END-FE]
+//System Message\\
+・Merchant's clothes[END-FE]
+
+
+
+
+
+//POINTER #361 @ $104C4 - STRING #361 @ $16075
+#W32($104C4)
+//・スカート[END-FE]
+//System Message\\
+・Skirt[END-FE]
+
+
+
+
+
+//POINTER #362 @ $104C8 - STRING #362 @ $16082
+#W32($104C8)
+//市民\\
+//くそっ、見られてんだった！[END-FE]
+//Shady Person\\
+Shoot, I forgot you could see me![END-FE]
+
+
+
+
+
+//POINTER #363 @ $104CC - STRING #363 @ $1609F
+#W32($104CC)
+//市民\\
+//な、何でわかったんだ！[END-FE]
+//Shady Person\\
+H-how did you know?![END-FE]
+
+
+
+
+
+//POINTER #364 @ $104D0 - STRING #364 @ $160B8
+#W32($104D0)
+//市民\\
+//ボクは男だ！[END-FE]
+//Shady Person\\
+I'm a man![END-FE]
+
+
+
+
+
+//POINTER #365 @ $104D4 - STRING #365 @ $160C7
+#W32($104D4)
+//市民\\
+//ぬっ、まさか[NLINE]
+//全問正解とは！[NLINE]
+//ボクの負けだよ…。[END-FE]
+//Shady Person\\
+How can this be!? You got all[NLINE]
+questions correct![NWIN]
+
+I lost...[END-FE]
+
+
+
+
+
+//POINTER #366 @ $104D8 - STRING #366 @ $160FA
+#W32($104D8)
+//市民\\
+//４問正解とはやるな！[NLINE]
+//さすがボクを見つけた[NLINE]
+//人材なだけはあるな。[END-FE]
+//Shady Person\\
+You got four questions correct. Not bad,[NLINE]
+kid! It's only natural that the one who[NLINE]
+was able to find me would be a man of[NLINE]
+talent.[END-FE]
+
+
+
+
+
+//POINTER #367 @ $104DC - STRING #367 @ $1613D
+#W32($104DC)
+//市民\\
+//３問正解とは中々。[NLINE]
+//今回のところは[NLINE]
+//負けにしといてやろう。[END-FE]
+//Shady Person\\
+You got three questions correct. That's[NLINE]
+not half-bad. I'll do you a favor and[NLINE]
+concede defeat this time.[END-FE]
+
+
+
+
+
+//POINTER #368 @ $104E0 - STRING #368 @ $1617A
+#W32($104E0)
+//市民\\
+//２問正解か。[NLINE]
+//まあ、善戦したと言うところだな。[END-FE]
+//Shady Person\\
+Looks like you got two questions correct.[NLINE]
+Hmm, I would almost say you put up[NLINE]
+a good fight.[END-FE]
+
+
+
+
+
+//POINTER #369 @ $104E4 - STRING #369 @ $161AB
+#W32($104E4)
+//市民\\
+//１問正解か。[NLINE]
+//クックックッ、口ほどにもない！[END-FE]
+//Shady Person\\
+Looks like you got one question correct.[NLINE]
+Hehehe, you're all bark and no bite![END-FE]
+
+
+
+
+
+//POINTER #370 @ $104E8 - STRING #370 @ $161DA
+#W32($104E8)
+//市民\\
+//この体たらくは…。[NLINE]
+//きっとボクが見つかったのも[NLINE]
+//マグレだな、これは。[END-FE]
+//Shady Person\\
+How embarrassing for you... Surely,[NLINE]
+you finding me was just a fluke![END-FE]
+
+
+
+
+
+//POINTER #371 @ $104EC - STRING #371 @ $16221
+#W32($104EC)
+//市民\\
+//…正体がばれた今、[NLINE]
+//ボクがここで隠れてる意味って[NLINE]
+//ないんだよね…。[END-FE]
+//Shady Person\\
+...Now that I've been exposed, there's[NLINE]
+really no point in hiding here anymore,[NLINE]
+is it?[END-FE]
+
+
+
+
+
+//POINTER #372 @ $104F0 - STRING #372 @ $16266
+#W32($104F0)
+//市民\\
+//あんまり近づかないでくれ。[NLINE]
+//ボクがここにいるって他の人に[NLINE]
+//バレるじゃないか。[END-FE]
+//Shady Person\\
+Don't get too close! Otherwise people[NLINE]
+will find out that I'm here![END-FE]
+
+
+
+
+
+//POINTER #373 @ $104F4 - STRING #373 @ $162B5
+#W32($104F4)
+//市民\\
+//…正体がばれた今、[NLINE]
+//ボクがここで隠れてる意味って[NLINE]
+//ないんだよね…。[END-FE]
+//Shady Person\\
+...Now that I've been exposed, there[NLINE]
+really is no point in hiding here anymore,[NLINE]
+is it?[END-FE]
+
+
+
+
+
+//POINTER #374 @ $104F8 - STRING #374 @ $162FA
+#W32($104F8)
+//市民\\
+//あんまり近づかないでくれ。[NLINE]
+//ボクがここにいるって他の人に[NLINE]
+//バレるじゃないか。[END-FE]
+//Shady Person\\
+Don't get too close! Otherwise people[NLINE]
+will find out that I'm here![END-FE]
+
+
+
+
+
+//POINTER #375 @ $104FC - STRING #375 @ $16349
+#W32($104FC)
+//市民\\
+//………。[NWIN]
+//
+//…無い。[END-FE]
+//Young Man\\
+......[NWIN]
+...It's not here.[END-FE]
+
+
+
+
+
+//POINTER #376 @ $10500 - STRING #376 @ $1635E
+#W32($10500)
+//市民\\
+//無い！[NLINE]
+//無い！[NLINE]
+//無～い！[END-FE]
+//Young Man\\
+It's not here![NLINE]
+It's not here![NLINE]
+IT'S NOT HERE![END-FE]
+
+
+
+
+
+//POINTER #377 @ $10504 - STRING #377 @ $16379
+#W32($10504)
+//市民\\
+//…ど、どうしよう。[NLINE]
+//ネックレスのヒモが切れてるなんて、[NLINE]
+//想定外だよ。[NWIN]
+//
+//せっかく仕入れたのに、[NLINE]
+//これじゃあ、赤字だよ…。[NWIN]
+//
+//どこに落としたのかな…。[NLINE]
+//街を見学して、その前に宿を予約して、[NLINE]
+//…もしかしたら、街の外に落としてるかも…。[END-FE]
+//Young Man\\
+What should I do? I didn't expect the[NLINE]
+string of the necklace to break.[NWIN]
+
+I had to go in debt in order to[NLINE]
+purchase it...[NWIN]
+
+Where could I have dropped it...? I've[NLINE]
+taken a tour around the city, and[NLINE]
+before that I also spent time at the inn...[NLINE]
+Maybe I dropped it outside the city...?[END-FE]
+
+
+
+
+
+//POINTER #378 @ $10508 - STRING #378 @ $1645E
+#W32($10508)
+//市民\\
+//すみません！[NLINE]
+//ここら辺に真珠が落ちていませんでしたか？[END-FE]
+//Young Man\\
+Excuse me! Have you seen any pearls[NLINE]
+lying around here?[END-FE]
+
+
+
+
+
+//POINTER #379 @ $1050C - STRING #379 @ $16497
+#W32($1050C)
+//市民\\
+//後６つ、[NLINE]
+//真珠を見かけませんでしたか？[END-FE]
+//Young Man\\
+Have you seen the other six pearls?[END-FE]
+
+
+
+
+
+//POINTER #380 @ $10510 - STRING #380 @ $164C0
+#W32($10510)
+//市民\\
+//後５つ、[NLINE]
+//真珠を見かけませんでしたか？[END-FE]
+//Young Man\\
+Have you seen the other five pearls?[END-FE]
+
+
+
+
+
+//POINTER #381 @ $10514 - STRING #381 @ $164E9
+#W32($10514)
+//市民\\
+//後４つ、[NLINE]
+//真珠を見かけませんでしたか？[END-FE]
+//Young Man\\
+Have you seen the other four pearls?[END-FE]
+
+
+
+
+
+//POINTER #382 @ $10518 - STRING #382 @ $16512
+#W32($10518)
+//市民\\
+//後３つ、[NLINE]
+//真珠を見かけませんでしたか？[END-FE]
+//Young Man\\
+Have you seen the other three pearls?[END-FE]
+
+
+
+
+
+//POINTER #383 @ $1051C - STRING #383 @ $1653B
+#W32($1051C)
+//市民\\
+//後２つ、[NLINE]
+//真珠を見かけませんでしたか？[END-FE]
+//Young Man\\
+Have you seen the other two pearls?[END-FE]
+
+
+
+
+
+//POINTER #384 @ $10520 - STRING #384 @ $16564
+#W32($10520)
+//市民\\
+//後１つ、[NLINE]
+//真珠を見かけませんでしたか？[END-FE]
+//Young Man\\
+Have you seen the last missing pearl?[END-FE]
+
+
+
+
+
+//POINTER #385 @ $10524 - STRING #385 @ $1658D
+#W32($10524)
+//市民\\
+//もし拾ったら、[NLINE]
+//私まで届けて下さいね！[END-FE]
+//Young Man\\
+If you find any, please give them to me![END-FE]
+
+
+
+
+
+//POINTER #386 @ $10528 - STRING #386 @ $165B6
+#W32($10528)
+//市民\\
+//本当にありがとうございました。[END-FE]
+//Young Man\\
+I really appreciate it.[END-FE]
+
+
+
+
+
+//POINTER #387 @ $1052C - STRING #387 @ $165D7
+#W32($1052C)
+//市民\\
+//海に面して植えられている[NLINE]
+//茂みがあるでしょ。[NWIN]
+//
+//最近、あの辺りにハチが巣を作って[NLINE]
+//うかつに調べたりすると大変なことになるわよ。[END-FE]
+//Civilian\\
+Have you seen those bushes planted[NLINE]
+near the sea?[NWIN]
+
+Lately, bees have been making hives[NLINE]
+in those bushes. Inspecting them[NLINE]
+carelessly will just land you in[NLINE]
+a stingy situation.[END-FE]
+
+
+
+
+
+//POINTER #388 @ $10530 - STRING #388 @ $16656
+#W32($10530)
+//市民\\
+//でも、子供たちはハチの巣なんて[NLINE]
+//へっちゃらみたいだな。[NWIN]
+//
+//この前、何かあの茂みに[NLINE]
+//隠しているのを見たよ。[NWIN]
+//
+//あまり危険な遊びはしないで[NLINE]
+//欲しいのだが。[END-FE]
+//Civilian\\
+However, the children don't think those[NLINE]
+beehives are a big deal.[NWIN]
+
+I saw them hide something in there[NLINE]
+a while ago.[NWIN]
+
+I wish they wouldn't do such dangerous[NLINE]
+things while playing outside.[END-FE]
+
+
+
+
+
+//POINTER #389 @ $10534 - STRING #389 @ $166EB
+#W32($10534)
+//市民\\
+//何だったのかな？[NWIN]
+//
+//鳥が淡く光る物をくわえて、[NLINE]
+//この街から飛び去っていったよ。[END-FE]
+//Civilian\\
+I just saw a bird fly away from[NLINE]
+this city with a faintly shiny object.[NWIN]
+
+What could it have been?[END-FE]
+
+
+
+
+
+//POINTER #390 @ $10538 - STRING #390 @ $1673A
+#W32($10538)
+//エレベーターを利用して下におりますか？[END-FE]
+//System Message\\
+Will you go down in the elevator?[END-FE]
+
+
+
+
+
+//POINTER #391 @ $1053C - STRING #391 @ $16763
+#W32($1053C)
+//エレベーターを利用して上に昇りますか？[END-FE]
+//System Message\\
+Will you go up in the elevator?[END-FE]
+
+
+
+
+
+//POINTER #392 @ $10540 - STRING #392 @ $1678C
+#W32($10540)
+//【この扉開けるべからず】と[NLINE]
+//張り紙が張られている。[END-FE]
+//System Message\\
+There's a sign that reads:[NLINE]
+"Don't open this door."[END-FE]
+
+
+
+
+
+//POINTER #393 @ $10544 - STRING #393 @ $167C1
+#W32($10544)
+//・開ける[END-FE]
+//System Message\\
+・Open[END-FE]
+
+
+
+
+
+//POINTER #394 @ $10548 - STRING #394 @ $167CC
+#W32($10548)
+//・開けない[END-FE]
+//System Message\\
+・Don't open[END-FE]
+
+
+
+
+
+//POINTER #395 @ $1054C - STRING #395 @ $167D9
+#W32($1054C)
+//市民\\
+//何してんだよ！[END-FE]
+//Technician\\
+How could you do that!?[END-FE]
+
+
+
+
+
+//POINTER #396 @ $10550 - STRING #396 @ $167EA
+#W32($10550)
+//市民\\
+//やっぱり…。[NLINE]
+//ドアの金具が壊れてるよ。[NWIN]
+//
+//慣れてない人がドアを開けると[NLINE]
+//大変なことになるから張り紙までしといたのに…。[NWIN]
+//
+//…全くなんて事をしてくれたんだよ。[NWIN]
+//
+//ダメだ。[NLINE]
+//こりゃ、閉まらない。[NLINE]
+//なんとかしないと。[NWIN]
+//
+//でも、工具は人に貸したままだし、[NLINE]
+//修理できないぞ…。[END-FE]
+//Technician\\
+Now you've gone and done it...[NLINE]
+The door hinge is broken.[NWIN]
+
+Even though I put up a sign in order to[NLINE]
+prevent an unsuspecting person from[NLINE]
+opening the door...[NWIN]
+
+What were you thinking...?[NWIN]
+
+No good... It won't close.[NLINE]
+I have to do something.[NWIN]
+
+But I lent my tools to someone... I can't[NLINE]
+repair it right now...[END-FE]
+
+
+
+
+
+//POINTER #397 @ $10554 - STRING #397 @ $168EF
+#W32($10554)
+//市民\\
+//ん？[NLINE]
+//私に何か用事かい？[NWIN]
+//
+//今テストの結果をまとめていて[NLINE]
+//忙しいのだが…。[NWIN]
+//
+//そうだ！[NLINE]
+//君、私のテストに付き合ってくれないか？[NWIN]
+//
+//もう少しデータがほしいと[NLINE]
+//思っていたところなんだ。[END-FE]
+//Scientist\\
+Hm? Do you need me for something?[NWIN]
+
+I'm busy with sorting test[NLINE]
+results at the moment.[NWIN]
+
+Oh! How about you participate[NLINE]
+in my test?[NWIN]
+
+It just occurred to me that I need[NLINE]
+a little more data.[END-FE]
+
+
+
+
+
+//POINTER #398 @ $10558 - STRING #398 @ $169A0
+#W32($10558)
+//市民\\
+//テストっていうのは、記憶力のテストさ。[NLINE]
+//…君は記憶力に自信はあるかい？[END-FE]
+//Scientist\\
+It's a memory test. Are you confident[NLINE]
+in your ability to remember things?[END-FE]
+
+
+
+
+
+//POINTER #399 @ $1055C - STRING #399 @ $169E9
+#W32($1055C)
+//市民\\
+//そうか。[END-FE]
+//Scientist\\
+I see.[END-FE]
+
+
+
+
+
+//POINTER #400 @ $10560 - STRING #400 @ $169F4
+#W32($10560)
+//市民\\
+//記憶テストを受けてみる気はあるかい？[END-FE]
+//Scientist\\
+Do you feel like taking my[NLINE]
+memory test?[END-FE]
+
+
+
+
+
+//POINTER #401 @ $10564 - STRING #401 @ $16A1B
+#W32($10564)
+//それじゃ部屋の奥へ行こう。[NLINE]
+//こっちへ来てくれ。[END-FE]
+//Scientist\\
+Then let's go inside.[NLINE]
+Please, come this way.[END-FE]
+
+
+
+
+
+//POINTER #402 @ $10568 - STRING #402 @ $16A4C
+#W32($10568)
+//市民\\
+//また、今度ね。[END-FE]
+//Scientist\\
+Maybe some other time, then.[END-FE]
+
+
+
+
+
+//POINTER #403 @ $1056C - STRING #403 @ $16A5D
+#W32($1056C)
+//市民\\
+//無理強いしてすまなかったね。[END-FE]
+//Scientist\\
+My apologies for pressing the[NLINE]
+matter.[END-FE]
+
+
+
+
+
+//POINTER #404 @ $10570 - STRING #404 @ $16A7C
+#W32($10570)
+//市民\\
+//すまない。[NLINE]
+//実験結果をまとめたいから、[NLINE]
+//また今度にしてくれ。[END-FE]
+//Scientist\\
+I'm sorry to hear that. I would like[NLINE]
+to gather more test results.[NLINE]
+Maybe some other time.[END-FE]
+
+
+
+
+
+//POINTER #405 @ $10574 - STRING #405 @ $16ABB
+#W32($10574)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #406 @ $10578 - STRING #406 @ $16AD4
+#W32($10578)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #407 @ $1057C - STRING #407 @ $16AED
+#W32($1057C)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #408 @ $10580 - STRING #408 @ $16B06
+#W32($10580)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #409 @ $10584 - STRING #409 @ $16B1F
+#W32($10584)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #410 @ $10588 - STRING #410 @ $16B38
+#W32($10588)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #411 @ $1058C - STRING #411 @ $16B51
+#W32($1058C)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #412 @ $10590 - STRING #412 @ $16B6A
+#W32($10590)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #413 @ $10594 - STRING #413 @ $16B83
+#W32($10594)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #414 @ $10598 - STRING #414 @ $16B9C
+#W32($10598)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #415 @ $1059C - STRING #415 @ $16BB5
+#W32($1059C)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #416 @ $105A0 - STRING #416 @ $16BCE
+#W32($105A0)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #417 @ $105A4 - STRING #417 @ $16BE7
+#W32($105A4)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #418 @ $105A8 - STRING #418 @ $16C00
+#W32($105A8)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #419 @ $105AC - STRING #419 @ $16C19
+#W32($105AC)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #420 @ $105B0 - STRING #420 @ $16C32
+#W32($105B0)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #421 @ $105B4 - STRING #421 @ $16C4B
+#W32($105B4)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #422 @ $105B8 - STRING #422 @ $16C64
+#W32($105B8)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+//POINTER #423 @ $105BC - STRING #423 @ $16C7D
+#W32($105BC)
+//茂みの中を調べますか？[END-FE]
+//System Message\\
+Will you look into the bushes?[END-FE]
+
+
+
+
+
+
+//POINTER #424 @ $105C0 - STRING #424 @ $16C96
+#W32($105C0)
+//回復薬を見つけたが、[NLINE]
+//これ以上持てそうにない。[END-FE]
+//System Message\\
+You found a Vulnerary, but you can't[NLINE]
+carry any more.[END-FE]
+
+
+
+
+
+//POINTER #425 @ $105C4 - STRING #425 @ $16CC7
+#W32($105C4)
+//　[NLINE]
+//何も見つけられなかった。[END-FE]
+//System Message\\
+[NLINE]
+You weren't able to find anything.[END-FE]
+
+
+
+
+
+//POINTER #426 @ $105C8 - STRING #426 @ $16CE6
+#W32($105C8)
+//数匹のハチに手を刺されてしまい、[NLINE]
+//ダメージを受けた。[END-FE]
+//System Message\\
+You were stung by a few bees and[NLINE]
+received damage.[END-FE]
+
+
+
+
+
+//POINTER #427 @ $105CC - STRING #427 @ $16D1D
+#W32($105CC)
+//・自力で脱出する[END-FE]
+//System Message\\
+・Escape by yourself[END-FE]
+
+
+
+
+
+//POINTER #428 @ $105D0 - STRING #428 @ $16D30
+#W32($105D0)
+//・周囲を確認をする[END-FE]
+//System Message\\
+・Check the surroundings[END-FE]
+
+
+
+
+
+//POINTER #429 @ $105D4 - STRING #429 @ $16D45
+#W32($105D4)
+//・暴れる[END-FE]
+//System Message\\
+・Move around violently[END-FE]
+
+
+
+
+
+//POINTER #430 @ $105D8 - STRING #430 @ $16D50
+#W32($105D8)
+//・何もしない[END-FE]
+//System Message\\
+・Do nothing[END-FE]
+
+
+
+
+
+//POINTER #431 @ $105DC - STRING #431 @ $16D5F
+#W32($105DC)
+//暴れたために、[NLINE]
+//脱出できそうな箇所が[NLINE]
+//壊れてしまったようだ。[END-FE]
+//System Message\\
+It looks like your violent movements[NLINE]
+caused a certain passage from which[NLINE]
+you could have escaped to become[NLINE]
+impassable.[END-FE]
+
+
+
+
+
+//POINTER #432 @ $105E0 - STRING #432 @ $16D9E
+#W32($105E0)
+//先ほど見つけた換気ダクトから[NLINE]
+//脱出を試みた。[END-FE]
+//System Message\\
+You tried to escape through[NLINE]
+the ventilation duct you[NLINE]
+discovered earlier.[END-FE]
+
+
+
+
+
+//POINTER #433 @ $105E4 - STRING #433 @ $16DCD
+#W32($105E4)
+//　[NLINE]
+//上に換気用のダクトがある。[END-FE]
+//System Message\\
+[NLINE]
+There is a duct for ventilation above.[END-FE]
+
+
+
+
+
+//POINTER #434 @ $105E8 - STRING #434 @ $16DEE
+#W32($105E8)
+//おい、あんまり中で暴れるな！[NLINE]
+//エレベーターが壊れるぞ！[END-FE]
+//Guard\\
+Hey, don't thrash about so much![NLINE]
+The elevator might collapse![END-FE]
+
+
+
+
+
+//POINTER #435 @ $105EC - STRING #435 @ $16E27
+#W32($105EC)
+//市民\\
+//う～ん、どうもエレベーターの調子が悪いな。[NLINE]
+//技師の人に言っといた方が良いのかな。[END-FE]
+//Technician\\
+Hmm, the elevator doesn't seem to[NLINE]
+be working properly. I better[NLINE]
+tell a technician about it.[END-FE]
+
+
+
+
+
+//POINTER #436 @ $105F0 - STRING #436 @ $16E7A
+#W32($105F0)
+//な、何をする！[NLINE]
+//ボクの正体は永遠に[NLINE]
+//不明にしておく予定だったのに！[NLINE]
+//姿が見えてしまったじゃないか！[NWIN]
+//
+//くそっ、ボクの野望もここまでか…。[END-FE]
+What have you done!?[NLINE]
+I was planning to stay hidden[NLINE]
+forever! You exposed me![NWIN]
+
+Damn it, it seems my ambitions[NLINE]
+end here...[END-FE]
+
+
+
+
+
+//POINTER #437 @ $105F4 - STRING #437 @ $16F03
+#W32($105F4)
+//市民\\
+//に、兄ちゃん速いな…。[NWIN]
+//
+//オレ、かけっこで負けたのは[NLINE]
+//初めてだ！[END-FE]
+//Boy/Girl\\
+Y-you're fast, mister...[NLINE]
+This is the first time I've lost in a race![END-FE]
+
+
+
+
+
+//POINTER #438 @ $105F8 - STRING #438 @ $16F44
+#W32($105F8)
+//結構やるな！[NLINE]
+//少しヒヤヒヤしたよ！[END-FE]
+You did alright![NLINE]
+I even got a little worried![END-FE]
+
+
+
+
+
+//POINTER #439 @ $105FC - STRING #439 @ $16F69
+#W32($105FC)
+//う～ん、オレの相手じゃなかったね。[END-FE]
+Hmm, it seems you were no match[NLINE]
+for me.[END-FE]
+
+
+
+
+
+//POINTER #440 @ $10600 - STRING #440 @ $16F8E
+#W32($10600)
+//いや～、兄ちゃんありがと！[NLINE]
+//まんぞくしたよ！[END-FE]
+//Boy/Girl\\
+That was lots of fun![NLINE]
+Thanks a ton, mister![END-FE]
+
+
+
+
+
+//POINTER #441 @ $10604 - STRING #441 @ $16FBD
+#W32($10604)
+//まあ、遊んでもらったし、[NLINE]
+//カンシャはしてるよ。[END-FE]
+//Boy/Girl\\
+Anyways, you were still kind enough[NLINE]
+to play with me, so thanks a ton,[NLINE]
+mister![END-FE]
+
+
+
+
+
+//POINTER #442 @ $10608 - STRING #442 @ $16FEE
+#W32($10608)
+//ありがと！[END-FE]
+//Boy/Girl\\
+Thanks a ton![END-FE]
+
+
+
+
+
+//POINTER #443 @ $1060C - STRING #443 @ $16FFB
+#W32($1060C)
+//あんがと！[END-FE]
+//Boy/Girl\\
+Thanks a ton![END-FE]
+
+
+
+
+
+//POINTER #444 @ $10610 - STRING #444 @ $17008
+#W32($10610)
+//ありがと？[END-FE]
+//Boy/Girl\\
+...Thanks?[END-FE]
+
+
+
+
+
+//POINTER #445 @ $10614 - STRING #445 @ $17015
+#W32($10614)
+//機会があったら、[NLINE]
+//またあそんでよ！[END-FE]
+//Boy/Girl\\
+If you have the chance, come[NLINE]
+play with us again![END-FE]
+
+
+
+
+
+//POINTER #446 @ $10618 - STRING #446 @ $1703A
+#W32($10618)
+//この大陸をもっと住み良い環境にするために、[NLINE]
+//私の後ろにあるこの木が多く必要です。[NWIN]
+//
+//より良い大陸にするために、[NLINE]
+//みなさん、募金にご協力ください。[END-FE]
+//Activist\\
+In order to make this continent a[NLINE]
+more livable environment, we need[NLINE]
+to plant more trees like the ones behind me.[NWIN]
+
+I'd like to call on everyone to help us with[NLINE]
+the fund-raising.[END-FE]
+
+
+
+
+
+//POINTER #447 @ $1061C - STRING #447 @ $170CB
+#W32($1061C)
+//もう！[NLINE]
+//兄ちゃん遅いって！[NLINE]
+//こんなんじゃ勝負になんないよ！[END-FE]
+//Boy/Girl\\
+Aw, man! You're really slow, mister![NLINE]
+You call that a race?[END-FE]
+
+
+
+
+
+
+//POINTER #448 @ $10620 - STRING #448 @ $17108
+#W32($10620)
+//女性\\
+//中々復旧しませんね。[END-FE]
+//Shrine Maiden\\
+We might be here for a while.[END-FE]
+
+
+
+
+
+//POINTER #449 @ $10624 - STRING #449 @ $1711F
+#W32($10624)
+//女性\\
+//では、エレベーターが直るまで[NLINE]
+//もうしばらく待ちましょう。[END-FE]
+//Shrine Maiden\\
+Let us wait until the elevator[NLINE]
+is fixed.[END-FE]
+
+
+
+
+
+//POINTER #450 @ $10628 - STRING #450 @ $1715A
+#W32($10628)
+//女性\\
+//どうにかして、[NLINE]
+//ここから出られないものでしょうか？[END-FE]
+//Shrine Maiden\\
+Could there be a way for us[NLINE]
+to get out of here somehow?[END-FE]
+
+
+
+
+
+//POINTER #451 @ $1062C - STRING #451 @ $1718F
+#W32($1062C)
+//[COL03]○[COL00]か[COL09]×[COL00]を押す事で、[NLINE]
+//行動を選択出来ます。[END-FE]
+Press [CIRCLE] or [CROSS] to take an action.[END-FE]
+
+
+
+
+
+//POINTER #452 @ $10630 - STRING #452 @ $171C6
+#W32($10630)
+//技師さん、こっちです！[NLINE]
+//中に人がいるから、早めにお願いしますよ！[END-FE]
+Here it is! Please hurry, there[NLINE]
+are people inside![END-FE]
+
+
+
+
+
+//POINTER #453 @ $10634 - STRING #453 @ $17209
+#W32($10634)
+//任せてください。[NLINE]
+//すぐに修理しますから。[NWIN]
+//
+//中の人！[NLINE]
+//もうすぐだから、大人しくまっていてくれ！[END-FE]
+Leave this to me. I'll fix it right away.[NWIN]
+
+Can you hear me? This won't take long,[NLINE]
+so please be patient![END-FE]
+
+
+
+
+
+//POINTER #454 @ $10638 - STRING #454 @ $17268
+#W32($10638)
+//市民\\
+//いや～、無事で良かった！[NLINE]
+//技師がちゃんと整備してくれたから、[NLINE]
+//もうこんなことは起こらないと思うよ。[NLINE]
+//アンタも運が無かったな。[END-FE]
+//Civilian\\
+Oh, thank goodness you're safe! The[NLINE]
+technician has made some proper repairs,[NLINE]
+so this shouldn't happen again. I suppose[NLINE]
+it wasn't your lucky day.[END-FE]
+
+
+
+
+
+//POINTER #455 @ $1063C - STRING #455 @ $172E7
+#W32($1063C)
+//女性\\
+//よろしかったら、[NLINE]
+//あなたの人柄を知るために、[NLINE]
+//いくつか質問をしても良いでしょうか？[END-FE]
+//Shrine Maiden\\
+If it is alright, may I ask a few questions[NLINE]
+in order to learn more about you?[END-FE]
+
+
+
+
+
+//POINTER #456 @ $10640 - STRING #456 @ $1733C
+#W32($10640)
+//女性\\
+//では、いくつか質問させていただきます。[END-FE]
+//Shrine Maiden\\
+Then I will proceed with my questions.[END-FE]
+
+
+
+
+
+//POINTER #457 @ $10644 - STRING #457 @ $17365
+#W32($10644)
+//女性\\
+//戦いに勝つために[NLINE]
+//最も必要だと思うものは何ですか？[END-FE]
+//Shrine Maiden\\
+What do you think is most important[NLINE]
+to win a battle?[END-FE]
+
+
+
+
+
+//POINTER #458 @ $10648 - STRING #458 @ $1739A
+#W32($10648)
+//・戦闘力[END-FE]
+・Strength[END-FE]
+
+
+
+
+
+//POINTER #459 @ $1064C - STRING #459 @ $173A5
+#W32($1064C)
+//・機動力[END-FE]
+・Mobility[END-FE]
+
+
+
+
+
+//POINTER #460 @ $10650 - STRING #460 @ $173B0
+#W32($10650)
+//・判断力[END-FE]
+・Judgment[END-FE]
+
+
+
+
+
+//POINTER #461 @ $10654 - STRING #461 @ $173BB
+#W32($10654)
+//・戦略[END-FE]
+・Strategy[END-FE]
+
+
+
+
+
+//POINTER #462 @ $10658 - STRING #462 @ $173C4
+#W32($10658)
+//・運[END-FE]
+・Luck[END-FE]
+
+
+
+
+
+//POINTER #463 @ $1065C - STRING #463 @ $173CB
+#W32($1065C)
+//女性\\
+//あなたの得意な戦闘スタイルは[NLINE]
+//なんですか？[END-FE]
+//Shrine Maiden\\
+What is your preferred fighting style?[END-FE]
+
+
+
+
+
+//POINTER #464 @ $10660 - STRING #464 @ $173F8
+#W32($10660)
+//・堂々と正面から[END-FE]
+・Fighting on the frontline[END-FE]
+
+
+
+
+
+//POINTER #465 @ $10664 - STRING #465 @ $1740B
+#W32($10664)
+//・魔法で派手に[END-FE]
+・Use magic abundantly[END-FE]
+
+
+
+
+
+//POINTER #466 @ $10668 - STRING #466 @ $1741C
+#W32($10668)
+//・背後からこっそり[END-FE]
+・Sneaking in from behind[END-FE]
+
+
+
+
+
+//POINTER #467 @ $1066C - STRING #467 @ $17431
+#W32($1066C)
+//・統制のとれた連携[END-FE]
+・Organized and coordinated[END-FE]
+
+
+
+
+
+//POINTER #468 @ $10670 - STRING #468 @ $17446
+#W32($10670)
+//・臨機応変[END-FE]
+・Flexible[END-FE]
+
+
+
+
+
+//POINTER #469 @ $10674 - STRING #469 @ $17453
+#W32($10674)
+//女性\\
+//もし、あなたに強大な力が１つ手に入るとしたら、[NLINE]
+//どんな力を望みますか？[END-FE]
+//Shrine Maiden\\
+If you could obtain one mighty power,[NLINE]
+what would it be?[END-FE]
+
+
+
+
+
+//POINTER #470 @ $10678 - STRING #470 @ $1749C
+#W32($10678)
+//・純粋な力[END-FE]
+・Raw power[END-FE]
+
+
+
+
+
+//POINTER #471 @ $1067C - STRING #471 @ $174A9
+#W32($1067C)
+//・魔導の力[END-FE]
+・The power of magic[END-FE]
+
+
+
+
+
+//POINTER #472 @ $10680 - STRING #472 @ $174B6
+#W32($10680)
+//・癒しの力[END-FE]
+・The power of healing[END-FE]
+
+
+
+
+
+//POINTER #473 @ $10684 - STRING #473 @ $174C3
+#W32($10684)
+//・必殺の力[END-FE]
+・The power of certain death[END-FE]
+
+
+
+
+
+//POINTER #474 @ $10688 - STRING #474 @ $174D0
+#W32($10688)
+//女性\\
+//もし、そんな力を手に入れたとしたら、[NLINE]
+//どんな事に使いますか？[END-FE]
+//Shrine Maiden\\
+If you obtained said power, what would[NLINE]
+you use it for?[END-FE]
+
+
+
+
+
+//POINTER #475 @ $1068C - STRING #475 @ $1750F
+#W32($1068C)
+//・人のため[END-FE]
+・For other people[END-FE]
+
+
+
+
+
+//POINTER #476 @ $10690 - STRING #476 @ $1751C
+#W32($10690)
+//・世界平和のため[END-FE]
+・For world peace[END-FE]
+
+
+
+
+
+//POINTER #477 @ $10694 - STRING #477 @ $1752F
+#W32($10694)
+//・己を誇示するため[END-FE]
+・To show off[END-FE]
+
+
+
+
+
+//POINTER #478 @ $10698 - STRING #478 @ $17544
+#W32($10698)
+//・夢を叶えるため[END-FE]
+・To make my dreams come true[END-FE]
+
+
+
+
+
+//POINTER #479 @ $1069C - STRING #479 @ $17557
+#W32($1069C)
+//女性\\
+//あなたの今一番欲しているものは？[END-FE]
+//Shrine Maiden\\
+What do you want most right now?[END-FE]
+
+
+
+
+
+//POINTER #480 @ $106A0 - STRING #480 @ $1757A
+#W32($106A0)
+//・恋人[END-FE]
+・A lover[END-FE]
+
+
+
+
+
+//POINTER #481 @ $106A4 - STRING #481 @ $17583
+#W32($106A4)
+//・友人[END-FE]
+・Friends[END-FE]
+
+
+
+
+
+//POINTER #482 @ $106A8 - STRING #482 @ $1758C
+#W32($106A8)
+//・金[END-FE]
+・Money[END-FE]
+
+
+
+
+
+//POINTER #483 @ $106AC - STRING #483 @ $17593
+#W32($106AC)
+//・名誉[END-FE]
+・Honor[END-FE]
+
+
+
+
+
+//POINTER #484 @ $106B0 - STRING #484 @ $1759C
+#W32($106B0)
+//・権力[END-FE]
+・Power[END-FE]
+
+
+
+
+
+//POINTER #485 @ $106B4 - STRING #485 @ $175A5
+#W32($106B4)
+//女性\\
+//最後に、命と引き換えに世界が[NLINE]
+//救えるとしたら、あなたはどうしますか？[END-FE]
+//Shrine Maiden\\
+Finally, what would you do if you had[NLINE]
+save the world in exchange for a life?[END-FE]
+
+
+
+
+
+//POINTER #486 @ $106B8 - STRING #486 @ $175EC
+#W32($106B8)
+//・世界のために命を投げ出す[END-FE]
+・I would gladly give my life to save the world[END-FE]
+
+
+
+
+
+//POINTER #487 @ $106BC - STRING #487 @ $17609
+#W32($106BC)
+//・自分の命で助かる世界に未練はない[END-FE]
+・I don't care enough about the world to[NLINE]
+   give up my own life for it[END-FE]
+
+
+
+
+
+//POINTER #488 @ $106C0 - STRING #488 @ $1762E
+#W32($106C0)
+//・それが運命と従う[END-FE]
+・I will follow my destiny[END-FE]
+
+
+
+
+
+//POINTER #489 @ $106C4 - STRING #489 @ $17643
+#W32($106C4)
+//・両方助かる道を探す[END-FE]
+・I will find a way to save both[END-FE]
+
+
+
+
+
+//POINTER #490 @ $106C8 - STRING #490 @ $1765A
+#W32($106C8)
+//女性\\
+//自己犠牲。[NLINE]
+//これにより多くの命が助かるなら…。[NLINE]
+//…それも１つの勇気の選択でしょう。[END-FE]
+//Shrine Maiden\\
+Self-sacrifice...[NLINE]
+If such an act saves many lives,[NLINE]
+then that could also be considered[NLINE]
+a courageous choice...[END-FE]
+
+
+
+
+
+//POINTER #491 @ $106CC - STRING #491 @ $176AF
+#W32($106CC)
+//女性\\
+//そ、そうですか…。[NLINE]
+//それも１つの答えでしょう。[END-FE]
+//Shrine Maiden\\
+I-I see...[NLINE]
+That is one possible answer.[END-FE]
+
+
+
+
+
+//POINTER #492 @ $106D0 - STRING #492 @ $176E0
+#W32($106D0)
+//女性\\
+//…運命、ですか。[NLINE]
+//…そうなのかもしれませんね。[END-FE]
+//Shrine Maiden\\
+...Destiny?[NLINE]
+It could be that such a thing[NLINE]
+exists...[END-FE]
+
+
+
+
+
+//POINTER #493 @ $106D4 - STRING #493 @ $17711
+#W32($106D4)
+//女性\\
+//…それが一番なのでしょう。[NLINE]
+//ですが、それこそが最も過酷な道…。[NLINE]
+//その道を行くなら、[NLINE]
+//それ相応の覚悟が必要になるでしょう。[END-FE]
+//Shrine Maiden\\
+...That would be the most favorable outcome.[NLINE]
+But also the one that would be the most difficult[NLINE]
+to obtain.[NWIN]
+
+If you choose to go down that path,[NLINE]
+you will need to be prepared accordingly.[END-FE]
+
+
+
+
+
+//POINTER #494 @ $106D8 - STRING #494 @ $1778C
+#W32($106D8)
+//女性\\
+//色々な質問に答えて頂きまして[NLINE]
+//ありがとうございます。[END-FE]
+//Shrine Maiden\\
+Thank you for answering[NLINE]
+my questions.[END-FE]
+
+
+
+
+
+//POINTER #495 @ $106DC - STRING #495 @ $177C3
+#W32($106DC)
+//女性\\
+//そうですか。[NLINE]
+//すみません、つまらない事を言って…。[END-FE]
+//Shrine Maiden\\
+I see...[NLINE]
+My apologies for making idle talk...[END-FE]
+
+
+
+
+//POINTER #496 @ $106E0 - STRING #496 @ $177F8
+#W32($106E0)
+//お、おい！[NLINE]
+//エレベーターが止まっちまったぞ！[END-FE]
+Huh? The elevator[NLINE]
+stopped moving.[END-FE]
+
+
+
+
+
+//POINTER #497 @ $106E4 - STRING #497 @ $17827
+#W32($106E4)
+//さっき誰か乗っていたぞ！[END-FE]
+But it was working[NLINE]
+fine just now![END-FE]
+
+
+
+
+
+//POINTER #498 @ $106E8 - STRING #498 @ $17842
+#W32($106E8)
+//誰か技師を呼んで来い！[NLINE]
+//中に閉じ込められた人を助けるぞ！[END-FE]
+Call a technician![NLINE]
+We're trapped inside![END-FE]
+
+
+
+
+
+//POINTER #499 @ $106EC - STRING #499 @ $1787D
+#W32($106EC)
+//市民\\
+//アンタ、自力で脱出してきたのかい！[NLINE]
+//大したもんだな。[NWIN]
+//
+//丁度、エレベーターの修理が終わって、[NLINE]
+//動かそうって話になっていたんだが。[NWIN]
+//
+//まあ、今回は運が無かったと思ってくれ。[NLINE]
+//無事で良かったよ。[END-FE]
+//Civilian\\
+You escaped on your own?[NLINE]
+That's amazing![NWIN]
+
+I just got done with the repairs and was[NLINE]
+about to move the elevator up.[NLINE]
+
+Luck wasn't on your side this time, huh?[NLINE]
+Anyway, I'm glad you're safe.[END-FE]
+
+
+
+
+
+//POINTER #500 @ $106F0 - STRING #500 @ $1793A
+#W32($106F0)
+//市民\\
+//なんだ、兄ちゃん？[NLINE]
+//オレらに何か用か？[END-FE]
+//Boy/Girl\\
+What's up, mister?[NLINE]
+Do you want something?[END-FE]
+
+
+
+
+
+//POINTER #501 @ $106F4 - STRING #501 @ $17963
+#W32($106F4)
+//市民\\
+//オレらになにかようか！[END-FE]
+//Boy/Girl\\
+Do you...[END-FE]
+
+
+
+
+
+//POINTER #502 @ $106F8 - STRING #502 @ $1797C
+#W32($106F8)
+//市民\\
+//オレらによっか！[END-FE]
+//Boy/Girl\\
+...want...[END-FE]
+
+
+
+
+
+//POINTER #503 @ $106FC - STRING #503 @ $1798F
+#W32($106FC)
+//市民\\
+//…よう？[END-FE]
+//Boy/Girl\\
+...something?[END-FE]
+
+
+
+
+
+//POINTER #504 @ $10700 - STRING #504 @ $1799A
+#W32($10700)
+//市民\\
+//非常にタイクツしているところに[NLINE]
+//突如現れた、なぞの白服…。[NWIN]
+//
+//あそべ！[END-FE]
+//Boy/Girl\\
+This place is usually so boring,[NLINE]
+and then you show up in those[NLINE]
+clothes, looking all cool and[NLINE]
+mysterious...[NWIN]
+
+Play with us![END-FE]
+
+
+
+
+
+//POINTER #505 @ $10704 - STRING #505 @ $179E1
+#W32($10704)
+//市民\\
+//あそべ！[END-FE]
+//Boy/Girl\\
+Play with us! Play with us![END-FE]
+
+
+
+
+
+//POINTER #506 @ $10708 - STRING #506 @ $179EC
+#W32($10708)
+//市民\\
+//あそぶ！[END-FE]
+//Boy/Girl\\
+Play! Play![END-FE]
+
+
+
+
+
+//POINTER #507 @ $1070C - STRING #507 @ $179F7
+#W32($1070C)
+//市民\\
+//あそぶ？[END-FE]
+//Boy/Girl\\
+...Wanna play?[END-FE]
+
+
+
+
+
+//POINTER #508 @ $10710 - STRING #508 @ $17A02
+#W32($10710)
+//市民\\
+//おめでとう。[NLINE]
+//兄ちゃんはこうして、[NLINE]
+//オレたちのあそび相手となったワケだ！[END-FE]
+//Boy/Girl\\
+Congratulations, mister! Now you've become[NLINE]
+our playmate![END-FE]
+
+
+
+
+
+//POINTER #509 @ $10714 - STRING #509 @ $17A4D
+#W32($10714)
+//市民\\
+//あそべ！[END-FE]
+//Boy/Girl\\
+Play with us! Play with us![END-FE]
+
+
+
+
+
+//POINTER #510 @ $10718 - STRING #510 @ $17A58
+#W32($10718)
+//市民\\
+//あそぶ！[END-FE]
+//Boy/Girl\\
+Play! Play![END-FE]
+
+
+
+
+
+//POINTER #511 @ $1071C - STRING #511 @ $17A63
+#W32($1071C)
+//市民\\
+//あそぶ？[END-FE]
+//Boy/Girl\\
+...Wanna play?[END-FE]
+
+
+
+
+
+//POINTER #512 @ $10720 - STRING #512 @ $17A6E
+#W32($10720)
+//市民\\
+//なあなあ、兄ちゃん！[NLINE]
+//ちょっとでイイから[NLINE]
+//オレらとあそんでくれよ！[END-FE]
+//Boy/Girl\\
+Hush, hush, mister! It's just for a[NLINE]
+little while, so come play with us![END-FE]
+
+
+
+
+
+//POINTER #513 @ $10724 - STRING #513 @ $17AB3
+#W32($10724)
+//市民\\
+//うし！[NLINE]
+//兄ちゃん、話がわかるな！[NWIN]
+//
+//さて、何してあそぶかだけど…。[END-FE]
+//Boy/Girl\\
+Alright! This mister gets it![NWIN]
+
+Anyways, what are we gonna play...?[END-FE]
+
+
+
+
+
+//POINTER #514 @ $10728 - STRING #514 @ $17AF6
+#W32($10728)
+//市民\\
+//そうだ！[NLINE]
+//名前あてクイズっていうのはどうだ！[END-FE]
+//Boy/Girl\\
+I got it![NLINE]
+Let's do a name quiz![END-FE]
+
+
+
+
+
+//POINTER #515 @ $1072C - STRING #515 @ $17B25
+#W32($1072C)
+//市民\\
+//どうだ！[END-FE]
+//Boy/Girl\\
+Let's do it! Let's do it![END-FE]
+
+
+
+
+
+//POINTER #516 @ $10730 - STRING #516 @ $17B30
+#W32($10730)
+//市民\\
+//どうか！[END-FE]
+//Boy/Girl\\
+How about it!? How about it!?[END-FE]
+
+
+
+
+
+//POINTER #517 @ $10734 - STRING #517 @ $17B3B
+#W32($10734)
+//市民\\
+//どう？[END-FE]
+//Boy/Girl\\
+Do you wanna...?[END-FE]
+
+
+
+
+
+//POINTER #518 @ $10738 - STRING #518 @ $17B44
+#W32($10738)
+//市民\\
+//あ～！[NLINE]
+//お前らうるさい！[NLINE]
+//少し黙ってろ！[END-FE]
+//Boy/Girl\\
+Agh! You guys are too loud![NLINE]
+Turn it down a little, will ya?[END-FE]
+
+
+
+
+
+//POINTER #519 @ $1073C - STRING #519 @ $17B6F
+#W32($1073C)
+//市民\\
+//ゲームはこの３つ子の名前を覚えて、[NLINE]
+//それを当てるだけのカンタンなものだ。[NWIN]
+//
+//じゃあ、順番に名乗ってみろ！[END-FE]
+//Boy/Girl\\
+The game is to remember our names. It's[NLINE]
+simple, you just have to get them right.[NWIN]
+
+Alright guys, let's take turns telling[NLINE]
+our names![END-FE]
+
+
+
+
+
+//POINTER #520 @ $10740 - STRING #520 @ $17BD8
+#W32($10740)
+//市民\\
+//オレ、ケニー！[END-FE]
+//Boy/Girl\\
+I'm Kenny![END-FE]
+
+
+
+
+
+//POINTER #521 @ $10744 - STRING #521 @ $17BE9
+#W32($10744)
+//市民\\
+//オレ、ジョニー！[END-FE]
+//Boy/Girl\\
+I'm Johnny![END-FE]
+
+
+
+
+
+//POINTER #522 @ $10748 - STRING #522 @ $17BFC
+#W32($10748)
+//市民\\
+//オレ、ジョン！[END-FE]
+//Boy/Girl\\
+I'm John![END-FE]
+
+
+
+
+
+//POINTER #523 @ $1074C - STRING #523 @ $17C0D
+#W32($1074C)
+//市民\\
+//オレ、ニア！[END-FE]
+//Boy/Girl\\
+I'm Nia![END-FE]
+
+
+
+
+
+//POINTER #524 @ $10750 - STRING #524 @ $17C1C
+#W32($10750)
+//市民\\
+//オレ、ニルス！[END-FE]
+//Boy/Girl\\
+I'm Nils![END-FE]
+
+
+
+
+
+//POINTER #525 @ $10754 - STRING #525 @ $17C2D
+#W32($10754)
+//市民\\
+//オレ、ケント！[END-FE]
+//Boy/Girl\\
+I'm Kent![END-FE]
+
+
+
+
+
+//POINTER #526 @ $10758 - STRING #526 @ $17C3E
+#W32($10758)
+//市民\\
+//オレ、ジュン！[END-FE]
+//Boy/Girl\\
+I'm Jun![END-FE]
+
+
+
+
+
+//POINTER #527 @ $1075C - STRING #527 @ $17C4F
+#W32($1075C)
+//市民\\
+//オレ、ケイト！[END-FE]
+//Boy/Girl\\
+I'm Kate![END-FE]
+
+
+
+
+
+//POINTER #528 @ $10760 - STRING #528 @ $17C60
+#W32($10760)
+//市民\\
+//おれ、ケニー！[END-FE]
+//Boy/Girl\\
+I'm Kenny![END-FE]
+
+
+
+
+
+//POINTER #529 @ $10764 - STRING #529 @ $17C71
+#W32($10764)
+//市民\\
+//おれ、ジョニー！[END-FE]
+//Boy/Girl\\
+I'm Johnny![END-FE]
+
+
+
+
+
+//POINTER #530 @ $10768 - STRING #530 @ $17C84
+#W32($10768)
+//市民\\
+//おれ、ジョン！[END-FE]
+//Boy/Girl\\
+I'm John![END-FE]
+
+
+
+
+
+//POINTER #531 @ $1076C - STRING #531 @ $17C95
+#W32($1076C)
+//市民\\
+//おれ、ニア！[END-FE]
+//Boy/Girl\\
+I'm Nia![END-FE]
+
+
+
+
+
+//POINTER #532 @ $10770 - STRING #532 @ $17CA4
+#W32($10770)
+//市民\\
+//おれ、ニルス！[END-FE]
+//Boy/Girl\\
+I'm Nils![END-FE]
+
+
+
+
+
+//POINTER #533 @ $10774 - STRING #533 @ $17CB5
+#W32($10774)
+//市民\\
+//おれ、ケント！[END-FE]
+//Boy/Girl\\
+I'm Kent![END-FE]
+
+
+
+
+
+//POINTER #534 @ $10778 - STRING #534 @ $17CC6
+#W32($10778)
+//市民\\
+//おれ、ジュン！[END-FE]
+//Boy/Girl\\
+I'm Jun![END-FE]
+
+
+
+
+
+//POINTER #535 @ $1077C - STRING #535 @ $17CD7
+#W32($1077C)
+//市民\\
+//おれ、ケイト！[END-FE]
+//Boy/Girl\\
+I'm Kate![END-FE]
+
+
+
+
+
+//POINTER #536 @ $10780 - STRING #536 @ $17CE8
+#W32($10780)
+//市民\\
+//…、レイ？[END-FE]
+//Boy/Girl\\
+...Ray?[END-FE]
+
+
+
+
+
+//POINTER #537 @ $10784 - STRING #537 @ $17CF5
+#W32($10784)
+//違うっ！[NLINE]
+//それはおれの名前！[END-FE]
+//Boy/Girl\\
+No, you dummy![NLINE]
+That's my name![END-FE]
+
+
+
+
+
+//POINTER #538 @ $10788 - STRING #538 @ $17D14
+#W32($10788)
+//市民\\
+//お前の名前はケニーだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Kenny![END-FE]
+
+
+
+
+
+//POINTER #539 @ $1078C - STRING #539 @ $17D33
+#W32($1078C)
+//市民\\
+//お前の名前はジョニーだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Johnny![END-FE]
+
+
+
+
+
+//POINTER #540 @ $10790 - STRING #540 @ $17D54
+#W32($10790)
+//市民\\
+//お前の名前はジョンだろうが！[END-FE]
+//Boy/Girl\\
+Your name is John![END-FE]
+
+
+
+
+
+//POINTER #541 @ $10794 - STRING #541 @ $17D73
+#W32($10794)
+//市民\\
+//お前の名前はニアだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Nia![END-FE]
+
+
+
+
+
+//POINTER #542 @ $10798 - STRING #542 @ $17D90
+#W32($10798)
+//市民\\
+//お前の名前はニルスだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Nils![END-FE]
+
+
+
+
+
+//POINTER #543 @ $1079C - STRING #543 @ $17DAF
+#W32($1079C)
+//市民\\
+//お前の名前はケントだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Kent![END-FE]
+
+
+
+
+
+//POINTER #544 @ $107A0 - STRING #544 @ $17DCE
+#W32($107A0)
+//市民\\
+//お前の名前はジュンだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Jun![END-FE]
+
+
+
+
+
+//POINTER #545 @ $107A4 - STRING #545 @ $17DED
+#W32($107A4)
+//市民\\
+//お前の名前はケイトだろうが！[END-FE]
+//Boy/Girl\\
+Your name is Kate![END-FE]
+
+
+
+
+
+//POINTER #546 @ $107A8 - STRING #546 @ $17E0C
+#W32($107A8)
+//市民\\
+//…、だっけ？[END-FE]
+//Boy/Girl\\
+...Really?[END-FE]
+
+
+
+
+
+//POINTER #547 @ $107AC - STRING #547 @ $17E1B
+#W32($107AC)
+//市民\\
+//そうだよ！[NLINE]
+//そろそろ自分の名前ぐらい覚えろよ！[END-FE]
+//Boy/Girl\\
+Yes! You should at least memorize[NLINE]
+your own name![END-FE]
+
+
+
+
+
+//POINTER #548 @ $107B0 - STRING #548 @ $17E4C
+#W32($107B0)
+//市民\\
+//さて、名前も紹介したことだし、[NLINE]
+//みんなそっちに並べ！[END-FE]
+//Boy/Girl\\
+Alright, we've each given our names.[NLINE]
+Everyone line up over there![END-FE]
+
+
+
+
+
+//POINTER #549 @ $107B4 - STRING #549 @ $17E83
+#W32($107B4)
+//市民\\
+//それじゃあ、[NLINE]
+//レッツ、シャッフル！[END-FE]
+//Boy/Girl\\
+And now, let's shuffle![END-FE]
+
+
+
+
+
+//POINTER #550 @ $107B8 - STRING #550 @ $17EA8
+#W32($107B8)
+//市民\\
+//まあ、そんなもんでいいだろう。[NLINE]
+//みんな、兄ちゃんの方を向け！[END-FE]
+//Boy/Girl\\
+Ok, that should do it.[NLINE]
+Everyone, face towards the mister![END-FE]
+
+
+
+
+
+//POINTER #551 @ $107BC - STRING #551 @ $17EE7
+#W32($107BC)
+//市民\\
+//それじゃあ、[NLINE]
+//左から順にいってみようか。[END-FE]
+//Boy/Girl\\
+Alright, now name them in order from left[NLINE]
+to right.[END-FE]
+
+
+
+
+
+//POINTER #552 @ $107C0 - STRING #552 @ $17F12
+#W32($107C0)
+//市民\\
+//やるな！[NLINE]
+//じゃあ、次は真ん中！[END-FE]
+//Boy/Girl\\
+Good![NLINE]
+Next is the middle one![END-FE]
+
+
+
+
+
+//POINTER #553 @ $107C4 - STRING #553 @ $17F33
+#W32($107C4)
+//市民\\
+//兄ちゃん甘いな！[NLINE]
+//よし、次！[END-FE]
+//Boy/Girl\\
+You're not good at this, are you mister?[NLINE]
+Okay, next![END-FE]
+
+
+
+
+
+//POINTER #554 @ $107C8 - STRING #554 @ $17F52
+#W32($107C8)
+//市民\\
+//連続せいかいとは、なかなか！[NLINE]
+//じゃあ、最後だ！[END-FE]
+//Boy/Girl\\
+And again the right answer! Not bad![NLINE]
+Now, the last one.[END-FE]
+
+
+
+
+
+//POINTER #555 @ $107CC - STRING #555 @ $17F83
+#W32($107CC)
+//市民\\
+//せいかい率は２分の１。[NLINE]
+//これで最後だ！[END-FE]
+//Boy/Girl\\
+Your success rate so far has been 50%![NLINE]
+This is the last one![END-FE]
+
+
+
+
+
+//POINTER #556 @ $107D0 - STRING #556 @ $17FAC
+#W32($107D0)
+//市民\\
+//全然ダメだね、兄ちゃん。[NLINE]
+//これで最後だぞ！[END-FE]
+//Boy/Girl\\
+You got eveything wrong so far, mister.[NLINE]
+This is the last one![END-FE]
+
+
+
+
+
+//POINTER #557 @ $107D4 - STRING #557 @ $17FD9
+#W32($107D4)
+//市民\\
+//すげぇ！[NLINE]
+//パーフェクトだよ、兄ちゃん！[END-FE]
+//Boy/Girl\\
+You got everyone's name correct, mister![NLINE]
+That's amazing![END-FE]
+
+
+
+
+
+//POINTER #558 @ $107D8 - STRING #558 @ $18002
+#W32($107D8)
+//市民\\
+//３人中２人か。[NLINE]
+//やるね、兄ちゃん！[END-FE]
+//Boy/Girl\\
+Two out of three?, huh[NLINE]
+Way to go, mister![END-FE]
+
+
+
+
+
+//POINTER #559 @ $107DC - STRING #559 @ $18027
+#W32($107DC)
+//市民\\
+//１人だけか。[NLINE]
+//しかたないかな。[END-FE]
+//Boy/Girl\\
+Only one, huh?[NLINE]
+It's better than nothing, I guess...[END-FE]
+
+
+
+
+
+//POINTER #560 @ $107E0 - STRING #560 @ $18048
+#W32($107E0)
+//市民\\
+//完全勝利！[NLINE]
+//…って、１人ぐらい当ててよ！[END-FE]
+//Boy/Girl\\
+A total victory for us![NLINE]
+...I thought you would have[NLINE]
+gotten at least one name correct![END-FE]
+
+
+
+
+
+//POINTER #561 @ $107E4 - STRING #561 @ $18073
+#W32($107E4)
+//市民\\
+//少しはヒマつぶしになったかな。[NLINE]
+//兄ちゃん、カンシャ！[END-FE]
+//Boy/Girl\\
+That was a good way to kill time[NLINE]
+for a little while! Thanks for[NLINE]
+playing with us, mister![END-FE]
+
+
+
+
+
+//POINTER #562 @ $107E8 - STRING #562 @ $180AA
+#W32($107E8)
+//市民\\
+//カンシャ！[END-FE]
+//Boy/Girl\\
+Thanks![END-FE]
+
+
+
+
+
+//POINTER #563 @ $107EC - STRING #563 @ $180B7
+#W32($107EC)
+//市民\\
+//カンシャ！[END-FE]
+//Boy/Girl\\
+Thanks![END-FE]
+
+
+
+
+
+//POINTER #564 @ $107F0 - STRING #564 @ $180C4
+#W32($107F0)
+//市民\\
+//かんしゃ！[END-FE]
+//Boy/Girl\\
+Thanks![END-FE]
+
+
+
+
+
+//POINTER #565 @ $107F4 - STRING #565 @ $180D1
+#W32($107F4)
+//市民\\
+//かんしゃ！[END-FE]
+//Boy/Girl\\
+Thanks![END-FE]
+
+
+
+
+
+//POINTER #566 @ $107F8 - STRING #566 @ $180DE
+#W32($107F8)
+//市民\\
+//かんしゃ？[END-FE]
+//Boy/Girl\\
+...Thanks?[END-FE]
+
+
+
+
+
+//POINTER #567 @ $107FC - STRING #567 @ $180EB
+#W32($107FC)
+//市民\\
+//かんしゃ？[END-FE]
+//Boy/Girl\\
+...Thanks?[END-FE]
+
+
+
+
+
+//POINTER #568 @ $10800 - STRING #568 @ $180F8
+#W32($10800)
+//市民\\
+//ケチ！[END-FE]
+//Boy/Girl\\
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #569 @ $10804 - STRING #569 @ $18101
+#W32($10804)
+//市民\\
+//けち！[END-FE]
+//Boy/Girl\\
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #570 @ $10808 - STRING #570 @ $1810A
+#W32($10808)
+//市民\\
+//ケチ！[END-FE]
+//Boy/Girl\\
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #571 @ $1080C - STRING #571 @ $18113
+#W32($1080C)
+//市民\\
+//けち？[END-FE]
+//Boy/Girl\\
+...Buzzkill?[END-FE]
+
+
+
+
+
+//POINTER #572 @ $10810 - STRING #572 @ $1811C
+#W32($10810)
+//市民\\
+//ふんっ！[NLINE]
+//たのんでもあそんでやるもんか！[END-FE]
+//Boy/Girl\\
+Hmmph! Don't expect us to play[NLINE]
+with you when you come begging on[NLINE]
+your knees![END-FE]
+
+
+
+
+
+//POINTER #573 @ $10814 - STRING #573 @ $18147
+#W32($10814)
+//だ～れだ！[END-FE]
+Who's this?[END-FE]
+
+
+
+
+
+//POINTER #574 @ $10818 - STRING #574 @ $18154
+#W32($10818)
+//・ケニー[END-FE]
+・Kenny[END-FE]
+
+
+
+
+
+//POINTER #575 @ $1081C - STRING #575 @ $1815F
+#W32($1081C)
+//・ケント[END-FE]
+・Kent[END-FE]
+
+
+
+
+
+//POINTER #576 @ $10820 - STRING #576 @ $1816A
+#W32($10820)
+//・ケイト[END-FE]
+・Kate[END-FE]
+
+
+
+
+
+//POINTER #577 @ $10824 - STRING #577 @ $18175
+#W32($10824)
+//・ジョニー[END-FE]
+・Johnny[END-FE]
+
+
+
+
+
+//POINTER #578 @ $10828 - STRING #578 @ $18182
+#W32($10828)
+//・ジョン[END-FE]
+・John[END-FE]
+
+
+
+
+
+//POINTER #579 @ $1082C - STRING #579 @ $1818D
+#W32($1082C)
+//・ジュン[END-FE]
+・Jun[END-FE]
+
+
+
+
+
+//POINTER #580 @ $10830 - STRING #580 @ $18198
+#W32($10830)
+//・ニア[END-FE]
+・Nia[END-FE]
+
+
+
+
+
+//POINTER #581 @ $10834 - STRING #581 @ $181A1
+#W32($10834)
+//・ニルス[END-FE]
+・Nils[END-FE]
+
+
+
+
+
+//POINTER #582 @ $10838 - STRING #582 @ $181AC
+#W32($10838)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ケニー！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Kenny![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #583 @ $1083C - STRING #583 @ $181DD
+#W32($1083C)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ケント！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Kent![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #584 @ $10840 - STRING #584 @ $1820E
+#W32($10840)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ケイト！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Kate![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #585 @ $10844 - STRING #585 @ $1823F
+#W32($10844)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ジョニー！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Johnny![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #586 @ $10848 - STRING #586 @ $18272
+#W32($10848)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ジョン！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm John![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #587 @ $1084C - STRING #587 @ $182A3
+#W32($1084C)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ジュン！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Jun![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #588 @ $10850 - STRING #588 @ $182D4
+#W32($10850)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ニア！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Nia![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #589 @ $10854 - STRING #589 @ $18303
+#W32($10854)
+//市民\\
+//せいかい！[NLINE]
+//オレ、ニルス！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Nils![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #590 @ $10858 - STRING #590 @ $18334
+#W32($10858)
+//市民\\
+//ザンネン！[NLINE]
+//オレはケニーだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Kenny![END-FE]
+
+
+
+
+
+//POINTER #591 @ $1085C - STRING #591 @ $18355
+#W32($1085C)
+//市民\\
+//ザンネン！[NLINE]
+//オレはケントだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Kent![END-FE]
+
+
+
+
+
+//POINTER #592 @ $10860 - STRING #592 @ $18376
+#W32($10860)
+//市民\\
+//ザンネン！[NLINE]
+//オレはケイトだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Kate![END-FE]
+
+
+
+
+
+//POINTER #593 @ $10864 - STRING #593 @ $18397
+#W32($10864)
+//市民\\
+//ザンネン！[NLINE]
+//オレはジョニーだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Johnny![END-FE]
+
+
+
+
+
+//POINTER #594 @ $10868 - STRING #594 @ $183BA
+#W32($10868)
+//市民\\
+//ザンネン！[NLINE]
+//オレはジョンだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm John![END-FE]
+
+
+
+
+
+//POINTER #595 @ $1086C - STRING #595 @ $183DB
+#W32($1086C)
+//市民\\
+//ザンネン！[NLINE]
+//オレはジュンだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Jun![END-FE]
+
+
+
+
+
+//POINTER #596 @ $10870 - STRING #596 @ $183FC
+#W32($10870)
+//市民\\
+//ザンネン！[NLINE]
+//オレはニアだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Nia![END-FE]
+
+
+
+
+
+//POINTER #597 @ $10874 - STRING #597 @ $1841B
+#W32($10874)
+//市民\\
+//ザンネン！[NLINE]
+//オレはニルスだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Nils![END-FE]
+
+
+
+
+
+//POINTER #598 @ $10878 - STRING #598 @ $1843C
+#W32($10878)
+//だ～れだ！[END-FE]
+Who's this?[END-FE]
+
+
+
+
+
+//POINTER #599 @ $1087C - STRING #599 @ $18449
+#W32($1087C)
+//・ケニー[END-FE]
+・Kenny[END-FE]
+
+
+
+
+
+//POINTER #600 @ $10880 - STRING #600 @ $18454
+#W32($10880)
+//・ケント[END-FE]
+・Kent[END-FE]
+
+
+
+
+
+//POINTER #601 @ $10884 - STRING #601 @ $1845F
+#W32($10884)
+//・ケイト[END-FE]
+・Kate[END-FE]
+
+
+
+
+
+//POINTER #602 @ $10888 - STRING #602 @ $1846A
+#W32($10888)
+//・ジョニー[END-FE]
+・Johnny[END-FE]
+
+
+
+
+
+//POINTER #603 @ $1088C - STRING #603 @ $18477
+#W32($1088C)
+//・ジョン[END-FE]
+・John[END-FE]
+
+
+
+
+
+//POINTER #604 @ $10890 - STRING #604 @ $18482
+#W32($10890)
+//・ジュン[END-FE]
+・Jun[END-FE]
+
+
+
+
+
+//POINTER #605 @ $10894 - STRING #605 @ $1848D
+#W32($10894)
+//・ニア[END-FE]
+・Nia[END-FE]
+
+
+
+
+
+//POINTER #606 @ $10898 - STRING #606 @ $18496
+#W32($10898)
+//・ニルス[END-FE]
+・Nils[END-FE]
+
+
+
+
+
+//POINTER #607 @ $1089C - STRING #607 @ $184A1
+#W32($1089C)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ケニー！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Kenny![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #608 @ $108A0 - STRING #608 @ $184D2
+#W32($108A0)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ケント！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Kent![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #609 @ $108A4 - STRING #609 @ $18503
+#W32($108A4)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ケイト！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Kate![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #610 @ $108A8 - STRING #610 @ $18534
+#W32($108A8)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ジョニー！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Johnny![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #611 @ $108AC - STRING #611 @ $18567
+#W32($108AC)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ジョン！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm John![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+//POINTER #612 @ $108B0 - STRING #612 @ $18598
+#W32($108B0)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ジュン！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Jun![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #613 @ $108B4 - STRING #613 @ $185C9
+#W32($108B4)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ニア！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Nia![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #614 @ $108B8 - STRING #614 @ $185F8
+#W32($108B8)
+//市民\\
+//せいかい！[NLINE]
+//おれ、ニルス！[NLINE]
+//にいちゃんやるな！[END-FE]
+//Boy/Girl\\
+Correct! I'm Nils![NLINE]
+You did it, mister![END-FE]
+
+
+
+
+
+//POINTER #615 @ $108BC - STRING #615 @ $18629
+#W32($108BC)
+//市民\\
+//ザンネン！[NLINE]
+//おれはケニーだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Kenny![END-FE]
+
+
+
+
+
+//POINTER #616 @ $108C0 - STRING #616 @ $1864A
+#W32($108C0)
+//市民\\
+//ザンネン！[NLINE]
+//おれはケントだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Kent![END-FE]
+
+
+
+
+
+//POINTER #617 @ $108C4 - STRING #617 @ $1866B
+#W32($108C4)
+//市民\\
+//ザンネン！[NLINE]
+//おれはケイトだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Kate![END-FE]
+
+
+
+
+
+//POINTER #618 @ $108C8 - STRING #618 @ $1868C
+#W32($108C8)
+//市民\\
+//ザンネン！[NLINE]
+//おれはジョニーだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Johnny![END-FE]
+
+
+
+
+
+//POINTER #619 @ $108CC - STRING #619 @ $186AF
+#W32($108CC)
+//市民\\
+//ザンネン！[NLINE]
+//おれはジョンだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm John![END-FE]
+
+
+
+
+
+//POINTER #620 @ $108D0 - STRING #620 @ $186D0
+#W32($108D0)
+//市民\\
+//ザンネン！[NLINE]
+//おれはジュンだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Jun![END-FE]
+
+
+
+
+
+//POINTER #621 @ $108D4 - STRING #621 @ $186F1
+#W32($108D4)
+//市民\\
+//ザンネン！[NLINE]
+//おれはニアだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Nia![END-FE]
+
+
+
+
+
+//POINTER #622 @ $108D8 - STRING #622 @ $18710
+#W32($108D8)
+//市民\\
+//ザンネン！[NLINE]
+//おれはニルスだよ！[END-FE]
+//Boy/Girl\\
+Too bad![NLINE]
+I'm Nils![END-FE]
+
+
+
+
+
+//POINTER #623 @ $108DC - STRING #623 @ $18731
+#W32($108DC)
+//だ～れだ！[END-FE]
+//Boy/Girl\\
+Who's this?[END-FE]
+
+
+
+
+
+//POINTER #624 @ $108E0 - STRING #624 @ $1873E
+#W32($108E0)
+//・ケニー[END-FE]
+・Kenny[END-FE]
+
+
+
+
+
+//POINTER #625 @ $108E4 - STRING #625 @ $18749
+#W32($108E4)
+//・ケント[END-FE]
+・Kent[END-FE]
+
+
+
+
+
+//POINTER #626 @ $108E8 - STRING #626 @ $18754
+#W32($108E8)
+//・ケイト[END-FE]
+・Kate[END-FE]
+
+
+
+
+
+//POINTER #627 @ $108EC - STRING #627 @ $1875F
+#W32($108EC)
+//・ジョニー[END-FE]
+・Johnny[END-FE]
+
+
+
+
+
+//POINTER #628 @ $108F0 - STRING #628 @ $1876C
+#W32($108F0)
+//・ジョン[END-FE]
+・John[END-FE]
+
+
+
+
+
+//POINTER #629 @ $108F4 - STRING #629 @ $18777
+#W32($108F4)
+//・ジュン[END-FE]
+・Jun[END-FE]
+
+
+
+
+
+//POINTER #630 @ $108F8 - STRING #630 @ $18782
+#W32($108F8)
+//・ニア[END-FE]
+・Nia[END-FE]
+
+
+
+
+
+//POINTER #631 @ $108FC - STRING #631 @ $1878B
+#W32($108FC)
+//・ニルス[END-FE]
+・Nils[END-FE]
+
+
+
+
+
+//POINTER #632 @ $10900 - STRING #632 @ $18796
+#W32($10900)
+//ケニー？[END-FE]
+//Boy/Girl\\
+Kenny?[END-FE]
+
+
+
+
+
+//POINTER #633 @ $10904 - STRING #633 @ $187A1
+#W32($10904)
+//市民\\
+//うん、ケニー！[END-FE]
+//Boy/Girl\\
+Yup, Kenny![END-FE]
+
+
+
+
+
+//POINTER #634 @ $10908 - STRING #634 @ $187B2
+#W32($10908)
+//ケント？[END-FE]
+//Boy/Girl\\
+Kent?[END-FE]
+
+
+
+
+
+//POINTER #635 @ $1090C - STRING #635 @ $187BD
+#W32($1090C)
+//市民\\
+//うん、ケント！[END-FE]
+//Boy/Girl\\
+Yup, Kent![END-FE]
+
+
+
+
+
+//POINTER #636 @ $10910 - STRING #636 @ $187CE
+#W32($10910)
+//ケイト？[END-FE]
+//Boy/Girl\\
+Kate?[END-FE]
+
+
+
+
+
+//POINTER #637 @ $10914 - STRING #637 @ $187D9
+#W32($10914)
+//市民\\
+//うん、ケイト！[END-FE]
+//Boy/Girl\\
+Yup, Kate![END-FE]
+
+
+
+
+
+//POINTER #638 @ $10918 - STRING #638 @ $187EA
+#W32($10918)
+//ジョニー？[END-FE]
+//Boy/Girl\\
+Johnny?[END-FE]
+
+
+
+
+
+//POINTER #639 @ $1091C - STRING #639 @ $187F7
+#W32($1091C)
+//市民\\
+//うん、ジョニー！[END-FE]
+//Boy/Girl\\
+Yup, Johnny![END-FE]
+
+
+
+
+
+//POINTER #640 @ $10920 - STRING #640 @ $1880A
+#W32($10920)
+//ジョン？[END-FE]
+//Boy/Girl\\
+John?[END-FE]
+
+
+
+
+
+//POINTER #641 @ $10924 - STRING #641 @ $18815
+#W32($10924)
+//市民\\
+//うん、ジョン！[END-FE]
+//Boy/Girl\\
+Yup, John![END-FE]
+
+
+
+
+
+//POINTER #642 @ $10928 - STRING #642 @ $18826
+#W32($10928)
+//ジュン？[END-FE]
+//Boy/Girl\\
+Jun?[END-FE]
+
+
+
+
+
+//POINTER #643 @ $1092C - STRING #643 @ $18831
+#W32($1092C)
+//市民\\
+//うん、ジュン！[END-FE]
+//Boy/Girl\\
+Yup, Jun![END-FE]
+
+
+
+
+
+//POINTER #644 @ $10930 - STRING #644 @ $18842
+#W32($10930)
+//ニア？[END-FE]
+//Boy/Girl\\
+Nia?[END-FE]
+
+
+
+
+
+//POINTER #645 @ $10934 - STRING #645 @ $1884B
+#W32($10934)
+//市民\\
+//うん、ニア！[END-FE]
+//Boy/Girl\\
+Yup, Nia![END-FE]
+
+
+
+
+
+//POINTER #646 @ $10938 - STRING #646 @ $1885A
+#W32($10938)
+//ニルス？[END-FE]
+//Boy/Girl\\
+Nils?[END-FE]
+
+
+
+
+
+//POINTER #647 @ $1093C - STRING #647 @ $18865
+#W32($1093C)
+//市民\\
+//うん、ニルス！[END-FE]
+//Boy/Girl\\
+Yup, Nils![END-FE]
+
+
+
+
+
+//POINTER #648 @ $10940 - STRING #648 @ $18876
+#W32($10940)
+//ちがう、ケニー！[END-FE]
+//Boy/Girl\\
+No, it's Kenny![END-FE]
+
+
+
+
+
+//POINTER #649 @ $10944 - STRING #649 @ $18889
+#W32($10944)
+//市民\\
+//ちがう、ケント！[END-FE]
+//Boy/Girl\\
+No, it's Kent![END-FE]
+
+
+
+
+
+//POINTER #650 @ $10948 - STRING #650 @ $1889C
+#W32($10948)
+//市民\\
+//ちがう、ケイト！[END-FE]
+//Boy/Girl\\
+No, it's Kate![END-FE]
+
+
+
+
+
+//POINTER #651 @ $1094C - STRING #651 @ $188AF
+#W32($1094C)
+//市民\\
+//ちがう、ジョニー！[END-FE]
+//Boy/Girl\\
+No, it's Johnny![END-FE]
+
+
+
+
+
+//POINTER #652 @ $10950 - STRING #652 @ $188C4
+#W32($10950)
+//市民\\
+//ちがう、ジョン！[END-FE]
+//Boy/Girl\\
+No, it's John![END-FE]
+
+
+
+
+
+//POINTER #653 @ $10954 - STRING #653 @ $188D7
+#W32($10954)
+//市民\\
+//ちがう、ジュン！[END-FE]
+//Boy/Girl\\
+No, it's Jun![END-FE]
+
+
+
+
+
+//POINTER #654 @ $10958 - STRING #654 @ $188EA
+#W32($10958)
+//市民\\
+//ちがう、ニア！[END-FE]
+//Boy/Girl\\
+No, it's Nia![END-FE]
+
+
+
+
+
+//POINTER #655 @ $1095C - STRING #655 @ $188FB
+#W32($1095C)
+//市民\\
+//ちがう、ニルス！[END-FE]
+//Boy/Girl\\
+No, it's Nils![END-FE]
+
+
+
+
+
+//POINTER #656 @ $10960 - STRING #656 @ $1890E
+#W32($10960)
+//これで新しい樹が植えられます！[NLINE]
+//ありがとうございました！[END-FE]
+This will help us to plant[NLINE]
+a new tree! Thank you very much![END-FE]
+
+
+
+
+
+
+//POINTER #657 @ $10964 - STRING #657 @ $18949
+#W32($10964)
+//後少しで、新しい樹が植えられます。[NLINE]
+//ありがとうございます！[END-FE]
+Soon we'll be able to plant a new tree![NLINE]
+Thank you![END-FE]
+
+
+
+
+
+//POINTER #658 @ $10968 - STRING #658 @ $18986
+#W32($10968)
+//目標まで、後半分。[NLINE]
+//ありがとうございます。[END-FE]
+We're halfway to our stretch goal.[NLINE]
+Thank you![END-FE]
+
+
+
+
+
+//POINTER #659 @ $1096C - STRING #659 @ $189B3
+#W32($1096C)
+//募金、ありがとうございます。[END-FE]
+Thank you for your donation.[END-FE]
+
+
+
+
+
+//POINTER #660 @ $10970 - STRING #660 @ $189D2
+#W32($10970)
+//…よく考えたんだけど、[NLINE]
+//オレあそびに参加してなかった…。[NWIN]
+//
+//と言うワケで、オレともあそんでくれ、[NLINE]
+//兄ちゃん！[END-FE]
+Now that I think about it, I didn't[NLINE]
+participate during our last game...[NWIN]
+
+That means you should play with me too,[NLINE]
+mister![END-FE]
+
+
+
+
+
+//POINTER #661 @ $10974 - STRING #661 @ $18A3F
+#W32($10974)
+//あそべ！[END-FE]
+Play with him! Play with him![END-FE]
+
+
+
+
+
+//POINTER #662 @ $10978 - STRING #662 @ $18A4A
+#W32($10978)
+//あそぶ！[END-FE]
+Play! Play![END-FE]
+
+
+
+
+
+//POINTER #663 @ $1097C - STRING #663 @ $18A55
+#W32($1097C)
+//あそぶ？[END-FE]
+...Wanna play?[END-FE]
+
+
+
+
+
+//POINTER #664 @ $10980 - STRING #664 @ $18A60
+#W32($10980)
+//オレ、足に自信あるんだ！[NLINE]
+//かけっこで勝負しようぜ！[END-FE]
+I'm a good runner, if I say[NLINE]
+so myself! I'll race you![END-FE]
+
+
+
+
+
+//POINTER #665 @ $10984 - STRING #665 @ $18A95
+#W32($10984)
+//さすが兄ちゃん！[NLINE]
+//話がわかる！[END-FE]
+I already thought you would say[NLINE]
+that, mister![END-FE]
+
+
+
+
+
+//POINTER #666 @ $10988 - STRING #666 @ $18AB6
+#W32($10988)
+//じゃあ、勝負のせつめいだ！[END-FE]
+Alright, here's is the explanation[NLINE]
+of the race![END-FE]
+
+
+
+
+
+//POINTER #667 @ $1098C - STRING #667 @ $18AD3
+#W32($1098C)
+//あいつらが立っている３つの場所を[NLINE]
+//チェックポイントとして、[NLINE]
+//その外側を回って戻ってくる。[NWIN]
+//
+//チェックポイントを通過したかどうかは、[NLINE]
+//その場所に立ってるヤツが教えてくれる。[NWIN]
+//
+//どの順番でも良いから[NLINE]
+//３つとも回って早く戻ってきた方の勝ちだ！[END-FE]
+The three places where my friends're[NLINE]
+standing act as checkpoints. Run around[NLINE]
+each of them in a half-circle, then come[NLINE]
+back here.[NWIN]
+
+They'll give a sign when you've successfully[NLINE]
+run around them.[NWIN]
+
+You can do this in any order. Whoever runs around[NLINE]
+each of my friends and returns here first wins![END-FE]
+
+
+
+
+
+//POINTER #668 @ $10990 - STRING #668 @ $18BBE
+#W32($10990)
+//それじゃあ、兄ちゃん勝負！[END-FE]
+Alright, lets start![END-FE]
+
+
+
+
+
+//POINTER #669 @ $10994 - STRING #669 @ $18BDB
+#W32($10994)
+//３[END-FE]
+3[END-FE]
+
+
+
+
+
+//POINTER #670 @ $10998 - STRING #670 @ $18BE0
+#W32($10998)
+//２[END-FE]
+2[END-FE]
+
+
+
+
+
+//POINTER #671 @ $1099C - STRING #671 @ $18BE5
+#W32($1099C)
+//１[END-FE]
+1[END-FE]
+
+
+
+
+
+//POINTER #672 @ $109A0 - STRING #672 @ $18BEA
+#W32($109A0)
+//なんだよ、ケチ！[END-FE]
+Whaddya want, buzzkill?[END-FE]
+
+
+
+
+
+//POINTER #673 @ $109A4 - STRING #673 @ $18BFD
+#W32($109A4)
+//けち！[END-FE]
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #674 @ $109A8 - STRING #674 @ $18C06
+#W32($109A8)
+//ケチ！[END-FE]
+Buzzkill![END-FE]
+
+
+
+
+
+//POINTER #675 @ $109AC - STRING #675 @ $18C0F
+#W32($109AC)
+//けち？[END-FE]
+...Buzzkill?[END-FE]
+
+
+
+
+
+//POINTER #676 @ $109B0 - STRING #676 @ $18C18
+#W32($109B0)
+//ふんっ！[NLINE]
+//たのんでもあそんでやるもんか！[END-FE]
+Hmmph! Don't expect us to play[NLINE]
+with you when you come begging on[NLINE]
+your knees![END-FE]
+
+
+
+
+
+//POINTER #677 @ $109B4 - STRING #677 @ $18C43
+#W32($109B4)
+//困ったな…。[NLINE]
+//そこに座っているお客さん、腰を痛めて[NLINE]
+//動けなくなっているんだ。[END-FE]
+//Inn Owner\\
+This isn't good...[NLINE]
+That customer sitting over there can't[NLINE]
+move because he hurt his lower back.[END-FE]
+
+
+
+
+
+//POINTER #678 @ $109B8 - STRING #678 @ $18C92
+#W32($109B8)
+//鎮痛薬を買いに行ってあげたいのは山々だが、[NLINE]
+//私はここを離れるワケにはいかないし…。[END-FE]
+//Inn Owner\\
+I would like very much to go out and buy[NLINE]
+painkillers for him, but it's not[NLINE]
+like I can leave this place unattended...[END-FE]
+
+
+
+
+
+//POINTER #679 @ $109BC - STRING #679 @ $18CE7
+#W32($109BC)
+//鎮痛薬を買いに行ってあげたいのは山々だが、[NLINE]
+//私はここを離れるワケにはいかないし…。[END-FE]
+//Inn Owner\\
+I would like very much to go out and buy[NLINE]
+painkillers for him, but it's not[NLINE]
+like I can leave this place unattended...[END-FE]
+
+
+
+
+
+//POINTER #680 @ $109C0 - STRING #680 @ $18D3C
+#W32($109C0)
+//あの悪ガキ４人組みが！[NLINE]
+//またそこの看板に[NLINE]
+//落書きをしていったよ…。[END-FE]
+Those four rascals! They've scribbled[NLINE]
+something on the sign again...[END-FE]
+
+
+
+
+
+//POINTER #681 @ $109C4 - STRING #681 @ $18D81
+#W32($109C4)
+//おお、そのリンゴは！[NLINE]
+//まさしくワシが隠した疾風のリンゴ！[END-FE]
+//Old Man\\
+Oh, that apple! That is without a[NLINE]
+doubt the same Gale Apple that I[NLINE]
+hid![END-FE]
+
+
+
+
+
+//POINTER #682 @ $109C8 - STRING #682 @ $18DBC
+#W32($109C8)
+//柱の上の宝を見つけたか！[END-FE]
+//Old Man\\
+You found the treasure[NLINE]
+on the pillar![END-FE]
+
+
+
+
+
+//POINTER #683 @ $109CC - STRING #683 @ $18DD7
+#W32($109CC)
+//な、なんと１つもゴミを被っておらんとは！[NLINE]
+//お主の推理力は並みではないな。[END-FE]
+//Old Man\\
+You don't have any dirt on you![NLINE]
+Your powers of deduction are remarkable![END-FE]
+
+
+
+
+
+//POINTER #684 @ $109D0 - STRING #684 @ $18E22
+#W32($109D0)
+//少しゴミを被ったようじゃが、[NLINE]
+//それを見つけてくるとは中々。[END-FE]
+//Old Man\\
+You seem to have gotten a little dirt[NLINE]
+on you, but it's all about finding it.[END-FE]
+
+
+
+
+
+//POINTER #685 @ $109D4 - STRING #685 @ $18E5F
+#W32($109D4)
+//見つけたのは良いが、[NLINE]
+//ゴミまみれじゃな。[NWIN]
+//
+//もう少し周りに目と耳をかたむけて、[NLINE]
+//推理力を働かせるのじゃな。[END-FE]
+//Old Man\\
+It's good that you found it, but you're[NLINE]
+covered in dirt.[NWIN]
+
+You should have used your powers of[NLINE]
+deduction by listening with your eyes[NLINE]
+and ears.[END-FE]
+
+
+
+
+
+//POINTER #686 @ $109D8 - STRING #686 @ $18ECA
+#W32($109D8)
+//その昔、ワシは韋駄天と呼ばれておった。[NWIN]
+//
+//走れば疾風、[NLINE]
+//ワシを追い越せる者など存在しなかった…。[NLINE]
+//と言っても、秘密があったんじゃがな。[NWIN]
+//
+//その秘密とは、ある魔法のリンゴを[NLINE]
+//毎日のように食べておったからじゃ。[NWIN]
+//
+//…さすがに毎日リンゴはつらくてな、[NLINE]
+//それで余ったリンゴをある村の[NLINE]
+//柱の上に隠したんじゃ。[NWIN]
+//
+//ただ隠すのは面白くない。[NLINE]
+//じゃから、ワシは仕掛けを用意した。[NWIN]
+//
+//正解の柱の上以外には、[NLINE]
+//全てゴミを乗せておいたのじゃ。[NLINE]
+//うかつにゆらすと、ゴミまみれになってしまうぞ。[NWIN]
+//
+//お主は１回で、魔法のリンゴを見つけることが[NLINE]
+//出来るかな？[NWIN]
+//
+//そう言えば、村の子供たちが[NLINE]
+//毎日宝探しをしておったな。[NLINE]
+//あの子たちは魔法のリンゴを見つけることが[NLINE]
+//出来たのじゃろうか？[END-FE]
+//Old Man\\
+A long time ago, they used to call me[NLINE]
+'Thunder Dash'.[NWIN]
+
+When I ran, I was as quick as lightning.[NLINE]
+There was no one who could overtake me.[NLINE]
+Having said that, I had a secret.[NWIN]
+
+The secret was that I ate a magic apple[NLINE]
+every day.[NWIN]
+
+Naturally, one gets sick of eating apples[NLINE]
+everyday, so I hid my remaining apples on[NLINE]
+top of a pillar in the village.[NWIN]
+
+Just hiding them wouldn't be interesting,[NLINE]
+though, so I devised a plan.[NWIN]
+
+On all of the pillars except the correct[NLINE]
+one, I placed a bunch of dirt. You'll[NLINE]
+be buried in rubble if you're careless.[NWIN]
+
+I wonder if you'll be able to find the[NLINE]
+magic apple in one try.[NWIN]
+
+That reminds me, the children of the[NLINE]
+village hunt for the treasure every day.[NLINE]
+I wonder if they could have found the[NLINE]
+magic apple already?[END-FE]
+
+
+
+
+
+//POINTER #687 @ $109DC - STRING #687 @ $19149
+#W32($109DC)
+//お主なら、柱を何回ゆらして[NLINE]
+//リンゴを発見することが出来るかな？[END-FE]
+//Old Man\\
+How many pillars will you shake[NLINE]
+before you find the magic apple?[END-FE]
+
+
+
+
+
+//POINTER #688 @ $109E0 - STRING #688 @ $1918A
+#W32($109E0)
+//……。[END-FE]
+...[END-FE]
+
+
+
+
+
+//POINTER #689 @ $109E4 - STRING #689 @ $19193
+#W32($109E4)
+//あ、君！[NLINE]
+//すまないが買い物を[NLINE]
+//頼まれてくれないか？[NWIN]
+//
+//さっき腰を打ってしまって、[NLINE]
+//まともに動けなくなってしまってね。[NLINE]
+//この体勢から動けないんだ。[NWIN]
+//
+//そこの主人が座っている、[NLINE]
+//カウンター正面の出口を出てすぐの道具屋に[NLINE]
+//腰痛に効く鎮痛薬が売っていると聞いたのだが、[NLINE]
+//…動けんのだよ。[END-FE]
+//Injured Man\\
+Ah, you there![NLINE]
+I'm sorry, but can I ask you[NLINE]
+to buy something for me?[NWIN]
+
+I hit my back a little while[NLINE]
+ago, and I can no longer walk[NLINE]
+properly because I can't move[NLINE]
+from this position.[NWIN]
+
+I heard that the shop just outside[NLINE]
+here sells good pain medicine for one's[NLINE]
+back at the counter, but like I said,[NLINE]
+I can't move.[END-FE]
+
+
+
+
+
+//POINTER #690 @ $109E8 - STRING #690 @ $192A8
+#W32($109E8)
+//い、行ってくれる気になったのかい？[END-FE]
+//Injured Man\\
+C-could you go get some for me, please?[END-FE]
+
+
+
+
+
+//POINTER #691 @ $109EC - STRING #691 @ $192CD
+#W32($109EC)
+//わかったよ！[NLINE]
+//もう、君には頼まないよ！[END-FE]
+//Injured Man\\
+Fine! I'm not asking you anymore![END-FE]
+
+
+
+
+
+
+//POINTER #692 @ $109F0 - STRING #692 @ $192F6
+#W32($109F0)
+//もう、君には頼まないよ！[END-FE]
+//Injured Man\\
+I'm not asking you anymore![END-FE]
+
+
+
+
+
+//POINTER #693 @ $109F4 - STRING #693 @ $19311
+#W32($109F4)
+//お使いに行ってきてくれないか？[END-FE]
+//Injured Man\\
+Would you go get some for[NLINE]
+me, please?[END-FE]
+
+
+
+
+
+//POINTER #694 @ $109F8 - STRING #694 @ $19332
+#W32($109F8)
+//ありがとう！[NWIN]
+//
+//じゃあ、これで買ってきてくれ。[END-FE]
+//Injured Man\\
+Thank you![NWIN]
+
+Please buy it with this.[END-FE]
+
+
+
+
+
+//POINTER #695 @ $109FC - STRING #695 @ $19361
+#W32($109FC)
+//頼んだよ！[END-FE]
+//Injured Man\\
+I'm counting on you![END-FE]
+
+
+
+
+
+//POINTER #696 @ $10A00 - STRING #696 @ $1936E
+#W32($10A00)
+//そ、そんなこと言わないで[NLINE]
+//頼むよ！[END-FE]
+//Injured Man\\
+P-please don't say that! I'm counting on[NLINE]
+you![END-FE]
+
+
+
+
+
+//POINTER #697 @ $10A04 - STRING #697 @ $19393
+#W32($10A04)
+//おおぉ！[NLINE]
+//買って来てくれたか！[NLINE]
+//さぁ、こっちに渡してくれ！[END-FE]
+//Injured Man\\
+Oh, you bought some for me![NLINE]
+Well then, please give it to me![END-FE]
+
+
+
+
+
+//POINTER #698 @ $10A08 - STRING #698 @ $193D0
+#W32($10A08)
+//本当にありがとう！[NLINE]
+//これで…。[END-FE]
+//Injured Man\\
+Thank you very much![NLINE]
+Let's take a sip...[END-FE]
+
+
+
+
+
+//POINTER #699 @ $10A0C - STRING #699 @ $193F1
+#W32($10A0C)
+//ふ～う。[NLINE]
+//だいぶ楽になってきたよ。[NLINE]
+//まだ動けそうにないけど、[NLINE]
+//君には感謝しているよ！[END-FE]
+//Injured Man\\
+Aaah! That's much better![NLINE]
+It seems I'm not ready to move[NLINE]
+yet, but I'm grateful to you![END-FE]
+
+
+
+
+
+//POINTER #700 @ $10A10 - STRING #700 @ $19448
+#W32($10A10)
+//頼むよ！[NLINE]
+//それを渡してくれ！[END-FE]
+//Injured Man\\
+I'm begging you! Please[NLINE]
+give it to me![END-FE]
+
+
+
+
+
+//POINTER #701 @ $10A14 - STRING #701 @ $19467
+#W32($10A14)
+//わかった。[NLINE]
+//その鎮痛薬を５Ы出して、[NLINE]
+//君から買おう。[NLINE]
+//それでどうだい？[END-FE]
+//Injured Man\\
+Alright. I'll pay you 5Ы for the[NLINE]
+pain medicine. What do you say?[END-FE]
+
+
+
+
+
+//POINTER #702 @ $10A18 - STRING #702 @ $194B0
+#W32($10A18)
+//くそ！[NLINE]
+//君に頼むんじゃなかったよ！[NWIN]
+//
+//ほら、お金だ！[NLINE]
+//さっさと鎮痛薬を渡せ！[END-FE]
+//Injured Man\\
+Darn it! I shouldn't have[NLINE]
+asked you for help![NWIN]
+
+Look, here's the money![NLINE]
+Just give me the pain medicine already![END-FE]
+
+
+
+
+
+//POINTER #703 @ $10A1C - STRING #703 @ $194FD
+#W32($10A1C)
+//…イタタっ。[NLINE]
+//大声を出したら腰が…。[NWIN]
+//
+//もういいから、[NLINE]
+//私の前から居なくなってくれ。[END-FE]
+//Injured Man\\
+...Ow![NLINE]
+When I yell, my back...[NWIN]
+
+Fine, fine...[NLINE]
+Please just go away.[END-FE]
+
+
+
+
+
+//POINTER #704 @ $10A20 - STRING #704 @ $19552
+#W32($10A20)
+//君に頼んだのがそもそもの間違いだった！[NWIN]
+//
+//…イタタっ。[NLINE]
+//大声を出したら腰が…。[NWIN]
+//
+//もういいから、[NLINE]
+//私の前から居なくなってくれ。[END-FE]
+//Injured Man\\
+Asking you for help was[NLINE]
+a mistake![NWIN]
+
+...Ow![NLINE]
+When I yell, my back...[NWIN]
+
+Fine, fine...[NLINE]
+Please just go away.[END-FE]
+
+
+
+
+
+//POINTER #705 @ $10A24 - STRING #705 @ $195CF
+#W32($10A24)
+//この宿を出てすぐの道具屋に[NLINE]
+//腰痛に良く効く薬が売っているらしいんだ。[NLINE]
+//それを買って来てくれ。[END-FE]
+//Injured Man\\
+There's a shop just outside the[NLINE]
+inn. It sells medicine for back[NLINE]
+pain. Please buy some for me.[END-FE]
+
+
+
+
+
+//POINTER #706 @ $10A28 - STRING #706 @ $1962E
+#W32($10A28)
+//宿を出てすぐの道具屋だぞ。[NLINE]
+//鎮痛薬を頼んだよ。[END-FE]
+//Injured Man\\
+There's a shop just outside the inn.[NLINE]
+Please ask for some pain medicine.[END-FE]
+
+
+
+
+
+//POINTER #707 @ $10A2C - STRING #707 @ $1965F
+#W32($10A2C)
+//渡したお金はどうしたんだ？[END-FE]
+//Injured Man\\
+What did you do with the[NLINE]
+money I gave you?[END-FE]
+
+
+
+
+
+//POINTER #708 @ $10A30 - STRING #708 @ $1967C
+#W32($10A30)
+//君に頼んだのは[NLINE]
+//間違いだったみたいだな！[NLINE]
+//私の前から居なくなってくれ！[END-FE]
+//Injured Man\\
+It seems like asking you for help[NLINE]
+was a mistake! Get out of my[NLINE]
+sight![END-FE]
+
+
+
+
+
+//POINTER #709 @ $10A34 - STRING #709 @ $196C5
+#W32($10A34)
+//いや～、だいぶ楽になってきたよ。[NLINE]
+//本当にありがとう。[END-FE]
+//Injured Man\\
+Aah, I'm feeling much better.[NLINE]
+Thank you so much.[END-FE]
+
+
+
+
+
+//POINTER #710 @ $10A38 - STRING #710 @ $196FC
+#W32($10A38)
+//それで何か用かい？[END-FE]
+//Injured Man\\
+Oh? What's the matter?[END-FE]
+
+
+
+
+
+//POINTER #711 @ $10A3C - STRING #711 @ $19711
+#W32($10A3C)
+//・余ったお金を返す[END-FE]
+・Return the leftover money[END-FE]
+
+
+
+
+
+//POINTER #712 @ $10A40 - STRING #712 @ $19726
+#W32($10A40)
+//・なんでもない[END-FE]
+・It's nothing[END-FE]
+
+
+
+
+
+//POINTER #713 @ $10A44 - STRING #713 @ $19737
+#W32($10A44)
+//え、鎮痛薬は１０Ыだったのかい？[NLINE]
+//そうか、わざわざありがとう。[NWIN]
+//
+//じゃあ、それはお礼として君にあげるよ。[NLINE]
+//本当に助かったからね。[NLINE]
+//遠慮なくもらってくれ。[END-FE]
+//Injured Man\\
+Hm, so the medicine cost only 10Ы?[NLINE]
+I see, thank you for your honesty.[NWIN]
+
+
+Well then, I'll give it to you as a[NLINE]
+thank you. You've really helped me,[NLINE]
+so please accept it.[END-FE]
+
+
+
+
+
+//POINTER #714 @ $10A48 - STRING #714 @ $197D0
+#W32($10A48)
+//そうか。[NLINE]
+//鎮痛薬、本当にありがとう。[END-FE]
+//Injured Man\\
+I see. Thank you for the[NLINE]
+pain medicine.[END-FE]
+
+
+
+
+
+//POINTER #715 @ $10A4C - STRING #715 @ $197F7
+#W32($10A4C)
+//それで何か用かい？[END-FE]
+//Injured Man\\
+Oh? What's the matter?[END-FE]
+
+
+
+
+
+//POINTER #716 @ $10A50 - STRING #716 @ $1980C
+#W32($10A50)
+//・使わなかったお金を返す[END-FE]
+・Return the unused money[END-FE]
+
+
+
+
+
+//POINTER #717 @ $10A54 - STRING #717 @ $19827
+#W32($10A54)
+//・なんでもない[END-FE]
+・It's nothing[END-FE]
+
+
+
+
+
+//POINTER #718 @ $10A58 - STRING #718 @ $19838
+#W32($10A58)
+//え、鎮痛薬はもらった物だったのかい？[NLINE]
+//そうか、わざわざ返そうとしてくれたのか。[NWIN]
+//
+//じゃあ、それはお礼として君にあげるよ。[NLINE]
+//本当に助かったからね。[NLINE]
+//遠慮なくもらってくれ。[END-FE]
+//Injured Man\\
+Oh, you already had some pain medicine in[NLINE]
+your possession? I see, thank you[NLINE]
+for returning the money.[NWIN]
+
+Well then, I'll give it to you as a[NLINE]
+thank you. You've really helped me,[NLINE]
+so please keep it.[END-FE]
+
+
+
+
+
+//POINTER #719 @ $10A5C - STRING #719 @ $198E1
+#W32($10A5C)
+//そうか。[NLINE]
+//鎮痛薬、本当にありがとう。[END-FE]
+//Injured Man\\
+I see. Thank you for the[NLINE]
+pain medicine.[END-FE]
+
+
+
+
+
+//POINTER #720 @ $10A60 - STRING #720 @ $19908
+#W32($10A60)
+//【ミギの１にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"First from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #721 @ $10A64 - STRING #721 @ $19935
+#W32($10A64)
+//【ミギの２にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Second from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #722 @ $10A68 - STRING #722 @ $19962
+#W32($10A68)
+//【ミギの３にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Third from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #723 @ $10A6C - STRING #723 @ $1998F
+#W32($10A6C)
+//【ミギの４にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Fourth from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #724 @ $10A70 - STRING #724 @ $199BC
+#W32($10A70)
+//【ミギの５にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Fifth from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #725 @ $10A74 - STRING #725 @ $199E9
+#W32($10A74)
+//【ミギの６にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Sixth from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #726 @ $10A78 - STRING #726 @ $19A16
+#W32($10A78)
+//【ミギの７にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Seventh from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #727 @ $10A7C - STRING #727 @ $19A43
+#W32($10A7C)
+//【ミギの８にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Eighth from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #728 @ $10A80 - STRING #728 @ $19A70
+#W32($10A80)
+//【ミギの９にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Ninth from the right"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #729 @ $10A84 - STRING #729 @ $19A9D
+#W32($10A84)
+//【チュウオウにかくす】[NLINE]
+//と落書きされている。[END-FE]
+"The middle one"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #730 @ $10A88 - STRING #730 @ $19ACC
+#W32($10A88)
+//【ヒダリの９にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Ninth from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #731 @ $10A8C - STRING #731 @ $19AFB
+#W32($10A8C)
+//【ヒダリの８にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Eighth from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #732 @ $10A90 - STRING #732 @ $19B2A
+#W32($10A90)
+//【ヒダリの７にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Seventh from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #733 @ $10A94 - STRING #733 @ $19B59
+#W32($10A94)
+//【ヒダリの６にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Sixth from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #734 @ $10A98 - STRING #734 @ $19B88
+#W32($10A98)
+//【ヒダリの５にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Fifth from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #735 @ $10A9C - STRING #735 @ $19BB7
+#W32($10A9C)
+//【ヒダリの４にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Fourth from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #736 @ $10AA0 - STRING #736 @ $19BE6
+#W32($10AA0)
+//【ヒダリの３にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Third from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #737 @ $10AA4 - STRING #737 @ $19C15
+#W32($10AA4)
+//【ヒダリの２にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"Second from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #738 @ $10AA8 - STRING #738 @ $19C44
+#W32($10AA8)
+//【ヒダリの１にかくす】[NLINE]
+//と落書きされている。[END-FE]
+"First from the left"[NLINE]
+is scribbled on the sign.[END-FE]
+
+
+
+
+
+//POINTER #739 @ $10AAC - STRING #739 @ $19C73
+#W32($10AAC)
+//さぁ、着いたぞ。[NWIN]
+//
+//テストは、いたってシンプル。[NLINE]
+//先ずはこの部屋の状態を覚えてもらう。[NWIN]
+//
+//記憶し終わったら、私に声をかけてくれ。[NLINE]
+//そしたら１ヶ所だけこの部屋のものが変化する。[NLINE]
+//それを当ててくれ。[NWIN]
+//
+//それじゃあ、記憶してくれ。[END-FE]
+//Scientist\\
+Alright, we've arrived.[NWIN]
+
+The test is fairly simple.[NWIN]
+
+First, memorize the state of the objects[NLINE]
+in this room. Talk to me when you're done[NLINE]
+memorizing.[NWIN]
+
+After that, I will make an alteration[NLINE]
+to a single object in this room. Your[NLINE]
+objective is to point out this object.[NWIN]
+
+Well then, go ahead and take it all[NLINE]
+in.[END-FE]
+
+
+
+
+
+//POINTER #740 @ $10AB0 - STRING #740 @ $19D50
+#W32($10AB0)
+//準備は出来たかい？[END-FE]
+//Scientist\\
+Are you ready?[END-FE]
+
+
+
+
+
+//POINTER #741 @ $10AB4 - STRING #741 @ $19D65
+#W32($10AB4)
+//・はい[END-FE]
+・Yes[END-FE]
+
+
+
+
+
+//POINTER #742 @ $10AB8 - STRING #742 @ $19D6E
+#W32($10AB8)
+//・いいえ[END-FE]
+・No[END-FE]
+
+
+
+
+
+//POINTER #743 @ $10ABC - STRING #743 @ $19D79
+#W32($10ABC)
+//それじゃあ、いくよ！[NLINE]
+//スイッチオン！[END-FE]
+//Scientist\\
+Here we go![NLINE]
+Hit that switch![END-FE]
+
+
+
+
+
+//POINTER #744 @ $10AC0 - STRING #744 @ $19DA0
+#W32($10AC0)
+//これでどこか変化したはずだよ！[NLINE]
+//変化したと思う場所を調べてくれ。[NLINE]
+//チャンスは１回。[NLINE]
+//慎重に調べてくれ。[END-FE]
+//Scientist\\
+Now one of the objects should have changed![NLINE]
+Head over to this object.[NWIN]
+
+
+You only have one chance, so investigate[NLINE]
+carefully.[END-FE]
+
+
+
+
+
+//POINTER #745 @ $10AC4 - STRING #745 @ $19E09
+#W32($10AC4)
+//そうかい。[NLINE]
+//しっかり覚えてきなよ。[END-FE]
+//Scientist\\
+That's right! You remembered[NLINE]
+correctly.[END-FE]
+
+
+
+
+
+//POINTER #746 @ $10AC8 - STRING #746 @ $19E2E
+#W32($10AC8)
+//どうしたんだ。[NLINE]
+//降参するのかい？[END-FE]
+//Scientist\\
+What happened? Are you going[NLINE]
+to give up?[END-FE]
+
+
+
+
+
+//POINTER #747 @ $10ACC - STRING #747 @ $19E51
+#W32($10ACC)
+//そうかい。[NLINE]
+//実験に付き合ってもらえないのは[NLINE]
+//残念だけど、無理強いは出来ないしね。[NWIN]
+//
+//じゃあ、元の場所に戻るよ。[END-FE]
+//Scientist\\
+I see. It's a shame you won't participate[NLINE]
+in my experiment, but I can't force you.[NWIN]
+
+Let us return to the entrance.[END-FE]
+
+
+
+
+
+
+//POINTER #748 @ $10AD0 - STRING #748 @ $19EC0
+#W32($10AD0)
+//それじゃあ、がんばってくれ。[END-FE]
+//Scientist\\
+Well then, do your best![END-FE]
+
+
+
+
+
+//POINTER #749 @ $10AD4 - STRING #749 @ $19EDF
+#W32($10AD4)
+//どこを変化させるか[NLINE]
+//決めますか？[END-FE]
+//Scientist\\
+What object do you want to change?[END-FE]
+
+
+
+
+
+//POINTER #750 @ $10AD8 - STRING #750 @ $19F02
+#W32($10AD8)
+//・梯子[END-FE]
+・The ladder[END-FE]
+
+
+
+
+
+//POINTER #751 @ $10ADC - STRING #751 @ $19F0B
+#W32($10ADC)
+//・宝箱[END-FE]
+・The treasure chest[END-FE]
+
+
+
+
+
+//POINTER #752 @ $10AE0 - STRING #752 @ $19F14
+#W32($10AE0)
+//・ランダム[END-FE]
+・Something random[END-FE]
+
+
+
+
+
+//POINTER #753 @ $10AE4 - STRING #753 @ $19F21
+#W32($10AE4)
+//どの梯子を変化させますか？[END-FE]
+Which ladder do you want to change?[END-FE]
+
+
+
+
+
+//POINTER #754 @ $10AE8 - STRING #754 @ $19F3E
+#W32($10AE8)
+//・左上[END-FE]
+・The upper left one[END-FE]
+
+
+
+
+
+//POINTER #755 @ $10AEC - STRING #755 @ $19F47
+#W32($10AEC)
+//・中上[END-FE]
+・The one in the center[END-FE]
+
+
+
+
+
+//POINTER #756 @ $10AF0 - STRING #756 @ $19F50
+#W32($10AF0)
+//・右上[END-FE]
+・The upper right one[END-FE]
+
+
+
+
+
+//POINTER #757 @ $10AF4 - STRING #757 @ $19F59
+#W32($10AF4)
+//・左中[END-FE]
+・The center left one[END-FE]
+
+
+
+
+
+//POINTER #758 @ $10AF8 - STRING #758 @ $19F62
+#W32($10AF8)
+//・右中[END-FE]
+・The center right one[END-FE]
+
+
+
+
+
+//POINTER #759 @ $10AFC - STRING #759 @ $19F6B
+#W32($10AFC)
+//・左下[END-FE]
+・The lower left one[END-FE]
+
+
+
+
+
+//POINTER #760 @ $10B00 - STRING #760 @ $19F74
+#W32($10B00)
+//・中下[END-FE]
+・The lower center one[END-FE]
+
+
+
+
+
+//POINTER #761 @ $10B04 - STRING #761 @ $19F7D
+#W32($10B04)
+//・右下[END-FE]
+・The lower right one[END-FE]
+
+
+
+
+
+//POINTER #762 @ $10B08 - STRING #762 @ $19F86
+#W32($10B08)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #763 @ $10B0C - STRING #763 @ $19F91
+#W32($10B0C)
+//どの宝箱を変化させますか？[END-FE]
+Which treasure chest do you want to change?[END-FE]
+
+
+
+
+
+//POINTER #764 @ $10B10 - STRING #764 @ $19FAE
+#W32($10B10)
+//・左上[END-FE]
+・The upper left one[END-FE]
+
+
+
+
+
+//POINTER #765 @ $10B14 - STRING #765 @ $19FB7
+#W32($10B14)
+//・中上[END-FE]
+・The one in the center[END-FE]
+
+
+
+
+
+//POINTER #766 @ $10B18 - STRING #766 @ $19FC0
+#W32($10B18)
+//・右上[END-FE]
+・The upper right one[END-FE]
+
+
+
+
+
+//POINTER #767 @ $10B1C - STRING #767 @ $19FC9
+#W32($10B1C)
+//・左中[END-FE]
+・The center left one[END-FE]
+
+
+
+
+
+//POINTER #768 @ $10B20 - STRING #768 @ $19FD2
+#W32($10B20)
+//・右中[END-FE]
+・The center right one[END-FE]
+
+
+
+
+
+//POINTER #769 @ $10B24 - STRING #769 @ $19FDB
+#W32($10B24)
+//・左下[END-FE]
+・The lower left one[END-FE]
+
+
+
+
+
+//POINTER #770 @ $10B28 - STRING #770 @ $19FE4
+#W32($10B28)
+//・中下[END-FE]
+・The lower center one[END-FE]
+
+
+
+
+
+//POINTER #771 @ $10B2C - STRING #771 @ $19FED
+#W32($10B2C)
+//・右下[END-FE]
+・The lower right one[END-FE]
+
+
+
+
+
+//POINTER #772 @ $10B30 - STRING #772 @ $19FF6
+#W32($10B30)
+//・やめる[END-FE]
+・Cancel[END-FE]
+
+
+
+
+
+//POINTER #773 @ $10B34 - STRING #773 @ $1A001
+#W32($10B34)
+//左上梯子[END-FE]
+Upper left ladder[END-FE]
+
+
+
+
+
+//POINTER #774 @ $10B38 - STRING #774 @ $1A00C
+#W32($10B38)
+//中上梯子[END-FE]
+Upper middle ladder[END-FE]
+
+
+
+
+
+//POINTER #775 @ $10B3C - STRING #775 @ $1A017
+#W32($10B3C)
+//右上梯子[END-FE]
+Upper right ladder[END-FE]
+
+
+
+
+
+//POINTER #776 @ $10B40 - STRING #776 @ $1A022
+#W32($10B40)
+//左中梯子[END-FE]
+Center left ladder[END-FE]
+
+
+
+
+
+//POINTER #777 @ $10B44 - STRING #777 @ $1A02D
+#W32($10B44)
+//右中梯子[END-FE]
+Center right ladder[END-FE]
+
+
+
+
+
+//POINTER #778 @ $10B48 - STRING #778 @ $1A038
+#W32($10B48)
+//左下梯子[END-FE]
+Lower left ladder[END-FE]
+
+
+
+
+
+//POINTER #779 @ $10B4C - STRING #779 @ $1A043
+#W32($10B4C)
+//中下梯子[END-FE]
+Lower middle ladder[END-FE]
+
+
+
+
+
+//POINTER #780 @ $10B50 - STRING #780 @ $1A04E
+#W32($10B50)
+//右下梯子[END-FE]
+Lower right ladder[END-FE]
+
+
+
+
+
+//POINTER #781 @ $10B54 - STRING #781 @ $1A059
+#W32($10B54)
+//左上宝[END-FE]
+Upper left treasure chest[END-FE]
+
+
+
+
+
+//POINTER #782 @ $10B58 - STRING #782 @ $1A062
+#W32($10B58)
+//中上宝[END-FE]
+Upper center treasure chest[END-FE]
+
+
+
+
+
+//POINTER #783 @ $10B5C - STRING #783 @ $1A06B
+#W32($10B5C)
+//右上宝[END-FE]
+Upper right treasure chest[END-FE]
+
+
+
+
+
+//POINTER #784 @ $10B60 - STRING #784 @ $1A074
+#W32($10B60)
+//左中宝[END-FE]
+Center left treasure chest[END-FE]
+
+
+
+
+
+//POINTER #785 @ $10B64 - STRING #785 @ $1A07D
+#W32($10B64)
+//右中宝[END-FE]
+Center right treasure chest[END-FE]
+
+
+
+
+
+//POINTER #786 @ $10B68 - STRING #786 @ $1A086
+#W32($10B68)
+//左下宝[END-FE]
+Bottom left treasure chest[END-FE]
+
+
+
+
+
+//POINTER #787 @ $10B6C - STRING #787 @ $1A08F
+#W32($10B6C)
+//中下宝[END-FE]
+Bottom center treasure chest[END-FE]
+
+
+
+
+
+//POINTER #788 @ $10B70 - STRING #788 @ $1A098
+#W32($10B70)
+//右下宝[END-FE]
+Bottom right treasure chest[END-FE]
+
+
+
+
+
+//POINTER #789 @ $10B74 - STRING #789 @ $1A0A1
+#W32($10B74)
+//お見事！[NLINE]
+//大した記憶力だ！[NWIN]
+//
+//君は魔法などを覚える能力に[NLINE]
+//長けているのかもしれないね。[NWIN]
+//
+//テストに付き合ってくれてありがとう！[NLINE]
+//それでは、外へ行くとしよう。[END-FE]
+//Scientist\\
+Splendid! You have great memory![NWIN]
+
+You may be good at remembering magic.[NWIN]
+
+Thank you for taking part in the test![NLINE]
+Let's go back outside.[END-FE]
+
+
+
+
+
+//POINTER #790 @ $10B78 - STRING #790 @ $1A13C
+#W32($10B78)
+//残念！[NLINE]
+//それは変わっていないよ。[NWIN]
+//
+//記憶しておくのは中々難しいものだね。[NWIN]
+//
+//実験に付き合ってくれてありがとう！[NLINE]
+//それでは、元の場所に戻るとしよう。[END-FE]
+//Scientist\\
+What a pity! That object didn't change.[NWIN]
+
+It seems remembering this was quite[NLINE]
+difficult for you.[NWIN]
+
+Thank you for taking part in my test![NLINE]
+Well then, let's go back outside.[END-FE]
+
+
+
+
+
+//POINTER #791 @ $10B7C - STRING #791 @ $1A1CD
+#W32($10B7C)
+//マップの状況を確認するには、[NLINE]
+//マップ確認モードを利用すると便利です。[NLINE]
+//マップ確認モードは、[CIRCLE]や[CROSS]等で終了します。[END-FE]
+Map Checking Mode is convenient for checking[NLINE]
+the status of the map.[NLINE]
+To end Map Checking Mode, press [CROSS] or [CIRCLE].[END-FE]
+
+
+
+
+
+//POINTER #792 @ $10B80 - STRING #792 @ $1A240
+#W32($10B80)
+//マップ確認モード中は時間が流れないので、[NLINE]
+//状況をじっくりと確認できます。[NLINE]
+//　[END-FE]
+Because time does not pass while in Map[NLINE]
+Checking Mode, you can take all the time[NLINE]
+you need.[END-FE]
+
+
+
+
+
+//POINTER #793 @ $10B84 - STRING #793 @ $1A28F
+#W32($10B84)
+//あれは！[END-FE]
+Over there![END-FE]
+
+
+
+
+
+//POINTER #794 @ $10B88 - STRING #794 @ $1A29A
+#W32($10B88)
+//こんな街の近くに[NLINE]
+//ゲルの群れです！[END-FE]
+//Shrine Maiden\\
+A group of Slimes appeared near[NLINE]
+the city![END-FE]
+
+
+
+
+
+//POINTER #795 @ $10B8C - STRING #795 @ $1A2BF
+#W32($10B8C)
+//おい、そこの人！[END-FE]
+//Guard\\
+Hey, you over there![END-FE]
+
+
+
+
+
+//POINTER #796 @ $10B90 - STRING #796 @ $1A2D2
+#W32($10B90)
+//どうやら、あなたに[NLINE]
+//呼びかけているようです。[END-FE]
+//Shrine Maiden\\
+It seems like they are calling you.[END-FE]
+
+
+
+
+
+//POINTER #797 @ $10B94 - STRING #797 @ $1A301
+#W32($10B94)
+//今からこのモンスターたちを一掃する！[NLINE]
+//出来たら、手伝ってくれ！[END-FE]
+//Guard\\
+We're going to get rid of these monsters.[NLINE]
+Help us out if you can![END-FE]
+
+
+
+
+
+//POINTER #798 @ $10B98 - STRING #798 @ $1A342
+#W32($10B98)
+//ゲル系のモンスターには、[NLINE]
+//直接攻撃は殆ど効きません。[NLINE]
+//気をつけてください。[END-FE]
+//Shrine Maiden\\
+Direct attacks are generally not effective[NLINE]
+against Slime-type creatures. Please be[NLINE]
+careful.[END-FE]
+
+
+
+
+
+//POINTER #799 @ $10B9C - STRING #799 @ $1A38F
+#W32($10B9C)
+//もういいから、[NLINE]
+//街に入ってろ。[END-FE]
+That's enough, you should head back[NLINE]
+to the city.[END-FE]
+
+
+
+
+
+//POINTER #800 @ $10BA0 - STRING #800 @ $1A3B0
+#W32($10BA0)
+//モンスターを何とか追い払えたよ。[NLINE]
+//ありがとう。[END-FE]
+//Guard\\
+We somehow managed to get rid[NLINE]
+of the monsters. Thank you.[END-FE]
+
+
+
+
+
+//POINTER #801 @ $10BA4 - STRING #801 @ $1A3E1
+#W32($10BA4)
+//腰抜けは街に入ってろ。[END-FE]
+Head back to the city, coward.[END-FE]
+
+
+
+
+
+//POINTER #802 @ $10BA8 - STRING #802 @ $1A3FA
+#W32($10BA8)
+//……。[END-FE]
+...[END-FE]
+
+
+
+
+
+//POINTER #803 @ $10BAC - STRING #803 @ $1A403
+#W32($10BAC)
+//助かったよ。[END-FE]
+//Guard\\
+We're safe![END-FE]
+
+
+
+
+
+//POINTER #804 @ $10BB0 - STRING #804 @ $1A412
+#W32($10BB0)
+//……。[END-FE]
+...[END-FE]
+
+
+
+
+
+//POINTER #805 @ $10BB4 - STRING #805 @ $1A41B
+#W32($10BB4)
+//いや～、手を貸してくれて、[NLINE]
+//ありがとう！[NWIN]
+//
+//良かったら、これを使ってくれ。[END-FE]
+//Guard\\
+Phew, thanks for helping us![NWIN]
+
+Please take this.[END-FE]
+
+
+
+
+
+//POINTER #806 @ $10BB8 - STRING #806 @ $1A466
+#W32($10BB8)
+//ゲルを退治するのにＭＰを消費したろう。[NLINE]
+//これで回復しておくと良いよ。[NWIN]
+//
+//最近物騒だから、[NLINE]
+//いつ戦闘に巻き込まれるかわからない。[NLINE]
+//回復は出来る内に行っておくと良いぞ。[NWIN]
+//
+//モンスター退治を手伝ってくれて、[NLINE]
+//本当にありがとう。[END-FE]
+//Guard\\
+It costs MP to defeat Slimes.[NLINE]
+This will let you recover it.[NWIN]
+
+It's became unsafe here lately, so you[NLINE]
+never know when you get dragged[NLINE]
+into a battle. It's a good idea to[NLINE]
+recover your MP as soon as possible.[NWIN]
+
+Thank you very much for helping us[NLINE]
+get rid of the monsters.[END-FE]
+
+
+
+
+
+//POINTER #807 @ $10BBC - STRING #807 @ $1A541
+#W32($10BBC)
+//おや？[NLINE]
+//残念だけど、アンブローシアを[NLINE]
+//これ以上持てないようだね。[NWIN]
+//
+//モンスター退治を手伝ってくれて、[NLINE]
+//本当にありがとう。[END-FE]
+//Guard\\
+Oh? It looks like you can't carry[NLINE]
+any more Ambrosia.[NWIN]
+
+Thank you very much for helping[NLINE]
+us get rid of the monsters.[END-FE]
+
+
+
+
+
+//POINTER #808 @ $10BC0 - STRING #808 @ $1A5BA
+#W32($10BC0)
+//…ずっとそこにいるなら、[NLINE]
+//手を貸してくれてもいいじゃないか？[END-FE]
+//Guard\\
+...If you're just going to stand there,[NLINE]
+how about you lend us a hand?[END-FE]
+
+
+
+
+
+//POINTER #809 @ $10BC4 - STRING #809 @ $1A5F9
+#W32($10BC4)
+//魔法、グッズの使い方について、[NLINE]
+//説明を受けますか？[END-FE]
+Would you like an explanation on using[NLINE]
+magic and items?[END-FE]
+
+
+
+
+
+//POINTER #810 @ $10BC8 - STRING #810 @ $1A62E
+#W32($10BC8)
+//魔法は唱えさせたいキャラクターの[NLINE]
+//[COL01]『魔法』[COL00]メニューから唱えたい魔法を選択し、[NLINE]
+//次に魔法Lvを選択。[END-FE]
+In order to cast magic, first select[NLINE]
+the character who will cast the spell,[NLINE]
+then select the desired spell from[NLINE]
+the menu. Next, select the magic level[NLINE]
+of the spell.[END-FE]
+
+
+
+
+
+//POINTER #811 @ $10BCC - STRING #811 @ $1A697
+#W32($10BCC)
+//詠唱を終えたら対象を選ぶことにより[NLINE]
+//使用できます。[END-FE]
+After the character is done casting the[NLINE]
+spell, you can select a target to[NLINE]
+unleash the spell on.[END-FE]
+
+
+
+
+
+//POINTER #812 @ $10BD0 - STRING #812 @ $1A6CC
+#W32($10BD0)
+//ＨＰは、回復魔法の他にもグッズで[NLINE]
+//治療することができます。[END-FE]
+Aside from healing magic, you can[NLINE]
+also use items to recover HP.[END-FE]
+
+
+
+
+
+//POINTER #813 @ $10BD4 - STRING #813 @ $1A709
+#W32($10BD4)
+//グッズは使用すると即効果を発揮しますが、[NLINE]
+//１種につき９個までしか持てません。[END-FE]
+The effects of items are immediate,[NLINE]
+but you can only hold nine of each[NLINE]
+type of item.[END-FE]
+
+
+
+
+
+//POINTER #814 @ $10BD8 - STRING #814 @ $1A758
+#W32($10BD8)
+//グッズと違い、魔法は詠唱時間がかかり[NLINE]
+//使用する際にはＭＰを消費します。[NLINE]
+//状況によって使い分けてください。[END-FE]
+Unlike items, magic takes time and[NLINE]
+consumes MP when used. Make sure to[NLINE]
+use magic that best suits the situation.[END-FE]
+
+
+
+
+
+//POINTER #815 @ $10BDC - STRING #815 @ $1A7C3
+#W32($10BDC)
+//レーダー上の点・ユニットのＨＰバーが[NLINE]
+//緑で表示されているキャラクターは、[NLINE]
+//あなたの守るべき味方です。[NWIN]
+//
+//彼らは[NLINE]
+//[COL01]ＮＰＣ[COL00]（ノンプレイヤーキャラクター）と[NLINE]
+//呼ばれます。[NWIN]
+//
+//フィールド上のＮＰＣがモンスターに殺されると、[NLINE]
+//多くの場合ゲームオーバーになります。[NLINE]
+//気をつけましょう。[NWIN]
+//
+//特に村人のような戦うすべのないＮＰＣは、[NLINE]
+//モンスターや敵に襲われたときには積極的に[NLINE]
+//プレイヤーが守ってやる必要があります。[NWIN]
+//
+//ＨＰが減ったユニットは、[NLINE]
+//レーダー上の点が点滅を始めます。[NLINE]
+//レーダーを注意深く見ておきましょう。[END-FE]
+Green radar dots and HP bars belong to[NLINE]
+allies that you should protect.[NWIN]
+
+They are called [COL01]NPC[COL00]s (non-player[NLINE]
+characters).[NWIN]
+
+NPCs getting killed will in many cases[NLINE]
+result in a [COL01]Game Over[COL00]. Be careful.[NWIN]
+
+You should protect them from being[NLINE]
+attacked by monsters or other enemies,[NLINE]
+especially NPCs like villagers who[NLINE]
+have no way of defending themselves.[NWIN]
+
+Dots of ally characters who have lost more[NLINE]
+than half of their HP will start blinking.[NLINE]
+Therefore, it's important to pay careful[NLINE]
+attention to the radar.[END-FE]
+
+
+
+
+
+//POINTER #816 @ $10BE0 - STRING #816 @ $1A9B6
+#W32($10BE0)
+//？？ッ？ス？？所方面[END-FE]
+To (unintelligible)[END-FE]
+
+
+
+
+
+//POINTER #817 @ $10BE4 - STRING #817 @ $1A9CD
+#W32($10BE4)
+//都？？？ナ？[END-FE]
+Ma-(unintelligible)[END-FE]
+
+
+
+
+
+//POINTER #818 @ $10BE8 - STRING #818 @ $1A9DC
+#W32($10BE8)
+//？市ダ？？ィ？方面[END-FE]
+To Da-(unintelligible)[END-FE]
+
+
+
+
+
+//POINTER #819 @ $10BEC - STRING #819 @ $1A9F1
+#W32($10BEC)
+//　[NLINE]
+//用途がわからない魔法陣だ…。[END-FE]
+It's a magic circle whose purpose[NLINE]
+is unknown.[END-FE]
+
+
+
+
+
+//POINTER #820 @ $10BF0 - STRING #820 @ $1AA14
+#W32($10BF0)
+//　[NLINE]
+//見たこともない不思議な木だ…。[END-FE]
+It's a strange tree that[NLINE]
+you've never seen before.[END-FE]
+
+
+
+
+
+//POINTER #821 @ $10BF4 - STRING #821 @ $1AA39
+#W32($10BF4)
+//　[NLINE]
+//見たこともない不思議な木だ…。[END-FE]
+It's a strange tree that[NLINE]
+you've never seen before.[END-FE]
+
+
+
+
+
+//POINTER #822 @ $10BF8 - STRING #822 @ $1AA5E
+#W32($10BF8)
+//ここは同じ場所のようですが、[NLINE]
+//…どうも様子がおかしいですね。[END-FE]
+//Shrine Maiden\\
+This seems to be the same place, but[NLINE]
+something is strange about it...[END-FE]
+
+
+
+
+
+//POINTER #823 @ $10BFC - STRING #823 @ $1AA9D
+#W32($10BFC)
+//大変です！[NLINE]
+//モンスターによって里が危機的状況に[NLINE]
+//追いやられているようです！[NWIN]
+//
+//このままでは村の人々が…。[NWIN]
+//
+//[CH.FACE:Serious]
+//まだモンスターは一般人には[NLINE]
+//手出ししていないみたいです。[NWIN]
+//
+//どうにかモンスターを誘導して、[NLINE]
+//人々の安全を確保する方法は無いものでしょうか？[END-FE]
+//Shrine Maiden\\
+Oh no! Monsters have thrown the[NLINE]
+village into peril![NWIN]
+
+At this rate, the villagers will...[NWIN]
+
+[CH.FACE:Serious]
+It looks like the villagers haven't been[NLINE]
+harmed by the monsters yet.[NWIN]
+
+Could there be a way to lure the monsters[NLINE]
+away and keep them safe?[END-FE]
+
+
+
+
+
+//POINTER #824 @ $10C00 - STRING #824 @ $1AB94
+#W32($10C00)
+//モンスターに気づかれる前、[NLINE]
+//[COL09]×[COL00]を押す事で村人に[NLINE]
+//出口への脱出を合図することができます。[END-FE]
+Before you are noticed by the monsters,[NLINE]
+you can signal the villagers to head[NLINE]
+for the exit by pressing [CROSS].[END-FE]
+
+
+
+
+
+//POINTER #825 @ $10C04 - STRING #825 @ $1ABF3
+#W32($10C04)
+//合図を出すとモンスターはプレイヤーに気が付き、[NLINE]
+//攻撃を仕掛けてくるので、[NLINE]
+//タイミングには気を付けてください。[END-FE]
+Be mindful of the timing, as signaling[NLINE]
+will cause the monsters to notice and[NLINE]
+attack you.[END-FE]
+
+
+
+
+
+//POINTER #826 @ $10C08 - STRING #826 @ $1AC62
+#W32($10C08)
+//どうやら、廃材に引火しているようです。[END-FE]
+//Shrine Maiden\\
+It seems like that debris is[NLINE]
+catching fire.[END-FE]
+
+
+
+
+
+//POINTER #827 @ $10C0C - STRING #827 @ $1AC8B
+#W32($10C0C)
+//魔法などを使って、あの炎を大きくすることで、[NLINE]
+//モンスターの気をそらす事は[NLINE]
+//出来ないものでしょうか？[END-FE]
+//Shrine Maiden\\
+Could it be possible to use your[NLINE]
+magic to make the flames grow larger[NLINE]
+and distract the monsters that way?[END-FE]
+
+
+
+
+
+//POINTER #828 @ $10C10 - STRING #828 @ $1ACF0
+#W32($10C10)
+//くそっ！[NLINE]
+//回復薬さえあれば、[NLINE]
+//まだ戦えるのに！[END-FE]
+//Guard\\
+Damn it! If I only had a Vulnerary,[NLINE]
+I could still fight![END-FE]
+
+
+
+
+
+//POINTER #829 @ $10C14 - STRING #829 @ $1AD21
+#W32($10C14)
+//モンスターは炎に気を取られている[END-FE]
+//System Message\\
+The monsters are distracted by the flames![END-FE]
+
+
+
+
+
+//POINTER #830 @ $10C18 - STRING #830 @ $1AD44
+#W32($10C18)
+//モンスターは炎に気を取られている[END-FE]
+//System Message\\
+The monsters are distracted by the flames![END-FE]
+
+
+
+
+
+//POINTER #831 @ $10C1C - STRING #831 @ $1AD67
+#W32($10C1C)
+//モンスターは炎に気を取られている[END-FE]
+//System Message\\
+The monsters are distracted by the flames![END-FE]
+
+
+
+
+
+//POINTER #832 @ $10C20 - STRING #832 @ $1AD8A
+#W32($10C20)
+//脱出するように、[NLINE]
+//村人に呼びかけますか？[END-FE]
+Will you signal the villagers[NLINE]
+to escape?[END-FE]
+
+
+
+
+
+//POINTER #833 @ $10C24 - STRING #833 @ $1ADB5
+#W32($10C24)
+//ボクで最後だよ！[NLINE]
+//お兄ちゃんも逃げて！[END-FE]
+//Boy\\
+I'm the last one![NLINE]
+You should run too, mister![END-FE]
+
+
+
+
+
+//POINTER #834 @ $10C28 - STRING #834 @ $1ADDE
+#W32($10C28)
+//ボクでサイゴだよ！[NLINE]
+//おにいちゃんもにげて！[END-FE]
+//Boy\\
+I'm the last one![NLINE]
+You should run too, mister![END-FE]
+
+
+
+
+
+//POINTER #835 @ $10C2C - STRING #835 @ $1AE0B
+#W32($10C2C)
+//ワシで最後じゃ！[NLINE]
+//あなたも逃げてくだされ！[END-FE]
+//Woman/Man\\
+I'm the last one![NLINE]
+You should escape as well![END-FE]
+
+
+
+
+
+//POINTER #836 @ $10C30 - STRING #836 @ $1AE38
+#W32($10C30)
+//私で最後です！[NLINE]
+//あなたも逃げてください！[END-FE]
+I'm the last one![NLINE]
+You should run too![END-FE]
+
+
+
+
+
+//POINTER #837 @ $10C34 - STRING #837 @ $1AE63
+#W32($10C34)
+//すまん、助かった！[END-FE]
+//Guard\\
+Thanks, you saved my hide![END-FE]
+
+
+
+
+
+//POINTER #838 @ $10C38 - STRING #838 @ $1AE78
+#W32($10C38)
+//何とかして、モンスターから[NLINE]
+//みんなを救おう！[END-FE]
+Let's get the villagers[NLINE]
+out of here![END-FE]
+
+
+
+
+
+//POINTER #839 @ $10C3C - STRING #839 @ $1AEA7
+#W32($10C3C)
+//みんな脱出したようだし、[NLINE]
+//俺たちも脱出しよう！[END-FE]
+Everyone seems to have escaped.[NLINE]
+We should get out of here as well![END-FE]
+
+
+
+
+
+//POINTER #840 @ $10C40 - STRING #840 @ $1AED8
+#W32($10C40)
+//みんな脱出したようだし、[NLINE]
+//俺たちも脱出しよう！[END-FE]
+Everyone seems to have escaped.[NLINE]
+We should get out of here as well![END-FE]
+
+
+
+
+
+//POINTER #841 @ $10C44 - STRING #841 @ $1AF09
+#W32($10C44)
+//・なし[END-FE]
+・None[END-FE]
+
+
+
+
+
+//POINTER #842 @ $10C48 - STRING #842 @ $1AF12
+#W32($10C48)
+//クリアボーナス[END-FE]
+Clear Bonus[END-FE]
+
+
+
+
+
+//POINTER #843 @ $10C4C - STRING #843 @ $1AF23
+#W32($10C4C)
+//[CHARC800][V1000]
+//…どうやら、心象風景はここまでのようです。[NLINE]
+//あなたの人柄を一通り見せてもらいました。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1000]
+...It seems like this is the end of your[NLINE]
+mental landscape. You have showed me[NLINE]
+who you truly are.[END-FE]
+
+
+
+
+
+//POINTER #844 @ $10C50 - STRING #844 @ $1AF82
+#W32($10C50)
+//評価を表示しますか？[END-FE]
+//System Message\\
+Do you want to view the rating?[END-FE]
+
+
+
+
+
+//POINTER #845 @ $10C54 - STRING #845 @ $1AF99
+#W32($10C54)
+//ここからデバッグメッセージ[END-FE]
+Debug messages from this point[END-FE]
+
+
+
+
+
+//POINTER #846 @ $10C58 - STRING #846 @ $1AFB6
+#W32($10C58)
+//攻撃回数　　　　　：[CC.EF01]回[NLINE]
+//攻撃魔法使用回数　：[CC.EF02]回[NLINE]
+//補助魔法使用回数　：[CC.EF03]回[NLINE]
+//撃破数　　　　　　：[CC.EF04]回[NLINE]
+//被攻撃回数　　　　：[CC.EF05]回[END-FE]
+攻撃回数　　　　　：[CC.EF01]回[NLINE]
+攻撃魔法使用回数　：[CC.EF02]回[NLINE]
+補助魔法使用回数　：[CC.EF03]回[NLINE]
+撃破数　　　　　　：[CC.EF04]回[NLINE]
+被攻撃回数　　　　：[CC.EF05]回[END-FE]
+
+
+
+
+
+//POINTER #847 @ $10C5C - STRING #847 @ $1B03E
+#W32($10C5C)
+//キャラメイクを始めて[NLINE]
+//３３２秒前に最後の戦闘へ辿りついた。[END-FE]
+キャラメイクを始めて[NLINE]
+３３２秒前に最後の戦闘へ辿りついた。[END-FE]
+
+
+
+
+
+//POINTER #848 @ $10C60 - STRING #848 @ $1B07B
+#W32($10C60)
+//キャラメイクを始めて[NLINE]
+//４００秒前に最後の戦闘へ辿りついた。[END-FE]
+キャラメイクを始めて[NLINE]
+４００秒前に最後の戦闘へ辿りついた。[END-FE]
+
+
+
+
+
+//POINTER #849 @ $10C64 - STRING #849 @ $1B0B8
+#W32($10C64)
+//キャラメイクを始めて[NLINE]
+//４００秒以上経って[NLINE]
+//最後の戦闘へ辿りついた。[END-FE]
+キャラメイクを始めて[NLINE]
+４００秒以上経って[NLINE]
+最後の戦闘へ辿りついた。[END-FE]
+
+
+
+
+
+//POINTER #850 @ $10C68 - STRING #850 @ $1B0FD
+#W32($10C68)
+//防御自慢をギャフンと[NLINE]
+//言わせられなかった。[END-FE]
+防御自慢をギャフンと[NLINE]
+言わせられなかった。[END-FE]
+
+
+
+
+
+//POINTER #851 @ $10C6C - STRING #851 @ $1B12A
+#W32($10C6C)
+//防御自慢をギリギリまで[NLINE]
+//追い込んだ。[END-FE]
+防御自慢をギリギリまで[NLINE]
+追い込んだ。[END-FE]
+
+
+
+
+
+//POINTER #852 @ $10C70 - STRING #852 @ $1B151
+#W32($10C70)
+//防御自慢を降参させた。[END-FE]
+防御自慢を降参させた。[END-FE]
+
+
+
+
+
+//POINTER #853 @ $10C74 - STRING #853 @ $1B16A
+#W32($10C74)
+//防御自慢からの挑戦を[NLINE]
+//拒否した。[END-FE]
+防御自慢からの挑戦を[NLINE]
+拒否した。[END-FE]
+
+
+
+
+
+//POINTER #854 @ $10C78 - STRING #854 @ $1B18D
+#W32($10C78)
+//伝言を頼まれ、それを詰め所に伝えて、[NLINE]
+//ついでの彼女にも事情を伝えた。[NLINE]
+//その上で、警備兵に事情を教えた。[END-FE]
+伝言を頼まれ、それを詰め所に伝えて、[NLINE]
+ついでの彼女にも事情を伝えた。[NLINE]
+その上で、警備兵に事情を教えた。[END-FE]
+
+
+
+
+
+//POINTER #855 @ $10C7C - STRING #855 @ $1B1F6
+#W32($10C7C)
+//伝言を頼まれ、それを詰め所に伝えて、[NLINE]
+//ついでの彼女にも事情を伝えた。[NLINE]
+//が、警備兵にその事を伝えなかった。[END-FE]
+伝言を頼まれ、それを詰め所に伝えて、[NLINE]
+ついでの彼女にも事情を伝えた。[NLINE]
+が、警備兵にその事を伝えなかった。[END-FE]
+
+
+
+
+
+//POINTER #856 @ $10C80 - STRING #856 @ $1B261
+#W32($10C80)
+//伝言を頼まれ、それを詰め所に伝えた。[NLINE]
+//警備兵にその事を伝えた。[END-FE]
+伝言を頼まれ、それを詰め所に伝えた。[NLINE]
+警備兵にその事を伝えた。[END-FE]
+
+
+
+
+
+//POINTER #857 @ $10C84 - STRING #857 @ $1B2A2
+#W32($10C84)
+//伝言を頼まれ、それを詰め所に伝えた。[NLINE]
+//が、警備兵にその事を伝えなかった。[END-FE]
+伝言を頼まれ、それを詰め所に伝えた。[NLINE]
+が、警備兵にその事を伝えなかった。[END-FE]
+
+
+
+
+
+//POINTER #858 @ $10C88 - STRING #858 @ $1B2ED
+#W32($10C88)
+//伝言を頼まれたが、[NLINE]
+//それを詰め所に伝えなかった。[END-FE]
+伝言を頼まれたが、[NLINE]
+それを詰め所に伝えなかった。[END-FE]
+
+
+
+
+
+//POINTER #859 @ $10C8C - STRING #859 @ $1B320
+#W32($10C8C)
+//留守番を頼まれたが[NLINE]
+//祭壇に入り、お供え物を盗んだ。[NLINE]
+//そして警備員に嘘をついた。[END-FE]
+留守番を頼まれたが[NLINE]
+祭壇に入り、お供え物を盗んだ。[NLINE]
+そして警備員に嘘をついた。[END-FE]
+
+
+
+
+
+//POINTER #860 @ $10C90 - STRING #860 @ $1B371
+#W32($10C90)
+//留守番を頼まれ、[NLINE]
+//最後までちゃんと留守番をした。[END-FE]
+留守番を頼まれ、[NLINE]
+最後までちゃんと留守番をした。[END-FE]
+
+
+
+
+
+//POINTER #861 @ $10C94 - STRING #861 @ $1B3A4
+#W32($10C94)
+//留守番を頼まれが、[NLINE]
+//祭壇に入り、お供え物を盗んだ。[NLINE]
+//それを警備員に告白した。[END-FE]
+留守番を頼まれが、[NLINE]
+祭壇に入り、お供え物を盗んだ。[NLINE]
+それを警備員に告白した。[END-FE]
+
+
+
+
+
+//POINTER #862 @ $10C98 - STRING #862 @ $1B3F3
+#W32($10C98)
+//留守番を頼まれ、祭壇に入った。[NLINE]
+//それを正直に告白した。[END-FE]
+留守番を頼まれ、祭壇に入った。[NLINE]
+それを正直に告白した。[END-FE]
+
+
+
+
+
+//POINTER #863 @ $10C9C - STRING #863 @ $1B42C
+#W32($10C9C)
+//留守番を頼まれ、[NLINE]
+//祭壇に入っていないのに入ったと[NLINE]
+//嘘をついた。[END-FE]
+留守番を頼まれ、[NLINE]
+祭壇に入っていないのに入ったと[NLINE]
+嘘をついた。[END-FE]
+
+
+
+
+
+//POINTER #864 @ $10CA0 - STRING #864 @ $1B46D
+#W32($10CA0)
+//留守番を頼まれ、お供え物を盗んだ上に、[NLINE]
+//途中で投げ出した。[END-FE]
+留守番を頼まれ、お供え物を盗んだ上に、[NLINE]
+途中で投げ出した。[END-FE]
+
+
+
+
+
+//POINTER #865 @ $10CA4 - STRING #865 @ $1B4AA
+#W32($10CA4)
+//留守番を頼まれたが、[NLINE]
+//途中で投げ出した。[END-FE]
+留守番を頼まれたが、[NLINE]
+途中で投げ出した。[END-FE]
+
+
+
+
+
+//POINTER #866 @ $10CA8 - STRING #866 @ $1B4D5
+#W32($10CA8)
+//守番を頼まれたが、[NLINE]
+//祭壇に入ってお供え物を盗み、[NLINE]
+//それを警備兵に見つかった。[END-FE]
+守番を頼まれたが、[NLINE]
+祭壇に入ってお供え物を盗み、[NLINE]
+それを警備兵に見つかった。[END-FE]
+
+
+
+
+
+//POINTER #867 @ $10CAC - STRING #867 @ $1B524
+#W32($10CAC)
+//守番を頼まれたが、祭壇に入り[NLINE]
+//それを警備兵に見つかった。[END-FE]
+守番を頼まれたが、祭壇に入り[NLINE]
+それを警備兵に見つかった。[END-FE]
+
+
+
+
+
+//POINTER #868 @ $10CB0 - STRING #868 @ $1B55F
+#W32($10CB0)
+//留守番、[NLINE]
+//伝言を引き受けなかった。[END-FE]
+留守番、[NLINE]
+伝言を引き受けなかった。[END-FE]
+
+
+
+
+
+//POINTER #869 @ $10CB4 - STRING #869 @ $1B584
+#W32($10CB4)
+//柱を叩いて[NLINE]
+//１発で疾風のリンゴを[NLINE]
+//手に入れた[END-FE]
+柱を叩いて[NLINE]
+１発で疾風のリンゴを[NLINE]
+手に入れた[END-FE]
+
+
+
+
+
+//POINTER #870 @ $10CB8 - STRING #870 @ $1B5B3
+#W32($10CB8)
+//柱を叩いて[NLINE]
+//４発までで疾風のリンゴを[NLINE]
+//手に入れた[END-FE]
+柱を叩いて[NLINE]
+４発までで疾風のリンゴを[NLINE]
+手に入れた[END-FE]
+
+
+
+
+
+//POINTER #871 @ $10CBC - STRING #871 @ $1B5E6
+#W32($10CBC)
+//柱を叩いて[NLINE]
+//何とかで疾風のリンゴを[NLINE]
+//手に入れた[END-FE]
+柱を叩いて[NLINE]
+何とかで疾風のリンゴを[NLINE]
+手に入れた[END-FE]
+
+
+
+
+
+//POINTER #872 @ $10CC0 - STRING #872 @ $1B617
+#W32($10CC0)
+//戦闘問題全問正解[END-FE]
+戦闘問題全問正解[END-FE]
+
+
+
+
+
+//POINTER #873 @ $10CC4 - STRING #873 @ $1B62A
+#W32($10CC4)
+//戦闘問題４問正解[END-FE]
+戦闘問題４問正解[END-FE]
+
+
+
+
+
+//POINTER #874 @ $10CC8 - STRING #874 @ $1B63D
+#W32($10CC8)
+//戦闘問題３問正解[END-FE]
+戦闘問題３問正解[END-FE]
+
+
+
+
+
+//POINTER #875 @ $10CCC - STRING #875 @ $1B650
+#W32($10CCC)
+//戦闘問題２問正解[END-FE]
+戦闘問題２問正解[END-FE]
+
+
+
+
+
+//POINTER #876 @ $10CD0 - STRING #876 @ $1B663
+#W32($10CD0)
+//戦闘問題１問正解[END-FE]
+戦闘問題１問正解[END-FE]
+
+
+
+
+
+//POINTER #877 @ $10CD4 - STRING #877 @ $1B676
+#W32($10CD4)
+//戦闘問題全問不正解[END-FE]
+戦闘問題全問不正解[END-FE]
+
+
+
+
+
+//POINTER #878 @ $10CD8 - STRING #878 @ $1B68B
+#W32($10CD8)
+//一般問題全問正解[END-FE]
+一般問題全問正解[END-FE]
+
+
+
+
+
+//POINTER #879 @ $10CDC - STRING #879 @ $1B69E
+#W32($10CDC)
+//一般問題４問正解[END-FE]
+一般問題４問正解[END-FE]
+
+
+
+
+
+//POINTER #880 @ $10CE0 - STRING #880 @ $1B6B1
+#W32($10CE0)
+//一般問題３問正解[END-FE]
+一般問題３問正解[END-FE]
+
+
+
+
+
+//POINTER #881 @ $10CE4 - STRING #881 @ $1B6C4
+#W32($10CE4)
+//一般問題２問正解[END-FE]
+一般問題２問正解[END-FE]
+
+
+
+
+
+//POINTER #882 @ $10CE8 - STRING #882 @ $1B6D7
+#W32($10CE8)
+//一般問題１問正解[END-FE]
+一般問題１問正解[END-FE]
+
+
+
+
+
+//POINTER #883 @ $10CEC - STRING #883 @ $1B6EA
+#W32($10CEC)
+//一般問題全問不正解[END-FE]
+一般問題全問不正解[END-FE]
+
+
+
+
+
+//POINTER #884 @ $10CF0 - STRING #884 @ $1B6FF
+#W32($10CF0)
+//茂みから、[NLINE]
+//１回で回復薬を見つけた。[END-FE]
+茂みから、[NLINE]
+１回で回復薬を見つけた。[END-FE]
+
+
+
+
+
+//POINTER #885 @ $10CF4 - STRING #885 @ $1B726
+#W32($10CF4)
+//茂みから、[NLINE]
+//５回以内に回復薬を見つけた。[END-FE]
+茂みから、[NLINE]
+５回以内に回復薬を見つけた。[END-FE]
+
+
+
+
+
+//POINTER #886 @ $10CF8 - STRING #886 @ $1B751
+#W32($10CF8)
+//取り合えず茂みから、[NLINE]
+//回復薬を見つけた。[END-FE]
+取り合えず茂みから、[NLINE]
+回復薬を見つけた。[END-FE]
+
+
+
+
+
+//POINTER #887 @ $10CFC - STRING #887 @ $1B77C
+#W32($10CFC)
+//募金を５した。[END-FE]
+募金を５した。[END-FE]
+
+
+
+
+
+//POINTER #888 @ $10D00 - STRING #888 @ $1B78D
+#W32($10D00)
+//募金を１０した。[END-FE]
+募金を１０した。[END-FE]
+
+
+
+
+
+//POINTER #889 @ $10D04 - STRING #889 @ $1B7A0
+#W32($10D04)
+//募金を１５した。[END-FE]
+募金を１５した。[END-FE]
+
+
+
+
+
+//POINTER #890 @ $10D08 - STRING #890 @ $1B7B3
+#W32($10D08)
+//募金を２０した。[END-FE]
+募金を２０した。[END-FE]
+
+
+
+
+
+//POINTER #891 @ $10D0C - STRING #891 @ $1B7C6
+#W32($10D0C)
+//募金を頼まれたが、[NLINE]
+//拒否した。[END-FE]
+募金を頼まれたが、[NLINE]
+拒否した。[END-FE]
+
+
+
+
+
+//POINTER #892 @ $10D10 - STRING #892 @ $1B7E7
+#W32($10D10)
+//鎮痛薬を男に渡そうとしなかった。[END-FE]
+鎮痛薬を男に渡そうとしなかった。[END-FE]
+
+
+
+
+
+//POINTER #893 @ $10D14 - STRING #893 @ $1B80A
+#W32($10D14)
+//鎮痛薬を買った、[NLINE]
+//もしくは貰ったが[NLINE]
+//渡し忘れた。[END-FE]
+鎮痛薬を買った、[NLINE]
+もしくは貰ったが[NLINE]
+渡し忘れた。[END-FE]
+
+
+
+
+
+//POINTER #894 @ $10D18 - STRING #894 @ $1B83D
+#W32($10D18)
+//更に男にお金をせびった。[END-FE]
+更に男にお金をせびった。[END-FE]
+
+
+
+
+
+//POINTER #895 @ $10D1C - STRING #895 @ $1B858
+#W32($10D1C)
+//鎮痛薬を買って来て、渡した。[NLINE]
+//または、貰って来て、渡した。[END-FE]
+鎮痛薬を買って来て、渡した。[NLINE]
+または、貰って来て、渡した。[END-FE]
+
+
+
+
+
+//POINTER #896 @ $10D20 - STRING #896 @ $1B895
+#W32($10D20)
+//鎮痛薬を買わずに[NLINE]
+//違う場所にお金を使った。[END-FE]
+鎮痛薬を買わずに[NLINE]
+違う場所にお金を使った。[END-FE]
+
+
+
+
+
+//POINTER #897 @ $10D24 - STRING #897 @ $1B8C2
+#W32($10D24)
+//買い物を拒否した。[END-FE]
+買い物を拒否した。[END-FE]
+
+
+
+
+
+//POINTER #898 @ $10D28 - STRING #898 @ $1B8D7
+#W32($10D28)
+//余ったお金を返そうとした。[END-FE]
+余ったお金を返そうとした。[END-FE]
+
+
+
+
+
+//POINTER #899 @ $10D2C - STRING #899 @ $1B8F4
+#W32($10D2C)
+//余ったお金を着服した。[END-FE]
+余ったお金を着服した。[END-FE]
+
+
+
+
+
+//POINTER #900 @ $10D30 - STRING #900 @ $1B90D
+#W32($10D30)
+//名前当て、[NLINE]
+//全問正解[END-FE]
+名前当て、[NLINE]
+全問正解[END-FE]
+
+
+
+
+
+//POINTER #901 @ $10D34 - STRING #901 @ $1B924
+#W32($10D34)
+//名前当て、[NLINE]
+//２問正解[END-FE]
+名前当て、[NLINE]
+２問正解[END-FE]
+
+
+
+
+
+//POINTER #902 @ $10D38 - STRING #902 @ $1B93B
+#W32($10D38)
+//名前当て、[NLINE]
+//１問正解[END-FE]
+名前当て、[NLINE]
+１問正解[END-FE]
+
+
+
+
+
+//POINTER #903 @ $10D3C - STRING #903 @ $1B952
+#W32($10D3C)
+//名前当て、[NLINE]
+//全問不正解[END-FE]
+名前当て、[NLINE]
+全問不正解[END-FE]
+
+
+
+
+
+//POINTER #904 @ $10D40 - STRING #904 @ $1B96B
+#W32($10D40)
+//子供達と遊んであげなかった。[END-FE]
+子供達と遊んであげなかった。[END-FE]
+
+
+
+
+
+//POINTER #905 @ $10D44 - STRING #905 @ $1B98A
+#W32($10D44)
+//かけっこで子供に勝利。[END-FE]
+かけっこで子供に勝利。[END-FE]
+
+
+
+
+
+//POINTER #906 @ $10D48 - STRING #906 @ $1B9A3
+#W32($10D48)
+//かけっこで子供と健闘した。[END-FE]
+かけっこで子供と健闘した。[END-FE]
+
+
+
+
+
+//POINTER #907 @ $10D4C - STRING #907 @ $1B9C0
+#W32($10D4C)
+//かけっこで子供の圧勝だった。[END-FE]
+かけっこで子供の圧勝だった。[END-FE]
+
+
+
+
+
+//POINTER #908 @ $10D50 - STRING #908 @ $1B9DF
+#W32($10D50)
+//かけっこであまりに遅くて、[NLINE]
+//子供に見切りをつけられた。[END-FE]
+かけっこであまりに遅くて、[NLINE]
+子供に見切りをつけられた。[END-FE]
+
+
+
+
+
+//POINTER #909 @ $10D54 - STRING #909 @ $1BA18
+#W32($10D54)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//７つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+７つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #910 @ $10D58 - STRING #910 @ $1BA57
+#W32($10D58)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//６つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+６つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #911 @ $10D5C - STRING #911 @ $1BA96
+#W32($10D5C)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//５つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+５つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #912 @ $10D60 - STRING #912 @ $1BAD5
+#W32($10D60)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//４つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+４つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #913 @ $10D64 - STRING #913 @ $1BB14
+#W32($10D64)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//３つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+３つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #914 @ $10D68 - STRING #914 @ $1BB53
+#W32($10D68)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//２つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+２つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #915 @ $10D6C - STRING #915 @ $1BB92
+#W32($10D6C)
+//真珠を見つけてくれと頼まれ、[NLINE]
+//４つ見つけたが、返さなかった。[END-FE]
+真珠を見つけてくれと頼まれ、[NLINE]
+４つ見つけたが、返さなかった。[END-FE]
+
+
+
+
+
+//POINTER #916 @ $10D70 - STRING #916 @ $1BBD1
+#W32($10D70)
+//真珠を全て見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を全て見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #917 @ $10D74 - STRING #917 @ $1BBF8
+#W32($10D74)
+//真珠を１つ見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を１つ見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #918 @ $10D78 - STRING #918 @ $1BC1F
+#W32($10D78)
+//真珠を２つ見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を２つ見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #919 @ $10D7C - STRING #919 @ $1BC46
+#W32($10D7C)
+//真珠を３つ見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を３つ見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #920 @ $10D80 - STRING #920 @ $1BC6D
+#W32($10D80)
+//真珠を４つ見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を４つ見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #921 @ $10D84 - STRING #921 @ $1BC94
+#W32($10D84)
+//真珠を５つ見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を５つ見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #922 @ $10D88 - STRING #922 @ $1BCBB
+#W32($10D88)
+//真珠を６つ見つけて、[NLINE]
+//返してあげた。[END-FE]
+真珠を６つ見つけて、[NLINE]
+返してあげた。[END-FE]
+
+
+
+
+
+//POINTER #923 @ $10D8C - STRING #923 @ $1BCE2
+#W32($10D8C)
+//武器屋横の扉が壊れてしまい、[NLINE]
+//工具箱を届けてあげた。[END-FE]
+武器屋横の扉が壊れてしまい、[NLINE]
+工具箱を届けてあげた。[END-FE]
+
+
+
+
+
+//POINTER #924 @ $10D90 - STRING #924 @ $1BD19
+#W32($10D90)
+//武器屋横の扉が壊れてしまったままで[NLINE]
+//終わった。[END-FE]
+武器屋横の扉が壊れてしまったままで[NLINE]
+終わった。[END-FE]
+
+
+
+
+
+//POINTER #925 @ $10D94 - STRING #925 @ $1BD4A
+#W32($10D94)
+//武器屋横の扉を壊してしまい、[NLINE]
+//工具箱を届けてあげた。[END-FE]
+武器屋横の扉を壊してしまい、[NLINE]
+工具箱を届けてあげた。[END-FE]
+
+
+
+
+
+//POINTER #926 @ $10D98 - STRING #926 @ $1BD81
+#W32($10D98)
+//武器屋横の扉を壊してしまい、[NLINE]
+//そのまま終わった。[END-FE]
+武器屋横の扉を壊してしまい、[NLINE]
+そのまま終わった。[END-FE]
+
+
+
+
+
+//POINTER #927 @ $10D9C - STRING #927 @ $1BDB4
+#W32($10D9C)
+//エレベーターに閉じ込められ、[NLINE]
+//暴れて脱出出来なくなった。[END-FE]
+エレベーターに閉じ込められ、[NLINE]
+暴れて脱出出来なくなった。[END-FE]
+
+
+
+
+
+//POINTER #928 @ $10DA0 - STRING #928 @ $1BDEF
+#W32($10DA0)
+//エレベーターに閉じ込められ、[NLINE]
+//換気ダクトを見つけて、[NLINE]
+//自力で脱出した。[END-FE]
+エレベーターに閉じ込められ、[NLINE]
+換気ダクトを見つけて、[NLINE]
+自力で脱出した。[END-FE]
+
+
+
+
+
+//POINTER #929 @ $10DA4 - STRING #929 @ $1BE38
+#W32($10DA4)
+//エレベーターに閉じ込められ、[NLINE]
+//換気ダクトを見つけてが、[NLINE]
+//助けて貰うまで待った。[END-FE]
+エレベーターに閉じ込められ、[NLINE]
+換気ダクトを見つけてが、[NLINE]
+助けて貰うまで待った。[END-FE]
+
+
+
+
+
+//POINTER #930 @ $10DA8 - STRING #930 @ $1BE89
+#W32($10DA8)
+//エレベーターに閉じ込められ、[NLINE]
+//自力で脱出した。[END-FE]
+エレベーターに閉じ込められ、[NLINE]
+自力で脱出した。[END-FE]
+
+
+
+
+
+//POINTER #931 @ $10DAC - STRING #931 @ $1BEBA
+#W32($10DAC)
+//エレベーターに閉じ込められ、[NLINE]
+//助けて貰うまで待った。[END-FE]
+エレベーターに閉じ込められ、[NLINE]
+助けて貰うまで待った。[END-FE]
+
+
+
+
+
+//POINTER #932 @ $10DB0 - STRING #932 @ $1BEF1
+#W32($10DB0)
+//記憶力テストを正解した。[END-FE]
+記憶力テストを正解した。[END-FE]
+
+
+
+
+
+//POINTER #933 @ $10DB4 - STRING #933 @ $1BF0C
+#W32($10DB4)
+//テスト前に自信有りと言った。[END-FE]
+テスト前に自信有りと言った。[END-FE]
+
+
+
+
+
+//POINTER #934 @ $10DB8 - STRING #934 @ $1BF2B
+#W32($10DB8)
+//テスト前に自信無しと言った。[END-FE]
+テスト前に自信無しと言った。[END-FE]
+
+
+
+
+
+//POINTER #935 @ $10DBC - STRING #935 @ $1BF4A
+#W32($10DBC)
+//記憶力テストを失敗した。[END-FE]
+記憶力テストを失敗した。[END-FE]
+
+
+
+
+
+//POINTER #936 @ $10DC0 - STRING #936 @ $1BF65
+#W32($10DC0)
+//テスト前に自信有りと言った。[END-FE]
+テスト前に自信有りと言った。[END-FE]
+
+
+
+
+
+//POINTER #937 @ $10DC4 - STRING #937 @ $1BF84
+#W32($10DC4)
+//テスト前に自信無しと言った。[END-FE]
+テスト前に自信無しと言った。[END-FE]
+
+
+
+
+
+//POINTER #938 @ $10DC8 - STRING #938 @ $1BFA3
+#W32($10DC8)
+//記憶力テストを降参した。[END-FE]
+記憶力テストを降参した。[END-FE]
+
+
+
+
+
+//POINTER #939 @ $10DCC - STRING #939 @ $1BFBE
+#W32($10DCC)
+//テスト前に自信有りと言った。[END-FE]
+テスト前に自信有りと言った。[END-FE]
+
+
+
+
+
+//POINTER #940 @ $10DD0 - STRING #940 @ $1BFDD
+#W32($10DD0)
+//テスト前に自信無しと言った。[END-FE]
+テスト前に自信無しと言った。[END-FE]
+
+
+
+
+
+//POINTER #941 @ $10DD4 - STRING #941 @ $1BFFC
+#W32($10DD4)
+//ゲル退治をずっと見ていた。[END-FE]
+ゲル退治をずっと見ていた。[END-FE]
+
+
+
+
+
+//POINTER #942 @ $10DD8 - STRING #942 @ $1C019
+#W32($10DD8)
+//ゲルを１匹退治した。[END-FE]
+ゲルを１匹退治した。[END-FE]
+
+
+
+
+
+//POINTER #943 @ $10DDC - STRING #943 @ $1C030
+#W32($10DDC)
+//ゲルを２匹退治した。[END-FE]
+ゲルを２匹退治した。[END-FE]
+
+
+
+
+
+//POINTER #944 @ $10DE0 - STRING #944 @ $1C047
+#W32($10DE0)
+//ゲルを３匹退治した。[END-FE]
+ゲルを３匹退治した[END-FE]
+
+
+
+
+
+//POINTER #945 @ $10DE4 - STRING #945 @ $1C05E
+#W32($10DE4)
+//ゲルを４匹退治した。[END-FE]
+ゲルを４匹退治した。[END-FE]
+
+
+
+
+
+//POINTER #946 @ $10DE8 - STRING #946 @ $1C075
+#W32($10DE8)
+//ゲルを全匹退治した。[END-FE]
+ゲルを全匹退治した。[END-FE]
+
+
+
+
+
+//POINTER #947 @ $10DEC - STRING #947 @ $1C08C
+#W32($10DEC)
+//ゲルを１匹退治し、[NLINE]
+//途中で街に逃げた。[END-FE]
+ゲルを１匹退治し、[NLINE]
+途中で街に逃げた。[END-FE]
+
+
+
+
+
+//POINTER #948 @ $10DF0 - STRING #948 @ $1C0B5
+#W32($10DF0)
+//ゲルを２匹退治し、[NLINE]
+//途中で街に逃げた。[END-FE]
+ゲルを２匹退治し、[NLINE]
+途中で街に逃げた。[END-FE]
+
+
+
+
+
+//POINTER #949 @ $10DF4 - STRING #949 @ $1C0DE
+#W32($10DF4)
+//ゲルを３匹退治し、[NLINE]
+//途中で街に逃げた。[END-FE]
+ゲルを３匹退治し、[NLINE]
+途中で街に逃げた。[END-FE]
+
+
+
+
+
+//POINTER #950 @ $10DF8 - STRING #950 @ $1C107
+#W32($10DF8)
+//ゲルを４匹退治し、[NLINE]
+//途中で街に逃げた。[END-FE]
+ゲルを４匹退治し、[NLINE]
+途中で街に逃げた。[END-FE]
+
+
+
+
+
+//POINTER #951 @ $10DFC - STRING #951 @ $1C130
+#W32($10DFC)
+//村人全員脱出させ、[NLINE]
+//自分も脱出した。[END-FE]
+村人全員脱出させ、[NLINE]
+自分も脱出した。[END-FE]
+
+
+
+
+
+//POINTER #952 @ $10E00 - STRING #952 @ $1C157
+#W32($10E00)
+//村人全員脱出させ、[NLINE]
+//敵も全滅させた。[END-FE]
+村人全員脱出させ、[NLINE]
+敵も全滅させた。[END-FE]
+
+
+
+
+
+//POINTER #953 @ $10E04 - STRING #953 @ $1C17E
+#W32($10E04)
+//村人全員脱出させたが、[NLINE]
+//自分は撃破された。[END-FE]
+村人全員脱出させたが、[NLINE]
+自分は撃破された。[END-FE]
+
+
+
+
+
+//POINTER #954 @ $10E08 - STRING #954 @ $1C1AB
+#W32($10E08)
+//村人を全滅させて、[NLINE]
+//自分は逃げ出した。[END-FE]
+村人を全滅させて、[NLINE]
+自分は逃げ出した。[END-FE]
+
+
+
+
+
+//POINTER #955 @ $10E0C - STRING #955 @ $1C1D4
+#W32($10E0C)
+//村人を全滅させて、[NLINE]
+//自分も撃破された。[END-FE]
+村人を全滅させて、[NLINE]
+自分も撃破された。[END-FE]
+
+
+
+
+
+//POINTER #956 @ $10E10 - STRING #956 @ $1C1FD
+#W32($10E10)
+//村人を全員犠牲にして、[NLINE]
+//敵を全滅させた。[END-FE]
+村人を全員犠牲にして、[NLINE]
+敵を全滅させた。[END-FE]
+
+
+
+
+
+//POINTER #957 @ $10E14 - STRING #957 @ $1C228
+#W32($10E14)
+//村人を可能な限り逃がして、[NLINE]
+//自分も脱出した。[END-FE]
+村人を可能な限り逃がして、[NLINE]
+自分も脱出した。[END-FE]
+
+
+
+
+
+
+//POINTER #958 @ $10E18 - STRING #958 @ $1C257
+#W32($10E18)
+//村人を数名見捨てて、[NLINE]
+//自分は逃げ出した。[END-FE]
+村人を数名見捨てて、[NLINE]
+自分は逃げ出した。[END-FE]
+
+
+
+
+
+//POINTER #959 @ $10E1C - STRING #959 @ $1C282
+#W32($10E1C)
+//村人を助けきれず、[NLINE]
+//自分は撃破されてしまった。[END-FE]
+村人を助けきれず、[NLINE]
+自分は撃破されてしまった。[END-FE]
+
+
+
+
+
+//POINTER #960 @ $10E20 - STRING #960 @ $1C2B3
+#W32($10E20)
+//敵は全滅させた。[END-FE]
+敵は全滅させた。[END-FE]
+
+
+
+
+
+//POINTER #961 @ $10E24 - STRING #961 @ $1C2C6
+#W32($10E24)
+//警備隊員を回復してあげた。[END-FE]
+警備隊員を回復してあげた。[END-FE]
+
+
+
+
+
+//POINTER #962 @ $10E28 - STRING #962 @ $1C2E3
+#W32($10E28)
+//警備隊員が死亡した。[END-FE]
+警備隊員が死亡した。[END-FE]
+
+
+
+
+
+//POINTER #963 @ $10E2C - STRING #963 @ $1C2FA
+#W32($10E2C)
+//ビル影に[NLINE]
+//隠れている者の正体を見た。[END-FE]
+ビル影に[NLINE]
+隠れている者の正体を見た。[END-FE]
+
+
+
+
+
+//POINTER #964 @ $10E30 - STRING #964 @ $1C321
+#W32($10E30)
+//初期ＳＴＲ　　　[CC.EF09]　　最高　５[NLINE]
+//初期ＩＮＴ　　　[CC.EF0A]　　最高　５[NLINE]
+//初期ＤＥＸ　　　[CC.EF0B]　　最高　５[NLINE]
+//ＳＴＲ成長値　　[CC.EF0C]　　最高　４０[NLINE]
+//ＩＮＴ成長値　　[CC.EF0D]　　最高　４０[NLINE]
+//ＤＥＸ成長値　　[CC.EF0E]　　最高　４０[NLINE]
+//ＨＰ倍率　　　　[CC.EF0F]　　最高　１５[NLINE]
+//ＭＰ倍率　　　　[CC.EF10]　　最高　１０[NLINE]
+//命中率　　　　　[CC.EF11]　　最高　５[NLINE]
+//回避率　　　　　[CC.EF12]　　最高　５[NLINE]
+//クリット率　　　[CC.EF13]　　最高　３[NLINE]
+//ピヨリ値　　　　[CC.EF14]　　最高　１[NLINE]
+//基本ＭＶ　　　　[CC.EF15]　　最高　３[END-FE]
+初期ＳＴＲ　　　[CC.EF09]　　最高　５[NLINE]
+初期ＩＮＴ　　　[CC.EF0A]　　最高　５[NLINE]
+初期ＤＥＸ　　　[CC.EF0B]　　最高　５[NLINE]
+ＳＴＲ成長値　　[CC.EF0C]　　最高　４０[NLINE]
+ＩＮＴ成長値　　[CC.EF0D]　　最高　４０[NLINE]
+ＤＥＸ成長値　　[CC.EF0E]　　最高　４０[NLINE]
+ＨＰ倍率　　　　[CC.EF0F]　　最高　１５[NLINE]
+ＭＰ倍率　　　　[CC.EF10]　　最高　１０[NLINE]
+命中率　　　　　[CC.EF11]　　最高　５[NLINE]
+回避率　　　　　[CC.EF12]　　最高　５[NLINE]
+クリット率　　　[CC.EF13]　　最高　３[NLINE]
+ピヨリ値　　　　[CC.EF14]　　最高　１[NLINE]
+基本ＭＶ　　　　[CC.EF15]　　最高　３[END-FE]
+
+
+
+
+
+//POINTER #965 @ $10E34 - STRING #965 @ $1C4D9
+#W32($10E34)
+//ここまでデバッグメッセージ[END-FE]
+Debug messages up to this point[END-FE]
+
+
+
+
+
+//POINTER #966 @ $10E38 - STRING #966 @ $1C4F6
+#W32($10E38)
+//　　　　　　　イベント発見率　　　　　　　　[NLINE]
+//　　　　　　　　　　[CC.EF00]/18　　　　　　　[END-FE]
+       Events discovered:[NLINE]
+             [CC.EF00]/18[END-FE]
+
+
+
+
+
+//POINTER #967 @ $10E3C - STRING #967 @ $1C54F
+#W32($10E3C)
+//[CHARC800][V1100]
+//すばらしいです。[NLINE]
+//あなたの素養はかなり高いです。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1100]
+Very impressive. Your talents[NLINE]
+are highly remarkable.[END-FE]
+
+
+
+
+
+//POINTER #968 @ $10E40 - STRING #968 @ $1C58A
+#W32($10E40)
+//[CHARC800][V1600]
+//あなたは、戦士として高い素養を[NLINE]
+//お持ちのようです。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1600]
+It seems your talents as a[NLINE]
+warrior are remarkable.[END-FE]
+
+
+
+
+
+//POINTER #969 @ $10E44 - STRING #969 @ $1C5C7
+#W32($10E44)
+//[CHARC800][V1B00]
+//残念ながらあなたは、[NLINE]
+//私の求める戦士ではないようです。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1B00]
+Unfortunately, you do[NLINE]
+not seem to be the[NLINE]
+warrior I seek...[END-FE]
+
+
+
+
+
+//POINTER #970 @ $10E48 - STRING #970 @ $1C608
+#W32($10E48)
+//[CHARC800][V1200]
+//私が求める以上の素養の高さ…。[NLINE]
+//あなたこそ、私の求めていた人物です。[NWIN]
+//
+//[CH.FACE:Normal][CHARC800][V1300]
+//ですが、まだその時ではありません…。[NWIN]
+//
+//[CHARC800][V1400]
+//あなたとはいずれ出会うことになるでしょう。[NLINE]
+//その日を楽しみにしています。[NWIN]
+//
+//[CHARC800][V1500]
+//では、その時まで…。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1200]
+Your talents exceeded my expectations...[NLINE]
+You are indeed the person I have been[NLINE]
+looking for.[NWIN]
+
+[CH.FACE:Normal][CHARC800][V1300]
+However, it is not yet time...[NWIN]
+
+[CHARC800][V1400]
+You and I will surely meet someday.[NLINE]
+I look forward to that moment.[NWIN]
+
+[CHARC800][V1500]
+Until we meet again...[END-FE]
+
+
+
+
+
+//POINTER #971 @ $10E4C - STRING #971 @ $1C6F9
+#W32($10E4C)
+//[CHARC800][V1700]
+//あなたは私の求めるものの[NLINE]
+//多くを満たしています。[NLINE]
+//来るべき時には[NLINE]
+//あなたの手を借りることになるでしょう。[NWIN]
+//
+//[CHARC800][V1800]
+//ですがまだその時ではありません…。[NWIN]
+//
+//[CHARC800][V1900]
+//あなたとはいずれ出会うことになるでしょう。[NLINE]
+//その日を楽しみにしています。[NWIN]
+//
+//[CHARC800][V1A00]
+//では、その時まで…。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1700]
+You possess much of the qualities I am[NLINE]
+looking for. When the time comes, I will[NLINE]
+call upon you for aid.[NWIN]
+
+[CHARC800][V1800]
+However, it is not that time yet...[NWIN]
+
+[CHARC800][V1900]
+You and I will surely meet someday.[NLINE]
+I look forward to that moment.[NWIN]
+
+[CHARC800][V1A00]
+Until we meet again...[END-FE]
+
+
+
+
+
+//POINTER #972 @ $10E50 - STRING #972 @ $1C808
+#W32($10E50)
+//[CHARC800][V1C00]
+//…人には調子という物がありますから、[NLINE]
+//次回はもっと良くなるかも知れません。[NWIN]
+//
+//[CHARC800][V1D00]
+//もしあなたが真の成長を遂げたとき、[NLINE]
+//あなたに手を貸して頂くことになるかも[NLINE]
+//知れません。[NWIN]
+//
+//[CHARC800][V2000]
+//お時間をとらせてしまいましたね。[NLINE]
+//では、さようなら。[END-FE]
+//Shrine Maiden\\
+[CHARC800][V1C00]
+...We all have our good and bad days,[NLINE]
+so perhaps next time you will do better.[NWIN]
+
+[CHARC800][V1D00]
+When you have achieved true growth,[NLINE]
+you may be able to help me.[NWIN]
+
+[CHARC800][V2000]
+Forgive me for taking up your time.[NLINE]
+Farewell.[END-FE]
+
+
+
+
+
+//POINTER #973 @ $10E54 - STRING #973 @ $1C8FB
+#W32($10E54)
+//これまでの事をセーブしますか？[END-FE]
+Will you save the game up to here?[END-FE]
+
+
+
+
+
+//POINTER #974 @ $10E58 - STRING #974 @ $1C91C
+#W32($10E58)
+//・セーブする[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #975 @ $10E5C - STRING #975 @ $1C92B
+#W32($10E5C)
+//・セーブしない[END-FE]
+・Don't save[END-FE]
+
+
+
+
+
+//POINTER #976 @ $10E60 - STRING #976 @ $1C93C
+#W32($10E60)
+//本編開始[END-FE]
+Main Story Start[END-FE]
+
+
+
+
+
+//POINTER #977 @ $10E64 - STRING #977 @ $1C947
+#W32($10E64)
+//[MainCharName]攻撃前[END-FE]
+[MainCharName] before the attack[END-FE]
+
+
+
+
+
+//POINTER #978 @ $10E68 - STRING #978 @ $1C954
+#W32($10E68)
+//[MainCharName]攻撃後[END-FE]
+[MainCharName] after the attack[END-FE]
+
+
+
+
+
+//POINTER #979 @ $10E6C - STRING #979 @ $1C961
+#W32($10E6C)
+//モンスター攻撃前[END-FE]
+Before the monster attack[END-FE]
+
+
+
+
+
+//POINTER #980 @ $10E70 - STRING #980 @ $1C974
+#W32($10E70)
+//モンスター攻撃後[END-FE]
+After the monster attack[END-FE]
+
+
+
+
+
+//POINTER #981 @ $10E74 - STRING #981 @ $1C987
+#W32($10E74)
+//魔法攻撃前[END-FE]
+Before the magic attack[END-FE]
+
+
+
+
+
+//POINTER #982 @ $10E78 - STRING #982 @ $1C994
+#W32($10E78)
+//魔法補助前[END-FE]
+Before the magic assistance[END-FE]
+
+
+
+
+
+//POINTER #983 @ $10E7C - STRING #983 @ $1C9A1
+#W32($10E7C)
+//魔法補助前[END-FE]
+Before the magic assistance[END-FE]
+
+
+
+
+
+//POINTER #984 @ $10E80 - STRING #984 @ $1C9AE
+#W32($10E80)
+//魔法攻撃後[END-FE]
+After the magic attack[END-FE]
+
+
+
+
+
+//POINTER #985 @ $10E84 - STRING #985 @ $1C9BB
+#W32($10E84)
+//魔法補助後[END-FE]
+After the magic assistance[END-FE]
+
+
+
+
+
+//POINTER #986 @ $10E88 - STRING #986 @ $1C9C8
+#W32($10E88)
+//魔法補助後[END-FE]
+After the magic assistance[END-FE]
+
+
+
+
+
+//POINTER #987 @ $10E8C - STRING #987 @ $1C9D5
+#W32($10E8C)
+//長い時間、心象を散策するのですね。[END-FE]
+//Shrine Maiden\\
+We have been wandering around this[NLINE]
+this mental landscape for a long time.[END-FE]
+
+
+
+
+
+//POINTER #988 @ $10E90 - STRING #988 @ $1C9FA
+#W32($10E90)
+//もう随分と長い間心象風景にいますが、[NLINE]
+//まだ散策するのですか。[END-FE]
+//Shrine Maiden\\
+We have been in this mental landscape for[NLINE]
+quite a long time now. Are you still[NLINE]
+strolling around?[END-FE]
+
+

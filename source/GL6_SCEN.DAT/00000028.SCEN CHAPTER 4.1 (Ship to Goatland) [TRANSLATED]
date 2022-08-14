@@ -1,0 +1,1842 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $3840, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $3620, 4, PTR)
+
+#JMP($3840)
+#HDR($3840)
+
+
+
+
+
+//POINTER #0 @ $3620 - STRING #0 @ $3840
+#W32($3620)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $3624 - STRING #1 @ $3843
+#W32($3624)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $3628 - STRING #2 @ $3850
+#W32($3628)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $362C - STRING #3 @ $3875
+#W32($362C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $3630 - STRING #4 @ $389A
+#W32($3630)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $3634 - STRING #5 @ $38AF
+#W32($3634)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $3638 - STRING #6 @ $38D4
+#W32($3638)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $363C - STRING #7 @ $38F9
+#W32($363C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $3640 - STRING #8 @ $392E
+#W32($3640)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $3644 - STRING #9 @ $3963
+#W32($3644)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $3648 - STRING #10 @ $3988
+#W32($3648)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $364C - STRING #11 @ $39AD
+#W32($364C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $3650 - STRING #12 @ $39D2
+#W32($3650)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $3654 - STRING #13 @ $39E7
+#W32($3654)
+//[CHAR0F00][V0000]
+//無事出帆できたな。[NWIN]
+//
+//[CHAR0F00][V0100]
+//向こうに着くまでは特にすることもない。[NLINE]
+//船旅を楽しんでくれ。[NWIN]
+//
+//[CHAR0F00][V0200]
+//各自、割り当てられた船室に入る前に[NLINE]
+//お前たちに渡す物がある。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V0000]
+Our departure went smoothtly.[NWIN]
+
+[CHAR0F00][V0100]
+You don't have any particular tasks[NLINE]
+until we get there. Enjoy the voyage.[NWIN]
+
+[CHAR0F00][V0200]
+However, before you go into your assigned[NLINE]
+cabins, there's something I would like to[NLINE]
+give to each of you.[END-FE]
+
+
+
+
+
+//POINTER #14 @ $3658 - STRING #14 @ $3A90
+#W32($3658)
+//[CHAR0F00][V0300]
+//何がもらえるんだろうね？[END-FE]
+//Wendy\\
+[CHAR0F00][V0300]
+I wonder what we'll get![END-FE]
+
+
+
+
+
+//POINTER #15 @ $365C - STRING #15 @ $3AB3
+#W32($365C)
+//[CHAR0F00][V0400]
+//よし、船室に入れ。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V0400]
+Alright, go to your cabins.[END-FE]
+
+
+
+
+
+//POINTER #16 @ $3660 - STRING #16 @ $3AD0
+#W32($3660)
+//[CHAR0F00][V0500]
+//あれ？[NLINE]
+//…あの、シュヴァイツァー様！[END-FE]
+//Wendy\\
+[CHAR0F00][V0500]
+Huh?[NLINE]
+...Umm, excuse me, Captain Shuweizer![END-FE]
+
+
+
+
+
+//POINTER #17 @ $3664 - STRING #17 @ $3AFF
+#W32($3664)
+//[CHAR0F00][V0600]
+//なんだ？[END-FE]
+//Shuweizer\\
+[CHAR0F00][V0600]
+What is it?[END-FE]
+
+
+
+
+
+//POINTER #18 @ $3668 - STRING #18 @ $3B12
+#W32($3668)
+//[CHAR0F00][V0700]
+//私たち、もらっていませんが…。[END-FE]
+//Wendy\\
+[CHAR0F00][V0700]
+We didn't get it...[END-FE]
+
+
+
+
+
+//POINTER #19 @ $366C - STRING #19 @ $3B3B
+#W32($366C)
+//[CHAR0F00][V0800]
+//あれは、お前たち２人には必要ない。[NLINE]
+//お前たちは、すでに持っている。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V0800]
+There's no need.[NLINE]
+You two already have it.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $3670 - STRING #20 @ $3B88
+#W32($3670)
+//[CHAR0F00][V0900]
+//私たちは…持っている…？[NLINE]
+//いったいどういう事？[END-FE]
+//Wendy\\
+[CHAR0F00][V0900]
+We do?[NLINE]
+What could it be?[END-FE]
+
+
+
+
+
+//POINTER #21 @ $3674 - STRING #21 @ $3BC1
+#W32($3674)
+//ここまでの事をセーブしますか？[END-FE]
+Would you like to save up to this point?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $3678 - STRING #22 @ $3BE2
+#W32($3678)
+//・セーブする[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #23 @ $367C - STRING #23 @ $3BF1
+#W32($367C)
+//・セーブしない[END-FE]
+・Don't save[END-FE]
+
+
+
+
+
+//POINTER #24 @ $3680 - STRING #24 @ $3C02
+#W32($3680)
+//輸送船　初日[END-FE]
+Transport ship - 1st day[END-FE]
+
+
+
+
+
+//POINTER #25 @ $3684 - STRING #25 @ $3C11
+#W32($3684)
+//[CHAR0F00][V0A00]
+//どうしたんだ？[NLINE]
+//まずは荷物を船室に置いてきたらどうだ？[NWIN]
+//
+//[CHAR0F00][V0B00]
+//先は長いんだ。[NLINE]
+//のんびり行こうじゃないか。[END-FE]
+//Captain\\
+[CHAR0F00][V0A00]
+What's the matter?[NLINE]
+How about moving your[NLINE]
+luggage to your cabins first?[NWIN]
+
+[CHAR0F00][V0B00]
+We've got a long way to go.[NLINE]
+Why don't you just sit back and relax?[END-FE]
+
+
+
+
+
+//POINTER #26 @ $3688 - STRING #26 @ $3C86
+#W32($3688)
+//[CHAR0F00][V0B00]
+//先は長いんだ。[NLINE]
+//のんびり行こうじゃないか。[END-FE]
+[CHAR0F00][V0B00]
+We've got a long way to go.[NLINE]
+Why don't you just sit back and relax?[END-FE]
+
+
+
+
+
+//POINTER #27 @ $368C - STRING #27 @ $3CBB
+#W32($368C)
+//どうもこう船の上というのは[NLINE]
+//頭までグラグラしますね。[END-FE]
+//Sales Staff\\
+For some reason, standing on the deck[NLINE]
+of this ship makes me feel dizzy.[END-FE]
+
+
+
+
+
+//POINTER #28 @ $3690 - STRING #28 @ $3CF2
+#W32($3690)
+//なんだか胸やけが止まらない。[NLINE]
+//船員さんにそう言ったら[NLINE]
+//船べりに行って下を向けと言われたよ。[END-FE]
+For some reason, my stomach doesn't[NLINE]
+stop hurting. When I told one of the[NLINE]
+sailors, he told me to go to the side[NLINE]
+of the ship and lean over.[END-FE]
+
+
+
+
+
+//POINTER #29 @ $3694 - STRING #29 @ $3D4F
+#W32($3694)
+//　[NLINE]
+//デッキの洗浄剤などが入っている。[NLINE]
+//[END-FE]
+[NLINE]
+There's washing material for the deck[NLINE]
+inside the cabinet.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #30 @ $3698 - STRING #30 @ $3D78
+#W32($3698)
+//　[NLINE]
+//甲板用のワックスだ。[NLINE]
+//[END-FE]
+[NLINE]
+It's deck wax.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #31 @ $369C - STRING #31 @ $3D95
+#W32($369C)
+//[CHAR0F00][V0C00]
+//私たちが船に乗り込んでから１０日。[NLINE]
+//何もない退屈な日々が過ぎていった。[END-FE]
+//Wendy\\
+[CHAR0F00][V0C00]
+Ten days passed since we boarded[NLINE]
+the boat. Everyday we dealed with[NLINE]
+the boredom of having nothing to do.[END-FE]
+
+
+
+
+
+//POINTER #32 @ $36A0 - STRING #32 @ $3DE6
+#W32($36A0)
+//船室に戻りますか？[END-FE]
+Return to your room?[END-FE]
+
+
+
+
+
+//POINTER #33 @ $36A4 - STRING #33 @ $3DFB
+#W32($36A4)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #34 @ $36A8 - STRING #34 @ $3E12
+#W32($36A8)
+//自動Ｄ　ＥＢ０２＿１前[END-FE]
+自動Ｄ ＥＢ０２＿１前[END-FE]
+
+
+
+
+
+//POINTER #35 @ $36AC - STRING #35 @ $3E2B
+#W32($36AC)
+//ここまでの事をセーブしますか？[END-FE]
+Will you save?[END-FE]
+
+
+
+
+
+//POINTER #36 @ $36B0 - STRING #36 @ $3E4C
+#W32($36B0)
+//・セーブする[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #37 @ $36B4 - STRING #37 @ $3E5B
+#W32($36B4)
+//・セーブしない[END-FE]
+・Don't save[END-FE]
+
+
+
+
+
+//POINTER #38 @ $36B8 - STRING #38 @ $3E6C
+#W32($36B8)
+//輸送船　１０日後[END-FE]
+Transport ship - 10th day[END-FE]
+
+
+
+
+
+//POINTER #39 @ $36BC - STRING #39 @ $3E7F
+#W32($36BC)
+//[CHAR0F00][V0D00]
+//どうしたんだ？[END-FE]
+//Captain\\
+[CHAR0F00][V0D00]
+What's the matter?[END-FE]
+
+
+
+
+
+//POINTER #40 @ $36C0 - STRING #40 @ $3E98
+#W32($36C0)
+//・いつ目的地に着くのか[END-FE]
+・When will we reach the destination?[END-FE]
+
+
+
+
+
+//POINTER #41 @ $36C4 - STRING #41 @ $3EB1
+#W32($36C4)
+//・なぜこの船は古いのか[END-FE]
+・Why is this ship so old?[END-FE]
+
+
+
+
+
+//POINTER #42 @ $36C8 - STRING #42 @ $3ECA
+#W32($36C8)
+//・特にない[END-FE]
+・Nothing in particular[END-FE]
+
+
+
+
+
+//POINTER #43 @ $36CC - STRING #43 @ $3ED7
+#W32($36CC)
+//[CHAR0F00][V0E00]
+//順調に進んでいるとして、[NLINE]
+//明日の午後あたりには陸が見えてくる計算だ。[END-FE]
+//Captain\\
+[CHAR0F00][V0E00]
+Assuming that everything goes well,[NLINE]
+we should be seeing land around[NLINE]
+tomorrow afternoon.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $36D0 - STRING #44 @ $3F26
+#W32($36D0)
+//[CHAR0F00][V0F00]
+//こいつは見た目ほど古い船じゃないぞ。[NLINE]
+//そう見えるように偽装しているからさ。[NWIN]
+//
+//[CHAR0F00][V1000]
+//先発隊の報告によるとあの大陸の文明は[NLINE]
+//我々より遅れているらしいからな。[NWIN]
+//
+//[CHAR0F00][V1100]
+//いきなり高性能な船なんかで乗り付けたら[NLINE]
+//警戒されるだろう？[END-FE]
+//Captain\\
+[CHAR0F00][V0F00]
+It's not as old as it appears.[NLINE]
+We've made it look like that on purpose.[NWIN]
+
+[CHAR0F00][V1000]
+According to reports of our advance[NLINE]
+party, Goatland's civilization[NLINE]
+seems to be less advanced than ours.[NWIN]
+
+[CHAR0F00][V1100]
+Imagine if we arrived there with a[NLINE]
+highly advanced ship. That would most likely[NLINE]
+make them wary, wouldn't it?[END-FE]
+
+
+
+
+
+//POINTER #45 @ $36D4 - STRING #45 @ $400F
+#W32($36D4)
+//[CHAR0F00][V1200]
+//まぁ、焦らずのんびりとな。[NWIN]
+//
+//[CHAR0F00][V1300]
+//することがないなら、[NLINE]
+//船室に戻って寝てるがいいよ。[END-FE]
+//Captain\\
+[CHAR0F00][V1200]
+Anyway, slow and steady wins the race.[NWIN]
+
+[CHAR0F00][V1300]
+If there's nothing for you to do, you[NLINE]
+should go sleep in your cabins.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $36D8 - STRING #46 @ $4070
+#W32($36D8)
+//[CHAR0F00][V0D00]
+//どうしたんだ？[NWIN]
+//
+//[CHAR0F00][V1300]
+//することがないなら、[NLINE]
+//船室に戻って寝てるがいいよ。[END-FE]
+//Captain\\
+[CHAR0F00][V0D00]
+What's the matter?[NWIN]
+
+[CHAR0F00][V1300]
+If there's nothing for you to do, you[NLINE]
+should go sleep in your cabins.[END-FE]
+
+
+
+
+
+//POINTER #47 @ $36DC - STRING #47 @ $40C5
+#W32($36DC)
+//[CHAR0F00][V1400]
+//今回の任務は理解しているな？[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1400]
+Do you understand what this mission[NLINE]
+is about?[END-FE]
+
+
+
+
+
+//POINTER #48 @ $36E0 - STRING #48 @ $40EC
+#W32($36E0)
+//・理解している[END-FE]
+・Yes, I understand[END-FE]
+
+
+
+
+
+//POINTER #49 @ $36E4 - STRING #49 @ $40FD
+#W32($36E4)
+//・理解していない[END-FE]
+・No, I don't[END-FE]
+
+
+
+
+
+//POINTER #50 @ $36E8 - STRING #50 @ $4110
+#W32($36E8)
+//・営業スタッフの護衛[END-FE]
+・To serve as bodyguards for Monopolis personnel[END-FE]
+
+
+
+
+
+//POINTER #51 @ $36EC - STRING #51 @ $4127
+#W32($36EC)
+//・テロリストの排除[END-FE]
+・To get rid of the terrorists[END-FE]
+
+
+
+
+
+//POINTER #52 @ $36F0 - STRING #52 @ $413C
+#W32($36F0)
+//・センサーに反応する物を探す[END-FE]
+・To search for something that gives off a signal[END-FE]
+
+
+
+
+
+//POINTER #53 @ $36F4 - STRING #53 @ $415B
+#W32($36F4)
+//[CHAR0F00][V1700]
+//まぁ、それもやらねばならぬ事の一つだがな。[NWIN]
+//
+//[CHAR0F00][V1800]
+//だがそれは表向きの任務だ。[NWIN]
+//
+//[CHAR0F00][V1900]
+//もし本当にわからないなら、[NLINE]
+//自分の持ち物を確認してみることだ。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1700]
+That's also one of the things we have to do.[NWIN]
+
+[CHAR0F00][V1800]
+However, that's only our official[NLINE]
+mission.[NWIN]
+
+[CHAR0F00][V1900]
+If you really don't know, try[NLINE]
+checking your belongings.[END-FE]
+
+
+
+
+
+//POINTER #54 @ $36F8 - STRING #54 @ $41FC
+#W32($36F8)
+//[CHAR0F00][V1A00]
+//確かにそれも重要だが、[NLINE]
+//真の任務ではないだろう。[NWIN]
+//
+//[CHAR0F00][V1B00]
+//もし本当にわからないなら、[NLINE]
+//自分の持ち物を確認してみることだ。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1A00]
+That's certainly important as well,[NLINE]
+but that's not our true mission.[NWIN]
+
+[CHAR0F00][V1B00]
+If you really don't know, try[NLINE]
+checking your belongings.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $36FC - STRING #55 @ $427F
+#W32($36FC)
+//[CHAR0F00][V2900]
+//俺のオヤジ…モノポリス財閥総帥からの[NLINE]
+//特別指令があったはずだぞ。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V2900]
+It's a special mission given by[NLINE]
+my father, the chairman of Monopolis.[END-FE]
+
+
+
+
+
+//POINTER #56 @ $3700 - STRING #56 @ $42CA
+#W32($3700)
+//[CHAR0F00][V1C00]
+//そうだ。[NLINE]
+//俺のオヤジ…モノポリス財閥総帥からの[NLINE]
+//特別指令だ。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1C00]
+That's right. It's a special mission given by[NLINE]
+my father, the chairman of Monopolis.[END-FE]
+
+
+
+
+
+//POINTER #57 @ $3704 - STRING #57 @ $4311
+#W32($3704)
+//[CHAR0F00][V1D00]
+//オヤジの指示はいつだって理解を超えているが[NLINE]
+//必ず会社の利益を上げるものだったからな。[NLINE]
+//今回もそうなるだろう。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1D00]
+My father's orders are always[NLINE]
+beyond my comprehension, but they always[NLINE]
+produce benefits for the company. I'm[NLINE]
+sure that this time will be no different.[END-FE]
+
+
+
+
+
+//POINTER #58 @ $3708 - STRING #58 @ $4388
+#W32($3708)
+//[CHAR0F00][V1500]
+//何だと？[NLINE]
+//お前は何を聞いていたんだ。[NWIN]
+//
+//[CHAR0F00][V1600]
+//話にならんな。[NLINE]
+//先が思いやられる…。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1500]
+What?[NLINE]
+Haven't you been listening?[NWIN]
+
+[CHAR0F00][V1600]
+This is unacceptable.[NLINE]
+You're not off to a good start...[END-FE]
+
+
+
+
+
+//POINTER #59 @ $370C - STRING #59 @ $43E5
+#W32($370C)
+//[CHAR0F00][V1E00]
+//俺たちはただの警備兵じゃない。[NLINE]
+//俺たちの行動に、[NLINE]
+//モノポリスグループの未来がかかっているんだ。[NLINE]
+//心して行動しろ。[END-FE]
+//Shuweizer\\
+[CHAR0F00][V1E00]
+We're not just guards.[NLINE]
+The future of Monopolis depends[NLINE]
+on our actions. Act with care.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $3710 - STRING #60 @ $4460
+#W32($3710)
+//…ん？[NLINE]
+//俺のスクリーパー対策が知りたい？[NWIN]
+//
+//俺は[COL01]浸透剄[COL00]というジェムを持っている。[NLINE]
+//これが[COL01]スクリーパーにだけ[COL00]はよく効くんだ。[NWIN]
+//
+//そのくせ高価なジェムで、[NLINE]
+//一般には流通してないから、[NLINE]
+//ほとんどお目にかかることはない。[NWIN]
+//
+//俺は昔、[NLINE]
+//ヒンギスタン王国の王都エル・ヒンギスで[NLINE]
+//身なりの良いブローカーから手に入れた。[NWIN]
+//
+//まぁ、お前も欲しかったら、[NLINE]
+//その男から買うことだな。[NLINE]
+//ただし、簡単に手が出る値ではなかったがな。[END-FE]
+//Shuweizer\\
+Hm? You want to know my[NLINE]
+countermeasure against Screapers?[NWIN]
+
+I have something called a [COL01]Penetrator Gem[COL00].[NLINE]
+It's very effective against [COL01]Screapers[COL00].[NWIN]
+
+It's an expensive gem and not generally[NLINE]
+distributed, so you rarely see it.[NWIN]
+
+I bought it a long time ago from a[NLINE]
+good broker in the capital[NLINE]
+of Hingistan, EL Hingis.[NWIN]
+
+If you also want one, you'll[NLINE]
+have to buy it from him.[NLINE]
+expect to pay a steep price for it..[END-FE]
+
+
+
+
+
+//POINTER #61 @ $3714 - STRING #61 @ $45FB
+#W32($3714)
+//[COL01]浸透剄[COL00]というジェムが欲しければ、[NLINE]
+//ヒンギスタン王国の王都エル・ヒンギスで[NLINE]
+//ブローカーから買うしかないな。[NLINE]
+//ただし、簡単に手が出る値ではないがな。[END-FE]
+//Shuweizer\\
+If you want a [COL01]Penetrator Gem[COL00],[NLINE]
+you have to choice but to buy it[NLINE]
+from a broker in the capital of Hingistan,[NLINE]
+El Hingis.[NWIN]
+
+However, expect to pay a steep price for it.[END-FE]
+
+
+
+
+
+//POINTER #62 @ $3718 - STRING #62 @ $4694
+#W32($3718)
+//この木箱の中には、新型の[NLINE]
+//ポリュミネの苗木が入っているんだ。[END-FE]
+There's a new type of Pollumine[NLINE]
+seedling in this wooden box.[END-FE]
+
+
+
+
+
+//POINTER #63 @ $371C - STRING #63 @ $46D3
+#W32($371C)
+//・ポリュミネとは何か？[END-FE]
+・Ask what Pollumine is[END-FE]
+
+
+
+
+
+//POINTER #64 @ $3720 - STRING #64 @ $46EC
+#W32($3720)
+//・黙って話を聞く[END-FE]
+・Listen silently[END-FE]
+
+
+
+
+
+//POINTER #65 @ $3724 - STRING #65 @ $46FF
+#W32($3724)
+//おいおい、ポリュミネは[NLINE]
+//我が社の大ヒット商品じゃないか！[NWIN]
+//
+//ポリューション・エリミネーター、[NLINE]
+//略して『ポリュミネ』[NLINE]
+//その名の通り、公害を除去するもの、さ。[NWIN]
+//
+//土壌汚染のひどい場所に植えると、[NLINE]
+//大地の中から毒素を吸い上げ、[NLINE]
+//大地を浄化してくれるんだ。[NWIN]
+//
+//さらに、その香りは[NLINE]
+//スクリーパーを寄せ付けない！[END-FE]
+Hey, you do know Pollumine is[NLINE]
+our company's hit product, right?[NWIN]
+
+Pollumine stands for "Pollution[NLINE]
+Eliminator". Just as its name[NLINE]
+implies, it eliminates pollution.[NWIN]
+
+When planted in severely[NLINE]
+polluted soil, the Pollumine[NLINE]
+will absorb the toxins and purify[NLINE]
+the affected area.[NWIN]
+
+Also, its scent keeps Screapers[NLINE]
+away![END-FE]
+
+
+
+
+
+//POINTER #66 @ $3728 - STRING #66 @ $4828
+#W32($3728)
+//しかもこの新型のポリュミネは、[NLINE]
+//今までの物より改良されている。[NWIN]
+//
+//なんと大地の毒素を取り除くだけじゃなく、[NLINE]
+//その土地を活性化してくれる。[NWIN]
+//
+//つまり作物が良く育ち、収穫も増える。[NLINE]
+//人々の生活を、さらに豊かにできるんだ。[NWIN]
+//
+//もちろん、スクリーパーが嫌がる波動は[NLINE]
+//そのままにね！[END-FE]
+This new type of Pollumine has been[NLINE]
+improved over the previous one.[NWIN]
+
+Not only does it remove toxins from[NLINE]
+the earth, it revitalizes the soil as well.[NWIN]
+
+In short, the crops will grow well[NLINE]
+and the harvest will increase, making[NLINE]
+people's lives better.[NWIN]
+
+And of course, it still emits the[NLINE]
+frequency that Screapers dislike![END-FE]
+
+
+
+
+
+//POINTER #67 @ $372C - STRING #67 @ $4935
+#W32($372C)
+//・スクリーパーとは何か？[END-FE]
+・What are Screapers?"[END-FE]
+
+
+
+
+
+//POINTER #68 @ $3730 - STRING #68 @ $4950
+#W32($3730)
+//・納得する[END-FE]
+・Agree[END-FE]
+
+
+
+
+
+//POINTER #69 @ $3734 - STRING #69 @ $495D
+#W32($3734)
+//私も実際に見たことはないんだが、[NLINE]
+//何でも人間ばかりを狙うという特性がある[NLINE]
+//水辺に生息する最強のモンスターらしい。[NWIN]
+//
+//このポリュミネの木が嫌いらしくて、[NLINE]
+//街の周囲にこれを植えてからは、[NLINE]
+//姿を見なくなったそうだよ。[END-FE]
+I haven't seen them before, but I heard[NLINE]
+they are the strongest among all monsters.[NLINE]
+They live near bodies of water and tend[NLINE]
+to specifically target humans.[NWIN]
+
+They hate Pollumine trees, and after[NLINE]
+we planted them around the city, they[NLINE]
+disappeared.[END-FE]
+
+
+
+
+
+//POINTER #70 @ $3738 - STRING #70 @ $4A30
+#W32($3738)
+//スクリーパーはポリュミネの木が嫌いらしい。[NLINE]
+//これだけ苗を積んでいれば、[NLINE]
+//海の上とはいえ、スクリーパーと[NLINE]
+//遭遇することはないと思うんだけど。[END-FE]
+Screapers seem to be repelled by[NLINE]
+Pollumine trees. With this many[NLINE]
+seedlings, I don't think we'll encounter[NLINE]
+any Screapers, not even out here on the ocean.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $373C - STRING #71 @ $4ABD
+#W32($373C)
+//あの大陸は何千年も外と接触がなかった。[NWIN]
+//
+//だから、技術レベルはもっと低いかと思ったが、[NLINE]
+//先発隊の報告によると、[NLINE]
+//思ったほど低くはないらしい。[NWIN]
+//
+//もっとも、我々だって一度滅びかけたんだから、[NLINE]
+//同じようなものなのかも知れないな。[END-FE]
+Goatland hasn't had any contact[NLINE]
+from outside for thousands of years.[NWIN]
+
+That's why we thought its level of technology[NLINE]
+must be lower than ours. However, according to reports of[NLINE]
+our advance party, it doesn't seem to[NLINE]
+be as low as we thought.[NWIN]
+
+Then again, our civilization perished once,[NLINE]
+so maybe they are at the same level as us.[END-FE]
+
+
+
+
+
+//POINTER #72 @ $3740 - STRING #72 @ $4B9C
+#W32($3740)
+//最初のウチは楽しかったが、[NLINE]
+//そろそろ船旅も飽きてきたな。[END-FE]
+It was fun at first, but I'm[NLINE]
+really getting tired of this[NLINE]
+sea trip.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $3744 - STRING #73 @ $4BD7
+#W32($3744)
+//なぁ、お前、スクリーパーって[NLINE]
+//知っているか？[NLINE]
+//何百年も前からいる、[NLINE]
+//人間の天敵みたいなもんだ。[NWIN]
+//
+//陸上のスクリーパーなら[NLINE]
+//我が社のポリュミネで対処出来る。[NLINE]
+//だけど船の上じゃ…、[NLINE]
+//…ちょっと不安だよな？[NWIN]
+//
+//シュヴァイツァー様くらい強ければ、[NLINE]
+//スクリーパーも怖くないんだろうが…。[NLINE]
+//そうなるには、どうすれば良いんだ？[NLINE]
+//直接聞いた方がいいのかな？[END-FE]
+Do you know about Screapers?[NLINE]
+They're predators that have[NLINE]
+been around for hundreds[NLINE]
+of years.[NWIN]
+
+Our company's Pollumine deals with them[NLINE]
+if they get on land. But if they were[NLINE]
+to get on our ship...[NLINE]
+...That thought makes me a little worried.[NWIN]
+
+If only we were as strong as Captain[NLINE]
+Shuweizer, then there wouldn't be any need[NLINE]
+to be afraid of Screapers...[NLINE]
+What should we do if my fear comes true?[NLINE]
+Should I go ask the captain directly?[END-FE]
+
+
+
+
+
+//POINTER #74 @ $3748 - STRING #74 @ $4D2A
+#W32($3748)
+//[COL01]浸透剄[COL00]ねぇ…。[NLINE]
+//それじゃ、今すぐ俺も強くなるってのは[NLINE]
+//無理か…。[END-FE]
+A [COL01]Penetrator Gem[COL00], huh...?[NLINE]
+So it's impossible for me to get[NLINE]
+stronger right now...[END-FE]
+
+
+
+
+
+//POINTER #75 @ $374C - STRING #75 @ $4D73
+#W32($374C)
+//もし、スクリーパーが出たら[NLINE]
+//どうするか聞いたか？[NWIN]
+//
+//スクリーパーと戦闘になったら、[NLINE]
+//シュヴァイツァー様に任せて、[NLINE]
+//俺たちは援護だそうだ。[END-FE]
+Did you hear what we have to do if[NLINE]
+Screapers appear?[NWIN]
+
+If we end up in a fight with Screapers, we let[NLINE]
+Captain Shuweizer take care of them[NLINE]
+and offer him support.[END-FE]
+
+
+
+
+
+//POINTER #76 @ $3750 - STRING #76 @ $4DFC
+#W32($3750)
+//ところで、ちょっと小耳にはさんだんだが、[NLINE]
+//シュヴァイツァー様が強いのは[NLINE]
+//[COL01]ある物[COL00]を持っているかららしい。[NWIN]
+//
+//俺もそれがあれば、[NLINE]
+//シュヴァイツァー様のように[NLINE]
+//強くなれるんだろうか？[END-FE]
+By the way, I happened to[NLINE]
+overhear something interesting.[NLINE]
+Captain Shuweizer's strength seems to[NLINE]
+derived from [COL01]a certain gem[COL00].[NWIN]
+
+If I also had that, I wonder[NLINE]
+if I could become as strong[NLINE]
+as the captain?[END-FE]
+
+
+
+
+
+//POINTER #77 @ $3754 - STRING #77 @ $4EB3
+#W32($3754)
+//なるほど[COL01]浸透剄[COL00]というジェムがあるのか…。[NLINE]
+//スクリーパーにのみ効果があるジェムなんて、[NLINE]
+//初めて聞いたよ。[END-FE]
+I see, so there's this thing called[NLINE]
+a [COL01]Penetration Gem[COL00].[NLINE]
+This is the first time I'm hearing[NLINE]
+about a gem that's effective against[NLINE]
+Screapers.[END-FE]
+
+
+
+
+
+//POINTER #78 @ $3758 - STRING #78 @ $4F22
+#W32($3758)
+//長い間、陸地を見ないでいると、[NLINE]
+//何だか不安になるわね…。[END-FE]
+Not seeing land for such a long time[NLINE]
+is starting to make me feel somewhat[NLINE]
+uneasy...[END-FE]
+
+
+
+
+
+//POINTER #79 @ $375C - STRING #79 @ $4F5D
+#W32($375C)
+//[CHAR0F00][V1F00]
+//私、船って苦手で…。[NLINE]
+//陸はまだかしら？[NWIN]
+//
+//[CHAR0F00][V2000]
+//どうしてこの間みたいに[NLINE]
+//高速艇を使わないのかしら？[NWIN]
+//
+//[CHAR0F00][V2100]
+//こんな旧式の船を使う意味ってあるの？[END-FE]
+//Wendy\\
+[CHAR0F00][V1F00]
+I'm not good with boats...[NLINE]
+I wonder how long it will take until[NLINE]
+we reach land?[NWIN]
+
+[CHAR0F00][V2000]
+Why didn't we use a speed[NLINE]
+boat like we did before?[NWIN]
+
+[CHAR0F00][V2100]
+Is there a reason why we're using[NLINE]
+an old boat like this one?[END-FE]
+
+
+
+
+
+//POINTER #80 @ $3760 - STRING #80 @ $4FF8
+#W32($3760)
+//・答える[END-FE]
+・Answer her[END-FE]
+
+
+
+
+
+//POINTER #81 @ $3764 - STRING #81 @ $5003
+#W32($3764)
+//・知らないと言う[END-FE]
+・Say that you don't know[END-FE]
+
+
+
+
+
+//POINTER #82 @ $3768 - STRING #82 @ $5016
+#W32($3768)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #83 @ $376C - STRING #83 @ $5025
+#W32($376C)
+//・他に船がなかったから[END-FE]
+・Because there was no other boat[END-FE]
+
+
+
+
+
+//POINTER #84 @ $3770 - STRING #84 @ $503E
+#W32($3770)
+//・高速艇は航続距離が短いから[END-FE]
+・Because speed boats are only suitable for[NLINE]
+   short traveling distances[END-FE]
+
+
+
+
+
+//POINTER #85 @ $3774 - STRING #85 @ $505D
+#W32($3774)
+//・向こうの文明レベルに合わせた[END-FE]
+・Because our boat has to match[NLINE]
+   Goatland's civilization level[END-FE]
+
+
+
+
+
+//POINTER #86 @ $3778 - STRING #86 @ $507E
+#W32($3778)
+//[CHAR0F00][V2400]
+//そうかなぁ？[NLINE]
+//ちゃんと横にあったような気がしたけど…。[END-FE]
+//Wendy\\
+[CHAR0F00][V2400]
+Really?[NLINE]
+I'm pretty sure that there[NLINE]
+was another boat right next to this one,[NLINE]
+though...[END-FE]
+
+
+
+
+
+//POINTER #87 @ $377C - STRING #87 @ $50BF
+#W32($377C)
+//[CHAR0F00][V2500]
+//あ、そうか。[NLINE]
+//別の大陸に行くほどは[NLINE]
+//移動できないのか。[END-FE]
+//Wendy\\
+[CHAR0F00][V2500]
+Ah, I see.[NLINE]
+So those ships can't reach something as[NLINE]
+far as another continent.[END-FE]
+
+
+
+
+
+//POINTER #88 @ $3780 - STRING #88 @ $5100
+#W32($3780)
+//[CHAR0F00][V2600]
+//なるほど、相手に警戒させないためか！[NLINE]
+//だからわざわざ偽装しているのね！[END-FE]
+//Wendy\\
+[CHAR0F00][V2600]
+I see, so that's why we've disguised[NLINE]
+ourselves! It's so we don't make them[NLINE]
+suspicious of us![END-FE]
+
+
+
+
+
+//POINTER #89 @ $3784 - STRING #89 @ $5151
+#W32($3784)
+//[CHAR0F00][V2200]
+//そうよねぇ、[NLINE]
+//船を選んだのは私たちじゃないし…。[END-FE]
+//Wendy\\
+[CHAR0F00][V2200]
+I get it, it's not like we were the ones[NLINE]
+who chose this ship...[END-FE]
+
+
+
+
+
+//POINTER #90 @ $3788 - STRING #90 @ $518C
+#W32($3788)
+//[CHAR0F00][V2300]
+//あなたに聞いても仕方ないか。[END-FE]
+//Wendy\\
+[CHAR0F00][V2300]
+I suppose there's no point in[NLINE]
+asking you.[END-FE]
+
+
+
+
+
+//POINTER #91 @ $378C - STRING #91 @ $51B3
+#W32($378C)
+//[CHAR0F00][V2700]
+//それにしても…。[NLINE]
+//早くしてくれないと、[NLINE]
+//船酔いしそう…。[END-FE]
+//Wendy\\
+[CHAR0F00][V2700]
+Anyway...If we don't make[NLINE]
+it there soon, I'm going[NLINE]
+to get seasick...[END-FE]
+
+
+
+
+
+//POINTER #92 @ $3790 - STRING #92 @ $51F6
+#W32($3790)
+//[CHAR0F00][V2800]
+//早くつかないかしら…[NLINE]
+//船酔いしそう…。[END-FE]
+//Wendy\\
+[CHAR0F00][V2800]
+If we don't make it there soon,[NLINE]
+I'm going to get seasick...[END-FE]
+
+
+
+
+
+//POINTER #93 @ $3794 - STRING #93 @ $5227
+#W32($3794)
+//翌日[END-FE]
+The next day[END-FE]
+
+
+
+
+
+//POINTER #94 @ $3798 - STRING #94 @ $522E
+#W32($3798)
+//[CHAR1000][V0A00]
+//う、うわ、何だこの化け物は！[END-FE]
+//Captain\\
+[CHAR1000][V0A00]
+Aaghh! What are these things!?[END-FE]
+
+
+
+
+
+//POINTER #95 @ $379C - STRING #95 @ $5255
+#W32($379C)
+//[CHAR1000][V0B00]
+//これって…[NLINE]
+//…伝説の魔物…[NLINE]
+//…スクリーパー？[END-FE]
+//Wendy\\
+[CHAR1000][V0B00]
+These things...[NLINE]
+Could they be those monsters of legend...?[NLINE]
+...Screapers?[END-FE]
+
+
+
+
+
+//POINTER #96 @ $37A0 - STRING #96 @ $528C
+#W32($37A0)
+//[CHAR1000][V0C00]
+//そんな事はどうでもいい！[NLINE]
+//戦わないと船が沈められるぞ！[NWIN]
+//
+//[CHAR1000][V0D00]
+//後少しで上陸だって時に、[NLINE]
+//ここで沈むなんて洒落にならん！[END-FE]
+//Shuweizer\\
+[CHAR1000][V0C00]
+It doesn't matter what they[NLINE]
+are! If we don't fight them,[NLINE]
+the ship will sink![NWIN]
+
+[CHAR1000][V0D00]
+Sinking here when we're about to[NLINE]
+to reach land would be a disgrace![END-FE]
+
+
+
+
+
+//POINTER #97 @ $37A4 - STRING #97 @ $530F
+#W32($37A4)
+//・スクリーパーの全滅[END-FE]
+・All Screapers are defeated[END-FE]
+
+
+
+
+
+//POINTER #98 @ $37A8 - STRING #98 @ $5326
+#W32($37A8)
+//・パーティーの全滅[NLINE]
+//・シュヴァイツァーの死亡[END-FE]
+・Shuweizer dies[NLINE]
+・Wendy dies[END-FE]
+
+
+
+
+
+//POINTER #99 @ $37AC - STRING #99 @ $5355
+#W32($37AC)
+//　[NLINE]
+//デッキの洗浄剤などが入っている。[NLINE]
+//[END-FE]
+There's washing material for the deck[NLINE]
+inside the cabinet.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #100 @ $37B0 - STRING #100 @ $537E
+#W32($37B0)
+//　[NLINE]
+//甲板用のワックスだ。[NLINE]
+//[END-FE]
+[NLINE]
+It's deck wax.[NLINE]
+[END-FE]
+
+
+
+
+
+//POINTER #101 @ $37B4 - STRING #101 @ $539B
+#W32($37B4)
+//[CHAR1000][V0000]
+//あのさ、[NLINE]
+//あなた記憶がないって本当なの？[NWIN]
+//
+//[CHAR1000][V0100]
+//…実は私もちょっと[NLINE]
+//記憶が飛んでるんだよね。[END-FE]
+//Wendy\\
+[CHAR1000][V0000]
+Hey, is it true that[NLINE]
+you don't have any memories?[NWIN]
+
+[CHAR1000][V0100]
+...Actually, there are some[NLINE]
+pieces missing from my memory as well.[END-FE]
+
+
+
+
+
+//POINTER #102 @ $37B8 - STRING #102 @ $5404
+#W32($37B8)
+//・誰から聞いたのか？[END-FE]
+・Ask her from whom she heard that[END-FE]
+
+
+
+
+
+//POINTER #103 @ $37BC - STRING #103 @ $541B
+#W32($37BC)
+//・詳しく聞く[END-FE]
+・Listen to the details[END-FE]
+
+
+
+
+
+//POINTER #104 @ $37C0 - STRING #104 @ $542A
+#W32($37C0)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #105 @ $37C4 - STRING #105 @ $5439
+#W32($37C4)
+//[CHAR1000][V0200]
+//シュヴァイツァー様よ。[NLINE]
+//詳しい内容は秘密だからって、[NLINE]
+//教えてくれなかったけど。[END-FE]
+//Wendy\\
+[CHAR1000][V0200]
+From Shuweizer.[NLINE]
+He didn't tell me the details because[NLINE]
+those are classified.[END-FE]
+
+
+
+
+
+//POINTER #106 @ $37C8 - STRING #106 @ $5492
+#W32($37C8)
+//[CHAR1000][V0300]
+//あなたとは研究所が襲撃された日に[NLINE]
+//初めて会ったじゃない？[NWIN]
+//
+//[CHAR1000][V0400]
+//でも本当はアレより前に、[NLINE]
+//一度会ってるみたいなんだよね。[NLINE]
+//シュヴァイツァー様と３人で。[NWIN]
+//
+//[CHAR1000][V0500]
+//でも、全然覚えてないんだよねぇ…。[NLINE]
+//それ以前のことは覚えてるのに、[NLINE]
+//その数日間だけが、ポッカリ…。[NWIN]
+//
+//[CHAR1000][V0600]
+//でも、私は数日間だけど、[NLINE]
+//あなたは全部らしいじゃない？[END-FE]
+//Wendy\\
+[CHAR1000][V0300]
+We first met at the laboratory[NLINE]
+on the day it was attacked, right?[NWIN]
+
+[CHAR1000][V0400]
+But it feels like I've met you[NLINE]
+before that. Shuweizer, as well.[NWIN]
+
+[CHAR1000][V0500]
+However, I don't remember that at all...[NLINE]
+Even though I remember things from before[NLINE]
+we've met, those several days before we did[NLINE]
+are a complete blank...[NWIN]
+
+[CHAR1000][V0600]
+In my case, it's only a few days that are missing,[NLINE]
+but you have lost all of your memories, right?[END-FE]
+
+
+
+
+
+//POINTER #107 @ $37CC - STRING #107 @ $55E1
+#W32($37CC)
+//・全て思い出したい[END-FE]
+・I want to remember everything[END-FE]
+
+
+
+
+
+//POINTER #108 @ $37D0 - STRING #108 @ $55F6
+#W32($37D0)
+//・現状で不便はない[END-FE]
+・It doesn't inconvenience me at the[NLINE]
+   moment[END-FE]
+
+
+
+
+
+//POINTER #109 @ $37D4 - STRING #109 @ $560B
+#W32($37D4)
+//・黙っている[END-FE]
+・Remain silent[END-FE]
+
+
+
+
+
+//POINTER #110 @ $37D8 - STRING #110 @ $561A
+#W32($37D8)
+//[CHAR1000][V0700]
+//そうだよね、[NLINE]
+//やっぱり気になるよ。[NWIN]
+//
+//[CHAR1000][V0800]
+//まぁ、私の場合はどうでもいいような[NLINE]
+//記憶かも知れないけどね。[END-FE]
+//Wendy\\
+[CHAR1000][V0700]
+I understand.[NLINE]
+See, I knew it bothered you.[NWIN]
+
+[CHAR1000][V0800]
+In my case, I might have lost memories[NLINE]
+that aren't really important.[END-FE]
+
+
+
+
+
+//POINTER #111 @ $37DC - STRING #111 @ $568D
+#W32($37DC)
+//[CHAR1000][V0900]
+//そうかも知れないけど、[NLINE]
+//何だかイヤじゃない？[NLINE]
+//自分の一部が欠けてるみたいで。[END-FE]
+//Wendy\\
+[CHAR1000][V0900]
+That may be, but don't[NLINE]
+you just hate it It's like a part?[NLINE]
+of yourself is missing.[END-FE]
+
+
+
+
+
+//POINTER #112 @ $37E0 - STRING #112 @ $56E4
+#W32($37E0)
+//それにしても、陸はまだぁ？[END-FE]
+Anyway, still no land in sight?[END-FE]
+
+
+
+
+
+//POINTER #113 @ $37E4 - STRING #113 @ $5701
+#W32($37E4)
+//ちょ、ちょっと、[NLINE]
+//攻撃がほとんど効かないじゃない!?[NLINE]
+//こんな生き物だなんて…！[END-FE]
+//Wendy\\
+N-no way! Our attacks[NLINE]
+aren't effective?! That there[NLINE]
+is such a creature...![END-FE]
+
+
+
+
+
+//POINTER #114 @ $37E8 - STRING #114 @ $5750
+#W32($37E8)
+//ぐは！な、なに……[END-FE]
+Guwaa! N-no...[END-FE]
+
+
+
+
+
+//POINTER #115 @ $37EC - STRING #115 @ $5765
+#W32($37EC)
+//シュヴァイツァー様！[NLINE]
+//そんな！[END-FE]
+No! Captain Shuweizer![END-FE]
+
+
+
+
+
+//POINTER #116 @ $37F0 - STRING #116 @ $5786
+#W32($37F0)
+//うわぁ！[END-FE]
+Uwaa![END-FE]
+
+
+
+
+
+//POINTER #117 @ $37F4 - STRING #117 @ $5791
+#W32($37F4)
+//だ、だめだぁ！[END-FE]
+N-no![END-FE]
+
+
+
+
+
+//POINTER #118 @ $37F8 - STRING #118 @ $57A2
+#W32($37F8)
+//ここまでか…。[END-FE]
+So this is the end...?[END-FE]
+
+
+
+
+
+//POINTER #119 @ $37FC - STRING #119 @ $57B3
+#W32($37FC)
+//い、いかん…[NLINE]
+//俺が死んだら、この船は…。[END-FE]
+I-I can't let this happen...[NLINE]
+If I die, then this ship will...[END-FE]
+
+
+
+
+
+//POINTER #120 @ $3800 - STRING #120 @ $57DE
+#W32($3800)
+//うひゃあ、し、死にたくない…。[END-FE]
+Eeeyaaa! I-I don't want to die...[END-FE]
+
+
+
+
+
+//POINTER #121 @ $3804 - STRING #121 @ $57FF
+#W32($3804)
+//こいつらは、[NLINE]
+//スクリーパーとしてはザコだ！[NWIN]
+//
+//落ち着いてやれば倒せる！[NLINE]
+//各人への支援をおこたるな！[END-FE]
+These Screapers are merely small-fry![NWIN]
+
+If we remain calm, we can beat them![NLINE]
+Don't neglect to support each other![END-FE]
+
+
+
+
+
+//POINTER #122 @ $3808 - STRING #122 @ $5862
+#W32($3808)
+//よ、よし！[NLINE]
+//いけるみたい！[END-FE]
+N-Nice![NLINE]
+It looks like it's working![END-FE]
+
+
+
+
+
+//POINTER #123 @ $380C - STRING #123 @ $587F
+#W32($380C)
+//た、倒せるぞ！[NLINE]
+//なんとかなる！[END-FE]
+W-we can beat them![NLINE]
+Somehow![END-FE]
+
+
+
+
+
+//POINTER #124 @ $3810 - STRING #124 @ $58A0
+#W32($3810)
+//よし、残りは２匹だ！[END-FE]
+Alright, two remaining![END-FE]
+
+
+
+
+
+//POINTER #125 @ $3814 - STRING #125 @ $58B7
+#W32($3814)
+//これで、２匹目！[END-FE]
+Just two more![END-FE]
+
+
+
+
+
+//POINTER #126 @ $3818 - STRING #126 @ $58CA
+#W32($3818)
+//や、やった！[NLINE]
+//あとは２匹だ！[END-FE]
+W-we did it![NLINE]
+Only two more![END-FE]
+
+
+
+
+
+//POINTER #127 @ $381C - STRING #127 @ $58E9
+#W32($381C)
+//[CHAR1000][V0E00]
+//あ…あんな巨大な…。[END-FE]
+[CHAR1000][V0E00]
+Look at the size of that thing...![END-FE]
+
+
+
+
+
+//POINTER #128 @ $3820 - STRING #128 @ $5908
+#W32($3820)
+//[CHAR1000][V0F00]
+//チッ！[NLINE]
+//万事休すか…。[END-FE]
+[CHAR1000][V0F00]
+Tch! It's over...[END-FE]
+
+
+
+
+
+//POINTER #129 @ $3824 - STRING #129 @ $5929
+#W32($3824)
+//[CHAR1000][V1000]
+//いかん！[NLINE]
+//逃げるぞ！[END-FE]
+[CHAR1000][V1000]
+We can't go against[NLINE]
+it! Flee![END-FE]
+
+
+
+
+
+//POINTER #130 @ $3828 - STRING #130 @ $5948
+#W32($3828)
+//ここは、ステージクリア後のＢＧＭは[NLINE]
+//あえて無くしています。[END-FE]
+ここは、ステージクリア後のＢＧＭは[NLINE]
+あえて無くしています。[END-FE]
+
+
+
+
+
+//POINTER #131 @ $382C - STRING #131 @ $5985
+#W32($382C)
+//デバッグ部屋へ行く？[END-FE]
+Go to the debugging room?[END-FE]
+
+
+
+
+
+//POINTER #132 @ $3830 - STRING #132 @ $599C
+#W32($3830)
+//自動Ｄ　ＥＢ０２＿１後[END-FE]
+自動Ｄ ＥＢ０２＿１後[END-FE]
+
+
+
+

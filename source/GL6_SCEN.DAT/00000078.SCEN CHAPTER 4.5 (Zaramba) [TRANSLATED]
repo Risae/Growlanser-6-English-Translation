@@ -1,0 +1,888 @@
+#VAR(dialogue, TABLE)
+#ADDTBL("abcde.tbl", dialogue)
+#ACTIVETBL(dialogue)
+
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", $2B50, 32)
+
+#VAR(PTRTBL, POINTERTABLE)
+#PTRTBL(PTRTBL, $2A20, 4, PTR)
+
+#JMP($2B50)
+#HDR($2B50)
+
+
+
+
+
+
+//POINTER #0 @ $2A20 - STRING #0 @ $2B50
+#W32($2A20)
+//[END-FF]
+[END-FF]
+
+
+
+
+
+//POINTER #1 @ $2A24 - STRING #1 @ $2B53
+#W32($2A24)
+//・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
+
+
+
+
+
+//POINTER #2 @ $2A28 - STRING #2 @ $2B60
+#W32($2A28)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #3 @ $2A2C - STRING #3 @ $2B85
+#W32($2A2C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #4 @ $2A30 - STRING #4 @ $2BAA
+#W32($2A30)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #5 @ $2A34 - STRING #5 @ $2BBF
+#W32($2A34)
+//これ以上[COL01]ラナの実[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+
+
+
+
+
+//POINTER #6 @ $2A38 - STRING #6 @ $2BE4
+#W32($2A38)
+//これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
+
+
+
+
+
+//POINTER #7 @ $2A3C - STRING #7 @ $2C09
+#W32($2A3C)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #8 @ $2A40 - STRING #8 @ $2C3E
+#W32($2A40)
+//・ＮＰＣの死亡[NLINE]
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #9 @ $2A44 - STRING #9 @ $2C73
+#W32($2A44)
+//・ＮＰＣの死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #10 @ $2A48 - STRING #10 @ $2C98
+#W32($2A48)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #11 @ $2A4C - STRING #11 @ $2CBD
+#W32($2A4C)
+//・同行人の死亡[NLINE]
+//・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #12 @ $2A50 - STRING #12 @ $2CE2
+#W32($2A50)
+//・パーティーの全滅[END-FE]
+・All party members die[END-FE]
+
+
+
+
+
+//POINTER #13 @ $2A54 - STRING #13 @ $2CF7
+#W32($2A54)
+//そこのお兄さん！[NLINE]
+//新しい武器と防具を仕入れたんだ！[NLINE]
+//見ていっておくれよ！[END-FE]
+You there, mister![NLINE]
+We've got new weapons and armor in stock![NLINE]
+Please come take a look![END-FE]
+
+
+
+
+
+//POINTER #14 @ $2A58 - STRING #14 @ $2D42
+#W32($2A58)
+//はて、あまり見かけん顔じゃな。[NLINE]
+//だが安心せい。[NLINE]
+//我ら砂漠の民は、他人に寛容じゃ。[END-FE]
+Oh, yours is a face I haven't seen before.[NLINE]
+But please rest assured, we desert people[NLINE]
+are quite hospitable to travelers.[END-FE]
+
+
+
+
+
+//POINTER #15 @ $2A5C - STRING #15 @ $2D95
+#W32($2A5C)
+//この辺りは砂漠といっても、[NLINE]
+//海岸が近くにあるから[NLINE]
+//意外とスクリーパーが出やすい。[NWIN]
+//
+//といっても、連中も乾燥がイヤなのか、[NLINE]
+//海岸を離れようとしないようだがな。[END-FE]
+Even though this area is a desert, it's[NLINE]
+easy for Screapers to appear[NLINE]
+unexpectedly because the sea is nearby.[NWIN]
+
+However, it seems like they don't try to[NLINE]
+leave the beach. I wonder if those things[NLINE]
+don't like dryness?[END-FE]
+
+
+
+
+
+//POINTER #16 @ $2A60 - STRING #16 @ $2E32
+#W32($2A60)
+//この街を出て少し北に行くと海岸がある。[NLINE]
+//引き潮の時にはそこに道が出来るんじゃよ。[END-FE]
+You'll find a coast just a little north of[NLINE]
+this village. At low tide, a path will[NLINE]
+appear.[END-FE]
+
+
+
+
+
+//POINTER #17 @ $2A64 - STRING #17 @ $2E85
+#W32($2A64)
+//この街が出来たおかげで、[NLINE]
+//南部の砂漠地帯の人たちも、[NLINE]
+//気軽に王都に行けるようになったよ。[END-FE]
+Because we established a city here, the[NLINE]
+desert people from the southern regions[NLINE]
+can now easily go to the royal capital.[END-FE]
+
+
+
+
+
+//POINTER #18 @ $2A68 - STRING #18 @ $2EE0
+#W32($2A68)
+//ようこそ、ザーランバへ。[NLINE]
+//あの空飛ぶスクリーパーには[NLINE]
+//襲われなかったようですね。[END-FE]
+Welcome to Zaramba.[NLINE]
+Seems like you weren't attacked[NLINE]
+by one of those Screapers flying[NLINE]
+in the sky.[END-FE]
+
+
+
+
+
+//POINTER #19 @ $2A6C - STRING #19 @ $2F33
+#W32($2A6C)
+//ここザーランバは砂漠のオアシスだ。[NLINE]
+//気のいい人ばかりだから、[NLINE]
+//ゆっくりしていくがいい。[END-FE]
+Zaramba is a desert oasis.[NLINE]
+All the people are nice, so[NLINE]
+don't be in a rush to leave.[END-FE]
+
+
+
+
+
+//POINTER #20 @ $2A70 - STRING #20 @ $2F8C
+#W32($2A70)
+//いらっしゃいませ。[NLINE]
+//道具屋へようこそ。[END-FE]
+//Merchant\\
+Welcome.[NLINE]
+This is the item shop.[END-FE]
+
+
+
+
+
+//POINTER #21 @ $2A74 - STRING #21 @ $2FB5
+#W32($2A74)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #22 @ $2A78 - STRING #22 @ $2FDC
+#W32($2A78)
+//・ジェム購入[END-FE]
+・Buy Gem[END-FE]
+
+
+
+
+
+//POINTER #23 @ $2A7C - STRING #23 @ $2FEB
+#W32($2A7C)
+//・グッズ購入[END-FE]
+・Buy item[END-FE]
+
+
+
+
+
+//POINTER #24 @ $2A80 - STRING #24 @ $2FFA
+#W32($2A80)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #25 @ $2A84 - STRING #25 @ $3003
+#W32($2A84)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #26 @ $2A88 - STRING #26 @ $302A
+#W32($2A88)
+//いらっしゃいませ。[NLINE]
+//武器防具屋へようこそ。[END-FE]
+//Merchant\\
+Welcome.[NLINE]
+This is the weapons and armor store.[END-FE]
+
+
+
+
+
+//POINTER #27 @ $2A8C - STRING #27 @ $3057
+#W32($2A8C)
+//ご購入でしょうか、[NLINE]
+//売却でしょうか？[END-FE]
+//Merchant\\
+How may I help you?[END-FE]
+
+
+
+
+
+//POINTER #28 @ $2A90 - STRING #28 @ $307E
+#W32($2A90)
+//・武器購入[END-FE]
+・Buy weapon[END-FE]
+
+
+
+
+
+//POINTER #29 @ $2A94 - STRING #29 @ $308B
+#W32($2A94)
+//・防具購入[END-FE]
+・Buy armor[END-FE]
+
+
+
+
+
+//POINTER #30 @ $2A98 - STRING #30 @ $3098
+#W32($2A98)
+//・売却[END-FE]
+・Sell[END-FE]
+
+
+
+
+
+//POINTER #31 @ $2A9C - STRING #31 @ $30A1
+#W32($2A9C)
+//ありがとうございます。[NLINE]
+//またどうぞ！[END-FE]
+//Merchant\\
+Thank you very much.[NLINE]
+Please come again![END-FE]
+
+
+
+
+
+//POINTER #32 @ $2AA0 - STRING #32 @ $30C8
+#W32($2AA0)
+//お兄ちゃんたち、旅人だろ？[NLINE]
+//あの馬鹿でかいスクリーパーには気をつけなよ。[NWIN]
+//
+//何でも４０メートルくらいあるんだって。[NLINE]
+//そんなヤツに攻撃されたらイチコロだからな！[END-FE]
+Hey mister, you and your friends are[NLINE]
+travelers, right? You should watch[NLINE]
+out for that ginourmous Screaper![NWIN]
+
+I heard it's about fourty meters big.[NLINE]
+If you get attacked by such a thing[NLINE]
+you'll be squashed like a bug![END-FE]
+
+
+
+
+
+//POINTER #33 @ $2AA4 - STRING #33 @ $3167
+#W32($2AA4)
+//お兄ちゃんたち、旅人だろ？[NLINE]
+//ジークヴァルトってバケモノには気をつけなよ。[NLINE]
+//何でも人間を手のひらから吸収するらしいぜ！[END-FE]
+Hey, mister, and and your friends are travelers, right?[NLINE]
+Watch out for a monster called Ziekwalt![NLINE]
+I heard he absorbs humans with the palm of his hand![END-FE]
+
+
+
+
+
+//POINTER #34 @ $2AA8 - STRING #34 @ $31DE
+#W32($2AA8)
+//お兄ちゃん、[NLINE]
+//何か買ってってよ！[NWIN]
+//
+//この本なんてどうかな？[NLINE]
+//…体操の本…、なんて書いてあるけど。[END-FE]
+How about you buy something, mister?[NLINE]
+[NWIN]
+
+What about this book?[NLINE]
+...It's called "Dog Gymnastics" or something.[END-FE]
+
+
+
+
+
+//POINTER #35 @ $2AAC - STRING #35 @ $323F
+#W32($2AAC)
+//体操ですか…。[NLINE]
+//[Futon-Dog]のダンスに何か使えるかも…。[END-FE]
+Dog gymnastics...?[NLINE]
+Maybe we can use this for Futon Dog dancing...[END-FE]
+
+
+
+
+
+//POINTER #36 @ $2AB0 - STRING #36 @ $3272
+#W32($2AB0)
+//何か知らないけど、[NLINE]
+//需要があるみたいだね。[END-FE]
+I don't know what kind of book it is,[NLINE]
+but it looks like you're interested.[END-FE]
+
+
+
+
+
+//POINTER #37 @ $2AB4 - STRING #37 @ $329F
+#W32($2AB4)
+//安くしとくよ。[NLINE]
+//１００Ыでどうかな？[END-FE]
+Tell you what, I'll give you a discount.[NLINE]
+How does 100Ы sound?[END-FE]
+
+
+
+
+
+//POINTER #38 @ $2AB8 - STRING #38 @ $32C6
+#W32($2AB8)
+//お金が足りないみたいだよ。[NLINE]
+//また、お金が貯まったらよろしくね。[END-FE]
+Looks like you don't have enough money.[NLINE]
+Come see me again after you saved some.[END-FE]
+
+
+
+
+
+//POINTER #39 @ $2ABC - STRING #39 @ $3307
+#W32($2ABC)
+//まいどあり！[END-FE]
+Nice doing business with you![END-FE]
+
+
+
+
+
+//POINTER #40 @ $2AC0 - STRING #40 @ $3316
+#W32($2AC0)
+//[Futon-Dog]に会ったら、[NLINE]
+//このダンスを教えてみましょう。[END-FE]
+When we get back to Totuwa,[NLINE]
+let's teach this dance to [Futon-Dog].[END-FE]
+
+
+
+
+
+//POINTER #41 @ $2AC4 - STRING #41 @ $3349
+#W32($2AC4)
+//そっか、残念…。[END-FE]
+I see, too bad...[END-FE]
+
+
+
+
+
+//POINTER #42 @ $2AC8 - STRING #42 @ $335C
+#W32($2AC8)
+//まいどあり！[END-FE]
+Nice doing business with you![END-FE]
+
+
+
+
+
+//POINTER #43 @ $2ACC - STRING #43 @ $336B
+#W32($2ACC)
+//お兄さん、旅の人？[NLINE]
+//見たことがない格好だね。[END-FE]
+Are you a traveler, mister?[NLINE]
+I've never seen someone like you.[END-FE]
+
+
+
+
+
+//POINTER #44 @ $2AD0 - STRING #44 @ $339A
+#W32($2AD0)
+//いらっしゃい、旅人さん。[NLINE]
+//ゆっくり見ていってね！[END-FE]
+Welcome, travelers.[NLINE]
+Please take your time and look[NLINE]
+around![END-FE]
+
+
+
+
+
+//POINTER #45 @ $2AD4 - STRING #45 @ $33CD
+#W32($2AD4)
+//オレの生まれたのは、[NLINE]
+//ここのずっと南さ。[NWIN]
+//
+//昔はグランゲイルで[NLINE]
+//一番大きな商業都市だったが、[NLINE]
+//今じゃ、砂漠化が進んでひどいもんだよ。[NWIN]
+//
+//ここなんか、まだマシさ。[NLINE]
+//だからここに移り住んだ者も[NLINE]
+//多くいるみたいだね。[END-FE]
+The city where I was born lies far[NLINE]
+south from here.[NWIN]
+
+In the past, it used to be the largest[NLINE]
+merchant town in Grangale.[NLINE]
+However, now it's been swallowed up by[NLINE]
+the desert. It's awful![NWIN]
+
+The situation is not as bad in this place.[NLINE]
+That's why many people seemed to[NLINE]
+have moved here.[END-FE]
+
+
+
+
+
+//POINTER #46 @ $2AD8 - STRING #46 @ $349E
+#W32($2AD8)
+//ここから南は[NLINE]
+//砂漠化が進んでひどいもんさ。[END-FE]
+Desertification is setting in south from[NLINE]
+here. It's terrible![END-FE]
+
+
+
+
+
+//POINTER #47 @ $2ADC - STRING #47 @ $34CB
+#W32($2ADC)
+//ところで、空を飛んでいる[NLINE]
+//クイーン・スクリーパーは見たか？[NWIN]
+//
+//４０メートルもある巨体に、[NLINE]
+//口から超音波まで吐く。[NWIN]
+//
+//北の都市ゼルドックはヤツの放った一撃で、[NLINE]
+//あっという間に滅んだそうだ。[END-FE]
+By the way, have you seen those[NLINE]
+Queen Screapers flying through the sky?[NWIN]
+
+Their bodies are fourty meters long and[NLINE]
+they emit supersonic waves from their[NLINE]
+mouths.[NWIN]
+
+I heard one of them destroyed the[NLINE]
+northern city of Zerdok in the[NLINE]
+blick of an eye.[END-FE]
+
+
+
+
+
+//POINTER #48 @ $2AE0 - STRING #48 @ $3584
+#W32($2AE0)
+//ところで、ジークヴァルトの噂は聞いたかい？[NLINE]
+//北の都市ゼルドックの駐留軍と、市民を[NLINE]
+//ほんの数時間で全員消してしまったそうだ。[END-FE]
+By the way, have you heard the rumors about[NLINE]
+Ziekwalt? Supposedly, he wiped out all the troops[NLINE]
+and citizens of Zerdok in just a few hours.[END-FE]
+
+
+
+
+
+//POINTER #49 @ $2AE4 - STRING #49 @ $3601
+#W32($2AE4)
+//何でも見ていって下さいね。[NLINE]
+//このポットなんて、使いやすいし、[NLINE]
+//木の器もサラダ入れに最適だよ。[END-FE]
+Please take a look at my wares.[NLINE]
+This pot, for instance, is easy to use,[NLINE]
+and this wooden bowl is perfect for[NLINE]
+putting in a salad.[END-FE]
+
+
+
+
+
+//POINTER #50 @ $2AE8 - STRING #50 @ $3660
+#W32($2AE8)
+//料理の味を良くする[NLINE]
+//スパイスだよ。[NLINE]
+//買っていかないかい？[END-FE]
+These spices will make your food[NLINE]
+taste better. Would you like to[NLINE]
+buy some?[END-FE]
+
+
+
+
+
+//POINTER #51 @ $2AEC - STRING #51 @ $369B
+#W32($2AEC)
+//何でも見ていって下さいね。[NLINE]
+//このポットなんて、使いやすいし、[NLINE]
+//木の器もサラダ入れに最適だよ。[END-FE]
+Please take a look at my wares.[NLINE]
+This pot, for instance, is easy to use,[NLINE]
+and this wooden bowl is perfect for[NLINE]
+putting in a salad.[END-FE]
+
+
+
+
+
+//POINTER #52 @ $2AF0 - STRING #52 @ $36FA
+#W32($2AF0)
+//　[NLINE]
+//バザー用のシートが敷かれている。[END-FE]
+[NLINE]
+A sheet used for displaying bazaar goods is[NLINE]
+laid out on the ground.[END-FE]
+
+
+
+
+
+//POINTER #53 @ $2AF4 - STRING #53 @ $3721
+#W32($2AF4)
+//料理の味を良くする[NLINE]
+//スパイスだよ。[NLINE]
+//買っていかないかい？[END-FE]
+These spices will make your food[NLINE]
+taste better. Would you like to[NLINE]
+buy some?[END-FE]
+
+
+
+
+
+//POINTER #54 @ $2AF8 - STRING #54 @ $375C
+#W32($2AF8)
+//　[NLINE]
+//バザー用のシートが敷かれている。[END-FE]
+[NLINE]
+A sheet used for displaying bazaar goods is[NLINE]
+laid out on the ground.[END-FE]
+
+
+
+
+
+//POINTER #55 @ $2AFC - STRING #55 @ $3783
+#W32($2AFC)
+//お客さん！[NLINE]
+//お泊まりなら、こちらで受付を！[END-FE]
+Excuse me, sir![NLINE]
+If you would like to book a room, please[NLINE]
+head on over to the reception desk![END-FE]
+
+
+
+
+
+//POINTER #56 @ $2B00 - STRING #56 @ $37B0
+#W32($2B00)
+//ぬおっ！[NLINE]
+//クイーン・オブ・ピクシーを連れている！[NWIN]
+//
+//私も密かに狙っていたのに…！[END-FE]
+Wow! You're traveling with the Queen of Pixies![NWIN]
+
+Even though that has secretly been a dream of mine[NLINE]
+all this time...![END-FE]
+
+
+
+
+
+//POINTER #57 @ $2B04 - STRING #57 @ $3801
+#W32($2B04)
+//…[CC.D80F]…[CC.D80F]はぁ～[CC.D80F]…。[END-FE]
+...[CC.D80F]...[CC.D80F]...[CC.D80F]Oh man...![END-FE]
+
+
+
+
+
+//POINTER #58 @ $2B08 - STRING #58 @ $381B
+#W32($2B08)
+//さて、気を取り直して…。[END-FE]
+Alright, time to pull myself together...[END-FE]
+
+
+
+
+
+//POINTER #59 @ $2B0C - STRING #59 @ $3836
+#W32($2B0C)
+//いらっしゃいませ。[END-FE]
+Welcome.[END-FE]
+
+
+
+
+
+//POINTER #60 @ $2B10 - STRING #60 @ $384B
+#W32($2B10)
+//・宿泊する[END-FE]
+・Stay[END-FE]
+
+
+
+
+
+//POINTER #61 @ $2B14 - STRING #61 @ $3858
+#W32($2B14)
+//・記録をとる[END-FE]
+・Save[END-FE]
+
+
+
+
+
+//POINTER #62 @ $2B18 - STRING #62 @ $3867
+#W32($2B18)
+//・Ｄ部屋(隠し)[END-FE]
+・D Room (hidden)[END-FE]
+
+
+
+
+
+//POINTER #63 @ $2B1C - STRING #63 @ $3878
+#W32($2B1C)
+//・ユリィを呼び出す[END-FE]
+・Call Yurii[END-FE]
+
+
+
+
+
+//POINTER #64 @ $2B20 - STRING #64 @ $388D
+#W32($2B20)
+//[CC.EF0E]Ыになりますが、[NLINE]
+//ご利用になりますか？[END-FE]
+//Inn Clerk\\
+That will be [CC.EF0E]Ы.[NLINE]
+Would you like to stay?[END-FE]
+
+
+
+
+
+//POINTER #65 @ $2B24 - STRING #65 @ $38B9
+#W32($2B24)
+//ついでに記録をとられますか？[END-FE]
+By the way, would you like to sign our guestbook?[END-FE]
+
+
+
+
+
+//POINTER #66 @ $2B28 - STRING #66 @ $38D8
+#W32($2B28)
+//気を付けて[NLINE]
+//いってらっしゃいませ。[END-FE]
+//Inn clerk\\
+Take care and please[NLINE]
+come again.[END-FE]
+
+
+
+
+
+//POINTER #67 @ $2B2C - STRING #67 @ $38FD
+#W32($2B2C)
+//お客さん……[COL09][TEAR-DROP][COL00][NLINE]
+//お金が足りないみたいです。[END-FE]
+//Inn Clerk\\
+Sir...[COL09][TEAR-DROP][COL00][NLINE]
+It appears you're short on cash.[END-FE]
+
+
+
+
+
+//POINTER #68 @ $2B30 - STRING #68 @ $3930
+#W32($2B30)
+//砂漠の街ザーランバ[END-FE]
+Zaramba[END-FE]
+
+
+
+
+
+//POINTER #69 @ $2B34 - STRING #69 @ $3945
+#W32($2B34)
+//Ｄ　砂漠の街ザーランバ[END-FE]
+D Zaramba[END-FE]
+
+
+
+
+
+//POINTER #70 @ $2B38 - STRING #70 @ $395E
+#W32($2B38)
+//またのご利用を[NLINE]
+//お待ちしております。[END-FE]
+We look forward to[NLINE]
+seeing you again.[END-FE]
+
+
+
+
+
+//POINTER #71 @ $2B3C - STRING #71 @ $3985
+#W32($2B3C)
+//ベッドで休みますか？[END-FE]
+Would you like to rest on the bed?[END-FE]
+
+
+
+
+
+//POINTER #72 @ $2B40 - STRING #72 @ $399C
+#W32($2B40)
+//　[NLINE]
+//花が生けてある。[END-FE]
+[NLINE]
+Flower have been arranged in a vase.[END-FE]
+
+
+
+
+
+//POINTER #73 @ $2B44 - STRING #73 @ $39B3
+#W32($2B44)
+//テーブルの上には[NLINE]
+//ランプが置かれている。[END-FE]
+There's a lamp placed on the table.[END-FE]
+
+
+
+
+
+//POINTER #74 @ $2B48 - STRING #74 @ $39DE
+#W32($2B48)
+//　[NLINE]
+//備え付けのタンスがある。[END-FE]
+[NLINE]
+It's a dresser.[END-FE]
+
+
+
+
