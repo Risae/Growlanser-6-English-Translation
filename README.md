@@ -4,7 +4,7 @@ To build the English Translation Patch you need:
 - The original Growlanser 6 game
 - A tool like [Xpert2](https://gbatemp.net/download/xpert2-xpert-tool.37071/) or [Apache2](https://www.psx-place.com/resources/apache-by-sonix-2004.697/) to dump the contents of the ISO
 
-To build the English Translation Patch from source by yourself, create a folder called `04-Original files` inside `build` and put all of the games `*.DAT` files inside it. Use [`build.bat`](/build/build.bat) to patch the original files. Once patched, you can use tools like Xpert2 to create a new ISO. Occasionally xDelta patches will be provided in the [Releases](https://github.com/Risae/Growlanser-6-English-Translation/releases) page, which can be used to directly patch the ISO.
+To build the English Translation Patch from source by yourself, create a folder called `04-Original files` inside `build` and put all of the games `*.DAT` files inside it. Use [`build.bat`](/build/build.bat) to patch the original files. Once patched, you can use tools like Xpert2 to create a new ISO. Occasionally xDelta patches will be provided on the [Releases](https://github.com/Risae/Growlanser-6-English-Translation/releases) page, which can be used to directly patch the ISO.
 
 Directory structure:
 
