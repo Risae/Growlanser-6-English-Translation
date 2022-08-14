@@ -16,7 +16,7 @@ Directory structure:
     /source/GL6_MOV.DAT   translated ingame movie files
     /source/GL6_SCEN.DAT  translated script files
     /source/SLPM_667.16   translated and modified ELF
-    /build                script to patch the original game files
+    /build                script and tools needed to patch the original game files
     /tools                tools, scripts and various other things used in the translation of the game
     /translation guide    translation guides and game manuals for the english translation
 
