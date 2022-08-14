@@ -22,5 +22,5 @@ Directory structure:
 
 Growlanser 6 English Translation Blog: https://growlanser6english.blogspot.com/ <br />
 Growlanser 6 English Translation Discord: https://discord.gg/59Nw2U2 <br />
-Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit
-Growlanserver Discord: https://discord.gg/uVh3XxRGtG <br />
+Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit <br />
+Growlanserver Discord: https://discord.gg/uVh3XxRGtG
