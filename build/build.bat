@@ -131,6 +131,11 @@ copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000569.mss" "%GITHU
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000569.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000569.asm"
 
+copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000570.mss NPC Config Window\00000570.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.asm"
+copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000570.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.mss"
+"%GITHUBPATH%\build\01-armips\armips.exe" 00000570.asm
+del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.asm"
+
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000573.mss Buying and Selling text box coord\00000573.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000573.asm"
 copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000573.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000573.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000573.asm
