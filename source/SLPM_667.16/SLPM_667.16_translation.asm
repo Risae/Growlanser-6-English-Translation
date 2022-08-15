@@ -306,6 +306,30 @@ Skill Plate [00]
 
 
 /*
+Also had to remove part of the function because 能 wasn't going away:
+
+0x16E5D0
+Before
+51 00 04 3C 10 DC 84 24 9C BE 09 0C 00 00 00 00
+94 00 03 24 00 00 43 A0 5C 00 03 24 01 00 43 A0
+02 00 40 A0 51 00 04 3C 10 DC 84 24 40 00 02 3C
+8C AE 45 8C 58 BE 09 0C 00 00 00 00 07 00 04 24
+2D 28 40 02 EC C0 09 0C 00 00 00 00 51 00 04 3C
+After
+51 00 04 3C 10 DC 84 24 9C BE 09 0C 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 07 00 04 24
+2D 28 40 02 EC C0 09 0C 00 00 00 00 51 00 04 3C
+*/
+
+// Not needed?
+
+
+
+/*
+Steed Express
+
 Location: 0x32A130
 支払った![00]
  paid![00]
@@ -496,11 +520,16 @@ Location: 0x32A360
 Equipped Skill Plate[00]
 
 
-'能' removal
-
+"能" removal
 Location: 0x16E5E0 (ingame 0x26E560)
-[9400][0324][0000][43A0][5C00][0324][0100][43A0][0200][40A0][5100][043C][10DC][8424]
-[0000][0000][0000][0000][0000][0000][0000][0000][0000][0000][0000][0000][0000][0000]
+
+li v1,0x94 -> nop
+sb v1,(v0) -> nop
+li v1,0x5C -> nop
+sb v1,0x1(v0) -> nop
+sb zero,0x2(v0) -> nop
+li a0,0x0050DC10 -> nop
+lui v0,0x0040 -> nop
 
 Other hardcoded text values follow this pattern
 li         v1,**
@@ -514,8 +543,12 @@ sb         zero,0x2(v0)
 	.string "Equipped Skill Plate", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 
 .orga 0x16E5E0
-	.byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-	.byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
 
 
 /*
@@ -542,8 +575,6 @@ Various text in and after a fight on the top screen
 
 1 Monster kill result screen: [技能P] -> [KP]
 2+ monster Kill result screen: [敵２体] -> [2 enemies]
-
-The enemy numbers are still in full width, needs to be fixed later!
 
 Location: 0x32B728
 を撃破[00]
@@ -606,6 +637,15 @@ Location: 0x32B790
 Location: 0x32B7A0
  %d[00]
  %d[00]
+
+"能" removal
+Location: 0x1C87B8 (ingame 0x2C8738)
+
+li v1,0x94 -> nop
+sb v1,(v0) -> nop
+li v1,0x5C -> nop
+sb v1,0x1(v0) -> nop
+sb zero,0x2(v0) -> nop
 */
 
 .orga 0x32B728
@@ -666,6 +706,14 @@ Location: 0x32B7A0
 
 .orga 0x32B787 // Original: 0x32B788
 	.string " enemies"
+
+
+.orga 0x1C87B8
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
+	.byte 0x00, 0x00, 0x00, 0x00
 
 
 /*
