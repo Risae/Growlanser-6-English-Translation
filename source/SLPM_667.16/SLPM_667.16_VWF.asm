@@ -159,8 +159,9 @@ function first
     dmove     s1,v1
     lbu       s2,0x1A8(s0)    ;line counter
     lw        s4,0x18C(s0)    ;Load line address into s4
+    li        s5,VWFtable     ;Load VWFtable
     lbu       s2,(s4)
-    bne      s2,0xFF,@@loop
+    bne       s2,0xFF,@@loop
     nop
     lbu       s2,0x1(s4)
     bne       s2,0xFC,@@Loop   ;If first tag is a new line, skip 2 bytes
@@ -168,7 +169,6 @@ function first
     addiu     s4,0x2
 
     @@Loop:
-    li        s5,VWFtable     ;Load VWFtable
     lbu       s6,(s4)
     beq       s6,0xFF,@@ControlCodes  ;GOTO Control chars...
     nop        
@@ -188,13 +188,35 @@ function first
     addiu     s4,0x4
     beql      s6,0xCF,@@Loop  ;Sound Index tag
     addiu     s4,0x4
+    beql      s6,0xEA,@@CalculateName  ;Main Character tag
+    addiu     s4,0x4
     b         @@End   ;Exit early on unknown tag
     nop
 
+    @@CalculateName:
+    lhu       s6,-0x2(S4)
+    bne       s6,0x1,@@Loop   ;Not MC's name, skip
+    nop
+    sw        s4,-0x4(sp)
+    li        s4,0x50E8B2     ;MC's name (0xFF terminated)
+    @@NameLoop:
+    lbu       s6,(s4)
+    beql      s6,0xFF,@@Loop
+    lw        s4,-0x4(sp)
+    ;Duplicated efforts for now
+    addu      s6,s5,s6
+    lbu       s6,(s6)
+    addu      s7,s6
+    addiu     s7,0x2          ;Add the 2 pixels to each letter
+    addiu     s4,0x1
+    b         @@NameLoop
+    nop
+
+
     @@Adder:
-    addu      s5,s6
-    lbu       s5,(s5)
-    addu      s7,s5
+    addu      s6,s5,s6
+    lbu       s6,(s6)
+    addu      s7,s6
     addiu     s7,0x2          ;Add the 2 pixels to each letter
     addiu     s4,0x1
     b         @@Loop
