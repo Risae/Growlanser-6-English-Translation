@@ -378,9 +378,9 @@ function first
 .endfunc
 
 
-
 // Kill / EXP / attack / casting / ability top text alignment fix
-
+// Breaks the VWF and other stuff
+/*
 .org 0x02C80DC
     li      at,0x92(s3)
     addiu   at,s3,at
@@ -407,5 +407,6 @@ function first
     nop    
     b       0x002C81A0
     nop
+*/
 
 .close
