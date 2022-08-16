@@ -7,20 +7,17 @@ SetTextColor equ 0x00151670
 SetTextScale equ 0x00151890
 DrawLetter equ 0x001522BC
 DrawTextAt equ 0x00151840
-printf equ 0x129798 ; Part of the full width numbers in enemies defeated string
-
+printf equ 0x129798                      ;Part of the full width numbers in enemies defeated string
 
 // Fix for the full width numbers that are displayed when you kill more than 1 enemy at the same time.
-
 .org 0x2C7684
 move a0, v0
-li   a1, 0x42C0C0 ; address to "%d" string
+li   a1, 0x42C0C0                        ;address to "%d" string
 move a2, s3
 jal  printf
 nop
 b    0x2C7708
 nop
-
 
 /*
 Window width set part, is given in characters
@@ -33,13 +30,11 @@ function first
 .org 0x002760B0
 */
 
-
 //Swap 〇 to Ｘ, code borrowed from PS2 Controller Remapper
 .org 0x00121C64
     j         Switcheroo
 .org 0x00121CCC
     j         Switcheroo + 0xC
-
 
 //Gatetext render
 .org 0x003C72AC
@@ -55,10 +50,9 @@ function first
 .org 0x002F5AF0
     jal       RenderNormal
 
-
 //Make scrolling text use variable width
 .org 0x002A36CC
-    j         RolloverFix     ;Currently a dummy
+    j         RolloverFix                ;Currently a dummy
     addiu     v1,0x1
 
 .org 0x002A3648
@@ -68,14 +62,12 @@ function first
     j         ScrollingFix
 
 .org 0x0031BA9C
-    addiu     a2,v0,0x2       ;Render two characters in advance to account for VWF
-
+    addiu     a2,v0,0x2                  ;Render two characters in advance to account for VWF
 
 //Text centering fix
 .org 0x0027E310
     j         CalculateSpace
     nop
-
 
 //Redirect game's font width function to ours
 .org 0x00151DA8
@@ -85,47 +77,46 @@ function first
 .org 0x00152384
     nop
 
-
 //VWF fixes
 .org 0x002792BC
     j         Detoured
 
 .org 0x002792D4
-    cvt.w.s   f26,f26         ;Convert the value in f26 to an integer of the same value
-    mfc1      s1,f26          ;Move to our X value variable (s1)
-    addiu     s2,0x1          ;Add 1 to s1 like in the original
-    b         0x00279058      ;Branch from the original
-    nop                       ;NOP from the original
+    cvt.w.s   f26,f26                    ;Convert the value in f26 to an integer of the same value
+    mfc1      s1,f26                     ;Move to our X value variable (s1)
+    addiu     s2,0x1                     ;Add 1 to s1 like in the original
+    b         0x00279058                 ;Branch from the original
+    nop                                  ;NOP from the original
 
 //VWF function
 .org VWFfunct
     li       s0,ram
-    sw       s1,(s0)          ;we store s1 in the address we set-up on s0
-    li       s0,0x1           ;This needs to inputted as 'addiu s0,zero,0x1' in PCSX2 for it to work
-    beql     s0,a3,@@VWFcode  ;if a3 is 1 we jump directly to our VWF code
+    sw       s1,(s0)                     ;we store s1 in the address we set-up on s0
+    li       s0,0x1                      ;This needs to inputted as 'addiu s0,zero,0x1' in PCSX2 for it to work
+    beql     s0,a3,@@VWFcode             ;if a3 is 1 we jump directly to our VWF code
     nop                                                    
     andi     s0,t0,0xFF00
-    bnez     s0,@@Original    ;if the result of the AND is not zero we jump to the original
-    nop                       ;function as that means this is a SHIFT-JIS char
+    bnez     s0,@@Original               ;if the result of the AND is not zero we jump to the original
+    nop                                  ;function as that means this is a SHIFT-JIS char
 
     @@VWFcode:
     li        s0,VWFtable                                    
-    lbu       s1,-0x1(s3)     ;We use s3 to get the correct space character (0x20)
+    lbu       s1,-0x1(s3)                ;We use s3 to get the correct space character (0x20)
     addu      s0,s1
     lbu       s0,(s0)
-    addiu     s0,0x2          ;Add two pixels to each character
+    addiu     s0,0x2                     ;Add two pixels to each character
     mtc1      s0,f23
-    nop                       ;Wait for move operation
+    nop                                  ;Wait for move operation
     cvt.s.w   f23,f23    
-    mul.s     f23,f23,f21     ;Scale text widths
+    mul.s     f23,f23,f21                ;Scale text widths
 
     @@Original:
     li        s0,ram
-    lw        s1,(s0)         ;We load back original s1 from the address we set-up at the start
-    or        s0,zero,zero    ;reset s0 back to zero
+    lw        s1,(s0)                    ;We load back original s1 from the address we set-up at the start
+    or        s0,zero,zero               ;reset s0 back to zero
     add.s     f26,f26,f23    
     addiu     s6,0x1    
-    j         0x00151DB0      ;back to original function
+    j         0x00151DB0                 ;back to original function
     nop
 
 .func Detoured
@@ -140,7 +131,6 @@ function first
     mfc1      s3,f26
     j         0x002A3660
     nop
-
 .endfunc
 
 .func RolloverFix
@@ -155,48 +145,49 @@ function first
 //that'd need investigation, too many branches
 .func CalculateSpace
     dmove     s1,v1
-    lbu       s2,0x1A8(s0)    ;line counter
-    lw        s4,0x18C(s0)    ;Load line address into s4
-    li        s5,VWFtable     ;Load VWFtable
+    lbu       s2,0x1A8(s0)               ;line counter
+    lw        s4,0x18C(s0)               ;Load line address into s4
+    li        s5,VWFtable                ;Load VWFtable
     lbu       s2,(s4)
     bne       s2,0xFF,@@loop
     nop
     lbu       s2,0x1(s4)
-    bne       s2,0xFC,@@Loop   ;If first tag is a new line, skip 2 bytes
+    bne       s2,0xFC,@@Loop             ;If first tag is a new line, skip 2 bytes
     nop
     addiu     s4,0x2
 
     @@Loop:
     lbu       s6,(s4)
-    beq       s6,0xFF,@@ControlCodes  ;GOTO Control chars...
+    beq       s6,0xFF,@@ControlCodes     ;GOTO Control chars...
     nop        
     sltiu     s2,s6,0x0080
-    bnez      s2,@@Adder      ;GOTO Add ASCII widths
+    bnez      s2,@@Adder                 ;GOTO Add ASCII widths
     nop
     addiu     s4,0x2
-    addiu     s7,0x14         ;Japanese char width
+    addiu     s7,0x14                    ;Japanese char width
     b         @@Loop          
     nop
 
     @@ControlCodes:
     lbu       s6,0x01(s4)
-    beql      s6,0xDF,@@Loop  ;Color tag
+    beql      s6,0xDF,@@Loop             ;Color tag
     addiu     s4,0x3
-    beql      s6,0xCE,@@Loop  ;Sound Bank tag
+    beql      s6,0xCE,@@Loop             ;Sound Bank tag
     addiu     s4,0x4
-    beql      s6,0xCF,@@Loop  ;Sound Index tag
+    beql      s6,0xCF,@@Loop             ;Sound Index tag
     addiu     s4,0x4
-    beql      s6,0xEA,@@CalculateName  ;Main Character tag
+    beql      s6,0xEA,@@CalculateName    ;Main Character tag
     addiu     s4,0x4
-    b         @@End   ;Exit early on unknown tag
+    b         @@End                      ;Exit early on unknown tag
     nop
 
     @@CalculateName:
     lhu       s6,-0x2(S4)
-    bne       s6,0x1,@@Loop   ;Not MC's name, skip
+    bne       s6,0x1,@@Loop              ;Not MC's name, skip
     nop
     sw        s4,-0x4(sp)
-    li        s4,0x50E8B2     ;MC's name (0xFF terminated)
+    li        s4,0x50E8B2                ;MC's name (0xFF terminated)
+
     @@NameLoop:
     lbu       s6,(s4)
     beql      s6,0xFF,@@Loop
@@ -205,17 +196,16 @@ function first
     addu      s6,s5,s6
     lbu       s6,(s6)
     addu      s7,s6
-    addiu     s7,0x2          ;Add the 2 pixels to each letter
+    addiu     s7,0x2                     ;Add the 2 pixels to each letter
     addiu     s4,0x1
     b         @@NameLoop
     nop
-
 
     @@Adder:
     addu      s6,s5,s6
     lbu       s6,(s6)
     addu      s7,s6
-    addiu     s7,0x2          ;Add the 2 pixels to each letter
+    addiu     s7,0x2                     ;Add the 2 pixels to each letter
     addiu     s4,0x1
     b         @@Loop
     nop
@@ -225,7 +215,7 @@ function first
     //by a number that equals (line_width - window_width) / 2, so we avoid the hard
     //character limit
     @@End:
-    dmove     s2,a1           ;a1 = window width
+    dmove     s2,a1                      ;a1 = window width
     sll       s6,s2,0x02
     addu      s6,s6,s2
     sll       s6,s6,0x1
@@ -239,16 +229,15 @@ function first
     dmove     s5,zero
     dmove     s6,zero
     dmove     s7,zero
-    j         0x0027E318      ;Go back to original function
+    j         0x0027E318                 ;Go back to original function
     nop
-
 .endfunc
 
 .func RenderNormal
     li        v0,Ram
     sw        a0,0x4(v0)
     sw        ra,0x8(v0)
-    li        a0,0x7           ;0x7 == black
+    li        a0,0x7                     ;0x7 == black
     jal       SetTextColor
     nop 
     li.s      f12,0.9
@@ -267,14 +256,13 @@ function first
     lw        ra,0x8(v0)
     jr        ra
     nop
-
 .endfunc
 
 .func RenderSelected
     li        v0,Ram
     sw        a0,0x4(v0)
     sw        ra,0x8(v0)
-    li        a0,0x3           ;0x3 == Red
+    li        a0,0x3                     ;0x3 == Red
     jal       SetTextColor
     nop 
     li.s      f12,0.9
@@ -293,9 +281,7 @@ function first
     lw        ra,0x8(v0)
     jr        ra
     nop
-
 .endfunc
-
 
 .func Switcheroo
     move      t9,a2
@@ -377,19 +363,9 @@ function first
     nop
 .endfunc
 
-
-// Kill / EXP / attack / casting / ability top text alignment fix
-// Breaks the VWF and other stuff
-/*
+// Kill / EXP / attack / casting / using a knack top text alignment fix
+// Breaks some text
 .org 0x02C80DC
-    li      at,0x92(s3)
-    addiu   at,s3,at
-    sb      zero,(at)
-    lb      at,0x10(s3)
-    bnez    at,@@draw
-    nop
-    addiu   s3,s3,0x1
-@@draw:
     li      a0,0x0
     jal     0x00151670
     nop    
@@ -406,7 +382,37 @@ function first
     jal     0x00151840
     nop    
     b       0x002C81A0
+    nop    
+
+/*
+The following code can't be compiled with armips
+.org 0x02C80DC
+    lb      at,0x92(s3)
+    addiu   at,s3,at
+    sb      zero,(at)
+    lb      at,0x10(s3)
+    bnez    at,@@draw
+    nop
+    addiu   s3,s3,0x1
+@@draw:
+    li      a0,0x0
+    jal     0x00151670
+    nop
+    li      a0,0x80
+    jal     0x001517a0
+    nop
+    mtc1    s2,f00
+    nop    
+    cvt.s.w f12,f00
+    mtc1    s1,f00
+    nop
+    cvt.s.w f13,f00
+    addiu   a0,s3,0x10
+    jal     0x00151840
+    nop
+    b       0x002C81A0
     nop
 */
+
 
 .close
