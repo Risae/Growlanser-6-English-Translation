@@ -10,9 +10,7 @@ DrawTextAt equ 0x00151840
 printf equ 0x129798 ; Part of the full width numbers in enemies defeated string
 
 
-/*
-Fix for the full width numbers that are displayed when you kill more than 1 enemy at the same time.
-*/
+// Fix for the full width numbers that are displayed when you kill more than 1 enemy at the same time.
 
 .org 0x2C7684
 move a0, v0
@@ -378,5 +376,36 @@ function first
     nop
     nop
 .endfunc
+
+
+
+// Kill / EXP / attack / casting / ability top text alignment fix
+
+.org 0x02C80DC
+    li      at,0x92(s3)
+    addiu   at,s3,at
+    sb      zero,(at)
+    lb      at,0x10(s3)
+    bnez    at,@@draw
+    nop
+    addiu   s3,s3,0x1
+@@draw:
+    li      a0,0x0
+    jal     0x00151670
+    nop    
+    li      a0,0x80
+    jal     0x001517a0
+    nop    
+    mtc1    s2,f00
+    nop    
+    cvt.s.w f12,f00
+    mtc1    s1,f00
+    nop    
+    cvt.s.w f13,f00
+    addiu   a0,s3,0x10
+    jal     0x00151840
+    nop    
+    b       0x002C81A0
+    nop
 
 .close
