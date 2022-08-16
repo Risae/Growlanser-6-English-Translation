@@ -12,7 +12,7 @@
 //POINTER #1 @ $34A4 - STRING #1 @ $3783
 #W32($34A4)
 //・敵の全滅[END-FE]
-・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
 
 
 
@@ -22,8 +22,8 @@
 #W32($34A8)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -33,8 +33,8 @@
 #W32($34AC)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -43,7 +43,7 @@
 //POINTER #4 @ $34B0 - STRING #4 @ $37DA
 #W32($34B0)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -54,9 +54,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -67,9 +67,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -79,8 +79,8 @@
 #W32($34BC)
 //・ＮＰＣの死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -90,8 +90,8 @@
 #W32($34C0)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -101,8 +101,8 @@
 #W32($34C4)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -111,7 +111,7 @@
 //POINTER #10 @ $34C8 - STRING #10 @ $38C8
 #W32($34C8)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -121,8 +121,8 @@
 #W32($34CC)
 //　[NLINE]
 //ふとん犬はどこかへ走り去った…。[END-FE]
-　[NLINE]
-ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
 
 
 
@@ -131,7 +131,7 @@
 //POINTER #12 @ $34D0 - STRING #12 @ $3904
 #W32($34D0)
 //ヤージェン村[END-FE]
-ヤージェン村[END-FE]
+Jaergen Village[END-FE]
 
 
 
@@ -145,9 +145,9 @@
 //煽動するのはやめていただきたい。[NLINE]
 //　[END-FE]
 [CHAR2100][V4E00]
-ここはもはやグランゲイルの土地。[NLINE]
-我が物顔で歩き回って元ネイラーン民を[NLINE]
-煽動するのはやめていただきたい。[NLINE]
+You still prancing around here[NLINE]
+with your rabble-rouser act? This[NLINE]
+is Grangale territory now, bub.[NLINE]
 　[END-FE]
 
 
@@ -162,10 +162,10 @@
 //何かたくらんでいると思われても[NLINE]
 //仕方ありませんぞ。[END-FE]
 [CHAR2100][V4F00]
-先ほどもヴィットーリオ代表と　　　　[NLINE]
-密談されていたようだが……。[NLINE]
-何かたくらんでいると思われても[NLINE]
-仕方ありませんぞ。[END-FE]
+You'd best remember that before　　　　[NLINE]
+you hold any more secret[NLINE]
+meetings with has-been royalty...[NLINE]
+Veeery suspicious, if you ask me.[END-FE]
 
 
 
@@ -177,8 +177,8 @@
 //勝手なこと言ってんじゃねえぞ、[NLINE]
 //侵略者どもが！[END-FE]
 [CHAR2100][V5000]
-勝手なこと言ってんじゃねえぞ、[NLINE]
-侵略者どもが！[END-FE]
+How dare you talk that way,[NLINE]
+you invader filth![END-FE]
 
 
 
@@ -190,8 +190,8 @@
 //ロックバイン様を[NLINE]
 //侮辱するような奴は許さんぞ！[END-FE]
 [CHAR2100][V5100]
-ロックバイン様を[NLINE]
-侮辱するような奴は許さんぞ！[END-FE]
+You're not fit to speak to[NLINE]
+General Rockbein![END-FE]
 
 
 
@@ -204,9 +204,9 @@
 //私などのことで、つまらん争いを[NLINE]
 //起こしてはならん。[END-FE]
 [CHAR2100][V5200]
-みんな、やめるんだ。[NLINE]
-私などのことで、つまらん争いを[NLINE]
-起こしてはならん。[END-FE]
+That's enough, all of you.[NLINE]
+I don't want to see you hurt[NLINE]
+on my account.[END-FE]
 
 
 
@@ -217,7 +217,7 @@
 //[CHAR2100][V5300]
 //ロックバイン様…。[END-FE]
 [CHAR2100][V5300]
-ロックバイン様…。[END-FE]
+General Rockbein...[END-FE]
 
 
 
@@ -234,13 +234,13 @@
 //民も殺気立つようですな。[NLINE]
 //速やかに村から出て行っていただきたい。[END-FE]
 [CHAR2100][V5400]
-さすがは『元』将軍。[NLINE]
-道理がよくおわかりだ。[NWIN]
+Thank you, ex-General.[NLINE]
+I see you know the score.[NWIN]
 
 [CHAR2100][V5500]
-だが、あなたがおられると、[NLINE]
-民も殺気立つようですな。[NLINE]
-速やかに村から出て行っていただきたい。[END-FE]
+Still, I think your presence here[NLINE]
+is getting the people's dander up.[NLINE]
+Take a hike, pal.[END-FE]
 
 
 
@@ -251,7 +251,7 @@
 //[CHAR2100][V5600]
 //貴様、調子に乗りおって！[END-FE]
 [CHAR2100][V5600]
-貴様、調子に乗りおって！[END-FE]
+How dare you![END-FE]
 
 
 
@@ -264,9 +264,9 @@
 //自ら争いを起こし、[NLINE]
 //維持軍の庇護を失うつもりか！[END-FE]
 [CHAR2100][V5700]
-おっと、剣を抜くつもりか！[NLINE]
-自ら争いを起こし、[NLINE]
-維持軍の庇護を失うつもりか！[END-FE]
+Hey, I think this guy wants[NLINE]
+a war! What would the PMB[NLINE]
+say about that, eh?[END-FE]
 
 
 
@@ -280,10 +280,10 @@
 //忌々しい平和維持軍が目を光らせているから、[NLINE]
 //というだけに過ぎん！[END-FE]
 [CHAR2100][V5800]
-我らグランゲイルが代表や将軍を[NLINE]
-生かしたままにしているのは、[NLINE]
-忌々しい平和維持軍が目を光らせているから、[NLINE]
-というだけに過ぎん！[END-FE]
+We're only letting you and that[NLINE]
+washed-up Prince live because[NLINE]
+the PMB would skin us alive if[NLINE]
+we made a move.[END-FE]
 
 
 
@@ -296,9 +296,9 @@
 //一瞬でたたきつぶせるという事を[NLINE]
 //忘れるなっ！[END-FE]
 [CHAR2100][V5900]
-維持軍の庇護がなくなれば、お前たちなど[NLINE]
-一瞬でたたきつぶせるという事を[NLINE]
-忘れるなっ！[END-FE]
+If you ever did anything to lose that[NLINE]
+protection, we'd knock you flat in an[NLINE]
+instant, so don't you forget it![END-FE]
 
 
 
@@ -309,7 +309,7 @@
 //[CHAR2100][V5A00]
 //やめるんだ、グローマー！[END-FE]
 [CHAR2100][V5A00]
-やめるんだ、グローマー！[END-FE]
+Stop this, Groemer![END-FE]
 
 
 
@@ -320,7 +320,7 @@
 //[CHAR2100][V5B00]
 //剣を収めろ。[END-FE]
 [CHAR2100][V5B00]
-剣を収めろ。[END-FE]
+Sheath your sword.[END-FE]
 
 
 
@@ -332,8 +332,8 @@
 //部下の失礼は詫びよう。[NLINE]
 //だが、これだけは言っておく。[END-FE]
 [CHAR2100][V5C00]
-部下の失礼は詫びよう。[NLINE]
-だが、これだけは言っておく。[END-FE]
+I apologize on his behalf.[NLINE]
+But I will tell you this.[END-FE]
 
 
 
@@ -345,8 +345,8 @@
 //我らは国土を失った。[NLINE]
 //だが、誇りまで失ったわけではないっ！[END-FE]
 [CHAR2100][V5D00]
-我らは国土を失った。[NLINE]
-だが、誇りまで失ったわけではないっ！[END-FE]
+You took our nation, but you didn't[NLINE]
+take our pride![END-FE]
 
 
 
@@ -359,9 +359,9 @@
 //例え敗れたとしても、[NLINE]
 //お主らとて無事では済まんぞ！[END-FE]
 [CHAR2100][V5E00]
-ひとたび戦いになれば、[NLINE]
-例え敗れたとしても、[NLINE]
-お主らとて無事では済まんぞ！[END-FE]
+If it does come to open war...[NLINE]
+Your victory, assured or not,[NLINE]
+will cost you dearly.[END-FE]
 
 
 
@@ -373,8 +373,8 @@
 //と、とにかく。[NLINE]
 //余計な事は考えない事だ。[END-FE]
 [CHAR2100][V5F00]
-と、とにかく。[NLINE]
-余計な事は考えない事だ。[END-FE]
+Well... All I'm saying is,[NLINE]
+don't get any ideas![END-FE]
 
 
 
@@ -385,7 +385,7 @@
 //[CHAR2100][V6000]
 //行くぞ……。[END-FE]
 [CHAR2100][V6000]
-行くぞ……。[END-FE]
+We're going...[END-FE]
 
 
 
@@ -395,8 +395,9 @@
 #W32($351C)
 //この向こうはグランゲイルの豪商の屋敷だ。[NLINE]
 //うかつに近寄らない方がいいだろう。[END-FE]
-この向こうはグランゲイルの豪商の屋敷だ。[NLINE]
-うかつに近寄らない方がいいだろう。[END-FE]
+This is the merchant governor's[NLINE]
+mansion... I'd better not get too[NLINE]
+close.[END-FE]
 
 
 
@@ -414,17 +415,14 @@
 //
 //それとも何か？[NLINE]
 //自警団を辞めて、果樹園に転職か？[END-FE]
-どこへ行くつもりだ？[NWIN]
+Hey! No trespassing![NWIN]
 
-この奥はグランゲイル本国から[NLINE]
-この地を治めるために移り住んだ領主の屋敷。[NWIN]
+Past here lives the Grangalian lord who[NLINE]
+looks after these Neylern wretches.[NLINE]
+You vigilante thugs had better clear out.[NWIN]
 
-ネイラーン自警団ごときが[NLINE]
-立ち入れる場所ではない。[NWIN]
-
-それとも何か？[NLINE]
-自警団を辞めて、果樹園に転職か？[END-FE]
-
+Unless you've come to do the[NLINE]
+great man's gardening...[END-FE]
 
 
 
@@ -432,7 +430,7 @@
 //POINTER #33 @ $3524 - STRING #33 @ $3F5F
 #W32($3524)
 //おのれ…見下しおって…[END-FE]
-おのれ…見下しおって…[END-FE]
+How dare you say such things...[END-FE]
 
 
 
@@ -441,7 +439,7 @@
 //POINTER #34 @ $3528 - STRING #34 @ $3F78
 #W32($3528)
 //やめておけ、グローマー。[END-FE]
-やめておけ、グローマー。[END-FE]
+Steady, Groemer.[END-FE]
 
 
 
@@ -451,8 +449,8 @@
 #W32($352C)
 //たまたま通りかかっただけだ。[NLINE]
 //グランゲイルの者に迷惑はかけぬ。[END-FE]
-たまたま通りかかっただけだ。[NLINE]
-グランゲイルの者に迷惑はかけぬ。[END-FE]
+We're just passing by, that's all.[NLINE]
+We're not here to cause trouble.[END-FE]
 
 
 
@@ -468,14 +466,13 @@
 //
 //まさか、よからぬ事を企んでいるわけでは[NLINE]
 //ありますまいな、ロックバイン将軍？[END-FE]
-…ならばいいがな。[NWIN]
+...If you say so.[NWIN]
 
-２０年前のあの時、平和維持軍が仲裁し、[NLINE]
-お前たちの自治を認めさせたお陰で[NLINE]
-いつ寝首をかかれるかと気が休まらぬわ！[NWIN]
-
-まさか、よからぬ事を企んでいるわけでは[NLINE]
-ありますまいな、ロックバイン将軍？[END-FE]
+Ever since the PMB gave you guys[NLINE]
+your autonomy, we've had to be on[NLINE]
+constant guard against your treachery.[NLINE]
+Present company excepted. You'd[NLINE]
+never do anything unlawful, would you?[END-FE]
 
 
 
@@ -484,7 +481,7 @@
 //POINTER #37 @ $3534 - STRING #37 @ $40A7
 #W32($3534)
 //………。[END-FE]
-………。[END-FE]
+......[END-FE]
 
 
 
@@ -503,17 +500,17 @@
 //財産も権利も守ってもらえたんだからな！[NWIN]
 //
 //とにかく、おかしなことはするなよ！[END-FE]
-維持軍の余計な仲介がなく、[NLINE]
-お前たちの財産を没収できてさえいれば、[NLINE]
-反抗などできない状況に追い込めたのに…。[NWIN]
+If it was up to me, without any PMB[NLINE]
+meddling, I'd have stripped your country[NLINE]
+bare. Let's see you try to rebel then.[NWIN]
 
-……まったく、忌々しい平和維持軍め。[NWIN]
+Filthy PMB swine...[NWIN]
 
-もっとも、お前たちには[NLINE]
-感謝してもしたりない相手だろう。[NLINE]
-財産も権利も守ってもらえたんだからな！[NWIN]
+I bet you get down on your hands[NLINE]
+and knees every night to thank them[NLINE]
+for saving what little you got left, eh?[NWIN]
 
-とにかく、おかしなことはするなよ！[END-FE]
+See what messing with us gets you![END-FE]
 
 
 
@@ -531,16 +528,15 @@
 //我々がこの地を取り戻していたのだ！[NWIN]
 //
 //奴らの方こそ、維持軍に救われたのだ！[END-FE]
-言わせておけばいい気になりおって！[NLINE]
-誰が維持軍などに感謝をするものか！[NWIN]
+That bastard! We have nothing to[NLINE]
+thank the PMB for![NWIN]
 
-２０年前、アドモニッシャーの砲撃で[NLINE]
-ガタガタになっていたのは連中の方だというのに！[NWIN]
+It was the Grangalians who took the[NLINE]
+worst of the Admonisher attack![NLINE]
+If the PMB hadn't gotten in the way, [NLINE]
+the rest would have been easy![NWIN]
 
-維持軍の仲裁さえなければ、[NLINE]
-我々がこの地を取り戻していたのだ！[NWIN]
-
-奴らの方こそ、維持軍に救われたのだ！[END-FE]
+If anyone should thank the PMB, it's them![END-FE]
 
 
 
@@ -555,13 +551,13 @@
 //弱ったグランゲイルとはいえ、[NLINE]
 //あの時の我々の兵力で果たして[NLINE]
 //本当に勝てるのか、と。[END-FE]
-だがな、グローマーよ。[NLINE]
-あの時の私には[NLINE]
-判断に迷いがあったのも事実なのだ。[NWIN]
+Groemer... Even at that moment,[NLINE]
+when our victory seemed[NLINE]
+assured, I had my doubts.[NWIN]
 
-弱ったグランゲイルとはいえ、[NLINE]
-あの時の我々の兵力で果たして[NLINE]
-本当に勝てるのか、と。[END-FE]
+Though the Grangale forces[NLINE]
+seemed weak, I couldn't be[NLINE]
+absolutely certain.[END-FE]
 
 
 
@@ -570,7 +566,7 @@
 //POINTER #41 @ $3544 - STRING #41 @ $4371
 #W32($3544)
 //将軍…。[END-FE]
-将軍…。[END-FE]
+Sir...[END-FE]
 
 
 
@@ -587,15 +583,15 @@
 //結果、私は維持軍の仲裁を受け入れた。[NLINE]
 //話し合いによる、無血の解決…。[NLINE]
 //その言葉を信じて…。[END-FE]
-兵の数だけを見れば五分…。[NLINE]
-だが、残り少ない物資を考えれば…。[NWIN]
+Military strength wasn't everything. We[NLINE]
+had to consider our other resources.[NWIN]
 
-私が判断を間違えれば、多くの兵が…[NLINE]
-残ったネイラーンの民が全滅する…。[NWIN]
+The slightest misjudgement would[NLINE]
+mean the slaughter of all Neylerns...[NWIN]
 
-結果、私は維持軍の仲裁を受け入れた。[NLINE]
-話し合いによる、無血の解決…。[NLINE]
-その言葉を信じて…。[END-FE]
+That's why I had to accept the PMB's[NLINE]
+intervention. They offered a bloodless[NLINE]
+peace, and I accepted.[END-FE]
 
 
 
@@ -604,7 +600,7 @@
 //POINTER #43 @ $354C - STRING #43 @ $4461
 #W32($354C)
 //心中、お察し致します…。[END-FE]
-心中、お察し致します…。[END-FE]
+Sir, I'm not questioning--[END-FE]
 
 
 
@@ -614,8 +610,8 @@
 #W32($3550)
 //だがもはや平和維持軍はあてにならん！[NLINE]
 //我々は我々のやり方で、ネイラーンを取り戻す。[END-FE]
-だがもはや平和維持軍はあてにならん！[NLINE]
-我々は我々のやり方で、ネイラーンを取り戻す。[END-FE]
+But that road has reached its end. We'll[NLINE]
+take back Neylern by any means necessary![END-FE]
 
 
 
@@ -624,7 +620,7 @@
 //POINTER #45 @ $3554 - STRING #45 @ $44D1
 #W32($3554)
 //はっ！[END-FE]
-はっ！[END-FE]
+Sir![END-FE]
 
 
 
@@ -635,9 +631,9 @@
 //将軍、お体は大丈夫ですか？[NLINE]
 //あまり無理をなさらぬよう、[NLINE]
 //お気をつけ下さい。[END-FE]
-将軍、お体は大丈夫ですか？[NLINE]
-あまり無理をなさらぬよう、[NLINE]
-お気をつけ下さい。[END-FE]
+How are you feeling, General?[NLINE]
+You should take better care[NLINE]
+of your health, Sir![END-FE]
 
 
 
@@ -647,8 +643,8 @@
 #W32($355C)
 //将軍！[NLINE]
 //我々は信じています！[END-FE]
-将軍！[NLINE]
-我々は信じています！[END-FE]
+We're all counting[NLINE]
+on you, General![END-FE]
 
 
 
@@ -662,12 +658,12 @@
 //
 //私は将軍が国を取り戻して下さると[NLINE]
 //信じております！[END-FE]
-国王が処刑されても、[NLINE]
-王家の血が絶やされずに済んだのは[NLINE]
-ロックバイン将軍のおかげです！[NWIN]
+We're all so grateful, General...[NLINE]
+Our king was executed, but thanks[NLINE]
+to you, the royal line survives![NWIN]
 
-私は将軍が国を取り戻して下さると[NLINE]
-信じております！[END-FE]
+If anyone can restore Neylern,[NLINE]
+it's you, General![END-FE]
 
 
 
@@ -677,8 +673,8 @@
 #W32($3564)
 //将軍は我々の希望です！[NLINE]
 //がんばってください！[END-FE]
-将軍は我々の希望です！[NLINE]
-がんばってください！[END-FE]
+Our hopes rest with you,[NLINE]
+General![END-FE]
 
 
 
@@ -694,14 +690,14 @@
 //
 //我々元ネイラーン民は、こんな生活に[NLINE]
 //いつまで耐えれば良いのでしょうか。[END-FE]
-この痩せた土地では、子供に満足な食事を[NLINE]
-与える事もできません……。[NWIN]
+We can't even feed our children in[NLINE]
+this blighted land...[NWIN]
 
-かと言って、グランゲイルが[NLINE]
-食料を援助してくれるはずがない。[NWIN]
+But what choice do we have?[NLINE]
+Grangale won't support us either.[NWIN]
 
-我々元ネイラーン民は、こんな生活に[NLINE]
-いつまで耐えれば良いのでしょうか。[END-FE]
+How much longer will the Neylern[NLINE]
+people have to endure this...?[END-FE]
 
 
 
@@ -711,8 +707,8 @@
 #W32($356C)
 //キャリィは、おとなしくて賢い動物ですじゃ。[NLINE]
 //ウサギに似た顔つきも愛らしいですわい。[END-FE]
-キャリィは、おとなしくて賢い動物ですじゃ。[NLINE]
-ウサギに似た顔つきも愛らしいですわい。[END-FE]
+Steeds are wise and docile animals.[NLINE]
+Their rabbit-like faces are cute too.[END-FE]
 
 
 
@@ -727,13 +723,13 @@
 //守り神様が現れてくれれば、[NLINE]
 //グランゲイルの連中ごときに、[NLINE]
 //ネイラーンの民が負けることはなかったのに…。[END-FE]
-おお、ロックバイン将軍…。[NLINE]
-なぜあの時、守り神様は[NLINE]
-ヌナーンを守って下さらなかったのですかのう？[NWIN]
+General Rockbein... Why[NLINE]
+didn't the gods protect[NLINE]
+Nu Nahn that day?[NWIN]
 
-守り神様が現れてくれれば、[NLINE]
-グランゲイルの連中ごときに、[NLINE]
-ネイラーンの民が負けることはなかったのに…。[END-FE]
+Where were they when[NLINE]
+we lost everything to[NLINE]
+Grangale?[END-FE]
 
 
 
@@ -746,11 +742,11 @@
 //
 //グランゲイルさえ攻めてこなければ、[NLINE]
 //さぞや善政をしかれたことでしょうに…。[END-FE]
-ヴィットーリオ様の[NLINE]
-あのお人柄は前国王譲りのもの。[NWIN]
+Lord Vittorio inherited his kind[NLINE]
+nature from the former King.[NWIN]
 
-グランゲイルさえ攻めてこなければ、[NLINE]
-さぞや善政をしかれたことでしょうに…。[END-FE]
+He would've been such a nice king,[NLINE]
+if only Grangale hadn't invaded...[END-FE]
 
 
 
@@ -767,15 +763,15 @@
 //なぜこのような目にあわねば[NLINE]
 //ならぬのか……。[NLINE]
 //これが本当の平和と呼べるのじゃろうか？[END-FE]
-先祖代々耕してきた豊かな土地は[NLINE]
-グランゲイルの者どもに奪われた。[NWIN]
+We've worked this land for centuries,[NLINE]
+only for them to take it all from us.[NWIN]
 
-そして我々は、こんな辺境に[NLINE]
-追いやられてしもうた…。[NWIN]
+And now here we are, in the middle[NLINE]
+of nowhere...[NWIN]
 
-なぜこのような目にあわねば[NLINE]
-ならぬのか……。[NLINE]
-これが本当の平和と呼べるのじゃろうか？[END-FE]
+The PMB's obsession with "peace"[NLINE]
+has done nothing but doom us to a[NLINE]
+slow death by starvation.[END-FE]
 
 
 
@@ -785,8 +781,8 @@
 #W32($357C)
 //いらっしゃいませ、将軍さま。[NLINE]
 //ようこそ、武器防具屋へ。[END-FE]
-いらっしゃいませ、将軍さま。[NLINE]
-ようこそ、武器防具屋へ。[END-FE]
+Hello, General. Welcome[NLINE]
+to my armory.[END-FE]
 
 
 
@@ -795,7 +791,7 @@
 //POINTER #56 @ $3580 - STRING #56 @ $4976
 #W32($3580)
 //どのようなご用件でしょうか？[END-FE]
-どのようなご用件でしょうか？[END-FE]
+What can I do for you, Sir?[END-FE]
 
 
 
@@ -804,7 +800,7 @@
 //POINTER #57 @ $3584 - STRING #57 @ $4995
 #W32($3584)
 //・武器購入[END-FE]
-・武器購入[END-FE]
+・Buy weapons[END-FE]
 
 
 
@@ -813,7 +809,7 @@
 //POINTER #58 @ $3588 - STRING #58 @ $49A2
 #W32($3588)
 //・防具購入[END-FE]
-・防具購入[END-FE]
+・Buy armor[END-FE]
 
 
 
@@ -822,7 +818,7 @@
 //POINTER #59 @ $358C - STRING #59 @ $49AF
 #W32($358C)
 //・売却[END-FE]
-・売却[END-FE]
+・Sell[END-FE]
 
 
 
@@ -832,8 +828,8 @@
 #W32($3590)
 //ありがとうございます。[NLINE]
 //またご来店下さい。[END-FE]
-ありがとうございます。[NLINE]
-またご来店下さい。[END-FE]
+Thank you, Sir.[NLINE]
+Please come again.[END-FE]
 
 
 
@@ -843,8 +839,8 @@
 #W32($3594)
 //これはロックバイン将軍。[NLINE]
 //道具屋へようこそ。[END-FE]
-これはロックバイン将軍。[NLINE]
-道具屋へようこそ。[END-FE]
+Welcome to my item[NLINE]
+shop, General.[END-FE]
 
 
 
@@ -853,7 +849,7 @@
 //POINTER #62 @ $3598 - STRING #62 @ $4A14
 #W32($3598)
 //ご購入でしょうか、売却でしょうか？[END-FE]
-ご購入でしょうか、売却でしょうか？[END-FE]
+Are you buying today or selling?[END-FE]
 
 
 
@@ -862,7 +858,7 @@
 //POINTER #63 @ $359C - STRING #63 @ $4A39
 #W32($359C)
 //・アクセサリ購入[END-FE]
-・アクセサリ購入[END-FE]
+・Buy accessories[END-FE]
 
 
 
@@ -871,7 +867,7 @@
 //POINTER #64 @ $35A0 - STRING #64 @ $4A4C
 #W32($35A0)
 //・グッズ購入[END-FE]
-・グッズ購入[END-FE]
+・Buy items[END-FE]
 
 
 
@@ -880,7 +876,7 @@
 //POINTER #65 @ $35A4 - STRING #65 @ $4A5B
 #W32($35A4)
 //・売却[END-FE]
-・売却[END-FE]
+・Sell[END-FE]
 
 
 
@@ -890,8 +886,8 @@
 #W32($35A8)
 //ありがとうございます。[NLINE]
 //またいつでもご利用下さい。[END-FE]
-ありがとうございます。[NLINE]
-またいつでもご利用下さい。[END-FE]
+Thank you, Sir.[NLINE]
+Please come again.[END-FE]
 
 
 
@@ -906,13 +902,13 @@
 //
 //父はすでに高齢ですので、それほど長くは…。[NLINE]
 //なにとぞ、よろしくお願いします。[END-FE]
-これはロックバイン将軍！[NWIN]
+Greetings, General Rockbein![NWIN]
 
-…実は…申し上げにくいのですが、[NLINE]
-父がずっとヌナーンに帰りたがっております。[NWIN]
+I hesitate to bring this up, but... My[NLINE]
+father longs to see Nu Nahn again.[NWIN]
 
-父はすでに高齢ですので、それほど長くは…。[NLINE]
-なにとぞ、よろしくお願いします。[END-FE]
+He's getting on in years, and I think his[NLINE]
+time has nearly come... Please, Sir...[END-FE]
 
 
 
@@ -925,11 +921,11 @@
 //
 //もう少し若ければ、[NLINE]
 //将軍のお手伝いが出来たのに…。[END-FE]
-これは将軍！[NLINE]
-申し訳ありませんのぅ…。[NWIN]
+Oh, General! I'm sorry[NLINE]
+about all this...[NWIN]
 
-もう少し若ければ、[NLINE]
-将軍のお手伝いが出来たのに…。[END-FE]
+If only I was a little younger, I[NLINE]
+could fight alongside you.[END-FE]
 
 
 
@@ -939,8 +935,8 @@
 #W32($35B4)
 //これは、将軍！[NLINE]
 //またお召し物の手直しでしょうか？[END-FE]
-これは、将軍！[NLINE]
-またお召し物の手直しでしょうか？[END-FE]
+General Rockbein! Do your[NLINE]
+clothes need mending again?[END-FE]
 
 
 
@@ -949,7 +945,7 @@
 //POINTER #70 @ $35B8 - STRING #70 @ $4BE0
 #W32($35B8)
 //いや、そうではないが…。[END-FE]
-いや、そうではないが…。[END-FE]
+Not today, but thank you.[END-FE]
 
 
 
@@ -964,13 +960,13 @@
 //私たちが安心して暮らせるのも[NLINE]
 //将軍がいてこそですから。[NLINE]
 //それでは、失礼致します。[END-FE]
-そうですか。[NLINE]
-私、お裁縫は大好きですので、[NLINE]
-遠慮せずにお申し付け下さい！[NWIN]
+Oh... Well, sewing is my life,[NLINE]
+so if you ever need something[NLINE]
+stitched, you come see me![NWIN]
 
-私たちが安心して暮らせるのも[NLINE]
-将軍がいてこそですから。[NLINE]
-それでは、失礼致します。[END-FE]
+With you looking out for us,[NLINE]
+we can live through anything.[NLINE]
+We're all in your debt, Sir.[END-FE]
 
 
 
@@ -981,7 +977,7 @@
 //　[NLINE]
 //キャリィを入れておく小屋だ。[END-FE]
 　[NLINE]
-キャリィを入れておく小屋だ。[END-FE]
+A shack for the Steeds.[END-FE]
 
 
 
@@ -991,8 +987,8 @@
 #W32($35C4)
 //私とグローマーはこちらで[NLINE]
 //待機しております。[END-FE]
-私とグローマーはこちらで[NLINE]
-待機しております。[END-FE]
+Groemer and I will wait[NLINE]
+here for you, Sir.[END-FE]
 
 
 
@@ -1002,8 +998,8 @@
 #W32($35C8)
 //将軍、ご用の際は[NLINE]
 //私にお申し付け下さい。[END-FE]
-将軍、ご用の際は[NLINE]
-私にお申し付け下さい。[END-FE]
+If you need me, General,[NLINE]
+I'll be here.[END-FE]
 
 
 
@@ -1013,8 +1009,8 @@
 #W32($35CC)
 //これは将軍。[NLINE]
 //先ほどからお客様がお待ちです。[END-FE]
-これは将軍。[NLINE]
-先ほどからお客様がお待ちです。[END-FE]
+Hello, Sir. There's a guest[NLINE]
+waiting for you.[END-FE]
 
 
 
@@ -1023,7 +1019,7 @@
 //POINTER #76 @ $35D0 - STRING #76 @ $4D44
 #W32($35D0)
 //お部屋へどうぞ。[END-FE]
-お部屋へどうぞ。[END-FE]
+Go right up, Sir.[END-FE]
 
 
 
@@ -1033,8 +1029,8 @@
 #W32($35D4)
 //いらっしゃいませ。[NLINE]
 //お泊まりですか？[END-FE]
-いらっしゃいませ。[NLINE]
-お泊まりですか？[END-FE]
+Welcome. Would[NLINE]
+you like a room?[END-FE]
 
 
 
@@ -1043,7 +1039,7 @@
 //POINTER #78 @ $35D8 - STRING #78 @ $4D7E
 #W32($35D8)
 //・宿泊する[END-FE]
-・宿泊する[END-FE]
+・Check in[END-FE]
 
 
 
@@ -1052,7 +1048,7 @@
 //POINTER #79 @ $35DC - STRING #79 @ $4D8B
 #W32($35DC)
 //・記録をとる[END-FE]
-・記録をとる[END-FE]
+・Save[END-FE]
 
 
 
@@ -1070,7 +1066,7 @@
 //POINTER #81 @ $35E4 - STRING #81 @ $4DAF
 #W32($35E4)
 //どうぞ、ごゆっくり。[END-FE]
-どうぞ、ごゆっくり。[END-FE]
+Make yourself at home.[END-FE]
 
 
 
@@ -1079,7 +1075,7 @@
 //POINTER #82 @ $35E8 - STRING #82 @ $4DC6
 #W32($35E8)
 //ついでに記録をとられますか？[END-FE]
-ついでに記録をとられますか？[END-FE]
+Will you save your progress?[END-FE]
 
 
 
@@ -1089,8 +1085,8 @@
 #W32($35EC)
 //気を付けて[NLINE]
 //いってらっしゃいませ。[END-FE]
-気を付けて[NLINE]
-いってらっしゃいませ。[END-FE]
+Have a pleasant[NLINE]
+trip, General.[END-FE]
 
 
 
@@ -1099,7 +1095,7 @@
 //POINTER #84 @ $35F0 - STRING #84 @ $4E0A
 #W32($35F0)
 //ヤージェン村[END-FE]
-ヤージェン村[END-FE]
+Jaergen Village[END-FE]
 
 
 
@@ -1118,8 +1114,17 @@
 #W32($35F8)
 //またのご利用を[NLINE]
 //お待ちしております。[END-FE]
-またのご利用を[NLINE]
-お待ちしております。[END-FE]
+I hope to see you[NLINE]
+soon, Sir.[END-FE]
+
+
+
+
+
+//POINTER #87 @ $36FC - STRING #87 @ $4F72
+#W32($36FC)
+//
+Skip Rockbein's Role?[END-FE]
 
 
 
@@ -1128,7 +1133,7 @@
 //POINTER #87 @ $35FC - STRING #87 @ $4E55
 #W32($35FC)
 //元ネイラーン軍上級兵[END-FE]
-元ネイラーン軍上級兵[END-FE]
+Former Neylern Soldier[END-FE]
 
 
 
@@ -1142,10 +1147,10 @@
 //平和維持軍による調停後も、[NLINE]
 //相手国による占領状態が続いている。[END-FE]
 [CHAR1E00][V0000]
-２０年前の戦争で、[NLINE]
-グランゲイルに敗れたネイラーン王国では、[NLINE]
-平和維持軍による調停後も、[NLINE]
-相手国による占領状態が続いている。[END-FE]
+The Kingdom of Neylern has been under[NLINE]
+Grangale's control despite the Peace[NLINE]
+Maintenance Brigade's intervention[NLINE]
+20 years earlier.[END-FE]
 
 
 
@@ -1159,9 +1164,9 @@
 //王国復興のため活動を続けていた……。[NLINE]
 //　[END-FE]
 [CHAR1E00][V0100]
-かつてネイラーンの将軍であった[NLINE]
-ロックバインは、密かに、[NLINE]
-王国復興のため活動を続けていた……。[NLINE]
+Rockbein, ex-general of Neylern's[NLINE]
+army, has been working in secret to[NLINE]
+restore his country's former glory...[NLINE]
 　[END-FE]
 
 
@@ -1173,7 +1178,7 @@
 //[CHAR1E00][V0200]
 //以上であります！[END-FE]
 [CHAR1E00][V0200]
-以上であります！[END-FE]
+That's my report, Sir.[END-FE]
 
 
 
@@ -1185,8 +1190,8 @@
 //するといずれの遺跡でも[NLINE]
 //成果は無し…ということか。[END-FE]
 [CHAR1E00][V0300]
-するといずれの遺跡でも[NLINE]
-成果は無し…ということか。[END-FE]
+No luck with any of the[NLINE]
+ruins, hmm?[END-FE]
 
 
 
@@ -1197,7 +1202,7 @@
 //[CHAR1E00][V0400]
 //申し訳ございません。[END-FE]
 [CHAR1E00][V0400]
-申し訳ございません。[END-FE]
+I apologize, Sir.[END-FE]
 
 
 
@@ -1206,7 +1211,7 @@
 //POINTER #93 @ $3614 - STRING #93 @ $4FD7
 #W32($3614)
 //・ねぎらう[END-FE]
-・ねぎらう[END-FE]
+・Reassure[END-FE]
 
 
 
@@ -1215,7 +1220,7 @@
 //POINTER #94 @ $3618 - STRING #94 @ $4FE4
 #W32($3618)
 //・しかる[END-FE]
-・しかる[END-FE]
+・Scold[END-FE]
 
 
 
@@ -1224,7 +1229,7 @@
 //POINTER #95 @ $361C - STRING #95 @ $4FEF
 #W32($361C)
 //・黙っている[END-FE]
-・黙っている[END-FE]
+・Say nothing[END-FE]
 
 
 
@@ -1239,11 +1244,11 @@
 //報告、ご苦労だった。[NLINE]
 //次の調査に期待しよう。[END-FE]
 [CHAR1E00][V0500]
-お前のせいではない。[NWIN]
+It's not your fault.[NWIN]
 
 [CHAR1E00][V0600]
-報告、ご苦労だった。[NLINE]
-次の調査に期待しよう。[END-FE]
+You did well. We'll just[NLINE]
+have to keep on trying.[END-FE]
 
 
 
@@ -1255,8 +1260,8 @@
 //これだけ探し回って、[NLINE]
 //まだ見つからぬと言うのか！[END-FE]
 [CHAR1E00][V0700]
-これだけ探し回って、[NLINE]
-まだ見つからぬと言うのか！[END-FE]
+This is all you have to[NLINE]
+show for weeks of work!?[END-FE]
 
 
 
@@ -1267,7 +1272,7 @@
 //[CHAR1E00][V0800]
 //本当に、申し訳ございません……。[END-FE]
 [CHAR1E00][V0800]
-本当に、申し訳ございません……。[END-FE]
+I-I'm terribly sorry, Sir...[END-FE]
 
 
 
@@ -1278,7 +1283,7 @@
 //[CHAR1E00][V0900]
 //将軍、伝令のせいではございますまい。[END-FE]
 [CHAR1E00][V0900]
-将軍、伝令のせいではございますまい。[END-FE]
+General... Let's not blame the messenger.[END-FE]
 
 
 
@@ -1290,8 +1295,8 @@
 //そうだな……。[NLINE]
 //報告ご苦労。次の調査に期待しよう。[END-FE]
 [CHAR1E00][V0A00]
-そうだな……。[NLINE]
-報告ご苦労。次の調査に期待しよう。[END-FE]
+I suppose not... Well, let's[NLINE]
+keep trying.[END-FE]
 
 
 
@@ -1302,7 +1307,7 @@
 //[CC.AC00][CHAR1E00][V0B00]
 //……。[END-FE]
 [CC.AC00][CHAR1E00][V0B00]
-……。[END-FE]
+......[END-FE]
 
 
 
@@ -1313,7 +1318,7 @@
 //[CHAR1E00][V0C00]
 //報告、ご苦労だった。[END-FE]
 [CHAR1E00][V0C00]
-報告、ご苦労だった。[END-FE]
+Good work, soldier.[END-FE]
 
 
 
@@ -1324,7 +1329,7 @@
 //[CHAR1E00][V0D00]
 //はっ！[END-FE]
 [CHAR1E00][V0D00]
-はっ！[END-FE]
+Yes, Sir![END-FE]
 
 
 
@@ -1336,8 +1341,8 @@
 //さて、フェルナンドが来るのを[NLINE]
 //待つとしようか。[END-FE]
 [CHAR1E00][V0E00]
-さて、フェルナンドが来るのを[NLINE]
-待つとしようか。[END-FE]
+Fernando has yet to[NLINE]
+report in.[END-FE]
 
 
 
@@ -1348,7 +1353,7 @@
 //　[NLINE]
 //ベッドサイド用のチェストがある。[END-FE]
 　[NLINE]
-ベッドサイド用のチェストがある。[END-FE]
+There's a nightstand here.[END-FE]
 
 
 
@@ -1359,7 +1364,7 @@
 //　[NLINE]
 //クローゼットがある。[END-FE]
 　[NLINE]
-クローゼットがある。[END-FE]
+It's a small closet.[END-FE]
 
 
 
@@ -1370,7 +1375,7 @@
 //　[NLINE]
 //ベッドがある。[END-FE]
 　[NLINE]
-ベッドがある。[END-FE]
+It's a bed.[END-FE]
 
 
 
@@ -1381,7 +1386,7 @@
 //　[NLINE]
 //ツボが置いてある。[END-FE]
 　[NLINE]
-ツボが置いてある。[END-FE]
+The vase sits, collecting dust.[END-FE]
 
 
 
@@ -1391,8 +1396,8 @@
 #W32($3654)
 //テーブルの上には　　　　[NLINE]
 //備え付けのランプがある。[END-FE]
-テーブルの上には　　　　[NLINE]
-備え付けのランプがある。[END-FE]
+The lamp glows quietly on[NLINE]
+the table.[END-FE]
 
 
 
@@ -1401,7 +1406,7 @@
 //POINTER #110 @ $3658 - STRING #110 @ $5247
 #W32($3658)
 //将軍、フェルナンドを待ちましょう。[END-FE]
-将軍、フェルナンドを待ちましょう。[END-FE]
+Let's wait for Fernando, General.[END-FE]
 
 
 
@@ -1416,11 +1421,11 @@
 //αより届きました書簡を[NLINE]
 //お渡ししておきます。[END-FE]
 [CHAR1E00][V2600]
-お待ち下さい、将軍！[NWIN]
+One moment, General![NWIN]
 
 [CHAR1E00][V2700]
-αより届きました書簡を[NLINE]
-お渡ししておきます。[END-FE]
+Sir, we've received a[NLINE]
+letter from α.[END-FE]
 
 
 
@@ -1430,9 +1435,8 @@
 #W32($3660)
 //ロックバイン将軍、[NLINE]
 //どちらへ行かれるのだ？[END-FE]
-ロックバイン将軍、[NLINE]
-どちらへ行かれるのだ？[END-FE]
-
+General Rockbein,[NLINE]
+where are you going?[END-FE]
 
 
 
@@ -1440,7 +1444,7 @@
 //POINTER #113 @ $3664 - STRING #113 @ $52EE
 #W32($3664)
 //将軍、書簡をご覧になってください。[END-FE]
-将軍、書簡をご覧になってください。[END-FE]
+Sir, the letter...?[END-FE]
 
 
 
@@ -1458,14 +1462,14 @@
 //もっとやりようが[NLINE]
 //あったのではないかと……。[END-FE]
 [CHAR1E00][V0F00]
-ネイラーンが…我らの祖国が[NLINE]
-グランゲイルに占領されてから２０年。[NLINE]
-私はその間、ずっと悔やみ続けてきた。[NWIN]
+Has it been 20 years already, since[NLINE]
+Grangale's conquest of our country?[NLINE]
+I keep second-guessing myself...[NWIN]
 
 [CHAR1E00][V1000]
-あのとき軍を任されていた私には、[NLINE]
-もっとやりようが[NLINE]
-あったのではないかと……。[END-FE]
+Was there anything I could[NLINE]
+have done differently on[NLINE]
+that day...?[END-FE]
 
 
 
@@ -1482,13 +1486,13 @@
 //王家の血筋は守られ、国土を持たぬまでも、[NLINE]
 //こうしてネイラーンはその名を留めております。[END-FE]
 [CHAR1E00][V1100]
-何をおっしゃいます、将軍。[NWIN]
+You're not to blame, Sir.[NWIN]
 
 [CHAR1E00][V1200]
-将軍が幼い王子をお連れし、[NLINE]
-敵の手から守り通したからこそ[NLINE]
-王家の血筋は守られ、国土を持たぬまでも、[NLINE]
-こうしてネイラーンはその名を留めております。[END-FE]
+It was you who rescued our prince from[NLINE]
+the enemy that day. You saved the royal[NLINE]
+line--it's only due to your efforts that we[NLINE]
+can still call ourselves Neylerns.[END-FE]
 
 
 
@@ -1504,12 +1508,12 @@
 //『話し合いで解決できる』[NLINE]
 //という言葉を信じて私はそれを承諾した。[END-FE]
 [CHAR1E00][V1300]
-あのとき維持軍は仲裁に入り、[NLINE]
-我らの武力衝突を止めた。[NWIN]
+I trusted the PMB, when they[NLINE]
+first intervened in our affairs.[NWIN]
 
 [CHAR1E00][V1400]
-『話し合いで解決できる』[NLINE]
-という言葉を信じて私はそれを承諾した。[END-FE]
+Their promises of peaceful negotiation[NLINE]
+sounded so reassuring...[END-FE]
 
 
 
@@ -1521,8 +1525,8 @@
 //だがどうだ、[NLINE]
 //２０年を経ても何も変わってはおらぬ！[END-FE]
 [CHAR1E00][V1500]
-だがどうだ、[NLINE]
-２０年を経ても何も変わってはおらぬ！[END-FE]
+And see where we stand now! 20[NLINE]
+years later, nothing's changed.[END-FE]
 
 
 
@@ -1540,14 +1544,16 @@
 //『平和』を作り出している自分たちに[NLINE]
 //陶酔しているだけの連中なのですよ。[END-FE]
 [CHAR1E00][V1600]
-しょせん、維持軍の連中は[NLINE]
-『戦争を起こさせぬ事』にしか[NLINE]
-興味がないのです。[NWIN]
+The PMB's only concern is[NLINE]
+the prevention of war, Sir.[NLINE]
+They're quite single-minded.[NWIN]
 
 [CHAR1E00][V1700]
-強力な兵器をちらつかせ、[NLINE]
-『平和』を作り出している自分たちに[NLINE]
-陶酔しているだけの連中なのですよ。[END-FE]
+Not to mention rather proud of[NLINE]
+themselves for their so-called[NLINE]
+peace, enforced at gunpoint.[NWIN]
+
+[END-FE]
 
 
 
@@ -1561,10 +1567,10 @@
 //豊かな土地の実りをグランゲイルに搾取され、[NLINE]
 //貧困にあえいでいる……。[END-FE]
 [CHAR1E00][V1800]
-…大半のネイラーン人は、[NLINE]
-貧しい土地へと追いやられ、残った民も、[NLINE]
-豊かな土地の実りをグランゲイルに搾取され、[NLINE]
-貧困にあえいでいる……。[END-FE]
+Meanwhile, our people are sick and[NLINE]
+dying, scattered far from their homes,[NLINE]
+while the Grangalians steal what little[NLINE]
+harvest we have left...[END-FE]
 
 
 
@@ -1575,7 +1581,7 @@
 //[CHAR1E00][V1900]
 //まことに無念であります。[END-FE]
 [CHAR1E00][V1900]
-まことに無念であります。[END-FE]
+I hate it as much as you do, Sir.[END-FE]
 
 
 
@@ -1588,9 +1594,9 @@
 //いまや民をモンスターから守る自警団として[NLINE]
 //存在を許されているに過ぎん……。[END-FE]
 [CHAR1E00][V1A00]
-栄光あるネイラーン騎士団も、[NLINE]
-いまや民をモンスターから守る自警団として[NLINE]
-存在を許されているに過ぎん……。[END-FE]
+Worst, the once-proud Neylern[NLINE]
+Knights have been reduced to[NLINE]
+nothing more than pest control...[END-FE]
 
 
 
@@ -1601,7 +1607,7 @@
 //[CHAR1E00][V1B00]
 //私は何の責任も果たしていない。[END-FE]
 [CHAR1E00][V1B00]
-私は何の責任も果たしていない。[END-FE]
+I should be doing more...[END-FE]
 
 
 
@@ -1620,15 +1626,15 @@
 //将軍のお言葉に、私は心の底から[NLINE]
 //共感いたしました！[END-FE]
 [CHAR1E00][V1C00]
-だからこそ将軍！[NLINE]
-我々はこうして、[NLINE]
-捜索を始めたのではありませんか！[NWIN]
+You're doing what you can, Sir.[NLINE]
+That's why you started this[NLINE]
+search, isn't it?[NWIN]
 
 [CHAR1E00][V1D00]
-もはや維持軍には頼れない、[NLINE]
-自ら行動を起こすときであるという[NLINE]
-将軍のお言葉に、私は心の底から[NLINE]
-共感いたしました！[END-FE]
+I recall your words at the time[NLINE]
+were: "We can't rely on the[NLINE]
+PMB. Our destiny is ours alone[NLINE]
+to control."[END-FE]
 
 
 
@@ -1643,11 +1649,11 @@
 //学者を連れ、[NLINE]
 //例の遺跡へ向かっております。[END-FE]
 [CHAR1E00][V1E00]
-将軍、ビリィが戻りました！[NWIN]
+Sir, we have word from Alasdir![NWIN]
 
 [CHAR1E00][V1F00]
-学者を連れ、[NLINE]
-例の遺跡へ向かっております。[END-FE]
+He's got a researcher, and[NLINE]
+he'll meet us at the ruins.[END-FE]
 
 
 
@@ -1659,8 +1665,8 @@
 //よし、北西の遺跡の[NLINE]
 //探索に入れるな。[END-FE]
 [CHAR1E00][V2000]
-よし、北西の遺跡の[NLINE]
-探索に入れるな。[END-FE]
+Excellent. Let's make[NLINE]
+for the northwest ruins.[END-FE]
 
 
 
@@ -1675,11 +1681,11 @@
 //[CHAR1E00][V2200]
 //これは、期待できますね。[END-FE]
 [CHAR1E00][V2100]
-まだ誰の手もつけられていない[NLINE]
-遺跡か……。[NWIN]
+Do you think he's found a[NLINE]
+completely virgin site...?[NWIN]
 
 [CHAR1E00][V2200]
-これは、期待できますね。[END-FE]
+Let's hope this is the one.[END-FE]
 
 
 
@@ -1692,9 +1698,9 @@
 //グランゲイルから我らの祖国を取り戻す。[NLINE]
 //そのための『力』……。[END-FE]
 [CHAR1E00][V2300]
-維持軍を黙らせ、[NLINE]
-グランゲイルから我らの祖国を取り戻す。[NLINE]
-そのための『力』……。[END-FE]
+I pray we'll find the power[NLINE]
+we need to fend off the PMB[NLINE]
+and take our nation back...[END-FE]
 
 
 
@@ -1709,11 +1715,11 @@
 //これ以上、[NLINE]
 //民を飢えさせておくわけにはいかん！[END-FE]
 [CHAR1E00][V2400]
-うむ。[NWIN]
+It's time...[NWIN]
 
 [CHAR1E00][V2500]
-これ以上、[NLINE]
-民を飢えさせておくわけにはいかん！[END-FE]
+Our suffering at Grangale's hands[NLINE]
+is at an end![END-FE]
 
 
 
@@ -1725,7 +1731,7 @@
 //グローマーが仲間になった！[NLINE]
 //　[END-FE]
 　[NLINE]
-グローマーが仲間になった！[NLINE]
+Groemer has joined your party![NLINE]
 　[END-FE]
 
 
@@ -1735,7 +1741,7 @@
 //POINTER #130 @ $36A8 - STRING #130 @ $59E3
 #W32($36A8)
 //参りましょう、将軍！[END-FE]
-参りましょう、将軍！[END-FE]
+Ready, General?[END-FE]
 
 
 
@@ -1744,7 +1750,7 @@
 //POINTER #131 @ $36AC - STRING #131 @ $59FA
 #W32($36AC)
 //今度こそは……。[END-FE]
-今度こそは……。[END-FE]
+We'll find it this time...[END-FE]
 
 
 
@@ -1753,7 +1759,7 @@
 //POINTER #132 @ $36B0 - STRING #132 @ $5A0D
 #W32($36B0)
 //参りましょう、将軍！[END-FE]
-参りましょう、将軍！[END-FE]
+Ready, General?[END-FE]
 
 
 
@@ -1765,8 +1771,8 @@
 //αより届きました書簡を[NLINE]
 //お渡ししておきます。[END-FE]
 [CHAR1E00][V2700]
-αより届きました書簡を[NLINE]
-お渡ししておきます。[END-FE]
+Sir, we've received a[NLINE]
+letter from α.[END-FE]
 
 
 
@@ -1776,8 +1782,8 @@
 #W32($36B8)
 //ビリィには、北西の遺跡へ向かうよう[NLINE]
 //指示してあります。[END-FE]
-ビリィには、北西の遺跡へ向かうよう[NLINE]
-指示してあります。[END-FE]
+We're due to meet Alasdir in the[NLINE]
+ruins to the northwest.[END-FE]
 
 
 
@@ -1786,7 +1792,7 @@
 //POINTER #135 @ $36BC - STRING #135 @ $5A94
 #W32($36BC)
 //将軍、書簡をごらんください。[END-FE]
-将軍、書簡をごらんください。[END-FE]
+Sir, the letter...?[END-FE]
 
 
 
@@ -1799,9 +1805,9 @@
 //維持軍のセルディス司令などは、[NLINE]
 //将軍の体調を、大変に気遣っている。[END-FE]
 [CHAR2100][V2300]
-シリルティアのシェリス殿や[NLINE]
-維持軍のセルディス司令などは、[NLINE]
-将軍の体調を、大変に気遣っている。[END-FE]
+Lady Sherris of Cyriltia and[NLINE]
+Commander Seldous expressed[NLINE]
+hope that you'd get well soon.[END-FE]
 
 
 
@@ -1812,7 +1818,7 @@
 //[CHAR2100][V2400]
 //…そうですか。[END-FE]
 [CHAR2100][V2400]
-…そうですか。[END-FE]
+Did they, now?[END-FE]
 
 
 
@@ -1829,13 +1835,13 @@
 //無理をしないよう伝えておく[NLINE]
 //…と言っておいたよ。[END-FE]
 [CHAR2100][V2500]
-公には、ロックバインは体の調子が[NLINE]
-思わしくない事になっているからな。[NWIN]
+Officially, you've fallen quite[NLINE]
+ill and can't attend.[NWIN]
 
 [CHAR2100][V2600]
-私も、ロックバインには[NLINE]
-無理をしないよう伝えておく[NLINE]
-…と言っておいたよ。[END-FE]
+I promised them I'd tell you to[NLINE]
+get plenty of rest. Sherris[NLINE]
+suggested soup...[END-FE]
 
 
 
@@ -1846,7 +1852,7 @@
 //[CHAR2100][V2700]
 //ご面倒をおかけいたします。[END-FE]
 [CHAR2100][V2700]
-ご面倒をおかけいたします。[END-FE]
+Sorry to put you through this.[END-FE]
 
 
 
@@ -1865,15 +1871,15 @@
 //正直いまは、平和議会でも[NLINE]
 //心細い思いをしている。[END-FE]
 [CHAR2100][V2800]
-…まあ、これは口実に過ぎない。[NLINE]
-私もたまにはロックバインの顔を[NLINE]
-見たくなったのだ。[NWIN]
+Oh, it was just an excuse to[NLINE]
+come down here. Truthfully, I[NLINE]
+just wanted to visit you.[NWIN]
 
 [CHAR2100][V2900]
-これまでは、いつも隣に[NLINE]
-あなたがいてくれたからな。[NLINE]
-正直いまは、平和議会でも[NLINE]
-心細い思いをしている。[END-FE]
+That was my first time alone[NLINE]
+at the peace talks... It was[NLINE]
+a much more frightening[NLINE]
+experience without you.[END-FE]
 
 
 
@@ -1889,12 +1895,12 @@
 //平和議会の方に、[NLINE]
 //何か進展はございましたか？[END-FE]
 [CHAR2100][V2A00]
-ご心労をおかけして[NLINE]
-申し訳ございません。[NWIN]
+I'm so sorry to worry you,[NLINE]
+your Majesty.[NWIN]
 
 [CH.FACE:Normal][CHAR2100][V2B00]
-平和議会の方に、[NLINE]
-何か進展はございましたか？[END-FE]
+Was there any progress in[NLINE]
+this session?[END-FE]
 
 
 
@@ -1920,22 +1926,22 @@
 //２０年もかけて、[NLINE]
 //私たちは一歩も先へ進めないでいる…。[END-FE]
 [CHAR2100][V2C00]
-いつもの押し問答だったよ。[NWIN]
+Just the usual arguments repeated.[NWIN]
 
 [CHAR2100][V2D00]
-我々は、一日も早く[NLINE]
-奪われた祖国を取り戻したい。[NLINE]
-グランゲイルは、[NLINE]
-当然領土を返すつもりはない。[NWIN]
+Once again, we petitioned to[NLINE]
+reclaim our territory, and once[NLINE]
+again, Grangale had no[NLINE]
+intention of returning it.[NWIN]
 
 [CHAR2100][V2E00]
-維持軍は、国家間の問題に介入はせず、[NLINE]
-ただ、それが戦争に発展しないように[NLINE]
-目を光らせているだけ…。[NWIN]
+The PMB won't interfere as long as[NLINE]
+it doesn't escalate into open war.[NLINE]
+That's all they care about...[NWIN]
 
 [CHAR2100][V2F00]
-２０年もかけて、[NLINE]
-私たちは一歩も先へ進めないでいる…。[END-FE]
+It has been the same story for 20[NLINE]
+years, with no progress...[END-FE]
 
 
 
@@ -1953,14 +1959,14 @@
 //…陛下や国民に、平和で幸せな日々が[NLINE]
 //訪れるように…。[END-FE]
 [CHAR2100][V3000]
-陛下、だからこそ私は[NLINE]
-新たな行動を起こしているのです。[NWIN]
+That's the whole reason, your[NLINE]
+Majesty, why we must act now.[NWIN]
 
 [CHAR2100][V3100]
-維持軍に邪魔されず、[NLINE]
-一日も早く祖国を取り戻すため[NLINE]
-…陛下や国民に、平和で幸せな日々が[NLINE]
-訪れるように…。[END-FE]
+To take back our land, despite[NLINE]
+the PMB's indecisiveness... To[NLINE]
+win back the peaceful life that[NLINE]
+we all deserve, your Majesty...[END-FE]
 
 
 
@@ -1974,10 +1980,10 @@
 //私は知らない。[NLINE]
 //だが、これだけは伝えておきたい。[END-FE]
 [CHAR2100][V3200]
-ロックバイン、[NLINE]
-あなたが何をしようとしているのか、[NLINE]
-私は知らない。[NLINE]
-だが、これだけは伝えておきたい。[END-FE]
+Rockbein... I don't know[NLINE]
+what you have planned.[NLINE]
+Just remember one thing[NLINE]
+for me...[END-FE]
 
 
 
@@ -1988,7 +1994,7 @@
 //[CHAR2100][V3300]
 //……はっ。[END-FE]
 [CHAR2100][V3300]
-……はっ。[END-FE]
+...Sir?[END-FE]
 
 
 
@@ -2002,10 +2008,10 @@
 //そして、我らが民は搾取され、[NLINE]
 //貧困にあえいでいる。[END-FE]
 [CHAR2100][V3400]
-維持軍は確かに、[NLINE]
-我らが国を復興してはくれない。[NLINE]
-そして、我らが民は搾取され、[NLINE]
-貧困にあえいでいる。[END-FE]
+It's true that the PMB won't[NLINE]
+get us our country back. It's[NLINE]
+also true that our countrymen[NLINE]
+are suffering.[END-FE]
 
 
 
@@ -2016,7 +2022,7 @@
 //[CHAR2100][V3500]
 //私の不徳のいたすところです。[END-FE]
 [CHAR2100][V3500]
-私の不徳のいたすところです。[END-FE]
+I blame myself, your Majesty.[END-FE]
 
 
 
@@ -2037,17 +2043,17 @@
 //将軍がどんな行動をされるにせよ、[NLINE]
 //それだけは覚えておいて欲しい。[END-FE]
 [CHAR2100][V3600]
-ロックバインが責任を感じる事はない…。[NLINE]
-持てる兵力の差は[NLINE]
-いかんともし難かったと聞いている。[NWIN]
+You shouldn't feel responsible. I'm[NLINE]
+aware of how outnumbered we[NLINE]
+were at the time.[NWIN]
 
 [CH.FACE:Angry][CHAR2100][V3700]
-しかし、戦争で血が流される事はなくなった。[NLINE]
-それは事実だ。[NWIN]
+It's also true, however, that the world[NLINE]
+has been freed from war.[NWIN]
 
 [CH.FACE:Normal][CHAR2100][V3800]
-将軍がどんな行動をされるにせよ、[NLINE]
-それだけは覚えておいて欲しい。[END-FE]
+Whatever your plans, General...[NLINE]
+I would have you remember that.[END-FE]
 
 
 
@@ -2067,16 +2073,16 @@
 //時が来れば、私が何をしようとしているのか、[NLINE]
 //全てをお話しいたします。[END-FE]
 [CHAR2100][V3900]
-承知いたしました、陛下……。[NWIN]
+As your Majesty wishes.[NWIN]
 
 [CHAR2100][V3A00]
-ですが、私は国民のために、[NLINE]
-再びネイラーンを独立させたいのです。[NWIN]
+But my sole aim is to restore[NLINE]
+Neylern's independence for all.[NWIN]
 
 [CHAR2100][V3B00]
-今はまだ話すことは出来ませんが、[NLINE]
-時が来れば、私が何をしようとしているのか、[NLINE]
-全てをお話しいたします。[END-FE]
+It's better for your Majesty not to know[NLINE]
+the details for now, but when the time[NLINE]
+comes, I'll reveal everything.[END-FE]
 
 
 
@@ -2094,14 +2100,14 @@
 //将軍の代わりが務まるよう、[NLINE]
 //精一杯やってみよう。[END-FE]
 [CHAR2100][V3C00]
-わかったよ、ロックバイン。[NLINE]
-あなたを信じよう。[NWIN]
+Very well, Rockbein.[NLINE]
+I trust you.[NWIN]
 
 [CHAR2100][V3D00]
-…そしてその時まで、[NLINE]
-私は平和議会で戦おう。[NLINE]
-将軍の代わりが務まるよう、[NLINE]
-精一杯やってみよう。[END-FE]
+Until that day comes, I'll[NLINE]
+keep up the fight at the[NLINE]
+peace talks, and cover for[NLINE]
+your absence there.[END-FE]
 
 
 
@@ -2114,9 +2120,9 @@
 //君は知っているのだろうか？[NLINE]
 //将軍が何をしようとしているのかを……。[END-FE]
 [CHAR2100][V3E00]
-フェルナンド、[NLINE]
-君は知っているのだろうか？[NLINE]
-将軍が何をしようとしているのかを……。[END-FE]
+Fernando, do you know anything?[NLINE]
+Any details of what the General[NLINE]
+is planning?[END-FE]
 
 
 
@@ -2131,11 +2137,11 @@
 //ですが、私は将軍を信頼しております。[NLINE]
 //それだけで、私には十分です。[END-FE]
 [CHAR2100][V3F00]
-…いえ、私は…何も……。[NWIN]
+No, I... have no idea...[NWIN]
 
 [CHAR2100][V4000]
-ですが、私は将軍を信頼しております。[NLINE]
-それだけで、私には十分です。[END-FE]
+I trust in the General, Lord, and[NLINE]
+that's enough for me.[END-FE]
 
 
 
@@ -2148,9 +2154,9 @@
 //私への忠誠も、その後ろに見える民のことを[NLINE]
 //思えばこそ。[END-FE]
 [CHAR2100][V4100]
-…将軍は、常に民のことを思っている。[NLINE]
-私への忠誠も、その後ろに見える民のことを[NLINE]
-思えばこそ。[END-FE]
+...The General's concern for the[NLINE]
+countrymen is unceasing. It's the[NLINE]
+chief reason he's loyal to me.[END-FE]
 
 
 
@@ -2161,7 +2167,7 @@
 //[CHAR2100][V4200]
 //ヴィットーリオ様、そのような…。[END-FE]
 [CHAR2100][V4200]
-ヴィットーリオ様、そのような…。[END-FE]
+My Lord, that isn't the case...[END-FE]
 
 
 
@@ -2179,14 +2185,14 @@
 //尽くすと言うのなら、私も戦おう。[NLINE]
 //…民のために。[END-FE]
 [CHAR2100][V4300]
-父は動乱の折にグランゲイルに処刑され、[NLINE]
-私は父の顔すら知らぬ。[NLINE]
-代わりに私は、将軍の背中を見て育った。[NWIN]
+My father was executed during the[NLINE]
+war, so I never knew him. I grew up[NLINE]
+at the General's knee.[NWIN]
 
 [CHAR2100][V4400]
-だから、将軍が民のために[NLINE]
-尽くすと言うのなら、私も戦おう。[NLINE]
-…民のために。[END-FE]
+So if he wants to fight for[NLINE]
+the people, then so will I.[NLINE]
+For the people...[END-FE]
 
 
 
@@ -2197,7 +2203,7 @@
 //[CHAR2100][V4500]
 //…はい。[END-FE]
 [CHAR2100][V4500]
-…はい。[END-FE]
+...Sir.[END-FE]
 
 
 
@@ -2215,14 +2221,14 @@
 //[CHAR2100][V4800]
 //豊かなネイラーンを……再び！[END-FE]
 [CHAR2100][V4600]
-申し訳ありません、陛下。[NWIN]
+I apologize, your Majesty...[NWIN]
 
 [CH.FACE:Angry][CHAR2100][V4700]
-たとえ犠牲を出そうとも、[NLINE]
-民のために私はやり遂げたい。[NWIN]
+...Must do this for our people...[NLINE]
+Even if it means sacrifices.[NWIN]
 
 [CHAR2100][V4800]
-豊かなネイラーンを……再び！[END-FE]
+Neylern will rise again![END-FE]
 
 
 
@@ -2233,7 +2239,7 @@
 //[CHAR2100][V4900]
 //将軍、αより書簡が届いております。[END-FE]
 [CHAR2100][V4900]
-将軍、αより書簡が届いております。[END-FE]
+General, there's a letter from α for you.[END-FE]
 
 
 
@@ -2245,8 +2251,8 @@
 //何かつかんだのか。[NLINE]
 //フェルナンドも優秀な密偵を育てたものだ。[END-FE]
 [CHAR2100][V4A00]
-何かつかんだのか。[NLINE]
-フェルナンドも優秀な密偵を育てたものだ。[END-FE]
+Has he found something? Fernando's[NLINE]
+agent is skilled indeed.[END-FE]
 
 
 
@@ -2262,14 +2268,14 @@
 //　　　[COL01]絶望の中に光あり　　　　　　　[NLINE]
 //　　　光をつかむ力を我に[COL00]　　　　　　[NLINE]
 //　　　　　　　　　　　　　　－α－　』[END-FE]
-『極秘に研究を進めていた、　　　　　[NLINE]
-　ヤージェン北西遺跡の扉を開く方法が[NLINE]
-　判明しました。　　　　　　　　　　[NLINE]
-　扉の前に立ち、次の言葉を古代語で　[NLINE]
-　唱えれば扉は開くでしょう。　　　　[NLINE]
-　　　[COL01]絶望の中に光あり　　　　　　　[NLINE]
-　　　光をつかむ力を我に[COL00]　　　　　　[NLINE]
-　　　　　　　　　　　　　　－α－　』[END-FE]
+  I've been studying in secret for a[NLINE]
+  way to open the ruins northwest[NLINE]
+  of Jaergen, and finally found it.[NLINE]
+  Stand before the door and chant[NLINE]
+  the following:[NLINE]
+[COL01]    In the depths of darkest despair,[COL00][NLINE]
+[COL01]    Lend me the light of lucidity![COL00][NLINE]
+                             -α-[END-FE]
 
 
 
@@ -2284,13 +2290,13 @@
 //　作動しているため未調査。　　　　　　　[NLINE]
 //　現在、入口は維持軍兵によって　　　　　[NLINE]
 //　封鎖されている。　　　　　　　－α－』[END-FE]
-『平和維持軍の調査団がヤージェン村南西、[NLINE]
-　サウネイル遺跡にて古代の遺物を発見。　[NLINE]
-　遺跡奥には、地上への出口があると　　　[NLINE]
-　見られるが、ガーディアンが　　　　　　[NLINE]
-　作動しているため未調査。　　　　　　　[NLINE]
-　現在、入口は維持軍兵によって　　　　　[NLINE]
-　封鎖されている。　　　　　　　－α－』[END-FE]
+  The PMB Research team has found[NLINE]
+  ancient technology in the Saunail Ruins,[NLINE]
+  southwest of Jaergen. There appeared[NLINE]
+  to be an exit to the surface to the rear[NLINE]
+  of the ruins, but it was blocked by[NLINE]
+  Guardians. The entrance is currently[NLINE]
+  guarded by PMB forces.     -α-[END-FE]
 
 
 
@@ -2303,9 +2309,9 @@
 //グローマー、フェルナンド！[NLINE]
 //ヤージェン南西のサウネイル遺跡を調査する！[END-FE]
 [CHAR2100][V4B00]
-これは有益な情報に違いないな。[NLINE]
-グローマー、フェルナンド！[NLINE]
-ヤージェン南西のサウネイル遺跡を調査する！[END-FE]
+This is vital information... Groemer![NLINE]
+Fernando! We're headed for the Saunail[NLINE]
+Ruins, southwest of Jaergen.[END-FE]
 
 
 
@@ -2316,7 +2322,7 @@
 //[CHAR2100][V4C00]
 //はっ！[END-FE]
 [CHAR2100][V4C00]
-はっ！[END-FE]
+Sir![END-FE]
 
 
 
@@ -2328,7 +2334,7 @@
 //グローマーが仲間になった！[NLINE]
 //　[END-FE]
 　[NLINE]
-グローマーが仲間になった！[NLINE]
+Groemer has joined your party![NLINE]
 　[END-FE]
 
 
@@ -2342,9 +2348,9 @@
 //維持軍の見張りが付いているはず。[NLINE]
 //そちらは、私が何とかいたしましょう……。[END-FE]
 [CHAR2100][V4D00]
-サウネイル遺跡には[NLINE]
-維持軍の見張りが付いているはず。[NLINE]
-そちらは、私が何とかいたしましょう……。[END-FE]
+The PMB's guard at the Saunail[NLINE]
+Ruins is heavy. I'll take care of[NLINE]
+it, Sir.[END-FE]
 
 
 
@@ -2355,7 +2361,7 @@
 //[CHAR2100][V0F00]
 //ご無沙汰しております、陛下。[END-FE]
 [CHAR2100][V0F00]
-ご無沙汰しております、陛下。[END-FE]
+It's been so long, your Majesty.[END-FE]
 
 
 
@@ -2368,9 +2374,9 @@
 //私は王ではないのだから、[NLINE]
 //せめて代表と呼んでくれないか。[END-FE]
 [CHAR2100][V1000]
-ロックバイン、[NLINE]
-私は王ではないのだから、[NLINE]
-せめて代表と呼んでくれないか。[END-FE]
+I'm no longer a king,[NLINE]
+Rockbein. It's all right[NLINE]
+just to call me a lord.[END-FE]
 
 
 
@@ -2384,10 +2390,10 @@
 //ネイラーンの王なのです。[NLINE]
 //お許しください。[END-FE]
 [CHAR2100][V1100]
-前王がお亡くなりになったときから、[NLINE]
-ヴィットーリオ様は私にとって[NLINE]
-ネイラーンの王なのです。[NLINE]
-お許しください。[END-FE]
+Forgive me, Lord. When our[NLINE]
+former king passed away, you[NLINE]
+took his place as King of[NLINE]
+Neylern in the eyes of many.[END-FE]
 
 
 
@@ -2403,12 +2409,12 @@
 //今日はビリィの姿が[NLINE]
 //見えないようだが……。[END-FE]
 [CHAR2100][V1200]
-そうか…あいかわらずだな。[NWIN]
+You'll never change, I see.[NWIN]
 
 [CHAR2100][V1300]
-そういえば、[NLINE]
-今日はビリィの姿が[NLINE]
-見えないようだが……。[END-FE]
+By the by, where's[NLINE]
+Alasdir? I didn't see[NLINE]
+him with you.[END-FE]
 
 
 
@@ -2422,10 +2428,9 @@
 //相討ちに…。[NLINE]
 //立派な最期でした。[END-FE]
 [CHAR2100][V1400]
-…ビリィは、[NLINE]
-任務でナイト・スクリーパーと戦い、[NLINE]
-相討ちに…。[NLINE]
-立派な最期でした。[END-FE]
+Alasdir... saved us by fending[NLINE]
+off a Knight Screaper. [NLINE]
+He perished while slaying it.[END-FE]
 
 
 
@@ -2437,8 +2442,8 @@
 //なんだって!?[NLINE]
 //あのビリィが……。[END-FE]
 [CHAR2100][V1500]
-なんだって!?[NLINE]
-あのビリィが……。[END-FE]
+What!? Alasdir's[NLINE]
+gone...?[END-FE]
 
 
 
@@ -2451,9 +2456,9 @@
 //陛下に親しくしていただいていると[NLINE]
 //言っておりましたな。[END-FE]
 [CHAR2100][V1600]
-そういえば、ビリィは[NLINE]
-陛下に親しくしていただいていると[NLINE]
-言っておりましたな。[END-FE]
+Yes... Your friendship[NLINE]
+with him always meant[NLINE]
+a lot to him, you know.[END-FE]
 
 
 
@@ -2465,8 +2470,8 @@
 //彼とは歳も近いし[NLINE]
 //弟のように思っていた。[END-FE]
 [CHAR2100][V1700]
-彼とは歳も近いし[NLINE]
-弟のように思っていた。[END-FE]
+He was about my age... I[NLINE]
+thought of him as a brother.[END-FE]
 
 
 
@@ -2481,11 +2486,11 @@
 //聞かせてくれると言うので[NLINE]
 //楽しみにしていたのだ……。[END-FE]
 [CHAR2100][V1800]
-それに、彼の話してくれる[NLINE]
-武勇伝も面白い。[NLINE]
-今度は、子供の頃の冒険を[NLINE]
-聞かせてくれると言うので[NLINE]
-楽しみにしていたのだ……。[END-FE]
+I loved his war stories,[NLINE]
+too. He said that the next[NLINE]
+time we met, he'd tell me[NLINE]
+about his childhood... I was[NLINE]
+looking forward to it.[END-FE]
 
 
 
@@ -2502,13 +2507,13 @@
 //刺し違えたのならば、彼もロックバインに[NLINE]
 //負けない勇者と言えるだろうな……。[END-FE]
 [CHAR2100][V1900]
-彼はいつも、ロックバインのような[NLINE]
-勇者になりたいと話していた。[NWIN]
+He always said that he hoped to[NLINE]
+become a brave warrior, like you.[NWIN]
 
 [CHAR2100][V1A00]
-ナイト・スクリーパーと[NLINE]
-刺し違えたのならば、彼もロックバインに[NLINE]
-負けない勇者と言えるだろうな……。[END-FE]
+Given that he slayed a Knight[NLINE]
+Screaper, I'd say that he achieved[NLINE]
+that goal. Wouldn't you?[END-FE]
 
 
 
@@ -2523,11 +2528,11 @@
 //[CHAR2100][V1C00]
 //そうだ、陛下にこれを。[END-FE]
 [CHAR2100][V1B00]
-そのお言葉を聞けば、[NLINE]
-ビリィも…喜ぶでしょう。[NWIN]
+He would have been thrilled to[NLINE]
+    hear you say it, your Majesty.[NWIN]
 
 [CHAR2100][V1C00]
-そうだ、陛下にこれを。[END-FE]
+Oh, yes... This is for you.[END-FE]
 
 
 
@@ -2536,7 +2541,8 @@
 //POINTER #177 @ $3764 - STRING #177 @ $6D5E
 #W32($3764)
 //友情のメダルを渡した。[END-FE]
-友情のメダルを渡した。[END-FE]
+　[NLINE]
+Handed over the Friendship Medal.[END-FE]
 
 
 
@@ -2547,7 +2553,7 @@
 //[CHAR2100][V1D00]
 //これは？[END-FE]
 [CHAR2100][V1D00]
-これは？[END-FE]
+What's this?[END-FE]
 
 
 
@@ -2562,11 +2568,11 @@
 //[CHAR2100][V1F00]
 //ぜひ、陛下にお持ち頂きたい。[END-FE]
 [CHAR2100][V1E00]
-自分の想いを誰かに託すときに用いる、[NLINE]
-友情のメダル…ビリィの形見です。[NWIN]
+A Friendship Medal. It's Alasdir's[NLINE]
+legacy, representing his feelings.[NWIN]
 
 [CHAR2100][V1F00]
-ぜひ、陛下にお持ち頂きたい。[END-FE]
+I think he would want you to have it.[END-FE]
 
 
 
@@ -2578,8 +2584,8 @@
 //ビリィの想い…[NLINE]
 //…確かに受け取った。[END-FE]
 [CHAR2100][V2000]
-ビリィの想い…[NLINE]
-…確かに受け取った。[END-FE]
+Alasdir's legacy... His[NLINE]
+sacrifice won't be in vain.[END-FE]
 
 
 
@@ -2591,8 +2597,8 @@
 //ところで陛下、[NLINE]
 //今日はどうなされたのです？[END-FE]
 [CHAR2100][V2100]
-ところで陛下、[NLINE]
-今日はどうなされたのです？[END-FE]
+But what brings you[NLINE]
+here, your Majesty?[END-FE]
 
 
 
@@ -2606,7 +2612,11 @@
 //今回は、他国の代表者の方から[NLINE]
 //言伝を預かってきた。[END-FE]
 [CHAR2100][V2200]
-ロックバインが[NLINE]
-平和議会に出られなくなって久しい。[NLINE]
-今回は、他国の代表者の方から[NLINE]
-言伝を預かってきた。[END-FE]
+Your absence was noticed at[NLINE]
+the recent peace talks. I[NLINE]
+brought messages for you[NLINE]
+from the other attendees.[END-FE]
+
+
+
+
