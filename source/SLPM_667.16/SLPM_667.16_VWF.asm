@@ -366,29 +366,8 @@ function first
 // Kill / EXP / attack / casting / using a knack top text alignment fix
 // Breaks some text
 .org 0x02C80DC
-    li      a0,0x0
-    jal     0x00151670
-    nop    
-    li      a0,0x80
-    jal     0x001517a0
-    nop    
-    mtc1    s2,f00
-    nop    
-    cvt.s.w f12,f00
-    mtc1    s1,f00
-    nop    
-    cvt.s.w f13,f00
-    addiu   a0,s3,0x10
-    jal     0x00151840
-    nop    
-    b       0x002C81A0
-    nop    
-
-/*
-The following code can't be compiled with armips
-.org 0x02C80DC
-    lb      at,0x92(s3)
-    addiu   at,s3,at
+    lbu     at,0x92(s3)
+    addu    at,s3,at
     sb      zero,(at)
     lb      at,0x10(s3)
     bnez    at,@@draw
@@ -412,7 +391,6 @@ The following code can't be compiled with armips
     nop
     b       0x002C81A0
     nop
-*/
 
 
 .close
