@@ -180,7 +180,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #16 @ $5360 - STRING #16 @ $5D4E
 #W32($5360)
 //・ＧＬ[SIX]　シナリオ　開始[END-FE]
-・GL [SIX] scenario start[END-FE]
+・GL VI scenario start[END-FE]
 
 
 
@@ -451,8 +451,7 @@ Outside of Makinus, after receiving the mission[END-FE]
 //POINTER #46 @ $53D8 - STRING #46 @ $5FCC
 #W32($53D8)
 //任務を受けた後、ダスティスからです。[END-FE]
-After receiving the mission, from Dastis?!?[END-FE]
-
+It is from Dastis after receiving the assignment[END-FE]
 
 
 
@@ -1199,7 +1198,7 @@ Do you want to check the placement?[END-FE]
 //POINTER #128 @ $5520 - STRING #128 @ $6750
 #W32($5520)
 //どうする？　[COL09][CROSS][COL00]で抜ける[END-FE]
-What will you do? Exit with [COL09][CROSS][END-FE]
+What will you do? Exit with [COL09][CIRCLE][END-FE]
 
 
 
@@ -1208,7 +1207,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #129 @ $5524 - STRING #129 @ $676F
 #W32($5524)
 //・Ｆ２０[END-FE]
-・Ｆ２０[END-FE]
+・F20[END-FE]
 
 
 
@@ -1217,7 +1216,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #130 @ $5528 - STRING #130 @ $677A
 #W32($5528)
 //・Ｆ２１[END-FE]
-・Ｆ２１[END-FE]
+・F21[END-FE]
 
 
 
@@ -1226,7 +1225,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #131 @ $552C - STRING #131 @ $6785
 #W32($552C)
 //・Ｆ２２[END-FE]
-・Ｆ２２[END-FE]
+・F22[END-FE]
 
 
 
@@ -1235,7 +1234,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #132 @ $5530 - STRING #132 @ $6790
 #W32($5530)
 //・Ｆ２３[END-FE]
-・Ｆ２３[END-FE]
+・F23[END-FE]
 
 
 
@@ -1244,7 +1243,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #133 @ $5534 - STRING #133 @ $679B
 #W32($5534)
 //・Ｆ２４[END-FE]
-・Ｆ２４[END-FE]
+・F24[END-FE]
 
 
 
@@ -1253,7 +1252,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #134 @ $5538 - STRING #134 @ $67A6
 #W32($5538)
 //・Ｆ２５[END-FE]
-・Ｆ２５[END-FE]
+・F25[END-FE]
 
 
 
@@ -1262,7 +1261,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #135 @ $553C - STRING #135 @ $67B1
 #W32($553C)
 //・Ｆ２６[END-FE]
-・Ｆ２６[END-FE]
+・F26[END-FE]
 
 
 
@@ -1271,7 +1270,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #136 @ $5540 - STRING #136 @ $67BC
 #W32($5540)
 //・Ｆ２８[END-FE]
-・Ｆ２８[END-FE]
+・F28[END-FE]
 
 
 
@@ -1280,7 +1279,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #137 @ $5544 - STRING #137 @ $67C7
 #W32($5544)
 //・Ｆ２９[END-FE]
-・Ｆ２９[END-FE]
+・F29[END-FE]
 
 
 
@@ -1289,7 +1288,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #138 @ $5548 - STRING #138 @ $67D2
 #W32($5548)
 //・Ｆ３０[END-FE]
-・Ｆ３０[END-FE]
+・F30[END-FE]
 
 
 
@@ -1617,7 +1616,7 @@ you want to go to?[END-FE]
 //POINTER #174 @ $55D8 - STRING #174 @ $6A04
 #W32($55D8)
 //ダミーから来た[END-FE]
-That's from the dummy?!?[END-FE]
+Came from dummy[END-FE]
 
 
 
@@ -1626,7 +1625,7 @@ That's from the dummy?!?[END-FE]
 //POINTER #175 @ $55DC - STRING #175 @ $6A15
 #W32($55DC)
 //座標指定メッセージのチェックをします[END-FE]
-Check for coordinated messages?!?[END-FE]
+Check for coordinate specification messages[END-FE]
 
 
 
@@ -1851,7 +1850,7 @@ I am Fanille[END-FE]
 //POINTER #200 @ $5640 - STRING #200 @ $6C04
 #W32($5640)
 //ＭＥＳに顔指定でファニル０を出します[END-FE]
-Give Fanille 0 to MES by specifying a face?!?[END-FE]
+Fanille 0 with face designation to MES[END-FE]
 
 
 
@@ -1860,7 +1859,7 @@ Give Fanille 0 to MES by specifying a face?!?[END-FE]
 //POINTER #201 @ $5644 - STRING #201 @ $6C2B
 #W32($5644)
 //ファニル出します[END-FE]
-Give Fanille?!?[END-FE]
+Fanille out[END-FE]
 
 
 
@@ -1878,7 +1877,7 @@ Check again?[END-FE]
 //POINTER #203 @ $564C - STRING #203 @ $6C4F
 #W32($564C)
 //主人公消します[END-FE]
-Erase the main character[END-FE]
+Main character off[END-FE]
 
 
 
@@ -1887,7 +1886,7 @@ Erase the main character[END-FE]
 //POINTER #204 @ $5650 - STRING #204 @ $6C60
 #W32($5650)
 //主人公出します[END-FE]
-Put the main character on[END-FE]
+Main character on[END-FE]
 
 
 
@@ -1896,7 +1895,7 @@ Put the main character on[END-FE]
 //POINTER #205 @ $5654 - STRING #205 @ $6C71
 #W32($5654)
 //両方消します[END-FE]
-Erase both[END-FE]
+Turn off both[END-FE]
 
 
 
@@ -1905,7 +1904,7 @@ Erase both[END-FE]
 //POINTER #206 @ $5658 - STRING #206 @ $6C80
 #W32($5658)
 //両方出します[END-FE]
-Give both[END-FE]
+Turn on both[END-FE]
 
 
 
@@ -1914,7 +1913,7 @@ Give both[END-FE]
 //POINTER #207 @ $565C - STRING #207 @ $6C8F
 #W32($565C)
 //ファニル消します[END-FE]
-Turn off fanil[END-FE]
+Turn off Fanille[END-FE]
 
 
 
