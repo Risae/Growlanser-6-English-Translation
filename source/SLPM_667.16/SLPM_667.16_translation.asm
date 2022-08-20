@@ -176,18 +176,23 @@ Location: 0x30F360
 ジェムを外す[00]
 Remove[00]
 
-Location: 0x30F370
+Location: 0x30F370 (Pointer 0x21BCBC changed: [549083AF] -> [548883AF])
 [84A5]で決定[8140][00]
-???
+Press [84A6] to confirm[8140][00]
 */
 
 .orga 0x30F350
 	.string "Remove", 0x00, 0x00, 0x00
 
 .orga 0x30F360
-	.string "Remove", 0x00, 0x00, 0x00, 0x00, 0x00
+	.string "Remove", 0x00, 0x00
 
-// To-Do
+
+.orga 0x21BCBC
+	.byte 0x54, 0x88, 0x83, 0xAF
+
+.orga 0x30F368 // Original: 0x30F370
+	.string "Press ", 0x84, 0xA6, " to confirm"
 
 
 /*
