@@ -365,6 +365,7 @@ function first
 
 // Kill / EXP / attack / casting / using a knack top text alignment fix
 // Breaks some text
+/*
 .org 0x02C80DC
     lbu     at,0x92(s3)
     addu    at,s3,at
@@ -391,6 +392,6 @@ function first
     nop
     b       0x002C81A0
     nop
-
+*/
 
 .close
