@@ -642,8 +642,8 @@ I'll go on ahead![END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -816,8 +816,8 @@ Hmm, what is it?[END-FE]
 //Shuweizer\\
 [CHAR0800][V2F00]
 "Library 4-2-B-133".[NLINE]
-That must be a password they're[NLINE]
-using.[NWIN]
+That must be a password[NLINE]
+they're using.[NWIN]
 
 [CHAR0800][V3000]
 Alright, I will give you a[NLINE]
@@ -1020,8 +1020,8 @@ My deepest apologies, sir![END-FE]
 [CHAR0800][V2700]
 It it wasn't for me arriving just in time,[NLINE]
 they would have gotten away, and all our[NLINE]
-efforts would have been for nothing. Do you[NLINE]
-understand that?[END-FE]
+efforts would have been for nothing. Do[NLINE]
+you understand that?[END-FE]
 
 
 
@@ -1053,8 +1053,7 @@ There is no excuse for my actions.[END-FE]
 //わかったらここの探索だ！[END-FE]
 //Shuweizer\\
 [CHAR0800][V2900]
-What's done is done. I'll let it[NLINE]
-pass.[NWIN]
+What's done is done. I'll let it pass.[NWIN]
 
 [CH.FACE:Angry][CHAR0800][V2A00]
 However, I won't be so generous next time![NWIN]
@@ -1099,13 +1098,13 @@ on your own accord.[END-FE]
 //
 //手柄を立てたい気持ちもわかるが、[NLINE]
 //集団行動という物を考えるんだ。[END-FE]
-Ｉ rushed in as soon as I noticed you[NLINE]
+I rushed in as soon as I noticed you[NLINE]
 weren't there. However, if the terrorist[NLINE]
 had managed to get away, everything[NLINE]
 would have been for nothing.[NWIN]
 
-I understand you want to distinguish yourselves,[NLINE]
-but we have to act as a group.[END-FE]
+I understand you want to distinguish[NLINE]
+yourselves, but we have to act as a group.[END-FE]
 
 
 
@@ -1164,7 +1163,8 @@ instructions here.[END-FE]
 //POINTER #82 @ $4CE8 - STRING #82 @ $5D5A
 #W32($4CE8)
 //こんな所で活動していたのか…。[END-FE]
-This is where the terrorists operated from...?[END-FE]
+This is where the terrorists operated[NLINE]
+from...?[END-FE]
 
 
 
