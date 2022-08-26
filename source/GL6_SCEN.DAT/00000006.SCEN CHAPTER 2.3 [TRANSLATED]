@@ -724,25 +724,25 @@ how to fight with party members?[END-FE]
 //System Message\\
 Party members automatically enter combat[NLINE]
 when they encounter enemies. However, if[NLINE]
-it's an important battle, they will ask[NLINE]
-for instructions before the start.[NWIN]
+it's an important battle, they will ask for[NLINE]
+instructions before the start.[NWIN]
 
 If you want to issue an order during a[NLINE]
-fight, press [TRIANGLE] to open up the[NLINE]
-menu and [L1] and [R1] to switch to the[NLINE]
-party member.[NWIN]
+fight, press [TRIANGLE] to open up the menu[NLINE]
+and [L1] and [R1] to switch to the party[NLINE]
+member.[NWIN]
 
 The orders you can give to the main[NLINE]
 character are also available for party[NLINE]
 members. However, orders such as Move[NLINE]
-and Attack are often not available[NLINE]
-during non-combat.[NWIN]
+and Attack are often not available during[NLINE]
+non-combat.[NWIN]
 
 When the action completed, the party member[NLINE]
 will ask for further instructions. However,[NLINE]
-if [COL01]"Post-Instruction Behaviour"[COL00][NLINE]
-in the Config Menu is set to AUTO, the[NLINE]
-character will not ask for instructions again.[END-FE]
+if [COL01]"Post-Instruction Behaviour"[COL00] in the[NLINE]
+Config Menu is set to AUTO, the character[NLINE]
+will not ask for instructions again.[END-FE]
 
 
 
@@ -822,14 +822,16 @@ your party members are aware of the enemy.[END-FE]
 //ただし、街中など危険のない場所で『移動』は[NLINE]
 //選べません。[END-FE]
 //System Message\\
-By choosing [COL01]"Move"[COL00] you can indicate the place[NLINE]
-that you want your party members to move[NLINE]
-to. You will be able to select up to two waypoints. To send[NLINE]
-a character to a destination without setting any waypoints,[NLINE]
+By choosing [COL01]"Move"[COL00] you can indicate the[NLINE]
+place that you want your party members to[NLINE]
+move to. You will be able to select up to[NLINE]
+two waypoints. To send a character to a[NLINE]
+destination without setting any waypoints,[NLINE]
 press the X button twice on that destination.[NWIN]
 
 However, you can't choose "Move" in a place[NLINE]
-that is not considered dangerous, such as in the city.[END-FE]
+that is not considered dangerous, such as[NLINE]
+in the city.[END-FE]
 
 
 
@@ -842,8 +844,8 @@ that is not considered dangerous, such as in the city.[END-FE]
 //同じ場所で防御を続けます。[END-FE]
 //System Message\\
 [COL01]"Defend"[COL00] instructs party members to defend.[NLINE]
-They will keep defending until the battle ends[NLINE]
-or you give another order.[END-FE]
+They will keep defending until the battle[NLINE]
+ends or you give another order.[END-FE]
 
 
 
@@ -859,13 +861,13 @@ or you give another order.[END-FE]
 //[START]を押すと表示される設定メニュー内の[NLINE]
 //[COL01]『思考設定』[COL00]で設定できます。[END-FE]
 //System Message\\
-[COL01]"Auto"[COL00] tells your party members[NLINE]
-to act freely. Instructions previously given[NLINE]
-will be canceled.[NWIN]
+[COL01]"Auto"[COL00] tells your party members to act[NLINE]
+freely. Instructions previously given will[NLINE]
+be canceled.[NWIN]
 
-The behavior of party members can be set to "Auto"[NLINE]
-in the [COL01]"AI Setting"[COL00] menu that appears when[NLINE]
-you press [START].[END-FE]
+The behavior of party members can be set to[NLINE]
+"Auto" in the [COL01]"AI Setting"[COL00] menu that[NLINE]
+appears when you press [START].[END-FE]
 
 
 
@@ -877,9 +879,9 @@ you press [START].[END-FE]
 //あります。新しい仲間が入ったときは[NLINE]
 //装備の確認を忘れないようにしましょう。[END-FE]
 //System Message\\
-Equipment must be equipped for each party member.[NLINE]
-Be sure to check the equipment of new party[NLINE]
-members.[END-FE]
+Equipment must be equipped for each party[NLINE]
+member. Be sure to check the equipment[NLINE]
+of new party members.[END-FE]
 
 
 
@@ -963,11 +965,12 @@ It's closed due to heavy snow.[END-FE]
 //この辺りの土壌汚染が改善されたのよね。[END-FE]
 //Wendy\\
 [CHAR0600][V0300]
-Pollumine tress have such a mysterious color,[NLINE]
-don't they? It looks both gentle and eerie at[NLINE]
-the same time. However, its thanks to[NLINE]
-Monopolis developing Pollumine that the soil[NLINE]
-pollution in this area has been purified.[END-FE]
+Pollumine trees have such a mysterious[NLINE]
+color, don't they? It looks both gentle[NLINE]
+and eerie at the same time. However, its[NLINE]
+thanks to Monopolis developing Pollumine[NLINE]
+that the soil pollution in this area has[NLINE]
+been purified.[END-FE]
 
 
 
@@ -1936,9 +1939,8 @@ Hey, do you want to go investigate?[END-FE]
 //こなさないとダメだもんね！[END-FE]
 //Wendy\\
 Already thought you would say that![NLINE]
-It's our first mission as members[NLINE]
-of the [COL01]Red Wolf Unit[COL00], so we can't[NLINE]
-fail![NWIN]
+It's our first mission as members of[NLINE]
+the [COL01]Red Wolf Unit[COL00], so we can't fail![NWIN]
 
 It took so long for me to finally become[NLINE]
 part of that team, so we can't afford[NLINE]
@@ -2035,8 +2037,8 @@ about Dastis...[END-FE]
 //土壌汚染の影響を受けている。[END-FE]
 //System Message\\
 [Dastis][NLINE]
-A provincial city situated northeast of Makinus.[NLINE]
-Despite being a normal-sized city,[NLINE]
+A provincial city situated northeast of[NLINE]
+Makinus. Despite being a normal-sized city,[NLINE]
 it is greatly affected by soil pollution[NLINE]
 because Monopolos technology has not[NLINE]
 been introduced there yet.[END-FE]
