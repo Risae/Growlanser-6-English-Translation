@@ -181,8 +181,8 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //Wendy\\
 [CHAR0700][V0000]
 We've arrived.[NLINE]
-Captain Shuweizer is supposed to be[NLINE]
-waiting at the inn.[NWIN]
+Captain Shuweizer is supposed to[NLINE]
+be waiting at the inn.[NWIN]
 
 [CHAR0700][V0100]
 Hey, do you remember under which[NLINE]
@@ -271,8 +271,8 @@ Anyway, shall we go?[END-FE]
 Oh, you're hopeless.[NWIN]
 
 [CHAR0700][V0500]
-Captain Shuweizer said he would take a room under[NLINE]
-the name [COL01]Rat[COL00], remember?[NWIN]
+Captain Shuweizer said he would take a[NLINE]
+room under the name [COL01]Rat[COL00], remember?[NWIN]
 
 [CHAR0700][V0600]
 Make sure you don't slip up again![END-FE]
@@ -831,9 +831,9 @@ Yes, ma'am...[END-FE]
 //　仕事の帰りに拾えばいいや…）[END-FE]
 //Man\\
 [CHAR0700][V2000]
-(Knowing her, she's going to throw it in the[NLINE]
- dump. I'm going to get it on my way back from[NLINE]
- work...)[END-FE]
+(Knowing her, she's going to throw it in[NLINE]
+ the dump. I'm going to get it on my way[NLINE]
+ back from work...)[END-FE]
 
 
 
@@ -1033,7 +1033,8 @@ Enchanted Gems are mysterious jewels[NLINE]
 that grant special abilities when[NLINE]
 equipped.[NWIN]
 
-If you use them well, battles will become easier![END-FE]
+If you use them well, battles will become[NLINE]
+easier![END-FE]
 
 
 
@@ -1131,7 +1132,8 @@ Oh, I'm sorry if I was mistaken.[NWIN]
 
 Recently, it seems that strange men are[NLINE]
 frequenting a bar called the Dark Cat.[NLINE]
-I have a bad feeling about it for some reason.[END-FE]
+I have a bad feeling about it for some[NLINE]
+reason.[END-FE]
 
 
 
@@ -1154,8 +1156,8 @@ Is something weird going on there?[END-FE]
 //けど、私はお酒なんて飲まないし、[NLINE]
 //他人の踊りにも興味ないから…。[END-FE]
 //Woman\\
-I heard it's a place for drinking[NLINE]
-and watching people dance.[NLINE]
+I heard it's a place for drinking and[NLINE]
+watching people dance.[NLINE]
 I have no interest in drinking or watching[NLINE]
 other people dance, though...[END-FE]
 
@@ -1439,8 +1441,7 @@ explanation on Enchanted Gems?[END-FE]
 //２個まで装備できます。[END-FE]
 Enchanted Gems are equipment distinct[NLINE]
 from weapons and armor that provide[NLINE]
-special abilities.[NLINE]
-Up to two can be equipped.[END-FE]
+special abilities. Up to 2 can be equipped.[END-FE]
 
 
 
@@ -1910,8 +1911,8 @@ You can check the result in advance by[NLINE]
 moving the cursor to it.[NWIN]
 
 Please note that it's not possible to add[NLINE]
-more than one of the same effect to[NLINE]
-the main Gem.[END-FE]
+more than one of the same effect to the[NLINE]
+main Gem.[END-FE]
 
 
 
@@ -1951,8 +1952,8 @@ the main Gem.[END-FE]
 //注意してください。[END-FE]
 Furthermore, if there is no change in[NLINE]
 effect between the main Gem and the[NLINE]
-synthesis result, the synthesis will[NLINE]
-not be performed.[END-FE]
+synthesis result, the synthesis will not[NLINE]
+be performed.[END-FE]
 
 
 
@@ -2084,8 +2085,8 @@ level of that effect will increase.[END-FE]
 //また、能力が上限に達している場合は[NLINE]
 //強化がおきません。[END-FE]
 Enhancing can only be done to effects[NLINE]
-that have levels. The new level is[NLINE]
-the highest level + 1.[NWIN]
+that have levels. The new level is the[NLINE]
+highest level +1.[NWIN]
 
 Furthermore, if the effect has reached[NLINE]
 its maximum level, it won't be enhanced[NLINE]
@@ -2615,14 +2616,14 @@ Do you know it?[END-FE]
 //俺の安い稼ぎじゃ、とても手が出せないよ。[END-FE]
 //Man\\
 [CHAR0700][V3000]
-I've never used it before because[NLINE]
-all the prices are ten times what they[NLINE]
+I've never used it before because all[NLINE]
+the prices are ten times what they[NLINE]
 usually are on special member days, you know?[NWIN]
 
 [CHAR0700][V3100]
 Hmm, maybe it's because they only[NLINE]
-serve premium drinks then? Nothing[NLINE]
-I could afford with my measly salary.[END-FE]
+serve premium drinks then? Nothing I[NLINE]
+could afford with my measly salary.[END-FE]
 
 
 
@@ -6588,8 +6589,8 @@ I like to cook, you know.[END-FE]
 //POINTER #552 @ $7F40 - STRING #552 @ $E883
 #W32($7F40)
 //・好きと上手は別[END-FE]
-・Liking something and being good at[NLINE]
-   something are two different things[END-FE]
+・Liking and being good at something[NLINE]
+   are two different things[END-FE]
 
 
 
@@ -6772,8 +6773,8 @@ possible.[END-FE]
 ...is what I would have said if I[NLINE]
 hadn't ran out of painting materials...[NWIN]
 
-It seems shipment got delayed due to the war.[NLINE]
-Please come back later![MUSIC-NOTE][END-FE]
+It seems shipment got delayed due to the[NLINE]
+war. Please come back later![MUSIC-NOTE][END-FE]
 
 
 
@@ -7648,9 +7649,9 @@ Our mission is to find out the location[NLINE]
 of this base and wipe out the terrorists.[NWIN]
 
 [CHAR0700][V0F00]
-Currently, other team members are searching around[NLINE]
-the city's perimeter. You are to gather[NLINE]
-information inside the city.[END-FE]
+Currently, other team members are searching[NLINE]
+around the city's perimeter. You are to[NLINE]
+gather information inside the city.[END-FE]
 
 
 
@@ -7676,10 +7677,11 @@ Yes, sir![END-FE]
 //今とおなじ手順でここに来ればいい。[END-FE]
 //Shuweizer\\
 [CHAR0700][V1100]
-If you find out anything, come back to report.[NLINE]
-I sometimes go see other subordinates,[NLINE]
-but you can always come to this room in[NLINE]
-the same way as you did just now.[END-FE]
+If you find out anything, come back to[NLINE]
+report. I sometimes go see other[NLINE]
+subordinates, but you can always come[NLINE]
+to this room in the same way as you[NLINE]
+did just now.[END-FE]
 
 
 
