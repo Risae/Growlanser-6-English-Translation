@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $25A0 - STRING #0 @ $29E0
 #W32($25A0)
 //[END-FF]
@@ -2883,3 +2881,7 @@ AGI　　　→　　[END-FE]
 #W32($29DC)
 現在所持金　[CC.EF19][END-FE]
 [CC.EF19]Ы[END-FE]
+
+
+
+

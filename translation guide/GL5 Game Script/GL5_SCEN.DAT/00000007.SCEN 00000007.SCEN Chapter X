@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $7DA0 - STRING #0 @ $8610
 #W32($7DA0)
 //[END-FF]
@@ -6890,3 +6888,7 @@ The spell was ineffective...[END-FE]
 #W32($8604)
 //Ｄ　Ｒ１＿Ｄ５[END-FE]
 Ｄ　Ｒ１＿Ｄ５[END-FE]
+
+
+
+

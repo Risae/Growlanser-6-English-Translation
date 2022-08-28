@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $A0 - STRING #0 @ $7D0
 #W32($A0)
 //練習用の槍[END-FF]

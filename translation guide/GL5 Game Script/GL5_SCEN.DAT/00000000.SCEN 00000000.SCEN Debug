@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $FA0 - STRING #0 @ $FD0
 #W32($FA0)
 //[END-FF]

@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $A0 - STRING #0 @ $810
 #W32($A0)
 //ゼオンシルト[END-FF]
@@ -4261,3 +4259,7 @@ Fake Screaper[END-FF]
 #W32($804)
 //カインズ[END-FF]
 カインズ[END-FF]
+
+
+
+

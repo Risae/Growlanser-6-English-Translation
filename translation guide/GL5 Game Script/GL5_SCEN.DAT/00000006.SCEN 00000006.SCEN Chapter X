@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $3720 - STRING #0 @ $38F0
 #W32($3720)
 //[END-FF]
@@ -1250,3 +1248,7 @@ Be careful![END-FE]
 #W32($38E8)
 //自動Ｄ　戦闘直後[END-FE]
 自動Ｄ　戦闘直後[END-FE]
+
+
+
+

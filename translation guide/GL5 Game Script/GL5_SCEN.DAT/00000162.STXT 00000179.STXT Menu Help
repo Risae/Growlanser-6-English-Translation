@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $A0 - STRING #0 @ $180
 #W32($A0)
 [L1]、[R1]でキャラクター変更　　　硬直中の場合、硬直終了後に命令を実行[END-FF]
@@ -499,6 +497,7 @@ Press [COL02][CROSS][COL00] to confirm AI settings.　　　Manual: Confirm all 
 #W32($17C)
 ダイヤグラムは３つの能力の成長傾向を示します　　　[C03][CIRCLE][COL00]で決定確認へ[END-FF]
 The diagram displays the growth trend of the 3 abilities.　　　Press [COL02][CROSS][COL00] to confirm.[END-FF]
+
 
 
 

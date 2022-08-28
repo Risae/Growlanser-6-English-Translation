@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $98A0 - STRING #0 @ $9E30
 #W32($98A0)
 //[END-FF]
@@ -4384,3 +4382,7 @@ or examine them.[END-FE]
 #W32($9E20)
 //・Ｂパターン[END-FE]
 ・Ｂパターン[END-FE]
+
+
+
+

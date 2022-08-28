@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $6020 - STRING #0 @ $6320
 #W32($6020)
 //[END-FF]
@@ -2329,3 +2327,7 @@ What happened to the child's arms...?[END-FE]
 #W32($631C)
 //Ｄ　Ｒ１＿Ｆ６[END-FE]
 Ｄ　Ｒ１＿Ｆ６[END-FE]
+
+
+
+

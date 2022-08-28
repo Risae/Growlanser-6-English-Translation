@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $4BA0 - STRING #0 @ $51B0
 #W32($4BA0)
 //[END-FF]

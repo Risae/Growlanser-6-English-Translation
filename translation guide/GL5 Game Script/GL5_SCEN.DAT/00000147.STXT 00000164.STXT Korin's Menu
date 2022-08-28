@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $A0 - STRING #0 @ $E0
 #W32($A0)
 //物理攻撃防御[END-FF]

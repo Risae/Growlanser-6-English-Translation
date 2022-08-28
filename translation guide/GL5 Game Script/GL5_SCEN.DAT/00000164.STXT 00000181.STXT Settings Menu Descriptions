@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $A0 - STRING #0 @ $D0
 #W32($A0)
 ＢＧＭをステレオにするかモノラルにするかを[NLINE]
@@ -98,3 +96,7 @@ not after carrying out orders.[END-FF]
 条件を満たせば、カーソル形状を変更できます。[END-FF]
 Change cursor icons after meeting[NLINE]
 certain conditions.[END-FF]
+
+
+
+

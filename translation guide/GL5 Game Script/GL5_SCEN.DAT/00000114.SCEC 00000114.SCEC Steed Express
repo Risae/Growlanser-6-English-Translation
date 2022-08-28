@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $EA0 - STRING #0 @ $1010
 #W32($EA0)
 //[END-FF]

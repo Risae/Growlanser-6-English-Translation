@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $45A0 - STRING #0 @ $4EF0
 #W32($45A0)
 //[END-FF]
@@ -5489,3 +5487,7 @@ The Futon Dog ran off somewhere...[END-FE]
 #W32($4EE4)
 //・アレッサ人助け＿していない[END-FE]
 ・アレッサ人助け＿していない[END-FE]
+
+
+
+

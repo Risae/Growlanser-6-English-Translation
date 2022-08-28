@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $4CA0 - STRING #0 @ $4EA0
 #W32($4CA0)
 //[END-FF]
@@ -1619,3 +1617,7 @@ W-Wait![END-FE]
 //魔法の力が、かき消された……[END-FE]
 　[NLINE]
 The spell was ineffective...[END-FE]
+
+
+
+
