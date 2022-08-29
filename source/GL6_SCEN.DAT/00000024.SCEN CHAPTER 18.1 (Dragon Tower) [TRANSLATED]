@@ -179,7 +179,6 @@ We have successfully taken the tower.[END-FE]
 
 
 
-
 //POINTER #16 @ $8460 - STRING #16 @ $88B0
 #W32($8460)
 //お疲れ様です。[NLINE]
@@ -245,6 +244,7 @@ overwrite any of your save data.[END-FE]
 #W32($8474)
 //龍穴塔[END-FE]
 Ley Point Tower[END-FE]
+
 
 
 

@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $38A0 - STRING #0 @ $3A10
 #W32($38A0)
 //[END-FF]

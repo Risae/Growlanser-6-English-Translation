@@ -21,10 +21,16 @@
 Fire Arrow[END-FF]
 
 
+
+
+
 //POINTER #1 @ $A4 - STRING #1 @ $201
 #W32($A4)
 //アイスバレット[END-FF]
 Ice Barrage[END-FF]
+
+
+
 
 
 //POINTER #2 @ $A8 - STRING #2 @ $212
@@ -33,10 +39,16 @@ Ice Barrage[END-FF]
 Sand Shot[END-FF]
 
 
+
+
+
 //POINTER #3 @ $AC - STRING #3 @ $223
 #W32($AC)
 //ウィンドエッジ[END-FF]
 Wind Edge[END-FF]
+
+
+
 
 
 //POINTER #4 @ $B0 - STRING #4 @ $234
@@ -45,10 +57,16 @@ Wind Edge[END-FF]
 Blast[END-FF]
 
 
+
+
+
 //POINTER #5 @ $B4 - STRING #5 @ $23F
 #W32($B4)
 //ＭＰドレイン[END-FF]
 Magic Vortex[END-FF]
+
+
+
 
 
 //POINTER #6 @ $B8 - STRING #6 @ $24E
@@ -57,10 +75,16 @@ Magic Vortex[END-FF]
 Thunderbolt[END-FF]
 
 
+
+
+
 //POINTER #7 @ $BC - STRING #7 @ $25F
 #W32($BC)
 //ブリザード[END-FF]
 Blizzard[END-FF]
+
+
+
 
 
 //POINTER #8 @ $C0 - STRING #8 @ $26C
@@ -69,10 +93,16 @@ Blizzard[END-FF]
 Flare[END-FF]
 
 
+
+
+
 //POINTER #9 @ $C4 - STRING #9 @ $275
 #W32($C4)
 //ホーリークロス[END-FF]
 Holy Cross[END-FF]
+
+
+
 
 
 //POINTER #10 @ $C8 - STRING #10 @ $286
@@ -81,10 +111,16 @@ Holy Cross[END-FF]
 Thunder Storm[END-FF]
 
 
+
+
+
 //POINTER #11 @ $CC - STRING #11 @ $299
 #W32($CC)
 //ソニックウェーブ[END-FF]
 Sonic Wave[END-FF]
+
+
+
 
 
 //POINTER #12 @ $D0 - STRING #12 @ $2AC
@@ -93,10 +129,16 @@ Sonic Wave[END-FF]
 Earthquake[END-FF]
 
 
+
+
+
 //POINTER #13 @ $D4 - STRING #13 @ $2BD
 #W32($D4)
 //メテオ[END-FF]
 Meteor[END-FF]
+
+
+
 
 
 //POINTER #14 @ $D8 - STRING #14 @ $2C6
@@ -105,10 +147,16 @@ Meteor[END-FF]
 Sleep[END-FF]
 
 
+
+
+
 //POINTER #15 @ $DC - STRING #15 @ $2D1
 #W32($DC)
 //サイレンス[END-FF]
 Silence[END-FF]
+
+
+
 
 
 //POINTER #16 @ $E0 - STRING #16 @ $2DE
@@ -117,10 +165,16 @@ Silence[END-FF]
 Cycle Down[END-FF]
 
 
+
+
+
 //POINTER #17 @ $E4 - STRING #17 @ $2EF
 #W32($E4)
 //バインド[END-FF]
 Bind[END-FF]
+
+
+
 
 
 //POINTER #18 @ $E8 - STRING #18 @ $2FA
@@ -129,10 +183,16 @@ Bind[END-FF]
 Rust[END-FF]
 
 
+
+
+
 //POINTER #19 @ $EC - STRING #19 @ $303
 #W32($EC)
 //ウィーケン[END-FF]
 Atrophy[END-FF]
+
+
+
 
 
 //POINTER #20 @ $F0 - STRING #20 @ $310
@@ -141,10 +201,16 @@ Atrophy[END-FF]
 Fear[END-FF]
 
 
+
+
+
 //POINTER #21 @ $F4 - STRING #21 @ $319
 #W32($F4)
 //アタック[END-FF]
 Attack Up[END-FF]
+
+
+
 
 
 //POINTER #22 @ $F8 - STRING #22 @ $324
@@ -153,10 +219,16 @@ Attack Up[END-FF]
 Protect[END-FF]
 
 
+
+
+
 //POINTER #23 @ $FC - STRING #23 @ $331
 #W32($FC)
 //レジスト[END-FF]
 Resist[END-FF]
+
+
+
 
 
 //POINTER #24 @ $100 - STRING #24 @ $33C
@@ -165,10 +237,16 @@ Resist[END-FF]
 Cycle Up[END-FF]
 
 
+
+
+
 //POINTER #25 @ $104 - STRING #25 @ $34D
 #W32($104)
 //リターン[END-FF]
 Escape[END-FF]
+
+
+
 
 
 //POINTER #26 @ $108 - STRING #26 @ $358
@@ -177,10 +255,16 @@ Escape[END-FF]
 Remedy[END-FF]
 
 
+
+
+
 //POINTER #27 @ $10C - STRING #27 @ $363
 #W32($10C)
 //レイズ[END-FF]
 Raise[END-FF]
+
+
+
 
 
 //POINTER #28 @ $110 - STRING #28 @ $36C
@@ -189,10 +273,16 @@ Raise[END-FF]
 Cure[END-FF]
 
 
+
+
+
 //POINTER #29 @ $114 - STRING #29 @ $375
 #W32($114)
 //ヒーリング[END-FF]
 Heal[END-FF]
+
+
+
 
 
 //POINTER #30 @ $118 - STRING #30 @ $382
@@ -201,10 +291,16 @@ Heal[END-FF]
 Grow-Remedy[END-FF]
 
 
+
+
+
 //POINTER #31 @ $11C - STRING #31 @ $393
 #W32($11C)
 //グローキュア[END-FF]
 Grow-Cure[END-FF]
+
+
+
 
 
 //POINTER #32 @ $120 - STRING #32 @ $3A2
@@ -213,10 +309,16 @@ Grow-Cure[END-FF]
 Grow-Heal[END-FF]
 
 
+
+
+
 //POINTER #33 @ $124 - STRING #33 @ $3B5
 #W32($124)
 //強打撃[END-FF]
 Fierce Strike[END-FF]
+
+
+
 
 
 //POINTER #34 @ $128 - STRING #34 @ $3BE
@@ -225,10 +327,16 @@ Fierce Strike[END-FF]
 Pierce Attack[END-FF]
 
 
+
+
+
 //POINTER #35 @ $12C - STRING #35 @ $3C9
 #W32($12C)
 //全周囲攻撃[END-FF]
 Circle Strike[END-FF]
+
+
+
 
 
 //POINTER #36 @ $130 - STRING #36 @ $3D6
@@ -237,10 +345,16 @@ Circle Strike[END-FF]
 Multi-Strike[END-FF]
 
 
+
+
+
 //POINTER #37 @ $134 - STRING #37 @ $3E1
 #W32($134)
 //強奪[END-FF]
 Thievery[END-FF]
+
+
+
 
 
 //POINTER #38 @ $138 - STRING #38 @ $3E8
@@ -249,10 +363,16 @@ Thievery[END-FF]
 Soul Smasher[END-FF]
 
 
+
+
+
 //POINTER #39 @ $13C - STRING #39 @ $3F9
 #W32($13C)
 //足留め[END-FF]
 Impede[END-FF]
+
+
+
 
 
 //POINTER #40 @ $140 - STRING #40 @ $402
@@ -261,10 +381,16 @@ Impede[END-FF]
 Spell Disruptor[END-FF]
 
 
+
+
+
 //POINTER #41 @ $144 - STRING #41 @ $40D
 #W32($144)
 //即死攻撃[END-FF]
 Fatal Strike[END-FF]
+
+
+
 
 
 //POINTER #42 @ $148 - STRING #42 @ $418
@@ -273,10 +399,16 @@ Fatal Strike[END-FF]
 Death Curse[END-FF]
 
 
+
+
+
 //POINTER #43 @ $14C - STRING #43 @ $423
 #W32($14C)
 //時限爆弾[END-FF]
 Time Bomb[END-FF]
+
+
+
 
 
 //POINTER #44 @ $150 - STRING #44 @ $42E
@@ -285,10 +417,16 @@ Time Bomb[END-FF]
 Inferno[END-FF]
 
 
+
+
+
 //POINTER #45 @ $154 - STRING #45 @ $43D
 #W32($154)
 //見切る[END-FF]
 Sixth Sense[END-FF]
+
+
+
 
 
 //POINTER #46 @ $158 - STRING #46 @ $446
@@ -297,10 +435,16 @@ Sixth Sense[END-FF]
 Counter[END-FF]
 
 
+
+
+
 //POINTER #47 @ $15C - STRING #47 @ $453
 #W32($15C)
 //バーサーク[END-FF]
 Berserk[END-FF]
+
+
+
 
 
 //POINTER #48 @ $160 - STRING #48 @ $460
@@ -309,10 +453,16 @@ Berserk[END-FF]
 Focus[END-FF]
 
 
+
+
+
 //POINTER #49 @ $164 - STRING #49 @ $46B
 #W32($164)
 //魔法強化[END-FF]
 Magic Up[END-FF]
+
+
+
 
 
 //POINTER #50 @ $168 - STRING #50 @ $476
@@ -321,10 +471,16 @@ Magic Up[END-FF]
 Magic Def Up[END-FF]
 
 
+
+
+
 //POINTER #51 @ $16C - STRING #51 @ $487
 #W32($16C)
 //マインドシェル[END-FF]
 Mind Armor[END-FF]
+
+
+
 
 
 //POINTER #52 @ $170 - STRING #52 @ $498
@@ -333,10 +489,16 @@ Mind Armor[END-FF]
 Decoy[END-FF]
 
 
+
+
+
 //POINTER #53 @ $174 - STRING #53 @ $4A1
 #W32($174)
 //しのび歩き[END-FF]
 Stealth[END-FF]
+
+
+
 
 
 //POINTER #54 @ $178 - STRING #54 @ $4AE
@@ -345,10 +507,16 @@ Stealth[END-FF]
 Analyze[END-FF]
 
 
+
+
+
 //POINTER #55 @ $17C - STRING #55 @ $4B9
 #W32($17C)
 //ＨＰアップ[END-FF]
 HP Up[END-FF]
+
+
+
 
 
 //POINTER #56 @ $180 - STRING #56 @ $4C6
@@ -357,10 +525,16 @@ HP Up[END-FF]
 MP Up[END-FF]
 
 
+
+
+
 //POINTER #57 @ $184 - STRING #57 @ $4D3
 #W32($184)
 //ＭＯＶアップ[END-FF]
 MOV Up[END-FF]
+
+
+
 
 
 //POINTER #58 @ $188 - STRING #58 @ $4E2
@@ -369,10 +543,16 @@ MOV Up[END-FF]
 Hit Ratio Up[END-FF]
 
 
+
+
+
 //POINTER #59 @ $18C - STRING #59 @ $4EF
 #W32($18C)
 //攻撃硬直短縮[END-FF]
 Quick Attack[END-FF]
+
+
+
 
 
 //POINTER #60 @ $190 - STRING #60 @ $4FE
@@ -381,10 +561,16 @@ Quick Attack[END-FF]
 Quick Cast[END-FF]
 
 
+
+
+
 //POINTER #61 @ $194 - STRING #61 @ $509
 #W32($194)
 //道具硬直短縮[END-FF]
 Quick Use[END-FF]
+
+
+
 
 
 //POINTER #62 @ $198 - STRING #62 @ $518
@@ -393,10 +579,16 @@ Quick Use[END-FF]
 MP Cost Down[END-FF]
 
 
+
+
+
 //POINTER #63 @ $19C - STRING #63 @ $527
 #W32($19C)
 //魔法射程アップ[END-FF]
 Magic Range Up[END-FF]
+
+
+
 
 
 //POINTER #64 @ $1A0 - STRING #64 @ $538
@@ -405,10 +597,16 @@ Magic Range Up[END-FF]
 Attack Range Up[END-FF]
 
 
+
+
+
 //POINTER #65 @ $1A4 - STRING #65 @ $549
 #W32($1A4)
 //肉体防御アップ[END-FF]
 Physical Def Up[END-FF]
+
+
+
 
 
 //POINTER #66 @ $1A8 - STRING #66 @ $55A
@@ -417,10 +615,16 @@ Physical Def Up[END-FF]
 Magic Def Up[END-FF]
 
 
+
+
+
 //POINTER #67 @ $1AC - STRING #67 @ $56B
 #W32($1AC)
 //防御技アップ[END-FF]
 Guard Skill Up[END-FF]
+
+
+
 
 
 //POINTER #68 @ $1B0 - STRING #68 @ $57A
@@ -429,10 +633,16 @@ Guard Skill Up[END-FF]
 Critical Rate Up[END-FF]
 
 
+
+
+
 //POINTER #69 @ $1B4 - STRING #69 @ $589
 #W32($1B4)
 //ＨＰ吸収[END-FF]
 HP Drain[END-FF]
+
+
+
 
 
 //POINTER #70 @ $1B8 - STRING #70 @ $594
@@ -441,10 +651,16 @@ HP Drain[END-FF]
 MP Drain[END-FF]
 
 
+
+
+
 //POINTER #71 @ $1BC - STRING #71 @ $59F
 #W32($1BC)
 //精霊の助力[END-FF]
 Spirit Aid[END-FF]
+
+
+
 
 
 //POINTER #72 @ $1C0 - STRING #72 @ $5AC
@@ -453,10 +669,16 @@ Spirit Aid[END-FF]
 Shadow Dodge[END-FF]
 
 
+
+
+
 //POINTER #73 @ $1C4 - STRING #73 @ $5B5
 #W32($1C4)
 //詠唱防御[END-FF]
 Concentration[END-FF]
+
+
+
 
 
 //POINTER #74 @ $1C8 - STRING #74 @ $5C0
@@ -465,10 +687,16 @@ Concentration[END-FF]
 Ailment Guard[END-FF]
 
 
+
+
+
 //POINTER #75 @ $1CC - STRING #75 @ $5CF
 #W32($1CC)
 //リジェネレート[END-FF]
 HP Regenerate[END-FF]
+
+
+
 
 
 //POINTER #76 @ $1D0 - STRING #76 @ $5E0
@@ -477,10 +705,16 @@ HP Regenerate[END-FF]
 MP Regenerate[END-FF]
 
 
+
+
+
 //POINTER #77 @ $1D4 - STRING #77 @ $5EB
 #W32($1D4)
 //回復力アップ[END-FF]
 Recovery Up[END-FF]
+
+
+
 
 
 //POINTER #78 @ $1D8 - STRING #78 @ $5FA
@@ -489,10 +723,16 @@ Recovery Up[END-FF]
 Free Knacks[END-FF]
 
 
+
+
+
 //POINTER #79 @ $1DC - STRING #79 @ $609
 #W32($1DC)
 //棘のオーラ[END-FF]
 Thorn Aura[END-FF]
+
+
+
 
 
 //POINTER #80 @ $1E0 - STRING #80 @ $616

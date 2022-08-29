@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $5320 - STRING #0 @ $5700
 #W32($5320)
 //[END-FF]
@@ -1142,6 +1141,7 @@ what it says...[NWIN]
 [CH.FACE:Normal][CHAR1100][V2900]
 How could they what was going to[NLINE]
 happen now?[END-FE]
+
 
 
 
@@ -2587,7 +2587,6 @@ low tide just like before?[END-FE]
 //引き潮の時に島へ渡るのかな。[END-FE]
 [CHAR3800][V0B00]
 I agree with Rukias.[END-FE]
-
 
 
 

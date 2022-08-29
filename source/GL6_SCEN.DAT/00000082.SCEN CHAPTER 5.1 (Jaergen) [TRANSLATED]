@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $5B20 - STRING #0 @ $5F50
 #W32($5B20)
 //[END-FF]
@@ -582,7 +581,6 @@ This is the Item Shop.[END-FE]
 
 
 
-
 //POINTER #52 @ $5BF0 - STRING #52 @ $6628
 #W32($5BF0)
 //ところで手に入ったジェムの原石は[NLINE]
@@ -870,7 +868,6 @@ Could I try making you a little something?[END-FE]
 Here you go. I made it out[NLINE]
 some green fabric I had laying[NLINE]
 around.[END-FE]
-
 
 
 

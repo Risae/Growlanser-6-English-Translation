@@ -2351,6 +2351,7 @@ in and provides good defense.[END-FF]
 
 
 
+
 //POINTER #186 @ $388 - STRING #186 @ $5C81
 #W32($388)
 //金属の鋲を打ち込んで強化したスタデッドレザーで[NLINE]
@@ -3596,6 +3597,7 @@ also a watchdog of hell.[END-FF]
 
 
 
+
 //POINTER #286 @ $518 - STRING #286 @ $86D9
 #W32($518)
 //犬首輪３[END-FF]
@@ -4255,6 +4257,7 @@ clarity through meditation.[NLINE]
 
 
 
+
 //POINTER #338 @ $5E8 - STRING #338 @ $9EE6
 #W32($5E8)
 //静かな心で鏡の中に自らを映すことにより、[NLINE]
@@ -4440,11 +4443,13 @@ Gem Reinforcer[END-FF]
 
 
 
+
 //POINTER #353 @ $624 - STRING #353 @ $A53A
 #W32($624)
 //不使用[NLINE]
 //;ジェム強制強化・改[END-FF]
 Gem Reinforcer EX[END-FF]
+
 
 
 
@@ -4903,6 +4908,7 @@ but well maintained. Seems quite old.[END-FF]
 
 
 
+
 //POINTER #391 @ $6BC - STRING #391 @ $B2EF
 #W32($6BC)
 //目覚めたときからポケットに入っていた[NLINE]
@@ -4915,6 +4921,7 @@ Why do you have it?[END-FF]
 
 
 
+
 //POINTER #392 @ $6C0 - STRING #392 @ $B34E
 #W32($6C0)
 //レノックス研究所の地下室でもらったしおり。[NLINE]
@@ -4922,6 +4929,7 @@ Why do you have it?[END-FF]
 Pressed wildflower given to you by a[NLINE]
 strange girl in the basement of the[NLINE]
 Lenox Facility.[END-FF]
+
 
 
 
@@ -4938,6 +4946,7 @@ and can't be used.[END-FF]
 
 
 
+
 //POINTER #394 @ $6C8 - STRING #394 @ $B41C
 #W32($6C8)
 //布袋の中に札のような物が入っている[NLINE]
@@ -4945,6 +4954,7 @@ and can't be used.[END-FF]
 //どんな御利益があるのだろうか…？[END-FF]
 Iristellesa's handmade amulet.[NLINE]
 What fortune does it bring?[END-FF]
+
 
 
 
@@ -4962,6 +4972,7 @@ purifying the land.[END-FF]
 
 
 
+
 //POINTER #396 @ $6D0 - STRING #396 @ $B4E0
 #W32($6D0)
 //ファニルから預かった、ランディ宛の手紙。[NLINE]
@@ -4969,6 +4980,7 @@ purifying the land.[END-FF]
 //　[END-FF]
 A letter from Fanille.[NLINE]
 Addressed to Randall.[END-FF]
+
 
 
 
@@ -4984,6 +4996,7 @@ An indispensable cure.[END-FF]
 
 
 
+
 //POINTER #398 @ $6D8 - STRING #398 @ $B55E
 #W32($6D8)
 //紐を通すための穴の開いた真珠。[NLINE]
@@ -4991,6 +5004,7 @@ An indispensable cure.[END-FF]
 //としての形を取っていた。[END-FF]
 One pearl bead from a set of seven,[NLINE]
 once held together as a necklace.[END-FF]
+
 
 
 
@@ -5006,12 +5020,14 @@ connecting mental scenarios.[END-FF]
 
 
 
+
 //POINTER #400 @ $6E0 - STRING #400 @ $B5FA
 #W32($6E0)
 //一通りの工作用の道具が収められた箱。[NLINE]
 //　[NLINE]
 //[END-FF]
 A box containing a set of tools.[END-FF]
+
 
 
 
@@ -5026,6 +5042,8 @@ existed since the creation of the world.[END-FF]
 
 
 
+
+
 //POINTER #402 @ $6E8 - STRING #402 @ $B662
 #W32($6E8)
 //ホフマンがレイスタンの宿の主人に託した手紙。[NLINE]
@@ -5033,6 +5051,8 @@ existed since the creation of the world.[END-FF]
 A letter left by Hofman to the innkeeper[NLINE]
 in Leystan. Written inside of it is gratitude[NLINE]
 for being able to avoid the bombardment.[END-FF]
+
+
 
 
 
@@ -5048,6 +5068,7 @@ naturally-growing trees.[END-FF]
 
 
 
+
 //POINTER #404 @ $6F0 - STRING #404 @ $B718
 #W32($6F0)
 //目的の街まで楽に移動できる[NLINE]
@@ -5056,6 +5077,7 @@ naturally-growing trees.[END-FF]
 Ticket for the "carry shop", allowing[NLINE]
 free travel between destinations.[NLINE]
 Please be aware when the carrier is out.[END-FF]
+
 
 
 
@@ -5079,6 +5101,7 @@ Useless for those without fairies.[END-FF]
 //信頼の証、誓いの証として友へと手渡すもの。[END-FF]
 Given to a friend as proof of[NLINE]
 absolute friendship and trust.[END-FF]
+
 
 
 
@@ -5228,11 +5251,13 @@ It is drawn quite handsomely.[END-FF]
 
 
 
+
 //POINTER #419 @ $72C - STRING #419 @ $BBFD
 #W32($72C)
 //ダスティスで描いてもらった絵。[NLINE]
 //ユリィが肩に乗っている。[END-FF]
 A picture with Yurii drawn in Dastis.[END-FF]
+
 
 
 
@@ -5246,6 +5271,7 @@ A picture with Wendy drawn in Dastis.[END-FF]
 
 
 
+
 //POINTER #421 @ $734 - STRING #421 @ $BC77
 #W32($734)
 //ダスティスで描いてもらった絵。[NLINE]
@@ -5255,11 +5281,13 @@ A picture with Iristellesa drawn in Dastis.[END-FF]
 
 
 
+
 //POINTER #422 @ $738 - STRING #422 @ $BCB8
 #W32($738)
 //ダスティスで描いてもらった絵。[NLINE]
 //アニータが横に並んでいる。[END-FF]
 A picture with Anita drawn in Dastis.[END-FF]
+
 
 
 
@@ -5286,6 +5314,7 @@ Pattern for miniature casual wear.[END-FF]
 
 
 
+
 //POINTER #425 @ $744 - STRING #425 @ $BDB7
 #W32($744)
 //○○の型紙[NLINE]
@@ -5297,6 +5326,7 @@ require a good amount of skill to sew.[END-FF]
 
 
 
+
 //POINTER #426 @ $748 - STRING #426 @ $BE02
 #W32($748)
 //モノポリス本社ビル８階にある資料室。[NLINE]
@@ -5304,6 +5334,7 @@ require a good amount of skill to sew.[END-FF]
 //解除するカギ。[END-FF]
 Key to the library on the 8th floor[NLINE]
 of the Monopolis Headquarters.[END-FF]
+
 
 
 

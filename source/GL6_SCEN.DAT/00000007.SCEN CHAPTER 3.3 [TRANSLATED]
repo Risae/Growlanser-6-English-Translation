@@ -1046,7 +1046,6 @@ Last night felt pretty good, huh?[END-FE]
 
 
 
-
 //POINTER #67 @ $BA2C - STRING #67 @ $D217
 #W32($BA2C)
 //ウェンディ\\
@@ -1056,7 +1055,6 @@ Last night felt pretty good, huh?[END-FE]
 //Wendy\\
 You're lying, right?[NLINE]
 Didn't last night feel pretty good?[END-FE]
-
 
 
 
@@ -2300,6 +2298,7 @@ as much as possible![END-FE]
 //Wendy\\
 [CHAR0C00][V1500]
 ...That was the last of them...[END-FE]
+
 
 
 
@@ -4858,6 +4857,7 @@ attention and lure them here.[NWIN]
 [CHAR6300][V0200]
 Are you ready to participate in the[NLINE]
 the operation?[END-FE]
+
 
 
 

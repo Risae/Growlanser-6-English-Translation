@@ -763,6 +763,7 @@ Would you like to skip the battle?[END-FE]
 
 
 
+
 //POINTER #61 @ $4E14 - STRING #61 @ $5A97
 #W32($4E14)
 //[CHAR6600][V0800]
@@ -828,6 +829,7 @@ to his body![END-FE]
 
 
 
+
 //POINTER #66 @ $4E28 - STRING #66 @ $5B9C
 #W32($4E28)
 //[CHAR6600][V0B00]
@@ -837,6 +839,7 @@ to his body![END-FE]
 ...Spirits, answer my call![NLINE]
 Allow my comrades' soul to return[NLINE]
 to his body![END-FE]
+
 
 
 
@@ -854,6 +857,7 @@ to his body![END-FE]
 
 
 
+
 //POINTER #68 @ $4E30 - STRING #68 @ $5C1A
 #W32($4E30)
 //[CHAR6600][V0B00]
@@ -867,6 +871,7 @@ to his body![END-FE]
 
 
 
+
 //POINTER #69 @ $4E34 - STRING #69 @ $5C59
 #W32($4E34)
 //[CHAR6600][V0B00]
@@ -876,6 +881,7 @@ to his body![END-FE]
 ...Spirits, answer my call![NLINE]
 Allow my comrades' soul to return[NLINE]
 to his body![END-FE]
+
 
 
 
@@ -948,7 +954,6 @@ My spiritual energy... has ran out...[END-FE]
 //もうしわけありません…。[END-FE]
 [CHAR6600][V0E00]
 L-lord Zafreed, forgive me...[END-FE]
-
 
 
 

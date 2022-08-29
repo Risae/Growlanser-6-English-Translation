@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $FF20 - STRING #0 @ $10EA0
 #W32($FF20)
 //[END-FF]
@@ -262,7 +261,6 @@ Wa-ha-ha-ha![END-FE]
 //Warrior\\
 I need to aim for an impregnable[NLINE]
 defense...![END-FE]
-
 
 
 
@@ -1257,7 +1255,6 @@ as thanks. Please take it.[END-FE]
 //Villager\\
 Looks like I can go home now.[NLINE]
 You have my gratitude, young man.[END-FE]
-
 
 
 
@@ -2993,7 +2990,6 @@ Well then, I'm off![END-FE]
 
 
 
-
 //POINTER #225 @ $102A4 - STRING #225 @ $13EC3
 #W32($102A4)
 //　　　　[COL03]『[COL00]知ってお得、システム情報[COL03]』[COL00]　　　[NLINE]
@@ -3514,7 +3510,6 @@ decided, a target-lock will be displayed[NLINE]
 around its HP meter. A yellow aura around[NLINE]
 the the main character indicates that you[NLINE]
 or the enemy has dealt out an attack.[END-FE]
-
 
 
 
@@ -5685,7 +5680,6 @@ Will you look into the bushes?[END-FE]
 
 
 
-
 //POINTER #424 @ $105C0 - STRING #424 @ $16C96
 #W32($105C0)
 //回復薬を見つけたが、[NLINE]
@@ -5977,7 +5971,6 @@ the fund-raising.[END-FE]
 //Boy/Girl\\
 Aw, man! You're really slow, mister![NLINE]
 You call that a race?[END-FE]
-
 
 
 
@@ -6501,6 +6494,7 @@ my questions.[END-FE]
 //Shrine Maiden\\
 I see...[NLINE]
 My apologies for making idle talk...[END-FE]
+
 
 
 
@@ -7880,6 +7874,7 @@ You did it, mister![END-FE]
 
 
 
+
 //POINTER #612 @ $108B0 - STRING #612 @ $18598
 #W32($108B0)
 //市民\\
@@ -8374,7 +8369,6 @@ a new tree! Thank you very much![END-FE]
 
 
 
-
 //POINTER #657 @ $10964 - STRING #657 @ $18949
 #W32($10964)
 //後少しで、新しい樹が植えられます。[NLINE]
@@ -8844,7 +8838,6 @@ C-could you go get some for me, please?[END-FE]
 //もう、君には頼まないよ！[END-FE]
 //Injured Man\\
 Fine! I'm not asking you anymore![END-FE]
-
 
 
 
@@ -9552,7 +9545,6 @@ I see. It's a shame you won't participate[NLINE]
 in my experiment, but I can't force you.[NWIN]
 
 Let us return to the entrance.[END-FE]
-
 
 
 
@@ -11846,7 +11838,6 @@ Debug messages from this point[END-FE]
 //自分も脱出した。[END-FE]
 村人を可能な限り逃がして、[NLINE]
 自分も脱出した。[END-FE]
-
 
 
 

@@ -61,6 +61,7 @@ Recounts the story.[END-FF]
 
 
 
+
 //POINTER #5 @ $B4 - STRING #5 @ $1C1
 #W32($B4)
 //仲間との友好状態を判定する。[END-FF]

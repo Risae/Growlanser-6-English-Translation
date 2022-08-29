@@ -246,6 +246,7 @@ stay in this era...?[END-FE]
 
 
 
+
 //POINTER #23 @ $B4FC - STRING #23 @ $BE05
 #W32($B4FC)
 //…私たちがこの時代にいられるのは、[NLINE]
@@ -1553,6 +1554,7 @@ Let's evacuate quickly![END-FE]
 
 
 
+
 //POINTER #126 @ $B698 - STRING #126 @ $D2A0
 #W32($B698)
 //上判定Ａ[END-FE]
@@ -1739,6 +1741,7 @@ Let's evacuate quickly![END-FE]
 //押しますか？[END-FE]
 The device has a button.[NLINE]
 Will you press it?[END-FE]
+
 
 
 
@@ -2770,7 +2773,6 @@ just like the Brave One...?[END-FE]
 [CHAR7500][V0700]
 Why don't you tell me how it feels[NLINE]
 to be back here? Nostalgic, isn't it?[END-FE]
-
 
 
 

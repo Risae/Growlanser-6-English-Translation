@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $88A0 - STRING #0 @ $9270
 #W32($88A0)
 //[END-FF]
@@ -713,7 +712,6 @@ How about you take a little peek?[END-FE]
 but it's actually part of its body.[NWIN]
 
 Did Wendy put you up to this?[END-FE]
-
 
 
 
@@ -4771,7 +4769,6 @@ alroight?[END-FE]
 
 
 
-
 //POINTER #355 @ $8E2C - STRING #355 @ $F2ED
 #W32($8E2C)
 //フリスビーを使うんだね。[NLINE]
@@ -5932,7 +5929,7 @@ I want ya to get its shell.[NWIN]
 
 It's sturdy shell, so it'll be of[NLINE]
 use to me.[NWIN]
- 
+
 I'll give ya a Service Point[NLINE]
 for each shell ya bring me.[END-FE]
 

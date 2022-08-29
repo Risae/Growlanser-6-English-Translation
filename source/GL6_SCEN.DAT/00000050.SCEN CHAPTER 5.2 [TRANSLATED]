@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $74A0 - STRING #0 @ $78E0
 #W32($74A0)
 //[END-FF]
@@ -3192,6 +3191,7 @@ to escape?[END-FE]
 A great price had to be paid.[NLINE]
 My Brave Guard who protected me gave[NLINE]
 his life so that I could escape...[END-FE]
+
 
 
 

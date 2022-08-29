@@ -150,7 +150,6 @@ Use the up and down directional buttons to select an equipment slot.   From the 
 
 
 
-
 //POINTER #15 @ $DC - STRING #15 @ $79D
 #W32($DC)
 //[COL05][SQUARE][COL00]で説明表示　　　必要ＳＴＲの不足（ペナルティーあり）に注意　　　メーターは装備後の硬直時間　　　[L2]、[R2]で武器リストのスクロール送り[END-FF]
@@ -173,7 +172,6 @@ Press [SQUARE] to toggle descriptions.   Be mindful of those you lack the STR to
 #W32($E4)
 //[COL05][SQUARE][COL00]で説明表示　　　[L2]、[R2]でジェムリストのスクロール送り　　　[COL04][TRIANGLE][COL00]でジェムの並び替え（押すたびに能力数優先順、能力１優先順、能力２優先順…と変化）　　　[END-FF]
 Press [SQUARE] to toggle descriptions.   Press [L2] or [R2] to scroll through the gem list.   Press [TRIANGLE] to sort the Gems.[END-FF]
-
 
 
 

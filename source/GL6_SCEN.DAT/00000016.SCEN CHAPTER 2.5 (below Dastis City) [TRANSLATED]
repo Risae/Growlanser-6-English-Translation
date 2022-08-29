@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $4BA0 - STRING #0 @ $4D10
 #W32($4BA0)
 //[END-FF]
@@ -1192,6 +1191,7 @@ Hmmm...[END-FE]
 #W32($4CF4)
 //デバッグセーブに行きますか？[END-FE]
 Do you want to go to debug save?[END-FE]
+
 
 
 

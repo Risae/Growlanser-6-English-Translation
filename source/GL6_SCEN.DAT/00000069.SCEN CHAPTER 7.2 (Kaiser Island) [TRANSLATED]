@@ -439,6 +439,7 @@ Will you press it?[END-FE]
 
 
 
+
 //POINTER #40 @ $99C0 - STRING #40 @ $A15A
 #W32($99C0)
 //　[NLINE]
@@ -1520,7 +1521,6 @@ Tch! Attack them from two sides![END-FE]
 [NLINE]
 The magic circle shined briefly for[NLINE]
 a moment but then faded.[END-FE]
-
 
 
 

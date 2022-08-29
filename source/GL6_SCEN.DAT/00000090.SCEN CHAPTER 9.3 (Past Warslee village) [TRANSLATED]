@@ -347,6 +347,7 @@ Please come again![END-FE]
 
 
 
+
 //POINTER #29 @ $3894 - STRING #29 @ $3E42
 #W32($3894)
 //いらっしゃいませ。[NLINE]
@@ -365,6 +366,7 @@ This is the Item Shop.[END-FE]
 //売却でしょうか？[END-FE]
 //Merchant\\
 How may I help you?[END-FE]
+
 
 
 
@@ -571,6 +573,7 @@ day the village was attacked by them.[NWIN]
 Rasche had a mysterious ability that[NLINE]
 allowed him to weaken Screapers by simply[NLINE]
 standing near them.[NWIN]
+
 
 
 

@@ -22,10 +22,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #1 @ $A4 - STRING #1 @ $203
 #W32($A4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -37,10 +41,13 @@ This can't be used right now.[END-FF]
 
 
 
+
 //POINTER #3 @ $AC - STRING #3 @ $229
 #W32($AC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -51,10 +58,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #5 @ $B4 - STRING #5 @ $24F
 #W32($B4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -65,10 +76,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #7 @ $BC - STRING #7 @ $275
 #W32($BC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -79,10 +94,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #9 @ $C4 - STRING #9 @ $29B
 #W32($C4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -95,10 +114,14 @@ There seems to be no object in this area.[END-FF]
 
 
 
+
+
 //POINTER #11 @ $CC - STRING #11 @ $2EF
 #W32($CC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -109,10 +132,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #13 @ $D4 - STRING #13 @ $315
 #W32($D4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -123,10 +150,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #15 @ $DC - STRING #15 @ $33B
 #W32($DC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -137,10 +168,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #17 @ $E4 - STRING #17 @ $361
 #W32($E4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -151,10 +186,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #19 @ $EC - STRING #19 @ $387
 #W32($EC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -165,10 +204,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #21 @ $F4 - STRING #21 @ $3AD
 #W32($F4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -179,10 +222,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #23 @ $FC - STRING #23 @ $3D3
 #W32($FC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -193,10 +240,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #25 @ $104 - STRING #25 @ $3F9
 #W32($104)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -207,10 +258,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #27 @ $10C - STRING #27 @ $41F
 #W32($10C)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -221,10 +276,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #29 @ $114 - STRING #29 @ $445
 #W32($114)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -235,10 +294,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #31 @ $11C - STRING #31 @ $46B
 #W32($11C)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -249,10 +312,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #33 @ $124 - STRING #33 @ $491
 #W32($124)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -263,10 +330,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #35 @ $12C - STRING #35 @ $4B7
 #W32($12C)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -277,10 +348,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #37 @ $134 - STRING #37 @ $4DD
 #W32($134)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -292,10 +367,13 @@ This can't be used right now.[END-FF]
 
 
 
+
 //POINTER #39 @ $13C - STRING #39 @ $503
 #W32($13C)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -306,10 +384,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #41 @ $144 - STRING #41 @ $529
 #W32($144)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -320,6 +402,8 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #43 @ $14C - STRING #43 @ $54F
 #W32($14C)
 //今は使えません。[END-FF]
@@ -327,10 +411,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #44 @ $150 - STRING #44 @ $562
 #W32($150)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -371,10 +459,14 @@ Until then, take care! ~Hofman~[END-FF]
 
 
 
+
+
 //POINTER #46 @ $158 - STRING #46 @ $7D6
 #W32($158)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -385,10 +477,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #48 @ $160 - STRING #48 @ $7FC
 #W32($160)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -405,10 +501,14 @@ know can be trusted.[NLINE][END-FF]
 
 
 
+
+
 //POINTER #50 @ $168 - STRING #50 @ $8B4
 #W32($168)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -419,10 +519,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #52 @ $170 - STRING #52 @ $8DA
 #W32($170)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -433,10 +537,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #54 @ $178 - STRING #54 @ $900
 #W32($178)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -447,6 +555,8 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #56 @ $180 - STRING #56 @ $926
 #W32($180)
 //今は使えません。[END-FF]
@@ -454,10 +564,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #57 @ $184 - STRING #57 @ $939
 #W32($184)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -469,10 +583,13 @@ This can't be used right now.[END-FF]
 
 
 
+
 //POINTER #59 @ $18C - STRING #59 @ $95F
 #W32($18C)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -483,10 +600,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #61 @ $194 - STRING #61 @ $985
 #W32($194)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -497,10 +618,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #63 @ $19C - STRING #63 @ $9AB
 #W32($19C)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -511,10 +636,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #65 @ $1A4 - STRING #65 @ $9D1
 #W32($1A4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -526,10 +655,13 @@ This can't be used right now.[END-FF]
 
 
 
+
 //POINTER #67 @ $1AC - STRING #67 @ $9F7
 #W32($1AC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -540,10 +672,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #69 @ $1B4 - STRING #69 @ $A1D
 #W32($1B4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -555,10 +691,13 @@ This can't be used right now.[END-FF]
 
 
 
+
 //POINTER #71 @ $1BC - STRING #71 @ $A43
 #W32($1BC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -569,10 +708,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #73 @ $1C4 - STRING #73 @ $A69
 #W32($1C4)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -583,10 +726,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #75 @ $1CC - STRING #75 @ $A8F
 #W32($1CC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -597,6 +744,8 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #77 @ $1D4 - STRING #77 @ $AB5
 #W32($1D4)
 //今は使えません。[END-FF]
@@ -604,10 +753,14 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #78 @ $1D8 - STRING #78 @ $AC8
 #W32($1D8)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -619,10 +772,13 @@ This can't be used right now.[END-FF]
 
 
 
+
 //POINTER #80 @ $1E0 - STRING #80 @ $AEE
 #W32($1E0)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
 
 
 
@@ -633,6 +789,8 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #82 @ $1E8 - STRING #82 @ $B14
 #W32($1E8)
 //今は使えません。[END-FF]
@@ -640,7 +798,13 @@ This can't be used right now.[END-FF]
 
 
 
+
+
 //POINTER #83 @ $1EC - STRING #83 @ $B27
 #W32($1EC)
 //今は使えません。[END-FF]
 This can't be used right now.[END-FF]
+
+
+
+

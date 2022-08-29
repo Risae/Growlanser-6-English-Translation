@@ -331,7 +331,6 @@ we should be good for a while! [MUSIC-NOTE][END-FE]
 
 
 
-
 //POINTER #24 @ $5F80 - STRING #24 @ $670C
 #W32($5F80)
 //ウェンディ\\
@@ -851,7 +850,6 @@ ends or you give another order.[END-FE]
 
 
 
-
 //POINTER #57 @ $6004 - STRING #57 @ $7182
 #W32($6004)
 //[COL01]『自動』[COL00]は、仲間に自由行動するよう指示します。[NLINE]
@@ -1103,7 +1101,6 @@ could use them. Too bad...[END-FE]
 
 
 
-
 //POINTER #72 @ $6040 - STRING #72 @ $7713
 #W32($6040)
 //　[NLINE]
@@ -1177,6 +1174,7 @@ The gate has already become operational again.[END-FE]
 I don't know how many times we'll end[NLINE]
 up in a fight before we reach Dastis, but if[NLINE]
 you don't want to fight, just say the word![END-FE]
+
 
 
 
@@ -1899,7 +1897,6 @@ ground[END-FE]
 
 
 
-
 //POINTER #124 @ $6110 - STRING #124 @ $8647
 #W32($6110)
 //ウェンディ\\
@@ -2285,6 +2282,7 @@ Ugh...[END-FE]
 //System Message\\
 The fainted soldiers were bound[NLINE]
 and taken to an inconspicuous place.[END-FE]
+
 
 
 
@@ -2987,7 +2985,6 @@ frequency that they dislike.[NWIN]
 [CHAR6700][V1000]
 However, I strongly doubt that[NLINE]
 Pollumine possesses such an ability.[END-FE]
-
 
 
 

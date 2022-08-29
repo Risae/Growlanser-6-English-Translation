@@ -129,6 +129,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 
 
+
 //POINTER #11 @ $54CC - STRING #11 @ $5B1D
 #W32($54CC)
 //・同行人の死亡[NLINE]
@@ -2271,13 +2272,11 @@ I'm glad to meet you again.[END-FE]
 
 
 
-
 //POINTER #157 @ $5714 - STRING #157 @ $861B
 #W32($5714)
 //…私たちのこと、[NLINE]
 //覚えてくれてるのですか…？[END-FE]
 ...Do you remember us...?[END-FE]
-
 
 
 
@@ -3424,6 +3423,7 @@ there when the Queen is defeated in the[NLINE]
 restored timeline, and prevent it[NLINE]
 from multiplying by sealing it[NLINE]
 with these Tablets, right?[END-FE]
+
 
 
 

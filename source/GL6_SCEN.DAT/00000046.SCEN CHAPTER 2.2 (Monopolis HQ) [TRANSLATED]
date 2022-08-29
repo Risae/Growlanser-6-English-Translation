@@ -23,10 +23,12 @@
 
 
 
+
 //POINTER #1 @ $79A4 - STRING #1 @ $7F23
 #W32($79A4)
 //警告[END-FF]
 Warning[END-FF]
+
 
 
 
@@ -39,6 +41,7 @@ Small diving gear[END-FF]
 
 
 
+
 //POINTER #3 @ $79AC - STRING #3 @ $7F37
 #W32($79AC)
 //シャイアー[END-FF]
@@ -47,10 +50,12 @@ Shayer[END-FF]
 
 
 
+
 //POINTER #4 @ $79B0 - STRING #4 @ $7F44
 #W32($79B0)
 //・敵の全滅[END-FE]
 ・All enemies defeated[END-FE]
+
 
 
 
@@ -65,13 +70,13 @@ Shayer[END-FF]
 
 
 
+
 //POINTER #6 @ $79B8 - STRING #6 @ $7F76
 #W32($79B8)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
 ・Follower dies[NLINE]
 ・All party members die[END-FE]
-
 
 
 
@@ -206,6 +211,7 @@ that happens. Let's proceed with caution.[END-FE]
 
 
 
+
 //POINTER #19 @ $79EC - STRING #19 @ $8173
 #W32($79EC)
 //・パーティーの全滅[END-FE]
@@ -235,7 +241,6 @@ to get to the top floor.[END-FE]
 //あの制服は…[END-FE]
 [CHAR4000][V0100]
 ...Ah, that uniform...[END-FE]
-
 
 
 
@@ -606,6 +611,7 @@ Please do your best.[END-FE]
 [CHAR3000][V0A00]
 Hmm?[NLINE]
 Ah! You're...![END-FE]
+
 
 
 
@@ -1197,6 +1203,7 @@ the Red Wolf Unit. That's why I'm[[NLINE]
 looking up various things that will[NLINE]
 help us complete our mission, even[NLINE]
 if just a little.[END-FE]
+
 
 
 
@@ -2305,6 +2312,7 @@ of in our processing facilities.[NLINE]
 Because Pollumine seeds are expensive,[NLINE]
 there are quite a few cities that are[NLINE]
 reluctant to introduce it.[END-FE]
+
 
 
 
@@ -4550,6 +4558,7 @@ Didn't it have any effect!?[END-FE]
 
 
 
+
 //POINTER #322 @ $7EA8 - STRING #322 @ $DAB4
 #W32($7EA8)
 //これは！[NLINE]
@@ -4595,6 +4604,7 @@ technique...No...[END-FE]
 There is no point in using regular[NLINE]
 attacks...[NLINE]
 I will now try to seal him![END-FE]
+
 
 
 

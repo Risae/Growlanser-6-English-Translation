@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $41A0 - STRING #0 @ $42F0
 #W32($41A0)
 //[END-FF]
@@ -563,7 +562,6 @@ it's all come to nothing![END-FE]
 
 
 
-
 //POINTER #45 @ $4254 - STRING #45 @ $4B49
 #W32($4254)
 //龍穴塔を破壊されたからと言って、[NLINE]
@@ -794,6 +792,8 @@ twisting it to suit my own fancy...[END-FE]
 #W32($4290)
 //・革命を止めたいのか？[END-FE]
 ・Do you want to give up on the revolution?[END-FE]
+
+
 
 
 

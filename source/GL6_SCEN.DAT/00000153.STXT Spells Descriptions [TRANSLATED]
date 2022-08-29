@@ -209,6 +209,7 @@ meteors down to earth.[NLINE]
 
 
 
+
 //POINTER #15 @ $DC - STRING #15 @ $799
 #W32($DC)
 //精神に働きかけ深い眠りへと誘う攻撃補助魔法。[NLINE]
@@ -247,6 +248,7 @@ target's WAIT gauge.[NLINE]
 
 
 
+
 //POINTER #18 @ $E8 - STRING #18 @ $8D1
 #W32($E8)
 //対象を移動不能にする攻撃補助魔法。[NLINE]
@@ -255,6 +257,7 @@ target's WAIT gauge.[NLINE]
 Support spell that binds[NLINE]
 movement.[NLINE]
 [COL09]Element:Earth/Target:Area[END-FF]
+
 
 
 
@@ -297,6 +300,7 @@ resistance to spells.[NLINE]
 
 
 
+
 //POINTER #22 @ $F8 - STRING #22 @ $A89
 #W32($F8)
 //攻撃力を一時的に増加させ、[NLINE]
@@ -331,6 +335,7 @@ barrier to decrease weapon damage.[NLINE]
 Support spell that decreases the[NLINE]
 damage done by enemy spells.[NLINE]
 [COL09]Target:Area[END-FF]
+
 
 
 
@@ -399,6 +404,7 @@ on the verge of death.[NLINE]
 
 
 
+
 //POINTER #30 @ $118 - STRING #30 @ $DDF
 #W32($118)
 //キュアの効果を広範囲に及ぼす回復魔法。[NLINE]
@@ -433,6 +439,7 @@ effective over a large area.[NLINE]
 Healing spell that increases the[NLINE]
 affected area of Remedy.[NLINE]
 [COL09]Target:Area[END-FF]
+
 
 
 
@@ -519,6 +526,7 @@ target to a different location.[NLINE]
 #W32($144)
 //古代船範囲攻撃[END-FF]
 古代船範囲攻撃[END-FF]
+
 
 
 

@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $57A0 - STRING #0 @ $5B60
 #W32($57A0)
 //[END-FF]
@@ -1034,7 +1033,6 @@ press the [CROSS] button.[END-FE]
 
 
 
-
 //POINTER #73 @ $58C4 - STRING #73 @ $6C35
 #W32($58C4)
 //医者\\
@@ -1427,7 +1425,6 @@ It seems you're finally awake![NWIN]
 I know this is sudden, but could you please[NLINE]
 tell me about the wound on your chest like[NLINE]
 you promised?[END-FE]
-
 
 
 
@@ -2185,6 +2182,7 @@ get caught in the explosion![END-FE]
 
 
 
+
 //POINTER #148 @ $59F0 - STRING #148 @ $7F44
 #W32($59F0)
 //テロリスト\\
@@ -2331,6 +2329,7 @@ will live on![END-FE]
 
 
 
+
 //POINTER #159 @ $5A1C - STRING #159 @ $8111
 #W32($5A1C)
 //ウェンディ\\
@@ -2471,6 +2470,7 @@ Hey, we've met befo-[NLINE]
 [CC.AC00][CHAR0300][V1800]
 (Better not say that. I can't[NLINE]
 even believe it myself...)[END-FE]
+
 
 
 
@@ -3419,6 +3419,7 @@ In the south lies the [COL01]Kingdom of Hingistan[COL00].[NLINE]
 Recently, a rebellion has been launched by[NLINE]
 those who wish to free the country from[NLINE]
 its despotic royal family.[END-FE]
+
 
 
 

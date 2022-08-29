@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $2A20 - STRING #0 @ $2B50
 #W32($2A20)
 //[END-FF]

@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $63A0 - STRING #0 @ $68E0
 #W32($63A0)
 //[END-FF]
@@ -777,7 +776,6 @@ He took a dangerous job, so he's probably...[END-FE]
 
 
 
-
 //POINTER #53 @ $6474 - STRING #53 @ $79E1
 #W32($6474)
 //知り合いがシザーズの漁師なんだけど、[NLINE]
@@ -861,6 +859,7 @@ for beginners![NWIN]
 In order to obtain [COL01]Skill Plates[COL00] that let[NLINE]
 you use [COL01]magic[COL00] and [COL01]Knacks[COL00], you[NLINE]
 must put on equipment![END-FE]
+
 
 
 
@@ -1169,7 +1168,6 @@ the time of equipping.[END-FE]
 
 
 
-
 //POINTER #87 @ $64FC - STRING #87 @ $818B
 #W32($64FC)
 //技能プレートは、[NLINE]
@@ -1411,7 +1409,6 @@ Plate Growth[END-FE]
 Accumulated Knack Points (Armor)[NLINE]
 because there is no Plate to allocate them[NLINE]
 to.[END-FE]
-
 
 
 
@@ -2122,8 +2119,6 @@ has ever been made of a way to destroy[NLINE]
 the Invader. That's why me and my predecessors[NLINE]
 have been told to continue sealing him[NLINE]
 inside the Dragon Orb.[END-FE]
-
-
 
 
 
@@ -3056,6 +3051,7 @@ happen.[END-FE]
 
 
 
+
 //POINTER #224 @ $6720 - STRING #224 @ $A834
 #W32($6720)
 //・理由を質問する[END-FE]
@@ -3203,6 +3199,7 @@ the other continent.[END-FE]
 //Yurii\\
 [CHAR5400][V0300]
 Hm?[END-FE]
+
 
 
 
@@ -3957,6 +3954,7 @@ about isn't going to change anything.[END-FE]
 
 
 
+
 //POINTER #287 @ $681C - STRING #287 @ $B957
 #W32($681C)
 //まあ、確かにそうなんだけど、[NLINE]
@@ -4054,6 +4052,7 @@ this inn free of charge.[END-FE]
 
 
 
+
 //POINTER #295 @ $683C - STRING #295 @ $BB41
 #W32($683C)
 //・ユリィを呼び出す[END-FE]
@@ -4109,6 +4108,7 @@ Makinus[END-FE]
 #W32($6850)
 //Ｄ　都市マキナス[END-FE]
 D Makinus[END-FE]
+
 
 
 
@@ -4214,6 +4214,7 @@ our guestbook.[END-FE]
 #W32($6870)
 //・Ｄセーブ[END-FE]
 ・D save[END-FE]
+
 
 
 

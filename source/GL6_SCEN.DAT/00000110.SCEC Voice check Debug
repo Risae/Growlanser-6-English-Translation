@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $1EA0 - STRING #0 @ $29F0
 #W32($1EA0)
 //[END-FF]
@@ -9401,6 +9400,7 @@ CHAR2403][V1500]
 //どちら様ですか？[END-FE]
 [CHAR2003][V0000]800_000
 Yes, who is it?[END-FE]
+
 
 
 

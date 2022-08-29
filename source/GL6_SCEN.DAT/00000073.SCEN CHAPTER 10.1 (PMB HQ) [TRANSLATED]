@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $5EA0 - STRING #0 @ $6240
 #W32($5EA0)
 //[END-FF]
@@ -1791,6 +1790,7 @@ division. Nice to meet you.[END-FE]
 [CHAR3B00][V0600]
 I'm [Haschen] from the PMB's Ops[NLINE]
 Division. Nice to meet you.[END-FE]
+
 
 
 

@@ -372,7 +372,6 @@ Thank you very much.[END-FE]
 
 
 
-
 //POINTER #31 @ $811C - STRING #31 @ $8D71
 #W32($811C)
 //では、私はこれで。[NLINE]
@@ -3053,6 +3052,7 @@ products have arrived this time![END-FE]
 
 
 
+
 //POINTER #222 @ $8418 - STRING #222 @ $C3D8
 #W32($8418)
 //むむっ？[NLINE]
@@ -4131,6 +4131,7 @@ here by boat and went off somewhere...[END-FE]
 
 
 
+
 //POINTER #296 @ $8540 - STRING #296 @ $DA10
 #W32($8540)
 //[CHAR4800][V1100]
@@ -4868,6 +4869,7 @@ dried fish![END-FE]
 [NLINE]
 This turn of events wasn't received[NLINE]
 favorably by the others...[END-FE]
+
 
 
 
@@ -6344,7 +6346,6 @@ impossible to mend ties between them and Hingistan.[END-FE]
 
 
 
-
 //POINTER #463 @ $87DC - STRING #463 @ $100B1
 #W32($87DC)
 //[CHAR4900][V2900]
@@ -6368,7 +6369,6 @@ in the process.[END-FE]
 [CHAR4900][V2A00]
 We have to choice but to stop[NLINE]
 the giant as quickly as we can.[END-FE]
-
 
 
 
@@ -6527,7 +6527,6 @@ home country![NWIN]
 
 [CHAR4900][V3600]
 Besides, we can always use more help, right?[END-FE]
-
 
 
 

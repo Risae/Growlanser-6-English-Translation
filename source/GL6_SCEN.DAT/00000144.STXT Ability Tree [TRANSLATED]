@@ -21,10 +21,16 @@
 F.Arr[END-FF]
 
 
+
+
+
 //POINTER #1 @ $A4 - STRING #1 @ $1F9
 #W32($A4)
 //アイス[END-FF]
 I.Bar[END-FF]
+
+
+
 
 
 //POINTER #2 @ $A8 - STRING #2 @ $202
@@ -33,10 +39,16 @@ I.Bar[END-FF]
 S.Sho[END-FF]
 
 
+
+
+
 //POINTER #3 @ $AC - STRING #3 @ $20B
 #W32($AC)
 //ウィン[END-FF]
 W.Edg[END-FF]
+
+
+
 
 
 //POINTER #4 @ $B0 - STRING #4 @ $214
@@ -45,10 +57,16 @@ W.Edg[END-FF]
 Blast[END-FF]
 
 
+
+
+
 //POINTER #5 @ $B4 - STRING #5 @ $21D
 #W32($B4)
 //ＭＰド[END-FF]
 M.Vor[END-FF]
+
+
+
 
 
 //POINTER #6 @ $B8 - STRING #6 @ $226
@@ -57,10 +75,16 @@ M.Vor[END-FF]
 T.Bolt[END-FF]
 
 
+
+
+
 //POINTER #7 @ $BC - STRING #7 @ $22F
 #W32($BC)
 //ブリザ[END-FF]
 Blizz[END-FF]
+
+
+
 
 
 //POINTER #8 @ $C0 - STRING #8 @ $238
@@ -69,10 +93,16 @@ Blizz[END-FF]
 Flare[END-FF]
 
 
+
+
+
 //POINTER #9 @ $C4 - STRING #9 @ $241
 #W32($C4)
 //ホーリ[END-FF]
 H.Cro[END-FF]
+
+
+
 
 
 //POINTER #10 @ $C8 - STRING #10 @ $24A
@@ -81,10 +111,16 @@ H.Cro[END-FF]
 T.Sto[END-FF]
 
 
+
+
+
 //POINTER #11 @ $CC - STRING #11 @ $253
 #W32($CC)
 //ソニッ[END-FF]
 S.Wav[END-FF]
+
+
+
 
 
 //POINTER #12 @ $D0 - STRING #12 @ $25C
@@ -93,10 +129,16 @@ S.Wav[END-FF]
 Earth[END-FF]
 
 
+
+
+
 //POINTER #13 @ $D4 - STRING #13 @ $265
 #W32($D4)
 //メテオ[END-FF]
 Meteor[END-FF]
+
+
+
 
 
 //POINTER #14 @ $D8 - STRING #14 @ $26E
@@ -105,10 +147,16 @@ Meteor[END-FF]
 Sleep[END-FF]
 
 
+
+
+
 //POINTER #15 @ $DC - STRING #15 @ $277
 #W32($DC)
 //サイレ[END-FF]
 Silen[END-FF]
+
+
+
 
 
 //POINTER #16 @ $E0 - STRING #16 @ $280
@@ -117,10 +165,16 @@ Silen[END-FF]
 C.Dow[END-FF]
 
 
+
+
+
 //POINTER #17 @ $E4 - STRING #17 @ $289
 #W32($E4)
 //バイン[END-FF]
 Bind[END-FF]
+
+
+
 
 
 //POINTER #18 @ $E8 - STRING #18 @ $292
@@ -129,10 +183,16 @@ Bind[END-FF]
 Rust[END-FF]
 
 
+
+
+
 //POINTER #19 @ $EC - STRING #19 @ $29B
 #W32($EC)
 //ウィー[END-FF]
 Atrop[END-FF]
+
+
+
 
 
 //POINTER #20 @ $F0 - STRING #20 @ $2A4
@@ -141,10 +201,16 @@ Atrop[END-FF]
 Fear[END-FF]
 
 
+
+
+
 //POINTER #21 @ $F4 - STRING #21 @ $2AD
 #W32($F4)
 //アタッ[END-FF]
 Attac[END-FF]
+
+
+
 
 
 //POINTER #22 @ $F8 - STRING #22 @ $2B6
@@ -153,10 +219,16 @@ Attac[END-FF]
 Prot[END-FF]
 
 
+
+
+
 //POINTER #23 @ $FC - STRING #23 @ $2BF
 #W32($FC)
 //レジス[END-FF]
 Resist[END-FF]
+
+
+
 
 
 //POINTER #24 @ $100 - STRING #24 @ $2C8
@@ -165,10 +237,16 @@ Resist[END-FF]
 C.Up[END-FF]
 
 
+
+
+
 //POINTER #25 @ $104 - STRING #25 @ $2D1
 #W32($104)
 //リター[END-FF]
 Escape[END-FF]
+
+
+
 
 
 //POINTER #26 @ $108 - STRING #26 @ $2DA
@@ -177,10 +255,16 @@ Escape[END-FF]
 Remed[END-FF]
 
 
+
+
+
 //POINTER #27 @ $10C - STRING #27 @ $2E3
 #W32($10C)
 //レイズ[END-FF]
 Raise[END-FF]
+
+
+
 
 
 //POINTER #28 @ $110 - STRING #28 @ $2EC
@@ -189,10 +273,16 @@ Raise[END-FF]
 Cure[END-FF]
 
 
+
+
+
 //POINTER #29 @ $114 - STRING #29 @ $2F5
 #W32($114)
 //ヒーリ[END-FF]
 Heal[END-FF]
+
+
+
 
 
 //POINTER #30 @ $118 - STRING #30 @ $2FE
@@ -201,10 +291,16 @@ Heal[END-FF]
 G.Rem[END-FF]
 
 
+
+
+
 //POINTER #31 @ $11C - STRING #31 @ $307
 #W32($11C)
 //Ｇキュ[END-FF]
 G.Cur[END-FF]
+
+
+
 
 
 //POINTER #32 @ $120 - STRING #32 @ $310
@@ -213,10 +309,16 @@ G.Cur[END-FF]
 G.Heal[END-FF]
 
 
+
+
+
 //POINTER #33 @ $124 - STRING #33 @ $319
 #W32($124)
 //強打撃[END-FF]
 F.Str[END-FF]
+
+
+
 
 
 //POINTER #34 @ $128 - STRING #34 @ $322
@@ -225,10 +327,16 @@ F.Str[END-FF]
 P.Atk[END-FF]
 
 
+
+
+
 //POINTER #35 @ $12C - STRING #35 @ $32B
 #W32($12C)
 //全周囲[END-FF]
 C.Str[END-FF]
+
+
+
 
 
 //POINTER #36 @ $130 - STRING #36 @ $334
@@ -237,10 +345,16 @@ C.Str[END-FF]
 M.Str[END-FF]
 
 
+
+
+
 //POINTER #37 @ $134 - STRING #37 @ $33D
 #W32($134)
 //強奪[END-FF]
 Thiev[END-FF]
+
+
+
 
 
 //POINTER #38 @ $138 - STRING #38 @ $344
@@ -249,10 +363,16 @@ Thiev[END-FF]
 S.Sma[END-FF]
 
 
+
+
+
 //POINTER #39 @ $13C - STRING #39 @ $34D
 #W32($13C)
 //足留め[END-FF]
 Impede[END-FF]
+
+
+
 
 
 //POINTER #40 @ $140 - STRING #40 @ $356
@@ -261,10 +381,16 @@ Impede[END-FF]
 S.Dis[END-FF]
 
 
+
+
+
 //POINTER #41 @ $144 - STRING #41 @ $35F
 #W32($144)
 //即死攻[END-FF]
 Fatal[END-FF]
+
+
+
 
 
 //POINTER #42 @ $148 - STRING #42 @ $368
@@ -273,10 +399,16 @@ Fatal[END-FF]
 D.Cur[END-FF]
 
 
+
+
+
 //POINTER #43 @ $14C - STRING #43 @ $371
 #W32($14C)
 //時限爆[END-FF]
 T.Bom[END-FF]
+
+
+
 
 
 //POINTER #44 @ $150 - STRING #44 @ $37A
@@ -285,10 +417,16 @@ T.Bom[END-FF]
 Infern[END-FF]
 
 
+
+
+
 //POINTER #45 @ $154 - STRING #45 @ $383
 #W32($154)
 //見切る[END-FF]
 6.Sen[END-FF]
+
+
+
 
 
 //POINTER #46 @ $158 - STRING #46 @ $38C
@@ -297,10 +435,16 @@ Infern[END-FF]
 Count[END-FF]
 
 
+
+
+
 //POINTER #47 @ $15C - STRING #47 @ $395
 #W32($15C)
 //バーサ[END-FF]
 Bers[END-FF]
+
+
+
 
 
 //POINTER #48 @ $160 - STRING #48 @ $39E
@@ -309,10 +453,16 @@ Bers[END-FF]
 Focus[END-FF]
 
 
+
+
+
 //POINTER #49 @ $164 - STRING #49 @ $3A7
 #W32($164)
 //魔法強[END-FF]
 M.Up[END-FF]
+
+
+
 
 
 //POINTER #50 @ $168 - STRING #50 @ $3B0
@@ -321,10 +471,16 @@ M.Up[END-FF]
 M.D.Up[END-FF]
 
 
+
+
+
 //POINTER #51 @ $16C - STRING #51 @ $3B9
 #W32($16C)
 //マイン[END-FF]
 M.Arm[END-FF]
+
+
+
 
 
 //POINTER #52 @ $170 - STRING #52 @ $3C2
@@ -333,10 +489,16 @@ M.Arm[END-FF]
 Decoy[END-FF]
 
 
+
+
+
 //POINTER #53 @ $174 - STRING #53 @ $3CB
 #W32($174)
 //しのび[END-FF]
 Stealt[END-FF]
+
+
+
 
 
 //POINTER #54 @ $178 - STRING #54 @ $3D4
@@ -345,10 +507,16 @@ Stealt[END-FF]
 Analyz[END-FF]
 
 
+
+
+
 //POINTER #55 @ $17C - STRING #55 @ $3DD
 #W32($17C)
 //ＨＰア[END-FF]
 HP Up[END-FF]
+
+
+
 
 
 //POINTER #56 @ $180 - STRING #56 @ $3E6
@@ -357,10 +525,16 @@ HP Up[END-FF]
 MP Up[END-FF]
 
 
+
+
+
 //POINTER #57 @ $184 - STRING #57 @ $3EF
 #W32($184)
 //ＭＶア[END-FF]
 MOV Up[END-FF]
+
+
+
 
 
 //POINTER #58 @ $188 - STRING #58 @ $3F8
@@ -369,10 +543,16 @@ MOV Up[END-FF]
 HR.Up[END-FF]
 
 
+
+
+
 //POINTER #59 @ $18C - STRING #59 @ $401
 #W32($18C)
 //攻撃硬[END-FF]
 Q.Att[END-FF]
+
+
+
 
 
 //POINTER #60 @ $190 - STRING #60 @ $40A
@@ -381,10 +561,16 @@ Q.Att[END-FF]
 Q.Cast[END-FF]
 
 
+
+
+
 //POINTER #61 @ $194 - STRING #61 @ $413
 #W32($194)
 //道具硬[END-FF]
 Q.Use[END-FF]
+
+
+
 
 
 //POINTER #62 @ $198 - STRING #62 @ $41C
@@ -393,10 +579,16 @@ Q.Use[END-FF]
 MP.C.D[END-FF]
 
 
+
+
+
 //POINTER #63 @ $19C - STRING #63 @ $425
 #W32($19C)
 //魔法射[END-FF]
 MR.Up[END-FF]
+
+
+
 
 
 //POINTER #64 @ $1A0 - STRING #64 @ $42E
@@ -405,10 +597,16 @@ MR.Up[END-FF]
 AR.Up[END-FF]
 
 
+
+
+
 //POINTER #65 @ $1A4 - STRING #65 @ $437
 #W32($1A4)
 //肉体防[END-FF]
 PD.Up[END-FF]
+
+
+
 
 
 //POINTER #66 @ $1A8 - STRING #66 @ $440
@@ -417,10 +615,16 @@ PD.Up[END-FF]
 MD.Up[END-FF]
 
 
+
+
+
 //POINTER #67 @ $1AC - STRING #67 @ $449
 #W32($1AC)
 //防御技[END-FF]
 GS.Up[END-FF]
+
+
+
 
 
 //POINTER #68 @ $1B0 - STRING #68 @ $452
@@ -429,10 +633,16 @@ GS.Up[END-FF]
 CR.Up[END-FF]
 
 
+
+
+
 //POINTER #69 @ $1B4 - STRING #69 @ $45B
 #W32($1B4)
 //ＨＰ吸[END-FF]
 HP Dr[END-FF]
+
+
+
 
 
 //POINTER #70 @ $1B8 - STRING #70 @ $464
@@ -441,15 +651,25 @@ HP Dr[END-FF]
 MP Dr[END-FF]
 
 
+
+
+
 //POINTER #71 @ $1BC - STRING #71 @ $46D
 #W32($1BC)
 //精霊の[END-FF]
 S.Aid[END-FF]
 
+
+
+
+
 //POINTER #72 @ $1C0 - STRING #72 @ $476
 #W32($1C0)
 //影霞み[END-FF]
 S.Dod[END-FF]
+
+
+
 
 
 //POINTER #73 @ $1C4 - STRING #73 @ $47F
@@ -458,10 +678,16 @@ S.Dod[END-FF]
 Conc[END-FF]
 
 
+
+
+
 //POINTER #74 @ $1C8 - STRING #74 @ $488
 #W32($1C8)
 //状態異[END-FF]
 A.Guar[END-FF]
+
+
+
 
 
 //POINTER #75 @ $1CC - STRING #75 @ $491
@@ -470,10 +696,16 @@ A.Guar[END-FF]
 HP Reg[END-FF]
 
 
+
+
+
 //POINTER #76 @ $1D0 - STRING #76 @ $49A
 #W32($1D0)
 //ＭＰ回[END-FF]
 MP Reg[END-FF]
+
+
+
 
 
 //POINTER #77 @ $1D4 - STRING #77 @ $4A3
@@ -482,10 +714,16 @@ MP Reg[END-FF]
 Rec.Up[END-FF]
 
 
+
+
+
 //POINTER #78 @ $1D8 - STRING #78 @ $4AC
 #W32($1D8)
 //特技消[END-FF]
 F.Knac[END-FF]
+
+
+
 
 
 //POINTER #79 @ $1DC - STRING #79 @ $4B5
@@ -494,7 +732,14 @@ F.Knac[END-FF]
 T.Aura[END-FF]
 
 
+
+
+
 //POINTER #80 @ $1E0 - STRING #80 @ $4BE
 #W32($1E0)
 //Ｄ硬減[END-FF]
 S.Dwn[END-FF]
+
+
+
+

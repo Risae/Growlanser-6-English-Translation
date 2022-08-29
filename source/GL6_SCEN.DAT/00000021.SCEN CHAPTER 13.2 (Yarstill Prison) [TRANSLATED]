@@ -259,6 +259,7 @@ object falling on the floor![END-FE]
 
 
 
+
 //POINTER #23 @ $64FC - STRING #23 @ $6AA3
 #W32($64FC)
 //そっちは外よ！[NLINE]
@@ -2332,7 +2333,6 @@ done for me![END-FE]
 //すまない！[NLINE]
 //助かった！[END-FE]
 Thanks for getting me out![END-FE]
-
 
 
 

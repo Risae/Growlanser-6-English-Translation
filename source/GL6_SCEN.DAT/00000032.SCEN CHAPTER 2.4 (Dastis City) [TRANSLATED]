@@ -636,6 +636,7 @@ look on your face?[END-FE]
 
 
 
+
 //POINTER #50 @ $7768 - STRING #50 @ $8AB2
 #W32($7768)
 //…別に。[NWIN]
@@ -659,7 +660,6 @@ look on your face?[END-FE]
 //みなさんと一緒の方が…。[END-FE]
 We should gather up everyone before[NLINE]
 we leave...[END-FE]
-
 
 
 
@@ -2125,6 +2125,7 @@ also Gemstones. These cannot be equipped.[END-FE]
 Gemstones are not useful under normal[NLINE]
 circumstances. However, you can create new[NLINE]
 Enchanted Gems by synthesizing Gem Stones.[END-FE]
+
 
 
 
@@ -3638,7 +3639,6 @@ on each shelf.[END-FE]
 
 
 
-
 //POINTER #296 @ $7B40 - STRING #296 @ $BE92
 #W32($7B40)
 //・上段　　（１５１～２００）[END-FE]
@@ -4603,7 +4603,6 @@ on each shelf.[END-FE]
 The Essentials of Mathematics[NLINE]
 1-10[NLINE]
 [END-FE]
-
 
 
 
@@ -6423,6 +6422,7 @@ How may I help you?[END-FE]
 
 
 
+
 //POINTER #537 @ $7F04 - STRING #537 @ $E66B
 #W32($7F04)
 //・ユリィを呼び出す[END-FE]
@@ -6649,7 +6649,6 @@ So you don't want to talk with me.[END-FE]
 [CHAR2003][V0E00]
 ...Ouch, talk about hitting where it[NLINE]
 hurts...[END-FE]
-
 
 
 
@@ -7203,6 +7202,7 @@ some other time![END-FE]
 
 
 
+
 //POINTER #604 @ $8010 - STRING #604 @ $F383
 #W32($8010)
 //…まさか、イリスさんが…[NLINE]
@@ -7279,7 +7279,6 @@ to live.[NWIN]
 
 It's all because she carries the[NLINE]
 burden of saving the planet, isn't it?[END-FE]
-
 
 
 
@@ -7939,6 +7938,7 @@ enemies here first.[END-FE]
 
 
 
+
 //POINTER #653 @ $80D4 - STRING #653 @ $10197
 #W32($80D4)
 //は、話を聞いて！[END-FE]
@@ -8023,6 +8023,7 @@ way out of this![END-FE]
 //くそっ！[END-FE]
 [CHAR0800][V0800]
 Damn![END-FE]
+
 
 
 

@@ -21,10 +21,16 @@
 Guard Physical[END-FF]
 
 
+
+
+
 //POINTER #1 @ $A4 - STRING #1 @ $EF
 #W32($A4)
 //魔法攻撃防御[END-FF]
 Guard Magic[END-FF]
+
+
+
 
 
 //POINTER #2 @ $A8 - STRING #2 @ $FE
@@ -33,10 +39,16 @@ Guard Magic[END-FF]
 Revenge[END-FF]
 
 
+
+
+
 //POINTER #3 @ $AC - STRING #3 @ $107
 #W32($AC)
 //独り言[END-FF]
 Gabbing[END-FF]
+
+
+
 
 
 //POINTER #4 @ $B0 - STRING #4 @ $110
@@ -44,10 +56,17 @@ Gabbing[END-FF]
 //イベントメモ[END-FF]
 Event Diary[END-FF]
 
+
+
+
+
 //POINTER #5 @ $B4 - STRING #5 @ $11F
 #W32($B4)
 //友好度判定[END-FF]
 Friend Rating[END-FF]
+
+
+
 
 
 //POINTER #6 @ $B8 - STRING #6 @ $12C
@@ -56,10 +75,16 @@ Friend Rating[END-FF]
 Psyche Eval[END-FF]
 
 
+
+
+
 //POINTER #7 @ $BC - STRING #7 @ $137
 #W32($BC)
 //宝サーチ[END-FF]
 Treasure Scout[END-FF]
+
+
+
 
 
 //POINTER #8 @ $C0 - STRING #8 @ $142
@@ -68,10 +93,16 @@ Treasure Scout[END-FF]
 Bargaining[END-FF]
 
 
+
+
+
 //POINTER #9 @ $C4 - STRING #9 @ $14F
 #W32($C4)
 //×[END-FF]
 ×[END-FF]
+
+
+
 
 
 //POINTER #10 @ $C8 - STRING #10 @ $154
@@ -80,10 +111,16 @@ Bargaining[END-FF]
 ×[END-FF]
 
 
+
+
+
 //POINTER #11 @ $CC - STRING #11 @ $159
 #W32($CC)
 //×[END-FF]
 ×[END-FF]
+
+
+
 
 
 //POINTER #12 @ $D0 - STRING #12 @ $15E

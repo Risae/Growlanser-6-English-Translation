@@ -15,7 +15,6 @@
 
 
 
-
 //POINTER #0 @ $3AA0 - STRING #0 @ $3C60
 #W32($3AA0)
 //[END-FF]
@@ -983,6 +982,7 @@ Then I shall fill your bottle.[END-FE]
 
 
 
+
 //POINTER #81 @ $3BE4 - STRING #81 @ $4F11
 #W32($3BE4)
 //お客さん、[NLINE]
@@ -1172,7 +1172,6 @@ Even though all of this happened[NLINE]
 twenty years ago, the resentment we[NLINE]
 feel towards the PMB is still[NLINE]
 considerable.[END-FE]
-
 
 
 
