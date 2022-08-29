@@ -629,9 +629,10 @@ to headquarters.[END-FE]
 //備えあれば、うれいなし！[NLINE]
 //安全のために、そこのお店で回復薬を[NLINE]
 //買っておくといいですよ。[END-FE]
-Well prepared means no worries in time of need.[NLINE]
-For your own safety, it would be a good idea[NLINE]
-to buy some Vulneraries at the shop over there.[END-FE]
+Well prepared means no worries in time of[NLINE]
+need. For your own safety, it would be[NLINE]
+a good idea to buy some Vulneraries at[NLINE]
+the shop over there.[END-FE]
 
 
 
@@ -661,8 +662,8 @@ has attained full control over the company.[END-FE]
 //安心だねぇ！[END-FE]
 You're a security officer too, right mister?[NLINE]
 Because this city is guarded by the people[NLINE]
-from the Guard Corps, we've been[NLINE]
-super safe![END-FE]
+from the Guard Corps, we've been super[NLINE]
+safe![END-FE]
 
 
 
@@ -673,12 +674,12 @@ super safe![END-FE]
 //でも、テロリストは財閥の施設を[NLINE]
 //ねらってるって話じゃない？[NLINE]
 //だったら、この街が一番危ないんじゃないの？[END-FE]
-But isn't it true that the terroists are targeting[NLINE]
-Monopolis facilities? Doesn't that mean[NLINE]
-that living here is actually the most[NLINE]
-dangerous?[END-FE]
+But isn't it true that the terroists are[NLINE]
+targeting Monopolis facilities? Doesn't[NLINE]
+that mean that living here is actually[NLINE]
+the most dangerous?[END-FE]
 
- 
+
 
 
 
@@ -703,7 +704,7 @@ I heard that the Red Wolf Unit[NLINE]
 took out a terrorist base.[NLINE]
 Many terrorists have been taken[NLINE]
 to Yarstill Prison.[END-FE]
- 
+
 
 
 
@@ -724,23 +725,23 @@ to Yarstill Prison.[END-FE]
 //彼が特務一課の責任者になった後、[NLINE]
 //そのエリート部隊は【赤狼隊】って呼ばれる様に[NLINE]
 //なったってわけさ！[END-FE]
-Do you know why the 1st Division[NLINE]
-of the Special Guard Corps is[NLINE]
-called the "Red Wolf Unit"?[NWIN]
+Do you know why the 1st Division of[NLINE]
+the Special Guard Corps is called[NLINE]
+the "Red Wolf Unit"?[NWIN]
 
 Shuweizer likes to wear red, right?[NLINE]
-So, because of his prowess in battle, the terrorists,[NLINE]
-starting refering to him as a Red Wolf out[NLINE]
-of fear.[NWIN]
+So, because of his prowess in battle, the[NLINE]
+terrorists, starting refering to him as[NLINE]
+a Red Wolf out of fear.[NWIN]
 
 Before long, he became known to them as[NLINE]
 Shuweizer the Red Wolf.[NWIN]
 
-After he became the head of the[NLINE]
-1st Division, it became known[NLINE]
-as the Red Wolf Unit![END-FE]
+After he became the head of the 1st[NLINE]
+Division, it became known as the[NLINE]
+Red Wolf Unit![END-FE]
 
-  
+
 
 
 
@@ -768,11 +769,11 @@ I heard he was extremely strong and that[NLINE]
 he used a rare spear form from Hingistan[NLINE]
 called [COL01]Mirage[COL00].[NWIN]
 
-However, no one has seen him for[NLINE]
-about five years...[NLINE]
+However, no one has seen him for about[NLINE]
+five years...[NLINE]
 He took a dangerous job, so he's probably...[END-FE]
 
- 
+
 
 
 
@@ -790,7 +791,7 @@ built on the coast that lies north of there.[NWIN]
 
 Could it be a new invention by Monopolis?[END-FE]
 
-  
+
 
 
 
@@ -803,8 +804,8 @@ I just moved to this city.[NLINE]
 The atmosphere is completely different[NLINE]
 from northern Jewarl, so I worry about[NLINE]
 whether I can get along well here or not...[END-FE]
- 
- 
+
+
 
 
 
@@ -825,12 +826,11 @@ It's easier to live in than I thought.[END-FE]
 //世界に提供することで、[NLINE]
 //暮らしに貢献するとともに、[NLINE]
 //利益を上げているんだ。[END-FE]
-By providing the world with[NLINE]
-[COL01]Pollumine[COL00], Monoplis[NLINE]
-can not only contribute to a better life,[NLINE]
-but also make a profit.[END-FE]
+By providing the world with [COL01]Pollumine[COL00],[NLINE]
+Monoplis can not only contribute to[NLINE]
+a better life, but also make a profit.[END-FE]
 
-  
+
 
 
 
@@ -1674,7 +1674,7 @@ Alright! I'm gonna sell lots of Pollumine in[NLINE]
 order to help the world![NLINE]
 ...And my career while I'm at it![END-FE]
 
-  
+
 
 
 
@@ -1904,7 +1904,7 @@ There's no other building the whole world,[NLINE]
 that's bigger than this, is there?[END-FE]
 
 
- 
+
 
 
 //POINTER #144 @ $65E0 - STRING #144 @ $916D
@@ -1957,7 +1957,7 @@ In that case, I'll wait here.[END-FE]
 I would also stand out, so[NLINE]
 I'll stay here with Rukias.[END-FE]
 
- 
+
 
 
 
@@ -2145,7 +2145,7 @@ But if the Invader's soul is[NLINE]
 sealed, that means Brandole will[NLINE]
 return to being a normal human, right?[END-FE]
 
- 
+
 
 
 
@@ -2184,7 +2184,7 @@ Whether we kill him or seal him,[NLINE]
 both methods will result in a dead body.[END-FE]
 
 
- 
+
 
 
 //POINTER #162 @ $6628 - STRING #162 @ $9705
@@ -2383,7 +2383,7 @@ His goal is to steal it...[NWIN]
 ...and then take it away with him.[NLINE]
 That is why we must stop him at all costs...[END-FE]
 
- 
+
 
 
 
@@ -2409,7 +2409,7 @@ Our ancestors who knew of this risked their[NLINE]
 lives in battle and sealed the Invader at the cost[NLINE]
 of placing an entire continent behind a barrier.[END-FE]
 
-  
+
 
 
 
@@ -2445,7 +2445,7 @@ Something just occured to me. We[NLINE]
 can't reach Brandole with just our[NLINE]
 identifications, right?[END-FE]
 
- 
+
 
 
 
@@ -2474,7 +2474,6 @@ a machine. But if we want to go to[NLINE]
 the highest where Brandole is, we're[NLINE]
 also going to need a keycard.[END-FE]
 
-  
 
 
 
@@ -2546,7 +2545,7 @@ More than ten?[END-FE]
 Getting a card key seems[NLINE]
 faster than doing that.[END-FE]
 
- 
+
 
 
 
@@ -2599,7 +2598,7 @@ have keycards.[NWIN]
 The only other employees who have[NLINE]
 them are members of Brandole's personal guard.[END-FE]
 
- 
+
 
 
 
@@ -2661,7 +2660,7 @@ We've been trying really hard[NLINE]
 to not get caught. You want[NLINE]
 to let that all go to waste?[END-FE]
 
- 
+
 
 
 
@@ -2750,7 +2749,7 @@ is now broken![NWIN]
 For that a reason, a special team has been sent[NLINE]
 over there to help Monopolis break into the market.[END-FE]
 
- 
+
 
 
 
@@ -2814,7 +2813,7 @@ I wonder what the elite team that[NLINE]
 went to Goatland is doing now...?[END-FE]
 
 
- 
+
 
 
 //POINTER #207 @ $66DC - STRING #207 @ $A395
@@ -3118,7 +3117,7 @@ will ensure that our company will be able[NLINE]
 to sell its [COL01]weapons[COL00], of course![END-FE]
 
 
- 
+
 
 
 //POINTER #228 @ $6730 - STRING #228 @ $A9A4
@@ -4317,7 +4316,6 @@ Best not dwindle here. You should[NLINE]
 hurry up and get going.[END-FE]
 
 
-  
 
 
 
@@ -4398,7 +4396,7 @@ rooms are autolocked? Please follow[NLINE]
 the unlock procedure at the reception[NLINE]
 desk.[END-FE]
 
- 
+
 
 
 
