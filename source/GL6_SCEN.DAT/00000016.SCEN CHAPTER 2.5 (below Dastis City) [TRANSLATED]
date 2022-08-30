@@ -653,8 +653,8 @@ draws your eye.[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -692,8 +692,8 @@ Did you find something?[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -704,8 +704,8 @@ There is nothing in particular that draws your eye.[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -716,8 +716,8 @@ There is nothing in particular that draws your eye.[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -727,8 +727,9 @@ There is nothing in particular that draws your eye.[END-FE]
 #W32($4C70)
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+//System Message\\
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -739,8 +740,8 @@ There is nothing in particular that draws your eye.[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -751,8 +752,8 @@ There is nothing in particular that draws your eye.[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -763,8 +764,8 @@ There is nothing in particular that draws your eye.[END-FE]
 //　[NLINE]
 //目を引く物は特にない。[END-FE]
 //System Message\\
-[NLINE]
-There is nothing in particular that draws your eye.[END-FE]
+There is nothing in particular that[NLINE]
+draws your eye.[END-FE]
 
 
 
@@ -876,8 +877,8 @@ instructions here.[END-FE]
 Well, well...[NWIN]
 
 [CHAR0800][V1D00]
-Care to explain how you ended up[NLINE]
-in this situation?[END-FE]
+Care to explain how you ended[NLINE]
+up in this situation?[END-FE]
 
 
 
