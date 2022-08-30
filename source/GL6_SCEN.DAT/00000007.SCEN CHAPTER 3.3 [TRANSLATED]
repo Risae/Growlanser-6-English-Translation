@@ -358,8 +358,8 @@ unneccesary misunderstandings.[NWIN]
 
 [CHAR0B00][V1300]
 This mission is of utmost[NLINE]
-importance. I'm counting[NLINE]
-on you.[END-FE]
+importance. I'm counting on[NLINE]
+you.[END-FE]
 
 
 
@@ -1713,8 +1713,8 @@ We'll definitely protect this giant![NLINE]
 //どの辺りから出てくるのかしら？[END-FE]
 //Wendy\\
 [CHAR0C00][V0000]
-It looks like the fake soldiers[NLINE]
-are not here yet. They should be coming[NLINE]
+It looks like the fake soldiers are[NLINE]
+not here yet. They should be coming[NLINE]
 from the west, but I wonder from[NLINE]
 where exactly?[END-FE]
 
@@ -1819,7 +1819,8 @@ Aah, we're too late...[END-FE]
 //POINTER #126 @ $BB18 - STRING #126 @ $DE0C
 #W32($BB18)
 //作戦の注意事項を確認しますか？[END-FE]
-Would you like to go over the strategy again?[END-FE]
+Would you like to go over the strategy[NLINE]
+again?[END-FE]
 
 
 
@@ -1857,20 +1858,19 @@ Would you like to go over the strategy again?[END-FE]
 //System Message\\
 [COL03][[COL01]Strategy[COL03]][COL00][NLINE]
 The terrorists have disguised themselves as[NLINE]
-soldiers from Hingistan and Fomeros. Deal with[NLINE]
-them before they engage the[NLINE]
-real soldiers.[NLINE]
+soldiers from Hingistan and Fomeros. Deal[NLINE]
+with them before they engage the real[NLINE]
+soldiers.[NLINE]
 [COL03][[COL01]Main Points[COL03]][COL00][NLINE]
-・Don't let the real soldiers come[NLINE]
- in contact with the imposters[NLINE]
-・All the impostors must be[NLINE]
- annihilated[NLINE]
+・Don't let the real soldiers come in[NLINE]
+  contact with the imposters[NLINE]
+・All the impostors must be annihilated[NLINE]
 ・Don't ley yourself be discovered by the[NLINE]
- real solders[NLINE]
- (they are indicated in on the radar[NLINE]
- as [COL04]green[COL00] dots)[NLINE]
+  real solders[NLINE]
+ (they are indicated in on the radar as[NLINE]
+  [COL04]green[COL00] dots)[NLINE]
 ・After the operation is complete, return[NLINE]
- quickly to Schizarz village.[END-FE]
+  quickly to Schizarz village.[END-FE]
 
 
 
@@ -1906,10 +1906,10 @@ Alright, let's go![END-FE]
 //・パーティーが正規兵に発見される[NLINE]
 //　（レーダー上の[COL04]緑点[COL00]が正規兵）[END-FE]
 ・All party members die[NLINE]
-・The Fomerion soldiers are attacked by the imposters[NLINE]
-・The Hingistani soldiers are attacked by the imposters[NLINE]
-・The party is discovered by the real soldiers[NLINE]
- (represented by [COL04]green[COL00] dots on the radar)[END-FE]
+・Fomerion soldiers attacked by imposters[NLINE]
+・Hingistani soldiers attacked by imposters[NLINE]
+・Discovered by the real soldiers[NLINE]
+  ([COL04]green[COL00] dots on the radar)[END-FE]
 
 
 
@@ -1931,7 +1931,8 @@ Tch, we have choice but to slip past them.[END-FE]
 //ヒンギスタンに偽装した仲間が妨害されてる！[NLINE]
 //こちらはこちらで任務を果たすべきだな。[END-FE]
 The other group has taken casualties![NLINE]
-However, we have to focus on our own objective![END-FE]
+However, we have to focus on our own[NLINE]
+objective![END-FE]
 
 
 
@@ -1962,8 +1963,8 @@ Hingistani army will be arrested![END-FE]
 //テロリストだってことはお見通しよ！[END-FE]
 //Wendy\\
 [CHAR0C00][V0A00]
-We can see right through your ruse! We[NLINE]
-know you're terrorists![END-FE]
+We can see right through your ruse![NLINE]
+We know you're terrorists![END-FE]
 
 
 
@@ -2050,9 +2051,9 @@ Then die![END-FE]
 //チィ、何処の連中か知らんが、[NLINE]
 //邪魔だてするなら容赦せん！[END-FE]
 //Fake Fomeros Soldier\\
-Tch, I don't know where you are[NLINE]
-from, but we won't allow you to[NLINE]
-get in our way![END-FE]
+Tch, I don't know where you[NLINE]
+are from, but we won't allow[NLINE]
+you to get in our way![END-FE]
 
 
 
@@ -2233,8 +2234,8 @@ Damn! Are these Monopolis soldiers!?[NWIN]
 
 [CHAR0C00][V1000]
 They're nothing more than vultures who[NLINE]
-profit from war by selling[NLINE]
-weapons to every country![NWIN]
+profit from war by selling weapons[NLINE]
+to every country![NWIN]
 
 [CHAR0C00][V1100]
 They just want to prolong the war so[NLINE]
@@ -2263,8 +2264,8 @@ Damn! Are these Monopolis soldiers!?[NWIN]
 
 [CHAR0C00][V1000]
 They're nothing more than vultures who[NLINE]
-profit from war by selling[NLINE]
-weapons to every country![NWIN]
+profit from war by selling weapons[NLINE]
+to every country![NWIN]
 
 [CHAR0C00][V1100]
 They just want to prolong the war so[NLINE]
@@ -2350,8 +2351,8 @@ here, we'll be discovered![END-FE]
 //POINTER #162 @ $BBA8 - STRING #162 @ $E7C4
 #W32($BBA8)
 //・[MainCharName]がマップ東端から脱出[END-FE]
-・[MainCharName] escapes from the eastern end[NLINE]
-   of the map[END-FE]
+・[MainCharName] escapes from the eastern[NLINE]
+   end of the map[END-FE]
 
 
 
@@ -2363,8 +2364,8 @@ here, we'll be discovered![END-FE]
 //・パーティーが正規兵に発見される[NLINE]
 //　（レーダー上の[COL04]緑点[COL00]が正規兵）[END-FE]
 ・All party members die[NLINE]
-・The party is discovered by the real soldiers[NLINE]
- (represented as [COL04]green[COL00] dots on the radar)[END-FE]
+・Discovered by the real soldiers[NLINE]
+  ([COL04]green[COL00] dots on the radar)[END-FE]
 
 
 
