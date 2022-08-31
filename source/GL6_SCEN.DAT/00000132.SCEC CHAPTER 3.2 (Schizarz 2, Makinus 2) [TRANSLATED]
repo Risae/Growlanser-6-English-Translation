@@ -61,8 +61,8 @@ Yes, who is it?[END-FE]
 //その節はお世話になりました。[END-FE]
 [CHAR2003][V0100]
 Long time no see.[NLINE]
-Thank you very much for taking care[NLINE]
-of me back then.[END-FE]
+Thank you very much for taking[NLINE]
+care of me back then.[END-FE]
 
 
 
@@ -114,7 +114,8 @@ Wendy handed over a money pouch![END-FE]
 //こんなにして頂いて…。[END-FE]
 [CHAR2003][V0500]
 Oh, I'm forever in your debt.[NLINE]
-Thank you so much for your kindness.[END-FE]
+Thank you so much for your[NLINE]
+kindness.[END-FE]
 
 
 
@@ -163,7 +164,7 @@ Well, shall we go?[END-FE]
 //POINTER #12 @ $1350 - STRING #12 @ $17DA
 #W32($1350)
 //・今のやりとりに興味がある[END-FE]
-・Express interest in what she did just now[END-FE]
+・Express interest in what she did[END-FE]
 
 
 
@@ -181,7 +182,7 @@ Well, shall we go?[END-FE]
 //POINTER #14 @ $1358 - STRING #14 @ $1804
 #W32($1358)
 //・お金を渡すほどのことか質問する[END-FE]
-・Question her about the amount of money she gave[END-FE]
+・Question her about the money[END-FE]
 
 
 
