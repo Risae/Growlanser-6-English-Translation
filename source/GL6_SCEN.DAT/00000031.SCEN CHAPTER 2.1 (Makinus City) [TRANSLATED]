@@ -1750,8 +1750,7 @@ mission.[NWIN]
 
 [CHAR0D00][V0100]
 Reporting to the higher-ups is my job.[NLINE]
-I'll give you until tomorrow to[NLINE]
-rest.[END-FE]
+I'll give you until tomorrow to rest.[END-FE]
 
 
 
@@ -1786,8 +1785,8 @@ Alright, dismissed.[END-FE]
 //私たち、意外といいコンビかもね？[END-FE]
 [CHAR0D00][V0400]
 You did a good job back there.[NLINE]
-Turns out we make for a pretty good[NLINE]
-team, huh?[END-FE]
+Turns out we make for a pretty[NLINE]
+good team, huh?[END-FE]
 
 
 
@@ -1825,8 +1824,8 @@ team, huh?[END-FE]
 //[CHAR0D00][V0500]
 //ふふっ、これからもよろしくね！[END-FE]
 [CHAR0D00][V0500]
-Looking forward to working with you again, partner![NLINE]
-He-he...[END-FE]
+He-he, looking forward to working[NLINE]
+with you again, partner![END-FE]
 
 
 
@@ -1868,7 +1867,8 @@ No answer?[NLINE]
 //…さてと、[NLINE]
 //これからどうしようかな…。[END-FE]
 [CHAR0D00][V0800]
-Anyway, what should we do now...?[END-FE]
+Anyway, what should we[NLINE]
+do now...?[END-FE]
 
 
 
@@ -2934,13 +2934,14 @@ in the end.[END-FE]
 //テロリストの可能性も否定できないけど、[NLINE]
 //それはなさそうだしね。[END-FE]
 [CHAR0D00][V0A00]
-I heard both peace envoys were[NLINE]
-killed by someone. Hingistan and[NLINE]
-Fomeros are suspecting each other.[NWIN]
+I heard both peace envoys were killed[NLINE]
+by someone. Hingistan and Fomeros[NLINE]
+are suspecting each other.[NWIN]
 
 [CHAR0D00][V0B00]
 The involvement of terrorists can't be[NLINE]
-ruled out, but it doesn't seem to be the case.[END-FE]
+ruled out, but it doesn't seem to be the[NLINE]
+case.[END-FE]
 
 
 
@@ -3026,9 +3027,9 @@ thing has happend as of yet.[END-FE]
 //こちらとしては願ったりだけどね。[END-FE]
 [CHAR0D00][V0F00]
 Well, if a peace agreement is reached,[NLINE]
-our company would no longer able to sell[NLINE]
-its products, so I'm hoping that won't[NLINE]
-happen.[END-FE]
+our company would no longer able to[NLINE]
+sell its products, so I'm hoping that[NLINE]
+won't happen.[END-FE]
 
 
 
@@ -3071,10 +3072,12 @@ happen.[END-FE]
 //そうしたら、またバンバン売ってくるぞ！[END-FE]
 [CHAR0D00][V1000]
 If the war continues, there would[NLINE]
-be demand for us to complete new weaponary.[NWIN]
+be demand for us to complete new[NLINE]
+weaponary.[NWIN]
 
 [CHAR0D00][V1100]
-If that were to happen, sales would sky rocket![END-FE]
+If that were to happen, sales would[NLINE]
+sky rocket![END-FE]
 
 
 
@@ -3740,8 +3743,8 @@ to decide.[END-FE]
 //　[COL06]行き先　：[COL00]　[COL01]ヤースティル収容所[COL00]　[NLINE]
 //　[END-FE]
 [NLINE]
- [COL06]Contents: [COL00]Miscellaneous Goods[NLINE]
- [COL06]Destination: [COL01]Yarstill Prison[NLINE]
+[COL06]Contents: [COL00]Miscellaneous Goods[NLINE]
+[COL06]Destination: [COL01]Yarstill Prison[NLINE]
 [END-FE]
 
 
@@ -3793,8 +3796,8 @@ Will you hide in the wooden crates?[END-FE]
 //…別の大陸か…。[NLINE]
 //…どれくらいで終わる任務なんだろう…？[END-FE]
 A different continent, huh?[NLINE]
-I wonder how long it will be until we will[NLINE]
-finish this mission...?[END-FE]
+I wonder how long it will be until we[NLINE]
+will finish this mission...?[END-FE]
 
 
 
@@ -3894,8 +3897,8 @@ I'd say yes.[END-FE]
 //危険はないのかな？[NLINE]
 //そのあたりは[NLINE]
 //どうなっているんだろうね？[END-FE]
-That reminds me, we'll go out to[NLINE]
-open sea, right?[NWIN]
+That reminds me, we'll go out to open[NLINE]
+sea, right?[NWIN]
 
 [CH.FACE:Sad]
 Screapers have disappeared on land[NLINE]
@@ -3904,8 +3907,7 @@ However, the oceans are Screaper territory,[NLINE]
 right?[NWIN]
 
 So isn't it dangerous to cross the ocean?[NLINE]
-I wonder what will happen out[NLINE]
-there.[END-FE]
+I wonder what will happen out there.[END-FE]
 
 
 
@@ -3968,8 +3970,8 @@ heard that in the past, it took a whole[NLINE]
 troop to just take out one Screaper![NWIN]
 
 
-On the other hand, it was just some old story,[NLINE]
-so maybe it was exaggerated...[END-FE]
+On the other hand, it was just some old[NLINE]
+story, so maybe it was exaggerated...[END-FE]
 
 
 
@@ -4460,9 +4462,9 @@ Will you rest on the bed?[END-FE]
 //それじゃ、伝えたからね！[END-FE]
 Mr. [MainCharName], are you there?[NWIN]
 
-This morning, someone came and asked[NLINE]
-for you to come to the board[NLINE]
-room.[NWIN]
+This morning, someone came and[NLINE]
+asked for you to come to the[NLINE]
+board room.[NWIN]
 
 If you have any further questions,[NLINE]
 please let me know[END-FE]
