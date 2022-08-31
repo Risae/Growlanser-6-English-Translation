@@ -171,9 +171,9 @@ You don't have any particular tasks[NLINE]
 until we get there. Enjoy the voyage.[NWIN]
 
 [CHAR0F00][V0200]
-However, before you go into your assigned[NLINE]
-cabins, there's something I would like to[NLINE]
-give to each of you.[END-FE]
+However, before you go into your[NLINE]
+assigned cabins, there's something[NLINE]
+I would like to give to each of you.[END-FE]
 
 
 
@@ -211,7 +211,8 @@ Alright, go to your cabins.[END-FE]
 //Wendy\\
 [CHAR0F00][V0500]
 Huh?[NLINE]
-...Umm, excuse me, Captain Shuweizer![END-FE]
+...Umm, excuse me, Captain[NLINE]
+Shuweizer![END-FE]
 
 
 
@@ -317,8 +318,8 @@ Transport ship - 1st day[END-FE]
 //Captain\\
 [CHAR0F00][V0A00]
 What's the matter?[NLINE]
-How about moving your[NLINE]
-luggage to your cabins first?[NWIN]
+How about moving your luggage[NLINE]
+to your cabins first?[NWIN]
 
 [CHAR0F00][V0B00]
 We've got a long way to go.[NLINE]
