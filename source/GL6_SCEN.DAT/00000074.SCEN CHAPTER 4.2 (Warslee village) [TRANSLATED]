@@ -616,7 +616,7 @@ from the PMB?[END-FE]
 #W32($53E8)
 //もし…もし、勇者様…。[END-FE]
 //Yurii\\
-Can you hear me? Can you hear me, Brave One?[END-FE]
+...hear me? Can you hear me, Brave One?[END-FE]
 
 
 
@@ -712,8 +712,9 @@ Do you want to skip this event?[END-FE]
 //沖から流されて、よくご無事でした。[END-FE]
 //Yurii\\
 [CHAR1100][V0500]
-Thank goodness. You washed up from the sea,[NLINE]
-but you seem to be in good health.[END-FE]
+Thank goodness. You washed up from[NLINE]
+the sea, but you seem to be in[NLINE]
+good health.[END-FE]
 
 
 
@@ -742,7 +743,7 @@ any external wounds.[END-FE]
 //Yurii\\
 [CHAR1100][V0700]
 I'm a fairy named [COL01]Yurii[COL00].[NLINE]
-I've came to help you, Brave One.[NLINE]
+I've come to help you, Brave One.[NLINE]
 Pleased to make your acquaintance.[END-FE]
 
 
@@ -923,8 +924,9 @@ Where are we exactly?[END-FE]
 //大陸中央の南部に位置します。[END-FE]
 //Yurii\\
 [CHAR1100][V1600]
-This is Warslee Village, located[NLINE]
-in the central-southern portion of this continent.[END-FE]
+This is Warslee Village, located in[NLINE]
+the central-southern portion of[NLINE]
+this continent.[END-FE]
 
 
 
@@ -938,8 +940,8 @@ in the central-southern portion of this continent.[END-FE]
 //ガイラナックという場所に行くには…。[END-FE]
 //Shuweizer\\
 [CHAR1100][V1700]
-Warslee Village...? Tell me fairy, how[NLINE]
-do we get to Geilenach?[END-FE]
+Warslee Village...? Tell me, fairy,[NLINE]
+how do we get to Geilenach?[END-FE]
 
 
 
@@ -1042,20 +1044,20 @@ Brave One?[NLINE]
 Yes, that's correct.[NWIN]
 
 [CHAR1100][V2000]
-For a very long time, we fairies have passed down this[NLINE]
-prophecy:[NWIN]
+For a very long time, we fairies have[NLINE]
+passed down this prophecy:[NWIN]
 
 [CHAR1100][V2100]
-"[COL04]When the barrier around the[NLINE]
- continent is lifted, the Brave One[NLINE]
- shall appear once again. A powerful fairy[NLINE]
- shall help the Brave One, and together they[NLINE]
+"[COL04]When the barrier around the continent[NLINE]
+ is lifted, the Brave One shall appear[NLINE]
+ once again. A powerful fairy shall[NLINE]
+ help the Brave One, and together they[NLINE]
  will bring peace to the world once more.[COL00]"[NWIN]
 
 [CHAR1100][V2200]
-This prophecy was made 2,000 years[NLINE]
-ago, at the time this continent was[NLINE]
-sealed off.[END-FE]
+This prophecy was made 2,000 years ago,[NLINE]
+at the time this continent was sealed[NLINE]
+off.[END-FE]
 
 
 
@@ -1139,8 +1141,8 @@ ago, but I'm skeptical about[NLINE]
 what it says...[NWIN]
 
 [CH.FACE:Normal][CHAR1100][V2900]
-How could they what was going to[NLINE]
-happen now?[END-FE]
+How could they what was going[NLINE]
+to happen now?[END-FE]
 
 
 
@@ -1160,16 +1162,17 @@ happen now?[END-FE]
 //現在と同様に過去や未来のことも…。[END-FE]
 //Yurii\\
 [CHAR1100][V2A00]
-That's because of the difference[NLINE]
-in perception between humans and fairies.[NWIN]
+That's because of the difference in[NLINE]
+perception between humans and fairies.[NWIN]
 
 [CH.FACE:Normal][CH.FACE:Close-Eyes][CHAR1100][V2B00]
-You may not believe me when I tell you this,[NLINE]
-but fairies can sense the flow of time.[CC.FFCD][CH.FACE:Open-Eyes][NWIN]
+You may not believe me when I tell you[NLINE]
+this, but fairies can sense the flow[NLINE]
+of time.[CC.FFCD][CH.FACE:Open-Eyes][NWIN]
 
 [CHAR1100][V2C00]
-We see the past and future[NLINE]
-in the same way we see the present...[END-FE]
+We see the past and future in the[NLINE]
+same way we see the present...[END-FE]
 
 
 
@@ -1181,7 +1184,8 @@ in the same way we see the present...[END-FE]
 //未来が分かる？[END-FE]
 //Wendy\\
 [CHAR1100][V2D00]
-You know what's going to happen in the future?[END-FE]
+You know what's going to happen in[NLINE]
+the future?[END-FE]
 
 
 
@@ -1244,8 +1248,8 @@ that tree over there...[END-FE]
 //あそこにあるでしょうか？[END-FE]
 //Yurii\\
 [CHAR1100][V3100]
-That tree will probably be[NLINE]
-still there five years later, correct?[END-FE]
+That tree will probably be still[NLINE]
+there five years later, correct?[END-FE]
 
 
 
@@ -1262,8 +1266,8 @@ still there five years later, correct?[END-FE]
 //あと５年くらいは保ちそうじゃない？[END-FE]
 //Wendy\\
 [CHAR1100][V3200]
-Well, I guess it could have[NLINE]
-withered by that time...[NWIN]
+Well, I guess it could have withered by[NLINE]
+that time...[NWIN]
 
 [CH.FACE:Normal][CHAR1100][V3300]
 However, considering its current condition,[NLINE]
@@ -1339,8 +1343,8 @@ So you can know the future...?[END-FE]
 //自然現象で起こるようなことであれば[NLINE]
 //読みやすいのです。[END-FE]
 [CHAR1100][V3800]
-In this case, to know means to[NLINE]
-determine the most likely outcome.[NWIN]
+In this case, to know means to determine[NLINE]
+the most likely outcome.[NWIN]
 
 [CHAR1100][V3900]
 However, in case human agency is involved,[NLINE]
@@ -1360,8 +1364,8 @@ it's quite easy.[END-FE]
 //[CHAR1100][V3B00]
 //それで、彼が予言の勇者だと。[END-FE]
 [CHAR1100][V3B00]
-So you really think [MainCharName] is[NLINE]
-the Brave One mentioned in the prophecy?[END-FE]
+So you really think [MainCharName] is the[NLINE]
+Brave One mentioned in the prophecy?[END-FE]
 
 
 
@@ -1374,8 +1378,8 @@ the Brave One mentioned in the prophecy?[END-FE]
 //確実ではないのですが、[NLINE]
 //…私は信じます…。[CC.FFCD][CH.FACE:Open-Eyes][END-FE]
 [CH.FACE:Close-Eyes][CHAR1100][V3C00]
-Human agency makes this difficult to[NLINE]
-to determine with certainty...[NLINE]
+Human agency makes this difficult[NLINE]
+to to determine with certainty...[NLINE]
 ...But I believe he is...[CC.FFCD][CH.FACE:Open-Eyes][END-FE]
 
 
@@ -1401,9 +1405,9 @@ Yurii became an ally![NLINE]
 //ユリィは基本的に戦闘には参加しませんが、[NLINE]
 //今後、旅をする上で役に立つ能力を覚えます。[END-FE]
 Yurii the fairy will now serve you.[NLINE]
-Yurii will not participate in battle,[NLINE]
-but instead will obtain helpful[NLINE]
-abilities during your travels.[END-FE]
+Yurii will not participate in battle, but[NLINE]
+instead will obtain helpful abilities[NLINE]
+during your travels.[END-FE]
 
 
 
@@ -1863,8 +1867,7 @@ Please![END-FE]
 //ふふっ、可愛いなぁ[COL03][HEART][COL00][NLINE]
 //こっちの大陸でもキャリィが使われるんだ。[END-FE]
 These are transportation animals called[NLINE]
-[COL01]Steeds[COL00]! Hee-hee, they're so[NLINE]
-cute.[COL03][HEART][COL00][NLINE]
+[COL01]Steeds[COL00]! Hee-hee, they're so cute.[COL03][HEART][COL00][NLINE]
 So that means Steeds are also used[NLINE]
 on this continent.[END-FE]
 
@@ -2783,12 +2786,14 @@ your clothes?[END-FE]
 //Yurii\\
 [CHAR1100][V4B00]
 Yes.[NLINE]
-The other dress limited my movement.[NWIN]
+The other dress limited my[NLINE]
+movement.[NWIN]
 
 [CHAR1100][V3D00]
 But more importantly, we[NLINE]
-should head in the same direction as[NLINE]
-before in order to reach Geilenach.[END-FE]
+should head in the same[NLINE]
+direction as before in[NLINE]
+order to reach Geilenach.[END-FE]
 
 
 
@@ -2826,8 +2831,8 @@ My pleasure.[END-FE]
 //[START]を押して表示される[NLINE]
 //[COL04]妖精[COL00]コマンドから行えます。[END-FE]
 [COL04]Fairy[COL00] Command has been added to the menu![NLINE]
-In order to check Yurii's abilities, press [START][NLINE]
-and select [COL04]Fairy[COL00] Command.[END-FE]
+In order to check Yurii's abilities, press[NLINE]
+[START] and select the [COL04]Fairy[COL00] Command.[END-FE]
 
 
 
@@ -2837,7 +2842,8 @@ and select [COL04]Fairy[COL00] Command.[END-FE]
 #W32($5648)
 //ついでに記録をとっていくかい？[END-FE]
 //Inn Clerk\\
-By the way, would you like to sign our guestbook?[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
 
 
 
