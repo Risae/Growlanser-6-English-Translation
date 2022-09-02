@@ -19,6 +19,15 @@ nop
 b    0x2C7708
 nop
 
+.org 0x2C7BC0
+move a0, v0
+li   a1, 0x42C0C0                        ; address to "%d" string
+move a2, s1
+jal  printf
+nop
+b    0x02C7C44
+nop
+
 /*
 Window width set part, is given in characters
 so the game multiplies the value by 10d every
