@@ -51,11 +51,10 @@ SPACEFWSPACE
 ・ 
  ・
 
+
 ##### Find unnecessary Standard color code at the end of a string #####
 
 [COL00][END-FE]
-
-
 
 
 ################# Regular expression: #################
@@ -70,13 +69,52 @@ SPACEFWSPACE
 
 [^[](END-FF])
 
+[^[](COL00])
 
-##### Finds lines that are missing a ] at the end ####
+[^[](COL01])
+
+[^[](COL02])
+
+[^[](COL03])
+
+[^[](COL04])
+
+[^[](COL05])
+
+[^[](COL06])
+
+[^[](COL07])
+
+[^[](COL08])
+
+
+##### Find controls codes that is missing the ] #####
+
+\[NLINE[^\]]
+
+\[NWIN[^\]]
+
+\[END-FE[^\]]
+
+\[END-FF[^\]]
+
+\[COL00[^\]]
+
+\[COL01[^\]]
+
+\[COL02[^\]]
+
+\[COL03[^\]]
+
+\[COL04[^\]]
+
+
+##### Finds lines that are missing a ] at the end #####
 
 ^([^\/#\r\n])+[a-zA-Z][^]]$
 
 
-##### Finds [ missing in "[CC.XXXX]" ####
+##### Finds [ missing in "[CC.XXXX]" #####
 
 [a-zA-Z0-9\!\?\.\,\(\)](CC\.)
 
@@ -95,7 +133,6 @@ SPACEFWSPACE
 ##### Find string that is missing [ at the end of the line #####
 
 ^([^\/#\r\n])+[a-zA-Z0-9\"\!\£\$\%\^\&\*\(\)\-\_\=\+]$
-
 
 
 ##### Find ・ that has english characters after it #####
@@ -120,7 +157,7 @@ SPACEFWSPACE
 ^([^\/\r\n]){45,}
 
 
-##### Find japanese ？, ！, 。, 、, … before and after english characters#####
+##### Find japanese ？, ！, 。, 、, … before and after english characters #####
 
 ^([^\/\r\n])+[？]
 
@@ -153,8 +190,6 @@ SPACEFWSPACE
 、[a-zA-Z0-9\!\?\.\,\(\)]
 
 …[a-zA-Z0-9\!\?\.\,\(\)]
-
-
 
 
 ##### Finds （, ）, 【, 】, 『, 』, 《, 》 that has english characters after and before it #####
