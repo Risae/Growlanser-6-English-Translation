@@ -237,11 +237,12 @@ We have to join up with the others![END-FE]
 //今、何か変じゃなかったか？[END-FE]
 //Rukias\\
 [CHAR1400][V5900]
-Hey, you. There's something[NLINE]
-I want to ask...[NWIN]
+Hey, you. There's something I[NLINE]
+want to ask...[NWIN]
 
 [CHAR1400][V5A00]
-Did you also notice something if off?[END-FE]
+Did you also notice something[NLINE]
+if off?[END-FE]
 
 
 
@@ -439,18 +440,17 @@ yet tell you why, though.[END-FE]
 //俺もついて行きたいんだが…。[END-FE]
 //Rukias\\
 [CHAR1400][V6600]
-..I get it. I wouldn't want[NLINE]
-to get any funny looks, either.[NWIN]
+..I get it. I wouldn't want to[NLINE]
+get any funny looks, either.[NWIN]
 
 [CHAR1400][V6700]
 By the way, where were you planning[NLINE]
-on going? What I was looking for wasn't[NLINE]
-here.[NWIN]
+on going? What I was looking for[NLINE]
+wasn't here.[NWIN]
 
 [CHAR1400][V6800]
-If you're going to another[NLINE]
-town, I wouldn't mind tagging[NLINE]
-along...[END-FE]
+If you're going to another town,[NLINE]
+I wouldn't mind tagging along...[END-FE]
 
 
 
@@ -558,8 +558,8 @@ If it's up to me, then I'm OK with it.[END-FE]
 //遠慮なく指示を出してくれ。[END-FE]
 //Rukias\\
 [CHAR1400][V6F00]
-Thanks. If we meet enemies[NLINE]
-out there, I'll help you fight. Feel[NLINE]
+Thanks. If we meet enemies out[NLINE]
+there, I'll help you fight. Feel[NLINE]
 free to give me instructions.[END-FE]
 
 
@@ -1269,9 +1269,9 @@ It's a pouch for keeping Rana[NLINE]
 Fruits and Rana Seeds. Those are[NLINE]
 quite valuable.[NWIN]
 
-It's no use for me to have[NLINE]
-two of them, so I'll give you[NLINE]
-one, too![END-FE]
+It's no use for me to have two[NLINE]
+of them, so I'll give you one,[NLINE]
+too![END-FE]
 
 
 
@@ -1332,16 +1332,15 @@ as well, Nora![END-FE]
 //そうだ、お祝いにあなたに似合いそうな[NLINE]
 //服をプレゼントするわ！[END-FE]
 //Woman\\
-My, my, if it isn't Yurii,[NLINE]
-the Queen of Pixies![NWIN]
+My, my, if it isn't Yurii, the[NLINE]
+Queen of Pixies![NWIN]
 
 You've finally found a suitable[NLINE]
 companion, didn't you? Please continue[NLINE]
 doing your best! I believe in you.[NWIN]
 
-To celebrate, I'll give you[NLINE]
-these clothes! I think it will[NLINE]
-suit you.[END-FE]
+To celebrate, I'll give you these[NLINE]
+clothes! I think it will suit you.[END-FE]
 
 
 
@@ -1504,10 +1503,10 @@ those airborne Queen Screapers...[NLINE]
 //スクリーパーの心配もないけど、[NLINE]
 //水がないと生きていけないからなぁ…。[END-FE]
 If we don't let water flow through[NLINE]
-the city, we shouldn't have[NLINE]
-to worry about Screapers.[NLINE]
-On the other hand, we need water to[NLINE]
-survive...[END-FE]
+the city, we shouldn't have to[NLINE]
+worry about Screapers.[NLINE]
+On the other hand, we need water[NLINE]
+to survive...[END-FE]
 
 
 
@@ -1563,8 +1562,8 @@ Hello.[END-FE]
 #W32($4D74)
 //　[NLINE]
 //グランゲイル軍の兵舎だ。[END-FE]
-[NLINE]
-These are the barracks of the Grangalian army.[END-FE]
+These are the barracks of the[NLINE]
+Grangalian army.[END-FE]
 
 
 
@@ -1623,8 +1622,8 @@ Planting those trees would accelerate its[NLINE]
 decay.[NWIN]
 
 [CHAR1400][V0900]
-Perhaps we should wait and see for[NLINE]
-at least one year...[END-FE]
+Perhaps we should wait and see for at[NLINE]
+least one year...[END-FE]
 
 
 
@@ -1723,10 +1722,10 @@ by Screapers with your Pollumine,[NLINE]
 then that would be a blessing for us.[NWIN]
 
 [CHAR1400][V0D00]
-However, as that Pothrad said, if[NLINE]
-the land's vitality is weakened any[NLINE]
-more, then people's daily lives will[NLINE]
-be affected.[NWIN]
+However, as that Pothrad said, if the[NLINE]
+land's vitality is weakened any more,[NLINE]
+then people's daily lives will be[NLINE]
+affected.[NWIN]
 
 [CHAR1400][V0E00]
 ...There's no easy solution here.[END-FE]
@@ -1760,10 +1759,11 @@ But he looks so young...[END-FE]
 //Yurii\\
 [CHAR1400][V1000]
 That man is Captain Gaerik of the[NLINE]
-Grangalian army. The previous commander[NLINE]
-died in battle. Although his rank[NLINE]
-is merely that of captain, he has the[NLINE]
-authority to mobilize soldiers.[END-FE]
+Grangalian army. The previous[NLINE]
+commander died in battle. Although[NLINE]
+his rank is merely that of captain,[NLINE]
+he has the authority to mobilize[NLINE]
+soldiers.[END-FE]
 
 
 
@@ -1912,7 +1912,7 @@ died on the way here.[NWIN]
 However, we can't afford to put a stop[NLINE]
 to this project. Please do your best[NLINE]
 and see it through, even if you must[NLINE]
-reruit someone capable from among[NLINE]
+recruit someone capable from among[NLINE]
 the native population.[END-FE]
 
 
@@ -1932,8 +1932,8 @@ the native population.[END-FE]
 Understood.[NWIN]
 
 [CHAR1400][V2400]
-Anyway, what were you and the[NLINE]
-natives talking about?[END-FE]
+Anyway, what were you and[NLINE]
+the natives talking about?[END-FE]
 
 
 
@@ -1965,8 +1965,8 @@ We were discussing our Pollumine product.[NWIN]
 Our terms are by no means[NLINE]
 unfavorable. However, since they have[NLINE]
 had no contact with the outside world[NLINE]
-for such a long time, they can't[NLINE]
-help but be suspicious.[NWIN]
+for such a long time, they can't help[NLINE]
+but be suspicious.[NWIN]
 
 [CHAR1400][V2700]
 We need to carry out this negotiation[NLINE]
@@ -2035,8 +2035,8 @@ Make haste.[END-FE]
 //つくづくそう思うよ…。[END-FE]
 //Monopolis Soldier\\
 We can't rush negotiations.[NLINE]
-The secret of success is to[NLINE]
-have patience.[NWIN]
+The secret of success is to have[NLINE]
+patience.[NWIN]
 
 ...When you think of it like that,[NLINE]
 you'll come to realize that too.[END-FE]
@@ -2137,8 +2137,8 @@ Normal humans aren't able to[NLINE]
 defeat a Queen Screaper.[NWIN]
 
 [CH.FACE:Sad][CHAR1400][V2E00]
-Not even Korin's companion was[NLINE]
-able to do that....[END-FE]
+Not even Korin's companion[NLINE]
+was able to do that...[END-FE]
 
 
 
@@ -2196,8 +2196,8 @@ He defeated a Queen Screaper?[END-FE]
 //ですが、結果はご覧の通り…。[END-FE]
 //Yurii\\
 [CHAR1400][V3300]
-Yes. However, you've seen the[NLINE]
-result of that...[END-FE]
+Yes. However, you've seen[NLINE]
+the result of that...[END-FE]
 
 
 
@@ -2262,8 +2262,9 @@ What happened, Yurii?[END-FE]
 //…どこに行ったんだろう？[END-FE]
 //Wendy\\
 [CHAR1400][V3800]
-Huh? That man who was here just[NLINE]
-now, Gaerik, where did he go?[END-FE]
+Huh? That man who was here[NLINE]
+just now, Gaerik, where[NLINE]
+did he go?[END-FE]
 
 
 
@@ -2315,8 +2316,8 @@ now that Captain Gaerik and Captain[NLINE]
 Rufus have been killed by Ziekwalt![NWIN]
 
 [CHAR1400][V3C00]
-We have to rely on Pollumine[NLINE]
-or whatever it's called to counter[NLINE]
+We have to rely on Pollumine or[NLINE]
+whatever it's called to counter[NLINE]
 the Screapers...[END-FE]
 
 
@@ -2337,8 +2338,8 @@ the Screapers...[END-FE]
 //Wendy\\
 [CHAR1400][V3D00]
 What? Did he just say that that man[NLINE]
-named Gaerik was killed? But, he was[NLINE]
-here just now...[NWIN]
+named Gaerik was killed? But, he[NLINE]
+was here just now...[NWIN]
 
 [CHAR1400][V3E00]
 Also, wasn't it a member of the PMB[NLINE]
@@ -2397,8 +2398,8 @@ you don't tell anyone else about what[NLINE]
 happend.[NWIN]
 
 [CHAR1400][V4200]
-It's something ordinary people can't sense, so[NLINE]
-they won't believe you.[END-FE]
+It's something ordinary people can't sense,[NLINE]
+so they won't believe you.[END-FE]
 
 
 
@@ -2407,8 +2408,7 @@ they won't believe you.[END-FE]
 //POINTER #166 @ $4E38 - STRING #166 @ $7B99
 #W32($4E38)
 //・納得できないことには従えない[END-FE]
-・I can't comply with a request if I[NLINE]
-   don't know the reason[END-FE]
+・I can't comply with a request if I don't know the reason[END-FE]
 
 
 
@@ -2463,8 +2463,9 @@ I don't understand. Explain to us why![END-FE]
 //実は先ほど、何者かによって[NLINE]
 //過去の事実が変えられてしまいました。[END-FE]
 [CHAR1400][V4500]
-The truth is that someone has made changes[NLINE]
-to historical facts just now.[END-FE]
+The truth is that someone has made[NLINE]
+changes to historical facts just[NLINE]
+now.[END-FE]
 
 
 
@@ -2521,8 +2522,8 @@ don't notice when history has changed.[NWIN]
 
 
 [CHAR1400][V4B00]
-However, you two were able to[NLINE]
-sense it...[END-FE]
+However, you two were able to sense[NLINE]
+it...[END-FE]
 
 
 
@@ -2558,8 +2559,8 @@ weaknesses. Therefore, the extent to[NLINE]
 which they can sense it differs.[NWIN]
 
 [CHAR1400][V4E00]
-However, most fairies are able[NLINE]
-to sense that time has changed.[NWIN]
+However, most fairies are able to[NLINE]
+sense that time has changed.[NWIN]
 
 [CHAR1400][V4F00]
 Because I'm particularly strong in[NLINE]
@@ -2609,8 +2610,8 @@ Queen at bay.[END-FE]
 //[CHAR1400][V5300]
 //それじゃ、平和維持軍の人は？[END-FE]
 [CHAR1400][V5300]
-And what about that man from[NLINE]
-the PMB?[END-FE]
+And what about that man[NLINE]
+from the PMB?[END-FE]
 
 
 
@@ -2625,8 +2626,8 @@ the PMB?[END-FE]
 [CHAR1400][V5400]
 Korin's companion was the one who[NLINE]
 defeated the Queen before history changed.[NLINE]
-However, it seems he did not enter the PMB[NLINE]
-in this timeline.[END-FE]
+However, it seems he did not enter the[NLINE]
+PMB in this timeline.[END-FE]
 
 
 
@@ -2861,11 +2862,11 @@ Welcome.[END-FE]
 ...Hmm?[NLINE]
 Could that be... the Queen of Pixies?[NWIN]
 
-You don't happen to be "Yurii's Chosen Hero",[NLINE]
-do you?[NWIN]
+You don't happen to be "Yurii's Chosen[NLINE]
+Hero", do you?[NWIN]
 
-...Does that mean the world will[NLINE]
-fall into chaos once again?[END-FE]
+...Does that mean the world will fall[NLINE]
+into chaos once again?[END-FE]
 
 
 
