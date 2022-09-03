@@ -77,7 +77,8 @@ Would you like me to change my clothes?[END-FE]
 #W32($1934)
 //それでは、どの服装に[NLINE]
 //いたしましょうか？[END-FE]
-Well then, what would you like me to wear?[END-FE]
+Well then, what would you like[NLINE]
+me to wear?[END-FE]
 
 
 
@@ -1038,17 +1039,19 @@ to ask.[END-FE]
 //以上になると、ユリィは特殊能力を身につけます。[NLINE]
 //１つのパラメータに偏らせると、なかなか能力を[NLINE]
 //覚えられませんので、注意してください。[END-FE]
-[COL01]Rana Fruits[COL00] and [COL01Rana Seeds[COL00] are special items[NLINE]
+[COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00] are special items[NLINE]
 that help improve Yurii's stats. They can[NLINE]
-be obtained during battle. Using a [COL00]Rana Fruit[COL00][NLINE]
-will increase Yurii's stats by [COL05]100 points[COL00].[NLINE]
-Using a [COL01]Rana Seed[COL00] will increase them by [COL05]10 points[COL00].[NWIN]
+be obtained during battle. Using a [COL01]Rana[NLINE]
+Fruit[COL00] will increase Yurii's stats[NLINE]
+by [COL05]100 points[COL00]. Using a [COL01]Rana Seed[COL00][NLINE]
+will increase them by [COL05]10 points[COL00].[NWIN]
 
 When a combination of Yurii's stats exceed[NLINE]
-a certain value, Yurii will obtain a new ability.[NLINE]
-Please keep in mind that if you focus too much[NLINE]
-on improving one particular stat, Yurii won't be able[NLINE]
-to easily learn new abilities.[END-FE]
+a certain value, Yurii will obtain a new[NLINE]
+ability. Please keep in mind that if you[NLINE]
+focus too much on improving one particular[NLINE]
+stat, Yurii won't be able to easily learn[NLINE]
+new abilities.[END-FE]
 
 
 
@@ -1170,8 +1173,9 @@ Which one do you want to use?[END-FE]
 #W32($1AEC)
 //ラナの実を使って[NLINE]
 //どの能力を伸ばしますか？[END-FE]
-Which stat do you want to increase[NLINE]
-with the Rana Fruit?[END-FE]
+Which stat do you want to[NLINE]
+increase with the Rana[NLINE]
+Fruit?[END-FE]
 
 
 
@@ -1262,8 +1266,9 @@ with the Rana Fruit?[END-FE]
 #W32($1B14)
 //ラナの種を使って[NLINE]
 //どの能力を伸ばしますか？[END-FE]
-Which stat do you want to increase[NLINE]
-with the Rana Seed?[END-FE]
+Which stat do you want to[NLINE]
+increase with the Rana[NLINE]
+Seed?[END-FE]
 
 
 
