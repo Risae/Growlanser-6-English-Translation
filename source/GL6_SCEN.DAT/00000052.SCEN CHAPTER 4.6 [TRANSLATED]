@@ -552,8 +552,7 @@ Damn, this monster...[END-FE]
 //POINTER #48 @ $4260 - STRING #48 @ $49DC
 #W32($4260)
 //・まとめて始末してやると言う[END-FE]
-・Say that you'll get rid of all[NLINE]
-   the terrorists[END-FE]
+・Say that you'll get rid of the terrorists[END-FE]
 
 
 
@@ -562,8 +561,7 @@ Damn, this monster...[END-FE]
 //POINTER #49 @ $4264 - STRING #49 @ $49FB
 #W32($4264)
 //・協力してスクリーパーを倒そうと言う[END-FE]
-・Say that you and the terrorists should[NLINE]
-   cooperate to defeat the Screaper[END-FE]
+・Say we should cooperate[END-FE]
 
 
 
@@ -585,8 +583,8 @@ kill you before you can![END-FE]
 //ふざけるな！[NLINE]
 //誰が貴様らなんぞと！[END-FE]
 Like hell we will![NLINE]
-Why would I cooperate with Monopolis[NLINE]
-scum?[END-FE]
+Why would I cooperate with[NLINE]
+Monopolis scum?[END-FE]
 
 
 
@@ -847,7 +845,8 @@ Brave One, do you know this boy?[END-FE]
 //[CC.AC00]（…だが、顔の印は…。）[END-FE]
 [CC.AC00][CHAR1300][V1B00]
 (Could he just be someone who happens[NLINE]
- to resemble him...? No it's too early to tell.)[NWIN]
+ to resemble him...? No it's too early to[NLINE]
+ tell.)[NWIN]
 
 [CC.AC00][CHAR1300][V1C00]
 [CC.AC00](But those marks on his face...)[END-FE]
@@ -1014,11 +1013,12 @@ Great![END-FE]
 //[CHAR1300][V2700]
 //一緒に街に行くくらい、いいじゃない？[END-FE]
 [CHAR1300][V2600]
-Hold on! Didn't he try protecting[NLINE]
-that Metropolis soldier?[NWIN]
+Hold on! Didn't he try protecting that[NLINE]
+Metropolis soldier?[NWIN]
 
 [CHAR1300][V2700]
-Can't we at least travel with him to the city?[END-FE]
+Can't we at least travel with him to the[NLINE]
+city?[END-FE]
 
 
 
@@ -1099,7 +1099,7 @@ is Yurii. And he is...[END-FE]
 //彼は[MainCharName]。[NLINE]
 //…無愛想な奴だけどね。[END-FE]
 [CHAR1300][V2D00]
-This is[MainCharName].[NLINE]
+This is [MainCharName].[NLINE]
 ...He can be a bit of a sourpuss, though.[END-FE]
 
 
@@ -1173,8 +1173,8 @@ that we obtained during battle earlier?[END-FE]
 //トレーニング効果を高めることが出来ます。[END-FE]
 Oh, that?[NWIN]
 
-[COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00][NLINE]
-help us fairies develop our abilities.[NWIN]
+[COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00] help[NLINE]
+us fairies develop our abilities.[NWIN]
 
 If you use them during training, you'll[NLINE]
 be abale to increase the effectiveness[NLINE]
@@ -1200,8 +1200,8 @@ Wow, really?[END-FE]
 //勇者様が宿に立ち寄られたときに、[NLINE]
 //私を呼び出してください。[END-FE]
 Training takes time. Please call me[NLINE]
-when you visit an inn if you want to[NLINE]
-use [COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00].[END-FE]
+when you visit an inn if you want[NLINE]
+to use [COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00].[END-FE]
 
 
 
@@ -1210,7 +1210,8 @@ use [COL01]Rana Fruits[COL00] and [COL01]Rana Seeds[COL00].[END-FE]
 //POINTER #101 @ $4334 - STRING #101 @ $553A
 #W32($4334)
 //ユリィがトレーニングすると、どうなるの？[END-FE]
-What happens when you train?[END-FE]
+What happens when you[NLINE]
+train?[END-FE]
 
 
 
@@ -1229,8 +1230,8 @@ various abilities.[NWIN]
 
 I think they'll come in handy during[NLINE]
 our adventure, Brave One. Please[NLINE]
-give me instructions when[NLINE]
-we stop by at an inn.[END-FE]
+give me instructions when we stop[NLINE]
+by at an inn.[END-FE]
 
 
 
