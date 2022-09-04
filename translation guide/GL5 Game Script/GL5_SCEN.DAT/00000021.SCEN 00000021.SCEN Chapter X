@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $5220 - STRING #0 @ $5420
 #W32($5220)
 //[END-FF]
@@ -12,7 +10,7 @@
 //POINTER #1 @ $5224 - STRING #1 @ $5423
 #W32($5224)
 //コリン[END-FF]
-コリン[END-FF]
+Korin[END-FF]
 
 
 
@@ -21,7 +19,7 @@
 //POINTER #2 @ $5228 - STRING #2 @ $542C
 #W32($5228)
 //・敵の全滅[END-FE]
-・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
 
 
 
@@ -31,8 +29,8 @@
 #W32($522C)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -42,8 +40,8 @@
 #W32($5230)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -52,7 +50,7 @@
 //POINTER #5 @ $5234 - STRING #5 @ $5483
 #W32($5234)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -63,9 +61,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -76,9 +74,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -88,8 +86,8 @@
 #W32($5240)
 //・ＮＰＣの死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -99,8 +97,8 @@
 #W32($5244)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -110,8 +108,8 @@
 #W32($5248)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -120,7 +118,7 @@
 //POINTER #11 @ $524C - STRING #11 @ $5571
 #W32($524C)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -130,8 +128,8 @@
 #W32($5250)
 //　[NLINE]
 //ふとん犬はどこかへ走り去った…。[END-FE]
-　[NLINE]
-ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
 
 
 
@@ -142,9 +140,9 @@
 //王都方面は現在特別警戒中だ。[NLINE]
 //いくら通行証があろうとも、[NLINE]
 //通すことは出来ない。[END-FE]
-王都方面は現在特別警戒中だ。[NLINE]
-いくら通行証があろうとも、[NLINE]
-通すことは出来ない。[END-FE]
+The area around the Capital is [NLINE]
+currently under high alert. Visas[NLINE]
+are temporarily invalid.[END-FE]
 
 
 
@@ -154,8 +152,8 @@
 #W32($5258)
 //維持軍め、何しにきた！[NLINE]
 //ここから先は命に代えても通さぬぞ！[END-FE]
-維持軍め、何しにきた！[NLINE]
-ここから先は命に代えても通さぬぞ！[END-FE]
+Damn PMB! The hell[NLINE]
+are you doing here!?[END-FE]
 
 
 
@@ -164,7 +162,7 @@
 //POINTER #15 @ $525C - STRING #15 @ $563B
 #W32($525C)
 //…帰られよ。[END-FE]
-…帰られよ。[END-FE]
+...Leave, please.[END-FE]
 
 
 
@@ -173,7 +171,7 @@
 //POINTER #16 @ $5260 - STRING #16 @ $564A
 #W32($5260)
 //…帰れ！[END-FE]
-…帰れ！[END-FE]
+...Go away![END-FE]
 
 
 
@@ -182,7 +180,7 @@
 //POINTER #17 @ $5264 - STRING #17 @ $5655
 #W32($5264)
 //………。[END-FE]
-………。[END-FE]
+......[END-FE]
 
 
 
@@ -197,13 +195,13 @@
 //キーワードらしいのですが…。[NWIN]
 //
 //怪しいところを調べるしかないですね。[END-FE]
-ロックバイン将軍のアジトは[NLINE]
-ヤージェン村の南のどこかにあるそうです。[NWIN]
+It seems General Rockbein's hideout is[NLINE]
+located somewhere south of Jaergen.[NWIN]
 
-それからどうも[COL01]白バラ[COL00]という単語が[NLINE]
-キーワードらしいのですが…。[NWIN]
+Also, the phrase "[COL01]White Rose[COL00]"[NLINE]
+seems to be important somehow...[NWIN]
 
-怪しいところを調べるしかないですね。[END-FE]
+Guess we'll start canvassing the area.[END-FE]
 
 
 
@@ -259,7 +257,7 @@
 //[CHARBC00][V0000]
 //あっ、いたよ！[END-FE]
 [CHARBC00][V0000]
-あっ、いたよ！[END-FE]
+Hey, there he is![END-FE]
 
 
 
@@ -271,8 +269,8 @@
 //…しつこい奴らめ。[NLINE]
 //また邪魔をしにきたか…。[END-FE]
 [CHARBC00][V0100]
-…しつこい奴らめ。[NLINE]
-また邪魔をしにきたか…。[END-FE]
+...Persistent maggots.[NLINE]
+You're in my way again...?[END-FE]
 
 
 
@@ -281,7 +279,7 @@
 //POINTER #26 @ $5288 - STRING #26 @ $57B8
 #W32($5288)
 //・力ずくでジークヴァルトを止める[END-FE]
-・力ずくでジークヴァルトを止める[END-FE]
+・Stop Ziekwalt by force[END-FE]
 
 
 
@@ -290,7 +288,7 @@
 //POINTER #27 @ $528C - STRING #27 @ $57DB
 #W32($528C)
 //・これ以上、人を襲わないよう説得[END-FE]
-・これ以上、人を襲わないよう説得[END-FE]
+・Convince him to stop attacking people[END-FE]
 
 
 
@@ -299,7 +297,7 @@
 //POINTER #28 @ $5290 - STRING #28 @ $57FE
 #W32($5290)
 //・無言で攻撃する[END-FE]
-・無言で攻撃する[END-FE]
+・Just rush him[END-FE]
 
 
 
@@ -319,16 +317,14 @@
 //[CHARBC00][V0400]
 //ここまで来て貴様らに邪魔をさせるか！[END-FE]
 [CH.FACE:Close-Eyes][CHARBC00][V0200]
-俺を止めるだと？[NLINE]
-…クックッ…。[NLINE]
-[CH.FACE:Open-Eyes]やれるものならやってみろ！[NWIN]
+Stop me? You can certainly try![NWIN]
 
 [CHARBC00][V0300]
-あと少し、人を吸収すれば[NLINE]
-この手でクイーンを倒せるのだ。[NWIN]
+Just a few more humans, and[NLINE]
+I'll be ready to face the Queen.[NWIN]
 
 [CHARBC00][V0400]
-ここまで来て貴様らに邪魔をさせるか！[END-FE]
+You can't stop me when I'm so close![END-FE]
 
 
 
@@ -343,11 +339,11 @@
 //[CHARBC00][V0600]
 //邪魔をするなら、貴様らを殺す！[END-FE]
 [CHARBC00][V0500]
-あと少し、人を吸収すれば、[NLINE]
-この手でクイーンを倒せるのだ。[NWIN]
+Just a few more humans, and[NLINE]
+I'll be ready to face the Queen.[NWIN]
 
 [CHARBC00][V0600]
-邪魔をするなら、貴様らを殺す！[END-FE]
+I'll kill you if you get in my way![END-FE]
 
 
 
@@ -362,11 +358,11 @@
 //[CHARBC00][V0800]
 //邪魔をするなら、貴様らを殺す！[END-FE]
 [CHARBC00][V0700]
-あと少し、人を吸収すれば、[NLINE]
-この手でクイーンを倒せるのだ。[NWIN]
+Just a few more humans, and[NLINE]
+I'll be ready to face the Queen.[NWIN]
 
 [CHARBC00][V0800]
-邪魔をするなら、貴様らを殺す！[END-FE]
+I'll kill you if you get in my way![END-FE]
 
 
 
@@ -375,7 +371,7 @@
 //POINTER #32 @ $52A0 - STRING #32 @ $59A8
 #W32($52A0)
 //・ジークヴァルトの撃破[END-FE]
-・ジークヴァルトの撃破[END-FE]
+・Defeat Ziekwalt[END-FE]
 
 
 
@@ -384,7 +380,7 @@
 //POINTER #33 @ $52A4 - STRING #33 @ $59C1
 #W32($52A4)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -405,8 +401,8 @@
 //この力…、[NLINE]
 //あの器官は封じたのに…。[END-FE]
 [CHARBC00][V0900]
-この力…、[NLINE]
-あの器官は封じたのに…。[END-FE]
+This power... But, we sealed[NLINE]
+those cells...[END-FE]
 
 
 
@@ -421,11 +417,11 @@
 //[CHARBC00][V0B00]
 //これなら、クイーンとも戦えます！[END-FE]
 [CHARBC00][V0A00]
-そうか、既に身につけた能力までは[NLINE]
-無くならないんですね！[NWIN]
+Oh, I see! So the abilities he[NLINE]
+had attained do not disappear![NWIN]
 
 [CHARBC00][V0B00]
-これなら、クイーンとも戦えます！[END-FE]
+We can still fight the Queen![END-FE]
 
 
 
@@ -444,15 +440,15 @@
 //[CHARBC00][V0E00]
 //これなら、クイーンとも戦える！[END-FE]
 [CHARBC00][V0C00]
-この力…、[NLINE]
-あの器官は封じたハズ…。[NWIN]
+This power... I thought[NLINE]
+we sealed those cells...[NWIN]
 
 [CHARBC00][V0D00]
-そうか、既に身につけた能力までは[NLINE]
-無くならないのか！[NWIN]
+Ah! Seems the abilities he[NLINE]
+had attained do not disappear![NWIN]
 
 [CHARBC00][V0E00]
-これなら、クイーンとも戦える！[END-FE]
+We can still fight the Queen![END-FE]
 
 
 
@@ -464,8 +460,8 @@
 //…ん？[NLINE]
 //この感じ…。[END-FE]
 [CHARBC00][V0F00]
-…ん？[NLINE]
-この感じ…。[END-FE]
+...Hm?[NLINE]
+This feeling...[END-FE]
 
 
 
@@ -477,8 +473,8 @@
 //貴様、スクリーパーの能力を[NLINE]
 //封じたか！[END-FE]
 [CHARBC00][V1000]
-貴様、スクリーパーの能力を[NLINE]
-封じたか！[END-FE]
+Did you seal the Screaper[NLINE]
+ability, you punk!?[END-FE]
 
 
 
@@ -491,9 +487,9 @@
 //おかげで、あの薬を飲まなくても[NLINE]
 //良くなったんだから！[END-FE]
 [CHARBC00][V1100]
-悪い？[NLINE]
-おかげで、あの薬を飲まなくても[NLINE]
-良くなったんだから！[END-FE]
+So? Now he doesn't[NLINE]
+have to take the pills[NLINE]
+anymore![END-FE]
 
 
 
@@ -514,17 +510,17 @@
 //クイーン・スクリーパーのことは[NLINE]
 //俺にまかせて、お前らは死ぬがいい！[END-FE]
 [CHARBC00][V1200]
-あれを封じれば、[NLINE]
-もはや前のような成長はない！[NWIN]
+But now he'll never get[NLINE]
+any stronger, either![NWIN]
 
 [CHARBC00][V1300]
-そんな状態で[NLINE]
-クイーン・スクリーパーと戦うつもりか？[NLINE]
-全くバカげている！[NWIN]
+Fighting the Queen Screaper[NLINE]
+in your current state is past[NLINE]
+stupid--it's insane![NWIN]
 
 [CHARBC00][V1400]
-クイーン・スクリーパーのことは[NLINE]
-俺にまかせて、お前らは死ぬがいい！[END-FE]
+The Queen is mine! Now[NLINE]
+die by my hand![END-FE]
 
 
 
@@ -535,7 +531,7 @@
 //[CHARBC00][V1500]
 //はっ、これは!?[END-FE]
 [CHARBC00][V1500]
-はっ、これは!?[END-FE]
+What's this!?[END-FE]
 
 
 
@@ -550,11 +546,11 @@
 //すぐに攻撃に加われ！[NLINE]
 //こいつらを皆殺しにする！[END-FE]
 [CHARBC00][V1600]
-戻ったか、アレッサ！[NWIN]
+Elessa, you've returned![NWIN]
 
 [CHARBC00][V1700]
-すぐに攻撃に加われ！[NLINE]
-こいつらを皆殺しにする！[END-FE]
+Come and help me[NLINE]
+annihilate these vermin![END-FE]
 
 
 
@@ -565,7 +561,7 @@
 //[CHARBC00][V1800]
 //はっ！[END-FE]
 [CHARBC00][V1800]
-はっ！[END-FE]
+Yes, Master![END-FE]
 
 
 
@@ -575,8 +571,8 @@
 #W32($52D4)
 //俺とただの人間との間の決定的な差を、[NLINE]
 //思い知るがいい！[END-FE]
-俺とただの人間との間の決定的な差を、[NLINE]
-思い知るがいい！[END-FE]
+You're not just fighting a lowly[NLINE]
+human! Behold![END-FE]
 
 
 
@@ -585,7 +581,7 @@
 //POINTER #46 @ $52D8 - STRING #46 @ $5D48
 #W32($52D8)
 //えええ！アンタがもうひとり！！[END-FE]
-えええ！アンタがもうひとり！！[END-FE]
+Whaaat!? It's another you![END-FE]
 
 
 
@@ -595,8 +591,8 @@
 #W32($52DC)
 //だ、誰！[NLINE]
 //わ、わたしですかぁ？！[END-FE]
-だ、誰！[NLINE]
-わ、わたしですかぁ？！[END-FE]
+Wh-Who's that!?[NLINE]
+Wait, is that me!?[END-FE]
 
 
 
@@ -606,8 +602,8 @@
 #W32($52E0)
 //ちょ、待て！[NLINE]
 //俺がもう一人？！[END-FE]
-ちょ、待て！[NLINE]
-俺がもう一人？！[END-FE]
+What the--!?[NLINE]
+Another me!?[END-FE]
 
 
 
@@ -617,8 +613,8 @@
 #W32($52E4)
 //こ、この……人の姿を……！[NLINE]
 //何者だ！[END-FE]
-こ、この……人の姿を……！[NLINE]
-何者だ！[END-FE]
+How dare you take my[NLINE]
+form...! What are you!?[END-FE]
 
 
 
@@ -627,7 +623,7 @@
 //POINTER #50 @ $52E8 - STRING #50 @ $5DD4
 #W32($52E8)
 //ふむ。これはまた奇妙な技を…。[END-FE]
-ふむ。これはまた奇妙な技を…。[END-FE]
+Hm. What a curious ability...[END-FE]
 
 
 
@@ -638,9 +634,9 @@
 //これは貴様ら自身から作り出した影！[NLINE]
 //貴様らも俺にとっては力の材料にすぎん！[NLINE]
 //これが絶対的な力の差ということだ！[END-FE]
-これは貴様ら自身から作り出した影！[NLINE]
-貴様らも俺にとっては力の材料にすぎん！[NLINE]
-これが絶対的な力の差ということだ！[END-FE]
+That was only a shadow! You're[NLINE]
+nothing but fuel for my power![NLINE]
+That's the difference between us![END-FE]
 
 
 
@@ -649,7 +645,7 @@
 //POINTER #52 @ $52F0 - STRING #52 @ $5E66
 #W32($52F0)
 //な、なんだとっ！！[END-FE]
-な、なんだとっ！！[END-FE]
+Wh-What the!?[END-FE]
 
 
 
@@ -658,7 +654,7 @@
 //POINTER #53 @ $52F4 - STRING #53 @ $5E7B
 #W32($52F4)
 //これは…っ！！[END-FE]
-これは…っ！！[END-FE]
+This...![END-FE]
 
 
 
@@ -668,8 +664,8 @@
 #W32($52F8)
 //うわぁ！増えた！[NLINE]
 //増えちゃったよ！[END-FE]
-うわぁ！増えた！[NLINE]
-増えちゃったよ！[END-FE]
+Yikes! He split up![NLINE]
+There's more of him![END-FE]
 
 
 
@@ -680,9 +676,9 @@
 //幻影などではないぞ。[NLINE]
 //いまや分身を作り出せるほどに[NLINE]
 //俺の力は増しているのだ。[END-FE]
-幻影などではないぞ。[NLINE]
-いまや分身を作り出せるほどに[NLINE]
-俺の力は増しているのだ。[END-FE]
+It's no illusion. My powers[NLINE]
+now allow me to create[NLINE]
+true duplicates of myself.[END-FE]
 
 
 
@@ -692,8 +688,8 @@
 #W32($5300)
 //その力のためにどれだけの人々を[NLINE]
 //犠牲にしたんですかっ！！[END-FE]
-その力のためにどれだけの人々を[NLINE]
-犠牲にしたんですかっ！！[END-FE]
+How many people did you[NLINE]
+sacrifice for that power!?[END-FE]
 
 
 
@@ -703,8 +699,8 @@
 #W32($5304)
 //人の命を想わぬ力に正義はない！[NLINE]
 //貴様の暴虐、ここで終わらせて貰う！[END-FE]
-人の命を想わぬ力に正義はない！[NLINE]
-貴様の暴虐、ここで終わらせて貰う！[END-FE]
+Power at the expense of human[NLINE]
+life is injustice! This ends here![END-FE]
 
 
 
@@ -714,8 +710,8 @@
 #W32($5308)
 //独りよがりなんだよ、アンタは！[NLINE]
 //ここから先はやらせないぜ！[END-FE]
-独りよがりなんだよ、アンタは！[NLINE]
-ここから先はやらせないぜ！[END-FE]
+You self-righteous bastard![NLINE]
+You won't get past us![END-FE]
 
 
 
@@ -725,8 +721,8 @@
 #W32($530C)
 //違う！真の力とは手を携えることだ！[NLINE]
 //貴様の力で未来は拓けない！[END-FE]
-違う！真の力とは手を携えることだ！[NLINE]
-貴様の力で未来は拓けない！[END-FE]
+No! Your power cannot possibly[NLINE]
+benefit the future of humanity![END-FE]
 
 
 
@@ -737,7 +733,7 @@
 //[CHARBC00][V1900]
 //うあぁっ！[END-FE]
 [CHARBC00][V1900]
-うあぁっ！[END-FE]
+Aaagh![END-FE]
 
 
 
@@ -748,7 +744,7 @@
 //[CHARBC00][V1A00]
 //チッ、アレッサが…。[END-FE]
 [CHARBC00][V1A00]
-チッ、アレッサが…。[END-FE]
+Elessa...[END-FE]
 
 
 
@@ -759,7 +755,7 @@
 //[CHARBC00][V1B00]
 //ジークヴァルト様…。[END-FE]
 [CHARBC00][V1B00]
-ジークヴァルト様…。[END-FE]
+Master Ziekwalt...[END-FE]
 
 
 
@@ -770,7 +766,7 @@
 //[CHARBC00][V1C00]
 //お前はここで休んでいろ。[END-FE]
 [CHARBC00][V1C00]
-お前はここで休んでいろ。[END-FE]
+Stay here and rest.[END-FE]
 
 
 
@@ -780,8 +776,8 @@
 #W32($5320)
 //違う、こいつは分身の方か？！[NLINE]
 //ジークヴァルト本体はどちらだ！[END-FE]
-違う、こいつは分身の方か？！[NLINE]
-ジークヴァルト本体はどちらだ！[END-FE]
+It was a duplicate!? Then[NLINE]
+which one's the real Ziekwalt!?[END-FE]
 
 
 
@@ -791,8 +787,8 @@
 #W32($5324)
 //これは分身か！[NLINE]
 //ジークヴァルト本体を倒さなければ！[END-FE]
-これは分身か！[NLINE]
-ジークヴァルト本体を倒さなければ！[END-FE]
+This one's a duplicate! We[NLINE]
+must find the real Ziekwalt![END-FE]
 
 
 
@@ -802,8 +798,8 @@
 #W32($5328)
 //くそ、ハズレだ！[NLINE]
 //ホンモノのジークヴァルトはどれだ！[END-FE]
-くそ、ハズレだ！[NLINE]
-ホンモノのジークヴァルトはどれだ！[END-FE]
+Dammit, wrong one! Where's[NLINE]
+the real Ziekwalt!?[END-FE]
 
 
 
@@ -813,8 +809,8 @@
 #W32($532C)
 //ち、違いました！[NLINE]
 //本体は他にいます！[END-FE]
-ち、違いました！[NLINE]
-本体は他にいます！[END-FE]
+Th-This isn't it! This[NLINE]
+one's a fake![END-FE]
 
 
 
@@ -823,7 +819,7 @@
 //POINTER #68 @ $5330 - STRING #68 @ $6146
 #W32($5330)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -832,7 +828,7 @@
 //POINTER #69 @ $5334 - STRING #69 @ $615B
 #W32($5334)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -841,7 +837,7 @@
 //POINTER #70 @ $5338 - STRING #70 @ $6170
 #W32($5338)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -850,7 +846,7 @@
 //POINTER #71 @ $533C - STRING #71 @ $6185
 #W32($533C)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -859,7 +855,7 @@
 //POINTER #72 @ $5340 - STRING #72 @ $619A
 #W32($5340)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -868,7 +864,7 @@
 //POINTER #73 @ $5344 - STRING #73 @ $61AF
 #W32($5344)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -877,7 +873,7 @@
 //POINTER #74 @ $5348 - STRING #74 @ $61C4
 #W32($5348)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -886,7 +882,7 @@
 //POINTER #75 @ $534C - STRING #75 @ $61D9
 #W32($534C)
 //[CC.EAFDFF]は崩れ去った！[END-FE]
-[CC.EAFDFF]は崩れ去った！[END-FE]
+[CC.EAFDFF] collapsed and disappeared![END-FE]
 
 
 
@@ -895,7 +891,7 @@
 //POINTER #76 @ $5350 - STRING #76 @ $61EE
 #W32($5350)
 //わ、我らの悲願は…！[END-FE]
-わ、我らの悲願は…！[END-FE]
+O-Our dream...![END-FE]
 
 
 
@@ -905,8 +901,8 @@
 #W32($5354)
 //戦いの中で死ねたのだ…[NLINE]
 //悔いはない…。[END-FE]
-戦いの中で死ねたのだ…[NLINE]
-悔いはない…。[END-FE]
+I died in battle...[NLINE]
+I regret nothing...[END-FE]
 
 
 
@@ -917,7 +913,7 @@
 //[CHARBC00][V1D00]
 //グワッ！[END-FE]
 [CHARBC00][V1D00]
-グワッ！[END-FE]
+Argh![END-FE]
 
 
 
@@ -928,7 +924,7 @@
 //[CHARBC00][V1E00]
 //ジークヴァルト様！[END-FE]
 [CHARBC00][V1E00]
-ジークヴァルト様！[END-FE]
+Master Ziekwalt![END-FE]
 
 
 
@@ -939,7 +935,7 @@
 //[CHARBC00][V1F00]
 //う…あぁ…。[END-FE]
 [CHARBC00][V1F00]
-う…あぁ…。[END-FE]
+Ugh... Agh...[END-FE]
 
 
 
@@ -950,7 +946,7 @@
 //[CHARBC00][V2000]
 //アレッサ！[END-FE]
 [CHARBC00][V2000]
-アレッサ！[END-FE]
+Elessa![END-FE]
 
 
 
@@ -961,7 +957,7 @@
 //[CHARBC00][V2100]
 //あ、アレッサが！[END-FE]
 [CHARBC00][V2100]
-あ、アレッサが！[END-FE]
+Hey... look at Elessa![END-FE]
 
 
 
@@ -973,8 +969,8 @@
 //うむ…少なからずジークヴァルトの[NLINE]
 //影響を受けていたようだな。[END-FE]
 [CHARBC00][V2200]
-うむ…少なからずジークヴァルトの[NLINE]
-影響を受けていたようだな。[END-FE]
+Hm... She seems to have been[NLINE]
+partially controlled by Ziekwalt.[END-FE]
 
 
 
@@ -986,8 +982,8 @@
 //少なからずジークヴァルトの[NLINE]
 //影響をうけていたようね。[END-FE]
 [CHARBC00][V2300]
-少なからずジークヴァルトの[NLINE]
-影響をうけていたようね。[END-FE]
+She seems to have been[NLINE]
+partially controlled by Ziekwalt.[END-FE]
 
 
 
@@ -999,8 +995,8 @@
 //ジークヴァルト様が…[NLINE]
 //もはやこれまで…。[END-FE]
 [CHARBC00][V2400]
-ジークヴァルト様が…[NLINE]
-もはやこれまで…。[END-FE]
+Master Ziekwalt is[NLINE]
+gone... It's over...[END-FE]
 
 
 
@@ -1012,8 +1008,8 @@
 //ジークヴァルト様が…[NLINE]
 //もはやこれまで…。[END-FE]
 [CHARBC00][V2500]
-ジークヴァルト様が…[NLINE]
-もはやこれまで…。[END-FE]
+Master Ziekwalt is[NLINE]
+gone... It's over...[END-FE]
 
 
 
@@ -1025,8 +1021,8 @@
 //ジークヴァルト様が…[NLINE]
 //もはやこれまで…。[END-FE]
 [CHARBC00][V2600]
-ジークヴァルト様が…[NLINE]
-もはやこれまで…。[END-FE]
+Master Ziekwalt is[NLINE]
+gone... It's over...[END-FE]
 
 
 
@@ -1042,12 +1038,12 @@
 //…これでもう、クイーン・スクリーパーを[NLINE]
 //倒すことは出来ない。[END-FE]
 [CHARBC00][V2700]
-クックック……。[NLINE]
-バカな奴らだ…。[NWIN]
+Hahaha...[NLINE]
+Foolish bastards...[NWIN]
 
 [CHARBC00][V2800]
-…これでもう、クイーン・スクリーパーを[NLINE]
-倒すことは出来ない。[END-FE]
+...Now you'll never defeat[NLINE]
+the Queen Screaper.[END-FE]
 
 
 
@@ -1056,7 +1052,7 @@
 //POINTER #89 @ $5384 - STRING #89 @ $6437
 #W32($5384)
 //・倒せないという理由を聞く[END-FE]
-・倒せないという理由を聞く[END-FE]
+・Ask why we can't defeat it[END-FE]
 
 
 
@@ -1065,7 +1061,7 @@
 //POINTER #90 @ $5388 - STRING #90 @ $6454
 #W32($5388)
 //・やってみなければ判らない[END-FE]
-・やってみなければ判らない[END-FE]
+・We won't know unless we try[END-FE]
 
 
 
@@ -1074,7 +1070,7 @@
 //POINTER #91 @ $538C - STRING #91 @ $6471
 #W32($538C)
 //・自分たちが必ず倒す[END-FE]
-・自分たちが必ず倒す[END-FE]
+・We'll absolutely defeat it[END-FE]
 
 
 
@@ -1091,13 +1087,13 @@
 //まあ、やってみればわかる。[NLINE]
 //そして絶望を味わうんだな…。[END-FE]
 [CHARBC00][V2A00]
-クイーンは特別だ。[NLINE]
-その能力を封じる力を持つのは[NLINE]
-俺だけだった。[NWIN]
+The Queen isn't like the[NLINE]
+others. Only I could[NLINE]
+counter its ability.[NWIN]
 
 [CHARBC00][V2B00]
-まあ、やってみればわかる。[NLINE]
-そして絶望を味わうんだな…。[END-FE]
+You'll see once you face it,[NLINE]
+and learn what true despair is...[END-FE]
 
 
 
@@ -1109,8 +1105,8 @@
 //ならば、やってみるがいい…。[NLINE]
 //そして絶望を味わうんだな…。[END-FE]
 [CHARBC00][V2900]
-ならば、やってみるがいい…。[NLINE]
-そして絶望を味わうんだな…。[END-FE]
+Oh, you can try... And[NLINE]
+see how hopeless it is...[END-FE]
 
 
 
@@ -1122,8 +1118,8 @@
 //これを持って行け。[NLINE]
 //クイーンを封じた結界内に入るための指輪だ。[END-FE]
 [CHARBC00][V2C00]
-これを持って行け。[NLINE]
-クイーンを封じた結界内に入るための指輪だ。[END-FE]
+If you're going to try, take this ring to[NLINE]
+pass the barrier sealing the Queen.[END-FE]
 
 
 
@@ -1134,7 +1130,7 @@
 //[CHARBC00][V2D00]
 //それから、これも返してやる…。[END-FE]
 [CHARBC00][V2D00]
-それから、これも返してやる…。[END-FE]
+You can have this back too...[END-FE]
 
 
 
@@ -1158,20 +1154,20 @@
 //お前たちが絶望するさまを[NLINE]
 //…あの世から見ているぜ…。[END-FE]
 [CHARBC00][V2E00]
-龍脈の力が弱っている…。[NWIN]
+...The Ley Line is weakening...[NWIN]
 
 [CHARBC00][V2F00]
-このままでもあと数ヶ月で、[NLINE]
-クイーンを抑えている封印が解ける…。[NWIN]
+At this rate, the seal holding back[NLINE]
+the Queen will be broken in months...[NWIN]
 
 [CHARBC00][V3000]
-…出来るなら、その数ヶ月で、[NLINE]
-ヤツを倒す力を身につけてみろ…。[NLINE]
-まぁ、無理だろうがな…。[NWIN]
+That's how long you have to[NLINE]
+get strong enough to defeat it...[NLINE]
+I doubt it's possible.[NWIN]
 
 [CHARBC00][V3100]
-お前たちが絶望するさまを[NLINE]
-…あの世から見ているぜ…。[END-FE]
+I'll be watching your fall[NLINE]
+into despair... from hell...[END-FE]
 
 
 
@@ -1182,7 +1178,7 @@
 //[CHARBC00][V3200]
 //ご無事ですか！[END-FE]
 [CHARBC00][V3200]
-ご無事ですか！[END-FE]
+Are you all right, Sirs!?[END-FE]
 
 
 
@@ -1197,11 +1193,11 @@
 //それよりも、頼みがある。[NLINE]
 //アレッサを本部へ連れ帰ってくれ。[END-FE]
 [CHARBC00][V3300]
-ああ、終わったぜ。[NWIN]
+Yeah, it's over.[NWIN]
 
 [CHARBC00][V3400]
-それよりも、頼みがある。[NLINE]
-アレッサを本部へ連れ帰ってくれ。[END-FE]
+I need a favor, though. Can you[NLINE]
+take Elessa back to the PMB?[END-FE]
 
 
 
@@ -1216,11 +1212,11 @@
 //それよりも、頼みがある。[NLINE]
 //アレッサを本部へ連れ帰ってくれ。[END-FE]
 [CHARBC00][V3500]
-ああ、こっちは終わった。[NWIN]
+Yes, it's finally over.[NWIN]
 
 [CHARBC00][V3600]
-それよりも、頼みがある。[NLINE]
-アレッサを本部へ連れ帰ってくれ。[END-FE]
+I have a favor to ask though.[NLINE]
+Take Elessa back to the PMB.[END-FE]
 
 
 
@@ -1231,7 +1227,7 @@
 //[CHARBC00][V3700]
 //了解しました！[END-FE]
 [CHARBC00][V3700]
-了解しました！[END-FE]
+Yes, Sir![END-FE]
 
 
 
@@ -1240,7 +1236,7 @@
 //POINTER #101 @ $53B4 - STRING #101 @ $67D3
 #W32($53B4)
 //……。[END-FE]
-……。[END-FE]
+......[END-FE]
 
 
 
@@ -1251,7 +1247,7 @@
 //　[NLINE]
 //アレッサは気絶しているようだ。[END-FE]
 　[NLINE]
-アレッサは気絶しているようだ。[END-FE]
+Elessa seems to be unconscious.[END-FE]
 
 
 
@@ -1261,8 +1257,8 @@
 #W32($53BC)
 //お疲れさまでした。[NLINE]
 //後のことはお任せ下さい。[END-FE]
-お疲れさまでした。[NLINE]
-後のことはお任せ下さい。[END-FE]
+Great work, Sirs. We'll[NLINE]
+take care of the rest.[END-FE]
 
 
 
@@ -1272,8 +1268,8 @@
 #W32($53C0)
 //みなさんは本当にすごいですね。[NLINE]
 //尊敬します。[END-FE]
-みなさんは本当にすごいですね。[NLINE]
-尊敬します。[END-FE]
+You're amazing... I really look[NLINE]
+up to all of you.[END-FE]
 
 
 
@@ -1283,8 +1279,8 @@
 #W32($53C4)
 //きゃー！[NLINE]
 //食べられちゃうー！[END-FE]
-きゃー！[NLINE]
-食べられちゃうー！[END-FE]
+Help! He'll eat[NLINE]
+me alive![END-FE]
 
 
 
@@ -1295,9 +1291,9 @@
 //あ～ん！[NLINE]
 //まただ～！[NLINE]
 //助けてぇ～！[END-FE]
-あ～ん！[NLINE]
-まただ～！[NLINE]
-助けてぇ～！[END-FE]
+Waaaaah![NLINE]
+Not again![NLINE]
+Help meee![END-FE]
 
 
 
@@ -1307,8 +1303,8 @@
 #W32($53CC)
 //う～ん…。[NLINE]
 //だんだん、慣れてきたぞ…。[END-FE]
-う～ん…。[NLINE]
-だんだん、慣れてきたぞ…。[END-FE]
+Hrm... I think I'm kinda[NLINE]
+getting used to this...[END-FE]
 
 
 
@@ -1318,8 +1314,8 @@
 #W32($53D0)
 //あっ！[NLINE]
 //こいつ、スゴイ虫歯がある！[END-FE]
-あっ！[NLINE]
-こいつ、スゴイ虫歯がある！[END-FE]
+Ewww! This guy's got a[NLINE]
+huge cavity![END-FE]
 
 
 
@@ -1329,8 +1325,8 @@
 #W32($53D4)
 //なま温かい…。[NLINE]
 //ヌメヌメが…。[END-FE]
-なま温かい…。[NLINE]
-ヌメヌメが…。[END-FE]
+It's icky in here...[NLINE]
+So slimy...[END-FE]
 
 
 
@@ -1340,8 +1336,8 @@
 #W32($53D8)
 //きゃー[COL03][HEART][COL00][NLINE]
 //また、食べられちゃったー！[END-FE]
-きゃー[COL03][HEART][COL00][NLINE]
-また、食べられちゃったー！[END-FE]
+Eeeek![NLINE]
+I've been eaten again![END-FE]
 
 
 
@@ -1351,8 +1347,8 @@
 #W32($53DC)
 //ま、またか…。[NLINE]
 //もう、いい加減にしてよね！[END-FE]
-ま、またか…。[NLINE]
-もう、いい加減にしてよね！[END-FE]
+A-Again...? Geez, will[NLINE]
+you stop it already!?[END-FE]
 
 
 
@@ -1362,8 +1358,8 @@
 #W32($53E0)
 //こら～！[NLINE]
 //早く助けなさーい！[END-FE]
-こら～！[NLINE]
-早く助けなさーい！[END-FE]
+Hey! Hurry up and[NLINE]
+help meeee![END-FE]
 
 
 
@@ -1373,8 +1369,8 @@
 #W32($53E4)
 //・パーティーの全滅[NLINE]
 //・コリンを食べたモンスターの逃走[END-FE]
-・パーティーの全滅[NLINE]
-・コリンを食べたモンスターの逃走[END-FE]
+・All party members die[NLINE]
+・Korin's Devourer escapes[END-FE]
 
 
 
@@ -1385,9 +1381,9 @@
 //・パーティーの全滅[NLINE]
 //・同行人の死亡[NLINE]
 //・コリンを食べたモンスターの逃走[END-FE]
-・パーティーの全滅[NLINE]
-・同行人の死亡[NLINE]
-・コリンを食べたモンスターの逃走[END-FE]
+・All party members die[NLINE]
+・Follower dies[NLINE]
+・Korin's Devourer escapes[END-FE]
 
 
 
@@ -1396,7 +1392,7 @@
 //POINTER #115 @ $53EC - STRING #115 @ $6A09
 #W32($53EC)
 //あ～、こわかった[COL01]★[COL00][END-FE]
-あ～、こわかった[COL01]★[COL00][END-FE]
+Whoa, that was scary[COL01]★[COL00][END-FE]
 
 
 
@@ -1407,9 +1403,9 @@
 //あ、危なっ！[NLINE]
 //いま、攻撃がね、[NLINE]
 //目の前をかすめていったんだよ！[END-FE]
-あ、危なっ！[NLINE]
-いま、攻撃がね、[NLINE]
-目の前をかすめていったんだよ！[END-FE]
+W-Whoa! Someone's[NLINE]
+attack just went[NLINE]
+right past me![END-FE]
 
 
 
@@ -1418,7 +1414,7 @@
 //POINTER #117 @ $53F4 - STRING #117 @ $6A65
 #W32($53F4)
 //た、助かった～。[END-FE]
-た、助かった～。[END-FE]
+I-I'm saved...![END-FE]
 
 
 
@@ -1427,7 +1423,7 @@
 //POINTER #118 @ $53F8 - STRING #118 @ $6A78
 #W32($53F8)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -1437,8 +1433,8 @@
 #W32($53FC)
 //・パーティーの全滅[NLINE]
 //・同行人の死亡[END-FE]
-・パーティーの全滅[NLINE]
-・同行人の死亡[END-FE]
+・All party members die[NLINE]
+・Follower dies[END-FE]
 
 
 
@@ -1447,7 +1443,7 @@
 //POINTER #120 @ $5400 - STRING #120 @ $6AB2
 #W32($5400)
 //た～す～け～て～！[END-FE]
-た～す～け～て～！[END-FE]
+Heeeeeeeelp![END-FE]
 
 
 
@@ -1457,8 +1453,8 @@
 #W32($5404)
 //ダ、ダメです！[NLINE]
 //まだコリンちゃんが！[END-FE]
-ダ、ダメです！[NLINE]
-まだコリンちゃんが！[END-FE]
+N-No! Korin's still[NLINE]
+stuck in that thing![END-FE]
 
 
 
@@ -1468,8 +1464,8 @@
 #W32($5408)
 //おいおい！[NLINE]
 //コリンどうするんだよ！[END-FE]
-おいおい！[NLINE]
-コリンどうするんだよ！[END-FE]
+Hey! What're we going[NLINE]
+to do about Korin!?[END-FE]
 
 
 
@@ -1478,7 +1474,7 @@
 //POINTER #123 @ $540C - STRING #123 @ $6B13
 #W32($540C)
 //コリンを助けなければ。[END-FE]
-コリンを助けなければ。[END-FE]
+We must save Korin![END-FE]
 
 
 
@@ -1487,7 +1483,7 @@
 //POINTER #124 @ $5410 - STRING #124 @ $6B2C
 #W32($5410)
 //コリンを放っておくわけにはいくまい。[END-FE]
-コリンを放っておくわけにはいくまい。[END-FE]
+We can't leave Korin behind like that![END-FE]
 
 
 
@@ -1497,8 +1493,8 @@
 #W32($5414)
 //何をしている。[NLINE]
 //今はコリンを助けねば。[END-FE]
-何をしている。[NLINE]
-今はコリンを助けねば。[END-FE]
+What're you doing!?[NLINE]
+We need to save Korin![END-FE]
 
 
 
@@ -1508,5 +1504,9 @@
 #W32($5418)
 //あなたはコリンが[NLINE]
 //どうなってもいいのですか？[END-FE]
-あなたはコリンが[NLINE]
-どうなってもいいのですか？[END-FE]
+Don't you care what[NLINE]
+happens to Korin?[END-FE]
+
+
+
+

@@ -1338,12 +1338,12 @@ The Futon Dog ran off somewhere...[END-FE]
 
 //POINTER #142 @ $47D8 - STRING #142 @ $5DA0
 #W32($47D8)
-//本来ここは、[Merklich]と[NLINE]
+//本来ここは、[MainCharName]と[NLINE]
 //メルヴィナだけです。[NLINE]
-//コリンは[Merklich]追従ですが、それは入ってます[END-FE]
-本来ここは、[Merklich]と[NLINE]
+//コリンは[MainCharName]追従ですが、それは入ってます[END-FE]
+本来ここは、[MainCharName]と[NLINE]
 メルヴィナだけです。[NLINE]
-コリンは[Merklich]追従ですが、それは入ってます[END-FE]
+コリンは[MainCharName]追従ですが、それは入ってます[END-FE]
 
 
 
@@ -1798,8 +1798,8 @@ The Futon Dog ran off somewhere...[END-FE]
 
 //POINTER #188 @ $4890 - STRING #188 @ $656C
 #W32($4890)
-//・[Merklich]用武器[END-FE]
-・[Merklich]用武器[END-FE]
+//・[MainCharName]用武器[END-FE]
+・[MainCharName]用武器[END-FE]
 
 
 
@@ -2761,8 +2761,8 @@ The Futon Dog ran off somewhere...[END-FE]
 
 //POINTER #295 @ $4A3C - STRING #295 @ $6CA9
 #W32($4A3C)
-//・[Merklich]用防具[END-FE]
-・[Merklich]用防具[END-FE]
+//・[MainCharName]用防具[END-FE]
+・[MainCharName]用防具[END-FE]
 
 
 
@@ -5399,10 +5399,10 @@ The Futon Dog ran off somewhere...[END-FE]
 //POINTER #584 @ $4EC0 - STRING #584 @ $893A
 #W32($4EC0)
 //妖精成長系チェック？[NLINE]
-//チェックの為コリンが[Merklich]に追従します。[NLINE]
+//チェックの為コリンが[MainCharName]に追従します。[NLINE]
 //困る場合はこの場でキャンセルを。[END-FE]
 妖精成長系チェック？[NLINE]
-チェックの為コリンが[Merklich]に追従します。[NLINE]
+チェックの為コリンが[MainCharName]に追従します。[NLINE]
 困る場合はこの場でキャンセルを。[END-FE]
 
 

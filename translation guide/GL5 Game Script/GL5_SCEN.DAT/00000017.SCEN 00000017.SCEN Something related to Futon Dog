@@ -288,10 +288,10 @@ Grr!?[END-FE]
 
 //POINTER #28 @ $7910 - STRING #28 @ $80A8
 #W32($7910)
-//[CC.FFCE01][V6900]
+//<$FF><$CE>@<$01>[V6900]
 //ん？[NLINE]
 //何か埋まっているようだが…。[END-FE]
-[CC.FFCE01][V6900]
+<$FF><$CE>@<$01>[V6900]
 Huh? Is something[NLINE]
 buried here...?[END-FE]
 
@@ -301,9 +301,9 @@ buried here...?[END-FE]
 
 //POINTER #29 @ $7914 - STRING #29 @ $80D5
 #W32($7914)
-//[CC.FFCE01][V6A00]
+//<$FF><$CE>@<$01>[V6A00]
 //でっかい岩にカギ穴があるぞ？[END-FE]
-[CC.FFCE01][V6A00]
+<$FF><$CE>@<$01>[V6A00]
 The rock has a keyhole?[END-FE]
 
 
@@ -312,25 +312,25 @@ The rock has a keyhole?[END-FE]
 
 //POINTER #30 @ $7918 - STRING #30 @ $80FC
 #W32($7918)
-//[CC.FFCE01][V6B00]
+//<$FF><$CE>@<$01>[V6B00]
 //待てよ、[NLINE]
 //たしかオフクロの部屋で[NLINE]
 //見つけたカギが…。[NWIN]
 //
-//[CC.FFCE01][V6C00]
+//<$FF><$CE>@<$01>[V6C00]
 //…あった！[NWIN]
 //
-//[CC.FFCE01][V6D00]
+//<$FF><$CE>@<$01>[V6D00]
 //よし、これで…。[END-FE]
-[CC.FFCE01][V6B00]
+<$FF><$CE>@<$01>[V6B00]
 Wait a sec, that key[NLINE]
 I found in my[NLINE]
 mother's room...[NWIN]
 
-[CC.FFCE01][V6C00]
+<$FF><$CE>@<$01>[V6C00]
 ...This is it![NWIN]
 
-[CC.FFCE01][V6D00]
+<$FF><$CE>@<$01>[V6D00]
 Hope this works...[END-FE]
 
 
@@ -339,9 +339,9 @@ Hope this works...[END-FE]
 
 //POINTER #31 @ $791C - STRING #31 @ $8169
 #W32($791C)
-//[CC.FFCE01][V6E00]
+//<$FF><$CE>@<$01>[V6E00]
 //おっ、開いたぞ！[END-FE]
-[CC.FFCE01][V6E00]
+<$FF><$CE>@<$01>[V6E00]
 Yes! It's open![END-FE]
 
 
@@ -350,16 +350,16 @@ Yes! It's open![END-FE]
 
 //POINTER #32 @ $7920 - STRING #32 @ $8184
 #W32($7920)
-//[CC.FFCE01][V6F00]
+//<$FF><$CE>@<$01>[V6F00]
 //これで平和な世界を作れってことか…。[NWIN]
 //
-//[CC.FFCE01][V7000]
+//<$FF><$CE>@<$01>[V7000]
 //わかったよ、オフクロ。[NLINE]
 //やってやるぜ！[END-FE]
-[CC.FFCE01][V6F00]
+<$FF><$CE>@<$01>[V6F00]
 For creating a peaceful world, huh...?[NWIN]
 
-[CC.FFCE01][V7000]
+<$FF><$CE>@<$01>[V7000]
 All right, Mother. I'll do it![END-FE]
 
 
@@ -1602,11 +1602,11 @@ from the monsters![END-FE]
 //
 //それまで、モンスターから[NLINE]
 //逃げてて！[END-FE]
-じゃあ、街へ逃げられると思ったら[NLINE]
-声をかけるからさ！[NWIN]
+When we say run, then you[NLINE]
+run all the way to town![NWIN]
 
-それまで、モンスターから[NLINE]
-逃げてて！[END-FE]
+Stay away from the bad[NLINE]
+monsters until we do![END-FE]
 
 
 
@@ -2887,7 +2887,7 @@ Really!?[END-FE]
 //聞き覚えがないか？[END-FE]
 [CHAR8C00][V2700]
 Do you recognize[NLINE]
-it, [Haschen]?[END-FE]
+it, [MainCharName]?[END-FE]
 
 
 
@@ -3102,8 +3102,8 @@ and "Ley Line"...[END-FE]
 //子供の頃、オヤジの口から[NLINE]
 //その単語を聞いた気がするな。[END-FE]
 [CHAR8C00][V3400]
-子供の頃、オヤジの口から[NLINE]
-その単語を聞いた気がするな。[END-FE]
+I think I heard my dad talk[NLINE]
+about it when I was a kid.[END-FE]
 
 
 

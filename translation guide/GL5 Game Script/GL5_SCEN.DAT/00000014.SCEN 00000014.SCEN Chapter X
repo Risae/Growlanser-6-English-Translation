@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $4FA0 - STRING #0 @ $51D0
 #W32($4FA0)
 //[END-FF]
@@ -12,7 +10,7 @@
 //POINTER #1 @ $4FA4 - STRING #1 @ $51D3
 #W32($4FA4)
 //ロックバイン[END-FF]
-ロックバイン[END-FF]
+Rockbein[END-FF]
 
 
 
@@ -21,7 +19,7 @@
 //POINTER #2 @ $4FA8 - STRING #2 @ $51E2
 #W32($4FA8)
 //・敵の全滅[END-FE]
-・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
 
 
 
@@ -31,8 +29,8 @@
 #W32($4FAC)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -42,8 +40,8 @@
 #W32($4FB0)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -52,7 +50,7 @@
 //POINTER #5 @ $4FB4 - STRING #5 @ $5239
 #W32($4FB4)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -63,9 +61,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -76,9 +74,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -88,8 +86,8 @@
 #W32($4FC0)
 //・ＮＰＣの死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -99,8 +97,8 @@
 #W32($4FC4)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -110,8 +108,8 @@
 #W32($4FC8)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -120,7 +118,7 @@
 //POINTER #11 @ $4FCC - STRING #11 @ $5327
 #W32($4FCC)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -130,8 +128,8 @@
 #W32($4FD0)
 //　[NLINE]
 //ふとん犬はどこかへ走り去った…。[END-FE]
-　[NLINE]
-ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
 
 
 
@@ -140,7 +138,7 @@
 //POINTER #13 @ $4FD4 - STRING #13 @ $5363
 #W32($4FD4)
 //サウネイル遺跡[END-FE]
-サウネイル遺跡[END-FE]
+Saunail Ruins[END-FE]
 
 
 
@@ -153,11 +151,11 @@
 //
 //みなの攻撃を集中させ、少しでも早く[NLINE]
 //敵の頭数を減らすぞ！[END-FE]
-敵の数が多いな。[NLINE]
-みな、戦術の基本を思い出せ！[NWIN]
+This place is infested... Remember[NLINE]
+your training, men.[NWIN]
 
-みなの攻撃を集中させ、少しでも早く[NLINE]
-敵の頭数を減らすぞ！[END-FE]
+Concentrate your attacks to[NLINE]
+eliminate them one by one![END-FE]
 
 
 
@@ -166,7 +164,7 @@
 //POINTER #15 @ $4FDC - STRING #15 @ $53DF
 #W32($4FDC)
 //はっ！[END-FE]
-はっ！[END-FE]
+Yes, Sir![END-FE]
 
 
 
@@ -175,7 +173,7 @@
 //POINTER #16 @ $4FE0 - STRING #16 @ $53E8
 #W32($4FE0)
 //はっ！[END-FE]
-はっ！[END-FE]
+Sir![END-FE]
 
 
 
@@ -190,11 +188,11 @@
 //フェルナンドの部下たちも、[NLINE]
 //そう長く時間が稼げるわけではあるまい……。[END-FE]
 [CHAR2200][V2000]
-こちらから戻るのはまずいな。[NWIN]
+We'd best not go back this way.[NWIN]
 
 [CHAR2200][V2100]
-フェルナンドの部下たちも、[NLINE]
-そう長く時間が稼げるわけではあるまい……。[END-FE]
+Fernando's men can only buy us so[NLINE]
+much time...[END-FE]
 
 
 
@@ -205,7 +203,7 @@
 //　[NLINE]
 //今はそれどころではない！[END-FE]
 　[NLINE]
-今はそれどころではない！[END-FE]
+There's no time for that![END-FE]
 
 
 
@@ -215,8 +213,8 @@
 #W32($4FEC)
 //柱の中の不思議な装置には、[NLINE]
 //すでに貴重品が入っている。[END-FE]
-柱の中の不思議な装置には、[NLINE]
-すでに貴重品が入っている。[END-FE]
+The device in the pillar[NLINE]
+already contains an item.[END-FE]
 
 
 
@@ -225,7 +223,7 @@
 //POINTER #20 @ $4FF0 - STRING #20 @ $54C0
 #W32($4FF0)
 //取り出しますか？[END-FE]
-取り出しますか？[END-FE]
+Will you take it?[END-FE]
 
 
 
@@ -235,8 +233,8 @@
 #W32($4FF4)
 //柱の中に不思議な装置がある。[NLINE]
 //小さな貴重品なら入りそうだ。[END-FE]
-柱の中に不思議な装置がある。[NLINE]
-小さな貴重品なら入りそうだ。[END-FE]
+There's a mysterious[NLINE]
+receptacle for items.[END-FE]
 
 
 
@@ -245,7 +243,7 @@
 //POINTER #22 @ $4FF8 - STRING #22 @ $5510
 #W32($4FF8)
 //何か入れますか？[END-FE]
-何か入れますか？[END-FE]
+Put something inside?[END-FE]
 
 
 
@@ -256,7 +254,7 @@
 //　[NLINE]
 //『ヒビ割れた返し刃』を装置に入れた。[END-FE]
 　[NLINE]
-『ヒビ割れた返し刃』を装置に入れた。[END-FE]
+Obtained Rusted Blade.[END-FE]
 
 
 
@@ -267,7 +265,7 @@
 //　[NLINE]
 //『ヒビ割れた受け流し』を装置に入れた。[END-FE]
 　[NLINE]
-『ヒビ割れた受け流し』を装置に入れた。[END-FE]
+Obtained Rusted Shield.[END-FE]
 
 
 
@@ -278,7 +276,7 @@
 //　[NLINE]
 //『ヒビ割れた癒しの秘技』を装置に入れた。[END-FE]
 　[NLINE]
-『ヒビ割れた癒しの秘技』を装置に入れた。[END-FE]
+Obtained Torn Scroll.[END-FE]
 
 
 
@@ -289,7 +287,7 @@
 //　[NLINE]
 //入らないようだ……。[END-FE]
 　[NLINE]
-入らないようだ……。[END-FE]
+It doesn't quite fit...[END-FE]
 
 
 
@@ -300,9 +298,9 @@
 //柱の中に不思議な装置がある。　[NLINE]
 //小さな貴重品なら入りそうだが、[NLINE]
 //入りそうな物を持っていない。　[END-FE]
-柱の中に不思議な装置がある。　[NLINE]
-小さな貴重品なら入りそうだが、[NLINE]
-入りそうな物を持っていない。　[END-FE]
+The pillar contains a mysterious[NLINE]
+device, currently empty. Small[NLINE]
+items may fit inside of it.[END-FE]
 
 
 
@@ -313,7 +311,7 @@
 //　[NLINE]
 //何かの模様が浮かび上がっている。[END-FE]
 　[NLINE]
-何かの模様が浮かび上がっている。[END-FE]
+A pattern begins to emerge...[END-FE]
 
 
 
@@ -324,7 +322,7 @@
 //　[NLINE]
 //クリスタルは輝いている。[END-FE]
 　[NLINE]
-クリスタルは輝いている。[END-FE]
+The Crystal is shining.[END-FE]
 
 
 
@@ -334,8 +332,8 @@
 #W32($5018)
 //クリスタルは曇っている。[NLINE]
 //曇りを取りますか？[END-FE]
-クリスタルは曇っている。[NLINE]
-曇りを取りますか？[END-FE]
+The Crystal is caked with dust.[NLINE]
+Wipe it clean?[END-FE]
 
 
 
@@ -345,8 +343,8 @@
 #W32($501C)
 //クリスタルをみがいて[NLINE]
 //曇りを取った。　　　[END-FE]
-クリスタルをみがいて[NLINE]
-曇りを取った。　　　[END-FE]
+You polished the dust[NLINE]
+from the Crystal.[END-FE]
 
 
 
@@ -357,7 +355,7 @@
 //　[NLINE]
 //クリスタルは輝いている。[END-FE]
 　[NLINE]
-クリスタルは輝いている。[END-FE]
+The Crystal is shining.[END-FE]
 
 
 
@@ -367,8 +365,8 @@
 #W32($5024)
 //クリスタルは曇っている。[NLINE]
 //曇りを取りますか？[END-FE]
-クリスタルは曇っている。[NLINE]
-曇りを取りますか？[END-FE]
+The Crystal is caked with dust.[NLINE]
+Wipe it clean?[END-FE]
 
 
 
@@ -378,8 +376,8 @@
 #W32($5028)
 //クリスタルをみがいて[NLINE]
 //曇りを取った。　　　[END-FE]
-クリスタルをみがいて[NLINE]
-曇りを取った。　　　[END-FE]
+You polished the dust[NLINE]
+from the Crystal.[END-FE]
 
 
 
@@ -391,8 +389,8 @@
 //こ、これは！[NLINE]
 //維持軍と同じ古代兵器……？[END-FE]
 [CHAR2200][V0E00]
-こ、これは！[NLINE]
-維持軍と同じ古代兵器……？[END-FE]
+A-Are these... the same weapons[NLINE]
+the PMB uses...?[END-FE]
 
 
 
@@ -404,8 +402,8 @@
 //そのようだ。[NLINE]
 //小型だが複数あるな。[END-FE]
 [CHAR2200][V0F00]
-そのようだ。[NLINE]
-小型だが複数あるな。[END-FE]
+Seems so. Though[NLINE]
+they're less formidable.[END-FE]
 
 
 
@@ -418,9 +416,9 @@
 //入り口に少数の兵がいるだけ。[NLINE]
 //いったいどういう事なのでしょうか……？[END-FE]
 [CHAR2200][V1000]
-しかし、警備も甘く、[NLINE]
-入り口に少数の兵がいるだけ。[NLINE]
-いったいどういう事なのでしょうか……？[END-FE]
+Their security is thin, though...[NLINE]
+Only a few guards at the entrance.[NLINE]
+I wonder why?[END-FE]
 
 
 
@@ -438,14 +436,14 @@
 //兵器を動かすだけの[NLINE]
 //エネルギーが無いのだ…。[END-FE]
 [CHAR2200][V1100]
-αからの書簡に、[NLINE]
-その理由が書いてあった。[NLINE]
-この兵器は確かに強力な武器となるだろう。[NLINE]
-だが……。[NWIN]
+α's letter went over that.[NLINE]
+Don't worry, whatever's in[NLINE]
+here will be ours soon.[NLINE]
+Though...[NWIN]
 
 [CHAR2200][V1200]
-兵器を動かすだけの[NLINE]
-エネルギーが無いのだ…。[END-FE]
+We don't have an energy[NLINE]
+source to activate it...[END-FE]
 
 
 
@@ -456,7 +454,7 @@
 //[CHAR2200][V1300]
 //エネルギー………。[END-FE]
 [CHAR2200][V1300]
-エネルギー………。[END-FE]
+Energy source...?[END-FE]
 
 
 
@@ -470,10 +468,10 @@
 //この兵器を起動させる事は[NLINE]
 //出来なかったそうだ。[END-FE]
 [CHAR2200][V1400]
-現存している[NLINE]
-どんなエネルギーを以てしても、[NLINE]
-この兵器を起動させる事は[NLINE]
-出来なかったそうだ。[END-FE]
+There's nothing near here[NLINE]
+strong enough to activate[NLINE]
+a weapon of this magnitude,[NLINE]
+I'm afraid.[END-FE]
 
 
 
@@ -485,8 +483,8 @@
 //だから、維持軍は[NLINE]
 //この兵器を放置している、と。[END-FE]
 [CHAR2200][V1500]
-だから、維持軍は[NLINE]
-この兵器を放置している、と。[END-FE]
+So is that why the PMB[NLINE]
+just left it here, Sir?[END-FE]
 
 
 
@@ -498,8 +496,8 @@
 //それでは…我々にとっても、[NLINE]
 //この兵器は使えないと…？[END-FE]
 [CHAR2200][V1600]
-それでは…我々にとっても、[NLINE]
-この兵器は使えないと…？[END-FE]
+Does that mean... It's[NLINE]
+useless for us, too?[END-FE]
 
 
 
@@ -516,13 +514,14 @@
 //奴らが探し出せたものが、[NLINE]
 //我々に探せぬわけが無い。[END-FE]
 [CHAR2200][V1700]
-…いや。維持軍の連中は、[NLINE]
-あの巨大な兵器を動かすだけのエネルギーを[NLINE]
-どこから手に入れた？[NWIN]
+No... The PMB found an energy[NLINE]
+source somewhere strong[NLINE]
+enough to power their own[NLINE]
+ancient weapon.[NWIN]
 
 [CHAR2200][V1800]
-奴らが探し出せたものが、[NLINE]
-我々に探せぬわけが無い。[END-FE]
+If they can find one, then so[NLINE]
+can we.[END-FE]
 
 
 
@@ -538,12 +537,12 @@
 //我らの祖国を[NLINE]
 //取り戻す事の出来る希望の光を！[END-FE]
 [CHAR2200][V1900]
-では、探しましょう。[NLINE]
-この兵器を動かすに足るエネルギーを。[NWIN]
+Then what are we waiting for, Sir? [NLINE]
+The sooner we find it...[NWIN]
 
 [CHAR2200][V1A00]
-我らの祖国を[NLINE]
-取り戻す事の出来る希望の光を！[END-FE]
+The sooner we'll see the real[NLINE]
+Neylern reborn![END-FE]
 
 
 
@@ -563,16 +562,16 @@
 //[CHAR2200][V1D00]
 //我らの希望は、遺跡の中に眠っている！[END-FE]
 [CHAR2200][V1B00]
-そうだ。[NWIN]
+Yes...[NWIN]
 
 [CHAR2200][V1C00]
-そして、それだけではない。[NLINE]
-この大陸のどこかに、[NLINE]
-一国の軍隊にも匹敵するという[NLINE]
-生物兵器が眠っているはずだ。[NWIN]
+And that's just the beginning.[NLINE]
+Somewhere on this continent[NLINE]
+is a biological weapon capable[NLINE]
+of wiping out armies.[NWIN]
 
 [CHAR2200][V1D00]
-我らの希望は、遺跡の中に眠っている！[END-FE]
+Gentlemen, ruins are our future![END-FE]
 
 
 
@@ -584,8 +583,8 @@
 //部下たちには、未発見の遺跡がないか、[NLINE]
 //集中的に調査させます。[END-FE]
 [CHAR2200][V1E00]
-部下たちには、未発見の遺跡がないか、[NLINE]
-集中的に調査させます。[END-FE]
+I'll have my men work double shifts[NLINE]
+searching for more undisturbed sites.[END-FE]
 
 
 
@@ -597,8 +596,8 @@
 //こちら側には[NLINE]
 //警備がついていないのでしょうか？[END-FE]
 [CHAR2200][V2200]
-こちら側には[NLINE]
-警備がついていないのでしょうか？[END-FE]
+I just realized there aren't any[NLINE]
+guards on this side.[END-FE]
 
 
 
@@ -610,8 +609,8 @@
 //そのようだな。[NLINE]
 //危険と判断したのかも知れん。[END-FE]
 [CHAR2200][V2300]
-そのようだな。[NLINE]
-危険と判断したのかも知れん。[END-FE]
+No, there aren't. They must[NLINE]
+have gotten cold feet.[END-FE]
 
 
 
@@ -625,10 +624,10 @@
 //反対側から兵器を運び出してしまえば[NLINE]
 //いいのですから。[END-FE]
 [CHAR2200][V2400]
-好都合ですね。[NLINE]
-我々がガーディアンを倒し、[NLINE]
-反対側から兵器を運び出してしまえば[NLINE]
-いいのですから。[END-FE]
+It's convenient for us, Sir. We[NLINE]
+just have to destroy the Guardians,[NLINE]
+then bring the weapon out through[NLINE]
+the other side.[END-FE]
 
 
 
@@ -639,7 +638,7 @@
 //[CHAR2200][V2500]
 //そういうことだ。いくぞ！[END-FE]
 [CHAR2200][V2500]
-そういうことだ。いくぞ！[END-FE]
+You're right. Let's go.[END-FE]
 
 
 
@@ -650,7 +649,7 @@
 //　[NLINE]
 //カギがかかっている。[END-FE]
 　[NLINE]
-カギがかかっている。[END-FE]
+It's locked.[END-FE]
 
 
 
@@ -660,8 +659,8 @@
 #W32($5070)
 //戻っても意味がない、[NLINE]
 //ここを突破しなければ。[END-FE]
-戻っても意味がない、[NLINE]
-ここを突破しなければ。[END-FE]
+There's no going back. We[NLINE]
+must break through here.[END-FE]
 
 
 
@@ -670,7 +669,7 @@
 //POINTER #53 @ $5074 - STRING #53 @ $5D05
 #W32($5074)
 //脱出するぞ、早く来るんだ！[END-FE]
-脱出するぞ、早く来るんだ！[END-FE]
+We must escape! Come on![END-FE]
 
 
 
@@ -679,7 +678,7 @@
 //POINTER #54 @ $5078 - STRING #54 @ $5D22
 #W32($5078)
 //退路は確保しました！[END-FE]
-退路は確保しました！[END-FE]
+The exit is secure, Sir![END-FE]
 
 
 
@@ -688,7 +687,7 @@
 //POINTER #55 @ $507C - STRING #55 @ $5D39
 #W32($507C)
 //ここから脱出できそうです。[END-FE]
-ここから脱出できそうです。[END-FE]
+I think we can get out from here.[END-FE]
 
 
 
@@ -700,8 +699,8 @@
 //来るぞ！[NLINE]
 //気をつけろ！[END-FE]
 [CHAR2200][V2600]
-来るぞ！[NLINE]
-気をつけろ！[END-FE]
+They're coming![NLINE]
+Stay alert![END-FE]
 
 
 
@@ -719,7 +718,7 @@
 //POINTER #58 @ $5088 - STRING #58 @ $5D8C
 #W32($5088)
 //・敵の全滅[END-FE]
-・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
 
 
 
@@ -728,7 +727,7 @@
 //POINTER #59 @ $508C - STRING #59 @ $5D99
 #W32($508C)
 //・パーティーメンバーの死亡[END-FE]
-・パーティーメンバーの死亡[END-FE]
+・Any party member dies[END-FE]
 
 
 
@@ -752,7 +751,7 @@
 //POINTER #61 @ $5094 - STRING #61 @ $5E1F
 #W32($5094)
 //むぅ……。[END-FE]
-むぅ……。[END-FE]
+Tch...[END-FE]
 
 
 
@@ -761,7 +760,7 @@
 //POINTER #62 @ $5098 - STRING #62 @ $5E2C
 #W32($5098)
 //くっ……きりがないな。[END-FE]
-くっ……きりがないな。[END-FE]
+Urgh... It never ends.[END-FE]
 
 
 
@@ -772,9 +771,9 @@
 //グローマー、フェルナンド！[NLINE]
 //手に余るようなら、[NLINE]
 //シャッターを壊して脱出するぞ！[END-FE]
-グローマー、フェルナンド！[NLINE]
-手に余るようなら、[NLINE]
-シャッターを壊して脱出するぞ！[END-FE]
+They're very tenacious...[NLINE]
+We may have to destroy the[NLINE]
+shutter door to escape![END-FE]
 
 
 
@@ -784,8 +783,8 @@
 #W32($50A0)
 //・敵の全滅[NLINE]
 //・パーティー全員が遺跡から脱出[END-FE]
-・敵の全滅[NLINE]
-・パーティー全員が遺跡から脱出[END-FE]
+・All enemies defeated[NLINE]
+・All party members escape[END-FE]
 
 
 
@@ -814,8 +813,8 @@
 #W32($50A8)
 //ガーディアン１をコマンダーに変更。[NLINE]
 //残りＨＰは[CC.EF06][END-FE]
-ガーディアン１をコマンダーに変更。[NLINE]
-残りＨＰは[CC.EF06][END-FE]
+Guardian 1 will take command.[NLINE]
+Remaining HP is [CC.EF06][END-FE]
 
 
 
@@ -825,8 +824,8 @@
 #W32($50AC)
 //ガーディアン２をコマンダーに変更。[NLINE]
 //残りＨＰは[CC.EF06][END-FE]
-ガーディアン２をコマンダーに変更。[NLINE]
-残りＨＰは[CC.EF06][END-FE]
+Guardian 2 will take command.[NLINE]
+Remaining HP is [CC.EF06][END-FE]
 
 
 
@@ -836,8 +835,8 @@
 #W32($50B0)
 //ガーディアン３をコマンダーに変更。[NLINE]
 //残りＨＰは[CC.EF06][END-FE]
-ガーディアン３をコマンダーに変更。[NLINE]
-残りＨＰは[CC.EF06][END-FE]
+Guardian 3 will take command.[NLINE]
+Remaining HP is [CC.EF06][END-FE]
 
 
 
@@ -847,8 +846,8 @@
 #W32($50B4)
 //ガーディアン４をコマンダーに変更。[NLINE]
 //残りＨＰは[CC.EF06][END-FE]
-ガーディアン４をコマンダーに変更。[NLINE]
-残りＨＰは[CC.EF06][END-FE]
+Guardian 4 will take command.[NLINE]
+Remaining HP is [CC.EF06][END-FE]
 
 
 
@@ -858,8 +857,8 @@
 #W32($50B8)
 //ガーディアン５をコマンダーに変更。[NLINE]
 //残りＨＰは[CC.EF06][END-FE]
-ガーディアン５をコマンダーに変更。[NLINE]
-残りＨＰは[CC.EF06][END-FE]
+Guardian 5 will take command.[NLINE]
+Remaining HP is [CC.EF06][END-FE]
 
 
 
@@ -869,8 +868,8 @@
 #W32($50BC)
 //ガーディアン６をコマンダーに変更。[NLINE]
 //残りＨＰは[CC.EF06][END-FE]
-ガーディアン６をコマンダーに変更。[NLINE]
-残りＨＰは[CC.EF06][END-FE]
+Guardian 6 will take command.[NLINE]
+Remaining HP is [CC.EF06][END-FE]
 
 
 
@@ -880,8 +879,8 @@
 #W32($50C0)
 //セントウシキヲヒキツグ。[NLINE]
 //コマンダーモード、オン。[END-FE]
-セントウシキヲヒキツグ。[NLINE]
-コマンダーモード、オン。[END-FE]
+Activate Command Mode.[NLINE]
+Resume combat...[END-FE]
 
 
 
@@ -892,7 +891,7 @@
 //[CHAR2200][V2900]
 //む、目の色が変わった！[END-FE]
 [CHAR2200][V2900]
-む、目の色が変わった！[END-FE]
+Its eye changed colors![END-FE]
 
 
 
@@ -904,8 +903,8 @@
 //む、指揮を取るガーディアンが[NLINE]
 //変わったようだ！[END-FE]
 [CHAR2200][V2800]
-む、指揮を取るガーディアンが[NLINE]
-変わったようだ！[END-FE]
+I think it's made itself their[NLINE]
+new commander![END-FE]
 
 
 
@@ -914,7 +913,7 @@
 //POINTER #75 @ $50CC - STRING #75 @ $6109
 #W32($50CC)
 //ガーディアン復活時の支援要請[END-FE]
-ガーディアン復活時の支援要請[END-FE]
+Guardian revived. Backup needed.[END-FE]
 
 
 
@@ -923,7 +922,7 @@
 //POINTER #76 @ $50D0 - STRING #76 @ $6128
 #W32($50D0)
 //ガーディアン復活時の支援要請[END-FE]
-ガーディアン復活時の支援要請[END-FE]
+Guardian revived. Backup needed.[END-FE]
 
 
 
@@ -932,7 +931,7 @@
 //POINTER #77 @ $50D4 - STRING #77 @ $6147
 #W32($50D4)
 //ガーディアン復活時の支援要請[END-FE]
-ガーディアン復活時の支援要請[END-FE]
+Guardian revived. Backup needed.[END-FE]
 
 
 
@@ -941,7 +940,7 @@
 //POINTER #78 @ $50D8 - STRING #78 @ $6166
 #W32($50D8)
 //ガーディアン復活時の支援要請[END-FE]
-ガーディアン復活時の支援要請[END-FE]
+Guardian revived. Backup needed.[END-FE]
 
 
 
@@ -950,7 +949,7 @@
 //POINTER #79 @ $50DC - STRING #79 @ $6185
 #W32($50DC)
 //ガーディアン復活時の支援要請[END-FE]
-ガーディアン復活時の支援要請[END-FE]
+Guardian revived. Backup needed.[END-FE]
 
 
 
@@ -959,7 +958,7 @@
 //POINTER #80 @ $50E0 - STRING #80 @ $61A4
 #W32($50E0)
 //ガーディアン復活時の支援要請[END-FE]
-ガーディアン復活時の支援要請[END-FE]
+Guardian revived. Backup needed.[END-FE]
 
 
 
@@ -968,7 +967,7 @@
 //POINTER #81 @ $50E4 - STRING #81 @ $61C3
 #W32($50E4)
 //どうやらこのシャッターは壊せそうだ。[END-FE]
-どうやらこのシャッターは壊せそうだ。[END-FE]
+We may be able to break this shutter.[END-FE]
 
 
 
@@ -977,7 +976,7 @@
 //POINTER #82 @ $50E8 - STRING #82 @ $61EA
 #W32($50E8)
 //どうやらこのシャッターは壊せそうです！[END-FE]
-どうやらこのシャッターは壊せそうです！[END-FE]
+I think we can break this shutter, Sir![END-FE]
 
 
 
@@ -986,7 +985,7 @@
 //POINTER #83 @ $50EC - STRING #83 @ $6213
 #W32($50EC)
 //このシャッターは壊せそうですね。[END-FE]
-このシャッターは壊せそうですね。[END-FE]
+Let's try to break this shutter, Sir![END-FE]
 
 
 
@@ -995,7 +994,7 @@
 //POINTER #84 @ $50F0 - STRING #84 @ $6236
 #W32($50F0)
 //ロ、ロックバイン将軍！[END-FE]
-ロ、ロックバイン将軍！[END-FE]
+G-General Rockbein...![END-FE]
 
 
 
@@ -1004,7 +1003,7 @@
 //POINTER #85 @ $50F4 - STRING #85 @ $624F
 #W32($50F4)
 //グ、グローマー！[END-FE]
-グ、グローマー！[END-FE]
+G-Groemer![END-FE]
 
 
 
@@ -1013,7 +1012,7 @@
 //POINTER #86 @ $50F8 - STRING #86 @ $6262
 #W32($50F8)
 //フェ、フェルナンド！[END-FE]
-フェ、フェルナンド！[END-FE]
+Fernando...![END-FE]
 
 
 
@@ -1023,8 +1022,8 @@
 #W32($50FC)
 //Ｓガーディアンが配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-Ｓガーディアンが配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+S Guardian is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1034,8 +1033,8 @@
 #W32($5100)
 //ガーディアン１が配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-ガーディアン１が配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+Guardian 1 is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1045,8 +1044,8 @@
 #W32($5104)
 //ガーディアン２が配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-ガーディアン２が配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+Guardian 2 is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1056,8 +1055,8 @@
 #W32($5108)
 //ガーディアン３が配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-ガーディアン３が配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+Guardian 3 is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1067,8 +1066,8 @@
 #W32($510C)
 //ガーディアン４が配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-ガーディアン４が配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+Guardian 4 is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1078,8 +1077,8 @@
 #W32($5110)
 //ガーディアン５が配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-ガーディアン５が配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+Guardian 5 is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1089,8 +1088,8 @@
 #W32($5114)
 //ガーディアン６が配置されている。[NLINE]
 //ＨＰは[CC.EF00][END-FE]
-ガーディアン６が配置されている。[NLINE]
-ＨＰは[CC.EF00][END-FE]
+Guardian 6 is placed.[NLINE]
+Its HP is [CC.EF00][END-FE]
 
 
 
@@ -1102,8 +1101,8 @@
 //よし！[NLINE]
 //グローマー、フェルナンド、よくやった！[END-FE]
 [CHAR2200][V2A00]
-よし！[NLINE]
-グローマー、フェルナンド、よくやった！[END-FE]
+Well done, Groemer, Fernando![NLINE]
+Excellent work.[END-FE]
 
 
 
@@ -1112,7 +1111,7 @@
 //POINTER #95 @ $511C - STRING #95 @ $63F4
 #W32($511C)
 //ガーディアン１撃破時の支援要請。[END-FE]
-ガーディアン１撃破時の支援要請。[END-FE]
+Guardian 1 destroyed. Backup needed.[END-FE]
 
 
 
@@ -1121,7 +1120,7 @@
 //POINTER #96 @ $5120 - STRING #96 @ $6417
 #W32($5120)
 //ガーディアン２撃破時の支援要請。[END-FE]
-ガーディアン２撃破時の支援要請。[END-FE]
+Guardian 2 destroyed. Backup needed.[END-FE]
 
 
 
@@ -1130,7 +1129,7 @@
 //POINTER #97 @ $5124 - STRING #97 @ $643A
 #W32($5124)
 //ガーディアン３撃破時の支援要請。[END-FE]
-ガーディアン３撃破時の支援要請。[END-FE]
+Guardian 3 destroyed. Backup needed.[END-FE]
 
 
 
@@ -1139,7 +1138,7 @@
 //POINTER #98 @ $5128 - STRING #98 @ $645D
 #W32($5128)
 //ガーディアン４撃破時の支援要請。[END-FE]
-ガーディアン４撃破時の支援要請。[END-FE]
+Guardian 4 destroyed. Backup needed.[END-FE]
 
 
 
@@ -1148,7 +1147,7 @@
 //POINTER #99 @ $512C - STRING #99 @ $6480
 #W32($512C)
 //ガーディアン５撃破時の支援要請。[END-FE]
-ガーディアン５撃破時の支援要請。[END-FE]
+Guardian 5 destroyed. Backup needed.[END-FE]
 
 
 
@@ -1157,7 +1156,7 @@
 //POINTER #100 @ $5130 - STRING #100 @ $64A3
 #W32($5130)
 //ガーディアン６撃破時の支援要請。[END-FE]
-ガーディアン６撃破時の支援要請。[END-FE]
+Guardian 6 destroyed. Backup needed.[END-FE]
 
 
 
@@ -1167,8 +1166,8 @@
 #W32($5134)
 //センリョクテイカ。[NLINE]
 //ゾウエンヲヨウセイスル。[END-FE]
-センリョクテイカ。[NLINE]
-ゾウエンヲヨウセイスル。[END-FE]
+Evaluation:[NLINE]
+Backup required.[END-FE]
 
 
 
@@ -1180,8 +1179,8 @@
 //あの目の色の違うガーディアンが[NLINE]
 //指揮を取っているようだな。[END-FE]
 [CHAR2200][V2700]
-あの目の色の違うガーディアンが[NLINE]
-指揮を取っているようだな。[END-FE]
+That Guardian seems to be[NLINE]
+directing the others.[END-FE]
 
 
 
@@ -1195,10 +1194,10 @@
 //再び我らの祖国、[NLINE]
 //ネイラーンをよみがえらせるのだ！[END-FE]
 [CHAR2200][V1F00]
-これは、我々にとって大きな一歩だ！[NLINE]
-我らの領土からグランゲイルを追い出し、[NLINE]
-再び我らの祖国、[NLINE]
-ネイラーンをよみがえらせるのだ！[END-FE]
+This is the turning point for us![NLINE]
+We'll oust the Grangalians from our[NLINE]
+land, and Neylern will stand proud[NLINE]
+once more![END-FE]
 
 
 
@@ -1211,9 +1210,9 @@
 //兵器のエネルギーと　　　　　　　　[NLINE]
 //生物兵器の情報を求めて、奔走した。[END-FE]
 [CHAR2300][V0000]
-ロックバイン将軍の部下たちは、　　[NLINE]
-兵器のエネルギーと　　　　　　　　[NLINE]
-生物兵器の情報を求めて、奔走した。[END-FE]
+General Rockbein's men redoubled[NLINE]
+their efforts to search for the[NLINE]
+powerful ancient technology.[END-FE]
 
 
 
@@ -1225,8 +1224,8 @@
 //すると、αからも有力な情報は[NLINE]
 //得られなかったという事だな？[END-FE]
 [CHAR2300][V0100]
-すると、αからも有力な情報は[NLINE]
-得られなかったという事だな？[END-FE]
+So, not even α had anything[NLINE]
+useful for us, eh?[END-FE]
 
 
 
@@ -1237,7 +1236,7 @@
 //[CHAR2300][V0200]
 //…ハッ…。[END-FE]
 [CHAR2300][V0200]
-…ハッ…。[END-FE]
+Sir...[END-FE]
 
 
 
@@ -1254,13 +1253,13 @@
 //部下達にも八方手を尽くさせておりますが、[NLINE]
 //依然として情報は、得られぬままであります。[END-FE]
 [CHAR2300][V0300]
-新エネルギーの研究をしている者が[NLINE]
-いたとの事でしたので期待していたのですが…。[NLINE]
-とても実用レベルで使えるものではないと…。[NWIN]
+There is someone who's been researching[NLINE]
+a new type of energy, but it's nowhere[NLINE]
+near operational...[NWIN]
 
 [CHAR2300][V0400]
-部下達にも八方手を尽くさせておりますが、[NLINE]
-依然として情報は、得られぬままであります。[END-FE]
+Other than that, my men are searching[NLINE]
+everywhere, but no luck yet, Sir.[END-FE]
 
 
 
@@ -1271,7 +1270,7 @@
 //[CC.AC00][CHAR2300][V0500]
 //……………。[END-FE]
 [CC.AC00][CHAR2300][V0500]
-……………。[END-FE]
+......[END-FE]
 
 
 
@@ -1284,9 +1283,9 @@
 //将軍にお会いしたいという人物が[NLINE]
 //廃村で待っているそうです。[END-FE]
 [CHAR2300][V0600]
-将軍、さきほど伝令が届きまして、[NLINE]
-将軍にお会いしたいという人物が[NLINE]
-廃村で待っているそうです。[END-FE]
+There's a message for you,[NLINE]
+General. Someone's requesting[NLINE]
+to meet you at a deserted village.[END-FE]
 
 
 
@@ -1297,7 +1296,7 @@
 //[CHAR2300][V0700]
 //私に、だと？[END-FE]
 [CHAR2300][V0700]
-私に、だと？[END-FE]
+Me?[END-FE]
 
 
 
@@ -1312,11 +1311,11 @@
 //……我々が必要としている物の情報を[NLINE]
 //提供したいとのことです。[END-FE]
 [CHAR2300][V0800]
-はい。[NWIN]
+Yes, Sir.[NWIN]
 
 [CHAR2300][V0900]
-……我々が必要としている物の情報を[NLINE]
-提供したいとのことです。[END-FE]
+He claims he has information on[NLINE]
+what we're looking for.[END-FE]
 
 
 
@@ -1332,12 +1331,12 @@
 //返答次第では[NLINE]
 //生かして帰さんぞ…！[END-FE]
 [CHAR2300][V0A00]
-貴様は何者だ？[NLINE]
-我々の何を知っている？[NWIN]
+Who are you? How much[NLINE]
+do you know?[NWIN]
 
 [CHAR2300][V0B00]
-返答次第では[NLINE]
-生かして帰さんぞ…！[END-FE]
+Answer carefully. Your[NLINE]
+life depends on it...![END-FE]
 
 
 
@@ -1348,7 +1347,7 @@
 //[CHAR2300][V0C00]
 //………。[END-FE]
 [CHAR2300][V0C00]
-………。[END-FE]
+......[END-FE]
 
 
 
@@ -1359,7 +1358,7 @@
 //[CHAR2300][V0D00]
 //…これは!?[END-FE]
 [CHAR2300][V0D00]
-…これは!?[END-FE]
+...Is this true!?[END-FE]
 
 
 
@@ -1370,7 +1369,7 @@
 //[CHAR2300][V0E00]
 //将軍、いったい何が…？[END-FE]
 [CHAR2300][V0E00]
-将軍、いったい何が…？[END-FE]
+General? What is it...?[END-FE]
 
 
 
@@ -1383,9 +1382,9 @@
 //まさかこんなものが…。[NLINE]
 //将軍、これさえあれば我々は…！[END-FE]
 [CHAR2300][V0F00]
-これは…！[NLINE]
-まさかこんなものが…。[NLINE]
-将軍、これさえあれば我々は…！[END-FE]
+This... This is unbelievable![NLINE]
+General, if we can get our[NLINE]
+hands on this...![END-FE]
 
 
 
@@ -1397,8 +1396,8 @@
 //…ここでは人目につきかねん。[NLINE]
 //場所を変えて話を聞こう。[END-FE]
 [CHAR2300][V1000]
-…ここでは人目につきかねん。[NLINE]
-場所を変えて話を聞こう。[END-FE]
+...Come with me. It's not safe[NLINE]
+to discuss this here.[END-FE]
 
 
 
@@ -1409,7 +1408,7 @@
 //[CHAR2300][V1100]
 //………。[END-FE]
 [CHAR2300][V1100]
-………。[END-FE]
+......[END-FE]
 
 
 
@@ -1421,8 +1420,8 @@
 //すると、[NLINE]
 //確かに情報どおりだったのだな？[END-FE]
 [CHAR2300][V1200]
-すると、[NLINE]
-確かに情報どおりだったのだな？[END-FE]
+So, the information was[NLINE]
+accurate, eh?[END-FE]
 
 
 
@@ -1435,9 +1434,9 @@
 //ヤツの書簡の通りだった事から[NLINE]
 //信憑性があると思います。[END-FE]
 [CHAR2300][V1300]
-ハッ。その細部にいたるまで、[NLINE]
-ヤツの書簡の通りだった事から[NLINE]
-信憑性があると思います。[END-FE]
+Yes, Sir, to the last detail.[NLINE]
+Based on this letter, I think[NLINE]
+we can trust him.[END-FE]
 
 
 
@@ -1454,13 +1453,13 @@
 //…ヤツが指定してきた会談日は[NLINE]
 //明日だったな？[END-FE]
 [CHAR2300][V1400]
-今のままでは役に立たない。[NLINE]
-次はそれを利用する方法を[NLINE]
-教えてやる……と。[NWIN]
+What we have now is[NLINE]
+useless. We're relying on[NLINE]
+him to tell us how it works.[NWIN]
 
 [CHAR2300][V1500]
-…ヤツが指定してきた会談日は[NLINE]
-明日だったな？[END-FE]
+You're sure tomorrow is the[NLINE]
+day of our meeting?[END-FE]
 
 
 
@@ -1473,9 +1472,9 @@
 //本日中に、会談場所を指示した書簡が[NLINE]
 //届くことになっております。[END-FE]
 [CHAR2300][V1600]
-ハッ。[NLINE]
-本日中に、会談場所を指示した書簡が[NLINE]
-届くことになっております。[END-FE]
+Yes, Sir. We're awaiting[NLINE]
+a letter specifying the[NLINE]
+location now.[END-FE]
 
 
 
@@ -1488,9 +1487,9 @@
 //うかつに信用してしまうのは[NLINE]
 //得策ではないかもしれませんが…。[END-FE]
 [CHAR2300][V1700]
-…確かにヤツの目的がハッキリせぬ以上、[NLINE]
-うかつに信用してしまうのは[NLINE]
-得策ではないかもしれませんが…。[END-FE]
+I wish we could better understand[NLINE]
+his motivations, but I think it's[NLINE]
+safe to trust him.[END-FE]
 
 
 
@@ -1503,9 +1502,9 @@
 //気になります。[NLINE]
 //仮にこの情報が何らかのワナだとしたら…。[END-FE]
 [CHAR2300][V1800]
-ヤツが我々の行動を知っていたことも[NLINE]
-気になります。[NLINE]
-仮にこの情報が何らかのワナだとしたら…。[END-FE]
+What concerns me is how well he[NLINE]
+knew our movements. I worry that[NLINE]
+this is all a setup...[END-FE]
 
 
 
@@ -1516,7 +1515,7 @@
 //[CHAR2300][V1900]
 //…いや、会おう。[END-FE]
 [CHAR2300][V1900]
-…いや、会おう。[END-FE]
+We'll meet him.[END-FE]
 
 
 
@@ -1527,7 +1526,7 @@
 //[CHAR2300][V1A00]
 //…よろしいのですか、将軍？[END-FE]
 [CHAR2300][V1A00]
-…よろしいのですか、将軍？[END-FE]
+Are you... sure, General?[END-FE]
 
 
 
@@ -1547,16 +1546,16 @@
 //ならば…、私はそれに[NLINE]
 //かけてみようと思う。[END-FE]
 [CHAR2300][V1B00]
-確かにこれがワナだという[NLINE]
-疑念も捨てきれぬ。[NLINE]
-だが、最大のチャンスであることも[NLINE]
-また事実なのだ。[NWIN]
+There's no denying that[NLINE]
+this may be a trap, but it's[NLINE]
+also indisputable that this[NLINE]
+could be our last chance.[NWIN]
 
 [CHAR2300][V1C00]
-祖国を取り戻すための[NLINE]
-千載一遇の機会かも知れぬ。[NLINE]
-ならば…、私はそれに[NLINE]
-かけてみようと思う。[END-FE]
+This could be the best[NLINE]
+opportunity we get to[NLINE]
+restore our country. It's[NLINE]
+worth taking the risk.[END-FE]
 
 
 
@@ -1567,7 +1566,7 @@
 //[CHAR2300][V1D00]
 //我々は将軍の決定に従います。[END-FE]
 [CHAR2300][V1D00]
-我々は将軍の決定に従います。[END-FE]
+We'll follow you anywhere, Sir.[END-FE]
 
 
 
@@ -1579,8 +1578,8 @@
 //うむ。[NLINE]
 //グローマー、お前は私と同行してくれ。[END-FE]
 [CHAR2300][V1E00]
-うむ。[NLINE]
-グローマー、お前は私と同行してくれ。[END-FE]
+Good. Groemer, you'll be[NLINE]
+with me.[END-FE]
 
 
 
@@ -1591,7 +1590,7 @@
 //[CHAR2300][V2000]
 //ハッ！[END-FE]
 [CHAR2300][V2000]
-ハッ！[END-FE]
+Yes, Sir![END-FE]
 
 
 
@@ -1605,10 +1604,10 @@
 //この作戦…αの協力が[NLINE]
 //必要になるだろうからな。[END-FE]
 [CHAR2300][V1F00]
-フェルナンド、お前には[NLINE]
-αへの伝言を頼みたい。[NLINE]
-この作戦…αの協力が[NLINE]
-必要になるだろうからな。[END-FE]
+Fernando, deliver this[NLINE]
+message to α. We'll[NLINE]
+need his help for this[NLINE]
+mission...[END-FE]
 
 
 
@@ -1619,7 +1618,7 @@
 //[CHAR2300][V2200]
 //ハッ！[END-FE]
 [CHAR2300][V2200]
-ハッ！[END-FE]
+Sir![END-FE]
 
 
 
@@ -1633,10 +1632,10 @@
 //散っていった者のためにも、[NLINE]
 //この手で祖国を……！[END-FE]
 [CHAR2300][V2100]
-…私に残された時間は[NLINE]
-尽きかけている…急がねば…。[NLINE]
-散っていった者のためにも、[NLINE]
-この手で祖国を……！[END-FE]
+My time is running out...[NLINE]
+I must act quickly to[NLINE]
+restore our country, for[NLINE]
+all those who now suffer![END-FE]
 
 
 
@@ -1645,7 +1644,7 @@
 //POINTER #134 @ $51B8 - STRING #134 @ $6E56
 #W32($51B8)
 //これまでの事をセーブしますか？[END-FE]
-これまでの事をセーブしますか？[END-FE]
+Do you wish to save?[END-FE]
 
 
 
@@ -1654,7 +1653,7 @@
 //POINTER #135 @ $51BC - STRING #135 @ $6E77
 #W32($51BC)
 //ファニル・開始[END-FE]
-ファニル・開始[END-FE]
+Fanille's Role Start[END-FE]
 
 
 
@@ -1663,7 +1662,7 @@
 //POINTER #136 @ $51C0 - STRING #136 @ $6E88
 #W32($51C0)
 //セーブせずに先へ進みますか？[END-FE]
-セーブせずに先へ進みますか？[END-FE]
+Proceed without saving?[END-FE]
 
 
 
@@ -1682,3 +1681,7 @@
 #W32($51C8)
 //Ｄ　Ｒ３Ｄ１[END-FE]
 Ｄ　Ｒ３Ｄ１[END-FE]
+
+
+
+

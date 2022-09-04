@@ -1877,11 +1877,11 @@ Will you rest on the bed?[END-FE]
 
 //POINTER #153 @ $6284 - STRING #153 @ $80B3
 #W32($6284)
-//[CHAR0200][V5200][CH.FACE:Close-Eyes]
-//それじゃ、[NLINE]
+//[CHAR0200][V5200]
+//[CH.FACE:Close-Eyes]それじゃ、[NLINE]
 //明日までゆっくり休んでね。[END-FE]
-[CHAR0200][V5200][CH.FACE:Close-Eyes]
-Have a good night! See[NLINE]
+[CHAR0200][V5200]
+[CH.FACE:Close-Eyes]Have a good night! See[NLINE]
 you in the morning.[END-FE]
 
 
@@ -1901,10 +1901,10 @@ U-Uh...[END-FE]
 
 //POINTER #155 @ $628C - STRING #155 @ $8100
 #W32($628C)
-//[CHAR0700][V2400][CH.FACE:Open-Eyes]
-//どうかしたの？[END-FE]
-[CHAR0700][V2400][CH.FACE:Open-Eyes]
-What is it?[END-FE]
+//[CHAR0700][V2400]
+//[CH.FACE:Open-Eyes]どうかしたの？[END-FE]
+[CHAR0700][V2400]
+[CH.FACE:Open-Eyes]What is it?[END-FE]
 
 
 

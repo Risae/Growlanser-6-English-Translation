@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $6320 - STRING #0 @ $65A0
 #W32($6320)
 //[END-FF]
@@ -12,7 +10,7 @@
 //POINTER #1 @ $6324 - STRING #1 @ $65A3
 #W32($6324)
 //バクター[END-FF]
-バクター[END-FF]
+Bachter[END-FF]
 
 
 
@@ -21,7 +19,7 @@
 //POINTER #2 @ $6328 - STRING #2 @ $65AE
 #W32($6328)
 //ウォルゲイナー[END-FF]
-ウォルゲイナー[END-FF]
+Wolgainer[END-FF]
 
 
 
@@ -30,7 +28,7 @@
 //POINTER #3 @ $632C - STRING #3 @ $65BF
 #W32($632C)
 //・敵の全滅[END-FE]
-・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
 
 
 
@@ -40,8 +38,8 @@
 #W32($6330)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -51,8 +49,8 @@
 #W32($6334)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -61,7 +59,7 @@
 //POINTER #6 @ $6338 - STRING #6 @ $6616
 #W32($6338)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -72,9 +70,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -85,9 +83,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -97,8 +95,8 @@
 #W32($6344)
 //・ＮＰＣの死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -108,8 +106,8 @@
 #W32($6348)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -119,8 +117,8 @@
 #W32($634C)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -129,7 +127,7 @@
 //POINTER #12 @ $6350 - STRING #12 @ $6704
 #W32($6350)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -139,8 +137,8 @@
 #W32($6354)
 //　[NLINE]
 //ふとん犬はどこかへ走り去った…。[END-FE]
-　[NLINE]
-ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
 
 
 
@@ -151,7 +149,7 @@
 //[CHARBA00][V3200]
 //きゃあぁっ！[END-FE]
 [CHARBA00][V3200]
-きゃあぁっ！[END-FE]
+Nngh![END-FE]
 
 
 
@@ -162,7 +160,7 @@
 //[CHARBA00][V3300]
 //…な、地震…!?[END-FE]
 [CHARBA00][V3300]
-…な、地震…!?[END-FE]
+A-An earthquake!?[END-FE]
 
 
 
@@ -173,7 +171,7 @@
 //[CHARBA00][V3400]
 //…地震…!?[END-FE]
 [CHARBA00][V3400]
-…地震…!?[END-FE]
+...An earthquake...!?[END-FE]
 
 
 
@@ -185,8 +183,8 @@
 //あ～、[NLINE]
 //すごく怖かったです…。[END-FE]
 [CH.FACE:Open-Eyes][CHARBA00][V3500]
-あ～、[NLINE]
-すごく怖かったです…。[END-FE]
+Ugh... That was[NLINE]
+frightening...[END-FE]
 
 
 
@@ -199,11 +197,11 @@
 //
 //これじゃ山に行けないよ。[NLINE]
 //早く直して貰わなきゃ！[END-FE]
-いやぁ、困ったね。[NLINE]
-ここに架かっていた橋がなくなってるんだ。[NWIN]
+Ugh... This isn't good. There used[NLINE]
+to be a bridge here, but it's out.[NWIN]
 
-これじゃ山に行けないよ。[NLINE]
-早く直して貰わなきゃ！[END-FE]
+I can't get to the mountains without[NLINE]
+it... I'm complaining to someone![END-FE]
 
 
 
@@ -215,10 +213,10 @@
 //
 //と言っても、２人しかいないから、[NLINE]
 //もう少し時間がかかるぜ。[END-FE]
-俺たちは橋をかけ直すために呼ばれたのさ。[NWIN]
+They sent us to fix the bridge.[NWIN]
 
-と言っても、２人しかいないから、[NLINE]
-もう少し時間がかかるぜ。[END-FE]
+There's only two of us, though,[NLINE]
+so it'll take a while.[END-FE]
 
 
 
@@ -228,8 +226,8 @@
 #W32($6370)
 //まったく、一体誰だよ？[NLINE]
 //橋を壊すなんて、悪質な…。[END-FE]
-まったく、一体誰だよ？[NLINE]
-橋を壊すなんて、悪質な…。[END-FE]
+What kinda jerk would[NLINE]
+destroy a bridge...?[END-FE]
 
 
 
@@ -239,8 +237,8 @@
 #W32($6374)
 //ここを北西に登れば[NLINE]
 //ノーストールの山頂へたどりつけるわ。[END-FE]
-ここを北西に登れば[NLINE]
-ノーストールの山頂へたどりつけるわ。[END-FE]
+If we go northwest on this path,[NLINE]
+we'll reach the peak of Mt. Nostal.[END-FE]
 
 
 
@@ -251,9 +249,9 @@
 //前に来た時、[NLINE]
 //橋が壊れていたようだが、[NLINE]
 //もう直ってるかな？[END-FE]
-前に来た時、[NLINE]
-橋が壊れていたようだが、[NLINE]
-もう直ってるかな？[END-FE]
+The bridge was out the [NLINE]
+last time we were here.[NLINE]
+I wonder if they fixed it?[END-FE]
 
 
 
@@ -263,8 +261,8 @@
 #W32($637C)
 //バカっ！[NLINE]
 //そっちに逃げてどうするのよ！[END-FE]
-バカっ！[NLINE]
-そっちに逃げてどうするのよ！[END-FE]
+Hey, idiot! Which[NLINE]
+way are you going!?[END-FE]
 
 
 
@@ -274,8 +272,8 @@
 #W32($6380)
 //おいおい、どこへ行くんだ？[NLINE]
 //まずはゼルドックで調査してみようぜ。[END-FE]
-おいおい、どこへ行くんだ？[NLINE]
-まずはゼルドックで調査してみようぜ。[END-FE]
+Where are you going? We should[NLINE]
+investigate Zerdok first.[END-FE]
 
 
 
@@ -285,8 +283,8 @@
 #W32($6384)
 //ノーストール山には用はないわ。[NLINE]
 //行き先はヤージェン村の西にある遺跡よ。[END-FE]
-ノーストール山には用はないわ。[NLINE]
-行き先はヤージェン村の西にある遺跡よ。[END-FE]
+We're not going to Mt. Nostal. We're[NLINE]
+headed for the ruins west of Jaergen.[END-FE]
 
 
 
@@ -297,9 +295,9 @@
 //今更あの山に行っても[NLINE]
 //しょうがないじゃない？[NLINE]
 //行くなら他の所にしようよ！[END-FE]
-今更あの山に行っても[NLINE]
-しょうがないじゃない？[NLINE]
-行くなら他の所にしようよ！[END-FE]
+I don't think we need[NLINE]
+to go to that mountain.[NLINE]
+Let's go somewhere else![END-FE]
 
 
 
@@ -310,9 +308,9 @@
 //バカっ！[NLINE]
 //山に逃げても追いつめられるでしょ！[NLINE]
 //アンタ、捕まりたいわけ!?[END-FE]
-バカっ！[NLINE]
-山に逃げても追いつめられるでしょ！[NLINE]
-アンタ、捕まりたいわけ!?[END-FE]
+You idiot! We'll be cornered if[NLINE]
+we run into the mountains![NLINE]
+Do you want to get caught!?[END-FE]
 
 
 
@@ -323,9 +321,9 @@
 //バカっ！[NLINE]
 //そっちはグランゲイルの砦でしょ！[NLINE]
 //アンタ、捕まりたいわけ!?[END-FE]
-バカっ！[NLINE]
-そっちはグランゲイルの砦でしょ！[NLINE]
-アンタ、捕まりたいわけ!?[END-FE]
+The Grangalian fortress is[NLINE]
+that way, dummy! Do you[NLINE]
+want to be caught!?[END-FE]
 
 
 
@@ -335,8 +333,8 @@
 #W32($6394)
 //バカっ！[NLINE]
 //そっちに逃げてどうするのよ！[END-FE]
-バカっ！[NLINE]
-そっちに逃げてどうするのよ！[END-FE]
+You idiot! You're[NLINE]
+going the wrong way![END-FE]
 
 
 
@@ -346,8 +344,8 @@
 #W32($6398)
 //バカっ！[NLINE]
 //アンタ、捕まりたいわけ!?[END-FE]
-バカっ！[NLINE]
-アンタ、捕まりたいわけ!?[END-FE]
+Stupid! Do you[NLINE]
+wanna get caught!?[END-FE]
 
 
 
@@ -357,8 +355,8 @@
 #W32($639C)
 //現在、ゼルドックは特別警戒中だ。[NLINE]
 //許可なき者を通すわけにはいかない。[END-FE]
-現在、ゼルドックは特別警戒中だ。[NLINE]
-許可なき者を通すわけにはいかない。[END-FE]
+Zerdok is currently on high alert.[NLINE]
+No passage without clearance.[END-FE]
 
 
 
@@ -368,8 +366,7 @@
 #W32($63A0)
 //俺たちが平和維持軍だと知っても[NLINE]
 //そう言うのか？[END-FE]
-俺たちが平和維持軍だと知っても[NLINE]
-そう言うのか？[END-FE]
+Not even for PMB officials?[END-FE]
 
 
 
@@ -380,9 +377,9 @@
 //アドモニッシャーのないお前らには[NLINE]
 //何の権力もないのだ。[NLINE]
 //おとなしく立ち去れ！[END-FE]
-アドモニッシャーのないお前らには[NLINE]
-何の権力もないのだ。[NLINE]
-おとなしく立ち去れ！[END-FE]
+The PMB without the Admonisher[NLINE]
+means you have no authority![NLINE]
+Get outta here![END-FE]
 
 
 
@@ -392,8 +389,8 @@
 #W32($63A8)
 //部外者はこの街に入らせん！[NLINE]
 //もし入れば、命を失うことになるぞ！[END-FE]
-部外者はこの街に入らせん！[NLINE]
-もし入れば、命を失うことになるぞ！[END-FE]
+We won't let outsiders in here![NLINE]
+If you value your life, leave![END-FE]
 
 
 
@@ -403,8 +400,8 @@
 #W32($63AC)
 //兵隊さんがいて、[NLINE]
 //街の中に入れないよ？[END-FE]
-兵隊さんがいて、[NLINE]
-街の中に入れないよ？[END-FE]
+I don't think we can get[NLINE]
+in with these guys here.[END-FE]
 
 
 
@@ -417,11 +414,11 @@
 //
 //門を通らず、[NLINE]
 //横から柵を越えて入るしかないな。[END-FE]
-さすがにスクリーパー制御装置があるから[NLINE]
-部外者進入禁止か。[NWIN]
+Apparently, they've locked down[NLINE]
+the city to protect the Remote.[NWIN]
 
-門を通らず、[NLINE]
-横から柵を越えて入るしかないな。[END-FE]
+It looks like we'll have to get[NLINE]
+inside by hopping the fence.[END-FE]
 
 
 
@@ -430,7 +427,7 @@
 //POINTER #37 @ $63B4 - STRING #37 @ $6CB2
 #W32($63B4)
 //柵を越えるんですか？[END-FE]
-柵を越えるんですか？[END-FE]
+We're hopping the fence?[END-FE]
 
 
 
@@ -439,7 +436,7 @@
 //POINTER #38 @ $63B8 - STRING #38 @ $6CC9
 #W32($63B8)
 //進入路[END-FE]
-進入路[END-FE]
+Entrance[END-FE]
 
 
 
@@ -448,7 +445,7 @@
 //POINTER #39 @ $63BC - STRING #39 @ $6CD2
 #W32($63BC)
 //あそこと……。[END-FE]
-あそこと……。[END-FE]
+There...[END-FE]
 
 
 
@@ -457,7 +454,7 @@
 //POINTER #40 @ $63C0 - STRING #40 @ $6CE3
 #W32($63C0)
 //進入路[END-FE]
-進入路[END-FE]
+Entrance[END-FE]
 
 
 
@@ -466,7 +463,7 @@
 //POINTER #41 @ $63C4 - STRING #41 @ $6CEC
 #W32($63C4)
 //それからあそこ。[END-FE]
-それからあそこ。[END-FE]
+And over there.[END-FE]
 
 
 
@@ -475,7 +472,8 @@
 //POINTER #42 @ $63C8 - STRING #42 @ $6CFF
 #W32($63C8)
 //街を囲む柵まで近づける。[END-FE]
-街を囲む柵まで近づける。[END-FE]
+We can get close to the[NLINE]
+fence surrounding the town.[END-FE]
 
 
 
@@ -484,7 +482,7 @@
 //POINTER #43 @ $63CC - STRING #43 @ $6D1A
 #W32($63CC)
 //そこから柵を越えるのだな？[END-FE]
-そこから柵を越えるのだな？[END-FE]
+You want us to climb it, right?[END-FE]
 
 
 
@@ -493,7 +491,7 @@
 //POINTER #44 @ $63D0 - STRING #44 @ $6D37
 #W32($63D0)
 //ああ、行こうぜ。[END-FE]
-ああ、行こうぜ。[END-FE]
+Yep. Let's go.[END-FE]
 
 
 
@@ -503,8 +501,8 @@
 #W32($63D4)
 //サウネイルの森[NLINE]
 //ヤージェン村方面[END-FE]
-サウネイルの森[NLINE]
-ヤージェン村方面[END-FE]
+Saunail Forest[NLINE]
+To Jaergen Village[END-FE]
 
 
 
@@ -514,8 +512,8 @@
 #W32($63D8)
 //グランゲイル国内[NLINE]
 //ザーランバ方面[END-FE]
-グランゲイル国内[NLINE]
-ザーランバ方面[END-FE]
+Grangale Kingdom[NLINE]
+To Zaramba[END-FE]
 
 
 
@@ -524,7 +522,7 @@
 //POINTER #47 @ $63DC - STRING #47 @ $6D90
 #W32($63DC)
 //ゼルドック入り口[END-FE]
-ゼルドック入り口[END-FE]
+Zerdok Entrance[END-FE]
 
 
 
@@ -533,7 +531,7 @@
 //POINTER #48 @ $63E0 - STRING #48 @ $6DA3
 #W32($63E0)
 //平和維持軍方面[END-FE]
-平和維持軍方面[END-FE]
+To PMB Headquarters[END-FE]
 
 
 
@@ -542,7 +540,7 @@
 //POINTER #49 @ $63E4 - STRING #49 @ $6DB4
 #W32($63E4)
 //ノーストール山方面[END-FE]
-ノーストール山方面[END-FE]
+To Mt. Nostal[END-FE]
 
 
 
@@ -551,7 +549,7 @@
 //POINTER #50 @ $63E8 - STRING #50 @ $6DC9
 #W32($63E8)
 //ゼルドック[END-FE]
-ゼルドック[END-FE]
+Zerdok[END-FE]
 
 
 
@@ -560,7 +558,7 @@
 //POINTER #51 @ $63EC - STRING #51 @ $6DD6
 #W32($63EC)
 //サウネイルの森[END-FE]
-サウネイルの森[END-FE]
+Saunail Forest[END-FE]
 
 
 
@@ -569,7 +567,7 @@
 //POINTER #52 @ $63F0 - STRING #52 @ $6DE7
 #W32($63F0)
 //平和維持軍方面[END-FE]
-平和維持軍方面[END-FE]
+To PMB Headquarters[END-FE]
 
 
 
@@ -580,7 +578,7 @@
 //[CHARBC00][V4A00]
 //あ、コリンの勇者様！[END-FE]
 [CHARBC00][V4A00]
-あ、コリンの勇者様！[END-FE]
+Oh! Korin's partner![END-FE]
 
 
 
@@ -592,8 +590,8 @@
 //ロッティじゃない！[NLINE]
 //どうしたの…？[END-FE]
 [CHARBC00][V4B00]
-ロッティじゃない！[NLINE]
-どうしたの…？[END-FE]
+Hey, it's Lily![NLINE]
+What's wrong...?[END-FE]
 
 
 
@@ -606,9 +604,9 @@
 //探しに行くところだったのです。[NLINE]
 //すれ違いにならずにすんでよかったわ。[END-FE]
 [CHARBC00][V4C00]
-ちょうどコリンの勇者様を[NLINE]
-探しに行くところだったのです。[NLINE]
-すれ違いにならずにすんでよかったわ。[END-FE]
+I was just on my way to see[NLINE]
+your partner, Korin. I'm glad[NLINE]
+I didn't miss you two.[END-FE]
 
 
 
@@ -619,7 +617,7 @@
 //[CHARBC00][V4D00]
 //コイツを探しに？[END-FE]
 [CHARBC00][V4D00]
-コイツを探しに？[END-FE]
+You were looking for him?[END-FE]
 
 
 
@@ -635,12 +633,12 @@
 //ぜひ会いたいので、[NLINE]
 //コンテスト会場にお越し下さいとの事です。[END-FE]
 [CHARBC00][V4E00]
-実はギャリック様から、[NLINE]
-言伝を頼まれまして…。[NWIN]
+Master Gaerik asked me[NLINE]
+to deliver a message...[NWIN]
 
 [CHARBC00][V4F00]
-ぜひ会いたいので、[NLINE]
-コンテスト会場にお越し下さいとの事です。[END-FE]
+He would like to meet you at[NLINE]
+the contest hall.[END-FE]
 
 
 
@@ -659,17 +657,17 @@
 //もし妹を見かけたら、[NLINE]
 //ここで姉が待っていると[NLINE]
 //伝えて下さい。[END-FE]
-あ、すみません！[NLINE]
-この辺りで私の妹を[NLINE]
-見かけませんでしたか？[NWIN]
+Um, excuse me! Have[NLINE]
+you seen my sister[NLINE]
+anywhere around?[NWIN]
 
-一緒に旅をしてきたんですが、[NLINE]
-途中でモンスターに襲われて、[NLINE]
-はぐれてしまって…。[NWIN]
+I was traveling with her,[NLINE]
+but we were separated[NLINE]
+when a monster attacked...[NWIN]
 
-もし妹を見かけたら、[NLINE]
-ここで姉が待っていると[NLINE]
-伝えて下さい。[END-FE]
+If you see her, tell her[NLINE]
+that I'm waiting for her[NLINE]
+here.[END-FE]
 
 
 
@@ -681,10 +679,10 @@
 //この近くにいると思うんですけど…。[NWIN]
 //
 //もし見かけたら教えて下さいね？[END-FE]
-妹は私とおそろいの服を着ています。[NLINE]
-この近くにいると思うんですけど…。[NWIN]
+My sister's wearing matching clothes.[NLINE]
+She's somewhere nearby...[NWIN]
 
-もし見かけたら教えて下さいね？[END-FE]
+If you see her, please let me know.[END-FE]
 
 
 
@@ -694,8 +692,8 @@
 #W32($6410)
 //お願い！[NLINE]
 //誰か助けて！[END-FE]
-お願い！[NLINE]
-誰か助けて！[END-FE]
+Please![NLINE]
+Someone help![END-FE]
 
 
 
@@ -706,7 +704,7 @@
 //[CHARA900][V0000]
 //…こんな場所に彼は眠っていたのか。[END-FE]
 [CHARA900][V0000]
-…こんな場所に彼は眠っていたのか。[END-FE]
+So he lay dormant here...[END-FE]
 
 
 
@@ -722,12 +720,12 @@
 //遺跡の破壊は我々に任せ、[NLINE]
 //陛下は国でお待ちになった方が…。[END-FE]
 [CHARA900][V0100]
-ヴィットーリオ陛下。[NLINE]
-ここから先は険しい山道です。[NWIN]
+Lord Vittorio. The path[NLINE]
+ahead is steep and arduous.[NWIN]
 
 [CHARA900][V0200]
-遺跡の破壊は我々に任せ、[NLINE]
-陛下は国でお待ちになった方が…。[END-FE]
+Please, Your Majesty, return to the [NLINE]
+kingdom and let us destroy the ruins.[END-FE]
 
 
 
@@ -745,14 +743,14 @@
 //上の者が範を示さねば、部下は従わぬ。[NLINE]
 //…ロックバイン将軍の受け売りだがな。[END-FE]
 [CHARA900][V0300]
-いいや。[NLINE]
-剣の使えぬ私は、前線で戦えぬ。[NLINE]
-せめて遺跡の破壊くらい手伝わねば[NLINE]
-皆に申し訳がたたぬ。[NWIN]
+I cannot. I cannot use a sword,[NLINE]
+or assist on the front line.[NLINE]
+If I can't help destroy these[NLINE]
+ruins, I've contributed nothing.[NWIN]
 
 [CHARA900][V0400]
-上の者が範を示さねば、部下は従わぬ。[NLINE]
-…ロックバイン将軍の受け売りだがな。[END-FE]
+As Gen. Rockbein would say, soldiers[NLINE]
+follow those who can lead by example.[END-FE]
 
 
 
@@ -764,8 +762,8 @@
 //陛下のお心は、[NLINE]
 //兵にも伝わっておりましょう。[END-FE]
 [CHARA900][V0500]
-陛下のお心は、[NLINE]
-兵にも伝わっておりましょう。[END-FE]
+Your men know Your[NLINE]
+Majesty's heart, I'm sure.[END-FE]
 
 
 
@@ -778,9 +776,9 @@
 //すまないな、アレッサ。[NLINE]
 //女性のあなたを戦いに巻き込んでしまった。[END-FE]
 [CHARA900][V0600]
-私のことはさておき、[NLINE]
-すまないな、アレッサ。[NLINE]
-女性のあなたを戦いに巻き込んでしまった。[END-FE]
+More important, Elessa...[NLINE]
+I'm sorry for sending a[NLINE]
+woman like you into battle.[END-FE]
 
 
 
@@ -799,15 +797,16 @@
 //[CHARA900][V0900]
 //それより遺跡に向かいましょう。[END-FE]
 [CHARA900][V0700]
-私をただの女とは[NLINE]
-思わぬようお願いします。[NWIN]
+I request that Your Majesty not [NLINE]
+think of me as a mere woman.[NWIN]
 
 [CHARA900][V0800]
-今の私はあの方に力をいただきました。[NLINE]
-陛下を守り、ネイラーンを救う力を。[NWIN]
+He granted me power, and I'll use[NLINE]
+it to protect you and save Neylern.[NWIN]
 
 [CHARA900][V0900]
-それより遺跡に向かいましょう。[END-FE]
+Now, we should head for the[NLINE]
+ruins, my lord...[END-FE]
 
 
 
@@ -820,9 +819,9 @@
 //ネイラーン復興に力を貸してもらうためにも[NLINE]
 //遺跡を破壊し、彼との約束を果たすのだ。[END-FE]
 [CHARA900][V0A00]
-そうだな。[NLINE]
-ネイラーン復興に力を貸してもらうためにも[NLINE]
-遺跡を破壊し、彼との約束を果たすのだ。[END-FE]
+Yes. We must destroy the[NLINE]
+ruins in exchange for his[NLINE]
+aid in restoring Neylern.[END-FE]
 
 
 
@@ -833,7 +832,7 @@
 //[CHARA900][V0B00]
 //はっ。[END-FE]
 [CHARA900][V0B00]
-はっ。[END-FE]
+Right.[END-FE]
 
 
 
@@ -844,7 +843,7 @@
 //[CHARA900][V0C00]
 //総員、前進！[END-FE]
 [CHARA900][V0C00]
-総員、前進！[END-FE]
+All units, advance![END-FE]
 
 
 
@@ -856,8 +855,8 @@
 //アレッサ様！[NLINE]
 //前方に人の気配がします！[END-FE]
 [CHARA900][V0D00]
-アレッサ様！[NLINE]
-前方に人の気配がします！[END-FE]
+Lady Elessa! There's[NLINE]
+someone up ahead![END-FE]
 
 
 
@@ -871,10 +870,10 @@
 //[CHARA900][V0F00]
 //総員、その場で待機！[END-FE]
 [CHARA900][V0E00]
-なんだと？[NWIN]
+What?[NWIN]
 
 [CHARA900][V0F00]
-総員、その場で待機！[END-FE]
+All units, stand fast![END-FE]
 
 
 
@@ -886,8 +885,8 @@
 //アレッサ様！[NLINE]
 //維持軍です！[END-FE]
 [CHARA900][V1000]
-アレッサ様！[NLINE]
-維持軍です！[END-FE]
+Lady Elessa! [NLINE]
+It's the PMB![END-FE]
 
 
 
@@ -896,7 +895,7 @@
 //POINTER #73 @ $6444 - STRING #73 @ $7464
 #W32($6444)
 //ぐっ！！[END-FE]
-ぐっ！！[END-FE]
+Gah![END-FE]
 
 
 
@@ -908,8 +907,8 @@
 //アレッサ様！[NLINE]
 //維持軍です！[END-FE]
 [CHARA900][V1000]
-アレッサ様！[NLINE]
-維持軍です！[END-FE]
+Lady Elessa! [NLINE]
+It's the PMB![END-FE]
 
 
 
@@ -920,7 +919,7 @@
 //[CHARA900][V1200]
 //なんだと!?[END-FE]
 [CHARA900][V1200]
-なんだと!?[END-FE]
+What!?[END-FE]
 
 
 
@@ -931,7 +930,7 @@
 //[CHARA900][V1300]
 //えっ、この声…アレッサ…？[END-FE]
 [CHARA900][V1300]
-えっ、この声…アレッサ…？[END-FE]
+Huh? That voice... Elessa?[END-FE]
 
 
 
@@ -943,8 +942,8 @@
 //アレッサ！[NLINE]
 //生きていたの!?[END-FE]
 [CHARA900][V1400]
-アレッサ！[NLINE]
-生きていたの!?[END-FE]
+Elessa![NLINE]
+You're alive![END-FE]
 
 
 
@@ -955,7 +954,7 @@
 //[CHARA900][V1500]
 //いかがいたしましょう？[END-FE]
 [CHARA900][V1500]
-いかがいたしましょう？[END-FE]
+What are your orders?[END-FE]
 
 
 
@@ -966,7 +965,7 @@
 //[CHARA900][V1500]
 //いかがいたしましょう？[END-FE]
 [CHARA900][V1500]
-いかがいたしましょう？[END-FE]
+What are your orders?[END-FE]
 
 
 
@@ -982,12 +981,12 @@
 //[CHARA900][V1800]
 //総員戦闘準備！[END-FE]
 [CHARA900][V1700]
-敵は少数だ！[NLINE]
-いずれは戦わねばならん相手なら[NLINE]
-この場で消しておく！[NWIN]
+There's only a few of them! [NLINE]
+We'll have to fight them eventually,[NLINE]
+so let's eliminate them now![NWIN]
 
 [CHARA900][V1800]
-総員戦闘準備！[END-FE]
+Prepare for battle![END-FE]
 
 
 
@@ -999,8 +998,8 @@
 //ヴィットーリオ陛下は[NLINE]
 //お下がりください。[END-FE]
 [CHARA900][V1900]
-ヴィットーリオ陛下は[NLINE]
-お下がりください。[END-FE]
+Lord Vittorio, please[NLINE]
+stand back.[END-FE]
 
 
 
@@ -1011,7 +1010,7 @@
 //[CHARA900][V1A00]
 //す、すまない。[END-FE]
 [CHARA900][V1A00]
-す、すまない。[END-FE]
+Thank you.[END-FE]
 
 
 
@@ -1023,8 +1022,8 @@
 //ヴィットーリオだと？[NLINE]
 //そこにいるのか！[END-FE]
 [CHARA900][V1B00]
-ヴィットーリオだと？[NLINE]
-そこにいるのか！[END-FE]
+Vittorio?[NLINE]
+Is he here!?[END-FE]
 
 
 
@@ -1045,17 +1044,17 @@
 //グランゲイルに奪われた祖国の土地を取り戻し、[NLINE]
 //独立を果たすこと！[END-FE]
 [CHARA900][V1C00]
-いい機会だ。[NLINE]
-聞くがいい、維持軍の諸君！[NWIN]
+Now's a good time... People[NLINE]
+of the PMB, lend me your ears![NWIN]
 
 [CHARA900][V1D00]
-私は亡き父とロックバイン将軍の遺志を継ぎ、[NLINE]
-ネイラーン王国を復興させるために立ち上がった！[NWIN]
+I will heed my father and Gen. Rockbein's [NLINE]
+dying wishes to restore Neylern![NWIN]
 
 [CHARA900][V1E00]
-我らの願いはひとつ！[NLINE]
-グランゲイルに奪われた祖国の土地を取り戻し、[NLINE]
-独立を果たすこと！[END-FE]
+Our dreams are as one! To claim our[NLINE]
+independence by retaking our homeland[NLINE]
+from Grangale![END-FE]
 
 
 
@@ -1071,12 +1070,12 @@
 //兵力の差を考えろ！[NLINE]
 //負け戦をするなんて、馬鹿げている！[END-FE]
 [CHARA900][V1F00]
-土地を取り戻す？[NLINE]
-グランゲイルに戦争を仕掛けるつもりか？[NWIN]
+Take back your land? Are you[NLINE]
+planning to declare war on Grangale?[NWIN]
 
 [CHARA900][V2000]
-兵力の差を考えろ！[NLINE]
-負け戦をするなんて、馬鹿げている！[END-FE]
+You're totally outclassed! Don't[NLINE]
+throw away your life like this![END-FE]
 
 
 
@@ -1089,9 +1088,9 @@
 //絶対にグランゲイルに勝利し、[NLINE]
 //独立してみせる！[END-FE]
 [CHARA900][V2100]
-我らには心強い味方がいる！[NLINE]
-絶対にグランゲイルに勝利し、[NLINE]
-独立してみせる！[END-FE]
+We have a powerful ally![NLINE]
+We will beat Grangale and [NLINE]
+regain our independence![END-FE]
 
 
 
@@ -1103,8 +1102,9 @@
 //陛下、ここは危険です。[NLINE]
 //後方へお下がりください。[END-FE]
 [CHARA900][V2200]
-陛下、ここは危険です。[NLINE]
-後方へお下がりください。[END-FE]
+My lord, please move to[NLINE]
+the rear! It's dangerous[NLINE]
+here![END-FE]
 
 
 
@@ -1115,7 +1115,7 @@
 //[CHARA900][V2300]
 //陛下、こちらです。[END-FE]
 [CHARA900][V2300]
-陛下、こちらです。[END-FE]
+This way, Your Majesty.[END-FE]
 
 
 
@@ -1126,7 +1126,7 @@
 //[CHARA900][V2400]
 //すまない、任せるぞ。[END-FE]
 [CHARA900][V2400]
-すまない、任せるぞ。[END-FE]
+I leave it to you.[END-FE]
 
 
 
@@ -1137,7 +1137,7 @@
 //[CHARA900][V2500]
 //はっ！[END-FE]
 [CHARA900][V2500]
-はっ！[END-FE]
+Yes, Sir![END-FE]
 
 
 
@@ -1149,8 +1149,8 @@
 //敵は４人だ！[NLINE]
 //一気にたたみ掛けろ！[END-FE]
 [CHARA900][V2600]
-敵は４人だ！[NLINE]
-一気にたたみ掛けろ！[END-FE]
+There's only 4 enemies![NLINE]
+Take them down at once![END-FE]
 
 
 
@@ -1161,7 +1161,7 @@
 //[CHARA900][V2700]
 //アレッサ！[END-FE]
 [CHARA900][V2700]
-アレッサ！[END-FE]
+Elessa![END-FE]
 
 
 
@@ -1199,7 +1199,7 @@
 //[CHARA900][V2800]
 //うっ…くぅ…！[END-FE]
 [CHARA900][V2800]
-うっ…くぅ…！[END-FE]
+Ugh... Urgh![END-FE]
 
 
 
@@ -1212,9 +1212,9 @@
 //今は下がれ。[NLINE]
 //お前にはもっと働いてもらう。[END-FE]
 [CHARA900][V2900]
-まだ力を使いこなせないのか？[NLINE]
-今は下がれ。[NLINE]
-お前にはもっと働いてもらう。[END-FE]
+Still can't use your powers?[NLINE]
+Stand back for now. I'll have[NLINE]
+you work for me some more.[END-FE]
 
 
 
@@ -1226,8 +1226,8 @@
 //申し訳ありません。[NLINE]
 //ジークヴァルト様。[END-FE]
 [CHARA900][V2A00]
-申し訳ありません。[NLINE]
-ジークヴァルト様。[END-FE]
+I'm sorry,[NLINE]
+Master Ziekwalt.[END-FE]
 
 
 
@@ -1238,7 +1238,7 @@
 //[CHARA900][V2B00]
 //ここで死ぬわけにはいかない…。[END-FE]
 [CHARA900][V2B00]
-ここで死ぬわけにはいかない…。[END-FE]
+I can't die here...[END-FE]
 
 
 
@@ -1247,7 +1247,7 @@
 //POINTER #100 @ $64B0 - STRING #100 @ $79A1
 #W32($64B0)
 //ば、ばかな…[END-FE]
-ば、ばかな…[END-FE]
+I-It can't be...[END-FE]
 
 
 
@@ -1256,7 +1256,7 @@
 //POINTER #101 @ $64B4 - STRING #101 @ $79B0
 #W32($64B4)
 //くっ…[END-FE]
-くっ…[END-FE]
+Urgh...[END-FE]
 
 
 
@@ -1268,8 +1268,8 @@
 //見ていられんな、[NLINE]
 //クラレッサの末裔とも思えんぞ。[END-FE]
 [CHARA900][V2C00]
-見ていられんな、[NLINE]
-クラレッサの末裔とも思えんぞ。[END-FE]
+How could someone as pathetic[NLINE]
+as you be Claressa's descendant?[END-FE]
 
 
 
@@ -1280,7 +1280,7 @@
 //[CHARA900][V2D00]
 //すみません、ジークヴァルト様…。[END-FE]
 [CHARA900][V2D00]
-すみません、ジークヴァルト様…。[END-FE]
+Forgive me, Master Ziekwalt...[END-FE]
 
 
 
@@ -1292,8 +1292,8 @@
 //邪魔者は早く始末するに限るからな。[NLINE]
 //今回は俺も手を貸そう。[END-FE]
 [CHARA900][V2E00]
-邪魔者は早く始末するに限るからな。[NLINE]
-今回は俺も手を貸そう。[END-FE]
+We'd better get rid of these pests[NLINE]
+quickly. I'll help you this time.[END-FE]
 
 
 
@@ -1304,7 +1304,7 @@
 //[CHARA900][V2D00]
 //すみません、ジークヴァルト様…。[END-FE]
 [CHARA900][V2D00]
-すみません、ジークヴァルト様…。[END-FE]
+Forgive me, Master Ziekwalt...[END-FE]
 
 
 
@@ -1316,8 +1316,8 @@
 //邪魔者は早く始末するに限る。[NLINE]
 //後は俺に任せて、お前は下がれ。[END-FE]
 [CHARA900][V2F00]
-邪魔者は早く始末するに限る。[NLINE]
-後は俺に任せて、お前は下がれ。[END-FE]
+We'd better get rid of these[NLINE]
+pests quickly. Stand back.[END-FE]
 
 
 
@@ -1328,7 +1328,7 @@
 //[CHARA900][V3000]
 //申し訳ありません…。[END-FE]
 [CHARA900][V3000]
-申し訳ありません…。[END-FE]
+I'm sorry...[END-FE]
 
 
 
@@ -1337,7 +1337,7 @@
 //POINTER #108 @ $64D0 - STRING #108 @ $7AF5
 #W32($64D0)
 //[COL04]グランゲイル軍[COL00]の増援[END-FE]
-[COL04]グランゲイル軍[COL00]の増援[END-FE]
+[COL04]Grangalian Army[COL00] reinforcements arrived[END-FE]
 
 
 
@@ -1350,9 +1350,9 @@
 //ヤツです！[NLINE]
 //ヤツが例の化け物です！[END-FE]
 [CHARA900][V3100]
-中将！[NLINE]
-ヤツです！[NLINE]
-ヤツが例の化け物です！[END-FE]
+Lieutenant General![NLINE]
+It's him! That's[NLINE]
+our monster![END-FE]
 
 
 
@@ -1365,9 +1365,9 @@
 //ネイラーンの兵とつるんでいるのは[NLINE]
 //どういうことかな？[END-FE]
 [CHARA900][V3200]
-ヤツか…。[NLINE]
-ネイラーンの兵とつるんでいるのは[NLINE]
-どういうことかな？[END-FE]
+So he's the one...[NLINE]
+What business does he have[NLINE]
+with those Neylern soldiers?[END-FE]
 
 
 
@@ -1378,7 +1378,7 @@
 //[CHARA900][V3300]
 //誰だ？[END-FE]
 [CHARA900][V3300]
-誰だ？[END-FE]
+Who are you?[END-FE]
 
 
 
@@ -1393,11 +1393,12 @@
 //貴様には部下を殺された…[NLINE]
 //…いや消された恨みがある。[END-FE]
 [CHARA900][V3400]
-グランゲイル軍の中将ウォルゲイナー。[NWIN]
+Wolgainer, Lieutenant General [NLINE]
+of the Grangale Army.[NWIN]
 
 [CHARA900][V3500]
-貴様には部下を殺された…[NLINE]
-…いや消された恨みがある。[END-FE]
+It's inexcusable what[NLINE]
+you did to my men.[END-FE]
 
 
 
@@ -1410,9 +1411,9 @@
 //だったら、お前も[NLINE]
 //同じところに送ってやろうか？[END-FE]
 [CHARA900][V3600]
-ほう…。[NLINE]
-だったら、お前も[NLINE]
-同じところに送ってやろうか？[END-FE]
+I see... So you[NLINE]
+would like to meet[NLINE]
+the same fate?[END-FE]
 
 
 
@@ -1424,8 +1425,7 @@
 //やれるものなら、[NLINE]
 //やってみるがいい。[END-FE]
 [CHARA900][V3700]
-やれるものなら、[NLINE]
-やってみるがいい。[END-FE]
+Go ahead and try it.[END-FE]
 
 
 
@@ -1436,7 +1436,7 @@
 //[CHARA900][V3800]
 //…う…これは…!?[END-FE]
 [CHARA900][V3800]
-…う…これは…!?[END-FE]
+Ugh... What the...!?[END-FE]
 
 
 
@@ -1447,7 +1447,7 @@
 //[CHARA900][V3900]
 //まさか、あれは…。[END-FE]
 [CHARA900][V3900]
-まさか、あれは…。[END-FE]
+Hey, isn't that...?[END-FE]
 
 
 
@@ -1458,7 +1458,7 @@
 //[CHARA900][V3A00]
 //前に使ってたスクリーパー制御装置か！[END-FE]
 [CHARA900][V3A00]
-前に使ってたスクリーパー制御装置か！[END-FE]
+It's the Screaper Remote![END-FE]
 
 
 
@@ -1470,8 +1470,8 @@
 //行け！[NLINE]
 //化け物同士殺しあうがいい！[END-FE]
 [CHARA900][V3B00]
-行け！[NLINE]
-化け物同士殺しあうがいい！[END-FE]
+Attack! I'll have you[NLINE]
+monsters kill each other![END-FE]
 
 
 
@@ -1482,7 +1482,7 @@
 //[CHARA900][V3C00]
 //…チィッ！[END-FE]
 [CHARA900][V3C00]
-…チィッ！[END-FE]
+Ungh...![END-FE]
 
 
 
@@ -1494,8 +1494,8 @@
 //その男は生かしておけぬ！[NLINE]
 //やれ！[END-FE]
 [CHARA900][V3D00]
-その男は生かしておけぬ！[NLINE]
-やれ！[END-FE]
+That man cannot[NLINE]
+remain alive! Kill him![END-FE]
 
 
 
@@ -1504,7 +1504,7 @@
 //POINTER #121 @ $6504 - STRING #121 @ $7D56
 #W32($6504)
 //！？[END-FE]
-！？[END-FE]
+!?[END-FE]
 
 
 
@@ -1515,7 +1515,7 @@
 //[CHARA900][V3E00]
 //スクリーパーが人の命令に従うだと？[END-FE]
 [CHARA900][V3E00]
-スクリーパーが人の命令に従うだと？[END-FE]
+Is that Screaper obeying orders?[END-FE]
 
 
 
@@ -1527,8 +1527,8 @@
 //博士の言っていた、スクリーパー制御装置…。[NLINE]
 //本当に操れるなんて…。[END-FE]
 [CHARA900][V3F00]
-博士の言っていた、スクリーパー制御装置…。[NLINE]
-本当に操れるなんて…。[END-FE]
+The Remote the Professor spoke[NLINE]
+of... I didn't think it could actually...[END-FE]
 
 
 
@@ -1539,7 +1539,7 @@
 //[CHARA900][V4000]
 //それじゃ、そのエネルギーは…！[END-FE]
 [CHARA900][V4000]
-それじゃ、そのエネルギーは…！[END-FE]
+Then, it's powered by...![END-FE]
 
 
 
@@ -1551,8 +1551,8 @@
 //…くっ…、[NLINE]
 //あの機械のせいで…力が…！[END-FE]
 [CH.FACE:Close-Eyes][CHARA900][V4100]
-…くっ…、[NLINE]
-あの機械のせいで…力が…！[END-FE]
+Urg... That device, it's[NLINE]
+making my power...![END-FE]
 
 
 
@@ -1564,8 +1564,8 @@
 //いけるぞ。[NLINE]
 //これで…。[END-FE]
 [CHARA900][V4200]
-いけるぞ。[NLINE]
-これで…。[END-FE]
+We can do it.[NLINE]
+With this...[END-FE]
 
 
 
@@ -1578,9 +1578,9 @@
 //その装置を動かすのに、[NLINE]
 //人命を使っているんじゃないのか！[END-FE]
 [CHARA900][V4300]
-ウォルゲイナー中将！[NLINE]
-その装置を動かすのに、[NLINE]
-人命を使っているんじゃないのか！[END-FE]
+Lt. General Wolgainer![NLINE]
+Isn't that device powered by[NLINE]
+human lives!?[END-FE]
 
 
 
@@ -1593,9 +1593,10 @@
 //我が軍の多くの兵がそいつに殺される！[NLINE]
 //大の前の小の犠牲だ！[END-FE]
 [CHARA900][V4400]
-今ここでそいつを殺しておかねば、[NLINE]
-我が軍の多くの兵がそいつに殺される！[NLINE]
-大の前の小の犠牲だ！[END-FE]
+If we don't stop him now, he'll[NLINE]
+keep killing our soldiers! It's a small[NLINE]
+sacrifice to prevent further[NLINE]
+casualties![END-FE]
 
 
 
@@ -1607,8 +1608,8 @@
 //同じ人間の命なのに…、[NLINE]
 //ひどいよ…。[END-FE]
 [CHARA900][V4500]
-同じ人間の命なのに…、[NLINE]
-ひどいよ…。[END-FE]
+How can you use the lives[NLINE]
+of your fellow humans?[END-FE]
 
 
 
@@ -1618,8 +1619,8 @@
 #W32($6528)
 //ジークヴァルト様…？[NLINE]
 //あの装置のせいか！[END-FE]
-ジークヴァルト様…？[NLINE]
-あの装置のせいか！[END-FE]
+Master Ziekwalt...?[NLINE]
+Is it that device!?[END-FE]
 
 
 
@@ -1629,8 +1630,8 @@
 #W32($652C)
 //ジークヴァルト様！[NLINE]
 //お下がりください！[END-FE]
-ジークヴァルト様！[NLINE]
-お下がりください！[END-FE]
+Master Ziekwalt![NLINE]
+Please stay back![END-FE]
 
 
 
@@ -1641,9 +1642,9 @@
 //くそ、ナイトごときに…[NLINE]
 //ここはひとまず[NLINE]
 //装置の影響から逃れなければ。[END-FE]
-くそ、ナイトごときに…[NLINE]
-ここはひとまず[NLINE]
-装置の影響から逃れなければ。[END-FE]
+Ugh... To think I'd lose to[NLINE]
+a Knight... I need to get away[NLINE]
+from that device for now.[END-FE]
 
 
 
@@ -1654,9 +1655,9 @@
 //まさか、ナイトクラスのスクリーパーを[NLINE]
 //倒せるとは…。[NLINE]
 //作戦を立て直すぞ！後退！[END-FE]
-まさか、ナイトクラスのスクリーパーを[NLINE]
-倒せるとは…。[NLINE]
-作戦を立て直すぞ！後退！[END-FE]
+Who would have thought that they'd[NLINE]
+defeat a Knight-class Screaper... [NLINE]
+We need to regroup! Retreat![END-FE]
 
 
 
@@ -1666,8 +1667,8 @@
 #W32($6538)
 //逃がしたか…！[NLINE]
 //追うぞ！[END-FE]
-逃がしたか…！[NLINE]
-追うぞ！[END-FE]
+He got away...! [NLINE]
+After him![END-FE]
 
 
 
@@ -1677,8 +1678,8 @@
 #W32($653C)
 //ついでだ。[NLINE]
 //スクリーパーは平和維持軍の連中を叩け！[END-FE]
-ついでだ。[NLINE]
-スクリーパーは平和維持軍の連中を叩け！[END-FE]
+We can still salvage this...[NLINE]
+Screaper! Destroy the PMB![END-FE]
 
 
 
@@ -1688,8 +1689,8 @@
 #W32($6540)
 //あの男がネイラーンに加担しているとなると[NLINE]
 //大事になりそうだな…。[END-FE]
-あの男がネイラーンに加担しているとなると[NLINE]
-大事になりそうだな…。[END-FE]
+If that man is supporting Neylern, this[NLINE]
+is more serious than we thought...[END-FE]
 
 
 
@@ -1701,8 +1702,8 @@
 //ジークヴァルトの力を借りて[NLINE]
 //独立しようとはな……。[END-FE]
 [CHARA900][V4600]
-ジークヴァルトの力を借りて[NLINE]
-独立しようとはな……。[END-FE]
+So they're using Ziekwalt's [NLINE]
+help to gain independence...[END-FE]
 
 
 
@@ -1713,7 +1714,7 @@
 //[CHARA900][V4700]
 //アレッサ…。[END-FE]
 [CHARA900][V4700]
-アレッサ…。[END-FE]
+Elessa...[END-FE]
 
 
 
@@ -1729,12 +1730,12 @@
 //スクリーパーを意のままに[NLINE]
 //操っていたぞ？[END-FE]
 [CHARA900][V4800]
-それより、ウォルゲイナー中将の[NLINE]
-使っていた機械は何なのだ？[NWIN]
+More importantly, what was that[NLINE]
+device Lt. Gen. Wolgainer had?[NWIN]
 
 [CHARA900][V4900]
-スクリーパーを意のままに[NLINE]
-操っていたぞ？[END-FE]
+He had the Screaper[NLINE]
+eating out of his hand.[END-FE]
 
 
 
@@ -1750,12 +1751,12 @@
 //問題は、あれを動かすには[NLINE]
 //人の命を犠牲にしているということだ。[END-FE]
 [CHARA900][V4A00]
-あれは、ペルナギ博士が作った[NLINE]
-スクリーパー制御装置だ。[NWIN]
+It's a Screaper Remote that[NLINE]
+Professor Pernagi made.[NWIN]
 
 [CHARA900][V4B00]
-問題は、あれを動かすには[NLINE]
-人の命を犠牲にしているということだ。[END-FE]
+The thing is, it's powered[NLINE]
+by sacrificing human lives.[END-FE]
 
 
 
@@ -1766,7 +1767,7 @@
 //[CHARA900][V4C00]
 //むう…なんということだ…。[END-FE]
 [CHARA900][V4C00]
-むう…なんということだ…。[END-FE]
+But... That's madness...![END-FE]
 
 
 
@@ -1778,8 +1779,8 @@
 //中将、[NLINE]
 //実験は大成功ですな！[END-FE]
 [CHARA900][V4D00]
-中将、[NLINE]
-実験は大成功ですな！[END-FE]
+The experiment went [NLINE]
+well, Lt. General![END-FE]
 
 
 
@@ -1803,20 +1804,20 @@
 //いくら死刑囚とは言え、[NLINE]
 //犠牲になった者が浮かばれん！[END-FE]
 [CHARA900][V4E00]
-何を浮かれている？[NWIN]
+What are you so happy about?[NWIN]
 
 [CHARA900][V4F00]
-確かにこの装置は[NLINE]
-スクリーパーを操っていた。[NWIN]
+The remote did control[NLINE]
+the Screaper, but...[NWIN]
 
 [CHARA900][V5000]
-だがたったあれだけの制御に[NLINE]
-二十数人の命が使われているのだ。[NWIN]
+It cost us twenty human[NLINE]
+lives in the process.[NWIN]
 
 [CHARA900][V5100]
-しかも、あの男を仕留め損なった！[NLINE]
-いくら死刑囚とは言え、[NLINE]
-犠牲になった者が浮かばれん！[END-FE]
+And still we couldn't stop him![NLINE]
+They were criminals on death row,[NLINE]
+but we still just wasted their lives![END-FE]
 
 
 
@@ -1827,7 +1828,7 @@
 //[CHARA900][V5200]
 //も、申し訳ありません！[END-FE]
 [CHARA900][V5200]
-も、申し訳ありません！[END-FE]
+Sorry, Sir![END-FE]
 
 
 
@@ -1844,13 +1845,13 @@
 //おまえはこの装置をもって、[NLINE]
 //ゼルドックに戻れ。[END-FE]
 [CHARA900][V5300]
-ともかく、[NLINE]
-私はこのことを[NLINE]
-陛下に報告せねばならない。[NWIN]
+Enough about this for now.[NLINE]
+I must go and report to[NLINE]
+His Majesty at once.[NWIN]
 
 [CHARA900][V5400]
-おまえはこの装置をもって、[NLINE]
-ゼルドックに戻れ。[END-FE]
+Take this device[NLINE]
+and return to Zerdok.[END-FE]
 
 
 
@@ -1862,8 +1863,8 @@
 //はっ！[NLINE]
 //了解しました！[END-FE]
 [CHARA900][V5500]
-はっ！[NLINE]
-了解しました！[END-FE]
+Yes, Sir![NLINE]
+Understood, Sir![END-FE]
 
 
 
@@ -1878,11 +1879,11 @@
 //あ！[NLINE]
 //また何か聞こえたの？[END-FE]
 [CHARA900][V5600]
-アンタ、どうしたの？[NWIN]
+Hey, what's wrong?[NWIN]
 
 [CHARA900][V5700]
-あ！[NLINE]
-また何か聞こえたの？[END-FE]
+I know! Were you[NLINE]
+hearing things again?[END-FE]
 
 
 
@@ -1891,7 +1892,7 @@
 //POINTER #148 @ $6570 - STRING #148 @ $845A
 #W32($6570)
 //・今聞いた内容を話す[END-FE]
-・今聞いた内容を話す[END-FE]
+・Tell them what you heard[END-FE]
 
 
 
@@ -1900,7 +1901,7 @@
 //POINTER #149 @ $6574 - STRING #149 @ $8471
 #W32($6574)
 //・話さない[END-FE]
-・話さない[END-FE]
+・Don't tell them[END-FE]
 
 
 
@@ -1912,8 +1913,8 @@
 //スクリーパー制御装置が[NLINE]
 //ゼルドックに？[END-FE]
 [CHARA900][V5900]
-スクリーパー制御装置が[NLINE]
-ゼルドックに？[END-FE]
+The Screaper Remote's[NLINE]
+being taken to Zerdok?[END-FE]
 
 
 
@@ -1924,7 +1925,7 @@
 //[CHARA900][V5800]
 //何よ、話しなさいよ！[END-FE]
 [CHARA900][V5800]
-何よ、話しなさいよ！[END-FE]
+What did you hear!?[END-FE]
 
 
 
@@ -1940,12 +1941,12 @@
 //状況は我々が思っている以上に[NLINE]
 //早く変わっているようだぞ。[END-FE]
 [CHARA900][V5A00]
-詳しいことは後で聞くとして、[NLINE]
-今は早く戻った方がよかろう。[NWIN]
+We'll hear the details later.[NLINE]
+For now, we should head back.[NWIN]
 
 [CHARA900][V5B00]
-状況は我々が思っている以上に[NLINE]
-早く変わっているようだぞ。[END-FE]
+The situation's changing much[NLINE]
+faster than we anticipated.[END-FE]
 
 
 
@@ -1991,3 +1992,7 @@
 #W32($6594)
 //・Ｂパターン[END-FE]
 ・Ｂパターン[END-FE]
+
+
+
+

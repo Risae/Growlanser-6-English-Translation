@@ -1,5 +1,3 @@
-
-
 //POINTER #0 @ $21A0 - STRING #0 @ $2330
 #W32($21A0)
 //[END-FF]
@@ -12,7 +10,7 @@
 //POINTER #1 @ $21A4 - STRING #1 @ $2333
 #W32($21A4)
 //妖精の長老[END-FF]
-妖精の長老[END-FF]
+Matron Fairy[END-FF]
 
 
 
@@ -21,7 +19,7 @@
 //POINTER #2 @ $21A8 - STRING #2 @ $2340
 #W32($21A8)
 //・敵の全滅[END-FE]
-・敵の全滅[END-FE]
+・All enemies defeated[END-FE]
 
 
 
@@ -31,8 +29,8 @@
 #W32($21AC)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -42,8 +40,8 @@
 #W32($21B0)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -52,7 +50,7 @@
 //POINTER #5 @ $21B4 - STRING #5 @ $2397
 #W32($21B4)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -63,9 +61,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -76,9 +74,9 @@
 //・ＮＰＣの死亡[NLINE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -88,8 +86,8 @@
 #W32($21C0)
 //・ＮＰＣの死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・ＮＰＣの死亡[NLINE]
-・パーティーの全滅[END-FE]
+・NPC dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -99,8 +97,8 @@
 #W32($21C4)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -110,8 +108,8 @@
 #W32($21C8)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・同行人の死亡[NLINE]
-・パーティーの全滅[END-FE]
+・Follower dies[NLINE]
+・All party members die[END-FE]
 
 
 
@@ -120,7 +118,7 @@
 //POINTER #11 @ $21CC - STRING #11 @ $2485
 #W32($21CC)
 //・パーティーの全滅[END-FE]
-・パーティーの全滅[END-FE]
+・All party members die[END-FE]
 
 
 
@@ -130,8 +128,8 @@
 #W32($21D0)
 //　[NLINE]
 //ふとん犬はどこかへ走り去った…。[END-FE]
-　[NLINE]
-ふとん犬はどこかへ走り去った…。[END-FE]
+ [NLINE]
+The Futon Dog ran off somewhere...[END-FE]
 
 
 
@@ -140,7 +138,7 @@
 //POINTER #13 @ $21D4 - STRING #13 @ $24C1
 #W32($21D4)
 //に、ニンゲンよ！[END-FE]
-に、ニンゲンよ！[END-FE]
+H-Humans![END-FE]
 
 
 
@@ -177,8 +175,8 @@
 #W32($21E4)
 //モンスターがいて危険です！[NLINE]
 //今は戦いに集中して下さい。[END-FE]
-モンスターがいて危険です！[NLINE]
-今は戦いに集中して下さい。[END-FE]
+Quickly, go defeat[NLINE]
+the monsters![END-FE]
 
 
 
@@ -187,7 +185,7 @@
 //POINTER #18 @ $21E8 - STRING #18 @ $2542
 #W32($21E8)
 //長老様！[END-FE]
-長老様！[END-FE]
+Matron![END-FE]
 
 
 
@@ -197,8 +195,8 @@
 #W32($21EC)
 //コリンではないですか。[NLINE]
 //あなたの活躍はここにも届いていますよ。[END-FE]
-コリンではないですか。[NLINE]
-あなたの活躍はここにも届いていますよ。[END-FE]
+It's good to see you, Korin. You[NLINE]
+honor this forest with your victory.[END-FE]
 
 
 
@@ -211,11 +209,11 @@
 //
 //それで、エルファンに伝わる[NLINE]
 //伝説の防具を彼にあげたいんです。[END-FE]
-えへへっ[COL01]★[COL00][NLINE]
-それもコイツのおかげです。[NWIN]
+Heehee[COL01]★[COL00][NLINE]
+It's all thanks to this guy.[NWIN]
 
-それで、エルファンに伝わる[NLINE]
-伝説の防具を彼にあげたいんです。[END-FE]
+Do you think we can give him[NLINE]
+the legendary armor of Elphan?[END-FE]
 
 
 
@@ -227,10 +225,10 @@
 //
 //では、彼がそれを持つにふさわしい人物か、[NLINE]
 //確認させて頂きます。[END-FE]
-ファイナルガードを、ですか…。[NWIN]
+The Final Guard...[NWIN]
 
-では、彼がそれを持つにふさわしい人物か、[NLINE]
-確認させて頂きます。[END-FE]
+I'll first have to confirm that he's[NLINE]
+worthy to bear it.[END-FE]
 
 
 
@@ -241,9 +239,9 @@
 //…ふむ。[NLINE]
 //この者は良い人間ではないようだな。[NLINE]
 //そんな者にはファイナルガードは任せられない。[END-FE]
-…ふむ。[NLINE]
-この者は良い人間ではないようだな。[NLINE]
-そんな者にはファイナルガードは任せられない。[END-FE]
+Hm... He lacks a good heart. I[NLINE]
+cannot entrust the Final Guard[NLINE]
+to a man like him.[END-FE]
 
 
 
@@ -254,9 +252,9 @@
 //…ふむ。[NLINE]
 //この者は知性的ではないようだな。[NLINE]
 //そんな者にはファイナルガードは任せられない。[END-FE]
-…ふむ。[NLINE]
-この者は知性的ではないようだな。[NLINE]
-そんな者にはファイナルガードは任せられない。[END-FE]
+Hm... He lacks intelligence. I[NLINE]
+cannot entrust the Final Guard[NLINE]
+to a man like him.[END-FE]
 
 
 
@@ -267,9 +265,9 @@
 //…ふむ。[NLINE]
 //この者は他人を思う心が欠けているようだな。[NLINE]
 //そんな者にはファイナルガードは任せられない。[END-FE]
-…ふむ。[NLINE]
-この者は他人を思う心が欠けているようだな。[NLINE]
-そんな者にはファイナルガードは任せられない。[END-FE]
+Hm... He lacks consideration for[NLINE]
+others. I cannot entrust the Final[NLINE]
+Guard to a man like him.[END-FE]
 
 
 
@@ -280,9 +278,9 @@
 //…ふむ。[NLINE]
 //この者は素直さとはかけ離れているようだな。[NLINE]
 //そんな者にはファイナルガードは任せられない。[END-FE]
-…ふむ。[NLINE]
-この者は素直さとはかけ離れているようだな。[NLINE]
-そんな者にはファイナルガードは任せられない。[END-FE]
+Hm... He is far from accepting. I[NLINE]
+cannot entrust the Final Guard[NLINE]
+to a man like him.[END-FE]
 
 
 
@@ -293,9 +291,9 @@
 //…ふむ。[NLINE]
 //この者は素直なとはかけ離れているようだな[NLINE]
 //そんな者にはファイナルガードは任せられない。[END-FE]
-…ふむ。[NLINE]
-この者は素直なとはかけ離れているようだな[NLINE]
-そんな者にはファイナルガードは任せられない。[END-FE]
+Hm... He lacks love for his[NLINE]
+fellow man. I cannot entrust the[NLINE]
+Final Guard to a man like him.[END-FE]
 
 
 
@@ -305,8 +303,8 @@
 #W32($220C)
 //己を改めてから、[NLINE]
 //またここに来るがよい。[END-FE]
-己を改めてから、[NLINE]
-またここに来るがよい。[END-FE]
+See me again when[NLINE]
+you mend your ways.[END-FE]
 
 
 
@@ -317,9 +315,9 @@
 //…ふむ。[NLINE]
 //この者ならば、ファイナルガードを[NLINE]
 //使いこなせるやも知れぬ。[END-FE]
-…ふむ。[NLINE]
-この者ならば、ファイナルガードを[NLINE]
-使いこなせるやも知れぬ。[END-FE]
+Hm... This man may be able[NLINE]
+to draw out the Final Guard's[NLINE]
+full potential.[END-FE]
 
 
 
@@ -328,9 +326,9 @@
 //POINTER #29 @ $2214 - STRING #29 @ $28B3
 #W32($2214)
 //やったね、[NLINE]
-//[Merklich]！[END-FE]
-やったね、[NLINE]
-[Merklich]！[END-FE]
+//[MainCharName]！[END-FE]
+Way to go,[NLINE]
+[MainCharName]![END-FE]
 
 
 
@@ -340,8 +338,8 @@
 #W32($2218)
 //力なき者に代わり、[NLINE]
 //この世界を守って下さい。[END-FE]
-力なき者に代わり、[NLINE]
-この世界を守って下さい。[END-FE]
+Watch over the weak[NLINE]
+of this world.[END-FE]
 
 
 
@@ -351,8 +349,8 @@
 #W32($221C)
 //ファイナルガードを持つにふさわしい人物か[NLINE]
 //見極めさせてもらいますが、よろしいですか？[END-FE]
-ファイナルガードを持つにふさわしい人物か[NLINE]
-見極めさせてもらいますが、よろしいですか？[END-FE]
+I must confirm you're worthy of the[NLINE]
+Final Guard. Are you prepared?[END-FE]
 
 
 
@@ -362,8 +360,8 @@
 #W32($2220)
 //力なき者に代わり、[NLINE]
 //この世界を守って下さい。[END-FE]
-力なき者に代わり、[NLINE]
-この世界を守って下さい。[END-FE]
+Watch over the weak[NLINE]
+of this world.[END-FE]
 
 
 
@@ -373,8 +371,8 @@
 #W32($2224)
 //きゃ～！[NLINE]
 //モンスターがいるわ！[END-FE]
-きゃ～！[NLINE]
-モンスターがいるわ！[END-FE]
+Eeeek! It's[NLINE]
+a monster![END-FE]
 
 
 
@@ -383,7 +381,7 @@
 //POINTER #34 @ $2228 - STRING #34 @ $299E
 #W32($2228)
 //きゃ～！[END-FE]
-きゃ～！[END-FE]
+Aieee![END-FE]
 
 
 
@@ -394,9 +392,9 @@
 //コリン、[NLINE]
 //ユリィに勝ったのね。[NLINE]
 //おめでとう！[END-FE]
-コリン、[NLINE]
-ユリィに勝ったのね。[NLINE]
-おめでとう！[END-FE]
+Korin, I heard you[NLINE]
+beat Yurii! That's[NLINE]
+fantastic![END-FE]
 
 
 
@@ -406,8 +404,8 @@
 #W32($2230)
 //コ、コリンが一緒なら、[NLINE]
 //…平気…かも…。[END-FE]
-コ、コリンが一緒なら、[NLINE]
-…平気…かも…。[END-FE]
+I-I think I'll be okay...[NLINE]
+as long as Korin's here...[END-FE]
 
 
 
@@ -418,9 +416,9 @@
 //コリン、[NLINE]
 //ユリィに勝てなかったからって、[NLINE]
 //気を落とさないでね。[END-FE]
-コリン、[NLINE]
-ユリィに勝てなかったからって、[NLINE]
-気を落とさないでね。[END-FE]
+So you couldn't beat[NLINE]
+Yurii... Don't feel bad,[NLINE]
+Korin![END-FE]
 
 
 
@@ -430,8 +428,8 @@
 #W32($2238)
 //き、危険です！[NLINE]
 //モンスターの気配が…。[END-FE]
-き、危険です！[NLINE]
-モンスターの気配が…。[END-FE]
+I-It's dangerous![NLINE]
+I sense m-monsters...[END-FE]
 
 
 
@@ -440,7 +438,7 @@
 //POINTER #39 @ $223C - STRING #39 @ $2A6D
 #W32($223C)
 //きゃ～！[END-FE]
-きゃ～！[END-FE]
+Aieee![END-FE]
 
 
 
@@ -456,14 +454,14 @@
 //
 //でも、あきらめず、[NLINE]
 //仲間を信じなさい。[END-FE]
-人間よ。[NLINE]
-あなたの未来が見えます。[NWIN]
+Human... I can see[NLINE]
+into your future.[NWIN]
 
-あなたはやがて、[NLINE]
-深い絶望を知るでしょう。[NWIN]
+A deep despair[NLINE]
+awaits you.[NWIN]
 
-でも、あきらめず、[NLINE]
-仲間を信じなさい。[END-FE]
+Don't give up. Trust[NLINE]
+in your friends.[END-FE]
 
 
 
@@ -479,14 +477,14 @@
 //
 //仲間を信じ、[NLINE]
 //そして感謝をしなさい。[END-FE]
-人間よ。[NLINE]
-あなたの未来が見えます。[NWIN]
+Human... I can see[NLINE]
+into your future.[NWIN]
 
-あなたは間もなく、[NLINE]
-絶望を脱するでしょう。[NWIN]
+The deep despair will[NLINE]
+soon pass.[NWIN]
 
-仲間を信じ、[NLINE]
-そして感謝をしなさい。[END-FE]
+Trust in your friends,[NLINE]
+and cherish them.[END-FE]
 
 
 
@@ -496,8 +494,8 @@
 #W32($2248)
 //絶望を脱しましたね。[NLINE]
 //このまま仲間を信じて進みなさい。[END-FE]
-絶望を脱しましたね。[NLINE]
-このまま仲間を信じて進みなさい。[END-FE]
+I see your despair has lifted.[NLINE]
+Keep trusting in your friends.[END-FE]
 
 
 
@@ -507,8 +505,8 @@
 #W32($224C)
 //きゃ～！[NLINE]
 //こわいモンスターがいる！[END-FE]
-きゃ～！[NLINE]
-こわいモンスターがいる！[END-FE]
+Nooooo! There's a [NLINE]
+scary monster![END-FE]
 
 
 
@@ -517,7 +515,7 @@
 //POINTER #44 @ $2250 - STRING #44 @ $2BC6
 #W32($2250)
 //きゃ～！[END-FE]
-きゃ～！[END-FE]
+Aieee![END-FE]
 
 
 
@@ -527,8 +525,8 @@
 #W32($2254)
 //長老様は、[NLINE]
 //今、おでかけよ。[END-FE]
-長老様は、[NLINE]
-今、おでかけよ。[END-FE]
+The Matron is[NLINE]
+out right now.[END-FE]
 
 
 
@@ -539,9 +537,9 @@
 //コリン、ゆうしょう？[NLINE]
 //ゆうしょうって、ナニ？[NLINE]
 //とっても、イイこと？[END-FE]
-コリン、ゆうしょう？[NLINE]
-ゆうしょうって、ナニ？[NLINE]
-とっても、イイこと？[END-FE]
+What's a champion,[NLINE]
+Korin? Something[NLINE]
+really good?[END-FE]
 
 
 
@@ -550,7 +548,7 @@
 //POINTER #47 @ $225C - STRING #47 @ $2C35
 #W32($225C)
 //長老様はどこ？[END-FE]
-長老様はどこ？[END-FE]
+Where's the Matron?[END-FE]
 
 
 
@@ -560,8 +558,8 @@
 #W32($2260)
 //しらな～い。[NLINE]
 //おでかけ中よ。[END-FE]
-しらな～い。[NLINE]
-おでかけ中よ。[END-FE]
+I dunno. She[NLINE]
+went somewhere.[END-FE]
 
 
 
@@ -570,7 +568,7 @@
 //POINTER #49 @ $2264 - STRING #49 @ $2C65
 #W32($2264)
 //モ、モンスター…こわい…。[END-FE]
-モ、モンスター…こわい…。[END-FE]
+M-Monster... I'm scared...[END-FE]
 
 
 
@@ -579,7 +577,7 @@
 //POINTER #50 @ $2268 - STRING #50 @ $2C82
 #W32($2268)
 //きゃ～！[END-FE]
-きゃ～！[END-FE]
+Aieee![END-FE]
 
 
 
@@ -589,8 +587,8 @@
 #W32($226C)
 //…コ、コリン…、[NLINE]
 //踊りを覚えたい？[END-FE]
-…コ、コリン…、[NLINE]
-踊りを覚えたい？[END-FE]
+K-Korin... Do you[NLINE]
+want to learn a dance?[END-FE]
 
 
 
@@ -601,9 +599,9 @@
 //あ、知りたい！[NLINE]
 //知りたい！[NLINE]
 //って、いうか、教えろー！[END-FE]
-あ、知りたい！[NLINE]
-知りたい！[NLINE]
-って、いうか、教えろー！[END-FE]
+Definitely! I wanna[NLINE]
+learn it! You better[NLINE]
+teach it to me![END-FE]
 
 
 
@@ -616,11 +614,11 @@
 //
 //やり方は…[NLINE]
 //ハチをイメージして…[END-FE]
-…うぅ…、教えるから[NLINE]
-どならないで…。[NWIN]
+I'll teach it to you...[NLINE]
+Just don't yell at me...[NWIN]
 
-やり方は…[NLINE]
-ハチをイメージして…[END-FE]
+First, imagine[NLINE]
+a bee...[END-FE]
 
 
 
@@ -629,7 +627,7 @@
 //POINTER #54 @ $2278 - STRING #54 @ $2D34
 #W32($2278)
 //ふむふむ…。[END-FE]
-ふむふむ…。[END-FE]
+Hrm...[END-FE]
 
 
 
@@ -640,7 +638,7 @@
 //　[NLINE]
 //踊り『蜂の飛行』を覚えた！[END-FE]
 　[NLINE]
-踊り『蜂の飛行』を覚えた！[END-FE]
+Learned Dance: Flight of the Bee![END-FE]
 
 
 
@@ -649,7 +647,7 @@
 //POINTER #56 @ $2280 - STRING #56 @ $2D64
 #W32($2280)
 //サンキュー！[END-FE]
-サンキュー！[END-FE]
+Thanks![END-FE]
 
 
 
@@ -659,8 +657,8 @@
 #W32($2284)
 //…教えたから、[NLINE]
 //仲良くしてね…。[END-FE]
-…教えたから、[NLINE]
-仲良くしてね…。[END-FE]
+Will you be nice[NLINE]
+to me now...?[END-FE]
 
 
 
@@ -670,8 +668,8 @@
 #W32($2288)
 //…踊り、教えたから、[NLINE]
 //仲良くしてね…。[END-FE]
-…踊り、教えたから、[NLINE]
-仲良くしてね…。[END-FE]
+I taught it to you,[NLINE]
+so be nice...[END-FE]
 
 
 
@@ -684,11 +682,11 @@
 //
 //コリンと…同じ…[NLINE]
 //…能なし…。[END-FE]
-…わたしには…、[NLINE]
-未来…見えないの…。[NWIN]
+I-I can't see[NLINE]
+your future...[NWIN]
 
-コリンと…同じ…[NLINE]
-…能なし…。[END-FE]
+I'm useless...[NLINE]
+Just like Korin.[END-FE]
 
 
 
@@ -697,7 +695,7 @@
 //POINTER #60 @ $2290 - STRING #60 @ $2E08
 #W32($2290)
 //能なしって言うなー！[END-FE]
-能なしって言うなー！[END-FE]
+I'm not useless![END-FE]
 
 
 
@@ -709,10 +707,10 @@
 //
 //…でも踊りなら、[NLINE]
 //負けない…。[END-FE]
-…あぅ…。[NWIN]
+Aieee...![NWIN]
 
-…でも踊りなら、[NLINE]
-負けない…。[END-FE]
+...But, I won't[NLINE]
+lose at dancing...[END-FE]
 
 
 
@@ -722,8 +720,8 @@
 #W32($2298)
 //モンスター…いる…、[NLINE]
 //…危険…とても…。[END-FE]
-モンスター…いる…、[NLINE]
-…危険…とても…。[END-FE]
+There's a monster...[NLINE]
+...Very dangerous...[END-FE]
 
 
 
@@ -732,7 +730,7 @@
 //POINTER #63 @ $229C - STRING #63 @ $2E77
 #W32($229C)
 //きゃ～！[END-FE]
-きゃ～！[END-FE]
+Aieee![END-FE]
 
 
 
@@ -742,8 +740,8 @@
 #W32($22A0)
 //わたしの力…、[NLINE]
 //…役にたった？[END-FE]
-わたしの力…、[NLINE]
-…役にたった？[END-FE]
+Did my[NLINE]
+power help...?[END-FE]
 
 
 
@@ -752,7 +750,8 @@
 //POINTER #65 @ $22A4 - STRING #65 @ $2EA3
 #W32($22A4)
 //イ、イジメない？[END-FE]
-イ、イジメない？[END-FE]
+Y-You won't[NLINE]
+pick on me?[END-FE]
 
 
 
@@ -762,8 +761,8 @@
 #W32($22A8)
 //あなた…[NLINE]
 //不思議な箱…持ってる？[END-FE]
-あなた…[NLINE]
-不思議な箱…持ってる？[END-FE]
+Do you... have a[NLINE]
+mysterious box...?[END-FE]
 
 
 
@@ -773,8 +772,8 @@
 #W32($22AC)
 //箱の記憶…、[NLINE]
 //また、見てみる…？[END-FE]
-箱の記憶…、[NLINE]
-また、見てみる…？[END-FE]
+Should I... look at[NLINE]
+the box's memories...?[END-FE]
 
 
 
@@ -787,11 +786,11 @@
 //
 //あのオレンジ髪の[NLINE]
 //女の人…。[END-FE]
-…ダメ…。[NLINE]
-何か足りない…。[NWIN]
+...No... Something's[NLINE]
+missing...[NWIN]
 
-あのオレンジ髪の[NLINE]
-女の人…。[END-FE]
+That lady with[NLINE]
+the blonde hair...[END-FE]
 
 
 
@@ -801,8 +800,8 @@
 #W32($22B4)
 //ん？[NLINE]
 //ファニルのこと？[END-FE]
-ん？[NLINE]
-ファニルのこと？[END-FE]
+Hm? You mean[NLINE]
+Fanille?[END-FE]
 
 
 
@@ -812,8 +811,8 @@
 #W32($22B8)
 //あの人、必要…。[NLINE]
 //…これ以上は…無理…。[END-FE]
-あの人、必要…。[NLINE]
-…これ以上は…無理…。[END-FE]
+I can't see further...[NLINE]
+without her...[END-FE]
 
 
 
@@ -823,8 +822,8 @@
 #W32($22BC)
 //女の人の気配…、[NLINE]
 //…東の方から…。[END-FE]
-女の人の気配…、[NLINE]
-…東の方から…。[END-FE]
+I sense a lady...[NLINE]
+From the east...[END-FE]
 
 
 
@@ -834,8 +833,8 @@
 #W32($22C0)
 //…ダメ…。[NLINE]
 //これ以上は…無理…。[END-FE]
-…ダメ…。[NLINE]
-これ以上は…無理…。[END-FE]
+...No... That's as far[NLINE]
+as I can see...[END-FE]
 
 
 
@@ -846,9 +845,9 @@
 //絞り込めてきたね！[NLINE]
 //ここから東の方で、[NLINE]
 //紙の洋服を作ってる人よ！[END-FE]
-絞り込めてきたね！[NLINE]
-ここから東の方で、[NLINE]
-紙の洋服を作ってる人よ！[END-FE]
+That's it! There's a[NLINE]
+person who makes paper[NLINE]
+clothes east of here![END-FE]
 
 
 
@@ -859,9 +858,9 @@
 //その人にあって、[NLINE]
 //あの子のタイムカプセルを[NLINE]
 //渡してあげたいです…。[END-FE]
-その人にあって、[NLINE]
-あの子のタイムカプセルを[NLINE]
-渡してあげたいです…。[END-FE]
+I'd like to meet her[NLINE]
+and give that boy's[NLINE]
+time capsule back...[END-FE]
 
 
 
@@ -871,8 +870,8 @@
 #W32($22CC)
 //それじゃ…、[NLINE]
 //これ…返します…。[END-FE]
-それじゃ…、[NLINE]
-これ…返します…。[END-FE]
+Then I'll return[NLINE]
+this to you...[END-FE]
 
 
 
@@ -886,12 +885,12 @@
 //
 //まだ特定できないわね～。[NLINE]
 //また時間をおいて来てみようか。[END-FE]
-大きい紙って何？[NLINE]
-…絵を描く紙？[NLINE]
-それとも地図のこと？[NWIN]
+A big piece of paper?[NLINE]
+...Is it drawing paper?[NLINE]
+Maybe it's a map?[NWIN]
 
-まだ特定できないわね～。[NLINE]
-また時間をおいて来てみようか。[END-FE]
+We need more details...[NLINE]
+Let's come back again later.[END-FE]
 
 
 
@@ -902,9 +901,9 @@
 //ここから東ってだけじゃ、[NLINE]
 //探せないよねぇ…。[NLINE]
 //また時間をおいて来てみようか。[END-FE]
-ここから東ってだけじゃ、[NLINE]
-探せないよねぇ…。[NLINE]
-また時間をおいて来てみようか。[END-FE]
+Knowing that she's east of[NLINE]
+here doesn't help... Let's[NLINE]
+give her some more time.[END-FE]
 
 
 
@@ -915,9 +914,9 @@
 //女の人が…、[NLINE]
 //…とても大きな紙の前に[NLINE]
 //立っている…。[END-FE]
-女の人が…、[NLINE]
-…とても大きな紙の前に[NLINE]
-立っている…。[END-FE]
+I see a lady... in[NLINE]
+front of a large...[NLINE]
+piece of paper...[END-FE]
 
 
 
@@ -929,10 +928,10 @@
 //…ハサミを持っている。[NLINE]
 //大きな紙を切っている…。[NLINE]
 //これは…紙の服…？[END-FE]
-女の人が…、[NLINE]
-…ハサミを持っている。[NLINE]
-大きな紙を切っている…。[NLINE]
-これは…紙の服…？[END-FE]
+A lady with scissors...[NLINE]
+Cutting a big piece of[NLINE]
+paper... Is she...[NLINE]
+making clothes...?[END-FE]
 
 
 
@@ -942,8 +941,8 @@
 #W32($22E0)
 //その箱、[NLINE]
 //不思議な感じがする…。[END-FE]
-その箱、[NLINE]
-不思議な感じがする…。[END-FE]
+That box feels[NLINE]
+mysterious...[END-FE]
 
 
 
@@ -954,9 +953,9 @@
 //あのさ、アンタって[NLINE]
 //物の記憶を見られたよね？[NLINE]
 //やって見せてよ！[END-FE]
-あのさ、アンタって[NLINE]
-物の記憶を見られたよね？[NLINE]
-やって見せてよ！[END-FE]
+Hey, you can see traces[NLINE]
+of memories, right? Can[NLINE]
+you do it for me?[END-FE]
 
 
 
@@ -966,8 +965,8 @@
 #W32($22E8)
 //え…？[NLINE]
 //…うん。[END-FE]
-え…？[NLINE]
-…うん。[END-FE]
+Huh...?[NLINE]
+Okay.[END-FE]
 
 
 
@@ -977,8 +976,8 @@
 #W32($22EC)
 //…見える…男の子[NLINE]
 //…泣いてる…。[END-FE]
-…見える…男の子[NLINE]
-…泣いてる…。[END-FE]
+...I see... A boy...[NLINE]
+He's crying...[END-FE]
 
 
 
@@ -988,8 +987,8 @@
 #W32($22F0)
 //…って、[NLINE]
 //それじゃなーい！[END-FE]
-…って、[NLINE]
-それじゃなーい！[END-FE]
+No...[NLINE]
+Not that![END-FE]
 
 
 
@@ -999,8 +998,8 @@
 #W32($22F4)
 //…うぅっ[TEAR-DROP][NLINE]
 //コリン、こわい…。[END-FE]
-…うぅっ[TEAR-DROP][NLINE]
-コリン、こわい…。[END-FE]
+*sob*[TEAR-DROP][NLINE]
+Korin's yelling...[END-FE]
 
 
 
@@ -1012,10 +1011,10 @@
 //ええとね、アタシ達が知りたいのは[NLINE]
 //その男の子に、カプセルを渡した[NLINE]
 //持ち主のことなの！[END-FE]
-あ～、ゴメンゴメン。[NLINE]
-ええとね、アタシ達が知りたいのは[NLINE]
-その男の子に、カプセルを渡した[NLINE]
-持ち主のことなの！[END-FE]
+S-Sorry, sorry.[NLINE]
+Ummm, we just need to[NLINE]
+know who gave that[NLINE]
+capsule to the boy.[END-FE]
 
 
 
@@ -1028,11 +1027,11 @@
 //
 //でも、前の持ち主の記憶を見るのは[NLINE]
 //むずかしい…とても…。[END-FE]
-…つまり、前の持ち主…。[NLINE]
-だから不思議な感じがしたの…。[NWIN]
+Oh... The past owner...[NLINE]
+That's why it felt mysterious...[NWIN]
 
-でも、前の持ち主の記憶を見るのは[NLINE]
-むずかしい…とても…。[END-FE]
+It's hard to see memories from[NLINE]
+a past owner, though... Very hard...[END-FE]
 
 
 
@@ -1041,7 +1040,7 @@
 //POINTER #88 @ $2300 - STRING #88 @ $3378
 #W32($2300)
 //なぁ～んだ、無理かぁ！[END-FE]
-なぁ～んだ、無理かぁ！[END-FE]
+Awww, so it's impossible![END-FE]
 
 
 
@@ -1054,11 +1053,11 @@
 //
 //ちょっとずつ、同調してみるから、[NLINE]
 //その箱…貸して欲しい…。[END-FE]
-…無理じゃない…。[NLINE]
-ただ、とてもむずかしいだけ…。[NWIN]
+It's not impossible...[NLINE]
+It's just quite hard...[NWIN]
 
-ちょっとずつ、同調してみるから、[NLINE]
-その箱…貸して欲しい…。[END-FE]
+I'll try to get attuned to it slowly.[NLINE]
+Just hand me the box...[END-FE]
 
 
 
@@ -1069,7 +1068,7 @@
 //　[NLINE]
 //タイムカプセルを渡した！[END-FE]
 　[NLINE]
-タイムカプセルを渡した！[END-FE]
+Handed over the Time Capsule![END-FE]
 
 
 
@@ -1079,8 +1078,8 @@
 #W32($230C)
 //ちょっとずつ、同調してみる…。[NLINE]
 //だから、時間が欲しい。[END-FE]
-ちょっとずつ、同調してみる…。[NLINE]
-だから、時間が欲しい。[END-FE]
+I'll synchronize with it little[NLINE]
+by little... It'll take time.[END-FE]
 
 
 
@@ -1089,7 +1088,7 @@
 //POINTER #92 @ $2310 - STRING #92 @ $345A
 #W32($2310)
 //時間って、どれくらい？[END-FE]
-時間って、どれくらい？[END-FE]
+How much time?[END-FE]
 
 
 
@@ -1098,7 +1097,7 @@
 //POINTER #93 @ $2314 - STRING #93 @ $3473
 #W32($2314)
 //…いっぱい…。[END-FE]
-…いっぱい…。[END-FE]
+...A lot...[END-FE]
 
 
 
@@ -1108,8 +1107,8 @@
 #W32($2318)
 //このコもがんばってくれるって言うし、[NLINE]
 //時間をおいてまた来てみようよ。[END-FE]
-このコもがんばってくれるって言うし、[NLINE]
-時間をおいてまた来てみようよ。[END-FE]
+Well, she'll do her best. Let's[NLINE]
+come back some other time.[END-FE]
 
 
 
@@ -1120,9 +1119,9 @@
 //女の人が、[NLINE]
 //紙で洋服を作っていました。[NLINE]
 //これが精一杯です…。[END-FE]
-女の人が、[NLINE]
-紙で洋服を作っていました。[NLINE]
-これが精一杯です…。[END-FE]
+There's a lady making[NLINE]
+clothes with paper.[NLINE]
+That's all I see now...[END-FE]
 
 
 
@@ -1132,8 +1131,8 @@
 #W32($2320)
 //…これ以上は…[NLINE]
 //…無理…。[END-FE]
-…これ以上は…[NLINE]
-…無理…。[END-FE]
+...I can't see[NLINE]
+further into it...[END-FE]
 
 
 
@@ -1146,8 +1145,8 @@
 //澄んだ水がきれいだ。[NLINE]
 //　[END-FE]
 　[NLINE]
-湖がある。　　　　　[NLINE]
-澄んだ水がきれいだ。[NLINE]
+It's a lake. The clear[NLINE]
+water looks beautiful.[NLINE]
 　[END-FE]
 
 
@@ -1167,3 +1166,7 @@
 #W32($232C)
 //Ｄ　Ｆ１２[END-FE]
 Ｄ　Ｆ１２[END-FE]
+
+
+
+

@@ -3034,11 +3034,9 @@ better armor, if anything.[END-FE]
 
 //POINTER #246 @ $8178 - STRING #246 @ $BD57
 #W32($8178)
-//[CH.FACE:Close-Eyes]
-//なあに、その分は君に守って貰うさ。[NLINE]
+//[CH.FACE:Close-Eyes]なあに、その分は君に守って貰うさ。[NLINE]
 //これからもよろしく頼む。[END-FE]
-[CH.FACE:Close-Eyes]
-Well, in that case, I'm counting[NLINE]
+[CH.FACE:Close-Eyes]Well, in that case, I'm counting[NLINE]
 on you to protect me.[END-FE]
 
 
@@ -3273,13 +3271,11 @@ No...[END-FE]
 #W32($81D0)
 //[CHAR0500][V2800]
 //ヌナーンは……、[NLINE]
-//[CH.FACE:Close-Eyes]
-//ヌナーンの住民は、[NLINE]
+//[CH.FACE:Close-Eyes]ヌナーンの住民は、[NLINE]
 //グランゲイル軍に殺された。[END-FE]
 [CHAR0500][V2800]
 The people... The[NLINE]
-[CH.FACE:Close-Eyes]
-entire town was...[NLINE]
+[CH.FACE:Close-Eyes]entire town was...[NLINE]
 massacred by Grangale...[END-FE]
 
 
@@ -5080,11 +5076,9 @@ There's no turning back now...[END-FE]
 
 //POINTER #400 @ $83E0 - STRING #400 @ $E06F
 #W32($83E0)
-//[CH.FACE:Close-Eyes]
-//お前が間に合ってくれて助かった。[NLINE]
+//[CH.FACE:Close-Eyes]お前が間に合ってくれて助かった。[NLINE]
 //俺一人ではどうにもならなかっただろう。[END-FE]
-[CH.FACE:Close-Eyes]
-Good thing you made it. We[NLINE]
+[CH.FACE:Close-Eyes]Good thing you made it. We[NLINE]
 couldn't have won without you.[END-FE]
 
 
