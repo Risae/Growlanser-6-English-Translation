@@ -73,13 +73,13 @@
 <$08><$00><$00><$0E><$01><$00><$69><$80><$6B><$80><$6D><$80><$6F><$80><$E6><$FF><$05><$00><$30><$20><$C8><$80><$00><$40><$0A><$00><$06><$80><$45><$00><$19><$01><$07><$00><$71><$80><$51><$01> [FFFF]
 
 <$09><$00><$00><$1F><$C7><$01>
-[42000008-World Textbox 1 ???  ][C701-CHAR: Hingistan Soldier][80-TEXTBOX: Top (Pointer up)][00-NAME: STXT][SCRIPTLINE-000C+X] [FFFF]
+[42000008-World Textbox 1 ???  ][C701-CHAR:      Hingistan Soldier][80-TEXTBOX:     Top (Pointer up)][00-NAME:   STXT][SCRIPTLINE-000C+X] [FFFF]
 
 <$09><$00><$00><$1F><$C8><$01>
-[42000008-World Textbox 1 ???  ][C801-CHAR: Hingistan Soldier][80-TEXTBOX: Top (Pointer up)][00-NAME: STXT][SCRIPTLINE-000D+X] [FFFF]
+[42000008-World Textbox 1 ???  ][C801-CHAR:      Hingistan Soldier][80-TEXTBOX:     Top (Pointer up)][00-NAME:   STXT][SCRIPTLINE-000D+X] [FFFF]
 
 <$09><$00><$00><$1F><$C9><$01>
-[42000008-World Textbox 1 ???  ][C901-CHAR: Hingistan Soldier][80-TEXTBOX: Top (Pointer up)][00-NAME: STXT][SCRIPTLINE-000E+X] [FFFF]
+[42000008-World Textbox 1 ???  ][C901-CHAR:      Hingistan Soldier][80-TEXTBOX:     Top (Pointer up)][00-NAME:   STXT][SCRIPTLINE-000E+X] [FFFF]
 
 <$0A><$00><$00><$25><$73><$80><$74><$80><$76><$80><$28><$02><$78><$80><$03><$00><$22><$14><$88><$FF><$01><$00><$0B><$14><$47><$01>
 [42010020-World Textbox 2 ???  ][7A80-UNK01][52-UNK02][FF-NAME: REMOVE][SCRIPTLINE-000F+X]
@@ -100,7 +100,7 @@
 <$A1><$01><$0B><$00><$24><$01><$08><$00><$5B><$00><$49><$01><$8B><$C0><$76><$01><$07><$00><$49><$01><$44><$00><$5B><$00><$4A><$01><$8E><$C0><$76><$01><$07><$00><$4A><$01><$15><$00><$5B><$00><$4B><$01><$90><$C0><$76><$01><$07><$00><$4B><$01><$74><$00><$A1><$01><$0A><$00><$10><$00><$08><$00><$0A><$00><$02><$00><$00><$00><$06><$00><$02><$39><$A3><$80><$01><$20><$08><$00><$36><$00><$5B><$00><$43><$01><$92><$C0><$76><$01><$07><$00><$43><$01><$C5><$00><$5B><$00><$44><$01><$95><$C0><$76><$01><$07><$00><$44><$01><$6C><$00><$5B><$00><$45><$01><$98><$C0><$76><$01><$07><$00><$45><$01><$D9><$00><$00><$00><$2E><$00><$5B><$00><$46><$01><$9B><$C0><$76><$01><$07><$00><$46><$01><$0E><$01><$5B><$00><$47><$01><$9C><$80><$76><$01><$07><$00><$47><$01><$4E><$00><$5B><$00><$48><$01><$9E><$C0><$76><$01><$07><$00><$48><$01><$49><$01><$AE><$01><$E6><$FF><$67><$80><$01><$40><$0C><$00><$48><$00><$5B><$00><$3F><$01><$A1><$C0><$76><$01><$07><$00><$3F><$01><$08><$00><$5B><$00><$40><$01><$A3><$C0><$76><$01><$07><$00><$40><$01><$66><$01><$5B><$00><$41><$01><$A6><$C0><$76><$01><$07><$00><$41><$01><$28><$01><$5B><$00><$42><$01><$A8><$C0><$76><$01><$07><$00><$42><$01><$AA><$00><$00><$00><$3C><$00><$5B><$00><$3F><$01><$AB><$C0><$76><$01><$07><$00><$3F><$01><$49><$01><$5B><$00><$40><$01><$AD><$C0><$76><$01><$07><$00><$40><$01><$CB><$00><$5B><$00><$41><$01><$AF><$C0><$76><$01><$07><$00><$41><$01><$0E><$00><$5B><$00><$42><$01><$B1><$C0><$76><$01><$07><$00><$42><$01><$6A><$00><$21><$00><$05><$01> [FFFF]
 
 <$0E><$00><$01><$0E><$01><$00><$B4><$80><$B6><$80><$B8><$80><$BA><$80><$E6><$FF><$A1><$01><$01><$00><$08><$00><$18><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FB-IMAGE: Yurii??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0011+X]<$00><$00><$12><$00><$05><$00><$35><$20><$06><$80><$45><$00><$18><$00><$3F><$80> FF FF [FFFF]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FB-IMAGE:                   Yurii??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0011+X]<$00><$00><$12><$00><$05><$00><$35><$20><$06><$80><$45><$00><$18><$00><$3F><$80> FF FF [FFFF]
 
 <$0F><$00><$01><$0E><$01><$00><$BC><$80><$BE><$80><$C0><$80><$C2><$80><$E6><$FF><$05><$00><$2E><$20><$06><$80><$45><$00><$18><$02><$C4><$80><$C0><$00> FF FF [FFFF]
 
@@ -115,17 +115,17 @@
 <$11><$00><$02><$0E><$01><$00><$F4><$80><$F6><$80><$F8><$80><$FA><$80><$E6><$FF><$05><$00><$36><$20><$06><$80><$45><$00><$18><$03><$FC><$80><$B9><$00> [FFFF]
 
 <$12><$00><$02><$16><$04><$40><$00><$00><$3E><$01><$A1><$01><$F2><$01><$08><$00><$CE><$00><$A1><$01><$F4><$01><$C6><$00><$08><$00><$06><$01><$F4><$01><$8F><$8F><$3E><$01><$15><$88><$00><$00><$08><$00><$76><$02><$05><$00><$3E><$01><$00><$00><$15><$09><$00><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][F9-IMAGE: Yurii??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0012+X]<$49><$7F><$56><$F9><$03><$41><$6C><$03><$80><$FF>
-[42000018-Portrait Textbox ??? ][2100-CHAR: Shuweizer][7A-IMAGE: Shuweizer (red wolf)??][50-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0013+X]
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][F9-IMAGE: Yurii??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0014+X]
-[42000018-Portrait Textbox ??? ][2100-CHAR: Shuweizer][7A-IMAGE: Shuweizer (red wolf)??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0015+X]
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][F9-IMAGE: Yurii??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0016+X]
-[42000018-Portrait Textbox ??? ][2100-CHAR: Shuweizer][7A-IMAGE: Shuweizer (red wolf)??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0017+X]
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][F9-IMAGE: Yurii??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0018+X]
-[42000018-Portrait Textbox ??? ][2100-CHAR: Shuweizer][7A-IMAGE: Shuweizer (red wolf)??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0019+X]
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][F9-IMAGE: Yurii??][F5-FACE: Serious][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-001A+X]
-[42000018-Portrait Textbox ??? ][2100-CHAR: Shuweizer][7A-IMAGE: Shuweizer (red wolf)??][F0-FACE: Normal][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-001B+X]
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][F9-IMAGE: Yurii??][F5-FACE: Serious][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-001C+X]<$49><$7F><$56><$F9><$03><$40><$56><$7A><$03><$46><$6C><$03><$80><$FF><$15><$88><$3E><$01><$3B><$00><$0B><$64> [FFFF]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][F9-IMAGE:                   Yurii??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0012+X]<$49><$7F><$56><$F9><$03><$41><$6C><$03><$80><$FF>
+[42000018-Portrait Textbox ??? ][2100-CHAR:              Shuweizer][7A-IMAGE:    Shuweizer (red wolf)??][50-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0013+X]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][F9-IMAGE:                   Yurii??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0014+X]
+[42000018-Portrait Textbox ??? ][2100-CHAR:              Shuweizer][7A-IMAGE:    Shuweizer (red wolf)??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0015+X]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][F9-IMAGE:                   Yurii??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0016+X]
+[42000018-Portrait Textbox ??? ][2100-CHAR:              Shuweizer][7A-IMAGE:    Shuweizer (red wolf)??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0017+X]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][F9-IMAGE:                   Yurii??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0018+X]
+[42000018-Portrait Textbox ??? ][2100-CHAR:              Shuweizer][7A-IMAGE:    Shuweizer (red wolf)??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0019+X]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][F9-IMAGE:                   Yurii??][F5-FACE:  Serious][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-001A+X]
+[42000018-Portrait Textbox ??? ][2100-CHAR:              Shuweizer][7A-IMAGE:    Shuweizer (red wolf)??][F0-FACE:   Normal][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-001B+X]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][F9-IMAGE:                   Yurii??][F5-FACE:  Serious][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-001C+X]<$49><$7F><$56><$F9><$03><$40><$56><$7A><$03><$46><$6C><$03><$80><$FF><$15><$88><$3E><$01><$3B><$00><$0B><$64> [FFFF]
 
 <$72><$85><$E5><$FF><$FD><$80><$02><$00><$6C><$00><$E5><$FF><$72><$8D><$E5> [FFFF]
 
@@ -142,53 +142,53 @@
 <$82><$86><$C9><$01><$76><$01><$07><$00><$C7><$01><$73><$00><$76><$01><$07><$00><$C8><$01><$73><$00><$76><$01><$07><$00><$C9><$01><$73><$00><$21><$00><$05><$01><$02><$35> [FFFF]
 
 <$15><$00><$03><$0E><$01><$00><$2B><$81><$2D><$81><$2F><$81><$31><$81><$E6><$FF><$A1><$01><$08><$02><$08><$00><$1E><$00><$A1><$01><$2C><$00><$16><$00><$08><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FB-IMAGE: Yurii??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-001D+X]<$01><$3D><$A1><$01><$8E><$00><$08><$00><$22><$00><$A1><$01><$8F><$00><$1A><$00><$08><$00><$D3><$07><$38><$20>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][65-IMAGE: Wendy (normal)??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-001E+X]<$01><$3D><$05><$00><$39><$20><$C8><$80><$00><$40><$0A><$00><$06><$80><$45><$00><$18><$02><$33><$81><$1A><$00> [FFFF]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FB-IMAGE:                   Yurii??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-001D+X]<$01><$3D><$A1><$01><$8E><$00><$08><$00><$22><$00><$A1><$01><$8F><$00><$1A><$00><$08><$00><$D3><$07><$38><$20>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][65-IMAGE:          Wendy (normal)??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-001E+X]<$01><$3D><$05><$00><$39><$20><$C8><$80><$00><$40><$0A><$00><$06><$80><$45><$00><$18><$02><$33><$81><$1A><$00> [FFFF]
 
 <$16><$00><$03><$0E><$01><$00><$34><$81><$36><$81><$38><$81><$3A><$81><$E6><$FF><$05><$00><$3A><$20><$C8><$80><$00><$40><$0A><$00><$06><$80><$45><$00><$19><$00><$28><$00><$3C><$81><$4D><$01> [FFFF]
 
 <$16><$00><$03><$0C><$01><$00><$3D><$81><$3F><$81><$01><$80><$02><$3E><$05><$00><$3A><$20> [FFFF]
 
 <$17><$00><$03><$1F><$C7><$01><$A1><$01><$0D><$03><$10><$00><$08><$00><$90><$00><$C7><$01><$ED><$FF><$01><$3F>
-[42000008-World Textbox 1 ???  ][C701-CHAR: Hingistan Soldier][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-001F+X] [FFFF]
+[42000008-World Textbox 1 ???  ][C701-CHAR:      Hingistan Soldier][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-001F+X] [FFFF]
 
 <$17><$00><$03><$1F><$C8><$01><$A1><$01><$0D><$03><$10><$00><$08><$00><$90><$00><$C8><$01><$ED><$FF><$01><$3F>
-[42000008-World Textbox 1 ???  ][C801-CHAR: Hingistan Soldier][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-0020+X] [FFFF]
+[42000008-World Textbox 1 ???  ][C801-CHAR:      Hingistan Soldier][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-0020+X] [FFFF]
 
 <$17><$00><$03><$1F><$C9><$01><$A1><$01><$0D><$03><$44><$01><$08><$00><$90><$00><$C9><$01><$ED><$FF><$06><$01><$0D><$03><$8F><$8F><$00><$00><$15><$88><$E8><$FF><$05><$00><$15><$88><$E9><$FF><$0B><$00><$15><$88><$EA><$FF><$0E><$00>
-[42000008-World Textbox 1 ???  ][EDFF-CHAR: ????][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-0021+X]<$49><$7F>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FA-IMAGE: Yurii??][53-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0022+X]<$49><$7F><$52><$80> [FFFF]
+[42000008-World Textbox 1 ???  ][EDFF-CHAR:                   ????][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-0021+X]<$49><$7F>
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FA-IMAGE:                   Yurii??][53-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0022+X]<$49><$7F><$52><$80> [FFFF]
 
 
-[42000008-World Textbox 1 ???  ][EDFF-CHAR: ????][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-0023+X]<$49><$7F><$C4><$80><$1E><$00><$21><$01><$1E><$00><$21><$01><$1E><$01><$0B><$1E><$52><$00><$8D><$00><$6C><$04><$80><$FF><$C4><$10><$22><$00><$C2><$22><$C4><$40><$6D><$01><$21><$00><$1E><$00><$0B><$3C><$0C><$00><$5A><$00>
+[42000008-World Textbox 1 ???  ][EDFF-CHAR:                   ????][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-0023+X]<$49><$7F><$C4><$80><$1E><$00><$21><$01><$1E><$00><$21><$01><$1E><$01><$0B><$1E><$52><$00><$8D><$00><$6C><$04><$80><$FF><$C4><$10><$22><$00><$C2><$22><$C4><$40><$6D><$01><$21><$00><$1E><$00><$0B><$3C><$0C><$00><$5A><$00>
 [42000020-World Textbox 2 ???  ][4181-UNK01][81-UNK02][FF-NAME: REMOVE][SCRIPTLINE-0024+X]
-[42000020-World Textbox 2 ???  ][4381-UNK01][81-UNK02][01-NAME: SCEN][SCRIPTLINE-0025+X]<$49><$7F><$0B><$0F><$21><$01><$1E><$00><$0B><$1E><$52><$80> [FFFF]
+[42000020-World Textbox 2 ???  ][4381-UNK01][81-UNK02][01-NAME:   SCEN][SCRIPTLINE-0025+X]<$49><$7F><$0B><$0F><$21><$01><$1E><$00><$0B><$1E><$52><$80> [FFFF]
 
 <$6C><$04><$80><$FF><$21><$00><$1E><$00><$21><$00><$1E><$01><$0B><$1E>
-[42000008-World Textbox 1 ???  ][EDFF-CHAR: ????][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-0026+X]<$49><$7F><$A1><$01><$0E><$03><$08><$00><$1A><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FA-IMAGE: Yurii??][53-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0027+X]<$49><$7F><$52><$80> [FFFF]
+[42000008-World Textbox 1 ???  ][EDFF-CHAR:                   ????][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-0026+X]<$49><$7F><$A1><$01><$0E><$03><$08><$00><$1A><$00>
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FA-IMAGE:                   Yurii??][53-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0027+X]<$49><$7F><$52><$80> [FFFF]
 
 <$9F><$01><$01><$00><$08><$00><$18><$00>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][67-IMAGE: Wendy??][53-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0028+X]<$00><$00><$40><$00><$9F><$01><$04><$00><$08><$00><$18><$00>
-[42000018-Portrait Textbox ??? ][0400-CHAR: Iristelessa][70-IMAGE: Iristelessa??][52-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0029+X]<$00><$00><$28><$00><$9F><$01><$02><$00><$08><$00><$18><$00>
-[42000018-Portrait Textbox ??? ][0200-CHAR: Rukias][6D-IMAGE: Rukias (normal)][52-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-002A+X]<$00><$00><$10><$00>
-[42000018-Portrait Textbox ??? ][0300-CHAR: Hofman][76-IMAGE: Hofman??][52-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-002B+X]<$49><$7F><$52><$80> [FFFF]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][67-IMAGE:                   Wendy??][53-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0028+X]<$00><$00><$40><$00><$9F><$01><$04><$00><$08><$00><$18><$00>
+[42000018-Portrait Textbox ??? ][0400-CHAR:            Iristelessa][70-IMAGE:             Iristelessa??][52-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0029+X]<$00><$00><$28><$00><$9F><$01><$02><$00><$08><$00><$18><$00>
+[42000018-Portrait Textbox ??? ][0200-CHAR:                 Rukias][6D-IMAGE:           Rukias (normal)][52-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-002A+X]<$00><$00><$10><$00>
+[42000018-Portrait Textbox ??? ][0300-CHAR:                 Hofman][76-IMAGE:                  Hofman??][52-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-002B+X]<$49><$7F><$52><$80> [FFFF]
 
 
-[42000008-World Textbox 1 ???  ][EDFF-CHAR: ????][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-002C+X]<$49><$7F><$C4><$10><$33><$00><$C2><$33><$C4><$40><$00><$00><$0E><$00>
-[42000008-World Textbox 1 ???  ][C901-CHAR: Hingistan Soldier][80-TEXTBOX: Top (Pointer up)][01-NAME: SCEN][SCRIPTLINE-002D+X] [FFFF]
+[42000008-World Textbox 1 ???  ][EDFF-CHAR:                   ????][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-002C+X]<$49><$7F><$C4><$10><$33><$00><$C2><$33><$C4><$40><$00><$00><$0E><$00>
+[42000008-World Textbox 1 ???  ][C901-CHAR:      Hingistan Soldier][80-TEXTBOX:     Top (Pointer up)][01-NAME:   SCEN][SCRIPTLINE-002D+X] [FFFF]
 
 <$18><$00><$03><$18><$01><$00><$45><$81><$05><$40><$01><$80><$B8><$01><$72><$01><$08><$00><$46><$00><$A1><$01><$2C><$00><$3A><$00><$08><$00><$28><$02><$45><$81><$06><$00><$0B><$14><$68><$02><$01><$00><$72><$85><$40><$00><$45><$81><$02><$00><$6C><$00><$40><$00><$0C><$00><$3C><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FA-IMAGE: Yurii??][50-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-002E+X]<$49><$7F><$52><$80> [FFFF]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FA-IMAGE:                   Yurii??][50-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-002E+X]<$49><$7F><$52><$80> [FFFF]
 
 <$68><$03><$01><$00><$00><$00><$46><$00><$B8><$01><$83><$01><$08><$00><$42><$00><$A1><$01><$2C><$00><$3A><$00><$08><$00><$28><$02><$45><$81><$06><$00><$0B><$14><$68><$02><$01><$00><$72><$85><$40><$00><$45><$81><$02><$00><$6C><$00><$40><$00><$0C><$00><$3C><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FA-IMAGE: Yurii??][50-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-002F+X]<$49><$7F><$52><$80> [FFFF]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FA-IMAGE:                   Yurii??][50-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-002F+X]<$49><$7F><$52><$80> [FFFF]
 
 <$68><$03><$01><$00> [FFFF]
 
 <$19><$00><$03><$27><$45><$81><$01><$40><$A1><$01><$2C><$00><$44><$00><$08><$00><$44><$00>
 [42000020-World Textbox 2 ???  ][4781-UNK01][98-UNK02][FF-NAME: REMOVE][SCRIPTLINE-0030+X]<$B8><$01><$72><$01><$08><$00><$18><$00><$33><$00><$B7><$00><$72><$01><$08><$00><$0A><$00><$02><$40><$00><$00><$18><$00><$B8><$01><$83><$01><$08><$00><$14><$00><$33><$00><$B7><$00><$83><$01><$08><$00><$0A><$00><$02><$40><$00><$00><$24><$00><$A1><$01><$01><$00><$08><$00><$18><$00>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FB-IMAGE: Yurii??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0031+X]<$00><$00><$0C><$00><$1D><$00><$06><$00><$03><$01><$00><$00> [FFFF]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FB-IMAGE:                   Yurii??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0031+X]<$00><$00><$0C><$00><$1D><$00><$06><$00><$03><$01><$00><$00> [FFFF]
 
 <$1A><$00><$03><$31><$48><$81><$4A><$81><$4C><$81><$4D><$81><$72><$01><$01><$00><$01><$80><$A1><$01><$2C><$00><$0E><$00><$08><$00><$02><$40><$00><$00><$10><$00><$44><$00>
 [42000020-World Textbox 2 ???  ][4781-UNK01][98-UNK02][FF-NAME: REMOVE][SCRIPTLINE-0032+X] [FFFF]
@@ -198,21 +198,21 @@
 <$06><$01><$2C><$00><$CB><$40><$17><$40><$2B><$00><$3D><$00><$05><$00><$39><$20><$04><$00> [FFFF]
 
 <$A1><$01><$8F><$00><$B2><$01><$08><$00><$A1><$01><$8E><$00><$08><$00><$AA><$01><$A1><$01><$55><$02><$A2><$01><$08><$00><$28><$02><$4F><$81><$03><$00><$72><$04><$00><$00><$51><$C1><$72><$04><$01><$00><$53><$C1><$15><$88><$02><$00><$42><$00><$15><$88><$04><$00><$42><$00><$C4><$80><$1E><$00><$6C><$00><$01><$00><$76><$03><$04><$00><$01><$00><$56><$81><$C4><$10><$18><$00><$C2><$18><$C4><$40><$0B><$1E><$15><$09><$02><$00><$15><$09><$04><$00><$6C><$00><$01><$00><$58><$20>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][53-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0033+X]<$55><$60><$6B><$00><$6C><$00><$00><$00><$76><$02><$05><$00><$00><$00><$01><$00><$6C><$00><$00><$00><$02><$1E><$43><$01><$02><$D8><$00><$00><$63><$10><$A2><$00><$34><$00><$06><$00><$A1><$01><$12><$00><$06><$80><$A1><$01><$19><$00><$00><$00> [FFFF]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][53-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0033+X]<$55><$60><$6B><$00><$6C><$00><$00><$00><$76><$02><$05><$00><$00><$00><$01><$00><$6C><$00><$00><$00><$02><$1E><$43><$01><$02><$D8><$00><$00><$63><$10><$A2><$00><$34><$00><$06><$00><$A1><$01><$12><$00><$06><$80><$A1><$01><$19><$00><$00><$00> [FFFF]
 
 <$22><$00><$AA><$00><$E2><$00><$49><$01><$76><$02><$05><$00><$01><$00><$00><$00>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0037+X]<$43><$00><$02><$18><$00><$00><$63><$F0><$A2><$00><$38><$00> [FFFF]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0037+X]<$43><$00><$02><$18><$00><$00><$63><$F0><$A2><$00><$38><$00> [FFFF]
 
 <$14><$00><$2A><$00><$5A><$00><$D3><$0A><$38><$20><$49><$01>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-003B+X]<$00><$00><$48><$00><$D3><$02><$01><$00><$02><$20><$49><$01>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-003C+X]<$49><$7F><$55><$60><$63><$00>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6A-IMAGE: Wendy??][50-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-003D+X]<$49><$7F><$55><$60><$6A><$00><$00><$00><$18><$00><$D3><$02><$01><$00><$02><$20><$49><$01>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-003E+X]<$00><$00><$54><$00><$D3><$06><$04><$20><$49><$01><$76><$02><$05><$00><$01><$00><$00><$00>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-003F+X]<$49><$7F>
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FB-IMAGE: Yurii??][13-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0040+X]
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0041+X]<$00><$00><$1C><$00><$D3><$08><$38><$20><$D3><$02><$01><$00><$3C><$20><$49><$01>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6B-IMAGE: Wendy??][F3-FACE: Sad][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0042+X]
-[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FB-IMAGE: Yurii??][13-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0043+X]<$49><$7F><$52><$80> [FFFF]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-003B+X]<$00><$00><$48><$00><$D3><$02><$01><$00><$02><$20><$49><$01>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-003C+X]<$49><$7F><$55><$60><$63><$00>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6A-IMAGE:                   Wendy??][50-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-003D+X]<$49><$7F><$55><$60><$6A><$00><$00><$00><$18><$00><$D3><$02><$01><$00><$02><$20><$49><$01>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-003E+X]<$00><$00><$54><$00><$D3><$06><$04><$20><$49><$01><$76><$02><$05><$00><$01><$00><$00><$00>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-003F+X]<$49><$7F>
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FB-IMAGE:                   Yurii??][13-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0040+X]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0041+X]<$00><$00><$1C><$00><$D3><$08><$38><$20><$D3><$02><$01><$00><$3C><$20><$49><$01>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6B-IMAGE:                   Wendy??][F3-FACE:      Sad][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0042+X]
+[42000018-Portrait Textbox ??? ][4000-CHAR:                  Yurii][FB-IMAGE:                   Yurii??][13-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0043+X]<$49><$7F><$52><$80> [FFFF]
 
 <$6C><$04><$80><$FF><$15><$88><$00><$00><$42><$00><$15><$88><$01><$00><$42><$00><$21><$01><$3C><$01><$0B><$3C><$06><$01><$55><$02><$06><$80><$45><$00><$19><$00><$28><$00><$3C><$81><$4D><$01><$04><$00> [FFFF]
 
@@ -261,10 +261,10 @@
 <$76><$01><$07><$00><$C7><$01><$26><$00><$76><$01><$07><$00><$C8><$01><$26><$00><$76><$01><$07><$00><$C9><$01><$26><$00><$76><$01><$07><$00><$CA><$01><$26><$00><$76><$01><$07><$00><$CB><$01><$26><$00><$76><$01><$07><$00><$CC><$01><$26><$00><$76><$01><$07><$00><$CD><$01><$26><$00><$76><$01><$07><$00><$CE><$01><$26><$00><$76><$01><$07><$00><$CF><$01><$26><$00><$76><$01><$07><$00><$D0><$01><$26><$00><$76><$01><$07><$00><$D1><$01><$26><$00><$76><$01><$07><$00><$D2><$01><$26><$00><$76><$01><$07><$00><$D3><$01><$26><$00><$76><$01><$07><$00><$D4><$01><$26><$00><$76><$01><$07><$00><$C6><$01><$26><$00><$5B><$00><$01><$80> [FFFF]
 
 <$28><$03><$C6><$01><$03><$00><$21><$00><$0A><$01><$0B><$14><$28><$03><$CB><$01><$03><$00><$D3><$07><$42><$20><$A1><$01><$C5><$02><$42><$00><$08><$00><$06><$01><$C5><$02>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6A-IMAGE: Wendy??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0046+X]<$49><$7F><$56><$6A><$03><$41><$6C><$03><$80><$FF>
-[42000018-Portrait Textbox ??? ][0200-CHAR: Rukias][6D-IMAGE: Rukias (normal)][52-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0047+X]
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6A-IMAGE: Wendy??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0048+X]<$D3><$00><$38><$20><$00><$00><$10><$00>
-[42000018-Portrait Textbox ??? ][0100-CHAR: Wendy][6A-IMAGE: Wendy??][F2-FACE: Angry][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0049+X]<$49><$7F><$52><$80> [FFFF]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6A-IMAGE:                   Wendy??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0046+X]<$49><$7F><$56><$6A><$03><$41><$6C><$03><$80><$FF>
+[42000018-Portrait Textbox ??? ][0200-CHAR:                 Rukias][6D-IMAGE:           Rukias (normal)][52-FACE:      ???][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0047+X]
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6A-IMAGE:                   Wendy??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0048+X]<$D3><$00><$38><$20><$00><$00><$10><$00>
+[42000018-Portrait Textbox ??? ][0100-CHAR:                  Wendy][6A-IMAGE:                   Wendy??][F2-FACE:    Angry][82-TEXTBOX:  Bottom (Pointer up)][00-NAME:   STXT][SCRIPTLINE-0049+X]<$49><$7F><$52><$80> [FFFF]
 
 <$28><$03><$00><$00><$06><$00><$72><$82><$E7><$FF><$92><$81><$03><$00><$72><$82><$E8><$FF><$92><$81><$03><$00><$72><$82><$E9><$FF><$92><$81><$03><$00><$72><$82><$EA><$FF><$92><$81><$03><$00><$21><$01><$1E><$01><$0B><$1E><$06><$80><$45><$00><$18><$00><$3F><$80> FF FF [FFFF]
 
