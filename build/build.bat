@@ -4,7 +4,6 @@
 for %%i in ("%~dp0..") do set "GITHUBPATH=%%~fi"
 
 :: Set Strawberry Portable Path
-SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\perl\site\bin"
 SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\perl\bin"
 SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\c\bin"
 
