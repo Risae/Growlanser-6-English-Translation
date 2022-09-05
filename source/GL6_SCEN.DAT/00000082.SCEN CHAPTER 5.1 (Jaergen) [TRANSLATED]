@@ -389,8 +389,8 @@ inhabitants still hold a grudge.[END-FE]
 //支配者と被支配者の摩擦ね…。[NLINE]
 //それはどこの地でも…。[END-FE]
 [CHAR1600][V0400]
-Friction between rulers and[NLINE]
-subjects... It seems that always happens,[NLINE]
+Friction between rulers and subjects...[NLINE]
+It seems that always happens,[NLINE]
 no matter where you are...[END-FE]
 
 
@@ -403,7 +403,8 @@ no matter where you are...[END-FE]
 //ウェンディさん、[NLINE]
 //いかがなされましたか？[END-FE]
 [CHAR1600][V0500]
-Wendy, is something wrong?[END-FE]
+Wendy, is something[NLINE]
+wrong?[END-FE]
 
 
 
@@ -1136,8 +1137,8 @@ My name is Fanille.[END-FE]
 //ファニルさんは平和維持軍の[NLINE]
 //研究員をされていました。[END-FE]
 [CHAR1600][V0C00]
-Fanille used to work at the PMB[NLINE]
-as a researcher.[END-FE]
+Fanille used to work at the[NLINE]
+PMB as a researcher.[END-FE]
 
 
 
@@ -1148,7 +1149,8 @@ as a researcher.[END-FE]
 //[CHAR1600][V0D00]
 //えっ、どうしてそれを？[END-FE]
 [CHAR1600][V0D00]
-Huh, how do you know that?[END-FE]
+Huh, how do you[NLINE]
+know that?[END-FE]
 
 
 
@@ -1189,8 +1191,8 @@ researcher.[END-FE]
 Oh, you heard it from Korin?[NWIN]
 
 [CHAR1600][V1100]
-Since you're also a fairy, it[NLINE]
-makes sense that you know each other.[NWIN]
+Since you're also a fairy, it makes[NLINE]
+sense that you know each other.[NWIN]
 
 [CH.FACE:Normal][CHAR1600][V1200]
 I was suprised for a moment.[END-FE]
@@ -1356,9 +1358,10 @@ Do you have any business with the lord?[END-FE]
 //これでもワシは、[NLINE]
 //歴戦を生き抜いた兵士じゃ。[CC.FFFB][NLINE]
 //…戦争には負けてしまったがな…。[END-FE]
-I may not look like it, but I'm[NLINE]
-a veteran who survived many battles...[CC.FFFB][NLINE]
-...It was my side that lost the war, though...[END-FE]
+I may not look like it, but I'm a[NLINE]
+veteran who survived many battles...[CC.FFFB][NLINE]
+...It was my side that lost the war,[NLINE]
+though...[END-FE]
 
 
 
@@ -1413,8 +1416,8 @@ A Grangalian was appointed lord of[NLINE]
 this village after we had lost the[NLINE]
 war 20 years ago.[NWIN]
 
-...He's not a bad lord, but he[NLINE]
-treats us like subjects of Grangale...[END-FE]
+...He's not a bad lord, but he treats[NLINE]
+us like subjects of Grangale...[END-FE]
 
 
 
@@ -1423,8 +1426,7 @@ treats us like subjects of Grangale...[END-FE]
 //POINTER #112 @ $5CE0 - STRING #112 @ $77C2
 #W32($5CE0)
 //・グランゲイルとの関係を質問[END-FE]
-・Ask about the relationship between[NLINE]
-   this village and Grangale[END-FE]
+・Ask about the relationship between this village and Grangale[END-FE]
 
 
 
@@ -1463,11 +1465,10 @@ treats us like subjects of Grangale...[END-FE]
 //それでもグランゲイルの役人が来るたびに、[NLINE]
 //やっぱり自分たちが支配されていることを[NLINE]
 //思い出しちまうのさ…。[END-FE]
-This village was originally part of[NLINE]
-the country of Neylern. However,[NLINE]
-after we lost the war 20 years[NLINE]
-ago, it became part of Grangale[NLINE]
-territory.[NWIN]
+This village was originally part of the[NLINE]
+country of Neylern. However, after[NLINE]
+we lost the war 20 years ago, it[NLINE]
+became part of Grangale territory.[NWIN]
 
 Afterwards, the former lord was[NLINE]
 replaced by a Grangalian.[NWIN]
@@ -1478,9 +1479,8 @@ village and his home country, he did[NLINE]
 well enough.[NWIN]
 
 He died from overwork a few years[NLINE]
-ago. Only then did I realize[NLINE]
-he had been looking out for our[NLINE]
-village...[NWIN]
+ago. Only then did I realize he had[NLINE]
+been looking out for our village...[NWIN]
 
 By the way, I heard the current lord[NLINE]
 is the younger brother of the previous[NLINE]
@@ -1573,8 +1573,8 @@ don't overdo it.[END-FE]
 //[CHAR1600][V2000]
 //シャイアー様の命令で迎えにきました。[END-FE]
 [CHAR1600][V2000]
-Ms. Shayer ordered us to meet[NLINE]
-you here.[END-FE]
+Ms. Shayer ordered us to[NLINE]
+meet you here.[END-FE]
 
 
 
@@ -1625,15 +1625,16 @@ Excellent.[NWIN]
 [CHAR1600][V2400]
 Alright let's head west. We've heard[NLINE]
 from the locals that there is a tunnel[NLINE]
-that passes underneath the mountains to the west.[NWIN]
+that passes underneath the mountains[NLINE]
+to the west.[NWIN]
 
 [CHAR1600][V2500]
 We'll rely on you to be our escorts.[NWIN]
 
 [CHAR1600][V2600]
-We'll be waiting outside the[NLINE]
-village. Please come as soon[NLINE]
-as you are ready.[END-FE]
+We'll be waiting outside the village.[NLINE]
+Please come as soon as you are[NLINE]
+ready.[END-FE]
 
 
 
@@ -1965,23 +1966,23 @@ have taken my life...[END-FE]
 //もし、俺の力を持っていけば[NLINE]
 //クイーンと相打ちになることも[NLINE]
 //なかったかも知れないのに…。[END-FE]
-Ziekwalt was a warrior who[NLINE]
-far surpassed ordinary humans.[NWIN]
+Ziekwalt was a warrior who far[NLINE]
+surpassed ordinary humans.[NWIN]
 
-He even managed to defeat[NLINE]
-that Queen Screaper.[NWIN]
+He even managed to defeat that[NLINE]
+Queen Screaper.[NWIN]
 
 However, the secret behind his[NLINE]
-superhuman strength was that he took[NLINE]
-it from other people.[NWIN]
+superhuman strength was that he[NLINE]
+took it from other people.[NWIN]
 
 I also wanted to make myself[NLINE]
-useful by giving my strength to him,[NLINE]
-but that didn't happen.[NWIN]
+useful by giving my strength to[NLINE]
+him, but that didn't happen.[NWIN]
 
 If only he had my power, maybe[NLINE]
-he wouldn't have had to give[NLINE]
-up his life to defeat the Queen...[END-FE]
+he wouldn't have had to give up[NLINE]
+his life to defeat the Queen...[END-FE]
 
 
 
