@@ -320,10 +320,10 @@ Jaergen village, right?[END-FE]
 //途中に寄れる街がありませんので、[NLINE]
 //ここで準備をしていった方が良いと思います。[END-FE]
 [CHAR1500][V0200]
-Jaergen Village lies straight north[NLINE]
-of here. It's a fairly long distance[NLINE]
-and there are no towns on the way, so[NLINE]
-I think it would be wise to make some[NLINE]
+Jaergen Village lies straight north of[NLINE]
+here. It's a fairly long distance and[NLINE]
+there are no towns on the way, so I[NLINE]
+think it would be wise to make some[NLINE]
 preparations here.[END-FE]
 
 
@@ -338,8 +338,8 @@ preparations here.[END-FE]
 //準備を怠ると大変だわ。[END-FE]
 [CHAR1500][V0300]
 I agree, we don't know[NLINE]
-what will happen. It'll[NLINE]
-be tough if we don't prepare.[END-FE]
+what will happen. It'll be[NLINE]
+tough if we don't prepare.[END-FE]
 
 
 
@@ -871,7 +871,8 @@ What? Bandits?[END-FE]
 //モノポリス社の[NLINE]
 //者だな。[END-FE]
 [CHAR1500][V0600]
-Well, well, you're from Monopolis, aren't you?[END-FE]
+Well, well, you're from[NLINE]
+Monopolis, aren't you?[END-FE]
 
 
 
@@ -978,9 +979,9 @@ Everyone attack![END-FE]
 //貴様らのばらまく武器のせいで[NLINE]
 //世界中から戦争が無くならないのだ！[END-FE]
 [CHAR1500][V0A00]
-War keeps happening because the weapons[NLINE]
-of your blasted company are scattered[NLINE]
-all over the world![END-FE]
+War keeps happening because the[NLINE]
+weapons of your blasted company[NLINE]
+are scattered all over the world![END-FE]
 
 
 
@@ -1070,8 +1071,9 @@ Well, it's definitely true that[NLINE]
 Monopolis sells weapons.[NWIN]
 
 [CH.FACE:Serious][CHAR1500][V1000]
-But in the end, it's the people who own those[NLINE]
-weapons who decide what they're used for![END-FE]
+But in the end, it's the people[NLINE]
+who own those weapons who decide[NLINE]
+what they're used for![END-FE]
 
 
 
@@ -1133,8 +1135,8 @@ those who use those weapons.[END-FE]
 [CHAR1500][V1500]
 If there's demand, there's supply.[NLINE]
 then you supply there. It's not[NLINE]
-wrong from an economic standpoint,[NLINE]
-but...[END-FE]
+wrong from an economic[NLINE]
+standpoint, but...[END-FE]
 
 
 
