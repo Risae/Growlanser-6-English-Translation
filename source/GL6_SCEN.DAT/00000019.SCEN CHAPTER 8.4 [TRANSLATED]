@@ -448,8 +448,7 @@ Why do you think so?[END-FE]
 //POINTER #34 @ $6DA8 - STRING #34 @ $7614
 #W32($6DA8)
 //・少数の兵に砲撃はムダ[END-FE]
-・It's pointless to fire a blast[NLINE]
-   if there are very few soldiers[END-FE]
+・It's pointless to fire a blast if there are very few soldiers[END-FE]
 
 
 

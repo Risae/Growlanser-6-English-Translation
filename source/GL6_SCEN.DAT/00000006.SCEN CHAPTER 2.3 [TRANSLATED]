@@ -1976,8 +1976,7 @@ If you mess up, you'll get me kicked out, too![END-FE]
 //POINTER #128 @ $6120 - STRING #128 @ $87EB
 #W32($6120)
 //・大声で隊名を言うべきでない[END-FE]
-・You shouldn't say the name of our[NLINE]
-   division out loud[END-FE]
+・You shouldn't say the name of our division out loud[END-FE]
 
 
 
@@ -2828,8 +2827,7 @@ there...[END-FE]
 //POINTER #194 @ $6228 - STRING #194 @ $93F3
 #W32($6228)
 //・元から効いていない[END-FE]
-・It didn't have any effect on them from[NLINE]
-   the beginning[END-FE]
+・It didn't have any effect on them from the beginning[END-FE]
 
 
 

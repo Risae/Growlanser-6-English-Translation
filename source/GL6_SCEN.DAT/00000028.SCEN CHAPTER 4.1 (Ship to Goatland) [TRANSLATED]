@@ -1222,8 +1222,7 @@ an old boat like this one?[END-FE]
 //POINTER #84 @ $3770 - STRING #84 @ $503E
 #W32($3770)
 //・高速艇は航続距離が短いから[END-FE]
-・Because speed boats are only suitable for[NLINE]
-   short traveling distances[END-FE]
+・Because speed boats are only suitable for short traveling distances[END-FE]
 
 
 
@@ -1232,8 +1231,7 @@ an old boat like this one?[END-FE]
 //POINTER #85 @ $3774 - STRING #85 @ $505D
 #W32($3774)
 //・向こうの文明レベルに合わせた[END-FE]
-・Because our boat has to match[NLINE]
-   Goatland's civilization level[END-FE]
+・Because our boat has to match Goatland's civilization level[END-FE]
 
 
 
@@ -1569,8 +1567,7 @@ memories, right?[END-FE]
 //POINTER #108 @ $37D0 - STRING #108 @ $55F6
 #W32($37D0)
 //・現状で不便はない[END-FE]
-・It doesn't inconvenience me at the[NLINE]
-   moment[END-FE]
+・It doesn't inconvenience me at the moment[END-FE]
 
 
 

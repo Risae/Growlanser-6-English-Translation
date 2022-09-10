@@ -3925,8 +3925,7 @@ I wonder what will happen out there.[END-FE]
 //POINTER #284 @ $6810 - STRING #284 @ $B8B0
 #W32($6810)
 //・襲ってきたら倒せばいい[END-FE]
-・We'll defeat them if they attack[NLINE]
-   us[END-FE]
+・We'll defeat them if they attack us[END-FE]
 
 
 
@@ -3935,8 +3934,7 @@ I wonder what will happen out there.[END-FE]
 //POINTER #285 @ $6814 - STRING #285 @ $B8CB
 #W32($6814)
 //・気にしてもしょうがない[END-FE]
-・Worrying about it isn't going to change[NLINE]
-   anything[END-FE]
+・Worrying about it isn't going to change anything[END-FE]
 
 
 

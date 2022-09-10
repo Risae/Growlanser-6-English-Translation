@@ -2457,8 +2457,7 @@ My goal has come true![END-FE]
 //POINTER #176 @ $7C60 - STRING #176 @ $B37B
 #W32($7C60)
 //・夢がかなったの間違いだと指摘[END-FE]
-・Point out that it should be[NLINE]
-   'my dream has come true'[END-FE]
+・Point out that it should be 'my dream has come true'[END-FE]
 
 
 
