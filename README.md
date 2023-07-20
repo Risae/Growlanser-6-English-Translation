@@ -20,6 +20,22 @@ Directory structure:
     /tools                   tools, scripts and various other things used in the translation of the game
     /translation guide       translation guides and game manuals for the english translation
 
+## Special Thanks
+
+- Mako for helping translate a lot of the game's image files
+- Ethanol with his never-ending reverse engineering knowledge. You are awesome!
+- Aluigi for developing quickBMS and creating the initial quickBMS Growlanser Script, which allowed us to dump the game's files
+- adw for helping me get the Atlas and Cartographer Script to work, and for developing abcde
+- Naldrag for showing that its possible to add subtitles to the movie files
+- Klarth for helping figure out the .fnt files and developing the tool TileShop
+- The NSA for making Ghidra Open Source and giving me a better tool to reverse engineer the ELF of the game
+- Shokoniraya for creating a quickBMS script that lets me forget all about the worries of having script size restrictions
+- A kind soul who provided us with the GL5 demo
+
+And all of the Growlanser fans around the world.
+
+## Links
+
 Growlanser 6 English Translation Blog: https://growlanser6english.blogspot.com/ <br />
 Growlanser 6 English Translation Discord: https://discord.gg/59Nw2U2 <br />
 Growlanser 5/6 Toolkit: https://github.com/Risae/Growlanser-5-6-Toolkit <br />
