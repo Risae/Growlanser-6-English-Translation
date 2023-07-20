@@ -1,82 +1,117 @@
-#Growlanser .dat script
-#just use on raw files
-#Script by Shokoniraya
+# Growlanser 5/6 *.DAT quickBMS dump and reimport script
+# just use on raw files
+# Script by Shokoniraya
 
-get SIGNATURE long #FLK\x00
-get UNKNOW_1 short
-get UNKNOW_FLAG short #bit dept for something or a table offset?
-get HEADER_FLAG long #it tell us file used as a package or raw size?
-get PADDING_NUMBER long
-get UNKNOW_2 long
-get TOTAL_ARCHIVE_SIZE long #size of current file
+# === HEADER INFORMATION ===
+GET SIGNATURE LONG           # 0x00 - 0x03 | Read the signature (4 bytes) at the beginning of the file (FLK\x00)
+GET UNKNOWN_1 SHORT          # 0x04 - 0x05 | Read an unknown short value
+GET UNKNOWN_FLAG SHORT       # 0x06 - 0x07 | Read an unknown flag (possibly bit depth or table offset)
+GET HEADER_FLAG LONG         # 0x08 - 0x0B | Read the header flag (package or raw size indicator)
+GET PADDING_NUMBER LONG      # 0x0C - 0x0F | Read the padding number (used for padding each file)
+GET UNKNOWN_2 LONG           # 0x10 - 0x13 | Read another unknown value
+GET TOTAL_ARCHIVE_SIZE LONG  # 0x14 - 0x17 | Read the total size of the archive
+GET FILES_COUNT LONG         # 0x18 - 0x1B | Read the number of files in the archive
+GET UNKNOW_3 LONG            # 0x1C - 0x1F | Read yet another unknown value
 
-get FILES_COUNT long
-get UNKNOW_3 long #a flag or maximum header size that game can handle it?
-
-
+# === FILE EXTENSION HANDLING ===
+# Initialize variables to store file extensions and their count
 string FILE_EXTENSION = ""
-math SLOT_COUNT = 0
+math FILE_EXTENSION_COUNT = 0
+
+# Loop to read each file extension and count them
 for i = 0 < FILES_COUNT
-putarray 1 SLOT_COUNT FILE_EXTENSION
-math SLOT_COUNT + 1
+    putarray 1 FILE_EXTENSION_COUNT FILE_EXTENSION
+    math FILE_EXTENSION_COUNT + 1
 next i
 
+# === TABLE OFFSET AND SIZE ===
+# Calculate the offset of the table and its size
 savepos TABLE_OFFSET
 xmath TABLE_SIZE "FILES_COUNT * 8"
 goto TABLE_SIZE 0 SEEK_CUR
 
+# === EXTRACT FILES FROM THE ARCHIVE ===
+# Loop to process each file entry in the table
 do
-get START_COUNT short
-get EXTENSION_RATE short
-get NULL long
-getdstring FILE_EXTENSION 8
+    # Read start count and extension rate for the current file
+    GET START_COUNT SHORT
+    GET EXTENSION_RATE SHORT
 
-math EXTENSION_COUNT = START_COUNT
-for e = 0 < EXTENSION_RATE
-putarray 1 EXTENSION_COUNT FILE_EXTENSION
-math EXTENSION_COUNT + 1
-next e
+    # Read an unused NULL value
+    GET NULL LONG
 
-while FILE_EXTENSION != ""
+    # Read the file extension (up to 8 characters)
+    getdstring FILE_EXTENSION 8
 
-math NUMBERIC_COUNT = 0
-goto TABLE_OFFSET
-for i = 0 < FILES_COUNT
-string NUMBERIC_COUNT_STRING = ""
-string NUMBERIC_COUNT_STRING + NUMBERIC_COUNT
-string ZERO_NUMBERIC = "00000000"
-strlen NUMBERIC_COUNT_LENGTH NUMBERIC_COUNT_STRING
-string ZERO_NUMBERIC - NUMBERIC_COUNT_LENGTH
-string ZERO_NUMBERIC + NUMBERIC_COUNT
-getarray FILE_EXTENSION 1 NUMBERIC_COUNT
+    # Loop to handle multiple extensions for the same file (if applicable)
+    math EXTENSION_COUNT = START_COUNT
+    for extension_index = 0 < EXTENSION_RATE
+        putarray 1 EXTENSION_COUNT FILE_EXTENSION
+        math EXTENSION_COUNT + 1
+    next extension_index
 
-get FILE_OFFSET long #padded to PADDING_NUMBER. if PADDING_NUMBER is 0, then it padded to 2048
-if PADDING_NUMBER = 0
-math PADDING_NUMBER = 2048
-endif
+    # Loop while there are more file extensions to process
+    while FILE_EXTENSION != ""
 
-math TEST_OFFSET = FILE_OFFSET
-math TEST_OFFSET x PADDING_NUMBER
+        math NUMERIC_COUNT = 0
+        goto TABLE_OFFSET
 
-if TEST_OFFSET = FILE_OFFSET
-math FILE_OFFSET x PADDING_NUMBER
-endif
+        # Loop to handle multiple extensions for the same file (if applicable)
+        for entry_index = 0 < FILES_COUNT
 
-get FILE_SIZE long
+            # Initialize an empty string to store the numeric count
+            string NUMBERIC_COUNT_STRING = ""
 
-string FILE_NAME = ""
-string FILE_NAME + ZERO_NUMBERIC
-string FILE_NAME + "."
-string FILE_NAME + FILE_EXTENSION
+            # Append the numeric count (NUMERIC_COUNT) to the string
+            string NUMBERIC_COUNT_STRING + NUMERIC_COUNT
 
-log FILE_NAME FILE_OFFSET FILE_SIZE
+            # Initialize a string with eight zeros (to form leading zeros if needed)
+            string ZERO_NUMBERIC = "00000000"
 
+            # Calculate the length of the numeric count string
+            strlen NUMBERIC_COUNT_LENGTH NUMBERIC_COUNT_STRING
 
-savepos CHECKPOINT
-goto 20
-get ARCHIVE_SIZE asize
-put ARCHIVE_SIZE long
-goto CHECKPOINT
+            # Subtract the length of the numeric count string from the length of ZERO_NUMBERIC to get the number of leading zeros needed
+            string ZERO_NUMBERIC - NUMBERIC_COUNT_LENGTH
 
-math NUMBERIC_COUNT + 1
-next i
+            # Concatenate the leading zeros with the numeric count string to form the final numeric part of the file name
+            string ZERO_NUMBERIC + NUMERIC_COUNT
+
+            # Read one character from the FILE_EXTENSION string and store it in NUMERIC_COUNT. The purpose of this line may depend on the specific processing of file extensions
+            getarray FILE_EXTENSION 1 NUMERIC_COUNT
+
+            # === CALCULATE FILE OFFSET ===
+            # Padded to PADDING_NUMBER. if PADDING_NUMBER is 0, then it padded to 2048
+            GET FILE_OFFSET LONG
+            if PADDING_NUMBER = 0
+                math PADDING_NUMBER = 2048
+            endif
+
+            math TEST_OFFSET = FILE_OFFSET
+            math TEST_OFFSET x PADDING_NUMBER
+
+            if TEST_OFFSET = FILE_OFFSET
+                math FILE_OFFSET x PADDING_NUMBER
+            endif
+
+            # === FILE EXTRACTION AND LOGGING ===
+            GET FILE_SIZE LONG
+
+            # Construct the file name using the file extension and numeric count
+            string FILE_NAME = ""
+            string FILE_NAME + ZERO_NUMBERIC
+            string FILE_NAME + "."
+            string FILE_NAME + FILE_EXTENSION
+
+            # Extract the file to the desired file name and offset
+            LOG FILE_NAME FILE_OFFSET FILE_SIZE
+
+            # === CALCULATE THE TOTAL SIZE OF THE EXTRACTED ARCHIVE ===
+            savepos CHECKPOINT
+            goto 20
+            GET ARCHIVE_SIZE asize
+            PUT ARCHIVE_SIZE LONG
+            goto CHECKPOINT
+
+            math NUMERIC_COUNT + 1
+        next entry_index
