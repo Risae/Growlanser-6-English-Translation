@@ -13,17 +13,17 @@ del "%GITHUBPATH%\build\GL6_FILE.DAT"
 del "%GITHUBPATH%\build\GL6_SCEN.DAT"
 del "%GITHUBPATH%\build\SLPM_667.16"
 rmdir /s /q "%GITHUBPATH%\build\06-build"
-rmdir /s /q "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT"
-rmdir /s /q "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT"
-rmdir /s /q "%GITHUBPATH%\build\05-original_files\GL6_SCEN DAT"
+rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
+rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
+rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
 
 :: Create the "05-Build" directory
 mkdir "%GITHUBPATH%\build\06-build"
 
 :: Create the 04-Original files folders for the .DAT files
-mkdir "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT"
-mkdir "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT"
-mkdir "%GITHUBPATH%\build\05-original_files\GL6_SCEN DAT"
+mkdir "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
+mkdir "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
+mkdir "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
 
 :: Switch folder to quickbms and copy the growlanser.bms file to the folder
 cd /d "%GITHUBPATH%\build\02-quickbms\"
@@ -31,12 +31,12 @@ del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
 copy /y "%GITHUBPATH%\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
 
 :: Start quickBMS to dump the .DAT files contents to the original files folder
-quickbms -w growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_FACE.DAT" "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT"
-quickbms -w growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_FILE.DAT" "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT"
-quickbms -w growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_SCEN.DAT" "%GITHUBPATH%\build\05-original_files\GL6_SCEN DAT"
+quickbms -w growlanser.bms "%GITHUBPATH%\build\06-original_files\GL6_FACE.DAT" "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
+quickbms -w growlanser.bms "%GITHUBPATH%\build\06-original_files\GL6_FILE.DAT" "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
+quickbms -w growlanser.bms "%GITHUBPATH%\build\06-original_files\GL6_SCEN.DAT" "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
 
 :: Unpack the "*.FACE" files
-quickbms -w -d -F "*.FACE" growlanser.bms "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT"
+quickbms -w -d -F "*.FACE" growlanser.bms "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
 
 
 :::: 02. Patch SLPM_667.16
@@ -48,7 +48,7 @@ del "%GITHUBPATH%\build\01-armips\SLPM_667.16"
 del "%GITHUBPATH%\build\01-armips\abcde.tbl"
 copy /y "%GITHUBPATH%\source\SLPM_667.16\SLPM_667.16_translation.asm" "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
 copy /y "%GITHUBPATH%\source\SLPM_667.16\SLPM_667.16_VWF.asm" "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\SLPM_667.16" "%GITHUBPATH%\build\01-armips\SLPM_667.16"
+copy /y "%GITHUBPATH%\build\06-original_files\SLPM_667.16" "%GITHUBPATH%\build\01-armips\SLPM_667.16"
 copy /y "%GITHUBPATH%\tools\GL5 and 6 abcde scripts\abcde.tbl" "%GITHUBPATH%\build\01-armips\abcde.tbl"
 
 :: Switch to the armips folder and start the armips script
@@ -64,21 +64,21 @@ copy /y "%GITHUBPATH%\build\01-armips\SLPM_667.16" "%GITHUBPATH%\build\SLPM_667.
 
 :: delete old FACE.DAT and Copy FACE.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FACE.DAT" "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FACE.DAT" "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
 
 :: Delete FACE DAT folder and all its contents, create a new folder with the same name
 rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
-xcopy "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\"
+xcopy "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\"
 
 :: Change to the xdelta folder, create the file folder, execute the xdelta patches and save the resulting file in the created folder
 cd /d "%GITHUBPATH%\build\04-xdelta\"
 
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
 
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
 
 :: Switch folder to quickbms and copy the growlanser.bms file to the folder
 cd /d "%GITHUBPATH%\build\02-quickbms\"
@@ -100,7 +100,7 @@ copy /y "%GITHUBPATH%\build\06-build\GL6_FACE.DAT" "%GITHUBPATH%\build\GL6_FACE.
 
 :: delete old FILE.DAT and Copy FILE.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE.DAT" "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE.DAT" "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
 
 :: Delete FILE DAT folder and all its contents, create a new folder with the same name
 rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
@@ -108,60 +108,60 @@ mkdir "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
 
 :: Change to the xdelta folder, execute the xdelta patches and save the resulting file in the build folder
 cd /d "%GITHUBPATH%\build\04-xdelta\"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000046.fnt" "%GITHUBPATH%\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000046.fnt"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000602.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000602.tm2"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000604.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000604.tm2"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000606.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000606.tm2 Mission complete screen\00000606.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000606.tm2"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000608.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000608.tm2 Prologue stats screen\00000608.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000608.tm2"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000611.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000611.tm2 Yurii Main Menu\00000611.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000611.tm2"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000612.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000612.tm2"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000647.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000647.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000046.fnt" "%GITHUBPATH%\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000046.fnt"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000602.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000602.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000604.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000604.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000606.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000606.tm2 Mission complete screen\00000606.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000606.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000608.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000608.tm2 Prologue stats screen\00000608.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000608.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000611.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000611.tm2 Yurii Main Menu\00000611.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000611.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000612.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000612.tm2"
+xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000647.tm2" "%GITHUBPATH%\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000647.tm2"
 
 :: Copy and modify the FILE.DAT files that need hexadecimal changes
 cd /d "%GITHUBPATH%\build\06-build\GL6_FILE DAT\"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000566.mss Spell casting screen text box coord\00000566.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000566.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000566.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000566.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000566.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000566.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000566.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000566.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000569.mss Yurii Main Menu text box coord\00000569.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000569.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000569.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000569.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000569.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000569.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000569.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000569.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000570.mss NPC Config Window\00000570.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000570.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000570.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000570.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000570.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000573.mss Buying and Selling text box coord\00000573.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000573.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000573.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000573.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000573.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000573.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000573.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000573.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000594.mss Equipment change screen\00000594.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000594.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000594.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000594.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000594.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000594.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000594.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000594.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000596.mss Winning screen P to KP modification\00000596.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000596.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000596.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000596.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000596.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000596.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000596.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000596.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000598.mss Teleport screen text box coord\00000598.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000598.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000598.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000598.mss"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000598.mss" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000598.mss"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000598.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000598.asm"
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000803.dat Additional Plate info text\00000803.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000803.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000803.dat" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000803.dat"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000803.dat" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000803.dat"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000803.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000803.asm
 
 copy /y "%GITHUBPATH%\source\GL6_FILE.DAT\00000806.dat Yurii Attributes\00000806.asm" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000806.asm"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT\00000806.dat" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000806.dat"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000806.dat" "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000806.dat"
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000806.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000806.asm
 
@@ -181,13 +181,13 @@ copy /y "%GITHUBPATH%\build\06-build\GL6_FILE.DAT" "%GITHUBPATH%\build\GL6_FILE.
 
 :: delete old SCEN.DAT and Copy SCEN.DAT from the original files folder to the build folder
 del "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT"
-copy /y "%GITHUBPATH%\build\05-original_files\GL6_SCEN.DAT" "%GITHUBPATH%\build\06-build\"
+copy /y "%GITHUBPATH%\build\06-original_files\GL6_SCEN.DAT" "%GITHUBPATH%\build\06-build\"
 
 :: Delete SCEN DAT folder and all its contents, create a new folder with the same name and
 :: copy all files from the original dumped SCEN folder to the build SCEN DAT folder
 rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
 mkdir "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
-xcopy "%GITHUBPATH%\build\05-original_files\GL6_SCEN DAT" "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\"
+xcopy "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT" "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\"
 
 :: Copy the "00000001.SCEN.asm" and "00000043.SCEN.asm" armips file and modify the original SCEN files
 cd "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\"
@@ -392,13 +392,13 @@ copy /y "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\GL6_SCEN.
 :::: 06. Cleanup after all the files have been patches
 del "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
 rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
-rmdir /s /q "%GITHUBPATH%\build\05-original_files\GL6_FACE DAT"
+rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
 del "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
 rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
-rmdir /s /q "%GITHUBPATH%\build\05-original_files\GL6_FILE DAT"
+rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
 del "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT"
 rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
-rmdir /s /q "%GITHUBPATH%\build\05-original_files\GL6_SCEN DAT"
+rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
 rmdir /s /q "%GITHUBPATH%\build\06-build"
 del "%GITHUBPATH%\build\00-abcde\abcde.tbl"
 del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
