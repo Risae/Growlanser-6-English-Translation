@@ -1,7 +1,5 @@
-# This is a basic workflow that is manually triggered
-name: Manual workflow
+name: Build xDelta Patch
 
-# Controls when the action will run
 on:
   workflow_dispatch:
     inputs:
@@ -9,17 +7,77 @@ on:
         description: 'Test'
 
 jobs:
-  Run-PSScriptAnalyzer-on-Windows:
-    name: Run PSScriptAnalyzer on Windows
+  BuildPatch:
+    name: Build xDelta Patch for the Growlanser 6 English Translation
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Install PSScriptAnalyzer module
+      - name: 01. Copy repository
+        uses: actions/checkout@v3
+        with:
+          # Only copy specific folders to the container
+          sparse-checkout: |
+            .github
+            build
+            source
+            tools
+      - name: 02. Prepare files
+        shell: pwsh
+        env:
+          DUMMY: ${{ secrets.DUMMY }}
+          BTL: ${{ secrets.BTL }}
+          CHAR: ${{ secrets.CHAR }}
+          FACE: ${{ secrets.FACE }}
+          FILE: ${{ secrets.FILE }}
+          MAP: ${{ secrets.MAP }}
+          MOV: ${{ secrets.MOV }}
+          SCEN: ${{ secrets.SCEN }}
+          SND: ${{ secrets.SND }}
+          VOI: ${{ secrets.VOI }}
+          IOPRP300: ${{ secrets.IOPRP300 }}
+          SLPM: ${{ secrets.SLPM }}
+          SYSTEM: ${{ secrets.SYSTEM }}
+          GL6: ${{ secrets.GL6 }}
+        run: |
+          echo "Change to the build folder"; cd "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build"
+          echo "create the folder '07-translates_files'"; mkdir "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files"
+          # Download files
+          echo "DUMMY to 07"; Invoke-WebRequest -Uri "$Env:DUMMY" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\DUMMY.DAT"
+          echo "BTL to 07"; Invoke-WebRequest -Uri "$Env:BTL" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_BTL.DAT"
+          echo "CHAR to 07"; Invoke-WebRequest -Uri "$Env:CHAR" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_CHAR.DAT"
+          echo "FACE to 06"; Invoke-WebRequest -Uri "$Env:FACE" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\GL6_FACE.DAT"
+          echo "FILE to 06"; Invoke-WebRequest -Uri "$Env:FILE" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\GL6_FILE.DAT"
+          echo "MAP to 07"; Invoke-WebRequest -Uri "$Env:MAP" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_MAP.DAT"
+          echo "MOV to 07"; Invoke-WebRequest -Uri "$Env:MOV" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_MOV.DAT"
+          echo "SCEN to 06"; Invoke-WebRequest -Uri "$Env:SCEN" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\GL6_SCEN.DAT"
+          echo "SND to 07"; Invoke-WebRequest -Uri "$Env:SND" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_SND.DAT"
+          echo "VOI to 07"; Invoke-WebRequest -Uri "$Env:VOI" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_VOI.DAT"
+          echo "IOPRP300 to 07"; Invoke-WebRequest -Uri "$Env:IOPRP300" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\IOPRP300.IMG"
+          echo "SLPM to 06"; Invoke-WebRequest -Uri "$Env:SLPM" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\SLPM_667.16"
+          echo "SYSTEM to 07"; Invoke-WebRequest -Uri "$Env:SYSTEM" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\SYSTEM.CNF"
+          echo "GL6 to 06"; Invoke-WebRequest -Uri "$Env:GL6" -OutFile "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\Growlanser 6 Precarious World.iso"
+      - name: 03. Translate files
         shell: pwsh
         run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module PSScriptAnalyzer -ErrorAction Stop
-      - name: Get list of rules
+          echo "cd to the build folder"; cd "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build"
+          echo "execute build.bat"; cmd.exe -/c ".\build.bat"
+      - name: 04. Move translated files
         shell: pwsh
         run: |
-          Get-ScriptAnalyzerRule
+          echo "move FACE"; mv "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\GL6_FACE.DAT" "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_FACE.DAT"
+          echo "move FILE"; mv "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\GL6_FILE.DAT" "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_FILE.DAT"
+          echo "move SCEN"; mv "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\GL6_SCEN.DAT" "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\GL6_SCEN.DAT"
+          echo "move SLPM"; mv "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\SLPM_667.16" "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files\SLPM_667.16"
+      - name: 05. Create patched version
+        shell: pwsh
+        run: |
+          echo "build"; python "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\05-isotool\isotool.py" -m insert --iso "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\Growlanser 6 Precarious World.iso" --filelist "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\game_filelist.txt" --files "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\07-translates_files" --output "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\Growlanser 6 Precarious World English.iso"
+      - name: 06. Create xDelta patch
+        shell: pwsh
+        run: |
+          echo "Create xDelta Patch"; cmd.exe /C "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\06-original_files\Growlanser 6 Precarious World.iso" "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\Growlanser 6 Precarious World English.iso" "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\08-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
+          echo "remove vcdiff\file"; rm "D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\08-xDeltaPatch\vcdiff\file"
+      - name: 07. Publish patch
+        uses: actions/upload-artifact@v3
+        with:
+          name: Growlanser 6 English Patch
+          path: D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\08-xDeltaPatch
