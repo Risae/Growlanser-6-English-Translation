@@ -1,10 +1,5 @@
 name: Build xDelta Patch
-
-on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Test'
+on: [workflow_dispatch]
 
 jobs:
   BuildPatch:
@@ -79,5 +74,5 @@ jobs:
       - name: 07. Publish patch
         uses: actions/upload-artifact@v3
         with:
-          name: Growlanser 6 English Patch
+          name: BuildBot-Growlanser_6_English_xDelta_Patch-${{ env.date }}
           path: D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\08-xDeltaPatch
