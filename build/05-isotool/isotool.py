@@ -54,8 +54,6 @@ def get_arguments(argv=None):
         "--with-padding",
         required=False,
         action='store_true',
-        type=bool,
-        metavar="padding_flag",
         help="flag to control outermost iso padding",
     )
 
