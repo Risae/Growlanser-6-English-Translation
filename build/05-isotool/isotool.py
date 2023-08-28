@@ -1,4 +1,3 @@
-import msvcrt
 import struct
 import argparse
 from pathlib import Path
@@ -16,10 +15,6 @@ class FileListInfo():
     total_inodes: int
 
 
-def getch():
-    return str(msvcrt.getch())
-
-
 def main():
     print("pyPS2 ISO Rebuilder")
     print("Original by Raynê Games")
@@ -30,7 +25,7 @@ def main():
         print("Dumping mode is not (re)implemented yet!")
         # dump_iso(args.iso, args.filelist, args.files, args.output)
     else:
-        rebuild_iso(args.iso, args.filelist, args.files, args.output)
+        rebuild_iso(args.iso, args.filelist, args.files, args.output, args.with_padding)
         print("rebuild finished")
 
 
@@ -53,6 +48,15 @@ def get_arguments(argv=None):
         type=Path,
         metavar="original_iso",
         help="input game iso file path",
+    )
+
+    parser.add_argument(
+        "--with-padding",
+        required=False,
+        action='store_true',
+        type=bool,
+        metavar="padding_flag",
+        help="flag to control outermost iso padding",
     )
 
     parser.add_argument(
@@ -96,7 +100,7 @@ def get_arguments(argv=None):
     return args
 
 
-def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path) -> None:
+def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_padding: bool) -> None:
 
     if filelist.exists() == False:
         print(f"Could not to find the '{filelist.name}' files log!")
@@ -145,7 +149,6 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path) -> Non
 
         f.seek(-0x800, 2)
         footer = f.read(0x800)
-    
 
     with open(output, "wb+") as f:
         f.write(header[:data_start])
@@ -166,7 +169,7 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path) -> Non
             end_pos = f.tell()
 
             # Align to next LBA
-            al_end = (end_pos + 0x800) - (end_pos % 0x800)
+            al_end = (end_pos + 0x7FF) & ~(0x7FF)
             f.write(b"\x00" * (al_end - end_pos))
 
             end_save = f.tell()
@@ -182,10 +185,16 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path) -> Non
 
             f.seek(end_save)
         
-        # Align to ????
+        # Align to 0x8000
         end_pos = f.tell()
-        al_end = (end_pos + 0x8000) - (end_pos % 0x8000)
+        al_end = (end_pos + 0x7FFF) & ~(0x7FFF)
         f.write(b"\x00" * (al_end - end_pos))
+        
+        # Sony's cdvdgen tool starting with v2.00 by default adds
+        # a 20MiB padding to the end of the PVD, add it here if requested
+        # minus a whole LBA for the end of file Anchor
+        if add_padding:
+            f.write(b"\x00" * (0x140_000 - 0x800))
 
         last_pvd_lba = f.tell() // 0x800
         
