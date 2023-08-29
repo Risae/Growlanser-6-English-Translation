@@ -1016,10 +1016,10 @@ If only I could have eaten one...[END-FE]
 #W32($3DD4)
 //なんだって？[NLINE]
 //[COL01]浸透剄・改[COL00]を売って欲しい？[NLINE]
-//それなら１００００Ы出せるかね？[END-FE]
+//それなら１００００[Mil]出せるかね？[END-FE]
 What's that?[NLINE]
 You want me to sell my [COL01]Mega Penetrator Gem[COL00]?[NLINE]
-In that case, how does 10,000Ы sound?[END-FE]
+In that case, how does 10,000[Mil] sound?[END-FE]
 
 
 
@@ -1027,8 +1027,8 @@ In that case, how does 10,000Ы sound?[END-FE]
 
 //POINTER #78 @ $3DD8 - STRING #78 @ $51DC
 #W32($3DD8)
-//・１００００Ы支払う[END-FE]
-・Pay 10,000Ы[END-FE]
+//・１００００[Mil]支払う[END-FE]
+・Pay 10,000[Mil][END-FE]
 
 
 
@@ -1205,11 +1205,11 @@ valueable gem?[END-FE]
 //これをあげよう！[NWIN]
 //
 //この[COL01]浸透剄・改[COL00]は、[NLINE]
-//本来１００００Ыもする物だよ！[END-FE]
+//本来１００００[Mil]もする物だよ！[END-FE]
 Thank you! Here![NWIN]
 
 This [COL01]Mega Penetrator Gem[COL00] is[NLINE]
-worth 10,000Ы![END-FE]
+worth 10,000[Mil]![END-FE]
 
 
 
@@ -1242,9 +1242,9 @@ The taste is nothing less than legendary![END-FE]
 //POINTER #97 @ $3E24 - STRING #97 @ $558F
 #W32($3E24)
 //この[COL01]浸透剄・改[COL00]は、[NLINE]
-//本来１００００Ыもする物なのに…。[END-FE]
+//本来１００００[Mil]もする物なのに…。[END-FE]
 Too bad, this [COL01]Mega Penetrator Gem[COL00] is[NLINE]
-worth 10,000Ы...[END-FE]
+worth 10,000[Mil]...[END-FE]
 
 
 
@@ -1333,10 +1333,10 @@ Welcome.[END-FE]
 
 //POINTER #106 @ $3E48 - STRING #106 @ $56D6
 #W32($3E48)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
