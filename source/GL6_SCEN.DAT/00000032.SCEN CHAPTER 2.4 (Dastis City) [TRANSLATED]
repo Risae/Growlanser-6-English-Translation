@@ -6438,10 +6438,10 @@ How may I help you?[END-FE]
 
 //POINTER #538 @ $7F08 - STRING #538 @ $E680
 #W32($7F08)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
@@ -6803,9 +6803,9 @@ war. Please come back later![MUSIC-NOTE][END-FE]
 //POINTER #569 @ $7F84 - STRING #569 @ $EBE6
 #W32($7F84)
 //ありがとうございます。[NLINE]
-//お一人様、１００Ыになります。[END-FE]
+//お一人様、１００[Mil]になります。[END-FE]
 Thank you very much.[NLINE]
-A solo portrait will be 100Ы.[END-FE]
+A solo portrait will be 100[Mil].[END-FE]
 
 
 
@@ -6905,9 +6905,9 @@ and your special someone?[END-FE]
 //POINTER #578 @ $7FA8 - STRING #578 @ $EDB7
 #W32($7FA8)
 //ありがとうございます。[NLINE]
-//お二人様は、１５０Ыになります。[END-FE]
+//お二人様は、１５０[Mil]になります。[END-FE]
 Thank you very much.[NLINE]
-A two-person portrait will be 150Ы.[END-FE]
+A two-person portrait will be 150[Mil].[END-FE]
 
 
 
