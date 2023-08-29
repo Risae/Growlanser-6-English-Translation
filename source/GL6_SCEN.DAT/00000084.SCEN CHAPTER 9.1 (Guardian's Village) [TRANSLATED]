@@ -1317,9 +1317,9 @@ to take a look.[END-FE]
 
 //POINTER #96 @ $3120 - STRING #96 @ $4A2B
 #W32($3120)
-//[CC.EF0E]Ыになるけど、[NLINE]
+//[CC.EF0E][Mil]になるけど、[NLINE]
 //泊まっていくかい？[END-FE]
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would like you like to stay?[END-FE]
 
 
