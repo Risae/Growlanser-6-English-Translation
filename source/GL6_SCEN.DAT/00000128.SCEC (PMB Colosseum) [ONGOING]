@@ -179,10 +179,10 @@ like to try?[END-FE]
 //POINTER #17 @ $2364 - STRING #17 @ $2965
 #W32($2364)
 //打撃ダメージ競争ですね。[NLINE]
-//登録料が３０００Ыとなりますが[NLINE]
+//登録料が３０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Hard Hitter? The entry fee[NLINE]
-for that is 3000Ы.[NLINE]
+for that is 3000[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -192,10 +192,10 @@ Is that all right?[END-FE]
 //POINTER #18 @ $2368 - STRING #18 @ $29B2
 #W32($2368)
 //魔法ダメージ競争ですね。[NLINE]
-//登録料が３０００Ыとなりますが[NLINE]
+//登録料が３０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Spell Slinger? The entry fee[NLINE]
-for that is 3000Ы.[NLINE]
+for that is 3000[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -224,10 +224,10 @@ Is that all right?[END-FE]
 //POINTER #20 @ $2370 - STRING #20 @ $2A7E
 #W32($2370)
 //総合ダメージ競争ですね。[NLINE]
-//登録料が６０００Ыとなりますが[NLINE]
+//登録料が６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 総合ダメージ競争ですね。[NLINE]
-登録料が６０００Ыとなりますが[NLINE]
+登録料が６０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -284,10 +284,10 @@ Is that all right?[END-FE]
 //POINTER #26 @ $2388 - STRING #26 @ $2B4A
 #W32($2388)
 //勝ち抜きカッパークラスですね。[NLINE]
-//登録料が１２００Ыとなりますが[NLINE]
+//登録料が１２００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Copper Match? The entry fee[NLINE]
-for that is 1200Ы.[NLINE]
+for that is 1200[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -297,10 +297,10 @@ Is that all right?[END-FE]
 //POINTER #27 @ $238C - STRING #27 @ $2B9D
 #W32($238C)
 //勝ち抜きシルバークラスですね。[NLINE]
-//登録料が２５００Ыとなりますが[NLINE]
+//登録料が２５００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Silver Match? The entry fee[NLINE]
-for that is 2500Ы.[NLINE]
+for that is 2500[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -310,10 +310,10 @@ Is that all right?[END-FE]
 //POINTER #28 @ $2390 - STRING #28 @ $2BF0
 #W32($2390)
 //勝ち抜きゴールドクラスですね。[NLINE]
-//登録料が６０００Ыとなりますが[NLINE]
+//登録料が６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Gold Match? The entry fee[NLINE]
-for that is 6000Ы.[NLINE]
+for that is 6000[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -323,10 +323,10 @@ Is that all right?[END-FE]
 //POINTER #29 @ $2394 - STRING #29 @ $2C43
 #W32($2394)
 //勝ち抜きプラチナクラスですね。[NLINE]
-//登録料が１２０００Ыとなりますが[NLINE]
+//登録料が１２０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Platinum Match? The entry fee[NLINE]
-for that is 12000Ы.[NLINE]
+for that is 12000[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -428,10 +428,10 @@ Is that all right?[END-FE]
 //POINTER #40 @ $23C0 - STRING #40 @ $2D7C
 #W32($23C0)
 //バクターチームとの対戦ですね。[NLINE]
-//登録料が４０００Ыとなりますが[NLINE]
+//登録料が４０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 バクターチームとの対戦ですね。[NLINE]
-登録料が４０００Ыとなりますが[NLINE]
+登録料が４０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -486,10 +486,10 @@ Is that all right?[END-FE]
 //POINTER #46 @ $23D8 - STRING #46 @ $2E08
 #W32($23D8)
 //エスグレンツチームとの対戦ですね。[NLINE]
-//登録料が６０００Ыとなりますが[NLINE]
+//登録料が６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 エスグレンツチームとの対戦ですね。[NLINE]
-登録料が６０００Ыとなりますが[NLINE]
+登録料が６０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -544,10 +544,10 @@ Is that all right?[END-FE]
 //POINTER #52 @ $23F0 - STRING #52 @ $2E98
 #W32($23F0)
 //シリルティアチームとの対戦ですね。[NLINE]
-//登録料が８０００Ыとなりますが[NLINE]
+//登録料が８０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 シリルティアチームとの対戦ですね。[NLINE]
-登録料が８０００Ыとなりますが[NLINE]
+登録料が８０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -602,10 +602,10 @@ Is that all right?[END-FE]
 //POINTER #58 @ $2408 - STRING #58 @ $2F28
 #W32($2408)
 //維持軍チームとの対戦ですね。[NLINE]
-//登録料が１００００Ыとなりますが[NLINE]
+//登録料が１００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 維持軍チームとの対戦ですね。[NLINE]
-登録料が１００００Ыとなりますが[NLINE]
+登録料が１００００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -660,10 +660,10 @@ Is that all right?[END-FE]
 //POINTER #64 @ $2420 - STRING #64 @ $2FB4
 #W32($2420)
 //スレイヤーチームとの対戦ですね。[NLINE]
-//登録料が１２０００Ыとなりますが[NLINE]
+//登録料が１２０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 スレイヤーチームとの対戦ですね。[NLINE]
-登録料が１２０００Ыとなりますが[NLINE]
+登録料が１２０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -718,10 +718,10 @@ Is that all right?[END-FE]
 //POINTER #70 @ $2438 - STRING #70 @ $3044
 #W32($2438)
 //リーダーチームとの対戦ですね。[NLINE]
-//登録料が１４０００Ыとなりますが[NLINE]
+//登録料が１４０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 リーダーチームとの対戦ですね。[NLINE]
-登録料が１４０００Ыとなりますが[NLINE]
+登録料が１４０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -776,10 +776,10 @@ Is that all right?[END-FE]
 //POINTER #76 @ $2450 - STRING #76 @ $30D2
 #W32($2450)
 //ハンターチームとの対戦ですね。[NLINE]
-//登録料が１６０００Ыとなりますが[NLINE]
+//登録料が１６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 ハンターチームとの対戦ですね。[NLINE]
-登録料が１６０００Ыとなりますが[NLINE]
+登録料が１６０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -853,10 +853,10 @@ Is that all right?[END-FE]
 //POINTER #83 @ $246C - STRING #83 @ $31D9
 #W32($246C)
 //総帥チームとの対戦ですね。[NLINE]
-//登録料が１８０００Ыとなりますが[NLINE]
+//登録料が１８０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 総帥チームとの対戦ですね。[NLINE]
-登録料が１８０００Ыとなりますが[NLINE]
+登録料が１８０００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -990,10 +990,10 @@ Is that all right?[END-FE]
 //POINTER #96 @ $24A0 - STRING #96 @ $33AC
 #W32($24A0)
 //エキシビジョンマッチですね。[NLINE]
-//登録料が１００００Ыとなりますが[NLINE]
+//登録料が１００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 エキシビジョンマッチですね。[NLINE]
-登録料が１００００Ыとなりますが[NLINE]
+登録料が１００００[Mil]となりますが[NLINE]
 よろしいですか？[END-FE]
 
 
@@ -1113,11 +1113,11 @@ Which class are you after?[END-FE]
 //POINTER #109 @ $24D4 - STRING #109 @ $34DB
 #W32($24D4)
 //ポーンクラスですね。[NLINE]
-//登録料が１０００Ыとなりますが[NLINE]
+//登録料が１０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Pawn Class? The[NLINE]
 entry fee for that is[NLINE]
-1000Ы. Is that all right?[END-FE]
+1000[Mil]. Is that all right?[END-FE]
 
 
 
@@ -1126,11 +1126,11 @@ entry fee for that is[NLINE]
 //POINTER #110 @ $24D8 - STRING #110 @ $3524
 #W32($24D8)
 //ルーククラスですね。[NLINE]
-//登録料が３０００Ыとなりますが[NLINE]
+//登録料が３０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Rook Class? The[NLINE]
 entry fee for that is[NLINE]
-3000Ы. Is that all right?[END-FE]
+3000[Mil]. Is that all right?[END-FE]
 
 
 
@@ -1139,11 +1139,11 @@ entry fee for that is[NLINE]
 //POINTER #111 @ $24DC - STRING #111 @ $356D
 #W32($24DC)
 //ナイトクラスですね。[NLINE]
-//登録料が７５００Ыとなりますが[NLINE]
+//登録料が７５００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Knight Class? The[NLINE]
 entry fee for that is[NLINE]
-7500Ы. Is that all right?[END-FE]
+7500[Mil]. Is that all right?[END-FE]
 
 
 
@@ -1152,11 +1152,11 @@ entry fee for that is[NLINE]
 //POINTER #112 @ $24E0 - STRING #112 @ $35B6
 #W32($24E0)
 //ビショップクラスですね。[NLINE]
-//登録料が１００００Ыとなりますが[NLINE]
+//登録料が１００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Bishop Class? The[NLINE]
 entry fee for that is[NLINE]
-10000Ы. Is that all right?[END-FE]
+10000[Mil]. Is that all right?[END-FE]
 
 
 
@@ -1165,11 +1165,11 @@ entry fee for that is[NLINE]
 //POINTER #113 @ $24E4 - STRING #113 @ $3605
 #W32($24E4)
 //ヤクトクラスですね。[NLINE]
-//登録料が１３０００Ыとなりますが[NLINE]
+//登録料が１３０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 Queen Class? The[NLINE]
 entry fee for that is[NLINE]
-13000Ы. Is that all right?[END-FE]
+13000[Mil]. Is that all right?[END-FE]
 
 
 
@@ -1230,10 +1230,10 @@ entry fee for that is[NLINE]
 //POINTER #116 @ $24F0 - STRING #116 @ $380A
 #W32($24F0)
 //ボーナスバトルのゴールドゲル戦ですね。[NLINE]
-//登録料が３００００Ыとなりますが[NLINE]
+//登録料が３００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 The Gold Slime bonus battle?[NLINE]
-The entry fee for that is 30000Ы.[NLINE]
+The entry fee for that is 30000[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -1243,10 +1243,10 @@ Is that all right?[END-FE]
 //POINTER #117 @ $24F4 - STRING #117 @ $3867
 #W32($24F4)
 //ボーナスバトルのソウル戦ですね。[NLINE]
-//登録料が３００００Ыとなりますが[NLINE]
+//登録料が３００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
 The Soul bonus battle?[NLINE]
-The entry fee for that is 30000Ы.[NLINE]
+The entry fee for that is 30000[Mil].[NLINE]
 Is that all right?[END-FE]
 
 
@@ -2776,8 +2776,8 @@ Is that all right?[END-FE]
 
 //POINTER #261 @ $2734 - STRING #261 @ $541D
 #W32($2734)
-//所持金 [CC.EF12]Ы[END-FE]
-Money [CC.EF12]Ы[END-FE]
+//所持金 [CC.EF12][Mil][END-FE]
+Money [CC.EF12][Mil][END-FE]
 
 
 
