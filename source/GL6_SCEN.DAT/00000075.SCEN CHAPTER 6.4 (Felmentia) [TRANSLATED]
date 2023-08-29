@@ -2426,10 +2426,10 @@ Will you stay overnight?[END-FE]
 
 //POINTER #180 @ $5D70 - STRING #180 @ $8924
 #W32($5D70)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
