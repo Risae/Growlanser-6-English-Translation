@@ -619,7 +619,7 @@ AGI　　　→　　[END-FE]
 //POINTER #59 @ $C0C - STRING #59 @ $10BB
 #W32($C0C)
 //現在所持金　[CC.EF19][END-FE]
-[CC.EF19]Ы[END-FE]
+[CC.EF19][Mil][END-FE]
 
 
 
@@ -628,7 +628,7 @@ AGI　　　→　　[END-FE]
 //POINTER #60 @ $C10 - STRING #60 @ $10CD
 #W32($C10)
 //現在所持金　[CC.EF19][END-FE]
-[CC.EF19]Ы[END-FE]
+[CC.EF19][Mil][END-FE]
 
 
 
