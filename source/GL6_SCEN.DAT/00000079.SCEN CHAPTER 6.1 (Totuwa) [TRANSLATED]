@@ -3128,9 +3128,9 @@ before any of the others.[END-FE]
 
 //POINTER #234 @ $8C48 - STRING #234 @ $CEC9
 #W32($8C48)
-//参加するのは５００Ы必要だけど、[NLINE]
+//参加するのは５００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 500Ы to participate.[NLINE]
+You need 500[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3149,9 +3149,9 @@ site.[END-FE]
 
 //POINTER #236 @ $8C50 - STRING #236 @ $CF1F
 #W32($8C50)
-//参加するのは１０００Ы必要だけど、[NLINE]
+//参加するのは１０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 1000Ы to participate.[NLINE]
+You need 1000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3170,9 +3170,9 @@ site.[END-FE]
 
 //POINTER #238 @ $8C58 - STRING #238 @ $CF77
 #W32($8C58)
-//参加するのは２０００Ы必要だけど、[NLINE]
+//参加するのは２０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 2000Ы to participate.[NLINE]
+You need 2000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3342,9 +3342,9 @@ Contest.[END-FE]
 
 //POINTER #246 @ $8C78 - STRING #246 @ $D4D7
 #W32($8C78)
-//参加するのは５００Ы必要だけど、[NLINE]
+//参加するのは５００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 500Ы to participate.[NLINE]
+You need 500[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3363,9 +3363,9 @@ site.[END-FE]
 
 //POINTER #248 @ $8C80 - STRING #248 @ $D52D
 #W32($8C80)
-//参加するのは１０００Ы必要だけど、[NLINE]
+//参加するのは１０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 1000Ы to participate.[NLINE]
+You need 1000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3384,9 +3384,9 @@ site.[END-FE]
 
 //POINTER #250 @ $8C88 - STRING #250 @ $D585
 #W32($8C88)
-//参加するのは２０００Ы必要だけど、[NLINE]
+//参加するのは２０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 2000Ы to participate.[NLINE]
+You need 2000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3506,9 +3506,9 @@ Slimes as possible.[END-FE]
 
 //POINTER #257 @ $8CA4 - STRING #257 @ $D8FA
 #W32($8CA4)
-//参加するのは５００Ы必要だけど、[NLINE]
+//参加するのは５００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 500Ы to participate.[NLINE]
+You need 500[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3527,9 +3527,9 @@ site.[END-FE]
 
 //POINTER #259 @ $8CAC - STRING #259 @ $D950
 #W32($8CAC)
-//参加するのは１０００Ы必要だけど、[NLINE]
+//参加するのは１０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 1000Ы to participate.[NLINE]
+You need 1000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3548,9 +3548,9 @@ site.[END-FE]
 
 //POINTER #261 @ $8CB4 - STRING #261 @ $D9A8
 #W32($8CB4)
-//参加するのは２０００Ы必要だけど、[NLINE]
+//参加するのは２０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 2000Ы to participate.[NLINE]
+You need 2000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3700,9 +3700,9 @@ ability to find the most balls at the site.[END-FE]
 
 //POINTER #271 @ $8CDC - STRING #271 @ $DDAE
 #W32($8CDC)
-//参加するのは５００Ы必要だけど、[NLINE]
+//参加するのは５００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 500Ы to participate.[NLINE]
+You need 500[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3721,9 +3721,9 @@ site.[END-FE]
 
 //POINTER #273 @ $8CE4 - STRING #273 @ $DE04
 #W32($8CE4)
-//参加するのは１０００Ы必要だけど、[NLINE]
+//参加するのは１０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 1000Ы to participate.[NLINE]
+You need 1000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -3742,9 +3742,9 @@ site.[END-FE]
 
 //POINTER #275 @ $8CEC - STRING #275 @ $DE5C
 #W32($8CEC)
-//参加するのは２０００Ы必要だけど、[NLINE]
+//参加するのは２０００[Mil]必要だけど、[NLINE]
 //参加する？[END-FE]
-You need 2000Ы to participate.[NLINE]
+You need 2000[Mil] to participate.[NLINE]
 Will you participate?[END-FE]
 
 
@@ -7068,10 +7068,10 @@ Welcome, how may I help you?[NLINE]
 
 //POINTER #542 @ $9118 - STRING #542 @ $11B51
 #W32($9118)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になりますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
