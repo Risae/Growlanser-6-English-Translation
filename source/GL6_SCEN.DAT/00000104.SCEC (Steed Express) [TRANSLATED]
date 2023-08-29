@@ -56,17 +56,17 @@ destination in comfort![END-FE]
 //POINTER #2 @ $E28 - STRING #2 @ $1068
 #W32($E28)
 //今のところ試験的に[NLINE]
-//賃料は全国均一250Ыですが…。[NWIN]
+//賃料は全国均一250[Mil]ですが…。[NWIN]
 //
 //お世話になった[MainCharName]さんには[NLINE]
-//特別大サービスの50Ыで[NLINE]
+//特別大サービスの50[Mil]で[NLINE]
 //運行いたしますよ！！[END-FE]
-The introductory offer is 250Ы[NLINE]
+The introductory offer is 250[Mil][NLINE]
 to anywhere in the continent.[NLINE]
 However...[NWIN]
 
 Since you really helped me out,[NLINE]
-I'll only charge you 50Ы as a[NLINE]
+I'll only charge you 50[Mil] as a[NLINE]
 special perk![END-FE]
 
 
@@ -76,8 +76,8 @@ special perk![END-FE]
 //POINTER #3 @ $E2C - STRING #3 @ $10E6
 #W32($E2C)
 //今のところ試験的に[NLINE]
-//賃料は全国均一250Ыです！[END-FE]
-The introductory offer is 250Ы[NLINE]
+//賃料は全国均一250[Mil]です！[END-FE]
+The introductory offer is 250[Mil][NLINE]
 to anywhere in the continent![END-FE]
 
 
@@ -87,17 +87,17 @@ to anywhere in the continent![END-FE]
 //POINTER #4 @ $E30 - STRING #4 @ $1116
 #W32($E30)
 //キャリィ屋へようこそ！[NLINE]
-//賃料は全国均一250Ыですが…。[NWIN]
+//賃料は全国均一250[Mil]ですが…。[NWIN]
 //
 //お世話になった[MainCharName]さんには[NLINE]
-//特別大サービスの50Ыで[NLINE]
+//特別大サービスの50[Mil]で[NLINE]
 //運行いたしますよ！！[END-FE]
 Welcome to Steed Express![NLINE]
-The nation-wide fee is 250Ы.[NLINE]
+The nation-wide fee is 250[Mil].[NLINE]
 However...[NWIN]
 
 Since you really helped me out,[NLINE]
-I'll only charge you 50Ы as a[NLINE]
+I'll only charge you 50[Mil] as a[NLINE]
 special perk![END-FE]
 
 
@@ -107,9 +107,9 @@ special perk![END-FE]
 //POINTER #5 @ $E34 - STRING #5 @ $1198
 #W32($E34)
 //キャリィ屋へようこそ！[NLINE]
-//賃料は全国均一250Ыです！[END-FE]
+//賃料は全国均一250[Mil]です！[END-FE]
 Welcome to the Steed Express![NLINE]
-250Ы to anywhere you want![END-FE]
+250[Mil] to anywhere you want![END-FE]
 
 
 
@@ -129,9 +129,9 @@ research center.[END-FE]
 //POINTER #7 @ $E3C - STRING #7 @ $11FB
 #W32($E3C)
 //現在運行している路線は次の通りです。[NLINE]
-//全国均一[CC.EF0E]Ыでご利用頂けます！[END-FE]
+//全国均一[CC.EF0E][Mil]でご利用頂けます！[END-FE]
 Here are your options.[NLINE]
-Our continentwide fee is [CC.EF0E]Ы![END-FE]
+Our continentwide fee is [CC.EF0E][Mil]![END-FE]
 
 
 
@@ -249,11 +249,11 @@ Our continentwide fee is [CC.EF0E]Ы![END-FE]
 #W32($E70)
 //『平和維持軍本部前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 PMB Headquarters it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -263,14 +263,14 @@ That all right with you?[END-FE]
 //POINTER #21 @ $E74 - STRING #21 @ $1361
 #W32($E74)
 //『平和維持軍本部前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 PMB Headquarters it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -318,11 +318,11 @@ Well, have a nice trip![END-FE]
 #W32($E84)
 //『ワースリー前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Warslee it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -332,14 +332,14 @@ That all right with you?[END-FE]
 //POINTER #26 @ $E88 - STRING #26 @ $1494
 #W32($E88)
 //『ワースリー前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Warslee it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -386,11 +386,11 @@ Well, have a nice trip![END-FE]
 #W32($E98)
 //『リオレー前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Rio Rey it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -400,14 +400,14 @@ That all right with you?[END-FE]
 //POINTER #31 @ $E9C - STRING #31 @ $15BD
 #W32($E9C)
 //『リオレー前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Rio Rey it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -454,11 +454,11 @@ Well, have a nice trip![END-FE]
 #W32($EAC)
 //『ゼルドック前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Zerdok it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -468,14 +468,14 @@ That all right with you?[END-FE]
 //POINTER #36 @ $EB0 - STRING #36 @ $16E4
 #W32($EB0)
 //『ゼルドック前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Zerdok it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -522,11 +522,11 @@ Well, have a nice trip![END-FE]
 #W32($EC0)
 //『ガイラナック前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Geilenach it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -536,14 +536,14 @@ That all right with you?[END-FE]
 //POINTER #41 @ $EC4 - STRING #41 @ $1811
 #W32($EC4)
 //『ガイラナック前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Geilenach it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -590,11 +590,11 @@ Well, have a nice trip![END-FE]
 #W32($ED4)
 //『ザーランバ前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Zaramba it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -604,14 +604,14 @@ That all right with you?[END-FE]
 //POINTER #46 @ $ED8 - STRING #46 @ $1940
 #W32($ED8)
 //『ザーランバ前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Zaramba it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -658,11 +658,11 @@ Well, have a nice trip![END-FE]
 #W32($EE8)
 //『ヤージェン前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Jaergen it is![NWIN]
 
-Our fee is [CC.EF0E]Ы. Would[NLINE]
+Our fee is [CC.EF0E][Mil]. Would[NLINE]
 that be alright?[END-FE]
 
 
@@ -672,14 +672,14 @@ that be alright?[END-FE]
 //POINTER #51 @ $EEC - STRING #51 @ $1A6B
 #W32($EEC)
 //『ヤージェン前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Jaergen it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -726,11 +726,11 @@ Well, have a nice trip![END-FE]
 #W32($EFC)
 //『フェルメンティア前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 In front of Felmentia? Very well.[NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -740,14 +740,14 @@ That all right with you?[END-FE]
 //POINTER #56 @ $F00 - STRING #56 @ $1B9C
 #W32($F00)
 //『フェルメンティア前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Felmentia it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -794,11 +794,11 @@ Well, have a nice trip![END-FE]
 #W32($F10)
 //『ジュワイナ前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 In front of Juwaina? Very well.[NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -808,14 +808,14 @@ That all right with you?[END-FE]
 //POINTER #61 @ $F14 - STRING #61 @ $1CD3
 #W32($F14)
 //『ジュワイナ前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Juwaina it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -862,11 +862,11 @@ Well, have a nice trip![END-FE]
 #W32($F24)
 //『トトゥア前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 In front of Totuwa? Very well.[NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -876,14 +876,14 @@ That all right with you?[END-FE]
 //POINTER #66 @ $F28 - STRING #66 @ $1DFC
 #W32($F28)
 //『トトゥア前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Totuwa it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -930,11 +930,11 @@ Well, have a nice trip![END-FE]
 #W32($F38)
 //『ポトラドの里前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 In front of Pothrad Village? Very well.[NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -944,14 +944,14 @@ That all right with you?[END-FE]
 //POINTER #71 @ $F3C - STRING #71 @ $1F25
 #W32($F3C)
 //『ポトラドの里前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Pothrad Village it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -1088,9 +1088,9 @@ Try again later, okay?[END-FE]
 //POINTER #79 @ $F5C - STRING #79 @ $226C
 #W32($F5C)
 //現在運行している路線は次の通りです。[NLINE]
-//全国均一[CC.EF0E]Ыでご利用頂けます！[END-FE]
+//全国均一[CC.EF0E][Mil]でご利用頂けます！[END-FE]
 Here are your options.[NLINE]
-Our continentwide fee is [CC.EF0E]Ы![END-FE]
+Our continentwide fee is [CC.EF0E][Mil]![END-FE]
 
 
 
@@ -1118,11 +1118,11 @@ Our continentwide fee is [CC.EF0E]Ы![END-FE]
 #W32($F68)
 //『平和維持軍本部前』ですね。[NWIN]
 //
-//賃料は[CC.EF0E]Ыになりますが、[NLINE]
+//賃料は[CC.EF0E][Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 PMB Headquarters it is![NWIN]
 
-The fare'll be [CC.EF0E]Ы.[NLINE]
+The fare'll be [CC.EF0E][Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -1132,14 +1132,14 @@ That all right with you?[END-FE]
 //POINTER #83 @ $F6C - STRING #83 @ $2322
 #W32($F6C)
 //『平和維持軍本部前』ですね。[NLINE]
-//賃料は[CC.EF0E]Ыになりますが…。[NWIN]
+//賃料は[CC.EF0E][Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 PMB Headquarters it is![NLINE]
-The fare'll be [CC.EF0E]Ы...[NWIN]
+The fare'll be [CC.EF0E][Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -1180,8 +1180,8 @@ Well, have a nice trip![END-FE]
 
 //POINTER #86 @ $F78 - STRING #86 @ $240C
 #W32($F78)
-//所持金 [CC.EF19]Ы[END-FE]
-[CC.EF19]Ы[END-FE]
+//所持金 [CC.EF19][Mil][END-FE]
+[CC.EF19][Mil][END-FE]
 
 
 
@@ -1219,9 +1219,9 @@ destination in comfort![END-FE]
 //POINTER #88 @ $F80 - STRING #88 @ $24D0
 #W32($F80)
 //現在運行している路線は次の通りです。[NLINE]
-//試験開業につき、現在は１回５０Ы！[END-FE]
+//試験開業につき、現在は１回５０[Mil]！[END-FE]
 Since we're conducting a trial opening,[NLINE]
-our current fee is 50Ы per ride! Our[NLINE]
+our current fee is 50[Mil] per ride! Our[NLINE]
 current destinations are as follows:[END-FE]
 
 
@@ -1259,11 +1259,11 @@ current destinations are as follows:[END-FE]
 #W32($F90)
 //『フェルメンティア前』ですね。[NWIN]
 //
-//賃料は５０Ыになりますが、[NLINE]
+//賃料は５０[Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Felmentia it is![NWIN]
 
-The fare'll be 50Ы.[NLINE]
+The fare'll be 50[Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -1273,14 +1273,14 @@ That all right with you?[END-FE]
 //POINTER #93 @ $F94 - STRING #93 @ $25A1
 #W32($F94)
 //『フェルメンティア前』ですね。[NLINE]
-//賃料は５０Ыになりますが…。[NWIN]
+//賃料は５０[Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Felmentia it is![NLINE]
-The fare'll be 50Ы...[NWIN]
+The fare'll be 50[Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
@@ -1304,11 +1304,11 @@ Well, have a nice trip![END-FE]
 #W32($F9C)
 //『ポトラドの里前』ですね。[NWIN]
 //
-//賃料は５０Ыになりますが、[NLINE]
+//賃料は５０[Mil]になりますが、[NLINE]
 //よろしいですか？[END-FE]
 Pothrad Village it is![NWIN]
 
-The fare'll be 50Ы.[NLINE]
+The fare'll be 50[Mil].[NLINE]
 That all right with you?[END-FE]
 
 
@@ -1318,14 +1318,14 @@ That all right with you?[END-FE]
 //POINTER #96 @ $FA0 - STRING #96 @ $2666
 #W32($FA0)
 //『ポトラドの里前』ですね。[NLINE]
-//賃料は５０Ыになりますが…。[NWIN]
+//賃料は５０[Mil]になりますが…。[NWIN]
 //
 //え？[NLINE]
 //持ち合わせがない？[NWIN]
 //
 //………。[END-FE]
 Pothrad Village it is![NLINE]
-The fare'll be 50Ы...[NWIN]
+The fare'll be 50[Mil]...[NWIN]
 
 Huh? Don't you[NLINE]
 have enough?[NWIN]
