@@ -75,4 +75,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: BuildBot-Growlanser_6_English_xDelta_Patch-${{ env.date }}
-          path: D:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\08-xDeltaPatch
+          path: ${{ github.workspace }}\build\08-xDeltaPatch
