@@ -446,9 +446,9 @@ but it looks like you're interested.[END-FE]
 //POINTER #37 @ $2AB4 - STRING #37 @ $329F
 #W32($2AB4)
 //安くしとくよ。[NLINE]
-//１００Ыでどうかな？[END-FE]
+//１００[Mil]でどうかな？[END-FE]
 Tell you what, I'll give you a discount.[NLINE]
-How does 100Ы sound?[END-FE]
+How does 100[Mil] sound?[END-FE]
 
 
 
@@ -774,10 +774,10 @@ Welcome.[END-FE]
 
 //POINTER #64 @ $2B20 - STRING #64 @ $388D
 #W32($2B20)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になりますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
