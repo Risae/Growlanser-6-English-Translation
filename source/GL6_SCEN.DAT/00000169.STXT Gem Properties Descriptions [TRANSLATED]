@@ -901,9 +901,9 @@ rate by 50%, or their effect by 20%.[NLINE]
 
 //POINTER #68 @ $1B0 - STRING #68 @ $25AF
 #W32($1B0)
-//使用可能なスキルのЦが１上昇(最高９Ц)[NLINE]
+//使用可能なスキルの[Lv]が１上昇(最高９[Lv])[NLINE]
 //[NLINE]
-//　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](Ц値UP)[NLINE]
+//　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09]([Lv]値UP)[NLINE]
 //[END-FF]
 Level of learned skills increases by 1.[NLINE]
 (MAX Lv is Lv9)[NLINE]
@@ -915,9 +915,9 @@ Level of learned skills increases by 1.[NLINE]
 
 //POINTER #69 @ $1B4 - STRING #69 @ $2615
 #W32($1B4)
-//使用可能な魔法のЦが１上昇(最高９Ц)[NLINE]
+//使用可能な魔法の[Lv]が１上昇(最高９[Lv])[NLINE]
 //[NLINE]
-//　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](Ц値UP)[NLINE]
+//　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09]([Lv]値UP)[NLINE]
 //[END-FF]
 Level of usable spells increases by 1.[NLINE]
 (MAX Lv is Lv9)[NLINE]
@@ -929,9 +929,9 @@ Level of usable spells increases by 1.[NLINE]
 
 //POINTER #70 @ $1B8 - STRING #70 @ $2679
 #W32($1B8)
-//使用可能な特技のЦが１上昇(最高９Ц)[NLINE]
+//使用可能な特技の[Lv]が１上昇(最高９[Lv])[NLINE]
 //[NLINE]
-//　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](Ц値UP)[NLINE]
+//　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09]([Lv]値UP)[NLINE]
 //[END-FF]
 Level of usable knacks increases by 1.[NLINE]
 (MAX Lv is Lv9)[NLINE]
@@ -1062,7 +1062,7 @@ defeating enemies by 10%.[NLINE]
 #W32($1E0)
 //[COL04]キュア ヒーリング ファイン[COL00]が使用可能になる。[NLINE]
 //[NLINE]
-//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法Ц値UP)[END-FF]
+//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法[Lv]値UP)[END-FF]
 Allows the wearer to use[NLINE]
 [COL0E]Cure / Heal / Remedy[COL00].[NLINE]
 [COL09]Stack[COL03]×[COL09] (Spell Lv Up)[END-FF]
@@ -1075,7 +1075,7 @@ Allows the wearer to use[NLINE]
 #W32($1E4)
 //[COL04]フレア ブリザード ブラスト サンダーボルト[NLINE]
 //ホーリークロス ＭＰドレイン[COL00]が使用可能になる。[NLINE]
-//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法Ц値UP)[END-FF]
+//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法[Lv]値UP)[END-FF]
 Allows the wearer to use [COL0E]Flare[COL00],[COL0E] Blizzard[COL00], [COL0E]Blast[COL00],[NLINE]
 [COL0E]Thunderbolt[COL00],[COL0E] Holy Cross[COL00] and[COL0E] Magic Vortex[COL00].[NLINE]
 [COL09]Stack[COL03]×[COL09] (Spell Lv Up)[END-FF]
@@ -1088,7 +1088,7 @@ Allows the wearer to use [COL0E]Flare[COL00],[COL0E] Blizzard[COL00], [COL0E]Bla
 #W32($1E8)
 //回復系と[COL04]メテオ アースクエイク ソニックウェーブ[NLINE]
 //サンダーストーム[COL00]を除く範囲魔法が使用可能になる。[NLINE]
-//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法Ц値UP)[END-FF]
+//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法[Lv]値UP)[END-FF]
 Use any area spell other than [COL0E]Meteor[COL00], [COL0E]Earthquake[COL00],[NLINE]
 [COL0E]Thunder[COL00], [COL0E]Storm[COL00], [COL0E]Sonic Wave[COL00] and all healing spells.[NLINE]
 [COL09]Stack[COL03]×[COL09] (Spell Lv Up)[END-FF]
@@ -1101,7 +1101,7 @@ Use any area spell other than [COL0E]Meteor[COL00], [COL0E]Earthquake[COL00],[NL
 #W32($1EC)
 //すべての魔法が使用可能になる。[NLINE]
 //[NLINE]
-//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法Ц値UP)[END-FF]
+//　　　　　　　　　　[COL09]累積[COL03]×[COL09](使用可能魔法[Lv]値UP)[END-FF]
 Allows the wearer to use all spells.[NLINE]
 [NLINE]
 [COL09]Stack[COL03]×[COL09] (Spell Lv Up)[END-FF]
