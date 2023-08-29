@@ -354,8 +354,8 @@ How may I help you?[END-FE]
 
 //POINTER #30 @ $2B98 - STRING #30 @ $3162
 #W32($2B98)
-//所持金 [CC.EF19]Ы[END-FE]
-Money [CC.EF19]Ы[END-FE]
+//所持金 [CC.EF19][Mil][END-FE]
+Money [CC.EF19][Mil][END-FE]
 
 
 
@@ -420,9 +420,9 @@ give as a present or use yourself.[END-FE]
 //POINTER #37 @ $2BB4 - STRING #37 @ $3213
 #W32($2BB4)
 //大人の香りのローズゼラニウムの香油。[NLINE]
-//９本２００Ыになりますがよろしいですか？[END-FE]
+//９本２００[Mil]になりますがよろしいですか？[END-FE]
 This rose geranium perfume oil has an[NLINE]
-adult fragrance. That will be 200Ы for[NLINE]
+adult fragrance. That will be 200[Mil] for[NLINE]
 nine vials. Would that be alright?[END-FE]
 
 
@@ -455,9 +455,9 @@ about you use up your current stock?[END-FE]
 //POINTER #40 @ $2BC0 - STRING #40 @ $32E8
 #W32($2BC0)
 //あたたかなスイートオレンジの香油。[NLINE]
-//９本２００Ыになりますがよろしいですか？[END-FE]
+//９本２００[Mil]になりますがよろしいですか？[END-FE]
 This orange perfume oil has a warm and[NLINE]
-sweet fragrance. That will be 200Ы for[NLINE]
+sweet fragrance. That will be 200[Mil] for[NLINE]
 nine vials. Would that be alright?[END-FE]
 
 
@@ -467,10 +467,10 @@ nine vials. Would that be alright?[END-FE]
 //POINTER #41 @ $2BC4 - STRING #41 @ $3337
 #W32($2BC4)
 //甘く魅惑的なキンギョソウの香油。[NLINE]
-//１本２０Ыになりますがよろしいですか？[END-FE]
+//１本２０[Mil]になりますがよろしいですか？[END-FE]
 This snapdragon perfume oil has a sweet[NLINE]
 and fascinating fragrance. That will be[NLINE]
-20Ы for one vial. Would that be alright?[END-FE]
+20[Mil] for one vial. Would that be alright?[END-FE]
 
 
 
@@ -479,9 +479,9 @@ and fascinating fragrance. That will be[NLINE]
 //POINTER #42 @ $2BC8 - STRING #42 @ $3382
 #W32($2BC8)
 //気分すっきりミントの香油。[NLINE]
-//９本２００Ыになりますがよろしいですか？[END-FE]
+//９本２００[Mil]になりますがよろしいですか？[END-FE]
 This mint perfume oil has a refreshing[NLINE]
-fragrance. That will be 200Ы for nine[NLINE]
+fragrance. That will be 200[Mil] for nine[NLINE]
 vials. Would that be alright?[END-FE]
 
 
@@ -667,10 +667,10 @@ Welcome.[END-FE]
 
 //POINTER #59 @ $2C0C - STRING #59 @ $3681
 #W32($2C0C)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になりますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
