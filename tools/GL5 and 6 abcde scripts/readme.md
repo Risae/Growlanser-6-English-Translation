@@ -1,3 +1,5 @@
+`abcde.tbl` is the table file that abcde's Cartographer and Atlas needs to translate hexadecimal bytes into UTF8 human readable characters.
+
 ## Examples for abcde's Cartographer
 
 <details> <summary><i>abcde Cartographer GL6 commands</i></summary>
