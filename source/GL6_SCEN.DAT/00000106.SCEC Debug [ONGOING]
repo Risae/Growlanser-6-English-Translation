@@ -26,8 +26,8 @@
 
 //POINTER #1 @ $624 - STRING #1 @ $673
 #W32($624)
-//所持金 [CC.EF19]Ы[END-FE]
-Money [CC.EF19]Ы[END-FE]
+//所持金 [CC.EF19][Mil][END-FE]
+Money [CC.EF19][Mil][END-FE]
 
 
 
@@ -152,8 +152,8 @@ Money [CC.EF19]Ы[END-FE]
 
 //POINTER #15 @ $65C - STRING #15 @ $777
 #W32($65C)
-//所持金 [CC.EF19]Ы[END-FE]
-Money [CC.EF19]Ы[END-FE]
+//所持金 [CC.EF19][Mil][END-FE]
+Money [CC.EF19][Mil][END-FE]
 
 
 
@@ -161,8 +161,8 @@ Money [CC.EF19]Ы[END-FE]
 
 //POINTER #16 @ $660 - STRING #16 @ $786
 #W32($660)
-//所持金 [CC.EF19]Ы[END-FE]
-Money [CC.EF19]Ы[END-FE]
+//所持金 [CC.EF19][Mil][END-FE]
+Money [CC.EF19][Mil][END-FE]
 
 
 
