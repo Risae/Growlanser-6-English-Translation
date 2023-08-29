@@ -1847,9 +1847,9 @@ Will you be staying?[END-FE]
 
 //POINTER #144 @ $5D60 - STRING #144 @ $800A
 #W32($5D60)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になりますか？[END-FE]
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
