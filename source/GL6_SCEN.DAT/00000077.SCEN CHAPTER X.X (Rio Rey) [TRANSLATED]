@@ -952,10 +952,10 @@ How may I help you?[END-FE]
 
 //POINTER #68 @ $30B0 - STRING #68 @ $429A
 #W32($30B0)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になりますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
