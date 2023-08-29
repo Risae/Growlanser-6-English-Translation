@@ -20,6 +20,16 @@ Directory structure:
     /tools                   tools, scripts and various other things used in the translation of the game
     /translation guide       translation guides and game manuals for the english translation
 
+## Tools
+
+- [quickBMS](http://aluigi.altervista.org/quickbms.htm)
+- [abcde](https://www.romhacking.net/utilities/1392/)
+- [armips](https://github.com/Kingcom/armips)
+- [xdelta](https://github.com/jmacd/xdelta-gpl)
+- [PCSX2](https://github.com/PCSX2/pcsx2)
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra)
+- [Ghidra Emotion Engine Processor Reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded)
+
 ## Special Thanks
 
 - Mako for helping translate a lot of the game's image files
