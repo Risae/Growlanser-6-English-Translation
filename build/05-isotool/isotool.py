@@ -192,7 +192,7 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
         # a 20MiB padding to the end of the PVD, add it here if requested
         # minus a whole LBA for the end of file Anchor
         if add_padding:
-            f.write(b"\x00" * (0x140_000 - 0x800))
+            f.write(b"\x00" * (0x140_0000 - 0x800))
 
         last_pvd_lba = f.tell() // 0x800
         
