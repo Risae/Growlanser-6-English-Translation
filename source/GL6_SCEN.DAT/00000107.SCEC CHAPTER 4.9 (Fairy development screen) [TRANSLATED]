@@ -1620,7 +1620,7 @@ AGI　　　→　　[END-FE]
 //POINTER #161 @ $1BA4 - STRING #161 @ $2B35
 #W32($1BA4)
 //現在所持金　[CC.EF19][END-FE]
-[CC.EF19]Ы[END-FE]
+[CC.EF19][Mil][END-FE]
 
 
 
@@ -1629,7 +1629,7 @@ AGI　　　→　　[END-FE]
 //POINTER #162 @ $1BA8 - STRING #162 @ $2B47
 #W32($1BA8)
 //現在所持金　[CC.EF19][END-FE]
-[CC.EF19]Ы[END-FE]
+[CC.EF19][Mil][END-FE]
 
 
 
