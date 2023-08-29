@@ -457,7 +457,7 @@ Thank you very much.[END-FE]
 //POINTER #37 @ $6DB4 - STRING #37 @ $7720
 #W32($6DB4)
 //グランゲイル側まで、[NLINE]
-//全員で[CC.EF0E]Ыだよ。[NLINE]
+//全員で[CC.EF0E][Mil]だよ。[NLINE]
 //乗っていくかい？[END-FE]
 Crossing over to Grangale will cost you [CC.EF0E] for everyone.[NLINE]
 Would you like to get aboard?[END-FE]
@@ -544,7 +544,7 @@ This is a boat headed to Cyriltia.[END-FE]
 //POINTER #46 @ $6DD8 - STRING #46 @ $7850
 #W32($6DD8)
 //シリルティア側まで、[NLINE]
-//全員で[CC.EF0E]Ыだよ。[NLINE]
+//全員で[CC.EF0E][Mil]だよ。[NLINE]
 //乗っていくかい？[END-FE]
 Crossing over to Cyriltia will cost you [CC.EF0E] for everyone.[NLINE]
 Would you like to get aboard?[END-FE]
@@ -784,10 +784,10 @@ We also deal in goods.[END-FE]
 
 //POINTER #67 @ $6E2C - STRING #67 @ $7BBA
 #W32($6E2C)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になりますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
