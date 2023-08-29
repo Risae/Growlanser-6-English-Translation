@@ -4353,10 +4353,10 @@ in stock![END-FE]
 //POINTER #317 @ $10414 - STRING #317 @ $15AC1
 #W32($10414)
 //店員\\
-//１０Ыになりますが、[NLINE]
+//１０[Mil]になりますが、[NLINE]
 //お買い上げになりますか？[END-FE]
 //Merchant\\
-That will be 10Ы.[NLINE]
+That will be 10[Mil].[NLINE]
 Do you want to buy it?[END-FE]
 
 
@@ -4423,9 +4423,9 @@ Thank you very much![END-FE]
 
 //POINTER #323 @ $1042C - STRING #323 @ $15B7D
 #W32($1042C)
-//所持金 [CC.EF19]Ы[END-FE]
+//所持金 [CC.EF19][Mil][END-FE]
 //System Message\\
-Money [CC.EF19]Ы[END-FE]
+Money [CC.EF19][Mil][END-FE]
 
 
 
@@ -4435,11 +4435,11 @@ Money [CC.EF19]Ы[END-FE]
 #W32($10430)
 //市民\\
 //いくらでも構いません。[NLINE]
-//でも、後２０Ы募金してもらえると助かります！[END-FE]
+//でも、後２０[Mil]募金してもらえると助かります！[END-FE]
 //Activist\\
 We welcome all the donations we can[NLINE]
 get. However, it would be very helpful[NLINE]
-if you could donate another 20Ы![END-FE]
+if you could donate another 20[Mil]![END-FE]
 
 
 
@@ -4448,10 +4448,10 @@ if you could donate another 20Ы![END-FE]
 //POINTER #325 @ $10434 - STRING #325 @ $15BD3
 #W32($10434)
 //市民\\
-//後１５Ыの募金で、[NLINE]
+//後１５[Mil]の募金で、[NLINE]
 //新しい樹を植えることができます！[END-FE]
 //Activist\\
-By donating another 15Ы, you can[NLINE]
+By donating another 15[Mil], you can[NLINE]
 plant a new tree![END-FE]
 
 
@@ -4461,10 +4461,10 @@ plant a new tree![END-FE]
 //POINTER #326 @ $10438 - STRING #326 @ $15C0A
 #W32($10438)
 //市民\\
-//後１０Ыの募金で、[NLINE]
+//後１０[Mil]の募金で、[NLINE]
 //新しい樹を植えることができます！[END-FE]
 //Activist\\
-By donating another 10Ы, you can[NLINE]
+By donating another 10[Mil], you can[NLINE]
 plant a new tree![END-FE]
 
 
@@ -4474,10 +4474,10 @@ plant a new tree![END-FE]
 //POINTER #327 @ $1043C - STRING #327 @ $15C41
 #W32($1043C)
 //市民\\
-//後５Ыの募金で、[NLINE]
+//後５[Mil]の募金で、[NLINE]
 //新しい樹を植えることができます！[END-FE]
 //Activist\\
-By donating another 5Ы, you[NLINE]
+By donating another 5[Mil], you[NLINE]
 can plant a new tree![END-FE]
 
 
@@ -4515,8 +4515,8 @@ Please donate![END-FE]
 
 //POINTER #331 @ $1044C - STRING #331 @ $15CA9
 #W32($1044C)
-//・５Ы[END-FE]
-・5Ы[END-FE]
+//・５[Mil][END-FE]
+・5[Mil][END-FE]
 
 
 
@@ -4524,8 +4524,8 @@ Please donate![END-FE]
 
 //POINTER #332 @ $10450 - STRING #332 @ $15CB2
 #W32($10450)
-//・１０Ы[END-FE]
-・10Ы[END-FE]
+//・１０[Mil][END-FE]
+・10[Mil][END-FE]
 
 
 
@@ -4533,8 +4533,8 @@ Please donate![END-FE]
 
 //POINTER #333 @ $10454 - STRING #333 @ $15CBD
 #W32($10454)
-//・１５Ы[END-FE]
-・15Ы[END-FE]
+//・１５[Mil][END-FE]
+・15[Mil][END-FE]
 
 
 
@@ -4542,8 +4542,8 @@ Please donate![END-FE]
 
 //POINTER #334 @ $10458 - STRING #334 @ $15CC8
 #W32($10458)
-//・２０Ы[END-FE]
-・20Ы[END-FE]
+//・２０[Mil][END-FE]
+・20[Mil][END-FE]
 
 
 
@@ -8953,11 +8953,11 @@ give it to me![END-FE]
 //POINTER #701 @ $10A14 - STRING #701 @ $19467
 #W32($10A14)
 //わかった。[NLINE]
-//その鎮痛薬を５Ы出して、[NLINE]
+//その鎮痛薬を５[Mil]出して、[NLINE]
 //君から買おう。[NLINE]
 //それでどうだい？[END-FE]
 //Injured Man\\
-Alright. I'll pay you 5Ы for the[NLINE]
+Alright. I'll pay you 5[Mil] for the[NLINE]
 pain medicine. What do you say?[END-FE]
 
 
@@ -9116,14 +9116,14 @@ Oh? What's the matter?[END-FE]
 
 //POINTER #713 @ $10A44 - STRING #713 @ $19737
 #W32($10A44)
-//え、鎮痛薬は１０Ыだったのかい？[NLINE]
+//え、鎮痛薬は１０[Mil]だったのかい？[NLINE]
 //そうか、わざわざありがとう。[NWIN]
 //
 //じゃあ、それはお礼として君にあげるよ。[NLINE]
 //本当に助かったからね。[NLINE]
 //遠慮なくもらってくれ。[END-FE]
 //Injured Man\\
-Hm, so the medicine cost only 10Ы?[NLINE]
+Hm, so the medicine cost only 10[Mil]?[NLINE]
 I see, thank you for your honesty.[NWIN]
 
 
