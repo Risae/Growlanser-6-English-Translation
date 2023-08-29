@@ -2568,10 +2568,10 @@ Welcome.[END-FE]
 
 //POINTER #195 @ $602C - STRING #195 @ $9007
 #W32($602C)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //休憩所をお使いになられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
@@ -2706,10 +2706,10 @@ before we go to bed?[END-FE]
 
 //POINTER #207 @ $605C - STRING #207 @ $9204
 #W32($605C)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
