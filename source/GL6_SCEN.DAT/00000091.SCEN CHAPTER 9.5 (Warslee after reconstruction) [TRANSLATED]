@@ -1019,10 +1019,10 @@ Welcome[END-FE]
 
 //POINTER #79 @ $39DC - STRING #79 @ $4CA7
 #W32($39DC)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
