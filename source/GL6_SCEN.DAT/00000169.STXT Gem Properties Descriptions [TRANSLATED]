@@ -995,10 +995,10 @@ magic by 25%.[NLINE]
 
 //POINTER #75 @ $1CC - STRING #75 @ $28F1
 #W32($1CC)
-//倒した敵から得られるお金、Ы(ミル)が５％増加。[NLINE]
-//最低でも１Ы多く得られる。Lv上昇でさらに増加。[NLINE]
+//倒した敵から得られるお金、[Mil](ミル)が５％増加。[NLINE]
+//最低でも１[Mil]多く得られる。Lv上昇でさらに増加。[NLINE]
 //　　　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](増加率UP)[END-FF]
-Gain 5% more Ы (mil) from[NLINE]
+Gain 5% more [Mil] (mil) from[NLINE]
 defeated enemies.[NLINE]
 [COL09]Stack＋9[COL03]●[COL09] (Mil Received Up)[END-FF]
 
