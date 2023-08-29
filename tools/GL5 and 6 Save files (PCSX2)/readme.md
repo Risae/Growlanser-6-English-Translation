@@ -1,0 +1,1 @@
+This folder contains memory cards of Growlanser 5 and 6 for PCSX2. Both contain endgame saves, which can be used for debugging.
