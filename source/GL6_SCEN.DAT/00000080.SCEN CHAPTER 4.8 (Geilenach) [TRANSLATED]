@@ -2767,10 +2767,10 @@ How may I help you?[END-FE]
 
 //POINTER #191 @ $4E9C - STRING #191 @ $8258
 #W32($4E9C)
-//[CC.EF0E]Ыになりますが、[NLINE]
+//[CC.EF0E][Mil]になりますが、[NLINE]
 //ご利用になられますか？[END-FE]
 //Inn Clerk\\
-That will be [CC.EF0E]Ы.[NLINE]
+That will be [CC.EF0E][Mil].[NLINE]
 Would you like to stay?[END-FE]
 
 
