@@ -56,8 +56,8 @@ cd /d "%GITHUBPATH%\build\01-armips\"
 armips.exe SLPM_667.16_translation.asm
 armips.exe SLPM_667.16_VWF.asm
 
-:: Copy the compiled ELF to the main folder
-copy /y "%GITHUBPATH%\build\01-armips\SLPM_667.16" "%GITHUBPATH%\build\SLPM_667.16"
+:: Move patched ELF
+copy /y "%GITHUBPATH%\build\01-armips\SLPM_667.16" "%GITHUBPATH%\build\07-translates_files\SLPM_667.16"
 
 
 :::: 03. Patch GL6_FACE.DAT
@@ -92,8 +92,8 @@ quickbms -w -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149
 :: Start quickBMS GL6_FACE.DAT reimport 2 script
 quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_FACE.DAT" "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
 
-:: Move compiled FACE.DAT to main folder
-copy /y "%GITHUBPATH%\build\06-build\GL6_FACE.DAT" "%GITHUBPATH%\build\GL6_FACE.DAT"
+:: Move patched FACE.DAT
+copy /y "%GITHUBPATH%\build\06-build\GL6_FACE.DAT" "%GITHUBPATH%\build\07-translates_files\GL6_FACE.DAT"
 
 
 :::: 04. Patch GL6_FILE.DAT
@@ -173,8 +173,8 @@ copy /y "%GITHUBPATH%\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "%GITHUBP
 :: Start quickBMS GL6_FILE.DAT reimport 2 script
 quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_FILE.DAT" "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
 
-:: Move compiled FILE.DAT to main folder
-copy /y "%GITHUBPATH%\build\06-build\GL6_FILE.DAT" "%GITHUBPATH%\build\GL6_FILE.DAT"
+:: Move patched FILE.DAT
+copy /y "%GITHUBPATH%\build\06-build\GL6_FILE.DAT" "%GITHUBPATH%\build\07-translates_files\GL6_FILE.DAT"
 
 
 :::: 05. Patch SCEN.DAT
@@ -385,8 +385,8 @@ copy /y "%GITHUBPATH%\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "%GITHUBP
 :: Start the SCEN.DAT script
 quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
 
-:: Move patched SCEN.DAT to the main folder
-copy /y "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\GL6_SCEN.DAT"
+:: Move patched SCEN.DAT
+copy /y "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\07-translates_files\GL6_SCEN.DAT"
 
 
 :::: 06. Cleanup after all the files have been patches
