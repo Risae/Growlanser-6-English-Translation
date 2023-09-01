@@ -175,7 +175,7 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
                 logging.error(f"File '{inode.path}' not found!")
                 return
 
-            logging.error(f"Inserting {str(inode.path)}...")
+            logging.info(f"Inserting {str(inode.path)}...")
 
             with open(fp, "rb") as g:
                 while data := g.read(0x80000):
