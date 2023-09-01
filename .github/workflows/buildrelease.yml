@@ -34,7 +34,6 @@ jobs:
           GL6: ${{ secrets.GL6 }}
         run: |
           echo "Change to the build folder"; cd "$Env:GITHUB_WORKSPACE\build"
-          echo "create the folder '07-translates_files'"; mkdir "$Env:GITHUB_WORKSPACE\build\07-translates_files"
           # Download files
           echo "DUMMY to 07"; Invoke-WebRequest -Uri "$Env:DUMMY" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT"
           echo "BTL to 07"; Invoke-WebRequest -Uri "$Env:BTL" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_BTL.DAT"
