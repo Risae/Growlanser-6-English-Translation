@@ -117,7 +117,7 @@ FFFFFFFFFFFFFF= FF FF FF FF FF [FFFF]\n\n
 !42050018=<\n[42050018-Portrait Textbox ??? ]>,<@NPCID>:1,<@IMAGEID>:1,<@FACEID>:1,<@TEXTBOXID>:1,<@SCENNAMEID>:1,<@LINEID>:1
 !42060018=<\n[42060018-Portrait Textbox ??? ]>,<@NPCID>:1,<@IMAGEID>:1,<@FACEID>:1,<@TEXTBOXID>:1,<@SCENNAMEID>:1,<@LINEID>:1
 
-!42000020=<\n[42000020-World Textbox 2 ???  ]>,<@UNK01>:1,<@UNK02>:1,<@SCENNAMEID>:1,<@LINEID>:1
+!42000020=<\n[42000020-World Textbox 2      ]>,<@UNK01>:1,<@UNK02>:1,<@SCENNAMEID>:1,<@LINEID>:1
 !42010020=<\n[42010020-World Textbox 2 ???  ]>,<@UNK01>:1,<@UNK02>:1,<@SCENNAMEID>:1,<@LINEID>:1
 !42020020=<\n[42020020-World Textbox 2 ???  ]>,<@UNK01>:1,<@UNK02>:1,<@SCENNAMEID>:1,<@LINEID>:1
 !42030020=<\n[42030020-World Textbox 2 ???  ]>,<@UNK01>:1,<@UNK02>:1,<@SCENNAMEID>:1,<@LINEID>:1
@@ -129,6 +129,39 @@ FFFFFFFFFFFFFF= FF FF FF FF FF [FFFF]\n\n
 
 !430009C8=<\n[430009C8-???                  ]>,<@NPCID>:1,<@TEXTBOXID>:1,<@SCENNAMEID>:1,<@LINEID>:1
 
+
+!410100C4=<\n[410100C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410101C4=<\n[410101C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410102C4=<\n[410102C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410103C4=<\n[410103C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410104C4=<\n[410104C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410105C4=<\n[410105C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410106C4=<\n[410106C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410107C4=<\n[410107C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410108C4=<\n[410108C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410109C4=<\n[410109C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41010AC4=<\n[41010AC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41010BC4=<\n[41010BC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41010CC4=<\n[41010CC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41010DC4=<\n[41010DC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41010EC4=<\n[41010EC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41010FC4=<\n[41010FC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410110C4=<\n[410110C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410111C4=<\n[410111C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410112C4=<\n[410112C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410113C4=<\n[410113C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410114C4=<\n[410114C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410115C4=<\n[410115C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410116C4=<\n[410116C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410117C4=<\n[410117C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410118C4=<\n[410118C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!410119C4=<\n[410119C4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41011AC4=<\n[41011AC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41011BC4=<\n[41011BC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41011CC4=<\n[41011CC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41011DC4=<\n[41011DC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41011EC4=<\n[41011EC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
+!41011FC4=<\n[41011FC4-Center Red Text Box  ]>,<@UNK06>:1,<@LINEID>:1
 
 
 
@@ -1211,8 +1244,9 @@ FFFFFFFFFFFFFF= FF FF FF FF FF [FFFF]\n\n
 #@UNK05
 #497F=[497F-UNK01]
 
-#@UNK06
-#4E01=[4E01-UNK01]
+@UNK06
+4E00=[4E00-UNK06]
+4E01=[4E01-UNK06]
 
 
 
@@ -1480,7 +1514,7 @@ FEFF=[FEFF-CHAR:                   ????]
 70=[70-IMAGE:             Iristelessa??]
 71=[71-IMAGE:                       ???]
 72=[72-IMAGE:    Shrine Maiden (Normal)]
-73=[73-IMAGE: Shrine Maiden (?Frontal?)]
+73=[73-IMAGE:  Shrine Maiden (Centered)]
 74=[74-IMAGE:             Iristelessa??]
 75=[75-IMAGE:                       ???]
 76=[76-IMAGE:                  Hofman??]
