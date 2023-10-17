@@ -28,7 +28,7 @@
 #W32($4A4)
 //[COL05]う…うん…好きだよ…[COL00][END-FE]
 //Wendy\\
-[COL05]う…うん…好きだよ…[END-FE]
+[COL05]Umm... yeah... I like you...[END-FE]
 
 
 
@@ -37,7 +37,7 @@
 //POINTER #2 @ $4A8 - STRING #2 @ $530
 #W32($4A8)
 //[COL04]頼れるチームメイト…かな？[COL00][END-FE]
-[COL04]頼れるチームメイト…かな？[END-FE]
+[COL04]A reliable teammate...?[END-FE]
 
 
 
@@ -46,7 +46,7 @@
 //POINTER #3 @ $4AC - STRING #3 @ $553
 #W32($4AC)
 //[COL07]彼はチームメイトだよ[END-FE]
-[COL07]彼はチームメイトだよ[END-FE]
+[COL07]He's my teammate[END-FE]
 
 
 
@@ -55,7 +55,7 @@
 //POINTER #4 @ $4B0 - STRING #4 @ $56D
 #W32($4B0)
 //[COL09]何考えてるかわからないよね[COL00][END-FE]
-[COL09]何考えてるかわからないよね[COL00][END-FE]
+[COL09]I don't know what you're thinking[COL00][END-FE]
 
 
 
@@ -65,7 +65,7 @@
 #W32($4B4)
 //[COL05]素直に…尊敬しているぜ[COL00][END-FE]
 //Rukias\\
-[COL05]素直に…尊敬しているぜ[END-FE]
+[COL05]I honestly... respect you, man[END-FE]
 
 
 
@@ -74,7 +74,7 @@
 //POINTER #6 @ $4B8 - STRING #6 @ $5AF
 #W32($4B8)
 //[COL04]なかなか超えられない壁だな[COL00][END-FE]
-[COL04]なかなか超えられない壁だな[END-FE]
+[COL04]That's a wall that's hard to cross[END-FE]
 
 
 
@@ -83,7 +83,7 @@
 //POINTER #7 @ $4BC - STRING #7 @ $5D2
 #W32($4BC)
 //[COL07]まぁ、すぐに超えてやるよ[END-FE]
-[COL07]まぁ、すぐに超えてやるよ[END-FE]
+[COL07]Well, I'll be over it in a minute[END-FE]
 
 
 
@@ -92,7 +92,7 @@
 //POINTER #8 @ $4C0 - STRING #8 @ $5F0
 #W32($4C0)
 //[COL09]眼中にないね[COL00][END-FE]
-[COL09]眼中にないね[COL00][END-FE]
+[COL09]I'm not interested[COL00][END-FE]
 
 
 
@@ -102,7 +102,7 @@
 #W32($4C4)
 //[COL05]彼が私の上官だったら…[COL00][END-FE]
 //Hofman\\
-[COL05]彼が私の上官だったら…[COL00][END-FE]
+[COL05]If he were my superior officer...[COL00][END-FE]
 
 
 
@@ -139,7 +139,7 @@
 #W32($4D4)
 //[COL05]…特別な人です…[COL00][END-FE]
 //Iristelessa\\
-[COL05]…特別な人です…[COL00][END-FE]
+[COL05]...is someone very special...[COL00][END-FE]
 
 
 
@@ -148,7 +148,7 @@
 //POINTER #14 @ $4D8 - STRING #14 @ $689
 #W32($4D8)
 //[COL04]さすがは守護勇士ですね[COL00][END-FE]
-[COL04]さすがは守護勇士ですね[COL00][END-FE]
+[COL04]You are indeed the Brave One[COL00][END-FE]
 
 
 
@@ -194,7 +194,7 @@
 //POINTER #19 @ $4EC - STRING #19 @ $721
 #W32($4EC)
 //[COL07]私の恩人です[END-FE]
-[COL07]私の恩人です[END-FE]
+[COL07]He is my savior[END-FE]
 
 
 
@@ -203,7 +203,7 @@
 //POINTER #20 @ $4F0 - STRING #20 @ $733
 #W32($4F0)
 //[COL09]彼は変わってしまった…[COL00][END-FE]
-[COL09]彼は変わってしまった…[COL00][END-FE]
+[COL09]He has changed...[COL00][END-FE]
 
 
 
@@ -213,7 +213,7 @@
 #W32($4F4)
 //[COL05]俺の認める数少ない男だ[COL00][END-FE]
 //Haschen\\
-[COL05]俺の認める数少ない男だ[COL00][END-FE]
+[COL05]He's one of the few guys I approve of[COL00][END-FE]
 
 
 
