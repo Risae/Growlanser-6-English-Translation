@@ -1,3 +1,13 @@
+The game uses [`Bytecode`](https://en.wikipedia.org/wiki/Bytecode) to script the ingame events, such as npc conversations. Here is a simple example of a reverse-engineered bytecode:
+
+```
+[42000018-Portrait Textbox ??? ][4000-CHAR: Yurii][FA-IMAGE: Yurii??][53-FACE: ???][82-TEXTBOX: Bottom (Pointer up)][00-NAME: STXT][SCRIPTLINE-0022+X]<$49><$7F><$52><$80> [FFFF]
+```
+
+We are currently trying to reverse-engineer the bytecode using abcde's multi-table-files feature, but its very slow and clunky.
+
+<details> <summary><i>Old Information</i></summary>
+
 Currently known possible combinations, a complete list can be found in the table file.
 
 ### Portrait Textbox ###
@@ -45,3 +55,5 @@ The currently executing opcode address is always in a0 from 0x23D4F4
 You can go to any place, make a savestate
 Talk to somebody, go to the address in a0 that just got breakpoint'd
 Load the savestate and do your changes before talking to the npc again
+
+</details>

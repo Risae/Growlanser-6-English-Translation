@@ -1,5 +1,7 @@
 quickBMS is a tool which allows us to dump and rebuild the game's archive files (for example *.DAT). Think of it like WinZip.
 
+<details> <summary><i>original quickBMS script</i></summary>
+
 In the beginning of the Translation we used the following quickBMS Script:
 
 ```
@@ -20,6 +22,8 @@ for i = 0 < FILES
     log "" OFFSET SIZE
 next i
 ```
+
+</details>
 
 <details> <summary><i>quickbms reimport1 - MOV.bat</i></summary>
 
