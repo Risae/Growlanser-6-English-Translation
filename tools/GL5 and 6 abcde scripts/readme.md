@@ -9,19 +9,19 @@ Only the values for `#POINTER TABLE START:`, `#POINTER TABLE STOP:` and `#BASE P
 ```
 #GAME NAME:		Growlanser 6
 
-#BLOCK NAME:			Dialogue Block (POINTER_RELATIVE)
-#TYPE:					NORMAL
-#METHOD:				POINTER_RELATIVE
-#POINTER ENDIAN:		LITTLE
-#POINTER TABLE START:	$XXXX <<<<<
-#POINTER TABLE STOP:	$XXXX <<<<<
-#POINTER SIZE:			$04
-#POINTER SPACE:			$00
-#ATLAS PTRS:			Yes
-#BASE POINTER:			$XXXX <<<<<
-#TABLE:					abcde.tbl
-#COMMENTS:				Both
-#SHOW END ADDRESS:		No
+#BLOCK NAME:            Dialogue Block (POINTER_RELATIVE)
+#TYPE:                  NORMAL
+#METHOD:                POINTER_RELATIVE
+#POINTER ENDIAN:        LITTLE
+#POINTER TABLE START:   $XXXX <---
+#POINTER TABLE STOP:    $XXXX <---
+#POINTER SIZE:          $04
+#POINTER SPACE:         $00
+#ATLAS PTRS:            Yes
+#BASE POINTER:          $XXXX <---
+#TABLE:                 abcde.tbl
+#COMMENTS:              Both
+#SHOW END ADDRESS:      No
 #END BLOCK
 ```
 
