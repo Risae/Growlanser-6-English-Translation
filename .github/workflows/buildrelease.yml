@@ -66,5 +66,5 @@ jobs:
       - name: 06. Publish patch
         uses: actions/upload-artifact@v3
         with:
-          name: BuildBot-Growlanser_6_English_xDelta_Patch-${{ env.date }}
+          name: BuildBot-Growlanser_6_English_xDelta_Patch
           path: ${{ github.workspace }}\build\08-xDeltaPatch
