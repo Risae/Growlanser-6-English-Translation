@@ -29,9 +29,10 @@
 //勇者様は、自分の性格が[NLINE]
 //知りたいのですか？[NLINE]
 //そうですね…。[END-FE]
-勇者様は、自分の性格が[NLINE]
-知りたいのですか？[NLINE]
-そうですね…。[END-FE]
+//Yurii\\
+Do you want to know about[NLINE]
+your personality, Brave One?[NLINE]
+Lets see...[END-FE]
 
 
 
@@ -40,7 +41,7 @@
 //POINTER #2 @ $C28 - STRING #2 @ $EC0
 #W32($C28)
 //性格設定デバッグする？[END-FE]
-性格設定デバッグする？[END-FE]
+Debugging personality settings?[END-FE]
 
 
 
@@ -49,7 +50,7 @@
 //POINTER #3 @ $C2C - STRING #3 @ $ED9
 #W32($C2C)
 //モラルは？[END-FE]
-モラルは？[END-FE]
+What about morals?[END-FE]
 
 
 
@@ -58,7 +59,7 @@
 //POINTER #4 @ $C30 - STRING #4 @ $EE6
 #W32($C30)
 //・善人[END-FE]
-・善人[END-FE]
+・Good person[END-FE]
 
 
 
@@ -67,7 +68,7 @@
 //POINTER #5 @ $C34 - STRING #5 @ $EEF
 #W32($C34)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -76,7 +77,7 @@
 //POINTER #6 @ $C38 - STRING #6 @ $EF8
 #W32($C38)
 //・悪人[END-FE]
-・悪人[END-FE]
+・Bad person[END-FE]
 
 
 
@@ -85,7 +86,7 @@
 //POINTER #7 @ $C3C - STRING #7 @ $F01
 #W32($C3C)
 //自信は？[END-FE]
-自信は？[END-FE]
+Confidence?[END-FE]
 
 
 
@@ -94,7 +95,7 @@
 //POINTER #8 @ $C40 - STRING #8 @ $F0C
 #W32($C40)
 //・強気[END-FE]
-・強気[END-FE]
+・Strong[END-FE]
 
 
 
@@ -103,7 +104,7 @@
 //POINTER #9 @ $C44 - STRING #9 @ $F15
 #W32($C44)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -139,7 +140,7 @@
 //POINTER #13 @ $C54 - STRING #13 @ $F3B
 #W32($C54)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -175,7 +176,7 @@
 //POINTER #17 @ $C64 - STRING #17 @ $F65
 #W32($C64)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -211,7 +212,7 @@
 //POINTER #21 @ $C74 - STRING #21 @ $F8F
 #W32($C74)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -247,7 +248,7 @@
 //POINTER #25 @ $C84 - STRING #25 @ $FBB
 #W32($C84)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -283,7 +284,7 @@
 //POINTER #29 @ $C94 - STRING #29 @ $FE5
 #W32($C94)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -319,7 +320,7 @@
 //POINTER #33 @ $CA4 - STRING #33 @ $1011
 #W32($CA4)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
@@ -355,7 +356,7 @@
 //POINTER #37 @ $CB4 - STRING #37 @ $103D
 #W32($CB4)
 //・普通[END-FE]
-・普通[END-FE]
+・Normal[END-FE]
 
 
 
