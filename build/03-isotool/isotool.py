@@ -20,26 +20,11 @@ class FileListInfo():
     total_inodes: int
 
 
-def main():
-    logging.info("pyPS2 ISO Rebuilder")
-    logging.info("Original by Raynê Games")
-
-    args = get_arguments()
-
-    if args.mode == "extract":
-        logging.info("Dumping mode is not (re)implemented yet!")
-        # dump_iso(args.iso, args.filelist, args.files, args.output)
-    else:
-        rebuild_iso(args.iso, args.filelist, args.files, args.output, args.with_padding)
-        logging.info("rebuild finished")
-
-
 def get_arguments(argv=None):
     # Init argument parser
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
-        "-m",
         "--mode",
         choices=["extract", "insert"],
         required=True,
@@ -63,12 +48,12 @@ def get_arguments(argv=None):
     )
 
     parser.add_argument(
-        "-o",
         "--output",
         required=False,
         type=Path,
         metavar="output_iso",
         help="resulting iso file name",
+        default=None
     )
 
     parser.add_argument(
@@ -77,6 +62,7 @@ def get_arguments(argv=None):
         type=Path,
         metavar="filelist_path",
         help="filelist.txt file path",
+        default=None
     )
 
     parser.add_argument(
@@ -85,20 +71,16 @@ def get_arguments(argv=None):
         type=Path,
         metavar="files_folder",
         help="path to folder with extracted iso files",
+        default=None
     )
 
     args = parser.parse_args()
-    curr_dir = Path("./").resolve()
+    curr_dir = Path.cwd()
 
     args.iso = args.iso.resolve()
-    if hasattr(args, "filelist") and not args.filelist:
-        args.filelist = curr_dir / f"{args.iso.name.upper()}-FILELIST-LSN.TXT"
-
-    if hasattr(args, "files") and not args.files:
-        args.files = curr_dir /  f"@{args.iso.name.upper()}"
-    
-    if hasattr(args, "output") and not args.output:
-        args.output = curr_dir / f"NEW_{args.iso.name}"
+    args.output = args.output or curr_dir / f"NEW_{args.iso.name}"
+    args.filelist = args.filelist or curr_dir / f"{args.iso.name.upper()}-FILELIST-LSN.TXT"
+    args.files = args.files or curr_dir / f"@{args.iso.name.upper()}"
 
     return args
 
@@ -130,12 +112,12 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
         logging.error(f"'{iso_files.name}' is not a directory!")
         return
 
-    with open(filelist, "r") as f:
-        lines = f.readlines()
+    with open(filelist, "r") as file:
+        lines = file.readlines()
 
     inode_data: list[FileListData] = []
     for line in lines[:-1]:
-        l = [x for x in line.split("|")if x]
+        l = [x for x in line.split("|") if x]
         p = Path(l[1])
         inode_data.append(FileListData(Path(*p.parts[1:]), int(l[0])))
 
@@ -145,8 +127,8 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
 
     iso_info = FileListInfo(inode_data, int(lines[-1][2:]))
 
-    with open(iso, "rb") as f:
-        header = f.read(0xF60000)
+    with open(iso, "rb") as file:
+        header = file.read(0xF60000)
         i = 0
         data_start = -1
         for lba in range(7862):
@@ -158,19 +140,19 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
                 data_start = (lba + 1) * 0x800
                 break
         else:
-            logging.error("ERROR: Couldn't get all the UDF file chunk, original tool would've looped here.")
+            logging.error("Couldn't get all the UDF file chunk, original tool would've looped here.")
             logging.error("Closing instead...")
             return
 
-        f.seek(-0x800, 2)
-        footer = f.read(0x800)
+        file.seek(-0x800, 2)
+        footer = file.read(0x800)
 
-    with open(output, "wb+") as f:
-        f.write(header[:data_start])
+    with open(output, "wb+") as file:
+        file.write(header[:data_start])
 
         for inode in inode_data:
             fp = iso_files / inode.path
-            start_pos = f.tell()
+            start_pos = file.tell()
             if not fp.exists():
                 logging.error(f"File '{inode.path}' not found!")
                 return
@@ -179,46 +161,60 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
 
             with open(fp, "rb") as g:
                 while data := g.read(0x80000):
-                    f.write(data)
+                    file.write(data)
 
-            end_pos = f.tell()
+            end_pos = file.tell()
 
             # Align to next LBA
             al_end = (end_pos + 0x7FF) & ~(0x7FF)
-            f.write(b"\x00" * (al_end - end_pos))
+            file.write(b"\x00" * (al_end - end_pos))
 
-            end_save = f.tell()
+            end_save = file.tell()
 
             new_lba = start_pos // 0x800
             new_size = end_pos - start_pos
-            f.seek(inode.inode + 2)
+            file.seek(inode.inode + 2)
 
-            f.write(struct.pack("<I", new_lba))
-            f.write(struct.pack(">I", new_lba))
-            f.write(struct.pack("<I", new_size))
-            f.write(struct.pack(">I", new_size))
+            file.write(struct.pack("<I", new_lba))
+            file.write(struct.pack(">I", new_lba))
+            file.write(struct.pack("<I", new_size))
+            file.write(struct.pack(">I", new_size))
 
-            f.seek(end_save)
+            file.seek(end_save)
 
         # Align to 0x8000
-        end_pos = f.tell()
+        end_pos = file.tell()
         al_end = (end_pos + 0x7FFF) & ~(0x7FFF)
-        f.write(b"\x00" * (al_end - end_pos))
+        file.write(b"\x00" * (al_end - end_pos))
 
         # Sony's cdvdgen tool starting with v2.00 by default adds
         # a 20MiB padding to the end of the PVD, add it here if requested
         # minus a whole LBA for the end of file Anchor
         if add_padding:
-            f.write(b"\x00" * (0x140_0000 - 0x800))
+            file.write(b"\x00" * (0x140_0000 - 0x800))
 
-        last_pvd_lba = f.tell() // 0x800
+        last_pvd_lba = file.tell() // 0x800
 
-        f.write(footer)
-        f.seek(0x8050)
-        f.write(struct.pack("<I", last_pvd_lba))
-        f.write(struct.pack(">I", last_pvd_lba))
-        f.seek(-0x7F4, 2)
-        f.write(struct.pack("<I", last_pvd_lba))
+        file.write(footer)
+        file.seek(0x8050)
+        file.write(struct.pack("<I", last_pvd_lba))
+        file.write(struct.pack(">I", last_pvd_lba))
+        file.seek(-0x7F4, 2)
+        file.write(struct.pack("<I", last_pvd_lba))
+
+
+def main():
+    logging.info("pyPS2 ISO Rebuilder")
+    logging.info("Original by Raynê Games")
+
+    args = get_arguments()
+
+    if args.mode == "extract":
+        logging.info("Dumping mode is not (re)implemented yet!")
+        # dump_iso(args.iso, args.filelist, args.files, args.output)
+    else:
+        rebuild_iso(args.iso, args.filelist, args.files, args.output, args.with_padding)
+        logging.info("rebuild finished")
 
 
 if __name__ == "__main__":
