@@ -424,12 +424,12 @@ jobs:
         shell: pwsh
         run: |
           echo "Create xDelta Patch"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
 
           echo "remove vcdiff\file"
-          rm "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\file"
+          rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
       - name: 06. Publish patch
         uses: actions/upload-artifact@v3
         with:
           name: BuildBot-Growlanser_6_English_xDelta_Patch
-          path: ${{ github.workspace }}\build\08-xDeltaPatch
+          path: ${{ github.workspace }}\build\07-xDeltaPatch
