@@ -60,3 +60,17 @@ pause
 ```
 
 </details>
+
+<details> <summary><i>GL6_FACE.DAT .FACE .VISUAL tim2 bulk export.bat</i></summary>
+
+A reimport example for the SCEN files.
+
+```
+cd /d "<quickbmspath>"
+quickbms -w -d -F "*.FACE" growlanser.bms "<.FACE files>" "<export folder>"
+quickbms -w -d -F "*.VISUAL" growlanser.bms "<.VISUAL files>" "<export folder>"
+
+pause
+```
+
+</details>
