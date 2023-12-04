@@ -1,6 +1,6 @@
-import struct
 import argparse
 import logging
+import struct
 from pathlib import Path
 from dataclasses import dataclass
 
