@@ -75,27 +75,10 @@ jobs:
 
           echo "GL6 to 06"
           Invoke-WebRequest -Uri "$Env:GL6" -OutFile "$Env:GITHUB_WORKSPACE\build\04-original_files\Growlanser 6 Precarious World.iso"
-      - name: 03. Setup the build enviromnent
-        shell: pwsh
-        run: |
-          ## 01. Setup the build enviromnent
 
           echo "Create the 05-Build directory"
           mkdir "$Env:GITHUB_WORKSPACE\build\05-build"
-
-          echo "Create the 04-Original files folders for the .DAT files"
-          mkdir "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT"
-          mkdir "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE DAT"
-          mkdir "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN DAT"
-
-          echo "Start quickBMS to dump the .DAT files contents to the original files folder"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE DAT"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN DAT"
-
-          echo "Unpack the *.FACE files"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -d -F "*.FACE" "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT"
-      - name: 04. Patch SLPM_667.16
+      - name: 03. Patch SLPM_667.16
         shell: pwsh
         run: |
           echo "Copy the repository files + ELF to the armips folder"
@@ -111,10 +94,19 @@ jobs:
 
           echo "Move patched ELF"
           cp "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" "$Env:GITHUB_WORKSPACE\build\06-translates_files\SLPM_667.16"
-      - name: 05. Patch GL6_FACE.DAT
+      - name: 04. Patch GL6_FACE.DAT
         shell: pwsh
         run: |
-          echo "delete old FACE.DAT and Copy FACE.DAT from the original files folder to the build folder"
+          echo "Create the 04-Original files folders for the .DAT files"
+          mkdir "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT"
+
+          echo "Start quickBMS to dump the .DAT files contents to the original files folder"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT"
+
+          echo "Unpack the *.FACE files"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -d -F "*.FACE" "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE DAT"
+
+          echo "Copy FACE.DAT from the original files folder to the build folder"
           cp "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT"
 
           echo "Delete FACE DAT folder and all its contents, create a new folder with the same name"
@@ -137,9 +129,15 @@ jobs:
 
           echo "Move patched FACE.DAT"
           cp "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FACE.DAT"
-      - name: 06. Patch GL6_FILE.DAT
+      - name: 05. Patch GL6_FILE.DAT
         shell: pwsh
         run: |
+          echo "Create the 04-Original files folders for the .DAT files"
+          mkdir "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE DAT"
+
+          echo "Start quickBMS to dump the .DAT files contents to the original files folder"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE DAT"
+
           echo "Copy FILE.DAT from the original files folder to the build folder"
           cp "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT"
 
@@ -209,9 +207,15 @@ jobs:
 
           echo "Move patched FILE.DAT"
           cp "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FILE.DAT"
-      - name: 07. Patch SCEN.DAT
+      - name: 06. Patch SCEN.DAT
         shell: pwsh
         run: |
+          echo "Create the 04-Original files folders for the .DAT files"
+          mkdir "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN DAT"
+
+          echo "Start quickBMS to dump the .DAT files contents to the original files folder"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN DAT"
+
           echo "Copy SCEN.DAT from the original files folder to the build folder"
           cp "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\"
 
@@ -411,12 +415,12 @@ jobs:
 
           echo "Move patched SCEN.DAT"
           cp "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SCEN.DAT"
-      - name: 08. Create patched version
+      - name: 07. Create patched version
         shell: pwsh
         run: |
           echo "build"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\04-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\04-original_files\game_filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\06-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
-      - name: 09. Create xDelta patch
+      - name: 08. Create xDelta patch
         shell: pwsh
         run: |
           echo "Create xDelta Patch"
@@ -424,7 +428,7 @@ jobs:
 
           echo "remove vcdiff\file"
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
-      - name: 10. Publish patch
+      - name: 09. Publish patch
         uses: actions/upload-artifact@v3
         with:
           name: BuildBot-Growlanser_6_English_xDelta_Patch
