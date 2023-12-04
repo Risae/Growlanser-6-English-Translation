@@ -1,55 +1,56 @@
-################# Normal search: #################
+These regex patterns can be used to quickly find any issues in the script (missing characters and such).
 
-##### Find dublicates #####
+## Normal search:
 
-[NLINE][NLINE]
-[NWIN][NWIN]
-[END-FE][END-FE]
-[END-FF][END-FF]
-..
-!!
-??
-,,
-・・
-SPACESPACE
-SPACEFWSPACE
-\r\n \r\n
-\r\n  \r\n
-]\r\n\r\n//
-]\r\n\r\n\r\n//
-]\r\n\r\n\r\n\r\n//
-]\r\n\r\n\r\n\r\n\r\n//
-]\r\n\r\n\r\n\r\n\r\n\r\n\r\n//
+#### Find dublicates
 
+- `[NLINE][NLINE]`
+- `[NWIN][NWIN]`
+- `[END-FE][END-FE]`
+- `[END-FF][END-FF]`
+- `..`
+- `!!`
+- `??`
+- `,,`
+- `・・`
+- `SPACESPACE`
+- `SPACEFWSPACE`
+- `\r\n \r\n`
+- `\r\n  \r\n`
+- `]\r\n\r\n//`
+- `]\r\n\r\n\r\n//`
+- `]\r\n\r\n\r\n\r\n//`
+- `]\r\n\r\n\r\n\r\n\r\n//`
+- `]\r\n\r\n\r\n\r\n\r\n\r\n\r\n//`
 
-##### Find space before or after NLINE, NWIN, END and ?, !, ., ,, ・#####
+#### Find space before or after `NLINE`, `NWIN`, `END` and `?`, `!`, `.`, `,`, `・`
 
- [NLINE]
-　[NLINE]
-[NLINE] 
-[NLINE]　
- [NWIN]
-　[NWIN]
-[NWIN] 
-[NWIN]　
- [END-FF]
-　[END-FF]
-[END-FF] 
-[END-FF]　
- [END-FE]
-　[END-FE]
-[END-FE] 
-[END-FE]　
-? 
- ?
-! 
- !
-. 
- .
-, 
- ,
-・ 
- ・
+- ` [NLINE]`
+- `　[NLINE]`
+- `[NLINE] `
+- `[NLINE]　`
+- ` [NWIN]`
+- `　[NWIN]`
+- `[NWIN] `
+- `[NWIN]　`
+- ` [END-FF]`
+- `　[END-FF]`
+- `[END-FF] `
+- `[END-FF]　`
+- ` [END-FE]`
+- `　[END-FE]`
+- `[END-FE] `
+- `[END-FE]　`
+- `? `
+- ` ?`
+- `! `
+- ` !`
+- `. `
+- ` .`
+- `, `
+- ` ,`
+- `・ `
+- ` ・`
 
 
 ##### Find unnecessary Standard color code at the end of a string #####
