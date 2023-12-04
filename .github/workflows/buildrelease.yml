@@ -78,7 +78,7 @@ jobs:
 
           echo "Create the 05-Build directory"
           mkdir "$Env:GITHUB_WORKSPACE\build\05-build"
-      - name: 03. Patch SLPM_667.16
+      - name: 03. Patch ELF
         shell: pwsh
         run: |
           echo "Copy the repository files + ELF to the armips folder"
@@ -94,7 +94,7 @@ jobs:
 
           echo "Move patched ELF"
           cp "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" "$Env:GITHUB_WORKSPACE\build\06-translates_files\SLPM_667.16"
-      - name: 04. Patch GL6_FACE.DAT
+      - name: 04. Patch FACE.DAT
         shell: pwsh
         run: |
           echo "Create the 04-Original files folders for the .DAT files"
@@ -129,7 +129,7 @@ jobs:
 
           echo "Move patched FACE.DAT"
           cp "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FACE.DAT"
-      - name: 05. Patch GL6_FILE.DAT
+      - name: 05. Patch FILE.DAT
         shell: pwsh
         run: |
           echo "Create the 04-Original files folders for the .DAT files"
