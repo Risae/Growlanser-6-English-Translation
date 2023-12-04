@@ -128,10 +128,10 @@ jobs:
 
           echo "Create the file folder, execute the xdelta patches and save the resulting file in the created folder"
           mkdir "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000144 FACE"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
 
           mkdir "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000149 FACE"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
 
           echo "Start quickBMS XXX.FACE reimport 1 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000144.FACE" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FACE DAT\00000144 FACE"
@@ -153,14 +153,14 @@ jobs:
           mkdir "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT"
 
           echo "Execute the xdelta patches and save the resulting file in the build folder"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000046.fnt" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000046.fnt"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000602.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000602.tm2"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000604.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000604.tm2"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000606.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000606.tm2 Mission complete screen\00000606.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000606.tm2"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000608.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000608.tm2 Prologue stats screen\00000608.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000608.tm2"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000611.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000611.tm2 Yurii Main Menu\00000611.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000611.tm2"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000612.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000612.tm2"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000647.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000647.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000046.fnt" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000046.fnt"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000602.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000602.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000604.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000604.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000606.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000606.tm2 Mission complete screen\00000606.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000606.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000608.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000608.tm2 Prologue stats screen\00000608.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000608.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000611.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000611.tm2 Yurii Main Menu\00000611.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000611.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000612.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000612.tm2"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000647.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\00000647.tm2"
 
           echo "Copy and modify the FILE.DAT files that need hexadecimal changes"
           cd "$Env:GITHUB_WORKSPACE\build\06-build\GL6_FILE DAT\"
@@ -427,7 +427,7 @@ jobs:
         shell: pwsh
         run: |
           echo "Create xDelta Patch"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-xdelta\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
 
           echo "remove vcdiff\file"
           rm "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\file"
