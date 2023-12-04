@@ -79,9 +79,6 @@ jobs:
         shell: pwsh
         run: |
           ## 01. Setup the build enviromnent
-          echo "Set the Strawberry Portable path"
-          $env:PATH += ";$Env:GITHUB_WORKSPACE\build\03-strawberry_perl_portable\perl\bin"
-          $env:PATH += ";$Env:GITHUB_WORKSPACE\build\03-strawberry_perl_portable\c\bin"
 
           echo "Create the 05-Build directory"
           mkdir "$Env:GITHUB_WORKSPACE\build\06-build"
@@ -422,7 +419,7 @@ jobs:
         shell: pwsh
         run: |
           echo "build"
-          python "$Env:GITHUB_WORKSPACE\build\05-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\06-original_files\game_filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\07-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
+          python "$Env:GITHUB_WORKSPACE\build\04-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\06-original_files\game_filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\07-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
       - name: 05. Create xDelta patch
         shell: pwsh
         run: |
