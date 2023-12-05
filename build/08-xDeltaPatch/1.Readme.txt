@@ -1,0 +1,19 @@
+Windows:
+1. Copy your original files into this folder. DO NOT RENAME!!
+2. Double click the 3.Apply Patch-Windows.bat file, a CMD window will open and will start patching automatically.
+3. Once patching is complete you will find your new files in the main folder and the originals in a folder called 'old'.
+4. Enjoy.
+
+Linux:
+1. Copy your original files into this folder. DO NOT RENAME!!
+2. In terminal, type: sh "3.Apply Patch-Linux.sh". Patching should start automatically.
+3. Alternatively, if you're using a GUI, double click 3.Apply Patch-Linux.sh and a terminal window should appear.
+4. Once patching is complete, you will find your new files in the main folder and the originals in a folder called 'old'.
+5. Enjoy.
+
+Mac:
+1. Copy your original files into this folder. DO NOT RENAME!!
+2. In terminal, type: "3.Apply Patch-Mac.command". Patching should start automatically.
+3. Alternatively, if you're using a GUI, double click 3.Apply Patch-Mac.command and a terminal window should appear.
+4. Once patching is complete, you will find your new files in the main folder and the originals in a folder called 'old'.
+5. Enjoy.
