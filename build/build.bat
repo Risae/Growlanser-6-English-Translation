@@ -3,10 +3,6 @@
 :: Create a variable based on the path 1 folder above this folder
 for %%i in ("%~dp0..") do set "GITHUBPATH=%%~fi"
 
-:: Set the Strawberry Portable Path
-SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\perl\bin"
-SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\c\bin"
-
 :: Cleanup the old build files
 del "%GITHUBPATH%\build\GL6_FACE.DAT"
 del "%GITHUBPATH%\build\GL6_FILE.DAT"
@@ -387,22 +383,3 @@ quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GI
 
 :: Move patched SCEN.DAT
 copy /y "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\07-translates_files\GL6_SCEN.DAT"
-
-
-:::: 06. Cleanup after all the files have been patches
-del "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
-del "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
-del "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build"
-del "%GITHUBPATH%\build\00-abcde\abcde.tbl"
-del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16"
-del "%GITHUBPATH%\build\01-armips\abcde.tbl"
