@@ -3,20 +3,6 @@
 :: Create a variable based on the path 1 folder above this folder
 for %%i in ("%~dp0..") do set "GITHUBPATH=%%~fi"
 
-:: Set the Strawberry Portable Path
-SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\perl\bin"
-SET "PATH=%PATH%;%GITHUBPATH%\build\03-strawberry_perl_portable\c\bin"
-
-:: Cleanup the old build files
-del "%GITHUBPATH%\build\GL6_FACE.DAT"
-del "%GITHUBPATH%\build\GL6_FILE.DAT"
-del "%GITHUBPATH%\build\GL6_SCEN.DAT"
-del "%GITHUBPATH%\build\SLPM_667.16"
-rmdir /s /q "%GITHUBPATH%\build\06-build"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
-
 :: Create the "05-Build" directory
 mkdir "%GITHUBPATH%\build\06-build"
 
@@ -41,11 +27,7 @@ quickbms -w -d -F "*.FACE" growlanser.bms "%GITHUBPATH%\build\06-original_files\
 
 :::: 02. Patch SLPM_667.16
 
-:: Delete the old armips files and copy the repository files + ELF to the armips folder
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16"
-del "%GITHUBPATH%\build\01-armips\abcde.tbl"
+:: Copy the repository files + ELF to the armips folder
 copy /y "%GITHUBPATH%\source\SLPM_667.16\SLPM_667.16_translation.asm" "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
 copy /y "%GITHUBPATH%\source\SLPM_667.16\SLPM_667.16_VWF.asm" "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
 copy /y "%GITHUBPATH%\build\06-original_files\SLPM_667.16" "%GITHUBPATH%\build\01-armips\SLPM_667.16"
@@ -62,8 +44,7 @@ copy /y "%GITHUBPATH%\build\01-armips\SLPM_667.16" "%GITHUBPATH%\build\07-transl
 
 :::: 03. Patch GL6_FACE.DAT
 
-:: delete old FACE.DAT and Copy FACE.DAT from the original files folder to the build folder
-del "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
+:: Copy FACE.DAT from the original files folder to the build folder
 copy /y "%GITHUBPATH%\build\06-original_files\GL6_FACE.DAT" "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
 
 :: Delete FACE DAT folder and all its contents, create a new folder with the same name
@@ -80,10 +61,8 @@ xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FACE 
 mkdir "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE"
 xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
 
-:: Switch folder to quickbms and copy the growlanser.bms file to the folder
+:: Switch to the quickbms folder
 cd /d "%GITHUBPATH%\build\02-quickbms\"
-del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
-copy /y "%GITHUBPATH%\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
 
 :: Start quickBMS XXX.FACE reimport 1 script
 quickbms -w -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144.FACE" "%GITHUBPATH%\build\06-build\GL6_FACE DAT\00000144 FACE"
@@ -98,8 +77,7 @@ copy /y "%GITHUBPATH%\build\06-build\GL6_FACE.DAT" "%GITHUBPATH%\build\07-transl
 
 :::: 04. Patch GL6_FILE.DAT
 
-:: delete old FILE.DAT and Copy FILE.DAT from the original files folder to the build folder
-del "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
+:: Copy FILE.DAT from the original files folder to the build folder
 copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE.DAT" "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
 
 :: Delete FILE DAT folder and all its contents, create a new folder with the same name
@@ -165,10 +143,8 @@ copy /y "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT\00000806.dat" "%GITHU
 "%GITHUBPATH%\build\01-armips\armips.exe" 00000806.asm
 del "%GITHUBPATH%\build\06-build\GL6_FILE DAT\00000806.asm
 
-:: Switch folder to quickbms and copy the growlanser.bms file to the folder
+:: Switch to the quickbms folder
 cd /d "%GITHUBPATH%\build\02-quickbms\"
-del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
-copy /y "%GITHUBPATH%\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
 
 :: Start quickBMS GL6_FILE.DAT reimport 2 script
 quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_FILE.DAT" "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
@@ -179,8 +155,7 @@ copy /y "%GITHUBPATH%\build\06-build\GL6_FILE.DAT" "%GITHUBPATH%\build\07-transl
 
 :::: 05. Patch SCEN.DAT
 
-:: delete old SCEN.DAT and Copy SCEN.DAT from the original files folder to the build folder
-del "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT"
+:: Copy SCEN.DAT from the original files folder to the build folder
 copy /y "%GITHUBPATH%\build\06-original_files\GL6_SCEN.DAT" "%GITHUBPATH%\build\06-build\"
 
 :: Delete SCEN DAT folder and all its contents, create a new folder with the same name and
@@ -202,7 +177,6 @@ del "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\00000043.SCEN.asm"
 
 :: Switch current folder to the abcde folder, copy the table file and start abcde Atlas
 cd /d "%GITHUBPATH%\build\00-abcde\"
-del "%GITHUBPATH%\build\00-abcde\abcde.tbl"
 copy /y "%GITHUBPATH%\tools\GL5 and 6 abcde scripts\abcde.tbl" "%GITHUBPATH%\build\00-abcde\abcde.tbl"
 
 perl abcde.pl --mode text2bin -cm abcde::Atlas "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\00000000.SCEN" "%GITHUBPATH%\source\GL6_SCEN.DAT\00000000.SCEN Debug map menu [ONGOING]"
@@ -377,32 +351,11 @@ perl abcde.pl --mode text2bin -cm abcde::Atlas "%GITHUBPATH%\build\06-build\GL6_
 perl abcde.pl --mode text2bin -cm abcde::Atlas "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\00000169.STXT" "%GITHUBPATH%\source\GL6_SCEN.DAT\00000169.STXT Gem Properties Descriptions [TRANSLATED]"
 perl abcde.pl --mode text2bin -cm abcde::Atlas "%GITHUBPATH%\build\06-build\GL6_SCEN DAT\00000170.STXT" "%GITHUBPATH%\source\GL6_SCEN.DAT\00000170.STXT Ore Descriptions [TRANSLATED]"
 
-:: Switch folder to quickbms and copy the growlanser.bms file to the folder
+:: Switch to the quickbms folder
 cd /d "%GITHUBPATH%\build\02-quickbms\"
-del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
-copy /y "%GITHUBPATH%\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
 
 :: Start the SCEN.DAT script
 quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
 
 :: Move patched SCEN.DAT
 copy /y "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT" "%GITHUBPATH%\build\07-translates_files\GL6_SCEN.DAT"
-
-
-:::: 06. Cleanup after all the files have been patches
-del "%GITHUBPATH%\build\06-build\GL6_FACE.DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FACE DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT"
-del "%GITHUBPATH%\build\06-build\GL6_FILE.DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_FILE DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_FILE DAT"
-del "%GITHUBPATH%\build\06-build\GL6_SCEN.DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build\GL6_SCEN DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-original_files\GL6_SCEN DAT"
-rmdir /s /q "%GITHUBPATH%\build\06-build"
-del "%GITHUBPATH%\build\00-abcde\abcde.tbl"
-del "%GITHUBPATH%\build\02-quickbms\growlanser.bms"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
-del "%GITHUBPATH%\build\01-armips\SLPM_667.16"
-del "%GITHUBPATH%\build\01-armips\abcde.tbl"
