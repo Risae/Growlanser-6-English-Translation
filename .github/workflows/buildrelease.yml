@@ -35,46 +35,46 @@ jobs:
         run: |
           # Download files
           echo "DUMMY to 07"
-          Invoke-WebRequest -Uri "$Env:DUMMY" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\DUMMY.DAT"
+          Invoke-WebRequest -Uri "$Env:DUMMY" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT"
 
           echo "BTL to 07"
-          Invoke-WebRequest -Uri "$Env:BTL" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_BTL.DAT"
+          Invoke-WebRequest -Uri "$Env:BTL" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_BTL.DAT"
 
           echo "CHAR to 07"
-          Invoke-WebRequest -Uri "$Env:CHAR" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_CHAR.DAT"
+          Invoke-WebRequest -Uri "$Env:CHAR" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_CHAR.DAT"
 
           echo "FACE to 06"
-          Invoke-WebRequest -Uri "$Env:FACE" -OutFile "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FACE.DAT"
+          Invoke-WebRequest -Uri "$Env:FACE" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT"
 
           echo "FILE to 06"
-          Invoke-WebRequest -Uri "$Env:FILE" -OutFile "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_FILE.DAT"
+          Invoke-WebRequest -Uri "$Env:FILE" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT"
 
           echo "MAP to 07"
-          Invoke-WebRequest -Uri "$Env:MAP" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MAP.DAT"
+          Invoke-WebRequest -Uri "$Env:MAP" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MAP.DAT"
 
           echo "MOV to 07"
-          Invoke-WebRequest -Uri "$Env:MOV" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT"
+          Invoke-WebRequest -Uri "$Env:MOV" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MOV.DAT"
 
           echo "SCEN to 06"
-          Invoke-WebRequest -Uri "$Env:SCEN" -OutFile "$Env:GITHUB_WORKSPACE\build\04-original_files\GL6_SCEN.DAT"
+          Invoke-WebRequest -Uri "$Env:SCEN" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN.DAT"
 
           echo "SND to 07"
-          Invoke-WebRequest -Uri "$Env:SND" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SND.DAT"
+          Invoke-WebRequest -Uri "$Env:SND" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SND.DAT"
 
           echo "VOI to 07"
-          Invoke-WebRequest -Uri "$Env:VOI" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_VOI.DAT"
+          Invoke-WebRequest -Uri "$Env:VOI" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_VOI.DAT"
 
           echo "IOPRP300 to 07"
-          Invoke-WebRequest -Uri "$Env:IOPRP300" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\IOPRP300.IMG"
+          Invoke-WebRequest -Uri "$Env:IOPRP300" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\IOPRP300.IMG"
 
           echo "SLPM to 06"
-          Invoke-WebRequest -Uri "$Env:SLPM" -OutFile "$Env:GITHUB_WORKSPACE\build\04-original_files\SLPM_667.16"
+          Invoke-WebRequest -Uri "$Env:SLPM" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\SLPM_667.16"
 
           echo "SYSTEM to 07"
-          Invoke-WebRequest -Uri "$Env:SYSTEM" -OutFile "$Env:GITHUB_WORKSPACE\build\06-translates_files\SYSTEM.CNF"
+          Invoke-WebRequest -Uri "$Env:SYSTEM" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\SYSTEM.CNF"
 
           echo "GL6 to 06"
-          Invoke-WebRequest -Uri "$Env:GL6" -OutFile "$Env:GITHUB_WORKSPACE\build\04-original_files\Growlanser 6 Precarious World.iso"
+          Invoke-WebRequest -Uri "$Env:GL6" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso"
 
           echo "Create the 05-Build directory"
           mkdir "$Env:GITHUB_WORKSPACE\build\05-build"
