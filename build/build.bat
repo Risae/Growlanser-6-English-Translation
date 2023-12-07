@@ -4,23 +4,6 @@
 for %%i in ("%~dp0..") do set "GITHUBPATH=%%~fi"
 
 
-:::: 02. Patch SLPM_667.16
-
-:: Copy the repository files + ELF to the armips folder
-copy /y "%GITHUBPATH%\source\SLPM_667.16\SLPM_667.16_translation.asm" "%GITHUBPATH%\build\01-armips\SLPM_667.16_translation.asm"
-copy /y "%GITHUBPATH%\source\SLPM_667.16\SLPM_667.16_VWF.asm" "%GITHUBPATH%\build\01-armips\SLPM_667.16_VWF.asm"
-copy /y "%GITHUBPATH%\build\06-original_files\SLPM_667.16" "%GITHUBPATH%\build\01-armips\SLPM_667.16"
-copy /y "%GITHUBPATH%\tools\GL5 and 6 abcde scripts\abcde.tbl" "%GITHUBPATH%\build\01-armips\abcde.tbl"
-
-:: Switch to the armips folder and start the armips script
-cd /d "%GITHUBPATH%\build\01-armips\"
-armips.exe SLPM_667.16_translation.asm
-armips.exe SLPM_667.16_VWF.asm
-
-:: Move patched ELF
-copy /y "%GITHUBPATH%\build\01-armips\SLPM_667.16" "%GITHUBPATH%\build\07-translates_files\SLPM_667.16"
-
-
 :::: 03. Patch GL6_FACE.DAT
 
 :: Copy FACE.DAT from the original files folder to the build folder
