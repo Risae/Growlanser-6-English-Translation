@@ -19,8 +19,7 @@ jobs:
         env:
           TEST: ${{ secrets.TEST }}
         run: |
-          Read-S3Object $Env:TEST -File "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT"
-          ls "$Env:GITHUB_WORKSPACE\build\07-translates_files"
+          Get-S3Object $Env:TEST -File "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT"
       # - name: 02. Prepare files
       #   shell: powershell
       #   env:
