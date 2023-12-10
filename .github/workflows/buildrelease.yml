@@ -17,63 +17,25 @@ jobs:
       - name: 02. Prepare files
         shell: powershell
         env:
-          DUMMY: ${{ secrets.DUMMY }}
-          BTL: ${{ secrets.BTL }}
-          CHAR: ${{ secrets.CHAR }}
-          FACE: ${{ secrets.FACE }}
-          FILE: ${{ secrets.FILE }}
-          MAP: ${{ secrets.MAP }}
-          MOV: ${{ secrets.MOV }}
-          SCEN: ${{ secrets.SCEN }}
-          SND: ${{ secrets.SND }}
-          VOI: ${{ secrets.VOI }}
-          IOPRP300: ${{ secrets.IOPRP300 }}
-          SLPM: ${{ secrets.SLPM }}
-          SYSTEM: ${{ secrets.SYSTEM }}
-          GL6: ${{ secrets.GL6 }}
+          TEST: ${{ secrets.TEST }}
+          TEST2: ${{ secrets.TEST2 }}
         run: |
+          choco install megatools --yes
           # Download files
-          echo "DUMMY to 07"
-          Invoke-WebRequest -Uri "$Env:DUMMY" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT"
-
-          echo "BTL to 07"
-          Invoke-WebRequest -Uri "$Env:BTL" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_BTL.DAT"
-
-          echo "CHAR to 07"
-          Invoke-WebRequest -Uri "$Env:CHAR" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_CHAR.DAT"
-
-          echo "FACE to 06"
-          Invoke-WebRequest -Uri "$Env:FACE" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT"
-
-          echo "FILE to 06"
-          Invoke-WebRequest -Uri "$Env:FILE" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT"
-
-          echo "MAP to 07"
-          Invoke-WebRequest -Uri "$Env:MAP" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MAP.DAT"
-
-          echo "MOV to 07"
-          Invoke-WebRequest -Uri "$Env:MOV" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MOV.DAT"
-
-          echo "SCEN to 06"
-          Invoke-WebRequest -Uri "$Env:SCEN" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN.DAT"
-
-          echo "SND to 07"
-          Invoke-WebRequest -Uri "$Env:SND" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SND.DAT"
-
-          echo "VOI to 07"
-          Invoke-WebRequest -Uri "$Env:VOI" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_VOI.DAT"
-
-          echo "IOPRP300 to 07"
-          Invoke-WebRequest -Uri "$Env:IOPRP300" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\IOPRP300.IMG"
-
-          echo "SLPM to 06"
-          Invoke-WebRequest -Uri "$Env:SLPM" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\SLPM_667.16"
-
-          echo "SYSTEM to 07"
-          Invoke-WebRequest -Uri "$Env:SYSTEM" -OutFile "$Env:GITHUB_WORKSPACE\build\07-translates_files\SYSTEM.CNF"
-
-          echo "GL6 to 06"
-          Invoke-WebRequest -Uri "$Env:GL6" -OutFile "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso"
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT" --no-progress /Root/00
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_BTL.DAT" --no-progress /Root/01
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_CHAR.DAT" --no-progress /Root/02
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT" --no-progress /Root/03
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT" --no-progress /Root/04
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MAP.DAT" --no-progress /Root/05
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MOV.DAT" --no-progress /Root/06
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN.DAT" --no-progress /Root/07
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SND.DAT" --no-progress /Root/08
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_VOI.DAT" --no-progress /Root/09
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\IOPRP300.IMG" --no-progress /Root/10
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\SLPM_667.16" --no-progress /Root/11
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\SYSTEM.CNF" --no-progress /Root/12
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" --no-progress /Root/13
       - name: 03. Setup the build enviromnent
         shell: powershell
         run: |
