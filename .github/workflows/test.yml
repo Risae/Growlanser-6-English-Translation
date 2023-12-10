@@ -20,7 +20,19 @@ jobs:
           TEST: ${{ secrets.TEST }}
           TEST2: ${{ secrets.TEST2 }}
         run: |
-          choco install megatools
+          choco install megatools --yes
           # Download files
-          echo "DUMMY to 07"
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT" DUMMY.DAT
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT" --no-progress /Root/00
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_BTL.DAT" --no-progress /Root/01
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_CHAR.DAT" --no-progress /Root/02
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT" --no-progress /Root/03
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT" --no-progress /Root/04
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MAP.DAT" --no-progress /Root/05
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_MOV.DAT" --no-progress /Root/06
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN.DAT" --no-progress /Root/07
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SND.DAT" --no-progress /Root/08
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_VOI.DAT" --no-progress /Root/09
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\IOPRP300.IMG" --no-progress /Root/10
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\SLPM_667.16" --no-progress /Root/11
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\SYSTEM.CNF" --no-progress /Root/12
+          # megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" --no-progress 
