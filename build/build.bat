@@ -4,39 +4,6 @@
 for %%i in ("%~dp0..") do set "GITHUBPATH=%%~fi"
 
 
-:::: 03. Patch GL6_FACE.DAT
-
-:: Copy FACE.DAT from the original files folder to the build folder
-copy /y "%GITHUBPATH%\build\06-original_files\GL6_FACE.DAT" "%GITHUBPATH%\build\05-build\GL6_FACE.DAT"
-
-:: Delete FACE DAT folder and all its contents, create a new folder with the same name
-rmdir /s /q "%GITHUBPATH%\build\05-build\GL6_FACE DAT"
-mkdir "%GITHUBPATH%\build\05-build\GL6_FACE DAT"
-xcopy "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT" "%GITHUBPATH%\build\05-build\GL6_FACE DAT\"
-
-:: Change to the xdelta folder, create the file folder, execute the xdelta patches and save the resulting file in the created folder
-cd /d "%GITHUBPATH%\build\03-xdelta\"
-
-mkdir "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000144 FACE"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
-
-mkdir "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000149 FACE"
-xdelta-3.1.0-x86_64.exe -v -d -s "%GITHUBPATH%\build\06-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "%GITHUBPATH%\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
-
-:: Switch to the quickbms folder
-cd /d "%GITHUBPATH%\build\02-quickbms\"
-
-:: Start quickBMS XXX.FACE reimport 1 script
-quickbms -w -r growlanser.bms "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000144.FACE" "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000144 FACE"
-quickbms -w -r growlanser.bms "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000149.FACE" "%GITHUBPATH%\build\05-build\GL6_FACE DAT\00000149 FACE"
-
-:: Start quickBMS GL6_FACE.DAT reimport 2 script
-quickbms -w -r -r growlanser.bms "%GITHUBPATH%\build\05-build\GL6_FACE.DAT" "%GITHUBPATH%\build\05-build\GL6_FACE DAT"
-
-:: Move patched FACE.DAT
-copy /y "%GITHUBPATH%\build\05-build\GL6_FACE.DAT" "%GITHUBPATH%\build\07-translates_files\GL6_FACE.DAT"
-
-
 :::: 04. Patch GL6_FILE.DAT
 
 :: Copy FILE.DAT from the original files folder to the build folder
