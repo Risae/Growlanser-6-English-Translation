@@ -1,0 +1,26 @@
+name: Test
+on: workflow_dispatch
+
+jobs:
+  BuildPatch:
+    name: Test
+    runs-on: windows-2022
+    steps:
+      - name: 01. Copy repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: | # Only copy specific folders to the container
+            .github
+            build
+            source
+            tools
+      - name: 02. Prepare files
+        shell: powershell
+        env:
+          TEST: ${{ secrets.TEST }}
+          TEST2: ${{ secrets.TEST2 }}
+        run: |
+          choco install megatools
+          # Download files
+          echo "DUMMY to 07"
+          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\07-translates_files\DUMMY.DAT" DUMMY.DAT
