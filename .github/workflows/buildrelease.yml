@@ -75,13 +75,16 @@ jobs:
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe SLPM_667.16_translation.asm
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe SLPM_667.16_VWF.asm
 
+          echo "[i] Get SLPM_667.16 filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" | select length
+
           echo "[i] Move patched ELF"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\SLPM_667.16"
 
       - name: 05. Patch GL6_FACE.DAT
         shell: powershell
         run: |
-          echo "[i] Copy FACE.DAT from the original files folder to the build folder"
+          echo "[i] Copy GL6_FACE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT"
 
           echo "[i] Create the FACE DAT folder and copy all files to it"
@@ -101,13 +104,16 @@ jobs:
           echo "[i] Start quickBMS GL6_FACE.DAT reimport 2 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT"
 
-          echo "[i] Move patched FACE.DAT"
+          echo "[i] Get GL6_FACE.DAT filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" | select length
+
+          echo "[i] Move patched GL6_FACE.DAT"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_FACE.DAT"
 
       - name: 06. Patch GL6_FILE.DAT
         shell: powershell
         run: |
-          echo "[i] Copy FILE.DAT from the original files folder to the build folder"
+          echo "[i] Copy GL6_FILE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT"
 
           echo "[i] Delete FILE DAT folder and all its contents, create a new folder with the same name"
@@ -123,7 +129,7 @@ jobs:
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000612.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000612.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000647.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000647.tm2"
 
-          echo "[i] Copy and modify the FILE.DAT files that need hexadecimal changes"
+          echo "[i] Copy and modify the GL6_FILE.DAT files that need hexadecimal changes"
           cd "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\"
 
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000566.mss Spell casting screen text box coord\00000566.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
@@ -174,7 +180,10 @@ jobs:
           echo "[i] Start quickBMS GL6_FILE.DAT reimport 2 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT"
 
-          echo "[i] Move patched FILE.DAT"
+          echo "[i] Get GL6_FILE.DAT filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" | select length
+
+          echo "[i] Move patched GL6_FILE.DAT"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_FILE.DAT"
 
       - name: 07. Translate files
@@ -186,13 +195,15 @@ jobs:
           echo "[i] Create amd copy all files from the original dumped SCEN folder to the build SCEN DAT folder"
           Copy-Item -Recurse -Verbose -Path  "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN DAT*" "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "[i] Copy the "00000001.SCEN.asm" and "00000043.SCEN.asm" armips file and modify the original SCEN files"
+          echo "[i] Change directory to GL6_SCEN DAT"
           cd "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\"
 
+          echo "[i] Copy 00000001.SCEN.asm and patch 00000001.SCEN"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000001.SCEN.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000001.SCEN.asm
           del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
 
+          echo "[i] Copy 00000043.SCEN.asm and patch 00000043.SCEN"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000043.SCEN.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000043.SCEN.asm
           del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
@@ -204,8 +215,8 @@ jobs:
           echo "[i] Patch the Scripts"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000000.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000000.SCEN Debug map menu [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000001.SCEN Debug save room [ONGOING]"
-          :: perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000002.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000002.SCEN Dummy file"
-          :: perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000003.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000003.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000002.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000002.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000003.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000003.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000004.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000004.SCEN Debug map (9999) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000005.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000005.SCEN Prologue Tutorial [EDITED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000006.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000006.SCEN CHAPTER 2.3 [TRANSLATED]"
@@ -235,13 +246,13 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000030.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000030.SCEN CHAPTER 14.3 (Makinus City 2) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000031.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000031.SCEN CHAPTER 2.1 (Makinus City) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000032.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000032.SCEN CHAPTER 2.4 (Dastis City) [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000033.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000033.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000033.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000033.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000034.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000034.SCEN CHAPTER 3.1 (Schizarz) [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000035.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000035.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000035.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000035.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000036.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000036.SCEN CHAPTER 8.2 (Leystan) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000037.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000037.SCEN CHAPTER 13.1 (Leystan 2) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000038.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000038.SCEN CHAPTER 14.3 (Royferon) [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000039.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000039.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000039.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000039.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000040.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000040.SCEN CHAPTER 15.1 (El Hingis) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000041.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000041.SCEN CHAPTER 16.3 (Great Land Village) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000042.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000042.SCEN CHAPTER 6.5 (Pothrad village) [TRANSLATED]"
@@ -263,17 +274,17 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000058.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000058.SCEN CHAPTER 10.5 [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000059.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000059.SCEN (Fairy's Forest) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000060.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000060.SCEN CHAPTER 17.1 [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000061.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000061.SCEN Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000062.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000062.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000061.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000061.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000062.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000062.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000063.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000063.SCEN CHAPTER 17.2 (Juwaina Cave) [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000064.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000064.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000064.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000064.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000065.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000065.SCEN CHAPTER X.X (Goatland Cave) [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000066.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000066.SCEN Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000067.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000067.SCEN Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000068.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000068.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000066.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000066.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000067.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000067.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000068.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000068.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000069.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000069.SCEN CHAPTER 7.2 (Kaiser Island) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000070.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000070.SCEN (Something related to teleporting) [ONGOING]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000071.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000071.SCEN Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000071.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000071.SCEN Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000072.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000072.SCEN (No idea) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000073.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000073.SCEN CHAPTER 10.1 (PMB HQ) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000074.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000074.SCEN CHAPTER 4.2 (Warslee village) [TRANSLATED]"
@@ -303,11 +314,11 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000098.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000098.SCEC (Yurii Event Memo) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000099.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000099.SCEC (Yurii Psych evaluation) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000100.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000100.SCEC game map 1"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000101.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000101.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000101.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000101.SCEC Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000102.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000102.SCEC game map 2"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000103.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000103.SCEC CHAPTER 12.4 [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000104.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000104.SCEC (Steed Express) [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000105.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000105.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000105.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000105.SCEC Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000106.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000106.SCEC Debug [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000107.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000107.SCEC CHAPTER 4.9 (Fairy development screen) [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000108.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000108.SCEC (Fairy development screen 2) [ONGOING]"
@@ -320,14 +331,14 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000115.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000115.SCEC Voice check Debug"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000116.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000116.SCEC Voice check Debug"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000117.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000117.SCEC Voice check Debug"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000118.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000118.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000119.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000119.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000120.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000120.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000121.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000121.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000122.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000122.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000123.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000123.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000124.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000124.SCEC Dummy file"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000125.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000125.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000118.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000118.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000119.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000119.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000120.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000120.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000121.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000121.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000122.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000122.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000123.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000123.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000124.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000124.SCEC Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000125.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000125.SCEC Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000126.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000126.SCEC (some kind of Steed Express quest) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000127.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000127.SCEC CHAPTER 4.X [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000128.SCEC" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000128.SCEC (PMB Colosseum) [ONGOING]"
@@ -369,13 +380,16 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000164.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000164.STXT Gem names short [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000165.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000165.STXT (no idea) [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000166.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000166.STXT Gem Names 1 [TRANSLATED]"
-          ::perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000167.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000167.STXT Dummy file"
+          # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000167.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000167.STXT Dummy file"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000168.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000168.STXT Gem Properties [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000169.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000169.STXT Gem Properties Descriptions [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000170.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000170.STXT Ore Descriptions [TRANSLATED]"
 
           echo "[i] Patch SCEN.DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT"
+
+          echo "[i] Get SCEN.DAT filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" | select length
 
           echo "[i] Move patched SCEN.DAT"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SCEN.DAT"
