@@ -41,178 +41,197 @@ jobs:
       - name: 03. Setup the build enviromnent
         shell: powershell
         run: |
-          echo "[i] Create the 05-Build directory"
+          echo "`n[i] Create the 05-Build directory"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build"
 
-          echo "[i] Create the 06-Original files folders for the .DAT files"
+          echo "`n[i] Create the 06-Original files folders for the .DAT files"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT"  
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN DAT"
 
-          echo "[i] Copy growlanser.bms, delete later"
+          echo "`n[i] Copy growlanser.bms, delete later"
           cp "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\02-quickbms\growlanser.bms"
 
-          echo "[i] Start quickBMS to dump the .DAT files contents to the original files folder"
+          echo "`n[i] Start quickBMS to dump the .DAT files contents to the original files folder"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN DAT"
 
-          echo "[i] Unpack the *.FACE files"
+          echo "`n[i] Unpack the *.FACE files"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -d -F "*.FACE" "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT" "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT"
 
       - name: 04. Patch ELF
         shell: powershell
         run: |
-          echo "[i] Copy the repository files + ELF to the armips folder"
+          echo "`n[i] Copy the repository files + ELF to the armips folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_translation.asm" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_translation.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_VWF.asm" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 abcde scripts\abcde.tbl" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\abcde.tbl"
 
-          echo "[i] Switch to the armips folder"
+          echo "`n[i] Switch to the armips folder"
           cd "$Env:GITHUB_WORKSPACE\build\01-armips\"
-          echo "[i] Patch ELF using armips"
+          echo "`n[i] Patch ELF using armips"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe SLPM_667.16_translation.asm
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe SLPM_667.16_VWF.asm
 
-          echo "[i] Get SLPM_667.16 filesize"
+          echo "`n[i] Get SLPM_667.16 filesize"
           Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" | select length
 
-          echo "[i] Move patched ELF"
+          echo "`n[i] Move patched ELF"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\SLPM_667.16"
 
       - name: 05. Patch GL6_FACE.DAT
         shell: powershell
         run: |
-          echo "[i] Copy GL6_FACE.DAT from the original files folder to the build folder"
+          echo "`n[i] Copy GL6_FACE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT"
 
-          echo "[i] Create the FACE DAT folder and copy all files to it"
+          echo "`n[i] Create the FACE DAT folder and copy all files to it"
           Copy-Item -Recurse -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT*" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "[i] Execute the xdelta patches and save the resulting file in the created folder"
+          echo "`n[i] Execute the xdelta patches and save the resulting file in the created folder"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144 FACE"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
 
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149 FACE"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
 
-          echo "[i] Start quickBMS XXX.FACE reimport 1 script"
+          echo "`n[i] Start quickBMS XXX.FACE reimport 1 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144.FACE" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144 FACE"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149.FACE" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149 FACE"
 
-          echo "[i] Start quickBMS GL6_FACE.DAT reimport 2 script"
+          echo "`n[i] Start quickBMS GL6_FACE.DAT reimport 2 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT"
 
-          echo "[i] Get GL6_FACE.DAT filesize"
-          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" | select length
-
-          echo "[i] Move patched GL6_FACE.DAT"
+          echo "`n[i] Move patched GL6_FACE.DAT"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_FACE.DAT"
 
       - name: 06. Patch GL6_FILE.DAT
         shell: powershell
         run: |
-          echo "[i] Copy GL6_FILE.DAT from the original files folder to the build folder"
+          echo "`n[i] Copy GL6_FILE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT"
 
-          echo "[i] Delete FILE DAT folder and all its contents, create a new folder with the same name"
+          echo "`n[i] Create a new 05-build\GL6_FILE DAT folder"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT"
 
-          echo "[i] Change to the xdelta folder, execute the xdelta patches and save the resulting file in the build folder"
+          echo "`n[i] Execute the xdelta patches and save the resulting file in the build folder"
+
+          echo "`n[i] Patching 00000046.fnt"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000046.fnt" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000046.fnt"
+
+          echo "`n[i] Patching 00000602.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000602.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000602.tm2"
+
+          echo "`n[i] Patching 00000604.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000604.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000604.tm2"
+
+          echo "`n[i] Patching 00000606.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000606.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000606.tm2 Mission complete screen\00000606.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000606.tm2"
+
+          echo "`n[i] Patching 00000608.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000608.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000608.tm2 Prologue stats screen\00000608.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000608.tm2"
+
+          echo "`n[i] Patching 00000611.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000611.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000611.tm2 Yurii Main Menu\00000611.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000611.tm2"
+
+          echo "`n[i] Patching 00000612.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000612.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000612.tm2"
+
+          echo "`n[i] Patching 00000647.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000647.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000647.tm2"
 
-          echo "[i] Copy and modify the GL6_FILE.DAT files that need hexadecimal changes"
+          echo "`n[i] Copy and modify the GL6_FILE.DAT files that need hexadecimal changes"
           cd "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\"
 
+          echo "`n[i] Patching 00000566.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000566.mss Spell casting screen text box coord\00000566.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000566.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000566.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
 
+          echo "`n[i] Patching 00000569.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000569.mss Yurii Main Menu text box coord\00000569.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000569.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000569.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
 
+          echo "`n[i] Patching 00000570.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000570.mss NPC Config Window\00000570.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000570.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000570.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.asm"
 
+          echo "`n[i] Patching 00000573.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000573.mss Buying and Selling text box coord\00000573.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000573.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000573.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.asm"
 
+          echo "`n[i] Patching 00000594.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000594.mss Equipment change screen\00000594.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000594.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000594.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.asm"
 
+          echo "`n[i] Patching 00000596.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000596.mss Winning screen P to KP modification\00000596.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000596.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000596.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.asm"
 
+          echo "`n[i] Patching 00000598.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000598.mss Teleport screen text box coord\00000598.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000598.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000598.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.asm"
 
+          echo "`n[i] Patching 00000803.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000803.dat Additional Plate info text\00000803.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000803.dat" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.dat"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000803.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.asm"
 
+          echo "`n[i] Patching 00000806.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000806.dat Yurii Attributes\00000806.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_FILE DAT\00000806.dat" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.dat"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000806.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.asm"
 
-          echo "[i] Start quickBMS GL6_FILE.DAT reimport 2 script"
+          echo "`n[i] Start quickBMS GL6_FILE.DAT reimport 2 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT"
 
-          echo "[i] Get GL6_FILE.DAT filesize"
-          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" | select length
-
-          echo "[i] Move patched GL6_FILE.DAT"
+          echo "`n[i] Move patched GL6_FILE.DAT"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_FILE.DAT"
 
-      - name: 07. Translate files
+      - name: 07. Patch SCEN.DAT
         shell: powershell
         run: |
-          echo "[i] Copy SCEN.DAT from the original files folder to the build folder"
+          echo "`n[i] Copy SCEN.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "[i] Create amd copy all files from the original dumped SCEN folder to the build SCEN DAT folder"
+          echo "`n[i] Create amd copy all files from the original dumped SCEN folder to the build SCEN DAT folder"
           Copy-Item -Recurse -Verbose -Path  "$Env:GITHUB_WORKSPACE\build\06-original_files\GL6_SCEN DAT*" "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "[i] Change directory to GL6_SCEN DAT"
+          echo "`n[i] Change directory to GL6_SCEN DAT"
           cd "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\"
 
-          echo "[i] Copy 00000001.SCEN.asm and patch 00000001.SCEN"
+          echo "`n[i] Copy 00000001.SCEN.asm and patch 00000001.SCEN"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000001.SCEN.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000001.SCEN.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
 
-          echo "[i] Copy 00000043.SCEN.asm and patch 00000043.SCEN"
+          echo "`n[i] Copy 00000043.SCEN.asm and patch 00000043.SCEN"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000043.SCEN.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000043.SCEN.asm
-          del "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
 
-          echo "[i] Switch to the abcde folder, copy the table file and start abcde Atlas"
+          echo "`n[i] Switch to the abcde folder, copy the table file and start abcde Atlas"
           cd "$Env:GITHUB_WORKSPACE\build\00-abcde\"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 abcde scripts\abcde.tbl" -Destination "$Env:GITHUB_WORKSPACE\build\00-abcde\abcde.tbl"
 
-          echo "[i] Patch the Scripts"
+          echo "`n[i] Patch the Scripts"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000000.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000000.SCEN Debug map menu [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000001.SCEN Debug save room [ONGOING]"
           # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000002.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000002.SCEN Dummy file"
@@ -385,28 +404,40 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000169.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000169.STXT Gem Properties Descriptions [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000170.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000170.STXT Ore Descriptions [TRANSLATED]"
 
-          echo "[i] Patch SCEN.DAT"
+          echo "`n[i] Patch SCEN.DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT"
 
-          echo "[i] Get SCEN.DAT filesize"
-          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" | select length
-
-          echo "[i] Move patched SCEN.DAT"
+          echo "`n[i] Move patched SCEN.DAT"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SCEN.DAT"
+
+      - name: 0x. Check filesize
+        shell: pwsh
+        run: |
+          echo "`n[i] Get SLPM_667.16 filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\07-translates_files\SLPM_667.16" | select length
+
+          echo "`n[i] Get GL6_FACE.DAT filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_FACE.DAT" | select length
+
+          echo "`n[i] Get GL6_FILE.DAT filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_FILE.DAT" | select length
+
+          echo "`n[i] Get SCEN.DAT filesize"
+          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\07-translates_files\GL6_SCEN.DAT" | select length
 
       - name: 08. Create patched version
         shell: powershell
         run: |
-          echo "[i] Build"
+          echo "`n[i] Build"
           python "$Env:GITHUB_WORKSPACE\build\04-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\06-original_files\game_filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\07-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
 
       - name: 09. Create xDelta patch
         shell: powershell
         run: |
-          echo "[i] Create xDelta Patch"
+          echo "`n[i] Create xDelta Patch"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\03-xdelta\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\06-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
 
-          echo "[i] remove vcdiff\file"
+          echo "`n[i] remove vcdiff\file"
           rm "$Env:GITHUB_WORKSPACE\build\08-xDeltaPatch\vcdiff\file"
 
       - name: 10. Publish patch
