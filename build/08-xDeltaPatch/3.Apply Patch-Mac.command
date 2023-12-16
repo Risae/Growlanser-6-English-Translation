@@ -1,6 +1,6 @@
 #!/bin/sh
+echo "[i] Starting to patch the ISO."
 cd "$(cd "$(dirname "$0")" && pwd)"
-mkdir ./old
-chmod +x ./xdelta3_mac
-./xdelta3_mac -v -d -s "Growlanser 6 Precarious World.iso" "vcdiff/Growlanser 6 Precarious World.iso.vcdiff" "Growlanser 6 Precarious World English.ISO"
-mv "Growlanser 6 Precarious World.iso" old
+chmod +x bin/xdelta3_mac
+bin/xdelta3_mac -v -d -s "Growlanser 6 Precarious World.iso" "vcdiff/Growlanser 6 Precarious World.iso.vcdiff" "Growlanser 6 Precarious World English.iso"
+echo "[i] Completed!"
