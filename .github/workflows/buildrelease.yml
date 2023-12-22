@@ -3,7 +3,6 @@ on: workflow_dispatch
 
 jobs:
   BuildPatch:
-    name: Build xDelta Patch for the Growlanser 6 English Translation
     runs-on: windows-2022
     steps:
       - name: 01. Copy repository
