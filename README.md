@@ -4,17 +4,18 @@ In order to patch your original Growlanser 6 Game you can use the xDelta patches
 
 Directory structure:
 
-    /source                  directory which contains all translated files
-    /source/GL6_CHAR.DAT     currently just a placeholder
-    /source/GL6_FACE.DAT     translated tm2 image files
-    /source/GL6_FILE.DAT     translated and modified data files 
-    /source/GL6_MAP.DAT      currently just a placeholder
-    /source/GL6_MOV.DAT      translated ingame movie files
-    /source/GL6_SCEN.DAT     translated script files
-    /source/SLPM_667.16      translated and modified ELF
-    /build                   script and tools needed to patch the original game files
-    /tools                   tools, scripts and various other things used in the translation of the game
-    /translation guide       translation guides and game manuals for the english translation
+    /.github/workflows      contains the GitHub Workflow file, which automatically creates xDelta patches using GitHub Actions
+    /source                 directory which contains all translated files
+    /source/GL6_CHAR.DAT    currently just a placeholder
+    /source/GL6_FACE.DAT    translated tm2 image files
+    /source/GL6_FILE.DAT    translated and modified data files 
+    /source/GL6_MAP.DAT     currently just a placeholder
+    /source/GL6_MOV.DAT     translated ingame movie files
+    /source/GL6_SCEN.DAT    translated script files
+    /source/SLPM_667.16     translated and modified ELF
+    /build                  script and tools needed to patch the original game files
+    /tools                  tools, scripts and various other things used in the translation of the game
+    /translation guide      translation guides and game manuals for the english translation
 
 ## Tools
 
