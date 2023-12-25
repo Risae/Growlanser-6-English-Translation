@@ -27,7 +27,7 @@
 //POINTER #1 @ $13A4 - STRING #1 @ $13E3
 #W32($13A4)
 //弱点変更[END-FE]
-弱点変更[END-FE]
+Weakness Change[END-FE]
 
 
 
@@ -36,7 +36,7 @@
 //POINTER #2 @ $13A8 - STRING #2 @ $13EE
 #W32($13A8)
 //弱点変更Ｗ[END-FE]
-弱点変更Ｗ[END-FE]
+Weakness Change W[END-FE]
 
 
 
@@ -45,7 +45,7 @@
 //POINTER #3 @ $13AC - STRING #3 @ $13FB
 #W32($13AC)
 //弱点変更Ｓ[END-FE]
-弱点変更Ｓ[END-FE]
+Weakness Change S[END-FE]
 
 
 
@@ -54,7 +54,7 @@
 //POINTER #4 @ $13B0 - STRING #4 @ $1408
 #W32($13B0)
 //タイム１前[END-FE]
-タイム１前[END-FE]
+Before Time 1[END-FE]
 
 
 
@@ -63,7 +63,7 @@
 //POINTER #5 @ $13B4 - STRING #5 @ $1415
 #W32($13B4)
 //タイム１[END-FE]
-タイム１[END-FE]
+Time 1[END-FE]
 
 
 
@@ -72,7 +72,7 @@
 //POINTER #6 @ $13B8 - STRING #6 @ $1420
 #W32($13B8)
 //タイム２前[END-FE]
-タイム２前[END-FE]
+Before Time 2[END-FE]
 
 
 
@@ -81,7 +81,7 @@
 //POINTER #7 @ $13BC - STRING #7 @ $142D
 #W32($13BC)
 //タイム２[END-FE]
-タイム２[END-FE]
+Time 2[END-FE]
 
 
 
@@ -90,7 +90,7 @@
 //POINTER #8 @ $13C0 - STRING #8 @ $1438
 #W32($13C0)
 //タイム３前[END-FE]
-タイム３前[END-FE]
+Before Time 3[END-FE]
 
 
 
@@ -99,7 +99,7 @@
 //POINTER #9 @ $13C4 - STRING #9 @ $1445
 #W32($13C4)
 //タイム３[END-FE]
-タイム３[END-FE]
+Time 3[END-FE]
 
 
 
@@ -108,7 +108,7 @@
 //POINTER #10 @ $13C8 - STRING #10 @ $1450
 #W32($13C8)
 //タイム４前[END-FE]
-タイム４前[END-FE]
+Before Time 4[END-FE]
 
 
 
@@ -117,7 +117,7 @@
 //POINTER #11 @ $13CC - STRING #11 @ $145D
 #W32($13CC)
 //タイム４[END-FE]
-タイム４[END-FE]
+Time 4[END-FE]
 
 
 
@@ -126,7 +126,7 @@
 //POINTER #12 @ $13D0 - STRING #12 @ $1468
 #W32($13D0)
 //タイム５前[END-FE]
-タイム５前[END-FE]
+Before Time 5[END-FE]
 
 
 
@@ -135,7 +135,7 @@
 //POINTER #13 @ $13D4 - STRING #13 @ $1475
 #W32($13D4)
 //タイム５[END-FE]
-タイム５[END-FE]
+Time 5[END-FE]
 
 
 
