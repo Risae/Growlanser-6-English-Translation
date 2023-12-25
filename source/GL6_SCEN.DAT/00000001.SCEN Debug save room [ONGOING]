@@ -1358,7 +1358,7 @@ Choose your battle[END-FE]
 //POINTER #142 @ $6658 - STRING #142 @ $7CAD
 #W32($6658)
 //・ＥＢ０３＿３（ル、ホ）[END-FE]
-・EB03_3（ル、ホ）[END-FE]
+・EB03_3（Ru、ホ）[END-FE]
 
 
 
@@ -1367,7 +1367,7 @@ Choose your battle[END-FE]
 //POINTER #143 @ $665C - STRING #143 @ $7CC8
 #W32($665C)
 //・ＥＢ０３＿４（ウ、ル）[END-FE]
-・EB03_4（ウ、ル）[END-FE]
+・EB03_4（ウ、Ru）[END-FE]
 
 
 
@@ -1376,7 +1376,7 @@ Choose your battle[END-FE]
 //POINTER #144 @ $6660 - STRING #144 @ $7CE3
 #W32($6660)
 //・ＥＢ０３＿５（ウ、ル）[END-FE]
-・EB03_5（ウ、ル）[END-FE]
+・EB03_5（ウ、Ru）[END-FE]
 
 
 
@@ -1385,7 +1385,7 @@ Choose your battle[END-FE]
 //POINTER #145 @ $6664 - STRING #145 @ $7CFE
 #W32($6664)
 //・ＥＢ０３＿６（ウ、ル）[END-FE]
-・EB03_6（ウ、ル）[END-FE]
+・EB03_6（ウ、Ru）[END-FE]
 
 
 
@@ -1403,7 +1403,7 @@ Choose your battle[END-FE]
 //POINTER #147 @ $666C - STRING #147 @ $7D30
 #W32($666C)
 //・ＥＢ０４＿１（ウ、ル）[END-FE]
-・ＥＢ０４＿１（ウ、ル）[END-FE]
+・EB04_1（ウ、Ru）[END-FE]
 
 
 
@@ -1412,7 +1412,7 @@ Choose your battle[END-FE]
 //POINTER #148 @ $6670 - STRING #148 @ $7D4B
 #W32($6670)
 //・ＥＢ０４＿３（ウ、ル）[END-FE]
-・ＥＢ０４＿３（ウ、ル）[END-FE]
+・EB04_3（ウ、Ru）[END-FE]
 
 
 
@@ -1421,7 +1421,7 @@ Choose your battle[END-FE]
 //POINTER #149 @ $6674 - STRING #149 @ $7D66
 #W32($6674)
 //・ＥＢ０４＿２（ウ、ル）[END-FE]
-・ＥＢ０４＿２（ウ、ル）[END-FE]
+・EB04_2（ウ、Ru）[END-FE]
 
 
 
@@ -1439,7 +1439,7 @@ Choose your battle[END-FE]
 //POINTER #151 @ $667C - STRING #151 @ $7D98
 #W32($667C)
 //・ＥＢ０５＿８（ウ、ル、イ同）[END-FE]
-・ＥＢ０５＿８（ウ、ル、イ同）[END-FE]
+・EB05_8（ウ、Ru、イ同）[END-FE]
 
 
 
@@ -1448,7 +1448,7 @@ Choose your battle[END-FE]
 //POINTER #152 @ $6680 - STRING #152 @ $7DB9
 #W32($6680)
 //・ＥＢ０５＿１（ウ、ル、イ同）[END-FE]
-・ＥＢ０５＿１（ウ、ル、イ同）[END-FE]
+・EB05_1（ウ、Ru、イ同）[END-FE]
 
 
 
@@ -1457,7 +1457,7 @@ Choose your battle[END-FE]
 //POINTER #153 @ $6684 - STRING #153 @ $7DDA
 #W32($6684)
 //・ＥＢ０５＿２（ウ、ル、イ同）[END-FE]
-・ＥＢ０５＿２（ウ、ル、イ同）[END-FE]
+・EB05_2（ウ、Ru、イ同）[END-FE]
 
 
 
@@ -1466,7 +1466,7 @@ Choose your battle[END-FE]
 //POINTER #154 @ $6688 - STRING #154 @ $7DFB
 #W32($6688)
 //・ＥＢ０５＿３（ウ、ル）[END-FE]
-・ＥＢ０５＿３（ウ、ル）[END-FE]
+・EB05_3（ウ、Ru）[END-FE]
 
 
 
@@ -1475,7 +1475,7 @@ Choose your battle[END-FE]
 //POINTER #155 @ $668C - STRING #155 @ $7E16
 #W32($668C)
 //・ＥＢ０５＿７（ウ、ル）[END-FE]
-・ＥＢ０５＿７（ウ、ル）[END-FE]
+・EB05_7（ウ、Ru）[END-FE]
 
 
 
@@ -1484,7 +1484,7 @@ Choose your battle[END-FE]
 //POINTER #156 @ $6690 - STRING #156 @ $7E31
 #W32($6690)
 //・ＥＢ０５＿４（ウ、ル、ホ）[END-FE]
-・ＥＢ０５＿４（ウ、ル、ホ）[END-FE]
+・EB05_4（ウ、Ru、ホ）[END-FE]
 
 
 
@@ -1493,7 +1493,7 @@ Choose your battle[END-FE]
 //POINTER #157 @ $6694 - STRING #157 @ $7E50
 #W32($6694)
 //・ＥＢ０５＿５（ウ、ル、ホ）[END-FE]
-・ＥＢ０５＿５（ウ、ル、ホ）[END-FE]
+・EB05_5（ウ、Ru、ホ）[END-FE]
 
 
 
@@ -1502,7 +1502,7 @@ Choose your battle[END-FE]
 //POINTER #158 @ $6698 - STRING #158 @ $7E6F
 #W32($6698)
 //・ＥＢ０５＿６（ウ、ル、ホ）[END-FE]
-・ＥＢ０５＿６（ウ、ル、ホ）[END-FE]
+・EB05_6（ウ、Ru、ホ）[END-FE]
 
 
 
@@ -1520,7 +1520,7 @@ Choose your battle[END-FE]
 //POINTER #160 @ $66A0 - STRING #160 @ $7EA5
 #W32($66A0)
 //・ＥＢ０６＿１（ウ、ル）[END-FE]
-・ＥＢ０６＿１（ウ、ル）[END-FE]
+・EB06_1（ウ、Ru）[END-FE]
 
 
 
@@ -1538,7 +1538,7 @@ Choose your battle[END-FE]
 //POINTER #162 @ $66A8 - STRING #162 @ $7ED7
 #W32($66A8)
 //・ＥＢ０６＿３（ウ、ル、ア）[END-FE]
-・ＥＢ０６＿３（ウ、ル、ア）[END-FE]
+・ＥＢ０６＿３（ウ、Ru、ア）[END-FE]
 
 
 
@@ -1547,7 +1547,7 @@ Choose your battle[END-FE]
 //POINTER #163 @ $66AC - STRING #163 @ $7EF6
 #W32($66AC)
 //・ＥＢ０６＿５（ウ、ル、ア）[END-FE]
-・ＥＢ０６＿５（ウ、ル、ア）[END-FE]
+・ＥＢ０６＿５（ウ、Ru、ア）[END-FE]
 
 
 
@@ -1565,7 +1565,7 @@ Choose your battle[END-FE]
 //POINTER #165 @ $66B4 - STRING #165 @ $7F2C
 #W32($66B4)
 //・ＥＢ０７＿２（ル、ホ、イ）[END-FE]
-・ＥＢ０７＿２（ル、ホ、イ）[END-FE]
+・EB07_2（Ru、ホ、イ）[END-FE]
 
 
 
@@ -1574,7 +1574,7 @@ Choose your battle[END-FE]
 //POINTER #166 @ $66B8 - STRING #166 @ $7F4B
 #W32($66B8)
 //・ＥＢ０７＿１（ル、ホ、イ）[END-FE]
-・ＥＢ０７＿１（ル、ホ、イ）[END-FE]
+・EB07_1（Ru、ホ、イ）[END-FE]
 
 
 
@@ -1583,7 +1583,7 @@ Choose your battle[END-FE]
 //POINTER #167 @ $66BC - STRING #167 @ $7F6A
 #W32($66BC)
 //・ＥＢ０７＿３（ル、ホ、イ）[END-FE]
-・ＥＢ０７＿３（ル、ホ、イ）[END-FE]
+・EB07_3（Ru、ホ、イ）[END-FE]
 
 
 
@@ -1592,7 +1592,7 @@ Choose your battle[END-FE]
 //POINTER #168 @ $66C0 - STRING #168 @ $7F89
 #W32($66C0)
 //・ＥＢ０８＿１（ル、イ）[END-FE]
-・ＥＢ０８＿１（ル、イ）[END-FE]
+・EB08_1（Ru、イ）[END-FE]
 
 
 
@@ -1601,7 +1601,7 @@ Choose your battle[END-FE]
 //POINTER #169 @ $66C4 - STRING #169 @ $7FA4
 #W32($66C4)
 //・ＥＢ０８＿２（ウ、ル、イ）[END-FE]
-・ＥＢ０８＿２（ウ、ル、イ）[END-FE]
+・EB08_2（ウ、Ru、イ）[END-FE]
 
 
 
@@ -1610,7 +1610,7 @@ Choose your battle[END-FE]
 //POINTER #170 @ $66C8 - STRING #170 @ $7FC3
 #W32($66C8)
 //・ＥＢ０８＿３（自由）[END-FE]
-・ＥＢ０８＿３（自由）[END-FE]
+・EB08_3（自由）[END-FE]
 
 
 
@@ -1619,7 +1619,7 @@ Choose your battle[END-FE]
 //POINTER #171 @ $66CC - STRING #171 @ $7FDC
 #W32($66CC)
 //・ＥＢ０８＿４（自由）[END-FE]
-・ＥＢ０８＿４（自由）[END-FE]
+・EB08_4（自由）[END-FE]
 
 
 
@@ -2119,7 +2119,7 @@ Which store do you want?[END-FE]
 //POINTER #226 @ $67A8 - STRING #226 @ $848B
 #W32($67A8)
 //・武器１５（本社街２）[END-FE]
-・Weapon 15 (headquarters street 2?!?)[END-FE]
+・Weapon 15 (HQ Street 2)[END-FE]
 
 
 
@@ -3133,7 +3133,8 @@ Where would you like to go?[END-FE]
 //POINTER #335 @ $695C - STRING #335 @ $8EF2
 #W32($695C)
 //・秘宝守護者里前(キャリィ屋リストにないけど)[END-FE]
-・In front of the treasure guardian village (not on the list of the Steed shop)[END-FE]
+・In front of the treasure guardian village[NLINE]
+ (not on the list of the Steed shop)[END-FE]
 
 
 
@@ -3655,7 +3656,7 @@ Which one do you want to see?[END-FE]
 //POINTER #393 @ $6A44 - STRING #393 @ $92F0
 #W32($6A44)
 //６、失敗ループ[END-FE]
-６、失敗ループ[END-FE]
+6, Failure loop[END-FE]
 
 
 
@@ -3727,7 +3728,7 @@ Which one do you want to see?[END-FE]
 //POINTER #401 @ $6A64 - STRING #401 @ $9382
 #W32($6A64)
 //６、失敗ループ[END-FE]
-６、失敗ループ[END-FE]
+6, Failure loop[END-FE]
 
 
 
@@ -3790,7 +3791,7 @@ Which one do you want to see?[END-FE]
 //POINTER #408 @ $6A80 - STRING #408 @ $93FD
 #W32($6A80)
 //６、失敗ループ[END-FE]
-６、失敗ループ[END-FE]
+6, Failure loop[END-FE]
 
 
 
@@ -4024,7 +4025,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #434 @ $6AE8 - STRING #434 @ $956F
 #W32($6AE8)
 //・魔法撃破[END-FE]
-・魔法撃破[END-FE]
+・Magic Defeat[END-FE]
 
 
 
@@ -4033,7 +4034,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #435 @ $6AEC - STRING #435 @ $957C
 #W32($6AEC)
 //・戦闘勝利[END-FE]
-・戦闘勝利[END-FE]
+・Combat Victory[END-FE]
 
 
 
@@ -4042,7 +4043,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #436 @ $6AF0 - STRING #436 @ $9589
 #W32($6AF0)
 //・復活[END-FE]
-・復活[END-FE]
+・Revival[END-FE]
 
 
 
@@ -4051,7 +4052,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #437 @ $6AF4 - STRING #437 @ $9592
 #W32($6AF4)
 //・コマンド開き[END-FE]
-・コマンド開き[END-FE]
+・Command Open[END-FE]
 
 
 
@@ -4060,7 +4061,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #438 @ $6AF8 - STRING #438 @ $95A3
 #W32($6AF8)
 //・決定[END-FE]
-・決定[END-FE]
+・Determination[END-FE]
 
 
 
@@ -4321,7 +4322,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #467 @ $6B6C - STRING #467 @ $9774
 #W32($6B6C)
 //・攻撃魔法[END-FE]
-・攻撃魔法[END-FE]
+・Attack Magic[END-FE]
 
 
 
@@ -4330,7 +4331,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #468 @ $6B70 - STRING #468 @ $9781
 #W32($6B70)
 //・回復魔法[END-FE]
-・回復魔法[END-FE]
+・Recovery Magic[END-FE]
 
 
 
@@ -4339,7 +4340,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #469 @ $6B74 - STRING #469 @ $978E
 #W32($6B74)
 //・攻撃無効[END-FE]
-・攻撃無効[END-FE]
+・Attack disabled[END-FE]
 
 
 
@@ -4854,8 +4855,8 @@ Would you like the Korin version?[END-FE]
 #W32($6C58)
 //ダンジョンレディ何回の[NLINE]
 //イベント見ますか？[END-FE]
-ダンジョンレディ何回の[NLINE]
-イベント見ますか？[END-FE]
+How many dungeon-ready events[NLINE]
+do you want to see?[END-FE]
 
 
 
@@ -4864,7 +4865,7 @@ Would you like the Korin version?[END-FE]
 //POINTER #527 @ $6C5C - STRING #527 @ $9B98
 #W32($6C5C)
 //・フェーストコンタクト[END-FE]
-・フェーストコンタクト[END-FE]
+・First Contact[END-FE]
 
 
 
@@ -4873,7 +4874,7 @@ Would you like the Korin version?[END-FE]
 //POINTER #528 @ $6C60 - STRING #528 @ $9BB1
 #W32($6C60)
 //・図書館で[END-FE]
-・図書館で[END-FE]
+・At the library[END-FE]
 
 
 
@@ -4882,7 +4883,7 @@ Would you like the Korin version?[END-FE]
 //POINTER #529 @ $6C64 - STRING #529 @ $9BBE
 #W32($6C64)
 //・冷たい視線[END-FE]
-・冷たい視線[END-FE]
+・Cold stares[END-FE]
 
 
 
@@ -4891,7 +4892,7 @@ Would you like the Korin version?[END-FE]
 //POINTER #530 @ $6C68 - STRING #530 @ $9BCD
 #W32($6C68)
 //・決意[END-FE]
-・決意[END-FE]
+・Determination[END-FE]
 
 
 
@@ -5319,7 +5320,7 @@ There is no boss battle jump yet.[END-FE]
 //POINTER #576 @ $6D20 - STRING #576 @ $A06D
 #W32($6D20)
 //５９　ETC_50　新逃げろ！[END-FE]
-５９　ETC_50　新逃げろ！[END-FE]
+59 ETC_50　新逃げろ！[END-FE]
 
 
 
@@ -5328,7 +5329,7 @@ There is no boss battle jump yet.[END-FE]
 //POINTER #577 @ $6D24 - STRING #577 @ $A088
 #W32($6D24)
 //６０　ETC_51　新告白（未）[END-FE]
-６０　ETC_51　新告白（未）[END-FE]
+60 ETC_51　新告白（未）[END-FE]
 
 
 
@@ -5337,7 +5338,7 @@ There is no boss battle jump yet.[END-FE]
 //POINTER #578 @ $6D28 - STRING #578 @ $A0A5
 #W32($6D28)
 //６１　ETC_52　新友情[END-FE]
-６１　ETC_52　新友情[END-FE]
+61 ETC_52　新友情[END-FE]
 
 
 
@@ -5751,7 +5752,7 @@ There is no boss battle jump yet.[END-FE]
 //POINTER #624 @ $6DE0 - STRING #624 @ $A5F3
 #W32($6DE0)
 //・０ 戦争の声[END-FE]
-・0 戦争の声[END-FE]
+・0 Voices of War[END-FE]
 
 
 
@@ -5778,7 +5779,7 @@ There is no boss battle jump yet.[END-FE]
 //POINTER #627 @ $6DEC - STRING #627 @ $A633
 #W32($6DEC)
 //・３ 船と波[END-FE]
-・3 船と波[END-FE]
+・3 Ships and Waves[END-FE]
 
 
 
