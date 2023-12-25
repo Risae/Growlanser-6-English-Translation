@@ -7,26 +7,26 @@ SetTextColor equ 0x00151670
 SetTextScale equ 0x00151890
 DrawLetter equ 0x001522BC
 DrawTextAt equ 0x00151840
-printf equ 0x129798                      ;Part of the full width numbers in enemies defeated string
+printf equ 0x129798                     ;Part of the full width numbers in enemies defeated string
 
-// Fix for the full width numbers that are displayed when you kill more than 1 enemy at the same time.
-.org 0x2C7684
-move a0, v0
-li   a1, 0x42C0C0                        ;address to "%d" string
-move a2, s3
-jal  printf
-nop
-b    0x2C7708
-nop
+// Fix for the full-width numbers that are displayed when you kill more than 1 enemy at the same time.
+.org 0x2C7684                           ;Patching code at address 0x2C7684
+    move        a0, v0                  ;Copy the value in register v0 to a0 (presumably holding the number of killed enemies)
+    li          a1, 0x42C0C0            ;Address to "%d" string in memory
+    move        a2, s3                  ;Copy the value in register s3 to a2 (assuming it's another argument for printf)
+    jal         printf                  ;Jump and link to the printf function
+    nop                                 ;No operation (delay slot)
+    b           0x2C7708                ;Unconditional branch to address 0x2C7708 (skip the next instruction)
+    nop                                 ;No operation (delay slot)
 
-.org 0x2C7BC0
-move a0, v0
-li   a1, 0x42C0C0                        ; address to "%d" string
-move a2, s1
-jal  printf
-nop
-b    0x02C7C44
-nop
+.org 0x2C7BC0                           ;Patching code at address 0x2C7BC0
+    move        a0, v0                  ;Copy the value in register v0 to a0 (presumably holding the number of killed enemies)
+    li          a1, 0x42C0C0            ;Address to "%d" string in memory
+    move        a2, s1                  ;Copy the value in register s1 to a2 (assuming it's another argument for printf)
+    jal         printf                  ;Jump and link to the printf function
+    nop                                 ;No operation (delay slot)
+    b           0x02C7C44               ;Unconditional branch to address 0x02C7C44 (skip the next instruction)
+    nop                                 ;No operation (delay slot)
 
 /*
 Window width set part, is given in characters
@@ -224,7 +224,7 @@ function first
     //by a number that equals (line_width - window_width) / 2, so we avoid the hard
     //character limit
     @@End:
-    dmove     s2,a1                      ;a1 = window width
+    dmove     s2,a1                     ;a1 = window width
     sll       s6,s2,0x02
     addu      s6,s6,s2
     sll       s6,s6,0x1
@@ -238,78 +238,84 @@ function first
     dmove     s5,zero
     dmove     s6,zero
     dmove     s7,zero
-    j         0x0027E318                 ;Go back to original function
+    j         0x0027E318                ;Go back to original function
     nop
 .endfunc
 
 .func RenderNormal
-    li        v0,Ram
-    sw        a0,0x4(v0)
-    sw        ra,0x8(v0)
-    li        a0,0x7                     ;0x7 == black
-    jal       SetTextColor
-    nop 
-    li.s      f12,0.9
-    jal       SetTextScale
-    nop 
-    li        v0,Ram
-    lw        a0,0x4(v0)
-    mtc1      a0,f12
-    cvt.s.w   f12,f12
-    mtc1      a1,f13
-    cvt.s.w   f13,f13
-    dmove     a0,a2
-    jal       DrawTextAt
-    nop       
-    li        v0,Ram
-    lw        ra,0x8(v0)
-    jr        ra
-    nop
+    li        v0, Ram                   ;Load immediate: v0 = Ram
+    sw        a0, 0x4(v0)               ;Store word: *(Ram + 4) = a0
+    sw        ra, 0x8(v0)               ;Store word: *(Ram + 8) = ra
+    li        a0, 0x7                   ;Load immediate: a0 = 0x7 (black)
+    jal       SetTextColor              ;Jump and link: Call SetTextColor function
+    nop                                 ;No operation (delay slot)
+
+    li.s      f12, 0.9                  ;Load immediate single: f12 = 0.9
+    jal       SetTextScale              ;Jump and link: Call SetTextScale function
+    nop                                 ;No operation (delay slot)
+
+    li        v0, Ram                   ;Load immediate: v0 = Ram
+    lw        a0, 0x4(v0)               ;Load word: a0 = *(Ram + 4)
+    mtc1      a0, f12                   ;Move to coprocessor 1: f12 = a0
+    cvt.s.w   f12, f12                  ;Convert to single (float): f12 = (float)a0
+    mtc1      a1, f13                   ;Move to coprocessor 1: f13 = a1
+    cvt.s.w   f13, f13                  ;Convert to single (float): f13 = (float)a1
+    dmove     a0, a2                    ;Double move: a0 = a2 (destination coordinates for text)
+    jal       DrawTextAt                ;Jump and link: Call DrawTextAt function
+    nop                                 ;No operation (delay slot)
+
+    li        v0, Ram                   ;Load immediate: v0 = Ram
+    lw        ra, 0x8(v0)               ;Load word: ra = *(Ram + 8)
+    jr        ra                        ;Jump to return address in ra
+    nop                                 ;No operation (delay slot)
 .endfunc
 
 .func RenderSelected
-    li        v0,Ram
-    sw        a0,0x4(v0)
-    sw        ra,0x8(v0)
-    li        a0,0x3                     ;0x3 == Red
-    jal       SetTextColor
-    nop 
-    li.s      f12,0.9
-    jal       SetTextScale
-    nop 
-    li        v0,Ram
-    lw        a0,0x4(v0)
-    mtc1      a0,f12
-    cvt.s.w   f12,f12
-    mtc1      a1,f13
-    cvt.s.w   f13,f13
-    dmove     a0,a2
-    jal       DrawTextAt
-    nop       
-    li        v0,Ram
-    lw        ra,0x8(v0)
-    jr        ra
-    nop
+    li        v0, Ram                   ;Load immediate: v0 = Ram
+    sw        a0, 0x4(v0)               ;Store word: *(Ram + 4) = a0
+    sw        ra, 0x8(v0)               ;Store word: *(Ram + 8) = ra
+    li        a0, 0x3                   ;Load immediate: a0 = 0x3 (red)
+    jal       SetTextColor              ;Jump and link: Call SetTextColor function
+    nop                                 ;No operation (delay slot)
+
+    li.s      f12, 0.9                  ;Load immediate single: f12 = 0.9
+    jal       SetTextScale              ;Jump and link: Call SetTextScale function
+    nop                                 ;No operation (delay slot)
+
+    li        v0, Ram                   ;Load immediate: v0 = Ram
+    lw        a0, 0x4(v0)               ;Load word: a0 = *(Ram + 4)
+    mtc1      a0, f12                   ;Move to coprocessor 1: f12 = a0
+    cvt.s.w   f12, f12                  ;Convert to single (float): f12 = (float)a0
+    mtc1      a1, f13                   ;Move to coprocessor 1: f13 = a1
+    cvt.s.w   f13, f13                  ;Convert to single (float): f13 = (float)a1
+    dmove     a0, a2                    ;Double move: a0 = a2 (destination coordinates for text)
+    jal       DrawTextAt                ;Jump and link: Call DrawTextAt function
+    nop                                 ;No operation (delay slot)
+
+    li        v0, Ram                   ;Load immediate: v0 = Ram
+    lw        ra, 0x8(v0)               ;Load word: ra = *(Ram + 8)
+    jr        ra                        ;Jump to return address in ra
+    nop                                 ;No operation (delay slot)
 .endfunc
 
 .func Switcheroo
-    move      t9,a2
-    j         0x00121C6C
-    li        v1,0x70
-    lh        a0,0x2(t9)
-    andi      a1,a0,0x9FFF
-    lbu       a2,0xE(t9)
-    lbu       a3,0xD(t9)
-    andi      at,a0,0x4000
-    ori       v1,a1,0x2000
-    movn      a1,v1,at
-    sb        a2,0xD(t9)
-    andi      at,a0,0x2000
-    ori       v1,a1,0x4000
-    movn      a1,v1,at
-    sb        a3,0xE(t9)
-    jr        ra
-    sh        a1,0x2(t9)
+    move      t9, a2                    ;Copy the value in register a2 to t9
+    j         0x00121C6C                ;Jump to the address 0x00121C6C (unconditional jump)
+    li        v1, 0x70                  ;Load immediate: v1 = 0x70
+    lh        a0, 0x2(t9)               ;Load half-word from memory at address (t9 + 0x2) into a0
+    andi      a1, a0, 0x9FFF            ;Perform bitwise AND: a1 = a0 & 0x9FFF
+    lbu       a2, 0xE(t9)               ;Load byte unsigned from memory at address (t9 + 0xE) into a2
+    lbu       a3, 0xD(t9)               ;Load byte unsigned from memory at address (t9 + 0xD) into a3
+    andi      at, a0, 0x4000            ;Perform bitwise AND: at = a0 & 0x4000
+    ori       v1, a1, 0x2000            ;Perform bitwise OR with immediate: v1 = a1 | 0x2000
+    movn      a1, v1, at                ;Conditional move: If at == 0, a1 = v1
+    sb        a2, 0xD(t9)               ;Store byte: *(t9 + 0xD) = a2
+    andi      at, a0, 0x2000            ;Perform bitwise AND: at = a0 & 0x2000
+    ori       v1, a1, 0x4000            ;Perform bitwise OR with immediate: v1 = a1 | 0x4000
+    movn      a1, v1, at                ;Conditional move: If at == 0, a1 = v1
+    sb        a3, 0xE(t9)               ;Store byte: *(t9 + 0xE) = a3
+    jr        ra                        ;Jump to the return address in register ra
+    sh        a1, 0x2(t9)               ;Store half-word: *(t9 + 0x2) = a1 (delay slot)
 .endfunc
 
 //Control codes (0xFF is always first byte):
