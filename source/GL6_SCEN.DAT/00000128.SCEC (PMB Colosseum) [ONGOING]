@@ -27,7 +27,7 @@
 //POINTER #1 @ $2324 - STRING #1 @ $2793
 #W32($2324)
 //【デバッグ】すべて表示する？[END-FE]
-【デバッグ】すべて表示する？[END-FE]
+【Debug】Show all?[END-FE]
 
 
 
@@ -60,7 +60,7 @@ like to try?[END-FE]
 //POINTER #4 @ $2330 - STRING #4 @ $2838
 #W32($2330)
 //・ダメージ競争[END-FE]
-・ダメージ競争[END-FE]
+・Hard Hitter[END-FE]
 
 
 
@@ -142,8 +142,9 @@ like to try?[END-FE]
 #W32($2354)
 //ダメージ競争ですね。[NLINE]
 //どれに挑戦なさいますか？[END-FE]
-ダメージ競争ですね。[NLINE]
-どれに挑戦なさいますか？[END-FE]
+Hard Hitter?[NLINE]
+Which one would you[NLINE]
+like to challenge?[END-FE]
 
 
 
@@ -441,7 +442,7 @@ Is that all right?[END-FE]
 //POINTER #41 @ $23C4 - STRING #41 @ $2DCF
 #W32($23C4)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -499,7 +500,7 @@ Is that all right?[END-FE]
 //POINTER #47 @ $23DC - STRING #47 @ $2E5F
 #W32($23DC)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -557,7 +558,7 @@ Is that all right?[END-FE]
 //POINTER #53 @ $23F4 - STRING #53 @ $2EEF
 #W32($23F4)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -615,7 +616,7 @@ Is that all right?[END-FE]
 //POINTER #59 @ $240C - STRING #59 @ $2F7B
 #W32($240C)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -673,7 +674,7 @@ Is that all right?[END-FE]
 //POINTER #65 @ $2424 - STRING #65 @ $300B
 #W32($2424)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -731,7 +732,7 @@ Is that all right?[END-FE]
 //POINTER #71 @ $243C - STRING #71 @ $3099
 #W32($243C)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -789,7 +790,7 @@ Is that all right?[END-FE]
 //POINTER #77 @ $2454 - STRING #77 @ $3127
 #W32($2454)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -866,7 +867,7 @@ Is that all right?[END-FE]
 //POINTER #84 @ $2470 - STRING #84 @ $322A
 #W32($2470)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -945,7 +946,7 @@ Is that all right?[END-FE]
 //POINTER #91 @ $248C - STRING #91 @ $3373
 #W32($248C)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -1003,7 +1004,7 @@ Is that all right?[END-FE]
 //POINTER #97 @ $24A4 - STRING #97 @ $33FF
 #W32($24A4)
 //誰と組みますか？[END-FE]
-誰と組みますか？[END-FE]
+Who will you team up with?[END-FE]
 
 
 
@@ -1274,7 +1275,7 @@ Is that all right?[END-FE]
 //POINTER #120 @ $2500 - STRING #120 @ $3906
 #W32($2500)
 //・ポーン・スレイヤー[END-FE]
-・ポーン・スレイヤー[END-FE]
+・Pawn Slayer[END-FE]
 
 
 
@@ -1283,7 +1284,7 @@ Is that all right?[END-FE]
 //POINTER #121 @ $2504 - STRING #121 @ $391D
 #W32($2504)
 //・ルーク・スレイヤー[END-FE]
-・ルーク・スレイヤー[END-FE]
+・Rook Slayer[END-FE]
 
 
 
@@ -1292,7 +1293,7 @@ Is that all right?[END-FE]
 //POINTER #122 @ $2508 - STRING #122 @ $3934
 #W32($2508)
 //・ナイト・スレイヤー[END-FE]
-・ナイト・スレイヤー[END-FE]
+・Knight Slayer[END-FE]
 
 
 
@@ -1301,7 +1302,7 @@ Is that all right?[END-FE]
 //POINTER #123 @ $250C - STRING #123 @ $394B
 #W32($250C)
 //・ビショップ・スレイヤー[END-FE]
-・ビショップ・スレイヤー[END-FE]
+・Bishop Slayer[END-FE]
 
 
 
@@ -1310,7 +1311,7 @@ Is that all right?[END-FE]
 //POINTER #124 @ $2510 - STRING #124 @ $3966
 #W32($2510)
 //・ヤクト・スレイヤー[END-FE]
-・ヤクト・スレイヤー[END-FE]
+・Jagd Slayer[END-FE]
 
 
 
@@ -1319,7 +1320,7 @@ Is that all right?[END-FE]
 //POINTER #125 @ $2514 - STRING #125 @ $397D
 #W32($2514)
 //・クイーン・スレイヤー[END-FE]
-・クイーン・スレイヤー[END-FE]
+・Queen Slayer[END-FE]
 
 
 
@@ -1355,7 +1356,7 @@ Is that all right?[END-FE]
 //POINTER #129 @ $2524 - STRING #129 @ $39D3
 #W32($2524)
 //・ポーン・スレイヤー[END-FE]
-・ポーン・スレイヤー[END-FE]
+・Pawn Slayer[END-FE]
 
 
 
@@ -1364,7 +1365,7 @@ Is that all right?[END-FE]
 //POINTER #130 @ $2528 - STRING #130 @ $39EA
 #W32($2528)
 //・ルーク・スレイヤー[END-FE]
-・ルーク・スレイヤー[END-FE]
+・Rook Slayer[END-FE]
 
 
 
@@ -1373,7 +1374,7 @@ Is that all right?[END-FE]
 //POINTER #131 @ $252C - STRING #131 @ $3A01
 #W32($252C)
 //・ナイト・スレイヤー[END-FE]
-・ナイト・スレイヤー[END-FE]
+・Knight Slayer[END-FE]
 
 
 
@@ -1382,7 +1383,7 @@ Is that all right?[END-FE]
 //POINTER #132 @ $2530 - STRING #132 @ $3A18
 #W32($2530)
 //・ビショップ・スレイヤー[END-FE]
-・ビショップ・スレイヤー[END-FE]
+・Bishop Slayer[END-FE]
 
 
 
@@ -1391,7 +1392,7 @@ Is that all right?[END-FE]
 //POINTER #133 @ $2534 - STRING #133 @ $3A33
 #W32($2534)
 //・ヤクト・スレイヤー[END-FE]
-・ヤクト・スレイヤー[END-FE]
+・Jagd Slayer[END-FE]
 
 
 
@@ -1400,7 +1401,7 @@ Is that all right?[END-FE]
 //POINTER #134 @ $2538 - STRING #134 @ $3A4A
 #W32($2538)
 //・ヤクト・スレイヤー[END-FE]
-・ヤクト・スレイヤー[END-FE]
+・Jagd Slayer[END-FE]
 
 
 
@@ -1409,7 +1410,7 @@ Is that all right?[END-FE]
 //POINTER #135 @ $253C - STRING #135 @ $3A61
 #W32($253C)
 //・クイーン・スレイヤー[END-FE]
-・クイーン・スレイヤー[END-FE]
+・Queen Slayer[END-FE]
 
 
 
@@ -1476,7 +1477,8 @@ Is that all right?[END-FE]
 //POINTER #142 @ $2558 - STRING #142 @ $3B3C
 #W32($2558)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1518,7 +1520,8 @@ Is that all right?[END-FE]
 //POINTER #146 @ $2568 - STRING #146 @ $3BFC
 #W32($2568)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1560,7 +1563,8 @@ Is that all right?[END-FE]
 //POINTER #150 @ $2578 - STRING #150 @ $3CCC
 #W32($2578)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1569,7 +1573,7 @@ Is that all right?[END-FE]
 //POINTER #151 @ $257C - STRING #151 @ $3CE5
 #W32($257C)
 //ポーン・スレイヤー[END-FE]
-ポーン・スレイヤー[END-FE]
+Pawn Slayer[END-FE]
 
 
 
@@ -1602,7 +1606,8 @@ Is that all right?[END-FE]
 //POINTER #154 @ $2588 - STRING #154 @ $3D9A
 #W32($2588)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1611,7 +1616,7 @@ Is that all right?[END-FE]
 //POINTER #155 @ $258C - STRING #155 @ $3DB3
 #W32($258C)
 //ルーク・スレイヤー[END-FE]
-ルーク・スレイヤー[END-FE]
+Rook Slayer[END-FE]
 
 
 
@@ -1644,7 +1649,8 @@ Is that all right?[END-FE]
 //POINTER #158 @ $2598 - STRING #158 @ $3E6A
 #W32($2598)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1653,7 +1659,7 @@ Is that all right?[END-FE]
 //POINTER #159 @ $259C - STRING #159 @ $3E83
 #W32($259C)
 //ナイト・スレイヤー[END-FE]
-ナイト・スレイヤー[END-FE]
+Knight Slayer[END-FE]
 
 
 
@@ -1686,7 +1692,8 @@ Is that all right?[END-FE]
 //POINTER #162 @ $25A8 - STRING #162 @ $3F3A
 #W32($25A8)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1695,7 +1702,7 @@ Is that all right?[END-FE]
 //POINTER #163 @ $25AC - STRING #163 @ $3F53
 #W32($25AC)
 //ビショップ・スレイヤー[END-FE]
-ビショップ・スレイヤー[END-FE]
+Bishop Slayer[END-FE]
 
 
 
@@ -1728,7 +1735,8 @@ Is that all right?[END-FE]
 //POINTER #166 @ $25B8 - STRING #166 @ $401C
 #W32($25B8)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1737,7 +1745,7 @@ Is that all right?[END-FE]
 //POINTER #167 @ $25BC - STRING #167 @ $4035
 #W32($25BC)
 //ヤクト・スレイヤー[END-FE]
-ヤクト・スレイヤー[END-FE]
+Jagd Slayer[END-FE]
 
 
 
@@ -1770,7 +1778,8 @@ Is that all right?[END-FE]
 //POINTER #170 @ $25C8 - STRING #170 @ $40F2
 #W32($25C8)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1779,7 +1788,7 @@ Is that all right?[END-FE]
 //POINTER #171 @ $25CC - STRING #171 @ $410B
 #W32($25CC)
 //クイーン・スレイヤー[END-FE]
-クイーン・スレイヤー[END-FE]
+Queen Slayer[END-FE]
 
 
 
@@ -1812,7 +1821,8 @@ Is that all right?[END-FE]
 //POINTER #174 @ $25D8 - STRING #174 @ $41CC
 #W32($25D8)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1854,7 +1864,8 @@ Is that all right?[END-FE]
 //POINTER #178 @ $25E8 - STRING #178 @ $4298
 #W32($25E8)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1896,7 +1907,8 @@ Is that all right?[END-FE]
 //POINTER #182 @ $25F8 - STRING #182 @ $435E
 #W32($25F8)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1938,7 +1950,8 @@ Is that all right?[END-FE]
 //POINTER #186 @ $2608 - STRING #186 @ $4434
 #W32($2608)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -1982,7 +1995,8 @@ Is that all right?[END-FE]
 //POINTER #190 @ $2618 - STRING #190 @ $4524
 #W32($2618)
 //この称号に変えますか？[END-FE]
-この称号に変えますか？[END-FE]
+Do you want to change to[NLINE]
+this title?[END-FE]
 
 
 
@@ -2777,7 +2791,7 @@ Is that all right?[END-FE]
 //POINTER #261 @ $2734 - STRING #261 @ $541D
 #W32($2734)
 //所持金 [CC.EF12][Mil][END-FE]
-Money [CC.EF12][Mil][END-FE]
+[CC.EF12][Mil][END-FE]
 
 
 
@@ -2816,7 +2830,7 @@ Go to the debugging room?[END-FE]
 //POINTER #265 @ $2744 - STRING #265 @ $5491
 #W32($2744)
 //ランダムチェックする？[END-FE]
-ランダムチェックする？[END-FE]
+Do you want to do a random check?[END-FE]
 
 
 
