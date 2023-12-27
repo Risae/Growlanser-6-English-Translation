@@ -39,6 +39,7 @@ Directory structure:
 - The NSA for making Ghidra Open Source and giving me a better tool to reverse engineer the ELF of the game
 - Shokoniraya for creating a quickBMS script that lets me forget all about the worries of having script size restrictions
 - A kind soul who provided us with the GL5 demo
+- ChatGPT for being a good little bot
 
 And all of the Growlanser fans around the world.
 
