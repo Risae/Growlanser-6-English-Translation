@@ -2,8 +2,180 @@ name: Build xDelta Patch
 on: workflow_dispatch
 
 jobs:
+  CheckScript:
+    runs-on: windows-2022
+    steps:
+      - name: 01. Copy repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: | # Only copy specific folders to the container
+            source
+
+      - name: 02. Check script
+        shell: pwsh # Powershell 7, which uses UTF-8 as default
+        run: |
+          echo "`n[i] Create list of Regex patterns that need to be checked"
+          $regexPatterns = @(
+            # Find dublicates
+            '\[NLINE\]\[NLINE\]',
+            '\[NWIN\]\[NWIN\]',
+            '\[END-FE\]\[END-FE\]',
+            '\[END-FF\]\[END-FF\]',
+            ',,',
+            # '　 ',
+
+            # Find unnecessary default [COL00] color code at the end of a string
+            '\[COL00\]\[END-FE\]',
+            '\[COL00\]\[END-FF\]',
+
+            # Find controls codes that is missing the ]
+            '\[NLINE[^]]*$',
+            '\[NWIN[^]]*$',
+            '\[END-FE[^]]*$',
+            '\[END-FF[^]]*$',
+            '\[COL00[^]]*$',
+            '\[COL01[^]]*$',
+            '\[COL02[^]]*$',
+            '\[COL03[^]]*$',
+            '\[COL04[^]]*$',
+            '\[COL05[^]]*$',
+            '\[COL06[^]]*$',
+            '\[COL07[^]]*$',
+            '\[COL08[^]]*$',
+            '\[COL09[^]]*$',
+            '\[COL0A[^]]*$',
+            '\[COL0B[^]]*$',
+            '\[COL0C[^]]*$',
+            '\[COL0D[^]]*$',
+            '\[COL0E[^]]*$',
+            '\[COL0F[^]]*$',
+
+            # Find controls codes that is missing the [
+            '[^[](NLINE])',
+            '[^[](NWIN])',
+            '[^[](END-FE])',
+            '[^[](END-FF])',
+            '[^[](COL00])',
+            '[^[](COL01])',
+            '[^[](COL02])',
+            '[^[](COL03])',
+            '[^[](COL04])',
+            '[^[](COL05])',
+            '[^[](COL06])',
+            '[^[](COL07])',
+            '[^[](COL08])',
+            '[^[](COL09])',
+            '[^[](COL0A])',
+            '[^[](COL0B])',
+            '[^[](COL0C])',
+            '[^[](COL0D])',
+            '[^[](COL0E])',
+            '[^[](COL0F])',
+
+            # Finds lines that are missing a ] at the end after alphabeth character
+            '[a-zA-Z0-9\!\?\.\,\(\)][^\]]*$',
+
+            # Finds [ missing in [CC.XXXX]
+            '[a-zA-Z0-9\!\?\.\,\(\)](CC\.)'
+
+            # Find string that is missing ., ,, !, ? before [NWIN] - Not working
+            # '[a-zA-Z0-9\!\?\.\,\(\)](\[NWIN\])',
+
+            # Find full width space before and after alphabet characters
+            # '[a-zA-Z0-9\!\?\.\,\(\)]　',
+            # '　[a-zA-Z0-9\!\?\.\,\(\)]'
+
+            # Find japanese `？`, `！`, `。`, `、`, `… ` before and after alphabet characters
+            # '[？！。、…][a-zA-Z0-9\!\?\.\,\(\)]',
+            # '[a-zA-Z0-9\!\?\.\,\(\)][？！。、…]',
+
+            # Finds `（`, `）`, `【`, `】`, `『`, `』`, `《`,` 》` that has alphabet characters after and before it
+            # '[（）【】『』《》][a-zA-Z0-9\!\?\.\,\(\)]',
+            # '[a-zA-Z0-9\!\?\.\,\(\)][（）【】『』《》]'
+          )
+
+          echo "`n[i] Initialize an empty list"
+          $outputList = @()
+
+          echo "`n[i] Create blackList"
+          $blackList = @(
+            '00000001.SCEN.asm',
+            '00000002.SCEN Dummy file',
+            '00000003.SCEN Dummy file',
+            '00000033.SCEN Dummy file',
+            '00000035.SCEN Dummy file',
+            '00000039.SCEN Dummy file',
+            '00000043.SCEN.asm',
+            '00000061.SCEN Dummy file',
+            '00000062.SCEN Dummy file',
+            '00000064.SCEN Dummy file',
+            '00000066.SCEN Dummy file',
+            '00000067.SCEN Dummy file',
+            '00000068.SCEN Dummy file',
+            '00000071.SCEN Dummy file',
+            '00000101.SCEC Dummy file',
+            '00000105.SCEC Dummy file',
+            '00000109.SCEC Voice check Debug overview',
+            '00000110.SCEC Voice check Debug',
+            '00000111.SCEC Voice check Debug',
+            '00000112.SCEC Voice check Debug',
+            '00000113.SCEC Voice check Debug',
+            '00000114.SCEC Voice check Debug',
+            '00000115.SCEC Voice check Debug',
+            '00000116.SCEC Voice check Debug',
+            '00000117.SCEC Voice check Debug',
+            '00000118.SCEC Dummy file',
+            '00000119.SCEC Dummy file',
+            '00000120.SCEC Dummy file',
+            '00000121.SCEC Dummy file',
+            '00000122.SCEC Dummy file',
+            '00000123.SCEC Dummy file',
+            '00000124.SCEC Dummy file',
+            '00000125.SCEC Dummy file',
+            '00000167.STXT Dummy file'
+          )
+
+          echo "`n[i] Iterate over each file, remove files from the blackList"
+          Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
+            Where-Object { $_.Name -notin $blackList } | 
+              ForEach-Object {
+
+                  echo "Checking $_"
+                  # What a clusterfuck of code this Powershell command Is
+                  # not entirely sure why i'm using Powershell in the first place
+                  $fileContent = Get-Content -LiteralPath $_.FullName
+
+                  # Filter out lines starting with //
+                  $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
+
+                  # Iterate over each line in the file
+                  foreach ($lineText in $fileContent) {
+
+                      # Check each regex
+                      foreach ($regex in $regexPatterns) {
+
+                          # If a regex matches, print out information about it
+                          if ($lineText -match $regex) {
+                              echo "[!] $_ - '$regex' - '$lineText'"
+                              $outputList += "[!] $_ - '$regex' - '$lineText'"
+                          }
+                      }
+                  }
+              }
+
+          echo "`n[i] Check if the outputList has any entries"
+          if ($outputList.Count -gt 0) {
+            echo "[!] Found errors. Exiting with code 1."
+            $outputList
+            exit 1
+          }
+          else {
+            echo "[i] No errors found."
+          }
+
   BuildPatch:
     runs-on: windows-2022
+    needs: CheckScript
     steps:
       - name: 01. Copy repository
         uses: actions/checkout@v4
@@ -14,31 +186,20 @@ jobs:
             tools
 
       - name: 02. Prepare files
-        shell: powershell
-        env:
-          TEST: ${{ secrets.TEST }}
-          TEST2: ${{ secrets.TEST2 }}
+        shell: pwsh
         run: |
+          echo "`n[i] Installing megatools"
           choco install megatools --yes
-          # Download files
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\DUMMY.DAT" --no-progress /Root/00
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_BTL.DAT" --no-progress /Root/01
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_CHAR.DAT" --no-progress /Root/02
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE.DAT" --no-progress /Root/03
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE.DAT" --no-progress /Root/04
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MAP.DAT" --no-progress /Root/05
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT" --no-progress /Root/06
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN.DAT" --no-progress /Root/07
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SND.DAT" --no-progress /Root/08
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_VOI.DAT" --no-progress /Root/09
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\IOPRP300.IMG" --no-progress /Root/10
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\SLPM_667.16" --no-progress /Root/11
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\06-translates_files\SYSTEM.CNF" --no-progress /Root/12
-          megatools get -u "$Env:TEST" -p "$Env:TEST2" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --no-progress /Root/13
 
-      - name: 03. Setup the build enviromnent
-        shell: powershell
+          echo "`n[i] Download and extract files"
+          megatools get -u "${{ secrets.TEST }}" -p "${{ secrets.TEST2 }}" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" --no-progress /Root/0.zip
+          Expand-Archive "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" -DestinationPath "$Env:GITHUB_WORKSPACE\build\05-original_files"
+          python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode extract --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\05-original_files"
+
+      - name: 03. Setup the build environment
+        shell: pwsh
         run: |
+          exit 1
           echo "`n[i] Create the 05-Build directory"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build"
 
@@ -56,7 +217,7 @@ jobs:
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -d -F "*.FACE" "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
 
       - name: 04. Patch ELF
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Copy the repository files + ELF to the armips folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_translation.asm" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_translation.asm"
@@ -72,7 +233,7 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\SLPM_667.16"
 
       - name: 05. Patch GL6_FACE.DAT
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Copy GL6_FACE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT"
@@ -98,7 +259,7 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FACE.DAT"
 
       - name: 06. Patch GL6_FILE.DAT
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Copy GL6_FILE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT"
@@ -191,7 +352,7 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FILE.DAT"
 
       - name: 07. Patch SCEN.DAT
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Copy SCEN.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\"
@@ -398,19 +559,19 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SCEN.DAT"
 
       - name: 08. Check filesize
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Get the translated file sizes"
           Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\06-translates_files" | Select-Object -Property Name, Length
 
       - name: 09. Create patched version
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Build"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\game_filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\06-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
 
       - name: 10. Create xDelta patch
-        shell: powershell
+        shell: pwsh
         run: |
           echo "`n[i] Create xDelta Patch"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
@@ -418,7 +579,7 @@ jobs:
           echo "`n[i] remove vcdiff\file"
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
 
-      - name: 11. Publish patch
+      - name: 11. Publish patch as an Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Growlanser_6_English_xDelta_Patch
