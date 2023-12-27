@@ -92,7 +92,7 @@
 
 <details> <summary><i>GL5 and 6 Regular Expressions</i></summary>
 
-These regex patterns can be used to quickly find any issues in the script (missing characters and such). `Notepad++` were used for these.
+These regex patterns can be used to quickly find any issues in the script (missing characters and such). `Notepad++` were used for these. Most of them are also part of the GitHub Actions Pipeline.
 
 ## Normal search
 
