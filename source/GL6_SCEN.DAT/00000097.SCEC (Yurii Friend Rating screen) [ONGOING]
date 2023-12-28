@@ -92,7 +92,7 @@
 //POINTER #8 @ $4C0 - STRING #8 @ $5F0
 #W32($4C0)
 //[COL09]眼中にないね[COL00][END-FE]
-[COL09]I'm not interested[COL00][END-FE]
+[COL09]I'm not interested[END-FE]
 
 
 
@@ -102,7 +102,7 @@
 #W32($4C4)
 //[COL05]彼が私の上官だったら…[COL00][END-FE]
 //Hofman\\
-[COL05]If he were my superior officer...[COL00][END-FE]
+[COL05]If he were my superior officer...[END-FE]
 
 
 
@@ -111,7 +111,7 @@
 //POINTER #10 @ $4C8 - STRING #10 @ $624
 #W32($4C8)
 //[COL04]頼れる男だと思う[COL00][END-FE]
-[COL04]頼れる男だと思う[COL00][END-FE]
+[COL04]頼れる男だと思う[END-FE]
 
 
 
@@ -129,7 +129,7 @@
 //POINTER #12 @ $4D0 - STRING #12 @ $659
 #W32($4D0)
 //[COL09]別に、何とも…[COL00][END-FE]
-[COL09]別に、何とも…[COL00][END-FE]
+[COL09]別に、何とも…[END-FE]
 
 
 
@@ -139,7 +139,7 @@
 #W32($4D4)
 //[COL05]…特別な人です…[COL00][END-FE]
 //Iristelessa\\
-[COL05]...is someone very special...[COL00][END-FE]
+[COL05]...is someone very special...[END-FE]
 
 
 
@@ -148,7 +148,7 @@
 //POINTER #14 @ $4D8 - STRING #14 @ $689
 #W32($4D8)
 //[COL04]さすがは守護勇士ですね[COL00][END-FE]
-[COL04]You are indeed the Brave One[COL00][END-FE]
+[COL04]You are indeed the Brave One[END-FE]
 
 
 
@@ -166,7 +166,7 @@
 //POINTER #16 @ $4E0 - STRING #16 @ $6C8
 #W32($4E0)
 //[COL09]守護勇士のくせに情けない…[COL00][END-FE]
-[COL09]守護勇士のくせに情けない…[COL00][END-FE]
+[COL09]守護勇士のくせに情けない…[END-FE]
 
 
 
@@ -176,7 +176,7 @@
 #W32($4E4)
 //[COL05]あの方以外見えません[COL00][END-FE]
 //Anita\\
-[COL05]あの方以外見えません[COL00][END-FE]
+[COL05]あの方以外見えません[END-FE]
 
 
 
@@ -185,7 +185,7 @@
 //POINTER #18 @ $4E8 - STRING #18 @ $708
 #W32($4E8)
 //[COL04]特別な殿方です…[COL00][END-FE]
-[COL04]特別な殿方です…[COL00][END-FE]
+[COL04]特別な殿方です…[END-FE]
 
 
 
@@ -203,7 +203,7 @@
 //POINTER #20 @ $4F0 - STRING #20 @ $733
 #W32($4F0)
 //[COL09]彼は変わってしまった…[COL00][END-FE]
-[COL09]He has changed...[COL00][END-FE]
+[COL09]He has changed...[END-FE]
 
 
 
@@ -213,7 +213,7 @@
 #W32($4F4)
 //[COL05]俺の認める数少ない男だ[COL00][END-FE]
 //Haschen\\
-[COL05]He's one of the few guys I approve of[COL00][END-FE]
+[COL05]He's one of the few guys I approve of[END-FE]
 
 
 
@@ -222,7 +222,7 @@
 //POINTER #22 @ $4F8 - STRING #22 @ $771
 #W32($4F8)
 //[COL04]良きライバル、かな？[COL00][END-FE]
-[COL04]良きライバル、かな？[COL00][END-FE]
+[COL04]良きライバル、かな？[END-FE]
 
 
 
@@ -240,7 +240,7 @@
 //POINTER #24 @ $500 - STRING #24 @ $7AE
 #W32($500)
 //[COL09]悪いが、よくわからないな[COL00][END-FE]
-[COL09]悪いが、よくわからないな[COL00][END-FE]
+[COL09]悪いが、よくわからないな[END-FE]
 
 
 
