@@ -460,17 +460,13 @@ medicines I bought.[END-FE]
 //POINTER #31 @ $5F9C - STRING #31 @ $6910
 #W32($5F9C)
 //ウェンディ\\
-//…[CC.D80F]…[CC.D80F]…[CC.D80F]…
-//[CH.FACE:Sad][CHARCB00][V1000]
-//あれ？[NWIN]
+//…[CC.D80F]…[CC.D80F]…[CC.D80F]…[CH.FACE:Sad][CHARCB00][V1000]あれ？[NWIN]
 //
 //[CH.FACE:Angry][CHARCB00][V1100]
 //ないっ!?[CC.D80F][NLINE]
 //ない、[CC.D80F]ない、[CC.D80F]ないっ!![END-FE]
 //Wendy\\
-.[CC.D80F].[CC.D80F].[CC.D80F].
-[CH.FACE:Sad][CHARCB00][V1000]
-Huh?[NWIN]
+.[CC.D80F].[CC.D80F].[CC.D80F].[CH.FACE:Sad][CHARCB00][V1000]Huh?[NWIN]
 
 [CH.FACE:Angry][CHARCB00][V1100]
 It's gone!?[CC.D80F][NLINE]
