@@ -4,31 +4,33 @@ import logging
 from pathlib import Path
 from dataclasses import dataclass
 
+SCRIPT_VERSION = "1.0"
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 
-
 @dataclass
-class FileListData():
+class FileListData:
     path: Path
     inode: int
+    lba: int
 
 
 @dataclass
-class FileListInfo():
+class FileListInfo:
     files: list[FileListData]
     total_inodes: int
 
 
 def main():
-    logging.info("pyPS2 ISO Rebuilder")
+    logging.info(f"pyPS2 ISO Rebuilder v{SCRIPT_VERSION}")
     logging.info("Original by Raynê Games")
 
     args = get_arguments()
 
     if args.mode == "extract":
-        logging.info("Dumping mode is not (re)implemented yet!")
-        # dump_iso(args.iso, args.filelist, args.files, args.output)
+        dump_iso(args.iso, args.filelist, args.files)
+        logging.info("dumping finished")
     else:
         rebuild_iso(args.iso, args.filelist, args.files, args.output, args.with_padding)
         logging.info("rebuild finished")
@@ -58,7 +60,7 @@ def get_arguments(argv=None):
     parser.add_argument(
         "--with-padding",
         required=False,
-        action='store_true',
+        action="store_true",
         help="flag to control outermost iso padding",
     )
 
@@ -95,31 +97,126 @@ def get_arguments(argv=None):
         args.filelist = curr_dir / f"{args.iso.name.upper()}-FILELIST-LSN.TXT"
 
     if hasattr(args, "files") and not args.files:
-        args.files = curr_dir /  f"@{args.iso.name.upper()}"
-    
+        args.files = curr_dir / f"@{args.iso.name.upper()}"
+
     if hasattr(args, "output") and not args.output:
         args.output = curr_dir / f"NEW_{args.iso.name}"
 
     return args
 
 
+def dump_iso(iso_path: Path, filelist: Path, iso_files: Path) -> None:
+
+    if not iso_path.exists():
+        logging.error(f"Could not to find '{iso_path.name}'!")
+        return
+
+    iso_files.mkdir(parents=True, exist_ok=True)
+
+    with open(iso_path, "rb") as iso:
+        
+        iso.seek(0x809E)
+        path_parts = []
+        record_ends = []
+        record_pos = []
+        file_info = FileListInfo([], 0)
+
+        # get the root directory record off the PVD
+        dr_data_pos, dr_data_len = struct.unpack("<I4xI", iso.read(12))
+        dr_data_pos *= 0x800
+        record_ends.append(dr_data_pos + dr_data_len)
+        record_pos.append(0)
+        iso.seek(dr_data_pos)
+
+        # Traverse directory records recursively
+        # Did I mention that I won't do function recursion?
+        while True:
+            # Have we reached the end of current dir record?
+            if iso.tell() >= record_ends[-1]:
+                if len(record_ends) == 1:
+                    # If it's the last one, we finished
+                    break
+                else:
+                    # Otherwise keep reading the previous one
+                    record_ends.pop()
+                    path_parts.pop()
+                    iso.seek(record_pos.pop())
+
+            # Parse the record
+            inode = iso.tell()
+            dr_len = struct.unpack("<B", iso.read(1))[0]
+            dr_blob = iso.read(dr_len - 1)
+
+            (
+                dr_ea_len,
+                dr_data_pos,
+                dr_data_len,
+                dr_flags,
+                dr_inter,
+                dr_volume,
+                dr_name_len,
+            ) = struct.unpack_from("<BI4xI4x7xBHH2xB", dr_blob)
+
+            assert dr_ea_len == 0, "ISOs with extra attributes are not supported!"
+            assert dr_inter == 0, "Interleaved ISOs are not supported!"
+            assert dr_volume == 1, "multi-volume ISOs are not supported!"
+            assert (dr_flags & 0b1000000) == 0, "4GiB+ files are not supported!"
+
+            # the dir records always en on even addresses
+            if (iso.tell() % 2) != 0:
+                iso.read(1)
+
+            dr_data_pos *= 0x800
+
+            dr_name = dr_blob[32 : 32 + dr_name_len]
+
+            # record with these names are the '.' and '..'
+            # directories respectively, so skip them
+            if dr_name == b"\x00" or dr_name == b"\x01":
+                continue
+
+            dr_name = dr_name.decode()
+            if dr_name.endswith(";1"):
+                dr_name = dr_name[:-2]
+            path_parts.append(dr_name)
+
+            file_info.total_inodes += 1
+
+            # is it a directory?
+            if (dr_flags & 0b10) != 0:
+                # Go to its directory record
+                record_pos.append(iso.tell())
+                record_ends.append(dr_data_pos + dr_data_len)
+                fp = iso_files / "/".join(path_parts)
+                fp.mkdir(exist_ok=True)
+                iso.seek(dr_data_pos)
+                continue
+            else:
+                # Otherwise dump the file
+                fp = "/".join(path_parts)
+                logging.info(f"saving {fp}")
+
+                save_pos = iso.tell()
+                with open(iso_files / fp, "wb+") as f:
+                    iso.seek(dr_data_pos)
+                    f.write(iso.read(dr_data_len))
+                iso.seek(save_pos)
+
+                file_info.files.append(FileListData(Path(fp), inode, dr_data_pos))
+                path_parts.pop()
+
+        # The filelist file has the files ordered based on their disc position
+        file_info.files = sorted(file_info.files, key=lambda x: x.lba)
+
+        with open(filelist, "w", encoding="utf8") as f:
+            for d in file_info.files:
+                f.write(f"|{d.inode}||{iso_files.name}/{d.path}|\n")
+            f.write(f"//{file_info.total_inodes}")
+
+
 def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_padding: bool) -> None:
-    """
-    Rebuilds a PS2 ISO with the specified file list and options.
-
-    Args:
-        iso (Path): Path to the original ISO.
-        filelist (Path): Path to the file list.
-        iso_files (Path): Path to the directory with extracted ISO files.
-        output (Path): Path to the output ISO file.
-        add_padding (bool): Whether to add padding to the end of the ISO.
-
-    Returns:
-        None
-    """
-
     if not filelist.exists():
-        logging.error(f"File '{filelist.name}' not found!")
+        logging.error(f"Could not to find the '{filelist.name}' files log!")
         return
 
     if not iso_files.exists():
@@ -135,9 +232,9 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
 
     inode_data: list[FileListData] = []
     for line in lines[:-1]:
-        l = [x for x in line.split("|")if x]
+        l = [x for x in line.split("|") if x]
         p = Path(l[1])
-        inode_data.append(FileListData(Path(*p.parts[1:]), int(l[0])))
+        inode_data.append(FileListData(Path(*p.parts[1:]), int(l[0]), 0))
 
     if not lines[-1].startswith("//"):
         logging.error(f"Could not to find the '{filelist.name}' inode total!")
@@ -150,8 +247,8 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
         i = 0
         data_start = -1
         for lba in range(7862):
-            udf_check = struct.unpack_from("<269x18s1761x", header, lba*0x800)[0]
-            if udf_check == b'*UDF DVD CGMS Info':
+            udf_check = struct.unpack_from("<269x18s1761x", header, lba * 0x800)[0]
+            if udf_check == b"*UDF DVD CGMS Info":
                 i += 1
 
             if i == iso_info.total_inodes + 1:
@@ -211,7 +308,8 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
         if add_padding:
             f.write(b"\x00" * (0x140_0000 - 0x800))
 
-        last_pvd_lba = f.tell() // 0x800
+        # Last LBA includes the anchor
+        last_pvd_lba = (f.tell() // 0x800) + 1
 
         f.write(footer)
         f.seek(0x8050)
