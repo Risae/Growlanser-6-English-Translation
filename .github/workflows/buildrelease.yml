@@ -193,8 +193,9 @@ jobs:
 
           echo "`n[i] Download and extract files"
           megatools get -u "${{ secrets.TEST }}" -p "${{ secrets.TEST2 }}" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" --no-progress /Root/0.zip
-          Expand-Archive "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" -DestinationPath "$Env:GITHUB_WORKSPACE\build\05-original_files"
+          Expand-Archive -Verbose "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" -DestinationPath "$Env:GITHUB_WORKSPACE\build\05-original_files"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode extract --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\05-original_files"
+          ls "$Env:GITHUB_WORKSPACE\build\05-original_files"
 
       - name: 03. Setup the build environment
         shell: pwsh
