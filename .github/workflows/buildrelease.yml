@@ -163,14 +163,14 @@ jobs:
                   }
               }
 
-          echo "`n[i] Check if the outputList has any entries"
+          echo "`n[i] Checking if the outputList has any entries..."
           if ($outputList.Count -gt 0) {
             echo "[!] Found errors. Exiting with code 1."
             $outputList
             exit 1
           }
           else {
-            echo "[i] No errors found."
+            echo "`e[32m[i] No errors found!"
           }
 
   BuildPatch:
@@ -195,12 +195,21 @@ jobs:
           megatools get -u "${{ secrets.TEST }}" -p "${{ secrets.TEST2 }}" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" --no-progress /Root/0.zip
           Expand-Archive -Verbose "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" -DestinationPath "$Env:GITHUB_WORKSPACE\build\05-original_files"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode extract --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\05-original_files"
-          ls "$Env:GITHUB_WORKSPACE\build\05-original_files"
+
+          echo "`n[i] Move specific files"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\DUMMY.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\DUMMY.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_BTL.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_BTL.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_CHAR.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_CHAR.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MAP.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MAP.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SND.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SND.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_VOI.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_VOI.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\IOPRP300.IMG" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\IOPRP300.IMG"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\SYSTEM.CNF" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\SYSTEM.CNF"
 
       - name: 03. Setup the build environment
         shell: pwsh
         run: |
-          exit 1
           echo "`n[i] Create the 05-Build directory"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build"
 
@@ -569,7 +578,7 @@ jobs:
         shell: pwsh
         run: |
           echo "`n[i] Build"
-          python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\game_filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\06-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
+          python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\06-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
 
       - name: 10. Create xDelta patch
         shell: pwsh
