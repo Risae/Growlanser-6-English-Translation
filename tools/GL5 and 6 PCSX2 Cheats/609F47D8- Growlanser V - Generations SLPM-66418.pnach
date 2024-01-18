@@ -1,0 +1,7 @@
+gametitle=Growlanser V - Generations [SLPM 66418] (J)
+comment=Patch by Ethanol
+
+[Debug/Enable Debug Map Selection]
+author=Ethanol
+description=Enables the debug map selection after starting the game
+patch=1,EE,203FB888,extended,0

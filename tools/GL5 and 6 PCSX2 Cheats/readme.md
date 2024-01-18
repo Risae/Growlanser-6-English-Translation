@@ -1,12 +1,4 @@
-We found various ways to access the debug map of Growlanser 5 and 6.
-In order to easily access it Ethanol created PCSX2 cheats for almost all Growlanser 5 and 6 versions (excluding the GL5 Demo and GL5 EU).
-The files need to be renamed with the game's CRC that you are using.
-
-- `GL5 ENG debug cheat CRC.pnach` for the US version of Growlanser 5
-- `GL5 JPN debug cheat CRC.pnach` for the JPN version of Growlanser 5
-- `GL6 debug cheat CRC.pnach` for Growlanser 6
-
-`GL5 ENG cheats CRC.pnach` are various cheats for the US Growlanser 5 release.
+We found various ways to access the debug map of Growlanser 5 and 6. In order to easily access it Ethanol created PCSX2 cheats for almost all Growlanser 5 and 6 versions (excluding the GL5 Demo and GL5 EU).
 
 <details> <summary><i>Growlanser 5/6: How to access the debug map using the PCSX2 debugger</i></summary>
 
