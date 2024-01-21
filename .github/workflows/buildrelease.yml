@@ -16,6 +16,758 @@ jobs:
         run: |
           echo "`n[i] Create list of Regex patterns that need to be checked"
           $regexPatterns = @(
+            # Common english typos
+            # A
+            '\baccross\b', # across
+            '\bacheive\b', # achieve
+            '\badn\b', # and
+            '\babondon\b', # abandon
+            '\babiltiy\b', # ability
+            '\babscence\b', # absence
+            '\babsense\b', # absence
+            '\babsorbtion\b', # absorption
+            '\bacadamy\b', # academy
+            '\baccesories\b', # accessories
+            '\baccomadate\b', # accommodate
+            '\baccomodate\b', # accommodate
+            '\baccomplishement\b', # accomplishment
+            '\baccomplishements\b', # accomplishments
+            '\baccoutn\b', # account
+            '\bacidently\b', # accidentally
+            '\bacomplish\b', # accomplish
+            '\bacording\b', # according
+            '\bacquaintences\b', # acquaintances
+            '\bacquiantance\b', # acquaintance
+            '\bacquiantances\b', # acquaintances
+            '\bacrly\b', # acryl
+            '\bactivites\b', # activities
+            '\bactivly\b', # actively
+            '\bactualy\b', # actually
+            '\bacuracy\b', # accuracy
+            '\bacusations\b', # accusations
+            '\badavanced\b', # advanced
+            '\baddional\b', # additional
+            '\badditinally\b', # additionally
+            '\baddres\b', # address
+            '\baddresable\b', # addressable
+            '\baddresed\b', # addressed
+            '\baddresing\b', # addressing
+            '\badhearing\b', # adhering
+            '\badherance\b', # adherence
+            '\baditional\b', # additional
+            '\baditionally\b', # additionally
+            '\badmitedly\b', # admittedly
+            '\badolecent\b', # adolescent
+            '\badress\b', # address
+            '\badviced\b', # advised
+            '\bagressive\b', # aggressive
+            '\balot\b', # a lot
+            '\barguement\b', # argument
+
+            # B
+            '\bbasicly\b', # basically
+            '\bbeleive\b', # believe
+            '\bbenifit\b', # benefit
+            '\bbegining\b', # beginning
+            '\bbacause\b', # because
+            '\bbaloons\b', # balloons
+            '\bbeatiful\b', # beautiful
+            '\bbeaurocracy\b', # bureaucracy
+            '\bbecasue\b', # because
+            '\bbecuase\b', # because
+            '\bbefoer\b', # before
+            '\bbeggining\b', # beginning
+            '\bbeginnig\b', # beginning
+            '\bbeleif\b', # belief
+            '\bbeleive\b', # believe
+            '\bbelive\b', # believe
+            '\bbenificial\b', # beneficial
+            '\bbenifit\b', # benefit
+            '\bbestowes\b', # bestows
+            '\bbeteen\b', # between
+            '\bbetwen\b', # between
+            '\bbeutiful\b', # beautiful
+            '\bbeween\b', # between
+            '\bbewteen\b', # between
+            '\bbeyon\b', # beyond
+            '\bbiginning\b', # beginning
+            '\bbigining\b', # beginning
+            '\bbizzare\b', # bizarre
+            '\bblaim\b', # blame
+            '\bblaimed\b', # blamed
+            '\bboaut\b', # about
+            '\bbouyant\b', # buoyant
+            '\bbradcast\b', # broadcast
+            '\bbriliant\b', # brilliant
+            '\bbudjet\b', # budget
+            '\bbuisness\b', # business
+
+            # C
+            '\bcalender\b', # calendar
+            '\bcharachter\b', # character
+            '\bcomming\b', # coming
+            '\bconcious\b', # conscious
+            '\bcalandar\b', # calendar
+            '\bcalculater\b', # calculator
+            '\bcalulater\b', # calculator
+            '\bcarreer\b', # career
+            '\bcarribean\b', # Caribbean
+            '\bcarribean\b', # Caribbean
+            '\bcartrige\b', # cartridge
+            '\bcatagory\b', # category
+            '\bcausalities\b', # casualties
+            '\bCeasar\b', # Caesar
+            '\bceleberation\b', # celebration
+            '\bcellpading\b', # cellpadding
+            '\bcemetary\b', # cemetery
+            '\bcencus\b', # census
+            '\bcenet\b', # cent
+            '\bcententenial\b', # centennial
+            '\bcentruy\b', # century
+            '\bceratin\b', # certain
+            '\bcerimonial\b', # ceremonial
+            '\bcerimonies\b', # ceremonies
+            '\bcerimony\b', # ceremony
+            '\bcertian\b', # certain
+            '\bchallange\b', # challenge
+            '\bchallanged\b', # challenged
+            '\bchanell\b', # channel
+            '\bchanneled\b', # channeled
+            '\bChaple\b', # Chapel
+            '\bcheif\b', # chief
+            '\bcheifs\b', # chiefs
+            '\bchemcial\b', # chemical
+            '\bchemcially\b', # chemically
+            '\bchemestry\b', # chemistry
+            '\bchoclate\b', # chocolate
+
+            # D
+            '\bdecieve\b', # deceive
+            '\bdefinately\b', # definitely
+            '\bdalmation\b', # dalmatian
+            '\bdamenor\b', # demeanor
+            '\bdangerious\b', # dangerous
+            '\bdeaprtment\b', # department
+            '\bdecaffinated\b', # decaffeinated
+            '\bdecendant\b', # descendant
+            '\bdecendent\b', # descendant
+            '\bdecideable\b', # decidable
+            '\bdecidely\b', # decidedly
+            '\bdecieved\b', # deceived
+            '\bdecison\b', # decision
+            '\bdecomissioned\b', # decommissioned
+            '\bdecomposit\b', # decompose
+            '\bdecomposits\b', # decomposes
+            '\bdecress\b', # decrease
+            '\bdecribe\b', # describe
+            '\bdecribed\b', # described
+            '\bdecribes\b', # describes
+            '\bdecribing\b', # describing
+            '\bdediced\b', # decided
+            '\bdefendent\b', # defendant
+            '\bdefinining\b', # defining
+            '\bdefinit\b', # definite
+            '\bdefinitly\b', # definitely
+            '\bdefiniton\b', # definition
+            '\bdefintion\b', # definition
+
+            # E
+            '\bembarass\b', # embarrass
+            '\benviroment\b', # environment
+            '\bequipement\b', # equipment
+            '\bexistance\b', # existence
+            '\bexperiance\b', # experience
+            '\becclectic\b', # eclectic
+            '\beconomicaly\b', # economically
+            '\beducationg\b', # education
+            '\beffeciency\b', # efficiency
+            '\beffecient\b', # efficient
+            '\beffeciently\b', # efficiently
+            '\befficency\b', # efficiency
+            '\befficent\b', # efficient
+            '\befficently\b', # efficiently
+            '\belimentary\b', # elementary
+            '\bellected\b', # elected
+            '\bembarassing\b', # embarrassing
+            '\bembarassment\b', # embarrassment
+            '\bembezelled\b', # embezzled
+            '\bemblamatic\b', # emblematic
+            '\beminate\b', # emanate
+            '\beminated\b', # emanated
+            '\bemision\b', # emission
+            '\bemited\b', # emitted
+            '\bemiting\b', # emitting
+            '\bemmision\b', # emission
+            '\bemmited\b', # emitted
+            '\bemmiting\b', # emitting
+            '\bemnity\b', # enmity
+            '\bencouraing\b', # encouraging
+            '\bencryptiion\b', # encryption
+            '\bencylopedia\b', # encyclopedia
+
+            # F
+            '\bFebuary\b', # February
+            '\bfinaly\b', # finally
+            '\bforiegn\b', # foreign
+            '\bfreind\b', # friend
+
+            # G
+            '\bgaurd\b', # guard
+            '\bgoverment\b', # government
+            '\bgaurd\b', # guard
+            '\bgaurded\b', # guarded
+            '\bgaurding\b', # guarding
+            '\bgaurds\b', # guards
+            '\bgovenment\b', # government
+            '\bgoverance\b', # governance
+            '\bgoverment\b', # government
+            '\bgovermental\b', # governmental
+            '\bgoverner\b', # governor
+            '\bgreatful\b', # grateful
+            '\bguidence\b', # guidance
+            '\bgurantee\b', # guarantee
+            '\bguranteed\b', # guaranteed
+            '\bgurantees\b', # guarantees
+
+            # H
+            '\bhappend\b', # happened
+            '\bhieght\b', # height
+            '\bharrass\b', # harass
+            '\bharrassed\b', # harassed
+            '\bharrasses\b', # harasses
+            '\bharrassing\b', # harassing
+            '\bharrassment\b', # harassment
+            '\bheirarchy\b', # hierarchy
+            '\bherad\b', # heard
+            '\bheridity\b', # heredity
+            '\bheroe\b', # hero
+            '\bheros\b', # heroes
+            '\bhertzs\b', # hertz
+            '\bhierachical\b', # hierarchical
+            '\bhierachies\b', # hierarchies
+            '\bhierachy\b', # hierarchy
+            '\bhierarcy\b', # hierarchy
+            '\bhieroglph\b', # hieroglyph
+            '\bhieroglphs\b', # hieroglyphs
+            '\bhigest\b', # highest
+            '\bhinderance\b', # hindrance
+            '\bhinderence\b', # hindrance
+            '\bhindrence\b', # hindrance
+            '\bhumer\b', # humor
+            '\bhumerous\b', # humorous
+
+            # I
+            '\bindependant\b', # independent
+            '\binventary\b', # inventory
+            '\bidae\b', # idea
+            '\bidaes\b', # ideas
+            '\bidendify\b', # identify
+            '\bidendity\b', # identity
+            '\biditosyncracy\b', # idiosyncrasy
+            '\bimcomplete\b', # incomplete
+            '\bimmediatley\b', # immediately
+            '\bimmediatly\b', # immediately
+            '\bimmidately\b', # immediately
+            '\bimmidiate\b', # immediate
+            '\bimmidiately\b', # immediately
+            '\bimmitate\b', # imitate
+            '\bimmitated\b', # imitated
+            '\bimmitating\b', # imitating
+            '\bimmitator\b', # imitator
+            '\bimpecabbly\b', # impeccably
+            '\bimpedence\b', # impedance
+            '\bimplamenting\b', # implementing
+            '\bimpliment\b', # implement
+            '\bimplimented\b', # implemented
+            '\bimplimenting\b', # implementing
+            '\bimpliments\b', # implements
+            '\bimportamt\b', # important
+            '\bimpressario\b', # impresario
+            '\bimprioned\b', # imprisoned
+            '\bimprisonned\b', # imprisoned
+            '\bimprovision\b', # improvisation
+            '\bimprovments\b', # improvements
+            '\binablility\b', # inability
+            '\binaccessable\b', # inaccessible
+            '\binadiquate\b', # inadequate
+            '\binadquate\b', # inadequate
+            '\binadvertant\b', # inadvertent
+            '\binadvertantly\b', # inadvertently
+            '\binagurated\b', # inaugurated
+            '\binaguration\b', # inauguration
+            '\binbetween\b', # in between
+            '\bincedent\b', # incident
+            '\bincedents\b', # incidents
+            '\bincidently\b', # incidentally
+            '\binclreased\b', # increased
+            '\binclud\b', # include
+            '\bincludng\b', # including
+            '\bincompatabilities\b', # incompatibilities
+            '\bincompatability\b', # incompatibility
+            '\bincompatable\b', # incompatible
+            '\bincompetance\b', # incompetence
+            '\bincompetant\b', # incompetent
+
+            # J
+            '\bjewlery\b', # jewelry
+            '\bjudgement\b', # judgement (or judgment in American English)
+            '\bjanurary\b', # January
+            '\bjanuray\b', # January
+            '\bjewllery\b', # jewellery
+            '\bjournied\b', # journeyed
+            '\bjournies\b', # journeys
+            '\bjstu\b', # just
+            '\bjudegement\b', # judgement
+            '\bjugment\b', # judgment
+            '\bjusitce\b', # justice
+            '\bjut\b', # just
+
+            # K
+            '\bknwo\b', # know
+            '\bknowlege\b', # knowledge
+            '\bknwo\b', # know
+            '\bknowlege\b', # knowledge
+            '\bknowledege\b', # knowledge
+            '\bknowledgable\b', # knowledgeable
+            '\bknwoing\b', # knowing
+            '\bknwos\b', # knows
+            '\bkonw\b', # know
+            '\bkonws\b', # knows
+
+            # L
+            '\blenght\b', # length
+            '\blevle\b', # level
+            '\blibary\b', # library
+            '\bliek\b', # like
+            '\blisense\b', # license
+            '\blitature\b', # literature
+            '\bloose\b', # lose
+            '\blieuenant\b', # lieutenant
+            '\blieuenants\b', # lieutenants
+            '\bliftime\b', # lifetime
+            '\bligth\b', # light
+            '\blikly\b', # likely
+            '\blimitted\b', # limited
+            '\bliteraly\b', # literally
+            '\bliterrally\b', # literally
+            '\bliveing\b', # living
+            '\blodger\b', # lodger
+            '\blonelyness\b', # loneliness
+            '\blongetivity\b', # longevity
+            '\blonley\b', # lonely
+            '\bloosing\b', # losing
+            '\blveo\b', # love
+
+            # M
+            '\bmanagment\b', # management
+            '\bmantain\b', # maintain
+            '\bmedecine\b', # medicine
+            '\bmispell\b', # misspell
+            '\bmorgage\b', # mortgage
+            '\bmultplayer\b', # multiplayer
+            '\bmysterous\b', # mysterious
+            '\bmaintainance\b', # maintenance
+            '\bmaintainence\b', # maintenance
+            '\bmaintance\b', # maintenance
+            '\bmaintenence\b', # maintenance
+            '\bmaked\b', # made
+            '\bmakse\b', # makes
+            '\bmalestrom\b', # maelstrom
+            '\bmaltesian\b', # Maltese
+            '\bmanagable\b', # manageable
+            '\bmanagment\b', # management
+            '\bmaneouvre\b', # manoeuvre
+            '\bmaneouvred\b', # manoeuvred
+            '\bmaneouvres\b', # manoeuvres
+            '\bmaneouvring\b', # manoeuvring
+            '\bmanisfest\b', # manifest
+            '\bmanoeuverability\b', # manoeuvrability
+            '\bmanouver\b', # manoeuvre
+            '\bmanouverability\b', # manoeuvrability
+            '\bmanouvered\b', # manoeuvred
+            '\bmanouvred\b', # manoeuvred
+            '\bmantained\b', # maintained
+            '\bmanuever\b', # manoeuvre
+            '\bmanuevers\b', # manoeuvres
+            '\bmanufacturedd\b', # manufactured
+            '\bmanufature\b', # manufacture
+            '\bmanufatured\b', # manufactured
+            '\bmanufaturing\b', # manufacturing
+            '\bmanuver\b', # maneuver
+            '\bmariage\b', # marriage
+            '\bmarjority\b', # majority
+            '\bmarkes\b', # marks
+            '\bmarmelade\b', # marmalade
+            '\bmassmedia\b', # mass media
+            '\bmasterbation\b', # masturbation
+            '\bmateralists\b', # materialists
+            '\bmathamatics\b', # mathematics
+            '\bmathematican\b', # mathematician
+            '\bmathematicas\b', # mathematics
+            '\bmatheticians\b', # mathematicians
+            '\bmathmatically\b', # mathematically
+            '\bmathmatician\b', # mathematician
+            '\bmathmaticians\b', # mathematicians
+            '\bmccarthyst\b', # McCarthyist
+            '\bmeanign\b', # meaning
+            '\bmechandise\b', # merchandise
+            '\bmedacine\b', # medicine
+            '\bmedeival\b', # medieval
+            '\bmedevial\b', # medieval
+            '\bmediciney\b', # medicine
+            '\bmedievel\b', # medieval
+            '\bmediterainnean\b', # Mediterranean
+            '\bmediteranean\b', # Mediterranean
+            '\bmeida\b', # media
+            '\bmelieux\b', # milieux
+            '\bmembranaphone\b', # membranophone
+            '\bmemeber\b', # member
+            '\bmenally\b', # mentally
+            '\bmeranda\b', # veranda
+            '\bmercentile\b', # mercantile
+            '\bmerchanta\b', # merchant
+            '\bmerrit\b', # merit
+            '\bmersinary\b', # mercenary
+            '\bmessanger\b', # messenger
+            '\bmessenging\b', # messaging
+            '\bmethaphor\b', # metaphor
+            '\bmethaphors\b', # metaphors
+            '\bmichagan\b', # Michigan
+            '\bmicoscopy\b', # microscopy
+            '\bmidwifes\b', # midwives
+            '\bmilennia\b', # millennia
+            '\bmilennium\b', # millennium
+            '\bmiligram\b', # milligram
+            '\bmilimeter\b', # millimeter
+            '\bmilimeters\b', # millimeters
+            '\bmillenia\b', # millennia
+            '\bmillenial\b', # millennial
+            '\bmillenialism\b', # millennialism
+            '\bmillenium\b', # millennium
+            '\bmillepede\b', # millipede
+            '\bmillioniare\b', # millionaire
+            '\bmiltary\b', # military
+            '\bminature\b', # miniature
+            '\bminerial\b', # mineral
+            '\bministery\b', # ministry
+            '\bminstries\b', # ministries
+            '\bminstry\b', # ministry
+            '\bminumum\b', # minimum
+            '\bmirrorred\b', # mirrored
+            '\bmischeivous\b', # mischievous
+            '\bmischevious\b', # mischievous
+            '\bmisdameanor\b', # misdemeanor
+            '\bmisdameanors\b', # misdemeanors
+            '\bmisdemenor\b', # misdemeanor
+
+            # N
+            '\bmispell\b', # misspell
+            '\bnad\b', # and
+            '\bnagetive\b', # negative
+            '\bnagetively\b', # negatively
+            '\bnalysis\b', # analysis
+            '\bnalyzing\b', # analyzing
+            '\bnarcicism\b', # narcissism
+            '\bnarcisism\b', # narcissism
+            '\bnarcissim\b', # narcissism
+            '\bnaturual\b', # natural
+            '\bnaturually\b', # naturally
+            '\bnecesarily\b', # necessarily
+            '\bnecesary\b', # necessary
+            '\bnecesities\b', # necessities
+            '\bnecesserily\b', # necessarily
+            '\bnecessiate\b', # necessitate
+            '\bnecessites\b', # necessitates
+            '\bnecesity\b', # necessity
+            '\bneccessarily\b', # necessarily
+            '\bneccessary\b', # necessary
+            '\bneccessities\b', # necessities
+            '\bneccessity\b', # necessity
+            '\bnecesitate\b', # necessitate
+            '\bnecesitates\b', # necessitates
+            '\bnecesities\b', # necessities
+            '\bnecesity\b', # necessity
+            '\bnecissarily\b', # necessarily
+            '\bnecissary\b', # necessary
+            '\bnecissities\b', # necessities
+            '\bnecissity\b', # necessity
+            '\bnegotation\b', # negotiation
+            '\bnegotions\b', # negotiations
+            '\bneice\b', # niece
+            '\bneigborhood\b', # neighborhood
+            '\bneigbour\b', # neighbour
+            '\bneigbourhood\b', # neighbourhood
+            '\bneigbouring\b', # neighbouring
+            '\bneigbours\b', # neighbours
+            '\bneolitic\b', # neolithic
+            '\bnessecary\b', # necessary
+            '\bnessecities\b', # necessities
+            '\bnessecity\b', # necessity
+            '\bnessecity\b', # necessity
+            '\bneutraly\b', # neutrally
+            '\bneverthless\b', # nevertheless
+            '\bnewletters\b', # newsletters
+            '\bnework\b', # network
+            '\bnewpapers\b', # newspapers
+            '\bnewslatter\b', # newsletter
+            '\bnewyorker\b', # New Yorker
+            '\bnich\b', # niche
+            '\bnickle\b', # nickel
+            '\bnicle\b', # nickel
+            '\bnieghbour\b', # neighbour
+            '\bnieghbourhood\b', # neighbourhood
+            '\bnieghbouring\b', # neighbouring
+            '\bnieghbours\b', # neighbours
+            '\bnigth\b', # night
+            '\bninteenth\b', # nineteenth
+            '\bninties\b', # nineties
+            '\bninty\b', # ninety
+            '\bnmemonic\b', # mnemonic
+            '\bnmemonics\b', # mnemonics
+            '\bnnovation\b', # innovation
+            '\bnoth\b', # not
+            '\bnoticable\b', # noticeable
+            '\bnotications\b', # notifications
+            '\bnoticible\b', # noticeable
+            '\bnotwhithstanding\b', # notwithstanding
+            '\bnoveau\b', # nouveau
+            '\bnovermber\b', # November
+            '\bnucular\b', # nuclear
+            '\bnuculear\b', # nuclear
+            '\bnuculuar\b', # nuclear
+            '\bnusance\b', # nuisance
+            '\bnutritent\b', # nutrient
+            '\bnutritents\b', # nutrients
+            '\bnuturing\b', # nurturing
+
+            # O
+            '\boccured\b', # occurred
+            '\boccurence\b', # occurrence
+            '\boffical\b', # official
+            '\bocassion\b', # occasion
+            '\bocassional\b', # occasional
+            '\bocassionally\b', # occasionally
+            '\bocassions\b', # occasions
+            '\boccaison\b', # occasion
+            '\boccassion\b', # occasion
+            '\boccassional\b', # occasional
+            '\boccassionally\b', # occasionally
+            '\boccassions\b', # occasions
+            '\boccationally\b', # occasionally
+            '\boccour\b', # occur
+            '\boccurrance\b', # occurrence
+            '\boccurrances\b', # occurrences
+            '\bocur\b', # occur
+            '\bocurr\b', # occur
+            '\bocurred\b', # occurred
+            '\bocurring\b', # occurring
+            '\bofficals\b', # officials
+            '\boging\b', # going
+            '\bomision\b', # omission
+            '\bomited\b', # omitted
+            '\bomiting\b', # omitting
+            '\bomlette\b', # omelette
+            '\bommision\b', # omission
+            '\bommited\b', # omitted
+            '\bommiting\b', # omitting
+            '\bommitted\b', # omitted
+            '\bommitting\b', # omitting
+            '\boneof\b', # one of
+            '\bonot\b', # not
+            '\bonyl\b', # only
+            '\bopeness\b', # openness
+            '\boponent\b', # opponent
+            '\bopononent\b', # opponent
+            '\bopose\b', # oppose
+            '\boposite\b', # opposite
+            '\boposition\b', # opposition
+            '\boppenly\b', # openly
+            '\boppinion\b', # opinion
+            '\bopponant\b', # opponent
+            '\boppononent\b', # opponent
+            '\boppositition\b', # opposition
+            '\boppossed\b', # opposed
+            '\bopprotunity\b', # opportunity
+            '\boppurtunities\b', # opportunities
+            '\boppurtunity\b', # opportunity
+            '\boppurtunity\b', # opportunity
+            '\bopression\b', # oppression
+            '\bopressive\b', # oppressive
+            '\bopthalmic\b', # ophthalmic
+            '\bopthalmologist\b', # ophthalmologist
+            '\bopthalmology\b', # ophthalmology
+            '\bopthamologist\b', # ophthalmologist
+            '\borded\b', # ordered
+            '\borganim\b', # organism
+            '\borganistion\b', # organisation
+            '\borganiztion\b', # organization
+            '\borganiztion\b', # organization
+            '\boridinarily\b', # ordinarily
+            '\boridinary\b', # ordinary
+            '\boriganaly\b', # originally
+            '\boriginially\b', # originally
+            '\borigional\b', # original
+            '\borigions\b', # origins
+            '\borigionaly\b', # originally
+            '\borignally\b', # originally
+            '\borignially\b', # originally
+            '\borigninal\b', # original
+            '\borigninally\b', # originally
+            '\botehr\b', # other
+            '\boublisher\b', # publisher
+            '\bouevre\b', # oeuvre
+            '\boustanding\b', # outstanding
+            '\boutragous\b', # outrageous
+            '\boutsideof\b', # outside of
+            '\boveraall\b', # overall
+            '\bovercomeing\b', # overcoming
+            '\boverflood\b', # overflow
+            '\boveridden\b', # overridden
+            '\boverlookng\b', # overlooking
+            '\boverthere\b', # over there
+            '\boverwelming\b', # overwhelming
+            '\boverwheliming\b', # overwhelming
+            '\boverwhemingly\b', # overwhelmingly
+            '\bowrk\b', # work
+            '\bowudl\b', # would
+            '\boxigen\b', # oxygen
+            '\boximoron\b', # oxymoron
+
+            # P
+            '\bpeice\b', # piece
+            '\bplatfrom\b', # platform
+            '\bplayes\b', # players
+            '\bposess\b', # possess
+            '\bpossesion\b', # possession
+            '\bprefered\b', # preferred
+            '\bpublically\b', # publicly
+            '\bpowerfull\b', # powerful
+
+            # Q
+            '\bqestion\b', # question
+            '\bquik\b', # quick
+            '\bquantitiy\b', # quantity
+            '\bquarantaine\b', # quarantine
+            '\bqucik\b', # quick
+            '\bqucikly\b', # quickly
+            '\bqueires\b', # queries
+            '\bquesiton\b', # question
+            '\bquesitons\b', # questions
+            '\bquestonable\b', # questionable
+            '\bquestons\b', # questions
+            '\bquicklyu\b', # quickly
+            '\bquinessential\b', # quintessential
+
+            # R
+            '\brecieve\b', # receive
+            '\brediculous\b', # ridiculous
+            '\brefered\b', # referred
+            '\bremeber\b', # remember
+            '\bresouces\b', # resources
+            '\breponsible\b', # responsible
+            '\brestarant\b', # restaurant
+            '\brestaraunt\b', # restaurant
+            '\brestaraunts\b', # restaurants
+            '\brestauranteurs\b', # restaurateurs
+            '\brestauraunt\b', # restaurant
+            '\bresturaunt\b', # restaurant
+            '\bresturaunts\b', # restaurants
+            '\breult\b', # result
+            '\breume\b', # resume
+            '\breverand\b', # reverend
+            '\brige\b', # ridge
+            '\brigth\b', # bright
+            '\briliant\b', # brilliant
+            '\broalty\b', # royalty
+            '\broaly\b', # royal
+            '\brougly\b', # roughly
+            '\brumers\b', # rumors
+
+            # S
+            '\bscenerio\b', # scenario
+            '\bseperate\b', # separate
+            '\bsimiliar\b', # similar
+            '\bsucess\b', # success
+            '\bsuprise\b', # surprise
+            '\bsacrafice\b', # sacrifice
+            '\bsacrifical\b', # sacrificial
+            '\bsaftey\b', # safety
+            '\bsalery\b', # salary
+            '\bsanctionning\b', # sanctioning
+            '\bsandwhich\b', # sandwich
+            '\bsantioned\b', # sanctioned
+            '\bsargeant\b', # sergeant
+            '\bsatelite\b', # satellite
+            '\bsatric\b', # satiric
+            '\bsattelite\b', # satellite
+            '\bsceanrio\b', # scenario
+            '\bschedual\b', # schedule
+            '\bscholarhip\b', # scholarship
+            '\bscholarstic\b', # scholastic, scholarly
+            '\bscientfic\b', # scientific
+            '\bscientifc\b', # scientific
+            '\bscientis\b', # scientist
+            '\bscientistis\b', # scientists
+            '\bscinece\b', # science
+            '\bscirpt\b', # script
+            '\bscluptures\b', # sculptures
+            '\bscolarly\b', # scholarly
+            '\bscuptures\b', # sculptures
+            '\bseach\b', # search
+            '\bseached\b', # searched
+            '\bseaches\b', # searches
+            '\bsecceeded\b', # seceded, succeeded
+            '\bseceeding\b', # seceding, succeeding
+            '\bseige\b', # siege
+            '\bseing\b', # seeing
+            '\bseinor\b', # senior
+            '\bseldomly\b', # seldom
+            '\bseperate\b', # separate
+            '\bseperated\b', # separated
+            '\bseperately\b', # separately
+            '\bseperates\b', # separates
+            '\bseperating\b', # separating
+            '\bseperation\b', # separation
+            '\bseperatism\b', # separatism
+            '\bseperatist\b', # separatist
+
+            # T
+            '\bteh\b', # the
+            '\bthier\b', # their
+            '\btommorow\b', # tomorrow
+            '\btounge\b', # tongue
+            '\btournment\b', # tournament
+            '\btruely\b', # truly
+            '\btutoral\b', # tutorial
+
+            # U
+            '\buntill\b', # until
+            '\bupgrae\b', # upgrade
+
+            # V
+            '\bvaccum\b', # vacuum
+            '\bvillian\b', # villain
+
+            # W
+            '\bwepon\b', # weapon
+            '\bwhereever\b', # wherever
+            '\bwich\b', # which
+            '\bwierd\b', # weird
+            '\bwinnig\b', # winning
+            '\bwolrd\b', # world
+
+            # X
+            '\bxenophoby\b', # xenophobia
+            '\bxerox\b', # Xerox
+            '\bxtra\b', # extra
+
+            # Y
+            '\byoure\b', # you're
+            '\byesr\b', # year
+            '\byatch\b', # yacht
+
+            # Z
+
             # Find dublicates
             '\[NLINE\]\[NLINE\]',
             '\[NWIN\]\[NWIN\]',
@@ -136,16 +888,19 @@ jobs:
           )
 
           echo "`n[i] Iterate over each file, remove files from the blackList"
+
           Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
             Where-Object { $_.Name -notin $blackList } | 
               ForEach-Object {
 
-                  echo "Checking $_"
+                  $filename = $_.Name
+                  echo "Checking $filename"
+
                   # What a clusterfuck of code this Powershell command Is
                   # not entirely sure why i'm using Powershell in the first place
                   $fileContent = Get-Content -LiteralPath $_.FullName
 
-                  # Filter out lines starting with //
+                  # Filter out lines starting with // and #
                   $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
 
                   # Iterate over each line in the file
@@ -156,7 +911,7 @@ jobs:
 
                           # If a regex matches, print out information about it
                           if ($lineText -match $regex) {
-                              echo "[!] $_ - '$regex' - '$lineText'"
+                              echo "`e[31m[!] '$regex' - '$lineText'"
                               $outputList += "[!] $_ - '$regex' - '$lineText'"
                           }
                       }
@@ -164,9 +919,9 @@ jobs:
               }
 
           echo "`n[i] Checking if the outputList has any entries..."
+
           if ($outputList.Count -gt 0) {
-            echo "[!] Found errors. Exiting with code 1."
-            $outputList
+            echo "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
             exit 1
           }
           else {
@@ -188,6 +943,7 @@ jobs:
       - name: 02. Prepare files
         shell: pwsh
         run: |
+          exit 1
           echo "`n[i] Installing megatools"
           choco install megatools --yes
 
