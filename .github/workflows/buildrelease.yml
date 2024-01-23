@@ -20,7 +20,6 @@ jobs:
             # A
             '\baccross\b', # across
             '\bacheive\b', # achieve
-            '\badn\b', # and
             '\babondon\b', # abandon
             '\babiltiy\b', # ability
             '\babscence\b', # absence
@@ -590,7 +589,6 @@ jobs:
             '\bopprotunity\b', # opportunity
             '\boppurtunities\b', # opportunities
             '\boppurtunity\b', # opportunity
-            '\boppurtunity\b', # opportunity
             '\bopression\b', # oppression
             '\bopressive\b', # oppressive
             '\bopthalmic\b', # ophthalmic
@@ -639,7 +637,7 @@ jobs:
             '\bplayes\b', # players
             '\bposess\b', # possess
             '\bpossesion\b', # possession
-            '\bprefered\b', # preferred
+            '\bprefered\b', # referred
             '\bpublically\b', # publicly
             '\bpowerfull\b', # powerful
 
@@ -689,6 +687,7 @@ jobs:
             '\bsimiliar\b', # similar
             '\bsucess\b', # success
             '\bsuprise\b', # surprise
+            '\bsuprised\b', # surprised
             '\bsacrafice\b', # sacrifice
             '\bsacrifical\b', # sacrificial
             '\bsaftey\b', # safety
@@ -722,7 +721,6 @@ jobs:
             '\bseing\b', # seeing
             '\bseinor\b', # senior
             '\bseldomly\b', # seldom
-            '\bseperate\b', # separate
             '\bseperated\b', # separated
             '\bseperately\b', # separately
             '\bseperates\b', # separates
