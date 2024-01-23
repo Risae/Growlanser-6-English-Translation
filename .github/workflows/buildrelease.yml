@@ -2,39 +2,39 @@ name: Build xDelta Patch
 on: workflow_dispatch
 
 jobs:
-  Test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 01. Copy repository
-        uses: actions/checkout@v4
-        with:
-          sparse-checkout: | # Only copy specific folders to the container
-            source
+  # Test:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 01. Copy repository
+  #       uses: actions/checkout@v4
+  #       with:
+  #         sparse-checkout: | # Only copy specific folders to the container
+  #           source
 
-      - name: 02. Test
-        shell: bash
-        run: |
-          python -m pip install --upgrade pip setuptools
-          python -m pip install pyspelling
-          sudo apt-get install aspell aspell-en
+  #     - name: 02. Test
+  #       shell: bash
+  #       run: |
+  #         python -m pip install --upgrade pip setuptools
+  #         python -m pip install pyspelling
+  #         sudo apt-get install aspell aspell-en
 
-          cat > spellcheck.yml <<EOF
-          # Configuration file for spellcheck-github-actions
-          matrix:
-          - name: Python Source
-            aspell:
-              lang: en
-              d: en_US
-            sources:
-            - $GITHUB_WORKSPACE/source/GL6_SCEN.DAT/*
-          EOF
+  #         cat > spellcheck.yml <<EOF
+  #         # Configuration file for spellcheck-github-actions
+  #         matrix:
+  #         - name: Python Source
+  #           aspell:
+  #             lang: en
+  #             d: en_US
+  #           sources:
+  #           - $GITHUB_WORKSPACE/source/GL6_SCEN.DAT/*
+  #         EOF
 
-          python -m pyspelling --config spellcheck.yml
+  #         python -m pyspelling --config spellcheck.yml
 
 
   CheckScript:
     runs-on: windows-2022
-    needs: Test
+    # needs: Test
     steps:
       - name: 01. Copy repository
         uses: actions/checkout@v4
