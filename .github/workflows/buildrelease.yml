@@ -941,7 +941,6 @@ jobs:
       - name: 02. Prepare files
         shell: pwsh
         run: |
-          exit 1
           echo "`n[i] Installing megatools"
           choco install megatools --yes
 
