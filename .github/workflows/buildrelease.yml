@@ -11,9 +11,13 @@ jobs:
           sparse-checkout: | # Only copy specific folders to the container
             source
 
-      - name: 02. Create Config
+      - name: 02. Test
         shell: bash
         run: |
+          python -m pip install --upgrade pip setuptools
+          python -m pip install pyspelling
+          sudo apt-get install aspell aspell-en
+
           cat > spellcheck.yml <<EOF
           # Configuration file for spellcheck-github-actions
           matrix:
@@ -22,13 +26,9 @@ jobs:
               lang: en
               d: en_US
           EOF
+          
+          python -m pyspelling
 
-      - uses: rojopolis/spellcheck-github-actions@0.35.0
-        name: Spellcheck
-        with:
-          source_files: '${{ github.workspace }}/source/GL6_SCEN.DAT/00000001.SCEN Debug save room [ONGOING]'
-          task_name: Check
-          config_path: spellcheck.yml
 
   CheckScript:
     runs-on: windows-2022
