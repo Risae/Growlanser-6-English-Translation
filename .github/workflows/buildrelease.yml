@@ -9,7 +9,8 @@ jobs:
       - uses: rojopolis/spellcheck-github-actions@0.35.0
         name: Spellcheck
         with:
-          source_files: "$Env:GITHUB_WORKSPACE/source/GL6_SCEN.DAT"
+          source_files: "/source/GL6_SCEN.DAT/*"
+          task_name: Check
 
   CheckScript:
     runs-on: windows-2022
