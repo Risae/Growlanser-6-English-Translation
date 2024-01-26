@@ -41,9 +41,12 @@ The `.CHAR` files are another `.FLK` archive, which contains the following filet
 The archive `GL6_FACE.DAT` contains image files, such as the title cards of cities. The following filetypes exist:
 
 ```plaintext
+*.000
 *.FACE
 *.VISUAL
 ```
+
+The `*.000` seems to be some kind of filelist, but it doesn't have any good naming.
 
 `*.FACE` is an FLK archive, the following filetypes can be found inside:
 
@@ -53,12 +56,12 @@ The archive `GL6_FACE.DAT` contains image files, such as the title cards of citi
 *.gla
 ```
 
-Inside `*.FACE` the following filetypes can be found:
+`*.VISUAL` is an FLK archive, the following filetypes can be found inside:
 
 ```plaintext
-*.tm2
-*.lpd
-*.gla
+*.BG
+*.CG
+*.VOC
 ```
 
 </details>
