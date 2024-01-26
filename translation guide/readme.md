@@ -45,6 +45,14 @@ The archive `GL6_FACE.DAT` contains image files, such as the title cards of citi
 *.VISUAL
 ```
 
+`*.FACE` is an FLK archive, the following filetypes can be found inside:
+
+```plaintext
+*.tm2
+*.lpd
+*.gla
+```
+
 Inside `*.FACE` the following filetypes can be found:
 
 ```plaintext
