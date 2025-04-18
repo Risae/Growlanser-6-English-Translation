@@ -845,7 +845,6 @@ jobs:
       - name: 03. Prepare files
         shell: pwsh
         run: |
-          exit 1 # TODO
           if (-not (Test-Path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip")) {
               Write-Host "`n[i] 0.zip not cached, installing megatools..."
               choco install megatools --version=1.11.3.20250401 --yes
