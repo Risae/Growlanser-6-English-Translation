@@ -29,13 +29,9 @@ printf equ 0x129798                     ;Part of the full width numbers in enemi
     nop                                 ;No operation (delay slot)
 
 /*
-Window width set part, is given in characters
-so the game multiplies the value by 10d every
-time it uses it, "simplest" solution is to
-divide by 10 the largest line width and round
-up
-But I need to create the "get line pixel width"
-function first
+Window width set part, is given in characters so the game multiplies the value
+by 10d every time it uses it, "simplest" solution is to divide by 10 the largest
+line width and round up But I need to create the "get line pixel width" function first
 .org 0x002760B0
 */
 
@@ -103,28 +99,28 @@ function first
     sw       s1,(s0)                     ;we store s1 in the address we set-up on s0
     li       s0,0x1                      ;This needs to inputted as 'addiu s0,zero,0x1' in PCSX2 for it to work
     beql     s0,a3,@@VWFcode             ;if a3 is 1 we jump directly to our VWF code
-    nop                                                    
+    nop
     andi     s0,t0,0xFF00
     bnez     s0,@@Original               ;if the result of the AND is not zero we jump to the original
     nop                                  ;function as that means this is a SHIFT-JIS char
 
     @@VWFcode:
-    li        s0,VWFtable                                    
+    li        s0,VWFtable
     lbu       s1,-0x1(s3)                ;We use s3 to get the correct space character (0x20)
     addu      s0,s1
     lbu       s0,(s0)
     addiu     s0,0x2                     ;Add two pixels to each character
     mtc1      s0,f23
     nop                                  ;Wait for move operation
-    cvt.s.w   f23,f23    
+    cvt.s.w   f23,f23
     mul.s     f23,f23,f21                ;Scale text widths
 
     @@Original:
     li        s0,ram
     lw        s1,(s0)                    ;We load back original s1 from the address we set-up at the start
     or        s0,zero,zero               ;reset s0 back to zero
-    add.s     f26,f26,f23    
-    addiu     s6,0x1    
+    add.s     f26,f26,f23
+    addiu     s6,0x1
     j         0x00151DB0                 ;back to original function
     nop
 
@@ -168,13 +164,13 @@ function first
     @@Loop:
     lbu       s6,(s4)
     beq       s6,0xFF,@@ControlCodes     ;GOTO Control chars...
-    nop        
+    nop
     sltiu     s2,s6,0x0080
     bnez      s2,@@Adder                 ;GOTO Add ASCII widths
     nop
     addiu     s4,0x2
     addiu     s7,0x14                    ;Japanese char width
-    b         @@Loop          
+    b         @@Loop
     nop
 
     @@ControlCodes:
@@ -220,7 +216,7 @@ function first
     nop
 
     //Basically: ((((line_width - window_width) + 1) / 2) + 4) / 8 (math rounded)
-    //A more precise solution would be using an special (invisible) char followed 
+    //A more precise solution would be using an special (invisible) char followed
     //by a number that equals (line_width - window_width) / 2, so we avoid the hard
     //character limit
     @@End:
@@ -323,7 +319,7 @@ function first
 //  2-bytes
 //--------------
 // 0x80, 0x81, 0x82, 0x83
-// 0x90, 
+// 0x90,
 // 0xCB, 0xCD
 // 0xFB, 0xFC, 0xFD
 //
@@ -333,7 +329,7 @@ function first
 // 0xAAXX, 0xABXX, 0xACXX, 0xADXX, 0xAEXX, 0xAFXX
 // 0xB0XX, 0xB1XX, 0xB2XX, 0xB3XX, 0xB4XX, 0xB5XX, 0xB8XX, 0xB9XX
 // 0xC8XX
-// 0xD4XX, 0xD5XX, 0xD6XX, 0xD7XX, 0xD8XX, 0xDEXX, 0xDFXX, 
+// 0xD4XX, 0xD5XX, 0xD6XX, 0xD7XX, 0xD8XX, 0xDEXX, 0xDFXX,
 // 0xE5XX, 0xE6XX, 0xE1XX, 0xEFXX
 //
 //--------------
@@ -352,7 +348,7 @@ function first
 //--------------
 //  7-bytes!
 //--------------
-// 0x9DXXXXXXXXXX 
+// 0x9DXXXXXXXXXX
 //
 //--------------
 //  End of box
@@ -397,7 +393,7 @@ function first
     jal     0x001517a0
     nop
     mtc1    s2,f00
-    nop    
+    nop
     cvt.s.w f12,f00
     mtc1    s1,f00
     nop
