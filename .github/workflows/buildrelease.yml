@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   CheckScript:
-    runs-on: windows-2022
+    runs-on: windows-2025
     steps:
       - name: 01. Copy repository
         uses: actions/checkout@v4
@@ -14,759 +14,646 @@ jobs:
       - name: 02. Check script
         shell: pwsh # Powershell 7, which uses UTF-8 as default
         run: |
-          echo "`n[i] Create list of Regex patterns that need to be checked"
+          Write-Host "`n[i] Create list of Regex patterns that need to be checked"
           $regexPatterns = @(
-            # Common english typos
+            # Common English typos
             # A
-            '\baccross\b', # across
-            '\bacheive\b', # achieve
-            '\babondon\b', # abandon
-            '\babiltiy\b', # ability
-            '\babscence\b', # absence
-            '\babsense\b', # absence
-            '\babsorbtion\b', # absorption
-            '\bacadamy\b', # academy
-            '\baccesories\b', # accessories
-            '\baccomadate\b', # accommodate
-            '\baccomodate\b', # accommodate
-            '\baccomplishement\b', # accomplishment
-            '\baccomplishements\b', # accomplishments
-            '\baccoutn\b', # account
-            '\bacidently\b', # accidentally
-            '\bacomplish\b', # accomplish
-            '\bacording\b', # according
-            '\bacquaintences\b', # acquaintances
-            '\bacquiantance\b', # acquaintance
-            '\bacquiantances\b', # acquaintances
-            '\bacrly\b', # acryl
-            '\bactivites\b', # activities
-            '\bactivly\b', # actively
-            '\bactualy\b', # actually
-            '\bacuracy\b', # accuracy
-            '\bacusations\b', # accusations
-            '\badavanced\b', # advanced
-            '\baddional\b', # additional
-            '\badditinally\b', # additionally
-            '\baddres\b', # address
-            '\baddresable\b', # addressable
-            '\baddresed\b', # addressed
-            '\baddresing\b', # addressing
-            '\badhearing\b', # adhering
-            '\badherance\b', # adherence
-            '\baditional\b', # additional
-            '\baditionally\b', # additionally
-            '\badmitedly\b', # admittedly
-            '\badolecent\b', # adolescent
-            '\badress\b', # address
-            '\badviced\b', # advised
-            '\bagressive\b', # aggressive
-            '\balot\b', # a lot
-            '\barguement\b', # argument
+            '\b(abondon|abbadon)\b' # abandon
+            '\babiltiy\b' # ability
+            '\b(absense|abscence)\b' # absence
+            '\babsorbtion\b' # absorption
+            '\bacadamy\b' # academy
+            '\b(accesories|acessories)\b' # accessories
+            '\b(accross|acros)\b' # across
+            '\b(acheive|achive)\b' # achieve
+            '\bacomplish\b' # accomplish
+            '\b(accomplishement|acomplishment)\b' # accomplishment
+            '\b(accomplishements|acomplishments)\b' # accomplishments
+            '\b(accomadate|accomodate)\b' # accommodate
+            '\baccoutn\b' # account
+            '\backnowlege\b' # acknowledge
+            '\bacidently\b' # accidentally
+            '\bacording\b' # according
+            '\b(acquaintences|acquiantance|acquiantances)\b' # acquaintances
+            '\bacrly\b' # acryl
+            '\bactivites\b' # activities
+            '\bactivly\b' # actively
+            '\bactualy\b' # actually
+            '\bacuracy\b' # accuracy
+            '\bacusations\b' # accusations
+            '\badolecent\b' # adolescent
+            '\b(adavanced|advansed)\b' # advanced
+            '\badherance\b' # adherence
+            '\b(adhearing|adhering)\b' # adhering
+            '\b(addional|aditonal)\b' # additional
+            '\b(additinally|aditionally)\b' # additionally
+            '\b(addres|adress)\b' # address
+            '\baddresable\b' # addressable
+            '\baddresed\b' # addressed
+            '\baddresing\b' # addressing
+            '\badmitedly\b' # admittedly
+            '\badviced\b' # advised
+            '\b(agressive|agresive)\b' # aggressive
+            '\balot\b' # a lot
+            '\b(alltogether|all together)\b' # altogether # New
+            '\b(ammount|amout)\b' # amount # New
+            '\b(anounc|anounce)\b' # announce
+            '\b(anual|annal)\b' # annual
+            '\b(aparent|apparant)\b' # apparent
+            '\b(arguement|argumant)\b' # argument
 
             # B
-            '\bbasicly\b', # basically
-            '\bbeleive\b', # believe
-            '\bbenifit\b', # benefit
-            '\bbegining\b', # beginning
-            '\bbacause\b', # because
-            '\bbaloons\b', # balloons
-            '\bbeatiful\b', # beautiful
-            '\bbeaurocracy\b', # bureaucracy
-            '\bbecasue\b', # because
-            '\bbecuase\b', # because
-            '\bbefoer\b', # before
-            '\bbeggining\b', # beginning
-            '\bbeginnig\b', # beginning
-            '\bbeleif\b', # belief
-            '\bbeleive\b', # believe
-            '\bbelive\b', # believe
-            '\bbenificial\b', # beneficial
-            '\bbenifit\b', # benefit
-            '\bbestowes\b', # bestows
-            '\bbeteen\b', # between
-            '\bbetwen\b', # between
-            '\bbeutiful\b', # beautiful
-            '\bbeween\b', # between
-            '\bbewteen\b', # between
-            '\bbeyon\b', # beyond
-            '\bbiginning\b', # beginning
-            '\bbigining\b', # beginning
-            '\bbizzare\b', # bizarre
-            '\bblaim\b', # blame
-            '\bblaimed\b', # blamed
-            '\bboaut\b', # about
-            '\bbouyant\b', # buoyant
-            '\bbradcast\b', # broadcast
-            '\bbriliant\b', # brilliant
-            '\bbudjet\b', # budget
-            '\bbuisness\b', # business
+            '\b(baloons|ballons)\b' # balloons
+            '\bbarbarain\b' # barbarian # New
+            '\b(beatiful|beutiful)\b' # beautiful
+            '\b(bacause|becasue|becuase)\b' # because
+            '\b(befoer|befor)\b' # before
+            '\b(beginer|beginner)\b' # beginner
+            '\b(beggining|begining|beginnig|biginning|bigining)\b' # beginning
+            '\bbeleif\b' # belief
+            '\b(belieive|beleive|belive)\b' # believe
+            '\b(benifit|benifit)\b' # benefit
+            '\b(benificial|benefical)\b' # beneficial
+            '\b(bestowes|bestowed)\b' # bestows
+            '\b(beteen|betwen|beween|bewteen)\b' # between
+            '\b(beyon|beyound)\b' # beyond
+            '\b(bizzare|bizare)\b' # bizarre
+            '\bblaim\b' # blame
+            '\b(blaimed|blammed)\b' # blamed
+            '\b(boaut|abuot)\b' # abut
+            '\b(bouyant|boyant)\b' # buoyant
+            '\b(bradcast|broacast)\b' # broadcast
+            '\b(briliant|brillant)\b' # brilliant
+            '\b(budjet|budgett)\b' # budget
+            '\b(buisness|bussiness)\b' # business
+            '\b(buisnessman|businessmann)\b' # businessman # New
 
             # C
-            '\bcalender\b', # calendar
-            '\bcharachter\b', # character
-            '\bcomming\b', # coming
-            '\bconcious\b', # conscious
-            '\bcalandar\b', # calendar
-            '\bcalculater\b', # calculator
-            '\bcalulater\b', # calculator
-            '\bcarreer\b', # career
-            '\bcarribean\b', # Caribbean
-            '\bcarribean\b', # Caribbean
-            '\bcartrige\b', # cartridge
-            '\bcatagory\b', # category
-            '\bcausalities\b', # casualties
-            '\bCeasar\b', # Caesar
-            '\bceleberation\b', # celebration
-            '\bcellpading\b', # cellpadding
-            '\bcemetary\b', # cemetery
-            '\bcencus\b', # census
-            '\bcenet\b', # cent
-            '\bcententenial\b', # centennial
-            '\bcentruy\b', # century
-            '\bceratin\b', # certain
-            '\bcerimonial\b', # ceremonial
-            '\bcerimonies\b', # ceremonies
-            '\bcerimony\b', # ceremony
-            '\bcertian\b', # certain
-            '\bchallange\b', # challenge
-            '\bchallanged\b', # challenged
-            '\bchanell\b', # channel
-            '\bchanneled\b', # channeled
-            '\bChaple\b', # Chapel
-            '\bcheif\b', # chief
-            '\bcheifs\b', # chiefs
-            '\bchemcial\b', # chemical
-            '\bchemcially\b', # chemically
-            '\bchemestry\b', # chemistry
-            '\bchoclate\b', # chocolate
+            '\b(calender|calandar)\b' # calendar
+            '\b(calculater|calulater)\b' # calculator
+            '\b(carreer|carear)\b' # career
+            '\b(carribean|caribean)\b' # Caribbean
+            '\b(cartrige|cartidge)\b' # cartridge
+            '\b(catagory|catgory)\b' # category
+            '\bcausalities\b' # casualties
+            '\b(Ceasar|Caeser)\b' # Caesar
+            '\b(celeberation|celebrationn)\b' # celebration
+            '\bcellpading\b' # cellpadding
+            '\b(cemetary|cematary)\b' # cemetery
+            '\bcencus\b' # census
+            '\b(cenet|cent)\b' # cent
+            '\bcententenial\b' # centennial
+            '\b(centruy|centery)\b' # century
+            '\b(ceratin|certian)\b' # certain
+            '\bcerimonial\b' # ceremonial
+            '\b(cerimonies|ceremonys)\b' # ceremonies
+            '\b(cerimony|ceremoney)\b' # ceremony
+            '\b(challange|chalenge)\b' # challenge
+            '\b(challanged|chalenged)\b' # challenged
+            '\b(chanell|chanel)\b' # channel
+            '\b(channeled|chanelled)\b' # channeled
+            '\b(Chaple|Chappel)\b' # Chapel
+            '\b(cheif|cheiff)\b' # chief
+            '\b(cheifs|chieffs)\b' # chiefs
+            '\b(chemcial|chemichal)\b' # chemical
+            '\b(chemcially|chemicaly)\b' # chemically
+            '\b(chemestry|chemisty)\b' # chemistry
+            '\b(choclate|chocolat)\b' # chocolate
+            '\b(comming|comingg)\b' # coming
+            '\b(commited|commited)\b' # committed
+            '\b(committment|commitmentt)\b' # commitment # New
+            '\b(concious|consious)\b' # conscious
+            '\b(consistant|consistentt)\b' # consistent # New
+            '\b(convinient|conveniant)\b' # convenient
+            '\b(curiousity|curiosityy)\b' # curiosity # New
 
             # D
-            '\bdecieve\b', # deceive
-            '\bdefinately\b', # definitely
-            '\bdalmation\b', # dalmatian
-            '\bdamenor\b', # demeanor
-            '\bdangerious\b', # dangerous
-            '\bdeaprtment\b', # department
-            '\bdecaffinated\b', # decaffeinated
-            '\bdecendant\b', # descendant
-            '\bdecendent\b', # descendant
-            '\bdecideable\b', # decidable
-            '\bdecidely\b', # decidedly
-            '\bdecieved\b', # deceived
-            '\bdecison\b', # decision
-            '\bdecomissioned\b', # decommissioned
-            '\bdecomposit\b', # decompose
-            '\bdecomposits\b', # decomposes
-            '\bdecress\b', # decrease
-            '\bdecribe\b', # describe
-            '\bdecribed\b', # described
-            '\bdecribes\b', # describes
-            '\bdecribing\b', # describing
-            '\bdediced\b', # decided
-            '\bdefendent\b', # defendant
-            '\bdefinining\b', # defining
-            '\bdefinit\b', # definite
-            '\bdefinitly\b', # definitely
-            '\bdefiniton\b', # definition
-            '\bdefintion\b', # definition
+            '\b(dalmation|dalmatin)\b' # dalmatian
+            '\b(dangerious|dangrous)\b' # dangerous
+            '\b(deaprtment|departmant)\b' # department
+            '\b(decaffinated|decaf)\b' # decaffeinated
+            '\b(decendant|decendent)\b' # descendant
+            '\b(decideable|decidable)\b' # decidable
+            '\b(decidely|decidedly)\b' # decidedly
+            '\b(decieved|decieve)\b' # deceived
+            '\b(decieve|deceave)\b' # deceive
+            '\b(decison|decission)\b' # decision
+            '\b(decomissioned|decommisioned)\b' # decommissioned
+            '\b(decomposit|decomposet)\b' # decompose
+            '\b(decomposits|decomposes)\b' # decomposes
+            '\b(decress|decrese)\b' # decrease
+            '\b(dediced|dedcided)\b' # decided
+            '\b(defendent|defendantt)\b' # defendant
+            '\b(definining|defineing)\b' # defining
+            '\b(definately|definitly)\b' # definitely
+            '\b(definit|definate)\b' # definite
+            '\b(definiton|defintion)\b' # definition
+            '\b(decribe|descibe)\b' # describe
+            '\b(decribed|descibed)\b' # described
+            '\b(decribes|descibes)\b' # describes
+            '\b(decribing|descibing)\b' # describing
+            '\b(desireable|desirablee)\b' # desirable # New
+            '\b(developement|developmnt)\b' # development # New
+            '\b(dificult|diffcult)\b' # difficult
+            '\b(dissapoint|disapoint)\b' # disappoint
 
             # E
-            '\bembarass\b', # embarrass
-            '\benviroment\b', # environment
-            '\bequipement\b', # equipment
-            '\bexistance\b', # existence
-            '\bexperiance\b', # experience
-            '\becclectic\b', # eclectic
-            '\beconomicaly\b', # economically
-            '\beducationg\b', # education
-            '\beffeciency\b', # efficiency
-            '\beffecient\b', # efficient
-            '\beffeciently\b', # efficiently
-            '\befficency\b', # efficiency
-            '\befficent\b', # efficient
-            '\befficently\b', # efficiently
-            '\belimentary\b', # elementary
-            '\bellected\b', # elected
-            '\bembarassing\b', # embarrassing
-            '\bembarassment\b', # embarrassment
-            '\bembezelled\b', # embezzled
-            '\bemblamatic\b', # emblematic
-            '\beminate\b', # emanate
-            '\beminated\b', # emanated
-            '\bemision\b', # emission
-            '\bemited\b', # emitted
-            '\bemiting\b', # emitting
-            '\bemmision\b', # emission
-            '\bemmited\b', # emitted
-            '\bemmiting\b', # emitting
-            '\bemnity\b', # enmity
-            '\bencouraing\b', # encouraging
-            '\bencryptiion\b', # encryption
-            '\bencylopedia\b', # encyclopedia
+            '\b(ecclectic|eclectik)\b' # eclectic
+            '\b(economicaly|economicly)\b' # economically
+            '\b(educationg|educatin)\b' # education
+            '\b(effeciency|efficency)\b' # efficiency
+            '\b(effecient|efficent)\b' # efficient
+            '\b(effeciently|efficently)\b' # efficiently
+            '\b(elimentary|elementry)\b' # elementary
+            '\b(ellected|electedd)\b' # elected
+            '\b(embarass|embarrass)\b' # embarrass
+            '\b(embarassing|embarrasing)\b' # embarrassing
+            '\b(embarassment|embarrassment)\b' # embarrassment
+            '\bembezelled\b' # embezzled
+            '\b(emblamatic|emblematik)\b' # emblematic
+            '\b(eminate|emmanate)\b' # emanate
+            '\b(eminated|emmanated)\b' # emanated
+            '\b(emision|emmision)\b' # emission
+            '\b(emited|emmited)\b' # emitted
+            '\b(emiting|emmiting)\b' # emitting
+            '\b(emnity|enmity)\b' # enmity
+            '\b(encouraing|encouragin)\b' # encouraging
+            '\b(encryptiion|encrypton)\b' # encryption
+            '\b(encylopedia|encyclopidia)\b' # encyclopedia
+            '\b(enviroment|enviroment)\b' # environment
+            '\b(enviromental|enviornmental)\b' # environmental
+            '\b(eqiupment|equipement|equiptment)\b' # equipment # Modified to include new variant
+            '\b(excede|exceedd)\b' # exceed # New
+            '\b(exagerate|exagerrate)\b' # exaggerate
+            '\b(existance|existense)\b' # existence
+            '\bexperiance\b' # experience
 
             # F
-            '\bFebuary\b', # February
-            '\bfinaly\b', # finally
-            '\bforiegn\b', # foreign
-            '\bfreind\b', # friend
+            '\b(familar|familier)\b' # familiar
+            '\b(Febuary|Feburary)\b' # February
+            '\b(finaly|finaly)\b' # finally
+            '\b(forcast|forcast)\b' # forecast
+            '\b(foriegn|foregin)\b' # foreign
+            '\b(foward|forwrd)\b' # forward # New
+            '\b(frequant|frequentt)\b' # frequent # New
+            '\b(freind|friendd)\b' # friend
 
             # G
-            '\bgaurd\b', # guard
-            '\bgoverment\b', # government
-            '\bgaurd\b', # guard
-            '\bgaurded\b', # guarded
-            '\bgaurding\b', # guarding
-            '\bgaurds\b', # guards
-            '\bgovenment\b', # government
-            '\bgoverance\b', # governance
-            '\bgoverment\b', # government
-            '\bgovermental\b', # governmental
-            '\bgoverner\b', # governor
-            '\bgreatful\b', # grateful
-            '\bguidence\b', # guidance
-            '\bgurantee\b', # guarantee
-            '\bguranteed\b', # guaranteed
-            '\bgurantees\b', # guarantees
+            '\bgaurd\b' # guard
+            '\b(gaurded|guardedd)\b' # guarded
+            '\b(gaurding|guardingg)\b' # guarding
+            '\bgaurds\b' # guards
+            '\b(goverance|governence)\b' # governance
+            '\b(govenment|goverment|govermant)\b' # government
+            '\b(govermental|governmentel)\b' # governmental
+            '\b(governer|govenor)\b' # governor
+            '\b(grammer|gramar)\b' # grammar
+            '\b(greatful|greatfull)\b' # grateful
+            '\b(guidence|guidancee)\b' # guidance
+            '\b(gurantee|guarentee)\b' # guarantee
+            '\b(guranteed|guarenteed)\b' # guaranteed
+            '\b(gurantees|guarentees)\b' # guarantees
 
             # H
-            '\bhappend\b', # happened
-            '\bhieght\b', # height
-            '\bharrass\b', # harass
-            '\bharrassed\b', # harassed
-            '\bharrasses\b', # harasses
-            '\bharrassing\b', # harassing
-            '\bharrassment\b', # harassment
-            '\bheirarchy\b', # hierarchy
-            '\bherad\b', # heard
-            '\bheridity\b', # heredity
-            '\bheroe\b', # hero
-            '\bheros\b', # heroes
-            '\bhertzs\b', # hertz
-            '\bhierachical\b', # hierarchical
-            '\bhierachies\b', # hierarchies
-            '\bhierachy\b', # hierarchy
-            '\bhierarcy\b', # hierarchy
-            '\bhieroglph\b', # hieroglyph
-            '\bhieroglphs\b', # hieroglyphs
-            '\bhigest\b', # highest
-            '\bhinderance\b', # hindrance
-            '\bhinderence\b', # hindrance
-            '\bhindrence\b', # hindrance
-            '\bhumer\b', # humor
-            '\bhumerous\b', # humorous
+            '\b(happend|happenedd|hapened)\b' # happened # Modified to include new variant
+            '\b(harrass|harras)\b' # harass
+            '\b(harrassed|harrased)\b' # harassed
+            '\b(harrasses|harrases)\b' # harasses
+            '\b(harrassing|harrasing)\b' # harassing
+            '\b(harrassment|harassment)\b' # harassment
+            '\b(heirarchy|hierachy|hierarcy)\b' # hierarchy
+            '\b(herad|heared)\b' # heard
+            '\b(heridity|heredety)\b' # heredity
+            '\b(heroe|heroe)\b' # hero
+            '\bheros\b' # heroes
+            '\b(hertzs|hertz)\b' # hertz
+            '\b(hierachical|hierarchical)\b' # hierarchical
+            '\b(hierachies|hierarchies)\b' # hierarchies
+            '\b(hieroglph|hieroglyph)\b' # hieroglyph
+            '\b(hieroglphs|hieroglyphs)\b' # hieroglyphs
+            '\b(higest|highestt)\b' # highest
+            '\b(hinderance|hinderence|hindrence)\b' # hindrance
+            '\b(humer|humour)\b' # humor
+            '\b(humerous|humorous)\b' # humorous
+            '\b(hygeine|hygiene)\b' # hygiene # New
 
             # I
-            '\bindependant\b', # independent
-            '\binventary\b', # inventory
-            '\bidae\b', # idea
-            '\bidaes\b', # ideas
-            '\bidendify\b', # identify
-            '\bidendity\b', # identity
-            '\biditosyncracy\b', # idiosyncrasy
-            '\bimcomplete\b', # incomplete
-            '\bimmediatley\b', # immediately
-            '\bimmediatly\b', # immediately
-            '\bimmidately\b', # immediately
-            '\bimmidiate\b', # immediate
-            '\bimmidiately\b', # immediately
-            '\bimmitate\b', # imitate
-            '\bimmitated\b', # imitated
-            '\bimmitating\b', # imitating
-            '\bimmitator\b', # imitator
-            '\bimpecabbly\b', # impeccably
-            '\bimpedence\b', # impedance
-            '\bimplamenting\b', # implementing
-            '\bimpliment\b', # implement
-            '\bimplimented\b', # implemented
-            '\bimplimenting\b', # implementing
-            '\bimpliments\b', # implements
-            '\bimportamt\b', # important
-            '\bimpressario\b', # impresario
-            '\bimprioned\b', # imprisoned
-            '\bimprisonned\b', # imprisoned
-            '\bimprovision\b', # improvisation
-            '\bimprovments\b', # improvements
-            '\binablility\b', # inability
-            '\binaccessable\b', # inaccessible
-            '\binadiquate\b', # inadequate
-            '\binadquate\b', # inadequate
-            '\binadvertant\b', # inadvertent
-            '\binadvertantly\b', # inadvertently
-            '\binagurated\b', # inaugurated
-            '\binaguration\b', # inauguration
-            '\binbetween\b', # in between
-            '\bincedent\b', # incident
-            '\bincedents\b', # incidents
-            '\bincidently\b', # incidentally
-            '\binclreased\b', # increased
-            '\binclud\b', # include
-            '\bincludng\b', # including
-            '\bincompatabilities\b', # incompatibilities
-            '\bincompatability\b', # incompatibility
-            '\bincompatable\b', # incompatible
-            '\bincompetance\b', # incompetence
-            '\bincompetant\b', # incompetent
+            '\bidae\b' # idea
+            '\bidaes\b' # ideas
+            '\b(idendify|identfy)\b' # identify
+            '\b(idendity|identty)\b' # identity
+            '\b(iditosyncracy|idiosyncracy)\b' # idiosyncrasy
+            '\b(imcomplete|incompleet)\b' # incomplete
+            '\binconveniance\b' # inconvenience # New
+            '\b(individul|individua)\b' # individual # New
+            '\b(immediatley|immediatly|immidately|immidiate|immidiately|immedietly)\b' # immediately
+            '\b(immitate|imitat)\b' # imitate
+            '\b(immitated|imitatedd)\b' # imitated
+            '\b(immitating|imitatingg)\b' # imitating
+            '\b(immitator|imitatorr)\b' # imitator
+            '\b(impecabbly|impeccably)\b' # impeccably
+            '\b(impedence|impedence)\b' # impedance
+            '\b(implamenting|implementingg)\b' # implementing
+            '\b(impliment|implemnt)\b' # implement
+            '\b(implimented|implemnted)\b' # implemented
+            '\b(implimenting|implemnting)\b' # implementing
+            '\b(impliments|implemnts)\b' # implements
+            '\b(importamt|importantt)\b' # important
+            '\b(impressario|impresarioo)\b' # impresario
+            '\bimprioned\b' # imprisoned
+            '\b(imprisonned|imprisonedd)\b' # imprisoned
+            '\b(improvision|improvisationn)\b' # improvisation
+            '\b(improvments|improvements)\b' # improvements
+            '\b(inablility|inability)\b' # inability
+            '\binaccessable\b' # inaccessible
+            '\b(inadiquate|inadquate)\b' # inadequate
+            '\b(inadvertant|inadvertentt)\b' # inadvertent
+            '\b(inadvertantly|inadvertently)\b' # inadvertently
+            '\b(inagurated|inauguratedd)\b' # inaugurated
+            '\b(inaguration|inaugurationn)\b' # inauguration
+            '\binbetween\b' # in between
+            '\b(incedent|incidentt)\b' # incident
+            '\bincedents\b' # incidents
+            '\b(incidently|incidentally)\b' # incidentally
+            '\b(inclreased|increasedd)\b' # increased
+            '\b(includ|includde)\b' # include
+            '\b(includng|includingg)\b' # including
+            '\b(incompatabilities|incompatibilities)\b' # incompatibilities
+            '\b(incompatability|incompatibility)\b' # incompatibility
+            '\b(incompatable|incompatible)\b' # incompatible
+            '\b(incompetance|incompetence)\b' # incompetence
+            '\b(incompetant|incompetent)\b' # incompetent
+            '\b(independant|independnt)\b' # independent
+            '\binventary\b' # inventory
+            '\b(irrelevent|irrelevant)\b' # irrelevant
 
             # J
-            '\bjewlery\b', # jewelry
-            '\bjudgement\b', # judgement (or judgment in American English)
-            '\bjanurary\b', # January
-            '\bjanuray\b', # January
-            '\bjewllery\b', # jewellery
-            '\bjournied\b', # journeyed
-            '\bjournies\b', # journeys
-            '\bjstu\b', # just
-            '\bjudegement\b', # judgement
-            '\bjugment\b', # judgment
-            '\bjusitce\b', # justice
-            '\bjut\b', # just
+            '\b(janurary|januray)\b' # January
+            '\b(jewlery|jewllery)\b' # jewellery
+            '\bjournied\b' # journeyed
+            '\b(journies|journeys)\b' # journeys
+            '\b(judgement|judegement|jugment)\b' # judgement
+            '\b(jusitce|justce)\b' # justice
+            '\b(jstu|jut)\b' # just
 
             # K
-            '\bknwo\b', # know
-            '\bknowlege\b', # knowledge
-            '\bknwo\b', # know
-            '\bknowlege\b', # knowledge
-            '\bknowledege\b', # knowledge
-            '\bknowledgable\b', # knowledgeable
-            '\bknwoing\b', # knowing
-            '\bknwos\b', # knows
-            '\bkonw\b', # know
-            '\bkonws\b', # knows
+            '\b(knwo|konw)\b' # know
+            '\b(knowlege|knowledege)\b' # knowledge
+            '\b(knowledgable|knowledgeble)\b' # knowledgeable
+            '\b(knwoing|knowingg)\b' # knowing
+            '\b(knwos|konws)\b' # knows
 
             # L
-            '\blenght\b', # length
-            '\blevle\b', # level
-            '\blibary\b', # library
-            '\bliek\b', # like
-            '\blisense\b', # license
-            '\blitature\b', # literature
-            '\bloose\b', # lose
-            '\blieuenant\b', # lieutenant
-            '\blieuenants\b', # lieutenants
-            '\bliftime\b', # lifetime
-            '\bligth\b', # light
-            '\blikly\b', # likely
-            '\blimitted\b', # limited
-            '\bliteraly\b', # literally
-            '\bliterrally\b', # literally
-            '\bliveing\b', # living
-            '\blodger\b', # lodger
-            '\blonelyness\b', # loneliness
-            '\blongetivity\b', # longevity
-            '\blonley\b', # lonely
-            '\bloosing\b', # losing
-            '\blveo\b', # love
+            '\b(lenght|lengthh)\b' # length
+            '\blevle\b' # level
+            '\b(libary|liberry)\b' # library
+            '\b(liek|lik)\b' # like
+            '\b(lisense|licence|liscence)\b' # license # Modified to include new variant
+            '\b(litature|litterature)\b' # literature
+            '\b(loose|loose)\b' # lose
+            '\blooseleaf\b' # loose-leaf # New
+            '\b(lieuenant|lieutenent)\b' # lieutenant
+            '\b(lieuenants|lieutenants)\b' # lieutenants
+            '\b(liftime|lifetime)\b' # lifetime
+            '\b(ligth|lightt)\b' # light
+            '\b(likly|likelyy)\b' # likely
+            '\b(limitted|limitedd)\b' # limited
+            '\b(literaly|litterally)\b' # literally
+            '\b(liveing|livingg)\b' # living
+            '\b(lodger|lodge)\b' # lodger
+            '\b(lonelyness|lonelinesss)\b' # loneliness
+            '\b(longetivity|longevityy)\b' # longevity
+            '\b(lonley|lonly)\b' # lonely
+            '\b(loosing|losingg)\b' # losing
+            '\b(lveo|lov)\b' # love
 
             # M
-            '\bmanagment\b', # management
-            '\bmantain\b', # maintain
-            '\bmedecine\b', # medicine
-            '\bmispell\b', # misspell
-            '\bmorgage\b', # mortgage
-            '\bmultplayer\b', # multiplayer
-            '\bmysterous\b', # mysterious
-            '\bmaintainance\b', # maintenance
-            '\bmaintainence\b', # maintenance
-            '\bmaintance\b', # maintenance
-            '\bmaintenence\b', # maintenance
-            '\bmaked\b', # made
-            '\bmakse\b', # makes
-            '\bmalestrom\b', # maelstrom
-            '\bmaltesian\b', # Maltese
-            '\bmanagable\b', # manageable
-            '\bmanagment\b', # management
-            '\bmaneouvre\b', # manoeuvre
-            '\bmaneouvred\b', # manoeuvred
-            '\bmaneouvres\b', # manoeuvres
-            '\bmaneouvring\b', # manoeuvring
-            '\bmanisfest\b', # manifest
-            '\bmanoeuverability\b', # manoeuvrability
-            '\bmanouver\b', # manoeuvre
-            '\bmanouverability\b', # manoeuvrability
-            '\bmanouvered\b', # manoeuvred
-            '\bmanouvred\b', # manoeuvred
-            '\bmantained\b', # maintained
-            '\bmanuever\b', # manoeuvre
-            '\bmanuevers\b', # manoeuvres
-            '\bmanufacturedd\b', # manufactured
-            '\bmanufature\b', # manufacture
-            '\bmanufatured\b', # manufactured
-            '\bmanufaturing\b', # manufacturing
-            '\bmanuver\b', # maneuver
-            '\bmariage\b', # marriage
-            '\bmarjority\b', # majority
-            '\bmarkes\b', # marks
-            '\bmarmelade\b', # marmalade
-            '\bmassmedia\b', # mass media
-            '\bmasterbation\b', # masturbation
-            '\bmateralists\b', # materialists
-            '\bmathamatics\b', # mathematics
-            '\bmathematican\b', # mathematician
-            '\bmathematicas\b', # mathematics
-            '\bmatheticians\b', # mathematicians
-            '\bmathmatically\b', # mathematically
-            '\bmathmatician\b', # mathematician
-            '\bmathmaticians\b', # mathematicians
-            '\bmccarthyst\b', # McCarthyist
-            '\bmeanign\b', # meaning
-            '\bmechandise\b', # merchandise
-            '\bmedacine\b', # medicine
-            '\bmedeival\b', # medieval
-            '\bmedevial\b', # medieval
-            '\bmediciney\b', # medicine
-            '\bmedievel\b', # medieval
-            '\bmediterainnean\b', # Mediterranean
-            '\bmediteranean\b', # Mediterranean
-            '\bmeida\b', # media
-            '\bmelieux\b', # milieux
-            '\bmembranaphone\b', # membranophone
-            '\bmemeber\b', # member
-            '\bmenally\b', # mentally
-            '\bmeranda\b', # veranda
-            '\bmercentile\b', # mercantile
-            '\bmerchanta\b', # merchant
-            '\bmerrit\b', # merit
-            '\bmersinary\b', # mercenary
-            '\bmessanger\b', # messenger
-            '\bmessenging\b', # messaging
-            '\bmethaphor\b', # metaphor
-            '\bmethaphors\b', # metaphors
-            '\bmichagan\b', # Michigan
-            '\bmicoscopy\b', # microscopy
-            '\bmidwifes\b', # midwives
-            '\bmilennia\b', # millennia
-            '\bmilennium\b', # millennium
-            '\bmiligram\b', # milligram
-            '\bmilimeter\b', # millimeter
-            '\bmilimeters\b', # millimeters
-            '\bmillenia\b', # millennia
-            '\bmillenial\b', # millennial
-            '\bmillenialism\b', # millennialism
-            '\bmillenium\b', # millennium
-            '\bmillepede\b', # millipede
-            '\bmillioniare\b', # millionaire
-            '\bmiltary\b', # military
-            '\bminature\b', # miniature
-            '\bminerial\b', # mineral
-            '\bministery\b', # ministry
-            '\bminstries\b', # ministries
-            '\bminstry\b', # ministry
-            '\bminumum\b', # minimum
-            '\bmirrorred\b', # mirrored
-            '\bmischeivous\b', # mischievous
-            '\bmischevious\b', # mischievous
-            '\bmisdameanor\b', # misdemeanor
-            '\bmisdameanors\b', # misdemeanors
-            '\bmisdemenor\b', # misdemeanor
+            '\b(maintainance|maintainence|maintance|maintenence|maintanance)\b' # maintenance
+            '\b(maked|madee)\b' # made
+            '\b(makse|makess)\b' # makes
+            '\b(malestrom|maelstromm)\b' # maelstrom
+            '\b(maltesian|maltese)\b' # Maltese
+            '\b(managable|manageble)\b' # manageable
+            '\b(managment|managament)\b' # management
+            '\b(maneouvre|manouver|manuever)\b' # manoeuvre
+            '\b(maneouvred|manouvered|manuevered)\b' # manoeuvred
+            '\b(maneouvres|manuevers)\b' # manoeuvres
+            '\b(maneouvring|manouvering)\b' # manoeuvring
+            '\b(manisfest|manifestt)\b' # manifest
+            '\b(manoeuverability|manouverability)\b' # manoeuvrability
+            '\b(manouvered|manouvred)\b' # manoeuvred
+            '\b(mantain|maintai)\b' # maintain
+            '\b(mantained|maintainedd)\b' # maintained
+            '\b(manufacturedd|manufactured)\b' # manufactured
+            '\b(manufature|manufactur)\b' # manufacture
+            '\b(manufatured|manufactured)\b' # manufactured
+            '\b(manufaturing|manufacturingg)\b' # manufacturing
+            '\b(manuver|maneuver)\b' # maneuver
+            '\b(mariage|marriagee)\b' # marriage
+            '\b(marjority|majorityy)\b' # majority
+            '\b(markes|markss)\b' # marks
+            '\b(marmelade|marmaladee)\b' # marmalade
+            '\b(massmedia|mass media)\b' # mass media
+            '\b(masterbation|masturbationn)\b' # masturbation
+            '\b(materalists|materialists)\b' # materialists
+            '\b(mathamatics|mathematicas)\b' # mathematics
+            '\b(mathematican|mathmatician)\b' # mathematician
+            '\b(matheticians|mathmaticians)\b' # mathematicians
+            '\b(mathmatically|mathematically)\b' # mathematically
+            '\b(mccarthyst|McCarthyistt)\b' # McCarthyist
+            '\b(meanign|meaningg)\b' # meaning
+            '\b(mechandise|merchandize)\b' # merchandise
+            '\b(medacine|mediciney)\b' # medicine
+            '\b(medeival|medevial|medievel)\b' # medieval
+            '\b(mediterainnean|mediteranean)\b' # Mediterranean
+            '\b(meida|mediaa)\b' # media
+            '\b(melieux|milieux)\b' # milieux
+            '\b(membranaphone|membranophonee)\b' # membranophone
+            '\b(memeber|memberr)\b' # member
+            '\b(menally|mentallyy)\b' # mentally
+            '\b(meranda|veranda)\b' # veranda
+            '\b(mercentile|mercantilee)\b' # mercantile
+            '\b(merchanta|merchantt)\b' # merchant
+            '\b(merrit|meritt)\b' # merit
+            '\b(mersinary|mercenaryy)\b' # mercenary
+            '\bmessanger\b' # messenger
+            '\b(messenging|messagingg)\b' # messaging
+            '\b(methaphor|metaphor)\b' # metaphor
+            '\b(methaphors|metaphorss)\b' # metaphors
+            '\b(michagan|michigann)\b' # Michigan
+            '\b(micoscopy|microscopyy)\b' # microscopy
+            '\b(midwifes|midwives)\b' # midwives
+            '\b(milennia|millenia)\b' # millennia
+            '\b(milennium|millenium)\b' # millennium
+            '\b(miligram|milligram)\b' # milligram
+            '\b(milimeter|millimeter)\b' # millimeter
+            '\b(milimeters|millimeters)\b' # millimeters
+            '\b(millenial|millenniall)\b' # millennial
+            '\b(millenialism|millennialismm)\b' # millennialism
+            '\b(millepede|millipede)\b' # millipede
+            '\b(millioniare|millionairee)\b' # millionaire
+            '\b(miltary|millitary)\b' # military
+            '\b(minature|miniaturee)\b' # miniature
+            '\bminerial\b' # mineral
+            '\b(ministery|minstry)\b' # ministry
+            '\b(minstries|ministries)\b' # ministries
+            '\bminumum\b' # minimum
+            '\b(mirrorred|mirroredd)\b' # mirrored
+            '\b(mischeivous|mischevious)\b' # mischievous
+            '\b(misdameanor|misdemenor)\b' # misdemeanor
+            '\b(misdameanors|misdemenors)\b' # misdemeanors
+            '\b(mispell|misspel|mispelled)\b' # misspelled # Modified to include new variant
+            '\b(mistery|mysteryy)\b' # mystery # New
 
             # N
-            '\bmispell\b', # misspell
-            '\bnad\b', # and
-            '\bnagetive\b', # negative
-            '\bnagetively\b', # negatively
-            '\bnalysis\b', # analysis
-            '\bnalyzing\b', # analyzing
-            '\bnarcicism\b', # narcissism
-            '\bnarcisism\b', # narcissism
-            '\bnarcissim\b', # narcissism
-            '\bnaturual\b', # natural
-            '\bnaturually\b', # naturally
-            '\bnecesarily\b', # necessarily
-            '\bnecesary\b', # necessary
-            '\bnecesities\b', # necessities
-            '\bnecesserily\b', # necessarily
-            '\bnecessiate\b', # necessitate
-            '\bnecessites\b', # necessitates
-            '\bnecesity\b', # necessity
-            '\bneccessarily\b', # necessarily
-            '\bneccessary\b', # necessary
-            '\bneccessities\b', # necessities
-            '\bneccessity\b', # necessity
-            '\bnecesitate\b', # necessitate
-            '\bnecesitates\b', # necessitates
-            '\bnecesities\b', # necessities
-            '\bnecesity\b', # necessity
-            '\bnecissarily\b', # necessarily
-            '\bnecissary\b', # necessary
-            '\bnecissities\b', # necessities
-            '\bnecissity\b', # necessity
-            '\bnegotation\b', # negotiation
-            '\bnegotions\b', # negotiations
-            '\bneice\b', # niece
-            '\bneigborhood\b', # neighborhood
-            '\bneigbour\b', # neighbour
-            '\bneigbourhood\b', # neighbourhood
-            '\bneigbouring\b', # neighbouring
-            '\bneigbours\b', # neighbours
-            '\bneolitic\b', # neolithic
-            '\bnessecary\b', # necessary
-            '\bnessecities\b', # necessities
-            '\bnessecity\b', # necessity
-            '\bnessecity\b', # necessity
-            '\bneutraly\b', # neutrally
-            '\bneverthless\b', # nevertheless
-            '\bnewletters\b', # newsletters
-            '\bnework\b', # network
-            '\bnewpapers\b', # newspapers
-            '\bnewslatter\b', # newsletter
-            '\bnewyorker\b', # New Yorker
-            '\bnich\b', # niche
-            '\bnickle\b', # nickel
-            '\bnicle\b', # nickel
-            '\bnieghbour\b', # neighbour
-            '\bnieghbourhood\b', # neighbourhood
-            '\bnieghbouring\b', # neighbouring
-            '\bnieghbours\b', # neighbours
-            '\bnigth\b', # night
-            '\bninteenth\b', # nineteenth
-            '\bninties\b', # nineties
-            '\bninty\b', # ninety
-            '\bnmemonic\b', # mnemonic
-            '\bnmemonics\b', # mnemonics
-            '\bnnovation\b', # innovation
-            '\bnoth\b', # not
-            '\bnoticable\b', # noticeable
-            '\bnotications\b', # notifications
-            '\bnoticible\b', # noticeable
-            '\bnotwhithstanding\b', # notwithstanding
-            '\bnoveau\b', # nouveau
-            '\bnovermber\b', # November
-            '\bnucular\b', # nuclear
-            '\bnuculear\b', # nuclear
-            '\bnuculuar\b', # nuclear
-            '\bnusance\b', # nuisance
-            '\bnutritent\b', # nutrient
-            '\bnutritents\b', # nutrients
-            '\bnuturing\b', # nurturing
+            '\bnad\b' # and
+            '\b(nagetive|negatve)\b' # negative
+            '\b(nagetively|negativelyy)\b' # negatively
+            '\b(nalysis|anlysis)\b' # analysis
+            '\b(nalyzing|analyzingg)\b' # analyzing
+            '\b(narcicism|narcisism|narcissim)\b' # narcissism
+            '\bnaturual\b' # natural
+            '\b(naturually|naturallyy)\b' # naturally
+            '\b(necesarily|necesserily|neccessarily|necissarily)\b' # necessarily
+            '\b(necesary|neccessary|necissary|nessecary)\b' # necessary
+            '\b(necesities|neccessities|necissities|nessecities)\b' # necessities
+            '\b(necesity|neccessity|necissity|nessecity)\b' # necessity
+            '\b(necessiate|necesitate)\b' # necessitate
+            '\b(necessites|necesitates)\b' # necessitates
+            '\b(negotation|negotiationn)\b' # negotiation
+            '\bnegotions\b' # negotiations
+            '\b(neice|niece)\b' # niece
+            '\b(neigborhood|neigbourhood|nieghbourhood)\b' # neighbourhood
+            '\b(neigbour|nieghbour)\b' # neighbour
+            '\b(neigbouring|nieghbouring)\b' # neighbouring
+            '\b(neigbours|nieghbours)\b' # neighbours
+            '\b(neolitic|neolithick)\b' # neolithic
+            '\bniether\b' # neither
+            '\b(neutraly|neutrallyy)\b' # neutrally
+            '\bneverthless\b' # nevertheless
+            '\b(newletters|newsletters)\b' # newsletters
+            '\b(nework|networkk)\b' # network
+            '\b(newpapers|newspapers)\b' # newspapers
+            '\b(newslatter|newsletter)\b' # newsletter
+            '\b(nich|niche)\b' # niche
+            '\b(nickle|nicle)\b' # nickel
+            '\b(nigth|nightt)\b' # night
+            '\b(ninteenth|nineteenth)\b' # nineteenth
+            '\b(ninties|nineties)\b' # nineties
+            '\b(ninty|ninety)\b' # ninety
+            '\b(nmemonic|mnemonick)\b' # mnemonic
+            '\b(nmemonics|mnemonics)\b' # mnemonics
+            '\b(nnovation|inovation)\b' # innovation
+            '\b(noticable|noticible)\b' # noticeable
+            '\b(notications|notifications)\b' # notifications
+            '\b(notwhithstanding|notwithstanding)\b' # notwithstanding
+            '\b(noveau|nouveau)\b' # nouveau
+            '\b(novermber|Novemberr)\b' # November
+            '\b(nucular|nuculear|nuculuar)\b' # nuclear
+            '\bnusance\b' # nuisance
+            '\b(nutritent|nutrientt)\b' # nutrient
+            '\b(nutritents|nutrients)\b' # nutrients
+            '\b(nuturing|nurturingg)\b' # nurturing
 
             # O
-            '\boccured\b', # occurred
-            '\boccurence\b', # occurrence
-            '\boffical\b', # official
-            '\bocassion\b', # occasion
-            '\bocassional\b', # occasional
-            '\bocassionally\b', # occasionally
-            '\bocassions\b', # occasions
-            '\boccaison\b', # occasion
-            '\boccassion\b', # occasion
-            '\boccassional\b', # occasional
-            '\boccassionally\b', # occasionally
-            '\boccassions\b', # occasions
-            '\boccationally\b', # occasionally
-            '\boccour\b', # occur
-            '\boccurrance\b', # occurrence
-            '\boccurrances\b', # occurrences
-            '\bocur\b', # occur
-            '\bocurr\b', # occur
-            '\bocurred\b', # occurred
-            '\bocurring\b', # occurring
-            '\bofficals\b', # officials
-            '\boging\b', # going
-            '\bomision\b', # omission
-            '\bomited\b', # omitted
-            '\bomiting\b', # omitting
-            '\bomlette\b', # omelette
-            '\bommision\b', # omission
-            '\bommited\b', # omitted
-            '\bommiting\b', # omitting
-            '\bommitted\b', # omitted
-            '\bommitting\b', # omitting
-            '\boneof\b', # one of
-            '\bonot\b', # not
-            '\bonyl\b', # only
-            '\bopeness\b', # openness
-            '\boponent\b', # opponent
-            '\bopononent\b', # opponent
-            '\bopose\b', # oppose
-            '\boposite\b', # opposite
-            '\boposition\b', # opposition
-            '\boppenly\b', # openly
-            '\boppinion\b', # opinion
-            '\bopponant\b', # opponent
-            '\boppononent\b', # opponent
-            '\boppositition\b', # opposition
-            '\boppossed\b', # opposed
-            '\bopprotunity\b', # opportunity
-            '\boppurtunities\b', # opportunities
-            '\boppurtunity\b', # opportunity
-            '\bopression\b', # oppression
-            '\bopressive\b', # oppressive
-            '\bopthalmic\b', # ophthalmic
-            '\bopthalmologist\b', # ophthalmologist
-            '\bopthalmology\b', # ophthalmology
-            '\bopthamologist\b', # ophthalmologist
-            '\borded\b', # ordered
-            '\borganim\b', # organism
-            '\borganistion\b', # organisation
-            '\borganiztion\b', # organization
-            '\borganiztion\b', # organization
-            '\boridinarily\b', # ordinarily
-            '\boridinary\b', # ordinary
-            '\boriganaly\b', # originally
-            '\boriginially\b', # originally
-            '\borigional\b', # original
-            '\borigions\b', # origins
-            '\borigionaly\b', # originally
-            '\borignally\b', # originally
-            '\borignially\b', # originally
-            '\borigninal\b', # original
-            '\borigninally\b', # originally
-            '\botehr\b', # other
-            '\boublisher\b', # publisher
-            '\bouevre\b', # oeuvre
-            '\boustanding\b', # outstanding
-            '\boutragous\b', # outrageous
-            '\boutsideof\b', # outside of
-            '\boveraall\b', # overall
-            '\bovercomeing\b', # overcoming
-            '\boverflood\b', # overflow
-            '\boveridden\b', # overridden
-            '\boverlookng\b', # overlooking
-            '\boverthere\b', # over there
-            '\boverwelming\b', # overwhelming
-            '\boverwheliming\b', # overwhelming
-            '\boverwhemingly\b', # overwhelmingly
-            '\bowrk\b', # work
-            '\bowudl\b', # would
-            '\boxigen\b', # oxygen
-            '\boximoron\b', # oxymoron
+            '\b(ocassion|occaison|occassion)\b' # occasion
+            '\b(ocassional|occassional)\b' # occasional
+            '\b(ocassionally|occassionally|occationally)\b' # occasionally
+            '\b(ocassions|occassions)\b' # occasions
+            '\b(occour|ocur|ocurr)\b' # occur
+            '\b(occured|ocurred)\b' # occurred
+            '\b(occurence|occurrance|ocurance|occurance)\b' # occurrence # Modified to include new variant
+            '\b(occurrances|occurrences)\b' # occurrences
+            '\bocurring\b' # occurring
+            '\b(offical|officiall)\b' # official
+            '\bofficals\b' # officials
+            '\b(omision|ommision)\b' # omission
+            '\b(omited|ommited|ommitted)\b' # omitted
+            '\b(omiting|ommiting|ommitting)\b' # omitting
+            '\b(omlette|omelette)\b' # omelette
+            '\boneof\b' # one of
+            '\bonot\b' # not
+            '\bonyl\b' # only
+            '\b(openess|openness)\b' # openness
+            '\b(oponent|opponant)\b' # opponent
+            '\b(opononent|oppononent)\b' # opponent
+            '\bopose\b' # oppose
+            '\b(oposite|oppisite)\b' # opposite
+            '\b(oposition|oppositition)\b' # opposition
+            '\boppenly\b' # openly
+            '\b(oppinion|opinionn)\b' # opinion
+            '\b(oppossed|opposedd)\b' # opposed
+            '\b(opprotunity|oppurtunity|opportunnity)\b' # opportunity # Modified to include new variant
+            '\b(oppurtunities|opportunities)\b' # opportunities
+            '\b(opression|oppressionn)\b' # oppression
+            '\b(opressive|oppressiv)\b' # oppressive
+            '\b(opthalmic|ophthalmic)\b' # ophthalmic
+            '\b(opthalmologist|ophthamologist)\b' # ophthalmologist
+            '\b(opthalmology|ophthalmology)\b' # ophthalmology
+            '\b(orded|orderedd)\b' # ordered
+            '\b(organim|organisme)\b' # organism
+            '\b(organistion|organiztion)\b' # organisation
+            '\b(oridinarily|ordinarilyy)\b' # ordinarily
+            '\b(oridinary|ordinaryy)\b' # ordinary
+            '\b(origanaly|originially|origionaly|orignally|orignially|origninally)\b' # originally
+            '\b(origional|origninal)\b' # original
+            '\b(origions|origins)\b' # origins
+            '\b(otehr|otherr)\b' # other
+            '\b(ouevre|oeuvre)\b' # oeuvre
+            '\b(oustanding|outstandingg)\b' # outstanding
+            '\b(outragous|outrageous)\b' # outrageous
+            '\boutsideof\b' # outside of
+            '\b(overaall|overalll)\b' # overall
+            '\b(overcomeing|overcomingg)\b' # overcoming
+            '\b(overflood|overflow)\b' # overflow
+            '\b(overidden|overriden)\b' # overridden
+            '\b(overlookng|overlookingg)\b' # overlooking
+            '\boverthere\b' # over there
+            '\b(overwelming|overwheliming)\b' # overwhelming
+            '\b(overwhemingly|overwhelmingly)\b' # overwhelmingly
+            '\b(oxigen|oxygenn)\b' # oxygen
+            '\b(oximoron|oxymoronn)\b' # oxymoron
 
             # P
-            '\bpeice\b', # piece
-            '\bplatfrom\b', # platform
-            '\bplayes\b', # players
-            '\bposess\b', # possess
-            '\bpossesion\b', # possession
-            '\bprefered\b', # referred
-            '\bpublically\b', # publicly
-            '\bpowerfull\b', # powerful
+            '\b(peice|piecee)\b' # piece
+            '\b(persistant|persistant)\b' # persistent
+            '\b(platfrom|platformm)\b' # platform
+            '\b(playes|playerss)\b' # players
+            '\b(posess|possesss)\b' # possess
+            '\b(possesion|possessionn)\b' # possession
+            '\bpowerfull\b' # powerful
+            '\bpreceed\b' # precede # New
+            '\b(proffesional|profesional)\b' # professional
+            '\b(priviledge|privilegee)\b' # privilege # New
+            '\b(publically|publiclyy)\b' # publicly
 
             # Q
-            '\bqestion\b', # question
-            '\bquik\b', # quick
-            '\bquantitiy\b', # quantity
-            '\bquarantaine\b', # quarantine
-            '\bqucik\b', # quick
-            '\bqucikly\b', # quickly
-            '\bqueires\b', # queries
-            '\bquesiton\b', # question
-            '\bquesitons\b', # questions
-            '\bquestonable\b', # questionable
-            '\bquestons\b', # questions
-            '\bquicklyu\b', # quickly
-            '\bquinessential\b', # quintessential
+            '\b(qestion|quesiton)\b' # question
+            '\b(quesitons|questons)\b' # questions
+            '\b(questonable|questionablee)\b' # questionable
+            '\b(quik|qucik)\b' # quick
+            '\b(qucikly|quicklyu)\b' # quickly
+            '\b(quantitiy|quantityy)\b' # quantity
+            '\b(quarantaine|quarantinee)\b' # quarantine
+            '\b(queires|queries)\b' # queries
+            '\b(quinessential|quintessentiall)\b' # quintessential
 
             # R
-            '\brecieve\b', # receive
-            '\brediculous\b', # ridiculous
-            '\brefered\b', # referred
-            '\bremeber\b', # remember
-            '\bresouces\b', # resources
-            '\breponsible\b', # responsible
-            '\brestarant\b', # restaurant
-            '\brestaraunt\b', # restaurant
-            '\brestaraunts\b', # restaurants
-            '\brestauranteurs\b', # restaurateurs
-            '\brestauraunt\b', # restaurant
-            '\bresturaunt\b', # restaurant
-            '\bresturaunts\b', # restaurants
-            '\breult\b', # result
-            '\breume\b', # resume
-            '\breverand\b', # reverend
-            '\brige\b', # ridge
-            '\brigth\b', # bright
-            '\briliant\b', # brilliant
-            '\broalty\b', # royalty
-            '\broaly\b', # royal
-            '\brougly\b', # roughly
-            '\brumers\b', # rumors
+            '\b(recieve|receve)\b' # receive
+            '\b(recomend|reccommend)\b' # recommend
+            '\b(rediculous|ridiculouss)\b' # ridiculous
+            '\b(referance|referenc)\b' # reference # New
+            '\b(refered|reffered)\b' # referred
+            '\b(relavant|relevantt)\b' # relevant # New
+            '\b(repetative|repetitve)\b' # repetitive
+            '\b(remeber|remembr)\b' # remember
+            '\bresouces\b' # resources
+            '\b(reponsible|responsibl)\b' # responsible
+            '\b(restarant|restaraunt|restauraunt|resturaunt)\b' # restaurant
+            '\b(restaraunts|resturaunts)\b' # restaurants
+            '\b(restauranteurs|restaurateurs)\b' # restaurateurs
+            '\b(reult|resultt)\b' # result
+            '\breume\b' # resume
+            '\b(reverand|reverendd)\b' # reverend
+            '\b(rige|ridge)\b' # ridge
+            '\brigth\b' # bright
+            '\b(riliant|brilliantt)\b' # brilliant
+            '\b(roalty|royaltyy)\b' # royalty
+            '\b(roaly|royall)\b' # royal
+            '\b(rougly|roughlyy)\b' # roughly
+            '\b(rumers|rumorss)\b' # rumors
 
             # S
-            '\bscenerio\b', # scenario
-            '\bseperate\b', # separate
-            '\bsimiliar\b', # similar
-            '\bsucess\b', # success
-            '\bsuprise\b', # surprise
-            '\bsuprised\b', # surprised
-            '\bsacrafice\b', # sacrifice
-            '\bsacrifical\b', # sacrificial
-            '\bsaftey\b', # safety
-            '\bsalery\b', # salary
-            '\bsanctionning\b', # sanctioning
-            '\bsandwhich\b', # sandwich
-            '\bsantioned\b', # sanctioned
-            '\bsargeant\b', # sergeant
-            '\bsatelite\b', # satellite
-            '\bsatric\b', # satiric
-            '\bsattelite\b', # satellite
-            '\bsceanrio\b', # scenario
-            '\bschedual\b', # schedule
-            '\bscholarhip\b', # scholarship
-            '\bscholarstic\b', # scholastic, scholarly
-            '\bscientfic\b', # scientific
-            '\bscientifc\b', # scientific
-            '\bscientis\b', # scientist
-            '\bscientistis\b', # scientists
-            '\bscinece\b', # science
-            '\bscirpt\b', # script
-            '\bscluptures\b', # sculptures
-            '\bscolarly\b', # scholarly
-            '\bscuptures\b', # sculptures
-            '\bseach\b', # search
-            '\bseached\b', # searched
-            '\bseaches\b', # searches
-            '\bsecceeded\b', # seceded, succeeded
-            '\bseceeding\b', # seceding, succeeding
-            '\bseige\b', # siege
-            '\bseing\b', # seeing
-            '\bseinor\b', # senior
-            '\bseldomly\b', # seldom
-            '\bseperated\b', # separated
-            '\bseperately\b', # separately
-            '\bseperates\b', # separates
-            '\bseperating\b', # separating
-            '\bseperation\b', # separation
-            '\bseperatism\b', # separatism
-            '\bseperatist\b', # separatist
+            '\b(sacrafice|sacrificee)\b' # sacrifice
+            '\b(sacrifical|sacrificiall)\b' # sacrificial
+            '\b(saftey|safetyy)\b' # safety
+            '\b(salery|salaryy)\b' # salary
+            '\b(sanctionning|sanctioningg)\b' # sanctioning
+            '\b(sandwhich|sandwichh)\b' # sandwich
+            '\b(santioned|sanctionedd)\b' # sanctioned
+            '\bsargeant\b' # sergeant
+            '\b(satelite|sattelite)\b' # satellite
+            '\b(satric|satiric)\b' # satiric
+            '\b(sceanrio|scenerio)\b' # scenario
+            '\b(schedual|schedulee)\b' # schedule
+            '\b(scholarhip|scholarshipp)\b' # scholarship
+            '\b(scholarstic|scolarly)\b' # scholarly
+            '\b(scientfic|scientifc)\b' # scientific
+            '\b(scientis|scientistt)\b' # scientist
+            '\bscientistis\b' # scientists
+            '\b(scinece|sciencee)\b' # science
+            '\b(scirpt|scriptt)\b' # script
+            '\b(scluptures|scuptures)\b' # sculptures
+            '\b(seach|searchh)\b' # search
+            '\b(seached|searchedd)\b' # searched
+            '\b(seaches|searchess)\b' # searches
+            '\b(secceeded|seceded)\b' # seceded
+            '\b(seceeding|secedingg)\b' # seceding
+            '\b(seige|siege)\b' # siege
+            '\b(seing|seeingg)\b' # seeing
+            '\b(seinor|seniorr)\b' # senior
+            '\b(seldomly|seldom)\b' # seldom
+            '\b(seperate|seperated)\b' # separate
+            '\b(seperately|separatly)\b' # separately
+            '\b(seperates|separates)\b' # separates
+            '\b(seperating|separatingg)\b' # separating
+            '\b(seperation|separationn)\b' # separation
+            '\b(seperatism|separatismm)\b' # separatism
+            '\b(seperatist|separatistt)\b' # separatist
+            '\bsimiliar\b' # similar
+            '\b(sophmore|sophomoree)\b' # sophomore # New
+            '\b(sucess|successs)\b' # success
+            '\b(succesful|successfull)\b' # successful # New
+            '\b(suposed|supposd)\b' # supposed
+            '\b(suprise|surprisee)\b' # surprise
+            '\b(suprised|surprisedd)\b' # surprised
+            '\b(suspence|suspensee)\b' # suspense
 
             # T
-            '\bteh\b', # the
-            '\bthier\b', # their
-            '\btommorow\b', # tomorrow
-            '\btounge\b', # tongue
-            '\btournment\b', # tournament
-            '\btruely\b', # truly
-            '\btutoral\b', # tutorial
+            '\b(teh|thee)\b' # the
+            '\b(temprature|temperaturee)\b' # temperature
+            '\b(thier|theirr)\b' # their
+            '\b(tommorow|tommorrow)\b' # tomorrow
+            '\b(tounge|tonguee)\b' # tongue
+            '\b(tournment|tournamentt)\b' # tournament
+            '\b(threshhold|thresholdd)\b' # threshold # New
+            '\b(truely|trulyy)\b' # truly
+            '\b(tutoral|tutoriall)\b' # tutorial
 
             # U
-            '\buntill\b', # until
-            '\bupgrae\b', # upgrade
+            '\b(unecessary|unnecessaryy)\b' # unnecessary
+            '\buntill\b' # until
+            '\b(upgrae|upgradee)\b' # upgrade
 
             # V
-            '\bvaccum\b', # vacuum
-            '\bvillian\b', # villain
+            '\b(vaccum|vacuum)\b' # vacuum
+            '\b(villian|villainn)\b' # villain
 
             # W
-            '\bwepon\b', # weapon
-            '\bwhereever\b', # wherever
-            '\bwich\b', # which
-            '\bwierd\b', # weird
-            '\bwinnig\b', # winning
-            '\bwolrd\b', # world
+            '\b(wepon|weaponn)\b' # weapon
+            '\b(whereever|whereverr)\b' # wherever
+            '\b(wich|whichh)\b' # which
+            '\bwierd\b' # weird
+            '\b(winnig|winningg)\b' # winning
+            '\b(withold|withholdd)\b' # withhold
+            '\b(wolrd|worldd)\b' # world
+            '\b(owrk|workk)\b' # work
+            '\bowudl\b' # would
+            '\b(writting|writingg)\b' # writing
 
             # X
-            '\bxenophoby\b', # xenophobia
-            '\bxerox\b', # Xerox
-            '\bxtra\b', # extra
+            '\b(xenophoby|xenophobia)\b' # xenophobia
+            '\b(xerox|Xerox)\b' # Xerox
+            '\bxtra\b' # extra
 
             # Y
-            '\byoure\b', # you're
-            '\byesr\b', # year
-            '\byatch\b', # yacht
+            '\b(yesr|yearr)\b' # year
+            '\byoure\b' # you're
+            '\b(yatch|yacht)\b' # yacht
 
             # Z
 
-            # Find dublicates
+            # Find duplicates
             '\[NLINE\]\[NLINE\]',
             '\[NWIN\]\[NWIN\]',
             '\[END-FE\]\[END-FE\]',
@@ -822,7 +709,7 @@ jobs:
             '[^[](COL0E])',
             '[^[](COL0F])',
 
-            # Finds lines that are missing a ] at the end after alphabeth character
+            # Finds lines that are missing a ] at the end after alphabet character
             '[a-zA-Z0-9\!\?\.\,\(\)][^\]]*$',
 
             # Finds [ missing in [CC.XXXX]
@@ -835,7 +722,7 @@ jobs:
             # '[a-zA-Z0-9\!\?\.\,\(\)]　',
             # '　[a-zA-Z0-9\!\?\.\,\(\)]'
 
-            # Find japanese `？`, `！`, `。`, `、`, `… ` before and after alphabet characters
+            # Find Japanese `？`, `！`, `。`, `、`, `… ` before and after alphabet characters
             # '[？！。、…][a-zA-Z0-9\!\?\.\,\(\)]',
             # '[a-zA-Z0-9\!\?\.\,\(\)][？！。、…]',
 
@@ -844,10 +731,10 @@ jobs:
             # '[a-zA-Z0-9\!\?\.\,\(\)][（）【】『』《》]'
           )
 
-          echo "`n[i] Initialize an empty list"
+          Write-Host "`n[i] Initialize an empty list"
           $outputList = @()
 
-          echo "`n[i] Create blackList"
+          Write-Host "`n[i] Create blackList"
           $blackList = @(
             '00000001.SCEN.asm',
             '00000002.SCEN Dummy file',
@@ -885,14 +772,14 @@ jobs:
             '00000167.STXT Dummy file'
           )
 
-          echo "`n[i] Iterate over each file, remove files from the blackList"
+          Write-Host "`n[i] Iterate over each file, remove files from the blackList"
 
           Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
-            Where-Object { $_.Name -notin $blackList } | 
+            Where-Object { $_.Name -notin $blackList } |
               ForEach-Object {
 
                   $filename = $_.Name
-                  echo "Checking $filename"
+                  Write-Host "Checking $filename..." -NoNewline
 
                   # What a clusterfuck of code this Powershell command Is
                   # not entirely sure why i'm using Powershell in the first place
@@ -900,6 +787,9 @@ jobs:
 
                   # Filter out lines starting with // and #
                   $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
+
+                  # Flag to track if any regex matches were found
+                  $hasMatches = $false
 
                   # Iterate over each line in the file
                   foreach ($lineText in $fileContent) {
@@ -909,25 +799,33 @@ jobs:
 
                           # If a regex matches, print out information about it
                           if ($lineText -match $regex) {
-                              echo "`e[31m[!] '$regex' - '$lineText'"
+                              Write-Host "`n`e[31m[!] '$regex' - '$lineText'"
                               $outputList += "[!] $_ - '$regex' - '$lineText'"
+                              $hasMatches = $true
                           }
                       }
                   }
+
+                  # Append "✅" to the same line only if no matches were found
+                  if (-not $hasMatches) {
+                      Write-Host "✅"
+                  } else {
+                      Write-Host "" # Ensure a newline after match output
+                  }
               }
 
-          echo "`n[i] Checking if the outputList has any entries..."
+          Write-Host "`n[i] Checking if the outputList has any entries..."
 
           if ($outputList.Count -gt 0) {
-            echo "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
             exit 1
           }
           else {
-            echo "`e[32m[i] No errors found!"
+            Write-Host "`e[32m[i] No errors found!"
           }
 
   BuildPatch:
-    runs-on: windows-2022
+    runs-on: windows-2025
     needs: CheckScript
     steps:
       - name: 01. Copy repository
@@ -938,19 +836,29 @@ jobs:
             source
             tools
 
-      - name: 02. Prepare files
+      - name: 02. Restore/Store 0.zip
+        uses: actions/cache@v4
+        with:
+          key: 0.zip
+          path: build/05-original_files/0.zip
+
+      - name: 03. Prepare files
         shell: pwsh
         run: |
-          exit 1
-          echo "`n[i] Installing megatools"
-          choco install megatools --yes
+          exit 1 # TODO
+          if (-not (Test-Path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip")) {
+              Write-Host "`n[i] 0.zip not cached, installing megatools..."
+              choco install megatools --version=1.11.3.20250401 --yes
 
-          echo "`n[i] Download and extract files"
-          megatools get -u "${{ secrets.TEST }}" -p "${{ secrets.TEST2 }}" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" --no-progress /Root/0.zip
+              Write-Host "`n[i] Downloading 0.zip..."
+              megatools get -u "${{ secrets.TEST }}" -p "${{ secrets.TEST2 }}" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" --no-progress /Root/0.zip
+          }
+
+          Write-Host "`n[i] Extract files"
           Expand-Archive -Verbose "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" -DestinationPath "$Env:GITHUB_WORKSPACE\build\05-original_files"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode extract --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\05-original_files"
 
-          echo "`n[i] Move specific files"
+          Write-Host "`n[i] Move specific files"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\DUMMY.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\DUMMY.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_BTL.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_BTL.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_CHAR.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_CHAR.DAT"
@@ -961,189 +869,189 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\IOPRP300.IMG" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\IOPRP300.IMG"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\SYSTEM.CNF" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\SYSTEM.CNF"
 
-      - name: 03. Setup the build environment
+      - name: 04. Setup the build environment
         shell: pwsh
         run: |
-          echo "`n[i] Create the 05-Build directory"
+          Write-Host "`n[i] Create the 05-Build directory"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build"
 
-          echo "`n[i] Create the 06-Original files folders for the .DAT files"
-          New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"  
+          Write-Host "`n[i] Create the 06-Original files folders for the .DAT files"
+          New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT"
 
-          echo "`n[i] Start quickBMS to dump the .DAT files contents to the original files folder"
+          Write-Host "`n[i] Start quickBMS to dump the .DAT files contents to the original files folder"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT"
 
-          echo "`n[i] Unpack the *.FACE files"
+          Write-Host "`n[i] Unpack the *.FACE files"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -d -F "*.FACE" "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
 
-      - name: 04. Patch ELF
+      - name: 05. Patch ELF
         shell: pwsh
         run: |
-          echo "`n[i] Copy the repository files + ELF to the armips folder"
+          Write-Host "`n[i] Copy the repository files + ELF to the armips folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_translation.asm" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_translation.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_VWF.asm" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 abcde scripts\abcde.tbl" -Destination "$Env:GITHUB_WORKSPACE\build\01-armips\abcde.tbl"
 
-          echo "`n[i] Patch ELF using armips"
+          Write-Host "`n[i] Patch ELF using armips"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\01-armips" "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_translation.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\01-armips" "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.asm"
 
-          echo "`n[i] Move patched ELF"
+          Write-Host "`n[i] Move patched ELF"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\SLPM_667.16"
 
-      - name: 05. Patch GL6_FACE.DAT
+      - name: 06. Patch GL6_FACE.DAT
         shell: pwsh
         run: |
-          echo "`n[i] Copy GL6_FACE.DAT from the original files folder to the build folder"
+          Write-Host "`n[i] Copy GL6_FACE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT"
 
-          echo "`n[i] Create the FACE DAT folder and copy all files to it"
+          Write-Host "`n[i] Create the FACE DAT folder and copy all files to it"
           Copy-Item -Recurse -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT*" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "`n[i] Execute the xdelta patches and save the resulting file in the created folder"
+          Write-Host "`n[i] Execute the xdelta patches and save the resulting file in the created folder"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144 FACE"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT\00000144.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000144.FACE (TIM2 title cards for Warslee, Rio Rey, PMB HQ)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144 FACE\00000000.tm2"
 
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149 FACE"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT\00000149.FACE_extract\00000000.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FACE.DAT\00000149.FACE (TIM2 title cards for Makinus, Dastis, Dragonpit Tower)\00000000.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149 FACE\00000000.tm2"
 
-          echo "`n[i] Start quickBMS XXX.FACE reimport 1 script"
+          Write-Host "`n[i] Start quickBMS XXX.FACE reimport 1 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144.FACE" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000144 FACE"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149.FACE" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT\00000149 FACE"
 
-          echo "`n[i] Start quickBMS GL6_FACE.DAT reimport 2 script"
+          Write-Host "`n[i] Start quickBMS GL6_FACE.DAT reimport 2 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE DAT"
 
-          echo "`n[i] Move patched GL6_FACE.DAT"
+          Write-Host "`n[i] Move patched GL6_FACE.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FACE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FACE.DAT"
 
-      - name: 06. Patch GL6_FILE.DAT
+      - name: 07. Patch GL6_FILE.DAT
         shell: pwsh
         run: |
-          echo "`n[i] Copy GL6_FILE.DAT from the original files folder to the build folder"
+          Write-Host "`n[i] Copy GL6_FILE.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT"
 
-          echo "`n[i] Create a new 05-build\GL6_FILE DAT folder"
+          Write-Host "`n[i] Create a new 05-build\GL6_FILE DAT folder"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT"
 
-          echo "`n[i] Patching 00000046.fnt"
+          Write-Host "`n[i] Patching 00000046.fnt"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000046.fnt" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000046.fnt Latin Alphabet and Katakana\00000046.fnt.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000046.fnt"
 
-          echo "`n[i] Patching 00000602.tm2"
+          Write-Host "`n[i] Patching 00000602.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000602.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000602.tm2 GL6 Icons\00000602.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000602.tm2"
 
-          echo "`n[i] Patching 00000604.tm2"
+          Write-Host "`n[i] Patching 00000604.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000604.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000604.tm2 Character Menu\00000604.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000604.tm2"
 
-          echo "`n[i] Patching 00000606.tm2"
+          Write-Host "`n[i] Patching 00000606.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000606.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000606.tm2 Mission complete screen\00000606.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000606.tm2"
 
-          echo "`n[i] Patching 00000608.tm2"
+          Write-Host "`n[i] Patching 00000608.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000608.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000608.tm2 Prologue stats screen\00000608.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000608.tm2"
 
-          echo "`n[i] Patching 00000611.tm2"
+          Write-Host "`n[i] Patching 00000611.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000611.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000611.tm2 Yurii Main Menu\00000611.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000611.tm2"
 
-          echo "`n[i] Patching 00000612.tm2"
+          Write-Host "`n[i] Patching 00000612.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000612.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000612.tm2 Friend rating screen\00000612.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000612.tm2"
 
-          echo "`n[i] Patching 00000647.tm2"
+          Write-Host "`n[i] Patching 00000647.tm2"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -v -d -s "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000647.tm2" "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000647.tm2 Gem creating screen\00000647.tm2.vcdiff" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000647.tm2"
 
-          echo "`n[i] Patching 00000566.mss"
+          Write-Host "`n[i] Patching 00000566.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000566.mss Spell casting screen text box coord\00000566.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000566.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
 
-          echo "`n[i] Patching 00000569.mss"
+          Write-Host "`n[i] Patching 00000569.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000569.mss Yurii Main Menu text box coord\00000569.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000569.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
 
-          echo "`n[i] Patching 00000570.mss"
+          Write-Host "`n[i] Patching 00000570.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000570.mss NPC Config Window\00000570.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000570.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000570.asm"
 
-          echo "`n[i] Patching 00000573.mss"
+          Write-Host "`n[i] Patching 00000573.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000573.mss Buying and Selling text box coord\00000573.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000573.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000573.asm"
 
-          echo "`n[i] Patching 00000594.mss"
+          Write-Host "`n[i] Patching 00000594.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000594.mss Equipment change screen\00000594.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000594.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000594.asm"
 
-          echo "`n[i] Patching 00000596.mss"
+          Write-Host "`n[i] Patching 00000596.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000596.mss Winning screen P to KP modification\00000596.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000596.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000596.asm"
 
-          echo "`n[i] Patching 00000598.mss"
+          Write-Host "`n[i] Patching 00000598.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000598.mss Teleport screen text box coord\00000598.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000598.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.mss"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000598.asm"
 
-          echo "`n[i] Patching 00000803.mss"
+          Write-Host "`n[i] Patching 00000803.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000803.dat Additional Plate info text\00000803.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000803.dat" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.dat"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000803.asm"
 
-          echo "`n[i] Patching 00000806.mss"
+          Write-Host "`n[i] Patching 00000806.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000806.dat Yurii Attributes\00000806.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000806.dat" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.dat"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000806.asm"
 
-          echo "`n[i] Start quickBMS GL6_FILE.DAT reimport 2 script"
+          Write-Host "`n[i] Start quickBMS GL6_FILE.DAT reimport 2 script"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT"
 
-          echo "`n[i] Move patched GL6_FILE.DAT"
+          Write-Host "`n[i] Move patched GL6_FILE.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FILE.DAT"
 
-      - name: 07. Patch SCEN.DAT
+      - name: 08. Patch SCEN.DAT
         shell: pwsh
         run: |
-          echo "`n[i] Copy SCEN.DAT from the original files folder to the build folder"
+          Write-Host "`n[i] Copy SCEN.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "`n[i] Create amd copy all files from the original dumped SCEN folder to the build SCEN DAT folder"
+          Write-Host "`n[i] Create amd copy all files from the original dumped SCEN folder to the build SCEN DAT folder"
           Copy-Item -Recurse -Verbose -Path  "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT*" "$Env:GITHUB_WORKSPACE\build\05-build\"
 
-          echo "`n[i] Change directory to GL6_SCEN DAT"
+          Write-Host "`n[i] Change directory to GL6_SCEN DAT"
           cd "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\"
 
-          echo "`n[i] Copy 00000001.SCEN.asm and patch 00000001.SCEN"
+          Write-Host "`n[i] Copy 00000001.SCEN.asm and patch 00000001.SCEN"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000001.SCEN.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000001.SCEN.asm
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN.asm"
 
-          echo "`n[i] Copy 00000043.SCEN.asm and patch 00000043.SCEN"
+          Write-Host "`n[i] Copy 00000043.SCEN.asm and patch 00000043.SCEN"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000043.SCEN.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" 00000043.SCEN.asm
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000043.SCEN.asm"
 
-          echo "`n[i] Switch to the abcde folder"
+          Write-Host "`n[i] Switch to the abcde folder"
           cd "$Env:GITHUB_WORKSPACE\build\00-abcde\"
 
-          echo "`n[i] Copy the table file"
+          Write-Host "`n[i] Copy the table file"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 abcde scripts\abcde.tbl" -Destination "$Env:GITHUB_WORKSPACE\build\00-abcde\abcde.tbl"
 
-          echo "`n[i] Patch the Scripts"
+          Write-Host "`n[i] Patch the Scripts"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000000.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000000.SCEN Debug map menu [ONGOING]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000001.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000001.SCEN Debug save room [ONGOING]"
           # perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000002.SCEN" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000002.SCEN Dummy file"
@@ -1316,34 +1224,38 @@ jobs:
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000169.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000169.STXT Gem Properties Descriptions [TRANSLATED]"
           perl abcde.pl --mode text2bin -cm abcde::Atlas "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\00000170.STXT" "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT\00000170.STXT Ore Descriptions [TRANSLATED]"
 
-          echo "`n[i] Patch SCEN.DAT"
+          Write-Host "`n[i] Patch SCEN.DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT"
 
-          echo "`n[i] Move patched SCEN.DAT"
+          Write-Host "`n[i] Move patched SCEN.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SCEN.DAT"
 
-      - name: 08. Check filesize
+      - name: 09. Check filesize
         shell: pwsh
         run: |
-          echo "`n[i] Get the translated file sizes"
-          Get-Childitem -file "$Env:GITHUB_WORKSPACE\build\06-translates_files" | Select-Object -Property Name, Length
+          Write-Host "`n[i] Get the translated file sizes"
+          Get-ChildItem -File "$Env:GITHUB_WORKSPACE\build\06-translates_files" |
+            Select-Object -Property Name,
+            @{Name="Size (Bytes)"; Expression={$_.Length}},
+            @{Name="Size (MB)"; Expression={[math]::Round($_.Length / 1MB, 2)}} |
+              Format-Table -AutoSize
 
-      - name: 09. Create patched version
+      - name: 10. Create patched version
         shell: pwsh
         run: |
-          echo "`n[i] Build"
+          Write-Host "`n[i] Build"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\06-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
 
-      - name: 10. Create xDelta patch
+      - name: 11. Create xDelta patch
         shell: pwsh
         run: |
-          echo "`n[i] Create xDelta Patch"
+          Write-Host "`n[i] Create xDelta Patch"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\bin\xdelta-3.1.0-x86_64.exe" -e -9 -S djw -vfs "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\Growlanser 6 Precarious World.iso.vcdiff"
 
-          echo "`n[i] remove vcdiff\file"
+          Write-Host "`n[i] remove vcdiff\file"
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
 
-      - name: 11. Publish patch as an Artifact
+      - name: 12. Publish patch as an Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Growlanser_6_English_xDelta_Patch
