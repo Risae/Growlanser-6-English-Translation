@@ -1,5 +1,5 @@
-.open "SLPM_667.16", 0x0
 .ps2
+.open "SLPM_667.16", 0x0
 .loadtable "abcde.tbl"
 
 // This file contains all the translations to the ELF.
@@ -622,7 +622,7 @@ Location: 0x32B7A0
  %d[00]
 
 "能" removal for normal monster kills
-Location: 0x1C87B8 (ingame 0x2C8738) 
+Location: 0x1C87B8 (ingame 0x2C8738)
 
 li v1,0x94 -> nop
 sb v1,(v0) -> nop
@@ -631,7 +631,7 @@ sb v1,0x1(v0) -> nop
 sb zero,0x2(v0) -> nop
 
 "能" removal for 2+ monster kills
-Location: 0x1C7828 (ingame 002C77A8) 
+Location: 0x1C7828 (ingame 002C77A8)
 
 li v1,0x94 -> nop
 sb v1,(v0) -> nop
