@@ -6,7 +6,7 @@ jobs:
     runs-on: windows-2025
     steps:
       - name: 01. Copy repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           sparse-checkout: | # Only copy specific folders to the container
             source
@@ -829,7 +829,7 @@ jobs:
     needs: CheckScript
     steps:
       - name: 01. Copy repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           sparse-checkout: | # Only copy specific folders to the container
             build
@@ -837,7 +837,7 @@ jobs:
             tools
 
       - name: 02. Restore/Store 0.zip
-        uses: actions/cache@v4
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
         with:
           key: 0.zip
           path: build/05-original_files/0.zip
@@ -845,7 +845,6 @@ jobs:
       - name: 03. Prepare files
         shell: pwsh
         run: |
-          exit 1 # TODO
           if (-not (Test-Path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip")) {
               Write-Host "`n[i] 0.zip not cached, installing megatools..."
               choco install megatools --version=1.11.3.20250401 --yes
@@ -1256,7 +1255,7 @@ jobs:
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
 
       - name: 12. Publish patch as an Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: Growlanser_6_English_xDelta_Patch
           path: ${{ github.workspace }}\build\07-xDeltaPatch
