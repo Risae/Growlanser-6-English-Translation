@@ -1,1 +1,44 @@
 #### Original Title: 爆発の地響き ####
+
+General
+Complete name                            : 00000006_video_0.m2v
+Format                                   : MPEG Video
+Format version                           : Version 2
+File size                                : 40.1 MiB
+Duration                                 : 53 s 20 ms
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 6 342 kb/s
+Frame rate                               : 29.970 FPS
+Writing library                          : TMPGEnc 2.524.63.181
+
+Video
+Format                                   : MPEG Video
+Format version                           : Version 2
+Format profile                           : Main@Main
+Format settings                          : CustomMatrix / BVOP
+Format settings, BVOP                    : Yes
+Format settings, Matrix                  : Custom
+Format settings, GOP                     : M=3, N=18
+Duration                                 : 53 s 20 ms
+Bit rate mode                            : Variable
+Bit rate                                 : 6 342 kb/s
+Maximum bit rate                         : 15.0 Mb/s
+Width                                    : 640 pixels
+Height                                   : 448 pixels
+Display aspect ratio                     : 1.429
+Frame rate                               : 29.970 (30000/1001) FPS
+Standard                                 : NTSC
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Scan type                                : Progressive
+Compression mode                         : Lossy
+Bits/(Pixel*Frame)                       : 0.738
+Time code of first frame                 : 00:00:00:00
+GOP, Open/Closed                         : Open
+GOP, Open/Closed of first frame          : Closed
+Stream size                              : 40.1 MiB (100%)
+Writing library                          : TMPGEnc 2.524.63.181
+Color primaries                          : BT.601 NTSC
+Transfer characteristics                 : BT.601
+Matrix coefficients                      : BT.601
