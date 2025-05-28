@@ -862,7 +862,6 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_BTL.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_BTL.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_CHAR.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_CHAR.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MAP.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MAP.DAT"
-          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SND.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SND.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_VOI.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_VOI.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\IOPRP300.IMG" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\IOPRP300.IMG"
@@ -878,11 +877,13 @@ jobs:
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT"
           New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT"
+          New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT"
 
           Write-Host "`n[i] Start quickBMS to dump the .DAT files contents to the original files folder"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV.DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT"
 
           Write-Host "`n[i] Unpack the *.FACE files"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -d -F "*.FACE" "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FACE DAT"
@@ -1022,14 +1023,130 @@ jobs:
           Write-Host "`n[i] Move patched GL6_FILE.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_FILE.DAT"
 
-      - name: 08. Patch SCEN.DAT
+      - name: 08. Patch GL6_MOV.DAT
+        shell: pwsh
+        run: |
+          Write-Host "`n[i] Copy GL6_MOV.DAT from the original files folder to the build folder"
+          Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV.DAT"
+
+          Write-Host "`n[i] Create a new 05-build\GL6_MOV DAT folder"
+          New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT"
+
+          # Define the list of movie files to process
+          $movieFiles = @(
+              "00000005.MOVIE",
+              "00000006.MOVIE",
+              "00000007.MOVIE",
+              "00000018.MOVIE"
+            )
+
+          # Initialize an array to store debug info
+          $debugInfo = @()
+
+          Write-Host "`n[i] Start subtitle loop"
+          foreach ($movie in $movieFiles) {
+            $movieBase = [System.IO.Path]::GetFileNameWithoutExtension($movie)
+
+            Write-Host "`n[i] Create movie dir"
+            New-Item -ItemType Directory -Force -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase"
+
+            Write-Host "`n[i] Demux $movie"
+            cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" demux -video:0 -pcm:0 -d "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\$movie"
+
+            Write-Host "`n[i] Add subtitles to ${movieBase}_video_0.m2v"
+            cd "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase"
+            Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_MOV.DAT\$movie.srt" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\$movie.srt"
+            cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg\ffmpeg.exe" -nostdin -i "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_video_0.m2v" -vf subtitles=$movie.srt -c mpeg2video -b:v 6342k -minrate 5700k -maxrate 15000k -bufsize 1835008 -s 640x448 -r 30000/1001 -g 18 -bf 2 -sc_threshold 1G -pix_fmt yuv420p -profile:v main -level:v main -color_primaries smpte170m -color_trc smpte170m -colorspace smpte170m -intra_matrix 16,17,17,18,18,18,19,19,19,19,20,20,20,20,20,21,21,21,21,21,21,22,22,22,22,22,22,22,23,23,23,23,23,23,23,23,24,24,24,25,24,24,24,25,26,26,26,26,25,27,27,27,27,27,28,28,28,28,30,30,30,31,31,33 -video_format ntsc -f mpeg2video "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
+
+            Write-Host "`n[i] Add missing MPEG-2 sequence end code 0x00 0x00 0x01 0xB7 at the end of ${movieBase}_subtitled.m2v"
+            # Debug info for original video
+            $origFile = "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_video_0.m2v"
+            $origSize = (Get-Item $origFile).Length
+            ($fs = [System.IO.File]::OpenRead($origFile)).Seek(-8, [System.IO.SeekOrigin]::End) | Out-Null
+            $b = [byte[]]::new(8)
+            $fs.Read($b, 0, 8) | Out-Null
+            $origLastBytes = ($b | ForEach-Object { $_.ToString('X2') } | Join-String -Separator ' ')
+            $fs.Close()
+            $debugInfo += "[${movieBase}] Original Video: Size = $origSize bytes | Last 8 bytes = $origLastBytes"
+
+            # Append the sequence end code
+            $reencodedFile = "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
+            ($fs = [System.IO.File]::OpenWrite($reencodedFile)).Seek(-4, [System.IO.SeekOrigin]::End) | Out-Null
+            $fs.Write(([byte[]]@(0x00,0x00,0x01,0xB7)), 0, 4)
+            $fs.Close()
+
+            # Debug info for reencoded video
+            $reencodedSize = (Get-Item $reencodedFile).Length
+            ($fs = [System.IO.File]::OpenRead($reencodedFile)).Seek(-8, [System.IO.SeekOrigin]::End) | Out-Null
+            $b = [byte[]]::new(8)
+            $fs.Read($b, 0, 8) | Out-Null
+            $reencodedLastBytes = ($b | ForEach-Object { $_.ToString('X2') } | Join-String -Separator ' ')
+            $fs.Close()
+            $debugInfo += "[${movieBase}] Reencoded Video: Size = $reencodedSize bytes | Last 8 bytes = $reencodedLastBytes"
+
+            Write-Host "`n[i] Create mux instruction file for $movie"
+          @"
+          pss
+              stream video:0
+                  input "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
+              end
+              stream pcm:0
+                  input "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_pcm_0.ads"
+              end
+          end
+          "@ | Out-File -FilePath "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}.mux" -Encoding ascii
+
+            Write-Host "`n[i] Mux back to $movie"
+            cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" mux -o "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}.mux" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\$movie"
+          }
+
+          # Print debug info at the end
+          Write-Host "`n[i] Debug Information for Reencoded Videos"
+          foreach ($info in $debugInfo) {
+              Write-Host $info
+          }
+
+          Write-Host "`n[i] Patch MOV.DAT"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\02-quickbms\quickbms.exe" -w -r -r "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 quickBMS scripts\growlanser.bms" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV.DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT"
+
+          Write-Host "`n[i] Move patched MOV.DAT"
+          Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT"
+
+      # - name: 08.1 Debug
+      #   shell: pwsh
+      #   run: |
+      #     Write-Host "`n[i] Debug info 1 - ffprobe JSON"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+
+      #     Write-Host "`n[i] Debug info 2 - ps2str info"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+
+      #     Write-Host "`n[i] Debug info 3 - MediaInfo"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_25.04_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_25.04_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_25.04_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
+      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_25.04_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+
+      #     ls "$Env:GITHUB_WORKSPACE\build\05-original_files"
+      #     ls "$Env:GITHUB_WORKSPACE\build\06-translates_files"
+
+      - name: 09. Patch SCEN.DAT
         shell: pwsh
         run: |
           Write-Host "`n[i] Copy SCEN.DAT from the original files folder to the build folder"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\"
 
           Write-Host "`n[i] Create amd copy all files from the original dumped SCEN folder to the build SCEN DAT folder"
-          Copy-Item -Recurse -Verbose -Path  "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT*" "$Env:GITHUB_WORKSPACE\build\05-build\"
+          Copy-Item -Recurse -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_SCEN DAT*" "$Env:GITHUB_WORKSPACE\build\05-build\"
 
           Write-Host "`n[i] Change directory to GL6_SCEN DAT"
           cd "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN DAT\"
@@ -1229,7 +1346,7 @@ jobs:
           Write-Host "`n[i] Move patched SCEN.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_SCEN.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_SCEN.DAT"
 
-      - name: 09. Check filesize
+      - name: 10. Check filesize
         shell: pwsh
         run: |
           Write-Host "`n[i] Get the translated file sizes"
@@ -1239,13 +1356,13 @@ jobs:
             @{Name="Size (MB)"; Expression={[math]::Round($_.Length / 1MB, 2)}} |
               Format-Table -AutoSize
 
-      - name: 10. Create patched version
+      - name: 11. Create patched version
         shell: pwsh
         run: |
           Write-Host "`n[i] Build"
           python "$Env:GITHUB_WORKSPACE\build\03-isotool\isotool.py" --mode insert --iso "$Env:GITHUB_WORKSPACE\build\05-original_files\Growlanser 6 Precarious World.iso" --filelist "$Env:GITHUB_WORKSPACE\build\05-original_files\filelist.txt" --files "$Env:GITHUB_WORKSPACE\build\06-translates_files" --output "$Env:GITHUB_WORKSPACE\build\Growlanser 6 Precarious World English.iso" --with-padding
 
-      - name: 11. Create xDelta patch
+      - name: 12. Create xDelta patch
         shell: pwsh
         run: |
           Write-Host "`n[i] Create xDelta Patch"
@@ -1254,7 +1371,7 @@ jobs:
           Write-Host "`n[i] remove vcdiff\file"
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
 
-      - name: 12. Publish patch as an Artifact
+      - name: 13. Publish patch as an Artifact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: Growlanser_6_English_xDelta_Patch

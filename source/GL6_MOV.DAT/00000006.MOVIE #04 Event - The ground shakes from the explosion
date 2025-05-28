@@ -1,47 +1,241 @@
 #### Original Title: 爆発の地響き ####
 
-.srt file:
-1
-00:00:07,890 --> 00:00:09,431
-What was that just now?
+General
+Count                                    : 359
+Count of stream of this kind             : 1
+Kind of stream                           : General
+Kind of stream                           : General
+Stream identifier                        : 0
+Count of video streams                   : 1
+Video_Format_List                        : MPEG Video
+Video_Format_WithHint_List               : MPEG Video
+Codecs Video                             : MPEG Video
+Complete name                            : C:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\04-test\00000006_video_0.m2v
+Folder name                              : C:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\04-test
+File name extension                      : 00000006_video_0.m2v
+File name                                : 00000006_video_0
+File extension                           : m2v
+Format                                   : MPEG Video
+Format                                   : MPEG Video
+Format/Extensions usually used           : mpgv mpv mp1v m1v mp2v m2v
+Commercial name                          : MPEG Video
+Format version                           : Version 2
+Internet media type                      : video/MPV
+File size                                : 42031749
+File size                                : 40.1 MiB
+File size                                : 40 MiB
+File size                                : 40 MiB
+File size                                : 40.1 MiB
+File size                                : 40.08 MiB
+Duration                                 : 53020
+Duration                                 : 53 s 20 ms
+Duration                                 : 53 s 20 ms
+Duration                                 : 53 s 20 ms
+Duration                                 : 00:00:53.020
+Duration                                 : 00:00:52:29
+Duration                                 : 00:00:53.020 (00:00:52:29)
+Overall bit rate mode                    : VBR
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 6342022
+Overall bit rate                         : 6 342 kb/s
+Frame rate                               : 29.970
+Frame rate                               : 29.970 FPS
+Frame count                              : 1589
+Stream size                              : 0
+Stream size                              : 0.00 Byte (0%)
+Stream size                              :  Byte0
+Stream size                              : 0.0 Byte
+Stream size                              : 0.00 Byte
+Stream size                              : 0.000 Byte
+Stream size                              : 0.00 Byte (0%)
+Proportion of this stream                : 0.00000
+File creation date                       : 2025-05-31 18:26:12.956 UTC
+File creation date (local)               : 2025-05-31 18:26:12.956
+File last modification date              : 2025-05-31 18:26:16.100 UTC
+File last modification date (local)      : 2025-05-31 18:26:16.100
+Writing library                          : encoded by TMPGEnc (ver. 2.524.63.181)
+Writing library                          : TMPGEnc 2.524.63.181
+Encoded_Library_Name                     : TMPGEnc
+Encoded_Library_Version                  : 2.524.63.181
 
-2
-00:00:11,718 --> 00:00:13,013
-What happened, Yurii?
+Video
+Count                                    : 391
+Count of stream of this kind             : 1
+Kind of stream                           : Video
+Kind of stream                           : Video
+Stream identifier                        : 0
+Format                                   : MPEG Video
+Format                                   : MPEG Video
+Commercial name                          : MPEG-2 Video
+Format version                           : Version 2
+Format profile                           : Main@Main
+Format settings                          : CustomMatrix / BVOP
+Format settings, BVOP                    : Yes
+Format settings, BVOP                    : Yes
+Format settings, Matrix                  : Custom
+Format settings, Matrix                  : Custom
+Format_Settings_Matrix_Data              : 10111112121213131313141414141415151515151516161616161616171717171717171718181819181818191A1A1A1A191B1B1B1B1B1C1C1C1C1E1E1E1F1F21
+Format settings, GOP                     : M=3, N=18
+Internet media type                      : video/MPV
+Duration                                 : 53020
+Duration                                 : 53 s 20 ms
+Duration                                 : 53 s 20 ms
+Duration                                 : 53 s 20 ms
+Duration                                 : 00:00:53.020
+Duration                                 : 00:00:52:29
+Duration                                 : 00:00:53.020 (00:00:52:29)
+Bit rate mode                            : VBR
+Bit rate mode                            : Variable
+Bit rate                                 : 6342022
+Bit rate                                 : 6 342 kb/s
+Maximum bit rate                         : 15000000
+Maximum bit rate                         : 15.0 Mb/s
+Width                                    : 640
+Width                                    : 640 pixels
+Height                                   : 448
+Height                                   : 448 pixels
+Sampled_Width                            : 640
+Sampled_Height                           : 448
+Pixel aspect ratio                       : 1.000
+Display aspect ratio                     : 1.429
+Display aspect ratio                     : 1.429
+Frame rate                               : 29.970
+Frame rate                               : 29.970 (30000/1001) FPS
+FrameRate_Num                            : 30000
+FrameRate_Den                            : 1001
+Frame count                              : 1589
+Standard                                 : NTSC
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8
+Bit depth                                : 8 bits
+Scan type                                : Progressive
+Scan type                                : Progressive
+Compression mode                         : Lossy
+Compression mode                         : Lossy
+Bits/(Pixel*Frame)                       : 0.738
+Delay                                    : 0
+Delay                                    : 00:00:00.000
+Delay                                    : 00:00:00:00
+Delay                                    : 00:00:00.000 (00:00:00:00)
+Delay_Settings                           : drop_frame_flag=0 / closed_gop=1 / broken_link=0
+Delay_DropFrame                          : No
+Delay, origin                            : Stream
+Delay, origin                            : Raw stream
+Time code of first frame                 : 00:00:00:00
+TimeCode_DropFrame                       : No
+GOP, Open/Closed                         : Open
+GOP, Open/Closed                         : Open
+GOP, Open/Closed of first frame          : Closed
+GOP, Open/Closed of first frame          : Closed
+Stream size                              : 42031749
+Stream size                              : 40.1 MiB (100%)
+Stream size                              : 40 MiB
+Stream size                              : 40 MiB
+Stream size                              : 40.1 MiB
+Stream size                              : 40.08 MiB
+Stream size                              : 40.1 MiB (100%)
+Proportion of this stream                : 1.00000
+Writing library                          : encoded by TMPGEnc (ver. 2.524.63.181)
+Writing library                          : TMPGEnc 2.524.63.181
+Encoded_Library_Name                     : TMPGEnc
+Encoded_Library_Version                  : 2.524.63.181
+Buffer size                              : 229376
+colour_description_present               : Yes
+colour_description_present_Source        : Stream
+Color primaries                          : BT.601 NTSC
+colour_primaries_Source                  : Stream
+Transfer characteristics                 : BT.601
+transfer_characteristics_Source          : Stream
+Matrix coefficients                      : BT.601
+matrix_coefficients_Source               : Stream
+intra_dc_precision                       : 8
 
-3
-00:00:13,409 --> 00:00:17,764
-Many people... Many people suddenly...
 
-4
-00:00:17,980 --> 00:00:21,231
-They were killed?
-Could it have been the Admonisher? 
+Input #0, mpegvideo, from 'C:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\04-test\00000006_video_0.m2v':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: mpeg2video (mpeg1video) (Main), yuv420p(tv, smpte170m, progressive), 640x448 [SAR 1:1 DAR 10:7], 25 fps, 29.97 tbr, 1200k tbn
+    Side data:
+      cpb: bitrate max/min/avg: 15000000/0/0 buffer size: 1835008 vbv_delay: N/A
+{
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "Main",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 640,
+            "height": 448,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "10:7",
+            "pix_fmt": "yuv420p",
+            "level": 8,
+            "color_range": "tv",
+            "color_space": "smpte170m",
+            "color_transfer": "smpte170m",
+            "color_primaries": "smpte170m",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 1,
+            "r_frame_rate": "30000/1001",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/1200000",
+            "extradata_size": 98,
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0,
+                "non_diegetic": 0,
+                "captions": 0,
+                "descriptions": 0,
+                "metadata": 0,
+                "dependent": 0,
+                "still_image": 0,
+                "multilayer": 0
+            },
+            "side_data_list": [
+                {
+                    "side_data_type": "CPB properties",
+                    "max_bitrate": 15000000,
+                    "min_bitrate": 0,
+                    "avg_bitrate": 0,
+                    "buffer_size": 1835008,
+                    "vbv_delay": -1
+                }
+            ]
+        }
+    ],
+    "format": {
+        "filename": "C:\\a\\Growlanser-6-English-Translation\\Growlanser-6-English-Translation\\build\\04-test\\00000006_video_0.m2v",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mpegvideo",
+        "format_long_name": "raw MPEG video",
+        "size": "42031749",
+        "probe_score": 51
+    }
+}
 
-5
-00:00:23,956 --> 00:00:29,479
-They were not simply killed... they were annihilated!
 
-6
-00:00:29,839 --> 00:00:31,839
-Annihilated?
-
-7
-00:00:33,200 --> 00:00:35,339
-Where did this happen!?
-
-8
-00:00:36,140 --> 00:00:38,788
-The explosion came from the south.
-
-9
-00:00:39,310 --> 00:00:41,475
-It seemed pretty far away, though.
-
-10
-00:00:41,901 --> 00:00:43,691
-South?
-
-11
-00:00:44,050 --> 00:00:46,059
-That's in the direction of Felmentia... 
+Input #0, mpegvideo, from 'C:\a\Growlanser-6-English-Translation\Growlanser-6-English-Translation\build\04-test\00000006_video_0.m2v':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: mpeg2video (mpeg1video) (Main), yuv420p(tv, smpte170m, progressive), 640x448 [SAR 1:1 DAR 10:7], 25 fps, 29.97 tbr, 1200k tbn
+    Side data:
+      cpb: bitrate max/min/avg: 15000000/0/0 buffer size: 1835008 vbv_delay: N/A
