@@ -493,7 +493,7 @@ There seems to be no one inside...[END-FE]
 //これも時の流れという物か。[NLINE]
 //ゆっくりしていくといい。[END-FE]
 I never thought the day would come[NLINE]
-that humans would visit ths village.[NWIN]
+that humans would visit this village.[NWIN]
 
 Are the times changing?[NLINE]
 Please make yourself at home.[END-FE]
@@ -2391,7 +2391,7 @@ C-certainly...[END-FE]
 #W32($5738)
 //これからも何かあったら[NLINE]
 //協力していこうではないか。[END-FE]
-If you need my assistence in the[NLINE]
+If you need my assistance in the[NLINE]
 future, I shall give it to you.[END-FE]
 
 
@@ -2401,7 +2401,7 @@ future, I shall give it to you.[END-FE]
 //POINTER #167 @ $573C - STRING #167 @ $88A7
 #W32($573C)
 //（…都合良く事実が修正されたみたいね…！）[END-FE]
-(...Looks like eveything turned out convenient for us...!)[END-FE]
+(...Looks like everything turned out convenient for us...!)[END-FE]
 
 
 
@@ -2410,7 +2410,7 @@ future, I shall give it to you.[END-FE]
 //POINTER #168 @ $5740 - STRING #168 @ $88D4
 #W32($5740)
 //（…都合良く事実が修正されたみたいだな！）[END-FE]
-(...Seems like eveything turned out convenient for us...!)[END-FE]
+(...Seems like everything turned out convenient for us...!)[END-FE]
 
 
 
@@ -2419,7 +2419,7 @@ future, I shall give it to you.[END-FE]
 //POINTER #169 @ $5744 - STRING #169 @ $8901
 #W32($5744)
 //（…都合良く事実が修正されたみたいですね…！）[END-FE]
-(...It appears eveything turned out convenient for us...!)[END-FE]
+(...It appears everything turned out convenient for us...!)[END-FE]
 
 
 
@@ -2429,7 +2429,7 @@ future, I shall give it to you.[END-FE]
 #W32($5748)
 //これからも何かあったら[NLINE]
 //協力していこうではないか。[END-FE]
-If you need my assistence in the[NLINE]
+If you need my assistance in the[NLINE]
 future, I shall give it to you.[END-FE]
 
 
@@ -4425,7 +4425,7 @@ for its own benefit?[[END-FE]
 //これ以上、時を維持できません。[NLINE]
 //元の時代に戻ります…。[END-FE]
 [CHAR1F00][V2600]
-My apologies for interupting[NLINE]
+My apologies for interrupting[NLINE]
 your conversation.[NWIN]
 
 [CHAR1F00][V2700]
