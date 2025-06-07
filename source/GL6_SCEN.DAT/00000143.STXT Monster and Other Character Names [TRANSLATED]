@@ -252,7 +252,7 @@ Grangalian Officer[END-FF]
 //POINTER #26 @ $108 - STRING #26 @ $860
 #W32($108)
 //グランゲイル軍魔導兵[END-FF]
-Grangalian Sorceror[END-FF]
+Grangalian Sorcerer[END-FF]
 
 
 
@@ -530,7 +530,7 @@ PMB Soldier[END-FF]
 //POINTER #57 @ $184 - STRING #57 @ $A07
 #W32($184)
 //平和維持軍魔導兵[END-FF]
-PMB Sorceror[END-FF]
+PMB Sorcerer[END-FF]
 
 
 
@@ -539,7 +539,7 @@ PMB Sorceror[END-FF]
 //POINTER #58 @ $188 - STRING #58 @ $A1A
 #W32($188)
 //平和維持軍魔導兵[END-FF]
-PMB Sorceror[END-FF]
+PMB Sorcerer[END-FF]
 
 
 
@@ -638,7 +638,7 @@ Cyriltian Healer[END-FF]
 //POINTER #69 @ $1B4 - STRING #69 @ $ADD
 #W32($1B4)
 //シリルティア軍魔導兵[END-FF]
-Cyriltian Sorceror[END-FF]
+Cyriltian Sorcerer[END-FF]
 
 
 
@@ -683,7 +683,7 @@ Grangalian Archer[END-FF]
 //POINTER #74 @ $1C8 - STRING #74 @ $B4C
 #W32($1C8)
 //グランゲイル軍魔導兵[END-FF]
-Grangalian Sorceror[END-FF]
+Grangalian Sorcerer[END-FF]
 
 
 
@@ -692,7 +692,7 @@ Grangalian Sorceror[END-FF]
 //POINTER #75 @ $1CC - STRING #75 @ $B63
 #W32($1CC)
 //グランゲイル軍魔導兵[END-FF]
-Grangalian Sorceror[END-FF]
+Grangalian Sorcerer[END-FF]
 
 
 
@@ -737,7 +737,7 @@ Neylern Archer[END-FF]
 //POINTER #80 @ $1E0 - STRING #80 @ $BCA
 #W32($1E0)
 //ネイラーン軍魔導兵[END-FF]
-Neylern Sorceror[END-FF]
+Neylern Sorcerer[END-FF]
 
 
 
@@ -917,7 +917,7 @@ Monopolis Archer[END-FF]
 //POINTER #100 @ $230 - STRING #100 @ $CC2
 #W32($230)
 //モノポリス社魔導兵[END-FF]
-Monopolis Sorceror[END-FF]
+Monopolis Sorcerer[END-FF]
 
 
 
@@ -926,7 +926,7 @@ Monopolis Sorceror[END-FF]
 //POINTER #101 @ $234 - STRING #101 @ $CD7
 #W32($234)
 //モノポリス社魔導兵[END-FF]
-Monopolis Sorceror[END-FF]
+Monopolis Sorcerer[END-FF]
 
 
 
@@ -998,7 +998,7 @@ Hingistan Archer[END-FF]
 //POINTER #109 @ $254 - STRING #109 @ $D6F
 #W32($254)
 //ヒンギスタン魔導兵[END-FF]
-Hingistan Sorceror[END-FF]
+Hingistan Sorcerer[END-FF]
 
 
 
@@ -1079,7 +1079,7 @@ Fomeros Archer[END-FF]
 //POINTER #118 @ $278 - STRING #118 @ $E1E
 #W32($278)
 //フォメロス魔導兵[END-FF]
-Fomeros Sorceror[END-FF]
+Fomeros Sorcerer[END-FF]
 
 
 
@@ -1151,7 +1151,7 @@ Resistance Archer[END-FF]
 //POINTER #126 @ $298 - STRING #126 @ $EC2
 #W32($298)
 //レジスタンス軍魔導兵[END-FF]
-Resistance Sorceror[END-FF]
+Resistance Sorcerer[END-FF]
 
 
 
@@ -1205,7 +1205,7 @@ Terrorist Archer[END-FF]
 //POINTER #132 @ $2B0 - STRING #132 @ $F32
 #W32($2B0)
 //テロリスト魔導兵[END-FF]
-Terrorist Sorceror[END-FF]
+Terrorist Sorcerer[END-FF]
 
 
 
@@ -1259,7 +1259,7 @@ Invading Archer[END-FF]
 //POINTER #138 @ $2C8 - STRING #138 @ $F8E
 #W32($2C8)
 //侵略軍魔導兵[END-FF]
-Invading Sorceror[END-FF]
+Invading Sorcerer[END-FF]
 
 
 
@@ -1313,7 +1313,7 @@ Armed Forces Archer[END-FF]
 //POINTER #144 @ $2E0 - STRING #144 @ $FE2
 #W32($2E0)
 //総帥軍魔導兵[END-FF]
-Armed Forces Sorceror[END-FF]
+Armed Forces Sorcerer[END-FF]
 
 
 
@@ -1322,7 +1322,7 @@ Armed Forces Sorceror[END-FF]
 //POINTER #145 @ $2E4 - STRING #145 @ $FF1
 #W32($2E4)
 //総帥軍魔導兵[END-FF]
-Armed Forces Sorceror[END-FF]
+Armed Forces Sorcerer[END-FF]
 
 
 

@@ -1175,7 +1175,7 @@ Ooh![NLINE]
 That's without a doubt a piece of[NLINE]
 [COL01]Naton Fruit[COL00]![NLINE]
 Would you like to trade it for my[NLINE]
-valueable gem?[END-FE]
+valuable gem?[END-FE]
 
 
 
@@ -1773,7 +1773,7 @@ Zafreed in the castle![END-FE]
 //POINTER #135 @ $3EBC - STRING #135 @ $600C
 #W32($3EBC)
 //ベッドで休みますか？[END-FE]
-Will you rest on the beed?[END-FE]
+Will you rest on the bed?[END-FE]
 
 
 

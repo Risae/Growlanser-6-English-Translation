@@ -585,7 +585,7 @@ on getting out of here.[END-FE]
 //炉の調整が忙しいんだ。[NLINE]
 //話しかけないでくれないか。[END-FE]
 I'm busy with adjusting the reactor's[NLINE]
-tempature. Please don't talk to me.[END-FE]
+temperature. Please don't talk to me.[END-FE]
 
 
 
@@ -596,7 +596,7 @@ tempature. Please don't talk to me.[END-FE]
 //炉は稼働中だが、[NLINE]
 //思ったほど温度は高くない。[END-FE]
 The reactor is in operation but[NLINE]
-the tempature is not as high as[NLINE]
+the temperature is not as high as[NLINE]
 you thought.[END-FE]
 
 
@@ -618,7 +618,7 @@ by a layperson.[END-FE]
 //POINTER #51 @ $33EC - STRING #51 @ $3D42
 #W32($33EC)
 //特別研究室につき施錠中[END-FE]
-It's locked because it's a special labratory.[END-FE]
+It's locked because it's a special laboratory.[END-FE]
 
 
 

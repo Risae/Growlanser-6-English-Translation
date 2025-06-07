@@ -37,6 +37,17 @@ jobs:
           [default.extend-words]
           END-FF = "END-FF"
           Monopolis = "Monopolis"
+          moreso = "moreso"
+          Whaat = "Whaat"
+          Wha = "Wha"
+          KNW = "KNW"
+
+          [files]
+          extend-exclude = [
+            "**/source/GL6_SCEN.DAT/00000034.SCEN*",
+            "**/source/GL6_SCEN.DAT/00000079.SCEN*",
+            "**/source/GL6_SCEN.DAT/00000086.SCEN*"
+          ]
           "@ | Set-Content -Path typos.toml -Encoding utf8
 
           typos "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" --config typos.toml --format brief

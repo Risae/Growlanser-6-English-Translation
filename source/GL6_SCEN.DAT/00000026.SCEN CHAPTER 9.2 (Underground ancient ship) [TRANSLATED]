@@ -418,7 +418,7 @@ The door is locked.[END-FE]
 #W32($708C)
 //どこかに、この扉を開ける[NLINE]
 //スイッチがあるのかな？[END-FE]
-Could there be a swich somewhere[NLINE]
+Could there be a switch somewhere[NLINE]
 that opens this door?[END-FE]
 
 
@@ -940,7 +940,7 @@ Go to the debugging room?[END-FE]
 //…機械音がしなくなりました。[NLINE]
 //ひょっとして、ガーディアンの増援を[NLINE]
 //止められたのかもしれません。[END-FE]
-...The mechanical noices have ceased.[NLINE]
+...The mechanical noises have ceased.[NLINE]
 Perhaps there are no longer any incoming[NLINE]
 Guardian reinforcements.[END-FE]
 

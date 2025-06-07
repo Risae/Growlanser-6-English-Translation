@@ -233,11 +233,11 @@ Makinus?[END-FE]
 //Dungeon Lady\\
 Ah, a bustling city.[NWIN]
 
-If you need informatiom, who do you[NLINE]
+If you need information, who do you[NLINE]
 talk to? People! I might find a lot[NLINE]
 of information about dungeons here.[NWIN]
 
-First, I must conduct a survery.[END-FE]
+First, I must conduct a survey.[END-FE]
 
 
 
@@ -785,7 +785,7 @@ Oh Lera... Please come home soon...[END-FE]
 //それよりも、生活必需品が[NLINE]
 //切れないかが心配よ。[END-FE]
 I'm not interested in things like[NLINE]
-liberation or independance...[NWIN]
+liberation or independence...[NWIN]
 
 Instead, I'm more worried about[NLINE]
 running out of commodities...[END-FE]
@@ -2077,9 +2077,9 @@ was born is the limit.[NWIN]
 
 [CHAR5300][V1F00]
 For example, if a person who is twenty years[NLINE]
-old were to go with someone who is fourty[NLINE]
+old were to go with someone who is forty[NLINE]
 years old, then the farthest they could go[NLINE]
-back would be fourty years.[END-FE]
+back would be forty years.[END-FE]
 
 
 
@@ -2422,7 +2422,7 @@ If you know why, please tell me.[END-FE]
 //POINTER #171 @ $3F4C - STRING #171 @ $6D98
 #W32($3F4C)
 //・他の人に説明させる[END-FE]
-・Leave it to the others to explan[END-FE]
+・Leave it to the others to explain[END-FE]
 
 
 
