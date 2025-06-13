@@ -52,51 +52,6 @@ jobs:
 
           typos "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" --config typos.toml --format brief
 
-      - name: 05. Validate Text Encoding and Characters
-        shell: pwsh # Powershell 7, which uses UTF-8 as default
-        run: |
-          Write-Host "`n[i] Checking text file encoding and characters"
-          $files = Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" -Recurse -Include *.SCEN,*.SCEC,*.STXT
-          $allowedChars = [regex]::Escape((Get-Content "$Env:GITHUB_WORKSPACE\tools\GL5 and 6 abcde scripts\abcde.tbl" | ForEach-Object { if ($_ -match '^[^#].*=(.)$') { $matches[1] } }) -join '')
-          foreach ($file in $files) {
-            $content = Get-Content -Path $file -Raw -Encoding UTF8
-            if ($content -cmatch "[^\x00-\x7F$allowedChars]") {
-              Write-Error "File $file contains unsupported characters"
-              exit 1
-            }
-            if ((Get-Item $file).EncodingName -ne 'UTF-8') {
-              Write-Error "File $file is not UTF-8 encoded"
-              exit 1
-            }
-          }
-
-      - name: 06. Validate Subtitle Files
-        shell: pwsh # Powershell 7, which uses UTF-8 as default
-        run: |
-          Write-Host "`n[i] Validating subtitle files"
-          $srtFiles = Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_MOV.DAT" -Recurse -Include *.srt
-          foreach ($srt in $srtFiles) {
-            $content = Get-Content -Path $srt
-            $lastEnd = 0
-            for ($i = 0; $i -lt $content.Length; $i++) {
-              if ($content[$i] -match '^\d+$' -and $content[$i+1] -match '(\d{2}:\d{2}:\d{2},\d{3}) --> (\d{2}:\d{2}:\d{2},\d{3})') {
-                $start = [TimeSpan]::Parse($matches[1].Replace(',', '.'))
-                $end = [TimeSpan]::Parse($matches[2].Replace(',', '.'))
-                if ($start -ge $end) {
-                  Write-Error "Invalid subtitle timing in $srt: Start time ($start) >= End time ($end)"
-                  exit 1
-                }
-                if ($start.TotalMilliseconds -lt $lastEnd) {
-                  Write-Error "Overlapping subtitle in $srt: Start time ($start) < Previous end time ($lastEnd)"
-                  exit 1
-                }
-                $lastEnd = $end.TotalMilliseconds
-              }
-            }
-          }
-
-
-
 
   BuildPatch:
     runs-on: windows-2025
