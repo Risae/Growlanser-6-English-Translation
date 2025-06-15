@@ -23,21 +23,33 @@ class FileListInfo:
 
 
 def main():
+    """
+    Entry point for PS2 ISO Rebuilder. Executes extract or insert mode based on arguments.
+    """
+
     logging.info(f"pyPS2 ISO Rebuilder v{SCRIPT_VERSION}")
-    logging.info("Original by Raynê Games")
+    logging.info("Original by Raynê Games, modified by Risae")
 
     args = get_arguments()
 
     if args.mode == "extract":
         dump_iso(args.iso, args.filelist, args.files)
-        logging.info("dumping finished")
+        logging.info("Dumping finished")
     else:
         rebuild_iso(args.iso, args.filelist, args.files, args.output, args.with_padding)
-        logging.info("rebuild finished")
-
+        logging.info("Rebuild finished")
 
 def get_arguments(argv=None):
-    # Init argument parser
+    """
+    Parses command-line arguments for ISO processing.
+
+    Args:
+        argv: Optional list of arguments for testing (default: None).
+
+    Returns:
+        Parsed arguments with resolved file paths.
+    """
+
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
@@ -104,17 +116,38 @@ def get_arguments(argv=None):
 
     return args
 
-
 def dump_iso(iso_path: Path, filelist: Path, iso_files: Path) -> None:
+    """
+    Extracts files from a PS2 ISO and generates a filelist with inode and LBA data.
+
+    Args:
+        iso_path: Path to input ISO file.
+        filelist: Path to output filelist.txt.
+        iso_files: Path to directory for extracted files.
+    """
 
     if not iso_path.exists():
-        logging.error(f"Could not to find '{iso_path.name}'!")
+        logging.error(f"Could not find '{iso_path.name}'!")
+        return
+
+    # Validate ISO format
+    try:
+        with open(iso_path, "rb") as iso:
+            iso.seek(0x8000)
+            if iso.read(6) != b"\x01CD001":
+                logging.error("Invalid ISO format!")
+                return
+            else:
+                logging.info("ISO format valid, starting dump.")
+
+    except IOError as Error:
+        logging.error(f"Failed to read ISO: {Error}")
         return
 
     iso_files.mkdir(parents=True, exist_ok=True)
 
     with open(iso_path, "rb") as iso:
-        
+
         iso.seek(0x809E)
         path_parts = []
         record_ends = []
@@ -162,7 +195,7 @@ def dump_iso(iso_path: Path, filelist: Path, iso_files: Path) -> None:
             assert dr_volume == 1, "multi-volume ISOs are not supported!"
             assert (dr_flags & 0b1000000) == 0, "4GiB+ files are not supported!"
 
-            # the dir records always en on even addresses
+            # the dir records always end on even addresses
             if (iso.tell() % 2) != 0:
                 iso.read(1)
 
@@ -213,14 +246,24 @@ def dump_iso(iso_path: Path, filelist: Path, iso_files: Path) -> None:
                 f.write(f"|{d.inode}||{iso_files.name}/{d.path}|\n")
             f.write(f"//{file_info.total_inodes}")
 
-
 def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_padding: bool) -> None:
+    """
+    Rebuilds a PS2 ISO using a filelist and extracted files.
+
+    Args:
+        iso: Path to original ISO file.
+        filelist: Path to filelist.txt with inode and file data.
+        iso_files: Path to directory with extracted files.
+        output: Path to output rebuilt ISO.
+        add_padding: Whether to add 20MiB padding to the ISO.
+    """
+
     if not filelist.exists():
-        logging.error(f"Could not to find the '{filelist.name}' files log!")
+        logging.error(f"Could not find the '{filelist.name}' files log!")
         return
 
     if not iso_files.exists():
-        logging.error(f"Could not to find the '{iso_files.name}' files directory!")
+        logging.error(f"Could not find the '{iso_files.name}' files directory!")
         return
 
     if not iso_files.is_dir():
@@ -237,7 +280,7 @@ def rebuild_iso(iso: Path, filelist: Path, iso_files: Path, output: Path, add_pa
         inode_data.append(FileListData(Path(*p.parts[1:]), int(l[0]), 0))
 
     if not lines[-1].startswith("//"):
-        logging.error(f"Could not to find the '{filelist.name}' inode total!")
+        logging.error(f"Could not find the '{filelist.name}' inode total!")
         return
 
     iso_info = FileListInfo(inode_data, int(lines[-1][2:]))
