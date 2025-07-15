@@ -31,6 +31,13 @@ printf          equ 0x129798            ; Formats strings (used for enemy defeat
     b           0x02C7C44               ; Unconditional branch to address 0x02C7C44 (skip the next instruction)
     nop                                 ; No operation (delay slot)
 
+/*
+Window width set part, is given in characters so the game multiplies the value
+by 10d every time it uses it, "simplest" solution is to divide by 10 the largest
+line width and round up But I need to create the "get line pixel width" function first
+.org 0x002760B0
+*/
+
 //Swap 〇 to Ｘ, code borrowed from PS2 Controller Remapper
 .org 0x00121C64
     j         Switcheroo
@@ -89,7 +96,7 @@ printf          equ 0x129798            ; Formats strings (used for enemy defeat
     b         0x00279058                 ; Branch from the original
     nop                                  ; NOP from the original
 
-; VWF function
+//VWF function
 .org VWFfunct
     li       s0,ram
     sw       s1,(s0)                     ; we store s1 in the address we set-up on s0
@@ -139,6 +146,11 @@ printf          equ 0x129798            ; Formats strings (used for enemy defeat
     nop
 .endfunc
 
+//TO-DO fix first-line text centering
+//and make character width calculation
+//its own thing, to fix textbox width
+//calculation with the VWF (inside 0x275520)
+//that'd need investigation, too many branches
 .func CalculateSpace
     dmove     s1,v1
     lbu       s2,0x1A8(s0)               ; line counter
@@ -305,111 +317,48 @@ printf          equ 0x129798            ; Formats strings (used for enemy defeat
     sh        a1, 0x2(t9)               ; Store half-word: *(t9 + 0x2) = a1 (delay slot)
 .endfunc
 
-; New functions for VWF in width calc (free space, adjust if needed)
-.org 0x003D7A00
-px_to_units:
-    addiu v0, a0, 9
-    li v1, 10
-    div v0, v1
-    mflo v0
-    jr ra
-    nop
+//Control codes (0xFF is always first byte):
+//--------------
+//  2-bytes
+//--------------
+// 0x80, 0x81, 0x82, 0x83
+// 0x90,
+// 0xCB, 0xCD
+// 0xFB, 0xFC, 0xFD
+//
+//--------------
+//  3-bytes
+//--------------
+// 0xAAXX, 0xABXX, 0xACXX, 0xADXX, 0xAEXX, 0xAFXX
+// 0xB0XX, 0xB1XX, 0xB2XX, 0xB3XX, 0xB4XX, 0xB5XX, 0xB8XX, 0xB9XX
+// 0xC8XX
+// 0xD4XX, 0xD5XX, 0xD6XX, 0xD7XX, 0xD8XX, 0xDEXX, 0xDFXX,
+// 0xE5XX, 0xE6XX, 0xE1XX, 0xEFXX
+//
+//--------------
+//  4-bytes
+//--------------
+// 0x9CXXXX
+// 0xB6XXXX, 0xB7XXXX, 0xBCXXXX, 0xBDXXXX, 0xBEXXXX, 0xBFXXXX
+// 0xCCXXXX, 0xCEXXXX, 0xCFXXXX
+// 0xEAXXXX
+//
+//--------------
+//  5-bytes
+//--------------
+// 0xBAXXXXXX, 0xBBXXXXXX
+//
+//--------------
+//  7-bytes!
+//--------------
+// 0x9DXXXXXXXXXX
+//
+//--------------
+//  End of box
+//--------------
+// 0xFF, 0xFE, 0x(Any other combination not present above)
 
-get_vwf_width:
-    li v0, VWFtable
-    addu v0, a1
-    lbu v0, 0(v0)
-    addiu v0, 2
-    jr ra
-    nop
-
-get_subtract_width:
-    li v0, VWFtable
-    lbu a0, 0(s0)
-    addu v0, a0
-    lbu v0, 0(v0)
-    addiu v0, 2
-    jr ra
-    nop
-
-; Patch ASCII add to use VWF
-.org 0x00275620
-    jal get_vwf_width
-    move a1, a0  ; a0 has char
-    addu s2, s2, v0
-    addiu s3, 1
-    sw zero, 0xA0(sp)
-
-; Patch SJIS add (use fixed 14 px)
-.org 0x002755FC
-    addiu s2, s2, 14
-    addiu s3, 2
-    beqz s4, 0x00275610
-    nop
-    addiu s2, s2, 14  ; If s4, add extra? Adjust as needed
-
-; Patch thresholds (examples, find all)
-.org 0x002756AC  ; unk2 threshold
-    slti v1, s2, 0x1B9  ; 441
-
-.org 0x00275700  ; normal threshold
-    slti at, s2, 0x259  ; 601
-
-; More thresholds...
-; Assume you find and patch all slti 0x2D to 0x1B9, 0x3D to 0x259, 0x2C to 0x1B8
-
-; Patch subtracts
-.org 0x00276358
-    addiu v1, v1, -0x258
-
-.org 0x002762E8
-    addiu v1, v1, -0x1B8
-
-; Patch fixed values
-.org 0x0027570C
-    addiu v1, zero, 0x258
-
-.org 0x002756E8
-    addiu v1, zero, 0x1B8
-
-; Patch sb for CharsPerLine to px_to_units (examples)
-.org 0x00275764
-    jal px_to_units
-    move a0, s2
-    sb v0, 0x11D(v1)
-
-.org 0x00276310
-    jal px_to_units
-    move a0, s2
-    sb v0, 0x11D(a0)  ; Adjust based on context
-
-; Repeat for all sb to 0x11D: 0x00276380, 0x002764D0, 0x00276540, 0x002765B0, 0x00276620, 0x00276880, 0x002768B0
-
-; Patch sw for windowWidth to px_to_units (examples)
-.org 0x00275790
-    jal px_to_units
-    move a0, s2
-    sw v0, 0x70(s5)
-
-.org 0x002756E8  ; But this is fixed, already patched to 0x1B8 px, then to units if needed
-    jal px_to_units
-    li a0, 0x1B8
-    sw v0, 0x70(s5)
-
-; Repeat for all sw to 0x70: 0x00275738, 0x002766F8, 0x002767D8, 0x002768C8
-
-; Patch subtract in word wrap
-.org 0x002766A4
-    jal get_subtract_width
-    nop
-    subu s2, s2, v0
-    nop
-    nop
-    nop
-    nop
-    nop
-
-; Font table
+//Font table
 .func VWFtable
     .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
     .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
@@ -427,5 +376,36 @@ get_subtract_width:
     nop
     nop
 .endfunc
+
+// Kill / EXP / attack / casting / using a knack top text alignment fix
+// Breaks some text
+/*
+.org 0x02C80DC
+    lbu     at,0x92(s3)
+    addu    at,s3,at
+    sb      zero,(at)
+    lb      at,0x10(s3)
+    bnez    at,@@draw
+    nop
+    addiu   s3,s3,0x1
+@@draw:
+    li      a0,0x0
+    jal     0x00151670
+    nop
+    li      a0,0x80
+    jal     0x001517a0
+    nop
+    mtc1    s2,f00
+    nop
+    cvt.s.w f12,f00
+    mtc1    s1,f00
+    nop
+    cvt.s.w f13,f00
+    addiu   a0,s3,0x10
+    jal     0x00151840
+    nop
+    b       0x002C81A0
+    nop
+*/
 
 .close
