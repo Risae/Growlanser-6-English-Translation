@@ -76,11 +76,13 @@ jobs:
         shell: pwsh
         run: |
           if (-not (Test-Path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip")) {
-              Write-Host "`n[i] 0.zip not cached, installing megatools..."
-              choco install megatools --version=1.11.3.20250401 --yes
+              Write-Host "`n[i] 0.zip not cached, installing rclone..."
+              choco install rclone --version=1.72.0 --yes
+
+              $obscuredPass = rclone obscure "${{ secrets.TEST2 }}"
 
               Write-Host "`n[i] Downloading 0.zip..."
-              megatools get -u "${{ secrets.TEST }}" -p "${{ secrets.TEST2 }}" --path "$Env:GITHUB_WORKSPACE\build\05-original_files\0.zip" --no-progress /Root/0.zip
+              rclone copy :mega:0.zip "$Env:GITHUB_WORKSPACE\build\05-original_files" -v --mega-use-https="true" --mega-user "${{ secrets.TEST }}" --mega-pass $obscuredPass
           }
 
           Write-Host "`n[i] Extract files"
