@@ -303,10 +303,10 @@ jobs:
             $fs.Close()
             $debugInfo += "[${movieBase}] Original Video: Size = $origSize bytes | Last 8 bytes = $origLastBytes"
 
-            # Append the sequence end code
+            # Append the sequence end code 0x00 00 01 B7
             $reencodedFile = "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
             ($fs = [System.IO.File]::OpenWrite($reencodedFile)).Seek(-4, [System.IO.SeekOrigin]::End) | Out-Null
-            $fs.Write(([byte[]]@(0x00,0x00,0x01,0xB7)), 0, 4)
+            $fs.Write(([byte[]]@(0x00, 0x00, 0x01, 0xB7)), 0, 4)
             $fs.Close()
 
             # Debug info for reencoded video
