@@ -22,7 +22,7 @@ jobs:
         run: |
           # Check if typos is already installed
           if (!(Get-Command typos -ErrorAction SilentlyContinue)) {
-            cargo install typos-cli --version 1.40.0
+            cargo install typos-cli --version 1.43.3
           } else {
             Write-Output "typos-cli already installed, using cached version"
           }
