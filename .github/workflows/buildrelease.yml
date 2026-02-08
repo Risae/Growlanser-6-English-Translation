@@ -6,13 +6,13 @@ jobs:
     runs-on: windows-2025
     steps:
       - name: 01. Copy repository
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           sparse-checkout: | # Only copy specific folders to the container
             source
 
       - name: 02. Restore/Store typos-cli
-        uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+        uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
           key: typos-cli
           path: ~/.cargo/bin
@@ -59,7 +59,7 @@ jobs:
     needs: CheckScript
     steps:
       - name: 01. Copy repository
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           sparse-checkout: | # Only copy specific folders to the container
             build
@@ -67,7 +67,7 @@ jobs:
             tools
 
       - name: 02. Restore/Store 0.zip
-        uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+        uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
         with:
           key: 0.zip
           path: build/05-original_files/0.zip
