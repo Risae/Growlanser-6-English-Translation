@@ -42,6 +42,7 @@ jobs:
           Wha = "Wha"
           KNW = "KNW"
           Vor = "Vor"
+          Gae = "Gae"
 
           [files]
           extend-exclude = [
