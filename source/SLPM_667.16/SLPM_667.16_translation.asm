@@ -1,6 +1,7 @@
 .ps2
 .open "SLPM_667.16", 0x0
 .loadtable "abcde.tbl"
+.notice "Modifying SLPM_667.16 using ps2 mode with abcde.tbl"
 
 // This file contains all the translations to the ELF.
 // Using the "abcde.tbl" file its possible to make the ".string" a little bit more readable, but not all control codes can be used.
@@ -34,9 +35,11 @@ Location: 0x2FA949
 
 .orga 0x2FA940
 	.string "・Yes", 0xFF, 0xFC, 0x00
+	.notice "Modified 0x2FA940"
 
 .orga 0x2FA948
 	.string "・No", 0xFF, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x2FA948"
 
 
 /*
@@ -57,18 +60,21 @@ Location: 0x2FAED0
 
 .orga 0x2FAE90
 	.string "Obtained [COL04]", 0xFF, 0x80, "[COL00]!", 0xFF, 0xFE, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x2FAE90"
 
 
 .orga 0x2FAEB0
 	.string 0xFF, 0x81, " lost [COL04]", 0xFF, 0x80, "[COL00].", 0xFF, 0xFE, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x2FAEB0"
 
 
 .orga 0x2FAED0
 	.string "[COL01][CC.EAFCFF][COL00] stole [COL04]", 0xFF, 0xFC, 0xFF, 0x80, "[COL00]!", 0xFF, 0xFE, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x2FAED0"
 
 
 /*
-Enemie/Ally dies/retreats message
+Enemy/Ally dies/retreats message
 
 Location: 0x30BFD8
 [FF88]が[FF89]を撃破[FFFF][00]
@@ -89,31 +95,38 @@ Location: 0x30C008 (Pointer 0x30C0CC changed: [88BF4000] -> [90BF4000])
 
 .orga 0x30BFD8
 	.string 0xFF, 0x88, "defeated", 0xFF, 0x89, ".", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30BFD8"
 
 
-.orga 0x30C0C4
+.orga 0x30C0C4 // Pointer
 	.byte 0x70, 0xBF, 0x40, 0x00
+	.notice "Modified 0x30C0C4"
 
 .orga 0x30BFF0 // Original: 0x30BFE8
 	.string 0xFF, 0x88, " dead", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30BFF0"
 
 
-.orga 0x30C0C8
+.orga 0x30C0C8 // Pointer
 	.byte 0x80, 0xBF, 0x40, 0x00
+	.notice "Modified 0x30C0C8"
 
 .orga 0x30C000 // Original: 0x30BFF8
 	.string 0xFF, 0x88, " retreated.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C000"
 
 
-.orga 0x30C0C8
 	.byte 0x80, 0xBF, 0x40, 0x00
+.orga 0x30C0CC // Pointer
+	.notice "Modified 0x30C0CC"
 
 .orga 0x30C010 // Original: 0x30C008
 	.string 0xFF, 0x88, " appeared.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C010"
 
 
 /*
-New condition screen
+New Victory/Defeat condition screen
 
 Location: 0x30C020
 クリアー条件が変化[FFFF][00]
@@ -138,18 +151,23 @@ Location: 0x30C0A0
 
 .orga 0x30C020
 	.string "New victory conditions.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C020"
 
 .orga 0x30C040
 	.string "New defeat conditions.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C040"
 
 .orga 0x30C060
 	.string "Conditions have changed.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C060"
 
 .orga 0x30C080
 	.string "[COL04]", 0xFF, 0x88, "[COL00] appeared.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C080"
 
 .orga 0x30C0A0
 	.string "[COL03]", 0xFF, 0x88, "[COL00] appeared.", 0xFF, 0xFF, 0x00
+	.notice "Modified 0x30C0A0"
 
 
 /*
@@ -183,16 +201,20 @@ Press [84A6] to confirm[8140][00]
 
 .orga 0x30F350
 	.string "Remove", 0x00, 0x00, 0x00
+	.notice "Modified 0x30F350"
 
 .orga 0x30F360
 	.string "Remove", 0x00, 0x00
+	.notice "Modified 0x30F360"
 
 
-.orga 0x21BCBC
+.orga 0x21BCBC // Pointer
 	.byte 0x54, 0x88, 0x83, 0xAF
+	.notice "Modified 0x21BCBC"
 
 .orga 0x30F368 // Original: 0x30F370
 	.string "Press ", 0x84, 0xA6, " to confirm"
+	.notice "Modified 0x30F368"
 
 
 /*
@@ -262,30 +284,38 @@ Skill Plate [00]
 
 .orga 0x32A018
 	.string " obtained!", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A018"
 
 .orga 0x32A028
 	.string " was stolen!", 0x00
+	.notice "Modified 0x32A028"
 
 .orga 0x32A040
 	.string " obtained!", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A040"
 
 .orga 0x32A060
 	.byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A060"
 
 .orga 0x32A080
 	.string " obtained!", 0x00, 0x00, 0x00
+	.notice "Modified 0x32A080"
 
 .orga 0x32A090
 	.string "Yurii", 0x00, 0x00
+	.notice "Modified 0x32A090"
 
 // To-Do
 
 
-.orga 0x2FAF24
+.orga 0x2FAF24 // Pointer
 	.byte 0x1B, 0xA0, 0x42, 0x00
+	.notice "Modified 0x2FAF24"
 
 .orga 0x32A09B // Original: 0x32A0A0
 	.string "points increased by "
+	.notice "Modified 0x32A09B"
 
 
 // To-Do
@@ -294,20 +324,25 @@ Skill Plate [00]
 
 .orga 0x32A110
 	.string " became ", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A110"
 
 
-.orga 0x2FAF24
+.orga 0x2FAF24 // Pointer
 	.byte 0xA0, 0xA0, 0x42, 0x00
+	.notice "Modified 0x2FAF24"
 
 .orga 0x32A120 // Original: 0x32A118
 	.string "!", 0x00
+	.notice "Modified 0x32A120"
 
 
-.orga 0x2FAF24
+.orga 0x2FAF24 // Pointer
 	.byte 0xA3, 0xA0, 0x42, 0x00
+	.notice "Modified 0x2FAF24"
 
 .orga 0x32A123 // Original: 0x32A128
 	.string "Skill Plate "
+	.notice "Modified 0x32A123"
 
 
 /*
@@ -320,6 +355,7 @@ Location: 0x32A130
 
 .orga 0x32A130
 	.string " paid!", 0x00, 0x00
+	.notice "Modified 0x32A130"
 
 
 /*
@@ -389,15 +425,19 @@ Gems waiting to be synthesized[FFFC]are not on the board[00]
 
 .orga 0x32A1A0
 	.string " obtained,", 0xFF, 0xFC, "but you can't carry any more!", 0xFF, 0xFC, "Choose a gem to throw away!"
+	.notice "Modified 0x32A1A0"
 
 .orga 0x32A1F0
 	.string " obtained, but", 0xFF, 0xFC, "you can't carry any more"
+	.notice "Modified 0x32A1F0"
 
 .orga 0x32A220
 	.string "Impact result", 0xFF, 0xFC, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A220"
 
 .orga 0x32A238
 	.string " created", 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A238"
 
 // To-Do
 
@@ -412,11 +452,13 @@ Gems waiting to be synthesized[FFFC]are not on the board[00]
 // To-Do
 
 
-.orga 0x2FAF74
+.orga 0x2FAF74 // Pointer
 	.byte 0x18, 0xA2, 0x42, 0x00
+	.notice "Modified 0x2FAF74"
 
 .orga 0x32A298 // Original: 0x32A2A0
 	.string "Gems waiting to be synthesized", 0xFF, 0xFC, "are not on the board"
+	.notice "Modified 0x32A298"
 
 
 /*
@@ -461,30 +503,39 @@ Location: 0x32A348
 
 .orga 0x32A2D0
 	.string "STR ", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A2D0"
 
 .orga 0x32A2E0
 	.string "INT ", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A2E0"
 
 .orga 0x32A2F0
 	.string "DEX ", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A2F0"
 
 .orga 0x32A300
 	.string "CHR ", 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A300"
 
 .orga 0x32A310
 	.string "Lv ", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A310"
 
 .orga 0x32A318
 	.string " up.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A318"
 
 .orga 0x32A328
 	.string " down.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A328"
 
 .orga 0x32A338
 	.byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A338"
 
 .orga 0x32A348
 	.string ".", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A348"
 
 
 /*
@@ -524,6 +575,7 @@ sb         zero,0x2(v0)
 
 .orga 0x32A360
 	.string "Equipped Skill Plate", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32A360"
 
 .orga 0x16E5E0
 	.byte 0x00, 0x00, 0x00, 0x00
@@ -532,6 +584,7 @@ sb         zero,0x2(v0)
 	.byte 0x00, 0x00, 0x00, 0x00
 	.byte 0x00, 0x00, 0x00, 0x00
 	.byte 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x16E5E0"
 
 
 /*
@@ -642,62 +695,79 @@ sb zero,0x2(v0) -> nop
 
 .orga 0x32B728
 	.string " defeated", 0x00
+	.notice "Modified 0x32B728"
 
 
 .orga 0x30C14C
 	.byte 0xB2, 0xB6, 0x42, 0x00
+	.notice "Modified 0x30C14C"
 
 .orga 0x30C188
 	.byte 0xB2, 0xB6, 0x42, 0x00
+	.notice "Modified 0x30C188"
 
 
 .orga 0x32B738
 	.string "KP", 0x00
+	.notice "Modified 0x32B738"
 
 .orga 0x32B740
 	.string " ", 0x00
+	.notice "Modified 0x32B740"
 
 
-.orga 0x30C164
+.orga 0x30C164 // Pointer
 	.byte 0xC3, 0xB6, 0x42, 0x00
+	.notice "Modified 0x30C164"
 
 .orga 0x32B743 // Original: 0x32B748
 	.string " retreated"
+	.notice "Modified 0x32B743"
 
 
-.orga 0x30C168
+.orga 0x30C168 // Pointer
 	.byte 0xCE, 0xB6, 0x42, 0x00
+	.notice "Modified 0x30C168"
 
 .orga 0x32B74E // Original: 0x32B750
 	.string " appeared"
+	.notice "Modified 0x32B74E"
 
 
-.orga 0x30C178
+.orga 0x30C178 // Pointer
 	.byte 0xEC, 0xB6, 0x42, 0x00
+	.notice "Modified 0x30C178"
 
 .orga 0x32B76C // Original: 0x32B770
 	.string " retreated", 0x00
+	.notice "Modified 0x32B76C"
 
 
-.orga 0x30C17C
+.orga 0x30C17C // Pointer
 	.byte 0xF7, 0xB6, 0x42, 0x00
+	.notice "Modified 0x30C17C"
 
 .orga 0x32B777 // Original: 0x32B778
 	.string " appeared", 0x00
+	.notice "Modified 0x32B777"
 
 
-.orga 0x30C180
+.orga 0x30C180 // Pointer
 	.byte 0x01, 0xB7, 0x42, 0x00
+	.notice "Modified 0x30C180"
 
 .orga 0x32B781 // Original: 0x32B780
 	.byte 0x00, 0x00
+	.notice "Modified 0x32B781"
 
 
-.orga 0x30C184
+.orga 0x30C184 // Pointer
 	.byte 0x07, 0xB7, 0x42, 0x00
+	.notice "Modified 0x30C184"
 
 .orga 0x32B787 // Original: 0x32B788
 	.string " enemies"
+	.notice "Modified 0x32B787"
 
 
 .orga 0x1C87B8
@@ -706,6 +776,7 @@ sb zero,0x2(v0) -> nop
 	.byte 0x00, 0x00, 0x00, 0x00
 	.byte 0x00, 0x00, 0x00, 0x00
 	.byte 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x1C87B8"
 
 .orga 0x1C7828
 	.byte 0x00, 0x00, 0x00, 0x00
@@ -713,6 +784,7 @@ sb zero,0x2(v0) -> nop
 	.byte 0x00, 0x00, 0x00, 0x00
 	.byte 0x00, 0x00, 0x00, 0x00
 	.byte 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x1C7828"
 
 
 /*
@@ -745,21 +817,27 @@ AUTO[00]
 
 .orga 0x32BBA0
 	.string "STEREO", 0x00
+	.notice "Modified 0x32BBA0"
 
 .orga 0x32BBB0
 	.string "MONO", 0x00, 0x00, 0x00
+	.notice "Modified 0x32BBB0"
 
 .orga 0x32BBC0
 	.string "ON", 0x00
+	.notice "Modified 0x32BBC0"
 
 .orga 0x32BBC8
 	.string "OFF", 0x00, 0x00
+	.notice "Modified 0x32BBC8"
 
 .orga 0x32BBD0
 	.string "REORDER"
+	.notice "Modified 0x32BBD0"
 
 .orga 0x32BBD8
 	.string "AUTO", 0x00, 0x00, 0x00
+	.notice "Modified 0x32BBD8"
 
 
 /*
@@ -792,11 +870,13 @@ Location: 0x32BC58
 
 .orga 0x32BC28
 	.string "Arrived"
+	.notice "Modified 0x32BC28"
 
 // To-Do
 
 .orga 0x32BC40
 	.string "Waiting"
+	.notice "Modified 0x32BC40"
 
 // To-Do
 
@@ -823,6 +903,7 @@ Location: 0x32BCD8
 
 .orga 0x32BCA8
 	.string "Path Control"
+	.notice "Modified 0x32BCA8"
 
 // To-Do
 
@@ -830,6 +911,7 @@ Location: 0x32BCD8
 
 .orga 0x32BCD8
 	.string "  #"
+	.notice "Modified 0x32BCD8"
 
 
 /*
@@ -856,18 +938,23 @@ Is this okay?[00]
 
 .orga 0x32BD58
 	.string "・Yes", 0x00
+	.notice "Modified 0x32BD58"
 
 .orga 0x32BD60
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32BD60"
 
 .orga 0x32BD70
 	.byte 0x00, 0x00
+	.notice "Modified 0x32BD70"
 
 .orga 0x32BD78
 	.string "will be used.", 0x00
+	.notice "Modified 0x32BD78"
 
 .orga 0x32BD90
 	.string "Is this okay?", 0x00, 0x00
+	.notice "Modified 0x32BD90"
 
 
 /*
@@ -896,18 +983,23 @@ Gems[00]
 
 .orga 0x32BED0
 	.string "Items"
+	.notice "Modified 0x32BED0"
 
 .orga 0x32BED8
 	.string "Special"
+	.notice "Modified 0x32BED8"
 
 .orga 0x32BEE0
 	.string "Weapons"
+	.notice "Modified 0x32BEE0"
 
 .orga 0x32BEE8
 	.string "Armor"
+	.notice "Modified 0x32BEE8"
 
 .orga 0x32BEF0
 	.string "Gems"
+	.notice "Modified 0x32BEF0"
 
 
 /*
@@ -926,9 +1018,11 @@ Location: 0x32BF08
 
 .orga 0x32BEF8
 	.string "Remaining"
+	.notice "Modified 0x32BEF8"
 
 .orga 0x32BF08
 	.string "     #"
+	.notice "Modified 0x32BF08"
 
 
 /*
@@ -965,9 +1059,11 @@ Location: 0x32BF50
 
 .orga 0x32BF38
 	.string "・Yes", 0x00
+	.notice "Modified 0x32BF38"
 
 .orga 0x32BF40
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32BF40"
 
 // To-Do
 
@@ -988,13 +1084,16 @@ Y-Position was changed - see 00000566.asm
 
 .orga 0x32BF70
 	.string "Waiting to activate", 0x00
+	.notice "Modified 0x32BF70"
 
 
-.orga 0x205C90
+.orga 0x205C90 // Pointer
 	.byte 0x05, 0xBF, 0xA5, 0x24
+	.notice "Modified 0x205C90"
 
 .orga 0x32BF85 // Original: 0x32BF80
 	.string "Casting", 0x00
+	.notice "Modified 0x32BF85"
 
 
 /*
@@ -1019,12 +1118,15 @@ Select Magic Level[00]
 
 .orga 0x32BF90
 	.string "MP Cost"
+	.notice "Modified 0x32BF90"
 
 .orga 0x32BF98
 	.string "Money"
+	.notice "Modified 0x32BF98"
 
 .orga 0x32BFB0
 	.string "Select Magic Level"
+	.notice "Modified 0x32BFB0"
 
 
 /*
@@ -1057,21 +1159,27 @@ EQ Time [00]
 
 .orga 0x32C0E8
 	.string "Equipped", 0x00
+	.notice "Modified 0x32C0E8"
 
 .orga 0x32C0F8
 	.string "Gems"
+	.notice "Modified 0x32C0F8"
 
 .orga 0x32C100
 	.string "Weapons"
+	.notice "Modified 0x32C100"
 
 .orga 0x32C108
 	.string "Armor"
+	.notice "Modified 0x32C108"
 
 .orga 0x32C110
 	.string "  # / EQ"
+	.notice "Modified 0x32C110"
 
 .orga 0x32C120
 	.string "EQ Time "
+	.notice "Modified 0x32C120"
 
 
 /*
@@ -1092,6 +1200,7 @@ Location: 0x32C1E8
 
 .orga 0x32C1E0
 	.string "Money"
+	.notice "Modified 0x32C1E0"
 
 
 /*
@@ -1144,27 +1253,35 @@ Location: 0x32C288
 
 .orga 0x32C1F0
 	.string "Item Name"
+	.notice "Modified 0x32C1F0"
 
 .orga 0x32C200
 	.string "Price"
+	.notice "Modified 0x32C200"
 
 .orga 0x32C218
 	.string "of this item."
+	.notice "Modified 0x32C218"
 
 .orga 0x32C230
 	.string "Can't hold any more"
+	.notice "Modified 0x32C230"
 
 .orga 0x32C250
 	.string "can't be equipped."
+	.notice "Modified 0x32C250"
 
 .orga 0x32C268
 	.string "Buy it?", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C268"
 
 .orga 0x32C278
 	.string "・Buy", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C278"
 
 .orga 0x32C288
 	.string "・Cancel"
+	.notice "Modified 0x32C288"
 
 
 /*
@@ -1207,27 +1324,35 @@ Location: 0x32C318
 
 .orga 0x32C298
 	.string "Selling", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C298"
 
 .orga 0x32C2A8
 	.string "Buying", 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C2A8"
 
 .orga 0x32C2B8
 	.string "・Sell", 0x00, 0x00, 0x00
+	.notice "Modified 0x32C2B8"
 
 .orga 0x32C2C8
 	.string "  #   /    MAX"
+	.notice "Modified 0x32C2C8"
 
 .orga 0x32C2D8
 	.string "  #   /    EQ", 0x00, 0x00
+	.notice "Modified 0x32C2D8"
 
 .orga 0x32C2F0
 	.string "   #"
+	.notice "Modified 0x32C2F0"
 
 .orga 0x32C300
 	.string "・Buy & equip", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C300"
 
 .orga 0x32C318
 	.string "・Buy", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C318"
 
 
 /*
@@ -1260,15 +1385,19 @@ NextExp[00]
 
 .orga 0x32C3C8
 	.string "   Spell"
+	.notice "Modified 0x32C3C8"
 
 .orga 0x32C3D8
 	.string "   Knack"
+	.notice "Modified 0x32C3D8"
 
 .orga 0x32C3E8
 	.string "   Skill"
+	.notice "Modified 0x32C3E8"
 
 .orga 0x32C3F8
 	.string "Gem Effects"
+	.notice "Modified 0x32C3F8"
 
 
 /*
@@ -1293,6 +1422,7 @@ Location: 0x32C430
 
 .orga 0x32C418
 	.string "Money"
+	.notice "Modified 0x32C418"
 
 
 /*
@@ -1385,83 +1515,107 @@ Location: 0x32C610
 
 .orga 0x32C518
 	.string "Attack", 0x00
+	.notice "Modified 0x32C518"
 
 .orga 0x32C528
 	.string "Magic Use"
+	.notice "Modified 0x32C528"
 
 .orga 0x32C540
 	.string "Auto Activate", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C540"
 
 .orga 0x32C558
 	.string "Spell Use"
+	.notice "Modified 0x32C558"
 
 .orga 0x32C568
 	.string "Item Use", 0x00, 0x00
+	.notice "Modified 0x32C568"
 
 .orga 0x32C578
 	.string "Cooperate", 0x00, 0x00
+	.notice "Modified 0x32C578"
 
 .orga 0x32C588
 	.string "Normal"
+	.notice "Modified 0x32C588"
 
 .orga 0x32C590
 	.string "Attack Weak"
+	.notice "Modified 0x32C590"
 
 .orga 0x32C5A0
 	.string "Support Allies"
+	.notice "Modified 0x32C5A0"
 
 
-.orga 0x30F440
+.orga 0x30F440 // Pointer
 	.byte 0x2F, 0xC5, 0x42, 0x00
+	.notice "Modified 0x30F440"
 
 .orga 0x32C5AF // Original: 0x32C5B0
 	.string "No Limit"
+	.notice "Modified 0x32C5AF"
 
 
 .orga 0x32C5B8
 	.string "Normal"
+	.notice "Modified 0x32C5B8"
 
 
-.orga 0x30F448
+.orga 0x30F448 // Pointer
 	.byte 0x3F, 0xC5, 0x42, 0x00
+	.notice "Modified 0x30F448"
 
 .orga 0x32C5BF // Original: 0x32C5C0
 	.string "Reserved"
+	.notice "Modified 0x32C5BF"
 
 
 .orga 0x32C5C8
 	.string "Never"
+	.notice "Modified 0x32C5C8"
 
 .orga 0x32C5D0
 	.string "Manual"
+	.notice "Modified 0x32C5D0"
 
 .orga 0x32C5D8
 	.string "Half-Auto", 0x00, 0x00
+	.notice "Modified 0x32C5D8"
 
 
-.orga 0x30F458
+.orga 0x30F458 // Pointer
 	.byte 0x95, 0xC5, 0x42, 0x00
+	.notice "Modified 0x30F458"
 
 .orga 0x32C615 // Original: 0x32C5E0
 	.string "Automatic"
+	.notice "Modified 0x32C615"
 
 
 .orga 0x32C5E8
 	.string "Set"
+	.notice "Modified 0x32C5E8"
 
 
-.orga 0x22E7B4
+.orga 0x22E7B4 // Pointer
 	.byte 0x75, 0xC5, 0x84, 0x24
+	.notice "Modified 0x22E7B4"
 
 .orga 0x32C5F5 // Original: 0x32C5F8
 	.string "Spell Name"
+	.notice "Modified 0x32C5F5"
 
 
 .orga 0x32C600
 	.string "Item Name"
+	.notice "Modified 0x32C600"
 
 .orga 0x32C610
 	.string " FRQ"
+	.notice "Modified 0x32C610"
 
 
 /*
@@ -1502,15 +1656,19 @@ Location: 0x32C9C0
 
 .orga 0x32C990
 	.string "Equipping %s ."
+	.notice "Modified 0x32C990"
 
 .orga 0x32C9A0
 	.string "Is this OK?", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32C9A0"
 
 .orga 0x32C9B8
 	.string "・Yes", 0x00, 0x00
+	.notice "Modified 0x32C9B8"
 
 .orga 0x32C9C0
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32C9C0"
 
 
 /*
@@ -1549,21 +1707,27 @@ Plate needs to be chosen[00]
 
 .orga 0x32C9D0
 	.string "Removing %s", 0x00
+	.notice "Modified 0x32C9D0"
 
 .orga 0x32C9E0
 	.string "Equipping", 0x00, 0x00
+	.notice "Modified 0x32C9E0"
 
 .orga 0x32C9F0
 	.string "Removing", 0x00
+	.notice "Modified 0x32C9F0"
 
 .orga 0x32CA00
 	.string "Equipped", 0x00
+	.notice "Modified 0x32CA00"
 
 .orga 0x32CA10
 	.string "After", 0x00
+	.notice "Modified 0x32CA10"
 
 .orga 0x32CA20
 	.string "Plate needs to be chosen", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32CA20"
 
 
 /*
@@ -1588,15 +1752,19 @@ Gems[00]
 
 .orga 0x32CA48
 	.string "Equipped"
+	.notice "Modified 0x32CA48"
 
 .orga 0x32CA58
 	.string "Weapons", 0x00
+	.notice "Modified 0x32CA58"
 
 .orga 0x32CA60
 	.string "Armor", 0x00
+	.notice "Modified 0x32CA60"
 
 .orga 0x32CA68
 	.string "Gems", 0x00
+	.notice "Modified 0x32CA68"
 
 
 /*
@@ -1657,30 +1825,39 @@ Lv%d[00]
 
 .orga 0x32CAA0
 	.string "Guard Physical"
+	.notice "Modified 0x32CAA0"
 
 .orga 0x32CAB0
 	.string "Friend Rating"
+	.notice "Modified 0x32CAB0"
 
 .orga 0x32CAC0
 	.string "Guard Magic"
+	.notice "Modified 0x32CAC0"
 
 .orga 0x32CAD0
 	.string "Psyche Eval"
+	.notice "Modified 0x32CAD0"
 
 .orga 0x32CAE0
 	.string "Revenge"
+	.notice "Modified 0x32CAE0"
 
 .orga 0x32CAE8
 	.string "Treasure Scout"
+	.notice "Modified 0x32CAE8"
 
 .orga 0x32CAF8
 	.string "Gabbing"
+	.notice "Modified 0x32CAF8"
 
 .orga 0x32CB00
 	.string "Bargaining"
+	.notice "Modified 0x32CB00"
 
 .orga 0x32CB10
 	.string "Event Menu"
+	.notice "Modified 0x32CB10"
 
 
 /*
@@ -1766,13 +1943,16 @@ Defeat Condition[00]
 
 .orga 0x32CC80
 	.string "Victory Condition", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32CC80"
 
 
-.orga 0x24E8DC
+.orga 0x24E8DC // Pointer
 	.byte 0x18, 0xCC, 0x84, 0x24
+	.notice "Modified 0x24E8DC"
 
 .orga 0x32CC98 // Original: 0x32CC90
 	.string "Defeat Condition"
+	.notice "Modified 0x32CC98"
 
 
 /*
@@ -1805,21 +1985,27 @@ does not have enough space. Make sure there is 112KB free.[00]
 
 .orga 0x32CCB0
 	.string "Select file to save over.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32CCB0"
 
 .orga 0x32CCE0
 	.string "Select file to load.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32CCE0"
 
 .orga 0x32CD10
 	.string "Not enough space to save.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32CD10"
 
 .orga 0x32CD40
 	.string "Data is corrupted.", 0x00, 0x00, 0x00
+	.notice "Modified 0x32CD40"
 
 .orga 0x32CD60
 	.string "The Memory Card (PS2) in MEMORY CARD slot 1"
+	.notice "Modified 0x32CD60"
 
 .orga 0x32CD90
 	.string "does not have enough space. Make sure there is 112KB free.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32CD90"
 
 
 /*
@@ -1854,9 +2040,11 @@ Location: 0x32CE10
 
 .orga 0x32CDE0
 	.string "・Yes"
+	.notice "Modified 0x32CDE0"
 
 .orga 0x32CDE8
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32CDE8"
 
 
 /*
@@ -1905,33 +2093,43 @@ You can't use this name[00] (GL5: You can't use this name)
 
 .orga 0x32D080
 	.string "Hiragana"
+	.notice "Modified 0x32D080"
 
 .orga 0x32D090
 	.string "Katakana"
+	.notice "Modified 0x32D090"
 
 .orga 0x32D0A0
 	.string "Alphabet"
+	.notice "Modified 0x32D0A0"
 
 .orga 0x32D0B0
 	.string "Kanji"
+	.notice "Modified 0x32D0B0"
 
 .orga 0x32D0C0
 	.string "Delete"
+	.notice "Modified 0x32D0C0"
 
 .orga 0x32D0D0
 	.string "Confirm"
+	.notice "Modified 0x32D0D0"
 
 .orga 0x32D0E0
 	.string "Is this OK?", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32D0E0"
 
 .orga 0x32D0F8
 	.string "・Yes"
+	.notice "Modified 0x32D0F8"
 
 .orga 0x32D100
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32D100"
 
 .orga 0x32D110
 	.string "You can't use this name"
+	.notice "Modified 0x32D110"
 
 
 /*
@@ -1950,12 +2148,15 @@ Location: 0x32D180
 
 .orga 0x32D160
 	.string "Is this OK?", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32D160"
 
 .orga 0x32D178
 	.string "・Yes"
+	.notice "Modified 0x32D178"
 
 .orga 0x32D180
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32D180"
 
 
 /*
@@ -1970,9 +2171,11 @@ Location: 0x32D230
 
 .orga 0x32D228
 	.string "・Yes"
+	.notice "Modified 0x32D228"
 
 .orga 0x32D230
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32D230"
 
 
 /*
@@ -2157,9 +2360,11 @@ Location: 0x32E7A8
 
 .orga 0x32E778
 	.string " Defeat"
+	.notice "Modified 0x32E778"
 
 .orga 0x32E798
 	.string " attacked"
+	.notice "Modified 0x32E798"
 
 
 /*
@@ -2228,30 +2433,39 @@ Dismantling the gem.[00]
 
 .orga 0x32E848
 	.string "Remove", 0x00, 0x00, 0x00
+	.notice "Modified 0x32E848"
 
 .orga 0x32E858
 	.string "Replace"
+	.notice "Modified 0x32E858"
 
 .orga 0x32E870
 	.string "x"
+	.notice "Modified 0x32E870"
 
 .orga 0x32E880
 	.string "  #"
+	.notice "Modified 0x32E880"
 
 .orga 0x32E8A8
 	.string "・Yes"
+	.notice "Modified 0x32E8A8"
 
 .orga 0x32E8B0
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32E8B0"
 
 .orga 0x32E8C0
 	.string "Creates an Impact.", 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E8C0"
 
 .orga 0x32E8E0
 	.string "Is this okay?", 0x00, 0x00
+	.notice "Modified 0x32E8E0"
 
 .orga 0x32E900
 	.string "Dismantling the gem.", 0x00, 0x00, 0x00
+	.notice "Modified 0x32E900"
 
 
 /*
@@ -2345,42 +2559,55 @@ Location: 0x32EA18
 
 .orga 0x32E920
 	.string "Dastis", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E920"
 
 .orga 0x32E938
 	.string "Makinus", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E938"
 
 .orga 0x32E950
 	.string "Royferon", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E950"
 
 .orga 0x32E970
 	.string "Leystan", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E970"
 
 .orga 0x32E980
 	.string "Pothrad Village"
+	.notice "Modified 0x32E980"
 
 .orga 0x32E990
 	.string "Schizarz", 0x00, 0x00, 0x00
+	.notice "Modified 0x32E990"
 
 .orga 0x32E9A0
 	.string "El Hingis", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E9A0"
 
 .orga 0x32E9C0
 	.string "Is this OK?", 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E9C0"
 
 .orga 0x32E9E0
 	.string "Canceling.", 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.notice "Modified 0x32E9E0"
 
 .orga 0x2C7928
 	.byte 0x00, 0x00, 0x47, 0x8C, 0x43, 0x00, 0x06, 0x3C, 0x80, 0xE9, 0xC6, 0x24, 0xE6, 0xA5, 0x04, 0x0C
+	.notice "Modified 0x2C7928"
 
 .orga 0x32EA00
 	.string "Teleporting to "
+	.notice "Modified 0x32EA00"
 
 .orga 0x32EA10
 	.string "・Yes"
+	.notice "Modified 0x32EA10"
 
 .orga 0x32EA18
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32EA18"
 
 
 /*
@@ -2417,18 +2644,23 @@ Location: 0x32EAF0
 
 .orga 0x32EA90
 	.string "Choose a gem to throw away", 0x00
+	.notice "Modified 0x32EA90"
 
 .orga 0x32EAB8
 	.string " will be", 0x00
+	.notice "Modified 0x32EAB8"
 
 .orga 0x32EAD0
 	.string "discarded. Is this OK?"
+	.notice "Modified 0x32EAD0"
 
 .orga 0x32EAE8
 	.string "・Yes"
+	.notice "Modified 0x32EAE8"
 
 .orga 0x32EAF0
 	.string "・No", 0x00, 0x00, 0x00
+	.notice "Modified 0x32EAF0"
 
 
 /*

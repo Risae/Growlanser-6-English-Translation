@@ -1,5 +1,6 @@
 .open "00000043.SCEN", 0x0
 .ps2
+.notice "Modifying 00000043.SCEN using ps2 mode"
 
 /*
 The following changes allow textboxes to display in the TV advertisement section of the opening.
@@ -17,5 +18,6 @@ The following changes allow textboxes to display in the TV advertisement section
 	.byte 0xA1, 0x01
 	.byte 0xAD, 0x02
 	.byte 0x12, 0x00
+	.notice "Modified 0x28E6"
 
 .close

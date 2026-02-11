@@ -1,5 +1,6 @@
 .open "00000001.SCEN", 0x0
 .ps2
+.notice "Modifying 00000001.SCEN using ps2 mode"
 
 /*
 The following changes allow the player to interact with the debug save room.
@@ -16,24 +17,24 @@ Without those changes it doesn't seem possible to interact with anything in the 
 
 .orga 0x1A3C
 	.byte 0x08, 0x00
-	.notice  "Modified 0x1A3C"
+	.notice "Modified 0x1A3C"
 .orga 0x2F34
 	.byte 0x08, 0x00
-	.notice  "Modified 0x2F34"
+	.notice "Modified 0x2F34"
 .orga 0x365E
 	.byte 0x08, 0x00
-	.notice  "Modified 0x365E"
+	.notice "Modified 0x365E"
 .orga 0x367E
 	.byte 0x08, 0x00
-	.notice  "Modified 0x367E"
+	.notice "Modified 0x367E"
 .orga 0x3694
 	.byte 0x08, 0x00
-	.notice  "Modified 0x3694"
+	.notice "Modified 0x3694"
 .orga 0x497C
 	.byte 0x08, 0x00
-	.notice  "Modified 0x497C"
+	.notice "Modified 0x497C"
 .orga 0x4F96
 	.byte 0x08, 0x00
-	.notice  "Modified 0x4F96"
+	.notice "Modified 0x4F96"
 
 .close
