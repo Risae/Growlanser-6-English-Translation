@@ -305,7 +305,7 @@ jobs:
             $fs.Close()
             $debugInfo += "[${movieBase}] Original Video: Size = $origSize bytes | Last 8 bytes = $origLastBytes"
 
-            # Append the sequence end code 0x00 00 01 B7
+            # Append the MPEG_program_end_code/sequence end code 0x00 00 01 B7
             $reencodedFile = "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
             ($fs = [System.IO.File]::OpenWrite($reencodedFile)).Seek(-4, [System.IO.SeekOrigin]::End) | Out-Null
             $fs.Write(([byte[]]@(0x00, 0x00, 0x01, 0xB7)), 0, 4)
@@ -348,32 +348,32 @@ jobs:
           Write-Host "`n[i] Move patched MOV.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT"
 
-      # - name: 08.1 Debug
-      #   shell: pwsh
-      #   run: |
-      #     Write-Host "`n[i] Debug info 1 - ffprobe JSON"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+      - name: 08.1 Debug
+        shell: pwsh
+        run: |
+          Write-Host "`n[i] Debug info 1 - ffprobe JSON"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
 
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
 
-      #     Write-Host "`n[i] Debug info 2 - ps2str info"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+          Write-Host "`n[i] Debug info 2 - ps2str info"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
 
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
 
-      #     Write-Host "`n[i] Debug info 3 - MediaInfo"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+          Write-Host "`n[i] Debug info 3 - MediaInfo"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
 
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
-      #     cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
 
-      #     ls "$Env:GITHUB_WORKSPACE\build\05-original_files"
-      #     ls "$Env:GITHUB_WORKSPACE\build\06-translates_files"
+          ls "$Env:GITHUB_WORKSPACE\build\05-original_files"
+          ls "$Env:GITHUB_WORKSPACE\build\06-translates_files"
 
       - name: 09. Patch SCEN.DAT
         shell: pwsh
