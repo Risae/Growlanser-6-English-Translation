@@ -267,16 +267,16 @@ jobs:
 
           # Define the list of movie files to process
           $movieFiles = @(
-              "00000005.MOVIE",
-              "00000006.MOVIE",
-              "00000007.MOVIE",
-              "00000009.MOVIE",
-              "00000010.MOVIE",
-              "00000011.MOVIE",
-              "00000012.MOVIE",
-              "00000016.MOVIE",
-              "00000018.MOVIE"
-            )
+            "00000005.MOVIE",
+            "00000006.MOVIE",
+            "00000007.MOVIE",
+            "00000009.MOVIE",
+            "00000010.MOVIE",
+            "00000011.MOVIE",
+            "00000012.MOVIE",
+            "00000016.MOVIE",
+            "00000018.MOVIE"
+          )
 
           # Initialize an array to store debug info
           $debugInfo = @()
@@ -352,32 +352,81 @@ jobs:
           Write-Host "`n[i] Move patched MOV.DAT"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV.DAT" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\GL6_MOV.DAT"
 
-      - name: 08.1 Debug
+      - name: 08.1 Enhanced Diff Debug
         shell: pwsh
         run: |
-          Write-Host "`n[i] Debug info 1 - ffprobe JSON"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+          # Define paths
+          $origDir = "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT"
+          $buildDir = "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT"
+          $debugDir = "$Env:GITHUB_WORKSPACE\build\debug_diff"
+          New-Item -ItemType Directory -Force -Path $debugDir
 
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+          # Define the list of movie files to process
+          $movieFiles = @(
+            "00000005.MOVIE",
+            "00000006.MOVIE",
+            "00000007.MOVIE",
+            "00000009.MOVIE",
+            "00000010.MOVIE",
+            "00000011.MOVIE",
+            "00000012.MOVIE",
+            "00000016.MOVIE",
+            "00000018.MOVIE"
+          )
 
-          Write-Host "`n[i] Debug info 2 - ps2str info"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+          # Loop over movies
+          foreach ($movie in $movieFiles) {
+            $movieBase = [System.IO.Path]::GetFileNameWithoutExtension($movie)
+            $origMovie = "$origDir\$movie"
+            $newMovie = "$buildDir\$movie"
+            $origVideo = "$buildDir\$movieBase\${movieBase}_video_0.m2v"  # From demux
+            $newVideo = "$buildDir\$movieBase\${movieBase}_subtitled.m2v"
 
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+            # ffprobe JSON for originals and new (full movies and videos)
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $origMovie | Out-File "$debugDir\ffprobe_orig_${movieBase}.json"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $newMovie | Out-File "$debugDir\ffprobe_new_${movieBase}.json"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $origVideo | Out-File "$debugDir\ffprobe_orig_video_${movieBase}.json"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $newVideo | Out-File "$debugDir\ffprobe_new_video_${movieBase}.json"
 
-          Write-Host "`n[i] Debug info 3 - MediaInfo"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\00000006.MOVIE"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\00000006.MOVIE"
+            # ps2str info
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss $origMovie | Out-File "$debugDir\ps2str_orig_${movieBase}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss $newMovie | Out-File "$debugDir\ps2str_new_${movieBase}.txt"
 
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_video_0.m2v"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f "$Env:GITHUB_WORKSPACE\build\04-test\00000006_subtitled.m2v"
+            # MediaInfo full
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $origMovie | Out-File "$debugDir\mediainfo_orig_${movieBase}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $newMovie | Out-File "$debugDir\mediainfo_new_${movieBase}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $origVideo | Out-File "$debugDir\mediainfo_orig_video_${movieBase}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $newVideo | Out-File "$debugDir\mediainfo_new_video_${movieBase}.txt"
 
-          ls "$Env:GITHUB_WORKSPACE\build\05-original_files"
-          ls "$Env:GITHUB_WORKSPACE\build\06-translates_files"
+            # Simple diff using Compare-Object (for text files; for JSON, use jq if you add it, or manual parse)
+            Write-Host "`n[i] Diff for $movieBase (ps2str):"
+            $origPs2 = Get-Content "$debugDir\ps2str_orig_${movieBase}.txt"
+            $newPs2 = Get-Content "$debugDir\ps2str_new_${movieBase}.txt"
+            $ps2Diff = Compare-Object $origPs2 $newPs2 | Format-Table -AutoSize | Out-String
+            Write-Host $ps2Diff
+            $ps2Diff | Out-File "$debugDir\diff_ps2str_${movieBase}.txt"
+
+            Write-Host "`n[i] Diff for $movieBase (MediaInfo):"
+            $origMi = Get-Content "$debugDir\mediainfo_orig_${movieBase}.txt"
+            $newMi = Get-Content "$debugDir\mediainfo_new_${movieBase}.txt"
+            $miDiff = Compare-Object $origMi $newMi | Format-Table -AutoSize | Out-String
+            Write-Host $miDiff
+            $miDiff | Out-File "$debugDir\diff_mediainfo_${movieBase}.txt"
+
+            # For JSON diff (basic line-by-line; for deeper, consider adding a tool like diff or jq)
+            Write-Host "`n[i] Diff for $movieBase (ffprobe JSON):"
+            $origFf = Get-Content "$debugDir\ffprobe_orig_${movieBase}.json"
+            $newFf = Get-Content "$debugDir\ffprobe_new_${movieBase}.json"
+            $ffDiff = Compare-Object $origFf $newFf | Format-Table -AutoSize | Out-String
+            Write-Host $ffDiff
+            $ffDiff | Out-File "$debugDir\diff_ffprobe_${movieBase}.txt"
+          }
+
+      - name: 08.2 Upload Debug Artifact
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0 (match your existing version)
+        with:
+          name: Growlanser_6_Debug_Diffs
+          path: ${{ github.workspace }}\build\debug_diff
 
       - name: 09. Patch SCEN.DAT
         shell: pwsh
