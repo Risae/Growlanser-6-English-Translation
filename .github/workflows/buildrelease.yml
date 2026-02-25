@@ -359,14 +359,61 @@ jobs:
       - name: 08.1 Enhanced Diff Debug
         shell: pwsh
         run: |
-          # Define paths
-          $origDir = "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT"
-          $buildDir = "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT"
-          $debugDir = "$Env:GITHUB_WORKSPACE\build\debug_diff"
-          New-Item -ItemType Directory -Force -Path $debugDir
+          function Create-HtmlDiff {
+            param([string]$OldFile, [string]$NewFile, [string]$OutFile, [string]$Title)
 
-          # Define the list of movie files to process
-          $movieFiles = @(
+            if (-not (Test-Path $OldFile)) {
+              Write-Host "ERROR $OldFile does not exist"
+              return
+            }
+
+            if (-not (Test-Path $NewFile)) {
+              Write-Host "ERROR $NewFile does not exist"
+              return
+            }
+
+            $diff = Compare-Object (Get-Content $OldFile) (Get-Content $NewFile) -IncludeEqual
+
+            $html = @"
+          <!DOCTYPE html>
+          <html><head><meta charset="UTF-8"><title>$Title</title>
+          <style>
+            body{font-family:monospace;background:#f8fafc;margin:20px}
+            table{width:100%;border-collapse:collapse}
+            th,td{border:1px solid #ddd;padding:4px;vertical-align:top;white-space:pre-wrap}
+            th{background:#eee}
+            .line{width:50px;color:#666;text-align:right}
+            .equal{background:#fff}
+            .removed{background:#fee2e2}
+            .added{background:#ecfdf5}
+          </style>
+          </head><body><h2>$Title</h2><table><tr><th class="line">Line</th><th>Original</th><th>New</th></tr>
+          "@
+
+            $i = 0
+
+            foreach ($d in $diff) {
+              $i++
+              $t = [System.Web.HttpUtility]::HtmlEncode($d.InputObject)
+
+              if ($d.SideIndicator -eq '==') {
+                $html += "<tr><td class='line'>$i</td><td class='equal'>$t</td><td class='equal'>$t</td></tr>`n"
+              }
+
+              elseif ($d.SideIndicator -eq '<=') {
+                $html += "<tr><td class='line'>$i</td><td class='removed'>$t</td><td></td></tr>`n"
+              }
+
+              else {
+                $html += "<tr><td class='line'>$i</td><td></td><td class='added'>$t</td></tr>`n"
+              }
+            }
+
+            $html += "</table></body></html>"
+            $html | Out-File $OutFile -Encoding utf8
+          }
+
+          $movies = @(
             "00000005.MOVIE",
             "00000006.MOVIE",
             "00000007.MOVIE",
@@ -374,60 +421,55 @@ jobs:
             "00000010.MOVIE",
             "00000011.MOVIE",
             "00000012.MOVIE",
+            "00000013.MOVIE",
+            "00000014.MOVIE",
+            "00000015.MOVIE",
             "00000016.MOVIE",
+            "00000017.MOVIE",
             "00000018.MOVIE"
           )
 
-          # Loop over movies
-          foreach ($movie in $movieFiles) {
-            $movieBase = [System.IO.Path]::GetFileNameWithoutExtension($movie)
-            $origMovie = "$origDir\$movie"
-            $newMovie = "$buildDir\$movie"
-            $origVideo = "$buildDir\$movieBase\${movieBase}_video_0.m2v"  # From demux
-            $newVideo = "$buildDir\$movieBase\${movieBase}_subtitled.m2v"
+          $debugDir = "$Env:GITHUB_WORKSPACE\build\debug_diff"
+          New-Item -ItemType Directory -Force -Verbose -Path "$debugDir\html_diffs"
 
-            # ffprobe JSON for originals and new (full movies and videos)
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $origMovie | Out-File "$debugDir\ffprobe_orig_${movieBase}.json"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $newMovie | Out-File "$debugDir\ffprobe_new_${movieBase}.json"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $origVideo | Out-File "$debugDir\ffprobe_orig_video_${movieBase}.json"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $newVideo | Out-File "$debugDir\ffprobe_new_video_${movieBase}.json"
+          foreach ($base in $movies) {
+            Write-Host "`n[i] Diffing $base"
 
-            # ps2str info
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss $origMovie | Out-File "$debugDir\ps2str_orig_${movieBase}.txt"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss $newMovie | Out-File "$debugDir\ps2str_new_${movieBase}.txt"
+            $origMovie = "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\$base"
+            $newMovie  = "$Env:GITHUB_WORKSPACE\build\05-build\GL6_MOV DAT\$base"
+            $origVideo = "$Env:GITHUB_WORKSPACE\build\05-build\$base\${base}_video_0.m2v"
+            $newVideo  = "$Env:GITHUB_WORKSPACE\build\05-build\$base\${base}_subtitled.m2v"
 
-            # MediaInfo full
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $origMovie | Out-File "$debugDir\mediainfo_orig_${movieBase}.txt"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $newMovie | Out-File "$debugDir\mediainfo_new_${movieBase}.txt"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $origVideo | Out-File "$debugDir\mediainfo_orig_video_${movieBase}.txt"
-            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $newVideo | Out-File "$debugDir\mediainfo_new_video_${movieBase}.txt"
+            # === your dumps (copy-paste your original commands here) ===
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $origMovie | Out-File "$debugDir\ffprobe_orig_${base}.json"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $newMovie  | Out-File "$debugDir\ffprobe_new_${base}.json"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $origVideo | Out-File "$debugDir\ffprobe_orig_video_${base}.json"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffprobe.exe" -hide_banner -show_streams -show_format -print_format json $newVideo  | Out-File "$debugDir\ffprobe_new_video_${base}.json"
 
-            # Simple diff using Compare-Object (for text files; for JSON, use jq if you add it, or manual parse)
-            Write-Host "`n[i] Diff for $movieBase (ps2str):"
-            $origPs2 = Get-Content "$debugDir\ps2str_orig_${movieBase}.txt"
-            $newPs2 = Get-Content "$debugDir\ps2str_new_${movieBase}.txt"
-            $ps2Diff = Compare-Object $origPs2 $newPs2 | Format-Table -AutoSize | Out-String
-            Write-Host $ps2Diff
-            $ps2Diff | Out-File "$debugDir\diff_ps2str_${movieBase}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss $origMovie | Out-File "$debugDir\ps2str_orig_${base}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" info -v -pss $newMovie  | Out-File "$debugDir\ps2str_new_${base}.txt"
 
-            Write-Host "`n[i] Diff for $movieBase (MediaInfo):"
-            $origMi = Get-Content "$debugDir\mediainfo_orig_${movieBase}.txt"
-            $newMi = Get-Content "$debugDir\mediainfo_new_${movieBase}.txt"
-            $miDiff = Compare-Object $origMi $newMi | Format-Table -AutoSize | Out-String
-            Write-Host $miDiff
-            $miDiff | Out-File "$debugDir\diff_mediainfo_${movieBase}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $origMovie | Out-File "$debugDir\mediainfo_orig_${base}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $newMovie  | Out-File "$debugDir\mediainfo_new_${base}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $origVideo | Out-File "$debugDir\mediainfo_orig_video_${base}.txt"
+            & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" -f $newVideo  | Out-File "$debugDir\mediainfo_new_video_${base}.txt"
 
-            # For JSON diff (basic line-by-line; for deeper, consider adding a tool like diff or jq)
-            Write-Host "`n[i] Diff for $movieBase (ffprobe JSON):"
-            $origFf = Get-Content "$debugDir\ffprobe_orig_${movieBase}.json"
-            $newFf = Get-Content "$debugDir\ffprobe_new_${movieBase}.json"
-            $ffDiff = Compare-Object $origFf $newFf | Format-Table -AutoSize | Out-String
-            Write-Host $ffDiff
-            $ffDiff | Out-File "$debugDir\diff_ffprobe_${movieBase}.txt"
+            Write-Host "`n[i] Create HTML Diff for ffprobe"
+            Create-HtmlDiff "$debugDir\ffprobe_orig_${base}.json" "$debugDir\ffprobe_new_${base}.json" "$debugDir\html_diffs\diff_ffprobe_${base}.html" "ffprobe Diff - $base"
+
+            Write-Host "`n[i] Create HTML Diff for ps2str"
+            Create-HtmlDiff "$debugDir\ps2str_orig_${base}.txt" "$debugDir\ps2str_new_${base}.txt" "$debugDir\html_diffs\diff_ps2str_${base}.html" "ps2str Diff - $base"
+
+            Write-Host "`n[i] Create HTML Diff for mediainfo"
+            Create-HtmlDiff "$debugDir\mediainfo_orig_${base}.txt" "$debugDir\mediainfo_new_${base}.txt" "$debugDir\html_diffs\diff_mediainfo_${base}.html" "mediainfo Diff - $base"
+
+            Write-Host "`n[i] Done"
           }
 
+          Write-Host "`n[i] ✅ Finished! HTML diffs are in 'build\debug_diff\html_diffs\'"
+
       - name: 08.2 Upload Debug Artifact
-        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0 (match your existing version)
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
         with:
           name: Growlanser_6_Debug_Diffs
           path: ${{ github.workspace }}\build\debug_diff
