@@ -295,10 +295,36 @@ jobs:
             Write-Host "`n[i] Demux $movie"
             cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ps2str\ps2str.exe" demux -video:0 -pcm:0 -d "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase" "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_MOV DAT\$movie"
 
+            Write-Host "`n[i] Getting original bitrate using MediaInfo"
+            $bitrate = & "$Env:GITHUB_WORKSPACE\build\04-demuxmux\MediaInfo_CLI_26.01_Windows_x64\mediainfo.exe" --Inform="Video;%BitRate%" "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_video_0.m2v"
+            $targetKbps = [int]([double]$bitrate / 1000)
+            Write-Host "`n[i] Using original bitrate: $targetKbps kb/s ($bitrate)"
+
             Write-Host "`n[i] Add subtitles to ${movieBase}_video_0.m2v"
             cd "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase"
             Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_MOV.DAT\$movie.srt" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\$movie.srt"
-            cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffmpeg.exe" -nostdin -i "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_video_0.m2v" -vf subtitles=$movie.srt -c mpeg2video -b:v 6342k -minrate 5700k -maxrate 15000k -bufsize 1835008 -s 640x448 -g 18 -bf 2 -sc_threshold 1G -pix_fmt yuv420p -profile:v main -level:v main -color_primaries smpte170m -color_trc smpte170m -colorspace smpte170m -intra_matrix 16,17,17,18,18,18,19,19,19,19,20,20,20,20,20,21,21,21,21,21,21,22,22,22,22,22,22,22,23,23,23,23,23,23,23,23,24,24,24,25,24,24,24,25,26,26,26,26,25,27,27,27,27,27,28,28,28,28,30,30,30,31,31,33 -video_format ntsc -f mpeg2video "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
+            cmd.exe /C "$Env:GITHUB_WORKSPACE\build\04-demuxmux\ffmpeg-2026-02-09-git-9bfa1635ae-essentials_build\ffmpeg.exe" `
+              -nostdin `
+              -i "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_video_0.m2v" `
+              -vf subtitles=$movie.srt `
+              -c mpeg2video `
+              -b:v "${targetKbps}k" `
+              -minrate 4500k `
+              -maxrate 15000k `
+              -bufsize 1835008 `
+              -s 640x448 `
+              -g 18 `
+              -bf 2 `
+              -sc_threshold 1G `
+              -pix_fmt yuv420p `
+              -profile:v main `
+              -level:v main `
+              -color_primaries smpte170m `
+              -color_trc smpte170m `
+              -colorspace smpte170m `
+              -inter_matrix 16,17,18,19,20,21,22,23,17,18,19,20,21,22,23,24,18,19,20,21,22,23,24,25,19,20,21,22,23,24,26,27,20,21,22,23,25,26,27,28,21,22,23,24,26,27,28,30,22,23,24,26,27,28,30,31,23,24,25,27,28,30,31,33 `
+              -video_format ntsc `
+              -f mpeg2video "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
 
             Write-Host "`n[i] Add missing MPEG-2 sequence end code 0x00 0x00 0x01 0xB7 at the end of ${movieBase}_subtitled.m2v"
             # Debug info for original video
@@ -331,11 +357,9 @@ jobs:
           pss
               stream video:0
                   input "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_subtitled.m2v"
-                  stream_start_delay 26
               end
               stream pcm:0
                   input "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}_pcm_0.ads"
-                  stream_start_delay 26
               end
           end
           "@ | Out-File -FilePath "$Env:GITHUB_WORKSPACE\build\05-build\$movieBase\${movieBase}.mux" -Encoding ascii
@@ -347,7 +371,7 @@ jobs:
           # Print debug info at the end
           Write-Host "`n[i] Debug Information for Reencoded Videos"
           foreach ($info in $debugInfo) {
-              Write-Host $info
+            Write-Host $info
           }
 
           Write-Host "`n[i] Patch MOV.DAT"
