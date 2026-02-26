@@ -20,7 +20,7 @@ jobs:
       - name: 03. Prepare typos-cli
         shell: pwsh # Powershell 7, which uses UTF-8 as default
         run: |
-          # Check if typos is already installed
+          Write-Host "`n[i] Check if typos is already installed"
           if (!(Get-Command typos -ErrorAction SilentlyContinue)) {
             cargo install typos-cli --version 1.43.3
           } else {
@@ -30,8 +30,10 @@ jobs:
       - name: 04. Check script using typos-cli
         shell: pwsh # Powershell 7, which uses UTF-8 as default
         run: |
+          Write-Host "`n[i] Creating typos.toml"
           @"
           [default]
+          # Don't check Lines starting with //
           extend-ignore-re = ['(?m)^\s*(//|#).*\r?\n?$']
 
           [default.extend-words]
@@ -44,16 +46,202 @@ jobs:
           Vor = "Vor"
           Gae = "Gae"
 
-          [files]
-          extend-exclude = [
-            "**/source/GL6_SCEN.DAT/00000034.SCEN*",
-            "**/source/GL6_SCEN.DAT/00000079.SCEN*",
-            "**/source/GL6_SCEN.DAT/00000086.SCEN*"
-          ]
+          # [files]
+          # extend-exclude = [
+          #   "**/source/GL6_SCEN.DAT/00000034.SCEN*",
+          #   "**/source/GL6_SCEN.DAT/00000079.SCEN*",
+          #   "**/source/GL6_SCEN.DAT/00000086.SCEN*"
+          # ]
           "@ | Set-Content -Path typos.toml -Encoding utf8
 
-          typos "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" --config typos.toml --format brief
+          Write-Host "`n[i] Displaying typos help because the web docs suck"
+          typos --help
 
+          Write-Host "`n[i] Checking GL6_SCEN.DAT"
+          typos --verbose --config typos.toml --format brief --files "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT"
+
+          Write-Host "`n[i] Checking GL6_MOV.DAT"
+          typos --verbose --config typos.toml --format brief --files "$Env:GITHUB_WORKSPACE\source\GL6_MOV.DAT"
+
+          # Write-Host "`n[i] Checking SLPM_667.16_translation.asm"
+          # typos --verbose --config typos.toml --format brief --files "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_translation.asm"
+
+
+      - name: 05. Check script using Powershell Regex
+        shell: pwsh # Powershell 7, which uses UTF-8 as default
+        run: |
+          Write-Host "`n[i] Create list of Regex patterns that need to be checked"
+          $regexPatterns = @(
+            # Find duplicates
+            '\[NLINE\]\[NLINE\]',
+            '\[NWIN\]\[NWIN\]',
+            '\[END-FE\]\[END-FE\]',
+            '\[END-FF\]\[END-FF\]',
+            ',,',
+            # '　 ',
+
+            # Find unnecessary default [COL00] color code at the end of a string
+            '\[COL00\]\[END-FE\]',
+            '\[COL00\]\[END-FF\]',
+
+            # Find controls codes that is missing the ]
+            '\[NLINE[^]]*$',
+            '\[NWIN[^]]*$',
+            '\[END-FE[^]]*$',
+            '\[END-FF[^]]*$',
+            '\[COL00[^]]*$',
+            '\[COL01[^]]*$',
+            '\[COL02[^]]*$',
+            '\[COL03[^]]*$',
+            '\[COL04[^]]*$',
+            '\[COL05[^]]*$',
+            '\[COL06[^]]*$',
+            '\[COL07[^]]*$',
+            '\[COL08[^]]*$',
+            '\[COL09[^]]*$',
+            '\[COL0A[^]]*$',
+            '\[COL0B[^]]*$',
+            '\[COL0C[^]]*$',
+            '\[COL0D[^]]*$',
+            '\[COL0E[^]]*$',
+            '\[COL0F[^]]*$',
+
+            # Find controls codes that is missing the [
+            '[^[](NLINE])',
+            '[^[](NWIN])',
+            '[^[](END-FE])',
+            '[^[](END-FF])',
+            '[^[](COL00])',
+            '[^[](COL01])',
+            '[^[](COL02])',
+            '[^[](COL03])',
+            '[^[](COL04])',
+            '[^[](COL05])',
+            '[^[](COL06])',
+            '[^[](COL07])',
+            '[^[](COL08])',
+            '[^[](COL09])',
+            '[^[](COL0A])',
+            '[^[](COL0B])',
+            '[^[](COL0C])',
+            '[^[](COL0D])',
+            '[^[](COL0E])',
+            '[^[](COL0F])',
+
+            # Finds lines that are missing a ] at the end after alphabet character
+            '[a-zA-Z0-9\!\?\.\,\(\)][^\]]*$',
+
+            # Finds [ missing in [CC.XXXX]
+            '[a-zA-Z0-9\!\?\.\,\(\)](CC\.)'
+
+            # Find string that is missing ., ,, !, ? before [NWIN] - Not working
+            # '[a-zA-Z0-9\!\?\.\,\(\)](\[NWIN\])',
+
+            # Find full width space before and after alphabet characters
+            # '[a-zA-Z0-9\!\?\.\,\(\)]　',
+            # '　[a-zA-Z0-9\!\?\.\,\(\)]'
+
+            # Find Japanese `？`, `！`, `。`, `、`, `… ` before and after alphabet characters
+            # '[？！。、…][a-zA-Z0-9\!\?\.\,\(\)]',
+            # '[a-zA-Z0-9\!\?\.\,\(\)][？！。、…]',
+
+            # Finds `（`, `）`, `【`, `】`, `『`, `』`, `《`,` 》` that has alphabet characters after and before it
+            # '[（）【】『』《》][a-zA-Z0-9\!\?\.\,\(\)]',
+            # '[a-zA-Z0-9\!\?\.\,\(\)][（）【】『』《》]'
+          )
+
+          Write-Host "`n[i] Initialize an empty list"
+          $outputList = @()
+
+          Write-Host "`n[i] Create blackList"
+          $blackList = @(
+            '00000001.SCEN.asm',
+            '00000002.SCEN Dummy file',
+            '00000003.SCEN Dummy file',
+            '00000033.SCEN Dummy file',
+            '00000035.SCEN Dummy file',
+            '00000039.SCEN Dummy file',
+            '00000043.SCEN.asm',
+            '00000061.SCEN Dummy file',
+            '00000062.SCEN Dummy file',
+            '00000064.SCEN Dummy file',
+            '00000066.SCEN Dummy file',
+            '00000067.SCEN Dummy file',
+            '00000068.SCEN Dummy file',
+            '00000071.SCEN Dummy file',
+            '00000101.SCEC Dummy file',
+            '00000105.SCEC Dummy file',
+            '00000109.SCEC Voice check Debug overview',
+            '00000110.SCEC Voice check Debug',
+            '00000111.SCEC Voice check Debug',
+            '00000112.SCEC Voice check Debug',
+            '00000113.SCEC Voice check Debug',
+            '00000114.SCEC Voice check Debug',
+            '00000115.SCEC Voice check Debug',
+            '00000116.SCEC Voice check Debug',
+            '00000117.SCEC Voice check Debug',
+            '00000118.SCEC Dummy file',
+            '00000119.SCEC Dummy file',
+            '00000120.SCEC Dummy file',
+            '00000121.SCEC Dummy file',
+            '00000122.SCEC Dummy file',
+            '00000123.SCEC Dummy file',
+            '00000124.SCEC Dummy file',
+            '00000125.SCEC Dummy file',
+            '00000167.STXT Dummy file'
+          )
+
+          Write-Host "`n[i] Iterate over each file, remove files from the blackList"
+
+          Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
+            Where-Object { $_.Name -notin $blackList } |
+              ForEach-Object {
+
+                $filename = $_.Name
+                Write-Host "Checking $filename..." -NoNewline
+
+                # What a clusterfuck of code this Powershell command Is
+                # not entirely sure why i'm using Powershell in the first place
+                $fileContent = Get-Content -LiteralPath $_.FullName
+
+                # Filter out lines starting with // and #
+                $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
+
+                # Flag to track if any regex matches were found
+                $hasMatches = $false
+
+                # Iterate over each line in the file
+                foreach ($lineText in $fileContent) {
+
+                  # Check each regex
+                  foreach ($regex in $regexPatterns) {
+
+                    # If a regex matches, print out information about it
+                    if ($lineText -match $regex) {
+                      Write-Host "`n`e[31m[!] '$regex' - '$lineText'"
+                      $outputList += "[!] $_ - '$regex' - '$lineText'"
+                      $hasMatches = $true
+                    }
+                  }
+                }
+
+                # Append "✅" to the same line only if no matches were found
+                if (-not $hasMatches) {
+                  Write-Host "✅"
+                } else {
+                  Write-Host "" # Ensure a newline after match output
+                }
+              }
+
+          Write-Host "`n[i] Checking if the outputList has any entries..."
+
+          if ($outputList.Count -gt 0) {
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            exit 1
+          }
+          else {
+            Write-Host "`e[32m[i] No errors found!"
+          }
 
   BuildPatch:
     runs-on: windows-2025
