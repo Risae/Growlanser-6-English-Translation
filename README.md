@@ -1,12 +1,12 @@
 Growlanser 6 is the sequel to Growlanser 5 / Growlanser: Heritage of War. This repository provides a Work-In-Progress English Translation.
 
-In order to patch your original Growlanser 6 Game you can use the latest xDelta patch from the[Releases](https://github.com/Risae/Growlanser-6-English-Translation/releases) page. In order to build the patch by yourself you can reference the [buildrelease.yml](https://github.com/Risae/Growlanser-6-English-Translation/blob/main/.github/workflows/buildrelease.yml).
+In order to patch your original Growlanser 6 Game you can use the latest xDelta patch from the [Releases](https://github.com/Risae/Growlanser-6-English-Translation/releases) page. In order to build the patch by yourself you can reference the [buildrelease.yml](https://github.com/Risae/Growlanser-6-English-Translation/blob/main/.github/workflows/buildrelease.yml).
 
 Directory structure:
 
 ```
 📂.github
-└── 📂workflows         GitHub Actions for xDelta patches
+└── 📂workflows         GitHub Actions workflow for the xDelta patch
 📂build                 Tools for patching game files
 📂source                Translated files
 ├── 📂GL6_CHAR.DAT      Placeholder
