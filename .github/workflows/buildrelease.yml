@@ -681,7 +681,7 @@ jobs:
           Write-Host "`n[i] ✅ Finished! HTML diffs are in 'build\debug_diff\html_diffs\'"
 
       - name: 08.2 Upload Debug Artifact
-        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: Growlanser_6_Debug_Diffs
           path: ${{ github.workspace }}\build\debug_diff
@@ -919,7 +919,7 @@ jobs:
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
 
       - name: 13. Publish patch as an Artifact
-        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: Growlanser_6_English_xDelta_Patch
           path: ${{ github.workspace }}\build\07-xDeltaPatch
