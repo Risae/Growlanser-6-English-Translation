@@ -5,12 +5,13 @@
 ; ===========================================================================
 ; Equates
 ; ===========================================================================
-VWFfunct        equ 0x003D7980          ; Custom VWF function
-SetTextColor    equ 0x00151670          ; Sets text color
-SetTextScale    equ 0x00151890          ; Sets text scaling
-DrawLetter      equ 0x001522BC          ; Draws a single letter
-DrawTextAt      equ 0x00151840          ; Draws text at specified coordinates
-printf          equ 0x129798            ; Formats strings (used for enemy defeat count)
+VWFfunct               equ 0x003D7980   ; Custom VWF function
+SetTextColor           equ 0x00151670   ; Sets text color
+SetTextScale           equ 0x00151890   ; Sets text scaling
+DrawLetter             equ 0x001522BC   ; Draws a single letter
+DrawTextAt             equ 0x00151840   ; Draws text at specified coordinates
+printf                 equ 0x129798     ; Formats strings (used for enemy defeat count)
+TextboxWidthAdjustAddr equ 0x003D7D00   ; Post-processing helper for textbox windowWidth
 
 // Fix for the full-width numbers that are displayed when you kill more than 1 enemy at the same time.
 .org 0x2C7684                           ; Patching code at address 0x2C7684
@@ -44,21 +45,21 @@ line width and round up But I need to create the "get line pixel width" function
 .org 0x00121CCC
     j         Switcheroo + 0xC
 
-//Gatetext render
+// Gatetext render
 .org 0x003C72AC
     jal       RenderSelected
 
 .org 0x003C72E8
     jal       RenderNormal
 
-//Casting and waiting speech bubble
+// Casting and waiting speech bubble
 .org 0x003C72E8
     jal       RenderNormal
 
 .org 0x002F5AF0
     jal       RenderNormal
 
-//Make scrolling text use variable width
+// Make scrolling text use variable width
 .org 0x002A36CC
     j         RolloverFix                ; Currently a dummy
     addiu     v1,0x1
@@ -72,12 +73,12 @@ line width and round up But I need to create the "get line pixel width" function
 .org 0x0031BA9C
     addiu     a2,v0,0x2                  ; Render two characters in advance to account for VWF
 
-//Text centering fix
+// Text centering fix
 .org 0x0027E310
     j         CalculateSpace
     nop
 
-//Redirect game's font width function to ours
+// Redirect game's font width function to ours
 .org 0x00151DA8
     j         VWFfunct
     nop
@@ -85,7 +86,7 @@ line width and round up But I need to create the "get line pixel width" function
 .org 0x00152384
     nop
 
-//VWF fixes
+// VWF fixes
 .org 0x002792BC
     j         Detoured
 
@@ -96,7 +97,15 @@ line width and round up But I need to create the "get line pixel width" function
     b         0x00279058                 ; Branch from the original
     nop                                  ; NOP from the original
 
-//VWF function
+
+// Post-process textbox width after func_00275520 finishes.
+// This keeps the original line-count / wrapping logic, but upgrades windowWidth
+// to at least ceil(max_rendered_line_pixels / 10) using the VWF table.
+.org 0x00276920
+    jal       TextboxWidthAdjustAddr
+    lq        fp, 0x80(sp)               ; original epilogue instruction in delay slot
+
+// VWF function
 .org VWFfunct
     li       s0,ram
     sw       s1,(s0)                     ; we store s1 in the address we set-up on s0
@@ -146,11 +155,11 @@ line width and round up But I need to create the "get line pixel width" function
     nop
 .endfunc
 
-//TO-DO fix first-line text centering
-//and make character width calculation
-//its own thing, to fix textbox width
-//calculation with the VWF (inside 0x275520)
-//that'd need investigation, too many branches
+/*
+/ TO-DO fix first-line text centering and make character width calculation
+/ its own thing, to fix textbox width calculation with the VWF (inside 0x275520)
+/ that'd need investigation, too many branches
+*/
 .func CalculateSpace
     dmove     s1,v1
     lbu       s2,0x1A8(s0)               ; line counter
@@ -160,8 +169,13 @@ line width and round up But I need to create the "get line pixel width" function
     bne       s2,0xFF,@@loop
     nop
     lbu       s2,0x1(s4)
-    bne       s2,0xFC,@@Loop             ; If first tag is a new line, skip 2 bytes
+    beq       s2,0xFC,@@InitialSkip2     ; [NLINE]
     nop
+    beq       s2,0xFD,@@InitialSkip2     ; [NWIN]
+    nop
+    b         @@Loop
+    nop
+    @@InitialSkip2:
     addiu     s4,0x2
 
     @@Loop:
@@ -218,26 +232,260 @@ line width and round up But I need to create the "get line pixel width" function
     b         @@Loop
     nop
 
-    // Basically: ((((line_width - window_width) + 1) / 2) + 4) / 8 (math rounded)
-    // A more precise solution would be using an special (invisible) char followed
-    // by a number that equals (line_width - window_width) / 2, so we avoid the hard
-    // character limit
+    /*
+    / Basically: ((((line_width - window_width) + 1) / 2) + 4) / 8 (math rounded)
+    / A more precise solution would be using an special (invisible) char followed
+    / by a number that equals (line_width - window_width) / 2, so we avoid the hard
+    / character limit
+    */
     @@End:
     dmove     s2,a1                     ; a1 = window width
     sll       s6,s2,0x02
     addu      s6,s6,s2
     sll       s6,s6,0x1
+    slt       t0,s6,s7                  ; if line is already wider than the box,
+    bnez      t0,@@NoIndent             ; do not add centering indent
+    nop
     subu      s6,s7
     addiu     s6,0x1
     sra       s1,s6,0x01
     addiu     s1,0x4
     sra       s1,0x3
+    b         @@Restore
+    nop
+    @@NoIndent:
+    dmove     s1,zero
+    @@Restore:
     dmove     s2,zero
     dmove     s4,zero
     dmove     s5,zero
     dmove     s6,zero
     dmove     s7,zero
     j         0x0027E318                ; Go back to original function
+    nop
+.endfunc
+
+
+.org TextboxWidthAdjustAddr
+.func TextboxWidthAdjust
+    lw        t0, 0x18C(s5)              ; text pointer
+    move      t1, zero                   ; current line width in pixels
+    move      t2, zero                   ; max line width in pixels
+
+    @@Loop:
+    lbu       t3, (t0)
+    beq       t3, 0xFF, @@Control
+    nop
+    sltiu     t4, t3, 0x80
+    beqz      t4, @@SJIS
+    nop
+    li        t4, VWFtable
+    addu      t4, t3
+    lbu       t4, (t4)
+    addiu     t4, 0x2
+    addu      t1, t4
+    addiu     t0, 0x1
+    b         @@Loop
+    nop
+
+    @@SJIS:
+    addiu     t1, 0x14                   ; keep Japanese chars close to CalculateSpace
+    addiu     t0, 0x2
+    b         @@Loop
+    nop
+
+    @@Control:
+    lbu       t3, 0x1(t0)
+    beq       t3, 0xFE, @@Finish
+    nop
+    beq       t3, 0xFF, @@Finish
+    nop
+    beq       t3, 0xFC, @@NewLine
+    nop
+    beq       t3, 0xFD, @@NewLine
+    nop
+    beq       t3, 0xFB, @@Skip2
+    nop
+    beq       t3, 0xEA, @@MainCharTag
+    nop
+
+    ; 0x80-0x83
+    addiu     t4, t3, -0x80
+    sltiu     t4, t4, 0x4
+    bnez      t4, @@Skip2
+    nop
+
+    ; 0xAA-0xB5
+    addiu     t4, t3, -0xAA
+    sltiu     t4, t4, 0x0C
+    bnez      t4, @@Skip3
+    nop
+
+    ; 0xB6-0xB7
+    addiu     t4, t3, -0xB6
+    sltiu     t4, t4, 0x2
+    bnez      t4, @@Skip4
+    nop
+
+    ; 0xB8-0xB9
+    addiu     t4, t3, -0xB8
+    sltiu     t4, t4, 0x2
+    bnez      t4, @@Skip3
+    nop
+
+    ; 0xBA-0xBB
+    addiu     t4, t3, -0xBA
+    sltiu     t4, t4, 0x2
+    bnez      t4, @@Skip5
+    nop
+
+    ; 0xBC-0xBF
+    addiu     t4, t3, -0xBC
+    sltiu     t4, t4, 0x4
+    bnez      t4, @@Skip4
+    nop
+
+    beq       t3, 0x90, @@Skip2
+    nop
+    beq       t3, 0x9C, @@Skip4
+    nop
+    beq       t3, 0x9D, @@Skip7
+    nop
+    beq       t3, 0xC8, @@Skip3
+    nop
+    beq       t3, 0xCB, @@Skip2
+    nop
+    beq       t3, 0xCC, @@Skip4
+    nop
+    beq       t3, 0xCD, @@Skip2
+    nop
+    beq       t3, 0xCE, @@Skip4
+    nop
+    beq       t3, 0xCF, @@Skip4
+    nop
+
+    ; 0xD4-0xD8
+    addiu     t4, t3, -0xD4
+    sltiu     t4, t4, 0x5
+    bnez      t4, @@Skip3
+    nop
+
+    beq       t3, 0xDE, @@Skip3
+    nop
+    beq       t3, 0xDF, @@Skip3
+    nop
+    beq       t3, 0xE1, @@Skip3
+    nop
+    beq       t3, 0xE5, @@Skip3
+    nop
+    beq       t3, 0xE6, @@Skip3
+    nop
+    beq       t3, 0xEF, @@Skip3
+    nop
+
+    ; Unknown control code: stop rather than walking off into bad data.
+    b         @@Finish
+    nop
+
+    @@MainCharTag:
+    lbu       t4, 0x2(t0)                ; tag argument used by the original width routine
+    bne       t4, 0x1, @@Skip4
+    nop
+    li        t5, 0x50E8B2               ; MC name, 0xFF terminated
+
+    @@NameLoop:
+    lbu       t6, (t5)
+    beq       t6, 0xFF, @@NameDone
+    nop
+    sltiu     t4, t6, 0x80
+    beqz      t4, @@NameSJIS
+    nop
+    li        t4, VWFtable
+    addu      t4, t6
+    lbu       t4, (t4)
+    addiu     t4, 0x2
+    addu      t1, t4
+    addiu     t5, 0x1
+    b         @@NameLoop
+    nop
+
+    @@NameSJIS:
+    addiu     t1, 0x14
+    addiu     t5, 0x2
+    b         @@NameLoop
+    nop
+
+    @@NameDone:
+    addiu     t0, 0x4
+    b         @@Loop
+    nop
+
+    @@Skip2:
+    addiu     t0, 0x2
+    b         @@Loop
+    nop
+
+    @@Skip3:
+    addiu     t0, 0x3
+    b         @@Loop
+    nop
+
+    @@Skip4:
+    addiu     t0, 0x4
+    b         @@Loop
+    nop
+
+    @@Skip5:
+    addiu     t0, 0x5
+    b         @@Loop
+    nop
+
+    @@Skip7:
+    addiu     t0, 0x7
+    b         @@Loop
+    nop
+
+    @@NewLine:
+    slt       t4, t2, t1
+    beqz      t4, @@NewLineNoMax
+    nop
+    move      t2, t1
+
+    @@NewLineNoMax:
+    move      t1, zero
+    addiu     t0, 0x2
+    b         @@Loop
+    nop
+
+    @@Finish:
+    slt       t4, t2, t1
+    beqz      t4, @@Convert
+    nop
+    move      t2, t1
+
+    @@Convert:
+    addiu     t2, 0x9                    ; ceil(px / 10)
+    li        t4, 0xA
+    divu      t2, t4
+    mflo      t3
+    lw        t4, 0x70(s5)               ; original char-unit width
+    slt       t5, t4, t3
+    beqz      t5, @@Restore
+    nop
+    sw        t3, 0x70(s5)
+
+    @@Restore:
+    ld        ra, 0x90(sp)
+    lq        s7, 0x70(sp)
+    lq        s6, 0x60(sp)
+    lq        s5, 0x50(sp)
+    lq        s4, 0x40(sp)
+    lq        s3, 0x30(sp)
+    lq        s2, 0x20(sp)
+    lq        s1, 0x10(sp)
+    lq        s0, 0x0(sp)
+    addiu     sp, 0xC0
+    jr        ra
     nop
 .endfunc
 
@@ -317,46 +565,48 @@ line width and round up But I need to create the "get line pixel width" function
     sh        a1, 0x2(t9)               ; Store half-word: *(t9 + 0x2) = a1 (delay slot)
 .endfunc
 
-//Control codes (0xFF is always first byte):
-//--------------
-//  2-bytes
-//--------------
-// 0x80, 0x81, 0x82, 0x83
-// 0x90,
-// 0xCB, 0xCD
-// 0xFB, 0xFC, 0xFD
-//
-//--------------
-//  3-bytes
-//--------------
-// 0xAAXX, 0xABXX, 0xACXX, 0xADXX, 0xAEXX, 0xAFXX
-// 0xB0XX, 0xB1XX, 0xB2XX, 0xB3XX, 0xB4XX, 0xB5XX, 0xB8XX, 0xB9XX
-// 0xC8XX
-// 0xD4XX, 0xD5XX, 0xD6XX, 0xD7XX, 0xD8XX, 0xDEXX, 0xDFXX,
-// 0xE5XX, 0xE6XX, 0xE1XX, 0xEFXX
-//
-//--------------
-//  4-bytes
-//--------------
-// 0x9CXXXX
-// 0xB6XXXX, 0xB7XXXX, 0xBCXXXX, 0xBDXXXX, 0xBEXXXX, 0xBFXXXX
-// 0xCCXXXX, 0xCEXXXX, 0xCFXXXX
-// 0xEAXXXX
-//
-//--------------
-//  5-bytes
-//--------------
-// 0xBAXXXXXX, 0xBBXXXXXX
-//
-//--------------
-//  7-bytes!
-//--------------
-// 0x9DXXXXXXXXXX
-//
-//--------------
-//  End of box
-//--------------
-// 0xFF, 0xFE, 0x(Any other combination not present above)
+/*
+/ Control codes (0xFF is always first byte):
+/--------------
+/  2-bytes
+/--------------
+/ 0x80, 0x81, 0x82, 0x83
+/ 0x90,
+/ 0xCB, 0xCD
+/ 0xFB, 0xFC, 0xFD
+/
+/--------------
+/  3-bytes
+/--------------
+/ 0xAAXX, 0xABXX, 0xACXX, 0xADXX, 0xAEXX, 0xAFXX
+/ 0xB0XX, 0xB1XX, 0xB2XX, 0xB3XX, 0xB4XX, 0xB5XX, 0xB8XX, 0xB9XX
+/ 0xC8XX
+/ 0xD4XX, 0xD5XX, 0xD6XX, 0xD7XX, 0xD8XX, 0xDEXX, 0xDFXX,
+/ 0xE5XX, 0xE6XX, 0xE1XX, 0xEFXX
+/
+/--------------
+/  4-bytes
+/--------------
+/ 0x9CXXXX
+/ 0xB6XXXX, 0xB7XXXX, 0xBCXXXX, 0xBDXXXX, 0xBEXXXX, 0xBFXXXX
+/ 0xCCXXXX, 0xCEXXXX, 0xCFXXXX
+/ 0xEAXXXX
+/
+/--------------
+/  5-bytes
+/--------------
+/ 0xBAXXXXXX, 0xBBXXXXXX
+/
+/--------------
+/  7-bytes!
+/--------------
+/ 0x9DXXXXXXXXXX
+/
+/--------------
+/  End of box
+/--------------
+/ 0xFF, 0xFE, 0x(Any other combination not present above)
+*/
 
 //Font table
 .func VWFtable
