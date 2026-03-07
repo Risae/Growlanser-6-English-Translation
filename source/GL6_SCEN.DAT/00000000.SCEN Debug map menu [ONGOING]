@@ -153,7 +153,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #13 @ $2354 - STRING #13 @ $2517
 #W32($2354)
 //デバック用マップチェンジ。キャンセルで終了。[END-FE]
-Map change for debugging. Cancel to end.[END-FE]
+Debug Map Change (Cancel to exit)[END-FE]
 
 
 
@@ -162,7 +162,7 @@ Map change for debugging. Cancel to end.[END-FE]
 //POINTER #14 @ $2358 - STRING #14 @ $2546
 #W32($2358)
 //・０　ダミーファイル（９９９９）へ[END-FE]
-・0 to dummy file (9999)[END-FE]
+・0 Dummy File (9999)[END-FE]
 
 
 
@@ -171,7 +171,7 @@ Map change for debugging. Cancel to end.[END-FE]
 //POINTER #15 @ $235C - STRING #15 @ $256B
 #W32($235C)
 //・１　ダミーファイル（０００５）へ[END-FE]
-・1 to dummy file (0005)[END-FE]
+・1 Dummy File (0005)[END-FE]
 
 
 
@@ -180,7 +180,7 @@ Map change for debugging. Cancel to end.[END-FE]
 //POINTER #16 @ $2360 - STRING #16 @ $2590
 #W32($2360)
 //・２　村人戦闘チェック（男子編）へ[END-FE]
-・2 To Villager Battle Check (Men's Edition)[END-FE]
+・2 Villager Battle Check (Male)[END-FE]
 
 
 
@@ -189,7 +189,7 @@ Map change for debugging. Cancel to end.[END-FE]
 //POINTER #17 @ $2364 - STRING #17 @ $25B5
 #W32($2364)
 //・３　村人戦闘チェック（女子編）へ[END-FE]
-・3 To Villager Battle Check (Women's Edition)[END-FE]
+・3 Villager Battle Check (Female)[END-FE]
 
 
 
@@ -198,7 +198,7 @@ Map change for debugging. Cancel to end.[END-FE]
 //POINTER #18 @ $2368 - STRING #18 @ $25DA
 #W32($2368)
 //・４　セーブ([R1]押しでLOAD)[END-FE]
-・4 Save (LOAD by pressing [R1])[END-FE]
+・4 Save (Hold [R1] for Load)[END-FE]
 
 
 
