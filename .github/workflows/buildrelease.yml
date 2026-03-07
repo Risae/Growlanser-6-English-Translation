@@ -320,10 +320,24 @@ jobs:
 
           Write-Host "`n[i] Patch ELF using armips"
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\01-armips" "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_translation.asm"
-          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\01-armips" "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.asm"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\01-armips" "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.asm" -temp "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.temp.txt"  -sym2 "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16_VWF.sym2"
 
           Write-Host "`n[i] Move patched ELF"
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\SLPM_667.16"
+
+      - name: 05.1 Upload armips temp Artifact
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: SLPM_667.16_VWF.temp.txt
+          path: ${{ github.workspace }}\build\01-armips\SLPM_667.16_VWF.temp.txt
+          archive: false # Direct file upload
+
+      - name: 05.2 Upload armips symbol Artifact
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: SLPM_667.16_VWF.sym2
+          path: ${{ github.workspace }}\build\01-armips\SLPM_667.16_VWF.sym2
+          archive: false # Direct file upload
 
       - name: 06. Patch GL6_FACE.DAT
         shell: pwsh
