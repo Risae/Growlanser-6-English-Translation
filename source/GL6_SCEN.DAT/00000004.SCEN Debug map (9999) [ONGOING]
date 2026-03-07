@@ -171,7 +171,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #15 @ $535C - STRING #15 @ $5D33
 #W32($535C)
 //・セーブ([R1]押しでLOAD)[END-FE]
-・Save (LOAD by pressing [R1])[END-FE]
+・Save (Hold [R1] for Load)[END-FE]
 
 
 
@@ -180,7 +180,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #16 @ $5360 - STRING #16 @ $5D4E
 #W32($5360)
 //・ＧＬ[SIX]　シナリオ　開始[END-FE]
-・GL VI scenario start[END-FE]
+・GL VI Scenario Start[END-FE]
 
 
 
@@ -189,7 +189,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #17 @ $5364 - STRING #17 @ $5D69
 #W32($5364)
 //・イベントチェック[END-FE]
-・Event check[END-FE]
+・Event Check[END-FE]
 
 
 
@@ -198,7 +198,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #18 @ $5368 - STRING #18 @ $5D7E
 #W32($5368)
 //・顔グラチェック[END-FE]
-・Face check[END-FE]
+・Portrait Check[END-FE]
 
 
 
@@ -207,7 +207,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #19 @ $536C - STRING #19 @ $5D91
 #W32($536C)
 //・ボイスチェック[END-FE]
-・Voice check[END-FE]
+・Voice Check[END-FE]
 
 
 
@@ -216,7 +216,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #20 @ $5370 - STRING #20 @ $5DA4
 #W32($5370)
 //・マクロ命令チェック[END-FE]
-・Macro instruction check[END-FE]
+・Macro Command Check[END-FE]
 
 
 
@@ -225,7 +225,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #21 @ $5374 - STRING #21 @ $5DBB
 #W32($5374)
 //・キャラメイク[END-FE]
-・Character creation[END-FE]
+・Character Creation[END-FE]
 
 
 
@@ -243,7 +243,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #23 @ $537C - STRING #23 @ $5DE1
 #W32($537C)
 //・デバッグ用シナリオ[END-FE]
-・Debug scenarios[END-FE]
+・Debug Scenario[END-FE]
 
 
 
@@ -252,7 +252,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #24 @ $5380 - STRING #24 @ $5DF8
 #W32($5380)
 //・デバッグセーブ部屋[END-FE]
-・Debug save room[END-FE]
+・Debug Save Room[END-FE]
 
 
 
@@ -261,7 +261,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #25 @ $5384 - STRING #25 @ $5E0F
 #W32($5384)
 //スキップフラグを立てますか？[END-FE]
-Do you want to set a skip flag?[END-FE]
+Set skip flag?[END-FE]
 
 
 
@@ -270,7 +270,7 @@ Do you want to set a skip flag?[END-FE]
 //POINTER #26 @ $5388 - STRING #26 @ $5E2E
 #W32($5388)
 //戦闘スキップフラグを立てますか？[END-FE]
-Do you want to set a battle skip flag?[END-FE]
+Set battle skip flag?[END-FE]
 
 
 
@@ -279,7 +279,7 @@ Do you want to set a battle skip flag?[END-FE]
 //POINTER #27 @ $538C - STRING #27 @ $5E51
 #W32($538C)
 //・最初から[END-FE]
-・From the beginning[END-FE]
+・From the Beginning[END-FE]
 
 
 
@@ -369,7 +369,7 @@ Do you want to set a battle skip flag?[END-FE]
 //POINTER #37 @ $53B4 - STRING #37 @ $5EC1
 #W32($53B4)
 //研究所の医務室からスタートです。[END-FE]
-It all started in the infirmary of the research institute.[END-FE]
+Starts in the research institute infirmary.[END-FE]
 
 
 
@@ -378,7 +378,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #38 @ $53B8 - STRING #38 @ $5EE4
 #W32($53B8)
 //・第１章　マキナス[END-FE]
-・Chapter 1 Makinus[END-FE]
+・Chapter 1 - Makinus[END-FE]
 
 
 
@@ -387,7 +387,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #39 @ $53BC - STRING #39 @ $5EF9
 #W32($53BC)
 //・第１章　ダスティス[END-FE]
-・Chapter 1 Dastis[END-FE]
+・Chapter 1 - Dastis[END-FE]
 
 
 
@@ -396,7 +396,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #40 @ $53C0 - STRING #40 @ $5F10
 #W32($53C0)
 //・第１章　シザーズ[END-FE]
-・Chapter 1 Schizarz[END-FE]
+・Chapter 1 - Schizarz[END-FE]
 
 
 
@@ -405,7 +405,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #41 @ $53C4 - STRING #41 @ $5F25
 #W32($53C4)
 //・第１章　シザーズ後マキナス[END-FE]
-・Chapter 1 Makinus after Schizarz[END-FE]
+・Chapter 1 - Makinus after Schizarz[END-FE]
 
 
 
@@ -414,7 +414,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #42 @ $53C8 - STRING #42 @ $5F44
 #W32($53C8)
 //・初マキナスから[END-FE]
-・From the first Makinus[END-FE]
+・From First Makinus[END-FE]
 
 
 
@@ -423,7 +423,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #43 @ $53CC - STRING #43 @ $5F57
 #W32($53CC)
 //・ダスティスに向かうところから[END-FE]
-・From the road to Dastis[END-FE]
+・En route to Dastis[END-FE]
 
 
 
@@ -432,8 +432,7 @@ It all started in the infirmary of the research institute.[END-FE]
 //POINTER #44 @ $53D0 - STRING #44 @ $5F78
 #W32($53D0)
 //研究所のイベントの後、マキナスからです。[END-FE]
-After the events at the Institute, it[NLINE]
-begins at Makinus.[END-FE]
+After institute events, starts at Makinus.[END-FE]
 
 
 
@@ -442,7 +441,7 @@ begins at Makinus.[END-FE]
 //POINTER #45 @ $53D4 - STRING #45 @ $5FA3
 #W32($53D4)
 //任務を受けた後、マキナスの外からです。[END-FE]
-Outside of Makinus, after receiving the mission[END-FE]
+Outside Makinus after receiving the mission.[END-FE]
 
 
 
@@ -451,7 +450,7 @@ Outside of Makinus, after receiving the mission[END-FE]
 //POINTER #46 @ $53D8 - STRING #46 @ $5FCC
 #W32($53D8)
 //任務を受けた後、ダスティスからです。[END-FE]
-It is from Dastis after receiving the assignment[END-FE]
+From Dastis after receiving the mission.[END-FE]
 
 
 
@@ -460,7 +459,7 @@ It is from Dastis after receiving the assignment[END-FE]
 //POINTER #47 @ $53DC - STRING #47 @ $5FF3
 #W32($53DC)
 //・第２章　休暇明け[END-FE]
-・Chapter 2 Post Vacation?!?[END-FE]
+・Chapter 2 - After Vacation[END-FE]
 
 
 
@@ -469,7 +468,7 @@ It is from Dastis after receiving the assignment[END-FE]
 //POINTER #48 @ $53E0 - STRING #48 @ $6008
 #W32($53E0)
 //・第２章　船上[END-FE]
-・Chapter 2 Onboard the ship[END-FE]
+・Chapter 2 - Onboard Ship[END-FE]
 
 
 
@@ -478,7 +477,7 @@ It is from Dastis after receiving the assignment[END-FE]
 //POINTER #49 @ $53E4 - STRING #49 @ $6019
 #W32($53E4)
 //・第２章　ワースリー村[END-FE]
-・Chapter 2 Warslee Village[END-FE]
+・Chapter 2 - Warslee Village[END-FE]
 
 
 
@@ -487,7 +486,7 @@ It is from Dastis after receiving the assignment[END-FE]
 //POINTER #50 @ $53E8 - STRING #50 @ $6032
 #W32($53E8)
 //・第２章　ザーランバ[END-FE]
-・Chapter 2 Zaramba[END-FE]
+・Chapter 2 - Zaramba[END-FE]
 
 
 
@@ -496,7 +495,7 @@ It is from Dastis after receiving the assignment[END-FE]
 //POINTER #51 @ $53EC - STRING #51 @ $6049
 #W32($53EC)
 //・第２章　フェルメンティア[END-FE]
-・Chapter 2 Felmentia[END-FE]
+・Chapter 2 - Felmentia[END-FE]
 
 
 
@@ -505,7 +504,7 @@ It is from Dastis after receiving the assignment[END-FE]
 //POINTER #52 @ $53F0 - STRING #52 @ $6066
 #W32($53F0)
 //先へ進むには、ベッドで寝て下さい。[END-FE]
-To move on, sleep in the bed.[END-FE]
+Sleep in a bed to continue.[END-FE]
 
 
 
@@ -514,7 +513,7 @@ To move on, sleep in the bed.[END-FE]
 //POINTER #53 @ $53F4 - STRING #53 @ $608B
 #W32($53F4)
 //・初日から[END-FE]
-・From the first day[END-FE]
+・From Day 1[END-FE]
 
 
 
@@ -523,7 +522,7 @@ To move on, sleep in the bed.[END-FE]
 //POINTER #54 @ $53F8 - STRING #54 @ $6098
 #W32($53F8)
 //・２日目から[END-FE]
-・From the second day[END-FE]
+・From Day 2[END-FE]
 
 
 
@@ -532,7 +531,7 @@ To move on, sleep in the bed.[END-FE]
 //POINTER #55 @ $53FC - STRING #55 @ $60A7
 #W32($53FC)
 //・３日目から[END-FE]
-・From the third day[END-FE]
+・From Day 3[END-FE]
 
 
 
@@ -543,9 +542,9 @@ To move on, sleep in the bed.[END-FE]
 //フェルメンティアのイベントを見る為だけの設定なので[NLINE]
 //このままプレイするとヤバイです。[NLINE]
 //注意してください。[END-FE]
-It's a setting just for watching[NLINE]
-Fermentia events, so it's dangerous[NLINE]
-to play as it is. Be careful.[END-FE]
+This is only for viewing Felmentia events.[NLINE]
+Playing normally may break the game.[NLINE]
+Please be careful.[END-FE]
 
 
 
@@ -565,7 +564,7 @@ Unimplemented[END-FE]
 //POINTER #58 @ $5408 - STRING #58 @ $612E
 #W32($5408)
 //追加のネーリスイベントチェック？[END-FE]
-Check for additional Neilis events?[END-FE]
+Check additional Neilis events?[END-FE]
 
 
 
@@ -592,7 +591,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #61 @ $5414 - STRING #61 @ $617B
 #W32($5414)
 //・ノーラにアイテム見て貰う[END-FE]
-・Let Nora see the item[END-FE]
+・Show item to Nora[END-FE]
 
 
 
@@ -610,7 +609,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #63 @ $541C - STRING #63 @ $61A5
 #W32($541C)
 //ネーリスのナイフも欲しい？[END-FE]
-Would you like a knife from Neilis?[END-FE]
+Also want Neilis's knife?[END-FE]
 
 
 
@@ -619,7 +618,7 @@ Would you like a knife from Neilis?[END-FE]
 //POINTER #64 @ $5420 - STRING #64 @ $61C2
 #W32($5420)
 //ついでにアニータのアイテムも？[END-FE]
-And Anita's items, too?[END-FE]
+Also Anita's items?[END-FE]
 
 
 
@@ -628,7 +627,7 @@ And Anita's items, too?[END-FE]
 //POINTER #65 @ $5424 - STRING #65 @ $61E3
 #W32($5424)
 //追加のネーリスイベントチェック？[END-FE]
-Check for additional Neilis events?[END-FE]
+Check additional Neilis events?[END-FE]
 
 
 
@@ -637,7 +636,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #66 @ $5428 - STRING #66 @ $6206
 #W32($5428)
 //・７章開始時[END-FE]
-・At the beginning of Chapter 7[END-FE]
+・Start of Chapter 7[END-FE]
 
 
 
@@ -646,7 +645,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #67 @ $542C - STRING #67 @ $6215
 #W32($542C)
 //・７章終了間際[END-FE]
-・End of Chapter 7[END-FE]
+・Near End of Chapter 7[END-FE]
 
 
 
@@ -655,7 +654,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #68 @ $5430 - STRING #68 @ $6226
 #W32($5430)
 //・マキナスに帰還から[END-FE]
-・From the return to Makinus[END-FE]
+・From Return to Makinus[END-FE]
 
 
 
@@ -673,7 +672,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #70 @ $5438 - STRING #70 @ $6252
 #W32($5438)
 //・ウェンディ合流から[END-FE]
-・Since meeting up with Wendy[END-FE]
+・From Meeting Wendy[END-FE]
 
 
 
@@ -682,7 +681,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #71 @ $543C - STRING #71 @ $6269
 #W32($543C)
 //・何もせず抜ける[END-FE]
-・Exit without doing anything[END-FE]
+・Exit Without Doing Anything[END-FE]
 
 
 
@@ -691,7 +690,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #72 @ $5440 - STRING #72 @ $627C
 #W32($5440)
 //・ロイフェロンの地下マーケットチェック？[END-FE]
-・Check the underground market of Royferon?[END-FE]
+・Check Royferon Underground Market?[END-FE]
 
 
 
@@ -700,7 +699,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #73 @ $5444 - STRING #73 @ $62A7
 #W32($5444)
 //・ネーリス子供救出戦闘[END-FE]
-・Neilis child rescue battle[END-FE]
+・Neilis Child Rescue Battle[END-FE]
 
 
 
@@ -709,7 +708,7 @@ Check for additional Neilis events?[END-FE]
 //POINTER #74 @ $5448 - STRING #74 @ $62C0
 #W32($5448)
 //・過去の記憶[END-FE]
-・Past memory[END-FE]
+・Past Memories[END-FE]
 
 
 
@@ -720,9 +719,9 @@ Check for additional Neilis events?[END-FE]
 //ボイスチェックモードです。[NLINE]
 //チェックしたい項目を選んで下さい。[NLINE]
 //×キャンセルで終わります。[END-FE]
-This is the voice check mode.[NLINE]
-Select the item you want to check.[NLINE]
-Press [CIRCLE] to Cancel.[END-FE]
+Voice Check Mode.[NLINE]
+Select an item to test.[NLINE]
+Press ○ to cancel.[END-FE]
 
 
 
@@ -731,7 +730,7 @@ Press [CIRCLE] to Cancel.[END-FE]
 //POINTER #76 @ $5450 - STRING #76 @ $632C
 #W32($5450)
 //・Ｃファイルシリーズ[END-FE]
-・C file series[END-FE]
+・C-File Series[END-FE]
 
 
 
@@ -803,7 +802,7 @@ Press [CIRCLE] to Cancel.[END-FE]
 //POINTER #84 @ $5470 - STRING #84 @ $6402
 #W32($5470)
 //何をする？[CROSS]で抜けます[END-FE]
-What are you going to do? Exit with [CROSS][END-FE]
+What will you do? Exit with [CROSS][END-FE]
 
 
 
@@ -821,7 +820,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #86 @ $5478 - STRING #86 @ $6426
 #W32($5478)
 //・座標指定メッセージチェック[END-FE]
-・Coordinate specification message check?!?[END-FE]
+・Message check (specified coordinates)[END-FE]
 
 
 
@@ -830,7 +829,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #87 @ $547C - STRING #87 @ $6445
 #W32($547C)
 //・顔とメッセージチェック[END-FE]
-・Face and message check[END-FE]
+・Portrait & Message Check[END-FE]
 
 
 
@@ -839,7 +838,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #88 @ $5480 - STRING #88 @ $6460
 #W32($5480)
 //・顔マクロチェック[END-FE]
-・Face macro check[END-FE]
+・Face Macro Check[END-FE]
 
 
 
@@ -848,7 +847,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #89 @ $5484 - STRING #89 @ $6475
 #W32($5484)
 //・妖精チェック[END-FE]
-・Fairy check[END-FE]
+・Fairy Check[END-FE]
 
 
 
@@ -857,7 +856,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #90 @ $5488 - STRING #90 @ $6486
 #W32($5488)
 //・パーティー集合解散チェック[END-FE]
-・Party assembly and dismissal check[END-FE]
+・Party Assemble/Dismiss Check[END-FE]
 
 
 
@@ -866,7 +865,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #91 @ $548C - STRING #91 @ $64A5
 #W32($548C)
 //・外字チェック[END-FE]
-・External character check[END-FE]
+・External Character Check[END-FE]
 
 
 
@@ -875,7 +874,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #92 @ $5490 - STRING #92 @ $64B6
 #W32($5490)
 //・武器ＣＧ変更[END-FE]
-・Weapon CG change[END-FE]
+・Weapon CG Change[END-FE]
 
 
 
@@ -884,7 +883,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #93 @ $5494 - STRING #93 @ $64C7
 #W32($5494)
 //・常駐エフェクトチェック[END-FE]
-・Resident effects check[END-FE]
+・Resident Effect Check[END-FE]
 
 
 
@@ -893,7 +892,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #94 @ $5498 - STRING #94 @ $64E2
 #W32($5498)
 //・特殊画面効果チェック[END-FE]
-・Special screen effect check[END-FE]
+・Special Screen Effect Check[END-FE]
 
 
 
@@ -902,7 +901,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #95 @ $549C - STRING #95 @ $64FB
 #W32($549C)
 //・クラス吹き出しチェック[END-FE]
-・Class callout check[END-FE]
+・Class Callout Check[END-FE]
 
 
 
@@ -911,7 +910,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #96 @ $54A0 - STRING #96 @ $6516
 #W32($54A0)
 //・モーションチェック[END-FE]
-・Motion check[END-FE]
+・Motion Check[END-FE]
 
 
 
@@ -920,7 +919,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #97 @ $54A4 - STRING #97 @ $652D
 #W32($54A4)
 //・ムービーチェック[END-FE]
-・Movie check[END-FE]
+・Movie Check[END-FE]
 
 
 
@@ -929,7 +928,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #98 @ $54A8 - STRING #98 @ $6542
 #W32($54A8)
 //・ビジュアルチェック[END-FE]
-・Visual check[END-FE]
+・Visual Check[END-FE]
 
 
 
@@ -938,7 +937,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #99 @ $54AC - STRING #99 @ $6559
 #W32($54AC)
 //・セーブチェック[END-FE]
-・Save check[END-FE]
+・Save Check[END-FE]
 
 
 
@@ -947,7 +946,7 @@ What are you going to do? Exit with [CROSS][END-FE]
 //POINTER #100 @ $54B0 - STRING #100 @ $656C
 #W32($54B0)
 //チェックシナリオへ飛びますか？[END-FE]
-Do you want to jump to a scenario check?[END-FE]
+Jump to scenario check?[END-FE]
 
 
 
@@ -956,7 +955,7 @@ Do you want to jump to a scenario check?[END-FE]
 //POINTER #101 @ $54B4 - STRING #101 @ $658D
 #W32($54B4)
 //本地名表示しますか？[END-FE]
-Do you want to display your home name?[END-FE]
+Display home name?[END-FE]
 
 
 
@@ -965,7 +964,7 @@ Do you want to display your home name?[END-FE]
 //POINTER #102 @ $54B8 - STRING #102 @ $65A4
 #W32($54B8)
 //ダミーイベント導入終了[END-FE]
-End of dummy event introduction[END-FE]
+Dummy event introduction complete[END-FE]
 
 
 
@@ -974,7 +973,7 @@ End of dummy event introduction[END-FE]
 //POINTER #103 @ $54BC - STRING #103 @ $65BD
 #W32($54BC)
 //スキップフラグを立てますか？[END-FE]
-Do you want to set a skip flag?[END-FE]
+Set skip flag?[END-FE]
 
 
 
@@ -983,7 +982,7 @@ Do you want to set a skip flag?[END-FE]
 //POINTER #104 @ $54C0 - STRING #104 @ $65DC
 #W32($54C0)
 //どれをチェックしますか？[END-FE]
-Which do you want to check?[END-FE]
+What do you want to check?[END-FE]
 
 
 
@@ -1001,7 +1000,7 @@ Which do you want to check?[END-FE]
 //POINTER #106 @ $54C8 - STRING #106 @ $6606
 #W32($54C8)
 //・配置[END-FE]
-・Configuration[END-FE]
+・Placement[END-FE]
 
 
 
@@ -1019,7 +1018,7 @@ Which do you want to check?[END-FE]
 //POINTER #108 @ $54D0 - STRING #108 @ $661A
 #W32($54D0)
 //・ＰＣ待機モーション[END-FE]
-・PC standby motion[END-FE]
+・PC Standby Motion[END-FE]
 
 
 
@@ -1037,7 +1036,7 @@ Which do you want to check?[END-FE]
 //POINTER #110 @ $54D8 - STRING #110 @ $663C
 #W32($54D8)
 //ダンジョンをチェックしますか？[END-FE]
-Do you want to check the dungeon?[END-FE]
+Check dungeon?[END-FE]
 
 
 
@@ -1172,7 +1171,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #125 @ $5514 - STRING #125 @ $670B
 #W32($5514)
 //・最終ダンジョン[END-FE]
-・Final dungeon[END-FE]
+・Final Dungeon[END-FE]
 
 
 
@@ -1181,7 +1180,7 @@ What will you do? Exit with [COL09][CROSS][END-FE]
 //POINTER #126 @ $5518 - STRING #126 @ $671E
 #W32($5518)
 //襲撃前に飛びますか？[END-FE]
-Do you want to jump to before the attack?[END-FE]
+Jump to before the attack?[END-FE]
 
 
 
@@ -1190,7 +1189,7 @@ Do you want to jump to before the attack?[END-FE]
 //POINTER #127 @ $551C - STRING #127 @ $6735
 #W32($551C)
 //配置をチェックしますか？[END-FE]
-Do you want to check the placement?[END-FE]
+Check placement?[END-FE]
 
 
 
@@ -1298,7 +1297,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #139 @ $554C - STRING #139 @ $67DD
 #W32($554C)
 //捕食マクロを試しますか？[END-FE]
-Would you like to try a predatory macro?!?[END-FE]
+Test predatory macro?[END-FE]
 
 
 
@@ -1316,7 +1315,7 @@ Would you like to try a predatory macro?!?[END-FE]
 //POINTER #141 @ $5554 - STRING #141 @ $6813
 #W32($5554)
 //・盗みマクロチャック[END-FE]
-・Stealing Macro check[END-FE]
+・Steal Macro Check[END-FE]
 
 
 
@@ -1325,7 +1324,7 @@ Would you like to try a predatory macro?!?[END-FE]
 //POINTER #142 @ $5558 - STRING #142 @ $682A
 #W32($5558)
 //・捕食君チェック[END-FE]
-・Predator check[END-FE]
+・Predator Check[END-FE]
 
 
 
@@ -1334,7 +1333,7 @@ Would you like to try a predatory macro?!?[END-FE]
 //POINTER #143 @ $555C - STRING #143 @ $683D
 #W32($555C)
 //・ふとん犬[END-FE]
-・Futon dog[END-FE]
+・Futon Dog[END-FE]
 
 
 
@@ -1352,7 +1351,7 @@ Would you like to try a predatory macro?!?[END-FE]
 //POINTER #145 @ $5564 - STRING #145 @ $6855
 #W32($5564)
 //・カーソルチェック[END-FE]
-・Cursor check[END-FE]
+・Cursor Check[END-FE]
 
 
 
@@ -1370,7 +1369,7 @@ Would you like to try a predatory macro?!?[END-FE]
 //POINTER #147 @ $556C - STRING #147 @ $6875
 #W32($556C)
 //どれを確認しますか？[END-FE]
-Which do you want to check?[END-FE]
+Which one do you want to check?[END-FE]
 
 
 
@@ -1379,7 +1378,7 @@ Which do you want to check?[END-FE]
 //POINTER #148 @ $5570 - STRING #148 @ $688C
 #W32($5570)
 //・初ふとん犬[END-FE]
-・First futon dog[END-FE]
+・First Futon Dog[END-FE]
 
 
 
@@ -1388,7 +1387,7 @@ Which do you want to check?[END-FE]
 //POINTER #149 @ $5574 - STRING #149 @ $689B
 #W32($5574)
 //・ふとん犬仲間中[END-FE]
-・Futon dogs[END-FE]
+・Futon Dog Party[END-FE]
 
 
 
@@ -1406,7 +1405,7 @@ Which do you want to check?[END-FE]
 //POINTER #151 @ $557C - STRING #151 @ $68B9
 #W32($557C)
 //どのふとん犬にしますか？[END-FE]
-Which futon do you want?[END-FE]
+Which Futon Dog?[END-FE]
 
 
 
@@ -1506,9 +1505,8 @@ Nishiki[END-FE]
 #W32($55A8)
 //パーティー２にカーソルを合わせます。[NLINE]
 //どの速度であわせますか？[END-FE]
-Place the cursor on party 2.[NLINE]
-At what speed do you want the[NLINE]
-cursor to move to the party 2?[END-FE]
+Place cursor on Party 2.[NLINE]
+Select movement speed.[END-FE]
 
 
 
@@ -1589,8 +1587,7 @@ cursor to move to the party 2?[END-FE]
 //POINTER #171 @ $55CC - STRING #171 @ $69C5
 #W32($55CC)
 //どのデバッグシナリオに行きますか？[END-FE]
-Which debugging scenario do[NLINE]
-you want to go to?[END-FE]
+Which debug scenario?[END-FE]
 
 
 
@@ -1626,7 +1623,7 @@ Came from dummy[END-FE]
 //POINTER #175 @ $55DC - STRING #175 @ $6A15
 #W32($55DC)
 //座標指定メッセージのチェックをします[END-FE]
-Check for coordinate specification messages[END-FE]
+Check coordinate-specified messages[END-FE]
 
 
 
@@ -1770,7 +1767,7 @@ Selective speech bubble check (North)[END-FE]
 //POINTER #191 @ $561C - STRING #191 @ $6B2F
 #W32($561C)
 //選択文の吹き出しチェック（南）[END-FE]
-Selective Callout Check (South)[END-FE]
+Selective speech bubble check (South)[END-FE]
 
 
 
@@ -1797,7 +1794,7 @@ Selective speech bubble check (West)[END-FE]
 //POINTER #194 @ $5628 - STRING #194 @ $6B92
 #W32($5628)
 //顔グラからのセリフのチェックをします[END-FE]
-Check the lines from your face[END-FE]
+Check lines from portrait[END-FE]
 
 
 
@@ -1842,7 +1839,7 @@ Still [MainCharName][END-FE]
 //POINTER #199 @ $563C - STRING #199 @ $6BF1
 #W32($563C)
 //ファニル消します[END-FE]
-I am Fanille[END-FE]
+Turn off Fanille[END-FE]
 
 
 
@@ -1860,7 +1857,7 @@ Fanille 0 with face designation to MES[END-FE]
 //POINTER #201 @ $5644 - STRING #201 @ $6C2B
 #W32($5644)
 //ファニル出します[END-FE]
-Fanille out[END-FE]
+Turn on Fanille[END-FE]
 
 
 
@@ -1878,7 +1875,7 @@ Check again?[END-FE]
 //POINTER #203 @ $564C - STRING #203 @ $6C4F
 #W32($564C)
 //主人公消します[END-FE]
-Main character off[END-FE]
+Turn off main character[END-FE]
 
 
 
@@ -1887,7 +1884,7 @@ Main character off[END-FE]
 //POINTER #204 @ $5650 - STRING #204 @ $6C60
 #W32($5650)
 //主人公出します[END-FE]
-Main character on[END-FE]
+Turn on main character[END-FE]
 
 
 
@@ -2040,7 +2037,7 @@ Which one?[END-FE]
 //POINTER #221 @ $5694 - STRING #221 @ $6D07
 #W32($5694)
 //・顔保護チェック[END-FE]
-・Face protection check[END-FE]
+・Face Protection Check[END-FE]
 
 
 
@@ -2049,7 +2046,7 @@ Which one?[END-FE]
 //POINTER #222 @ $5698 - STRING #222 @ $6D1A
 #W32($5698)
 //・顔優先チェック[END-FE]
-・Face priority check[END-FE]
+・Face Priority Check[END-FE]
 
 
 
@@ -2058,7 +2055,7 @@ Which one?[END-FE]
 //POINTER #223 @ $569C - STRING #223 @ $6D2D
 #W32($569C)
 //・顔移動チェック[END-FE]
-・Face movement check[END-FE]
+・Face Movement Check[END-FE]
 
 
 
@@ -2076,7 +2073,7 @@ Check face protection[END-FE]
 //POINTER #225 @ $56A4 - STRING #225 @ $6D5F
 #W32($56A4)
 //主人公０の顔は保護されています。[END-FE]
-The protagonist 0's face is protected.[END-FE]
+Protagonist 0 face is protected.[END-FE]
 
 
 
@@ -2130,7 +2127,7 @@ Korin 1 is normal[END-FE]
 //POINTER #231 @ $56BC - STRING #231 @ $6DF5
 #W32($56BC)
 //主人公０は普通です。[END-FE]
-The protagonist 0 is normal.[END-FE]
+Protagonist 0 is normal.[END-FE]
 
 
 
@@ -2139,7 +2136,7 @@ The protagonist 0 is normal.[END-FE]
 //POINTER #232 @ $56C0 - STRING #232 @ $6E0C
 #W32($56C0)
 //保護を解除しました。[END-FE]
-Removed protection.[END-FE]
+Protection removed.[END-FE]
 
 
 
@@ -2157,7 +2154,7 @@ Korin 0 is normal[END-FE]
 //POINTER #234 @ $56C8 - STRING #234 @ $6E38
 #W32($56C8)
 //顔グラ優先のチェックをします[END-FE]
-Check the priority of face gras?!?[END-FE]
+Check face priority[END-FE]
 
 
 
@@ -2166,7 +2163,7 @@ Check the priority of face gras?!?[END-FE]
 //POINTER #235 @ $56CC - STRING #235 @ $6E57
 #W32($56CC)
 //主人公０の顔は優先です。[END-FE]
-The face of the main character 0 has priority.[END-FE]
+Protagonist 0 face has priority.[END-FE]
 
 
 
@@ -2184,7 +2181,7 @@ Fanille 0 is normal[END-FE]
 //POINTER #237 @ $56D4 - STRING #237 @ $6E89
 #W32($56D4)
 //ファニル０を優先にしました。[END-FE]
-Fanille 0 was given priority.[END-FE]
+Gave Fanille 0 priority.[END-FE]
 
 
 
@@ -2283,7 +2280,7 @@ Move to (50,0) at speed 5[END-FE]
 //POINTER #248 @ $5700 - STRING #248 @ $6F74
 #W32($5700)
 //速度５で相対（２５６、０）へ移動[END-FE]
-Move to relative (256, 0) at speed 5[END-FE]
+Move to relative (256,0) at speed 5[END-FE]
 
 
 
@@ -2292,7 +2289,7 @@ Move to relative (256, 0) at speed 5[END-FE]
 //POINTER #249 @ $5704 - STRING #249 @ $6F97
 #W32($5704)
 //移動チェック終了[END-FE]
-Movement check end[END-FE]
+Movement check finished[END-FE]
 
 
 
@@ -2310,7 +2307,7 @@ Check facial expressions[END-FE]
 //POINTER #251 @ $570C - STRING #251 @ $6FC1
 #W32($570C)
 //目を閉じます[END-FE]
-Close your eyes[END-FE]
+Close eyes[END-FE]
 
 
 
@@ -2319,7 +2316,7 @@ Close your eyes[END-FE]
 //POINTER #252 @ $5710 - STRING #252 @ $6FD0
 #W32($5710)
 //口を『あ』にします[END-FE]
-Make an "a"[END-FE]
+Make mouth "a"[END-FE]
 
 
 
@@ -2328,7 +2325,7 @@ Make an "a"[END-FE]
 //POINTER #253 @ $5714 - STRING #253 @ $6FE5
 #W32($5714)
 //口を『い』にします[END-FE]
-Make an "i"[END-FE]
+Make mouth "i"[END-FE]
 
 
 
@@ -2337,7 +2334,7 @@ Make an "i"[END-FE]
 //POINTER #254 @ $5718 - STRING #254 @ $6FFA
 #W32($5718)
 //口を『う』にします[END-FE]
-Make an "u"[END-FE]
+Make mouth "u"[END-FE]
 
 
 
@@ -2346,7 +2343,7 @@ Make an "u"[END-FE]
 //POINTER #255 @ $571C - STRING #255 @ $700F
 #W32($571C)
 //口を『え』にします[END-FE]
-Make an "e"[END-FE]
+Make mouth "e"[END-FE]
 
 
 
@@ -2355,7 +2352,7 @@ Make an "e"[END-FE]
 //POINTER #256 @ $5720 - STRING #256 @ $7024
 #W32($5720)
 //口を『お』にします[END-FE]
-Make an "o"[END-FE]
+Make mouth "o"[END-FE]
 
 
 
@@ -2364,7 +2361,7 @@ Make an "o"[END-FE]
 //POINTER #257 @ $5724 - STRING #257 @ $7039
 #W32($5724)
 //口を半開きにします[END-FE]
-Open your mouth halfway[END-FE]
+Open mouth halfway[END-FE]
 
 
 
@@ -2391,7 +2388,7 @@ End[END-FE]
 //POINTER #260 @ $5730 - STRING #260 @ $7070
 #W32($5730)
 //現在未使用の部分です。[END-FE]
-Currently unused part.[END-FE]
+Currently unused section.[END-FE]
 
 
 
@@ -2400,7 +2397,7 @@ Currently unused part.[END-FE]
 //POINTER #261 @ $5734 - STRING #261 @ $7089
 #W32($5734)
 //妖精関係のチェックする？[END-FE]
-Do you want to check the fairies?[END-FE]
+Check fairies?[END-FE]
 
 
 
@@ -2526,7 +2523,7 @@ What will you do with Yurii?[END-FE]
 //POINTER #275 @ $576C - STRING #275 @ $7181
 #W32($576C)
 //・Ｓフラグ妖精誕生　ＯＮ[END-FE]
-・S flag fairy birth ON?!?[END-FE]
+・S flag fairy birth ON[END-FE]
 
 
 
@@ -2625,7 +2622,7 @@ What will you do with Korin?[END-FE]
 //POINTER #286 @ $5798 - STRING #286 @ $7250
 #W32($5798)
 //集合解散のチェックする[END-FE]
-Check the assembly and dismissal.[END-FE]
+Check party assemble/dismiss[END-FE]
 
 
 
@@ -2643,7 +2640,7 @@ What will you do?[END-FE]
 //POINTER #288 @ $57A0 - STRING #288 @ $7276
 #W32($57A0)
 //・パーティーを増やす[END-FE]
-・Increase your party[END-FE]
+・Increase party[END-FE]
 
 
 
@@ -2652,7 +2649,7 @@ What will you do?[END-FE]
 //POINTER #289 @ $57A4 - STRING #289 @ $728D
 #W32($57A4)
 //・同行人付ける[END-FE]
-・Have a companion[END-FE]
+・Add companion[END-FE]
 
 
 
@@ -2670,7 +2667,7 @@ What will you do?[END-FE]
 //POINTER #291 @ $57AC - STRING #291 @ $72AD
 #W32($57AC)
 //・パーティー解散[END-FE]
-・Break up the party[END-FE]
+・Dismiss party[END-FE]
 
 
 
@@ -2679,7 +2676,7 @@ What will you do?[END-FE]
 //POINTER #292 @ $57B0 - STRING #292 @ $72C0
 #W32($57B0)
 //・パーティー集合[END-FE]
-・Gather party[END-FE]
+・Assemble party[END-FE]
 
 
 
@@ -2688,7 +2685,7 @@ What will you do?[END-FE]
 //POINTER #293 @ $57B4 - STRING #293 @ $72D3
 #W32($57B4)
 //・パーティー集合２[END-FE]
-・Gather party 2[END-FE]
+・Assemble party 2[END-FE]
 
 
 
@@ -2706,7 +2703,7 @@ What will you do?[END-FE]
 //POINTER #295 @ $57BC - STRING #295 @ $72FB
 #W32($57BC)
 //吹き出し位置調整する？[END-FE]
-Do you want to adjust the pop-up position?[END-FE]
+Adjust pop-up position?[END-FE]
 
 
 
@@ -2715,7 +2712,7 @@ Do you want to adjust the pop-up position?[END-FE]
 //POINTER #296 @ $57C0 - STRING #296 @ $7314
 #W32($57C0)
 //・する[END-FE]
-・Do it[END-FE]
+・Yes[END-FE]
 
 
 
@@ -2724,7 +2721,7 @@ Do you want to adjust the pop-up position?[END-FE]
 //POINTER #297 @ $57C4 - STRING #297 @ $731D
 #W32($57C4)
 //・しない[END-FE]
-・Don't do it[END-FE]
+・No[END-FE]
 
 
 
@@ -2760,7 +2757,7 @@ Do you want to adjust the pop-up position?[END-FE]
 //POINTER #301 @ $57D4 - STRING #301 @ $734D
 #W32($57D4)
 //・ビジュアルチェック[END-FE]
-・Visual check[END-FE]
+・Visual Check[END-FE]
 
 
 
@@ -3031,7 +3028,7 @@ Dying[END-FE]
 //POINTER #326 @ $5838 - STRING #326 @ $7578
 #W32($5838)
 //・ユリィ服０[END-FE]
-・Yurii clothes 0[END-FE]
+・Yurii Clothes 0[END-FE]
 
 
 
@@ -3040,7 +3037,7 @@ Dying[END-FE]
 //POINTER #327 @ $583C - STRING #327 @ $7587
 #W32($583C)
 //・ユリィ服１[END-FE]
-・Yurii clothes 1[END-FE]
+・Yurii Clothes 1[END-FE]
 
 
 
@@ -3049,7 +3046,7 @@ Dying[END-FE]
 //POINTER #328 @ $5840 - STRING #328 @ $7596
 #W32($5840)
 //・ユリィ服２[END-FE]
-・Yurii clothes 2[END-FE]
+・Yurii Clothes 2[END-FE]
 
 
 
@@ -3058,7 +3055,7 @@ Dying[END-FE]
 //POINTER #329 @ $5844 - STRING #329 @ $75A5
 #W32($5844)
 //・ユリィ服３[END-FE]
-・Yurii clothes 3[END-FE]
+・Yurii Clothes 3[END-FE]
 
 
 
@@ -3067,7 +3064,7 @@ Dying[END-FE]
 //POINTER #330 @ $5848 - STRING #330 @ $75B4
 #W32($5848)
 //・ユリィ服４[END-FE]
-・Yurii clothes 4[END-FE]
+・Yurii Clothes 4[END-FE]
 
 
 
@@ -3076,7 +3073,7 @@ Dying[END-FE]
 //POINTER #331 @ $584C - STRING #331 @ $75C3
 #W32($584C)
 //・ユリィ服５[END-FE]
-・Yurii clothes 5[END-FE]
+・Yurii Clothes 5[END-FE]
 
 
 
@@ -3085,7 +3082,7 @@ Dying[END-FE]
 //POINTER #332 @ $5850 - STRING #332 @ $75D2
 #W32($5850)
 //・ユリィ服６[END-FE]
-・Yurii clothes 6[END-FE]
+・Yurii Clothes 6[END-FE]
 
 
 
@@ -3094,7 +3091,7 @@ Dying[END-FE]
 //POINTER #333 @ $5854 - STRING #333 @ $75E1
 #W32($5854)
 //・ユリィ服７[END-FE]
-・Yurii clothes 7[END-FE]
+・Yurii Clothes 7[END-FE]
 
 
 
@@ -3103,7 +3100,7 @@ Dying[END-FE]
 //POINTER #334 @ $5858 - STRING #334 @ $75F0
 #W32($5858)
 //・ユリィ服８[END-FE]
-・Yurii clothes 8[END-FE]
+・Yurii Clothes 8[END-FE]
 
 
 
@@ -3112,7 +3109,7 @@ Dying[END-FE]
 //POINTER #335 @ $585C - STRING #335 @ $75FF
 #W32($585C)
 //・ユリィ服９[END-FE]
-・Yurii clothes 9[END-FE]
+・Yurii Clothes 9[END-FE]
 
 
 
@@ -3121,7 +3118,7 @@ Dying[END-FE]
 //POINTER #336 @ $5860 - STRING #336 @ $760E
 #W32($5860)
 //・ユリィ服１０[END-FE]
-・Yurii clothes 10[END-FE]
+・Yurii Clothes 10[END-FE]
 
 
 
@@ -3130,7 +3127,7 @@ Dying[END-FE]
 //POINTER #337 @ $5864 - STRING #337 @ $761F
 #W32($5864)
 //・ユリィ服１１[END-FE]
-・Yurii clothes 11[END-FE]
+・Yurii Clothes 11[END-FE]
 
 
 
@@ -3397,7 +3394,7 @@ Laughing[END-FE]
 //POINTER #362 @ $58C8 - STRING #362 @ $77FE
 #W32($58C8)
 //服を選び直しますか？[END-FE]
-Do you want to reselect your clothes?[END-FE]
+Reselect clothes?[END-FE]
 
 
 
@@ -3406,7 +3403,7 @@ Do you want to reselect your clothes?[END-FE]
 //POINTER #363 @ $58CC - STRING #363 @ $7815
 #W32($58CC)
 //どれか選んで。×で終了[END-FE]
-Choose one. End with ×[END-FE]
+Choose one. ○ to exit.[END-FE]
 
 
 
@@ -3523,7 +3520,7 @@ Choose one. End with ×[END-FE]
 //POINTER #376 @ $5900 - STRING #376 @ $790C
 #W32($5900)
 //終了は×ボタン[END-FE]
-End with × button[END-FE]
+End with ○ button[END-FE]
 
 
 
@@ -3826,7 +3823,7 @@ Zzzz...?[END-FE]
 //POINTER #395 @ $594C - STRING #395 @ $86AA
 #W32($594C)
 //・V_00 ウェンディエンド[END-FE]
-・V_00 Wendy end[END-FE]
+・V_00 Wendy Ending[END-FE]
 
 
 
@@ -3835,7 +3832,7 @@ Zzzz...?[END-FE]
 //POINTER #396 @ $5950 - STRING #396 @ $86C4
 #W32($5950)
 //・V_01 ルキアスエンド[END-FE]
-・V_01 Rukias end[END-FE]
+・V_01 Rukias Ending[END-FE]
 
 
 
@@ -3844,7 +3841,7 @@ Zzzz...?[END-FE]
 //POINTER #397 @ $5954 - STRING #397 @ $86DC
 #W32($5954)
 //・V_02 アニータエンド[END-FE]
-・V_02 Anita end[END-FE]
+・V_02 Anita Ending[END-FE]
 
 
 
@@ -3853,7 +3850,7 @@ Zzzz...?[END-FE]
 //POINTER #398 @ $5958 - STRING #398 @ $86F4
 #W32($5958)
 //・V_03 ホフマンエンド[END-FE]
-・V_03 Hofman end[END-FE]
+・V_03 Hofman Ending[END-FE]
 
 
 
@@ -3862,7 +3859,7 @@ Zzzz...?[END-FE]
 //POINTER #399 @ $595C - STRING #399 @ $870C
 #W32($595C)
 //・V_04 イリステレサエンド[END-FE]
-・V_04 Iristelessa end[END-FE]
+・V_04 Iristelessa Ending[END-FE]
 
 
 
@@ -3871,7 +3868,7 @@ Zzzz...?[END-FE]
 //POINTER #400 @ $5960 - STRING #400 @ $8728
 #W32($5960)
 //・V_05 ゼオンシルトエンド[END-FE]
-・V_05 Haschen end[END-FE]
+・V_05 Haschen Ending[END-FE]
 
 
 
@@ -3880,7 +3877,7 @@ Zzzz...?[END-FE]
 //POINTER #401 @ $5964 - STRING #401 @ $8744
 #W32($5964)
 //・V_06 ユリィエンド[END-FE]
-・V_06 Yurii end[END-FE]
+・V_06 Yurii Ending[END-FE]
 
 
 
@@ -3889,7 +3886,7 @@ Zzzz...?[END-FE]
 //POINTER #402 @ $5968 - STRING #402 @ $875A
 #W32($5968)
 //・V_07 主人公エンド[END-FE]
-・V_07 Hero end[END-FE]
+・V_07 Hero Ending[END-FE]
 
 
 
@@ -3898,7 +3895,7 @@ Zzzz...?[END-FE]
 //POINTER #403 @ $596C - STRING #403 @ $8770
 #W32($596C)
 //・V_08 ネーリスエンド[END-FE]
-・V_08 Neilis end[END-FE]
+・V_08 Neilis Ending[END-FE]
 
 
 
@@ -3934,7 +3931,7 @@ Zzzz...?[END-FE]
 //POINTER #407 @ $597C - STRING #407 @ $87C6
 #W32($597C)
 //セーブのチェックする[END-FE]
-Check the save[END-FE]
+Check save[END-FE]
 
 
 
@@ -3952,7 +3949,7 @@ Which one?[END-FE]
 //POINTER #409 @ $5984 - STRING #409 @ $87E6
 #W32($5984)
 //・セーブロード[END-FE]
-・Save load[END-FE]
+・Save/Load[END-FE]
 
 
 
@@ -3979,7 +3976,7 @@ Which one?[END-FE]
 //POINTER #412 @ $5990 - STRING #412 @ $8827
 #W32($5990)
 //デバッグセーブ[END-FE]
-Debug save[END-FE]
+Debug Save[END-FE]
 
 
 
@@ -3988,7 +3985,7 @@ Debug save[END-FE]
 //POINTER #413 @ $5994 - STRING #413 @ $8838
 #W32($5994)
 //武器ＣＧ変更のチェックする[END-FE]
-Check for weapon CG changes[END-FE]
+Check weapon CG change[END-FE]
 
 
 
@@ -3997,7 +3994,7 @@ Check for weapon CG changes[END-FE]
 //POINTER #414 @ $5998 - STRING #414 @ $8855
 #W32($5998)
 //どれをセットしますか？[END-FE]
-Which one would you like to set?[END-FE]
+Which one to set?[END-FE]
 
 
 
@@ -4006,7 +4003,7 @@ Which one would you like to set?[END-FE]
 //POINTER #415 @ $599C - STRING #415 @ $886E
 #W32($599C)
 //・海魔制御装置[END-FE]
-・Sea demon control system?!?[END-FE]
+・Sea Demon Control Device[END-FE]
 
 
 
@@ -4024,7 +4021,7 @@ Which one would you like to set?[END-FE]
 //POINTER #417 @ $59A4 - STRING #417 @ $8888
 #W32($59A4)
 //・光点黄[END-FE]
-・Light spot yellow[END-FE]
+・Yellow Light Spot[END-FE]
 
 
 
@@ -4033,7 +4030,7 @@ Which one would you like to set?[END-FE]
 //POINTER #418 @ $59A8 - STRING #418 @ $8893
 #W32($59A8)
 //・光点赤[END-FE]
-・Light spot red[END-FE]
+・Red Light Spot[END-FE]
 
 
 
@@ -4042,7 +4039,7 @@ Which one would you like to set?[END-FE]
 //POINTER #419 @ $59AC - STRING #419 @ $889E
 #W32($59AC)
 //・光点青[END-FE]
-・Light spot blue[END-FE]
+・Blue Light Spot[END-FE]
 
 
 
@@ -4051,7 +4048,7 @@ Which one would you like to set?[END-FE]
 //POINTER #420 @ $59B0 - STRING #420 @ $88A9
 #W32($59B0)
 //・木槌[END-FE]
-・Wooden Hammer[END-FE]
+・Wooden Mallet[END-FE]
 
 
 
@@ -4069,7 +4066,7 @@ Which one would you like to set?[END-FE]
 //POINTER #422 @ $59B8 - STRING #422 @ $88BF
 #W32($59B8)
 //・本閉[END-FE]
-・Closed[END-FE]
+・Book Closed[END-FE]
 
 
 
@@ -4078,7 +4075,7 @@ Which one would you like to set?[END-FE]
 //POINTER #423 @ $59BC - STRING #423 @ $88C8
 #W32($59BC)
 //・本開[END-FE]
-・Open[END-FE]
+・Book Open[END-FE]
 
 
 
@@ -4087,7 +4084,7 @@ Which one would you like to set?[END-FE]
 //POINTER #424 @ $59C0 - STRING #424 @ $88D1
 #W32($59C0)
 //・信号弾[END-FE]
-・Signal flare[END-FE]
+・Signal Flare[END-FE]
 
 
 
@@ -4114,7 +4111,7 @@ Which one would you like to set?[END-FE]
 //POINTER #427 @ $59CC - STRING #427 @ $88F0
 #W32($59CC)
 //再生の仕方は？（初期値は１回）[END-FE]
-How to play? (Initial value is once)[END-FE]
+How to play? (Default: once)[END-FE]
 
 
 
@@ -4123,7 +4120,7 @@ How to play? (Initial value is once)[END-FE]
 //POINTER #428 @ $59D0 - STRING #428 @ $8911
 #W32($59D0)
 //・１回再生[END-FE]
-・Play once[END-FE]
+・Play Once[END-FE]
 
 
 
@@ -4132,7 +4129,7 @@ How to play? (Initial value is once)[END-FE]
 //POINTER #429 @ $59D4 - STRING #429 @ $891E
 #W32($59D4)
 //・ループ再生[END-FE]
-・Loop playback[END-FE]
+・Loop Playback[END-FE]
 
 
 
@@ -4141,7 +4138,7 @@ How to play? (Initial value is once)[END-FE]
 //POINTER #430 @ $59D8 - STRING #430 @ $892D
 #W32($59D8)
 //・エフェクト消す[END-FE]
-・Turn off the effect[END-FE]
+・Turn off effect[END-FE]
 
 
 
@@ -4150,7 +4147,7 @@ How to play? (Initial value is once)[END-FE]
 //POINTER #431 @ $59DC - STRING #431 @ $8940
 #W32($59DC)
 //どれを表示する？[END-FE]
-Which one do you want to see?[END-FE]
+Which one to display?[END-FE]
 
 
 
@@ -4159,7 +4156,7 @@ Which one do you want to see?[END-FE]
 //POINTER #432 @ $59E0 - STRING #432 @ $8953
 #W32($59E0)
 //・火柱[END-FE]
-・Pillar of fire[END-FE]
+・Pillar of Fire[END-FE]
 
 
 
@@ -4168,7 +4165,7 @@ Which one do you want to see?[END-FE]
 //POINTER #433 @ $59E4 - STRING #433 @ $895C
 #W32($59E4)
 //・爆発小[END-FE]
-・Small explosion[END-FE]
+・Small Explosion[END-FE]
 
 
 
@@ -4177,7 +4174,7 @@ Which one do you want to see?[END-FE]
 //POINTER #434 @ $59E8 - STRING #434 @ $8967
 #W32($59E8)
 //・爆発大[END-FE]
-・Large explosion[END-FE]
+・Large Explosion[END-FE]
 
 
 
@@ -4240,7 +4237,7 @@ Which one do you want to see?[END-FE]
 //POINTER #441 @ $5A04 - STRING #441 @ $89B0
 #W32($5A04)
 //・光の柱（緑）[END-FE]
-・Pillar of light (green)[END-FE]
+・Pillar of Light (Green)[END-FE]
 
 
 
@@ -4249,7 +4246,7 @@ Which one do you want to see?[END-FE]
 //POINTER #442 @ $5A08 - STRING #442 @ $89C1
 #W32($5A08)
 //・光の柱（赤）[END-FE]
-・Pillar of light (red)[END-FE]
+・Pillar of Light (Red)[END-FE]
 
 
 
@@ -4258,7 +4255,7 @@ Which one do you want to see?[END-FE]
 //POINTER #443 @ $5A0C - STRING #443 @ $89D2
 #W32($5A0C)
 //・光の柱（青）[END-FE]
-・Pillar of light (blue)[END-FE]
+・Pillar of Light (Blue)[END-FE]
 
 
 
@@ -4267,7 +4264,7 @@ Which one do you want to see?[END-FE]
 //POINTER #444 @ $5A10 - STRING #444 @ $89E3
 #W32($5A10)
 //・光の柱２[END-FE]
-・Pillar of light 2[END-FE]
+・Pillar of Light 2[END-FE]
 
 
 
@@ -4285,7 +4282,7 @@ Which one do you want to see?[END-FE]
 //POINTER #446 @ $5A18 - STRING #446 @ $89F9
 #W32($5A18)
 //・0 通常ブラー[END-FE]
-・0 Normal blur[END-FE]
+・0 Normal Blur[END-FE]
 
 
 
@@ -4294,7 +4291,7 @@ Which one do you want to see?[END-FE]
 //POINTER #447 @ $5A1C - STRING #447 @ $8A0A
 #W32($5A1C)
 //・0 通常ブラー　終了[END-FE]
-・0 Normal blur end[END-FE]
+・0 Normal Blur End[END-FE]
 
 
 
@@ -4303,7 +4300,7 @@ Which one do you want to see?[END-FE]
 //POINTER #448 @ $5A20 - STRING #448 @ $8A21
 #W32($5A20)
 //・1 横方向ホワイトフェードでブラー[END-FE]
-・1 Blur with horizontal white fade[END-FE]
+・1 Horizontal White Fade Blur[END-FE]
 
 
 
@@ -4312,7 +4309,7 @@ Which one do you want to see?[END-FE]
 //POINTER #449 @ $5A24 - STRING #449 @ $8A46
 #W32($5A24)
 //・1 横方向ホワイトフェードでブラー　終了[END-FE]
-・1 Blur with horizontal white fade end[END-FE]
+・1 Horizontal White Fade Blur End[END-FE]
 
 
 
@@ -4321,7 +4318,7 @@ Which one do you want to see?[END-FE]
 //POINTER #450 @ $5A28 - STRING #450 @ $8A71
 #W32($5A28)
 //・2 回転ホワイトフェードでブラー[END-FE]
-・2 Blur with a rotating white fade[END-FE]
+・2 Rotating White Fade Blur[END-FE]
 
 
 
@@ -4330,7 +4327,7 @@ Which one do you want to see?[END-FE]
 //POINTER #451 @ $5A2C - STRING #451 @ $8A94
 #W32($5A2C)
 //・2 回転ホワイトフェードでブラー　終了[END-FE]
-・2 Blur with a rotating white fade end[END-FE]
+・2 Rotating White Fade Blur End[END-FE]
 
 
 
@@ -4393,7 +4390,7 @@ Which one do you want to see?[END-FE]
 //POINTER #458 @ $5A48 - STRING #458 @ $8B13
 #W32($5A48)
 //・07宇宙船、浮上[END-FE]
-・07 Spacecraft surfaced[END-FE]
+・07 Spaceship surfacing[END-FE]
 
 
 
@@ -4438,7 +4435,7 @@ Which one do you want to see?[END-FE]
 //POINTER #463 @ $5A5C - STRING #463 @ $8B7A
 #W32($5A5C)
 //・09エンディング共通部[END-FE]
-・09 Common Ending[END-FE]
+・09 Common ending part[END-FE]
 
 
 
@@ -4688,7 +4685,7 @@ Level Up ![END-FE]
 //POINTER #489 @ $5AC4 - STRING #489 @ $8D68
 #W32($5AC4)
 //松２デバッグ実行？[END-FE]
-Matsu2 debug run?[END-FE]
+Run Matsu2 debug?[END-FE]
 
 
 
@@ -4706,7 +4703,7 @@ Cursor movement check[END-FE]
 //POINTER #491 @ $5ACC - STRING #491 @ $8D94
 #W32($5ACC)
 //・左上へ[END-FE]
-・To the upper left[END-FE]
+・To upper left[END-FE]
 
 
 
@@ -4715,7 +4712,7 @@ Cursor movement check[END-FE]
 //POINTER #492 @ $5AD0 - STRING #492 @ $8D9F
 #W32($5AD0)
 //・右上へ[END-FE]
-・To the upper right[END-FE]
+・To upper right[END-FE]
 
 
 
@@ -4724,7 +4721,7 @@ Cursor movement check[END-FE]
 //POINTER #493 @ $5AD4 - STRING #493 @ $8DAA
 #W32($5AD4)
 //・左下へ[END-FE]
-・To the lower left[END-FE]
+・To lower left[END-FE]
 
 
 
@@ -4733,7 +4730,7 @@ Cursor movement check[END-FE]
 //POINTER #494 @ $5AD8 - STRING #494 @ $8DB5
 #W32($5AD8)
 //・右下へ[END-FE]
-・To the lower right[END-FE]
+・To lower right[END-FE]
 
 
 
@@ -4742,7 +4739,7 @@ Cursor movement check[END-FE]
 //POINTER #495 @ $5ADC - STRING #495 @ $8DC0
 #W32($5ADC)
 //・中央へ[END-FE]
-・To the center[END-FE]
+・To center[END-FE]
 
 
 
@@ -5021,7 +5018,7 @@ Which one do you want to see?[END-FE]
 //POINTER #526 @ $5B58 - STRING #526 @ $8F2D
 #W32($5B58)
 //戻るのかい？[END-FE]
-You're going back?[END-FE]
+Going back?[END-FE]
 
 
 
