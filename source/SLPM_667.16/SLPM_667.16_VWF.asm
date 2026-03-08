@@ -3,7 +3,7 @@
 .headersize 0x000FFF80
 
 ; ===========================================================================
-; Equates
+; Equates / fixed addresses
 ; ===========================================================================
 VWFfunct               equ 0x003D7980   ; Custom VWF function
 SetTextColor           equ 0x00151670   ; Sets text color
@@ -12,6 +12,9 @@ DrawLetter             equ 0x001522BC   ; Draws a single letter
 DrawTextAt             equ 0x00151840   ; Draws text at specified coordinates
 printf                 equ 0x129798     ; Formats strings (used for enemy defeat count)
 TextboxWidthAdjustAddr equ 0x003D7D00   ; Post-processing helper for textbox windowWidth
+VWFtableLabelAddr      equ 0x003D81F0   ; ASCII marker placed immediately before the width table
+VWFtableAddr           equ 0x003D8200   ; Width table begins on a clean ...x0 boundary
+RamAddr                equ 0x003D8280   ; Small scratch area used by the injected helpers
 
 // Fix for the full-width numbers that are displayed when you kill more than 1 enemy at the same time.
 .org 0x2C7684                           ; Patching code at address 0x2C7684
@@ -39,23 +42,25 @@ line width and round up But I need to create the "get line pixel width" function
 .org 0x002760B0
 */
 
-//Swap 〇 to Ｘ, code borrowed from PS2 Controller Remapper
+; ---------------------------------------------------------------------------
+; Hook patches into the original ELF
+; ---------------------------------------------------------------------------
+
+// Swap 〇 to Ｘ, code borrowed from PS2 Controller Remapper
 .org 0x00121C64
     j         Switcheroo
 .org 0x00121CCC
     j         Switcheroo + 0xC
 
-// Gatetext render
+// Gate text render
 .org 0x003C72AC
     jal       RenderSelected
 
+// Shared RenderNormal hook used by gate text and at least one speech-bubble path.
 .org 0x003C72E8
     jal       RenderNormal
 
-// Casting and waiting speech bubble
-.org 0x003C72E8
-    jal       RenderNormal
-
+// Casting / waiting speech bubble
 .org 0x002F5AF0
     jal       RenderNormal
 
@@ -93,7 +98,7 @@ line width and round up But I need to create the "get line pixel width" function
 .org 0x002792D4
     cvt.w.s   f26,f26                    ; Convert the value in f26 to an integer of the same value
     mfc1      s1,f26                     ; Move to our X value variable (s1)
-    addiu     s2,0x1                     ; Add 1 to s1 like in the original
+    addiu     s2,0x1                     ; Add 1 to s2 like in the original
     b         0x00279058                 ; Branch from the original
     nop                                  ; NOP from the original
 
@@ -105,16 +110,20 @@ line width and round up But I need to create the "get line pixel width" function
     jal       TextboxWidthAdjustAddr
     lq        fp, 0x80(sp)               ; original epilogue instruction in delay slot
 
-// VWF function
+; ---------------------------------------------------------------------------
+; Injected custom code
+; ---------------------------------------------------------------------------
+
+// VWF width function
 .org VWFfunct
     li       s0,ram
     sw       s1,(s0)                     ; we store s1 in the address we set-up on s0
-    li       s0,0x1                      ; This needs to inputted as 'addiu s0,zero,0x1' in PCSX2 for it to work
+    li       s0,0x1                      ; Same result as addiu s0,zero,0x1 (handy when checking in PCSX2)
     beql     s0,a3,@@VWFcode             ; if a3 is 1 we jump directly to our VWF code
     nop
     andi     s0,t0,0xFF00
     bnez     s0,@@Original               ; if the result of the AND is not zero we jump to the original
-    nop                                  ; function as that means this is a SHIFT-JIS char
+    nop                                  ; SHIFT-JIS path falls back to the original code
 
     @@VWFcode:
     li        s0,VWFtable
@@ -565,6 +574,10 @@ line width and round up But I need to create the "get line pixel width" function
     sh        a1, 0x2(t9)               ; Store half-word: *(t9 + 0x2) = a1 (delay slot)
 .endfunc
 
+; ---------------------------------------------------------------------------
+; Reference notes
+; ---------------------------------------------------------------------------
+
 /*
 / Control codes (0xFF is always first byte):
 /--------------
@@ -608,7 +621,17 @@ line width and round up But I need to create the "get line pixel width" function
 / 0xFF, 0xFE, 0x(Any other combination not present above)
 */
 
-//Font table
+; ---------------------------------------------------------------------------
+; Data blocks
+; ---------------------------------------------------------------------------
+
+// Helpful marker in the ELF immediately above the width table.
+.org VWFtableLabelAddr
+    .asciiz "VWF Width table"
+
+// Font width table.
+// Placed at a fixed ...x0 address so the bytes are easier to inspect in memory.
+.org VWFtableAddr
 .func VWFtable
     .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
     .byte 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
@@ -620,6 +643,8 @@ line width and round up But I need to create the "get line pixel width" function
     .byte 0x0A, 0x0A, 0x07, 0x07, 0x07, 0x0A, 0x0A, 0x10, 0x08, 0x0B, 0x08, 0x04, 0x03, 0x04, 0x0A, 0x04
 .endfunc
 
+// Tiny scratch area used by the injected helpers.
+.org RamAddr
 .func ram
     nop
     nop
