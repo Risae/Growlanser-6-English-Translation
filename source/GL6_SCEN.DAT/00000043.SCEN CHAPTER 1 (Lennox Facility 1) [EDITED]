@@ -464,9 +464,9 @@ door is broken. Make sure no one[NLINE]
 suspicious gets inside.[NWIN]
 
 [CHAR0000][V1B00]
-Hmm, it'd be even better to[NLINE]
-make sure no one enters the[NLINE]
-laboratory in the first place.[NWIN]
+Hmm, it'd be even better to make[NLINE]
+sure no one enters the laboratory[NLINE]
+in the first place.[NWIN]
 
 [CHAR0000][V1C00]
 Anyway, I'm counting on you![END-FE]
@@ -1872,17 +1872,18 @@ Hmm, seems your name is... [MainCharName]?[END-FE]
 //わざわざ私を迎えに来るってことは…。[END-FE]
 //Wendy\\
 [CHAR0200][V0F00]
-I knew you couldn't be Shuweizer.[NWIN]
+I thought so.[NLINE]
+You weren't Mr. Shuweizer.[NWIN]
 
 [CHAR0200][V1000]
-Speaking of which, did you know[NLINE]
-Shuweizer is the Captain of the[NLINE]
-Monopolis Special Unit?[NWIN]
+Come to think of it, Mr. Shuweizer[NLINE]
+is the captain of Monopolis's[NLINE]
+special unit, right?[NWIN]
 
 [CHAR0200][V1100]
-For an important person like[NLINE]
-that to come all the way[NLINE]
-here to meet me is-[END-FE]
+If someone that important came[NLINE]
+all this way to pick me up,[NLINE]
+then maybe...[END-FE]
 
 
 
@@ -1892,7 +1893,7 @@ here to meet me is-[END-FE]
 #W32($5998)
 //・同名の別人が来る[END-FE]
 //System Message\\
-・It's probably someone with the same name[END-FE]
+・Maybe it's just someone else with the same name.[END-FE]
 
 
 
@@ -1902,7 +1903,7 @@ here to meet me is-[END-FE]
 #W32($599C)
 //・何かのついでに来るだけ[END-FE]
 //System Message\\
-・He's probably just happened to be passing through here[END-FE]
+・Maybe he was here for something else anyway.[END-FE]
 
 
 
@@ -1912,7 +1913,7 @@ here to meet me is-[END-FE]
 #W32($59A0)
 //・ウェンディが特殊部隊に選ばれた[END-FE]
 //System Message\\
-・He's going to pick you for the special unit[END-FE]
+・Maybe Wendy was chosen for the special unit.[END-FE]
 
 
 
@@ -2603,9 +2604,8 @@ you know![END-FE]
 //System Message\\
 From now on, Mission Battles will have a[NLINE]
 [COL01]CONTINUE[COL00] option. After a Game Over or[NLINE]
-soft reset, a [COL01]CONTINUE[COL00] option will[NLINE]
-be added when you return to the title[NLINE]
-screen.[NWIN]
+soft reset, a [COL01]CONTINUE[COL00] option will be[NLINE]
+added when you return to the title screen.[NWIN]
 
 When [COL01]CONTINUE[COL00] is selected, you may play[NLINE]
 again from the start of the Mission Battle.[NLINE]
@@ -2852,7 +2852,7 @@ those terrorists![END-FE]
 //・ウェンディの死亡[END-FE]
 //Lose condition message\\
 ・The terrorist successfully sets up[NLINE]
- the bomb[NLINE]
+  the bomb[NLINE]
 ・[MainCharName] dies[NLINE]
 ・Wendy dies[END-FE]
 
@@ -3492,8 +3492,8 @@ conflict areas.[END-FE]
 [CHARC900][V0400]
 Two days have passed since the attack[NLINE]
 on the Lenox Research Facility...[NLINE]
-[MainCharName] has been assigned security[NLINE]
-duty in the city of [COL01]Makinus[COL00],[NLINE]
+[MainCharName] has been assigned[NLINE]
+security duty in the city of [COL01]Makinus[COL00],[NLINE]
 home to the Monopolis Headquarters.[END-FE]
 
 
