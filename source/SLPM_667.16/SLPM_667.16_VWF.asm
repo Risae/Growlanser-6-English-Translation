@@ -10,8 +10,10 @@ SetTextColor               equ 0x00151670 ; Sets text color
 SetTextScale               equ 0x00151890 ; Sets text scaling
 DrawLetter                 equ 0x001522BC ; Draws a single letter
 DrawTextAt                 equ 0x00151840 ; Draws text at specified coordinates
+z_un_00275520              equ 0x00275520 ; Text draw function
 z_un_002c74f0              equ 0x002C74F0 ; Unknown patched function for full-width numbers when you kill more than 1 enemy
 z_un_002c7840              equ 0x002C7840 ; Unknown patched function for full-width numbers when you kill more than 1 enemy
+z_un_003c6ff0              equ 0x003C6FF0 ; Unknown patched function for Gate text render + Speech bubble
 VWFfunct                   equ 0x003D7980 ; Custom VWF function
 VWFtextboxWidthAdjustAddr  equ 0x003D7D00 ; Post-processing helper for textbox windowWidth
 VWFtableLabelAddr          equ 0x003D81F0 ; ASCII marker placed immediately before the width table
