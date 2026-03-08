@@ -5,16 +5,18 @@
 ; ===========================================================================
 ; Equates / fixed addresses
 ; ===========================================================================
-VWFfunct               equ 0x003D7980   ; Custom VWF function
-SetTextColor           equ 0x00151670   ; Sets text color
-SetTextScale           equ 0x00151890   ; Sets text scaling
-DrawLetter             equ 0x001522BC   ; Draws a single letter
-DrawTextAt             equ 0x00151840   ; Draws text at specified coordinates
-printf                 equ 0x129798     ; Formats strings (used for enemy defeat count)
-TextboxWidthAdjustAddr equ 0x003D7D00   ; Post-processing helper for textbox windowWidth
-VWFtableLabelAddr      equ 0x003D81F0   ; ASCII marker placed immediately before the width table
-VWFtableAddr           equ 0x003D8200   ; Width table begins on a clean ...x0 boundary
-RamAddr                equ 0x003D8280   ; Small scratch area used by the injected helpers
+printf                     equ 0x00129798 ; Formats strings (used for enemy defeat count)
+SetTextColor               equ 0x00151670 ; Sets text color
+SetTextScale               equ 0x00151890 ; Sets text scaling
+DrawLetter                 equ 0x001522BC ; Draws a single letter
+DrawTextAt                 equ 0x00151840 ; Draws text at specified coordinates
+z_un_002c74f0              equ 0x002C74F0 ; Unknown patched function for full-width numbers when you kill more than 1 enemy
+z_un_002c7840              equ 0x002C7840 ; Unknown patched function for full-width numbers when you kill more than 1 enemy
+VWFfunct                   equ 0x003D7980 ; Custom VWF function
+VWFtextboxWidthAdjustAddr  equ 0x003D7D00 ; Post-processing helper for textbox windowWidth
+VWFtableLabelAddr          equ 0x003D81F0 ; ASCII marker placed immediately before the width table
+VWFtableAddr               equ 0x003D8200 ; Width table begins on a clean ...x0 boundary
+VWFramAddr                 equ 0x003D8280 ; Small scratch area used by the injected helpers
 
 // Fix for the full-width numbers that are displayed when you kill more than 1 enemy at the same time.
 .org 0x2C7684                           ; Patching code at address 0x2C7684
@@ -45,12 +47,6 @@ line width and round up But I need to create the "get line pixel width" function
 ; ---------------------------------------------------------------------------
 ; Hook patches into the original ELF
 ; ---------------------------------------------------------------------------
-
-// Swap 〇 to Ｘ, code borrowed from PS2 Controller Remapper
-.org 0x00121C64
-    j         Switcheroo
-.org 0x00121CCC
-    j         Switcheroo + 0xC
 
 // Gate text render
 .org 0x003C72AC
@@ -107,7 +103,7 @@ line width and round up But I need to create the "get line pixel width" function
 // This keeps the original line-count / wrapping logic, but upgrades windowWidth
 // to at least ceil(max_rendered_line_pixels / 10) using the VWF table.
 .org 0x00276920
-    jal       TextboxWidthAdjustAddr
+    jal       VWFtextboxWidthAdjustAddr
     lq        fp, 0x80(sp)               ; original epilogue instruction in delay slot
 
 ; ---------------------------------------------------------------------------
@@ -275,7 +271,7 @@ line width and round up But I need to create the "get line pixel width" function
 .endfunc
 
 
-.org TextboxWidthAdjustAddr
+.org VWFtextboxWidthAdjustAddr
 .func TextboxWidthAdjust
     lw        t0, 0x18C(s5)              ; text pointer
     move      t1, zero                   ; current line width in pixels
@@ -554,26 +550,6 @@ line width and round up But I need to create the "get line pixel width" function
     nop                                 ; No operation (delay slot)
 .endfunc
 
-.func Switcheroo
-    move      t9, a2                    ; Copy the value in register a2 to t9
-    j         0x00121C6C                ; Jump to the address 0x00121C6C (unconditional jump)
-    li        v1, 0x70                  ; Load immediate: v1 = 0x70
-    lh        a0, 0x2(t9)               ; Load half-word from memory at address (t9 + 0x2) into a0
-    andi      a1, a0, 0x9FFF            ; Perform bitwise AND: a1 = a0 & 0x9FFF
-    lbu       a2, 0xE(t9)               ; Load byte unsigned from memory at address (t9 + 0xE) into a2
-    lbu       a3, 0xD(t9)               ; Load byte unsigned from memory at address (t9 + 0xD) into a3
-    andi      at, a0, 0x4000            ; Perform bitwise AND: at = a0 & 0x4000
-    ori       v1, a1, 0x2000            ; Perform bitwise OR with immediate: v1 = a1 | 0x2000
-    movn      a1, v1, at                ; Conditional move: If at == 0, a1 = v1
-    sb        a2, 0xD(t9)               ; Store byte: *(t9 + 0xD) = a2
-    andi      at, a0, 0x2000            ; Perform bitwise AND: at = a0 & 0x2000
-    ori       v1, a1, 0x4000            ; Perform bitwise OR with immediate: v1 = a1 | 0x4000
-    movn      a1, v1, at                ; Conditional move: If at == 0, a1 = v1
-    sb        a3, 0xE(t9)               ; Store byte: *(t9 + 0xE) = a3
-    jr        ra                        ; Jump to the return address in register ra
-    sh        a1, 0x2(t9)               ; Store half-word: *(t9 + 0x2) = a1 (delay slot)
-.endfunc
-
 ; ---------------------------------------------------------------------------
 ; Reference notes
 ; ---------------------------------------------------------------------------
@@ -644,7 +620,7 @@ line width and round up But I need to create the "get line pixel width" function
 .endfunc
 
 // Tiny scratch area used by the injected helpers.
-.org RamAddr
+.org VWFramAddr
 .func ram
     nop
     nop
