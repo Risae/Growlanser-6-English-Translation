@@ -67,7 +67,7 @@ jobs:
           # typos --verbose --config typos.toml --format brief --files "$Env:GITHUB_WORKSPACE\source\SLPM_667.16\SLPM_667.16_translation.asm"
 
 
-      - name: 05. Check script using Powershell Regex
+      - name: 05. Check script using various RegEx
         shell: pwsh # Powershell 7, which uses UTF-8 as default
         run: |
           Write-Host "`n[i] Create list of Regex patterns that need to be checked"
@@ -79,6 +79,9 @@ jobs:
             '\[END-FF\]\[END-FF\]',
             ',,',
             # '　 ',
+
+            # Find ]] in Control Codes
+            # '\[(?:NLINE|NWIN|END-FE|END-FF|COL0[0-9A-F])\]\]',
 
             # Find unnecessary default [COL00] color code at the end of a string
             '\[COL00\]\[END-FE\]',
@@ -232,6 +235,314 @@ jobs:
                   Write-Host "" # Ensure a newline after match output
                 }
               }
+
+          Write-Host "`n[i] Checking if the outputList has any entries..."
+
+          if ($outputList.Count -gt 0) {
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            exit 1
+          }
+          else {
+            Write-Host "`e[32m[i] No errors found!"
+          }
+
+      - name: 06. Check script for missing [NWIN]
+        shell: pwsh
+        run: |
+          Write-Host "`n[i] Initialize output list"
+          $outputList = @()
+
+          Write-Host "`n[i] Create blackList"
+          $blackList = @(
+            '00000001.SCEN.asm',
+            '00000002.SCEN Dummy file',
+            '00000003.SCEN Dummy file',
+            '00000033.SCEN Dummy file',
+            '00000035.SCEN Dummy file',
+            '00000039.SCEN Dummy file',
+            '00000043.SCEN.asm',
+            '00000061.SCEN Dummy file',
+            '00000062.SCEN Dummy file',
+            '00000064.SCEN Dummy file',
+            '00000066.SCEN Dummy file',
+            '00000067.SCEN Dummy file',
+            '00000068.SCEN Dummy file',
+            '00000071.SCEN Dummy file',
+            '00000101.SCEC Dummy file',
+            '00000105.SCEC Dummy file',
+            '00000109.SCEC Voice check Debug overview',
+            '00000110.SCEC Voice check Debug',
+            '00000111.SCEC Voice check Debug',
+            '00000112.SCEC Voice check Debug',
+            '00000113.SCEC Voice check Debug',
+            '00000114.SCEC Voice check Debug',
+            '00000115.SCEC Voice check Debug',
+            '00000116.SCEC Voice check Debug',
+            '00000117.SCEC Voice check Debug',
+            '00000118.SCEC Dummy file',
+            '00000119.SCEC Dummy file',
+            '00000120.SCEC Dummy file',
+            '00000121.SCEC Dummy file',
+            '00000122.SCEC Dummy file',
+            '00000123.SCEC Dummy file',
+            '00000124.SCEC Dummy file',
+            '00000125.SCEC Dummy file',
+            '00000167.STXT Dummy file'
+          )
+
+          Write-Host "`n[i] Check for [NLINE] followed by an empty line"
+
+          Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
+            Where-Object { $_.Name -notin $blackList } |
+            ForEach-Object {
+
+              $filename = $_.Name
+              Write-Host "Checking $filename..." -NoNewline
+
+              $fileContent = Get-Content -LiteralPath $_.FullName
+
+              # Remove JP comments and metadata lines, keep blank lines
+              $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
+
+              $hasMatches = $false
+
+              for ($i = 0; $i -lt ($fileContent.Count - 1); $i++) {
+                $currentLine = $fileContent[$i]
+                $nextLine = $fileContent[$i + 1]
+
+                if ($currentLine -match '\[NLINE\]$' -and [string]::IsNullOrWhiteSpace($nextLine)) {
+                  Write-Host "`n`e[31m[!] [NLINE] followed by empty line - $filename"
+                  Write-Host "`e[31m[!] Current line: '$currentLine'"
+                  $outputList += "[!] $filename - [NLINE] followed by empty line - '$currentLine'"
+                  $hasMatches = $true
+                }
+              }
+
+              if (-not $hasMatches) {
+                Write-Host "✅"
+              }
+              else {
+                Write-Host ""
+              }
+            }
+
+          Write-Host "`n[i] Checking if the outputList has any entries..."
+
+          if ($outputList.Count -gt 0) {
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            exit 1
+          }
+          else {
+            Write-Host "`e[32m[i] No errors found!"
+          }
+
+      - name: 07. Check script for missing [END-FE]/[END-FF]
+        shell: pwsh
+        run: |
+          Write-Host "`n[i] Initialize output list"
+          $outputList = @()
+
+          Write-Host "`n[i] Create blackList"
+          $blackList = @(
+            '00000001.SCEN.asm',
+            '00000002.SCEN Dummy file',
+            '00000003.SCEN Dummy file',
+            '00000033.SCEN Dummy file',
+            '00000035.SCEN Dummy file',
+            '00000039.SCEN Dummy file',
+            '00000043.SCEN.asm',
+            '00000061.SCEN Dummy file',
+            '00000062.SCEN Dummy file',
+            '00000064.SCEN Dummy file',
+            '00000066.SCEN Dummy file',
+            '00000067.SCEN Dummy file',
+            '00000068.SCEN Dummy file',
+            '00000071.SCEN Dummy file',
+            '00000101.SCEC Dummy file',
+            '00000105.SCEC Dummy file',
+            '00000109.SCEC Voice check Debug overview',
+            '00000110.SCEC Voice check Debug',
+            '00000111.SCEC Voice check Debug',
+            '00000112.SCEC Voice check Debug',
+            '00000113.SCEC Voice check Debug',
+            '00000114.SCEC Voice check Debug',
+            '00000115.SCEC Voice check Debug',
+            '00000116.SCEC Voice check Debug',
+            '00000117.SCEC Voice check Debug',
+            '00000118.SCEC Dummy file',
+            '00000119.SCEC Dummy file',
+            '00000120.SCEC Dummy file',
+            '00000121.SCEC Dummy file',
+            '00000122.SCEC Dummy file',
+            '00000123.SCEC Dummy file',
+            '00000124.SCEC Dummy file',
+            '00000125.SCEC Dummy file',
+            '00000167.STXT Dummy file'
+          )
+
+          Write-Host "`n[i] Check that 5+ empty lines are preceded by [END-FE] or [END-FF]"
+
+          Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
+            Where-Object { $_.Name -notin $blackList } |
+            ForEach-Object {
+
+              $filename = $_.Name
+              Write-Host "Checking $filename..." -NoNewline
+
+              $fileContent = Get-Content -LiteralPath $_.FullName
+
+              # Remove JP comments and metadata lines, keep blank lines
+              $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
+
+              $hasMatches = $false
+
+              for ($i = 0; $i -lt $fileContent.Count; $i++) {
+                $lineBefore = $fileContent[$i]
+
+                # Only start from a non-empty line
+                if ([string]::IsNullOrWhiteSpace($lineBefore)) {
+                  continue
+                }
+
+                $emptyCount = 0
+                $j = $i + 1
+
+                while ($j -lt $fileContent.Count -and [string]::IsNullOrWhiteSpace($fileContent[$j])) {
+                  $emptyCount++
+                  $j++
+                }
+
+                if ($emptyCount -ge 5 -and ($lineBefore -notmatch '\[(END-FE|END-FF)\]$')) {
+                  Write-Host "`n`e[31m[!] 5+ empty lines not preceded by [END-FE]/[END-FF] - $filename"
+                  Write-Host "`e[31m[!] Current line: '$lineBefore'"
+                  $outputList += "[!] $filename - 5+ empty lines not preceded by [END-FE]/[END-FF] - '$lineBefore'"
+                  $hasMatches = $true
+                }
+
+                # Skip past the empty run so it only reports once
+                if ($emptyCount -gt 0) {
+                  $i = $j - 1
+                }
+              }
+
+              if (-not $hasMatches) {
+                Write-Host "✅"
+              }
+              else {
+                Write-Host ""
+              }
+            }
+
+          Write-Host "`n[i] Checking if the outputList has any entries..."
+
+          if ($outputList.Count -gt 0) {
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            exit 1
+          }
+          else {
+            Write-Host "`e[32m[i] No errors found!"
+          }
+
+      - name: 08. Check for 2-4 empty lines
+        shell: pwsh
+        run: |
+          Write-Host "`n[i] Initialize output list"
+          $outputList = @()
+
+          Write-Host "`n[i] Create blackList"
+          $blackList = @(
+            '00000001.SCEN.asm',
+            '00000002.SCEN Dummy file',
+            '00000003.SCEN Dummy file',
+            '00000033.SCEN Dummy file',
+            '00000035.SCEN Dummy file',
+            '00000039.SCEN Dummy file',
+            '00000043.SCEN.asm',
+            '00000061.SCEN Dummy file',
+            '00000062.SCEN Dummy file',
+            '00000064.SCEN Dummy file',
+            '00000066.SCEN Dummy file',
+            '00000067.SCEN Dummy file',
+            '00000068.SCEN Dummy file',
+            '00000071.SCEN Dummy file',
+            '00000101.SCEC Dummy file',
+            '00000105.SCEC Dummy file',
+            '00000109.SCEC Voice check Debug overview',
+            '00000110.SCEC Voice check Debug',
+            '00000111.SCEC Voice check Debug',
+            '00000112.SCEC Voice check Debug',
+            '00000113.SCEC Voice check Debug',
+            '00000114.SCEC Voice check Debug',
+            '00000115.SCEC Voice check Debug',
+            '00000116.SCEC Voice check Debug',
+            '00000117.SCEC Voice check Debug',
+            '00000118.SCEC Dummy file',
+            '00000119.SCEC Dummy file',
+            '00000120.SCEC Dummy file',
+            '00000121.SCEC Dummy file',
+            '00000122.SCEC Dummy file',
+            '00000123.SCEC Dummy file',
+            '00000124.SCEC Dummy file',
+            '00000125.SCEC Dummy file',
+            '00000167.STXT Dummy file'
+          )
+
+          Write-Host "`n[i] Check for 2-4 empty lines"
+
+          Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
+            Where-Object { $_.Name -notin $blackList } |
+            ForEach-Object {
+
+              $filename = $_.Name
+              Write-Host "Checking $filename..." -NoNewline
+
+              $fileContent = Get-Content -LiteralPath $_.FullName
+
+              # Remove JP comments and metadata lines, keep blank lines
+              $fileContent = $fileContent | Where-Object { $_ -notlike '//*' -and $_ -notlike '#*' }
+
+              $hasMatches = $false
+
+              for ($i = 0; $i -lt $fileContent.Count; $i++) {
+                $lineBefore = $fileContent[$i]
+
+                if ([string]::IsNullOrWhiteSpace($lineBefore)) {
+                  continue
+                }
+
+                $emptyCount = 0
+                $j = $i + 1
+
+                while ($j -lt $fileContent.Count -and [string]::IsNullOrWhiteSpace($fileContent[$j])) {
+                  $emptyCount++
+                  $j++
+                }
+
+                # Ignore trailing blank lines at EOF
+                $reachesEndOfFile = ($j -ge $fileContent.Count)
+                if ($reachesEndOfFile) {
+                  break
+                }
+
+                if ($emptyCount -ge 2 -and $emptyCount -le 4) {
+                  Write-Host "`n`e[31m[!] Found $emptyCount empty lines - $filename"
+                  Write-Host "`e[31m[!] Current line: '$lineBefore'"
+                  $outputList += "[!] $filename - Found $emptyCount empty lines after - '$lineBefore'"
+                  $hasMatches = $true
+                }
+
+                if ($emptyCount -gt 0) {
+                  $i = $j - 1
+                }
+              }
+
+              if (-not $hasMatches) {
+                Write-Host "✅"
+              }
+              else {
+                Write-Host ""
+              }
+            }
 
           Write-Host "`n[i] Checking if the outputList has any entries..."
 
