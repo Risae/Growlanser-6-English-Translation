@@ -1078,19 +1078,19 @@ Come again![END-FE]
 //工場とつるんでいる間は無理かもなぁ…。[END-FE]
 //Man\\
 Unbelievable! I haven't been able to[NLINE]
-catch any fish lately, despite going[NLINE]
-to the river. It's all because of[NLINE]
-that industrial waste water that keeps[NLINE]
-flowing in.[NWIN]
+catch any fish lately, despite going to[NLINE]
+the river. It's all because of that[NLINE]
+industrial waste water that keeps flowing[NLINE]
+in.[NWIN]
 
-I heard that Monopolis developed[NLINE]
-trees which are effective at getting[NLINE]
-rid of pollutants. I hope they'll[NLINE]
-plant them around here soon.[NWIN]
+I heard that Monopolis developed trees[NLINE]
+which are effective at getting rid of[NLINE]
+pollutants. I hope they'll plant them[NLINE]
+around here soon.[NWIN]
 
-Well, that may not be possible as[NLINE]
-long as the mayor here keeps being[NLINE]
-all buddy-buddy with the factory bosses.[END-FE]
+Well, that may not be possible as long[NLINE]
+as the mayor here keeps being all[NLINE]
+buddy-buddy with the factory bosses.[END-FE]
 
 
 
@@ -1355,8 +1355,8 @@ have to do it all by myself.[END-FE]
 #W32($7848)
 //エンチャントジェムについての[NLINE]
 //基本説明をうけますか？[END-FE]
-Do you want to listen to a basic[NLINE]
-explanation on Enchanted Gems?[END-FE]
+Do you want to listen to a basic explanation[NLINE]
+on Enchanted Gems?[END-FE]
 
 
 
@@ -1452,9 +1452,9 @@ special abilities. Up to 2 can be equipped.[END-FE]
 //能力値のアップや、属性や耐性を変化[NLINE]
 //させるものなど、さまざまな能力があります。[END-FE]
 There are various kinds of abilities.[NLINE]
-These abilities provide certain effects[NLINE]
-such as increasing stats, changing[NLINE]
-resistances and attributes, etc.[END-FE]
+These abilities provide certain effects such[NLINE]
+as increasing stats, changing resistances[NLINE]
+and attributes, etc.[END-FE]
 
 
 
@@ -1739,7 +1739,7 @@ obtain a random result.[END-FE]
 //POINTER #145 @ $78E4 - STRING #145 @ $9D0D
 #W32($78E4)
 //・[COL01]『ジェムへの原石の合成』[COL00]について[END-FE]
-・About [COL01]Combining Enchanted Gems and Gemstones[END-FE]
+・About [COL01]Combining Ench. Gems and Gemstones[END-FE]
 
 
 
@@ -1774,8 +1774,7 @@ Board.[END-FE]
 //戦闘中の出来事が引き金となって[NLINE]
 //二つのジェムが合成されます。[END-FE]
 After setting the Gems, fighting repeated[NLINE]
-battles will cause the Gems to[NLINE]
-synthesize.[END-FE]
+battles will cause the Gems to synthesize.[END-FE]
 
 
 
@@ -1838,8 +1837,7 @@ as you progress through the game.[NWIN]
 The order in which the Gem pairs are[NLINE]
 synthesized is from top to bottom. When[NLINE]
 the bottom pair has been synthesized, the[NLINE]
-process will start over again from the[NLINE]
-top.[NWIN]
+process will start over again from the top.[NWIN]
 
 If there are several pairs you wish to[NLINE]
 synthesize, please set them in advance.[END-FE]
@@ -1910,9 +1908,8 @@ on the right side on the screen.[NWIN]
 You can check the result in advance by[NLINE]
 moving the cursor to it.[NWIN]
 
-Please note that it's not possible to add[NLINE]
-more than one of the same effect to the[NLINE]
-main Gem.[END-FE]
+Please note that it's not possible to add more[NLINE]
+than one of the same effect to the main Gem.[END-FE]
 
 
 
@@ -1950,10 +1947,10 @@ main Gem.[END-FE]
 //そして合成結果と主ジェムの間で能力に[NLINE]
 //変化が無いと、合成は行われません。[NLINE]
 //注意してください。[END-FE]
-Furthermore, if there is no change in[NLINE]
-effect between the main Gem and the[NLINE]
-synthesis result, the synthesis will not[NLINE]
-be performed.[END-FE]
+Furthermore, if there is no change in effect[NLINE]
+between the main Gem and the synthesis[NLINE]
+result, the synthesis will not be performed.[END-FE]
+
 
 
 
@@ -1964,10 +1961,10 @@ be performed.[END-FE]
 //もし望まない合成をしてしまっても、[NLINE]
 //分解アイテムが手に入れば二つのジェムに[NLINE]
 //再度分解することができます。[END-FE]
-If you are unsatisfied with the[NLINE]
-synthesis result, you can dismantle the[NLINE]
-Gem back into two separate ones in case[NLINE]
-you possess a dismantle item.[END-FE]
+If you are unsatisfied with the synthesis[NLINE]
+result, you can dismantle the Gem back[NLINE]
+into two separate ones in case you[NLINE]
+possess a dismantle item.[END-FE]
 
 
 
@@ -1979,8 +1976,8 @@ you possess a dismantle item.[END-FE]
 //どちらのジェムも同じ能力を持っているならば、[NLINE]
 //その能力のLvが強化されます。[END-FE]
 If both Enchanted Gems you would to[NLINE]
-synthesize have the same effect, the[NLINE]
-level of that effect will increase.[END-FE]
+synthesize have the same effect, the level[NLINE]
+of that effect will increase.[END-FE]
 
 
 
@@ -2084,12 +2081,12 @@ level of that effect will increase.[END-FE]
 //
 //また、能力が上限に達している場合は[NLINE]
 //強化がおきません。[END-FE]
-Enhancing can only be done to effects[NLINE]
-that have levels. The new level is the[NLINE]
-highest level +1.[NWIN]
+Enhancing can only be done to effects that[NLINE]
+have levels. The new level is the highest[NLINE]
+level +1.[NWIN]
 
-Furthermore, if the effect has reached[NLINE]
-its maximum level, it won't be enhanced[NLINE]
+Furthermore, if the effect has reached its[NLINE]
+maximum level, it won't be enhanced[NLINE]
 further.[END-FE]
 
 
@@ -2191,8 +2188,8 @@ result will occur. (Nothing will happen if[NLINE]
 you swap the position of these two Gems).[NWIN]
 
 A Gem's level might increase, you might[NLINE]
-obtain an item, or you might obtain[NLINE]
-an unforeseen effect.[NWIN]
+obtain an item, or you might obtain an[NLINE]
+unforeseen effect.[NWIN]
 
 However, the result that is most likely to[NLINE]
 occur is determined by the type of Gemstone.[NLINE]
@@ -2224,7 +2221,7 @@ No response...[END-FE]
 Slimes have settled in the sewers[NLINE]
 of this city because of the industrial[NLINE]
 waste water that is coming out of the[NLINE]
-factories.[NLINE]
+factories.[NWIN]
 
 Normal attacks on Slimes are hardly[NLINE]
 effective. You can get rid of them[NLINE]
@@ -2718,7 +2715,6 @@ Come on, give it back![END-FE]
 [CHAR0700][V3800]
 Oh wow, you really gave it back.[NLINE]
 Er, I mean, I wasn't doubting you or anything![NWIN]
-
 
 [CHAR0700][V3900]
 Anyway, I suppose I'll stop by the[NLINE]
@@ -7471,7 +7467,6 @@ with those around me?[NWIN]
 
 [CH.FACE:Close-Eyes][CH.FACE:Sad]
 You do not understand at all...[NWIN]
-
 
 ...When the time to fulfill my duty comes,[NLINE]
 and I allowed others to get close to me...[NLINE]
