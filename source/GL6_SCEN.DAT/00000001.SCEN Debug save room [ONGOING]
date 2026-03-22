@@ -2911,8 +2911,9 @@ Door to Anywhere～[END-FE]
 #W32($6900)
 //簡易移動なので、イベントが壊れる危険あり。[NLINE]
 //行けない時に、行けない場所へ行くのは危険。[END-FE]
-This is a simple jump, so there is a risk of breaking events.[NLINE]
-Going to places you shouldn't can be dangerous.[END-FE]
+This is a simple jump, so there is a risk[NLINE]
+of breaking events. Going to places you[NLINE]
+shouldn't can be dangerous.[END-FE]
 
 
 
