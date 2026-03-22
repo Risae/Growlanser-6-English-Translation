@@ -17,15 +17,15 @@ You can edit the "texture" however you want to fit "Treasure Scout".
 */
 
 .orga 0x67C
-	.byte 0x25
+	.word 0x25
 
 .orga 0x684
-	.byte 0x74
+	.word 0x74
 
 .orga 0x68C
-	.byte 0x56
+	.word 0x56
 
 .orga 0x694
-	.byte 0x74
+	.word 0x74
 
 .close

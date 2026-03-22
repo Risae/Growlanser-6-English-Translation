@@ -12,7 +12,7 @@ TextureID -> (-1 in this case, cuz it's only text)
 In-game X ?
 In-game Y
 
-ELF Code that grabs the value of the Y position of 1st and 2nd string: 
+ELF Code that grabs the value of the Y position of 1st and 2nd string:
 Location: 0x22548C (ingame 0x32540C)
 [080060C6] - lwc1 f00,0x8(s3)
 
@@ -25,9 +25,9 @@ The Y Position of the 1st and 2nd string will be switched:
 */
 
 .orga 0x15A0
-	.byte 0x25
+	.word 0x25
 
 .orga 0x15D8
-	.byte 0x0D
+	.word 0x0D
 
 .close

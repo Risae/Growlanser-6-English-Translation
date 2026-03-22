@@ -28,14 +28,14 @@ Base +
 */
 
 .orga 0x744
-    .byte 0x11 // STEREO moved to the left, orig: 0x18
+    .word 0x11 // STEREO moved to the left, orig: 0x18
 
 
 .orga 0xA54
-    .byte 0x05 // REORDER moved to the left, orig: 0x26
+    .word 0x05 // REORDER moved to the left, orig: 0x26
 
 
 .orga 0xAFC
-    .byte 0x5D // OFF moved to the left, orig: 0x61 - all the other ones are already on 5D and this is a "bug" from the developers
+    .word 0x5D // OFF moved to the left, orig: 0x61 - all the other ones are already on 5D and this is a "bug" from the developers
 
 .close
