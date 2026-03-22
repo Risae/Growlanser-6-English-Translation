@@ -5,8 +5,8 @@
 
 */
 
-.orga 0x15A0
-	.byte 0x25
+// .orga 0x15A0
+// 	.byte 0x25
 
 
 .close

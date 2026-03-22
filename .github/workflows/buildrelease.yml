@@ -731,6 +731,12 @@ jobs:
           cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
           Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000566.asm"
 
+          Write-Host "`n[i] Patching 00000568.mss"
+          Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000568.mss Sound Config Window\00000568.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000568.asm"
+          Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000568.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000568.mss"
+          cmd.exe /C "$Env:GITHUB_WORKSPACE\build\01-armips\armips.exe" -root "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT" "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000568.asm"
+          Remove-Item -Force -Verbose "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000568.asm"
+
           Write-Host "`n[i] Patching 00000569.mss"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\source\GL6_FILE.DAT\00000569.mss Yurii Main Menu text box coord\00000569.asm" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.asm"
           Copy-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\05-original_files\GL6_FILE DAT\00000569.mss" -Destination "$Env:GITHUB_WORKSPACE\build\05-build\GL6_FILE DAT\00000569.mss"
