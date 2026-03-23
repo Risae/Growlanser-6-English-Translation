@@ -409,7 +409,7 @@ it carelessly, it may explode.[END-FE]
 [CHAR0000][V1700]
 Looks like you've woken[NLINE]
 up! Good thing you[NLINE]
-didn't end up up dying,[NLINE]
+didn't end up dying,[NLINE]
 huh?[END-FE]
 
 
@@ -1084,7 +1084,7 @@ What's the matter?[END-FE]
 //モノポリス社の研究所だよ。[END-FE]
 //Doctor\\
 [CHAR0000][V0D00]
-This is Lenox Research Facility.[NLINE]
+This is Lennox Research Facility.[NLINE]
 It's an institute owned by Monopolis.[END-FE]
 
 
@@ -1371,7 +1371,7 @@ Would you like to save?[END-FE]
 #W32($5920)
 //レノックス研究所[END-FE]
 //Save Title\\
-Lenox Facility[END-FE]
+Lennox Facility[END-FE]
 
 
 
@@ -1701,7 +1701,7 @@ Shuweizer, wasn't it?[END-FE]
 ...Huh?[NWIN]
 
 Surely they would have told me if[NLINE]
-if he had a easily recognizable tattoo[NLINE]
+he had an easily recognizable tattoo[NLINE]
 on his face...[NWIN]
 
 [CHAR0200][V0400]
@@ -1764,7 +1764,7 @@ Shuweizer could be?[END-FE]
 [CHAR0200][V0900]
 ...Huh?[NLINE]
 But surely they would have told[NLINE]
-me if he had a easily recognizable[NLINE]
+me if he had an easily recognizable[NLINE]
 tattoo on his face...[NWIN]
 
 [CHAR0200][V0A00]
@@ -1848,7 +1848,7 @@ Nice to meet you![END-FE]
 //Wendy\\
 [CHAR0200][V0E00]
 Not the friendly type? Well, I'll just[NLINE]
-have take a peek at your name tag, then.[NLINE]
+have to take a peek at your name tag, then.[NLINE]
 Hmm, seems your name is... [MainCharName]?[END-FE]
 
 
@@ -2124,7 +2124,7 @@ those terrorists![END-FE]
 //解除出来そうもない。[END-FE]
 //System Message\\
 It's a type of bomb you've never seen[NLINE]
-before. It can't be diffused.[END-FE]
+before. It can't be defused.[END-FE]
 
 
 
@@ -2136,7 +2136,7 @@ before. It can't be diffused.[END-FE]
 //解除出来そうもない。[END-FE]
 //System Message\\
 It's a type of bomb you've never seen[NLINE]
-before. It can't be diffused.[END-FE]
+before. It can't be defused.[END-FE]
 
 
 
@@ -2641,7 +2641,7 @@ from your last save or load a different one.[END-FE]
 //Wendy\\
 [CHAR0300][V2100]
 You know, I remember that- No, I have a[NLINE]
-hunch that there will an enemy attack[NLINE]
+hunch that there will be an enemy attack[NLINE]
 on this facility...[END-FE]
 
 
@@ -3288,7 +3288,7 @@ Yes, I had a hunch![END-FE]
 //予感か…。[END-FE]
 //Shuweizer\\
 [CHAR0300][V4300]
-A hunch....[END-FE]
+A hunch...[END-FE]
 
 
 
@@ -3413,7 +3413,7 @@ this world will fall apart...[END-FE]
 //内紛が起こっていた。[END-FE]
 //System Message\\
 [CHARC900][V0000]
-This is the Esgrenz continent.[NLINE]
+This is the Esgrentz continent.[NLINE]
 In the south lies the [COL01]Kingdom of Hingistan[COL00].[NLINE]
 Recently, a rebellion has been launched by[NLINE]
 those who wish to free the country from[NLINE]
@@ -3455,7 +3455,7 @@ regions.[END-FE]
 Its western neighbor [COL09]Fomeros[COL00], sent troops[NLINE]
 in order to put an end to the conflict.[NLINE]
 This resulted in a three-way conflict[NLINE]
-between Hingistan, Formeros, and the[NLINE]
+between Hingistan, Fomeros, and the[NLINE]
 rebels.[END-FE]
 
 
@@ -3491,7 +3491,7 @@ conflict areas.[END-FE]
 //System Message\\
 [CHARC900][V0400]
 Two days have passed since the attack[NLINE]
-on the Lenox Research Facility...[NLINE]
+on the Lennox Research Facility...[NLINE]
 [MainCharName] has been assigned[NLINE]
 security duty in the city of [COL01]Makinus[COL00],[NLINE]
 home to the Monopolis Headquarters.[END-FE]

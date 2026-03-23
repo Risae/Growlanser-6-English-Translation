@@ -266,7 +266,7 @@ Inside Tunnel (North of Juwaina Village)[END-FE]
 //POINTER #25 @ $4204 - STRING #25 @ $4549
 #W32($4204)
 //戦闘ゼオンをスキップする？[END-FE]
-戦闘ゼオンをスキップする？[END-FE]
+Do you want to skip the battle?[END-FE]
 
 
 
@@ -356,7 +356,7 @@ You hurry and escape as well![END-FE]
 //これがポサヤだ！[END-FE]
 //Randall\\
 [CHAR2603][VCF00]
-...This is... Yes, there's[NLINE]
+...This is... Yes, there's no[NLINE]
 mistaking it! This is Posaya![END-FE]
 
 
@@ -459,7 +459,7 @@ Please tell me where I should check.[END-FE]
 //調べる場所を変更したかったら[NLINE]
 //声をかけてくれ。[END-FE]
 //Randall\\
-If you would like to change place[NLINE]
+If you would like to change the place[NLINE]
 you would like me to search, please[NLINE]
 call me over.[END-FE]
 
@@ -576,7 +576,7 @@ We haven't collected Posaya yet![NLINE]
 //ランディと合流してからにしよう。[NLINE]
 //　[END-FE]
 [NLINE]
-ランディと合流してからにしよう。[NLINE]
+Let's join with Randy first.[NLINE]
 [END-FE]
 
 
@@ -589,7 +589,7 @@ We haven't collected Posaya yet![NLINE]
 //まだポサヤを採取していない！[NLINE]
 //　[END-FE]
 [NLINE]
-まだポサヤを採取していない！[NLINE]
+We haven't collected Posaya yet![NLINE]
 [END-FE]
 
 

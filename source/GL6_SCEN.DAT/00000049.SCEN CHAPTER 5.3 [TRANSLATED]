@@ -383,7 +383,7 @@ Felmentia? Then we still have a long way[NLINE]
 to go.[NWIN]
 
 [CHAR1900][V1B00]
-On the way lies a villag [COL01]Totuwa[COL00].[NLINE]
+On the way lies a village called [COL01]Totuwa[COL00].[NLINE]
 It might be a good idea to head there[NLINE]
 first.[END-FE]
 
@@ -505,7 +505,7 @@ Alright, let's be off.[END-FE]
 //POINTER #42 @ $6DC8 - STRING #42 @ $77C4
 #W32($6DC8)
 //もう出発するかい？[END-FE]
-Would you like to depart already?[[END-FE]
+Would you like to depart already?[END-FE]
 
 
 
@@ -626,7 +626,7 @@ now we're in the snowy north, huh?[END-FE]
 [CHAR1800][V0100]
 It's so cold... Do we have to[NLINE]
 pass through this environment[NLINE]
-for a long time[END-FE]
+for a long time?[END-FE]
 
 
 
@@ -639,7 +639,7 @@ for a long time[END-FE]
 //船着き場があります。[END-FE]
 //Yurii\\
 [CHAR1800][V0200]
-There's ferry pier west of here.[END-FE]
+There's a ferry pier west of here.[END-FE]
 
 
 
@@ -1244,7 +1244,7 @@ That guy had it.[END-FE]
 //取り出すことができる宝珠だという話です。[END-FE]
 [CHAR1800][V1800]
 The story goes that it's a gem[NLINE]
-that can draw out and and gather[NLINE]
+that can draw out and gather[NLINE]
 the power flowing in the earth.[END-FE]
 
 
@@ -1564,7 +1564,7 @@ problem...[END-FE]
 //龍玉のことだと思う？[END-FE]
 [CHAR1900][V0500]
 By the way, about what we[NLINE]
-discussed before....[NLINE]
+discussed before...[NLINE]
 Do you think the Dragon Orb[NLINE]
 is what Monopolis is looking[NLINE]
 for?[END-FE]
@@ -1622,7 +1622,7 @@ I knew it.[NWIN]
 [CH.FACE:Normal][CHAR1900][V0700]
 But based on what we heard earlier,[NLINE]
 someone named Ziekwalt seemed to have[NLINE]
-took it away.[NWIN]
+taken it away.[NWIN]
 
 [CHAR1900][V0800]
 However, Ziekwalt ended up fighting[NLINE]
@@ -1660,7 +1660,7 @@ I see. I think they're after it, though.[NWIN]
 [CHAR1900][V0B00]
 But based on what we heard earlier,[NLINE]
 someone named Ziekwalt seemed to have[NLINE]
-took it away.[NWIN]
+taken it away.[NWIN]
 
 [CHAR1900][V0C00]
 However, Ziekwalt ended up fighting[NLINE]
@@ -1692,7 +1692,7 @@ we won't end up sinking.[END-FE]
 //なぁ、あんた、[NLINE]
 //ここに来る前はどこで何をしていたんだ？[END-FE]
 [CHAR1900][V0E00]
-Hey, you! Where were you doing[NLINE]
+Hey, you! What were you doing[NLINE]
 before you came here?[END-FE]
 
 
@@ -1752,7 +1752,7 @@ But what were you doing before that?[NLINE]
 //確かめようもないな…。[END-FE]
 [CHAR1900][V1000]
 Now that you mention it, you did[NLINE]
-you lost your memory.[NWIN]
+say you lost your memory.[NWIN]
 
 [CHAR1900][V1100]
 ...Well, in that case, I can't[NLINE]
@@ -1803,7 +1803,7 @@ journey may be over...[END-FE]
 //POINTER #144 @ $6F60 - STRING #144 @ $8D7F
 #W32($6F60)
 //・旅の目的を聞く[END-FE]
-・Ask what is the purpose of his journey is[END-FE]
+・Ask what the purpose of his journey is[END-FE]
 
 
 
@@ -2020,7 +2020,7 @@ We help to improve people's lives...[END-FE]
 [CHAR1A00][V0800]
 If that's so, then you don't need to[NLINE]
 seek the Dragon Orb, isn't that right?[NLINE]
-...What are planning to do!?[END-FE]
+...What are you planning to do!?[END-FE]
 
 
 

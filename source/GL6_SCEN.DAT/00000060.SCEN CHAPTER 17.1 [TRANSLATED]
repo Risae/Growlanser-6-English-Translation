@@ -153,7 +153,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #13 @ $3354 - STRING #13 @ $3557
 #W32($3354)
 //[COL01]ラナの実[COL00]を手に入れた！[END-FE]
-You obtained [COL01]Rana Fruit![COL00]![END-FE]
+You obtained [COL01]Rana Fruit[COL00]![END-FE]
 
 
 
@@ -213,7 +213,7 @@ very much, Dr. Randall.[END-FE]
 I will return to Juwaina. If you[NLINE]
 have any troubles, please come[NLINE]
 visit me. I'll help you as much[NLINE]
-as I can. Well then, until we'll[NLINE]
+as I can. Well then, until we[NLINE]
 meet again![END-FE]
 
 
