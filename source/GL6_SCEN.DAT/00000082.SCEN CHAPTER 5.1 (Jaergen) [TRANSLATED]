@@ -617,7 +617,7 @@ If you combine a Ruby with an Enchanted Gem,[NLINE]
 a possible effect is that your attack-type[NLINE]
 abilities will get stronger.[NWIN]
 
-Gemstone cause various effects. If you[NLINE]
+Gemstones cause various effects. If you[NLINE]
 have an excess of Gemstones in your inventory,[NLINE]
 why not try experimenting?[END-FE]
 
@@ -829,8 +829,8 @@ Could I try making you a little something?[END-FE]
 //紺色の布があったから、[NLINE]
 //それで作ってみたわ。[END-FE]
 //Tailor\\
-Here you go. I made it out[NLINE]
-some navy blue fabric I had laying[NLINE]
+Here you go. I made it out of[NLINE]
+some navy blue fabric I had lying[NLINE]
 around.[END-FE]
 
 
@@ -866,8 +866,8 @@ Could I try making you a little something?[END-FE]
 //はい、これ。[NLINE]
 //緑色の布があったから、[NLINE]
 //それで作ってみたわ。[END-FE]
-Here you go. I made it out[NLINE]
-some green fabric I had laying[NLINE]
+Here you go. I made it out of[NLINE]
+some green fabric I had lying[NLINE]
 around.[END-FE]
 
 
@@ -891,12 +891,12 @@ You obtained a [COL01]Thin Green Kimono[COL00]![END-FE]
 //こういうと自慢しているようですが、[NLINE]
 //人形の服を作り慣れた私にしか無理でしょうね。[END-FE]
 //Tailor\\
-Hmm? This seems to be a a pattern paper for[NLINE]
+Hmm? This seems to be a pattern paper for[NLINE]
 human clothes. And the design is so[NLINE]
 detailed...[NWIN]
 
 I don't mean to brag, but since I'm so accustomed[NLINE]
-to making dolls clothes, I'm the only one[NLINE]
+to making doll's clothes, I'm the only one[NLINE]
 who is able to pull off making this for your[NLINE]
 fairy.[END-FE]
 
@@ -1233,7 +1233,7 @@ But what is a PMB researcher doing here?[END-FE]
 //[CH.FACE:Normal][CHAR1600][V1700]
 //では屋敷へどうぞ。[END-FE]
 [CHAR1600][V1400]
-The Admonisher fell after the the Dragon[NLINE]
+The Admonisher fell after the Dragon[NLINE]
 Orb was stolen. The PMB can't do anything[NLINE]
 right now, so it was decided to disband[NLINE]
 the organization.[NWIN]
@@ -1548,7 +1548,7 @@ Feel free to stop by again.[END-FE]
 //旦那様はグランゲイル国民ですが、[NLINE]
 //この地のネイラーンの民のことを[NLINE]
 //真剣に考えてくれます。[END-FE]
-Our master hails from Grangales,[NLINE]
+Our master hails from Grangale,[NLINE]
 but he truly looks out for the[NLINE]
 citizens of Neylern.[END-FE]
 
@@ -1623,7 +1623,7 @@ How are the results?[END-FE]
 Excellent.[NWIN]
 
 [CHAR1600][V2400]
-Alright let's head west. We've heard[NLINE]
+Alright, let's head west. We've heard[NLINE]
 from the locals that there is a tunnel[NLINE]
 that passes underneath the mountains[NLINE]
 to the west.[NWIN]
@@ -1741,7 +1741,7 @@ Where will you go?[END-FE]
 //どこと決まってはいないんだ。[NLINE]
 //海に行ったり、森に行ったりね。[END-FE]
 I'll be going on a sketching trip, so[NLINE]
-I don't have decideded yet.[NLINE]
+I haven't decided yet.[NLINE]
 Maybe to the sea or to the forest.[END-FE]
 
 
@@ -1757,7 +1757,7 @@ Maybe to the sea or to the forest.[END-FE]
 I see.[NWIN]
 
 If you make another good[NLINE]
-painting, please it to me.[END-FE]
+painting, please show it to me.[END-FE]
 
 
 
@@ -1791,7 +1791,7 @@ Take care.[END-FE]
 #W32($5D48)
 //お客様、ご用の際は[NLINE]
 //私にお申し付け下さい。[END-FE]
-Please tell if you need anything,[NLINE]
+Please tell me if you need anything,[NLINE]
 sir.[END-FE]
 
 
@@ -2073,7 +2073,7 @@ past, are quite exhausted.[END-FE]
 #W32($5DA8)
 //そうでしたか…。[NLINE]
 //本当にみなさんには何と言って良いか…。[END-FE]
-I see..... I honestly don't[NLINE]
+I see... I honestly don't[NLINE]
 know how I could ever thank you...[END-FE]
 
 
@@ -2100,7 +2100,7 @@ Anyway, do you need me for something?[END-FE]
 #W32($5DB0)
 //実はある物の記憶を[NLINE]
 //読んでいただきたいのですが…。[END-FE]
-Actually we'd like you to[NLINE]
+Actually, we'd like you to[NLINE]
 read the memories of an object...[END-FE]
 
 
@@ -2247,7 +2247,7 @@ memories.[END-FE]
 //そういう種は平和維持軍の研究員が[NLINE]
 //興味を持つかもね！[NLINE]
 //見せてみたらどうかな？[END-FE]
-By the way, that's you an interesting[NLINE]
+By the way, that's quite an interesting[NLINE]
 seed you got there. It smells artificial.[NWIN]
 
 Researchers from the PMB might be[NLINE]
@@ -2389,7 +2389,7 @@ the Queen itself.[END-FE]
 //用済みとなった巫女は抹殺する。[NLINE]
 //後はインフィニトー様を捜すことにする。[END-FE]
 Another Earth Priestess has appeared.[NLINE]
-I followed her I to discover the[NLINE]
+I followed her to discover the[NLINE]
 whereabouts of the Dragon Orb. I[NLINE]
 then discovered that Lord Infinitor[NLINE]
 has already been released from the[NLINE]
@@ -2428,7 +2428,7 @@ Monopolis. I met with Lord Infinitor when he was alone.[NWIN]
 
 Sadly, he reprimanded me for being too late.[NLINE]
 It indeed has been 1,800 years since Lord[NLINE]
-Infinitor was sealed. For my next task, I were[NLINE]
+Infinitor was sealed. For my next task, I was[NLINE]
 to return to the sealed continent and protect[NLINE]
 the Queen until he called for me again.[NLINE]
 That is how he thanked me.[END-FE]
@@ -2679,7 +2679,7 @@ it's not unpleasant.[END-FE]
 //Neilis Memory\\
 I finally finished restoring the[NLINE]
 knife. I made the grip clean and[NLINE]
-re-sharpened the blade. Now all[NLINE]
+re-sharpened the blade. Now all I[NLINE]
 have to do is give this to him. However,[NLINE]
 he has not yet returned from yesterday's[NLINE]
 campaign. What's this? The warm feeling[NLINE]
@@ -2713,7 +2713,7 @@ the adversary.[NWIN]
 However, the troops led by that[NLINE]
 Earth Priestess were certainly stronger[NLINE]
 than expected. Could it be that...?[NLINE]
-If that's true, I never forgive that[NLINE]
+If that's true, I will never forgive that[NLINE]
 Earth Priestess! I would kill her[NLINE]
 with these bare hands![END-FE]
 
@@ -2911,7 +2911,7 @@ Hours passed after escape from ocean:[NLINE]
 Target discovered... Commander 13 clone...[NLINE]
 ...Elimination complete...[NLINE]
 Periodic maintenance overdue.[NLINE]
-Further poor mainteance will hinder[NLINE]
+Further poor maintenance will hinder[NLINE]
 activities. Requiring urgent maintenance[NLINE]
 by technician.[END-FE]
 
@@ -3094,7 +3094,7 @@ Failed to capture Earth Priestess.[NLINE]
 //Neilis Memory\\
 Optical system malfunction...[NLINE]
 Conversation with unknown individual...[NLINE]
-Cognitive system stabilizing....[NLINE]
+Cognitive system stabilizing...[NLINE]
 ...?[NLINE]
 ...Do I feel at ease...?[NLINE]
 For the first time in 2,000 years,[NLINE]
@@ -3188,7 +3188,7 @@ However, those painful memories are[NLINE]
 also accompanied by happiness...[NLINE]
 What I'm feeling now and the happiness[NLINE]
 I felt back then are the same.[NLINE]
-Yes, they're same...I will give this[NLINE]
+Yes, they're the same...I will give this[NLINE]
 knife to him.[NLINE]
 If I do that, I might learn the true[NLINE]
 nature of this feeling.[NLINE]
@@ -3209,11 +3209,11 @@ I long for that moment...[END-FE]
 //わかっていない。[NLINE]
 //それが、人を好きになるという[NLINE]
 //気持ちなのに…。[END-FE]
-She was human....[NLINE]
+She was human...[NLINE]
 And she didn't understand the[NLINE]
 true nature of the emotions she was[NLINE]
 feeling. The feeling of falling in[NLINE]
-in love with someone....[END-FE]
+love with someone...[END-FE]
 
 
 
@@ -3286,7 +3286,7 @@ whatever results it gives you.[END-FE]
 //乱暴だって言うのか？[NLINE]
 //矛盾しているな。[END-FE]
 //Merklich\\
-"It's difficult to continue living."[NLINE]
+"It's difficult to continue living.[NLINE]
 I don't want to think about anything."[NLINE]
 Wasn't it you who said those things?[NWIN]
 
@@ -3417,7 +3417,7 @@ you shouldn't give up.[END-FE]
 //花言葉は『希望』そして『忘れられない人』[END-FE]
 //Anita\\
 In order to not forget about that[NLINE]
-day, I brought back flower he[NLINE]
+day, I brought back the flower he[NLINE]
 held out to me and made a bookmark[NLINE]
 out of it.[NWIN]
 
@@ -3534,7 +3534,7 @@ Here, use this.[END-FE]
 //Merklich\\
 [CH.FACE:Open-Eyes]
 ...Ah, sorry...[NLINE]
-Thanks for lending me.[END-FE]
+Thanks for lending it to me.[END-FE]
 
 
 
@@ -3588,7 +3588,7 @@ Today a shocking incident happened.[NLINE]
 Even as I write this, I still feel angry[NLINE]
 when I think about it.[NWIN]
 
-I happened this afternoon. I forgot[NLINE]
+It happened this afternoon. I forgot[NLINE]
 what led up to it, but suddenly[NLINE]
 he said the following:[END-FE]
 
@@ -3601,7 +3601,7 @@ he said the following:[END-FE]
 //たかが２０年にも満たない人生だろ？[NLINE]
 //…くだらんな…。[END-FE]
 //Merklich\\
-But you're not even 20 years old, aren't you?[NLINE]
+But you're not even 20 years old, are you?[NLINE]
 ...That's nothing...[END-FE]
 
 
@@ -3631,7 +3631,7 @@ But you're not even 20 years old, aren't you?[NLINE]
 Yes, nothing.[NWIN]
 
 Don't be pessimistic just because[NLINE]
-you're life is tough now. You still[NLINE]
+your life is tough now. You still[NLINE]
 have a future ahead of you, don't you?[NLINE]
 So live for the future.[END-FE]
 
@@ -3707,7 +3707,7 @@ Aah, so I do still have hope for the future...[NLINE]
 He is a special person for making me realize that.[NWIN]
 
 And someday, I want to ask him why he had[NLINE]
-such sad expression on his face that time.[NLINE]
+such a sad expression on his face that time.[NLINE]
 Those were my thoughts...[END-FE]
 
 

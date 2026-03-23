@@ -236,9 +236,9 @@ It doesn't seem to work because[NLINE]
 //セーブデータの上書きにはご注意下さい。[END-FE]
 [[COL01]Warning[COL00]][NLINE]
 Because there will be repeated battles[NLINE]
-from here on out, you may have experience[NLINE]
-difficulty in proceeding the game. Please[NLINE]
-be aware of this when overwtiting your[NLINE]
+from here on out, you may have difficulty[NLINE]
+proceeding through the game. Please[NLINE]
+be aware of this when overwriting your[NLINE]
 save data.[END-FE]
 
 
@@ -294,7 +294,7 @@ Do you want to use the elevator?[END-FE]
 #W32($7B88)
 //んわ、うるさいな…。[NLINE]
 //眠れやしない。[END-FE]
-*Yawn* What's that noise..?[NLINE]
+*Yawn* What's that noise...?[NLINE]
 I can't sleep like this.[END-FE]
 
 
@@ -606,7 +606,7 @@ whom I left the castle. His name[NLINE]
 is Beckel.[NWIN]
 
 [CHAR4B00][V0E00]
-The other person attendant was[NLINE]
+The other attendant was[NLINE]
 called Meine.[NWIN]
 
 [CHAR4B00][V0F00]
@@ -652,7 +652,7 @@ also be in danger, princess!"[END-FE]
 //[CHAR4B00][V1300]
 //それでシザーズ村に逃げたのですね。[END-FE]
 [CHAR4B00][V1300]
-So that's when you fled to Schizarz Village.[END-FE]
+So, that's when you fled to Schizarz Village.[END-FE]
 
 
 
@@ -802,7 +802,7 @@ Where did you part with Meine?[END-FE]
 We parted in Leystan...[NWIN]
 
 [CHAR4B00][V1F00]
-But it's been already more than[NLINE]
+But it's already been more than[NLINE]
 one year, and I've been to Leystan[NLINE]
 many times...[END-FE]
 
@@ -933,7 +933,7 @@ can open it with ID card A.[END-FE]
 #W32($7C40)
 //動力が通っておらず、[NLINE]
 //動かないようだ。[END-FE]
-It's doesn't seem to be[NLINE]
+It doesn't seem to be[NLINE]
 powered.[END-FE]
 
 
@@ -1052,7 +1052,7 @@ army. These goods here are my[NLINE]
 products![NWIN]
 
 I will sell goods to you even if you[NLINE]
-aren't from Hingistani army! Please[NLINE]
+aren't from the Hingistani army! Please[NLINE]
 just spare my life![END-FE]
 
 
@@ -1065,7 +1065,7 @@ just spare my life![END-FE]
 //商品をお売りしますから、[NLINE]
 //命ばかりはお助けください！[END-FE]
 I will sell goods to you even if you[NLINE]
-aren't from Hingistani army! Please[NLINE]
+aren't from the Hingistani army! Please[NLINE]
 just spare my life![END-FE]
 
 
@@ -1545,7 +1545,7 @@ Will you stop the energy supply?[END-FE]
 //右供給ユニットが停止しました。　　[NLINE]
 //右腕砲塔のエネルギーの供給率低下。[END-FE]
 Right supply unit has been shut down.[NLINE]
-Left cannon tower's energy supply[NLINE]
+Right cannon tower's energy supply[NLINE]
 decreasing.[END-FE]
 
 
@@ -1723,7 +1723,7 @@ them smoke them out.[END-FE]
 //エネルギーがまた来ていないのか。[NLINE]
 //…行くか。[END-FE]
 What's going on?[NLINE]
-There's almost no power.[[NLINE]
+There's almost no power.[NLINE]
 ...I'll go take a look.[END-FE]
 
 
@@ -2200,7 +2200,7 @@ Are those... Monopolis soldiers...!?[END-FE]
 //なんだと!?[NLINE]
 //こいつらの仲間か！[END-FE]
 [CHAR4C00][V0500]
-What!? Allies of them!?[END-FE]
+What!? Allies of theirs!?[END-FE]
 
 
 
@@ -2424,7 +2424,7 @@ It looks like this will disable the barrier.[END-FE]
 #W32($7E54)
 //よし！[NLINE]
 //バリアが解除されたわ！[END-FE]
-Alright! I've lifted barrier![END-FE]
+Alright! I've lifted the barrier![END-FE]
 
 
 
@@ -2508,7 +2508,7 @@ try jumping down from somewhere.[END-FE]
 //気をつけて行動しないと、[NLINE]
 //孤立してしまう恐れがある。[END-FE]
 They have a barrier control device on[NLINE]
-that side! If aren't careful, one of[NLINE]
+that side! If we aren't careful, one of[NLINE]
 us might end up isolated.[END-FE]
 
 
@@ -2521,7 +2521,7 @@ us might end up isolated.[END-FE]
 //向こうでもバリアが制御できるみたいね。[NLINE]
 //誰かが、下でバリアを制御した方がいいみたい。[END-FE]
 Aah! It closed![NLINE]
-It's seems the barrier can be controlled[NLINE]
+It seems the barrier can be controlled[NLINE]
 from over there as well. It seems someone[NLINE]
 should operate the barrier below.[END-FE]
 
@@ -2534,7 +2534,7 @@ should operate the barrier below.[END-FE]
 //向こう側にも、バリアの制御ができるみたいだな。[NLINE]
 //気をつけないと孤立させられるかもしれないぞ。[END-FE]
 It seems they can control the barrier on their[NLINE]
-side as well. If we aren't careful, one of[NLINE]
+side as well. If we aren't careful, one of us[NLINE]
 might end up isolated.[END-FE]
 
 
@@ -2741,7 +2741,7 @@ Now it won't be able to move[NLINE]
 any time soon.[NWIN]
 
 [CHAR4C00][V1D00]
-However if the giant is recovered by[NLINE]
+However, if the giant is recovered by[NLINE]
 Monopolis, they'll surely find[NLINE]
 a way to operate it.[END-FE]
 

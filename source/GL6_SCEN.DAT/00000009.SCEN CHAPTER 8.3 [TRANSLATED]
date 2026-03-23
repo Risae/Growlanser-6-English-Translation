@@ -57,7 +57,7 @@ Shuweizer[END-FF]
 #W32($6330)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・One of your companionsr dies[NLINE]
+・One of your companions dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -280,7 +280,7 @@ that big?[END-FE]
 //Hofman\\
 [CHARCE00][V2300]
 What did I do...?[NLINE]
-hmmm...[END-FE]
+Hmmm...[END-FE]
 
 
 
@@ -513,10 +513,10 @@ how it is with brothers, they always[NLINE]
 try to compete with each other.[NWIN]
 
 [CHARCE00][V3300]
-We were rivals moreso than brothers.[NWIN]
+We were rivals more so than brothers.[NWIN]
 
 [CHARCE00][V3400]
-I was determined to not to be[NLINE]
+I was determined not to be[NLINE]
 outdone by him, so I did all[NLINE]
 kinds of reckless things.[END-FE]
 
@@ -851,7 +851,7 @@ research center first.[END-FE]
 //レイスタンの宿に寄ってくれ。[NLINE]
 //じいさんを巫女に会わせてやりたいんだ。[END-FE]
 //Rukias\\
-Let's stop by at the inn in Leystan.[NLINE]
+Let's stop by the inn in Leystan.[NLINE]
 I want to let the old man meet the[NLINE]
 Shrine Maiden.[END-FE]
 
@@ -896,7 +896,7 @@ to make the Fomeros troops retreat![END-FE]
 //レイスタンの宿に寄ってくれ。[NLINE]
 //あんたに会わせたい人がいるんだ。[END-FE]
 //Rukias\\
-Let's stop by at the inn in Leystan.[NLINE]
+Let's stop by the inn in Leystan.[NLINE]
 There's someone I want you to meet.[END-FE]
 
 
@@ -981,7 +981,7 @@ not working.[END-FE]
 //レイスタンの宿に寄ってくれ。[NLINE]
 //じいさんを巫女に会わせてやりたいんだ。[END-FE]
 //Rukias\\
-Let's stop by at the inn in Leystan.[NLINE]
+Let's stop by the inn in Leystan.[NLINE]
 I want to let the old man meet the[NLINE]
 Shrine Maiden.[END-FE]
 
@@ -1097,7 +1097,7 @@ What is it?[END-FE]
 //Rukias\\
 [CHAR3E00][V0200]
 There's a survivor from Earth Village[NLINE]
-is this city. Could you meet with[NLINE]
+in this city. Could you meet with[NLINE]
 him?[END-FE]
 
 
@@ -1486,7 +1486,7 @@ she shouldn't have...[NWIN]
 There's a device at the Lennox[NLINE]
 Research Facility that was taken[NLINE]
 from Earth Village. It seems[NLINE]
-she used it to safe me.[END-FE]
+she used it to save me.[END-FE]
 
 
 
@@ -1637,7 +1637,7 @@ possess.[NWIN]
 [CHARCA00][V0B00]
 Which means that once my father's[NLINE]
 body becomes unusable, he will[NLINE]
-fist and foremost try to possess[NLINE]
+first and foremost try to possess[NLINE]
 mine.[NWIN]
 
 [CHARCA00][V0C00]
@@ -1876,7 +1876,7 @@ We'll protect the workers![END-FE]
 //人が通れるだけの伐採と言っても、[NLINE]
 //けっこう切らないといけないからな。[END-FE]
 //Man\\
-Even cutting away just enough tress so[NLINE]
+Even cutting away just enough trees so[NLINE]
 that people can pass through is still quite[NLINE]
 a lot of work.[END-FE]
 
@@ -1956,7 +1956,7 @@ No sir![END-FE]
 //Yurii\\
 [CHAR6B00][V0000]
 They are cutting a way through the forest.[NLINE]
-Does the Ley Point Tower lay beyond?[END-FE]
+Does the Ley Point Tower lie beyond?[END-FE]
 
 
 
@@ -2021,7 +2021,7 @@ protect everyone![END-FE]
 //・作業員の死亡[NLINE]
 //・警備兵２名以上の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・A workers dies[NLINE]
+・A worker dies[NLINE]
 ・More than two soldiers die[NLINE]
 ・All party members die[END-FE]
 
@@ -2319,7 +2319,7 @@ cleared a path![END-FE]
 //早速奥に進んで、第２段階にあたれ！[END-FE]
 [CHAR6B00][V0D00]
 Good work! Let's advance at once[NLINE]
-and start the next second stage[NLINE]
+and start the second stage[NLINE]
 of the operation!![END-FE]
 
 
@@ -2333,7 +2333,7 @@ of the operation!![END-FE]
 //早速奥に進んで、第２段階にあたれ！[END-FE]
 [CHAR6B00][V0D00]
 Good work! Let's advance at once[NLINE]
-and start the next second stage[NLINE]
+and start the second stage[NLINE]
 of the operation!![END-FE]
 
 
@@ -2430,7 +2430,7 @@ We won't let them![END-FE]
 //・フォメロス軍兵士長の死亡[NLINE]
 //・モノポリス社赤狼隊員の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・Screaper enter the city[NLINE]
+・Screapers enter the city[NLINE]
 ・The Fomeros captain dies[NLINE]
 ・The Red Wolf Unit member dies[NLINE]
 ・All party members die[END-FE]
@@ -2553,7 +2553,7 @@ so I'll have to go now...[END-FE]
 //
 //私は本部に報告があるので、[NLINE]
 //これで失礼する！[END-FE]
-Thank to you as well![NLINE]
+Thanks to you as well![NLINE]
 Because of you, we've managed[NLINE]
 to protect the city![NWIN]
 
@@ -2637,7 +2637,7 @@ The Pollumine tree is glowing...[END-FE]
 //その効果が効かない変種なのでしょうか？[END-FE]
 Don't Pollumine trees have the effect[NLINE]
 of warding off Screapers? Are these[NLINE]
-variants that doesn't have this effect?[END-FE]
+variants that don't have this effect?[END-FE]
 
 
 

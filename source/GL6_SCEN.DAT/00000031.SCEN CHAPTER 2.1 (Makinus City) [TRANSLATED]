@@ -247,7 +247,7 @@ of the headquarters.[END-FE]
 [CHAR5400][V0100]
 It's risky, but we have to go.[NLINE]
 If we're found out by Monopolis, it's[NLINE]
-the end us. Let's proceed carefully.[END-FE]
+the end of us. Let's proceed carefully.[END-FE]
 
 
 
@@ -330,8 +330,8 @@ Wendy has joined your party![NLINE]
 //どこに行くのよ？[NLINE]
 //ルキアス君を待たせているんだから、[NLINE]
 //早く取りに行きましょう！[END-FE]
-Where are you going? Rukias is waiting[NLINE]
-so, let's hurry and pick him up![END-FE]
+Where are you going? Rukias is waiting,[NLINE]
+so let's hurry and pick him up![END-FE]
 
 
 
@@ -489,7 +489,7 @@ I'm just hoping for it to happen...[END-FE]
 //そのときは、工場にでも転属させてもらおうか。[END-FE]
 //Monopolis Soldier\\
 [CHAR0400][V0A00]
-Ha-ha, you're maybe right. I wonder if they'll[NLINE]
+Ha-ha, maybe you're right. I wonder if they'll[NLINE]
 reassign us to a factory job if that happens.[END-FE]
 
 
@@ -561,7 +561,7 @@ the beginning of your last played mission[NLINE]
 battle, but its contents will be deleted[NLINE]
 when power is turned off.[NWIN]
 
-After you saved, choosing Load will allow[NLINE]
+After you save, choosing Load will allow[NLINE]
 you to start over from the inn in case a[NLINE]
 mission battle proves to be too difficult.[NWIN]
 
@@ -605,7 +605,7 @@ must be amazing.[END-FE]
 It seems that terrorism has been on the[NLINE]
 rise lately.[NWIN]
 
-It's a far-way problem for now, but[NLINE]
+It's a far-off problem for now, but[NLINE]
 I can't help but worry that it will[NLINE]
 also reach this city someday.[END-FE]
 
@@ -659,7 +659,7 @@ has attained full control over the company.[END-FE]
 //お兄さんも警備部の人だろう？[NLINE]
 //この町は警備部の人に守られてるから、[NLINE]
 //安心だねぇ！[END-FE]
-You're a security officer too, right mister?[NLINE]
+You're a security officer too, right, mister?[NLINE]
 Because this city is guarded by the people[NLINE]
 from the Guard Corps, we've been super[NLINE]
 safe![END-FE]
@@ -673,7 +673,7 @@ safe![END-FE]
 //でも、テロリストは財閥の施設を[NLINE]
 //ねらってるって話じゃない？[NLINE]
 //だったら、この街が一番危ないんじゃないの？[END-FE]
-But isn't it true that the terroists are[NLINE]
+But isn't it true that the terrorists are[NLINE]
 targeting Monopolis facilities? Doesn't[NLINE]
 that mean that living here is actually[NLINE]
 the most dangerous?[END-FE]
@@ -686,7 +686,7 @@ the most dangerous?[END-FE]
 #W32($6464)
 //だから、これ見よがしな厳重な警備を[NLINE]
 //しているんじゃないか！[END-FE]
-That's why they make a big deal out[NLINE]
+That's why they make a big deal out of[NLINE]
 guarding this place, aren't they?[END-FE]
 
 
@@ -730,7 +730,7 @@ the "Red Wolf Unit"?[NWIN]
 
 Shuweizer likes to wear red, right?[NLINE]
 So, because of his prowess in battle, the[NLINE]
-terrorists, starting referring to him as[NLINE]
+terrorists started referring to him as[NLINE]
 a Red Wolf out of fear.[NWIN]
 
 Before long, he became known to them as[NLINE]
@@ -825,7 +825,7 @@ It's easier to live in than I thought.[END-FE]
 //暮らしに貢献するとともに、[NLINE]
 //利益を上げているんだ。[END-FE]
 By providing the world with [COL01]Pollumine[COL00],[NLINE]
-Monoplis can not only contribute to[NLINE]
+Monopolis can not only contribute to[NLINE]
 a better life, but also make a profit.[END-FE]
 
 
@@ -992,7 +992,7 @@ Please come again.[END-FE]
 //
 //うちの店なら本社スタッフ御用達だよ！[END-FE]
 //Clerk\\
-Sir, If you are heading out, why[NLINE]
+Sir, if you are heading out, why[NLINE]
 don't you adjust your equipment?[NWIN]
 
 We are Monopolis's go-to store for[NLINE]
@@ -1368,7 +1368,7 @@ depends on your equipment.[END-FE]
 The color of the arrows on the far left[NLINE]
 correspond to the arrow displayed in[NLINE]
 front of each piece of equipment. You[NLINE]
-can have one flow for each weapons and[NLINE]
+can have one flow for each weapon and[NLINE]
 armor you have equipped.[END-FE]
 
 
@@ -1658,11 +1658,11 @@ A tree that emits a mysterious light.[END-FE]
 [CHAR0400][V0C00]
 The magical tree [COL01]Pollumine[COL00] absorbs[NLINE]
 pollution from the ground, restoring the[NLINE]
-polluded soil to its former state.[NWIN]
+polluted soil to its former state.[NWIN]
 
 [CHAR0400][V0D00]
 By providing the world with[NLINE]
-[COL01]Pollumine[COL00], Monoplis[NLINE]
+[COL01]Pollumine[COL00], Monopolis[NLINE]
 can not only contribute to a better life,[NLINE]
 but also make a profit.[END-FE]
 
@@ -1745,7 +1745,7 @@ We'll steal the speed boat![END-FE]
 //上への報告は俺の仕事だ。[NLINE]
 //２人には明日までの休息を与える。[END-FE]
 [CHAR0D00][V0000]
-Good job on completeling the[NLINE]
+Good job on completing the[NLINE]
 mission.[NWIN]
 
 [CHAR0D00][V0100]
@@ -1897,7 +1897,7 @@ I've seen a building this big.[END-FE]
 //ここを超える建物ってないんじゃないかな？[END-FE]
 //Wendy\\
 [CHAR3000][V0100]
-There's no other building the whole world,[NLINE]
+There's no other building in the whole world[NLINE]
 that's bigger than this, is there?[END-FE]
 
 
@@ -1926,7 +1926,7 @@ So, what are we gonna do now?[END-FE]
 [CHAR3000][V0300]
 If we can still use the employee identification,[NLINE]
 we could just enter normally and grab it.[NLINE]
-...But Rukias doesn't have a one, does he?[END-FE]
+...But Rukias doesn't have one, does he?[END-FE]
 
 
 
@@ -2116,7 +2116,7 @@ just to seal him?[END-FE]
 I have inherited generations of[NLINE]
 Earth Priestess knowledge. No mention[NLINE]
 has ever been made of a way to destroy[NLINE]
-the Invader. That's why me and my predecessors[NLINE]
+the Invader. That's why my predecessors and I[NLINE]
 have been told to continue sealing him[NLINE]
 inside the Dragon Orb.[END-FE]
 
@@ -2275,7 +2275,7 @@ No way...![END-FE]
 //[CHAR3F00][V1200]
 //どうか、最後までお願いします。[END-FE]
 [CHAR3F00][V1000]
-As Earth Priestess, it is my duty[NLINE]
+As Earth Priestess, it is my duty to[NLINE]
 save this world.[NWIN]
 
 [CHAR3F00][V1100]
@@ -2466,7 +2466,7 @@ What do you mean?[END-FE]
 In order to ride the elevator, we have[NLINE]
 to swipe our identification through[NLINE]
 a machine. But if we want to go to[NLINE]
-the highest where Brandole is, we're[NLINE]
+the highest floor where Brandole is, we're[NLINE]
 also going to need a keycard.[END-FE]
 
 
@@ -2729,9 +2729,9 @@ Supposedly, the barrier around the[NLINE]
 "[COL01]Goatland[COL00]", got destroyed.[NWIN]
 
 [CHAR0D00][V1600]
-Hmm? Why is it called the Sacrificed Land you ask?[NLINE]
+Hmm? Why is it called the Sacrificed Land, you ask?[NLINE]
 I'm not the right person to answer that question...[NLINE]
-How about try and look it up in the[NLINE]
+How about trying to look it up in the[NLINE]
 [COL01]reference room[COL00] later?[NWIN]
 
 [CHAR0D00][V1700]
@@ -2741,7 +2741,7 @@ had been there for thousands of years[NLINE]
 is now broken![NWIN]
 
 [CHAR0D00][V1800]
-For that a reason, a special team has been sent[NLINE]
+For that reason, a special team has been sent[NLINE]
 over there to help Monopolis break into the market.[END-FE]
 
 
@@ -2792,9 +2792,9 @@ sent to [COL01]Yarstill Prison[COL00].[END-FE]
 #W32($66D4)
 //俺たちは新大陸に向かうチームに選ばれたんだ。[NLINE]
 //能力が認められたって事だ！[END-FE]
-We've been selected for the team[NLINE]
-going to the new continent.[NLINE]
-That means our abilities have been recognized![END-FE]
+We've been selected for the team going[NLINE]
+to the new continent. That means our[NLINE]
+abilities have been recognized![END-FE]
 
 
 
@@ -2843,7 +2843,7 @@ Don't board the other one by mistake.[NWIN]
 
 [CHAR0A00][V3300]
 The boat in the back is for sending[NLINE]
-goods to Yarstill prison.[END-FE]
+goods to Yarstill Prison.[END-FE]
 
 
 
@@ -3027,7 +3027,7 @@ thing has happened as of yet.[END-FE]
 //こちらとしては願ったりだけどね。[END-FE]
 [CHAR0D00][V0F00]
 Well, if a peace agreement is reached,[NLINE]
-our company would no longer able to[NLINE]
+our company would no longer be able to[NLINE]
 sell its products, so I'm hoping that[NLINE]
 won't happen.[END-FE]
 
@@ -3276,7 +3276,7 @@ we can get to the prison?[END-FE]
 //　出ているそうですが…。）[END-FE]
 //Disguise King\\
 [CHAR5400][V0800]
-(I don't why you would want to go[NLINE]
+(I don't know why you would want to go[NLINE]
 there, but I can help with that.)[NWIN]
 
 [CHAR5400][V0900]
@@ -3358,7 +3358,7 @@ go and fulfill your objective.)[END-FE]
 //今日もいいお天気ね！[END-FE]
 [CHAR5700][V0000]
 Oh, good day to you.[NLINE]
-What another beautiful day![END-FE]
+What a beautiful day![END-FE]
 
 
 
@@ -3448,7 +3448,7 @@ But when you see the rate at which[NLINE]
 they wipe out terrorists, you can't[NLINE]
 help but be impressed.[NWIN]
 
-I suppose in case of some people,[NLINE]
+I suppose in the case of some people,[NLINE]
 God DOES give with two hands...[END-FE]
 
 
@@ -3505,7 +3505,7 @@ But when you see the rate at which[NLINE]
 they wipe out terrorists, you can't[NLINE]
 help but be impressed.[NWIN]
 
-I suppose in case of some people,[NLINE]
+I suppose in the case of some people,[NLINE]
 God DOES give with two hands...[NWIN]
 
 You're in Security too, right? Maybe[NLINE]
@@ -3663,10 +3663,10 @@ us in if we disguise ourselves, either...[END-FE]
 //変装の意味がないだろうな。[END-FE]
 [CHAR5400][V1000]
 I guess so.[NLINE]
-Even if we did mange to get in and out[NLINE]
+Even if we did manage to get in and out[NLINE]
 of the prison, there won't be any point[NLINE]
-to dressing up in disguises unless we don't[NLINE]
-draw any attention to ourselves.[END-FE]
+to dressing up in disguises unless we avoid[NLINE]
+drawing any attention to ourselves.[END-FE]
 
 
 
@@ -3704,7 +3704,7 @@ to get out.[END-FE]
 //たしかに捕虜に化けても[NLINE]
 //自分たちが捕まったら意味ないわよね。[END-FE]
 [CHAR5400][V1300]
-Rukias is right. Even if we would[NLINE]
+Rukias is right. Even if we were to[NLINE]
 disguise ourselves as prisoners, there's no[NLINE]
 point to it if we end up getting caught anyway.[END-FE]
 
@@ -3802,7 +3802,7 @@ Will you hide in the wooden crates?[END-FE]
 //…どれくらいで終わる任務なんだろう…？[END-FE]
 A different continent, huh?[NLINE]
 I wonder how long it will be until we[NLINE]
-will finish this mission...?[END-FE]
+finish this mission...?[END-FE]
 
 
 
@@ -3954,7 +3954,7 @@ I wonder what will happen out there.[END-FE]
 Tell me about it. Though it's not like[NLINE]
 we can plant a big Pollumine tree on[NLINE]
 a boat, right? Anyhow, I guess worrying[NLINE]
-about isn't going to change anything.[END-FE]
+about it isn't going to change anything.[END-FE]
 
 
 
@@ -4178,7 +4178,7 @@ the board room immediately.[END-FE]
 Hey, you! Hold up![NLINE]
 It's dangerous here![NWIN]
 
-I'll stay quiet so,[NLINE]
+I'll stay quiet, so[NLINE]
 you'd best hurry out of here![END-FE]
 
 
@@ -4208,7 +4208,7 @@ our guestbook.[END-FE]
 //POINTER #307 @ $686C - STRING #307 @ $BD8D
 #W32($686C)
 //・礼を言って去る[END-FE]
-・Thank her you and leave[END-FE]
+・Thank her and leave[END-FE]
 
 
 
@@ -4249,7 +4249,7 @@ can do for you.[END-FE]
 //部屋に戻るのかい？[END-FE]
 //Receptionist\\
 Welcome back.[NLINE]
-Will you return to you room?[END-FE]
+Will you return to your room?[END-FE]
 
 
 
@@ -4317,7 +4317,7 @@ Are you [MainCharName]?[NWIN]
 I've received a message from headquarters.[NLINE]
 You're to head over there immediately.[NWIN]
 
-Best not dwindle here. You should[NLINE]
+Best not dawdle here. You should[NLINE]
 hurry up and get going.[END-FE]
 
 
@@ -4373,7 +4373,7 @@ D Monopolis Employee Dormitory[END-FE]
 Hey, you! Hold up![NLINE]
 It's dangerous here![NWIN]
 
-I'll stay quiet so,[NLINE]
+I'll stay quiet, so[NLINE]
 you'd best hurry out of here![END-FE]
 
 
@@ -4385,7 +4385,7 @@ you'd best hurry out of here![END-FE]
 //何しているんだい！[NLINE]
 //さっさと出て行った方がいいわよ！[END-FE]
 What are you doing!?[NLINE]
-You best get out of here right away![END-FE]
+You'd best get out of here right away![END-FE]
 
 
 
@@ -4415,7 +4415,7 @@ desk.[END-FE]
 Hey, you! Hold up![NLINE]
 It's dangerous here![NWIN]
 
-I'll stay quiet so,[NLINE]
+I'll stay quiet, so[NLINE]
 you'd best hurry out of here![END-FE]
 
 
@@ -4427,7 +4427,7 @@ you'd best hurry out of here![END-FE]
 //何しているんだい！[NLINE]
 //さっさと出て行った方がいいわよ！[END-FE]
 What are you doing?[NLINE]
-You best get out of here right away![END-FE]
+You'd best get out of here right away![END-FE]
 
 
 
@@ -4469,7 +4469,7 @@ asked for you to come to the[NLINE]
 board room.[NWIN]
 
 If you have any further questions,[NLINE]
-please let me know[END-FE]
+please let me know.[END-FE]
 
 
 
@@ -4480,7 +4480,7 @@ please let me know[END-FE]
 //　[NLINE]
 //さっきまで休んでいたベッドだ。[END-FE]
 [NLINE]
-It's the bed you've been resting on[NLINE]
+It's the bed you were resting on[NLINE]
 earlier.[END-FE]
 
 

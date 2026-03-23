@@ -204,7 +204,7 @@ research center first.[END-FE]
 //見失います！[END-FE]
 Not that way![NLINE]
 If we don't hurry up and pursue[NLINE]
-Schuweizer, we'll lose sight of him![END-FE]
+Shuweizer, we'll lose sight of him![END-FE]
 
 
 
@@ -240,7 +240,8 @@ To Grangale[END-FE]
 //POINTER #22 @ $6178 - STRING #22 @ $64D2
 #W32($6178)
 //維持軍本部入り口です。[END-FE]
-This is the entrance to the PMB Headquarters.[END-FE]
+This is the entrance to the PMB[NLINE]
+Headquarters.[END-FE]
 
 
 
@@ -375,7 +376,7 @@ Go to the debugging room?[END-FE]
 //見失います！[END-FE]
 Not that way![NLINE]
 If we don't hurry up and pursue[NLINE]
-Schuweizer, we'll lose sight of him![END-FE]
+Shuweizer, we'll lose sight of him![END-FE]
 
 
 
@@ -542,7 +543,7 @@ East from here lies Grangale territory.[END-FE]
 //だが、妖精を…。[NLINE]
 //しかもユリィ殿を連れているなら、[NLINE]
 //お前たちを信頼して、ここを通そう。[END-FE]
-Your attires look unfamiliar.[NLINE]
+Your attire looks unfamiliar.[NLINE]
 What country are you from?[NWIN]
 
 Wait a minute, you have a fairy[NLINE]
@@ -626,8 +627,8 @@ you are![NWIN]
 
 You may encounter more Screapers,[NLINE]
 but as long as you cooperate[NLINE]
-with Haschen, you'll be alright.[NLINE]
-Please be careful on our journey![END-FE]
+with [Haschen], you'll be alright.[NLINE]
+Please be careful on your journey![END-FE]
 
 
 
@@ -670,7 +671,7 @@ Perfect.[END-FE]
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
 ・The PMB soldier dies[NLINE]
-・One of your companions[NLINE]
+・One of your companions dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -837,7 +838,7 @@ The effect range is not that wide. You'll[NLINE]
 understand the effect once you see for yourself.[NWIN]
 
 I couldn't use my ability this time,[NLINE]
-but it'll proof useful when we encounter[NLINE]
+but it'll prove useful when we encounter[NLINE]
 more Screapers. Let's keep up the good[NLINE]
 work.[END-FE]
 

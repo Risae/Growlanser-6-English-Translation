@@ -153,7 +153,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #13 @ $48D4 - STRING #13 @ $4BB7
 #W32($48D4)
 //導入劇スキップする？[END-FE]
-導入劇スキップする？[END-FE]
+Do you want to skip the opening scene?[END-FE]
 
 
 
@@ -220,7 +220,7 @@ still have enough time?[END-FE]
 
 [CH.FACE:Open-Eyes][CHAR3900][V0300]
 I can still sense the Queen.[NLINE]
-However, we best hurry![END-FE]
+However, we'd best hurry![END-FE]
 
 
 

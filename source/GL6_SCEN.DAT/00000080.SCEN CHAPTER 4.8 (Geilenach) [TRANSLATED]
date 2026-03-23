@@ -242,7 +242,7 @@ want to ask...[NWIN]
 
 [CHAR1400][V5A00]
 Did you also notice something[NLINE]
-if off?[END-FE]
+is off?[END-FE]
 
 
 
@@ -440,8 +440,8 @@ yet tell you why, though.[END-FE]
 //俺もついて行きたいんだが…。[END-FE]
 //Rukias\\
 [CHAR1400][V6600]
-..I get it. I wouldn't want to[NLINE]
-get any funny looks, either.[NWIN]
+..I get it. I wouldn't want to get[NLINE]
+any funny looks, either.[NWIN]
 
 [CHAR1400][V6700]
 By the way, where were you planning[NLINE]
@@ -449,8 +449,8 @@ on going? What I was looking for[NLINE]
 wasn't here.[NWIN]
 
 [CHAR1400][V6800]
-If you're going to another town,[NLINE]
-I wouldn't mind tagging along...[END-FE]
+If you're going to another town, I[NLINE]
+wouldn't mind tagging along...[END-FE]
 
 
 
@@ -583,8 +583,8 @@ Rukias became an ally![NLINE]
 //POINTER #42 @ $4C48 - STRING #42 @ $57A8
 #W32($4C48)
 //ジェム合成が最大五列になった[END-FE]
-A maximum of five Gem pairs can now be set in the[NLINE]
-Gem Synthesis menu.[END-FE]
+//Top System Message (blue)
+A maximum of five Gem pairs can now be set[END-FE]
 
 
 
@@ -1336,7 +1336,7 @@ My, my, if it isn't Yurii, the[NLINE]
 Queen of Pixies![NWIN]
 
 You've finally found a suitable[NLINE]
-companion, didn't you? Please continue[NLINE]
+companion, haven't you? Please continue[NLINE]
 doing your best! I believe in you.[NWIN]
 
 To celebrate, I'll give you these[NLINE]
@@ -1467,7 +1467,8 @@ It's an aqueduct.[END-FE]
 //この先は軍事施設です。[NLINE]
 //一般の方は、出入りできません。[END-FE]
 Up ahead are military facilities.[NLINE]
-These not accessible to the general public.[END-FE]
+These are not accessible to the[NLINE]
+general public.[END-FE]
 
 
 
@@ -1582,7 +1583,7 @@ Grangalian army.[END-FE]
 //ほぼゼロに抑えています。[END-FE]
 //Sales Staff\\
 [CHAR1400][V0500]
-That's why the the characteristic[NLINE]
+That's why the characteristic[NLINE]
 scent of our company's Pollumine[NLINE]
 will prevent Screapers from coming[NLINE]
 near.[NWIN]
@@ -1904,9 +1905,9 @@ Ms. Shayer?[END-FE]
 I arrived this morning.[NWIN]
 
 [CH.FACE:Sad][CHAR1400][V2100]
-I heard from Captain Shuweizer[NLINE]
-that many Guard Corps members[NLINE]
-died on the way here.[NWIN]
+I heard from Captain Shuweizer that[NLINE]
+many Guard Corps members died on[NLINE]
+the way here.[NWIN]
 
 [CH.FACE:Normal][CHAR1400][V2200]
 However, we can't afford to put a stop[NLINE]
@@ -1962,20 +1963,20 @@ the natives talking about?[END-FE]
 We were discussing our Pollumine product.[NWIN]
 
 [CHAR1400][V2600]
-Our terms are by no means[NLINE]
-unfavorable. However, since they have[NLINE]
-had no contact with the outside world[NLINE]
-for such a long time, they can't help[NLINE]
-but be suspicious.[NWIN]
+Our terms are by no means unfavorable.[NLINE]
+However, since they have had no[NLINE]
+contact with the outside world for[NLINE]
+such a long time, they can't help but[NLINE]
+be suspicious.[NWIN]
 
 [CHAR1400][V2700]
 We need to carry out this negotiation[NLINE]
-in patience.[NWIN]
+with patience.[NWIN]
 
 [CH.FACE:Normal][CHAR1400][V2800]
 However, leave that to me. You two[NLINE]
-should rendezvous with the sales[NLINE]
-staff that went to Jaergen in the north,[NLINE]
+should rendezvous with the sales staff[NLINE]
+that went to Jaergen in the north,[NLINE]
 and then proceed to head west.[END-FE]
 
 
@@ -1989,7 +1990,7 @@ and then proceed to head west.[END-FE]
 //西側を目指しなさい。[END-FE]
 You two should rendezvous with[NLINE]
 the sales staff that went to[NLINE]
-Yagen in the north, and then[NLINE]
+Jaergen in the north, and then[NLINE]
 proceed to head west.[END-FE]
 
 
@@ -2263,8 +2264,8 @@ What happened, Yurii?[END-FE]
 //Wendy\\
 [CHAR1400][V3800]
 Huh? That man who was here[NLINE]
-just now, Gaerik, where[NLINE]
-did he go?[END-FE]
+just now, Gaerik, where did[NLINE]
+he go?[END-FE]
 
 
 
@@ -2337,7 +2338,7 @@ the Screapers...[END-FE]
 //平和維持軍の人じゃなかった？[END-FE]
 //Wendy\\
 [CHAR1400][V3D00]
-What? Did he just say that that man[NLINE]
+What? Did he just say that man[NLINE]
 named Gaerik was killed? But, he[NLINE]
 was here just now...[NWIN]
 
@@ -2392,7 +2393,7 @@ what you told us.[END-FE]
 //信じてはもらえないと思います。[END-FE]
 //Yurii\\
 [CHAR1400][V4100]
-...I will clarify....[NLINE]
+...I will clarify...[NLINE]
 However, I think it would be best if[NLINE]
 you don't tell anyone else about what[NLINE]
 happened.[NWIN]
@@ -2426,8 +2427,7 @@ so they won't believe you.[END-FE]
 //POINTER #168 @ $4E40 - STRING #168 @ $7BD1
 #W32($4E40)
 //・理由は分からないが従う[END-FE]
-・I don't know the reason, but I'll[NLINE]
- comply[END-FE]
+・I don't know the reason, but I'll comply[END-FE]
 
 
 
@@ -2885,7 +2885,7 @@ Would you like to rest on the bed?[END-FE]
 //　[NLINE]
 //花が生けてある。[END-FE]
 [NLINE]
-Flower have been arranged in a vase.[END-FE]
+Flowers have been arranged in a vase.[END-FE]
 
 
 

@@ -162,7 +162,7 @@ Go to the debugging room?[END-FE]
 //POINTER #14 @ $46D8 - STRING #14 @ $48BE
 #W32($46D8)
 //自動Ｄ　ＥＢ０８＿３前[END-FE]
-自動Ｄ　ＥＢ０８＿３前[END-FE]
+Auto-D EB08_3 Before[END-FE]
 
 
 
@@ -171,7 +171,7 @@ Go to the debugging room?[END-FE]
 //POINTER #15 @ $46DC - STRING #15 @ $48D7
 #W32($46DC)
 //今戻るのは危険です！[END-FE]
-今戻るのは危険です！[END-FE]
+It's dangerous to go back now![END-FE]
 
 
 
@@ -198,7 +198,7 @@ D F28[END-FE]
 //POINTER #18 @ $46E8 - STRING #18 @ $491A
 #W32($46E8)
 //アトリビュートカウンター[END-FE]
-アトリビュートカウンター[END-FE]
+Attribute Counter[END-FE]
 
 
 
@@ -207,7 +207,7 @@ D F28[END-FE]
 //POINTER #19 @ $46EC - STRING #19 @ $4935
 #W32($46EC)
 //アトリビュートカウンター[END-FE]
-アトリビュートカウンター[END-FE]
+Attribute Counter[END-FE]
 
 
 
@@ -216,7 +216,7 @@ D F28[END-FE]
 //POINTER #20 @ $46F0 - STRING #20 @ $4950
 #W32($46F0)
 //アトリビュートカウンター[END-FE]
-アトリビュートカウンター[END-FE]
+Attribute Counter[END-FE]
 
 
 
@@ -225,7 +225,7 @@ D F28[END-FE]
 //POINTER #21 @ $46F4 - STRING #21 @ $496B
 #W32($46F4)
 //アトリビュートカウンター[END-FE]
-アトリビュートカウンター[END-FE]
+Attribute Counter[END-FE]
 
 
 
@@ -234,7 +234,7 @@ D F28[END-FE]
 //POINTER #22 @ $46F8 - STRING #22 @ $4986
 #W32($46F8)
 //アトリビュートカウンター[END-FE]
-アトリビュートカウンター[END-FE]
+Attribute Counter[END-FE]
 
 
 

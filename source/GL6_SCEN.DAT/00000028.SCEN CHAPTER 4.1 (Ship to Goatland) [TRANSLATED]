@@ -164,7 +164,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //お前たちに渡す物がある。[END-FE]
 //Shuweizer\\
 [CHAR0F00][V0000]
-Our departure went smoothtly.[NWIN]
+Our departure went smoothly.[NWIN]
 
 [CHAR0F00][V0100]
 You don't have any particular tasks[NLINE]
@@ -403,7 +403,7 @@ It's deck wax.[NLINE]
 //Wendy\\
 [CHAR0F00][V0C00]
 Ten days passed since we boarded[NLINE]
-the boat. Everyday we dealt with[NLINE]
+the boat. Every day we dealt with[NLINE]
 the boredom of having nothing to do.[END-FE]
 
 
@@ -634,7 +634,7 @@ mission is about?[END-FE]
 //POINTER #50 @ $36E8 - STRING #50 @ $4110
 #W32($36E8)
 //・営業スタッフの護衛[END-FE]
-・To serve as bodyguards for Monopolis personnel[END-FE]
+・Bodyguard for sales staff[END-FE]
 
 
 
@@ -652,7 +652,7 @@ mission is about?[END-FE]
 //POINTER #52 @ $36F0 - STRING #52 @ $413C
 #W32($36F0)
 //・センサーに反応する物を探す[END-FE]
-・To search for something that gives off a signal[END-FE]
+・Look for something that triggers the sensor[END-FE]
 
 
 
@@ -678,8 +678,8 @@ However, that's only our official[NLINE]
 mission.[NWIN]
 
 [CHAR0F00][V1900]
-If you really don't know, try[NLINE]
-checking your belongings.[END-FE]
+If you really don't know, try checking[NLINE]
+your belongings.[END-FE]
 
 
 
@@ -827,7 +827,7 @@ El Hingis.[NWIN]
 
 If you also want one, you'll have to[NLINE]
 buy it from him.[NLINE]
-Expect to pay a steep price for it..[END-FE]
+Expect to pay a steep price for it.[END-FE]
 
 
 
@@ -841,7 +841,7 @@ Expect to pay a steep price for it..[END-FE]
 //ただし、簡単に手が出る値ではないがな。[END-FE]
 //Shuweizer\\
 If you want a [COL01]Penetrator Gem[COL00], you have[NLINE]
-to choice but to buy it from a broker[NLINE]
+no choice but to buy it from a broker[NLINE]
 in the capital of Hingistan, El Hingis.[NWIN]
 
 However, expect to pay a steep price for it.[END-FE]
@@ -946,7 +946,7 @@ frequency that Screapers dislike![END-FE]
 //POINTER #67 @ $372C - STRING #67 @ $4935
 #W32($372C)
 //・スクリーパーとは何か？[END-FE]
-・What are Screapers?"[END-FE]
+・What are Screapers?[END-FE]
 
 
 
@@ -990,10 +990,9 @@ disappeared.[END-FE]
 //海の上とはいえ、スクリーパーと[NLINE]
 //遭遇することはないと思うんだけど。[END-FE]
 Screapers seem to be repelled by Pollumine[NLINE]
-trees. With this many seedlings, I[NLINE]
-don't think we'll encounter any[NLINE]
-Screapers, not even out here on[NLINE]
-the ocean.[END-FE]
+trees. With this many seedlings, I don't[NLINE]
+think we'll encounter any Screapers, not[NLINE]
+even out here on the ocean.[END-FE]
 
 
 
@@ -1113,14 +1112,13 @@ and offer him support.[END-FE]
 //俺もそれがあれば、[NLINE]
 //シュヴァイツァー様のように[NLINE]
 //強くなれるんだろうか？[END-FE]
-By the way, I happened to[NLINE]
-overhear something interesting.[NLINE]
-Captain Shuweizer's strength seems to[NLINE]
+By the way, I happened to overhear[NLINE]
+something interesting.[NLINE]
+Captain Shuweizer's strength seems to be[NLINE]
 derived from [COL01]a certain gem[COL00].[NWIN]
 
-If I also had that, I wonder[NLINE]
-if I could become as strong[NLINE]
-as the captain?[END-FE]
+If I also had that, I wonder if I[NLINE]
+could become as strong as the captain?[END-FE]
 
 
 
@@ -1222,7 +1220,7 @@ an old boat like this one?[END-FE]
 //POINTER #84 @ $3770 - STRING #84 @ $503E
 #W32($3770)
 //・高速艇は航続距離が短いから[END-FE]
-・Because speed boats are only suitable for short traveling distances[END-FE]
+・Since high-speed boats don’t have a long range[END-FE]
 
 
 
@@ -1231,7 +1229,7 @@ an old boat like this one?[END-FE]
 //POINTER #85 @ $3774 - STRING #85 @ $505D
 #W32($3774)
 //・向こうの文明レベルに合わせた[END-FE]
-・Because our boat has to match Goatland's civilization level[END-FE]
+・Our boat has to match Goatland's civilization level[END-FE]
 
 
 
@@ -1395,7 +1393,7 @@ ship will sink![NWIN]
 
 [CHAR1000][V0D00]
 Sinking here when we're about to[NLINE]
-to reach land would be a disgrace![END-FE]
+reach land would be a disgrace![END-FE]
 
 
 
@@ -1543,7 +1541,7 @@ that. Shuweizer, as well.[NWIN]
 [CHAR1000][V0500]
 However, I don't remember that at all...[NLINE]
 Even though I remember things from before[NLINE]
-we've met, those several days before we[NLINE]
+we met, those several days before we[NLINE]
 did are a complete blank...[NWIN]
 
 [CHAR1000][V0600]
@@ -1613,7 +1611,7 @@ that aren't really important.[END-FE]
 //Wendy\\
 [CHAR1000][V0900]
 That may be, but don't[NLINE]
-you just hate it It's like a part?[NLINE]
+you just hate it? It's like a part[NLINE]
 of yourself is missing.[END-FE]
 
 
@@ -1636,8 +1634,8 @@ Anyway, still no land in sight?[END-FE]
 //こんな生き物だなんて…！[END-FE]
 //Wendy\\
 N-no way! Our attacks[NLINE]
-aren't effective?! That there[NLINE]
-is such a creature...![END-FE]
+aren't effective?! To think there's[NLINE]
+such a creature...![END-FE]
 
 
 

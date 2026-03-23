@@ -164,7 +164,7 @@ Try to go to Kaiseris Island?[END-FE]
 //現在、通行止めだ。[NLINE]
 //砦に近づく者は、スパイ容疑で捕らえるぞ！[END-FE]
 This road is currently closed off.[NLINE]
-Anyone approaching fort will be apprehended[NLINE]
+Anyone approaching the fort will be apprehended[NLINE]
 on suspicion of being a spy![END-FE]
 
 
@@ -287,7 +287,7 @@ To Warslee Village[END-FE]
 //この先は封鎖中だ。[NLINE]
 //戻りたまえ。[END-FE]
 The road up ahead is closed because of[NLINE]
-damaged causes by the Queen Screapers.[NLINE]
+damage caused by the Queen Screapers.[NLINE]
 Turn back.[END-FE]
 
 
@@ -325,7 +325,7 @@ the general public is prohibited from entering.[END-FE]
 //この先にはゼルドックという都市があったが、[NLINE]
 //クイーン・スクリーパーにより[NLINE]
 //壊滅させられてしまったんだ…。[END-FE]
-Up ahead used to lie a city called Zerdock.[NLINE]
+Up ahead used to lie a city called Zerdok.[NLINE]
 However, it has unfortunately been[NLINE]
 destroyed by the Queen Screapers...[END-FE]
 
@@ -338,7 +338,7 @@ destroyed by the Queen Screapers...[END-FE]
 //この先のゼルドックの人々は、[NLINE]
 //ジークヴァルトにより[NLINE]
 //皆殺しにされたよ。[END-FE]
-The people of Zerdock were all[NLINE]
+The people of Zerdok were all[NLINE]
 massacred by Ziekwalt.[END-FE]
 
 
@@ -350,9 +350,10 @@ massacred by Ziekwalt.[END-FE]
 //この先はグランゲイル軍の施設です。[NLINE]
 //現在は特別警戒中なので[NLINE]
 //一般の方の通行を、禁止しています。[END-FE]
-Up ahead lies a base of the Grangalian army.[NLINE]
-We're currently on special alert. Therefore[NLINE]
-the general public is prohibited from entering.[END-FE]
+Up ahead lies a base of the Grangalian[NLINE]
+army. We're currently on special alert.[NLINE]
+Therefore the general public is[NLINE]
+prohibited from entering.[END-FE]
 
 
 
@@ -443,10 +444,10 @@ To be more precise, it was defeated once[NLINE]
 after it awoke.[NWIN]
 
 [CHAR1200][V0700]
-However, from the pieces of of the[NLINE]
+However, from the pieces of the[NLINE]
 defeated Queen Screaper's flesh, new[NLINE]
 ones regenerated. As a result, the[NLINE]
-amount of Queen Screapers has[NLINE]
+number of Queen Screapers has[NLINE]
 increased from one to dozens.[END-FE]
 
 
@@ -459,7 +460,7 @@ increased from one to dozens.[END-FE]
 //見かけない顔だな。[NLINE]
 //どこの者だ？[END-FE]
 [CHAR1200][V0800]
-You're faces I haven't[NLINE]
+Your faces I haven't[NLINE]
 seen before. Where are[NLINE]
 you from?[END-FE]
 
@@ -597,7 +598,7 @@ I'm honored.[END-FE]
 //わかった、あなたを信じ、[NLINE]
 //ここを通そう。[END-FE]
 [CHAR1200][V1200]
-A fairiy would never deceive humans,[NLINE]
+A fairy would never deceive humans,[NLINE]
 let alone the Queen of Pixies.[NWIN]
 
 [CHAR1200][V1300]
@@ -647,7 +648,7 @@ much as I could so that I could[NLINE]
 meet the Brave One one day.[NWIN]
 
 [CH.FACE:Laughing][CHAR1200][V1700]
-I 'm honored to be at your service.[END-FE]
+I'm honored to be at your service.[END-FE]
 
 
 
@@ -671,7 +672,7 @@ Please be careful on your journey.[END-FE]
 //先ほど帽子とマントの男が[NLINE]
 //スゴい勢いで走り去った。[NLINE]
 //それを男女３人が追いかけていたようだが…。[END-FE]
-Earlier, I saw a man in cloak and hat ran past[NLINE]
+Earlier, I saw a man in a cloak and hat run past[NLINE]
 with amazing speed. It seems he was being[NLINE]
 chased by a woman and two men...[END-FE]
 
@@ -757,7 +758,7 @@ Give it back![END-FE]
 //どうせお前らが[NLINE]
 //自分たちの都合のいいように使うんだろう？[END-FE]
 [CHAR2300][V1000]
-Like you won't use use it for your own[NLINE]
+Like you won't use it for your own[NLINE]
 purposes![END-FE]
 
 
@@ -908,7 +909,7 @@ wait for low tide, right?[END-FE]
 //この大陸では、[NLINE]
 //船を手に入れるのは難しいので…。[END-FE]
 [CHAR2200][V0C00]
-Ships maybe common on your continent,[NLINE]
+Ships may be common on your continent,[NLINE]
 but here they're quite difficult to acquire...[END-FE]
 
 
@@ -952,7 +953,7 @@ they'll quickly sink it.[END-FE]
 //それに私、船は苦手…。[END-FE]
 [CHAR2200][V0F00]
 Screapers...[NLINE]
-And on top of that, therer's also[NLINE]
+And on top of that, there's also[NLINE]
 my sea sickness...[END-FE]
 
 

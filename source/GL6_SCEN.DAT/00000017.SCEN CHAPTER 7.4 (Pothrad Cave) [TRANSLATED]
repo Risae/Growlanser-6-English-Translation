@@ -177,7 +177,7 @@ The light in the green orb has faded.[END-FE]
 //　[NLINE]
 //赤いオーブに光が宿っている。[END-FE]
 [NLINE]
-Light dwells in the reb orb.[END-FE]
+Light dwells in the red orb.[END-FE]
 
 
 
@@ -221,7 +221,7 @@ The light in the blue orb has faded.[END-FE]
 //　[NLINE]
 //扉が三色に光っている。[END-FE]
 [NLINE]
-Three different colored lights are emitting[NLINE]
+Three different colored lights are emanating[NLINE]
 from the doors.[END-FE]
 
 
@@ -535,7 +535,7 @@ dropped an extra one.[END-FE]
 //これがなくなると、[NLINE]
 //私達の探し物ができないわ。[END-FE]
 [CHAR2100][V1600]
-Without this, we won't we able[NLINE]
+Without this, we won't be able[NLINE]
 to find what we're looking for.[END-FE]
 
 
@@ -557,7 +557,7 @@ one.[END-FE]
 //POINTER #47 @ $6CDC - STRING #47 @ $7651
 #W32($6CDC)
 //すぐに修理に取りかかろう！[END-FE]
-I will start repairing repairing[NLINE]
+I will start repairing[NLINE]
 immediately![END-FE]
 
 
@@ -767,7 +767,7 @@ went back to the orb.[END-FE]
 //オーブに宿っていた光が[NLINE]
 //[CC.EAEEFF]に吸い込まれた。[END-FE]
 The light in the orb has[NLINE]
-been absorbed by [CC.EAEEFF][END-FE]
+been absorbed by [CC.EAEEFF].[END-FE]
 
 
 
@@ -1353,7 +1353,7 @@ been absorbed by [CC.EAEDFF].[END-FE]
 #W32($6DF4)
 //[CC.EAEDFF]に宿っていた光が[NLINE]
 //オーブへと戻っていく。[END-FE]
-The liight that dwelled inside [CC.EAEDFF][NLINE]
+The light that dwelled inside [CC.EAEDFF][NLINE]
 went back to the orb.[END-FE]
 
 
@@ -1538,7 +1538,7 @@ The red orb has lost its light.[END-FE]
 //　[NLINE]
 //扉が二色に光っている。[END-FE]
 [NLINE]
-Two different colored lights are emitting[NLINE]
+Two different colored lights are emanating[NLINE]
 from the doors.[END-FE]
 
 
@@ -1583,7 +1583,7 @@ The door is closed.[END-FE]
 //　[NLINE]
 //扉が二色に光っている。[END-FE]
 [NLINE]
-Two different colored lights are emitting[NLINE]
+Two different colored lights are emanating[NLINE]
 from the doors.[END-FE]
 
 
@@ -1657,7 +1657,7 @@ The door is closed.[END-FE]
 //オーブに宿っていた光が[NLINE]
 //[CC.EAEFFF]に吸い込まれた。[END-FE]
 The light in the orb has[NLINE]
-been absorbed by [CC.EAEFFF][END-FE]
+been absorbed by [CC.EAEFFF].[END-FE]
 
 
 
@@ -1679,7 +1679,7 @@ went back to the orb.[END-FE]
 //オーブに宿っていた光が[NLINE]
 //[CC.EAEEFF]に吸い込まれた。[END-FE]
 The light in the orb has[NLINE]
-been absorbed by [CC.EAEEFF][END-FE]
+been absorbed by [CC.EAEEFF].[END-FE]
 
 
 

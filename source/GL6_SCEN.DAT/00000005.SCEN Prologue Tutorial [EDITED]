@@ -191,7 +191,7 @@ so be careful.[END-FE]
 //警備しないとな。[END-FE]
 //Guard 2\\
 ...A monster outside the gate, huh?[NLINE]
-I better be more watchful while[NLINE]
+I'd better be more watchful while[NLINE]
 guarding the entrance, then.[END-FE]
 
 
@@ -994,7 +994,7 @@ Menu?[END-FE]
 //それは何か？[END-FE]
 //Villager\\
 There is an action you can only perform[NLINE]
-when the time on the ATM Gauge is[NLINE]
+when the time on the ATW Gauge is[NLINE]
 counting down. Which action is that?[END-FE]
 
 
@@ -1092,7 +1092,7 @@ Well, it seems your knowledge is a[NLINE]
 little lacking.[NWIN]
 
 If you can't clearly recall what[NLINE]
-you have learned, you won't able[NLINE]
+you have learned, you won't be able[NLINE]
 to devise any strategies.[END-FE]
 
 
@@ -1366,7 +1366,7 @@ from the Command Menu, and then select the[NLINE]
 item.[NWIN]
 
 However, please note that the item[NLINE]
-won't have effect if you are too[NLINE]
+won't have any effect if you are too[NLINE]
 far from the person on which you would[NLINE]
 like to use it.[END-FE]
 
@@ -1999,7 +1999,7 @@ person.[END-FE]
 //とりあえずご苦労さま。[END-FE]
 //Guard\\
 ...There are no signs of it being[NLINE]
-entered anywhere. Well be damned,[NLINE]
+entered anywhere. Well, I'll be damned,[NLINE]
 you didn't lie.[NWIN]
 
 Anyway, good work.[END-FE]
@@ -2967,7 +2967,7 @@ the guardhouse.[END-FE]
 //警戒はしといてくれよ。[END-FE]
 //Guard 3\\
 It's only one creature. I don't think[NLINE]
-it's a threat, but please be vigiliant![END-FE]
+it's a threat, but please be vigilant![END-FE]
 
 
 
@@ -3506,7 +3506,7 @@ continue attacking the target automatically.[END-FE]
 Furthermore, when the enemy target has been[NLINE]
 decided, a target-lock will be displayed[NLINE]
 around its HP meter. A yellow aura around[NLINE]
-the the main character indicates that you[NLINE]
+the main character indicates that you[NLINE]
 or the enemy has dealt out an attack.[END-FE]
 
 
@@ -3607,7 +3607,7 @@ attack will be cancelled.[END-FE]
 //System Message\\
 When another character receives an attack,[NLINE]
 he or she will have to wait until time on[NLINE]
-the ATW Gauge has ran out. He or she may[NLINE]
+the ATW Gauge has run out. He or she may[NLINE]
 not be able to move while surrounded by[NLINE]
 enemies, so be careful.[END-FE]
 
@@ -4787,7 +4787,7 @@ What is not a way to let your character run?[END-FE]
 //メッセージスキップを行うには[NLINE]
 //[R1]と何を押さなければならないか？[END-FE]
 //Shady Person\\
-What button do press alongside [R1][NLINE]
+What button do you press alongside [R1][NLINE]
 in order to skip messages?[END-FE]
 
 
@@ -5050,7 +5050,8 @@ will find out that I'm here![END-FE]
 //
 //…無い。[END-FE]
 //Young Man\\
-......[NWIN]
+...[NWIN]
+
 ...It's not here.[END-FE]
 
 
@@ -6366,7 +6367,7 @@ What do you want most right now?[END-FE]
 //救えるとしたら、あなたはどうしますか？[END-FE]
 //Shrine Maiden\\
 Finally, what would you do if you had[NLINE]
-save the world in exchange for a life?[END-FE]
+to save the world in exchange for a life?[END-FE]
 
 
 
@@ -7252,7 +7253,7 @@ That's amazing![END-FE]
 //３人中２人か。[NLINE]
 //やるね、兄ちゃん！[END-FE]
 //Boy/Girl\\
-Two out of three?, huh[NLINE]
+Two out of three, huh?[NLINE]
 Way to go, mister![END-FE]
 
 
@@ -8466,7 +8467,7 @@ that, mister![END-FE]
 //POINTER #666 @ $10988 - STRING #666 @ $18AB6
 #W32($10988)
 //じゃあ、勝負のせつめいだ！[END-FE]
-Alright, here's is the explanation[NLINE]
+Alright, here's the explanation[NLINE]
 of the race![END-FE]
 
 
@@ -8502,7 +8503,7 @@ each of my friends and returns here first wins![END-FE]
 //POINTER #668 @ $10990 - STRING #668 @ $18BBE
 #W32($10990)
 //それじゃあ、兄ちゃん勝負！[END-FE]
-Alright, lets start![END-FE]
+Alright, let's start![END-FE]
 
 
 
@@ -8743,7 +8744,7 @@ The secret was that I ate a magic apple[NLINE]
 every day.[NWIN]
 
 Naturally, one gets sick of eating apples[NLINE]
-everyday, so I hid my remaining apples on[NLINE]
+every day, so I hid my remaining apples on[NLINE]
 top of a pillar in the village.[NWIN]
 
 Just hiding them wouldn't be interesting,[NLINE]
@@ -10145,7 +10146,7 @@ Please take this.[END-FE]
 It costs MP to defeat Slimes.[NLINE]
 This will let you recover it.[NWIN]
 
-It's became unsafe here lately, so you[NLINE]
+It's become unsafe here lately, so you[NLINE]
 never know when you get dragged[NLINE]
 into a battle. It's a good idea to[NLINE]
 recover your MP as soon as possible.[NWIN]
@@ -10630,7 +10631,7 @@ Clear Bonus[END-FE]
 //Shrine Maiden\\
 [CHARC800][V1000]
 ...It seems like this is the end of your[NLINE]
-mental landscape. You have showed me[NLINE]
+mental landscape. You have shown me[NLINE]
 who you truly are.[END-FE]
 
 
@@ -12228,7 +12229,7 @@ After the magic assistance[END-FE]
 //長い時間、心象を散策するのですね。[END-FE]
 //Shrine Maiden\\
 We have been wandering around this[NLINE]
-this mental landscape for a long time.[END-FE]
+mental landscape for a long time.[END-FE]
 
 
 
