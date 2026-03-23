@@ -52,7 +52,7 @@ You received a fairy [COL01]dress[COL00]![END-FE]
 //さて、それはさておき、[NLINE]
 //私は、着替えた方が宜しいのでしょうか？[END-FE]
 I'm looking forward to trying it on and[NLINE]
-see whether or not it suits me.[COL01]★[COL00][NWIN]
+seeing whether or not it suits me.[COL01]★[COL00][NWIN]
 
 [CH.FACE:Normal]
 But enough of that talk.[NLINE]
@@ -347,7 +347,7 @@ look very fashionable, don't they?[END-FE]
 #W32($199C)
 //舞踏会にでも参加出来そうな衣装ですね。[NLINE]
 //こんど、一曲踊って下さいませんか？[END-FE]
-I look like it would fit right at home[NLINE]
+It looks like it would fit right at home[NLINE]
 at a ball. May I have this dance?[END-FE]
 
 
@@ -828,7 +828,7 @@ Increase or decrease physical strength[END-FE]
 //POINTER #84 @ $1A70 - STRING #84 @ $237E
 #W32($1A70)
 //－１００[END-FE]
-－１００[END-FE]
+-100[END-FE]
 
 
 
@@ -1061,7 +1061,7 @@ new abilities.[END-FE]
 #W32($1AC8)
 //今はラナの実も種も[NLINE]
 //持っていないようです…。[END-FE]
-It seems you don't any Rana Fruit[NLINE]
+It seems you don't have any Rana Fruit[NLINE]
 or Rana Seed right now...[END-FE]
 
 

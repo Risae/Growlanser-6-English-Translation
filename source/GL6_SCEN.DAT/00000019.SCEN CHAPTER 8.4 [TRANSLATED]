@@ -325,12 +325,12 @@ Alright, let's hear the strategy.[END-FE]
 //私を捕えようと追ってくると思う。[END-FE]
 [CHAR2900][V0600]
 This mountain is both a mine and[NLINE]
-and a Hingistani fortress.[NWIN]
+a Hingistani fortress.[NWIN]
 
 [CHAR2900][V0700]
 I think that's the reason why[NLINE]
 Fomeros troops linger here despite[NLINE]
-their being not much left to be mined.[NWIN]
+there being not much left to be mined.[NWIN]
 
 [CHAR2900][V0800]
 The commander here, Wellber, is[NLINE]
@@ -380,7 +380,7 @@ as bait?[END-FE]
 I can't think of any other way.[NWIN]
 
 [CH.FACE:Serious][CHAR2900][V0D00]
-In any case, Welber will[NLINE]
+In any case, Wellber will[NLINE]
 absolutely try to capture me.[NLINE]
 There's no doubt about that.[NWIN]
 
@@ -403,7 +403,7 @@ all his troops to pursue me.[END-FE]
 In other words, we'll take you to[NLINE]
 the fortress at the top, and[NLINE]
 then descend the mountain as quickly[NLINE]
-as we can after the soldiers took the[NLINE]
+as we can after the soldiers take the[NLINE]
 bait. That way, we'll make the Fomeros[NLINE]
 soldiers move away from the fort and[NLINE]
 thereby reduce the number of casualties.[END-FE]
@@ -532,7 +532,7 @@ a superweapon.[END-FE]
 I see.[NLINE]
 So you're saying it would be pointless[NLINE]
 to use the Admonisher's blast against[NLINE]
-such a small amount of soldiers.[END-FE]
+such a small number of soldiers.[END-FE]
 
 
 
@@ -644,9 +644,9 @@ Will you end the battle at the summit?[END-FE]
 //なぁ、さっき[NLINE]
 //敵を食いつかせるって話をしたが、[NLINE]
 //具体的にどれくらい被害を与えればいいんだ？[END-FE]
-Hey, earlier we've talked about how[NLINE]
+Hey, earlier we talked about how[NLINE]
 we're going to bait the enemy into[NLINE]
-going after us. But how much of them[NLINE]
+going after us. But how many of them[NLINE]
 should we defeat?[END-FE]
 
 
@@ -667,7 +667,7 @@ should we defeat?[END-FE]
 //しかも山頂での戦いで[NLINE]
 //ウェルバーを引き出すのに、[NLINE]
 //かなりの損害を与える必要があるでしょう。[END-FE]
-Based on the amount of soldiers stationed[NLINE]
+Based on the number of soldiers stationed[NLINE]
 at this mountain, we should aim to defeat[NLINE]
 somewhere between [COL01]fifteen and thirty-four[COL00][NLINE]
 of them. If we defeat more than fifteen,[NLINE]
@@ -677,7 +677,7 @@ will go after us with all their might.[NWIN]
 However, if we defeat more than thirty-four[NLINE]
 of them, the fortress' defenses will weaken.[NLINE]
 Once Wellber realizes that, he'll put a stop[NLINE]
-to the the pursuit.[NWIN]
+to the pursuit.[NWIN]
 
 Furthermore, we'll have to inflict considerable[NLINE]
 damage to the enemy during the battle at the[NLINE]
@@ -701,7 +701,7 @@ summit to cause Wellber to come out.[END-FE]
 Alright, let's do a quick calculation.[NWIN]
 
 We can defeat up to thirty-four soldiers.[NLINE]
-fifteen of those have to be defeated[NLINE]
+Fifteen of those have to be defeated[NLINE]
 in order to lure out Wellber at the[NLINE]
 summit...[NWIN]
 
@@ -750,9 +750,9 @@ of him yourself?[END-FE]
 //それは望ましくありません。[END-FE]
 No, that's not it.[NLINE]
 If their commander is defeated, the[NLINE]
-the soldiers will focus on defense[NLINE]
-in order to regroup. We don't want[NLINE]
-that to happen.[END-FE]
+soldiers will focus on defense in[NLINE]
+order to regroup. We don't want that[NLINE]
+to happen.[END-FE]
 
 
 
@@ -780,7 +780,7 @@ your instructions![END-FE]
 //ポイントは出来るだけ被害を与えずに[NLINE]
 //山頂にたどり着くことですね。[END-FE]
 We must get to the summit while[NLINE]
-making as little casualties as[NLINE]
+making as few casualties as[NLINE]
 possible.[END-FE]
 
 
@@ -870,7 +870,7 @@ Don't let them escape![END-FE]
 //・フォメロス兵を３５人以上倒す[NLINE]
 //・パーティーの全滅[END-FE]
 ・Hofman dies[NLINE]
-・Kill more than thirty-four Formeros soldiers[NLINE]
+・Kill more than thirty-four Fomeros soldiers[NLINE]
 ・All party members die[END-FE]
 
 
@@ -881,7 +881,7 @@ Don't let them escape![END-FE]
 #W32($6E28)
 //・フォメロス兵を３５人以上倒す[NLINE]
 //・パーティーの全滅[END-FE]
-・Kill more than thirty-four Formeros soldiers[NLINE]
+・Kill more than thirty-four Fomeros soldiers[NLINE]
 ・All party members die[END-FE]
 
 
@@ -904,7 +904,7 @@ Don't let them escape![END-FE]
 //　もしくは山頂までに２０人以上倒す[NLINE]
 //・パーティーの全滅[END-FE]
 ・Hofman dies[NLINE]
-・Kill more than thirty-four Formeros soldiers or kill[NLINE]
+・Kill more than thirty-four Fomeros soldiers or kill[NLINE]
  more than nineteen before reaching the mountain top[NLINE]
 ・All party members die[END-FE]
 
@@ -1078,8 +1078,8 @@ Lift Control Device[END-FE]
 //　ウェルバーが出現した後に[NLINE]
 //　下山を完了する[END-FE]
 ・Destroy the lift and[NLINE]
- descent the mountain,[NLINE]
- after Welber appears[END-FE]
+ descend the mountain,[NLINE]
+ after Wellber appears[END-FE]
 
 
 
@@ -1091,8 +1091,8 @@ Lift Control Device[END-FE]
 //　ホフマンを逃がした後に[NLINE]
 //　パーティーメンバーも脱出する[END-FE]
 ・Destroy the lift and[NLINE]
- descent the mountain,[NLINE]
- after Welber appears[END-FE]
+ descend the mountain,[NLINE]
+ after Wellber appears[END-FE]
 
 
 
@@ -1124,7 +1124,7 @@ Activation of Power Builder complete![END-FE]
 //これを壊しておけば、[NLINE]
 //先回りされる心配はありませんね。[END-FE]
 [CHAR2900][V2900]
-Now that we've destroy this, we[NLINE]
+Now that we've destroyed this, we[NLINE]
 won't have to worry about them[NLINE]
 getting ahead of us.[END-FE]
 
@@ -1135,7 +1135,7 @@ getting ahead of us.[END-FE]
 //POINTER #87 @ $6E7C - STRING #87 @ $8383
 #W32($6E7C)
 //・ウェルバー出現後、下山を完了する[END-FE]
-・Descent the mountain after Welber appears[END-FE]
+・Descend the mountain after Wellber appears[END-FE]
 
 
 
@@ -1230,7 +1230,7 @@ Save it for court![END-FE]
 //証拠をつかむまでは、絶対に！[END-FE]
 [CHAR2900][V3000]
 I won't submit myself to an[NLINE]
-an unfair trail![NWIN]
+unfair trial![NWIN]
 
 [CHAR2900][V3100]
 I won't let myself be judged until[NLINE]
@@ -1301,8 +1301,8 @@ I will leave the rest to you![END-FE]
 //・ウェルバーの撃破[NLINE]
 //・パーティーの全滅[END-FE]
 ・Hofman dies[NLINE]
-・Kill more than thirty-four Formeros soldiers[NLINE]
-・Welber is defeated[NLINE]
+・Kill more than thirty-four Fomeros soldiers[NLINE]
+・Wellber is defeated[NLINE]
 ・All party members die[END-FE]
 
 
@@ -1362,8 +1362,8 @@ of here, we'll be in trouble![END-FE]
 //・フォメロス兵を３５人以上倒す[NLINE]
 //・ウェルバーの撃破[NLINE]
 //・パーティーの全滅[END-FE]
-・Kill more than thirty-four Formeros soldiers[NLINE]
-・Welber is defeated[NLINE]
+・Kill more than thirty-four Fomeros soldiers[NLINE]
+・Wellber is defeated[NLINE]
 ・All party members die[END-FE]
 
 
@@ -1384,7 +1384,7 @@ good condition![END-FE]
 #W32($6EC4)
 //ウェルバー少佐が[NLINE]
 //出てくるまでがんばってくれ！[END-FE]
-Let's fight hard until Welber[NLINE]
+Let's fight hard until Wellber[NLINE]
 comes out![END-FE]
 
 
@@ -1489,7 +1489,7 @@ on the enemy until Wellber shows up![END-FE]
 We've defeated a few too many...[NWIN]
 
 We won't be able to lure them[NLINE]
-away from here if we defeat more.[NLINE]
+away from here if we defeat more[NLINE]
 than thirty-four of them.[NLINE]
 Please be careful.[END-FE]
 
@@ -1505,7 +1505,7 @@ Please be careful.[END-FE]
 //気をつけてください。[END-FE]
 We've defeated a few too many...[NLINE]
 We won't be able to lure them[NLINE]
-away from here if we defeat more.[NLINE]
+away from here if we defeat more[NLINE]
 than thirty-four of them.[NLINE]
 Please be careful.[END-FE]
 
@@ -1557,7 +1557,7 @@ to the top![END-FE]
 //被害が大きすぎる、[NLINE]
 //全員いまの守備位置から出るな！[END-FE]
 [CHAR2900][V1E00]
-We've taken too much casualties.[NLINE]
+We've taken too many casualties.[NLINE]
 No one is to leave their defensive[NLINE]
 position![END-FE]
 
@@ -1590,7 +1590,7 @@ This operation is a failure...[END-FE]
 Is that the traitor Hofman!?[NWIN]
 
 [CHAR2900][V2400]
-Hey! Report th9s to Lieutenant Colonel Wellber![END-FE]
+Hey! Report this to Lieutenant Colonel Wellber![END-FE]
 
 
 
@@ -1637,7 +1637,7 @@ Understood![END-FE]
 //POINTER #123 @ $6F0C - STRING #123 @ $8D57
 #W32($6F0C)
 //・ウェルバー出現後、下山を完了する[END-FE]
-・Descent the mountain after Welber appears[END-FE]
+・Descend the mountain after Wellber appears[END-FE]
 
 
 
@@ -1649,7 +1649,7 @@ Understood![END-FE]
 //　ウェルバーが出現した後、[NLINE]
 //　下山を完了する[END-FE]
 ・Destroy the lift and descend[NLINE]
- the mountain after Welber appears[END-FE]
+ the mountain after Wellber appears[END-FE]
 
 
 

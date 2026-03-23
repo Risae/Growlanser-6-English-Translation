@@ -739,7 +739,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #77 @ $5454 - STRING #77 @ $6343
 #W32($5454)
 //・Ｅ＿０１００～０１３０[END-FE]
-・Ｅ＿０１００～０１３０[END-FE]
+・E_0100-0130[END-FE]
 
 
 
@@ -748,7 +748,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #78 @ $5458 - STRING #78 @ $635E
 #W32($5458)
 //・Ｅ＿０２２０～０２３３[END-FE]
-・Ｅ＿０２２０～０２３３[END-FE]
+・E_0220-0233[END-FE]
 
 
 
@@ -757,7 +757,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #79 @ $545C - STRING #79 @ $6379
 #W32($545C)
 //・Ｅ＿０３０１～０３０５[END-FE]
-・Ｅ＿０３０１～０３０５[END-FE]
+・E_0301-0305[END-FE]
 
 
 
@@ -766,7 +766,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #80 @ $5460 - STRING #80 @ $6394
 #W32($5460)
 //・Ｅ＿０３０６～０３１１Ａ[END-FE]
-・Ｅ＿０３０６～０３１１Ａ[END-FE]
+・E_0306-0311A[END-FE]
 
 
 
@@ -775,7 +775,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #81 @ $5464 - STRING #81 @ $63B1
 #W32($5464)
 //・Ｅ＿０５００～０５２９[END-FE]
-・Ｅ＿０５００～０５２９[END-FE]
+・E_0500-0529[END-FE]
 
 
 
@@ -784,7 +784,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #82 @ $5468 - STRING #82 @ $63CC
 #W32($5468)
 //・Ｅ＿０５４０～０５８５[END-FE]
-・Ｅ＿０５４０～０５８５[END-FE]
+・E_0540-0585[END-FE]
 
 
 
@@ -793,7 +793,7 @@ Press ○ to cancel.[END-FE]
 //POINTER #83 @ $546C - STRING #83 @ $63E7
 #W32($546C)
 //・Ｅ＿０６００～０６１１[END-FE]
-・Ｅ＿０６００～０６１１[END-FE]
+・E_0600-0611[END-FE]
 
 
 
@@ -1641,7 +1641,7 @@ First, the version without speech bubble[END-FE]
 //POINTER #177 @ $55E4 - STRING #177 @ $6A53
 #W32($55E4)
 //０，０[END-FE]
-０，０[END-FE]
+0,0[END-FE]
 
 
 
@@ -1650,7 +1650,7 @@ First, the version without speech bubble[END-FE]
 //POINTER #178 @ $55E8 - STRING #178 @ $6A5C
 #W32($55E8)
 //５１１，０[END-FE]
-５１１，０[END-FE]
+511,0[END-FE]
 
 
 
@@ -1659,7 +1659,7 @@ First, the version without speech bubble[END-FE]
 //POINTER #179 @ $55EC - STRING #179 @ $6A69
 #W32($55EC)
 //０，２２４[END-FE]
-０，２２４[END-FE]
+0,224[END-FE]
 
 
 
@@ -1668,7 +1668,7 @@ First, the version without speech bubble[END-FE]
 //POINTER #180 @ $55F0 - STRING #180 @ $6A76
 #W32($55F0)
 //５１１，２２４[END-FE]
-５１１，２２４[END-FE]
+511,224[END-FE]
 
 
 
@@ -1677,7 +1677,7 @@ First, the version without speech bubble[END-FE]
 //POINTER #181 @ $55F4 - STRING #181 @ $6A87
 #W32($55F4)
 //０，４４７[END-FE]
-０，４４７[END-FE]
+0,447[END-FE]
 
 
 
@@ -1686,7 +1686,7 @@ First, the version without speech bubble[END-FE]
 //POINTER #182 @ $55F8 - STRING #182 @ $6A94
 #W32($55F8)
 //５１１，４４７[END-FE]
-５１１，４４７[END-FE]
+511,447[END-FE]
 
 
 
@@ -1704,7 +1704,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #184 @ $5600 - STRING #184 @ $6ABC
 #W32($5600)
 //０，０[END-FE]
-０，０[END-FE]
+0,0[END-FE]
 
 
 
@@ -1713,7 +1713,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #185 @ $5604 - STRING #185 @ $6AC5
 #W32($5604)
 //５１１，０[END-FE]
-５１１，０[END-FE]
+511,0[END-FE]
 
 
 
@@ -1722,7 +1722,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #186 @ $5608 - STRING #186 @ $6AD2
 #W32($5608)
 //０，２２４[END-FE]
-０，２２４[END-FE]
+0,224[END-FE]
 
 
 
@@ -1731,7 +1731,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #187 @ $560C - STRING #187 @ $6ADF
 #W32($560C)
 //５１１，２２４[END-FE]
-５１１，２２４[END-FE]
+511,224[END-FE]
 
 
 
@@ -1740,7 +1740,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #188 @ $5610 - STRING #188 @ $6AF0
 #W32($5610)
 //０，４４７[END-FE]
-０，４４７[END-FE]
+0,447[END-FE]
 
 
 
@@ -1749,7 +1749,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #189 @ $5614 - STRING #189 @ $6AFD
 #W32($5614)
 //５１１，４４７[END-FE]
-５１１，４４７[END-FE]
+511,447[END-FE]
 
 
 
@@ -3645,17 +3645,17 @@ End with ○ button[END-FE]
 //　外字：[TRIANGLE][COL04][TRIANGLE][COL00][SQUARE][COL05][SQUARE][COL00][CIRCLE][COL03][CIRCLE][COL00][CROSS][COL09][CROSS][COL00][NLINE]
 //　表示：START SELECT L1  L2  R1  R2[NLINE]
 //　外字：[START][SELECT][L1][L2][R1][R2][END-FE]
-文字[NLINE]
-　表示：ー－ー　!?　はぁと　汗１　汗２　 [{=}][NLINE]
-　外字：[---]　[!?]　 [HEART][COL05][HEART][COL00] 　[TEAR-DROP][COL09][TEAR-DROP][COL00]　[2-TEAR-DROP][COL09][2-TEAR-DROP][COL00]　[{==}][NLINE]
-アイコン[NLINE]
-　表示：Lv 金 武器防具 GemGoods貴重品Plate[NLINE]
-　外字：[Lv] [Mil]　О　П　Р　[GOODS]　　Т　　У[NLINE]
-ボタン[NLINE]
-　表示： △　□　○　×[NLINE]
-　外字：[TRIANGLE][COL04][TRIANGLE][COL00][SQUARE][COL05][SQUARE][COL00][CIRCLE][COL03][CIRCLE][COL00][CROSS][COL09][CROSS][COL00][NLINE]
-　表示：START SELECT L1  L2  R1  R2[NLINE]
-　外字：[START][SELECT][L1][L2][R1][R2][END-FE]
+Characters[NLINE]
+　Display: ー－ー　!? heart sweat1 sweat2 [{=}][NLINE]
+　Special chars: [---] [!?] [HEART][COL05][HEART][COL00] [TEAR-DROP][COL09][TEAR-DROP][COL00] [2-TEAR-DROP][COL09][2-TEAR-DROP][COL00] [{==}][NLINE]
+Icons[NLINE]
+　Display: Lv Mil Weapon/Armor GemGoods Valuables Plate[NLINE]
+　Special chars: [Lv] [Mil]　О　П　Р　[GOODS]　　Т　　У[NLINE]
+Buttons[NLINE]
+　Display: △　□　○　×[NLINE]
+　Special chars: [TRIANGLE][COL04][TRIANGLE][COL00][SQUARE][COL05][SQUARE][COL00][CIRCLE][COL03][CIRCLE][COL00][CROSS][COL09][CROSS][COL00][NLINE]
+　Display: START SELECT L1  L2  R1  R2[NLINE]
+　Special chars: [START][SELECT][L1][L2][R1][R2][END-FE]
 
 
 

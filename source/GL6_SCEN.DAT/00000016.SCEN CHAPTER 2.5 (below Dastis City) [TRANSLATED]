@@ -777,7 +777,7 @@ draws your eye.[END-FE]
 //発火剤が設置されている。[END-FE]
 //System Message\\
 [NLINE]
-Ignition material is placed on the floor[END-FE]
+Ignition material is placed on the floor.[END-FE]
 
 
 
@@ -841,7 +841,7 @@ instructions here.[END-FE]
 //ごめんなさい、私のせいで…。[END-FE]
 //Wendy\\
 [CHAR0800][V3300]
-My apologies sir, it was all my fault...[END-FE]
+My apologies, sir, it was all my fault...[END-FE]
 
 
 
@@ -1018,7 +1018,7 @@ My deepest apologies, sir![END-FE]
 //すべては水の泡だったんだぞ？[END-FE]
 //Shuweizer\\
 [CHAR0800][V2700]
-It it wasn't for me arriving just in time,[NLINE]
+If it wasn't for me arriving just in time,[NLINE]
 they would have gotten away, and all our[NLINE]
 efforts would have been for nothing. Do[NLINE]
 you understand that?[END-FE]
@@ -1084,7 +1084,7 @@ Yes, sir![END-FE]
 Although I'm at fault for not being[NLINE]
 present when you came to report,[NLINE]
 that doesn't mean you get to act[NLINE]
-on your own accord.[END-FE]
+of your own accord.[END-FE]
 
 
 
@@ -1191,7 +1191,7 @@ Hmmm...[END-FE]
 //POINTER #85 @ $4CF4 - STRING #85 @ $5DA7
 #W32($4CF4)
 //デバッグセーブに行きますか？[END-FE]
-Do you want to go to debug save?[END-FE]
+Do you want to go to a debug save?[END-FE]
 
 
 

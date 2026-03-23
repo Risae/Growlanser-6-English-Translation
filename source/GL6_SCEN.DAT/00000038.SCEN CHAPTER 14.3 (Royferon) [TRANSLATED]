@@ -311,7 +311,7 @@ gather materials![NWIN]
 
 [CH.FACE:Normal]
 Is there a place where I can get[NLINE]
-thingse cheap?[NWIN]
+things cheap?[NWIN]
 
 I'm sure there are a lot of things[NLINE]
 from that city's dump that I could[NLINE]
@@ -892,7 +892,7 @@ wearing are really weird.[END-FE]
 //POINTER #63 @ $A01C - STRING #63 @ $B7E9
 #W32($A01C)
 //彼と一緒なら、毎日ハッピーよ[COL03][HEART][COL00][END-FE]
-Everyday is happy when I'm with my boyfriend.[COL03][HEART][END-FE]
+Every day is happy when I'm with my boyfriend.[COL03][HEART][END-FE]
 
 
 
@@ -1167,7 +1167,7 @@ That's kind of cool in a way.[NLINE]
 A dungeon that leads to the[NLINE]
 underworld...[NWIN]
 
-Once you step in, ghost will app-[END-FE]
+Once you step in, ghosts will app-[END-FE]
 
 
 
@@ -1427,7 +1427,7 @@ what's going on!?[END-FE]
 //盗んできたのは知っているのよ！[END-FE]
 //Korin\\
 We know you went rogue and stole[NLINE]
-stole the Dungeon Master's Rod![END-FE]
+the Dungeon Master's Rod![END-FE]
 
 
 
@@ -1736,7 +1736,7 @@ going on here...[END-FE]
 //まさか、この中で[NLINE]
 //密売が行われていたとは…。[END-FE]
 //Fomeros Soldier\\
-I can't believe illicit trades[NLINE]
+I can't believe illicit trading[NLINE]
 was occurring in here...[END-FE]
 
 
@@ -2201,7 +2201,7 @@ will check the crates.[END-FE]
 //よろしくお願いします。[END-FE]
 [CHAR5C00][V1200]
 It would be best for Hofman[NLINE]
-to take a look the crates.[NWIN]
+to take a look at the crates.[NWIN]
 
 [CHAR5E00][V1300]
 We will remain here. Good luck.[END-FE]
@@ -3022,7 +3022,7 @@ Are you sure you would like to stay?[END-FE]
 //それでしたら、それに見合う労働を[NLINE]
 //して頂くということでどうでしょう？[END-FE]
 In that case, how about some[NLINE]
-manual labor in order to pay of[NLINE]
+manual labor in order to pay off[NLINE]
 your debt?[END-FE]
 
 
@@ -3056,7 +3056,7 @@ favorably by the others...[END-FE]
 //POINTER #246 @ $A2F8 - STRING #246 @ $D6D7
 #W32($A2F8)
 //気が向いたら、またどうぞ。[END-FE]
-lease come again.[END-FE]
+Please come again.[END-FE]
 
 
 
@@ -3263,7 +3263,7 @@ These ingredients will do the trick.[NLINE]
 Thank you for everything![NWIN]
 
 [CH.FACE:Normal][CHAR2003][V8400]
-Alright, I'm going borrow the[NLINE]
+Alright, I'm going to borrow the[NLINE]
 kitchen for a little bit. You[NLINE]
 go ahead to your room![END-FE]
 
@@ -3288,7 +3288,7 @@ satisfying dish with these[NLINE]
 ingredients, but I'll do my best![NWIN]
 
 [CHAR2003][V8200]
-Alright, I'm going borrow the[NLINE]
+Alright, I'm going to borrow the[NLINE]
 kitchen for a little bit. You[NLINE]
 go ahead to your room![END-FE]
 
@@ -3420,7 +3420,7 @@ Royferon, is he?[END-FE]
 [CHAR5D00][V0700]
 Right.[NLINE]
 The [COL01]32nd supply unit[COL00], to[NLINE]
-which is belonged, is responsible for[NLINE]
+which it belongs, is responsible for[NLINE]
 sending supplies to the frontlines.[NWIN]
 
 [CHAR5D00][V0800]
@@ -3553,7 +3553,7 @@ Hm... well...[END-FE]
 //ドロボウの罪を着せようとしたのですね。[END-FE]
 //Yurii\\
 [CHAR5D00][V4C00]
-So Welber tried to frame you for[NLINE]
+So Wellber tried to frame you for[NLINE]
 theft.[END-FE]
 
 
@@ -3583,7 +3583,7 @@ then also ended up here.[END-FE]
 //Rukias\\
 [CHAR5D00][V4E00]
 The more I hear, the more it sounds[NLINE]
-like that Welber is behind it.[END-FE]
+like that Wellber is behind it.[END-FE]
 
 
 
@@ -3762,7 +3762,7 @@ A present...[END-FE]
 //ここに手配犯がいるじゃないか。[NLINE]
 //…もちろん、無実だけどね。[END-FE]
 [CHAR5D00][V5900]
-Why would be use such a roundabout[NLINE]
+Why would we use such a roundabout[NLINE]
 method when we have a wanted fugitive[NLINE]
 right in our midst?[NLINE]
 ...But I'm innocent, of course.[END-FE]
@@ -4194,7 +4194,7 @@ this time?[END-FE]
 //Yurii\\
 [CHAR2003][V8700]
 Actually, there's someone who[NLINE]
-would like to to meet you.[END-FE]
+would like to meet you.[END-FE]
 
 
 
@@ -4497,7 +4497,7 @@ for everything.[END-FE]
 //Meine\\
 [CHAR2003][V9F00]
 I'm grateful for being able[NLINE]
-see how you've grown.[NWIN]
+to see how you've grown.[NWIN]
 
 [CHAR2003][VA000]
 I'm very sorry, but I need to[NLINE]
@@ -4622,7 +4622,7 @@ assets into jewels...[NWIN]
 
 [CHAR5B00][V1200]
 Even though this city is located along[NLINE]
-the border, it's far from battlefield,[NLINE]
+the border, it's far from the battlefield,[NLINE]
 so there should be no demand. Especially[NLINE]
 during these times...[END-FE]
 
@@ -4840,7 +4840,7 @@ finest quality.[END-FE]
 //それを聞いてどうするつもりだ？[END-FE]
 //Inn Owner\\
 [CHAR2003][V5700]
-What? my wife's name?[NLINE]
+What? My wife's name?[NLINE]
 What do you intend to do if[NLINE]
 I were to tell you?[END-FE]
 
@@ -5081,7 +5081,7 @@ I can alter magic metal.[END-FE]
 //カウンターの者が承ります。[END-FE]
 This is a very rare ring.[NLINE]
 If you would like to resize it,[NLINE]
-please talk to person behind the[NLINE]
+please talk to the person behind the[NLINE]
 counter.[END-FE]
 
 
@@ -5271,7 +5271,7 @@ again.[END-FE]
 //POINTER #402 @ $A568 - STRING #402 @ $FE49
 #W32($A568)
 //しまった！逃がしたか！[END-FE]
-Shoot! He ran way![END-FE]
+Shoot! He ran away![END-FE]
 
 
 
@@ -5406,7 +5406,7 @@ disappear...[END-FE]
 //[CHAR5F00][V0E00]
 //何をするつもりだ？[END-FE]
 [CHAR5F00][V0E00]
-What do you intend do?[END-FE]
+What do you intend to do?[END-FE]
 
 
 
@@ -5780,7 +5780,7 @@ wisely![END-FE]
 //戦争を続けるような奴は願い下げだ！[END-FE]
 [CHAR5F00][V2500]
 That's right! The very least we[NLINE]
-should is vote that warmonger[NLINE]
+should do is vote that warmonger[NLINE]
 out of office![END-FE]
 
 
@@ -5980,7 +5980,7 @@ Yes, what is the matter, sir?[END-FE]
 [CHAR5D00][V1500]
 As you have seen, the supplies[NLINE]
 that were sent today are less[NLINE]
-than 20% procent of the planned[NLINE]
+than 20 percent of the planned[NLINE]
 amount.[END-FE]
 
 
@@ -6058,7 +6058,7 @@ You don't have to tell me that.[NWIN]
 
 [CC.BE0105][CHAR5D00][V1B00]
 I'll organize a relief force and[NLINE]
-provide backup the supply unit.[NWIN]
+provide backup to the supply unit.[NWIN]
 
 [CHAR5D00][V1C00]
 During that time, I will entrust the[NLINE]
@@ -6180,7 +6180,7 @@ If Hofman were to die...[END-FE]
 //大丈夫だろう。[NLINE]
 //ああみえて、奴は有能だからな。[END-FE]
 [CHAR5D00][V2700]
-It will be fine. He many not look the[NLINE]
+It will be fine. He may not look the[NLINE]
 part, but he's quite capable.[END-FE]
 
 
