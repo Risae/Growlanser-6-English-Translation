@@ -946,7 +946,7 @@ Which class to check?[END-FE]
 //POINTER #101 @ $CFB4 - STRING #101 @ $D7BB
 #W32($CFB4)
 //・１００番台へ[END-FE]
-・１００番台へ[END-FE]
+・Go to 100s[END-FE]
 
 
 
@@ -955,7 +955,7 @@ Which class to check?[END-FE]
 //POINTER #102 @ $CFB8 - STRING #102 @ $D7CC
 #W32($CFB8)
 //・２００番台へ[END-FE]
-・２００番台へ[END-FE]
+・Go to 200s[END-FE]
 
 
 
@@ -964,7 +964,7 @@ Which class to check?[END-FE]
 //POINTER #103 @ $CFBC - STRING #103 @ $D7DD
 #W32($CFBC)
 //・３００番台へ[END-FE]
-・３００番台へ[END-FE]
+・Go to 300s[END-FE]
 
 
 
@@ -1072,7 +1072,7 @@ Which class to check?[END-FE]
 //POINTER #115 @ $CFEC - STRING #115 @ $D8C9
 #W32($CFEC)
 //・０００番台へ[END-FE]
-・０００番台へ[END-FE]
+・Go to 000s[END-FE]
 
 
 
@@ -1081,7 +1081,7 @@ Which class to check?[END-FE]
 //POINTER #116 @ $CFF0 - STRING #116 @ $D8DA
 #W32($CFF0)
 //・２００番台へ[END-FE]
-・２００番台へ[END-FE]
+・Go to 200s[END-FE]
 
 
 
@@ -1090,7 +1090,7 @@ Which class to check?[END-FE]
 //POINTER #117 @ $CFF4 - STRING #117 @ $D8EB
 #W32($CFF4)
 //・３００番台へ[END-FE]
-・３００番台へ[END-FE]
+・Go to 300s[END-FE]
 
 
 
@@ -1198,7 +1198,7 @@ Which class to check?[END-FE]
 //POINTER #129 @ $D024 - STRING #129 @ $D9D7
 #W32($D024)
 //・０００番台へ[END-FE]
-・０００番台へ[END-FE]
+・Go to 000s[END-FE]
 
 
 
@@ -1207,7 +1207,7 @@ Which class to check?[END-FE]
 //POINTER #130 @ $D028 - STRING #130 @ $D9E8
 #W32($D028)
 //・１００番台へ[END-FE]
-・１００番台へ[END-FE]
+・Go to 100s[END-FE]
 
 
 
@@ -1216,7 +1216,7 @@ Which class to check?[END-FE]
 //POINTER #131 @ $D02C - STRING #131 @ $D9F9
 #W32($D02C)
 //・３００番台へ[END-FE]
-・３００番台へ[END-FE]
+・Go to 300s[END-FE]
 
 
 
@@ -1315,7 +1315,7 @@ Which class to check?[END-FE]
 //POINTER #142 @ $D058 - STRING #142 @ $DACC
 #W32($D058)
 //・０００番台へ[END-FE]
-・０００番台へ[END-FE]
+・Go to 000s[END-FE]
 
 
 
@@ -1324,7 +1324,7 @@ Which class to check?[END-FE]
 //POINTER #143 @ $D05C - STRING #143 @ $DADD
 #W32($D05C)
 //・１００番台へ[END-FE]
-・１００番台へ[END-FE]
+・Go to 100s[END-FE]
 
 
 
@@ -1333,7 +1333,7 @@ Which class to check?[END-FE]
 //POINTER #144 @ $D060 - STRING #144 @ $DAEE
 #W32($D060)
 //・２００番台へ[END-FE]
-・２００番台へ[END-FE]
+・Go to 200s[END-FE]
 
 
 

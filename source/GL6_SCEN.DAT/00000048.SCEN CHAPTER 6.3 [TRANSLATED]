@@ -564,7 +564,7 @@ stranger.[END-FE]
 ...I see... Then leave me be.[NWIN]
 
 [CHARCD00][V1600]
-Once I finished self-repairs, I will[NLINE]
+Once I finish self-repairs, I will[NLINE]
 be able to see you.[NWIN]
 
 [CHARCD00][V1700]
@@ -601,7 +601,7 @@ you also made me very talkative...[NWIN]
 
 [CHARCD00][V1800]
 Thank you, for conversing with[NLINE]
-me. I can't see how you look like,[NLINE]
+me. I can't see what you look like,[NLINE]
 but I'm grateful.[END-FE]
 
 
@@ -994,7 +994,7 @@ the blade. I don't mean to boast, but[NLINE]
 I put my heart into it...[NWIN]
 
 [CH.FACE:Shy][CHARCD00][V6900]
-That's why... I wanted you have it...[NLINE]
+That's why... I wanted you to have it...[NLINE]
 ...no matter what.[END-FE]
 
 
@@ -1078,7 +1078,7 @@ Where did he go!?[END-FE]
 No... I... I...[NWIN]
 
 [CHARCD00][V6E00]
-Why is it you....?[NLINE]
+Why is it you...?[NLINE]
 I...!![NWIN]
 
 [CHARCD00][V6F00]
@@ -1111,7 +1111,7 @@ I...!![NWIN]
 ...Brave One...[NWIN]
 
 [CHARCD00][V7100]
-I didn't knew that Neilis[NLINE]
+I didn't know that Neilis[NLINE]
 had such strong feelings.[NWIN]
 
 [CHARCD00][V7200]
@@ -1172,7 +1172,7 @@ directly north of this tunnel.[END-FE]
 //この北のトンネルを抜けてすぐのところです。[END-FE]
 [CHAR3500][V0100]
 Do you remember where Totuwa[NLINE]
-Village is? It's lies directly[NLINE]
+Village is? It lies directly[NLINE]
 north of this tunnel's exit.[END-FE]
 
 
@@ -1300,7 +1300,7 @@ Well, fine...[NWIN]
 
 [CHAR1C00][V0700]
 The Dragon Orb, which you call a treasure,[NLINE]
-is an object can gathers this planet's energy.[NLINE]
+is an object that gathers this planet's energy.[NLINE]
 It does so by manipulating the Ley Lines,[NLINE]
 through which flows the energy of the land.[NWIN]
 
@@ -1396,7 +1396,7 @@ is saying was correct...?[END-FE]
 //POINTER #83 @ $67EC - STRING #83 @ $84A0
 #W32($67EC)
 //・偶然の一致[END-FE]
-・It's just an coincidence[END-FE]
+・It's just a coincidence[END-FE]
 
 
 
@@ -1831,7 +1831,7 @@ reach our destination.[END-FE]
 #W32($6884)
 //ほらほら、どこに行くの？[NLINE]
 //行き先は、ポトラドの里でしょ？[END-FE]
-Hey, hey, where you're going?[NLINE]
+Hey, hey, where are you going?[NLINE]
 Our destination is Pothrad Village, right?[END-FE]
 
 
@@ -1988,7 +1988,7 @@ Gyup![END-FE]
 #W32($68B8)
 //ここはシリルティア王国[NLINE]
 //王都フェルメンティアです。[END-FE]
-This is Fermentia, the royal capital[NLINE]
+This is Felmentia, the royal capital[NLINE]
 of the Kingdom of Cyriltia.[END-FE]
 
 
@@ -2131,7 +2131,7 @@ people who attacked the Commonwealth[NLINE]
 are the cause of this global[NLINE]
 crisis.[NWIN]
 
-We'll destroy that Lay Point[NLINE]
+We'll destroy that Ley Point[NLINE]
 Tower with our own hands![END-FE]
 
 
@@ -2147,7 +2147,7 @@ Tower with our own hands![END-FE]
 //絶対にこの世界を救ってみせる！[END-FE]
 Wouldn't it be possible to make[NLINE]
 our enemies retreat by simply[NLINE]
-destroying that Lay Point Tower?[NWIN]
+destroying that Ley Point Tower?[NWIN]
 
 However, we can't give up no matter what.[NLINE]
 We'll definitely save this world![END-FE]
@@ -2182,7 +2182,7 @@ I've heard about you from[NLINE]
 Krious.[NWIN]
 
 My name is Melvina. I'm a member[NLINE]
-of th PMB's Ops Division.[END-FE]
+of the PMB's Ops Division.[END-FE]
 
 
 
@@ -2203,7 +2203,7 @@ the attack plan on the Lay[NLINE]
 Point Tower that has been[NLINE]
 built in Commonwealth territory.[NWIN]
 
-Leave it this us. Please[NLINE]
+Leave it to us. Please[NLINE]
 concentrate your attention[NLINE]
 on the towers on your continent.[END-FE]
 
@@ -2216,7 +2216,7 @@ on the towers on your continent.[END-FE]
 //龍穴塔の攻略は成功したな。[NLINE]
 //だが、まだ残存兵力があり、[NLINE]
 //小国連合はいまだ奴らの手にある。[END-FE]
-The capture of the Lay Point[NLINE]
+The capture of the Ley Point[NLINE]
 Tower has been a success. However,[NLINE]
 the Commonwealth is still in[NLINE]
 the hands of the remaining forces.[END-FE]
@@ -2270,7 +2270,7 @@ I heard the story. Now is[NLINE]
 the time for us to join[NLINE]
 forces.[NWIN]
 
-We'll destroy that Lay Point[NLINE]
+We'll destroy that Ley Point[NLINE]
 Tower and liberate the Commonwealth.[END-FE]
 
 
@@ -2394,7 +2394,7 @@ South Bridge (Under Construction)[END-FE]
 //楽になるよ。[END-FE]
 Once this bridge is completed,[NLINE]
 it will be easier to reach the[NLINE]
-the Commonwealth to the south.[END-FE]
+Commonwealth to the south.[END-FE]
 
 
 

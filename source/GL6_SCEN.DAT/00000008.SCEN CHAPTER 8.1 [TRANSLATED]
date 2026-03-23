@@ -341,8 +341,8 @@ For goodness' sake, how many are there?[END-FE]
 //Peddler\\
 [CHAR2700][V0200]
 It's no good, Hofman![NLINE]
-All the other escort guards except[NLINE]
-for you have been killed...[END-FE]
+All the other escort guards, except[NLINE]
+for you, have been killed...[END-FE]
 
 
 
@@ -625,7 +625,7 @@ Please bring it back![END-FE]
 //・護衛役の死亡[NLINE]
 //・キャリィの全滅、または逃走[NLINE]
 //・パーティーの全滅[END-FE]
-・One of the merchants die[NLINE]
+・One of the merchants dies[NLINE]
 ・The merchant's escort guard dies[NLINE]
 ・All Steeds die or run away[NLINE]
 ・All party members die[END-FE]
@@ -1118,7 +1118,7 @@ Has something changed?[END-FE]
 I'm sorry, we have no idea...[NWIN]
 
 [CHAR2700][V1D00]
-Anyway, what do you mean with[NLINE]
+Anyway, what do you mean by[NLINE]
 recent terrorists?[END-FE]
 
 
@@ -1177,7 +1177,7 @@ A resistance...[END-FE]
 //ともかく、旅をなさるなら、[NLINE]
 //お気をつけください。[END-FE]
 [CHAR2700][V2100]
-It's still only rumor, but[NLINE]
+It's still only a rumor, but[NLINE]
 I heard that a very charismatic[NLINE]
 man rallied the various terrorist[NLINE]
 groups around him...[NWIN]

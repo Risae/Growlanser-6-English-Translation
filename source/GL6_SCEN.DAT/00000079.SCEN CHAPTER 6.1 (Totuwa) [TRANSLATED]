@@ -202,7 +202,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //おめでとうね、[Futon-Dog]。[END-FE]
 B-bewdy[NLINE]
 To think ya could beat Ellon![NLINE]
-Goon on ya, [Futon-Dog].[END-FE]
+Good on ya, [Futon-Dog].[END-FE]
 
 
 
@@ -384,7 +384,7 @@ I think Miranda is at the inn.[END-FE]
 Congratulations to [Futon-Dog][NLINE]
 and its raiser for winning![NWIN]
 
-This is your price![END-FE]
+This is your prize![END-FE]
 
 
 
@@ -402,7 +402,7 @@ It seems you can't hold any more.[NWIN]
 
 I'll put it in your Rana Bag so that[NLINE]
 you can take it out when you have[NLINE]
-room again[END-FE]
+room again.[END-FE]
 
 
 
@@ -456,7 +456,7 @@ Contest for a long time.[END-FE]
 //どんなダンスか知りたくない？[END-FE]
 I remembered a dance sweet, little[NLINE]
 Check did once. Do you know what[NLINE]
-to know what kind of dance it is?[END-FE]
+kind of dance it is?[END-FE]
 
 
 
@@ -544,7 +544,7 @@ Your [COL01]Rana Bag[COL00] is full![END-FE]
 Congratulations to [Futon-Dog][NLINE]
 and its raiser for winning![NWIN]
 
-This is your price![END-FE]
+This is your prize![END-FE]
 
 
 
@@ -562,7 +562,7 @@ It seems you can't hold any more.[NWIN]
 
 I'll put it in your Rana Bag so that[NLINE]
 you can take it out when you have[NLINE]
-room again[END-FE]
+room again.[END-FE]
 
 
 
@@ -832,7 +832,7 @@ Dog.[END-FE]
 #W32($899C)
 //[Futon-Dog]の朱色のふとん、[NLINE]
 //とても暖かそうですね。[END-FE]
-[Futon-Dog]'s vermillion futon[NLINE]
+[Futon-Dog]'s vermilion futon[NLINE]
 looks warm, doesn't it?[END-FE]
 
 
@@ -846,7 +846,7 @@ looks warm, doesn't it?[END-FE]
 //なったのでしょうね。[END-FE]
 A cross shaped futon...[NLINE]
 How did it become such a[NLINE]
-shape.[END-FE]
+shape?[END-FE]
 
 
 
@@ -901,7 +901,7 @@ everyone behind.[END-FE]
 //いらっしゃいませ。[NLINE]
 //よろず屋へようこそ。[END-FE]
 Welcome.[NLINE]
-This is the Item Shop.[END-FE].[END-FE]
+This is the Item Shop.[END-FE]
 
 
 
@@ -1297,7 +1297,7 @@ exceeds those of ordinary canoines.[NWIN]
 [CHARCA03][V1100]
 Howevah, because they are a gentle[NLINE]
 breed, they rarely develop these[NLINE]
-aboilitees.[NWIN]
+abilities.[NWIN]
 
 [CHARCA03][V1200]
 That's why I'm lookin' for raisers[NLINE]
@@ -1461,7 +1461,7 @@ Bonzer![NLINE]
 Me doggies will be stoked to be[NLINE]
 raised by youse blokes![NWIN]
 
-Howevah, first I would loike ya to[NLINE]
+Howevah, first I would loike to[NLINE]
 tell ya various things 'bout Futon Dogs.[END-FE]
 
 
@@ -1537,10 +1537,10 @@ What would ya loike to know?[END-FE]
 Ya don't need qualifications to[NLINE]
 become a trainer.[NWIN]
 
-Basically, all ya 've got to do is[NLINE]
+Basically, all ya've got to do is[NLINE]
 do things with a Futon Dog.[NWIN]
 
-Various kinds of rainin' support[NLINE]
+Various kinds of trainin' support[NLINE]
 are provided in this village. Make sure[NLINE]
 to take advantage of 'em.[NWIN]
 
@@ -1664,7 +1664,7 @@ luxurious the prize. Please look[NLINE]
 fohwahd to it.[NWIN]
 
 If a Futon Dog has a bond with its[NLINE]
-raiser, it should be able to excert its[NLINE]
+raiser, it should be able to exert its[NLINE]
 paowah more than usual and meet his or her[NLINE]
 expectations.[NWIN]
 
@@ -1690,7 +1690,7 @@ Roight.[END-FE]
 //少し後ろに下がってくれ。[END-FE]
 Alroight, time to call in the doggies[NLINE]
 available for raisin'. Youse blokes[NLINE]
-please step back back a bit.[END-FE]
+please step back a bit.[END-FE]
 
 
 
@@ -1749,7 +1749,7 @@ a lot.[END-FE]
 The one with the black cross pahttuhnn[NLINE]
 on its back is Masonite. He's reliable and[NLINE]
 has strawng willpaowah. Masonite has solid basic[NLINE]
-physical straength.[END-FE]
+physical strength.[END-FE]
 
 
 
@@ -1774,7 +1774,7 @@ new theengs and has a good sense of smell.[END-FE]
 //最近までお屋敷で過ごしていたらしく、[NLINE]
 //良くしつけをされている。[END-FE]
 The one with the pink diamond pattern[NLINE]
-is Soleil. She seems to 'ave spend toime[NLINE]
+is Soleil. She seems to 'ave spent toime[NLINE]
 in a mansion until recently and is well[NLINE]
 mannered.[END-FE]
 
@@ -1953,7 +1953,7 @@ ownahs from now on, alroight?[END-FE]
 //POINTER #143 @ $8ADC - STRING #143 @ $B770
 #W32($8ADC)
 //…きゃうん…。[END-FE]
-...Nnnn...Nnnn....[END-FE]
+...Nnnn...Nnnn...[END-FE]
 
 
 
@@ -2161,7 +2161,7 @@ Good on ya, mate.[END-FE]
 //届けてくれたみたいだね。[NLINE]
 //ご苦労さま。[END-FE]
 Looks loike ya deleevered it.[NLINE]
-Good on ya, mate.[[END-FE]
+Good on ya, mate.[END-FE]
 
 
 
@@ -2373,7 +2373,7 @@ I owe ya, mate.[END-FE]
 //君にブリーダーを頼んで本当に良かったよ。[NLINE]
 //これはちょっとした感謝の気持ちだ。[NLINE]
 //受け取ってくれ。[END-FE]
-Looks loike like [Futon-Dog]'s aboilitees[NLINE]
+Looks loike [Futon-Dog]'s abilities[NLINE]
 grew quite a bit.[NWIN]
 
 I'm stoked I asked ya to become a[NLINE]
@@ -2599,7 +2599,7 @@ we saw on that diagram earlier.[END-FE]
 #W32($8BAC)
 //[Futon-Dog]にこの前買った本の内容を[NLINE]
 //教えましょう。[END-FE]
-Let's learn [Futon-Dog] the dance[NLINE]
+Let's teach [Futon-Dog] the dance[NLINE]
 from that book we bought last time![END-FE]
 
 
@@ -2816,7 +2816,7 @@ and music playin'.[NWIN]
 Ya will need Service Points to[NLINE]
 receive these services.[NWIN]
 
-The required amount of point is[NLINE]
+The required amount of points is[NLINE]
 displayed on the roight. Pay attention[NLINE]
 to yoah remaining points when makin'[NLINE]
 use o' services.[NWIN]
@@ -3273,7 +3273,7 @@ The music pieces will be displayed at the[NLINE]
 beginning of the contest.[NWIN]
 
 Next, set a dance to the following buttons:[NLINE]
-[COL03][CIRCLE][COL00], [COL04][TRIANGLE][COL00] and [COL05]Square[COL00].[[NWIN]
+[COL03][CIRCLE][COL00], [COL04][TRIANGLE][COL00] and [COL05]Square[COL00].[NWIN]
 
 Because there are affinities between[NLINE]
 certain dances and music pieces, please[NLINE]
@@ -3307,7 +3307,7 @@ so keep this in mind when the second[NLINE]
 and third music pieces are playing.[NWIN]
 
 The time it takes to press a button also[NLINE]
-effects the score, so remember to press[NLINE]
+affects the score, so remember to press[NLINE]
 a button as soon as you recognize the[NLINE]
 music.[NWIN]
 
@@ -3496,7 +3496,7 @@ when that happens. If you approach[NLINE]
 the runaway Futon Dog and encourage[NLINE]
 it, it will return to the competition.[NWIN]
 
-Please make your Futon Dog eat as much[NLINE]
+Please make your Futon Dog eat as many[NLINE]
 Slimes as possible.[END-FE]
 
 
@@ -3686,7 +3686,7 @@ Two barks            Moderately long distance[NLINE]
 //会場から多くの玉を探し出してください。[END-FE]
 Your Futon Dog will not be able to search[NLINE]
 if it's too far away or if its Discipline[NLINE]
-stat and Loyalty is too low. The number[NLINE]
+stat and Loyalty are too low. The number[NLINE]
 of searches will increase in accordance[NLINE]
 with its Discipline stat and Loyalty.[NWIN]
 
@@ -3865,7 +3865,7 @@ one-on-one fight with the reigning[NLINE]
 champion Ellon. You simply have to[NLINE]
 win.[NWIN]
 
-There will attack turns and defense[NLINE]
+There will be attack turns and defense[NLINE]
 turns during the dogfight.[NWIN]
 
 Your Futon Dog's attack turn consists[NLINE]
@@ -3883,7 +3883,7 @@ is to find a weakpoint in its opponent's[NLINE]
 defense.[NWIN]
 
 During Determine Attack Location, you[NLINE]
-will decide from side your Futon Dog[NLINE]
+will decide from which side your Futon Dog[NLINE]
 will attack its opponent.[NWIN]
 
 The higher your Futon Dog's overall[NLINE]
@@ -4053,7 +4053,7 @@ Loyalty Depth[CC.EF00][END-FE]
 //[Futon-Dog]のブリーダーは、[NLINE]
 //君以外ありえないって感じだね！[END-FE]
 You are inseparable![NLINE]
-[Futon-Dog] feels no else can[NLINE]
+[Futon-Dog] feels no one else can[NLINE]
 be its breeder but you![END-FE]
 
 
@@ -4090,7 +4090,7 @@ you quite a bit.[END-FE]
 //レベルだね。[NLINE]
 //ここからだよ。[END-FE]
 It finally acknowledged you as its[NLINE]
-raiser. Kee it up.[END-FE]
+raiser. Keep it up.[END-FE]
 
 
 
@@ -4238,7 +4238,7 @@ outside change.[END-FE]
 //良い場所はないものかな。[END-FE]
 We want to increase the amount[NLINE]
 of places where Futon Dogs can[NLINE]
-go for a walk. I wonder if they're[NLINE]
+go for a walk. I wonder if there[NLINE]
 are any good spots for that?[END-FE]
 
 
@@ -4378,7 +4378,7 @@ came here.[END-FE]
 //その間に小屋の掃除を終わらせないとね！[END-FE]
 Do you need Dr. Irving for something?[NLINE]
 He's out on a walk with the dogs[NLINE]
-right. In the meantime, I have to[NLINE]
+right now. In the meantime, I have to[NLINE]
 finish cleaning the shelter![END-FE]
 
 
@@ -4436,7 +4436,7 @@ We strive day and night to create[NLINE]
 an environment where our Futon Dogs[NLINE]
 can walk as safely as possible.[NWIN]
 
-Please keep in the mind that the[NLINE]
+Please keep in mind that the[NLINE]
 difficulty of the walking course will[NLINE]
 increase in accordance with your[NLINE]
 Futon Dog's level.[NWIN]
@@ -5079,7 +5079,7 @@ a trick? Which one?[END-FE]
 //POINTER #382 @ $8E98 - STRING #382 @ $F890
 #W32($8E98)
 //[Futon-Dog]にフセを覚えさせるんだね？[END-FE]
-You want me [Futon-Dog] to learn how[NLINE]
+You want [Futon-Dog] to learn how[NLINE]
 to lie down on command?[END-FE]
 
 
@@ -5534,7 +5534,7 @@ to do a forward roll?[END-FE]
 //では、行きます。[NLINE]
 //[Futon-Dog]、前転！[END-FE]
 Alright, here we go.[NLINE]
-[Futon-Dog, do a forward roll![END-FE]
+[Futon-Dog], do a forward roll![END-FE]
 
 
 
@@ -5664,7 +5664,7 @@ alroight?[END-FE]
 #W32($8F68)
 //船着場まで物を[NLINE]
 //取ってきて欲しいんだ。[END-FE]
-If want ya to pick somethin'[NLINE]
+I want ya to pick somethin'[NLINE]
 at the pier, alroight?[END-FE]
 
 
@@ -5674,7 +5674,7 @@ at the pier, alroight?[END-FE]
 //POINTER #435 @ $8F6C - STRING #435 @ $10169
 #W32($8F6C)
 //狩りをしてきて欲しいんだが。[END-FE]
-If want ya to do some huntin',[NLINE]
+I want ya to do some huntin',[NLINE]
 alroight?[END-FE]
 
 
@@ -5773,7 +5773,7 @@ Alroight, I'm countin' on ya![END-FE]
 //今回の仕事だけど、[NLINE]
 //船着場まで荷物を[NLINE]
 //取りに行って欲しいんだ。[END-FE]
-This toime, If want ya to pick somethin'[NLINE]
+This toime, I want ya to pick somethin'[NLINE]
 at the pier, alroight?[END-FE]
 
 
@@ -5900,7 +5900,7 @@ for each tongue ya bring me.[END-FE]
 //取って来てくれた分だけ、[NLINE]
 //サービスポイントをあげるよ。[END-FE]
 There's a monster called a[NLINE]
-Will o' Wisp. I want ya to[NLINE]
+Will o' Wisp. I want ya to get[NLINE]
 some of the luminescent powder[NLINE]
 that covers it.[NWIN]
 
@@ -5925,7 +5925,7 @@ for each pinch of powder ya bring me.[END-FE]
 There's a monster called a Floater.[NLINE]
 I want ya to get its shell.[NWIN]
 
-It's sturdy shell, so it'll be of[NLINE]
+It's a sturdy shell, so it'll be of[NLINE]
 use to me.[NWIN]
 
 I'll give ya a Service Point[NLINE]
@@ -6487,7 +6487,7 @@ used in the dance contest.[NWIN]
 Each dance has affinity with[NLINE]
 one of the music pieces. Dances[NLINE]
 of the step variety go well[NLINE]
-together with "Like a Caroon".[NLINE]
+together with "Like a Cartoon".[NLINE]
 Dances of the standing variety[NLINE]
 go well with "Cheerful Event".[NLINE]
 Dances of the rotation variety[NLINE]
@@ -6669,8 +6669,8 @@ a little ahead in the future.[CC.BE0105][NWIN]
 [CHAR3500][V0A00]
 However, every time something happens[NLINE]
 in the past, the future greatly changes.[NLINE]
-Thus, trying to forsee the future has[NLINE]
-become exercise in futility.[END-FE]
+Thus, trying to foresee the future has[NLINE]
+become an exercise in futility.[END-FE]
 
 
 
@@ -6977,8 +6977,8 @@ the future...[END-FE]
 Ah! You came just like you said[NLINE]
 you would![NWIN]
 
-From now one, I will use the techniques[NLINE]
-I have cultivated to give rigorous trainings[NLINE]
+From now on, I will use the techniques[NLINE]
+I have cultivated to give rigorous training[NLINE]
 to Futon Dogs. Come talk to me anytime.[NWIN]
 
 But it will cost you Service Points, of[NLINE]
@@ -7263,7 +7263,7 @@ hero.[END-FE]
 [CHAR1B00][V0B00]
 Yes.[NLINE]
 I'm confident that he is the[NLINE]
-the Brave One.[NWIN]
+Brave One.[NWIN]
 
 [CHAR1B00][V0C00]
 The reason I hadn't found him until[NLINE]
@@ -7282,7 +7282,7 @@ the continent.[END-FE]
 [CHAR1B00][V0D00]
 Outside the continent... I see.[NLINE]
 It's no wonder then that even[NLINE]
-I couldn't forsee it.[END-FE]
+I couldn't foresee it.[END-FE]
 
 
 
@@ -7464,9 +7464,9 @@ So it wasn't just me.[END-FE]
 //まさか大陸の封印が解けるとも思わなかった。[END-FE]
 [CHAR1B00][V1E00]
 The future-changing events that have[NLINE]
-occurred this past year can said to be[NLINE]
+occurred this past year can be said to be[NLINE]
 extraordinary. That's why the actual future[NLINE]
-can't be forseen. I never would have thought[NLINE]
+can't be foreseen. I never would have thought[NLINE]
 the seal around this continent would[NLINE]
 break.[END-FE]
 
@@ -7497,7 +7497,7 @@ impact on the future, right?[END-FE]
 //滅多なことは言いたくないが、[NLINE]
 //最悪の場合、この星そのものが終わる。[END-FE]
 [CHAR1B00][V2000]
-What I'm about to tell is might be[NLINE]
+What I'm about to tell you might be[NLINE]
 rash because there are still too many[NLINE]
 uncertainties. However, I will say it[NLINE]
 anyway: in the worst case scenario,[NLINE]
@@ -7575,7 +7575,7 @@ Predict...?[END-FE]
 //すべてはあなた方の行動にかかっている。[END-FE]
 [CHAR1B00][V2700]
 Whether that future comes to pass[NLINE]
-or not... all will depended on your[NLINE]
+or not... all will depend on your[NLINE]
 actions.[END-FE]
 
 
@@ -7737,7 +7737,7 @@ surrounding environment.[END-FE]
 //ここは、妖精の知力を競う、[NLINE]
 //妖精コンテスト学術部門の会場です。[END-FE]
 [CHAR9501][V0000]
-This the contest hall for the[NLINE]
+This is the contest hall for the[NLINE]
 Debate Contest, where fairies[NLINE]
 show off their wit.[END-FE]
 
@@ -7801,7 +7801,7 @@ fairy have?[END-FE]
 #W32($91E8)
 //私どもには妖精はいませんが、[NLINE]
 //こうして妖精を見るのが好きでしてな。[END-FE]
-We don't have fairies but but we[NLINE]
+We don't have fairies but we[NLINE]
 enjoy seeing them like this.[END-FE]
 
 
@@ -8016,7 +8016,7 @@ do some tunnel crawling?[END-FE]
 //よしっ！[NLINE]
 //[Futon-Dog]、がんばってみましょう！[END-FE]
 Very well.[NLINE]
-Do you your best, [Futon-Dog]![END-FE]
+Do your best, [Futon-Dog]![END-FE]
 
 
 
@@ -8101,7 +8101,7 @@ it was practicing.[END-FE]
 //　[NLINE]
 //清潔そうなベッドだ。[END-FE]
 [NLINE]
-It's clean-looking bed.[END-FE]
+It's a clean-looking bed.[END-FE]
 
 
 
