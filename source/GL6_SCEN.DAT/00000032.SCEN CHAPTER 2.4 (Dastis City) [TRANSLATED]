@@ -440,7 +440,7 @@ Alright, it's showtime![END-FE]
 //この前、こうざんに赤い服をきた[NLINE]
 //ドロボウが出たんだって！[END-FE]
 //Boy\\
-Hey mister, you know my brother, right? A[NLINE]
+Hey mister, you know my brother, right?[NLINE]
 He told me that earlier, a thief dressed[NLINE]
 in red showed up in the mine![END-FE]
 
@@ -1302,7 +1302,7 @@ as inhabitant of Earth Village.[END-FE]
 //そうですね。[NLINE]
 //その時は頼みますよ。[END-FE]
 Yes. I will call upon your[NLINE]
-help when that times comes.[END-FE]
+help when that time comes.[END-FE]
 
 
 
@@ -1693,7 +1693,7 @@ Enchantment Gem.[END-FE]
 //POINTER #140 @ $78D0 - STRING #140 @ $9C50
 #W32($78D0)
 //ジェムに原石を合成して、様々な効果を得る。[END-FE]
-Combine Echanted Gems with Gemstones to[NLINE]
+Combine Enchanted Gems with Gemstones to[NLINE]
 obtain a random result.[END-FE]
 
 
@@ -1976,7 +1976,7 @@ possess a dismantle item.[END-FE]
 //エンチャントジェム同士を合成するとき、[NLINE]
 //どちらのジェムも同じ能力を持っているならば、[NLINE]
 //その能力のLvが強化されます。[END-FE]
-If both Enchanted Gems you would to[NLINE]
+If both Enchanted Gems you were to[NLINE]
 synthesize have the same effect, the level[NLINE]
 of that effect will increase.[END-FE]
 
@@ -2195,7 +2195,7 @@ unforeseen effect.[NWIN]
 However, the result that is most likely to[NLINE]
 occur is determined by the type of Gemstone.[NLINE]
 Feel free to experiment if you have an[NLINE]
-excessive amount of Gemstones.[END-FE]
+excessive number of Gemstones.[END-FE]
 
 
 
@@ -2960,7 +2960,7 @@ dungeon from the offset.[NWIN]
 That's why there are no books about[NLINE]
 making them.[NWIN]
 
-At least, not in this library..[END-FE]
+At least, not in this library.[END-FE]
 
 
 
@@ -4516,7 +4516,7 @@ Please select a floor.[END-FE]
 There are various academic books on[NLINE]
 this floor.[NLINE]
 Dastis not only prioritizes mining,[NLINE]
-but scholarschip as well.[END-FE]
+but scholarship as well.[END-FE]
 
 
 
@@ -5955,10 +5955,10 @@ ceasefire agreement, there's no doubt both[NLINE]
 armies will turn their attention to us.[NWIN]
 
 No matter how much guerrilla tactics we[NLINE]
-employ, if both armies will do a[NLINE]
+employ, if both armies do a[NLINE]
 thorough sweep of the area, we won't win.[NWIN]
 
-Therefore, we developed the follow strategy:[NLINE]
+Therefore, we developed the following strategy:[NLINE]
 we will put an end to the peace by making[NLINE]
 both armies collide and thereby greatly[NLINE]
 reduce the military forces of both[NLINE]
@@ -6142,7 +6142,7 @@ Let's see, page 42...[END-FE]
 //本当に料理のことしか書いてないわ。[END-FE]
 [CHAR0900][V1800]
 This isn't it.[NLINE]
-It's just a regular cooking cook.[END-FE]
+It's just a regular cookbook.[END-FE]
 
 
 
@@ -6189,7 +6189,7 @@ Let's see, page 133...[END-FE]
 //本当に料理のことしか書いてないわ。[END-FE]
 [CHAR0900][V1B00]
 This isn't it.[NLINE]
-It's just a regular cooking cook.[END-FE]
+It's just a regular cookbook.[END-FE]
 
 
 
@@ -6214,7 +6214,7 @@ get...?[END-FE]
 //本当に料理のことしか書いてないわ。[END-FE]
 [CHAR0900][V1500]
 This isn't it.[NLINE]
-It's just a regular cooking cook.[END-FE]
+It's just a regular cookbook.[END-FE]
 
 
 
@@ -6334,10 +6334,10 @@ both armies will turn their attention to[NLINE]
 us.[NWIN]
 
 No matter how much guerrilla tactics[NLINE]
-we employ, if both armies will do a[NLINE]
+we employ, if both armies do a[NLINE]
 thorough sweep of the area, we won't win.[NWIN]
 
-Therefore, we developed the follow strategy:[NLINE]
+Therefore, we developed the following strategy:[NLINE]
 we will put an end to the peace by making both armies[NLINE]
 collide and thereby greatly reduce the military[NLINE]
 forces of both countries.[NWIN]
@@ -6520,7 +6520,7 @@ Are you sure you want to stay?[END-FE]
 //それでしたら、それに見合う労働を[NLINE]
 //して頂くということでどうでしょう？[END-FE]
 In that case, how about some[NLINE]
-manual labor in order to pay of[NLINE]
+manual labor in order to pay off[NLINE]
 your debt?[END-FE]
 
 
@@ -6794,7 +6794,7 @@ possible.[END-FE]
 //というわけだから、後日改めてきてね[MUSIC-NOTE][END-FE]
 //Traveller\\
 ...is what I would have said if I[NLINE]
-hadn't ran out of painting materials...[NWIN]
+hadn't run out of painting materials...[NWIN]
 
 It seems shipment got delayed due to the[NLINE]
 war. Please come back later![MUSIC-NOTE][END-FE]
@@ -6864,7 +6864,7 @@ while, OK?[MUSIC-NOTE][END-FE]
 //POINTER #573 @ $7F94 - STRING #573 @ $EC6E
 #W32($7F94)
 //はい、格好良く描けましたよ！[END-FE]
-Done! A very fine picture If I may[NLINE]
+Done! A very fine picture, if I may[NLINE]
 say so myself.[END-FE]
 
 
@@ -7365,7 +7365,7 @@ while, OK?[MUSIC-NOTE][END-FE]
 //POINTER #614 @ $8038 - STRING #614 @ $F62F
 #W32($8038)
 //はい、格好良く描けましたよ！[END-FE]
-Done! A very fine picture If I may[NLINE]
+Done! A very fine picture, if I may[NLINE]
 say so myself.[END-FE]
 
 

@@ -208,7 +208,7 @@ first met Rukias. Let's head to Zaramba.[NWIN]
 
 [CHAR2000][V1B00]
 From here, I think it would be[NLINE]
-faster to to go through Cyriltia[NLINE]
+faster to go through Cyriltia[NLINE]
 in the south.[END-FE]
 
 
@@ -236,7 +236,7 @@ I wonder what's up ahead?[END-FE]
 [CHAR2000][V1D00]
 That should be a Transgate facility.[NLINE]
 Two thousand years ago, facilities[NLINE]
-such this one were connected to[NLINE]
+such as this one were connected to[NLINE]
 places all around the world.[END-FE]
 
 
@@ -392,7 +392,7 @@ May I take a look at it?[END-FE]
 //
 //それを持っていってやれば、[NLINE]
 //喜ぶかもしれんぞ。[END-FE]
-You can tell just by looking at it.[NLINE]
+You can't tell just by looking at it.[NLINE]
 Thank you for showing me.[NWIN]
 
 That reminds me, there's a[NLINE]
@@ -428,8 +428,7 @@ No one seems to be inside...[END-FE]
 //２０００年前の、あの時にな…。[END-FE]
 You came from another continent?[NWIN]
 
-My ancestors also migrated from Esgrenz.[NLINE]
-[NWIN]
+My ancestors also migrated from Esgrentz.[NWIN]
 
 That happened 2,000 years ago...[END-FE]
 
@@ -568,7 +567,7 @@ with frightened eyes.         [NLINE]
 //こんなひどいことが出来るのでしょう…。[END-FE]
 Wendy...[NWIN]
 
-Why did Shuweizer do such a[NLINE]
+Why did Shuweizer do such[NLINE]
 a terrible thing?[END-FE]
 
 
@@ -804,7 +803,7 @@ who can change history.[CC.BE0105][END-FE]
 //POINTER #55 @ $557C - STRING #55 @ $694B
 #W32($557C)
 //・準備が終わるまで待ってもらう[END-FE]
-・Wait until you finished preparations[END-FE]
+・Wait until you've finished preparations[END-FE]
 
 
 
@@ -881,7 +880,7 @@ to go back in time?[END-FE]
 //POINTER #62 @ $5598 - STRING #62 @ $6A66
 #W32($5598)
 //・準備が終わるまで待ってもらう[END-FE]
-・Wait until you finished preparations[END-FE]
+・Wait until you've finished preparations[END-FE]
 
 
 
@@ -941,7 +940,7 @@ as cooking ingredients?[END-FE]
 //大地の恵みを受けた野菜は、[NLINE]
 //味も栄養も保証付きじゃ！[END-FE]
 Cooking you say? How about you use the[NLINE]
-vegetableswe grow in this village?[NWIN]
+vegetables we grow in this village?[NWIN]
 
 Vegetables that received the blessing[NLINE]
 of the earth are guaranteed to be[NLINE]
@@ -1055,7 +1054,7 @@ south of the village...[END-FE]
 #W32($55CC)
 //この里では栄養に恵まれた[NLINE]
 //すばらしい野菜が採れるんじゃ。[END-FE]
-You can harvest wonderfully nutrious[NLINE]
+You can harvest wonderfully nutritious[NLINE]
 vegetables in this village.[END-FE]
 
 
@@ -1192,11 +1191,10 @@ I can't stand thunder...![END-FE]
 //
 //大地と共に生きる。[NLINE]
 //これがポトラドの生き方じゃ。[END-FE]
-The trees are green, the water is clear...[NLINE]
-[NWIN]
+The trees are green, the water is clear...[NWIN]
 
 We live in harmony with the land.[NLINE]
-That is the Pothradians way of life.[END-FE]
+That is the Pothradians' way of life.[END-FE]
 
 
 
@@ -1209,7 +1207,7 @@ That is the Pothradians way of life.[END-FE]
 //
 //あれほどの爆発では、国の１つ２つ[NLINE]
 //吹き飛んだかも知れぬぞ…。[END-FE]
-Hmmm....[NLINE]
+Hmmm...[NLINE]
 There's no doubt that was the[NLINE]
 explosion of an ancient weapon...[NWIN]
 
@@ -1306,7 +1304,7 @@ Thank you, you're our saviors.[END-FE]
 //爆心地の被害は想像もつかん。[END-FE]
 Fortunately, there was no damage[NLINE]
 to our village. However, I can't[NLINE]
-imagine was the damage must be like[NLINE]
+imagine what the damage must be like[NLINE]
 at the center of the explosion.[END-FE]
 
 
@@ -1331,8 +1329,7 @@ us from those who attacked the village![END-FE]
 //
 //あの時は、本当に世話になったな。[NLINE]
 //ありがとう。[END-FE]
-I was just talking about you.[NLINE]
-[NWIN]
+I was just talking about you.[NWIN]
 
 We truly are in your debt. Thank you.[END-FE]
 
@@ -1523,7 +1520,7 @@ Who could have done this?[END-FE]
 [CHAR1E00][V0C00]
 No, that's incorrect.[NLINE]
 Somebody has been altering[NLINE]
-history....[END-FE]
+history...[END-FE]
 
 
 
@@ -1704,7 +1701,7 @@ went off somewhere...[END-FE]
 //歴史を変えているのです。[END-FE]
 [CHAR1E00][V1B00]
 I don't understand how, but[NLINE]
-it seems he has the power tot[NLINE]
+it seems he has the power to[NLINE]
 travel through time.[NWIN]
 
 [CHAR1E00][V1C00]
@@ -1912,7 +1909,7 @@ To the past...[END-FE]
 //ポトラド人が…。[NLINE]
 //過去を正せたってことか？[END-FE]
 [CHAR2000][V0000]
-The Pothradianss are...[NLINE]
+The Pothradians are...[NLINE]
 Did we correct the past?[END-FE]
 
 
@@ -2349,7 +2346,7 @@ Sealing Tablets, didn't you?[NWIN]
 
 Those people from the PMB didn't[NLINE]
 know about their existence and[NLINE]
-wouln't have been able to defeat[NLINE]
+wouldn't have been able to defeat[NLINE]
 the Queen in the correct way.[NWIN]
 
 Right about now, those multiplied[NLINE]
@@ -2513,8 +2510,7 @@ That's correct.[END-FE]
 //『[COL01]時の歪み[COL00]』さえあれば…。[END-FE]
 [CHAR2C00][V0500]
 So we must conjure the barrier[NLINE]
-once Korin's hero defeated the Queen...[NLINE]
-[NWIN]
+once Korin's hero defeated the Queen...[NWIN]
 
 [CHAR2C00][V0600]
 ...If only there was a [COL01]Time Distortion[COL00][NLINE]
@@ -2530,7 +2526,7 @@ that could take us to that moment...[END-FE]
 //私たちに、その結界の方法を[NLINE]
 //教えてもらえますか？[END-FE]
 [CHAR2C00][V0700]
-Could you tell us how to make][NLINE]
+Could you tell us how to make[NLINE]
 such a barrier?[END-FE]
 
 
@@ -2550,7 +2546,7 @@ such a barrier?[END-FE]
 [CHAR2C00][V0800]
 I don't think you would have any use[NLINE]
 for it in a world without Queen Screapers...[NLINE]
-But very well....[NWIN]
+But very well...[NWIN]
 
 [CHAR2C00][V0900]
 The barrier is made up of [COL01]Sealing Tablets[COL00].[NLINE]
@@ -2868,7 +2864,7 @@ to make a magic circle.[NWIN]
 
 [CHAR3400][V2000]
 If the Queen Screaper dies[NLINE]
-within hundred meters of the[NLINE]
+within a hundred meters of the[NLINE]
 magic circle, it will be[NLINE]
 absorbed by these Tablets.[NWIN]
 
@@ -3074,7 +3070,7 @@ Please buy something.[END-FE]
 //この里は障壁で守られていたはずです。[NLINE]
 //賊たちはどうやって侵入したのですか？[END-FE]
 Excuse me, there's something I would[NLINE]
-to ask. This village is supposed to[NLINE]
+like to ask. This village is supposed to[NLINE]
 be protected by a barrier. How did[NLINE]
 the invaders manage to penetrate it?[END-FE]
 
@@ -3613,7 +3609,7 @@ We won't know if we don't try.[END-FE]
 //行ってみましょう！[END-FE]
 [CHAR3400][V1800]
 Alright, let's go see Mira[NLINE]
-after we received the Sealing[NLINE]
+after we receive the Sealing[NLINE]
 Tablets tomorrow![END-FE]
 
 
@@ -3684,7 +3680,7 @@ What did you come here for?[END-FE]
 I've come here for two matters.[NWIN]
 
 [CHAR1F00][V0200]
-The first is learn more about something[NLINE]
+The first is to learn more about something[NLINE]
 called the Dragon Orb. Is it true that[NLINE]
 it manipulates the power of the earth?[END-FE]
 
@@ -4290,7 +4286,7 @@ Tch![NWIN]
 [CHAR1F00][V1D00]
 To think it turned out like this[NLINE]
 even though I can only access the same[NLINE]
-time period once....![NWIN]
+time period once...![NWIN]
 
 [CHAR1F00][V1E00]
 Retreat![END-FE]
@@ -4348,7 +4344,7 @@ company anymore...[END-FE]
 //POINTER #313 @ $5984 - STRING #313 @ $AAB4
 #W32($5984)
 //・人殺しの会社に未練があるのか？[END-FE]
-・Do you feeel attachment towards a company[NLINE]
+・Do you feel attachment towards a company[NLINE]
  that kills innocents?[END-FE]
 
 
@@ -4363,7 +4359,7 @@ company anymore...[END-FE]
 [CHAR1F00][V2300]
 Do you feel attachment for[NLINE]
 a company that kills others[NLINE]
-for its own benefit?[[END-FE]
+for its own benefit?[END-FE]
 
 
 
@@ -4409,7 +4405,7 @@ It's just...[END-FE]
 What's the matter?[NLINE]
 Do you feel attachment for[NLINE]
 a company that kills others[NLINE]
-for its own benefit?[[END-FE]
+for its own benefit?[END-FE]
 
 
 
