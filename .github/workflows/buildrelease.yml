@@ -72,6 +72,12 @@ jobs:
         run: |
           Write-Host "`n[i] Create list of Regex patterns that need to be checked"
           $regexPatterns = @(
+            # Find lines that are longer than 34 characters
+            # '^(?:\[(?:COL0[0-9A-F]|NLINE|NWIN|END-FE|END-FF)\])*(?:[^\[\]\r\n](?:\[(?:COL0[0-9A-F]|NLINE|NWIN|END-FE|END-FF)\])*){45,}$',
+
+            # Find lines that only contain [END-FE]
+            # '^\[END-FE\]$',
+
             # Find duplicates
             '\[NLINE\]\[NLINE\]',
             '\[NWIN\]\[NWIN\]',
