@@ -161,7 +161,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($5F58)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・One of your companionsr dies[NLINE]
+・One of your companions dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -2223,7 +2223,7 @@ But if I at least could report back...[END-FE]
 //Monopolis Guard\\
 [CHAR4000][V0E00]
 I can't take them on by myself...[NLINE]
-BBut if I at least could report back...[END-FE]
+But if I at least could report back...[END-FE]
 
 
 
