@@ -1693,7 +1693,7 @@ Enchantment Gem.[END-FE]
 //POINTER #140 @ $78D0 - STRING #140 @ $9C50
 #W32($78D0)
 //ジェムに原石を合成して、様々な効果を得る。[END-FE]
-Combine Echanted Gems with Gemstones to[NLINE]
+Combine Enchanted Gems with Gemstones to[NLINE]
 obtain a random result.[END-FE]
 
 
@@ -1976,7 +1976,7 @@ possess a dismantle item.[END-FE]
 //エンチャントジェム同士を合成するとき、[NLINE]
 //どちらのジェムも同じ能力を持っているならば、[NLINE]
 //その能力のLvが強化されます。[END-FE]
-If both Enchanted Gems you would to[NLINE]
+If both Enchanted Gems you were to[NLINE]
 synthesize have the same effect, the level[NLINE]
 of that effect will increase.[END-FE]
 
@@ -4516,7 +4516,7 @@ Please select a floor.[END-FE]
 There are various academic books on[NLINE]
 this floor.[NLINE]
 Dastis not only prioritizes mining,[NLINE]
-but scholarschip as well.[END-FE]
+but scholarship as well.[END-FE]
 
 
 
