@@ -994,7 +994,7 @@ the blade. I don't mean to boast, but[NLINE]
 I put my heart into it...[NWIN]
 
 [CH.FACE:Shy][CHARCD00][V6900]
-That's why... I wanted you have it...[NLINE]
+That's why... I wanted you to have it...[NLINE]
 ...no matter what.[END-FE]
 
 
@@ -1078,7 +1078,7 @@ Where did he go!?[END-FE]
 No... I... I...[NWIN]
 
 [CHARCD00][V6E00]
-Why is it you....?[NLINE]
+Why is it you...?[NLINE]
 I...!![NWIN]
 
 [CHARCD00][V6F00]
@@ -1111,7 +1111,7 @@ I...!![NWIN]
 ...Brave One...[NWIN]
 
 [CHARCD00][V7100]
-I didn't knew that Neilis[NLINE]
+I didn't know that Neilis[NLINE]
 had such strong feelings.[NWIN]
 
 [CHARCD00][V7200]
@@ -1396,7 +1396,7 @@ is saying was correct...?[END-FE]
 //POINTER #83 @ $67EC - STRING #83 @ $84A0
 #W32($67EC)
 //・偶然の一致[END-FE]
-・It's just an coincidence[END-FE]
+・It's just a coincidence[END-FE]
 
 
 
@@ -1831,7 +1831,7 @@ reach our destination.[END-FE]
 #W32($6884)
 //ほらほら、どこに行くの？[NLINE]
 //行き先は、ポトラドの里でしょ？[END-FE]
-Hey, hey, where you're going?[NLINE]
+Hey, hey, where are you going?[NLINE]
 Our destination is Pothrad Village, right?[END-FE]
 
 
@@ -2182,7 +2182,7 @@ I've heard about you from[NLINE]
 Krious.[NWIN]
 
 My name is Melvina. I'm a member[NLINE]
-of th PMB's Ops Division.[END-FE]
+of the PMB's Ops Division.[END-FE]
 
 
 
