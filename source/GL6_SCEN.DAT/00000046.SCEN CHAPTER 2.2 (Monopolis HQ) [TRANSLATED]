@@ -859,9 +859,9 @@ W-what are we gonna do now?[END-FE]
 #W32($7AB0)
 //向かって左側が資料室です。[NLINE]
 //右側は商品プレゼン用の会議室です。[END-FE]
-The reference room is on the right side.[NLINE]
-Then room used for product presentations[NLINE]
-is on the left.[END-FE]
+The reference room is on the left side.[NLINE]
+The room used for product presentations[NLINE]
+is on the right.[END-FE]
 
 
 
@@ -1154,7 +1154,7 @@ been lifted![END-FE]
 //POINTER #89 @ $7B04 - STRING #89 @ $90DB
 #W32($7B04)
 //・何をしていたのか問う[END-FE]
-・Ask her what is she doing[END-FE]
+・Ask her what she is doing[END-FE]
 
 
 
@@ -1200,7 +1200,7 @@ continent had been sealed for 2,000 years![END-FE]
 [CHAR0D00][V2100]
 Just a little research. I finally[NLINE]
 got the opportunity to be part of[NLINE]
-the Red Wolf Unit. That's why I'm[[NLINE]
+the Red Wolf Unit. That's why I'm[NLINE]
 looking up various things that will[NLINE]
 help us complete our mission, even[NLINE]
 if just a little.[END-FE]
@@ -1331,7 +1331,7 @@ Cools a glass of water in just one minute[NLINE]
 by using harmless freezing magic.[NLINE]
 When operated at maximum output for[NLINE]
 ten minutes, it's also able to[NLINE]
-to freeze the water.[END-FE]
+freeze the water.[END-FE]
 
 
 
@@ -1392,8 +1392,8 @@ at our company facilities.[END-FE]
 (Successfully tested product)[NLINE]
 Small diving equipment that allows the[NLINE]
 user to dive for about twenty minutes due[NLINE]
-to being connencted to small cylinders of[NLINE]
-about forty centimeter on the left and[NLINE]
+to being connected to small cylinders of[NLINE]
+about forty centimeters on the left and[NLINE]
 right. Developed for saving drowning[NLINE]
 persons.[END-FE]
 
@@ -1585,7 +1585,7 @@ continent and sealed away so that it could[NLINE]
 not leave.[NWIN]
 
 And it is said that our current peace is[NLINE]
-owed to the sacrifces made by the people[NLINE]
+owed to the sacrifices made by the people[NLINE]
 who lived on that continent.[NWIN]
 
 From that time onward, the continent came[NLINE]
@@ -1593,7 +1593,7 @@ to be called "Goatland", which is derived[NLINE]
 from the tradition of "[COL01]Sacrificial Goats[COL00]".[NWIN]
 
 Since there have been observations of[NLINE]
-fluctuations in the barrier, there is[NLINE]
+fluctuations in the barrier, there is a[NLINE]
 possibility that it will eventually be[NLINE]
 lifted.[NWIN]
 
@@ -1667,9 +1667,9 @@ to break into the Goatland market.[END-FE]
 [Jewarl][NLINE]
 In the continent's northeast lies Jewarl.[NLINE]
 It's crossed by a mountain range that[NLINE]
-divides it in north and south.[NWIN]
+divides it into north and south.[NWIN]
 
-In south of Jewarl, where Monopolis is[NLINE]
+In the south of Jewarl, where Monopolis is[NLINE]
 located, lie Makinus and Dastis. Its[NLINE]
 governmental bodies lie in the north.[END-FE]
 
@@ -1698,7 +1698,7 @@ family. The gap between rich and poor is[NLINE]
 steep due to certain conditions from[NLINE]
 which a part of the authority figures[NLINE]
 derive profit. As a result, the country[NLINE]
-is rampant with terrorist organization[NLINE]
+is rampant with terrorist organizations[NLINE]
 that are aiming to overthrow the[NLINE]
 Hingistani royal family.[NWIN]
 
@@ -1740,7 +1740,7 @@ The Hingistani army regarded this act as[NLINE]
 an invasion, and a war broke out between[NLINE]
 the two countries.[NWIN]
 
-Now Formeros' objective has shifted to[NLINE]
+Now Fomeros' objective has shifted to[NLINE]
 liberating the citizens from the despotism[NLINE]
 of the Hingistani royal family. As a[NLINE]
 result, the war continues to rage on.[NWIN]
@@ -1823,7 +1823,7 @@ positions taken up by the Fomerion army.[END-FE]
 //なっており、世界で一番公害のない都市と[NLINE]
 //なっている。[END-FE]
 [Makinus][NLINE]
-A port city located in south Jewarl. Its[NLINE]
+A port city located in southern Jewarl. Its[NLINE]
 citizens are mostly made up of Monopolis[NLINE]
 employees. The city is self-governing[NLINE]
 and is under surveillance by the[NLINE]
@@ -1854,7 +1854,7 @@ world.[END-FE]
 A provincial city situated northeast of[NLINE]
 Makinus. Despite being a normal-sized[NLINE]
 city, it is greatly affected by soil[NLINE]
-pollution because Monopolos technology[NLINE]
+pollution because Monopolis technology[NLINE]
 has not been introduced there yet.[END-FE]
 
 
@@ -2237,7 +2237,7 @@ is not to perform regular duties, but to[NLINE]
 proactively remove things that are[NLINE]
 disadvantageous to the corporation.[NWIN]
 
-The 1st Division performs goes in the field,[NLINE]
+The 1st Division goes into the field,[NLINE]
 while the 2nd Division gathers intelligence[NLINE]
 that will help the former. Also, members of[NLINE]
 the 1st Division are allowed to wear their[NLINE]
@@ -2302,7 +2302,7 @@ main product Pollumine.[END-FE]
 //導入を渋っている都市も少なからず存在する。[END-FE]
 [Soil Pollution Purification Plan][NLINE]
 We plan to purify soil pollution caused[NLINE]
-by industrial wastewater with out company[NLINE]
+by industrial wastewater with our company[NLINE]
 product Pollumine. Pollumine absorbs[NLINE]
 contamination matter from the soil and[NLINE]
 stores it inside its fruits. For that[NLINE]
@@ -2590,7 +2590,7 @@ room of Shayer's executive suite.[END-FE]
 //何をしている、[NLINE]
 //さっさと中に入れ。[END-FE]
 [CHAR0500][V0400]
-What are you standing there?[NLINE]
+What are you standing there for?[NLINE]
 Hurry and come in.[END-FE]
 
 
@@ -2916,7 +2916,7 @@ I suppose we could.[END-FE]
 //[CHAR0500][V0A00]
 //あの…いったい、何が…。[END-FE]
 [CHAR0500][V0A00]
-Umm, what exactly is..[END-FE]
+Umm, what exactly is...[END-FE]
 
 
 
@@ -2929,7 +2929,7 @@ Umm, what exactly is..[END-FE]
 //シュヴァイツァー旗下の[COL01]特殊部隊[COL00]に[NLINE]
 //編入します。[END-FE]
 [CHAR0500][V0E00]
-I know its sudden, but you two[NLINE]
+I know it's sudden, but you two[NLINE]
 have been promoted to the[NLINE]
 [COL01]Special Division[COL00] led by[NLINE]
 Captain Shuweizer.[END-FE]
@@ -3359,7 +3359,7 @@ plan at [COL01]Schizland Plateau[COL00]. They[NLINE]
 will take advantage of the fog and[NLINE]
 sent two teams of three people, each[NLINE]
 disguised as members of one of the[NLINE]
-two the armies. They will come[NLINE]
+two armies. They will come[NLINE]
 [COL01]from the west[COL00] and attack the guards[NLINE]
 at the north and south camps.[NWIN]
 
@@ -3553,7 +3553,7 @@ deployed are you three.[END-FE]
 //３人でいかに食い止めるか[NLINE]
 //ということだ。[END-FE]
 [CHAR0A00][V2400]
-Which raises question: how can we[NLINE]
+Which raises a question: how can we[NLINE]
 stop them with just three people?[END-FE]
 
 
@@ -3570,7 +3570,7 @@ stop them with just three people?[END-FE]
 [CHAR0A00][V2500]
 By taking out the terrorists that will[NLINE]
 appear at Schizland plateau from the[NLINE]
-west before any looksouts spot us,[NLINE]
+west before any lookouts spot us,[NLINE]
 right?[END-FE]
 
 
@@ -3605,7 +3605,7 @@ wasn't it?[NWIN]
 [CHAR0A00][V2800]
 The terrorists plan to hide in the fog[NLINE]
 and do a surprise attack. So we have[NLINE]
-to find them and get of rid of them[NLINE]
+to find them and get rid of them[NLINE]
 before that happens.[END-FE]
 
 
@@ -3878,7 +3878,7 @@ An object that gives off a signal...[NWIN]
 [CH.FACE:Sad][CHAR0E00][V0D00]
 And it should give off a signal strength[NLINE]
 that exceeds one hundred, or should be[NLINE]
-larger than hundred meters...[NWIN]
+larger than a hundred meters...[NWIN]
 
 [CH.FACE:Serious][CHAR0E00][V0E00]
 Specifically, what kind of object is it?[END-FE]
@@ -4075,7 +4075,7 @@ close to Brandole![END-FE]
 //まもなく増援が来る！[NLINE]
 //それまで、なんとしても持ちこたえるんだ！[END-FE]
 [CHAR4100][V0A00]
-The reinforecements will come soon![NLINE]
+The reinforcements will come soon![NLINE]
 Hold out until then![END-FE]
 
 
@@ -4387,7 +4387,7 @@ Get them, Neilis![END-FE]
 
 [CHAR4100][V1700]
 When I look at your face, my head[NLINE]
-starts to hurts...[NWIN]
+starts to hurt...[NWIN]
 
 [CHAR4100][V1800]
 In order to make that pain go away...[NLINE]
@@ -4400,7 +4400,7 @@ In order to make that pain go away...[NLINE]
 //POINTER #306 @ $7E68 - STRING #306 @ $D87E
 #W32($7E68)
 //全員、エレベーターに退避させる？（ステージクリア）[END-FE]
-Make everyone evacuate to the elavator? (Stage Clear)[END-FE]
+Make everyone evacuate to the elevator? (Stage Clear)[END-FE]
 
 
 
@@ -4585,7 +4585,7 @@ He's a fierce opponent...[END-FE]
 //普通に倒しても意味がありません！[NLINE]
 //私の封印にまかせてください！[END-FE]
 There is no point in defeating him[NLINE]
-through normals means![NLINE]
+through normal means![NLINE]
 Leave it to my seal![END-FE]
 
 
@@ -4629,7 +4629,7 @@ I will now try to seal him![END-FE]
 Be careful not to kill[NLINE]
 Brandole![NWIN]
 
-I do not know many decades takes it will[NLINE]
+I do not know how many decades it will[NLINE]
 take to find him again if he moves[NLINE]
 to another body![END-FE]
 
@@ -4753,8 +4753,8 @@ T-they've been waiting here![END-FE]
 //捕まるわけにはいかないわ！[NLINE]
 //突破しましょう！[END-FE]
 [CHAR4200][V0200]
-We can't afford get captured![NLINE]
-Let's fight our away through![END-FE]
+We can't afford to get captured![NLINE]
+Let's fight our way through![END-FE]
 
 
 
@@ -4922,7 +4922,6 @@ Uuuh![END-FE]
 Brave one![NLINE]
 What are you doing!?[NLINE]
 Hurry to the exit![END-FE]
-
 
 
 
