@@ -190,7 +190,7 @@ Alright, let's get to work...[END-FE]
 //私たちもシュヴァイツァー様と合流しないとね。[NLINE]
 //次の行動の指針も聞かないといけないし。[END-FE]
 [CHAR1D00][V0200]
-We need to rendevouz with Captain Shuweizer[NLINE]
+We need to rendezvous with Captain Shuweizer[NLINE]
 and ask instructions on our next course of[NLINE]
 action.[END-FE]
 
@@ -218,7 +218,7 @@ I'll wait here.[END-FE]
 //こらこら、どこに行く気？[NLINE]
 //シュヴァイツァー様と合流しないと！[END-FE]
 Hey, where are you going?[NLINE]
-We need to rendevouz with Captain[NLINE]
+We need to rendezvous with Captain[NLINE]
 Shuweizer![END-FE]
 
 
@@ -981,7 +981,7 @@ we can do that?[END-FE]
 //クイーンとの戦いに敗れ、[NLINE]
 //修復不能なほどに大破していました。[END-FE]
 [CHAR2B00][V2100]
-Do you you remember those Queen[NLINE]
+Do you remember those Queen[NLINE]
 Screapers flying through the sky[NLINE]
 when we just met?[NWIN]
 
@@ -1357,7 +1357,7 @@ again...[END-FE]
 //倒したの？[END-FE]
 [CHAR2B00][V3D00]
 But how did Ziekwalt manage to[NLINE]
-deafeat the Queen Screaper then?[END-FE]
+defeat the Queen Screaper then?[END-FE]
 
 
 
@@ -1900,7 +1900,7 @@ Now we've met our contract quota![END-FE]
 //POINTER #138 @ $5CC8 - STRING #138 @ $8126
 #W32($5CC8)
 //商談は上手く行ったよ！[END-FE]
-The negotiations well well![END-FE]
+The negotiations went well![END-FE]
 
 
 

@@ -161,7 +161,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($5F58)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・One of your companionsr dies[NLINE]
+・One of your companions dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -931,7 +931,7 @@ I think Leystan is our best option.[END-FE]
 //モノポリス社警備兵\\
 //ここから先は大雪のため通行止めだ。[END-FE]
 //Monopolis Guard\\
-The road uphead is closed due to[NLINE]
+The road ahead is closed due to[NLINE]
 heavy snow.[END-FE]
 
 
@@ -962,7 +962,7 @@ It's closed due to heavy snow.[END-FE]
 [CHAR0600][V0300]
 Pollumine trees have such a mysterious[NLINE]
 color, don't they? It looks both gentle[NLINE]
-and eerie at the same time. However, its[NLINE]
+and eerie at the same time. However, it's[NLINE]
 thanks to Monopolis developing[NLINE]
 Pollumine that the soil pollution in[NLINE]
 this area has been purified.[END-FE]
@@ -1031,7 +1031,7 @@ has a strange glow.[NLINE]
 //機能を修復出来るのではないでしょうか？[END-FE]
 //Yurii\\
 [CHAR2E00][V0F00]
-This is a Trangate, correct?[NLINE]
+This is a Transgate, correct?[NLINE]
 However, it seems to have stopped working...[NWIN]
 
 [CHAR2E00][V1000]
@@ -1051,7 +1051,7 @@ couldn't we restore it to its original state?[END-FE]
 //あのゲートリングを使えば[NLINE]
 //機能を修復出来るのではないでしょうか？[END-FE]
 //Yurii\\
-This is a Trangate, correct?[NLINE]
+This is a Transgate, correct?[NLINE]
 However, it seems to have stopped working...[NWIN]
 
 [CHAR2E00][V1000]
@@ -1189,7 +1189,7 @@ you don't want to fight, just say the word![END-FE]
 About [COL01]Escape[COL00][NLINE]
   When you want to make your party[NLINE]
   stop engaging the enemy, hold down[NLINE]
-  [R2]to enter escape mode. If you let[NLINE]
+  [R2] to enter escape mode. If you let[NLINE]
   go of [R2], then your characters will[NLINE]
   return to behaving like normal.[NLINE]
   It is convenient to flee from enemies,[NLINE]
@@ -1336,8 +1336,8 @@ Anita, are you all right?[END-FE]
 //Anita\\
 [CHAR5600][V3900]
 I-I'm all right...[NLINE]
-More importantly, let's hurry up get[NLINE]
-out of here.[END-FE]
+More importantly, let's hurry up and[NLINE]
+get out of here.[END-FE]
 
 
 
@@ -1599,7 +1599,7 @@ resistance members who have escaped?[END-FE]
 //逃げ延びたメンバーを探す方が早そうよ？[END-FE]
 //Wendy\\
 [CHAR4E00][V0600]
-That's easier said that done. I[NLINE]
+That's easier said than done. I[NLINE]
 can't think of anything good.[NWIN]
 
 [CHAR4E00][V0700]
@@ -1621,8 +1621,8 @@ plan?[END-FE]
 //Wendy\\
 [CHAR4E00][V0800]
 It's not like we've got another plan,[NLINE]
-and we can't waste trying to come up[NLINE]
-with one, either.[END-FE]
+and we can't waste time trying to come[NLINE]
+up with one, either.[END-FE]
 
 
 
@@ -1730,7 +1730,7 @@ To Dastis[END-FE]
 //よろしくないかと…。[END-FE]
 //Yurii\\
 Mr. [MainCharName], I don't think[NLINE]
-everyone going off on there own[NLINE]
+everyone going off on their own[NLINE]
 would be a good idea...[END-FE]
 
 
@@ -1762,7 +1762,7 @@ laboratory first.[END-FE]
 //機能を修復出来るのではないでしょうか？[END-FE]
 //Yurii\\
 [CHAR2E00][V0F00]
-This is a Trangate, correct?[NLINE]
+This is a Transgate, correct?[NLINE]
 However, it seems to have stopped working...[NWIN]
 
 [CHAR2E00][V1000]
@@ -1782,7 +1782,7 @@ couldn't we restore it to its original state?[END-FE]
 //あのゲートリングを使えば[NLINE]
 //機能を修復出来るのではないでしょうか？[END-FE]
 //Yurii\\
-This is a Trangate, correct?[NLINE]
+This is a Transgate, correct?[NLINE]
 However, it seems to have stopped working...[NWIN]
 
 If we used that Gate Ring,[NLINE]
@@ -1848,7 +1848,7 @@ not working.[END-FE]
 //よろしくないかと…。[END-FE]
 //Yurii\\
 Mr. [MainCharName], I don't think[NLINE]
-everyone going off on there own[NLINE]
+everyone going off on their own[NLINE]
 would be a good idea...[END-FE]
 
 
@@ -1888,7 +1888,7 @@ It looks like a small hut for storing waste.[NLINE]
 //System Message\\
 Waste water is flowing into the ocean[NLINE]
 from a pipe jutting out of the[NLINE]
-ground[END-FE]
+ground.[END-FE]
 
 
 
@@ -1962,7 +1962,7 @@ the mission![END-FE]
 Hold on there, slacker![NWIN]
 
 This is our first mission as members[NLINE]
-of the[COL01]Red Wolf Unit[COL00]![NWIN]
+of the [COL01]Red Wolf Unit[COL00]![NWIN]
 
 If you mess up, you'll get me kicked out, too![END-FE]
 
@@ -2013,7 +2013,7 @@ Oh...I, uh...ah...[NLINE]
 //ちなみに、ダスティスだけど、[NLINE]
 //私が調べたところによると…。[END-FE]
 //Wendy\\
-By the way, this I what I found out[NLINE]
+By the way, this is what I found out[NLINE]
 about Dastis...[END-FE]
 
 
@@ -2033,7 +2033,7 @@ about Dastis...[END-FE]
 A provincial city situated northeast of[NLINE]
 Makinus. Despite being a normal-sized city,[NLINE]
 it is greatly affected by soil pollution[NLINE]
-because Monopolos technology has not[NLINE]
+because Monopolis technology has not[NLINE]
 been introduced there yet.[END-FE]
 
 
@@ -2207,7 +2207,7 @@ while.[END-FE]
 //せめて報告を！[END-FE]
 //Monopolis Guard\\
 [CHAR4000][V0E00]
-I can't take them one by myself...[NLINE]
+I can't take them on by myself...[NLINE]
 But if I at least could report back...[END-FE]
 
 
@@ -2223,7 +2223,7 @@ But if I at least could report back...[END-FE]
 //Monopolis Guard\\
 [CHAR4000][V0E00]
 I can't take them on by myself...[NLINE]
-BBut if I at least could report back...[END-FE]
+But if I at least could report back...[END-FE]
 
 
 
@@ -2634,7 +2634,7 @@ Let's defeat them here![END-FE]
 //・スクリーパーがマキナスに侵入する[NLINE]
 //・ＮＰＣの死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・Screaper invade Makinus[NLINE]
+・Screapers invade Makinus[NLINE]
 ・NPC dies[NLINE]
 ・All party members die[END-FE]
 
