@@ -383,7 +383,7 @@ Felmentia? Then we still have a long way[NLINE]
 to go.[NWIN]
 
 [CHAR1900][V1B00]
-On the way lies a villag [COL01]Totuwa[COL00].[NLINE]
+On the way lies a village [COL01]Totuwa[COL00].[NLINE]
 It might be a good idea to head there[NLINE]
 first.[END-FE]
 
@@ -505,7 +505,7 @@ Alright, let's be off.[END-FE]
 //POINTER #42 @ $6DC8 - STRING #42 @ $77C4
 #W32($6DC8)
 //もう出発するかい？[END-FE]
-Would you like to depart already?[[END-FE]
+Would you like to depart already?[END-FE]
 
 
 
@@ -1244,7 +1244,7 @@ That guy had it.[END-FE]
 //取り出すことができる宝珠だという話です。[END-FE]
 [CHAR1800][V1800]
 The story goes that it's a gem[NLINE]
-that can draw out and and gather[NLINE]
+that can draw out and gather[NLINE]
 the power flowing in the earth.[END-FE]
 
 

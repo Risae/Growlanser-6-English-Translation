@@ -261,7 +261,7 @@ section up ahead is flooded.[END-FE]
 //POINTER #23 @ $707C - STRING #23 @ $74C7
 #W32($707C)
 //装置があるが、操作してみますか？[END-FE]
-There'a machine. Would you like to[NLINE]
+There's a machine. Would you like to[NLINE]
 operate it?[END-FE]
 
 
@@ -1297,7 +1297,7 @@ Deactivating Defense Support Function.[END-FE]
 [CHAR3300][V1800]
 Defensive System malfunctioning.[NLINE]
 Shutting down.[NLINE]
-Deactivating directly connencted Defense[NLINE]
+Deactivating directly connected Defense[NLINE]
 Support System.[END-FE]
 
 

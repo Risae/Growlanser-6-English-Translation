@@ -57,7 +57,7 @@ Hingistani Soldier[END-FF]
 #W32($41B0)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・One of your companions dies dies[NLINE]
+・One of your companions dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -746,7 +746,7 @@ sister?[NWIN]
 
 [CHARCB00][V5F00]
 I still haven't been able to[NLINE]
-to come up with an answer...[NWIN]
+come up with an answer...[NWIN]
 
 [CHARCB00][V6000]
 Is a revolution truly what I want?[NLINE]
@@ -805,7 +805,7 @@ twisting it to suit my own fancy...[END-FE]
 //何を悩んでるんだろう。[END-FE]
 [CHARCB00][V6300]
 ...You're right...[NLINE]
-We've came this far, so what am I[NLINE]
+We've come this far, so what am I[NLINE]
 worried about?[END-FE]
 
 
@@ -864,7 +864,7 @@ believe in my brother![END-FE]
 ...I'm just-I'm scared, that's all.[NWIN]
 
 [CHARCB00][V8000]
-I'm scared for taking responsibly for[NLINE]
+I'm scared of taking responsibility for[NLINE]
 changing the course of history in my[NLINE]
 country...[NWIN]
 
