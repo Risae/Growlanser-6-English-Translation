@@ -981,7 +981,7 @@ we can do that?[END-FE]
 //クイーンとの戦いに敗れ、[NLINE]
 //修復不能なほどに大破していました。[END-FE]
 [CHAR2B00][V2100]
-Do you you remember those Queen[NLINE]
+Do you remember those Queen[NLINE]
 Screapers flying through the sky[NLINE]
 when we just met?[NWIN]
 
@@ -1900,7 +1900,7 @@ Now we've met our contract quota![END-FE]
 //POINTER #138 @ $5CC8 - STRING #138 @ $8126
 #W32($5CC8)
 //商談は上手く行ったよ！[END-FE]
-The negotiations well well![END-FE]
+The negotiations went well![END-FE]
 
 
 
