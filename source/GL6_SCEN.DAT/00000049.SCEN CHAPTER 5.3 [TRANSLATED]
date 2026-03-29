@@ -505,7 +505,7 @@ Alright, let's be off.[END-FE]
 //POINTER #42 @ $6DC8 - STRING #42 @ $77C4
 #W32($6DC8)
 //もう出発するかい？[END-FE]
-Would you like to depart already?[[END-FE]
+Would you like to depart already?[END-FE]
 
 
 
