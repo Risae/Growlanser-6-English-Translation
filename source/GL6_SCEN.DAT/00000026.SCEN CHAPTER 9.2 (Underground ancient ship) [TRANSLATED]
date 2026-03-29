@@ -261,7 +261,7 @@ section up ahead is flooded.[END-FE]
 //POINTER #23 @ $707C - STRING #23 @ $74C7
 #W32($707C)
 //装置があるが、操作してみますか？[END-FE]
-There'a machine. Would you like to[NLINE]
+There's a machine. Would you like to[NLINE]
 operate it?[END-FE]
 
 
