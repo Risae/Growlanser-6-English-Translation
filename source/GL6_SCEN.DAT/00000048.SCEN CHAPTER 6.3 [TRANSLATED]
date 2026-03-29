@@ -1396,7 +1396,7 @@ is saying was correct...?[END-FE]
 //POINTER #83 @ $67EC - STRING #83 @ $84A0
 #W32($67EC)
 //・偶然の一致[END-FE]
-・It's just an coincidence[END-FE]
+・It's just a coincidence[END-FE]
 
 
 
@@ -1831,7 +1831,7 @@ reach our destination.[END-FE]
 #W32($6884)
 //ほらほら、どこに行くの？[NLINE]
 //行き先は、ポトラドの里でしょ？[END-FE]
-Hey, hey, where you're going?[NLINE]
+Hey, hey, where are you going?[NLINE]
 Our destination is Pothrad Village, right?[END-FE]
 
 
@@ -2182,7 +2182,7 @@ I've heard about you from[NLINE]
 Krious.[NWIN]
 
 My name is Melvina. I'm a member[NLINE]
-of th PMB's Ops Division.[END-FE]
+of the PMB's Ops Division.[END-FE]
 
 
 
