@@ -211,7 +211,7 @@ Anita, are you alright?[END-FE]
 Yes, but I'm tired.[NWIN]
 
 [CHAR5200][V2100]
-Until a little while ago I had been confined[NLINE]
+Until recently I had been confined[NLINE]
 to a single room, and this is the first time[NLINE]
 I've walked such a distance.[END-FE]
 
@@ -447,7 +447,7 @@ We can't travel like that![END-FE]
 [CHARCB00][V0F00]
 *Sigh*...[CC.D80F][NLINE]
 Are you sure we'll be okay?[NLINE]
-It's good that I went ahead[NLINE]
+At least I went ahead[NLINE]
 and got some...[NWIN]
 
 [CHARCB00][V0400]
@@ -612,8 +612,8 @@ Are you sure we'll be okay?[NWIN]
 
 [CHARCB00][V0300]
 Wouldn't it be dangerous if we[NLINE]
-don't have some recovery[NLINE]
-medicine? It's good that I[NLINE]
+don't have any recovery[NLINE]
+medicine? At least I[NLINE]
 went ahead and got some...[NWIN]
 
 [CHARCB00][V0400]
@@ -1168,9 +1168,9 @@ The gate has already become operational again.[END-FE]
 //もし戦いたくなかったら、[NLINE]
 //そう指示してね！[END-FE]
 //Wendy\\
-I don't know how many times we'll end[NLINE]
-up in a fight before we reach Dastis, but if[NLINE]
-you don't want to fight, just say the word![END-FE]
+I don't know how many fights we'll[NLINE]
+have before we reach Dastis, but if[NLINE]
+you don't want to fight, just say so![END-FE]
 
 
 
@@ -1620,7 +1620,7 @@ plan?[END-FE]
 //悩んで時間を無駄にもできないわね。[END-FE]
 //Wendy\\
 [CHAR4E00][V0800]
-It's not like we've got another plan,[NLINE]
+It's not as if we have another plan,[NLINE]
 and we can't waste time trying to come[NLINE]
 up with one, either.[END-FE]
 
@@ -1729,9 +1729,9 @@ To Dastis[END-FE]
 //みなさんと別行動をされるのは、[NLINE]
 //よろしくないかと…。[END-FE]
 //Yurii\\
-Mr. [MainCharName], I don't think[NLINE]
-everyone going off on their own[NLINE]
-would be a good idea...[END-FE]
+Mr. [MainCharName], I don't think it's wise[NLINE]
+for everyone to go off on their own[NLINE]
+paths...[END-FE]
 
 
 
@@ -1915,7 +1915,7 @@ ocean are being polluted...[END-FE]
 //Wendy\\
 I can see Dastis![NWIN]
 
-Hey, do you want to go investigate?[END-FE]
+Hey, have you looked into Dastis?[END-FE]
 
 
 
@@ -2097,8 +2097,8 @@ Good work.[END-FE]
 //やるなら、今しかないぜ？[END-FE]
 //Rukias\\
 [CHAR4000][V0800]
-It seems it's just them. If we're[NLINE]
-going to do this, now is the best time,[NLINE]
+It's just them. If we're going to do[NLINE]
+this, now's our best chance,[NLINE]
 right?[END-FE]
 
 
@@ -2805,7 +2805,7 @@ Looks like they're all gone...[END-FE]
 //Wendy\\
 [CHAR6700][V0400]
 Where did those Screapers come from all of a sudden?[NLINE]
-Even though there are Pollumine trees right over[NLINE]
+There are Pollumine trees right over[NLINE]
 there...[END-FE]
 
 
@@ -2857,8 +2857,8 @@ there...[END-FE]
 That could be it...[NWIN]
 
 [CHAR6700][V0600]
-...but are those trees really[NLINE]
-Screaper repellent?[NWIN]
+...but do those trees really[NLINE]
+repel Screapers?[NWIN]
 
 [CHAR6700][V0700]
 I'm just saying.[END-FE]
