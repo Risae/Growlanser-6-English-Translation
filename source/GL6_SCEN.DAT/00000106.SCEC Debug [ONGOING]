@@ -36,7 +36,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #2 @ $628 - STRING #2 @ $682
 #W32($628)
 //ビジュアルテストする？[END-FE]
-ビジュアルテストする？[END-FE]
+Run visual test?[END-FE]
 
 
 
@@ -45,7 +45,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #3 @ $62C - STRING #3 @ $69B
 #W32($62C)
 //・コリン優勝[END-FE]
-・コリン優勝[END-FE]
+・Korin Victory[END-FE]
 
 
 
@@ -54,7 +54,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #4 @ $630 - STRING #4 @ $6AA
 #W32($630)
 //・ゲームクリア＿５[END-FE]
-・ゲームクリア＿５[END-FE]
+・Game Clear 5[END-FE]
 
 
 
@@ -63,7 +63,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #5 @ $634 - STRING #5 @ $6BF
 #W32($634)
 //・ファニルエンド[END-FE]
-・ファニルエンド[END-FE]
+・Fanille End[END-FE]
 
 
 
@@ -72,7 +72,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #6 @ $638 - STRING #6 @ $6D2
 #W32($638)
 //・クライアスエンド[END-FE]
-・クライアスエンド[END-FE]
+・Krious End[END-FE]
 
 
 
@@ -81,7 +81,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #7 @ $63C - STRING #7 @ $6E7
 #W32($63C)
 //・メルヴィナエンド[END-FE]
-・メルヴィナエンド[END-FE]
+・Melvina End[END-FE]
 
 
 
@@ -90,7 +90,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #8 @ $640 - STRING #8 @ $6FC
 #W32($640)
 //・ランディエンド[END-FE]
-・ランディエンド[END-FE]
+・Randy End[END-FE]
 
 
 
@@ -99,7 +99,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #9 @ $644 - STRING #9 @ $70F
 #W32($644)
 //・シェリスエンド[END-FE]
-・シェリスエンド[END-FE]
+・Sherris End[END-FE]
 
 
 
@@ -108,7 +108,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #10 @ $648 - STRING #10 @ $722
 #W32($648)
 //・ルーファ寸エンド[END-FE]
-・ルーファ寸エンド[END-FE]
+・Rufus End[END-FE]
 
 
 
@@ -117,7 +117,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #11 @ $64C - STRING #11 @ $737
 #W32($64C)
 //・コリンエンド[END-FE]
-・コリンエンド[END-FE]
+・Korin End[END-FE]
 
 
 
@@ -135,7 +135,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #13 @ $654 - STRING #13 @ $753
 #W32($654)
 //紙吹雪チェックする？[END-FE]
-紙吹雪チェックする？[END-FE]
+Check confetti?[END-FE]
 
 
 
@@ -144,7 +144,7 @@ Money [CC.EF19][Mil][END-FE]
 //POINTER #14 @ $658 - STRING #14 @ $76A
 #W32($658)
 //どうかな？[END-FE]
-どうかな？[END-FE]
+How's that?[END-FE]
 
 
 

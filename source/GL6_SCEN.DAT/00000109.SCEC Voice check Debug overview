@@ -49,7 +49,7 @@ Click × to Cancel.[END-FE]
 //POINTER #3 @ $2AC - STRING #3 @ $347
 #W32($2AC)
 //・Ｅ＿０１００～０１３０[END-FE]
-・Ｅ＿０１００～０１３０[END-FE]
+・E_0100-0130[END-FE]
 
 
 
@@ -58,7 +58,7 @@ Click × to Cancel.[END-FE]
 //POINTER #4 @ $2B0 - STRING #4 @ $362
 #W32($2B0)
 //・Ｅ＿０２２０～０２３３[END-FE]
-・Ｅ＿０２２０～０２３３[END-FE]
+・E_0220-0233[END-FE]
 
 
 
@@ -67,7 +67,7 @@ Click × to Cancel.[END-FE]
 //POINTER #5 @ $2B4 - STRING #5 @ $37D
 #W32($2B4)
 //・Ｅ＿０３０１～０３０５[END-FE]
-・Ｅ＿０３０１～０３０５[END-FE]
+・E_0301-0305[END-FE]
 
 
 
@@ -76,7 +76,7 @@ Click × to Cancel.[END-FE]
 //POINTER #6 @ $2B8 - STRING #6 @ $398
 #W32($2B8)
 //・Ｅ＿０３０６～０３１１Ａ[END-FE]
-・Ｅ＿０３０６～０３１１Ａ[END-FE]
+・E_0306-0311A[END-FE]
 
 
 
@@ -85,7 +85,7 @@ Click × to Cancel.[END-FE]
 //POINTER #7 @ $2BC - STRING #7 @ $3B5
 #W32($2BC)
 //・Ｅ＿０５００～０５２９[END-FE]
-・Ｅ＿０５００～０５２９[END-FE]
+・E_0500-0529[END-FE]
 
 
 
@@ -94,7 +94,7 @@ Click × to Cancel.[END-FE]
 //POINTER #8 @ $2C0 - STRING #8 @ $3D0
 #W32($2C0)
 //・Ｅ＿０５４０～０５８５[END-FE]
-・Ｅ＿０５４０～０５８５[END-FE]
+・E_0540-0585[END-FE]
 
 
 
@@ -103,7 +103,7 @@ Click × to Cancel.[END-FE]
 //POINTER #9 @ $2C4 - STRING #9 @ $3EB
 #W32($2C4)
 //・Ｅ＿０６００～０６１１[END-FE]
-・Ｅ＿０６００～０６１１[END-FE]
+・E_0600-0611[END-FE]
 
 
 
