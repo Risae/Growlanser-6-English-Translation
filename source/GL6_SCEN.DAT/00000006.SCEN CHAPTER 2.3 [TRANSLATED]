@@ -45,7 +45,7 @@ Red Wolf Unit Member[END-FF]
 //POINTER #3 @ $5F2C - STRING #3 @ $6299
 #W32($5F2C)
 //デバッグの方へ[END-FF]
-To debugging[END-FF]
+For debugging[END-FF]
 
 
 
@@ -213,7 +213,7 @@ Yes, but I'm tired.[NWIN]
 [CHAR5200][V2100]
 Until a little while ago I had been confined[NLINE]
 to a single room, and this is the first time[NLINE]
-I walked such a distance.[END-FE]
+I've walked such a distance.[END-FE]
 
 
 
@@ -242,7 +242,7 @@ what we're going to do next.[END-FE]
 //居られないだろう。[END-FE]
 //Rukias\\
 [CHAR5200][V2300]
-We can't stay at any places where[NLINE]
+We can't stay in any place where[NLINE]
 Monopolis operates, though.[END-FE]
 
 
@@ -391,8 +391,8 @@ bought![END-FE]
 //Wendy\\
 [CHARCB00][V0C00]
 Only 2?![NLINE]
-Do you really think we'll make it to[NLINE]
-Dastis with this few?[END-FE]
+Do you really think this will last until[NLINE]
+Dastis?[END-FE]
 
 
 
@@ -408,8 +408,8 @@ Dastis with this few?[END-FE]
 //Wendy\\
 [CHARCB00][V0D00]
 Only 1?![NLINE]
-Do you think we'll make it to[NLINE]
-Dastis with this few?[END-FE]
+Do you think this will last until[NLINE]
+Dastis?[END-FE]
 
 
 
@@ -1500,8 +1500,8 @@ to set sail.[END-FE]
 //ここから先は許可のある者しか通れぬ。[NLINE]
 //おとなしく引き上げろ。[END-FE]
 //Monopolis Guard\\
-Only authorized people can pass from[NLINE]
-here onward. Please step back.[END-FE]
+Only authorized people may pass[NLINE]
+beyond this point. Please step back.[END-FE]
 
 
 
@@ -1932,7 +1932,7 @@ Hey, do you want to go investigate?[END-FE]
 //しっかり任務を[NLINE]
 //こなさないとダメだもんね！[END-FE]
 //Wendy\\
-Already thought you would say that![NLINE]
+I knew you'd say that![NLINE]
 It's our first mission as members of[NLINE]
 the [COL01]Red Wolf Unit[COL00], so we can't fail![NWIN]
 
@@ -2083,7 +2083,7 @@ Captain, we came to meet you![END-FE]
 //うむ、ご苦労。[END-FE]
 //Monopolis Guard Captain\\
 [CHAR4000][V0700]
-Yes, appreciated.[END-FE]
+Good work.[END-FE]
 
 
 
@@ -3109,7 +3109,6 @@ Select a placement pattern[END-FE]
 #W32($6270)
 //・Ｂパターン[END-FE]
 ・B Pattern[END-FE]
-
 
 
 
