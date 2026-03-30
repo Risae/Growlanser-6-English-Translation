@@ -311,7 +311,7 @@ gather materials![NWIN]
 
 [CH.FACE:Normal]
 Is there a place where I can get[NLINE]
-thingse cheap?[NWIN]
+things cheap?[NWIN]
 
 I'm sure there are a lot of things[NLINE]
 from that city's dump that I could[NLINE]
@@ -1427,7 +1427,7 @@ what's going on!?[END-FE]
 //盗んできたのは知っているのよ！[END-FE]
 //Korin\\
 We know you went rogue and stole[NLINE]
-stole the Dungeon Master's Rod![END-FE]
+the Dungeon Master's Rod![END-FE]
 
 
 
@@ -2201,7 +2201,7 @@ will check the crates.[END-FE]
 //よろしくお願いします。[END-FE]
 [CHAR5C00][V1200]
 It would be best for Hofman[NLINE]
-to take a look the crates.[NWIN]
+to take a look at the crates.[NWIN]
 
 [CHAR5E00][V1300]
 We will remain here. Good luck.[END-FE]
@@ -4622,7 +4622,7 @@ assets into jewels...[NWIN]
 
 [CHAR5B00][V1200]
 Even though this city is located along[NLINE]
-the border, it's far from battlefield,[NLINE]
+the border, it's far from the battlefield,[NLINE]
 so there should be no demand. Especially[NLINE]
 during these times...[END-FE]
 
@@ -5271,7 +5271,7 @@ again.[END-FE]
 //POINTER #402 @ $A568 - STRING #402 @ $FE49
 #W32($A568)
 //しまった！逃がしたか！[END-FE]
-Shoot! He ran way![END-FE]
+Shoot! He ran away![END-FE]
 
 
 
@@ -5406,7 +5406,7 @@ disappear...[END-FE]
 //[CHAR5F00][V0E00]
 //何をするつもりだ？[END-FE]
 [CHAR5F00][V0E00]
-What do you intend do?[END-FE]
+What do you intend to do?[END-FE]
 
 
 
@@ -6180,7 +6180,7 @@ If Hofman were to die...[END-FE]
 //大丈夫だろう。[NLINE]
 //ああみえて、奴は有能だからな。[END-FE]
 [CHAR5D00][V2700]
-It will be fine. He many not look the[NLINE]
+It will be fine. He may not look the[NLINE]
 part, but he's quite capable.[END-FE]
 
 
