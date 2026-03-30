@@ -5664,7 +5664,7 @@ alroight?[END-FE]
 #W32($8F68)
 //船着場まで物を[NLINE]
 //取ってきて欲しいんだ。[END-FE]
-If want ya to pick somethin'[NLINE]
+I want ya to pick somethin'[NLINE]
 at the pier, alroight?[END-FE]
 
 
@@ -5674,7 +5674,7 @@ at the pier, alroight?[END-FE]
 //POINTER #435 @ $8F6C - STRING #435 @ $10169
 #W32($8F6C)
 //狩りをしてきて欲しいんだが。[END-FE]
-If want ya to do some huntin',[NLINE]
+I want ya to do some huntin',[NLINE]
 alroight?[END-FE]
 
 
@@ -5773,7 +5773,7 @@ Alroight, I'm countin' on ya![END-FE]
 //今回の仕事だけど、[NLINE]
 //船着場まで荷物を[NLINE]
 //取りに行って欲しいんだ。[END-FE]
-This toime, If want ya to pick somethin'[NLINE]
+This toime, I want ya to pick somethin'[NLINE]
 at the pier, alroight?[END-FE]
 
 
