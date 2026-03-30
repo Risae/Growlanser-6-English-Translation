@@ -432,7 +432,7 @@ Press [L2] or [R2] to scroll through the gem list.   Press [SQUARE] to open the 
 //POINTER #46 @ $158 - STRING #46 @ $165A
 #W32($158)
 //[L2]、[R2]でグッズリストのスクロール送り　　　名称が暗いグッズは、所持金不足で購入できない[END-FF]
-Press [L2] or [R2] to scroll through the item list.   Grayed-out item cannot be purchased with your current funds.[END-FF]
+Press [L2] or [R2] to scroll through the item list.   Grayed-out items cannot be purchased with your current funds.[END-FF]
 
 
 

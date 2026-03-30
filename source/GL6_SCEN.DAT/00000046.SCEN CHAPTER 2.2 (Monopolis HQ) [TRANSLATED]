@@ -860,7 +860,7 @@ W-what are we gonna do now?[END-FE]
 //向かって左側が資料室です。[NLINE]
 //右側は商品プレゼン用の会議室です。[END-FE]
 The reference room is on the right side.[NLINE]
-Then room used for product presentations[NLINE]
+The room used for product presentations[NLINE]
 is on the left.[END-FE]
 
 
@@ -1154,7 +1154,7 @@ been lifted![END-FE]
 //POINTER #89 @ $7B04 - STRING #89 @ $90DB
 #W32($7B04)
 //・何をしていたのか問う[END-FE]
-・Ask her what is she doing[END-FE]
+・Ask her what she is doing[END-FE]
 
 
 

@@ -1084,7 +1084,7 @@ What's the matter?[END-FE]
 //モノポリス社の研究所だよ。[END-FE]
 //Doctor\\
 [CHAR0000][V0D00]
-This is Lenox Research Facility.[NLINE]
+This is the Lennox Research Facility.[NLINE]
 It's an institute owned by Monopolis.[END-FE]
 
 
@@ -1320,7 +1320,7 @@ ten days![END-FE]
 //Anita\\
 [CHAR0100][V0F00]
 I understand if you don't want to[NLINE]
-tell me how you got chest wound.[NLINE]
+tell me how you got a chest wound.[NLINE]
 However, at the very least, please[NLINE]
 remember me...[END-FE]
 
@@ -1371,7 +1371,7 @@ Would you like to save?[END-FE]
 #W32($5920)
 //レノックス研究所[END-FE]
 //Save Title\\
-Lenox Facility[END-FE]
+Lennox Facility[END-FE]
 
 
 
@@ -1848,7 +1848,7 @@ Nice to meet you![END-FE]
 //Wendy\\
 [CHAR0200][V0E00]
 Not the friendly type? Well, I'll just[NLINE]
-have take a peek at your name tag, then.[NLINE]
+have to take a peek at your name tag, then.[NLINE]
 Hmm, seems your name is... [MainCharName]?[END-FE]
 
 
@@ -2641,7 +2641,7 @@ from your last save or load a different one.[END-FE]
 //Wendy\\
 [CHAR0300][V2100]
 You know, I remember that- No, I have a[NLINE]
-hunch that there will an enemy attack[NLINE]
+hunch that there will be an enemy attack[NLINE]
 on this facility...[END-FE]
 
 
@@ -2659,7 +2659,7 @@ on this facility...[END-FE]
 //Wendy\\
 [CHAR0300][V2100]
 You know, I remember that- No, I have a[NLINE]
-hunch that there will an enemy attack[NLINE]
+hunch that there will be an enemy attack[NLINE]
 on this facility...[END-FE]
 
 
@@ -3491,7 +3491,7 @@ conflict areas.[END-FE]
 //System Message\\
 [CHARC900][V0400]
 Two days have passed since the attack[NLINE]
-on the Lenox Research Facility...[NLINE]
+on the Lennox Research Facility...[NLINE]
 [MainCharName] has been assigned[NLINE]
 security duty in the city of [COL01]Makinus[COL00],[NLINE]
 home to the Monopolis Headquarters.[END-FE]

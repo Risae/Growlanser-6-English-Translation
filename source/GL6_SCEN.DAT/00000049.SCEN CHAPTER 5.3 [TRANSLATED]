@@ -383,7 +383,7 @@ Felmentia? Then we still have a long way[NLINE]
 to go.[NWIN]
 
 [CHAR1900][V1B00]
-On the way lies a village [COL01]Totuwa[COL00].[NLINE]
+On the way lies a village called [COL01]Totuwa[COL00].[NLINE]
 It might be a good idea to head there[NLINE]
 first.[END-FE]
 
@@ -469,7 +469,7 @@ Would you like to get aboard?[END-FE]
 //POINTER #38 @ $6DB8 - STRING #38 @ $775C
 #W32($6DB8)
 //金がないなら乗せられないな。[END-FE]
-If you got no money, you can't go aboard.[END-FE]
+If you have no money, you can't go aboard.[END-FE]
 
 
 
@@ -556,7 +556,7 @@ Would you like to get aboard?[END-FE]
 //POINTER #47 @ $6DDC - STRING #47 @ $788C
 #W32($6DDC)
 //金がないなら乗せられないな。[END-FE]
-If you got no money, you can't go aboard.[END-FE]
+If you have no money, you can't go aboard.[END-FE]
 
 
 
@@ -626,7 +626,7 @@ now we're in the snowy north, huh?[END-FE]
 [CHAR1800][V0100]
 It's so cold... Do we have to[NLINE]
 pass through this environment[NLINE]
-for a long time[END-FE]
+for a long time?[END-FE]
 
 
 
@@ -1622,7 +1622,7 @@ I knew it.[NWIN]
 [CH.FACE:Normal][CHAR1900][V0700]
 But based on what we heard earlier,[NLINE]
 someone named Ziekwalt seemed to have[NLINE]
-took it away.[NWIN]
+taken it away.[NWIN]
 
 [CHAR1900][V0800]
 However, Ziekwalt ended up fighting[NLINE]
@@ -1660,7 +1660,7 @@ I see. I think they're after it, though.[NWIN]
 [CHAR1900][V0B00]
 But based on what we heard earlier,[NLINE]
 someone named Ziekwalt seemed to have[NLINE]
-took it away.[NWIN]
+taken it away.[NWIN]
 
 [CHAR1900][V0C00]
 However, Ziekwalt ended up fighting[NLINE]
@@ -1803,7 +1803,7 @@ journey may be over...[END-FE]
 //POINTER #144 @ $6F60 - STRING #144 @ $8D7F
 #W32($6F60)
 //・旅の目的を聞く[END-FE]
-・Ask what is the purpose of his journey is[END-FE]
+・Ask what the purpose of his journey is[END-FE]
 
 
 
@@ -2020,7 +2020,7 @@ We help to improve people's lives...[END-FE]
 [CHAR1A00][V0800]
 If that's so, then you don't need to[NLINE]
 seek the Dragon Orb, isn't that right?[NLINE]
-...What are planning to do!?[END-FE]
+...What are you planning to do!?[END-FE]
 
 
 

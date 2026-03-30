@@ -123,7 +123,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($5D48)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・One of your companies dies[NLINE]
+・One of your companions dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -714,7 +714,7 @@ is proof of that.[END-FE]
 //おかげでテロの被害は[NLINE]
 //なくなったみたいだけど。[END-FE]
 [CHAR2800][V0E00]
-That's why there also still Fomeros[NLINE]
+That's why there are also still Fomeros[NLINE]
 soldiers in Leystan.[NWIN]
 
 [CHAR2800][V0F00]
@@ -1058,7 +1058,7 @@ How about some delicious sweets?[END-FE]
 #W32($5E64)
 //…まるでフォメロス軍に[NLINE]
 //占領されているみたいだろ？[END-FE]
-...It's like the Formeros army[NLINE]
+...It's like the Fomeros army[NLINE]
 is actually here to occupy us,[NLINE]
 am I right?[END-FE]
 
@@ -1436,7 +1436,7 @@ Come again![END-FE]
 //市民の安全のために[NLINE]
 //警備をしております。[END-FE]
 This is Leystan.[NLINE]
-We of the Formeros army keep a close[NLINE]
+We of the Fomeros army keep a close[NLINE]
 eye on the city in order to guarantee[NLINE]
 the safety of its citizens.[END-FE]
 

@@ -734,7 +734,7 @@ members. However, orders such as Move[NLINE]
 and Attack are often not available during[NLINE]
 non-combat.[NWIN]
 
-When the action completed, the party member[NLINE]
+When the action is completed, the party member[NLINE]
 will ask for further instructions. However,[NLINE]
 if [COL01]"Post-Instruction Behaviour"[COL00] in the[NLINE]
 Config Menu is set to AUTO, the character[NLINE]
