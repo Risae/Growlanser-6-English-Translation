@@ -45,6 +45,38 @@ jobs:
           KNW = "KNW"
           Vor = "Vor"
           Gae = "Gae"
+          # Dialect speech (dropped-g endings used by village characters in 00000034.SCEN, 00000079.SCEN, 00000086.SCEN)
+          goin = "goin"
+          somethin = "somethin"
+          nothin = "nothin"
+          anythin = "anythin"
+          everythin = "everythin"
+          lookin = "lookin"
+          runnin = "runnin"
+          doin = "doin"
+          makin = "makin"
+          givin = "givin"
+          takin = "takin"
+          participatin = "participatin"
+          deceivin = "deceivin"
+          promisin = "promisin"
+          excitin = "excitin"
+          usin = "usin"
+          completin = "completin"
+          challengin = "challengin"
+          preparin = "preparin"
+          amazin = "amazin"
+          Goin = "Goin"
+          Lookin = "Lookin"
+          Somethin = "Somethin"
+          Everythin = "Everythin"
+          Takin = "Takin"
+          # Dialect words (dropped-letter spellings used by village characters in 00000034.SCEN)
+          # 'appen = happen, 'adn't = hadn't, Dum-dum = intentional character nickname
+          appen = "appen"
+          adn = "adn"
+          Dum = "Dum"
+          dum = "dum"
 
           # [files]
           # extend-exclude = [
