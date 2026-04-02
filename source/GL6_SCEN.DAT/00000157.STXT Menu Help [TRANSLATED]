@@ -225,7 +225,7 @@ Press [CROSS] to bring up the gem screen.   Press [L1] or [R1] to switch charact
 //POINTER #23 @ $FC - STRING #23 @ $C1D
 #W32($FC)
 //[COL03][CIRCLE][COL00]で設定メニューへ戻る　　　[L1]、[R1]でキャラクター変更　　　[COL02][CROSS][COL00]でスキルリスト画面へ[END-FF]
-Press [CROSS] to return to the settings menu   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to bring up the skill list screen.[END-FF]
+Press [CIRCLE] to return to the settings menu   Press [L1] or [R1] to switch characters.   Press [CROSS] to bring up the skill list screen.[END-FF]
 
 
 
