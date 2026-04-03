@@ -5818,7 +5818,7 @@ However, it was unsuccessful.[NWIN]
 
 [CHAR5800][V5400]
 Apparently, the systems that control[NLINE]
-the Ley Point Towers have been completely.[NLINE]
+the Ley Point Towers have been completely[NLINE]
 shut down. They cannot be operated.[END-FE]
 
 
@@ -6289,6 +6289,5 @@ Go to the debugging room?[END-FE]
 #W32($760C)
 //自動Ｄ　ＥＢ０６＿０５後[END-FE]
 自動D EB06_05後[END-FE]
-
 
 
