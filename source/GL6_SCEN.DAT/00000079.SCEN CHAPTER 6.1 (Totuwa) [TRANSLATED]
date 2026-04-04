@@ -202,7 +202,7 @@ You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //おめでとうね、[Futon-Dog]。[END-FE]
 B-bewdy[NLINE]
 To think ya could beat Ellon![NLINE]
-Goon on ya, [Futon-Dog].[END-FE]
+Good on ya, [Futon-Dog].[END-FE]
 
 
 
@@ -402,7 +402,7 @@ It seems you can't hold any more.[NWIN]
 
 I'll put it in your Rana Bag so that[NLINE]
 you can take it out when you have[NLINE]
-room again[END-FE]
+room again.[END-FE]
 
 
 
@@ -562,7 +562,7 @@ It seems you can't hold any more.[NWIN]
 
 I'll put it in your Rana Bag so that[NLINE]
 you can take it out when you have[NLINE]
-room again[END-FE]
+room again.[END-FE]
 
 
 
@@ -846,7 +846,7 @@ looks warm, doesn't it?[END-FE]
 //なったのでしょうね。[END-FE]
 A cross shaped futon...[NLINE]
 How did it become such a[NLINE]
-shape.[END-FE]
+shape?[END-FE]
 
 
 
@@ -901,7 +901,7 @@ everyone behind.[END-FE]
 //いらっしゃいませ。[NLINE]
 //よろず屋へようこそ。[END-FE]
 Welcome.[NLINE]
-This is the Item Shop.[END-FE].[END-FE]
+This is the Item Shop.[END-FE]
 
 
 
@@ -1461,7 +1461,7 @@ Bonzer![NLINE]
 Me doggies will be stoked to be[NLINE]
 raised by youse blokes![NWIN]
 
-Howevah, first I would loike ya to[NLINE]
+Howevah, first I would loike to[NLINE]
 tell ya various things 'bout Futon Dogs.[END-FE]
 
 
@@ -1540,7 +1540,7 @@ become a trainer.[NWIN]
 Basically, all ya've got to do is[NLINE]
 do things with a Futon Dog.[NWIN]
 
-Various kinds of rainin' support[NLINE]
+Various kinds of trainin' support[NLINE]
 are provided in this village. Make sure[NLINE]
 to take advantage of 'em.[NWIN]
 
@@ -2599,7 +2599,7 @@ we saw on that diagram earlier.[END-FE]
 #W32($8BAC)
 //[Futon-Dog]にこの前買った本の内容を[NLINE]
 //教えましょう。[END-FE]
-Let's learn [Futon-Dog] the dance[NLINE]
+Let's teach [Futon-Dog] the dance[NLINE]
 from that book we bought last time![END-FE]
 
 
@@ -3307,7 +3307,7 @@ so keep this in mind when the second[NLINE]
 and third music pieces are playing.[NWIN]
 
 The time it takes to press a button also[NLINE]
-effects the score, so remember to press[NLINE]
+affects the score, so remember to press[NLINE]
 a button as soon as you recognize the[NLINE]
 music.[NWIN]
 
@@ -3496,7 +3496,7 @@ when that happens. If you approach[NLINE]
 the runaway Futon Dog and encourage[NLINE]
 it, it will return to the competition.[NWIN]
 
-Please make your Futon Dog eat as much[NLINE]
+Please make your Futon Dog eat as many[NLINE]
 Slimes as possible.[END-FE]
 
 
@@ -3865,7 +3865,7 @@ one-on-one fight with the reigning[NLINE]
 champion Ellon. You simply have to[NLINE]
 win.[NWIN]
 
-There will attack turns and defense[NLINE]
+There will be attack turns and defense[NLINE]
 turns during the dogfight.[NWIN]
 
 Your Futon Dog's attack turn consists[NLINE]
@@ -3883,7 +3883,7 @@ is to find a weakpoint in its opponent's[NLINE]
 defense.[NWIN]
 
 During Determine Attack Location, you[NLINE]
-will decide from side your Futon Dog[NLINE]
+will decide from which side your Futon Dog[NLINE]
 will attack its opponent.[NWIN]
 
 The higher your Futon Dog's overall[NLINE]
@@ -4053,7 +4053,7 @@ Loyalty Depth[CC.EF00][END-FE]
 //[Futon-Dog]のブリーダーは、[NLINE]
 //君以外ありえないって感じだね！[END-FE]
 You are inseparable![NLINE]
-[Futon-Dog] feels no else can[NLINE]
+[Futon-Dog] feels no one else can[NLINE]
 be its breeder but you![END-FE]
 
 
@@ -4090,7 +4090,7 @@ you quite a bit.[END-FE]
 //レベルだね。[NLINE]
 //ここからだよ。[END-FE]
 It finally acknowledged you as its[NLINE]
-raiser. Kee it up.[END-FE]
+raiser. Keep it up.[END-FE]
 
 
 
@@ -4238,7 +4238,7 @@ outside change.[END-FE]
 //良い場所はないものかな。[END-FE]
 We want to increase the amount[NLINE]
 of places where Futon Dogs can[NLINE]
-go for a walk. I wonder if they're[NLINE]
+go for a walk. I wonder if there[NLINE]
 are any good spots for that?[END-FE]
 
 
@@ -4378,7 +4378,7 @@ came here.[END-FE]
 //その間に小屋の掃除を終わらせないとね！[END-FE]
 Do you need Dr. Irving for something?[NLINE]
 He's out on a walk with the dogs[NLINE]
-right. In the meantime, I have to[NLINE]
+right now. In the meantime, I have to[NLINE]
 finish cleaning the shelter![END-FE]
 
 
@@ -5079,7 +5079,7 @@ a trick? Which one?[END-FE]
 //POINTER #382 @ $8E98 - STRING #382 @ $F890
 #W32($8E98)
 //[Futon-Dog]にフセを覚えさせるんだね？[END-FE]
-You want me [Futon-Dog] to learn how[NLINE]
+You want [Futon-Dog] to learn how[NLINE]
 to lie down on command?[END-FE]
 
 
@@ -5534,7 +5534,7 @@ to do a forward roll?[END-FE]
 //では、行きます。[NLINE]
 //[Futon-Dog]、前転！[END-FE]
 Alright, here we go.[NLINE]
-[Futon-Dog, do a forward roll![END-FE]
+[Futon-Dog], do a forward roll![END-FE]
 
 
 
@@ -5900,7 +5900,7 @@ for each tongue ya bring me.[END-FE]
 //取って来てくれた分だけ、[NLINE]
 //サービスポイントをあげるよ。[END-FE]
 There's a monster called a[NLINE]
-Will o' Wisp. I want ya to[NLINE]
+Will o' Wisp. I want ya to get[NLINE]
 some of the luminescent powder[NLINE]
 that covers it.[NWIN]
 
@@ -6487,7 +6487,7 @@ used in the dance contest.[NWIN]
 Each dance has affinity with[NLINE]
 one of the music pieces. Dances[NLINE]
 of the step variety go well[NLINE]
-together with "Like a Caroon".[NLINE]
+together with "Like a Cartoon".[NLINE]
 Dances of the standing variety[NLINE]
 go well with "Cheerful Event".[NLINE]
 Dances of the rotation variety[NLINE]
@@ -6670,7 +6670,7 @@ a little ahead in the future.[CC.BE0105][NWIN]
 However, every time something happens[NLINE]
 in the past, the future greatly changes.[NLINE]
 Thus, trying to foresee the future has[NLINE]
-become exercise in futility.[END-FE]
+become an exercise in futility.[END-FE]
 
 
 
@@ -6978,7 +6978,7 @@ Ah! You came just like you said[NLINE]
 you would![NWIN]
 
 From now on, I will use the techniques[NLINE]
-I have cultivated to give rigorous trainings[NLINE]
+I have cultivated to give rigorous training[NLINE]
 to Futon Dogs. Come talk to me anytime.[NWIN]
 
 But it will cost you Service Points, of[NLINE]
@@ -7263,7 +7263,7 @@ hero.[END-FE]
 [CHAR1B00][V0B00]
 Yes.[NLINE]
 I'm confident that he is the[NLINE]
-the Brave One.[NWIN]
+Brave One.[NWIN]
 
 [CHAR1B00][V0C00]
 The reason I hadn't found him until[NLINE]
@@ -7497,7 +7497,7 @@ impact on the future, right?[END-FE]
 //滅多なことは言いたくないが、[NLINE]
 //最悪の場合、この星そのものが終わる。[END-FE]
 [CHAR1B00][V2000]
-What I'm about to tell is might be[NLINE]
+What I'm about to tell you might be[NLINE]
 rash because there are still too many[NLINE]
 uncertainties. However, I will say it[NLINE]
 anyway: in the worst case scenario,[NLINE]
