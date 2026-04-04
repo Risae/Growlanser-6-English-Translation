@@ -1084,7 +1084,7 @@ What's the matter?[END-FE]
 //モノポリス社の研究所だよ。[END-FE]
 //Doctor\\
 [CHAR0000][V0D00]
-This is Lenox Research Facility.[NLINE]
+This is Lennox Research Facility.[NLINE]
 It's an institute owned by Monopolis.[END-FE]
 
 
@@ -1371,7 +1371,7 @@ Would you like to save?[END-FE]
 #W32($5920)
 //レノックス研究所[END-FE]
 //Save Title\\
-Lenox Facility[END-FE]
+Lennox Facility[END-FE]
 
 
 
@@ -3491,7 +3491,7 @@ conflict areas.[END-FE]
 //System Message\\
 [CHARC900][V0400]
 Two days have passed since the attack[NLINE]
-on the Lenox Research Facility...[NLINE]
+on the Lennox Research Facility...[NLINE]
 [MainCharName] has been assigned[NLINE]
 security duty in the city of [COL01]Makinus[COL00],[NLINE]
 home to the Monopolis Headquarters.[END-FE]
