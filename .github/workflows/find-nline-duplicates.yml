@@ -1,13 +1,9 @@
-name: Find and Fix Duplicate Words Across [NLINE]
+name: Find Duplicate Words Across [NLINE]
 
 on: workflow_dispatch
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
-  FindAndFix:
+  FindDuplicates:
     runs-on: windows-2025
     steps:
       - name: 01. Copy repository
@@ -16,13 +12,11 @@ jobs:
           sparse-checkout: | # Only copy specific folders to the container
             source
 
-      - name: 02. Find and fix duplicate words across [NLINE]
-        id: fix
+      - name: 02. Find duplicate words across [NLINE]
         shell: pwsh # Powershell 7, which uses UTF-8 as default
         run: |
-          Write-Host "`n[i] Initialize lists"
-          $fixList = @()
-          $totalFixed = 0
+          Write-Host "`n[i] Initialize output list"
+          $outputList = @()
 
           Write-Host "`n[i] Create blackList"
           $blackList = @(
@@ -80,7 +74,7 @@ jobs:
                 }
               }
 
-              $modified = $false
+              $hasMatches = $false
 
               for ($i = 0; $i -lt ($translationLines.Count - 1); $i++) {
                 $currentLine = $translationLines[$i].Text
@@ -96,56 +90,28 @@ jobs:
                   # Check if the next line starts with that same word (case-insensitive),
                   # optionally preceded by control codes, followed by whitespace, [ or end-of-line
                   if ($nextLine -imatch "^(?:\[[^\]]+\])*$escaped(?:\s|\[|$)") {
-                    $fixedLine = $nextLine -ireplace "^((?:\[[^\]]+\])*)$escaped\s*", '$1'
-
-                    Write-Host "`n`e[33m[~] Duplicate '$lastWord' in $filename"
-                    Write-Host "  Line $($translationLines[$i].Index + 1): '$currentLine'"
-                    Write-Host "  Line $($nextItem.Index + 1): '$nextLine' -> '$fixedLine'"
-
-                    # Update both the file lines array and the in-memory text for subsequent checks
-                    $fileLines[$nextItem.Index] = $fixedLine
-                    $nextItem.Text = $fixedLine
-
-                    $fixList += "[~] $filename (line $($nextItem.Index + 1)) - Removed duplicate '$lastWord': '$nextLine' -> '$fixedLine'"
-                    $modified = $true
-                    $totalFixed++
+                    Write-Host "`n`e[31m[!] Duplicate '$lastWord' - $filename"
+                    Write-Host "`e[31m[!] Line $($translationLines[$i].Index + 1): '$currentLine'"
+                    Write-Host "`e[31m[!] Line $($nextItem.Index + 1): '$nextLine'"
+                    $outputList += "[!] $filename (lines $($translationLines[$i].Index + 1)-$($nextItem.Index + 1)) - Duplicate '$lastWord': '$currentLine' / '$nextLine'"
+                    $hasMatches = $true
                   }
                 }
               }
 
-              if ($modified) {
-                $fileLines | Set-Content -LiteralPath $_.FullName -Encoding utf8
-                Write-Host "✏️ Fixed"
-              } else {
+              if (-not $hasMatches) {
                 Write-Host "✅"
+              } else {
+                Write-Host ""
               }
             }
 
-          Write-Host "`n[i] Summary of fixes:"
-          $fixList | ForEach-Object { Write-Host "  $_" }
-          Write-Host "`n[i] Total fixes applied: $totalFixed"
+          Write-Host "`n[i] Checking if the outputList has any entries..."
 
-          if ($totalFixed -gt 0) {
-            Write-Host "`e[33m[~] Applied $totalFixed fix(es). A pull request will be created."
-            "found_issues=true" | Out-File -Append -FilePath $Env:GITHUB_OUTPUT -Encoding utf8
-          } else {
-            Write-Host "`e[32m[i] No duplicate words found!"
-            "found_issues=false" | Out-File -Append -FilePath $Env:GITHUB_OUTPUT -Encoding utf8
+          if ($outputList.Count -gt 0) {
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            exit 1
           }
-
-      - name: 03. Create Pull Request
-        if: steps.fix.outputs.found_issues == 'true'
-        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
-        with:
-          commit-message: "Fix duplicate words across [NLINE] boundaries"
-          branch: fix/nline-duplicate-words
-          title: "Fix duplicate words across [NLINE] boundaries"
-          body: |
-            Automated fix for duplicate words that appear at the end of one line and the start of the next, separated by an `[NLINE]` control code.
-
-            **Example of the issue:**
-            ```
-            are scared for their lives because[NLINE]
-            because of their actions?[NWIN]
-            ```
-            The duplicate word (`because`) was removed from the start of the second line.
+          else {
+            Write-Host "`e[32m[i] No duplicate words found!"
+          }
