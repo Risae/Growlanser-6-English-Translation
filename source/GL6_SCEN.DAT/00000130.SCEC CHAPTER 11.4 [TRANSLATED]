@@ -57,7 +57,7 @@ everyone else...[END-FE]
 //POINTER #3 @ $6AC - STRING #3 @ $7F9
 #W32($6AC)
 //・人間ならば、時を越えられない[END-FE]
-・If you were human, we wouldn't be able travel through time[END-FE]
+・If you were human, we wouldn't be able to travel through time[END-FE]
 
 
 
@@ -584,7 +584,7 @@ chests left inside.[END-FE]
 //あと[CC.EF0E]個 ありました！[END-FE]
 We've found it![NWIN]
 
-There are [CC.EF0E] treasure chest[NLINE]
+There are [CC.EF0E] treasure chests[NLINE]
 left inside![END-FE]
 
 
