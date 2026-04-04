@@ -574,6 +574,110 @@ jobs:
             Write-Host "`e[32m[i] No errors found!"
           }
 
+      - name: 09. Find duplicate words across [NLINE]
+        shell: pwsh # Powershell 7, which uses UTF-8 as default
+        run: |
+          Write-Host "`n[i] Initialize output list"
+          $outputList = @()
+
+          Write-Host "`n[i] Create blackList"
+          $blackList = @(
+            '00000001.SCEN.asm',
+            '00000002.SCEN Dummy file',
+            '00000003.SCEN Dummy file',
+            '00000033.SCEN Dummy file',
+            '00000035.SCEN Dummy file',
+            '00000039.SCEN Dummy file',
+            '00000043.SCEN.asm',
+            '00000061.SCEN Dummy file',
+            '00000062.SCEN Dummy file',
+            '00000064.SCEN Dummy file',
+            '00000066.SCEN Dummy file',
+            '00000067.SCEN Dummy file',
+            '00000068.SCEN Dummy file',
+            '00000071.SCEN Dummy file',
+            '00000101.SCEC Dummy file',
+            '00000105.SCEC Dummy file',
+            '00000109.SCEC Voice check Debug overview',
+            '00000110.SCEC Voice check Debug',
+            '00000111.SCEC Voice check Debug',
+            '00000112.SCEC Voice check Debug',
+            '00000113.SCEC Voice check Debug',
+            '00000114.SCEC Voice check Debug',
+            '00000115.SCEC Voice check Debug',
+            '00000116.SCEC Voice check Debug',
+            '00000117.SCEC Voice check Debug',
+            '00000118.SCEC Dummy file',
+            '00000119.SCEC Dummy file',
+            '00000120.SCEC Dummy file',
+            '00000121.SCEC Dummy file',
+            '00000122.SCEC Dummy file',
+            '00000123.SCEC Dummy file',
+            '00000124.SCEC Dummy file',
+            '00000125.SCEC Dummy file',
+            '00000167.STXT Dummy file'
+          )
+
+          Get-ChildItem -Path "$Env:GITHUB_WORKSPACE\source\GL6_SCEN.DAT" |
+            Where-Object { $_.Name -notin $blackList } |
+            ForEach-Object {
+
+              $filename = $_.Name
+              Write-Host "Checking $filename..." -NoNewline
+
+              $fileLines = Get-Content -LiteralPath $_.FullName
+
+              # Build list of non-comment translation lines and their original file indices
+              $translationLines = [System.Collections.Generic.List[PSCustomObject]]::new()
+              for ($idx = 0; $idx -lt $fileLines.Count; $idx++) {
+                $line = $fileLines[$idx]
+                if ($line -notlike '//*' -and $line -notlike '#*') {
+                  $translationLines.Add([PSCustomObject]@{ Index = $idx; Text = $line })
+                }
+              }
+
+              $hasMatches = $false
+
+              for ($i = 0; $i -lt ($translationLines.Count - 1); $i++) {
+                $currentLine = $translationLines[$i].Text
+                $nextItem    = $translationLines[$i + 1]
+                $nextLine    = $nextItem.Text
+
+                # Extract the last alphabetic word before [NLINE] on the current line,
+                # allowing optional control codes (e.g. [COL01]) between word and [NLINE]
+                if ($currentLine -match '([a-zA-Z]+)(?:\[[^\]]+\])*\[NLINE\]$') {
+                  $lastWord = $matches[1]
+                  $escaped  = [regex]::Escape($lastWord)
+
+                  # Check if the next line starts with that same word (case-insensitive),
+                  # optionally preceded by control codes, followed by whitespace, [ or end-of-line
+                  if ($nextLine -imatch "^(?:\[[^\]]+\])*$escaped(?:\s|\[|$)") {
+                    Write-Host "`n`e[31m[!] Duplicate '$lastWord' - $filename"
+                    Write-Host "`e[31m[!] Line $($translationLines[$i].Index + 1): '$currentLine'"
+                    Write-Host "`e[31m[!] Line $($nextItem.Index + 1): '$nextLine'"
+                    $outputList += "[!] $filename (lines $($translationLines[$i].Index + 1)-$($nextItem.Index + 1)) - Duplicate '$lastWord': '$currentLine' / '$nextLine'"
+                    $hasMatches = $true
+                  }
+                }
+              }
+
+              if (-not $hasMatches) {
+                Write-Host "✅"
+              } else {
+                Write-Host ""
+              }
+            }
+
+          Write-Host "`n[i] Checking if the outputList has any entries..."
+
+          if ($outputList.Count -gt 0) {
+            Write-Host "`e[31m[!] Found $($outputList.Count) errors. Exiting with code 1."
+            exit 1
+          }
+          else {
+            Write-Host "`e[32m[i] No duplicate words found!"
+          }
+
   BuildPatch:
     runs-on: windows-2025
     needs: CheckScript
