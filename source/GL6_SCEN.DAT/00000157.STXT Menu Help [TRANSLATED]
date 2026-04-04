@@ -243,7 +243,7 @@ Press [CROSS] to bring up the options screen.   Press [L1] or [R1] to switch cha
 //POINTER #25 @ $104 - STRING #25 @ $CE9
 #W32($104)
 //[COL03][CIRCLE][COL00]で思考の決定　　　主人公に連携：主人公と同じ目標優先　　　弱い敵を攻撃：ＳＴＲの低い敵優先　　　味方を援護：味方の支援を優先[END-FF]
-Press [CROSS] to confirm AI settings.   Cooperate: Prioritize attacking same enemy as the main character   Attack Weak: Prioritize attacking enemies with low STR   Support Allies: Prioritize supporting one's allies[END-FF]
+Press [CROSS] to confirm AI settings.   Cooperate: Prioritize attacking the same enemy as the main character   Attack Weak: Prioritize attacking enemies with low STR   Support Allies: Prioritize supporting one's allies[END-FF]
 
 
 
@@ -432,7 +432,7 @@ Press [L2] or [R2] to scroll through the gem list.   Press [SQUARE] to open the 
 //POINTER #46 @ $158 - STRING #46 @ $165A
 #W32($158)
 //[L2]、[R2]でグッズリストのスクロール送り　　　名称が暗いグッズは、所持金不足で購入できない[END-FF]
-Press [L2] or [R2] to scroll through the item list.   Grayed-out item cannot be purchased with your current funds.[END-FF]
+Press [L2] or [R2] to scroll through the item list.   Grayed-out items cannot be purchased with your current funds.[END-FF]
 
 
 
