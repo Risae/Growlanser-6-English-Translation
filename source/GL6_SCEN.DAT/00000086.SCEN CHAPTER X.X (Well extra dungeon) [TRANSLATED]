@@ -94,7 +94,7 @@ You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
 //POINTER #8 @ $8D40 - STRING #8 @ $9410
 #W32($8D40)
 //これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
-You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 
 
@@ -488,7 +488,7 @@ It's... taking hold of me...[NWIN]
 power, you're far from a Dungeon[NLINE]
 Master, little girl...[COL00][NWIN]
 
-[COL06]Someone like you[ is unable to control[NLINE]
+[COL06]Someone like you is unable to control[NLINE]
 neither the world's greatest dungeon[NLINE]
 nor my fearsome power...[COL00][NWIN]
 
@@ -735,7 +735,7 @@ Listen to what people say from[NLINE]
 now on![NWIN]
 
 Also, you can't rely on a rod to[NLINE]
-proof that your dungeon is the ultimate[NLINE]
+prove that your dungeon is the ultimate[NLINE]
 one![END-FE]
 
 
@@ -756,7 +756,7 @@ Please listen to what other people[NLINE]
 say from now on.[NWIN]
 
 Also, you can't rely on a rod to[NLINE]
-proof that your dungeon is the ultimate[NLINE]
+prove that your dungeon is the ultimate[NLINE]
 one![END-FE]
 
 
@@ -1168,7 +1168,7 @@ But they said I was disqualified![END-FE]
 //言ってんだし。[END-FE]
 //Korin\\
 Isn't this great!?[NLINE]
-They'll still allow you do a[NLINE]
+They'll still allow you to do a[NLINE]
 resit.[END-FE]
 
 
@@ -3914,7 +3914,7 @@ weak to fire. What will be next...?[END-FE]
 //Dungeon Lady\\
 Stop being such a busybody all the[NLINE]
 time! And take that sympathetic[NLINE]
-look of your face![END-FE]
+look off your face![END-FE]
 
 
 
@@ -4042,7 +4042,7 @@ use any trick in the book.[END-FE]
 //Bachter\\
 Seems like you've been messin' with[NLINE]
 my subordinate. Bachtamania's gonna[NLINE]
-you regret that![END-FE]
+make you regret that![END-FE]
 
 
 
@@ -5122,10 +5122,10 @@ of yours![END-FE]
 //[CH.FACE:Angry]
 //…お姉さんには、謝らせますけど。[END-FE]
 //Yurii\\
-You need for you to apologize.[NWIN]
+There's no need for you to apologize.[NWIN]
 
 [CH.FACE:Angry]
-...She one who should is your sister.[END-FE]
+...The one who should apologize is your sister.[END-FE]
 
 
 
@@ -5173,7 +5173,7 @@ Please don't overdo it.[END-FE]
 //このダンジョンは入り組んでいるため、[NLINE]
 //宝箱がいくつあるかわかりません。[END-FE]
 This dungeon is intricate, so I[NLINE]
-don't know how many treasure chest[NLINE]
+don't know how many treasure chests[NLINE]
 there are. My apologies.[END-FE]
 
 
