@@ -380,7 +380,7 @@ as bait?[END-FE]
 I can't think of any other way.[NWIN]
 
 [CH.FACE:Serious][CHAR2900][V0D00]
-In any case, Welber will[NLINE]
+In any case, Wellber will[NLINE]
 absolutely try to capture me.[NLINE]
 There's no doubt about that.[NWIN]
 
@@ -1078,8 +1078,8 @@ Lift Control Device[END-FE]
 //　ウェルバーが出現した後に[NLINE]
 //　下山を完了する[END-FE]
 ・Destroy the lift and[NLINE]
- descent the mountain,[NLINE]
- after Welber appears[END-FE]
+ descend the mountain,[NLINE]
+ after Wellber appears[END-FE]
 
 
 
@@ -1091,8 +1091,8 @@ Lift Control Device[END-FE]
 //　ホフマンを逃がした後に[NLINE]
 //　パーティーメンバーも脱出する[END-FE]
 ・Destroy the lift and[NLINE]
- descent the mountain,[NLINE]
- after Welber appears[END-FE]
+ descend the mountain,[NLINE]
+ after Wellber appears[END-FE]
 
 
 
@@ -1124,7 +1124,7 @@ Activation of Power Builder complete![END-FE]
 //これを壊しておけば、[NLINE]
 //先回りされる心配はありませんね。[END-FE]
 [CHAR2900][V2900]
-Now that we've destroy this, we[NLINE]
+Now that we've destroyed this, we[NLINE]
 won't have to worry about them[NLINE]
 getting ahead of us.[END-FE]
 
@@ -1135,7 +1135,7 @@ getting ahead of us.[END-FE]
 //POINTER #87 @ $6E7C - STRING #87 @ $8383
 #W32($6E7C)
 //・ウェルバー出現後、下山を完了する[END-FE]
-・Descent the mountain after Welber appears[END-FE]
+・Descend the mountain after Wellber appears[END-FE]
 
 
 
@@ -1230,7 +1230,7 @@ Save it for court![END-FE]
 //証拠をつかむまでは、絶対に！[END-FE]
 [CHAR2900][V3000]
 I won't submit myself to an[NLINE]
-an unfair trail![NWIN]
+unfair trial![NWIN]
 
 [CHAR2900][V3100]
 I won't let myself be judged until[NLINE]
@@ -1302,7 +1302,7 @@ I will leave the rest to you![END-FE]
 //・パーティーの全滅[END-FE]
 ・Hofman dies[NLINE]
 ・Kill more than thirty-four Fomeros soldiers[NLINE]
-・Welber is defeated[NLINE]
+・Wellber is defeated[NLINE]
 ・All party members die[END-FE]
 
 
@@ -1363,7 +1363,7 @@ of here, we'll be in trouble![END-FE]
 //・ウェルバーの撃破[NLINE]
 //・パーティーの全滅[END-FE]
 ・Kill more than thirty-four Fomeros soldiers[NLINE]
-・Welber is defeated[NLINE]
+・Wellber is defeated[NLINE]
 ・All party members die[END-FE]
 
 
@@ -1384,7 +1384,7 @@ good condition![END-FE]
 #W32($6EC4)
 //ウェルバー少佐が[NLINE]
 //出てくるまでがんばってくれ！[END-FE]
-Let's fight hard until Welber[NLINE]
+Let's fight hard until Wellber[NLINE]
 comes out![END-FE]
 
 
@@ -1557,7 +1557,7 @@ to the top![END-FE]
 //被害が大きすぎる、[NLINE]
 //全員いまの守備位置から出るな！[END-FE]
 [CHAR2900][V1E00]
-We've taken too much casualties.[NLINE]
+We've taken too many casualties.[NLINE]
 No one is to leave their defensive[NLINE]
 position![END-FE]
 
@@ -1590,7 +1590,7 @@ This operation is a failure...[END-FE]
 Is that the traitor Hofman!?[NWIN]
 
 [CHAR2900][V2400]
-Hey! Report th9s to Lieutenant Colonel Wellber![END-FE]
+Hey! Report this to Lieutenant Colonel Wellber![END-FE]
 
 
 
@@ -1637,7 +1637,7 @@ Understood![END-FE]
 //POINTER #123 @ $6F0C - STRING #123 @ $8D57
 #W32($6F0C)
 //・ウェルバー出現後、下山を完了する[END-FE]
-・Descent the mountain after Welber appears[END-FE]
+・Descend the mountain after Wellber appears[END-FE]
 
 
 
@@ -1649,7 +1649,7 @@ Understood![END-FE]
 //　ウェルバーが出現した後、[NLINE]
 //　下山を完了する[END-FE]
 ・Destroy the lift and descend[NLINE]
- the mountain after Welber appears[END-FE]
+ the mountain after Wellber appears[END-FE]
 
 
 
