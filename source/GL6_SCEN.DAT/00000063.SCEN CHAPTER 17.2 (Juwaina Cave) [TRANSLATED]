@@ -265,8 +265,8 @@ Inside Tunnel (North of Juwaina Village)[END-FE]
 
 //POINTER #25 @ $4204 - STRING #25 @ $4549
 #W32($4204)
-//戦闘ゼオンをスキップする？[END-FE]
-戦闘ゼオンをスキップする？[END-FE]
+//Do you want to skip the battle?[END-FE]
+Do you want to skip the battle?[END-FE]
 
 
 
@@ -459,7 +459,7 @@ Please tell me where I should check.[END-FE]
 //調べる場所を変更したかったら[NLINE]
 //声をかけてくれ。[END-FE]
 //Randall\\
-If you would like to change place[NLINE]
+If you would like to change the place[NLINE]
 you would like me to search, please[NLINE]
 call me over.[END-FE]
 
@@ -547,7 +547,7 @@ Select a placement pattern[END-FE]
 //POINTER #49 @ $4264 - STRING #49 @ $4957
 #W32($4264)
 //　[NLINE]
-//ランディと合流してからにしよう。[NLINE]
+//Let's join with Randy first.[NLINE]
 //　[END-FE]
 [NLINE]
 Let's join with Randy first.[NLINE]
@@ -560,7 +560,7 @@ Let's join with Randy first.[NLINE]
 //POINTER #50 @ $4268 - STRING #50 @ $4982
 #W32($4268)
 //　[NLINE]
-//まだポサヤを採取していない！[NLINE]
+//We haven't collected Posaya yet![NLINE]
 //　[END-FE]
 [NLINE]
 We haven't collected Posaya yet![NLINE]
@@ -573,10 +573,10 @@ We haven't collected Posaya yet![NLINE]
 //POINTER #51 @ $426C - STRING #51 @ $49A9
 #W32($426C)
 //　[NLINE]
-//ランディと合流してからにしよう。[NLINE]
+//Let's join with Randy first.[NLINE]
 //　[END-FE]
 [NLINE]
-ランディと合流してからにしよう。[NLINE]
+Let's join with Randy first.[NLINE]
 [END-FE]
 
 
@@ -586,10 +586,10 @@ We haven't collected Posaya yet![NLINE]
 //POINTER #52 @ $4270 - STRING #52 @ $49D4
 #W32($4270)
 //　[NLINE]
-//まだポサヤを採取していない！[NLINE]
+//We haven't collected Posaya yet![NLINE]
 //　[END-FE]
 [NLINE]
-まだポサヤを採取していない！[NLINE]
+We haven't collected Posaya yet![NLINE]
 [END-FE]
 
 
