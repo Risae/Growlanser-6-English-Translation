@@ -27,7 +27,7 @@
 //POINTER #1 @ $1024 - STRING #1 @ $1503
 #W32($1024)
 //ハゼゴロウ[END-FF]
-ハゼゴロウ[END-FF]
+Hazegoro[END-FF]
 
 
 
@@ -36,7 +36,7 @@
 //POINTER #2 @ $1028 - STRING #2 @ $1510
 #W32($1028)
 //ユリィ[END-FF]
-ユリィ[END-FF]
+Yurii[END-FF]
 
 
 
@@ -72,7 +72,7 @@
 //POINTER #6 @ $1038 - STRING #6 @ $154C
 #W32($1038)
 //・レース[END-FE]
-・レース[END-FE]
+・Race[END-FE]
 
 
 
@@ -81,7 +81,7 @@
 //POINTER #7 @ $103C - STRING #7 @ $1557
 #W32($103C)
 //・ダンス[END-FE]
-・ダンス[END-FE]
+・Dance[END-FE]
 
 
 
@@ -90,7 +90,7 @@
 //POINTER #8 @ $1040 - STRING #8 @ $1562
 #W32($1040)
 //・大食い[END-FE]
-・大食い[END-FE]
+・Eating Contest[END-FE]
 
 
 
@@ -99,7 +99,7 @@
 //POINTER #9 @ $1044 - STRING #9 @ $156D
 #W32($1044)
 //・玉探し[END-FE]
-・玉探し[END-FE]
+・Ball Hunt[END-FE]
 
 
 
@@ -108,7 +108,7 @@
 //POINTER #10 @ $1048 - STRING #10 @ $1578
 #W32($1048)
 //・闘犬[END-FE]
-・闘犬[END-FE]
+・Dog Fight[END-FE]
 
 
 
@@ -121,9 +121,9 @@
 //それを決する舞台、[NLINE]
 //ドッグレースコンテストを開催いたします！[END-FE]
 [CHARCB03][V0000]
-971_000どのふとん犬の足の速さが一番か！[NLINE]
-それを決する舞台、[NLINE]
-ドッグレースコンテストを開催いたします！[END-FE]
+971_000Which Futon Dog is the fastest of them all?![NLINE]
+The stage is set to answer that question—[NLINE]
+the Dog Race Contest begins now![END-FE]
 
 
 
@@ -140,13 +140,13 @@
 //971_031ブリーダーの下目掛けて、[NLINE]
 //まっしぐらに走って貰いましょう！[END-FE]
 [CHARCB03][V0100]
-971_001スタートからゴールまで[NLINE]
-他のふとん犬よりも速く辿り着く。[NLINE]
-シンプル故に、能力の優劣がつこうというもの。[NWIN]
+971_001From start to finish,[NLINE]
+the first Futon Dog to cross the line wins.[NLINE]
+Simple in concept—yet a true test of skill![NWIN]
 
 [CHARCB03][V1F00]
-971_031ブリーダーの下目掛けて、[NLINE]
-まっしぐらに走って貰いましょう！[END-FE]
+971_031Racing straight toward their Breeders,[NLINE]
+let's watch them run their hearts out![END-FE]
 
 
 
@@ -159,9 +159,9 @@
 //ニシキ選手に対して、他のふとん犬たちは[NLINE]
 //どんな戦いを見せてくれるのでしょうか！[END-FE]
 [CHARCB03][V0200]
-971_002さあ、ドッグレースチャンピオンである[NLINE]
-ニシキ選手に対して、他のふとん犬たちは[NLINE]
-どんな戦いを見せてくれるのでしょうか！[END-FE]
+971_002Now then, reigning Dog Race Champion[NLINE]
+Nishiki faces the challengers—what kind of race will[NLINE]
+the other Futon Dogs put up?![END-FE]
 
 
 
@@ -174,9 +174,9 @@
 //テツ選手に対して、他のふとん犬たちは[NLINE]
 //どんな戦いを見せてくれるのでしょうか！[END-FE]
 [CHARCB03][V0300]
-971_003さあ、ドッグレースチャンピオンである[NLINE]
-テツ選手に対して、他のふとん犬たちは[NLINE]
-どんな戦いを見せてくれるのでしょうか！[END-FE]
+971_003Now then, reigning Dog Race Champion[NLINE]
+Tetsu faces the challengers—what kind of race will[NLINE]
+the other Futon Dogs put up?![END-FE]
 
 
 
@@ -189,9 +189,9 @@
 //タマ選手に対して、他のふとん犬たちは[NLINE]
 //どんな戦いを見せてくれるのでしょうか！[END-FE]
 [CHARCB03][V0400]
-971_004さあ、ドッグレースチャンピオンである[NLINE]
-タマ選手に対して、他のふとん犬たちは[NLINE]
-どんな戦いを見せてくれるのでしょうか！[END-FE]
+971_004Now then, reigning Dog Race Champion[NLINE]
+Tama faces the challengers—what kind of race will[NLINE]
+the other Futon Dogs put up?![END-FE]
 
 
 
@@ -204,9 +204,9 @@
 //モモ選手に対して、他のふとん犬たちは[NLINE]
 //どんな戦いを見せてくれるのでしょうか！[END-FE]
 [CHARCB03][V0500]
-971_005さあ、ドッグレースチャンピオンである[NLINE]
-モモ選手に対して、他のふとん犬たちは[NLINE]
-どんな戦いを見せてくれるのでしょうか！[END-FE]
+971_005Now then, reigning Dog Race Champion[NLINE]
+Momo faces the challengers—what kind of race will[NLINE]
+the other Futon Dogs put up?![END-FE]
 
 
 
@@ -219,9 +219,9 @@
 //テツ選手に対して、他のふとん犬たちは[NLINE]
 //どんな戦いを見せてくれるのでしょうか！[END-FE]
 [CHARCB03][V0300]
-971_003さあ、ドッグレースチャンピオンである[NLINE]
-テツ選手に対して、他のふとん犬たちは[NLINE]
-どんな戦いを見せてくれるのでしょうか！[END-FE]
+971_003Now then, reigning Dog Race Champion[NLINE]
+Tetsu faces the challengers—what kind of race will[NLINE]
+the other Futon Dogs put up?![END-FE]
 
 
 
@@ -234,9 +234,9 @@
 //ニシキ選手に対して、他のふとん犬たちは[NLINE]
 //どんな戦いを見せてくれるのでしょうか！[END-FE]
 [CHARCB03][V0200]
-971_002さあ、ドッグレースチャンピオンである[NLINE]
-ニシキ選手に対して、他のふとん犬たちは[NLINE]
-どんな戦いを見せてくれるのでしょうか！[END-FE]
+971_002Now then, reigning Dog Race Champion[NLINE]
+Nishiki faces the challengers—what kind of race will[NLINE]
+the other Futon Dogs put up?![END-FE]
 
 
 
@@ -247,7 +247,7 @@
 //[CHARCB03][V0600]
 //971_006ニシキ、頑張って！[END-FE]
 [CHARCB03][V0600]
-971_006ニシキ、頑張って！[END-FE]
+971_006Go for it, Nishiki![END-FE]
 
 
 
@@ -258,7 +258,7 @@
 //[CHARCB03][V0700]
 //971_007テツ、頑張って！[END-FE]
 [CHARCB03][V0700]
-971_007テツ、頑張って！[END-FE]
+971_007Go for it, Tetsu![END-FE]
 
 
 
@@ -269,7 +269,7 @@
 //[CHARCB03][V0800]
 //971_008タマ、頑張って！[END-FE]
 [CHARCB03][V0800]
-971_008タマ、頑張って！[END-FE]
+971_008Go for it, Tama![END-FE]
 
 
 
@@ -280,7 +280,7 @@
 //[CHARCB03][V0900]
 //971_009モモ、頑張って！[END-FE]
 [CHARCB03][V0900]
-971_009モモ、頑張って！[END-FE]
+971_009Go for it, Momo![END-FE]
 
 
 
@@ -292,8 +292,8 @@
 //971_010どうやらふとん犬たちの準備は整ったみたいです。[NLINE]
 //それではふとんドッグレース、レディーゴー！[END-FE]
 [CHARCB03][V0A00]
-971_010どうやらふとん犬たちの準備は整ったみたいです。[NLINE]
-それではふとんドッグレース、レディーゴー！[END-FE]
+971_010Looks like the Futon Dogs are all ready to go![NLINE]
+Then let the Futon Dog Race—ready, go![END-FE]
 
 
 
@@ -305,8 +305,8 @@
 //971_011ゴールっ！[NLINE]
 //一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
 [CHARCB03][V0B00]
-971_011ゴールっ！[NLINE]
-一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
+971_011And it's the finish line![NLINE]
+Coming in at first place—it's Nishiki![END-FE]
 
 
 
@@ -318,8 +318,8 @@
 //971_012ゴールっ！[NLINE]
 //一着に飛び込んできたのは、テツ選手だ！[END-FE]
 [CHARCB03][V0C00]
-971_012ゴールっ！[NLINE]
-一着に飛び込んできたのは、テツ選手だ！[END-FE]
+971_012And it's the finish line![NLINE]
+Coming in at first place—it's Tetsu![END-FE]
 
 
 
@@ -331,8 +331,8 @@
 //971_013ゴールっ！[NLINE]
 //一着に飛び込んできたのは、タマ選手だ！[END-FE]
 [CHARCB03][V0D00]
-971_013ゴールっ！[NLINE]
-一着に飛び込んできたのは、タマ選手だ！[END-FE]
+971_013And it's the finish line![NLINE]
+Coming in at first place—it's Tama![END-FE]
 
 
 
@@ -344,8 +344,8 @@
 //971_014ゴールっ！[NLINE]
 //一着に飛び込んできたのは、モモ選手だ！[END-FE]
 [CHARCB03][V0E00]
-971_014ゴールっ！[NLINE]
-一着に飛び込んできたのは、モモ選手だ！[END-FE]
+971_014And it's the finish line![NLINE]
+Coming in at first place—it's Momo![END-FE]
 
 
 
@@ -357,8 +357,8 @@
 //971_012ゴールっ！[NLINE]
 //一着に飛び込んできたのは、テツ選手だ！[END-FE]
 [CHARCB03][V0C00]
-971_012ゴールっ！[NLINE]
-一着に飛び込んできたのは、テツ選手だ！[END-FE]
+971_012And it's the finish line![NLINE]
+Coming in at first place—it's Tetsu![END-FE]
 
 
 
@@ -370,8 +370,8 @@
 //971_011ゴールっ！[NLINE]
 //一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
 [CHARCB03][V0B00]
-971_011ゴールっ！[NLINE]
-一着に飛び込んできたのは、ニシキ選手だ！[END-FE]
+971_011And it's the finish line![NLINE]
+Coming in at first place—it's Nishiki![END-FE]
 
 
 
@@ -384,9 +384,9 @@
 //チャンピオンを押さえて、テツ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1100]
-971_017や、やりました！[NLINE]
-チャンピオンを押さえて、テツ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_017I-incredible![NLINE]
+Overcoming the champion, Tetsu[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -399,9 +399,9 @@
 //チャンピオンを押さえて、ニシキ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1000]
-971_016や、やりました！[NLINE]
-チャンピオンを押さえて、ニシキ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_016I-incredible![NLINE]
+Overcoming the champion, Nishiki[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -414,9 +414,9 @@
 //チャンピオンを押さえて、テツ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1100]
-971_017や、やりました！[NLINE]
-チャンピオンを押さえて、テツ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_017I-incredible![NLINE]
+Overcoming the champion, Tetsu[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -429,9 +429,9 @@
 //チャンピオンを押さえて、ニシキ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1000]
-971_016や、やりました！[NLINE]
-チャンピオンを押さえて、ニシキ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_016I-incredible![NLINE]
+Overcoming the champion, Nishiki[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -451,16 +451,16 @@
 //971_030これにてドッグレースコンテストを[NLINE]
 //終了いたします。[END-FE]
 [CHARCB03][V1C00]
-971_028素晴らしいレースでした。[NWIN]
+971_028What a wonderful race that was.[NWIN]
 
 [CHARCB03][V1D00]
-971_029ブリーダーの皆様、ドッグレースに限らず、[NLINE]
-ふとん犬の可能性を[NLINE]
-もっと引き出してあげてください！[NWIN]
+971_029Breeders, not only in the Dog Race—[NLINE]
+please continue to bring out more[NLINE]
+of your Futon Dogs' hidden potential![NWIN]
 
 [CHARCB03][V1E00]
-971_030これにてドッグレースコンテストを[NLINE]
-終了いたします。[END-FE]
+971_030This concludes[NLINE]
+the contest.[END-FE]
 
 
 
@@ -473,9 +473,9 @@
 //チャンピオンを押さえて、ニシキ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1000]
-971_016や、やりました！[NLINE]
-チャンピオンを押さえて、ニシキ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_016I-incredible![NLINE]
+Overcoming the champion, Nishiki[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -488,9 +488,9 @@
 //チャンピオンを押さえて、テツ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1100]
-971_017や、やりました！[NLINE]
-チャンピオンを押さえて、テツ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_017I-incredible![NLINE]
+Overcoming the champion, Tetsu[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -503,9 +503,9 @@
 //チャンピオンを押さえて、タマ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1200]
-971_018や、やりました！[NLINE]
-チャンピオンを押さえて、タマ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_018I-incredible![NLINE]
+Overcoming the champion, Tama[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -518,9 +518,9 @@
 //チャンピオンを押さえて、モモ選手、[NLINE]
 //ドッグレースを制しました！[END-FE]
 [CHARCB03][V1300]
-971_019や、やりました！[NLINE]
-チャンピオンを押さえて、モモ選手、[NLINE]
-ドッグレースを制しました！[END-FE]
+971_019I-incredible![NLINE]
+Overcoming the champion, Momo[NLINE]
+has won the Dog Race![END-FE]
 
 
 
@@ -532,8 +532,8 @@
 //971_015速いチャンピオンっ！[NLINE]
 //またしてもドッグレースを制しました！[END-FE]
 [CHARCB03][V0F00]
-971_015速いチャンピオンっ！[NLINE]
-またしてもドッグレースを制しました！[END-FE]
+971_015What speed from the Champion![NLINE]
+Once again, they've won the Dog Race![END-FE]
 
 
 
@@ -545,8 +545,8 @@
 //971_020ニシキ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCB03][V1400]
-971_020ニシキ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+971_020Nishiki, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -558,8 +558,8 @@
 //971_021テツ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCB03][V1500]
-971_021テツ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+971_021Tetsu, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -571,8 +571,8 @@
 //971_022タマ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCB03][V1600]
-971_022タマ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+971_022Tama, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -584,8 +584,8 @@
 //971_023モモ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCB03][V1700]
-971_023モモ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+971_023Momo, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -597,8 +597,8 @@
 //971_024ニシキ、[NLINE]
 //また頑張りましょうね。[END-FE]
 [CHARCB03][V1800]
-971_024ニシキ、[NLINE]
-また頑張りましょうね。[END-FE]
+971_024Nishiki,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -610,8 +610,8 @@
 //971_025テツ、[NLINE]
 //また頑張りましょうね。[END-FE]
 [CHARCB03][V1900]
-971_025テツ、[NLINE]
-また頑張りましょうね。[END-FE]
+971_025Tetsu,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -623,8 +623,8 @@
 //971_026タマ、[NLINE]
 //また頑張りましょうね。[END-FE]
 [CHARCB03][V1A00]
-971_026タマ、[NLINE]
-また頑張りましょうね。[END-FE]
+971_026Tama,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -636,8 +636,8 @@
 //971_027モモ、[NLINE]
 //また頑張りましょうね。[END-FE]
 [CHARCB03][V1B00]
-971_027モモ、[NLINE]
-また頑張りましょうね。[END-FE]
+971_027Momo,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -651,10 +651,10 @@
 //そんなファンの希望を実現した企画、[NLINE]
 //ダンスコンテストをここに開催します！[END-FE]
 [CHARCC03][V0000]
-972_000あの、可愛らしさで私たちを魅了するふとん犬！[NLINE]
-そんなふとん犬が、ダンスを踊ったら…。[NLINE]
-そんなファンの希望を実現した企画、[NLINE]
-ダンスコンテストをここに開催します！[END-FE]
+972_000Those adorable Futon Dogs that have charmed us all![NLINE]
+And now, what if those very Futon Dogs were to dance…?[NLINE]
+A dream come true for every fan—[NLINE]
+the Dance Contest is here![END-FE]
 
 
 
@@ -667,9 +667,9 @@
 //それは想像を絶する愛らしさを[NLINE]
 //私たちに見せてくれることでしょう！[END-FE]
 [CHARCC03][V0100]
-972_001ふとん犬たちのダンス。[NLINE]
-それは想像を絶する愛らしさを[NLINE]
-私たちに見せてくれることでしょう！[END-FE]
+972_001A Futon Dog dance performance.[NLINE]
+It's sure to show us a level of cuteness[NLINE]
+beyond anything we could ever imagine![END-FE]
 
 
 
@@ -682,9 +682,9 @@
 //挑戦者たちはどんなダンスで[NLINE]
 //勝負を挑むのでしょうか！[END-FE]
 [CHARCC03][V0200]
-972_002ダンスチャンピオン、チェック選手に対して、[NLINE]
-挑戦者たちはどんなダンスで[NLINE]
-勝負を挑むのでしょうか！[END-FE]
+972_002Against Dance Champion Check,[NLINE]
+what kind of dance will the challengers[NLINE]
+bring to the contest?![END-FE]
 
 
 
@@ -697,9 +697,9 @@
 //挑戦者たちはどんなダンスで[NLINE]
 //勝負を挑むのでしょうか！[END-FE]
 [CHARCC03][V0300]
-972_003ダンスチャンピオン、ニシキ選手に対して、[NLINE]
-挑戦者たちはどんなダンスで[NLINE]
-勝負を挑むのでしょうか！[END-FE]
+972_003Against Dance Champion Nishiki,[NLINE]
+what kind of dance will the challengers[NLINE]
+bring to the contest?![END-FE]
 
 
 
@@ -712,9 +712,9 @@
 //挑戦者たちはどんなダンスで[NLINE]
 //勝負を挑むのでしょうか！[END-FE]
 [CHARCC03][V0400]
-972_004ダンスチャンピオン、テツ選手に対して、[NLINE]
-挑戦者たちはどんなダンスで[NLINE]
-勝負を挑むのでしょうか！[END-FE]
+972_004Against Dance Champion Tetsu,[NLINE]
+what kind of dance will the challengers[NLINE]
+bring to the contest?![END-FE]
 
 
 
@@ -727,9 +727,9 @@
 //挑戦者たちはどんなダンスで[NLINE]
 //勝負を挑むのでしょうか！[END-FE]
 [CHARCC03][V0500]
-972_005ダンスチャンピオン、タマ選手に対して、[NLINE]
-挑戦者たちはどんなダンスで[NLINE]
-勝負を挑むのでしょうか！[END-FE]
+972_005Against Dance Champion Tama,[NLINE]
+what kind of dance will the challengers[NLINE]
+bring to the contest?![END-FE]
 
 
 
@@ -742,9 +742,9 @@
 //挑戦者たちはどんなダンスで[NLINE]
 //勝負を挑むのでしょうか！[END-FE]
 [CHARCC03][V0600]
-972_006ダンスチャンピオン、モモ選手に対して、[NLINE]
-挑戦者たちはどんなダンスで[NLINE]
-勝負を挑むのでしょうか！[END-FE]
+972_006Against Dance Champion Momo,[NLINE]
+what kind of dance will the challengers[NLINE]
+bring to the contest?![END-FE]
 
 
 
@@ -756,8 +756,8 @@
 //972_007それでは挑戦者、[NLINE]
 //ニシキ選手のダンスから披露です！[END-FE]
 [CHARCC03][V0700]
-972_007それでは挑戦者、[NLINE]
-ニシキ選手のダンスから披露です！[END-FE]
+972_007First up among the challengers,[NLINE]
+it's Nishiki's dance performance![END-FE]
 
 
 
@@ -769,8 +769,8 @@
 //972_008それでは挑戦者、[NLINE]
 //テツ選手のダンスから披露です！[END-FE]
 [CHARCC03][V0800]
-972_008それでは挑戦者、[NLINE]
-テツ選手のダンスから披露です！[END-FE]
+972_008First up among the challengers,[NLINE]
+it's Tetsu's dance performance![END-FE]
 
 
 
@@ -782,8 +782,8 @@
 //972_009それでは挑戦者、[NLINE]
 //タマ選手のダンスから披露です！[END-FE]
 [CHARCC03][V0900]
-972_009それでは挑戦者、[NLINE]
-タマ選手のダンスから披露です！[END-FE]
+972_009First up among the challengers,[NLINE]
+it's Tama's dance performance![END-FE]
 
 
 
@@ -795,8 +795,8 @@
 //972_010それでは挑戦者、[NLINE]
 //モモ選手のダンスから披露です！[END-FE]
 [CHARCC03][V0A00]
-972_010それでは挑戦者、[NLINE]
-モモ選手のダンスから披露です！[END-FE]
+972_010First up among the challengers,[NLINE]
+it's Momo's dance performance![END-FE]
 
 
 
@@ -808,8 +808,8 @@
 //972_012次に挑戦者、[NLINE]
 //ニシキ選手のダンスの披露です！[END-FE]
 [CHARCC03][V0C00]
-972_012次に挑戦者、[NLINE]
-ニシキ選手のダンスの披露です！[END-FE]
+972_012Next up, challenger[NLINE]
+Nishiki's dance performance![END-FE]
 
 
 
@@ -821,8 +821,8 @@
 //972_013次に挑戦者、[NLINE]
 //テツ選手のダンスの披露です！[END-FE]
 [CHARCC03][V0D00]
-972_013次に挑戦者、[NLINE]
-テツ選手のダンスの披露です！[END-FE]
+972_013Next up, challenger[NLINE]
+Tetsu's dance performance![END-FE]
 
 
 
@@ -834,8 +834,8 @@
 //972_014次に挑戦者、[NLINE]
 //タマ選手のダンスの披露です！[END-FE]
 [CHARCC03][V0E00]
-972_014次に挑戦者、[NLINE]
-タマ選手のダンスの披露です！[END-FE]
+972_014Next up, challenger[NLINE]
+Tama's dance performance![END-FE]
 
 
 
@@ -847,8 +847,8 @@
 //972_015次に挑戦者、[NLINE]
 //モモ選手のダンスの披露です！[END-FE]
 [CHARCC03][V0F00]
-972_015次に挑戦者、[NLINE]
-モモ選手のダンスの披露です！[END-FE]
+972_015Next up, challenger[NLINE]
+Momo's dance performance![END-FE]
 
 
 
@@ -860,8 +860,8 @@
 //972_017最後に現チャンピオン、[NLINE]
 //ニシキ選手のダンスの披露です！[END-FE]
 [CHARCC03][V1100]
-972_017最後に現チャンピオン、[NLINE]
-ニシキ選手のダンスの披露です！[END-FE]
+972_017And finally, the current champion—[NLINE]
+Nishiki's dance performance![END-FE]
 
 
 
@@ -873,8 +873,8 @@
 //972_018最後に現チャンピオン、[NLINE]
 //テツ選手のダンスの披露です！[END-FE]
 [CHARCC03][V1200]
-972_018最後に現チャンピオン、[NLINE]
-テツ選手のダンスの披露です！[END-FE]
+972_018And finally, the current champion—[NLINE]
+Tetsu's dance performance![END-FE]
 
 
 
@@ -886,8 +886,8 @@
 //972_019最後に現チャンピオン、[NLINE]
 //タマ選手のダンスの披露です！[END-FE]
 [CHARCC03][V1300]
-972_019最後に現チャンピオン、[NLINE]
-タマ選手のダンスの披露です！[END-FE]
+972_019And finally, the current champion—[NLINE]
+Tama's dance performance![END-FE]
 
 
 
@@ -899,8 +899,8 @@
 //972_020最後に現チャンピオン、[NLINE]
 //モモ選手のダンスの披露です！[END-FE]
 [CHARCC03][V1400]
-972_020最後に現チャンピオン、[NLINE]
-モモ選手のダンスの披露です！[END-FE]
+972_020And finally, the current champion—[NLINE]
+Momo's dance performance![END-FE]
 
 
 
@@ -912,8 +912,8 @@
 //972_010それでは挑戦者、[NLINE]
 //モモ選手のダンスから披露です！[END-FE]
 [CHARCC03][V0A00]
-972_010それでは挑戦者、[NLINE]
-モモ選手のダンスから披露です！[END-FE]
+972_010First up among the challengers,[NLINE]
+it's Momo's dance performance![END-FE]
 
 
 
@@ -925,8 +925,8 @@
 //972_009それでは挑戦者、[NLINE]
 //タマ選手のダンスから披露です！[END-FE]
 [CHARCC03][V0900]
-972_009それでは挑戦者、[NLINE]
-タマ選手のダンスから披露です！[END-FE]
+972_009First up among the challengers,[NLINE]
+it's Tama's dance performance![END-FE]
 
 
 
@@ -938,8 +938,8 @@
 //972_015次に挑戦者、[NLINE]
 //モモ選手のダンスの披露です！[END-FE]
 [CHARCC03][V0F00]
-972_015次に挑戦者、[NLINE]
-モモ選手のダンスの披露です！[END-FE]
+972_015Next up, challenger[NLINE]
+Momo's dance performance![END-FE]
 
 
 
@@ -951,8 +951,8 @@
 //972_014次に挑戦者、[NLINE]
 //タマ選手のダンスの披露です！[END-FE]
 [CHARCC03][V0E00]
-972_014次に挑戦者、[NLINE]
-タマ選手のダンスの披露です！[END-FE]
+972_014Next up, challenger[NLINE]
+Tama's dance performance![END-FE]
 
 
 
@@ -963,7 +963,7 @@
 //[CHARCC03][V1C00]
 //972_028モモ選手、中々のダンスでした！[END-FE]
 [CHARCC03][V1C00]
-972_028モモ選手、中々のダンスでした！[END-FE]
+972_028Momo, that was quite the dance![END-FE]
 
 
 
@@ -974,7 +974,7 @@
 //[CHARCC03][V1B00]
 //972_027タマ選手、中々のダンスでした！[END-FE]
 [CHARCC03][V1B00]
-972_027タマ選手、中々のダンスでした！[END-FE]
+972_027Tama, that was quite the dance![END-FE]
 
 
 
@@ -986,8 +986,8 @@
 //972_024あ～っと、モモ選手のダンスは[NLINE]
 //審査員には不評のようだ！[END-FE]
 [CHARCC03][V1800]
-972_024あ～っと、モモ選手のダンスは[NLINE]
-審査員には不評のようだ！[END-FE]
+972_024Ohhh, it seems the judges were not impressed[NLINE]
+with that dance![END-FE]
 
 
 
@@ -999,8 +999,8 @@
 //972_023あ～っと、タマ選手のダンスは[NLINE]
 //審査員には不評のようだ！[END-FE]
 [CHARCC03][V1700]
-972_023あ～っと、タマ選手のダンスは[NLINE]
-審査員には不評のようだ！[END-FE]
+972_023Ohhh, it seems the judges were not impressed[NLINE]
+with that dance![END-FE]
 
 
 
@@ -1012,8 +1012,8 @@
 //972_011次に挑戦者、[NLINE]
 //チェック選手のダンスの披露です！[END-FE]
 [CHARCC03][V0B00]
-972_011次に挑戦者、[NLINE]
-チェック選手のダンスの披露です！[END-FE]
+972_011Next up, challenger[NLINE]
+Check's dance performance![END-FE]
 
 
 
@@ -1025,8 +1025,8 @@
 //972_016最後に現チャンピオン、[NLINE]
 //チェック選手のダンスの披露です！[END-FE]
 [CHARCC03][V1000]
-972_016最後に現チャンピオン、[NLINE]
-チェック選手のダンスの披露です！[END-FE]
+972_016And finally, the current champion—[NLINE]
+Check's dance performance![END-FE]
 
 
 
@@ -1040,10 +1040,10 @@
 //踊る事が出来ようとは！[NLINE]
 //チェック選手、私たちの度肝を抜いてくれます！[END-FE]
 [CHARCC03][V1D00]
-972_029す、素晴らしい！[NLINE]
-ふとん犬にここまでのダンスを[NLINE]
-踊る事が出来ようとは！[NLINE]
-チェック選手、私たちの度肝を抜いてくれます！[END-FE]
+972_029A-amazing![NLINE]
+To think a Futon Dog could dance[NLINE]
+to such a level—![NLINE]
+Check has completely blown us away![END-FE]
 
 
 
@@ -1057,10 +1057,10 @@
 //踊る事が出来ようとは！[NLINE]
 //ニシキ選手、私たちの度肝を抜いてくれます！[END-FE]
 [CHARCC03][V1E00]
-972_030す、素晴らしい！[NLINE]
-ふとん犬にここまでのダンスを[NLINE]
-踊る事が出来ようとは！[NLINE]
-ニシキ選手、私たちの度肝を抜いてくれます！[END-FE]
+972_030A-amazing![NLINE]
+To think a Futon Dog could dance[NLINE]
+to such a level—![NLINE]
+Nishiki has completely blown us away![END-FE]
 
 
 
@@ -1074,10 +1074,10 @@
 //踊る事が出来ようとは！[NLINE]
 //テツ選手、私たちの度肝を抜いてくれます！[END-FE]
 [CHARCC03][V1F00]
-972_031す、素晴らしい！[NLINE]
-ふとん犬にここまでのダンスを[NLINE]
-踊る事が出来ようとは！[NLINE]
-テツ選手、私たちの度肝を抜いてくれます！[END-FE]
+972_031A-amazing![NLINE]
+To think a Futon Dog could dance[NLINE]
+to such a level—![NLINE]
+Tetsu has completely blown us away![END-FE]
 
 
 
@@ -1091,10 +1091,10 @@
 //踊る事が出来ようとは！[NLINE]
 //タマ選手、私たちの度肝を抜いてくれます！[END-FE]
 [CHARCC03][V2000]
-972_032す、素晴らしい！[NLINE]
-ふとん犬にここまでのダンスを[NLINE]
-踊る事が出来ようとは！[NLINE]
-タマ選手、私たちの度肝を抜いてくれます！[END-FE]
+972_032A-amazing![NLINE]
+To think a Futon Dog could dance[NLINE]
+to such a level—![NLINE]
+Tama has completely blown us away![END-FE]
 
 
 
@@ -1108,10 +1108,10 @@
 //踊る事が出来ようとは！[NLINE]
 //モモ選手、私たちの度肝を抜いてくれます！[END-FE]
 [CHARCC03][V2100]
-972_033す、素晴らしい！[NLINE]
-ふとん犬にここまでのダンスを[NLINE]
-踊る事が出来ようとは！[NLINE]
-モモ選手、私たちの度肝を抜いてくれます！[END-FE]
+972_033A-amazing![NLINE]
+To think a Futon Dog could dance[NLINE]
+to such a level—![NLINE]
+Momo has completely blown us away![END-FE]
 
 
 
@@ -1122,7 +1122,7 @@
 //[CHARCC03][V1900]
 //972_025ニシキ選手、中々のダンスでした！[END-FE]
 [CHARCC03][V1900]
-972_025ニシキ選手、中々のダンスでした！[END-FE]
+972_025Nishiki, that was quite the dance![END-FE]
 
 
 
@@ -1133,7 +1133,7 @@
 //[CHARCC03][V1A00]
 //972_026テツ選手、中々のダンスでした！[END-FE]
 [CHARCC03][V1A00]
-972_026テツ選手、中々のダンスでした！[END-FE]
+972_026Tetsu, that was quite the dance![END-FE]
 
 
 
@@ -1144,7 +1144,7 @@
 //[CHARCC03][V1B00]
 //972_027タマ選手、中々のダンスでした！[END-FE]
 [CHARCC03][V1B00]
-972_027タマ選手、中々のダンスでした！[END-FE]
+972_027Tama, that was quite the dance![END-FE]
 
 
 
@@ -1155,7 +1155,7 @@
 //[CHARCC03][V1C00]
 //972_028モモ選手、中々のダンスでした！[END-FE]
 [CHARCC03][V1C00]
-972_028モモ選手、中々のダンスでした！[END-FE]
+972_028Momo, that was quite the dance![END-FE]
 
 
 
@@ -1167,8 +1167,8 @@
 //972_021あ～っと、ニシキ選手のダンスは[NLINE]
 //審査員には不評のようだ！[END-FE]
 [CHARCC03][V1500]
-972_021あ～っと、ニシキ選手のダンスは[NLINE]
-審査員には不評のようだ！[END-FE]
+972_021Ohhh, it seems the judges were not impressed[NLINE]
+with that dance![END-FE]
 
 
 
@@ -1180,8 +1180,8 @@
 //972_022あ～っと、テツ選手のダンスは[NLINE]
 //審査員には不評のようだ！[END-FE]
 [CHARCC03][V1600]
-972_022あ～っと、テツ選手のダンスは[NLINE]
-審査員には不評のようだ！[END-FE]
+972_022Ohhh, it seems the judges were not impressed[NLINE]
+with that dance![END-FE]
 
 
 
@@ -1193,8 +1193,8 @@
 //972_023あ～っと、タマ選手のダンスは[NLINE]
 //審査員には不評のようだ！[END-FE]
 [CHARCC03][V1700]
-972_023あ～っと、タマ選手のダンスは[NLINE]
-審査員には不評のようだ！[END-FE]
+972_023Ohhh, it seems the judges were not impressed[NLINE]
+with that dance![END-FE]
 
 
 
@@ -1206,8 +1206,8 @@
 //972_024あ～っと、モモ選手のダンスは[NLINE]
 //審査員には不評のようだ！[END-FE]
 [CHARCC03][V1800]
-972_024あ～っと、モモ選手のダンスは[NLINE]
-審査員には不評のようだ！[END-FE]
+972_024Ohhh, it seems the judges were not impressed[NLINE]
+with that dance![END-FE]
 
 
 
@@ -1219,8 +1219,8 @@
 //972_034全ふとん犬の演技が終わったようです。[NLINE]
 //では、審査結果の発表です！[END-FE]
 [CHARCC03][V2200]
-972_034全ふとん犬の演技が終わったようです。[NLINE]
-では、審査結果の発表です！[END-FE]
+972_034All the Futon Dogs have finished their performances.[NLINE]
+Now, time to announce the results![END-FE]
 
 
 
@@ -1233,9 +1233,9 @@
 //ニシキ選手、[NLINE]
 //チャンピオンを破り王座に着きました！[END-FE]
 [CHARCC03][V2500]
-972_037み、見事なダンスでした！[NLINE]
-ニシキ選手、[NLINE]
-チャンピオンを破り王座に着きました！[END-FE]
+972_037What a magnificent dance![NLINE]
+Nishiki has defeated the champion[NLINE]
+and claimed the throne![END-FE]
 
 
 
@@ -1248,9 +1248,9 @@
 //テツ選手、[NLINE]
 //チャンピオンを破り王座に着きました！[END-FE]
 [CHARCC03][V2600]
-972_038み、見事なダンスでした！[NLINE]
-テツ選手、[NLINE]
-チャンピオンを破り王座に着きました！[END-FE]
+972_038What a magnificent dance![NLINE]
+Tetsu has defeated the champion[NLINE]
+and claimed the throne![END-FE]
 
 
 
@@ -1263,9 +1263,9 @@
 //タマ選手、[NLINE]
 //チャンピオンを破り王座に着きました！[END-FE]
 [CHARCC03][V2700]
-972_039み、見事なダンスでした！[NLINE]
-タマ選手、[NLINE]
-チャンピオンを破り王座に着きました！[END-FE]
+972_039What a magnificent dance![NLINE]
+Tama has defeated the champion[NLINE]
+and claimed the throne![END-FE]
 
 
 
@@ -1278,9 +1278,9 @@
 //モモ選手、[NLINE]
 //チャンピオンを破り王座に着きました！[END-FE]
 [CHARCC03][V2800]
-972_040み、見事なダンスでした！[NLINE]
-モモ選手、[NLINE]
-チャンピオンを破り王座に着きました！[END-FE]
+972_040What a magnificent dance![NLINE]
+Momo has defeated the champion[NLINE]
+and claimed the throne![END-FE]
 
 
 
@@ -1299,15 +1299,15 @@
 //[CHARCC03][V3300]
 //972_051これにてダンスコンテストを終了いたします。[END-FE]
 [CHARCC03][V3100]
-972_049愛らしく、そして素晴らしいダンスでした。[NWIN]
+972_049What an adorable and wonderful dance it was.[NWIN]
 
 [CHARCC03][V3200]
-972_050ブリーダーの皆様、ダンスコンテストに限らず、[NLINE]
-ふとん犬の可能性をもっと引き出して[NLINE]
-あげてください！[NWIN]
+972_050Breeders, not only in the Dance Contest—[NLINE]
+please continue to bring out even more[NLINE]
+of your Futon Dogs' potential![NWIN]
 
 [CHARCC03][V3300]
-972_051これにてダンスコンテストを終了いたします。[END-FE]
+972_051This concludes the Dance Contest.[END-FE]
 
 
 
@@ -1319,8 +1319,8 @@
 //972_035チャンピオン強し！[NLINE]
 //再び王座へと着きました！[END-FE]
 [CHARCC03][V2300]
-972_035チャンピオン強し！[NLINE]
-再び王座へと着きました！[END-FE]
+972_035The champion reigns supreme![NLINE]
+They have reclaimed the throne![END-FE]
 
 
 
@@ -1333,9 +1333,9 @@
 //チェック選手、[NLINE]
 //チャンピオンを破り王座に着きました！[END-FE]
 [CHARCC03][V2400]
-972_036み、見事なダンスでした！[NLINE]
-チェック選手、[NLINE]
-チャンピオンを破り王座に着きました！[END-FE]
+972_036What a magnificent dance![NLINE]
+Check has defeated the champion[NLINE]
+and claimed the throne![END-FE]
 
 
 
@@ -1347,8 +1347,8 @@
 //972_041ニシキ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCC03][V2900]
-972_041ニシキ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+972_041Nishiki, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -1360,8 +1360,8 @@
 //972_042テツ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCC03][V2A00]
-972_042テツ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+972_042Tetsu, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -1373,8 +1373,8 @@
 //972_043タマ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCC03][V2B00]
-972_043タマ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+972_043Tama, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -1386,8 +1386,8 @@
 //972_044モモ、凄いです！[NLINE]
 //頑張りましたね！[END-FE]
 [CHARCC03][V2C00]
-972_044モモ、凄いです！[NLINE]
-頑張りましたね！[END-FE]
+972_044Momo, that was amazing![NLINE]
+You did so well![END-FE]
 
 
 
@@ -1398,7 +1398,7 @@
 //[CHARCC03][V2D00]
 //972_045ニシキ、また頑張りましょうね。[END-FE]
 [CHARCC03][V2D00]
-972_045ニシキ、また頑張りましょうね。[END-FE]
+972_045Nishiki, let's do better next time.[END-FE]
 
 
 
@@ -1409,7 +1409,7 @@
 //[CHARCC03][V2E00]
 //972_046テツ、また頑張りましょうね。[END-FE]
 [CHARCC03][V2E00]
-972_046テツ、また頑張りましょうね。[END-FE]
+972_046Tetsu, let's do better next time.[END-FE]
 
 
 
@@ -1420,7 +1420,7 @@
 //[CHARCC03][V2F00]
 //972_047タマ、また頑張りましょうね。[END-FE]
 [CHARCC03][V2F00]
-972_047タマ、また頑張りましょうね。[END-FE]
+972_047Tama, let's do better next time.[END-FE]
 
 
 
@@ -1431,7 +1431,7 @@
 //[CHARCC03][V3000]
 //972_048モモ、また頑張りましょうね。[END-FE]
 [CHARCC03][V3000]
-972_048モモ、また頑張りましょうね。[END-FE]
+972_048Momo, let's do better next time.[END-FE]
 
 
 
@@ -1444,9 +1444,9 @@
 //ゲテモノたちをどう処理していくのか！[NLINE]
 //…ゲテモノ大食いコンテスト、ここに開催します！[END-FE]
 [CHARCE03][V0000]
-974_000ふとん犬はどこまで耐え、[NLINE]
-ゲテモノたちをどう処理していくのか！[NLINE]
-…ゲテモノ大食いコンテスト、ここに開催します！[END-FE]
+974_000Just how long can the Futon Dogs endure,[NLINE]
+and how will they deal with these bizarre dishes?![NLINE]
+…The Gross Food Eating Contest begins here![END-FE]
 
 
 
@@ -1458,8 +1458,8 @@
 //974_001これ程、ふとん犬との関係を問われる[NLINE]
 //コンテストは無いかもしれません！[END-FE]
 [CHARCE03][V0100]
-974_001これ程、ふとん犬との関係を問われる[NLINE]
-コンテストは無いかもしれません！[END-FE]
+974_001There may be no contest that tests[NLINE]
+the bond with your Futon Dog quite like this one![END-FE]
 
 
 
@@ -1472,9 +1472,9 @@
 //多くのゲテモノを食べるのは、[NLINE]
 //どのふとん犬だ！[END-FE]
 [CHARCE03][V0200]
-974_002ブリーダーの期待に応え、[NLINE]
-多くのゲテモノを食べるのは、[NLINE]
-どのふとん犬だ！[END-FE]
+974_002Living up to their Breeder's expectations,[NLINE]
+which Futon Dog will eat[NLINE]
+the most bizarre dishes?![END-FE]
 
 
 
@@ -1486,8 +1486,8 @@
 //974_004大食いチャンプ、ニシキ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0400]
-974_004大食いチャンプ、ニシキ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_004Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1499,8 +1499,8 @@
 //974_005大食いチャンプ、テツ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0500]
-974_005大食いチャンプ、テツ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_005Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1512,8 +1512,8 @@
 //974_006大食いチャンプ、タマ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0600]
-974_006大食いチャンプ、タマ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_006Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1525,8 +1525,8 @@
 //974_007大食いチャンプ、モモ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0700]
-974_007大食いチャンプ、モモ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_007Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1538,8 +1538,8 @@
 //974_004大食いチャンプ、ニシキ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0400]
-974_004大食いチャンプ、ニシキ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_004Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1551,8 +1551,8 @@
 //974_005大食いチャンプ、テツ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0500]
-974_005大食いチャンプ、テツ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_005Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1564,8 +1564,8 @@
 //974_003大食いチャンプ、アオ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0300]
-974_003大食いチャンプ、アオ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_003Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1577,8 +1577,8 @@
 //974_006大食いチャンプ、タマ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0600]
-974_006大食いチャンプ、タマ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_006Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1590,8 +1590,8 @@
 //974_007大食いチャンプ、モモ選手を[NLINE]
 //超えるものは現れるのでしょうか！[END-FE]
 [CHARCE03][V0700]
-974_007大食いチャンプ、モモ選手を[NLINE]
-超えるものは現れるのでしょうか！[END-FE]
+974_007Will anyone manage to surpass[NLINE]
+the current eating champion?![END-FE]
 
 
 
@@ -1604,9 +1604,9 @@
 //続出のこのコンテスト。[NLINE]
 //無事終える事ができるのでしょうか！[END-FE]
 [CHARCE03][V0800]
-974_008逃げだそうとするふとん犬[NLINE]
-続出のこのコンテスト。[NLINE]
-無事終える事ができるのでしょうか！[END-FE]
+974_008Futon Dogs are trying to flee[NLINE]
+one after another in this contest.[NLINE]
+Will it make it to the end in one piece?![END-FE]
 
 
 
@@ -1618,8 +1618,8 @@
 //974_009それではゲテモノ大食いコンテスト、[NLINE]
 //レディーゴー！[END-FE]
 [CHARCE03][V0900]
-974_009それではゲテモノ大食いコンテスト、[NLINE]
-レディーゴー！[END-FE]
+974_009And now, the Gross Food Eating Contest—[NLINE]
+ready, go![END-FE]
 
 
 
@@ -1630,7 +1630,7 @@
 //[CHARCE03][V0A00]
 //974_010そこまで！[END-FE]
 [CHARCE03][V0A00]
-974_010そこまで！[END-FE]
+974_010That's enough![END-FE]
 
 
 
@@ -1641,7 +1641,7 @@
 //[CHARCE03][V0B00]
 //974_011…それでは結果発表です。[END-FE]
 [CHARCE03][V0B00]
-974_011…それでは結果発表です。[END-FE]
+974_011…Now then, time for the results.[END-FE]
 
 
 
@@ -1653,8 +1653,8 @@
 //974_013ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、ニシキ選手だ！[END-FE]
 [CHARCE03][V0D00]
-974_013ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、ニシキ選手だ！[END-FE]
+974_013Bravely facing the bizarre food,[NLINE]
+the winner is Nishiki![END-FE]
 
 
 
@@ -1666,8 +1666,8 @@
 //974_014ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、テツ選手だ！[END-FE]
 [CHARCE03][V0E00]
-974_014ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、テツ選手だ！[END-FE]
+974_014Bravely facing the bizarre food,[NLINE]
+the winner is Tetsu![END-FE]
 
 
 
@@ -1679,8 +1679,8 @@
 //974_012ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、アオ選手だ！[END-FE]
 [CHARCE03][V0C00]
-974_012ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、アオ選手だ！[END-FE]
+974_012Bravely facing the bizarre food,[NLINE]
+the winner is Ao![END-FE]
 
 
 
@@ -1692,8 +1692,8 @@
 //974_015ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、タマ選手だ！[END-FE]
 [CHARCE03][V0F00]
-974_015ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、タマ選手だ！[END-FE]
+974_015Bravely facing the bizarre food,[NLINE]
+the winner is Tama![END-FE]
 
 
 
@@ -1705,8 +1705,8 @@
 //974_016ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、モモ選手だ！[END-FE]
 [CHARCE03][V1000]
-974_016ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、モモ選手だ！[END-FE]
+974_016Bravely facing the bizarre food,[NLINE]
+the winner is Momo![END-FE]
 
 
 
@@ -1718,8 +1718,8 @@
 //974_013ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、ニシキ選手だ！[END-FE]
 [CHARCE03][V0D00]
-974_013ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、ニシキ選手だ！[END-FE]
+974_013Bravely facing the bizarre food,[NLINE]
+the winner is Nishiki![END-FE]
 
 
 
@@ -1731,8 +1731,8 @@
 //974_014ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、テツ選手だ！[END-FE]
 [CHARCE03][V0E00]
-974_014ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、テツ選手だ！[END-FE]
+974_014Bravely facing the bizarre food,[NLINE]
+the winner is Tetsu![END-FE]
 
 
 
@@ -1744,8 +1744,8 @@
 //974_015ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、タマ選手だ！[END-FE]
 [CHARCE03][V0F00]
-974_015ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、タマ選手だ！[END-FE]
+974_015Bravely facing the bizarre food,[NLINE]
+the winner is Tama![END-FE]
 
 
 
@@ -1757,8 +1757,8 @@
 //974_016ゲテモノに勇敢に立ち向かい、[NLINE]
 //優勝をしたのは、モモ選手だ！[END-FE]
 [CHARCE03][V1000]
-974_016ゲテモノに勇敢に立ち向かい、[NLINE]
-優勝をしたのは、モモ選手だ！[END-FE]
+974_016Bravely facing the bizarre food,[NLINE]
+the winner is Momo![END-FE]
 
 
 
@@ -1778,16 +1778,16 @@
 //974_023これにてゲテモノ大食いコンテストを[NLINE]
 //終了いたします。[END-FE]
 [CHARCE03][V1500]
-974_021実に勇敢なふとん犬たちのコンテストでした。[NWIN]
+974_021That was truly a courageous contest from the Futon Dogs.[NWIN]
 
 [CHARCE03][V1600]
-974_022ブリーダーの皆様、ゲテモノ大食いコンテストに[NLINE]
-限らず、ふとん犬の可能性をもっと引き出して[NLINE]
-あげてください！[NWIN]
+974_022Breeders, not just in the Gross Food Eating Contest—[NLINE]
+please continue to draw out even more[NLINE]
+of your Futon Dogs' potential![NWIN]
 
 [CHARCE03][V1700]
-974_023これにてゲテモノ大食いコンテストを[NLINE]
-終了いたします。[END-FE]
+974_023This concludes[NLINE]
+the contest.[END-FE]
 
 
 
@@ -1798,7 +1798,7 @@
 //[CHARCE03][V1100]
 //974_017ニシキ、凄いです！[END-FE]
 [CHARCE03][V1100]
-974_017ニシキ、凄いです！[END-FE]
+974_017Nishiki, that was amazing![END-FE]
 
 
 
@@ -1809,7 +1809,7 @@
 //[CHARCE03][V1200]
 //974_018テツ、凄いです！[END-FE]
 [CHARCE03][V1200]
-974_018テツ、凄いです！[END-FE]
+974_018Tetsu, that was amazing![END-FE]
 
 
 
@@ -1820,7 +1820,7 @@
 //[CHARCE03][V1300]
 //974_019タマ、凄いです！[END-FE]
 [CHARCE03][V1300]
-974_019タマ、凄いです！[END-FE]
+974_019Tama, that was amazing![END-FE]
 
 
 
@@ -1831,7 +1831,7 @@
 //[CHARCE03][V1400]
 //974_020モモ、凄いです！[END-FE]
 [CHARCE03][V1400]
-974_020モモ、凄いです！[END-FE]
+974_020Momo, that was amazing![END-FE]
 
 
 
@@ -1840,7 +1840,7 @@
 //POINTER #136 @ $1240 - STRING #136 @ $3D68
 #W32($1240)
 //992_798をＰＣＭ命令で再生中[END-FE]
-992_798をＰＣＭ命令で再生中[END-FE]
+Playing 992_798 via PCM command[END-FE]
 
 
 
@@ -1849,7 +1849,7 @@
 //POINTER #137 @ $1244 - STRING #137 @ $3D86
 #W32($1244)
 //992_783をＰＣＭ命令で再生中[END-FE]
-992_783をＰＣＭ命令で再生中[END-FE]
+Playing 992_783 via PCM command[END-FE]
 
 
 
@@ -1858,7 +1858,7 @@
 //POINTER #138 @ $1248 - STRING #138 @ $3DA4
 #W32($1248)
 //992_799をＰＣＭ命令で再生中[END-FE]
-992_799をＰＣＭ命令で再生中[END-FE]
+Playing 992_799 via PCM command[END-FE]
 
 
 
@@ -1867,7 +1867,7 @@
 //POINTER #139 @ $124C - STRING #139 @ $3DC2
 #W32($124C)
 //992_814をＰＣＭ命令で再生中[END-FE]
-992_814をＰＣＭ命令で再生中[END-FE]
+Playing 992_814 via PCM command[END-FE]
 
 
 
@@ -1876,7 +1876,7 @@
 //POINTER #140 @ $1250 - STRING #140 @ $3DE0
 #W32($1250)
 //992_792をＰＣＭ命令で再生中[END-FE]
-992_792をＰＣＭ命令で再生中[END-FE]
+Playing 992_792 via PCM command[END-FE]
 
 
 
@@ -1885,7 +1885,7 @@
 //POINTER #141 @ $1254 - STRING #141 @ $3DFE
 #W32($1254)
 //992_788をＰＣＭ命令で再生中[END-FE]
-992_788をＰＣＭ命令で再生中[END-FE]
+Playing 992_788 via PCM command[END-FE]
 
 
 
@@ -1894,7 +1894,7 @@
 //POINTER #142 @ $1258 - STRING #142 @ $3E1C
 #W32($1258)
 //992_812をＰＣＭ命令で再生中[END-FE]
-992_812をＰＣＭ命令で再生中[END-FE]
+Playing 992_812 via PCM command[END-FE]
 
 
 
@@ -1903,7 +1903,7 @@
 //POINTER #143 @ $125C - STRING #143 @ $3E3A
 #W32($125C)
 //992_807をＰＣＭ命令で再生中[END-FE]
-992_807をＰＣＭ命令で再生中[END-FE]
+Playing 992_807 via PCM command[END-FE]
 
 
 
@@ -1914,7 +1914,7 @@
 //[CHARCE03][V0A00]
 //974_010そこまで！[END-FE]
 [CHARCE03][V0A00]
-974_010そこまで！[END-FE]
+974_010That's enough![END-FE]
 
 
 
@@ -1925,7 +1925,7 @@
 //[CHARCE03][V0B00]
 //974_011…それでは結果発表です。[END-FE]
 [CHARCE03][V0B00]
-974_011…それでは結果発表です。[END-FE]
+974_011…Now then, time for the results.[END-FE]
 
 
 
@@ -1941,12 +1941,12 @@
 //[CHARCD03][V2800]
 //973_040これにて玉探しコンテストを終了いたします。[END-FE]
 [CHARCD03][V2700]
-973_039ブリーダーの皆様、玉探しコンテストに限らず、[NLINE]
-ふとん犬の可能性をもっと引き出して[NLINE]
-あげてください！[NWIN]
+973_039Breeders, not only in the Ball Hunt Contest—[NLINE]
+please continue to bring out even more[NLINE]
+of your Futon Dogs' potential![NWIN]
 
 [CHARCD03][V2800]
-973_040これにて玉探しコンテストを終了いたします。[END-FE]
+973_040This concludes the Ball Hunt Contest.[END-FE]
 
 
 
@@ -1957,7 +1957,7 @@
 //[CHARCD03][V2900]
 //973_041優勝したのは、ニシキ選手だ！[END-FE]
 [CHARCD03][V2900]
-973_041優勝したのは、ニシキ選手だ！[END-FE]
+973_041The winner is Nishiki![END-FE]
 
 
 
@@ -1968,7 +1968,7 @@
 //[CHARCD03][V2A00]
 //973_042優勝したのは、テツ選手だ！[END-FE]
 [CHARCD03][V2A00]
-973_042優勝したのは、テツ選手だ！[END-FE]
+973_042The winner is Tetsu![END-FE]
 
 
 
@@ -1979,7 +1979,7 @@
 //[CHARCD03][V2B00]
 //973_043優勝したのは、タマ選手だ！[END-FE]
 [CHARCD03][V2B00]
-973_043優勝したのは、タマ選手だ！[END-FE]
+973_043The winner is Tama![END-FE]
 
 
 
@@ -1990,7 +1990,7 @@
 //[CHARCD03][V2C00]
 //973_044優勝したのは、モモ選手だ！[END-FE]
 [CHARCD03][V2C00]
-973_044優勝したのは、モモ選手だ！[END-FE]
+973_044The winner is Momo![END-FE]
 
 
 
@@ -2001,7 +2001,7 @@
 //[CHARCD03][V2C00]
 //973_044優勝したのは、モモ選手だ！[END-FE]
 [CHARCD03][V2C00]
-973_044優勝したのは、モモ選手だ！[END-FE]
+973_044The winner is Momo![END-FE]
 
 
 
@@ -2012,7 +2012,7 @@
 //[CHARCD03][V2B00]
 //973_043優勝したのは、タマ選手だ！[END-FE]
 [CHARCD03][V2B00]
-973_043優勝したのは、タマ選手だ！[END-FE]
+973_043The winner is Tama![END-FE]
 
 
 
@@ -2023,7 +2023,7 @@
 //[CHARCD03][V2C00]
 //973_044優勝したのは、モモ選手だ！[END-FE]
 [CHARCD03][V2C00]
-973_044優勝したのは、モモ選手だ！[END-FE]
+973_044The winner is Momo![END-FE]
 
 
 
@@ -2034,7 +2034,7 @@
 //[CHARCD03][V2B00]
 //973_043優勝したのは、タマ選手だ！[END-FE]
 [CHARCD03][V2B00]
-973_043優勝したのは、タマ選手だ！[END-FE]
+973_043The winner is Tama![END-FE]
 
 
 
@@ -2045,7 +2045,7 @@
 //[CHARCD03][V0200]
 //973_002ニシキ、頑張りましょうね！[END-FE]
 [CHARCD03][V0200]
-973_002ニシキ、頑張りましょうね！[END-FE]
+973_002Let's give it our best, Nishiki![END-FE]
 
 
 
@@ -2056,7 +2056,7 @@
 //[CHARCD03][V0300]
 //973_003テツ、頑張りましょうね！[END-FE]
 [CHARCD03][V0300]
-973_003テツ、頑張りましょうね！[END-FE]
+973_003Let's give it our best, Tetsu![END-FE]
 
 
 
@@ -2067,7 +2067,7 @@
 //[CHARCD03][V0400]
 //973_004タマ、頑張りましょうね！[END-FE]
 [CHARCD03][V0400]
-973_004タマ、頑張りましょうね！[END-FE]
+973_004Let's give it our best, Tama![END-FE]
 
 
 
@@ -2078,7 +2078,7 @@
 //[CHARCD03][V0500]
 //973_005テツ、頑張りましょうね！[END-FE]
 [CHARCD03][V0500]
-973_005テツ、頑張りましょうね！[END-FE]
+973_005Let's give it our best, Tetsu![END-FE]
 
 
 
@@ -2089,7 +2089,7 @@
 //[CHARCD03][V1F00]
 //973_031ニシキ、やりましたね！[END-FE]
 [CHARCD03][V1F00]
-973_031ニシキ、やりましたね！[END-FE]
+973_031You did it, Nishiki![END-FE]
 
 
 
@@ -2100,7 +2100,7 @@
 //[CHARCD03][V2000]
 //973_032テツ、やりましたね！[END-FE]
 [CHARCD03][V2000]
-973_032テツ、やりましたね！[END-FE]
+973_032You did it, Tetsu![END-FE]
 
 
 
@@ -2111,7 +2111,7 @@
 //[CHARCD03][V2100]
 //973_033タマ、やりましたね！[END-FE]
 [CHARCD03][V2100]
-973_033タマ、やりましたね！[END-FE]
+973_033You did it, Tama![END-FE]
 
 
 
@@ -2122,7 +2122,7 @@
 //[CHARCD03][V2200]
 //973_034モモ、やりましたね！[END-FE]
 [CHARCD03][V2200]
-973_034モモ、やりましたね！[END-FE]
+973_034You did it, Momo![END-FE]
 
 
 
@@ -2134,8 +2134,8 @@
 //973_035ニシキ、[NLINE]
 //次は頑張りましょうね。[END-FE]
 [CHARCD03][V2300]
-973_035ニシキ、[NLINE]
-次は頑張りましょうね。[END-FE]
+973_035Nishiki,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -2147,8 +2147,8 @@
 //973_036テツ、[NLINE]
 //次は頑張りましょうね。[END-FE]
 [CHARCD03][V2400]
-973_036テツ、[NLINE]
-次は頑張りましょうね。[END-FE]
+973_036Tetsu,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -2160,8 +2160,8 @@
 //973_037タマ、[NLINE]
 //次は頑張りましょうね。[END-FE]
 [CHARCD03][V2500]
-973_037タマ、[NLINE]
-次は頑張りましょうね。[END-FE]
+973_037Tama,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -2173,8 +2173,8 @@
 //973_038モモ、[NLINE]
 //次は頑張りましょうね。[END-FE]
 [CHARCD03][V2600]
-973_038モモ、[NLINE]
-次は頑張りましょうね。[END-FE]
+973_038Momo,[NLINE]
+let's do better next time.[END-FE]
 
 
 
@@ -2188,10 +2188,10 @@
 //…ならば、ふとん犬はどれ程のものか。[NLINE]
 //これより玉探しコンテストを開催します！[END-FE]
 [CHARCD03][V0000]
-973_000犬の嗅覚は人の１００万倍～１億倍と[NLINE]
-言われています。[NLINE]
-…ならば、ふとん犬はどれ程のものか。[NLINE]
-これより玉探しコンテストを開催します！[END-FE]
+973_000A dog's sense of smell is said to be one million[NLINE]
+to one hundred million times greater than a human's.[NLINE]
+…Then just how keen is a Futon Dog's nose?[NLINE]
+The Ball Hunt Contest begins now![END-FE]
 
 
 
@@ -2202,7 +2202,7 @@
 //[CHARCD03][V0700]
 //973_007テツ選手の挑戦です！[END-FE]
 [CHARCD03][V0700]
-973_007テツ選手の挑戦です！[END-FE]
+973_007It's Tetsu's turn![END-FE]
 
 
 
@@ -2213,7 +2213,7 @@
 //[CHARCD03][V0600]
 //973_006ニシキ選手の挑戦です！[END-FE]
 [CHARCD03][V0600]
-973_006ニシキ選手の挑戦です！[END-FE]
+973_006It's Nishiki's turn![END-FE]
 
 
 
@@ -2224,7 +2224,7 @@
 //[CHARCD03][V0E00]
 //973_014それでは、レディーゴー！[END-FE]
 [CHARCD03][V0E00]
-973_014それでは、レディーゴー！[END-FE]
+973_014And now—ready, go![END-FE]
 
 
 
@@ -2235,7 +2235,7 @@
 //[CHARCD03][V0D00]
 //973_013玉探し名人、モモ選手の挑戦です！[END-FE]
 [CHARCD03][V0D00]
-973_013玉探し名人、モモ選手の挑戦です！[END-FE]
+973_013Ball Hunt master Momo steps up![END-FE]
 
 
 
@@ -2246,7 +2246,7 @@
 //[CHARCD03][V0C00]
 //973_012玉探し名人、タマ選手の挑戦です！[END-FE]
 [CHARCD03][V0C00]
-973_012玉探し名人、タマ選手の挑戦です！[END-FE]
+973_012Ball Hunt master Tama steps up![END-FE]
 
 
 
@@ -2257,7 +2257,7 @@
 //[CHARCD03][V0900]
 //973_009モモ選手の挑戦です！[END-FE]
 [CHARCD03][V0900]
-973_009モモ選手の挑戦です！[END-FE]
+973_009It's Momo's turn![END-FE]
 
 
 
@@ -2268,7 +2268,7 @@
 //[CHARCD03][V0800]
 //973_008タマ選手の挑戦です！[END-FE]
 [CHARCD03][V0800]
-973_008タマ選手の挑戦です！[END-FE]
+973_008It's Tama's turn![END-FE]
 
 
 
@@ -2279,7 +2279,7 @@
 //[CHARCD03][V0E00]
 //973_014それでは、レディーゴー！[END-FE]
 [CHARCD03][V0E00]
-973_014それでは、レディーゴー！[END-FE]
+973_014And now—ready, go![END-FE]
 
 
 
@@ -2290,7 +2290,7 @@
 //[CHARCD03][V0600]
 //973_006ニシキ選手の挑戦です！[END-FE]
 [CHARCD03][V0600]
-973_006ニシキ選手の挑戦です！[END-FE]
+973_006It's Nishiki's turn![END-FE]
 
 
 
@@ -2301,7 +2301,7 @@
 //[CHARCD03][V0700]
 //973_007テツ選手の挑戦です！[END-FE]
 [CHARCD03][V0700]
-973_007テツ選手の挑戦です！[END-FE]
+973_007It's Tetsu's turn![END-FE]
 
 
 
@@ -2312,7 +2312,7 @@
 //[CHARCD03][V0800]
 //973_008タマ選手の挑戦です！[END-FE]
 [CHARCD03][V0800]
-973_008タマ選手の挑戦です！[END-FE]
+973_008It's Tama's turn![END-FE]
 
 
 
@@ -2323,7 +2323,7 @@
 //[CHARCD03][V0900]
 //973_009モモ選手の挑戦です！[END-FE]
 [CHARCD03][V0900]
-973_009モモ選手の挑戦です！[END-FE]
+973_009It's Momo's turn![END-FE]
 
 
 
@@ -2335,8 +2335,8 @@
 //973_010玉探し名人、[NLINE]
 //ニシキ選手の挑戦です！[END-FE]
 [CHARCD03][V0A00]
-973_010玉探し名人、[NLINE]
-ニシキ選手の挑戦です！[END-FE]
+973_010Ball Hunt master,[NLINE]
+Nishiki steps up![END-FE]
 
 
 
@@ -2348,8 +2348,8 @@
 //973_011玉探し名人、[NLINE]
 //テツ選手の挑戦です！[END-FE]
 [CHARCD03][V0B00]
-973_011玉探し名人、[NLINE]
-テツ選手の挑戦です！[END-FE]
+973_011Ball Hunt master,[NLINE]
+Tetsu steps up![END-FE]
 
 
 
@@ -2361,8 +2361,8 @@
 //973_012玉探し名人、[NLINE]
 //タマ選手の挑戦です！[END-FE]
 [CHARCD03][V0C00]
-973_012玉探し名人、[NLINE]
-タマ選手の挑戦です！[END-FE]
+973_012Ball Hunt master,[NLINE]
+Tama steps up![END-FE]
 
 
 
@@ -2374,8 +2374,8 @@
 //973_013玉探し名人、[NLINE]
 //モモ選手の挑戦です！[END-FE]
 [CHARCD03][V0D00]
-973_013玉探し名人、[NLINE]
-モモ選手の挑戦です！[END-FE]
+973_013Ball Hunt master,[NLINE]
+Momo steps up![END-FE]
 
 
 
@@ -2386,7 +2386,7 @@
 //[CHARCD03][V0E00]
 //973_014それでは、レディーゴー！[END-FE]
 [CHARCD03][V0E00]
-973_014それでは、レディーゴー！[END-FE]
+973_014And now—ready, go![END-FE]
 
 
 
@@ -2399,9 +2399,9 @@
 //それは愛らしい外見からはとても想像も付かない[NLINE]
 //ふとん犬の実力が試される場所。[END-FE]
 [CHARCF03][V0000]
-975_000…ふとん犬コンテスト。[NLINE]
-それは愛らしい外見からはとても想像も付かない[NLINE]
-ふとん犬の実力が試される場所。[END-FE]
+975_000…The Futon Dog Contest.[NLINE]
+A place where the true power of these Futon Dogs[NLINE]
+is put to the test—far beyond what their adorable looks suggest.[END-FE]
 
 
 
@@ -2414,9 +2414,9 @@
 //あまりの実力のためにコンテストを出場禁止に[NLINE]
 //なってしまったふとん犬がいます。[END-FE]
 [CHARCF03][V0100]
-975_001ブリーダーの皆様はご存知だと思われますが、[NLINE]
-あまりの実力のためにコンテストを出場禁止に[NLINE]
-なってしまったふとん犬がいます。[END-FE]
+975_001As many of you Breeders may already know,[NLINE]
+there is a Futon Dog so overwhelmingly powerful[NLINE]
+that it has been banned from all contests.[END-FE]
 
 
 
@@ -2430,10 +2430,10 @@
 //ハゼゴロウ氏の飼い犬、[NLINE]
 //ペケに挑戦する者が今日現れました！[END-FE]
 [CHARCF03][V0200]
-975_002動物博士にして、このコンテストの主催者、[NLINE]
-そして最高のブリーダーの名を持つ[NLINE]
-ハゼゴロウ氏の飼い犬、[NLINE]
-ペケに挑戦する者が今日現れました！[END-FE]
+975_002An animal expert, the organizer of these contests,[NLINE]
+and holder of the title of greatest Breeder—[NLINE]
+today, someone has dared to challenge[NLINE]
+Peke, the beloved dog of Mr. Hazegoro![END-FE]
 
 
 
@@ -2446,9 +2446,9 @@
 //この舞台に挑戦するふとん犬の名は、[NLINE]
 //ニシキ！[END-FE]
 [CHARCF03][V0300]
-975_003全てのコンテストで優勝を収め、[NLINE]
-この舞台に挑戦するふとん犬の名は、[NLINE]
-ニシキ！[END-FE]
+975_003Having won every single contest,[NLINE]
+the Futon Dog stepping up to this challenge is—[NLINE]
+Nishiki![END-FE]
 
 
 
@@ -2461,9 +2461,9 @@
 //この舞台に挑戦するふとん犬の名は、[NLINE]
 //テツ！[END-FE]
 [CHARCF03][V0400]
-975_004全てのコンテストで優勝を収め、[NLINE]
-この舞台に挑戦するふとん犬の名は、[NLINE]
-テツ！[END-FE]
+975_004Having won every single contest,[NLINE]
+the Futon Dog stepping up to this challenge is—[NLINE]
+Tetsu![END-FE]
 
 
 
@@ -2476,9 +2476,9 @@
 //この舞台に挑戦するふとん犬の名は、[NLINE]
 //タマ！[END-FE]
 [CHARCF03][V0500]
-975_005全てのコンテストで優勝を収め、[NLINE]
-この舞台に挑戦するふとん犬の名は、[NLINE]
-タマ！[END-FE]
+975_005Having won every single contest,[NLINE]
+the Futon Dog stepping up to this challenge is—[NLINE]
+Tama![END-FE]
 
 
 
@@ -2491,9 +2491,9 @@
 //この舞台に挑戦するふとん犬の名は、[NLINE]
 //モモ！[END-FE]
 [CHARCF03][V0600]
-975_006全てのコンテストで優勝を収め、[NLINE]
-この舞台に挑戦するふとん犬の名は、[NLINE]
-モモ！[END-FE]
+975_006Having won every single contest,[NLINE]
+the Futon Dog stepping up to this challenge is—[NLINE]
+Momo![END-FE]
 
 
 
@@ -2504,7 +2504,7 @@
 //[CHARCF03][V0700]
 //975_007そして王者、ペケの入場です！[END-FE]
 [CHARCF03][V0700]
-975_007そして王者、ペケの入場です！[END-FE]
+975_007And now, the champion—Peke makes his entrance![END-FE]
 
 
 
@@ -2518,10 +2518,10 @@
 //コンテスト最高の戦いが[NLINE]
 //ここに繰り広げられようとしています！[END-FE]
 [CHARCF03][V0800]
-975_008挑戦者ニシキ、[NLINE]
-王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
-コンテスト最高の戦いが[NLINE]
-ここに繰り広げられようとしています！[END-FE]
+975_008Challenger Nishiki—[NLINE]
+what kind of fight will they put up against champion Peke?[NLINE]
+The greatest contest battle of all time[NLINE]
+is about to unfold right here![END-FE]
 
 
 
@@ -2535,10 +2535,10 @@
 //コンテスト最高の戦いが[NLINE]
 //ここに繰り広げられようとしています！[END-FE]
 [CHARCF03][V0900]
-975_009挑戦者テツ、[NLINE]
-王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
-コンテスト最高の戦いが[NLINE]
-ここに繰り広げられようとしています！[END-FE]
+975_009Challenger Tetsu—[NLINE]
+what kind of fight will they put up against champion Peke?[NLINE]
+The greatest contest battle of all time[NLINE]
+is about to unfold right here![END-FE]
 
 
 
@@ -2552,10 +2552,10 @@
 //コンテスト最高の戦いが[NLINE]
 //ここに繰り広げられようとしています！[END-FE]
 [CHARCF03][V0A00]
-975_010挑戦者タマ、[NLINE]
-王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
-コンテスト最高の戦いが[NLINE]
-ここに繰り広げられようとしています！[END-FE]
+975_010Challenger Tama—[NLINE]
+what kind of fight will they put up against champion Peke?[NLINE]
+The greatest contest battle of all time[NLINE]
+is about to unfold right here![END-FE]
 
 
 
@@ -2569,10 +2569,10 @@
 //コンテスト最高の戦いが[NLINE]
 //ここに繰り広げられようとしています！[END-FE]
 [CHARCF03][V0B00]
-975_011挑戦者モモ、[NLINE]
-王者ペケに対してどんな戦いを見せてくれるのか。[NLINE]
-コンテスト最高の戦いが[NLINE]
-ここに繰り広げられようとしています！[END-FE]
+975_011Challenger Momo—[NLINE]
+what kind of fight will they put up against champion Peke?[NLINE]
+The greatest contest battle of all time[NLINE]
+is about to unfold right here![END-FE]
 
 
 
@@ -2584,8 +2584,8 @@
 //975_012ふとん犬、[NLINE]
 //ブリーダー共に準備はよろしいですか？[END-FE]
 [CHARCF03][V0C00]
-975_012ふとん犬、[NLINE]
-ブリーダー共に準備はよろしいですか？[END-FE]
+975_012Futon Dog and Breeder—[NLINE]
+are you both ready?[END-FE]
 
 
 
@@ -2596,7 +2596,7 @@
 //[CHARCF03][V0D00]
 //975_013それでは…、レディーファイトっ！[END-FE]
 [CHARCF03][V0D00]
-975_013それでは…、レディーファイトっ！[END-FE]
+975_013Then…ready…fight![END-FE]
 
 
 
@@ -2605,7 +2605,7 @@
 //POINTER #199 @ $133C - STRING #199 @ $4C0F
 #W32($133C)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2614,7 +2614,7 @@
 //POINTER #200 @ $1340 - STRING #200 @ $4C2D
 #W32($1340)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2623,7 +2623,7 @@
 //POINTER #201 @ $1344 - STRING #201 @ $4C4B
 #W32($1344)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2632,7 +2632,7 @@
 //POINTER #202 @ $1348 - STRING #202 @ $4C69
 #W32($1348)
 //992_784をＰＣＭ命令で再生中[END-FE]
-992_784をＰＣＭ命令で再生中[END-FE]
+Playing 992_784 via PCM command[END-FE]
 
 
 
@@ -2641,7 +2641,7 @@
 //POINTER #203 @ $134C - STRING #203 @ $4C87
 #W32($134C)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2650,7 +2650,7 @@
 //POINTER #204 @ $1350 - STRING #204 @ $4CA5
 #W32($1350)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2659,7 +2659,7 @@
 //POINTER #205 @ $1354 - STRING #205 @ $4CC3
 #W32($1354)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2668,7 +2668,7 @@
 //POINTER #206 @ $1358 - STRING #206 @ $4CE1
 #W32($1358)
 //992_784をＰＣＭ命令で再生中[END-FE]
-992_784をＰＣＭ命令で再生中[END-FE]
+Playing 992_784 via PCM command[END-FE]
 
 
 
@@ -2677,7 +2677,7 @@
 //POINTER #207 @ $135C - STRING #207 @ $4CFF
 #W32($135C)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2686,7 +2686,7 @@
 //POINTER #208 @ $1360 - STRING #208 @ $4D1D
 #W32($1360)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2695,7 +2695,7 @@
 //POINTER #209 @ $1364 - STRING #209 @ $4D3B
 #W32($1364)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2704,7 +2704,7 @@
 //POINTER #210 @ $1368 - STRING #210 @ $4D59
 #W32($1368)
 //992_784をＰＣＭ命令で再生中[END-FE]
-992_784をＰＣＭ命令で再生中[END-FE]
+Playing 992_784 via PCM command[END-FE]
 
 
 
@@ -2713,7 +2713,7 @@
 //POINTER #211 @ $136C - STRING #211 @ $4D77
 #W32($136C)
 //992_784をＰＣＭ命令で再生中[END-FE]
-992_784をＰＣＭ命令で再生中[END-FE]
+Playing 992_784 via PCM command[END-FE]
 
 
 
@@ -2722,7 +2722,7 @@
 //POINTER #212 @ $1370 - STRING #212 @ $4D95
 #W32($1370)
 //992_783をＰＣＭ命令で再生中[END-FE]
-992_783をＰＣＭ命令で再生中[END-FE]
+Playing 992_783 via PCM command[END-FE]
 
 
 
@@ -2731,7 +2731,7 @@
 //POINTER #213 @ $1374 - STRING #213 @ $4DB3
 #W32($1374)
 //992_800をＰＣＭ命令で再生中[END-FE]
-992_800をＰＣＭ命令で再生中[END-FE]
+Playing 992_800 via PCM command[END-FE]
 
 
 
@@ -2740,7 +2740,7 @@
 //POINTER #214 @ $1378 - STRING #214 @ $4DD1
 #W32($1378)
 //992_799をＰＣＭ命令で再生中[END-FE]
-992_799をＰＣＭ命令で再生中[END-FE]
+Playing 992_799 via PCM command[END-FE]
 
 
 
@@ -2749,7 +2749,7 @@
 //POINTER #215 @ $137C - STRING #215 @ $4DEF
 #W32($137C)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2758,7 +2758,7 @@
 //POINTER #216 @ $1380 - STRING #216 @ $4E0D
 #W32($1380)
 //992_785をＰＣＭ命令で再生中[END-FE]
-992_785をＰＣＭ命令で再生中[END-FE]
+Playing 992_785 via PCM command[END-FE]
 
 
 
@@ -2767,7 +2767,7 @@
 //POINTER #217 @ $1384 - STRING #217 @ $4E2B
 #W32($1384)
 //992_801をＰＣＭ命令で再生中[END-FE]
-992_801をＰＣＭ命令で再生中[END-FE]
+Playing 992_801 via PCM command[END-FE]
 
 
 
@@ -2776,7 +2776,7 @@
 //POINTER #218 @ $1388 - STRING #218 @ $4E49
 #W32($1388)
 //992_801をＰＣＭ命令で再生中[END-FE]
-992_801をＰＣＭ命令で再生中[END-FE]
+Playing 992_801 via PCM command[END-FE]
 
 
 
@@ -2785,7 +2785,7 @@
 //POINTER #219 @ $138C - STRING #219 @ $4E67
 #W32($138C)
 //992_791をＰＣＭ命令で再生中[END-FE]
-992_791をＰＣＭ命令で再生中[END-FE]
+Playing 992_791 via PCM command[END-FE]
 
 
 
@@ -2798,9 +2798,9 @@
 //不動と思われた王者ペケを下し、[NLINE]
 //挑戦者ニシキ、遂に頂点に登りつめました！[END-FE]
 [CHARCF03][V0E00]
-975_014や、やりました！[NLINE]
-不動と思われた王者ペケを下し、[NLINE]
-挑戦者ニシキ、遂に頂点に登りつめました！[END-FE]
+975_014I-incredible![NLINE]
+Striking down the seemingly invincible champion Peke,[NLINE]
+challenger Nishiki has finally reached the top![END-FE]
 
 
 
@@ -2813,9 +2813,9 @@
 //不動と思われた王者ペケを下し、[NLINE]
 //挑戦者テツ、遂に頂点に登りつめました！[END-FE]
 [CHARCF03][V0F00]
-975_015や、やりました！[NLINE]
-不動と思われた王者ペケを下し、[NLINE]
-挑戦者テツ、遂に頂点に登りつめました！[END-FE]
+975_015I-incredible![NLINE]
+Striking down the seemingly invincible champion Peke,[NLINE]
+challenger Tetsu has finally reached the top![END-FE]
 
 
 
@@ -2828,9 +2828,9 @@
 //不動と思われた王者ペケを下し、[NLINE]
 //挑戦者タマ、遂に頂点に登りつめました！[END-FE]
 [CHARCF03][V1000]
-975_016や、やりました！[NLINE]
-不動と思われた王者ペケを下し、[NLINE]
-挑戦者タマ、遂に頂点に登りつめました！[END-FE]
+975_016I-incredible![NLINE]
+Striking down the seemingly invincible champion Peke,[NLINE]
+challenger Tama has finally reached the top![END-FE]
 
 
 
@@ -2843,9 +2843,9 @@
 //不動と思われた王者ペケを下し、[NLINE]
 //挑戦者モモ、遂に頂点に登りつめました！[END-FE]
 [CHARCF03][V1100]
-975_017や、やりました！[NLINE]
-不動と思われた王者ペケを下し、[NLINE]
-挑戦者モモ、遂に頂点に登りつめました！[END-FE]
+975_017I-incredible![NLINE]
+Striking down the seemingly invincible champion Peke,[NLINE]
+challenger Momo has finally reached the top![END-FE]
 
 
 
@@ -2857,8 +2857,8 @@
 //975_018ニシキ、あなたは最高のふとん犬です！[NLINE]
 //…期待に応えてくれて、ありがとう。[END-FE]
 [CHARCF03][V1200]
-975_018ニシキ、あなたは最高のふとん犬です！[NLINE]
-…期待に応えてくれて、ありがとう。[END-FE]
+975_018Nishiki, you are the greatest Futon Dog there is![NLINE]
+…Thank you for living up to my expectations.[END-FE]
 
 
 
@@ -2870,8 +2870,8 @@
 //975_019テツ、あなたは最高のふとん犬です！[NLINE]
 //…期待に応えてくれて、ありがとう。[END-FE]
 [CHARCF03][V1300]
-975_019テツ、あなたは最高のふとん犬です！[NLINE]
-…期待に応えてくれて、ありがとう。[END-FE]
+975_019Tetsu, you are the greatest Futon Dog there is![NLINE]
+…Thank you for living up to my expectations.[END-FE]
 
 
 
@@ -2883,8 +2883,8 @@
 //975_020タマ、あなたは最高のふとん犬です！[NLINE]
 //…期待に応えてくれて、ありがとう。[END-FE]
 [CHARCF03][V1400]
-975_020タマ、あなたは最高のふとん犬です！[NLINE]
-…期待に応えてくれて、ありがとう。[END-FE]
+975_020Tama, you are the greatest Futon Dog there is![NLINE]
+…Thank you for living up to my expectations.[END-FE]
 
 
 
@@ -2896,8 +2896,8 @@
 //975_021モモ、あなたは最高のふとん犬です！[NLINE]
 //…期待に応えてくれて、ありがとう。[END-FE]
 [CHARCF03][V1500]
-975_021モモ、あなたは最高のふとん犬です！[NLINE]
-…期待に応えてくれて、ありがとう。[END-FE]
+975_021Momo, you are the greatest Futon Dog there is![NLINE]
+…Thank you for living up to my expectations.[END-FE]
 
 
 
@@ -2911,10 +2911,10 @@
 //私はブリーダーとして未熟だったようだ。[NLINE]
 //良い勉強をさせてもらったよ。[END-FE]
 [CHARCF03][V1600]
-975_022…まさか、うちのペケを負かしてしまうとは。[NLINE]
-ふとん犬の可能性は、こんなにも奥が深いのか。[NLINE]
-私はブリーダーとして未熟だったようだ。[NLINE]
-良い勉強をさせてもらったよ。[END-FE]
+975_022…To think someone would actually defeat my Peke.[NLINE]
+The potential of Futon Dogs runs this deep, does it?[NLINE]
+It seems I still have much to learn as a Breeder.[NLINE]
+Thank you for the valuable lesson.[END-FE]
 
 
 
@@ -2925,7 +2925,7 @@
 //[CHARCF03][V1700]
 //975_023…ハゼゴロウさん。[END-FE]
 [CHARCF03][V1700]
-975_023…ハゼゴロウさん。[END-FE]
+975_023…Mr. Hazegoro.[END-FE]
 
 
 
@@ -2939,10 +2939,10 @@
 //勝者に贈る賞品だ。[NLINE]
 //受け取ってくれ。[END-FE]
 [CHARCF03][V1800]
-975_024もっとふとん犬の研究をしたくなったよ！[NLINE]
-これはコンテスト主催者として、[NLINE]
-勝者に贈る賞品だ。[NLINE]
-受け取ってくれ。[END-FE]
+975_024Now I want to research Futon Dogs even more![NLINE]
+This is a prize from the contest organizer[NLINE]
+for the winner.[NLINE]
+Please accept it.[END-FE]
 
 
 
@@ -2954,8 +2954,8 @@
 //975_025今度は君たちに負けないよう、[NLINE]
 //ふとん犬に愛情を注ぐよ。[END-FE]
 [CHARCF03][V1900]
-975_025今度は君たちに負けないよう、[NLINE]
-ふとん犬に愛情を注ぐよ。[END-FE]
+975_025Next time, I'll pour my love into my Futon Dog[NLINE]
+so that I won't lose to you.[END-FE]
 
 
 
@@ -2968,9 +2968,9 @@
 //このコンテストはふとん犬史上に[NLINE]
 //語り継がれるものになるでしょう！[END-FE]
 [CHARCF03][V1A00]
-975_026素晴らしい戦いでした！[NLINE]
-このコンテストはふとん犬史上に[NLINE]
-語り継がれるものになるでしょう！[END-FE]
+975_026What a magnificent battle that was![NLINE]
+This contest will surely be[NLINE]
+told for generations in Futon Dog history![END-FE]
 
 
 
@@ -2982,8 +2982,8 @@
 //975_027みなさん、ふとん犬、ブリーダーたちに[NLINE]
 //盛大な拍手を送ろうではありませんか！[END-FE]
 [CHARCF03][V1B00]
-975_027みなさん、ふとん犬、ブリーダーたちに[NLINE]
-盛大な拍手を送ろうではありませんか！[END-FE]
+975_027Everyone, let us give a thunderous round[NLINE]
+of applause for the Futon Dogs and their Breeders![END-FE]
 
 
 
@@ -2995,8 +2995,8 @@
 //975_028新チャンピオン、ニシキ、[NLINE]
 //おめでとうございます！[END-FE]
 [CHARCF03][V1C00]
-975_028新チャンピオン、ニシキ、[NLINE]
-おめでとうございます！[END-FE]
+975_028New champion, Nishiki—[NLINE]
+congratulations![END-FE]
 
 
 
@@ -3008,8 +3008,8 @@
 //975_029新チャンピオン、テツ、[NLINE]
 //おめでとうございます！[END-FE]
 [CHARCF03][V1D00]
-975_029新チャンピオン、テツ、[NLINE]
-おめでとうございます！[END-FE]
+975_029New champion, Tetsu—[NLINE]
+congratulations![END-FE]
 
 
 
@@ -3021,8 +3021,8 @@
 //975_030新チャンピオン、タマ、[NLINE]
 //おめでとうございます！[END-FE]
 [CHARCF03][V1E00]
-975_030新チャンピオン、タマ、[NLINE]
-おめでとうございます！[END-FE]
+975_030New champion, Tama—[NLINE]
+congratulations![END-FE]
 
 
 
@@ -3034,8 +3034,8 @@
 //975_031新チャンピオン、モモ、[NLINE]
 //おめでとうございます！[END-FE]
 [CHARCF03][V1F00]
-975_031新チャンピオン、モモ、[NLINE]
-おめでとうございます！[END-FE]
+975_031New champion, Momo—[NLINE]
+congratulations![END-FE]
 
 
 
@@ -3044,7 +3044,7 @@
 //POINTER #238 @ $13D8 - STRING #238 @ $54F3
 #W32($13D8)
 //992_791をＰＣＭ命令で再生中[END-FE]
-992_791をＰＣＭ命令で再生中[END-FE]
+Playing 992_791 via PCM command[END-FE]
 
 
 
@@ -3053,7 +3053,7 @@
 //POINTER #239 @ $13DC - STRING #239 @ $5511
 #W32($13DC)
 //992_790をＰＣＭ命令で再生中[END-FE]
-992_790をＰＣＭ命令で再生中[END-FE]
+Playing 992_790 via PCM command[END-FE]
 
 
 
@@ -3062,7 +3062,7 @@
 //POINTER #240 @ $13E0 - STRING #240 @ $552F
 #W32($13E0)
 //992_805をＰＣＭ命令で再生中[END-FE]
-992_805をＰＣＭ命令で再生中[END-FE]
+Playing 992_805 via PCM command[END-FE]
 
 
 
@@ -3071,7 +3071,7 @@
 //POINTER #241 @ $13E4 - STRING #241 @ $554D
 #W32($13E4)
 //992_806をＰＣＭ命令で再生中[END-FE]
-992_806をＰＣＭ命令で再生中[END-FE]
+Playing 992_806 via PCM command[END-FE]
 
 
 
@@ -3086,11 +3086,11 @@
 //975_033コンテストが始まって以来、[NLINE]
 //ゆるぎなくチャンピオンの座に君臨しています！[END-FE]
 [CHARCF03][V2000]
-975_032つ、強いっ！流石は王者ペケっ！[NWIN]
+975_032S-so strong! As expected of champion Peke![NWIN]
 
 [CHARCF03][V2100]
-975_033コンテストが始まって以来、[NLINE]
-ゆるぎなくチャンピオンの座に君臨しています！[END-FE]
+975_033Since the very start of the contests,[NLINE]
+they have stood firm and unchallenged as champion![END-FE]
 
 
 
@@ -3105,11 +3105,11 @@
 //一生を捧げていこうとしている者。[NLINE]
 //ふとん犬の事で、簡単に負ける訳にはいかないよ。[END-FE]
 [CHARCF03][V2200]
-975_034ふ～う、コンテストを[NLINE]
-全部勝ち抜いてくるだけはあった。[NLINE]
-でも、私もふとん犬研究に[NLINE]
-一生を捧げていこうとしている者。[NLINE]
-ふとん犬の事で、簡単に負ける訳にはいかないよ。[END-FE]
+975_034Phew…You really did win every contest.[NLINE]
+But I too have dedicated my life[NLINE]
+to the study of Futon Dogs.[NLINE]
+I can't afford to lose so easily when it comes to them.[NLINE]
+Witness what I am truly capable of![END-FE]
 
 
 
@@ -3121,8 +3121,8 @@
 //975_035…完敗です。ふとん犬に対する想いも、[NLINE]
 //ブリーダーとしての腕も。[END-FE]
 [CHARCF03][V2300]
-975_035…完敗です。ふとん犬に対する想いも、[NLINE]
-ブリーダーとしての腕も。[END-FE]
+975_035…A complete defeat. Both in my love for Futon Dogs[NLINE]
+and in my skill as a Breeder.[END-FE]
 
 
 
@@ -3137,11 +3137,11 @@
 //愛情を注いでくれたお礼だ。[NLINE]
 //受け取ってくれ。[END-FE]
 [CHARCF03][V2400]
-975_036悲観する事はないよ。[NLINE]
-ここまでペケと戦えた者はいなかった。[NLINE]
-これはふとん犬にたくさんの[NLINE]
-愛情を注いでくれたお礼だ。[NLINE]
-受け取ってくれ。[END-FE]
+975_036There's no need to despair.[NLINE]
+No one has ever pushed Peke this far before.[NLINE]
+This is my thanks for pouring so much love[NLINE]
+into your Futon Dog.[NLINE]
+Please accept it.[END-FE]
 
 
 
@@ -3159,14 +3159,14 @@
 //盛大な拍手を送ろうではありませんか！[NLINE]
 //チャンピオン、ペケ、おめでとうございます！[END-FE]
 [CHARCF03][V2500]
-975_037素晴らしい戦いでした！[NLINE]
-このコンテストはふとん犬史上に[NLINE]
-語り継がれるものになるでしょう！[NWIN]
+975_037What a magnificent battle that was![NLINE]
+This contest will surely be[NLINE]
+told for generations in Futon Dog history![NWIN]
 
 [CHARCF03][V2600]
-975_038みなさん、ふとん犬、ブリーダーたちに[NLINE]
-盛大な拍手を送ろうではありませんか！[NLINE]
-チャンピオン、ペケ、おめでとうございます！[END-FE]
+975_038Everyone, let us give a thunderous round of[NLINE]
+applause for the Futon Dogs and their Breeders![NLINE]
+Champion Peke—congratulations![END-FE]
 
 
 
@@ -3175,7 +3175,7 @@
 //POINTER #247 @ $13FC - STRING #247 @ $587F
 #W32($13FC)
 //992_798をＰＣＭ命令で再生中[END-FE]
-992_798をＰＣＭ命令で再生中[END-FE]
+Playing 992_798 via PCM command[END-FE]
 
 
 
@@ -3184,7 +3184,7 @@
 //POINTER #248 @ $1400 - STRING #248 @ $589D
 #W32($1400)
 //992_783をＰＣＭ命令で再生中[END-FE]
-992_783をＰＣＭ命令で再生中[END-FE]
+Playing 992_783 via PCM command[END-FE]
 
 
 
@@ -3193,7 +3193,7 @@
 //POINTER #249 @ $1404 - STRING #249 @ $58BB
 #W32($1404)
 //992_799をＰＣＭ命令で再生中[END-FE]
-992_799をＰＣＭ命令で再生中[END-FE]
+Playing 992_799 via PCM command[END-FE]
 
 
 
@@ -3202,7 +3202,7 @@
 //POINTER #250 @ $1408 - STRING #250 @ $58D9
 #W32($1408)
 //992_814をＰＣＭ命令で再生中[END-FE]
-992_814をＰＣＭ命令で再生中[END-FE]
+Playing 992_814 via PCM command[END-FE]
 
 
 
@@ -3211,7 +3211,7 @@
 //POINTER #251 @ $140C - STRING #251 @ $58F7
 #W32($140C)
 //992_792をＰＣＭ命令で再生中[END-FE]
-992_792をＰＣＭ命令で再生中[END-FE]
+Playing 992_792 via PCM command[END-FE]
 
 
 
@@ -3220,7 +3220,7 @@
 //POINTER #252 @ $1410 - STRING #252 @ $5915
 #W32($1410)
 //992_796をＰＣＭ命令で再生中[END-FE]
-992_796をＰＣＭ命令で再生中[END-FE]
+Playing 992_796 via PCM command[END-FE]
 
 
 
@@ -3229,7 +3229,7 @@
 //POINTER #253 @ $1414 - STRING #253 @ $5933
 #W32($1414)
 //992_807をＰＣＭ命令で再生中[END-FE]
-992_807をＰＣＭ命令で再生中[END-FE]
+Playing 992_807 via PCM command[END-FE]
 
 
 
@@ -3238,7 +3238,7 @@
 //POINTER #254 @ $1418 - STRING #254 @ $5951
 #W32($1418)
 //992_807をＰＣＭ命令で再生中[END-FE]
-992_807をＰＣＭ命令で再生中[END-FE]
+Playing 992_807 via PCM command[END-FE]
 
 
 
@@ -3249,7 +3249,7 @@
 //[CHARD003][V1700]
 //976_023きゃあー、勇者様ー！[END-FE]
 [CHARD003][V1700]
-976_023きゃあー、勇者様ー！[END-FE]
+976_023Kyaaah—Sir Hero![END-FE]
 
 
 
@@ -3258,7 +3258,7 @@
 //POINTER #256 @ $1420 - STRING #256 @ $5995
 #W32($1420)
 //・回想　出撃[END-FE]
-・回想　出撃[END-FE]
+・Flashback: Deployment[END-FE]
 
 
 
@@ -3267,7 +3267,7 @@
 //POINTER #257 @ $1424 - STRING #257 @ $59A4
 #W32($1424)
 //・回想　ピンチ[END-FE]
-・回想　ピンチ[END-FE]
+・Flashback: Crisis[END-FE]
 
 
 
@@ -3276,7 +3276,7 @@
 //POINTER #258 @ $1428 - STRING #258 @ $59B5
 #W32($1428)
 //・回想　捕虜[END-FE]
-・回想　捕虜[END-FE]
+・Flashback: Prisoner[END-FE]
 
 
 
@@ -3285,7 +3285,7 @@
 //POINTER #259 @ $142C - STRING #259 @ $59C4
 #W32($142C)
 //・回想　ルキアス[END-FE]
-・回想　ルキアス[END-FE]
+・Flashback: Rukias[END-FE]
 
 
 
@@ -3296,7 +3296,7 @@
 //[CHAR4600][V2600]
 //070_038そっちの準備はどうだ？[END-FE]
 [CHAR4600][V2600]
-070_038そっちの準備はどうだ？[END-FE]
+070_038How are preparations on your end?[END-FE]
 
 
 
@@ -3308,8 +3308,8 @@
 //070_039私の部隊の準備なら、すでに終わっている。[NLINE]
 //いつでも出られるわ。[END-FE]
 [CHAR4600][V2700]
-070_039私の部隊の準備なら、すでに終わっている。[NLINE]
-いつでも出られるわ。[END-FE]
+070_039As for my unit, preparations are already complete.[NLINE]
+We can move out at any time.[END-FE]
 
 
 
@@ -3320,7 +3320,7 @@
 //[CHAR4600][V2800]
 //070_040よし。[END-FE]
 [CHAR4600][V2800]
-070_040よし。[END-FE]
+070_040Good.[END-FE]
 
 
 
@@ -3332,8 +3332,8 @@
 //070_041これより、予定通り[NLINE]
 //強襲作戦を開始する！[END-FE]
 [CHAR4600][V2900]
-070_041これより、予定通り[NLINE]
-強襲作戦を開始する！[END-FE]
+070_041We will now commence[NLINE]
+the assault operation as planned![END-FE]
 
 
 
@@ -3345,8 +3345,8 @@
 //070_042人間どもの主力である大地の巫女を殺せば、[NLINE]
 //連中はよりどころを失う。[END-FE]
 [CHAR4600][V2A00]
-070_042人間どもの主力である大地の巫女を殺せば、[NLINE]
-連中はよりどころを失う。[END-FE]
+070_042If we slay the Shrine Maiden of the Earth,[NLINE]
+the backbone of the human forces, they will have nothing left to cling to.[END-FE]
 
 
 
@@ -3358,8 +3358,8 @@
 //070_043結束を断てば人間など[NLINE]
 //烏合の衆に過ぎぬからな。[END-FE]
 [CHAR4600][V2B00]
-070_043結束を断てば人間など[NLINE]
-烏合の衆に過ぎぬからな。[END-FE]
+070_043Once their unity is broken, humans are nothing[NLINE]
+more than a disorganized mob.[END-FE]
 
 
 
@@ -3371,8 +3371,8 @@
 //070_044この星はインフィニトー様のものだ！[NLINE]
 //行くぞ！[END-FE]
 [CHAR4600][V2C00]
-070_044この星はインフィニトー様のものだ！[NLINE]
-行くぞ！[END-FE]
+070_044This planet belongs to Lord Infinitor![NLINE]
+Move out![END-FE]
 
 
 
@@ -3383,7 +3383,7 @@
 //[CHAR5900][V0000]
 //089_000数が違いすぎたか…。[END-FE]
 [CHAR5900][V0000]
-089_000数が違いすぎたか…。[END-FE]
+089_000The numbers were just too overwhelming…[END-FE]
 
 
 
@@ -3395,8 +3395,8 @@
 //089_001すまん、大地の巫女の力を甘く見た、[NLINE]
 //俺の作戦ミスだ。[END-FE]
 [CHAR5900][V0100]
-089_001すまん、大地の巫女の力を甘く見た、[NLINE]
-俺の作戦ミスだ。[END-FE]
+089_001I'm sorry. I underestimated the power of the Shrine Maiden—[NLINE]
+this was my tactical error.[END-FE]
 
 
 
@@ -3411,11 +3411,11 @@
 //[CHAR5900][V0300]
 //089_003おまえのせいではない。[END-FE]
 [CHAR5900][V0200]
-089_002いいや。[NLINE]
-あれほどの力とは私にも想像出来ぬ。[NWIN]
+089_002No.[NLINE]
+Even I could not have imagined power of that magnitude.[NWIN]
 
 [CHAR5900][V0300]
-089_003おまえのせいではない。[END-FE]
+089_003It is not your fault.[END-FE]
 
 
 
@@ -3430,11 +3430,11 @@
 //[CHAR5900][V0500]
 //089_005ネーリス、頼みがある。[END-FE]
 [CHAR5900][V0400]
-089_004だが、部隊をここまで減らした責任は[NLINE]
-隊長の俺にある。[NWIN]
+089_004But the responsibility for allowing our unit to be[NLINE]
+reduced this far rests with me as the commander.[NWIN]
 
 [CHAR5900][V0500]
-089_005ネーリス、頼みがある。[END-FE]
+089_005Neilis, I have a favor to ask.[END-FE]
 
 
 
@@ -3445,7 +3445,7 @@
 //[CHAR5900][V0600]
 //089_006なんだ？[END-FE]
 [CHAR5900][V0600]
-089_006なんだ？[END-FE]
+089_006What is it?[END-FE]
 
 
 
@@ -3457,8 +3457,8 @@
 //089_007ここに残った兵だけでも[NLINE]
 //連れ帰ってくれ。[END-FE]
 [CHAR5900][V0700]
-089_007ここに残った兵だけでも[NLINE]
-連れ帰ってくれ。[END-FE]
+089_007Please, at least take the remaining soldiers here[NLINE]
+and bring them back.[END-FE]
 
 
 
@@ -3469,7 +3469,7 @@
 //[CHAR5900][V0800]
 //089_008貴様、死ぬ気か!?[END-FE]
 [CHAR5900][V0800]
-089_008貴様、死ぬ気か!?[END-FE]
+089_008Are you trying to get yourself killed!?[END-FE]
 
 
 
@@ -3488,15 +3488,15 @@
 //089_011お前たちの脱出を確認したら、[NLINE]
 //俺も脱出する。[END-FE]
 [CHAR5900][V0900]
-089_009死ぬつもりなど毛頭ない。[NWIN]
+089_009I have absolutely no intention of dying.[NWIN]
 
 [CHAR5900][V0A00]
-089_010だが、追っ手を振り切るには[NLINE]
-誰かが残らねばならん。[NWIN]
+089_010But to break free from our pursuers,[NLINE]
+someone must stay behind.[NWIN]
 
 [CHAR5900][V0B00]
-089_011お前たちの脱出を確認したら、[NLINE]
-俺も脱出する。[END-FE]
+089_011Once I confirm your escape,[NLINE]
+I will escape as well.[END-FE]
 
 
 
@@ -3507,7 +3507,7 @@
 //[CHAR5900][V0C00]
 //089_012…本当だな…？[END-FE]
 [CHAR5900][V0C00]
-089_012…本当だな…？[END-FE]
+089_012…You promise…?[END-FE]
 
 
 
@@ -3519,8 +3519,8 @@
 //089_013インフィニトー様の兵として、[NLINE]
 //最後まで使命をまっとうしたい。[END-FE]
 [CHAR5900][V0D00]
-089_013インフィニトー様の兵として、[NLINE]
-最後まで使命をまっとうしたい。[END-FE]
+089_013As a soldier of Lord Infinitor,[NLINE]
+I wish to fulfill my duty to the very end.[END-FE]
 
 
 
@@ -3535,11 +3535,11 @@
 //089_015だが一人残していく。[NLINE]
 //絶対に生きて戻れよ！[END-FE]
 [CHAR5900][V0E00]
-089_014…わかった…。[NWIN]
+089_014…Understood…[NWIN]
 
 [CHAR5900][V0F00]
-089_015だが一人残していく。[NLINE]
-絶対に生きて戻れよ！[END-FE]
+089_015But I'm leaving one person behind with you.[NLINE]
+You had better come back alive![END-FE]
 
 
 
@@ -3551,8 +3551,8 @@
 //089_016おい、お前。[NLINE]
 //ここで一緒に援護を！[END-FE]
 [CHAR5900][V1000]
-089_016おい、お前。[NLINE]
-ここで一緒に援護を！[END-FE]
+089_016Hey, you.[NLINE]
+Cover me here![END-FE]
 
 
 
@@ -3564,8 +3564,8 @@
 //089_017…それじゃ、[NLINE]
 //仲間のために、もう一暴れするか！[END-FE]
 [CHAR5900][V1100]
-089_017…それじゃ、[NLINE]
-仲間のために、もう一暴れするか！[END-FE]
+089_017…All right then,[NLINE]
+let's raise some hell for our comrades![END-FE]
 
 
 
@@ -3579,10 +3579,10 @@
 //[CHAR6000][V0100]
 //096_001俺はお前の仲間を何人も殺したぞ？[END-FE]
 [CHAR6000][V0000]
-096_000…なぜ俺たちを殺さない？[NWIN]
+096_000…Why do you not kill us?[NWIN]
 
 [CHAR6000][V0100]
-096_001俺はお前の仲間を何人も殺したぞ？[END-FE]
+096_001I have killed many of your comrades, you know?[END-FE]
 
 
 
@@ -3598,12 +3598,12 @@
 //096_003もしそうならば、[NLINE]
 //私はあなたを殺すかもしれません。[END-FE]
 [CHAR6000][V0200]
-096_002あなたを殺して、[NLINE]
-死んだ仲間が戻りますか？[NWIN]
+096_002If I kill you,[NLINE]
+will my fallen comrades return?[NWIN]
 
 [CHAR6000][V0300]
-096_003もしそうならば、[NLINE]
-私はあなたを殺すかもしれません。[END-FE]
+096_003If that were the case,[NLINE]
+I might indeed kill you.[END-FE]
 
 
 
@@ -3636,18 +3636,18 @@
 //その上で最良の未来を選ぶために[NLINE]
 //努力をするのです。[END-FE]
 [CHAR6000][V0500]
-096_005時が戻らぬ限り、[NLINE]
-死んだ人は帰りません。[NWIN]
+096_005Unless time itself turns back,[NLINE]
+the dead do not return.[NWIN]
 
 [CHAR6000][V0600]
-096_006いずれ人は[NLINE]
-時さえも越えるかもしれません。[NLINE]
-ですが、私たちにはそれは出来ない。[NWIN]
+096_006Someday, people may even transcend time itself.[NLINE]
+But that is not something[NLINE]
+we are currently capable of.[NWIN]
 
 [CHAR6000][V0700]
-096_007ならば、過ぎ去ったことは受け入れ、[NLINE]
-その上で最良の未来を選ぶために[NLINE]
-努力をするのです。[END-FE]
+096_007Then we must accept what has passed,[NLINE]
+and strive to choose[NLINE]
+the best possible future.[END-FE]
 
 
 
@@ -3660,9 +3660,9 @@
 //未来を諦めないから[NLINE]
 //人間はすばらしいんじゃないか！[END-FE]
 [CHAR6000][V0800]
-096_008そうだよ！[NLINE]
-未来を諦めないから[NLINE]
-人間はすばらしいんじゃないか！[END-FE]
+096_008That's right![NLINE]
+Because humans never give up on the future—[NLINE]
+that's what makes us wonderful![END-FE]
 
 
 
@@ -3693,16 +3693,16 @@
 //096_012それだけは[NLINE]
 //何としても食い止めねばなりません。[END-FE]
 [CHAR6000][V0A00]
-096_010侵略者インフィニトーが奪っている物は[NLINE]
-いわばこの星の命。[NWIN]
+096_010What the invader Infinitor is stealing[NLINE]
+is, in a sense, the very life of this planet.[NWIN]
 
 [CHAR6000][V0B00]
-096_011このままの時の流れでいけば、[NLINE]
-そう遠くないうちにこの星は滅びます。[NWIN]
+096_011If time continues on its current course,[NLINE]
+this planet will perish before long.[NWIN]
 
 [CHAR6000][V0C00]
-096_012それだけは[NLINE]
-何としても食い止めねばなりません。[END-FE]
+096_012That, above all else,[NLINE]
+must be stopped at any cost.[END-FE]
 
 
 
@@ -3718,12 +3718,12 @@
 //096_014死なぬ相手にいくら立ち向かおうと勝てない。[NLINE]
 //だから俺は…。[END-FE]
 [CHAR6000][V0D00]
-096_013だがインフィニトー様は不滅の存在。[NLINE]
-いくら肉体を滅ぼしても無意味だぞ。[NWIN]
+096_013But Lord Infinitor is immortal.[NLINE]
+No matter how many times you destroy the body, it is meaningless.[NWIN]
 
 [CHAR6000][V0E00]
-096_014死なぬ相手にいくら立ち向かおうと勝てない。[NLINE]
-だから俺は…。[END-FE]
+096_014No matter how hard you fight an opponent who cannot die, you cannot win.[NLINE]
+That's why I…[END-FE]
 
 
 
@@ -3735,8 +3735,8 @@
 //096_015だから言ってるじゃないか！[NLINE]
 //諦めたら終わりなんだって！[END-FE]
 [CHAR6000][V0F00]
-096_015だから言ってるじゃないか！[NLINE]
-諦めたら終わりなんだって！[END-FE]
+096_015That's exactly why I keep saying it![NLINE]
+If you give up, it's over![END-FE]
 
 
 
@@ -3747,7 +3747,7 @@
 //[CHAR6000][V1000]
 //096_016だが……。[END-FE]
 [CHAR6000][V1000]
-096_016だが……。[END-FE]
+096_016But…[END-FE]
 
 
 
@@ -3759,8 +3759,8 @@
 //096_017私に策があります。[NLINE]
 //そのためには、力ある者の協力が必要です。[END-FE]
 [CHAR6000][V1100]
-096_017私に策があります。[NLINE]
-そのためには、力ある者の協力が必要です。[END-FE]
+096_017I have a plan.[NLINE]
+For that, I will need the cooperation of those with power.[END-FE]
 
 
 
@@ -3783,8 +3783,8 @@
 //804_066…くそっ、[NLINE]
 //全然歯が立たない…。[END-FE]
 [CHAR2403][V4200]
-804_066…くそっ、[NLINE]
-全然歯が立たない…。[END-FE]
+804_066…Damn it,[NLINE]
+I can't land a single hit…[END-FE]
 
 
 
@@ -3796,8 +3796,8 @@
 //804_067こ、こわいよ…、[NLINE]
 //ルキアスちゃん…。[END-FE]
 [CHAR2403][V4300]
-804_067こ、こわいよ…、[NLINE]
-ルキアスちゃん…。[END-FE]
+804_067I-I'm scared…,[NLINE]
+Rukias…[END-FE]
 
 
 
@@ -3810,9 +3810,9 @@
 //俺がここでくい止めるから、[NLINE]
 //早く向こうに逃げろ！[END-FE]
 [CHAR2403][V4400]
-804_068こわがるな！[NLINE]
-俺がここでくい止めるから、[NLINE]
-早く向こうに逃げろ！[END-FE]
+804_068Don't be afraid![NLINE]
+I'll hold them off here,[NLINE]
+so get away now![END-FE]
 
 
 
@@ -3823,7 +3823,7 @@
 //[CHAR2403][V4500]
 //804_069で、でもルキアスちゃん…。[END-FE]
 [CHAR2403][V4500]
-804_069で、でもルキアスちゃん…。[END-FE]
+804_069B-but Rukias…[END-FE]
 
 
 
@@ -3836,9 +3836,9 @@
 //上手く逃げられれば、[NLINE]
 //橋のところの兵隊に助けてもらえる！[END-FE]
 [CHAR2403][V4600]
-804_070早く行け！[NLINE]
-上手く逃げられれば、[NLINE]
-橋のところの兵隊に助けてもらえる！[END-FE]
+804_070Get going now![NLINE]
+If you can escape safely,[NLINE]
+the soldiers by the bridge will help you![END-FE]
 
 
 
@@ -3850,8 +3850,8 @@
 //804_071わ、わかった！[NLINE]
 //その兵隊さんを呼んでくるから！[END-FE]
 [CHAR2403][V4700]
-804_071わ、わかった！[NLINE]
-その兵隊さんを呼んでくるから！[END-FE]
+804_071O-okay![NLINE]
+I'll go call those soldiers![END-FE]
 
 
 
@@ -3862,7 +3862,7 @@
 //[CHAR2403][V4800]
 //804_072てい！[END-FE]
 [CHAR2403][V4800]
-804_072てい！[END-FE]
+804_072Hiyah![END-FE]
 
 
 
@@ -3873,7 +3873,7 @@
 //[CHAR2403][V4900]
 //804_073…そこまで、もちそうにないけどな…[END-FE]
 [CHAR2403][V4900]
-804_073…そこまで、もちそうにないけどな…[END-FE]
+804_073…Though I don't think I'll last that long…[END-FE]
 
 
 
@@ -3884,7 +3884,7 @@
 //[CHAR2403][V4A00]
 //804_074う、うわぁっ！[END-FE]
 [CHAR2403][V4A00]
-804_074う、うわぁっ！[END-FE]
+804_074Wh-whoa![END-FE]
 
 
 
@@ -3898,10 +3898,10 @@
 //[CHAR2403][V4C00]
 //804_076…はは…たすかった…[END-FE]
 [CHAR2403][V4B00]
-804_075…い…生きてる…。[NWIN]
+804_075…I'm…alive…[NWIN]
 
 [CHAR2403][V4C00]
-804_076…はは…たすかった…[END-FE]
+804_076…haha…I made it…[END-FE]
 
 
 
@@ -3912,7 +3912,7 @@
 //[CHAR2403][V4D00]
 //804_077…はっ、レラ!?[END-FE]
 [CHAR2403][V4D00]
-804_077…はっ、レラ!?[END-FE]
+804_077…Huh, Lera!?[END-FE]
 
 
 
@@ -3921,7 +3921,7 @@
 //POINTER #303 @ $14DC - STRING #303 @ $6600
 #W32($14DC)
 //804_078をＰＣＭ命令で再生中[END-FE]
-804_078をＰＣＭ命令で再生中[END-FE]
+Playing 804_078 via PCM command[END-FE]
 
 
 
@@ -3933,8 +3933,8 @@
 //804_079いかん、[NLINE]
 //見るんじゃない！[END-FE]
 [CHAR2403][V4F00]
-804_079いかん、[NLINE]
-見るんじゃない！[END-FE]
+804_079No—[NLINE]
+don't look![END-FE]
 
 
 
@@ -3946,8 +3946,8 @@
 //804_080放せよ！[NLINE]
 //レラはどうなったんだよ！[END-FE]
 [CHAR2403][V5000]
-804_080放せよ！[NLINE]
-レラはどうなったんだよ！[END-FE]
+804_080Let go of me![NLINE]
+What happened to Lera![END-FE]
 
 
 
@@ -3959,8 +3959,8 @@
 //804_081モンスターにやられたんだ。[NLINE]
 //見ない方がいい！[END-FE]
 [CHAR2403][V5100]
-804_081モンスターにやられたんだ。[NLINE]
-見ない方がいい！[END-FE]
+804_081She was attacked by a monster.[NLINE]
+You don't want to see this![END-FE]
 
 
 
@@ -3971,7 +3971,7 @@
 //[CHAR2403][V5200]
 //804_082あ、こら！[END-FE]
 [CHAR2403][V5200]
-804_082あ、こら！[END-FE]
+804_082Hey, wait![END-FE]
 
 
 
@@ -3983,8 +3983,8 @@
 //804_083レラ！[NLINE]
 //…レラ？　　　　　[END-FE]
 [CHAR2403][V5300]
-804_083レラ！[NLINE]
-…レラ？　　　　　[END-FE]
+804_083Lera![NLINE]
+…Lera?     [END-FE]
 
 
 
@@ -3996,8 +3996,8 @@
 //804_084…う、う、[NLINE]
 //…うわぁぁぁぁっ！[END-FE]
 [CHAR2403][V5400]
-804_084…う、う、[NLINE]
-…うわぁぁぁぁっ！[END-FE]
+804_084…Uh, uh,[NLINE]
+…Noooooo![END-FE]
 
 
 
