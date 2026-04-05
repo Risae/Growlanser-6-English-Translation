@@ -1843,8 +1843,8 @@ Which class misalignment do you want to fix?[END-FE]
 #W32($6730)
 //吸引の石板・ニァーラの粉[NLINE]
 //削除しますか？[END-FE]
-Do you want to remove 吸引の石板・ニァーラの粉?[NLINE]
-(translator note: I think these are items)[END-FE]
+Sealing Tablet / Niara Powder[NLINE]
+Do you want to remove?[END-FE]
 
 
 
@@ -4354,7 +4354,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #471 @ $6B7C - STRING #471 @ $97A8
 #W32($6B7C)
 //・撃破された[END-FE]
-・撃破された[END-FE]
+・Knocked out[END-FE]
 
 
 
@@ -4363,7 +4363,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #472 @ $6B80 - STRING #472 @ $97B7
 #W32($6B80)
 //・武器撃破[END-FE]
-・武器撃破[END-FE]
+・Weapon break[END-FE]
 
 
 
@@ -4372,7 +4372,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #473 @ $6B84 - STRING #473 @ $97C4
 #W32($6B84)
 //・魔法撃破[END-FE]
-・魔法撃破[END-FE]
+・Magic defeat[END-FE]
 
 
 
@@ -4381,7 +4381,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #474 @ $6B88 - STRING #474 @ $97D1
 #W32($6B88)
 //・戦闘勝利[END-FE]
-・戦闘勝利[END-FE]
+・Battle victory[END-FE]
 
 
 
@@ -4390,7 +4390,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #475 @ $6B8C - STRING #475 @ $97DE
 #W32($6B8C)
 //・復活[END-FE]
-・復活[END-FE]
+・Revival[END-FE]
 
 
 
@@ -4399,7 +4399,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #476 @ $6B90 - STRING #476 @ $97E7
 #W32($6B90)
 //・コマンド開き[END-FE]
-・コマンド開き[END-FE]
+・Command open[END-FE]
 
 
 
@@ -4408,7 +4408,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #477 @ $6B94 - STRING #477 @ $97F8
 #W32($6B94)
 //・決定[END-FE]
-・決定[END-FE]
+・Confirm[END-FE]
 
 
 
@@ -4534,7 +4534,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #491 @ $6BCC - STRING #491 @ $98D6
 #W32($6BCC)
 //・タコ殴り[END-FE]
-・タコ殴り[END-FE]
+・Pummeled[END-FE]
 
 
 
@@ -5243,7 +5243,7 @@ Boss battle jump is not implemented yet.[END-FE]
 //POINTER #568 @ $6D00 - STRING #568 @ $9F9E
 #W32($6D00)
 //５８　TOWN_50　財閥軍[END-FE]
-58 TOWN_50　財閥軍[END-FE]
+58 TOWN_50　Monopolis Forces[END-FE]
 
 
 
@@ -5531,7 +5531,7 @@ Boss battle jump is not implemented yet.[END-FE]
 //POINTER #600 @ $6D80 - STRING #600 @ $A3BE
 #W32($6D80)
 //１７TOWN_03＿ネイラーン軍[END-FE]
-17TOWN_03＿ネイラーン軍[END-FE]
+17 TOWN_03 Neylern Army[END-FE]
 
 
 
