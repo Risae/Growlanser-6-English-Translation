@@ -440,7 +440,7 @@ Alright, it's showtime![END-FE]
 //この前、こうざんに赤い服をきた[NLINE]
 //ドロボウが出たんだって！[END-FE]
 //Boy\\
-Hey mister, you know my brother, right? A[NLINE]
+Hey mister, you know my brother, right?[NLINE]
 He told me that earlier, a thief dressed[NLINE]
 in red showed up in the mine![END-FE]
 
@@ -6189,7 +6189,7 @@ Let's see, page 133...[END-FE]
 //本当に料理のことしか書いてないわ。[END-FE]
 [CHAR0900][V1B00]
 This isn't it.[NLINE]
-It's just a regular cooking cook.[END-FE]
+It's just a regular cookbook.[END-FE]
 
 
 
@@ -6214,7 +6214,7 @@ get...?[END-FE]
 //本当に料理のことしか書いてないわ。[END-FE]
 [CHAR0900][V1500]
 This isn't it.[NLINE]
-It's just a regular cooking cook.[END-FE]
+It's just a regular cookbook.[END-FE]
 
 
 
@@ -6520,7 +6520,7 @@ Are you sure you want to stay?[END-FE]
 //それでしたら、それに見合う労働を[NLINE]
 //して頂くということでどうでしょう？[END-FE]
 In that case, how about some[NLINE]
-manual labor in order to pay of[NLINE]
+manual labor in order to pay off[NLINE]
 your debt?[END-FE]
 
 
@@ -6864,7 +6864,7 @@ while, OK?[MUSIC-NOTE][END-FE]
 //POINTER #573 @ $7F94 - STRING #573 @ $EC6E
 #W32($7F94)
 //はい、格好良く描けましたよ！[END-FE]
-Done! A very fine picture If I may[NLINE]
+Done! A very fine picture, if I may[NLINE]
 say so myself.[END-FE]
 
 
@@ -7365,7 +7365,7 @@ while, OK?[MUSIC-NOTE][END-FE]
 //POINTER #614 @ $8038 - STRING #614 @ $F62F
 #W32($8038)
 //はい、格好良く描けましたよ！[END-FE]
-Done! A very fine picture If I may[NLINE]
+Done! A very fine picture, if I may[NLINE]
 say so myself.[END-FE]
 
 
