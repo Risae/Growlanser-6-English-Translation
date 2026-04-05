@@ -162,7 +162,7 @@
 //POINTER #16 @ $1C60 - STRING #16 @ $2746
 #W32($1C60)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -171,7 +171,7 @@
 //POINTER #17 @ $1C64 - STRING #17 @ $2751
 #W32($1C64)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -180,7 +180,7 @@
 //POINTER #18 @ $1C68 - STRING #18 @ $275C
 #W32($1C68)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -189,7 +189,7 @@
 //POINTER #19 @ $1C6C - STRING #19 @ $2767
 #W32($1C6C)
 //・その４[END-FE]
-・その４[END-FE]
+・Option 4[END-FE]
 
 
 
@@ -1091,7 +1091,7 @@
 //POINTER #83 @ $1D6C - STRING #83 @ $3A98
 #W32($1D6C)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -1100,7 +1100,7 @@
 //POINTER #84 @ $1D70 - STRING #84 @ $3AA3
 #W32($1D70)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -1407,7 +1407,7 @@
 //POINTER #103 @ $1DBC - STRING #103 @ $420A
 #W32($1DBC)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -1416,7 +1416,7 @@
 //POINTER #104 @ $1DC0 - STRING #104 @ $4215
 #W32($1DC0)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -1673,7 +1673,7 @@
 //POINTER #117 @ $1DF4 - STRING #117 @ $4879
 #W32($1DF4)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -1682,7 +1682,7 @@
 //POINTER #118 @ $1DF8 - STRING #118 @ $4884
 #W32($1DF8)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -1691,7 +1691,7 @@
 //POINTER #119 @ $1DFC - STRING #119 @ $488F
 #W32($1DFC)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -1700,7 +1700,7 @@
 //POINTER #120 @ $1E00 - STRING #120 @ $489A
 #W32($1E00)
 //・その４[END-FE]
-・その４[END-FE]
+・Option 4[END-FE]
 
 
 
@@ -1969,7 +1969,7 @@
 //POINTER #139 @ $1E4C - STRING #139 @ $4DC8
 #W32($1E4C)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -1978,7 +1978,7 @@
 //POINTER #140 @ $1E50 - STRING #140 @ $4DD3
 #W32($1E50)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -1987,7 +1987,7 @@
 //POINTER #141 @ $1E54 - STRING #141 @ $4DDE
 #W32($1E54)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -1996,7 +1996,7 @@
 //POINTER #142 @ $1E58 - STRING #142 @ $4DE9
 #W32($1E58)
 //・その４[END-FE]
-・その４[END-FE]
+・Option 4[END-FE]
 
 
 
@@ -2005,7 +2005,7 @@
 //POINTER #143 @ $1E5C - STRING #143 @ $4DF4
 #W32($1E5C)
 //・その５[END-FE]
-・その５[END-FE]
+・Option 5[END-FE]
 
 
 
@@ -2014,7 +2014,7 @@
 //POINTER #144 @ $1E60 - STRING #144 @ $4DFF
 #W32($1E60)
 //・その６[END-FE]
-・その６[END-FE]
+・Option 6[END-FE]
 
 
 
@@ -2023,7 +2023,7 @@
 //POINTER #145 @ $1E64 - STRING #145 @ $4E0A
 #W32($1E64)
 //・その７[END-FE]
-・その７[END-FE]
+・Option 7[END-FE]
 
 
 
@@ -3351,7 +3351,7 @@
 //POINTER #243 @ $1FEC - STRING #243 @ $671F
 #W32($1FEC)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -3360,7 +3360,7 @@
 //POINTER #244 @ $1FF0 - STRING #244 @ $672A
 #W32($1FF0)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -3369,7 +3369,7 @@
 //POINTER #245 @ $1FF4 - STRING #245 @ $6735
 #W32($1FF4)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -3378,7 +3378,7 @@
 //POINTER #246 @ $1FF8 - STRING #246 @ $6740
 #W32($1FF8)
 //・その４[END-FE]
-・その４[END-FE]
+・Option 4[END-FE]
 
 
 
@@ -3387,7 +3387,7 @@
 //POINTER #247 @ $1FFC - STRING #247 @ $674B
 #W32($1FFC)
 //・その５[END-FE]
-・その５[END-FE]
+・Option 5[END-FE]
 
 
 
@@ -3396,7 +3396,7 @@
 //POINTER #248 @ $2000 - STRING #248 @ $6756
 #W32($2000)
 //・その６[END-FE]
-・その６[END-FE]
+・Option 6[END-FE]
 
 
 
@@ -4527,7 +4527,7 @@
 //POINTER #323 @ $212C - STRING #323 @ $7F0D
 #W32($212C)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -4536,7 +4536,7 @@
 //POINTER #324 @ $2130 - STRING #324 @ $7F18
 #W32($2130)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -4545,7 +4545,7 @@
 //POINTER #325 @ $2134 - STRING #325 @ $7F23
 #W32($2134)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -4997,7 +4997,7 @@
 //POINTER #357 @ $21B4 - STRING #357 @ $876E
 #W32($21B4)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -5006,7 +5006,7 @@
 //POINTER #358 @ $21B8 - STRING #358 @ $8779
 #W32($21B8)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -5015,7 +5015,7 @@
 //POINTER #359 @ $21BC - STRING #359 @ $8784
 #W32($21BC)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -5024,7 +5024,7 @@
 //POINTER #360 @ $21C0 - STRING #360 @ $878F
 #W32($21C0)
 //・その４[END-FE]
-・その４[END-FE]
+・Option 4[END-FE]
 
 
 
@@ -5033,7 +5033,7 @@
 //POINTER #361 @ $21C4 - STRING #361 @ $879A
 #W32($21C4)
 //・その５[END-FE]
-・その５[END-FE]
+・Option 5[END-FE]
 
 
 
@@ -5042,7 +5042,7 @@
 //POINTER #362 @ $21C8 - STRING #362 @ $87A5
 #W32($21C8)
 //・その６[END-FE]
-・その６[END-FE]
+・Option 6[END-FE]
 
 
 
@@ -5051,7 +5051,7 @@
 //POINTER #363 @ $21CC - STRING #363 @ $87B0
 #W32($21CC)
 //・その７[END-FE]
-・その７[END-FE]
+・Option 7[END-FE]
 
 
 
@@ -5060,7 +5060,7 @@
 //POINTER #364 @ $21D0 - STRING #364 @ $87BB
 #W32($21D0)
 //・その８[END-FE]
-・その８[END-FE]
+・Option 8[END-FE]
 
 
 
@@ -5069,7 +5069,7 @@
 //POINTER #365 @ $21D4 - STRING #365 @ $87C6
 #W32($21D4)
 //・その９[END-FE]
-・その９[END-FE]
+・Option 9[END-FE]
 
 
 
@@ -5078,7 +5078,7 @@
 //POINTER #366 @ $21D8 - STRING #366 @ $87D1
 #W32($21D8)
 //・その１０[END-FE]
-・その１０[END-FE]
+・Option 10[END-FE]
 
 
 
@@ -5087,7 +5087,7 @@
 //POINTER #367 @ $21DC - STRING #367 @ $87DE
 #W32($21DC)
 //・その１１[END-FE]
-・その１１[END-FE]
+・Option 11[END-FE]
 
 
 
@@ -7903,7 +7903,7 @@
 //POINTER #551 @ $24BC - STRING #551 @ $C3B0
 #W32($24BC)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -7912,7 +7912,7 @@
 //POINTER #552 @ $24C0 - STRING #552 @ $C3BB
 #W32($24C0)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
@@ -7921,7 +7921,7 @@
 //POINTER #553 @ $24C4 - STRING #553 @ $C3C6
 #W32($24C4)
 //・その３[END-FE]
-・その３[END-FE]
+・Option 3[END-FE]
 
 
 
@@ -7930,7 +7930,7 @@
 //POINTER #554 @ $24C8 - STRING #554 @ $C3D1
 #W32($24C8)
 //・その４[END-FE]
-・その４[END-FE]
+・Option 4[END-FE]
 
 
 
@@ -7939,7 +7939,7 @@
 //POINTER #555 @ $24CC - STRING #555 @ $C3DC
 #W32($24CC)
 //・その５[END-FE]
-・その５[END-FE]
+・Option 5[END-FE]
 
 
 
@@ -7948,7 +7948,7 @@
 //POINTER #556 @ $24D0 - STRING #556 @ $C3E7
 #W32($24D0)
 //・その６[END-FE]
-・その６[END-FE]
+・Option 6[END-FE]
 
 
 
@@ -7957,7 +7957,7 @@
 //POINTER #557 @ $24D4 - STRING #557 @ $C3F2
 #W32($24D4)
 //・その７[END-FE]
-・その７[END-FE]
+・Option 7[END-FE]
 
 
 
@@ -7966,7 +7966,7 @@
 //POINTER #558 @ $24D8 - STRING #558 @ $C3FD
 #W32($24D8)
 //・その８[END-FE]
-・その８[END-FE]
+・Option 8[END-FE]
 
 
 
@@ -9195,7 +9195,7 @@
 //POINTER #635 @ $260C - STRING #635 @ $DFF2
 #W32($260C)
 //・その１[END-FE]
-・その１[END-FE]
+・Option 1[END-FE]
 
 
 
@@ -9204,7 +9204,7 @@
 //POINTER #636 @ $2610 - STRING #636 @ $DFFD
 #W32($2610)
 //・その２[END-FE]
-・その２[END-FE]
+・Option 2[END-FE]
 
 
 
