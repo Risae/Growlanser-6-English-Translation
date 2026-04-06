@@ -112,8 +112,8 @@ Confidence?[END-FE]
 
 //POINTER #10 @ $C48 - STRING #10 @ $F1E
 #W32($C48)
-//・弱気[END-FE]
-・弱気[END-FE]
+//・Timid[END-FE]
+・Timid[END-FE]
 
 
 
@@ -121,8 +121,8 @@ Confidence?[END-FE]
 
 //POINTER #11 @ $C4C - STRING #11 @ $F27
 #W32($C4C)
-//知能は？[END-FE]
-知能は？[END-FE]
+//Intelligence?[END-FE]
+Intelligence?[END-FE]
 
 
 
@@ -130,8 +130,8 @@ Confidence?[END-FE]
 
 //POINTER #12 @ $C50 - STRING #12 @ $F32
 #W32($C50)
-//・天才[END-FE]
-・天才[END-FE]
+//・Genius[END-FE]
+・Genius[END-FE]
 
 
 
@@ -148,8 +148,8 @@ Confidence?[END-FE]
 
 //POINTER #14 @ $C58 - STRING #14 @ $F44
 #W32($C58)
-//・バカ[END-FE]
-・バカ[END-FE]
+//・Fool[END-FE]
+・Fool[END-FE]
 
 
 
@@ -157,8 +157,8 @@ Confidence?[END-FE]
 
 //POINTER #15 @ $C5C - STRING #15 @ $F4D
 #W32($C5C)
-//優しさは？[END-FE]
-優しさは？[END-FE]
+//Kindness?[END-FE]
+Kindness?[END-FE]
 
 
 
@@ -166,8 +166,8 @@ Confidence?[END-FE]
 
 //POINTER #16 @ $C60 - STRING #16 @ $F5A
 #W32($C60)
-//・優しい[END-FE]
-・優しい[END-FE]
+//・Kind[END-FE]
+・Kind[END-FE]
 
 
 
@@ -184,8 +184,8 @@ Confidence?[END-FE]
 
 //POINTER #18 @ $C68 - STRING #18 @ $F6E
 #W32($C68)
-//・冷たい[END-FE]
-・冷たい[END-FE]
+//・Cold[END-FE]
+・Cold[END-FE]
 
 
 
@@ -193,8 +193,8 @@ Confidence?[END-FE]
 
 //POINTER #19 @ $C6C - STRING #19 @ $F79
 #W32($C6C)
-//素直さは？[END-FE]
-素直さは？[END-FE]
+//Honesty?[END-FE]
+Honesty?[END-FE]
 
 
 
@@ -202,8 +202,8 @@ Confidence?[END-FE]
 
 //POINTER #20 @ $C70 - STRING #20 @ $F86
 #W32($C70)
-//・素直[END-FE]
-・素直[END-FE]
+//・Honest[END-FE]
+・Honest[END-FE]
 
 
 
@@ -220,8 +220,8 @@ Confidence?[END-FE]
 
 //POINTER #22 @ $C78 - STRING #22 @ $F98
 #W32($C78)
-//・天の邪鬼[END-FE]
-・天の邪鬼[END-FE]
+//・Contrary[END-FE]
+・Contrary[END-FE]
 
 
 
@@ -229,8 +229,8 @@ Confidence?[END-FE]
 
 //POINTER #23 @ $C7C - STRING #23 @ $FA5
 #W32($C7C)
-//冷静さは？[END-FE]
-冷静さは？[END-FE]
+//Composure?[END-FE]
+Composure?[END-FE]
 
 
 
@@ -238,8 +238,8 @@ Confidence?[END-FE]
 
 //POINTER #24 @ $C80 - STRING #24 @ $FB2
 #W32($C80)
-//・冷静[END-FE]
-・冷静[END-FE]
+//・Composed[END-FE]
+・Composed[END-FE]
 
 
 
@@ -256,8 +256,8 @@ Confidence?[END-FE]
 
 //POINTER #26 @ $C88 - STRING #26 @ $FC4
 #W32($C88)
-//・直情[END-FE]
-・直情[END-FE]
+//・Impulsive[END-FE]
+・Impulsive[END-FE]
 
 
 
@@ -265,8 +265,8 @@ Confidence?[END-FE]
 
 //POINTER #27 @ $C8C - STRING #27 @ $FCD
 #W32($C8C)
-//行動力は？[END-FE]
-行動力は？[END-FE]
+//Initiative?[END-FE]
+Initiative?[END-FE]
 
 
 
@@ -274,8 +274,8 @@ Confidence?[END-FE]
 
 //POINTER #28 @ $C90 - STRING #28 @ $FDA
 #W32($C90)
-//・積極的[END-FE]
-・積極的[END-FE]
+//・Proactive[END-FE]
+・Proactive[END-FE]
 
 
 
@@ -292,8 +292,8 @@ Confidence?[END-FE]
 
 //POINTER #30 @ $C98 - STRING #30 @ $FEE
 #W32($C98)
-//・消極的[END-FE]
-・消極的[END-FE]
+//・Passive[END-FE]
+・Passive[END-FE]
 
 
 
@@ -301,8 +301,8 @@ Confidence?[END-FE]
 
 //POINTER #31 @ $C9C - STRING #31 @ $FF9
 #W32($C9C)
-//女好きは？[END-FE]
-女好きは？[END-FE]
+//Fondness for women?[END-FE]
+Fondness for women?[END-FE]
 
 
 
@@ -310,8 +310,8 @@ Confidence?[END-FE]
 
 //POINTER #32 @ $CA0 - STRING #32 @ $1006
 #W32($CA0)
-//・女好き[END-FE]
-・女好き[END-FE]
+//・Womanizer[END-FE]
+・Womanizer[END-FE]
 
 
 
@@ -328,8 +328,8 @@ Confidence?[END-FE]
 
 //POINTER #34 @ $CA8 - STRING #34 @ $101A
 #W32($CA8)
-//・女嫌い[END-FE]
-・女嫌い[END-FE]
+//・Woman-hater[END-FE]
+・Woman-hater[END-FE]
 
 
 
@@ -337,8 +337,8 @@ Confidence?[END-FE]
 
 //POINTER #35 @ $CAC - STRING #35 @ $1025
 #W32($CAC)
-//男好きは？[END-FE]
-男好きは？[END-FE]
+//Fondness for men?[END-FE]
+Fondness for men?[END-FE]
 
 
 
@@ -346,8 +346,8 @@ Confidence?[END-FE]
 
 //POINTER #36 @ $CB0 - STRING #36 @ $1032
 #W32($CB0)
-//・男好き[END-FE]
-・男好き[END-FE]
+//・Man-lover[END-FE]
+・Man-lover[END-FE]
 
 
 
@@ -364,8 +364,8 @@ Confidence?[END-FE]
 
 //POINTER #38 @ $CB8 - STRING #38 @ $1046
 #W32($CB8)
-//・男嫌い[END-FE]
-・男嫌い[END-FE]
+//・Man-hater[END-FE]
+・Man-hater[END-FE]
 
 
 
@@ -384,17 +384,17 @@ Confidence?[END-FE]
 //
 //これからの行動には、[NLINE]
 //十分注意した方が良いと思います。[END-FE]
-みなさんから[NLINE]
-『口ばかり達者なくせに、[NLINE]
-動こうとしない人』と[NLINE]
-思われているようです。[NWIN]
+Others see you as someone who is[NLINE]
+all talk and no action,[NLINE]
+refusing to lift a finger,[NLINE]
+it would seem.[NWIN]
 
-あまりこのようなことを続けていると、[NLINE]
-みなさんから愛想を尽かれてしまう[NLINE]
-かもしれません。[NWIN]
+If you continue this way,[NLINE]
+you may end up losing[NLINE]
+everyone's patience.[NWIN]
 
-これからの行動には、[NLINE]
-十分注意した方が良いと思います。[END-FE]
+I advise you to be more[NLINE]
+mindful of your actions going forward.[END-FE]
 
 
 
@@ -414,18 +414,18 @@ Confidence?[END-FE]
 //円滑なチーム活動のためにも、[NLINE]
 //発言には少し気を配られた方が[NLINE]
 //良いと思います。[END-FE]
-優しくされたかと思えば、[NLINE]
-素直ではなくなるなど、[NLINE]
-みなさんを大変混乱させているようです。[NWIN]
+One moment kind, the next contrary—[NLINE]
+your behavior seems to be causing[NLINE]
+quite a bit of confusion for others.[NWIN]
 
-簡潔に申せば『気分屋』という感じでしょうか？[NLINE]
-私としましては、[NLINE]
-もっと勇者様にしっかりとした[NLINE]
-態度を取って頂きたいと思います。[NWIN]
+Simply put, you could be called "moody."[NLINE]
+I would like to ask that you[NLINE]
+take a firmer and more consistent[NLINE]
+stance in your actions, Your Heroship.[NWIN]
 
-円滑なチーム活動のためにも、[NLINE]
-発言には少し気を配られた方が[NLINE]
-良いと思います。[END-FE]
+For the sake of smooth teamwork,[NLINE]
+please be a little more mindful[NLINE]
+of what you say.[END-FE]
 
 
 
@@ -440,13 +440,13 @@ Confidence?[END-FE]
 //勇者様、今のままでは、いつみなさんを[NLINE]
 //危険な目にあわせてしまうとも限りません。[NLINE]
 //今のうちに直しておくべきだと思います。[END-FE]
-弱気で、あまり考えず、先走ってしまう方、[NLINE]
-…と思われているようです。[NLINE]
-たしかに考え無しの行動は危険ですね。[NWIN]
+You seem to be seen as timid,[NLINE]
+impulsive, and acting without thinking.[NLINE]
+Indeed, acting recklessly is dangerous.[NWIN]
 
-勇者様、今のままでは、いつみなさんを[NLINE]
-危険な目にあわせてしまうとも限りません。[NLINE]
-今のうちに直しておくべきだと思います。[END-FE]
+Your Heroship, if things continue as is,[NLINE]
+you may put those around you in danger[NLINE]
+before you know it. Please correct this now.[END-FE]
 
 
 
@@ -466,18 +466,18 @@ Confidence?[END-FE]
 //
 //冷静に対処できるならば、[NLINE]
 //それが一番なのかもしれませんが……。[END-FE]
-弱気なのに、すぐに頭に血が上り、[NLINE]
-それなのに実際には行動しない…。[NLINE]
-口だけで行動がともなわない方と[NLINE]
-みなさんに思われているみたいです。[NWIN]
+Timid yet quick to lose your temper,[NLINE]
+and yet you don't follow through...[NLINE]
+Others seem to think of you[NLINE]
+as all talk with no follow-through.[NWIN]
 
-後先考えず行動して、[NLINE]
-後悔するよりはマシかもしれませんが[NLINE]
-いざと言うときに、[NLINE]
-チャンスを逃してしまいます。[NWIN]
+That may be better than acting[NLINE]
+without thinking and regretting it,[NLINE]
+but when the moment arrives,[NLINE]
+you end up missing your chance.[NWIN]
 
-冷静に対処できるならば、[NLINE]
-それが一番なのかもしれませんが……。[END-FE]
+If you can handle things calmly,[NLINE]
+that may indeed be the best approach...[END-FE]
 
 
 
@@ -491,12 +491,12 @@ Confidence?[END-FE]
 //もっと冷静さを心がけていませんと、[NLINE]
 //思わぬところで失敗することになります。[NLINE]
 //お気をつけください。[END-FE]
-弱気で、すぐ頭に血が上る性格。[NLINE]
-一言で申せば『短気』ということでしょう。[NWIN]
+Timid yet quick to fly into a temper—[NLINE]
+in a word, that would be "hot-tempered."[NWIN]
 
-もっと冷静さを心がけていませんと、[NLINE]
-思わぬところで失敗することになります。[NLINE]
-お気をつけください。[END-FE]
+If you don't make an effort to stay composed,[NLINE]
+you will end up failing in unexpected places.[NLINE]
+Please take care.[END-FE]
 
 
 
@@ -508,10 +508,10 @@ Confidence?[END-FE]
 //人間嫌いなのでしょうか？[NLINE]
 //他人を遠ざけようとするような言動が[NLINE]
 //目立つように思います。[END-FE]
-勇者様は、ひょっとして[NLINE]
-人間嫌いなのでしょうか？[NLINE]
-他人を遠ざけようとするような言動が[NLINE]
-目立つように思います。[END-FE]
+Could it be that Your Heroship[NLINE]
+dislikes being around others?[NLINE]
+Your words and actions seem to push[NLINE]
+people away.[END-FE]
 
 
 
@@ -522,9 +522,9 @@ Confidence?[END-FE]
 //ですが、いざ接する時には優しさを[NLINE]
 //持って対応されているようですので[NLINE]
 //人と接することが苦手なだけのようですね。[END-FE]
-ですが、いざ接する時には優しさを[NLINE]
-持って対応されているようですので[NLINE]
-人と接することが苦手なだけのようですね。[END-FE]
+However, when you do interact with others,[NLINE]
+you seem to do so with kindness,[NLINE]
+so it may be that you are simply shy.[END-FE]
 
 
 
@@ -535,9 +535,9 @@ Confidence?[END-FE]
 //あんまり他人に冷たくしておられますと、[NLINE]
 //みなさんから嫌われてしまいます。[NLINE]
 //気をつけた方が良いかと…。[END-FE]
-あんまり他人に冷たくしておられますと、[NLINE]
-みなさんから嫌われてしまいます。[NLINE]
-気をつけた方が良いかと…。[END-FE]
+If you treat others too coldly,[NLINE]
+everyone will come to dislike you.[NLINE]
+You should be more careful...[END-FE]
 
 
 
@@ -549,10 +549,10 @@ Confidence?[END-FE]
 //相手も不快に感じ、[NLINE]
 //離れようとするでしょう。[NLINE]
 //どうかそこを気に止めておいてください。[END-FE]
-こちらが距離を取って接すれば、[NLINE]
-相手も不快に感じ、[NLINE]
-離れようとするでしょう。[NLINE]
-どうかそこを気に止めておいてください。[END-FE]
+If you keep your distance from others,[NLINE]
+they will feel uncomfortable,[NLINE]
+and will try to distance themselves too.[NLINE]
+Please keep that in mind.[END-FE]
 
 
 
@@ -565,11 +565,11 @@ Confidence?[END-FE]
 //
 //勇者様は人と関わりを持つことが[NLINE]
 //お好きなのですね。[END-FE]
-どの方にもわけ隔てがなく[NLINE]
-接しておられます。[NWIN]
+You treat everyone equally,[NLINE]
+without any distinction.[NWIN]
 
-勇者様は人と関わりを持つことが[NLINE]
-お好きなのですね。[END-FE]
+It seems Your Heroship enjoys[NLINE]
+being involved with others.[END-FE]
 
 
 
@@ -581,10 +581,10 @@ Confidence?[END-FE]
 //なさいますね。[NLINE]
 //意図的であれ、無意識であれ、[NLINE]
 //それは直した方が良いかと思います。[END-FE]
-ですが、まれに人を傷つけることを[NLINE]
-なさいますね。[NLINE]
-意図的であれ、無意識であれ、[NLINE]
-それは直した方が良いかと思います。[END-FE]
+However, there are times you seem to[NLINE]
+hurt others.[NLINE]
+Whether intentional or not,[NLINE]
+I think that is something to work on.[END-FE]
 
 
 
@@ -600,14 +600,14 @@ Confidence?[END-FE]
 //…宜しければ、私にもその優しさを[NLINE]
 //分けてくださいますと…、[NLINE]
 //…その…、嬉しいです…。[END-FE]
-普段の行動から優しさが[NLINE]
-滲み出ておられます。[NLINE]
-優しさは何よりも大切です。[NLINE]
-これからもみなさんに優しくしてください。[NWIN]
+Your kindness shines through[NLINE]
+in your everyday actions.[NLINE]
+Kindness is the most important thing.[NLINE]
+Please continue being kind to everyone.[NWIN]
 
-…宜しければ、私にもその優しさを[NLINE]
-分けてくださいますと…、[NLINE]
-…その…、嬉しいです…。[END-FE]
+...If you would be willing to share[NLINE]
+some of that kindness with me as well...[NLINE]
+...that would make me... very happy...[END-FE]
 
 
 
@@ -618,9 +618,9 @@ Confidence?[END-FE]
 //相手を受け入れて行動することは[NLINE]
 //とてもすばらしいことだと思います！[NLINE]
 //これからもそんな勇者様でいてくださいね。[END-FE]
-相手を受け入れて行動することは[NLINE]
-とてもすばらしいことだと思います！[NLINE]
-これからもそんな勇者様でいてくださいね。[END-FE]
+Being willing to accept others[NLINE]
+and act accordingly is truly wonderful![NLINE]
+Please stay that way, Your Heroship.[END-FE]
 
 
 
@@ -631,9 +631,9 @@ Confidence?[END-FE]
 //みなさんからは、[NLINE]
 //素直な良い方だと思われている[NLINE]
 //みたいです。[END-FE]
-みなさんからは、[NLINE]
-素直な良い方だと思われている[NLINE]
-みたいです。[END-FE]
+It seems that others see you[NLINE]
+as an honest and good-natured[NLINE]
+person.[END-FE]
 
 
 
@@ -644,9 +644,9 @@ Confidence?[END-FE]
 //ちょっと素直ではないようですが、[NLINE]
 //基本的には良い方だと[NLINE]
 //みなさんには思われているようです。[END-FE]
-ちょっと素直ではないようですが、[NLINE]
-基本的には良い方だと[NLINE]
-みなさんには思われているようです。[END-FE]
+You seem a little less than forthright,[NLINE]
+but others seem to think[NLINE]
+you are good at heart.[END-FE]
 
 
 
@@ -657,9 +657,9 @@ Confidence?[END-FE]
 //ですが、少し冷たいところがあるようです。[NLINE]
 //もっとみなさんに優しく接した方が[NLINE]
 //宜しいかと思います。[END-FE]
-ですが、少し冷たいところがあるようです。[NLINE]
-もっとみなさんに優しく接した方が[NLINE]
-宜しいかと思います。[END-FE]
+However, you seem to have a cold side.[NLINE]
+I think it would be better to treat[NLINE]
+others more warmly.[END-FE]
 
 
 
@@ -669,8 +669,8 @@ Confidence?[END-FE]
 #W32($CFC)
 //みなさんへの接し方も優しく、[NLINE]
 //好評だと思われます。[END-FE]
-みなさんへの接し方も優しく、[NLINE]
-好評だと思われます。[END-FE]
+The way you treat others is kind,[NLINE]
+and I believe it is well-received.[END-FE]
 
 
 
@@ -681,9 +681,9 @@ Confidence?[END-FE]
 //冷静で、頭も良く、行動力もある、[NLINE]
 //とてもすばらしい方です。[NLINE]
 //このままみなさんを助けてあげてください！[END-FE]
-冷静で、頭も良く、行動力もある、[NLINE]
-とてもすばらしい方です。[NLINE]
-このままみなさんを助けてあげてください！[END-FE]
+Composed, intelligent, and proactive—[NLINE]
+you are a truly wonderful person.[NLINE]
+Please keep helping everyone just as you are![END-FE]
 
 
 
@@ -695,10 +695,10 @@ Confidence?[END-FE]
 //ですが、行動力が少し足りないみたいです。[NLINE]
 //チャンスを逃してしまうかもしれませんので[NLINE]
 //気をつけた方が良いかもしれません。[END-FE]
-冷静で、頭が良い。[NLINE]
-ですが、行動力が少し足りないみたいです。[NLINE]
-チャンスを逃してしまうかもしれませんので[NLINE]
-気をつけた方が良いかもしれません。[END-FE]
+Composed and intelligent.[NLINE]
+However, your initiative seems a bit lacking.[NLINE]
+You may end up missing opportunities,[NLINE]
+so please be mindful of that.[END-FE]
 
 
 
@@ -710,10 +710,10 @@ Confidence?[END-FE]
 //これでもう少し、行動力があると[NLINE]
 //言うことありませんね。[NLINE]
 //がんばってください。[END-FE]
-冷静で、頭が良い。[NLINE]
-これでもう少し、行動力があると[NLINE]
-言うことありませんね。[NLINE]
-がんばってください。[END-FE]
+Composed and intelligent.[NLINE]
+If you just had a little more initiative,[NLINE]
+there would be nothing more to wish for.[NLINE]
+Please keep it up.[END-FE]
 
 
 
@@ -726,11 +726,11 @@ Confidence?[END-FE]
 //
 //もう少し考えてから動くようにしても[NLINE]
 //良いかもしれません。[END-FE]
-ですが、直感で動いているように[NLINE]
-お見受けします。[NWIN]
+However, it appears you tend to act[NLINE]
+on instinct.[NWIN]
 
-もう少し考えてから動くようにしても[NLINE]
-良いかもしれません。[END-FE]
+It might be good to think things through[NLINE]
+a little more before acting.[END-FE]
 
 
 
@@ -744,12 +744,12 @@ Confidence?[END-FE]
 //かもしれません。[NWIN]
 //
 //もう少し行動的でも良いかもしれませんね。[END-FE]
-気持ちはあるのですが、[NLINE]
-それを行動に移せないのは[NLINE]
-頭の良さがジャマしているから[NLINE]
-かもしれません。[NWIN]
+You have the drive, but[NLINE]
+what keeps you from acting on it[NLINE]
+may be that your intelligence[NLINE]
+is getting in the way.[NWIN]
 
-もう少し行動的でも良いかもしれませんね。[END-FE]
+Perhaps it would be good to be a little more proactive.[END-FE]
 
 
 
@@ -764,13 +764,13 @@ Confidence?[END-FE]
 //
 //もう少しご自分の直感を[NLINE]
 //信じても良いかと思います。[END-FE]
-気持ちはあるのですが、[NLINE]
-すぐに行動に移せないのは[NLINE]
-頭が良すぎて、考えすぎてしまう[NLINE]
-からかもしれません。[NWIN]
+You have the drive, but[NLINE]
+the reason you can't act right away[NLINE]
+may be that you are too intelligent[NLINE]
+and tend to overthink things.[NWIN]
 
-もう少しご自分の直感を[NLINE]
-信じても良いかと思います。[END-FE]
+I think it would be good to trust[NLINE]
+your own instincts a little more.[END-FE]
 
 
 
@@ -783,11 +783,11 @@ Confidence?[END-FE]
 //
 //勇者様は考えないで行動に[NLINE]
 //走る傾向があるようです。[END-FE]
-それからですが、行動するときには[NLINE]
-しっかりと考えた方が良いと思います。[NWIN]
+Furthermore, when taking action,[NLINE]
+I think it is best to think carefully.[NWIN]
 
-勇者様は考えないで行動に[NLINE]
-走る傾向があるようです。[END-FE]
+Your Heroship seems to have a tendency[NLINE]
+to rush into action without thinking.[END-FE]
 
 
 
@@ -800,11 +800,11 @@ Confidence?[END-FE]
 //
 //もっと自分から行動しても[NLINE]
 //良いかもしれません。[END-FE]
-ですが、勇者様は行動力が[NLINE]
-足りていないように見受けられます。[NWIN]
+However, it seems Your Heroship[NLINE]
+is lacking in initiative.[NWIN]
 
-もっと自分から行動しても[NLINE]
-良いかもしれません。[END-FE]
+It might be good to take more[NLINE]
+initiative on your own.[END-FE]
 
 
 
@@ -814,8 +814,8 @@ Confidence?[END-FE]
 #W32($D20)
 //他には、これと言った特徴は[NLINE]
 //みなさんから聞いておりません。[END-FE]
-他には、これと言った特徴は[NLINE]
-みなさんから聞いておりません。[END-FE]
+Other than that, I haven't heard[NLINE]
+anything particularly notable from others.[END-FE]
 
 
 
@@ -826,9 +826,9 @@ Confidence?[END-FE]
 //もしかして勇者様は、[NLINE]
 //悪い方なのでしょうか？[NLINE]
 //みなさんからあまり良い評判を聞きません。[END-FE]
-もしかして勇者様は、[NLINE]
-悪い方なのでしょうか？[NLINE]
-みなさんからあまり良い評判を聞きません。[END-FE]
+Could it be that Your Heroship[NLINE]
+is not a good person?[NLINE]
+I haven't been hearing very good things about you.[END-FE]
 
 
 
@@ -842,12 +842,12 @@ Confidence?[END-FE]
 //
 //もっと節度ある行動を[NLINE]
 //心がけるべきだと思います。[END-FE]
-ですから、いくら優しいことをされても[NLINE]
-裏があると思われて、[NLINE]
-損をなされておられるようです。[NWIN]
+So even if you do kind things,[NLINE]
+others assume there is an ulterior motive,[NLINE]
+and it seems you are losing out because of it.[NWIN]
 
-もっと節度ある行動を[NLINE]
-心がけるべきだと思います。[END-FE]
+I think you should strive to conduct[NLINE]
+yourself with more propriety.[END-FE]
 
 
 
@@ -859,10 +859,10 @@ Confidence?[END-FE]
 //良くないと思います。[NLINE]
 //円滑なチームワークのためにも[NLINE]
 //態度を改めるべきだと思います。[END-FE]
-…他人をいたわらない冷たい態度も[NLINE]
-良くないと思います。[NLINE]
-円滑なチームワークのためにも[NLINE]
-態度を改めるべきだと思います。[END-FE]
+...A cold attitude that shows no regard[NLINE]
+for others is also problematic.[NLINE]
+For the sake of smooth teamwork,[NLINE]
+I think you should change your attitude.[END-FE]
 
 
 
@@ -873,9 +873,9 @@ Confidence?[END-FE]
 //あまり考えない部分は良くないと思います。[NLINE]
 //ワナに自ら飛び込んでしまうことに[NLINE]
 //なるかもしれませんから。[END-FE]
-あまり考えない部分は良くないと思います。[NLINE]
-ワナに自ら飛び込んでしまうことに[NLINE]
-なるかもしれませんから。[END-FE]
+I don't think it is good that you tend[NLINE]
+not to think things through.[NLINE]
+You may end up walking into a trap on your own.[END-FE]
 
 
 
@@ -889,12 +889,12 @@ Confidence?[END-FE]
 //ですからもっとみなさんのことを考えれば、[NLINE]
 //今より良い人間関係を作れるはずです。[NLINE]
 //もう少し、がんばりましょう。[END-FE]
-私は勇者様が、[NLINE]
-とても賢い方だと感じています。[NWIN]
+I feel that Your Heroship is[NLINE]
+a very wise person.[NWIN]
 
-ですからもっとみなさんのことを考えれば、[NLINE]
-今より良い人間関係を作れるはずです。[NLINE]
-もう少し、がんばりましょう。[END-FE]
+So if you just think more about others,[NLINE]
+you should be able to build better relationships.[NLINE]
+Let's try a little harder.[END-FE]
 
 
 
@@ -904,8 +904,8 @@ Confidence?[END-FE]
 #W32($D38)
 //他には、これと言った特徴は[NLINE]
 //みなさんから聞いておりません。[END-FE]
-他には、これと言った特徴は[NLINE]
-みなさんから聞いておりません。[END-FE]
+Other than that, I haven't heard[NLINE]
+anything particularly notable from others.[END-FE]
 
 
 
@@ -915,8 +915,8 @@ Confidence?[END-FE]
 #W32($D3C)
 //良くも悪くも、[NLINE]
 //普通の方だと思われているみたいです。[END-FE]
-良くも悪くも、[NLINE]
-普通の方だと思われているみたいです。[END-FE]
+For better or worse,[NLINE]
+you seem to be seen as an ordinary person.[END-FE]
 
 
 
@@ -924,8 +924,8 @@ Confidence?[END-FE]
 
 //POINTER #72 @ $D40 - STRING #72 @ $211C
 #W32($D40)
-//そして、とても優しい方だと思います。[END-FE]
-そして、とても優しい方だと思います。[END-FE]
+//And I think you are a very kind person.[END-FE]
+And I think you are a very kind person.[END-FE]
 
 
 
@@ -935,8 +935,8 @@ Confidence?[END-FE]
 #W32($D44)
 //ですが、どっちかと言えば、[NLINE]
 //冷たい方のようです。[END-FE]
-ですが、どっちかと言えば、[NLINE]
-冷たい方のようです。[END-FE]
+But if anything,[NLINE]
+you seem to lean toward the cold side.[END-FE]
 
 
 
@@ -947,9 +947,9 @@ Confidence?[END-FE]
 //少し消極的な面があるようです。[NLINE]
 //みなさんから、あまり動かない方と[NLINE]
 //思われているようです。[END-FE]
-少し消極的な面があるようです。[NLINE]
-みなさんから、あまり動かない方と[NLINE]
-思われているようです。[END-FE]
+You seem to have a somewhat passive side.[NLINE]
+Others seem to think of you as someone[NLINE]
+who doesn't take much action.[END-FE]
 
 
 
@@ -959,8 +959,8 @@ Confidence?[END-FE]
 #W32($D4C)
 //積極的なところは[NLINE]
 //みなさん評価しているみたいです。[END-FE]
-積極的なところは[NLINE]
-みなさん評価しているみたいです。[END-FE]
+Others seem to appreciate[NLINE]
+your proactive side.[END-FE]
 
 
 
@@ -972,10 +972,10 @@ Confidence?[END-FE]
 //その点を気をつければ、[NLINE]
 //もっとみなさんからの評価も[NLINE]
 //良くなると思います。[END-FE]
-ですが、少し冷静さが足りないかもしれません。[NLINE]
-その点を気をつければ、[NLINE]
-もっとみなさんからの評価も[NLINE]
-良くなると思います。[END-FE]
+However, you may be a bit lacking in composure.[NLINE]
+If you are mindful of that,[NLINE]
+I think others' impression of you[NLINE]
+will improve further.[END-FE]
 
 
 
@@ -985,8 +985,8 @@ Confidence?[END-FE]
 #W32($D54)
 //とくに軽率という面もありませんし、[NLINE]
 //このまま接すれば良いかと思います。[END-FE]
-とくに軽率という面もありませんし、[NLINE]
-このまま接すれば良いかと思います。[END-FE]
+You don't particularly have a reckless side,[NLINE]
+so I think it's fine to continue as you are.[END-FE]
 
 
 
@@ -997,9 +997,9 @@ Confidence?[END-FE]
 //勇者様は物事をちゃんと[NLINE]
 //考えていないようです。[NLINE]
 //それは直した方が良いと思います。[END-FE]
-勇者様は物事をちゃんと[NLINE]
-考えていないようです。[NLINE]
-それは直した方が良いと思います。[END-FE]
+It seems Your Heroship does not think[NLINE]
+things through properly.[NLINE]
+I believe that is something you should work on.[END-FE]
 
 
 
@@ -1010,9 +1010,9 @@ Confidence?[END-FE]
 //勇者様はとても賢いのですね。[NLINE]
 //私が言う事は何もないようです。[NLINE]
 //そのまま、がんばってください。[END-FE]
-勇者様はとても賢いのですね。[NLINE]
-私が言う事は何もないようです。[NLINE]
-そのまま、がんばってください。[END-FE]
+Your Heroship is very wise, it seems.[NLINE]
+There is nothing I need to say to you.[NLINE]
+Please keep it up as you are.[END-FE]
 
 
 
@@ -1023,9 +1023,9 @@ Confidence?[END-FE]
 //他にはこれと言った特徴はないようです。[NLINE]
 //もう少し自己アピールをしても[NLINE]
 //良いかもしれませんね。[END-FE]
-他にはこれと言った特徴はないようです。[NLINE]
-もう少し自己アピールをしても[NLINE]
-良いかもしれませんね。[END-FE]
+There don't seem to be any other noteworthy traits.[NLINE]
+Perhaps it would be good to be a little[NLINE]
+more expressive about yourself.[END-FE]
 
 
 
@@ -1035,8 +1035,8 @@ Confidence?[END-FE]
 #W32($D64)
 //今のおヌシが持っている香りだと[NLINE]
 //これが出来るぞ？[END-FE]
-今のおヌシが持っている香りだと[NLINE]
-これが出来るぞ？[END-FE]
+With the scent you carry now,[NLINE]
+you can do this, can't you?[END-FE]
 
 
 
@@ -1044,8 +1044,8 @@ Confidence?[END-FE]
 
 //POINTER #82 @ $D68 - STRING #82 @ $240C
 #W32($D68)
-//・善悪の性格変更[END-FE]
-・善悪の性格変更[END-FE]
+//・Change good/evil personality[END-FE]
+・Change good/evil personality[END-FE]
 
 
 
@@ -1053,8 +1053,8 @@ Confidence?[END-FE]
 
 //POINTER #83 @ $D6C - STRING #83 @ $241F
 #W32($D6C)
-//・自信の性格変更[END-FE]
-・自信の性格変更[END-FE]
+//・Change confidence personality[END-FE]
+・Change confidence personality[END-FE]
 
 
 
@@ -1062,8 +1062,8 @@ Confidence?[END-FE]
 
 //POINTER #84 @ $D70 - STRING #84 @ $2432
 #W32($D70)
-//・考え方の性格変更[END-FE]
-・考え方の性格変更[END-FE]
+//・Change intelligence personality[END-FE]
+・Change intelligence personality[END-FE]
 
 
 
@@ -1071,8 +1071,8 @@ Confidence?[END-FE]
 
 //POINTER #85 @ $D74 - STRING #85 @ $2447
 #W32($D74)
-//・優しさの性格変更[END-FE]
-・優しさの性格変更[END-FE]
+//・Change kindness personality[END-FE]
+・Change kindness personality[END-FE]
 
 
 
@@ -1080,8 +1080,8 @@ Confidence?[END-FE]
 
 //POINTER #86 @ $D78 - STRING #86 @ $245C
 #W32($D78)
-//・素直さの性格変更[END-FE]
-・素直さの性格変更[END-FE]
+//・Change honesty personality[END-FE]
+・Change honesty personality[END-FE]
 
 
 
@@ -1089,8 +1089,8 @@ Confidence?[END-FE]
 
 //POINTER #87 @ $D7C - STRING #87 @ $2471
 #W32($D7C)
-//・冷静さの性格変更[END-FE]
-・冷静さの性格変更[END-FE]
+//・Change composure personality[END-FE]
+・Change composure personality[END-FE]
 
 
 
@@ -1098,8 +1098,8 @@ Confidence?[END-FE]
 
 //POINTER #88 @ $D80 - STRING #88 @ $2486
 #W32($D80)
-//・積極性の性格変更[END-FE]
-・積極性の性格変更[END-FE]
+//・Change proactiveness personality[END-FE]
+・Change proactiveness personality[END-FE]
 
 
 
@@ -1107,8 +1107,8 @@ Confidence?[END-FE]
 
 //POINTER #89 @ $D84 - STRING #89 @ $249B
 #W32($D84)
-//・同性に対する性格の変更[END-FE]
-・同性に対する性格の変更[END-FE]
+//・Change same-sex personality[END-FE]
+・Change same-sex personality[END-FE]
 
 
 
@@ -1116,8 +1116,8 @@ Confidence?[END-FE]
 
 //POINTER #90 @ $D88 - STRING #90 @ $24B6
 #W32($D88)
-//・異性に対する性格の変更[END-FE]
-・異性に対する性格の変更[END-FE]
+//・Change opposite-sex personality[END-FE]
+・Change opposite-sex personality[END-FE]
 
 
 
@@ -1134,8 +1134,8 @@ Confidence?[END-FE]
 
 //POINTER #92 @ $D90 - STRING #92 @ $24DC
 #W32($D90)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1143,8 +1143,8 @@ Confidence?[END-FE]
 
 //POINTER #93 @ $D94 - STRING #93 @ $24F3
 #W32($D94)
-//・良い性格にしたい[END-FE]
-・良い性格にしたい[END-FE]
+//・Make it better[END-FE]
+・Make it better[END-FE]
 
 
 
@@ -1152,8 +1152,8 @@ Confidence?[END-FE]
 
 //POINTER #94 @ $D98 - STRING #94 @ $2508
 #W32($D98)
-//・悪い性格にしたい[END-FE]
-・悪い性格にしたい[END-FE]
+//・Make it worse[END-FE]
+・Make it worse[END-FE]
 
 
 
@@ -1170,8 +1170,8 @@ Confidence?[END-FE]
 
 //POINTER #96 @ $DA0 - STRING #96 @ $2528
 #W32($DA0)
-//少し性格が良くなった！[END-FE]
-少し性格が良くなった！[END-FE]
+//Your personality improved a little![END-FE]
+Your personality improved a little![END-FE]
 
 
 
@@ -1179,8 +1179,8 @@ Confidence?[END-FE]
 
 //POINTER #97 @ $DA4 - STRING #97 @ $2541
 #W32($DA4)
-//少し性格が悪くなった！[END-FE]
-少し性格が悪くなった！[END-FE]
+//Your personality worsened a little![END-FE]
+Your personality worsened a little![END-FE]
 
 
 
@@ -1188,8 +1188,8 @@ Confidence?[END-FE]
 
 //POINTER #98 @ $DA8 - STRING #98 @ $255A
 #W32($DA8)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1197,8 +1197,8 @@ Confidence?[END-FE]
 
 //POINTER #99 @ $DAC - STRING #99 @ $2571
 #W32($DAC)
-//・自信を持ちたい[END-FE]
-・自信を持ちたい[END-FE]
+//・Gain more confidence[END-FE]
+・Gain more confidence[END-FE]
 
 
 
@@ -1206,8 +1206,8 @@ Confidence?[END-FE]
 
 //POINTER #100 @ $DB0 - STRING #100 @ $2584
 #W32($DB0)
-//・自信過剰を控えたい[END-FE]
-・自信過剰を控えたい[END-FE]
+//・Tone down overconfidence[END-FE]
+・Tone down overconfidence[END-FE]
 
 
 
@@ -1224,8 +1224,8 @@ Confidence?[END-FE]
 
 //POINTER #102 @ $DB8 - STRING #102 @ $25A6
 #W32($DB8)
-//少し自信が出てきた！[END-FE]
-少し自信が出てきた！[END-FE]
+//Your confidence increased a little![END-FE]
+Your confidence increased a little![END-FE]
 
 
 
@@ -1233,8 +1233,8 @@ Confidence?[END-FE]
 
 //POINTER #103 @ $DBC - STRING #103 @ $25BD
 #W32($DBC)
-//少し謙虚さが出てきた！[END-FE]
-少し謙虚さが出てきた！[END-FE]
+//Your humility increased a little![END-FE]
+Your humility increased a little![END-FE]
 
 
 
@@ -1242,8 +1242,8 @@ Confidence?[END-FE]
 
 //POINTER #104 @ $DC0 - STRING #104 @ $25D6
 #W32($DC0)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1251,8 +1251,8 @@ Confidence?[END-FE]
 
 //POINTER #105 @ $DC4 - STRING #105 @ $25ED
 #W32($DC4)
-//・知的になりたい[END-FE]
-・知的になりたい[END-FE]
+//・Become more intelligent[END-FE]
+・Become more intelligent[END-FE]
 
 
 
@@ -1260,8 +1260,8 @@ Confidence?[END-FE]
 
 //POINTER #106 @ $DC8 - STRING #106 @ $2600
 #W32($DC8)
-//・あふれる知性を抑えたい[END-FE]
-・あふれる知性を抑えたい[END-FE]
+//・Suppress overflowing intelligence[END-FE]
+・Suppress overflowing intelligence[END-FE]
 
 
 
@@ -1278,8 +1278,8 @@ Confidence?[END-FE]
 
 //POINTER #108 @ $DD0 - STRING #108 @ $2626
 #W32($DD0)
-//少し知性が増した！[END-FE]
-少し知性が増した！[END-FE]
+//Your intelligence increased a little![END-FE]
+Your intelligence increased a little![END-FE]
 
 
 
@@ -1287,8 +1287,8 @@ Confidence?[END-FE]
 
 //POINTER #109 @ $DD4 - STRING #109 @ $263B
 #W32($DD4)
-//少し知性が減った！[END-FE]
-少し知性が減った！[END-FE]
+//Your intelligence decreased a little![END-FE]
+Your intelligence decreased a little![END-FE]
 
 
 
@@ -1296,8 +1296,8 @@ Confidence?[END-FE]
 
 //POINTER #110 @ $DD8 - STRING #110 @ $2650
 #W32($DD8)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1305,8 +1305,8 @@ Confidence?[END-FE]
 
 //POINTER #111 @ $DDC - STRING #111 @ $2667
 #W32($DDC)
-//・人に優しくなりたい[END-FE]
-・人に優しくなりたい[END-FE]
+//・Become kinder to others[END-FE]
+・Become kinder to others[END-FE]
 
 
 
@@ -1314,8 +1314,8 @@ Confidence?[END-FE]
 
 //POINTER #112 @ $DE0 - STRING #112 @ $267E
 #W32($DE0)
-//・冷たく振る舞いたい[END-FE]
-・冷たく振る舞いたい[END-FE]
+//・Act colder toward others[END-FE]
+・Act colder toward others[END-FE]
 
 
 
@@ -1332,8 +1332,8 @@ Confidence?[END-FE]
 
 //POINTER #114 @ $DE8 - STRING #114 @ $26A0
 #W32($DE8)
-//少し優しくなった！[END-FE]
-少し優しくなった！[END-FE]
+//You became a little kinder![END-FE]
+You became a little kinder![END-FE]
 
 
 
@@ -1341,8 +1341,8 @@ Confidence?[END-FE]
 
 //POINTER #115 @ $DEC - STRING #115 @ $26B5
 #W32($DEC)
-//少し優しさが減った！[END-FE]
-少し優しさが減った！[END-FE]
+//Your kindness decreased a little![END-FE]
+Your kindness decreased a little![END-FE]
 
 
 
@@ -1350,8 +1350,8 @@ Confidence?[END-FE]
 
 //POINTER #116 @ $DF0 - STRING #116 @ $26CC
 #W32($DF0)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1359,8 +1359,8 @@ Confidence?[END-FE]
 
 //POINTER #117 @ $DF4 - STRING #117 @ $26E3
 #W32($DF4)
-//・素直になりたい[END-FE]
-・素直になりたい[END-FE]
+//・Become more honest[END-FE]
+・Become more honest[END-FE]
 
 
 
@@ -1368,8 +1368,8 @@ Confidence?[END-FE]
 
 //POINTER #118 @ $DF8 - STRING #118 @ $26F6
 #W32($DF8)
-//・裏読みが出来るようになりたい[END-FE]
-・裏読みが出来るようになりたい[END-FE]
+//・Become better at reading between the lines[END-FE]
+・Become better at reading between the lines[END-FE]
 
 
 
@@ -1386,8 +1386,8 @@ Confidence?[END-FE]
 
 //POINTER #120 @ $E00 - STRING #120 @ $2722
 #W32($E00)
-//少し素直になった！[END-FE]
-少し素直になった！[END-FE]
+//You became a little more honest![END-FE]
+You became a little more honest![END-FE]
 
 
 
@@ -1395,8 +1395,8 @@ Confidence?[END-FE]
 
 //POINTER #121 @ $E04 - STRING #121 @ $2737
 #W32($E04)
-//少し素直さが減った！[END-FE]
-少し素直さが減った！[END-FE]
+//Your honesty decreased a little![END-FE]
+Your honesty decreased a little![END-FE]
 
 
 
@@ -1404,8 +1404,8 @@ Confidence?[END-FE]
 
 //POINTER #122 @ $E08 - STRING #122 @ $274E
 #W32($E08)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1413,8 +1413,8 @@ Confidence?[END-FE]
 
 //POINTER #123 @ $E0C - STRING #123 @ $2765
 #W32($E0C)
-//・冷静に構えたい[END-FE]
-・冷静に構えたい[END-FE]
+//・Become more composed[END-FE]
+・Become more composed[END-FE]
 
 
 
@@ -1422,8 +1422,8 @@ Confidence?[END-FE]
 
 //POINTER #124 @ $E10 - STRING #124 @ $2778
 #W32($E10)
-//・感情のまま動けるようになりたい[END-FE]
-・感情のまま動けるようになりたい[END-FE]
+//・Be able to act on your emotions[END-FE]
+・Be able to act on your emotions[END-FE]
 
 
 
@@ -1440,8 +1440,8 @@ Confidence?[END-FE]
 
 //POINTER #126 @ $E18 - STRING #126 @ $27A6
 #W32($E18)
-//少し冷静になった！[END-FE]
-少し冷静になった！[END-FE]
+//You became a little more composed![END-FE]
+You became a little more composed![END-FE]
 
 
 
@@ -1449,8 +1449,8 @@ Confidence?[END-FE]
 
 //POINTER #127 @ $E1C - STRING #127 @ $27BB
 #W32($E1C)
-//少し感情的になった！[END-FE]
-少し感情的になった！[END-FE]
+//You became a little more emotional![END-FE]
+You became a little more emotional![END-FE]
 
 
 
@@ -1458,8 +1458,8 @@ Confidence?[END-FE]
 
 //POINTER #128 @ $E20 - STRING #128 @ $27D2
 #W32($E20)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1467,8 +1467,8 @@ Confidence?[END-FE]
 
 //POINTER #129 @ $E24 - STRING #129 @ $27E9
 #W32($E24)
-//・積極的になりたい[END-FE]
-・積極的になりたい[END-FE]
+//・Become more proactive[END-FE]
+・Become more proactive[END-FE]
 
 
 
@@ -1476,8 +1476,8 @@ Confidence?[END-FE]
 
 //POINTER #130 @ $E28 - STRING #130 @ $27FE
 #W32($E28)
-//・積極性を抑えたい[END-FE]
-・積極性を抑えたい[END-FE]
+//・Suppress your proactiveness[END-FE]
+・Suppress your proactiveness[END-FE]
 
 
 
@@ -1494,8 +1494,8 @@ Confidence?[END-FE]
 
 //POINTER #132 @ $E30 - STRING #132 @ $281E
 #W32($E30)
-//少し積極的になった！[END-FE]
-少し積極的になった！[END-FE]
+//You became a little more proactive![END-FE]
+You became a little more proactive![END-FE]
 
 
 
@@ -1503,8 +1503,8 @@ Confidence?[END-FE]
 
 //POINTER #133 @ $E34 - STRING #133 @ $2835
 #W32($E34)
-//少し消極的になった！[END-FE]
-少し消極的になった！[END-FE]
+//You became a little more passive![END-FE]
+You became a little more passive![END-FE]
 
 
 
@@ -1512,8 +1512,8 @@ Confidence?[END-FE]
 
 //POINTER #134 @ $E38 - STRING #134 @ $284C
 #W32($E38)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1521,8 +1521,8 @@ Confidence?[END-FE]
 
 //POINTER #135 @ $E3C - STRING #135 @ $2863
 #W32($E3C)
-//・同性に興味を持ちたい[END-FE]
-・同性に興味を持ちたい[END-FE]
+//・Take more interest in the same sex[END-FE]
+・Take more interest in the same sex[END-FE]
 
 
 
@@ -1530,8 +1530,8 @@ Confidence?[END-FE]
 
 //POINTER #136 @ $E40 - STRING #136 @ $287C
 #W32($E40)
-//・同性を嫌いたい[END-FE]
-・同性を嫌いたい[END-FE]
+//・Dislike the same sex[END-FE]
+・Dislike the same sex[END-FE]
 
 
 
@@ -1548,8 +1548,8 @@ Confidence?[END-FE]
 
 //POINTER #138 @ $E48 - STRING #138 @ $289A
 #W32($E48)
-//少し同性に優しくなった！[END-FE]
-少し同性に優しくなった！[END-FE]
+//You became a little kinder to the same sex![END-FE]
+You became a little kinder to the same sex![END-FE]
 
 
 
@@ -1557,8 +1557,8 @@ Confidence?[END-FE]
 
 //POINTER #139 @ $E4C - STRING #139 @ $28B5
 #W32($E4C)
-//少し同性に冷たくなった！[END-FE]
-少し同性に冷たくなった！[END-FE]
+//You became a little colder to the same sex![END-FE]
+You became a little colder to the same sex![END-FE]
 
 
 
@@ -1566,8 +1566,8 @@ Confidence?[END-FE]
 
 //POINTER #140 @ $E50 - STRING #140 @ $28D0
 #W32($E50)
-//どう変えたいのかな？[END-FE]
-どう変えたいのかな？[END-FE]
+//How would you like to change?[END-FE]
+How would you like to change?[END-FE]
 
 
 
@@ -1575,8 +1575,8 @@ Confidence?[END-FE]
 
 //POINTER #141 @ $E54 - STRING #141 @ $28E7
 #W32($E54)
-//・異性に興味を持ちたい[END-FE]
-・異性に興味を持ちたい[END-FE]
+//・Take more interest in the opposite sex[END-FE]
+・Take more interest in the opposite sex[END-FE]
 
 
 
@@ -1584,8 +1584,8 @@ Confidence?[END-FE]
 
 //POINTER #142 @ $E58 - STRING #142 @ $2900
 #W32($E58)
-//・異性を嫌いたい[END-FE]
-・異性を嫌いたい[END-FE]
+//・Dislike the opposite sex[END-FE]
+・Dislike the opposite sex[END-FE]
 
 
 
@@ -1602,8 +1602,8 @@ Confidence?[END-FE]
 
 //POINTER #144 @ $E60 - STRING #144 @ $291E
 #W32($E60)
-//少し異性に優しくなった！[END-FE]
-少し異性に優しくなった！[END-FE]
+//You became a little kinder to the opposite sex![END-FE]
+You became a little kinder to the opposite sex![END-FE]
 
 
 
@@ -1611,8 +1611,8 @@ Confidence?[END-FE]
 
 //POINTER #145 @ $E64 - STRING #145 @ $2939
 #W32($E64)
-//少し異性に冷たくなった！[END-FE]
-少し異性に冷たくなった！[END-FE]
+//You became a little colder to the opposite sex![END-FE]
+You became a little colder to the opposite sex![END-FE]
 
 
 
@@ -1620,8 +1620,8 @@ Confidence?[END-FE]
 
 //POINTER #146 @ $E68 - STRING #146 @ $2954
 #W32($E68)
-//まだ続けるかい？[END-FE]
-まだ続けるかい？[END-FE]
+//Would you like to continue?[END-FE]
+Would you like to continue?[END-FE]
 
 
 
@@ -1629,8 +1629,8 @@ Confidence?[END-FE]
 
 //POINTER #147 @ $E6C - STRING #147 @ $2967
 #W32($E6C)
-//・続ける[END-FE]
-・続ける[END-FE]
+//・Continue[END-FE]
+・Continue[END-FE]
 
 
 
@@ -1638,8 +1638,8 @@ Confidence?[END-FE]
 
 //POINTER #148 @ $E70 - STRING #148 @ $2972
 #W32($E70)
-//・もうやめる[END-FE]
-・もうやめる[END-FE]
+//・Stop[END-FE]
+・Stop[END-FE]
 
 
 
@@ -1647,8 +1647,8 @@ Confidence?[END-FE]
 
 //POINTER #149 @ $E74 - STRING #149 @ $2981
 #W32($E74)
-//また用があったらおいで。[END-FE]
-また用があったらおいで。[END-FE]
+//Come back if you need anything else.[END-FE]
+Come back if you need anything else.[END-FE]
 
 
 
