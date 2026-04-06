@@ -29,9 +29,9 @@
 //いやぁ、平和維持軍の本部は[NLINE]
 //周囲の町や村から遠いねぇ。[NLINE]
 //ここまで来るだけで、クタクタだよ。[END-FE]
-いやぁ、平和維持軍の本部は[NLINE]
-周囲の町や村から遠いねぇ。[NLINE]
-ここまで来るだけで、クタクタだよ。[END-FE]
+Man, the Peacekeeping Forces' HQ is[NLINE]
+far from the surrounding towns and villages.[NLINE]
+Just getting here wore me out.[END-FE]
 
 
 
@@ -47,14 +47,14 @@
 //
 //人助けだと思って、護衛してくれないか？[NLINE]
 //もちろんお礼はするよ。[END-FE]
-おお、あんた、ヒマじゃないか？[NWIN]
+Hey, you got a minute?[NWIN]
 
-実は、リオレーまで荷物を運びたいんだがな。[NLINE]
-護衛をしてくれる兵士さんが[NLINE]
-見つからないんだよ。[NWIN]
+Truth is, I want to transport goods to Rioray,[NLINE]
+but I can't find any soldiers[NLINE]
+to escort me.[NWIN]
 
-人助けだと思って、護衛してくれないか？[NLINE]
-もちろんお礼はするよ。[END-FE]
+Think of it as helping someone out—[NLINE]
+will you escort me? I'll pay, of course.[END-FE]
 
 
 
@@ -64,8 +64,8 @@
 #W32($AAC)
 //おお、それは助かるよ。[NLINE]
 //じゃあ、外で落ち合おう。[END-FE]
-おお、それは助かるよ。[NLINE]
-じゃあ、外で落ち合おう。[END-FE]
+Great, that's a big help![NLINE]
+Let's meet outside, then.[END-FE]
 
 
 
@@ -76,9 +76,9 @@
 //そうか、そりゃ残念だ。[NLINE]
 //頼りになりそうな兄ちゃんだと[NLINE]
 //思ったんだがな。[END-FE]
-そうか、そりゃ残念だ。[NLINE]
-頼りになりそうな兄ちゃんだと[NLINE]
-思ったんだがな。[END-FE]
+I see, that's a shame.[NLINE]
+I thought you looked like[NLINE]
+someone I could count on.[END-FE]
 
 
 
@@ -90,10 +90,10 @@
 //
 //またリオレーまで護衛を頼みたいんだがな。[NLINE]
 //引き受けてくれないか？[END-FE]
-ああ、あんたか、ちょうどいいところに。[NWIN]
+Oh, just the person I wanted to see.[NWIN]
 
-またリオレーまで護衛を頼みたいんだがな。[NLINE]
-引き受けてくれないか？[END-FE]
+I need an escort to Rioray again.[NLINE]
+Would you take the job?[END-FE]
 
 
 
@@ -103,8 +103,8 @@
 #W32($AB8)
 //おお、それは助かるよ。[NLINE]
 //じゃあ、外で落ち合おう。[END-FE]
-おお、それは助かるよ。[NLINE]
-じゃあ、外で落ち合おう。[END-FE]
+Great, that's a big help![NLINE]
+Let's meet outside, then.[END-FE]
 
 
 
@@ -114,8 +114,8 @@
 #W32($ABC)
 //そうか、そりゃ残念だ。[NLINE]
 //あんたなら頼りになると思ったんだがな。[END-FE]
-そうか、そりゃ残念だ。[NLINE]
-あんたなら頼りになると思ったんだがな。[END-FE]
+I see, that's a shame.[NLINE]
+I thought I could count on you.[END-FE]
 
 
 
@@ -128,11 +128,11 @@
 //キャリィ１：[CC.EF17][NLINE]
 //キャリィ２：[CC.EF18][NLINE]
 //キャリィ３：[CC.EF19][END-FE]
-退却時[NLINE]
-行商人２　：[CC.EF16][NLINE]
-キャリィ１：[CC.EF17][NLINE]
-キャリィ２：[CC.EF18][NLINE]
-キャリィ３：[CC.EF19][END-FE]
+On Retreat[NLINE]
+Merchant 2　：[CC.EF16][NLINE]
+Carri 1：[CC.EF17][NLINE]
+Carri 2：[CC.EF18][NLINE]
+Carri 3：[CC.EF19][END-FE]
 
 
 
@@ -145,11 +145,11 @@
 //キャリィ１：[CC.EF17][NLINE]
 //キャリィ２：[CC.EF18][NLINE]
 //キャリィ３：[CC.EF19][END-FE]
-配置時[NLINE]
-行商人２　：[CC.EF16][NLINE]
-キャリィ１：[CC.EF17][NLINE]
-キャリィ２：[CC.EF18][NLINE]
-キャリィ３：[CC.EF19][END-FE]
+On Placement[NLINE]
+Merchant 2　：[CC.EF16][NLINE]
+Carri 1：[CC.EF17][NLINE]
+Carri 2：[CC.EF18][NLINE]
+Carri 3：[CC.EF19][END-FE]
 
 
 
@@ -159,8 +159,8 @@
 #W32($AC8)
 //ちょ、ちょっと！[NLINE]
 //しっかり護衛してくれよ！[END-FE]
-ちょ、ちょっと！[NLINE]
-しっかり護衛してくれよ！[END-FE]
+H-hey![NLINE]
+Give me a proper escort![END-FE]
 
 
 
@@ -168,8 +168,8 @@
 
 //POINTER #11 @ $ACC - STRING #11 @ $E81
 #W32($ACC)
-//あわわ、キャリィが……！[END-FE]
-あわわ、キャリィが……！[END-FE]
+//Oh no, the Carri...![END-FE]
+Oh no, the Carri...![END-FE]
 
 
 
@@ -185,14 +185,14 @@
 //
 //キャリィは向こうで手配する。[NLINE]
 //……とほほ。[END-FE]
-な、なんてこった！[NLINE]
-キャリィが全滅しちまった！[NWIN]
+W-what in the world![NLINE]
+All the Carri are gone![NWIN]
 
-……せ、せめて俺だけでも[NLINE]
-リオレーへ連れていってくれ。[NWIN]
+...P-please, at least[NLINE]
+get me to Rioray.[NWIN]
 
-キャリィは向こうで手配する。[NLINE]
-……とほほ。[END-FE]
+I'll arrange more Carri there.[NLINE]
+...What a mess.[END-FE]
 
 
 
@@ -200,8 +200,8 @@
 
 //POINTER #13 @ $AD4 - STRING #13 @ $F31
 #W32($AD4)
-//よし、行くぜ！[END-FE]
-よし、行くぜ！[END-FE]
+//All right, let's move![END-FE]
+All right, let's move![END-FE]
 
 
 
@@ -209,8 +209,8 @@
 
 //POINTER #14 @ $AD8 - STRING #14 @ $F42
 #W32($AD8)
-//行くぞ。[END-FE]
-行くぞ。[END-FE]
+//Let's go.[END-FE]
+Let's go.[END-FE]
 
 
 
@@ -220,8 +220,8 @@
 #W32($ADC)
 //残ったキャリィ、[NLINE]
 //しっかり守ってくれよ……。[END-FE]
-残ったキャリィ、[NLINE]
-しっかり守ってくれよ……。[END-FE]
+The remaining Carri—[NLINE]
+please guard them well......[END-FE]
 
 
 
@@ -229,8 +229,8 @@
 
 //POINTER #16 @ $AE0 - STRING #16 @ $F7C
 #W32($AE0)
-//……行くか。[END-FE]
-……行くか。[END-FE]
+//...Let's move.[END-FE]
+...Let's move.[END-FE]
 
 
 
@@ -238,8 +238,8 @@
 
 //POINTER #17 @ $AE4 - STRING #17 @ $F8B
 #W32($AE4)
-//おいおい、リオレー村はそっちじゃないぜ！[END-FE]
-おいおい、リオレー村はそっちじゃないぜ！[END-FE]
+//Hey, Rioray Village isn't that way![END-FE]
+Hey, Rioray Village isn't that way![END-FE]
 
 
 
@@ -249,8 +249,8 @@
 #W32($AE8)
 //こらー！[NLINE]
 //勝手にどこ行くのよ！[END-FE]
-こらー！[NLINE]
-勝手にどこ行くのよ！[END-FE]
+Hey![NLINE]
+Where do you think you're going?![END-FE]
 
 
 
@@ -258,8 +258,8 @@
 
 //POINTER #19 @ $AEC - STRING #19 @ $FD7
 #W32($AEC)
-//おいおい、戻っちまうのかよ！[END-FE]
-おいおい、戻っちまうのかよ！[END-FE]
+//Hey, you're heading back?![END-FE]
+Hey, you're heading back?![END-FE]
 
 
 
@@ -269,8 +269,8 @@
 #W32($AF0)
 //こらー！[NLINE]
 //勝手に戻っちゃダメでしょ～！[END-FE]
-こらー！[NLINE]
-勝手に戻っちゃダメでしょ～！[END-FE]
+Hey![NLINE]
+You can't just turn back on your own![END-FE]
 
 
 
@@ -283,11 +283,11 @@
 //ありがとよ！[NWIN]
 //
 //礼は宿で渡すぜ、忘れずに来てくれよ。[END-FE]
-到着だな。[NLINE]
-キャリィも無事で何よりだ、[NLINE]
-ありがとよ！[NWIN]
+We made it![NLINE]
+And all the Carri are safe—[NLINE]
+thank you![NWIN]
 
-礼は宿で渡すぜ、忘れずに来てくれよ。[END-FE]
+I'll have your reward at the inn, so don't forget to stop by.[END-FE]
 
 
 
@@ -300,11 +300,11 @@
 //２羽残っただけでも恩の字だ。[NWIN]
 //
 //礼は宿で渡すぜ、忘れずに来てくれよ。[END-FE]
-やっと着いたな。[NLINE]
-やられちまったキャリィもいるが、[NLINE]
-２羽残っただけでも恩の字だ。[NWIN]
+We finally made it.[NLINE]
+Some Carri didn't make it, but[NLINE]
+having 2 left is something to be grateful for.[NWIN]
 
-礼は宿で渡すぜ、忘れずに来てくれよ。[END-FE]
+I'll have your reward at the inn, so don't forget to stop by.[END-FE]
 
 
 
@@ -319,13 +319,13 @@
 //俺の命もなかったかもな。[NWIN]
 //
 //礼がしたいから、後で宿まで来てくれよ。[END-FE]
-なんとか到着か……。[NWIN]
+We barely made it......[NWIN]
 
-キャリィは１羽になっちまったが、[NLINE]
-あんたたちがいなけりゃ[NLINE]
-俺の命もなかったかもな。[NWIN]
+There's only 1 Carri left,[NLINE]
+but without you all,[NLINE]
+I might not have made it myself.[NWIN]
 
-礼がしたいから、後で宿まで来てくれよ。[END-FE]
+I'd like to repay you, so come by the inn later.[END-FE]
 
 
 
@@ -341,14 +341,14 @@
 //まあ、手持ちの中から礼はするよ。[NLINE]
 //早く休みたいから、[NLINE]
 //すまないが宿まで取りに来てくれ……。[END-FE]
-はぁ……。[NWIN]
+Phew......[NWIN]
 
-生きた心地がしなかったぜ……。[NLINE]
-キャリィも全滅しちまうしな……。[NWIN]
+I didn't feel like I was going to make it......[NLINE]
+And all the Carri are gone too......[NWIN]
 
-まあ、手持ちの中から礼はするよ。[NLINE]
-早く休みたいから、[NLINE]
-すまないが宿まで取りに来てくれ……。[END-FE]
+I'll pay you from what I have on me.[NLINE]
+I want to rest as soon as possible,[NLINE]
+so sorry, but please come to the inn to collect......[END-FE]
 
 
 
@@ -358,8 +358,8 @@
 #W32($B04)
 //あんたらのおかげで、[NLINE]
 //帰りもたっぷり荷を積んで帰れそうだ。[END-FE]
-あんたらのおかげで、[NLINE]
-帰りもたっぷり荷を積んで帰れそうだ。[END-FE]
+Thanks to you,[NLINE]
+I should be able to head back with a full load.[END-FE]
 
 
 
@@ -369,8 +369,8 @@
 #W32($B08)
 //やられちまったキャリィも[NLINE]
 //なんとか補充できそうだ。[END-FE]
-やられちまったキャリィも[NLINE]
-なんとか補充できそうだ。[END-FE]
+I should be able to[NLINE]
+replace the Carri I lost.[END-FE]
 
 
 
@@ -381,9 +381,9 @@
 //はぁ……、出費が……。[NWIN]
 //
 //ま、一文なしからが腕の見せ所だわな。[END-FE]
-はぁ……、出費が……。[NWIN]
+Ugh...... the expenses......[NWIN]
 
-ま、一文なしからが腕の見せ所だわな。[END-FE]
+Well, they say rock bottom is where real talent shows.[END-FE]
 
 
 
@@ -395,10 +395,10 @@
 //そいつで維持軍へ帰ってくれよ。[NWIN]
 //
 //またよろしくな。[END-FE]
-帰りのキャリィは俺が手配するから、[NLINE]
-そいつで維持軍へ帰ってくれよ。[NWIN]
+I'll arrange Carri for your return trip,[NLINE]
+so use them to get back to the Forces.[NWIN]
 
-またよろしくな。[END-FE]
+Thanks again.[END-FE]
 
 
 
@@ -406,8 +406,8 @@
 
 //POINTER #29 @ $B14 - STRING #29 @ $133B
 #W32($B14)
-//１番はキャリィ１[END-FE]
-１番はキャリィ１[END-FE]
+//#1 is Carri 1[END-FE]
+#1 is Carri 1[END-FE]
 
 
 
@@ -415,8 +415,8 @@
 
 //POINTER #30 @ $B18 - STRING #30 @ $134E
 #W32($B18)
-//１番はキャリィ２[END-FE]
-１番はキャリィ２[END-FE]
+//#1 is Carri 2[END-FE]
+#1 is Carri 2[END-FE]
 
 
 
@@ -424,8 +424,8 @@
 
 //POINTER #31 @ $B1C - STRING #31 @ $1361
 #W32($B1C)
-//１番はキャリィ３[END-FE]
-１番はキャリィ３[END-FE]
+//#1 is Carri 3[END-FE]
+#1 is Carri 3[END-FE]
 
 
 
@@ -433,8 +433,8 @@
 
 //POINTER #32 @ $B20 - STRING #32 @ $1374
 #W32($B20)
-//２番はキャリィ１[END-FE]
-２番はキャリィ１[END-FE]
+//#2 is Carri 1[END-FE]
+#2 is Carri 1[END-FE]
 
 
 
@@ -442,8 +442,8 @@
 
 //POINTER #33 @ $B24 - STRING #33 @ $1387
 #W32($B24)
-//２番はキャリィ２[END-FE]
-２番はキャリィ２[END-FE]
+//#2 is Carri 2[END-FE]
+#2 is Carri 2[END-FE]
 
 
 
@@ -451,8 +451,8 @@
 
 //POINTER #34 @ $B28 - STRING #34 @ $139A
 #W32($B28)
-//２番はキャリィ３[END-FE]
-２番はキャリィ３[END-FE]
+//#2 is Carri 3[END-FE]
+#2 is Carri 3[END-FE]
 
 
 
@@ -460,8 +460,8 @@
 
 //POINTER #35 @ $B2C - STRING #35 @ $13AD
 #W32($B2C)
-//３番はキャリィ１[END-FE]
-３番はキャリィ１[END-FE]
+//#3 is Carri 1[END-FE]
+#3 is Carri 1[END-FE]
 
 
 
@@ -469,8 +469,8 @@
 
 //POINTER #36 @ $B30 - STRING #36 @ $13C0
 #W32($B30)
-//３番はキャリィ２[END-FE]
-３番はキャリィ２[END-FE]
+//#3 is Carri 2[END-FE]
+#3 is Carri 2[END-FE]
 
 
 
@@ -478,8 +478,8 @@
 
 //POINTER #37 @ $B34 - STRING #37 @ $13D3
 #W32($B34)
-//３番はキャリィ３[END-FE]
-３番はキャリィ３[END-FE]
+//#3 is Carri 3[END-FE]
+#3 is Carri 3[END-FE]
 
 
 

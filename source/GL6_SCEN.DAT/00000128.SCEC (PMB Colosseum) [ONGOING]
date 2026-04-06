@@ -49,7 +49,7 @@ Come try your skills when it starts![END-FE]
 //闘技場へようこそ！[NLINE]
 //どのコースに[NLINE]
 //参加されますか？[END-FE]
-闘技場へようこそ！[NLINE]
+Welcome to the arena![NLINE]
 Which event would you[NLINE]
 like to try?[END-FE]
 
@@ -59,7 +59,7 @@ like to try?[END-FE]
 
 //POINTER #4 @ $2330 - STRING #4 @ $2838
 #W32($2330)
-//・ダメージ競争[END-FE]
+//・Damage Contest[END-FE]
 ・Hard Hitter[END-FE]
 
 
@@ -68,8 +68,8 @@ like to try?[END-FE]
 
 //POINTER #5 @ $2334 - STRING #5 @ $2849
 #W32($2334)
-//・勝ち抜きクラス[END-FE]
-・勝ち抜きクラス[END-FE]
+//・Knockout Class[END-FE]
+・Knockout Class[END-FE]
 
 
 
@@ -77,8 +77,8 @@ like to try?[END-FE]
 
 //POINTER #6 @ $2338 - STRING #6 @ $285C
 #W32($2338)
-//・タッグバトル[END-FE]
-・タッグバトル[END-FE]
+//・Tag Battle[END-FE]
+・Tag Battle[END-FE]
 
 
 
@@ -86,7 +86,7 @@ like to try?[END-FE]
 
 //POINTER #7 @ $233C - STRING #7 @ $286D
 #W32($233C)
-//・エキシビジョンマッチ[END-FE]
+//・Exhibition Match[END-FE]
 ・Exhibition Match[END-FE]
 
 
@@ -95,7 +95,7 @@ like to try?[END-FE]
 
 //POINTER #8 @ $2340 - STRING #8 @ $2886
 #W32($2340)
-//・スレイヤー認定試験[END-FE]
+//・Slayer Certification[END-FE]
 ・Slayer Certification Exam[END-FE]
 
 
@@ -122,8 +122,8 @@ like to try?[END-FE]
 
 //POINTER #11 @ $234C - STRING #11 @ $28D9
 #W32($234C)
-//・称号変更[END-FE]
-・称号変更[END-FE]
+//・Change Title[END-FE]
+・Change Title[END-FE]
 
 
 
@@ -131,8 +131,8 @@ like to try?[END-FE]
 
 //POINTER #12 @ $2350 - STRING #12 @ $28E6
 #W32($2350)
-//・ルール説明[END-FE]
-・ルール説明[END-FE]
+//・Rules[END-FE]
+・Rules[END-FE]
 
 
 
@@ -170,8 +170,8 @@ like to challenge?[END-FE]
 
 //POINTER #16 @ $2360 - STRING #16 @ $2950
 #W32($2360)
-//・総合ダメージ競争[END-FE]
-・総合ダメージ競争[END-FE]
+//・Overall Damage Contest[END-FE]
+・Overall Damage Contest[END-FE]
 
 
 
@@ -211,12 +211,12 @@ Is that all right?[END-FE]
 //
 //届きましたら、[NLINE]
 //挑戦してみてください。[END-FE]
-申し訳ありません。[NLINE]
-この競技のために用意するはずのゴーレムが[NLINE]
-まだ届いておりません。[NWIN]
+My apologies.[NLINE]
+The golem we prepared for this event[NLINE]
+has yet to arrive.[NWIN]
 
-届きましたら、[NLINE]
-挑戦してみてください。[END-FE]
+Please come back and[NLINE]
+challenge it once it arrives.[END-FE]
 
 
 
@@ -227,9 +227,9 @@ Is that all right?[END-FE]
 //総合ダメージ競争ですね。[NLINE]
 //登録料が６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-総合ダメージ競争ですね。[NLINE]
-登録料が６０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Overall Damage Contest? The entry fee[NLINE]
+for that is 6000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -239,8 +239,8 @@ Is that all right?[END-FE]
 #W32($2374)
 //勝ち抜きクラスですね。[NLINE]
 //どれに挑戦なさいますか？[END-FE]
-勝ち抜きクラスですね。[NLINE]
-どれに挑戦なさいますか？[END-FE]
+Knockout Class?[NLINE]
+Which one would you like to try?[END-FE]
 
 
 
@@ -338,8 +338,8 @@ Is that all right?[END-FE]
 #W32($2398)
 //タッグバトルですね。[NLINE]
 //どのチームと戦いますか？[END-FE]
-タッグバトルですね。[NLINE]
-どのチームと戦いますか？[END-FE]
+Tag Battle?[NLINE]
+Which team do you want to fight?[END-FE]
 
 
 
@@ -347,8 +347,8 @@ Is that all right?[END-FE]
 
 //POINTER #31 @ $239C - STRING #31 @ $2CC9
 #W32($239C)
-//・バクターチーム[END-FE]
-・バクターチーム[END-FE]
+//・Bacter Team[END-FE]
+・Bacter Team[END-FE]
 
 
 
@@ -356,8 +356,8 @@ Is that all right?[END-FE]
 
 //POINTER #32 @ $23A0 - STRING #32 @ $2CDC
 #W32($23A0)
-//・エスグレンツチーム[END-FE]
-・エスグレンツチーム[END-FE]
+//・Esgrentz Team[END-FE]
+・Esgrentz Team[END-FE]
 
 
 
@@ -365,8 +365,8 @@ Is that all right?[END-FE]
 
 //POINTER #33 @ $23A4 - STRING #33 @ $2CF3
 #W32($23A4)
-//・シリルティアチーム[END-FE]
-・シリルティアチーム[END-FE]
+//・Siriltia Team[END-FE]
+・Siriltia Team[END-FE]
 
 
 
@@ -374,8 +374,8 @@ Is that all right?[END-FE]
 
 //POINTER #34 @ $23A8 - STRING #34 @ $2D0A
 #W32($23A8)
-//・維持軍チーム[END-FE]
-・維持軍チーム[END-FE]
+//・Forces Team[END-FE]
+・Forces Team[END-FE]
 
 
 
@@ -383,8 +383,8 @@ Is that all right?[END-FE]
 
 //POINTER #35 @ $23AC - STRING #35 @ $2D1B
 #W32($23AC)
-//・スレイヤーチーム[END-FE]
-・スレイヤーチーム[END-FE]
+//・Slayer Team[END-FE]
+・Slayer Team[END-FE]
 
 
 
@@ -392,8 +392,8 @@ Is that all right?[END-FE]
 
 //POINTER #36 @ $23B0 - STRING #36 @ $2D30
 #W32($23B0)
-//・リーダーチーム[END-FE]
-・リーダーチーム[END-FE]
+//・Leader Team[END-FE]
+・Leader Team[END-FE]
 
 
 
@@ -401,8 +401,8 @@ Is that all right?[END-FE]
 
 //POINTER #37 @ $23B4 - STRING #37 @ $2D43
 #W32($23B4)
-//・ハンターチーム[END-FE]
-・ハンターチーム[END-FE]
+//・Hunter Team[END-FE]
+・Hunter Team[END-FE]
 
 
 
@@ -410,8 +410,8 @@ Is that all right?[END-FE]
 
 //POINTER #38 @ $23B8 - STRING #38 @ $2D56
 #W32($23B8)
-//・総帥チーム[END-FE]
-・総帥チーム[END-FE]
+//・Commander Team[END-FE]
+・Commander Team[END-FE]
 
 
 
@@ -419,8 +419,8 @@ Is that all right?[END-FE]
 
 //POINTER #39 @ $23BC - STRING #39 @ $2D65
 #W32($23BC)
-//・スクリーパーチーム[END-FE]
-・スクリーパーチーム[END-FE]
+//・Screeper Team[END-FE]
+・Screeper Team[END-FE]
 
 
 
@@ -431,9 +431,9 @@ Is that all right?[END-FE]
 //バクターチームとの対戦ですね。[NLINE]
 //登録料が４０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-バクターチームとの対戦ですね。[NLINE]
-登録料が４０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Bacter Team? The entry fee[NLINE]
+for that is 4000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -489,9 +489,9 @@ Who will you team up with?[END-FE]
 //エスグレンツチームとの対戦ですね。[NLINE]
 //登録料が６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-エスグレンツチームとの対戦ですね。[NLINE]
-登録料が６０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Esgrentz Team? The entry fee[NLINE]
+for that is 6000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -547,9 +547,9 @@ Who will you team up with?[END-FE]
 //シリルティアチームとの対戦ですね。[NLINE]
 //登録料が８０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-シリルティアチームとの対戦ですね。[NLINE]
-登録料が８０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Siriltia Team? The entry fee[NLINE]
+for that is 8000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -605,9 +605,9 @@ Who will you team up with?[END-FE]
 //維持軍チームとの対戦ですね。[NLINE]
 //登録料が１００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-維持軍チームとの対戦ですね。[NLINE]
-登録料が１００００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Forces Team? The entry fee[NLINE]
+for that is 10000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -663,9 +663,9 @@ Who will you team up with?[END-FE]
 //スレイヤーチームとの対戦ですね。[NLINE]
 //登録料が１２０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-スレイヤーチームとの対戦ですね。[NLINE]
-登録料が１２０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Slayer Team? The entry fee[NLINE]
+for that is 12000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -721,9 +721,9 @@ Who will you team up with?[END-FE]
 //リーダーチームとの対戦ですね。[NLINE]
 //登録料が１４０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-リーダーチームとの対戦ですね。[NLINE]
-登録料が１４０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Leader Team? The entry fee[NLINE]
+for that is 14000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -779,9 +779,9 @@ Who will you team up with?[END-FE]
 //ハンターチームとの対戦ですね。[NLINE]
 //登録料が１６０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-ハンターチームとの対戦ですね。[NLINE]
-登録料が１６０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Hunter Team? The entry fee[NLINE]
+for that is 16000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -840,12 +840,12 @@ Who will you team up with?[END-FE]
 //
 //対戦チームが来られましたら、[NLINE]
 //挑戦してみてください。[END-FE]
-申し訳ありません。[NLINE]
-対戦するタッグチームが[NLINE]
-まだ来ておりません。[NWIN]
+My apologies.[NLINE]
+The tag team you'd be facing[NLINE]
+hasn't arrived yet.[NWIN]
 
-対戦チームが来られましたら、[NLINE]
-挑戦してみてください。[END-FE]
+Please come back and challenge them[NLINE]
+once they've arrived.[END-FE]
 
 
 
@@ -856,9 +856,9 @@ Who will you team up with?[END-FE]
 //総帥チームとの対戦ですね。[NLINE]
 //登録料が１８０００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-総帥チームとの対戦ですね。[NLINE]
-登録料が１８０００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Commander Team? The entry fee[NLINE]
+for that is 18000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -918,13 +918,13 @@ Who will you team up with?[END-FE]
 //史上最強タッグを決めるこの場所。[NLINE]
 //あなたはきっと対戦相手を見て度肝を抜かれる。[NLINE]
 //それでもこの戦いに赴こうというのですか？[END-FE]
-…どこの誰でしょうか。[NLINE]
-こんな途方もないタッグと[NLINE]
-戦わせようとしている奴は…。[NWIN]
+...Just who would do such a thing.[NLINE]
+Who on earth would pit you[NLINE]
+against a tag team this fearsome...[NWIN]
 
-史上最強タッグを決めるこの場所。[NLINE]
-あなたはきっと対戦相手を見て度肝を抜かれる。[NLINE]
-それでもこの戦いに赴こうというのですか？[END-FE]
+This is where the greatest tag team of all time is decided.[NLINE]
+You'll be left breathless when you see your opponents.[NLINE]
+Do you still wish to proceed?[END-FE]
 
 
 
@@ -935,9 +935,9 @@ Who will you team up with?[END-FE]
 //…そうですか。[NLINE]
 //勇気と無謀は違いますが、[NLINE]
 //あなたの健闘を祈ります。[END-FE]
-…そうですか。[NLINE]
-勇気と無謀は違いますが、[NLINE]
-あなたの健闘を祈ります。[END-FE]
+...I see.[NLINE]
+There is a difference between courage and recklessness,[NLINE]
+but I wish you the best of luck.[END-FE]
 
 
 
@@ -993,9 +993,9 @@ Who will you team up with?[END-FE]
 //エキシビジョンマッチですね。[NLINE]
 //登録料が１００００[Mil]となりますが[NLINE]
 //よろしいですか？[END-FE]
-エキシビジョンマッチですね。[NLINE]
-登録料が１００００[Mil]となりますが[NLINE]
-よろしいですか？[END-FE]
+Exhibition Match? The entry fee[NLINE]
+for that is 10000[Mil].[NLINE]
+Is that all right?[END-FE]
 
 
 
@@ -1193,21 +1193,21 @@ entry fee for that is[NLINE]
 //お金なんて必要ありません。[NLINE]
 //求めているのは、最強の称号を得る者だけ。[NLINE]
 //あなたは挑戦なさいますか？[END-FE]
-…ここを見つけてしまいましたね。[NWIN]
+...So you found this place.[NWIN]
 
-[Haschen]たちが倒した[NLINE]
-最凶のスクリーパー、[NLINE]
-クイーン・スクリーパー。[NWIN]
+The most fearsome Screeper,[NLINE]
+the one even [Haschen] and the others defeated—[NLINE]
+the Queen Screeper.[NWIN]
 
-果たしてあれは人一人の力で[NLINE]
-打倒できるものなのか。[NWIN]
+Can a single person's strength[NLINE]
+truly bring it down?[NWIN]
 
-人智を超えた戦いを実現するかどうかは、[NLINE]
-あなたに委ねられます。[NWIN]
+Whether a battle beyond human knowledge is realized[NLINE]
+is entirely up to you.[NWIN]
 
-お金なんて必要ありません。[NLINE]
-求めているのは、最強の称号を得る者だけ。[NLINE]
-あなたは挑戦なさいますか？[END-FE]
+No money required.[NLINE]
+All we seek is the one worthy of the strongest title.[NLINE]
+Do you dare accept the challenge?[END-FE]
 
 
 
@@ -1219,10 +1219,10 @@ entry fee for that is[NLINE]
 //このクイーン試験は、[NLINE]
 //ヤクト・スレイヤー以上になっていませんと[NLINE]
 //挑戦する事はできない事になっております。[END-FE]
-申し訳ありません。[NLINE]
-このクイーン試験は、[NLINE]
-ヤクト・スレイヤー以上になっていませんと[NLINE]
-挑戦する事はできない事になっております。[END-FE]
+My apologies.[NLINE]
+The Queen Exam requires you to have[NLINE]
+achieved Jagd Slayer rank or above[NLINE]
+before you are eligible to attempt it.[END-FE]
 
 
 
@@ -1256,8 +1256,8 @@ Is that all right?[END-FE]
 
 //POINTER #118 @ $24F8 - STRING #118 @ $38BE
 #W32($24F8)
-//全ての称号を選べるようにしますか？[END-FE]
-全ての称号を選べるようにしますか？[END-FE]
+//Unlock all available titles?[END-FE]
+Unlock all available titles?[END-FE]
 
 
 
@@ -1265,8 +1265,8 @@ Is that all right?[END-FE]
 
 //POINTER #119 @ $24FC - STRING #119 @ $38E3
 #W32($24FC)
-//どのスレイヤーの称号にしますか？[END-FE]
-どのスレイヤーの称号にしますか？[END-FE]
+//Which Slayer title would you like?[END-FE]
+Which Slayer title would you like?[END-FE]
 
 
 
@@ -1328,8 +1328,8 @@ Is that all right?[END-FE]
 
 //POINTER #126 @ $2518 - STRING #126 @ $3996
 #W32($2518)
-//どの称号に変えますか？[END-FE]
-どの称号に変えますか？[END-FE]
+//Which title would you like to change to?[END-FE]
+Which title would you like to change to?[END-FE]
 
 
 
@@ -1337,8 +1337,8 @@ Is that all right?[END-FE]
 
 //POINTER #127 @ $251C - STRING #127 @ $39AF
 #W32($251C)
-//・守護勇士[END-FE]
-・守護勇士[END-FE]
+//・Guardian Warrior[END-FE]
+・Guardian Warrior[END-FE]
 
 
 
@@ -1346,8 +1346,8 @@ Is that all right?[END-FE]
 
 //POINTER #128 @ $2520 - STRING #128 @ $39BC
 #W32($2520)
-//・モノポリス特別隊員[END-FE]
-・モノポリス特別隊員[END-FE]
+//・Monopolis Special Agent[END-FE]
+・Monopolis Special Agent[END-FE]
 
 
 
@@ -1418,8 +1418,8 @@ Is that all right?[END-FE]
 
 //POINTER #136 @ $2540 - STRING #136 @ $3A7A
 #W32($2540)
-//・村人バスター[END-FE]
-・村人バスター[END-FE]
+//・Villager Buster[END-FE]
+・Villager Buster[END-FE]
 
 
 
@@ -1427,8 +1427,8 @@ Is that all right?[END-FE]
 
 //POINTER #137 @ $2544 - STRING #137 @ $3A8B
 #W32($2544)
-//・ゲルバスター[END-FE]
-・ゲルバスター[END-FE]
+//・Gel Buster[END-FE]
+・Gel Buster[END-FE]
 
 
 
@@ -1436,8 +1436,8 @@ Is that all right?[END-FE]
 
 //POINTER #138 @ $2548 - STRING #138 @ $3A9C
 #W32($2548)
-//・オレ様バスター[END-FE]
-・オレ様バスター[END-FE]
+//・Big Shot Buster[END-FE]
+・Big Shot Buster[END-FE]
 
 
 
@@ -1445,8 +1445,8 @@ Is that all right?[END-FE]
 
 //POINTER #139 @ $254C - STRING #139 @ $3AAF
 #W32($254C)
-//・ガーディアンバスター[END-FE]
-・ガーディアンバスター[END-FE]
+//・Guardian Buster[END-FE]
+・Guardian Buster[END-FE]
 
 
 
@@ -1454,8 +1454,8 @@ Is that all right?[END-FE]
 
 //POINTER #140 @ $2550 - STRING #140 @ $3AC8
 #W32($2550)
-//・ダンジョンバスター[END-FE]
-・ダンジョンバスター[END-FE]
+//・Dungeon Buster[END-FE]
+・Dungeon Buster[END-FE]
 
 
 
@@ -1466,9 +1466,9 @@ Is that all right?[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //大地の里において、代々巫女を守ってきた、[NLINE]
 //頬に紋章をつけた戦士。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-大地の里において、代々巫女を守ってきた、[NLINE]
-頬に紋章をつけた戦士。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+A warrior bearing a crest upon their cheek,[NLINE]
+who has protected the village shrine maiden for generations.[END-FE]
 
 
 
@@ -1487,7 +1487,7 @@ this title?[END-FE]
 //POINTER #143 @ $255C - STRING #143 @ $3B55
 #W32($255C)
 //守護勇士[END-FE]
-守護勇士[END-FE]
+Guardian Warrior[END-FE]
 
 
 
@@ -1497,8 +1497,8 @@ this title?[END-FE]
 #W32($2560)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]守護勇士[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]守護勇士[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Guardian Warrior[COL03]】[COL00].[END-FE]
 
 
 
@@ -1509,9 +1509,9 @@ this title?[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //モノポリス社、アニータ総帥代理から[NLINE]
 //特殊任務を受けている、特別隊員。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-モノポリス社、アニータ総帥代理から[NLINE]
-特殊任務を受けている、特別隊員。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+A special agent on a covert mission[NLINE]
+from Anita, acting CEO of Monopolis Corp.[END-FE]
 
 
 
@@ -1530,7 +1530,7 @@ this title?[END-FE]
 //POINTER #147 @ $256C - STRING #147 @ $3C15
 #W32($256C)
 //モノポリス特別隊員[END-FE]
-モノポリス特別隊員[END-FE]
+Monopolis Special Agent[END-FE]
 
 
 
@@ -1540,8 +1540,8 @@ this title?[END-FE]
 #W32($2570)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]モノポリス特別隊員[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]モノポリス特別隊員[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Monopolis Special Agent[COL03]】[COL00].[END-FE]
 
 
 
@@ -1552,9 +1552,9 @@ this title?[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //人の天敵、歩兵の名を持つ[NLINE]
 //スクリーパーを１対１で倒した者の称号。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-人の天敵、歩兵の名を持つ[NLINE]
-スクリーパーを１対１で倒した者の称号。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title earned by defeating, in 1-on-1 combat,[NLINE]
+a Screeper bearing the name of the infantry—mankind's natural enemy.[END-FE]
 
 
 
@@ -1583,8 +1583,8 @@ Pawn Slayer[END-FE]
 #W32($2580)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ポーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ポーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Pawn Slayer[COL03]】[COL00].[END-FE]
 
 
 
@@ -1595,9 +1595,9 @@ Pawn Slayer[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //人の天敵、城の名を持つ[NLINE]
 //スクリーパーを１対１で倒した者の称号。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-人の天敵、城の名を持つ[NLINE]
-スクリーパーを１対１で倒した者の称号。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title earned by defeating, in 1-on-1 combat,[NLINE]
+a Screeper bearing the name of the castle—mankind's natural enemy.[END-FE]
 
 
 
@@ -1626,8 +1626,8 @@ Rook Slayer[END-FE]
 #W32($2590)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ルーク・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ルーク・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Rook Slayer[COL03]】[COL00].[END-FE]
 
 
 
@@ -1638,9 +1638,9 @@ Rook Slayer[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //人の天敵、騎士の名を持つ[NLINE]
 //スクリーパーを１対１で倒した者の称号。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-人の天敵、騎士の名を持つ[NLINE]
-スクリーパーを１対１で倒した者の称号。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title earned by defeating, in 1-on-1 combat,[NLINE]
+a Screeper bearing the name of the knight—mankind's natural enemy.[END-FE]
 
 
 
@@ -1669,8 +1669,8 @@ Knight Slayer[END-FE]
 #W32($25A0)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ナイト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ナイト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Knight Slayer[COL03]】[COL00].[END-FE]
 
 
 
@@ -1681,9 +1681,9 @@ Knight Slayer[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //人の天敵、僧侶の名を持つ[NLINE]
 //スクリーパーを１対１で倒した者の称号。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-人の天敵、僧侶の名を持つ[NLINE]
-スクリーパーを１対１で倒した者の称号。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title earned by defeating, in 1-on-1 combat,[NLINE]
+a Screeper bearing the name of the bishop—mankind's natural enemy.[END-FE]
 
 
 
@@ -1712,8 +1712,8 @@ Bishop Slayer[END-FE]
 #W32($25B0)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ビショップ・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ビショップ・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Bishop Slayer[COL03]】[COL00].[END-FE]
 
 
 
@@ -1724,9 +1724,9 @@ Bishop Slayer[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //スクリーパーの天敵、狩猟の名を持つ[NLINE]
 //スクリーパーを１対１で倒した者の称号。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-スクリーパーの天敵、狩猟の名を持つ[NLINE]
-スクリーパーを１対１で倒した者の称号。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title earned by defeating, in 1-on-1 combat,[NLINE]
+a Screeper bearing the name of hunting—the Screepers' natural enemy.[END-FE]
 
 
 
@@ -1755,8 +1755,8 @@ Jagd Slayer[END-FE]
 #W32($25C0)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ヤクト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ヤクト・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Jagd Slayer[COL03]】[COL00].[END-FE]
 
 
 
@@ -1767,9 +1767,9 @@ Jagd Slayer[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //人の天敵、女王の名を持つ最強のスクリーパーを[NLINE]
 //１対１で倒した者の称号。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-人の天敵、女王の名を持つ最強のスクリーパーを[NLINE]
-１対１で倒した者の称号。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title earned by defeating, in 1-on-1 combat,[NLINE]
+the mightiest Screeper, bearing the name of the queen—mankind's natural enemy.[END-FE]
 
 
 
@@ -1798,8 +1798,8 @@ Queen Slayer[END-FE]
 #W32($25D0)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]クイーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]クイーン・スレイヤー[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Queen Slayer[COL03]】[COL00].[END-FE]
 
 
 
@@ -1810,9 +1810,9 @@ Queen Slayer[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //最強？の村人（無抵抗）を倒した称号。[NLINE]
 //村人は戦う術を持たないようだ…。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-最強？の村人（無抵抗）を倒した称号。[NLINE]
-村人は戦う術を持たないようだ…。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title for defeating the "mightiest"? villager (who offered no resistance).[NLINE]
+It seems villagers have no means to fight...[END-FE]
 
 
 
@@ -1831,7 +1831,7 @@ this title?[END-FE]
 //POINTER #175 @ $25DC - STRING #175 @ $41E5
 #W32($25DC)
 //村人バスター[END-FE]
-村人バスター[END-FE]
+Villager Buster[END-FE]
 
 
 
@@ -1841,8 +1841,8 @@ this title?[END-FE]
 #W32($25E0)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]村人バスター[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]村人バスター[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Villager Buster[COL03]】[COL00].[END-FE]
 
 
 
@@ -1853,9 +1853,9 @@ this title?[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //能力を強化された最強のゲルを倒した称号。[NLINE]
 //弱点も増幅されていたらしい…。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-能力を強化された最強のゲルを倒した称号。[NLINE]
-弱点も増幅されていたらしい…。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title for defeating the mightiest Gel with enhanced abilities.[NLINE]
+It seems its weaknesses were amplified as well...[END-FE]
 
 
 
@@ -1874,7 +1874,7 @@ this title?[END-FE]
 //POINTER #179 @ $25EC - STRING #179 @ $42B1
 #W32($25EC)
 //ゲルバスター[END-FE]
-ゲルバスター[END-FE]
+Gel Buster[END-FE]
 
 
 
@@ -1884,8 +1884,8 @@ this title?[END-FE]
 #W32($25F0)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ゲルバスター[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ゲルバスター[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Gel Buster[COL03]】[COL00].[END-FE]
 
 
 
@@ -1896,9 +1896,9 @@ this title?[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //オレ様を倒した称号。[NLINE]
 //一度ヤラれて、巨大化復活する者に勝ち目無し！[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-オレ様を倒した称号。[NLINE]
-一度ヤラれて、巨大化復活する者に勝ち目無し！[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title for defeating the Big Shot.[NLINE]
+Once beaten, it revives even larger—who could ever win?![END-FE]
 
 
 
@@ -1917,7 +1917,7 @@ this title?[END-FE]
 //POINTER #183 @ $25FC - STRING #183 @ $4377
 #W32($25FC)
 //オレ様バスター[END-FE]
-オレ様バスター[END-FE]
+Big Shot Buster[END-FE]
 
 
 
@@ -1927,8 +1927,8 @@ this title?[END-FE]
 #W32($2600)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]オレ様バスター[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]オレ様バスター[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Big Shot Buster[COL03]】[COL00].[END-FE]
 
 
 
@@ -1939,9 +1939,9 @@ this title?[END-FE]
 //[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
 //遺跡などを守る、最強のガーディアンを[NLINE]
 //倒した称号。唯一にして、まともな守護者。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-遺跡などを守る、最強のガーディアンを[NLINE]
-倒した称号。唯一にして、まともな守護者。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title for defeating the mightiest Guardian,[NLINE]
+protector of ruins and ancient sites. The only true guardian.[END-FE]
 
 
 
@@ -1960,7 +1960,7 @@ this title?[END-FE]
 //POINTER #187 @ $260C - STRING #187 @ $444D
 #W32($260C)
 //ガーディアンバスター[END-FE]
-ガーディアンバスター[END-FE]
+Guardian Buster[END-FE]
 
 
 
@@ -1970,8 +1970,8 @@ this title?[END-FE]
 #W32($2610)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ガーディアンバスター[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ガーディアンバスター[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Guardian Buster[COL03]】[COL00].[END-FE]
 
 
 
@@ -1983,10 +1983,10 @@ this title?[END-FE]
 //地下５０階に及ぶダンジョンを制覇し、[NLINE]
 //ダンジョンレディから贈られた称号。[NLINE]
 //迷惑ここに極まる。[END-FE]
-[COL03]【[COL00]称号メモ[COL03]】[COL00][NLINE]
-地下５０階に及ぶダンジョンを制覇し、[NLINE]
-ダンジョンレディから贈られた称号。[NLINE]
-迷惑ここに極まる。[END-FE]
+[COL03]【[COL00]Title Note[COL03]】[COL00][NLINE]
+The title bestowed by the Dungeon Lady[NLINE]
+upon conquering the 50-floor dungeon.[NLINE]
+A nuisance of the highest order.[END-FE]
 
 
 
@@ -2005,7 +2005,7 @@ this title?[END-FE]
 //POINTER #191 @ $261C - STRING #191 @ $453D
 #W32($261C)
 //ダンジョンバスター[END-FE]
-ダンジョンバスター[END-FE]
+Dungeon Buster[END-FE]
 
 
 
@@ -2015,8 +2015,8 @@ this title?[END-FE]
 #W32($2620)
 //[MainCharName]のクラス名が[NLINE]
 //[COL03]【[COL00]ダンジョンバスター[COL03]】[COL00]に変更された。[END-FE]
-[MainCharName]のクラス名が[NLINE]
-[COL03]【[COL00]ダンジョンバスター[COL03]】[COL00]に変更された。[END-FE]
+[MainCharName]'s class name[NLINE]
+has been changed to [COL03]【[COL00]Dungeon Buster[COL03]】[COL00].[END-FE]
 
 
 
@@ -2026,8 +2026,8 @@ this title?[END-FE]
 #W32($2624)
 //どのコースの[NLINE]
 //説明を受けますか？[END-FE]
-どのコースの[NLINE]
-説明を受けますか？[END-FE]
+Which event would you like[NLINE]
+to hear about?[END-FE]
 
 
 
@@ -2036,7 +2036,7 @@ this title?[END-FE]
 //POINTER #194 @ $2628 - STRING #194 @ $45BA
 #W32($2628)
 //・ダメージ競争[END-FE]
-・ダメージ競争[END-FE]
+・Damage Contest[END-FE]
 
 
 
@@ -2045,7 +2045,7 @@ this title?[END-FE]
 //POINTER #195 @ $262C - STRING #195 @ $45CB
 #W32($262C)
 //・勝ち抜きクラス[END-FE]
-・勝ち抜きクラス[END-FE]
+・Knockout Class[END-FE]
 
 
 
@@ -2054,7 +2054,7 @@ this title?[END-FE]
 //POINTER #196 @ $2630 - STRING #196 @ $45DE
 #W32($2630)
 //・タッグバトル[END-FE]
-・タッグバトル[END-FE]
+・Tag Battle[END-FE]
 
 
 
@@ -2063,7 +2063,7 @@ this title?[END-FE]
 //POINTER #197 @ $2634 - STRING #197 @ $45EF
 #W32($2634)
 //・エキシビジョンマッチ[END-FE]
-・エキシビジョンマッチ[END-FE]
+・Exhibition Match[END-FE]
 
 
 
@@ -2072,7 +2072,7 @@ this title?[END-FE]
 //POINTER #198 @ $2638 - STRING #198 @ $4608
 #W32($2638)
 //・スレイヤー認定試験[END-FE]
-・スレイヤー認定試験[END-FE]
+・Slayer Certification[END-FE]
 
 
 
@@ -2080,8 +2080,8 @@ this title?[END-FE]
 
 //POINTER #199 @ $263C - STRING #199 @ $461F
 #W32($263C)
-//・ボーナスバトル[END-FE]
-・ボーナスバトル[END-FE]
+//・Bonus Battle[END-FE]
+・Bonus Battle[END-FE]
 
 
 
@@ -2099,16 +2099,16 @@ this title?[END-FE]
 //　　制限時間内に打撃、魔法、特技を駆使して[NLINE]
 //　　[COL03]与えたダメージの総合計[COL00]を競う。[NLINE]
 //　ランキング１位を目指してガンバってください。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　１人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　・打撃ダメージ競争[NLINE]
-　　攻撃[COL03]一回分で与えたダメージ[COL00]を競う。[NLINE]
-　・魔法ダメージ競争[NLINE]
-　　魔法[COL03]一回分で与えたダメージ[COL00]を競う。[NLINE]
-　・総合ダメージ競争[NLINE]
-　　制限時間内に打撃、魔法、特技を駆使して[NLINE]
-　　[COL03]与えたダメージの総合計[COL00]を競う。[NLINE]
-　ランキング１位を目指してガンバってください。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　1[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　・Hard Hitter[NLINE]
+　　Compete for [COL03]the most damage dealt in a single attack[COL00].[NLINE]
+　・Spell Slinger[NLINE]
+　　Compete for [COL03]the most damage dealt by a single spell[COL00].[NLINE]
+　・Overall Damage Contest[NLINE]
+　　Use attacks, magic, and skills within the time limit[NLINE]
+　　to compete for [COL03]the highest total damage dealt[COL00].[NLINE]
+　Aim for the top spot on the rankings![END-FE]
 
 
 
@@ -2123,13 +2123,13 @@ this title?[END-FE]
 //　・魔法ダメージ競争[NLINE]
 //　　魔法[COL03]一回分で与えたダメージ[COL00]を競う。[NLINE]
 //　ランキング１位を目指してガンバってください。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　１人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　・打撃ダメージ競争[NLINE]
-　　攻撃[COL03]一回分で与えたダメージ[COL00]を競う。[NLINE]
-　・魔法ダメージ競争[NLINE]
-　　魔法[COL03]一回分で与えたダメージ[COL00]を競う。[NLINE]
-　ランキング１位を目指してガンバってください。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　1[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　・Hard Hitter[NLINE]
+　　Compete for [COL03]the most damage dealt in a single attack[COL00].[NLINE]
+　・Spell Slinger[NLINE]
+　　Compete for [COL03]the most damage dealt by a single spell[COL00].[NLINE]
+　Aim for the top spot on the rankings![END-FE]
 
 
 
@@ -2143,12 +2143,12 @@ this title?[END-FE]
 //　もらいます。[NLINE]
 //　[COL03]５連戦[COL00]あり、勝ち抜く事ができれば[NLINE]
 //　挑戦者の勝利です。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　１人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　１人で次々に現れるモンスターを撃破して[NLINE]
-　もらいます。[NLINE]
-　[COL03]５連戦[COL00]あり、勝ち抜く事ができれば[NLINE]
-　挑戦者の勝利です。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　1[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　Defeat monsters that appear one after another[NLINE]
+　on your own.[NLINE]
+　There are [COL03]5 consecutive battles[COL00]. Survive them all[NLINE]
+　to claim victory.[END-FE]
 
 
 
@@ -2163,13 +2163,13 @@ this title?[END-FE]
 //　[COL03]バトルに復帰することは出来ません[COL00]。[NLINE]
 //　敵対する２人の相手を撃破したチームが[NLINE]
 //　勝者となります。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　２人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　２対２の真剣チームバトル。[NLINE]
-　一度でも倒されてしまったら、[NLINE]
-　[COL03]バトルに復帰することは出来ません[COL00]。[NLINE]
-　敵対する２人の相手を撃破したチームが[NLINE]
-　勝者となります。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　2[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　A serious 2-vs-2 team battle.[NLINE]
+　If you are defeated even once,[NLINE]
+　[COL03]you cannot return to the battle[COL00].[NLINE]
+　The team that defeats both opponents[NLINE]
+　wins.[END-FE]
 
 
 
@@ -2181,10 +2181,10 @@ this title?[END-FE]
 //[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
 //　４組のタッグチームによるバトルロイヤル。[NLINE]
 //　最後まで生き残ったチームが勝者となります。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　２人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　４組のタッグチームによるバトルロイヤル。[NLINE]
-　最後まで生き残ったチームが勝者となります。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　2[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　A battle royale between 4 tag teams.[NLINE]
+　The last team standing wins.[END-FE]
 
 
 
@@ -2196,10 +2196,10 @@ this title?[END-FE]
 //[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
 //　スクリーパーを[COL03]１対１[COL00]で倒す事が出来れば[NLINE]
 //　挑戦者の勝利となります。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　１人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　スクリーパーを[COL03]１対１[COL00]で倒す事が出来れば[NLINE]
-　挑戦者の勝利となります。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　1[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　If you can defeat a Screeper in [COL03]1-on-1[COL00] combat,[NLINE]
+　the challenger wins.[END-FE]
 
 
 
@@ -2211,10 +2211,10 @@ this title?[END-FE]
 //[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
 //　お金と技能ポイントを稼ぐ為に、[NLINE]
 //　登場する多くのモンスター倒してください。[END-FE]
-[COL03]【[COL00]参加人数[COL03]】[COL00]　　　４人[NLINE]
-[COL03]【[COL00]競技内容[COL03]】[COL00][NLINE]
-　お金と技能ポイントを稼ぐ為に、[NLINE]
-　登場する多くのモンスター倒してください。[END-FE]
+[COL03]【[COL00]Participants[COL03]】[COL00]　　　4[NLINE]
+[COL03]【[COL00]Event Details[COL03]】[COL00][NLINE]
+　Defeat as many monsters as you can[NLINE]
+　to earn gold and skill points.[END-FE]
 
 
 
@@ -2224,8 +2224,8 @@ this title?[END-FE]
 #W32($265C)
 //やったね！[NLINE]
 //チームワークの勝利ってね！[END-FE]
-やったね！[NLINE]
-チームワークの勝利ってね！[END-FE]
+We did it![NLINE]
+That's what teamwork is all about![END-FE]
 
 
 
@@ -2235,8 +2235,8 @@ this title?[END-FE]
 #W32($2660)
 //ごめん……。[NLINE]
 //足引っ張っちゃったみたい……。[END-FE]
-ごめん……。[NLINE]
-足引っ張っちゃったみたい……。[END-FE]
+I'm sorry......[NLINE]
+I think I just held you back......[END-FE]
 
 
 
@@ -2246,8 +2246,8 @@ this title?[END-FE]
 #W32($2664)
 //ふぅ～。[NLINE]
 //人前で戦うのって緊張するね。[END-FE]
-ふぅ～。[NLINE]
-人前で戦うのって緊張するね。[END-FE]
+Phew~.[NLINE]
+Fighting in front of a crowd really gets your nerves going.[END-FE]
 
 
 
@@ -2257,8 +2257,8 @@ this title?[END-FE]
 #W32($2668)
 //やったな、[MainCharName]！[NLINE]
 //この調子でいこうぜ！[END-FE]
-やったな、[MainCharName]！[NLINE]
-この調子でいこうぜ！[END-FE]
+Nice work, [MainCharName]![NLINE]
+Let's keep this up![END-FE]
 
 
 
@@ -2268,8 +2268,8 @@ this title?[END-FE]
 #W32($266C)
 //次は負けない…。[NLINE]
 //オレはもっと強くなるんだ。[END-FE]
-次は負けない…。[NLINE]
-オレはもっと強くなるんだ。[END-FE]
+I won't lose next time...[NLINE]
+I'm going to get stronger.[END-FE]
 
 
 
@@ -2279,8 +2279,8 @@ this title?[END-FE]
 #W32($2670)
 //終わったな。[NLINE]
 //さすがに疲れたな。[END-FE]
-終わったな。[NLINE]
-さすがに疲れたな。[END-FE]
+It's over.[NLINE]
+I have to say, I'm worn out.[END-FE]
 
 
 
@@ -2290,8 +2290,8 @@ this title?[END-FE]
 #W32($2674)
 //みんなが一丸となってことにあたる。[NLINE]
 //素晴らしいことですね。[END-FE]
-みんなが一丸となってことにあたる。[NLINE]
-素晴らしいことですね。[END-FE]
+Everyone working together as one.[NLINE]
+What a wonderful thing.[END-FE]
 
 
 
@@ -2301,8 +2301,8 @@ this title?[END-FE]
 #W32($2678)
 //自分の未熟さを痛感しました。[NLINE]
 //次は勝ちにいきましょう。[END-FE]
-自分の未熟さを痛感しました。[NLINE]
-次は勝ちにいきましょう。[END-FE]
+I was painfully reminded of my own inexperience.[NLINE]
+Let's go all out and win next time.[END-FE]
 
 
 
@@ -2312,8 +2312,8 @@ this title?[END-FE]
 #W32($267C)
 //良い経験をさせてもらいました。[NLINE]
 //いい刺激になったと思います。[END-FE]
-良い経験をさせてもらいました。[NLINE]
-いい刺激になったと思います。[END-FE]
+That was a valuable experience.[NLINE]
+I think it will serve as good motivation.[END-FE]
 
 
 
@@ -2323,8 +2323,8 @@ this title?[END-FE]
 #W32($2680)
 //我ながら上出来かな。[NLINE]
 //みんなもご苦労様。[END-FE]
-我ながら上出来かな。[NLINE]
-みんなもご苦労様。[END-FE]
+Not bad, if I do say so myself.[NLINE]
+Good work, everyone.[END-FE]
 
 
 
@@ -2334,8 +2334,8 @@ this title?[END-FE]
 #W32($2684)
 //痛いのは勘弁して欲しかったんだが。[NLINE]
 //次は勝ちたいね。[END-FE]
-痛いのは勘弁して欲しかったんだが。[NLINE]
-次は勝ちたいね。[END-FE]
+I could have done without all that pain.[NLINE]
+I'd like to win next time.[END-FE]
 
 
 
@@ -2345,8 +2345,8 @@ this title?[END-FE]
 #W32($2688)
 //疲れた、疲れた。[NLINE]
 //この後はゆっくり休みたいね。[END-FE]
-疲れた、疲れた。[NLINE]
-この後はゆっくり休みたいね。[END-FE]
+Tired, tired.[NLINE]
+I want to take it easy after this.[END-FE]
 
 
 
@@ -2357,9 +2357,9 @@ this title?[END-FE]
 //やりましたね！[NLINE]
 //あ…、[NLINE]
 //私ちょっと興奮してしまったみたいです。[END-FE]
-やりましたね！[NLINE]
-あ…、[NLINE]
-私ちょっと興奮してしまったみたいです。[END-FE]
+We did it![NLINE]
+Oh...[NLINE]
+I think I got a little carried away.[END-FE]
 
 
 
@@ -2369,8 +2369,8 @@ this title?[END-FE]
 #W32($2690)
 //…すみません。[NLINE]
 //こんな時、力の無い自分が恨めしいです…。[END-FE]
-…すみません。[NLINE]
-こんな時、力の無い自分が恨めしいです…。[END-FE]
+...I'm sorry.[NLINE]
+At times like this, I can't help resenting my own powerlessness...[END-FE]
 
 
 
@@ -2378,8 +2378,8 @@ this title?[END-FE]
 
 //POINTER #221 @ $2694 - STRING #221 @ $4E9B
 #W32($2694)
-//次はもっとがんばりましょう。[END-FE]
-次はもっとがんばりましょう。[END-FE]
+//Let's try harder next time.[END-FE]
+Let's try harder next time.[END-FE]
 
 
 
@@ -2389,8 +2389,8 @@ this title?[END-FE]
 #W32($2698)
 //やったな。[NLINE]
 //君の実力がこれ程とは思わなかったよ。[END-FE]
-やったな。[NLINE]
-君の実力がこれ程とは思わなかったよ。[END-FE]
+Well done.[NLINE]
+I didn't know you were this capable.[END-FE]
 
 
 
@@ -2400,8 +2400,8 @@ this title?[END-FE]
 #W32($269C)
 //すまない…。[NLINE]
 //次は名誉挽回させてもらうよ。[END-FE]
-すまない…。[NLINE]
-次は名誉挽回させてもらうよ。[END-FE]
+I'm sorry...[NLINE]
+Let me redeem myself next time.[END-FE]
 
 
 
@@ -2411,8 +2411,8 @@ this title?[END-FE]
 #W32($26A0)
 //面白い経験をさせてもらったよ。[NLINE]
 //これも糧にしていこう。[END-FE]
-面白い経験をさせてもらったよ。[NLINE]
-これも糧にしていこう。[END-FE]
+That was an interesting experience.[NLINE]
+Let's make good use of it.[END-FE]
 
 
 
@@ -2422,8 +2422,8 @@ this title?[END-FE]
 #W32($26A4)
 //すごい、すごい！[NLINE]
 //[MainCharName]、さすがだね！[END-FE]
-すごい、すごい！[NLINE]
-[MainCharName]、さすがだね！[END-FE]
+Amazing, amazing![NLINE]
+[MainCharName], you're incredible![END-FE]
 
 
 
@@ -2433,8 +2433,8 @@ this title?[END-FE]
 #W32($26A8)
 //気落ちしないで、[NLINE]
 //次、がんばろうね。[END-FE]
-気落ちしないで、[NLINE]
-次、がんばろうね。[END-FE]
+Don't get discouraged,[NLINE]
+let's do our best next time.[END-FE]
 
 
 
@@ -2442,8 +2442,8 @@ this title?[END-FE]
 
 //POINTER #227 @ $26AC - STRING #227 @ $4FA1
 #W32($26AC)
-//ご苦労さま。[END-FE]
-ご苦労さま。[END-FE]
+//Good work.[END-FE]
+Good work.[END-FE]
 
 
 
@@ -2454,9 +2454,9 @@ this title?[END-FE]
 //やるもんだな、[NLINE]
 //[MainCharName]。[NLINE]
 //見ていて、燃えたぜ。[END-FE]
-やるもんだな、[NLINE]
-[MainCharName]。[NLINE]
-見ていて、燃えたぜ。[END-FE]
+You really pulled it off,[NLINE]
+[MainCharName].[NLINE]
+Watching you fired me up.[END-FE]
 
 
 
@@ -2466,8 +2466,8 @@ this title?[END-FE]
 #W32($26B4)
 //ま、次があるさ。[NLINE]
 //次は勝とうぜ。[END-FE]
-ま、次があるさ。[NLINE]
-次は勝とうぜ。[END-FE]
+Well, there's always next time.[NLINE]
+Let's win it next time.[END-FE]
 
 
 
@@ -2475,8 +2475,8 @@ this title?[END-FE]
 
 //POINTER #230 @ $26B8 - STRING #230 @ $5002
 #W32($26B8)
-//お疲れさん。[END-FE]
-お疲れさん。[END-FE]
+//Good work out there.[END-FE]
+Good work out there.[END-FE]
 
 
 
@@ -2486,8 +2486,8 @@ this title?[END-FE]
 #W32($26BC)
 //おめでとうございます。[NLINE]
 //お見事でした。[END-FE]
-おめでとうございます。[NLINE]
-お見事でした。[END-FE]
+Congratulations.[NLINE]
+A splendid performance.[END-FE]
 
 
 
@@ -2497,8 +2497,8 @@ this title?[END-FE]
 #W32($26C0)
 //上には上がいるものですね。[NLINE]
 //この次は負けないようがんばりましょう。[END-FE]
-上には上がいるものですね。[NLINE]
-この次は負けないようがんばりましょう。[END-FE]
+There's always someone stronger, isn't there.[NLINE]
+Let's work harder so we don't lose next time.[END-FE]
 
 
 
@@ -2506,8 +2506,8 @@ this title?[END-FE]
 
 //POINTER #233 @ $26C4 - STRING #233 @ $507F
 #W32($26C4)
-//お疲れ様でした。[END-FE]
-お疲れ様でした。[END-FE]
+//Thank you for your hard work.[END-FE]
+Thank you for your hard work.[END-FE]
 
 
 
@@ -2518,9 +2518,9 @@ this title?[END-FE]
 //お見事！[NLINE]
 //やるもんだな、[NLINE]
 //[MainCharName]！[END-FE]
-お見事！[NLINE]
-やるもんだな、[NLINE]
-[MainCharName]！[END-FE]
+Splendid![NLINE]
+You really came through,[NLINE]
+[MainCharName]![END-FE]
 
 
 
@@ -2530,8 +2530,8 @@ this title?[END-FE]
 #W32($26CC)
 //がっかりすることはないさ。[NLINE]
 //君はまだまだ強くなれるさ。[END-FE]
-がっかりすることはないさ。[NLINE]
-君はまだまだ強くなれるさ。[END-FE]
+Don't be discouraged.[NLINE]
+You still have a lot of room to grow.[END-FE]
 
 
 
@@ -2541,8 +2541,8 @@ this title?[END-FE]
 #W32($26D0)
 //ご苦労さん。[NLINE]
 //戦いの後は、英気を養おうか。[END-FE]
-ご苦労さん。[NLINE]
-戦いの後は、英気を養おうか。[END-FE]
+Good work.[NLINE]
+Let's rest up after the battle.[END-FE]
 
 
 
@@ -2552,8 +2552,8 @@ this title?[END-FE]
 #W32($26D4)
 //おめでとうございます！[NLINE]
 //流石でした！[END-FE]
-おめでとうございます！[NLINE]
-流石でした！[END-FE]
+Congratulations![NLINE]
+That was impressive![END-FE]
 
 
 
@@ -2563,8 +2563,8 @@ this title?[END-FE]
 #W32($26D8)
 //あ、あの～…。[NLINE]
 //つ、次がんばりましょう。[END-FE]
-あ、あの～…。[NLINE]
-つ、次がんばりましょう。[END-FE]
+U-um~...[NLINE]
+L-let's do our best next time.[END-FE]
 
 
 
@@ -2573,7 +2573,7 @@ this title?[END-FE]
 //POINTER #239 @ $26DC - STRING #239 @ $516D
 #W32($26DC)
 //お疲れ様でした。[END-FE]
-お疲れ様でした。[END-FE]
+Thank you for your hard work.[END-FE]
 
 
 
@@ -2584,9 +2584,9 @@ this title?[END-FE]
 //おめでとう、[NLINE]
 //[MainCharName]。[NLINE]
 //見事な腕前だったよ。[END-FE]
-おめでとう、[NLINE]
-[MainCharName]。[NLINE]
-見事な腕前だったよ。[END-FE]
+Congratulations,[NLINE]
+[MainCharName].[NLINE]
+That was a masterful display.[END-FE]
 
 
 
@@ -2598,10 +2598,10 @@ this title?[END-FE]
 //だが、この経験を活かして[NLINE]
 //今度勝てばいい。[NLINE]
 //君にはそれができるさ。[END-FE]
-残念だったな。[NLINE]
-だが、この経験を活かして[NLINE]
-今度勝てばいい。[NLINE]
-君にはそれができるさ。[END-FE]
+That's too bad.[NLINE]
+But use this experience,[NLINE]
+and you can win next time.[NLINE]
+You have what it takes.[END-FE]
 
 
 
@@ -2611,8 +2611,8 @@ this title?[END-FE]
 #W32($26E8)
 //お疲れ。[NLINE]
 //いい肩慣らしになったかい？[END-FE]
-お疲れ。[NLINE]
-いい肩慣らしになったかい？[END-FE]
+Good work.[NLINE]
+Was that a nice warm-up?[END-FE]
 
 
 
@@ -2620,8 +2620,8 @@ this title?[END-FE]
 
 //POINTER #243 @ $26EC - STRING #243 @ $5229
 #W32($26EC)
-//いっしょにがんばろう！[END-FE]
-いっしょにがんばろう！[END-FE]
+//Let's give it our all together![END-FE]
+Let's give it our all together![END-FE]
 
 
 
@@ -2631,8 +2631,8 @@ this title?[END-FE]
 #W32($26F0)
 //アンタとタッグを組むのか。[NLINE]
 //おもしろそうだな。[END-FE]
-アンタとタッグを組むのか。[NLINE]
-おもしろそうだな。[END-FE]
+So I'm tagging with you?[NLINE]
+Should be interesting.[END-FE]
 
 
 
@@ -2642,8 +2642,8 @@ this title?[END-FE]
 #W32($26F4)
 //やるからには、[NLINE]
 //勝ちにいきましょう。[END-FE]
-やるからには、[NLINE]
-勝ちにいきましょう。[END-FE]
+If we're doing this,[NLINE]
+let's go for the win.[END-FE]
 
 
 
@@ -2653,8 +2653,8 @@ this title?[END-FE]
 #W32($26F8)
 //タッグか。[NLINE]
 //君がパートナーなら申し分ないな。[END-FE]
-タッグか。[NLINE]
-君がパートナーなら申し分ないな。[END-FE]
+A tag match?[NLINE]
+With you as my partner, I couldn't ask for more.[END-FE]
 
 
 
@@ -2662,8 +2662,8 @@ this title?[END-FE]
 
 //POINTER #247 @ $26FC - STRING #247 @ $52C9
 #W32($26FC)
-//よろしくお願いします。[END-FE]
-よろしくお願いします。[END-FE]
+//I'm counting on you.[END-FE]
+I'm counting on you.[END-FE]
 
 
 
@@ -2671,8 +2671,8 @@ this title?[END-FE]
 
 //POINTER #248 @ $2700 - STRING #248 @ $52E2
 #W32($2700)
-//頼むよ。[END-FE]
-頼むよ。[END-FE]
+//Count on you.[END-FE]
+Count on you.[END-FE]
 
 
 
@@ -2680,8 +2680,8 @@ this title?[END-FE]
 
 //POINTER #249 @ $2704 - STRING #249 @ $52ED
 #W32($2704)
-//活躍、期待してるよ！[END-FE]
-活躍、期待してるよ！[END-FE]
+//I'm expecting great things from you![END-FE]
+I'm expecting great things from you![END-FE]
 
 
 
@@ -2689,8 +2689,8 @@ this title?[END-FE]
 
 //POINTER #250 @ $2708 - STRING #250 @ $5304
 #W32($2708)
-//勝ってこいよ！[END-FE]
-勝ってこいよ！[END-FE]
+//Go out there and win![END-FE]
+Go out there and win![END-FE]
 
 
 
@@ -2698,8 +2698,8 @@ this title?[END-FE]
 
 //POINTER #251 @ $270C - STRING #251 @ $5315
 #W32($270C)
-//がんばってください。[END-FE]
-がんばってください。[END-FE]
+//Good luck.[END-FE]
+Good luck.[END-FE]
 
 
 
@@ -2709,8 +2709,8 @@ this title?[END-FE]
 #W32($2710)
 //期待してるよ。[NLINE]
 //がんばってくれ。[END-FE]
-期待してるよ。[NLINE]
-がんばってくれ。[END-FE]
+I'm counting on you.[NLINE]
+Give it your best.[END-FE]
 
 
 
@@ -2718,8 +2718,8 @@ this title?[END-FE]
 
 //POINTER #253 @ $2714 - STRING #253 @ $534F
 #W32($2714)
-//その…、がんばってください！[END-FE]
-その…、がんばってください！[END-FE]
+//Um... give it your all![END-FE]
+Um... give it your all![END-FE]
 
 
 
@@ -2727,8 +2727,8 @@ this title?[END-FE]
 
 //POINTER #254 @ $2718 - STRING #254 @ $536E
 #W32($2718)
-//君の実力、見せてもらうよ。[END-FE]
-君の実力、見せてもらうよ。[END-FE]
+//Show me what you're made of.[END-FE]
+Show me what you're made of.[END-FE]
 
 
 
@@ -2736,8 +2736,8 @@ this title?[END-FE]
 
 //POINTER #255 @ $271C - STRING #255 @ $538B
 #W32($271C)
-//いっしょにがんばろうね！[END-FE]
-いっしょにがんばろうね！[END-FE]
+//Let's give it our best together![END-FE]
+Let's give it our best together![END-FE]
 
 
 
@@ -2745,8 +2745,8 @@ this title?[END-FE]
 
 //POINTER #256 @ $2720 - STRING #256 @ $53A6
 #W32($2720)
-//やるからには、勝ちにいくぞ！[END-FE]
-やるからには、勝ちにいくぞ！[END-FE]
+//If we're doing this, we're going for the win![END-FE]
+If we're doing this, we're going for the win![END-FE]
 
 
 
@@ -2755,7 +2755,7 @@ this title?[END-FE]
 //POINTER #257 @ $2724 - STRING #257 @ $53C5
 #W32($2724)
 //がんばりましょう。[END-FE]
-がんばりましょう。[END-FE]
+Let's give it our best.[END-FE]
 
 
 
@@ -2763,8 +2763,8 @@ this title?[END-FE]
 
 //POINTER #258 @ $2728 - STRING #258 @ $53DA
 #W32($2728)
-//まぁ、やれるだけやるよ。[END-FE]
-まぁ、やれるだけやるよ。[END-FE]
+//Well, I'll do what I can.[END-FE]
+Well, I'll do what I can.[END-FE]
 
 
 
@@ -2772,8 +2772,8 @@ this title?[END-FE]
 
 //POINTER #259 @ $272C - STRING #259 @ $53F5
 #W32($272C)
-//が、がんばりますね。[END-FE]
-が、がんばりますね。[END-FE]
+//I-I'll do my best.[END-FE]
+I-I'll do my best.[END-FE]
 
 
 
@@ -2781,8 +2781,8 @@ this title?[END-FE]
 
 //POINTER #260 @ $2730 - STRING #260 @ $540C
 #W32($2730)
-//やってみるか。[END-FE]
-やってみるか。[END-FE]
+//Might as well give it a shot.[END-FE]
+Might as well give it a shot.[END-FE]
 
 
 
@@ -2820,8 +2820,8 @@ Go to the debugging room?[END-FE]
 
 //POINTER #264 @ $2740 - STRING #264 @ $5480
 #W32($2740)
-//自動Ｄ　闘技場[END-FE]
-自動Ｄ　闘技場[END-FE]
+//Auto D  Arena[END-FE]
+Auto D  Arena[END-FE]
 
 
 
@@ -2838,8 +2838,8 @@ Do you want to do a random check?[END-FE]
 
 //POINTER #266 @ $2748 - STRING #266 @ $54AA
 #W32($2748)
-//ランダムいくつ？[END-FE]
-ランダムいくつ？[END-FE]
+//How many random?[END-FE]
+How many random?[END-FE]
 
 
 
@@ -2999,23 +2999,23 @@ Do you want to do a random check?[END-FE]
 //１３：[CC.EF0D]回[NLINE]
 //１４：[CC.EF0E]回[NLINE]
 //１５：[CC.EF0F]回[END-FE]
-試行回数[CC.EF11]回[NLINE]
- 0:[CC.EF00]回[NLINE]
- 1:[CC.EF01]回[NLINE]
- 2:[CC.EF02]回[NLINE]
- 3:[CC.EF03]回[NLINE]
- 4:[CC.EF04]回[NLINE]
- 5:[CC.EF05]回[NLINE]
- 6:[CC.EF06]回[NLINE]
- 7:[CC.EF07]回[NLINE]
- 8:[CC.EF08]回[NLINE]
- 9:[CC.EF09]回[NLINE]
-10:[CC.EF0A]回[NLINE]
-11:[CC.EF0B]回[NLINE]
-12:[CC.EF0C]回[NLINE]
-13:[CC.EF0D]回[NLINE]
-14:[CC.EF0E]回[NLINE]
-15:[CC.EF0F]回[END-FE]
+Attempts: [CC.EF11][NLINE]
+ 0:[CC.EF00][NLINE]
+ 1:[CC.EF01][NLINE]
+ 2:[CC.EF02][NLINE]
+ 3:[CC.EF03][NLINE]
+ 4:[CC.EF04][NLINE]
+ 5:[CC.EF05][NLINE]
+ 6:[CC.EF06][NLINE]
+ 7:[CC.EF07][NLINE]
+ 8:[CC.EF08][NLINE]
+ 9:[CC.EF09][NLINE]
+10:[CC.EF0A][NLINE]
+11:[CC.EF0B][NLINE]
+12:[CC.EF0C][NLINE]
+13:[CC.EF0D][NLINE]
+14:[CC.EF0E][NLINE]
+15:[CC.EF0F][END-FE]
 
 
 
