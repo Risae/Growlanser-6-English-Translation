@@ -18,7 +18,7 @@
 //POINTER #0 @ $A0 - STRING #0 @ $D0
 #W32($A0)
 //デラ[END-FF]
-デラ[END-FF]
+Dera[END-FF]
 
 
 
@@ -27,7 +27,7 @@
 //POINTER #1 @ $A4 - STRING #1 @ $D7
 #W32($A4)
 //ギガ[END-FF]
-ギガ[END-FF]
+Giga[END-FF]
 
 
 
@@ -36,7 +36,7 @@
 //POINTER #2 @ $A8 - STRING #2 @ $DE
 #W32($A8)
 //スバ[END-FF]
-スバ[END-FF]
+Suba[END-FF]
 
 
 
@@ -45,7 +45,7 @@
 //POINTER #3 @ $AC - STRING #3 @ $E5
 #W32($AC)
 //ハイ[END-FF]
-ハイ[END-FF]
+Hai[END-FF]
 
 
 
@@ -54,7 +54,7 @@
 //POINTER #4 @ $B0 - STRING #4 @ $EC
 #W32($B0)
 //トリ[END-FF]
-トリ[END-FF]
+Tori[END-FF]
 
 
 
@@ -63,7 +63,7 @@
 //POINTER #5 @ $B4 - STRING #5 @ $F3
 #W32($B4)
 //デオ[END-FF]
-デオ[END-FF]
+Deo[END-FF]
 
 
 
@@ -72,7 +72,7 @@
 //POINTER #6 @ $B8 - STRING #6 @ $FA
 #W32($B8)
 //モノ[END-FF]
-モノ[END-FF]
+Mono[END-FF]
 
 
 
@@ -81,7 +81,7 @@
 //POINTER #7 @ $BC - STRING #7 @ $101
 #W32($BC)
 //チコ[END-FF]
-チコ[END-FF]
+Chico[END-FF]
 
 
 
@@ -90,7 +90,7 @@
 //POINTER #8 @ $C0 - STRING #8 @ $108
 #W32($C0)
 //プチ[END-FF]
-プチ[END-FF]
+Puchi[END-FF]
 
 
 
@@ -99,7 +99,7 @@
 //POINTER #9 @ $C4 - STRING #9 @ $10F
 #W32($C4)
 //ノル[END-FF]
-ノル[END-FF]
+Noru[END-FF]
 
 
 

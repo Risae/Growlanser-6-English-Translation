@@ -39,10 +39,10 @@ Fairy Trainer[END-FF]
 //
 //[COL01]ラナの実[COL00]、[COL01]ラナの種[COL00]を使って、[NLINE]
 //妖精の能力を高めてあげる事ができます。[END-FE]
-私は妖精トレーナー。[NWIN]
+I am a Fairy Trainer.[NWIN]
 
-[COL01]ラナの実[COL00]、[COL01]ラナの種[COL00]を使って、[NLINE]
-妖精の能力を高めてあげる事ができます。[END-FE]
+[COL01]Lana Fruit[COL00] and [COL01]Lana Seeds[COL00] can be used[NLINE]
+to enhance your fairy's abilities.[END-FE]
 
 
 
@@ -54,8 +54,8 @@ Fairy Trainer[END-FF]
 //どうやら、[NLINE]
 //ラナの実も種も持っていないようですね…。[END-FE]
 [CHAR9001][V1300]
-どうやら、[NLINE]
-ラナの実も種も持っていないようですね…。[END-FE]
+It seems that[NLINE]
+you don't have any Lana Fruit or Lana Seeds...[END-FE]
 
 
 
@@ -64,7 +64,7 @@ Fairy Trainer[END-FF]
 //POINTER #4 @ $B30 - STRING #4 @ $CDC
 #W32($B30)
 //能力を伸ばしますか？[END-FE]
-能力を伸ばしますか？[END-FE]
+Would you like to enhance an ability?[END-FE]
 
 
 
@@ -73,7 +73,7 @@ Fairy Trainer[END-FF]
 //POINTER #5 @ $B34 - STRING #5 @ $CF3
 #W32($B34)
 //では、目を閉じなさい…。[END-FE]
-では、目を閉じなさい…。[END-FE]
+Now, close your eyes...[END-FE]
 
 
 
@@ -82,7 +82,7 @@ Fairy Trainer[END-FF]
 //POINTER #6 @ $B38 - STRING #6 @ $D0E
 #W32($B38)
 //ここまでＯＫ[END-FE]
-ここまでＯＫ[END-FE]
+OK up to here[END-FE]
 
 
 
@@ -174,8 +174,8 @@ Which one do you want to use?[END-FE]
 #W32($B54)
 //ラナの実を使って[NLINE]
 //どの能力を伸ばしたいですか？[END-FE]
-ラナの実を使って[NLINE]
-どの能力を伸ばしたいですか？[END-FE]
+Using a Lana Fruit,[NLINE]
+which ability would you like to enhance?[END-FE]
 
 
 
@@ -266,8 +266,8 @@ Which one do you want to use?[END-FE]
 #W32($B7C)
 //ラナの種を使って[NLINE]
 //どの能力を伸ばしたいですか？[END-FE]
-ラナの種を使って[NLINE]
-どの能力を伸ばしたいですか？[END-FE]
+Using a Lana Seed,[NLINE]
+which ability would you like to enhance?[END-FE]
 
 
 

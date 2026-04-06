@@ -30,8 +30,8 @@
 //魔法確率：０％[NLINE]
 //全部出ている場合の例外処理[END-FE]
 Remaining  :[CC.EF0A][NLINE]
-魔法確率：０％[NLINE]
-全部出ている場合の例外処理[END-FE]
+Magic probability: 0%[NLINE]
+Exception processing when all are shown[END-FE]
 
 
 
@@ -42,7 +42,7 @@ Remaining  :[CC.EF0A][NLINE]
 //残り　　：[CC.EF0A]体[NLINE]
 //魔法確率：[CC.EF0E]％[END-FE]
 Remaining  :[CC.EF0A][NLINE]
-魔法確率：[CC.EF0E]％[END-FE]
+Magic probability: [CC.EF0E]%[END-FE]
 
 
 
@@ -195,8 +195,8 @@ Place in G.[END-FE]
 //魔法確率：０％[NLINE]
 //全部出ている場合の例外処理[END-FE]
 Remaining  :[CC.EF0A][NLINE]
-魔法確率：０％[NLINE]
-全部出ている場合の例外処理[END-FE]
+Magic probability: 0%[NLINE]
+Exception processing when all are shown[END-FE]
 
 
 
@@ -207,7 +207,7 @@ Remaining  :[CC.EF0A][NLINE]
 //残り　　：[CC.EF0A]体[NLINE]
 //魔法確率：[CC.EF0E]％[END-FE]
 Remaining:　　：[CC.EF0A][NLINE]
-魔法確率：[CC.EF0E]％[END-FE]
+Magic probability: [CC.EF0E]%[END-FE]
 
 
 

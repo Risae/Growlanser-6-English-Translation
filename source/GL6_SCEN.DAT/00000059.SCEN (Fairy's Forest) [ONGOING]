@@ -27,7 +27,7 @@
 //POINTER #1 @ $23A4 - STRING #1 @ $2453
 #W32($23A4)
 //妖精の長老[END-FF]
-妖精の長老[END-FF]
+Elder Fairy[END-FF]
 
 
 
@@ -162,7 +162,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #14 @ $23D8 - STRING #14 @ $2604
 #W32($23D8)
 //に、ニンゲンよ！[END-FE]
-に、ニンゲンよ！[END-FE]
+A-a human![END-FE]
 
 
 
@@ -172,8 +172,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23DC)
 //あら？[NLINE]
 //ユリィのお仲間？[END-FE]
-あら？[NLINE]
-ユリィのお仲間？[END-FE]
+Oh?[NLINE]
+A friend of Yurii's?[END-FE]
 
 
 
@@ -183,8 +183,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23E0)
 //あら？[NLINE]
 //ユリィさんのお仲間でしょうか？[END-FE]
-あら？[NLINE]
-ユリィさんのお仲間でしょうか？[END-FE]
+Oh?[NLINE]
+Are you a friend of Yurii's?[END-FE]
 
 
 
@@ -194,8 +194,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23E4)
 //妖精？[NLINE]
 //ユリィの仲間か？[END-FE]
-妖精？[NLINE]
-ユリィの仲間か？[END-FE]
+A fairy?[NLINE]
+Are you Yurii's companion?[END-FE]
 
 
 
@@ -205,8 +205,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23E8)
 //この妖精は…[NLINE]
 //あなたのお仲間ですか？[END-FE]
-この妖精は…[NLINE]
-あなたのお仲間ですか？[END-FE]
+This fairy...[NLINE]
+Is she a companion of yours?[END-FE]
 
 
 
@@ -216,8 +216,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23EC)
 //ここは、エルファンの森といいまして、[NLINE]
 //いくつかある妖精の集落の１つです。[END-FE]
-ここは、エルファンの森といいまして、[NLINE]
-いくつかある妖精の集落の１つです。[END-FE]
+This place is called the Elfan Forest,[NLINE]
+one of several fairy settlements.[END-FE]
 
 
 
@@ -226,7 +226,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //POINTER #20 @ $23F0 - STRING #20 @ $26E8
 #W32($23F0)
 //ニンゲンだけじゃない？[END-FE]
-ニンゲンだけじゃない？[END-FE]
+Not just a human?[END-FE]
 
 
 
@@ -236,8 +236,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23F4)
 //初めまして、[NLINE]
 //私、東の砂漠のユリィと申します。[END-FE]
-初めまして、[NLINE]
-私、東の砂漠のユリィと申します。[END-FE]
+Pleased to meet you.[NLINE]
+I am Yurii, from the eastern desert.[END-FE]
 
 
 
@@ -247,8 +247,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($23F8)
 //ようこそ、ユリィ！[NLINE]
 //エルファンの森へ！[END-FE]
-ようこそ、ユリィ！[NLINE]
-エルファンの森へ！[END-FE]
+Welcome, Yurii![NLINE]
+To the Elfan Forest![END-FE]
 
 
 
@@ -275,7 +275,7 @@ Select a placement pattern[END-FE]
 //POINTER #25 @ $2404 - STRING #25 @ $2781
 #W32($2404)
 //・Ｂパターン[END-FE]
-・Ｂパターン[END-FE]
+・Pattern B[END-FE]
 
 
 
@@ -285,8 +285,8 @@ Select a placement pattern[END-FE]
 #W32($2408)
 //モンスターがいて危険です！[NLINE]
 //今は戦いに集中して下さい。[END-FE]
-モンスターがいて危険です！[NLINE]
-今は戦いに集中して下さい。[END-FE]
+There are monsters and it's dangerous![NLINE]
+Please focus on the battle for now.[END-FE]
 
 
 
@@ -303,15 +303,15 @@ Select a placement pattern[END-FE]
 //
 //あなたがそれに見合う強い力を得たならば、[NLINE]
 //お渡ししましょう。[END-FE]
-あなたは大地の巫女ですね。[NWIN]
+You are the Earth Shrine Maiden.[NWIN]
 
-このエルファンの森には[NLINE]
-初代の巫女様の母の形見があります。[NWIN]
+In this Elfan Forest,[NLINE]
+there is a memento of the first Shrine Maiden's mother.[NWIN]
 
-それは精神と知識を司った物です。[NWIN]
+It is something that governs the mind and knowledge.[NWIN]
 
-あなたがそれに見合う強い力を得たならば、[NLINE]
-お渡ししましょう。[END-FE]
+If you have gained the strength worthy of it,[NLINE]
+I shall entrust it to you.[END-FE]
 
 
 
@@ -324,11 +324,11 @@ Select a placement pattern[END-FE]
 //
 //ならばそれにふさわしき、[NLINE]
 //守りの力を授けましょう！[END-FE]
-大地の巫女よ。[NLINE]
-あなたは強き力を得ていますね。[NWIN]
+Earth Shrine Maiden.[NLINE]
+You have attained great strength.[NWIN]
 
-ならばそれにふさわしき、[NLINE]
-守りの力を授けましょう！[END-FE]
+Then allow me to bestow upon you[NLINE]
+the power of protection worthy of it![END-FE]
 
 
 
@@ -338,8 +338,8 @@ Select a placement pattern[END-FE]
 #W32($2414)
 //力なき者に代わり、[NLINE]
 //この世界を守って下さい。[END-FE]
-力なき者に代わり、[NLINE]
-この世界を守って下さい。[END-FE]
+In place of those without power,[NLINE]
+please protect this world.[END-FE]
 
 
 
@@ -349,8 +349,8 @@ Select a placement pattern[END-FE]
 #W32($2418)
 //きゃ～！[NLINE]
 //モンスターがいるわ！[END-FE]
-きゃ～！[NLINE]
-モンスターがいるわ！[END-FE]
+Eek![NLINE]
+There are monsters![END-FE]
 
 
 
@@ -360,8 +360,8 @@ Select a placement pattern[END-FE]
 #W32($241C)
 //きゃ～！[NLINE]
 //ニンゲン、ニンゲン～！[END-FE]
-きゃ～！[NLINE]
-ニンゲン、ニンゲン～！[END-FE]
+Eek![NLINE]
+Human, a human~![END-FE]
 
 
 
@@ -371,8 +371,8 @@ Select a placement pattern[END-FE]
 #W32($2420)
 //き、危険です！[NLINE]
 //モンスターの気配が…。[END-FE]
-き、危険です！[NLINE]
-モンスターの気配が…。[END-FE]
+D-Danger![NLINE]
+I sense monsters nearby...[END-FE]
 
 
 
@@ -383,9 +383,9 @@ Select a placement pattern[END-FE]
 //私たち妖精の多くは、[NLINE]
 //時の流れにそって生きます。[NLINE]
 //世界を変えようとは考えません。[END-FE]
-私たち妖精の多くは、[NLINE]
-時の流れにそって生きます。[NLINE]
-世界を変えようとは考えません。[END-FE]
+Most of us fairies[NLINE]
+live in accordance with the flow of time.[NLINE]
+We do not think to change the world.[END-FE]
 
 
 
@@ -395,8 +395,8 @@ Select a placement pattern[END-FE]
 #W32($2428)
 //きゃ～！[NLINE]
 //こわいモンスターがいる！[END-FE]
-きゃ～！[NLINE]
-こわいモンスターがいる！[END-FE]
+Eek![NLINE]
+There are scary monsters![END-FE]
 
 
 
@@ -407,9 +407,9 @@ Select a placement pattern[END-FE]
 //ユリィの勇者と[NLINE]
 //コリンの勇者と[NLINE]
 //どっちがホンモノ？[END-FE]
-ユリィの勇者と[NLINE]
-コリンの勇者と[NLINE]
-どっちがホンモノ？[END-FE]
+The Hero of Yurii[NLINE]
+and the Hero of Korin—[NLINE]
+Which one is the real one?[END-FE]
 
 
 
@@ -418,7 +418,7 @@ Select a placement pattern[END-FE]
 //POINTER #36 @ $2430 - STRING #36 @ $2A30
 #W32($2430)
 //モ、モンスター…こわい…。[END-FE]
-モ、モンスター…こわい…。[END-FE]
+M-Monsters... scary...[END-FE]
 
 
 
@@ -427,7 +427,7 @@ Select a placement pattern[END-FE]
 //POINTER #37 @ $2434 - STRING #37 @ $2A4D
 #W32($2434)
 //ニンゲン…平気？[END-FE]
-ニンゲン…平気？[END-FE]
+Human... are you alright?[END-FE]
 
 
 
@@ -437,8 +437,8 @@ Select a placement pattern[END-FE]
 #W32($2438)
 //モンスター…いる…、[NLINE]
 //…危険…とても…。[END-FE]
-モンスター…いる…、[NLINE]
-…危険…とても…。[END-FE]
+Monsters... there are...[NLINE]
+...Very... dangerous...[END-FE]
 
 
 
@@ -448,8 +448,8 @@ Select a placement pattern[END-FE]
 #W32($243C)
 //ユリィも…一緒…。[NLINE]
 //…ニンゲンと…。[END-FE]
-ユリィも…一緒…。[NLINE]
-…ニンゲンと…。[END-FE]
+Yurii too... together...[NLINE]
+...With the human...[END-FE]
 
 
 
@@ -462,8 +462,8 @@ Select a placement pattern[END-FE]
 //澄んだ水がきれいだ。[NLINE]
 //　[END-FE]
 [NLINE]
-湖がある。　　　　　[NLINE]
-澄んだ水がきれいだ。[NLINE]
+There is a lake.　　　　　[NLINE]
+The clear water is beautiful.[NLINE]
 [END-FE]
 
 

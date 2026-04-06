@@ -111,7 +111,7 @@
 //POINTER #10 @ $4C8 - STRING #10 @ $624
 #W32($4C8)
 //[COL04]頼れる男だと思う[COL00][END-FE]
-[COL04]頼れる男だと思う[END-FE]
+[COL04]I think he's someone I can rely on.[END-FE]
 
 
 
@@ -120,7 +120,7 @@
 //POINTER #11 @ $4CC - STRING #11 @ $63D
 #W32($4CC)
 //[COL07]良い人だとは思いますよ[END-FE]
-[COL07]良い人だとは思いますよ[END-FE]
+[COL07]I do think he's a good person.[END-FE]
 
 
 
@@ -129,7 +129,7 @@
 //POINTER #12 @ $4D0 - STRING #12 @ $659
 #W32($4D0)
 //[COL09]別に、何とも…[COL00][END-FE]
-[COL09]別に、何とも…[END-FE]
+[COL09]Not really... nothing in particular...[END-FE]
 
 
 
@@ -157,7 +157,7 @@
 //POINTER #15 @ $4DC - STRING #15 @ $6A8
 #W32($4DC)
 //[COL07]守護勇士ならあれくらい当然[END-FE]
-[COL07]守護勇士ならあれくらい当然[END-FE]
+[COL07]That's to be expected of a Guardian Warrior.[END-FE]
 
 
 
@@ -166,7 +166,7 @@
 //POINTER #16 @ $4E0 - STRING #16 @ $6C8
 #W32($4E0)
 //[COL09]守護勇士のくせに情けない…[COL00][END-FE]
-[COL09]守護勇士のくせに情けない…[END-FE]
+[COL09]Pathetic, for a Guardian Warrior...[END-FE]
 
 
 
@@ -176,7 +176,7 @@
 #W32($4E4)
 //[COL05]あの方以外見えません[COL00][END-FE]
 //Anita\\
-[COL05]あの方以外見えません[END-FE]
+[COL05]I can see no one else but him.[END-FE]
 
 
 
@@ -185,7 +185,7 @@
 //POINTER #18 @ $4E8 - STRING #18 @ $708
 #W32($4E8)
 //[COL04]特別な殿方です…[COL00][END-FE]
-[COL04]特別な殿方です…[END-FE]
+[COL04]He is a very special person to me...[END-FE]
 
 
 
@@ -222,7 +222,7 @@
 //POINTER #22 @ $4F8 - STRING #22 @ $771
 #W32($4F8)
 //[COL04]良きライバル、かな？[COL00][END-FE]
-[COL04]良きライバル、かな？[END-FE]
+[COL04]A worthy rival, I'd say?[END-FE]
 
 
 
@@ -231,7 +231,7 @@
 //POINTER #23 @ $4FC - STRING #23 @ $78E
 #W32($4FC)
 //[COL07]みんなをまとめる要だろうな[END-FE]
-[COL07]みんなをまとめる要だろうな[END-FE]
+[COL07]He's the one who keeps everyone together.[END-FE]
 
 
 
@@ -240,7 +240,7 @@
 //POINTER #24 @ $500 - STRING #24 @ $7AE
 #W32($500)
 //[COL09]悪いが、よくわからないな[COL00][END-FE]
-[COL09]悪いが、よくわからないな[END-FE]
+[COL09]Sorry, but I don't really understand him.[END-FE]
 
 
 

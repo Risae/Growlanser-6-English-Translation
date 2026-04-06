@@ -30,7 +30,7 @@
 //センサーの反応値は１００に満たないようだ…。[NLINE]
 //[END-FE]
 　[NLINE]
-センサーの反応値は１００に満たないようだ…。[NLINE]
+It seems the sensor reading is below 100...[NLINE]
 [END-FE]
 
 
@@ -45,12 +45,12 @@
 //現在は警備隊の隊長として[NLINE]
 //国民を守るために[NLINE]
 //陽炎流の槍を振るっている[END-FE]
-[COL01]ウェンディ[COL00][NLINE]
-インフィニトーのいない世界でも[NLINE]
-ヒンギスタンに革命は起こった[NLINE]
-現在は警備隊の隊長として[NLINE]
-国民を守るために[NLINE]
-陽炎流の槍を振るっている[END-FE]
+[COL01]Wendy[COL00][NLINE]
+Even in a world without Infinitor,[NLINE]
+a revolution occurred in Hingistan.[NLINE]
+Now serving as captain of the guard,[NLINE]
+she wields her spear[NLINE]
+of the Kagerō style to protect the people.[END-FE]
 
 
 
@@ -65,13 +65,13 @@
 //だが彼は里に残り[NLINE]
 //里に活力を与えようと[NLINE]
 //日々はげんでいる[END-FE]
-[COL01]ルキアス[COL00][NLINE]
-使命のない大地の里は[NLINE]
-時代の流れの中で[NLINE]
-さびれていった…[NLINE]
-だが彼は里に残り[NLINE]
-里に活力を与えようと[NLINE]
-日々はげんでいる[END-FE]
+[COL01]Rukias[COL00][NLINE]
+Without a mission, the Earth Clan village[NLINE]
+fell into decline[NLINE]
+with the passage of time...[NLINE]
+But he stayed in the village[NLINE]
+and strives each day[NLINE]
+to breathe new life into it.[END-FE]
 
 
 
@@ -85,12 +85,12 @@
 //事務職に就くことになった[NLINE]
 //大柄な身体で窮屈そうに[NLINE]
 //事務机に向かっているようだ[END-FE]
-[COL01]ホフマン[COL00][NLINE]
-無事フォメロス軍に戻った彼は[NLINE]
-配置転換により、[NLINE]
-事務職に就くことになった[NLINE]
-大柄な身体で窮屈そうに[NLINE]
-事務机に向かっているようだ[END-FE]
+[COL01]Hofman[COL00][NLINE]
+After safely returning to the Fomelos Army,[NLINE]
+he was reassigned[NLINE]
+to a desk job.[NLINE]
+With his large frame looking cramped,[NLINE]
+he appears to be hunched over an office desk.[END-FE]
 
 
 
@@ -104,12 +104,12 @@
 //寒村と化しつつある[NLINE]
 //大地の里で[NLINE]
 //平穏な日々をかみしめている[END-FE]
-[COL01]イリステレサ[COL00][NLINE]
-大地の巫女の使命から[NLINE]
-解放された彼女は[NLINE]
-寒村と化しつつある[NLINE]
-大地の里で[NLINE]
-平穏な日々をかみしめている[END-FE]
+[COL01]Iristelessa[COL00][NLINE]
+Freed from her duty[NLINE]
+as the Earth Shrine Maiden,[NLINE]
+she savors her days of peace[NLINE]
+in the Earth Clan village,[NLINE]
+which has grown into a quiet hamlet.[END-FE]
 
 
 
@@ -119,7 +119,7 @@
 #W32($538)
 //[COL01]アニータ[COL00][NLINE]
 //[END-FE]
-[COL01]アニータ[COL00][NLINE]
+[COL01]Anita[COL00][NLINE]
 [END-FE]
 
 
