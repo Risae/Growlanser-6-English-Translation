@@ -856,7 +856,7 @@ Which class to check?[END-FE]
 //POINTER #91 @ $CF8C - STRING #91 @ $D6FD
 #W32($CF8C)
 //・０００～００９[END-FE]
-・０００～００９[END-FE]
+・000-009[END-FE]
 
 
 
@@ -865,7 +865,7 @@ Which class to check?[END-FE]
 //POINTER #92 @ $CF90 - STRING #92 @ $D710
 #W32($CF90)
 //・０１０～０１９[END-FE]
-・０１０～０１９[END-FE]
+・010-019[END-FE]
 
 
 
@@ -874,7 +874,7 @@ Which class to check?[END-FE]
 //POINTER #93 @ $CF94 - STRING #93 @ $D723
 #W32($CF94)
 //・０２０～０２９[END-FE]
-・０２０～０２９[END-FE]
+・020-029[END-FE]
 
 
 
@@ -883,7 +883,7 @@ Which class to check?[END-FE]
 //POINTER #94 @ $CF98 - STRING #94 @ $D736
 #W32($CF98)
 //・０３０～０３９[END-FE]
-・０３０～０３９[END-FE]
+・030-039[END-FE]
 
 
 
@@ -892,7 +892,7 @@ Which class to check?[END-FE]
 //POINTER #95 @ $CF9C - STRING #95 @ $D749
 #W32($CF9C)
 //・０４０～０４９[END-FE]
-・０４０～０４９[END-FE]
+・040-049[END-FE]
 
 
 
@@ -901,7 +901,7 @@ Which class to check?[END-FE]
 //POINTER #96 @ $CFA0 - STRING #96 @ $D75C
 #W32($CFA0)
 //・０５０～０５９[END-FE]
-・０５０～０５９[END-FE]
+・050-059[END-FE]
 
 
 
@@ -910,7 +910,7 @@ Which class to check?[END-FE]
 //POINTER #97 @ $CFA4 - STRING #97 @ $D76F
 #W32($CFA4)
 //・０６０～０６９[END-FE]
-・０６０～０６９[END-FE]
+・060-069[END-FE]
 
 
 
@@ -919,7 +919,7 @@ Which class to check?[END-FE]
 //POINTER #98 @ $CFA8 - STRING #98 @ $D782
 #W32($CFA8)
 //・０７０～０７９[END-FE]
-・０７０～０７９[END-FE]
+・070-079[END-FE]
 
 
 
@@ -928,7 +928,7 @@ Which class to check?[END-FE]
 //POINTER #99 @ $CFAC - STRING #99 @ $D795
 #W32($CFAC)
 //・０８０～０８９[END-FE]
-・０８０～０８９[END-FE]
+・080-089[END-FE]
 
 
 
@@ -937,7 +937,7 @@ Which class to check?[END-FE]
 //POINTER #100 @ $CFB0 - STRING #100 @ $D7A8
 #W32($CFB0)
 //・０９０～０９９[END-FE]
-・０９０～０９９[END-FE]
+・090-099[END-FE]
 
 
 
@@ -1000,7 +1000,7 @@ Which class to check?[END-FE]
 //POINTER #107 @ $CFCC - STRING #107 @ $D831
 #W32($CFCC)
 //・１２０～１２９[END-FE]
-・１２０～１２９[END-FE]
+・120-129[END-FE]
 
 
 
@@ -1009,7 +1009,7 @@ Which class to check?[END-FE]
 //POINTER #108 @ $CFD0 - STRING #108 @ $D844
 #W32($CFD0)
 //・１３０～１３９[END-FE]
-・１３０～１３９[END-FE]
+・130-139[END-FE]
 
 
 
@@ -1018,7 +1018,7 @@ Which class to check?[END-FE]
 //POINTER #109 @ $CFD4 - STRING #109 @ $D857
 #W32($CFD4)
 //・１４０～１４９[END-FE]
-・１４０～１４９[END-FE]
+・140-149[END-FE]
 
 
 
@@ -1027,7 +1027,7 @@ Which class to check?[END-FE]
 //POINTER #110 @ $CFD8 - STRING #110 @ $D86A
 #W32($CFD8)
 //・１５０～１５９[END-FE]
-・１５０～１５９[END-FE]
+・150-159[END-FE]
 
 
 
@@ -1036,7 +1036,7 @@ Which class to check?[END-FE]
 //POINTER #111 @ $CFDC - STRING #111 @ $D87D
 #W32($CFDC)
 //・１６０～１６９[END-FE]
-・１６０～１６９[END-FE]
+・160-169[END-FE]
 
 
 
@@ -1045,7 +1045,7 @@ Which class to check?[END-FE]
 //POINTER #112 @ $CFE0 - STRING #112 @ $D890
 #W32($CFE0)
 //・１７０～１７９[END-FE]
-・１７０～１７９[END-FE]
+・170-179[END-FE]
 
 
 
@@ -1054,7 +1054,7 @@ Which class to check?[END-FE]
 //POINTER #113 @ $CFE4 - STRING #113 @ $D8A3
 #W32($CFE4)
 //・１８０～１８９[END-FE]
-・１８０～１８９[END-FE]
+・180-189[END-FE]
 
 
 
@@ -1063,7 +1063,7 @@ Which class to check?[END-FE]
 //POINTER #114 @ $CFE8 - STRING #114 @ $D8B6
 #W32($CFE8)
 //・１９０～１９９[END-FE]
-・１９０～１９９[END-FE]
+・190-199[END-FE]
 
 
 
@@ -1108,7 +1108,7 @@ Which class to check?[END-FE]
 //POINTER #119 @ $CFFC - STRING #119 @ $D919
 #W32($CFFC)
 //・２００～２０９[END-FE]
-・２００～２０９[END-FE]
+・200-209[END-FE]
 
 
 
@@ -1117,7 +1117,7 @@ Which class to check?[END-FE]
 //POINTER #120 @ $D000 - STRING #120 @ $D92C
 #W32($D000)
 //・２１０～２１９[END-FE]
-・２１０～２１９[END-FE]
+・210-219[END-FE]
 
 
 
@@ -1126,7 +1126,7 @@ Which class to check?[END-FE]
 //POINTER #121 @ $D004 - STRING #121 @ $D93F
 #W32($D004)
 //・２２０～２２９[END-FE]
-・２２０～２２９[END-FE]
+・220-229[END-FE]
 
 
 
@@ -1135,7 +1135,7 @@ Which class to check?[END-FE]
 //POINTER #122 @ $D008 - STRING #122 @ $D952
 #W32($D008)
 //・２３０～２３９[END-FE]
-・２３０～２３９[END-FE]
+・230-239[END-FE]
 
 
 
@@ -1144,7 +1144,7 @@ Which class to check?[END-FE]
 //POINTER #123 @ $D00C - STRING #123 @ $D965
 #W32($D00C)
 //・２４０～２４９[END-FE]
-・２４０～２４９[END-FE]
+・240-249[END-FE]
 
 
 
@@ -1153,7 +1153,7 @@ Which class to check?[END-FE]
 //POINTER #124 @ $D010 - STRING #124 @ $D978
 #W32($D010)
 //・２５０～２５９[END-FE]
-・２５０～２５９[END-FE]
+・250-259[END-FE]
 
 
 
@@ -1162,7 +1162,7 @@ Which class to check?[END-FE]
 //POINTER #125 @ $D014 - STRING #125 @ $D98B
 #W32($D014)
 //・２６０～２６９[END-FE]
-・２６０～２６９[END-FE]
+・260-269[END-FE]
 
 
 
@@ -1171,7 +1171,7 @@ Which class to check?[END-FE]
 //POINTER #126 @ $D018 - STRING #126 @ $D99E
 #W32($D018)
 //・２７０～２７９[END-FE]
-・２７０～２７９[END-FE]
+・270-279[END-FE]
 
 
 
@@ -1180,7 +1180,7 @@ Which class to check?[END-FE]
 //POINTER #127 @ $D01C - STRING #127 @ $D9B1
 #W32($D01C)
 //・２８０～２８９[END-FE]
-・２８０～２８９[END-FE]
+・280-289[END-FE]
 
 
 
@@ -1189,7 +1189,7 @@ Which class to check?[END-FE]
 //POINTER #128 @ $D020 - STRING #128 @ $D9C4
 #W32($D020)
 //・２９０～２９９[END-FE]
-・２９０～２９９[END-FE]
+・290-299[END-FE]
 
 
 
@@ -1234,7 +1234,7 @@ Which class to check?[END-FE]
 //POINTER #133 @ $D034 - STRING #133 @ $DA27
 #W32($D034)
 //・３００～３０９[END-FE]
-・３００～３０９[END-FE]
+・300-309[END-FE]
 
 
 
@@ -1243,7 +1243,7 @@ Which class to check?[END-FE]
 //POINTER #134 @ $D038 - STRING #134 @ $DA3A
 #W32($D038)
 //・３１０～３１９[END-FE]
-・３１０～３１９[END-FE]
+・310-319[END-FE]
 
 
 
@@ -1252,7 +1252,7 @@ Which class to check?[END-FE]
 //POINTER #135 @ $D03C - STRING #135 @ $DA4D
 #W32($D03C)
 //・３２０～３２９[END-FE]
-・３２０～３２９[END-FE]
+・320-329[END-FE]
 
 
 
@@ -1261,7 +1261,7 @@ Which class to check?[END-FE]
 //POINTER #136 @ $D040 - STRING #136 @ $DA60
 #W32($D040)
 //・３３０～３３９[END-FE]
-・３３０～３３９[END-FE]
+・330-339[END-FE]
 
 
 
@@ -1270,7 +1270,7 @@ Which class to check?[END-FE]
 //POINTER #137 @ $D044 - STRING #137 @ $DA73
 #W32($D044)
 //・３４０～３４９[END-FE]
-・３４０～３４９[END-FE]
+・340-349[END-FE]
 
 
 
@@ -1279,7 +1279,7 @@ Which class to check?[END-FE]
 //POINTER #138 @ $D048 - STRING #138 @ $DA86
 #W32($D048)
 //・３５０～３５９[END-FE]
-・３５０～３５９[END-FE]
+・350-359[END-FE]
 
 
 
@@ -1288,7 +1288,7 @@ Which class to check?[END-FE]
 //POINTER #139 @ $D04C - STRING #139 @ $DA99
 #W32($D04C)
 //・３６０～３６９[END-FE]
-・３６０～３６９[END-FE]
+・360-369[END-FE]
 
 
 
@@ -1297,7 +1297,7 @@ Which class to check?[END-FE]
 //POINTER #140 @ $D050 - STRING #140 @ $DAAC
 #W32($D050)
 //・３７０～３７９[END-FE]
-・３７０～３７９[END-FE]
+・370-379[END-FE]
 
 
 
@@ -1306,7 +1306,7 @@ Which class to check?[END-FE]
 //POINTER #141 @ $D054 - STRING #141 @ $DABF
 #W32($D054)
 //・３８０～[END-FE]
-・３８０～[END-FE]
+・380~[END-FE]
 
 
 
