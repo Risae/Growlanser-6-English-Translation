@@ -983,7 +983,7 @@ Ability Change[END-FE]
 //POINTER #105 @ $9244 - STRING #105 @ $AD97
 #W32($9244)
 //・６　サイレンス　ＰＣ[END-FE]
-・6 Silence PC[END-FE]
+・6 Silence: PC[END-FE]
 
 
 
@@ -1175,7 +1175,7 @@ How many people would you like to have in your party?[END-FE]
 //POINTER #125 @ $9294 - STRING #125 @ $AFD1
 #W32($9294)
 //・３人＋同行ＮＰＣ２（最大）[END-FE]
-・3 + 2 accompanying NPC (max)[END-FE]
+・3 + 2 accompanying NPCs (max)[END-FE]
 
 
 
@@ -7420,7 +7420,7 @@ What is it?[END-FE]
 //POINTER #800 @ $9D20 - STRING #800 @ $E352
 #W32($9D20)
 //オッス、おらホフマン[END-FE]
-Hey, i'm Hofman[END-FE]
+Hey, I'm Hofman[END-FE]
 
 
 
@@ -8671,7 +8671,7 @@ Fake Fairy Clear[END-FE]
 //POINTER #939 @ $9F4C - STRING #939 @ $EE47
 #W32($9F4C)
 //オッス、おらネーリス[END-FE]
-Hey, i'm Neilis[END-FE]
+Hey, I'm Neilis[END-FE]
 
 
 
