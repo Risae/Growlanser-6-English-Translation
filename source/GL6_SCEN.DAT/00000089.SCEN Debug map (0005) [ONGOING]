@@ -2518,7 +2518,7 @@ This is a selection test.[NLINE]
 //POINTER #264 @ $94C0 - STRING #264 @ $BDDB
 #W32($94C0)
 //１１が選択された[END-FE]
-１1 was selected[END-FE]
+11 was selected[END-FE]
 
 
 
@@ -2527,7 +2527,7 @@ This is a selection test.[NLINE]
 //POINTER #265 @ $94C4 - STRING #265 @ $BDEE
 #W32($94C4)
 //１２が選択された[END-FE]
-１2 was selected[END-FE]
+12 was selected[END-FE]
 
 
 
@@ -2536,7 +2536,7 @@ This is a selection test.[NLINE]
 //POINTER #266 @ $94C8 - STRING #266 @ $BE01
 #W32($94C8)
 //１３が選択された[END-FE]
-１3 was selected[END-FE]
+13 was selected[END-FE]
 
 
 
@@ -2545,7 +2545,7 @@ This is a selection test.[NLINE]
 //POINTER #267 @ $94CC - STRING #267 @ $BE14
 #W32($94CC)
 //１４が選択された[END-FE]
-１4 was selected[END-FE]
+14 was selected[END-FE]
 
 
 
@@ -2554,7 +2554,7 @@ This is a selection test.[NLINE]
 //POINTER #268 @ $94D0 - STRING #268 @ $BE27
 #W32($94D0)
 //１５が選択された[END-FE]
-１5 was selected[END-FE]
+15 was selected[END-FE]
 
 
 
@@ -3064,7 +3064,7 @@ Question line 4[END-FE]
 //POINTER #324 @ $95B0 - STRING #324 @ $BFC1
 #W32($95B0)
 //３－[COL04]変数ｏの内容[CC.EF0E][END-FE]
-３－[COL04]Variable O Value [CC.EF0E][END-FE]
+3-[COL04]Variable O Value [CC.EF0E][END-FE]
 
 
 
@@ -3073,7 +3073,7 @@ Question line 4[END-FE]
 //POINTER #325 @ $95B4 - STRING #325 @ $BFDA
 #W32($95B4)
 //４－[COL05]所持金[CC.E600][END-FE]
-４－[COL05]Money [CC.E600][END-FE]
+4-[COL05]Money [CC.E600][END-FE]
 
 
 
@@ -10333,7 +10333,7 @@ What are we going to do about Neilis's magic?[END-FE]
 //POINTER #1123 @ $A22C - STRING #1123 @ $FDA4
 #W32($A22C)
 //・ＭＰ　９９９[END-FE]
-・ＭＰ　９９９[END-FE]
+・MP 999[END-FE]
 
 
 
