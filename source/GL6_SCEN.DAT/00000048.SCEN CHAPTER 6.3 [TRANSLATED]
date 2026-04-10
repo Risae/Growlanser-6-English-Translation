@@ -1056,7 +1056,7 @@ Where did he go!?[END-FE]
 //POINTER #64 @ $67A0 - STRING #64 @ $7DB5
 #W32($67A0)
 //・知ってしまったか…[END-FE]
-・So you have found out..[END-FE]
+・So you have found out...[END-FE]
 
 
 
@@ -1603,7 +1603,7 @@ It's nothing important...[END-FE]
 #W32($6830)
 //…そぉ？[NLINE]
 //変なユリィ…。[END-FE]
-..Oh?[NLINE]
+...Oh?[NLINE]
 You're being a little weird,[NLINE]
 Yurii...[END-FE]
 
