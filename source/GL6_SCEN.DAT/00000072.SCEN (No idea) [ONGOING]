@@ -154,8 +154,8 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 #W32($2554)
 //ここの壁だけ氷で出来ていて、[NLINE]
 //氷越しに開けた空間が見える。[END-FE]
-ここの壁だけ氷で出来ていて、[NLINE]
-氷越しに開けた空間が見える。[END-FE]
+Only this wall is made of ice,[NLINE]
+and you can see an open space beyond it.[END-FE]
 
 
 
@@ -166,7 +166,7 @@ Can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 //　[NLINE]
 //魔法の力が、かき消された……[END-FE]
 [NLINE]
-魔法の力が、かき消された……[END-FE]
+The power of magic has vanished...[END-FE]
 
 
 

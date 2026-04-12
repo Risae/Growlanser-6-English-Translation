@@ -946,8 +946,7 @@ If it's all right, will you let me?[END-FE]
 //Tailor\\
 Thank you very much![NLINE]
 I will make it right away![NLINE]
-Oh, I'm itching to start working![NLINE]
-on it![MUSIC-NOTE][END-FE]
+Oh, I'm itching to get started on it![MUSIC-NOTE][END-FE]
 
 
 
@@ -1169,7 +1168,7 @@ Um... I... Uh...[NWIN]
 
 [CH.FACE:Shy][CHAR1600][V0F00]
 ...I heard that from Korin.[NLINE]
-She said you were a very fantastic[NLINE]
+She said you were a very skilled[NLINE]
 researcher.[END-FE]
 
 
@@ -1416,8 +1415,8 @@ A Grangalian was appointed lord of[NLINE]
 this village after we had lost the[NLINE]
 war 20 years ago.[NWIN]
 
-...He's not a bad lord, but he treats[NLINE]
-us like subjects of Grangale...[END-FE]
+...He's not a bad lord, but knowing[NLINE]
+we're under Grangale's rule...[END-FE]
 
 
 
@@ -1859,7 +1858,8 @@ Would you like to stay?[END-FE]
 //POINTER #145 @ $5D64 - STRING #145 @ $8036
 #W32($5D64)
 //ついでに記録をとられますか？[END-FE]
-By the way, would you like to sign our guestbook?[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
 
 
 
@@ -3102,12 +3102,12 @@ I recalled emotions from when I was still[NLINE]
 made of flesh and blood.[NWIN]
 
 Replaying memories from human period.[NLINE]
-It contains various memories.[NLINE]
+I still have that knife.[NLINE]
+It holds various memories.[NLINE]
 Pleasant memories, painful memories...[NLINE]
-If I would give this to the person who made me[NLINE]
-remember what it's like to feel at ease,[NLINE]
-will the pleasant memories outweigh the painful[NLINE]
-ones...?[END-FE]
+If I give this to the person who made me[NLINE]
+feel at ease, will the pleasant memories[NLINE]
+outweigh the painful ones...?[END-FE]
 
 
 

@@ -923,11 +923,11 @@ Die![END-FE]
 [CHAR1700][V1800]
 Shut it![NWIN]
 
-[CHAR1700][V1500]
+[CHAR1700][V1900]
 By spreading Pollumine all over the world,[NLINE]
 you intend to monopolize the land's power![NWIN]
 
-[CHAR1700][V1600]
+[CHAR1700][V1A00]
 Die![END-FE]
 
 
@@ -1051,7 +1051,7 @@ Understood![END-FE]
 #W32($75F0)
 //・同行人の死亡[NLINE]
 //・パーティーの全滅[END-FE]
-・NPC dies[NLINE]
+・Follower dies[NLINE]
 ・All party members die[END-FE]
 
 
@@ -1370,9 +1370,9 @@ Terrorists...?[END-FE]
 //最初は革命を行うために戦っていた人々は[NLINE]
 //ちりぢりになり、多数のテロ組織に変わった。[END-FE]
 [CHAR1700][V2B00]
-On our continent, an internal conflict[NLINE]
-in my home country caused a neighbouring[NLINE]
-country to intervene, resulting in war.[NWIN]
+On our continent, war broke out when[NLINE]
+other countries intervened in a[NLINE]
+neighboring country's civil war.[NWIN]
 
 [CHAR1700][V2C00]
 The people who initially fought for the[NLINE]

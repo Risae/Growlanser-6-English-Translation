@@ -1056,7 +1056,7 @@ Where did he go!?[END-FE]
 //POINTER #64 @ $67A0 - STRING #64 @ $7DB5
 #W32($67A0)
 //・知ってしまったか…[END-FE]
-・So you have found out..[END-FE]
+・So you have found out...[END-FE]
 
 
 
@@ -1115,7 +1115,7 @@ I didn't know that Neilis[NLINE]
 had such strong feelings.[NWIN]
 
 [CHARCD00][V7200]
-It seems her memories are[NLINE]
+It seems her feelings are[NLINE]
 contained in that knife.[NWIN]
 
 [CHARCD00][V7300]
@@ -1387,7 +1387,7 @@ the same thing.[END-FE]
 //レジスタンスの言っていることは正しいの…？[END-FE]
 [CHAR1C00][V0F00]
 Then maybe what the resistance[NLINE]
-is saying was correct...?[END-FE]
+is saying is correct...?[END-FE]
 
 
 
@@ -1603,7 +1603,7 @@ It's nothing important...[END-FE]
 #W32($6830)
 //…そぉ？[NLINE]
 //変なユリィ…。[END-FE]
-..Oh?[NLINE]
+...Oh?[NLINE]
 You're being a little weird,[NLINE]
 Yurii...[END-FE]
 
@@ -1626,7 +1626,7 @@ Felmentia is this way...[END-FE]
 //いま、ウェンディさんが[NLINE]
 //とても辛そうな顔をしていたような…。[NLINE]
 //私の見間違いでしょうか？[END-FE]
-Just now, Wendy had a painful face[NLINE]
+Just now, Wendy had a pained[NLINE]
 expression on her face, didn't she...?[NLINE]
 Or were my eyes mistaken?[END-FE]
 
@@ -1678,7 +1678,7 @@ interfere...[END-FE]
 #W32($684C)
 //…勇者様が言われるなら、[NLINE]
 //きっとそうなのでしょうね…。[END-FE]
-...If the Brave Guard says so,[NLINE]
+...If the Brave One says so,[NLINE]
 it must be that way...[END-FE]
 
 
@@ -1893,7 +1893,7 @@ the Pothrad village is located?[END-FE]
 #W32($689C)
 //勇者様！[NLINE]
 //ウソはいけません！[END-FE]
-Brave Guard![NLINE]
+Brave One![NLINE]
 You mustn't tell lies![END-FE]
 
 
@@ -2145,9 +2145,9 @@ Tower with our own hands![END-FE]
 //
 //だが我々とて、あきらめはせぬぞ。[NLINE]
 //絶対にこの世界を救ってみせる！[END-FE]
-Wouldn't it be possible to make[NLINE]
-our enemies retreat by simply[NLINE]
-destroying that Ley Point Tower?[NWIN]
+As expected, just destroying that[NLINE]
+Ley Point Tower won't make them[NLINE]
+back down, will it?[NWIN]
 
 However, we can't give up no matter what.[NLINE]
 We'll definitely save this world![END-FE]
@@ -2199,7 +2199,7 @@ of the PMB's Ops Division.[END-FE]
 //龍穴塔攻略に注力してくれ。[END-FE]
 //Melvina\\
 We're currently going over[NLINE]
-the attack plan on the Lay[NLINE]
+the attack plan on the Ley[NLINE]
 Point Tower that has been[NLINE]
 built in Commonwealth territory.[NWIN]
 

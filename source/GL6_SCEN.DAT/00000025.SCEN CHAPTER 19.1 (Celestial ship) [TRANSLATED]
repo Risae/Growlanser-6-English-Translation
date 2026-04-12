@@ -893,7 +893,7 @@ D Celestial Ship Interior - Present[END-FE]
 #W32($8E64)
 //みなさん！[END-FE]
 //Yurii\\
-It's Miss Shayer and the others![END-FE]
+Everyone![END-FE]
 
 
 
@@ -2543,8 +2543,8 @@ Would you like to confess again?[END-FE]
 #W32($906C)
 //パーティーメンバーが多すぎるので、[NLINE]
 //ダメですぅ[COL01]★[COL00][END-FE]
-パーティーメンバーが多すぎるので、[NLINE]
-ダメですぅ[COL01]★[END-FE]
+There are too many party members,[NLINE]
+so it's not allowed![COL01]★[COL00][END-FE]
 
 
 
@@ -2554,8 +2554,8 @@ Would you like to confess again?[END-FE]
 #W32($9070)
 //インフィニトーを倒してないから、[NLINE]
 //ダメですぅ[COL01]★[COL00][END-FE]
-インフィニトーを倒してないから、[NLINE]
-ダメですぅ[COL01]★[END-FE]
+You haven't defeated Infinitor yet,[NLINE]
+so it's not allowed![COL01]★[COL00][END-FE]
 
 
 
@@ -2597,7 +2597,7 @@ Were you just [COL03]playing[COL00] with me!?[END-FE]
 //POINTER #216 @ $9080 - STRING #216 @ $BA44
 #W32($9080)
 //セーブポイントの調査からやり直して下さい。[END-FE]
-セーブポイントの調査からやり直して下さい。[END-FE]
+Please redo the investigation from the save point.[END-FE]
 
 
 

@@ -296,7 +296,7 @@ Alright, let's hear the strategy.[END-FE]
 //POINTER #26 @ $6D88 - STRING #26 @ $72A0
 #W32($6D88)
 //いきなり山頂？[END-FE]
-いきなり山頂？[END-FE]
+Straight to the summit?[END-FE]
 
 
 
@@ -943,7 +943,7 @@ who manages to capture them![END-FE]
 //戻っている場合ではありません！[NLINE]
 //砲撃される前に下りましょう！[END-FE]
 This isn't the time to go back![NLINE]
-We have to hurry up and reach the summit![END-FE]
+We have to descend before we get bombarded![END-FE]
 
 
 
@@ -1012,7 +1012,7 @@ Yes![END-FE]
 //POINTER #77 @ $6E54 - STRING #77 @ $813D
 #W32($6E54)
 //山頂での撃破数１５にしますか？[END-FE]
-山頂での撃破数１５にしますか？[END-FE]
+Set the number of enemies defeated at the summit to 15?[END-FE]
 
 
 
