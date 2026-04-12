@@ -660,12 +660,12 @@ Are you sure we'll be okay?[END-FE]
 //かかった時間を見てコメントを変えるので、[NLINE]
 //バランス班はどれくらいのタイムで[NLINE]
 //シュヴァイツァーに会ったかを見て下さい。[END-FE]
-ここでダスティスに着くまでの時間を計測します。[NLINE]
-使っているのは[COL01]タイム１[COL00]です。[NLINE]
-シュヴァイツァーに会ったとき、[NLINE]
-かかった時間を見てコメントを変えるので、[NLINE]
-バランス班はどれくらいのタイムで[NLINE]
-シュヴァイツァーに会ったかを見て下さい。[END-FE]
+This measures the time until Dastis is reached.[NLINE]
+The timer used is [COL01]Time 1[COL00].[NLINE]
+When Shuweizer is met, the comment will change[NLINE]
+based on how long it took,[NLINE]
+so the balance team please check how long it took[NLINE]
+to meet Shuweizer.[END-FE]
 
 
 
@@ -1915,7 +1915,7 @@ ocean are being polluted...[END-FE]
 //Wendy\\
 I can see Dastis![NWIN]
 
-Hey, do you want to go investigate?[END-FE]
+Hey, did you look into Dastis?[END-FE]
 
 
 
@@ -2122,9 +2122,9 @@ right?[END-FE]
 //Ｅ一時フラグが[NLINE]
 //おかしくなっています。[END-FE]
 //System Message\\
-このメッセージが出た場合、[NLINE]
-Ｅ一時フラグが[NLINE]
-おかしくなっています。[END-FE]
+If this message appears,[NLINE]
+the E temporary flag[NLINE]
+has gone wrong.[END-FE]
 
 
 
@@ -2732,7 +2732,7 @@ The gate has already become operational again.[END-FE]
 //今は戦いに集中するべきだ！[END-FE]
 //System Message\\
 [NLINE]
-The gate has already become operational again.[END-FE]
+You should focus on the battle right now![END-FE]
 
 
 
@@ -2861,7 +2861,7 @@ That could be it...[NWIN]
 repel Screapers?[NWIN]
 
 [CHAR6700][V0700]
-I'm just saying.[END-FE]
+Aren't they just saying that?[END-FE]
 
 
 
