@@ -450,7 +450,7 @@ Alright, let's get on it![END-FE]
 //[CHAR3800][V3D00]
 //すぐ海岸に用意するよ。[END-FE]
 [CHAR3800][V3B00]
-Huh, you want to use my boat you say?[NWIN]
+Huh, you want to use my boat, you say?[NWIN]
 
 [CHAR3800][V3C00]
 Why of course! Tools are there[NLINE]
@@ -684,7 +684,7 @@ What!? Really!?[NLINE]
 
 [CC.BE0000][CHAR3A00][V0600]
 If we have free time, we should[NLINE]
-step by and properly thank them![END-FE]
+stop by and properly thank them![END-FE]
 
 
 
@@ -842,7 +842,8 @@ Would you like to stay?[END-FE]
 #W32($3924)
 //ついでに記録をとっていくかい？[END-FE]
 //Inn Clerk\\
-By the way, would you like to sign our guestbook?[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
 
 
 

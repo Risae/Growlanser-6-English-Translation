@@ -1169,7 +1169,7 @@ said to be extinct for a whoile![END-FE]
 //誰もが飼いたくなりますね。[NLINE]
 //出来ることなら、私も飼ってみたいです…。[END-FE]
 [CHARCA03][V0800]
-Futon Dogs you say...?[NLINE]
+Futon Dogs, you say...?[NLINE]
 Everyone would want to keep animals[NLINE]
 as adorable as these. If possible, I[NLINE]
 would like to try keeping one, too...[END-FE]
@@ -2402,7 +2402,7 @@ yoah Rana bag, then.[END-FE]
 //POINTER #177 @ $8B64 - STRING #177 @ $C0B1
 #W32($8B64)
 //これ以上[COL01]ラナの袋[COL00]に入らない！[END-FE]
-You can't fit any more in your[COL01]Rana Bag[COL00]![END-FE]
+You can't fit any more in your [COL01]Rana Bag[COL00]![END-FE]
 
 
 
@@ -6027,7 +6027,7 @@ What a shame. Please try again.[END-FE]
 #W32($8FD4)
 //その命令は[NLINE]
 //[Futon-Dog]に覚えさせたはずだよ。[END-FE]
-[Futon-Dog] already should have learned[NLINE]
+[Futon-Dog] should have already learned[NLINE]
 this command.[END-FE]
 
 

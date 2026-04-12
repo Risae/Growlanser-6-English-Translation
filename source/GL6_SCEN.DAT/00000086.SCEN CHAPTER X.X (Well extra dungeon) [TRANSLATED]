@@ -1588,7 +1588,7 @@ Its magical power has vanished...[END-FE]
 #W32($8EF4)
 //初回フラグＯＮ[END-FE]
 //System Message\\
-初回フラグＯＮ[END-FE]
+Initial Flag ON[END-FE]
 
 
 
@@ -1619,7 +1619,7 @@ Do you want to go down?[END-FE]
 #W32($8F00)
 //変数[CC.EF00][END-FE]
 //System Message\\
-変数[CC.EF00][END-FE]
+Variable[CC.EF00][END-FE]
 
 
 
@@ -1743,8 +1743,8 @@ Villager Buster[END-FE]
 #W32($8F34)
 //闘技場で、[MainCharName]のクラス名を[NLINE]
 //変えることが出来るようになりました。[END-FE]
-闘技場で、[MainCharName]のクラス名を[NLINE]
-変えることが出来るようになりました。[END-FE]
+In the arena, you can now change[NLINE]
+[MainCharName]'s class name.[END-FE]
 
 
 
@@ -1756,10 +1756,10 @@ Villager Buster[END-FE]
 //闘技場で得た現在のスレイヤー名、[NLINE]
 //このダンジョンで入手したクラス名の内[NLINE]
 //どれかに変える事が可能です。[END-FE]
-【守護勇士】、【モノポリス特別隊員】、[NLINE]
-闘技場で得た現在のスレイヤー名、[NLINE]
-このダンジョンで入手したクラス名の内[NLINE]
-どれかに変える事が可能です。[END-FE]
+Brave Guard, Monopolis Special Forces,[NLINE]
+your current Slayer name from the arena,[NLINE]
+or a class name obtained in this dungeon—[NLINE]
+you can change to any of these.[END-FE]
 
 
 
@@ -5158,10 +5158,10 @@ Please don't overdo it.[END-FE]
 //（※どちらが配置されるかは選べません。[NLINE]
 //また、モンスターがＰＣと同じ部屋に配置されて[NLINE]
 //すぐにエンカウントになる場合もあります。）[END-FE]
-ゴールドゲルかソウルを配置しますか？[NLINE]
-（※どちらが配置されるかは選べません。[NLINE]
-また、モンスターがＰＣと同じ部屋に配置されて[NLINE]
-すぐにエンカウントになる場合もあります。）[END-FE]
+Would you like to place a Gold Gel or a Soul?[NLINE]
+(※ You cannot choose which will be placed.[NLINE]
+Also, a monster may be placed in the same room[NLINE]
+as the PC, causing an immediate encounter.)[END-FE]
 
 
 

@@ -85,7 +85,7 @@ You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
 //POINTER #7 @ $43BC - STRING #7 @ $46ED
 #W32($43BC)
 //これ以上[COL01]ラナの種[COL00]は持てない！[END-FE]
-You can't hold any more [COL01]Rana Fruit[COL00].[END-FE]
+You can't hold any more [COL01]Rana Seed[COL00].[END-FE]
 
 
 
@@ -389,7 +389,7 @@ But only the village elder is allowed[NLINE]
 to use it...[CC.FFFB][NLINE]
 [CH.FACE:Open-Eyes]
 ...But since I'll someday become village[NLINE]
-elder anyway, it won't be a problem if I[NLINE]
+elder anyway, it wouldn't be a problem if I[NLINE]
 were to wield it![NWIN]
 
 [CC.AA0000]
@@ -467,8 +467,8 @@ Ah, excuse me! Hello![END-FE]
 heading in a bad direction...[NWIN]
 
 [CH.FACE:Serious]
-We best tell that little girl[NLINE]
-sister when we find her.[NWIN]
+We'd best tell her little sister[NLINE]
+when we find her.[NWIN]
 
 [CH.FACE:Normal]
 I wonder where she went?[END-FE]
@@ -828,7 +828,7 @@ She ran away?[NWIN]
 //みなさん？[END-FE]
 //Dungeon Girl\\
 Hmm?[NLINE]
-You here?[END-FE]
+You're here?[END-FE]
 
 
 
@@ -838,7 +838,7 @@ You here?[END-FE]
 #W32($4490)
 //い、妹さん？[END-FE]
 //Yurii\\
-L-little girl?[END-FE]
+L-little sister?[END-FE]
 
 
 
@@ -1511,7 +1511,7 @@ it without worry.[END-FE]
 //[COL01]関係者以外立ち入り禁止[COL00][END-FE]
 //System Message\\
 [COL05]New Material Research Laboratory[NLINE]
-[NLINE]Staff Only[END-FE]
+[COL01]Staff Only[END-FE]
 
 
 
@@ -1645,8 +1645,8 @@ in your hero.[END-FE]
 //心配なものは心配なんだから仕方ないでしょ！[END-FE]
 //Korin\\
 [CHAR2603][V1101]
-But then I just worry about not[NLINE]
-being worried! I can't help it![END-FE]
+Even so, if I'm worried, I'm worried![NLINE]
+I can't help it![END-FE]
 
 
 
@@ -2158,7 +2158,7 @@ Lennox Research Facility[END-FE]
 //　[NLINE]
 //光沢を放つペンが置いてある。[END-FE]
 [NLINE]
-It's a pen that emits a brilliant light[END-FE]
+It's a pen that emits a brilliant light.[END-FE]
 
 
 
@@ -2426,7 +2426,7 @@ perfume, the door will open.[END-FE]
 //POINTER #168 @ $4640 - STRING #168 @ $7147
 #W32($4640)
 //皆さん、お仕事頑張ってください。[END-FE]
-Good luck with your mission everyone.[END-FE]
+Good luck with your mission, everyone.[END-FE]
 
 
 

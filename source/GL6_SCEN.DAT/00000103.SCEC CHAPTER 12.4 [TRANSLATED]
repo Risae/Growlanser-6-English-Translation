@@ -52,7 +52,7 @@ Let's take Fanille to the[NLINE]
 research center.[NWIN]
 
 The cities nearest to it are[NLINE]
-Makinus and Leystan.[END-FE]
+Dastis and Leystan.[END-FE]
 
 
 
@@ -113,7 +113,7 @@ Go to the debugging room?[END-FE]
 //POINTER #7 @ $73C - STRING #7 @ $99D
 #W32($73C)
 //自動Ｄ　ＥＢ０８＿３[END-FE]
-自動D EB08_3[END-FE]
+Auto D EB08_3[END-FE]
 
 
 

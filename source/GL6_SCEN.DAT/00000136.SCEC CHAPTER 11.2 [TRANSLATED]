@@ -27,7 +27,7 @@
 //POINTER #1 @ $9A4 - STRING #1 @ $B13
 #W32($9A4)
 //会話済み[END-FE]
-会話済み[END-FE]
+Already spoken[END-FE]
 
 
 
@@ -1164,7 +1164,7 @@ called over.[NWIN]
 
 [CHAR2503][V6000]
 In any case, I'll still be in danger[NLINE]
-if I would stay here, won't I?[NWIN]
+if I stay here, won't I?[NWIN]
 
 [CHAR2503][V6100]
 Rather than waiting here for the outcome,[NLINE]

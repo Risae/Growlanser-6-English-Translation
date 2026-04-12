@@ -1783,7 +1783,7 @@ battles will cause the Gems to synthesize.[END-FE]
 //POINTER #149 @ $78F4 - STRING #149 @ $9E19
 #W32($78F4)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00]のジェム[END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL09]Planned[COL01] Synthesis Result[END-FE]
 
 
 
@@ -1792,7 +1792,7 @@ battles will cause the Gems to synthesize.[END-FE]
 //POINTER #150 @ $78F8 - STRING #150 @ $9E40
 #W32($78F8)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00]のジェム[END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL09]Planned[COL01] Synthesis Result[END-FE]
 
 
 
@@ -1801,7 +1801,7 @@ battles will cause the Gems to synthesize.[END-FE]
 //POINTER #151 @ $78FC - STRING #151 @ $9E67
 #W32($78FC)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00]のジェム[END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL09]Planned[COL01] Synthesis Result[END-FE]
 
 
 
@@ -1867,7 +1867,7 @@ Gem you would like to add to it.[END-FE]
 //POINTER #155 @ $790C - STRING #155 @ $A0CF
 #W32($790C)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00][END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL09]Planned[COL01] Synthesis Result[END-FE]
 
 
 
@@ -1876,7 +1876,7 @@ Gem you would like to add to it.[END-FE]
 //POINTER #156 @ $7910 - STRING #156 @ $A0EE
 #W32($7910)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00][END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL09]Planned[COL01] Synthesis Result[END-FE]
 
 
 
@@ -1885,7 +1885,7 @@ Gem you would like to add to it.[END-FE]
 //POINTER #157 @ $7914 - STRING #157 @ $A10D
 #W32($7914)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00][END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL09]Planned[COL01] Synthesis Result[END-FE]
 
 
 
@@ -1978,7 +1978,7 @@ possess a dismantle item.[END-FE]
 //その能力のLvが強化されます。[END-FE]
 If both Enchanted Gems you were to[NLINE]
 synthesize have the same effect, the level[NLINE]
-of that effect will increase.[END-FE]
+of that effect would increase.[END-FE]
 
 
 
@@ -2122,7 +2122,7 @@ also Gemstones. These cannot be equipped.[END-FE]
 //ジェムを作り出すことができます。[END-FE]
 Gemstones are not useful under normal[NLINE]
 circumstances. However, you can create new[NLINE]
-Enchanted Gems by synthesizing Gem Stones.[END-FE]
+Enchanted Gems by synthesizing Gemstones.[END-FE]
 
 
 
@@ -2955,7 +2955,7 @@ over time.[NWIN]
 
 However, it's unnatural for[NLINE]
 something to be built as a[NLINE]
-dungeon from the offset.[NWIN]
+dungeon from the outset.[NWIN]
 
 That's why there are no books about[NLINE]
 making them.[NWIN]
@@ -5952,7 +5952,7 @@ to a book?[END-FE]
 //多くの死傷者を出すことが可能。[END-FE]
 If Hingistan and Fomeros were to sign a[NLINE]
 ceasefire agreement, there's no doubt both[NLINE]
-armies will turn their attention to us.[NWIN]
+armies would turn their attention to us.[NWIN]
 
 No matter how much guerrilla tactics we[NLINE]
 employ, if both armies do a[NLINE]
@@ -6330,7 +6330,7 @@ No way, there was nothing there earlier.[NWIN]
 //多くの死傷者を出すことが可能。[END-FE]
 If Hingistan and Fomeros were to sign[NLINE]
 a ceasefire agreement, there's no doubt[NLINE]
-both armies will turn their attention to[NLINE]
+both armies would turn their attention to[NLINE]
 us.[NWIN]
 
 No matter how much guerrilla tactics[NLINE]

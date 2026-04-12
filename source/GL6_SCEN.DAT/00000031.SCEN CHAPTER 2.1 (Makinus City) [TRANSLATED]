@@ -561,7 +561,7 @@ the beginning of your last played mission[NLINE]
 battle, but its contents will be deleted[NLINE]
 when power is turned off.[NWIN]
 
-After you save, choosing Load will allow[NLINE]
+After you save, choosing [COL01]Load[COL00] will allow[NLINE]
 you to start over from the inn in case a[NLINE]
 mission battle proves to be too difficult.[NWIN]
 
@@ -1761,7 +1761,7 @@ I'll give you until tomorrow to rest.[END-FE]
 //[CHAR0D00][V0200]
 //はっ、ありがとうございます！[END-FE]
 [CHAR0D00][V0200]
-Understood, thank you sir![END-FE]
+Understood, thank you, sir![END-FE]
 
 
 

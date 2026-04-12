@@ -1038,8 +1038,8 @@ Mm-hmm.[END-FE]
 [CHAR3000][V1900]
 That was [COL01]Chairman Brandole[COL00][NLINE]
 who controls all of Monopolis...[NLINE]
-This is the first time I ever[NLINE]
-saw him this close.[NWIN]
+This is the first time I've ever[NLINE]
+seen him this close.[NWIN]
 
 [CH.FACE:Serious][CHAR3000][V1A00]
 Anyway, let's get out of here[NLINE]
@@ -2099,7 +2099,7 @@ problem.[END-FE]
 //　現モノポリス財閥総帥。[NLINE]
 //　その経営手腕はカリスマ的である。[END-FE]
 [Brandole][NLINE]
- Former chairman of Monopolis.[NLINE]
+ Current chairman of Monopolis.[NLINE]
  A highly skilled and charismatic[NLINE]
  business leader.[END-FE]
 
@@ -2172,8 +2172,8 @@ problem.[END-FE]
 [Shayer][NLINE]
  Served as Shuweizer's instructor until[NLINE]
  a few years ago. Her merit is highly[NLINE]
- regarded, and she is the sole CEO of the[NLINE]
- company.[END-FE]
+ regarded, and she has become one of the[NLINE]
+ directors.[END-FE]
 
 
 
@@ -2720,7 +2720,7 @@ Please feel free to use it.[END-FE]
 //POINTER #195 @ $7CAC - STRING #195 @ $B82E
 #W32($7CAC)
 //早く中に入るんだ。[END-FE]
-I got here early.[END-FE]
+Hurry and get inside.[END-FE]
 
 
 
@@ -4541,7 +4541,7 @@ Go to the debugging room?[END-FE]
 //POINTER #319 @ $7E9C - STRING #319 @ $DA5F
 #W32($7E9C)
 //身の程知らずが。[END-FE]
-My apologies, I forgot my place.[END-FE]
+Know your place![END-FE]
 
 
 

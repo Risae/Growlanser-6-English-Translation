@@ -218,7 +218,7 @@ Nothing out of the ordinary![END-FE]
 //　[END-FE]
 [NLINE]
 It doesn't seem to work because[NLINE]
-there is more than one person...[NLINE]
+there is more than one faction...[NLINE]
 [END-FE]
 
 
@@ -1817,7 +1817,7 @@ tasked with protecting the crystal...[END-FE]
 //POINTER #147 @ $866C - STRING #147 @ $A4E9
 #W32($866C)
 //戦闘をスキップしますか？[END-FE]
-Would you like to skip the conversation?[END-FE]
+Would you like to skip the battle?[END-FE]
 
 
 

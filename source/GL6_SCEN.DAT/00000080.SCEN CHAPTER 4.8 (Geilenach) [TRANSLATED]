@@ -440,7 +440,7 @@ yet tell you why, though.[END-FE]
 //俺もついて行きたいんだが…。[END-FE]
 //Rukias\\
 [CHAR1400][V6600]
-..I get it. I wouldn't want to get[NLINE]
+...I get it. I wouldn't want to get[NLINE]
 any funny looks, either.[NWIN]
 
 [CHAR1400][V6700]
@@ -786,7 +786,7 @@ Ah! That guy's with Yurii![END-FE]
 //POINTER #57 @ $4C84 - STRING #57 @ $5B41
 #W32($4C84)
 //それじゃ、君が[COL01]伝説の勇者[COL00]なのか…？[END-FE]
-Then could you be the[COL01]Legendary Hero[COL00]...?[END-FE]
+Then could you be the [COL01]Legendary Hero[COL00]...?[END-FE]
 
 
 
@@ -2971,8 +2971,8 @@ Woman 3[END-FE]
 #W32($4EE8)
 //司会のアシスタントを[NLINE]
 //務めさせて頂きます。[END-FE]
-司会のアシスタントを[NLINE]
-務めさせて頂きます。[END-FE]
+Allow me to serve as the[NLINE]
+MC's assistant.[END-FE]
 
 
 

@@ -476,8 +476,8 @@ register?[END-FE]
 //POINTER #39 @ $5ABC - STRING #39 @ $6277
 #W32($5ABC)
 //ついでに記録もとられますか？[END-FE]
-By the way, would you like to sign my[NLINE]
-customer register?[END-FE]
+By the way, would you like to sign[NLINE]
+my customer register?[END-FE]
 
 
 

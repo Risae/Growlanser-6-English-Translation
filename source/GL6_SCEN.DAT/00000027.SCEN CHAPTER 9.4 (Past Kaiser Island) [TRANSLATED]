@@ -331,7 +331,7 @@ the right place.[END-FE]
 //ただ吸引の石板を設置済みだとハマリます。[END-FE]
 //System Message\\
 Go to the debug room?[NLINE]
-However, if the sealing slab is already[NLINE]
+However, if the Sealing Tablet is already[NLINE]
 installed, it will be a hassle.[END-FE]
 
 
@@ -873,7 +873,7 @@ let that happen.[END-FE]
 #W32($49A0)
 //・石板を破壊される[NLINE]
 //・パーティーの全滅[END-FE]
-・One of the slabs is destroyed[NLINE]
+・A Tablet is destroyed[NLINE]
 ・All party members die[END-FE]
 
 
@@ -892,7 +892,7 @@ let that happen.[END-FE]
 //POINTER #66 @ $49A8 - STRING #66 @ $56EB
 #W32($49A8)
 //吸引の石板にヒビが入り始めた！[END-FE]
-The Sealing Plate began to crack![END-FE]
+The Sealing Tablet began to crack![END-FE]
 
 
 
@@ -901,7 +901,7 @@ The Sealing Plate began to crack![END-FE]
 //POINTER #67 @ $49AC - STRING #67 @ $570C
 #W32($49AC)
 //吸引の石板にヒビが入り始めた！[END-FE]
-The Sealing Plate began to crack![END-FE]
+The Sealing Tablet began to crack![END-FE]
 
 
 
@@ -910,7 +910,7 @@ The Sealing Plate began to crack![END-FE]
 //POINTER #68 @ $49B0 - STRING #68 @ $572D
 #W32($49B0)
 //吸引の石板にヒビが入り始めた！[END-FE]
-The Sealing Plate began to crack![END-FE]
+The Sealing Tablet began to crack![END-FE]
 
 
 
@@ -919,7 +919,7 @@ The Sealing Plate began to crack![END-FE]
 //POINTER #69 @ $49B4 - STRING #69 @ $574E
 #W32($49B4)
 //吸引の石板にヒビが入り始めた！[END-FE]
-The Sealing Plate began to crack![END-FE]
+The Sealing Tablet began to crack![END-FE]
 
 
 

@@ -251,7 +251,7 @@ Let's get moving![END-FE]
 #W32($3374)
 //・警備兵に気づかれずに、[NLINE]
 //　目的の女性を連れ出す[END-FE]
-・Take the girl with you without[NLINE]
+・Take the woman with you without[NLINE]
  being noticed by guards[END-FE]
 
 
@@ -271,7 +271,7 @@ Let's get moving![END-FE]
 #W32($337C)
 //・警備兵に気づかれずに、[NLINE]
 //　目的の女性を連れ出す[END-FE]
-・Take the girl with you without[NLINE]
+・Take the woman with you without[NLINE]
  being noticed by guards[END-FE]
 
 
@@ -291,7 +291,7 @@ Let's get moving![END-FE]
 #W32($3384)
 //・警備兵に気づかれずに、[NLINE]
 //　目的の女性を連れ出す[END-FE]
-・Take the girl with you without[NLINE]
+・Take the woman with you without[NLINE]
  being noticed by guards[END-FE]
 
 
@@ -473,7 +473,7 @@ before...[END-FE]
 //そのほかの事は…記憶は戻りましたか？[END-FE]
 [CHAR5100][V3000]
 I know that you don't remember[NLINE]
-me, but did any other of your[NLINE]
+me, but did any of your other[NLINE]
 memories return?[END-FE]
 
 
@@ -712,7 +712,7 @@ I want her to live peacefully.[END-FE]
 [CHAR5100][V1100]
 But you will make her use[NLINE]
 that power, won't you?[NLINE]
-That's why you're here...[END-FE]
+That alone is my concern...[END-FE]
 
 
 
@@ -769,7 +769,7 @@ time. If she were to do it a second[NLINE]
 time...[NWIN]
 
 [CHAR5100][V1600]
-...There's no guarantee that she will[NLINE]
+...There's no guarantee that she would[NLINE]
 survive...[END-FE]
 
 
@@ -1065,7 +1065,7 @@ working...[END-FE]
 //POINTER #78 @ $3458 - STRING #78 @ $47A3
 #W32($3458)
 //通常セーブでもよければ、セーブする？[END-FE]
-通常セーブでもよければ、セーブする？[END-FE]
+Would you like to do a normal save?[END-FE]
 
 
 
