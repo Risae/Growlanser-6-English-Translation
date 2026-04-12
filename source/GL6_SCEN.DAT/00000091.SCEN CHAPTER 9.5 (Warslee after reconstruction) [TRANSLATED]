@@ -1032,7 +1032,8 @@ Would you like to stay?[END-FE]
 #W32($39E0)
 //ついでに記録をとっていくかい？[END-FE]
 //Inn Clerk\\
-By the way, would you like to sign our guestbook?[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
 
 
 

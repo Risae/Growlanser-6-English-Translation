@@ -1859,7 +1859,8 @@ Would you like to stay?[END-FE]
 //POINTER #145 @ $5D64 - STRING #145 @ $8036
 #W32($5D64)
 //ついでに記録をとられますか？[END-FE]
-By the way, would you like to sign our guestbook?[END-FE]
+By the way, would you like to sign[NLINE]
+our guestbook?[END-FE]
 
 
 
