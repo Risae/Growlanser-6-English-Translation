@@ -2,7 +2,7 @@ import os
 import re
 import json
 
-base_dir = "/home/runner/work/Growlanser-6-English-Translation/Growlanser-6-English-Translation/source/GL6_SCEN.DAT/"
+base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "source", "GL6_SCEN.DAT")
 
 files = [
     "00000049.SCEN CHAPTER 5.3 [TRANSLATED]",
@@ -551,7 +551,7 @@ def apply_fixes(fixes):
             print(f"  [FIXED] {fname} L{line_num_1based}: {old_text[:60]} → {new_text[:60]}")
 
         if changed:
-            with open(path, 'w', encoding='utf-8') as f:
+            with open(path, 'w', encoding='utf-8', errors='replace') as f:
                 f.writelines(lines)
             print(f"  Saved {fname} ({len(file_changes)} changes)")
 
