@@ -861,10 +861,10 @@ bulkheads.[END-FE]
 //行ってしまっていたら、[NLINE]
 //フラグが初期化されて隔壁が降りてしまいます。[NLINE]
 //隔壁を開けますか？[END-FE]
-ボス戦前にデバックセーブ部屋に[NLINE]
-行ってしまっていたら、[NLINE]
-フラグが初期化されて隔壁が降りてしまいます。[NLINE]
-隔壁を開けますか？[END-FE]
+If you went to the debug save room before[NLINE]
+the boss battle, the flags were reset and[NLINE]
+the bulkheads have come down.[NLINE]
+Would you like to open the bulkheads?[END-FE]
 
 
 
