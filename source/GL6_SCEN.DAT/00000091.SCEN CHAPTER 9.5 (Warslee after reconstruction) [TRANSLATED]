@@ -510,7 +510,7 @@ Oooh... I sense you have an unusual[NLINE]
 destiny. It's very troublesome to[NLINE]
 interact with many people, isn't it?[NWIN]
 
-I know how to use the[COL01]Flower Perfume[COL00] as[NLINE]
+I know how to use the [COL01]Flower Perfume[COL00] as[NLINE]
 a catalyst to slightly alter the personality of others.[NWIN]
 
 If you could bring me some [COL01]Naton Fruit[COL00],[NLINE]
@@ -974,7 +974,7 @@ the reception first?[END-FE]
 #W32($39C8)
 //いらっしゃいませ。[END-FE]
 //Merchant\\
-Welcome[END-FE]
+Welcome.[END-FE]
 
 
 
