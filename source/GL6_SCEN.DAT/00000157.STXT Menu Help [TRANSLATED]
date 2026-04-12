@@ -144,7 +144,7 @@ Use the up and down directional buttons to select a character to revive.[END-FF]
 //POINTER #14 @ $D8 - STRING #14 @ $6D6
 #W32($D8)
 //方向キーの上下で装備部位の選択　　　装備部位は、上から『武器、防具、ジェム１・２』　　　[L1]、[R1]で他キャラクターの装備部位選択へ　　　武器、防具に合わせて[SQUARE]で説明と生成プレート候補表示の切り替え[END-FF]
-Use the up and down directional buttons to select an equipment slot.   From the top, the slots are Weapons, Armor, Gem 1 & Gem 2.   Press [L1] or [R1] to choose equipment of other Characters.   Press [SQUARE] to switch between Plate name and description[END-FF]
+Use the up and down directional buttons to select an equipment slot.   From the top, the slots are Weapons, Armor, Gem 1 & Gem 2.   Press [L1] or [R1] to choose equipment of other Characters.   Press [SQUARE] to switch between Plate name and description.[END-FF]
 
 
 
@@ -189,7 +189,7 @@ Press [CROSS] to bring up the equipment list screen.   Press [L1] or [R1] to swi
 //POINTER #19 @ $EC - STRING #19 @ $9C7
 #W32($EC)
 //[COL03][CIRCLE][COL00]で魔法リスト画面へ　　　[L1]、[R1]でキャラクター変更　　　[COL02][CROSS][COL00]で詳細ステイタス画面へ　　　武器、防具に合わせて[SQUARE]で説明と生成プレート候補表示の切り替え[END-FF]
-Press [CROSS] to bring up the spell list screen.   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to display details.   Press [SQUARE] to switch between Plate name and description[END-FF]
+Press [CROSS] to bring up the spell list screen.   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to display details.   Press [SQUARE] to switch between Plate name and description.[END-FF]
 
 
 
@@ -225,7 +225,7 @@ Press [CROSS] to bring up the gem screen.   Press [L1] or [R1] to switch charact
 //POINTER #23 @ $FC - STRING #23 @ $C1D
 #W32($FC)
 //[COL03][CIRCLE][COL00]で設定メニューへ戻る　　　[L1]、[R1]でキャラクター変更　　　[COL02][CROSS][COL00]でスキルリスト画面へ[END-FF]
-Press [CROSS] to return to the settings menu   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to bring up the skill list screen.[END-FF]
+Press [CROSS] to return to the settings menu.   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to bring up the skill list screen.[END-FF]
 
 
 
@@ -234,7 +234,7 @@ Press [CROSS] to return to the settings menu   Press [L1] or [R1] to switch char
 //POINTER #24 @ $100 - STRING #24 @ $C80
 #W32($100)
 //方向キーの上下で設定する思考を選択　　　[L1]、[R1]でキャラクター変更　　　[COL02][CROSS][COL00]で設定メニューへ戻る[END-FF]
-Press [CROSS] to bring up the options screen.   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to return to the settings menu[END-FF]
+Press [CROSS] to bring up the options screen.   Press [L1] or [R1] to switch characters.   Press [CIRCLE] to return to the settings menu.[END-FF]
 
 
 
@@ -297,7 +297,7 @@ Use the up or down directional buttons to select a setting.   Press [CROSS] to c
 //POINTER #31 @ $11C - STRING #31 @ $F3F
 #W32($11C)
 //方向キーでプレート位置の選択　　　空白位置で[COL03][CIRCLE][COL00]を押すとセットするプレートの選択へ　　　プレート上で[COL03][CIRCLE][COL00]を押すとプレートサブメニューへ　　　[COL05][SQUARE][COL00]でプレートの修得技能・能力を説明表示　　　[L1]、[R1]でキャラクター変更[END-FF]
-Use the directional buttons to select a plate location.   Press [CROSS] to set a plate in an open location.   Press [CROSS] on a plate to open the plate sub menu.   Press [L1] or [R1] to switch characters[END-FF]
+Use the directional buttons to select a plate location.   Press [CROSS] to set a plate in an open location.   Press [CROSS] on a plate to open the plate sub menu.   Press [L1] or [R1] to switch characters.[END-FF]
 
 
 
@@ -432,7 +432,7 @@ Press [L2] or [R2] to scroll through the gem list.   Press [SQUARE] to open the 
 //POINTER #46 @ $158 - STRING #46 @ $165A
 #W32($158)
 //[L2]、[R2]でグッズリストのスクロール送り　　　名称が暗いグッズは、所持金不足で購入できない[END-FF]
-Press [L2] or [R2] to scroll through the item list.   Grayed-out item cannot be purchased with your current funds.[END-FF]
+Press [L2] or [R2] to scroll through the item list.   Grayed-out items cannot be purchased with your current funds.[END-FF]
 
 
 
