@@ -72,7 +72,7 @@ We can't afford to leave Yurii![END-FE]
 //[CHARD003][V1200]
 //ユリィを助けないと！[END-FE]
 [CHARD003][V1200]
-We got to save Yurii![END-FE]
+We've got to save Yurii![END-FE]
 
 
 
@@ -105,7 +105,7 @@ We must save Yurii![END-FE]
 //[CHARD003][V1500]
 //早く助けてやらないと！[END-FE]
 [CHARD003][V1500]
-We got to hurry up and save her![END-FE]
+We've got to hurry up and save her![END-FE]
 
 
 
@@ -149,7 +149,7 @@ You're just going to abandon Korin?[END-FE]
 //POINTER #12 @ $DD0 - STRING #12 @ $FDC
 #W32($DD0)
 //コリンを助けなければ！[END-FE]
-We got to save Korin![END-FE]
+We've got to save Korin![END-FE]
 
 
 
