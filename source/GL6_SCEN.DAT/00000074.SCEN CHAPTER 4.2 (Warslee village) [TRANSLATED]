@@ -411,7 +411,7 @@ with the right weapons and armor."[END-FE]
 //[CHAR3800][V3D00]
 //すぐ海岸に用意するよ。[END-FE]
 [CHAR3800][V3B00]
-Huh, you want to use my boat you say?[NWIN]
+Huh, you want to use my boat, you say?[NWIN]
 
 [CHAR3800][V3C00]
 Why of course! Tools are there[NLINE]
@@ -1247,7 +1247,7 @@ that tree over there...[END-FE]
 //あそこにあるでしょうか？[END-FE]
 //Yurii\\
 [CHAR1100][V3100]
-That tree will probably be still[NLINE]
+That tree will probably still be[NLINE]
 there five years later, correct?[END-FE]
 
 
@@ -1270,7 +1270,7 @@ that time...[NWIN]
 
 [CH.FACE:Normal][CHAR1100][V3300]
 However, considering its current condition,[NLINE]
-I'm guessing it still will be around then.[END-FE]
+I'm guessing it will still be around then.[END-FE]
 
 
 
@@ -2530,7 +2530,7 @@ Since we originally didn't take part[NLINE]
 in this event, we shouldn't be present.[NWIN]
 
 [CHAR3800][V1000]
-Up to now we traveled through[NLINE]
+Up to now we have traveled through[NLINE]
 time to [COL01]restore history[COL00] to[NLINE]
 what it originally was.[NWIN]
 
