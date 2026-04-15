@@ -407,7 +407,7 @@ the means![END-FE]
 //良い子のみんなは、[NLINE]
 //マネしちゃダメだぞ[COL05][HEART][COL00][END-FE]
 //Dungeon Lady\\
-But remember, good kids don't steal! [COL05][HEART][END-FE]
+But remember, good kids don't steal! [COL05][HEART][COL00][END-FE]
 
 
 
@@ -1383,7 +1383,7 @@ on Enchanted Gems?[END-FE]
 //POINTER #109 @ $7854 - STRING #109 @ $9797
 #W32($7854)
 //[COL01]ジェム２[COL00][END-FE]
-[COL01]Gem 2[END-FE]
+[COL01]Gem 2[COL00][END-FE]
 
 
 
@@ -1392,7 +1392,7 @@ on Enchanted Gems?[END-FE]
 //POINTER #110 @ $7858 - STRING #110 @ $97A8
 #W32($7858)
 //[COL01]ジェム１[COL00][END-FE]
-[COL01]Gem 1[END-FE]
+[COL01]Gem 1[COL00][END-FE]
 
 
 
@@ -1401,7 +1401,7 @@ on Enchanted Gems?[END-FE]
 //POINTER #111 @ $785C - STRING #111 @ $97B9
 #W32($785C)
 //[COL01]ジェム２[COL00][END-FE]
-[COL01]Gem 2[END-FE]
+[COL01]Gem 2[COL00][END-FE]
 
 
 
@@ -1410,7 +1410,7 @@ on Enchanted Gems?[END-FE]
 //POINTER #112 @ $7860 - STRING #112 @ $97CA
 #W32($7860)
 //[COL01]ジェム１[COL00][END-FE]
-[COL01]Gem 1[END-FE]
+[COL01]Gem 1[COL00][END-FE]
 
 
 
@@ -1419,7 +1419,7 @@ on Enchanted Gems?[END-FE]
 //POINTER #113 @ $7864 - STRING #113 @ $97DB
 #W32($7864)
 //[COL01]ジェム２[COL00][END-FE]
-[COL01]Gem 2[END-FE]
+[COL01]Gem 2[COL00][END-FE]
 
 
 
@@ -1428,7 +1428,7 @@ on Enchanted Gems?[END-FE]
 //POINTER #114 @ $7868 - STRING #114 @ $97EC
 #W32($7868)
 //[COL01]ジェム１[COL00][END-FE]
-[COL01]Gem 1[END-FE]
+[COL01]Gem 1[COL00][END-FE]
 
 
 
@@ -1474,7 +1474,7 @@ abilities.[END-FE]
 //POINTER #118 @ $7878 - STRING #118 @ $9900
 #W32($7878)
 //[COL01]能力１[COL00][END-FE]
-[COL01]Ability 1[END-FE]
+[COL01]Ability 1[COL00][END-FE]
 
 
 
@@ -1483,7 +1483,7 @@ abilities.[END-FE]
 //POINTER #119 @ $787C - STRING #119 @ $990F
 #W32($787C)
 //[COL01]能力２[COL00][END-FE]
-[COL01]Ability 2[END-FE]
+[COL01]Ability 2[COL00][END-FE]
 
 
 
@@ -1492,7 +1492,7 @@ abilities.[END-FE]
 //POINTER #120 @ $7880 - STRING #120 @ $991E
 #W32($7880)
 //[COL01]能力３[COL00][END-FE]
-[COL01]Ability 3[END-FE]
+[COL01]Ability 3[COL00][END-FE]
 
 
 
@@ -1501,7 +1501,7 @@ abilities.[END-FE]
 //POINTER #121 @ $7884 - STRING #121 @ $992D
 #W32($7884)
 //[COL01]能力４[COL00][END-FE]
-[COL01]Ability 4[END-FE]
+[COL01]Ability 4[COL00][END-FE]
 
 
 
@@ -1520,7 +1520,7 @@ Some abilities have their own level.[END-FE]
 //POINTER #123 @ $788C - STRING #123 @ $996F
 #W32($788C)
 //[COL01]Lv[COL00][END-FE]
-[COL01]Lv[END-FE]
+[COL01]Lv[COL00][END-FE]
 
 
 
@@ -1529,7 +1529,7 @@ Some abilities have their own level.[END-FE]
 //POINTER #124 @ $7890 - STRING #124 @ $997A
 #W32($7890)
 //[COL01]Lv[COL00][END-FE]
-[COL01]Lv[END-FE]
+[COL01]Lv[COL00][END-FE]
 
 
 
@@ -1538,7 +1538,7 @@ Some abilities have their own level.[END-FE]
 //POINTER #125 @ $7894 - STRING #125 @ $9985
 #W32($7894)
 //[COL01]Lv[COL00][END-FE]
-[COL01]Lv[END-FE]
+[COL01]Lv[COL00][END-FE]
 
 
 
@@ -1624,7 +1624,7 @@ pressing the [START] button.[END-FE]
 //POINTER #133 @ $78B4 - STRING #133 @ $9B3F
 #W32($78B4)
 //[COL01]ジェム合成[COL00][END-FE]
-[COL01]Gem Synthesis[END-FE]
+[COL01]Gem Synthesis[COL00][END-FE]
 
 
 
@@ -1633,7 +1633,7 @@ pressing the [START] button.[END-FE]
 //POINTER #134 @ $78B8 - STRING #134 @ $9B52
 #W32($78B8)
 //[COL01]ジェム合成[COL00][END-FE]
-[COL01]Gem Synthesis[END-FE]
+[COL01]Gem Synthesis[COL00][END-FE]
 
 
 
@@ -1642,7 +1642,7 @@ pressing the [START] button.[END-FE]
 //POINTER #135 @ $78BC - STRING #135 @ $9B65
 #W32($78BC)
 //[COL01]ジェム合成[COL00][END-FE]
-[COL01]Gem Synthesis[END-FE]
+[COL01]Gem Synthesis[COL00][END-FE]
 
 
 
@@ -1730,7 +1730,7 @@ obtain a random result.[END-FE]
 //POINTER #144 @ $78E0 - STRING #144 @ $9CE8
 #W32($78E0)
 //・[COL01]『原石同士の合成』[COL00]について[END-FE]
-・About [COL01]Combining Gemstones[END-FE]
+・About [COL01]Combining Gemstones[COL00][END-FE]
 
 
 
@@ -1739,7 +1739,7 @@ obtain a random result.[END-FE]
 //POINTER #145 @ $78E4 - STRING #145 @ $9D0D
 #W32($78E4)
 //・[COL01]『ジェムへの原石の合成』[COL00]について[END-FE]
-・About [COL01]Combining Ench. Gems and Gemstones[END-FE]
+・About [COL01]Combining Ench. Gems and Gemstones[COL00][END-FE]
 
 
 
@@ -1783,7 +1783,7 @@ battles will cause the Gems to synthesize.[END-FE]
 //POINTER #149 @ $78F4 - STRING #149 @ $9E19
 #W32($78F4)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00]のジェム[END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL01]Planned Synthesis Result[COL00][END-FE]
 
 
 
@@ -1792,7 +1792,7 @@ battles will cause the Gems to synthesize.[END-FE]
 //POINTER #150 @ $78F8 - STRING #150 @ $9E40
 #W32($78F8)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00]のジェム[END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL01]Planned Synthesis Result[COL00][END-FE]
 
 
 
@@ -1801,7 +1801,7 @@ battles will cause the Gems to synthesize.[END-FE]
 //POINTER #151 @ $78FC - STRING #151 @ $9E67
 #W32($78FC)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00]のジェム[END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL01]Planned Synthesis Result[COL00][END-FE]
 
 
 
@@ -1867,7 +1867,7 @@ Gem you would like to add to it.[END-FE]
 //POINTER #155 @ $790C - STRING #155 @ $A0CF
 #W32($790C)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00][END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL01]Planned Synthesis Result[COL00][END-FE]
 
 
 
@@ -1876,7 +1876,7 @@ Gem you would like to add to it.[END-FE]
 //POINTER #156 @ $7910 - STRING #156 @ $A0EE
 #W32($7910)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00][END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL01]Planned Synthesis Result[COL00][END-FE]
 
 
 
@@ -1885,7 +1885,7 @@ Gem you would like to add to it.[END-FE]
 //POINTER #157 @ $7914 - STRING #157 @ $A10D
 #W32($7914)
 //[COL01]合成結果（[COL09]予定[COL01]）[COL00][END-FE]
-[COL01]Planned Synthesis Result[END-FE]
+[COL01]Planned Synthesis Result[COL00][END-FE]
 
 
 
@@ -1919,7 +1919,7 @@ main Gem.[END-FE]
 //POINTER #159 @ $791C - STRING #159 @ $A223
 #W32($791C)
 //[COL03]×[COL00][END-FE]
-[COL03]×[END-FE]
+[COL03]×[COL00][END-FE]
 
 
 
@@ -1928,7 +1928,7 @@ main Gem.[END-FE]
 //POINTER #160 @ $7920 - STRING #160 @ $A22E
 #W32($7920)
 //[COL03]×[COL00][END-FE]
-[COL03]×[END-FE]
+[COL03]×[COL00][END-FE]
 
 
 
@@ -1937,7 +1937,7 @@ main Gem.[END-FE]
 //POINTER #161 @ $7924 - STRING #161 @ $A239
 #W32($7924)
 //[COL03]×[COL00][END-FE]
-[COL03]×[END-FE]
+[COL03]×[COL00][END-FE]
 
 
 
@@ -1987,7 +1987,7 @@ of that effect would increase.[END-FE]
 //POINTER #165 @ $7934 - STRING #165 @ $A383
 #W32($7934)
 //[COL09]Lv１[COL00][END-FE]
-[COL09]Level 1[END-FE]
+[COL09]Level 1[COL00][END-FE]
 
 
 
@@ -1996,7 +1996,7 @@ of that effect would increase.[END-FE]
 //POINTER #166 @ $7938 - STRING #166 @ $A390
 #W32($7938)
 //[COL09]Lv２[COL00][END-FE]
-[COL09]Level 2[END-FE]
+[COL09]Level 2[COL00][END-FE]
 
 
 
@@ -2005,7 +2005,7 @@ of that effect would increase.[END-FE]
 //POINTER #167 @ $793C - STRING #167 @ $A39D
 #W32($793C)
 //[COL09]Lv１[COL00][END-FE]
-[COL09]Level 1[END-FE]
+[COL09]Level 1[COL00][END-FE]
 
 
 
@@ -2014,7 +2014,7 @@ of that effect would increase.[END-FE]
 //POINTER #168 @ $7940 - STRING #168 @ $A3AA
 #W32($7940)
 //[COL09]Lv２[COL00][END-FE]
-[COL09]Level 2[END-FE]
+[COL09]Level 2[COL00][END-FE]
 
 
 
@@ -2023,7 +2023,7 @@ of that effect would increase.[END-FE]
 //POINTER #169 @ $7944 - STRING #169 @ $A3B7
 #W32($7944)
 //[COL01]強化後[COL00][END-FE]
-[COL01]After Enhancing[END-FE]
+[COL01]After Enhancing[COL00][END-FE]
 
 
 
@@ -2032,7 +2032,7 @@ of that effect would increase.[END-FE]
 //POINTER #170 @ $7948 - STRING #170 @ $A3C6
 #W32($7948)
 //[COL01]Lv３[COL00][END-FE]
-[COL01]Level 3[END-FE]
+[COL01]Level 3[COL00][END-FE]
 
 
 
@@ -2041,7 +2041,7 @@ of that effect would increase.[END-FE]
 //POINTER #171 @ $794C - STRING #171 @ $A3D3
 #W32($794C)
 //[COL01]強化後[COL00][END-FE]
-[COL01]After Enhancing[END-FE]
+[COL01]After Enhancing[COL00][END-FE]
 
 
 
@@ -2050,7 +2050,7 @@ of that effect would increase.[END-FE]
 //POINTER #172 @ $7950 - STRING #172 @ $A3E2
 #W32($7950)
 //[COL01]Lv３[COL00][END-FE]
-[COL01]Level 3[END-FE]
+[COL01]Level 3[COL00][END-FE]
 
 
 
@@ -2059,7 +2059,7 @@ of that effect would increase.[END-FE]
 //POINTER #173 @ $7954 - STRING #173 @ $A3EF
 #W32($7954)
 //[COL01]強化後[COL00][END-FE]
-[COL01]After Enhancing[END-FE]
+[COL01]After Enhancing[COL00][END-FE]
 
 
 
@@ -2068,7 +2068,7 @@ of that effect would increase.[END-FE]
 //POINTER #174 @ $7958 - STRING #174 @ $A3FE
 #W32($7958)
 //[COL01]Lv３[COL00][END-FE]
-[COL01]Level 3[END-FE]
+[COL01]Level 3[COL00][END-FE]
 
 
 
@@ -2109,7 +2109,7 @@ also Gemstones. These cannot be equipped.[END-FE]
 //POINTER #177 @ $7964 - STRING #177 @ $A4F7
 #W32($7964)
 //[COL09]原石[COL00][END-FE]
-[COL09]Gemstone[END-FE]
+[COL09]Gemstone[COL00][END-FE]
 
 
 
@@ -2131,7 +2131,7 @@ Enchanted Gems by synthesizing Gemstones.[END-FE]
 //POINTER #179 @ $796C - STRING #179 @ $A579
 #W32($796C)
 //[COL01]合成後[COL00][END-FE]
-[COL01]After Synthesis[END-FE]
+[COL01]After Synthesis[COL00][END-FE]
 
 
 
@@ -2164,7 +2164,7 @@ Gemstone.[END-FE]
 //POINTER #181 @ $7974 - STRING #181 @ $A68D
 #W32($7974)
 //[COL09]原石[COL00][END-FE]
-[COL09]Gemstone[END-FE]
+[COL09]Gemstone[COL00][END-FE]
 
 
 
@@ -6885,7 +6885,7 @@ facial expression![END-FE]
 //POINTER #575 @ $7F9C - STRING #575 @ $ECC0
 #W32($7F9C)
 //ありがとうございました～[COL01]★[COL00][END-FE]
-Thank you for your patronage![COL01]★[END-FE]
+Thank you for your patronage![COL01]★[COL00][END-FE]
 
 
 
@@ -7009,7 +7009,7 @@ A two-person portrait will be 150[Mil].[END-FE]
 //POINTER #587 @ $7FCC - STRING #587 @ $EE94
 #W32($7FCC)
 //ありがとうございました～[COL01]★[COL00][END-FE]
-Thank you for your patronage![COL01]★[END-FE]
+Thank you for your patronage![COL01]★[COL00][END-FE]
 
 
 
@@ -7044,7 +7044,7 @@ pose with?[END-FE]
 //POINTER #590 @ $7FD8 - STRING #590 @ $EF5D
 #W32($7FD8)
 //ありがとうございました～[COL01]★[COL00][END-FE]
-Thank you for your patronage![COL01]★[END-FE]
+Thank you for your patronage![COL01]★[COL00][END-FE]
 
 
 
@@ -7079,7 +7079,7 @@ Is there someone you would like to pose with?[END-FE]
 //POINTER #593 @ $7FE4 - STRING #593 @ $F028
 #W32($7FE4)
 //ありがとうございました～[COL01]★[COL00][END-FE]
-Thank you for your patronage![COL01]★[END-FE]
+Thank you for your patronage![COL01]★[COL00][END-FE]
 
 
 
@@ -7127,7 +7127,7 @@ with?[END-FE]
 //POINTER #597 @ $7FF4 - STRING #597 @ $F124
 #W32($7FF4)
 //ありがとうございました～[COL01]★[COL00][END-FE]
-Thank you for your patronage![COL01]★[END-FE]
+Thank you for your patronage![COL01]★[COL00][END-FE]
 
 
 
