@@ -293,9 +293,9 @@ chance of nulling enemy spells.[NLINE]
 //武器攻撃時、[COL05]即死攻撃[COL00]が発動する。[NLINE]
 //Lv上昇で発動率アップ[NLINE]
 //[COL03]Р[COL00]＋[COL01]Р[COL00]　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[COL06]ボスには無効[END-FF]
-7% chance of [COL09]Fatal Strike[COL00] when using[NLINE]
+7% chance of [COL05]Fatal Strike[COL00] when using[NLINE]
 weapon attacks.[NLINE]
-[COL03]Р[COL00]＋[COL01]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up) [COL05]Boss[COL03]×[END-FF]
+[COL03]Р[COL00]＋[COL01]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up) [COL06]Boss[COL03]×[END-FF]
 
 
 
@@ -319,7 +319,7 @@ with 60% chance of blocking ailments.[NLINE]
 //装備中、[COL0A]毒攻撃[COL00]が発動する。[NLINE]
 //Lv上昇で発動率アップ。[NLINE]
 //[COL04]Р[COL00]＋[COL01]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
-Activates [COL01]Poison Attack[COL00].[NLINE]
+Activates [COL0A]Poison Attack[COL00].[NLINE]
 [NLINE]
 [COL04]Р[COL00]＋[COL01]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
@@ -332,7 +332,7 @@ Activates [COL01]Poison Attack[COL00].[NLINE]
 //装備中、[COL0A]猛毒攻撃[COL00]が発動する。[NLINE]
 //Lv上昇で発動率アップ。[NLINE]
 //[COL04]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
-Activates [COL01]Venom Attack[COL00].[NLINE]
+Activates [COL0A]Venom Attack[COL00].[NLINE]
 [NLINE]
 [COL04]Р[COL00]＋[COL0A]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
@@ -345,7 +345,7 @@ Activates [COL01]Venom Attack[COL00].[NLINE]
 //装備中、[COL0A]マヒ攻撃[COL00]が発動する。[NLINE]
 //Lv上昇で発動率アップ。[NLINE]
 //[COL04]Р[COL00]＋[COL04]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
-Activates [COL01]Paralysis Attack[COL00].[NLINE]
+Activates [COL0A]Paralysis Attack[COL00].[NLINE]
 [NLINE]
 [COL04]Р[COL00]＋[COL04]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
@@ -358,7 +358,7 @@ Activates [COL01]Paralysis Attack[COL00].[NLINE]
 //装備中、[COL0A]石化攻撃[COL00]が発動する。[NLINE]
 //Lv上昇で発動率アップ。[NLINE]
 //　　　　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
-Activates [COL01]Petrify Attack[COL00].[NLINE]
+Activates [COL0A]Petrify Attack[COL00].[NLINE]
 [NLINE]
 [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
@@ -371,8 +371,8 @@ Activates [COL01]Petrify Attack[COL00].[NLINE]
 //装備中、[COL0A]石化攻撃[COL09]、[COL0A]マヒ攻撃[COL09]、[NLINE]
 //[COL0A]猛毒攻撃[COL09]、[COL0A]毒攻撃[COL00]が発動する。[NLINE]
 //Lv上昇で発動率アップ。　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
-Activates [COL01]Petrify Attack[COL00], [COL01]Paralysis Attack[COL00],[NLINE]
-[COL01]Venom Attack[COL00], and [COL01]Poison Attack[COL00].[NLINE]
+Activates [COL0A]Petrify Attack[COL00], [COL0A]Paralysis Attack[COL00],[NLINE]
+[COL0A]Venom Attack[COL00], and [COL0A]Poison Attack[COL00].[NLINE]
 [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
 
@@ -386,7 +386,7 @@ Activates [COL01]Petrify Attack[COL00], [COL01]Paralysis Attack[COL00],[NLINE]
 //アップ。[COL04]Р[COL00]＋[COL0B]Р[COL00][COL09]最大＋9累積[COL03]●[COL09](確率UP)[COL06]ボスには無効[END-FF]
 Weapon attacks put the enemy to sleep.[NLINE]
 Successful against low spiritual resistance.[NLINE]
-[COL04]Р[COL00]＋[COL0B]Р[COL00]  [COL09]Stack[COL03]●[COL09] (Rate Up) [COL05]Boss[COL03]×[END-FF]
+[COL04]Р[COL00]＋[COL0B]Р[COL00]  [COL09]Stack[COL03]●[COL09] (Rate Up) [COL06]Boss[COL03]×[END-FF]
 
 
 
@@ -503,7 +503,7 @@ by 20%.[NLINE]
 //[COL02]Р[COL00]＋[COL03]Р[COL00]　　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[END-FF]
 Increases reach of direct attacks[NLINE]
 by 15%.[NLINE]
-[COL02]Р[COL00]＋[COL03]Р[COL00]  [COL09]Stack[COL03]● (Range Up)[END-FF]
+[COL02]Р[COL00]＋[COL03]Р[COL00]  [COL09]Stack[COL03]●[COL09] (Range Up)[END-FF]
 
 
 
@@ -515,7 +515,7 @@ by 15%.[NLINE]
 //Lv上昇で確率アップ。[NLINE]
 //[COL09]Р[COL00]＋[COL02]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Increases activation rate of the[NLINE]
-skill [COL0D]Shadow Dodge[COL00].[NLINE]
+skill [COL0A]Shadow Dodge[COL00].[NLINE]
 [COL09]Р[COL00]＋[COL02]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
 
@@ -527,7 +527,7 @@ skill [COL0D]Shadow Dodge[COL00].[NLINE]
 //特技[COL03]カウンター[COL00]を習得していると１５％の確率で[NLINE]
 //自動的に発動する。Lv上昇で確率アップ。[NLINE]
 //　　　　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
-If the user knows [COL0D]Counter[COL00], 15% chance[NLINE]
+If the user knows [COL03]Counter[COL00], 15% chance[NLINE]
 of it automatically activating.[NLINE]
 [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
 
@@ -619,7 +619,7 @@ Critical hit rate increases by 20%.[NLINE]
 //[COL05]足留め[COL00]と併用可能。[NLINE]
 //[COL02]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　　　[COL09]累積[COL03]●[COL09](追加硬直UP)[END-FF]
 Increases enemy stagger time when[NLINE]
-attacking. Can be used with [COL04]Impede[COL00].[NLINE]
+attacking. Can be used with [COL05]Impede[COL00].[NLINE]
 [COL02]Р[COL00]＋[COL0A]Р[COL00]  [COL09]Stack[COL03]●[COL09] (Stagger Up)[END-FF]
 
 
@@ -632,7 +632,7 @@ attacking. Can be used with [COL04]Impede[COL00].[NLINE]
 //[COL05]足留め[COL00]と併用可能。[NLINE]
 //　　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](追加硬直UP)[END-FF]
 Increases enemy stagger time when[NLINE]
-attacking. Can be used with [COL04]Impede[COL00].[NLINE]
+attacking. Can be used with [COL05]Impede[COL00].[NLINE]
 [COL09]Stack[COL03]●[COL09] (Stagger Up)[END-FF]
 
 
@@ -645,7 +645,7 @@ attacking. Can be used with [COL04]Impede[COL00].[NLINE]
 //[COL05]足留め[COL00]と併用可能。[NLINE]
 //Lv上昇で効果アップ。　[COL09]最大＋9累積[COL03]●[COL09](追加硬直UP)[END-FF]
 Increases enemy stagger time when[NLINE]
-attacking. Can be used with [COL04]Impede[COL00].[NLINE]
+attacking. Can be used with [COL05]Impede[COL00].[NLINE]
 [COL09]Stack＋9[COL03]●[COL09] (Stagger Up)[END-FF]
 
 
@@ -698,7 +698,7 @@ done to an enemy's MP.[NLINE]
 //[COL03]Р[COL00]＋[COL0B]Р[COL00]　　　　[COL09]最大＋9累積[COL03]●[COL09](効果UP)[COL06]ボスには無効[END-FF]
 Lowers target's MP by 25%, and[NLINE]
 increases damage from critical hits.[NLINE]
-[COL03]Р[COL00]＋[COL0B]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up) [COL05]Boss[COL03]×[END-FF]
+[COL03]Р[COL00]＋[COL0B]Р[COL00]  [COL09]Stack＋9[COL03]●[COL09] (Rate Up) [COL06]Boss[COL03]×[END-FF]
 
 
 
@@ -854,7 +854,7 @@ Decreases weapon damage taken by 10%.[NLINE]
 //[COL02]Р[COL00]＋[COL0B]Р[COL00]　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](減少値UP)[END-FF]
 Decreases spell damage taken by 15%.[NLINE]
 [NLINE]
-[COL02]Р[COL00]＋[COL0B]Р  Stack＋9[COL03]●[COL09] (Damage Down)[END-FF]
+[COL02]Р[COL00]＋[COL0B]Р[COL00]  Stack＋9[COL03]●[COL09] (Damage Down)[END-FF]
 
 
 
