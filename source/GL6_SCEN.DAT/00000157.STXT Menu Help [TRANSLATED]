@@ -414,7 +414,7 @@ Press [L2] or [R2] to scroll through the weapon list.   Press [SQUARE] to see th
 //POINTER #44 @ $150 - STRING #44 @ $14E2
 #W32($150)
 //[L2]、[R2]で防具リストのスクロール送り　　　[COL05][SQUARE][COL00]で生成されるプレートの表示　　　必要ＳＴＲの不足（ペナルティーあり）に注意　　　暗く表示されたキャラクターは、選択中の防具が装備できない　　　名称が暗い防具は、所持金不足で購入できない[END-FF]
-Press [L2] or [R2] to scroll through the armor list.   Press [SQUARE] to see the plates an armor will generate.   Be mindful of those you lack the STR to use without penalties.   Grayed-out characters cannot equip the selected armor.   Grayed-out armor cannot be purchased with your current funds.[END-FF]
+Press [L2] or [R2] to scroll through the armor list.   Press [SQUARE] to see the plates the selected armor will generate.   Be mindful of those you lack the STR to use without penalties.   Grayed-out characters cannot equip the selected armor.   Grayed-out armor cannot be purchased with your current funds.[END-FF]
 
 
 
