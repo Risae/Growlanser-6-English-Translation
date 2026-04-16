@@ -854,28 +854,28 @@ jobs:
           Move-Item -Verbose -Path "$Env:GITHUB_WORKSPACE\build\01-armips\SLPM_667.16" -Destination "$Env:GITHUB_WORKSPACE\build\06-translates_files\SLPM_667.16"
 
       - name: 05.1 Upload armips temp Artifact X O
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: SLPM_667.16_VWF.temp.txt
           path: ${{ github.workspace }}\build\01-armips\SLPM_667.16_Switch-Input-X-O.temp.txt
           archive: false # Direct file upload
 
       - name: 05.2 Upload armips temp Artifact VWF
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: SLPM_667.16_VWF.temp.txt
           path: ${{ github.workspace }}\build\01-armips\SLPM_667.16_VWF.temp.txt
           archive: false # Direct file upload
 
       - name: 05.3 Upload armips symbol Artifact X O
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: SLPM_667.16_VWF.sym2
           path: ${{ github.workspace }}\build\01-armips\SLPM_667.16_Switch-Input-X-O.sym2
           archive: false # Direct file upload
 
       - name: 05.4 Upload armips symbol Artifact VWF
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: SLPM_667.16_VWF.sym2
           path: ${{ github.workspace }}\build\01-armips\SLPM_667.16_VWF.sym2
@@ -1243,7 +1243,7 @@ jobs:
           Write-Host "`n[i] ✅ Finished! HTML diffs are in 'build\debug_diff\html_diffs\'"
 
       - name: 08.2 Upload Debug Artifact
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: Growlanser_6_Debug_Diffs
           path: ${{ github.workspace }}\build\debug_diff
@@ -1481,7 +1481,7 @@ jobs:
           rm "$Env:GITHUB_WORKSPACE\build\07-xDeltaPatch\vcdiff\file"
 
       - name: 13. Publish patch as an Artifact
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: Growlanser_6_English_xDelta_Patch
           path: ${{ github.workspace }}\build\07-xDeltaPatch
