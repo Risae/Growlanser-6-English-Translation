@@ -747,7 +747,7 @@ will not ask for instructions again.[END-FE]
 //POINTER #49 @ $5FE4 - STRING #49 @ $6F24
 #W32($5FE4)
 //・[COL01]『攻撃』[COL00]について[END-FE]
-・About [COL01]"Attack"[COL00][END-FE]
+・About [COL01]"Attack"[END-FE]
 
 
 
@@ -756,7 +756,7 @@ will not ask for instructions again.[END-FE]
 //POINTER #50 @ $5FE8 - STRING #50 @ $6F3F
 #W32($5FE8)
 //・[COL01]『移動』[COL00]について[END-FE]
-・About [COL01]"Move"[COL00][END-FE]
+・About [COL01]"Move"[END-FE]
 
 
 
@@ -765,7 +765,7 @@ will not ask for instructions again.[END-FE]
 //POINTER #51 @ $5FEC - STRING #51 @ $6F5A
 #W32($5FEC)
 //・[COL01]『防御』[COL00]について[END-FE]
-・About [COL01]"Defend"[COL00][END-FE]
+・About [COL01]"Defend"[END-FE]
 
 
 
@@ -774,7 +774,7 @@ will not ask for instructions again.[END-FE]
 //POINTER #52 @ $5FF0 - STRING #52 @ $6F75
 #W32($5FF0)
 //・[COL01]『自動』[COL00]について[END-FE]
-・About [COL01]"Auto"[COL00][END-FE]
+・About [COL01]"Auto"[END-FE]
 
 
 
@@ -2462,7 +2462,7 @@ I've got no goods in stock today![END-FE]
 //POINTER #165 @ $61B4 - STRING #165 @ $8E9C
 #W32($61B4)
 //あははっ、こいつ～[COL03][HEART][COL00][END-FE]
-Ahahaha, oh you![COL03][HEART][COL00][END-FE]
+Ahahaha, oh you![COL03][HEART][END-FE]
 
 
 
@@ -2486,7 +2486,7 @@ Ahahaha, oh you![COL03][HEART][COL00][END-FE]
 //女\\
 //いや～ん、ケンたらぁ[COL03][HEART][COL00][END-FE]
 //Woman\\
-Oh stop it, you silly boy! [COL03][HEART][COL00][END-FE]
+Oh stop it, you silly boy! [COL03][HEART][END-FE]
 
 
 
