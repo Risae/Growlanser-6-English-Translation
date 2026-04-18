@@ -1631,7 +1631,7 @@ to this graveyard for?[END-FE]
 //POINTER #122 @ $A108 - STRING #122 @ $C346
 #W32($A108)
 //・墓場を守るより戦場に生きたい[END-FE]
-・I want to be buried in a flowerfield rather[NLINE]
+・I want to be buried in a flower field rather[NLINE]
  than in a graveyard[END-FE]
 
 
@@ -1673,7 +1673,7 @@ to this graveyard for?[END-FE]
 //[CHAR5B00][V2100]
 //だったら戦場に行きな。[END-FE]
 [CHAR5B00][V2100]
-Then go to a flowerfield.[END-FE]
+Then go to a flower field.[END-FE]
 
 
 
