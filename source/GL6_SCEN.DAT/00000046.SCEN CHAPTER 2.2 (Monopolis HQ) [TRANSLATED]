@@ -444,7 +444,7 @@ Please select a destination.[END-FE]
 //POINTER #36 @ $7A30 - STRING #36 @ $849A
 #W32($7A30)
 //・[COL05]１２Ｆ（総帥フロア）[COL00][END-FE]
-・[COL05]12F (Chairman's floor)[END-FE]
+・[COL05]12F (Chairman's floor)[COL00][END-FE]
 
 
 
@@ -2114,7 +2114,7 @@ problem.[END-FE]
 //　[COL06]その他の内容は現在調整中[COL00][END-FE]
 [Brandole][NLINE]
  Former chairman of Monopolis.[NLINE]
- [COL06]Other details are unavailable at the moment.[END-FE]
+ [COL06]Other details are unavailable at the moment.[COL00][END-FE]
 
 
 

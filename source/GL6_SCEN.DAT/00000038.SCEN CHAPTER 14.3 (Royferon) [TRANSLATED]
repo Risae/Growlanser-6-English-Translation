@@ -892,7 +892,7 @@ wearing are really weird.[END-FE]
 //POINTER #63 @ $A01C - STRING #63 @ $B7E9
 #W32($A01C)
 //彼と一緒なら、毎日ハッピーよ[COL03][HEART][COL00][END-FE]
-Every day is happy when I'm with my boyfriend.[COL03][HEART][END-FE]
+Every day is happy when I'm with my boyfriend.[COL03][HEART][COL00][END-FE]
 
 
 

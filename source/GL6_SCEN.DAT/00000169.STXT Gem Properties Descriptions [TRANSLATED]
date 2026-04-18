@@ -22,7 +22,7 @@
 //与える。　　　　[COL03]Р[COL00]＋[COL04]Р[COL00] [COL09]累積[COL03]●[COL09](ダメージ&耐性UP)[END-FF]
 Adds fire to regular attacks and[NLINE]
 lowers the target's fire resistance.[NLINE]
-[COL03]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[END-FF]
+[COL03]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[COL00][END-FF]
 
 
 
@@ -35,7 +35,7 @@ lowers the target's fire resistance.[NLINE]
 //与える。　　　　[COL0A]Р[COL00]＋[COL04]Р[COL00] [COL09]累積[COL03]●[COL09](ダメージ&耐性UP)[END-FF]
 Adds wind to regular attacks and[NLINE]
 lowers the target's wind resistance.[NLINE]
-[COL0A]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[END-FF]
+[COL0A]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[COL00][END-FF]
 
 
 
@@ -48,7 +48,7 @@ lowers the target's wind resistance.[NLINE]
 //与える。　　　　[COL02]Р[COL00]＋[COL04]Р[COL00] [COL09]累積[COL03]●[COL09](ダメージ&耐性UP)[END-FF]
 Adds lightning to regular attacks and[NLINE]
 lowers the target's lightning resistance.[NLINE]
-[COL02]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[END-FF]
+[COL02]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[COL00][END-FF]
 
 
 
@@ -61,7 +61,7 @@ lowers the target's lightning resistance.[NLINE]
 //与える。　　　　[COL09]Р[COL00]＋[COL04]Р[COL00] [COL09]累積[COL03]●[COL09](ダメージ&耐性UP)[END-FF]
 Adds ice to regular attacks and[NLINE]
 lowers the target's ice resistance.[NLINE]
-[COL09]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[END-FF]
+[COL09]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[COL00][END-FF]
 
 
 
@@ -74,7 +74,7 @@ lowers the target's ice resistance.[NLINE]
 //与える。　　　　[COL01]Р[COL00]＋[COL04]Р[COL00] [COL09]累積[COL03]●[COL09](ダメージ&耐性UP)[END-FF]
 Adds earth to regular attacks and[NLINE]
 lowers the target's earth resistance.[NLINE]
-[COL01]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[END-FF]
+[COL01]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[COL00][END-FF]
 
 
 
@@ -87,7 +87,7 @@ lowers the target's earth resistance.[NLINE]
 //与える。　　　　[COL0B]Р[COL00]＋[COL04]Р[COL00] [COL09]累積[COL03]●[COL09](ダメージ&耐性UP)[END-FF]
 Adds holy to regular attacks and[NLINE]
 lowers the target's holy resistance.[NLINE]
-[COL0B]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[END-FF]
+[COL0B]Р[COL00]＋[COL04]Р  [COL09]Stack[COL03]●[COL09] (Damage & Resistance Up)[COL00][END-FF]
 
 
 
@@ -269,7 +269,7 @@ adapting to the target's weakness.[NLINE]
 //[COL0B]Р[COL00]＋[COL09]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Max MP lowered to 0, but gain 30%[NLINE]
 chance of nulling enemy spells.[NLINE]
-[COL0B]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
+[COL0B]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[COL00][END-FF]
 
 
 
@@ -308,7 +308,7 @@ weapon attacks.[NLINE]
 //[COL04]Р[COL00]＋[COL09]Р[COL00]　　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Decreases chance of being knocked out,[NLINE]
 with 60% chance of blocking ailments.[NLINE]
-[COL04]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
+[COL04]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[COL00][END-FF]
 
 
 
@@ -321,7 +321,7 @@ with 60% chance of blocking ailments.[NLINE]
 //[COL04]Р[COL00]＋[COL01]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Activates [COL0A]Poison Attack[COL00].[NLINE]
 [NLINE]
-[COL04]Р[COL00]＋[COL01]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
+[COL04]Р[COL00]＋[COL01]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[COL00][END-FF]
 
 
 
@@ -334,7 +334,7 @@ Activates [COL0A]Poison Attack[COL00].[NLINE]
 //[COL04]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Activates [COL0A]Venom Attack[COL00].[NLINE]
 [NLINE]
-[COL04]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
+[COL04]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[COL00][END-FF]
 
 
 
@@ -347,7 +347,7 @@ Activates [COL0A]Venom Attack[COL00].[NLINE]
 //[COL04]Р[COL00]＋[COL04]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Activates [COL0A]Paralysis Attack[COL00].[NLINE]
 [NLINE]
-[COL04]Р[COL00]＋[COL04]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
+[COL04]Р[COL00]＋[COL04]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[COL00][END-FF]
 
 
 
@@ -399,7 +399,7 @@ Successful against low spiritual resistance.[NLINE]
 //[COL01]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](回復値UP)[END-FF]
 HP regenerates in increments[NLINE]
 of 3 HP during battle.[NLINE]
-[COL01]Р[COL00]＋[COL0A]Р  [COL09]Stack[COL03]●[COL09] (Heal Rate Up)[END-FF]
+[COL01]Р[COL00]＋[COL0A]Р  [COL09]Stack[COL03]●[COL09] (Heal Rate Up)[COL00][END-FF]
 
 
 
@@ -425,7 +425,7 @@ of 7 HP during battle.[NLINE]
 //[COL0B]Р[COL00]＋[COL0B]Р[COL00]　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](回復値UP)[END-FF]
 MP regenerates in increments[NLINE]
 of 1 MP during battle.[NLINE]
-[COL0B]Р[COL00]＋[COL0B]Р  [COL09]Stack[COL03]●[COL09] (Heal Rate Up)[END-FF]
+[COL0B]Р[COL00]＋[COL0B]Р  [COL09]Stack[COL03]●[COL09] (Heal Rate Up)[COL00][END-FF]
 
 
 
@@ -451,7 +451,7 @@ of 1 HP during battle.[NLINE]
 //[COL0A]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](回復効果UP)[END-FF]
 HP recovery item effects increase[NLINE]
 by 25%.[NLINE]
-[COL0A]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Rate Up)[END-FF]
+[COL0A]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Rate Up)[COL00][END-FF]
 
 
 
@@ -477,7 +477,7 @@ increase by 25%.[NLINE]
 //[COL0A]Р[COL00]＋[COL02]Р[COL00]　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](射程距離UP)[END-FF]
 Increases throwing weapon attack[NLINE]
 range by 15%.[NLINE]
-[COL0A]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Range Up)[END-FF]
+[COL0A]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Range Up)[COL00][END-FF]
 
 
 
@@ -490,7 +490,7 @@ range by 15%.[NLINE]
 //[COL0B]Р[COL00]＋[COL02]Р[COL00]　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](射程距離UP)[END-FF]
 Increases casting range of spells[NLINE]
 by 20%.[NLINE]
-[COL0B]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Range Up)[END-FF]
+[COL0B]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Range Up)[COL00][END-FF]
 
 
 
@@ -503,7 +503,7 @@ by 20%.[NLINE]
 //[COL02]Р[COL00]＋[COL03]Р[COL00]　　　　　　　　　　　　　　　　　[COL09]累積[COL03]●[END-FF]
 Increases reach of direct attacks[NLINE]
 by 15%.[NLINE]
-[COL02]Р[COL00]＋[COL03]Р  [COL09]Stack[COL03]● (Range Up)[END-FF]
+[COL02]Р[COL00]＋[COL03]Р  [COL09]Stack[COL03]● (Range Up)[COL00][END-FF]
 
 
 
@@ -516,7 +516,7 @@ by 15%.[NLINE]
 //[COL09]Р[COL00]＋[COL02]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](確率UP)[END-FF]
 Increases activation rate of the[NLINE]
 skill [COL0A]Shadow Dodge[COL00].[NLINE]
-[COL09]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[END-FF]
+[COL09]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Rate Up)[COL00][END-FF]
 
 
 
@@ -542,7 +542,7 @@ of it automatically activating.[NLINE]
 //[COL0A]Р[COL00]＋[COL03]Р[COL00]　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](増加率UP)[END-FF]
 Deal 12% more weapon damage.[NLINE]
 [NLINE]
-[COL0A]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[END-FF]
+[COL0A]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[COL00][END-FF]
 
 
 
@@ -594,7 +594,7 @@ more damage. If not, deal less damage.[NLINE]
 //[COL03]Р[COL00]＋[COL03]Р[COL00]　　　　　[COL09]最大＋9累積[COL03]●[COL09](クリティカル率UP)[END-FF]
 Critical hit rate increases by 12%.[NLINE]
 [NLINE]
-[COL03]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (Crit Rate Up)[END-FF]
+[COL03]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (Crit Rate Up)[COL00][END-FF]
 
 
 
@@ -659,7 +659,7 @@ attacking. Can be used with [COL05]Impede[COL00].[NLINE]
 //[COL04]Р[COL00]＋[COL03]Р[COL00]　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](効果UP)[END-FF]
 Target is more easily knocked out.[NLINE]
 [NLINE]
-[COL04]Р[COL00]＋[COL03]Р  [COL09]Stack[COL03]●[COL09] (Effect Up)[END-FF]
+[COL04]Р[COL00]＋[COL03]Р  [COL09]Stack[COL03]●[COL09] (Effect Up)[COL00][END-FF]
 
 
 
@@ -685,7 +685,7 @@ at knocking out targets.[NLINE]
 //[COL0B]Р[COL00]＋[COL03]Р[COL00]　　　　　　[COL09]最大＋9累積[COL03]●[COL09](ＭＰダメージUP)[END-FF]
 30% of weapon damage is also[NLINE]
 done to an enemy's MP.[NLINE]
-[COL0B]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (MP Damage Up)[END-FF]
+[COL0B]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (MP Damage Up)[COL00][END-FF]
 
 
 
@@ -711,7 +711,7 @@ increases damage from critical hits.[NLINE]
 //[COL09]Р[COL00]＋[COL03]Р[COL00]　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](ダメージUP)[END-FF]
 Increases weapon damage by 50% but[NLINE]
 receive 50% of damage dealt.[NLINE]
-[COL09]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[END-FF]
+[COL09]Р[COL00]＋[COL03]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[COL00][END-FF]
 
 
 
@@ -724,7 +724,7 @@ receive 50% of damage dealt.[NLINE]
 //[COL09]Р[COL00]＋[COL01]Р[COL00]　　　　[COL09]最大＋9累積[COL03]●[COL09](相手へのダメージUP)[END-FF]
 Deals 10% of damage received back[NLINE]
 to your attacker.[NLINE]
-[COL09]Р[COL00]＋[COL01]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[END-FF]
+[COL09]Р[COL00]＋[COL01]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[COL00][END-FF]
 
 
 
@@ -763,7 +763,7 @@ Reduces damage taken by 30% at the cost of[NLINE]
 //[COL09]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](回復量UP)[END-FF]
 15% of weapon damage is restored[NLINE]
 to the attacker's HP.[NLINE]
-[COL09]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Amount Up)[END-FF]
+[COL09]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Amount Up)[COL00][END-FF]
 
 
 
@@ -776,7 +776,7 @@ to the attacker's HP.[NLINE]
 //[COL09]Р[COL00]＋[COL0B]Р[COL00]　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](回復量UP)[END-FF]
 15% of spell damage is restored[NLINE]
 to the attacker's HP.[NLINE]
-[COL09]Р[COL00]＋[COL0B]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Amount Up)[END-FF]
+[COL09]Р[COL00]＋[COL0B]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Amount Up)[COL00][END-FF]
 
 
 
@@ -841,7 +841,7 @@ Decreases healing spell costs by 20%.[NLINE]
 //[COL0A]Р[COL00]＋[COL09]Р[COL00]　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](減少値UP)[END-FF]
 Decreases weapon damage taken by 10%.[NLINE]
 [NLINE]
-[COL0A]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Down)[END-FF]
+[COL0A]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Down)[COL00][END-FF]
 
 
 
@@ -948,7 +948,7 @@ Level of usable knacks increases by 1.[NLINE]
 //[COL0A]Р[COL00]＋[COL0B]Р[COL00]　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](魔力上昇率UP)[END-FF]
 Increases the effect of attack[NLINE]
 and restoration spells.[NLINE]
-[COL0A]Р[COL00]＋[COL0B]Р  [COL09]Stack＋9[COL03]●[COL09] (Spell Strength Up)[END-FF]
+[COL0A]Р[COL00]＋[COL0B]Р  [COL09]Stack＋9[COL03]●[COL09] (Spell Strength Up)[COL00][END-FF]
 
 
 
@@ -974,7 +974,7 @@ attack and restoration spells.[NLINE]
 //[COL09]Р[COL00]＋[COL09]Р[COL00]　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](回避率UP)[END-FF]
 Increases chance of dodging enemy[NLINE]
 attacks.[NLINE]
-[COL09]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Dodge Up)[END-FF]
+[COL09]Р[COL00]＋[COL09]Р  [COL09]Stack＋9[COL03]●[COL09] (Dodge Up)[COL00][END-FF]
 
 
 
@@ -987,7 +987,7 @@ attacks.[NLINE]
 //[COL01]Р[COL00]＋[COL0B]Р[COL00]　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](無効確率UP)[END-FF]
 Increases resistance to all[NLINE]
 magic by 25%.[NLINE]
-[COL01]Р[COL00]＋[COL0B]Р  [COL09]Stack＋9[COL03]●[COL09] (Resistance Up)[END-FF]
+[COL01]Р[COL00]＋[COL0B]Р  [COL09]Stack＋9[COL03]●[COL09] (Resistance Up)[COL00][END-FF]
 
 
 
@@ -1344,7 +1344,7 @@ enemies on the field than allies.[NLINE]
 //[COL01]Р[COL00]＋[COL09]Р[COL00]　　　　　　　　　　　　　[COL09]累積[COL03]●[COL09](効果UP)[END-FF]
 Decreases the chance of being[NLINE]
 knocked out by enemy attacks.[NLINE]
-[COL01]Р[COL00]＋[COL09]Р  [COL09]Stack[COL03]●[COL09] (Effect Up)[END-FF]
+[COL01]Р[COL00]＋[COL09]Р  [COL09]Stack[COL03]●[COL09] (Effect Up)[COL00][END-FF]
 
 
 
@@ -1396,7 +1396,7 @@ certain radius during battle.[NLINE]
 //[COL04]Р[COL00]＋[COL02]Р[COL00]　　　　　　　　　　　　　　　　　　[COL09]累積[COL03]×[END-FF]
 Cures status ailments by taking damage.[NLINE]
 [NLINE]
-[COL04]Р[COL00]＋[COL02]Р  [COL09]Stack[COL03]×[END-FF]
+[COL04]Р[COL00]＋[COL02]Р  [COL09]Stack[COL03]×[COL00][END-FF]
 
 
 
@@ -1409,7 +1409,7 @@ Cures status ailments by taking damage.[NLINE]
 //[COL03]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](効果UP)[END-FF]
 Draws more hostility from enemies[NLINE]
 you attack.[NLINE]
-[COL03]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Effect Up)[END-FF]
+[COL03]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Effect Up)[COL00][END-FF]
 
 
 
@@ -1422,7 +1422,7 @@ you attack.[NLINE]
 //[COL0B]Р[COL00]＋[COL0A]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](効果UP)[END-FF]
 Lessens hostility the more you[NLINE]
 get attacked.[NLINE]
-[COL0B]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Effect Up)[END-FF]
+[COL0B]Р[COL00]＋[COL0A]Р  [COL09]Stack＋9[COL03]●[COL09] (Effect Up)[COL00][END-FF]
 
 
 
@@ -1435,7 +1435,7 @@ get attacked.[NLINE]
 //[COL0A]Р[COL00]＋[COL01]Р[COL00]　　　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](効果UP)[END-FF]
 HP recovery item and spell effects[NLINE]
 increase by 50%.[NLINE]
-[COL0A]Р[COL00]＋[COL01]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Rate Up)[END-FF]
+[COL0A]Р[COL00]＋[COL01]Р  [COL09]Stack＋9[COL03]●[COL09] (Heal Rate Up)[COL00][END-FF]
 
 
 
@@ -1448,7 +1448,7 @@ increase by 50%.[NLINE]
 //[COL03]Р[COL00]＋[COL02]Р[COL00]　　　　　　　　[COL09]最大＋9累積[COL03]●[COL09](ダメージUP)[END-FF]
 Nulls a status effect on the target[NLINE]
 and increases damage by 50%.[NLINE]
-[COL03]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[END-FF]
+[COL03]Р[COL00]＋[COL02]Р  [COL09]Stack＋9[COL03]●[COL09] (Damage Up)[COL00][END-FF]
 
 
 
@@ -1461,7 +1461,7 @@ and increases damage by 50%.[NLINE]
 //[COL02]Р[COL00]＋[COL01]Р[COL00]　　　　　　　　　　　　　　　　　[COL09]累積[COL03]×[END-FF]
 Limits damage taken to a maximum[NLINE]
 of 40% of maximum HP.[NLINE]
-[COL02]Р[COL00]＋[COL01]Р  [COL09]Stack[COL03]×[END-FF]
+[COL02]Р[COL00]＋[COL01]Р  [COL09]Stack[COL03]×[COL00][END-FF]
 
 
 
@@ -1474,7 +1474,7 @@ of 40% of maximum HP.[NLINE]
 //[COL02]Р[COL00]＋[COL09]Р[COL00]　　　　　　　　　　　　　　　　　[COL09]累積[COL03]×[END-FF]
 If MP is not zero, take fatal[NLINE]
 damage to MP instead of HP.[NLINE]
-[COL02]Р[COL00]＋[COL09]Р  [COL09]Stack[COL03]×[END-FF]
+[COL02]Р[COL00]＋[COL09]Р  [COL09]Stack[COL03]×[COL00][END-FF]
 
 
 

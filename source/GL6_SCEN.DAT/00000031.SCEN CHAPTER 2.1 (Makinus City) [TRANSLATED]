@@ -207,7 +207,7 @@ Employee Number - [COL09]TMR003[COL00][NLINE]
      [MainCharName][NLINE]
 [COL03]Report to the 10th floor desk of the HQ[NLINE]
 building today at 11 A.M. Don't come in[NLINE]
-uniform, come in your personal attire.[END-FE]
+uniform, come in your personal attire.[COL00][END-FE]
 
 
 
@@ -1056,7 +1056,7 @@ weapons and armor.[END-FE]
 //POINTER #77 @ $64D4 - STRING #77 @ $7ECD
 #W32($64D4)
 //[COL01]武器[COL00][END-FE]
-[COL01]Weapons[END-FE]
+[COL01]Weapons[COL00][END-FE]
 
 
 
@@ -1076,7 +1076,7 @@ increase damage done to enemies.[END-FE]
 //POINTER #79 @ $64DC - STRING #79 @ $7F37
 #W32($64DC)
 //[COL01]防具[COL00][END-FE]
-[COL01]Armor[END-FE]
+[COL01]Armor[COL00][END-FE]
 
 
 
@@ -1120,7 +1120,7 @@ characters various abilities.[END-FE]
 //POINTER #83 @ $64EC - STRING #83 @ $8059
 #W32($64EC)
 //[COL01]技能プレート３[COL00][END-FE]
-[COL01]Plate 3[END-FE]
+[COL01]Plate 3[COL00][END-FE]
 
 
 
@@ -1129,7 +1129,7 @@ characters various abilities.[END-FE]
 //POINTER #84 @ $64F0 - STRING #84 @ $8070
 #W32($64F0)
 //[COL01]技能プレート２[COL00][END-FE]
-[COL01]Plate 2[END-FE]
+[COL01]Plate 2[COL00][END-FE]
 
 
 
@@ -1138,7 +1138,7 @@ characters various abilities.[END-FE]
 //POINTER #85 @ $64F4 - STRING #85 @ $8087
 #W32($64F4)
 //[COL01]技能プレート１[COL00][END-FE]
-[COL01]Plate 1[END-FE]
+[COL01]Plate 1[COL00][END-FE]
 
 
 
@@ -3749,7 +3749,7 @@ to decide.[END-FE]
 //　[END-FE]
 [NLINE]
 [COL06]Contents: [COL00]Miscellaneous Goods[NLINE]
-[COL06]Destination: [COL01]Yarstill Prison[NLINE]
+[COL06]Destination: [COL00][COL01]Yarstill Prison[COL00][NLINE]
 [END-FE]
 
 
