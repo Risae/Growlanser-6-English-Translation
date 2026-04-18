@@ -1,0 +1,91 @@
+FILE: 00000031.SCEN CHAPTER 2.1 (Makinus City) [TRANSLATED]
+LINE: 207
+ISSUE: Possible missing space: 'MainChar'
+TEXT: [MainCharName][NLINE]
+FIX: Add space
+
+FILE: 00000031.SCEN CHAPTER 2.1 (Makinus City) [TRANSLATED]
+LINE: 4315
+ISSUE: Possible missing space: 'MainChar'
+TEXT: Are you [MainCharName]?[NWIN]
+FIX: Add space
+
+FILE: 00000031.SCEN CHAPTER 2.1 (Makinus City) [TRANSLATED]
+LINE: 4465
+ISSUE: Possible missing space: 'MainChar'
+TEXT: Mr. [MainCharName], are you there?[NWIN]
+FIX: Add space
+
+FILE: 00000032.SCEN CHAPTER 2.4 (Dastis City) [TRANSLATED]
+LINE: 990
+ISSUE: Spelling: unfortunately
+TEXT: Unfortunately, we only have a few in stock.[NLINE]
+FIX: unfortunately
+
+FILE: 00000032.SCEN CHAPTER 2.4 (Dastis City) [TRANSLATED]
+LINE: 1618
+ISSUE: Double space in text
+TEXT: pressing the [START] button.[END-FE]
+FIX: Remove extra space
+
+FILE: 00000032.SCEN CHAPTER 2.4 (Dastis City) [TRANSLATED]
+LINE: 7926
+ISSUE: Possible missing space: 'MainChar'
+TEXT: ・[MainCharName] dies[NLINE]
+FIX: Add space
+
+FILE: 00000034.SCEN CHAPTER 3.1 (Schizarz) [TRANSLATED]
+LINE: 1851
+ISSUE: Possible missing space: 'MainChar'
+TEXT: Master [MainCharName]![NLINE]
+FIX: Add space
+
+FILE: 00000034.SCEN CHAPTER 3.1 (Schizarz) [TRANSLATED]
+LINE: 3516
+ISSUE: Possible repeated word: 'that that'
+TEXT: Alright, now that that's settled,[NLINE]
+FIX: Remove duplicate 'that'
+
+FILE: 00000037.SCEN CHAPTER 13.1 (Leystan 2) [TRANSLATED]
+LINE: 1760
+ISSUE: Possible missing space: 'MainChar'
+TEXT: [MainCharName] and I have?[END-FE]
+FIX: Add space
+
+FILE: 00000037.SCEN CHAPTER 13.1 (Leystan 2) [TRANSLATED]
+LINE: 1788
+ISSUE: Possible missing space: 'MainChar'
+TEXT: for [MainCharName] to be taken along[NLINE]
+FIX: Add space
+
+FILE: 00000038.SCEN CHAPTER 14.3 (Royferon) [TRANSLATED]
+LINE: 4474
+ISSUE: Grammar: 'I were' in non-subjunctive context (should be 'I was')
+TEXT: When you and I were together,[NLINE]
+FIX: I was
+
+FILE: 00000038.SCEN CHAPTER 14.3 (Royferon) [TRANSLATED]
+LINE: 4845
+ISSUE: Grammar: 'I were' in non-subjunctive context (should be 'I was')
+TEXT: I were to tell you?[END-FE]
+FIX: I was
+
+FILE: 00000038.SCEN CHAPTER 14.3 (Royferon) [TRANSLATED]
+LINE: 5433
+ISSUE: Spelling: unfortunately
+TEXT: Unfortunately, the base commander nobly[NLINE]
+FIX: unfortunately
+
+FILE: 00000041.SCEN CHAPTER 16.3 (Great Land Village) [TRANSLATED]
+LINE: 171
+ISSUE: Grammar: 'I were' in non-subjunctive context (should be 'I was')
+TEXT: I were born and raised.[END-FE]
+FIX: I was
+
+FILE: 00000041.SCEN CHAPTER 16.3 (Great Land Village) [TRANSLATED]
+LINE: 184
+ISSUE: Grammar: 'I were' in non-subjunctive context (should be 'I was')
+TEXT: and I were born and raised.[END-FE]
+FIX: I was
+
+Total: 15 issues
