@@ -16,10 +16,9 @@ z_un_002c7840              equ 0x002C7840 ; Unknown patched function for full-wi
 z_un_003c6ff0              equ 0x003C6FF0 ; Unknown patched function for Gate text render + Speech bubble
 VWFfunct                   equ 0x003D7980 ; Custom VWF function
 VWFtextboxWidthAdjustAddr  equ 0x003D7D00 ; Post-processing helper for textbox windowWidth
-VWFtableLabelAddr          equ 0x003D9000 ; ASCII marker placed immediately before the width table
-VWFtableAddr               equ 0x003D9020 ; Width table begins on a clean ...x0 boundary
-VWFramAddr                 equ 0x003D90A0 ; Scratch area used by the injected helpers
-VWF_SHRINK_TEXTBOXES       equ 0          ; 0 = only enlarge windows if VWF needs it. 1 = replace original width with measured VWF width.
+VWFtableLabelAddr          equ 0x003D81F0 ; ASCII marker placed immediately before the width table
+VWFtableAddr               equ 0x003D8200 ; Width table begins on a clean ...x0 boundary
+VWFramAddr                 equ 0x003D8280 ; Small scratch area used by the injected helpers
 
 // Fix for the full-width numbers that are displayed when you kill more than 1 enemy at the same time.
 .org 0x2C7684                           ; Patching code at address 0x2C7684
@@ -93,7 +92,6 @@ line width and round up But I need to create the "get line pixel width" function
 // VWF fixes
 .org 0x002792BC
     j         Detoured
-    nop                                  ; do not leave original branch at 0x2792C0 in the delay slot
 
 .org 0x002792D4
     cvt.w.s   f26,f26                    ; Convert the value in f26 to an integer of the same value
@@ -116,7 +114,7 @@ line width and round up But I need to create the "get line pixel width" function
 
 // VWF width function
 .org VWFfunct
-    li       s0,VWFramAddr
+    li       s0,ram
     sw       s1,(s0)                     ; we store s1 in the address we set-up on s0
     li       s0,0x1                      ; Same result as addiu s0,zero,0x1 (handy when checking in PCSX2)
     beql     s0,a3,@@VWFcode             ; if a3 is 1 we jump directly to our VWF code
@@ -137,7 +135,7 @@ line width and round up But I need to create the "get line pixel width" function
     mul.s     f23,f23,f21                ; Scale text widths
 
     @@Original:
-    li        s0,VWFramAddr
+    li        s0,ram
     lw        s1,(s0)                    ; We load back original s1 from the address we set-up at the start
     or        s0,zero,zero               ; reset s0 back to zero
     add.s     f26,f26,f23
@@ -277,302 +275,214 @@ line width and round up But I need to create the "get line pixel width" function
 
 .org VWFtextboxWidthAdjustAddr
 .func TextboxWidthAdjust
-    ; Called from the original epilogue of GL_3701_CalcTextboxWidth at 0x00276920.
-    ; Important: this routine finishes the original function itself, so it restores
-    ; the original saved registers/stack and returns to the original caller.
-    ;
-    ; Compared with the previous version, this parser:
-    ;   - uses the original CharsPerLine[] byte array at textbox+0x11D as a soft
-    ;     line-boundary guide, so automatic wraps from the vanilla parser are not
-    ;     treated as one huge pixel line;
-    ;   - keeps explicit FF FC / FF FD line boundaries;
-    ;   - accounts for FF 90 tall/double-count mode for SJIS char-unit tracking;
-    ;   - still handles MC-name FF EA 01 xx by measuring the actual name string.
-    ;
-    ; Remaining limitation: non-MC dynamic width tags (FF 80/81/82/83/E1/E6/EF)
-    ; are skipped for pixel measurement. With VWF_SHRINK_TEXTBOXES=0 this is safe
-    ; because the original fixed-width window is retained unless VWF text is wider.
-
-    lw        s0, 0x18C(s5)              ; raw text pointer
-    move      s1, zero                   ; current rendered line width in pixels
-    move      s2, zero                   ; max rendered line width in pixels
-    move      s3, zero                   ; current line width in vanilla char-units
-    move      s4, zero                   ; current CharsPerLine[] index
-    move      s7, zero                   ; FF90 mode flag
-    lbu       s6, 0x11D(s5)              ; CharsPerLine[0]
+    lw        t0, 0x18C(s5)              ; text pointer
+    move      t1, zero                   ; current line width in pixels
+    move      t2, zero                   ; max line width in pixels
 
     @@Loop:
-    lbu       t0, 0x0(s0)
-    beq       t0, 0xFF, @@Control
+    lbu       t3, (t0)
+    beq       t3, 0xFF, @@Control
     nop
-    sltiu     t1, t0, 0x80
-    beqz      t1, @@SJIS
+    sltiu     t4, t3, 0x80
+    beqz      t4, @@SJIS
     nop
-
-    ; ASCII byte: VWF table width + 2px tracking, 1 vanilla char-unit.
-    li        t1, VWFtable
-    addu      t1, t1, t0
-    lbu       t1, 0x0(t1)
-    addiu     t1, 0x2
-    addu      s1, s1, t1
-    addiu     s3, s3, 0x1
-    addiu     s0, s0, 0x1
-    b         @@CheckSoftLine
+    li        t4, VWFtable
+    addu      t4, t3
+    lbu       t4, (t4)
+    addiu     t4, 0x2
+    addu      t1, t4
+    addiu     t0, 0x1
+    b         @@Loop
     nop
 
     @@SJIS:
-    ; SJIS/full-width char: keep the same 20px assumption used elsewhere.
-    addiu     s1, s1, 0x14
-    addiu     s3, s3, 0x2
-    beq       s7, zero, @@SJIS_NoTallExtra
-    nop
-    addiu     s3, s3, 0x2               ; matches var_s4 behavior in the decomp for char-units
-    @@SJIS_NoTallExtra:
-    addiu     s0, s0, 0x2
-    b         @@CheckSoftLine
+    addiu     t1, 0x14                   ; keep Japanese chars close to CalculateSpace
+    addiu     t0, 0x2
+    b         @@Loop
     nop
 
     @@Control:
-    lbu       t0, 0x1(s0)
-    beq       t0, 0xFE, @@Finish
+    lbu       t3, 0x1(t0)
+    beq       t3, 0xFE, @@Finish
     nop
-    beq       t0, 0xFF, @@Finish
+    beq       t3, 0xFF, @@Finish
     nop
-    beq       t0, 0xFC, @@ExplicitNewLine
+    beq       t3, 0xFC, @@NewLine
     nop
-    beq       t0, 0xFD, @@ExplicitNewLine
+    beq       t3, 0xFD, @@NewLine
     nop
-    beq       t0, 0xFB, @@Skip2
+    beq       t3, 0xFB, @@Skip2
     nop
-    beq       t0, 0x90, @@SetTallMode
-    nop
-    beq       t0, 0xEA, @@MainCharTag
+    beq       t3, 0xEA, @@MainCharTag
     nop
 
-    ; Dynamic width controls. Keep original window width unless shrink mode is enabled.
-    ; FF80/82/83 -> func_0027E7A0, FF81 -> func_0027E510 in the decomp.
-    addiu     t1, t0, -0x80
-    sltiu     t1, t1, 0x4
-    bnez      t1, @@Skip2
+    ; 0x80-0x83
+    addiu     t4, t3, -0x80
+    sltiu     t4, t4, 0x4
+    bnez      t4, @@Skip2
     nop
 
     ; 0xAA-0xB5
-    addiu     t1, t0, -0xAA
-    sltiu     t1, t1, 0x0C
-    bnez      t1, @@Skip3
+    addiu     t4, t3, -0xAA
+    sltiu     t4, t4, 0x0C
+    bnez      t4, @@Skip3
     nop
 
     ; 0xB6-0xB7
-    addiu     t1, t0, -0xB6
-    sltiu     t1, t1, 0x2
-    bnez      t1, @@Skip4
+    addiu     t4, t3, -0xB6
+    sltiu     t4, t4, 0x2
+    bnez      t4, @@Skip4
     nop
 
     ; 0xB8-0xB9
-    addiu     t1, t0, -0xB8
-    sltiu     t1, t1, 0x2
-    bnez      t1, @@Skip3
+    addiu     t4, t3, -0xB8
+    sltiu     t4, t4, 0x2
+    bnez      t4, @@Skip3
     nop
 
     ; 0xBA-0xBB
-    addiu     t1, t0, -0xBA
-    sltiu     t1, t1, 0x2
-    bnez      t1, @@Skip5
+    addiu     t4, t3, -0xBA
+    sltiu     t4, t4, 0x2
+    bnez      t4, @@Skip5
     nop
 
     ; 0xBC-0xBF
-    addiu     t1, t0, -0xBC
-    sltiu     t1, t1, 0x4
-    bnez      t1, @@Skip4
+    addiu     t4, t3, -0xBC
+    sltiu     t4, t4, 0x4
+    bnez      t4, @@Skip4
     nop
 
-    beq       t0, 0x9C, @@Skip4
+    beq       t3, 0x90, @@Skip2
     nop
-    beq       t0, 0x9D, @@Skip7
+    beq       t3, 0x9C, @@Skip4
     nop
-    beq       t0, 0xC8, @@Skip3
+    beq       t3, 0x9D, @@Skip7
     nop
-    beq       t0, 0xCB, @@Skip2
+    beq       t3, 0xC8, @@Skip3
     nop
-    beq       t0, 0xCC, @@Skip4
+    beq       t3, 0xCB, @@Skip2
     nop
-    beq       t0, 0xCD, @@Skip2
+    beq       t3, 0xCC, @@Skip4
     nop
-    beq       t0, 0xCE, @@Skip4
+    beq       t3, 0xCD, @@Skip2
     nop
-    beq       t0, 0xCF, @@Skip4
+    beq       t3, 0xCE, @@Skip4
+    nop
+    beq       t3, 0xCF, @@Skip4
     nop
 
     ; 0xD4-0xD8
-    addiu     t1, t0, -0xD4
-    sltiu     t1, t1, 0x5
-    bnez      t1, @@Skip3
+    addiu     t4, t3, -0xD4
+    sltiu     t4, t4, 0x5
+    bnez      t4, @@Skip3
     nop
 
-    beq       t0, 0xDE, @@Skip3
+    beq       t3, 0xDE, @@Skip3
     nop
-    beq       t0, 0xDF, @@Skip3
+    beq       t3, 0xDF, @@Skip3
     nop
-    beq       t0, 0xE1, @@Skip3
+    beq       t3, 0xE1, @@Skip3
     nop
-    beq       t0, 0xE5, @@Skip3
+    beq       t3, 0xE5, @@Skip3
     nop
-    beq       t0, 0xE6, @@Skip3
+    beq       t3, 0xE6, @@Skip3
     nop
-    beq       t0, 0xEF, @@Skip3
+    beq       t3, 0xEF, @@Skip3
     nop
 
     ; Unknown control code: stop rather than walking off into bad data.
     b         @@Finish
     nop
 
-    @@SetTallMode:
-    li        s7, 0x1
-    addiu     s0, s0, 0x2
-    b         @@Loop
-    nop
-
     @@MainCharTag:
-    lbu       t1, 0x2(s0)                ; original uses this argument for name lookup
-    bne       t1, 0x1, @@Skip4           ; only hardcode MC-name case for now
+    lbu       t4, 0x2(t0)                ; tag argument used by the original width routine
+    bne       t4, 0x1, @@Skip4
     nop
-    li        t2, 0x50E8B2               ; MC name, 0xFF-terminated
+    li        t5, 0x50E8B2               ; MC name, 0xFF terminated
 
     @@NameLoop:
-    lbu       t3, 0x0(t2)
-    beq       t3, 0xFF, @@NameDone
+    lbu       t6, (t5)
+    beq       t6, 0xFF, @@NameDone
     nop
-    sltiu     t4, t3, 0x80
+    sltiu     t4, t6, 0x80
     beqz      t4, @@NameSJIS
     nop
     li        t4, VWFtable
-    addu      t4, t4, t3
-    lbu       t4, 0x0(t4)
+    addu      t4, t6
+    lbu       t4, (t4)
     addiu     t4, 0x2
-    addu      s1, s1, t4
-    addiu     s3, s3, 0x1
-    addiu     t2, t2, 0x1
+    addu      t1, t4
+    addiu     t5, 0x1
     b         @@NameLoop
     nop
 
     @@NameSJIS:
-    addiu     s1, s1, 0x14
-    addiu     s3, s3, 0x2
-    beq       s7, zero, @@NameSJIS_NoTallExtra
-    nop
-    addiu     s3, s3, 0x2
-    @@NameSJIS_NoTallExtra:
-    addiu     t2, t2, 0x2
+    addiu     t1, 0x14
+    addiu     t5, 0x2
     b         @@NameLoop
     nop
 
     @@NameDone:
-    addiu     s0, s0, 0x4
-    b         @@CheckSoftLine
+    addiu     t0, 0x4
+    b         @@Loop
     nop
 
     @@Skip2:
-    addiu     s0, s0, 0x2
+    addiu     t0, 0x2
     b         @@Loop
     nop
 
     @@Skip3:
-    addiu     s0, s0, 0x3
+    addiu     t0, 0x3
     b         @@Loop
     nop
 
     @@Skip4:
-    addiu     s0, s0, 0x4
+    addiu     t0, 0x4
     b         @@Loop
     nop
 
     @@Skip5:
-    addiu     s0, s0, 0x5
+    addiu     t0, 0x5
     b         @@Loop
     nop
 
     @@Skip7:
-    addiu     s0, s0, 0x7
+    addiu     t0, 0x7
     b         @@Loop
     nop
 
-    @@ExplicitNewLine:
-    slt       t0, s2, s1
-    beqz      t0, @@ExplicitNoMax
+    @@NewLine:
+    slt       t4, t2, t1
+    beqz      t4, @@NewLineNoMax
     nop
-    move      s2, s1
-    @@ExplicitNoMax:
-    move      s1, zero
-    move      s3, zero
-    addiu     s4, s4, 0x1
-    addu      t1, s5, s4
-    lbu       s6, 0x11D(t1)
-    addiu     s0, s0, 0x2
-    b         @@Loop
-    nop
+    move      t2, t1
 
-    @@CheckSoftLine:
-    beq       s6, zero, @@Loop           ; no original line limit for this index
-    nop
-    slt       t0, s3, s6                 ; if current units < original units, keep going
-    bnez      t0, @@Loop
-    nop
-
-    ; If the next token is an explicit newline or terminator, let that handler close the line.
-    lbu       t0, 0x0(s0)
-    bne       t0, 0xFF, @@SoftLineBreak
-    nop
-    lbu       t1, 0x1(s0)
-    beq       t1, 0xFC, @@Loop
-    nop
-    beq       t1, 0xFD, @@Loop
-    nop
-    beq       t1, 0xFE, @@Loop
-    nop
-    beq       t1, 0xFF, @@Loop
-    nop
-
-    @@SoftLineBreak:
-    slt       t0, s2, s1
-    beqz      t0, @@SoftNoMax
-    nop
-    move      s2, s1
-    @@SoftNoMax:
-    move      s1, zero
-    move      s3, zero
-    addiu     s4, s4, 0x1
-    addu      t1, s5, s4
-    lbu       s6, 0x11D(t1)
+    @@NewLineNoMax:
+    move      t1, zero
+    addiu     t0, 0x2
     b         @@Loop
     nop
 
     @@Finish:
-    slt       t0, s2, s1
-    beqz      t0, @@Convert
+    slt       t4, t2, t1
+    beqz      t4, @@Convert
     nop
-    move      s2, s1
+    move      t2, t1
 
     @@Convert:
-    addiu     s2, s2, 0x9                ; ceil(px / 10)
-    li        t0, 0xA
-    divu      s2, t0
-    mflo      t1
-
-.if VWF_SHRINK_TEXTBOXES
-    beq       t1, zero, @@Restore        ; avoid writing 0 width on empty/error cases
+    addiu     t2, 0x9                    ; ceil(px / 10)
+    li        t4, 0xA
+    divu      t2, t4
+    mflo      t3
+    lw        t4, 0x70(s5)               ; original char-unit width
+    slt       t5, t4, t3
+    beqz      t5, @@Restore
     nop
-    sw        t1, 0x70(s5)
-.else
-    lw        t0, 0x70(s5)               ; original char-unit width
-    slt       t2, t0, t1
-    beqz      t2, @@Restore
-    nop
-    sw        t1, 0x70(s5)
-.endif
+    sw        t3, 0x70(s5)
 
     @@Restore:
     ld        ra, 0x90(sp)
-    lq        fp, 0x80(sp)
     lq        s7, 0x70(sp)
     lq        s6, 0x60(sp)
     lq        s5, 0x50(sp)
@@ -581,75 +491,65 @@ line width and round up But I need to create the "get line pixel width" function
     lq        s2, 0x20(sp)
     lq        s1, 0x10(sp)
     lq        s0, 0x0(sp)
-    addiu     sp, sp, 0xC0
+    addiu     sp, 0xC0
     jr        ra
     nop
 .endfunc
 
 .func RenderNormal
-    li        v0, VWFramAddr
-    sw        a0, 0x04(v0)
-    sw        a1, 0x08(v0)
-    sw        a2, 0x0C(v0)
-    sw        ra, 0x10(v0)
+    li        v0, Ram                   ; Load immediate: v0 = Ram
+    sw        a0, 0x4(v0)               ; Store word: *(Ram + 4) = a0
+    sw        ra, 0x8(v0)               ; Store word: *(Ram + 8) = ra
+    li        a0, 0x7                   ; Load immediate: a0 = 0x7 (black)
+    jal       SetTextColor              ; Jump and link: Call SetTextColor function
+    nop                                 ; No operation (delay slot)
 
-    li        a0, 0x7                    ; black
-    jal       SetTextColor
-    nop
+    li.s      f12, 0.9                  ; Load immediate single: f12 = 0.9
+    jal       SetTextScale              ; Jump and link: Call SetTextScale function
+    nop                                 ; No operation (delay slot)
 
-    li.s      f12, 0.9
-    jal       SetTextScale
-    nop
+    li        v0, Ram                   ; Load immediate: v0 = Ram
+    lw        a0, 0x4(v0)               ; Load word: a0 = *(Ram + 4)
+    mtc1      a0, f12                   ; Move to coprocessor 1: f12 = a0
+    cvt.s.w   f12, f12                  ; Convert to single (float): f12 = (float)a0
+    mtc1      a1, f13                   ; Move to coprocessor 1: f13 = a1
+    cvt.s.w   f13, f13                  ; Convert to single (float): f13 = (float)a1
+    dmove     a0, a2                    ; Double move: a0 = a2 (destination coordinates for text)
+    jal       DrawTextAt                ; Jump and link: Call DrawTextAt function
+    nop                                 ; No operation (delay slot)
 
-    li        v0, VWFramAddr
-    lw        a0, 0x04(v0)
-    lw        a1, 0x08(v0)
-    lw        a2, 0x0C(v0)
-    mtc1      a0, f12
-    cvt.s.w   f12, f12
-    mtc1      a1, f13
-    cvt.s.w   f13, f13
-    dmove     a0, a2
-    jal       DrawTextAt
-    nop
-
-    li        v0, VWFramAddr
-    lw        ra, 0x10(v0)
-    jr        ra
-    nop
+    li        v0, Ram                   ; Load immediate: v0 = Ram
+    lw        ra, 0x8(v0)               ; Load word: ra = *(Ram + 8)
+    jr        ra                        ; Jump to return address in ra
+    nop                                 ; No operation (delay slot)
 .endfunc
 
 .func RenderSelected
-    li        v0, VWFramAddr
-    sw        a0, 0x04(v0)
-    sw        a1, 0x08(v0)
-    sw        a2, 0x0C(v0)
-    sw        ra, 0x10(v0)
+    li        v0, Ram                   ; Load immediate: v0 = Ram
+    sw        a0, 0x4(v0)               ; Store word: *(Ram + 4) = a0
+    sw        ra, 0x8(v0)               ; Store word: *(Ram + 8) = ra
+    li        a0, 0x3                   ; Load immediate: a0 = 0x3 (red)
+    jal       SetTextColor              ; Jump and link: Call SetTextColor function
+    nop                                 ; No operation (delay slot)
 
-    li        a0, 0x3                    ; red
-    jal       SetTextColor
-    nop
+    li.s      f12, 0.9                  ; Load immediate single: f12 = 0.9
+    jal       SetTextScale              ; Jump and link: Call SetTextScale function
+    nop                                 ; No operation (delay slot)
 
-    li.s      f12, 0.9
-    jal       SetTextScale
-    nop
+    li        v0, Ram                   ; Load immediate: v0 = Ram
+    lw        a0, 0x4(v0)               ; Load word: a0 = *(Ram + 4)
+    mtc1      a0, f12                   ; Move to coprocessor 1: f12 = a0
+    cvt.s.w   f12, f12                  ; Convert to single (float): f12 = (float)a0
+    mtc1      a1, f13                   ; Move to coprocessor 1: f13 = a1
+    cvt.s.w   f13, f13                  ; Convert to single (float): f13 = (float)a1
+    dmove     a0, a2                    ; Double move: a0 = a2 (destination coordinates for text)
+    jal       DrawTextAt                ; Jump and link: Call DrawTextAt function
+    nop                                 ; No operation (delay slot)
 
-    li        v0, VWFramAddr
-    lw        a0, 0x04(v0)
-    lw        a1, 0x08(v0)
-    lw        a2, 0x0C(v0)
-    mtc1      a0, f12
-    cvt.s.w   f12, f12
-    mtc1      a1, f13
-    cvt.s.w   f13, f13
-    dmove     a0, a2
-    jal       DrawTextAt
-    nop
-
-    li        v0, VWFramAddr
-    lw        ra, 0x10(v0)
-    jr        ra
-    nop
+    li        v0, Ram                   ; Load immediate: v0 = Ram
+    lw        ra, 0x8(v0)               ; Load word: ra = *(Ram + 8)
+    jr        ra                        ; Jump to return address in ra
+    nop                                 ; No operation (delay slot)
 .endfunc
 
 ; ---------------------------------------------------------------------------
@@ -721,12 +621,13 @@ line width and round up But I need to create the "get line pixel width" function
     .byte 0x0A, 0x0A, 0x07, 0x07, 0x07, 0x0A, 0x0A, 0x10, 0x08, 0x0B, 0x08, 0x04, 0x03, 0x04, 0x0A, 0x04
 .endfunc
 
-// Scratch area used by injected helpers.
-// 0x00: VWFfunct saved s1
-// 0x04..0x10: RenderNormal/RenderSelected saved a0/a1/a2/ra
+// Tiny scratch area used by the injected helpers.
 .org VWFramAddr
-.func VWFscratch
-    .word 0, 0, 0, 0, 0, 0, 0, 0
+.func ram
+    nop
+    nop
+    nop
+    nop
 .endfunc
 
 // Kill / EXP / attack / casting / using a knack top text alignment fix
