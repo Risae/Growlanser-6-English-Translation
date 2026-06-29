@@ -12,7 +12,7 @@ jobs:
             source
 
       - name: 02. Restore/Store typos-cli
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           key: typos-cli
           path: ~/.cargo/bin
@@ -782,7 +782,7 @@ jobs:
             tools
 
       - name: 02. Restore/Store 0.zip
-        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           key: 0.zip
           path: build/05-original_files/0.zip
