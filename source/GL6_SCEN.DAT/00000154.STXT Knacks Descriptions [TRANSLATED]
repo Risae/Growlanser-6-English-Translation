@@ -241,7 +241,7 @@ effect.[NLINE]
 //精気を高め、魔法耐性を＋１する。[NLINE]
 //　[NLINE]
 // [COL09]効果:戦闘終了,一定時間で解除,[Lv]６以上で＋２[END-FF]
-Raise magic resistance by 1 by[NLINE]
+Raise magic resistance by 1 through[NLINE]
 heightening concentration.[NLINE]
 [COL09]Becomes +2 at Lv.6[END-FF]
 
@@ -255,7 +255,7 @@ heightening concentration.[NLINE]
 //　[NLINE]
 //　　　　　　　　[COL09]発動:即時,使用回数は１回のみ[END-FF]
 Erect a barrier that blocks[NLINE]
-enemy spells Lv. times.[NLINE]
+enemy spells up to Lv. times.[NLINE]
 [COL09]Can only be used once[END-FF]
 
 
