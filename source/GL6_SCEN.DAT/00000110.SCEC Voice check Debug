@@ -44,8 +44,8 @@ Korin[END-FF]
 
 //POINTER #3 @ $1EAC - STRING #3 @ $2A05
 #W32($1EAC)
-//守護勇士[END-FF]
-守護勇士[END-FF]
+//Guardian Knight[END-FF]
+Guardian Knight[END-FF]
 
 
 
@@ -62,8 +62,8 @@ Rukias[END-FF]
 
 //POINTER #5 @ $1EB4 - STRING #5 @ $2A1B
 #W32($1EB4)
-//オーナー[END-FF]
-オーナー[END-FF]
+//Owner[END-FF]
+Owner[END-FF]
 
 
 
@@ -80,10 +80,10 @@ Wendy[END-FF]
 
 //POINTER #7 @ $1EBC - STRING #7 @ $2A33
 #W32($1EBC)
-//どのＣファイル？[NLINE]
-//×キャンセルで戻る[END-FE]
-どのＣファイル？[NLINE]
-×キャンセルで戻る[END-FE]
+//Which C file?[NLINE]
+//× Cancel to return[END-FE]
+Which C file?[NLINE]
+× Cancel to return[END-FE]
 
 
 
@@ -173,11 +173,11 @@ Wendy[END-FF]
 //POINTER #17 @ $1EE4 - STRING #17 @ $2B0D
 #W32($1EE4)
 //[CHARD003][V1000]976_016
-//ま、待ちなさいよ！[NLINE]
-//ユリィがまだ食べられたままだよ！[END-FE]
+//Wait![NLINE]
+//Yurii is still being eaten![END-FE]
 [CHARD003][V1000]976_016
-ま、待ちなさいよ！[NLINE]
-ユリィがまだ食べられたままだよ！[END-FE]
+Wait![NLINE]
+Yurii is still being eaten![END-FE]
 
 
 
@@ -186,11 +186,11 @@ Wendy[END-FF]
 //POINTER #18 @ $1EE8 - STRING #18 @ $2B53
 #W32($1EE8)
 //[CHARD003][V1100]976_017
-//おい！[NLINE]
-//ユリィを置いていく訳にはいかないだろうが！[END-FE]
+//Hey![NLINE]
+//We can't just leave Yurii behind![END-FE]
 [CHARD003][V1100]976_017
-おい！[NLINE]
-ユリィを置いていく訳にはいかないだろうが！[END-FE]
+Hey![NLINE]
+We can't just leave Yurii behind![END-FE]
 
 
 
@@ -199,9 +199,9 @@ Wendy[END-FF]
 //POINTER #19 @ $1EEC - STRING #19 @ $2B97
 #W32($1EEC)
 //[CHARD003][V1200]976_018
-//ユリィを助けないと！[END-FE]
+//We have to save Yurii![END-FE]
 [CHARD003][V1200]976_018
-ユリィを助けないと！[END-FE]
+We have to save Yurii![END-FE]
 
 
 
@@ -210,9 +210,9 @@ Wendy[END-FF]
 //POINTER #20 @ $1EF0 - STRING #20 @ $2BBD
 #W32($1EF0)
 //[CHARD003][V1300]976_019
-//ユリィを置いていくのはマズイだろう！[END-FE]
+//We definitely can't leave Yurii behind![END-FE]
 [CHARD003][V1300]976_019
-ユリィを置いていくのはマズイだろう！[END-FE]
+We definitely can't leave Yurii behind![END-FE]
 
 
 
@@ -223,7 +223,7 @@ Wendy[END-FF]
 //[CHARD003][V1400]
 //976_020ユリィを救わないと！[END-FE]
 [CHARD003][V1400]
-976_020ユリィを救わないと！[END-FE]
+We have to save Yurii![END-FE]
 
 
 
@@ -234,7 +234,7 @@ Wendy[END-FF]
 //[CHARD003][V1500]
 //976_021早く助けてやらないと！[END-FE]
 [CHARD003][V1500]
-976_021早く助けてやらないと！[END-FE]
+We have to rescue them quickly![END-FE]
 
 
 
@@ -246,8 +246,8 @@ Wendy[END-FF]
 //976_022勇者様っ！[NLINE]
 //助けてください！[END-FE]
 [CHARD003][V1600]
-976_022勇者様っ！[NLINE]
-助けてください！[END-FE]
+Hero![NLINE]
+Please help me![END-FE]
 
 
 
@@ -258,7 +258,7 @@ Wendy[END-FF]
 //[CHARD003][V0000]
 //976_000あ、あのモンスターはっ！[END-FE]
 [CHARD003][V0000]
-976_000あ、あのモンスターはっ！[END-FE]
+That monster![END-FE]
 
 
 
@@ -269,7 +269,7 @@ Wendy[END-FF]
 //[CHARD003][V0100]
 //976_001あのモンスターがどうかしたの？[END-FE]
 [CHARD003][V0100]
-976_001あのモンスターがどうかしたの？[END-FE]
+What happened to that monster?[END-FE]
 
 
 
@@ -280,7 +280,7 @@ Wendy[END-FF]
 //[CHARD003][V0200]
 //976_002あのモンスターがどうかしたのか？[END-FE]
 [CHARD003][V0200]
-976_002あのモンスターがどうかしたのか？[END-FE]
+What happened to that monster?[END-FE]
 
 
 
@@ -294,10 +294,10 @@ Wendy[END-FF]
 //仲間の何人もがあのモンスターに…。[NLINE]
 //…注意してください！[END-FE]
 [CHARD003][V0500]
-976_005あれはっ!?[NLINE]
-…妖精を好んで食べるモンスターです！[NLINE]
-仲間の何人もがあのモンスターに…。[NLINE]
-…注意してください！[END-FE]
+What is that!?[NLINE]
+It is a monster that loves to eat fairies![NLINE]
+Several of our allies have fallen to that monster...[NLINE]
+...Be careful![END-FE]
 
 
 
@@ -308,7 +308,7 @@ Wendy[END-FF]
 //[CHARD003][V0700]
 //976_007た、助けてください！[END-FE]
 [CHARD003][V0700]
-976_007た、助けてください！[END-FE]
+Please, help me![END-FE]
 
 
 
@@ -320,8 +320,8 @@ Wendy[END-FF]
 //976_008またですか！[NLINE]
 //食べないでください！[END-FE]
 [CHARD003][V0800]
-976_008またですか！[NLINE]
-食べないでください！[END-FE]
+Again?![NLINE]
+Please don't eat me![END-FE]
 
 
 
@@ -332,7 +332,7 @@ Wendy[END-FF]
 //[CHARD003][V0B00]
 //976_011生暖かいです……。[END-FE]
 [CHARD003][V0B00]
-976_011生暖かいです……。[END-FE]
+It is lukewarm...[END-FE]
 
 
 
@@ -344,8 +344,8 @@ Wendy[END-FF]
 //976_010い、いやっ！[NLINE]
 //ヌメヌメしたものが！[END-FE]
 [CHARD003][V0A00]
-976_010い、いやっ！[NLINE]
-ヌメヌメしたものが！[END-FE]
+No, no![NLINE]
+A slimy thing![END-FE]
 
 
 
@@ -357,8 +357,8 @@ Wendy[END-FF]
 //976_006きゃあー！[NLINE]
 //な、なんですか！[END-FE]
 [CHARD003][V0600]
-976_006きゃあー！[NLINE]
-な、なんですか！[END-FE]
+Aaaah![NLINE]
+W-what is it?![END-FE]
 
 
 
@@ -370,8 +370,8 @@ Wendy[END-FF]
 //976_009だ、誰か！[NLINE]
 //お願いします！[END-FE]
 [CHARD003][V0900]
-976_009だ、誰か！[NLINE]
-お願いします！[END-FE]
+S-someone![NLINE]
+Please help![END-FE]
 
 
 
@@ -383,8 +383,8 @@ Wendy[END-FF]
 //976_024えっ？[NLINE]
 //何!?[END-FE]
 [CHARD003][V1800]
-976_024えっ？[NLINE]
-何!?[END-FE]
+Huh?[NLINE]
+What?![END-FE]
 
 
 
@@ -395,7 +395,7 @@ Wendy[END-FF]
 //[CHARD003][V1900]
 //976_025きゃ～！[END-FE]
 [CHARD003][V1900]
-976_025きゃ～！[END-FE]
+Eek![END-FE]
 
 
 
@@ -406,7 +406,7 @@ Wendy[END-FF]
 //[CHARD003][V1C00]
 //976_028助けて～！[END-FE]
 [CHARD003][V1C00]
-976_028助けて～！[END-FE]
+Help me![END-FE]
 
 
 
@@ -418,8 +418,8 @@ Wendy[END-FF]
 //976_030うう……。[NLINE]
 //もう…ダメ……。[END-FE]
 [CHARD003][V1E00]
-976_030うう……。[NLINE]
-もう…ダメ……。[END-FE]
+Ugh...[NLINE]
+I can't go on...[END-FE]
 
 
 
@@ -431,8 +431,8 @@ Wendy[END-FF]
 //976_027うわ～。[NLINE]
 //ベタベタするよ～！[END-FE]
 [CHARD003][V1B00]
-976_027うわ～。[NLINE]
-ベタベタするよ～！[END-FE]
+Ugh...[NLINE]
+It's getting all sticky![END-FE]
 
 
 
@@ -443,7 +443,7 @@ Wendy[END-FF]
 //[CHARD003][V1D00]
 //976_029溶けちゃうよ～！[END-FE]
 [CHARD003][V1D00]
-976_029溶けちゃうよ～！[END-FE]
+I'm melting![END-FE]
 
 
 
@@ -455,8 +455,8 @@ Wendy[END-FF]
 //976_026助けて！[NLINE]
 //食べられちゃう！[END-FE]
 [CHARD003][V1A00]
-976_026助けて！[NLINE]
-食べられちゃう！[END-FE]
+Help me![NLINE]
+It's going to eat me![END-FE]
 
 
 
@@ -467,7 +467,7 @@ Wendy[END-FF]
 //[CHARD003][V0C00]
 //976_012ありがとうございます！[END-FE]
 [CHARD003][V0C00]
-976_012ありがとうございます！[END-FE]
+Thank you very much![END-FE]
 
 
 
@@ -478,7 +478,7 @@ Wendy[END-FF]
 //[CHARD003][V0F00]
 //976_015何度も済みません。[END-FE]
 [CHARD003][V0F00]
-976_015何度も済みません。[END-FE]
+I apologize again and again.[END-FE]
 
 
 
@@ -489,7 +489,7 @@ Wendy[END-FF]
 //[CHARD003][V0E00]
 //976_014た、助かりました～。[END-FE]
 [CHARD003][V0E00]
-976_014た、助かりました～。[END-FE]
+I-I was saved![END-FE]
 
 
 
@@ -500,7 +500,7 @@ Wendy[END-FF]
 //[CHARD003][V0D00]
 //976_013こ、怖かったです！[END-FE]
 [CHARD003][V0D00]
-976_013こ、怖かったです！[END-FE]
+I was so scared![END-FE]
 
 
 
@@ -511,7 +511,7 @@ Wendy[END-FF]
 //[CHARD003][V1F00]
 //976_031ありがとう！[END-FE]
 [CHARD003][V1F00]
-976_031ありがとう！[END-FE]
+Thank you![END-FE]
 
 
 
@@ -1813,7 +1813,7 @@ Wendy[END-FF]
 
 [CHAR2603][V1400]
 806_020ぶしつけですみませんが、[NLINE]
-お願いします！[END-FE]
+Please help![END-FE]
 
 
 
@@ -2301,7 +2301,7 @@ Wendy[END-FF]
 [CHAR2603][V3F00]
 806_063もし、向こうの大陸で薬の研究をしている[NLINE]
 施設があるなら、紹介してもらえませんか？[NLINE]
-お願いします！[END-FE]
+Please help![END-FE]
 
 
 
