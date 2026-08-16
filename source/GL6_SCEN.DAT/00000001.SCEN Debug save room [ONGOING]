@@ -171,7 +171,7 @@ What would you like to do?[END-FE]
 //POINTER #15 @ $645C - STRING #15 @ $70B3
 #W32($645C)
 //・ここの説明[END-FE]
-・Explanation of this place[END-FE]
+・About This Place[END-FE]
 
 
 
@@ -180,7 +180,7 @@ What would you like to do?[END-FE]
 //POINTER #16 @ $6460 - STRING #16 @ $70C2
 #W32($6460)
 //・高田の一時処理マクロ[END-FE]
-・Takada's temporary processing macro[END-FE]
+・Takada's Temporary Processing Macro[END-FE]
 
 
 
@@ -234,7 +234,7 @@ What would you like to do?[END-FE]
 //POINTER #22 @ $6478 - STRING #22 @ $7150
 #W32($6478)
 //・戦闘回りチェック[END-FE]
-・Battle Surroundings Check[END-FE]
+・Battle-Related Check[END-FE]
 
 
 
@@ -243,7 +243,7 @@ What would you like to do?[END-FE]
 //POINTER #23 @ $647C - STRING #23 @ $7165
 #W32($647C)
 //・クラスずれ対処[END-FE]
-・Fix Class Shift[END-FE]
+・Fix Class Misalignment[END-FE]
 
 
 
@@ -284,20 +284,19 @@ The closet acts as a door that leads[NLINE]
 anywhere. The exit returns you to[NLINE]
 the original location.[NWIN]
 
-By the way, the saves here are only[NLINE]
-available when you can go freely[NLINE]
-back and forth between fields and[NLINE]
-cities, or between dungeons and fields.[NWIN]
+By the way, saves here are only[NLINE]
+available when you can travel freely[NLINE]
+between fields and cities, or between[NLINE]
+dungeons and fields.[NWIN]
 
-Strictly speaking, this is only[NLINE]
-when you can go back and forth[NLINE]
-between large maps, and if you[NLINE]
-use it at any other time, the[NLINE]
-events get weird.[NWIN]
+Strictly speaking, saves here are only[NLINE]
+available when you can travel between[NLINE]
+large maps. Using them at any other time[NLINE]
+will make events behave strangely.[NWIN]
 
-Oh, and be aware that the automatic[NLINE]
-D-save can become unusable after[NLINE]
-you update the ROM![END-FE]
+Oh, and be aware that automatic[NLINE]
+D-saves may become unusable after[NLINE]
+a ROM update![END-FE]
 
 
 
@@ -306,7 +305,7 @@ you update the ROM![END-FE]
 //POINTER #26 @ $6488 - STRING #26 @ $7324
 #W32($6488)
 //・経験値ＵＰ[END-FE]
-・EXP UP[END-FE]
+・EXP Up[END-FE]
 
 
 
@@ -315,7 +314,7 @@ you update the ROM![END-FE]
 //POINTER #27 @ $648C - STRING #27 @ $7333
 #W32($648C)
 //・技能ポイントＵＰ[END-FE]
-・Skill Points UP[END-FE]
+・Skill Points Up[END-FE]
 
 
 
@@ -324,7 +323,7 @@ you update the ROM![END-FE]
 //POINTER #28 @ $6490 - STRING #28 @ $7348
 #W32($6490)
 //・両方ＵＰ[END-FE]
-・Both UP[END-FE]
+・Both Up[END-FE]
 
 
 
@@ -641,7 +640,7 @@ Go to the normal change screen?[END-FE]
 //POINTER #63 @ $651C - STRING #63 @ $7675
 #W32($651C)
 //ＰＣが４人いないとマズイみたい[END-FE]
-You need 4 PCs or it breaks.[END-FE]
+You need 4 PCs or the game may break.[END-FE]
 
 
 
@@ -1140,7 +1139,7 @@ Choose a chapter[END-FE]
 //POINTER #118 @ $65F8 - STRING #118 @ $7AE1
 #W32($65F8)
 //・０，１章[END-FE]
-・Chapter 0-1[END-FE]
+・Chapters 0 and 1[END-FE]
 
 
 
@@ -1194,7 +1193,7 @@ Choose a chapter[END-FE]
 //POINTER #124 @ $6610 - STRING #124 @ $7B1B
 #W32($6610)
 //・７，８章[END-FE]
-・Chapter 7-8[END-FE]
+・Chapters 7 and 8[END-FE]
 
 
 
@@ -1203,7 +1202,7 @@ Choose a chapter[END-FE]
 //POINTER #125 @ $6614 - STRING #125 @ $7B28
 #W32($6614)
 //・９，１０章[END-FE]
-・Chapter 9-10[END-FE]
+・Chapters 9 and 10[END-FE]
 
 
 
@@ -2912,8 +2911,8 @@ Door to Anywhere～[END-FE]
 //簡易移動なので、イベントが壊れる危険あり。[NLINE]
 //行けない時に、行けない場所へ行くのは危険。[END-FE]
 This is a simple jump, so there is a risk[NLINE]
-of breaking events. Going to places you[NLINE]
-shouldn't can be dangerous.[END-FE]
+of breaking events. Going where you shouldn't[NLINE]
+can be dangerous.[END-FE]
 
 
 
@@ -2986,7 +2985,7 @@ be treated as an automatic D-save![END-FE]
 //POINTER #319 @ $691C - STRING #319 @ $8D72
 #W32($691C)
 //・石原強制ワープ（一般の方お断り？）[END-FE]
-・Ishihara Forced Warp (Public not allowed?)[END-FE]
+・Ishihara Forced Warp (Not for public use?)[END-FE]
 
 
 
@@ -2995,7 +2994,7 @@ be treated as an automatic D-save![END-FE]
 //POINTER #320 @ $6920 - STRING #320 @ $8D99
 #W32($6920)
 //・画面撮影用（一般の方お断り？）[END-FE]
-・Screen Capture Mode (Public not allowed?)[END-FE]
+・Screen Capture Mode (Not for public use?)[END-FE]
 
 
 
@@ -3004,7 +3003,7 @@ be treated as an automatic D-save![END-FE]
 //POINTER #321 @ $6924 - STRING #321 @ $8DBC
 #W32($6924)
 //・肥田チェック用（一般の方お断り？）[END-FE]
-・Hida Check Mode (Public not allowed?)[END-FE]
+・Hida Check Mode (Not for public use?)[END-FE]
 
 
 
@@ -3013,7 +3012,7 @@ be treated as an automatic D-save![END-FE]
 //POINTER #322 @ $6928 - STRING #322 @ $8DE3
 #W32($6928)
 //・ギミック付き戦闘用（一般の方お断り？）[END-FE]
-・Gimmick Battle Mode (Public not allowed?)[END-FE]
+・Gimmick Battle Mode (Not for public use?)[END-FE]
 
 
 
@@ -3049,7 +3048,7 @@ Where would you like to go?[END-FE]
 //POINTER #326 @ $6938 - STRING #326 @ $8E55
 #W32($6938)
 //・ワースリー前[END-FE]
-・Warslee Village[END-FE]
+・In front of Warslee Village[END-FE]
 
 
 
@@ -3058,7 +3057,7 @@ Where would you like to go?[END-FE]
 //POINTER #327 @ $693C - STRING #327 @ $8E66
 #W32($693C)
 //・リオレー前[END-FE]
-・Rio Rey[END-FE]
+・In front of Rio Rey[END-FE]
 
 
 
@@ -3067,7 +3066,7 @@ Where would you like to go?[END-FE]
 //POINTER #328 @ $6940 - STRING #328 @ $8E75
 #W32($6940)
 //・ゼルドック前[END-FE]
-・Zerdok[END-FE]
+・In front of Zerdok[END-FE]
 
 
 
@@ -3076,7 +3075,7 @@ Where would you like to go?[END-FE]
 //POINTER #329 @ $6944 - STRING #329 @ $8E86
 #W32($6944)
 //・ガイラナック前[END-FE]
-・Geilenach[END-FE]
+・In front of Geilenach[END-FE]
 
 
 
@@ -3085,7 +3084,7 @@ Where would you like to go?[END-FE]
 //POINTER #330 @ $6948 - STRING #330 @ $8E99
 #W32($6948)
 //・ザーランバ前[END-FE]
-・Zaramba[END-FE]
+・In front of Zaramba[END-FE]
 
 
 
@@ -3094,7 +3093,7 @@ Where would you like to go?[END-FE]
 //POINTER #331 @ $694C - STRING #331 @ $8EAA
 #W32($694C)
 //・ヤージェン前[END-FE]
-・Jaergen[END-FE]
+・In front of Jaergen[END-FE]
 
 
 
@@ -3103,7 +3102,7 @@ Where would you like to go?[END-FE]
 //POINTER #332 @ $6950 - STRING #332 @ $8EBB
 #W32($6950)
 //・フェルメンティア前[END-FE]
-・Felmentia[END-FE]
+・In front of Felmentia[END-FE]
 
 
 
@@ -3112,7 +3111,7 @@ Where would you like to go?[END-FE]
 //POINTER #333 @ $6954 - STRING #333 @ $8ED2
 #W32($6954)
 //・ジュワイナ前[END-FE]
-・Juwaina[END-FE]
+・In front of Juwaina[END-FE]
 
 
 
@@ -3121,7 +3120,7 @@ Where would you like to go?[END-FE]
 //POINTER #334 @ $6958 - STRING #334 @ $8EE3
 #W32($6958)
 //・トトゥア前[END-FE]
-・Totuwa[END-FE]
+・In front of Totuwa[END-FE]
 
 
 
@@ -3130,7 +3129,7 @@ Where would you like to go?[END-FE]
 //POINTER #335 @ $695C - STRING #335 @ $8EF2
 #W32($695C)
 //・秘宝守護者里前(キャリィ屋リストにないけど)[END-FE]
-・Treasure Guardian Village (not on Steed list)[END-FE]
+・In front of Treasure Guardian Village (not on Steed list)[END-FE]
 
 
 
@@ -3139,7 +3138,7 @@ Where would you like to go?[END-FE]
 //POINTER #336 @ $6960 - STRING #336 @ $8F21
 #W32($6960)
 //・ポトラドの里前[END-FE]
-・Pothrad Village[END-FE]
+・In front of Pothrad Village[END-FE]
 
 
 
@@ -3157,7 +3156,7 @@ Where would you like to go?[END-FE]
 //POINTER #338 @ $6968 - STRING #338 @ $8F49
 #W32($6968)
 //・マキナス前[END-FE]
-・Makinus[END-FE]
+・In front of Makinus[END-FE]
 
 
 
@@ -3166,7 +3165,7 @@ Where would you like to go?[END-FE]
 //POINTER #339 @ $696C - STRING #339 @ $8F58
 #W32($696C)
 //・ダスティス前[END-FE]
-・Dastis[END-FE]
+・In front of Dastis[END-FE]
 
 
 
@@ -3175,7 +3174,7 @@ Where would you like to go?[END-FE]
 //POINTER #340 @ $6970 - STRING #340 @ $8F69
 #W32($6970)
 //・シザーズ前[END-FE]
-・Schizarz[END-FE]
+・In front of Schizarz[END-FE]
 
 
 
@@ -3184,7 +3183,7 @@ Where would you like to go?[END-FE]
 //POINTER #341 @ $6974 - STRING #341 @ $8F78
 #W32($6974)
 //・レイスタン前[END-FE]
-・Leystan[END-FE]
+・In front of Leystan[END-FE]
 
 
 
@@ -3193,7 +3192,7 @@ Where would you like to go?[END-FE]
 //POINTER #342 @ $6978 - STRING #342 @ $8F89
 #W32($6978)
 //・ロイフェロン前[END-FE]
-・Royferon[END-FE]
+・In front of Royferon[END-FE]
 
 
 
@@ -3202,7 +3201,7 @@ Where would you like to go?[END-FE]
 //POINTER #343 @ $697C - STRING #343 @ $8F9C
 #W32($697C)
 //・エル・ヒンギス前[END-FE]
-・El Hingis[END-FE]
+・In front of El Hingis[END-FE]
 
 
 
@@ -3211,7 +3210,7 @@ Where would you like to go?[END-FE]
 //POINTER #344 @ $6980 - STRING #344 @ $8FB1
 #W32($6980)
 //・研究所前[END-FE]
-・Research Institute[END-FE]
+・In front of Research Institute[END-FE]
 
 
 
@@ -3517,7 +3516,7 @@ Which one do you want to see?[END-FE]
 //POINTER #378 @ $6A08 - STRING #378 @ $921F
 #W32($6A08)
 //・尻尾振り歩き[END-FE]
-・Tail Swing Walk[END-FE]
+・Tail-Wagging Walk[END-FE]
 
 
 
@@ -3697,7 +3696,7 @@ Which one do you want to see?[END-FE]
 //POINTER #398 @ $6A58 - STRING #398 @ $933D
 #W32($6A58)
 //３、足つき腕振り（タップダンス？）[END-FE]
-3, Footwork Arm Swing (Tap Dance?)[END-FE]
+3, Footwork with Arm Swing (Tap Dance?)[END-FE]
 
 
 
@@ -4183,7 +4182,7 @@ Which voice?[END-FE]
 //POINTER #452 @ $6B30 - STRING #452 @ $9681
 #W32($6B30)
 //・タコ殴り[END-FE]
-・Octopus Beatdown[END-FE]
+・Pummeled[END-FE]
 
 
 
@@ -4291,7 +4290,7 @@ Which voice?[END-FE]
 //POINTER #464 @ $6B60 - STRING #464 @ $9741
 #W32($6B60)
 //どの声を聞きますか？[END-FE]
-Which voice do you want to listen to?[END-FE]
+Which voice?[END-FE]
 
 
 
@@ -4300,7 +4299,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #465 @ $6B64 - STRING #465 @ $9758
 #W32($6B64)
 //・攻撃前[END-FE]
-・Before the attack[END-FE]
+・Before Attack[END-FE]
 
 
 
@@ -4327,7 +4326,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #468 @ $6B70 - STRING #468 @ $9781
 #W32($6B70)
 //・回復魔法[END-FE]
-・Recovery Magic[END-FE]
+・Healing Magic[END-FE]
 
 
 
@@ -4336,7 +4335,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #469 @ $6B74 - STRING #469 @ $978E
 #W32($6B74)
 //・攻撃無効[END-FE]
-・Attack disabled[END-FE]
+・Attack Nullified[END-FE]
 
 
 
@@ -4354,7 +4353,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #471 @ $6B7C - STRING #471 @ $97A8
 #W32($6B7C)
 //・撃破された[END-FE]
-・Knocked out[END-FE]
+・Defeated[END-FE]
 
 
 
@@ -4363,7 +4362,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #472 @ $6B80 - STRING #472 @ $97B7
 #W32($6B80)
 //・武器撃破[END-FE]
-・Weapon break[END-FE]
+・Weapon Broken[END-FE]
 
 
 
@@ -4372,7 +4371,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #473 @ $6B84 - STRING #473 @ $97C4
 #W32($6B84)
 //・魔法撃破[END-FE]
-・Magic defeat[END-FE]
+・Magic Broken[END-FE]
 
 
 
@@ -4381,7 +4380,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #474 @ $6B88 - STRING #474 @ $97D1
 #W32($6B88)
 //・戦闘勝利[END-FE]
-・Battle victory[END-FE]
+・Battle Victory[END-FE]
 
 
 
@@ -4399,7 +4398,7 @@ Which voice do you want to listen to?[END-FE]
 //POINTER #476 @ $6B90 - STRING #476 @ $97E7
 #W32($6B90)
 //・コマンド開き[END-FE]
-・Command open[END-FE]
+・Command Open[END-FE]
 
 
 
@@ -4426,7 +4425,7 @@ Which one would you like to hear?[END-FE]
 //POINTER #479 @ $6B9C - STRING #479 @ $9818
 #W32($6B9C)
 //・攻撃前１[END-FE]
-・Before attack 1[END-FE]
+・Before Attack 1[END-FE]
 
 
 
@@ -4435,7 +4434,7 @@ Which one would you like to hear?[END-FE]
 //POINTER #480 @ $6BA0 - STRING #480 @ $9825
 #W32($6BA0)
 //・攻撃前２[END-FE]
-・Before attack 2[END-FE]
+・Before Attack 2[END-FE]
 
 
 
@@ -4507,7 +4506,7 @@ Which one would you like to hear?[END-FE]
 //POINTER #488 @ $6BC0 - STRING #488 @ $98A1
 #W32($6BC0)
 //どの声を聞きますか？[END-FE]
-Which voice do you want to listen to?[END-FE]
+Which voice?[END-FE]
 
 
 
@@ -4850,8 +4849,8 @@ Use Korin version?[END-FE]
 #W32($6C58)
 //ダンジョンレディ何回の[NLINE]
 //イベント見ますか？[END-FE]
-How many Dungeon Lady events?[NLINE]
-Which one?[END-FE]
+Which Dungeon Lady event[NLINE]
+do you want to see?[END-FE]
 
 
 
@@ -5387,7 +5386,7 @@ Boss battle jump is not implemented yet.[END-FE]
 //POINTER #584 @ $6D40 - STRING #584 @ $A171
 #W32($6D40)
 //３　BTL_03：戦闘３（優勢ムード）[END-FE]
-3 BTL_03: Battle 3 (Advantage Mood)[END-FE]
+3 BTL_03: Battle 3 (Winning Mood)[END-FE]
 
 
 
@@ -5396,7 +5395,7 @@ Boss battle jump is not implemented yet.[END-FE]
 //POINTER #585 @ $6D44 - STRING #585 @ $A194
 #W32($6D44)
 //４　BTL_04：戦闘４（劣勢ムード…というか時間ない？）[END-FE]
-4 BTL_04: Battle 4 (Disadvantage Mood... or no time?)[END-FE]
+4 BTL_04: Battle 4 (Losing Mood... or no time?)[END-FE]
 
 
 
@@ -5423,7 +5422,7 @@ Boss battle jump is not implemented yet.[END-FE]
 //POINTER #588 @ $6D50 - STRING #588 @ $A217
 #W32($6D50)
 //４３BTL_07：戦闘７（６ではイベント戦闘で使用可）[END-FE]
-43 BTL_07: Battle 7 (Usable in event battles in 6)[END-FE]
+43 BTL_07: Battle 7 (Usable in event battles in GL6)[END-FE]
 
 
 
@@ -5954,7 +5953,7 @@ Map SE Slot 1[END-FE]
 //POINTER #647 @ $6E3C - STRING #647 @ $A7DF
 #W32($6E3C)
 //マップＳＥ両方[END-FE]
-Both Map SE[END-FE]
+Both Map SE Slots[END-FE]
 
 
 
@@ -5981,7 +5980,7 @@ Stop All SE[END-FE]
 //POINTER #650 @ $6E48 - STRING #650 @ $A80C
 #W32($6E48)
 //・ユリィの追従目標を主人公に[END-FE]
-・Set Yurii to follow the protagonist[END-FE]
+・Set Yurii to follow the main character[END-FE]
 
 
 
@@ -6197,7 +6196,7 @@ How do you want to set it?[END-FE]
 //POINTER #674 @ $6EA8 - STRING #674 @ $A9DC
 #W32($6EA8)
 //・誰かとＥＮＤ[END-FE]
-・End with Someone[END-FE]
+・Ending with Someone[END-FE]
 
 
 
@@ -6262,9 +6261,9 @@ How do you want to set it?[END-FE]
 //これは、キャラＥＮＤのアニメと[NLINE]
 //スタッフロールの間に挿入される、[NLINE]
 //登場人物のエピローグ劇です。[END-FE]
-This is an epilogue play for the[NLINE]
+This is an epilogue play featuring the[NLINE]
 characters, inserted between the[NLINE]
-character END animation and the[NLINE]
+character ending animation and the[NLINE]
 staff roll.[END-FE]
 
 
