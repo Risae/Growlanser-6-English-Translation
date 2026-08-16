@@ -171,7 +171,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #15 @ $535C - STRING #15 @ $5D33
 #W32($535C)
 //・セーブ([R1]押しでLOAD)[END-FE]
-・Save (Hold [R1] for Load)[END-FE]
+・Save (Hold [R1] to Load)[END-FE]
 
 
 
@@ -591,7 +591,7 @@ Check additional Neilis events?[END-FE]
 //POINTER #61 @ $5414 - STRING #61 @ $617B
 #W32($5414)
 //・ノーラにアイテム見て貰う[END-FE]
-・Show item to Nora[END-FE]
+・Have Nora inspect the item[END-FE]
 
 
 
@@ -645,7 +645,7 @@ Check additional Neilis events?[END-FE]
 //POINTER #67 @ $542C - STRING #67 @ $6215
 #W32($542C)
 //・７章終了間際[END-FE]
-・Near End of Chapter 7[END-FE]
+・Near the End of Chapter 7[END-FE]
 
 
 
@@ -654,7 +654,7 @@ Check additional Neilis events?[END-FE]
 //POINTER #68 @ $5430 - STRING #68 @ $6226
 #W32($5430)
 //・マキナスに帰還から[END-FE]
-・From Return to Makinus[END-FE]
+・After Returning to Makinus[END-FE]
 
 
 
@@ -672,7 +672,7 @@ Check additional Neilis events?[END-FE]
 //POINTER #70 @ $5438 - STRING #70 @ $6252
 #W32($5438)
 //・ウェンディ合流から[END-FE]
-・From Meeting Wendy[END-FE]
+・After Wendy Joins[END-FE]
 
 
 
@@ -820,7 +820,7 @@ What will you do? Exit with [CROSS][END-FE]
 //POINTER #86 @ $5478 - STRING #86 @ $6426
 #W32($5478)
 //・座標指定メッセージチェック[END-FE]
-・Message check (specified coordinates)[END-FE]
+・Coordinate-Specified Message Check[END-FE]
 
 
 
@@ -856,7 +856,7 @@ What will you do? Exit with [CROSS][END-FE]
 //POINTER #90 @ $5488 - STRING #90 @ $6486
 #W32($5488)
 //・パーティー集合解散チェック[END-FE]
-・Party Assemble/Dismiss Check[END-FE]
+・Party Assembly/Dismissal Check[END-FE]
 
 
 
@@ -955,7 +955,7 @@ Jump to scenario check?[END-FE]
 //POINTER #101 @ $54B4 - STRING #101 @ $658D
 #W32($54B4)
 //本地名表示しますか？[END-FE]
-Display home name?[END-FE]
+Display local place name?[END-FE]
 
 
 
@@ -1297,7 +1297,7 @@ What will you do? Exit with [COL09][CIRCLE][END-FE]
 //POINTER #139 @ $554C - STRING #139 @ $67DD
 #W32($554C)
 //捕食マクロを試しますか？[END-FE]
-Test predatory macro?[END-FE]
+Test Predator Macro?[END-FE]
 
 
 
@@ -1758,7 +1758,7 @@ Next, the version with speech bubbles[END-FE]
 //POINTER #190 @ $5618 - STRING #190 @ $6B0E
 #W32($5618)
 //選択文の吹き出しチェック（北）[END-FE]
-Selective speech bubble check (North)[END-FE]
+Choice Text Speech Bubble Check (North)[END-FE]
 
 
 
@@ -1767,7 +1767,7 @@ Selective speech bubble check (North)[END-FE]
 //POINTER #191 @ $561C - STRING #191 @ $6B2F
 #W32($561C)
 //選択文の吹き出しチェック（南）[END-FE]
-Selective speech bubble check (South)[END-FE]
+Choice Text Speech Bubble Check (South)[END-FE]
 
 
 
@@ -1776,7 +1776,7 @@ Selective speech bubble check (South)[END-FE]
 //POINTER #192 @ $5620 - STRING #192 @ $6B50
 #W32($5620)
 //選択文の吹き出しチェック（東）[END-FE]
-Selective speech bubble check (East)[END-FE]
+Choice Text Speech Bubble Check (East)[END-FE]
 
 
 
@@ -1785,7 +1785,7 @@ Selective speech bubble check (East)[END-FE]
 //POINTER #193 @ $5624 - STRING #193 @ $6B71
 #W32($5624)
 //選択文の吹き出しチェック（西）[END-FE]
-Selective speech bubble check (West)[END-FE]
+Choice Text Speech Bubble Check (West)[END-FE]
 
 
 
@@ -1848,7 +1848,7 @@ Turn off Fanille[END-FE]
 //POINTER #200 @ $5640 - STRING #200 @ $6C04
 #W32($5640)
 //ＭＥＳに顔指定でファニル０を出します[END-FE]
-Fanille 0 with face designation to MES[END-FE]
+Display Fanille 0 in MES with a face designation[END-FE]
 
 
 
@@ -2496,7 +2496,7 @@ What will you do with Yurii?[END-FE]
 //POINTER #272 @ $5760 - STRING #272 @ $7132
 #W32($5760)
 //・追従者を[MainCharName]にする[END-FE]
-・Follow [MainCharName][END-FE]
+・Set follower to [MainCharName][END-FE]
 
 
 
@@ -2505,7 +2505,7 @@ What will you do with Yurii?[END-FE]
 //POINTER #273 @ $5764 - STRING #273 @ $7149
 #W32($5764)
 //・追従者をウェンディにする[END-FE]
-・Follow Wendy[END-FE]
+・Set follower to Wendy[END-FE]
 
 
 
@@ -2514,7 +2514,7 @@ What will you do with Yurii?[END-FE]
 //POINTER #274 @ $5768 - STRING #274 @ $7166
 #W32($5768)
 //・追従者をルキアスにする[END-FE]
-・Follow Rukias[END-FE]
+・Set follower to Rukias[END-FE]
 
 
 
@@ -2595,7 +2595,7 @@ What will you do with Korin?[END-FE]
 //POINTER #283 @ $578C - STRING #283 @ $7201
 #W32($578C)
 //・追従者を[MainCharName]にする[END-FE]
-・Follow [MainCharName][END-FE]
+・Set follower to [MainCharName][END-FE]
 
 
 
@@ -2604,7 +2604,7 @@ What will you do with Korin?[END-FE]
 //POINTER #284 @ $5790 - STRING #284 @ $7218
 #W32($5790)
 //・追従者をウェンディにする[END-FE]
-・Follow Wendy[END-FE]
+・Set follower to Wendy[END-FE]
 
 
 
@@ -2613,7 +2613,7 @@ What will you do with Korin?[END-FE]
 //POINTER #285 @ $5794 - STRING #285 @ $7235
 #W32($5794)
 //・追従者をルキアスにする[END-FE]
-・Follow Rukias[END-FE]
+・Set follower to Rukias[END-FE]
 
 
 
@@ -2622,7 +2622,7 @@ What will you do with Korin?[END-FE]
 //POINTER #286 @ $5798 - STRING #286 @ $7250
 #W32($5798)
 //集合解散のチェックする[END-FE]
-Check party assemble/dismiss[END-FE]
+Check party assembly/dismissal[END-FE]
 
 
 
@@ -2640,7 +2640,7 @@ What will you do?[END-FE]
 //POINTER #288 @ $57A0 - STRING #288 @ $7276
 #W32($57A0)
 //・パーティーを増やす[END-FE]
-・Increase party[END-FE]
+・Increase party size[END-FE]
 
 
 
@@ -2703,7 +2703,7 @@ What will you do?[END-FE]
 //POINTER #295 @ $57BC - STRING #295 @ $72FB
 #W32($57BC)
 //吹き出し位置調整する？[END-FE]
-Adjust pop-up position?[END-FE]
+Adjust speech bubble position?[END-FE]
 
 
 
@@ -4111,7 +4111,7 @@ Which one to set?[END-FE]
 //POINTER #427 @ $59CC - STRING #427 @ $88F0
 #W32($59CC)
 //再生の仕方は？（初期値は１回）[END-FE]
-How to play? (Default: once)[END-FE]
+Playback mode? (Default: once)[END-FE]
 
 
 
