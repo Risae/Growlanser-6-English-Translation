@@ -82,7 +82,7 @@ Location: 0x30BFD8
 
 Location: 0x30BFE8 (Pointer 0x30C0C4 changed: [68BF4000] -> [70BF4000])
 [FF88]が死亡[FFFF][00]
-[FF88] dead.[FFFF][00]
+[FF88] died.[FFFF][00]
 
 Location: 0x30BFF8 (Pointer 0x30C0C8 changed: [78BF4000] -> [80BF4000])
 [FF88]が退却[FFFF][00]
@@ -103,7 +103,7 @@ Location: 0x30C008 (Pointer 0x30C0CC changed: [88BF4000] -> [90BF4000])
 	.notice "Modified 0x30C0C4"
 
 .orga 0x30BFF0 // Original: 0x30BFE8
-	.string 0xFF, 0x88, " dead", 0xFF, 0xFF, 0x00
+	.string 0xFF, 0x88, " died", 0xFF, 0xFF, 0x00
 	.notice "Modified 0x30BFF0"
 
 
@@ -327,18 +327,18 @@ Skill Plate [00]
 	.notice "Modified 0x32A110"
 
 
-.orga 0x2FAF24 // Pointer
+.orga 0x2FAF34 // Pointer
 	.byte 0xA0, 0xA0, 0x42, 0x00
-	.notice "Modified 0x2FAF24"
+	.notice "Modified 0x2FAF34"
 
 .orga 0x32A120 // Original: 0x32A118
 	.string "!", 0x00
 	.notice "Modified 0x32A120"
 
 
-.orga 0x2FAF24 // Pointer
+.orga 0x2FAF38 // Pointer
 	.byte 0xA3, 0xA0, 0x42, 0x00
-	.notice "Modified 0x2FAF24"
+	.notice "Modified 0x2FAF38"
 
 .orga 0x32A123 // Original: 0x32A128
 	.string "Skill Plate "
@@ -1637,7 +1637,7 @@ Location: 0x32C978
 
 Location: 0x32C990
 %s を装備します[00]
-Equipping %s .[00]
+Equipping %s.[00]
 
 Location: 0x32C9A0
 よろしいですか？[00]
@@ -1655,7 +1655,7 @@ Location: 0x32C9C0
 // To-Do
 
 .orga 0x32C990
-	.string "Equipping %s ."
+	.string "Equipping %s."
 	.notice "Modified 0x32C990"
 
 .orga 0x32C9A0
