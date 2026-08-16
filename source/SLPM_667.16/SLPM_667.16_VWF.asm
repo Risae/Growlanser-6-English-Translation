@@ -11,12 +11,6 @@ SetTextScale               equ 0x00151890 ; Sets text scaling
 DrawLetter                 equ 0x001522BC ; Draws a single letter
 DrawTextAt                 equ 0x00151840 ; Draws text at specified coordinates
 z_un_00275520              equ 0x00275520 ; Text draw function
-z_un_0027e510              equ 0x0027E510 ; Width helper for control code 0x81
-z_un_0027e7a0              equ 0x0027E7A0 ; Width helper for control codes 0x80, 0x82, 0x83
-z_un_0027eca0              equ 0x0027ECA0 ; Width helper for control code 0xE1
-z_un_0027f380              equ 0x0027F380 ; Width helper for control code 0xEA
-z_un_0027f760              equ 0x0027F760 ; Width helper for control code 0xE6
-z_un_0027fb70              equ 0x0027FB70 ; Width helper for control code 0xEF
 z_un_002c74f0              equ 0x002C74F0 ; Unknown patched function for full-width numbers when you kill more than 1 enemy
 z_un_002c7840              equ 0x002C7840 ; Unknown patched function for full-width numbers when you kill more than 1 enemy
 z_un_003c6ff0              equ 0x003C6FF0 ; Unknown patched function for Gate text render + Speech bubble
@@ -178,7 +172,6 @@ line width and round up But I need to create the "get line pixel width" function
     lbu       s2,0x1A8(s0)               ; line counter
     lw        s4,0x18C(s0)               ; Load line address into s4
     li        s5,VWFtable                ; Load VWFtable
-    dmove     s7,zero                    ; Reset the pixel-width accumulator
     lbu       s2,(s4)
     bne       s2,0xFF,@@loop
     nop
@@ -218,7 +211,7 @@ line width and round up But I need to create the "get line pixel width" function
     nop
 
     @@CalculateName:
-    lhu       s6,-0x2(s4)
+    lhu       s6,-0x2(S4)
     bne       s6,0x1,@@Loop              ; Not MC's name, skip
     nop
     sw        s4,-0x4(sp)
@@ -322,24 +315,12 @@ line width and round up But I need to create the "get line pixel width" function
     nop
     beq       t3, 0xEA, @@MainCharTag
     nop
-    beq       t3, 0xE1, @@DynamicE1
-    nop
-    beq       t3, 0xE6, @@DynamicE6
-    nop
-    beq       t3, 0xEF, @@DynamicEF
-    nop
 
     ; 0x80-0x83
     addiu     t4, t3, -0x80
     sltiu     t4, t4, 0x4
-    beqz      t4, @@Check81
+    bnez      t4, @@Skip2
     nop
-    beq       t3, 0x81, @@Dynamic81
-    nop
-    b         @@Dynamic80
-    nop
-
-    @@Check81:
 
     ; 0xAA-0xB5
     addiu     t4, t3, -0xAA
@@ -400,7 +381,13 @@ line width and round up But I need to create the "get line pixel width" function
     nop
     beq       t3, 0xDF, @@Skip3
     nop
+    beq       t3, 0xE1, @@Skip3
+    nop
     beq       t3, 0xE5, @@Skip3
+    nop
+    beq       t3, 0xE6, @@Skip3
+    nop
+    beq       t3, 0xEF, @@Skip3
     nop
 
     ; Unknown control code: stop rather than walking off into bad data.
@@ -409,12 +396,8 @@ line width and round up But I need to create the "get line pixel width" function
 
     @@MainCharTag:
     lbu       t4, 0x2(t0)                ; tag argument used by the original width routine
-    beq       t4, 0x1, @@MainCharName
+    bne       t4, 0x1, @@Skip4
     nop
-    b         @@DynamicEA
-    nop
-
-    @@MainCharName:
     li        t5, 0x50E8B2               ; MC name, 0xFF terminated
 
     @@NameLoop:
@@ -441,70 +424,6 @@ line width and round up But I need to create the "get line pixel width" function
 
     @@NameDone:
     addiu     t0, 0x4
-    b         @@Loop
-    nop
-
-    @@Dynamic80:
-    li        s3, 0x2
-    move      a1, t3
-    li        t9, z_un_0027e7a0
-    b         @@DynamicCall
-    nop
-
-    @@Dynamic81:
-    li        s3, 0x2
-    move      a1, t3
-    li        t9, z_un_0027e510
-    b         @@DynamicCall
-    nop
-
-    @@DynamicE1:
-    li        s3, 0x3
-    lbu       a1, 0x2(t0)
-    li        t9, z_un_0027eca0
-    b         @@DynamicCall
-    nop
-
-    @@DynamicE6:
-    li        s3, 0x3
-    move      a1, zero
-    li        t9, z_un_0027f760
-    b         @@DynamicCall
-    nop
-
-    @@DynamicEF:
-    li        s3, 0x3
-    lb        a1, 0x2(t0)
-    andi      a1, a1, 0xFFFF
-    li        t9, z_un_0027fb70
-    b         @@DynamicCall
-    nop
-
-    @@DynamicEA:
-    li        s3, 0x4
-    lb        a1, 0x2(t0)
-    andi      a1, a1, 0xFFFF
-    li        t9, z_un_0027f380
-    b         @@DynamicCall
-    nop
-
-    @@DynamicCall:
-    move      s0, t0
-    move      s1, t1
-    move      s2, t2
-    move      a0, s5
-    move      a2, zero
-    move      a3, zero
-    jalr      t9
-    nop
-    move      t0, s0
-    move      t1, s1
-    move      t2, s2
-    sll       t4, v0, 0x3
-    addu      t4, t4, v0
-    sll       t4, t4, 0x1
-    addu      t1, t1, t4
-    addu      t0, t0, s3
     b         @@Loop
     nop
 
