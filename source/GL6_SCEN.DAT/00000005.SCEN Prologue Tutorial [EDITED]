@@ -271,8 +271,7 @@ defense...![END-FE]
 //男\\
 //スッゲェ～連撃だったよ。[END-FE]
 //Warrior\\
-Amazing![NLINE]
-My defense was completely shattered.[END-FE]
+That was an amazing combo![END-FE]
 
 
 
@@ -292,8 +291,8 @@ My defense was completely shattered.[END-FE]
 //Guard\\
 ...What should I do?[NWIN]
 
-It's almost the time I promised to meet[NLINE]
-my sweetheart at, but my relief hasn't[NLINE]
+It's almost time for me to meet my[NLINE]
+sweetheart, but my relief hasn't[NLINE]
 arrived yet...[NWIN]
 
 Just what should I do...?[END-FE]
@@ -705,10 +704,9 @@ But how did you make it fall?[END-FE]
 //まだ気付かないのかなぁ…。[NLINE]
 //あの左の奴なのに…。[END-FE]
 //Villager\\
-I've narrowed it down to four worn[NLINE]
-down pillars, but I haven't been[NLINE]
-able to spot the treasure yet...[NLINE]
-I'm sure it's on one of them on the left...[END-FE]
+That kid has narrowed it down to four[NLINE]
+pillars, but he still hasn't noticed...[NLINE]
+Even though it's the one on the left...[END-FE]
 
 
 
@@ -721,10 +719,9 @@ I'm sure it's on one of them on the left...[END-FE]
 //まだ気付かないのかなぁ…。[NLINE]
 //あの手前の奴なのに…。[END-FE]
 //Villager\\
-I've narrowed it down to four worn[NLINE]
-down pillars, but I haven't been[NLINE]
-able to spot the treasure yet...[NLINE]
-I'm sure it's on one of them in the front...[END-FE]
+That kid has narrowed it down to four[NLINE]
+pillars, but he still hasn't noticed...[NLINE]
+Even though it's the one in front...[END-FE]
 
 
 
@@ -737,10 +734,9 @@ I'm sure it's on one of them in the front...[END-FE]
 //まだ気付かないのかなぁ…。[NLINE]
 //あの右の奴なのに…。[END-FE]
 //Villager\\
-I've narrowed it down to four worn[NLINE]
-down pillars, but I haven't been[NLINE]
-able to spot the treasure yet...[NLINE]
-I'm sure it's on one of them on the right...[END-FE]
+That kid has narrowed it down to four[NLINE]
+pillars, but he still hasn't noticed...[NLINE]
+Even though it's the one on the right...[END-FE]
 
 
 
@@ -753,10 +749,9 @@ I'm sure it's on one of them on the right...[END-FE]
 //まだ気付かないのかなぁ…。[NLINE]
 //あの奥の奴なのに…。[END-FE]
 //Villager\\
-I've narrowed it down to four worn[NLINE]
-down pillars, but I haven't been[NLINE]
-able to spot the treasure yet...[NLINE]
-I'm sure it's on one of them in the back...[END-FE]
+That kid has narrowed it down to four[NLINE]
+pillars, but he still hasn't noticed...[NLINE]
+Even though it's the one in back...[END-FE]
 
 
 
@@ -768,9 +763,9 @@ I'm sure it's on one of them in the back...[END-FE]
 //…怪しいと思っても、[NLINE]
 //上までのぼれないんじゃ意味ないぜ。[END-FE]
 //Villager\\
-...But just because I think those[NLINE]
-pillars are fishy, doesn't[NLINE]
-mean I'm able to climb them.[END-FE]
+...But just because those pillars look[NLINE]
+suspicious doesn't mean I can climb[NLINE]
+them.[END-FE]
 
 
 
@@ -1035,10 +1030,9 @@ counting down. Which action is that?[END-FE]
 //外見だけでなく中身まで一流だね！[NLINE]
 //あんたなら本物の一流になれるよ！[END-FE]
 //Villager\\
-Not only does your physique match that[NLINE]
-of an elite warrior, but your mind[NLINE]
-as well! You have answered all the[NLINE]
-questions correctly![NWIN]
+You answered all the questions correctly![NWIN]
+Not only do you have the physique of an[NLINE]
+elite warrior, but the mind to match![NLINE]
 
 You could become a true first-class[NLINE]
 fighter someday![END-FE]
@@ -3217,9 +3211,8 @@ I would like to give it to them as a[NLINE]
 reminder of their treasure hunt.[NWIN]
 
 I'm not saying for free, of course![NLINE]
-You could say this is something more[NLINE]
-for use around home, but how about[NLINE]
-I trade you this toolbox for it?[END-FE]
+Though all I have is a toolbox. Would[NLINE]
+you trade it for the treasure?[END-FE]
 
 
 
@@ -3503,11 +3496,11 @@ continue attacking the target automatically.[END-FE]
 //主人公の頭部には黄色い輪が表示されます。[NLINE]
 //また誰を攻撃したかが報告されます。[END-FE]
 //System Message\\
-Furthermore, when the enemy target has been[NLINE]
-decided, a target-lock will be displayed[NLINE]
-around its HP meter. A yellow aura around[NLINE]
-the main character indicates that you[NLINE]
-or the enemy has dealt out an attack.[END-FE]
+Furthermore, when you select an attack target,[NLINE]
+a target lock will appear around its HP[NLINE]
+meter. A yellow ring will appear around[NLINE]
+the main character's head, and you will be[NLINE]
+informed which target you are attacking.[END-FE]
 
 
 
@@ -3590,10 +3583,10 @@ can perform another action.[END-FE]
 //ただし、移動をすると[NLINE]
 //自動攻撃はキャンセルされます。[END-FE]
 //System Message\\
-Moving while time on the ATW Gauge remains[NLINE]
-[COL01]is only possible for the main character[COL00].[NLINE]
-However, when you move, your automatic[NLINE]
-attack will be cancelled.[END-FE]
+[COL01]Only the main character can move[COL00][NLINE]
+while time remains on the ATW Gauge.[NLINE]
+However, moving will cancel his automatic[NLINE]
+attack.[END-FE]
 
 
 
@@ -3724,7 +3717,7 @@ This is it![NWIN]
 With this I can repair the elevator and[NLINE]
 the door! Thanks a lot![NWIN]
 
-It's really small, but please take this[NLINE]
+It's not much, but please take this[NLINE]
 as a token of my gratitude.[END-FE]
 
 
@@ -3937,8 +3930,7 @@ the time being.[END-FE]
 //市民\\
 //修理するか。[END-FE]
 //Technician\\
-I can finally fix it![NLINE]
-Thanks again![END-FE]
+I guess I'll repair it.[END-FE]
 
 
 
@@ -4135,8 +4127,9 @@ the elevator.[NWIN]
 I have to patrol this place. If you have[NLINE]
 time, will you let someone know about it?[NWIN]
 
-There's a shop right next to it. There[NLINE]
-should be a technician there.[NWIN]
+There's a shop right next to the[NLINE]
+bottom exit. There should be a[NLINE]
+technician there.[NWIN]
 
 Can you tell him that there's something[NLINE]
 wrong with the elevator?[END-FE]
@@ -4183,10 +4176,9 @@ wrong with the elevator?[END-FE]
 //外でたくさんのゲルを見かけたそうだ。[NLINE]
 //しばらく、街の入り口を封鎖するみたいだ。[END-FE]
 //Guard\\
-There have been a lot of Slimes around[NLINE]
-these days. They've been blocking the[NLINE]
-entrance to the town for some time[NLINE]
-now.[END-FE]
+I hear a lot of Slimes have been[NLINE]
+sighted outside. It seems the town[NLINE]
+entrance will be closed for a while.[END-FE]
 
 
 
@@ -5090,8 +5082,8 @@ IT'S NOT HERE![END-FE]
 What should I do? I didn't expect the[NLINE]
 string of the necklace to break.[NWIN]
 
-I had to go in debt in order to[NLINE]
-purchase it...[NWIN]
+I went to all that trouble to get it,[NLINE]
+but now I'll be taking a loss...[NWIN]
 
 Where could I have dropped it...? I've[NLINE]
 taken a tour around the city, and[NLINE]
@@ -5812,9 +5804,9 @@ The elevator might collapse![END-FE]
 //市民\\
 //う～ん、どうもエレベーターの調子が悪いな。[NLINE]
 //技師の人に言っといた方が良いのかな。[END-FE]
-//Technician\\
+//Guard\\
 Hmm, the elevator doesn't seem to[NLINE]
-be working properly. I better[NLINE]
+be working properly. I should[NLINE]
 tell a technician about it.[END-FE]
 
 
@@ -5893,7 +5885,7 @@ Thanks a ton, mister![END-FE]
 //まあ、遊んでもらったし、[NLINE]
 //カンシャはしてるよ。[END-FE]
 //Boy/Girl\\
-Anyways, you were still kind enough[NLINE]
+Anyway, you were still kind enough[NLINE]
 to play with me, so thanks a ton,[NLINE]
 mister![END-FE]
 
@@ -6501,8 +6493,8 @@ My apologies for making idle talk...[END-FE]
 #W32($106E0)
 //お、おい！[NLINE]
 //エレベーターが止まっちまったぞ！[END-FE]
-Huh? The elevator[NLINE]
-stopped moving.[END-FE]
+H-hey! The elevator[NLINE]
+stopped![END-FE]
 
 
 
@@ -6511,8 +6503,8 @@ stopped moving.[END-FE]
 //POINTER #497 @ $106E4 - STRING #497 @ $17827
 #W32($106E4)
 //さっき誰か乗っていたぞ！[END-FE]
-But it was working[NLINE]
-fine just now![END-FE]
+Someone was just[NLINE]
+riding it![END-FE]
 
 
 
@@ -6723,7 +6715,7 @@ little while, so come play with us![END-FE]
 //Boy/Girl\\
 Alright! This mister gets it![NWIN]
 
-Anyways, what are we gonna play...?[END-FE]
+Anyway, what are we gonna play...?[END-FE]
 
 
 
@@ -8485,7 +8477,7 @@ of the race![END-FE]
 //
 //どの順番でも良いから[NLINE]
 //３つとも回って早く戻ってきた方の勝ちだ！[END-FE]
-The three places where my friends're[NLINE]
+The three places where my friends are[NLINE]
 standing act as checkpoints. Run around[NLINE]
 each of them in a half-circle, then come[NLINE]
 back here.[NWIN]
@@ -8678,7 +8670,7 @@ Your powers of deduction are remarkable![END-FE]
 //それを見つけてくるとは中々。[END-FE]
 //Old Man\\
 You seem to have gotten a little dirt[NLINE]
-on you, but it's all about finding it.[END-FE]
+on you, but finding it was impressive.[END-FE]
 
 
 
@@ -8811,10 +8803,10 @@ ago, and I can no longer walk[NLINE]
 properly because I can't move[NLINE]
 from this position.[NWIN]
 
-I heard that the shop just outside[NLINE]
-here sells good pain medicine for one's[NLINE]
-back at the counter, but like I said,[NLINE]
-I can't move.[END-FE]
+I heard the shop just outside the[NLINE]
+exit in front of the counter sells[NLINE]
+medicine that works well for back pain,[NLINE]
+but... I can't move.[END-FE]
 
 
 
@@ -9510,8 +9502,8 @@ carefully.[END-FE]
 //そうかい。[NLINE]
 //しっかり覚えてきなよ。[END-FE]
 //Scientist\\
-That's right! You remembered[NLINE]
-correctly.[END-FE]
+I see. Make sure you memorize it[NLINE]
+well.[END-FE]
 
 
 
@@ -10208,7 +10200,7 @@ magic and items?[END-FE]
 In order to cast magic, first select[NLINE]
 the character who will cast the spell,[NLINE]
 then select the desired spell from[NLINE]
-the menu. Next, select the magic level[NLINE]
+the [COL01]Magic[COL00] menu. Next, select the magic level[NLINE]
 of the spell.[END-FE]
 
 
@@ -12182,7 +12174,7 @@ Before the magic attack[END-FE]
 //POINTER #982 @ $10E78 - STRING #982 @ $1C994
 #W32($10E78)
 //魔法補助前[END-FE]
-Before the magic assistance[END-FE]
+Before support magic[END-FE]
 
 
 
@@ -12191,7 +12183,7 @@ Before the magic assistance[END-FE]
 //POINTER #983 @ $10E7C - STRING #983 @ $1C9A1
 #W32($10E7C)
 //魔法補助前[END-FE]
-Before the magic assistance[END-FE]
+Before support magic[END-FE]
 
 
 
@@ -12209,7 +12201,7 @@ After the magic attack[END-FE]
 //POINTER #985 @ $10E84 - STRING #985 @ $1C9BB
 #W32($10E84)
 //魔法補助後[END-FE]
-After the magic assistance[END-FE]
+After support magic[END-FE]
 
 
 
@@ -12218,7 +12210,7 @@ After the magic assistance[END-FE]
 //POINTER #986 @ $10E88 - STRING #986 @ $1C9C8
 #W32($10E88)
 //魔法補助後[END-FE]
-After the magic assistance[END-FE]
+After support magic[END-FE]
 
 
 
